@@ -1,0 +1,289 @@
+9
+org/eclipse/osgi/framework/internal/protocol/MultiplexingFactory.<init>(Lorg/osgi/framework/BundleContext;Lorg/eclipse/osgi/framework/adaptor/FrameworkAdaptor;)V
+PTG:
+Vars:
+5
+$r3 1 15 
+r0 1 -1 
+r2 1 -3 
+$r4 1 30 
+r1 1 -2 
+Fields: 1
+-1 packageAdminTracker 30
+Accesses: 4
+6 1 -1 
+26 1 -1 
+11 1 -1 
+29 1 -1 
+Functions: 3
+1 2 -1 30 
+33 1 30 
+23 2 -2 15 
+Constructors: 2
+1 -1
+23 15
+
+Summary: 3
+-1 1 0 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingFactory.closePackageAdminTracker()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 packageAdminTracker 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingFactory.isMultiplexing()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 factories 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingFactory.findAuthorizedFactory(Ljava/util/List;)Ljava/lang/Object;
+PTG:
+Vars:
+18
+$r9 1 151 
+r8 1 147 
+$r0 1 0 
+r2 1 15 
+r1 1 6 
+r7 1 135 
+$r6 2 127 117 
+$r5 1 117 
+r4 1 -1 
+r3 1 -2 
+r39 1 198 
+$r36 2 19 29 
+$r11 1 205 
+$r37 2 56 66 
+$r12 1 213 
+$r13 1 213 
+$r38 2 172 162 
+$r10 1 157 
+Fields: 2
+-1 factories 117
+6 ArrayObject 15
+Accesses: 3
+116 1 -1 
+230 1 -1 
+126 1 -1 
+Functions: 25
+0 1 0 
+-1 0 
+64 0 
+200 3 147 198 205 
+140 1 135 
+271 0 
+84 0 
+149 1 147 
+151 2 151 157 
+216 1 213 
+27 0 
+91 2 -2 15 
+286 0 
+289 0 
+231 0 
+105 3 -1 117 15 
+170 0 
+298 0 
+47 0 
+303 0 
+243 0 
+307 1 135 
+251 0 
+190 0 
+127 2 117 127 
+Constructors: 0
+
+Summary: 15
+268 300 213 157 234 205 81 151 44 6 239 198 187 275 -2 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingFactory.unregister(Ljava/lang/Object;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r3 1 1 
+$r5 1 32 
+$r4 1 29 
+$r2 1 1 
+r1 1 -2 
+r17 1 41 
+Fields: 1
+-1 factories 1
+Accesses: 4
+0 1 -1 
+25 1 -1 
+58 1 -1 
+11 1 -1 
+Functions: 16
+32 1 32 
+-1 0 
+129 0 
+99 0 
+5 2 1 -2 
+71 0 
+12 1 1 
+44 1 41 
+79 0 
+113 0 
+50 2 -2 41 
+116 0 
+59 0 
+28 1 -2 
+29 1 29 
+125 0 
+Constructors: 0
+
+Summary: 10
+103 67 62 126 -1 41 29 32 96 -2 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingFactory.hasAuthority(Ljava/lang/Class;)Z
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+r3 1 4 
+r4 1 -2 
+Fields: 1
+-1 packageAdminTracker 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+15 2 -2 4 
+Constructors: 0
+
+Summary: 4
+-1 17 4 -2 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingFactory.designateSuccessor()Ljava/lang/Object;
+PTG:
+Vars:
+15
+$r4 1 6 
+r28 1 41 
+r5 1 36 
+r0 1 -1 
+$r29 2 51 61 
+$r11 1 114 
+_ret 1 36 
+$r6 1 46 
+$r2 1 6 
+$r3 1 6 
+$r8 1 6 
+r1 1 4 
+r9 1 98 
+r7 1 87 
+$r10 1 107 
+Fields: 1
+-1 factories 6
+Accesses: 6
+5 1 -1 
+215 1 -1 
+89 1 -1 
+26 1 -1 
+138 1 -1 
+12 1 -1 
+Functions: 21
+0 2 -1 6 
+-1 0 
+193 0 
+196 0 
+37 1 36 
+42 2 41 46 
+139 0 
+13 1 6 
+205 0 
+79 0 
+112 1 98 
+209 0 
+179 0 
+151 0 
+120 3 36 87 107 
+90 1 6 
+27 1 6 
+59 0 
+219 2 -1 6 
+124 1 98 
+159 0 
+Constructors: 0
+
+Summary: 12
+98 -1 41 107 183 76 176 147 46 87 142 206 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingFactory.register(Ljava/lang/Object;)V
+PTG:
+Vars:
+11
+r0 1 -1 
+$r3 1 27 
+$r5 1 72 
+$r8 1 1 
+$r1 1 1 
+r4 1 68 
+$r6 1 78 
+r2 1 -2 
+$r11 1 8 
+r25 1 22 
+$r26 2 42 32 
+Fields: 1
+-1 factories 1
+Accesses: 4
+0 1 -1 
+165 1 -1 
+90 1 -1 
+15 1 -1 
+Functions: 17
+-1 0 
+161 0 
+131 0 
+103 0 
+40 0 
+170 2 1 -2 
+12 1 8 
+77 2 -1 1 
+111 0 
+145 0 
+18 1 -2 
+82 3 -2 68 72 
+148 0 
+23 2 22 27 
+91 0 
+60 0 
+157 0 
+Constructors: 1
+12 8
+
+Summary: 12
+72 135 22 94 -1 158 57 27 -2 68 128 99 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingFactory.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 0 
+Constructors: 1
+5 0
+
+Summary: 0
+

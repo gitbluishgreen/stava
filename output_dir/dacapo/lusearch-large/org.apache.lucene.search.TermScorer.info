@@ -1,0 +1,327 @@
+9
+org/apache/lucene/search/TermScorer.next()Z
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 27 
+$r2 1 31 
+$r4 1 23 
+$r1 1 27 
+Fields: 3
+-1 freqs 31
+-1 docs 27
+-1 termDocs 23
+Accesses: 15
+0 1 -1 
+69 1 -1 
+7 1 -1 
+39 1 -1 
+10 1 -1 
+42 1 -1 
+75 1 -1 
+14 1 -1 
+79 1 -1 
+51 1 -1 
+84 1 -1 
+22 1 -1 
+57 1 -1 
+26 1 -1 
+30 1 -1 
+Functions: 2
+23 3 23 27 31 
+61 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/TermScorer.doc()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/TermScorer.<init>(Lorg/apache/lucene/search/Weight;Lorg/apache/lucene/index/TermDocs;Lorg/apache/lucene/search/Similarity;[B)V
+PTG:
+Vars:
+10
+r7 1 -5 
+r6 1 -3 
+r1 1 -4 
+r5 1 -2 
+$r2 1 8 
+r0 1 -1 
+$r8 1 66 
+$r9 1 72 
+$r3 1 16 
+$r4 1 24 
+Fields: 1
+-1 scoreCache 66
+Accesses: 9
+80 1 -1 
+65 1 -1 
+18 1 -1 
+36 1 -1 
+52 1 -1 
+10 1 -1 
+26 1 -1 
+42 1 -1 
+31 1 -1 
+Functions: 4
+2 3 -1 66 -4 
+71 2 -1 66 
+72 1 72 
+46 1 -2 
+Constructors: 1
+2 -1
+
+Summary: 6
+-1 -4 2 3 0 1 
+org/apache/lucene/search/TermScorer.score(Lorg/apache/lucene/search/HitCollector;I)Z
+PTG:
+Vars:
+11
+r2 1 8 
+r5 1 -2 
+$r8 1 114 
+$r11 1 37 
+$r3 1 19 
+$r7 1 19 
+$r4 1 64 
+r1 1 4 
+$r9 1 110 
+r0 1 -1 
+$r6 1 114 
+Fields: 5
+-1 freqs 19
+-1 scoreCache 37
+-1 norms 64
+-1 docs 114
+-1 termDocs 110
+Accesses: 22
+129 1 -1 
+98 1 -1 
+162 1 -1 
+67 1 -1 
+36 1 -1 
+101 1 -1 
+166 1 -1 
+10 1 -1 
+138 1 -1 
+171 1 -1 
+109 1 -1 
+144 1 -1 
+81 1 -1 
+113 1 -1 
+18 1 -1 
+52 1 -1 
+117 1 -1 
+22 1 -1 
+90 1 -1 
+156 1 -1 
+126 1 -1 
+63 1 -1 
+Functions: 6
+0 6 -1 64 114 19 37 110 
+148 0 
+5 0 
+87 1 -2 
+46 1 4 
+110 3 114 19 110 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/search/TermScorer.score()F
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 41 
+$r1 1 1 
+$r2 1 26 
+$r4 1 17 
+Fields: 3
+-1 freqs 1
+-1 scoreCache 17
+-1 norms 41
+Accesses: 6
+0 1 -1 
+16 1 -1 
+33 1 -1 
+4 1 -1 
+40 1 -1 
+44 1 -1 
+Functions: 3
+48 0 
+25 4 -1 1 17 41 
+26 1 26 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/TermScorer.explain(I)Lorg/apache/lucene/search/Explanation;
+PTG:
+Vars:
+21
+$r8 1 78 
+$r17 1 153 
+$r4 1 13 
+$r21 1 171 
+$r12 1 78 
+$r6 1 78 
+$r2 1 4 
+_ret 1 13 
+r3 1 4 
+$r20 1 168 
+$r9 1 36 
+$r15 1 146 
+$r16 1 150 
+$r18 1 158 
+$r1 1 1 
+$r19 1 163 
+r0 1 -1 
+$r10 1 49 
+$r14 1 137 
+$r13 1 125 
+$r7 1 78 
+Fields: 4
+-1 freqs 49
+-1 docs 36
+-1 weight 1
+-1 termDocs 78
+Accesses: 13
+0 1 -1 
+66 1 -1 
+35 1 -1 
+39 1 -1 
+103 1 -1 
+77 1 -1 
+48 1 -1 
+114 1 -1 
+52 1 -1 
+24 1 -1 
+90 1 -1 
+59 1 -1 
+28 1 -1 
+Functions: 18
+1 1 1 
+163 1 163 
+133 1 13 
+104 1 78 
+168 1 168 
+137 1 137 
+141 1 137 
+78 1 78 
+174 2 171 13 
+17 1 13 
+146 2 146 150 
+149 1 4 
+118 1 78 
+153 1 153 
+91 1 78 
+124 5 -1 49 1 36 78 
+125 1 125 
+158 1 158 
+Constructors: 2
+17 13
+141 137
+
+Summary: 11
+4 -1 137 158 150 168 163 171 125 146 153 
+org/apache/lucene/search/TermScorer.toString()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r3 1 13 
+$r6 1 24 
+$r1 1 9 
+$r4 1 16 
+$r5 1 21 
+r2 1 -1 
+$r0 1 0 
+_ret 1 24 
+Fields: 1
+-1 weight 13
+Accesses: 1
+12 1 -1 
+Functions: 5
+0 1 0 
+16 1 16 
+4 1 0 
+21 1 21 
+9 2 9 13 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/TermScorer.score(Lorg/apache/lucene/search/HitCollector;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+9 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/search/TermScorer.skipTo(I)Z
+PTG:
+Vars:
+7
+r0 1 -1 
+$r6 1 22 
+$r2 1 63 
+$r4 1 63 
+$r5 1 111 
+$r3 2 88 22 
+$r1 1 63 
+Fields: 4
+-1 freqs 111
+-1 docs 88
+-1 docs 22
+-1 termDocs 63
+Accesses: 22
+0 1 -1 
+96 1 -1 
+35 1 -1 
+134 1 -1 
+7 1 -1 
+39 1 -1 
+10 1 -1 
+106 1 -1 
+44 1 -1 
+14 1 -1 
+110 1 -1 
+79 1 -1 
+49 1 -1 
+114 1 -1 
+84 1 -1 
+21 1 -1 
+118 1 -1 
+87 1 -1 
+56 1 -1 
+25 1 -1 
+91 1 -1 
+62 1 -1 
+Functions: 3
+97 1 63 
+119 1 63 
+63 1 63 
+Constructors: 0
+
+Summary: 1
+-1 

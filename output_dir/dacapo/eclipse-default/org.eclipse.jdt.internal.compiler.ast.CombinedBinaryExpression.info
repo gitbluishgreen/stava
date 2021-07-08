@@ -1,0 +1,529 @@
+11
+org/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression.generateOptimizedStringConcatenation(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;I)V
+PTG:
+Vars:
+26
+r0 1 -1 
+$r20 1 296 
+$r22 1 175 
+$r4 1 49 
+$r9 1 122 
+$r17 1 231 
+$r8 1 115 
+r25 2 87 115 
+$r5 1 46 
+$r23 1 175 
+$r10 1 119 
+$r14 1 214 
+$r16 1 231 
+$r1 1 1 
+$r13 1 210 
+$r6 1 1 
+$r19 1 296 
+$r18 1 280 
+r3 1 -3 
+$r24 1 46 
+$r12 2 1 205 
+$r21 1 296 
+r2 1 -2 
+$r11 1 119 
+$r15 1 231 
+$r7 2 1 110 
+Fields: 14
+-1 referencesTable 1
+-1 left 280
+-1 constant 46
+-1 right 296
+1 ArrayObject 87
+1 ArrayObject 115
+1 ArrayObject 210
+210 left 214
+210 right 231
+87 left 175
+115 left 175
+115 constant 119
+205 ArrayObject 210
+110 ArrayObject 115
+Accesses: 36
+0 1 -1 
+129 1 115 
+68 1 -1 
+134 1 115 
+204 1 -1 
+269 1 -1 
+143 1 115 
+17 1 -1 
+81 1 -1 
+210 1 210 
+214 1 214 
+279 1 -1 
+280 1 280 
+92 1 -3 
+223 1 -3 
+33 1 -1 
+289 1 -3 
+98 1 -1 
+229 1 210 
+295 1 -1 
+236 1 210 
+45 1 -1 
+109 1 -1 
+173 2 115 87 
+301 1 -1 
+238 1 231 
+302 1 296 
+115 1 115 
+180 2 115 87 
+182 1 175 
+56 1 -1 
+60 1 -1 
+253 1 210 
+317 1 -1 
+318 1 296 
+255 1 231 
+Functions: 13
+64 2 -3 46 
+324 1 -3 
+261 1 -3 
+11 14 -1 1 -2 -3 231 296 46 175 210 115 214 87 119 280 
+75 1 -3 
+139 2 -3 119 
+334 14 -1 1 -2 -3 231 296 46 175 210 115 214 87 119 280 
+151 1 -3 
+247 3 -2 -3 231 
+311 3 -2 -3 296 
+220 1 -3 
+286 1 -3 
+191 3 -2 -3 175 
+Constructors: 0
+
+Summary: 5
+1 -3 -1 0 -2 
+org/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression.initArity(Lorg/eclipse/jdt/internal/compiler/ast/Expression;I)V
+PTG:
+Vars:
+10
+$r1 1 12 
+$r4 1 19 
+r2 1 -2 
+$r3 1 -2 
+$r7 1 50 
+$r5 2 45 19 
+$r8 1 50 
+$r9 2 19 38 
+r0 1 -1 
+$r6 1 49 
+Fields: 4
+-1 referencesTable 19
+45 ArrayObject 49
+49 left 50
+19 ArrayObject 49
+Accesses: 7
+49 1 49 
+2 1 -1 
+18 1 -1 
+37 1 -1 
+71 1 -1 
+44 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression.resolveType(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+12
+$r11 1 89 
+_ret 1 89 
+$r10 1 69 
+$r3 1 18 
+$r2 1 1 
+$r12 1 21 
+r0 1 -1 
+$r7 1 21 
+$r1 1 1 
+$r5 1 21 
+r6 1 -2 
+$r9 2 1 65 
+Fields: 6
+-1 referencesTable 1
+-1 resolvedType 89
+1 ArrayObject 69
+1 ArrayObject 18
+65 ArrayObject 69
+18 left 21
+Accesses: 10
+0 1 -1 
+64 1 -1 
+18 1 18 
+55 1 -1 
+88 1 -1 
+41 1 21 
+44 1 18 
+13 1 -1 
+30 1 18 
+31 1 21 
+Functions: 4
+49 2 -2 21 
+85 7 -1 1 -2 18 69 21 89 
+7 7 -1 1 -2 18 69 21 89 
+71 2 -2 69 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression.printExpressionNoParenthesis(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+18
+$r10 2 1 89 
+r20 1 -3 
+$r7 1 75 
+$r1 1 1 
+r2 1 18 
+r0 1 -1 
+$r11 1 94 
+$r12 1 95 
+r21 2 59 103 
+$r14 1 124 
+_ret 1 143 
+$r18 1 143 
+$r8 1 79 
+$r17 1 138 
+$r6 1 51 
+$r4 1 1 
+$r5 1 50 
+$r15 1 128 
+Fields: 7
+-1 referencesTable 1
+-1 right 138
+1 ArrayObject 94
+1 ArrayObject 50
+89 ArrayObject 94
+50 left 51
+94 right 95
+Accesses: 8
+0 1 -1 
+50 1 50 
+19 1 -1 
+88 1 -1 
+137 1 -1 
+45 1 -1 
+94 1 94 
+63 1 -1 
+Functions: 13
+33 1 -3 
+133 1 128 
+7 8 -1 1 50 -3 51 138 94 95 
+72 2 103 59 
+138 3 103 138 59 
+75 2 18 75 
+107 2 103 59 
+14 7 -1 1 50 51 138 94 95 
+51 2 -3 51 
+84 1 79 
+121 2 103 59 
+124 2 18 124 
+95 3 103 59 95 
+Constructors: 0
+
+Summary: 3
+1 18 -1 
+org/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression.<init>(Lorg/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression;)V
+PTG:
+Vars:
+3
+$r2 1 7 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-2 left 7
+Accesses: 2
+6 1 -2 
+10 1 -2 
+Functions: 2
+2 3 -1 -2 7 
+14 2 -1 7 
+Constructors: 1
+2 -1
+
+Summary: 3
+-1 7 -2 
+org/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression.<init>(Lorg/eclipse/jdt/internal/compiler/ast/Expression;Lorg/eclipse/jdt/internal/compiler/ast/Expression;II)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 3 -1 -2 -3 
+11 2 -1 -2 
+Constructors: 1
+4 -1
+
+Summary: 3
+-1 -3 -2 
+org/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression.tuneArityMax()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+17 1 -1 
+10 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression.<clinit>()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+17
+$r12 1 125 
+$r5 1 41 
+$r11 2 1 120 
+$r8 2 1 104 
+$r10 1 110 
+$r15 1 82 
+$r9 1 109 
+$r7 1 55 
+r2 1 -2 
+$r4 2 1 37 
+$r13 1 141 
+$r6 2 1 51 
+$r14 1 1 
+r3 1 -3 
+r0 1 -1 
+$r16 1 83 
+$r1 1 1 
+Fields: 13
+-1 referencesTable 1
+-1 right 141
+1 ArrayObject 41
+1 ArrayObject 55
+1 ArrayObject 82
+1 ArrayObject 109
+1 ArrayObject 125
+51 ArrayObject 55
+37 ArrayObject 41
+109 right 110
+104 ArrayObject 109
+82 left 83
+120 ArrayObject 125
+Accesses: 11
+0 1 -1 
+50 1 -1 
+82 1 82 
+36 1 -1 
+103 1 -1 
+119 1 -1 
+25 1 -1 
+140 1 -1 
+77 1 -1 
+109 1 109 
+94 1 -1 
+Functions: 9
+16 12 -1 -2 1 82 -3 83 55 41 141 109 125 110 
+146 3 -2 -3 141 
+35 3 -2 -3 41 
+115 3 -2 -3 110 
+88 3 -2 -3 83 
+152 12 -1 -2 1 82 -3 83 55 41 141 109 125 110 
+57 3 -2 -3 55 
+10 12 -1 1 -2 82 -3 83 55 41 141 109 125 110 
+127 3 -2 -3 125 
+Constructors: 0
+
+Summary: 5
+1 -3 -1 0 -2 
+org/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+24
+$r8 1 54 
+$r2 1 1 
+r24 2 119 60 
+$r3 1 20 
+$r9 2 1 74 
+$r10 1 79 
+$r12 1 96 
+$r20 1 37 
+$r7 1 37 
+r22 1 -4 
+$r11 1 83 
+$r17 1 159 
+$r15 1 131 
+$r19 1 143 
+r0 1 -1 
+r5 1 -2 
+$r4 1 24 
+_ret 1 162 
+$r1 1 1 
+r6 1 -3 
+$r14 1 96 
+$r13 1 113 
+$r18 1 162 
+$r16 1 143 
+Fields: 10
+-1 referencesTable 1
+-1 resolvedType 131
+-1 right 143
+1 ArrayObject 79
+1 ArrayObject 20
+79 resolvedType 83
+79 right 96
+20 left 37
+20 resolvedType 24
+74 ArrayObject 79
+Accesses: 16
+0 1 -1 
+64 1 -1 
+130 1 -1 
+35 1 20 
+131 1 131 
+73 1 -1 
+105 1 79 
+46 1 20 
+142 1 -1 
+15 1 -1 
+79 1 79 
+83 1 83 
+20 1 20 
+24 1 24 
+152 1 -1 
+94 1 79 
+Functions: 10
+48 4 -2 -3 -4 37 
+113 1 113 
+149 5 -2 -3 119 60 143 
+54 1 54 
+102 5 96 -2 -3 119 60 
+7 13 -1 96 1 -2 -3 131 -4 37 143 79 83 20 24 
+153 5 -2 -3 119 60 143 
+43 4 -2 -3 -4 37 
+107 5 96 -2 -3 119 60 
+159 1 159 
+Constructors: 0
+
+Summary: 9
+-3 -1 -4 60 0 1 119 2 -2 
+org/eclipse/jdt/internal/compiler/ast/CombinedBinaryExpression.generateOptimizedStringConcatenationCreation(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;I)V
+PTG:
+Vars:
+26
+$r24 1 151 
+$r15 1 305 
+$r18 1 321 
+$r17 1 321 
+$r13 1 256 
+$r14 1 256 
+r25 2 94 72 
+$r8 1 94 
+$r9 2 1 230 
+r3 1 -3 
+$r22 1 128 
+r2 1 -2 
+$r23 1 128 
+$r6 1 1 
+$r12 1 256 
+$r4 1 49 
+$r10 1 235 
+$r11 1 239 
+r0 1 -1 
+$r19 1 200 
+$r21 1 131 
+$r7 2 1 89 
+$r5 1 46 
+$r1 1 1 
+$r20 1 200 
+$r16 1 321 
+Fields: 14
+-1 referencesTable 1
+-1 left 305
+-1 constant 46
+-1 right 321
+1 ArrayObject 94
+1 ArrayObject 72
+1 ArrayObject 235
+230 ArrayObject 235
+89 ArrayObject 94
+235 left 239
+235 right 256
+94 left 200
+94 constant 128
+72 left 200
+Accesses: 35
+0 1 -1 
+320 1 -1 
+65 1 -1 
+261 1 235 
+198 2 72 94 
+326 1 -1 
+263 1 256 
+327 1 321 
+77 1 -1 
+205 2 72 94 
+207 1 200 
+17 1 -1 
+146 1 94 
+278 1 235 
+342 1 -1 
+343 1 321 
+88 1 -1 
+280 1 256 
+94 1 94 
+33 1 -1 
+229 1 -1 
+294 1 -1 
+168 1 94 
+235 1 235 
+45 1 -1 
+239 1 239 
+304 1 -1 
+113 1 94 
+305 1 305 
+55 1 -3 
+248 1 -3 
+314 1 -3 
+61 1 -1 
+126 1 94 
+254 1 235 
+Functions: 15
+359 14 -1 128 256 1 321 -2 -3 72 200 235 46 239 305 94 
+138 1 -3 
+11 14 -1 128 256 1 321 -2 -3 72 200 235 46 239 305 94 
+142 1 -3 
+176 5 128 -2 -3 200 94 
+272 3 256 -2 -3 
+336 3 321 -2 -3 
+148 1 128 
+245 1 -3 
+311 1 -3 
+216 3 -2 -3 200 
+154 2 -3 151 
+349 1 -3 
+158 1 -3 
+286 1 -3 
+Constructors: 0
+
+Summary: 6
+1 -3 -1 151 0 -2 

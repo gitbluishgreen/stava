@@ -1,0 +1,2083 @@
+80
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setIdAttribute(I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 13 
+$r1 1 13 
+Fields: 1
+-1 fNodeExtra 13
+Accesses: 2
+32 1 -1 
+12 1 -1 
+Functions: 2
+40 2 -1 13 
+11 2 -1 13 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getParentNode(IZ)I
+PTG:
+Vars:
+3
+$r1 1 39 
+r0 1 -1 
+$r2 1 25 
+Fields: 2
+-1 fNodeParent 25
+-1 fNodeParent 39
+Accesses: 2
+38 1 -1 
+24 1 -1 
+Functions: 2
+37 3 -1 39 25 
+23 3 -1 39 25 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredEntity(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+PTG:
+Vars:
+15
+$r5 1 62 
+r19 1 -6 
+$r2 1 48 
+$r20 1 48 
+$r10 1 90 
+r0 1 -1 
+r11 1 -5 
+$r18 1 90 
+r4 1 -3 
+$r8 1 76 
+$r14 1 62 
+r7 1 -4 
+$r12 1 48 
+$r16 1 76 
+r1 1 -2 
+Fields: 4
+-1 fNodeURI 76
+-1 fNodeValue 62
+-1 fNodeName 48
+-1 fNodeExtra 90
+Accesses: 9
+133 1 -1 
+119 1 -1 
+104 1 -1 
+89 1 -1 
+185 1 -1 
+170 1 -1 
+75 1 -1 
+61 1 -1 
+47 1 -1 
+Functions: 12
+0 5 -1 48 90 76 62 
+128 5 -1 48 90 76 62 
+114 6 -1 48 -5 90 76 62 
+146 5 -1 48 90 76 62 
+99 5 -1 48 90 76 62 
+195 6 -1 48 -6 90 76 62 
+84 6 -1 48 -4 90 76 62 
+180 5 -1 48 90 76 62 
+70 6 -1 48 -3 90 76 62 
+23 5 -1 48 90 76 62 
+56 6 -1 48 -2 90 76 62 
+142 5 -1 48 90 76 62 
+Constructors: 0
+
+Summary: 11
+-6 2 1 -1 4 -5 -3 -2 -4 0 3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeURI(I)Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 3 
+r0 1 -1 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getRealPrevSibling(I)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeValue(IZ)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r3 2 45 31 
+r0 1 -1 
+$r1 1 39 
+$r2 1 25 
+_ret 2 45 31 
+Fields: 2
+-1 fNodeValue 25
+-1 fNodeValue 39
+Accesses: 2
+38 1 -1 
+24 1 -1 
+Functions: 2
+37 3 -1 39 25 
+23 3 -1 39 25 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredDocumentType(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+PTG:
+Vars:
+7
+r4 1 -3 
+$r5 1 39 
+r0 1 -1 
+$r8 1 53 
+r1 1 -2 
+$r2 1 25 
+r7 1 -4 
+Fields: 3
+-1 fNodeURI 53
+-1 fNodeValue 39
+-1 fNodeName 25
+Accesses: 3
+52 1 -1 
+38 1 -1 
+24 1 -1 
+Functions: 4
+0 4 -1 53 39 25 
+33 5 -1 -2 53 39 25 
+61 5 -1 -4 53 39 25 
+47 5 -1 -3 53 39 25 
+Constructors: 0
+
+Summary: 7
+-2 2 1 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.synchronizeChildren()V
+PTG:
+Vars:
+7
+r5 1 60 
+$r1 1 60 
+$r4 1 60 
+r0 1 -1 
+$r3 1 60 
+r6 1 60 
+r2 1 60 
+Fields: 0
+Accesses: 9
+81 1 60 
+178 1 -1 
+19 1 -1 
+99 1 60 
+163 1 -1 
+87 1 60 
+26 1 -1 
+124 1 -1 
+143 1 -1 
+Functions: 12
+0 1 -1 
+146 1 -1 
+36 1 -1 
+8 1 -1 
+168 1 60 
+57 1 -1 
+105 1 60 
+11 1 -1 
+44 1 -1 
+93 1 60 
+173 2 -1 60 
+31 1 -1 
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.<clinit>()V
+PTG:
+Vars:
+2
+$r1 1 17 
+$r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.clearChunkValue([[Ljava/lang/Object;II)Ljava/lang/String;
+PTG:
+Vars:
+12
+r6 1 37 
+r2 1 10 
+$r3 1 27 
+$r8 1 10 
+r9 1 -1 
+$r7 1 8 
+$r4 1 33 
+$r5 1 37 
+$r1 1 2 
+r0 1 -2 
+$r10 1 10 
+_ret 1 10 
+Fields: 6
+-2 ArrayObject 27
+-2 ArrayObject 33
+-2 ArrayObject 2
+-2 ArrayObject 8
+33 ArrayObject 37
+8 ArrayObject 10
+Accesses: 3
+51 1 37 
+54 1 37 
+43 1 37 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.print([IIIII)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createChunk([[Ljava/lang/Object;I)V
+PTG:
+Vars:
+5
+$r2 1 15 
+$r3 1 11 
+r4 1 -1 
+$r1 1 5 
+r0 1 -2 
+Fields: 1
+-2 ArrayObject 11
+Accesses: 0
+Functions: 1
+19 1 15 
+Constructors: 1
+19 15
+
+Summary: 4
+-2 11 0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setChunkValue([[Ljava/lang/Object;Ljava/lang/Object;II)Ljava/lang/String;
+PTG:
+Vars:
+9
+$r4 1 54 
+r6 1 -1 
+$r2 1 38 
+r0 1 -3 
+r3 1 38 
+r5 1 54 
+r8 2 16 32 
+r1 1 -2 
+_ret 1 38 
+Fields: 6
+-2 ArrayObject 16
+-2 ArrayObject 32
+16 ArrayObject 54
+16 ArrayObject 38
+32 ArrayObject 54
+32 ArrayObject 38
+Accesses: 2
+68 1 54 
+60 1 54 
+Functions: 2
+4 6 -1 16 32 -2 54 38 
+26 6 -1 16 32 -2 54 38 
+Constructors: 0
+
+Summary: 4
+-2 1 0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getPrevSibling(IZ)I
+PTG:
+Vars:
+5
+$r3 1 40 
+$r4 1 21 
+r0 1 -1 
+$r1 1 21 
+$r2 1 94 
+Fields: 3
+-1 fNodePrevSib 40
+-1 fNodePrevSib 94
+-1 fNodeType 21
+Accesses: 4
+20 1 -1 
+39 1 -1 
+71 1 -1 
+93 1 -1 
+Functions: 4
+19 4 -1 21 40 94 
+38 4 -1 21 40 94 
+70 4 -1 21 40 94 
+92 4 -1 21 40 94 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getChunkValue([[Ljava/lang/Object;II)Ljava/lang/String;
+PTG:
+Vars:
+7
+r4 1 -1 
+$r1 1 2 
+r0 1 -2 
+$r5 1 10 
+$r2 1 8 
+$r3 1 10 
+_ret 1 10 
+Fields: 3
+-2 ArrayObject 8
+-2 ArrayObject 2
+8 ArrayObject 10
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getDeferredEntityBaseURI(I)Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+19 1 -1 
+5 1 -1 
+12 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setChunkIndex([[IIII)I
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 2 33 17 
+r1 1 -1 
+Fields: 2
+-2 ArrayObject 17
+-2 ArrayObject 33
+Accesses: 0
+Functions: 2
+5 4 -1 -2 17 33 
+27 4 -1 -2 17 33 
+Constructors: 0
+
+Summary: 5
+-2 33 17 0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setAsLastChild(II)V
+PTG:
+Vars:
+2
+$r1 1 14 
+r0 1 -1 
+Fields: 1
+-1 fNodeLastChild 14
+Accesses: 1
+13 1 -1 
+Functions: 1
+21 2 -1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredTextNode(Ljava/lang/String;Z)I
+PTG:
+Vars:
+4
+$r2 1 21 
+r0 1 -1 
+$r4 1 35 
+r1 1 -2 
+Fields: 2
+-1 fNodeValue 21
+-1 fNodeExtra 35
+Accesses: 2
+34 1 -1 
+20 1 -1 
+Functions: 3
+0 3 -1 35 21 
+51 3 -1 35 21 
+29 4 -1 -2 35 21 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeType(I)S
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getImplementation()Lorg/w3c/dom/DOMImplementation;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.putIdentifier0(Ljava/lang/String;Lorg/w3c/dom/Element;)V
+PTG:
+Vars:
+6
+$r1 1 1 
+r2 1 -2 
+$r4 1 1 
+$r6 1 8 
+r0 1 -1 
+r3 1 -3 
+Fields: 1
+-1 identifiers 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 2
+24 3 1 -2 -3 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getAttribute(ILjava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+6
+$r3 1 59 
+$r5 1 88 
+r1 1 -1 
+r0 1 -3 
+$r2 1 25 
+$r4 1 66 
+Fields: 3
+-1 fNodePrevSib 88
+-1 fNodeName 59
+-1 fNodeExtra 25
+Accesses: 4
+87 1 -1 
+24 1 -1 
+58 1 -1 
+74 1 -1 
+Functions: 4
+86 4 -1 88 25 59 
+23 4 -1 88 25 59 
+57 4 -1 88 25 59 
+73 4 -1 88 25 59 
+Constructors: 0
+
+Summary: 3
+-1 -3 66 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)I
+PTG:
+Vars:
+7
+$r2 1 24 
+r0 1 -1 
+r1 1 -3 
+r4 1 -2 
+$r5 1 38 
+r7 1 -4 
+$r8 1 52 
+Fields: 3
+-1 fNodeURI 38
+-1 fNodeValue 52
+-1 fNodeName 24
+Accesses: 3
+51 1 -1 
+37 1 -1 
+23 1 -1 
+Functions: 4
+0 4 -1 52 38 24 
+32 5 -1 -3 52 38 24 
+60 5 -1 -4 52 38 24 
+46 5 -1 -2 52 38 24 
+Constructors: 0
+
+Summary: 4
+-2 -4 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredDocument()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeURI(IZ)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r3 2 45 31 
+$r1 1 39 
+r0 1 -1 
+$r2 1 25 
+_ret 2 45 31 
+Fields: 2
+-1 fNodeURI 25
+-1 fNodeURI 39
+Accesses: 2
+38 1 -1 
+24 1 -1 
+Functions: 2
+37 3 -1 39 25 
+23 3 -1 39 25 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getParentNode(I)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.synchronizeData()V
+PTG:
+Vars:
+15
+$r9 1 38 
+$r1 1 6 
+$r10 2 132 180 
+$r6 1 83 
+r12 3 132 180 -1 
+$r2 1 12 
+r15 1 244 
+r11 1 43 
+$r4 1 6 
+$r5 1 38 
+$r7 1 38 
+r0 1 -1 
+r13 2 132 180 
+r14 3 132 180 -1 
+$r8 1 6 
+Fields: 5
+38 ArrayObject 244
+38 ArrayObject 43
+-1 fIdElement 6
+-1 fNodeParent 83
+-1 fIdName 38
+Accesses: 9
+82 1 -1 
+5 1 -1 
+37 1 -1 
+23 1 -1 
+216 1 -1 
+235 1 -1 
+30 1 -1 
+206 1 -1 
+223 1 -1 
+Functions: 12
+16 1 12 
+81 6 -1 83 244 6 38 43 
+2 6 -1 83 244 6 38 43 
+259 8 -1 83 244 132 180 6 38 43 
+117 1 12 
+149 2 132 180 
+54 1 12 
+104 1 12 
+203 8 -1 83 244 132 180 6 38 43 
+125 8 -1 83 132 180 244 6 38 43 
+173 2 132 180 
+63 1 12 
+Constructors: 1
+16 12
+
+Summary: 1
+12 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.ensureCapacity(I)V
+PTG:
+Vars:
+37
+$r6 1 123 
+$r34 1 212 
+$r16 1 37 
+$r1 1 1 
+$r9 1 191 
+$r30 1 123 
+$r15 1 28 
+$r12 1 257 
+$r19 1 64 
+$r4 1 280 
+r25 1 186 
+$r2 1 1 
+$r18 1 55 
+$r5 1 1 
+$r13 1 10 
+$r7 1 147 
+r28 1 252 
+r23 1 141 
+r0 1 -1 
+r26 1 207 
+$r10 1 212 
+$r31 1 147 
+$r33 1 191 
+r24 1 165 
+r27 1 228 
+$r32 1 170 
+r21 1 96 
+$r36 1 257 
+$r29 1 1 
+r22 1 117 
+$r8 1 170 
+$r14 1 19 
+$r17 1 46 
+$r3 1 1 
+$r35 1 234 
+$r20 1 73 
+$r11 1 234 
+Fields: 9
+-1 fNodePrevSib 212
+-1 fNodeURI 234
+-1 fNodeValue 147
+-1 fNodeParent 170
+-1 fNodeLastChild 191
+-1 fNodeName 123
+-1 fNodeType 1
+-1 fNodeExtra 257
+1 ArrayObject 280
+Accesses: 35
+0 1 -1 
+256 1 -1 
+322 1 -1 
+67 1 -1 
+137 1 -1 
+203 1 -1 
+331 1 -1 
+76 1 -1 
+13 1 -1 
+269 1 -1 
+82 1 -1 
+146 1 -1 
+211 1 -1 
+275 1 -1 
+340 1 -1 
+22 1 -1 
+349 1 -1 
+286 1 -1 
+31 1 -1 
+224 1 -1 
+161 1 -1 
+100 1 -1 
+295 1 -1 
+40 1 -1 
+169 1 -1 
+233 1 -1 
+304 1 -1 
+49 1 -1 
+113 1 -1 
+182 1 -1 
+248 1 -1 
+313 1 -1 
+58 1 -1 
+122 1 -1 
+190 1 -1 
+Functions: 16
+354 10 -1 1 257 147 212 280 234 170 123 191 
+131 2 117 123 
+291 10 -1 1 257 147 212 280 234 170 123 191 
+198 2 186 191 
+327 10 -1 1 257 147 212 280 234 170 123 191 
+264 2 257 252 
+108 3 96 1 280 
+300 10 -1 1 257 147 212 280 234 170 123 191 
+336 10 -1 1 257 147 212 280 234 170 123 191 
+177 2 165 170 
+242 2 228 234 
+309 10 -1 1 257 147 212 280 234 170 123 191 
+345 10 -1 1 257 147 212 280 234 170 123 191 
+155 2 147 141 
+219 2 212 207 
+318 10 -1 1 257 147 212 280 234 170 123 191 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.synchronizeChildren(Lcom/sun/org/apache/xerces/internal/dom/ParentNode;I)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r5 1 37 
+$r2 1 37 
+r1 1 -2 
+r4 1 37 
+r3 1 37 
+Fields: 0
+Accesses: 4
+80 1 37 
+67 1 37 
+106 1 -2 
+61 1 37 
+Functions: 10
+0 1 -1 
+112 1 37 
+34 1 -1 
+21 1 -1 
+118 2 -2 37 
+7 1 -1 
+87 1 -1 
+73 1 37 
+123 1 -1 
+12 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getChunkIndex([[III)I
+PTG:
+Vars:
+4
+$r2 1 8 
+r0 1 -2 
+$r1 1 2 
+r3 1 -1 
+Fields: 2
+-2 ArrayObject 8
+-2 ArrayObject 2
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-2 2 0 -1 8 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.putIdentifier(Ljava/lang/String;I)V
+PTG:
+Vars:
+12
+r3 1 -2 
+$r12 1 19 
+$r7 1 1 
+r8 1 67 
+r6 1 42 
+$r9 1 72 
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+$r11 1 10 
+$r5 1 72 
+$r4 1 1 
+Fields: 2
+-1 fIdElement 72
+-1 fIdName 1
+Accesses: 18
+0 1 -1 
+96 1 -1 
+36 1 -1 
+102 1 -1 
+71 1 -1 
+106 1 -1 
+13 1 -1 
+46 1 -1 
+79 1 -1 
+112 1 -1 
+21 1 -1 
+53 1 -1 
+119 1 -1 
+24 1 -1 
+89 1 -1 
+28 1 -1 
+92 1 -1 
+62 1 -1 
+Functions: 2
+83 2 67 72 
+57 2 1 42 
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNamespacesEnabled()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeIndex()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.<init>(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 1
+3 -1
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 1
+2 -1
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setInternalSubset(ILjava/lang/String;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+$r1 1 37 
+$r3 1 51 
+r0 1 -1 
+Fields: 2
+-1 fNodeValue 51
+-1 fNodeExtra 37
+Accesses: 2
+50 1 -1 
+36 1 -1 
+Functions: 3
+59 4 -1 -3 51 37 
+12 3 -1 51 37 
+45 3 -1 51 37 
+Constructors: 0
+
+Summary: 3
+1 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setDeferredAttribute(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/Object;)I
+PTG:
+Vars:
+15
+$r6 1 56 
+$r5 1 56 
+r3 1 -5 
+$r10 1 147 
+$r9 1 196 
+r15 1 157 
+$r13 1 147 
+$r4 1 29 
+r0 1 -1 
+r8 1 -8 
+$r7 1 56 
+$r14 1 75 
+r2 1 -4 
+r1 1 -3 
+$r12 1 56 
+Fields: 5
+-1 fNodePrevSib 75
+-1 fNodeValue 147
+-1 fNodeParent 29
+-1 fNodeLastChild 196
+-1 fNodeExtra 56
+Accesses: 9
+146 1 -1 
+210 1 -1 
+131 1 -1 
+195 1 -1 
+55 1 -1 
+104 1 -1 
+89 1 -1 
+74 1 -1 
+28 1 -1 
+Functions: 12
+0 9 -1 -3 147 -4 196 -5 56 75 29 
+145 6 -1 147 196 56 75 29 
+99 6 -1 147 196 56 75 29 
+163 7 -1 147 196 56 75 29 157 
+84 6 -1 147 196 56 75 29 
+37 6 -1 147 196 56 75 29 
+54 6 -1 147 196 56 75 29 
+103 6 -1 147 196 56 75 29 
+171 6 -1 147 196 56 75 29 
+220 7 -1 147 196 -8 56 75 29 
+141 6 -1 147 196 56 75 29 
+205 6 -1 147 196 56 75 29 
+Constructors: 0
+
+Summary: 6
+-8 -4 3 -1 -5 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.print()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeExtra(I)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredComment(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 21 
+Fields: 1
+-1 fNodeValue 21
+Accesses: 1
+20 1 -1 
+Functions: 2
+0 2 -1 21 
+28 3 -1 -2 21 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.synchronizeChildren(Lcom/sun/org/apache/xerces/internal/dom/AttrImpl;I)V
+PTG:
+Vars:
+7
+$r4 1 39 
+r5 1 72 
+r0 1 -1 
+r3 1 72 
+r1 1 -2 
+r6 1 72 
+$r2 1 72 
+Fields: 0
+Accesses: 5
+96 1 72 
+115 1 72 
+102 1 72 
+42 1 -2 
+141 1 -2 
+Functions: 14
+0 1 -1 
+163 1 -1 
+37 1 -1 
+69 1 -1 
+7 1 -1 
+12 1 -2 
+108 1 72 
+15 1 -1 
+47 1 -2 
+147 1 72 
+22 1 -1 
+153 2 -2 72 
+122 1 -1 
+158 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setIdAttributeNode(II)V
+PTG:
+Vars:
+5
+$r2 1 14 
+$r1 1 14 
+r4 1 58 
+r0 1 -1 
+$r3 1 49 
+Fields: 2
+-1 fNodeValue 49
+-1 fNodeExtra 14
+Accesses: 3
+48 1 -1 
+34 1 -1 
+13 1 -1 
+Functions: 4
+64 4 -1 49 58 14 
+43 3 -1 49 14 
+12 3 -1 49 14 
+47 3 -1 49 14 
+Constructors: 0
+
+Summary: 2
+58 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.lookupElementDefinition(Ljava/lang/String;)I
+PTG:
+Vars:
+10
+$r3 1 50 
+$r6 1 162 
+r0 1 -1 
+$r4 2 72 174 
+r7 1 -2 
+$r1 1 17 
+$r8 1 50 
+$r2 1 17 
+$r5 1 156 
+$r9 1 72 
+Fields: 5
+-1 fNodePrevSib 72
+-1 fNodePrevSib 174
+-1 fNodeLastChild 17
+-1 fNodeName 156
+-1 fNodeType 50
+Accesses: 8
+0 1 -1 
+16 1 -1 
+49 1 -1 
+71 1 -1 
+106 1 -1 
+139 1 -1 
+155 1 -1 
+173 1 -1 
+Functions: 7
+48 6 -1 17 50 72 156 174 
+70 6 -1 17 50 72 156 174 
+105 6 -1 17 50 72 156 174 
+138 6 -1 17 50 72 156 174 
+154 6 -1 17 50 72 156 174 
+172 6 -1 17 50 72 156 174 
+15 6 -1 17 50 72 156 174 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredElement(Ljava/lang/String;)I
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeValueString(I)Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeName(I)Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 3 
+r0 1 -1 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.cloneNode(IZ)I
+PTG:
+Vars:
+18
+$r9 1 79 
+$r6 1 49 
+$r8 1 71 
+$r3 1 49 
+$r11 1 71 
+$r1 1 13 
+$r18 1 114 
+$r2 1 17 
+$r15 1 104 
+$r20 1 114 
+$r13 1 93 
+$r19 1 118 
+$r14 1 101 
+$r16 1 93 
+r0 1 -1 
+$r4 1 57 
+$r5 1 60 
+$r10 1 82 
+Fields: 13
+79 ArrayObject 82
+101 ArrayObject 104
+71 ArrayObject 79
+114 ArrayObject 118
+57 ArrayObject 60
+93 ArrayObject 101
+13 ArrayObject 17
+49 ArrayObject 57
+-1 fNodeURI 93
+-1 fNodeValue 71
+-1 fNodeName 49
+-1 fNodeType 13
+-1 fNodeExtra 114
+Accesses: 9
+48 1 -1 
+96 1 -1 
+113 1 -1 
+52 1 -1 
+70 1 -1 
+152 1 -1 
+74 1 -1 
+12 1 -1 
+92 1 -1 
+Functions: 10
+65 14 -1 101 71 104 13 79 49 17 114 82 118 57 60 93 
+162 14 -1 101 71 104 13 79 49 17 114 82 118 57 60 93 
+211 14 -1 101 71 104 13 79 49 17 114 82 118 57 60 93 
+23 14 -1 101 71 104 13 79 49 17 114 82 118 57 60 93 
+87 14 -1 101 71 104 13 79 49 17 114 82 118 57 60 93 
+187 14 -1 101 71 104 13 79 49 17 114 82 118 57 60 93 
+203 14 -1 101 71 104 13 79 49 17 114 82 118 57 60 93 
+109 14 -1 101 71 104 13 79 49 17 114 82 118 57 60 93 
+173 14 -1 101 71 104 13 79 49 17 114 82 118 57 60 93 
+142 14 -1 101 71 104 13 79 49 17 114 82 118 57 60 93 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setNamespacesEnabled(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeObject(I)Lcom/sun/org/apache/xerces/internal/dom/DeferredNode;
+PTG:
+Vars:
+26
+$r3 1 502 
+$r17 1 281 
+$r2 1 452 
+r30 14 177 163 452 -1 255 191 225 410 382 438 269 424 396 205 
+$r21 2 269 255 
+$r23 1 255 
+$r13 1 177 
+$r11 1 191 
+$r16 1 281 
+r19 1 317 
+$r22 1 311 
+r0 1 -1 
+$r10 1 396 
+$r1 1 20 
+$r6 1 225 
+$r4 1 410 
+$r20 1 281 
+$r15 1 269 
+$r5 1 225 
+$r12 1 438 
+$r29 1 20 
+$r9 1 382 
+$r14 1 163 
+$r7 1 205 
+$r8 1 424 
+$r18 1 311 
+Fields: 4
+-1 fIdElement 281
+-1 fIdName 311
+-1 fNodeType 20
+311 ArrayObject 317
+Accesses: 12
+242 1 -1 
+354 1 -1 
+19 1 -1 
+292 1 -1 
+310 1 -1 
+248 1 -1 
+280 1 -1 
+43 1 -1 
+347 1 -1 
+156 1 -1 
+287 1 -1 
+335 1 -1 
+Functions: 23
+416 6 -1 20 311 281 410 317 
+388 6 -1 20 311 281 317 382 
+484 0 
+197 6 -1 20 311 281 317 191 
+261 6 -1 20 311 281 317 255 
+231 6 -1 225 20 311 281 317 
+169 6 -1 163 20 311 281 317 
+298 1 281 
+458 6 -1 452 20 311 281 317 
+490 0 
+332 7 -1 20 311 281 317 269 255 
+430 6 -1 20 311 424 281 317 
+49 5 -1 20 311 281 317 
+18 5 -1 20 311 281 317 
+402 6 -1 20 311 281 396 317 
+211 6 -1 20 311 281 205 317 
+275 6 -1 20 311 281 269 317 
+470 0 
+183 6 -1 177 20 311 281 317 
+474 0 
+506 1 502 
+444 6 -1 20 438 311 281 317 
+479 0 
+Constructors: 14
+416 410
+388 382
+197 191
+261 255
+231 225
+169 163
+458 452
+430 424
+402 396
+211 205
+275 269
+183 177
+506 502
+444 438
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredAttribute(Ljava/lang/String;Ljava/lang/String;Z)I
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.binarySearch([IIII)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createNode(S)I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 24 
+Fields: 1
+-1 fNodeType 24
+Accesses: 5
+0 1 -1 
+34 1 -1 
+23 1 -1 
+8 1 -1 
+42 1 -1 
+Functions: 2
+19 2 -1 24 
+30 2 -1 24 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getLastChild(IZ)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 25 
+$r1 1 39 
+Fields: 2
+-1 fNodeLastChild 25
+-1 fNodeLastChild 39
+Accesses: 2
+38 1 -1 
+24 1 -1 
+Functions: 2
+37 3 -1 39 25 
+23 3 -1 39 25 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredAttribute(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)I
+PTG:
+Vars:
+8
+r0 1 -1 
+$r10 1 79 
+$r5 1 38 
+r1 1 -2 
+$r8 1 52 
+r4 1 -3 
+r7 1 -4 
+$r2 1 24 
+Fields: 4
+-1 fNodeURI 38
+-1 fNodeValue 52
+-1 fNodeName 24
+-1 fNodeExtra 79
+Accesses: 4
+51 1 -1 
+37 1 -1 
+23 1 -1 
+78 1 -1 
+Functions: 5
+0 5 -1 52 38 24 79 
+32 6 -1 -2 52 38 24 79 
+88 5 -1 52 38 24 79 
+60 6 -1 -4 52 38 24 79 
+46 6 -1 -3 52 38 24 79 
+Constructors: 0
+
+Summary: 7
+-2 2 1 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeName(IZ)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 39 
+r0 1 -1 
+$r2 1 25 
+$r3 2 45 31 
+_ret 2 45 31 
+Fields: 2
+-1 fNodeName 25
+-1 fNodeName 39
+Accesses: 2
+38 1 -1 
+24 1 -1 
+Functions: 2
+37 3 -1 39 25 
+23 3 -1 39 25 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeType(IZ)S
+PTG:
+Vars:
+3
+$r2 1 25 
+r0 1 -1 
+$r1 1 40 
+Fields: 2
+-1 fNodeType 25
+-1 fNodeType 40
+Accesses: 2
+39 1 -1 
+24 1 -1 
+Functions: 2
+38 3 -1 40 25 
+23 3 -1 40 25 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setTypeInfo(ILjava/lang/Object;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 14 
+r1 1 -3 
+Fields: 1
+-1 fNodeValue 14
+Accesses: 1
+13 1 -1 
+Functions: 1
+21 3 -1 -3 14 
+Constructors: 0
+
+Summary: 3
+1 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setAttributeNode(II)I
+PTG:
+Vars:
+23
+$r7 1 27 
+$r11 1 244 
+$r17 1 244 
+$r5 2 115 138 
+$r4 2 115 138 
+$r25 2 115 138 
+$r1 1 27 
+$r3 1 41 
+$r19 1 41 
+r2 1 37 
+$r24 1 41 
+$r6 1 205 
+$r12 2 115 138 
+$r15 1 231 
+$r14 1 205 
+$r18 1 270 
+$r23 1 41 
+r0 1 -1 
+$r9 1 231 
+$r21 1 115 
+$r20 1 27 
+r22 1 94 
+$r13 1 270 
+Fields: 8
+-1 fNodePrevSib 115
+-1 fNodePrevSib 138
+-1 fNodeValue 231
+-1 fNodeParent 244
+-1 fNodeLastChild 270
+-1 fNodeName 27
+-1 fNodeType 205
+-1 fNodeExtra 41
+Accesses: 20
+256 1 -1 
+324 1 -1 
+230 1 -1 
+40 1 -1 
+137 1 -1 
+298 1 -1 
+363 1 -1 
+204 1 -1 
+269 1 -1 
+337 1 -1 
+114 1 -1 
+83 1 -1 
+243 1 -1 
+311 1 -1 
+376 1 -1 
+217 1 -1 
+26 1 -1 
+157 1 -1 
+189 1 -1 
+350 1 -1 
+Functions: 21
+96 2 37 94 
+225 9 -1 115 244 231 41 138 27 205 270 
+386 9 -1 115 244 231 41 138 27 205 270 
+166 9 -1 115 244 231 41 138 27 205 270 
+39 9 -1 115 244 231 41 138 27 205 270 
+199 9 -1 115 244 231 41 138 27 205 270 
+136 9 -1 115 244 231 41 138 27 205 270 
+264 9 -1 115 244 231 41 138 27 205 270 
+268 9 -1 115 244 231 41 138 27 205 270 
+332 9 -1 115 244 231 41 138 27 205 270 
+238 9 -1 115 244 231 41 138 27 205 270 
+113 9 -1 115 244 231 41 138 27 205 270 
+82 9 -1 115 244 231 41 138 27 205 270 
+306 9 -1 115 244 231 41 138 27 205 270 
+371 9 -1 115 244 231 41 138 27 205 270 
+212 9 -1 115 244 231 41 138 27 205 270 
+25 9 -1 115 244 231 41 138 27 205 270 
+345 9 -1 115 244 231 41 138 27 205 270 
+251 9 -1 115 244 231 41 138 27 205 270 
+349 9 -1 115 244 231 41 138 27 205 270 
+319 9 -1 115 244 231 41 138 27 205 270 
+Constructors: 0
+
+Summary: 3
+94 -1 37 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getLastChild(I)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredCDATASection(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 20 
+r1 1 -2 
+Fields: 1
+-1 fNodeValue 20
+Accesses: 1
+19 1 -1 
+Functions: 2
+0 2 -1 20 
+27 3 -1 -2 20 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeValue(II)Ljava/lang/String;
+PTG:
+Vars:
+6
+$r4 1 28 
+$r1 1 1 
+r0 1 -1 
+r3 1 8 
+$r2 1 5 
+_ret 1 28 
+Fields: 3
+-1 fNodeValue 1
+1 ArrayObject 5
+5 ArrayObject 8
+Accesses: 1
+0 1 -1 
+Functions: 1
+27 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredElement(Ljava/lang/String;Ljava/lang/String;)I
+PTG:
+Vars:
+5
+r1 1 -3 
+$r2 1 21 
+r0 1 -1 
+r4 1 -2 
+$r5 1 35 
+Fields: 2
+-1 fNodeURI 35
+-1 fNodeName 21
+Accesses: 2
+34 1 -1 
+20 1 -1 
+Functions: 3
+0 3 -1 35 21 
+43 4 -1 -2 35 21 
+29 4 -1 -3 35 21 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredProcessingInstruction(Ljava/lang/String;Ljava/lang/String;)I
+PTG:
+Vars:
+5
+r4 1 -3 
+r0 1 -1 
+r1 1 -2 
+$r2 1 22 
+$r5 1 36 
+Fields: 2
+-1 fNodeValue 36
+-1 fNodeName 22
+Accesses: 2
+35 1 -1 
+21 1 -1 
+Functions: 3
+0 3 -1 36 22 
+44 4 -1 -3 36 22 
+30 4 -1 -2 36 22 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setInputEncoding(ILjava/lang/String;)V
+PTG:
+Vars:
+3
+r1 1 -3 
+$r2 1 32 
+r0 1 -1 
+Fields: 1
+-1 fNodeValue 32
+Accesses: 1
+31 1 -1 
+Functions: 3
+0 2 -1 32 
+7 2 -1 32 
+40 3 -1 32 -3 
+Constructors: 0
+
+Summary: 3
+1 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeValue(I)Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 3 
+r0 1 -1 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.setEntityInfo(ILjava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r1 1 -3 
+r0 1 -1 
+r4 1 -4 
+$r5 1 45 
+$r2 1 31 
+Fields: 2
+-1 fNodeURI 45
+-1 fNodeValue 31
+Accesses: 2
+44 1 -1 
+30 1 -1 
+Functions: 3
+0 3 -1 45 31 
+53 4 -1 -4 45 31 
+39 4 -1 -3 45 31 
+Constructors: 0
+
+Summary: 5
+1 2 -4 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.<init>(ZZ)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 16 
+$r2 1 27 
+Fields: 0
+Accesses: 5
+49 1 -1 
+34 1 -1 
+7 1 -1 
+23 1 -1 
+12 1 -1 
+Functions: 5
+2 1 -1 
+20 1 16 
+39 1 -1 
+44 1 -1 
+31 1 27 
+Constructors: 3
+2 -1
+20 16
+31 27
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getRealPrevSibling(IZ)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 39 
+$r2 1 25 
+Fields: 2
+-1 fNodePrevSib 25
+-1 fNodePrevSib 39
+Accesses: 2
+38 1 -1 
+24 1 -1 
+Functions: 2
+37 3 -1 39 25 
+23 3 -1 39 25 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getPrevSibling(I)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredNotation(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+PTG:
+Vars:
+10
+r4 1 -3 
+r1 1 -2 
+$r5 1 62 
+$r12 1 48 
+r7 1 -4 
+$r8 1 76 
+$r10 1 90 
+r11 1 -5 
+$r2 1 48 
+r0 1 -1 
+Fields: 4
+-1 fNodeURI 76
+-1 fNodeValue 62
+-1 fNodeName 48
+-1 fNodeExtra 90
+Accesses: 5
+104 1 -1 
+89 1 -1 
+75 1 -1 
+61 1 -1 
+47 1 -1 
+Functions: 7
+0 5 -1 48 90 76 62 
+114 6 -1 48 -5 90 76 62 
+99 5 -1 48 90 76 62 
+84 6 -1 48 -4 90 76 62 
+70 6 -1 48 -3 90 76 62 
+23 5 -1 48 90 76 62 
+56 6 -1 48 -2 90 76 62 
+Constructors: 0
+
+Summary: 9
+2 1 -1 -5 -3 -2 -4 0 3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.insertBefore(III)I
+PTG:
+Vars:
+4
+$r1 1 41 
+r0 1 -1 
+$r2 1 41 
+$r3 1 41 
+Fields: 1
+-1 fNodePrevSib 41
+Accesses: 3
+68 1 -1 
+54 1 -1 
+40 1 -1 
+Functions: 4
+39 2 -1 41 
+8 2 -1 41 
+78 2 -1 41 
+63 2 -1 41 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createChunk([[II)V
+PTG:
+Vars:
+5
+$r3 1 8 
+$r1 1 5 
+r0 1 -2 
+$r2 1 14 
+r4 1 -1 
+Fields: 1
+-2 ArrayObject 14
+Accesses: 0
+Functions: 1
+19 2 8 14 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeValueString(IZ)Ljava/lang/String;
+PTG:
+Vars:
+7
+$r31 2 45 31 
+$r2 1 59 
+r0 1 -1 
+$r30 1 25 
+r32 2 45 31 
+$r1 1 39 
+_ret 2 45 31 
+Fields: 3
+-1 fNodeValue 25
+-1 fNodeValue 39
+-1 fNodeType 59
+Accesses: 23
+226 1 -1 
+387 1 -1 
+100 1 -1 
+38 1 -1 
+200 1 -1 
+137 1 -1 
+361 1 -1 
+330 1 -1 
+235 1 -1 
+204 1 -1 
+396 1 -1 
+365 1 -1 
+242 1 -1 
+307 1 -1 
+403 1 -1 
+148 1 -1 
+180 1 -1 
+276 1 -1 
+24 1 -1 
+345 1 -1 
+58 1 -1 
+125 1 -1 
+319 1 -1 
+Functions: 27
+388 0 
+325 0 
+262 4 -1 39 25 59 
+329 4 -1 39 25 59 
+76 4 -1 39 25 59 
+205 0 
+143 0 
+400 0 
+147 4 -1 39 25 59 
+23 4 -1 39 25 59 
+216 0 
+408 0 
+89 4 -1 39 25 59 
+282 2 45 31 
+346 0 
+227 0 
+37 4 -1 39 25 59 
+169 4 -1 39 25 59 
+106 2 45 31 
+366 0 
+239 0 
+306 4 -1 39 25 59 
+181 0 
+247 0 
+57 4 -1 39 25 59 
+377 0 
+124 4 -1 39 25 59 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getTypeInfo(I)Ljava/lang/Object;
+PTG:
+Vars:
+15
+$r6 1 19 
+$r7 1 60 
+r3 1 34 
+$r4 1 19 
+$r11 1 19 
+$r12 1 32 
+$r5 1 51 
+r9 1 64 
+$r10 1 19 
+$r1 1 19 
+$r13 1 34 
+r0 1 -1 
+$r2 1 23 
+$r8 1 64 
+_ret 1 34 
+Fields: 7
+60 ArrayObject 64
+32 ArrayObject 34
+-1 fNodeValue 19
+19 ArrayObject 51
+19 ArrayObject 60
+19 ArrayObject 23
+19 ArrayObject 32
+Accesses: 8
+81 1 64 
+18 1 -1 
+70 1 64 
+55 1 -1 
+89 1 -1 
+27 1 -1 
+46 1 -1 
+78 1 64 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.getNodeExtra(IZ)I
+PTG:
+Vars:
+3
+$r2 1 25 
+$r1 1 39 
+r0 1 -1 
+Fields: 2
+-1 fNodeExtra 25
+-1 fNodeExtra 39
+Accesses: 2
+38 1 -1 
+24 1 -1 
+Functions: 2
+37 3 -1 39 25 
+23 3 -1 39 25 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredEntityReference(Ljava/lang/String;Ljava/lang/String;)I
+PTG:
+Vars:
+5
+r1 1 -2 
+$r5 1 35 
+$r2 1 21 
+r0 1 -1 
+r4 1 -3 
+Fields: 2
+-1 fNodeValue 35
+-1 fNodeName 21
+Accesses: 2
+34 1 -1 
+20 1 -1 
+Functions: 3
+0 3 -1 35 21 
+43 4 -1 -3 35 21 
+29 4 -1 -2 35 21 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.createDeferredElementDefinition(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 21 
+Fields: 1
+-1 fNodeName 21
+Accesses: 1
+20 1 -1 
+Functions: 2
+0 2 -1 21 
+28 3 -1 -2 21 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.appendChild(II)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 41 
+$r1 1 27 
+$r2 1 41 
+$r3 1 54 
+Fields: 3
+-1 fNodePrevSib 54
+-1 fNodeParent 27
+-1 fNodeLastChild 41
+Accesses: 4
+68 1 -1 
+53 1 -1 
+40 1 -1 
+26 1 -1 
+Functions: 4
+35 4 -1 54 41 27 
+39 4 -1 54 41 27 
+76 4 -1 54 41 27 
+63 4 -1 54 41 27 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl.clearChunkIndex([[III)I
+PTG:
+Vars:
+7
+$r5 1 8 
+$r1 1 2 
+r6 1 -1 
+$r2 1 25 
+r0 1 -2 
+$r4 1 42 
+$r3 1 36 
+Fields: 5
+-2 ArrayObject 36
+-2 ArrayObject 25
+-2 ArrayObject 42
+-2 ArrayObject 2
+-2 ArrayObject 8
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 8
+-2 25 42 2 36 0 -1 8 

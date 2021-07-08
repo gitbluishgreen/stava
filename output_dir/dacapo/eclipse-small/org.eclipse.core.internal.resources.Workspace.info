@@ -1,0 +1,3211 @@
+109
+org/eclipse/core/internal/resources/Workspace.shutdown(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+21
+$r9 1 64 
+$r11 1 80 
+$r13 1 100 
+r24 1 4 
+$r4 1 27 
+$r0 1 7 
+$r6 1 41 
+$r5 1 34 
+r25 1 99 
+r26 1 164 
+$r3 1 20 
+$r20 1 -1 
+r1 1 -1 
+$r2 1 13 
+$r7 1 48 
+$r10 1 72 
+$r16 1 148 
+$r8 1 56 
+r23 1 -2 
+r15 2 127 127 
+$r22 1 167 
+Fields: 11
+7 ArrayObject 127
+-1 refreshManager 72
+-1 _workManager 56
+-1 charsetManager 34
+-1 markerManager 48
+-1 propertyManager 20
+-1 contentDescriptionManager 80
+-1 buildManager 13
+-1 pathVariableManager 27
+-1 fileSystemManager 41
+-1 aliasManager 64
+Accesses: 23
+224 1 -1 
+33 1 -1 
+259 1 -1 
+229 1 -1 
+71 1 -1 
+199 1 -1 
+40 1 -1 
+234 1 -1 
+12 1 -1 
+204 1 -1 
+47 1 -1 
+79 1 -1 
+239 1 -1 
+209 1 -1 
+19 1 -1 
+244 1 -1 
+214 1 -1 
+55 1 -1 
+249 1 -1 
+26 1 -1 
+219 1 -1 
+254 1 -1 
+63 1 -1 
+Functions: 12
+0 1 -2 
+112 2 99 100 
+147 1 4 
+276 1 100 
+292 1 4 
+181 3 -1 164 167 
+262 1 100 
+151 2 148 127 
+136 1 4 
+184 2 100 167 
+91 1 4 
+283 1 4 
+Constructors: 2
+112 100
+181 167
+
+Summary: 7
+100 7 -1 127 167 -2 0 
+org/eclipse/core/internal/resources/Workspace.validateEdit([Lorg/eclipse/core/resources/IFile;Ljava/lang/Object;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+10
+r0 1 -1 
+$r24 1 139 
+$r23 1 139 
+r5 1 -2 
+$r6 1 159 
+$r2 1 113 
+r19 1 135 
+$r1 1 113 
+r4 1 -3 
+_ret 1 159 
+Fields: 2
+135 ArrayObject 159
+-1 validator 113
+Accesses: 3
+0 1 -1 
+112 1 -1 
+123 1 -1 
+Functions: 10
+49 0 
+81 0 
+147 7 -1 113 -2 -3 135 139 159 
+37 0 
+23 0 
+120 2 -1 113 
+154 1 139 
+60 0 
+78 0 
+94 0 
+Constructors: 1
+147 139
+
+Summary: 7
+135 -1 139 -3 -2 68 0 
+org/eclipse/core/internal/resources/Workspace.getMetaArea()Lorg/eclipse/core/internal/resources/LocalMetaArea;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 localMetaArea 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.<clinit>()V
+PTG:
+Vars:
+4
+$r3 1 24 
+$r2 1 15 
+$r0 1 0 
+$r1 1 2 
+Fields: 0
+Accesses: 0
+Functions: 5
+-1 0 
+0 2 0 2 
+21 1 15 
+30 1 24 
+15 2 24 15 
+Constructors: 2
+21 15
+30 24
+
+Summary: 2
+24 15 
+org/eclipse/core/internal/resources/Workspace.getPathVariableManager()Lorg/eclipse/core/resources/IPathVariableManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 pathVariableManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.getNatureDescriptor(Ljava/lang/String;)Lorg/eclipse/core/resources/IProjectNatureDescriptor;
+PTG:
+Vars:
+5
+$r3 1 5 
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+_ret 1 5 
+Fields: 1
+-1 natureManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/resources/Workspace.loadProjectDescription(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IProjectDescription;
+PTG:
+Vars:
+14
+r13 1 15 
+$r11 1 60 
+$r8 1 33 
+$r12 1 -1 
+r16 1 49 
+r15 1 27 
+r1 1 -2 
+$r10 1 53 
+r14 1 -1 
+$r9 1 39 
+$r7 1 30 
+r6 1 -1 
+$r0 1 4 
+_ret 1 15 
+Fields: 0
+Accesses: 0
+Functions: 15
+33 2 33 39 
+98 1 -2 
+99 0 
+4 2 -2 4 
+38 1 15 
+134 0 
+8 1 4 
+74 2 27 15 
+51 1 27 
+20 1 -2 
+53 2 53 60 
+58 1 49 
+123 1 -1 
+29 1 -1 
+30 1 30 
+Constructors: 1
+8 4
+
+Summary: 13
+33 53 107 27 99 49 -1 -2 109 60 39 4 30 
+org/eclipse/core/internal/resources/Workspace.save(ZLorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+4
+r1 1 -3 
+$r2 1 4 
+r0 1 -1 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -3 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/eclipse/core/internal/resources/Workspace.run(Lorg/eclipse/core/resources/IWorkspaceRunnable;Lorg/eclipse/core/runtime/jobs/ISchedulingRule;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+11
+r1 1 -3 
+r19 1 -5 
+$r4 1 77 
+$r6 1 163 
+$r2 1 62 
+r0 1 -1 
+$r7 1 53 
+r3 1 -2 
+$r8 1 53 
+$r5 1 179 
+r20 1 5 
+Fields: 1
+-1 notificationManager 53
+Accesses: 3
+52 1 -1 
+150 1 -1 
+107 1 -1 
+Functions: 23
+0 1 -5 
+192 1 5 
+162 2 -1 53 
+133 1 5 
+39 4 -1 -3 53 5 
+168 1 163 
+202 1 5 
+139 3 -1 -3 53 
+44 2 -1 53 
+76 1 5 
+14 1 5 
+111 0 
+80 2 -2 77 
+176 1 5 
+53 1 53 
+182 4 -1 -3 179 53 
+119 2 -1 53 
+90 2 -1 53 
+154 1 53 
+61 2 -1 53 
+125 0 
+62 1 62 
+94 0 
+Constructors: 0
+
+Summary: 7
+1 -1 -5 -3 -2 3 0 
+org/eclipse/core/internal/resources/Workspace.canCreateExtensions()Z
+PTG:
+Vars:
+2
+r1 1 -1 
+$r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 0 
+3 1 3 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.close(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+18
+$r6 1 63 
+$r8 1 84 
+$r13 1 168 
+$r10 1 108 
+$r12 1 135 
+$r4 1 46 
+r0 1 -1 
+r24 1 12 
+$r15 1 204 
+r1 1 16 
+$r7 1 71 
+$r11 1 109 
+$r14 1 200 
+r9 1 94 
+$r2 1 21 
+r23 1 -2 
+$r3 1 18 
+$r5 1 54 
+Fields: 5
+94 ArrayObject 108
+-1 stringPoolJob 46
+-1 tree 18
+-1 notificationManager 71
+-1 saveManager 54
+Accesses: 5
+17 1 -1 
+53 1 -1 
+70 1 -1 
+45 1 -1 
+143 1 -1 
+Functions: 29
+0 5 -1 18 54 71 46 
+-1 0 
+192 1 12 
+67 7 -1 18 54 71 12 46 63 
+134 5 -1 18 54 71 46 
+8 1 -2 
+138 6 -1 18 54 71 135 46 
+75 1 71 
+203 5 -1 18 54 71 46 
+207 2 200 204 
+80 5 -1 18 54 71 46 
+18 2 18 21 
+83 5 -1 18 54 71 46 
+84 1 84 
+213 1 12 
+154 1 12 
+158 5 -1 18 54 71 46 
+33 2 16 12 
+167 1 12 
+40 2 16 12 
+171 6 -1 18 54 71 168 46 
+108 1 108 
+112 6 -1 18 54 71 109 46 
+49 1 46 
+117 1 12 
+182 5 -1 18 54 71 46 
+58 1 54 
+186 0 
+62 5 -1 18 54 71 46 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/core/internal/resources/Workspace.getContentDescriptionManager()Lorg/eclipse/core/internal/resources/ContentDescriptionManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 contentDescriptionManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.newElement(I)Lorg/eclipse/core/internal/resources/ResourceInfo;
+PTG:
+Vars:
+6
+$r2 1 59 
+$r0 1 70 
+r1 1 -1 
+$r3 1 48 
+r4 3 70 48 59 
+_ret 3 70 48 59 
+Fields: 0
+Accesses: 0
+Functions: 7
+83 3 48 70 59 
+52 1 48 
+88 4 -1 48 70 59 
+74 1 70 
+93 3 48 70 59 
+63 1 59 
+79 1 -1 
+Constructors: 3
+52 48
+74 70
+63 59
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.getTeamHook()Lorg/eclipse/core/resources/team/TeamHook;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+_ret 1 1 
+Fields: 1
+-1 teamHook 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.newWorkingTree()Lorg/eclipse/core/internal/watson/ElementTree;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 2 
+$r1 1 2 
+$r2 1 5 
+_ret 1 2 
+Fields: 1
+-1 tree 2
+Accesses: 3
+1 1 -1 
+8 1 -1 
+11 1 -1 
+Functions: 1
+2 1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.forgetSavedTree(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 saveManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/resources/Workspace.prepareOperation(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+7
+$r10 1 45 
+r1 1 -1 
+r2 1 -3 
+$r4 1 6 
+$r5 1 9 
+r0 1 -2 
+$r6 1 23 
+Fields: 1
+-1 buildManager 23
+Accesses: 1
+22 1 -1 
+Functions: 10
+33 2 -1 23 
+50 3 -2 -3 45 
+4 2 -2 9 
+5 2 -1 23 
+53 2 -1 23 
+6 1 6 
+39 2 -2 -3 
+73 0 
+26 1 23 
+44 2 -1 23 
+Constructors: 0
+
+Summary: 5
+1 -1 -3 -2 0 
+org/eclipse/core/internal/resources/Workspace.newProjectDescription(Ljava/lang/String;)Lorg/eclipse/core/resources/IProjectDescription;
+PTG:
+Vars:
+4
+r2 1 -2 
+r3 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 1 0 
+10 2 0 -2 
+Constructors: 1
+4 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.computePrerequisiteOrder1([Lorg/eclipse/core/resources/IProject;)[[Lorg/eclipse/core/resources/IProject;
+PTG:
+Vars:
+21
+$r3 1 32 
+r25 1 180 
+$r17 1 248 
+$r15 1 187 
+$r7 1 48 
+r1 1 -2 
+r27 1 232 
+r23 1 135 
+r2 1 5 
+$r5 1 40 
+$r12 1 149 
+r22 1 82 
+$r13 1 45 
+$r10 2 122 63 
+$r6 1 45 
+r0 1 -1 
+$r9 1 122 
+$r14 1 164 
+r26 1 187 
+r21 1 69 
+_ret 1 248 
+Fields: 5
+122 ArrayObject 69
+63 ArrayObject 69
+69 ArrayObject 82
+5 projects 45
+5 knots 122
+Accesses: 6
+160 1 5 
+19 1 5 
+6 1 5 
+121 1 5 
+44 1 5 
+62 1 5 
+Functions: 18
+0 2 -1 -2 
+129 1 32 
+161 1 45 
+225 1 149 
+99 2 32 82 
+36 1 32 
+197 2 32 187 
+167 2 164 149 
+45 1 45 
+173 1 149 
+143 2 32 135 
+241 2 149 232 
+210 1 180 
+51 2 48 40 
+84 2 82 40 
+215 1 180 
+153 1 149 
+185 1 180 
+Constructors: 3
+51 40
+36 32
+153 149
+
+Summary: 13
+149 187 164 40 -1 5 48 -2 122 45 180 0 32 
+org/eclipse/core/internal/resources/Workspace.getElementTree()Lorg/eclipse/core/internal/watson/ElementTree;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 tree 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.validatePath(Ljava/lang/String;I)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+5
+$r3 1 6 
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+_ret 1 6 
+Fields: 1
+-1 locationValidator 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/resources/Workspace.validateNatureSet([Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+$r3 1 5 
+_ret 1 5 
+Fields: 1
+-1 natureManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/resources/Workspace.<init>()V
+PTG:
+Vars:
+11
+$r1 1 15 
+$r7 1 117 
+r0 1 -1 
+$r6 1 106 
+$r8 1 124 
+$r4 1 43 
+$r2 1 19 
+$r5 1 95 
+$r9 1 117 
+$r3 1 30 
+$r10 1 137 
+Fields: 1
+-1 tree 117
+Accesses: 18
+66 1 -1 
+130 1 -1 
+6 1 -1 
+102 1 -1 
+39 1 -1 
+71 1 -1 
+11 1 -1 
+76 1 -1 
+81 1 -1 
+113 1 -1 
+51 1 -1 
+116 1 -1 
+86 1 -1 
+56 1 -1 
+26 1 -1 
+91 1 -1 
+61 1 -1 
+127 1 -1 
+Functions: 10
+48 3 -1 117 43 
+-1 0 
+1 2 -1 117 
+99 1 95 
+36 1 30 
+134 2 -1 117 
+23 4 -1 19 117 15 
+120 1 117 
+140 2 117 137 
+110 1 106 
+Constructors: 6
+48 43
+1 -1
+99 95
+36 30
+23 15
+110 106
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.getDescription()Lorg/eclipse/core/resources/IWorkspaceDescription;
+PTG:
+Vars:
+4
+r0 1 3 
+r1 1 -1 
+$r2 1 5 
+_ret 1 3 
+Fields: 1
+-1 description 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+0 0 
+9 2 3 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.copy([Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/runtime/IPath;ZLorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+6
+r3 1 -5 
+r1 1 -2 
+$r4 1 18 
+r0 1 -1 
+r2 1 -3 
+_ret 1 18 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 4 -1 -2 -3 -5 
+Constructors: 0
+
+Summary: 4
+-2 -1 -5 -3 
+org/eclipse/core/internal/resources/Workspace.computeFullProjectOrder()Lorg/eclipse/core/resources/IWorkspace$ProjectOrder;
+PTG:
+Vars:
+15
+$r17 1 28 
+r14 1 178 
+$r8 1 47 
+r2 1 -1 
+$r4 1 17 
+r5 1 27 
+$r15 1 4 
+r10 1 69 
+r11 1 85 
+$r13 1 133 
+$r16 1 0 
+r12 1 107 
+r9 1 47 
+$r18 1 4 
+_ret 1 178 
+Fields: 2
+27 ArrayObject 47
+85 ArrayObject 107
+Accesses: 0
+Functions: 13
+64 1 47 
+34 1 28 
+9 2 -1 4 
+12 2 0 4 
+109 1 107 
+174 2 0 28 
+79 1 69 
+16 1 -1 
+17 1 17 
+146 2 133 28 
+53 1 47 
+119 2 107 47 
+90 2 0 47 
+Constructors: 3
+34 28
+9 4
+12 0
+
+Summary: 5
+28 133 -1 0 4 
+org/eclipse/core/internal/resources/Workspace.getRefreshManager()Lorg/eclipse/core/internal/refresh/RefreshManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 refreshManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.newResource(Lorg/eclipse/core/runtime/IPath;I)Lorg/eclipse/core/internal/resources/Resource;
+PTG:
+Vars:
+2
+r0 1 -1 
+r4 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 21
+128 0 
+160 1 -2 
+65 0 
+98 1 -1 
+68 1 -2 
+102 1 -2 
+137 0 
+74 0 
+175 1 -1 
+48 1 -2 
+112 0 
+145 1 -2 
+83 0 
+119 0 
+152 1 -1 
+184 0 
+58 0 
+122 1 -2 
+91 1 -2 
+156 1 -1 
+157 0 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/core/internal/resources/Workspace.save(ZZLorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+8
+$r14 1 106 
+r2 1 -4 
+$r1 1 53 
+$r3 1 66 
+r0 1 -1 
+r16 1 75 
+$r12 1 -1 
+$r4 1 77 
+Fields: 1
+-1 saveManager 66
+Accesses: 2
+65 1 -1 
+39 1 -1 
+Functions: 14
+32 0 
+96 2 -1 66 
+35 0 
+4 2 -1 66 
+5 0 
+69 1 66 
+40 1 -4 
+105 2 -1 66 
+111 3 -1 66 106 
+52 2 -1 66 
+84 2 75 77 
+57 4 -1 66 -4 53 
+90 2 -1 66 
+62 2 -1 66 
+Constructors: 1
+84 77
+
+Summary: 6
+53 -1 91 5 106 -4 
+org/eclipse/core/internal/resources/Workspace.clearChildren(Ljava/io/File;)Z
+PTG:
+Vars:
+4
+$r3 1 31 
+r1 1 13 
+r0 1 -2 
+$r2 1 24 
+Fields: 1
+13 ArrayObject 31
+Accesses: 0
+Functions: 4
+32 3 -2 24 31 
+2 1 -2 
+24 1 24 
+9 1 -2 
+Constructors: 1
+32 24
+
+Summary: 2
+24 0 
+org/eclipse/core/internal/resources/Workspace.getFileSystemManager()Lorg/eclipse/core/internal/localstore/FileSystemResourceManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fileSystemManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.copy([Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/runtime/IPath;ILorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+43
+r46 1 354 
+$r8 1 343 
+$r35 1 279 
+$r32 1 320 
+$r16 1 139 
+$r18 1 262 
+$r1 1 91 
+r5 1 139 
+r38 1 5 
+$r9 1 337 
+$r48 2 91 476 
+$r19 1 173 
+$r13 1 368 
+$r12 1 367 
+$r7 1 196 
+$r23 1 -1 
+$r6 1 190 
+r36 1 -2 
+r39 1 42 
+$r33 1 -1 
+$r4 1 111 
+$r11 1 358 
+$r22 1 458 
+$r0 1 76 
+$r10 1 344 
+$r15 1 212 
+$r29 1 -1 
+$r20 1 432 
+r44 1 222 
+$r25 1 -1 
+r14 1 -3 
+r3 1 -1 
+r41 1 76 
+r37 1 -5 
+r43 1 89 
+r17 1 242 
+$r28 1 421 
+r40 1 63 
+r42 1 184 
+$r21 1 443 
+$r30 1 397 
+$r31 1 -1 
+$r27 1 410 
+Fields: 3
+76 ArrayObject 343
+76 ArrayObject 367
+76 ArrayObject 139
+Accesses: 0
+Functions: 51
+0 1 -5 
+132 1 5 
+261 1 5 
+265 3 262 139 222 
+396 1 -1 
+16 0 
+400 1 397 
+147 4 343 139 76 367 
+277 1 -1 
+22 0 
+409 1 -1 
+282 2 279 91 
+158 1 5 
+291 1 5 
+420 1 5 
+424 3 -1 421 410 
+171 1 139 
+300 2 242 91 
+173 1 173 
+431 1 -1 
+50 2 5 42 
+311 1 5 
+186 2 196 184 
+442 1 5 
+188 1 139 
+190 1 190 
+318 1 -1 
+446 3 -1 432 443 
+449 1 91 
+67 1 5 
+323 2 320 91 
+75 1 -2 
+332 1 5 
+464 2 458 91 
+209 2 -3 212 
+210 1 139 
+468 1 91 
+343 1 343 
+349 3 337 344 184 
+226 2 139 222 
+231 1 139 
+104 2 89 91 
+488 1 5 
+110 1 -1 
+367 1 367 
+116 3 -1 5 111 
+244 1 242 
+500 1 5 
+375 3 368 354 358 
+121 1 -1 
+378 2 358 91 
+Constructors: 3
+464 458
+375 358
+104 91
+
+Summary: 26
+344 190 262 279 76 184 -1 242 196 443 222 212 410 111 368 397 354 421 -5 358 5 -3 -2 173 320 432 
+org/eclipse/core/internal/resources/Workspace.validateProjectLocation(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+6
+r2 1 -3 
+r0 1 -1 
+$r4 1 6 
+r1 1 -2 
+$r3 1 1 
+_ret 1 6 
+Fields: 1
+-1 locationValidator 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+org/eclipse/core/internal/resources/Workspace.computeProjectOrder([Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/core/resources/IWorkspace$ProjectOrder;
+PTG:
+Vars:
+25
+$r29 1 153 
+$r19 1 257 
+$r13 1 153 
+r25 1 89 
+r1 1 4 
+r15 1 175 
+$r20 1 260 
+r2 1 -2 
+$r16 1 177 
+$r14 2 169 153 
+_ret 1 306 
+r30 1 291 
+$r22 1 306 
+$r3 1 16 
+r18 1 200 
+$r7 1 62 
+$r12 1 148 
+$r4 1 40 
+r27 1 133 
+$r8 1 40 
+$r6 1 54 
+r0 1 -1 
+$r5 1 49 
+$r10 2 83 40 
+$r26 1 40 
+Fields: 8
+169 ArrayObject 175
+-2 ArrayObject 16
+83 ArrayObject 89
+153 ArrayObject 175
+4 projects 40
+4 knots 153
+175 ArrayObject 200
+40 ArrayObject 89
+Accesses: 7
+66 1 4 
+82 1 4 
+276 1 4 
+118 1 4 
+39 1 4 
+152 1 4 
+168 1 4 
+Functions: 20
+0 1 -1 
+325 3 306 291 133 
+71 1 62 
+265 2 148 260 
+202 2 49 200 
+107 2 89 62 
+235 1 177 
+300 2 291 148 
+142 2 133 62 
+16 1 16 
+53 2 16 -2 
+184 1 177 
+248 2 177 257 
+57 2 49 54 
+218 2 177 200 
+250 1 177 
+91 2 49 89 
+284 1 148 
+157 1 148 
+126 1 62 
+Constructors: 5
+325 306
+71 62
+184 177
+57 49
+157 148
+
+Summary: 11
+177 62 54 133 -1 -2 148 291 260 257 49 
+org/eclipse/core/internal/resources/Workspace.isTreeLocked()Z
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 4 
+r0 1 -1 
+Fields: 1
+-1 treeLocked 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.refreshRequested()Z
+PTG:
+Vars:
+3
+r0 1 3 
+r2 1 -1 
+$r1 1 11 
+Fields: 1
+3 ArrayObject 11
+Accesses: 0
+Functions: 2
+0 0 
+11 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.broadcastEvent(Lorg/eclipse/core/internal/events/LifecycleEvent;)V
+PTG:
+Vars:
+6
+$r3 1 12 
+r5 1 -2 
+r4 1 12 
+r2 1 7 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 lifecycleListeners 1
+Accesses: 1
+0 1 -1 
+Functions: 4
+1 1 1 
+23 2 -2 12 
+11 1 7 
+28 1 7 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.setTreeLocked(Z)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r3 1 28 
+$r2 1 5 
+Fields: 1
+-1 treeLocked 5
+Accesses: 2
+35 1 -1 
+4 1 -1 
+Functions: 2
+-1 0 
+19 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.addResourceChangeListener(Lorg/eclipse/core/resources/IResourceChangeListener;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 notificationManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+7 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/resources/Workspace.validateSave(Lorg/eclipse/core/resources/IFile;)V
+PTG:
+Vars:
+8
+$r7 1 49 
+r0 1 -1 
+r5 1 -2 
+$r10 1 32 
+$r2 1 9 
+$r1 1 9 
+r3 1 28 
+$r12 1 32 
+Fields: 2
+28 ArrayObject 49
+-1 validator 9
+Accesses: 3
+0 1 -1 
+19 1 -1 
+8 1 -1 
+Functions: 5
+16 2 -1 9 
+49 1 49 
+65 0 
+39 6 32 -1 49 -2 9 28 
+44 1 32 
+Constructors: 1
+39 32
+
+Summary: 7
+-2 28 0 -1 64 32 49 
+org/eclipse/core/internal/resources/Workspace.linkTrees(Lorg/eclipse/core/runtime/IPath;[Lorg/eclipse/core/internal/watson/ElementTree;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 -2 
+$r4 1 7 
+r2 1 -3 
+$r3 1 2 
+Fields: 1
+-1 tree 2
+Accesses: 2
+1 1 -1 
+10 1 -1 
+Functions: 1
+2 3 -2 2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+org/eclipse/core/internal/resources/Workspace.getRuleFactory()Lorg/eclipse/core/resources/IResourceRuleFactory;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r3 1 8 
+$r2 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 ruleFactory 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+19 1 -1 
+Functions: 1
+13 3 -1 1 8 
+Constructors: 1
+13 8
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.getMoveDeleteHook()Lorg/eclipse/core/resources/team/IMoveDeleteHook;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+_ret 1 1 
+Fields: 1
+-1 moveDeleteHook 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.setWorkspaceLock(Lorg/eclipse/core/resources/WorkspaceLock;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/resources/Workspace.removeSaveParticipant(Lorg/eclipse/core/runtime/Plugin;)V
+PTG:
+Vars:
+3
+$r2 1 8 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 saveManager 8
+Accesses: 1
+7 1 -1 
+Functions: 2
+4 1 -2 
+12 2 -2 8 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.getBuildManager()Lorg/eclipse/core/internal/events/BuildManager;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 buildManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.startup(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+32
+$r22 1 190 
+$r5 1 33 
+$r21 1 182 
+$r2 1 13 
+$r14 1 106 
+$r20 1 170 
+$r24 1 210 
+r0 1 -1 
+$r31 1 13 
+$r7 1 52 
+$r19 1 158 
+$r3 1 21 
+$r17 1 138 
+$r23 1 198 
+$r26 1 225 
+$r25 1 218 
+$r8 1 60 
+$r1 1 1 
+$r16 1 126 
+$r29 1 255 
+$r27 1 235 
+$r15 1 118 
+$r12 1 88 
+$r18 1 146 
+$r30 1 266 
+$r10 1 79 
+$r11 1 85 
+$r9 1 71 
+r4 1 -2 
+$r6 1 41 
+$r28 1 247 
+$r13 1 98 
+Fields: 13
+-1 _workManager 13
+-1 markerManager 138
+-1 charsetManager 247
+-1 natureManager 71
+-1 propertyManager 225
+-1 fileSystemManager 33
+-1 pathVariableManager 52
+-1 refreshManager 190
+-1 notificationManager 118
+-1 contentDescriptionManager 266
+-1 buildManager 98
+-1 saveManager 182
+-1 aliasManager 210
+Accesses: 31
+67 1 -1 
+70 1 -1 
+134 1 -1 
+262 1 -1 
+9 1 -1 
+137 1 -1 
+265 1 -1 
+12 1 -1 
+206 1 -1 
+209 1 -1 
+279 1 -1 
+154 1 -1 
+282 1 -1 
+29 1 -1 
+221 1 -1 
+94 1 -1 
+32 1 -1 
+224 1 -1 
+97 1 -1 
+293 1 -1 
+166 1 -1 
+296 1 -1 
+48 1 -1 
+114 1 -1 
+178 1 -1 
+51 1 -1 
+243 1 -1 
+117 1 -1 
+181 1 -1 
+246 1 -1 
+189 1 -1 
+Functions: 31
+64 1 60 
+-1 0 
+194 1 190 
+131 15 -1 225 33 98 71 138 266 13 210 52 118 182 247 126 190 
+259 1 255 
+6 15 -1 1 225 33 98 71 138 266 13 210 52 118 182 247 190 
+75 1 71 
+203 15 -1 225 33 98 198 71 138 266 13 210 52 118 182 247 190 
+142 1 138 
+270 1 266 
+17 1 13 
+84 14 -1 225 33 98 71 138 266 13 210 52 118 182 247 190 
+85 1 85 
+214 1 210 
+151 15 -1 225 33 98 71 138 266 13 146 210 52 118 182 247 190 
+26 15 -1 225 33 98 71 138 266 13 210 52 21 118 182 247 190 
+91 16 -1 225 33 98 71 138 266 13 79 210 52 118 182 247 88 190 
+286 0 
+163 15 -1 225 33 98 71 138 266 13 210 52 118 182 247 158 190 
+37 2 33 -2 
+229 2 225 -2 
+102 1 98 
+300 1 13 
+45 1 41 
+111 15 -1 225 33 98 71 106 138 266 13 210 52 118 182 247 190 
+175 15 -1 225 33 98 71 170 138 266 13 210 52 118 182 247 190 
+240 15 -1 225 33 98 71 138 266 235 13 210 52 118 182 247 190 
+56 1 52 
+122 1 118 
+186 1 182 
+251 1 247 
+Constructors: 13
+64 60
+131 126
+163 158
+259 255
+6 1
+203 198
+45 41
+111 106
+175 170
+240 235
+151 146
+26 21
+91 79
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/resources/Workspace.defaultWorkspaceDescription()Lorg/eclipse/core/internal/resources/WorkspaceDescription;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 0 
+Constructors: 1
+6 0
+
+Summary: 0
+
+org/eclipse/core/internal/resources/Workspace.getNatureDescriptors()[Lorg/eclipse/core/resources/IProjectNatureDescriptor;
+PTG:
+Vars:
+4
+$r2 1 4 
+r0 1 -1 
+$r1 1 1 
+_ret 1 4 
+Fields: 1
+-1 natureManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.move([Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/runtime/IPath;ILorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+43
+$r8 1 195 
+$r30 1 384 
+r13 1 -3 
+r36 1 -2 
+$r20 1 419 
+$r7 1 191 
+$r25 1 -1 
+$r33 1 -1 
+$r16 1 247 
+r6 1 138 
+$r18 1 259 
+$r11 1 349 
+$r35 1 274 
+$r4 1 111 
+$r23 1 -1 
+$r10 1 337 
+$r1 1 91 
+$r17 1 250 
+r3 1 -1 
+$r22 1 445 
+r38 1 5 
+$r14 1 213 
+r42 1 185 
+$r27 1 397 
+$r21 1 430 
+$r48 2 91 463 
+r41 1 76 
+$r19 1 176 
+$r28 1 408 
+$r12 1 357 
+r37 1 -5 
+r43 1 89 
+$r31 1 -1 
+r46 1 345 
+$r5 1 138 
+$r9 1 332 
+$r0 1 76 
+$r29 1 -1 
+$r32 1 315 
+r44 1 230 
+r39 1 42 
+r40 1 63 
+$r15 1 216 
+Fields: 1
+76 ArrayObject 138
+Accesses: 0
+Functions: 53
+0 1 -5 
+258 1 5 
+387 1 384 
+132 1 5 
+262 3 259 138 250 
+396 1 -1 
+16 0 
+272 1 -1 
+277 2 274 91 
+22 0 
+150 2 138 76 
+407 1 5 
+411 3 -1 408 397 
+286 1 5 
+161 1 5 
+418 1 -1 
+295 2 230 91 
+429 1 5 
+174 1 138 
+176 1 176 
+433 3 -1 419 430 
+50 2 5 42 
+306 1 5 
+436 1 91 
+313 1 -1 
+187 2 195 185 
+189 1 138 
+318 2 91 315 
+191 1 191 
+67 1 5 
+451 2 91 445 
+327 1 5 
+455 1 91 
+75 1 -2 
+335 1 138 
+208 2 216 138 
+210 2 -3 213 
+211 1 138 
+340 3 337 185 332 
+475 1 5 
+221 1 138 
+355 1 138 
+487 1 5 
+104 2 89 91 
+232 1 230 
+362 3 357 345 349 
+365 2 91 349 
+110 1 -1 
+116 3 -1 5 111 
+244 2 -3 247 
+245 1 138 
+121 1 -1 
+383 1 -1 
+Constructors: 3
+451 445
+104 91
+362 349
+
+Summary: 28
+259 315 76 337 -1 213 357 250 384 111 397 195 -5 5 185 -3 408 -2 430 191 176 230 345 216 247 274 349 419 
+org/eclipse/core/internal/resources/Workspace.getSynchronizer()Lorg/eclipse/core/resources/ISynchronizer;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 synchronizer 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.nextNodeId()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.open(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+23
+$r2 1 52 
+$r11 1 148 
+$r15 1 198 
+$r10 1 121 
+r27 1 -2 
+$r19 1 82 
+$r12 1 152 
+r4 1 69 
+$r3 1 63 
+$r6 1 93 
+$r16 1 202 
+$r14 1 194 
+r9 1 112 
+$r5 1 89 
+$r7 1 96 
+r28 1 3 
+$r1 1 22 
+$r18 1 75 
+$r13 1 183 
+$r17 1 208 
+$r8 1 99 
+r0 1 -1 
+_ret 1 208 
+Fields: 6
+-1 refreshManager 148
+-1 description 75
+-1 stringPoolJob 194
+-1 localMetaArea 89
+-1 notificationManager 121
+-1 saveManager 198
+Accesses: 10
+193 1 -1 
+130 1 -1 
+147 1 -1 
+133 1 -1 
+197 1 -1 
+88 1 -1 
+120 1 -1 
+74 1 -1 
+59 1 -1 
+190 1 -1 
+Functions: 25
+-1 0 
+4 7 -1 194 148 198 89 121 75 
+201 7 -1 194 148 198 89 121 75 
+140 7 -1 194 148 198 89 121 75 
+205 3 194 198 202 
+79 2 69 75 
+17 1 3 
+21 7 -1 194 148 198 89 121 75 
+85 1 82 
+22 1 22 
+151 7 -1 194 148 198 89 121 75 
+89 2 89 93 
+155 2 148 152 
+92 7 -1 194 148 198 89 121 75 
+96 1 96 
+104 1 99 
+108 0 
+47 0 
+178 0 
+117 8 -1 112 194 148 198 89 121 75 
+56 1 52 
+187 1 183 
+125 1 121 
+62 7 -1 194 148 198 89 121 75 
+63 1 63 
+Constructors: 2
+56 52
+187 183
+
+Summary: 2
+-1 -2 
+org/eclipse/core/internal/resources/Workspace.removeResourceChangeListener(Lorg/eclipse/core/resources/IResourceChangeListener;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 notificationManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.endOperation(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+13
+$r4 1 45 
+$r11 1 132 
+$r20 1 154 
+r2 1 -2 
+$r8 1 118 
+$r6 1 246 
+$r9 1 125 
+r0 1 -1 
+r19 1 -4 
+$r3 1 45 
+$r7 1 125 
+r1 1 4 
+$r10 1 118 
+Fields: 5
+-1 operationTree 118
+-1 tree 125
+-1 notificationManager 45
+-1 saveManager 154
+-1 buildManager 246
+Accesses: 12
+128 1 -1 
+209 1 -1 
+117 1 -1 
+181 1 -1 
+245 1 -1 
+200 1 -1 
+73 1 -1 
+153 1 -1 
+59 1 -1 
+44 1 -1 
+124 1 -1 
+172 1 -1 
+Functions: 23
+0 6 -1 118 246 154 125 45 
+96 0 
+-1 0 
+228 2 -2 4 
+69 2 -2 4 
+6 2 -2 4 
+102 1 4 
+135 3 132 118 125 
+105 1 4 
+204 1 125 
+45 1 45 
+77 1 45 
+237 2 -2 4 
+80 1 4 
+176 0 
+150 6 -1 118 246 154 125 45 
+216 6 -1 118 246 154 125 45 
+25 1 4 
+251 1 246 
+28 1 4 
+188 6 -1 118 246 154 125 45 
+63 0 
+159 1 154 
+Constructors: 0
+
+Summary: 5
+2 -1 -2 -4 0 
+org/eclipse/core/internal/resources/Workspace.validateProjectLocationURI(Lorg/eclipse/core/resources/IProject;Ljava/net/URI;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+6
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+$r4 1 6 
+$r3 1 1 
+_ret 1 6 
+Fields: 1
+-1 locationValidator 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/core/internal/resources/Workspace.loadProjectDescription(Ljava/io/InputStream;)Lorg/eclipse/core/resources/IProjectDescription;
+PTG:
+Vars:
+6
+$r1 1 9 
+r10 1 20 
+$r0 1 2 
+r2 1 -2 
+r9 1 -1 
+_ret 1 20 
+Fields: 0
+Accesses: 0
+Functions: 7
+49 0 
+2 2 2 9 
+6 1 2 
+28 1 -2 
+60 0 
+29 0 
+14 2 -2 9 
+Constructors: 2
+6 2
+14 9
+
+Summary: 7
+-2 9 2 29 35 36 -1 
+org/eclipse/core/internal/resources/Workspace.getRoot()Lorg/eclipse/core/resources/IWorkspaceRoot;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 defaultRoot 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.addSaveParticipant(Lorg/eclipse/core/runtime/Plugin;Lorg/eclipse/core/resources/ISaveParticipant;)Lorg/eclipse/core/resources/ISavedState;
+PTG:
+Vars:
+6
+$r3 1 15 
+r0 1 -2 
+$r4 1 20 
+r2 1 -1 
+r1 1 -3 
+_ret 1 20 
+Fields: 1
+-1 saveManager 15
+Accesses: 1
+14 1 -1 
+Functions: 3
+4 1 -2 
+11 1 -3 
+15 3 -2 -3 15 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/core/internal/resources/Workspace.checkpoint(Z)V
+PTG:
+Vars:
+6
+$r2 1 -1 
+$r1 1 1 
+$r3 1 48 
+r6 1 7 
+r0 1 -1 
+$r4 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -1 
+16 1 -1 
+1 1 1 
+51 1 48 
+20 1 -1 
+40 2 -1 7 
+11 2 -1 7 
+31 2 -1 7 
+47 1 -1 
+Constructors: 0
+
+Summary: 4
+7 -1 1 48 
+org/eclipse/core/internal/resources/Workspace.nextMarkerId()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.getWorkManager()Lorg/eclipse/core/internal/resources/WorkManager;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 _workManager 1
+Accesses: 2
+0 1 -1 
+31 1 -1 
+Functions: 2
+24 0 
+27 0 
+Constructors: 0
+
+Summary: 2
+-1 15 
+org/eclipse/core/internal/resources/Workspace.setCrashed(Z)V
+PTG:
+Vars:
+3
+$r2 1 16 
+r0 1 -1 
+$r3 1 36 
+Fields: 0
+Accesses: 2
+2 1 -1 
+5 1 -1 
+Functions: 3
+24 1 16 
+40 1 36 
+27 1 16 
+Constructors: 1
+24 16
+
+Summary: 2
+16 -1 
+org/eclipse/core/internal/resources/Workspace.getAliasManager()Lorg/eclipse/core/internal/resources/AliasManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 aliasManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.beginOperation(Z)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 54 
+r1 1 4 
+$r3 1 54 
+Fields: 1
+-1 tree 54
+Accesses: 4
+64 1 -1 
+36 1 -1 
+53 1 -1 
+57 1 -1 
+Functions: 9
+0 2 -1 54 
+65 1 54 
+20 0 
+37 0 
+6 1 4 
+24 1 4 
+9 1 4 
+75 2 -1 54 
+47 2 -1 54 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.deleteMarkers([Lorg/eclipse/core/resources/IMarker;)V
+PTG:
+Vars:
+11
+$r2 1 36 
+$r0 1 11 
+r11 1 -2 
+$r4 1 43 
+$r7 1 58 
+$r5 1 57 
+$r8 1 65 
+$r3 1 42 
+r1 1 -1 
+$r6 1 52 
+r12 1 11 
+Fields: 5
+11 ArrayObject 36
+11 ArrayObject 42
+11 ArrayObject 65
+11 ArrayObject 57
+-1 markerManager 52
+Accesses: 1
+51 1 -1 
+Functions: 10
+1 1 -2 
+65 1 65 
+100 2 -1 52 
+21 2 -1 52 
+71 2 52 58 
+57 1 57 
+10 1 -2 
+26 2 -1 52 
+42 1 42 
+91 2 -1 52 
+Constructors: 0
+
+Summary: 5
+-2 43 11 58 -1 
+org/eclipse/core/internal/resources/Workspace.run(Lorg/eclipse/core/resources/IWorkspaceRunnable;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -3 
+$r3 1 3 
+r1 1 -2 
+Fields: 1
+-1 defaultRoot 3
+Accesses: 1
+2 1 -1 
+Functions: 1
+8 4 -1 -2 -3 3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/core/internal/resources/Workspace.createResource(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/internal/resources/ResourceInfo;ZZZ)Lorg/eclipse/core/internal/resources/ResourceInfo;
+PTG:
+Vars:
+14
+r4 1 37 
+$r5 1 127 
+$r0 1 18 
+$r6 1 131 
+$r16 2 11 18 
+$r7 1 113 
+r1 1 -1 
+$r14 1 73 
+$r3 1 27 
+r17 2 11 18 
+r2 1 -2 
+r15 1 -3 
+$r13 1 69 
+_ret 2 11 18 
+Fields: 2
+-1 tree 127
+-1 tree 69
+Accesses: 2
+68 1 -1 
+126 1 -1 
+Functions: 20
+65 2 18 11 
+130 1 -2 
+4 3 -1 69 127 
+164 1 -2 
+5 1 -2 
+72 1 -2 
+137 4 18 131 11 127 
+173 0 
+46 2 18 11 
+110 1 37 
+79 4 18 69 73 11 
+17 1 -3 
+50 2 18 11 
+146 1 -2 
+147 0 
+116 3 113 18 11 
+25 4 -1 69 27 127 
+26 1 -2 
+123 2 18 11 
+94 1 37 
+Constructors: 0
+
+Summary: 5
+1 -1 -3 -2 0 
+org/eclipse/core/internal/resources/Workspace.copyTree(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/runtime/IPath;IIZ)V
+PTG:
+Vars:
+26
+r22 1 227 
+$r1 1 1 
+r8 1 413 
+r25 1 364 
+r2 1 -3 
+$r9 1 420 
+$r10 1 -2 
+r5 1 125 
+$r6 1 381 
+$r24 1 -2 
+r7 1 387 
+$r15 1 244 
+r20 2 83 98 
+r0 1 -1 
+r19 2 11 60 
+$r11 1 335 
+$r17 1 201 
+$r4 1 -2 
+$r16 1 194 
+r21 1 194 
+r23 1 322 
+$r18 1 98 
+$r12 1 340 
+$r14 1 239 
+$r13 1 227 
+r3 1 -2 
+Fields: 2
+364 ArrayObject 420
+364 ArrayObject 381
+Accesses: 0
+Functions: 39
+0 1 -1 
+1 2 1 -3 
+65 2 11 60 
+129 2 98 83 
+259 1 227 
+134 1 125 
+200 1 -2 
+266 1 -2 
+394 1 387 
+75 1 -2 
+139 1 125 
+332 2 -3 335 
+333 1 322 
+206 4 194 201 11 60 
+144 2 98 83 
+18 1 -2 
+405 2 -3 387 
+87 1 -2 
+152 1 125 
+219 1 125 
+284 1 -2 
+158 1 125 
+350 3 -1 322 340 
+96 2 98 83 
+225 2 11 60 
+34 1 -3 
+354 1 -2 
+166 1 125 
+169 1 -2 
+428 3 -1 420 413 
+237 1 227 
+110 2 98 83 
+113 5 -1 98 83 11 60 
+242 2 11 60 
+53 2 -1 -3 
+313 1 -2 
+251 3 194 244 239 
+381 1 381 
+191 1 125 
+Constructors: 1
+206 194
+
+Summary: 18
+244 413 125 1 387 364 -1 98 322 340 83 227 335 201 194 0 1 239 
+org/eclipse/core/internal/resources/Workspace.createResource(Lorg/eclipse/core/resources/IResource;I)Lorg/eclipse/core/internal/resources/ResourceInfo;
+PTG:
+Vars:
+4
+r2 1 9 
+r1 1 -2 
+r0 1 -1 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -1 -2 
+52 1 9 
+37 1 9 
+22 1 9 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.setDescription(Lorg/eclipse/core/resources/IWorkspaceDescription;)V
+PTG:
+Vars:
+8
+r2 1 10 
+$r7 1 39 
+r3 1 -1 
+$r4 1 12 
+$r6 1 12 
+r1 1 -2 
+$r5 1 16 
+r0 1 -2 
+Fields: 1
+-1 description 12
+Accesses: 3
+11 1 -1 
+28 1 -1 
+31 1 -1 
+Functions: 5
+36 2 -2 12 
+5 1 -2 
+39 0 
+42 1 39 
+12 1 12 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.delete([Lorg/eclipse/core/resources/IResource;ZLorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 -4 
+$r3 1 22 
+r1 1 -2 
+_ret 1 22 
+Fields: 0
+Accesses: 0
+Functions: 1
+17 3 -1 -2 -4 
+Constructors: 0
+
+Summary: 3
+-2 -4 -1 
+org/eclipse/core/internal/resources/Workspace.deleteResource(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+10
+r0 1 -2 
+r6 1 30 
+r3 1 -1 
+$r7 1 44 
+$r8 1 38 
+$r5 1 20 
+$r4 1 67 
+r1 1 6 
+$r2 1 8 
+$r9 1 45 
+Fields: 3
+-1 tree 67
+-1 tree 38
+30 ArrayObject 44
+Accesses: 2
+66 1 -1 
+37 1 -1 
+Functions: 7
+0 1 -2 
+50 2 38 45 
+19 3 -1 67 38 
+20 1 20 
+7 2 6 8 
+71 2 67 6 
+44 1 44 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.updateModificationStamp(Lorg/eclipse/core/internal/resources/ResourceInfo;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.initializeValidator()V
+PTG:
+Vars:
+9
+$r7 1 -1 
+r12 1 67 
+$r8 1 100 
+$r4 1 73 
+r0 1 -1 
+$r3 1 73 
+$r9 1 107 
+$r1 1 13 
+r2 1 27 
+Fields: 1
+27 ArrayObject 67
+Accesses: 3
+81 1 -1 
+2 1 -1 
+86 1 -1 
+Functions: 9
+-1 0 
+116 1 100 
+5 1 -1 
+69 1 67 
+55 0 
+60 0 
+13 1 13 
+93 1 -1 
+111 3 -1 100 107 
+Constructors: 1
+111 100
+
+Summary: 3
+100 -1 44 
+org/eclipse/core/internal/resources/Workspace.aboutToBuild(Ljava/lang/Object;I)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+9 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/resources/Workspace.getDanglingReferences()Ljava/util/Map;
+PTG:
+Vars:
+15
+$r5 1 29 
+$r9 1 57 
+$r7 1 48 
+r6 1 29 
+$r13 1 123 
+$r12 1 92 
+$r15 1 136 
+$r1 1 1 
+r8 1 55 
+r0 1 -1 
+$r11 1 78 
+r2 1 11 
+$r14 1 133 
+$r3 1 12 
+_ret 1 12 
+Fields: 4
+11 ArrayObject 123
+11 ArrayObject 29
+55 ArrayObject 78
+55 ArrayObject 92
+Accesses: 0
+Functions: 13
+0 1 -1 
+64 1 57 
+1 1 1 
+35 1 29 
+141 3 136 123 12 
+46 1 29 
+78 1 78 
+110 1 57 
+48 1 48 
+18 1 12 
+124 2 133 57 
+93 2 57 92 
+126 1 57 
+Constructors: 2
+64 57
+18 12
+
+Summary: 8
+136 133 -1 57 55 48 11 1 
+org/eclipse/core/internal/resources/Workspace.build(ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+10
+r19 1 -3 
+r0 1 -1 
+r2 1 14 
+$r4 1 53 
+$r3 1 45 
+r5 1 59 
+r20 1 4 
+$r1 1 6 
+$r6 1 139 
+$r7 1 160 
+Fields: 1
+-1 tree 139
+Accesses: 2
+138 1 -1 
+107 1 -1 
+Functions: 24
+0 1 -3 
+35 2 -1 139 
+163 4 -1 160 139 14 
+132 3 -1 139 14 
+5 2 -1 139 
+101 1 59 
+6 1 6 
+71 2 -1 139 
+41 2 -1 139 
+139 1 139 
+44 2 -1 139 
+108 0 
+172 1 4 
+45 2 53 45 
+50 1 4 
+82 2 -1 139 
+85 1 59 
+149 2 -1 139 
+181 1 4 
+22 1 4 
+118 2 -1 139 
+157 1 4 
+30 4 -1 4 139 14 
+126 1 4 
+Constructors: 0
+
+Summary: 10
+53 4 -1 -3 160 6 14 129 45 59 
+org/eclipse/core/internal/resources/Workspace.flushBuildOrder()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 5 
+$r1 1 1 
+Fields: 1
+-1 description 1
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.internalGetDescription()Lorg/eclipse/core/internal/resources/WorkspaceDescription;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 description 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.validateLinkLocation(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+6
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+$r4 1 6 
+$r3 1 1 
+_ret 1 6 
+Fields: 1
+-1 locationValidator 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+org/eclipse/core/internal/resources/Workspace.isOpen()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.addResourceChangeListener(Lorg/eclipse/core/resources/IResourceChangeListener;I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 notificationManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.toDebugString()Ljava/lang/String;
+PTG:
+Vars:
+19
+$r12 1 55 
+r2 1 -1 
+$r22 1 35 
+$r5 1 24 
+$r24 1 72 
+$r20 1 4 
+$r21 1 0 
+$r19 1 91 
+$r6 1 27 
+$r9 1 46 
+$r18 1 46 
+$r25 1 62 
+$r3 1 15 
+$r23 1 62 
+$r17 1 80 
+$r4 1 18 
+$r10 1 49 
+$r11 1 52 
+_ret 1 91 
+Fields: 1
+-1 tree 46
+Accesses: 2
+76 1 -1 
+45 1 -1 
+Functions: 15
+35 2 49 35 
+4 2 4 15 
+68 4 -1 0 62 46 
+42 1 35 
+11 1 4 
+14 2 -1 46 
+46 1 46 
+18 1 18 
+83 3 80 72 46 
+52 1 52 
+87 2 72 62 
+24 1 24 
+58 2 0 55 
+90 1 0 
+30 2 0 27 
+Constructors: 5
+83 72
+68 62
+42 35
+11 4
+30 0
+
+Summary: 10
+15 62 18 27 49 -1 55 52 24 72 
+org/eclipse/core/internal/resources/Workspace.getMarkerManager()Lorg/eclipse/core/internal/resources/MarkerManager;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 markerManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.getBuildOrder()[Lorg/eclipse/core/resources/IProject;
+PTG:
+Vars:
+14
+$r10 1 46 
+$r4 1 111 
+$r1 1 1 
+$r5 1 114 
+r11 1 52 
+r0 1 -1 
+r3 1 20 
+$r13 1 1 
+$r9 1 41 
+$r12 1 89 
+$r2 1 13 
+$r7 1 25 
+$r6 1 1 
+_ret 1 1 
+Fields: 4
+20 ArrayObject 46
+111 projects 114
+-1 description 13
+-1 buildOrder 1
+Accesses: 8
+0 1 -1 
+96 1 -1 
+117 1 -1 
+7 1 -1 
+120 1 -1 
+12 1 -1 
+92 1 -1 
+111 1 111 
+Functions: 9
+67 2 52 25 
+83 1 25 
+100 2 1 25 
+54 1 52 
+40 3 -1 1 13 
+41 2 41 46 
+13 1 13 
+110 3 -1 1 13 
+31 1 25 
+Constructors: 1
+31 25
+
+Summary: 2
+25 -1 
+org/eclipse/core/internal/resources/Workspace.initializeMoveDeleteHook()V
+PTG:
+Vars:
+11
+$r6 1 122 
+$r7 1 197 
+$r5 1 122 
+r2 1 40 
+r23 1 116 
+r0 1 -1 
+$r19 1 144 
+$r25 1 190 
+$r20 1 151 
+$r1 1 26 
+$r18 1 -1 
+Fields: 2
+40 ArrayObject 116
+-1 moveDeleteHook 190
+Accesses: 11
+65 1 -1 
+50 1 -1 
+130 1 -1 
+22 1 -1 
+7 1 -1 
+183 1 -1 
+168 1 -1 
+204 1 -1 
+109 1 -1 
+189 1 -1 
+94 1 -1 
+Functions: 14
+0 2 -1 190 
+-1 0 
+160 1 144 
+137 2 -1 190 
+201 1 197 
+106 0 
+19 0 
+180 0 
+86 0 
+118 1 116 
+26 1 26 
+91 0 
+155 3 144 -1 151 
+62 0 
+Constructors: 2
+201 197
+155 144
+
+Summary: 3
+144 -1 75 
+org/eclipse/core/internal/resources/Workspace.isDuplicate([Ljava/lang/Object;I)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+$r2 1 21 
+$r1 1 24 
+Fields: 2
+-2 ArrayObject 24
+-2 ArrayObject 21
+Accesses: 0
+Functions: 1
+21 2 21 24 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/core/internal/resources/Workspace.delete([Lorg/eclipse/core/resources/IResource;ILorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+30
+r32 1 27 
+$r21 1 -1 
+$r26 1 192 
+$r15 1 -1 
+r34 1 81 
+$r25 1 182 
+$r17 1 298 
+$r28 1 216 
+r35 1 188 
+$r13 1 -1 
+$r7 1 141 
+r33 1 42 
+$r11 1 241 
+$r9 1 257 
+r29 1 -2 
+$r4 1 90 
+$r10 1 267 
+$r0 1 44 
+$r5 1 115 
+r6 1 115 
+$r24 1 177 
+r31 1 4 
+$r18 1 308 
+$r2 1 81 
+$r27 1 201 
+r23 1 159 
+$r20 1 285 
+r3 1 -1 
+r30 1 -4 
+$r19 1 -1 
+Fields: 1
+81 ArrayObject 115
+Accesses: 0
+Functions: 35
+0 1 -4 
+128 1 4 
+256 1 -1 
+320 1 4 
+7 0 
+199 1 115 
+72 1 4 
+266 1 4 
+140 1 4 
+206 3 192 201 188 
+270 3 -1 257 267 
+80 1 -2 
+144 2 115 141 
+209 2 192 44 
+274 1 4 
+214 1 -1 
+152 1 115 
+89 1 -1 
+219 2 216 44 
+284 1 -1 
+94 3 -1 4 90 
+288 1 285 
+161 1 115 
+34 2 4 27 
+99 1 -1 
+163 2 115 159 
+232 1 44 
+297 1 -1 
+109 1 4 
+307 1 4 
+180 1 115 
+182 2 177 182 
+247 2 241 44 
+311 3 -1 308 298 
+57 2 42 44 
+Constructors: 3
+247 241
+57 44
+206 192
+
+Summary: 18
+308 298 192 4 -1 141 285 81 -4 267 182 90 257 -2 201 216 159 188 
+org/eclipse/core/internal/resources/Workspace.move(Lorg/eclipse/core/internal/resources/Resource;Lorg/eclipse/core/runtime/IPath;IIZ)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+8 3 -1 -2 -3 
+12 1 -2 
+Constructors: 0
+
+Summary: 4
+1 0 -1 -3 
+org/eclipse/core/internal/resources/Workspace.getSaveManager()Lorg/eclipse/core/internal/resources/SaveManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 saveManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.sortNatureSet([Ljava/lang/String;)[Ljava/lang/String;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+$r3 1 5 
+_ret 1 5 
+Fields: 1
+-1 natureManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/resources/Workspace.isAutoBuilding()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 description 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.move([Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/runtime/IPath;ZLorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+6
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+$r4 1 24 
+r3 1 -5 
+_ret 1 24 
+Fields: 0
+Accesses: 0
+Functions: 1
+17 4 -1 -2 -3 -5 
+Constructors: 0
+
+Summary: 4
+-2 -1 -5 -3 
+org/eclipse/core/internal/resources/Workspace.addLifecycleListener(Lorg/eclipse/core/internal/events/ILifecycleListener;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 lifecycleListeners 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.validateName(Ljava/lang/String;I)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 1 
+$r3 1 6 
+r1 1 -2 
+_ret 1 6 
+Fields: 1
+-1 locationValidator 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.getNatureManager()Lorg/eclipse/core/internal/resources/NatureManager;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 natureManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.countResources(Lorg/eclipse/core/runtime/IPath;IZ)I
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 tree 1
+Accesses: 3
+0 1 -1 
+43 1 -1 
+75 1 -1 
+Functions: 5
+80 1 -2 
+1 2 1 -2 
+66 2 -1 1 
+85 0 
+44 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 71 58 0 -1 54 
+org/eclipse/core/internal/resources/Workspace.computePrerequisiteOrder([Lorg/eclipse/core/resources/IProject;)[[Lorg/eclipse/core/resources/IProject;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 2 
+r1 1 -2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/resources/Workspace.initializeTeamHook()V
+PTG:
+Vars:
+11
+r0 1 -1 
+$r19 1 147 
+$r1 1 27 
+r23 1 119 
+$r5 1 125 
+$r6 1 125 
+$r7 1 201 
+r2 1 41 
+$r25 1 194 
+$r18 1 -1 
+$r20 1 154 
+Fields: 2
+-1 teamHook 194
+41 ArrayObject 119
+Accesses: 11
+96 1 -1 
+112 1 -1 
+193 1 -1 
+209 1 -1 
+51 1 -1 
+67 1 -1 
+133 1 -1 
+7 1 -1 
+23 1 -1 
+171 1 -1 
+187 1 -1 
+Functions: 14
+0 2 -1 194 
+-1 0 
+64 2 -1 194 
+163 1 147 
+140 2 -1 194 
+109 2 -1 194 
+206 3 -1 194 201 
+20 2 -1 194 
+88 0 
+184 2 -1 194 
+121 1 119 
+27 1 27 
+93 0 
+158 3 -1 147 154 
+Constructors: 2
+158 147
+206 201
+
+Summary: 3
+77 -1 147 
+org/eclipse/core/internal/resources/Workspace.getCharsetManager()Lorg/eclipse/core/internal/resources/CharsetManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 charsetManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.clear(Ljava/io/File;)Z
+PTG:
+Vars:
+2
+$r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+5 1 -2 
+13 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/core/internal/resources/Workspace.createResource(Lorg/eclipse/core/resources/IResource;Z)Lorg/eclipse/core/internal/resources/ResourceInfo;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 6 
+_ret 1 6 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.broadcastBuildEvent(Ljava/lang/Object;II)V
+PTG:
+Vars:
+5
+r1 1 -2 
+$r4 1 18 
+$r0 1 0 
+r3 1 -1 
+$r5 1 14 
+Fields: 2
+-1 tree 18
+-1 notificationManager 14
+Accesses: 2
+17 1 -1 
+13 1 -1 
+Functions: 2
+8 2 0 -2 
+24 3 0 18 14 
+Constructors: 1
+8 0
+
+Summary: 4
+-2 0 -1 0 
+org/eclipse/core/internal/resources/Workspace.getResourceInfo(Lorg/eclipse/core/runtime/IPath;ZZ)Lorg/eclipse/core/internal/resources/ResourceInfo;
+PTG:
+Vars:
+12
+$r2 1 36 
+$r7 1 10 
+r1 1 -1 
+$r6 1 57 
+r10 1 13 
+$r8 1 13 
+$r5 1 36 
+$r3 1 36 
+r11 2 57 73 
+$r4 1 73 
+r0 1 -2 
+$r9 1 -1 
+Fields: 2
+-1 tree 10
+-1 tree 36
+Accesses: 4
+35 1 -1 
+52 1 -1 
+68 1 -1 
+9 1 -1 
+Functions: 7
+0 1 -2 
+36 2 -2 36 
+53 2 -2 36 
+69 2 -2 36 
+10 1 10 
+26 1 13 
+90 2 57 73 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Workspace.broadcastPostChange()V
+PTG:
+Vars:
+4
+$r3 1 17 
+r1 1 -1 
+$r4 1 13 
+$r0 1 0 
+Fields: 2
+-1 tree 17
+-1 notificationManager 13
+Accesses: 2
+16 1 -1 
+12 1 -1 
+Functions: 2
+22 3 0 17 13 
+8 4 0 -1 17 13 
+Constructors: 1
+8 0
+
+Summary: 2
+-1 0 
+org/eclipse/core/internal/resources/Workspace.validateLinkLocationURI(Lorg/eclipse/core/resources/IResource;Ljava/net/URI;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+6
+$r3 1 1 
+r1 1 -2 
+r2 1 -3 
+$r4 1 6 
+r0 1 -1 
+_ret 1 6 
+Fields: 1
+-1 locationValidator 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/core/internal/resources/Workspace.getNotificationManager()Lorg/eclipse/core/internal/events/NotificationManager;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 notificationManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Workspace.getPropertyManager()Lorg/eclipse/core/internal/properties/IPropertyManager;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 propertyManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

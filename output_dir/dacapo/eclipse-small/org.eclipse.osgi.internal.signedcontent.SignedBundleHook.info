@@ -1,0 +1,680 @@
+17
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.frameworkStart(Lorg/osgi/framework/BundleContext;)V
+PTG:
+Vars:
+66
+r4 1 -2 
+$r5 1 213 
+$r73 1 385 
+$r103 1 30 
+$r99 2 474 464 
+$r13 1 650 
+$r113 1 321 
+$r123 1 641 
+$r109 1 162 
+$r27 1 509 
+$r10 1 595 
+$r53 1 100 
+$r51 1 59 
+$r37 1 297 
+$r95 2 301 311 
+$r114 1 336 
+$r117 1 438 
+$r112 1 285 
+$r55 1 108 
+$r100 2 557 568 
+$r92 2 191 181 
+$r76 1 326 
+$r21 1 429 
+$r108 1 139 
+$r38 1 333 
+$r28 1 505 
+$r11 1 638 
+$r71 1 379 
+$r116 1 423 
+$r90 1 166 
+$r47 1 22 
+r3 1 -1 
+$r41 1 342 
+$r104 1 43 
+r94 1 282 
+$r56 1 111 
+$r88 1 155 
+$r74 1 -1 
+r97 1 406 
+$r102 1 10 
+$r9 1 590 
+$r124 1 22 
+$r106 1 103 
+$r57 1 118 
+$r32 1 253 
+$r42 1 353 
+$r25 1 496 
+$r72 1 382 
+$r33 1 258 
+$r115 1 369 
+$r40 1 346 
+$r29 1 516 
+r23 1 457 
+$r34 1 270 
+$r7 1 227 
+$r69 1 -1 
+$r111 1 242 
+$r120 1 544 
+r8 1 235 
+$r84 2 78 68 
+$r101 2 605 616 
+$r6 1 218 
+$r91 1 169 
+$r107 1 126 
+$r119 1 499 
+$r24 1 460 
+Fields: 3
+-1 osgiTrustEngineReg 297
+-1 osgiTrustEngineReg 460
+-1 installListener 22
+Accesses: 11
+17 1 -1 
+21 1 -1 
+293 1 -1 
+296 1 -1 
+552 1 -1 
+600 1 -1 
+123 1 -1 
+459 1 -1 
+446 1 -1 
+223 1 -1 
+655 1 -1 
+Functions: 61
+-1 1 -1 
+256 1 242 
+512 4 499 457 505 509 
+132 1 126 
+646 5 -1 641 22 297 460 
+391 2 -1 385 
+521 2 516 460 
+397 1 -2 
+14 1 10 
+527 1 423 
+145 1 139 
+273 2 126 270 
+148 2 139 126 
+277 1 242 
+25 2 -2 22 
+158 2 155 126 
+290 1 285 
+419 1 126 
+36 1 30 
+549 2 544 -2 
+300 4 336 -2 333 126 
+556 6 -1 -2 22 297 460 590 
+301 2 311 301 
+557 2 568 557 
+175 3 162 166 169 
+432 3 406 423 429 
+49 1 43 
+52 2 43 30 
+180 4 -2 162 213 126 
+181 2 181 191 
+309 0 
+565 0 
+443 1 438 
+189 0 
+62 2 59 30 
+67 4 -2 100 103 30 
+68 2 68 78 
+452 1 423 
+329 2 321 326 
+586 0 
+76 0 
+463 4 496 -2 499 126 
+464 2 464 474 
+209 0 
+472 0 
+604 3 -2 641 638 
+349 4 336 342 282 346 
+605 2 616 605 
+96 0 
+226 2 -2 227 
+613 0 
+358 2 353 297 
+108 1 108 
+492 0 
+369 2 369 379 
+114 3 -2 103 111 
+248 2 242 235 
+376 1 369 
+634 0 
+253 2 258 253 
+382 1 382 
+Constructors: 17
+512 499
+290 285
+36 30
+132 126
+549 544
+646 641
+329 321
+14 10
+175 162
+432 423
+49 43
+145 139
+114 103
+248 242
+376 369
+443 438
+349 336
+
+Summary: 19
+423 -1 213 103 43 242 100 126 641 139 30 590 333 336 638 162 496 -2 499 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.getTrustEngines()[Lorg/eclipse/osgi/service/security/TrustEngine;
+PTG:
+Vars:
+27
+$r2 1 227 
+$r30 1 198 
+$r23 1 61 
+$r12 1 93 
+$r22 1 -1 
+$r6 1 129 
+$r4 1 182 
+r31 1 204 
+$r15 1 106 
+$r7 1 31 
+$r29 1 192 
+_ret 1 227 
+$r24 1 66 
+$r20 1 -1 
+$r27 2 51 41 
+$r10 1 82 
+$r9 1 76 
+$r11 1 87 
+r26 1 112 
+$r8 1 73 
+r25 1 24 
+$r3 1 145 
+$r1 1 13 
+$r14 1 103 
+$r28 2 160 150 
+$r13 1 97 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 24
+0 0 
+-1 1 -1 
+97 1 97 
+195 1 192 
+69 2 66 61 
+38 1 31 
+198 1 198 
+103 1 103 
+136 3 112 129 3 
+41 2 51 41 
+106 1 106 
+76 1 76 
+49 0 
+82 1 82 
+178 0 
+19 0 
+150 2 160 150 
+87 1 87 
+122 1 -1 
+186 3 145 3 182 
+93 2 24 93 
+221 1 204 
+158 0 
+31 2 73 31 
+Constructors: 4
+69 61
+38 31
+136 129
+186 145
+
+Summary: 2
+182 73 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.createFrameworkLog()Lorg/eclipse/osgi/framework/log/FrameworkLog;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.handleRuntimeError(Ljava/lang/Throwable;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.log(Ljava/lang/String;ILjava/lang/Throwable;)V
+PTG:
+Vars:
+6
+$r1 1 18 
+r3 1 -4 
+r2 1 -2 
+$r0 1 0 
+$r5 1 35 
+$r6 1 38 
+Fields: 0
+Accesses: 0
+Functions: 5
+35 1 35 
+10 1 -2 
+42 2 18 38 
+14 1 -4 
+31 3 -2 18 -4 
+Constructors: 1
+31 18
+
+Summary: 4
+-2 -4 0 18 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.initialize(Lorg/eclipse/osgi/baseadaptor/BaseAdaptor;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.mapLocationToURLConnection(Ljava/lang/String;)Ljava/net/URLConnection;
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.wrapBundleFile(Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleFile;Ljava/lang/Object;Lorg/eclipse/osgi/baseadaptor/BaseData;Z)Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleFile;
+PTG:
+Vars:
+26
+$r2 1 8 
+r22 1 62 
+$r4 1 26 
+r0 1 -4 
+$r9 1 187 
+$r14 1 156 
+$r5 1 32 
+r18 1 -3 
+_ret 3 -2 91 26 
+r25 1 115 
+$r24 1 62 
+$r12 1 -1 
+$r13 1 145 
+r19 3 -2 91 26 
+r17 1 -1 
+$r1 1 5 
+$r3 1 91 
+$r6 1 32 
+$r10 1 190 
+$r15 1 159 
+$r8 1 176 
+$r16 1 162 
+r21 2 91 26 
+r20 1 8 
+$r11 1 193 
+$r7 1 -1 
+Fields: 1
+8 signedContent 32
+Accesses: 3
+85 1 8 
+43 1 8 
+30 1 8 
+Functions: 20
+99 1 91 
+4 2 -4 5 
+38 2 32 26 
+134 3 115 26 91 
+71 1 62 
+199 2 -1 193 
+168 2 -1 162 
+107 3 -2 26 91 
+110 2 26 91 
+176 2 176 187 
+145 2 145 156 
+54 3 -2 26 91 
+183 1 176 
+152 1 145 
+57 1 26 
+122 1 115 
+186 3 -2 26 91 
+155 3 -2 26 91 
+190 1 190 
+159 1 159 
+Constructors: 4
+99 91
+38 26
+183 176
+152 145
+
+Summary: 6
+2 1 -1 -3 -4 0 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.getSignedContent(Lorg/osgi/framework/Bundle;)Lorg/eclipse/osgi/signedcontent/SignedContent;
+PTG:
+Vars:
+22
+$r23 1 163 
+$r5 1 33 
+$r8 1 62 
+r2 1 7 
+$r4 1 7 
+$r11 1 92 
+$r1 1 -2 
+$r3 1 30 
+$r42 1 83 
+r10 1 -1 
+$r27 1 230 
+$r21 1 123 
+$r43 1 221 
+$r22 1 143 
+$r24 1 183 
+$r18 1 -1 
+$r20 1 103 
+r0 1 -2 
+$r40 1 45 
+r6 1 33 
+$r45 1 83 
+$r25 1 203 
+Fields: 1
+33 signedContent 45
+Accesses: 1
+44 1 33 
+Functions: 23
+-1 0 
+192 1 -1 
+1 1 -2 
+161 1 -1 
+68 1 -1 
+132 1 -1 
+228 1 -1 
+101 1 -1 
+70 0 
+73 0 
+201 1 -1 
+233 2 230 221 
+172 1 -1 
+141 1 -1 
+112 1 -1 
+83 1 83 
+212 1 -1 
+181 1 -1 
+22 0 
+152 1 -1 
+89 3 -1 83 7 
+121 1 -1 
+27 2 7 30 
+Constructors: 2
+89 83
+233 221
+
+Summary: 15
+7 33 76 -1 62 183 123 143 163 -2 230 103 83 73 203 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.getSignedContent(Ljava/io/File;)Lorg/eclipse/osgi/signedcontent/SignedContent;
+PTG:
+Vars:
+10
+$r14 1 60 
+$r12 1 34 
+$r15 1 60 
+r8 1 -1 
+r0 1 -2 
+$r13 1 44 
+r9 2 34 22 
+$r11 1 22 
+$r5 1 65 
+_ret 1 60 
+Fields: 0
+Accesses: 0
+Functions: 8
+64 1 44 
+51 1 44 
+68 2 65 60 
+40 2 -2 34 
+57 3 34 22 44 
+11 0 
+27 2 -2 22 
+15 1 -2 
+Constructors: 4
+51 44
+68 60
+40 34
+27 22
+
+Summary: 6
+-2 34 65 22 -1 44 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.<clinit>()V
+PTG:
+Vars:
+10
+$r0 1 30 
+$r6 1 64 
+$r2 1 39 
+$r3 1 48 
+$r8 1 75 
+$r4 1 53 
+$r7 1 70 
+$r1 1 36 
+$r5 1 59 
+$r9 1 78 
+Fields: 0
+Accesses: 0
+Functions: 10
+48 1 48 
+64 1 64 
+34 0 
+36 1 36 
+53 1 53 
+70 1 70 
+42 2 39 30 
+59 1 59 
+75 1 75 
+30 1 30 
+Constructors: 1
+42 30
+
+Summary: 0
+
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.frameworkStopping(Lorg/osgi/framework/BundleContext;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.addHooks(Lorg/eclipse/osgi/baseadaptor/HookRegistry;)V
+PTG:
+Vars:
+21
+r6 1 23 
+$r14 1 98 
+$r4 1 11 
+$r21 1 173 
+$r7 1 34 
+$r16 1 122 
+$r12 1 75 
+$r15 1 127 
+$r10 1 52 
+$r3 1 5 
+$r11 1 80 
+r0 1 -2 
+r1 1 -1 
+$r18 1 134 
+$r9 1 57 
+$r13 1 103 
+$r20 1 173 
+$r2 1 8 
+$r5 1 14 
+$r8 1 29 
+$r17 1 139 
+Fields: 6
+23 ArrayObject 34
+23 ArrayObject 103
+23 ArrayObject 139
+23 ArrayObject 127
+23 ArrayObject 80
+23 ArrayObject 57
+Accesses: 0
+Functions: 13
+2 2 -1 -2 
+98 2 98 103 
+134 2 134 139 
+8 1 8 
+11 2 5 11 
+75 2 80 75 
+17 1 14 
+177 1 173 
+52 2 52 57 
+180 2 -2 173 
+185 2 -1 -2 
+122 2 122 127 
+29 2 34 29 
+Constructors: 1
+177 173
+
+Summary: 4
+-1 173 -2 0 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.getContext()Lorg/osgi/framework/BundleContext;
+PTG:
+Vars:
+4
+$r1 1 8 
+$r2 1 11 
+$r0 1 0 
+_ret 1 11 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 1 8 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.addProperties(Ljava/util/Properties;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/internal/signedcontent/SignedBundleHook.frameworkStop(Lorg/osgi/framework/BundleContext;)V
+PTG:
+Vars:
+22
+r10 1 -2 
+$r5 1 112 
+$r20 1 1 
+$r17 1 84 
+$r16 1 84 
+$r9 1 179 
+$r7 1 152 
+$r1 1 1 
+$r19 1 22 
+$r6 1 133 
+$r18 1 43 
+$r3 1 43 
+$r12 1 133 
+$r4 1 64 
+$r13 1 112 
+$r11 1 152 
+$r8 1 173 
+$r21 1 152 
+r0 1 -1 
+r15 1 79 
+$r2 1 22 
+$r14 1 64 
+Fields: 7
+-1 systemTrustEngineReg 43
+-1 trustEngineListener 133
+-1 legacyFactoryReg 1
+-1 osgiTrustEngineReg 64
+-1 signedContentFactoryReg 22
+-1 installListener 152
+-1 defaultAuthEngineReg 112
+Accesses: 21
+0 1 -1 
+129 1 -1 
+132 1 -1 
+70 1 -1 
+7 1 -1 
+39 1 -1 
+42 1 -1 
+170 1 -1 
+139 1 -1 
+108 1 -1 
+111 1 -1 
+49 1 -1 
+18 1 -1 
+148 1 -1 
+21 1 -1 
+118 1 -1 
+151 1 -1 
+28 1 -1 
+60 1 -1 
+63 1 -1 
+159 1 -1 
+Functions: 11
+32 1 22 
+97 1 79 
+83 1 79 
+163 2 -2 152 
+53 1 43 
+182 1 179 
+71 1 64 
+122 1 112 
+11 1 1 
+92 1 84 
+143 1 133 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 

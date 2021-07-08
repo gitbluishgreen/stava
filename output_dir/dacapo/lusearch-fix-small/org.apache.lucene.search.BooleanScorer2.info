@@ -1,0 +1,552 @@
+21
+org/apache/lucene/search/BooleanScorer2.countingDisjunctionSumScorer(Ljava/util/List;I)Lorg/apache/lucene/search/Scorer;
+PTG:
+Vars:
+4
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 3 0 -1 -2 
+Constructors: 1
+7 0
+
+Summary: 3
+0 -1 -2 
+org/apache/lucene/search/BooleanScorer2.addProhibitedScorers(Lorg/apache/lucene/search/Scorer;)Lorg/apache/lucene/search/Scorer;
+PTG:
+Vars:
+12
+$r8 2 14 -2 
+$r5 1 1 
+$r6 1 35 
+_ret 2 14 -2 
+$r9 2 44 35 
+$r4 1 1 
+r2 1 -2 
+$r3 1 1 
+$r1 1 1 
+$r11 1 14 
+r0 1 -1 
+$r10 1 44 
+Fields: 1
+-1 prohibitedScorers 1
+Accesses: 4
+0 1 -1 
+48 1 -1 
+19 1 -1 
+30 1 -1 
+Functions: 5
+1 1 1 
+20 1 1 
+52 2 1 44 
+55 4 -2 35 44 14 
+31 1 1 
+Constructors: 2
+52 44
+55 14
+
+Summary: 3
+0 -1 44 
+org/apache/lucene/search/BooleanScorer2.makeCountingSumScorerSomeReq()Lorg/apache/lucene/search/Scorer;
+PTG:
+Vars:
+20
+$r2 1 1 
+$r8 1 1 
+$r32 1 158 
+r0 1 -1 
+$r10 1 168 
+$r3 1 68 
+$r28 2 158 186 
+$r9 1 1 
+$r7 1 1 
+$r1 1 1 
+$r11 1 168 
+$r31 1 78 
+_ret 1 138 
+$r4 1 68 
+$r17 1 88 
+$r16 1 68 
+$r33 1 138 
+$r26 2 105 78 
+$r18 1 88 
+$r6 1 144 
+Fields: 2
+-1 requiredScorers 68
+-1 optionalScorers 1
+Accesses: 15
+0 1 -1 
+67 1 -1 
+163 1 -1 
+101 1 -1 
+7 1 -1 
+40 1 -1 
+109 1 -1 
+49 1 -1 
+83 1 -1 
+147 1 -1 
+181 1 -1 
+22 1 -1 
+120 1 -1 
+124 1 -1 
+29 1 -1 
+Functions: 20
+1 1 1 
+68 1 68 
+100 3 -1 1 68 
+164 1 1 
+44 0 
+142 5 -1 1 68 105 78 
+174 5 -1 1 68 168 158 
+18 0 
+84 1 68 
+116 3 -1 1 68 
+148 1 1 
+180 3 -1 1 68 
+53 0 
+117 5 -1 1 68 105 78 
+23 1 1 
+119 3 -1 1 68 
+57 3 -1 1 68 
+58 3 -1 1 68 
+189 4 144 138 186 158 
+94 5 -1 1 68 88 78 
+Constructors: 3
+189 138
+94 78
+174 158
+
+Summary: 4
+158 -1 78 36 
+org/apache/lucene/search/BooleanScorer2.dualConjunctionSumScorer(Lorg/apache/lucene/search/Scorer;Lorg/apache/lucene/search/Scorer;)Lorg/apache/lucene/search/Scorer;
+PTG:
+Vars:
+7
+r2 1 -2 
+$r4 1 4 
+_ret 1 0 
+r5 1 -1 
+r3 1 -3 
+$r0 1 0 
+$r1 1 8 
+Fields: 0
+Accesses: 0
+Functions: 1
+19 3 0 4 8 
+Constructors: 1
+19 0
+
+Summary: 4
+0 8 -1 1 
+org/apache/lucene/search/BooleanScorer2.makeCountingSumScorer()Lorg/apache/lucene/search/Scorer;
+PTG:
+Vars:
+4
+_ret 2 11 18 
+r0 1 -1 
+$r1 1 1 
+$r2 2 11 18 
+Fields: 1
+-1 requiredScorers 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 1 1 
+17 2 -1 1 
+10 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/BooleanScorer2.next()Z
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 countingSumScorer 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+8 2 -1 1 
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/BooleanScorer2.access$100(Lorg/apache/lucene/search/BooleanScorer2;)Lorg/apache/lucene/search/BooleanScorer2$Coordinator;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -2 
+Fields: 1
+-2 coordinator 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/apache/lucene/search/BooleanScorer2.score(Lorg/apache/lucene/search/HitCollector;)V
+PTG:
+Vars:
+17
+r15 1 87 
+$r8 1 46 
+$r6 1 34 
+$r4 1 18 
+r1 1 -2 
+$r11 1 99 
+$r9 1 18 
+$r13 1 64 
+r0 1 -1 
+$r3 1 8 
+$r2 1 124 
+$r17 1 124 
+$r12 1 64 
+$r5 1 29 
+r14 1 52 
+$r16 1 124 
+$r10 1 99 
+Fields: 4
+-1 countingSumScorer 124
+-1 prohibitedScorers 18
+-1 requiredScorers 8
+-1 optionalScorers 46
+Accesses: 9
+0 1 -1 
+80 1 -1 
+17 1 -1 
+145 1 -1 
+37 1 -1 
+134 1 -1 
+7 1 -1 
+123 1 -1 
+45 1 -1 
+Functions: 18
+33 5 -1 18 8 124 46 
+98 1 87 
+131 5 -1 18 8 124 46 
+135 1 124 
+8 1 8 
+41 2 34 29 
+74 2 64 29 
+109 2 99 29 
+46 1 46 
+81 1 18 
+18 1 18 
+146 1 124 
+53 1 52 
+117 2 -2 29 
+88 1 87 
+152 5 -1 18 8 124 46 
+156 1 -2 
+63 1 52 
+Constructors: 1
+41 29
+
+Summary: 4
+0 29 -2 -1 
+org/apache/lucene/search/BooleanScorer2.initCountingSumScorer()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 9 
+Fields: 1
+-1 coordinator 1
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 2
+4 1 1 
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/BooleanScorer2.skipTo(I)Z
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 countingSumScorer 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+8 2 -1 1 
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/BooleanScorer2.score(Lorg/apache/lucene/search/HitCollector;I)Z
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r3 1 1 
+r2 1 -2 
+$r4 1 1 
+Fields: 1
+-1 countingSumScorer 1
+Accesses: 3
+0 1 -1 
+34 1 -1 
+22 1 -1 
+Functions: 5
+1 1 1 
+19 1 -2 
+35 1 1 
+23 1 1 
+15 2 -1 1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/lucene/search/BooleanScorer2.score()F
+PTG:
+Vars:
+4
+$r3 1 1 
+r0 1 -1 
+$r1 1 1 
+$r2 1 8 
+Fields: 2
+-1 countingSumScorer 8
+-1 coordinator 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+7 1 -1 
+Functions: 3
+17 1 1 
+4 1 1 
+8 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/BooleanScorer2.countingConjunctionSumScorer(Ljava/util/List;)Lorg/apache/lucene/search/Scorer;
+PTG:
+Vars:
+5
+$r3 1 12 
+r0 1 -2 
+_ret 1 7 
+$r1 1 7 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+17 4 -1 -2 7 12 
+Constructors: 1
+17 7
+
+Summary: 3
+0 -1 -2 
+org/apache/lucene/search/BooleanScorer2.doc()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 countingSumScorer 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/BooleanScorer2.makeCountingSumScorerNoReq()Lorg/apache/lucene/search/Scorer;
+PTG:
+Vars:
+14
+$r2 1 1 
+$r14 1 121 
+$r1 1 1 
+$r5 1 1 
+$r10 1 1 
+$r13 3 71 88 115 
+r0 1 -1 
+$r9 1 98 
+_ret 1 121 
+$r17 1 88 
+$r8 1 98 
+$r7 1 1 
+$r4 1 1 
+$r3 1 1 
+Fields: 1
+-1 optionalScorers 1
+Accesses: 9
+0 1 -1 
+18 1 -1 
+66 1 -1 
+35 1 -1 
+54 1 -1 
+77 1 -1 
+93 1 -1 
+30 1 -1 
+111 1 -1 
+Functions: 11
+1 1 1 
+65 2 -1 1 
+50 0 
+36 1 1 
+55 1 1 
+119 5 -1 1 115 71 88 
+104 4 -1 1 98 88 
+14 0 
+78 1 1 
+94 1 1 
+110 2 -1 1 
+Constructors: 1
+104 88
+
+Summary: 2
+-1 88 
+org/apache/lucene/search/BooleanScorer2.explain(I)Lorg/apache/lucene/search/Explanation;
+PTG:
+Vars:
+2
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/BooleanScorer2.<init>(Lorg/apache/lucene/search/Similarity;I)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 1
+4 -1
+
+Summary: 2
+-1 -2 
+org/apache/lucene/search/BooleanScorer2.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 0
+
+org/apache/lucene/search/BooleanScorer2.<init>(Lorg/apache/lucene/search/Similarity;IZ)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r5 1 58 
+r1 1 -2 
+$r2 1 6 
+$r3 1 17 
+$r4 1 28 
+Fields: 0
+Accesses: 7
+35 1 -1 
+67 1 -1 
+24 1 -1 
+40 1 -1 
+72 1 -1 
+13 1 -1 
+77 1 -1 
+Functions: 6
+32 1 28 
+64 2 -1 58 
+2 2 -1 -2 
+21 1 17 
+53 0 
+10 1 6 
+Constructors: 5
+32 28
+64 58
+2 -1
+21 17
+10 6
+
+Summary: 3
+0 -1 -2 
+org/apache/lucene/search/BooleanScorer2.<init>(Lorg/apache/lucene/search/Similarity;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 1
+4 -1
+
+Summary: 2
+-1 -2 
+org/apache/lucene/search/BooleanScorer2.add(Lorg/apache/lucene/search/Scorer;ZZ)V
+PTG:
+Vars:
+6
+$r4 1 36 
+$r3 1 52 
+r0 1 -1 
+$r6 1 5 
+$r2 1 64 
+r1 1 -2 
+Fields: 4
+-1 prohibitedScorers 52
+-1 requiredScorers 36
+-1 coordinator 5
+-1 optionalScorers 64
+Accesses: 6
+35 1 -1 
+51 1 -1 
+4 1 -1 
+5 1 5 
+14 1 5 
+63 1 -1 
+Functions: 4
+68 2 64 -2 
+40 2 -2 36 
+56 2 -2 52 
+31 0 
+Constructors: 0
+
+Summary: 2
+-1 -2 

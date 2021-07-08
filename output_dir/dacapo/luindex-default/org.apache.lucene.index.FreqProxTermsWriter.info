@@ -1,0 +1,498 @@
+13
+org/apache/lucene/index/FreqProxTermsWriter.addThread(Lorg/apache/lucene/index/TermsHashPerThread;)Lorg/apache/lucene/index/TermsHashConsumerPerThread;
+PTG:
+Vars:
+4
+$r0 1 0 
+r2 1 -1 
+r1 1 -2 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/index/FreqProxTermsWriter.closeDocStore(Lorg/apache/lucene/index/DocumentsWriter$FlushState;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/index/FreqProxTermsWriter.copyBytes(Lorg/apache/lucene/store/IndexInput;Lorg/apache/lucene/store/IndexOutput;J)V
+PTG:
+Vars:
+5
+$r4 1 28 
+r0 1 -2 
+r1 1 -1 
+r3 1 -3 
+$r2 1 28 
+Fields: 1
+-1 copyByteBuffer 28
+Accesses: 2
+38 1 -1 
+27 1 -1 
+Functions: 2
+34 2 -2 28 
+45 2 -3 28 
+Constructors: 0
+
+Summary: 5
+-1 -2 1 -3 0 
+org/apache/lucene/index/FreqProxTermsWriter.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 2 18 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/FreqProxTermsWriter.abort()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/FreqProxTermsWriter.createPostings([Lorg/apache/lucene/index/RawPostingList;II)V
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 18 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+22 1 18 
+Constructors: 1
+22 18
+
+Summary: 2
+-1 -2 
+org/apache/lucene/index/FreqProxTermsWriter.files(Ljava/util/Collection;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/lucene/index/FreqProxTermsWriter.bytesPerPosting()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/FreqProxTermsWriter.flush(Ljava/util/Map;Lorg/apache/lucene/index/DocumentsWriter$FlushState;)V
+PTG:
+Vars:
+60
+$r29 1 485 
+$r3 1 9 
+$r8 1 144 
+r35 1 406 
+$r49 1 88 
+r33 1 310 
+$r43 1 288 
+$r12 1 129 
+r62 1 485 
+$r32 1 241 
+r6 1 -1 
+r5 1 -3 
+$r9 1 129 
+$r36 1 431 
+$r23 1 582 
+$r40 1 277 
+$r46 1 33 
+r52 1 45 
+$r7 1 141 
+$r15 1 201 
+r61 1 473 
+$r39 1 358 
+$r18 1 518 
+r53 1 62 
+r54 1 76 
+$r4 1 124 
+$r25 1 598 
+r57 1 193 
+$r31 1 241 
+r60 1 459 
+$r14 1 137 
+$r44 1 129 
+$r17 1 449 
+$r27 1 524 
+$r10 1 133 
+$r42 1 285 
+$r28 1 473 
+$r47 1 45 
+r51 1 33 
+$r30 1 497 
+$r20 1 518 
+r58 1 252 
+$r34 1 402 
+$r11 1 137 
+$r45 1 187 
+$r21 1 566 
+r2 1 -2 
+$r26 1 518 
+$r19 1 550 
+$r22 1 518 
+$r24 1 518 
+$r37 1 336 
+r56 1 168 
+$r41 1 277 
+$r38 1 336 
+$r13 1 162 
+$r0 1 0 
+$r48 1 76 
+r50 1 19 
+r59 1 259 
+Fields: 16
+-1 fieldInfos 137
+76 termsHashPerField 88
+252 name 259
+310 ArrayObject 358
+310 ArrayObject 402
+310 ArrayObject 431
+241 fieldInfo 252
+285 name 288
+402 termsHashPerField 406
+485 termsHashPerThread 497
+-3 directory 129
+-3 flushedFiles 518
+-3 segmentName 133
+-3 docWriter 141
+141 writer 144
+277 fieldInfo 285
+Accesses: 28
+128 1 -3 
+132 1 -3 
+517 1 -3 
+136 1 -1 
+140 1 -3 
+141 1 141 
+205 1 124 
+591 1 -3 
+210 1 124 
+402 1 402 
+86 1 76 
+215 1 -3 
+88 1 88 
+408 1 406 
+345 1 252 
+282 1 277 
+155 1 -3 
+285 1 285 
+543 1 -3 
+358 1 358 
+170 1 -1 
+363 1 252 
+495 1 485 
+559 1 -3 
+180 1 -3 
+246 1 241 
+254 1 252 
+575 1 -3 
+Functions: 47
+64 1 62 
+384 17 -1 129 193 -3 133 518 358 168 137 201 141 431 144 402 310 406 124 
+448 1 -2 
+449 1 449 
+579 6 144 129 -3 133 518 141 
+4 1 0 
+8 1 -2 
+9 1 9 
+521 6 144 129 -3 133 518 141 
+585 2 518 582 
+74 1 62 
+333 1 0 
+461 1 459 
+527 2 518 524 
+144 1 144 
+274 1 0 
+595 6 144 129 -3 133 518 141 
+21 1 19 
+150 4 129 133 137 124 
+471 1 459 
+535 1 193 
+601 2 518 598 
+156 2 129 162 
+540 1 124 
+31 1 19 
+159 6 144 129 -3 133 518 141 
+223 3 193 168 201 
+288 2 288 259 
+417 1 406 
+483 1 473 
+547 6 144 129 -3 133 518 141 
+100 3 0 88 76 
+424 1 406 
+553 2 518 550 
+43 1 33 
+171 1 137 
+238 1 0 
+432 1 431 
+113 1 0 
+563 6 144 129 -3 133 518 141 
+116 1 0 
+181 2 129 187 
+501 1 497 
+55 1 45 
+184 6 144 129 -3 133 518 141 
+569 2 518 566 
+509 1 168 
+Constructors: 3
+4 0
+150 124
+223 201
+
+Summary: 16
+358 201 0 406 0 431 -1 144 310 129 1 141 -2 402 -3 518 
+org/apache/lucene/index/FreqProxTermsWriter.compareText([CI[CI)I
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 4
+2 -2 -4 0 
+org/apache/lucene/index/FreqProxTermsWriter.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r2 1 -1 
+r0 1 -2 
+$r5 1 14 
+$r1 1 1 
+$r4 1 6 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/lucene/index/FreqProxTermsWriter.appendPostings(Lorg/apache/lucene/index/DocumentsWriter$FlushState;[Lorg/apache/lucene/index/FreqProxTermsWriterPerField;Lorg/apache/lucene/index/TermInfosWriter;Lorg/apache/lucene/store/IndexOutput;Lorg/apache/lucene/store/IndexOutput;Lorg/apache/lucene/index/DefaultSkipListWriter;)V
+PTG:
+Vars:
+46
+r3 1 17 
+r9 1 153 
+r14 1 -6 
+$r47 1 59 
+$r30 1 740 
+$r5 1 122 
+$r18 1 901 
+$r10 1 169 
+$r11 1 283 
+r24 1 476 
+$r27 1 814 
+$r39 1 211 
+$r41 1 212 
+$r50 1 62 
+$r7 1 142 
+$r44 1 36 
+$r42 1 263 
+$r38 1 198 
+$r8 1 143 
+r0 1 -3 
+r16 1 -1 
+$r12 1 292 
+r13 1 -5 
+$r21 1 878 
+$r29 1 723 
+$r1 1 2 
+$r48 1 67 
+$r19 1 901 
+$r6 1 123 
+$r20 1 901 
+$r45 1 43 
+r34 1 -2 
+$r17 1 878 
+$r40 1 218 
+$r37 1 188 
+r15 1 -7 
+$r22 1 914 
+r55 2 366 399 
+r53 1 192 
+$r2 1 3 
+r4 1 -4 
+r54 1 287 
+$r26 1 797 
+$r49 1 68 
+$r43 1 239 
+$r36 1 382 
+Fields: 35
+17 ArrayObject 198
+17 ArrayObject 169
+17 ArrayObject 797
+17 ArrayObject 188
+17 ArrayObject 263
+17 ArrayObject 814
+17 ArrayObject 239
+-1 termInfo 878
+-1 termsUTF8 901
+211 text 212
+122 fieldInfo 123
+153 ArrayObject 218
+153 ArrayObject 723
+153 ArrayObject 366
+153 ArrayObject 211
+153 ArrayObject 399
+153 ArrayObject 283
+153 ArrayObject 740
+153 ArrayObject 292
+153 ArrayObject 382
+142 fieldInfo 143
+188 text 192
+67 fieldInfo 68
+59 fieldInfo 62
+366 prox 476
+901 result 914
+399 prox 476
+283 text 287
+36 field 59
+-3 ArrayObject 142
+-3 ArrayObject 43
+-3 ArrayObject 67
+-3 ArrayObject 2
+-3 ArrayObject 122
+2 fieldInfo 3
+Accesses: 29
+2 1 2 
+386 2 366 399 
+3 1 3 
+67 1 67 
+900 1 -1 
+198 1 198 
+142 1 142 
+910 1 -1 
+143 1 143 
+911 1 901 
+211 1 211 
+917 1 -1 
+918 1 901 
+407 2 366 399 
+471 2 366 399 
+218 1 218 
+283 1 283 
+924 1 -1 
+414 2 366 399 
+292 1 292 
+429 1 -2 
+877 1 -1 
+114 1 -4 
+57 1 36 
+122 1 122 
+59 1 59 
+123 1 123 
+188 1 188 
+382 1 382 
+Functions: 34
+512 1 476 
+768 0 
+772 3 476 366 399 
+325 1 -7 
+581 1 -6 
+904 3 914 901 287 
+842 0 
+78 0 
+82 3 36 59 62 
+467 0 
+531 1 476 
+597 6 -1 914 901 -6 476 878 
+661 1 -5 
+219 2 192 212 
+671 1 -5 
+352 1 -7 
+864 0 
+928 3 914 -4 878 
+868 2 -5 -7 
+678 1 -5 
+359 1 -7 
+104 0 
+298 1 -5 
+44 4 36 59 43 62 
+557 1 -6 
+621 0 
+498 0 
+691 1 -5 
+564 1 -6 
+310 1 -6 
+631 1 -6 
+440 0 
+698 3 476 366 399 
+893 1 878 
+Constructors: 1
+44 36
+
+Summary: 38
+122 68 188 -7 198 2 3 292 3 -1 212 -6 153 142 1 -2 -4 -3 2 382 218 17 123 -5 67 0 43 5 287 4 723 211 143 366 399 283 797 192 
+org/apache/lucene/index/FreqProxTermsWriter.<init>()V
+PTG:
+Vars:
+4
+$r2 1 14 
+r0 1 -1 
+$r1 1 8 
+$r3 1 25 
+Fields: 0
+Accesses: 3
+32 1 -1 
+21 1 -1 
+10 1 -1 
+Functions: 3
+1 1 -1 
+18 1 14 
+29 1 25 
+Constructors: 3
+1 -1
+18 14
+29 25
+
+Summary: 1
+-1 

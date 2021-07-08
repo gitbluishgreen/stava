@@ -1,0 +1,264 @@
+9
+avrora/sim/mcu/RegisterSet.createSubRegWriter(Lavrora/sim/mcu/RegisterLayout$RegisterInfo;I[Lavrora/sim/mcu/RegisterSet$SubRegWriter;)V
+PTG:
+Vars:
+24
+$r21 1 97 
+$r11 1 112 
+$r5 1 13 
+r10 1 -4 
+$r6 1 46 
+$r17 1 82 
+$r1 1 1 
+$r7 1 13 
+$r20 1 97 
+$r16 1 127 
+$r23 1 28 
+$r22 1 54 
+$r19 1 89 
+r2 1 6 
+r12 1 -1 
+r3 1 13 
+$r13 1 124 
+$r15 1 127 
+r0 1 -2 
+$r8 1 13 
+$r18 1 94 
+$r4 1 20 
+$r14 1 119 
+$r9 1 72 
+Fields: 8
+-2 subfields 1
+1 ArrayObject 6
+6 field 13
+13 subfields 72
+13 name 124
+13 name 94
+-1 fields 89
+-1 fields 119
+Accesses: 10
+0 1 -2 
+67 1 6 
+69 1 13 
+118 1 -1 
+8 1 6 
+88 1 -1 
+41 1 6 
+122 1 13 
+92 1 13 
+15 1 6 
+Functions: 6
+34 6 6 72 28 124 13 94 
+133 7 112 6 72 124 13 94 127 
+103 7 97 82 6 72 124 13 94 
+119 2 119 124 
+89 2 89 94 
+60 6 54 6 72 124 13 94 
+Constructors: 4
+34 28
+133 112
+103 82
+60 54
+
+Summary: 11
+1 94 124 -1 -4 72 -2 6 13 0 2 
+avrora/sim/mcu/RegisterSet.<init>(Lavrora/sim/mcu/RegisterLayout;)V
+PTG:
+Vars:
+20
+$r16 1 89 
+$r10 1 126 
+$r14 1 63 
+r21 1 117 
+$r8 1 137 
+$r11 2 149 133 
+$r5 1 35 
+$r15 1 74 
+$r4 1 32 
+$r3 1 20 
+r0 1 -1 
+$r7 1 112 
+$r9 2 149 133 
+r19 1 54 
+$r1 1 5 
+r6 1 43 
+$r12 1 156 
+$r13 1 54 
+r2 1 -2 
+$r17 1 85 
+Fields: 8
+112 ArrayObject 117
+117 subfields 126
+-2 fields 32
+-2 info 112
+54 name 89
+-1 registers 149
+-1 registers 133
+-1 fields 85
+Accesses: 13
+132 1 -1 
+104 1 -2 
+12 1 -1 
+111 1 -2 
+16 1 -2 
+81 1 63 
+84 1 -1 
+148 1 -1 
+23 1 -1 
+88 1 54 
+28 1 -1 
+124 1 117 
+31 1 -2 
+Functions: 11
+32 1 32 
+1 4 -1 149 133 85 
+35 1 35 
+67 1 63 
+53 1 43 
+9 1 5 
+153 6 -1 149 133 85 117 126 
+44 1 43 
+141 1 137 
+78 1 74 
+94 3 85 89 63 
+Constructors: 5
+1 -1
+67 63
+9 5
+141 137
+78 74
+
+Summary: 3
+-1 63 0 
+avrora/sim/mcu/RegisterSet.createMultiFieldRegister(Lavrora/sim/mcu/RegisterLayout$RegisterInfo;)Lavrora/sim/mcu/RegisterSet$MultiFieldRegister;
+PTG:
+Vars:
+6
+_ret 1 30 
+$r3 1 30 
+r2 1 5 
+r0 1 -2 
+r4 1 -1 
+$r1 1 1 
+Fields: 1
+-2 subfields 1
+Accesses: 1
+0 1 -2 
+Functions: 2
+36 3 -1 5 30 
+21 4 -1 -2 1 5 
+Constructors: 1
+36 30
+
+Summary: 4
+-2 1 -1 5 
+avrora/sim/mcu/RegisterSet.getField(Ljava/lang/String;)Lavrora/sim/mcu/RegisterSet$Field;
+PTG:
+Vars:
+5
+_ret 1 7 
+r1 1 -2 
+$r3 1 7 
+r2 1 5 
+r0 1 -1 
+Fields: 1
+5 fobject 7
+Accesses: 1
+6 1 5 
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+avrora/sim/mcu/RegisterSet.getRegisterLayout()Lavrora/sim/mcu/RegisterLayout;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 layout 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/mcu/RegisterSet.getFieldWriter(Ljava/lang/String;)Lavrora/sim/mcu/RegisterSet$FieldWriter;
+PTG:
+Vars:
+6
+_ret 1 5 
+$r3 1 5 
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+r4 1 5 
+Fields: 1
+-1 fields 1
+Accesses: 1
+0 1 -1 
+Functions: 7
+16 0 
+32 0 
+1 2 1 -2 
+35 0 
+20 0 
+25 0 
+28 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+avrora/sim/mcu/RegisterSet.share()[Lavrora/sim/ActiveRegister;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 registers 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/mcu/RegisterSet.getSize()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 registers 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/mcu/RegisterSet.installField(Ljava/lang/String;Lavrora/sim/mcu/RegisterSet$Field;)Lavrora/sim/mcu/RegisterSet$Field;
+PTG:
+Vars:
+5
+r2 1 5 
+_ret 1 -3 
+r1 1 -2 
+r0 1 -1 
+r3 1 -3 
+Fields: 0
+Accesses: 1
+8 1 5 
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 1 

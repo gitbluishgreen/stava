@@ -1,0 +1,307 @@
+13
+org/eclipse/core/internal/properties/PropertyBucket.getVersionFileName()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/properties/PropertyBucket.writeEntryValue(Ljava/io/DataOutputStream;Ljava/lang/Object;)V
+PTG:
+Vars:
+16
+r2 1 -2 
+$r5 1 26 
+$r9 1 99 
+$r7 1 89 
+$r14 1 64 
+$r15 2 56 18 
+r1 1 -3 
+r3 1 -1 
+$r4 1 24 
+$r13 1 62 
+$r6 1 18 
+$r11 1 49 
+$r12 1 51 
+$r10 1 101 
+$r8 1 91 
+r0 1 -3 
+Fields: 11
+-1 qualifierIndex 18
+49 ArrayObject 51
+89 ArrayObject 91
+99 ArrayObject 101
+-3 ArrayObject 49
+-3 ArrayObject 24
+-3 ArrayObject 89
+-3 ArrayObject 99
+-3 ArrayObject 62
+24 ArrayObject 26
+62 ArrayObject 64
+Accesses: 2
+17 1 -1 
+55 1 -1 
+Functions: 9
+65 3 64 18 56 
+18 2 18 26 
+82 1 -2 
+52 2 -2 51 
+102 2 -2 101 
+8 1 -2 
+42 1 -2 
+76 1 -2 
+92 2 -2 91 
+Constructors: 0
+
+Summary: 5
+1 -3 -1 0 -2 
+org/eclipse/core/internal/properties/PropertyBucket.getIndexFileName()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/properties/PropertyBucket.getProperty(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/QualifiedName;)Ljava/lang/String;
+PTG:
+Vars:
+6
+r2 1 5 
+_ret 1 14 
+r3 1 -3 
+$r4 1 14 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+12 2 -3 5 
+Constructors: 0
+
+Summary: 6
+-1 5 1 -3 0 -2 
+org/eclipse/core/internal/properties/PropertyBucket.setProperty(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/QualifiedName;Ljava/lang/String;)V
+PTG:
+Vars:
+8
+r6 1 -3 
+r2 1 -1 
+r0 1 -2 
+r4 1 11 
+r11 2 75 86 
+r5 1 -4 
+r1 1 6 
+$r3 1 11 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+50 1 -3 
+82 2 -3 11 
+71 3 -3 -4 11 
+8 2 -1 6 
+43 1 -3 
+60 2 -1 6 
+93 4 -1 6 86 75 
+Constructors: 0
+
+Summary: 11
+11 75 1 6 -3 86 -1 2 32 0 -2 
+org/eclipse/core/internal/properties/PropertyBucket.getVersion()B
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/properties/PropertyBucket.load(Ljava/lang/String;Ljava/io/File;Z)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+r2 1 -2 
+r3 1 -3 
+Fields: 1
+-1 qualifierIndex 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+4 1 1 
+13 4 -1 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/core/internal/properties/PropertyBucket.getEntry(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/internal/properties/PropertyBucket$PropertyEntry;
+PTG:
+Vars:
+7
+r4 1 9 
+_ret 1 22 
+$r3 1 9 
+r2 1 -1 
+r0 1 -2 
+r1 1 6 
+$r5 1 22 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+7 2 -1 6 
+28 3 -2 22 9 
+Constructors: 1
+28 22
+
+Summary: 5
+-1 9 6 0 -2 
+org/eclipse/core/internal/properties/PropertyBucket.<init>()V
+PTG:
+Vars:
+2
+$r1 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 2
+1 1 -1 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 1
+-1 
+org/eclipse/core/internal/properties/PropertyBucket.createEntry(Lorg/eclipse/core/runtime/IPath;Ljava/lang/Object;)Lorg/eclipse/core/internal/localstore/Bucket$Entry;
+PTG:
+Vars:
+6
+$r0 1 0 
+$r3 1 -3 
+_ret 1 0 
+r4 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+9 3 0 -2 -3 
+Constructors: 1
+9 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/core/internal/properties/PropertyBucket.save()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 qualifierIndex 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+4 1 1 
+10 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/properties/PropertyBucket.readEntryValue(Ljava/io/DataInputStream;)Ljava/lang/Object;
+PTG:
+Vars:
+17
+$r2 2 51 51 
+r0 1 -2 
+$r8 2 160 160 
+$r13 2 59 83 
+$r9 1 163 
+$r11 1 173 
+r1 1 7 
+$r6 2 67 67 
+$r15 1 90 
+r4 1 -1 
+_ret 1 7 
+$r3 1 54 
+$r12 2 80 80 
+$r14 1 90 
+$r10 2 170 170 
+$r7 2 59 83 
+$r5 2 65 65 
+Fields: 9
+-1 qualifierIndex 83
+-1 qualifierIndex 59
+7 ArrayObject 170
+7 ArrayObject 65
+7 ArrayObject 51
+7 ArrayObject 160
+7 ArrayObject 80
+65 ArrayObject 67
+65 ArrayObject 67
+Accesses: 4
+82 1 -1 
+102 1 -1 
+118 1 -1 
+58 1 -1 
+Functions: 12
+0 1 -2 
+18 1 -2 
+130 0 
+162 1 -2 
+83 2 83 59 
+115 0 
+68 3 83 67 59 
+132 0 
+53 1 -2 
+86 1 -2 
+153 0 
+172 1 -2 
+Constructors: 0
+
+Summary: 6
+122 -1 0 132 140 -2 
+org/eclipse/core/internal/properties/PropertyBucket.setProperties(Lorg/eclipse/core/internal/properties/PropertyBucket$PropertyEntry;)V
+PTG:
+Vars:
+9
+r3 1 6 
+r7 1 24 
+r1 1 4 
+r0 1 -2 
+$r6 1 24 
+$r2 1 6 
+r4 1 19 
+r5 1 -1 
+$r8 1 51 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+50 2 6 24 
+5 1 -2 
+21 2 -1 19 
+54 3 -1 19 51 
+41 3 -1 19 6 
+13 1 4 
+Constructors: 0
+
+Summary: 8
+-1 51 19 4 6 24 0 -2 

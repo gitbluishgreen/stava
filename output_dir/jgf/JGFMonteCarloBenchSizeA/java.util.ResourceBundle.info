@@ -1,0 +1,861 @@
+33
+java/util/ResourceBundle.getLoader(Ljava/lang/Class;)Ljava/lang/ClassLoader;
+PTG:
+Vars:
+4
+r0 1 -2 
+r2 2 20 9 
+_ret 2 20 9 
+$r1 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+17 0 
+8 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/ResourceBundle.getLocale()Ljava/util/Locale;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 locale 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/ResourceBundle.setExpirationTime(Ljava/util/ResourceBundle$CacheKey;Ljava/util/ResourceBundle$Control;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 2 
+$r3 1 6 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 3 -3 2 6 
+64 0 
+1 1 -2 
+19 0 
+83 0 
+36 1 -2 
+68 0 
+5 1 -2 
+53 1 -2 
+73 0 
+27 1 -2 
+77 0 
+Constructors: 0
+
+Summary: 4
+-2 0 -3 1 
+java/util/ResourceBundle.throwMissingResourceException(Ljava/lang/String;Ljava/util/Locale;Ljava/lang/Throwable;)V
+PTG:
+Vars:
+15
+$r10 1 49 
+$r1 1 13 
+$r5 1 31 
+$r7 1 35 
+r3 1 -2 
+$r0 1 9 
+r14 1 -4 
+$r4 1 26 
+$r2 1 22 
+$r9 1 41 
+$r13 1 61 
+r6 1 -3 
+$r8 1 38 
+$r12 1 58 
+$r11 1 54 
+Fields: 0
+Accesses: 0
+Functions: 12
+17 1 13 
+49 1 49 
+35 1 35 
+67 4 -4 38 9 61 
+22 2 -2 22 
+54 2 -3 54 
+41 2 -2 41 
+26 1 26 
+58 1 58 
+13 1 13 
+45 1 41 
+31 2 -3 31 
+Constructors: 3
+17 13
+67 9
+45 41
+
+Summary: 6
+-4 0 -2 2 -3 1 
+java/util/ResourceBundle.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/util/ResourceBundle.clearCache()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 1 3 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+0 1 0 
+6 1 3 
+Constructors: 0
+
+Summary: 0
+
+java/util/ResourceBundle.loadBundle(Ljava/util/ResourceBundle$CacheKey;Ljava/util/List;Ljava/util/ResourceBundle$Control;Z)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+13
+$r3 1 30 
+$r6 1 42 
+r1 1 4 
+r4 1 30 
+r2 1 -3 
+r0 1 -2 
+$r7 1 50 
+r11 1 57 
+r5 1 -4 
+$r9 1 -1 
+$r10 1 -1 
+$r8 1 95 
+_ret 1 57 
+Fields: 0
+Accesses: 3
+98 1 57 
+105 1 57 
+111 1 57 
+Functions: 10
+0 1 -2 
+49 1 -2 
+67 2 -1 -2 
+40 5 50 -4 4 42 30 
+9 1 -3 
+41 1 -2 
+89 2 -2 30 
+27 1 -3 
+78 2 -1 -2 
+94 1 -2 
+Constructors: 0
+
+Summary: 6
+-4 0 -2 2 -3 1 
+java/util/ResourceBundle.setParent(Ljava/util/ResourceBundle;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 7 
+Fields: 0
+Accesses: 1
+23 1 -1 
+Functions: 1
+17 0 
+Constructors: 0
+
+Summary: 2
+0 -1 
+java/util/ResourceBundle.<clinit>()V
+PTG:
+Vars:
+10
+$r2 1 26 
+$r8 1 84 
+$r0 1 0 
+$r3 1 38 
+$r1 1 16 
+r4 1 55 
+r9 1 84 
+r5 1 60 
+$r6 1 71 
+r7 1 71 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 0 
+32 1 26 
+50 0 
+20 1 16 
+70 1 60 
+56 1 55 
+88 1 84 
+42 1 38 
+61 1 60 
+94 2 84 71 
+Constructors: 4
+32 26
+20 16
+88 84
+42 38
+
+Summary: 0
+
+java/util/ResourceBundle.getBundleImpl(Ljava/lang/String;Ljava/util/Locale;Ljava/lang/ClassLoader;Ljava/util/ResourceBundle$Control;)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+22
+r2 1 -5 
+r4 1 -2 
+$r16 1 205 
+$r3 1 16 
+$r15 1 205 
+r5 1 -4 
+r0 1 -3 
+r22 1 36 
+$r13 1 205 
+$r14 1 200 
+r24 2 284 -3 
+$r17 1 249 
+$r11 1 303 
+r21 2 190 53 
+$r7 1 31 
+$r20 1 53 
+_ret 2 190 53 
+$r9 1 84 
+r12 1 152 
+$r8 1 36 
+r10 1 109 
+r23 1 190 
+Fields: 1
+190 locale 205
+Accesses: 3
+241 2 53 190 
+218 2 53 190 
+203 2 53 190 
+Functions: 24
+64 3 53 205 190 
+-1 0 
+192 3 53 205 190 
+130 0 
+230 1 152 
+72 3 53 205 190 
+104 2 -2 -5 
+200 2 200 205 
+12 0 
+173 0 
+301 1 16 
+145 4 -2 -3 -5 284 
+306 3 -2 -3 303 
+51 1 36 
+243 2 249 205 
+116 1 109 
+277 4 -2 -3 -5 284 
+246 1 152 
+23 4 16 -2 -3 -4 
+185 6 16 -5 152 109 205 190 
+314 1 -4 
+220 2 -3 205 
+31 2 16 31 
+159 1 152 
+Constructors: 1
+23 16
+
+Summary: 9
+-4 -2 1 0 3 16 -5 2 -3 
+java/util/ResourceBundle.isValidBundle(Ljava/util/ResourceBundle;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+$r1 1 5 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/ResourceBundle.findBundleInCache(Ljava/util/ResourceBundle$CacheKey;Ljava/util/ResourceBundle$Control;)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+22
+$r24 1 -1 
+$r1 1 0 
+$r18 1 81 
+$r14 1 213 
+$r20 1 47 
+$r17 1 105 
+$r12 1 203 
+$r7 1 158 
+$r16 1 256 
+r6 1 125 
+r3 1 4 
+r5 1 37 
+$r4 1 20 
+r9 1 20 
+r0 1 -2 
+_ret 1 20 
+$r2 1 4 
+$r13 1 208 
+$r15 1 218 
+r11 1 -3 
+r26 1 20 
+$r8 1 293 
+Fields: 1
+20 parent 37
+Accesses: 9
+176 1 20 
+33 1 20 
+97 1 20 
+66 1 37 
+244 1 20 
+102 1 20 
+134 1 20 
+230 1 20 
+253 1 20 
+Functions: 19
+0 2 0 -2 
+-1 0 
+261 3 256 -2 4 
+200 7 208 -3 20 213 37 218 203 
+169 1 125 
+201 1 125 
+298 3 -2 4 293 
+110 3 -2 4 105 
+206 1 125 
+241 2 -1 -2 
+273 2 -3 125 
+19 1 4 
+211 1 125 
+216 1 125 
+57 0 
+121 1 4 
+91 0 
+222 1 125 
+127 1 125 
+Constructors: 0
+
+Summary: 9
+208 0 213 -2 218 -3 125 203 1 
+java/util/ResourceBundle.clearCache(Ljava/lang/ClassLoader;)V
+PTG:
+Vars:
+7
+$r4 1 38 
+r5 1 38 
+$r1 1 12 
+r2 1 20 
+r3 1 27 
+$r6 1 48 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 7
+21 1 20 
+37 1 27 
+8 0 
+57 2 20 38 
+12 1 12 
+28 1 27 
+47 1 38 
+Constructors: 0
+
+Summary: 3
+-2 0 48 
+java/util/ResourceBundle.getDefaultControl(Ljava/lang/String;)Ljava/util/ResourceBundle$Control;
+PTG:
+Vars:
+9
+$r0 1 0 
+r3 1 14 
+r5 1 25 
+$r2 1 6 
+$r4 1 25 
+_ret 1 51 
+r7 1 41 
+r6 1 -2 
+$r1 1 51 
+Fields: 0
+Accesses: 0
+Functions: 5
+-1 0 
+34 2 -2 25 
+6 1 6 
+24 1 14 
+15 1 14 
+Constructors: 0
+
+Summary: 3
+-2 0 41 
+java/util/ResourceBundle.getStringArray(Ljava/lang/String;)[Ljava/lang/String;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 2 
+r1 1 -2 
+$r4 1 2 
+_ret 1 2 
+$r3 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/util/ResourceBundle.access$200()Ljava/lang/ref/ReferenceQueue;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/ResourceBundle.containsKey(Ljava/lang/String;)Z
+PTG:
+Vars:
+4
+r1 1 -1 
+$r2 1 19 
+r4 2 37 -1 
+r0 1 -2 
+Fields: 1
+37 parent 37
+Accesses: 1
+33 2 -1 37 
+Functions: 3
+18 2 -1 37 
+19 2 -2 19 
+8 0 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/ResourceBundle.keySet()Ljava/util/Set;
+PTG:
+Vars:
+5
+r4 2 29 -1 
+r2 1 -1 
+$r3 1 16 
+$r0 1 0 
+_ret 1 0 
+Fields: 1
+29 parent 29
+Accesses: 1
+25 2 -1 29 
+Functions: 3
+19 2 0 16 
+4 1 0 
+15 2 -1 29 
+Constructors: 1
+4 0
+
+Summary: 1
+16 
+java/util/ResourceBundle.handleKeySet()Ljava/util/Set;
+PTG:
+Vars:
+10
+$r2 1 1 
+r10 1 41 
+$r11 1 54 
+$r5 1 1 
+_ret 1 1 
+$r6 1 18 
+$r9 1 41 
+$r1 1 1 
+r8 1 30 
+r0 1 -1 
+Fields: 1
+-1 keySet 1
+Accesses: 4
+0 1 -1 
+89 1 -1 
+74 1 -1 
+11 1 -1 
+Functions: 6
+51 3 -1 1 41 
+22 1 18 
+40 1 30 
+26 2 -1 1 
+31 1 30 
+63 2 18 41 
+Constructors: 1
+22 18
+
+Summary: 0
+
+java/util/ResourceBundle.checkList(Ljava/util/List;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+$r1 1 43 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 -2 
+23 1 -2 
+41 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/ResourceBundle.getString(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 2 
+$r3 1 2 
+r1 1 -2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/util/ResourceBundle.putBundleInCache(Ljava/util/ResourceBundle$CacheKey;Ljava/util/ResourceBundle;Ljava/util/ResourceBundle$Control;)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+14
+r3 1 17 
+$r7 1 43 
+$r12 1 103 
+$r8 1 49 
+r11 1 66 
+$r4 1 24 
+$r2 1 17 
+r9 1 49 
+r1 1 -4 
+$r5 1 29 
+$r10 1 66 
+_ret 2 -3 66 
+r14 2 -3 66 
+r0 1 -2 
+Fields: 0
+Accesses: 3
+40 2 -3 66 
+89 2 -3 66 
+79 1 66 
+Functions: 8
+16 1 -2 
+64 1 49 
+33 5 17 -3 66 24 29 
+97 1 24 
+2 2 -2 -4 
+5 1 -2 
+43 3 17 24 43 
+109 3 17 103 24 
+Constructors: 1
+33 24
+
+Summary: 6
+-4 0 24 -2 2 1 
+java/util/ResourceBundle.getBundle(Ljava/lang/String;Ljava/util/Locale;Ljava/lang/ClassLoader;)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+6
+r2 1 -3 
+r1 1 -2 
+$r4 1 19 
+_ret 1 19 
+r0 1 -4 
+$r3 1 16 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 4 16 -2 -3 -4 
+8 0 
+15 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -4 -3 
+java/util/ResourceBundle.keepAlive(Ljava/lang/ClassLoader;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/ResourceBundle.getObject(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+r15 2 25 5 
+r1 1 -2 
+$r14 1 11 
+$r2 1 11 
+_ret 2 25 5 
+r0 1 -1 
+Fields: 1
+-1 parent 11
+Accesses: 2
+17 1 -1 
+10 1 -1 
+Functions: 13
+0 3 -1 -2 11 
+34 0 
+68 2 -1 11 
+69 0 
+38 0 
+43 0 
+76 1 -2 
+46 2 -1 11 
+47 0 
+18 2 -2 11 
+53 0 
+58 1 -2 
+62 0 
+Constructors: 0
+
+Summary: 5
+69 0 -1 -2 47 
+java/util/ResourceBundle.getBundle(Ljava/lang/String;Ljava/util/Locale;)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+7
+$r5 1 12 
+$r3 1 5 
+_ret 1 12 
+$r4 1 9 
+r0 1 -2 
+r1 1 -3 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+2 1 2 
+8 1 -2 
+9 4 -2 -3 5 9 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+java/util/ResourceBundle.getBaseBundleName()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 name 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/ResourceBundle.hasValidParentChain(Ljava/util/ResourceBundle;)Z
+PTG:
+Vars:
+2
+r1 2 -2 52 
+r0 1 21 
+Fields: 2
+-2 cacheKey 21
+52 parent 52
+Accesses: 3
+48 2 -2 52 
+17 2 -2 52 
+8 2 -2 52 
+Functions: 2
+0 0 
+26 1 21 
+Constructors: 0
+
+Summary: 4
+21 -2 0 52 
+java/util/ResourceBundle.getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+7
+$r2 1 4 
+$r1 1 1 
+r0 1 -2 
+$r3 1 7 
+$r4 1 11 
+$r5 1 14 
+_ret 1 14 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+4 1 4 
+10 1 -2 
+11 4 -2 1 7 11 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/ResourceBundle.findBundle(Ljava/util/ResourceBundle$CacheKey;Ljava/util/List;Ljava/util/List;ILjava/util/ResourceBundle$Control;Ljava/util/ResourceBundle;)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+29
+r36 1 153 
+$r37 1 192 
+$r13 1 300 
+$r18 1 138 
+$r33 1 64 
+r0 1 -3 
+r32 1 40 
+$r8 1 199 
+r9 1 -4 
+$r24 1 76 
+$r22 1 178 
+$r19 1 149 
+$r25 1 84 
+$r20 1 153 
+$r12 1 291 
+$r27 1 50 
+r38 1 199 
+r39 1 216 
+$r21 1 170 
+$r1 1 2 
+r7 1 -6 
+$r10 1 280 
+r5 1 -2 
+$r23 1 67 
+r35 1 114 
+$r34 1 67 
+_ret 1 40 
+r3 1 -7 
+r2 1 2 
+Fields: 1
+114 parent 138
+Accesses: 4
+242 1 216 
+136 1 114 
+124 1 114 
+223 1 216 
+Functions: 25
+0 1 -3 
+64 1 64 
+-1 0 
+259 1 199 
+325 0 
+198 1 -2 
+16 1 -3 
+81 1 67 
+273 0 
+211 3 -2 -4 -6 
+149 2 -2 149 
+89 2 84 76 
+285 3 -2 -6 280 
+289 1 199 
+35 5 -2 -3 -4 -6 -7 
+104 2 -2 2 
+168 1 153 
+235 2 216 40 
+109 2 -2 -6 
+303 1 300 
+50 2 50 2 
+116 2 114 138 
+311 1 199 
+184 3 -2 178 153 
+248 3 -2 -6 216 
+Constructors: 0
+
+Summary: 10
+4 -4 84 1 170 0 -6 2 5 -3 
+java/util/ResourceBundle.getBundle(Ljava/lang/String;Ljava/util/Locale;Ljava/util/ResourceBundle$Control;)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+7
+r0 1 -2 
+r1 1 -3 
+$r2 1 2 
+_ret 1 9 
+$r3 1 5 
+r4 1 -4 
+$r5 1 9 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+2 1 2 
+8 4 -2 -3 -4 5 
+Constructors: 0
+
+Summary: 6
+-2 -4 0 2 -3 1 
+java/util/ResourceBundle.getBundle(Ljava/lang/String;Ljava/util/ResourceBundle$Control;)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+7
+$r1 1 1 
+$r2 1 4 
+$r5 1 11 
+_ret 1 11 
+r0 1 -2 
+$r3 1 7 
+r4 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+4 1 4 
+10 4 -2 1 -3 7 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+java/util/ResourceBundle.getBundle(Ljava/lang/String;Ljava/util/Locale;Ljava/lang/ClassLoader;Ljava/util/ResourceBundle$Control;)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+6
+r3 1 -2 
+r0 1 -4 
+r2 1 -5 
+$r5 1 20 
+_ret 1 20 
+r4 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+19 4 -2 -3 -4 -5 
+12 0 
+Constructors: 0
+
+Summary: 4
+-2 -4 -3 -5 

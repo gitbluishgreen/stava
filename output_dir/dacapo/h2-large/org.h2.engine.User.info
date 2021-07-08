@@ -1,0 +1,390 @@
+17
+org/h2/engine/User.getDropSQL()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/User.<init>(Lorg/h2/engine/Database;ILjava/lang/String;Z)V
+PTG:
+Vars:
+3
+r2 1 -4 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 1
+6 3 -1 -2 -4 
+Constructors: 1
+6 -1
+
+Summary: 5
+-1 -4 2 0 -2 
+org/h2/engine/User.checkRight(Lorg/h2/table/Table;I)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r5 1 63 
+r8 1 -2 
+r3 1 -2 
+$r1 1 25 
+r4 1 61 
+r2 1 31 
+$r9 1 81 
+Fields: 1
+-1 database 25
+Accesses: 3
+16 1 -1 
+5 1 -1 
+24 1 -1 
+Functions: 11
+32 2 -2 31 
+98 3 -1 -2 25 
+114 1 -2 
+25 1 25 
+57 1 -2 
+107 1 -2 
+124 1 -2 
+13 1 -2 
+125 0 
+63 2 61 63 
+79 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/User.getCreateSQLForCopy(Lorg/h2/table/Table;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r3 1 -3 
+$r0 1 0 
+r1 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 5
+-1 -3 0 -2 1 
+org/h2/engine/User.getChildren()Lorg/h2/util/ObjectArray;
+PTG:
+Vars:
+15
+r10 1 14 
+_ret 1 3 
+$r8 1 25 
+r1 1 -1 
+$r3 1 8 
+r0 1 3 
+$r6 1 71 
+r12 1 60 
+$r2 1 5 
+$r4 1 5 
+$r5 1 54 
+$r9 1 35 
+r11 1 25 
+r13 1 71 
+$r7 1 81 
+Fields: 1
+-1 database 5
+Accesses: 2
+50 1 -1 
+4 1 -1 
+Functions: 13
+0 0 
+34 1 25 
+5 1 5 
+70 1 60 
+8 1 8 
+44 2 3 25 
+15 1 14 
+80 1 71 
+51 1 5 
+54 1 54 
+24 1 14 
+90 2 3 71 
+61 1 60 
+Constructors: 0
+
+Summary: 2
+-1 35 
+org/h2/engine/User.checkRename()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/User.checkOwnsNoSchemas()V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r4 1 21 
+r5 1 21 
+r3 1 10 
+$r6 1 32 
+$r1 1 1 
+$r2 1 4 
+Fields: 1
+-1 database 1
+Accesses: 1
+0 1 -1 
+Functions: 8
+1 1 1 
+4 1 4 
+20 1 10 
+53 1 21 
+41 0 
+11 1 10 
+46 2 -1 1 
+31 1 21 
+Constructors: 0
+
+Summary: 2
+-1 41 
+org/h2/engine/User.getCreateSQL()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 3 
+$r1 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/User.isAdmin()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/User.checkAdmin()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+7 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/User.getType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/User.getCreateSQL(ZZ)Ljava/lang/String;
+PTG:
+Vars:
+17
+$r0 1 0 
+$r11 1 68 
+_ret 1 120 
+$r15 1 83 
+$r3 1 23 
+$r14 1 80 
+r2 1 -1 
+$r16 1 86 
+$r7 1 120 
+$r9 1 61 
+$r20 1 47 
+$r10 1 65 
+$r5 1 31 
+$r13 1 76 
+$r19 1 31 
+$r12 1 71 
+$r18 1 40 
+Fields: 3
+-1 comment 31
+-1 passwordHash 80
+-1 salt 65
+Accesses: 5
+64 1 -1 
+105 1 -1 
+43 1 -1 
+30 1 -1 
+79 1 -1 
+Functions: 17
+65 1 65 
+37 1 0 
+101 1 0 
+6 1 0 
+71 1 71 
+44 1 31 
+76 2 83 76 
+80 1 80 
+17 1 0 
+50 2 40 47 
+115 1 0 
+22 4 -1 80 65 31 
+119 1 0 
+26 2 0 23 
+58 1 0 
+91 1 86 
+61 2 68 61 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+org/h2/engine/User.setAdmin(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/User.setUserPasswordHash([B)V
+PTG:
+Vars:
+6
+$r2 1 7 
+$r3 1 13 
+$r5 1 25 
+$r6 1 28 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 salt 25
+Accesses: 3
+24 1 -1 
+10 1 -1 
+31 1 -1 
+Functions: 3
+17 1 13 
+5 0 
+22 3 -2 25 13 
+Constructors: 1
+17 13
+
+Summary: 4
+-1 13 0 -2 
+org/h2/engine/User.removeChildrenAndResources(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+12
+r3 1 10 
+$r9 1 31 
+r4 1 -2 
+$r6 1 68 
+r0 1 -1 
+$r11 1 21 
+$r5 1 1 
+r8 1 21 
+$r10 1 1 
+$r1 1 1 
+$r2 1 4 
+$r7 1 21 
+Fields: 2
+-1 database 1
+-1 passwordHash 68
+Accesses: 6
+0 1 -1 
+64 1 -1 
+50 1 -1 
+67 1 -1 
+38 1 -1 
+76 1 -1 
+Functions: 10
+80 3 -1 1 68 
+1 1 1 
+4 1 4 
+20 1 10 
+55 3 -1 1 68 
+71 1 68 
+11 1 10 
+59 2 1 -2 
+44 3 1 -2 21 
+30 1 21 
+Constructors: 0
+
+Summary: 4
+31 -1 0 -2 
+org/h2/engine/User.validateUserPasswordHash([B)Z
+PTG:
+Vars:
+6
+r3 1 -1 
+r2 1 -2 
+$r6 1 20 
+r5 1 17 
+$r0 1 0 
+$r4 1 11 
+Fields: 2
+-1 passwordHash 20
+-1 salt 11
+Accesses: 2
+19 1 -1 
+10 1 -1 
+Functions: 3
+4 1 0 
+20 2 17 20 
+8 3 0 -2 11 
+Constructors: 1
+4 0
+
+Summary: 4
+-1 0 -2 0 
+org/h2/engine/User.setSaltAndHash([B[B)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 0 1 

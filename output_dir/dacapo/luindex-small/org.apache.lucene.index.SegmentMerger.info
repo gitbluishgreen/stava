@@ -1,0 +1,851 @@
+21
+org/apache/lucene/index/SegmentMerger.mergeTermInfos()V
+PTG:
+Vars:
+37
+$r20 1 3 
+$r8 2 173 137 
+$r5 1 195 
+$r10 1 282 
+$r12 2 173 137 
+r31 1 24 
+$r28 1 104 
+$r18 2 173 137 
+$r30 1 84 
+$r26 1 104 
+$r3 2 173 137 
+$r7 1 204 
+$r14 1 231 
+r0 1 -1 
+$r25 1 68 
+$r1 1 3 
+r11 1 314 
+$r19 1 261 
+$r4 2 173 137 
+r36 1 208 
+$r16 1 250 
+$r2 1 3 
+$r23 1 137 
+$r6 1 195 
+$r13 1 282 
+$r24 1 68 
+$r22 1 41 
+$r9 1 214 
+$r21 1 24 
+r34 1 60 
+r32 1 39 
+r37 2 261 214 
+$r17 1 250 
+$r15 2 173 137 
+r35 1 168 
+$r27 1 98 
+$r29 1 76 
+Fields: 11
+41 reader 104
+204 term 208
+214 term 231
+-1 queue 137
+-1 queue 173
+-1 readers 3
+-1 checkAbort 282
+-1 delCounts 98
+-1 docMaps 68
+168 ArrayObject 204
+168 ArrayObject 314
+Accesses: 21
+288 1 -1 
+97 1 -1 
+257 1 -1 
+2 1 -1 
+67 1 -1 
+324 1 -1 
+229 2 261 214 
+102 1 41 
+136 1 -1 
+172 1 -1 
+204 1 204 
+110 1 41 
+79 1 -1 
+210 1 -1 
+19 1 -1 
+86 1 -1 
+246 1 -1 
+89 1 -1 
+281 1 -1 
+159 1 -1 
+191 1 -1 
+Functions: 23
+128 2 104 41 
+160 1 3 
+192 2 137 173 
+34 1 24 
+258 2 137 173 
+3 1 3 
+227 2 208 231 
+104 1 104 
+330 3 137 314 173 
+299 1 282 
+173 2 137 173 
+142 3 104 137 41 
+112 1 104 
+272 11 -1 208 98 3 68 168 137 282 314 204 173 
+50 4 39 104 24 41 
+338 1 314 
+211 2 137 173 
+20 1 3 
+150 2 104 41 
+55 2 104 41 
+247 2 137 173 
+121 1 24 
+316 1 314 
+Constructors: 1
+50 41
+
+Summary: 12
+314 24 208 204 261 214 -1 41 39 231 104 168 
+org/apache/lucene/index/SegmentMerger.segmentReader(I)Lorg/apache/lucene/index/IndexReader;
+PTG:
+Vars:
+5
+$r3 1 5 
+_ret 1 5 
+r0 1 -1 
+$r1 1 1 
+$r2 1 5 
+Fields: 1
+-1 readers 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentMerger.closeReaders()V
+PTG:
+Vars:
+5
+$r1 1 4 
+r4 1 20 
+$r2 1 4 
+r0 1 -1 
+$r3 1 20 
+Fields: 1
+-1 readers 4
+Accesses: 2
+3 1 -1 
+15 1 -1 
+Functions: 3
+16 1 4 
+4 1 4 
+30 1 20 
+Constructors: 0
+
+Summary: 2
+20 -1 
+org/apache/lucene/index/SegmentMerger.<init>(Lorg/apache/lucene/store/Directory;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r3 1 -2 
+$r2 1 48 
+$r1 1 12 
+r0 1 -1 
+r4 1 -3 
+Fields: 0
+Accesses: 10
+65 1 -1 
+34 1 -1 
+19 1 -1 
+39 1 -1 
+55 1 -1 
+8 1 -1 
+24 1 -1 
+44 1 -1 
+60 1 -1 
+29 1 -1 
+Functions: 3
+16 1 12 
+1 1 -1 
+52 1 48 
+Constructors: 3
+16 12
+1 -1
+52 48
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentMerger.mergeVectors()V
+PTG:
+Vars:
+22
+r30 1 -2 
+$r28 1 -1 
+$r26 1 -2 
+$r34 1 -2 
+$r27 1 -2 
+$r2 1 -2 
+$r22 1 -2 
+$r0 1 -2 
+$r4 1 -2 
+$r3 1 -2 
+$r37 1 -2 
+$r33 1 -2 
+$r35 1 -2 
+r38 1 -2 
+$r36 1 -2 
+r1 1 -1 
+$r25 1 -2 
+$r6 1 -2 
+$r31 1 -2 
+r24 1 -2 
+$r32 1 -2 
+r23 1 -2 
+Fields: 10
+-1 matchingSegmentReaders -2
+-1 readers -2
+-1 checkAbort -2
+-1 fieldInfos -2
+-1 segment -2
+-1 rawDocLengths2 -2
+-1 rawDocLengths -2
+-1 directory -2
+-2 ArrayObject -2
+-2 termVectorsReaderOrig -2
+Accesses: 1
+2000000000 2 -1 -2 
+Functions: 1
+-1 1 -2 
+Constructors: 1
+-1 -2
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentMerger.setMatchingSegmentReaders()V
+PTG:
+Vars:
+15
+$r13 1 90 
+r9 1 36 
+$r7 1 36 
+$r1 1 2 
+$r11 1 117 
+$r14 1 97 
+r8 1 36 
+$r6 1 2 
+$r2 1 10 
+$r5 1 142 
+r10 1 64 
+$r3 1 2 
+r0 1 -1 
+$r12 1 85 
+$r4 1 133 
+Fields: 3
+-1 matchingSegmentReaders 117
+-1 readers 2
+-1 fieldInfos 85
+Accesses: 8
+144 1 -1 
+1 1 -1 
+19 1 -1 
+84 1 -1 
+116 1 -1 
+135 1 -1 
+13 1 -1 
+31 1 -1 
+Functions: 8
+32 1 2 
+2 1 2 
+20 1 2 
+85 1 85 
+90 2 97 90 
+60 1 36 
+76 1 64 
+93 1 64 
+Constructors: 0
+
+Summary: 5
+36 64 97 90 -1 
+org/apache/lucene/index/SegmentMerger.getDocMaps()[[I
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 docMaps 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentMerger.add(Lorg/apache/lucene/index/IndexReader;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 readers 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/index/SegmentMerger.getDelCounts()[I
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 delCounts 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentMerger.hasProx()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fieldInfos 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentMerger.addIndexed(Lorg/apache/lucene/index/IndexReader;Lorg/apache/lucene/index/FieldInfos;Ljava/util/Collection;ZZZZZ)V
+PTG:
+Vars:
+7
+r4 1 -3 
+r5 1 -2 
+r9 1 -1 
+r0 1 -4 
+$r2 1 20 
+r3 1 20 
+r1 1 6 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -4 
+18 1 6 
+8 1 6 
+40 2 -2 20 
+58 2 -3 20 
+Constructors: 0
+
+Summary: 6
+20 -2 6 -3 -4 -1 
+org/apache/lucene/index/SegmentMerger.merge()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentMerger.mergeTermInfo([Lorg/apache/lucene/index/SegmentMergeInfo;I)I
+PTG:
+Vars:
+17
+$r16 1 9 
+$r7 1 31 
+r3 1 -2 
+$r2 1 9 
+$r6 1 40 
+$r5 1 37 
+$r15 1 107 
+$r8 1 43 
+$r12 1 112 
+$r13 1 90 
+$r10 1 72 
+r0 1 -1 
+$r9 1 1 
+$r1 1 1 
+$r14 1 113 
+$r11 1 90 
+$r4 1 36 
+Fields: 11
+-2 ArrayObject 112
+-2 ArrayObject 36
+112 term 113
+36 term 37
+-1 termInfo 90
+-1 freqOutput 1
+-1 proxOutput 9
+-1 skipListWriter 72
+-1 termInfosWriter 107
+-1 fieldInfos 31
+37 field 40
+Accesses: 13
+0 1 -1 
+36 1 36 
+37 1 37 
+71 1 -1 
+8 1 -1 
+106 1 -1 
+43 1 43 
+75 1 -1 
+15 1 -1 
+112 1 112 
+116 1 -1 
+89 1 -1 
+30 1 -1 
+Functions: 8
+16 1 9 
+1 1 1 
+52 13 -1 1 -2 36 37 72 40 9 107 112 113 90 31 
+103 1 90 
+72 2 1 72 
+120 3 113 90 107 
+31 2 40 31 
+63 13 -1 1 -2 36 37 72 40 9 107 112 113 90 31 
+Constructors: 0
+
+Summary: 9
+-2 36 43 -1 37 40 112 113 0 
+org/apache/lucene/index/SegmentMerger.appendPostingsNoTf([Lorg/apache/lucene/index/SegmentMergeInfo;I)I
+PTG:
+Vars:
+10
+r2 1 -2 
+$r1 1 6 
+$r16 1 6 
+$r15 1 221 
+r0 1 -1 
+$r6 1 74 
+r5 1 68 
+r3 1 28 
+r4 1 35 
+$r17 1 6 
+Fields: 4
+-2 ArrayObject 28
+-1 freqOutput 221
+-1 skipListWriter 6
+28 termEnum 74
+Accesses: 7
+5 1 -1 
+183 1 -1 
+56 1 28 
+72 1 28 
+202 1 -1 
+220 1 -1 
+191 1 -1 
+Functions: 18
+226 1 221 
+163 0 
+199 1 6 
+168 0 
+9 1 6 
+140 0 
+77 2 35 74 
+174 0 
+144 0 
+208 1 6 
+82 1 35 
+52 0 
+149 0 
+154 0 
+92 1 35 
+30 2 74 28 
+63 2 74 28 
+159 0 
+Constructors: 0
+
+Summary: 14
+-2 154 168 74 140 159 -1 163 149 28 171 0 68 35 
+org/apache/lucene/index/SegmentMerger.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r5 1 14 
+$r1 1 1 
+$r4 1 6 
+$r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/lucene/index/SegmentMerger.mergeTerms()V
+PTG:
+Vars:
+35
+r0 1 -1 
+$r13 1 -2 
+$r17 1 -2 
+$r2 1 -2 
+$r31 1 -2 
+$r34 1 -1 
+$r38 1 -2 
+$r8 1 -2 
+$r30 1 -2 
+$r16 1 -2 
+$r40 1 -2 
+$r1 1 -2 
+$r6 1 -2 
+$r27 1 -2 
+$r33 1 -2 
+$r32 1 -2 
+$r42 1 -2 
+$r43 1 -2 
+$r10 1 -2 
+$r18 1 -2 
+$r5 1 -2 
+$r9 1 -2 
+$r14 1 -2 
+$r3 1 -2 
+$r11 1 -2 
+$r41 1 -2 
+$r28 1 -2 
+$r4 1 -2 
+$r15 1 -2 
+$r12 1 -2 
+$r36 1 -2 
+$r29 1 -2 
+$r7 1 -2 
+$r39 1 -2 
+$r37 1 -2 
+Fields: 8
+-1 freqOutput -2
+-1 proxOutput -2
+-1 queue -2
+-1 termInfosWriter -2
+-1 readers -2
+-1 fieldInfos -2
+-1 segment -2
+-1 directory -2
+Accesses: 2
+-1 1 -1 
+2000000000 2 -1 -2 
+Functions: 1
+-1 1 -2 
+Constructors: 1
+-1 -2
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentMerger.appendPostings([Lorg/apache/lucene/index/SegmentMergeInfo;I)I
+PTG:
+Vars:
+27
+$r21 2 274 260 
+$r28 1 387 
+$r1 1 6 
+$r4 1 19 
+$r31 1 6 
+$r35 3 356 342 442 
+r10 1 89 
+$r24 3 356 342 442 
+$r7 1 25 
+$r36 1 387 
+r0 1 -1 
+$r11 1 95 
+$r20 2 274 260 
+$r3 1 18 
+$r34 1 387 
+$r6 1 13 
+r8 1 49 
+$r5 1 22 
+r2 1 -2 
+$r25 1 387 
+$r26 1 406 
+$r22 3 356 342 442 
+r9 1 56 
+$r23 3 356 342 442 
+$r29 3 356 342 442 
+$r32 1 6 
+$r30 2 274 260 
+Fields: 13
+-2 ArrayObject 49
+-2 ArrayObject 18
+18 term 19
+19 field 22
+-1 freqOutput 260
+-1 freqOutput 274
+-1 proxOutput 356
+-1 proxOutput 342
+-1 proxOutput 442
+-1 skipListWriter 6
+-1 fieldInfos 13
+-1 payloadBuffer 387
+49 termEnum 95
+Accesses: 23
+224 1 -1 
+386 1 -1 
+259 1 -1 
+355 1 -1 
+5 1 -1 
+424 1 -1 
+393 1 -1 
+12 1 -1 
+204 1 -1 
+428 1 -1 
+77 1 49 
+368 1 -1 
+273 1 -1 
+18 1 18 
+19 1 19 
+212 1 -1 
+341 1 -1 
+408 1 -1 
+25 1 25 
+441 1 -1 
+282 1 -1 
+93 1 49 
+413 1 -1 
+Functions: 30
+195 0 
+325 1 56 
+9 1 6 
+73 0 
+267 2 274 260 
+13 2 22 13 
+84 2 49 95 
+279 2 274 260 
+221 1 6 
+349 3 356 342 442 
+288 2 274 260 
+161 0 
+98 2 56 95 
+418 2 387 56 
+165 0 
+230 1 6 
+103 1 56 
+170 0 
+365 3 356 342 442 
+175 0 
+304 1 56 
+113 1 56 
+51 2 49 95 
+435 4 387 356 342 442 
+180 0 
+244 1 56 
+374 3 356 342 442 
+184 0 
+189 0 
+447 3 356 342 442 
+Constructors: 0
+
+Summary: 18
+95 22 180 19 189 170 49 56 -2 89 18 -1 184 161 192 0 25 175 
+org/apache/lucene/index/SegmentMerger.createCompoundFile(Ljava/lang/String;)Ljava/util/List;
+PTG:
+Vars:
+39
+$r3 1 10 
+$r9 1 36 
+r37 1 49 
+$r10 1 144 
+$r27 1 197 
+$r12 1 317 
+$r36 1 123 
+r2 1 -2 
+$r0 1 0 
+$r33 1 110 
+$r19 1 272 
+$r34 1 115 
+$r6 1 17 
+$r4 1 5 
+$r18 1 269 
+$r11 1 144 
+$r20 1 277 
+r39 1 302 
+$r16 2 189 107 
+$r13 1 317 
+_ret 1 17 
+$r7 1 21 
+$r23 1 144 
+$r14 1 245 
+$r30 1 43 
+$r24 1 181 
+$r15 1 253 
+$r35 1 120 
+r1 1 -1 
+$r17 1 264 
+$r21 1 278 
+$r28 1 202 
+$r29 1 205 
+$r25 2 189 107 
+$r22 1 281 
+$r31 1 99 
+r38 1 162 
+$r26 1 192 
+$r32 1 107 
+Fields: 7
+43 ArrayObject 49
+-1 checkAbort 10
+-1 fieldInfos 144
+-1 segment 189
+-1 segment 107
+-1 directory 5
+272 ArrayObject 277
+Accesses: 12
+4 1 -1 
+164 1 162 
+260 1 -1 
+71 1 -1 
+9 1 -1 
+153 1 -1 
+233 1 -1 
+106 1 -1 
+172 1 162 
+188 1 -1 
+143 1 -1 
+223 1 -1 
+Functions: 32
+192 1 192 
+257 1 253 
+197 1 197 
+325 2 0 317 
+264 1 264 
+202 1 202 
+332 1 0 
+13 4 0 -2 5 10 
+269 2 277 269 
+78 1 49 
+144 1 144 
+208 2 17 205 
+278 1 278 
+88 1 49 
+154 1 144 
+27 1 17 
+284 2 17 281 
+224 1 144 
+99 2 99 107 
+103 1 99 
+296 1 17 
+110 1 110 
+304 1 302 
+51 1 49 
+115 2 49 115 
+181 3 181 107 189 
+120 1 120 
+185 1 181 
+315 1 302 
+61 6 -1 144 5 10 107 189 
+253 3 107 253 189 
+126 2 17 123 
+Constructors: 5
+257 253
+103 99
+185 181
+27 17
+13 0
+
+Summary: 21
+317 253 302 197 123 181 281 115 -2 99 278 205 264 120 162 -1 269 0 110 192 202 
+org/apache/lucene/index/SegmentMerger.merge(Z)I
+PTG:
+Vars:
+2
+$r1 1 26 
+r0 1 -1 
+Fields: 1
+-1 fieldInfos 26
+Accesses: 4
+2 1 -1 
+39 1 -1 
+25 1 -1 
+10 1 -1 
+Functions: 5
+18 2 -1 26 
+36 2 -1 26 
+6 2 -1 26 
+26 1 26 
+14 2 -1 26 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/SegmentMerger.<init>(Lorg/apache/lucene/index/IndexWriter;Ljava/lang/String;Lorg/apache/lucene/index/MergePolicy$OneMerge;)V
+PTG:
+Vars:
+9
+$r8 1 82 
+r5 1 -3 
+r6 1 -4 
+r3 1 -2 
+$r1 1 12 
+$r4 1 60 
+r0 1 -1 
+$r2 1 48 
+$r7 1 76 
+Fields: 1
+-1 directory 82
+Accesses: 13
+96 1 -1 
+34 1 -1 
+68 1 -1 
+39 1 -1 
+8 1 -1 
+44 1 -1 
+81 1 -1 
+19 1 -1 
+55 1 -1 
+24 1 -1 
+88 1 -1 
+29 1 -1 
+63 1 -1 
+Functions: 6
+16 1 12 
+1 2 -1 82 
+52 1 48 
+85 3 82 -4 76 
+59 1 -2 
+92 1 -2 
+Constructors: 4
+16 12
+1 -1
+52 48
+85 76
+
+Summary: 5
+2 -2 1 -4 -1 
+org/apache/lucene/index/SegmentMerger.<clinit>()V
+PTG:
+Vars:
+3
+$r2 2 8 18 
+$r1 1 36 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+

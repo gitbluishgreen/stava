@@ -1,0 +1,311 @@
+10
+org/apache/lucene/index/TermBuffer.set(Lorg/apache/lucene/index/Term;)V
+PTG:
+Vars:
+7
+r0 1 -2 
+$r6 1 48 
+$r3 1 20 
+$r5 1 34 
+r1 1 13 
+r2 1 -1 
+$r4 1 20 
+Fields: 2
+-1 text 20
+20 result 34
+Accesses: 6
+19 1 -1 
+51 1 -1 
+56 1 -1 
+43 1 -1 
+30 1 -1 
+31 1 20 
+Functions: 6
+5 3 -1 34 20 
+38 2 34 13 
+24 2 34 20 
+9 1 -2 
+14 1 13 
+47 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/lucene/index/TermBuffer.clone()Ljava/lang/Object;
+PTG:
+Vars:
+9
+r8 1 3 
+$r6 1 -1 
+$r1 1 3 
+$r2 1 20 
+$r4 1 46 
+$r5 1 42 
+r0 1 -1 
+$r3 1 31 
+_ret 1 3 
+Fields: 2
+3 text 42
+-1 text 46
+Accesses: 5
+16 1 3 
+38 1 3 
+41 1 3 
+27 1 3 
+45 1 -1 
+Functions: 4
+49 2 42 46 
+2 2 -1 46 
+35 1 31 
+24 1 20 
+Constructors: 2
+35 31
+24 20
+
+Summary: 1
+-1 
+org/apache/lucene/index/TermBuffer.setPreUTF8Strings()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/TermBuffer.compareChars([CI[CI)I
+PTG:
+Vars:
+2
+r1 1 -4 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-2 -4 0 2 
+org/apache/lucene/index/TermBuffer.read(Lorg/apache/lucene/store/IndexInput;Lorg/apache/lucene/index/FieldInfos;)V
+PTG:
+Vars:
+23
+$r2 1 133 
+$r19 1 30 
+r1 1 -2 
+$r16 1 78 
+$r14 1 78 
+$r11 1 78 
+$r7 1 146 
+r0 1 -1 
+$r20 1 30 
+$r3 1 133 
+$r22 1 178 
+$r15 1 98 
+$r21 1 43 
+$r12 1 66 
+$r4 1 146 
+$r13 1 78 
+$r10 1 63 
+$r6 1 166 
+$r5 1 133 
+$r18 1 98 
+$r9 1 63 
+r8 1 -3 
+$r17 1 63 
+Fields: 9
+78 result 98
+-1 text 63
+-1 text 166
+-1 text 30
+-1 bytes 78
+-1 bytes 133
+63 result 66
+133 result 146
+30 result 43
+Accesses: 25
+2 1 -1 
+132 1 -1 
+70 1 -1 
+71 1 63 
+77 1 -1 
+142 1 -1 
+143 1 133 
+84 1 -1 
+22 1 -1 
+155 1 -1 
+156 1 133 
+29 1 -1 
+94 1 -1 
+95 1 78 
+165 1 -1 
+39 1 -1 
+40 1 30 
+107 1 -1 
+108 1 78 
+117 1 -1 
+181 1 -1 
+55 1 -1 
+62 1 -1 
+126 1 -1 
+63 1 63 
+Functions: 13
+35 2 43 30 
+5 1 -2 
+104 2 -2 98 
+169 2 146 166 
+10 1 -2 
+138 2 146 133 
+173 1 -3 
+174 1 -2 
+49 2 -2 43 
+81 3 66 98 78 
+152 2 -2 146 
+121 3 98 66 63 
+90 2 98 78 
+Constructors: 0
+
+Summary: 5
+-3 -1 0 1 -2 
+org/apache/lucene/index/TermBuffer.<init>()V
+PTG:
+Vars:
+3
+$r1 1 5 
+$r2 1 16 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+23 1 -1 
+12 1 -1 
+Functions: 3
+1 1 -1 
+20 1 16 
+9 1 5 
+Constructors: 3
+1 -1
+20 16
+9 5
+
+Summary: 1
+-1 
+org/apache/lucene/index/TermBuffer.toTerm()Lorg/apache/lucene/index/Term;
+PTG:
+Vars:
+11
+$r5 1 25 
+$r7 1 30 
+$r4 1 17 
+$r2 1 10 
+$r6 1 30 
+$r8 1 33 
+$r9 1 1 
+r0 1 -1 
+$r1 1 1 
+$r3 1 10 
+_ret 1 10 
+Fields: 4
+-1 text 30
+-1 field 1
+-1 term 10
+30 result 33
+Accesses: 9
+0 1 -1 
+51 1 -1 
+21 1 -1 
+37 1 -1 
+38 1 30 
+54 1 -1 
+9 1 -1 
+29 1 -1 
+30 1 30 
+Functions: 2
+48 3 17 1 25 
+44 2 33 25 
+Constructors: 2
+48 17
+44 25
+
+Summary: 2
+-1 25 
+org/apache/lucene/index/TermBuffer.compareTo(Lorg/apache/lucene/index/TermBuffer;)I
+PTG:
+Vars:
+6
+r1 1 -2 
+$r2 1 5 
+$r3 1 1 
+$r4 1 5 
+r0 1 -1 
+$r5 1 1 
+Fields: 2
+-2 field 5
+-1 field 1
+Accesses: 8
+0 1 -1 
+32 1 -2 
+18 1 -1 
+4 1 -2 
+25 1 -2 
+11 1 -1 
+43 1 -1 
+47 1 -2 
+Functions: 2
+36 0 
+44 2 1 5 
+Constructors: 0
+
+Summary: 6
+-2 5 26 -1 29 0 
+org/apache/lucene/index/TermBuffer.set(Lorg/apache/lucene/index/TermBuffer;)V
+PTG:
+Vars:
+6
+$r3 1 1 
+$r2 1 5 
+r1 1 -2 
+$r4 1 18 
+r0 1 -1 
+$r5 1 26 
+Fields: 4
+-2 text 5
+-2 field 18
+-2 term 26
+-1 text 1
+Accesses: 7
+0 1 -1 
+17 1 -2 
+4 1 -2 
+21 1 -1 
+25 1 -2 
+13 1 -1 
+29 1 -1 
+Functions: 1
+8 2 1 5 
+Constructors: 0
+
+Summary: 4
+-2 5 -1 0 
+org/apache/lucene/index/TermBuffer.reset()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 6 
+Fields: 1
+-1 text 6
+Accesses: 4
+2 1 -1 
+20 1 -1 
+5 1 -1 
+15 1 -1 
+Functions: 1
+10 1 6 
+Constructors: 0
+
+Summary: 1
+-1 

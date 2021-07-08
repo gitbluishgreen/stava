@@ -1,0 +1,893 @@
+32
+org/h2/schema/Schema.createTableLink(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Lorg/h2/table/TableLink;
+PTG:
+Vars:
+11
+r0 1 -1 
+r7 1 -6 
+$r3 1 8 
+r4 1 -3 
+r6 1 -5 
+$r1 1 1 
+r9 1 -8 
+r5 1 -4 
+r8 1 -7 
+$r11 1 -1 
+r10 1 -9 
+Fields: 1
+-1 database 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+30 10 -1 1 -3 -4 -5 -6 -7 -8 8 -9 
+Constructors: 1
+30 8
+
+Summary: 15
+-4 3 2 1 -9 4 -3 -5 -7 -1 6 5 -6 7 -8 
+org/h2/schema/Schema.<init>(Lorg/h2/engine/Database;ILjava/lang/String;Lorg/h2/engine/User;Z)V
+PTG:
+Vars:
+11
+r8 1 -2 
+$r6 1 40 
+$r1 1 5 
+$r4 1 26 
+r9 1 -4 
+r10 1 -5 
+$r5 1 33 
+r0 1 -1 
+$r2 1 12 
+$r3 1 19 
+$r7 1 47 
+Fields: 0
+Accesses: 9
+65 1 -1 
+50 1 -1 
+36 1 -1 
+22 1 -1 
+71 1 -1 
+8 1 -1 
+43 1 -1 
+29 1 -1 
+15 1 -1 
+Functions: 3
+-1 0 
+1 1 -1 
+59 3 -1 -2 -4 
+Constructors: 1
+1 -1
+
+Summary: 6
+-4 3 2 -1 -2 0 
+org/h2/schema/Schema.getMap(I)Ljava/util/HashMap;
+PTG:
+Vars:
+3
+r6 6 84 108 68 92 76 100 
+r0 1 -1 
+_ret 6 84 108 68 92 76 100 
+Fields: 6
+-1 sequences 76
+-1 constants 108
+-1 tablesAndViews 68
+-1 indexes 84
+-1 triggers 92
+-1 constraints 100
+Accesses: 6
+64 1 -1 
+80 1 -1 
+96 1 -1 
+72 1 -1 
+88 1 -1 
+104 1 -1 
+Functions: 5
+112 0 
+128 0 
+116 0 
+121 0 
+125 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/schema/Schema.getOwner()Lorg/h2/engine/User;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 owner 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/schema/Schema.findConstant(Ljava/lang/String;)Lorg/h2/schema/Constant;
+PTG:
+Vars:
+6
+$r3 1 5 
+r1 1 -2 
+$r4 1 5 
+$r2 1 1 
+_ret 1 5 
+r0 1 -1 
+Fields: 1
+-1 constants 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/schema/Schema.getType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/schema/Schema.getSequence(Ljava/lang/String;)Lorg/h2/schema/Sequence;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 5 
+r4 1 5 
+r1 1 -2 
+_ret 1 5 
+$r2 1 1 
+Fields: 1
+-1 sequences 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+18 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/schema/Schema.removeChildrenAndResources(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+53
+$r38 1 30 
+$r17 1 142 
+$r34 1 1 
+$r31 1 71 
+r2 1 -2 
+$r14 1 218 
+$r23 1 95 
+$r27 3 130 83 36 
+$r47 1 189 
+$r4 1 236 
+$r36 1 21 
+r50 1 265 
+$r22 1 95 
+$r26 1 124 
+$r19 1 165 
+$r1 1 1 
+r0 1 -1 
+$r18 1 162 
+$r51 1 30 
+$r45 1 142 
+$r39 1 36 
+$r11 1 189 
+$r29 1 48 
+$r7 1 259 
+$r49 1 236 
+$r9 6 224 130 83 177 271 36 
+r46 1 171 
+$r28 1 48 
+$r15 5 224 130 83 177 36 
+$r25 1 118 
+$r8 1 265 
+$r21 4 130 83 177 36 
+$r52 1 265 
+$r10 1 189 
+$r5 1 236 
+r40 1 30 
+$r33 2 83 36 
+$r35 1 1 
+r48 1 218 
+r42 1 77 
+$r32 1 77 
+$r41 1 48 
+$r20 1 171 
+$r12 1 209 
+$r3 7 224 130 83 177 271 283 36 
+$r6 1 256 
+$r24 1 115 
+$r13 1 212 
+$r37 1 24 
+r44 1 124 
+$r43 1 95 
+$r16 1 142 
+$r30 1 68 
+Fields: 19
+-1 sequences 189
+-1 database 224
+-1 database 130
+-1 database 83
+-1 database 177
+-1 database 271
+-1 database 283
+-1 database 36
+-1 constants 236
+-1 tablesAndViews 95
+-1 triggers 1
+-1 indexes 142
+-1 constraints 48
+212 ArrayObject 218
+118 ArrayObject 124
+24 ArrayObject 30
+165 ArrayObject 171
+259 ArrayObject 265
+71 ArrayObject 77
+Accesses: 26
+0 1 -1 
+64 1 -1 
+129 1 -1 
+195 1 -1 
+7 1 -1 
+141 1 -1 
+205 1 -1 
+270 1 -1 
+17 1 -1 
+82 1 -1 
+148 1 -1 
+282 1 -1 
+94 1 -1 
+158 1 -1 
+223 1 -1 
+35 1 -1 
+101 1 -1 
+296 1 -1 
+235 1 -1 
+47 1 -1 
+111 1 -1 
+176 1 -1 
+242 1 -1 
+54 1 -1 
+188 1 -1 
+252 1 -1 
+Functions: 27
+256 1 256 
+65 1 48 
+68 1 68 
+196 1 189 
+135 5 -2 130 83 36 124 
+8 1 1 
+206 1 189 
+209 1 209 
+18 1 1 
+276 8 224 177 -2 130 83 36 265 271 
+21 1 21 
+149 1 142 
+88 4 -2 83 36 77 
+159 1 142 
+287 14 -1 224 1 130 36 236 142 271 48 177 83 283 189 95 
+162 1 162 
+291 8 224 177 -2 130 83 36 283 271 
+229 7 224 177 -2 130 83 36 218 
+102 1 95 
+41 3 -2 36 30 
+300 14 -1 224 1 130 36 236 142 271 48 177 83 283 189 95 
+112 1 95 
+115 1 115 
+243 1 236 
+182 6 177 -2 130 83 36 171 
+55 1 48 
+253 1 236 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/h2/schema/Schema.getUniqueConstraintName(Lorg/h2/engine/Session;Lorg/h2/table/Table;)Ljava/lang/String;
+PTG:
+Vars:
+6
+r2 1 -2 
+r1 1 -1 
+r0 1 -3 
+_ret 1 32 
+$r4 1 32 
+r3 2 26 18 
+Fields: 1
+-1 constraints 26
+Accesses: 1
+22 1 -1 
+Functions: 4
+0 1 -3 
+7 1 -3 
+27 4 -1 -3 18 26 
+14 1 -2 
+Constructors: 0
+
+Summary: 5
+-1 -2 1 0 -3 
+org/h2/schema/Schema.rename(Lorg/h2/schema/SchemaObject;Ljava/lang/String;)V
+PTG:
+Vars:
+17
+r1 1 -1 
+$r11 1 100 
+$r16 1 52 
+$r19 1 116 
+$r20 1 127 
+r2 1 12 
+$r7 1 63 
+$r10 1 97 
+$r8 1 84 
+r0 1 -2 
+$r13 1 34 
+$r9 1 93 
+$r14 1 43 
+$r17 1 55 
+r4 1 -3 
+$r6 1 23 
+$r15 1 47 
+Fields: 0
+Accesses: 0
+Functions: 26
+0 1 -2 
+132 2 -1 127 
+7 1 -1 
+137 2 -2 -3 
+75 2 -3 12 
+146 3 -2 -3 12 
+20 2 23 12 
+84 1 84 
+22 1 -2 
+88 1 84 
+152 2 -1 -3 
+93 2 -3 93 
+97 1 97 
+34 1 34 
+38 1 34 
+103 1 100 
+43 2 43 47 
+108 1 -2 
+46 1 -2 
+115 1 -2 
+52 1 52 
+121 2 116 12 
+58 1 55 
+62 1 -2 
+126 1 -2 
+63 2 -3 63 
+Constructors: 2
+38 34
+88 84
+
+Summary: 5
+1 -3 -1 -2 0 
+org/h2/schema/Schema.findConstraint(Lorg/h2/engine/Session;Ljava/lang/String;)Lorg/h2/constraint/Constraint;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r2 1 1 
+r1 1 -3 
+$r3 1 5 
+r5 2 5 21 
+_ret 2 5 21 
+r4 1 -2 
+Fields: 1
+-1 constraints 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+16 2 -2 -3 
+1 2 1 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 1 0 -3 
+org/h2/schema/Schema.getTableOrView(Lorg/h2/engine/Session;Ljava/lang/String;)Lorg/h2/table/Table;
+PTG:
+Vars:
+7
+$r3 1 5 
+r0 1 -1 
+$r2 1 1 
+r1 1 -3 
+r6 2 5 25 
+_ret 2 5 25 
+r5 1 -2 
+Fields: 1
+-1 tablesAndViews 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+32 1 -3 
+1 2 1 -3 
+20 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 1 0 -3 
+org/h2/schema/Schema.remove(Lorg/h2/schema/SchemaObject;)V
+PTG:
+Vars:
+8
+$r6 1 41 
+$r8 1 48 
+$r5 1 32 
+r0 1 -2 
+$r7 1 45 
+r2 1 -1 
+r1 1 6 
+r3 1 17 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -2 
+32 1 32 
+51 1 48 
+36 1 32 
+7 1 -1 
+8 1 -2 
+24 2 17 6 
+41 2 6 41 
+57 2 17 6 
+45 1 45 
+63 2 -1 6 
+Constructors: 1
+36 32
+
+Summary: 3
+-1 -2 0 
+org/h2/schema/Schema.checkRename()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/schema/Schema.findIndex(Lorg/h2/engine/Session;Ljava/lang/String;)Lorg/h2/index/Index;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r2 1 1 
+$r3 1 5 
+r4 1 -2 
+r1 1 -3 
+r5 2 5 21 
+_ret 2 5 21 
+Fields: 1
+-1 indexes 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+16 2 -2 -3 
+1 2 1 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 1 0 -3 
+org/h2/schema/Schema.findSequence(Ljava/lang/String;)Lorg/h2/schema/Sequence;
+PTG:
+Vars:
+6
+$r2 1 1 
+$r3 1 5 
+r1 1 -2 
+$r4 1 5 
+r0 1 -1 
+_ret 1 5 
+Fields: 1
+-1 sequences 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/schema/Schema.getConstraint(Ljava/lang/String;)Lorg/h2/constraint/Constraint;
+PTG:
+Vars:
+6
+r0 1 -1 
+r4 1 5 
+r1 1 -2 
+$r2 1 1 
+_ret 1 5 
+$r3 1 5 
+Fields: 1
+-1 constraints 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+18 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/schema/Schema.getCreateSQLForCopy(Lorg/h2/table/Table;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r1 1 -1 
+r2 1 -2 
+$r0 1 0 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 5
+-1 -2 1 0 -3 
+org/h2/schema/Schema.createTable(Lorg/h2/command/ddl/CreateTableData;)Lorg/h2/table/TableData;
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 -2 
+$r5 1 -1 
+$r1 1 1 
+$r4 1 12 
+Fields: 1
+-1 database 1
+Accesses: 2
+0 1 -1 
+9 1 -2 
+Functions: 1
+17 2 -2 12 
+Constructors: 1
+17 12
+
+Summary: 2
+-2 0 
+org/h2/schema/Schema.getAll(I)Lorg/h2/util/ObjectArray;
+PTG:
+Vars:
+5
+$r2 1 7 
+$r3 1 10 
+r0 1 -1 
+r1 1 5 
+_ret 1 10 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+6 1 5 
+7 1 7 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/schema/Schema.canDrop()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/schema/Schema.getUniqueIndexName(Lorg/h2/engine/Session;Lorg/h2/table/Table;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+7
+r0 1 -3 
+r1 1 -1 
+r3 1 -2 
+r2 1 -4 
+_ret 1 34 
+r4 2 18 27 
+$r5 1 34 
+Fields: 1
+-1 indexes 27
+Accesses: 1
+23 1 -1 
+Functions: 4
+0 1 -3 
+7 1 -3 
+29 5 -1 -3 18 -4 27 
+14 1 -2 
+Constructors: 0
+
+Summary: 7
+-1 -4 -2 1 2 0 -3 
+org/h2/schema/Schema.freeUniqueName(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+r0 1 -2 
+$r2 1 5 
+$r4 1 5 
+Fields: 1
+-1 temporaryUniqueNames 5
+Accesses: 2
+4 1 -1 
+11 1 -1 
+Functions: 1
+16 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/schema/Schema.add(Lorg/h2/schema/SchemaObject;)V
+PTG:
+Vars:
+10
+$r8 1 67 
+$r6 1 54 
+r1 1 28 
+$r11 1 7 
+r0 1 -2 
+$r7 1 63 
+$r9 1 70 
+r2 1 -1 
+r3 1 39 
+$r5 1 48 
+Fields: 0
+Accesses: 0
+Functions: 13
+67 1 67 
+6 1 -2 
+73 1 70 
+46 2 39 28 
+80 3 -2 39 28 
+18 0 
+22 1 -2 
+54 1 54 
+86 2 -1 28 
+58 1 54 
+29 1 -1 
+30 1 -2 
+63 2 28 63 
+Constructors: 1
+58 54
+
+Summary: 3
+-1 -2 0 
+org/h2/schema/Schema.getDropSQL()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/schema/Schema.findTableOrView(Lorg/h2/engine/Session;Ljava/lang/String;)Lorg/h2/table/Table;
+PTG:
+Vars:
+7
+r0 1 -1 
+r4 1 -2 
+r5 2 5 25 
+$r2 1 1 
+$r3 1 5 
+_ret 2 5 25 
+r1 1 -3 
+Fields: 1
+-1 tablesAndViews 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -3 
+20 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 1 0 -3 
+org/h2/schema/Schema.getIndex(Ljava/lang/String;)Lorg/h2/index/Index;
+PTG:
+Vars:
+6
+$r2 1 1 
+r1 1 -2 
+r4 1 5 
+r0 1 -1 
+$r3 1 5 
+_ret 1 5 
+Fields: 1
+-1 indexes 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+18 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/schema/Schema.findTrigger(Ljava/lang/String;)Lorg/h2/schema/TriggerObject;
+PTG:
+Vars:
+6
+$r2 1 1 
+$r4 1 5 
+r0 1 -1 
+r1 1 -2 
+_ret 1 5 
+$r3 1 5 
+Fields: 1
+-1 triggers 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/schema/Schema.getConstant(Ljava/lang/String;)Lorg/h2/schema/Constant;
+PTG:
+Vars:
+6
+r0 1 -1 
+r4 1 5 
+$r2 1 1 
+r1 1 -2 
+$r3 1 5 
+_ret 1 5 
+Fields: 1
+-1 constants 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+18 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/schema/Schema.getCreateSQL()Ljava/lang/String;
+PTG:
+Vars:
+11
+$r1 1 9 
+$r7 1 37 
+$r5 1 30 
+$r6 1 34 
+r0 1 -1 
+$r4 1 25 
+$r2 1 18 
+$r9 1 43 
+$r3 1 22 
+_ret 1 43 
+$r8 1 40 
+Fields: 1
+-1 owner 34
+Accesses: 2
+0 1 -1 
+33 1 -1 
+Functions: 8
+18 2 18 22 
+34 1 34 
+21 2 -1 34 
+40 1 40 
+9 1 9 
+25 1 25 
+13 1 9 
+30 2 37 30 
+Constructors: 1
+13 9
+
+Summary: 1
+-1 
+org/h2/schema/Schema.getUniqueName(Lorg/h2/engine/DbObject;Ljava/util/HashMap;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+25
+r3 1 15 
+r15 1 -3 
+$r1 1 1 
+$r12 1 134 
+r24 1 -4 
+$r18 1 49 
+$r16 1 21 
+$r19 1 57 
+$r20 1 60 
+$r13 1 142 
+$r2 1 9 
+$r7 1 21 
+r25 2 66 153 
+$r21 1 21 
+$r14 1 147 
+r26 1 130 
+$r5 1 21 
+$r9 1 114 
+$r17 1 41 
+_ret 2 66 153 
+$r10 1 119 
+r4 1 -1 
+$r8 1 106 
+$r11 1 124 
+r0 1 -2 
+Fields: 1
+-1 temporaryUniqueNames 21
+Accesses: 4
+20 1 -1 
+164 1 -1 
+185 1 -1 
+77 1 -1 
+Functions: 24
+0 1 -2 
+1 1 1 
+33 1 15 
+68 3 -3 66 153 
+165 3 66 21 153 
+6 0 
+134 2 130 134 
+9 1 9 
+41 2 -4 41 
+106 2 -4 106 
+138 1 134 
+45 1 41 
+78 3 66 21 153 
+110 1 106 
+142 1 142 
+49 2 49 57 
+114 2 114 15 
+147 1 147 
+52 1 15 
+119 1 119 
+155 3 -3 66 153 
+60 1 60 
+124 1 124 
+191 3 66 21 153 
+Constructors: 3
+138 134
+45 41
+110 106
+
+Summary: 7
+2 1 0 -4 -3 -1 -2 
+org/h2/schema/Schema.getAllTablesAndViews()Lorg/h2/util/ObjectArray;
+PTG:
+Vars:
+5
+$r3 1 7 
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+_ret 1 7 
+Fields: 1
+-1 tablesAndViews 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+4 1 4 
+Constructors: 0
+
+Summary: 1
+-1 

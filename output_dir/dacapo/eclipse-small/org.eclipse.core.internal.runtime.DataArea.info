@@ -1,0 +1,348 @@
+13
+org/eclipse/core/internal/runtime/DataArea.getInstanceDataLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 5 
+_ret 1 5 
+Fields: 1
+-1 location 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/DataArea.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/DataArea.initializeLocation()V
+PTG:
+Vars:
+11
+$r2 1 4 
+$r8 1 88 
+$r1 1 1 
+$r9 1 1 
+$r10 1 19 
+$r7 1 83 
+$r3 1 1 
+$r6 1 1 
+r0 1 -1 
+$r4 1 66 
+$r5 1 75 
+Fields: 1
+-1 location 1
+Accesses: 7
+0 1 -1 
+33 1 -1 
+103 1 -1 
+62 1 -1 
+94 1 -1 
+15 1 -1 
+79 1 -1 
+Functions: 12
+16 1 1 
+80 1 1 
+1 1 1 
+34 0 
+98 2 -1 1 
+19 1 19 
+83 1 83 
+4 1 4 
+55 0 
+58 0 
+91 2 88 75 
+63 1 1 
+Constructors: 1
+91 75
+
+Summary: 2
+45 -1 
+org/eclipse/core/internal/runtime/DataArea.getStateLocation(Lorg/osgi/framework/Bundle;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r3 1 11 
+r0 1 -1 
+$r2 1 6 
+_ret 1 11 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -1 
+4 2 -1 6 
+5 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/runtime/DataArea.getPreferenceLocation(Ljava/lang/String;Z)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+6
+r2 1 5 
+$r3 1 23 
+r1 1 -2 
+$r4 1 11 
+r0 1 -1 
+_ret 1 23 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -1 -2 
+16 1 11 
+20 1 5 
+10 1 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/runtime/DataArea.assertLocationInitialized()V
+PTG:
+Vars:
+9
+$r1 1 1 
+r3 1 38 
+$r4 1 77 
+$r5 1 81 
+$r6 1 86 
+r0 1 -1 
+r2 1 18 
+$r7 1 92 
+r17 1 60 
+Fields: 1
+-1 location 1
+Accesses: 3
+0 1 -1 
+98 1 -1 
+7 1 -1 
+Functions: 13
+34 1 18 
+102 2 -1 1 
+72 0 
+15 0 
+81 1 81 
+113 0 
+50 0 
+85 1 60 
+117 0 
+54 1 38 
+89 2 81 86 
+30 0 
+95 2 92 77 
+Constructors: 2
+89 81
+95 77
+
+Summary: 2
+-1 81 
+org/eclipse/core/internal/runtime/DataArea.isInstanceLocationSet()Z
+PTG:
+Vars:
+3
+r1 1 14 
+r2 1 -1 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+21 1 14 
+10 1 3 
+Constructors: 0
+
+Summary: 3
+14 3 -1 
+org/eclipse/core/internal/runtime/DataArea.debug()Z
+PTG:
+Vars:
+3
+r2 1 -1 
+r0 1 3 
+r1 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+21 1 14 
+10 1 3 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/DataArea.getMetadataLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+4
+$r1 1 5 
+$r2 1 10 
+r0 1 -1 
+_ret 1 10 
+Fields: 1
+-1 location 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/DataArea.getLogLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+9
+$r4 1 46 
+r9 1 28 
+$r1 1 11 
+$r3 1 46 
+r0 1 -1 
+r2 1 17 
+$r6 1 76 
+$r5 1 69 
+_ret 1 76 
+Fields: 1
+-1 location 46
+Accesses: 2
+45 1 -1 
+63 1 -1 
+Functions: 10
+0 2 -1 46 
+-1 0 
+64 1 46 
+37 1 28 
+69 1 69 
+22 1 17 
+8 2 -1 46 
+41 0 
+11 1 11 
+59 0 
+Constructors: 0
+
+Summary: 6
+11 38 28 17 -1 69 
+org/eclipse/core/internal/runtime/DataArea.getStateLocation(Ljava/lang/String;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+6
+$r2 1 10 
+$r4 1 16 
+r0 1 -1 
+$r1 1 5 
+r3 1 -2 
+_ret 1 16 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -1 
+4 1 -1 
+5 1 5 
+10 2 -2 10 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/runtime/DataArea.createLocation()V
+PTG:
+Vars:
+19
+r25 1 119 
+$r8 1 219 
+$r2 1 6 
+$r29 1 181 
+r6 1 209 
+r3 1 16 
+r30 1 193 
+$r28 1 1 
+$r10 1 138 
+r24 1 115 
+$r5 1 103 
+r26 1 128 
+r31 1 197 
+$r15 1 -1 
+$r4 1 1 
+$r1 1 1 
+$r7 1 232 
+$r9 1 159 
+r0 1 -1 
+Fields: 1
+-1 location 1
+Accesses: 3
+0 1 -1 
+97 1 -1 
+175 1 -1 
+Functions: 28
+1 1 1 
+194 0 
+68 1 16 
+69 0 
+6 1 6 
+137 1 115 
+204 1 197 
+144 2 128 138 
+18 1 16 
+152 2 -1 1 
+90 0 
+218 1 193 
+29 1 16 
+93 0 
+30 0 
+224 2 209 219 
+98 1 1 
+164 1 159 
+103 1 103 
+172 1 -1 
+237 1 232 
+176 1 1 
+51 0 
+116 0 
+181 1 181 
+54 0 
+58 1 16 
+124 1 119 
+Constructors: 0
+
+Summary: 3
+-1 80 41 
+org/eclipse/core/internal/runtime/DataArea.getTraceLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+7
+$r0 1 0 
+$r3 1 18 
+r5 1 -1 
+r1 1 6 
+$r2 1 13 
+$r4 1 23 
+_ret 1 13 
+Fields: 0
+Accesses: 0
+Functions: 5
+-1 0 
+0 1 0 
+17 1 6 
+18 1 18 
+26 2 23 13 
+Constructors: 1
+26 13
+
+Summary: 5
+6 0 18 -1 23 

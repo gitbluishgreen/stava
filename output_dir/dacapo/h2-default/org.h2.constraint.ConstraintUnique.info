@@ -1,0 +1,373 @@
+19
+org/h2/constraint/ConstraintUnique.getCreateSQLForCopy(Lorg/h2/table/Table;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 4 
+r2 1 -3 
+_ret 1 4 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 1 0 -3 
+org/h2/constraint/ConstraintUnique.getUniqueIndex()Lorg/h2/index/Index;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 index 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintUnique.setIndex(Lorg/h2/index/Index;Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/constraint/ConstraintUnique.removeChildrenAndResources(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+6
+$r5 1 1 
+$r1 1 1 
+$r3 1 28 
+r0 1 -1 
+r2 1 -2 
+$r4 1 21 
+Fields: 3
+-1 database 28
+-1 index 21
+-1 table 1
+Accesses: 8
+0 1 -1 
+51 1 -1 
+20 1 -1 
+8 1 -1 
+41 1 -1 
+27 1 -1 
+46 1 -1 
+15 1 -1 
+Functions: 5
+32 4 -1 1 21 28 
+36 2 -2 28 
+5 4 -1 1 21 28 
+55 4 -1 1 21 28 
+24 3 1 -2 21 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/constraint/ConstraintUnique.getCreateSQL()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r3 1 9 
+r0 1 -1 
+$r1 1 2 
+$r2 1 6 
+_ret 1 9 
+Fields: 1
+-1 table 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+0 3 -1 2 6 
+5 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintUnique.checkExistingData(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/constraint/ConstraintUnique.getCreateSQLWithoutIndexes()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r2 1 6 
+r0 1 -1 
+$r3 1 10 
+_ret 1 10 
+$r1 1 2 
+Fields: 1
+-1 table 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+0 3 -1 2 6 
+5 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintUnique.getConstraintType()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 2 12 7 
+_ret 2 12 7 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintUnique.checkRow(Lorg/h2/engine/Session;Lorg/h2/table/Table;Lorg/h2/result/Row;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+5
+r4 1 -5 
+r0 1 -1 
+r3 1 -4 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 9
+-1 -4 -2 3 1 2 0 -3 -5 
+org/h2/constraint/ConstraintUnique.getTypeName()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintUnique.isBefore()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintUnique.getCreateSQLForCopy(Lorg/h2/table/Table;Ljava/lang/String;Z)Ljava/lang/String;
+PTG:
+Vars:
+25
+$r12 1 66 
+$r10 1 59 
+$r28 1 48 
+$r24 1 120 
+r21 1 101 
+$r22 1 114 
+$r26 1 41 
+r2 1 -2 
+$r18 1 168 
+$r4 1 17 
+r8 1 -1 
+r6 1 -3 
+r14 1 79 
+$r16 1 154 
+$r27 1 31 
+$r9 1 31 
+$r5 1 22 
+_ret 1 182 
+$r23 1 117 
+$r0 1 0 
+$r19 1 171 
+$r11 1 63 
+$r30 1 182 
+$r17 1 164 
+$r3 1 14 
+Fields: 6
+-1 comment 31
+-1 columns 79
+-1 index 168
+-1 table 154
+79 ArrayObject 101
+101 column 114
+Accesses: 7
+112 1 101 
+145 1 -1 
+167 1 -1 
+153 1 -1 
+75 1 -1 
+44 1 -1 
+30 1 -1 
+Functions: 21
+160 1 0 
+37 1 0 
+6 1 0 
+71 1 66 
+168 1 168 
+137 1 0 
+11 2 0 14 
+107 1 0 
+13 1 -2 
+45 1 31 
+176 2 164 171 
+17 1 17 
+114 1 114 
+51 2 48 41 
+180 1 0 
+117 1 117 
+55 1 0 
+26 2 -3 22 
+59 2 59 63 
+123 2 0 120 
+62 7 -1 114 101 168 154 31 79 
+Constructors: 1
+6 0
+
+Summary: 5
+1 0 -3 -1 -2 
+org/h2/constraint/ConstraintUnique.usesIndex(Lorg/h2/index/Index;)Z
+PTG:
+Vars:
+3
+$r2 1 2 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 index 2
+Accesses: 1
+1 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/constraint/ConstraintUnique.setColumns([Lorg/h2/table/IndexColumn;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/constraint/ConstraintUnique.rebuild()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintUnique.<init>(Lorg/h2/schema/Schema;ILjava/lang/String;Lorg/h2/table/Table;Z)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r3 1 -5 
+r1 1 -2 
+r2 1 -4 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 1
+6 4 -1 -2 -4 -5 
+Constructors: 1
+6 -1
+
+Summary: 7
+-1 -4 -2 3 2 0 -5 
+org/h2/constraint/ConstraintUnique.setIndexOwner(Lorg/h2/index/Index;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/constraint/ConstraintUnique.getColumns()[Lorg/h2/table/IndexColumn;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 columns 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintUnique.containsColumn(Lorg/h2/table/Column;)Z
+PTG:
+Vars:
+5
+r2 1 21 
+r3 1 -2 
+r0 1 -1 
+$r4 1 25 
+r1 1 4 
+Fields: 3
+-1 columns 4
+21 column 25
+4 ArrayObject 21
+Accesses: 2
+0 1 -1 
+23 1 21 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 

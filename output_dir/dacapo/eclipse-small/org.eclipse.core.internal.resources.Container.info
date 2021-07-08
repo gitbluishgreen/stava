@@ -1,0 +1,548 @@
+21
+org/eclipse/core/internal/resources/Container.fixupAfterMoveSource()V
+PTG:
+Vars:
+5
+r2 1 24 
+r0 1 -1 
+$r3 1 32 
+$r1 1 8 
+$r4 1 32 
+Fields: 1
+24 ArrayObject 32
+Accesses: 0
+Functions: 5
+1 1 -1 
+18 1 -1 
+4 2 -1 8 
+36 1 32 
+5 1 -1 
+Constructors: 0
+
+Summary: 2
+24 8 
+org/eclipse/core/internal/resources/Container.findMember(Ljava/lang/String;Z)Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+9
+$r6 1 12 
+$r1 1 1 
+$r4 1 12 
+r3 1 10 
+r5 1 21 
+r2 1 -2 
+$r7 1 42 
+r0 1 -1 
+_ret 1 42 
+Fields: 1
+-1 workspace 12
+Accesses: 2
+32 1 -1 
+11 1 -1 
+Functions: 5
+0 2 -1 12 
+1 2 1 -2 
+33 2 10 12 
+37 1 21 
+12 2 10 12 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Container.members(I)[Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 18 
+$r3 1 38 
+$r4 1 41 
+$r2 1 50 
+_ret 1 50 
+Fields: 2
+38 refreshManager 41
+-1 workspace 38
+Accesses: 2
+37 1 -1 
+38 1 38 
+Functions: 6
+48 3 -1 38 41 
+20 4 -1 18 38 41 
+25 3 -1 38 41 
+12 3 -1 38 41 
+28 1 18 
+45 3 -1 38 41 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Container.getFile(Ljava/lang/String;)Lorg/eclipse/core/resources/IFile;
+PTG:
+Vars:
+8
+$r1 1 1 
+r0 1 -1 
+$r4 1 9 
+$r5 1 15 
+$r6 1 15 
+$r2 1 5 
+r3 1 -2 
+_ret 1 15 
+Fields: 1
+-1 workspace 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 2 1 9 
+4 2 -1 1 
+5 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Container.members(Z)[Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 10 
+_ret 1 10 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Container.getFile(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFile;
+PTG:
+Vars:
+8
+$r5 1 15 
+r3 1 -2 
+$r1 1 1 
+$r6 1 15 
+r0 1 -1 
+$r2 1 5 
+$r4 1 9 
+_ret 1 15 
+Fields: 1
+-1 workspace 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 2 1 9 
+4 2 -1 1 
+5 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Container.setDefaultCharset(Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+24
+r35 1 4 
+$r7 1 26 
+$r20 1 194 
+$r8 1 55 
+$r10 1 26 
+$r39 1 97 
+$r4 1 26 
+$r16 1 26 
+$r12 1 80 
+$r19 1 26 
+$r11 1 76 
+r3 1 15 
+$r2 1 9 
+$r5 1 29 
+r6 1 38 
+r34 1 -3 
+$r18 1 109 
+r0 1 -1 
+$r1 1 5 
+$r38 1 87 
+$r17 1 105 
+r13 1 -2 
+$r40 1 87 
+$r9 1 26 
+Fields: 1
+-1 workspace 26
+Accesses: 8
+64 1 -1 
+163 1 -1 
+148 1 -1 
+101 1 -1 
+183 1 -1 
+40 1 -1 
+72 1 -1 
+25 1 -1 
+Functions: 29
+0 1 -3 
+69 1 26 
+197 3 194 38 26 
+8 2 -1 26 
+9 2 5 9 
+73 1 26 
+138 1 4 
+206 1 4 
+79 2 -1 26 
+20 2 4 15 
+84 3 80 -2 76 
+149 0 
+215 1 4 
+26 1 26 
+155 0 
+92 3 -1 87 26 
+29 3 -1 26 29 
+102 1 26 
+171 1 4 
+108 2 -1 26 
+47 3 4 38 26 
+112 3 97 105 109 
+177 1 38 
+51 3 -1 55 26 
+52 2 -1 26 
+117 2 97 87 
+61 2 -1 26 
+125 0 
+191 1 4 
+Constructors: 2
+112 97
+92 87
+
+Summary: 18
+15 38 97 4 76 -1 55 87 105 -3 -2 29 194 9 109 80 152 174 
+org/eclipse/core/internal/resources/Container.convertToPhantom()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 26 
+r1 1 18 
+$r3 1 26 
+Fields: 1
+18 ArrayObject 26
+Accesses: 0
+Functions: 4
+0 1 -1 
+9 1 -1 
+12 1 -1 
+30 1 26 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Container.getFolder(Ljava/lang/String;)Lorg/eclipse/core/resources/IFolder;
+PTG:
+Vars:
+8
+r0 1 -1 
+$r2 1 5 
+r3 1 -2 
+$r1 1 1 
+$r6 1 15 
+$r5 1 15 
+$r4 1 9 
+_ret 1 15 
+Fields: 1
+-1 workspace 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 2 1 9 
+4 2 -1 1 
+5 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Container.getDefaultCharset()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 2 
+r0 1 -1 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Container.exists(Lorg/eclipse/core/runtime/IPath;)Z
+PTG:
+Vars:
+6
+r3 1 -2 
+r0 1 -1 
+$r1 1 1 
+$r2 1 5 
+$r4 1 9 
+$r5 1 16 
+Fields: 1
+-1 workspace 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 2 1 9 
+4 2 -1 1 
+5 2 -2 5 
+Constructors: 0
+
+Summary: 5
+-2 16 9 -1 5 
+org/eclipse/core/internal/resources/Container.findMember(Ljava/lang/String;)Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+4
+$r2 1 3 
+r0 1 -1 
+r1 1 -2 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Container.getChildren(I)[Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+15
+r5 1 39 
+$r2 1 13 
+$r7 2 6 53 
+$r12 1 -1 
+$r9 2 6 92 
+$r11 1 104 
+$r6 1 59 
+r0 1 -1 
+$r1 1 6 
+r14 1 129 
+r13 1 19 
+$r3 1 9 
+r8 1 65 
+$r10 1 98 
+_ret 1 129 
+Fields: 5
+6 tree 9
+-1 workspace 6
+-1 path 13
+19 ArrayObject 98
+19 ArrayObject 59
+Accesses: 5
+52 1 -1 
+5 1 -1 
+6 1 6 
+91 1 -1 
+12 1 -1 
+Functions: 7
+99 1 65 
+53 4 53 6 9 59 
+72 4 -1 6 9 13 
+9 2 9 13 
+73 1 65 
+92 4 98 6 9 92 
+141 2 129 39 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Container.<init>(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/internal/resources/Workspace;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -1 -2 -3 
+Constructors: 1
+3 -1
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/core/internal/resources/Container.findMember(Lorg/eclipse/core/runtime/IPath;Z)Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+9
+$r7 1 39 
+$r4 1 12 
+r0 1 -1 
+$r1 1 1 
+r6 1 10 
+r3 1 21 
+$r2 1 12 
+r5 1 -2 
+_ret 1 39 
+Fields: 1
+-1 workspace 12
+Accesses: 2
+11 1 -1 
+30 1 -1 
+Functions: 5
+0 2 -1 12 
+1 2 1 -2 
+35 1 21 
+12 2 10 12 
+31 2 10 12 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Container.members()[Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Container.findDeletedMembersWithHistory(ILorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IFile;
+PTG:
+Vars:
+19
+r8 1 -3 
+$r10 1 111 
+$r16 1 171 
+$r4 1 15 
+$r17 1 174 
+r0 1 -1 
+r2 1 7 
+r9 1 104 
+r5 1 23 
+r12 1 130 
+$r1 1 1 
+r15 1 95 
+r3 1 12 
+$r13 1 42 
+r14 1 60 
+$r6 1 25 
+r11 1 111 
+$r18 1 174 
+_ret 1 174 
+Fields: 0
+Accesses: 0
+Functions: 19
+0 1 -1 
+1 1 1 
+97 1 95 
+162 2 25 171 
+132 1 130 
+164 1 25 
+38 3 -3 7 12 
+8 1 -1 
+76 2 25 60 
+109 1 104 
+14 1 -1 
+15 1 15 
+146 2 130 25 
+51 2 23 12 
+85 3 -3 7 12 
+152 1 104 
+121 2 23 111 
+29 1 25 
+62 1 60 
+Constructors: 1
+29 25
+
+Summary: 15
+7 15 171 -1 -3 12 42 60 104 111 25 130 1 23 95 
+org/eclipse/core/internal/resources/Container.setDefaultCharset(Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r2 1 17 
+r5 1 -2 
+r0 1 -1 
+$r3 1 20 
+$r4 1 24 
+r1 1 6 
+Fields: 1
+-1 workspace 17
+Accesses: 1
+16 1 -1 
+Functions: 6
+0 2 -1 17 
+17 1 17 
+23 2 -1 17 
+8 3 -1 17 6 
+28 3 -2 20 24 
+13 2 -1 17 
+Constructors: 0
+
+Summary: 5
+-2 6 24 20 -1 
+org/eclipse/core/internal/resources/Container.isLocal(II)Z
+PTG:
+Vars:
+3
+$r2 1 39 
+r0 1 -1 
+r1 1 29 
+Fields: 1
+29 ArrayObject 39
+Accesses: 0
+Functions: 3
+0 1 -1 
+39 1 39 
+24 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Container.findMember(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+4
+$r2 1 3 
+r1 1 -2 
+r0 1 -1 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Container.getFolder(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFolder;
+PTG:
+Vars:
+8
+$r1 1 1 
+$r2 1 5 
+$r4 1 9 
+r3 1 -2 
+r0 1 -1 
+$r6 1 15 
+$r5 1 15 
+_ret 1 15 
+Fields: 1
+-1 workspace 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 2 1 9 
+4 2 -1 1 
+5 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 

@@ -1,0 +1,975 @@
+35
+sun/misc/FDBigInteger.big5powRec(I)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+5
+$r2 1 46 
+$r1 1 27 
+r0 1 25 
+$r3 1 49 
+_ret 1 49 
+Fields: 0
+Accesses: 0
+Functions: 4
+34 1 25 
+21 0 
+44 2 25 46 
+45 0 
+Constructors: 0
+
+Summary: 0
+
+sun/misc/FDBigInteger.checkZeroTail([II)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/misc/FDBigInteger.valueOfMulPow52(JII)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+3
+$r0 1 427 
+$r1 1 432 
+_ret 1 427 
+Fields: 0
+Accesses: 0
+Functions: 12
+34 0 
+338 0 
+324 0 
+165 0 
+374 0 
+231 0 
+327 0 
+423 0 
+281 0 
+235 0 
+445 2 432 427 
+15 0 
+Constructors: 1
+445 427
+
+Summary: 7
+174 432 146 263 383 304 360 
+sun/misc/FDBigInteger.rightInplaceSub(Lsun/misc/FDBigInteger;)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+11
+r0 1 -1 
+$r7 1 44 
+$r5 1 36 
+$r4 1 197 
+$r8 1 44 
+r2 1 78 
+$r6 1 41 
+r12 1 134 
+r11 3 134 197 41 
+r10 2 36 -2 
+_ret 2 36 -2 
+Fields: 2
+-2 data 41
+-1 data 78
+Accesses: 14
+160 1 -1 
+68 2 -2 36 
+164 2 -2 36 
+40 2 -2 36 
+74 1 -1 
+203 2 -2 36 
+80 2 -2 36 
+50 2 -2 36 
+86 1 -1 
+342 2 -2 36 
+58 1 -1 
+156 2 -2 36 
+29 2 -2 36 
+62 2 -2 36 
+Functions: 11
+147 3 197 134 41 
+195 3 197 134 41 
+117 3 197 134 41 
+6 2 -1 78 
+54 2 36 44 
+23 0 
+41 1 41 
+10 3 -2 36 41 
+346 3 -2 36 41 
+126 3 197 134 41 
+335 0 
+Constructors: 1
+54 36
+
+Summary: 2
+-1 0 
+sun/misc/FDBigInteger.mult([III[I)V
+PTG:
+Vars:
+2
+r0 1 -5 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 4
+3 -5 -2 0 
+sun/misc/FDBigInteger.mult([IIII[I)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -6 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-2 -6 0 4 
+sun/misc/FDBigInteger.getNormalizationBias()I
+PTG:
+Vars:
+2
+$r1 1 18 
+r0 1 -1 
+Fields: 1
+-1 data 18
+Accesses: 3
+0 1 -1 
+17 1 -1 
+21 1 -1 
+Functions: 2
+27 0 
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/misc/FDBigInteger.size()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/misc/FDBigInteger.addAndCmp(Lsun/misc/FDBigInteger;Lsun/misc/FDBigInteger;)I
+PTG:
+Vars:
+10
+$r5 1 181 
+r2 1 -1 
+r8 2 -2 -3 
+$r3 1 102 
+$r6 1 102 
+r7 2 -2 -3 
+$r9 1 285 
+$r4 1 242 
+r1 1 -3 
+r0 1 -2 
+Fields: 4
+-2 data 102
+-1 data 181
+-1 data 242
+-3 data 102
+Accesses: 8
+128 2 -2 -3 
+241 1 -1 
+180 1 -1 
+101 2 -2 -3 
+133 2 -2 -3 
+245 1 -1 
+184 1 -1 
+105 2 -2 -3 
+Functions: 6
+0 2 -2 102 
+48 3 -1 242 181 
+6 2 -3 102 
+281 4 -1 242 181 285 
+282 3 -2 -3 102 
+75 6 -1 -2 242 -3 181 102 
+Constructors: 0
+
+Summary: 5
+-2 -1 -3 1 0 
+sun/misc/FDBigInteger.<init>(J[CII)V
+PTG:
+Vars:
+5
+$r1 1 26 
+$r3 1 32 
+$r2 1 32 
+r4 1 -3 
+r0 1 -1 
+Fields: 1
+-1 data 32
+Accesses: 6
+52 1 -1 
+6 1 -1 
+39 1 -1 
+57 1 -1 
+28 1 -1 
+31 1 -1 
+Functions: 5
+128 2 -1 32 
+1 2 -1 32 
+17 0 
+186 2 -1 32 
+190 2 -1 32 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 -3 1 
+sun/misc/FDBigInteger.valueOfPow2(I)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+3
+$r0 1 9 
+$r1 1 14 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 1
+23 2 9 14 
+Constructors: 1
+23 9
+
+Summary: 1
+14 
+sun/misc/FDBigInteger.multBy10()Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+12
+$r9 1 57 
+$r6 1 57 
+$r7 1 146 
+$r5 1 57 
+r0 1 -1 
+$r4 1 57 
+$r1 1 57 
+$r8 1 57 
+$r13 1 57 
+$r3 1 57 
+$r2 1 57 
+_ret 1 -1 
+Fields: 1
+-1 data 57
+Accesses: 25
+0 1 -1 
+64 1 -1 
+128 1 -1 
+135 1 -1 
+9 1 -1 
+139 1 -1 
+76 1 -1 
+16 1 -1 
+80 1 -1 
+149 1 -1 
+88 1 -1 
+152 1 -1 
+26 1 -1 
+156 1 -1 
+30 1 -1 
+97 1 -1 
+34 1 -1 
+164 1 -1 
+102 1 -1 
+107 1 -1 
+48 1 -1 
+115 1 -1 
+56 1 -1 
+121 1 -1 
+60 1 -1 
+Functions: 6
+65 1 57 
+145 1 57 
+52 0 
+38 0 
+118 1 57 
+173 2 -1 57 
+Constructors: 0
+
+Summary: 1
+22 
+sun/misc/FDBigInteger.cmpPow52(II)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 115 
+$r1 1 111 
+Fields: 0
+Accesses: 6
+49 1 -1 
+18 1 -1 
+99 1 -1 
+45 1 -1 
+14 1 -1 
+95 1 -1 
+Functions: 4
+104 0 
+109 2 -1 115 
+110 0 
+111 1 111 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/misc/FDBigInteger.multAddMe(II)V
+PTG:
+Vars:
+6
+$r3 1 9 
+$r1 1 9 
+$r4 1 9 
+r0 1 -1 
+$r5 1 9 
+$r2 1 9 
+Fields: 1
+-1 data 9
+Accesses: 8
+50 1 -1 
+118 1 -1 
+8 1 -1 
+106 1 -1 
+60 1 -1 
+76 1 -1 
+29 1 -1 
+110 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/misc/FDBigInteger.makeImmutable()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/misc/FDBigInteger.multByPow52(II)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+14
+$r6 1 55 
+$r3 1 115 
+r11 1 101 
+$r8 1 65 
+$r5 1 128 
+r0 1 -1 
+$r12 1 150 
+$r1 1 27 
+r10 1 43 
+$r7 1 48 
+$r4 1 106 
+r2 1 86 
+r9 3 -1 65 128 
+_ret 1 150 
+Fields: 3
+86 data 115
+-1 data 48
+-1 data 106
+Accesses: 12
+0 1 -1 
+113 1 86 
+34 1 -1 
+51 1 -1 
+118 1 86 
+134 1 -1 
+71 1 -1 
+88 1 -1 
+105 1 -1 
+138 1 86 
+109 1 -1 
+47 1 -1 
+Functions: 7
+144 2 128 101 
+82 0 
+148 5 -1 128 48 65 106 
+75 2 65 43 
+92 2 115 86 
+125 3 115 101 106 
+62 2 48 43 
+Constructors: 2
+144 128
+75 65
+
+Summary: 2
+43 101 
+sun/misc/FDBigInteger.toHexString()Ljava/lang/String;
+PTG:
+Vars:
+6
+$r5 1 42 
+r0 1 -1 
+$r3 1 112 
+$r1 1 10 
+r6 1 50 
+_ret 1 112 
+Fields: 1
+-1 data 42
+Accesses: 6
+0 1 -1 
+18 1 -1 
+41 1 -1 
+89 1 -1 
+14 1 -1 
+30 1 -1 
+Functions: 7
+51 1 50 
+67 1 10 
+101 1 10 
+26 1 10 
+46 0 
+79 2 50 10 
+111 1 10 
+Constructors: 1
+26 10
+
+Summary: 1
+-1 
+sun/misc/FDBigInteger.toBigInteger()Ljava/math/BigInteger;
+PTG:
+Vars:
+6
+r1 1 8 
+r0 1 -1 
+$r2 1 91 
+$r4 1 22 
+$r3 1 106 
+_ret 1 106 
+Fields: 1
+-1 data 22
+Accesses: 4
+0 1 -1 
+99 1 -1 
+21 1 -1 
+14 1 -1 
+Functions: 2
+96 2 8 91 
+91 1 91 
+Constructors: 1
+96 91
+
+Summary: 2
+8 -1 
+sun/misc/FDBigInteger.multDiffMe(JLsun/misc/FDBigInteger;)J
+PTG:
+Vars:
+7
+r5 1 120 
+r1 1 -1 
+r6 1 134 
+r3 1 29 
+r2 1 200 
+r0 1 -3 
+r4 1 35 
+Fields: 4
+-1 data 200
+-1 data 35
+-3 data 134
+-3 data 29
+Accesses: 15
+130 1 -3 
+291 1 -1 
+196 1 -1 
+9 1 -3 
+266 1 -1 
+204 1 -3 
+13 1 -1 
+46 1 -3 
+113 1 -1 
+145 1 -3 
+274 1 -1 
+277 1 -1 
+25 1 -3 
+285 1 -1 
+31 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 5
+134 -1 -3 1 29 
+sun/misc/FDBigInteger.mult(I)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+5
+$r2 1 19 
+$r3 1 31 
+r1 1 15 
+r0 1 -1 
+_ret 1 31 
+Fields: 1
+-1 data 19
+Accesses: 5
+0 1 -1 
+18 1 -1 
+36 1 -1 
+22 1 -1 
+9 1 -1 
+Functions: 2
+40 2 31 15 
+28 2 19 15 
+Constructors: 1
+40 31
+
+Summary: 1
+15 
+sun/misc/FDBigInteger.cmp(Lsun/misc/FDBigInteger;)I
+PTG:
+Vars:
+4
+$r4 1 57 
+r0 1 -1 
+r1 1 -2 
+$r5 1 69 
+Fields: 2
+-2 data 69
+-1 data 57
+Accesses: 10
+0 1 -1 
+34 1 -1 
+4 1 -1 
+68 1 -2 
+134 1 -2 
+119 1 -1 
+40 1 -2 
+56 1 -1 
+10 1 -2 
+14 1 -2 
+Functions: 2
+138 0 
+123 0 
+Constructors: 0
+
+Summary: 5
+-2 69 -1 135 0 
+sun/misc/FDBigInteger.add(Lsun/misc/FDBigInteger;)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+10
+r2 1 50 
+$r3 1 225 
+$r5 1 83 
+r0 1 -1 
+$r6 1 83 
+$r4 2 177 83 
+r1 1 -2 
+r8 2 -2 -1 
+r7 2 -2 -1 
+_ret 1 225 
+Fields: 4
+-2 data 83
+-2 data 177
+-1 data 83
+-1 data 177
+Accesses: 9
+112 2 -1 -2 
+176 2 -1 -2 
+82 2 -1 -2 
+101 2 -1 -2 
+165 2 -1 -2 
+118 2 -1 -2 
+182 2 -1 -2 
+71 2 -1 -2 
+88 2 -1 -2 
+Functions: 3
+0 3 -1 177 83 
+6 3 -2 177 83 
+232 2 225 50 
+Constructors: 1
+232 225
+
+Summary: 4
+50 -2 -1 0 
+sun/misc/FDBigInteger.<clinit>()V
+PTG:
+Vars:
+16
+$r14 1 302 
+$r3 1 293 
+$r10 1 309 
+$r5 1 382 
+$r0 1 0 
+$r7 1 396 
+$r4 1 345 
+$r13 1 333 
+r16 2 352 366 
+$r1 1 18 
+$r8 1 360 
+$r12 1 318 
+$r11 1 314 
+$r9 1 366 
+$r6 1 387 
+$r2 1 104 
+Fields: 1
+345 ArrayObject 352
+Accesses: 0
+Functions: 7
+0 1 0 
+325 2 309 314 
+373 1 366 
+390 2 387 382 
+330 1 309 
+364 2 352 366 
+399 1 396 
+Constructors: 2
+325 309
+390 382
+
+Summary: 2
+314 387 
+sun/misc/FDBigInteger.leftShift([II[IIII)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 4
+2 -2 0 -4 
+sun/misc/FDBigInteger.mult([II[II[I)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -6 
+r2 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 6
+2 -2 -6 4 0 -4 
+sun/misc/FDBigInteger.mult(Lsun/misc/FDBigInteger;)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+7
+$r5 1 88 
+$r4 1 69 
+r0 1 -1 
+$r3 1 77 
+r1 1 -2 
+r2 1 65 
+_ret 1 88 
+Fields: 2
+-2 data 77
+-1 data 69
+Accesses: 12
+0 1 -1 
+80 1 -2 
+97 1 -2 
+18 1 -1 
+68 1 -1 
+56 1 -1 
+72 1 -1 
+28 1 -2 
+60 1 -2 
+76 1 -2 
+93 1 -1 
+46 1 -2 
+Functions: 6
+17 2 -2 77 
+37 2 -2 77 
+85 3 65 69 77 
+102 2 65 88 
+9 2 -1 69 
+45 2 -1 69 
+Constructors: 1
+102 88
+
+Summary: 2
+65 0 
+sun/misc/FDBigInteger.leftShift(I)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+12
+$r1 1 166 
+$r2 1 166 
+r19 2 166 345 
+$r11 1 166 
+$r8 1 166 
+r0 1 -1 
+$r7 1 166 
+$r10 1 166 
+$r5 1 345 
+r3 1 166 
+$r4 1 166 
+_ret 1 -1 
+Fields: 1
+-1 data 166
+Accesses: 34
+64 1 -1 
+4 1 -1 
+262 1 -1 
+326 1 -1 
+390 1 -1 
+72 1 -1 
+330 1 -1 
+269 1 -1 
+206 1 -1 
+272 1 -1 
+145 1 -1 
+339 1 -1 
+22 1 -1 
+279 1 -1 
+93 1 -1 
+285 1 -1 
+350 1 -1 
+226 1 -1 
+355 1 -1 
+37 1 -1 
+165 1 -1 
+293 1 -1 
+41 1 -1 
+105 1 -1 
+363 1 -1 
+48 1 -1 
+115 1 -1 
+179 1 -1 
+309 1 -1 
+248 1 -1 
+123 1 -1 
+315 1 -1 
+190 1 -1 
+383 1 -1 
+Functions: 5
+54 0 
+151 0 
+136 0 
+42 0 
+380 2 166 345 
+Constructors: 0
+
+Summary: 2
+99 119 
+sun/misc/FDBigInteger.big5pow(I)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+2
+$r0 1 33 
+_ret 1 33 
+Fields: 0
+Accesses: 0
+Functions: 2
+32 0 
+15 0 
+Constructors: 0
+
+Summary: 0
+
+sun/misc/FDBigInteger.leftInplaceSub(Lsun/misc/FDBigInteger;)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+11
+$r8 1 42 
+r4 1 139 
+r10 2 -1 34 
+r1 1 -2 
+$r7 1 42 
+$r6 1 39 
+r0 1 -1 
+r11 2 139 39 
+$r5 1 34 
+r2 1 75 
+_ret 2 -1 34 
+Fields: 2
+-2 data 75
+-1 data 39
+Accesses: 13
+65 2 -1 34 
+161 2 -1 34 
+165 1 -2 
+38 1 -1 
+71 1 -2 
+169 2 -1 34 
+77 2 -1 34 
+48 1 -1 
+178 2 -1 34 
+83 1 -2 
+89 2 -1 34 
+27 1 -1 
+61 1 -2 
+Functions: 10
+131 2 39 139 
+52 2 34 42 
+325 0 
+6 2 -1 39 
+23 0 
+39 1 39 
+152 2 39 139 
+10 2 -2 75 
+122 2 39 139 
+330 3 -1 34 39 
+Constructors: 1
+52 34
+
+Summary: 3
+-2 75 0 
+sun/misc/FDBigInteger.valueOfPow52(II)Lsun/misc/FDBigInteger;
+PTG:
+Vars:
+2
+$r0 1 97 
+_ret 1 97 
+Fields: 0
+Accesses: 0
+Functions: 6
+96 0 
+83 0 
+54 0 
+87 0 
+8 0 
+88 0 
+Constructors: 0
+
+Summary: 2
+63 47 
+sun/misc/FDBigInteger.multAndCarryBy10([II[I)I
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 4
+2 -2 0 -4 
+sun/misc/FDBigInteger.<init>([II)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+16 1 -1 
+6 1 -1 
+22 1 -1 
+11 1 -1 
+Functions: 2
+1 1 -1 
+26 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 0 
+sun/misc/FDBigInteger.trimLeadingZeros()V
+PTG:
+Vars:
+3
+$r1 1 10 
+$r2 1 10 
+r0 1 -1 
+Fields: 1
+-1 data 10
+Accesses: 5
+0 1 -1 
+53 1 -1 
+9 1 -1 
+25 1 -1 
+44 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/misc/FDBigInteger.quoRemIteration(Lsun/misc/FDBigInteger;)I
+PTG:
+Vars:
+8
+$r5 1 103 
+r8 1 103 
+$r3 1 119 
+$r4 1 103 
+$r2 1 103 
+r1 1 -2 
+r0 1 -1 
+r7 1 119 
+Fields: 2
+-2 data 119
+-1 data 103
+Accesses: 19
+64 1 -1 
+160 1 -1 
+195 1 -1 
+291 1 -1 
+6 1 -1 
+38 1 -1 
+102 1 -1 
+167 1 -2 
+295 1 -1 
+72 1 -1 
+42 1 -1 
+106 1 -1 
+299 1 -1 
+173 1 -1 
+46 1 -1 
+118 1 -2 
+122 1 -2 
+60 1 -1 
+156 1 -2 
+Functions: 11
+82 2 -1 103 
+98 0 
+19 0 
+325 0 
+278 0 
+23 2 -1 103 
+137 4 -1 -2 103 119 
+330 2 -1 103 
+28 2 -2 119 
+300 1 103 
+47 0 
+Constructors: 0
+
+Summary: 4
+119 -2 -1 0 
+sun/misc/FDBigInteger.toString()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 4 
+r0 1 -1 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 

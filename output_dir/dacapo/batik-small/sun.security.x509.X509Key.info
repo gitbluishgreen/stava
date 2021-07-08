@@ -1,0 +1,537 @@
+22
+sun/security/x509/X509Key.parseKeyBits()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X509Key.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+$r2 1 2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+5 2 -2 2 
+Constructors: 0
+
+Summary: 3
+-1 -2 2 
+sun/security/x509/X509Key.getEncoded()[B
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 4 
+$r4 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X509Key.decode(Ljava/io/InputStream;)V
+PTG:
+Vars:
+9
+$r5 1 33 
+$r4 1 30 
+$r6 1 36 
+$r7 1 30 
+r3 1 -1 
+r1 1 -2 
+$r0 1 0 
+$r8 1 47 
+$r9 1 30 
+Fields: 1
+0 data 30
+Accesses: 5
+39 1 -1 
+9 1 0 
+57 1 0 
+43 1 0 
+29 1 0 
+Functions: 15
+33 1 33 
+97 0 
+5 3 0 -2 30 
+101 0 
+73 0 
+107 0 
+44 1 30 
+50 2 -1 47 
+85 0 
+54 1 -1 
+24 0 
+89 0 
+58 1 30 
+30 1 30 
+94 0 
+Constructors: 1
+5 0
+
+Summary: 11
+101 94 0 98 -1 30 -2 33 85 104 47 
+sun/security/x509/X509Key.buildX509Key(Lsun/security/x509/AlgorithmId;Lsun/security/util/BitArray;)Ljava/security/PublicKey;
+PTG:
+Vars:
+27
+$r26 1 106 
+r36 1 148 
+$r8 1 38 
+$r17 1 -1 
+r30 1 33 
+$r4 1 14 
+$r28 1 122 
+$r5 1 19 
+r37 1 177 
+r33 2 66 115 
+r22 1 73 
+$r21 1 -1 
+$r23 1 90 
+$r16 1 -1 
+r3 1 -3 
+$r15 1 -1 
+$r25 1 103 
+$r27 1 109 
+$r42 1 257 
+r2 1 -2 
+$r0 1 0 
+$r7 1 27 
+_ret 1 257 
+$r24 1 99 
+$r29 1 80 
+r38 1 177 
+r34 2 162 138 
+Fields: 0
+Accesses: 1
+197 1 177 
+Functions: 30
+4 1 0 
+68 0 
+133 2 66 115 
+263 3 257 -2 -3 
+11 3 0 -2 -3 
+203 2 177 -3 
+208 1 177 
+145 0 
+18 1 0 
+84 1 80 
+22 2 19 14 
+88 2 73 109 
+26 1 -2 
+90 1 90 
+27 1 27 
+155 3 66 115 148 
+94 1 90 
+35 2 33 14 
+99 2 99 103 
+102 1 -2 
+233 2 66 115 
+106 1 106 
+172 2 162 138 
+237 0 
+242 0 
+53 0 
+247 0 
+60 0 
+253 0 
+126 1 122 
+Constructors: 6
+4 0
+84 80
+22 14
+263 257
+94 90
+126 122
+
+Summary: 5
+0 0 1 -3 14 
+sun/security/x509/X509Key.parse(Lsun/security/util/DerValue;)Ljava/security/PublicKey;
+PTG:
+Vars:
+9
+r3 1 29 
+$r2 1 23 
+$r1 1 20 
+$r7 1 20 
+_ret 1 41 
+$r5 1 35 
+r6 1 41 
+$r4 1 20 
+r0 1 -2 
+Fields: 1
+-2 data 20
+Accesses: 4
+0 1 -2 
+19 1 -2 
+77 1 -2 
+31 1 -2 
+Functions: 13
+32 1 20 
+66 0 
+35 2 35 29 
+73 0 
+78 1 20 
+15 0 
+50 0 
+20 1 20 
+54 0 
+23 1 23 
+59 0 
+93 0 
+62 0 
+Constructors: 0
+
+Summary: 3
+0 20 -2 
+sun/security/x509/X509Key.setKey(Lsun/security/util/BitArray;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 2 
+$r3 1 2 
+$r4 1 13 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+16 1 -1 
+8 1 -1 
+40 1 -1 
+Functions: 3
+1 1 -2 
+19 1 -2 
+12 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+sun/security/x509/X509Key.getFormat()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X509Key.encode(Lsun/security/util/DerOutputStream;Lsun/security/x509/AlgorithmId;Lsun/security/util/BitArray;)V
+PTG:
+Vars:
+4
+$r0 1 0 
+r4 1 -2 
+r3 1 -4 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 4
+4 1 0 
+22 2 0 -2 
+10 2 0 -3 
+15 2 0 -4 
+Constructors: 1
+4 0
+
+Summary: 6
+2 0 1 -3 -2 -4 
+sun/security/x509/X509Key.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 8
+17 0 
+33 0 
+2 2 -1 -2 
+21 0 
+39 0 
+10 0 
+26 0 
+29 0 
+Constructors: 0
+
+Summary: 7
+36 26 -1 -2 33 17 30 
+sun/security/x509/X509Key.decode([B)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 2 1 -2 
+9 2 -1 1 
+Constructors: 1
+6 1
+
+Summary: 3
+1 -1 -2 
+sun/security/x509/X509Key.encode(Lsun/security/util/DerOutputStream;)V
+PTG:
+Vars:
+4
+$r3 1 6 
+$r2 1 2 
+r0 1 -2 
+r1 1 -1 
+Fields: 1
+-1 algid 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+5 2 -1 2 
+9 3 -2 2 6 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+sun/security/x509/X509Key.getAlgorithm()Ljava/lang/String;
+PTG:
+Vars:
+4
+_ret 1 4 
+$r2 1 4 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 algid 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X509Key.getEncodedInternal()[B
+PTG:
+Vars:
+4
+r9 2 26 4 
+_ret 2 26 4 
+$r1 1 9 
+r0 1 -1 
+Fields: 1
+-1 encodedKey 4
+Accesses: 2
+0 1 -1 
+63 1 -1 
+Functions: 9
+19 3 -1 4 9 
+35 0 
+51 0 
+22 1 9 
+39 0 
+57 0 
+44 0 
+13 1 9 
+47 0 
+Constructors: 1
+13 9
+
+Summary: 2
+-1 9 
+sun/security/x509/X509Key.<init>(Lsun/security/x509/AlgorithmId;Lsun/security/util/BitArray;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+16 1 -1 
+21 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 3
+1 1 -1 
+26 2 -1 -3 
+30 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+1 -3 -1 
+sun/security/x509/X509Key.encode()[B
+PTG:
+Vars:
+5
+$r3 1 4 
+r0 1 -1 
+$r2 1 4 
+_ret 1 4 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X509Key.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+16 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+sun/security/x509/X509Key.hashCode()I
+PTG:
+Vars:
+3
+r2 1 4 
+r0 1 -1 
+$r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 4 
+sun/security/x509/X509Key.getKey()Lsun/security/util/BitArray;
+PTG:
+Vars:
+8
+$r4 1 29 
+$r6 1 32 
+$r3 1 6 
+$r5 1 32 
+_ret 1 32 
+r0 1 -1 
+$r1 1 1 
+$r2 1 6 
+Fields: 2
+-1 key 6
+-1 bitStringKey 29
+Accesses: 5
+18 1 -1 
+5 1 -1 
+25 1 -1 
+28 1 -1 
+13 1 -1 
+Functions: 2
+22 2 1 6 
+29 1 29 
+Constructors: 1
+22 1
+
+Summary: 1
+-1 
+sun/security/x509/X509Key.getAlgorithmId()Lsun/security/x509/AlgorithmId;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 algid 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X509Key.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+7
+r5 1 20 
+$r3 1 -2 
+$r2 1 -2 
+$r4 1 -1 
+r6 2 48 35 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+16 1 -1 
+50 3 48 35 20 
+40 1 -2 
+29 1 -2 
+Constructors: 0
+
+Summary: 6
+20 48 0 -1 -2 35 
+sun/security/x509/X509Key.toString()Ljava/lang/String;
+PTG:
+Vars:
+13
+$r8 1 32 
+$r6 1 24 
+$r7 1 27 
+$r12 1 46 
+$r2 1 8 
+$r0 1 0 
+$r10 1 40 
+$r5 1 21 
+r4 1 -1 
+$r3 1 17 
+_ret 1 46 
+$r9 1 37 
+$r11 1 43 
+Fields: 2
+-1 key 37
+-1 algid 21
+Accesses: 2
+20 1 -1 
+36 1 -1 
+Functions: 9
+32 2 32 40 
+17 2 17 24 
+35 2 0 37 
+4 1 0 
+21 1 21 
+8 1 8 
+27 1 27 
+43 1 43 
+12 1 8 
+Constructors: 2
+4 0
+12 8
+
+Summary: 2
+0 -1 

@@ -1,0 +1,505 @@
+10
+org/eclipse/jdt/internal/compiler/ast/Annotation.computeElementValuePairs()[Lorg/eclipse/jdt/internal/compiler/lookup/ElementValuePair;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/Annotation.detectStandardAnnotation(Lorg/eclipse/jdt/internal/compiler/lookup/Scope;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/eclipse/jdt/internal/compiler/ast/MemberValuePair;)J
+PTG:
+Vars:
+23
+r18 1 56 
+$r14 1 56 
+$r3 1 299 
+r0 1 -3 
+r1 1 -4 
+$r13 1 174 
+r11 1 -2 
+r5 1 151 
+$r10 1 217 
+$r12 1 236 
+$r2 1 129 
+r8 1 195 
+$r9 1 204 
+$r4 1 314 
+r19 1 77 
+r6 1 174 
+r17 1 -1 
+r20 1 129 
+r21 1 129 
+$r7 1 174 
+r22 1 290 
+$r16 1 101 
+$r15 1 86 
+Fields: 10
+77 declaringClass 86
+77 name 101
+129 expressions 151
+-4 value 56
+-4 value 129
+290 declaringClass 299
+290 name 314
+151 ArrayObject 174
+195 declaringClass 204
+195 name 217
+Accesses: 16
+3 1 -3 
+99 1 77 
+297 1 290 
+202 1 195 
+299 1 299 
+204 1 204 
+271 1 129 
+176 1 174 
+146 1 129 
+52 1 -4 
+84 1 77 
+86 1 86 
+215 1 195 
+312 1 290 
+58 1 56 
+125 1 -4 
+Functions: 8
+101 1 101 
+245 3 -3 236 174 
+71 1 56 
+217 1 217 
+314 1 314 
+235 1 -2 
+284 3 129 151 174 
+189 1 174 
+Constructors: 0
+
+Summary: 18
+204 236 1 -3 217 86 -1 101 77 129 314 -4 290 151 56 195 0 299 
+org/eclipse/jdt/internal/compiler/ast/Annotation.resolveType(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+82
+$r25 1 464 
+$r59 1 817 
+$r54 1 679 
+$r15 1 335 
+r82 1 892 
+r77 1 746 
+$r36 1 503 
+$r61 1 843 
+$r41 1 503 
+$r14 2 227 307 
+$r20 2 427 427 
+$r47 1 738 
+$r51 1 643 
+$r33 1 503 
+r68 2 110 90 
+$r18 2 414 414 
+$r45 1 725 
+$r27 1 484 
+$r29 1 503 
+$r72 1 227 
+$r1 1 1 
+$r12 1 271 
+$r52 1 646 
+$r13 1 286 
+$r46 1 735 
+r80 1 828 
+$r22 1 453 
+$r50 1 634 
+$r42 1 503 
+r71 2 168 168 
+$r55 1 503 
+r79 1 807 
+r3 1 -2 
+_ret 1 73 
+r75 1 503 
+r67 2 168 168 
+$r58 1 807 
+$r62 1 110 
+$r53 1 650 
+$r44 1 503 
+r5 1 27 
+$r4 1 20 
+$r19 1 419 
+$r26 1 467 
+r74 1 640 
+$r28 1 487 
+$r32 1 503 
+$r6 1 73 
+r0 1 -1 
+r8 1 84 
+r81 1 503 
+$r56 1 907 
+$r83 1 1193 
+$r35 1 503 
+$r2 1 13 
+$r43 1 503 
+$r17 1 385 
+$r38 1 1073 
+$r21 2 435 435 
+$r84 1 73 
+r9 1 90 
+$r31 1 503 
+$r24 1 73 
+$r34 1 503 
+r7 1 73 
+r76 1 725 
+$r57 1 503 
+$r30 1 503 
+r70 1 152 
+$r48 1 761 
+$r37 1 1076 
+r11 2 259 259 
+r78 1 503 
+$r39 1 503 
+$r16 1 202 
+$r49 1 503 
+r73 1 503 
+$r40 1 503 
+r69 1 145 
+$r60 1 820 
+$r23 1 73 
+r10 1 183 
+Fields: 31
+168 name 183
+735 referenceContext 738
+634 referenceContext 640
+646 ArrayObject 650
+807 scope 817
+503 sourceName 1073
+503 declaringClass 807
+503 declaringClass 725
+503 declaration 892
+503 scope 634
+90 ArrayObject 168
+90 ArrayObject 435
+90 ArrayObject 259
+90 ArrayObject 414
+90 ArrayObject 427
+643 types 646
+-1 compilerAnnotation 1
+-1 recipient 503
+-1 resolvedType 73
+-1 type 20
+110 ArrayObject 168
+110 ArrayObject 435
+110 ArrayObject 414
+110 ArrayObject 427
+110 ArrayObject 259
+725 scope 735
+145 selector 152
+145 returnType 227
+817 referenceContext 820
+259 name 271
+84 ArrayObject 145
+Accesses: 68
+0 1 -1 
+896 1 892 
+643 1 643 
+516 1 -1 
+773 1 -1 
+901 1 892 
+7 1 -1 
+907 1 907 
+269 1 259 
+782 1 503 
+16 1 -1 
+19 1 -1 
+147 1 145 
+662 1 640 
+791 1 503 
+1176 1 73 
+673 1 640 
+36 1 -1 
+805 1 503 
+679 1 679 
+936 1 -1 
+1066 1 -1 
+299 1 259 
+1070 1 503 
+815 1 807 
+1200 1 -1 
+305 1 145 
+817 1 817 
+178 1 168 
+691 1 -1 
+700 1 503 
+62 1 -1 
+832 1 828 
+1088 1 -1 
+580 1 -1 
+709 1 503 
+837 1 828 
+72 1 -1 
+456 1 -1 
+584 1 503 
+843 1 843 
+594 1 503 
+723 1 503 
+470 1 -1 
+855 1 -1 
+600 1 -1 
+219 1 168 
+733 1 725 
+735 1 735 
+864 1 503 
+225 1 145 
+609 1 503 
+873 1 503 
+362 1 145 
+618 1 503 
+491 1 -1 
+750 1 746 
+495 1 -1 
+755 1 746 
+374 1 -1 
+502 1 -1 
+1014 1 -1 
+887 1 503 
+1143 1 -1 
+632 1 503 
+761 1 761 
+634 1 634 
+1147 1 503 
+Functions: 48
+384 1 -2 
+642 1 -2 
+67 1 27 
+452 1 -2 
+1092 11 640 1073 817 738 820 725 503 807 634 892 735 
+453 3 464 453 73 
+517 11 640 1073 817 738 820 725 503 807 634 892 735 
+391 17 -1 640 385 1 738 807 73 1073 817 20 820 725 503 152 634 892 735 
+202 2 183 202 
+842 1 -2 
+906 1 -2 
+334 1 -2 
+463 15 -1 640 1 738 807 73 1073 817 20 820 725 503 634 892 735 
+80 1 73 
+849 16 -1 640 1 -2 738 807 73 1073 817 20 820 725 503 634 892 735 
+913 16 -1 640 1 -2 738 807 73 1073 817 20 820 725 503 634 892 735 
+274 2 152 271 
+20 2 -2 20 
+916 1 73 
+341 4 183 168 73 335 
+86 15 -1 640 1 738 807 73 1073 817 20 820 725 503 634 892 735 
+473 18 -1 640 1 -2 738 807 168 73 1073 817 20 820 725 503 183 634 892 735 
+285 1 -2 
+418 1 -2 
+738 11 640 1073 817 738 820 725 503 807 634 892 735 
+483 1 -2 
+292 4 259 73 286 271 
+230 4 -2 227 183 168 
+678 1 -2 
+39 1 27 
+1192 1 -2 
+937 11 640 1073 817 738 820 725 503 807 634 892 735 
+428 3 419 73 427 
+685 16 -1 640 1 -2 738 807 73 1073 817 20 820 725 503 634 892 735 
+1197 16 -1 640 1 738 807 1193 73 1073 817 20 820 725 503 634 892 735 
+46 1 27 
+499 2 484 487 
+820 11 640 1073 817 738 820 725 503 807 634 892 735 
+1076 2 1073 1076 
+53 1 -2 
+310 5 -2 259 227 307 271 
+438 2 -2 435 
+119 9 435 259 183 168 90 427 414 110 271 
+760 1 -2 
+58 1 -2 
+1018 11 640 1073 817 738 820 725 503 807 634 892 735 
+187 2 183 152 
+767 16 -1 640 1 -2 738 807 73 1073 817 20 820 725 503 634 892 735 
+Constructors: 0
+
+Summary: 22
+679 453 1193 -1 907 385 843 650 746 286 59 646 484 335 0 84 54 464 643 419 761 828 
+org/eclipse/jdt/internal/compiler/ast/Annotation.getCompilerAnnotation()Lorg/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 compilerAnnotation 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/Annotation.getTargetElementType([C)J
+PTG:
+Vars:
+9
+$r3 1 165 
+r0 1 -2 
+$r7 1 95 
+$r4 1 137 
+$r8 1 81 
+$r2 1 151 
+$r6 1 109 
+$r1 1 179 
+$r5 1 123 
+Fields: 0
+Accesses: 0
+Functions: 8
+81 2 -2 81 
+179 2 -2 179 
+165 2 -2 165 
+151 2 -2 151 
+137 2 -2 137 
+123 2 -2 123 
+109 2 -2 109 
+95 2 -2 95 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/ast/Annotation.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/ast/Annotation.printExpression(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+4
+_ret 1 -3 
+r2 1 -1 
+r0 1 -3 
+$r3 1 8 
+Fields: 1
+-1 type 8
+Accesses: 1
+7 1 -1 
+Functions: 2
+3 1 -3 
+13 2 -3 8 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/compiler/ast/Annotation.recordSuppressWarnings(Lorg/eclipse/jdt/internal/compiler/lookup/Scope;IIZ)V
+PTG:
+Vars:
+28
+r16 1 122 
+r7 1 -2 
+r5 1 46 
+r27 1 231 
+$r17 1 174 
+$r4 1 29 
+$r20 1 159 
+$r10 1 253 
+$r22 1 134 
+$r12 1 90 
+$r14 1 98 
+$r19 1 152 
+$r6 1 207 
+$r21 1 166 
+r25 1 68 
+$r3 1 32 
+r24 1 46 
+r2 1 25 
+$r11 1 238 
+r13 1 94 
+r26 1 203 
+r0 1 -1 
+r1 1 7 
+$r15 1 116 
+r23 2 134 238 
+$r18 1 181 
+$r9 1 225 
+$r8 1 285 
+Fields: 9
+7 ArrayObject 25
+25 value 46
+25 name 29
+46 expressions 68
+46 constant 203
+90 constant 94
+68 ArrayObject 90
+68 ArrayObject 181
+68 ArrayObject 166
+Accesses: 5
+198 1 46 
+41 1 25 
+90 1 90 
+27 1 25 
+63 1 46 
+Functions: 19
+32 2 32 29 
+225 1 225 
+258 8 68 181 166 90 203 253 46 94 
+3 1 -1 
+293 4 -1 134 285 238 
+167 2 166 159 
+104 1 94 
+140 2 134 122 
+173 1 -2 
+114 1 94 
+116 1 116 
+148 3 134 122 238 
+244 2 231 238 
+213 1 203 
+182 2 181 174 
+252 1 -2 
+284 1 -2 
+158 1 -2 
+223 1 203 
+Constructors: 2
+244 238
+140 134
+
+Summary: 13
+253 122 285 -1 159 231 0 116 7 152 225 238 174 
+org/eclipse/jdt/internal/compiler/ast/Annotation.getRetentionPolicy([C)J
+PTG:
+Vars:
+4
+$r3 1 49 
+r0 1 -2 
+$r1 1 63 
+$r2 1 77 
+Fields: 0
+Accesses: 0
+Functions: 3
+49 2 -2 49 
+77 2 -2 77 
+63 2 -2 63 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/ast/Annotation.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 

@@ -1,0 +1,2150 @@
+98
+org/eclipse/jdt/internal/core/CompilationUnit.getPackageDeclarations()[Lorg/eclipse/jdt/core/IPackageDeclaration;
+PTG:
+Vars:
+4
+r2 1 11 
+r0 1 -1 
+r1 1 6 
+_ret 1 11 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+17 2 6 11 
+7 1 6 
+Constructors: 0
+
+Summary: 2
+6 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.updateTimeStamp(Lorg/eclipse/jdt/internal/core/CompilationUnit;)V
+PTG:
+Vars:
+6
+$r1 1 1 
+r3 1 -1 
+r0 1 -2 
+$r2 1 1 
+$r4 1 40 
+$r5 1 40 
+Fields: 0
+Accesses: 1
+47 1 40 
+Functions: 5
+0 1 -2 
+32 0 
+35 0 
+4 1 1 
+39 1 -1 
+Constructors: 0
+
+Summary: 5
+-2 25 40 -1 1 
+org/eclipse/jdt/internal/core/CompilationUnit.makeConsistent(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/jdt/internal/core/CompilationUnit.cloneCachingContents()Lorg/eclipse/jdt/internal/core/CompilationUnit;
+PTG:
+Vars:
+8
+$r5 1 6 
+$r7 1 0 
+r1 1 -1 
+$r2 1 6 
+$r3 1 17 
+$r6 1 0 
+$r4 1 13 
+_ret 1 0 
+Fields: 3
+-1 parent 6
+-1 name 13
+-1 owner 17
+Accesses: 3
+16 1 -1 
+5 1 -1 
+12 1 -1 
+Functions: 1
+20 5 0 -1 17 6 13 
+Constructors: 1
+20 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.createElementInfo()Ljava/lang/Object;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.getElementType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.getHandleFromMemento(Ljava/lang/String;Lorg/eclipse/jdt/internal/core/util/MementoTokenizer;Lorg/eclipse/jdt/core/WorkingCopyOwner;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+4
+r3 1 -1 
+r0 1 -2 
+r1 1 -3 
+r6 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -2 
+49 3 -2 -3 -4 
+67 1 -3 
+84 2 -3 -4 
+101 1 -3 
+118 2 -3 -4 
+40 1 -1 
+73 1 -1 
+58 1 -3 
+107 1 -1 
+92 1 -3 
+Constructors: 0
+
+Summary: 8
+110 71 76 105 41 -3 -2 -4 
+org/eclipse/jdt/internal/core/CompilationUnit.becomeWorkingCopy(Lorg/eclipse/jdt/core/IProblemRequestor;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+6
+$r3 1 23 
+r1 1 -1 
+r6 1 -3 
+r0 1 3 
+r4 1 -2 
+r2 1 12 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 0 
+4 2 -1 3 
+20 1 -1 
+37 2 -3 23 
+29 3 -1 -2 23 
+Constructors: 1
+29 23
+
+Summary: 6
+-2 3 -1 -3 12 23 
+org/eclipse/jdt/internal/core/CompilationUnit.getType(Ljava/lang/String;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+5
+r2 1 -2 
+$r3 1 0 
+$r4 1 0 
+r1 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -1 -2 
+Constructors: 1
+6 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.getOriginal(Lorg/eclipse/jdt/core/IJavaElement;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+8
+r0 1 -1 
+$r6 1 41 
+r1 1 -2 
+$r4 1 29 
+$r5 1 25 
+r3 1 11 
+$r2 1 11 
+_ret 1 41 
+Fields: 2
+11 owner 29
+-1 owner 25
+Accesses: 2
+24 1 -1 
+28 1 11 
+Functions: 4
+0 2 -1 25 
+40 1 -2 
+9 1 -2 
+25 2 25 29 
+Constructors: 0
+
+Summary: 4
+-2 11 29 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.commit(ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -3 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.getPackageName()[[C
+PTG:
+Vars:
+6
+r2 1 1 
+$r4 1 20 
+r0 1 -1 
+$r3 1 17 
+$r1 1 1 
+_ret 1 20 
+Fields: 1
+1 names 17
+Accesses: 1
+16 1 1 
+Functions: 2
+0 1 -1 
+17 1 17 
+Constructors: 0
+
+Summary: 3
+17 -1 1 
+org/eclipse/jdt/internal/core/CompilationUnit.originalFromClone()Lorg/eclipse/jdt/internal/core/CompilationUnit;
+PTG:
+Vars:
+2
+r0 1 -1 
+_ret 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/CompilationUnit.resource(Lorg/eclipse/jdt/internal/core/PackageFragmentRoot;)Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+10
+$r3 1 7 
+r0 1 -2 
+r1 1 -1 
+$r7 1 25 
+$r8 1 31 
+$r5 1 20 
+$r2 1 7 
+$r4 1 14 
+$r6 1 14 
+_ret 1 31 
+Fields: 1
+-1 parent 7
+Accesses: 1
+6 1 -1 
+Functions: 4
+17 2 20 14 
+24 2 -1 7 
+10 2 -2 7 
+28 2 20 25 
+Constructors: 1
+28 20
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.codeComplete(ILorg/eclipse/jdt/core/ICompletionRequestor;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+PTG:
+Vars:
+5
+r3 1 -4 
+$r7 1 17 
+r0 1 -3 
+$r6 1 17 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+22 2 17 -3 
+26 3 -1 17 -4 
+11 0 
+Constructors: 1
+22 17
+
+Summary: 4
+-4 -1 17 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.rename(Ljava/lang/String;ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+8
+r2 1 -1 
+r10 1 -4 
+$r5 1 32 
+r0 1 -2 
+$r4 1 26 
+$r7 1 39 
+$r1 1 16 
+$r9 1 49 
+Fields: 0
+Accesses: 0
+Functions: 4
+48 1 -1 
+11 0 
+60 5 16 49 -4 39 26 
+31 1 -1 
+Constructors: 0
+
+Summary: 5
+39 16 -4 49 26 
+org/eclipse/jdt/internal/core/CompilationUnit.reconcile(IZLorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/dom/CompilationUnit;
+PTG:
+Vars:
+5
+r2 1 -5 
+$r3 1 14 
+r0 1 -1 
+r1 1 -4 
+_ret 1 14 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -4 -5 
+Constructors: 0
+
+Summary: 3
+-4 -1 -5 
+org/eclipse/jdt/internal/core/CompilationUnit.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -2 
+r2 1 -1 
+$r4 1 15 
+$r3 1 19 
+Fields: 2
+-2 owner 19
+-1 owner 15
+Accesses: 2
+18 1 -2 
+14 1 -1 
+Functions: 2
+28 4 -1 -2 19 15 
+15 2 19 15 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 19 
+org/eclipse/jdt/internal/core/CompilationUnit.discardWorkingCopy()V
+PTG:
+Vars:
+2
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 2 0 -1 
+11 1 0 
+Constructors: 1
+5 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/core/CompilationUnit.reconcile(IZZLorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/dom/CompilationUnit;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 31 
+r1 1 -5 
+r2 1 -6 
+_ret 1 31 
+Fields: 0
+Accesses: 0
+Functions: 1
+23 3 -1 -5 -6 
+Constructors: 0
+
+Summary: 2
+-6 -5 
+org/eclipse/jdt/internal/core/CompilationUnit.validateExistence(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+6
+$r2 1 32 
+r5 1 12 
+$r1 1 43 
+r0 1 -1 
+r4 1 -2 
+_ret 1 43 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+38 1 -1 
+7 2 -1 -2 
+24 1 -1 
+13 1 12 
+31 1 -1 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/jdt/internal/core/CompilationUnit.getImports()[Lorg/eclipse/jdt/core/IImportDeclaration;
+PTG:
+Vars:
+11
+r9 2 14 41 
+$r6 1 21 
+$r10 1 4 
+r5 1 66 
+$r3 2 14 41 
+r4 1 57 
+r0 1 -1 
+r2 1 8 
+$r11 1 4 
+r1 1 4 
+_ret 1 66 
+Fields: 2
+14 children 57
+41 children 57
+Accesses: 1
+51 2 41 14 
+Functions: 7
+0 1 -1 
+33 1 -1 
+19 2 -1 8 
+36 2 4 8 
+5 0 
+9 2 4 8 
+79 2 66 57 
+Constructors: 0
+
+Summary: 7
+14 21 57 4 -1 8 41 
+org/eclipse/jdt/internal/core/CompilationUnit.findWorkingCopy(Lorg/eclipse/jdt/core/WorkingCopyOwner;)Lorg/eclipse/jdt/core/ICompilationUnit;
+PTG:
+Vars:
+8
+$r4 1 12 
+r5 1 -2 
+$r3 1 5 
+$r7 1 21 
+$r2 1 5 
+r1 1 -1 
+r8 1 33 
+$r0 1 0 
+Fields: 1
+-1 parent 5
+Accesses: 1
+4 1 -1 
+Functions: 4
+16 4 0 -2 5 12 
+38 1 33 
+11 2 -1 5 
+29 1 0 
+Constructors: 1
+16 0
+
+Summary: 4
+-2 33 -1 12 
+org/eclipse/jdt/internal/core/CompilationUnit.reconcile()[Lorg/eclipse/core/resources/IMarker;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/CompilationUnit.getTypeRoot()Lorg/eclipse/jdt/core/ITypeRoot;
+PTG:
+Vars:
+2
+r0 1 -1 
+_ret 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/CompilationUnit.reconcile(IILorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/dom/CompilationUnit;
+PTG:
+Vars:
+10
+r3 1 67 
+r4 1 -5 
+r0 1 -1 
+r10 2 16 -4 
+r11 1 33 
+$r7 1 42 
+$r1 1 51 
+$r5 1 112 
+$r6 1 37 
+_ret 1 112 
+Fields: 1
+51 ast 112
+Accesses: 1
+110 1 51 
+Functions: 12
+0 1 -1 
+48 2 33 37 
+64 0 
+96 1 67 
+71 1 67 
+88 1 67 
+41 1 -1 
+59 5 112 -1 16 51 -4 
+107 1 33 
+29 1 -1 
+45 2 37 42 
+78 3 112 51 -5 
+Constructors: 2
+59 51
+45 37
+
+Summary: 9
+33 2 51 -5 42 -4 67 3 37 
+org/eclipse/jdt/internal/core/CompilationUnit.getOriginalElement()Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+3
+$r1 1 10 
+r0 1 -1 
+_ret 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+9 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.hasResourceChanged()Z
+PTG:
+Vars:
+5
+$r4 1 16 
+r3 1 27 
+$r1 1 9 
+r2 1 16 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+35 1 16 
+Functions: 5
+0 1 -1 
+-1 0 
+23 1 -1 
+9 2 -1 9 
+41 1 27 
+Constructors: 0
+
+Summary: 4
+16 9 27 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.isSourceElement()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.getWorkingCopy(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/ICompilationUnit;
+PTG:
+Vars:
+6
+$r3 1 11 
+r2 1 -2 
+$r4 1 1 
+r0 1 -1 
+$r5 1 1 
+_ret 1 11 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 1 -2 
+6 2 -1 1 
+Constructors: 1
+6 1
+
+Summary: 3
+-2 1 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.getElementName()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 name 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.getPath()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+7
+$r3 1 37 
+$r4 1 43 
+$r5 1 46 
+$r2 1 34 
+r1 1 4 
+r0 1 -1 
+_ret 1 46 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -1 
+17 0 
+33 1 -1 
+34 1 34 
+21 1 4 
+37 2 37 43 
+42 1 -1 
+28 1 4 
+13 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/CompilationUnit.codeComplete(ILorg/eclipse/jdt/core/ICompletionRequestor;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 3 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 -1 -3 3 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.getPerWorkingCopyInfo()Lorg/eclipse/jdt/internal/core/JavaModelManager$PerWorkingCopyInfo;
+PTG:
+Vars:
+4
+$r2 1 7 
+$r0 1 0 
+r1 1 -1 
+_ret 1 7 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+0 2 0 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.getWorkingCopy(Lorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/ICompilationUnit;
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+$r3 1 4 
+r2 1 -3 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.makeConsistent(IZILjava/util/HashMap;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/dom/CompilationUnit;
+PTG:
+Vars:
+12
+r6 1 -5 
+$r1 1 9 
+r9 1 78 
+r0 1 -1 
+$r2 1 15 
+$r4 1 30 
+$r19 1 128 
+$r3 1 12 
+$r20 1 131 
+$r17 1 -1 
+$r13 1 105 
+r7 1 -6 
+Fields: 3
+128 abortOnMissingSource 131
+30 ast 78
+9 abortOnMissingSource 12
+Accesses: 8
+48 1 30 
+128 1 128 
+83 1 30 
+54 1 30 
+9 1 9 
+73 1 30 
+42 1 30 
+61 1 30 
+Functions: 10
+0 1 -1 
+-1 0 
+97 0 
+18 2 12 15 
+34 2 30 78 
+69 4 -1 -6 30 78 
+135 1 131 
+104 1 -1 
+121 0 
+110 3 -1 -6 105 
+Constructors: 1
+34 30
+
+Summary: 12
+-6 128 90 4 105 12 30 114 93 9 117 131 
+org/eclipse/jdt/internal/core/CompilationUnit.getPackageDeclaration(Ljava/lang/String;)Lorg/eclipse/jdt/core/IPackageDeclaration;
+PTG:
+Vars:
+5
+$r4 1 0 
+r1 1 -1 
+r2 1 -2 
+$r3 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -1 -2 
+Constructors: 1
+6 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.codeSelect(IILorg/eclipse/jdt/core/WorkingCopyOwner;)[Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -4 
+$r2 1 5 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -4 
+Constructors: 0
+
+Summary: 2
+-4 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.applyTextEdit(Lorg/eclipse/text/edits/TextEdit;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/text/edits/UndoEdit;
+PTG:
+Vars:
+4
+r5 1 -3 
+r0 1 -1 
+r1 1 4 
+r3 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+52 1 -2 
+89 0 
+74 0 
+13 2 -2 -3 
+47 1 4 
+Constructors: 0
+
+Summary: 5
+-2 42 4 -1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.isPrimary()Z
+PTG:
+Vars:
+3
+$r1 1 4 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 owner 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.getAllTypes()[Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+11
+r9 1 4 
+r10 1 55 
+$r7 1 95 
+$r3 1 15 
+r11 1 85 
+$r1 1 5 
+$r6 1 55 
+r12 1 121 
+r0 1 -1 
+$r5 1 35 
+_ret 1 121 
+Fields: 2
+4 ArrayObject 35
+85 ArrayObject 95
+Accesses: 0
+Functions: 12
+0 1 -1 
+96 2 15 95 
+129 2 5 121 
+67 2 55 15 
+36 2 35 15 
+52 1 15 
+21 1 15 
+117 1 5 
+74 2 5 55 
+11 1 5 
+109 1 15 
+78 1 55 
+Constructors: 2
+21 15
+11 5
+
+Summary: 6
+5 4 85 -1 15 55 
+org/eclipse/jdt/internal/core/CompilationUnit.getImport(Ljava/lang/String;)Lorg/eclipse/jdt/core/IImportDeclaration;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 5 
+$r1 1 1 
+r2 1 -2 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 1 
+org/eclipse/jdt/internal/core/CompilationUnit.getPrimary()Lorg/eclipse/jdt/core/ICompilationUnit;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 2 
+$r1 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.getPrimaryElement(Z)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+7
+$r3 1 18 
+$r4 1 25 
+$r2 1 18 
+$r0 1 13 
+$r5 1 28 
+r1 1 -1 
+_ret 1 13 
+Fields: 0
+Accesses: 0
+Functions: 4
+17 1 -1 
+4 1 -1 
+24 1 -1 
+31 4 18 25 28 13 
+Constructors: 1
+31 13
+
+Summary: 2
+25 18 
+org/eclipse/jdt/internal/core/CompilationUnit.getFileName()[C
+PTG:
+Vars:
+5
+$r1 1 1 
+$r2 1 4 
+$r3 1 9 
+r0 1 -1 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+1 1 1 
+4 1 4 
+Constructors: 0
+
+Summary: 2
+4 1 
+org/eclipse/jdt/internal/core/CompilationUnit.codeSelect(II)[Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+4
+$r1 1 3 
+r0 1 -1 
+$r2 1 6 
+_ret 1 6 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 3 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.getOwner()Lorg/eclipse/jdt/core/WorkingCopyOwner;
+PTG:
+Vars:
+3
+$r1 1 19 
+r0 1 -1 
+_ret 1 19 
+Fields: 1
+-1 owner 19
+Accesses: 1
+18 1 -1 
+Functions: 2
+0 2 -1 19 
+7 2 -1 19 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.toStringInfo(ILjava/lang/StringBuffer;Ljava/lang/Object;Z)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 -4 
+r1 1 -3 
+$r7 1 10 
+$r3 1 43 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -1 
+33 1 -1 
+84 3 -1 -3 -4 
+21 1 -3 
+54 1 -3 
+71 1 -3 
+8 1 -1 
+41 1 -1 
+27 2 -1 -3 
+60 2 -1 -3 
+13 2 -3 10 
+46 2 -3 43 
+Constructors: 0
+
+Summary: 3
+1 2 -4 
+org/eclipse/jdt/internal/core/CompilationUnit.getUnderlyingResource()Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 17 
+_ret 1 17 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+16 1 -1 
+7 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.codeComplete(ILorg/eclipse/jdt/core/CompletionRequestor;)V
+PTG:
+Vars:
+3
+$r2 1 3 
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 -1 -3 3 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.getSourceRange()Lorg/eclipse/jdt/core/ISourceRange;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r2 1 1 
+$r3 1 7 
+r0 1 -1 
+_ret 1 7 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+4 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/core/CompilationUnit.getElementAt(I)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 5 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.getSource()Ljava/lang/String;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 13 
+r1 1 4 
+_ret 1 13 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+12 1 4 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/CompilationUnit.validateCompilationUnit(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+13
+r1 1 4 
+r9 1 52 
+$r4 1 111 
+$r7 1 4 
+r16 1 44 
+r17 1 101 
+r2 1 -2 
+$r3 1 103 
+r0 1 -1 
+$r8 1 4 
+$r5 1 121 
+$r6 1 126 
+_ret 1 126 
+Fields: 0
+Accesses: 0
+Functions: 15
+0 1 -1 
+97 1 -1 
+5 1 4 
+38 1 4 
+102 1 -1 
+72 1 -1 
+106 1 101 
+76 1 -2 
+46 1 4 
+116 1 101 
+23 1 4 
+56 3 -2 52 44 
+121 3 103 121 111 
+28 0 
+93 1 -1 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/jdt/internal/core/CompilationUnit.isBasedOn(Lorg/eclipse/core/resources/IResource;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+$r1 1 10 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+24 1 -1 
+9 1 -1 
+10 2 -2 10 
+Constructors: 0
+
+Summary: 3
+-2 10 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.codeComplete(ILorg/eclipse/jdt/core/CompletionRequestor;Lorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+6
+$r4 1 10 
+$r7 2 10 -1 
+r0 1 -1 
+r3 1 -5 
+r1 1 -3 
+r2 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 3
+2 1 -1 
+9 1 -1 
+26 5 -1 -3 -4 -5 10 
+Constructors: 0
+
+Summary: 5
+10 -4 -1 -5 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.getContents()[C
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+r35 1 142 
+r2 1 8 
+_ret 1 142 
+Fields: 0
+Accesses: 0
+Functions: 23
+0 1 -1 
+-1 0 
+1 2 -1 1 
+129 0 
+35 0 
+136 1 8 
+73 0 
+169 0 
+106 0 
+13 1 -1 
+45 0 
+173 1 -1 
+206 0 
+115 0 
+116 0 
+21 0 
+150 0 
+182 0 
+88 0 
+57 0 
+121 0 
+59 0 
+93 0 
+Constructors: 0
+
+Summary: 18
+27 121 150 153 8 90 126 48 42 14 75 147 45 189 1 116 59 174 
+org/eclipse/jdt/internal/core/CompilationUnit.getImportContainer()Lorg/eclipse/jdt/core/IImportContainer;
+PTG:
+Vars:
+4
+$r3 1 0 
+$r2 1 0 
+r1 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -1 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.close()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+9 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.getWorkingCopy(Lorg/eclipse/core/runtime/IProgressMonitor;Lorg/eclipse/jdt/core/IBufferFactory;Lorg/eclipse/jdt/core/IProblemRequestor;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+7
+r0 1 -1 
+r1 1 -3 
+$r5 1 7 
+$r2 1 2 
+r4 1 -2 
+r3 1 -4 
+_ret 1 7 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 4 -1 -2 2 -4 
+1 1 -3 
+Constructors: 0
+
+Summary: 5
+-2 2 -4 -1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.canBeRemovedFromCache()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+9 1 -1 
+Constructors: 0
+
+Summary: 1
+1 
+org/eclipse/jdt/internal/core/CompilationUnit.openBuffer(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;)Lorg/eclipse/jdt/core/IBuffer;
+PTG:
+Vars:
+24
+$r22 2 28 21 
+r2 2 28 21 
+$r12 1 144 
+$r6 1 210 
+r20 1 -2 
+r25 1 158 
+r1 1 4 
+$r17 1 73 
+r26 1 210 
+$r18 1 17 
+$r8 1 242 
+$r11 1 198 
+$r9 1 158 
+$r14 1 63 
+r4 1 107 
+$r13 1 58 
+$r15 1 63 
+$r5 1 122 
+r23 1 58 
+$r16 1 70 
+$r10 1 183 
+r0 1 -1 
+r21 1 -3 
+_ret 2 28 21 
+Fields: 1
+-1 owner 17
+Accesses: 1
+16 1 -1 
+Functions: 25
+0 2 -1 17 
+259 4 -1 17 21 28 
+196 1 158 
+5 2 -1 17 
+69 2 -1 17 
+201 3 21 198 28 
+76 4 70 73 58 63 
+142 1 58 
+17 2 -1 17 
+209 2 -1 17 
+149 3 144 21 28 
+27 2 -1 17 
+157 2 -1 17 
+223 1 210 
+102 3 -1 17 4 
+233 2 -1 17 
+171 1 158 
+240 1 210 
+51 2 -1 17 
+245 3 242 21 28 
+120 2 21 28 
+58 1 58 
+186 3 21 183 28 
+253 3 4 21 28 
+62 2 -1 17 
+Constructors: 1
+76 58
+
+Summary: 5
+1 -3 -2 122 0 
+org/eclipse/jdt/internal/core/CompilationUnit.getCorrespondingResource()Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 4 
+$r2 1 19 
+_ret 1 19 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+18 1 -1 
+9 1 4 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.getSharedWorkingCopy(Lorg/eclipse/core/runtime/IProgressMonitor;Lorg/eclipse/jdt/core/IBufferFactory;Lorg/eclipse/jdt/core/IProblemRequestor;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+8
+$r1 1 14 
+$r5 1 5 
+r2 1 -4 
+$r4 1 19 
+r0 1 -1 
+r3 1 -2 
+r6 2 11 -3 
+_ret 1 19 
+Fields: 0
+Accesses: 0
+Functions: 4
+4 1 -1 
+5 1 5 
+12 4 -1 -2 -4 14 
+13 2 -3 11 
+Constructors: 0
+
+Summary: 7
+-2 11 14 -4 -1 5 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.isConsistent()Z
+PTG:
+Vars:
+3
+r2 1 -1 
+$r1 1 3 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+0 1 0 
+3 2 -1 3 
+Constructors: 0
+
+Summary: 3
+3 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.commitWorkingCopy(ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+3
+$r0 1 0 
+r1 1 -1 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 2 0 -1 
+12 2 0 -3 
+Constructors: 1
+6 0
+
+Summary: 3
+-1 0 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.delete(ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+4
+$r0 1 1 
+r1 1 -1 
+r4 1 -3 
+$r3 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 3 1 -3 10 
+9 1 -1 
+Constructors: 0
+
+Summary: 3
+10 1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.findPrimaryType()Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+4
+r2 1 7 
+$r1 1 1 
+r3 1 13 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+1 1 1 
+8 2 -1 7 
+14 1 13 
+Constructors: 0
+
+Summary: 3
+7 -1 1 
+org/eclipse/jdt/internal/core/CompilationUnit.reconcile(ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+13 2 -1 -3 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.copy(Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/core/IJavaElement;Ljava/lang/String;ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+10
+r0 1 -2 
+$r7 1 56 
+$r9 1 46 
+r12 1 -3 
+$r1 1 16 
+r13 1 46 
+r2 1 -1 
+$r4 1 26 
+r6 1 -4 
+r8 1 -6 
+Fields: 0
+Accesses: 0
+Functions: 3
+70 5 16 -6 56 26 46 
+55 1 -1 
+11 0 
+Constructors: 0
+
+Summary: 6
+-6 56 16 46 26 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.createType(Ljava/lang/String;Lorg/eclipse/jdt/core/IJavaElement;ZLorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+22
+$r12 1 52 
+$r13 1 57 
+$r9 1 88 
+r2 1 -3 
+r17 1 8 
+$r21 1 106 
+$r7 1 8 
+r3 1 -5 
+$r8 1 81 
+$r5 1 141 
+$r10 1 32 
+$r6 1 141 
+$r11 1 40 
+$r14 1 63 
+$r15 1 68 
+$r16 1 73 
+r19 1 38 
+$r4 1 137 
+r0 1 -1 
+r1 1 -2 
+r18 2 79 18 
+_ret 1 141 
+Fields: 2
+137 ArrayObject 141
+-1 name 88
+Accesses: 1
+87 1 -1 
+Functions: 18
+0 2 -1 88 
+32 1 32 
+68 2 68 38 
+132 2 -5 106 
+7 2 -1 88 
+103 2 81 -5 
+135 1 106 
+40 2 52 40 
+73 1 73 
+47 1 40 
+113 4 -1 -2 88 106 
+50 1 8 
+20 1 8 
+57 1 57 
+125 2 -3 106 
+94 5 81 18 8 88 79 
+31 2 -1 88 
+63 2 38 63 
+Constructors: 3
+113 106
+94 81
+47 40
+
+Summary: 16
+106 79 38 63 -1 -5 -3 81 -2 52 137 32 68 57 73 8 
+org/eclipse/jdt/internal/core/CompilationUnit.getWorkingCopy(Lorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/jdt/core/IProblemRequestor;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/ICompilationUnit;
+PTG:
+Vars:
+12
+r0 1 -1 
+$r4 1 19 
+r10 1 -3 
+r8 1 45 
+$r3 1 19 
+r1 1 12 
+$r5 1 26 
+r6 1 -2 
+r12 1 -4 
+$r2 1 14 
+$r9 1 58 
+_ret 1 14 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -1 
+65 3 -3 58 14 
+18 1 -1 
+35 2 12 14 
+52 1 45 
+9 0 
+25 1 -1 
+73 2 -4 58 
+30 4 -2 19 26 14 
+Constructors: 2
+65 58
+30 14
+
+Summary: 8
+-2 45 -4 58 19 26 -3 12 
+org/eclipse/jdt/internal/core/CompilationUnit.buildStructure(Lorg/eclipse/jdt/internal/core/OpenableElementInfo;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/util/Map;Lorg/eclipse/core/resources/IResource;)Z
+PTG:
+Vars:
+37
+r1 1 -2 
+r4 1 14 
+r40 1 101 
+r6 1 -4 
+$r22 1 391 
+$r54 1 156 
+$r49 1 156 
+$r25 2 -5 314 
+$r55 1 441 
+r2 1 -1 
+$r53 1 29 
+$r24 1 441 
+$r50 1 211 
+$r52 1 355 
+$r17 1 -2 
+$r48 1 29 
+$r3 1 7 
+r16 1 -3 
+$r32 1 138 
+$r26 1 291 
+r39 1 -2 
+r43 3 518 504 382 
+r45 1 399 
+r15 1 343 
+$r21 1 369 
+$r51 1 203 
+$r19 1 491 
+r46 1 406 
+r0 1 -2 
+r47 1 550 
+r11 2 179 170 
+r9 1 52 
+$r42 2 179 170 
+r38 2 -5 314 
+$r23 1 406 
+$r18 1 -2 
+r8 1 46 
+Fields: 5
+-2 problems 101
+203 javadocParser 291
+406 ArrayObject 441
+-1 owner 369
+-1 owner 491
+Accesses: 13
+96 1 -2 
+289 1 203 
+67 1 -2 
+295 1 291 
+490 1 -1 
+333 1 -2 
+302 1 29 
+526 1 -2 
+558 1 -2 
+368 1 -1 
+82 1 -2 
+248 1 203 
+89 1 -2 
+Functions: 36
+-1 0 
+386 1 46 
+197 2 179 170 
+325 2 -5 314 
+389 1 355 
+6 3 -1 369 491 
+7 4 -1 369 7 491 
+391 1 391 
+455 1 399 
+136 1 52 
+138 1 138 
+586 3 518 504 382 
+589 2 -2 101 
+271 2 291 203 
+339 3 -1 369 491 
+404 1 399 
+472 1 46 
+25 6 -1 369 -2 -3 101 491 
+217 3 211 179 170 
+160 1 156 
+480 1 46 
+546 7 -3 179 518 343 504 170 382 
+37 7 -1 369 -2 -4 101 491 29 
+231 5 291 211 203 156 29 
+359 1 355 
+42 3 -1 369 491 
+48 3 -1 369 491 
+176 1 52 
+500 6 -3 291 101 343 203 491 
+310 3 -1 369 491 
+378 6 369 -3 291 355 343 203 
+442 2 441 46 
+123 1 46 
+509 4 -3 291 343 203 
+573 3 518 504 382 
+254 2 291 203 
+Constructors: 5
+160 156
+37 29
+231 203
+359 355
+217 211
+
+Summary: 16
+1 2 -4 355 382 0 29 -5 -3 156 -2 101 14 504 3 211 
+org/eclipse/jdt/internal/core/CompilationUnit.getMainTypeName()[C
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r3 1 7 
+$r2 1 4 
+_ret 1 7 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+1 1 1 
+4 1 4 
+Constructors: 0
+
+Summary: 3
+4 -1 1 
+org/eclipse/jdt/internal/core/CompilationUnit.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/CompilationUnit.codeComplete(ILorg/eclipse/jdt/core/ICodeCompletionRequestor;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+r0 1 -3 
+$r4 1 13 
+$r3 1 13 
+Fields: 0
+Accesses: 0
+Functions: 3
+19 3 -1 -3 13 
+22 2 -1 13 
+7 1 -1 
+Constructors: 1
+19 13
+
+Summary: 3
+13 -1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.isWorkingCopy()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+7 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.move(Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/core/IJavaElement;Ljava/lang/String;ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+10
+$r9 1 46 
+r6 1 -4 
+r8 1 -6 
+$r1 1 16 
+r13 1 46 
+$r7 1 56 
+$r4 1 26 
+r2 1 -1 
+r0 1 -2 
+r12 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+70 5 16 -6 56 26 46 
+55 1 -1 
+11 0 
+Constructors: 0
+
+Summary: 6
+-6 56 16 46 26 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.getHandleMementoDelimiter()C
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.restore()V
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 20 
+r2 1 9 
+$r1 1 9 
+$r4 1 28 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -1 
+16 1 -1 
+38 2 -1 9 
+8 1 -1 
+27 1 9 
+43 1 -1 
+31 2 20 28 
+Constructors: 0
+
+Summary: 4
+20 28 9 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.becomeWorkingCopy(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+5
+$r2 1 1 
+$r5 1 16 
+r4 1 -2 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 owner 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+23 4 -1 16 1 -2 
+12 2 -1 1 
+Constructors: 0
+
+Summary: 3
+-2 16 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.createPackageDeclaration(Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/IPackageDeclaration;
+PTG:
+Vars:
+6
+$r0 1 0 
+$r5 1 17 
+r4 1 -3 
+r2 1 -1 
+r1 1 -2 
+_ret 1 17 
+Fields: 0
+Accesses: 0
+Functions: 3
+6 3 0 -1 -2 
+12 2 0 -3 
+15 2 -1 -2 
+Constructors: 1
+6 0
+
+Summary: 4
+-2 -1 0 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.destroy()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+15 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.codeComplete(ILorg/eclipse/jdt/core/CompletionRequestor;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+4
+r1 1 -3 
+r2 1 -4 
+$r3 1 3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 4 -1 -3 3 -4 
+Constructors: 0
+
+Summary: 3
+-4 -1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.<init>(Lorg/eclipse/jdt/internal/core/PackageFragment;Ljava/lang/String;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+Fields: 0
+Accesses: 2
+7 1 -1 
+12 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 5
+-2 1 2 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.findSharedWorkingCopy(Lorg/eclipse/jdt/core/IBufferFactory;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+6
+r4 2 -2 11 
+$r3 1 5 
+$r1 1 14 
+r0 1 -1 
+$r2 1 17 
+_ret 1 17 
+Fields: 0
+Accesses: 0
+Functions: 4
+4 1 -1 
+5 1 5 
+12 2 -1 14 
+13 2 -2 11 
+Constructors: 0
+
+Summary: 5
+-2 11 14 -1 5 
+org/eclipse/jdt/internal/core/CompilationUnit.closing(Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+9 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnit.getTypes()[Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+4
+r1 1 6 
+r2 1 11 
+r0 1 -1 
+_ret 1 11 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+17 2 6 11 
+7 1 6 
+Constructors: 0
+
+Summary: 1
+6 
+org/eclipse/jdt/internal/core/CompilationUnit.createImport(Ljava/lang/String;Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/IImportDeclaration;
+PTG:
+Vars:
+6
+r1 1 -2 
+r3 1 -4 
+r0 1 -1 
+$r4 1 5 
+r2 1 -3 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 4
+-2 -4 -1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.openAncestors(Ljava/util/HashMap;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+10 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.save(Lorg/eclipse/core/runtime/IProgressMonitor;Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+18 2 -1 -2 
+8 1 -1 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/jdt/internal/core/CompilationUnit.getCompilationUnit()Lorg/eclipse/jdt/core/ICompilationUnit;
+PTG:
+Vars:
+2
+r0 1 -1 
+_ret 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/CompilationUnit.findElements(Lorg/eclipse/jdt/core/IJavaElement;)[Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+26
+$r6 1 153 
+$r28 10 263 281 299 143 161 222 240 327 130 -1 
+$r12 1 309 
+$r14 1 317 
+$r5 10 263 281 299 143 161 222 240 327 130 -1 
+r25 10 263 281 299 143 161 222 240 327 130 -1 
+$r20 1 232 
+$r3 1 60 
+$r7 10 263 281 299 143 161 222 240 327 130 -1 
+$r26 1 0 
+$r13 1 60 
+$r21 10 263 281 299 143 161 222 240 327 130 -1 
+$r18 1 250 
+r24 2 -2 23 
+$r27 10 263 281 299 143 161 222 240 327 130 -1 
+$r19 10 263 281 299 143 161 222 240 327 130 -1 
+$r8 10 263 281 299 143 161 222 240 327 130 -1 
+r2 1 -1 
+$r15 10 263 281 299 143 161 222 240 327 130 -1 
+$r17 10 263 281 299 143 161 222 240 327 130 -1 
+$r22 1 214 
+$r9 1 122 
+$r16 1 291 
+r4 1 60 
+$r10 10 263 281 299 143 161 222 240 327 130 -1 
+$r11 10 263 281 299 143 161 222 240 327 130 -1 
+Fields: 0
+Accesses: 2
+253 1 60 
+271 1 60 
+Functions: 26
+4 1 0 
+68 1 60 
+135 10 240 -1 161 130 263 327 281 299 222 143 
+268 10 240 -1 161 130 263 327 281 299 222 143 
+13 3 0 -2 23 
+17 2 -2 23 
+209 11 240 -1 161 130 214 263 327 281 299 222 143 
+148 11 240 -1 161 130 263 327 281 153 299 222 143 
+212 1 60 
+340 10 240 -1 161 130 263 327 281 299 222 143 
+151 1 60 
+28 2 -2 23 
+286 11 240 -1 161 130 291 263 327 281 299 222 143 
+289 1 60 
+227 11 240 -1 161 130 263 327 232 281 299 222 143 
+165 10 240 -1 161 130 263 327 281 299 222 143 
+230 1 60 
+46 1 0 
+304 12 240 -1 161 130 309 263 327 281 299 317 222 143 
+307 1 60 
+117 11 240 -1 161 130 263 327 281 122 299 222 143 
+245 11 240 -1 161 130 263 327 281 250 299 222 143 
+120 1 60 
+248 1 60 
+57 1 0 
+314 1 60 
+Constructors: 1
+4 0
+
+Summary: 21
+143 161 0 -2 214 232 250 263 281 299 317 60 222 240 122 291 309 327 153 130 23 
+org/eclipse/jdt/internal/core/CompilationUnit.getWorkingCopy()Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+3
+$r1 1 2 
+r0 1 -1 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.createImport(Ljava/lang/String;Lorg/eclipse/jdt/core/IJavaElement;ILorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/IImportDeclaration;
+PTG:
+Vars:
+7
+$r0 1 0 
+r5 1 -5 
+r2 1 -1 
+r4 1 -3 
+$r6 1 31 
+r1 1 -2 
+_ret 1 31 
+Fields: 0
+Accesses: 0
+Functions: 4
+19 2 0 -3 
+7 3 0 -1 -2 
+26 2 0 -5 
+29 2 -1 -2 
+Constructors: 1
+7 0
+
+Summary: 5
+-2 -1 -5 0 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.hasBuffer()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnit.codeComplete(ILorg/eclipse/jdt/core/CompletionRequestor;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -4 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 3 -1 -3 -4 
+Constructors: 0
+
+Summary: 3
+-4 -1 -3 
+org/eclipse/jdt/internal/core/CompilationUnit.canBufferBeRemovedFromCache(Lorg/eclipse/jdt/core/IBuffer;)Z
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+9 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 1 

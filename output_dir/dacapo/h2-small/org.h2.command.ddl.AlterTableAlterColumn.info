@@ -1,0 +1,815 @@
+17
+org/h2/command/ddl/AlterTableAlterColumn.copyData()V
+PTG:
+Vars:
+110
+r4 1 19 
+r123 3 1055 1157 1107 
+r110 1 572 
+$r58 1 681 
+$r56 1 673 
+$r60 1 709 
+r114 1 794 
+r85 1 56 
+r93 1 287 
+$r41 1 1141 
+$r76 1 111 
+$r75 1 184 
+$r13 1 21 
+r104 1 495 
+$r14 1 483 
+r6 1 27 
+$r86 1 198 
+$r3 1 1 
+$r26 1 21 
+r121 1 969 
+$r16 1 1 
+$r20 1 21 
+r112 1 687 
+r124 1 969 
+r116 1 822 
+$r66 1 349 
+$r38 1 1122 
+$r34 1 1019 
+$r94 1 21 
+$r92 1 279 
+$r64 1 610 
+$r25 1 915 
+$r30 1 1 
+r122 1 997 
+r106 1 509 
+$r5 1 21 
+$r21 1 552 
+r107 1 535 
+r101 1 349 
+r19 1 546 
+r113 2 734 752 
+$r1 1 1 
+$r55 1 668 
+$r95 1 295 
+$r79 1 132 
+$r42 1 1 
+r59 1 572 
+r105 1 502 
+$r40 1 1133 
+$r69 2 184 145 
+$r89 1 21 
+$r62 1 723 
+$r28 1 925 
+$r47 1 1 
+$r103 2 413 406 
+$r22 1 21 
+$r24 1 906 
+r119 1 885 
+$r51 1 21 
+$r61 1 21 
+r102 1 397 
+$r23 1 21 
+$r32 1 969 
+$r125 1 1 
+$r33 1 1006 
+$r12 1 476 
+$r99 1 321 
+r118 1 871 
+$r36 1 1032 
+r117 1 837 
+$r44 1 1 
+r115 1 808 
+$r43 1 1074 
+$r80 1 145 
+$r39 1 1 
+$r49 1 822 
+$r81 1 83 
+$r46 1 1093 
+$r18 1 535 
+$r53 1 655 
+$r77 1 111 
+r120 1 955 
+$r67 1 427 
+$r48 1 885 
+$r17 1 1 
+r100 1 335 
+r108 1 558 
+$r35 1 1027 
+$r50 1 1 
+r111 1 631 
+$r90 1 21 
+$r96 1 301 
+$r78 1 21 
+$r73 1 163 
+$r98 1 314 
+$r37 1 1035 
+r7 1 31 
+$r88 1 21 
+r2 1 7 
+r109 1 572 
+$r57 1 678 
+$r27 1 922 
+$r83 1 62 
+r0 1 -1 
+$r54 1 663 
+$r29 1 928 
+$r45 1 1085 
+$r91 1 1 
+$r52 1 572 
+$r31 1 949 
+Fields: 8
+27 ArrayObject 56
+-1 table 21
+-1 oldColumn 83
+-1 oldColumn 163
+-1 addBefore 111
+-1 session 1
+-1 newColumn 184
+-1 newColumn 145
+Accesses: 44
+0 1 -1 
+128 1 -1 
+385 1 -1 
+513 1 -1 
+260 1 198 
+712 1 -1 
+1160 1 -1 
+9 1 -1 
+74 1 -1 
+266 1 198 
+1098 1 -1 
+844 1 -1 
+271 1 -1 
+144 1 -1 
+848 1 -1 
+529 1 -1 
+82 1 -1 
+210 1 198 
+275 1 198 
+787 1 -1 
+20 1 -1 
+918 1 -1 
+217 1 198 
+154 1 -1 
+796 1 -1 
+479 1 -1 
+224 1 198 
+162 1 -1 
+291 1 -1 
+548 1 -1 
+229 1 -1 
+102 1 -1 
+1127 1 -1 
+936 1 -1 
+236 1 198 
+110 1 -1 
+241 1 -1 
+183 1 -1 
+375 1 -1 
+1079 1 -1 
+248 1 198 
+1146 1 -1 
+124 1 -1 
+253 1 -1 
+Functions: 115
+1 1 1 
+771 3 752 546 734 
+1027 1 1027 
+517 2 1 287 
+8 1 7 
+1032 1 1032 
+10 1 1 
+524 9 -1 1 145 83 163 21 184 111 495 
+781 10 -1 752 1 145 83 163 21 184 734 111 
+527 3 1 502 509 
+788 1 21 
+1044 1 997 
+21 1 21 
+278 8 -1 1 145 83 163 21 184 111 
+1046 1 19 
+279 2 198 279 
+28 0 
+543 0 
+800 1 21 
+803 1 31 
+292 1 21 
+549 1 21 
+552 1 552 
+298 2 295 287 
+810 1 808 
+560 1 558 
+1072 1 969 
+305 1 301 
+1074 5 1 1074 1107 1157 1055 
+820 1 808 
+312 1 287 
+570 1 558 
+60 1 56 
+317 2 314 301 
+832 1 822 
+65 2 62 31 
+1091 1 969 
+325 1 321 
+1093 3 1 1093 535 
+330 1 31 
+337 1 335 
+83 1 83 
+854 3 1 21 837 
+347 1 335 
+860 1 822 
+95 1 31 
+608 1 572 
+1120 1 969 
+610 1 610 
+866 1 546 
+1122 5 1 1122 1107 1157 1055 
+359 1 321 
+873 1 871 
+624 1 572 
+371 1 321 
+883 1 871 
+1139 1 969 
+1141 6 1 1107 1141 1157 535 1055 
+125 2 21 111 
+641 1 572 
+899 9 -1 1 145 83 163 21 885 184 111 
+132 1 132 
+392 1 349 
+906 1 906 
+651 0 
+910 1 906 
+655 2 19 655 
+1168 6 1 1107 1157 7 969 1055 
+659 1 655 
+915 2 915 922 
+148 2 145 31 
+663 1 663 
+919 1 21 
+411 1 397 
+668 2 673 668 
+925 1 925 
+671 1 572 
+416 3 321 406 413 
+163 1 163 
+932 9 -1 928 1 145 83 163 21 184 111 
+678 1 678 
+425 1 349 
+681 1 681 
+430 2 321 427 
+175 1 31 
+944 4 1 7 535 794 
+947 1 535 
+949 1 949 
+441 1 301 
+187 2 184 31 
+445 1 321 
+957 1 955 
+190 1 7 
+707 1 572 
+967 1 955 
+457 1 301 
+202 1 198 
+719 4 723 535 572 687 
+721 1 572 
+468 2 321 301 
+472 1 301 
+990 1 969 
+480 1 21 
+741 3 535 572 687 
+230 1 21 
+486 2 483 476 
+490 1 301 
+1004 1 969 
+497 1 287 
+242 1 21 
+504 1 287 
+1017 2 997 1035 
+1019 2 19 1019 
+254 1 21 
+1023 1 1019 
+Constructors: 6
+305 301
+659 655
+325 321
+202 198
+910 906
+1023 1019
+
+Summary: 2
+-1 198 
+org/h2/command/ddl/AlterTableAlterColumn.setDefaultExpression(Lorg/h2/expression/Expression;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/command/ddl/AlterTableAlterColumn.checkNoNullValues()V
+PTG:
+Vars:
+17
+$r4 1 16 
+$r8 1 31 
+r2 1 -1 
+$r9 1 34 
+$r10 1 39 
+$r6 1 24 
+$r15 1 67 
+r14 1 60 
+$r12 1 47 
+$r1 1 9 
+r11 1 45 
+$r0 1 0 
+r13 1 54 
+$r5 1 19 
+$r16 1 71 
+$r3 1 13 
+$r7 1 28 
+Fields: 4
+67 ArrayObject 71
+-1 table 13
+-1 oldColumn 28
+-1 session 47
+Accesses: 4
+80 1 -1 
+27 1 -1 
+12 1 -1 
+46 1 -1 
+Functions: 16
+0 1 0 
+34 1 34 
+66 1 60 
+4 1 0 
+39 1 39 
+71 1 71 
+9 2 16 9 
+13 1 13 
+47 2 45 47 
+81 0 
+19 1 19 
+84 0 
+55 1 54 
+24 2 24 31 
+28 1 28 
+62 1 60 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAlterColumn.checkNoViews()V
+PTG:
+Vars:
+6
+r3 1 10 
+$r2 1 4 
+r0 1 -1 
+r5 1 21 
+$r4 1 21 
+$r1 1 1 
+Fields: 1
+-1 table 1
+Accesses: 2
+0 1 -1 
+47 1 -1 
+Functions: 8
+48 0 
+1 1 1 
+4 1 4 
+20 1 10 
+57 1 21 
+42 0 
+11 1 10 
+30 1 21 
+Constructors: 0
+
+Summary: 2
+42 -1 
+org/h2/command/ddl/AlterTableAlterColumn.removeSequence(Lorg/h2/schema/Sequence;)V
+PTG:
+Vars:
+7
+$r2 1 9 
+$r6 1 9 
+r1 1 -1 
+r0 1 -2 
+$r4 1 9 
+r5 1 28 
+$r3 1 5 
+Fields: 2
+-1 table 5
+-1 session 9
+Accesses: 4
+4 1 -1 
+21 1 -1 
+8 1 -1 
+30 1 -1 
+Functions: 4
+18 1 -2 
+35 3 -2 9 28 
+22 1 9 
+13 3 -2 5 9 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/command/ddl/AlterTableAlterColumn.setSelectivity(Lorg/h2/expression/Expression;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/command/ddl/AlterTableAlterColumn.<init>(Lorg/h2/engine/Session;Lorg/h2/schema/Schema;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -1 -2 -3 
+Constructors: 1
+3 -1
+
+Summary: 5
+1 -2 0 -1 -3 
+org/h2/command/ddl/AlterTableAlterColumn.setOldColumn(Lorg/h2/table/Column;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/command/ddl/AlterTableAlterColumn.checkNullable()V
+PTG:
+Vars:
+8
+$r4 1 21 
+r3 1 10 
+$r6 1 32 
+$r2 1 4 
+$r1 1 1 
+r0 1 -1 
+r7 1 52 
+r5 1 21 
+Fields: 2
+-1 table 1
+-1 oldColumn 32
+Accesses: 2
+0 1 -1 
+31 1 -1 
+Functions: 10
+1 1 1 
+4 1 4 
+20 1 10 
+53 1 52 
+69 1 21 
+70 0 
+11 1 10 
+60 1 52 
+30 2 32 21 
+46 1 21 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAlterColumn.update()I
+PTG:
+Vars:
+53
+$r30 1 1 
+$r32 1 53 
+$r2 1 1 
+$r23 1 53 
+$r1 1 1 
+$r33 1 53 
+$r51 1 452 
+$r40 1 53 
+$r31 1 53 
+$r48 1 53 
+$r29 1 53 
+$r9 1 24 
+$r15 1 415 
+$r11 1 53 
+$r50 1 1 
+$r53 1 468 
+$r18 1 53 
+$r49 1 24 
+$r20 1 1 
+$r19 1 24 
+r3 1 15 
+$r35 1 282 
+$r54 1 471 
+$r21 1 24 
+$r16 1 1 
+$r14 1 408 
+$r13 1 1 
+$r24 1 24 
+$r6 1 24 
+$r34 1 53 
+$r57 1 282 
+$r47 1 53 
+$r44 1 53 
+$r7 1 24 
+$r38 1 213 
+$r39 1 1 
+r0 1 -1 
+$r36 1 282 
+$r28 1 343 
+$r22 1 364 
+$r52 1 461 
+$r5 1 20 
+$r8 1 1 
+$r46 1 1 
+$r42 1 1 
+$r17 1 422 
+$r45 1 24 
+$r41 1 24 
+$r4 1 1 
+$r43 1 53 
+$r10 1 53 
+$r37 1 53 
+$r56 1 67 
+Fields: 7
+-1 newSelectivity 408
+-1 table 24
+-1 oldColumn 53
+-1 session 1
+-1 newColumn 343
+-1 newColumn 282
+-1 defaultExpression 213
+Accesses: 45
+0 1 -1 
+385 1 -1 
+323 1 -1 
+196 1 -1 
+133 1 -1 
+389 1 -1 
+71 1 -1 
+263 1 -1 
+8 1 -1 
+204 1 -1 
+142 1 -1 
+271 1 -1 
+16 1 -1 
+208 1 -1 
+464 1 -1 
+146 1 -1 
+212 1 -1 
+342 1 -1 
+23 1 -1 
+407 1 -1 
+281 1 -1 
+411 1 -1 
+156 1 -1 
+32 1 -1 
+225 1 -1 
+418 1 -1 
+229 1 -1 
+39 1 -1 
+360 1 -1 
+298 1 -1 
+43 1 -1 
+173 1 -1 
+429 1 -1 
+243 1 -1 
+52 1 -1 
+116 1 -1 
+308 1 -1 
+182 1 -1 
+374 1 -1 
+438 1 -1 
+186 1 -1 
+442 1 -1 
+251 1 -1 
+63 1 -1 
+255 1 -1 
+Functions: 51
+130 8 -1 1 53 213 343 408 24 282 
+260 2 1 53 
+5 1 1 
+9 1 1 
+393 2 53 24 
+138 1 53 
+268 1 53 
+397 8 -1 1 53 213 343 408 24 282 
+272 1 53 
+17 1 1 
+401 8 -1 1 53 213 343 408 24 282 
+150 3 1 24 15 
+408 2 1 408 
+282 1 282 
+29 2 20 24 
+157 1 53 
+415 2 1 415 
+36 1 24 
+292 8 -1 1 53 213 343 408 24 282 
+422 1 422 
+170 8 -1 1 53 213 343 408 24 282 
+299 1 53 
+49 2 1 24 
+178 1 53 
+434 1 53 
+309 1 282 
+190 3 1 24 15 
+446 3 1 24 15 
+319 8 -1 1 53 213 343 408 24 282 
+64 1 53 
+452 1 452 
+327 8 -1 1 53 213 343 408 24 282 
+456 1 452 
+201 1 53 
+331 8 -1 1 53 213 343 408 24 282 
+461 1 461 
+338 8 -1 1 53 213 343 408 24 282 
+468 1 468 
+216 3 1 53 213 
+346 8 -1 1 53 213 343 408 24 282 
+474 1 471 
+221 9 -1 1 67 53 213 343 408 24 282 
+350 8 -1 1 53 213 343 408 24 282 
+357 8 -1 1 53 213 343 408 24 282 
+233 3 1 24 15 
+361 1 24 
+240 8 -1 1 53 213 343 408 24 282 
+117 1 53 
+375 0 
+248 1 53 
+378 0 
+Constructors: 1
+456 452
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAlterColumn.dropSingleColumnIndexes()V
+PTG:
+Vars:
+13
+r15 2 15 150 
+$r10 1 9 
+r5 1 28 
+$r6 1 38 
+r2 1 7 
+r0 1 -1 
+$r1 1 1 
+$r3 1 9 
+r7 1 59 
+$r9 1 1 
+r11 1 85 
+$r4 1 28 
+$r12 1 90 
+Fields: 4
+59 ArrayObject 85
+-1 table 9
+-1 oldColumn 90
+-1 session 1
+Accesses: 5
+0 1 -1 
+134 1 -1 
+8 1 -1 
+89 1 -1 
+143 1 -1 
+Functions: 10
+144 1 9 
+1 1 1 
+113 0 
+19 2 150 15 
+36 1 28 
+52 1 28 
+9 1 9 
+26 2 150 15 
+140 3 1 7 28 
+111 1 28 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAlterColumn.setType(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAlterColumn.setAddBefore(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/command/ddl/AlterTableAlterColumn.execute(Ljava/lang/String;Z)V
+PTG:
+Vars:
+7
+r1 1 -2 
+$r2 1 1 
+$r5 1 22 
+r0 1 -1 
+$r4 1 1 
+r3 1 8 
+$r6 1 1 
+Fields: 1
+-1 session 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+31 1 -1 
+Functions: 5
+1 2 1 -2 
+19 1 1 
+36 1 1 
+22 1 22 
+10 1 8 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/command/ddl/AlterTableAlterColumn.convertAutoIncrementColumn(Lorg/h2/table/Column;)V
+PTG:
+Vars:
+5
+r1 1 -1 
+r0 1 -2 
+$r2 1 32 
+$r3 1 36 
+$r4 1 41 
+Fields: 2
+-1 table 41
+-1 session 32
+Accesses: 2
+40 1 -1 
+31 1 -1 
+Functions: 7
+0 1 -2 
+17 1 -2 
+35 3 -1 32 41 
+7 1 -2 
+23 3 -1 32 41 
+41 1 41 
+47 3 32 -2 36 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/command/ddl/AlterTableAlterColumn.setNewColumn(Lorg/h2/table/Column;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/command/ddl/AlterTableAlterColumn.setTable(Lorg/h2/table/Table;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 

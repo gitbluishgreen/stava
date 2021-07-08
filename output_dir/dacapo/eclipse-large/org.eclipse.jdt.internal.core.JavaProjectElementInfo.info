@@ -1,0 +1,393 @@
+11
+org/eclipse/jdt/internal/core/JavaProjectElementInfo.getNonJavaResources(Lorg/eclipse/jdt/internal/core/JavaProject;)[Ljava/lang/Object;
+PTG:
+Vars:
+6
+$r2 1 1 
+$r4 1 10 
+r0 1 -1 
+r3 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 nonJavaResources 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+13 1 -1 
+Functions: 1
+8 3 -1 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/JavaProjectElementInfo.getProjectCache(Lorg/eclipse/jdt/internal/core/JavaProject;)Lorg/eclipse/jdt/internal/core/JavaProjectElementInfo$ProjectCache;
+PTG:
+Vars:
+21
+r6 1 51 
+$r5 1 45 
+$r15 1 134 
+r12 1 92 
+$r19 1 171 
+r22 2 25 31 
+$r4 1 42 
+$r18 1 107 
+$r14 1 124 
+r0 1 -1 
+r23 2 81 81 
+$r13 1 124 
+$r7 1 53 
+$r10 1 87 
+$r20 1 -1 
+$r1 1 9 
+r9 1 69 
+r3 1 -2 
+r21 2 4 171 
+$r11 1 92 
+_ret 2 4 171 
+Fields: 6
+45 roots 51
+25 ArrayObject 81
+42 deltaState 45
+-1 projectCache 4
+92 project 107
+31 ArrayObject 81
+Accesses: 5
+0 1 -1 
+105 1 92 
+42 1 42 
+186 1 -1 
+45 1 45 
+Functions: 14
+-1 0 
+66 0 
+37 1 9 
+138 1 134 
+107 2 -2 107 
+14 1 9 
+19 2 -2 9 
+83 2 51 87 
+148 4 -1 4 134 124 
+180 6 81 53 25 9 171 31 
+85 1 81 
+120 2 81 69 
+57 1 53 
+157 3 53 134 124 
+Constructors: 4
+180 171
+57 53
+138 134
+14 9
+
+Summary: 15
+-2 25 51 0 134 45 53 107 42 69 87 -1 31 92 9 
+org/eclipse/jdt/internal/core/JavaProjectElementInfo.initializePackageNames(Lorg/eclipse/jdt/core/IPackageFragmentRoot;Lorg/eclipse/jdt/internal/core/util/HashSetOfArray;)V
+PTG:
+Vars:
+13
+$r16 1 33 
+$r6 1 -2 
+$r3 1 94 
+$r7 1 -2 
+$r2 1 94 
+r1 1 -3 
+r10 1 -1 
+$r8 1 52 
+r0 1 -2 
+$r15 1 23 
+$r12 2 23 33 
+$r4 1 98 
+r14 2 74 64 
+Fields: 5
+23 children 64
+74 ArrayObject 94
+64 ArrayObject 94
+33 children 64
+94 names 98
+Accesses: 2
+59 2 33 23 
+95 1 94 
+Functions: 8
+49 1 -2 
+68 1 -2 
+5 1 -2 
+37 4 64 33 98 94 
+101 2 -3 98 
+55 7 64 -2 33 98 52 23 94 
+27 4 64 98 23 94 
+14 1 -2 
+Constructors: 2
+37 33
+27 23
+
+Summary: 8
+23 -3 52 74 -1 64 1 33 
+org/eclipse/jdt/internal/core/JavaProjectElementInfo.newNameLookup(Lorg/eclipse/jdt/internal/core/JavaProject;[Lorg/eclipse/jdt/core/ICompilationUnit;)Lorg/eclipse/jdt/internal/core/NameLookup;
+PTG:
+Vars:
+37
+$r28 1 218 
+$r6 1 10 
+r10 1 26 
+$r3 1 363 
+r11 1 32 
+r21 1 197 
+$r8 1 17 
+$r30 1 158 
+$r15 1 70 
+r40 1 218 
+r37 3 109 158 143 
+$r9 1 20 
+r38 1 127 
+$r7 1 32 
+$r33 1 -1 
+r0 1 -1 
+$r14 1 65 
+$r19 1 143 
+$r18 1 138 
+$r5 1 377 
+r16 1 70 
+r22 1 218 
+r1 1 -2 
+$r32 1 109 
+$r24 1 227 
+$r31 1 104 
+r39 1 180 
+$r20 1 197 
+r13 1 59 
+r2 1 5 
+r4 1 -3 
+$r36 2 -2 89 
+$r27 1 266 
+$r25 1 308 
+r34 1 10 
+_ret 1 363 
+$r12 1 39 
+Fields: 13
+20 roots 26
+180 ArrayObject 197
+109 set 180
+70 project 89
+127 pkgFragmentsCaches 138
+32 ArrayObject 59
+5 allPkgFragmentRootsCache 32
+5 pkgFragmentsCaches 104
+5 allPkgFragmentsCache 10
+5 rootToResolvedEntries 377
+158 set 180
+17 deltaState 20
+143 set 180
+Accesses: 12
+17 1 17 
+371 1 5 
+20 1 20 
+6 1 5 
+87 1 70 
+103 1 5 
+136 1 127 
+360 1 5 
+376 1 5 
+28 1 5 
+175 3 109 158 143 
+367 1 5 
+Functions: 18
+0 2 -1 -2 
+-1 0 
+162 3 180 197 158 
+104 2 104 59 
+138 2 138 59 
+43 1 39 
+172 5 -1 180 197 59 158 
+333 3 308 197 39 
+239 3 197 39 59 
+211 2 197 39 
+247 2 197 39 
+122 2 -2 89 
+282 3 197 39 266 
+380 6 32 -3 377 10 363 59 
+61 2 65 26 
+317 2 308 218 
+94 2 -2 89 
+63 1 59 
+Constructors: 3
+162 158
+43 39
+380 363
+
+Summary: 21
+-3 377 70 127 158 17 138 1 180 266 32 143 20 109 5 104 0 26 10 65 -1 
+org/eclipse/jdt/internal/core/JavaProjectElementInfo.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProjectElementInfo.computeNonJavaResources(Lorg/eclipse/jdt/internal/core/JavaProject;)[Ljava/lang/Object;
+PTG:
+Vars:
+33
+r0 1 -2 
+r25 1 55 
+$r19 3 410 300 91 
+$r4 1 100 
+r10 1 145 
+r31 1 332 
+$r15 1 377 
+r17 1 204 
+$r21 1 38 
+r11 1 158 
+$r7 3 410 300 91 
+r27 1 71 
+r14 1 -1 
+$r20 1 216 
+r8 1 130 
+$r24 1 -1 
+$r23 1 -1 
+$r3 1 100 
+$r12 1 410 
+r2 1 9 
+$r1 1 1 
+$r16 1 352 
+$r22 1 38 
+r26 1 65 
+$r13 3 410 300 91 
+$r6 1 455 
+r5 1 111 
+r30 1 195 
+$r18 1 300 
+r28 1 38 
+r29 5 474 455 410 300 91 
+_ret 5 474 455 410 300 91 
+r9 1 139 
+Fields: 1
+111 ArrayObject 158
+Accesses: 0
+Functions: 29
+0 1 -2 
+1 1 1 
+67 1 -2 
+132 1 -2 
+197 1 158 
+325 1 158 
+73 2 71 9 
+141 1 -2 
+464 4 455 410 91 300 
+274 3 130 139 204 
+211 5 -1 145 195 71 216 
+214 1 158 
+342 3 65 55 158 
+350 1 158 
+160 1 158 
+33 2 -2 9 
+99 1 -2 
+419 3 410 91 300 
+103 1 100 
+359 3 352 130 139 
+49 1 38 
+242 3 130 139 204 
+372 5 -1 145 71 377 332 
+309 3 410 91 300 
+375 1 158 
+59 1 38 
+123 1 -2 
+188 1 158 
+254 3 65 55 158 
+Constructors: 0
+
+Summary: 20
+111 377 216 100 1 55 71 9 130 139 -2 332 145 0 352 65 195 204 -1 38 
+org/eclipse/jdt/internal/core/JavaProjectElementInfo.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/JavaProjectElementInfo.isClasspathEntryOrOutputLocation(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;[Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/core/runtime/IPath;)Z
+PTG:
+Vars:
+8
+r6 1 -3 
+r3 1 27 
+r1 1 -2 
+r2 1 -4 
+r0 1 -5 
+$r7 1 63 
+$r4 1 31 
+r9 1 -1 
+Fields: 1
+-4 ArrayObject 27
+Accesses: 0
+Functions: 6
+0 2 -2 -5 
+48 2 -3 31 
+74 2 -2 63 
+29 1 27 
+61 1 27 
+31 2 -2 31 
+Constructors: 0
+
+Summary: 11
+3 -3 -2 63 2 -5 0 31 -1 -4 1 
+org/eclipse/jdt/internal/core/JavaProjectElementInfo.setNonJavaResources([Ljava/lang/Object;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProjectElementInfo.addSuperPackageNames([Ljava/lang/String;Lorg/eclipse/jdt/internal/core/util/HashtableOfArrayToObject;)V
+PTG:
+Vars:
+6
+$r4 1 32 
+$r2 1 20 
+r6 2 20 -2 
+r0 1 -3 
+$r1 1 11 
+$r3 2 20 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+35 3 32 -3 20 
+8 3 -2 -3 20 
+27 2 -2 20 
+Constructors: 0
+
+Summary: 4
+11 -3 0 1 
+org/eclipse/jdt/internal/core/JavaProjectElementInfo.resetCaches()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

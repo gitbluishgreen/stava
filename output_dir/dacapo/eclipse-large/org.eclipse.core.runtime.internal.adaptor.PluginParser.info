@@ -1,0 +1,1008 @@
+33
+org/eclipse/core/runtime/internal/adaptor/PluginParser.replace(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+11
+$r5 1 35 
+r2 1 -4 
+$r6 1 42 
+r0 1 -2 
+$r8 1 54 
+r1 1 -3 
+r9 2 -2 60 
+$r4 1 32 
+_ret 2 -2 60 
+$r7 1 51 
+$r3 1 24 
+Fields: 0
+Accesses: 0
+Functions: 11
+32 1 32 
+2 1 -3 
+38 2 35 24 
+54 1 54 
+8 1 -4 
+24 2 -4 24 
+42 2 51 42 
+28 2 -2 60 
+45 2 -2 60 
+61 3 -2 -3 60 
+14 2 -2 -3 
+Constructors: 1
+38 24
+
+Summary: 8
+-3 54 51 60 32 42 35 -4 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.error(Lorg/xml/sax/SAXParseException;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.parsePluginAttributes(Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+12
+$r10 2 102 5 
+r0 1 -1 
+$r12 2 5 57 
+r7 1 43 
+$r2 1 1 
+r5 1 31 
+$r1 1 5 
+$r11 2 79 5 
+$r6 1 35 
+$r9 2 5 159 
+r4 1 -2 
+$r8 2 136 5 
+Fields: 2
+-1 objectStack 1
+-1 manifestInfo 5
+Accesses: 7
+0 1 -1 
+4 1 -1 
+101 1 -1 
+135 1 -1 
+56 1 -1 
+78 1 -1 
+158 1 -1 
+Functions: 16
+33 1 -2 
+35 1 35 
+68 1 31 
+164 3 5 43 159 
+8 2 1 5 
+107 3 5 102 43 
+12 1 -2 
+45 1 31 
+141 3 5 136 43 
+113 1 31 
+147 1 31 
+84 3 5 43 79 
+24 1 -2 
+90 1 31 
+124 1 31 
+62 3 5 57 43 
+Constructors: 0
+
+Summary: 5
+-2 43 0 31 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.access$1(Lorg/eclipse/core/runtime/internal/adaptor/PluginParser;)Lorg/osgi/framework/Version;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-2 target 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.access$0()Lorg/osgi/framework/Version;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/runtime/internal/adaptor/PluginParser.warning(Lorg/xml/sax/SAXParseException;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.fatalError(Lorg/xml/sax/SAXParseException;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.handleExtensionPointState(Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+6
+$r4 1 17 
+$r2 1 1 
+r0 1 -1 
+$r1 1 4 
+r6 1 -3 
+r5 1 -2 
+Fields: 2
+-1 stateStack 1
+-1 manifestInfo 17
+Accesses: 2
+0 1 -1 
+16 1 -1 
+Functions: 3
+21 1 17 
+9 1 4 
+12 2 1 4 
+Constructors: 1
+9 4
+
+Summary: 6
+-3 -2 4 0 -1 1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.<init>(Lorg/eclipse/osgi/framework/adaptor/FrameworkAdaptor;Lorg/osgi/framework/BundleContext;Lorg/osgi/framework/Version;)V
+PTG:
+Vars:
+7
+r5 1 -2 
+$r2 1 17 
+r6 1 -4 
+$r3 1 28 
+$r1 1 5 
+r0 1 -1 
+r4 1 -3 
+Fields: 0
+Accesses: 7
+50 1 -1 
+35 1 -1 
+55 1 -1 
+24 1 -1 
+40 1 -1 
+13 1 -1 
+45 1 -1 
+Functions: 4
+32 1 28 
+1 1 -1 
+21 1 17 
+10 2 -1 5 
+Constructors: 4
+32 28
+1 -1
+21 17
+10 5
+
+Summary: 4
+2 0 -1 1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.handleLibraryExportState(Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+5
+r4 1 -2 
+r0 1 -1 
+$r1 1 4 
+$r2 1 1 
+r5 1 -3 
+Fields: 1
+-1 stateStack 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 1 4 
+12 2 1 4 
+Constructors: 1
+9 4
+
+Summary: 6
+-3 -2 4 0 -1 1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.handlePluginState(Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+5
+$r2 1 193 
+$r3 1 190 
+r19 1 -3 
+r0 1 -2 
+r1 1 -1 
+Fields: 1
+-1 stateStack 190
+Accesses: 11
+129 1 -1 
+83 1 -1 
+99 1 -1 
+163 1 -1 
+24 1 -1 
+40 1 -1 
+9 1 -1 
+57 1 -1 
+137 1 -1 
+171 1 -1 
+189 1 -1 
+Functions: 25
+0 1 -2 
+66 0 
+69 0 
+134 0 
+198 1 193 
+201 2 193 190 
+10 0 
+74 1 -2 
+207 3 -1 -2 190 
+146 0 
+149 0 
+25 0 
+154 1 -2 
+92 0 
+31 0 
+95 0 
+168 0 
+107 0 
+110 0 
+49 0 
+52 0 
+116 3 -1 -3 190 
+181 0 
+120 1 -2 
+184 0 
+Constructors: 1
+198 193
+
+Summary: 15
+103 -3 175 1 28 141 193 -2 61 0 87 44 16 34 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.internalError(Ljava/lang/String;)V
+PTG:
+Vars:
+16
+$r15 1 72 
+$r5 1 18 
+$r7 1 21 
+$r11 1 48 
+$r13 1 58 
+r2 1 7 
+r4 1 -1 
+$r1 1 0 
+$r17 2 7 61 
+$r10 1 45 
+$r3 1 8 
+$r9 1 18 
+$r16 1 75 
+$r12 1 54 
+r0 1 -2 
+$r8 1 31 
+Fields: 2
+-1 manifestInfo 18
+-1 adaptor 72
+Accesses: 3
+17 1 -1 
+71 1 -1 
+41 1 -1 
+Functions: 11
+48 1 48 
+81 2 8 75 
+18 1 18 
+3 2 0 -2 
+67 3 7 8 61 
+38 1 31 
+54 2 54 7 
+72 1 72 
+42 1 18 
+58 1 58 
+31 2 45 31 
+Constructors: 2
+67 8
+38 31
+
+Summary: 10
+8 -2 7 0 21 75 45 58 61 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.handleLibraryState(Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+r14 1 -3 
+$r2 1 170 
+r1 1 -1 
+$r3 1 167 
+Fields: 1
+-1 stateStack 167
+Accesses: 7
+149 1 -1 
+54 1 -1 
+166 1 -1 
+9 1 -1 
+26 1 -1 
+74 1 -1 
+62 1 -1 
+Functions: 20
+0 1 -2 
+96 0 
+128 0 
+161 0 
+131 0 
+104 0 
+42 1 -3 
+140 1 -2 
+79 0 
+111 0 
+175 1 170 
+178 2 167 170 
+19 0 
+22 0 
+184 3 -1 -2 167 
+58 0 
+27 0 
+123 0 
+158 0 
+63 0 
+Constructors: 1
+175 170
+
+Summary: 13
+-3 -2 0 30 66 1 88 153 52 170 125 13 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.parseLibraryAttributes(Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+6
+r5 1 25 
+$r6 1 1 
+$r1 1 4 
+$r2 1 1 
+r0 1 -1 
+r4 1 -2 
+Fields: 1
+-1 objectStack 1
+Accesses: 2
+0 1 -1 
+26 1 -1 
+Functions: 4
+8 1 4 
+11 2 1 4 
+15 1 -2 
+31 2 1 25 
+Constructors: 1
+8 4
+
+Summary: 5
+-2 25 4 0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+10
+$r1 1 1 
+$r3 1 4 
+r9 1 -2 
+$r2 1 4 
+r4 1 -3 
+r5 1 -5 
+r10 1 -4 
+r0 1 -1 
+$r6 1 166 
+$r7 1 1 
+Fields: 1
+-1 stateStack 1
+Accesses: 2
+0 1 -1 
+162 1 -1 
+Functions: 13
+96 4 -1 1 -3 -5 
+1 1 1 
+7 1 4 
+136 4 -1 1 -3 -5 
+106 4 -1 1 -3 -5 
+171 1 166 
+76 4 -1 1 -3 -5 
+174 2 1 166 
+146 4 -1 1 -3 -5 
+116 4 -1 1 -3 -5 
+86 4 -1 1 -3 -5 
+156 4 -1 1 -3 -5 
+126 4 -1 1 -3 -5 
+Constructors: 1
+171 166
+
+Summary: 11
+3 -3 -2 4 166 2 -5 0 -1 -4 1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.setDocumentLocator(Lorg/xml/sax/Locator;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.handleRuntimeState(Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+5
+r1 1 -1 
+$r3 1 33 
+$r2 1 36 
+r8 1 -3 
+r0 1 -2 
+Fields: 1
+-1 stateStack 33
+Accesses: 2
+32 1 -1 
+9 1 -1 
+Functions: 7
+0 1 -2 
+50 3 -1 33 -2 
+19 0 
+22 0 
+41 1 36 
+28 3 -1 33 -3 
+44 2 33 36 
+Constructors: 1
+41 36
+
+Summary: 7
+-3 -2 0 13 36 -1 1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.handleExtensionState(Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+6
+r6 1 -3 
+$r1 1 4 
+$r4 1 17 
+r5 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 2
+-1 stateStack 1
+-1 manifestInfo 17
+Accesses: 2
+0 1 -1 
+16 1 -1 
+Functions: 3
+21 1 17 
+9 1 4 
+12 2 1 4 
+Constructors: 1
+9 4
+
+Summary: 6
+-3 -2 4 0 -1 1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.handleInitialState(Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+10
+$r6 1 54 
+r9 1 -3 
+$r7 1 51 
+r0 1 -2 
+$r10 1 13 
+$r3 1 76 
+$r2 1 79 
+$r5 1 43 
+r1 1 -1 
+$r11 1 10 
+Fields: 4
+-1 stateStack 76
+-1 stateStack 10
+-1 stateStack 51
+-1 manifestInfo 43
+Accesses: 4
+50 1 -1 
+9 1 -1 
+42 1 -1 
+75 1 -1 
+Functions: 12
+0 1 -2 
+33 1 -2 
+18 1 13 
+84 1 79 
+21 2 10 13 
+69 6 -1 -3 51 10 43 76 
+87 2 76 79 
+27 6 -1 -3 51 10 43 76 
+60 1 54 
+93 6 -1 -2 51 10 43 76 
+47 1 43 
+63 2 51 54 
+Constructors: 3
+18 13
+84 79
+60 54
+
+Summary: 8
+-3 -2 54 0 13 -1 1 79 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.endDocument()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.endElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+34
+r41 1 -2 
+$r20 1 271 
+$r26 1 228 
+$r17 1 228 
+r0 1 -1 
+$r2 1 4 
+$r25 1 241 
+r42 1 -4 
+$r33 1 1 
+$r27 1 256 
+r4 1 -3 
+$r39 1 1 
+$r9 1 191 
+r16 1 219 
+$r14 1 191 
+$r10 1 194 
+$r7 1 1 
+$r1 1 1 
+$r12 1 204 
+$r29 1 1 
+$r22 1 228 
+$r35 1 131 
+r11 1 194 
+$r28 1 228 
+$r3 1 4 
+$r15 1 219 
+$r23 1 288 
+$r19 1 228 
+$r5 1 1 
+$r43 1 1 
+$r37 1 1 
+$r24 1 297 
+$r31 1 1 
+$r18 1 231 
+Fields: 4
+-1 objectStack 191
+-1 objectStack 131
+-1 stateStack 1
+-1 manifestInfo 228
+Accesses: 17
+0 1 -1 
+130 1 -1 
+227 1 -1 
+324 1 -1 
+102 1 -1 
+170 1 -1 
+267 1 -1 
+76 1 -1 
+237 1 -1 
+304 1 -1 
+150 1 -1 
+215 1 -1 
+344 1 -1 
+122 1 -1 
+252 1 -1 
+284 1 -1 
+190 1 -1 
+Functions: 32
+1 1 1 
+261 1 256 
+134 1 131 
+7 1 4 
+264 2 256 228 
+328 1 1 
+202 1 194 
+204 1 204 
+268 1 228 
+141 1 -3 
+335 1 -3 
+80 1 1 
+278 3 194 219 271 
+216 1 191 
+154 1 1 
+348 1 1 
+93 1 -3 
+285 1 228 
+161 1 -3 
+291 1 194 
+228 1 228 
+106 1 1 
+300 2 288 297 
+174 1 1 
+113 1 -3 
+308 1 1 
+181 1 -3 
+246 1 241 
+249 2 241 228 
+315 1 -3 
+126 1 1 
+191 1 191 
+Constructors: 2
+261 256
+246 241
+
+Summary: 15
+231 -3 -2 288 4 256 0 -4 1 297 219 2 204 -1 241 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.parseFragmentAttributes(Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+14
+$r2 1 1 
+$r13 2 79 5 
+$r11 2 5 125 
+$r6 1 35 
+$r1 1 5 
+r5 1 31 
+$r14 2 5 57 
+r0 1 -1 
+r4 1 -2 
+$r12 2 102 5 
+$r10 2 5 148 
+$r9 2 171 5 
+$r8 2 5 194 
+r7 1 43 
+Fields: 2
+-1 objectStack 1
+-1 manifestInfo 5
+Accesses: 9
+0 1 -1 
+193 1 -1 
+147 1 -1 
+4 1 -1 
+101 1 -1 
+56 1 -1 
+170 1 -1 
+124 1 -1 
+78 1 -1 
+Functions: 19
+33 1 -2 
+130 3 5 43 125 
+35 1 35 
+68 1 31 
+199 3 194 5 43 
+8 2 1 5 
+136 1 31 
+107 3 5 102 43 
+12 1 -2 
+45 1 31 
+176 3 5 171 43 
+113 1 31 
+84 3 5 43 79 
+182 1 31 
+24 1 -2 
+153 3 148 5 43 
+90 1 31 
+62 3 5 57 43 
+159 1 31 
+Constructors: 0
+
+Summary: 5
+-2 43 0 31 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.parseRequiresAttributes(Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.handleRequiresImportState(Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+5
+$r2 1 1 
+r0 1 -1 
+$r1 1 4 
+r4 1 -2 
+r5 1 -3 
+Fields: 1
+-1 stateStack 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 1 4 
+12 2 1 4 
+Constructors: 1
+9 4
+
+Summary: 6
+-3 -2 4 0 -1 1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.acquireXMLParsing(Lorg/osgi/framework/BundleContext;)Ljavax/xml/parsers/SAXParserFactory;
+PTG:
+Vars:
+9
+$r7 1 21 
+$r4 1 43 
+r6 1 -2 
+$r1 1 27 
+$r0 1 0 
+$r2 1 30 
+$r5 1 6 
+_ret 1 43 
+r3 1 30 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+24 1 21 
+27 1 27 
+15 2 -2 6 
+Constructors: 1
+15 6
+
+Summary: 2
+-2 0 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.handleRequiresState(Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+$r3 1 16 
+$r2 1 19 
+r5 1 -3 
+r1 1 -1 
+Fields: 1
+-1 stateStack 16
+Accesses: 1
+15 1 -1 
+Functions: 5
+0 1 -2 
+33 3 -1 16 -2 
+24 1 19 
+11 3 -1 16 -3 
+27 2 16 19 
+Constructors: 1
+24 19
+
+Summary: 6
+-3 -2 0 19 -1 1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.releaseXMLParsing()V
+PTG:
+Vars:
+2
+$r1 1 6 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+9 1 6 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/runtime/internal/adaptor/PluginParser.processingInstruction(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+8
+$r8 1 67 
+r6 1 39 
+$r2 1 11 
+r1 1 -1 
+$r7 2 11 63 
+r4 1 -3 
+r0 1 -2 
+$r3 1 20 
+Fields: 1
+-1 manifestInfo 11
+Accesses: 2
+10 1 -1 
+62 1 -1 
+Functions: 9
+0 1 -2 
+17 1 11 
+66 1 20 
+35 1 20 
+52 1 20 
+70 3 67 11 63 
+41 1 39 
+28 2 -3 20 
+76 1 20 
+Constructors: 1
+28 20
+
+Summary: 8
+20 67 -3 -2 39 0 -1 1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.parsePluginRequiresImport(Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+17
+r4 1 34 
+$r2 1 4 
+$r13 1 14 
+r7 1 104 
+$r14 1 1 
+$r12 1 1 
+$r1 1 1 
+r6 1 92 
+$r16 1 126 
+$r9 1 1 
+r5 1 80 
+r0 1 -1 
+r8 1 117 
+$r11 1 149 
+r3 1 -2 
+$r15 1 123 
+$r10 1 133 
+Fields: 1
+-1 manifestInfo 1
+Accesses: 4
+0 1 -1 
+119 1 -1 
+10 1 -1 
+61 1 -1 
+Functions: 16
+1 1 1 
+66 1 1 
+69 1 -2 
+133 2 133 92 
+167 6 -1 80 1 34 117 126 
+40 1 34 
+106 1 -2 
+170 2 123 126 
+81 1 -2 
+18 1 14 
+51 1 34 
+21 2 1 14 
+149 2 149 104 
+24 1 -2 
+120 1 1 
+94 1 -2 
+Constructors: 2
+18 14
+167 126
+
+Summary: 12
+14 80 -2 4 117 104 0 123 34 -1 92 126 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.logStatus(Lorg/xml/sax/SAXParseException;)V
+PTG:
+Vars:
+15
+$r11 1 38 
+r13 1 4 
+$r3 1 69 
+r15 2 93 48 
+r14 2 11 28 
+$r6 1 94 
+r8 1 -1 
+$r1 1 56 
+$r12 1 42 
+$r2 1 52 
+$r4 1 79 
+$r5 1 86 
+$r9 1 113 
+r0 1 -2 
+$r10 1 116 
+Fields: 1
+-1 adaptor 113
+Accesses: 1
+112 1 -1 
+Functions: 15
+0 1 -2 
+65 1 -2 
+66 0 
+41 1 -2 
+42 2 38 42 
+75 1 -2 
+107 4 48 -2 93 94 
+76 0 
+15 1 4 
+17 1 4 
+113 1 113 
+85 1 -2 
+56 2 52 56 
+123 2 116 94 
+29 2 11 28 
+Constructors: 1
+107 94
+
+Summary: 9
+93 -2 116 48 0 94 42 -1 56 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 1 4 
+Constructors: 1
+11 4
+
+Summary: 0
+
+org/eclipse/core/runtime/internal/adaptor/PluginParser.parsePlugin(Ljava/io/InputStream;)Lorg/eclipse/core/runtime/internal/adaptor/PluginParser$PluginInfo;
+PTG:
+Vars:
+8
+$r3 1 76 
+r4 1 -2 
+$r11 1 -1 
+$r5 1 85 
+r2 1 7 
+r0 1 -1 
+_ret 1 85 
+$r1 1 1 
+Fields: 2
+-1 manifestInfo 85
+-1 context 1
+Accesses: 3
+0 1 -1 
+84 1 -1 
+31 1 -1 
+Functions: 10
+32 0 
+1 1 1 
+81 5 -1 -2 1 85 76 
+50 1 7 
+55 1 7 
+72 1 7 
+41 0 
+27 0 
+75 1 7 
+63 1 7 
+Constructors: 0
+
+Summary: 7
+-2 7 0 35 76 12 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginParser.startDocument()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+$r1 1 4 
+Fields: 1
+-1 stateStack 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 1 4 
+12 2 1 4 
+Constructors: 1
+9 4
+
+Summary: 2
+4 -1 

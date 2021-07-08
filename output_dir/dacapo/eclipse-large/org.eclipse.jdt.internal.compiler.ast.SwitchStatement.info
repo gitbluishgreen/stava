@@ -1,0 +1,603 @@
+7
+org/eclipse/jdt/internal/compiler/ast/SwitchStatement.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;)V
+PTG:
+Vars:
+46
+$r6 1 74 
+$r22 2 533 145 
+$r9 1 145 
+$r24 2 430 540 
+$r19 1 430 
+$r18 1 430 
+$r7 2 96 96 
+$r53 2 430 570 
+$r30 1 290 
+r52 1 470 
+$r28 1 503 
+$r17 1 430 
+$r37 1 186 
+$r38 1 161 
+$r29 2 430 494 
+$r34 1 363 
+$r20 1 444 
+$r23 2 145 544 
+$r26 1 489 
+$r36 1 161 
+r3 1 43 
+$r15 1 32 
+r48 1 252 
+$r27 3 484 69 498 
+$r16 1 145 
+r0 1 -1 
+$r5 1 79 
+r11 1 167 
+r12 1 -2 
+$r25 2 484 69 
+$r8 1 118 
+$r2 1 32 
+$r39 1 206 
+$r4 1 69 
+r1 1 -3 
+$r13 1 161 
+$r33 1 282 
+$r21 2 444 464 
+$r31 1 282 
+$r32 1 282 
+$r10 1 161 
+$r35 1 282 
+$r50 1 430 
+$r40 1 145 
+$r51 1 444 
+$r14 1 430 
+Fields: 19
+444 ArrayObject 470
+464 ArrayObject 470
+69 ArrayObject 489
+69 ArrayObject 503
+69 ArrayObject 74
+484 ArrayObject 489
+484 ArrayObject 503
+-1 synthetic 186
+-1 statements 444
+-1 expression 161
+-1 breakLabel 32
+-1 defaultCase 145
+-1 constants 282
+-1 cases 484
+-1 cases 69
+-1 scope 430
+161 resolvedType 167
+498 ArrayObject 503
+43 ArrayObject 96
+Accesses: 69
+0 1 -1 
+644 1 -3 
+133 1 118 
+517 1 -1 
+648 1 -1 
+10 1 -1 
+141 1 118 
+144 1 -1 
+400 1 -1 
+17 1 -1 
+274 1 -1 
+532 1 -1 
+151 1 -1 
+663 1 -1 
+281 1 -1 
+26 1 -3 
+539 1 -1 
+157 1 145 
+286 1 -1 
+31 1 -1 
+543 1 -1 
+160 1 -1 
+161 1 161 
+417 1 -1 
+547 2 540 430 
+675 1 -1 
+550 1 -1 
+39 1 -1 
+296 1 -1 
+682 1 -1 
+429 1 -1 
+48 1 -1 
+560 1 -1 
+433 1 -3 
+306 1 -1 
+693 1 -1 
+185 1 -1 
+569 1 -1 
+443 1 -1 
+700 1 -1 
+319 1 -1 
+193 1 -1 
+705 1 430 
+68 1 -1 
+453 1 -1 
+587 1 -1 
+334 1 -1 
+463 1 -1 
+597 1 -1 
+89 1 74 
+474 1 -1 
+219 1 -1 
+606 1 -1 
+96 1 96 
+483 1 -1 
+613 1 -1 
+103 1 96 
+232 1 -1 
+363 1 363 
+493 1 -1 
+622 1 -1 
+111 1 -1 
+497 1 -1 
+629 1 -1 
+248 1 -1 
+504 2 430 494 
+379 1 -1 
+507 1 -1 
+636 1 -1 
+Functions: 28
+387 6 96 -3 118 282 43 252 
+200 4 161 -2 -3 167 
+521 2 -2 -3 
+204 1 167 
+653 1 -3 
+209 2 -3 206 
+658 1 118 
+84 2 -3 79 
+213 1 -3 
+408 6 96 -3 118 282 43 252 
+601 2 -2 -3 
+667 1 -3 
+226 4 161 -2 -3 167 
+610 2 -2 -3 
+36 2 32 -3 
+169 1 167 
+425 6 96 -3 118 282 43 252 
+362 1 -2 
+300 2 290 282 
+240 4 161 -2 -3 167 
+626 2 -3 430 
+564 2 -2 -3 
+437 2 -3 430 
+633 1 32 
+314 2 290 252 
+123 2 -3 118 
+190 2 -3 186 
+574 4 -3 470 570 430 
+Constructors: 2
+84 79
+123 118
+
+Summary: 9
+-3 96 43 1 252 363 206 0 -1 
+org/eclipse/jdt/internal/compiler/ast/SwitchStatement.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/SwitchStatement.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+9
+$r8 1 43 
+$r5 1 19 
+$r4 1 19 
+$r6 2 38 19 
+$r7 1 46 
+r0 1 -2 
+r2 1 -3 
+$r3 1 10 
+r1 1 -1 
+Fields: 5
+-1 statements 19
+-1 expression 10
+-1 scope 46
+38 ArrayObject 43
+19 ArrayObject 43
+Accesses: 5
+18 1 -1 
+37 1 -1 
+9 1 -1 
+25 1 -1 
+45 1 -1 
+Functions: 4
+0 7 -1 -2 -3 19 10 43 46 
+64 7 -1 -2 -3 19 10 43 46 
+49 3 -2 43 46 
+15 3 -2 -3 10 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/SwitchStatement.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+52
+$r30 2 213 202 
+$r53 1 256 
+$r15 1 398 
+$r48 4 128 209 358 282 
+$r47 4 128 209 358 282 
+$r39 1 137 
+$r54 3 128 209 282 
+$r7 1 41 
+$r22 1 364 
+$r43 4 128 209 282 169 
+$r36 1 118 
+r59 1 448 
+r51 4 37 187 310 262 
+$r10 1 442 
+r0 1 -1 
+$r32 4 128 209 237 282 
+$r14 1 395 
+$r33 1 240 
+$r52 1 181 
+$r27 1 202 
+$r17 1 407 
+$r9 1 1 
+r50 1 10 
+$r45 1 -1 
+$r20 4 128 209 358 282 
+$r29 1 314 
+r49 1 -4 
+$r11 1 452 
+$r34 4 244 128 209 282 
+r1 1 -2 
+$r28 4 128 209 282 300 
+r2 1 -3 
+$r8 1 55 
+$r38 2 132 118 
+$r41 4 162 128 209 282 
+$r57 2 202 384 
+$r25 2 98 55 
+$r37 1 123 
+$r35 1 247 
+$r4 1 11 
+$r42 1 165 
+$r21 1 361 
+$r31 3 128 209 282 
+$r5 1 18 
+$r24 1 55 
+$r40 3 128 209 282 
+$r3 1 1 
+$r23 1 377 
+$r44 1 172 
+r26 1 104 
+r55 1 340 
+r56 1 370 
+Fields: 21
+132 ArrayObject 137
+244 enclosingCase 247
+11 initsOnBreak 395
+11 initsOnBreak 442
+118 ArrayObject 123
+118 ArrayObject 137
+98 ArrayObject 104
+361 referenceContext 364
+-1 statements 55
+-1 expression 1
+-1 defaultCase 202
+-1 defaultCase 384
+-1 cases 118
+-1 scope 128
+-1 scope 358
+-1 scope 209
+-1 scope 282
+364 binding 370
+1 resolvedType 340
+55 ArrayObject 104
+169 enclosingCase 172
+Accesses: 44
+0 1 -1 
+131 1 -1 
+201 1 -1 
+393 1 11 
+138 3 128 209 282 
+460 1 -1 
+333 1 -1 
+334 1 1 
+208 1 -1 
+467 1 -1 
+212 1 -1 
+150 1 104 
+342 1 -1 
+87 1 -1 
+216 3 128 209 282 
+281 1 -1 
+26 1 -1 
+474 1 -1 
+414 1 -1 
+97 1 -1 
+161 1 -1 
+225 1 104 
+420 1 -1 
+357 1 -1 
+487 1 -1 
+168 1 -1 
+169 4 128 209 169 282 
+361 1 361 
+299 1 -1 
+427 1 -1 
+108 1 -1 
+236 1 -1 
+364 1 364 
+494 1 -1 
+48 1 -1 
+243 1 -1 
+499 4 128 209 358 282 
+244 4 128 209 244 282 
+117 1 -1 
+54 1 -1 
+440 1 11 
+380 1 -1 
+127 1 -1 
+383 1 -1 
+Functions: 26
+1 5 1 -2 -3 -4 340 
+451 1 -2 
+452 2 448 452 
+391 5 37 310 262 187 395 
+401 2 10 398 
+277 8 128 209 37 310 262 104 282 187 
+22 1 18 
+406 1 -2 
+407 2 407 10 
+29 19 -1 384 128 1 -3 358 104 137 202 11 395 209 18 340 118 55 442 282 123 
+349 1 340 
+162 4 128 209 162 282 
+358 4 128 209 358 282 
+40 1 -2 
+41 2 41 10 
+297 12 128 209 37 310 262 104 282 442 11 395 187 300 
+237 4 128 209 282 237 
+175 2 165 172 
+178 5 37 181 310 262 187 
+180 1 10 
+373 2 370 340 
+438 5 37 310 262 442 187 
+250 2 240 247 
+61 1 10 
+253 5 256 37 310 262 187 
+255 1 10 
+Constructors: 2
+22 18
+29 11
+
+Summary: 21
+361 256 165 41 442 452 187 -4 370 2 -1 -3 398 1 11 407 395 0 364 240 181 
+org/eclipse/jdt/internal/compiler/ast/SwitchStatement.printStatement(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+16
+$r7 1 29 
+r3 1 -1 
+$r5 1 18 
+$r20 1 29 
+$r1 1 2 
+$r17 2 60 29 
+$r9 1 110 
+$r14 2 29 75 
+$r10 1 115 
+$r4 1 13 
+$r18 1 64 
+$r13 1 52 
+r0 1 -3 
+$r15 1 79 
+$r12 2 48 29 
+_ret 1 115 
+Fields: 8
+60 ArrayObject 64
+48 ArrayObject 52
+-1 statements 29
+-1 expression 13
+29 ArrayObject 52
+29 ArrayObject 64
+29 ArrayObject 79
+75 ArrayObject 79
+Accesses: 6
+74 1 -1 
+59 1 -1 
+12 1 -1 
+28 1 -1 
+92 1 -1 
+47 1 -1 
+Functions: 10
+1 1 -3 
+67 2 64 -3 
+84 2 -3 79 
+8 1 2 
+24 1 18 
+104 1 -3 
+43 1 -3 
+13 2 -3 13 
+109 1 -3 
+110 1 110 
+Constructors: 0
+
+Summary: 2
+1 -1 
+org/eclipse/jdt/internal/compiler/ast/SwitchStatement.resolve(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+54
+$r45 1 49 
+r19 1 193 
+r1 1 -2 
+$r21 1 203 
+$r26 2 357 198 
+$r44 1 3 
+$r20 1 198 
+$r16 1 154 
+$r17 1 163 
+$r33 1 273 
+$r6 3 418 389 229 
+$r12 1 615 
+$r15 1 127 
+$r41 1 113 
+$r14 1 134 
+$r40 1 88 
+$r11 4 418 389 229 590 
+$r8 1 10 
+r56 1 541 
+$r25 2 329 329 
+$r13 1 451 
+$r28 2 198 253 
+$r3 2 658 198 
+$r18 2 127 187 
+$r29 1 256 
+$r35 1 301 
+$r47 1 62 
+$r7 3 418 389 229 
+$r53 1 127 
+$r32 2 270 198 
+$r34 2 296 260 
+$r27 1 360 
+$r58 2 658 198 
+r52 1 10 
+$r22 1 209 
+r24 1 193 
+$r2 1 3 
+$r37 1 425 
+r0 1 -1 
+$r43 1 102 
+$r9 1 532 
+$r10 1 532 
+r57 1 559 
+$r30 1 260 
+$r4 1 470 
+$r42 1 3 
+$r38 3 418 389 229 
+$r39 1 3 
+$r46 1 3 
+$r23 2 389 229 
+$r5 1 477 
+$r31 1 265 
+r54 1 283 
+$r36 2 389 229 
+Fields: 16
+296 ArrayObject 301
+541 ArrayObject 559
+127 ArrayObject 193
+283 ArrayObject 329
+260 ArrayObject 301
+260 ArrayObject 265
+-1 statements 127
+-1 expression 3
+-1 constants 229
+-1 constants 418
+-1 constants 389
+-1 defaultCase 470
+-1 cases 260
+-1 scope 198
+-1 scope 658
+187 ArrayObject 193
+Accesses: 38
+2 1 -1 
+259 1 -1 
+388 1 -1 
+197 1 -1 
+517 1 -1 
+454 1 -1 
+582 1 559 
+646 1 -1 
+458 1 -1 
+269 1 -1 
+589 1 -1 
+142 1 -1 
+15 1 -1 
+657 1 -1 
+146 1 -1 
+469 1 -1 
+664 1 -1 
+157 1 -1 
+669 2 658 198 
+607 1 -1 
+97 1 -1 
+417 1 -1 
+228 1 -1 
+356 1 -1 
+165 1 -1 
+295 1 -1 
+490 1 -1 
+44 1 -1 
+428 1 -1 
+561 1 559 
+116 1 -1 
+501 1 -1 
+440 1 -1 
+186 1 -1 
+252 1 -1 
+126 1 -1 
+510 1 -1 
+639 1 -1 
+Functions: 30
+450 1 -2 
+3 2 -2 3 
+195 14 -1 193 418 3 260 229 389 198 265 10 301 658 470 127 
+74 1 10 
+266 2 256 265 
+522 1 10 
+139 2 -2 134 
+270 2 198 270 
+462 1 451 
+531 1 10 
+22 3 -2 3 10 
+86 3 -2 88 10 
+278 2 273 193 
+215 1 203 
+535 1 532 
+25 1 10 
+476 1 -2 
+477 1 477 
+37 1 10 
+357 2 357 198 
+614 1 -2 
+106 4 -2 3 102 10 
+45 3 49 3 10 
+365 2 193 360 
+621 15 -1 193 418 3 260 229 389 198 615 265 301 559 658 470 127 
+112 1 -2 
+434 4 418 389 229 425 
+121 3 113 3 10 
+61 2 10 62 
+253 2 198 253 
+Constructors: 1
+139 134
+
+Summary: 14
+329 532 256 283 273 541 203 0 113 451 477 615 360 -1 
+org/eclipse/jdt/internal/compiler/ast/SwitchStatement.branchChainTo(Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+$r3 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 1
+-1 breakLabel 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 1 1 
+15 2 -2 1 
+Constructors: 0
+
+Summary: 2
+0 -1 

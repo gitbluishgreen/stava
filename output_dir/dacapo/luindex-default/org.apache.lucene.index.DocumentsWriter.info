@@ -1,0 +1,1988 @@
+74
+org/apache/lucene/index/DocumentsWriter.getNumBufferedDeleteTerms()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 deletesInRAM 1
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.flush(Z)I
+PTG:
+Vars:
+48
+$r12 1 -2 
+$r36 1 -2 
+$r30 1 -2 
+$r45 1 -2 
+$r4 1 -2 
+$r35 1 -2 
+r0 1 -1 
+$r43 1 -2 
+$r23 1 -2 
+$r11 1 -2 
+$r10 1 -2 
+$r15 1 -2 
+$r17 1 -2 
+$r18 1 -2 
+$r6 1 -2 
+$r31 1 -2 
+$r38 1 -2 
+$r39 1 -2 
+$r5 1 -2 
+$r1 1 -2 
+$r13 1 -2 
+$r57 1 -2 
+$r47 1 -2 
+$r37 1 -2 
+$r19 1 -2 
+$r14 1 -2 
+$r41 1 -2 
+$r21 1 -2 
+$r32 1 -2 
+$r55 1 -1 
+$r40 1 -2 
+$r16 1 -2 
+$r25 1 -2 
+$r28 1 -2 
+$r20 1 -2 
+$r22 1 -2 
+$r34 1 -2 
+$r50 1 -2 
+$r44 1 -2 
+$r33 1 -2 
+$r29 1 -2 
+$r58 1 -2 
+r26 1 -2 
+$r48 1 -2 
+$r42 1 -2 
+$r24 1 -2 
+$r46 1 -2 
+$r3 1 -2 
+Fields: 10
+-1 nf -2
+-1 flushState -2
+-1 infoStream -2
+-1 waitQueue -2
+-1 threadStates -2
+-1 consumer -2
+-2 ArrayObject -2
+-2 consumer -2
+-2 segmentName -2
+-2 docStoreSegmentName -2
+Accesses: 2
+-1 2 -1 -2 
+2000000000 2 -1 -2 
+Functions: 1
+-1 2 -1 -2 
+Constructors: 1
+-1 -2
+
+Summary: 0
+
+org/apache/lucene/index/DocumentsWriter.addDocument(Lorg/apache/lucene/document/Document;Lorg/apache/lucene/analysis/Analyzer;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 2
+1 0 
+org/apache/lucene/index/DocumentsWriter.waitForWaitQueue()V
+PTG:
+Vars:
+4
+$r2 1 -1 
+$r1 1 15 
+$r4 1 8 
+r0 1 -1 
+Fields: 1
+-1 waitQueue 15
+Accesses: 1
+14 1 -1 
+Functions: 4
+-1 0 
+1 2 -1 15 
+11 1 8 
+15 1 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.getNumDocsInRAM()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.bytesAllocated(J)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+0 1 -1 
+16 1 -1 
+20 1 -1 
+7 1 -1 
+Functions: 1
+32 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.getFlushedDocCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.allThreadsIdle()Z
+PTG:
+Vars:
+4
+$r2 1 4 
+$r3 1 16 
+r0 1 -1 
+$r1 1 4 
+Fields: 2
+-1 threadStates 4
+4 ArrayObject 16
+Accesses: 3
+16 1 16 
+3 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.initSegmentName(Z)V
+PTG:
+Vars:
+7
+$r2 1 1 
+$r5 1 23 
+$r7 1 12 
+$r1 1 1 
+$r4 1 20 
+$r8 1 12 
+r0 1 -1 
+Fields: 3
+-1 segment 1
+-1 writer 20
+-1 docStoreSegment 12
+Accesses: 9
+0 1 -1 
+50 1 -1 
+19 1 -1 
+35 1 -1 
+71 1 -1 
+26 1 -1 
+58 1 -1 
+11 1 -1 
+62 1 -1 
+Functions: 3
+82 0 
+20 1 20 
+46 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.setSimilarity(Lorg/apache/lucene/search/Similarity;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+$r3 1 9 
+$r2 1 9 
+$r4 1 21 
+$r5 1 22 
+Fields: 3
+-1 threadStates 9
+21 docState 22
+9 ArrayObject 21
+Accesses: 5
+16 1 -1 
+2 1 -1 
+21 1 21 
+8 1 -1 
+26 1 22 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.getMaxBufferedDocs()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.setFlushedDocCount(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.toMB(J)Ljava/lang/String;
+PTG:
+Vars:
+4
+$r2 1 14 
+$r1 1 1 
+r0 1 -1 
+_ret 1 14 
+Fields: 1
+-1 nf 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.bufferDeleteQuery(Lorg/apache/lucene/search/Query;)Z
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 3
+2 1 -1 
+11 2 -1 -2 
+14 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/lucene/index/DocumentsWriter.pushDeletes()V
+PTG:
+Vars:
+3
+$r2 1 1 
+$r1 1 5 
+r0 1 -1 
+Fields: 2
+-1 deletesInRAM 5
+-1 deletesFlushed 1
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 1
+8 2 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.message(Ljava/lang/String;)V
+PTG:
+Vars:
+7
+$r3 1 13 
+$r5 1 17 
+$r1 1 4 
+r4 1 -2 
+$r2 1 1 
+r0 1 -1 
+$r6 1 20 
+Fields: 1
+-1 writer 1
+Accesses: 1
+0 1 -1 
+Functions: 5
+17 1 17 
+4 1 4 
+23 2 1 20 
+8 1 4 
+13 2 -2 13 
+Constructors: 1
+8 4
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/index/DocumentsWriter.updateFlushedDocCount(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.getCharBlock()[C
+PTG:
+Vars:
+7
+r0 1 -1 
+r7 2 41 28 
+$r2 1 1 
+$r3 1 41 
+$r4 1 41 
+$r1 1 1 
+_ret 2 41 28 
+Fields: 1
+-1 freeCharBlocks 1
+Accesses: 8
+0 1 -1 
+34 1 -1 
+51 1 -1 
+69 1 -1 
+22 1 -1 
+73 1 -1 
+60 1 -1 
+13 1 -1 
+Functions: 3
+1 1 1 
+35 1 1 
+85 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.updateDocument(Lorg/apache/lucene/index/Term;Lorg/apache/lucene/document/Document;Lorg/apache/lucene/analysis/Analyzer;)Z
+PTG:
+Vars:
+4
+r2 1 -4 
+r3 1 -2 
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 4
+-1 -2 -4 -3 
+org/apache/lucene/index/DocumentsWriter.applyDeletes(Lorg/apache/lucene/index/SegmentInfos;)Z
+PTG:
+Vars:
+23
+r0 1 -1 
+$r17 1 -2 
+$r1 1 -2 
+$r10 1 -2 
+$r16 1 -2 
+$r24 1 -1 
+$r15 1 -2 
+$r21 1 -2 
+r2 1 -2 
+$r18 1 -2 
+$r6 1 -2 
+$r13 1 -2 
+$r14 1 -2 
+$r22 1 -1 
+$r9 1 -2 
+$r8 1 -2 
+$r7 1 -2 
+$r11 1 -2 
+$r4 1 -2 
+$r20 1 -2 
+$r19 1 -2 
+r5 1 -2 
+$r12 1 -2 
+Fields: 4
+-1 infoStream -2
+-1 deletesFlushed -2
+-2 queries -2
+-2 docIDs -2
+Accesses: 1
+2000000000 2 -1 -2 
+Functions: 1
+-1 1 -2 
+Constructors: 1
+-1 -2
+
+Summary: 2
+-1 -2 
+org/apache/lucene/index/DocumentsWriter.access$200(Lorg/apache/lucene/index/DocumentsWriter;)J
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/lucene/index/DocumentsWriter.closeDocStore()Ljava/lang/String;
+PTG:
+Vars:
+19
+$r3 1 -2 
+$r13 1 -2 
+$r1 1 -2 
+r0 1 -1 
+$r12 1 -2 
+$r7 1 -2 
+$r14 1 -2 
+$r15 1 -2 
+$r2 1 -2 
+$r9 1 -2 
+$r20 1 -1 
+$r18 1 -2 
+$r17 1 -2 
+r5 1 -2 
+$r16 1 -2 
+$r11 1 -2 
+$r10 1 -2 
+$r4 1 -2 
+$r8 1 -2 
+Fields: 6
+-1 flushState -2
+-1 infoStream -2
+-1 docStoreSegment -2
+-1 closedFiles -2
+-1 openFiles -2
+-1 consumer -2
+Accesses: 2
+-1 1 -1 
+2000000000 1 -1 
+Functions: 1
+-1 2 -1 -2 
+Constructors: 1
+-1 -2
+
+Summary: 0
+
+org/apache/lucene/index/DocumentsWriter.createCompoundFile(Ljava/lang/String;)V
+PTG:
+Vars:
+14
+$r11 1 40 
+$r3 1 5 
+$r2 1 8 
+$r0 1 0 
+$r8 1 29 
+$r7 1 26 
+$r14 1 60 
+$r5 1 16 
+$r13 1 60 
+$r10 1 37 
+r12 1 48 
+r4 1 -2 
+$r6 1 21 
+r1 1 -1 
+Fields: 3
+-1 flushState 37
+-1 directory 5
+37 flushedFiles 40
+Accesses: 3
+4 1 -1 
+36 1 -1 
+37 1 37 
+Functions: 11
+16 1 16 
+32 3 0 5 29 
+49 1 48 
+68 2 0 60 
+21 1 21 
+8 2 -2 8 
+40 1 40 
+26 1 26 
+59 1 48 
+75 1 0 
+12 1 8 
+Constructors: 2
+32 0
+12 8
+
+Summary: 3
+-1 0 -2 
+org/apache/lucene/index/DocumentsWriter.close()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.getDocStoreOffset()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.abort()V
+PTG:
+Vars:
+18
+r0 1 -1 
+$r1 1 -2 
+$r17 1 -1 
+$r16 1 -1 
+$r6 1 -2 
+$r14 1 -1 
+$r18 1 -1 
+$r7 1 -2 
+$r10 1 -2 
+$r9 1 -2 
+$r12 1 -1 
+$r11 1 -2 
+$r5 1 -2 
+$r2 1 -2 
+$r4 1 -2 
+$r8 1 -2 
+$r3 1 -2 
+$r19 1 -2 
+Fields: 7
+-1 waitQueue -2
+-1 openFiles -2
+-1 threadStates -2
+-1 deletesInRAM -2
+-1 consumer -2
+-2 ArrayObject -2
+-2 consumer -2
+Accesses: 2
+-1 2 -1 -2 
+2000000000 2 -1 -2 
+Functions: 1
+-1 2 -1 -2 
+Constructors: 1
+-1 -2
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+r0 1 -2 
+$r4 1 6 
+$r1 1 1 
+$r5 1 14 
+$r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/lucene/index/DocumentsWriter.addOpenFile(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r3 1 7 
+$r2 1 7 
+Fields: 1
+-1 openFiles 7
+Accesses: 2
+6 1 -1 
+27 1 -1 
+Functions: 3
+32 2 -2 7 
+7 2 -2 7 
+23 0 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/index/DocumentsWriter.hasProx()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+Fields: 2
+1 fieldInfos 4
+-1 docFieldProcessor 1
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 1
+4 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.balanceRAM()V
+PTG:
+Vars:
+73
+$r76 1 128 
+$r79 1 149 
+$r26 1 571 
+$r73 1 108 
+$r54 1 213 
+$r48 1 105 
+$r43 1 133 
+$r20 1 520 
+$r50 1 108 
+$r37 1 488 
+$r53 1 133 
+$r38 1 213 
+$r63 1 57 
+$r13 1 650 
+$r60 1 43 
+$r78 1 146 
+$r61 1 46 
+$r17 1 18 
+$r67 1 77 
+$r18 1 18 
+$r65 1 66 
+$r51 1 108 
+$r39 1 213 
+$r27 1 574 
+$r70 1 94 
+$r44 1 133 
+$r23 1 545 
+$r74 1 119 
+$r59 1 35 
+$r71 1 100 
+$r25 1 524 
+$r15 1 724 
+$r2 1 629 
+$r49 1 105 
+$r14 1 721 
+$r4 1 646 
+$r5 1 650 
+$r42 1 133 
+$r12 1 704 
+$r16 1 727 
+$r62 1 52 
+$r10 1 695 
+$r36 1 108 
+$r58 1 25 
+$r40 1 213 
+r0 1 -1 
+$r3 1 636 
+$r31 1 603 
+$r9 1 650 
+$r75 1 122 
+$r32 1 606 
+$r77 1 133 
+$r35 1 105 
+$r72 1 105 
+$r8 1 675 
+$r22 1 542 
+$r28 1 580 
+$r47 1 108 
+$r6 1 666 
+$r11 1 698 
+$r55 1 18 
+$r24 1 551 
+$r66 1 74 
+$r19 1 510 
+$r64 1 60 
+$r7 1 669 
+$r46 1 105 
+$r21 1 524 
+$r69 1 91 
+$r80 1 152 
+$r30 1 600 
+$r68 1 83 
+$r29 1 524 
+Fields: 9
+-1 byteBlockAllocator 105
+-1 nf 524
+-1 nf 650
+-1 freeCharBlocks 133
+-1 infoStream 18
+-1 infoStream 629
+-1 freeIntBlocks 213
+-1 consumer 488
+105 freeByteBlocks 108
+Accesses: 57
+0 1 -1 
+384 1 -1 
+132 1 -1 
+388 1 -1 
+5 1 -1 
+9 1 -1 
+649 1 -1 
+523 1 -1 
+653 1 -1 
+528 1 -1 
+17 1 -1 
+401 1 -1 
+410 1 -1 
+284 1 -1 
+158 1 -1 
+288 1 -1 
+421 1 -1 
+678 1 -1 
+39 1 -1 
+169 1 -1 
+554 1 -1 
+682 1 -1 
+173 1 -1 
+558 1 -1 
+431 1 -1 
+435 1 -1 
+187 1 -1 
+188 1 105 
+318 1 -1 
+319 1 105 
+448 1 -1 
+707 1 -1 
+70 1 -1 
+583 1 -1 
+201 1 -1 
+457 1 -1 
+331 1 -1 
+587 1 -1 
+332 1 105 
+338 1 -1 
+339 1 105 
+212 1 -1 
+87 1 -1 
+735 1 -1 
+354 1 -1 
+228 1 -1 
+487 1 -1 
+104 1 -1 
+105 1 105 
+363 1 -1 
+619 1 -1 
+242 1 -1 
+628 1 -1 
+245 1 -1 
+374 1 -1 
+502 1 -1 
+252 1 -1 
+Functions: 63
+128 2 128 146 
+640 1 636 
+514 1 510 
+131 10 -1 18 133 629 213 488 105 650 524 108 
+133 1 133 
+389 1 133 
+646 2 646 666 
+520 2 520 542 
+265 10 -1 18 133 629 213 488 105 650 524 108 
+650 1 650 
+524 1 524 
+397 1 133 
+275 10 -1 18 133 629 213 488 105 650 524 108 
+149 1 149 
+25 1 25 
+155 11 -1 18 133 629 213 488 152 105 650 524 108 
+29 1 25 
+669 1 669 
+545 1 545 
+35 2 35 43 
+675 2 675 695 
+38 10 -1 18 133 629 213 488 105 650 524 108 
+422 1 213 
+551 2 551 571 
+679 1 650 
+555 1 524 
+300 0 
+46 1 46 
+52 2 52 57 
+436 1 213 
+55 10 -1 18 133 629 213 488 105 650 524 108 
+698 1 698 
+60 1 60 
+444 1 213 
+574 1 574 
+191 1 108 
+704 2 704 721 
+66 2 66 74 
+322 1 108 
+580 2 580 600 
+708 1 650 
+69 10 -1 18 133 629 213 488 105 650 524 108 
+584 1 524 
+202 1 133 
+77 1 77 
+83 2 83 91 
+724 1 724 
+213 1 213 
+86 10 -1 18 133 629 213 488 105 650 524 108 
+342 1 108 
+730 11 -1 18 133 629 213 727 488 105 650 524 108 
+603 1 603 
+94 1 94 
+350 1 108 
+609 11 -1 18 133 629 213 488 105 650 524 108 606 
+100 2 100 119 
+103 10 -1 18 133 629 213 488 105 650 524 108 
+488 1 488 
+108 1 108 
+375 1 133 
+122 1 122 
+636 1 636 
+510 1 510 
+Constructors: 3
+640 636
+514 510
+29 25
+
+Summary: 0
+
+org/apache/lucene/index/DocumentsWriter.setInfoStream(Ljava/io/PrintStream;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+$r5 1 22 
+$r3 1 9 
+$r4 1 21 
+$r2 1 9 
+Fields: 3
+-1 threadStates 9
+21 docState 22
+9 ArrayObject 21
+Accesses: 5
+16 1 -1 
+2 1 -1 
+21 1 21 
+8 1 -1 
+26 1 22 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/lucene/index/DocumentsWriter.pauseAllThreads()Z
+PTG:
+Vars:
+3
+$r3 1 25 
+r0 1 -1 
+$r1 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+34 1 -1 
+7 1 -1 
+Functions: 4
+-1 0 
+18 1 -1 
+10 1 -1 
+28 1 25 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.setMaxFieldLength(I)V
+PTG:
+Vars:
+5
+$r4 1 22 
+$r1 1 9 
+$r3 1 21 
+r0 1 -1 
+$r2 1 9 
+Fields: 3
+-1 threadStates 9
+21 docState 22
+9 ArrayObject 21
+Accesses: 5
+16 1 -1 
+2 1 -1 
+21 1 21 
+8 1 -1 
+26 1 22 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.getMaxBufferedDeleteTerms()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.applyDeletes(Lorg/apache/lucene/index/IndexReader;I)Z
+PTG:
+Vars:
+14
+r0 1 -2 
+r23 1 -2 
+r24 1 -2 
+$r19 1 -2 
+r1 1 -1 
+$r4 1 -2 
+$r20 1 -2 
+$r21 1 -1 
+$r17 1 -2 
+$r2 1 -2 
+$r3 1 -2 
+$r18 1 -2 
+r22 1 -2 
+r25 1 -2 
+Fields: 2
+-1 deletesFlushed -2
+-2 terms -2
+Accesses: 1
+2000000000 2 -1 -2 
+Functions: 1
+-1 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/lucene/index/DocumentsWriter.clearFlushPending()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.setMaxBufferedDocs(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.bufferDeleteTerm(Lorg/apache/lucene/index/Term;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 3
+2 1 -1 
+11 2 -1 -2 
+14 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/lucene/index/DocumentsWriter.doAfterFlush()V
+PTG:
+Vars:
+6
+$r2 1 29 
+r0 1 -1 
+$r4 1 76 
+$r6 1 64 
+$r1 1 22 
+$r3 1 64 
+Fields: 4
+-1 waitQueue 29
+-1 threadStates 64
+-1 threadBindings 22
+64 ArrayObject 76
+Accesses: 10
+52 1 -1 
+21 1 -1 
+37 1 -1 
+71 1 -1 
+88 1 -1 
+57 1 -1 
+42 1 -1 
+28 1 -1 
+47 1 -1 
+63 1 -1 
+Functions: 5
+32 1 29 
+17 0 
+6 5 -1 64 22 76 29 
+25 1 22 
+77 1 76 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.openFiles()Ljava/util/List;
+PTG:
+Vars:
+6
+$r3 1 7 
+$r4 1 7 
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+_ret 1 7 
+Fields: 1
+-1 openFiles 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.addDeleteDocID(I)V
+PTG:
+Vars:
+4
+$r3 1 4 
+$r1 1 1 
+$r2 1 7 
+r0 1 -1 
+Fields: 2
+1 docIDs 4
+-1 deletesInRAM 1
+Accesses: 3
+0 1 -1 
+1 1 1 
+11 1 -1 
+Functions: 2
+17 1 7 
+20 2 4 7 
+Constructors: 1
+17 7
+
+Summary: 2
+-1 7 
+org/apache/lucene/index/DocumentsWriter.addDeleteTerm(Lorg/apache/lucene/index/Term;I)V
+PTG:
+Vars:
+10
+$r3 1 4 
+$r7 1 1 
+r2 1 -2 
+$r6 1 1 
+r5 1 8 
+$r8 1 35 
+$r4 1 8 
+$r9 1 4 
+r0 1 -1 
+$r1 1 1 
+Fields: 2
+1 terms 4
+-1 deletesInRAM 1
+Accesses: 8
+0 1 -1 
+1 1 1 
+67 1 1 
+57 1 -1 
+58 1 1 
+27 1 -1 
+28 1 1 
+15 1 -1 
+Functions: 4
+4 2 -2 4 
+54 1 8 
+41 1 35 
+44 3 -2 35 4 
+Constructors: 1
+41 35
+
+Summary: 4
+-1 35 -2 0 
+org/apache/lucene/index/DocumentsWriter.getBufferedDeleteTerms()Ljava/util/HashMap;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+_ret 1 4 
+Fields: 2
+1 terms 4
+-1 deletesInRAM 1
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.bufferDeleteTerms([Lorg/apache/lucene/index/Term;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 16 
+Fields: 1
+-2 ArrayObject 16
+Accesses: 1
+17 1 -1 
+Functions: 3
+2 1 -1 
+21 2 -1 16 
+30 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 -2 16 
+org/apache/lucene/index/DocumentsWriter.getIntBlock(Z)[I
+PTG:
+Vars:
+7
+$r1 1 1 
+r6 2 41 28 
+$r2 1 1 
+$r4 1 41 
+r0 1 -1 
+$r3 1 41 
+_ret 2 41 28 
+Fields: 1
+-1 freeIntBlocks 1
+Accesses: 8
+0 1 -1 
+64 1 -1 
+34 1 -1 
+22 1 -1 
+55 1 -1 
+73 1 -1 
+13 1 -1 
+77 1 -1 
+Functions: 3
+1 1 1 
+35 1 1 
+89 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.recycleCharBlocks([[CI)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 13 
+r0 1 -1 
+$r3 1 8 
+Fields: 2
+-1 freeCharBlocks 8
+-2 ArrayObject 13
+Accesses: 1
+7 1 -1 
+Functions: 1
+14 2 8 13 
+Constructors: 0
+
+Summary: 4
+-1 13 -2 0 
+org/apache/lucene/index/DocumentsWriter.getSegment()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 segment 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.removeOpenFile(Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 -2 
+$r2 1 7 
+$r3 1 39 
+$r4 1 7 
+Fields: 2
+-1 closedFiles 39
+-1 openFiles 7
+Accesses: 3
+6 1 -1 
+38 1 -1 
+27 1 -1 
+Functions: 4
+32 2 -2 7 
+7 2 -2 7 
+23 0 
+43 2 -2 39 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/index/DocumentsWriter.setAborting()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.setFlushPending()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.bytesUsed(J)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+0 1 -1 
+16 1 -1 
+20 1 -1 
+7 1 -1 
+Functions: 1
+32 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.finishDocument(Lorg/apache/lucene/index/DocumentsWriterThreadState;Lorg/apache/lucene/index/DocumentsWriter$DocWriter;)V
+PTG:
+Vars:
+9
+$r9 1 84 
+r3 1 -3 
+$r5 1 30 
+$r6 1 97 
+$r10 1 30 
+$r8 1 111 
+r0 1 -1 
+$r7 1 97 
+r4 1 -2 
+Fields: 4
+-1 skipDocWriter 97
+-1 waitQueue 111
+-1 waitQueue 84
+-2 docState 30
+Accesses: 17
+96 1 -1 
+100 1 -2 
+132 1 -1 
+69 1 -2 
+101 1 30 
+107 1 97 
+139 1 -1 
+110 1 -1 
+47 1 -1 
+114 1 -1 
+83 1 -1 
+148 1 -1 
+25 1 -3 
+153 1 -2 
+29 1 -2 
+30 1 30 
+158 1 -2 
+Functions: 9
+0 4 -1 97 84 111 
+129 4 -1 97 84 111 
+162 4 -1 97 84 111 
+84 2 -3 84 
+8 4 -1 97 84 111 
+73 4 -1 97 84 111 
+43 0 
+59 1 -3 
+111 2 97 111 
+Constructors: 0
+
+Summary: 3
+30 -2 -3 
+org/apache/lucene/index/DocumentsWriter.remapDeletes(Lorg/apache/lucene/index/SegmentInfos;[[I[ILorg/apache/lucene/index/MergePolicy$OneMerge;I)V
+PTG:
+Vars:
+8
+r3 1 -4 
+$r8 1 38 
+r6 1 -1 
+$r1 1 5 
+$r7 1 22 
+r2 1 -2 
+r0 1 -3 
+r4 1 -5 
+Fields: 2
+-1 deletesInRAM 22
+-1 deletesFlushed 38
+Accesses: 5
+64 1 -1 
+21 1 -1 
+37 1 -1 
+53 1 -1 
+58 1 5 
+Functions: 3
+16 5 -2 -3 -4 -5 5 
+34 6 -2 -3 -4 -5 5 22 
+50 6 -2 -3 -4 -5 5 38 
+Constructors: 1
+16 5
+
+Summary: 10
+-1 -5 2 5 -2 3 -4 1 -3 0 
+org/apache/lucene/index/DocumentsWriter.waitReady(Lorg/apache/lucene/index/DocumentsWriterThreadState;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 -1 
+r2 1 -2 
+$r5 1 47 
+Fields: 0
+Accesses: 6
+0 1 -1 
+32 1 -1 
+18 1 -1 
+56 1 -1 
+25 1 -1 
+11 1 -2 
+Functions: 4
+-1 0 
+50 1 47 
+69 0 
+40 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/lucene/index/DocumentsWriter.setRAMBufferSizeMB(D)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 12
+19 1 -1 
+99 1 -1 
+85 1 -1 
+71 1 -1 
+57 1 -1 
+26 1 -1 
+43 1 -1 
+12 1 -1 
+92 1 -1 
+61 1 -1 
+78 1 -1 
+47 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.recycleIntBlocks([[III)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 16 
+r1 1 -2 
+$r3 1 10 
+Fields: 2
+-1 freeIntBlocks 10
+-2 ArrayObject 16
+Accesses: 1
+9 1 -1 
+Functions: 1
+17 2 16 10 
+Constructors: 0
+
+Summary: 4
+-1 -2 16 0 
+org/apache/lucene/index/DocumentsWriter.abortedFiles()Ljava/util/Collection;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 abortedFiles 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.doBalanceRAM()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 6
+0 1 -1 
+18 1 -1 
+34 1 -1 
+22 1 -1 
+11 1 -1 
+30 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.bufferDeleteQueries([Lorg/apache/lucene/search/Query;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 16 
+r1 1 -2 
+Fields: 1
+-2 ArrayObject 16
+Accesses: 1
+17 1 -1 
+Functions: 3
+2 1 -1 
+21 2 -1 16 
+30 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 -2 16 
+org/apache/lucene/index/DocumentsWriter.getDocStoreSegment()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 docStoreSegment 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 2 9 19 
+Fields: 0
+Accesses: 0
+Functions: 2
+19 2 19 9 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/DocumentsWriter.segmentSize(Ljava/lang/String;)J
+PTG:
+Vars:
+29
+$r26 1 22 
+$r24 1 147 
+$r5 1 39 
+$r21 1 125 
+$r11 1 69 
+$r19 1 116 
+$r9 1 60 
+$r7 1 52 
+$r27 1 22 
+$r16 1 97 
+$r22 1 133 
+$r4 1 33 
+$r28 1 7 
+$r8 1 22 
+$r10 1 66 
+$r14 1 88 
+$r18 1 22 
+r25 1 153 
+$r17 1 108 
+r0 1 -1 
+$r2 1 22 
+$r1 1 25 
+$r13 1 22 
+$r15 1 94 
+$r20 1 122 
+$r23 1 141 
+$r6 1 42 
+r3 1 -2 
+$r12 1 80 
+Fields: 2
+-1 infoStream 7
+-1 directory 22
+Accesses: 7
+48 1 -1 
+21 1 -1 
+6 1 -1 
+104 1 -1 
+168 1 -1 
+155 1 -1 
+76 1 -1 
+Functions: 27
+66 1 66 
+133 2 -2 133 
+137 1 133 
+77 2 97 22 
+141 1 141 
+80 2 80 -2 
+17 0 
+147 1 147 
+84 1 80 
+22 2 22 42 
+88 1 88 
+25 2 -2 25 
+156 2 22 153 
+29 1 25 
+94 1 94 
+33 1 33 
+39 1 39 
+105 2 22 125 
+169 2 22 153 
+108 2 -2 108 
+112 1 108 
+49 2 69 22 
+52 2 -2 52 
+116 1 116 
+56 1 52 
+122 1 122 
+60 1 60 
+Constructors: 5
+112 108
+84 80
+56 52
+137 133
+29 25
+
+Summary: 2
+-1 -2 
+org/apache/lucene/index/DocumentsWriter.timeToFlushDeletes()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+7 1 -1 
+14 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.hasDeletes()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 deletesFlushed 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.initFlushState(Z)V
+PTG:
+Vars:
+14
+$r11 1 28 
+$r10 1 13 
+$r4 1 58 
+r0 1 -1 
+$r2 1 47 
+$r13 1 6 
+$r6 1 6 
+$r5 1 6 
+$r7 1 6 
+$r1 1 6 
+$r12 1 6 
+$r8 1 90 
+$r9 1 6 
+$r3 1 6 
+Fields: 4
+-1 flushState 6
+-1 segment 58
+-1 docStoreSegment 47
+-1 directory 28
+Accesses: 21
+64 1 -1 
+97 1 6 
+34 1 -1 
+68 1 -1 
+5 1 -1 
+39 1 6 
+72 1 6 
+42 1 -1 
+75 1 -1 
+46 1 -1 
+79 1 -1 
+50 1 6 
+83 1 6 
+20 1 -1 
+53 1 -1 
+86 1 -1 
+23 1 -1 
+57 1 -1 
+27 1 -1 
+61 1 6 
+31 1 6 
+Functions: 3
+17 1 13 
+2 5 -1 6 58 28 47 
+94 1 90 
+Constructors: 2
+17 13
+94 90
+
+Summary: 0
+
+org/apache/lucene/index/DocumentsWriter.closedFiles()Ljava/util/List;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 1 
+$r3 1 7 
+$r1 1 1 
+$r4 1 7 
+_ret 1 7 
+Fields: 1
+-1 closedFiles 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.getRAMBufferSizeMB()D
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+17 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.addDeleteQuery(Lorg/apache/lucene/search/Query;I)V
+PTG:
+Vars:
+5
+r2 1 -2 
+$r4 1 4 
+$r3 1 8 
+r0 1 -1 
+$r1 1 1 
+Fields: 2
+1 queries 4
+-1 deletesInRAM 1
+Accesses: 3
+0 1 -1 
+1 1 1 
+12 1 -1 
+Functions: 2
+18 1 8 
+21 3 -2 4 8 
+Constructors: 1
+18 8
+
+Summary: 4
+-1 -2 0 8 
+org/apache/lucene/index/DocumentsWriter.deletesFull()Z
+PTG:
+Vars:
+6
+$r5 1 30 
+$r3 1 19 
+$r1 1 9 
+$r2 1 9 
+$r4 1 9 
+r0 1 -1 
+Fields: 3
+-1 deletesInRAM 9
+9 queries 19
+9 docIDs 30
+Accesses: 8
+0 1 -1 
+16 1 9 
+39 1 -1 
+8 1 -1 
+9 1 9 
+26 1 -1 
+27 1 9 
+15 1 -1 
+Functions: 2
+19 1 19 
+30 1 30 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.getRAMUsed()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.<init>(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/index/IndexWriter;)V
+PTG:
+Vars:
+25
+$r10 1 164 
+$r3 1 31 
+$r16 1 225 
+$r5 1 112 
+r14 1 -3 
+r13 1 -2 
+$r7 1 134 
+$r27 1 289 
+$r29 1 299 
+$r31 1 314 
+$r2 1 13 
+$r21 1 251 
+$r4 1 42 
+$r9 1 153 
+$r12 1 188 
+$r18 1 234 
+$r11 1 177 
+$r23 1 267 
+$r25 1 276 
+$r8 1 146 
+$r20 1 243 
+$r1 1 6 
+$r6 1 123 
+$r15 1 211 
+r0 1 -1 
+Fields: 0
+Accesses: 28
+65 1 -1 
+130 1 -1 
+196 1 -1 
+325 1 -1 
+328 1 -1 
+9 1 -1 
+201 1 -1 
+75 1 -1 
+142 1 -1 
+206 1 -1 
+79 1 -1 
+20 1 -1 
+149 1 -1 
+214 1 -1 
+89 1 -1 
+27 1 -1 
+222 1 -1 
+96 1 -1 
+160 1 -1 
+38 1 -1 
+103 1 -1 
+108 1 -1 
+173 1 -1 
+49 1 -1 
+54 1 -1 
+119 1 -1 
+184 1 -1 
+61 1 -1 
+Functions: 23
+-1 0 
+1 1 -1 
+193 2 -1 188 
+321 3 -1 314 299 
+35 1 31 
+259 3 -1 225 251 
+230 2 -1 225 
+262 4 -1 243 234 251 
+294 2 -1 289 
+170 2 -1 164 
+139 1 134 
+46 1 42 
+238 1 234 
+271 1 267 
+17 1 13 
+210 1 -3 
+307 3 289 276 299 
+116 1 112 
+181 1 177 
+218 1 -3 
+284 3 243 276 267 
+157 1 153 
+127 1 123 
+Constructors: 20
+1 -1
+193 188
+321 314
+35 31
+259 251
+230 225
+262 243
+294 289
+170 164
+139 134
+46 42
+238 234
+271 267
+17 13
+307 299
+116 112
+181 177
+284 276
+157 153
+127 123
+
+Summary: 11
+251 276 289 0 234 -1 299 1 267 243 225 
+org/apache/lucene/index/DocumentsWriter.resumeAllThreads()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+0 1 -1 
+16 1 -1 
+32 1 -1 
+7 1 -1 
+Functions: 2
+40 1 -1 
+27 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocumentsWriter.access$300(Lorg/apache/lucene/index/DocumentsWriter;)J
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/lucene/index/DocumentsWriter.setMaxBufferedDeleteTerms(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,340 @@
+17
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.lookupPrimop(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/SymbolTable;Ljava/lang/String;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodType;)Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodType;
+PTG:
+Vars:
+9
+r4 1 40 
+r5 1 -4 
+r0 1 -2 
+r1 1 -3 
+r7 1 40 
+_ret 1 40 
+$r3 1 40 
+r6 1 -1 
+r2 1 8 
+Fields: 0
+Accesses: 0
+Functions: 6
+48 1 40 
+3 2 -2 -3 
+36 1 8 
+53 1 -4 
+72 2 -4 40 
+15 1 8 
+Constructors: 0
+
+Summary: 8
+-3 -2 2 0 -1 -4 8 1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.evaluateAtCompileTime()Ljava/lang/Object;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.synthesize(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+14
+$r11 1 42 
+$r12 1 50 
+r4 1 -1 
+$r10 1 47 
+$r13 1 60 
+r2 1 -3 
+$r8 1 28 
+r9 1 39 
+r3 1 9 
+$r14 1 63 
+$r7 1 20 
+$r6 1 12 
+$r5 1 17 
+r0 1 -2 
+Fields: 2
+-1 _trueList 12
+-1 _falseList 42
+Accesses: 2
+41 1 -1 
+11 1 -1 
+Functions: 10
+33 1 28 
+66 2 39 63 
+4 1 -2 
+5 1 -3 
+53 2 50 42 
+23 2 20 12 
+26 2 9 28 
+58 2 9 60 
+45 2 9 47 
+15 2 17 9 
+Constructors: 1
+33 28
+
+Summary: 11
+20 -3 -2 39 0 1 50 63 28 9 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.getFalseList()Lcom/sun/org/apache/xalan/internal/xsltc/compiler/FlowList;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 _falseList 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.compile(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)Lcom/sun/org/apache/bcel/internal/generic/InstructionList;
+PTG:
+Vars:
+6
+r4 1 -1 
+r1 1 4 
+r0 1 -3 
+r5 1 -2 
+_ret 1 7 
+$r2 1 7 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -3 
+16 2 -3 7 
+22 3 -1 -2 -3 
+11 1 7 
+28 2 -3 4 
+Constructors: 1
+11 7
+
+Summary: 5
+-3 -2 4 0 1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.<init>()V
+PTG:
+Vars:
+3
+$r2 1 16 
+$r1 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+23 1 -1 
+12 1 -1 
+Functions: 3
+1 1 -1 
+20 1 16 
+9 1 5 
+Constructors: 3
+1 -1
+20 16
+9 5
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.getTrueList()Lcom/sun/org/apache/xalan/internal/xsltc/compiler/FlowList;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 _trueList 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.translateDesynthesized(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 7 
+r1 1 -2 
+r2 1 -3 
+Fields: 1
+-1 _type 7
+Accesses: 1
+6 1 -1 
+Functions: 2
+3 4 -1 -2 -3 7 
+19 4 -1 -2 -3 7 
+Constructors: 0
+
+Summary: 4
+-3 -2 0 1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.backPatchTrueList(Lcom/sun/org/apache/bcel/internal/generic/InstructionHandle;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 _trueList 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.getType()Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/Type;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 _type 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.translate(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+6
+$r4 1 16 
+r5 1 -2 
+$r0 1 0 
+r6 1 -3 
+$r2 1 7 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+21 2 16 0 
+6 1 -1 
+11 3 0 -1 7 
+15 1 -1 
+Constructors: 1
+11 0
+
+Summary: 8
+-3 16 -2 7 0 -1 0 1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.hasPositionCall()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.desynthesize(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+7
+r0 1 -3 
+r1 1 4 
+$r5 1 18 
+$r4 1 6 
+r7 1 -2 
+r2 1 -1 
+$r3 1 10 
+Fields: 1
+-1 _falseList 6
+Accesses: 1
+5 1 -1 
+Functions: 4
+0 1 -3 
+21 2 18 6 
+9 2 4 10 
+15 1 10 
+Constructors: 1
+15 10
+
+Summary: 8
+-3 -2 4 0 -1 18 1 10 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.startIterator(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+9
+r2 1 -3 
+$r8 1 -1 
+r9 1 -2 
+r10 2 -1 27 
+$r6 1 54 
+$r1 1 1 
+r3 1 39 
+$r4 1 44 
+r0 1 -1 
+Fields: 1
+-1 _type 1
+Accesses: 1
+0 1 -1 
+Functions: 6
+35 1 -3 
+21 2 -1 1 
+53 1 -3 
+57 2 54 39 
+43 1 -3 
+47 2 39 44 
+Constructors: 0
+
+Summary: 9
+-3 -2 54 39 0 44 -1 27 1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.typeCheck(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/SymbolTable;)Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/Type;
+PTG:
+Vars:
+4
+$r2 1 2 
+r0 1 -1 
+_ret 1 2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.backPatchFalseList(Lcom/sun/org/apache/bcel/internal/generic/InstructionHandle;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 _falseList 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Expression.hasLastCall()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

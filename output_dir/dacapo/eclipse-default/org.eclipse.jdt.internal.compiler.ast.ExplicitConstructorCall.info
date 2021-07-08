@@ -1,0 +1,664 @@
+15
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.printStatement(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+17
+$r19 1 29 
+$r23 1 7 
+$r8 2 133 157 
+$r26 1 133 
+r0 1 -3 
+$r4 1 29 
+$r7 1 184 
+$r24 1 19 
+$r15 2 57 29 
+r2 1 -1 
+$r6 1 133 
+_ret 1 184 
+$r9 1 161 
+$r3 1 7 
+$r14 1 29 
+$r16 1 62 
+$r20 1 91 
+Fields: 8
+-1 arguments 133
+-1 typeArguments 29
+-1 qualification 7
+57 ArrayObject 62
+29 ArrayObject 91
+29 ArrayObject 62
+133 ArrayObject 161
+157 ArrayObject 161
+Accesses: 10
+132 1 -1 
+6 1 -1 
+86 1 -1 
+56 1 -1 
+105 1 -1 
+42 1 -1 
+28 1 -1 
+156 1 -1 
+172 1 -1 
+13 1 -1 
+Functions: 13
+128 1 -3 
+65 2 -3 62 
+2 1 -3 
+164 2 161 -3 
+101 1 -3 
+38 1 -3 
+73 1 -3 
+14 2 -3 7 
+180 1 -3 
+117 1 -3 
+24 1 19 
+152 1 -3 
+94 2 -3 91 
+Constructors: 0
+
+Summary: 2
+1 -1 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.<init>(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+13
+r0 1 -2 
+$r12 1 10 
+$r4 1 26 
+r1 1 -1 
+$r10 2 45 26 
+$r8 1 88 
+$r11 1 49 
+$r7 2 65 84 
+$r5 1 65 
+r2 1 -3 
+$r9 1 26 
+$r3 1 10 
+$r6 1 65 
+Fields: 7
+-1 arguments 65
+-1 typeArguments 26
+-1 qualification 10
+45 ArrayObject 49
+65 ArrayObject 88
+26 ArrayObject 49
+84 ArrayObject 88
+Accesses: 8
+16 1 -1 
+64 1 -1 
+34 1 -1 
+83 1 -1 
+9 1 -1 
+25 1 -1 
+73 1 -1 
+44 1 -1 
+Functions: 5
+0 8 -1 -2 65 49 -3 88 26 10 
+52 3 49 -2 -3 
+22 3 -2 -3 10 
+106 8 -1 -2 65 49 -3 88 26 10 
+91 3 -2 -3 88 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+28
+$r3 1 9 
+$r15 1 110 
+r2 1 -1 
+r9 1 -3 
+$r7 1 86 
+$r25 1 -1 
+$r14 1 103 
+$r23 1 9 
+r0 1 -2 
+$r16 1 77 
+$r12 2 80 128 
+r29 2 80 128 
+$r10 1 142 
+$r30 2 -1 145 
+$r17 1 117 
+$r5 1 77 
+$r22 1 59 
+$r24 1 22 
+$r20 2 50 30 
+$r6 1 80 
+$r1 1 -2 
+$r11 1 145 
+$r4 1 30 
+$r21 1 55 
+$r19 1 30 
+r28 3 65 -4 28 
+$r18 1 120 
+$r27 1 -2 
+Fields: 9
+-1 genericTypeArguments 103
+-1 binding 77
+-1 arguments 30
+-1 qualification 9
+77 thrownExceptions 80
+117 thrownExceptions 120
+50 ArrayObject 55
+30 ArrayObject 55
+142 referenceContext 145
+Accesses: 15
+193 1 -2 
+5 1 -2 
+133 1 -1 
+102 1 -1 
+39 1 -1 
+8 1 -1 
+76 1 -1 
+77 1 77 
+142 1 142 
+15 1 -1 
+49 1 -1 
+113 1 -1 
+117 1 117 
+92 1 -1 
+29 1 -1 
+Functions: 11
+16 6 -2 65 -3 -4 9 28 
+114 2 80 77 
+163 11 -1 80 -2 65 -4 103 55 9 28 77 30 
+22 1 22 
+55 6 -2 65 -3 -4 55 28 
+169 11 -1 80 -2 65 -4 103 55 9 28 77 30 
+59 1 59 
+109 1 -2 
+141 1 -2 
+157 14 128 -1 65 -2 -3 -4 103 9 77 80 145 55 28 30 
+110 2 120 110 
+Constructors: 0
+
+Summary: 11
+-3 -1 145 0 1 142 110 2 117 128 120 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.setFieldIndex(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.manageEnclosingInstanceAccessIfNecessary(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+11
+$r3 1 7 
+r5 1 -3 
+$r2 1 4 
+$r8 1 73 
+$r7 1 31 
+$r1 1 1 
+r0 1 -1 
+$r12 1 7 
+r4 1 7 
+r6 1 -2 
+$r11 1 53 
+Fields: 4
+-1 binding 1
+-1 qualification 73
+-1 qualification 53
+1 declaringClass 4
+Accesses: 5
+0 1 -1 
+1 1 1 
+52 1 -1 
+72 1 -1 
+14 1 -3 
+Functions: 7
+64 2 -2 7 
+4 1 4 
+84 2 -2 7 
+23 1 7 
+40 1 7 
+30 1 -2 
+31 1 31 
+Constructors: 0
+
+Summary: 6
+-1 7 31 1 -3 0 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.isSuperAccess()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.isTypeAccess()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.setActualReceiverType(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.setDepth(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.manageSyntheticAccessIfNecessary(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+11
+r8 1 -2 
+$r7 1 95 
+r3 1 16 
+$r6 1 39 
+r1 1 -1 
+$r2 1 10 
+$r4 1 10 
+r0 1 -3 
+r5 1 39 
+$r9 1 102 
+$r10 1 56 
+Fields: 2
+-1 binding 10
+16 declaringClass 39
+Accesses: 10
+0 1 -3 
+17 1 -1 
+98 1 -1 
+35 1 16 
+69 1 16 
+56 1 56 
+9 1 -1 
+41 1 39 
+27 1 -1 
+78 1 16 
+Functions: 7
+18 1 10 
+101 1 -2 
+55 1 -2 
+87 2 16 39 
+10 1 10 
+91 2 -1 10 
+107 5 16 -1 102 39 10 
+Constructors: 0
+
+Summary: 8
+-1 39 1 16 -3 56 0 102 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;)V
+PTG:
+Vars:
+17
+$r22 1 114 
+$r2 1 -2 
+r6 1 42 
+r3 1 -3 
+$r10 1 139 
+r1 1 -2 
+$r20 1 101 
+$r8 1 139 
+$r11 1 152 
+$r13 1 139 
+$r12 1 158 
+$r7 1 46 
+$r21 1 29 
+r0 1 -1 
+r5 1 35 
+$r4 1 29 
+$r9 1 -2 
+Fields: 7
+-1 syntheticAccessor 139
+-1 binding 29
+-1 arguments 114
+-1 qualification 101
+35 parameters 158
+35 declaringClass 42
+139 parameters 152
+Accesses: 17
+0 1 -1 
+100 1 -1 
+37 1 35 
+138 1 -1 
+235 1 -2 
+109 1 -1 
+46 1 46 
+207 1 -1 
+16 1 -2 
+113 1 -1 
+19 1 -3 
+148 1 -1 
+85 1 -1 
+149 1 139 
+185 1 -1 
+28 1 -1 
+156 1 35 
+Functions: 15
+66 1 -3 
+70 1 -3 
+135 9 -1 -2 -3 114 101 152 42 139 29 
+73 1 42 
+105 9 -1 -2 -3 114 101 152 42 139 29 
+169 1 -3 
+202 4 -3 35 42 158 
+44 1 42 
+211 1 -3 
+119 8 -1 -2 114 -3 101 152 139 29 
+25 1 -3 
+57 1 42 
+122 1 42 
+29 1 29 
+190 3 -3 152 139 
+Constructors: 0
+
+Summary: 8
+35 1 -3 46 -1 158 0 -2 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.resolve(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+70
+r99 1 183 
+$r74 1 419 
+$r35 1 1017 
+$r24 1 1049 
+$r39 1 867 
+$r103 1 351 
+r104 1 407 
+$r51 1 829 
+r2 1 9 
+$r86 1 254 
+r102 1 336 
+r101 1 291 
+$r23 1 1079 
+$r84 1 254 
+$r33 1 1014 
+$r36 1 1027 
+$r50 1 823 
+$r26 1 867 
+$r21 1 1049 
+$r30 1 867 
+$r22 1 1052 
+$r89 1 244 
+$r100 1 254 
+$r17 1 25 
+$r29 1 867 
+$r40 1 867 
+$r48 1 867 
+$r16 1 9 
+$r88 1 239 
+$r38 2 1035 410 
+$r42 1 930 
+$r69 1 358 
+$r47 1 893 
+$r52 1 524 
+$r27 1 867 
+r1 1 4 
+$r93 1 192 
+$r70 1 351 
+$r75 1 444 
+$r90 1 247 
+$r53 2 524 554 
+$r19 1 805 
+$r81 1 254 
+$r34 1 1020 
+$r25 1 1049 
+$r83 1 299 
+r3 1 -1 
+$r87 1 227 
+$r72 2 351 401 
+$r54 1 592 
+$r37 1 351 
+r98 2 174 156 
+$r41 1 989 
+$r92 1 192 
+$r28 1 524 
+$r32 1 867 
+$r20 1 853 
+$r18 1 524 
+r105 3 518 542 817 
+$r82 1 254 
+$r31 1 351 
+$r43 1 867 
+$r73 1 410 
+$r71 1 388 
+$r46 1 883 
+$r91 1 177 
+$r85 1 269 
+r0 1 -2 
+$r49 1 817 
+r106 1 560 
+Fields: 17
+9 constructorCall 25
+-1 genericTypeArguments 1035
+-1 genericTypeArguments 410
+-1 binding 1049
+-1 binding 867
+-1 arguments 524
+-1 typeArguments 351
+-1 qualification 254
+1049 declaringClass 1052
+524 ArrayObject 560
+351 ArrayObject 407
+401 ArrayObject 407
+554 ArrayObject 560
+244 binding 247
+1014 typeVariables 1017
+177 superclass 183
+183 resolvedType 192
+Accesses: 79
+897 1 -1 
+260 1 -1 
+1030 1 -1 
+391 1 -1 
+905 1 -1 
+1034 1 -1 
+523 1 -1 
+910 1 -1 
+1038 1 -1 
+143 1 4 
+272 1 -1 
+400 1 -1 
+149 1 4 
+533 1 -1 
+22 1 9 
+1048 1 -1 
+409 1 -1 
+1049 1 1049 
+799 1 4 
+161 1 -1 
+1058 1 -1 
+805 1 805 
+933 1 -1 
+40 1 -1 
+1064 1 1049 
+553 1 -1 
+302 1 -1 
+47 1 -1 
+688 1 -1 
+177 1 177 
+945 1 -1 
+1074 1 4 
+691 1 -1 
+949 1 -1 
+311 1 -1 
+56 1 -1 
+570 1 560 
+698 1 -1 
+1083 1 -1 
+190 1 183 
+320 1 -1 
+66 1 -1 
+579 1 560 
+708 1 -1 
+964 1 -1 
+198 1 183 
+326 1 -1 
+1097 1 4 
+842 1 4 
+76 1 -1 
+972 1 -1 
+975 1 -1 
+1105 1 4 
+338 1 -1 
+467 1 -1 
+217 1 -1 
+857 1 -1 
+985 1 -1 
+477 1 -1 
+989 1 989 
+350 1 -1 
+866 1 -1 
+99 1 -1 
+227 1 227 
+867 1 867 
+358 1 358 
+487 1 -1 
+1000 1 989 
+1003 1 -1 
+109 1 -1 
+625 1 4 
+1010 1 -1 
+244 1 244 
+757 1 -1 
+1014 1 1014 
+119 1 -1 
+378 1 -1 
+253 1 -1 
+511 1 4 
+Functions: 57
+0 1 -2 
+1026 1 -2 
+5 1 4 
+901 12 -1 560 867 407 1049 410 1035 524 1052 893 254 351 
+775 1 -2 
+904 12 -1 560 -2 867 407 1049 410 1035 524 1052 254 351 
+268 1 -2 
+14 2 9 25 
+1042 6 1027 867 407 410 1035 351 
+278 4 156 269 254 174 
+152 1 -2 
+286 2 156 174 
+415 2 -2 407 
+32 1 -2 
+929 1 -2 
+803 2 156 174 
+676 14 -1 -2 867 1035 524 174 560 407 1049 410 156 1052 254 351 
+37 11 -1 560 867 407 1049 410 1035 524 1052 254 351 
+169 2 156 174 
+298 1 -2 
+938 12 -1 560 930 867 407 1049 410 1035 524 1052 254 351 
+176 1 -2 
+52 1 -2 
+308 4 299 156 254 174 
+822 1 -2 
+1078 1 -2 
+443 1 -2 
+699 0 
+957 17 -1 -2 867 518 1035 524 174 560 817 407 1049 410 156 1052 542 254 351 
+1087 12 -1 560 867 1079 407 1049 410 1035 524 1052 254 351 
+449 2 407 444 
+327 3 -2 291 254 
+200 1 192 
+589 2 560 -2 
+847 17 -1 -2 867 518 1035 524 174 560 817 407 1049 410 156 1052 542 254 351 
+976 1 867 
+85 1 -2 
+725 0 
+853 1 853 
+986 1 867 
+347 3 336 -2 254 
+225 2 156 174 
+739 1 -2 
+740 0 
+357 1 -2 
+743 0 
+238 1 -2 
+495 1 -2 
+882 1 4 
+243 1 4 
+883 1 883 
+1011 1 867 
+760 0 
+250 13 -1 867 1035 524 239 560 407 247 1049 410 1052 254 351 
+892 1 -2 
+127 1 -2 
+767 0 
+Constructors: 0
+
+Summary: 38
+727 444 1017 -1 33 805 183 752 247 542 177 730 893 631 989 1079 740 817 299 244 269 9 1027 25 765 1014 651 4 883 0 239 192 336 745 930 358 227 291 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.genericTypeArguments()[Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 genericTypeArguments 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall.isImplicitSuper()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

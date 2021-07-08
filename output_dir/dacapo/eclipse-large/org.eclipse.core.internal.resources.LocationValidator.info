@@ -1,0 +1,511 @@
+11
+org/eclipse/core/internal/resources/LocationValidator.validatePath(Lorg/eclipse/core/runtime/IPath;IZ)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+7
+$r3 1 332 
+r0 1 -2 
+r4 1 -1 
+$r2 1 323 
+_ret 1 332 
+$r1 1 23 
+r31 1 330 
+Fields: 0
+Accesses: 0
+Functions: 28
+261 0 
+326 2 -2 323 
+136 1 -1 
+137 1 -2 
+206 0 
+81 0 
+18 0 
+85 1 -2 
+341 2 330 332 
+22 1 -2 
+280 1 -1 
+281 1 -2 
+218 1 -2 
+157 1 -2 
+97 1 -2 
+34 0 
+230 1 -1 
+39 1 -2 
+231 1 -2 
+296 0 
+172 0 
+112 0 
+116 1 -2 
+54 0 
+247 1 -1 
+248 1 -2 
+58 1 -2 
+191 1 -2 
+Constructors: 1
+341 332
+
+Summary: 14
+236 330 101 23 43 139 36 161 -2 0 250 284 195 -1 
+org/eclipse/core/internal/resources/LocationValidator.validatePath(Ljava/lang/String;I)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+5
+r0 1 -2 
+$r2 1 22 
+r1 1 -1 
+_ret 1 27 
+$r3 1 27 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 0 
+20 2 -1 22 
+21 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 22 -1 
+org/eclipse/core/internal/resources/LocationValidator.validateSegments(Ljava/net/URI;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+10
+r7 1 -1 
+$r2 1 4 
+$r8 1 42 
+$r1 1 0 
+r0 1 -2 
+$r4 1 13 
+$r3 1 75 
+_ret 1 75 
+$r5 1 18 
+r9 1 51 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 2 0 4 
+17 1 -2 
+3 1 -2 
+21 2 18 13 
+53 1 51 
+38 2 -1 42 
+39 1 13 
+25 1 13 
+Constructors: 1
+21 13
+
+Summary: 6
+-2 4 42 0 -1 18 
+org/eclipse/core/internal/resources/LocationValidator.toString(Ljava/net/URI;)Ljava/lang/String;
+PTG:
+Vars:
+7
+$r2 1 4 
+$r1 1 1 
+r5 1 -1 
+$r3 1 -1 
+r0 1 -2 
+_ret 1 12 
+$r4 1 12 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+1 1 1 
+11 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 1 
+org/eclipse/core/internal/resources/LocationValidator.<init>(Lorg/eclipse/core/internal/resources/Workspace;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/resources/LocationValidator.validateName(Ljava/lang/String;I)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+5
+r1 1 46 
+r0 1 -2 
+$r5 1 133 
+_ret 1 133 
+r10 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 10
+16 0 
+129 0 
+20 1 -2 
+116 1 -2 
+54 1 -2 
+39 0 
+74 0 
+106 1 -2 
+91 0 
+78 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 0 82 120 75 -1 
+org/eclipse/core/internal/resources/LocationValidator.validateProjectLocationURI(Lorg/eclipse/core/resources/IProject;Ljava/net/URI;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+34
+r63 1 543 
+r0 1 -2 
+$r41 1 29 
+$r58 1 358 
+$r45 1 -1 
+r2 1 -1 
+r5 1 146 
+$r8 1 213 
+r50 1 176 
+$r3 1 134 
+r60 1 381 
+r52 1 230 
+r59 1 368 
+r55 1 298 
+r49 1 154 
+$r16 1 577 
+r1 1 -3 
+$r66 1 644 
+$r43 1 42 
+r61 1 391 
+$r40 1 26 
+$r39 1 61 
+r10 1 400 
+$r4 1 137 
+$r9 1 381 
+$r15 1 564 
+$r6 1 193 
+$r42 1 37 
+$r22 1 236 
+r53 1 244 
+r64 1 583 
+_ret 1 644 
+$r21 1 134 
+$r57 1 134 
+Fields: 4
+368 ArrayObject 381
+-1 workspace 134
+543 ArrayObject 564
+543 ArrayObject 577
+Accesses: 3
+354 1 -1 
+133 1 -1 
+232 1 -1 
+Functions: 62
+-1 0 
+385 1 381 
+513 1 -2 
+259 3 -1 146 134 
+134 1 134 
+137 2 -3 137 
+265 1 244 
+393 1 391 
+522 1 -2 
+267 0 
+15 0 
+148 3 -1 146 134 
+537 1 -2 
+26 1 26 
+156 1 154 
+29 1 29 
+286 0 
+414 2 -2 381 
+290 1 230 
+37 1 37 
+169 3 -1 146 134 
+42 2 -3 42 
+427 2 400 146 
+302 2 244 298 
+178 1 176 
+564 1 564 
+312 2 244 298 
+440 2 400 146 
+60 1 -2 
+61 1 61 
+191 1 146 
+577 1 577 
+323 3 -1 146 134 
+196 1 193 
+453 2 400 146 
+329 1 230 
+331 0 
+205 0 
+592 2 146 583 
+211 1 146 
+467 3 -1 146 134 
+84 2 -1 134 
+85 0 
+213 1 213 
+88 0 
+473 1 381 
+475 0 
+603 3 -1 146 134 
+350 0 
+606 0 
+96 0 
+225 1 146 
+355 1 134 
+358 1 358 
+104 0 
+233 1 134 
+236 1 236 
+621 1 -2 
+494 0 
+629 0 
+248 2 244 230 
+121 0 
+Constructors: 0
+
+Summary: 37
+236 101 267 331 193 475 622 244 275 213 483 368 339 110 391 146 612 61 298 -1 262 -3 606 137 543 1 326 358 470 400 -2 583 104 0 37 42 96 
+org/eclipse/core/internal/resources/LocationValidator.validateAbsolute(Ljava/net/URI;Z)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+4
+$r1 1 83 
+r9 1 -1 
+r0 1 -2 
+_ret 1 83 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+19 0 
+35 0 
+37 0 
+11 1 -2 
+15 0 
+31 1 -2 
+79 0 
+Constructors: 0
+
+Summary: 7
+-2 12 0 37 45 32 -1 
+org/eclipse/core/internal/resources/LocationValidator.validateLinkLocation(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+13
+r5 1 -2 
+$r9 1 105 
+r0 1 -1 
+$r10 1 110 
+$r2 1 4 
+$r6 1 120 
+$r4 1 92 
+$r8 1 100 
+$r1 1 1 
+$r7 1 123 
+r20 2 100 13 
+r3 1 -3 
+_ret 1 123 
+Fields: 1
+-1 workspace 1
+Accesses: 1
+0 1 -1 
+Functions: 17
+1 1 1 
+4 2 -3 4 
+38 0 
+104 2 100 13 
+105 1 105 
+42 2 100 13 
+14 2 100 13 
+79 1 -2 
+113 2 100 110 
+117 4 -1 1 -2 120 
+54 2 100 13 
+87 0 
+119 2 100 13 
+91 2 100 13 
+60 2 100 13 
+29 1 -2 
+62 0 
+Constructors: 1
+113 100
+
+Summary: 14
+80 -3 -2 62 4 70 30 120 55 110 13 -1 92 105 
+org/eclipse/core/internal/resources/LocationValidator.validateLinkLocationURI(Lorg/eclipse/core/resources/IResource;Ljava/net/URI;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+46
+r25 1 440 
+$r39 1 659 
+$r5 1 143 
+r28 1 463 
+$r14 1 178 
+r69 1 271 
+$r30 1 583 
+$r6 1 146 
+r8 1 155 
+$r9 1 158 
+r12 1 172 
+$r15 1 143 
+$r27 1 453 
+$r23 1 143 
+$r63 1 -1 
+r68 2 228 250 
+$r49 1 215 
+$r10 1 158 
+$r24 1 430 
+$r22 1 369 
+$r0 1 0 
+$r20 1 315 
+$r29 1 570 
+r4 1 -1 
+r70 1 293 
+r77 1 546 
+$r50 1 -2 
+r67 1 186 
+$r16 1 237 
+r71 1 326 
+r2 1 -2 
+r75 1 472 
+r7 1 -3 
+$r1 1 3 
+$r19 1 312 
+r26 1 453 
+$r48 1 143 
+r3 1 100 
+$r21 1 318 
+r78 1 589 
+_ret 1 659 
+$r18 1 143 
+$r11 1 166 
+$r13 1 143 
+r73 1 379 
+$r17 1 -2 
+Fields: 4
+546 ArrayObject 570
+546 ArrayObject 583
+-1 workspace 143
+440 ArrayObject 453
+Accesses: 6
+211 1 -1 
+308 1 -1 
+233 1 -1 
+426 1 -1 
+142 1 -1 
+174 1 -1 
+Functions: 70
+-1 0 
+0 1 0 
+3 1 3 
+131 1 -2 
+388 2 155 379 
+516 0 
+520 1 453 
+265 3 -1 155 143 
+138 0 
+143 1 143 
+399 3 -1 155 143 
+17 1 -2 
+273 1 271 
+18 0 
+146 2 146 -3 
+402 0 
+539 1 453 
+157 1 -2 
+286 3 -1 155 143 
+415 1 -2 
+33 1 -2 
+163 1 158 
+166 1 166 
+422 0 
+295 1 293 
+40 0 
+427 1 143 
+44 1 -2 
+430 1 430 
+175 1 143 
+178 2 178 172 
+309 1 143 
+312 1 312 
+570 1 570 
+315 1 315 
+188 1 186 
+318 1 318 
+67 1 -2 
+68 0 
+583 1 583 
+201 1 -2 
+457 1 453 
+330 2 326 155 
+465 1 463 
+83 1 -2 
+212 1 143 
+341 3 -1 155 143 
+598 2 155 589 
+215 3 -2 215 155 
+344 0 
+90 0 
+94 1 -2 
+481 2 472 155 
+609 3 -1 155 143 
+612 0 
+357 1 -2 
+102 1 100 
+234 1 143 
+364 0 
+492 3 -1 155 143 
+237 3 -2 155 237 
+495 0 
+368 1 -2 
+369 1 369 
+626 1 -2 
+115 1 -2 
+116 0 
+633 0 
+252 2 228 250 
+509 1 -2 
+Constructors: 0
+
+Summary: 47
+132 350 402 100 68 237 215 18 318 463 416 589 146 612 172 -1 408 158 -3 116 315 84 440 1 178 326 76 430 344 501 358 627 618 0 166 124 546 312 379 155 510 0 26 3 495 34 472 
+org/eclipse/core/internal/resources/LocationValidator.validateProjectLocation(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+9
+$r7 1 92 
+r5 1 -2 
+r1 1 -1 
+$r2 1 12 
+$r6 1 89 
+_ret 1 92 
+$r3 1 15 
+r0 1 -3 
+r4 1 24 
+Fields: 1
+-1 workspace 12
+Accesses: 1
+11 1 -1 
+Functions: 11
+34 1 24 
+82 0 
+4 3 -1 -2 12 
+52 1 24 
+54 0 
+86 4 -1 -2 89 12 
+88 1 24 
+25 1 24 
+12 1 12 
+46 1 24 
+15 2 -3 15 
+Constructors: 0
+
+Summary: 9
+15 -3 -2 54 62 24 89 -1 47 

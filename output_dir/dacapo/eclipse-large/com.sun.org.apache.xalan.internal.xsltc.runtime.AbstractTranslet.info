@@ -1,0 +1,1239 @@
+49
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.makeDOMAdapter(Lcom/sun/org/apache/xalan/internal/xsltc/DOM;)Lcom/sun/org/apache/xalan/internal/xsltc/dom/DOMAdapter;
+PTG:
+Vars:
+8
+r0 1 -1 
+$r3 1 28 
+$r4 1 24 
+$r5 1 20 
+$r2 1 10 
+_ret 1 10 
+r1 1 -2 
+$r6 1 16 
+Fields: 4
+-1 namespaceArray 28
+-1 urisArray 20
+-1 typesArray 24
+-1 namesArray 16
+Accesses: 4
+19 1 -1 
+23 1 -1 
+27 1 -1 
+15 1 -1 
+Functions: 3
+1 1 -2 
+7 5 -1 16 20 24 28 
+31 6 16 -2 20 24 10 28 
+Constructors: 1
+31 10
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.clearParameters()V
+PTG:
+Vars:
+2
+$r1 1 11 
+r0 1 -1 
+Fields: 1
+-1 paramsStack 11
+Accesses: 3
+4 1 -1 
+7 1 -1 
+10 1 -1 
+Functions: 1
+14 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.setAuxiliaryClasses(Ljava/util/Map;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.createKeyIndex()Lcom/sun/org/apache/xalan/internal/xsltc/dom/KeyIndex;
+PTG:
+Vars:
+3
+$r0 1 0 
+r1 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 1
+4 1 -1 
+Functions: 1
+8 1 0 
+Constructors: 1
+8 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.openOutputHandler(Ljava/lang/String;)Lcom/sun/org/apache/xml/internal/serializer/SerializationHandler;
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r2 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.setMessageHandler(Lcom/sun/org/apache/xalan/internal/xsltc/runtime/MessageHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.buildKeys(Lcom/sun/org/apache/xalan/internal/xsltc/DOM;Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;Lcom/sun/org/apache/xml/internal/serializer/SerializationHandler;I)V
+PTG:
+Vars:
+4
+r3 1 -4 
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-3 -2 -1 -4 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.buildKeyIndexHelper(Ljava/lang/String;)Lcom/sun/org/apache/xalan/internal/xsltc/dom/KeyIndex;
+PTG:
+Vars:
+10
+$r4 1 23 
+$r6 1 1 
+r9 2 41 23 
+$r1 1 1 
+$r3 1 1 
+r0 1 -1 
+r2 1 -2 
+_ret 2 41 23 
+$r5 1 41 
+$r8 1 8 
+Fields: 1
+-1 _keyIndexes 1
+Accesses: 5
+0 1 -1 
+18 1 -1 
+36 1 -1 
+45 1 -1 
+15 1 -1 
+Functions: 4
+49 1 41 
+19 2 1 -2 
+54 3 1 -2 41 
+12 1 8 
+Constructors: 2
+49 41
+12 8
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.transferOutputSettings(Lcom/sun/org/apache/xml/internal/serializer/SerializationHandler;)V
+PTG:
+Vars:
+24
+r0 1 -1 
+$r6 1 261 
+$r19 1 98 
+$r14 1 168 
+$r23 1 20 
+$r21 1 98 
+$r12 1 159 
+$r3 1 189 
+$r10 1 1 
+$r18 1 61 
+$r1 1 1 
+$r17 1 52 
+$r7 1 257 
+$r15 1 168 
+$r13 1 155 
+$r9 1 198 
+$r16 1 20 
+r2 1 -2 
+$r22 1 61 
+$r4 1 198 
+$r20 1 110 
+$r11 1 1 
+$r5 1 215 
+$r8 1 215 
+Fields: 14
+-1 _doctypeSystem 257
+-1 _doctypeSystem 98
+-1 _doctypeSystem 155
+-1 _cdata 52
+-1 _cdata 189
+-1 _method 1
+-1 _mediaType 168
+-1 _version 198
+-1 _version 61
+-1 _doctypePublic 261
+-1 _doctypePublic 110
+-1 _doctypePublic 159
+-1 _standalone 215
+-1 _standalone 20
+Accesses: 30
+0 1 -1 
+256 1 -1 
+131 1 -1 
+68 1 -1 
+260 1 -1 
+197 1 -1 
+7 1 -1 
+205 1 -1 
+78 1 -1 
+270 1 -1 
+144 1 -1 
+19 1 -1 
+214 1 -1 
+88 1 -1 
+154 1 -1 
+27 1 -1 
+158 1 -1 
+222 1 -1 
+97 1 -1 
+36 1 -1 
+167 1 -1 
+231 1 -1 
+105 1 -1 
+109 1 -1 
+175 1 -1 
+51 1 -1 
+246 1 -1 
+119 1 -1 
+60 1 -1 
+188 1 -1 
+Functions: 20
+192 2 -2 189 
+162 3 -2 155 159 
+226 2 -2 215 
+132 1 1 
+8 1 1 
+72 2 -2 61 
+264 3 -2 257 261 
+45 1 -2 
+240 1 -2 
+113 3 -2 98 110 
+209 2 -2 198 
+82 1 -2 
+274 1 -2 
+179 2 -2 168 
+148 1 -2 
+55 2 -2 52 
+250 1 -2 
+123 1 -2 
+92 1 -2 
+31 2 -2 20 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.addAuxiliaryClass(Ljava/lang/Class;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r2 1 -2 
+$r4 1 23 
+$r3 1 1 
+$r1 1 1 
+$r6 1 8 
+Fields: 1
+-1 _auxClasses 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 3
+22 1 -2 
+27 3 1 -2 23 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 3
+-2 23 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.newDocument(Ljava/lang/String;Ljava/lang/String;)Lorg/w3c/dom/Document;
+PTG:
+Vars:
+10
+r3 1 -3 
+r2 1 -2 
+$r7 1 17 
+r6 1 14 
+$r4 1 1 
+$r5 1 33 
+$r1 1 1 
+$r8 1 20 
+_ret 1 33 
+r0 1 -1 
+Fields: 1
+-1 _domImplementation 1
+Accesses: 4
+0 1 -1 
+7 1 -1 
+23 1 -1 
+26 1 -1 
+Functions: 4
+16 1 14 
+17 1 17 
+8 0 
+27 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 14 17 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.openOutputHandler(Ljava/lang/String;Z)Lcom/sun/org/apache/xml/internal/serializer/SerializationHandler;
+PTG:
+Vars:
+13
+$r1 1 8 
+r2 1 -2 
+$r6 1 116 
+r0 1 -1 
+$r4 1 35 
+$r10 1 62 
+r3 1 19 
+$r9 1 54 
+$r5 1 -1 
+$r11 1 69 
+r13 1 97 
+$r12 1 73 
+r7 1 7 
+Fields: 2
+-1 _method 62
+-1 _encoding 54
+Accesses: 3
+0 1 -1 
+53 1 -1 
+61 1 -1 
+Functions: 16
+1 0 
+65 2 7 62 
+102 4 -1 97 54 62 
+8 1 8 
+41 2 35 19 
+107 1 97 
+13 2 -2 8 
+79 2 -2 73 
+48 1 35 
+82 2 69 73 
+85 2 69 7 
+57 2 54 7 
+121 2 -1 116 
+90 1 7 
+27 1 19 
+93 1 7 
+Constructors: 5
+82 69
+41 35
+121 116
+13 8
+79 73
+
+Summary: 8
+8 -2 7 73 69 19 35 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.getParameter(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r2 1 25 
+r0 1 -1 
+r6 1 -2 
+r7 1 4 
+r3 1 25 
+$r1 1 21 
+$r4 1 33 
+Fields: 2
+25 _name 33
+-1 paramsStack 21
+Accesses: 5
+32 1 25 
+20 1 -1 
+5 1 -1 
+43 1 25 
+13 1 -1 
+Functions: 3
+0 1 -2 
+33 2 33 4 
+21 1 21 
+Constructors: 0
+
+Summary: 5
+-2 25 4 33 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.getKeyIndex(Ljava/lang/String;)Lcom/sun/org/apache/xalan/internal/xsltc/dom/KeyIndex;
+PTG:
+Vars:
+7
+$r1 1 1 
+r5 1 40 
+r2 1 -2 
+$r3 1 1 
+$r4 1 40 
+_ret 1 40 
+r0 1 -1 
+Fields: 1
+-1 _keyIndexes 1
+Accesses: 8
+0 1 -1 
+35 1 -1 
+53 1 -1 
+7 1 -1 
+60 1 -1 
+77 1 -1 
+14 1 -1 
+31 1 -1 
+Functions: 3
+36 2 1 -2 
+73 0 
+27 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.closeOutputHandler(Lcom/sun/org/apache/xml/internal/serializer/SerializationHandler;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 -1 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+7 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.hasIdCall()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.popParamFrame()V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 22 
+$r4 1 8 
+$r3 1 22 
+$r1 1 8 
+Fields: 1
+-1 paramsStack 8
+Accesses: 10
+0 1 -1 
+32 1 -1 
+19 1 -1 
+67 1 -1 
+7 1 -1 
+40 1 -1 
+72 1 -1 
+11 1 -1 
+47 1 -1 
+63 1 -1 
+Functions: 3
+52 1 8 
+8 1 8 
+25 1 22 
+Constructors: 0
+
+Summary: 2
+22 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.buildKeyIndex(Ljava/lang/String;ILjava/lang/String;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+r3 1 -4 
+r2 1 5 
+Fields: 0
+Accesses: 1
+11 1 -1 
+Functions: 2
+0 2 -1 -2 
+15 2 -4 5 
+Constructors: 0
+
+Summary: 4
+-2 5 -1 -4 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.getAuxiliaryClass(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+7
+$r1 1 1 
+$r5 1 14 
+$r3 1 1 
+r0 1 -1 
+r2 1 -2 
+_ret 1 14 
+$r4 1 14 
+Fields: 1
+-1 _auxClasses 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.addCdataElement(Ljava/lang/String;)V
+PTG:
+Vars:
+10
+$r4 1 1 
+$r8 1 1 
+r0 1 -1 
+$r7 1 1 
+$r9 1 8 
+r6 1 43 
+r2 1 -2 
+r5 1 35 
+$r3 1 1 
+$r1 1 1 
+Fields: 1
+-1 _cdata 1
+Accesses: 6
+0 1 -1 
+67 1 -1 
+54 1 -1 
+76 1 -1 
+45 1 -1 
+15 1 -1 
+Functions: 8
+81 2 1 -2 
+18 1 -2 
+50 2 1 35 
+36 1 -2 
+72 1 1 
+12 1 8 
+60 2 1 43 
+29 1 -2 
+Constructors: 1
+12 8
+
+Summary: 4
+-2 43 35 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.transform(Lcom/sun/org/apache/xalan/internal/xsltc/DOM;Lcom/sun/org/apache/xml/internal/serializer/SerializationHandler;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r3 1 -3 
+r0 1 -1 
+$r2 1 3 
+Fields: 0
+Accesses: 2
+23 1 -1 
+14 1 -1 
+Functions: 2
+2 1 -2 
+9 4 -1 -2 -3 3 
+Constructors: 0
+
+Summary: 4
+-3 3 -2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.printInternalState()V
+PTG:
+Vars:
+42
+$r5 1 24 
+$r36 1 189 
+$r21 1 111 
+$r38 1 198 
+$r12 1 64 
+$r26 1 136 
+$r29 1 152 
+$r19 1 101 
+$r22 1 114 
+$r3 1 20 
+$r27 1 140 
+$r33 1 169 
+$r23 1 123 
+$r7 1 36 
+$r0 1 0 
+$r2 1 8 
+$r15 1 80 
+$r28 1 143 
+$r6 1 27 
+$r20 1 105 
+r4 1 -1 
+$r8 1 33 
+$r32 1 165 
+$r37 1 186 
+$r9 1 45 
+$r10 1 52 
+$r34 1 172 
+$r25 1 132 
+$r16 1 83 
+$r39 1 201 
+$r30 1 149 
+$r11 1 55 
+$r1 1 11 
+$r40 1 207 
+$r17 1 92 
+$r24 1 120 
+$r31 1 161 
+$r41 1 210 
+$r18 1 89 
+$r13 1 61 
+$r14 1 73 
+$r35 1 178 
+Fields: 3
+-1 namespaceArray 165
+-1 paramsStack 105
+-1 namesArray 136
+Accesses: 5
+48 1 -1 
+164 1 -1 
+135 1 -1 
+104 1 -1 
+76 1 -1 
+Functions: 40
+64 1 64 
+-1 0 
+193 1 189 
+68 1 64 
+132 1 132 
+5 1 0 
+198 1 198 
+73 1 73 
+201 1 201 
+11 1 11 
+140 1 140 
+15 1 11 
+207 1 207 
+80 1 80 
+146 2 120 143 
+20 5 -1 20 165 136 105 
+213 2 210 186 
+86 2 83 61 
+24 1 24 
+152 1 152 
+92 1 92 
+156 1 152 
+30 2 8 27 
+96 1 92 
+161 1 161 
+36 1 36 
+101 1 101 
+40 1 36 
+105 1 105 
+169 1 169 
+45 1 45 
+111 1 111 
+175 2 149 172 
+52 1 52 
+117 2 114 89 
+183 1 178 
+58 2 33 55 
+123 1 123 
+189 1 189 
+127 1 123 
+Constructors: 7
+96 92
+193 189
+68 64
+40 36
+156 152
+15 11
+127 123
+
+Summary: 30
+80 132 111 101 210 55 169 11 201 45 189 36 143 161 27 20 114 73 92 198 140 207 24 64 172 52 152 -1 123 83 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.pushParamFrame()V
+PTG:
+Vars:
+3
+$r2 1 12 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 paramsStack 1
+Accesses: 6
+0 1 -1 
+19 1 -1 
+4 1 -1 
+8 1 -1 
+27 1 -1 
+30 1 -1 
+Functions: 2
+9 0 
+15 2 1 12 
+Constructors: 0
+
+Summary: 2
+12 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.addDecimalFormat(Ljava/lang/String;Ljava/text/DecimalFormatSymbols;)V
+PTG:
+Vars:
+7
+$r7 1 8 
+r4 1 -3 
+$r1 1 1 
+$r2 1 25 
+r0 1 -1 
+r8 2 -2 24 
+$r5 1 1 
+Fields: 1
+-1 _formatSymbols 1
+Accesses: 3
+0 1 -1 
+42 1 -1 
+15 1 -1 
+Functions: 4
+48 4 1 -2 24 25 
+39 2 -3 25 
+12 1 8 
+29 1 25 
+Constructors: 2
+12 8
+29 25
+
+Summary: 4
+-3 -2 25 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.addParameter(Ljava/lang/String;Ljava/lang/Object;Z)Ljava/lang/Object;
+PTG:
+Vars:
+10
+$r2 1 96 
+$r6 1 23 
+r0 1 -1 
+r4 1 -3 
+$r1 2 82 18 
+$r5 1 18 
+r7 1 23 
+r3 1 -2 
+$r8 1 33 
+_ret 1 -3 
+Fields: 3
+23 _name 33
+-1 paramsStack 18
+-1 paramsStack 82
+Accesses: 11
+0 1 -1 
+64 1 23 
+17 1 -1 
+81 1 -1 
+69 1 23 
+85 1 -1 
+10 1 -1 
+58 1 23 
+43 1 23 
+93 1 -1 
+31 1 23 
+Functions: 4
+33 2 33 -2 
+18 1 18 
+103 3 96 -2 -3 
+106 3 96 82 18 
+Constructors: 1
+103 96
+
+Summary: 5
+-2 23 96 33 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.setRootForKeys(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.getDOMCache()Lcom/sun/org/apache/xalan/internal/xsltc/DOMCache;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 _domCache 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.getNamespaceArray()[Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 namespaceArray 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.displayMessage(Ljava/lang/String;)V
+PTG:
+Vars:
+5
+$r3 1 1 
+r2 1 -2 
+$r4 1 7 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 _msgHandler 1
+Accesses: 2
+0 1 -1 
+17 1 -1 
+Functions: 2
+22 2 1 -2 
+11 2 -2 7 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.setAllowedProtocols(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.getTypesArray()[I
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 typesArray 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.getAllowedProtocols()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 _accessExternalStylesheet 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.prepassDocument(Lcom/sun/org/apache/xalan/internal/xsltc/DOM;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -2 
+7 1 -1 
+12 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.getDecimalFormat(Ljava/lang/String;)Ljava/text/DecimalFormat;
+PTG:
+Vars:
+3
+r6 1 -2 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 _formatSymbols 1
+Accesses: 3
+0 1 -1 
+32 1 -1 
+14 1 -1 
+Functions: 2
+33 0 
+15 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.setTemplates(Ljavax/xml/transform/Templates;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.characters(Ljava/lang/String;Lcom/sun/org/apache/xml/internal/serializer/SerializationHandler;)V
+PTG:
+Vars:
+3
+r1 1 -3 
+r0 1 -2 
+r5 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+20 0 
+6 2 -2 -3 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.getTemplates()Ljavax/xml/transform/Templates;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 _templates 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.getUrisArray()[Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 urisArray 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.getNamesArray()[Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 namesArray 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.overrideDefaultParser()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.setOverrideDefaultParser(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.setIndexSize(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+1 1 -1 
+10 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.<init>()V
+PTG:
+Vars:
+3
+$r2 1 110 
+$r1 1 83 
+r0 1 -1 
+Fields: 3
+-1 _accessExternalStylesheet 96
+-1 _encoding 18
+-1 _version 7
+Accesses: 29
+132 1 -1 
+69 1 -1 
+7 1 -1 
+137 1 -1 
+74 1 -1 
+12 1 -1 
+142 1 -1 
+79 1 -1 
+18 1 -1 
+147 1 -1 
+23 1 -1 
+152 1 -1 
+90 1 -1 
+28 1 -1 
+157 1 -1 
+96 1 -1 
+33 1 -1 
+162 1 -1 
+101 1 -1 
+38 1 -1 
+106 1 -1 
+43 1 -1 
+48 1 -1 
+53 1 -1 
+117 1 -1 
+58 1 -1 
+122 1 -1 
+63 1 -1 
+127 1 -1 
+Functions: 3
+1 4 -1 96 18 7 
+114 1 110 
+87 1 83 
+Constructors: 3
+1 -1
+114 110
+87 83
+
+Summary: 4
+96 18 7 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.setKeyIndexDom(Ljava/lang/String;Lcom/sun/org/apache/xalan/internal/xsltc/DOM;)V
+PTG:
+Vars:
+4
+$r2 1 2 
+r0 1 -1 
+r1 1 -2 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+6 1 -3 
+12 2 2 -3 
+Constructors: 0
+
+Summary: 4
+-3 2 -2 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.buildKeyIndex(Ljava/lang/String;Lcom/sun/org/apache/xalan/internal/xsltc/DOM;)V
+PTG:
+Vars:
+4
+r2 1 5 
+r1 1 -2 
+r3 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+8 1 -3 
+14 2 -3 5 
+Constructors: 0
+
+Summary: 4
+-3 -2 5 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.buildIDIndex(Lcom/sun/org/apache/xalan/internal/xsltc/DOM;)V
+PTG:
+Vars:
+12
+r7 1 79 
+$r4 1 55 
+$r10 1 117 
+r0 1 -1 
+r2 1 -2 
+$r8 1 92 
+r1 1 -2 
+r3 1 45 
+$r9 1 92 
+$r6 1 79 
+r5 1 65 
+$r11 1 117 
+Fields: 0
+Accesses: 0
+Functions: 15
+1 1 -2 
+97 1 92 
+35 2 -1 -2 
+67 1 65 
+7 1 -1 
+39 1 -2 
+77 1 65 
+143 2 -1 -2 
+115 1 79 
+22 1 -2 
+54 1 45 
+55 1 55 
+89 1 -2 
+90 1 79 
+125 2 -1 117 
+Constructors: 0
+
+Summary: 9
+45 -2 79 117 65 0 -1 92 55 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.addParameter(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+r3 1 -2 
+r1 1 -3 
+$r2 1 9 
+r0 1 -1 
+r4 1 4 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+5 3 -1 -3 4 
+Constructors: 0
+
+Summary: 4
+-3 -2 4 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.postInitialization()V
+PTG:
+Vars:
+11
+r5 1 21 
+$r11 2 46 153 
+$r1 1 191 
+$r3 1 10 
+$r2 1 194 
+r8 1 46 
+r0 1 -1 
+r4 1 16 
+r6 1 26 
+$r7 1 10 
+$r10 1 77 
+Fields: 2
+-1 namesArray 10
+10 ArrayObject 46
+Accesses: 7
+0 1 -1 
+176 1 -1 
+179 1 -1 
+165 1 -1 
+39 1 -1 
+9 1 -1 
+170 1 -1 
+Functions: 8
+48 1 46 
+81 1 46 
+149 1 46 
+197 1 194 
+72 1 46 
+105 1 46 
+190 3 -1 10 46 
+191 1 191 
+Constructors: 0
+
+Summary: 4
+153 191 194 -1 
+com/sun/org/apache/xalan/internal/xsltc/runtime/AbstractTranslet.setDOMCache(Lcom/sun/org/apache/xalan/internal/xsltc/DOMCache;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

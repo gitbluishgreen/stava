@@ -1,0 +1,315 @@
+14
+sun/net/NetworkClient.setConnectTimeout(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/NetworkClient.getReadTimeout()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/NetworkClient.<init>(Ljava/lang/String;I)V
+PTG:
+Vars:
+3
+r2 1 -2 
+$r1 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+18 1 -1 
+23 1 -1 
+8 1 -1 
+13 1 -1 
+Functions: 2
+1 1 -1 
+29 2 -1 -2 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 -2 
+sun/net/NetworkClient.isASCIISuperset(Ljava/lang/String;)Z
+PTG:
+Vars:
+4
+r3 1 -2 
+r4 1 493 
+$r1 1 5 
+r0 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+488 2 -2 2 
+495 2 5 493 
+Constructors: 0
+
+Summary: 2
+-2 5 
+sun/net/NetworkClient.getConnectTimeout()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/NetworkClient.<clinit>()V
+PTG:
+Vars:
+6
+$r0 1 1 
+$r6 1 60 
+$r7 1 64 
+$r2 1 13 
+$r4 1 21 
+$r8 1 -1 
+Fields: 1
+13 ArrayObject 60
+Accesses: 0
+Functions: 3
+64 1 64 
+27 4 1 21 60 13 
+30 1 21 
+Constructors: 1
+27 21
+
+Summary: 2
+13 1 
+sun/net/NetworkClient.setReadTimeout(I)V
+PTG:
+Vars:
+4
+$r3 1 -1 
+r0 1 -1 
+$r1 1 10 
+$r2 1 10 
+Fields: 1
+-1 serverSocket 10
+Accesses: 3
+34 1 -1 
+20 1 -1 
+9 1 -1 
+Functions: 1
+25 1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/NetworkClient.createSocket()Ljava/net/Socket;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+sun/net/NetworkClient.<init>()V
+PTG:
+Vars:
+2
+$r1 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+18 1 -1 
+23 1 -1 
+8 1 -1 
+13 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+sun/net/NetworkClient.closeServer()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 9 
+Fields: 1
+-1 serverSocket 9
+Accesses: 4
+17 1 -1 
+22 1 -1 
+8 1 -1 
+27 1 -1 
+Functions: 2
+0 2 -1 9 
+12 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/NetworkClient.doConnect(Ljava/lang/String;I)Ljava/net/Socket;
+PTG:
+Vars:
+18
+$r6 1 1 
+$r7 1 11 
+$r13 1 63 
+r3 1 -2 
+$r8 1 14 
+$r10 1 42 
+_ret 4 59 28 77 55 
+$r15 1 28 
+r16 4 59 28 77 55 
+$r5 1 86 
+$r2 1 131 
+$r11 1 45 
+$r4 1 112 
+$r9 1 1 
+$r12 1 59 
+r0 1 -1 
+$r14 1 20 
+$r1 1 1 
+Fields: 1
+-1 proxy 1
+Accesses: 7
+0 1 -1 
+38 1 -1 
+7 1 -1 
+151 1 -1 
+78 1 -1 
+95 1 -1 
+143 1 -1 
+Functions: 15
+66 2 59 63 
+99 5 86 55 59 28 77 
+39 1 1 
+8 1 1 
+73 2 -1 1 
+137 2 -2 131 
+171 4 55 59 28 77 
+140 5 131 55 59 28 77 
+51 2 -1 1 
+20 1 20 
+118 2 112 -2 
+25 3 -1 1 20 
+155 4 55 59 28 77 
+92 2 -2 86 
+124 5 112 55 59 28 77 
+Constructors: 5
+66 59
+118 112
+25 20
+137 131
+92 86
+
+Summary: 6
+-1 112 0 131 -2 86 
+sun/net/NetworkClient.getLocalAddress()Ljava/net/InetAddress;
+PTG:
+Vars:
+6
+$r4 1 25 
+$r2 1 17 
+r0 1 -1 
+$r3 1 25 
+$r1 1 1 
+_ret 1 25 
+Fields: 1
+-1 serverSocket 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+17 1 17 
+22 3 -1 17 1 
+13 0 
+Constructors: 1
+22 17
+
+Summary: 1
+-1 
+sun/net/NetworkClient.serverIsOpen()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 serverSocket 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/NetworkClient.openServer(Ljava/lang/String;I)V
+PTG:
+Vars:
+12
+$r6 1 1 
+$r10 1 1 
+$r4 1 22 
+r0 1 -1 
+$r9 1 85 
+$r5 1 26 
+r2 1 -2 
+$r8 1 41 
+$r1 1 1 
+$r3 1 15 
+$r7 1 34 
+$r11 1 93 
+Fields: 1
+-1 serverSocket 1
+Accesses: 6
+0 1 -1 
+18 1 -1 
+99 1 -1 
+89 1 -1 
+30 1 -1 
+47 1 -1 
+Functions: 12
+80 0 
+96 2 85 93 
+68 0 
+37 2 34 26 
+8 2 -1 1 
+73 0 
+58 0 
+90 1 1 
+12 3 -1 1 -2 
+44 3 22 41 26 
+62 0 
+31 1 1 
+Constructors: 3
+96 85
+37 26
+44 22
+
+Summary: 4
+-1 0 26 -2 

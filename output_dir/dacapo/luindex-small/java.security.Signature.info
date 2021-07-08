@@ -1,0 +1,928 @@
+37
+java/security/Signature.getParameters()Ljava/security/AlgorithmParameters;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Signature.sign([BII)I
+PTG:
+Vars:
+2
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+50 1 -1 
+Functions: 5
+64 0 
+68 2 -1 -2 
+10 0 
+28 0 
+46 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/security/Signature.isSpi(Ljava/security/Provider$Service;)Z
+PTG:
+Vars:
+20
+r0 1 -2 
+$r12 1 99 
+$r1 1 1 
+r2 1 18 
+r19 1 41 
+$r10 1 93 
+$r20 1 63 
+$r3 1 19 
+$r13 1 111 
+$r9 1 90 
+$r14 1 115 
+$r15 1 118 
+$r21 1 133 
+$r7 1 74 
+$r6 1 77 
+r18 2 23 132 
+$r16 1 121 
+$r8 1 86 
+$r4 1 23 
+$r11 1 102 
+Fields: 0
+Accesses: 0
+Functions: 19
+0 1 -2 
+96 2 74 93 
+1 1 1 
+36 1 -2 
+102 1 102 
+106 1 102 
+138 4 18 132 133 23 
+77 1 77 
+14 1 -2 
+111 2 115 111 
+81 1 77 
+114 1 -2 
+19 2 18 19 
+86 2 18 86 
+118 1 118 
+150 2 132 23 
+90 1 90 
+124 2 99 121 
+127 0 
+Constructors: 2
+81 77
+106 102
+
+Summary: 2
+-2 0 
+java/security/Signature.getParameter(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+_ret 1 2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/security/Signature.setParameter(Ljava/security/spec/AlgorithmParameterSpec;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/security/Signature.verify([BII)Z
+PTG:
+Vars:
+3
+$r1 1 66 
+r2 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 5
+18 0 
+36 0 
+54 0 
+72 1 66 
+58 2 -1 -2 
+Constructors: 1
+72 66
+
+Summary: 2
+-2 -1 
+java/security/Signature.getProvider()Ljava/security/Provider;
+PTG:
+Vars:
+3
+_ret 1 5 
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 provider 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Signature.access$000(Ljava/security/Signature;)Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -2 
+Fields: 1
+-2 algorithm 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/security/Signature.getProviderName()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 1 
+_ret 2 16 7 
+r0 1 -1 
+$r3 2 16 7 
+$r2 1 1 
+Fields: 1
+-1 provider 1
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 1
+13 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Signature.getAlgorithm()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 algorithm 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Signature.initVerify(Ljava/security/PublicKey;Ljava/security/spec/AlgorithmParameterSpec;)V
+PTG:
+Vars:
+13
+$r8 1 42 
+$r12 1 57 
+$r10 1 51 
+r1 1 -2 
+$r3 1 17 
+$r6 1 35 
+r2 1 -3 
+r0 1 -1 
+$r11 1 54 
+$r9 1 47 
+$r4 1 26 
+$r5 1 23 
+$r7 1 39 
+Fields: 1
+-1 algorithm 39
+Accesses: 2
+38 1 -1 
+8 1 -1 
+Functions: 9
+50 2 -1 39 
+3 4 -1 -2 -3 39 
+35 2 35 39 
+54 1 54 
+26 1 26 
+42 1 42 
+60 2 23 57 
+30 1 26 
+47 2 51 47 
+Constructors: 1
+30 26
+
+Summary: 5
+-2 1 -1 -3 0 
+java/security/Signature.update(B)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+18 1 -1 
+30 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Signature.update(Ljava/nio/ByteBuffer;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 3
+34 0 
+22 0 
+40 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/security/Signature.<init>(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+java/security/Signature.initVerify(Ljava/security/PublicKey;)V
+PTG:
+Vars:
+12
+$r9 1 50 
+$r2 1 16 
+$r5 1 34 
+$r7 1 41 
+$r11 1 56 
+$r3 1 25 
+$r6 1 38 
+r0 1 -1 
+r1 1 -2 
+$r8 1 46 
+$r10 1 53 
+$r4 1 22 
+Fields: 1
+-1 algorithm 38
+Accesses: 2
+37 1 -1 
+7 1 -1 
+Functions: 9
+49 2 -1 38 
+2 3 -1 -2 38 
+34 2 34 38 
+53 1 53 
+25 1 25 
+41 1 41 
+59 2 22 56 
+29 1 25 
+46 2 50 46 
+Constructors: 1
+29 25
+
+Summary: 9
+56 -2 53 46 34 50 41 25 -1 
+java/security/Signature.update([BII)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 5
+82 0 
+70 2 -1 -2 
+26 0 
+44 0 
+62 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/security/Signature.getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljava/security/Signature;
+PTG:
+Vars:
+5
+r1 1 -3 
+_ret 1 40 
+r2 1 37 
+$r3 1 40 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+33 2 -2 -3 
+19 0 
+23 1 -3 
+39 2 -2 37 
+Constructors: 0
+
+Summary: 3
+-2 -3 37 
+java/security/Signature.access$200(Ljava/security/Provider$Service;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/security/Signature.clone()Ljava/lang/Object;
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 12 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 1 12 
+7 1 -1 
+Constructors: 1
+16 12
+
+Summary: 1
+-1 
+java/security/Signature.getInstance(Lsun/security/jca/GetInstance$Instance;Ljava/lang/String;)Ljava/security/Signature;
+PTG:
+Vars:
+10
+$r7 1 1 
+r8 2 1 34 
+$r1 1 1 
+$r4 1 34 
+_ret 2 1 34 
+$r2 1 1 
+r0 1 -2 
+r3 1 1 
+$r6 1 46 
+r5 1 -3 
+Fields: 2
+-2 provider 46
+-2 impl 1
+Accesses: 6
+0 1 -2 
+49 2 1 34 
+20 2 1 34 
+10 1 -2 
+26 1 -2 
+45 1 -2 
+Functions: 1
+40 3 1 34 -3 
+Constructors: 1
+40 34
+
+Summary: 3
+-2 1 0 
+java/security/Signature.update([B)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/security/Signature.<clinit>()V
+PTG:
+Vars:
+23
+$r20 1 116 
+$r2 1 24 
+r3 1 147 
+$r16 1 60 
+$r33 1 268 
+$r18 1 88 
+$r31 1 244 
+$r29 1 220 
+$r30 1 232 
+$r32 1 256 
+$r26 1 184 
+$r19 1 102 
+$r25 1 172 
+$r1 1 14 
+$r17 1 74 
+$r24 1 160 
+$r21 1 128 
+$r0 1 0 
+$r15 1 55 
+$r23 1 148 
+$r27 1 196 
+$r22 1 134 
+$r28 1 208 
+Fields: 0
+Accesses: 0
+Functions: 24
+96 1 88 
+226 2 147 220 
+4 1 0 
+68 1 60 
+38 0 
+166 2 160 147 
+262 2 256 147 
+7 1 0 
+138 1 134 
+202 2 147 196 
+12 0 
+110 1 102 
+238 2 147 232 
+82 1 74 
+178 2 147 172 
+274 2 147 268 
+22 0 
+214 2 208 147 
+55 1 55 
+154 2 147 148 
+250 2 147 244 
+124 1 116 
+30 0 
+190 2 147 184 
+Constructors: 7
+96 88
+82 74
+4 0
+68 60
+138 134
+124 116
+110 102
+
+Summary: 2
+55 0 
+java/security/Signature.initSign(Ljava/security/PrivateKey;)V
+PTG:
+Vars:
+12
+$r3 1 25 
+$r7 1 41 
+$r9 1 50 
+r0 1 -1 
+$r8 1 46 
+$r10 1 53 
+r1 1 -2 
+$r6 1 38 
+$r4 1 22 
+$r5 1 34 
+$r2 1 16 
+$r11 1 56 
+Fields: 1
+-1 algorithm 38
+Accesses: 2
+37 1 -1 
+7 1 -1 
+Functions: 9
+49 2 -1 38 
+2 3 -1 -2 38 
+34 2 34 38 
+53 1 53 
+25 1 25 
+41 1 41 
+59 2 22 56 
+29 1 25 
+46 2 50 46 
+Constructors: 1
+29 25
+
+Summary: 9
+56 -2 53 46 34 50 41 25 -1 
+java/security/Signature.getPublicKeyFromCert(Ljava/security/cert/Certificate;)Ljava/security/PublicKey;
+PTG:
+Vars:
+6
+r0 1 -2 
+r1 1 -2 
+_ret 1 67 
+$r5 1 67 
+r2 1 16 
+r3 1 45 
+Fields: 0
+Accesses: 0
+Functions: 6
+66 1 -2 
+21 1 16 
+41 1 -2 
+12 1 -2 
+30 1 16 
+62 0 
+Constructors: 0
+
+Summary: 3
+-2 45 16 
+java/security/Signature.initVerify(Ljava/security/cert/Certificate;Ljava/security/spec/AlgorithmParameterSpec;)V
+PTG:
+Vars:
+14
+$r2 1 2 
+r3 1 -3 
+$r8 1 42 
+$r5 1 29 
+$r12 1 57 
+$r13 1 60 
+r0 1 -1 
+$r9 1 45 
+r1 1 -2 
+$r7 1 38 
+$r11 1 54 
+$r10 1 50 
+$r4 1 20 
+$r6 1 26 
+Fields: 1
+-1 algorithm 42
+Accesses: 2
+41 1 -1 
+11 1 -1 
+Functions: 10
+1 1 -2 
+33 1 29 
+50 2 50 54 
+53 2 -1 42 
+6 4 -1 2 -3 42 
+38 2 38 42 
+57 1 57 
+29 1 29 
+45 1 45 
+63 2 26 60 
+Constructors: 1
+33 29
+
+Summary: 11
+-2 50 57 38 60 -1 -3 29 2 45 54 
+java/security/Signature.initVerify(Ljava/security/cert/Certificate;)V
+PTG:
+Vars:
+13
+$r6 1 37 
+$r12 1 59 
+$r11 1 56 
+$r5 1 25 
+$r3 1 19 
+$r7 1 41 
+$r2 1 2 
+r0 1 -1 
+$r8 1 44 
+$r9 1 49 
+$r4 1 28 
+r1 1 -2 
+$r10 1 53 
+Fields: 1
+-1 algorithm 41
+Accesses: 2
+40 1 -1 
+10 1 -1 
+Functions: 10
+32 1 28 
+1 1 -2 
+49 2 49 53 
+52 2 -1 41 
+5 3 -1 2 41 
+37 2 37 41 
+56 1 56 
+28 1 28 
+44 1 44 
+62 2 25 59 
+Constructors: 1
+32 28
+
+Summary: 10
+56 -2 -1 37 28 59 53 2 44 49 
+java/security/Signature.setParameter(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -3 -1 
+java/security/Signature.sign()[B
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 13 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+19 1 13 
+8 1 -1 
+Constructors: 1
+19 13
+
+Summary: 1
+-1 
+java/security/Signature.toString()Ljava/lang/String;
+PTG:
+Vars:
+9
+$r3 1 60 
+$r6 1 71 
+r0 1 -1 
+_ret 1 74 
+$r5 1 67 
+r1 4 2 44 38 50 
+$r4 1 64 
+$r2 1 51 
+$r7 1 74 
+Fields: 0
+Accesses: 1
+3 1 -1 
+Functions: 6
+51 1 51 
+67 5 2 50 67 38 44 
+55 1 51 
+71 1 71 
+60 2 64 60 
+63 1 -1 
+Constructors: 1
+55 51
+
+Summary: 2
+64 -1 
+java/security/Signature.getInstance(Ljava/lang/String;)Ljava/security/Signature;
+PTG:
+Vars:
+9
+r3 1 70 
+r0 1 -2 
+$r11 1 9 
+$r4 1 112 
+$r12 1 -1 
+r14 2 15 25 
+r1 1 32 
+r15 1 107 
+$r2 1 70 
+Fields: 0
+Accesses: 0
+Functions: 16
+0 1 -2 
+96 3 32 -2 70 
+33 1 32 
+65 0 
+69 1 32 
+102 1 70 
+9 1 9 
+46 1 -2 
+111 2 -2 107 
+80 1 70 
+50 0 
+21 1 -2 
+54 0 
+121 1 32 
+26 2 25 15 
+59 0 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/security/Signature.getInstanceRSA(Ljava/security/Provider;)Ljava/security/Signature;
+PTG:
+Vars:
+12
+$r6 1 53 
+$r9 1 70 
+r13 1 33 
+$r11 1 76 
+r1 1 8 
+$r8 1 66 
+r0 1 -2 
+$r2 1 34 
+$r7 1 57 
+$r3 1 38 
+$r5 1 -1 
+$r10 1 73 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -2 
+48 2 34 38 
+80 3 -1 53 76 
+66 2 66 70 
+21 0 
+69 1 -2 
+57 1 57 
+73 1 73 
+43 2 33 38 
+29 1 -2 
+61 1 57 
+14 1 8 
+Constructors: 4
+48 34
+80 53
+43 38
+61 57
+
+Summary: 10
+-2 76 57 19 70 33 66 73 8 38 
+java/security/Signature.access$100()Lsun/security/util/Debug;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/security/Signature.verify([B)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 14 
+r2 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+20 1 14 
+8 2 -1 -2 
+Constructors: 1
+20 14
+
+Summary: 3
+-2 0 -1 
+java/security/Signature.chooseFirstProvider()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Signature.getInstance(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Signature;
+PTG:
+Vars:
+5
+_ret 1 83 
+r11 1 80 
+r0 1 -2 
+r1 1 -3 
+$r2 1 83 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -2 
+66 0 
+82 2 80 -2 
+52 1 -3 
+56 0 
+26 0 
+43 0 
+76 2 -2 -3 
+13 1 -3 
+30 1 -3 
+62 0 
+47 0 
+Constructors: 0
+
+Summary: 8
+56 -2 43 59 -3 34 52 80 
+java/security/Signature.initSign(Ljava/security/PrivateKey;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+PTG:
+Vars:
+14
+$r11 1 52 
+r1 1 -2 
+$r5 1 27 
+$r8 1 40 
+r0 1 -1 
+$r12 1 55 
+r2 1 -3 
+$r10 1 48 
+$r7 1 36 
+$r9 1 43 
+$r13 1 58 
+$r6 1 24 
+$r4 1 18 
+r3 1 -4 
+Fields: 1
+-1 algorithm 40
+Accesses: 2
+39 1 -1 
+9 1 -1 
+Functions: 9
+48 2 48 52 
+51 2 -1 40 
+4 5 -1 -2 -3 -4 40 
+36 2 36 40 
+55 1 55 
+27 1 27 
+43 1 43 
+61 2 24 58 
+31 1 27 
+Constructors: 1
+31 27
+
+Summary: 11
+-2 55 36 43 -4 -1 -3 52 27 48 58 
+java/security/Signature.initSign(Ljava/security/PrivateKey;Ljava/security/SecureRandom;)V
+PTG:
+Vars:
+13
+$r4 1 26 
+r1 1 -2 
+$r10 1 51 
+$r12 1 57 
+r2 1 -3 
+$r8 1 42 
+$r6 1 35 
+$r7 1 39 
+$r5 1 23 
+r0 1 -1 
+$r3 1 17 
+$r11 1 54 
+$r9 1 47 
+Fields: 1
+-1 algorithm 39
+Accesses: 2
+38 1 -1 
+8 1 -1 
+Functions: 9
+50 2 -1 39 
+3 4 -1 -2 -3 39 
+35 2 35 39 
+54 1 54 
+26 1 26 
+42 1 42 
+60 2 23 57 
+30 1 26 
+47 2 51 47 
+Constructors: 1
+30 26
+
+Summary: 10
+-2 57 51 42 47 -1 26 -3 54 35 

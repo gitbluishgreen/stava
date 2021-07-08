@@ -1,0 +1,697 @@
+24
+org/apache/lucene/index/FieldsReader.<init>(Lorg/apache/lucene/store/Directory;Ljava/lang/String;Lorg/apache/lucene/index/FieldInfos;III)V
+PTG:
+Vars:
+41
+$r31 1 -2 
+$r33 1 -2 
+$r40 1 -1 
+$r14 1 -2 
+$r34 1 -2 
+$r27 1 -2 
+$r18 1 -2 
+$r11 1 -2 
+$r21 1 -2 
+$r37 1 -2 
+$r32 1 -2 
+$r8 1 -2 
+$r29 1 -2 
+$r17 1 -2 
+$r7 1 -2 
+$r22 1 -2 
+r3 1 -2 
+$r16 1 -2 
+$r25 1 -2 
+$r38 1 -2 
+r0 1 -1 
+$r1 1 -2 
+$r30 1 -2 
+$r26 1 -2 
+r2 1 -4 
+$r6 1 -2 
+$r9 1 -2 
+$r23 1 -2 
+$r13 1 -2 
+$r15 1 -2 
+$r36 1 -2 
+$r12 1 -2 
+$r39 1 -2 
+$r28 1 -2 
+$r19 1 -2 
+$r20 1 -2 
+$r24 1 -2 
+r5 1 -3 
+$r4 1 -2 
+$r35 1 -2 
+$r10 1 -2 
+Fields: 2
+-1 cloneableFieldsStream -2
+-1 indexStream -2
+Accesses: 2
+-1 1 -1 
+2000000000 1 -1 
+Functions: 1
+-1 2 -1 -2 
+Constructors: 1
+-1 -2
+
+Summary: 6
+1 2 -3 -2 -1 0 
+org/apache/lucene/index/FieldsReader.skipField(ZZI)V
+PTG:
+Vars:
+4
+$r3 1 17 
+$r2 1 17 
+r0 1 -1 
+$r1 1 37 
+Fields: 2
+-1 fieldsStream 37
+-1 fieldsStream 17
+Accesses: 4
+0 1 -1 
+16 1 -1 
+20 1 -1 
+36 1 -1 
+Functions: 3
+21 1 17 
+41 1 37 
+30 1 17 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/FieldsReader.<init>(Lorg/apache/lucene/store/Directory;Ljava/lang/String;Lorg/apache/lucene/index/FieldInfos;I)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 4 -1 -2 -3 -4 
+Constructors: 1
+8 -1
+
+Summary: 4
+-4 -3 -2 -1 
+org/apache/lucene/index/FieldsReader.canReadRawDocs()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/FieldsReader.access$000(Lorg/apache/lucene/index/FieldsReader;)Lorg/apache/lucene/util/CloseableThreadLocal;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -2 
+Fields: 1
+-2 fieldsStreamTL 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/lucene/index/FieldsReader.access$200(Lorg/apache/lucene/index/FieldsReader;[B)[B
+PTG:
+Vars:
+4
+r1 1 -3 
+_ret 1 2 
+r0 1 -2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -2 -3 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/FieldsReader.access$300(Lorg/apache/lucene/index/FieldsReader;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/lucene/index/FieldsReader.addField(Lorg/apache/lucene/document/Document;Lorg/apache/lucene/index/FieldInfo;ZZZ)V
+PTG:
+Vars:
+29
+$r6 1 206 
+r25 1 90 
+$r10 1 119 
+$r17 1 65 
+r27 1 116 
+r24 1 15 
+$r22 1 49 
+$r8 1 119 
+r7 1 -2 
+$r16 1 5 
+r0 1 -1 
+$r18 1 75 
+$r12 1 154 
+$r14 1 161 
+$r5 1 199 
+$r23 1 52 
+$r11 1 146 
+$r13 1 151 
+r9 1 129 
+r28 2 146 194 
+$r4 1 203 
+$r15 1 5 
+$r3 1 194 
+r26 1 99 
+$r19 1 70 
+$r21 1 43 
+r2 1 106 
+r1 1 -3 
+$r20 1 38 
+Fields: 7
+-3 name 70
+-3 name 199
+-3 name 43
+-3 name 151
+-1 fieldsStream 5
+-1 fieldsStream 203
+-1 fieldsStream 119
+Accesses: 11
+19 1 -1 
+4 1 -1 
+69 1 -3 
+133 1 -1 
+118 1 -1 
+150 1 -3 
+182 1 -3 
+198 1 -3 
+42 1 -3 
+202 1 -1 
+222 1 -3 
+Functions: 19
+226 1 194 
+5 1 5 
+101 9 -1 -3 5 70 119 199 151 203 43 
+166 2 161 154 
+234 3 -2 146 194 
+203 1 203 
+46 5 -1 5 119 203 15 
+78 4 65 70 75 15 
+143 2 129 119 
+175 6 146 99 116 151 154 106 
+81 2 -2 65 
+55 4 49 52 38 43 
+119 1 119 
+215 6 194 99 199 90 106 206 
+58 2 -2 38 
+186 1 146 
+92 9 -1 -3 5 70 119 199 151 203 43 
+29 2 5 15 
+158 5 -1 129 5 119 203 
+Constructors: 5
+166 154
+55 38
+215 194
+78 65
+175 146
+
+Summary: 13
+154 199 38 194 -2 1 -3 43 151 70 146 65 0 
+org/apache/lucene/index/FieldsReader.skipField(ZZ)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 4 
+Fields: 1
+-1 fieldsStream 4
+Accesses: 1
+3 1 -1 
+Functions: 2
+4 1 4 
+10 2 -1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/FieldsReader.getIndexType(Lorg/apache/lucene/index/FieldInfo;Z)Lorg/apache/lucene/document/Field$Index;
+PTG:
+Vars:
+4
+_ret 3 39 14 32 
+r2 3 39 14 32 
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 2
+0 1 -2 
+18 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/lucene/index/FieldsReader.size()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/FieldsReader.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 2 18 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/FieldsReader.ensureOpen()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/FieldsReader.<init>(Lorg/apache/lucene/store/Directory;Ljava/lang/String;Lorg/apache/lucene/index/FieldInfos;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+9 4 -1 -2 -3 -4 
+Constructors: 1
+9 -1
+
+Summary: 4
+-4 -3 -2 -1 
+org/apache/lucene/index/FieldsReader.seekIndex(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 indexStream 1
+Accesses: 3
+0 1 -1 
+4 1 -1 
+10 1 -1 
+Functions: 1
+21 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/FieldsReader.doc(ILorg/apache/lucene/document/FieldSelector;)Lorg/apache/lucene/document/Document;
+PTG:
+Vars:
+20
+r0 1 -1 
+$r1 1 6 
+$r10 1 82 
+$r18 1 312 
+$r5 1 14 
+$r17 1 278 
+$r3 1 21 
+$r6 1 14 
+r11 2 85 73 
+r9 1 -3 
+r8 1 67 
+$r20 2 85 73 
+$r14 1 194 
+_ret 1 21 
+$r16 1 250 
+$r12 1 14 
+$r13 1 166 
+$r2 1 14 
+$r7 1 59 
+$r15 1 222 
+Fields: 4
+-1 indexStream 6
+-1 fieldsStream 14
+-1 fieldInfos 59
+67 name 82
+Accesses: 7
+80 1 67 
+49 1 -1 
+5 1 -1 
+58 1 -1 
+92 1 -1 
+13 1 -1 
+30 1 -1 
+Functions: 24
+192 3 194 85 73 
+2 4 -1 6 59 14 
+164 3 85 166 73 
+292 7 -1 82 67 21 6 59 14 
+6 1 6 
+330 7 -1 82 67 21 6 59 14 
+270 7 -1 82 67 21 6 59 14 
+79 2 -3 82 
+304 4 -1 6 59 14 
+18 1 14 
+50 1 14 
+242 7 -1 82 67 21 6 59 14 
+276 3 85 278 73 
+118 0 
+214 7 -1 82 67 21 6 59 14 
+310 3 85 312 73 
+342 4 -1 6 59 14 
+248 3 85 73 250 
+25 1 21 
+186 7 -1 82 67 21 6 59 14 
+59 1 59 
+220 3 85 73 222 
+93 1 14 
+31 1 14 
+Constructors: 1
+25 21
+
+Summary: 3
+1 -3 85 
+org/apache/lucene/index/FieldsReader.addFieldLazy(Lorg/apache/lucene/document/Document;Lorg/apache/lucene/index/FieldInfo;ZZZ)V
+PTG:
+Vars:
+33
+$r7 1 248 
+$r22 1 37 
+$r19 1 61 
+$r31 1 242 
+r27 2 242 143 
+$r33 1 55 
+r0 1 -1 
+$r28 1 28 
+$r30 1 143 
+$r11 1 126 
+r1 1 -3 
+$r32 1 28 
+r26 1 123 
+$r16 1 5 
+r2 1 113 
+r25 1 106 
+$r14 1 126 
+$r23 1 34 
+$r5 1 192 
+$r9 1 192 
+$r13 1 149 
+$r20 1 5 
+$r35 1 242 
+$r15 1 5 
+$r29 1 55 
+$r36 2 242 143 
+$r10 1 126 
+$r3 1 192 
+$r4 1 192 
+$r18 1 64 
+$r34 1 143 
+r8 1 -2 
+r24 1 97 
+Fields: 7
+-3 name 34
+-3 name 61
+-3 name 248
+-3 name 149
+-1 fieldsStream 5
+-1 fieldsStream 192
+-1 fieldsStream 126
+Accesses: 17
+33 1 -3 
+4 1 -1 
+164 1 -1 
+134 1 -1 
+200 1 -1 
+233 1 -1 
+13 1 -1 
+269 1 -3 
+78 1 -1 
+209 1 -1 
+179 1 -3 
+148 1 -3 
+247 1 -3 
+217 1 -1 
+60 1 -3 
+125 1 -1 
+191 1 -1 
+Functions: 21
+192 1 192 
+99 9 -1 192 -3 34 5 149 248 61 126 
+227 1 192 
+5 1 5 
+262 9 -1 192 97 113 242 5 248 106 126 
+135 1 126 
+72 7 -1 192 64 5 55 61 126 
+201 1 192 
+75 2 -2 55 
+108 9 -1 192 -3 34 5 149 248 61 126 
+45 7 -1 192 34 5 37 28 126 
+14 1 5 
+174 1 126 
+239 1 192 
+48 2 -2 28 
+273 1 242 
+183 1 143 
+88 1 5 
+281 3 -2 242 143 
+126 1 126 
+159 7 -1 192 5 149 123 126 143 
+Constructors: 4
+262 242
+72 55
+45 28
+159 143
+
+Summary: 13
+1 61 149 28 -3 34 248 -1 55 -2 242 143 0 
+org/apache/lucene/index/FieldsReader.rawDocs([III)Lorg/apache/lucene/store/IndexInput;
+PTG:
+Vars:
+8
+$r4 1 85 
+_ret 2 85 114 
+$r6 1 6 
+r0 1 -1 
+$r1 1 6 
+$r2 2 85 114 
+$r3 2 85 114 
+r5 1 -2 
+Fields: 3
+-1 indexStream 6
+-1 fieldsStream 85
+-1 fieldsStream 114
+Accesses: 8
+48 1 -1 
+65 1 -1 
+113 1 -1 
+84 1 -1 
+5 1 -1 
+72 1 -1 
+122 1 -1 
+27 1 -1 
+Functions: 6
+2 4 -1 114 85 6 
+85 1 85 
+6 1 6 
+119 2 114 85 
+73 1 6 
+59 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/index/FieldsReader.getTermVectorType(Lorg/apache/lucene/index/FieldInfo;)Lorg/apache/lucene/document/Field$TermVector;
+PTG:
+Vars:
+4
+_ret 5 26 61 54 47 33 
+r0 1 -2 
+r2 5 26 61 54 47 33 
+r1 1 -1 
+Fields: 0
+Accesses: 4
+16 1 -2 
+2 1 -2 
+37 1 -2 
+9 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/lucene/index/FieldsReader.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r4 1 6 
+$r2 1 -1 
+$r5 1 14 
+r0 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/lucene/index/FieldsReader.close()V
+PTG:
+Vars:
+8
+$r5 1 36 
+$r2 1 22 
+$r6 1 22 
+$r4 1 50 
+r0 1 -1 
+$r7 1 8 
+$r3 1 36 
+$r1 1 8 
+Fields: 4
+-1 cloneableFieldsStream 22
+-1 indexStream 36
+-1 fieldsStream 8
+-1 fieldsStreamTL 50
+Accesses: 9
+0 1 -1 
+49 1 -1 
+35 1 -1 
+21 1 -1 
+7 1 -1 
+42 1 -1 
+58 1 -1 
+28 1 -1 
+14 1 -1 
+Functions: 4
+32 1 22 
+18 1 8 
+53 1 50 
+46 1 36 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/FieldsReader.access$100(Lorg/apache/lucene/index/FieldsReader;)Lorg/apache/lucene/store/IndexInput;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-2 cloneableFieldsStream 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/lucene/index/FieldsReader.addFieldSize(Lorg/apache/lucene/document/Document;Lorg/apache/lucene/index/FieldInfo;ZZ)I
+PTG:
+Vars:
+8
+r3 1 -2 
+$r1 1 1 
+r0 1 -1 
+r2 1 30 
+$r4 1 72 
+$r7 1 77 
+$r6 1 82 
+r5 1 -3 
+Fields: 2
+-3 name 77
+-1 fieldsStream 1
+Accesses: 2
+0 1 -1 
+76 1 -3 
+Functions: 3
+1 1 1 
+85 4 82 72 77 30 
+88 2 -2 72 
+Constructors: 1
+85 72
+
+Summary: 8
+1 72 -3 -2 30 -1 77 0 
+org/apache/lucene/index/FieldsReader.addFieldForMerge(Lorg/apache/lucene/document/Document;Lorg/apache/lucene/index/FieldInfo;ZZZ)V
+PTG:
+Vars:
+10
+r2 1 20 
+r8 2 20 51 
+r6 1 -3 
+$r9 1 54 
+r4 1 -2 
+$r7 1 45 
+$r1 1 10 
+$r3 1 10 
+r0 1 -1 
+$r10 1 54 
+Fields: 2
+-1 fieldsStream 10
+-1 fieldsStream 45
+Accesses: 3
+24 1 -1 
+9 1 -1 
+44 1 -1 
+Functions: 5
+34 2 20 10 
+66 4 -3 51 20 54 
+69 2 -2 54 
+10 1 10 
+45 1 45 
+Constructors: 1
+66 54
+
+Summary: 7
+1 20 54 -3 -2 -1 0 

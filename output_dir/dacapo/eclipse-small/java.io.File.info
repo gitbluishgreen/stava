@@ -1,0 +1,1511 @@
+64
+java/io/File.getCanonicalFile()Ljava/io/File;
+PTG:
+Vars:
+7
+r5 2 21 4 
+$r4 1 14 
+r0 1 -1 
+$r1 1 6 
+$r2 1 22 
+$r3 1 27 
+_ret 1 22 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -1 
+34 3 4 21 22 
+5 1 -1 
+27 3 4 21 27 
+14 3 4 21 14 
+Constructors: 1
+34 22
+
+Summary: 2
+6 -1 
+java/io/File.mkdirs()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 24 
+r3 1 35 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -1 
+20 1 -1 
+54 1 24 
+40 1 35 
+9 1 -1 
+31 1 24 
+47 1 35 
+Constructors: 0
+
+Summary: 0
+
+java/io/File.isInvalid()Z
+PTG:
+Vars:
+6
+$r1 1 1 
+$r5 1 1 
+r0 1 -1 
+$r2 1 9 
+$r4 2 25 19 
+$r6 1 35 
+Fields: 2
+-1 status 1
+-1 path 9
+Accesses: 4
+0 1 -1 
+8 1 -1 
+28 1 -1 
+31 1 -1 
+Functions: 1
+9 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.lastModified()J
+PTG:
+Vars:
+4
+$r2 1 25 
+$r3 1 10 
+r0 1 3 
+r1 1 -1 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 0
+
+java/io/File.getTotalSpace()J
+PTG:
+Vars:
+5
+r1 1 -1 
+$r4 1 23 
+r0 1 3 
+$r2 1 38 
+$r3 1 9 
+Fields: 1
+-1 path 23
+Accesses: 1
+22 1 -1 
+Functions: 6
+0 0 
+18 2 3 9 
+38 3 -1 38 23 
+26 2 3 23 
+29 2 -1 23 
+15 1 9 
+Constructors: 1
+15 9
+
+Summary: 3
+9 3 -1 
+java/io/File.setLastModified(J)Z
+PTG:
+Vars:
+4
+r0 1 19 
+$r3 1 26 
+$r2 1 41 
+r1 1 -1 
+Fields: 1
+-1 path 26
+Accesses: 1
+25 1 -1 
+Functions: 5
+16 0 
+32 2 -1 26 
+41 3 -1 41 26 
+12 0 
+29 2 19 26 
+Constructors: 0
+
+Summary: 0
+
+java/io/File.list()[Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/io/File.<clinit>()V
+PTG:
+Vars:
+17
+$r3 1 31 
+$r4 1 40 
+$r12 1 93 
+$r0 1 0 
+$r14 1 107 
+$r6 1 49 
+$r13 1 97 
+$r10 1 79 
+r18 1 91 
+$r5 1 46 
+$r11 1 82 
+$r8 1 64 
+$r2 1 22 
+$r7 1 55 
+$r15 1 111 
+$r1 1 16 
+$r9 1 73 
+Fields: 0
+Accesses: 0
+Functions: 18
+0 1 0 
+-1 0 
+64 1 64 
+35 1 31 
+68 1 64 
+133 0 
+40 1 40 
+73 1 73 
+106 2 91 111 
+107 1 107 
+46 1 46 
+79 1 79 
+22 1 22 
+55 1 55 
+88 0 
+92 2 97 91 
+93 1 93 
+31 1 31 
+Constructors: 2
+35 31
+68 64
+
+Summary: 0
+
+java/io/File.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
+PTG:
+Vars:
+12
+$r15 2 33 -4 
+$r7 1 105 
+r3 1 40 
+r4 1 48 
+r2 2 33 -4 
+r1 1 -4 
+$r6 1 100 
+r0 1 -2 
+$r9 1 59 
+r14 2 24 -3 
+$r5 1 87 
+_ret 1 48 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -2 
+-1 0 
+80 0 
+100 2 100 105 
+37 0 
+87 2 48 87 
+103 1 48 
+120 0 
+57 1 48 
+44 5 -2 33 -3 -4 24 
+14 0 
+62 2 40 59 
+Constructors: 0
+
+Summary: 5
+2 -3 -2 -4 0 
+java/io/File.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+8 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/io/File.listRoots()[Ljava/io/File;
+PTG:
+Vars:
+3
+$r1 1 3 
+$r0 1 0 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 0
+
+java/io/File.deleteOnExit()V
+PTG:
+Vars:
+4
+$r3 1 10 
+$r2 1 10 
+r0 1 3 
+r1 1 -1 
+Fields: 1
+-1 path 10
+Accesses: 2
+24 1 -1 
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+28 1 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.compareTo(Ljava/lang/Object;)I
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/io/File.getParentFile()Ljava/io/File;
+PTG:
+Vars:
+6
+r4 2 27 4 
+r0 1 -1 
+$r2 1 28 
+$r1 1 12 
+$r3 1 20 
+_ret 1 28 
+Fields: 0
+Accesses: 1
+33 1 -1 
+Functions: 4
+0 1 -1 
+20 3 20 4 27 
+37 3 4 27 28 
+11 1 -1 
+Constructors: 1
+37 28
+
+Summary: 2
+-1 12 
+java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
+PTG:
+Vars:
+4
+r1 1 -3 
+$r2 1 3 
+r0 1 -2 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+java/io/File.listFiles(Ljava/io/FilenameFilter;)[Ljava/io/File;
+PTG:
+Vars:
+10
+r0 1 -1 
+$r6 1 89 
+$r7 1 89 
+r8 1 42 
+r9 1 -2 
+$r2 1 11 
+$r10 1 61 
+r1 1 4 
+$r5 1 86 
+_ret 1 89 
+Fields: 1
+4 ArrayObject 42
+Accesses: 0
+Functions: 7
+0 1 -1 
+48 3 -1 -2 42 
+81 2 86 11 
+82 1 11 
+68 3 -1 42 61 
+71 2 11 61 
+15 1 11 
+Constructors: 2
+68 61
+15 11
+
+Summary: 5
+-2 11 61 86 0 
+java/io/File.delete()Z
+PTG:
+Vars:
+4
+r1 1 -1 
+$r3 1 10 
+$r2 1 25 
+r0 1 3 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.slashify(Ljava/lang/String;Z)Ljava/lang/String;
+PTG:
+Vars:
+9
+$r5 1 38 
+$r4 1 29 
+r0 1 -2 
+$r2 1 70 
+$r1 1 62 
+$r6 1 42 
+r7 4 -2 81 19 48 
+$r3 1 75 
+_ret 4 -2 81 19 48 
+Fields: 0
+Accesses: 0
+Functions: 11
+33 1 29 
+49 4 48 -2 81 19 
+66 1 62 
+20 4 48 -2 81 19 
+38 5 48 -2 81 19 38 
+70 1 70 
+10 1 -2 
+42 1 42 
+75 1 75 
+29 1 29 
+62 5 48 -2 81 19 62 
+Constructors: 2
+33 29
+66 62
+
+Summary: 1
+0 
+java/io/File.hashCode()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 0 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.length()J
+PTG:
+Vars:
+4
+r1 1 -1 
+$r3 1 10 
+$r2 1 25 
+r0 1 3 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 0
+
+java/io/File.toURL()Ljava/net/URL;
+PTG:
+Vars:
+5
+$r2 1 26 
+$r3 1 33 
+r0 1 -1 
+$r1 1 17 
+_ret 1 17 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+36 2 17 33 
+25 1 -1 
+13 0 
+29 1 -1 
+30 1 26 
+Constructors: 1
+36 17
+
+Summary: 1
+-1 
+java/io/File.compareTo(Ljava/io/File;)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 0 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 0 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/io/File.createNewFile()Z
+PTG:
+Vars:
+5
+$r2 1 10 
+$r3 1 33 
+r1 1 -1 
+r0 1 3 
+$r5 1 10 
+Fields: 1
+-1 path 10
+Accesses: 2
+36 1 -1 
+9 1 -1 
+Functions: 5
+0 0 
+16 2 -1 10 
+33 2 33 10 
+13 2 3 10 
+29 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.canWrite()Z
+PTG:
+Vars:
+4
+$r3 1 10 
+$r2 1 25 
+r1 1 -1 
+r0 1 3 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 0
+
+java/io/File.setReadable(ZZ)Z
+PTG:
+Vars:
+4
+$r3 1 10 
+$r2 1 25 
+r1 1 -1 
+r0 1 3 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 2
+3 -1 
+java/io/File.<init>(Ljava/io/File;Ljava/lang/String;)V
+PTG:
+Vars:
+19
+$r14 1 47 
+$r19 1 103 
+r2 1 -2 
+$r9 1 75 
+$r10 1 78 
+r1 1 -3 
+$r16 1 54 
+$r18 1 99 
+$r3 1 88 
+$r11 1 41 
+$r5 1 26 
+$r12 1 38 
+$r8 1 26 
+$r13 1 44 
+$r7 1 64 
+$r4 1 92 
+r0 1 -1 
+$r6 1 71 
+$r15 1 51 
+Fields: 2
+-2 path 26
+-1 path 103
+Accesses: 8
+81 1 -1 
+67 1 -2 
+6 1 -1 
+102 1 -1 
+25 1 -2 
+57 1 -1 
+109 1 -1 
+95 1 -1 
+Functions: 10
+64 3 64 26 75 
+1 2 -1 103 
+17 0 
+99 2 99 103 
+38 3 51 38 44 
+71 2 -3 71 
+88 2 -3 88 
+41 1 41 
+26 1 26 
+47 2 -3 47 
+Constructors: 1
+1 -1
+
+Summary: 6
+1 -1 26 -3 -2 0 
+java/io/File.isFile()Z
+PTG:
+Vars:
+4
+r0 1 3 
+$r3 1 10 
+$r2 1 25 
+r1 1 -1 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.getName()Ljava/lang/String;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 1 
+$r3 1 38 
+$r1 1 1 
+_ret 1 38 
+Fields: 1
+-1 path 1
+Accesses: 5
+0 1 -1 
+19 1 -1 
+23 1 -1 
+12 1 -1 
+31 1 -1 
+Functions: 3
+32 1 1 
+1 1 1 
+20 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.<init>(Ljava/lang/String;Ljava/io/File;)V
+PTG:
+Vars:
+8
+$r6 1 16 
+r0 1 -1 
+$r8 1 16 
+$r5 1 65 
+$r4 1 57 
+r1 1 -3 
+$r3 1 16 
+r2 1 -2 
+Fields: 1
+-3 path 16
+Accesses: 7
+36 1 -3 
+68 1 -1 
+6 1 -1 
+72 1 -3 
+60 1 -3 
+76 1 -1 
+15 1 -3 
+Functions: 5
+1 1 -1 
+52 0 
+37 1 16 
+57 3 16 -2 57 
+26 0 
+Constructors: 1
+1 -1
+
+Summary: 6
+-2 16 1 0 -1 -3 
+java/io/File.listFiles()[Ljava/io/File;
+PTG:
+Vars:
+6
+r2 1 15 
+$r4 1 38 
+r0 1 -1 
+$r3 1 31 
+r1 1 4 
+_ret 1 15 
+Fields: 1
+4 ArrayObject 38
+Accesses: 0
+Functions: 2
+0 1 -1 
+40 3 -1 38 31 
+Constructors: 1
+40 31
+
+Summary: 0
+
+java/io/File.setExecutable(ZZ)Z
+PTG:
+Vars:
+4
+$r3 1 10 
+$r2 1 25 
+r0 1 3 
+r1 1 -1 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 2
+3 -1 
+java/io/File.<init>(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+19
+$r10 1 78 
+$r4 1 92 
+r2 1 -2 
+$r13 1 41 
+$r8 1 71 
+$r12 1 35 
+$r3 1 88 
+$r19 1 103 
+$r18 1 99 
+$r16 1 51 
+$r15 1 48 
+r0 1 -1 
+$r11 1 38 
+$r14 1 44 
+$r9 1 75 
+r1 1 -3 
+$r5 1 64 
+$r6 1 61 
+$r7 1 68 
+Fields: 1
+-1 path 103
+Accesses: 6
+81 1 -1 
+6 1 -1 
+54 1 -1 
+102 1 -1 
+109 1 -1 
+95 1 -1 
+Functions: 11
+64 2 64 -2 
+1 2 -1 103 
+17 0 
+35 3 48 35 41 
+99 2 99 103 
+38 1 38 
+71 2 -3 71 
+88 2 -3 88 
+25 1 -2 
+44 2 -3 44 
+61 3 68 75 61 
+Constructors: 1
+1 -1
+
+Summary: 5
+1 -1 -3 -2 0 
+java/io/File.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+10
+r5 1 -1 
+$r3 1 40 
+$r6 1 49 
+$r7 1 68 
+r0 1 -2 
+$r2 1 9 
+r4 1 47 
+$r8 1 61 
+r1 1 4 
+r9 2 39 9 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+16 1 -2 
+68 2 68 47 
+5 1 4 
+40 3 39 40 9 
+58 3 -1 49 47 
+76 2 -1 61 
+30 2 39 9 
+Constructors: 0
+
+Summary: 6
+-2 47 39 9 4 -1 
+java/io/File.<init>(Ljava/lang/String;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 26 
+$r2 1 22 
+$r5 1 33 
+r1 1 -2 
+$r4 1 37 
+Fields: 1
+-1 path 37
+Accesses: 4
+36 1 -1 
+6 1 -1 
+43 1 -1 
+29 1 -1 
+Functions: 4
+1 2 -1 37 
+17 0 
+33 2 33 37 
+22 2 -2 22 
+Constructors: 1
+1 -1
+
+Summary: 3
+-2 0 -1 
+java/io/File.setWritable(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.setReadOnly()Z
+PTG:
+Vars:
+4
+r1 1 -1 
+r0 1 3 
+$r2 1 25 
+$r3 1 10 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 2
+3 -1 
+java/io/File.mkdir()Z
+PTG:
+Vars:
+4
+r0 1 3 
+$r3 1 10 
+r1 1 -1 
+$r2 1 25 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 0
+
+java/io/File.getPath()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 path 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.getCanonicalPath()Ljava/lang/String;
+PTG:
+Vars:
+6
+$r3 1 24 
+$r1 1 20 
+r0 1 -1 
+$r2 1 17 
+$r4 1 27 
+_ret 1 27 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+17 2 17 24 
+20 2 -1 20 
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.setWritable(ZZ)Z
+PTG:
+Vars:
+4
+r1 1 -1 
+$r3 1 10 
+$r2 1 25 
+r0 1 3 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 2
+3 -1 
+java/io/File.isHidden()Z
+PTG:
+Vars:
+4
+r1 1 -1 
+r0 1 3 
+$r3 1 10 
+$r2 1 25 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.normalizedList()[Ljava/lang/String;
+PTG:
+Vars:
+11
+$r6 1 65 
+$r8 1 10 
+$r7 1 72 
+r1 1 -1 
+r4 1 48 
+$r5 1 71 
+$r2 1 25 
+r0 1 3 
+r9 2 48 32 
+$r3 1 38 
+_ret 2 48 32 
+Fields: 2
+32 ArrayObject 71
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 6
+0 0 
+16 2 -1 10 
+65 2 65 71 
+37 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 1
+38 
+java/io/File.getFreeSpace()J
+PTG:
+Vars:
+5
+r0 1 3 
+$r2 1 38 
+r1 1 -1 
+$r4 1 23 
+$r3 1 9 
+Fields: 1
+-1 path 23
+Accesses: 1
+22 1 -1 
+Functions: 6
+0 0 
+18 2 3 9 
+38 3 -1 38 23 
+26 2 3 23 
+29 2 -1 23 
+15 1 9 
+Constructors: 1
+15 9
+
+Summary: 3
+9 3 -1 
+java/io/File.canRead()Z
+PTG:
+Vars:
+4
+$r3 1 10 
+$r2 1 25 
+r1 1 -1 
+r0 1 3 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 0
+
+java/io/File.<init>(Ljava/net/URI;)V
+PTG:
+Vars:
+13
+$r11 1 184 
+$r5 1 89 
+$r10 1 188 
+$r4 1 72 
+$r8 1 173 
+r18 1 126 
+r1 1 -2 
+r2 1 47 
+$r6 1 106 
+r19 2 153 171 
+r0 1 -1 
+$r7 1 146 
+$r9 1 177 
+Fields: 1
+-1 path 188
+Accesses: 4
+194 1 -1 
+180 1 -1 
+6 1 -1 
+187 1 -1 
+Functions: 21
+1 2 -1 188 
+162 2 153 171 
+67 0 
+101 0 
+39 0 
+71 1 -2 
+9 1 -2 
+105 1 -2 
+43 1 -2 
+173 3 153 171 173 
+142 0 
+146 2 146 126 
+52 1 47 
+84 0 
+22 0 
+118 0 
+88 1 -2 
+184 2 184 188 
+26 1 -2 
+122 1 -2 
+127 1 126 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 -2 0 
+java/io/File.exists()Z
+PTG:
+Vars:
+4
+$r3 1 10 
+$r2 1 25 
+r1 1 -1 
+r0 1 3 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.listFiles(Ljava/io/FileFilter;)[Ljava/io/File;
+PTG:
+Vars:
+10
+r0 1 -1 
+r1 1 4 
+r11 1 -2 
+$r6 1 92 
+$r9 1 44 
+$r5 1 89 
+r8 1 42 
+$r2 1 11 
+$r7 1 92 
+_ret 1 92 
+Fields: 1
+4 ArrayObject 42
+Accesses: 0
+Functions: 7
+0 1 -1 
+51 3 -1 42 44 
+84 2 89 11 
+85 1 11 
+74 2 11 44 
+60 2 -2 44 
+15 1 11 
+Constructors: 2
+51 44
+15 11
+
+Summary: 5
+-2 11 0 44 89 
+java/io/File.getUsableSpace()J
+PTG:
+Vars:
+5
+$r2 1 38 
+r1 1 -1 
+$r4 1 23 
+$r3 1 9 
+r0 1 3 
+Fields: 1
+-1 path 23
+Accesses: 1
+22 1 -1 
+Functions: 6
+0 0 
+18 2 3 9 
+38 3 -1 38 23 
+26 2 3 23 
+29 2 -1 23 
+15 1 9 
+Constructors: 1
+15 9
+
+Summary: 3
+9 3 -1 
+java/io/File.canExecute()Z
+PTG:
+Vars:
+4
+$r3 1 10 
+$r2 1 25 
+r0 1 3 
+r1 1 -1 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 2
+3 -1 
+java/io/File.getAbsolutePath()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r2 1 4 
+r0 1 -1 
+$r1 1 0 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 0 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.getPrefixLength()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.<init>(Ljava/lang/String;I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+16 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+java/io/File.list(Ljava/io/FilenameFilter;)[Ljava/lang/String;
+PTG:
+Vars:
+10
+r0 1 -1 
+$r8 1 38 
+$r7 1 74 
+$r9 1 51 
+r1 1 4 
+$r3 1 15 
+$r5 1 71 
+r2 1 -2 
+$r6 1 74 
+_ret 1 74 
+Fields: 2
+4 ArrayObject 51
+4 ArrayObject 38
+Accesses: 0
+Functions: 6
+0 1 -1 
+64 2 71 15 
+33 3 -1 -2 38 
+65 1 15 
+19 1 15 
+52 2 51 15 
+Constructors: 1
+19 15
+
+Summary: 4
+-2 71 0 15 
+java/io/File.toURI()Ljava/net/URI;
+PTG:
+Vars:
+10
+r9 2 16 45 
+r8 1 4 
+$r2 1 46 
+$r4 1 35 
+r0 1 -1 
+$r1 1 6 
+$r5 1 39 
+$r3 1 26 
+$r6 1 -1 
+$r7 1 60 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -1 
+17 2 16 45 
+65 2 -1 60 
+35 3 16 35 45 
+5 1 4 
+39 1 39 
+55 3 16 45 46 
+9 1 4 
+10 1 6 
+26 1 26 
+30 1 26 
+Constructors: 3
+65 60
+55 46
+30 26
+
+Summary: 1
+-1 
+java/io/File.setExecutable(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.getAbsoluteFile()Ljava/io/File;
+PTG:
+Vars:
+7
+$r1 1 6 
+$r3 1 27 
+r0 1 -1 
+$r4 1 14 
+r5 2 21 4 
+$r2 1 22 
+_ret 1 22 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -1 
+34 3 4 21 22 
+5 1 -1 
+27 3 4 21 27 
+14 3 4 21 14 
+Constructors: 1
+34 22
+
+Summary: 2
+6 -1 
+java/io/File.setReadable(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.toPath()Ljava/nio/file/Path;
+PTG:
+Vars:
+6
+$r5 1 26 
+r8 2 36 4 
+$r3 1 22 
+$r4 1 30 
+r0 1 -1 
+_ret 2 36 4 
+Fields: 2
+-1 filePath 4
+-1 path 26
+Accesses: 4
+0 1 -1 
+39 1 -1 
+25 1 -1 
+13 1 -1 
+Functions: 2
+-1 0 
+22 3 22 26 30 
+Constructors: 0
+
+Summary: 1
+30 
+java/io/File.isAbsolute()Z
+PTG:
+Vars:
+2
+$r1 1 0 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 0 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.renameTo(Ljava/io/File;)Z
+PTG:
+Vars:
+6
+r0 1 3 
+$r5 1 10 
+$r6 1 18 
+r2 1 -1 
+$r3 1 52 
+r1 1 -2 
+Fields: 2
+-2 path 18
+-1 path 10
+Accesses: 2
+17 1 -2 
+9 1 -1 
+Functions: 7
+0 0 
+32 0 
+36 2 -1 10 
+52 5 -1 -2 18 52 10 
+21 2 18 3 
+43 2 -2 18 
+13 2 3 10 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/io/File.getParent()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r3 1 61 
+r0 1 -1 
+$r2 1 1 
+_ret 1 61 
+Fields: 1
+-1 path 1
+Accesses: 8
+0 1 -1 
+33 1 -1 
+19 1 -1 
+55 1 -1 
+40 1 -1 
+26 1 -1 
+12 1 -1 
+45 1 -1 
+Functions: 4
+1 1 1 
+56 1 1 
+41 0 
+27 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.toString()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/File.isDirectory()Z
+PTG:
+Vars:
+4
+r0 1 3 
+$r3 1 10 
+$r2 1 25 
+r1 1 -1 
+Fields: 1
+-1 path 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+0 0 
+16 2 -1 10 
+25 3 -1 25 10 
+13 2 3 10 
+Constructors: 0
+
+Summary: 1
+-1 

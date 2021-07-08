@@ -1,0 +1,829 @@
+29
+org/eclipse/core/internal/localstore/UnifiedTree.addChildrenMarker()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/localstore/UnifiedTree.getWorkspace()Lorg/eclipse/core/internal/resources/Workspace;
+PTG:
+Vars:
+5
+$r2 1 4 
+$r3 1 4 
+$r1 1 1 
+r0 1 -1 
+_ret 1 4 
+Fields: 1
+-1 root 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/localstore/UnifiedTree.addElementToQueue(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 queue 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.isLevelMarker(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.createNode(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/filesystem/IFileStore;Lorg/eclipse/core/filesystem/IFileInfo;Z)Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r1 1 4 
+$r2 1 47 
+r5 1 -4 
+r3 1 -2 
+r4 1 -3 
+_ret 1 47 
+Fields: 1
+-1 freeNodes 4
+Accesses: 2
+17 1 -1 
+3 1 -1 
+Functions: 4
+18 0 
+4 1 4 
+41 5 -1 -2 -3 -4 4 
+57 6 -1 -2 -3 -4 4 47 
+Constructors: 1
+57 47
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/core/internal/localstore/UnifiedTree.setRoot(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.initLinkHistoriesIfNeeded()V
+PTG:
+Vars:
+34
+$r19 1 30 
+r0 1 -1 
+$r31 1 185 
+$r30 1 180 
+$r18 1 61 
+$r32 1 188 
+$r10 1 145 
+$r1 1 1 
+$r17 1 48 
+$r3 1 84 
+$r15 1 165 
+$r22 1 -1 
+$r16 1 7 
+r24 1 15 
+$r8 1 131 
+$r7 1 126 
+$r21 1 -1 
+r27 1 93 
+$r14 1 162 
+$r2 1 84 
+$r11 1 74 
+$r26 1 74 
+r6 1 121 
+$r33 1 196 
+$r5 1 111 
+r28 1 102 
+$r23 1 -1 
+r25 1 15 
+$r13 1 154 
+$r34 1 199 
+$r12 1 151 
+$r29 1 74 
+$r20 1 38 
+$r4 1 84 
+Fields: 3
+-1 pathPrefixHistory 1
+-1 rootPathHistory 74
+-1 root 84
+Accesses: 10
+0 1 -1 
+176 1 -1 
+33 1 -1 
+83 1 -1 
+70 1 -1 
+41 1 -1 
+57 1 -1 
+73 1 -1 
+107 1 -1 
+141 1 -1 
+Functions: 25
+-1 0 
+130 1 121 
+67 1 61 
+196 1 196 
+7 1 7 
+136 2 131 126 
+74 1 74 
+202 2 199 74 
+145 1 145 
+149 1 126 
+87 1 84 
+151 1 151 
+29 1 15 
+157 2 145 154 
+94 1 93 
+162 1 162 
+37 1 15 
+168 2 165 74 
+108 1 84 
+111 1 111 
+180 1 180 
+54 1 48 
+184 1 102 
+185 1 185 
+191 2 180 188 
+Constructors: 5
+67 61
+54 48
+136 126
+157 145
+191 180
+
+Summary: 16
+7 185 131 162 188 102 165 121 126 93 15 151 196 154 199 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.createChildNodeFromFileSystem(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;Lorg/eclipse/core/filesystem/IFileInfo;)Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;
+PTG:
+Vars:
+11
+$r9 1 55 
+r5 1 20 
+$r1 1 1 
+$r4 1 10 
+$r7 1 38 
+r0 1 -2 
+r6 1 -1 
+r3 1 -3 
+_ret 1 55 
+$r2 1 4 
+r8 1 47 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+1 1 1 
+49 3 -1 -3 47 
+4 2 4 10 
+21 1 -3 
+37 1 -1 
+38 2 20 38 
+9 1 -3 
+Constructors: 0
+
+Summary: 9
+20 -3 -2 0 -1 10 38 1 47 
+org/eclipse/core/internal/localstore/UnifiedTree.createChildForLinkedResource(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;
+PTG:
+Vars:
+7
+$r5 1 18 
+$r4 1 12 
+$r1 1 -2 
+r3 1 -1 
+r0 1 -2 
+_ret 1 18 
+r2 1 7 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -2 
+8 4 -1 -2 7 12 
+11 1 7 
+Constructors: 0
+
+Summary: 4
+-2 7 12 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.isChildrenMarker(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.<clinit>()V
+PTG:
+Vars:
+6
+$r3 1 26 
+$r4 1 42 
+$r2 1 18 
+$r5 1 49 
+$r1 1 15 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+35 1 26 
+9 1 0 
+15 1 15 
+Constructors: 2
+35 26
+9 0
+
+Summary: 0
+
+org/eclipse/core/internal/localstore/UnifiedTree.addChildren(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;)V
+PTG:
+Vars:
+21
+r17 1 151 
+r16 2 129 138 
+r0 1 -2 
+r4 2 54 48 
+r14 1 68 
+r8 1 174 
+$r9 1 340 
+$r1 1 1 
+r19 1 420 
+$r10 1 265 
+$r3 1 27 
+r15 5 220 285 358 300 375 
+$r18 1 174 
+$r12 1 -1 
+$r6 1 1 
+r7 1 160 
+$r13 2 54 48 
+r2 1 1 
+$r11 1 190 
+$r20 1 435 
+r5 1 -1 
+Fields: 4
+54 ArrayObject 174
+48 ArrayObject 174
+129 ArrayObject 151
+138 ArrayObject 151
+Accesses: 0
+Functions: 35
+0 1 -2 
+389 7 -1 -2 358 375 220 300 285 
+70 2 1 68 
+263 3 -1 265 174 
+8 1 1 
+264 1 -2 
+328 1 174 
+204 1 151 
+80 0 
+18 1 -2 
+338 3 -1 340 174 
+339 1 -2 
+276 2 -1 151 
+214 2 -1 151 
+406 5 -1 48 -2 54 174 
+153 1 151 
+26 1 1 
+27 1 27 
+414 1 1 
+351 3 -1 -2 174 
+290 3 -1 151 174 
+102 1 1 
+39 1 -2 
+46 2 -1 -2 
+366 2 -1 151 
+431 1 420 
+241 1 174 
+434 1 -2 
+119 1 1 
+186 2 160 190 
+442 1 -1 
+188 1 174 
+316 1 174 
+253 1 174 
+62 1 1 
+Constructors: 0
+
+Summary: 18
+-2 265 340 220 160 285 48 0 129 420 375 68 435 358 190 -1 27 300 
+org/eclipse/core/internal/localstore/UnifiedTree.removeNodeChildrenFromQueue(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;)V
+PTG:
+Vars:
+5
+r1 1 4 
+$r3 1 12 
+r0 1 -2 
+r2 1 -1 
+$r4 1 15 
+Fields: 1
+-1 queue 12
+Accesses: 1
+11 1 -1 
+Functions: 4
+0 1 -2 
+10 2 4 15 
+26 1 -2 
+12 1 12 
+Constructors: 0
+
+Summary: 5
+15 -2 4 0 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.<init>(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+$r1 1 15 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+6 1 -1 
+22 1 -1 
+11 1 -1 
+Functions: 3
+1 1 -1 
+19 1 15 
+27 2 -1 -2 
+Constructors: 2
+1 -1
+19 15
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.getLevel()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/localstore/UnifiedTree.quickSort([Lorg/eclipse/core/filesystem/IFileInfo;II)V
+PTG:
+Vars:
+7
+r0 1 -2 
+$r6 1 25 
+r1 1 13 
+$r2 1 42 
+r3 1 -1 
+r4 1 61 
+$r5 1 67 
+Fields: 5
+-2 ArrayObject 13
+-2 ArrayObject 67
+-2 ArrayObject 25
+-2 ArrayObject 42
+-2 ArrayObject 61
+Accesses: 0
+Functions: 4
+96 7 -1 -2 67 25 42 13 61 
+21 2 25 13 
+42 2 42 13 
+110 7 -1 -2 67 25 42 13 61 
+Constructors: 0
+
+Summary: 6
+-2 25 42 13 0 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.addRootToQueue()V
+PTG:
+Vars:
+12
+$r9 1 1 
+$r1 1 1 
+$r12 2 50 41 
+$r8 1 1 
+$r11 1 30 
+$r4 1 1 
+r5 1 28 
+$r6 1 30 
+$r3 1 1 
+r10 1 75 
+$r2 1 4 
+r0 1 -1 
+Fields: 2
+-1 fileTree 30
+-1 root 1
+Accesses: 6
+0 1 -1 
+18 1 -1 
+36 1 -1 
+57 1 -1 
+29 1 -1 
+63 1 -1 
+Functions: 10
+64 1 1 
+1 1 1 
+49 1 28 
+83 1 75 
+4 1 4 
+37 2 28 30 
+22 1 1 
+56 6 -1 1 50 41 28 30 
+76 1 75 
+92 4 -1 1 75 30 
+Constructors: 0
+
+Summary: 6
+50 41 4 -1 28 75 
+org/eclipse/core/internal/localstore/UnifiedTree.addChildToTree(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;)V
+PTG:
+Vars:
+4
+r3 1 -3 
+r2 1 -1 
+r0 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+9 2 -2 -3 
+14 2 -1 -3 
+Constructors: 0
+
+Summary: 6
+-3 -2 0 -1 1 1 
+org/eclipse/core/internal/localstore/UnifiedTree.isValidLevel(II)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/localstore/UnifiedTree.addChildrenFromFileSystem(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;[Lorg/eclipse/core/filesystem/IFileInfo;I)V
+PTG:
+Vars:
+6
+r1 1 15 
+r3 1 -2 
+r0 1 -3 
+r2 1 -1 
+$r5 1 58 
+$r4 1 41 
+Fields: 1
+-3 ArrayObject 15
+Accesses: 0
+Functions: 6
+17 1 15 
+54 3 -1 -2 15 
+39 3 -1 41 15 
+40 1 -2 
+29 1 15 
+61 3 -1 -2 58 
+Constructors: 0
+
+Summary: 7
+41 -3 58 -2 0 -1 1 
+org/eclipse/core/internal/localstore/UnifiedTree.accept(Lorg/eclipse/core/internal/localstore/IUnifiedTreeVisitor;I)V
+PTG:
+Vars:
+8
+$r7 1 101 
+$r1 1 1 
+$r6 1 92 
+r4 1 25 
+r5 1 -2 
+$r2 2 101 22 
+r0 1 -1 
+$r3 1 25 
+Fields: 3
+-1 root 1
+-1 freeNodes 92
+-1 queue 101
+Accesses: 4
+0 1 -1 
+100 1 -1 
+21 1 -1 
+91 1 -1 
+Functions: 13
+32 5 -1 1 101 25 92 
+96 2 25 92 
+4 1 1 
+68 2 -2 25 
+101 1 101 
+8 4 -1 1 101 92 
+43 5 -1 1 101 25 92 
+14 4 -1 1 101 92 
+80 5 -1 1 101 25 92 
+51 4 -1 1 101 92 
+52 4 -1 1 101 92 
+22 2 101 22 
+88 5 -1 1 101 25 92 
+Constructors: 0
+
+Summary: 4
+-2 25 0 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.accept(Lorg/eclipse/core/internal/localstore/IUnifiedTreeVisitor;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.getChildren(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;)Ljava/util/Iterator;
+PTG:
+Vars:
+13
+r10 1 59 
+$r5 1 28 
+$r11 1 24 
+$r6 1 44 
+$r9 1 59 
+$r2 1 13 
+$r4 1 24 
+$r12 1 101 
+r0 1 -2 
+$r8 1 24 
+r3 1 -1 
+$r1 1 1 
+_ret 1 101 
+Fields: 1
+-1 queue 24
+Accesses: 3
+54 1 -1 
+23 1 -1 
+88 1 -1 
+Functions: 11
+0 1 -2 
+50 1 44 
+82 2 59 44 
+67 3 -1 24 59 
+100 1 44 
+55 1 24 
+24 2 24 28 
+9 3 -1 -2 24 
+89 1 24 
+27 1 -2 
+12 1 -2 
+Constructors: 1
+50 44
+
+Summary: 8
+59 -2 0 1 44 28 13 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.<init>(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/filesystem/IFileTree;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 3
+-2 -1 1 
+org/eclipse/core/internal/localstore/UnifiedTree.addNodeChildrenToQueue(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;)V
+PTG:
+Vars:
+12
+r0 1 -1 
+r11 1 35 
+$r7 1 62 
+$r9 1 21 
+$r6 1 21 
+$r8 1 78 
+$r3 1 21 
+$r5 1 35 
+r12 1 62 
+$r4 1 21 
+r1 1 -2 
+$r2 1 8 
+Fields: 1
+-1 queue 21
+Accesses: 5
+0 1 -1 
+50 1 -1 
+20 1 -1 
+58 1 -1 
+31 1 -1 
+Functions: 9
+32 1 21 
+17 3 -1 -2 21 
+81 3 -1 21 78 
+21 1 21 
+69 3 -1 21 62 
+54 1 21 
+7 1 -2 
+42 3 -1 35 21 
+59 1 21 
+Constructors: 0
+
+Summary: 6
+-2 62 0 35 -1 8 
+org/eclipse/core/internal/localstore/UnifiedTree.setLevel(II)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+17 1 -1 
+2 1 -1 
+21 1 -1 
+7 1 -1 
+Functions: 2
+20 1 -1 
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/localstore/UnifiedTree.initializeQueue()V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r7 1 8 
+$r4 1 32 
+$r2 1 1 
+$r3 1 32 
+$r6 1 39 
+$r5 1 66 
+$r1 1 1 
+Fields: 2
+-1 freeNodes 32
+-1 queue 1
+Accesses: 6
+0 1 -1 
+48 1 -1 
+18 1 -1 
+54 1 -1 
+24 1 -1 
+31 1 -1 
+Functions: 6
+69 4 -1 32 1 66 
+58 1 32 
+28 1 1 
+45 1 39 
+62 3 -1 32 1 
+15 1 8 
+Constructors: 2
+45 39
+15 8
+
+Summary: 1
+-1 
+org/eclipse/core/internal/localstore/UnifiedTree.getLocalList(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;)[Lorg/eclipse/core/filesystem/IFileInfo;
+PTG:
+Vars:
+10
+$r10 2 17 28 
+$r9 1 65 
+r1 1 4 
+r2 1 -1 
+r0 1 -2 
+$r3 1 6 
+$r8 1 -1 
+_ret 1 65 
+$r7 1 6 
+r4 2 17 28 
+Fields: 1
+-1 fileTree 6
+Accesses: 2
+5 1 -1 
+12 1 -1 
+Functions: 4
+0 1 -2 
+25 1 4 
+59 4 -1 17 6 28 
+13 2 4 6 
+Constructors: 0
+
+Summary: 4
+-2 4 0 -1 
+org/eclipse/core/internal/localstore/UnifiedTree.isRecursiveLink(Lorg/eclipse/core/filesystem/IFileStore;Lorg/eclipse/core/filesystem/IFileInfo;)Z
+PTG:
+Vars:
+26
+r2 1 -2 
+r3 1 36 
+$r12 1 87 
+r11 1 85 
+$r15 1 104 
+$r22 1 138 
+r0 1 -3 
+$r7 1 62 
+$r26 1 -1 
+$r10 1 79 
+$r14 1 96 
+$r25 1 -1 
+r1 1 8 
+$r24 1 17 
+$r5 1 52 
+$r8 1 68 
+$r18 1 117 
+$r4 1 45 
+$r23 1 13 
+$r13 1 93 
+$r9 1 71 
+r17 1 -1 
+$r19 1 117 
+$r20 1 152 
+r16 1 110 
+$r21 1 152 
+Fields: 3
+-1 pathPrefixHistory 117
+-1 rootPathHistory 152
+-1 rootPathHistory 138
+Accesses: 5
+116 1 -1 
+165 1 -1 
+151 1 -1 
+137 1 -1 
+125 1 -1 
+Functions: 22
+0 1 -3 
+66 1 36 
+99 2 96 87 
+68 1 68 
+104 1 104 
+74 2 71 62 
+138 2 138 110 
+171 2 152 110 
+13 2 8 13 
+79 1 79 
+17 1 17 
+113 4 -1 117 152 138 
+51 1 -3 
+87 1 87 
+152 2 152 110 
+57 3 36 52 45 
+122 2 117 85 
+91 1 45 
+28 1 -2 
+93 1 93 
+62 1 62 
+126 2 117 110 
+Constructors: 3
+99 87
+57 45
+74 62
+
+Summary: 17
+93 -3 -2 104 0 17 8 45 68 110 79 71 52 96 -1 36 85 

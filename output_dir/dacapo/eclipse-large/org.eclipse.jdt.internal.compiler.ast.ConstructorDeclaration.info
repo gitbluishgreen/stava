@@ -1,0 +1,880 @@
+16
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.isRecursive(Ljava/util/ArrayList;)Z
+PTG:
+Vars:
+17
+$r1 1 1 
+$r6 1 8 
+$r15 1 84 
+r16 2 -2 84 
+$r11 1 18 
+r14 1 66 
+$r8 1 50 
+$r12 1 63 
+r0 1 -1 
+$r5 1 8 
+$r3 1 8 
+$r2 1 8 
+$r4 1 18 
+$r10 1 8 
+$r7 1 18 
+$r13 1 66 
+$r9 1 53 
+Fields: 4
+-1 scope 50
+-1 constructorCall 8
+-1 binding 1
+8 binding 18
+Accesses: 10
+0 1 -1 
+49 1 -1 
+34 1 -1 
+35 1 8 
+7 1 -1 
+24 1 -1 
+56 1 -1 
+57 1 8 
+14 1 -1 
+15 1 8 
+Functions: 9
+96 7 -1 -2 1 50 18 84 8 
+50 1 50 
+116 7 -1 -2 1 50 18 84 8 
+53 2 53 63 
+38 1 18 
+120 3 -2 66 84 
+25 2 18 8 
+89 1 84 
+60 1 18 
+Constructors: 1
+89 84
+
+Summary: 7
+-2 63 53 84 0 -1 66 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.parseStatements(Lorg/eclipse/jdt/internal/compiler/parser/Parser;Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 12 
+r2 1 -3 
+r1 1 -2 
+Fields: 1
+-1 constructorCall 12
+Accesses: 7
+0 1 -1 
+36 1 -1 
+22 1 -1 
+40 1 -1 
+25 1 -1 
+11 1 -1 
+29 1 -1 
+Functions: 2
+-1 0 
+52 4 -1 -2 -3 12 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.internalGenerateCode(Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;Lorg/eclipse/jdt/internal/compiler/ClassFile;)V
+PTG:
+Vars:
+43
+r6 1 -2 
+r44 1 276 
+r1 1 -1 
+$r32 1 288 
+$r38 1 206 
+$r3 1 2 
+$r21 1 459 
+$r5 1 2 
+$r13 1 288 
+$r39 1 223 
+$r40 1 111 
+$r48 1 459 
+$r9 1 2 
+r8 1 63 
+$r23 3 486 111 165 
+$r27 2 402 424 
+$r42 1 111 
+$r15 1 402 
+$r47 1 288 
+$r36 2 200 178 
+$r28 1 429 
+$r31 2 111 165 
+$r12 1 178 
+$r11 1 165 
+$r37 1 205 
+$r45 2 111 165 
+$r35 1 178 
+$r24 1 484 
+$r14 2 111 165 
+$r30 2 111 165 
+$r26 1 402 
+$r41 1 116 
+$r4 1 2 
+r10 1 79 
+r0 1 -3 
+$r22 2 479 459 
+$r34 1 288 
+$r46 1 316 
+r7 1 47 
+$r2 1 2 
+$r33 2 111 165 
+$r16 1 63 
+$r25 1 402 
+Fields: 19
+205 binding 206
+-3 codeStream 63
+2 declaringClass 79
+-2 referenceContext 47
+200 ArrayObject 205
+402 ArrayObject 429
+424 ArrayObject 429
+178 ArrayObject 205
+479 ArrayObject 484
+-1 arguments 178
+-1 statements 459
+-1 scope 165
+-1 scope 111
+-1 constructorCall 288
+-1 binding 2
+206 type 223
+47 initializerScope 276
+47 fields 402
+459 ArrayObject 484
+Accesses: 44
+1 1 -1 
+515 1 -1 
+389 1 -1 
+199 1 -1 
+8 1 -3 
+72 1 -1 
+73 1 2 
+458 1 -1 
+586 1 47 
+205 1 205 
+14 1 -1 
+271 1 47 
+400 1 47 
+530 1 -1 
+468 1 -1 
+23 1 -1 
+347 1 -1 
+411 1 47 
+221 1 206 
+478 1 -1 
+223 1 223 
+287 1 -1 
+33 1 -1 
+547 1 -1 
+164 1 -1 
+485 1 -1 
+294 1 -1 
+358 1 -1 
+422 1 47 
+295 1 288 
+43 1 -2 
+365 1 -1 
+557 1 -1 
+110 1 -1 
+49 1 -3 
+177 1 -1 
+369 1 -1 
+119 1 111 
+312 1 -1 
+504 1 -1 
+122 1 -1 
+59 1 -3 
+187 1 -1 
+316 1 316 
+Functions: 32
+516 0 
+5 4 -3 2 63 79 
+69 14 -1 288 2 -3 484 165 459 205 206 111 79 178 63 223 
+138 2 111 63 
+13 4 -3 2 63 79 
+397 13 -1 288 2 484 165 459 205 206 111 79 178 223 63 
+526 0 
+143 1 79 
+81 1 79 
+212 3 206 63 223 
+599 1 63 
+24 2 2 79 
+153 1 79 
+218 2 206 223 
+284 2 276 63 
+542 1 63 
+606 2 -3 63 
+34 2 2 79 
+355 13 -1 288 2 484 165 459 205 206 111 79 178 223 63 
+102 1 79 
+551 3 165 63 111 
+491 5 484 165 486 111 63 
+429 1 429 
+174 2 165 63 
+561 1 63 
+114 1 79 
+375 4 288 165 111 63 
+567 2 -3 63 
+56 2 -3 63 
+313 2 165 111 
+445 3 276 429 63 
+126 1 79 
+Constructors: 0
+
+Summary: 10
+-3 402 1 519 -2 0 522 316 -1 47 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)V
+PTG:
+Vars:
+34
+$r16 1 158 
+$r19 1 182 
+$r33 1 10 
+$r28 1 29 
+$r21 2 115 134 
+$r11 2 239 220 
+$r6 1 115 
+$r23 1 139 
+$r31 1 53 
+$r10 1 220 
+$r18 2 22 185 
+$r27 1 96 
+$r13 1 244 
+$r12 2 247 22 
+$r8 1 201 
+$r15 1 201 
+$r32 1 22 
+$r4 1 29 
+$r30 2 22 56 
+$r26 2 99 22 
+$r7 1 158 
+$r14 1 22 
+$r3 1 10 
+$r24 1 72 
+$r20 1 115 
+r0 1 -2 
+r2 1 -3 
+$r5 1 72 
+$r29 2 48 29 
+$r22 2 22 142 
+$r17 2 158 177 
+$r9 1 220 
+$r25 2 72 91 
+r1 1 -1 
+Fields: 18
+158 ArrayObject 182
+72 ArrayObject 96
+115 ArrayObject 139
+239 ArrayObject 244
+220 ArrayObject 244
+91 ArrayObject 96
+134 ArrayObject 139
+48 ArrayObject 53
+177 ArrayObject 182
+-1 arguments 115
+-1 statements 220
+-1 scope 22
+-1 thrownExceptions 158
+-1 typeParameters 72
+-1 annotations 29
+-1 constructorCall 201
+-1 javadoc 10
+29 ArrayObject 53
+Accesses: 26
+133 1 -1 
+71 1 -1 
+200 1 -1 
+9 1 -1 
+141 1 -1 
+78 1 -1 
+207 1 -1 
+16 1 -1 
+212 1 -1 
+21 1 -1 
+90 1 -1 
+219 1 -1 
+28 1 -1 
+157 1 -1 
+98 1 -1 
+226 1 -1 
+35 1 -1 
+164 1 -1 
+238 1 -1 
+47 1 -1 
+176 1 -1 
+114 1 -1 
+246 1 -1 
+55 1 -1 
+184 1 -1 
+121 1 -1 
+Functions: 9
+0 16 -1 96 -2 -3 72 201 10 139 115 244 53 22 182 220 29 158 
+145 4 -2 22 139 142 
+102 4 96 -2 99 22 
+216 3 -2 22 201 
+25 3 -2 22 10 
+265 16 -1 96 -2 -3 72 201 10 139 115 244 53 22 182 220 29 158 
+250 4 -2 244 22 247 
+59 4 -2 53 22 56 
+188 4 -2 182 22 185 
+Constructors: 0
+
+Summary: 5
+-3 1 -2 0 -1 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;Lorg/eclipse/jdt/internal/compiler/ClassFile;)V
+PTG:
+Vars:
+20
+r27 1 198 
+$r9 1 126 
+r26 1 190 
+$r11 1 132 
+$r17 1 181 
+r2 1 -2 
+$r19 1 217 
+$r13 1 -1 
+$r10 1 129 
+r24 1 138 
+$r12 1 165 
+$r16 1 178 
+$r20 1 109 
+$r15 1 84 
+$r14 1 87 
+$r18 1 184 
+r1 1 -3 
+r0 1 -1 
+r25 1 146 
+$r8 1 -1 
+Fields: 8
+-3 codeStream 109
+181 compilationResult 184
+129 compilationResult 132
+-1 scope 126
+-1 scope 178
+-1 binding 165
+-1 binding 217
+-1 compilationResult 84
+Accesses: 16
+129 1 129 
+2 1 -1 
+66 1 -3 
+98 1 -3 
+164 1 -1 
+9 1 -1 
+105 1 -3 
+108 1 -3 
+17 1 -1 
+177 1 -1 
+82 1 -1 
+181 1 181 
+56 1 -1 
+216 1 -1 
+125 1 -1 
+95 1 -3 
+Functions: 15
+132 1 132 
+74 8 -1 -2 178 -3 165 217 109 126 
+171 8 -1 -3 178 146 165 217 109 126 
+112 1 109 
+18 0 
+178 1 178 
+51 0 
+211 2 198 190 
+118 8 -1 -2 178 -3 165 217 109 126 
+24 0 
+184 1 184 
+62 7 -1 -3 178 165 217 109 126 
+126 1 126 
+159 2 146 138 
+223 8 -1 -3 178 165 198 217 109 126 
+Constructors: 0
+
+Summary: 11
+132 184 -3 1 -2 0 21 129 24 181 -1 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.isConstructor()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;Lorg/eclipse/jdt/internal/compiler/flow/InitializationFlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;I)V
+PTG:
+Vars:
+67
+$r29 2 662 163 
+$r35 1 101 
+$r24 1 71 
+r8 1 -3 
+$r4 1 101 
+$r26 1 634 
+$r66 1 308 
+$r42 2 329 308 
+r67 1 379 
+r61 1 129 
+$r75 1 163 
+$r76 1 22 
+$r33 2 491 163 
+r59 3 436 518 -4 
+$r53 1 159 
+$r74 2 665 -1 
+$r54 1 163 
+$r27 2 163 642 
+$r39 1 71 
+$r69 1 445 
+$r2 1 22 
+$r20 1 101 
+$r47 1 22 
+$r22 1 577 
+$r23 1 22 
+$r52 1 141 
+$r9 1 22 
+$r49 1 198 
+$r40 1 396 
+$r25 1 611 
+$r32 2 445 479 
+$r56 1 71 
+$r11 1 163 
+$r44 1 335 
+$r55 1 22 
+r0 1 -1 
+$r51 1 71 
+$r15 1 22 
+$r14 1 163 
+$r3 1 101 
+$r50 1 101 
+$r17 1 101 
+r62 1 147 
+$r13 1 213 
+$r12 1 221 
+$r21 1 101 
+$r38 1 22 
+$r43 1 334 
+$r16 1 71 
+$r10 1 229 
+r71 1 583 
+$r57 1 -1 
+$r36 1 163 
+$r45 1 288 
+$r37 1 101 
+$r31 1 445 
+$r5 1 163 
+r58 1 -2 
+r64 1 266 
+$r48 1 163 
+r72 1 594 
+$r6 1 179 
+$r7 1 208 
+r70 1 485 
+$r34 2 163 509 
+$r41 1 308 
+$r28 1 645 
+Fields: 18
+594 ArrayObject 611
+594 ArrayObject 634
+-3 parent 213
+379 ArrayObject 396
+334 binding 335
+445 ArrayObject 485
+22 declaringClass 71
+22 thrownExceptions 221
+479 ArrayObject 485
+208 initsOnReturn 577
+208 extendedExceptions 266
+-1 arguments 308
+-1 statements 445
+-1 scope 163
+-1 constructorCall 101
+-1 binding 22
+329 ArrayObject 334
+308 ArrayObject 334
+Accesses: 55
+0 1 -1 
+641 1 -1 
+261 1 208 
+650 1 -1 
+529 3 -4 436 518 
+21 1 -1 
+661 1 -1 
+538 1 -1 
+34 1 -1 
+162 1 -1 
+546 1 -1 
+422 1 -1 
+298 1 -1 
+426 1 -1 
+556 1 -1 
+175 1 -1 
+304 1 22 
+307 1 -1 
+563 1 -1 
+691 1 -1 
+564 1 101 
+695 1 -1 
+444 1 -1 
+317 1 -1 
+575 1 208 
+194 1 -1 
+67 1 -1 
+68 1 22 
+708 1 -1 
+71 1 71 
+328 1 -1 
+584 1 -1 
+201 1 -1 
+585 1 22 
+334 1 334 
+212 1 -3 
+468 1 -1 
+217 1 -1 
+218 1 22 
+478 1 -1 
+351 1 -1 
+225 1 -1 
+100 1 -1 
+358 1 -1 
+359 1 101 
+490 1 -1 
+110 1 -1 
+238 1 -1 
+111 1 101 
+369 1 -1 
+370 1 22 
+248 1 -1 
+121 1 22 
+249 1 22 
+508 1 -1 
+Functions: 38
+-1 0 
+642 2 642 163 
+195 1 163 
+8 3 -4 436 518 
+139 2 129 141 
+396 1 396 
+588 1 71 
+205 2 101 198 
+17 3 -4 436 518 
+273 1 266 
+338 4 -4 436 518 335 
+662 2 163 662 
+89 3 22 71 221 
+409 4 -4 436 518 396 
+157 3 147 163 159 
+672 14 -1 611 163 645 101 485 71 334 335 308 22 665 445 221 
+611 1 611 
+294 2 288 266 
+423 8 208 577 163 -4 436 101 518 266 
+487 6 -4 163 436 485 518 491 
+232 17 -1 577 -3 163 101 485 229 71 266 334 335 208 308 213 22 445 221 
+552 3 -4 436 518 
+621 1 611 
+48 3 22 71 221 
+176 1 163 
+688 14 -1 577 163 101 485 71 266 334 335 208 308 22 445 221 
+245 9 208 577 -3 163 -4 436 213 518 266 
+373 1 71 
+629 2 583 634 
+183 12 -1 179 163 308 101 485 22 71 445 221 334 335 
+440 3 -4 436 518 
+186 11 -1 163 308 101 485 22 71 445 221 334 335 
+506 9 208 577 163 -4 436 485 518 266 509 
+59 3 22 71 221 
+123 1 71 
+699 4 163 22 71 221 
+252 1 71 
+574 4 577 -4 436 518 
+Constructors: 1
+232 208
+
+Summary: 21
+179 -3 147 518 1 645 -2 213 379 577 583 0 208 129 198 266 594 2 665 -1 159 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.isInitializationMethod()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.isDefaultConstructor()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.<init>(Lorg/eclipse/jdt/internal/compiler/CompilationResult;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.generateSyntheticFieldInitializationsIfNecessary(Lorg/eclipse/jdt/internal/compiler/lookup/MethodScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V
+PTG:
+Vars:
+13
+r1 1 -4 
+r11 1 19 
+r0 1 -4 
+$r5 1 49 
+r9 1 -1 
+$r3 1 49 
+r4 1 -3 
+$r6 1 118 
+r13 1 92 
+$r7 1 122 
+r10 1 -2 
+$r2 1 45 
+$r8 1 122 
+Fields: 4
+45 matchingField 49
+118 matchingField 122
+92 ArrayObject 118
+19 ArrayObject 45
+Accesses: 4
+68 1 45 
+118 1 118 
+45 1 45 
+141 1 118 
+Functions: 9
+0 1 -4 
+129 1 -3 
+147 2 -3 122 
+87 1 -4 
+135 3 -3 118 122 
+56 1 -3 
+74 2 49 -3 
+14 1 -4 
+62 3 49 -3 45 
+Constructors: 0
+
+Summary: 9
+-3 -2 0 -4 1 19 2 -1 92 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;Lorg/eclipse/jdt/internal/compiler/flow/InitializationFlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.printBody(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+10
+$r14 1 9 
+$r6 1 94 
+r0 1 -3 
+$r4 1 33 
+$r3 1 9 
+$r8 1 33 
+_ret 1 -3 
+$r10 2 33 52 
+r2 1 -1 
+$r11 1 56 
+Fields: 4
+33 ArrayObject 56
+52 ArrayObject 56
+-1 statements 33
+-1 constructorCall 9
+Accesses: 5
+32 1 -1 
+51 1 -1 
+67 1 -1 
+22 1 -1 
+8 1 -1 
+Functions: 8
+18 1 -3 
+99 1 94 
+4 1 -3 
+59 2 -3 56 
+28 2 -3 9 
+93 1 -3 
+78 1 -3 
+47 1 -3 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.typeParameters()[Lorg/eclipse/jdt/internal/compiler/ast/TypeParameter;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 typeParameters 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.resolveStatements()V
+PTG:
+Vars:
+24
+$r14 1 142 
+$r11 1 102 
+$r9 1 1 
+$r15 1 102 
+r2 1 7 
+$r4 1 9 
+$r21 1 1 
+$r1 1 1 
+$r20 1 56 
+$r7 1 1 
+r0 1 -1 
+$r8 1 186 
+$r3 1 13 
+$r10 1 102 
+$r16 1 73 
+$r23 1 102 
+$r18 2 34 52 
+$r12 1 102 
+$r22 1 26 
+$r6 1 73 
+$r13 1 1 
+$r17 1 34 
+$r19 2 58 1 
+$r5 1 34 
+Fields: 8
+7 sourceName 9
+34 ArrayObject 56
+52 ArrayObject 56
+-1 scope 1
+-1 selector 13
+-1 typeParameters 34
+-1 constructorCall 102
+-1 binding 73
+Accesses: 25
+0 1 -1 
+128 1 102 
+8 1 7 
+72 1 -1 
+138 1 -1 
+12 1 -1 
+79 1 -1 
+145 1 -1 
+22 1 -1 
+89 1 7 
+154 1 -1 
+160 1 -1 
+33 1 -1 
+98 1 7 
+164 1 -1 
+101 1 -1 
+42 1 -1 
+171 1 -1 
+108 1 7 
+51 1 -1 
+116 1 -1 
+117 1 102 
+182 1 -1 
+57 1 -1 
+127 1 -1 
+Functions: 12
+80 1 73 
+1 1 1 
+194 7 -1 1 34 102 56 73 13 
+149 2 102 142 
+23 1 1 
+183 1 1 
+168 2 1 102 
+139 1 1 
+13 2 9 13 
+61 3 1 56 58 
+30 8 -1 1 34 102 56 73 26 13 
+190 8 -1 1 34 102 56 73 186 13 
+Constructors: 0
+
+Summary: 6
+7 26 142 9 186 -1 
+org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.resolveJavadoc()V
+PTG:
+Vars:
+14
+$r1 1 1 
+$r7 1 1 
+$r13 1 102 
+r0 1 -1 
+$r10 1 67 
+$r8 1 67 
+$r12 1 1 
+$r5 1 1 
+r11 1 81 
+$r6 1 36 
+$r3 1 1 
+$r2 1 8 
+r9 1 73 
+$r4 1 36 
+Fields: 4
+-1 scope 67
+-1 binding 1
+-1 javadoc 8
+1 declaringClass 36
+Accesses: 15
+0 1 -1 
+32 1 -1 
+33 1 1 
+129 1 -1 
+66 1 -1 
+7 1 -1 
+42 1 -1 
+74 1 -1 
+43 1 1 
+110 1 -1 
+111 1 1 
+21 1 -1 
+55 1 -1 
+56 1 1 
+125 1 -1 
+Functions: 8
+82 1 81 
+67 1 67 
+101 1 73 
+105 1 102 
+137 1 81 
+75 1 67 
+46 1 36 
+15 5 -1 1 67 36 8 
+Constructors: 0
+
+Summary: 4
+102 81 73 -1 

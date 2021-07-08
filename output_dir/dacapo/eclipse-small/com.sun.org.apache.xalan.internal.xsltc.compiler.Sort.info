@@ -1,0 +1,1012 @@
+20
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.translateSortOrder(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r2 1 -3 
+$r3 1 1 
+r0 1 -1 
+Fields: 1
+-1 _order 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.translateLang(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+4
+$r3 1 1 
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 1
+-1 _lang 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.getParentClosure()Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Closure;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.translateSelect(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+4
+$r3 1 1 
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 1
+-1 _select 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.compileSortRecordFactory(Ljava/util/Vector;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+82
+$r51 1 802 
+$r32 1 637 
+$r72 1 577 
+$r27 1 517 
+$r46 1 746 
+$r75 1 596 
+$r94 1 158 
+r2 1 -4 
+$r18 1 351 
+$r14 1 243 
+$r33 1 649 
+$r20 1 374 
+$r50 1 790 
+$r44 1 724 
+$r70 1 969 
+$r21 1 386 
+r106 1 291 
+r104 1 148 
+$r36 1 677 
+$r86 1 291 
+$r54 1 832 
+$r79 1 434 
+r0 1 -2 
+r108 1 434 
+$r28 1 529 
+r1 1 -3 
+$r96 1 167 
+$r23 1 403 
+$r48 1 768 
+r61 1 901 
+r110 1 577 
+$r89 1 310 
+$r5 1 88 
+$r30 1 546 
+$r91 1 334 
+$r65 1 942 
+r109 1 525 
+$r40 1 696 
+r62 1 927 
+r101 1 29 
+$r16 1 260 
+r102 2 55 69 
+$r42 1 713 
+$r84 1 477 
+$r73 1 587 
+$r25 1 494 
+$r52 1 810 
+$r49 1 780 
+r105 1 239 
+$r45 1 736 
+$r55 1 854 
+r6 1 96 
+$r77 1 620 
+$r80 1 444 
+$r12 1 220 
+$r98 1 191 
+r4 1 81 
+$r87 1 301 
+$r9 1 117 
+$r47 1 758 
+$r60 1 901 
+$r63 1 931 
+$r69 1 966 
+$r34 1 657 
+$r57 1 864 
+$r93 1 148 
+$r58 1 864 
+$r82 1 453 
+$r7 1 100 
+r3 1 6 
+$r38 1 687 
+$r68 1 961 
+$r67 1 951 
+$r100 1 29 
+$r13 1 231 
+$r59 1 864 
+$r11 1 208 
+r107 1 382 
+r56 1 854 
+$r26 1 506 
+r103 1 75 
+$r19 1 363 
+Fields: 1
+854 _closureVars 864
+Accesses: 4
+39 1 29 
+874 1 854 
+862 1 854 
+894 1 854 
+Functions: 119
+512 2 -4 517 
+2 3 -2 -3 -4 
+515 0 
+772 1 382 
+264 1 75 
+777 1 768 
+10 1 -2 
+271 1 260 
+783 2 780 382 
+274 2 81 260 
+788 2 81 790 
+537 2 529 75 
+26 1 -2 
+794 1 525 
+540 2 81 529 
+799 1 790 
+288 1 -2 
+805 2 802 525 
+550 1 75 
+557 1 546 
+814 3 69 55 75 
+304 2 81 301 
+560 2 81 546 
+825 1 810 
+828 2 81 810 
+318 2 310 75 
+574 1 -2 
+65 4 -2 -3 -4 6 
+321 2 81 310 
+836 1 832 
+71 1 -3 
+329 3 -3 291 -4 
+77 1 -4 
+590 2 81 587 
+337 2 81 334 
+83 2 -4 88 
+851 1 -2 
+86 0 
+604 2 596 75 
+349 2 81 351 
+607 2 81 596 
+355 1 239 
+615 3 577 -3 -4 
+360 1 351 
+108 2 100 75 
+876 1 864 
+366 2 363 239 
+111 2 81 100 
+623 2 81 620 
+369 2 -4 374 
+372 0 
+121 1 75 
+635 2 81 637 
+128 1 117 
+896 1 864 
+641 1 525 
+131 2 81 117 
+646 1 637 
+394 2 386 75 
+652 2 649 525 
+397 2 81 386 
+909 2 832 901 
+145 1 -2 
+661 3 69 55 75 
+407 1 75 
+922 1 901 
+668 1 657 
+414 1 403 
+671 2 81 657 
+161 2 81 158 
+417 2 81 403 
+934 2 81 931 
+680 2 81 677 
+940 1 927 
+686 1 -4 
+175 2 167 75 
+431 1 -2 
+945 2 81 942 
+178 2 81 167 
+690 2 81 687 
+186 3 -3 -4 148 
+955 5 961 69 55 969 75 
+447 2 81 444 
+703 3 6 696 75 
+959 1 927 
+194 2 81 191 
+706 2 81 696 
+964 1 927 
+966 1 966 
+712 1 -3 
+716 2 81 713 
+461 2 453 75 
+206 2 208 81 
+975 1 951 
+464 2 81 453 
+722 2 81 724 
+978 2 81 951 
+212 1 96 
+472 3 434 -3 -4 
+728 1 96 
+217 1 208 
+986 2 832 901 
+733 1 724 
+223 2 96 220 
+480 2 81 477 
+226 2 -4 231 
+739 2 96 736 
+229 0 
+744 2 81 746 
+492 2 81 494 
+750 1 239 
+498 1 382 
+755 1 746 
+503 1 494 
+761 2 758 239 
+251 2 243 75 
+509 2 506 382 
+254 2 81 243 
+766 2 768 81 
+Constructors: 25
+128 117
+836 832
+646 637
+777 768
+394 386
+461 453
+271 260
+975 951
+217 208
+537 529
+604 596
+668 657
+733 724
+414 403
+799 790
+360 351
+108 100
+557 546
+175 167
+755 746
+503 494
+825 810
+251 243
+318 310
+703 696
+
+Summary: 66
+724 2 1 927 810 69 208 6 942 81 -4 696 0 546 239 901 961 506 758 657 832 746 167 736 310 453 75 363 494 951 966 649 637 351 802 148 220 517 596 768 854 969 713 96 790 687 403 525 382 529 386 434 100 243 -3 260 -2 88 29 780 374 117 291 864 231 577 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.translate(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.typeCheck(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/SymbolTable;)Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/Type;
+PTG:
+Vars:
+13
+$r6 1 44 
+$r13 1 17 
+$r10 1 62 
+r3 1 8 
+$r8 1 53 
+$r12 1 70 
+$r14 1 25 
+r1 1 -2 
+r0 1 -1 
+$r15 1 1 
+$r4 1 35 
+$r2 1 1 
+_ret 1 70 
+Fields: 5
+-1 _dataType 53
+-1 _lang 62
+-1 _caseOrder 44
+-1 _select 1
+-1 _order 35
+Accesses: 7
+0 1 -1 
+34 1 -1 
+52 1 -1 
+21 1 -1 
+43 1 -1 
+61 1 -1 
+31 1 -1 
+Functions: 6
+48 2 -2 44 
+1 2 1 -2 
+66 2 -2 62 
+39 2 -2 35 
+57 2 -2 53 
+28 3 17 1 25 
+Constructors: 1
+28 17
+
+Summary: 4
+-2 0 -1 8 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.inInnerClass()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 _className 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.parseContents(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Parser;)V
+PTG:
+Vars:
+16
+r15 1 154 
+$r6 1 88 
+r10 1 94 
+r13 1 137 
+$r3 1 36 
+r9 4 106 120 75 112 
+$r14 1 142 
+r0 1 -1 
+r1 1 4 
+$r12 1 125 
+$r5 1 84 
+$r7 1 -1 
+r2 1 -2 
+$r16 1 159 
+r8 2 58 48 
+$r4 1 63 
+Fields: 1
+-1 _select 84
+Accesses: 6
+128 1 -1 
+145 1 -1 
+66 1 -1 
+162 1 -1 
+83 1 -1 
+39 1 -1 
+Functions: 15
+0 2 -1 84 
+131 2 -1 84 
+69 2 -1 84 
+42 2 -1 84 
+76 4 112 120 106 75 
+141 4 -1 -2 84 137 
+49 2 48 58 
+84 2 84 88 
+148 2 -1 84 
+87 1 -2 
+25 3 -1 -2 84 
+124 7 -1 112 -2 84 120 106 75 
+30 3 -1 -2 84 
+62 5 -1 48 -2 84 58 
+158 4 -1 -2 84 154 
+Constructors: 0
+
+Summary: 10
+154 4 -1 48 -2 88 137 75 94 0 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.translateSortType(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+$r3 1 1 
+Fields: 1
+-1 _dataType 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.compileSortRecord(Ljava/util/Vector;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)Ljava/lang/String;
+PTG:
+Vars:
+29
+$r23 1 180 
+$r25 1 192 
+$r7 1 30 
+$r14 1 77 
+r20 1 157 
+$r15 1 94 
+$r5 1 17 
+$r22 1 170 
+r6 1 -3 
+r0 1 -2 
+$r11 1 55 
+r29 1 242 
+r19 1 131 
+_ret 1 15 
+$r21 1 161 
+$r13 1 261 
+$r17 1 94 
+$r1 1 1 
+$r8 1 34 
+$r24 1 183 
+r26 1 -4 
+r4 1 15 
+r3 1 10 
+r28 1 230 
+$r16 1 94 
+r27 1 77 
+$r2 1 1 
+r10 1 47 
+$r18 1 131 
+Fields: 1
+77 _closureVars 94
+Accesses: 3
+104 1 77 
+92 1 77 
+124 1 77 
+Functions: 29
+0 1 -2 
+195 2 192 161 
+259 1 17 
+4 1 1 
+198 2 17 161 
+264 2 261 10 
+74 1 -2 
+11 1 10 
+139 2 131 55 
+205 2 131 55 
+152 1 131 
+89 3 77 94 15 
+33 1 -3 
+225 3 17 47 15 
+37 4 17 34 30 15 
+166 2 170 47 
+168 1 157 
+42 1 17 
+106 1 94 
+237 4 -2 17 47 15 
+176 2 183 47 
+49 1 -2 
+178 1 157 
+180 1 180 
+248 2 17 230 
+59 1 55 
+126 1 94 
+190 1 47 
+255 2 17 242 
+Constructors: 3
+195 161
+37 17
+59 55
+
+Summary: 25
+10 1 2 157 161 170 242 17 34 183 180 -4 94 0 55 77 -3 192 -2 47 30 230 261 1 131 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.compileSortRecordFactory(Ljava/util/Vector;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+81
+$r96 1 196 
+$r43 1 490 
+$r58 1 603 
+$r49 1 537 
+r73 1 683 
+$r60 1 612 
+$r56 1 594 
+r0 1 -2 
+$r52 1 552 
+$r1 1 1 
+r4 1 17 
+$r7 1 36 
+$r53 1 557 
+$r23 1 301 
+$r51 1 546 
+$r35 1 432 
+r102 1 236 
+$r95 1 193 
+r74 1 696 
+$r88 1 97 
+$r5 1 19 
+$r22 1 291 
+$r81 1 735 
+r98 1 -4 
+$r39 1 460 
+$r26 1 369 
+$r86 1 769 
+$r97 1 205 
+$r50 1 541 
+$r33 1 418 
+$r47 1 521 
+$r37 1 446 
+$r91 1 107 
+$r72 1 683 
+$r6 1 27 
+$r18 1 255 
+$r94 1 183 
+r14 1 67 
+$r64 1 645 
+$r67 1 790 
+$r93 1 174 
+$r29 1 400 
+$r89 1 107 
+r99 1 97 
+r75 1 703 
+$r27 1 391 
+r3 1 10 
+$r84 1 755 
+r65 1 -5 
+$r8 1 41 
+$r9 1 44 
+$r21 1 282 
+$r17 1 246 
+$r78 1 716 
+$r92 1 144 
+r103 1 307 
+$r25 1 364 
+$r20 1 273 
+$r90 1 107 
+r100 1 144 
+$r85 1 764 
+$r71 1 844 
+r10 1 -3 
+$r41 1 475 
+$r15 1 75 
+$r76 1 707 
+$r45 1 514 
+$r62 1 636 
+r101 1 170 
+_ret 1 17 
+$r12 1 54 
+$r80 1 725 
+$r69 1 799 
+$r82 1 740 
+$r2 1 1 
+$r48 1 530 
+$r24 1 355 
+$r31 1 409 
+$r54 1 585 
+$r11 1 50 
+$r19 1 264 
+Fields: 10
+97 _closureVars 107
+307 ArrayObject 317
+307 ArrayObject 354
+307 ArrayObject 323
+307 ArrayObject 329
+307 ArrayObject 347
+307 ArrayObject 335
+307 ArrayObject 341
+557 ArrayObject 564
+557 ArrayObject 569
+Accesses: 3
+117 1 97 
+105 1 97 
+137 1 97 
+Functions: 91
+0 1 -2 
+384 14 354 323 355 67 329 364 236 335 369 17 307 341 347 317 
+4 1 1 
+517 2 514 355 
+262 0 
+775 1 755 
+649 2 67 -5 
+394 2 355 391 
+778 2 755 521 
+139 1 107 
+12 1 10 
+525 1 521 
+271 0 
+655 1 645 
+658 2 645 521 
+403 2 400 355 
+662 1 75 
+535 0 
+152 2 144 75 
+280 0 
+793 2 790 521 
+27 2 17 27 
+412 2 355 409 
+31 1 27 
+289 0 
+802 2 521 799 
+36 1 36 
+165 1 144 
+423 1 418 
+679 1 75 
+808 1 364 
+41 1 41 
+426 2 418 355 
+299 0 
+813 1 364 
+179 2 67 183 
+691 1 683 
+820 2 19 364 
+53 1 -3 
+181 1 170 
+437 1 432 
+440 2 432 355 
+57 5 17 50 19 54 44 
+825 1 530 
+698 1 696 
+189 2 67 196 
+62 1 19 
+830 1 530 
+191 1 170 
+193 1 193 
+578 9 17 530 67 564 537 569 521 541 557 
+451 1 446 
+69 1 -2 
+837 2 530 19 
+454 2 355 446 
+710 2 707 521 
+842 1 19 
+203 1 67 
+588 2 521 585 
+79 1 75 
+719 2 521 716 
+847 2 10 844 
+208 2 205 174 
+466 1 460 
+211 2 19 174 
+469 2 355 460 
+597 2 594 521 
+729 4 17 67 740 735 
+218 2 144 75 
+733 1 696 
+94 1 -2 
+606 2 521 603 
+481 1 475 
+738 1 703 
+484 2 355 475 
+359 1 355 
+616 1 67 
+746 1 725 
+749 2 725 521 
+494 1 67 
+627 1 612 
+244 0 
+630 2 612 521 
+119 1 107 
+759 4 769 67 -5 764 
+505 1 490 
+762 1 696 
+508 2 355 490 
+253 0 
+639 2 521 636 
+767 1 703 
+Constructors: 18
+384 364
+481 475
+578 530
+451 446
+359 355
+423 418
+775 755
+746 725
+525 521
+79 75
+655 645
+208 174
+466 460
+627 612
+437 432
+57 19
+505 490
+31 27
+
+Summary: 62
+307 740 236 19 2 1 193 769 170 335 75 196 844 174 490 432 -4 645 0 541 97 683 107 -5 41 341 703 317 446 354 3 460 764 44 735 569 10 521 323 347 537 364 418 183 355 50 67 725 205 557 530 54 329 696 -3 -2 475 612 755 144 1 564 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.getInnerClassName()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 _className 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.setInnerClassName(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.translateCaseOrder(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+$r3 1 1 
+Fields: 1
+-1 _caseOrder 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+16 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.translateSortIterator(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Expression;Ljava/util/Vector;)V
+PTG:
+Vars:
+24
+$r10 1 139 
+$r13 1 167 
+$r22 1 248 
+r11 1 -5 
+$r19 1 218 
+r3 1 10 
+r7 1 53 
+$r26 1 84 
+$r14 1 175 
+r0 1 -2 
+$r18 1 206 
+$r16 1 195 
+r8 1 -4 
+r5 1 38 
+$r12 1 155 
+r1 1 4 
+$r6 1 45 
+$r4 1 30 
+r2 1 -3 
+$r28 1 100 
+$r24 1 75 
+$r21 1 240 
+$r9 1 127 
+$r20 1 228 
+Fields: 0
+Accesses: 0
+Functions: 38
+0 1 -2 
+257 2 248 10 
+131 1 38 
+6 1 -3 
+198 2 195 10 
+136 1 127 
+74 1 -3 
+12 1 4 
+204 2 10 206 
+78 2 10 75 
+142 2 38 139 
+210 1 38 
+148 3 -2 -3 -5 
+215 1 206 
+25 2 -3 30 
+153 2 10 155 
+91 2 84 4 
+28 0 
+221 2 38 218 
+94 2 84 10 
+159 1 53 
+226 2 228 10 
+164 1 155 
+40 2 -3 45 
+232 1 53 
+170 2 53 167 
+43 0 
+107 1 100 
+237 1 228 
+110 2 100 10 
+179 1 4 
+243 2 240 53 
+120 3 -2 -3 -4 
+186 1 175 
+59 1 4 
+125 2 10 127 
+189 2 10 175 
+254 1 248 
+Constructors: 8
+164 155
+215 206
+136 127
+186 175
+91 84
+107 100
+237 228
+254 248
+
+Summary: 26
+206 10 53 2 1 248 4 240 139 0 84 167 228 38 218 100 155 -5 -3 127 -2 175 75 45 3 30 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.compileExtract(Ljava/util/Vector;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/NodeSortRecordGenerator;Lcom/sun/org/apache/bcel/internal/generic/ConstantPoolGen;Ljava/lang/String;)Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;
+PTG:
+Vars:
+29
+r26 1 -3 
+$r31 1 146 
+$r27 1 209 
+r23 1 178 
+$r24 1 192 
+$r6 1 32 
+$r22 1 178 
+$r4 1 15 
+$r18 1 249 
+r12 1 -4 
+r32 1 156 
+$r0 1 0 
+$r25 1 195 
+_ret 1 9 
+r15 1 104 
+$r29 1 126 
+$r9 1 52 
+$r2 1 9 
+$r3 1 19 
+$r20 1 268 
+$r8 1 46 
+r11 1 -5 
+$r10 1 57 
+r14 1 -2 
+r16 1 110 
+$r7 1 38 
+r33 1 243 
+$r5 1 26 
+$r17 1 230 
+Fields: 5
+57 ArrayObject 74
+57 ArrayObject 79
+57 ArrayObject 64
+57 ArrayObject 84
+57 ArrayObject 69
+Accesses: 0
+Functions: 19
+96 1 -2 
+130 1 9 
+259 4 243 104 249 110 
+4 1 0 
+228 2 0 230 
+262 3 0 249 156 
+137 1 126 
+44 0 
+140 2 0 126 
+204 3 178 -3 9 
+237 2 -4 230 
+175 1 -2 
+271 2 0 268 
+144 2 0 146 
+212 2 0 209 
+150 1 146 
+24 0 
+91 12 64 0 19 -4 84 -5 69 9 57 74 15 79 
+190 2 0 192 
+Constructors: 6
+259 249
+4 0
+150 146
+137 126
+91 9
+237 230
+
+Summary: 25
+249 19 2 1 243 64 104 74 178 -4 79 0 84 126 230 57 -5 0 69 -3 156 -2 110 146 3 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.addVariable(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/VariableRefBase;)V
+PTG:
+Vars:
+6
+r2 1 -2 
+$r3 1 1 
+$r1 1 1 
+$r5 1 8 
+r0 1 -1 
+$r4 1 1 
+Fields: 1
+-1 _closureVars 1
+Accesses: 5
+0 1 -1 
+18 1 -1 
+40 1 -1 
+29 1 -1 
+15 1 -1 
+Functions: 3
+34 2 1 -2 
+19 2 1 -2 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Sort.compileInit(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/NodeSortRecordGenerator;Lcom/sun/org/apache/bcel/internal/generic/ConstantPoolGen;Ljava/lang/String;)Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;
+PTG:
+Vars:
+10
+r3 1 -4 
+r4 1 -3 
+$r9 1 37 
+r13 1 -2 
+$r0 1 0 
+$r5 1 13 
+$r7 1 29 
+$r2 1 8 
+$r11 1 59 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 7
+32 2 0 29 
+51 1 37 
+4 1 0 
+54 2 0 37 
+23 5 0 -3 -4 8 13 
+41 1 -3 
+62 2 0 59 
+Constructors: 3
+51 37
+4 0
+23 8
+
+Summary: 8
+1 2 0 -3 -2 -4 0 37 

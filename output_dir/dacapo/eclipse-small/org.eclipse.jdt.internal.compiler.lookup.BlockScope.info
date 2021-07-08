@@ -1,0 +1,1115 @@
+31
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.allowBlankFinalFieldAssignment(Lorg/eclipse/jdt/internal/compiler/lookup/FieldBinding;)Z
+PTG:
+Vars:
+7
+$r5 1 39 
+r2 1 -2 
+$r6 1 39 
+$r3 1 5 
+$r1 1 1 
+r0 1 -1 
+r4 1 17 
+Fields: 2
+-2 declaringClass 5
+17 referenceContext 39
+Accesses: 3
+18 1 17 
+4 1 -2 
+38 1 17 
+Functions: 5
+0 1 -1 
+22 2 -2 5 
+42 1 39 
+13 1 -1 
+31 2 17 39 
+Constructors: 0
+
+Summary: 6
+-2 17 39 -1 1 5 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.basicToString(I)Ljava/lang/String;
+PTG:
+Vars:
+33
+$r12 1 92 
+$r21 1 135 
+$r0 1 8 
+$r14 1 105 
+$r25 1 171 
+$r26 1 178 
+$r1 1 13 
+$r9 1 75 
+$r20 1 132 
+r27 2 2 27 
+$r7 1 60 
+$r19 1 131 
+r29 1 74 
+_ret 1 184 
+$r4 1 40 
+$r3 1 35 
+$r11 1 87 
+$r15 1 110 
+$r2 1 21 
+$r8 1 68 
+$r22 1 154 
+$r23 1 159 
+$r18 1 126 
+$r16 1 117 
+r13 1 -1 
+$r10 1 80 
+$r17 1 122 
+$r6 1 55 
+r28 1 54 
+r31 1 184 
+r30 2 98 141 
+$r5 1 48 
+$r24 1 166 
+Fields: 2
+126 ArrayObject 131
+-1 locals 126
+Accesses: 3
+147 1 -1 
+125 1 -1 
+174 1 -1 
+Functions: 30
+131 1 131 
+68 1 68 
+135 1 135 
+8 1 8 
+75 2 74 75 
+12 2 2 27 
+79 1 54 
+16 2 8 13 
+83 2 80 75 
+21 1 21 
+87 1 87 
+154 2 154 74 
+92 1 92 
+158 2 98 141 
+162 2 154 159 
+35 1 35 
+166 1 166 
+39 2 2 27 
+105 2 105 74 
+43 2 35 40 
+171 1 171 
+109 2 98 141 
+48 1 48 
+113 2 105 110 
+178 1 178 
+117 1 117 
+55 1 55 
+122 2 132 122 
+59 2 2 27 
+63 2 55 60 
+Constructors: 6
+16 8
+113 105
+162 154
+83 75
+43 35
+63 55
+
+Summary: 20
+92 27 135 13 40 -1 98 141 178 68 122 21 80 74 110 54 48 60 132 159 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.<init>(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.toString()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.getBinding([[CLorg/eclipse/jdt/internal/compiler/lookup/InvocationSite;)Lorg/eclipse/jdt/internal/compiler/lookup/Binding;
+PTG:
+Vars:
+19
+r1 1 -1 
+r2 1 -3 
+$r11 1 240 
+r51 1 231 
+r49 3 20 344 62 
+$r34 1 62 
+r0 1 -2 
+$r4 1 483 
+r53 1 432 
+r54 1 473 
+$r3 1 12 
+r50 1 217 
+r47 3 20 240 62 
+$r20 1 240 
+r52 4 20 240 489 62 
+$r33 1 58 
+_ret 4 20 240 489 62 
+r48 2 20 62 
+$r12 1 344 
+Fields: 8
+-2 ArrayObject 58
+-2 ArrayObject 217
+-2 ArrayObject 483
+-2 ArrayObject 12
+20 type 432
+240 type 432
+489 type 432
+62 type 432
+Accesses: 1
+427 4 240 20 489 62 
+Functions: 45
+128 5 -2 483 217 58 12 
+384 5 -2 483 217 58 12 
+451 0 
+324 5 -2 483 217 58 12 
+6 3 -1 -3 12 
+134 0 
+390 0 
+328 0 
+520 5 -2 483 217 58 12 
+457 0 
+524 0 
+461 2 432 -1 
+143 4 240 432 20 62 
+335 0 
+399 1 344 
+464 1 -3 
+81 5 -2 483 217 58 12 
+530 0 
+339 6 -1 432 20 344 217 62 
+148 0 
+276 5 -2 483 217 58 12 
+404 0 
+22 4 240 432 20 62 
+534 5 240 432 20 489 62 
+87 0 
+280 0 
+154 3 432 -1 62 
+219 5 432 -1 20 344 62 
+475 4 -1 -3 483 473 
+285 2 240 432 
+222 1 -3 
+97 5 -2 483 217 58 12 
+290 0 
+102 0 
+359 5 -2 483 217 58 12 
+296 2 240 432 
+233 4 -1 -3 231 217 
+170 5 -2 483 217 58 12 
+366 4 432 20 344 62 
+114 4 240 432 20 62 
+370 1 344 
+51 4 432 20 58 62 
+180 0 
+249 2 240 432 
+447 5 -2 483 217 58 12 
+Constructors: 0
+
+Summary: 26
+344 82 521 171 -1 98 393 137 240 453 526 325 282 277 385 271 473 -3 12 -2 448 330 129 360 319 231 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.scopeIndex()I
+PTG:
+Vars:
+5
+$r1 1 10 
+$r4 1 35 
+r3 1 21 
+r0 1 -1 
+r2 1 10 
+Fields: 3
+10 subscopes 21
+21 ArrayObject 35
+-1 parent 10
+Accesses: 3
+17 1 10 
+24 1 10 
+9 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.addAnonymousType(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V
+PTG:
+Vars:
+5
+r1 1 -1 
+$r4 1 12 
+r2 1 -2 
+r5 1 -3 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 3 0 -3 12 
+6 3 0 -1 -2 
+11 1 -1 
+Constructors: 1
+6 0
+
+Summary: 5
+-2 -1 0 -3 12 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.addLocalVariable(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r6 1 10 
+$r2 1 10 
+$r5 1 29 
+r1 1 -2 
+$r3 1 10 
+$r4 1 68 
+Fields: 1
+-1 locals 10
+Accesses: 13
+33 1 -1 
+68 1 68 
+5 1 -1 
+37 1 -1 
+9 1 -1 
+44 1 -1 
+78 1 68 
+48 1 -1 
+17 1 -1 
+81 1 -2 
+23 1 -1 
+56 1 -1 
+63 1 -2 
+Functions: 3
+2 3 -1 -2 10 
+67 2 -1 10 
+41 2 10 29 
+Constructors: 0
+
+Summary: 1
+68 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.needBlankFinalFieldInitializationCheck(Lorg/eclipse/jdt/internal/compiler/lookup/FieldBinding;)Z
+PTG:
+Vars:
+8
+r2 1 -1 
+r0 1 -2 
+r1 1 9 
+r7 2 14 87 
+r3 1 59 
+$r5 1 40 
+$r4 1 71 
+$r6 1 40 
+Fields: 3
+-2 declaringClass 9
+14 referenceContext 40
+87 referenceContext 40
+Accesses: 3
+19 2 87 14 
+5 1 -2 
+38 2 87 14 
+Functions: 8
+0 2 -2 9 
+82 3 87 40 14 
+69 1 59 
+54 3 87 40 14 
+71 1 71 
+10 1 -1 
+43 1 40 
+30 3 87 40 14 
+Constructors: 0
+
+Summary: 8
+-2 71 14 9 40 -1 87 59 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.startIndex()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.findVariable([C)Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;
+PTG:
+Vars:
+5
+r1 1 -1 
+$r3 1 18 
+r0 1 -2 
+$r2 1 14 
+$r5 1 22 
+Fields: 3
+14 ArrayObject 18
+18 name 22
+-1 locals 14
+Accesses: 3
+18 1 18 
+3 1 -1 
+13 1 -1 
+Functions: 1
+35 2 -2 22 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.referenceType()Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.getEmulationPath(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;ZZ)[Ljava/lang/Object;
+PTG:
+Vars:
+33
+r1 1 11 
+r39 1 192 
+$r29 1 11 
+$r12 1 492 
+r4 1 -2 
+r35 2 420 4 
+$r34 1 42 
+$r47 1 533 
+r41 1 234 
+$r27 1 263 
+$r30 1 113 
+$r16 1 401 
+$r22 1 213 
+$r6 1 378 
+$r45 2 326 533 
+r40 1 220 
+$r11 1 523 
+$r18 1 11 
+$r8 1 555 
+$r9 1 513 
+$r5 1 371 
+$r10 1 513 
+$r25 1 243 
+$r23 1 243 
+$r19 1 344 
+$r26 1 243 
+r38 1 192 
+r0 1 -1 
+r44 2 326 533 
+r42 1 286 
+$r13 2 316 492 
+r43 2 316 492 
+r46 1 467 
+Fields: 3
+467 declaringClass 513
+234 type 243
+316 ArrayObject 378
+Accesses: 13
+68 2 420 4 
+293 2 420 4 
+167 2 420 4 
+427 2 420 4 
+13 2 420 4 
+80 2 420 4 
+241 1 234 
+21 2 420 4 
+444 2 420 4 
+126 2 420 4 
+254 1 234 
+351 2 420 4 
+511 1 467 
+Functions: 26
+0 1 -1 
+321 1 11 
+194 1 192 
+259 2 -2 243 
+516 2 513 467 
+6 2 420 4 
+458 2 533 326 
+398 3 -2 533 326 
+144 2 -2 11 
+209 2 192 213 
+338 3 533 326 11 
+211 1 192 
+531 2 533 326 
+279 2 -2 11 
+94 2 420 4 
+415 2 420 4 
+227 2 11 220 
+39 2 -2 11 
+552 3 -2 533 326 
+108 2 -2 11 
+366 3 533 326 11 
+179 1 11 
+52 1 11 
+501 3 378 316 492 
+187 1 11 
+60 1 11 
+Constructors: 0
+
+Summary: 17
+4 220 -1 213 11 513 555 326 467 401 192 -2 42 263 533 420 147 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.<init>(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 8 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+20 1 -2 
+24 1 -1 
+11 1 -1 
+Functions: 2
+16 2 -1 -2 
+3 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.computeLocalVariablePositions(IILorg/eclipse/jdt/internal/compiler/codegen/CodeStream;)V
+PTG:
+Vars:
+32
+$r3 1 328 
+$r6 1 219 
+r30 1 96 
+$r19 1 252 
+$r7 1 392 
+$r1 1 175 
+$r18 1 219 
+$r25 3 64 78 91 
+$r16 1 219 
+$r14 1 219 
+$r33 2 395 219 
+$r29 1 69 
+$r10 1 339 
+$r8 1 395 
+$r21 1 193 
+$r23 2 64 78 
+$r17 1 219 
+r13 1 -4 
+$r20 1 219 
+r0 1 -1 
+$r24 1 83 
+$r5 1 378 
+$r15 1 277 
+$r4 1 325 
+$r27 1 104 
+$r28 2 64 78 
+$r26 1 96 
+r31 1 180 
+$r32 2 395 219 
+$r22 1 196 
+$r2 1 219 
+$r11 1 325 
+Fields: 15
+64 ArrayObject 69
+64 ArrayObject 96
+64 ArrayObject 83
+78 ArrayObject 96
+78 ArrayObject 69
+78 ArrayObject 83
+96 shiftScopes 104
+392 referenceContext 395
+180 declaration 219
+180 type 325
+175 ArrayObject 180
+-1 subscopes 64
+-1 subscopes 78
+-1 locals 175
+91 ArrayObject 96
+Accesses: 42
+320 1 180 
+2 1 -1 
+323 1 180 
+451 1 -1 
+133 1 96 
+7 1 -1 
+392 1 392 
+10 1 -1 
+138 1 -1 
+459 1 -1 
+268 1 180 
+77 1 -1 
+334 1 180 
+463 1 -1 
+209 1 180 
+146 1 96 
+404 1 180 
+277 1 277 
+151 1 -1 
+217 1 180 
+345 1 -1 
+90 1 -1 
+32 1 -1 
+352 1 -1 
+225 1 180 
+418 1 180 
+227 1 219 
+292 1 180 
+102 1 96 
+358 1 -1 
+300 1 180 
+365 1 -1 
+110 1 -1 
+174 1 -1 
+240 1 180 
+368 1 -1 
+182 1 180 
+316 1 -1 
+63 1 -1 
+255 1 180 
+383 1 180 
+447 1 -1 
+Functions: 11
+130 3 96 -4 104 
+260 2 219 252 
+276 11 -1 64 96 83 180 69 325 104 219 78 175 
+69 1 69 
+117 2 96 104 
+311 4 -4 180 325 219 
+391 11 -1 64 96 83 180 69 325 104 219 78 175 
+377 11 -1 64 96 83 180 69 325 104 219 78 175 
+409 5 180 325 378 219 395 
+251 11 -1 64 96 83 180 69 325 104 219 78 175 
+191 3 180 325 219 
+Constructors: 0
+
+Summary: 8
+277 395 378 193 -1 392 252 -4 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.emulateOuterAccess(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+7
+$r4 1 16 
+r0 1 -2 
+r3 1 14 
+r6 1 24 
+r1 1 4 
+$r5 1 24 
+r2 1 -1 
+Fields: 1
+-2 declaringScope 4
+Accesses: 1
+0 1 -2 
+Functions: 7
+32 1 24 
+51 3 -2 4 24 
+23 1 -1 
+41 1 14 
+10 1 -1 
+61 3 -2 4 24 
+15 1 4 
+Constructors: 0
+
+Summary: 6
+-2 16 24 14 4 -1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.getEmulationPath(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)[Lorg/eclipse/jdt/internal/compiler/lookup/VariableBinding;
+PTG:
+Vars:
+9
+$r7 1 86 
+r2 1 9 
+$r9 1 9 
+r3 1 -2 
+$r6 1 24 
+r0 1 -1 
+$r10 1 58 
+r1 1 4 
+r4 1 14 
+Fields: 1
+-2 declaringScope 14
+Accesses: 2
+10 1 -2 
+77 1 4 
+Functions: 7
+0 1 -1 
+84 3 -2 9 14 
+5 1 4 
+22 1 14 
+54 3 -2 9 14 
+39 1 4 
+46 1 9 
+Constructors: 0
+
+Summary: 4
+24 9 4 -1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.<clinit>()V
+PTG:
+Vars:
+3
+$r1 1 8 
+$r0 1 1 
+$r2 1 15 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.addSubscope(Lorg/eclipse/jdt/internal/compiler/lookup/Scope;)V
+PTG:
+Vars:
+6
+$r1 1 5 
+r3 1 -2 
+$r4 1 24 
+$r5 1 5 
+$r2 1 5 
+r0 1 -1 
+Fields: 1
+-1 subscopes 5
+Accesses: 9
+0 1 -1 
+32 1 -1 
+18 1 -1 
+51 1 -1 
+4 1 -1 
+39 1 -1 
+43 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 1
+36 2 5 24 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.isDuplicateLocalVariable([C)Z
+PTG:
+Vars:
+7
+$r4 1 14 
+$r2 1 9 
+$r3 1 13 
+$r5 1 47 
+r0 1 -1 
+r6 1 47 
+r1 1 -2 
+Fields: 5
+47 locals 9
+9 ArrayObject 13
+13 name 14
+-1 parent 47
+-1 locals 9
+Accesses: 5
+36 1 47 
+8 1 47 
+13 1 13 
+29 1 -1 
+46 1 47 
+Functions: 1
+14 2 -2 14 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.findLocalType([C)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+14
+$r13 1 86 
+$r1 1 1 
+r10 1 -2 
+$r8 1 45 
+$r2 1 20 
+$r11 1 63 
+$r5 1 38 
+$r12 1 63 
+$r7 1 42 
+$r6 1 38 
+$r4 2 33 20 
+r0 1 -1 
+$r3 1 25 
+r9 1 45 
+Fields: 7
+33 ArrayObject 38
+42 binding 45
+20 ArrayObject 25
+20 ArrayObject 38
+38 referenceContext 42
+45 enclosingCase 63
+-1 subscopes 20
+Accesses: 8
+32 1 -1 
+1 1 1 
+19 1 -1 
+70 1 45 
+39 1 38 
+8 1 -1 
+42 1 42 
+61 1 45 
+Functions: 4
+0 7 -1 20 38 25 42 45 63 
+84 2 45 63 
+69 7 -1 20 38 25 42 45 63 
+89 2 -2 86 
+Constructors: 0
+
+Summary: 4
+-2 86 -1 1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.propagateInnerEmulation(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Z)V
+PTG:
+Vars:
+7
+$r5 1 44 
+$r1 1 1 
+$r7 1 35 
+r3 1 23 
+$r6 1 31 
+r4 1 -1 
+r0 1 -2 
+Fields: 3
+1 ArrayObject 23
+23 actualOuterLocalVariable 44
+23 type 31
+Accesses: 2
+42 1 23 
+29 1 23 
+Functions: 3
+0 1 -2 
+34 1 -2 
+47 2 -1 44 
+Constructors: 0
+
+Summary: 4
+-2 35 -1 1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.<init>(ILorg/eclipse/jdt/internal/compiler/lookup/Scope;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -3 
+$r2 1 8 
+Fields: 0
+Accesses: 2
+16 1 -1 
+11 1 -1 
+Functions: 1
+3 2 -1 -3 
+Constructors: 1
+3 -1
+
+Summary: 3
+1 -1 -3 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.findLocalVariableDeclarations(I)[Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;
+PTG:
+Vars:
+10
+r0 1 -1 
+r2 1 150 
+r7 2 181 102 
+r8 1 82 
+$r3 2 76 62 
+$r1 1 133 
+$r5 2 76 62 
+r9 1 138 
+$r6 1 67 
+$r4 1 82 
+Fields: 9
+133 ArrayObject 138
+76 ArrayObject 82
+76 ArrayObject 67
+-1 subscopes 62
+-1 subscopes 76
+-1 locals 133
+62 ArrayObject 82
+62 ArrayObject 67
+138 declaration 150
+Accesses: 9
+145 1 138 
+2 1 -1 
+84 1 82 
+132 1 -1 
+167 1 150 
+75 1 -1 
+61 1 -1 
+157 1 150 
+30 1 -1 
+Functions: 2
+67 1 67 
+95 1 82 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.addLocalType(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)V
+PTG:
+Vars:
+5
+r1 1 -1 
+$r4 1 17 
+$r6 1 0 
+r2 1 -2 
+$r5 1 0 
+Fields: 0
+Accesses: 0
+Functions: 4
+16 1 -1 
+20 2 0 17 
+6 3 0 -1 -2 
+12 2 -1 0 
+Constructors: 1
+6 0
+
+Summary: 4
+-2 17 -1 0 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.problemReporter()Lorg/eclipse/jdt/internal/compiler/problem/ProblemReporter;
+PTG:
+Vars:
+4
+$r2 1 4 
+$r1 1 1 
+r0 1 -1 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.maxShiftedOffset()I
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 2 21 3 
+$r4 1 25 
+$r2 1 3 
+$r1 1 3 
+Fields: 3
+21 ArrayObject 25
+3 ArrayObject 25
+-1 shiftScopes 3
+Accesses: 4
+2 1 -1 
+20 1 -1 
+25 1 25 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.toString(I)Ljava/lang/String;
+PTG:
+Vars:
+13
+r0 1 -1 
+$r8 1 46 
+r11 2 60 5 
+$r5 2 35 12 
+$r6 1 39 
+$r3 1 23 
+$r9 1 49 
+$r1 1 12 
+$r7 1 39 
+$r4 1 28 
+$r10 1 54 
+$r2 1 16 
+_ret 2 60 5 
+Fields: 4
+35 ArrayObject 39
+-1 subscopes 12
+12 ArrayObject 16
+12 ArrayObject 39
+Accesses: 3
+65 1 -1 
+34 1 -1 
+11 1 -1 
+Functions: 7
+0 4 -1 16 39 12 
+49 1 49 
+54 1 54 
+23 2 23 46 
+40 1 39 
+27 2 5 60 
+31 2 23 28 
+Constructors: 1
+31 23
+
+Summary: 4
+28 46 54 -1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.<init>(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Z)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 8 
+Fields: 0
+Accesses: 3
+24 1 -2 
+11 1 -1 
+28 1 -1 
+Functions: 2
+3 2 -1 -2 
+20 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.checkAndSetModifiersForVariable(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+8
+$r3 1 58 
+r0 1 -2 
+$r5 1 13 
+r2 1 -1 
+$r1 1 13 
+$r7 1 13 
+$r6 1 20 
+$r4 1 13 
+Fields: 1
+-2 declaration 13
+Accesses: 6
+0 1 -2 
+50 1 -2 
+23 1 -2 
+74 1 -2 
+12 1 -2 
+61 1 -2 
+Functions: 4
+19 1 -1 
+69 2 58 13 
+57 1 -1 
+31 2 20 13 
+Constructors: 0
+
+Summary: 5
+-2 20 13 58 -1 
+org/eclipse/jdt/internal/compiler/lookup/BlockScope.getBinding([[CILorg/eclipse/jdt/internal/compiler/lookup/InvocationSite;Z)Lorg/eclipse/jdt/internal/compiler/lookup/Binding;
+PTG:
+Vars:
+27
+r0 1 -1 
+$r3 1 3 
+$r20 1 666 
+r56 2 441 293 
+r57 1 347 
+r1 1 -2 
+$r34 1 88 
+$r36 1 110 
+$r5 1 284 
+r7 1 -4 
+_ret 1 658 
+$r6 1 441 
+$r70 1 658 
+r55 1 -4 
+r53 2 16 110 
+$r18 1 378 
+r52 2 16 110 
+r58 1 441 
+r51 2 16 110 
+$r35 1 106 
+$r32 1 320 
+$r8 1 563 
+r4 1 40 
+r2 1 -4 
+$r81 1 658 
+$r33 1 94 
+r54 3 378 441 293 
+Fields: 6
+-2 ArrayObject 106
+-2 ArrayObject 94
+-2 ArrayObject 347
+-2 ArrayObject 3
+16 compoundName 88
+110 compoundName 88
+Accesses: 1
+86 2 16 110 
+Functions: 54
+0 3 -1 3 -4 
+513 0 
+387 1 378 
+265 5 -2 3 106 347 94 
+138 5 -2 3 106 347 94 
+522 1 441 
+527 0 
+272 0 
+145 0 
+20 1 -4 
+664 5 -2 3 106 347 94 
+155 5 -2 3 106 347 94 
+283 1 -1 
+284 4 16 88 284 110 
+670 2 658 666 
+161 0 
+417 5 -2 3 106 347 94 
+36 1 -1 
+422 0 
+551 3 -1 -4 441 
+427 1 378 
+45 6 -2 3 40 106 347 94 
+173 3 16 88 110 
+48 3 16 88 110 
+432 0 
+562 1 -1 
+308 5 16 -1 -4 88 110 
+436 4 -1 293 441 347 
+570 3 563 -4 441 
+187 5 -2 3 106 347 94 
+319 1 -1 
+194 0 
+327 5 320 16 -4 88 110 
+203 3 16 88 110 
+462 5 -2 3 106 347 94 
+208 0 
+214 3 -1 88 110 
+470 2 293 441 
+601 0 
+95 3 40 88 94 
+352 1 -4 
+480 5 -2 3 106 347 94 
+98 4 16 88 106 110 
+230 5 -2 3 106 347 94 
+360 3 -4 293 441 
+488 2 293 441 
+492 1 441 
+622 5 -2 3 106 347 94 
+241 0 
+115 1 -4 
+371 5 -1 -4 293 441 347 
+627 0 
+506 5 -2 3 106 347 94 
+634 0 
+Constructors: 1
+670 658
+
+Summary: 28
+629 197 40 157 508 -1 412 140 284 482 441 -4 267 110 424 378 666 516 624 -2 232 320 464 3 189 404 419 563 

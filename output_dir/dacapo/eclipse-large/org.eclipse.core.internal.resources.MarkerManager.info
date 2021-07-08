@@ -1,0 +1,1031 @@
+38
+org/eclipse/core/internal/resources/MarkerManager.restore(Lorg/eclipse/core/resources/IResource;ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 2 -1 -2 
+8 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-2 2 0 -1 -4 
+org/eclipse/core/internal/resources/MarkerManager.getChangeId()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/MarkerManager.isSubtype(Ljava/lang/String;Ljava/lang/String;)Z
+PTG:
+Vars:
+4
+$r3 1 1 
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 1
+-1 cache 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+org/eclipse/core/internal/resources/MarkerManager.shutdown(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/MarkerManager.getSeverity(Lorg/eclipse/core/internal/resources/MarkerInfo;)I
+PTG:
+Vars:
+3
+r1 1 6 
+r0 1 -2 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+19 0 
+Constructors: 0
+
+Summary: 3
+-2 6 -1 
+org/eclipse/core/internal/resources/MarkerManager.removeMarkers(Lorg/eclipse/core/resources/IResource;Ljava/lang/String;ZI)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 18 
+r1 1 -2 
+$r2 1 33 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 5
+32 1 -2 
+17 1 -2 
+6 1 -2 
+25 3 -1 18 -3 
+42 3 -1 33 -3 
+Constructors: 0
+
+Summary: 7
+-3 -2 33 0 -1 18 1 
+org/eclipse/core/internal/resources/MarkerManager.recursiveFindMaxSeverity(Lorg/eclipse/core/runtime/IPath;Ljava/lang/String;ZI)I
+PTG:
+Vars:
+10
+$r6 1 84 
+r1 1 -2 
+r8 1 -3 
+$r5 1 1 
+$r9 1 106 
+r4 1 25 
+$r2 1 1 
+r3 1 10 
+r0 1 -1 
+r7 1 91 
+Fields: 2
+91 ArrayObject 106
+-1 workspace 1
+Accesses: 2
+0 1 -1 
+80 1 -1 
+Functions: 8
+1 2 1 -2 
+81 1 1 
+19 1 10 
+35 4 -1 1 -3 25 
+84 2 -2 84 
+101 4 -1 1 -3 106 
+59 1 10 
+111 0 
+Constructors: 0
+
+Summary: 9
+-3 -2 25 91 0 -1 10 84 1 
+org/eclipse/core/internal/resources/MarkerManager.changedMarkers(Lorg/eclipse/core/resources/IResource;[Lorg/eclipse/core/internal/resources/IMarkerSetElement;)V
+PTG:
+Vars:
+15
+$r11 1 108 
+r4 1 48 
+$r16 1 36 
+r3 1 -2 
+$r5 1 21 
+$r2 1 21 
+$r15 1 29 
+$r6 1 54 
+r0 1 -3 
+r8 1 70 
+r12 1 117 
+$r13 1 21 
+r1 1 -1 
+r7 1 54 
+$r9 1 21 
+Fields: 3
+-1 deltaManager 29
+-1 currentDeltas 21
+-1 workspace 108
+Accesses: 10
+32 1 -1 
+80 1 -1 
+17 1 -1 
+49 1 -1 
+20 1 -1 
+39 1 -1 
+10 1 -1 
+107 1 -1 
+28 1 -1 
+94 1 -1 
+Functions: 9
+50 2 48 21 
+66 2 -3 54 
+85 2 48 21 
+101 3 48 21 70 
+72 1 70 
+42 1 -2 
+108 2 48 108 
+29 1 29 
+126 1 117 
+Constructors: 0
+
+Summary: 9
+-3 -2 54 70 117 48 0 1 -1 
+org/eclipse/core/internal/resources/MarkerManager.visitorFindMaxSeverity(Lorg/eclipse/core/runtime/IPath;Ljava/lang/String;Z)I
+PTG:
+Vars:
+8
+r7 1 -2 
+$r6 1 20 
+$r9 1 12 
+r1 1 -1 
+r2 1 -3 
+$r8 1 0 
+$r5 1 17 
+$r10 1 0 
+Fields: 1
+-1 workspace 17
+Accesses: 2
+16 1 -1 
+32 1 0 
+Functions: 4
+17 1 17 
+7 4 0 -1 17 -3 
+24 3 -2 20 12 
+29 2 0 12 
+Constructors: 2
+7 0
+24 12
+
+Summary: 8
+20 -3 -2 0 12 -1 0 1 
+org/eclipse/core/internal/resources/MarkerManager.visitorFindMarkers(Lorg/eclipse/core/runtime/IPath;Ljava/util/ArrayList;Ljava/lang/String;Z)V
+PTG:
+Vars:
+8
+$r0 1 0 
+r8 1 -2 
+r2 1 -4 
+r1 1 -1 
+$r6 1 19 
+r3 1 -3 
+$r7 1 22 
+$r5 1 14 
+Fields: 1
+-1 workspace 19
+Accesses: 1
+18 1 -1 
+Functions: 4
+19 1 19 
+9 5 0 -1 -3 19 -4 
+26 3 -2 22 14 
+31 2 0 14 
+Constructors: 2
+9 0
+26 14
+
+Summary: 10
+14 -3 -2 2 22 0 -1 -4 0 1 
+org/eclipse/core/internal/resources/MarkerManager.basicFindMatching(Lorg/eclipse/core/internal/resources/MarkerSet;Ljava/lang/String;Z)[Lorg/eclipse/core/internal/resources/MarkerInfo;
+PTG:
+Vars:
+14
+r6 1 -3 
+r5 1 42 
+$r11 1 153 
+r0 1 -2 
+$r1 1 15 
+$r12 1 156 
+r3 1 30 
+$r10 1 75 
+r8 1 -1 
+$r7 1 100 
+$r13 1 156 
+_ret 1 156 
+$r4 1 42 
+$r9 1 70 
+Fields: 2
+30 ArrayObject 42
+-1 cache 70
+Accesses: 1
+69 1 -1 
+Functions: 12
+0 1 -2 
+98 1 42 
+114 2 42 15 
+131 1 15 
+100 2 -3 100 
+21 1 15 
+149 2 153 15 
+70 3 -3 70 75 
+56 2 42 15 
+73 1 42 
+89 2 42 15 
+26 1 -2 
+Constructors: 1
+21 15
+
+Summary: 10
+-3 -2 15 0 30 100 1 75 153 -1 
+org/eclipse/core/internal/resources/MarkerManager.findMaxProblemSeverity(Lorg/eclipse/core/resources/IResource;Ljava/lang/String;ZI)I
+PTG:
+Vars:
+4
+r3 1 -3 
+r1 1 -2 
+r0 1 -1 
+$r2 1 31 
+Fields: 0
+Accesses: 0
+Functions: 5
+16 2 -1 -3 
+17 1 -2 
+6 1 -2 
+29 3 -1 -3 31 
+30 1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 31 -1 18 
+org/eclipse/core/internal/resources/MarkerManager.getMarkerDeltas(J)Ljava/util/Map;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 5 
+_ret 1 5 
+$r1 1 1 
+Fields: 1
+-1 deltaManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/MarkerManager.basicAdd(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/internal/resources/MarkerSet;Lorg/eclipse/core/internal/resources/MarkerInfo;)V
+PTG:
+Vars:
+7
+$r2 1 44 
+r1 1 -1 
+r0 1 -4 
+$r4 1 67 
+r5 1 -2 
+r10 1 59 
+r3 1 -3 
+Fields: 1
+-1 workspace 44
+Accesses: 1
+43 1 -1 
+Functions: 9
+0 1 -4 
+50 1 -4 
+82 4 -1 -2 59 44 
+35 0 
+38 0 
+55 2 -3 -4 
+74 3 -2 67 -4 
+27 1 -2 
+44 1 44 
+Constructors: 1
+74 67
+
+Summary: 10
+20 -3 -2 0 -4 1 28 59 2 -1 
+org/eclipse/core/internal/resources/MarkerManager.<init>(Lorg/eclipse/core/internal/resources/Workspace;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r4 1 -2 
+$r1 1 5 
+$r2 1 26 
+$r3 1 37 
+Fields: 0
+Accesses: 6
+17 1 -1 
+33 1 -1 
+50 1 -1 
+22 1 -1 
+12 1 -1 
+45 1 -1 
+Functions: 4
+1 1 -1 
+9 1 5 
+42 2 -1 37 
+30 1 26 
+Constructors: 4
+1 -1
+9 5
+42 37
+30 26
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/resources/MarkerManager.findMarkerInfo(Lorg/eclipse/core/resources/IResource;J)Lorg/eclipse/core/internal/resources/MarkerInfo;
+PTG:
+Vars:
+9
+r1 1 -2 
+$r7 1 42 
+$r2 1 1 
+r5 1 30 
+$r6 1 42 
+$r3 1 5 
+_ret 1 42 
+r0 1 -1 
+r4 1 15 
+Fields: 1
+-1 workspace 1
+Accesses: 1
+0 1 -1 
+Functions: 4
+1 2 1 5 
+4 1 -2 
+39 1 30 
+24 1 15 
+Constructors: 0
+
+Summary: 6
+15 -2 5 0 30 -1 
+org/eclipse/core/internal/resources/MarkerManager.findMarker(Lorg/eclipse/core/resources/IResource;J)Lorg/eclipse/core/resources/IMarker;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r3 1 17 
+_ret 1 17 
+r0 1 -1 
+r2 1 6 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+22 1 6 
+27 2 17 -2 
+Constructors: 1
+27 17
+
+Summary: 3
+-2 6 -1 
+org/eclipse/core/internal/resources/MarkerManager.add(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/internal/resources/MarkerInfo;)V
+PTG:
+Vars:
+12
+r2 1 -1 
+r1 1 -2 
+$r6 1 36 
+$r5 1 6 
+r10 1 46 
+$r4 1 10 
+$r3 1 6 
+r7 1 -3 
+r11 2 76 83 
+r9 1 18 
+$r8 1 83 
+r0 1 -2 
+Fields: 1
+-1 workspace 6
+Accesses: 2
+5 1 -1 
+31 1 -1 
+Functions: 13
+32 2 36 6 
+98 6 -1 -2 -3 83 6 76 
+35 1 -2 
+67 1 46 
+101 2 83 76 
+6 2 6 10 
+70 1 46 
+9 1 -2 
+113 3 83 76 46 
+21 2 -2 18 
+54 3 -1 -3 6 
+88 1 83 
+28 1 -2 
+Constructors: 1
+88 83
+
+Summary: 11
+46 76 -3 -2 83 0 -1 10 36 18 1 
+org/eclipse/core/internal/resources/MarkerManager.doFindMarkers(Lorg/eclipse/core/resources/IResource;Ljava/util/ArrayList;Ljava/lang/String;ZI)V
+PTG:
+Vars:
+6
+r1 1 -2 
+$r5 1 18 
+r3 1 -3 
+$r2 1 35 
+r4 1 -4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+17 1 -2 
+34 1 -2 
+6 1 -2 
+27 4 -1 18 -3 -4 
+46 4 -1 -3 35 -4 
+Constructors: 0
+
+Summary: 9
+-3 -2 2 0 35 -1 -4 18 1 
+org/eclipse/core/internal/resources/MarkerManager.findMarkers(Lorg/eclipse/core/resources/IResource;Ljava/lang/String;ZI)[Lorg/eclipse/core/resources/IMarker;
+PTG:
+Vars:
+8
+$r5 1 39 
+$r0 1 0 
+r2 1 -1 
+r4 1 -3 
+r3 1 -2 
+_ret 1 42 
+$r6 1 42 
+$r7 1 42 
+Fields: 0
+Accesses: 0
+Functions: 5
+32 2 0 39 
+17 4 -1 0 -2 -3 
+34 1 0 
+4 1 0 
+20 1 0 
+Constructors: 1
+4 0
+
+Summary: 7
+-3 -2 39 0 -1 0 1 
+org/eclipse/core/internal/resources/MarkerManager.save(Lorg/eclipse/core/internal/resources/ResourceInfo;Lorg/eclipse/core/internal/watson/IPathRequestor;Ljava/io/DataOutputStream;Ljava/util/List;)V
+PTG:
+Vars:
+6
+r1 1 -2 
+$r5 1 1 
+r2 1 -3 
+r4 1 -5 
+r0 1 -1 
+r3 1 -4 
+Fields: 1
+-1 writer 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+9 5 1 -2 -3 -4 -5 
+Constructors: 0
+
+Summary: 9
+3 -3 -2 2 -5 0 -1 -4 1 
+org/eclipse/core/internal/resources/MarkerManager.restoreFromSnap(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+17
+$r14 1 -1 
+r4 1 11 
+$r2 1 4 
+r20 1 93 
+$r7 1 29 
+$r13 1 95 
+$r12 1 86 
+$r8 1 34 
+r3 1 -2 
+$r10 1 1 
+$r16 1 -1 
+$r6 1 25 
+$r9 1 46 
+r0 1 -1 
+$r11 1 -1 
+$r5 1 13 
+$r1 1 1 
+Fields: 1
+-1 workspace 1
+Accesses: 2
+0 1 -1 
+50 1 -1 
+Functions: 14
+1 1 1 
+33 1 11 
+4 2 -2 4 
+70 1 25 
+39 2 34 29 
+42 2 25 29 
+106 4 -1 11 93 95 
+12 1 11 
+13 1 13 
+109 1 95 
+79 1 25 
+54 2 1 46 
+89 2 86 11 
+62 2 25 46 
+Constructors: 4
+54 46
+39 29
+42 25
+106 95
+
+Summary: 12
+93 -2 25 4 0 46 11 29 34 95 13 -1 
+org/eclipse/core/internal/resources/MarkerManager.basicRemoveMarkers(Lorg/eclipse/core/internal/resources/ResourceInfo;Lorg/eclipse/core/internal/watson/IPathRequestor;Ljava/lang/String;Z)V
+PTG:
+Vars:
+20
+r16 1 95 
+r5 1 151 
+r15 2 61 47 
+$r17 1 95 
+$r6 1 163 
+$r10 1 26 
+r13 2 76 23 
+r11 1 -2 
+r4 1 132 
+r1 1 -1 
+$r19 1 141 
+$r8 1 174 
+$r18 2 79 26 
+r0 1 -4 
+$r3 1 79 
+$r9 1 89 
+$r7 1 174 
+r14 2 89 36 
+r2 1 -3 
+r12 1 5 
+Fields: 4
+61 ArrayObject 174
+-1 workspace 79
+-1 workspace 26
+47 ArrayObject 174
+Accesses: 3
+25 1 -1 
+137 1 -1 
+78 1 -1 
+Functions: 17
+0 1 -2 
+101 4 61 174 95 47 
+70 1 -3 
+198 5 -1 132 151 26 79 
+39 2 36 89 
+105 1 95 
+42 1 5 
+138 2 26 79 
+141 3 23 76 141 
+79 3 23 76 79 
+17 1 -3 
+178 3 163 151 174 
+52 5 -1 -4 5 26 79 
+119 2 89 95 
+26 3 23 26 76 
+90 2 36 89 
+126 2 36 89 
+Constructors: 1
+178 163
+
+Summary: 18
+-3 -2 23 132 5 95 151 0 -4 1 76 61 89 2 -1 36 141 47 
+org/eclipse/core/internal/resources/MarkerManager.buildMarkers([Lorg/eclipse/core/internal/resources/IMarkerSetElement;Lorg/eclipse/core/runtime/IPath;ILjava/util/ArrayList;)V
+PTG:
+Vars:
+9
+r4 1 15 
+$r7 1 47 
+r5 1 -5 
+$r6 1 38 
+r0 1 -2 
+r2 1 -3 
+$r8 1 47 
+r1 1 -1 
+$r3 1 7 
+Fields: 2
+-2 ArrayObject 47
+-1 workspace 7
+Accesses: 1
+6 1 -1 
+Functions: 6
+48 1 47 
+19 1 -5 
+54 2 38 15 
+7 2 -3 7 
+57 2 -5 38 
+27 1 -5 
+Constructors: 1
+54 38
+
+Summary: 9
+15 3 -3 -2 38 -5 0 -1 1 
+org/eclipse/core/internal/resources/MarkerManager.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 1 
+$r1 1 8 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/internal/resources/MarkerManager.resetMarkerDeltas(J)V
+PTG:
+Vars:
+2
+$r1 1 6 
+r0 1 -1 
+Fields: 1
+-1 deltaManager 6
+Accesses: 2
+2 1 -1 
+5 1 -1 
+Functions: 1
+10 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/MarkerManager.snap(Lorg/eclipse/core/internal/resources/ResourceInfo;Lorg/eclipse/core/internal/watson/IPathRequestor;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+5
+$r4 1 1 
+r1 1 -2 
+r3 1 -4 
+r0 1 -1 
+r2 1 -3 
+Fields: 1
+-1 writer 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+7 4 1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/core/internal/resources/MarkerManager.removeMarkers(Lorg/eclipse/core/resources/IResource;I)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/MarkerManager.recursiveRemoveMarkers(Lorg/eclipse/core/runtime/IPath;Ljava/lang/String;ZI)V
+PTG:
+Vars:
+10
+r9 1 74 
+$r8 1 67 
+$r10 1 87 
+r6 1 -3 
+r0 1 -1 
+r3 1 10 
+$r7 1 1 
+r1 1 -2 
+$r2 1 1 
+$r4 1 18 
+Fields: 2
+74 ArrayObject 87
+-1 workspace 1
+Accesses: 2
+0 1 -1 
+63 1 -1 
+Functions: 7
+64 1 1 
+1 2 1 -2 
+67 2 -2 67 
+36 5 -1 1 18 -3 10 
+24 4 -1 1 -2 18 
+44 1 10 
+92 4 -1 1 -3 87 
+Constructors: 1
+24 18
+
+Summary: 9
+67 -3 -2 74 0 18 -1 10 1 
+org/eclipse/core/internal/resources/MarkerManager.recursiveFindMarkers(Lorg/eclipse/core/runtime/IPath;Ljava/util/ArrayList;Ljava/lang/String;ZI)V
+PTG:
+Vars:
+12
+r0 1 -1 
+r3 1 10 
+$r5 1 1 
+r8 1 -4 
+$r6 1 97 
+$r2 1 1 
+r1 1 -2 
+r4 1 24 
+r11 1 104 
+$r9 1 117 
+r7 1 -3 
+r10 2 54 40 
+Fields: 2
+104 ArrayObject 117
+-1 workspace 1
+Accesses: 2
+0 1 -1 
+93 1 -1 
+Functions: 10
+1 2 1 -2 
+97 2 97 -2 
+18 1 10 
+66 6 -1 1 -2 -3 54 40 
+35 1 24 
+74 1 10 
+60 1 10 
+124 5 -1 1 -3 -4 117 
+45 4 -1 1 -4 24 
+94 1 1 
+Constructors: 0
+
+Summary: 13
+-3 -2 54 104 0 10 -4 1 24 97 2 40 -1 
+org/eclipse/core/internal/resources/MarkerManager.removeMarker(Lorg/eclipse/core/resources/IResource;J)V
+PTG:
+Vars:
+11
+$r4 1 15 
+r1 1 -2 
+r7 1 42 
+$r5 1 24 
+r6 1 34 
+r0 1 -1 
+$r12 1 42 
+$r3 1 15 
+$r8 1 105 
+$r9 1 110 
+r2 1 6 
+Fields: 0
+Accesses: 0
+Functions: 14
+0 2 -1 -2 
+128 3 -1 -2 105 
+36 1 34 
+101 1 34 
+74 2 34 42 
+44 1 42 
+77 1 42 
+14 1 -2 
+20 2 24 15 
+118 3 -2 6 110 
+23 1 -2 
+55 2 6 42 
+87 2 -1 6 
+60 1 42 
+Constructors: 1
+118 110
+
+Summary: 9
+24 15 -2 6 34 42 0 105 -1 
+org/eclipse/core/internal/resources/MarkerManager.isPersistent(Lorg/eclipse/core/internal/resources/MarkerInfo;)Z
+PTG:
+Vars:
+6
+r0 1 -1 
+r4 1 23 
+r1 1 -2 
+$r5 1 23 
+$r2 1 1 
+$r3 1 5 
+Fields: 1
+-1 cache 1
+Accesses: 1
+0 1 -1 
+Functions: 4
+16 1 -2 
+1 2 1 5 
+4 1 -2 
+36 1 23 
+Constructors: 0
+
+Summary: 5
+-2 23 5 0 -1 
+org/eclipse/core/internal/resources/MarkerManager.moved(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/resources/IResource;I)V
+PTG:
+Vars:
+6
+$r7 1 13 
+$r6 1 13 
+r3 1 -1 
+r0 1 -3 
+$r1 1 1 
+r4 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -3 
+32 2 -3 13 
+1 1 1 
+21 3 -1 -2 13 
+Constructors: 1
+21 13
+
+Summary: 7
+-3 -2 0 13 -1 1 1 
+org/eclipse/core/internal/resources/MarkerManager.visitorRemoveMarkers(Lorg/eclipse/core/runtime/IPath;Ljava/lang/String;Z)V
+PTG:
+Vars:
+7
+$r4 1 12 
+r7 1 -2 
+$r6 1 20 
+r1 1 -1 
+$r0 1 0 
+r2 1 -3 
+$r5 1 17 
+Fields: 1
+-1 workspace 17
+Accesses: 1
+16 1 -1 
+Functions: 4
+17 1 17 
+7 4 0 -1 17 -3 
+24 3 -2 20 12 
+29 2 0 12 
+Constructors: 2
+7 0
+24 12
+
+Summary: 8
+20 -3 -2 0 12 -1 0 1 
+org/eclipse/core/internal/resources/MarkerManager.basicFindMaxSeverity(Lorg/eclipse/core/internal/resources/MarkerSet;Ljava/lang/String;Z)I
+PTG:
+Vars:
+9
+$r7 1 64 
+r3 1 33 
+r6 1 -1 
+r1 1 21 
+$r5 1 97 
+r0 1 -2 
+r4 1 -3 
+$r2 1 33 
+$r8 1 69 
+Fields: 2
+21 ArrayObject 33
+-1 cache 64
+Accesses: 1
+63 1 -1 
+Functions: 12
+48 0 
+64 3 64 -3 69 
+112 0 
+17 1 -2 
+81 3 -1 64 33 
+97 2 97 -3 
+3 1 -2 
+67 1 33 
+84 0 
+45 3 -1 64 33 
+109 3 -1 64 33 
+95 1 33 
+Constructors: 0
+
+Summary: 6
+97 -3 -2 69 21 -1 
+org/eclipse/core/internal/resources/MarkerManager.startup(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/resources/MarkerManager.hasDelta(Lorg/eclipse/core/runtime/IPath;J)Z
+PTG:
+Vars:
+7
+$r3 1 1 
+r2 1 -2 
+$r4 1 14 
+r5 1 14 
+$r6 1 34 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 currentDeltas 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+10 2 1 -2 
+31 1 14 
+Constructors: 0
+
+Summary: 5
+-2 34 14 0 -1 
+org/eclipse/core/internal/resources/MarkerManager.restoreFromSave(Lorg/eclipse/core/resources/IResource;Z)V
+PTG:
+Vars:
+18
+$r11 1 40 
+$r12 1 46 
+$r2 1 4 
+$r8 1 25 
+$r15 1 77 
+$r5 1 1 
+r0 1 -1 
+$r6 1 16 
+$r1 1 1 
+$r9 1 30 
+$r18 1 102 
+$r19 1 1 
+r3 1 -2 
+r4 1 11 
+$r14 1 73 
+$r16 1 82 
+r7 1 23 
+$r17 1 89 
+Fields: 1
+-1 workspace 1
+Accesses: 3
+0 1 -1 
+106 1 -1 
+12 1 -1 
+Functions: 20
+64 1 40 
+1 1 1 
+97 2 73 77 
+130 1 73 
+35 2 25 30 
+4 2 -2 4 
+167 1 11 
+138 1 73 
+44 1 23 
+13 1 1 
+110 2 1 102 
+16 2 16 11 
+81 1 11 
+51 2 40 46 
+149 1 11 
+87 1 23 
+56 1 25 
+120 2 102 73 
+29 1 11 
+94 3 82 89 77 
+Constructors: 5
+97 73
+35 25
+51 40
+94 77
+110 102
+
+Summary: 17
+46 153 -2 23 25 4 73 0 30 82 11 16 40 89 -1 77 102 

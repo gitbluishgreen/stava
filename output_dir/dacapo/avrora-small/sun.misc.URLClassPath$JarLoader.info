@@ -1,0 +1,749 @@
+31
+sun/misc/URLClassPath$JarLoader.access$1000(Lsun/misc/URLClassPath$JarLoader;)Lsun/misc/MetaIndex;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-2 metaIndex 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/URLClassPath$JarLoader.getJarFile()Ljava/util/jar/JarFile;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 jar 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/misc/URLClassPath$JarLoader.tryResolveFile(Ljava/net/URL;Ljava/lang/String;)Ljava/net/URL;
+PTG:
+Vars:
+6
+r1 1 -2 
+r0 1 -3 
+r2 1 17 
+$r4 1 36 
+$r3 1 19 
+_ret 1 36 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -3 
+19 2 17 19 
+42 3 -2 -3 36 
+11 1 -3 
+Constructors: 1
+42 36
+
+Summary: 3
+0 -2 1 
+sun/misc/URLClassPath$JarLoader.access$800(Lsun/misc/URLClassPath$JarLoader;Ljava/net/URL;)Ljava/util/jar/JarFile;
+PTG:
+Vars:
+4
+$r2 1 2 
+r1 1 -3 
+_ret 1 2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 0 -2 1 
+sun/misc/URLClassPath$JarLoader.parseClassPath(Ljava/net/URL;Ljava/lang/String;)[Ljava/net/URL;
+PTG:
+Vars:
+16
+r1 1 -3 
+$r0 1 0 
+$r8 1 85 
+r15 2 13 146 
+_ret 2 13 146 
+r14 1 -1 
+$r16 2 56 40 
+r5 1 -2 
+$r7 1 88 
+$r13 1 114 
+$r12 1 111 
+$r3 1 146 
+$r9 1 97 
+r4 1 32 
+$r11 1 107 
+$r10 1 102 
+Fields: 0
+Accesses: 0
+Functions: 15
+-1 0 
+97 2 32 97 
+5 2 0 -3 
+102 1 102 
+9 1 0 
+107 2 -2 107 
+47 4 32 -2 56 40 
+111 1 111 
+144 2 146 13 
+21 1 0 
+117 2 114 85 
+54 2 32 -2 
+88 1 88 
+28 1 0 
+92 1 88 
+Constructors: 2
+5 0
+92 88
+
+Summary: 6
+0 0 -1 -3 -2 1 
+sun/misc/URLClassPath$JarLoader.getClassPath()[Ljava/net/URL;
+PTG:
+Vars:
+10
+$r1 1 1 
+$r4 1 30 
+r9 1 69 
+$r2 1 10 
+$r8 1 63 
+r0 1 -1 
+$r3 1 26 
+r6 1 48 
+$r5 1 30 
+r7 1 57 
+Fields: 3
+-1 index 1
+-1 metaIndex 10
+-1 jar 30
+Accesses: 5
+0 1 -1 
+9 1 -1 
+41 1 -1 
+75 1 -1 
+29 1 -1 
+Functions: 8
+-1 0 
+19 4 -1 1 10 30 
+53 1 48 
+23 4 -1 1 10 30 
+26 2 26 30 
+42 1 30 
+74 5 -1 1 69 10 30 
+62 2 57 63 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/misc/URLClassPath$JarLoader.findResource(Ljava/lang/String;Z)Ljava/net/URL;
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 6 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+11 1 6 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+sun/misc/URLClassPath$JarLoader.isRelative(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+$r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/URLClassPath$JarLoader.ensureOpen()V
+PTG:
+Vars:
+4
+$r3 1 16 
+r0 1 -1 
+$r2 1 7 
+$r1 1 1 
+Fields: 2
+-1 jar 1
+-1 acc 16
+Accesses: 2
+0 1 -1 
+15 1 -1 
+Functions: 3
+19 2 16 7 
+27 0 
+12 4 -1 16 1 7 
+Constructors: 1
+12 7
+
+Summary: 1
+-1 
+sun/misc/URLClassPath$JarLoader.access$900(Lsun/misc/URLClassPath$JarLoader;)Lsun/misc/JarIndex;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -2 
+_ret 1 1 
+Fields: 1
+-2 index 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/URLClassPath$JarLoader.isOptimizable(Ljava/net/URL;)Z
+PTG:
+Vars:
+4
+$r1 1 0 
+$r2 1 3 
+r3 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 0 3 
+2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+sun/misc/URLClassPath$JarLoader.checkResource(Ljava/lang/String;ZLjava/util/jar/JarEntry;)Lsun/misc/Resource;
+PTG:
+Vars:
+8
+r1 1 -1 
+r3 1 -2 
+$r2 1 5 
+r7 1 -4 
+$r4 1 10 
+$r0 1 0 
+$r6 1 42 
+_ret 1 42 
+Fields: 0
+Accesses: 0
+Functions: 5
+51 5 -1 0 -2 -4 42 
+4 1 -1 
+24 1 0 
+9 1 -2 
+13 3 0 5 10 
+Constructors: 2
+51 42
+13 0
+
+Summary: 6
+2 0 0 -1 -4 -2 
+sun/misc/URLClassPath$JarLoader.access$1400(Lsun/misc/URLClassPath$JarLoader;)Ljava/security/AccessControlContext;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -2 
+_ret 1 1 
+Fields: 1
+-2 acc 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/URLClassPath$JarLoader.access$1300(Lsun/misc/URLClassPath$JarLoader;)Ljava/net/URLStreamHandler;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-2 handler 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/URLClassPath$JarLoader.close()V
+PTG:
+Vars:
+2
+$r1 1 17 
+r0 1 -1 
+Fields: 1
+-1 jar 17
+Accesses: 3
+0 1 -1 
+16 1 -1 
+9 1 -1 
+Functions: 2
+20 1 17 
+13 2 -1 17 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/misc/URLClassPath$JarLoader.getJarFile(Ljava/net/URL;)Ljava/util/jar/JarFile;
+PTG:
+Vars:
+9
+$r3 1 62 
+r14 1 58 
+r0 1 -1 
+r1 1 -2 
+$r2 1 52 
+$r4 1 58 
+r5 1 75 
+$r6 1 77 
+_ret 1 77 
+Fields: 0
+Accesses: 0
+Functions: 13
+0 2 -1 -2 
+32 0 
+65 2 58 62 
+36 0 
+69 1 58 
+40 0 
+44 0 
+76 1 75 
+13 1 -2 
+17 0 
+51 1 -1 
+52 1 52 
+28 0 
+Constructors: 0
+
+Summary: 5
+0 -1 8 -2 36 
+sun/misc/URLClassPath$JarLoader.access$600(Lsun/misc/URLClassPath$JarLoader;)Ljava/net/URL;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-2 csu 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/URLClassPath$JarLoader.tryResolveNonFile(Ljava/net/URL;Ljava/lang/String;)Ljava/net/URL;
+PTG:
+Vars:
+6
+$r2 1 17 
+r5 1 31 
+r3 1 -2 
+r0 1 -3 
+r1 1 9 
+r6 1 37 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -3 
+33 1 17 
+54 1 31 
+23 3 17 -2 9 
+39 1 31 
+10 1 9 
+27 1 -2 
+63 2 37 31 
+79 1 37 
+Constructors: 1
+23 17
+
+Summary: 3
+0 -2 1 
+sun/misc/URLClassPath$JarLoader.getIndex()Lsun/misc/JarIndex;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 18 
+_ret 1 18 
+Fields: 1
+-1 index 18
+Accesses: 1
+17 1 -1 
+Functions: 2
+1 2 -1 18 
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/misc/URLClassPath$JarLoader.access$902(Lsun/misc/URLClassPath$JarLoader;Lsun/misc/JarIndex;)Lsun/misc/JarIndex;
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -3 
+_ret 1 -3 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+0 -2 1 
+sun/misc/URLClassPath$JarLoader.checkJar(Ljava/util/jar/JarFile;)Ljava/util/jar/JarFile;
+PTG:
+Vars:
+4
+$r0 1 0 
+$r2 1 12 
+_ret 1 -2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+-1 0 
+35 1 -2 
+12 2 -2 12 
+44 0 
+30 0 
+Constructors: 0
+
+Summary: 1
+0 
+sun/misc/URLClassPath$JarLoader.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 0
+
+sun/misc/URLClassPath$JarLoader.access$702(Lsun/misc/URLClassPath$JarLoader;Ljava/util/jar/JarFile;)Ljava/util/jar/JarFile;
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -3 
+_ret 1 -3 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+0 -2 1 
+sun/misc/URLClassPath$JarLoader.<init>(Ljava/net/URL;Ljava/net/URLStreamHandler;Ljava/util/HashMap;Ljava/security/AccessControlContext;)V
+PTG:
+Vars:
+16
+r7 1 -3 
+$r1 1 1 
+r14 1 81 
+$r16 1 116 
+$r5 1 23 
+r15 1 93 
+$r10 1 95 
+$r12 1 109 
+$r4 1 18 
+$r6 1 26 
+r0 1 -1 
+r8 1 -4 
+$r2 1 10 
+$r13 1 116 
+r3 1 -2 
+r9 1 -5 
+Fields: 1
+-1 metaIndex 116
+Accesses: 9
+48 1 -1 
+112 1 -1 
+115 1 -1 
+132 1 -1 
+53 1 -1 
+38 1 -1 
+135 1 -1 
+43 1 -1 
+59 1 -1 
+Functions: 14
+33 3 -1 1 116 
+101 2 93 95 
+71 2 -1 116 
+10 2 -2 10 
+107 1 95 
+77 1 -2 
+14 1 10 
+143 2 -1 116 
+18 1 18 
+23 1 23 
+88 1 81 
+122 1 95 
+30 3 1 -3 26 
+62 3 -1 -2 116 
+Constructors: 4
+33 -1
+101 95
+14 10
+30 1
+
+Summary: 7
+0 -1 95 2 3 1 1 
+sun/misc/URLClassPath$JarLoader.parseExtensionsDependencies()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 jar 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/misc/URLClassPath$JarLoader.getResource(Ljava/lang/String;Z)Lsun/misc/Resource;
+PTG:
+Vars:
+10
+$r3 1 38 
+r2 1 -2 
+r13 1 45 
+$r9 1 1 
+r0 1 -1 
+$r7 1 81 
+$r1 1 1 
+$r5 1 67 
+_ret 1 81 
+$r4 1 59 
+Fields: 3
+-1 index 59
+-1 metaIndex 1
+-1 jar 38
+Accesses: 4
+0 1 -1 
+37 1 -1 
+7 1 -1 
+58 1 -1 
+Functions: 7
+33 0 
+50 6 -1 1 -2 38 59 45 
+21 4 -1 1 38 59 
+38 2 -2 38 
+71 1 67 
+8 2 1 -2 
+76 6 -1 1 -2 67 38 59 
+Constructors: 1
+71 67
+
+Summary: 4
+0 -1 -2 67 
+sun/misc/URLClassPath$JarLoader.access$700(Lsun/misc/URLClassPath$JarLoader;)Ljava/util/jar/JarFile;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -2 
+_ret 1 1 
+Fields: 1
+-2 jar 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/URLClassPath$JarLoader.validIndex(Ljava/lang/String;)Z
+PTG:
+Vars:
+8
+$r2 1 22 
+r0 1 -2 
+$r4 1 42 
+r7 2 79 57 
+r1 1 -1 
+r6 2 20 -2 
+r3 1 28 
+r5 1 42 
+Fields: 1
+-1 jar 22
+Accesses: 1
+21 1 -1 
+Functions: 9
+81 4 -2 20 57 79 
+2 1 -2 
+52 1 42 
+22 1 22 
+40 1 28 
+72 2 57 79 
+59 2 57 79 
+14 1 -2 
+30 1 28 
+Constructors: 0
+
+Summary: 2
+0 -1 
+sun/misc/URLClassPath$JarLoader.getResource(Ljava/lang/String;ZLjava/util/Set;)Lsun/misc/Resource;
+PTG:
+Vars:
+32
+r39 1 253 
+$r24 1 112 
+$r20 1 246 
+$r26 1 7 
+$r18 1 316 
+$r14 1 89 
+$r4 1 33 
+r6 1 36 
+$r3 1 11 
+$r30 1 -1 
+r35 1 128 
+r33 1 81 
+$r10 1 66 
+$r13 1 89 
+$r7 1 7 
+$r9 1 61 
+$r36 1 167 
+r32 1 339 
+$r25 1 115 
+r34 2 89 115 
+$r23 1 101 
+$r16 1 201 
+$r2 1 7 
+r15 1 -4 
+$r37 1 84 
+$r12 1 84 
+r8 1 59 
+$r31 1 -1 
+r1 1 -2 
+$r5 1 36 
+$r17 1 302 
+r0 1 -1 
+Fields: 7
+89 jar 246
+115 jar 246
+-1 index 7
+-1 acc 112
+-1 lmap 84
+-1 csu 66
+36 ArrayObject 59
+Accesses: 8
+65 1 -1 
+146 1 -1 
+83 1 -1 
+244 2 115 89 
+6 1 -1 
+331 1 -1 
+173 1 -1 
+111 1 -1 
+Functions: 25
+260 5 -2 115 246 89 253 
+198 2 -4 201 
+7 2 -2 7 
+71 3 66 59 61 
+135 1 59 
+199 1 61 
+76 1 61 
+332 2 -2 7 
+270 4 -2 115 246 89 
+84 2 81 84 
+22 1 339 
+343 1 339 
+29 2 33 339 
+285 0 
+160 1 59 
+226 3 115 246 89 
+170 3 128 7 167 
+108 7 -1 112 66 84 101 7 61 
+300 3 115 246 89 
+112 2 112 101 
+240 0 
+181 5 81 115 84 246 89 
+246 2 -2 246 
+311 5 -2 115 -4 246 89 
+123 3 115 246 89 
+Constructors: 2
+71 61
+108 101
+
+Summary: 7
+0 -1 61 -2 2 33 -4 
+sun/misc/URLClassPath$JarLoader.tryResolve(Ljava/net/URL;Ljava/lang/String;)Ljava/net/URL;
+PTG:
+Vars:
+6
+$r1 1 0 
+$r2 1 3 
+$r4 1 20 
+r0 1 -2 
+r3 1 -3 
+_ret 1 20 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 0 3 
+2 1 -2 
+19 2 -2 -3 
+13 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 0 -2 1 
+sun/misc/URLClassPath$JarLoader.access$1100(Lsun/misc/URLClassPath$JarLoader;)Ljava/util/HashMap;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -2 
+_ret 1 1 
+Fields: 1
+-2 lmap 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 

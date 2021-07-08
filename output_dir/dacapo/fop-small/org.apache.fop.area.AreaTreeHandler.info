@@ -1,0 +1,673 @@
+29
+org/apache/fop/area/AreaTreeHandler.getResults()Lorg/apache/fop/apps/FormattingResults;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 results 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/area/AreaTreeHandler.addUnresolvedIDRef(Ljava/lang/String;Lorg/apache/fop/area/Resolvable;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+$r3 1 1 
+Fields: 1
+-1 idTracker 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 3 1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -3 -1 
+org/apache/fop/area/AreaTreeHandler.alreadyResolvedID(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 idTracker 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/area/AreaTreeHandler.endDocument()V
+PTG:
+Vars:
+17
+$r5 1 6 
+r10 1 35 
+$r7 1 95 
+$r8 1 35 
+$r16 1 44 
+r4 1 19 
+$r1 1 6 
+$r20 1 73 
+r0 1 -1 
+$r19 1 73 
+r12 1 68 
+$r2 1 110 
+$r17 1 73 
+$r3 1 6 
+$r18 1 44 
+$r14 1 95 
+$r15 1 110 
+Fields: 3
+-1 statistics 110
+-1 model 95
+-1 rootFObj 6
+Accesses: 7
+116 1 -1 
+5 1 -1 
+102 1 -1 
+12 1 -1 
+61 1 -1 
+109 1 -1 
+94 1 -1 
+Functions: 13
+33 1 19 
+2 4 -1 6 110 95 
+99 2 73 95 
+106 1 95 
+13 1 6 
+78 2 68 73 
+49 2 35 44 
+84 5 -1 6 73 110 95 
+55 5 -1 6 44 110 95 
+87 1 73 
+24 1 19 
+120 1 110 
+62 1 6 
+Constructors: 2
+49 44
+78 73
+
+Summary: 6
+35 -1 68 19 73 44 
+org/apache/fop/area/AreaTreeHandler.startPageSequence(Lorg/apache/fop/fo/pagination/PageSequence;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/area/AreaTreeHandler.getPageViewportsContainingID(Ljava/lang/String;)Ljava/util/List;
+PTG:
+Vars:
+5
+_ret 1 5 
+r0 1 -1 
+$r3 1 5 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 idTracker 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/area/AreaTreeHandler.access$100(Lorg/apache/fop/area/AreaTreeHandler;)Lorg/apache/fop/fo/pagination/Root;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -2 
+Fields: 1
+-2 rootFObj 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/fop/area/AreaTreeHandler.<init>(Lorg/apache/fop/apps/FOUserAgent;Ljava/lang/String;Ljava/io/OutputStream;)V
+PTG:
+Vars:
+12
+r0 1 -1 
+$r9 1 73 
+$r11 1 52 
+r4 1 -4 
+$r6 1 38 
+r1 1 -2 
+r3 1 -3 
+$r2 1 11 
+$r5 1 35 
+$r7 1 45 
+$r8 1 63 
+$r10 1 85 
+Fields: 1
+-1 lmMaker 45
+Accesses: 8
+18 1 -1 
+70 1 -1 
+7 1 -1 
+23 1 -1 
+41 1 -1 
+59 1 -1 
+44 1 -1 
+93 1 -1 
+Functions: 9
+2 3 -1 -2 45 
+34 1 -2 
+35 1 35 
+67 1 63 
+56 1 52 
+73 1 73 
+90 3 -1 85 45 
+30 5 -1 -2 -3 -4 45 
+15 1 11 
+Constructors: 5
+2 -1
+67 63
+56 52
+90 85
+15 11
+
+Summary: 7
+-3 2 -1 -2 -4 0 1 
+org/apache/fop/area/AreaTreeHandler.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r4 1 6 
+r0 1 -2 
+$r2 1 -1 
+$r1 1 1 
+$r5 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/area/AreaTreeHandler.startDocument()V
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 statistics 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+11 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/area/AreaTreeHandler.notifyPageSequenceFinished(Lorg/apache/fop/fo/pagination/AbstractPageSequence;I)V
+PTG:
+Vars:
+10
+$r4 1 23 
+$r6 1 32 
+$r2 1 1 
+$r3 1 9 
+r0 1 -1 
+$r7 1 36 
+$r5 1 20 
+$r8 1 41 
+r1 1 -2 
+$r9 1 44 
+Fields: 1
+-1 results 1
+Accesses: 1
+0 1 -1 
+Functions: 8
+32 1 32 
+36 1 36 
+6 2 1 -2 
+23 1 23 
+9 1 9 
+41 1 41 
+27 1 23 
+47 2 20 44 
+Constructors: 1
+27 23
+
+Summary: 5
+-2 -1 44 0 41 
+org/apache/fop/area/AreaTreeHandler.startAbstractPageSequence(Lorg/apache/fop/fo/pagination/AbstractPageSequence;)V
+PTG:
+Vars:
+11
+$r4 1 22 
+$r6 1 22 
+$r8 1 22 
+r0 1 -1 
+$r3 1 10 
+$r9 1 46 
+$r2 1 2 
+r1 1 -2 
+$r7 1 35 
+$r5 1 25 
+$r10 1 49 
+Fields: 1
+-1 rootFObj 22
+Accesses: 4
+5 1 -1 
+21 1 -1 
+42 1 -1 
+31 1 -1 
+Functions: 10
+32 1 22 
+1 1 -2 
+17 1 -2 
+52 3 -1 49 22 
+22 1 22 
+9 1 -2 
+43 1 22 
+28 3 -1 22 25 
+13 3 -1 22 10 
+46 1 46 
+Constructors: 0
+
+Summary: 8
+35 46 -2 -1 10 0 25 49 
+org/apache/fop/area/AreaTreeHandler.startExternalDocument(Lorg/apache/fop/fo/extensions/ExternalDocument;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/area/AreaTreeHandler.getLayoutManagerMaker()Lorg/apache/fop/layoutmgr/LayoutManagerMaker;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 lmMaker 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/area/AreaTreeHandler.endExternalDocument(Lorg/apache/fop/fo/extensions/ExternalDocument;)V
+PTG:
+Vars:
+7
+$r6 1 25 
+$r2 1 15 
+$r1 1 1 
+r3 1 -2 
+$r5 1 1 
+r4 1 25 
+r0 1 -1 
+Fields: 1
+-1 statistics 1
+Accesses: 3
+0 1 -1 
+32 1 -1 
+7 1 -1 
+Functions: 4
+11 1 1 
+27 1 25 
+14 2 -1 1 
+15 4 -1 1 -2 15 
+Constructors: 0
+
+Summary: 4
+-2 -1 15 0 
+org/apache/fop/area/AreaTreeHandler.setupModel(Lorg/apache/fop/apps/FOUserAgent;Ljava/lang/String;Ljava/io/OutputStream;)V
+PTG:
+Vars:
+6
+$r5 1 8 
+$r1 1 1 
+r2 1 -2 
+r3 1 -3 
+r0 1 -1 
+r4 1 -4 
+Fields: 1
+-1 fontInfo 8
+Accesses: 2
+7 1 -1 
+15 1 -1 
+Functions: 1
+12 5 1 -2 -3 -4 8 
+Constructors: 1
+12 1
+
+Summary: 7
+-2 -3 2 -1 -4 0 1 
+org/apache/fop/area/AreaTreeHandler.tryIDResolution(Lorg/apache/fop/area/PageViewport;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 idTracker 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/area/AreaTreeHandler.wrapAndAddExtensionAttachments(Ljava/util/List;)V
+PTG:
+Vars:
+7
+r3 1 17 
+$r7 1 27 
+$r2 1 17 
+r1 1 6 
+r4 1 -1 
+r0 1 -2 
+$r6 1 27 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+16 1 6 
+32 2 17 27 
+35 2 -1 27 
+7 1 6 
+Constructors: 1
+32 27
+
+Summary: 5
+-2 -1 0 27 17 
+org/apache/fop/area/AreaTreeHandler.<clinit>()V
+PTG:
+Vars:
+3
+$r1 1 21 
+$r2 2 8 18 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/area/AreaTreeHandler.access$000()Lorg/apache/commons/logging/Log;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/area/AreaTreeHandler.endPageSequence(Lorg/apache/fop/fo/pagination/PageSequence;)V
+PTG:
+Vars:
+7
+$r6 1 1 
+r2 1 -2 
+$r4 1 22 
+r0 1 -1 
+r5 1 32 
+$r1 1 1 
+$r3 1 15 
+Fields: 1
+-1 statistics 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+39 1 -1 
+Functions: 5
+34 1 32 
+21 2 -1 1 
+22 4 -1 1 -2 22 
+11 1 1 
+14 1 -2 
+Constructors: 0
+
+Summary: 5
+22 -2 -1 15 0 
+org/apache/fop/area/AreaTreeHandler.signalPendingID(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 idTracker 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/area/AreaTreeHandler.generatePageViewportKey()Ljava/lang/String;
+PTG:
+Vars:
+6
+$r1 1 10 
+$r3 1 26 
+$r4 1 29 
+_ret 1 29 
+$r2 1 19 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+22 1 -1 
+7 1 -1 
+Functions: 4
+19 1 19 
+10 1 10 
+26 1 26 
+14 1 10 
+Constructors: 1
+14 10
+
+Summary: 2
+-1 26 
+org/apache/fop/area/AreaTreeHandler.associateIDWithPageViewport(Ljava/lang/String;Lorg/apache/fop/area/PageViewport;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r1 1 -2 
+$r3 1 1 
+r0 1 -1 
+Fields: 1
+-1 idTracker 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 3 1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -3 -1 
+org/apache/fop/area/AreaTreeHandler.finishPrevPageSequence(Lorg/apache/fop/datatypes/Numeric;)V
+PTG:
+Vars:
+5
+$r4 1 1 
+$r3 1 1 
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+Fields: 1
+-1 prevPageSeqLM 1
+Accesses: 4
+0 1 -1 
+17 1 -1 
+7 1 -1 
+28 1 -1 
+Functions: 2
+21 1 1 
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/area/AreaTreeHandler.getIDTracker()Lorg/apache/fop/area/IDTracker;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 idTracker 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/area/AreaTreeHandler.getAreaTreeModel()Lorg/apache/fop/area/AreaTreeModel;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 model 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/area/AreaTreeHandler.signalIDProcessed(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 idTracker 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/area/AreaTreeHandler.addOffDocumentItem(Lorg/apache/fop/area/OffDocumentItem;)V
+PTG:
+Vars:
+21
+$r6 1 36 
+$r5 1 134 
+$r9 1 65 
+$r19 1 30 
+$r13 1 83 
+$r14 1 89 
+r3 1 -2 
+$r2 1 145 
+$r18 1 113 
+$r20 1 51 
+$r15 1 90 
+r1 1 -1 
+$r16 1 95 
+$r7 1 30 
+$r11 1 73 
+$r12 1 78 
+r4 1 18 
+$r10 1 62 
+r8 1 40 
+r0 1 -2 
+$r17 1 98 
+Fields: 7
+-1 model 145
+-1 model 134
+-1 idTracker 30
+18 ArrayObject 36
+18 ArrayObject 51
+18 ArrayObject 89
+18 ArrayObject 113
+Accesses: 4
+144 1 -1 
+133 1 -1 
+106 1 -1 
+29 1 -1 
+Functions: 15
+65 2 65 73 
+69 1 65 
+101 2 98 62 
+72 1 -2 
+138 2 -2 134 
+12 1 -2 
+78 1 78 
+83 2 83 89 
+115 3 113 -2 30 
+149 2 145 -2 
+54 3 -2 51 40 
+90 1 90 
+124 1 -2 
+30 2 36 30 
+95 1 95 
+Constructors: 1
+69 65
+
+Summary: 12
+-1 51 98 36 89 113 -2 0 73 40 18 95 

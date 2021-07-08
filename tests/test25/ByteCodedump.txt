@@ -1,0 +1,31 @@
+0: new           #4                  // class A$B
+3: dup
+4: aload_0
+5: getfield      #1                  // Field this$1:LA$B;
+8: getfield      #5                  // Field A$B.this$0:LA;
+11: invokespecial #6                  // Method A$B."<init>":(LA;)V
+14: astore_2
+15: aload_1
+16: bipush        10
+18: putfield      #7                  // Field A.a_val:I
+21: aload_2
+22: bipush        20
+24: putfield      #8                  // Field A$B.a_val:I
+27: iconst_0
+28: istore_3
+29: iload_3
+30: bipush        20
+32: if_icmpge     63
+35: aload_0
+36: getfield      #1                  // Field this$1:LA$B;
+39: getfield      #5                  // Field A$B.this$0:LA;
+42: aload_0
+43: getfield      #1                  // Field this$1:LA$B;
+46: getfield      #5                  // Field A$B.this$0:LA;
+49: getfield      #7                  // Field A.a_val:I
+52: iconst_1
+53: iadd
+54: putfield      #7                  // Field A.a_val:I
+57: iinc          3, 1
+60: goto          29
+63: return

@@ -1,0 +1,68 @@
+nice -n 19 /home/cs17b006/jdk1.8.0_291/bin/java -Xmx6G -javaagent:poa-trunk.jar -jar /home/cs17b006/stava-master/Benchmarks/dacapo/dacapo-9.12-MR1-bach.jar lusearch -s default --scratch-directory /tmp/dacaposcratch -n 3
+============================================================
+TamiFlex Play-Out Agent Version trunk
+Loaded properties from /home/cs17b006/.tamiflex/poa.properties
+============================================================
+The derived number of threads (72) is outside the range [1,64]; rescaling to match thread limit.
+Using scaled threading model. 72 processors detected, 64 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch completed warmup 1 in 812 msec =====
+===== DaCapo 9.12-MR1 lusearch starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch completed warmup 2 in 188 msec =====
+===== DaCapo 9.12-MR1 lusearch starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch PASSED in 92 msec =====
+
+============================================================
+TamiFlex Play-Out Agent Version trunk
+Found 44 new log entries.
+Dumped 777 new classes.
+Log file written to: /home/cs17b006/stava-master/Benchmarks/out/refl.log
+============================================================

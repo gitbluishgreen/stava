@@ -1,0 +1,1719 @@
+84
+org/apache/xpath/XPathContext.getCurrentNode()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_currentNodes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getRTFDTM()Lorg/apache/xml/dtm/DTM;
+PTG:
+Vars:
+18
+$r2 1 1 
+r16 5 95 138 27 157 77 
+$r8 1 1 
+$r9 1 138 
+$r15 1 1 
+$r3 1 95 
+_ret 5 95 138 27 157 77 
+$r1 1 1 
+$r6 1 157 
+$r7 1 1 
+$r10 1 1 
+$r14 1 27 
+$r12 1 8 
+$r11 1 77 
+$r4 1 1 
+$r5 1 149 
+r0 1 -1 
+$r13 1 19 
+Fields: 3
+-1 m_dtmManager 19
+-1 m_dtmManager 149
+-1 m_rtfdtm_stack 1
+Accesses: 19
+0 1 -1 
+34 1 -1 
+66 1 -1 
+130 1 -1 
+164 1 -1 
+134 1 -1 
+42 1 -1 
+74 1 -1 
+109 1 -1 
+15 1 -1 
+49 1 -1 
+18 1 -1 
+148 1 -1 
+117 1 -1 
+55 1 -1 
+87 1 -1 
+120 1 -1 
+91 1 -1 
+62 1 -1 
+Functions: 10
+19 1 19 
+131 1 1 
+149 1 149 
+102 5 138 27 157 77 95 
+39 6 1 138 27 157 77 95 
+88 1 1 
+121 1 1 
+169 6 1 138 27 157 77 95 
+12 1 8 
+63 1 1 
+Constructors: 1
+12 8
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.releaseDTMXRTreeFrags()V
+PTG:
+Vars:
+7
+r6 1 31 
+r4 1 20 
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+$r5 1 31 
+$r3 1 12 
+Fields: 1
+-1 m_DTMXRTreeFrags 1
+Accesses: 3
+0 1 -1 
+55 1 -1 
+8 1 -1 
+Functions: 6
+21 1 20 
+9 1 1 
+41 1 31 
+12 1 12 
+45 1 20 
+30 1 20 
+Constructors: 0
+
+Summary: 3
+12 -1 31 
+org/apache/xpath/XPathContext.<init>(Ljava/lang/Object;Z)V
+PTG:
+Vars:
+7
+$r6 1 -1 
+$r3 1 15 
+$r5 1 24 
+r1 1 -2 
+$r4 1 21 
+r0 1 -1 
+$r2 1 12 
+Fields: 1
+-1 m_owner 12
+Accesses: 3
+7 1 -1 
+11 1 -1 
+27 1 -1 
+Functions: 3
+2 2 -1 12 
+12 1 12 
+15 2 21 15 
+Constructors: 1
+2 -1
+
+Summary: 4
+0 -1 15 21 
+org/apache/xpath/XPathContext.pushSAXLocatorNull()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_saxLocations 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.pushExpressionState(IILorg/apache/xml/utils/PrefixResolver;)V
+PTG:
+Vars:
+5
+$r2 1 10 
+r0 1 -1 
+r3 1 -4 
+$r4 1 19 
+$r1 1 1 
+Fields: 3
+-1 m_currentNodes 1
+-1 m_currentExpressionNodes 10
+-1 m_prefixResolvers 19
+Accesses: 3
+0 1 -1 
+18 1 -1 
+9 1 -1 
+Functions: 3
+5 1 1 
+23 2 19 -4 
+14 1 10 
+Constructors: 0
+
+Summary: 2
+-1 -4 
+org/apache/xpath/XPathContext.setCurrentNodeStack(Lorg/apache/xml/utils/IntStack;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getCurrentExpressionNodeStack()Lorg/apache/xml/utils/IntStack;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_currentExpressionNodes 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getSubContextList()Lorg/apache/xpath/axes/SubContextList;
+PTG:
+Vars:
+6
+$r3 1 18 
+_ret 1 18 
+r0 1 -1 
+$r2 1 1 
+$r4 1 18 
+$r1 1 1 
+Fields: 1
+-1 m_axesIteratorStack 1
+Accesses: 2
+0 1 -1 
+14 1 -1 
+Functions: 2
+1 1 1 
+15 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getCurrentExpressionNode()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_currentExpressionNodes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.assertion(ZLjava/lang/String;)V
+PTG:
+Vars:
+8
+$r6 1 32 
+r0 1 -1 
+$r3 1 21 
+$r5 1 28 
+r4 1 -3 
+r1 1 8 
+$r2 1 14 
+$r7 1 32 
+Fields: 0
+Accesses: 0
+Functions: 5
+4 1 -1 
+21 1 21 
+38 3 32 28 14 
+41 2 8 14 
+31 1 -1 
+Constructors: 1
+38 14
+
+Summary: 6
+14 8 28 -1 32 21 
+org/apache/xpath/XPathContext.<init>(Ljava/lang/Object;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 3
+0 -1 -2 
+org/apache/xpath/XPathContext.pushSubContextList(Lorg/apache/xpath/axes/SubContextList;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 m_axesIteratorStack 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xpath/XPathContext.popPredicatePos()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_predicatePos 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.popCurrentNodeAndExpression()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 9 
+Fields: 2
+-1 m_currentNodes 1
+-1 m_currentExpressionNodes 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+5 1 1 
+13 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getNamespaceContext()Lorg/apache/xml/utils/PrefixResolver;
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+_ret 1 4 
+$r2 1 4 
+$r3 1 4 
+Fields: 1
+-1 m_prefixResolvers 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getPredicateRoot()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_predicateRoots 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.pushContextNodeList(Lorg/apache/xml/dtm/DTMIterator;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 m_contextNodeLists 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xpath/XPathContext.getIteratorRoot()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_iteratorRoots 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getCurrentNodeList()Lorg/apache/xpath/axes/SubContextList;
+PTG:
+Vars:
+6
+$r3 1 19 
+_ret 1 19 
+$r4 1 19 
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_axesIteratorStack 1
+Accesses: 2
+0 1 -1 
+14 1 -1 
+Functions: 2
+1 1 1 
+15 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.popRTFContext()V
+PTG:
+Vars:
+11
+$r6 1 66 
+$r1 1 1 
+$r3 1 10 
+r0 1 -1 
+$r2 1 10 
+$r10 1 34 
+$r4 1 66 
+$r5 1 66 
+$r7 1 10 
+$r8 1 34 
+$r9 1 34 
+Fields: 2
+-1 m_rtfdtm_stack 10
+-1 m_last_pushed_rtfdtm 1
+Accesses: 9
+0 1 -1 
+17 1 -1 
+50 1 -1 
+86 1 -1 
+9 1 -1 
+58 1 -1 
+29 1 -1 
+62 1 -1 
+79 1 -1 
+Functions: 5
+1 1 1 
+59 1 10 
+30 1 10 
+46 1 34 
+78 1 66 
+Constructors: 0
+
+Summary: 3
+66 -1 34 
+org/apache/xpath/XPathContext.setPrimaryReader(Lorg/xml/sax/XMLReader;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.pushPredicatePos(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_predicatePos 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getDTMXRTreeFrag(I)Lorg/apache/xpath/objects/DTMXRTreeFrag;
+PTG:
+Vars:
+9
+$r1 1 1 
+_ret 1 55 
+$r13 1 8 
+$r6 1 69 
+$r3 1 1 
+$r4 1 55 
+$r7 1 1 
+r0 1 -1 
+$r2 1 22 
+Fields: 1
+-1 m_DTMXRTreeFrags 1
+Accesses: 5
+0 1 -1 
+65 1 -1 
+18 1 -1 
+36 1 -1 
+15 1 -1 
+Functions: 8
+19 2 1 22 
+37 0 
+74 1 69 
+27 1 22 
+12 1 8 
+45 0 
+61 3 -1 1 55 
+78 3 1 69 55 
+Constructors: 4
+74 69
+27 22
+12 8
+61 55
+
+Summary: 4
+40 69 -1 22 
+org/apache/xpath/XPathContext.setURIResolver(Ljavax/xml/transform/URIResolver;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.pushCurrentNodeAndExpression(II)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 10 
+Fields: 2
+-1 m_currentNodes 1
+-1 m_currentExpressionNodes 10
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+5 1 1 
+14 1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getDTMManager()Lorg/apache/xml/dtm/DTMManager;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 m_dtmManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.popExpressionState()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r2 1 9 
+$r3 1 17 
+Fields: 3
+-1 m_currentNodes 1
+-1 m_currentExpressionNodes 9
+-1 m_prefixResolvers 17
+Accesses: 3
+0 1 -1 
+16 1 -1 
+8 1 -1 
+Functions: 3
+20 1 17 
+5 1 1 
+13 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.popPredicateRoot()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_predicateRoots 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.pushNamespaceContext(Lorg/apache/xml/utils/PrefixResolver;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 m_prefixResolvers 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xpath/XPathContext.getDTMHandleFromNode(Lorg/w3c/dom/Node;)I
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 m_dtmManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xpath/XPathContext.setAxesIteratorStackStacks(Ljava/util/Stack;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getGlobalRTFDTM()Lorg/apache/xml/dtm/DTM;
+PTG:
+Vars:
+8
+$r1 1 1 
+_ret 1 1 
+$r2 1 19 
+$r5 1 1 
+$r3 1 27 
+r0 1 -1 
+$r4 1 27 
+$r6 1 1 
+Fields: 2
+-1 m_dtmManager 19
+-1 m_global_rtfdtm 1
+Accesses: 5
+0 1 -1 
+33 1 -1 
+18 1 -1 
+36 1 -1 
+7 1 -1 
+Functions: 2
+19 1 19 
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.pushCurrentExpressionNode(I)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_currentExpressionNodes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.popIteratorRoot()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_iteratorRoots 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.setSAXLocator(Ljavax/xml/transform/SourceLocator;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_saxLocations 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xpath/XPathContext.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 1
+2 -1
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getPredicatePos()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_predicatePos 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.pushIteratorRoot(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_iteratorRoots 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.isSecureProcessing()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.setSourceTreeManager(Lorg/apache/xpath/SourceTreeManager;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.popCurrentExpressionNode()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_currentExpressionNodes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getDTM(Ljavax/xml/transform/Source;ZLorg/apache/xml/dtm/DTMWSFilter;ZZ)Lorg/apache/xml/dtm/DTM;
+PTG:
+Vars:
+6
+$r3 1 1 
+r1 1 -2 
+$r4 1 11 
+r2 1 -4 
+_ret 1 11 
+r0 1 -1 
+Fields: 1
+-1 m_dtmManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -4 
+Constructors: 0
+
+Summary: 5
+0 2 -1 -2 -4 
+org/apache/xpath/XPathContext.reset()V
+PTG:
+Vars:
+25
+$r1 1 5 
+$r6 1 102 
+$r3 1 85 
+$r10 1 130 
+$r12 1 144 
+$r14 1 151 
+$r24 1 29 
+$r21 2 29 67 
+$r25 1 33 
+$r11 1 137 
+$r18 1 95 
+$r2 1 60 
+$r7 1 109 
+$r22 1 5 
+$r20 1 60 
+$r5 1 95 
+$r9 1 123 
+$r16 1 123 
+$r26 1 33 
+$r4 1 88 
+r23 1 18 
+r0 1 -1 
+$r13 1 151 
+$r8 1 116 
+$r17 1 116 
+Fields: 13
+-1 m_contextNodeLists 109
+-1 m_iteratorRoots 130
+-1 m_dtmManager 29
+-1 m_dtmManager 67
+-1 m_currentNodes 123
+-1 m_global_rtfdtm 60
+-1 m_axesIteratorStack 102
+-1 m_currentExpressionNodes 116
+-1 m_rtfdtm_stack 5
+-1 m_saxLocations 95
+-1 m_predicatePos 137
+-1 m_prefixResolvers 151
+-1 m_predicateRoots 144
+Accesses: 23
+129 1 -1 
+66 1 -1 
+4 1 -1 
+101 1 -1 
+70 1 -1 
+166 1 -1 
+136 1 -1 
+11 1 -1 
+108 1 -1 
+143 1 -1 
+175 1 -1 
+81 1 -1 
+51 1 -1 
+115 1 -1 
+150 1 -1 
+56 1 -1 
+184 1 -1 
+122 1 -1 
+59 1 -1 
+91 1 -1 
+28 1 -1 
+157 1 -1 
+94 1 -1 
+Functions: 21
+32 1 18 
+-1 0 
+1 14 -1 130 67 5 102 137 109 144 116 151 123 60 29 95 
+98 1 95 
+162 1 151 
+133 1 130 
+105 1 102 
+42 2 33 29 
+75 3 67 60 29 
+171 1 123 
+12 1 5 
+140 1 137 
+112 1 109 
+19 1 18 
+147 1 144 
+180 1 116 
+85 1 85 
+119 1 116 
+154 1 151 
+189 1 95 
+126 1 123 
+Constructors: 0
+
+Summary: 4
+33 -1 85 18 
+org/apache/xpath/XPathContext.setContextNodeListsStack(Ljava/util/Stack;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.setSecureProcessing(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.createDTMIterator(Ljava/lang/Object;I)Lorg/apache/xml/dtm/DTMIterator;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 1 
+_ret 1 6 
+$r3 1 6 
+r1 1 -2 
+Fields: 1
+-1 m_dtmManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xpath/XPathContext.setErrorListener(Ljavax/xml/transform/ErrorListener;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+20 1 -1 
+Functions: 2
+10 0 
+14 0 
+Constructors: 0
+
+Summary: 2
+-1 11 
+org/apache/xpath/XPathContext.getContextNode()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getAxesIteratorStackStacks()Ljava/util/Stack;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_axesIteratorStack 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.pushCurrentNode(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_currentNodes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.popContextNodeList()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r4 1 10 
+$r2 1 1 
+$r1 1 1 
+Fields: 1
+-1 m_contextNodeLists 1
+Accesses: 2
+0 1 -1 
+21 1 -1 
+Functions: 3
+1 1 1 
+25 1 1 
+15 1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getSAXLocator()Ljavax/xml/transform/SourceLocator;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 4 
+_ret 1 4 
+$r3 1 4 
+$r1 1 1 
+Fields: 1
+-1 m_saxLocations 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.popCurrentNode()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_currentNodes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.pushSAXLocator(Ljavax/xml/transform/SourceLocator;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 m_saxLocations 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xpath/XPathContext.popSAXLocator()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_saxLocations 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.setCurrentExpressionNodeStack(Lorg/apache/xml/utils/IntStack;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.createDTMIterator(ILorg/apache/xml/dtm/DTMFilter;Z)Lorg/apache/xml/dtm/DTMIterator;
+PTG:
+Vars:
+5
+$r3 1 7 
+_ret 1 7 
+r0 1 -1 
+$r2 1 1 
+r1 1 -3 
+Fields: 1
+-1 m_dtmManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -3 
+Constructors: 0
+
+Summary: 2
+-3 -1 
+org/apache/xpath/XPathContext.getContextNodes()Lorg/apache/xml/dtm/DTMIterator;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 11 
+$r2 1 -1 
+r3 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+10 1 4 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/apache/xpath/XPathContext.setNamespaceContext(Lorg/apache/xml/utils/PrefixResolver;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 m_prefixResolvers 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xpath/XPathContext.getPrimaryReader()Lorg/xml/sax/XMLReader;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_primaryReader 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getExpressionContext()Lorg/apache/xalan/extensions/ExpressionContext;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 expressionContext 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getContextNodeListsStack()Ljava/util/Stack;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_contextNodeLists 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.createDTMIterator(I)Lorg/apache/xml/dtm/DTMIterator;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 1 0 
+13 2 0 -1 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.createDTMIterator(Ljava/lang/String;Lorg/apache/xml/utils/PrefixResolver;)Lorg/apache/xml/dtm/DTMIterator;
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+$r3 1 1 
+r2 1 -3 
+$r4 1 6 
+_ret 1 6 
+Fields: 1
+-1 m_dtmManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 -2 
+org/apache/xpath/XPathContext.<init>(Z)V
+PTG:
+Vars:
+20
+r0 1 -1 
+$r15 1 185 
+$r17 1 194 
+$r8 1 101 
+$r3 1 44 
+$r6 1 76 
+$r10 1 123 
+$r5 1 65 
+$r13 1 162 
+$r11 1 137 
+$r2 1 41 
+$r19 1 212 
+$r14 1 173 
+$r9 1 112 
+$r22 2 225 235 
+$r7 1 87 
+$r18 1 203 
+$r1 1 5 
+$r12 1 148 
+$r4 1 51 
+Fields: 4
+-1 m_currentNodes 194
+-1 m_currentExpressionNodes 203
+-1 m_saxLocations 212
+-1 m_prefixResolvers 185
+Accesses: 23
+32 1 -1 
+97 1 -1 
+193 1 -1 
+37 1 -1 
+133 1 -1 
+72 1 -1 
+169 1 -1 
+202 1 -1 
+12 1 -1 
+108 1 -1 
+47 1 -1 
+144 1 -1 
+17 1 -1 
+83 1 -1 
+211 1 -1 
+243 1 -1 
+181 1 -1 
+22 1 -1 
+119 1 -1 
+184 1 -1 
+27 1 -1 
+61 1 -1 
+158 1 -1 
+Functions: 21
+-1 0 
+1 5 -1 194 212 185 203 
+130 1 123 
+69 1 65 
+229 2 225 235 
+166 1 162 
+198 1 194 
+9 1 5 
+41 1 41 
+105 1 101 
+141 1 137 
+207 1 203 
+80 1 76 
+240 2 225 235 
+178 6 -1 194 212 185 203 173 
+116 1 112 
+216 1 212 
+58 1 51 
+155 1 148 
+189 1 185 
+94 1 87 
+Constructors: 13
+1 -1
+130 123
+69 65
+166 162
+9 5
+105 101
+141 137
+80 76
+178 173
+116 112
+58 51
+155 148
+94 87
+
+Summary: 2
+-1 41 
+org/apache/xpath/XPathContext.getURIResolver()Ljavax/xml/transform/URIResolver;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 m_uriResolver 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.createDocumentFragment()Lorg/apache/xml/dtm/DTM;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 4 
+$r1 1 1 
+_ret 1 4 
+Fields: 1
+-1 m_dtmManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.setVarStack(Lorg/apache/xpath/VariableStack;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getContextNodeList()Lorg/apache/xml/dtm/DTMIterator;
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_contextNodeLists 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 2
+1 1 1 
+11 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getSourceTreeManager()Lorg/apache/xpath/SourceTreeManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 m_sourceTreeManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.pushNamespaceContextNull()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_prefixResolvers 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.release(Lorg/apache/xml/dtm/DTM;Z)Z
+PTG:
+Vars:
+5
+$r3 1 21 
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+$r4 1 1 
+Fields: 2
+-1 m_dtmManager 21
+-1 m_rtfdtm_stack 1
+Accesses: 3
+0 1 -1 
+20 1 -1 
+7 1 -1 
+Functions: 2
+21 2 -2 21 
+8 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xpath/XPathContext.popNamespaceContext()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_prefixResolvers 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getVarStack()Lorg/apache/xpath/VariableStack;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_variableStacks 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getCurrentNodeStack()Lorg/apache/xml/utils/IntStack;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 m_currentNodes 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.pushRTFContext()V
+PTG:
+Vars:
+6
+$r3 1 21 
+r0 1 -1 
+$r4 1 21 
+$r5 1 21 
+$r2 1 14 
+$r1 1 1 
+Fields: 2
+-1 m_rtfdtm_stack 14
+-1 m_last_pushed_rtfdtm 1
+Accesses: 3
+0 1 -1 
+4 1 -1 
+13 1 -1 
+Functions: 3
+20 3 -1 1 14 
+8 1 1 
+30 1 21 
+Constructors: 0
+
+Summary: 2
+21 -1 
+org/apache/xpath/XPathContext.pushPredicateRoot(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_predicateRoots 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getDTM(I)Lorg/apache/xml/dtm/DTM;
+PTG:
+Vars:
+4
+$r2 1 5 
+_ret 1 5 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_dtmManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.access$000(Lorg/apache/xpath/XPathContext;)Lorg/apache/xpath/VariableStack;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -2 
+Fields: 1
+-2 m_variableStacks 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xpath/XPathContext.getErrorListener()Ljavax/xml/transform/ErrorListener;
+PTG:
+Vars:
+12
+$r10 1 -1 
+$r4 1 60 
+$r7 1 17 
+_ret 2 35 53 
+$r6 1 28 
+$r5 1 32 
+$r3 1 53 
+r0 1 -1 
+$r2 1 17 
+r12 2 35 53 
+$r8 1 35 
+$r1 1 2 
+Fields: 4
+-1 m_ownerGetErrorListener 17
+-1 m_errorListener 2
+-1 m_owner 28
+-1 m_defaultErrorListener 53
+Accesses: 8
+16 1 -1 
+1 1 -1 
+67 1 -1 
+52 1 -1 
+70 1 -1 
+23 1 -1 
+8 1 -1 
+27 1 -1 
+Functions: 2
+64 1 60 
+24 3 32 17 28 
+Constructors: 1
+64 60
+
+Summary: 2
+-1 32 
+org/apache/xpath/XPathContext.getDTMIdentity(Lorg/apache/xml/dtm/DTM;)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 m_dtmManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xpath/XPathContext.popSubContextList()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_axesIteratorStack 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xpath/XPathContext.getOwnerObject()Ljava/lang/Object;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_owner 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

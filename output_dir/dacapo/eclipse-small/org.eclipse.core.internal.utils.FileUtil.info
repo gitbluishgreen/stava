@@ -1,0 +1,313 @@
+15
+org/eclipse/core/internal/utils/FileUtil.fileInfoToAttributes(Lorg/eclipse/core/filesystem/IFileInfo;)Lorg/eclipse/core/resources/ResourceAttributes;
+PTG:
+Vars:
+3
+r2 1 -2 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 11
+16 1 0 
+32 1 -2 
+51 1 0 
+4 1 0 
+20 1 -2 
+39 1 0 
+55 1 -2 
+9 1 -2 
+43 1 -2 
+28 1 0 
+63 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-2 0 
+org/eclipse/core/internal/utils/FileUtil.isPrefixOf(Ljava/net/URI;Ljava/net/URI;)Z
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 1 0 -3 
+org/eclipse/core/internal/utils/FileUtil.toPath(Ljava/net/URI;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 10 
+$r4 1 15 
+Fields: 0
+Accesses: 0
+Functions: 4
+32 0 
+6 1 -2 
+28 1 -2 
+15 2 10 15 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/core/internal/utils/FileUtil.canonicalPath(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+7
+$r5 1 -1 
+r0 1 -2 
+$r2 1 13 
+$r4 1 35 
+r3 1 24 
+r1 1 12 
+_ret 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+18 2 12 13 
+6 1 -2 
+40 2 35 24 
+25 2 24 12 
+13 1 13 
+Constructors: 2
+18 13
+40 35
+
+Summary: 2
+13 0 
+org/eclipse/core/internal/utils/FileUtil.canonicalURI(Ljava/net/URI;)Ljava/net/URI;
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 9 
+$r1 1 6 
+_ret 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+18 1 -2 
+35 0 
+6 2 6 9 
+23 0 
+8 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+org/eclipse/core/internal/utils/FileUtil.isOverlapping(Ljava/net/URI;Ljava/net/URI;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 1 0 -3 
+org/eclipse/core/internal/utils/FileUtil.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/internal/utils/FileUtil.transferStreams(Ljava/io/InputStream;Ljava/io/OutputStream;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+8
+r2 1 -2 
+$r0 1 5 
+$r5 1 71 
+r19 1 4 
+r18 1 -5 
+r10 1 -4 
+$r3 1 16 
+r4 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 14
+0 1 -5 
+32 1 -4 
+106 1 -4 
+140 1 -2 
+77 2 -3 71 
+15 2 16 -2 
+144 1 -3 
+113 0 
+50 1 -4 
+119 1 4 
+151 1 -2 
+88 1 -4 
+57 0 
+155 1 -3 
+Constructors: 0
+
+Summary: 8
+2 1 -5 -3 -2 -4 0 3 
+org/eclipse/core/internal/utils/FileUtil.attributesToFileInfo(Lorg/eclipse/core/resources/ResourceAttributes;)Lorg/eclipse/core/filesystem/IFileInfo;
+PTG:
+Vars:
+3
+r0 1 3 
+r1 1 -2 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 0 
+17 1 -2 
+33 1 3 
+21 1 3 
+6 1 -2 
+41 1 -2 
+10 1 3 
+29 1 -2 
+45 1 3 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/core/internal/utils/FileUtil.computeOverlap(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;Z)Z
+PTG:
+Vars:
+10
+$r2 1 11 
+$r3 1 16 
+$r7 1 38 
+r9 2 28 -3 
+r0 1 -2 
+r1 1 -3 
+r8 2 -2 11 
+$r6 1 33 
+$r4 1 21 
+$r5 1 28 
+Fields: 0
+Accesses: 0
+Functions: 8
+16 1 16 
+32 1 -3 
+33 1 33 
+24 2 21 11 
+41 2 38 28 
+61 4 -2 -3 11 28 
+46 4 -2 -3 11 28 
+15 1 -2 
+Constructors: 2
+24 11
+41 28
+
+Summary: 4
+-2 1 0 -3 
+org/eclipse/core/internal/utils/FileUtil.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/core/internal/utils/FileUtil.computeOverlap(Ljava/net/URI;Ljava/net/URI;Z)Z
+PTG:
+Vars:
+10
+r1 1 -3 
+$r8 1 -1 
+$r4 1 44 
+r2 1 14 
+r13 1 152 
+r3 1 19 
+r12 1 142 
+r0 1 -2 
+$r5 1 53 
+r9 1 83 
+Fields: 0
+Accesses: 0
+Functions: 19
+0 2 -2 -3 
+33 2 19 14 
+67 1 -3 
+100 1 -3 
+164 2 152 142 
+134 2 -2 83 
+71 0 
+10 1 -2 
+106 0 
+44 2 44 14 
+15 1 -3 
+79 1 14 
+144 2 -3 83 
+180 2 152 142 
+53 2 19 53 
+120 0 
+154 2 152 142 
+94 1 -2 
+63 1 -2 
+Constructors: 0
+
+Summary: 4
+1 -3 -2 0 
+org/eclipse/core/internal/utils/FileUtil.safeClose(Ljava/io/InputStream;)V
+PTG:
+Vars:
+2
+$r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/core/internal/utils/FileUtil.safeClose(Ljava/io/OutputStream;)V
+PTG:
+Vars:
+2
+$r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+org/eclipse/core/internal/utils/FileUtil.isPrefixOf(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;)Z
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 1 0 -3 

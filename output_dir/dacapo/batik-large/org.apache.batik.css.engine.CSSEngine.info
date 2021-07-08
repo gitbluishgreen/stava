@@ -1,0 +1,2270 @@
+64
+org/apache/batik/css/engine/CSSEngine.propagateChanges(Lorg/w3c/dom/Node;[IZ)V
+PTG:
+Vars:
+11
+r3 1 -1 
+r9 1 346 
+r0 1 -2 
+r1 1 -2 
+r10 2 468 435 
+r8 3 -3 268 388 
+r7 1 36 
+r2 1 22 
+$r5 1 30 
+$r4 1 338 
+r6 2 -3 268 
+Fields: 4
+338 ArrayObject 346
+-1 styleDeclarationUpdateHandler 30
+-1 valueManagers 338
+30 updatedProperties 36
+Accesses: 9
+96 1 -1 
+337 1 -1 
+131 1 -1 
+117 1 -1 
+152 1 -1 
+138 1 -1 
+29 1 -1 
+30 1 30 
+110 1 -1 
+Functions: 14
+224 1 22 
+162 5 -1 338 36 346 30 
+194 1 22 
+38 5 -1 338 36 346 30 
+460 10 -1 338 -3 435 36 468 388 346 268 30 
+14 1 -2 
+431 1 -2 
+463 2 435 468 
+209 1 22 
+274 5 -1 338 36 346 30 
+244 1 22 
+314 8 -1 -2 338 -3 36 346 268 30 
+442 2 435 468 
+348 1 346 
+Constructors: 0
+
+Summary: 8
+22 468 -1 -3 268 435 388 -2 
+org/apache/batik/css/engine/CSSEngine.getNumberOfProperties()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 valueManagers 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.addMatchingRules(Ljava/util/List;Lorg/apache/batik/css/engine/StyleSheet;Lorg/w3c/dom/Element;Ljava/lang/String;)V
+PTG:
+Vars:
+12
+$r9 1 93 
+r1 1 22 
+r8 1 68 
+r10 1 93 
+$r3 1 144 
+r2 1 -1 
+r5 1 -4 
+r7 1 22 
+r6 1 -5 
+r11 1 22 
+r4 1 -2 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -3 
+16 1 -3 
+160 5 -1 -2 -4 -5 22 
+70 1 68 
+103 3 -4 -5 93 
+119 2 -2 22 
+24 1 22 
+89 1 68 
+141 2 -1 144 
+142 1 22 
+63 1 22 
+Constructors: 0
+
+Summary: 9
+-1 1 -2 2 -3 3 -5 0 -4 
+org/apache/batik/css/engine/CSSEngine.putAuthorProperty(Lorg/apache/batik/css/engine/StyleMap;ILorg/apache/batik/css/engine/value/Value;ZS)V
+PTG:
+Vars:
+4
+r1 1 5 
+r3 1 -1 
+r0 1 -2 
+r2 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+128 2 -2 -4 
+7 1 -2 
+135 1 -2 
+14 1 -2 
+142 1 -2 
+Constructors: 0
+
+Summary: 5
+-1 -2 0 2 -4 
+org/apache/batik/css/engine/CSSEngine.handleSubtreeModified(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+6
+$r1 1 37 
+r5 2 37 64 
+r0 1 -1 
+$r2 1 19 
+r4 1 -2 
+$r3 1 22 
+Fields: 2
+-1 document 19
+-1 removedStylableElementSibling 37
+Accesses: 7
+0 1 -1 
+18 1 -1 
+36 1 -1 
+70 1 -1 
+9 1 -1 
+43 1 -1 
+14 1 -1 
+Functions: 4
+19 1 19 
+57 4 -1 64 19 37 
+60 2 64 37 
+30 4 -1 19 37 22 
+Constructors: 0
+
+Summary: 4
+22 -1 64 -2 
+org/apache/batik/css/engine/CSSEngine.addEventListeners(Lorg/w3c/dom/events/EventTarget;)V
+PTG:
+Vars:
+21
+$r25 1 113 
+$r5 1 78 
+r2 1 -2 
+$r18 1 88 
+$r26 1 138 
+$r21 1 26 
+$r9 1 128 
+$r15 1 8 
+$r3 1 53 
+$r23 1 63 
+r13 1 -2 
+$r20 1 138 
+r0 1 -1 
+$r17 1 63 
+$r14 1 26 
+$r24 1 88 
+$r22 1 38 
+$r19 1 113 
+$r16 1 38 
+$r11 1 153 
+$r7 1 103 
+Fields: 6
+-1 cssNavigableDocumentListener 26
+-1 domNodeRemovedListener 103
+-1 domCharacterDataModifiedListener 153
+-1 domSubtreeModifiedListener 128
+-1 domAttrModifiedListener 53
+-1 domNodeInsertedListener 78
+Accesses: 13
+0 1 -1 
+96 1 -1 
+102 1 -1 
+71 1 -1 
+77 1 -1 
+46 1 -1 
+16 1 -1 
+146 1 -1 
+52 1 -1 
+152 1 -1 
+25 1 -1 
+121 1 -1 
+127 1 -1 
+Functions: 12
+82 2 -2 78 
+68 8 -1 128 53 103 153 26 78 63 
+132 2 128 -2 
+118 8 -1 128 113 53 103 153 26 78 
+57 2 -2 53 
+43 8 -1 128 53 38 103 153 26 78 
+107 2 -2 103 
+13 8 -1 128 53 103 8 153 26 78 
+29 2 -2 26 
+93 8 -1 128 53 103 88 153 26 78 
+157 2 -2 153 
+143 8 -1 128 53 103 153 138 26 78 
+Constructors: 6
+68 63
+118 113
+43 38
+13 8
+93 88
+143 138
+
+Summary: 2
+-1 0 
+org/apache/batik/css/engine/CSSEngine.parseStyleSheet(Lorg/apache/batik/css/engine/StyleSheet;Lorg/w3c/css/sac/InputSource;Ljava/net/URL;)V
+PTG:
+Vars:
+15
+r6 1 -2 
+r0 1 -1 
+$r14 1 111 
+r10 1 -3 
+r5 1 -4 
+$r1 1 4 
+$r11 1 1 
+$r7 1 31 
+$r8 1 31 
+$r3 1 17 
+r12 1 83 
+$r9 1 1 
+r13 1 83 
+$r4 1 1 
+$r2 1 1 
+Fields: 3
+-1 parser 1
+-1 cssConditionFactory 17
+-1 styleSheetDocumentHandler 31
+Accesses: 11
+0 1 -1 
+16 1 -1 
+35 1 31 
+51 1 -1 
+38 1 -1 
+135 1 -1 
+42 1 -1 
+27 1 -1 
+12 1 -1 
+125 1 -1 
+30 1 -1 
+Functions: 9
+114 6 -1 1 17 83 31 111 
+20 2 1 17 
+85 1 83 
+7 2 1 4 
+56 2 1 -3 
+61 1 -2 
+77 1 -2 
+109 1 83 
+46 2 1 31 
+Constructors: 0
+
+Summary: 5
+-1 1 2 -3 0 
+org/apache/batik/css/engine/CSSEngine.addRules(Lorg/w3c/dom/Element;Ljava/lang/String;Lorg/apache/batik/css/engine/StyleMap;Ljava/util/List;S)V
+PTG:
+Vars:
+13
+r11 1 130 
+$r4 1 130 
+r12 1 145 
+r10 1 54 
+$r7 1 39 
+r9 1 39 
+r5 1 -4 
+r1 1 -5 
+r0 1 -1 
+r3 1 -3 
+r2 1 -2 
+$r6 1 180 
+$r8 1 86 
+Fields: 0
+Accesses: 0
+Functions: 18
+98 3 -1 -4 86 
+35 1 -5 
+164 1 145 
+196 1 -4 
+5 4 -1 -2 -3 -5 
+8 1 -5 
+75 1 54 
+140 1 130 
+204 1 -4 
+176 1 145 
+49 1 39 
+82 1 54 
+147 1 145 
+183 2 -4 180 
+56 1 54 
+89 1 54 
+189 1 145 
+126 1 -5 
+Constructors: 0
+
+Summary: 7
+-1 1 -2 -3 3 -5 -4 
+org/apache/batik/css/engine/CSSEngine.removeCSSEngineListener(Lorg/apache/batik/css/engine/CSSEngineListener;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 listeners 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/batik/css/engine/CSSEngine.addCSSEngineListener(Lorg/apache/batik/css/engine/CSSEngineListener;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 listeners 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/batik/css/engine/CSSEngine.nonCSSPresentationalHintUpdated(Lorg/apache/batik/css/engine/CSSStylableElement;Lorg/apache/batik/css/engine/StyleMap;Ljava/lang/String;SLjava/lang/String;)V
+PTG:
+Vars:
+23
+r18 1 85 
+r1 1 -4 
+$r6 1 66 
+r0 1 -1 
+r5 1 -6 
+r24 1 203 
+$r16 1 219 
+$r10 1 -1 
+r19 1 97 
+$r22 2 161 170 
+$r15 1 219 
+$r8 1 291 
+r17 1 76 
+r28 1 297 
+r21 2 152 143 
+$r12 1 155 
+r4 1 -2 
+$r7 1 79 
+$r11 1 155 
+$r13 1 178 
+$r14 1 205 
+r29 1 473 
+r2 1 -3 
+Fields: 7
+79 ArrayObject 85
+291 updatedProperties 297
+-1 styleDeclarationUpdateHandler 291
+-1 userAgent 219
+-1 parser 66
+-1 valueManagers 79
+-1 documentURI 155
+Accesses: 18
+256 1 -1 
+65 1 -1 
+130 1 -1 
+290 1 -1 
+291 1 291 
+228 1 -1 
+261 1 -1 
+166 1 -1 
+332 1 -1 
+364 1 -1 
+78 1 -1 
+241 1 -1 
+246 1 -1 
+154 1 -1 
+218 1 -1 
+348 1 -1 
+125 1 -1 
+62 1 -1 
+Functions: 22
+0 9 -1 66 291 -4 85 297 219 155 79 
+480 8 -1 66 291 85 297 219 155 79 
+66 2 66 -6 
+7 1 -3 
+103 1 -3 
+167 1 155 
+138 1 -1 
+234 2 219 205 
+299 8 -1 66 291 85 297 219 155 79 
+427 1 -3 
+459 1 -3 
+523 10 -1 -2 66 291 85 297 473 219 155 79 
+111 2 97 -3 
+17 1 -3 
+178 1 178 
+213 2 203 205 
+87 9 -1 66 291 85 297 219 155 76 79 
+120 1 -3 
+441 1 -3 
+381 8 -1 66 291 85 297 219 155 79 
+413 1 -3 
+286 9 -1 -2 66 291 85 297 219 155 79 
+Constructors: 1
+213 205
+
+Summary: 8
+-1 473 271 203 76 97 -3 178 
+org/apache/batik/css/engine/CSSEngine.clearComputedValue(Lorg/apache/batik/css/engine/StyleMap;I)V
+PTG:
+Vars:
+4
+r1 1 22 
+r3 1 39 
+r0 1 -2 
+r2 1 22 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+17 1 -2 
+49 1 -2 
+35 1 22 
+11 1 -2 
+43 2 -2 39 
+Constructors: 0
+
+Summary: 3
+22 39 -2 
+org/apache/batik/css/engine/CSSEngine.inlineStyleAttributeUpdated(Lorg/apache/batik/css/engine/CSSStylableElement;Lorg/apache/batik/css/engine/StyleMap;SLjava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+29
+r3 1 -5 
+$r7 1 77 
+$r28 2 176 185 
+r2 1 7 
+$r11 1 1 
+r5 1 -3 
+$r9 1 90 
+$r1 1 1 
+$r14 1 74 
+$r20 1 170 
+r30 1 221 
+$r15 1 1 
+$r36 1 1 
+$r12 1 1 
+$r34 1 223 
+$r22 1 204 
+$r18 1 -1 
+r27 2 167 158 
+r33 1 542 
+r4 1 -2 
+$r13 1 74 
+r0 1 -1 
+$r25 1 237 
+r6 1 -6 
+$r24 1 237 
+$r8 1 74 
+$r19 1 170 
+$r10 1 74 
+$r21 1 193 
+Fields: 7
+1 updatedProperties 7
+-1 styleDeclarationUpdateHandler 1
+-1 userAgent 237
+-1 parser 74
+-1 cssConditionFactory 90
+-1 styleLocalName 204
+-1 documentURI 170
+Accesses: 30
+0 1 -1 
+1 1 1 
+130 1 -1 
+259 1 -1 
+70 1 -1 
+135 1 1 
+264 1 -1 
+73 1 -1 
+203 1 -1 
+140 1 -1 
+396 1 -1 
+145 1 -1 
+274 1 -1 
+403 1 -1 
+85 1 -1 
+279 1 -1 
+89 1 -1 
+417 1 -1 
+98 1 -1 
+103 1 1 
+424 1 -1 
+169 1 -1 
+106 1 -1 
+236 1 -1 
+110 1 -1 
+181 1 -1 
+246 1 -1 
+438 1 -1 
+119 1 -1 
+382 1 -1 
+Functions: 24
+193 1 193 
+293 1 -5 
+549 8 -1 1 7 74 90 170 204 237 
+231 2 221 223 
+9 8 -1 1 7 74 90 170 204 237 
+331 1 -3 
+491 1 -3 
+523 1 -3 
+301 8 -1 1 7 74 90 170 204 237 
+80 2 74 77 
+592 10 -1 1 -2 7 74 90 170 204 237 542 
+114 3 1 7 74 
+373 9 -1 1 -2 7 74 90 170 204 237 
+182 1 170 
+153 1 -1 
+505 1 -3 
+314 1 -3 
+60 1 -6 
+252 2 237 223 
+93 2 74 90 
+125 2 -6 74 
+445 8 -1 1 7 74 90 170 204 237 
+477 1 -3 
+605 0 
+Constructors: 1
+231 223
+
+Summary: 5
+221 -1 193 -5 542 
+org/apache/batik/css/engine/CSSEngine.handleAttrModified(Lorg/w3c/dom/Element;Lorg/w3c/dom/Attr;SLjava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+20
+r0 1 -2 
+r5 2 33 42 
+$r13 1 123 
+r3 1 -3 
+$r14 1 132 
+r4 1 25 
+$r16 2 33 42 
+r6 1 -2 
+r19 2 218 239 
+$r17 1 123 
+$r9 1 184 
+$r11 1 99 
+r1 1 -6 
+$r18 1 184 
+r7 1 63 
+$r10 1 73 
+r2 1 -5 
+$r12 1 132 
+r8 1 -1 
+$r15 1 73 
+Fields: 5
+-1 selectorAttributes 184
+-1 styleNamespaceURI 73
+-1 styleLocalName 99
+-1 nonCSSPresentationalHints 123
+-1 nonCSSPresentationalHintsNamespaceURI 132
+Accesses: 9
+145 1 -1 
+98 1 -1 
+131 1 -1 
+86 1 -1 
+183 1 -1 
+72 1 -1 
+122 1 -1 
+155 1 -1 
+190 1 -1 
+Functions: 16
+32 1 -3 
+96 3 33 99 42 
+231 8 -1 99 132 184 73 218 123 239 
+8 2 -5 -6 
+41 1 -3 
+234 2 218 239 
+143 2 132 25 
+210 7 -1 -2 99 132 184 73 123 
+19 1 -3 
+179 11 -1 -2 33 99 132 -6 184 73 42 123 63 
+84 2 25 73 
+213 1 -2 
+118 10 -1 -2 99 132 -5 -6 184 73 123 63 
+55 1 -2 
+156 3 33 42 123 
+191 3 33 184 42 
+Constructors: 0
+
+Summary: 11
+-1 63 42 -2 239 -6 33 -3 -5 218 25 
+org/apache/batik/css/engine/CSSEngine.handleCharacterDataModified(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+5
+$r3 1 17 
+r2 1 -1 
+$r1 1 1 
+r0 1 -2 
+$r4 1 20 
+Fields: 1
+-1 document 17
+Accesses: 2
+16 1 -1 
+12 1 -1 
+Functions: 3
+0 1 -2 
+17 1 17 
+28 3 -1 17 20 
+Constructors: 0
+
+Summary: 4
+1 -1 -2 20 
+org/apache/batik/css/engine/CSSEngine.setAlternateStyleSheet(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/batik/css/engine/CSSEngine.getStyleSheetNodes()Ljava/util/List;
+PTG:
+Vars:
+13
+r10 1 74 
+$r6 1 1 
+$r4 1 19 
+_ret 1 1 
+$r11 1 83 
+$r3 1 8 
+r0 1 -1 
+$r1 1 1 
+$r8 1 59 
+$r5 1 31 
+$r2 1 1 
+$r7 1 1 
+r9 1 59 
+Fields: 3
+-1 styleSheetNodes 1
+-1 selectorAttributes 83
+-1 document 31
+Accesses: 8
+0 1 -1 
+97 1 -1 
+82 1 -1 
+37 1 -1 
+54 1 -1 
+26 1 -1 
+30 1 -1 
+15 1 -1 
+Functions: 7
+34 4 -1 1 83 31 
+68 1 59 
+38 1 1 
+23 1 19 
+55 1 1 
+88 5 -1 1 83 74 31 
+12 1 8 
+Constructors: 2
+23 19
+12 8
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.getShorthandManagers()[Lorg/apache/batik/css/engine/value/ShorthandManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 shorthandManagers 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.getComputedStyle(Lorg/apache/batik/css/engine/CSSStylableElement;Ljava/lang/String;I)Lorg/apache/batik/css/engine/value/Value;
+PTG:
+Vars:
+13
+$r9 1 108 
+r10 2 7 20 
+r1 1 -3 
+r2 1 37 
+r12 3 164 196 130 
+_ret 3 164 196 130 
+$r4 1 56 
+r6 1 67 
+r0 1 -2 
+$r7 1 196 
+r5 1 61 
+r11 2 37 96 
+r3 1 -1 
+Fields: 2
+-1 valueManagers 56
+56 ArrayObject 61
+Accesses: 1
+55 1 -1 
+Functions: 18
+0 2 -2 -3 
+230 2 20 7 
+39 2 20 7 
+136 2 20 7 
+202 2 196 37 
+14 5 -1 -2 -3 56 61 
+79 1 61 
+143 2 20 7 
+176 5 130 20 164 196 7 
+211 3 130 196 164 
+149 9 -1 96 -2 -3 20 37 7 56 61 
+183 2 20 7 
+89 1 61 
+26 4 -2 -3 20 7 
+122 4 -1 67 56 61 
+219 3 20 196 7 
+31 2 20 7 
+63 1 -2 
+Constructors: 1
+202 196
+
+Summary: 5
+-1 1 -2 -3 0 
+org/apache/batik/css/engine/CSSEngine.parseStyleDeclaration(Lorg/apache/batik/css/engine/CSSStylableElement;Ljava/lang/String;)Lorg/apache/batik/css/engine/StyleDeclaration;
+PTG:
+Vars:
+25
+r22 1 136 
+$r26 1 152 
+$r8 1 1 
+$r13 1 204 
+_ret 1 204 
+$r21 1 120 
+$r9 1 20 
+$r7 1 20 
+$r2 1 1 
+r27 2 85 94 
+r10 1 -3 
+$r16 1 -1 
+r3 1 -2 
+$r1 1 4 
+$r18 1 97 
+r0 1 -1 
+$r12 1 1 
+$r5 1 20 
+$r28 2 112 103 
+$r4 1 23 
+$r19 1 97 
+$r6 1 36 
+$r25 1 152 
+$r11 1 20 
+$r23 1 138 
+Fields: 6
+1 styleDeclaration 204
+-1 userAgent 152
+-1 parser 20
+-1 styleDeclarationBuilder 1
+-1 cssConditionFactory 36
+-1 documentURI 97
+Accesses: 21
+0 1 -1 
+96 1 -1 
+161 1 -1 
+194 1 -1 
+35 1 -1 
+69 1 -1 
+200 1 -1 
+201 1 1 
+74 1 -1 
+11 1 1 
+44 1 -1 
+108 1 -1 
+174 1 -1 
+16 1 -1 
+48 1 -1 
+19 1 -1 
+179 1 -1 
+151 1 -1 
+57 1 -1 
+189 1 -1 
+31 1 -1 
+Functions: 10
+81 1 -1 
+146 2 136 138 
+52 3 1 20 204 
+39 2 20 36 
+167 2 152 138 
+8 1 4 
+120 1 120 
+26 2 20 23 
+109 1 97 
+62 2 -3 20 
+Constructors: 2
+146 138
+8 4
+
+Summary: 4
+136 120 -1 -3 
+org/apache/batik/css/engine/CSSEngine.setUserAgentStyleSheet(Lorg/apache/batik/css/engine/StyleSheet;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/batik/css/engine/CSSEngine.invalidateProperties(Lorg/w3c/dom/Node;[I[ZZ)V
+PTG:
+Vars:
+14
+$r10 1 192 
+r0 1 -2 
+r3 1 -1 
+r4 1 34 
+r2 1 22 
+r12 2 210 192 
+r6 1 -3 
+r1 1 -2 
+r9 1 261 
+r7 1 170 
+r11 1 126 
+r13 1 313 
+r8 1 252 
+r5 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 14
+163 1 126 
+133 2 -2 126 
+232 3 192 210 170 
+362 3 -1 -2 313 
+204 1 192 
+14 1 -2 
+175 1 22 
+49 2 34 -4 
+275 2 261 252 
+245 2 192 210 
+119 2 -1 -2 
+185 1 22 
+30 1 -1 
+254 1 170 
+Constructors: 0
+
+Summary: 13
+22 -1 34 126 -2 170 210 313 252 -3 192 -4 261 
+org/apache/batik/css/engine/CSSEngine.getCSSEngineUserAgent()Lorg/apache/batik/css/engine/CSSEngineUserAgent;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 userAgent 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.parsePropertyValue(Lorg/apache/batik/css/engine/CSSStylableElement;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/batik/css/engine/value/Value;
+PTG:
+Vars:
+21
+$r9 1 -1 
+$r6 1 30 
+$r24 2 100 91 
+$r2 1 16 
+r1 1 -3 
+r3 1 22 
+_ret 1 198 
+r23 2 73 82 
+$r11 1 85 
+$r13 1 108 
+r4 1 -2 
+r14 1 132 
+r0 1 -1 
+$r19 1 198 
+$r18 1 148 
+r20 1 39 
+$r17 1 148 
+r5 1 -4 
+$r15 1 134 
+$r10 1 85 
+r21 1 51 
+Fields: 5
+16 ArrayObject 22
+-1 userAgent 148
+-1 parser 30
+-1 valueManagers 16
+-1 documentURI 85
+Accesses: 13
+96 1 -1 
+170 1 -1 
+15 1 -1 
+175 1 -1 
+147 1 -1 
+84 1 -1 
+55 1 -1 
+185 1 -1 
+26 1 -1 
+60 1 -1 
+29 1 -1 
+157 1 -1 
+190 1 -1 
+Functions: 9
+0 7 -1 16 -3 148 85 22 30 
+97 1 85 
+163 2 148 134 
+68 1 -1 
+196 1 22 
+41 7 -1 16 148 85 22 39 30 
+108 1 108 
+30 2 -4 30 
+142 2 132 134 
+Constructors: 1
+142 134
+
+Summary: 5
+-1 2 108 132 0 
+org/apache/batik/css/engine/CSSEngine.handleNodeRemoved(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 25 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+10 1 -1 
+28 1 -1 
+Functions: 3
+0 2 -1 -2 
+33 2 -1 -2 
+24 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/batik/css/engine/CSSEngine.findSelectorAttributes(Ljava/util/Set;Lorg/apache/batik/css/engine/StyleSheet;)V
+PTG:
+Vars:
+10
+r2 1 -1 
+r4 1 -2 
+r0 1 -3 
+r9 1 20 
+r5 1 20 
+r1 1 20 
+r6 1 68 
+r8 1 93 
+$r3 1 130 
+$r7 1 93 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -3 
+128 1 20 
+22 1 20 
+70 1 68 
+89 1 68 
+106 2 -2 93 
+14 1 -3 
+63 1 20 
+127 2 -1 130 
+143 3 -1 -2 20 
+Constructors: 0
+
+Summary: 5
+-1 -3 1 -2 0 
+org/apache/batik/css/engine/CSSEngine.getFontSizeIndex()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.sortRules(Ljava/util/List;Lorg/w3c/dom/Element;Ljava/lang/String;)V
+PTG:
+Vars:
+11
+r11 1 -1 
+r8 1 86 
+r10 1 -4 
+r12 1 170 
+$r4 1 43 
+r0 1 -2 
+r6 1 58 
+r9 1 -3 
+r5 1 43 
+$r7 1 86 
+$r1 1 178 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -2 
+96 3 -3 -4 86 
+82 1 58 
+162 1 -2 
+194 2 -2 170 
+53 1 43 
+183 2 -2 178 
+40 1 -2 
+108 1 86 
+63 1 58 
+175 1 -2 
+Constructors: 0
+
+Summary: 7
+-1 -3 1 -2 0 2 -4 
+org/apache/batik/css/engine/CSSEngine.getShorthandIndex(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 shorthandIndexes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/batik/css/engine/CSSEngine.getParentCSSStylableElement(Lorg/w3c/dom/Element;)Lorg/apache/batik/css/engine/CSSStylableElement;
+PTG:
+Vars:
+2
+r2 2 4 25 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+21 2 4 25 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/batik/css/engine/CSSEngine.importCascadedStyleMaps(Lorg/w3c/dom/Element;Lorg/apache/batik/css/engine/CSSEngine;Lorg/w3c/dom/Element;)V
+PTG:
+Vars:
+16
+r1 1 -4 
+$r5 2 114 159 
+r13 1 85 
+r2 1 -1 
+r3 1 -3 
+r0 1 -2 
+r10 1 -2 
+r11 1 -4 
+$r6 1 45 
+$r8 1 45 
+r15 2 114 159 
+r14 2 108 152 
+$r4 2 108 152 
+$r7 1 45 
+r12 1 26 
+r9 1 75 
+Fields: 2
+-1 pseudoElementNames 45
+45 ArrayObject 75
+Accesses: 3
+51 1 -1 
+68 1 -1 
+44 1 -1 
+Functions: 11
+144 8 -1 114 -3 152 75 108 45 159 
+19 2 -2 -3 
+147 2 152 108 
+39 2 -4 26 
+104 1 -4 
+121 2 114 159 
+154 2 114 159 
+77 3 -2 -3 75 
+93 3 -4 85 75 
+110 1 -2 
+31 1 26 
+Constructors: 0
+
+Summary: 7
+-1 1 -2 2 -3 0 -4 
+org/apache/batik/css/engine/CSSEngine.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/batik/css/engine/CSSEngine.getPropertyIndex(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 indexes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/batik/css/engine/CSSEngine.findStyleSheetNodes(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+$r2 1 8 
+r0 1 -2 
+r3 2 22 36 
+Fields: 1
+-1 styleSheetNodes 8
+Accesses: 1
+7 1 -1 
+Functions: 4
+32 2 36 22 
+18 1 -2 
+12 2 -2 8 
+29 4 -1 36 22 8 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/batik/css/engine/CSSEngine.disposeStyleMaps(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+4
+$r2 1 -2 
+r0 1 -2 
+r3 2 22 46 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+18 1 -2 
+39 3 -1 22 46 
+42 2 22 46 
+27 2 22 46 
+13 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/batik/css/engine/CSSEngine.setCSSEngineUserAgent(Lorg/apache/batik/css/engine/CSSEngineUserAgent;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/batik/css/engine/CSSEngine.parseStyleSheet(Lorg/apache/batik/css/engine/StyleSheet;Ljava/net/URL;)V
+PTG:
+Vars:
+19
+$r6 1 103 
+$r3 1 79 
+$r14 1 -1 
+$r18 1 163 
+$r4 1 90 
+r17 1 161 
+$r8 1 67 
+r0 1 -3 
+r29 2 129 138 
+$r20 1 177 
+r5 1 -2 
+r25 1 67 
+r1 1 -1 
+$r2 1 61 
+$r15 1 143 
+$r9 1 61 
+$r7 1 108 
+$r16 1 149 
+$r21 1 177 
+Fields: 3
+-1 userAgent 177
+-1 cssContext 90
+-1 documentURI 61
+Accesses: 7
+176 1 -1 
+36 1 -1 
+71 1 -1 
+89 1 -1 
+186 1 -1 
+60 1 -1 
+46 1 -1 
+Functions: 14
+96 3 67 90 79 
+192 2 177 163 
+7 0 
+75 2 67 61 
+107 1 -3 
+171 2 161 163 
+111 2 103 108 
+143 1 143 
+115 7 -1 177 -2 -3 103 90 61 
+52 0 
+84 2 -3 79 
+148 1 -3 
+125 1 -1 
+31 0 
+Constructors: 4
+84 79
+75 67
+171 163
+111 103
+
+Summary: 14
+19 -3 103 67 14 -1 1 23 -2 161 143 79 7 0 
+org/apache/batik/css/engine/CSSEngine.getColorIndex()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.parseStyleSheet(Ljava/lang/String;Ljava/net/URL;Ljava/lang/String;)Lorg/apache/batik/css/engine/StyleSheet;
+PTG:
+Vars:
+8
+$r0 1 0 
+r7 1 -3 
+$r5 1 16 
+r3 1 -4 
+$r4 1 12 
+r2 1 -1 
+_ret 1 0 
+r6 1 -2 
+Fields: 1
+-1 parser 12
+Accesses: 5
+100 1 -1 
+57 1 -1 
+11 1 -1 
+45 1 -1 
+110 1 -1 
+Functions: 9
+129 5 -1 0 -2 -3 12 
+4 1 0 
+116 0 
+21 2 0 16 
+69 0 
+58 0 
+12 2 -4 12 
+29 0 
+95 0 
+Constructors: 1
+4 0
+
+Summary: 9
+85 -1 1 -2 69 2 -3 0 -4 
+org/apache/batik/css/engine/CSSEngine.getCSSParentNode(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+3
+$r1 1 18 
+r0 1 -2 
+_ret 1 18 
+Fields: 0
+Accesses: 0
+Functions: 2
+17 1 -2 
+8 0 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/batik/css/engine/CSSEngine.removeEventListeners(Lorg/w3c/dom/events/EventTarget;)V
+PTG:
+Vars:
+10
+$r2 1 29 
+$r3 1 42 
+$r8 1 14 
+r0 1 -1 
+$r4 1 55 
+$r6 1 81 
+r7 1 -2 
+$r5 1 68 
+$r9 1 14 
+r1 1 -2 
+Fields: 6
+-1 cssNavigableDocumentListener 14
+-1 domNodeRemovedListener 55
+-1 domCharacterDataModifiedListener 81
+-1 domSubtreeModifiedListener 68
+-1 domAttrModifiedListener 29
+-1 domNodeInsertedListener 42
+Accesses: 7
+0 1 -1 
+80 1 -1 
+67 1 -1 
+54 1 -1 
+41 1 -1 
+28 1 -1 
+13 1 -1 
+Functions: 6
+17 2 -2 14 
+33 2 -2 29 
+85 2 -2 81 
+72 2 -2 68 
+59 2 -2 55 
+46 2 -2 42 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/batik/css/engine/CSSEngine.hasStyleSheetNode(Lorg/w3c/dom/Node;)Z
+PTG:
+Vars:
+3
+r2 2 32 13 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+18 3 -1 32 13 
+9 1 -2 
+28 2 32 13 
+Constructors: 0
+
+Summary: 4
+-1 32 -2 13 
+org/apache/batik/css/engine/CSSEngine.getLineHeightIndex()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.getCSSContext()Lorg/apache/batik/css/engine/CSSContext;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 cssContext 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.getDocument()Lorg/w3c/dom/Document;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 document 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.setUserStyleSheet(Lorg/apache/batik/css/engine/StyleSheet;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.parseStyleSheet(Lorg/w3c/css/sac/InputSource;Ljava/net/URL;Ljava/lang/String;)Lorg/apache/batik/css/engine/StyleSheet;
+PTG:
+Vars:
+18
+$r0 1 0 
+r7 1 -3 
+$r20 2 60 69 
+r2 1 -1 
+r6 1 -2 
+$r13 1 77 
+_ret 1 0 
+$r10 1 54 
+r14 1 93 
+$r15 1 95 
+r19 2 51 42 
+$r11 1 54 
+$r8 1 -1 
+$r17 1 109 
+$r18 1 109 
+$r4 1 12 
+$r5 1 16 
+r3 1 -4 
+Fields: 3
+-1 userAgent 109
+-1 parser 12
+-1 documentURI 54
+Accesses: 5
+65 1 -1 
+53 1 -1 
+118 1 -1 
+11 1 -1 
+108 1 -1 
+Functions: 9
+66 1 54 
+4 1 0 
+21 2 0 16 
+37 1 -1 
+103 2 93 95 
+12 2 -4 12 
+124 2 109 95 
+29 7 -1 0 -2 -3 54 12 109 
+77 1 77 
+Constructors: 2
+4 0
+103 95
+
+Summary: 8
+93 -1 1 77 -2 -3 0 -4 
+org/apache/batik/css/engine/CSSEngine.dispose()V
+PTG:
+Vars:
+6
+$r5 1 7 
+$r2 1 10 
+$r3 1 7 
+r0 1 -1 
+$r4 1 7 
+$r1 1 7 
+Fields: 1
+-1 document 7
+Accesses: 3
+18 1 -1 
+6 1 -1 
+29 1 -1 
+Functions: 4
+2 2 -1 7 
+36 2 -1 7 
+7 1 7 
+15 3 -1 7 10 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.getCascadedStyleMap(Lorg/apache/batik/css/engine/CSSStylableElement;Ljava/lang/String;)Lorg/apache/batik/css/engine/StyleMap;
+PTG:
+Vars:
+89
+$r47 1 236 
+$r8 1 590 
+$r45 1 227 
+$r66 1 364 
+$r25 1 539 
+r82 2 338 329 
+$r65 1 341 
+r99 1 815 
+$r33 1 16 
+$r26 1 107 
+r85 1 447 
+$r13 1 637 
+r88 1 493 
+$r50 1 253 
+$r28 1 190 
+r79 1 187 
+$r36 1 -1 
+$r69 1 397 
+r86 1 454 
+$r67 1 381 
+$r42 2 775 411 
+$r64 1 341 
+$r20 1 470 
+$r53 1 267 
+$r7 1 438 
+$r9 1 590 
+$r11 1 624 
+$r94 2 714 723 
+$r38 2 341 708 
+$r41 1 761 
+$r27 1 101 
+$r72 1 411 
+$r54 1 270 
+$r29 1 195 
+$r39 1 731 
+$r56 1 276 
+$r90 1 551 
+$r12 2 621 190 
+$r10 1 598 
+$r14 2 621 190 
+$r62 1 310 
+$r57 1 288 
+$r31 1 55 
+$r49 1 244 
+$r51 1 250 
+$r1 1 5 
+r0 1 -1 
+$r60 1 299 
+$r52 1 262 
+_ret 1 5 
+$r23 1 527 
+$r55 1 279 
+$r19 1 646 
+$r6 1 101 
+$r22 1 493 
+$r17 2 621 190 
+$r40 1 590 
+r80 1 205 
+r91 1 610 
+r5 1 -2 
+$r61 1 302 
+$r15 1 646 
+r93 2 696 705 
+$r18 2 621 190 
+r77 1 155 
+$r59 1 296 
+$r83 2 356 347 
+r89 1 510 
+r78 1 164 
+$r30 1 61 
+r100 1 855 
+$r4 1 55 
+$r37 2 341 708 
+$r43 2 775 411 
+$r32 1 22 
+$r3 1 16 
+r76 1 125 
+$r71 1 411 
+$r46 1 224 
+$r16 1 646 
+$r58 1 293 
+$r63 1 316 
+r68 1 395 
+r98 1 801 
+$r24 1 535 
+r96 1 759 
+$r48 1 241 
+$r44 1 -1 
+r21 1 -3 
+Fields: 15
+-1 alternateStyleSheet 539
+-1 userAgent 411
+-1 userAgent 775
+-1 cssContext 438
+-1 userStyleSheet 55
+-1 styleNamespaceURI 598
+-1 parser 190
+-1 parser 621
+-1 styleDeclarationDocumentHandler 646
+-1 userAgentStyleSheet 16
+-1 styleLocalName 590
+-1 cssConditionFactory 637
+-1 nonCSSPresentationalHints 101
+-1 documentURI 341
+-1 documentURI 708
+Accesses: 36
+707 1 -1 
+645 1 -1 
+774 1 -1 
+73 1 -1 
+651 1 646 
+589 1 -1 
+654 1 -1 
+15 1 -1 
+719 1 -1 
+784 1 -1 
+658 1 -1 
+340 1 -1 
+597 1 -1 
+917 1 -1 
+601 1 -1 
+410 1 -1 
+538 1 -1 
+922 1 -1 
+667 1 -1 
+352 1 -1 
+97 1 -1 
+34 1 -1 
+100 1 -1 
+420 1 -1 
+932 1 -1 
+741 1 -1 
+166 1 -1 
+678 1 -1 
+937 1 -1 
+683 1 646 
+620 1 -1 
+437 1 -1 
+54 1 -1 
+632 1 -1 
+636 1 -1 
+189 1 -1 
+Functions: 78
+0 16 -1 708 101 646 775 621 590 16 341 438 598 55 539 411 637 190 
+640 3 621 637 190 
+896 1 5 
+257 1 253 
+769 2 759 761 
+517 1 510 
+262 2 262 187 
+10 1 5 
+906 1 5 
+267 1 267 
+525 1 510 
+273 2 250 270 
+146 1 125 
+405 2 395 397 
+533 1 510 
+662 3 646 621 190 
+790 3 775 761 411 
+279 1 279 
+535 2 535 539 
+26 1 22 
+283 1 279 
+795 1 -2 
+157 1 155 
+288 2 288 296 
+673 3 610 621 190 
+291 1 -1 
+548 17 -1 708 101 646 775 551 621 590 16 341 438 598 55 539 411 637 190 
+293 1 293 
+549 1 510 
+167 2 164 101 
+40 19 -1 -2 -3 708 101 646 775 621 590 16 341 438 598 22 55 539 411 637 190 
+808 1 801 
+426 2 411 397 
+299 1 299 
+305 2 276 302 
+51 20 -1 -2 -3 708 101 5 646 775 621 590 16 341 438 598 22 55 539 411 637 190 
+691 1 -1 
+180 1 155 
+438 2 -2 438 
+822 1 815 
+567 20 -1 -2 -3 708 101 646 775 621 590 16 341 438 598 470 55 539 411 637 190 510 
+313 2 -1 310 
+190 2 195 190 
+65 1 61 
+193 1 155 
+321 1 316 
+449 1 447 
+324 1 -1 
+839 1 815 
+456 1 454 
+586 20 -1 -2 -3 708 101 5 646 775 621 590 16 341 438 598 470 55 539 411 637 190 
+79 19 -1 -2 -3 708 101 646 775 621 590 16 341 438 598 55 539 411 637 61 190 
+720 2 708 341 
+848 1 815 
+596 3 -2 598 590 
+214 3 164 107 205 
+857 1 815 
+474 1 470 
+731 1 731 
+92 20 -1 -2 -3 708 101 5 646 775 621 590 16 341 438 598 55 539 411 637 61 190 
+353 1 341 
+866 1 5 
+227 1 227 
+612 1 610 
+231 1 227 
+489 1 454 
+236 2 -1 236 
+364 1 364 
+241 1 241 
+114 18 -1 708 101 5 646 775 107 621 590 16 341 438 598 55 539 411 637 190 
+627 3 624 621 190 
+119 1 -2 
+247 2 224 244 
+503 1 493 
+887 2 5 855 
+379 1 155 
+253 1 253 
+127 1 125 
+Constructors: 10
+65 61
+257 253
+769 761
+114 107
+405 397
+231 227
+10 5
+26 22
+474 470
+283 279
+
+Summary: 13
+22 61 395 -1 1 731 107 0 364 470 -3 759 293 
+org/apache/batik/css/engine/CSSEngine.getValueManagers()[Lorg/apache/batik/css/engine/value/ValueManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 valueManagers 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.getPropertyName(I)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r2 1 5 
+$r3 1 6 
+$r1 1 1 
+_ret 1 6 
+r0 1 -1 
+Fields: 2
+1 ArrayObject 5
+-1 valueManagers 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.parseStyleSheet(Ljava/net/URL;Ljava/lang/String;)Lorg/apache/batik/css/engine/StyleSheet;
+PTG:
+Vars:
+7
+r2 1 -1 
+$r5 1 14 
+r3 1 -3 
+$r4 1 10 
+r6 1 -2 
+_ret 1 0 
+$r0 1 0 
+Fields: 1
+-1 parser 10
+Accesses: 5
+98 1 -1 
+55 1 -1 
+9 1 -1 
+43 1 -1 
+108 1 -1 
+Functions: 9
+114 0 
+19 2 0 14 
+67 0 
+4 1 0 
+56 0 
+10 2 -3 10 
+27 0 
+124 4 -1 0 -2 10 
+93 0 
+Constructors: 1
+4 0
+
+Summary: 6
+67 -1 -2 -3 83 0 
+org/apache/batik/css/engine/CSSEngine.getCSSFirstChild(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+3
+$r1 1 18 
+_ret 1 18 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+17 1 -2 
+8 0 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/batik/css/engine/CSSEngine.getCSSNextSibling(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 18 
+$r1 1 18 
+Fields: 0
+Accesses: 0
+Functions: 2
+17 1 -2 
+8 0 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/batik/css/engine/CSSEngine.handleNodeInserted(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+5
+$r1 1 15 
+r0 1 -1 
+$r2 1 18 
+r3 1 -2 
+r4 2 43 60 
+Fields: 1
+-1 document 15
+Accesses: 2
+10 1 -1 
+14 1 -1 
+Functions: 6
+0 3 -1 -2 15 
+53 4 -1 43 60 15 
+39 1 -2 
+56 2 43 60 
+26 3 -1 18 15 
+15 1 15 
+Constructors: 0
+
+Summary: 5
+43 -1 60 18 -2 
+org/apache/batik/css/engine/CSSEngine.mediaMatch(Lorg/w3c/css/sac/SACMediaList;)Z
+PTG:
+Vars:
+11
+$r5 1 1 
+$r6 1 1 
+r0 1 -1 
+$r4 1 48 
+$r3 1 1 
+$r8 1 100 
+$r9 1 1 
+r2 1 -2 
+$r1 1 1 
+$r7 1 84 
+$r10 1 110 
+Fields: 1
+-1 media 1
+Accesses: 5
+0 1 -1 
+67 1 -1 
+105 1 -1 
+11 1 -1 
+79 1 -1 
+Functions: 11
+48 1 48 
+80 1 1 
+98 1 -2 
+68 1 1 
+84 1 84 
+100 2 100 110 
+37 1 -2 
+23 1 -2 
+106 1 1 
+12 1 1 
+46 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/batik/css/engine/CSSEngine.getFontFaces()Ljava/util/List;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 fontFaces 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/css/engine/CSSEngine.setMedia(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+$r3 1 6 
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+Fields: 1
+-1 parser 2
+Accesses: 2
+1 1 -1 
+11 1 -1 
+Functions: 4
+33 0 
+2 2 -2 2 
+18 0 
+57 0 
+Constructors: 0
+
+Summary: 4
+47 33 -1 0 
+org/apache/batik/css/engine/CSSEngine.<init>(Lorg/w3c/dom/Document;Ljava/net/URL;Lorg/apache/batik/css/parser/ExtendedParser;[Lorg/apache/batik/css/engine/value/ValueManager;[Lorg/apache/batik/css/engine/value/ShorthandManager;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Lorg/apache/batik/css/engine/CSSContext;)V
+PTG:
+Vars:
+42
+$r35 1 337 
+$r1 1 20 
+$r29 1 446 
+r40 1 452 
+$r37 1 205 
+r19 1 -6 
+$r33 1 336 
+r12 1 -9 
+r10 1 -7 
+$r5 1 67 
+r9 1 -4 
+r15 1 -14 
+r17 1 -5 
+$r24 1 485 
+r38 1 202 
+$r25 1 485 
+$r21 1 473 
+$r31 1 401 
+r13 1 -10 
+$r41 1 522 
+r0 1 -1 
+r8 1 -3 
+$r36 1 196 
+r11 1 -8 
+$r20 1 299 
+r39 1 407 
+$r2 1 31 
+$r23 1 485 
+$r22 1 541 
+$r34 1 329 
+$r6 1 74 
+$r4 1 55 
+$r26 1 506 
+r7 1 -2 
+$r3 1 43 
+$r16 1 140 
+r14 1 -11 
+$r27 1 359 
+$r18 1 163 
+$r30 2 410 455 
+$r32 1 410 
+r28 1 -13 
+Fields: 11
+-1 cssContext 473
+-1 ALL_PROPERTIES 541
+-1 shorthandIndexes 329
+-1 document 485
+-1 nonCSSPresentationalHints 410
+-1 nonCSSPresentationalHints 455
+-1 indexes 205
+-5 ArrayObject 196
+-5 ArrayObject 401
+-6 ArrayObject 336
+-6 ArrayObject 446
+Accesses: 41
+128 1 -1 
+514 1 -1 
+260 1 -1 
+6 1 -1 
+454 1 -1 
+263 1 -1 
+136 1 -1 
+328 1 -1 
+11 1 -1 
+204 1 -1 
+524 1 -1 
+77 1 -1 
+16 1 -1 
+82 1 -1 
+87 1 -1 
+215 1 -1 
+472 1 -1 
+409 1 -1 
+154 1 -1 
+27 1 -1 
+92 1 -1 
+284 1 -1 
+540 1 -1 
+98 1 -1 
+484 1 -1 
+39 1 -1 
+104 1 -1 
+172 1 -1 
+236 1 -1 
+110 1 -1 
+239 1 -1 
+495 1 -1 
+178 1 -1 
+51 1 -1 
+116 1 -1 
+308 1 -1 
+373 1 -1 
+122 1 -1 
+314 1 -1 
+379 1 -1 
+63 1 -1 
+Functions: 27
+1 8 -1 485 455 473 329 410 541 205 
+67 1 67 
+196 1 196 
+518 8 -1 485 455 473 329 410 541 205 
+71 1 67 
+460 3 452 455 410 
+271 1 202 
+527 8 -1 485 455 473 329 410 541 205 
+336 1 336 
+401 1 401 
+212 2 202 205 
+151 3 -10 -11 140 
+24 1 20 
+344 2 337 329 
+473 1 473 
+223 1 202 
+415 2 407 410 
+36 9 -1 485 455 473 329 410 541 205 31 
+169 1 163 
+48 9 -1 485 455 473 329 410 43 541 205 
+305 1 299 
+370 1 359 
+502 8 -1 485 455 473 329 410 541 205 
+247 1 202 
+60 9 -1 485 55 455 473 329 410 541 205 
+446 1 446 
+511 9 -1 485 455 473 329 506 410 541 205 
+Constructors: 11
+48 43
+1 -1
+305 299
+370 359
+36 31
+71 67
+151 140
+24 20
+169 163
+60 55
+511 506
+
+Summary: 14
+8 7 9 6 12 11 5 3 4 67 -1 1 2 0 
+org/apache/batik/css/engine/CSSEngine.firePropertiesChangedEvent(Lorg/w3c/dom/Element;[I)V
+PTG:
+Vars:
+10
+r5 1 7 
+$r3 1 7 
+r0 1 -1 
+$r1 1 4 
+$r2 1 1 
+$r6 1 28 
+$r10 1 53 
+r7 1 -2 
+$r4 1 7 
+r8 1 -3 
+Fields: 2
+7 ArrayObject 53
+-1 listeners 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 2 1 4 
+35 5 -1 1 -2 -3 28 
+56 2 53 28 
+Constructors: 1
+35 28
+
+Summary: 6
+28 7 53 -1 -3 -2 
+org/apache/batik/css/engine/CSSEngine.setMainProperties(Lorg/apache/batik/css/engine/CSSStylableElement;Lorg/apache/batik/css/engine/CSSEngine$MainPropertyReceiver;Ljava/lang/String;Ljava/lang/String;Z)V
+PTG:
+Vars:
+19
+r1 1 -2 
+r0 1 -1 
+r6 1 -4 
+r5 1 -3 
+$r24 1 18 
+$r18 1 137 
+$r3 1 6 
+$r10 1 73 
+$r26 1 18 
+$r11 1 73 
+$r25 1 123 
+r2 1 -5 
+$r13 1 96 
+r14 1 121 
+$r9 1 -1 
+r19 1 16 
+$r17 1 137 
+$r23 2 79 88 
+r22 2 61 70 
+Fields: 3
+-1 userAgent 137
+-1 parser 6
+-1 documentURI 73
+Accesses: 12
+48 1 -1 
+2 1 -1 
+146 1 -1 
+179 1 -1 
+84 1 -1 
+164 1 -1 
+5 1 -1 
+72 1 -1 
+136 1 -1 
+43 1 -1 
+174 1 -1 
+159 1 -1 
+Functions: 8
+96 1 96 
+131 2 121 123 
+36 3 16 18 -4 
+85 1 73 
+6 2 -5 6 
+24 6 -1 18 -3 6 137 73 
+56 1 -1 
+152 2 137 123 
+Constructors: 2
+131 123
+24 18
+
+Summary: 6
+16 -1 121 -3 96 18 
+org/apache/batik/css/engine/CSSEngine.parseStyleSheet(Lorg/apache/batik/css/engine/StyleSheet;Ljava/lang/String;Ljava/net/URL;)V
+PTG:
+Vars:
+14
+r5 1 -4 
+$r8 1 45 
+$r3 1 6 
+r1 1 -2 
+$r2 1 2 
+r15 2 40 31 
+$r9 1 51 
+r0 1 -1 
+r4 1 -3 
+$r6 1 -1 
+$r11 1 69 
+$r13 1 83 
+$r14 1 83 
+r10 1 67 
+Fields: 1
+-1 userAgent 83
+Accesses: 2
+82 1 -1 
+92 1 -1 
+Functions: 8
+18 5 -1 -2 2 83 -4 
+50 1 -4 
+98 2 83 69 
+26 1 -1 
+11 2 -3 6 
+45 1 45 
+77 2 67 69 
+14 2 2 6 
+Constructors: 3
+11 6
+77 69
+14 2
+
+Summary: 9
+-1 1 45 2 -2 67 2 0 -4 
+org/apache/batik/css/engine/CSSEngine.getCSSPreviousSibling(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+3
+_ret 1 18 
+r0 1 -2 
+$r1 1 18 
+Fields: 0
+Accesses: 0
+Functions: 2
+17 1 -2 
+8 0 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/batik/css/engine/CSSEngine.getCSSBaseURI()Ljava/net/URL;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 9 
+$r1 1 1 
+$r4 1 12 
+_ret 1 1 
+$r2 1 1 
+Fields: 2
+-1 element 9
+-1 cssBaseURI 1
+Accesses: 4
+0 1 -1 
+17 1 -1 
+20 1 -1 
+8 1 -1 
+Functions: 1
+9 1 9 
+Constructors: 0
+
+Summary: 1
+-1 

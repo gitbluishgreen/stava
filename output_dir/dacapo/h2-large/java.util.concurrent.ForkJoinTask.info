@@ -1,0 +1,1131 @@
+58
+java/util/concurrent/ForkJoinTask.tryUnfork()Z
+PTG:
+Vars:
+5
+$r0 1 0 
+$r5 1 15 
+$r3 1 25 
+r2 1 -1 
+$r4 1 0 
+Fields: 1
+0 workQueue 15
+Accesses: 1
+12 1 0 
+Functions: 3
+-1 0 
+25 2 -1 25 
+15 2 -1 15 
+Constructors: 0
+
+Summary: 3
+-1 15 0 
+java/util/concurrent/ForkJoinTask.isDone()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ForkJoinTask.setCompletion(I)I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 11 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+40 1 -1 
+11 2 -1 11 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+$r2 1 6 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -2 
+5 1 -1 
+9 2 -2 6 
+Constructors: 0
+
+Summary: 3
+-1 6 -2 
+java/util/concurrent/ForkJoinTask.pollNextLocalTask()Ljava/util/concurrent/ForkJoinTask;
+PTG:
+Vars:
+5
+$r3 1 15 
+_ret 1 18 
+$r4 1 18 
+$r0 1 0 
+$r2 1 0 
+Fields: 1
+0 workQueue 15
+Accesses: 1
+12 1 0 
+Functions: 2
+-1 0 
+15 1 15 
+Constructors: 0
+
+Summary: 2
+15 0 
+java/util/concurrent/ForkJoinTask.get()Ljava/lang/Object;
+PTG:
+Vars:
+5
+r1 1 -1 
+$r2 1 65 
+_ret 1 65 
+$r0 1 0 
+$r3 1 47 
+Fields: 0
+Accesses: 0
+Functions: 7
+-1 0 
+16 1 -1 
+64 1 -1 
+36 0 
+9 1 -1 
+60 1 47 
+46 1 -1 
+Constructors: 0
+
+Summary: 2
+0 47 
+java/util/concurrent/ForkJoinTask.cancel(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.doInvoke()I
+PTG:
+Vars:
+5
+$r6 1 30 
+$r3 1 13 
+$r1 1 13 
+$r5 1 34 
+r0 1 -1 
+Fields: 2
+13 workQueue 34
+13 pool 30
+Accesses: 2
+33 1 13 
+25 1 13 
+Functions: 4
+0 1 -1 
+-1 0 
+45 1 -1 
+30 3 -1 34 30 
+Constructors: 0
+
+Summary: 2
+34 13 
+java/util/concurrent/ForkJoinTask.adapt(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/ForkJoinTask;
+PTG:
+Vars:
+4
+r2 1 -3 
+$r0 1 0 
+r1 1 -2 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -2 -3 
+Constructors: 1
+6 0
+
+Summary: 2
+-3 -2 
+java/util/concurrent/ForkJoinTask.compareAndSetForkJoinTaskTag(SS)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 13 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+13 2 -1 13 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ForkJoinTask.isCancelled()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ForkJoinTask.setExceptionalCompletion(Ljava/lang/Throwable;)I
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+17 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+java/util/concurrent/ForkJoinTask.getSurplusQueuedTaskCount()I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.access$000()Ljava/lang/ref/ReferenceQueue;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.quietlyJoin()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.<clinit>()V
+PTG:
+Vars:
+7
+$r2 1 22 
+$r0 1 0 
+$r5 1 43 
+$r4 1 37 
+r8 1 36 
+$r1 1 10 
+$r3 1 28 
+Fields: 0
+Accesses: 0
+Functions: 6
+-1 0 
+4 1 0 
+37 2 37 43 
+40 1 36 
+61 0 
+14 1 10 
+Constructors: 2
+4 0
+14 10
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.fork()Ljava/util/concurrent/ForkJoinTask;
+PTG:
+Vars:
+6
+r2 1 -1 
+_ret 1 -1 
+$r4 1 0 
+$r5 1 15 
+$r0 1 0 
+$r3 1 25 
+Fields: 1
+0 workQueue 15
+Accesses: 1
+12 1 0 
+Functions: 3
+-1 0 
+19 2 -1 15 
+29 2 -1 25 
+Constructors: 0
+
+Summary: 1
+0 
+java/util/concurrent/ForkJoinTask.getQueuedTaskCount()I
+PTG:
+Vars:
+3
+$r2 1 0 
+r3 2 25 18 
+$r0 1 0 
+Fields: 1
+0 workQueue 18
+Accesses: 1
+12 1 0 
+Functions: 3
+-1 0 
+34 2 18 25 
+22 0 
+Constructors: 0
+
+Summary: 3
+25 0 18 
+java/util/concurrent/ForkJoinTask.setForkJoinTaskTag(S)S
+PTG:
+Vars:
+2
+$r1 1 0 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+0 2 0 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ForkJoinTask.uncheckedThrow(Ljava/lang/Throwable;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+0 
+java/util/concurrent/ForkJoinTask.isCompletedAbnormally()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ForkJoinTask.doExec()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 3
+18 1 -1 
+9 1 -1 
+28 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.invokeAll(Ljava/util/concurrent/ForkJoinTask;Ljava/util/concurrent/ForkJoinTask;)V
+PTG:
+Vars:
+2
+r2 1 -2 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 5
+1 1 -3 
+5 1 -2 
+21 1 -2 
+24 1 -3 
+40 1 -3 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.getPool()Ljava/util/concurrent/ForkJoinPool;
+PTG:
+Vars:
+4
+_ret 1 15 
+$r2 1 15 
+r0 1 3 
+$r1 1 3 
+Fields: 1
+3 pool 15
+Accesses: 1
+12 1 3 
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+3 
+java/util/concurrent/ForkJoinTask.recordExceptionalCompletion(Ljava/lang/Throwable;)I
+PTG:
+Vars:
+8
+$r6 1 67 
+r5 1 -2 
+$r4 1 57 
+r9 2 92 46 
+r1 1 17 
+r2 1 30 
+$r3 1 77 
+r0 1 -1 
+Fields: 3
+92 next 92
+30 ArrayObject 67
+30 ArrayObject 46
+Accesses: 2
+0 1 -1 
+87 2 92 46 
+Functions: 8
+99 1 17 
+115 1 -1 
+68 4 -1 -2 67 57 
+21 1 17 
+24 0 
+9 1 -1 
+75 2 92 46 
+109 1 17 
+Constructors: 1
+68 57
+
+Summary: 4
+92 77 0 -2 
+java/util/concurrent/ForkJoinTask.get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+PTG:
+Vars:
+14
+$r13 1 -1 
+r0 1 -3 
+_ret 1 324 
+r20 1 64 
+$r16 1 83 
+$r9 1 171 
+$r2 1 324 
+r1 1 -1 
+$r14 1 109 
+$r3 1 304 
+$r8 1 123 
+$r10 1 187 
+r7 1 64 
+$r15 1 88 
+Fields: 2
+64 workQueue 88
+64 pool 83
+Accesses: 6
+81 1 64 
+147 1 -1 
+212 1 -1 
+21 1 -1 
+86 1 64 
+254 1 -1 
+Functions: 17
+0 1 -3 
+-1 0 
+323 1 -1 
+133 1 -1 
+229 1 -1 
+171 1 171 
+299 0 
+109 2 -1 109 
+303 1 -1 
+17 0 
+83 3 -1 83 88 
+123 2 -1 123 
+187 2 -1 187 
+284 0 
+61 0 
+222 1 -1 
+319 1 304 
+Constructors: 0
+
+Summary: 5
+64 88 -3 83 304 
+java/util/concurrent/ForkJoinTask.doJoin()I
+PTG:
+Vars:
+5
+$r3 1 13 
+$r7 1 57 
+r0 1 -1 
+$r1 1 13 
+$r5 1 30 
+Fields: 2
+13 workQueue 30
+13 pool 57
+Accesses: 3
+0 1 -1 
+56 1 13 
+25 1 13 
+Functions: 5
+-1 0 
+70 1 -1 
+57 3 -1 57 30 
+43 1 -1 
+30 2 -1 30 
+Constructors: 0
+
+Summary: 1
+13 
+java/util/concurrent/ForkJoinTask.inForkJoinPool()Z
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+0 
+java/util/concurrent/ForkJoinTask.getForkJoinTaskTag()S
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ForkJoinTask.quietlyComplete()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.adapt(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/ForkJoinTask;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 1
+-2 
+java/util/concurrent/ForkJoinTask.peekNextLocalTask()Ljava/util/concurrent/ForkJoinTask;
+PTG:
+Vars:
+5
+r3 2 25 18 
+_ret 1 35 
+$r0 1 0 
+$r2 1 0 
+$r4 1 35 
+Fields: 1
+0 workQueue 18
+Accesses: 1
+12 1 0 
+Functions: 3
+-1 0 
+34 2 18 25 
+22 0 
+Constructors: 0
+
+Summary: 3
+25 0 18 
+java/util/concurrent/ForkJoinTask.externalInterruptibleAwaitDone()I
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 76 
+$r6 1 30 
+$r1 1 44 
+$r5 1 -1 
+Fields: 0
+Accesses: 3
+98 1 -1 
+67 1 -1 
+14 1 -1 
+Functions: 8
+-1 0 
+114 1 -1 
+54 1 -1 
+10 0 
+107 1 -1 
+44 2 -1 44 
+76 2 -1 76 
+30 2 -1 30 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.clearExceptionalCompletion()V
+PTG:
+Vars:
+7
+$r4 1 48 
+r3 1 44 
+r7 2 44 29 
+r8 2 44 29 
+r2 1 16 
+r0 1 -1 
+r1 1 8 
+Fields: 2
+16 ArrayObject 29
+29 next 44
+Accesses: 3
+39 2 44 29 
+73 2 44 29 
+95 1 -1 
+Functions: 6
+0 1 -1 
+99 1 8 
+10 1 8 
+90 0 
+108 1 8 
+46 2 44 29 
+Constructors: 0
+
+Summary: 2
+-1 48 
+java/util/concurrent/ForkJoinTask.join()Ljava/lang/Object;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 20 
+_ret 1 20 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+16 1 -1 
+19 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.invoke()Ljava/lang/Object;
+PTG:
+Vars:
+3
+_ret 1 20 
+r0 1 -1 
+$r1 1 20 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+16 1 -1 
+19 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.adapt(Ljava/lang/Runnable;)Ljava/util/concurrent/ForkJoinTask;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 1
+-2 
+java/util/concurrent/ForkJoinTask.internalPropagateException(Ljava/lang/Throwable;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+java/util/concurrent/ForkJoinTask.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+4
+$r3 1 8 
+r2 1 -1 
+r0 1 -2 
+r1 1 8 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -2 
+18 2 -1 8 
+4 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 8 
+java/util/concurrent/ForkJoinTask.expungeStaleExceptions()V
+PTG:
+Vars:
+7
+r2 1 29 
+r6 2 40 55 
+$r4 1 0 
+$r5 1 3 
+r3 1 55 
+$r1 1 3 
+r7 2 40 55 
+Fields: 2
+40 next 55
+29 ArrayObject 40
+Accesses: 3
+80 2 55 40 
+50 2 55 40 
+19 1 3 
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 1
+3 
+java/util/concurrent/ForkJoinTask.externalAwaitDone()I
+PTG:
+Vars:
+7
+$r2 1 55 
+$r7 1 7 
+$r10 1 -1 
+$r1 1 21 
+$r6 1 -1 
+$r3 1 128 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+115 1 -1 
+44 1 -1 
+77 1 -1 
+Functions: 8
+-1 0 
+131 1 128 
+100 1 -1 
+21 2 -1 21 
+86 1 -1 
+7 2 -1 7 
+55 2 -1 55 
+31 1 -1 
+Constructors: 0
+
+Summary: 1
+128 
+java/util/concurrent/ForkJoinTask.invokeAll([Ljava/util/concurrent/ForkJoinTask;)V
+PTG:
+Vars:
+5
+r5 1 87 
+r0 1 -2 
+$r2 1 27 
+r3 3 27 70 123 
+r4 1 16 
+Fields: 2
+-2 ArrayObject 87
+-2 ArrayObject 16
+Accesses: 0
+Functions: 8
+65 1 16 
+51 1 16 
+101 1 87 
+118 1 87 
+135 3 70 27 123 
+44 1 16 
+108 1 87 
+31 1 27 
+Constructors: 1
+31 27
+
+Summary: 3
+70 -2 123 
+java/util/concurrent/ForkJoinTask.helpExpungeStaleExceptions()V
+PTG:
+Vars:
+1
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 4
+4 1 3 
+23 1 3 
+11 0 
+15 1 3 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.helpQuiesce()V
+PTG:
+Vars:
+4
+$r3 1 21 
+r2 1 0 
+$r4 1 17 
+$r0 1 0 
+Fields: 2
+0 workQueue 21
+0 pool 17
+Accesses: 2
+16 1 0 
+20 1 0 
+Functions: 3
+-1 0 
+24 2 17 21 
+30 0 
+Constructors: 0
+
+Summary: 3
+21 17 0 
+java/util/concurrent/ForkJoinTask.reinitialize()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+21 1 -1 
+Functions: 1
+13 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ForkJoinTask.cancelIgnoringExceptions(Ljava/util/concurrent/ForkJoinTask;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+$r1 1 -1 
+Fields: 0
+Accesses: 1
+4 1 -2 
+Functions: 1
+13 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+java/util/concurrent/ForkJoinTask.complete(Ljava/lang/Object;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+2 2 -1 -2 
+19 1 -1 
+11 1 -1 
+Constructors: 0
+
+Summary: 1
+-2 
+java/util/concurrent/ForkJoinTask.pollTask()Ljava/util/concurrent/ForkJoinTask;
+PTG:
+Vars:
+6
+$r0 1 0 
+$r5 1 17 
+_ret 1 24 
+$r2 1 0 
+$r4 1 21 
+$r6 1 24 
+Fields: 2
+0 workQueue 21
+0 pool 17
+Accesses: 2
+20 1 0 
+12 1 0 
+Functions: 2
+-1 0 
+17 2 17 21 
+Constructors: 0
+
+Summary: 3
+21 17 0 
+java/util/concurrent/ForkJoinTask.getThrowableException()Ljava/lang/Throwable;
+PTG:
+Vars:
+22
+r18 1 33 
+r25 1 232 
+r22 1 117 
+$r6 1 232 
+r19 2 62 45 
+r23 1 145 
+$r7 1 232 
+_ret 1 87 
+r10 1 152 
+$r15 1 51 
+r9 1 145 
+$r2 1 87 
+$r3 1 102 
+r4 1 127 
+r14 1 194 
+$r16 1 -1 
+r0 1 -1 
+$r5 1 229 
+$r11 1 177 
+$r12 1 186 
+$r13 1 194 
+r1 1 22 
+Fields: 6
+33 ArrayObject 45
+62 next 62
+62 ex 87
+127 ArrayObject 145
+45 ex 87
+152 ArrayObject 177
+Accesses: 4
+0 1 -1 
+98 2 45 62 
+86 2 45 62 
+58 2 45 62 
+Functions: 14
+-1 0 
+226 2 145 229 
+67 1 22 
+102 1 102 
+76 1 22 
+14 1 -1 
+112 1 87 
+50 3 87 45 62 
+147 1 145 
+183 2 145 186 
+24 1 22 
+122 1 117 
+27 0 
+252 2 87 232 
+Constructors: 0
+
+Summary: 10
+229 51 117 127 186 102 145 62 177 152 
+java/util/concurrent/ForkJoinTask.invokeAll(Ljava/util/Collection;)Ljava/util/Collection;
+PTG:
+Vars:
+9
+r4 1 -2 
+r10 1 64 
+r0 1 -2 
+_ret 1 -2 
+$r8 1 83 
+r9 3 127 83 190 
+r11 1 146 
+$r6 1 64 
+$r5 1 146 
+Fields: 0
+Accesses: 0
+Functions: 14
+32 0 
+101 1 64 
+168 1 146 
+202 3 83 190 127 
+44 1 -2 
+108 1 64 
+14 1 -2 
+15 1 -2 
+143 1 -2 
+175 1 146 
+87 1 83 
+185 1 146 
+122 1 64 
+61 1 -2 
+Constructors: 1
+87 83
+
+Summary: 4
+21 24 127 190 
+java/util/concurrent/ForkJoinTask.quietlyInvoke()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.internalWait(J)V
+PTG:
+Vars:
+3
+$r1 1 9 
+r0 1 -1 
+$r6 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+32 1 -1 
+Functions: 3
+53 1 -1 
+9 2 -1 9 
+41 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.rethrow(Ljava/lang/Throwable;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+java/util/concurrent/ForkJoinTask.isCompletedNormally()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ForkJoinTask.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/util/concurrent/ForkJoinTask.getException()Ljava/lang/Throwable;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 24 
+_ret 2 35 24 
+$r1 2 35 24 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+34 1 -1 
+28 1 24 
+Constructors: 1
+28 24
+
+Summary: 0
+
+java/util/concurrent/ForkJoinTask.completeExceptionally(Ljava/lang/Throwable;)V
+PTG:
+Vars:
+4
+$r4 1 19 
+$r3 2 -2 19 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+24 2 -2 19 
+27 3 -1 -2 19 
+Constructors: 1
+24 19
+
+Summary: 1
+-2 
+java/util/concurrent/ForkJoinTask.reportException(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 21 
+Fields: 0
+Accesses: 0
+Functions: 3
+20 1 -1 
+24 1 21 
+10 0 
+Constructors: 0
+
+Summary: 1
+21 

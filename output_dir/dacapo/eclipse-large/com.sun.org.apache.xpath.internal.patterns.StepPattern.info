@@ -1,0 +1,778 @@
+31
+com/sun/org/apache/xpath/internal/patterns/StepPattern.execute(Lcom/sun/org/apache/xpath/internal/XPathContext;I)Lcom/sun/org/apache/xpath/internal/objects/XObject;
+PTG:
+Vars:
+5
+r3 1 -1 
+r0 1 -2 
+r1 1 5 
+$r2 1 29 
+_ret 1 29 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+19 3 -1 -2 5 
+10 1 5 
+Constructors: 0
+
+Summary: 4
+-2 5 0 -1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.getPredicates()[Lcom/sun/org/apache/xpath/internal/Expression;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_predicates 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.getProximityPosition(Lcom/sun/org/apache/xpath/internal/XPathContext;IZ)I
+PTG:
+Vars:
+9
+$r6 1 101 
+r19 1 36 
+$r4 1 66 
+$r3 1 59 
+$r5 1 96 
+r1 1 15 
+r2 1 -1 
+r0 1 -2 
+r7 1 106 
+Fields: 2
+96 ArrayObject 101
+-1 m_predicates 96
+Accesses: 1
+95 1 -1 
+Functions: 29
+3 1 -2 
+196 1 -2 
+135 1 106 
+264 1 -2 
+9 1 -2 
+139 1 -2 
+77 4 -1 96 -2 101 
+270 1 36 
+17 1 15 
+145 1 106 
+209 1 -2 
+218 1 -2 
+28 1 15 
+92 1 -2 
+158 1 106 
+162 1 -2 
+101 2 -2 101 
+293 0 
+38 1 36 
+170 1 106 
+298 0 
+109 1 106 
+180 1 106 
+56 1 -2 
+248 1 -2 
+121 1 106 
+187 1 -2 
+62 4 -1 96 -2 101 
+255 1 -2 
+Constructors: 0
+
+Summary: 8
+106 15 -2 0 66 295 -1 36 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.canTraverseOutsideSubtree()Z
+PTG:
+Vars:
+2
+$r1 1 14 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+12 1 -1 
+14 1 14 
+Constructors: 0
+
+Summary: 2
+14 -1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.getPredicateCount()I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 2 
+$r1 1 2 
+Fields: 1
+-1 m_predicates 2
+Accesses: 2
+1 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.setRelativePathPattern(Lcom/sun/org/apache/xpath/internal/patterns/StepPattern;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 2
+7 2 -1 -2 
+11 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.executeRelativePathPattern(Lcom/sun/org/apache/xpath/internal/XPathContext;Lcom/sun/org/apache/xml/internal/dtm/DTM;I)Lcom/sun/org/apache/xpath/internal/objects/XObject;
+PTG:
+Vars:
+7
+r3 1 -2 
+$r4 1 50 
+r0 1 -3 
+_ret 2 46 3 
+r1 1 -1 
+r7 2 46 3 
+r2 1 18 
+Fields: 0
+Accesses: 1
+9 1 -1 
+Functions: 8
+64 1 -2 
+20 1 18 
+38 1 -2 
+8 1 -3 
+41 2 -1 -2 
+57 1 -2 
+73 1 -2 
+79 1 18 
+Constructors: 0
+
+Summary: 7
+46 -3 -2 0 -1 18 1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.calcScore()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 31 
+$r1 1 16 
+$r3 1 9 
+Fields: 2
+-1 m_targetString 31
+-1 m_relativePathPattern 9
+Accesses: 3
+19 1 -1 
+8 1 -1 
+30 1 -1 
+Functions: 3
+0 3 -1 9 31 
+38 3 -1 9 31 
+26 3 -1 9 31 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.getExpression()Lcom/sun/org/apache/xpath/internal/Expression;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 m_relativePathPattern 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.setExpression(Lcom/sun/org/apache/xpath/internal/Expression;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+$r2 1 -2 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+10 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.fixupVariables(Ljava/util/Vector;I)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r7 1 30 
+r1 1 -2 
+$r3 1 44 
+$r2 1 8 
+$r5 1 8 
+$r6 1 8 
+$r4 1 44 
+Fields: 3
+-1 m_relativePathPattern 44
+-1 m_predicates 8
+8 ArrayObject 30
+Accesses: 5
+17 1 -1 
+50 1 -1 
+7 1 -1 
+25 1 -1 
+43 1 -1 
+Functions: 3
+33 2 -2 30 
+3 5 -1 -2 8 44 30 
+56 2 -2 44 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.execute(Lcom/sun/org/apache/xpath/internal/XPathContext;ILcom/sun/org/apache/xml/internal/dtm/DTM;I)Lcom/sun/org/apache/xpath/internal/objects/XObject;
+PTG:
+Vars:
+7
+r0 1 -1 
+r3 1 39 
+$r5 1 76 
+r1 1 -2 
+r2 1 -4 
+$r4 1 43 
+_ret 1 39 
+Fields: 1
+-1 m_relativePathPattern 76
+Accesses: 5
+0 1 -1 
+17 1 -1 
+82 1 -1 
+10 1 -1 
+75 1 -1 
+Functions: 5
+18 1 -2 
+83 2 -2 -4 
+53 2 -1 76 
+60 4 -1 -2 -4 76 
+30 4 -1 -2 -4 76 
+Constructors: 0
+
+Summary: 5
+-2 0 -4 2 -1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.callVisitors(Lcom/sun/org/apache/xpath/internal/ExpressionOwner;Lcom/sun/org/apache/xpath/internal/XPathVisitor;)V
+PTG:
+Vars:
+3
+r0 1 -3 
+r1 1 -2 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+11 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.getLastPos(Lcom/sun/org/apache/xpath/internal/XPathContext;)I
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.setAxis(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.deepEquals(Lcom/sun/org/apache/xpath/internal/Expression;)Z
+PTG:
+Vars:
+16
+r2 1 -2 
+$r11 1 31 
+$r12 1 17 
+$r9 1 17 
+r1 1 -2 
+r0 1 -1 
+$r10 1 31 
+$r5 1 100 
+$r13 1 31 
+$r15 1 63 
+$r4 1 90 
+$r8 1 100 
+$r6 1 123 
+$r14 1 70 
+$r3 1 17 
+$r7 1 111 
+Fields: 8
+-2 m_relativePathPattern 123
+-2 m_relativePathPattern 111
+-2 m_predicates 90
+-2 m_predicates 31
+17 ArrayObject 63
+31 ArrayObject 70
+-1 m_relativePathPattern 100
+-1 m_predicates 17
+Accesses: 11
+16 1 -1 
+64 1 -2 
+99 1 -1 
+37 1 -2 
+23 1 -1 
+57 1 -1 
+89 1 -2 
+106 1 -1 
+122 1 -2 
+30 1 -2 
+110 1 -2 
+Functions: 3
+0 10 -1 17 -2 100 70 90 123 63 111 31 
+107 2 100 111 
+63 2 70 63 
+Constructors: 0
+
+Summary: 7
+123 111 -2 90 70 31 -1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.getPredicate(I)Lcom/sun/org/apache/xpath/internal/Expression;
+PTG:
+Vars:
+4
+$r2 1 5 
+$r1 1 1 
+r0 1 -1 
+_ret 1 5 
+Fields: 2
+-1 m_predicates 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.getAxis()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.<init>(ILjava/lang/String;Ljava/lang/String;II)V
+PTG:
+Vars:
+3
+r2 1 -4 
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+10 1 -1 
+Functions: 1
+4 3 -1 -3 -4 
+Constructors: 1
+4 -1
+
+Summary: 5
+-3 2 -1 -4 1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.getTargetString()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 m_targetString 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.checkProximityPosition(Lcom/sun/org/apache/xpath/internal/XPathContext;ILcom/sun/org/apache/xml/internal/dtm/DTM;II)Z
+PTG:
+Vars:
+9
+$r4 1 38 
+r2 1 -1 
+r1 1 -2 
+r20 1 8 
+$r3 1 31 
+$r6 1 73 
+$r5 1 68 
+r7 1 78 
+r0 1 -4 
+Fields: 2
+68 ArrayObject 73
+-1 m_predicates 68
+Accesses: 1
+67 1 -1 
+Functions: 24
+0 1 -4 
+64 1 -2 
+34 4 -1 -2 68 73 
+99 1 78 
+163 1 -2 
+196 1 -2 
+134 1 78 
+73 2 -2 73 
+10 1 8 
+203 1 -2 
+172 1 -2 
+141 1 -2 
+112 1 78 
+49 4 -1 -2 68 73 
+81 1 78 
+241 0 
+116 1 -2 
+212 1 -2 
+150 1 -2 
+246 0 
+218 1 8 
+28 1 -2 
+124 1 78 
+95 0 
+Constructors: 0
+
+Summary: 9
+-2 0 243 -4 8 2 78 -1 38 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.calcTargetString()V
+PTG:
+Vars:
+3
+$r2 1 121 
+r0 1 -1 
+$r1 1 121 
+Fields: 7
+-1 m_name 121
+-1 m_targetString 130
+-1 m_targetString 83
+-1 m_targetString 110
+-1 m_targetString 92
+-1 m_targetString 101
+-1 m_targetString 150
+Accesses: 9
+130 1 -1 
+83 1 -1 
+101 1 -1 
+150 1 -1 
+120 1 -1 
+137 1 -1 
+92 1 -1 
+141 1 -1 
+110 1 -1 
+Functions: 1
+0 8 -1 130 83 101 150 121 92 110 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.getMatchScore(Lcom/sun/org/apache/xpath/internal/XPathContext;I)D
+PTG:
+Vars:
+4
+r2 1 15 
+r0 1 -2 
+r1 1 -1 
+$r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 8
+16 1 15 
+2 1 -2 
+36 1 -2 
+7 1 -2 
+23 1 -2 
+40 1 -2 
+10 2 -1 -2 
+27 1 -2 
+Constructors: 0
+
+Summary: 3
+15 -2 -1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.getRelativePathPattern()Lcom/sun/org/apache/xpath/internal/patterns/StepPattern;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 m_relativePathPattern 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.<init>(III)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+2 1 -1 
+Constructors: 1
+2 -1
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.getProximityPosition(Lcom/sun/org/apache/xpath/internal/XPathContext;)I
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.executePredicates(Lcom/sun/org/apache/xpath/internal/XPathContext;Lcom/sun/org/apache/xml/internal/dtm/DTM;I)Z
+PTG:
+Vars:
+6
+r5 1 -3 
+$r3 1 39 
+r4 1 44 
+r1 1 -2 
+$r2 1 34 
+r0 1 -1 
+Fields: 2
+34 ArrayObject 39
+-1 m_predicates 34
+Accesses: 1
+33 1 -1 
+Functions: 20
+96 5 -1 -2 34 -3 39 
+128 1 44 
+192 1 -2 
+163 1 44 
+6 3 -1 34 39 
+39 2 -2 39 
+201 1 -2 
+170 1 -2 
+141 1 44 
+14 4 -1 -2 34 39 
+47 1 44 
+145 1 -2 
+83 1 44 
+115 1 44 
+179 1 -2 
+55 1 44 
+87 1 -2 
+119 1 -2 
+153 1 44 
+30 1 -2 
+Constructors: 0
+
+Summary: 6
+-3 -2 0 44 -1 1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.toString()Ljava/lang/String;
+PTG:
+Vars:
+18
+$r0 1 0 
+$r20 2 185 138 
+$r39 1 306 
+r38 2 358 -1 
+$r8 1 290 
+$r14 1 336 
+$r31 2 138 185 
+$r7 2 185 138 
+$r29 2 138 185 
+$r4 1 31 
+$r3 1 363 
+$r23 1 208 
+r2 1 -1 
+$r19 1 208 
+_ret 1 363 
+$r13 1 306 
+$r9 1 297 
+$r11 1 306 
+Fields: 6
+306 ArrayObject 336
+358 m_relativePathPattern 358
+-1 m_name 138
+-1 m_name 185
+-1 m_namespace 208
+-1 m_predicates 306
+Accesses: 21
+192 2 -1 358 
+354 2 -1 358 
+67 2 -1 358 
+293 2 -1 358 
+166 2 -1 358 
+103 2 -1 358 
+137 2 -1 358 
+331 2 -1 358 
+238 2 -1 358 
+270 2 -1 358 
+207 2 -1 358 
+48 2 -1 358 
+145 2 -1 358 
+305 2 -1 358 
+85 2 -1 358 
+184 2 -1 358 
+122 2 -1 358 
+250 2 -1 358 
+27 2 -1 358 
+315 2 -1 358 
+222 2 -1 358 
+Functions: 27
+4 1 0 
+132 1 0 
+260 1 0 
+326 1 0 
+202 1 0 
+77 1 0 
+337 2 0 336 
+149 3 0 185 138 
+22 1 0 
+280 1 0 
+344 1 0 
+217 1 0 
+28 0 
+156 1 0 
+95 1 0 
+287 1 0 
+34 2 0 31 
+226 2 0 208 
+294 0 
+41 1 0 
+233 1 0 
+362 1 0 
+300 2 290 297 
+176 1 0 
+113 1 0 
+242 3 0 185 138 
+58 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+358 -1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.setPredicates([Lcom/sun/org/apache/xpath/internal/Expression;)V
+PTG:
+Vars:
+3
+$r2 1 20 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-2 ArrayObject 20
+Accesses: 1
+2 1 -1 
+Functions: 2
+32 1 -1 
+22 2 -1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.execute(Lcom/sun/org/apache/xpath/internal/XPathContext;)Lcom/sun/org/apache/xpath/internal/objects/XObject;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 6 
+_ret 1 6 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xpath/internal/patterns/StepPattern.callSubtreeVisitors(Lcom/sun/org/apache/xpath/internal/XPathVisitor;)V
+PTG:
+Vars:
+11
+r3 1 -2 
+$r4 1 67 
+r0 1 -1 
+$r6 1 21 
+$r9 1 40 
+$r1 1 2 
+$r11 1 52 
+$r5 1 2 
+$r10 1 2 
+$r8 1 2 
+$r2 1 67 
+Fields: 4
+2 ArrayObject 52
+2 ArrayObject 40
+-1 m_relativePathPattern 67
+-1 m_predicates 2
+Accesses: 6
+1 1 -1 
+66 1 -1 
+35 1 -1 
+8 1 -1 
+73 1 -1 
+47 1 -1 
+Functions: 4
+32 3 -2 21 40 
+56 3 -2 52 21 
+27 6 -1 2 67 52 21 40 
+79 6 -1 -2 2 67 52 40 
+Constructors: 1
+27 21
+
+Summary: 4
+-2 0 -1 21 

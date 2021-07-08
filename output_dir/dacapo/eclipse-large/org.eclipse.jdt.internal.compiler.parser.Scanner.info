@@ -1,0 +1,2902 @@
+59
+org/eclipse/jdt/internal/compiler/parser/Scanner.getSource()[C
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 source 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.scanIdentifierOrKeywordWithBoundCheck()I
+PTG:
+Vars:
+5
+r5 2 14 183 
+$r2 1 46 
+r0 1 -1 
+r1 1 14 
+$r3 1 88 
+Fields: 2
+-1 source 14
+-1 withoutUnicodeBuffer 183
+Accesses: 17
+2 1 -1 
+68 1 -1 
+134 1 -1 
+166 1 -1 
+7 1 -1 
+104 1 -1 
+10 1 -1 
+138 1 -1 
+75 1 -1 
+15 1 -1 
+82 1 -1 
+179 1 -1 
+20 1 -1 
+152 1 -1 
+58 1 -1 
+158 1 -1 
+127 1 -1 
+Functions: 4
+72 3 -1 183 14 
+120 3 -1 183 14 
+187 3 -1 183 14 
+110 3 -1 183 14 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.checkTaskTag(II)V
+PTG:
+Vars:
+52
+$r35 1 261 
+$r29 2 326 486 
+$r5 1 581 
+$r15 5 326 486 864 901 825 
+$r18 2 13 909 
+$r54 1 525 
+$r43 1 245 
+$r27 2 299 245 
+$r10 1 605 
+$r28 1 337 
+$r21 1 914 
+$r24 2 407 416 
+$r16 1 906 
+$r52 1 493 
+$r6 2 788 13 
+$r22 2 77 525 
+$r32 1 391 
+$r47 2 437 245 
+r0 1 -1 
+$r3 1 572 
+r1 1 4 
+$r49 2 13 459 
+$r38 1 13 
+r42 1 83 
+$r31 2 353 448 
+$r8 3 326 486 825 
+$r14 1 889 
+$r20 1 922 
+$r44 1 407 
+$r17 5 326 486 895 864 825 
+$r50 1 467 
+r55 1 809 
+$r34 1 253 
+$r45 1 429 
+$r23 2 245 291 
+$r9 2 598 13 
+$r33 2 380 13 
+$r39 1 22 
+$r48 2 353 448 
+$r36 1 269 
+$r2 2 567 13 
+$r19 2 917 13 
+$r30 1 364 
+$r13 5 326 486 884 864 825 
+$r7 1 793 
+$r26 1 310 
+$r51 2 326 486 
+$r12 1 869 
+$r25 2 407 424 
+$r11 4 326 486 864 825 
+$r4 2 576 245 
+$r37 1 277 
+Fields: 43
+598 ArrayObject 605
+788 ArrayObject 793
+486 ArrayObject 889
+486 ArrayObject 906
+486 ArrayObject 869
+884 ArrayObject 889
+567 ArrayObject 572
+424 ArrayObject 429
+77 ArrayObject 83
+901 ArrayObject 906
+245 ArrayObject 581
+825 ArrayObject 889
+825 ArrayObject 906
+825 ArrayObject 869
+525 ArrayObject 83
+326 ArrayObject 889
+326 ArrayObject 906
+326 ArrayObject 869
+917 ArrayObject 922
+407 ArrayObject 429
+576 ArrayObject 581
+13 ArrayObject 572
+13 ArrayObject 22
+13 ArrayObject 922
+13 ArrayObject 914
+13 ArrayObject 793
+13 ArrayObject 605
+864 ArrayObject 889
+864 ArrayObject 906
+864 ArrayObject 869
+-1 taskTags 525
+-1 taskPriorities 407
+-1 foundTaskMessages 326
+-1 foundTaskMessages 486
+-1 foundTaskMessages 864
+-1 foundTaskMessages 825
+-1 source 4
+-1 foundTaskPositions 13
+-1 foundTaskTags 245
+-1 foundTaskTags 576
+-1 foundTaskPriorities 448
+-1 foundTaskPriorities 353
+909 ArrayObject 914
+Accesses: 60
+0 1 -1 
+256 1 -1 
+385 1 -1 
+900 1 -1 
+5 1 -1 
+134 1 -1 
+264 1 -1 
+395 1 -1 
+12 1 -1 
+524 1 -1 
+908 1 -1 
+399 1 -1 
+16 1 -1 
+272 1 -1 
+787 1 -1 
+916 1 -1 
+406 1 -1 
+280 1 -1 
+30 1 -1 
+286 1 -1 
+415 1 -1 
+290 1 -1 
+549 1 -1 
+423 1 -1 
+298 1 -1 
+171 1 -1 
+304 1 -1 
+436 1 -1 
+566 1 -1 
+440 1 -1 
+824 1 -1 
+314 1 -1 
+318 1 -1 
+447 1 -1 
+575 1 -1 
+451 1 -1 
+325 1 -1 
+838 1 -1 
+458 1 -1 
+331 1 -1 
+76 1 -1 
+462 1 -1 
+590 1 -1 
+341 1 -1 
+597 1 -1 
+854 1 -1 
+345 1 -1 
+863 1 -1 
+352 1 -1 
+485 1 -1 
+358 1 -1 
+489 1 -1 
+368 1 -1 
+497 1 -1 
+883 1 -1 
+244 1 -1 
+372 1 -1 
+504 1 -1 
+379 1 -1 
+894 1 -1 
+Functions: 13
+322 4 245 581 310 299 
+101 0 
+773 0 
+234 0 
+108 0 
+750 0 
+178 0 
+403 9 914 22 391 793 922 380 572 13 605 
+821 2 4 809 
+183 0 
+376 3 448 353 364 
+221 0 
+349 6 337 869 326 486 889 906 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getNextChar(C)Z
+PTG:
+Vars:
+4
+$r3 1 -1 
+$r1 1 25 
+$r2 1 25 
+r0 1 -1 
+Fields: 1
+-1 source 25
+Accesses: 22
+0 1 -1 
+130 1 -1 
+67 1 -1 
+4 1 -1 
+36 1 -1 
+135 1 -1 
+104 1 -1 
+41 1 -1 
+13 1 -1 
+77 1 -1 
+111 1 -1 
+143 1 -1 
+80 1 -1 
+49 1 -1 
+18 1 -1 
+114 1 -1 
+148 1 -1 
+53 1 -1 
+87 1 -1 
+24 1 -1 
+28 1 -1 
+94 1 -1 
+Functions: 2
+64 2 -1 25 
+122 2 -1 25 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.atEnd()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getNextCharWithBoundChecks()I
+PTG:
+Vars:
+3
+$r1 1 15 
+r0 1 -1 
+$r2 1 15 
+Fields: 1
+-1 source 15
+Accesses: 17
+0 1 -1 
+33 1 -1 
+65 1 -1 
+4 1 -1 
+100 1 -1 
+37 1 -1 
+103 1 -1 
+74 1 -1 
+14 1 -1 
+46 1 -1 
+78 1 -1 
+49 1 -1 
+18 1 -1 
+114 1 -1 
+26 1 -1 
+60 1 -1 
+30 1 -1 
+Functions: 3
+57 2 -1 15 
+89 2 -1 15 
+111 2 -1 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getNextToken()I
+PTG:
+Vars:
+70
+$r9 1 79 
+$r34 2 79 2054 
+$r56 2 79 2163 
+$r63 1 79 
+$r40 1 79 
+$r59 1 2114 
+$r54 1 -1 
+$r11 1 79 
+$r16 1 79 
+$r51 1 3252 
+$r33 2 1755 79 
+$r65 1 1168 
+$r23 1 79 
+$r24 1 79 
+$r10 1 79 
+$r8 1 79 
+$r55 1 2128 
+$r47 1 3329 
+$r4 1 3202 
+$r29 1 1068 
+$r12 1 79 
+$r38 2 79 1893 
+$r73 1 79 
+$r26 2 79 1231 
+$r39 2 1918 79 
+$r7 1 79 
+$r58 1 -1 
+$r19 2 79 1529 
+$r15 2 79 2382 
+$r44 1 3405 
+$r6 1 79 
+$r52 1 -1 
+$r31 2 79 1730 
+$r14 2 79 2412 
+$r30 1 79 
+$r2 2 79 3142 
+$r20 2 79 1549 
+$r61 1 1460 
+$r41 1 3287 
+$r22 1 79 
+$r1 1 79 
+$r45 1 3374 
+$r35 2 79 1989 
+$r18 1 79 
+$r68 1 1850 
+$r13 2 79 2357 
+$r3 2 79 3106 
+$r17 1 79 
+$r32 1 1817 
+$r42 1 3462 
+$r62 1 -1 
+$r43 1 3452 
+r0 1 -1 
+$r67 1 1591 
+$r53 2 3213 2551 
+$r75 2 79 3081 
+$r27 2 1107 79 
+$r60 1 -1 
+$r5 2 3213 2551 
+$r48 1 79 
+$r69 2 79 2029 
+$r25 2 1211 79 
+$r72 2 3213 2551 
+$r28 2 79 1127 
+$r57 2 79 2183 
+$r49 1 -1 
+$r50 1 -1 
+$r21 1 79 
+$r46 1 3312 
+$r66 1 1272 
+Fields: 4
+-1 taskTags 3213
+-1 taskTags 2551
+-1 commentTagStarts 3202
+-1 source 79
+Accesses: 285
+3073 1 -1 
+2 1 -1 
+2562 1 -1 
+5 1 -1 
+2053 1 -1 
+3080 1 -1 
+2057 1 -1 
+2569 1 -1 
+1548 1 -1 
+3084 1 -1 
+1552 1 -1 
+18 1 -1 
+2578 1 -1 
+3092 1 -1 
+21 1 -1 
+25 1 -1 
+3097 1 -1 
+2587 1 -1 
+1565 1 -1 
+2080 1 -1 
+3105 1 -1 
+2594 1 -1 
+3109 1 -1 
+2598 1 -1 
+1575 1 -1 
+2091 1 -1 
+44 1 -1 
+47 1 -1 
+2609 1 -1 
+2104 1 -1 
+57 1 -1 
+3132 1 -1 
+63 1 -1 
+2111 1 -1 
+1089 1 -1 
+1603 1 -1 
+3141 1 -1 
+70 1 -1 
+1096 1 -1 
+2632 1 -1 
+3145 1 -1 
+74 1 -1 
+1610 1 -1 
+78 1 -1 
+1614 1 -1 
+82 1 -1 
+1106 1 -1 
+3155 1 -1 
+2644 1 -1 
+1110 1 -1 
+1622 1 -1 
+90 1 -1 
+3162 1 -1 
+1627 1 -1 
+2651 1 -1 
+3165 1 -1 
+95 1 -1 
+2145 1 -1 
+1635 1 -1 
+2661 1 -1 
+1126 1 -1 
+103 1 -1 
+1639 1 -1 
+2152 1 -1 
+1130 1 -1 
+107 1 -1 
+2669 1 -1 
+2673 1 -1 
+2162 1 -1 
+2166 1 -1 
+1143 1 -1 
+2680 1 -1 
+1659 1 -1 
+2687 1 -1 
+128 1 -1 
+1153 1 -1 
+3201 1 -1 
+2691 1 -1 
+3205 1 -1 
+2182 1 -1 
+136 1 -1 
+1673 1 -1 
+2186 1 -1 
+3212 1 -1 
+2702 1 -1 
+145 1 -1 
+1682 1 -1 
+3220 1 -1 
+2199 1 -1 
+152 1 -1 
+3224 1 -1 
+2713 1 -1 
+157 1 -1 
+3231 1 -1 
+1696 1 -1 
+2720 1 -1 
+2209 1 -1 
+164 1 -1 
+168 1 -1 
+1193 1 -1 
+3242 1 -1 
+1708 1 -1 
+1200 1 -1 
+1712 1 -1 
+3249 1 -1 
+178 1 -1 
+182 1 -1 
+2742 1 -1 
+2231 1 -1 
+1210 1 -1 
+1722 1 -1 
+2746 1 -1 
+189 1 -1 
+1214 1 -1 
+2750 1 -1 
+704 1 -1 
+1729 1 -1 
+197 1 -1 
+1733 1 -1 
+2758 1 -1 
+2763 1 -1 
+1741 1 -1 
+206 1 -1 
+1230 1 -1 
+2254 1 -1 
+1234 1 -1 
+1746 1 -1 
+2258 1 -1 
+2771 1 -1 
+213 1 -1 
+2262 1 -1 
+2775 1 -1 
+218 1 -1 
+1754 1 -1 
+2266 1 -1 
+734 1 -1 
+1758 1 -1 
+1247 1 -1 
+2274 1 -1 
+3298 1 -1 
+742 1 -1 
+2279 1 -1 
+1257 1 -1 
+238 1 -1 
+2798 1 -1 
+2287 1 -1 
+2291 1 -1 
+2809 1 -1 
+250 1 -1 
+1786 1 -1 
+2305 1 -1 
+259 1 -1 
+1795 1 -1 
+2824 1 -1 
+1802 1 -1 
+2314 1 -1 
+1291 1 -1 
+268 1 -1 
+2318 1 -1 
+1808 1 -1 
+2833 1 -1 
+1300 1 -1 
+277 1 -1 
+1304 1 -1 
+2328 1 -1 
+2842 1 -1 
+1308 1 -1 
+2335 1 -1 
+288 1 -1 
+3363 1 -1 
+1316 1 -1 
+1321 1 -1 
+2345 1 -1 
+2349 1 -1 
+1840 1 -1 
+1329 1 -1 
+2356 1 -1 
+2868 1 -1 
+1333 1 -1 
+1847 1 -1 
+2360 1 -1 
+2875 1 -1 
+2879 1 -1 
+2368 1 -1 
+1860 1 -1 
+2373 1 -1 
+1350 1 -1 
+2887 1 -1 
+2892 1 -1 
+1869 1 -1 
+2381 1 -1 
+2385 1 -1 
+1876 1 -1 
+2900 1 -1 
+1365 1 -1 
+2904 1 -1 
+1369 1 -1 
+1883 1 -1 
+1888 1 -1 
+1377 1 -1 
+2402 1 -1 
+1892 1 -1 
+1381 1 -1 
+1896 1 -1 
+2411 1 -1 
+365 1 -1 
+2415 1 -1 
+2927 1 -1 
+1904 1 -1 
+1393 1 -1 
+3441 1 -1 
+372 1 -1 
+1909 1 -1 
+887 1 -1 
+1400 1 -1 
+2936 1 -1 
+2425 1 -1 
+380 1 -1 
+1404 1 -1 
+2940 1 -1 
+1917 1 -1 
+2432 1 -1 
+385 1 -1 
+1921 1 -1 
+2435 1 -1 
+1412 1 -1 
+2950 1 -1 
+1417 1 -1 
+396 1 -1 
+2444 1 -1 
+2957 1 -1 
+2960 1 -1 
+1425 1 -1 
+1938 1 -1 
+1429 1 -1 
+2453 1 -1 
+1945 1 -1 
+410 1 -1 
+2462 1 -1 
+3489 1 -1 
+2466 1 -1 
+2978 1 -1 
+1957 1 -1 
+422 1 -1 
+425 1 -1 
+2473 1 -1 
+1450 1 -1 
+2987 1 -1 
+1965 1 -1 
+2477 1 -1 
+1457 1 -1 
+1969 1 -1 
+2996 1 -1 
+3509 1 -1 
+2487 1 -1 
+1977 1 -1 
+3517 1 -1 
+2494 1 -1 
+1984 1 -1 
+1988 1 -1 
+2500 1 -1 
+3526 1 -1 
+1992 1 -1 
+1482 1 -1 
+2506 1 -1 
+3019 1 -1 
+3533 1 -1 
+2510 1 -1 
+2000 1 -1 
+3538 1 -1 
+2004 1 -1 
+2520 1 -1 
+2011 1 -1 
+2524 1 -1 
+1511 1 -1 
+2024 1 -1 
+2028 1 -1 
+1518 1 -1 
+2032 1 -1 
+2550 1 -1 
+1528 1 -1 
+2040 1 -1 
+1532 1 -1 
+2045 1 -1 
+2558 1 -1 
+Functions: 89
+897 5 -1 3202 2551 3213 79 
+1282 5 -1 3202 2551 3213 79 
+3458 1 3452 
+1667 5 -1 3202 2551 3213 79 
+774 5 -1 3202 2551 3213 79 
+2566 5 -1 3202 2551 3213 79 
+1033 5 -1 3202 2551 3213 79 
+2699 5 -1 3202 2551 3213 79 
+1932 5 -1 3202 2551 3213 79 
+3340 5 -1 3202 2551 3213 79 
+3468 1 3462 
+13 5 -1 3202 2551 3213 79 
+3472 0 
+2068 5 -1 3202 2551 3213 79 
+1174 1 1168 
+919 5 -1 3202 2551 3213 79 
+1178 5 -1 3202 2551 3213 79 
+3228 5 -1 3202 2551 3213 79 
+3484 5 -1 3202 2551 3213 79 
+285 5 -1 3202 2551 3213 79 
+414 5 -1 3202 2551 3213 79 
+1054 5 -1 3202 2551 3213 79 
+1823 1 1817 
+3490 0 
+804 5 -1 3202 2551 3213 79 
+2855 5 -1 3202 2551 3213 79 
+2088 5 -1 3202 2551 3213 79 
+3499 5 -1 3202 2551 3213 79 
+941 5 -1 3202 2551 3213 79 
+2606 5 -1 3202 2551 3213 79 
+2862 5 -1 3202 2551 3213 79 
+3120 5 -1 3202 2551 3213 79 
+1074 1 1068 
+691 5 -1 3202 2551 3213 79 
+819 5 -1 3202 2551 3213 79 
+3380 1 3374 
+1974 5 -1 3202 2551 3213 79 
+3384 5 -1 3202 2551 3213 79 
+698 5 -1 3202 2551 3213 79 
+1466 1 1460 
+3258 1 3252 
+1597 1 1591 
+2238 5 -1 3202 2551 3213 79 
+2622 5 -1 3202 2551 3213 79 
+3262 5 -1 3202 2551 3213 79 
+1344 5 -1 3202 2551 3213 79 
+1856 1 1850 
+833 5 -1 3202 2551 3213 79 
+3009 5 -1 3202 2551 3213 79 
+962 5 -1 3202 2551 3213 79 
+1476 5 -1 3202 2551 3213 79 
+2629 5 -1 3202 2551 3213 79 
+710 5 -1 3202 2551 3213 79 
+2120 1 2114 
+3016 5 -1 3202 2551 3213 79 
+3277 5 -1 3202 2551 3213 79 
+1358 5 -1 3202 2551 3213 79 
+2126 1 -1 
+719 5 -1 3202 2551 3213 79 
+847 5 -1 3202 2551 3213 79 
+2128 1 2128 
+977 5 -1 3202 2551 3213 79 
+1490 5 -1 3202 2551 3213 79 
+3411 1 3405 
+1493 5 -1 3202 2551 3213 79 
+2008 5 -1 3202 2551 3213 79 
+3417 0 
+2396 5 -1 3202 2551 3213 79 
+3294 1 3287 
+2658 5 -1 3202 2551 3213 79 
+2786 5 -1 3202 2551 3213 79 
+2019 5 -1 3202 2551 3213 79 
+2915 5 -1 3202 2551 3213 79 
+869 5 -1 3202 2551 3213 79 
+233 5 -1 3202 2551 3213 79 
+1385 5 -1 3202 2551 3213 79 
+2537 5 -1 3202 2551 3213 79 
+747 5 -1 3202 2551 3213 79 
+1772 5 -1 3202 2551 3213 79 
+1005 5 -1 3202 2551 3213 79 
+1650 5 -1 3202 2551 3213 79 
+2547 5 -1 3202 2551 3213 79 
+3059 5 -1 3202 2551 3213 79 
+2677 5 -1 3202 2551 3213 79 
+2806 5 -1 3202 2551 3213 79 
+3324 5 -1 3202 2551 3213 79 
+1278 1 1272 
+2302 5 -1 3202 2551 3213 79 
+3198 5 -1 3202 2551 3213 79 
+Constructors: 14
+1856 1850
+3458 3452
+2120 2114
+3468 3462
+1074 1068
+3411 3405
+3380 3374
+1174 1168
+1466 1460
+3258 3252
+1597 1591
+1278 1272
+3294 3287
+1823 1817
+
+Summary: 2
+2128 -1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getCurrentTokenString()Ljava/lang/String;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 24 
+$r2 1 29 
+_ret 1 24 
+Fields: 1
+-1 source 29
+Accesses: 7
+0 1 -1 
+16 1 -1 
+32 1 -1 
+36 1 -1 
+40 1 -1 
+11 1 -1 
+28 1 -1 
+Functions: 2
+20 0 
+45 2 24 29 
+Constructors: 1
+45 24
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getLineEnd(I)I
+PTG:
+Vars:
+5
+$r3 1 1 
+$r4 1 1 
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 lineEnds 1
+Accesses: 6
+0 1 -1 
+18 1 -1 
+52 1 -1 
+37 1 -1 
+7 1 -1 
+47 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getLineNumber(I)I
+PTG:
+Vars:
+2
+$r1 1 2 
+r0 1 -1 
+Fields: 1
+-1 lineEnds 2
+Accesses: 2
+1 1 -1 
+6 1 -1 
+Functions: 1
+7 1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getCurrentTokenSource()[C
+PTG:
+Vars:
+7
+$r2 1 32 
+r5 2 50 16 
+$r3 1 16 
+$r1 1 50 
+r0 1 -1 
+_ret 2 50 16 
+$r4 1 8 
+Fields: 2
+-1 source 32
+-1 withoutUnicodeBuffer 8
+Accesses: 8
+0 1 -1 
+35 1 -1 
+21 1 -1 
+7 1 -1 
+39 1 -1 
+43 1 -1 
+12 1 -1 
+31 1 -1 
+Functions: 2
+56 2 32 50 
+25 2 16 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getCurrentIdentifierSource()[C
+PTG:
+Vars:
+7
+$r10 1 16 
+r0 1 -1 
+$r11 1 8 
+$r7 1 131 
+r12 2 16 131 
+$r8 1 123 
+_ret 2 16 131 
+Fields: 2
+-1 source 123
+-1 withoutUnicodeBuffer 8
+Accesses: 10
+0 1 -1 
+49 1 -1 
+35 1 -1 
+21 1 -1 
+7 1 -1 
+42 1 -1 
+122 1 -1 
+12 1 -1 
+126 1 -1 
+31 1 -1 
+Functions: 8
+112 3 -1 8 123 
+97 3 -1 8 123 
+117 3 -1 8 123 
+102 3 -1 8 123 
+25 2 16 8 
+137 2 131 123 
+107 3 -1 8 123 
+92 3 -1 8 123 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getCurrentTokenSourceString()[C
+PTG:
+Vars:
+7
+r0 1 -1 
+r5 2 18 58 
+$r4 1 8 
+$r2 1 36 
+$r3 1 18 
+_ret 2 18 58 
+$r1 1 58 
+Fields: 2
+-1 source 36
+-1 withoutUnicodeBuffer 8
+Accesses: 8
+0 1 -1 
+49 1 -1 
+35 1 -1 
+7 1 -1 
+23 1 -1 
+39 1 -1 
+12 1 -1 
+45 1 -1 
+Functions: 2
+64 2 36 58 
+29 2 18 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.optimizedCurrentTokenSource3()[C
+PTG:
+Vars:
+9
+r1 1 4 
+r4 1 48 
+r8 1 122 
+$r5 1 179 
+$r3 1 44 
+$r2 1 40 
+r0 1 -1 
+_ret 1 179 
+r7 1 64 
+Fields: 6
+48 ArrayObject 64
+48 ArrayObject 122
+44 ArrayObject 48
+40 ArrayObject 44
+-1 charArray_length 40
+-1 source 4
+Accesses: 6
+0 1 -1 
+50 1 -1 
+195 1 -1 
+5 1 -1 
+39 1 -1 
+108 1 -1 
+Functions: 1
+186 2 179 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.resetTo(II)V
+PTG:
+Vars:
+4
+$r4 1 21 
+r0 1 -1 
+$r1 1 21 
+$r3 1 21 
+Fields: 1
+-1 source 21
+Accesses: 11
+17 1 -1 
+2 1 -1 
+20 1 -1 
+68 1 -1 
+37 1 -1 
+73 1 -1 
+10 1 -1 
+42 1 -1 
+27 1 -1 
+14 1 -1 
+63 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.setSource([C)V
+PTG:
+Vars:
+3
+$r2 1 5 
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 8
+18 1 -1 
+51 1 -1 
+38 1 -1 
+8 1 -1 
+41 1 -1 
+26 1 -1 
+46 1 -1 
+31 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getNextCharAsDigit(I)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 20 
+$r2 1 20 
+$r3 1 -1 
+Fields: 1
+-1 source 20
+Accesses: 18
+0 1 -1 
+128 1 -1 
+4 1 -1 
+36 1 -1 
+136 1 -1 
+107 1 -1 
+44 1 -1 
+76 1 -1 
+13 1 -1 
+79 1 -1 
+48 1 -1 
+112 1 -1 
+19 1 -1 
+86 1 -1 
+23 1 -1 
+93 1 -1 
+62 1 -1 
+31 1 -1 
+Functions: 4
+97 0 
+66 0 
+120 2 -1 20 
+59 2 -1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.jumpOverUnicodeWhiteSpace()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+9 1 -1 
+Functions: 2
+6 1 -1 
+10 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.scanEscapeCharacter()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r5 1 183 
+$r2 1 183 
+Fields: 1
+-1 source 183
+Accesses: 31
+0 1 -1 
+128 1 -1 
+194 1 -1 
+325 1 -1 
+199 1 -1 
+264 1 -1 
+137 1 -1 
+331 1 -1 
+271 1 -1 
+208 1 -1 
+146 1 -1 
+338 1 -1 
+83 1 -1 
+277 1 -1 
+152 1 -1 
+344 1 -1 
+92 1 -1 
+351 1 -1 
+101 1 -1 
+234 1 -1 
+110 1 -1 
+238 1 -1 
+305 1 -1 
+182 1 -1 
+246 1 -1 
+374 1 -1 
+119 1 -1 
+312 1 -1 
+186 1 -1 
+251 1 -1 
+318 1 -1 
+Functions: 7
+209 0 
+386 0 
+197 0 
+278 0 
+153 0 
+249 0 
+367 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getRawTokenSource()[C
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 11 
+$r2 1 15 
+r1 1 11 
+Fields: 1
+-1 source 15
+Accesses: 4
+0 1 -1 
+18 1 -1 
+4 1 -1 
+14 1 -1 
+Functions: 1
+25 2 11 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.recordComment(I)V
+PTG:
+Vars:
+10
+$r9 1 54 
+$r7 1 132 
+$r5 1 112 
+$r8 1 125 
+$r6 1 105 
+$r1 1 54 
+$r2 1 105 
+$r4 1 54 
+$r3 1 92 
+r0 1 -1 
+Fields: 3
+-1 commentStops 54
+-1 commentTagStarts 125
+-1 commentStarts 105
+Accesses: 18
+0 1 -1 
+32 1 -1 
+68 1 -1 
+5 1 -1 
+38 1 -1 
+135 1 -1 
+104 1 -1 
+47 1 -1 
+144 1 -1 
+115 1 -1 
+84 1 -1 
+148 1 -1 
+53 1 -1 
+154 1 -1 
+60 1 -1 
+124 1 -1 
+158 1 -1 
+95 1 -1 
+Functions: 3
+101 2 54 92 
+121 2 112 105 
+141 2 132 125 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getCurrentStringLiteral()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 26 
+$r2 1 31 
+_ret 1 26 
+r0 1 -1 
+Fields: 1
+-1 source 31
+Accesses: 7
+0 1 -1 
+16 1 -1 
+34 1 -1 
+40 1 -1 
+11 1 -1 
+44 1 -1 
+30 1 -1 
+Functions: 2
+51 2 26 31 
+22 0 
+Constructors: 1
+51 26
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.pushLineSeparator()V
+PTG:
+Vars:
+16
+r0 1 -1 
+$r3 1 264 
+$r10 1 24 
+$r15 1 24 
+$r9 1 24 
+$r11 1 91 
+$r12 1 24 
+$r17 1 -1 
+$r5 1 169 
+$r13 1 69 
+$r4 1 169 
+$r8 1 169 
+$r7 1 169 
+$r1 1 169 
+$r14 1 24 
+$r2 1 169 
+Fields: 3
+-1 lineEnds 24
+-1 lineEnds 169
+-1 source 91
+Accesses: 42
+0 1 -1 
+129 1 -1 
+194 1 -1 
+72 1 -1 
+9 1 -1 
+137 1 -1 
+267 1 -1 
+204 1 -1 
+16 1 -1 
+80 1 -1 
+146 1 -1 
+211 1 -1 
+275 1 -1 
+84 1 -1 
+23 1 -1 
+279 1 -1 
+152 1 -1 
+90 1 -1 
+218 1 -1 
+27 1 -1 
+94 1 -1 
+222 1 -1 
+287 1 -1 
+161 1 -1 
+37 1 -1 
+104 1 -1 
+168 1 -1 
+232 1 -1 
+43 1 -1 
+108 1 -1 
+172 1 -1 
+238 1 -1 
+112 1 -1 
+177 1 -1 
+51 1 -1 
+117 1 -1 
+246 1 -1 
+58 1 -1 
+186 1 -1 
+124 1 -1 
+253 1 -1 
+190 1 -1 
+Functions: 2
+272 2 264 169 
+77 2 69 24 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.parseTags()V
+PTG:
+Vars:
+18
+$r10 1 148 
+$r13 1 17 
+$r6 2 295 139 
+$r14 1 -1 
+$r5 2 259 139 
+$r2 1 139 
+$r4 1 197 
+$r15 1 232 
+$r7 1 279 
+$r16 1 32 
+$r12 1 75 
+r18 2 197 232 
+$r3 1 319 
+r0 1 -1 
+$r1 1 117 
+$r11 1 83 
+r17 2 83 32 
+$r8 2 267 139 
+Fields: 4
+-1 nlsTags 139
+-1 lineEnds 17
+-1 source 32
+-1 withoutUnicodeBuffer 75
+Accesses: 23
+96 1 -1 
+2 1 -1 
+258 1 -1 
+67 1 -1 
+294 1 -1 
+7 1 -1 
+74 1 -1 
+138 1 -1 
+266 1 -1 
+298 1 -1 
+79 1 -1 
+111 1 -1 
+16 1 -1 
+272 1 -1 
+306 1 -1 
+55 1 -1 
+151 1 -1 
+89 1 -1 
+283 1 -1 
+156 1 -1 
+254 1 -1 
+31 1 -1 
+287 1 -1 
+Functions: 9
+176 2 32 83 
+291 3 279 267 139 
+36 0 
+213 6 -1 32 17 83 139 75 
+327 3 32 83 319 
+249 1 232 
+93 2 83 75 
+125 3 32 83 117 
+223 1 197 
+Constructors: 2
+249 232
+223 197
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getRawTokenSourceEnd()[C
+PTG:
+Vars:
+4
+$r2 1 17 
+r1 1 13 
+_ret 1 13 
+r0 1 -1 
+Fields: 1
+-1 source 17
+Accesses: 4
+0 1 -1 
+16 1 -1 
+4 1 -1 
+20 1 -1 
+Functions: 1
+27 2 17 13 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getLineStart(I)I
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+$r3 1 1 
+Fields: 1
+-1 lineEnds 1
+Accesses: 5
+0 1 -1 
+18 1 -1 
+7 1 -1 
+41 1 -1 
+46 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getNextCharAsJavaIdentifierPart()Z
+PTG:
+Vars:
+4
+$r2 1 24 
+r0 1 -1 
+$r3 1 -1 
+$r1 1 24 
+Fields: 1
+-1 source 24
+Accesses: 25
+0 1 -1 
+256 1 -1 
+68 1 -1 
+261 1 -1 
+6 1 -1 
+137 1 -1 
+203 1 -1 
+142 1 -1 
+15 1 -1 
+208 1 -1 
+23 1 -1 
+27 1 -1 
+91 1 -1 
+222 1 -1 
+35 1 -1 
+227 1 -1 
+40 1 -1 
+104 1 -1 
+109 1 -1 
+175 1 -1 
+48 1 -1 
+243 1 -1 
+52 1 -1 
+180 1 -1 
+248 1 -1 
+Functions: 5
+114 2 -1 24 
+149 0 
+185 0 
+235 2 -1 24 
+63 2 -1 24 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getLineEnds()[I
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 13 
+$r1 1 23 
+_ret 1 23 
+Fields: 1
+-1 lineEnds 13
+Accesses: 4
+0 1 -1 
+17 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 1
+34 2 23 13 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.scanIdentifierOrKeyword()I
+PTG:
+Vars:
+5
+r1 1 14 
+$r3 1 88 
+$r2 1 46 
+r5 2 14 183 
+r0 1 -1 
+Fields: 2
+-1 source 14
+-1 withoutUnicodeBuffer 183
+Accesses: 17
+2 1 -1 
+68 1 -1 
+134 1 -1 
+166 1 -1 
+7 1 -1 
+104 1 -1 
+10 1 -1 
+138 1 -1 
+75 1 -1 
+15 1 -1 
+82 1 -1 
+179 1 -1 
+20 1 -1 
+152 1 -1 
+58 1 -1 
+158 1 -1 
+127 1 -1 
+Functions: 4
+72 3 -1 183 14 
+120 3 -1 183 14 
+187 3 -1 183 14 
+110 3 -1 183 14 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.internalScanIdentifierOrKeyword(II[C)I
+PTG:
+Vars:
+2
+r0 1 -4 
+r1 1 -1 
+Fields: 0
+Accesses: 5
+274 1 -1 
+295 1 -1 
+1134 1 -1 
+1150 1 -1 
+287 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+2 -1 -4 
+org/eclipse/jdt/internal/compiler/parser/Scanner.extractInt([CII)I
+PTG:
+Vars:
+2
+r0 1 -2 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+144 0 
+164 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.toStringAction(I)Ljava/lang/String;
+PTG:
+Vars:
+1
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 48
+1216 0 
+1472 0 
+1089 0 
+1219 0 
+1475 0 
+836 0 
+1157 0 
+1096 0 
+1225 0 
+1481 0 
+843 0 
+1164 0 
+1103 0 
+1232 0 
+850 1 -1 
+1171 0 
+854 0 
+1110 1 -1 
+1239 0 
+857 0 
+1114 0 
+1178 1 -1 
+1117 0 
+1182 0 
+1246 1 -1 
+863 0 
+1185 0 
+1250 0 
+1123 0 
+1253 0 
+1062 0 
+1191 0 
+1130 0 
+1259 0 
+1069 0 
+1198 0 
+1454 0 
+1137 0 
+1076 1 -1 
+1205 0 
+1461 0 
+1080 0 
+1144 1 -1 
+1083 0 
+1148 0 
+1212 1 -1 
+1468 1 -1 
+1151 0 
+Constructors: 0
+
+Summary: 33
+1475 1111 846 1089 1106 1151 1213 851 1140 1259 1145 857 1225 -1 1117 1072 1179 1219 1481 1469 1253 1083 1191 1464 1077 863 1242 1123 1174 1185 1157 1208 1247 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getNextCharAsJavaIdentifierPartWithBoundCheck()Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 -1 
+$r2 1 24 
+$r1 1 24 
+Fields: 1
+-1 source 24
+Accesses: 26
+0 1 -1 
+257 1 -1 
+66 1 -1 
+194 1 -1 
+6 1 -1 
+262 1 -1 
+15 1 -1 
+82 1 -1 
+23 1 -1 
+151 1 -1 
+217 1 -1 
+27 1 -1 
+156 1 -1 
+222 1 -1 
+35 1 -1 
+39 1 -1 
+105 1 -1 
+42 1 -1 
+236 1 -1 
+46 1 -1 
+241 1 -1 
+53 1 -1 
+118 1 -1 
+123 1 -1 
+189 1 -1 
+62 1 -1 
+Functions: 5
+128 2 -1 24 
+163 0 
+199 0 
+249 2 -1 24 
+77 2 -1 24 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.optimizedCurrentTokenSource6()[C
+PTG:
+Vars:
+9
+r1 1 4 
+$r3 1 70 
+r7 1 90 
+r4 1 74 
+$r2 1 66 
+_ret 1 260 
+r0 1 -1 
+r8 1 175 
+$r5 1 260 
+Fields: 6
+70 ArrayObject 74
+74 ArrayObject 175
+74 ArrayObject 90
+-1 charArray_length 66
+-1 source 4
+66 ArrayObject 70
+Accesses: 6
+0 1 -1 
+65 1 -1 
+161 1 -1 
+5 1 -1 
+277 1 -1 
+76 1 -1 
+Functions: 1
+268 2 4 260 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getNextChar()I
+PTG:
+Vars:
+4
+$r2 1 2 
+r0 1 -1 
+$r1 1 2 
+$r3 1 -1 
+Fields: 1
+-1 source 2
+Accesses: 9
+1 1 -1 
+49 1 -1 
+18 1 -1 
+52 1 -1 
+5 1 -1 
+26 1 -1 
+13 1 -1 
+30 1 -1 
+63 1 -1 
+Functions: 2
+41 2 -1 2 
+60 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getNextUnicodeChar()V
+PTG:
+Vars:
+6
+$r2 1 82 
+$r5 1 82 
+r0 1 -1 
+$r4 1 82 
+$r6 1 82 
+$r7 1 82 
+Fields: 1
+-1 source 82
+Accesses: 38
+65 1 -1 
+193 1 -1 
+321 1 -1 
+131 1 -1 
+261 1 -1 
+136 1 -1 
+328 1 -1 
+201 1 -1 
+140 1 -1 
+13 1 -1 
+81 1 -1 
+146 1 -1 
+20 1 -1 
+85 1 -1 
+341 1 -1 
+23 1 -1 
+27 1 -1 
+219 1 -1 
+159 1 -1 
+223 1 -1 
+98 1 -1 
+163 1 -1 
+355 1 -1 
+37 1 -1 
+231 1 -1 
+105 1 -1 
+171 1 -1 
+44 1 -1 
+47 1 -1 
+51 1 -1 
+118 1 -1 
+310 1 -1 
+249 1 -1 
+313 1 -1 
+58 1 -1 
+124 1 -1 
+189 1 -1 
+253 1 -1 
+Functions: 10
+337 2 -1 82 
+114 0 
+264 0 
+74 0 
+234 0 
+155 0 
+204 0 
+333 2 -1 82 
+174 0 
+287 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.unicodeInitializeBuffer(I)V
+PTG:
+Vars:
+8
+$r3 1 6 
+r0 1 -1 
+$r4 1 57 
+$r7 1 17 
+$r6 1 6 
+$r1 1 6 
+$r2 1 6 
+$r5 1 45 
+Fields: 2
+-1 source 57
+-1 withoutUnicodeBuffer 6
+Accesses: 9
+48 1 -1 
+64 1 -1 
+2 1 -1 
+19 1 -1 
+35 1 -1 
+5 1 -1 
+22 1 -1 
+56 1 -1 
+60 1 -1 
+Functions: 2
+53 2 6 45 
+70 2 6 57 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.optimizedCurrentTokenSource5()[C
+PTG:
+Vars:
+9
+r7 1 83 
+$r3 1 63 
+r8 1 159 
+r4 1 67 
+$r2 1 59 
+r0 1 -1 
+r1 1 4 
+_ret 1 234 
+$r5 1 234 
+Fields: 6
+67 ArrayObject 159
+67 ArrayObject 83
+59 ArrayObject 63
+63 ArrayObject 67
+-1 charArray_length 59
+-1 source 4
+Accesses: 6
+0 1 -1 
+145 1 -1 
+5 1 -1 
+69 1 -1 
+58 1 -1 
+250 1 -1 
+Functions: 1
+241 2 4 234 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.pushUnicodeLineSeparator()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 10 
+Fields: 1
+-1 source 10
+Accesses: 7
+0 1 -1 
+33 1 -1 
+50 1 -1 
+39 1 -1 
+9 1 -1 
+25 1 -1 
+13 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.<init>(ZZZJJ[[C[[CZ)V
+PTG:
+Vars:
+15
+$r2 1 60 
+$r3 1 68 
+$r4 1 122 
+r14 1 348 
+$r12 1 370 
+r11 1 -8 
+$r6 1 180 
+$r1 1 52 
+r10 1 -7 
+r13 1 306 
+$r9 1 188 
+r0 1 -1 
+$r5 1 144 
+$r7 1 185 
+$r8 1 191 
+Fields: 4
+-8 ArrayObject 370
+180 ArrayObject 185
+185 ArrayObject 188
+-1 charArray_length 180
+Accesses: 43
+129 1 -1 
+385 1 -1 
+259 1 -1 
+6 1 -1 
+70 1 -1 
+134 1 -1 
+264 1 -1 
+11 1 -1 
+75 1 -1 
+269 1 -1 
+16 1 -1 
+80 1 -1 
+275 1 -1 
+148 1 -1 
+21 1 -1 
+85 1 -1 
+405 1 -1 
+153 1 -1 
+281 1 -1 
+26 1 -1 
+90 1 -1 
+411 1 -1 
+158 1 -1 
+286 1 -1 
+31 1 -1 
+95 1 -1 
+227 1 -1 
+36 1 -1 
+100 1 -1 
+232 1 -1 
+41 1 -1 
+105 1 -1 
+237 1 -1 
+46 1 -1 
+110 1 -1 
+242 1 -1 
+115 1 -1 
+179 1 -1 
+54 1 -1 
+247 1 -1 
+124 1 -1 
+252 1 -1 
+62 1 -1 
+Functions: 3
+1 4 -1 180 185 188 
+343 2 306 -7 
+399 1 -7 
+Constructors: 1
+1 -1
+
+Summary: 5
+6 5 -8 306 -1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.scanNumber(Z)I
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 1054 
+$r1 1 1054 
+$r6 1 1054 
+$r2 1 1054 
+Fields: 1
+-1 source 1054
+Accesses: 85
+513 1 -1 
+897 1 -1 
+258 1 -1 
+6 1 -1 
+134 1 -1 
+1159 1 -1 
+522 1 -1 
+1163 1 -1 
+269 1 -1 
+783 1 -1 
+273 1 -1 
+914 1 -1 
+787 1 -1 
+148 1 -1 
+277 1 -1 
+533 1 -1 
+791 1 -1 
+537 1 -1 
+1049 1 -1 
+26 1 -1 
+1180 1 -1 
+285 1 -1 
+541 1 -1 
+925 1 -1 
+1053 1 -1 
+799 1 -1 
+1057 1 -1 
+290 1 -1 
+804 1 -1 
+549 1 -1 
+1191 1 -1 
+40 1 -1 
+1065 1 -1 
+298 1 -1 
+554 1 -1 
+812 1 -1 
+302 1 -1 
+430 1 -1 
+1070 1 -1 
+816 1 -1 
+562 1 -1 
+566 1 -1 
+1078 1 -1 
+1082 1 -1 
+188 1 -1 
+444 1 -1 
+319 1 -1 
+192 1 -1 
+833 1 -1 
+196 1 -1 
+452 1 -1 
+583 1 -1 
+456 1 -1 
+330 1 -1 
+1099 1 -1 
+204 1 -1 
+460 1 -1 
+844 1 -1 
+209 1 -1 
+594 1 -1 
+468 1 -1 
+85 1 -1 
+853 1 -1 
+1110 1 -1 
+217 1 -1 
+473 1 -1 
+221 1 -1 
+1119 1 -1 
+864 1 -1 
+481 1 -1 
+868 1 -1 
+485 1 -1 
+872 1 -1 
+1130 1 -1 
+238 1 -1 
+1134 1 -1 
+880 1 -1 
+1138 1 -1 
+115 1 -1 
+885 1 -1 
+502 1 -1 
+249 1 -1 
+1146 1 -1 
+893 1 -1 
+1151 1 -1 
+Functions: 65
+768 2 -1 1054 
+385 2 -1 1054 
+1025 2 -1 1054 
+649 2 -1 1054 
+1034 2 -1 1054 
+139 2 -1 1054 
+908 2 -1 1054 
+15 2 -1 1054 
+402 0 
+1174 2 -1 1054 
+666 0 
+922 2 -1 1054 
+926 0 
+31 2 -1 1054 
+415 0 
+419 2 -1 1054 
+1188 2 -1 1054 
+1192 0 
+171 0 
+685 0 
+941 0 
+46 2 -1 1054 
+175 2 -1 1054 
+945 2 -1 1054 
+692 2 -1 1054 
+1207 0 
+952 2 -1 1054 
+313 2 -1 1054 
+699 2 -1 1054 
+827 2 -1 1054 
+1211 2 -1 1054 
+577 2 -1 1054 
+706 2 -1 1054 
+1218 2 -1 1054 
+69 0 
+1093 2 -1 1054 
+966 2 -1 1054 
+327 2 -1 1054 
+841 2 -1 1054 
+331 0 
+76 2 -1 1054 
+591 2 -1 1054 
+720 2 -1 1054 
+1232 2 -1 1054 
+595 0 
+1107 2 -1 1054 
+346 0 
+987 2 -1 1054 
+350 2 -1 1054 
+734 2 -1 1054 
+610 0 
+357 2 -1 1054 
+614 2 -1 1054 
+998 2 -1 1054 
+232 2 -1 1054 
+108 0 
+621 2 -1 1054 
+750 2 -1 1054 
+496 2 -1 1054 
+371 2 -1 1054 
+246 2 -1 1054 
+1016 2 -1 1054 
+761 2 -1 1054 
+635 2 -1 1054 
+510 2 -1 1054 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getNextCharAsDigit()Z
+PTG:
+Vars:
+4
+$r3 1 -1 
+$r1 1 20 
+r0 1 -1 
+$r2 1 20 
+Fields: 1
+-1 source 20
+Accesses: 18
+0 1 -1 
+4 1 -1 
+36 1 -1 
+132 1 -1 
+103 1 -1 
+74 1 -1 
+44 1 -1 
+108 1 -1 
+13 1 -1 
+77 1 -1 
+48 1 -1 
+19 1 -1 
+84 1 -1 
+23 1 -1 
+91 1 -1 
+124 1 -1 
+62 1 -1 
+31 1 -1 
+Functions: 4
+116 2 -1 20 
+59 2 -1 20 
+92 0 
+63 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getNextChar(CC)I
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 -1 
+$r1 1 20 
+$r2 1 20 
+Fields: 1
+-1 source 20
+Accesses: 20
+0 1 -1 
+163 1 -1 
+4 1 -1 
+36 1 -1 
+102 1 -1 
+171 1 -1 
+44 1 -1 
+76 1 -1 
+13 1 -1 
+141 1 -1 
+111 1 -1 
+48 1 -1 
+146 1 -1 
+19 1 -1 
+23 1 -1 
+92 1 -1 
+125 1 -1 
+62 1 -1 
+31 1 -1 
+95 1 -1 
+Functions: 2
+154 2 -1 20 
+59 2 -1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getCurrentTokenStartPosition()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.optimizedCurrentTokenSource4()[C
+PTG:
+Vars:
+9
+r7 1 71 
+$r5 1 204 
+r4 1 55 
+r8 1 138 
+$r3 1 51 
+r0 1 -1 
+_ret 1 204 
+r1 1 4 
+$r2 1 47 
+Fields: 6
+51 ArrayObject 55
+-1 charArray_length 47
+-1 source 4
+55 ArrayObject 71
+55 ArrayObject 138
+47 ArrayObject 51
+Accesses: 6
+0 1 -1 
+5 1 -1 
+57 1 -1 
+124 1 -1 
+220 1 -1 
+46 1 -1 
+Functions: 1
+211 2 4 204 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.scanIdentifier()I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r7 1 50 
+$r1 1 50 
+Fields: 1
+-1 source 50
+Accesses: 35
+65 1 -1 
+129 1 -1 
+257 1 -1 
+4 1 -1 
+68 1 -1 
+7 1 -1 
+72 1 -1 
+136 1 -1 
+264 1 -1 
+141 1 -1 
+79 1 -1 
+272 1 -1 
+17 1 -1 
+277 1 -1 
+23 1 -1 
+88 1 -1 
+92 1 -1 
+30 1 -1 
+288 1 -1 
+161 1 -1 
+34 1 -1 
+37 1 -1 
+41 1 -1 
+173 1 -1 
+365 1 -1 
+302 1 -1 
+112 1 -1 
+49 1 -1 
+53 1 -1 
+182 1 -1 
+120 1 -1 
+314 1 -1 
+443 1 -1 
+61 1 -1 
+317 1 -1 
+Functions: 11
+306 2 -1 50 
+386 2 -1 50 
+419 0 
+470 0 
+486 2 -1 50 
+343 2 -1 50 
+474 0 
+156 2 -1 50 
+460 0 
+413 0 
+382 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.unicodeStore()V
+PTG:
+Vars:
+7
+$r4 1 47 
+$r2 1 13 
+$r1 1 13 
+$r3 1 13 
+r0 1 -1 
+$r6 1 22 
+$r5 1 13 
+Fields: 1
+-1 withoutUnicodeBuffer 13
+Accesses: 9
+0 1 -1 
+50 1 -1 
+38 1 -1 
+8 1 -1 
+24 1 -1 
+58 1 -1 
+27 1 -1 
+12 1 -1 
+63 1 -1 
+Functions: 1
+55 2 13 47 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.jumpOverMethodBody()V
+PTG:
+Vars:
+46
+$r21 1 22 
+$r14 2 22 851 
+$r41 1 -1 
+$r26 2 511 22 
+r0 1 -1 
+$r15 2 821 22 
+$r34 1 -1 
+$r19 1 22 
+$r22 1 22 
+$r16 1 22 
+$r29 1 22 
+$r6 1 22 
+$r36 1 -1 
+$r4 1 1594 
+$r44 1 -1 
+$r49 1 22 
+$r31 1 1621 
+$r18 1 22 
+$r35 1 -1 
+$r7 1 22 
+$r1 1 22 
+$r47 2 605 22 
+$r43 1 -1 
+$r2 2 22 1538 
+$r42 1 -1 
+$r28 2 22 450 
+$r23 1 22 
+$r12 1 22 
+$r33 1 22 
+$r11 1 22 
+$r38 1 -1 
+$r8 1 22 
+$r10 1 22 
+$r51 2 1477 22 
+$r25 2 572 22 
+$r32 1 1640 
+$r45 1 22 
+$r27 2 22 536 
+$r20 1 22 
+$r3 2 1502 22 
+$r17 1 22 
+$r9 1 22 
+$r40 1 -1 
+$r30 1 1682 
+$r13 2 22 796 
+$r24 2 22 630 
+Fields: 2
+-1 commentTagStarts 1594
+-1 source 22
+Accesses: 174
+1025 1 -1 
+1537 1 -1 
+2 1 -1 
+514 1 -1 
+1282 1 -1 
+1541 1 -1 
+774 1 -1 
+263 1 -1 
+1287 1 -1 
+9 1 -1 
+522 1 -1 
+267 1 -1 
+1036 1 -1 
+13 1 -1 
+527 1 -1 
+1295 1 -1 
+1551 1 -1 
+784 1 -1 
+17 1 -1 
+275 1 -1 
+1299 1 -1 
+788 1 -1 
+21 1 -1 
+1558 1 -1 
+279 1 -1 
+535 1 -1 
+25 1 -1 
+1561 1 -1 
+539 1 -1 
+795 1 -1 
+799 1 -1 
+33 1 -1 
+38 1 -1 
+295 1 -1 
+807 1 -1 
+1063 1 -1 
+1322 1 -1 
+299 1 -1 
+556 1 -1 
+812 1 -1 
+46 1 -1 
+1070 1 -1 
+303 1 -1 
+50 1 -1 
+1331 1 -1 
+820 1 -1 
+311 1 -1 
+1335 1 -1 
+824 1 -1 
+1080 1 -1 
+1593 1 -1 
+571 1 -1 
+316 1 -1 
+1597 1 -1 
+575 1 -1 
+1087 1 -1 
+1345 1 -1 
+1091 1 -1 
+68 1 -1 
+324 1 -1 
+583 1 -1 
+328 1 -1 
+1352 1 -1 
+841 1 -1 
+1609 1 -1 
+75 1 -1 
+587 1 -1 
+1355 1 -1 
+1102 1 -1 
+850 1 -1 
+84 1 -1 
+1109 1 -1 
+854 1 -1 
+600 1 -1 
+345 1 -1 
+604 1 -1 
+1116 1 -1 
+1373 1 -1 
+608 1 -1 
+864 1 -1 
+97 1 -1 
+1382 1 -1 
+871 1 -1 
+616 1 -1 
+874 1 -1 
+109 1 -1 
+621 1 -1 
+1391 1 -1 
+1137 1 -1 
+883 1 -1 
+372 1 -1 
+629 1 -1 
+1141 1 -1 
+376 1 -1 
+633 1 -1 
+1145 1 -1 
+380 1 -1 
+892 1 -1 
+1153 1 -1 
+388 1 -1 
+901 1 -1 
+1158 1 -1 
+1414 1 -1 
+1671 1 -1 
+393 1 -1 
+905 1 -1 
+650 1 -1 
+1166 1 -1 
+912 1 -1 
+401 1 -1 
+1170 1 -1 
+916 1 -1 
+405 1 -1 
+665 1 -1 
+926 1 -1 
+933 1 -1 
+422 1 -1 
+1193 1 -1 
+939 1 -1 
+945 1 -1 
+1204 1 -1 
+693 1 -1 
+949 1 -1 
+440 1 -1 
+697 1 -1 
+189 1 -1 
+701 1 -1 
+1469 1 -1 
+959 1 -1 
+449 1 -1 
+705 1 -1 
+963 1 -1 
+1219 1 -1 
+1476 1 -1 
+453 1 -1 
+198 1 -1 
+1480 1 -1 
+713 1 -1 
+202 1 -1 
+1228 1 -1 
+206 1 -1 
+718 1 -1 
+463 1 -1 
+1488 1 -1 
+1237 1 -1 
+1493 1 -1 
+214 1 -1 
+470 1 -1 
+726 1 -1 
+730 1 -1 
+219 1 -1 
+476 1 -1 
+989 1 -1 
+1501 1 -1 
+1505 1 -1 
+227 1 -1 
+996 1 -1 
+231 1 -1 
+488 1 -1 
+744 1 -1 
+1005 1 -1 
+1263 1 -1 
+497 1 -1 
+753 1 -1 
+757 1 -1 
+1014 1 -1 
+1270 1 -1 
+248 1 -1 
+1528 1 -1 
+506 1 -1 
+1274 1 -1 
+1021 1 -1 
+510 1 -1 
+767 1 -1 
+Functions: 44
+256 3 -1 22 1594 
+1411 3 -1 22 1594 
+644 3 -1 22 1594 
+838 3 -1 22 1594 
+1033 3 -1 22 1594 
+1099 3 -1 22 1594 
+1742 0 
+591 3 -1 22 1594 
+658 3 -1 22 1594 
+339 3 -1 22 1594 
+979 3 -1 22 1594 
+1688 1 1682 
+1049 3 -1 22 1594 
+986 3 -1 22 1594 
+1754 3 -1 22 1594 
+283 3 -1 22 1594 
+1692 3 -1 22 1594 
+1181 3 -1 22 1594 
+94 3 -1 22 1594 
+1310 3 -1 22 1594 
+416 3 -1 22 1594 
+1056 3 -1 22 1594 
+353 3 -1 22 1594 
+1633 3 -1 22 1594 
+98 0 
+1250 3 -1 22 1594 
+741 3 -1 22 1594 
+550 3 -1 22 1594 
+679 3 -1 22 1594 
+1257 3 -1 22 1594 
+363 3 -1 22 1594 
+1516 3 -1 22 1594 
+430 3 -1 22 1594 
+1455 3 -1 22 1594 
+1201 3 -1 22 1594 
+178 3 -1 22 1594 
+242 3 -1 22 1594 
+564 3 -1 22 1594 
+1652 3 -1 22 1594 
+1077 3 -1 22 1594 
+1717 0 
+1590 3 -1 22 1594 
+60 3 -1 22 1594 
+1404 3 -1 22 1594 
+Constructors: 1
+1688 1682
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.setSource(Lorg/eclipse/jdt/internal/compiler/CompilationResult;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.<init>(ZZZJ[[C[[CZ)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -6 
+r2 1 -7 
+Fields: 0
+Accesses: 0
+Functions: 1
+14 3 -1 -6 -7 
+Constructors: 1
+14 -1
+
+Summary: 5
+4 -7 5 -1 -6 
+org/eclipse/jdt/internal/compiler/parser/Scanner.optimizedCurrentTokenSource1()[C
+PTG:
+Vars:
+4
+$r1 1 1 
+$r28 1 233 
+_ret 1 233 
+r0 1 -1 
+Fields: 1
+-1 source 1
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.<clinit>()V
+PTG:
+Vars:
+31
+$r23 1 249 
+$r25 1 271 
+$r14 1 150 
+$r8 1 84 
+$r21 1 227 
+$r11 1 117 
+$r20 1 216 
+$r9 1 95 
+$r12 1 128 
+$r0 1 0 
+$r1 1 7 
+$r2 1 18 
+$r24 1 260 
+$r15 1 161 
+$r30 1 307 
+$r16 1 172 
+$r26 1 282 
+$r28 1 299 
+$r10 1 106 
+$r3 1 29 
+$r17 1 183 
+$r22 1 238 
+$r13 1 139 
+$r29 1 301 
+$r19 1 205 
+$r6 1 62 
+$r7 1 73 
+$r4 1 40 
+$r5 1 51 
+$r18 1 194 
+$r27 1 294 
+Fields: 0
+Accesses: 0
+Functions: 1
+299 1 299 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/parser/Scanner.getNLSTags()[Lorg/eclipse/jdt/internal/compiler/parser/NLSTag;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+27 1 -1 
+14 1 -1 
+Functions: 1
+22 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 1 -1 
+Constructors: 1
+10 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.isFirstTag()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.toString()Ljava/lang/String;
+PTG:
+Vars:
+18
+$r5 1 224 
+$r13 1 274 
+r0 1 -1 
+$r8 1 245 
+r31 2 154 177 
+$r4 1 121 
+$r11 1 262 
+r1 1 117 
+$r2 1 121 
+$r14 1 277 
+$r7 1 236 
+$r9 1 248 
+$r6 1 228 
+$r10 1 256 
+$r15 1 121 
+_ret 1 277 
+r3 1 189 
+$r12 1 265 
+Fields: 1
+-1 source 121
+Accesses: 21
+0 1 -1 
+64 1 -1 
+161 1 -1 
+193 1 -1 
+99 1 -1 
+4 1 -1 
+197 1 -1 
+134 1 -1 
+39 1 -1 
+43 1 -1 
+140 1 -1 
+78 1 -1 
+208 1 -1 
+113 1 -1 
+178 1 -1 
+212 1 -1 
+182 1 -1 
+120 1 -1 
+25 1 -1 
+157 1 -1 
+127 1 -1 
+Functions: 25
+256 1 256 
+131 2 117 121 
+68 0 
+262 2 262 265 
+71 0 
+11 0 
+271 2 265 189 
+18 0 
+274 1 274 
+85 0 
+92 0 
+29 0 
+221 2 121 189 
+32 0 
+224 1 224 
+228 1 228 
+103 0 
+168 3 177 121 154 
+233 2 228 117 
+106 0 
+239 2 224 236 
+50 0 
+245 2 245 248 
+57 0 
+253 3 177 248 154 
+Constructors: 4
+233 228
+253 248
+239 224
+271 265
+
+Summary: 7
+228 21 95 248 60 265 -1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.setSource([CLorg/eclipse/jdt/internal/compiler/CompilationResult;)V
+PTG:
+Vars:
+6
+r2 1 -3 
+r4 1 13 
+r1 1 -1 
+r5 1 31 
+r0 1 -2 
+$r3 1 5 
+Fields: 2
+-3 lineSeparatorPositions 31
+-3 compilationUnit 5
+Accesses: 4
+4 1 -3 
+38 1 -1 
+27 1 -3 
+46 1 -1 
+Functions: 3
+16 2 -1 13 
+5 1 5 
+24 2 -1 -2 
+Constructors: 0
+
+Summary: 6
+-3 -2 13 0 -1 1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.optimizedCurrentTokenSource2()[C
+PTG:
+Vars:
+9
+$r2 1 33 
+$r5 1 154 
+r1 1 4 
+r8 1 106 
+r4 1 41 
+r7 1 57 
+$r3 1 37 
+_ret 1 154 
+r0 1 -1 
+Fields: 6
+37 ArrayObject 41
+41 ArrayObject 106
+41 ArrayObject 57
+33 ArrayObject 37
+-1 charArray_length 33
+-1 source 4
+Accesses: 6
+0 1 -1 
+32 1 -1 
+5 1 -1 
+170 1 -1 
+43 1 -1 
+92 1 -1 
+Functions: 1
+161 2 4 154 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/Scanner.getCurrentTokenEndPosition()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

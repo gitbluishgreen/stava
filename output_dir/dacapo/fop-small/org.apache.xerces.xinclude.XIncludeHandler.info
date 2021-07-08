@@ -1,0 +1,3279 @@
+112
+org/apache/xerces/xinclude/XIncludeHandler.comment(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r4 1 8 
+$r3 1 63 
+r7 1 37 
+$r1 1 63 
+$r5 1 8 
+r6 1 -3 
+r2 1 -2 
+Fields: 2
+-1 fDocumentHandler 8
+-1 fDTDHandler 63
+Accesses: 9
+0 1 -1 
+49 1 -1 
+69 1 -1 
+22 1 -1 
+38 1 -1 
+7 1 -1 
+56 1 -1 
+29 1 -1 
+62 1 -1 
+Functions: 4
+32 4 -1 -3 8 63 
+75 3 -2 -3 63 
+44 3 -2 37 8 
+14 3 -1 8 63 
+Constructors: 0
+
+Summary: 6
+-2 -3 37 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.ignoredCharacters(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+5
+$r4 1 1 
+r0 1 -1 
+r3 1 -3 
+r2 1 -2 
+$r1 1 1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+13 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.checkAndSendUnparsedEntity(Lorg/apache/xerces/xinclude/XIncludeHandler$UnparsedEntity;)V
+PTG:
+Vars:
+22
+r22 1 106 
+r1 1 -2 
+$r15 1 47 
+$r6 1 126 
+$r10 1 34 
+$r17 1 56 
+$r3 1 8 
+$r12 1 26 
+$r7 1 132 
+r0 1 -1 
+$r9 1 38 
+$r14 1 52 
+$r13 1 56 
+$r20 1 70 
+$r8 1 21 
+$r19 1 47 
+$r4 1 8 
+$r5 1 106 
+$r11 1 30 
+$r16 1 70 
+$r2 1 143 
+$r18 1 52 
+Fields: 11
+-2 notation 52
+-2 publicId 26
+-2 baseURI 34
+-2 expandedSystemId 38
+-2 systemId 30
+-2 name 47
+-2 name 132
+-2 augmentations 56
+-1 fUnparsedEntities 8
+-1 fParentXIncludeHandler 143
+-1 fDTDHandler 70
+Accesses: 17
+33 1 -2 
+131 1 -2 
+37 1 -2 
+69 1 -1 
+101 1 -1 
+7 1 -1 
+76 1 -1 
+46 1 -2 
+142 1 -1 
+80 1 -2 
+51 1 -2 
+85 1 -2 
+55 1 -2 
+25 1 -2 
+89 1 -2 
+29 1 -2 
+62 1 -1 
+Functions: 9
+0 4 -1 70 8 143 
+113 10 -2 34 52 132 38 56 26 106 30 47 
+147 10 -2 34 52 132 38 56 26 30 143 47 
+102 1 8 
+8 10 -2 34 52 132 38 8 56 26 30 47 
+136 5 -1 70 8 126 143 
+41 5 34 21 38 26 30 
+59 8 -1 52 21 70 8 56 143 47 
+93 5 52 21 70 56 47 
+Constructors: 1
+41 21
+
+Summary: 13
+-1 38 34 106 126 -2 26 56 21 47 0 52 30 
+org/apache/xerces/xinclude/XIncludeHandler.characters(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+6
+$r1 1 24 
+r2 1 -2 
+r4 1 -3 
+$r3 1 24 
+r5 1 45 
+r0 1 -1 
+Fields: 1
+-1 fDocumentHandler 24
+Accesses: 7
+64 1 -1 
+37 1 -1 
+23 1 -1 
+8 1 -1 
+57 1 -1 
+30 1 -1 
+46 1 -1 
+Functions: 4
+0 2 -1 24 
+17 3 -1 -2 24 
+52 3 -2 24 45 
+40 3 -1 -3 24 
+Constructors: 0
+
+Summary: 6
+-2 -3 -1 0 45 1 
+org/apache/xerces/xinclude/XIncludeHandler.getIncludeParentBaseURI()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 26 
+_ret 1 26 
+Fields: 0
+Accesses: 1
+16 1 -1 
+Functions: 4
+0 1 -1 
+17 0 
+5 1 -1 
+24 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.getPropertyDefault(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+$r3 1 9 
+$r0 1 27 
+r2 1 -2 
+$r1 1 5 
+r6 1 -1 
+Fields: 1
+5 ArrayObject 9
+Accesses: 0
+Functions: 1
+9 2 -2 9 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/xinclude/XIncludeHandler.startGeneralEntity(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+9
+$r7 1 20 
+r5 1 -5 
+$r6 1 48 
+$r1 1 48 
+r0 1 -1 
+$r8 1 27 
+r2 1 -2 
+r3 1 -3 
+r4 1 -4 
+Fields: 1
+-1 fDocumentHandler 48
+Accesses: 3
+54 1 -1 
+8 1 -1 
+47 1 -1 
+Functions: 5
+0 2 -1 48 
+20 2 20 27 
+23 1 -5 
+41 2 -1 48 
+63 5 48 -2 -3 -4 -5 
+Constructors: 0
+
+Summary: 10
+-2 -3 2 -1 27 -4 3 0 -5 1 
+org/apache/xerces/xinclude/XIncludeHandler.endCDATA(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+$r3 1 1 
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+15 1 -1 
+Functions: 2
+7 2 -1 1 
+27 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/xinclude/XIncludeHandler.checkWhitespace(Lorg/apache/xerces/xni/XMLString;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 19 
+r2 1 -1 
+Fields: 1
+-2 ch 19
+Accesses: 4
+0 1 -2 
+18 1 -2 
+4 1 -2 
+10 1 -2 
+Functions: 2
+34 1 -1 
+23 0 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 19 
+org/apache/xerces/xinclude/XIncludeHandler.startExternalSubset(Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 -3 
+r2 1 -2 
+$r4 1 1 
+$r1 1 1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+13 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.isTopLevelIncludedItem()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+7 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.sameBaseURIAsIncludeParent()Z
+PTG:
+Vars:
+4
+$r2 1 6 
+r1 1 4 
+r3 1 14 
+r0 1 -1 
+Fields: 1
+-1 fCurrentBaseURI 6
+Accesses: 1
+5 1 -1 
+Functions: 3
+0 2 -1 6 
+19 2 4 14 
+6 1 6 
+Constructors: 0
+
+Summary: 3
+-1 14 4 
+org/apache/xerces/xinclude/XIncludeHandler.getResultDepth()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.reset(Lorg/apache/xerces/xni/parser/XMLComponentManager;)V
+PTG:
+Vars:
+65
+$r12 1 149 
+$r41 1 218 
+$r60 1 -1 
+$r19 1 218 
+$r36 1 218 
+$r45 1 218 
+$r10 1 125 
+$r27 1 644 
+$r17 1 218 
+$r21 1 389 
+$r26 1 610 
+$r24 1 551 
+$r52 1 631 
+$r35 1 218 
+$r49 1 -1 
+$r18 1 218 
+$r28 1 662 
+$r6 1 81 
+$r57 1 -1 
+$r4 1 67 
+$r51 1 631 
+$r33 1 662 
+r16 1 -2 
+$r59 1 -1 
+$r53 1 -1 
+$r15 2 176 163 
+$r23 1 497 
+$r43 1 218 
+$r25 1 610 
+r73 1 551 
+r69 1 443 
+$r50 1 -1 
+$r11 2 114 125 
+r65 1 335 
+$r44 1 218 
+$r56 1 -1 
+$r42 1 218 
+$r3 1 40 
+$r40 1 218 
+r67 1 389 
+$r47 1 218 
+$r30 1 693 
+$r32 1 693 
+$r37 1 218 
+$r13 2 138 149 
+$r20 1 335 
+$r54 1 -1 
+$r9 1 102 
+$r39 1 218 
+$r5 1 74 
+$r22 1 443 
+$r14 1 176 
+$r29 1 680 
+$r8 1 95 
+$r1 1 23 
+$r2 1 33 
+$r31 1 693 
+$r55 1 -1 
+$r7 1 88 
+r71 1 497 
+$r38 1 218 
+$r58 1 -1 
+$r34 1 644 
+$r46 1 218 
+r0 1 -1 
+Fields: 16
+-1 fSettings 693
+-1 fSawInclude 176
+-1 fXInclude10TextReader 644
+-1 fState 125
+-1 fXInclude11TextReader 662
+-1 fBaseURIScope 67
+-1 fLanguageScope 95
+-1 fLanguageStack 102
+-1 fParentXIncludeHandler 23
+-1 fBaseURI 74
+-1 fLiteralSystemID 81
+-1 fUnparsedEntities 40
+-1 fChildConfig 218
+-1 fSawFallback 149
+-1 fExpandedSystemID 88
+-1 fNotations 33
+Accesses: 67
+256 1 -1 
+640 1 -1 
+2 1 -1 
+515 1 -1 
+643 1 -1 
+518 1 -1 
+7 1 -1 
+263 1 -1 
+137 1 -1 
+650 1 -1 
+269 1 -1 
+525 1 -1 
+654 1 -1 
+148 1 -1 
+661 1 -1 
+22 1 -1 
+410 1 -1 
+668 1 -1 
+29 1 -1 
+285 1 -1 
+32 1 -1 
+672 1 -1 
+417 1 -1 
+545 1 -1 
+162 1 -1 
+39 1 -1 
+297 1 -1 
+300 1 -1 
+175 1 -1 
+687 1 -1 
+48 1 -1 
+307 1 -1 
+692 1 -1 
+53 1 -1 
+437 1 -1 
+313 1 -1 
+58 1 -1 
+63 1 -1 
+66 1 -1 
+580 1 -1 
+710 1 -1 
+583 1 -1 
+73 1 -1 
+329 1 -1 
+202 1 -1 
+461 1 -1 
+590 1 -1 
+80 1 -1 
+464 1 -1 
+214 1 -1 
+87 1 -1 
+471 1 -1 
+217 1 -1 
+731 1 -1 
+94 1 -1 
+224 1 -1 
+353 1 -1 
+356 1 -1 
+101 1 -1 
+230 1 -1 
+363 1 -1 
+491 1 -1 
+619 1 -1 
+113 1 -1 
+124 1 -1 
+253 1 -1 
+383 1 -1 
+Functions: 42
+386 1 -2 
+70 1 67 
+11 17 -1 33 67 644 102 40 74 176 81 693 149 662 23 88 218 125 95 
+332 1 -2 
+77 1 74 
+717 1 693 
+206 1 -2 
+720 1 -2 
+273 1 218 
+658 1 644 
+84 1 81 
+533 2 497 218 
+598 2 551 218 
+23 1 23 
+407 18 -1 33 67 644 389 102 40 74 176 81 693 149 662 23 88 218 125 95 
+91 1 88 
+479 2 218 443 
+607 17 -1 33 67 644 102 40 74 176 81 693 149 662 23 88 218 125 95 
+289 1 -2 
+98 1 95 
+738 1 693 
+36 1 33 
+548 1 -2 
+676 1 662 
+613 1 610 
+105 1 102 
+425 2 389 218 
+234 1 218 
+43 1 40 
+684 1 680 
+494 1 -2 
+371 2 218 335 
+628 17 -1 33 67 644 102 40 74 176 81 693 149 662 23 88 218 125 95 
+245 1 -2 
+566 1 551 
+183 1 -2 
+440 1 -2 
+696 18 -1 33 -2 67 644 102 40 74 176 81 693 149 662 23 88 218 125 95 
+634 1 631 
+699 1 -2 
+317 1 218 
+575 1 551 
+Constructors: 1
+684 680
+
+Summary: 7
+631 610 551 -1 389 -2 0 
+org/apache/xerces/xinclude/XIncludeHandler.doctypeDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+7
+r5 1 -5 
+$r1 1 8 
+r2 1 -2 
+r3 1 -3 
+r4 1 -4 
+$r6 1 8 
+r0 1 -1 
+Fields: 1
+-1 fDocumentHandler 8
+Accesses: 2
+7 1 -1 
+14 1 -1 
+Functions: 2
+0 2 -1 8 
+23 5 -2 -3 -4 -5 8 
+Constructors: 0
+
+Summary: 9
+-2 -3 2 -1 -4 3 0 -5 1 
+org/apache/xerces/xinclude/XIncludeHandler.startConditional(SLorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+$r3 1 1 
+$r1 1 1 
+r0 1 -1 
+r2 1 -3 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+13 2 1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+org/apache/xerces/xinclude/XIncludeHandler.setSawInclude(IZ)V
+PTG:
+Vars:
+6
+$r2 1 2 
+$r4 1 2 
+r0 1 -1 
+r3 1 12 
+$r5 1 2 
+$r1 1 2 
+Fields: 1
+-1 fSawInclude 2
+Accesses: 5
+32 1 -1 
+1 1 -1 
+35 1 -1 
+22 1 -1 
+15 1 -1 
+Functions: 1
+27 2 2 12 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.addUnparsedEntity(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+11
+r2 1 -2 
+r8 1 -4 
+r9 1 -5 
+$r0 1 0 
+$r6 1 40 
+$r4 1 18 
+$r11 1 73 
+$r5 1 29 
+r10 1 -1 
+$r7 1 51 
+r3 1 -3 
+Fields: 1
+-1 fUnparsedEntities 73
+Accesses: 8
+34 1 0 
+69 1 0 
+23 1 0 
+56 1 0 
+72 1 -1 
+12 1 0 
+45 1 0 
+62 1 0 
+Functions: 6
+17 1 -3 
+50 1 -3 
+4 1 0 
+39 1 -3 
+28 1 -3 
+78 2 0 73 
+Constructors: 1
+4 0
+
+Summary: 7
+-3 2 -1 3 0 1 0 
+org/apache/xerces/xinclude/XIncludeHandler.getRootElementProcessed()Z
+PTG:
+Vars:
+2
+$r1 1 15 
+r0 1 -1 
+Fields: 1
+-1 fParentXIncludeHandler 15
+Accesses: 2
+7 1 -1 
+14 1 -1 
+Functions: 2
+0 2 -1 15 
+15 1 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.processXMLLangAttributes(Lorg/apache/xerces/xni/XMLAttributes;)V
+PTG:
+Vars:
+5
+r2 1 12 
+$r4 1 24 
+$r1 1 1 
+r0 1 -2 
+r3 1 -1 
+Fields: 1
+-1 fCurrentLanguage 24
+Accesses: 2
+19 1 -1 
+23 1 -1 
+Functions: 2
+0 2 -2 1 
+27 2 -1 24 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/xinclude/XIncludeHandler.getIncludeParentLanguage()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 26 
+$r1 1 26 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+16 1 -1 
+Functions: 4
+0 1 -1 
+17 0 
+5 1 -1 
+24 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.saveLanguage(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+$r3 1 12 
+Fields: 2
+-1 fLanguageScope 1
+-1 fLanguageStack 12
+Accesses: 3
+0 1 -1 
+4 1 -1 
+11 1 -1 
+Functions: 2
+16 2 -2 12 
+8 1 1 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/xinclude/XIncludeHandler.getLanguage(I)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r3 1 11 
+_ret 1 11 
+r0 1 -1 
+$r2 1 11 
+$r1 1 7 
+Fields: 1
+-1 fLanguageStack 7
+Accesses: 1
+6 1 -1 
+Functions: 2
+0 2 -1 7 
+7 1 7 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.endExternalSubset(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+$r3 1 1 
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/xinclude/XIncludeHandler.modifyAugmentations(Lorg/apache/xerces/xni/Augmentations;)Lorg/apache/xerces/xni/Augmentations;
+PTG:
+Vars:
+4
+_ret 1 3 
+r0 1 -1 
+r1 1 -2 
+$r2 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/xinclude/XIncludeHandler.endDTD(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+$r3 1 1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+7 1 -1 
+Functions: 1
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/xinclude/XIncludeHandler.escapeHref(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+14
+$r5 1 76 
+$r1 1 5 
+$r12 1 334 
+$r8 1 349 
+_ret 1 -2 
+r15 1 273 
+$r10 1 380 
+$r11 1 321 
+$r3 1 47 
+$r7 1 264 
+$r4 1 65 
+r14 1 -1 
+r0 1 -2 
+$r9 1 368 
+Fields: 0
+Accesses: 0
+Functions: 23
+0 1 -2 
+386 1 5 
+420 1 5 
+261 1 -2 
+70 1 5 
+198 1 -2 
+264 1 264 
+328 1 5 
+362 1 5 
+12 1 5 
+206 0 
+398 1 5 
+81 1 5 
+118 1 -2 
+182 0 
+342 1 5 
+374 1 5 
+23 1 -2 
+218 0 
+59 1 5 
+315 1 5 
+411 1 5 
+92 1 5 
+Constructors: 1
+12 5
+
+Summary: 3
+273 264 -1 
+org/apache/xerces/xinclude/XIncludeHandler.isFallbackElement(Lorg/apache/xerces/xni/QName;)Z
+PTG:
+Vars:
+4
+$r1 1 4 
+r3 1 -1 
+r0 1 -2 
+$r2 1 1 
+Fields: 1
+-2 localpart 1
+Accesses: 1
+0 1 -2 
+Functions: 2
+1 2 1 4 
+13 3 -1 -2 1 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.setParent(Lorg/apache/xerces/xinclude/XIncludeHandler;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.setState(I)V
+PTG:
+Vars:
+6
+$r5 1 5 
+$r2 1 5 
+r0 1 -1 
+$r1 1 5 
+r3 1 18 
+$r4 1 5 
+Fields: 1
+-1 fState 5
+Accesses: 8
+0 1 -1 
+4 1 -1 
+21 1 -1 
+38 1 -1 
+41 1 -1 
+12 1 -1 
+28 1 -1 
+45 1 -1 
+Functions: 1
+33 2 18 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.isTopLevelIncludedItemViaFallback()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.startCDATA(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r1 1 1 
+$r3 1 1 
+r0 1 -1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+15 1 -1 
+Functions: 2
+7 2 -1 1 
+27 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/xinclude/XIncludeHandler.getFeatureDefault(Ljava/lang/String;)Ljava/lang/Boolean;
+PTG:
+Vars:
+5
+$r1 1 5 
+r6 1 -1 
+$r3 1 9 
+r2 1 -2 
+$r0 1 27 
+Fields: 1
+5 ArrayObject 9
+Accesses: 0
+Functions: 1
+9 2 -2 9 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/xinclude/XIncludeHandler.getDTDSource()Lorg/apache/xerces/xni/parser/XMLDTDSource;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fDTDSource 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.scopeOfLanguage(I)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 2 14 1 
+$r1 1 1 
+Fields: 1
+-1 fLanguageScope 1
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 2
+1 1 1 
+14 2 1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.attributeDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+11
+r3 1 -3 
+r2 1 -2 
+r6 1 -6 
+$r1 1 1 
+r4 1 -4 
+$r10 1 1 
+r7 1 -7 
+r8 1 -8 
+r9 1 -9 
+r0 1 -1 
+r5 1 -5 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+24 9 1 -2 -3 -4 -5 -6 -7 -8 -9 
+Constructors: 0
+
+Summary: 17
+7 -3 2 -8 -1 -9 4 5 -2 6 -7 -4 3 0 -5 1 -6 
+org/apache/xerces/xinclude/XIncludeHandler.sameLanguageAsIncludeParent()Z
+PTG:
+Vars:
+3
+$r2 1 11 
+r1 1 4 
+r0 1 -1 
+Fields: 1
+-1 fCurrentLanguage 11
+Accesses: 1
+10 1 -1 
+Functions: 2
+0 2 -1 11 
+9 2 4 11 
+Constructors: 0
+
+Summary: 2
+-1 4 
+org/apache/xerces/xinclude/XIncludeHandler.getRecognizedProperties()[Ljava/lang/String;
+PTG:
+Vars:
+5
+r3 1 -1 
+_ret 1 3 
+$r1 1 3 
+$r2 1 3 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.getRelativeURI(I)Ljava/lang/String;
+PTG:
+Vars:
+14
+$r4 1 35 
+$r5 1 35 
+_ret 1 90 
+$r8 2 59 31 
+$r1 1 10 
+$r2 1 23 
+$r9 1 64 
+$r7 1 53 
+$r11 1 90 
+r0 1 -1 
+$r6 1 10 
+r12 2 23 53 
+$r3 1 31 
+$r10 1 64 
+Fields: 2
+-1 fLiteralSystemID 31
+-1 fBaseURIScope 10
+Accesses: 4
+9 1 -1 
+58 1 -1 
+30 1 -1 
+79 1 -1 
+Functions: 8
+0 3 -1 10 31 
+80 1 10 
+70 3 64 53 23 
+41 2 35 23 
+89 2 53 23 
+10 1 10 
+59 2 59 31 
+31 1 31 
+Constructors: 2
+70 53
+41 23
+
+Summary: 5
+35 -1 23 64 53 
+org/apache/xerces/xinclude/XIncludeHandler.setDocumentHandler(Lorg/apache/xerces/xni/XMLDocumentHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/xerces/xinclude/XIncludeHandler.startParameterEntity(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+7
+r5 1 -5 
+r0 1 -1 
+r2 1 -2 
+r3 1 -3 
+$r1 1 1 
+$r6 1 1 
+r4 1 -4 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+16 5 1 -2 -3 -4 -5 
+Constructors: 0
+
+Summary: 9
+-2 -3 2 -1 -4 3 0 -5 1 
+org/apache/xerces/xinclude/XIncludeHandler.ignorableWhitespace(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 -3 
+r2 1 -2 
+$r1 1 1 
+$r4 1 1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+15 1 -1 
+Functions: 2
+7 2 -1 1 
+28 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.searchForRecursiveIncludes(Lorg/apache/xerces/xni/XMLLocator;)Z
+PTG:
+Vars:
+10
+$r4 1 12 
+r0 1 -2 
+$r9 1 41 
+r8 2 27 6 
+$r6 1 -1 
+$r2 1 58 
+$r10 1 44 
+$r5 1 18 
+r1 1 -1 
+$r3 1 58 
+Fields: 2
+-1 fCurrentBaseURI 41
+-1 fParentXIncludeHandler 58
+Accesses: 3
+66 1 -1 
+40 1 -1 
+57 1 -1 
+Functions: 8
+0 1 -2 
+17 1 -2 
+67 2 -2 58 
+36 3 -1 41 58 
+23 2 18 12 
+39 3 6 27 44 
+41 1 41 
+11 1 -2 
+Constructors: 0
+
+Summary: 8
+-2 -1 27 44 0 12 6 18 
+org/apache/xerces/xinclude/XIncludeHandler.addNotation(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+10
+$r6 1 40 
+$r10 1 66 
+r9 1 -1 
+r3 1 -3 
+$r5 1 29 
+$r4 1 18 
+r2 1 -2 
+r8 1 -4 
+$r0 1 0 
+$r7 1 51 
+Fields: 1
+-1 fNotations 66
+Accesses: 7
+65 1 -1 
+34 1 0 
+23 1 0 
+56 1 0 
+12 1 0 
+45 1 0 
+62 1 0 
+Functions: 6
+17 1 -3 
+50 1 -3 
+4 1 0 
+39 1 -3 
+71 2 0 66 
+28 1 -3 
+Constructors: 1
+4 0
+
+Summary: 6
+-3 2 -1 0 1 0 
+org/apache/xerces/xinclude/XIncludeHandler.elementDecl(Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+6
+r3 1 -3 
+r4 1 -4 
+$r1 1 1 
+r2 1 -2 
+$r5 1 1 
+r0 1 -1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+14 4 1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-2 -3 2 -1 -4 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.getSawInclude(I)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 2 
+$r2 1 2 
+Fields: 1
+-1 fSawInclude 2
+Accesses: 2
+1 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.isEqual(Ljava/lang/String;Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+9 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.getRelativeBaseURI()Ljava/lang/String;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r26 1 31 
+_ret 2 39 10 
+r27 2 39 10 
+Fields: 1
+-1 fCurrentBaseURI 31
+Accesses: 6
+81 1 -1 
+52 1 -1 
+59 1 -1 
+44 1 -1 
+30 1 -1 
+62 1 -1 
+Functions: 26
+0 2 -1 31 
+192 0 
+5 2 -1 31 
+133 0 
+11 2 -1 31 
+140 2 -1 31 
+206 0 
+20 2 39 10 
+86 0 
+151 0 
+219 0 
+157 0 
+31 1 31 
+96 2 39 10 
+227 0 
+164 0 
+101 0 
+107 0 
+171 0 
+240 0 
+114 2 -1 31 
+53 0 
+248 0 
+252 0 
+63 0 
+127 0 
+Constructors: 0
+
+Summary: 9
+-1 176 90 105 77 169 112 138 131 
+org/apache/xerces/xinclude/XIncludeHandler.processXMLBaseAttributes(Lorg/apache/xerces/xni/XMLAttributes;)V
+PTG:
+Vars:
+13
+r0 1 -2 
+$r7 1 19 
+$r1 1 1 
+r12 1 31 
+$r10 1 19 
+$r4 1 19 
+$r5 1 22 
+$r8 1 19 
+r2 1 12 
+$r6 1 19 
+$r9 1 50 
+$r11 1 -1 
+r3 1 -1 
+Fields: 1
+-1 fCurrentBaseURI 19
+Accesses: 5
+32 1 -1 
+18 1 -1 
+42 1 -1 
+60 1 -1 
+46 1 -1 
+Functions: 8
+0 2 -2 1 
+65 2 19 31 
+19 1 19 
+37 2 19 12 
+55 2 50 19 
+71 2 -1 19 
+27 2 22 12 
+47 1 19 
+Constructors: 0
+
+Summary: 7
+22 -2 31 -1 50 0 12 
+org/apache/xerces/xinclude/XIncludeHandler.isTopLevelIncludedItemViaInclude()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+8 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.emptyElement(Lorg/apache/xerces/xni/QName;Lorg/apache/xerces/xni/XMLAttributes;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+18
+r11 1 -3 
+r1 1 -2 
+$r9 1 150 
+$r2 1 317 
+r15 1 277 
+r16 1 283 
+$r4 1 266 
+$r17 1 317 
+$r7 1 180 
+$r6 1 213 
+$r3 1 266 
+r14 1 230 
+r0 1 -1 
+$r10 1 156 
+$r5 1 213 
+r13 1 224 
+$r8 1 156 
+r12 1 -4 
+Fields: 4
+-2 rawname 156
+-1 fBaseURIScope 317
+-1 fDocumentHandler 213
+-1 fDocumentHandler 266
+Accesses: 22
+0 1 -1 
+164 1 -1 
+134 1 -1 
+326 1 -1 
+7 1 -1 
+231 1 -1 
+201 1 -1 
+265 1 -1 
+297 1 -1 
+330 1 -1 
+11 1 -1 
+212 1 -1 
+308 1 -1 
+344 1 -1 
+185 1 -2 
+155 1 -2 
+284 1 -1 
+316 1 -1 
+29 1 -1 
+61 1 -1 
+254 1 -1 
+351 1 -1 
+Functions: 32
+193 4 -1 213 266 317 
+133 4 -1 213 266 317 
+70 5 -1 -3 213 266 317 
+262 4 -1 213 266 317 
+73 6 -1 -2 213 266 156 317 
+10 4 -1 213 266 317 
+331 1 317 
+272 5 -1 -4 213 266 317 
+81 5 -1 -3 213 266 317 
+209 4 -1 213 266 317 
+341 4 -1 213 266 317 
+278 5 -1 -3 213 266 317 
+219 5 -1 -4 213 266 317 
+28 4 -1 213 266 317 
+95 4 -1 213 266 317 
+160 5 -1 213 150 266 317 
+225 5 -1 -3 213 266 317 
+163 4 -1 213 266 317 
+291 5 -2 277 266 283 156 
+104 4 -1 213 266 317 
+44 4 -1 213 266 317 
+110 6 -1 -2 213 266 156 317 
+238 5 224 -2 213 230 156 
+304 4 -1 213 266 317 
+53 4 -1 213 266 317 
+246 4 -1 213 266 317 
+119 4 -1 213 266 317 
+313 4 -1 213 266 317 
+58 5 -1 -3 213 266 317 
+125 6 -1 -2 213 266 156 317 
+317 1 317 
+190 5 -1 180 213 266 317 
+Constructors: 0
+
+Summary: 11
+277 2 224 230 283 -2 -4 0 180 150 1 
+org/apache/xerces/xinclude/XIncludeHandler.startElement(Lorg/apache/xerces/xni/QName;Lorg/apache/xerces/xni/XMLAttributes;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+16
+r14 1 290 
+r11 1 -4 
+r15 1 296 
+$r8 1 149 
+$r5 1 219 
+$r4 1 219 
+r1 1 -2 
+$r3 1 279 
+r13 1 236 
+$r6 1 179 
+r12 1 230 
+r0 1 -1 
+$r2 1 279 
+r10 1 -3 
+$r9 1 155 
+$r7 1 155 
+Fields: 3
+-2 rawname 155
+-1 fDocumentHandler 219
+-1 fDocumentHandler 279
+Accesses: 17
+0 1 -1 
+163 1 -1 
+260 1 -1 
+133 1 -1 
+7 1 -1 
+200 1 -1 
+297 1 -1 
+11 1 -1 
+268 1 -1 
+237 1 -1 
+208 1 -1 
+278 1 -1 
+184 1 -2 
+154 1 -2 
+218 1 -1 
+29 1 -1 
+61 1 -1 
+Functions: 27
+192 3 -1 279 219 
+132 3 -1 279 219 
+70 4 -1 -3 279 219 
+73 5 -1 -2 279 219 155 
+10 3 -1 279 219 
+81 4 -1 -3 279 219 
+275 3 -1 279 219 
+215 3 -1 279 219 
+28 3 -1 279 219 
+285 4 -1 -4 279 219 
+95 3 -1 279 219 
+159 4 -1 149 279 219 
+225 4 -1 -4 279 219 
+162 3 -1 279 219 
+291 4 -1 -3 279 219 
+103 3 -1 279 219 
+231 4 -1 -3 279 219 
+44 3 -1 279 219 
+109 5 -1 -2 279 219 155 
+304 5 -2 290 279 296 155 
+244 5 -2 230 219 155 236 
+53 3 -1 279 219 
+118 3 -1 279 219 
+58 4 -1 -3 279 219 
+124 5 -1 -2 279 219 155 
+252 3 -1 279 219 
+189 4 -1 179 279 219 
+Constructors: 0
+
+Summary: 11
+2 230 290 -2 149 -4 236 296 0 179 1 
+org/apache/xerces/xinclude/XIncludeHandler.handleFallbackElement()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 38 
+Fields: 1
+-1 fNamespaceContext 38
+Accesses: 5
+1 1 -1 
+65 1 -1 
+37 1 -1 
+29 1 -1 
+45 1 -1 
+Functions: 10
+0 2 -1 38 
+34 2 -1 38 
+83 2 -1 38 
+70 2 -1 38 
+25 2 -1 38 
+41 1 38 
+73 2 -1 38 
+58 2 -1 38 
+44 2 -1 38 
+13 2 -1 38 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.endDocument(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r1 1 21 
+r0 1 -1 
+$r3 1 21 
+Fields: 1
+-1 fDocumentHandler 21
+Accesses: 3
+20 1 -1 
+7 1 -1 
+27 1 -1 
+Functions: 3
+0 2 -1 21 
+32 2 -2 21 
+17 2 -1 21 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/xinclude/XIncludeHandler.setDTDHandler(Lorg/apache/xerces/xni/XMLDTDHandler;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/xerces/xinclude/XIncludeHandler.startDocument(Lorg/apache/xerces/xni/XMLLocator;Ljava/lang/String;Lorg/apache/xerces/xni/NamespaceContext;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+22
+$r7 1 72 
+$r13 1 149 
+$r17 1 171 
+$r2 1 1 
+$r15 1 171 
+$r11 1 72 
+r0 1 -1 
+$r21 1 36 
+$r20 1 30 
+$r8 1 91 
+$r10 1 106 
+$r4 1 -4 
+r1 1 -2 
+r22 2 125 -5 
+$r19 1 16 
+$r9 1 72 
+$r6 1 76 
+r16 1 -3 
+$r14 1 157 
+$r5 1 72 
+r3 1 -4 
+$r18 1 125 
+Fields: 5
+-1 fCurrentBaseURI 72
+-1 fCurrentLanguage 157
+-1 fDocumentHandler 171
+-1 fErrorReporter 1
+-1 fParentXIncludeHandler 16
+Accesses: 12
+0 1 -1 
+177 1 -1 
+68 1 -1 
+101 1 -1 
+86 1 -1 
+71 1 -1 
+152 1 -1 
+138 1 -1 
+170 1 -1 
+156 1 -1 
+15 1 -1 
+63 1 -1 
+Functions: 18
+96 2 72 91 
+160 6 -1 16 1 72 171 157 
+129 1 125 
+35 1 -2 
+163 6 -1 16 1 72 171 157 
+5 2 1 -2 
+8 6 -1 16 1 72 171 157 
+105 1 -2 
+42 7 -1 16 1 72 171 157 30 
+75 1 -2 
+142 3 -5 72 125 
+111 2 72 106 
+16 2 16 -2 
+81 2 72 76 
+117 6 -1 16 1 72 171 157 
+55 6 -1 16 1 72 171 157 
+90 1 -2 
+186 6 -2 -3 -4 -5 171 125 
+Constructors: 1
+129 125
+
+Summary: 12
+-3 2 30 -1 106 91 125 3 0 -5 76 1 
+org/apache/xerces/xinclude/XIncludeHandler.copyFeatures(Lorg/apache/xerces/xni/parser/XMLComponentManager;Lorg/apache/xerces/util/ParserConfigurationSettings;)V
+PTG:
+Vars:
+5
+r2 1 -3 
+r1 1 -2 
+r4 1 17 
+r0 1 -1 
+r3 1 3 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 0 
+25 4 -1 17 -2 -3 
+11 4 -1 -2 -3 3 
+14 0 
+Constructors: 0
+
+Summary: 7
+-2 -3 -1 3 0 17 1 
+org/apache/xerces/xinclude/XIncludeHandler.setFeature(Ljava/lang/String;Z)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -1 
+$r2 1 15 
+$r3 1 15 
+Fields: 1
+-1 fSettings 15
+Accesses: 4
+23 1 -1 
+26 1 -1 
+11 1 -1 
+14 1 -1 
+Functions: 2
+0 1 -2 
+32 2 -2 15 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/xinclude/XIncludeHandler.reportFatalError(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/xinclude/XIncludeHandler.endParameterEntity(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+5
+r3 1 -3 
+r0 1 -1 
+$r4 1 1 
+r2 1 -2 
+$r1 1 1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+13 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.internalEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+7
+$r6 1 1 
+r4 1 -4 
+$r1 1 1 
+r0 1 -1 
+r3 1 -3 
+r5 1 -5 
+r2 1 -2 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+16 5 1 -2 -3 -4 -5 
+Constructors: 0
+
+Summary: 9
+-2 -3 2 -1 -4 3 0 -5 1 
+org/apache/xerces/xinclude/XIncludeHandler.getRecognizedFeatures()[Ljava/lang/String;
+PTG:
+Vars:
+5
+$r0 1 0 
+r3 1 -1 
+_ret 1 3 
+$r1 1 3 
+$r2 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.checkMultipleRootElements()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+16 1 -1 
+11 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.getDTDHandler()Lorg/apache/xerces/xni/XMLDTDHandler;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.createInputSource(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/xerces/xni/parser/XMLInputSource;
+PTG:
+Vars:
+8
+r5 1 -5 
+r7 1 -1 
+r1 1 -2 
+$r0 1 0 
+r2 1 -3 
+r3 1 -4 
+_ret 1 0 
+r6 1 -6 
+Fields: 0
+Accesses: 0
+Functions: 5
+32 2 0 -5 
+17 1 -5 
+7 4 0 -2 -3 -4 
+55 2 0 -6 
+40 1 -6 
+Constructors: 1
+7 0
+
+Summary: 6
+-2 -3 -1 -4 -5 -6 
+org/apache/xerces/xinclude/XIncludeHandler.setDocumentSource(Lorg/apache/xerces/xni/parser/XMLDocumentSource;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/xerces/xinclude/XIncludeHandler.checkAndSendNotation(Lorg/apache/xerces/xinclude/XIncludeHandler$Notation;)V
+PTG:
+Vars:
+20
+r20 1 98 
+r1 1 -2 
+$r17 1 47 
+$r3 1 8 
+$r9 1 38 
+$r18 1 66 
+$r15 1 66 
+$r8 1 21 
+r0 1 -1 
+$r6 1 118 
+$r10 1 34 
+$r16 1 52 
+$r13 1 52 
+$r14 1 47 
+$r12 1 26 
+$r2 1 135 
+$r4 1 8 
+$r7 1 124 
+$r11 1 30 
+$r5 1 98 
+Fields: 10
+-2 baseURI 34
+-2 systemId 30
+-2 augmentations 52
+-2 publicId 26
+-2 expandedSystemId 38
+-2 name 47
+-2 name 124
+-1 fParentXIncludeHandler 135
+-1 fDTDHandler 66
+-1 fNotations 8
+Accesses: 15
+33 1 -2 
+65 1 -1 
+37 1 -2 
+134 1 -1 
+7 1 -1 
+72 1 -1 
+76 1 -2 
+46 1 -2 
+81 1 -2 
+51 1 -2 
+25 1 -2 
+58 1 -1 
+123 1 -2 
+29 1 -2 
+93 1 -1 
+Functions: 9
+0 4 -1 66 135 8 
+128 5 -1 66 118 135 8 
+85 4 66 52 21 47 
+55 7 -1 66 52 21 135 8 47 
+8 9 -2 34 52 38 8 26 124 30 47 
+41 5 34 21 38 26 30 
+105 9 -2 34 98 52 38 26 124 30 47 
+139 9 -2 34 52 38 135 26 124 30 47 
+94 1 8 
+Constructors: 1
+41 21
+
+Summary: 12
+-1 38 98 34 -2 118 26 21 47 0 52 30 
+org/apache/xerces/xinclude/XIncludeHandler.checkUnparsedEntity(Ljava/lang/String;)V
+PTG:
+Vars:
+8
+$r3 1 14 
+$r0 1 0 
+$r5 1 32 
+$r6 1 41 
+r2 1 -1 
+$r4 1 14 
+r8 1 32 
+r1 1 -2 
+Fields: 2
+-1 fUnparsedEntities 14
+32 notation 41
+Accesses: 4
+40 1 32 
+10 1 0 
+27 1 -1 
+13 1 -1 
+Functions: 5
+49 4 -1 32 41 14 
+4 1 0 
+28 1 14 
+44 3 -1 41 14 
+14 2 0 14 
+Constructors: 1
+4 0
+
+Summary: 5
+-1 32 0 41 0 
+org/apache/xerces/xinclude/XIncludeHandler.getBaseURI(I)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r2 1 11 
+$r3 1 11 
+$r1 1 7 
+_ret 1 11 
+r0 1 -1 
+Fields: 1
+-1 fExpandedSystemID 7
+Accesses: 1
+6 1 -1 
+Functions: 2
+0 2 -1 7 
+7 1 7 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.reportResourceError(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/xinclude/XIncludeHandler.getIncludeParentDepth()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+18 1 -1 
+10 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.copyFeatures(Lorg/apache/xerces/xni/parser/XMLComponentManager;Lorg/apache/xerces/xni/parser/XMLParserConfiguration;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 3 
+r1 1 -2 
+r2 1 -3 
+r4 1 17 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 0 
+25 4 -1 17 -2 -3 
+11 4 -1 -2 -3 3 
+14 0 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 3 17 
+org/apache/xerces/xinclude/XIncludeHandler.getSawFallback(I)Z
+PTG:
+Vars:
+3
+$r2 1 2 
+r0 1 -1 
+$r1 1 2 
+Fields: 1
+-1 fSawFallback 2
+Accesses: 2
+1 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.endGeneralEntity(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r4 1 1 
+r2 1 -2 
+r3 1 -3 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+15 1 -1 
+Functions: 2
+7 2 -1 1 
+28 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.startAttlist(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+5
+$r4 1 1 
+r3 1 -3 
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+13 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.hasXIncludeNamespace(Lorg/apache/xerces/xni/QName;)Z
+PTG:
+Vars:
+8
+$r1 1 4 
+$r5 1 11 
+$r2 1 1 
+$r4 1 15 
+$r6 1 18 
+r3 1 -1 
+$r7 1 21 
+r0 1 -2 
+Fields: 3
+-2 uri 1
+-2 prefix 15
+-1 fNamespaceContext 11
+Accesses: 3
+0 1 -2 
+10 1 -1 
+14 1 -2 
+Functions: 1
+11 2 11 15 
+Constructors: 0
+
+Summary: 6
+-2 -1 15 0 1 18 
+org/apache/xerces/xinclude/XIncludeHandler.setDTDSource(Lorg/apache/xerces/xni/parser/XMLDTDSource;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/xerces/xinclude/XIncludeHandler.reportResourceError(Ljava/lang/String;[Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -3 -1 
+org/apache/xerces/xinclude/XIncludeHandler.isIncludeElement(Lorg/apache/xerces/xni/QName;)Z
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 1 
+r3 1 -1 
+$r1 1 4 
+Fields: 1
+-2 localpart 1
+Accesses: 1
+0 1 -2 
+Functions: 2
+1 2 1 4 
+13 3 -1 -2 1 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.saveBaseURI()V
+PTG:
+Vars:
+11
+$r4 1 19 
+$r7 1 29 
+$r10 1 16 
+r0 1 -1 
+$r2 1 16 
+$r3 1 12 
+$r11 1 46 
+$r6 1 16 
+$r12 1 53 
+$r8 1 36 
+$r1 1 1 
+Fields: 5
+-1 fLiteralSystemID 29
+-1 fCurrentBaseURI 16
+-1 fBaseURIScope 1
+-1 fExpandedSystemID 46
+-1 fBaseURI 12
+Accesses: 8
+0 1 -1 
+32 1 -1 
+49 1 -1 
+4 1 -1 
+11 1 -1 
+28 1 -1 
+45 1 -1 
+15 1 -1 
+Functions: 7
+16 1 16 
+33 1 16 
+50 1 16 
+8 1 1 
+24 2 19 12 
+41 2 36 29 
+58 2 53 46 
+Constructors: 0
+
+Summary: 4
+-1 36 19 53 
+org/apache/xerces/xinclude/XIncludeHandler.modifyAugmentations(Lorg/apache/xerces/xni/Augmentations;Z)Lorg/apache/xerces/xni/Augmentations;
+PTG:
+Vars:
+6
+$r1 1 24 
+r5 2 -2 15 
+_ret 2 -2 15 
+$r3 1 15 
+r4 1 -1 
+$r0 1 27 
+Fields: 0
+Accesses: 0
+Functions: 3
+19 1 15 
+4 1 -1 
+30 4 -2 24 27 15 
+Constructors: 1
+19 15
+
+Summary: 2
+-1 0 
+org/apache/xerces/xinclude/XIncludeHandler.endAttlist(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+$r3 1 1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/xinclude/XIncludeHandler.endElement(Lorg/apache/xerces/xni/QName;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+10
+$r2 1 144 
+r0 1 -1 
+$r7 1 78 
+$r3 1 169 
+$r9 1 144 
+$r4 1 116 
+r1 1 -2 
+$r8 1 116 
+r6 1 -3 
+$r5 1 78 
+Fields: 3
+-1 fBaseURIScope 116
+-1 fLanguageScope 144
+-1 fDocumentHandler 78
+Accesses: 16
+96 1 -1 
+129 1 -1 
+67 1 -1 
+74 1 -1 
+107 1 -1 
+172 1 -1 
+77 1 -1 
+143 1 -1 
+175 1 -1 
+17 1 -1 
+115 1 -1 
+84 1 -1 
+182 1 -1 
+153 1 -1 
+125 1 -1 
+157 1 -1 
+Functions: 17
+0 5 -1 144 -2 116 78 
+32 4 -1 144 116 78 
+130 1 116 
+35 5 -1 144 -2 116 78 
+103 4 -1 144 116 78 
+8 4 -1 144 116 78 
+168 4 -1 144 116 78 
+43 4 -1 144 116 78 
+140 4 -1 144 116 78 
+16 4 -1 144 116 78 
+112 4 -1 144 116 78 
+144 1 144 
+116 1 116 
+53 4 -1 144 116 78 
+90 3 -2 -3 78 
+59 4 -1 144 116 78 
+158 1 144 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.setRootElementProcessed(Z)V
+PTG:
+Vars:
+2
+$r1 1 14 
+r0 1 -1 
+Fields: 1
+-1 fParentXIncludeHandler 14
+Accesses: 2
+9 1 -1 
+13 1 -1 
+Functions: 2
+0 2 -1 14 
+18 1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.getDocumentHandler()Lorg/apache/xerces/xni/XMLDocumentHandler;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.getState()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fState 1
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.startDTD(Lorg/apache/xerces/xni/XMLLocator;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+5
+r2 1 -2 
+r0 1 -1 
+$r1 1 6 
+r3 1 -3 
+$r4 1 6 
+Fields: 1
+-1 fDTDHandler 6
+Accesses: 3
+2 1 -1 
+5 1 -1 
+12 1 -1 
+Functions: 1
+18 3 -2 -3 6 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.reportError(Ljava/lang/String;[Ljava/lang/Object;S)V
+PTG:
+Vars:
+5
+r2 1 -2 
+r0 1 -1 
+r3 1 -3 
+$r1 1 1 
+$r4 1 1 
+Fields: 1
+-1 fErrorReporter 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+16 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.unparsedEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+7
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+r4 1 -5 
+$r6 1 10 
+$r5 1 10 
+r0 1 -1 
+Fields: 1
+-1 fDTDHandler 10
+Accesses: 2
+16 1 -1 
+9 1 -1 
+Functions: 2
+6 6 -1 -2 -3 -4 -5 10 
+25 5 -2 -3 -4 -5 10 
+Constructors: 0
+
+Summary: 9
+-2 -3 2 -1 -4 3 0 -5 1 
+org/apache/xerces/xinclude/XIncludeHandler.checkNotation(Ljava/lang/String;)V
+PTG:
+Vars:
+7
+$r4 1 14 
+$r0 1 0 
+r1 1 -2 
+$r5 1 32 
+r7 1 32 
+$r3 1 14 
+r2 1 -1 
+Fields: 1
+-1 fNotations 14
+Accesses: 3
+10 1 0 
+27 1 -1 
+13 1 -1 
+Functions: 4
+4 1 0 
+41 3 -1 32 14 
+28 1 14 
+14 2 0 14 
+Constructors: 1
+4 0
+
+Summary: 4
+-1 32 0 0 
+org/apache/xerces/xinclude/XIncludeHandler.isRootDocument()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fParentXIncludeHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.copyFeatures1(Ljava/util/Enumeration;Ljava/lang/String;Lorg/apache/xerces/xni/parser/XMLComponentManager;Lorg/apache/xerces/xni/parser/XMLParserConfiguration;)V
+PTG:
+Vars:
+12
+r8 1 -4 
+r0 1 -2 
+$r5 1 15 
+r12 1 -1 
+$r1 1 3 
+$r6 1 23 
+$r4 1 15 
+r7 1 29 
+r9 1 -5 
+r2 1 -3 
+$r3 1 11 
+$r10 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 8
+3 2 -3 3 
+7 1 3 
+23 1 23 
+57 1 -2 
+11 2 11 15 
+14 1 -2 
+31 2 -4 29 
+47 2 -5 29 
+Constructors: 1
+7 3
+
+Summary: 11
+-3 2 -1 15 29 -2 -4 3 23 0 -5 
+org/apache/xerces/xinclude/XIncludeHandler.scopeOfBaseURI(I)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 2 14 1 
+Fields: 1
+-1 fBaseURIScope 1
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 2
+1 1 1 
+14 2 1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.setSawFallback(IZ)V
+PTG:
+Vars:
+6
+$r5 1 2 
+$r1 1 2 
+$r4 1 2 
+r0 1 -1 
+$r2 1 2 
+r3 1 12 
+Fields: 1
+-1 fSawFallback 2
+Accesses: 5
+32 1 -1 
+1 1 -1 
+35 1 -1 
+22 1 -1 
+15 1 -1 
+Functions: 1
+27 2 2 12 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.reportFatalError(Ljava/lang/String;[Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.setProperty(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r3 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 20
+96 1 -1 
+192 1 -1 
+224 1 -1 
+195 1 -1 
+132 1 -1 
+165 1 -1 
+202 1 -1 
+14 1 -1 
+206 1 -1 
+17 1 -1 
+53 1 -1 
+213 1 -1 
+86 1 -1 
+24 1 -1 
+89 1 -1 
+122 1 -1 
+60 1 -1 
+220 1 -1 
+125 1 -1 
+158 1 -1 
+Functions: 15
+0 1 -2 
+66 2 -2 -3 
+36 1 -2 
+228 0 
+102 2 -2 -3 
+72 1 -2 
+138 2 -2 -3 
+171 2 -2 -3 
+108 1 -2 
+144 1 -2 
+50 1 -1 
+210 0 
+180 0 
+188 0 
+30 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.restoreLanguage()Ljava/lang/String;
+PTG:
+Vars:
+7
+$r1 1 1 
+$r5 1 20 
+_ret 1 20 
+$r6 1 20 
+r0 1 -1 
+$r4 1 1 
+$r3 1 9 
+Fields: 2
+-1 fLanguageScope 9
+-1 fLanguageStack 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+8 1 -1 
+Functions: 3
+17 1 1 
+4 1 1 
+12 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.getState(I)I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fState 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.textDecl(Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+6
+r4 1 -4 
+r3 1 -3 
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+$r5 1 1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 2
+0 1 -1 
+15 1 -1 
+Functions: 2
+22 4 1 -2 -3 -4 
+7 2 -1 1 
+Constructors: 0
+
+Summary: 7
+-2 -3 2 -1 -4 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.isValidInHTTPHeader(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+10 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/xinclude/XIncludeHandler.copyFeatures1(Ljava/util/Enumeration;Ljava/lang/String;Lorg/apache/xerces/xni/parser/XMLComponentManager;Lorg/apache/xerces/util/ParserConfigurationSettings;)V
+PTG:
+Vars:
+13
+$r11 1 -1 
+$r5 1 15 
+$r6 1 23 
+r8 1 -5 
+$r4 1 15 
+r10 1 -4 
+r7 1 29 
+r13 1 -1 
+$r9 1 34 
+$r1 1 3 
+r2 1 -3 
+r0 1 -2 
+$r3 1 11 
+Fields: 0
+Accesses: 0
+Functions: 9
+49 2 -4 29 
+65 1 -2 
+3 2 -3 3 
+7 1 3 
+23 1 23 
+57 2 -5 29 
+42 2 34 -5 
+11 2 11 15 
+14 1 -2 
+Constructors: 1
+7 3
+
+Summary: 11
+34 -3 2 -1 15 -2 -4 3 23 0 -5 
+org/apache/xerces/xinclude/XIncludeHandler.<clinit>()V
+PTG:
+Vars:
+76
+$r60 1 286 
+$r5 1 21 
+$r33 1 143 
+$r37 1 161 
+$r50 1 217 
+$r7 1 30 
+$r28 1 125 
+$r48 1 205 
+$r36 1 158 
+$r68 1 383 
+$r43 1 187 
+$r30 1 134 
+$r73 1 566 
+$r69 1 390 
+$r35 1 149 
+$r14 1 63 
+$r6 1 27 
+$r23 1 102 
+$r10 1 45 
+$r15 1 66 
+$r18 1 81 
+$r3 1 12 
+$r20 1 90 
+$r52 1 221 
+$r62 1 298 
+$r16 1 72 
+$r1 1 3 
+$r11 1 48 
+$r45 1 196 
+$r8 1 36 
+$r49 1 208 
+$r42 1 184 
+$r25 1 118 
+$r39 1 177 
+$r56 1 246 
+$r51 1 227 
+$r29 1 128 
+$r12 1 54 
+$r19 1 84 
+$r21 1 93 
+$r54 1 237 
+$r72 1 556 
+$r17 1 75 
+$r57 1 249 
+$r74 1 562 
+$r26 1 112 
+$r40 1 171 
+$r0 1 0 
+$r9 1 39 
+$r31 1 137 
+$r4 1 18 
+$r27 1 115 
+$r63 1 306 
+$r67 1 375 
+$r44 1 193 
+$r46 1 199 
+$r58 1 259 
+$r61 1 292 
+$r64 1 333 
+$r53 1 234 
+$r47 1 202 
+$r38 1 167 
+$r32 1 140 
+$r75 1 578 
+$r55 1 243 
+$r22 1 99 
+$r76 1 574 
+$r34 1 146 
+$r59 1 281 
+$r13 1 57 
+$r66 1 367 
+$r70 1 487 
+$r24 1 108 
+$r41 1 174 
+$r65 1 350 
+$r2 1 9 
+Fields: 7
+259 ArrayObject 266
+259 ArrayObject 276
+259 ArrayObject 271
+306 ArrayObject 318
+306 ArrayObject 323
+306 ArrayObject 328
+306 ArrayObject 313
+Accesses: 0
+Functions: 33
+0 1 0 
+128 1 128 
+193 2 193 196 
+134 2 134 137 
+199 1 199 
+72 1 72 
+9 1 9 
+202 1 202 
+140 1 140 
+143 1 143 
+81 1 81 
+18 1 18 
+211 5 208 167 171 205 174 
+152 5 112 146 115 149 108 
+90 1 90 
+27 1 27 
+158 1 158 
+99 1 99 
+227 2 227 234 
+36 1 36 
+357 1 350 
+231 1 227 
+45 1 45 
+237 1 237 
+177 2 177 184 
+243 1 243 
+181 1 177 
+54 1 54 
+118 2 118 125 
+122 1 118 
+187 1 187 
+252 4 246 217 249 221 
+63 1 63 
+Constructors: 7
+211 167
+181 177
+357 350
+231 227
+152 108
+122 118
+252 217
+
+Summary: 9
+146 199 140 246 205 143 243 202 487 
+org/apache/xerces/xinclude/XIncludeHandler.endConditional(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+$r3 1 1 
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/xinclude/XIncludeHandler.externalEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+6
+r2 1 -2 
+$r5 1 1 
+r0 1 -1 
+r3 1 -3 
+r4 1 -4 
+$r1 1 1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+14 4 1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-2 -3 2 -1 -4 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.getDocumentSource()Lorg/apache/xerces/xni/parser/XMLDocumentSource;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 fDocumentSource 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeHandler.processAttributes(Lorg/apache/xerces/xni/XMLAttributes;)Lorg/apache/xerces/xni/XMLAttributes;
+PTG:
+Vars:
+62
+$r25 2 373 366 
+$r6 2 128 149 
+_ret 5 -2 312 94 25 205 
+$r32 1 213 
+$r36 1 249 
+$r44 1 94 
+r57 1 216 
+r62 1 476 
+$r16 1 354 
+$r52 1 128 
+$r8 1 180 
+$r30 1 187 
+$r39 5 -2 312 94 25 205 
+$r46 1 55 
+r51 2 39 53 
+$r11 1 320 
+$r34 1 232 
+$r18 1 366 
+$r60 2 392 381 
+$r2 1 503 
+$r43 1 103 
+$r45 1 58 
+$r29 1 190 
+$r31 1 193 
+$r40 1 205 
+$r9 1 296 
+r55 1 156 
+$r13 1 337 
+r0 1 -1 
+$r14 1 347 
+$r20 1 401 
+$r12 1 323 
+$r24 1 347 
+$r47 1 25 
+$r15 1 350 
+$r42 1 106 
+$r7 2 159 128 
+$r41 1 110 
+$r10 1 300 
+$r58 2 166 262 
+$r49 1 45 
+$r21 2 434 128 
+$r1 1 489 
+$r23 5 312 -2 94 25 205 
+r63 1 485 
+r50 5 -2 312 94 25 205 
+$r48 1 -1 
+$r35 1 240 
+$r3 1 549 
+$r4 1 509 
+$r33 1 216 
+$r19 1 347 
+$r5 1 139 
+r56 1 166 
+$r61 2 166 414 
+r54 1 139 
+r65 1 528 
+$r17 1 357 
+$r27 1 312 
+r59 1 323 
+r53 1 134 
+$r37 2 282 128 
+Fields: 5
+-1 fCurrentBaseURI 45
+-1 fNamespaceContext 128
+-1 fCurrentLanguage 110
+-1 fSymbolTable 366
+323 rawname 347
+Accesses: 20
+227 1 216 
+387 1 323 
+7 1 -1 
+360 1 323 
+235 1 216 
+395 1 323 
+44 1 -1 
+76 1 -1 
+109 1 -1 
+365 1 -1 
+334 1 323 
+433 1 -1 
+243 1 216 
+148 1 -1 
+372 1 -1 
+344 1 323 
+376 1 323 
+281 1 -1 
+158 1 -1 
+127 1 -1 
+Functions: 43
+0 5 -1 128 45 110 366 
+128 1 128 
+320 1 320 
+515 2 485 509 
+389 1 347 
+71 5 -2 312 25 205 94 
+457 5 -2 312 25 205 94 
+138 1 134 
+523 1 509 
+14 5 -1 128 45 110 366 
+398 10 -2 401 323 166 312 25 347 205 94 414 
+209 1 205 
+337 2 337 347 
+83 5 -1 128 45 110 366 
+276 5 -2 312 25 205 94 
+149 3 128 149 139 
+213 1 213 
+341 1 337 
+469 5 -2 312 25 205 94 
+533 6 -1 128 528 45 110 366 
+536 1 509 
+29 1 25 
+350 2 139 350 
+478 5 -2 312 25 205 94 
+159 3 128 139 159 
+288 4 128 166 282 139 
+98 1 94 
+354 1 354 
+35 5 -1 128 45 110 366 
+102 8 -2 103 312 25 106 205 94 110 
+295 7 -2 312 296 25 139 205 94 
+428 5 -2 312 25 205 94 
+45 1 45 
+558 6 -1 128 485 45 110 366 
+498 6 -1 128 485 45 110 366 
+373 3 373 347 366 
+54 9 -2 53 55 39 312 25 58 205 94 
+246 9 -2 166 262 312 216 25 249 205 94 
+440 4 128 434 166 139 
+122 5 -2 312 25 205 94 
+186 7 -2 312 25 187 205 94 190 
+316 1 312 
+444 1 134 
+Constructors: 6
+209 205
+98 94
+515 509
+341 337
+316 312
+29 25
+
+Summary: 18
+156 53 166 354 485 476 323 216 528 392 -1 134 300 39 0 193 509 347 
+org/apache/xerces/xinclude/XIncludeHandler.restoreBaseURI()V
+PTG:
+Vars:
+17
+$r10 1 40 
+$r15 1 59 
+$r16 1 17 
+$r11 1 40 
+$r12 1 9 
+r0 1 -1 
+$r14 1 59 
+$r17 1 33 
+$r8 1 1 
+$r5 1 17 
+$r19 1 78 
+$r1 1 1 
+$r9 1 33 
+$r13 1 33 
+$r7 1 25 
+$r18 1 78 
+$r3 1 9 
+Fields: 5
+-1 fLiteralSystemID 9
+-1 fCurrentBaseURI 33
+-1 fBaseURIScope 25
+-1 fExpandedSystemID 17
+-1 fBaseURI 1
+Accesses: 10
+0 1 -1 
+16 1 -1 
+32 1 -1 
+51 1 -1 
+36 1 -1 
+70 1 -1 
+55 1 -1 
+8 1 -1 
+24 1 -1 
+74 1 -1 
+Functions: 10
+65 2 33 59 
+4 1 1 
+20 1 17 
+84 2 33 78 
+37 1 1 
+56 1 9 
+75 1 17 
+12 1 9 
+28 1 25 
+46 2 33 40 
+Constructors: 0
+
+Summary: 4
+59 -1 40 78 
+org/apache/xerces/xinclude/XIncludeHandler.notationDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+6
+r3 1 -4 
+$r5 1 8 
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+$r4 1 8 
+Fields: 1
+-1 fDTDHandler 8
+Accesses: 2
+7 1 -1 
+14 1 -1 
+Functions: 2
+4 5 -1 -2 -3 -4 8 
+21 4 -2 -3 -4 8 
+Constructors: 0
+
+Summary: 7
+-2 -3 2 -1 -4 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.processingInstruction(Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r5 1 8 
+$r6 1 8 
+$r1 1 64 
+r7 1 -4 
+r2 1 -2 
+r3 1 -3 
+$r4 1 64 
+r8 1 37 
+Fields: 2
+-1 fDocumentHandler 8
+-1 fDTDHandler 64
+Accesses: 9
+0 1 -1 
+50 1 -1 
+22 1 -1 
+38 1 -1 
+70 1 -1 
+7 1 -1 
+57 1 -1 
+29 1 -1 
+63 1 -1 
+Functions: 4
+32 4 -1 64 -4 8 
+45 4 -2 -3 37 8 
+77 4 64 -2 -3 -4 
+14 3 -1 64 8 
+Constructors: 0
+
+Summary: 8
+-2 -3 37 2 -1 -4 0 1 
+org/apache/xerces/xinclude/XIncludeHandler.xmlDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+r4 1 -3 
+r5 1 -4 
+r6 1 -5 
+$r7 1 18 
+$r3 1 18 
+Fields: 1
+-1 fDocumentHandler 18
+Accesses: 3
+17 1 -1 
+7 1 -1 
+24 1 -1 
+Functions: 3
+1 2 1 -2 
+33 5 -2 18 -3 -4 -5 
+10 2 -1 18 
+Constructors: 0
+
+Summary: 9
+-2 -3 2 -1 -4 3 0 -5 1 
+org/apache/xerces/xinclude/XIncludeHandler.setErrorReporter(Lorg/apache/xerces/impl/XMLErrorReporter;)V
+PTG:
+Vars:
+8
+$r4 1 6 
+$r5 1 26 
+$r7 1 6 
+$r2 1 6 
+$r6 1 26 
+r1 1 -2 
+$r3 1 19 
+r0 1 -1 
+Fields: 3
+-1 fDocLocation 26
+-1 fXIncludeMessageFormatter 19
+-1 fErrorReporter 6
+Accesses: 7
+32 1 -1 
+2 1 -1 
+18 1 -1 
+36 1 -1 
+5 1 -1 
+25 1 -1 
+12 1 -1 
+Functions: 2
+22 2 19 6 
+40 2 6 26 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/xerces/xinclude/XIncludeHandler.<init>()V
+PTG:
+Vars:
+17
+$r3 1 38 
+$r13 1 157 
+$r15 1 179 
+$r12 1 146 
+$r16 1 190 
+$r1 1 17 
+$r5 1 72 
+$r10 1 124 
+$r14 1 168 
+$r8 1 102 
+$r4 1 46 
+$r2 1 30 
+$r11 1 135 
+$r6 1 82 
+$r9 1 113 
+r0 1 -1 
+$r7 1 92 
+Fields: 3
+-1 fSawInclude 82
+-1 fState 92
+-1 fSawFallback 72
+Accesses: 26
+131 1 -1 
+68 1 -1 
+197 1 -1 
+71 1 -1 
+8 1 -1 
+202 1 -1 
+75 1 -1 
+13 1 -1 
+142 1 -1 
+81 1 -1 
+85 1 -1 
+24 1 -1 
+153 1 -1 
+91 1 -1 
+95 1 -1 
+32 1 -1 
+164 1 -1 
+40 1 -1 
+109 1 -1 
+175 1 -1 
+48 1 -1 
+53 1 -1 
+120 1 -1 
+58 1 -1 
+186 1 -1 
+63 1 -1 
+Functions: 11
+128 1 124 
+1 4 -1 82 72 92 
+161 1 157 
+194 1 190 
+21 1 17 
+117 1 113 
+150 1 146 
+183 1 179 
+106 1 102 
+139 1 135 
+172 1 168 
+Constructors: 11
+128 124
+1 -1
+161 157
+194 190
+21 17
+117 113
+150 146
+183 179
+106 102
+139 135
+172 168
+
+Summary: 1
+-1 

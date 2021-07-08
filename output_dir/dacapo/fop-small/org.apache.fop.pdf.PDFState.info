@@ -1,0 +1,405 @@
+17
+org/apache/fop/pdf/PDFState.getData()Lorg/apache/fop/pdf/PDFState$Data;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 data 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFState.concatenate(Ljava/awt/geom/AffineTransform;)V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFState.setColor(Ljava/awt/Color;)Z
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 2 
+$r3 1 5 
+r1 1 -1 
+Fields: 1
+2 color 5
+Accesses: 1
+2 1 2 
+Functions: 3
+0 2 -2 5 
+1 1 -1 
+14 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/fop/pdf/PDFState.push()V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 12 
+$r1 1 1 
+$r2 1 4 
+r3 1 4 
+$r5 1 35 
+Fields: 1
+-1 stateStack 35
+Accesses: 1
+34 1 -1 
+Functions: 7
+0 2 -1 35 
+1 1 1 
+39 2 35 4 
+26 0 
+11 2 -1 35 
+30 0 
+15 1 12 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFState.checkTransform(Ljava/awt/geom/AffineTransform;)Z
+PTG:
+Vars:
+4
+$r2 1 2 
+r0 1 -2 
+$r3 1 5 
+r1 1 -1 
+Fields: 1
+2 transform 5
+Accesses: 1
+2 1 2 
+Functions: 2
+0 2 -2 5 
+1 1 -1 
+Constructors: 0
+
+Summary: 5
+-2 -1 2 0 5 
+org/apache/fop/pdf/PDFState.<init>()V
+PTG:
+Vars:
+3
+$r1 1 5 
+$r2 1 17 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+24 1 -1 
+13 1 -1 
+Functions: 3
+1 1 -1 
+21 1 17 
+10 2 -1 5 
+Constructors: 3
+1 -1
+21 17
+10 5
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFState.getTransform()Ljava/awt/geom/AffineTransform;
+PTG:
+Vars:
+10
+r9 1 43 
+$r3 1 9 
+r8 1 28 
+$r5 1 54 
+_ret 1 0 
+$r6 1 57 
+$r7 1 28 
+r4 1 17 
+r2 1 -1 
+$r0 1 0 
+Fields: 3
+-1 stateStack 9
+28 transform 43
+54 transform 57
+Accesses: 3
+38 1 28 
+54 1 54 
+8 1 -1 
+Functions: 7
+18 1 17 
+4 1 0 
+53 2 -1 9 
+9 1 9 
+27 1 17 
+60 2 0 57 
+46 2 0 43 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFState.checkClip(Ljava/awt/Shape;)Z
+PTG:
+Vars:
+8
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+$r5 1 24 
+$r6 1 30 
+r7 1 -2 
+$r3 1 16 
+$r4 1 21 
+Fields: 2
+21 clip 24
+1 clip 4
+Accesses: 2
+1 1 1 
+21 1 21 
+Functions: 5
+0 1 -1 
+16 2 16 30 
+35 2 -2 30 
+20 1 -1 
+27 2 16 24 
+Constructors: 2
+35 30
+27 16
+
+Summary: 9
+-2 24 30 -1 0 21 1 16 4 
+org/apache/fop/pdf/PDFState.getStackLevel()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 stateStack 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFState.setLineWidth(F)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 1
+1 1 1 
+Functions: 2
+0 1 -1 
+12 1 -1 
+Constructors: 0
+
+Summary: 3
+13 -1 1 
+org/apache/fop/pdf/PDFState.setTransform(Ljava/awt/geom/AffineTransform;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/pdf/PDFState.getBaseTransform()Ljava/awt/geom/AffineTransform;
+PTG:
+Vars:
+9
+r4 1 19 
+$r6 1 32 
+$r5 1 29 
+r0 1 -1 
+_ret 1 32 
+$r3 1 19 
+$r1 1 1 
+$r2 1 1 
+$r7 1 32 
+Fields: 2
+-1 stateStack 1
+19 transform 29
+Accesses: 3
+0 1 -1 
+28 1 19 
+14 1 -1 
+Functions: 3
+1 1 1 
+29 1 29 
+15 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFState.setClip(Ljava/awt/Shape;)V
+PTG:
+Vars:
+11
+$r11 1 41 
+r0 1 -1 
+$r7 1 18 
+$r10 1 38 
+r4 1 -2 
+$r3 1 56 
+$r2 1 4 
+$r5 1 10 
+$r1 1 1 
+$r6 1 15 
+$r9 1 26 
+Fields: 2
+15 clip 18
+1 clip 4
+Accesses: 4
+1 1 1 
+49 1 38 
+60 1 56 
+15 1 15 
+Functions: 8
+0 1 -1 
+34 2 10 26 
+21 2 18 10 
+37 1 -1 
+55 1 -1 
+14 1 -1 
+46 2 41 10 
+31 2 -2 26 
+Constructors: 3
+21 10
+46 41
+31 26
+
+Summary: 9
+-1 15 38 56 10 1 26 4 18 
+org/apache/fop/pdf/PDFState.pop()Lorg/apache/fop/pdf/PDFState$Data;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+33 1 -1 
+7 1 -1 
+11 1 -1 
+Functions: 3
+0 1 -1 
+8 0 
+12 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFState.setBackColor(Ljava/awt/Color;)Z
+PTG:
+Vars:
+4
+r1 1 -1 
+$r3 1 5 
+r0 1 -2 
+$r2 1 2 
+Fields: 1
+2 backcolor 5
+Accesses: 1
+2 1 2 
+Functions: 3
+0 2 -2 5 
+1 1 -1 
+14 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/fop/pdf/PDFState.setPaint(Ljava/awt/Paint;)Z
+PTG:
+Vars:
+6
+$r2 1 4 
+$r3 1 25 
+r4 1 -2 
+$r1 1 1 
+r0 1 -1 
+$r5 1 28 
+Fields: 3
+-1 data 25
+1 paint 4
+25 paint 28
+Accesses: 3
+1 1 1 
+24 1 -1 
+25 1 25 
+Functions: 4
+0 3 -1 25 28 
+38 3 -1 25 28 
+28 2 -2 28 
+14 3 -1 25 28 
+Constructors: 0
+
+Summary: 6
+-1 15 39 0 1 4 
+org/apache/fop/pdf/PDFState.getGState()Lorg/apache/fop/pdf/PDFGState;
+PTG:
+Vars:
+13
+$r7 1 72 
+_ret 1 4 
+$r10 1 40 
+r5 1 26 
+r11 1 40 
+$r1 1 4 
+$r8 1 80 
+$r4 1 18 
+$r9 1 83 
+r0 1 3 
+r12 1 55 
+r3 1 -1 
+$r6 1 69 
+Fields: 4
+-1 stateStack 18
+80 gstate 83
+69 gstate 72
+40 gstate 55
+Accesses: 4
+80 1 80 
+17 1 -1 
+50 1 40 
+69 1 69 
+Functions: 9
+18 1 18 
+68 2 -1 18 
+38 1 26 
+86 2 83 4 
+8 1 4 
+28 1 26 
+14 2 3 4 
+62 2 4 55 
+79 2 -1 18 
+Constructors: 1
+8 4
+
+Summary: 7
+72 55 -1 80 69 40 83 

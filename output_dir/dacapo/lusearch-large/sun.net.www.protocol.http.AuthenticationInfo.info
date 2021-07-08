@@ -1,0 +1,717 @@
+30
+sun/net/www/protocol/http/AuthenticationInfo.<init>(CLsun/net/www/protocol/http/AuthScheme;Ljava/lang/String;ILjava/lang/String;)V
+PTG:
+Vars:
+5
+r2 1 -4 
+$r3 1 22 
+r4 1 -6 
+r1 1 -3 
+r0 1 -1 
+Fields: 1
+-1 protocol 17
+Accesses: 7
+17 1 -1 
+37 1 -1 
+6 1 -1 
+25 1 -1 
+42 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 2
+1 2 -1 17 
+21 1 -4 
+Constructors: 1
+1 -1
+
+Summary: 4
+-1 4 17 2 
+sun/net/www/protocol/http/AuthenticationInfo.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+7
+$r4 1 2 
+r6 1 -2 
+r0 1 -1 
+$r5 1 20 
+$r1 1 2 
+$r2 1 5 
+$r3 1 12 
+Fields: 1
+-1 pw 2
+Accesses: 4
+16 1 -1 
+1 1 -1 
+8 1 -1 
+26 1 -1 
+Functions: 4
+17 1 2 
+2 1 2 
+23 2 20 12 
+30 1 -2 
+Constructors: 1
+23 12
+
+Summary: 3
+-1 -2 20 
+sun/net/www/protocol/http/AuthenticationInfo.getPath()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 path 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/AuthenticationInfo.getPort()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/AuthenticationInfo.endAuthRequest(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+$r0 1 7 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+14 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/net/www/protocol/http/AuthenticationInfo.cacheKey(Z)Ljava/lang/String;
+PTG:
+Vars:
+13
+$r3 1 98 
+$r0 1 82 
+$r7 1 114 
+$r9 1 122 
+$r11 1 132 
+$r10 1 129 
+$r2 1 93 
+$r5 1 105 
+_ret 1 132 
+r1 1 -1 
+$r6 1 110 
+$r8 1 117 
+$r4 1 102 
+Fields: 2
+-1 protocol 102
+-1 host 114
+Accesses: 10
+113 1 -1 
+35 1 -1 
+101 1 -1 
+23 1 -1 
+71 1 -1 
+89 1 -1 
+11 1 -1 
+59 1 -1 
+125 1 -1 
+47 1 -1 
+Functions: 22
+32 0 
+129 1 129 
+98 2 98 102 
+4 0 
+68 0 
+39 0 
+8 0 
+105 1 105 
+75 0 
+44 0 
+110 2 114 110 
+15 0 
+82 1 82 
+51 0 
+20 0 
+117 1 117 
+86 1 82 
+56 0 
+122 1 122 
+27 0 
+93 1 93 
+63 0 
+Constructors: 1
+86 82
+
+Summary: 3
+75 129 -1 
+sun/net/www/protocol/http/AuthenticationInfo.credentials()Ljava/net/PasswordAuthentication;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 pw 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/AuthenticationInfo.getAuthScheme()Lsun/net/www/protocol/http/AuthScheme;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 authScheme 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/AuthenticationInfo.getAuthType()Lsun/net/www/protocol/http/AuthCacheValue$Type;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 2 15 9 
+_ret 2 15 9 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/AuthenticationInfo.getProxyAuth(Ljava/lang/String;I)Lsun/net/www/protocol/http/AuthenticationInfo;
+PTG:
+Vars:
+12
+$r9 1 37 
+$r3 1 13 
+$r0 1 0 
+$r6 1 25 
+r10 1 37 
+r7 1 31 
+$r8 1 32 
+$r1 1 9 
+$r4 1 16 
+r2 1 -2 
+$r5 1 21 
+_ret 1 37 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 0 
+16 1 16 
+32 2 32 31 
+4 1 0 
+21 1 21 
+9 2 9 13 
+25 1 25 
+12 1 -2 
+Constructors: 1
+4 0
+
+Summary: 4
+25 13 0 31 
+sun/net/www/protocol/http/AuthenticationInfo.requestIsInProgress(Ljava/lang/String;)Z
+PTG:
+Vars:
+9
+r2 1 17 
+$r6 1 22 
+$r0 1 8 
+$r4 1 18 
+$r15 1 55 
+r3 1 -2 
+$r5 1 22 
+$r8 1 65 
+$r13 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+18 2 -2 18 
+68 1 65 
+38 2 -2 17 
+55 2 -2 55 
+14 0 
+Constructors: 0
+
+Summary: 4
+-2 0 22 17 
+sun/net/www/protocol/http/AuthenticationInfo.getServerAuth(Ljava/lang/String;)Lsun/net/www/protocol/http/AuthenticationInfo;
+PTG:
+Vars:
+3
+r1 2 5 22 
+r0 1 -2 
+_ret 2 5 22 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -2 
+18 1 -2 
+10 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/net/www/protocol/http/AuthenticationInfo.removeFromCache()V
+PTG:
+Vars:
+5
+$r1 1 0 
+$r4 1 26 
+$r2 1 5 
+r0 1 -1 
+$r3 1 21 
+Fields: 0
+Accesses: 0
+Functions: 5
+3 1 -1 
+24 1 -1 
+9 3 0 -1 5 
+14 1 -1 
+30 3 -1 21 26 
+Constructors: 0
+
+Summary: 3
+-1 5 26 
+sun/net/www/protocol/http/AuthenticationInfo.clone()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r2 1 -1 
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/AuthenticationInfo.reducePath(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+2
+r0 1 -2 
+_ret 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+7 1 -2 
+24 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+sun/net/www/protocol/http/AuthenticationInfo.<clinit>()V
+PTG:
+Vars:
+5
+$r0 1 0 
+$r2 1 25 
+$r1 1 16 
+$r4 1 37 
+$r3 1 25 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 0 
+16 1 16 
+22 1 16 
+41 1 37 
+28 1 25 
+Constructors: 2
+22 16
+41 37
+
+Summary: 1
+25 
+sun/net/www/protocol/http/AuthenticationInfo.useAuthCache()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/AuthenticationInfo.getRealm()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 realm 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/AuthenticationInfo.getProtocolScheme()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 protocol 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/AuthenticationInfo.getHost()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 host 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/AuthenticationInfo.<init>(CLsun/net/www/protocol/http/AuthScheme;Ljava/net/URL;Ljava/lang/String;)V
+PTG:
+Vars:
+10
+$r6 1 30 
+$r9 1 92 
+r1 1 -3 
+r0 1 -1 
+$r5 1 27 
+$r3 1 16 
+r2 1 -4 
+r8 1 70 
+r7 1 -5 
+$r4 1 19 
+Fields: 0
+Accesses: 10
+33 1 -1 
+83 1 -1 
+6 1 -1 
+22 1 -1 
+41 1 -1 
+57 1 -1 
+11 1 -1 
+44 1 -1 
+63 1 -1 
+95 1 -1 
+Functions: 10
+16 1 16 
+1 1 -1 
+66 1 -4 
+37 1 -4 
+53 1 -4 
+72 1 70 
+26 1 -4 
+90 1 70 
+27 1 27 
+15 1 -4 
+Constructors: 1
+1 -1
+
+Summary: 4
+-1 -4 2 3 
+sun/net/www/protocol/http/AuthenticationInfo.getProxyAuth(Ljava/lang/String;)Lsun/net/www/protocol/http/AuthenticationInfo;
+PTG:
+Vars:
+7
+r0 1 -2 
+$r2 1 5 
+$r3 1 25 
+$r4 1 30 
+$r1 1 0 
+r5 2 5 30 
+_ret 2 5 30 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 0 -2 
+18 1 -2 
+25 2 -2 25 
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/net/www/protocol/http/AuthenticationInfo.getServerAuth(Ljava/net/URL;)Lsun/net/www/protocol/http/AuthenticationInfo;
+PTG:
+Vars:
+15
+$r1 1 15 
+r12 1 64 
+$r7 1 43 
+$r8 1 46 
+$r2 1 24 
+$r5 1 34 
+_ret 1 67 
+$r3 1 28 
+$r11 1 58 
+$r6 1 39 
+$r9 1 49 
+$r13 1 67 
+r0 1 -2 
+$r10 1 54 
+$r4 1 31 
+Fields: 0
+Accesses: 0
+Functions: 15
+0 1 -2 
+34 1 34 
+66 2 64 -2 
+39 2 39 46 
+10 1 -2 
+42 1 -2 
+43 1 43 
+15 1 15 
+49 1 49 
+19 1 15 
+54 1 54 
+24 2 24 31 
+58 1 58 
+27 1 -2 
+28 1 28 
+Constructors: 1
+19 15
+
+Summary: 6
+-2 46 58 64 0 31 
+sun/net/www/protocol/http/AuthenticationInfo.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+6
+$r3 1 14 
+$r4 1 10 
+r0 1 -2 
+r1 1 -1 
+$r5 1 17 
+$r2 1 5 
+Fields: 2
+-1 s1 10
+-1 s2 14
+Accesses: 5
+33 1 -1 
+23 1 -1 
+9 1 -1 
+28 1 -1 
+13 1 -1 
+Functions: 3
+1 1 -2 
+20 3 17 5 10 
+14 1 14 
+Constructors: 1
+20 5
+
+Summary: 3
+-1 -2 17 
+sun/net/www/protocol/http/AuthenticationInfo.getAuth(Ljava/lang/String;Ljava/net/URL;)Lsun/net/www/protocol/http/AuthenticationInfo;
+PTG:
+Vars:
+7
+r1 1 -2 
+$r5 1 26 
+$r2 1 18 
+r0 1 -3 
+$r3 1 23 
+_ret 1 26 
+$r4 1 26 
+Fields: 0
+Accesses: 0
+Functions: 3
+18 3 -2 18 23 
+4 1 -2 
+22 1 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 23 0 1 
+sun/net/www/protocol/http/AuthenticationInfo.getServerAuthKey(Ljava/net/URL;Ljava/lang/String;Lsun/net/www/protocol/http/AuthScheme;)Ljava/lang/String;
+PTG:
+Vars:
+20
+$r13 1 63 
+$r8 1 43 
+r18 1 82 
+$r2 1 24 
+$r17 1 76 
+$r9 1 48 
+$r6 1 37 
+$r4 1 28 
+_ret 1 82 
+r0 1 -2 
+$r15 1 72 
+$r7 1 40 
+$r10 1 52 
+$r11 1 55 
+$r14 1 67 
+r16 1 -3 
+$r1 1 15 
+$r5 1 33 
+r3 1 -4 
+$r12 1 58 
+Fields: 0
+Accesses: 0
+Functions: 18
+0 1 -2 
+33 2 33 40 
+67 1 67 
+36 1 -2 
+37 1 37 
+72 2 -3 72 
+10 1 -2 
+43 1 43 
+76 1 76 
+15 1 15 
+48 2 48 55 
+19 1 15 
+51 1 -2 
+52 1 52 
+24 2 -4 24 
+58 1 58 
+28 1 28 
+63 1 63 
+Constructors: 1
+19 15
+
+Summary: 8
+-2 -3 -4 55 76 40 0 1 
+sun/net/www/protocol/http/AuthenticationInfo.getProxyAuthKey(Ljava/lang/String;ILjava/lang/String;Lsun/net/www/protocol/http/AuthScheme;)Ljava/lang/String;
+PTG:
+Vars:
+15
+$r9 1 34 
+$r3 1 13 
+$r10 1 39 
+$r6 1 22 
+$r8 1 30 
+$r12 1 43 
+$r1 1 9 
+r5 1 -2 
+r13 1 49 
+$r4 1 18 
+$r7 1 25 
+r2 1 -5 
+_ret 1 49 
+r11 1 -4 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 0 
+18 2 18 22 
+34 1 34 
+4 1 0 
+21 1 -2 
+39 2 -4 39 
+9 2 -5 9 
+25 1 25 
+43 1 43 
+13 1 13 
+30 1 30 
+Constructors: 1
+4 0
+
+Summary: 6
+-4 -5 22 43 2 0 
+sun/net/www/protocol/http/AuthenticationInfo.addToCache()V
+PTG:
+Vars:
+5
+r1 1 5 
+$r4 1 35 
+$r2 1 13 
+r0 1 -1 
+$r3 1 30 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -1 
+33 1 -1 
+18 3 -1 5 13 
+6 1 -1 
+23 1 -1 
+39 3 -1 35 30 
+45 1 5 
+Constructors: 0
+
+Summary: 3
+-1 5 35 
+sun/net/www/protocol/http/AuthenticationInfo.requestCompleted(Ljava/lang/String;)V
+PTG:
+Vars:
+9
+r5 1 10 
+$r7 1 28 
+$r4 1 10 
+$r6 1 22 
+$r0 1 0 
+r2 1 -2 
+$r8 1 32 
+$r12 1 62 
+$r3 1 6 
+Fields: 0
+Accesses: 0
+Functions: 5
+-1 0 
+65 1 62 
+6 2 -2 6 
+58 0 
+28 2 -2 28 
+Constructors: 0
+
+Summary: 5
+-2 32 10 0 22 
+sun/net/www/protocol/http/AuthenticationInfo.getHeaderName()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,170 @@
+9
+org/h2/expression/ConditionExists.optimize(Lorg/h2/engine/Session;)Lorg/h2/expression/Expression;
+PTG:
+Vars:
+4
+_ret 1 -1 
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+Fields: 1
+-1 query 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/h2/expression/ConditionExists.<init>(Lorg/h2/command/dml/Query;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 0 
+org/h2/expression/ConditionExists.getCost()I
+PTG:
+Vars:
+2
+$r1 1 6 
+r0 1 -1 
+Fields: 1
+-1 query 6
+Accesses: 1
+5 1 -1 
+Functions: 1
+6 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ConditionExists.mapColumns(Lorg/h2/table/ColumnResolver;I)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 query 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+8 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ConditionExists.isEverything(Lorg/h2/expression/ExpressionVisitor;)Z
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 query 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ConditionExists.updateAggregate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ConditionExists.getValue(Lorg/h2/engine/Session;)Lorg/h2/value/Value;
+PTG:
+Vars:
+7
+$r5 1 36 
+_ret 1 36 
+r1 1 -2 
+r4 1 16 
+r0 1 -1 
+$r3 1 1 
+$r2 1 1 
+Fields: 1
+-1 query 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 5
+19 2 16 -2 
+35 0 
+5 2 1 -2 
+22 1 16 
+9 1 1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ConditionExists.getSQL()Ljava/lang/String;
+PTG:
+Vars:
+9
+$r3 1 13 
+r2 1 -1 
+$r1 1 9 
+_ret 1 27 
+$r5 1 19 
+$r4 1 16 
+$r6 1 24 
+$r7 1 27 
+$r0 1 0 
+Fields: 1
+-1 query 13
+Accesses: 1
+12 1 -1 
+Functions: 6
+0 1 0 
+19 1 19 
+4 1 0 
+24 1 24 
+9 2 16 9 
+13 1 13 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/h2/expression/ConditionExists.setEvaluatable(Lorg/h2/table/TableFilter;Z)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 query 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 

@@ -1,0 +1,168 @@
+9
+java/nio/channels/spi/AbstractSelector.close()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 selectorOpen 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+15 2 -1 1 
+Constructors: 0
+
+Summary: 0
+
+java/nio/channels/spi/AbstractSelector.provider()Ljava/nio/channels/spi/SelectorProvider;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 provider 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/nio/channels/spi/AbstractSelector.isOpen()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 selectorOpen 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/nio/channels/spi/AbstractSelector.deregister(Ljava/nio/channels/spi/AbstractSelectionKey;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -2 
+$r2 1 1 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+8 2 1 -2 
+Constructors: 0
+
+Summary: 4
+0 -1 1 -2 
+java/nio/channels/spi/AbstractSelector.cancel(Ljava/nio/channels/SelectionKey;)V
+PTG:
+Vars:
+4
+r3 1 -2 
+$r4 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 cancelledKeys 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+12 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/nio/channels/spi/AbstractSelector.begin()V
+PTG:
+Vars:
+6
+$r1 1 1 
+$r5 1 8 
+r3 1 29 
+r0 1 -1 
+$r2 1 1 
+$r4 1 1 
+Fields: 1
+-1 interruptor 1
+Accesses: 4
+0 1 -1 
+16 1 -1 
+19 1 -1 
+37 1 -1 
+Functions: 5
+23 1 1 
+26 0 
+42 2 1 29 
+13 3 -1 1 8 
+30 1 29 
+Constructors: 1
+13 8
+
+Summary: 2
+29 -1 
+java/nio/channels/spi/AbstractSelector.<init>(Ljava/nio/channels/spi/SelectorProvider;)V
+PTG:
+Vars:
+4
+$r1 1 5 
+r0 1 -1 
+$r2 1 17 
+r3 1 -2 
+Fields: 0
+Accesses: 4
+34 1 -1 
+24 1 -1 
+13 1 -1 
+29 1 -1 
+Functions: 3
+1 1 -1 
+21 1 17 
+10 1 5 
+Constructors: 3
+1 -1
+21 17
+10 5
+
+Summary: 2
+0 -1 
+java/nio/channels/spi/AbstractSelector.cancelledKeys()Ljava/util/Set;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 cancelledKeys 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/nio/channels/spi/AbstractSelector.end()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 0 
+Constructors: 0
+
+Summary: 1
+-1 

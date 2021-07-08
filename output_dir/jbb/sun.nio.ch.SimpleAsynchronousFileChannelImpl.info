@@ -1,0 +1,408 @@
+14
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 0
+
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.force(Z)V
+PTG:
+Vars:
+5
+$r2 1 18 
+r0 1 -1 
+$r4 1 1 
+$r3 1 14 
+$r1 1 1 
+Fields: 2
+-1 fdObj 18
+-1 threads 1
+Accesses: 4
+0 1 -1 
+17 1 -1 
+86 1 -1 
+73 1 -1 
+Functions: 8
+32 3 -1 1 18 
+1 1 1 
+49 3 -1 1 18 
+67 3 -1 1 18 
+11 3 -1 1 18 
+91 0 
+14 2 18 14 
+78 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.<init>(Ljava/io/FileDescriptor;ZZLjava/util/concurrent/ExecutorService;)V
+PTG:
+Vars:
+4
+$r3 1 10 
+r0 1 -1 
+r1 1 -2 
+r2 1 -5 
+Fields: 0
+Accesses: 1
+18 1 -1 
+Functions: 2
+6 3 -1 -2 -5 
+15 1 10 
+Constructors: 2
+6 -1
+15 10
+
+Summary: 5
+0 -2 3 -1 -5 
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.implRelease(Lsun/nio/ch/FileLockImpl;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 0 
+r0 1 -1 
+$r3 1 4 
+Fields: 1
+-1 fdObj 4
+Accesses: 1
+3 1 -1 
+Functions: 3
+7 1 -2 
+11 1 -2 
+15 2 0 4 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.open(Ljava/io/FileDescriptor;ZZLsun/nio/ch/ThreadPool;)Ljava/nio/channels/AsynchronousFileChannel;
+PTG:
+Vars:
+5
+r0 1 -5 
+$r2 1 16 
+$r4 2 11 4 
+r3 1 -2 
+_ret 1 16 
+Fields: 0
+Accesses: 0
+Functions: 2
+25 4 16 -2 4 11 
+10 1 -5 
+Constructors: 1
+25 16
+
+Summary: 3
+11 -2 -5 
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.size()J
+PTG:
+Vars:
+7
+$r9 1 -1 
+$r6 1 -1 
+$r2 1 18 
+r0 1 -1 
+$r3 1 14 
+$r1 1 1 
+$r8 1 1 
+Fields: 2
+-1 fdObj 18
+-1 threads 1
+Accesses: 4
+0 1 -1 
+17 1 -1 
+58 1 -1 
+91 1 -1 
+Functions: 8
+96 1 1 
+1 1 1 
+33 3 -1 1 18 
+83 3 -1 1 18 
+55 3 -1 1 18 
+11 3 -1 1 18 
+14 2 18 14 
+63 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.truncate(J)Ljava/nio/channels/AsynchronousFileChannel;
+PTG:
+Vars:
+9
+$r8 1 88 
+$r11 1 -1 
+$r7 1 50 
+r0 1 -1 
+$r13 1 32 
+$r3 1 46 
+$r14 1 -1 
+$r1 1 32 
+$r2 1 50 
+Fields: 2
+-1 fdObj 50
+-1 threads 32
+Accesses: 6
+16 1 -1 
+49 1 -1 
+137 1 -1 
+91 1 -1 
+171 1 -1 
+31 1 -1 
+Functions: 13
+32 1 32 
+67 3 -1 32 50 
+163 3 -1 32 50 
+134 3 -1 32 50 
+43 3 -1 32 50 
+12 0 
+46 2 50 46 
+142 0 
+111 3 -1 32 50 
+176 1 32 
+81 3 -1 32 50 
+88 2 50 88 
+27 0 
+Constructors: 0
+
+Summary: 0
+
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.implWrite(Ljava/nio/ByteBuffer;JLjava/lang/Object;Ljava/nio/channels/CompletionHandler;)Ljava/util/concurrent/Future;
+PTG:
+Vars:
+8
+$r15 1 104 
+$r10 1 137 
+r1 1 -5 
+$r8 1 118 
+r0 1 -1 
+r2 1 -4 
+_ret 1 104 
+r7 1 -2 
+Fields: 1
+-1 executor 137
+Accesses: 3
+16 1 -1 
+136 1 -1 
+90 1 -1 
+Functions: 13
+131 7 -1 -2 -4 -5 118 104 137 
+38 1 -2 
+70 0 
+74 0 
+12 0 
+45 2 -1 137 
+109 3 -1 104 137 
+142 2 118 137 
+84 0 
+27 0 
+60 0 
+94 2 -4 -5 
+31 2 -1 137 
+Constructors: 2
+131 118
+109 104
+
+Summary: 6
+85 -4 71 -5 -2 -1 
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.implRead(Ljava/nio/ByteBuffer;JLjava/lang/Object;Ljava/nio/channels/CompletionHandler;)Ljava/util/concurrent/Future;
+PTG:
+Vars:
+8
+$r10 1 154 
+r2 1 -5 
+_ret 1 121 
+r0 1 -1 
+r3 1 -4 
+$r8 1 135 
+$r16 1 121 
+r1 1 -2 
+Fields: 1
+-1 executor 154
+Accesses: 3
+16 1 -1 
+153 1 -1 
+107 1 -1 
+Functions: 15
+101 0 
+12 0 
+44 0 
+77 0 
+111 2 -4 -5 
+48 2 -1 154 
+148 7 -1 -2 -4 -5 135 121 154 
+55 1 -2 
+87 0 
+27 0 
+91 0 
+62 2 -1 154 
+126 3 -1 121 154 
+31 1 -2 
+159 2 135 154 
+Constructors: 2
+148 135
+126 121
+
+Summary: 6
+102 -4 -5 88 -2 -1 
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.implLock(JJZLjava/lang/Object;Ljava/nio/channels/CompletionHandler;)Ljava/util/concurrent/Future;
+PTG:
+Vars:
+9
+$r6 1 136 
+r1 1 48 
+$r15 1 96 
+r16 1 96 
+_ret 1 96 
+r0 1 -1 
+$r3 1 110 
+r4 1 -5 
+r2 1 -6 
+Fields: 1
+-1 executor 136
+Accesses: 4
+82 1 -1 
+5 1 -1 
+135 1 -1 
+25 1 -1 
+Functions: 10
+16 0 
+36 0 
+69 0 
+101 3 96 -1 136 
+86 2 -5 -6 
+40 2 -1 136 
+59 0 
+141 2 136 110 
+173 3 -1 48 136 
+127 7 -1 48 96 -5 -6 136 110 
+Constructors: 2
+101 96
+127 110
+
+Summary: 4
+-6 -5 48 -1 
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.close()V
+PTG:
+Vars:
+9
+$r9 1 71 
+$r8 1 1 
+$r5 1 47 
+$r7 1 61 
+$r6 1 44 
+r0 1 -1 
+$r4 1 44 
+$r1 1 1 
+$r3 1 37 
+Fields: 3
+-1 fdObj 1
+-1 threads 37
+-1 closeLock 44
+Accesses: 7
+0 1 -1 
+19 1 -1 
+36 1 -1 
+7 1 -1 
+57 1 -1 
+74 1 -1 
+43 1 -1 
+Functions: 7
+33 4 -1 1 37 44 
+66 1 61 
+52 1 47 
+40 1 37 
+58 1 44 
+44 1 44 
+78 2 1 71 
+Constructors: 0
+
+Summary: 3
+61 -1 47 
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.access$000(Lsun/nio/ch/SimpleAsynchronousFileChannelImpl;)Lsun/nio/ch/NativeThreadSet;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-2 threads 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.tryLock(JJZ)Ljava/nio/channels/FileLock;
+PTG:
+Vars:
+9
+$r4 1 79 
+r1 1 48 
+$r6 1 197 
+$r2 1 64 
+$r3 1 83 
+r0 1 -1 
+$r14 1 64 
+$r5 1 205 
+$r12 1 -1 
+Fields: 2
+-1 fdObj 83
+-1 threads 64
+Accesses: 7
+82 1 -1 
+179 1 -1 
+5 1 -1 
+230 1 -1 
+25 1 -1 
+63 1 -1 
+143 1 -1 
+Functions: 19
+64 1 64 
+227 3 -1 64 83 
+36 0 
+102 3 -1 64 83 
+40 3 -1 64 83 
+201 1 197 
+76 3 -1 64 83 
+140 3 -1 64 83 
+172 4 -1 64 48 83 
+236 1 64 
+79 2 83 79 
+16 0 
+176 3 -1 64 83 
+209 1 205 
+114 3 -1 64 83 
+149 0 
+185 0 
+59 0 
+223 4 -1 64 48 83 
+Constructors: 2
+209 205
+201 197
+
+Summary: 1
+-1 
+sun/nio/ch/SimpleAsynchronousFileChannelImpl.access$100()Lsun/nio/ch/FileDispatcher;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+

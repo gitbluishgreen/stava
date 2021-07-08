@@ -1,0 +1,856 @@
+23
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.addICC(Ljava/awt/color/ICC_ColorSpace;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+r3 1 -2 
+$r2 1 18 
+Fields: 1
+-1 iccSegment 1
+Accesses: 2
+0 1 -1 
+27 1 -1 
+Functions: 2
+24 4 -1 1 -2 18 
+13 0 
+Constructors: 1
+24 18
+
+Summary: 2
+-2 -1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.expandGrayThumb(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r0 1 0 
+r3 1 21 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 5
+17 1 0 
+4 1 -2 
+8 1 -2 
+27 2 -2 21 
+13 1 0 
+Constructors: 1
+13 0
+
+Summary: 2
+21 -2 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.writeJFXXSegment(ILjava/awt/image/BufferedImage;Ljavax/imageio/stream/ImageOutputStream;Lcom/sun/imageio/plugins/jpeg/JPEGImageWriter;)V
+PTG:
+Vars:
+5
+r3 1 -5 
+$r0 1 3 
+r4 1 -4 
+r1 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 5
+38 3 3 -4 -5 
+23 1 -5 
+9 3 -1 -3 3 
+43 1 -5 
+30 1 -5 
+Constructors: 1
+9 3
+
+Summary: 8
+-4 3 -5 -3 3 2 -1 1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.addICC(Lcom/sun/imageio/plugins/jpeg/JPEGBuffer;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r1 1 -2 
+$r4 1 8 
+$r3 1 61 
+$r5 1 25 
+$r2 1 61 
+$r6 1 46 
+Fields: 3
+-1 iccSegment 8
+-1 tempICCSegment 46
+-1 tempICCSegment 61
+Accesses: 11
+0 1 -1 
+49 1 -1 
+34 1 -1 
+82 1 -1 
+37 1 -1 
+54 1 -1 
+7 1 -1 
+73 1 -1 
+60 1 -1 
+45 1 -1 
+77 1 -1 
+Functions: 3
+20 0 
+61 2 -2 61 
+31 6 -1 -2 8 25 61 46 
+Constructors: 1
+31 25
+
+Summary: 2
+-2 -1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.getThumbnailHeight(I)I
+PTG:
+Vars:
+6
+r4 1 27 
+$r2 1 23 
+$r3 1 27 
+$r1 1 1 
+r0 1 -1 
+$r5 1 35 
+Fields: 3
+27 thumb 35
+-1 extSegments 23
+-1 thumb 1
+Accesses: 4
+0 1 -1 
+34 1 27 
+22 1 -1 
+11 1 -1 
+Functions: 3
+35 1 35 
+23 1 23 
+12 0 
+Constructors: 0
+
+Summary: 3
+27 35 -1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.clone()Ljava/lang/Object;
+PTG:
+Vars:
+16
+$r1 1 1 
+$r9 1 9 
+r12 1 47 
+r10 1 36 
+$r3 1 9 
+$r6 1 83 
+$r14 1 61 
+r2 1 1 
+$r7 1 83 
+$r11 1 47 
+$r8 1 19 
+$r5 1 72 
+r0 1 -1 
+$r4 1 72 
+_ret 1 1 
+$r13 1 57 
+Fields: 3
+1 extSegments 57
+-1 iccSegment 72
+-1 extSegments 9
+Accesses: 7
+71 1 -1 
+8 1 -1 
+56 1 1 
+89 1 1 
+26 1 1 
+29 1 -1 
+79 1 -1 
+Functions: 9
+0 3 -1 72 9 
+64 2 57 61 
+80 1 72 
+37 1 36 
+23 1 19 
+9 1 9 
+60 1 47 
+30 1 9 
+46 1 36 
+Constructors: 1
+23 19
+
+Summary: 3
+47 -1 61 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.getThumbnail(Ljavax/imageio/stream/ImageInputStream;ILcom/sun/imageio/plugins/jpeg/JPEGImageReader;)Ljava/awt/image/BufferedImage;
+PTG:
+Vars:
+12
+$r9 1 9 
+r0 1 -4 
+r10 2 28 66 
+$r4 1 44 
+$r3 1 9 
+$r8 1 58 
+r7 1 -2 
+$r5 1 48 
+r1 1 -1 
+$r2 1 9 
+r6 1 48 
+_ret 2 28 66 
+Fields: 3
+48 thumb 58
+-1 extSegments 44
+-1 thumb 9
+Accesses: 5
+33 1 -1 
+19 1 -1 
+8 1 -1 
+56 1 48 
+43 1 -1 
+Functions: 5
+2 1 -4 
+20 3 -2 -4 9 
+69 1 -4 
+58 3 -2 -4 58 
+44 1 44 
+Constructors: 0
+
+Summary: 5
+-4 48 58 -2 -1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.<init>()V
+PTG:
+Vars:
+2
+$r1 1 13 
+r0 1 -1 
+Fields: 0
+Accesses: 15
+32 1 -1 
+64 1 -1 
+69 1 -1 
+39 1 -1 
+9 1 -1 
+74 1 -1 
+44 1 -1 
+79 1 -1 
+49 1 -1 
+20 1 -1 
+84 1 -1 
+54 1 -1 
+25 1 -1 
+89 1 -1 
+59 1 -1 
+Functions: 2
+17 1 13 
+4 1 -1 
+Constructors: 2
+17 13
+4 -1
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.write(Ljavax/imageio/stream/ImageOutputStream;Ljava/awt/image/BufferedImage;Lcom/sun/imageio/plugins/jpeg/JPEGImageWriter;)V
+PTG:
+Vars:
+8
+r1 1 -1 
+r4 1 -4 
+r5 1 87 
+$r7 0 
+r0 1 -3 
+$r8 1 109 
+r2 1 -2 
+$r6 1 71 
+Fields: 0
+Accesses: 6
+176 1 -1 
+146 1 -1 
+100 1 -1 
+166 1 -1 
+184 1 -1 
+156 1 -1 
+Functions: 19
+160 1 -2 
+194 1 -2 
+226 1 -4 
+70 1 -3 
+71 1 71 
+105 2 -1 -2 
+170 1 -2 
+202 1 -2 
+140 2 -2 109 
+47 1 -4 
+16 1 -3 
+52 0 
+180 1 -2 
+22 1 -3 
+150 1 -2 
+214 1 -4 
+188 1 -2 
+62 0 
+222 4 -1 -2 -4 87 
+Constructors: 0
+
+Summary: 7
+-4 -3 109 71 -2 -1 87 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.updateFromNativeNode(Lorg/w3c/dom/Node;Z)V
+PTG:
+Vars:
+13
+$r11 1 394 
+r10 1 388 
+$r5 1 425 
+$r6 1 447 
+$r8 1 327 
+$r12 1 327 
+r9 1 358 
+r4 1 -1 
+r3 1 314 
+r22 1 258 
+r2 1 305 
+r0 1 -2 
+r1 1 6 
+Fields: 2
+-1 iccSegment 425
+-1 extSegments 327
+Accesses: 18
+326 1 -1 
+390 1 -1 
+424 1 -1 
+457 1 -1 
+42 1 -1 
+106 1 -1 
+138 1 -1 
+170 1 -1 
+75 1 -1 
+203 1 -1 
+236 1 -1 
+46 1 -1 
+110 1 -1 
+142 1 -1 
+174 1 -1 
+79 1 -1 
+207 1 -1 
+240 1 -1 
+Functions: 26
+0 1 -2 
+260 1 258 
+454 5 -1 305 327 425 447 
+7 1 6 
+327 1 327 
+401 5 -1 388 327 425 394 
+404 2 327 394 
+24 2 -2 6 
+88 2 -2 6 
+152 2 -2 6 
+218 2 -2 6 
+282 1 -2 
+347 1 -2 
+414 1 314 
+351 1 305 
+296 1 258 
+360 1 358 
+243 1 -2 
+307 1 305 
+120 2 -2 6 
+57 2 -2 6 
+185 2 -2 6 
+442 1 -2 
+379 1 358 
+252 1 -2 
+316 1 314 
+Constructors: 2
+401 394
+454 447
+
+Summary: 9
+258 314 -2 -1 388 358 305 6 394 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.getThumbnailWidth(I)I
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 23 
+$r1 1 1 
+$r5 1 35 
+$r3 1 27 
+r4 1 27 
+Fields: 3
+27 thumb 35
+-1 extSegments 23
+-1 thumb 1
+Accesses: 4
+0 1 -1 
+34 1 27 
+22 1 -1 
+11 1 -1 
+Functions: 3
+35 1 35 
+23 1 23 
+12 0 
+Constructors: 0
+
+Summary: 3
+27 35 -1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.print()V
+PTG:
+Vars:
+26
+$r1 1 6 
+$r17 1 127 
+r25 1 173 
+$r11 1 73 
+$r8 1 49 
+$r9 1 55 
+$r15 1 109 
+$r20 1 190 
+r23 1 162 
+$r12 1 81 
+$r16 1 117 
+$r5 1 36 
+$r24 1 173 
+$r2 1 14 
+$r14 1 99 
+$r21 1 190 
+$r4 1 24 
+$r3 1 27 
+$r22 1 146 
+$r10 1 63 
+$r19 1 146 
+$r6 1 43 
+$r7 1 46 
+$r18 1 135 
+r0 1 -1 
+$r13 1 91 
+Fields: 2
+-1 iccSegment 190
+-1 extSegments 146
+Accesses: 11
+17 1 -1 
+145 1 -1 
+66 1 -1 
+84 1 -1 
+196 1 -1 
+102 1 -1 
+39 1 -1 
+120 1 -1 
+138 1 -1 
+155 1 -1 
+189 1 -1 
+Functions: 25
+3 3 -1 146 190 
+132 1 127 
+70 1 63 
+200 1 190 
+11 1 6 
+78 1 73 
+142 1 135 
+146 1 146 
+21 1 14 
+88 1 81 
+27 1 27 
+156 1 146 
+31 1 27 
+96 1 91 
+163 1 162 
+36 2 36 43 
+40 0 
+106 1 99 
+172 1 162 
+46 1 46 
+114 1 109 
+52 2 49 24 
+183 1 173 
+60 1 55 
+124 1 117 
+Constructors: 1
+31 27
+
+Summary: 8
+173 162 49 43 46 27 -1 36 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.writeDefaultJFIF(Ljavax/imageio/stream/ImageOutputStream;Ljava/util/List;Ljava/awt/color/ICC_Profile;Lcom/sun/imageio/plugins/jpeg/JPEGImageWriter;)V
+PTG:
+Vars:
+5
+r2 1 -2 
+r3 1 -3 
+r5 1 -4 
+$r0 1 0 
+r4 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+23 2 -2 -4 
+14 4 0 -2 -3 -5 
+Constructors: 1
+4 0
+
+Summary: 5
+-4 -5 -3 0 -2 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.writeICC(Ljava/awt/color/ICC_Profile;Ljavax/imageio/stream/ImageOutputStream;)V
+PTG:
+Vars:
+6
+r3 1 -3 
+$r0 1 2 
+r2 1 30 
+r5 1 124 
+$r4 1 117 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 12
+97 1 -3 
+129 2 -3 124 
+2 1 2 
+114 1 -3 
+147 1 -3 
+117 1 117 
+167 2 -3 30 
+136 1 -3 
+26 1 -2 
+74 0 
+106 1 -3 
+155 1 -3 
+Constructors: 0
+
+Summary: 4
+-3 30 -2 124 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.writeWithThumbs(Ljavax/imageio/stream/ImageOutputStream;Ljava/util/List;Lcom/sun/imageio/plugins/jpeg/JPEGImageWriter;)V
+PTG:
+Vars:
+16
+$r11 1 44 
+$r6 1 117 
+$r5 1 117 
+$r8 1 104 
+r0 1 -3 
+$r13 1 32 
+r14 1 32 
+$r10 1 44 
+r1 1 -1 
+$r9 1 18 
+$r7 1 89 
+r3 1 -4 
+$r12 1 18 
+r15 1 104 
+r2 1 -2 
+$r4 1 89 
+Fields: 2
+-1 extSegments 89
+-1 extSegments 18
+Accesses: 4
+17 1 -1 
+98 1 -1 
+88 1 -1 
+27 1 -1 
+Functions: 12
+18 1 18 
+66 5 -1 -2 18 -4 89 
+114 1 -3 
+146 5 -1 -2 18 -4 89 
+99 1 89 
+131 7 -1 -2 18 -4 117 104 89 
+7 1 -3 
+57 7 -1 32 -2 18 -4 89 44 
+89 1 89 
+42 1 -3 
+74 1 -3 
+28 1 18 
+Constructors: 0
+
+Summary: 8
+-4 117 104 -3 32 44 -2 -1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.addJFXX(Lcom/sun/imageio/plugins/jpeg/JPEGBuffer;Lcom/sun/imageio/plugins/jpeg/JPEGImageReader;)V
+PTG:
+Vars:
+5
+$r1 1 4 
+r0 1 -1 
+r2 1 -2 
+$r4 1 1 
+r3 1 -3 
+Fields: 1
+-1 extSegments 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+11 5 -1 1 -2 -3 4 
+14 2 1 4 
+Constructors: 1
+11 4
+
+Summary: 4
+-3 -2 -1 4 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.<init>(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+7 2 -1 -2 
+Constructors: 1
+1 -1
+
+Summary: 3
+0 -2 -1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.getNativeNode()Ljavax/imageio/metadata/IIOMetadataNode;
+PTG:
+Vars:
+20
+$r8 1 82 
+r2 1 -1 
+$r18 1 102 
+$r4 1 30 
+$r7 1 69 
+$r5 1 43 
+$r22 1 158 
+$r0 1 0 
+$r12 1 169 
+$r6 1 56 
+$r9 1 95 
+$r11 1 169 
+$r15 1 111 
+$r20 1 145 
+$r3 1 17 
+$r10 1 102 
+r19 1 134 
+$r13 1 180 
+_ret 1 0 
+r21 1 145 
+Fields: 2
+-1 iccSegment 169
+-1 extSegments 102
+Accesses: 11
+176 1 -1 
+65 1 -1 
+52 1 -1 
+101 1 -1 
+39 1 -1 
+168 1 -1 
+26 1 -1 
+91 1 -1 
+13 1 -1 
+78 1 -1 
+127 1 -1 
+Functions: 25
+128 1 102 
+66 0 
+6 1 0 
+135 1 134 
+72 2 0 69 
+14 0 
+79 0 
+144 1 134 
+20 2 0 17 
+85 2 0 82 
+27 0 
+92 0 
+156 1 145 
+33 2 0 30 
+161 2 158 111 
+98 2 0 95 
+102 1 102 
+40 0 
+46 2 0 43 
+177 1 169 
+53 0 
+117 1 111 
+183 2 0 180 
+59 2 0 56 
+123 2 0 111 
+Constructors: 2
+117 111
+6 0
+
+Summary: 13
+180 134 145 158 30 43 17 56 111 -1 95 69 82 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.writeThumbnailData(Ljavax/imageio/stream/ImageOutputStream;[ILcom/sun/imageio/plugins/jpeg/JPEGImageWriter;)V
+PTG:
+Vars:
+4
+r0 1 -3 
+r3 1 -1 
+r1 1 -2 
+r2 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 2
+61 1 -4 
+30 1 -2 
+Constructors: 0
+
+Summary: 4
+-4 -3 -2 -1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.access$102(Lcom/sun/imageio/plugins/jpeg/JFIFMarkerSegment;Z)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.write(Ljavax/imageio/stream/ImageOutputStream;Lcom/sun/imageio/plugins/jpeg/JPEGImageWriter;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.<init>(Lcom/sun/imageio/plugins/jpeg/JPEGBuffer;)V
+PTG:
+Vars:
+13
+$r7 1 67 
+$r12 1 304 
+$r4 1 67 
+r1 1 -2 
+$r10 1 67 
+$r9 1 67 
+$r3 1 67 
+$r8 1 67 
+$r2 1 11 
+$r6 1 67 
+r0 1 -1 
+$r11 1 67 
+$r5 1 67 
+Fields: 1
+-2 buf 67
+Accesses: 54
+130 1 -2 
+258 1 -1 
+262 1 -2 
+7 1 -1 
+138 1 -2 
+266 1 -2 
+18 1 -1 
+274 1 -2 
+149 1 -1 
+23 1 -1 
+152 1 -1 
+282 1 -1 
+157 1 -2 
+285 1 -2 
+30 1 -1 
+161 1 -2 
+37 1 -1 
+293 1 -2 
+296 1 -1 
+169 1 -2 
+42 1 -1 
+47 1 -1 
+178 1 -1 
+52 1 -1 
+182 1 -2 
+310 1 -1 
+55 1 -2 
+186 1 -2 
+314 1 -1 
+62 1 -2 
+321 1 -1 
+66 1 -2 
+194 1 -2 
+70 1 -2 
+205 1 -1 
+78 1 -2 
+208 1 -1 
+82 1 -1 
+213 1 -2 
+86 1 -2 
+217 1 -2 
+90 1 -2 
+225 1 -2 
+98 1 -2 
+102 1 -1 
+106 1 -2 
+234 1 -1 
+110 1 -2 
+238 1 -2 
+242 1 -2 
+118 1 -2 
+122 1 -1 
+250 1 -2 
+126 1 -2 
+Functions: 3
+2 3 -1 -2 67 
+318 4 304 -1 -2 67 
+15 1 11 
+Constructors: 3
+2 -1
+318 304
+15 11
+
+Summary: 4
+0 67 -2 -1 
+com/sun/imageio/plugins/jpeg/JFIFMarkerSegment.writeThumb(Ljavax/imageio/stream/ImageOutputStream;Ljava/awt/image/BufferedImage;Lcom/sun/imageio/plugins/jpeg/JFIFMarkerSegment$JFIFExtensionMarkerSegment;IZLcom/sun/imageio/plugins/jpeg/JPEGImageWriter;)V
+PTG:
+Vars:
+12
+r9 1 72 
+r4 1 -4 
+r10 1 235 
+r0 1 -3 
+r3 1 -7 
+r5 1 -1 
+$r7 1 4 
+$r8 1 65 
+r1 1 4 
+r11 1 287 
+r6 1 -2 
+r2 1 11 
+Fields: 0
+Accesses: 5
+274 1 -4 
+339 1 -4 
+37 1 -4 
+156 1 -4 
+303 1 -4 
+Functions: 34
+0 1 -3 
+64 1 -3 
+256 4 -1 -2 -3 -7 
+321 1 -7 
+194 1 -7 
+6 1 4 
+328 3 -2 -4 -7 
+201 3 -2 -4 -7 
+138 4 -1 -2 -3 -7 
+77 2 -4 72 
+333 1 -7 
+206 1 -7 
+271 3 -1 -2 -7 
+84 1 -7 
+212 1 11 
+153 3 -1 -2 -7 
+91 3 -2 -4 -7 
+283 1 -3 
+30 3 -1 -2 -7 
+96 1 -7 
+355 4 -1 -2 -3 -7 
+102 1 11 
+231 1 -3 
+297 4 -1 -2 -7 287 
+362 1 -7 
+172 4 -1 -2 -3 -7 
+179 1 -7 
+243 4 -1 -2 -7 235 
+372 1 -7 
+53 4 -1 -2 -3 -7 
+314 2 -3 -4 
+187 2 -3 -4 
+61 2 65 4 
+125 4 -1 -2 -3 -7 
+Constructors: 0
+
+Summary: 15
+-3 65 0 11 72 -2 -1 -4 -7 4 5 287 2 235 1 

@@ -1,0 +1,248 @@
+7
+org/eclipse/core/internal/events/ResourceDeltaFactory.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDeltaFactory.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/internal/events/ResourceDeltaFactory.newEmptyDelta(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/core/resources/IResourceDelta;
+PTG:
+Vars:
+11
+$r4 1 15 
+$r3 1 10 
+$r2 1 5 
+$r0 1 0 
+$r8 1 40 
+r1 1 -2 
+$r5 1 15 
+$r9 1 -2 
+_ret 1 0 
+r10 1 55 
+$r6 1 24 
+Fields: 0
+Accesses: 0
+Functions: 10
+-1 0 
+4 1 -2 
+36 1 0 
+58 2 0 55 
+27 3 24 10 15 
+43 2 0 40 
+14 1 -2 
+30 3 0 5 10 
+47 1 -2 
+63 2 0 55 
+Constructors: 2
+27 10
+30 0
+
+Summary: 7
+24 15 -2 5 0 55 10 
+org/eclipse/core/internal/events/ResourceDeltaFactory.checkForOpen(Lorg/eclipse/core/internal/events/ResourceDelta;I)V
+PTG:
+Vars:
+5
+r0 1 -2 
+r1 1 41 
+$r4 1 9 
+$r3 1 49 
+$r2 1 49 
+Fields: 3
+41 ArrayObject 49
+-2 children 41
+-2 newInfo 9
+Accesses: 4
+19 1 -2 
+37 1 -2 
+8 1 -2 
+28 1 -2 
+Functions: 3
+0 4 -2 49 41 9 
+54 1 49 
+9 1 9 
+Constructors: 0
+
+Summary: 4
+41 -2 9 0 
+org/eclipse/core/internal/events/ResourceDeltaFactory.computeNodeIDMap(Lorg/eclipse/core/internal/events/ResourceDelta;Lorg/eclipse/core/internal/events/NodeIDMap;)Lorg/eclipse/core/internal/events/NodeIDMap;
+PTG:
+Vars:
+11
+r1 1 4 
+$r2 1 12 
+$r10 2 106 63 
+$r9 2 80 96 
+$r6 2 106 63 
+r4 1 23 
+$r5 2 80 96 
+_ret 1 -3 
+r0 1 -2 
+r7 1 -3 
+r3 1 12 
+Fields: 6
+-2 children 4
+12 newInfo 106
+12 newInfo 63
+12 oldInfo 80
+12 oldInfo 96
+4 ArrayObject 12
+Accesses: 5
+0 1 -2 
+104 1 12 
+61 1 12 
+78 1 12 
+94 1 12 
+Functions: 11
+80 2 80 96 
+96 2 80 96 
+18 5 80 96 106 12 63 
+71 2 -3 23 
+135 2 -3 23 
+88 2 -3 23 
+25 5 80 96 106 12 63 
+106 2 106 63 
+141 6 80 96 -3 106 12 63 
+63 2 106 63 
+127 2 -3 23 
+Constructors: 0
+
+Summary: 5
+-2 23 4 0 1 
+org/eclipse/core/internal/events/ResourceDeltaFactory.createDelta(Lorg/eclipse/core/internal/resources/Workspace;Lorg/eclipse/core/internal/dtree/DeltaDataTree;Lorg/eclipse/core/internal/events/ResourceDeltaInfo;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/internal/events/ResourceDelta;
+PTG:
+Vars:
+23
+$r17 1 81 
+$r0 1 0 
+$r9 1 164 
+$r15 1 41 
+r22 1 134 
+r20 1 58 
+r4 1 -3 
+$r10 1 165 
+r21 1 109 
+r7 1 14 
+$r16 1 81 
+$r12 1 190 
+$r13 1 191 
+$r19 1 94 
+r8 1 -2 
+r1 1 -5 
+$r18 1 94 
+r2 1 -4 
+$r23 2 155 170 
+$r14 1 123 
+r5 1 -6 
+_ret 1 0 
+$r6 1 14 
+Fields: 3
+109 ArrayObject 155
+109 ArrayObject 190
+109 ArrayObject 164
+Accesses: 1
+212 1 0 
+Functions: 19
+64 2 0 58 
+33 1 0 
+100 2 0 94 
+164 1 164 
+6 3 0 -4 -5 
+71 2 0 58 
+103 2 -3 -6 
+41 2 -5 41 
+11 2 -3 -6 
+79 1 14 
+209 2 0 134 
+241 1 0 
+51 2 -2 -5 
+22 1 14 
+87 2 0 81 
+92 1 14 
+126 2 0 123 
+190 6 -2 -3 -4 170 155 190 
+159 2 -5 165 
+Constructors: 1
+6 0
+
+Summary: 16
+-3 134 1 3 58 81 165 14 170 94 -2 109 0 -4 2 -6 
+org/eclipse/core/internal/events/ResourceDeltaFactory.computeDelta(Lorg/eclipse/core/internal/resources/Workspace;Lorg/eclipse/core/internal/watson/ElementTree;Lorg/eclipse/core/internal/watson/ElementTree;Lorg/eclipse/core/runtime/IPath;J)Lorg/eclipse/core/internal/events/ResourceDelta;
+PTG:
+Vars:
+24
+r1 1 -4 
+r8 1 99 
+$r13 1 154 
+r10 1 -2 
+r12 1 148 
+r2 1 -5 
+$r19 2 7 13 
+$r6 1 58 
+$r16 1 112 
+$r9 1 122 
+r5 1 -3 
+r20 2 67 48 
+r23 1 120 
+$r17 1 36 
+$r18 1 40 
+$r3 1 25 
+$r14 1 161 
+r21 1 76 
+$r15 1 175 
+r7 2 -5 87 
+r0 2 7 13 
+$r22 2 -5 87 
+_ret 1 148 
+$r4 1 54 
+Fields: 0
+Accesses: 0
+Functions: 22
+-1 0 
+35 1 -4 
+131 5 -2 7 120 122 13 
+195 1 148 
+36 4 36 7 40 13 
+164 2 161 122 
+69 4 48 67 7 13 
+39 1 -3 
+170 2 -3 148 
+173 1 148 
+78 1 -5 
+111 1 -2 
+143 6 -2 99 -5 87 122 76 
+175 1 175 
+112 1 112 
+19 1 -4 
+53 1 -4 
+54 5 -5 54 7 58 13 
+25 2 -5 25 
+57 1 -3 
+154 2 148 154 
+158 1 154 
+Constructors: 2
+131 122
+158 154
+
+Summary: 21
+-3 7 54 1 175 76 3 58 -5 13 122 40 36 161 112 -2 0 120 -4 154 2 

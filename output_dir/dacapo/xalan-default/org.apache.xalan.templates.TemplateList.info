@@ -1,0 +1,674 @@
+21
+org/apache/xalan/templates/TemplateList.getTemplate(Lorg/apache/xml/utils/QName;)Lorg/apache/xalan/templates/ElemTemplate;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 5 
+r1 1 -2 
+_ret 1 5 
+$r3 1 5 
+$r2 1 1 
+Fields: 1
+-1 m_namedTemplates 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xalan/templates/TemplateList.getTemplateFast(Lorg/apache/xpath/XPathContext;IILorg/apache/xml/utils/QName;IZLorg/apache/xml/dtm/DTM;)Lorg/apache/xalan/templates/ElemTemplate;
+PTG:
+Vars:
+22
+$r15 1 73 
+r3 1 236 
+r2 1 -2 
+r7 1 -5 
+$r16 1 79 
+$r13 1 111 
+$r10 1 134 
+$r17 1 84 
+r0 1 -8 
+$r5 1 254 
+$r18 1 169 
+$r19 1 175 
+$r4 1 246 
+r1 1 -1 
+$r24 1 302 
+r23 1 302 
+$r20 1 180 
+$r12 1 105 
+$r9 1 128 
+$r14 1 116 
+$r11 1 139 
+$r6 1 257 
+Fields: 16
+163 m_stepPattern 246
+-1 m_textPatterns 99
+-1 m_docPatterns 163
+-1 m_commentPatterns 154
+-1 m_patternTable 169
+-1 m_patternTable 128
+-1 m_patternTable 105
+-1 m_patternTable 73
+-1 m_wildCardPatterns 198
+84 m_stepPattern 246
+154 m_stepPattern 246
+116 m_stepPattern 246
+198 m_stepPattern 246
+99 m_stepPattern 246
+180 m_stepPattern 246
+139 m_stepPattern 246
+Accesses: 9
+194 1 -1 
+244 1 302 
+150 1 -1 
+72 1 -1 
+104 1 -1 
+168 1 -1 
+95 1 -1 
+127 1 -1 
+159 1 -1 
+Functions: 20
+0 1 -8 
+128 2 128 134 
+321 1 -2 
+131 1 -8 
+293 1 -2 
+231 1 302 
+263 2 -5 302 
+73 2 73 79 
+105 2 105 111 
+169 2 169 175 
+76 1 -8 
+108 1 -8 
+172 1 -8 
+300 1 302 
+209 1 -2 
+241 2 -2 236 
+246 3 -2 246 -8 
+312 1 -2 
+218 1 302 
+285 13 -1 128 -2 99 163 -5 198 169 105 73 302 246 154 
+Constructors: 0
+
+Summary: 17
+-1 84 116 254 180 175 79 111 134 -5 6 3 -2 -8 139 302 0 
+org/apache/xalan/templates/TemplateList.setTemplate(Lorg/apache/xalan/templates/ElemTemplate;)V
+PTG:
+Vars:
+23
+$r16 1 42 
+r22 1 151 
+r21 1 49 
+$r5 1 151 
+r0 1 -2 
+$r17 1 66 
+$r8 1 49 
+$r11 1 129 
+r1 1 4 
+r24 1 189 
+$r19 1 22 
+r3 1 -1 
+$r12 1 135 
+$r6 1 42 
+$r7 1 46 
+$r4 1 211 
+$r9 1 78 
+$r14 1 107 
+$r20 1 35 
+$r10 1 87 
+$r2 1 7 
+r23 1 151 
+$r13 1 42 
+Fields: 3
+-1 m_namedTemplates 42
+189 ArrayObject 211
+22 ArrayObject 29
+Accesses: 3
+102 1 -1 
+41 1 -1 
+61 1 -1 
+Functions: 20
+0 1 -2 
+65 1 -2 
+34 1 -2 
+165 4 -1 -2 151 42 
+6 1 -2 
+70 3 -2 66 42 
+134 1 -2 
+42 2 42 46 
+106 1 -2 
+139 2 -2 129 
+45 1 -2 
+77 1 49 
+78 1 78 
+111 3 -2 42 107 
+147 1 4 
+213 4 -1 -2 211 42 
+86 1 -2 
+87 1 87 
+184 1 151 
+30 3 -2 22 29 
+Constructors: 0
+
+Summary: 18
+4 78 46 211 -1 -2 49 189 22 29 129 107 151 66 0 87 35 7 
+org/apache/xalan/templates/TemplateList.insertAssociationIntoList(Lorg/apache/xalan/templates/TemplateSubPatternAssociation;Lorg/apache/xalan/templates/TemplateSubPatternAssociation;Z)Lorg/apache/xalan/templates/TemplateSubPatternAssociation;
+PTG:
+Vars:
+6
+r2 1 -2 
+r3 1 27 
+_ret 1 -2 
+r6 2 -2 27 
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 1
+306 1 -1 
+Functions: 25
+0 2 -1 -3 
+259 2 -1 -3 
+134 3 -1 -2 27 
+326 2 -3 27 
+7 1 -3 
+267 2 -3 27 
+204 2 -2 27 
+332 3 -2 -3 27 
+13 1 -3 
+144 2 -2 27 
+273 3 -2 -3 27 
+22 2 -2 27 
+286 3 -2 -3 27 
+160 2 -2 27 
+289 2 -2 27 
+38 2 -1 27 
+104 1 27 
+297 1 -3 
+239 3 -2 -3 27 
+48 1 27 
+242 2 -2 27 
+313 1 -3 
+252 1 -3 
+61 1 27 
+318 2 -1 -3 
+Constructors: 0
+
+Summary: 6
+1 0 -1 27 314 247 
+org/apache/xalan/templates/TemplateList.access$200(Lorg/apache/xalan/templates/TemplateList;)Ljava/util/Hashtable;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -2 
+_ret 1 1 
+Fields: 1
+-2 m_namedTemplates 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xalan/templates/TemplateList.getTemplate(Lorg/apache/xpath/XPathContext;ILorg/apache/xml/utils/QName;IIZLorg/apache/xml/dtm/DTM;)Lorg/apache/xalan/templates/ElemTemplate;
+PTG:
+Vars:
+10
+$r4 1 92 
+$r12 1 142 
+r11 1 77 
+r2 1 -8 
+r10 2 8 142 
+r1 1 -2 
+r6 1 -4 
+r0 1 -1 
+$r3 1 87 
+$r5 1 95 
+Fields: 1
+8 m_stepPattern 87
+Accesses: 1
+85 2 8 142 
+Functions: 19
+0 3 -1 -2 -8 
+32 3 87 8 142 
+129 1 -2 
+66 1 -2 
+101 4 -4 87 8 142 
+133 1 -2 
+165 1 -2 
+72 3 87 8 142 
+169 1 -2 
+140 3 87 8 142 
+45 3 87 8 142 
+17 1 -2 
+82 2 -2 77 
+23 1 -2 
+87 2 -2 87 
+152 1 -2 
+121 6 -1 -2 -4 87 8 142 
+156 1 -2 
+62 1 -2 
+Constructors: 0
+
+Summary: 11
+6 2 -1 -2 -4 -8 142 8 0 87 92 
+org/apache/xalan/templates/TemplateList.getTemplate(Lorg/apache/xpath/XPathContext;ILorg/apache/xml/utils/QName;ZLorg/apache/xml/dtm/DTM;)Lorg/apache/xalan/templates/ElemTemplate;
+PTG:
+Vars:
+10
+$r4 1 41 
+r0 1 -1 
+r2 1 -6 
+$r7 1 96 
+r12 2 8 96 
+$r6 1 49 
+r1 1 -2 
+$r5 1 46 
+r3 1 31 
+r8 1 -4 
+Fields: 1
+8 m_stepPattern 41
+Accesses: 1
+39 2 96 8 
+Functions: 15
+0 3 -1 -2 -6 
+36 2 -2 31 
+41 2 -2 41 
+106 1 -2 
+75 6 -1 96 -2 -4 8 41 
+110 1 -2 
+17 1 -2 
+83 1 -2 
+23 1 -2 
+55 4 96 -4 8 41 
+87 1 -2 
+119 1 -2 
+26 3 96 8 41 
+123 1 -2 
+94 3 96 8 41 
+Constructors: 0
+
+Summary: 11
+46 2 -1 -2 41 -6 -4 4 8 0 96 
+org/apache/xalan/templates/TemplateList.insertPatternInTable(Lorg/apache/xpath/patterns/StepPattern;Lorg/apache/xalan/templates/ElemTemplate;)V
+PTG:
+Vars:
+8
+$r10 2 45 53 
+r7 1 -1 
+r4 1 17 
+$r5 1 19 
+r2 1 -3 
+$r3 1 11 
+r0 1 -2 
+r1 1 4 
+Fields: 1
+-1 m_wildCardPatterns 45
+Accesses: 2
+72 1 -1 
+44 1 -1 
+Functions: 8
+0 1 -2 
+32 1 19 
+82 4 -1 19 4 45 
+51 3 -1 4 45 
+10 1 -3 
+11 1 11 
+27 4 -2 17 -3 19 
+94 4 -1 19 53 45 
+Constructors: 1
+27 19
+
+Summary: 9
+17 4 1 0 -3 -1 -2 11 53 
+org/apache/xalan/templates/TemplateList.putHead(Ljava/lang/String;Lorg/apache/xalan/templates/TemplateSubPatternAssociation;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r2 1 -3 
+r1 1 -1 
+$r4 1 49 
+Fields: 1
+-1 m_patternTable 49
+Accesses: 4
+48 1 -1 
+11 1 -1 
+28 1 -1 
+45 1 -1 
+Functions: 4
+0 1 -2 
+17 1 -2 
+34 1 -2 
+54 3 49 -2 -3 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xalan/templates/TemplateList.getWalker()Lorg/apache/xalan/templates/TemplateList$TemplateWalker;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 0 -1 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+org/apache/xalan/templates/TemplateList.dumpAssociationTables()V
+PTG:
+Vars:
+29
+$r5 1 117 
+$r14 1 153 
+$r12 1 145 
+$r13 1 150 
+$r22 1 56 
+$r3 1 101 
+$r26 1 71 
+$r25 1 68 
+$r7 1 126 
+$r24 1 63 
+$r9 1 133 
+$r17 1 35 
+$r4 1 167 
+$r21 1 51 
+r28 2 163 100 
+$r6 1 114 
+r2 1 7 
+$r8 1 130 
+$r1 1 1 
+$r10 1 138 
+r0 1 -1 
+$r16 1 85 
+r27 2 81 18 
+$r23 1 60 
+$r19 1 44 
+$r20 1 48 
+$r18 1 32 
+$r11 1 142 
+$r15 1 18 
+Fields: 2
+-1 m_patternTable 1
+-1 m_wildCardPatterns 100
+Accesses: 2
+0 1 -1 
+96 1 -1 
+Functions: 28
+1 1 1 
+129 2 163 100 
+68 1 68 
+133 1 133 
+8 1 7 
+74 2 32 71 
+138 2 138 142 
+77 2 81 18 
+141 2 163 100 
+17 1 7 
+145 1 145 
+150 1 150 
+90 1 85 
+156 2 114 153 
+159 2 163 100 
+35 1 35 
+39 1 35 
+106 1 101 
+44 2 48 44 
+172 1 167 
+47 2 81 18 
+51 1 51 
+117 1 117 
+56 2 56 60 
+121 1 117 
+59 2 81 18 
+126 2 130 126 
+63 1 63 
+Constructors: 2
+39 35
+121 117
+
+Summary: 23
+163 68 -1 63 56 117 126 142 35 44 81 60 145 133 18 130 138 7 153 71 51 48 150 
+org/apache/xalan/templates/TemplateList.<init>()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 5 
+$r2 1 18 
+Fields: 0
+Accesses: 6
+32 1 -1 
+37 1 -1 
+42 1 -1 
+27 1 -1 
+14 1 -1 
+47 1 -1 
+Functions: 3
+1 1 -1 
+24 1 18 
+11 1 5 
+Constructors: 3
+1 -1
+24 18
+11 5
+
+Summary: 1
+-1 
+org/apache/xalan/templates/TemplateList.getHead(Lorg/apache/xpath/XPathContext;ILorg/apache/xml/dtm/DTM;)Lorg/apache/xalan/templates/TemplateSubPatternAssociation;
+PTG:
+Vars:
+18
+$r7 1 114 
+$r8 1 73 
+$r10 1 83 
+_ret 8 98 114 151 191 160 176 136 83 
+$r4 1 136 
+$r5 1 104 
+$r12 1 171 
+r0 1 -4 
+$r13 1 176 
+$r11 1 166 
+$r2 1 126 
+$r6 1 109 
+$r16 8 98 114 151 191 160 176 136 83 
+$r9 1 78 
+r15 7 98 114 151 160 176 136 83 
+r1 1 -1 
+r14 1 -2 
+$r3 1 131 
+Fields: 8
+-1 m_textPatterns 98
+-1 m_docPatterns 160
+-1 m_commentPatterns 151
+-1 m_patternTable 104
+-1 m_patternTable 166
+-1 m_patternTable 73
+-1 m_patternTable 126
+-1 m_wildCardPatterns 191
+Accesses: 8
+147 1 -1 
+165 1 -1 
+103 1 -1 
+72 1 -1 
+156 1 -1 
+125 1 -1 
+94 1 -1 
+190 1 -1 
+Functions: 9
+0 1 -4 
+129 1 -4 
+166 2 166 171 
+104 2 104 109 
+73 2 73 78 
+169 1 -4 
+107 1 -4 
+76 1 -4 
+126 2 131 126 
+Constructors: 0
+
+Summary: 9
+171 78 2 -1 -2 -4 0 109 131 
+org/apache/xalan/templates/TemplateList.access$100(Lorg/apache/xalan/templates/TemplateList;)Ljava/util/Hashtable;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -2 
+$r1 1 1 
+Fields: 1
+-2 m_patternTable 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xalan/templates/TemplateList.setNamedTemplates(Ljava/util/Hashtable;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xalan/templates/TemplateList.getPriorityOrScore(Lorg/apache/xalan/templates/TemplateSubPatternAssociation;)D
+PTG:
+Vars:
+4
+r2 1 20 
+r4 1 -1 
+r0 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+16 1 -2 
+32 0 
+1 1 1 
+Constructors: 0
+
+Summary: 5
+1 20 0 -1 -2 
+org/apache/xalan/templates/TemplateList.addObjectIfNotFound(Ljava/lang/Object;Ljava/util/Vector;)V
+PTG:
+Vars:
+4
+r3 1 -1 
+r0 1 -3 
+r1 1 -2 
+$r2 1 20 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -3 
+17 1 -3 
+46 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+20 -3 -1 -2 
+org/apache/xalan/templates/TemplateList.checkConflicts(Lorg/apache/xalan/templates/TemplateSubPatternAssociation;Lorg/apache/xpath/XPathContext;ILorg/apache/xml/utils/QName;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+r3 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 7
+-5 1 0 3 -3 -1 -2 
+org/apache/xalan/templates/TemplateList.getHead(Ljava/lang/String;)Lorg/apache/xalan/templates/TemplateSubPatternAssociation;
+PTG:
+Vars:
+6
+$r2 1 1 
+$r4 1 5 
+r1 1 -2 
+_ret 1 5 
+$r3 1 5 
+r0 1 -1 
+Fields: 1
+-1 m_patternTable 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xalan/templates/TemplateList.getNamedTemplates()Ljava/util/Hashtable;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_namedTemplates 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xalan/templates/TemplateList.compose(Lorg/apache/xalan/templates/StylesheetRoot;)V
+PTG:
+Vars:
+11
+$r2 1 9 
+r3 1 15 
+r11 2 2 72 
+$r7 1 -1 
+r0 1 -1 
+$r6 1 51 
+$r1 1 2 
+r10 2 26 61 
+r9 1 -2 
+$r4 1 26 
+$r5 1 51 
+Fields: 2
+-1 m_wildCardPatterns 2
+-1 m_patternTable 9
+Accesses: 3
+1 1 -1 
+35 1 -1 
+8 1 -1 
+Functions: 6
+16 1 15 
+49 2 2 72 
+67 2 2 72 
+9 1 9 
+25 1 15 
+47 6 -1 2 51 9 26 61 
+Constructors: 0
+
+Summary: 8
+0 -1 -2 15 51 26 61 72 

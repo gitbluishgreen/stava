@@ -1,0 +1,1384 @@
+52
+sun/net/www/http/HttpClient.New(Ljava/net/URL;Z)Lsun/net/www/http/HttpClient;
+PTG:
+Vars:
+4
+_ret 1 7 
+$r2 1 7 
+r0 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 -2 1 
+Constructors: 0
+
+Summary: 1
+-2 
+sun/net/www/http/HttpClient.writeRequests(Lsun/net/www/MessageHeader;)V
+PTG:
+Vars:
+5
+$r3 1 6 
+r0 1 -1 
+$r2 1 10 
+$r4 1 10 
+r1 1 -2 
+Fields: 2
+-1 requests 6
+-1 serverOutput 10
+Accesses: 4
+16 1 -1 
+2 1 -1 
+5 1 -1 
+9 1 -1 
+Functions: 2
+20 1 10 
+13 2 6 10 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.New(Ljava/net/URL;Ljava/lang/String;IZ)Lsun/net/www/http/HttpClient;
+PTG:
+Vars:
+5
+r1 1 -3 
+_ret 1 11 
+r0 1 -2 
+$r3 1 11 
+$r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 1 -3 
+10 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-3 5 -2 
+sun/net/www/http/HttpClient.resetProperties()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/net/www/http/HttpClient.parseHTTPHeader(Lsun/net/www/MessageHeader;Lsun/net/ProgressSource;Lsun/net/www/protocol/http/HttpURLConnection;)Z
+PTG:
+Vars:
+44
+r1 1 15 
+$r2 1 23 
+$r63 1 885 
+$r29 1 23 
+$r21 1 23 
+r51 1 189 
+r58 1 688 
+r47 2 241 220 
+$r4 1 725 
+$r30 1 395 
+$r42 1 201 
+r23 1 -4 
+$r49 1 23 
+$r20 1 793 
+$r32 1 424 
+r60 1 775 
+$r17 1 23 
+r48 2 228 249 
+$r18 1 1010 
+$r7 1 1139 
+$r16 1 1068 
+$r45 1 -1 
+$r11 1 1042 
+$r40 1 289 
+$r43 1 23 
+r50 1 175 
+$r9 1 1095 
+$r10 1 23 
+r52 1 295 
+$r31 1 398 
+$r41 1 183 
+$r8 1 23 
+r64 1 892 
+$r13 1 183 
+r61 1 860 
+$r6 1 1132 
+$r33 1 431 
+r5 1 -3 
+$r44 1 -1 
+$r12 1 1051 
+$r14 1 1058 
+r3 1 -2 
+r0 1 -1 
+$r15 1 1061 
+Fields: 3
+-1 requests 885
+-1 url 183
+-1 serverInput 23
+Accesses: 54
+385 1 -1 
+1153 1 -1 
+2 1 -1 
+514 1 -1 
+7 1 -1 
+522 1 -1 
+22 1 -1 
+151 1 -1 
+535 1 -1 
+409 1 -1 
+797 1 -1 
+542 1 -1 
+1054 1 -1 
+928 1 -1 
+418 1 -1 
+164 1 -1 
+38 1 -1 
+806 1 -1 
+551 1 -1 
+809 1 -1 
+1072 1 -1 
+819 1 -1 
+182 1 -1 
+566 1 -1 
+824 1 -1 
+1083 1 -1 
+444 1 -1 
+831 1 -1 
+960 1 -1 
+1088 1 -1 
+843 1 -1 
+1099 1 -1 
+460 1 -1 
+972 1 -1 
+207 1 -1 
+848 1 -1 
+977 1 -1 
+468 1 -1 
+1109 1 -1 
+983 1 -1 
+600 1 -1 
+992 1 -1 
+484 1 -1 
+614 1 -1 
+745 1 -1 
+369 1 -1 
+627 1 -1 
+884 1 -1 
+1143 1 -1 
+505 1 -1 
+251 1 -1 
+635 1 -1 
+639 1 -1 
+1023 1 -1 
+Functions: 63
+769 1 -2 
+643 4 -1 885 183 23 
+899 1 892 
+646 7 -1 -2 -3 -4 885 183 23 
+393 3 241 395 220 
+1164 1 -3 
+398 1 398 
+782 1 775 
+1042 1 1042 
+660 0 
+1046 1 1042 
+155 1 23 
+1051 2 183 1051 
+28 1 23 
+669 1 -2 
+287 3 289 228 249 
+1058 1 1058 
+803 6 -1 -2 885 23 183 793 
+39 2 23 15 
+168 2 -2 23 
+1064 1 1061 
+554 4 -1 885 183 23 
+171 1 -4 
+555 0 
+683 1 -2 
+428 1 -2 
+305 1 295 
+434 2 424 431 
+690 1 688 
+183 1 183 
+440 1 424 
+1080 6 -1 -3 885 23 183 1068 
+699 1 688 
+573 1 -4 
+574 0 
+200 1 -2 
+331 1 295 
+204 3 201 189 175 
+717 1 688 
+464 1 424 
+1106 3 -3 1095 23 
+595 4 -1 885 183 23 
+725 1 725 
+214 1 -2 
+854 1 -2 
+604 4 -1 885 183 23 
+222 1 -2 
+351 1 295 
+607 4 -1 885 183 23 
+867 1 860 
+1129 1 -2 
+235 1 -2 
+621 1 -4 
+1007 1 -2 
+1135 2 -3 1132 
+753 1 -2 
+243 1 -2 
+756 7 -1 -2 -3 -4 885 183 23 
+885 1 885 
+1013 2 -3 1010 
+631 4 -1 885 183 23 
+1016 4 -1 885 183 23 
+1150 3 -3 1139 23 
+Constructors: 6
+434 424
+1106 1095
+803 793
+1046 1042
+1080 1068
+1150 1139
+
+Summary: 24
+0 1058 -3 775 860 1010 -1 175 892 574 1061 1 424 -4 431 398 725 555 1132 295 2 189 201 15 
+sun/net/www/http/HttpClient.finished()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 38 
+Fields: 1
+-1 serverOutput 38
+Accesses: 6
+0 1 -1 
+20 1 -1 
+37 1 -1 
+23 1 -1 
+8 1 -1 
+15 1 -1 
+Functions: 4
+48 2 -1 38 
+38 1 38 
+55 2 -1 38 
+30 2 -1 38 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.openServer(Ljava/lang/String;I)V
+PTG:
+Vars:
+12
+$r2 1 4 
+r0 1 -1 
+$r6 1 43 
+$r9 1 25 
+$r3 1 11 
+r18 2 17 25 
+r1 1 -2 
+$r7 1 52 
+$r4 1 19 
+$r10 1 19 
+$r5 1 39 
+$r8 1 11 
+Fields: 2
+-1 serverSocket 11
+-1 capture 19
+Accesses: 6
+18 1 -1 
+7 1 -1 
+10 1 -1 
+58 1 -1 
+30 1 -1 
+95 1 -1 
+Functions: 11
+48 3 17 25 43 
+1 4 -1 -2 19 11 
+34 3 17 19 25 
+84 0 
+100 1 11 
+69 0 
+55 3 52 39 43 
+73 0 
+11 1 11 
+91 0 
+79 0 
+Constructors: 3
+48 43
+34 25
+55 39
+
+Summary: 8
+0 84 -2 87 17 43 -1 25 
+sun/net/www/http/HttpClient.<init>(Ljava/net/URL;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 0 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 2 -1 -2 
+Constructors: 1
+8 -1
+
+Summary: 2
+-1 -2 
+sun/net/www/http/HttpClient.getDefaultPort(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+$r1 1 0 
+$r2 1 12 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 0 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/net/www/http/HttpClient.getCacheRequest()Ljava/net/CacheRequest;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 cacheRequest 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.available()Z
+PTG:
+Vars:
+12
+$r6 1 5 
+$r3 1 20 
+$r7 1 -1 
+r0 1 -1 
+$r11 1 -1 
+$r1 1 5 
+$r5 1 28 
+$r12 1 5 
+$r4 1 5 
+$r2 1 5 
+$r8 1 -1 
+$r10 1 5 
+Fields: 1
+-1 serverSocket 5
+Accesses: 6
+81 1 -1 
+99 1 -1 
+4 1 -1 
+24 1 -1 
+59 1 -1 
+12 1 -1 
+Functions: 11
+64 1 5 
+17 1 5 
+49 0 
+35 1 20 
+116 0 
+5 1 5 
+86 1 5 
+104 1 5 
+25 1 5 
+73 0 
+31 2 20 28 
+Constructors: 1
+31 20
+
+Summary: 3
+28 -1 20 
+sun/net/www/http/HttpClient.finalize()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.getRequestMethod()Ljava/lang/String;
+PTG:
+Vars:
+4
+r3 1 15 
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+Fields: 1
+-1 requests 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+20 1 15 
+8 1 1 
+Constructors: 0
+
+Summary: 2
+-1 23 
+sun/net/www/http/HttpClient.getInputStream()Ljava/io/InputStream;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 serverInput 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.<init>(Ljava/net/URL;Ljava/lang/String;IZ)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r0 1 -1 
+$r5 2 7 17 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+21 4 -1 -2 17 7 
+15 1 -3 
+Constructors: 1
+21 -1
+
+Summary: 6
+0 -1 -3 1 -2 17 
+sun/net/www/http/HttpClient.<init>(Ljava/net/URL;Ljava/lang/String;I)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 3 -1 -2 -3 
+Constructors: 1
+5 -1
+
+Summary: 3
+-1 -3 -2 
+sun/net/www/http/HttpClient.writeRequests(Lsun/net/www/MessageHeader;Lsun/net/www/http/PosterOutputStream;Z)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 1
+8 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 4
+0 -1 -3 -2 
+sun/net/www/http/HttpClient.getOutputStream()Ljava/io/OutputStream;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 serverOutput 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.closeServer()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 6 
+$r2 1 -1 
+Fields: 1
+-1 serverSocket 6
+Accesses: 2
+2 1 -1 
+5 1 -1 
+Functions: 1
+9 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.setDoNotRetry(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.getURLFile()Ljava/lang/String;
+PTG:
+Vars:
+24
+$r30 1 90 
+r31 4 152 199 141 166 
+$r23 1 27 
+$r20 1 27 
+$r5 1 193 
+$r26 1 27 
+$r12 1 27 
+$r2 1 212 
+$r24 1 58 
+$r14 1 27 
+$r29 1 27 
+$r8 1 27 
+$r4 1 189 
+$r13 1 48 
+$r21 1 101 
+$r1 1 146 
+$r6 1 14 
+$r17 1 27 
+$r27 1 79 
+$r15 1 112 
+r0 1 -1 
+$r9 1 30 
+$r18 1 130 
+$r3 1 180 
+Fields: 2
+-1 url 27
+-1 url 146
+Accesses: 11
+0 1 -1 
+97 1 -1 
+145 1 -1 
+54 1 -1 
+86 1 -1 
+7 1 -1 
+26 1 -1 
+75 1 -1 
+44 1 -1 
+108 1 -1 
+126 1 -1 
+Functions: 27
+193 1 193 
+133 2 130 14 
+70 1 14 
+200 4 166 199 152 141 
+137 1 14 
+76 1 27 
+82 2 14 79 
+146 1 146 
+21 1 14 
+87 1 27 
+218 1 212 
+27 1 27 
+157 4 166 199 152 141 
+33 2 14 30 
+98 1 27 
+40 1 14 
+104 2 101 14 
+170 4 166 199 152 141 
+45 1 27 
+109 1 27 
+180 1 180 
+55 1 27 
+184 1 180 
+121 1 14 
+58 1 58 
+189 5 166 199 152 189 141 
+127 1 27 
+Constructors: 3
+21 14
+184 180
+218 212
+
+Summary: 10
+79 112 48 90 130 -1 30 193 58 101 
+sun/net/www/http/HttpClient.toString()Ljava/lang/String;
+PTG:
+Vars:
+11
+$r0 1 0 
+_ret 1 34 
+$r8 1 31 
+r1 1 -1 
+$r9 1 34 
+$r2 1 8 
+$r7 1 26 
+$r3 1 11 
+$r5 1 19 
+$r4 1 14 
+$r6 1 23 
+Fields: 1
+-1 url 23
+Accesses: 1
+22 1 -1 
+Functions: 8
+0 2 0 11 
+19 2 19 23 
+4 1 0 
+7 2 -1 23 
+8 1 8 
+26 1 26 
+14 1 14 
+31 1 31 
+Constructors: 1
+4 0
+
+Summary: 3
+8 -1 11 
+sun/net/www/http/HttpClient.privilegedOpenServer(Ljava/net/InetSocketAddress;)V
+PTG:
+Vars:
+3
+$r0 1 0 
+r1 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+17 0 
+6 3 0 -1 -2 
+9 1 0 
+Constructors: 1
+6 0
+
+Summary: 3
+0 -1 -2 
+sun/net/www/http/HttpClient.<init>(Ljava/net/URL;Ljava/lang/String;IZI)V
+PTG:
+Vars:
+4
+$r5 2 7 17 
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+22 4 -1 -2 17 7 
+15 1 -3 
+Constructors: 1
+22 -1
+
+Summary: 4
+-1 -3 -2 17 
+sun/net/www/http/HttpClient.setCacheRequest(Ljava/net/CacheRequest;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+sun/net/www/http/HttpClient.isInKeepAliveCache()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.getProxyHostUsed()Ljava/lang/String;
+PTG:
+Vars:
+6
+_ret 1 19 
+$r1 1 10 
+$r4 1 19 
+$r2 1 13 
+r0 1 -1 
+$r3 1 13 
+Fields: 1
+-1 proxy 10
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+16 1 13 
+10 1 10 
+Constructors: 0
+
+Summary: 2
+-1 13 
+sun/net/www/http/HttpClient.New(Ljava/net/URL;Ljava/net/Proxy;ILsun/net/www/protocol/http/HttpURLConnection;)Lsun/net/www/http/HttpClient;
+PTG:
+Vars:
+5
+_ret 1 5 
+r2 1 -5 
+r1 1 -3 
+r0 1 -2 
+$r3 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -2 -3 -5 
+Constructors: 0
+
+Summary: 6
+-5 0 -3 3 1 -2 
+sun/net/www/http/HttpClient.putInKeepAliveCache()V
+PTG:
+Vars:
+3
+$r1 1 33 
+r0 1 -1 
+$r2 1 29 
+Fields: 1
+-1 url 33
+Accesses: 3
+0 1 -1 
+32 1 -1 
+26 1 -1 
+Functions: 2
+19 0 
+38 3 -1 33 29 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 11
+16 1 -1 
+51 1 -1 
+36 1 -1 
+21 1 -1 
+6 1 -1 
+56 1 -1 
+41 1 -1 
+26 1 -1 
+11 1 -1 
+46 1 -1 
+31 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.logFinest(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+$r0 1 3 
+$r1 1 0 
+r2 1 -2 
+$r3 1 12 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 0 3 
+16 2 -2 12 
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/net/www/http/HttpClient.<clinit>()V
+PTG:
+Vars:
+17
+$r7 1 65 
+r5 1 49 
+r14 1 97 
+r11 1 81 
+$r4 1 49 
+$r6 1 56 
+$r3 1 40 
+$r12 1 88 
+$r15 1 130 
+$r13 1 97 
+$r16 1 109 
+$r2 1 34 
+$r9 1 72 
+$r10 1 81 
+$r0 1 0 
+r8 1 65 
+$r1 1 16 
+Fields: 0
+Accesses: 0
+Functions: 17
+0 1 0 
+-1 0 
+129 1 65 
+130 1 130 
+40 1 40 
+72 1 72 
+168 1 97 
+108 1 49 
+109 1 109 
+46 1 40 
+78 1 72 
+20 1 16 
+150 1 81 
+56 1 56 
+88 1 88 
+62 1 56 
+94 1 88 
+Constructors: 5
+20 16
+46 40
+62 56
+78 72
+94 88
+
+Summary: 6
+65 109 81 130 97 49 
+sun/net/www/http/HttpClient.isCachedConnection()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.needsTunneling()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.setIgnoreContinue(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.getHttpKeepAliveSet()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.New(Ljava/net/URL;)Lsun/net/www/http/HttpClient;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 7 
+_ret 1 7 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 -2 1 
+Constructors: 0
+
+Summary: 1
+-2 
+sun/net/www/http/HttpClient.closeIdleConnection()V
+PTG:
+Vars:
+4
+r3 1 11 
+$r1 1 4 
+r0 1 -1 
+$r2 1 0 
+Fields: 1
+-1 url 4
+Accesses: 1
+3 1 -1 
+Functions: 2
+0 2 0 4 
+17 1 11 
+Constructors: 0
+
+Summary: 2
+-1 11 
+sun/net/www/http/HttpClient.writeRequests(Lsun/net/www/MessageHeader;Lsun/net/www/http/PosterOutputStream;)V
+PTG:
+Vars:
+9
+$r7 1 10 
+r0 1 -1 
+r1 1 -2 
+$r2 1 10 
+r4 1 -3 
+$r8 1 22 
+$r5 1 22 
+$r3 1 6 
+$r6 1 10 
+Fields: 3
+-1 poster 22
+-1 requests 6
+-1 serverOutput 10
+Accesses: 8
+32 1 -1 
+2 1 -1 
+18 1 -1 
+5 1 -1 
+21 1 -1 
+39 1 -1 
+9 1 -1 
+28 1 -1 
+Functions: 3
+36 2 22 10 
+43 1 10 
+13 2 6 10 
+Constructors: 0
+
+Summary: 3
+0 -1 1 
+sun/net/www/http/HttpClient.afterConnect()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.newHttpProxy(Ljava/lang/String;ILjava/lang/String;)Ljava/net/Proxy;
+PTG:
+Vars:
+6
+r2 1 -4 
+$r4 1 32 
+_ret 1 32 
+r3 1 30 
+$r5 1 36 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 1 -4 
+41 3 32 36 30 
+26 1 -2 
+Constructors: 1
+41 32
+
+Summary: 4
+0 30 -2 -4 
+sun/net/www/http/HttpClient.<init>(Ljava/net/URL;Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 -1 -2 
+Constructors: 1
+5 -1
+
+Summary: 2
+-1 -2 
+sun/net/www/http/HttpClient.getProxyPortUsed()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+8 0 
+14 0 
+Constructors: 0
+
+Summary: 2
+-1 11 
+sun/net/www/http/HttpClient.getDefaultPort()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.New(Ljava/net/URL;Ljava/net/Proxy;IZLsun/net/www/protocol/http/HttpURLConnection;)Lsun/net/www/http/HttpClient;
+PTG:
+Vars:
+26
+$r9 1 15 
+$r26 1 173 
+$r5 1 305 
+$r3 1 299 
+$r8 1 252 
+_ret 2 252 23 
+r14 1 -6 
+$r29 1 190 
+r0 1 -2 
+$r18 1 45 
+$r15 1 167 
+r24 2 252 23 
+$r6 1 82 
+$r2 1 82 
+r25 1 23 
+$r4 1 302 
+$r27 1 182 
+$r11 1 82 
+$r17 1 82 
+$r28 1 187 
+r30 1 23 
+$r10 1 82 
+$r1 1 282 
+r31 1 270 
+$r7 1 321 
+r23 2 -3 7 
+Fields: 1
+23 proxy 82
+Accesses: 11
+64 2 23 252 
+80 2 23 252 
+288 2 23 252 
+130 2 23 252 
+100 2 23 252 
+149 2 23 252 
+277 2 23 252 
+88 2 23 252 
+121 2 23 252 
+222 2 23 252 
+334 2 23 252 
+Functions: 25
+320 1 -2 
+193 1 190 
+259 4 -2 -3 7 252 
+324 1 -2 
+69 3 82 23 252 
+328 2 321 270 
+267 0 
+142 0 
+15 2 -2 15 
+90 3 82 -3 7 
+157 3 82 23 252 
+35 1 -6 
+227 3 82 23 252 
+170 2 -6 167 
+298 1 -2 
+43 1 -6 
+299 1 299 
+173 1 173 
+302 1 302 
+177 1 173 
+308 1 -2 
+53 3 82 23 252 
+182 4 82 182 23 252 
+312 2 305 270 
+187 1 187 
+Constructors: 2
+177 173
+259 252
+
+Summary: 13
+0 -3 -6 45 187 1 321 299 190 4 270 302 305 
+sun/net/www/http/HttpClient.isKeepingAlive()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.parseHTTP(Lsun/net/www/MessageHeader;Lsun/net/ProgressSource;Lsun/net/www/protocol/http/HttpURLConnection;)Z
+PTG:
+Vars:
+16
+$r2 1 5 
+r0 1 -1 
+$r3 1 12 
+$r5 1 24 
+$r14 1 107 
+$r9 1 19 
+$r10 1 12 
+$r11 1 24 
+$r4 1 38 
+r7 1 -3 
+$r15 1 126 
+$r12 1 -1 
+$r1 1 2 
+r6 1 -2 
+r8 1 -4 
+$r13 1 95 
+Fields: 4
+-1 serverSocket 2
+-1 capture 12
+-1 requests 95
+-1 serverInput 24
+Accesses: 18
+1 1 -1 
+34 1 -1 
+103 1 -1 
+8 1 -1 
+42 1 -1 
+170 1 -1 
+11 1 -1 
+49 1 -1 
+178 1 -1 
+84 1 -1 
+118 1 -1 
+182 1 -1 
+23 1 -1 
+87 1 -1 
+27 1 -1 
+157 1 -1 
+62 1 -1 
+94 1 -1 
+Functions: 16
+2 1 2 
+164 1 -4 
+70 5 -1 2 24 12 95 
+106 5 -1 2 24 12 95 
+107 1 107 
+46 2 38 24 
+174 5 -1 2 24 12 95 
+79 5 -1 2 24 12 95 
+147 5 -1 2 24 12 95 
+52 8 -1 -2 2 -3 -4 24 12 95 
+150 5 -1 2 24 12 95 
+186 5 -1 2 24 12 95 
+125 1 -4 
+189 8 -1 -2 2 -3 -4 24 12 95 
+126 1 126 
+31 3 19 24 12 
+Constructors: 2
+46 38
+31 19
+
+Summary: 9
+0 126 -3 -2 2 -1 1 -4 107 
+sun/net/www/http/HttpClient.New(Ljava/net/URL;Ljava/lang/String;IZILsun/net/www/protocol/http/HttpURLConnection;)Lsun/net/www/http/HttpClient;
+PTG:
+Vars:
+6
+r3 1 -7 
+$r2 1 5 
+_ret 1 13 
+r1 1 -3 
+$r4 1 13 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 1 -3 
+11 3 -2 5 -7 
+Constructors: 0
+
+Summary: 7
+0 -7 -3 5 1 5 -2 
+sun/net/www/http/HttpClient.<init>(Ljava/net/URL;Ljava/net/Proxy;I)V
+PTG:
+Vars:
+6
+$r6 2 -3 64 
+r2 1 -2 
+$r3 1 76 
+$r4 1 118 
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 18
+36 1 -1 
+6 1 -1 
+71 1 -1 
+41 1 -1 
+11 1 -1 
+108 1 -1 
+46 1 -1 
+79 1 -1 
+16 1 -1 
+51 1 -1 
+84 1 -1 
+21 1 -1 
+56 1 -1 
+121 1 -1 
+26 1 -1 
+92 1 -1 
+31 1 -1 
+95 1 -1 
+Functions: 7
+1 1 -1 
+113 1 -1 
+117 1 -2 
+88 1 -2 
+104 1 -1 
+75 1 -2 
+125 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+0 -1 1 
+sun/net/www/http/HttpClient.superOpenServer(Ljava/lang/String;I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+sun/net/www/http/HttpClient.getKeepAliveTimeout()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/http/HttpClient.openServer()V
+PTG:
+Vars:
+12
+$r16 1 10 
+$r24 1 10 
+$r13 1 29 
+r1 1 -1 
+$r14 1 47 
+$r19 1 137 
+$r18 1 134 
+$r17 1 124 
+r0 1 3 
+$r3 1 32 
+$r15 1 124 
+$r2 1 29 
+Fields: 3
+-1 host 10
+-1 proxy 124
+-1 url 29
+Accesses: 21
+65 1 -1 
+130 1 -1 
+101 1 -1 
+166 1 -1 
+9 1 -1 
+106 1 -1 
+43 1 -1 
+171 1 -1 
+13 1 -1 
+78 1 -1 
+110 1 -1 
+143 1 -1 
+175 1 -1 
+20 1 -1 
+86 1 -1 
+119 1 -1 
+151 1 -1 
+184 1 -1 
+58 1 -1 
+123 1 -1 
+28 1 -1 
+Functions: 16
+0 0 
+32 1 32 
+96 4 -1 10 124 29 
+161 4 -1 10 124 29 
+66 0 
+131 1 124 
+44 1 29 
+47 1 47 
+17 2 3 10 
+82 0 
+114 4 -1 10 124 29 
+147 0 
+179 4 -1 10 124 29 
+87 0 
+152 0 
+29 1 29 
+Constructors: 0
+
+Summary: 8
+155 69 32 90 47 -1 134 3 

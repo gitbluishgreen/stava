@@ -1,0 +1,2672 @@
+93
+java/util/concurrent/ConcurrentHashMap.computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;
+PTG:
+Vars:
+22
+$r8 1 374 
+$r7 1 229 
+r12 2 70 300 
+$r11 1 388 
+$r13 1 311 
+$r15 1 260 
+r3 1 -1 
+$r4 1 70 
+$r9 1 409 
+r28 1 126 
+$r19 1 126 
+$r14 1 327 
+_ret 5 311 402 115 409 289 
+r2 1 -3 
+r0 1 -2 
+r24 5 311 402 115 409 289 
+$r18 1 115 
+$r34 1 300 
+r32 2 70 300 
+r35 1 70 
+r25 3 34 211 54 
+$r16 1 79 
+Fields: 7
+70 key 260
+70 val 289
+70 root 374
+70 next 300
+388 val 402
+-1 table 34
+300 val 289
+Accesses: 9
+258 2 70 300 
+339 2 70 300 
+372 1 70 
+249 2 70 300 
+298 2 70 300 
+284 2 70 300 
+397 1 388 
+30 1 -1 
+191 1 70 
+Functions: 21
+160 3 34 211 54 
+66 3 34 211 54 
+99 4 34 211 54 79 
+227 3 34 211 54 
+135 3 -2 115 126 
+487 2 -1 34 
+203 9 -1 289 34 211 260 54 70 374 300 
+12 0 
+429 7 289 -2 260 70 374 409 300 
+16 1 -2 
+336 3 -2 327 311 
+464 4 -1 34 211 54 
+17 0 
+113 2 -2 -3 
+50 2 -1 34 
+146 4 34 211 54 126 
+83 1 79 
+275 2 -2 260 
+309 2 -2 -3 
+407 2 -2 -3 
+383 2 -2 374 
+Constructors: 3
+336 327
+83 79
+135 126
+
+Summary: 5
+126 0 1 388 -3 
+java/util/concurrent/ConcurrentHashMap.reduceEntriesToDouble(JLjava/util/function/ToDoubleFunction;DLjava/util/function/DoubleBinaryOperator;)D
+PTG:
+Vars:
+7
+$r5 1 30 
+$r7 1 42 
+$r3 1 17 
+r2 1 -5 
+r4 1 -1 
+$r6 1 42 
+r0 1 -3 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.reduce(JLjava/util/function/BiFunction;Ljava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r6 1 40 
+r2 1 -4 
+_ret 1 40 
+$r3 1 17 
+r0 1 -3 
+$r5 1 30 
+r4 1 -1 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 4
+17 1 17 
+37 4 17 -3 -4 30 
+22 2 -1 30 
+13 0 
+Constructors: 1
+37 17
+
+Summary: 3
+-3 -1 -4 
+java/util/concurrent/ConcurrentHashMap.comparableClassFor(Ljava/lang/Object;)Ljava/lang/Class;
+PTG:
+Vars:
+8
+$r9 1 60 
+$r12 1 90 
+$r1 1 8 
+r0 1 -2 
+$r10 1 72 
+$r3 1 21 
+$r7 1 42 
+$r5 1 42 
+Fields: 2
+72 ArrayObject 90
+21 ArrayObject 42
+Accesses: 0
+Functions: 4
+20 1 8 
+54 1 42 
+70 1 42 
+7 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+java/util/concurrent/ConcurrentHashMap.reduceValuesToInt(JLjava/util/function/ToIntFunction;ILjava/util/function/IntBinaryOperator;)I
+PTG:
+Vars:
+7
+$r3 1 17 
+r2 1 -5 
+$r6 1 42 
+r0 1 -3 
+$r7 1 42 
+$r5 1 30 
+r4 1 -1 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.reduceEntries(JLjava/util/function/Function;Ljava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r5 1 30 
+r2 1 -4 
+_ret 1 40 
+$r6 1 40 
+r0 1 -3 
+r4 1 -1 
+$r3 1 17 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 4
+17 1 17 
+37 4 17 -3 -4 30 
+22 2 -1 30 
+13 0 
+Constructors: 1
+37 17
+
+Summary: 3
+-3 -1 -4 
+java/util/concurrent/ConcurrentHashMap.putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+_ret 1 4 
+r0 1 -1 
+r2 1 -3 
+$r3 1 4 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 4
+1 -3 0 -2 
+java/util/concurrent/ConcurrentHashMap.<init>(IF)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 -1 
+Constructors: 1
+4 -1
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.forEachEntry(JLjava/util/function/Consumer;)V
+PTG:
+Vars:
+4
+$r3 1 25 
+$r1 1 12 
+r2 1 -1 
+r0 1 -3 
+Fields: 1
+-1 table 25
+Accesses: 1
+24 1 -1 
+Functions: 4
+32 1 12 
+17 2 -1 25 
+8 0 
+29 3 -3 25 12 
+Constructors: 1
+29 12
+
+Summary: 2
+-3 -1 
+java/util/concurrent/ConcurrentHashMap.forEach(JLjava/util/function/BiConsumer;)V
+PTG:
+Vars:
+4
+r0 1 -3 
+$r1 1 12 
+r2 1 -1 
+$r3 1 25 
+Fields: 1
+-1 table 25
+Accesses: 1
+24 1 -1 
+Functions: 4
+32 1 12 
+17 2 -1 25 
+8 0 
+29 3 -3 25 12 
+Constructors: 1
+29 12
+
+Summary: 2
+-3 -1 
+java/util/concurrent/ConcurrentHashMap.elements()Ljava/util/Enumeration;
+PTG:
+Vars:
+4
+_ret 1 16 
+r0 1 -1 
+$r3 1 16 
+$r1 1 1 
+Fields: 1
+-1 table 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+25 3 16 -1 1 
+Constructors: 1
+25 16
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.toString()Ljava/lang/String;
+PTG:
+Vars:
+15
+$r16 1 116 
+r0 1 -1 
+r11 1 60 
+r12 1 67 
+$r3 1 16 
+$r5 1 28 
+$r1 1 1 
+$r22 2 77 60 
+$r9 1 148 
+$r17 1 132 
+r21 2 116 46 
+_ret 1 151 
+$r23 2 67 104 
+$r10 1 151 
+$r8 1 46 
+Fields: 3
+-1 table 1
+46 key 60
+46 val 67
+Accesses: 3
+0 1 -1 
+55 2 116 46 
+62 2 116 46 
+Functions: 12
+32 1 28 
+128 1 28 
+144 1 28 
+115 1 16 
+84 3 28 60 77 
+148 1 148 
+24 2 16 1 
+41 1 28 
+137 1 132 
+92 1 28 
+45 1 16 
+111 3 67 104 28 
+Constructors: 2
+32 28
+24 16
+
+Summary: 2
+16 -1 
+java/util/concurrent/ConcurrentHashMap.reduceKeys(JLjava/util/function/Function;Ljava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+r4 1 -1 
+_ret 1 40 
+$r3 1 17 
+r2 1 -4 
+r0 1 -3 
+$r5 1 30 
+$r6 1 40 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 4
+17 1 17 
+37 4 17 -3 -4 30 
+22 2 -1 30 
+13 0 
+Constructors: 1
+37 17
+
+Summary: 3
+-3 -1 -4 
+java/util/concurrent/ConcurrentHashMap.hashCode()I
+PTG:
+Vars:
+6
+$r7 1 38 
+r0 1 -1 
+$r1 1 3 
+$r3 1 11 
+$r5 1 26 
+$r8 1 46 
+Fields: 3
+-1 table 3
+26 key 38
+26 val 46
+Accesses: 3
+2 1 -1 
+36 1 26 
+44 1 26 
+Functions: 4
+21 2 3 11 
+38 1 38 
+25 1 11 
+46 1 46 
+Constructors: 1
+21 11
+
+Summary: 2
+-1 11 
+java/util/concurrent/ConcurrentHashMap.forEachValue(JLjava/util/function/Consumer;)V
+PTG:
+Vars:
+4
+r0 1 -3 
+$r3 1 25 
+$r1 1 12 
+r2 1 -1 
+Fields: 1
+-1 table 25
+Accesses: 1
+24 1 -1 
+Functions: 4
+32 1 12 
+17 2 -1 25 
+8 0 
+29 3 -3 25 12 
+Constructors: 1
+29 12
+
+Summary: 2
+-3 -1 
+java/util/concurrent/ConcurrentHashMap.getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+r1 1 -2 
+_ret 2 2 -3 
+r0 1 -1 
+$r5 2 2 -3 
+$r2 1 2 
+r4 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 4
+1 0 -2 -1 
+java/util/concurrent/ConcurrentHashMap.keySet()Ljava/util/concurrent/ConcurrentHashMap$KeySetView;
+PTG:
+Vars:
+4
+$r3 2 14 1 
+r0 1 -1 
+_ret 2 14 1 
+$r1 1 1 
+Fields: 1
+-1 keySet 1
+Accesses: 2
+0 1 -1 
+24 1 -1 
+Functions: 1
+20 3 -1 1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.tabAt([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node;
+PTG:
+Vars:
+5
+$r1 1 0 
+_ret 1 14 
+$r2 1 14 
+r0 1 -2 
+$r3 1 14 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 0 -2 
+Constructors: 0
+
+Summary: 1
+0 
+java/util/concurrent/ConcurrentHashMap.replaceNode(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+21
+$r12 1 366 
+$r13 1 129 
+r28 1 304 
+$r2 1 41 
+r7 1 -3 
+r10 1 -4 
+r1 1 -1 
+$r14 3 210 240 225 
+$r9 1 290 
+r18 2 73 13 
+$r24 3 210 240 225 
+$r6 1 94 
+$r11 1 363 
+$r8 1 275 
+r19 2 158 304 
+r25 1 41 
+r20 4 210 41 240 225 
+r0 1 -2 
+$r15 3 210 240 225 
+r23 1 158 
+r21 4 210 41 240 225 
+Fields: 10
+41 first 363
+41 key 129
+41 val 158
+41 root 275
+41 next 240
+41 next 210
+41 next 225
+290 val 304
+-1 table 13
+240 val 158
+Accesses: 14
+195 4 240 225 210 41 
+9 1 -1 
+361 1 41 
+299 1 290 
+238 4 240 225 210 41 
+208 4 240 225 210 41 
+273 1 41 
+53 1 41 
+117 4 240 225 210 41 
+213 4 240 225 210 41 
+341 1 290 
+153 4 240 225 210 41 
+127 4 240 225 210 41 
+223 4 240 225 210 41 
+Functions: 14
+0 1 -2 
+1 0 
+65 11 -1 240 129 225 210 275 73 41 363 13 158 
+321 2 304 -4 
+228 6 240 225 210 73 13 158 
+37 2 73 13 
+363 1 363 
+175 2 -4 158 
+144 2 -2 129 
+369 3 73 13 366 
+405 2 -1 13 
+347 10 240 304 129 225 210 290 275 41 363 158 
+92 2 73 13 
+284 2 -2 275 
+Constructors: 0
+
+Summary: 5
+1 2 290 0 -4 
+java/util/concurrent/ConcurrentHashMap.forEachKey(JLjava/util/function/Consumer;)V
+PTG:
+Vars:
+4
+r2 1 -1 
+$r3 1 25 
+r0 1 -3 
+$r1 1 12 
+Fields: 1
+-1 table 25
+Accesses: 1
+24 1 -1 
+Functions: 4
+32 1 12 
+17 2 -1 25 
+8 0 
+29 3 -3 25 12 
+Constructors: 1
+29 12
+
+Summary: 2
+-3 -1 
+java/util/concurrent/ConcurrentHashMap.reduceKeysToDouble(JLjava/util/function/ToDoubleFunction;DLjava/util/function/DoubleBinaryOperator;)D
+PTG:
+Vars:
+7
+$r6 1 42 
+$r5 1 30 
+$r7 1 42 
+r4 1 -1 
+r0 1 -3 
+$r3 1 17 
+r2 1 -5 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.replace(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+_ret 1 20 
+r0 1 -2 
+r2 1 -3 
+r3 1 -1 
+$r4 1 20 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 3 -1 -2 -3 
+12 0 
+Constructors: 0
+
+Summary: 4
+1 -3 0 -2 
+java/util/concurrent/ConcurrentHashMap.forEach(Ljava/util/function/BiConsumer;)V
+PTG:
+Vars:
+7
+r1 1 -1 
+$r2 1 13 
+$r8 1 53 
+r0 1 -2 
+$r4 1 21 
+$r9 1 48 
+$r6 1 36 
+Fields: 3
+-1 table 13
+36 key 48
+36 val 53
+Accesses: 3
+51 1 36 
+12 1 -1 
+46 1 36 
+Functions: 4
+35 1 21 
+8 0 
+56 3 48 -2 53 
+31 2 21 13 
+Constructors: 1
+31 21
+
+Summary: 4
+0 -2 -1 21 
+java/util/concurrent/ConcurrentHashMap.fullAddCount(JZ)V
+PTG:
+Vars:
+19
+$r13 1 64 
+$r3 1 370 
+$r10 1 255 
+$r9 1 23 
+r0 1 -1 
+$r15 1 23 
+$r8 1 185 
+$r17 1 130 
+$r2 1 23 
+$r28 1 456 
+$r24 1 23 
+r26 1 283 
+$r14 1 81 
+$r5 1 409 
+$r6 1 50 
+$r11 1 23 
+$r12 1 306 
+r27 1 398 
+$r4 1 23 
+Fields: 4
+23 ArrayObject 50
+23 ArrayObject 130
+23 ArrayObject 306
+-1 counterCells 23
+Accesses: 20
+193 1 50 
+322 1 -1 
+354 1 -1 
+99 1 -1 
+388 1 -1 
+421 1 -1 
+361 1 -1 
+74 1 -1 
+332 1 -1 
+429 1 -1 
+270 1 -1 
+463 1 -1 
+146 1 -1 
+22 1 -1 
+214 1 -1 
+439 1 -1 
+248 1 -1 
+57 1 -1 
+156 1 -1 
+317 1 -1 
+Functions: 11
+-1 0 
+81 6 -1 81 50 130 306 23 
+370 6 -1 370 50 130 306 23 
+69 1 64 
+344 0 
+456 6 -1 50 130 306 23 456 
+9 0 
+185 2 50 185 
+12 0 
+414 1 409 
+255 6 -1 50 130 306 23 255 
+Constructors: 2
+69 64
+414 409
+
+Summary: 0
+
+java/util/concurrent/ConcurrentHashMap.forEach(JLjava/util/function/BiFunction;Ljava/util/function/Consumer;)V
+PTG:
+Vars:
+5
+r2 1 -4 
+r0 1 -3 
+$r5 1 30 
+$r3 1 17 
+r4 1 -1 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 4
+36 4 17 -3 -4 30 
+22 2 -1 30 
+39 1 17 
+13 0 
+Constructors: 1
+36 17
+
+Summary: 3
+-3 -1 -4 
+java/util/concurrent/ConcurrentHashMap.keys()Ljava/util/Enumeration;
+PTG:
+Vars:
+4
+_ret 1 16 
+$r1 1 1 
+r0 1 -1 
+$r3 1 16 
+Fields: 1
+-1 table 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+25 3 16 -1 1 
+Constructors: 1
+25 16
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.forEachEntry(JLjava/util/function/Function;Ljava/util/function/Consumer;)V
+PTG:
+Vars:
+5
+r0 1 -3 
+$r3 1 17 
+$r5 1 30 
+r4 1 -1 
+r2 1 -4 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 4
+36 4 17 -3 -4 30 
+22 2 -1 30 
+39 1 17 
+13 0 
+Constructors: 1
+36 17
+
+Summary: 3
+-3 -1 -4 
+java/util/concurrent/ConcurrentHashMap.reduceEntriesToLong(JLjava/util/function/ToLongFunction;JLjava/util/function/LongBinaryOperator;)J
+PTG:
+Vars:
+7
+r4 1 -1 
+$r6 1 42 
+r2 1 -5 
+$r7 1 42 
+$r5 1 30 
+r0 1 -3 
+$r3 1 17 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.untreeify(Ljava/util/concurrent/ConcurrentHashMap$Node;)Ljava/util/concurrent/ConcurrentHashMap$Node;
+PTG:
+Vars:
+8
+r0 1 -2 
+_ret 1 10 
+r7 2 -2 55 
+r6 1 10 
+$r1 1 10 
+$r3 1 19 
+$r2 1 23 
+r5 1 10 
+Fields: 3
+-2 key 19
+-2 val 23
+55 next 55
+Accesses: 5
+18 2 -2 55 
+51 2 -2 55 
+22 2 -2 55 
+45 1 10 
+14 2 -2 55 
+Functions: 1
+27 3 19 23 10 
+Constructors: 1
+27 10
+
+Summary: 4
+19 -2 23 55 
+java/util/concurrent/ConcurrentHashMap.<clinit>()V
+PTG:
+Vars:
+22
+$r20 1 182 
+$r4 1 62 
+$r15 1 151 
+r16 1 162 
+$r3 1 56 
+$r10 1 112 
+$r1 1 37 
+$r21 1 193 
+$r0 1 27 
+$r9 1 103 
+$r17 1 163 
+$r11 1 119 
+$r14 1 144 
+$r5 1 71 
+$r7 1 87 
+$r8 1 96 
+$r13 1 135 
+$r6 1 77 
+$r2 1 42 
+$r12 1 128 
+$r18 1 170 
+r25 1 95 
+Fields: 0
+Accesses: 0
+Functions: 20
+-1 0 
+96 2 96 103 
+128 2 128 135 
+65 2 56 62 
+193 1 193 
+99 1 95 
+131 1 95 
+163 2 163 170 
+166 1 162 
+239 0 
+80 2 71 77 
+112 2 112 119 
+144 2 144 151 
+50 1 42 
+115 1 95 
+147 1 95 
+182 1 182 
+216 0 
+27 1 27 
+222 0 
+Constructors: 3
+80 71
+65 56
+50 42
+
+Summary: 0
+
+java/util/concurrent/ConcurrentHashMap.size()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.putVal(Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object;
+PTG:
+Vars:
+15
+$r9 1 69 
+$r10 1 282 
+$r21 1 224 
+r11 2 69 224 
+$r8 1 142 
+$r12 1 235 
+r19 2 203 296 
+r20 2 69 224 
+$r4 1 69 
+r3 1 -1 
+$r13 1 174 
+r2 1 -3 
+r0 1 -2 
+$r15 1 83 
+r18 3 52 124 32 
+Fields: 6
+282 val 296
+-1 table 32
+69 key 174
+69 val 203
+69 next 224
+224 val 203
+Accesses: 10
+305 1 282 
+162 2 224 69 
+291 1 282 
+212 2 224 69 
+198 2 224 69 
+247 2 224 69 
+104 1 69 
+28 1 -1 
+172 2 224 69 
+222 2 224 69 
+Functions: 14
+65 3 32 52 124 
+357 2 -1 32 
+12 0 
+140 3 32 52 124 
+16 1 -2 
+48 2 -1 32 
+17 0 
+83 4 32 83 52 124 
+275 6 224 -2 -3 69 203 174 
+339 4 -1 32 52 124 
+116 8 -1 32 224 52 69 203 124 174 
+244 3 -2 -3 235 
+92 3 -2 -3 83 
+189 2 -2 174 
+Constructors: 2
+244 235
+92 83
+
+Summary: 4
+1 83 0 282 
+java/util/concurrent/ConcurrentHashMap.containsKey(Ljava/lang/Object;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+java/util/concurrent/ConcurrentHashMap.reduceValues(JLjava/util/function/Function;Ljava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+r4 1 -1 
+$r5 1 30 
+_ret 1 40 
+r0 1 -3 
+$r6 1 40 
+r2 1 -4 
+$r3 1 17 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 4
+17 1 17 
+37 4 17 -3 -4 30 
+22 2 -1 30 
+13 0 
+Constructors: 1
+37 17
+
+Summary: 3
+-3 -1 -4 
+java/util/concurrent/ConcurrentHashMap.replace(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
+PTG:
+Vars:
+5
+r0 1 -2 
+$r4 1 24 
+r2 1 -4 
+r3 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 0 
+20 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 6
+1 -3 0 -2 2 -4 
+java/util/concurrent/ConcurrentHashMap.values()Ljava/util/Collection;
+PTG:
+Vars:
+4
+_ret 2 14 1 
+r0 1 -1 
+$r1 1 1 
+$r3 2 14 1 
+Fields: 1
+-1 values 1
+Accesses: 2
+0 1 -1 
+23 1 -1 
+Functions: 1
+19 3 -1 1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.batchFor(J)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+8 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.computeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+20
+$r11 1 318 
+$r9 1 291 
+$r14 1 154 
+r2 1 -3 
+$r24 2 215 250 
+$r4 1 73 
+$r8 1 120 
+r19 2 326 190 
+r22 3 73 215 250 
+r25 1 73 
+r20 3 37 105 57 
+$r15 1 182 
+r0 1 -2 
+$r10 1 305 
+r21 3 73 215 250 
+_ret 2 326 190 
+r3 1 -1 
+r16 2 215 250 
+$r13 1 365 
+$r12 1 362 
+Fields: 9
+-1 table 37
+73 first 362
+73 key 154
+73 val 182
+73 root 291
+73 next 215
+73 next 250
+250 val 182
+305 val 318
+Accesses: 13
+33 1 -1 
+289 1 73 
+226 3 215 73 250 
+360 1 73 
+201 3 215 73 250 
+143 3 215 73 250 
+337 1 305 
+210 3 215 73 250 
+180 3 215 73 250 
+85 1 73 
+152 3 215 73 250 
+248 3 215 73 250 
+316 1 305 
+Functions: 16
+97 11 -1 291 37 182 215 105 57 73 362 154 250 
+69 3 37 105 57 
+169 2 -2 154 
+362 1 362 
+12 0 
+300 2 -2 291 
+238 6 37 182 215 105 57 250 
+16 1 -2 
+368 4 37 105 57 365 
+17 0 
+178 3 -2 -3 182 
+53 2 -1 37 
+118 3 37 105 57 
+407 2 -1 37 
+314 3 -2 -3 318 
+346 9 305 291 182 215 73 362 154 250 318 
+Constructors: 0
+
+Summary: 7
+1 57 105 -3 0 318 305 
+java/util/concurrent/ConcurrentHashMap.treeifyBin([Ljava/util/concurrent/ConcurrentHashMap$Node;I)V
+PTG:
+Vars:
+11
+$r7 1 70 
+r14 1 70 
+$r6 1 137 
+r15 1 70 
+r16 2 130 27 
+$r8 1 86 
+r0 1 -2 
+$r9 1 81 
+$r1 1 27 
+$r5 1 49 
+r11 1 -1 
+Fields: 3
+130 next 130
+27 key 81
+27 val 86
+Accesses: 7
+35 1 27 
+84 2 130 27 
+101 1 70 
+118 1 70 
+74 2 130 27 
+125 2 130 27 
+79 2 130 27 
+Functions: 6
+48 1 -2 
+146 2 -2 137 
+19 1 -1 
+26 1 -2 
+91 3 81 70 86 
+143 2 70 137 
+Constructors: 2
+91 70
+143 137
+
+Summary: 4
+137 130 0 -2 
+java/util/concurrent/ConcurrentHashMap.reduceValuesToLong(JLjava/util/function/ToLongFunction;JLjava/util/function/LongBinaryOperator;)J
+PTG:
+Vars:
+7
+$r5 1 30 
+$r3 1 17 
+$r7 1 42 
+r4 1 -1 
+r0 1 -3 
+$r6 1 42 
+r2 1 -5 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.keySet()Ljava/util/Set;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.searchEntries(JLjava/util/function/Function;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r4 1 25 
+$r3 1 29 
+$r5 1 39 
+_ret 1 39 
+r2 1 -1 
+$r1 1 12 
+r0 1 -3 
+Fields: 1
+-1 table 25
+Accesses: 1
+24 1 -1 
+Functions: 5
+17 2 -1 25 
+33 1 29 
+36 4 -3 25 12 29 
+8 0 
+12 1 12 
+Constructors: 2
+33 29
+36 12
+
+Summary: 3
+-3 -1 29 
+java/util/concurrent/ConcurrentHashMap.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+23
+r17 2 142 36 
+r24 1 343 
+r1 1 -2 
+$r12 1 255 
+r19 1 24 
+r21 1 162 
+r0 1 -1 
+r20 1 115 
+$r7 1 412 
+$r9 2 359 207 
+r25 3 142 36 403 
+r6 1 182 
+$r2 1 115 
+r3 1 142 
+$r16 1 36 
+$r15 1 210 
+$r10 2 354 182 
+$r4 1 162 
+$r14 1 207 
+r18 1 18 
+$r8 1 343 
+r22 2 295 162 
+r23 1 343 
+Fields: 10
+142 key 182
+142 val 207
+142 next 142
+295 next 295
+36 key 182
+36 val 207
+162 key 255
+403 key 354
+403 val 359
+403 next 403
+Accesses: 21
+352 3 403 36 142 
+2 1 -1 
+290 2 162 295 
+325 2 36 142 
+357 3 403 36 142 
+391 1 343 
+137 2 36 142 
+74 1 -1 
+205 2 36 142 
+461 1 -1 
+398 3 403 36 142 
+144 2 36 142 
+177 2 36 142 
+243 2 162 295 
+374 1 343 
+439 2 36 142 
+184 1 162 
+472 1 -1 
+347 3 403 36 142 
+253 2 162 295 
+478 1 -1 
+Functions: 14
+160 1 115 
+448 5 115 36 182 142 207 
+418 2 343 412 
+421 2 115 412 
+6 1 -2 
+199 4 162 182 255 207 
+40 1 18 
+42 0 
+107 0 
+364 5 354 182 343 359 207 
+14 1 -2 
+271 2 182 255 
+20 1 -2 
+54 6 18 36 182 24 142 207 
+Constructors: 3
+418 412
+54 36
+364 343
+
+Summary: 12
+412 210 359 36 -2 354 207 24 403 142 295 -1 
+java/util/concurrent/ConcurrentHashMap.reduceToDouble(JLjava/util/function/ToDoubleBiFunction;DLjava/util/function/DoubleBinaryOperator;)D
+PTG:
+Vars:
+7
+r2 1 -5 
+$r3 1 17 
+$r7 1 42 
+$r5 1 30 
+$r6 1 42 
+r4 1 -1 
+r0 1 -3 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.reduceKeys(JLjava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+$r3 1 25 
+_ret 1 33 
+r2 1 -1 
+r0 1 -3 
+$r4 1 33 
+$r1 1 12 
+Fields: 1
+-1 table 25
+Accesses: 1
+24 1 -1 
+Functions: 4
+17 2 -1 25 
+8 0 
+12 1 12 
+30 3 -3 25 12 
+Constructors: 1
+30 12
+
+Summary: 2
+-3 -1 
+java/util/concurrent/ConcurrentHashMap.transfer([Ljava/util/concurrent/ConcurrentHashMap$Node;[Ljava/util/concurrent/ConcurrentHashMap$Node;)V
+PTG:
+Vars:
+33
+$r40 3 770 759 296 
+$r42 1 77 
+r36 1 607 
+r21 2 -3 40 
+r0 1 -2 
+r35 1 607 
+$r44 1 496 
+$r38 3 723 734 296 
+$r47 1 770 
+r33 1 607 
+r28 4 410 374 496 296 
+r39 3 723 734 296 
+r31 1 467 
+r34 1 607 
+$r46 1 734 
+$r10 1 620 
+r25 3 410 374 296 
+r22 1 40 
+r29 2 374 296 
+r37 2 593 709 
+$r4 1 241 
+r32 1 296 
+$r45 1 607 
+$r8 1 346 
+$r17 1 40 
+$r43 1 476 
+r26 2 410 374 
+r3 1 -1 
+$r15 1 144 
+$r5 1 296 
+r30 1 460 
+r27 4 476 410 374 296 
+$r11 1 615 
+Fields: 8
+593 key 615
+593 val 620
+410 next 410
+296 first 593
+296 key 460
+296 val 467
+296 next 374
+709 next 709
+Accesses: 25
+448 2 374 296 
+704 2 593 709 
+65 1 -1 
+513 2 374 296 
+642 1 607 
+70 1 -1 
+455 2 374 296 
+588 1 296 
+462 2 374 296 
+659 1 607 
+405 2 374 410 
+600 2 593 709 
+221 1 -1 
+226 1 -1 
+613 2 593 709 
+677 1 607 
+618 2 593 709 
+237 1 -1 
+369 1 296 
+694 1 607 
+248 1 -1 
+59 1 -1 
+125 1 -1 
+381 2 374 410 
+319 1 296 
+Functions: 20
+801 11 593 -3 770 467 374 759 615 40 296 460 620 
+546 2 -2 77 
+740 2 734 607 
+294 1 -2 
+488 9 593 467 374 615 296 410 476 460 620 
+776 2 770 607 
+809 2 -2 77 
+269 0 
+144 2 144 -1 
+528 11 593 -3 467 374 615 40 296 410 476 460 620 
+241 2 -1 241 
+625 3 615 620 607 
+721 1 607 
+82 3 -3 40 77 
+309 2 -2 77 
+757 1 607 
+791 11 593 -3 723 467 374 615 40 296 460 620 734 
+344 1 -2 
+538 11 496 593 -3 467 374 615 40 296 410 460 620 
+508 9 496 593 467 374 615 296 410 460 620 
+Constructors: 6
+625 607
+82 77
+740 734
+488 476
+776 770
+508 496
+
+Summary: 10
+709 77 476 0 496 1 -2 734 770 410 
+java/util/concurrent/ConcurrentHashMap.reduceKeysToInt(JLjava/util/function/ToIntFunction;ILjava/util/function/IntBinaryOperator;)I
+PTG:
+Vars:
+7
+r0 1 -3 
+$r5 1 30 
+r4 1 -1 
+$r3 1 17 
+r2 1 -5 
+$r6 1 42 
+$r7 1 42 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.entrySet()Ljava/util/Set;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 2 14 1 
+$r1 1 1 
+$r3 2 14 1 
+Fields: 1
+-1 entrySet 1
+Accesses: 2
+0 1 -1 
+23 1 -1 
+Functions: 1
+19 3 -1 1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.casTabAt([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)Z
+PTG:
+Vars:
+4
+$r3 1 0 
+r2 1 -5 
+r1 1 -4 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 0 -2 -4 -5 
+Constructors: 0
+
+Summary: 2
+0 3 
+java/util/concurrent/ConcurrentHashMap.remove(Ljava/lang/Object;Ljava/lang/Object;)Z
+PTG:
+Vars:
+4
+r2 1 -1 
+$r3 1 20 
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 3 -1 -2 -3 
+8 0 
+Constructors: 0
+
+Summary: 4
+1 -3 0 -2 
+java/util/concurrent/ConcurrentHashMap.initTable()[Ljava/util/concurrent/ConcurrentHashMap$Node;
+PTG:
+Vars:
+8
+$r8 1 1 
+r0 1 -1 
+$r3 1 70 
+_ret 2 70 1 
+r9 2 70 1 
+$r1 1 29 
+r4 1 70 
+$r2 1 1 
+Fields: 1
+-1 table 1
+Accesses: 6
+0 1 -1 
+83 1 -1 
+104 1 -1 
+44 1 -1 
+14 1 -1 
+94 1 -1 
+Functions: 2
+23 0 
+29 3 -1 1 29 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ConcurrentHashMap.setTabAt([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -4 
+$r2 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+15 3 0 -2 -4 
+Constructors: 0
+
+Summary: 2
+0 2 
+java/util/concurrent/ConcurrentHashMap.contains(Ljava/lang/Object;)Z
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/ConcurrentHashMap.newKeySet(I)Ljava/util/concurrent/ConcurrentHashMap$KeySetView;
+PTG:
+Vars:
+4
+_ret 1 0 
+$r1 1 4 
+$r2 1 12 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+9 1 4 
+15 3 0 4 12 
+Constructors: 2
+9 4
+15 0
+
+Summary: 1
+4 
+java/util/concurrent/ConcurrentHashMap.reduceValues(JLjava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+$r4 1 33 
+_ret 1 33 
+r0 1 -3 
+$r1 1 12 
+$r3 1 25 
+r2 1 -1 
+Fields: 1
+-1 table 25
+Accesses: 1
+24 1 -1 
+Functions: 4
+17 2 -1 25 
+8 0 
+12 1 12 
+30 3 -3 25 12 
+Constructors: 1
+30 12
+
+Summary: 2
+-3 -1 
+java/util/concurrent/ConcurrentHashMap.addCount(JI)V
+PTG:
+Vars:
+9
+$r1 1 1 
+$r7 1 203 
+$r9 1 10 
+$r4 1 71 
+$r5 1 139 
+r0 1 -1 
+$r3 1 64 
+$r6 1 252 
+$r8 1 222 
+Fields: 4
+-1 counterCells 1
+-1 nextTable 203
+-1 table 139
+1 ArrayObject 64
+Accesses: 7
+0 1 -1 
+17 1 -1 
+212 1 -1 
+138 1 -1 
+202 1 -1 
+126 1 -1 
+79 1 64 
+Functions: 11
+-1 0 
+114 5 -1 64 1 203 139 
+246 5 -1 64 1 203 139 
+71 2 64 71 
+279 5 -1 64 1 203 139 
+104 5 -1 64 1 203 139 
+10 6 -1 64 1 10 203 139 
+282 5 -1 64 1 203 139 
+252 6 -1 64 1 203 139 252 
+222 6 -1 64 1 203 139 222 
+159 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ConcurrentHashMap.clear()V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r5 1 28 
+r1 1 28 
+$r4 1 77 
+$r9 2 108 28 
+r8 2 61 8 
+r10 3 108 28 131 
+Fields: 3
+-1 table 8
+28 first 108
+131 next 131
+Accesses: 4
+4 1 -1 
+41 1 28 
+105 1 28 
+126 3 131 108 28 
+Functions: 5
+53 5 -1 8 28 108 61 
+24 2 8 61 
+76 2 8 61 
+172 2 -1 8 
+143 2 8 61 
+Constructors: 0
+
+Summary: 1
+131 
+java/util/concurrent/ConcurrentHashMap.tryPresize(I)V
+PTG:
+Vars:
+10
+$r3 1 35 
+$r7 1 196 
+$r8 1 215 
+r0 1 -1 
+$r2 1 63 
+$r5 1 35 
+r10 1 89 
+$r6 1 243 
+r1 1 35 
+$r4 1 89 
+Fields: 2
+-1 nextTable 196
+-1 table 35
+Accesses: 9
+113 1 -1 
+195 1 -1 
+100 1 -1 
+149 1 -1 
+22 1 -1 
+123 1 -1 
+205 1 -1 
+78 1 -1 
+31 1 -1 
+Functions: 7
+17 0 
+243 4 -1 243 35 196 
+215 4 -1 35 196 215 
+156 0 
+237 3 -1 35 196 
+269 3 -1 35 196 
+63 4 -1 35 196 63 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ConcurrentHashMap.reduceEntries(JLjava/util/function/BiFunction;)Ljava/util/Map$Entry;
+PTG:
+Vars:
+7
+_ret 1 33 
+r2 1 -1 
+$r5 1 33 
+$r4 1 33 
+r0 1 -3 
+$r3 1 25 
+$r1 1 12 
+Fields: 1
+-1 table 25
+Accesses: 1
+24 1 -1 
+Functions: 4
+17 2 -1 25 
+8 0 
+12 1 12 
+30 3 -3 25 12 
+Constructors: 1
+30 12
+
+Summary: 2
+-3 -1 
+java/util/concurrent/ConcurrentHashMap.get(Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+8
+$r4 1 34 
+$r2 1 10 
+$r9 1 55 
+$r14 1 113 
+r1 1 -1 
+$r5 1 131 
+r11 2 113 34 
+r0 1 -2 
+Fields: 4
+113 key 131
+-1 table 10
+34 key 55
+34 next 113
+Accesses: 8
+112 2 113 34 
+130 1 113 
+54 1 34 
+9 1 -1 
+121 1 113 
+42 1 34 
+155 1 113 
+79 1 34 
+Functions: 6
+0 1 -2 
+1 0 
+33 1 10 
+146 2 -2 131 
+70 2 -2 55 
+89 5 113 -2 34 131 55 
+Constructors: 0
+
+Summary: 3
+0 -1 93 
+java/util/concurrent/ConcurrentHashMap.isEmpty()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.searchKeys(JLjava/util/function/Function;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+_ret 1 39 
+$r1 1 12 
+r0 1 -3 
+$r5 1 39 
+$r3 1 29 
+r2 1 -1 
+$r4 1 25 
+Fields: 1
+-1 table 25
+Accesses: 1
+24 1 -1 
+Functions: 5
+17 2 -1 25 
+33 1 29 
+36 4 -3 25 12 29 
+8 0 
+12 1 12 
+Constructors: 2
+33 29
+36 12
+
+Summary: 3
+-3 -1 29 
+java/util/concurrent/ConcurrentHashMap.reduceKeysToLong(JLjava/util/function/ToLongFunction;JLjava/util/function/LongBinaryOperator;)J
+PTG:
+Vars:
+7
+r0 1 -3 
+r4 1 -1 
+$r7 1 42 
+$r5 1 30 
+r2 1 -5 
+$r6 1 42 
+$r3 1 17 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+13
+r14 1 33 
+$r7 1 119 
+$r2 1 73 
+$r6 1 110 
+$r3 1 84 
+r1 1 -2 
+$r0 1 33 
+$r13 1 56 
+$r4 1 95 
+$r12 1 160 
+$r11 1 151 
+r5 1 -1 
+$r9 1 139 
+Fields: 3
+-1 table 110
+139 key 151
+139 val 160
+Accesses: 3
+149 1 139 
+109 1 -1 
+158 1 139 
+Functions: 14
+163 2 160 -2 
+132 2 119 110 
+102 1 95 
+72 1 -2 
+137 1 119 
+106 1 -2 
+171 1 -2 
+80 2 33 73 
+176 1 -2 
+83 1 -2 
+154 2 -2 151 
+91 1 84 
+62 1 56 
+94 1 -2 
+Constructors: 2
+132 119
+62 56
+
+Summary: 7
+119 -2 -1 95 33 73 84 
+java/util/concurrent/ConcurrentHashMap.keySet(Ljava/lang/Object;)Ljava/util/concurrent/ConcurrentHashMap$KeySetView;
+PTG:
+Vars:
+4
+r2 1 -1 
+_ret 1 12 
+r0 1 -2 
+$r1 1 12 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 3 -1 -2 12 
+8 0 
+Constructors: 1
+18 12
+
+Summary: 2
+-2 -1 
+java/util/concurrent/ConcurrentHashMap.compareComparables(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Object;)I
+PTG:
+Vars:
+5
+r3 1 -3 
+$r1 1 5 
+$r4 1 -3 
+r0 1 -4 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+17 2 -3 -4 
+4 1 -4 
+Constructors: 0
+
+Summary: 7
+1 -3 0 -2 2 5 -4 
+java/util/concurrent/ConcurrentHashMap.search(JLjava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r5 1 39 
+$r1 1 12 
+_ret 1 39 
+$r4 1 25 
+r2 1 -1 
+$r3 1 29 
+r0 1 -3 
+Fields: 1
+-1 table 25
+Accesses: 1
+24 1 -1 
+Functions: 5
+17 2 -1 25 
+33 1 29 
+36 4 -3 25 12 29 
+8 0 
+12 1 12 
+Constructors: 2
+33 29
+36 12
+
+Summary: 3
+-3 -1 29 
+java/util/concurrent/ConcurrentHashMap.merge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+25
+$r29 1 371 
+r30 1 371 
+$r11 1 463 
+r27 1 79 
+r21 3 -3 226 392 
+$r9 1 388 
+$r26 2 251 286 
+$r8 1 155 
+r2 1 -4 
+r0 1 -2 
+$r14 1 190 
+$r10 1 460 
+$r31 2 -3 392 
+$r13 1 303 
+r24 3 251 286 79 
+r3 1 -1 
+r28 1 354 
+r23 3 251 286 79 
+_ret 3 -3 226 392 
+r1 1 -3 
+r22 3 140 62 42 
+$r15 1 217 
+$r4 1 79 
+$r17 1 93 
+r16 2 251 286 
+Fields: 9
+371 val 388
+-1 table 42
+286 val 217
+79 first 460
+79 key 190
+79 val 217
+79 root 354
+79 next 251
+79 next 286
+Accesses: 14
+386 1 371 
+38 1 -1 
+262 3 251 286 79 
+458 1 79 
+237 3 251 286 79 
+178 3 251 286 79 
+246 3 251 286 79 
+215 3 251 286 79 
+120 1 79 
+188 3 251 286 79 
+284 3 251 286 79 
+316 3 251 286 79 
+349 1 79 
+413 1 371 
+Functions: 21
+385 3 -3 -4 388 
+132 11 -1 354 217 42 251 140 460 62 190 286 79 
+102 3 -2 -3 93 
+520 2 -1 42 
+75 3 42 140 62 
+460 1 460 
+205 2 -2 190 
+365 2 -2 354 
+429 10 -2 354 -3 392 217 251 460 190 286 79 
+16 0 
+274 6 217 42 251 140 62 286 
+466 4 42 140 62 463 
+20 1 -2 
+500 4 -1 42 140 62 
+21 0 
+214 3 -3 -4 217 
+153 3 42 140 62 
+313 3 -2 -3 303 
+58 2 -1 42 
+444 9 354 371 388 217 251 460 190 286 79 
+93 4 42 140 93 62 
+Constructors: 2
+102 93
+313 303
+
+Summary: 7
+371 2 0 -4 1 388 93 
+java/util/concurrent/ConcurrentHashMap.resizeStamp(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ConcurrentHashMap.mappingCount()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.<init>(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+40 1 -1 
+Functions: 3
+1 1 -1 
+33 0 
+12 0 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.putAll(Ljava/util/Map;)V
+PTG:
+Vars:
+8
+$r7 1 49 
+r1 1 -2 
+$r4 1 32 
+$r2 1 11 
+r3 1 21 
+r5 1 32 
+r0 1 -1 
+$r6 1 43 
+Fields: 0
+Accesses: 0
+Functions: 9
+48 1 32 
+1 1 -2 
+22 1 21 
+7 1 -1 
+55 3 -1 49 43 
+10 1 -2 
+42 1 32 
+11 1 11 
+31 1 21 
+Constructors: 0
+
+Summary: 6
+43 49 0 -2 32 11 
+java/util/concurrent/ConcurrentHashMap.searchValues(JLjava/util/function/Function;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+_ret 1 39 
+$r1 1 12 
+$r4 1 25 
+r0 1 -3 
+$r3 1 29 
+$r5 1 39 
+r2 1 -1 
+Fields: 1
+-1 table 25
+Accesses: 1
+24 1 -1 
+Functions: 5
+17 2 -1 25 
+33 1 29 
+36 4 -3 25 12 29 
+8 0 
+12 1 12 
+Constructors: 2
+33 29
+36 12
+
+Summary: 3
+-3 -1 29 
+java/util/concurrent/ConcurrentHashMap.reduceToInt(JLjava/util/function/ToIntBiFunction;ILjava/util/function/IntBinaryOperator;)I
+PTG:
+Vars:
+7
+r0 1 -3 
+$r5 1 30 
+r2 1 -5 
+r4 1 -1 
+$r3 1 17 
+$r6 1 42 
+$r7 1 42 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.forEachKey(JLjava/util/function/Function;Ljava/util/function/Consumer;)V
+PTG:
+Vars:
+5
+r4 1 -1 
+r2 1 -4 
+$r5 1 30 
+$r3 1 17 
+r0 1 -3 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 4
+36 4 17 -3 -4 30 
+22 2 -1 30 
+39 1 17 
+13 0 
+Constructors: 1
+36 17
+
+Summary: 3
+-3 -1 -4 
+java/util/concurrent/ConcurrentHashMap.helpTransfer([Ljava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)[Ljava/util/concurrent/ConcurrentHashMap$Node;
+PTG:
+Vars:
+7
+r0 1 -2 
+_ret 1 128 
+r2 1 -3 
+$r9 1 128 
+r1 1 -1 
+$r3 1 -3 
+$r4 1 15 
+Fields: 2
+-3 nextTable 15
+-1 table 128
+Accesses: 6
+38 1 -1 
+87 1 -1 
+12 1 -3 
+46 1 -1 
+31 1 -1 
+127 1 -1 
+Functions: 3
+97 2 -1 128 
+119 4 -1 128 -2 15 
+24 0 
+Constructors: 0
+
+Summary: 3
+-3 0 -2 
+java/util/concurrent/ConcurrentHashMap.reduceEntriesToInt(JLjava/util/function/ToIntFunction;ILjava/util/function/IntBinaryOperator;)I
+PTG:
+Vars:
+7
+$r5 1 30 
+$r6 1 42 
+r2 1 -5 
+r4 1 -1 
+$r7 1 42 
+r0 1 -3 
+$r3 1 17 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.replaceAll(Ljava/util/function/BiFunction;)V
+PTG:
+Vars:
+10
+$r2 1 13 
+r8 1 57 
+r0 1 -2 
+r14 2 100 50 
+$r10 1 91 
+r1 1 -1 
+r9 1 69 
+$r4 1 21 
+$r6 1 36 
+$r11 1 100 
+Fields: 3
+-1 table 13
+36 key 57
+36 val 50
+Accesses: 3
+52 1 36 
+12 1 -1 
+45 1 36 
+Functions: 7
+80 0 
+97 3 -1 57 13 
+35 1 21 
+84 6 -1 50 100 69 57 13 
+8 0 
+59 4 -2 50 100 57 
+31 2 21 13 
+Constructors: 1
+31 21
+
+Summary: 3
+-2 21 0 
+java/util/concurrent/ConcurrentHashMap.newKeySet()Ljava/util/concurrent/ConcurrentHashMap$KeySetView;
+PTG:
+Vars:
+4
+$r2 1 11 
+_ret 1 0 
+$r1 1 4 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+8 1 4 
+14 3 0 4 11 
+Constructors: 2
+8 4
+14 0
+
+Summary: 1
+4 
+java/util/concurrent/ConcurrentHashMap.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.<init>(IFI)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+69 1 -1 
+Functions: 3
+1 1 -1 
+22 0 
+60 0 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.forEachValue(JLjava/util/function/Function;Ljava/util/function/Consumer;)V
+PTG:
+Vars:
+5
+r4 1 -1 
+$r3 1 17 
+r2 1 -4 
+$r5 1 30 
+r0 1 -3 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 4
+36 4 17 -3 -4 30 
+22 2 -1 30 
+39 1 17 
+13 0 
+Constructors: 1
+36 17
+
+Summary: 3
+-3 -1 -4 
+java/util/concurrent/ConcurrentHashMap.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 -3 
+_ret 1 4 
+r1 1 -2 
+$r3 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 4
+1 -3 0 -2 
+java/util/concurrent/ConcurrentHashMap.tableSizeFor(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ConcurrentHashMap.sumCount()J
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 27 
+r1 1 4 
+Fields: 2
+-1 counterCells 4
+4 ArrayObject 27
+Accesses: 3
+0 1 -1 
+34 1 27 
+5 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ConcurrentHashMap.reduceValuesToDouble(JLjava/util/function/ToDoubleFunction;DLjava/util/function/DoubleBinaryOperator;)D
+PTG:
+Vars:
+7
+r4 1 -1 
+$r5 1 30 
+$r6 1 42 
+r0 1 -3 
+r2 1 -5 
+$r3 1 17 
+$r7 1 42 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.compute(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+25
+$r7 1 233 
+$r9 1 551 
+r27 1 133 
+$r4 1 73 
+$r13 1 267 
+$r17 1 119 
+$r14 1 295 
+r34 2 328 363 
+r38 1 456 
+r3 1 -1 
+r24 3 37 57 218 
+$r12 1 392 
+$r8 1 439 
+$r35 2 328 363 
+$r15 1 82 
+r36 1 73 
+r0 1 -2 
+r2 1 -3 
+r31 3 328 363 73 
+_ret 4 303 380 489 119 
+$r18 1 133 
+$r10 1 554 
+r23 4 303 380 489 119 
+r32 3 328 363 73 
+$r39 1 475 
+Fields: 9
+363 val 295
+456 val 475
+-1 table 37
+73 first 551
+73 key 267
+73 val 295
+73 root 439
+73 next 328
+73 next 363
+Accesses: 14
+256 3 328 73 363 
+33 1 -1 
+323 3 328 73 363 
+293 3 328 73 363 
+549 1 73 
+198 1 73 
+265 3 328 73 363 
+361 3 328 73 363 
+339 3 328 73 363 
+404 3 328 73 363 
+437 1 73 
+473 1 456 
+505 1 456 
+314 3 328 73 363 
+Functions: 26
+448 2 -2 439 
+69 3 37 57 218 
+520 12 -2 551 295 439 119 328 73 489 267 363 380 303 
+12 0 
+142 3 -2 133 119 
+591 4 -1 37 57 218 
+16 1 -2 
+17 0 
+401 6 -2 119 392 489 380 303 
+210 11 -1 37 551 295 439 328 57 73 218 267 363 
+86 1 82 
+535 9 551 295 439 328 456 73 267 363 475 
+153 4 37 133 57 218 
+282 2 -2 267 
+351 6 37 295 328 57 218 363 
+480 3 -2 -3 475 
+291 3 -2 -3 295 
+611 2 -1 37 
+102 4 82 37 57 218 
+167 3 37 57 218 
+231 3 37 57 218 
+551 1 551 
+557 4 37 57 218 554 
+116 2 -2 -3 
+372 2 -2 -3 
+53 2 -1 37 
+Constructors: 3
+401 392
+86 82
+142 133
+
+Summary: 9
+133 57 218 0 1 -3 456 119 475 
+java/util/concurrent/ConcurrentHashMap.reduceToLong(JLjava/util/function/ToLongBiFunction;JLjava/util/function/LongBinaryOperator;)J
+PTG:
+Vars:
+7
+r2 1 -5 
+$r7 1 42 
+r4 1 -1 
+$r5 1 30 
+r0 1 -3 
+$r3 1 17 
+$r6 1 42 
+Fields: 1
+-1 table 30
+Accesses: 1
+29 1 -1 
+Functions: 5
+17 1 17 
+22 2 -1 30 
+39 4 17 -3 -5 30 
+13 0 
+45 1 42 
+Constructors: 1
+39 17
+
+Summary: 3
+-5 -3 -1 
+java/util/concurrent/ConcurrentHashMap.remove(Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+4
+$r2 1 4 
+_ret 1 4 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+java/util/concurrent/ConcurrentHashMap.<init>(Ljava/util/Map;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 2
+1 1 -1 
+12 2 -1 -2 
+Constructors: 1
+1 -1
+
+Summary: 1
+-2 
+java/util/concurrent/ConcurrentHashMap.spread(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ConcurrentHashMap.containsValue(Ljava/lang/Object;)Z
+PTG:
+Vars:
+6
+r0 1 -2 
+$r8 1 47 
+r1 1 -1 
+$r2 1 13 
+$r4 1 21 
+$r6 1 36 
+Fields: 2
+-1 table 13
+36 val 47
+Accesses: 2
+12 1 -1 
+45 1 36 
+Functions: 4
+35 1 21 
+8 0 
+62 2 -2 47 
+31 2 21 13 
+Constructors: 1
+31 21
+
+Summary: 3
+0 -1 21 
+java/util/concurrent/ConcurrentHashMap.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+16
+r19 1 120 
+$r15 1 53 
+r17 1 67 
+$r7 1 110 
+r2 1 -2 
+r1 1 -1 
+$r3 1 20 
+$r12 1 173 
+$r5 1 36 
+r0 1 -2 
+$r10 1 159 
+$r8 1 134 
+$r9 1 146 
+r18 1 80 
+r20 1 134 
+$r14 1 72 
+Fields: 3
+53 key 72
+53 val 67
+-1 table 20
+Accesses: 3
+19 1 -1 
+70 1 53 
+62 1 53 
+Functions: 12
+144 1 134 
+51 1 36 
+132 1 120 
+69 2 -2 72 
+122 1 120 
+170 3 -1 146 20 
+109 1 -2 
+157 1 134 
+189 2 173 159 
+46 2 36 20 
+94 2 80 67 
+110 1 110 
+Constructors: 1
+46 36
+
+Summary: 4
+36 -2 0 -1 

@@ -1,0 +1,550 @@
+26
+org/h2/index/BaseIndex.getColumns()[Lorg/h2/table/Column;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 columns 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.setMultiVersion(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.getRootPageId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.canFindNext()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.getDuplicateKeyException()Ljava/sql/SQLException;
+PTG:
+Vars:
+15
+$r3 1 11 
+$r7 1 26 
+$r8 1 31 
+r1 1 -1 
+$r6 1 23 
+$r0 1 0 
+$r2 1 8 
+r12 1 49 
+_ret 1 54 
+$r9 1 35 
+$r13 1 54 
+$r5 1 20 
+$r4 1 16 
+$r10 1 38 
+$r11 1 43 
+Fields: 1
+-1 table 20
+Accesses: 1
+19 1 -1 
+Functions: 12
+0 2 0 8 
+16 2 16 23 
+34 2 -1 20 
+4 1 0 
+20 1 20 
+53 1 49 
+38 1 38 
+7 2 -1 20 
+26 1 26 
+11 1 11 
+43 1 43 
+31 2 35 31 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.initBaseIndex(Lorg/h2/table/Table;ILjava/lang/String;[Lorg/h2/table/IndexColumn;Lorg/h2/index/IndexType;)V
+PTG:
+Vars:
+14
+$r2 1 2 
+$r7 1 46 
+r1 1 -2 
+r11 1 76 
+$r12 1 46 
+r4 1 -6 
+$r13 1 88 
+r3 1 -4 
+$r6 1 38 
+$r10 1 72 
+r0 1 -1 
+$r9 1 46 
+r5 1 -5 
+$r8 1 50 
+Fields: 4
+72 column 76
+-1 columns 46
+-1 columnIds 88
+-5 ArrayObject 72
+Accesses: 10
+20 1 -1 
+52 1 -1 
+87 1 -1 
+72 1 72 
+41 1 -1 
+60 1 -1 
+45 1 -1 
+78 1 -1 
+15 1 -1 
+31 1 -1 
+Functions: 3
+1 1 -2 
+9 5 -1 2 -4 88 46 
+93 1 76 
+Constructors: 0
+
+Summary: 6
+4 -4 -1 2 0 3 
+org/h2/index/BaseIndex.getTable()Lorg/h2/table/Table;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 table 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.getLookupCost(J)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.findNext(Lorg/h2/engine/Session;Lorg/h2/result/SearchRow;Lorg/h2/result/SearchRow;)Lorg/h2/index/Cursor;
+PTG:
+Vars:
+5
+r3 1 -3 
+r4 1 -4 
+r1 1 -1 
+r2 1 -2 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 5
+-1 -2 -4 -3 0 
+org/h2/index/BaseIndex.getColumnListSQL()Ljava/lang/String;
+PTG:
+Vars:
+7
+r2 1 -1 
+$r0 1 0 
+r5 1 29 
+r3 1 12 
+$r6 1 40 
+$r4 1 54 
+_ret 1 54 
+Fields: 2
+-1 indexColumns 12
+12 ArrayObject 29
+Accesses: 1
+8 1 -1 
+Functions: 5
+34 1 0 
+4 1 0 
+53 1 0 
+38 1 29 
+43 2 0 40 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.getCreateSQLForCopy(Lorg/h2/table/Table;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+18
+$r0 1 0 
+$r15 1 78 
+$r3 1 12 
+_ret 1 91 
+$r4 1 15 
+r2 1 -1 
+$r14 1 74 
+r7 1 -3 
+$r11 1 40 
+r10 1 -2 
+$r13 1 48 
+$r20 1 48 
+$r21 1 64 
+$r19 1 57 
+$r16 1 81 
+$r6 1 25 
+$r9 1 36 
+$r18 1 91 
+Fields: 2
+-1 comment 48
+-1 indexType 12
+Accesses: 3
+11 1 -1 
+60 1 -1 
+47 1 -1 
+Functions: 16
+33 1 0 
+67 2 64 57 
+6 1 0 
+39 1 -2 
+71 1 0 
+74 2 74 78 
+43 2 36 40 
+12 1 12 
+77 3 -1 48 12 
+18 2 0 15 
+22 1 0 
+54 1 0 
+86 1 81 
+90 1 0 
+29 2 -3 25 
+61 1 48 
+Constructors: 1
+6 0
+
+Summary: 5
+-3 -1 -2 0 1 
+org/h2/index/BaseIndex.removeChildrenAndResources(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+4
+$r3 1 14 
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+Fields: 2
+-1 database 14
+-1 table 1
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 4
+18 3 -1 1 14 
+5 3 -1 1 14 
+22 2 -2 14 
+10 4 -1 1 -2 14 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/BaseIndex.getCreateSQL()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 2 
+r0 1 -1 
+$r2 1 6 
+_ret 1 9 
+$r3 1 9 
+Fields: 1
+-1 table 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+0 3 -1 2 6 
+5 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.getIndexType()Lorg/h2/index/IndexType;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 indexType 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.getCostRangeIndex([IJ)J
+PTG:
+Vars:
+7
+r0 1 -2 
+$r2 1 25 
+$r3 1 25 
+r4 1 39 
+$r6 1 75 
+r1 1 -1 
+$r5 1 25 
+Fields: 2
+-1 columns 25
+25 ArrayObject 39
+Accesses: 3
+32 1 -1 
+64 1 -1 
+24 1 -1 
+Functions: 9
+144 0 
+84 3 -1 39 25 
+150 3 -1 39 25 
+200 3 -1 39 25 
+41 1 39 
+74 3 -1 39 25 
+106 1 39 
+75 1 75 
+174 3 -1 39 25 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/BaseIndex.getPlanSQL()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.compareValues(Lorg/h2/value/Value;Lorg/h2/value/Value;I)I
+PTG:
+Vars:
+4
+r1 1 -3 
+r2 1 -1 
+r0 1 -2 
+$r3 1 51 
+Fields: 1
+-1 table 51
+Accesses: 1
+50 1 -1 
+Functions: 2
+51 3 -2 -3 51 
+45 0 
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+org/h2/index/BaseIndex.getType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.getDropSQL()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.compareKeys(Lorg/h2/result/SearchRow;Lorg/h2/result/SearchRow;)I
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -3 
+r2 1 -1 
+Fields: 0
+Accesses: 1
+22 1 -1 
+Functions: 5
+0 1 -2 
+37 1 -3 
+7 1 -3 
+29 1 -2 
+47 0 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 0 1 
+org/h2/index/BaseIndex.containsNullAndAllowMultipleNull(Lorg/h2/result/SearchRow;)Z
+PTG:
+Vars:
+7
+$r1 1 1 
+r0 1 -1 
+r3 1 -2 
+r2 1 7 
+$r4 1 114 
+r9 1 110 
+r8 1 81 
+Fields: 2
+-1 database 1
+-1 columnIds 81
+Accesses: 5
+0 1 -1 
+17 1 7 
+8 1 7 
+24 1 -1 
+77 1 -1 
+Functions: 3
+1 1 1 
+49 1 -2 
+102 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/BaseIndex.commit(ILorg/h2/result/Row;)V
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -3 1 
+org/h2/index/BaseIndex.compareRows(Lorg/h2/result/SearchRow;Lorg/h2/result/SearchRow;)I
+PTG:
+Vars:
+9
+$r2 1 12 
+r4 1 27 
+$r8 1 52 
+$r1 1 4 
+r0 1 -1 
+$r6 1 40 
+r5 1 -2 
+r3 1 -3 
+$r7 1 4 
+Fields: 3
+4 ArrayObject 52
+-1 indexColumns 4
+-1 columnIds 12
+Accesses: 4
+3 1 -1 
+52 1 52 
+11 1 -1 
+47 1 -1 
+Functions: 3
+19 1 -3 
+36 6 -1 4 52 40 27 12 
+37 1 -2 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 0 1 
+org/h2/index/BaseIndex.getIndexColumns()[Lorg/h2/table/IndexColumn;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 indexColumns 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/h2/index/BaseIndex.getColumnIndex(Lorg/h2/table/Column;)I
+PTG:
+Vars:
+5
+r3 1 -2 
+$r2 1 4 
+$r4 1 16 
+r0 1 -1 
+$r1 1 4 
+Fields: 2
+4 ArrayObject 16
+-1 columns 4
+Accesses: 2
+3 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 

@@ -1,0 +1,463 @@
+9
+org/eclipse/jdt/internal/core/search/indexing/AddJarFileToIndex.execute(Lorg/eclipse/core/runtime/IProgressMonitor;)Z
+PTG:
+Vars:
+84
+r164 1 35 
+r165 1 83 
+$r30 1 1416 
+$r90 1 502 
+$r35 1 1438 
+$r2 1 27 
+$r41 1 1325 
+$r100 1 471 
+$r55 1 775 
+$r91 1 505 
+$r12 1 1208 
+r0 1 -1 
+r167 1 195 
+$r73 1 667 
+$r162 1 342 
+$r43 1 1334 
+$r159 1 323 
+$r54 1 746 
+$r53 1 710 
+$r116 1 279 
+$r118 1 289 
+$r93 1 27 
+$r7 1 180 
+$r113 1 267 
+r176 1 847 
+r168 1 310 
+$r4 1 27 
+$r74 1 670 
+$r32 1 1425 
+$r161 1 337 
+$r99 1 466 
+r181 1 1208 
+$r179 1 27 
+$r15 2 27 1265 
+$r39 1 1310 
+$r158 1 -1 
+$r34 1 1433 
+$r37 1 1295 
+r182 1 1236 
+$r75 1 673 
+$r14 1 1238 
+$r13 1 1220 
+$r36 1 1441 
+$r8 1 526 
+$r95 1 520 
+$r29 1 23 
+$r88 1 493 
+r175 1 790 
+$r31 1 1413 
+$r97 1 451 
+$r72 1 656 
+$r94 1 517 
+$r16 2 23 1256 
+$r89 1 490 
+$r56 1 864 
+$r120 1 295 
+$r9 1 27 
+$r119 1 292 
+r170 2 471 27 
+$r3 1 23 
+$r114 1 264 
+r180 1 1104 
+$r33 1 1428 
+$r38 1 1307 
+r166 2 451 526 
+$r92 1 510 
+r177 1 1009 
+$r10 1 534 
+$r42 1 1331 
+$r160 1 334 
+$r178 1 23 
+$r5 1 23 
+$r115 1 276 
+r173 1 768 
+$r96 1 180 
+$r98 1 180 
+$r163 1 345 
+r171 1 690 
+$r117 1 284 
+r1 1 -2 
+r6 1 122 
+$r40 1 1316 
+$r11 1 27 
+r174 1 775 
+Fields: 7
+847 ArrayObject 864
+690 ArrayObject 746
+710 valueTable 847
+-1 resource 180
+-1 manager 23
+-1 containerPath 27
+83 monitor 122
+Accesses: 32
+0 1 -1 
+513 1 -1 
+1025 1 -1 
+1281 1 -1 
+1475 1 -1 
+1029 1 -1 
+70 1 -1 
+1096 1 83 
+74 1 -1 
+842 1 710 
+142 1 -1 
+462 1 -1 
+530 1 -1 
+1109 1 -1 
+22 1 -1 
+1497 1 -1 
+26 1 -1 
+1501 1 -1 
+544 1 -1 
+166 1 83 
+103 1 -1 
+1255 1 -1 
+553 1 -1 
+942 1 -1 
+1264 1 -1 
+179 1 -1 
+1011 1 -1 
+820 1 710 
+118 1 83 
+55 1 -1 
+1015 1 -1 
+186 1 -1 
+Functions: 164
+-1 0 
+517 1 517 
+773 1 768 
+1286 3 83 23 122 
+1033 0 
+11 1 -2 
+267 2 276 267 
+523 2 520 490 
+1295 2 1307 1295 
+273 1 267 
+785 1 775 
+531 1 27 
+1302 1 1295 
+23 2 23 27 
+279 1 279 
+792 1 790 
+1305 2 451 526 
+1050 0 
+539 2 534 526 
+284 2 289 284 
+1310 1 1310 
+287 1 195 
+1056 0 
+292 1 292 
+1316 1 1316 
+806 4 864 710 790 847 
+1062 0 
+298 2 295 264 
+810 1 768 
+1067 2 451 526 
+1325 1 1325 
+46 0 
+1072 0 
+306 2 -2 195 
+1331 1 1331 
+52 0 
+566 0 
+1078 0 
+1337 1 1334 
+59 0 
+1083 2 451 526 
+572 0 
+575 2 451 526 
+1087 1 122 
+65 0 
+323 2 323 334 
+580 0 
+71 2 23 27 
+329 1 323 
+585 0 
+1099 2 451 526 
+332 1 195 
+591 0 
+1359 0 
+337 1 337 
+1365 0 
+342 1 342 
+1371 0 
+348 1 345 
+94 0 
+608 0 
+1376 2 451 526 
+353 1 -1 
+1122 0 
+100 0 
+1381 0 
+614 0 
+1128 0 
+107 0 
+1131 2 451 526 
+1387 0 
+620 0 
+367 0 
+1136 0 
+1392 2 451 526 
+113 0 
+625 2 451 526 
+1396 1 122 
+373 0 
+1141 0 
+630 0 
+376 1 195 
+1147 0 
+636 0 
+381 0 
+641 2 451 526 
+897 0 
+386 0 
+133 0 
+645 1 122 
+392 0 
+904 0 
+1416 2 1425 1416 
+139 0 
+907 2 451 526 
+1164 0 
+1422 1 1416 
+656 2 656 667 
+912 0 
+146 0 
+1170 0 
+1428 1 1428 
+662 1 656 
+918 0 
+151 0 
+1176 0 
+665 2 451 526 
+1433 3 451 1433 526 
+157 0 
+1181 2 451 526 
+670 1 670 
+1438 1 1438 
+927 0 
+1186 0 
+676 1 673 
+1444 2 1441 1413 
+933 0 
+679 0 
+1192 0 
+1449 2 451 526 
+939 0 
+684 2 83 122 
+1197 2 451 526 
+1453 1 122 
+176 1 122 
+1201 1 122 
+947 2 83 122 
+1206 1 1104 
+1466 0 
+187 1 180 
+446 1 122 
+1472 0 
+1218 1 1208 
+964 0 
+1220 1 1220 
+1479 0 
+457 2 451 310 
+970 0 
+1484 0 
+463 1 180 
+1231 3 451 1208 526 
+976 0 
+466 1 466 
+1490 0 
+981 2 451 526 
+1494 0 
+729 3 864 710 847 
+986 0 
+992 0 
+1505 0 
+1250 6 1009 1236 1238 471 1208 27 
+997 2 451 526 
+1001 1 122 
+493 2 502 493 
+749 4 864 710 746 847 
+1006 0 
+499 1 493 
+1012 2 23 27 
+1268 8 1009 1265 83 1238 23 1256 122 27 
+1271 1 1104 
+505 1 505 
+763 2 451 526 
+253 1 122 
+510 2 27 510 
+Constructors: 10
+273 267
+1250 1238
+499 493
+662 656
+1302 1295
+329 323
+457 451
+729 710
+539 526
+1422 1416
+
+Summary: 75
+673 310 122 1133 1487 1173 936 775 1009 1186 520 151 1441 334 633 790 195 1104 502 534 292 295 345 1384 577 989 0 1208 276 933 1381 289 83 1368 59 986 1141 1307 1236 973 35 630 1331 378 110 154 342 -1 517 585 1189 1220 1238 617 471 667 386 107 690 1438 389 1334 1075 909 -2 62 1072 710 588 1425 1484 670 1144 768 1059 
+org/eclipse/jdt/internal/core/search/indexing/AddJarFileToIndex.toString()Ljava/lang/String;
+PTG:
+Vars:
+7
+$r4 1 19 
+r1 1 -1 
+$r0 1 0 
+$r5 1 22 
+_ret 1 22 
+$r3 1 14 
+$r2 1 11 
+Fields: 1
+-1 containerPath 11
+Accesses: 1
+10 1 -1 
+Functions: 4
+0 2 0 14 
+19 1 19 
+7 1 0 
+11 1 11 
+Constructors: 1
+7 0
+
+Summary: 2
+14 -1 
+org/eclipse/jdt/internal/core/search/indexing/AddJarFileToIndex.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+4
+$r3 1 32 
+r1 1 -1 
+r0 1 -2 
+$r2 1 8 
+Fields: 2
+-1 resource 8
+-1 containerPath 32
+Accesses: 4
+38 1 -1 
+7 1 -1 
+14 1 -1 
+31 1 -1 
+Functions: 2
+39 0 
+15 0 
+Constructors: 0
+
+Summary: 5
+46 -2 22 0 -1 
+org/eclipse/jdt/internal/core/search/indexing/AddJarFileToIndex.getJobFamily()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r3 1 16 
+r0 1 -1 
+_ret 1 16 
+$r2 1 13 
+Fields: 2
+-1 resource 1
+-1 containerPath 13
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 2
+7 3 -1 1 13 
+13 1 13 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/indexing/AddJarFileToIndex.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/search/indexing/AddJarFileToIndex.<init>(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/jdt/internal/core/search/indexing/IndexManager;)V
+PTG:
+Vars:
+4
+r3 1 -3 
+r1 1 -2 
+r0 1 -1 
+$r2 1 2 
+Fields: 0
+Accesses: 1
+13 1 -1 
+Functions: 2
+1 1 -2 
+8 3 -1 2 -3 
+Constructors: 1
+8 -1
+
+Summary: 5
+-3 2 0 -1 1 
+org/eclipse/jdt/internal/core/search/indexing/AddJarFileToIndex.updatedIndexState()Ljava/lang/Integer;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/indexing/AddJarFileToIndex.hashCode()I
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 16 
+Fields: 2
+-1 resource 1
+-1 containerPath 16
+Accesses: 4
+0 1 -1 
+22 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 2
+23 0 
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/indexing/AddJarFileToIndex.<init>(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/internal/core/search/indexing/IndexManager;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -1 -2 -3 
+Constructors: 1
+3 -1
+
+Summary: 4
+-3 -2 0 -1 

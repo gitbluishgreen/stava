@@ -1,0 +1,1524 @@
+32
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.faultInTypes()V
+PTG:
+Vars:
+4
+$r2 2 16 7 
+$r3 1 20 
+$r1 1 7 
+r0 1 -1 
+Fields: 3
+16 ArrayObject 20
+7 ArrayObject 20
+-1 topLevelTypes 7
+Accesses: 2
+6 1 -1 
+15 1 -1 
+Functions: 2
+1 3 -1 20 7 
+21 1 20 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.faultInImports()V
+PTG:
+Vars:
+82
+$r62 1 1017 
+r0 1 -1 
+$r52 1 353 
+r29 1 650 
+$r15 1 111 
+$r60 1 1006 
+r75 1 383 
+$r50 1 515 
+r77 1 543 
+$r27 1 317 
+r73 1 250 
+$r44 1 813 
+$r86 1 66 
+$r80 3 606 473 543 
+$r63 2 1001 1 
+$r19 2 12 151 
+$r24 2 9 234 
+$r20 1 176 
+$r30 1 743 
+$r10 1 71 
+$r83 2 882 865 
+$r13 1 101 
+$r48 1 832 
+$r43 1 784 
+r84 1 971 
+$r67 1 209 
+r76 1 473 
+$r32 1 209 
+$r26 1 307 
+$r56 1 363 
+$r8 1 55 
+$r36 1 692 
+$r66 1 920 
+r70 1 157 
+r79 2 473 543 
+$r16 1 102 
+$r33 2 671 71 
+$r34 3 671 681 71 
+$r88 1 865 
+$r54 1 424 
+r71 2 209 920 
+$r39 1 724 
+$r21 1 171 
+$r11 2 71 85 
+$r1 1 1 
+$r4 1 9 
+$r41 2 473 543 
+$r3 1 12 
+$r46 1 824 
+$r18 2 9 148 
+$r55 1 394 
+$r47 1 810 
+$r87 1 442 
+$r38 1 702 
+$r49 1 543 
+$r89 1 882 
+$r65 1 983 
+$r7 2 12 51 
+$r22 1 218 
+r69 1 66 
+$r12 2 71 96 
+r74 2 263 263 
+$r6 2 9 48 
+$r40 1 628 
+$r61 1 1006 
+r82 2 772 772 
+$r51 1 493 
+$r59 2 939 965 
+$r57 1 939 
+$r35 1 686 
+$r28 1 646 
+$r2 1 9 
+$r42 1 784 
+$r25 2 12 237 
+$r14 2 106 71 
+r72 1 243 
+$r37 1 687 
+$r78 2 473 543 
+$r45 1 813 
+$r23 1 222 
+$r5 1 12 
+$r90 1 946 
+Fields: 45
+106 ArrayObject 111
+939 ArrayObject 971
+101 sourceName 102
+12 ArrayObject 243
+12 ArrayObject 55
+12 ArrayObject 157
+772 compoundName 813
+772 resolvedImport 784
+48 imports 51
+971 compoundName 1006
+971 resolvedImport 983
+1006 ArrayObject 1017
+209 ArrayObject 772
+209 ArrayObject 263
+543 closestMatch 606
+263 compoundName 307
+157 tokens 176
+71 ArrayObject 111
+71 ArrayObject 686
+71 ArrayObject 101
+9 imports 12
+237 ArrayObject 243
+148 imports 151
+650 sourceName 692
+671 ArrayObject 686
+218 ArrayObject 222
+51 ArrayObject 55
+681 ArrayObject 686
+473 closestMatch 606
+151 ArrayObject 157
+250 ArrayObject 646
+250 ArrayObject 743
+250 ArrayObject 810
+686 sourceName 687
+243 tokens 250
+234 imports 237
+813 ArrayObject 824
+96 ArrayObject 101
+-1 imports 939
+-1 typeOrPackageCache 1
+-1 topLevelTypes 671
+-1 topLevelTypes 71
+-1 currentPackageName 353
+-1 referenceContext 9
+965 ArrayObject 971
+Accesses: 44
+0 1 -1 
+964 1 -1 
+70 1 -1 
+8 1 -1 
+9 1 9 
+265 1 263 
+973 1 971 
+270 1 243 
+782 1 772 
+338 1 243 
+147 1 -1 
+84 1 -1 
+148 2 148 9 
+981 1 971 
+27 1 -1 
+603 2 473 543 
+795 1 772 
+670 1 -1 
+31 1 -1 
+95 1 -1 
+159 1 157 
+32 1 9 
+352 1 -1 
+101 1 101 
+935 1 -1 
+680 1 -1 
+1000 1 -1 
+105 1 -1 
+233 1 -1 
+234 2 9 234 
+938 1 -1 
+811 1 772 
+1004 1 971 
+174 1 157 
+686 1 686 
+47 1 -1 
+48 2 48 9 
+816 1 772 
+305 1 263 
+1009 1 971 
+690 1 650 
+245 1 243 
+55 1 55 
+955 1 -1 
+Functions: 52
+385 1 383 
+514 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+774 4 784 772 824 813 
+520 6 515 243 646 743 250 810 
+393 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+401 7 243 646 743 394 250 810 383 
+407 5 243 646 743 250 810 
+24 0 
+537 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+929 4 209 772 263 920 
+290 2 307 263 
+295 5 243 646 743 250 810 
+423 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+551 2 606 543 
+429 6 243 646 743 424 250 810 
+176 2 176 171 
+307 5 307 646 743 250 810 
+692 2 692 687 
+824 2 824 810 
+952 1 946 
+185 2 176 157 
+316 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+701 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+831 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+322 6 243 646 743 250 810 317 
+707 6 243 646 743 250 810 702 
+453 7 243 646 743 442 250 810 383 
+837 6 832 243 646 743 250 810 
+460 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+77 1 66 
+592 3 473 606 543 
+465 5 243 646 743 250 810 
+723 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+217 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+729 6 243 724 646 743 250 810 
+475 2 473 606 
+353 5 353 646 743 250 810 
+483 2 473 606 
+616 28 -1 1 646 71 9 971 12 983 473 157 606 543 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+362 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+746 5 66 743 473 606 543 
+492 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+876 8 865 243 646 743 473 250 810 606 
+112 3 66 102 111 
+368 6 243 646 743 250 810 363 
+627 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+500 8 243 646 743 473 250 810 493 606 
+374 25 -1 1 646 71 9 971 12 983 157 671 353 101 102 743 810 939 686 1006 111 687 176 243 55 1017 250 
+635 9 243 628 646 743 473 250 810 606 543 
+1020 6 1 983 1001 1017 971 1006 
+638 2 66 646 
+894 9 882 243 646 743 473 250 810 606 543 
+Constructors: 5
+453 442
+952 946
+876 865
+77 66
+894 882
+
+Summary: 18
+424 363 394 515 218 473 702 628 383 692 606 543 493 650 317 66 832 724 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.recordTypeReference(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)V
+PTG:
+Vars:
+6
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+$r5 1 1 
+r3 1 13 
+$r4 1 1 
+Fields: 1
+-1 referencedTypes 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+29 1 -1 
+Functions: 3
+34 2 1 13 
+19 2 1 13 
+8 3 -1 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 13 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.findImport([[CI)Lorg/eclipse/jdt/internal/compiler/lookup/Binding;
+PTG:
+Vars:
+23
+r7 1 251 
+$r14 1 6 
+r29 4 15 152 44 260 
+$r19 1 6 
+r0 1 -1 
+$r4 2 200 6 
+$r22 1 94 
+$r5 1 206 
+$r21 1 94 
+$r26 1 40 
+$r23 1 134 
+r30 1 206 
+$r20 1 6 
+$r6 1 217 
+$r12 2 293 217 
+$r2 1 11 
+r27 2 15 44 
+r1 1 -2 
+$r18 1 101 
+_ret 4 15 152 44 260 
+r28 2 15 44 
+$r15 1 94 
+$r3 1 6 
+Fields: 8
+-2 ArrayObject 11
+-2 ArrayObject 134
+-2 ArrayObject 251
+-2 ArrayObject 40
+6 defaultPackage 94
+-1 fPackage 217
+-1 fPackage 293
+-1 environment 6
+Accesses: 11
+292 1 -1 
+5 1 -1 
+101 1 101 
+135 1 -1 
+199 1 -1 
+136 1 6 
+216 1 -1 
+90 1 -1 
+91 1 6 
+142 1 -1 
+143 1 6 
+Functions: 20
+32 3 40 44 15 
+2 10 -1 -2 293 6 134 40 217 11 251 94 
+290 6 260 293 152 217 44 15 
+131 6 -1 293 6 134 217 94 
+100 5 -1 293 6 217 94 
+6 3 6 11 94 
+200 7 260 6 200 152 44 94 15 
+232 5 -2 134 40 11 251 
+173 5 -2 134 40 11 251 
+240 1 206 
+49 2 44 15 
+273 5 -2 134 40 11 251 
+180 0 
+214 2 217 206 
+310 9 -2 260 134 40 152 11 251 44 15 
+120 5 -2 134 40 11 251 
+280 0 
+253 2 251 206 
+127 0 
+159 4 260 152 44 15 
+Constructors: 0
+
+Summary: 12
+101 122 175 134 152 260 206 275 -2 0 234 11 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.recordSimpleReference([C)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 1 
+$r1 1 1 
+r2 1 -2 
+$r4 1 1 
+Fields: 1
+-1 simpleNameReferences 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+8 1 -1 
+Functions: 2
+24 2 1 -2 
+9 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.findImport([[CZZ)Lorg/eclipse/jdt/internal/compiler/lookup/Binding;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 17 
+_ret 1 17 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 2 -1 -2 
+12 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.nextCaptureID()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.buildFieldsAndMethods()V
+PTG:
+Vars:
+5
+$r2 2 3 12 
+r0 1 -1 
+$r4 1 17 
+$r3 1 16 
+$r1 1 3 
+Fields: 4
+16 scope 17
+3 ArrayObject 16
+12 ArrayObject 16
+-1 topLevelTypes 3
+Accesses: 3
+16 1 16 
+2 1 -1 
+11 1 -1 
+Functions: 1
+20 1 17 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.toString()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r0 1 0 
+$r4 1 18 
+$r1 1 10 
+$r6 1 27 
+$r3 1 15 
+$r5 1 24 
+r2 1 -1 
+_ret 1 27 
+Fields: 1
+-1 referenceContext 15
+Accesses: 1
+14 1 -1 
+Functions: 5
+0 2 0 10 
+21 2 18 10 
+7 1 0 
+24 1 24 
+15 1 15 
+Constructors: 2
+21 10
+7 0
+
+Summary: 3
+-1 18 10 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.recordQualifiedReference([[C)V
+PTG:
+Vars:
+11
+$r1 1 1 
+$r2 1 99 
+$r8 1 67 
+$r9 2 -2 67 
+r12 2 -2 67 
+$r3 1 106 
+$r7 2 60 60 
+r0 1 -1 
+$r4 1 19 
+$r5 1 1 
+$r6 2 27 1 
+Fields: 6
+-2 ArrayObject 106
+-2 ArrayObject 60
+-2 ArrayObject 99
+-2 ArrayObject 19
+-1 qualifiedReferences 1
+67 ArrayObject 60
+Accesses: 3
+0 1 -1 
+26 1 -1 
+77 1 -1 
+Functions: 9
+50 2 -1 1 
+20 3 -1 1 19 
+100 3 -1 1 99 
+74 6 -2 67 99 19 106 60 
+43 2 -1 1 
+107 3 -1 1 106 
+61 3 -1 1 60 
+78 7 1 -2 67 99 19 106 60 
+31 8 1 -2 67 99 19 106 27 60 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.buildTypeBindings(Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)V
+PTG:
+Vars:
+78
+$r6 1 150 
+$r27 1 465 
+$r80 1 11 
+$r82 2 436 358 
+$r28 2 11 469 
+$r15 1 340 
+$r75 1 44 
+$r64 1 11 
+r10 1 322 
+$r22 1 514 
+$r70 1 78 
+$r74 2 101 38 
+$r20 1 491 
+$r13 1 358 
+$r51 1 68 
+$r26 1 458 
+$r8 1 11 
+$r61 1 14 
+$r36 2 603 579 
+$r56 1 123 
+$r3 1 14 
+$r24 1 340 
+r17 1 549 
+$r47 1 58 
+r16 1 -2 
+$r57 1 126 
+$r88 2 542 358 
+$r33 1 340 
+$r9 1 303 
+r0 1 -1 
+$r65 1 58 
+$r21 1 340 
+$r68 1 68 
+$r1 1 2 
+$r45 1 68 
+$r78 1 58 
+$r4 1 17 
+$r60 1 11 
+$r83 3 123 440 150 
+$r67 1 11 
+$r44 1 11 
+$r38 2 603 579 
+$r40 1 68 
+$r41 1 225 
+$r5 1 44 
+$r39 1 11 
+$r12 1 340 
+$r79 1 44 
+$r50 1 11 
+$r19 2 11 488 
+$r11 3 123 325 150 
+$r62 1 17 
+$r25 2 358 450 
+$r69 1 11 
+r71 1 38 
+$r29 3 123 402 150 
+$r2 1 11 
+$r43 1 11 
+$r73 1 11 
+$r49 1 258 
+$r72 1 85 
+$r31 2 11 424 
+$r23 2 11 518 
+$r18 1 579 
+r14 1 369 
+r81 1 68 
+$r76 1 115 
+$r42 1 11 
+$r77 1 11 
+$r84 2 443 126 
+$r86 1 526 
+$r46 1 11 
+$r63 1 44 
+$r30 1 420 
+$r34 3 123 335 150 
+$r48 1 266 
+$r37 1 618 
+$r7 1 157 
+Fields: 18
+11 compilationResult 14
+11 types 68
+11 currentPackage 58
+11 imports 78
+123 defaultPackage 126
+322 name 340
+58 annotations 266
+68 ArrayObject 322
+68 ArrayObject 258
+14 compilationUnit 17
+-1 fPackage 358
+-1 topLevelTypes 603
+-1 topLevelTypes 579
+-1 currentPackageName 44
+-1 environment 123
+-1 environment 150
+-1 referenceContext 11
+440 defaultPackage 443
+Accesses: 73
+130 1 -1 
+259 1 -1 
+260 1 11 
+5 1 -1 
+517 1 -1 
+263 1 58 
+10 1 -1 
+11 1 11 
+140 1 -1 
+269 1 258 
+14 1 14 
+273 1 -1 
+401 1 -1 
+402 3 402 150 123 
+149 1 -1 
+23 1 -1 
+24 1 11 
+280 1 -1 
+153 1 -1 
+281 1 11 
+27 1 14 
+541 1 -1 
+161 1 -1 
+167 1 -1 
+423 1 -1 
+43 1 -1 
+560 1 549 
+306 1 -1 
+435 1 -1 
+181 1 -1 
+54 1 -1 
+55 1 11 
+439 1 -1 
+440 3 150 440 123 
+570 1 549 
+189 1 -1 
+64 1 -1 
+65 1 11 
+449 1 -1 
+578 1 -1 
+324 1 -1 
+325 3 325 150 123 
+453 1 322 
+199 1 -1 
+200 1 11 
+74 1 -1 
+75 1 11 
+334 1 -1 
+209 1 -1 
+210 1 11 
+338 1 322 
+468 1 -1 
+88 1 -1 
+602 1 -1 
+220 1 -1 
+477 1 322 
+610 1 -1 
+228 1 11 
+357 1 -1 
+231 1 -1 
+487 1 -1 
+361 1 322 
+108 1 -1 
+622 1 -1 
+111 1 -1 
+240 1 -1 
+241 1 11 
+372 1 322 
+502 1 322 
+122 1 -1 
+250 1 -1 
+123 1 123 
+251 1 11 
+Functions: 30
+385 1 369 
+513 18 -1 322 258 579 68 358 266 11 44 14 78 17 340 150 58 603 123 126 
+450 3 450 340 358 
+136 18 -1 322 258 579 68 358 266 11 44 14 78 17 340 150 58 603 123 126 
+523 12 17 514 322 258 68 340 518 58 266 11 14 78 
+335 5 340 150 123 126 335 
+144 0 
+464 18 -1 322 258 579 68 358 266 11 44 14 78 17 340 150 58 603 123 126 
+84 18 -1 322 258 579 68 358 266 11 44 14 78 17 340 150 58 603 123 126 
+277 18 -1 322 258 579 68 358 266 11 44 14 78 17 340 150 58 603 123 126 
+533 19 -1 322 258 579 68 358 266 11 44 526 14 78 17 340 150 58 603 123 126 
+150 2 150 44 
+474 12 465 17 322 258 68 340 469 58 266 11 14 78 
+538 4 -2 358 526 542 
+92 11 17 322 258 68 340 85 58 266 11 14 78 
+30 1 17 
+415 0 
+353 0 
+419 18 -1 322 258 579 68 358 266 11 44 14 78 17 340 150 58 603 123 126 
+358 2 340 358 
+488 11 17 322 258 68 340 488 58 266 11 14 78 
+235 10 17 322 258 68 340 58 266 11 14 78 
+429 12 17 322 258 420 68 340 424 58 266 11 14 78 
+47 2 38 44 
+177 18 -1 322 258 579 68 358 266 11 44 14 78 17 340 150 58 603 123 126 
+628 3 579 618 603 
+504 2 340 491 
+185 0 
+377 18 -1 322 258 579 68 358 266 11 44 14 78 17 340 150 58 603 123 126 
+190 10 17 322 258 68 340 58 266 11 14 78 
+Constructors: 1
+533 526
+
+Summary: 12
+465 458 514 -1 137 491 178 85 369 -2 0 420 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.computeConstantPoolName(Lorg/eclipse/jdt/internal/compiler/lookup/LocalTypeBinding;)[C
+PTG:
+Vars:
+39
+$r32 1 76 
+$r33 1 79 
+$r14 1 193 
+$r28 1 100 
+$r22 1 174 
+$r34 4 214 115 243 83 
+r2 1 -1 
+$r18 1 210 
+$r5 1 34 
+$r27 1 97 
+$r21 1 171 
+$r9 1 234 
+$r3 1 13 
+$r38 1 13 
+r6 1 40 
+$r31 4 214 115 243 83 
+$r1 1 1 
+$r39 1 257 
+$r25 1 148 
+$r4 1 31 
+$r23 1 139 
+$r11 4 214 115 243 83 
+$r35 1 20 
+$r29 1 106 
+$r26 1 151 
+$r17 1 205 
+$r12 1 13 
+$r24 1 142 
+$r8 1 226 
+$r20 1 165 
+$r16 1 202 
+$r15 1 196 
+r0 1 -2 
+r37 6 182 249 220 91 121 159 
+$r30 1 109 
+$r19 4 214 115 243 83 
+_ret 6 182 249 220 91 121 159 
+$r7 1 44 
+$r10 1 237 
+Fields: 7
+-2 scope 31
+-2 sourceName 214
+-2 sourceName 115
+-2 sourceName 243
+-2 sourceName 83
+-2 enclosingType 139
+-1 constantPoolNameUsage 13
+Accesses: 11
+82 1 -2 
+114 1 -2 
+242 1 -2 
+213 1 -2 
+138 1 -2 
+27 1 -1 
+251 1 -1 
+12 1 -1 
+44 1 44 
+269 1 -1 
+30 1 -2 
+Functions: 36
+0 7 -2 115 243 83 214 139 31 
+64 7 -2 115 243 83 214 139 31 
+192 7 -2 115 243 83 214 139 31 
+193 1 193 
+7 7 -2 115 243 83 214 139 31 
+201 0 
+202 1 202 
+75 7 -2 115 243 83 214 139 31 
+139 1 139 
+76 1 76 
+208 2 196 205 
+147 0 
+148 1 148 
+276 14 -2 139 13 115 243 83 182 214 249 121 91 220 159 31 
+86 5 115 243 83 214 79 
+214 5 210 115 243 83 214 
+24 1 20 
+154 2 151 142 
+31 1 31 
+96 7 -2 115 243 83 214 139 31 
+97 1 97 
+225 1 40 
+34 1 34 
+164 1 40 
+105 0 
+233 0 
+106 1 106 
+170 0 
+234 1 234 
+43 2 -1 13 
+171 1 171 
+177 2 165 174 
+115 6 115 243 83 100 214 109 
+243 6 226 115 243 83 214 237 
+252 7 182 249 121 91 220 13 159 
+126 7 -2 115 243 83 214 139 31 
+Constructors: 1
+24 20
+
+Summary: 37
+106 257 205 174 210 220 91 44 100 1 142 214 76 165 193 121 237 40 148 -2 171 202 109 182 249 151 0 243 196 234 97 115 79 34 159 83 226 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.recordReference(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[C)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 5 
+r3 1 -3 
+$r4 1 12 
+r1 1 -2 
+Fields: 1
+5 compoundName 12
+Accesses: 1
+11 1 5 
+Functions: 2
+0 2 -1 -2 
+16 3 -1 -3 12 
+Constructors: 0
+
+Summary: 6
+-3 -2 12 5 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.verifyMethods(Lorg/eclipse/jdt/internal/compiler/lookup/MethodVerifier;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 2 3 12 
+$r4 1 16 
+r3 1 -2 
+$r1 1 3 
+Fields: 3
+3 ArrayObject 16
+12 ArrayObject 16
+-1 topLevelTypes 3
+Accesses: 2
+2 1 -1 
+11 1 -1 
+Functions: 1
+18 2 16 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.connectTypeHierarchy()V
+PTG:
+Vars:
+5
+$r1 1 3 
+$r4 1 17 
+$r2 2 3 12 
+r0 1 -1 
+$r3 1 16 
+Fields: 4
+16 scope 17
+3 ArrayObject 16
+12 ArrayObject 16
+-1 topLevelTypes 3
+Accesses: 3
+16 1 16 
+2 1 -1 
+11 1 -1 
+Functions: 1
+20 1 17 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.recordTypeConversion(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)V
+PTG:
+Vars:
+3
+r1 1 -3 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.getImport([[CZZ)Lorg/eclipse/jdt/internal/compiler/lookup/Binding;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 17 
+_ret 1 17 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 2 -1 -2 
+12 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.typeToRecord(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+5
+r3 3 -2 14 82 
+$r1 1 -2 
+r0 3 -2 14 82 
+_ret 3 -2 14 82 
+r2 1 -1 
+Fields: 1
+-2 leafComponentType 14
+Accesses: 1
+8 1 -2 
+Functions: 4
+0 3 -2 82 14 
+88 3 -2 82 14 
+78 3 -2 82 14 
+15 3 -2 82 14 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.<init>(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)V
+PTG:
+Vars:
+12
+$r12 2 34 44 
+$r10 1 105 
+$r3 1 28 
+r1 1 -3 
+$r7 1 72 
+r2 1 -2 
+$r8 1 83 
+$r6 1 61 
+r0 1 -1 
+$r4 1 28 
+$r5 1 51 
+$r9 1 94 
+Fields: 2
+-2 currentPackage 28
+28 tokens 44
+Accesses: 19
+130 1 -1 
+68 1 -1 
+101 1 -1 
+135 1 -1 
+8 1 -1 
+40 1 -2 
+41 1 28 
+140 1 -1 
+13 1 -1 
+47 1 -1 
+79 1 -1 
+112 1 -1 
+18 1 -1 
+51 1 51 
+23 1 -2 
+120 1 -1 
+90 1 -1 
+27 1 -2 
+125 1 -1 
+Functions: 7
+65 1 61 
+50 1 -1 
+98 1 94 
+3 1 -1 
+87 1 83 
+76 1 72 
+109 1 105 
+Constructors: 6
+65 61
+98 94
+3 -1
+87 83
+76 72
+109 105
+
+Summary: 3
+51 0 1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.findSingleStaticImport([[CI)Lorg/eclipse/jdt/internal/compiler/lookup/Binding;
+PTG:
+Vars:
+13
+$r11 1 95 
+$r12 1 123 
+r1 1 -2 
+r20 1 203 
+$r9 1 266 
+r3 1 25 
+r2 1 9 
+$r18 1 95 
+r0 1 -1 
+r17 1 9 
+r4 1 95 
+_ret 1 203 
+$r19 1 178 
+Fields: 3
+-2 ArrayObject 25
+95 closestMatch 123
+-1 fPackage 266
+Accesses: 2
+120 1 95 
+265 1 -1 
+Functions: 21
+0 4 -1 -2 25 266 
+35 1 25 
+195 4 -1 25 9 266 
+70 2 -2 25 
+135 2 123 95 
+231 2 123 95 
+263 2 266 203 
+10 1 9 
+109 2 123 95 
+173 4 -1 9 25 266 
+143 2 123 95 
+210 1 203 
+310 2 -2 25 
+151 5 -1 9 266 123 95 
+88 4 -1 9 25 266 
+123 1 123 
+251 3 -2 25 203 
+283 3 -2 25 203 
+223 2 123 95 
+255 1 203 
+287 1 203 
+Constructors: 0
+
+Summary: 5
+-2 25 306 43 0 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.getDefaultImports()[Lorg/eclipse/jdt/internal/compiler/lookup/ImportBinding;
+PTG:
+Vars:
+22
+$r4 1 1 
+r18 3 45 28 94 
+$r10 1 83 
+$r20 1 100 
+$r7 1 72 
+$r1 1 1 
+$r14 1 41 
+$r19 1 1 
+$r22 1 109 
+$r6 1 1 
+$r2 1 4 
+$r15 1 28 
+$r11 1 1 
+$r21 1 105 
+r0 1 -1 
+r12 1 89 
+$r3 1 22 
+$r9 1 61 
+$r13 1 37 
+$r8 1 65 
+$r5 1 58 
+_ret 1 100 
+Fields: 6
+37 ArrayObject 41
+89 fPackage 94
+-1 environment 1
+-1 referenceContext 65
+1 defaultImports 4
+1 missingClassFileLocation 72
+Accesses: 11
+0 1 -1 
+64 1 -1 
+1 1 1 
+18 1 -1 
+68 1 -1 
+69 1 1 
+120 1 1 
+10 1 -1 
+90 1 89 
+78 1 -1 
+95 1 -1 
+Functions: 7
+34 2 41 28 
+50 3 28 45 94 
+19 4 1 4 22 72 
+115 5 105 28 109 45 94 
+57 5 -1 1 65 4 72 
+75 4 65 72 58 61 
+79 4 1 83 4 72 
+Constructors: 1
+115 105
+
+Summary: 6
+28 45 58 89 -1 94 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.resolveSingleImport(Lorg/eclipse/jdt/internal/compiler/lookup/ImportBinding;I)Lorg/eclipse/jdt/internal/compiler/lookup/Binding;
+PTG:
+Vars:
+9
+$r1 1 1 
+$r4 1 10 
+r0 1 -2 
+$r17 1 1 
+$r6 1 1 
+r3 1 -1 
+$r2 1 1 
+_ret 1 1 
+$r5 1 18 
+Fields: 2
+-2 compoundName 10
+-2 resolvedImport 1
+Accesses: 14
+0 1 -2 
+34 1 -2 
+67 1 -1 
+131 1 -1 
+136 1 -2 
+9 1 -2 
+44 1 -2 
+111 1 -1 
+84 1 -1 
+21 1 -2 
+55 1 -2 
+24 1 -2 
+60 1 -1 
+94 1 -1 
+Functions: 4
+8 2 -1 10 
+25 1 1 
+45 0 
+14 3 -2 1 10 
+Constructors: 0
+
+Summary: 2
+-2 10 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.recordRootReference([C)V
+PTG:
+Vars:
+5
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+$r3 1 1 
+$r4 1 1 
+Fields: 1
+-1 rootReferences 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+8 1 -1 
+Functions: 2
+24 2 1 -2 
+9 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.recordSuperTypeReference(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r5 1 1 
+$r1 1 1 
+r3 1 13 
+r2 1 -2 
+$r4 1 1 
+Fields: 1
+-1 referencedSuperTypes 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+29 1 -1 
+Functions: 3
+34 2 1 13 
+19 2 1 13 
+8 3 -1 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 13 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.findSingleImport([[CIZ)Lorg/eclipse/jdt/internal/compiler/lookup/Binding;
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 95 
+_ret 1 95 
+r1 1 -1 
+Fields: 0
+Accesses: 3
+52 1 -1 
+6 1 -1 
+45 1 -1 
+Functions: 6
+16 1 -1 
+84 2 -1 -2 
+37 1 -2 
+41 1 -1 
+73 1 -2 
+91 2 -1 -2 
+Constructors: 0
+
+Summary: 4
+-2 0 17 44 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.checkParameterizedTypes()V
+PTG:
+Vars:
+6
+$r3 2 27 18 
+r0 1 -1 
+r5 1 35 
+$r1 1 1 
+$r2 1 18 
+$r4 1 31 
+Fields: 4
+31 scope 35
+-1 topLevelTypes 18
+27 ArrayObject 31
+18 ArrayObject 31
+Accesses: 4
+1 1 1 
+17 1 -1 
+26 1 -1 
+31 1 31 
+Functions: 3
+0 4 -1 18 35 31 
+37 1 35 
+41 1 35 
+Constructors: 0
+
+Summary: 1
+1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.recordTypeReferences([Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)V
+PTG:
+Vars:
+7
+$r6 2 53 1 
+$r3 1 29 
+$r1 1 1 
+$r5 2 41 1 
+r4 1 33 
+r0 1 -1 
+r2 1 -2 
+Fields: 2
+-2 ArrayObject 29
+-1 referencedTypes 1
+Accesses: 3
+0 1 -1 
+52 1 -1 
+40 1 -1 
+Functions: 3
+41 3 1 33 41 
+26 3 -1 1 29 
+58 3 1 33 53 
+Constructors: 0
+
+Summary: 4
+-2 33 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.problemReporter()Lorg/eclipse/jdt/internal/compiler/problem/ProblemReporter;
+PTG:
+Vars:
+5
+r2 1 7 
+$r3 1 1 
+$r1 1 1 
+r0 1 -1 
+_ret 1 7 
+Fields: 2
+-1 referenceContext 1
+1 problemReporter 7
+Accesses: 4
+0 1 -1 
+1 1 1 
+9 1 -1 
+13 1 7 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.recordReference([[C[C)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+17 2 -1 -3 
+2 2 -1 -2 
+12 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.findStaticMethod(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[C)Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;
+PTG:
+Vars:
+8
+r1 1 -3 
+$r4 1 72 
+r5 1 38 
+$r6 1 51 
+r0 1 -1 
+r7 1 72 
+r2 1 19 
+$r3 1 21 
+Fields: 2
+-1 fPackage 51
+19 ArrayObject 38
+Accesses: 1
+50 1 -1 
+Functions: 6
+0 3 -1 51 72 
+48 2 51 38 
+71 1 72 
+40 1 38 
+11 1 72 
+14 2 -3 72 
+Constructors: 0
+
+Summary: 6
+-3 72 0 -1 1 19 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.checkAndSetImports()V
+PTG:
+Vars:
+26
+$r5 2 38 1 
+$r18 1 311 
+r24 1 46 
+$r4 1 4 
+$r6 2 41 4 
+$r1 1 1 
+r13 1 129 
+$r12 2 123 4 
+$r3 1 1 
+$r11 2 120 1 
+$r8 1 60 
+$r20 1 287 
+$r17 1 194 
+$r19 1 231 
+r26 1 252 
+r25 2 97 345 
+r15 2 148 148 
+$r22 1 97 
+$r21 1 345 
+r14 1 136 
+$r2 1 4 
+$r16 2 193 193 
+r0 1 -1 
+$r7 1 65 
+$r9 1 104 
+$r10 1 108 
+Fields: 15
+97 ArrayObject 193
+97 ArrayObject 148
+41 ArrayObject 46
+46 tokens 65
+123 ArrayObject 129
+193 compoundName 194
+4 ArrayObject 46
+4 ArrayObject 129
+104 ArrayObject 108
+129 tokens 136
+38 imports 41
+-1 currentPackageName 231
+-1 referenceContext 1
+120 imports 123
+1 imports 4
+Accesses: 18
+0 1 -1 
+1 1 1 
+193 1 193 
+131 1 129 
+37 1 -1 
+38 2 1 38 
+230 1 -1 
+358 1 -1 
+15 1 -1 
+48 1 46 
+19 1 -1 
+20 1 1 
+150 1 148 
+119 1 -1 
+120 2 1 120 
+216 1 129 
+155 1 129 
+63 1 46 
+Functions: 14
+65 2 65 60 
+321 3 129 311 136 
+353 4 97 193 148 345 
+194 2 194 136 
+262 2 129 136 
+103 8 -1 1 129 65 4 231 136 46 
+231 2 231 136 
+74 2 65 46 
+298 4 129 136 252 287 
+11 8 -1 1 129 65 4 231 136 46 
+175 1 148 
+243 8 -1 1 129 65 4 231 136 46 
+180 2 129 136 
+254 1 252 
+Constructors: 2
+321 311
+298 287
+
+Summary: 2
+252 104 
+org/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope.storeDependencyInfo()V
+PTG:
+Vars:
+35
+$r22 2 294 318 
+$r18 1 269 
+$r14 1 231 
+r0 1 -1 
+$r9 1 169 
+$r23 1 323 
+$r1 2 6 117 
+$r20 1 234 
+$r19 1 231 
+r26 1 10 
+$r3 1 18 
+$r11 1 194 
+r34 1 250 
+$r32 2 179 172 
+$r30 1 117 
+$r24 1 231 
+$r12 2 214 194 
+r29 1 75 
+$r5 2 29 18 
+r33 1 202 
+$r15 1 234 
+$r13 1 218 
+$r7 3 129 140 18 
+$r21 1 294 
+$r6 2 129 18 
+r31 1 144 
+$r4 1 98 
+r28 1 61 
+$r8 1 144 
+r35 1 302 
+$r17 2 242 264 
+$r2 1 10 
+$r16 1 242 
+$r25 1 234 
+r27 1 47 
+Fields: 10
+231 compilationResult 234
+144 compoundName 179
+-1 referencedTypes 18
+-1 referencedTypes 129
+-1 rootReferences 294
+-1 simpleNameReferences 242
+-1 qualifiedReferences 194
+-1 referencedSuperTypes 117
+-1 referenceContext 231
+75 ArrayObject 98
+Accesses: 27
+128 1 -1 
+129 2 129 18 
+193 1 -1 
+194 1 194 
+5 1 -1 
+263 1 -1 
+139 1 -1 
+336 1 -1 
+17 1 -1 
+337 1 231 
+213 1 -1 
+345 1 234 
+282 1 -1 
+283 1 231 
+28 1 -1 
+290 1 234 
+293 1 -1 
+230 1 -1 
+294 1 294 
+231 1 231 
+238 1 234 
+241 1 -1 
+178 1 144 
+242 1 242 
+116 1 -1 
+117 1 117 
+317 1 -1 
+Functions: 19
+33 3 18 10 29 
+99 10 -1 129 18 242 194 98 117 294 231 234 
+36 1 10 
+68 10 -1 129 18 242 194 117 294 231 234 61 
+6 2 117 6 
+71 1 10 
+168 2 144 179 
+264 2 242 264 
+169 1 169 
+43 1 10 
+140 3 129 18 140 
+18 2 18 10 
+54 10 -1 129 18 242 194 117 294 231 234 47 
+182 11 -1 129 18 242 194 179 117 294 231 234 172 
+214 2 194 214 
+151 2 144 179 
+57 1 10 
+318 2 294 318 
+159 2 144 179 
+Constructors: 0
+
+Summary: 9
+179 169 75 144 10 172 61 -1 47 

@@ -1,0 +1,324 @@
+6
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractParticleTraverser.hasAllContent(Lcom/sun/org/apache/xerces/internal/impl/xs/XSParticleDecl;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r3 1 -1 
+Fields: 0
+Accesses: 2
+4 1 -2 
+12 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-2 13 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractParticleTraverser.<init>(Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSAttributeChecker;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+$r3 1 7 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+14 1 -1 
+Functions: 2
+3 3 -1 -2 -3 
+11 1 7 
+Constructors: 2
+3 -1
+11 7
+
+Summary: 5
+-3 -2 0 -1 1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractParticleTraverser.traverseSeqChoice(Lorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;IZLcom/sun/org/apache/xerces/internal/xs/XSObject;)Lcom/sun/org/apache/xerces/internal/impl/xs/XSParticleDecl;
+PTG:
+Vars:
+52
+$r16 1 561 
+r1 1 -2 
+$r5 1 377 
+$r34 3 261 123 156 
+$r10 1 405 
+r55 1 579 
+$r25 1 146 
+$r54 2 551 557 
+r51 1 377 
+$r26 1 197 
+r0 1 -1 
+r35 1 -4 
+r37 1 -7 
+$r43 1 31 
+$r40 3 123 261 156 
+$r39 1 159 
+$r27 1 224 
+$r30 1 329 
+r44 3 16 364 57 
+r46 1 66 
+$r42 1 28 
+$r17 1 561 
+r50 2 312 285 
+$r29 1 312 
+$r22 1 460 
+$r15 1 494 
+r4 1 10 
+r52 2 485 460 
+$r38 3 123 261 156 
+$r8 1 399 
+r2 1 -3 
+$r21 1 460 
+_ret 1 579 
+r45 2 50 84 
+$r33 1 302 
+$r32 1 285 
+$r13 1 90 
+$r14 1 449 
+$r12 1 90 
+$r18 1 1 
+$r24 1 113 
+$r47 1 90 
+$r31 1 90 
+$r6 1 388 
+r7 1 388 
+$r28 1 251 
+r9 1 399 
+$r41 1 126 
+$r36 1 264 
+$r3 1 1 
+r48 5 244 274 139 217 169 
+r49 1 109 
+Fields: 15
+123 fElementTraverser 126
+261 fWildCardTraverser 264
+156 fGroupTraverser 159
+312 ArrayObject 319
+312 ArrayObject 324
+-1 fSchemaHandler 123
+-1 fSchemaHandler 156
+-1 fSchemaHandler 261
+-1 fAttrChecker 1
+-1 fPArray 90
+10 ArrayObject 377
+10 ArrayObject 388
+10 ArrayObject 399
+285 ArrayObject 297
+285 ArrayObject 292
+Accesses: 21
+0 1 -1 
+260 1 -1 
+452 1 405 
+516 1 494 
+261 3 261 123 156 
+581 1 -1 
+491 1 405 
+428 1 405 
+526 1 494 
+433 1 -1 
+533 1 494 
+440 1 405 
+89 1 -1 
+122 1 -1 
+506 1 494 
+123 3 261 123 156 
+155 1 -1 
+156 3 261 123 156 
+540 1 494 
+445 1 -1 
+350 1 -1 
+Functions: 39
+1 3 1 -2 -3 
+195 2 197 109 
+327 3 16 57 364 
+264 6 16 -3 -4 264 57 364 
+73 16 -1 1 -2 66 -3 388 261 264 10 399 377 90 123 156 126 159 
+521 1 388 
+12 1 -2 
+588 6 1 -3 388 377 10 399 
+206 15 -1 1 -3 -4 261 -7 264 364 16 57 90 123 156 126 159 
+144 2 146 109 
+464 1 460 
+342 18 -1 1 324 292 261 264 297 364 16 312 57 90 123 156 285 126 159 319 
+409 1 405 
+26 3 16 57 364 
+28 2 28 31 
+476 3 50 84 460 
+93 1 90 
+222 2 224 109 
+159 6 16 -3 -4 57 364 159 
+543 13 -1 1 261 551 264 557 494 561 90 123 156 126 159 
+356 6 274 244 217 169 90 139 
+359 3 16 57 364 
+40 17 -1 1 -3 388 261 264 10 364 399 16 57 377 90 123 156 126 159 
+104 3 16 57 364 
+233 15 -1 1 -3 -4 261 -7 264 364 16 57 90 123 156 126 159 
+171 14 -1 1 261 264 169 139 274 244 217 90 123 156 126 159 
+300 3 16 57 364 
+111 2 113 109 
+560 1 -2 
+434 1 90 
+498 1 494 
+52 3 16 57 364 
+249 2 251 109 
+571 1 399 
+189 12 -1 16 1 261 264 57 90 123 156 364 126 159 
+62 1 -2 
+126 7 16 -3 -4 -7 57 364 126 
+446 1 90 
+511 1 377 
+Constructors: 3
+464 460
+498 494
+409 405
+
+Summary: 34
+28 50 312 494 244 561 5 10 66 -4 297 388 2 -1 -3 377 324 319 84 169 1 274 -7 399 139 285 -2 109 292 0 364 57 16 217 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractParticleTraverser.traverseChoice(Lorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;ILcom/sun/org/apache/xerces/internal/xs/XSObject;)Lcom/sun/org/apache/xerces/internal/impl/xs/XSParticleDecl;
+PTG:
+Vars:
+7
+r0 1 -1 
+r4 1 -6 
+r3 1 -4 
+r1 1 -2 
+$r5 1 9 
+_ret 1 9 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 5 -1 -2 -3 -4 -6 
+Constructors: 0
+
+Summary: 9
+-3 4 -2 2 0 -1 -4 1 -6 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractParticleTraverser.traverseSequence(Lorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;ILcom/sun/org/apache/xerces/internal/xs/XSObject;)Lcom/sun/org/apache/xerces/internal/impl/xs/XSParticleDecl;
+PTG:
+Vars:
+7
+$r5 1 9 
+r1 1 -2 
+r2 1 -3 
+r3 1 -4 
+r4 1 -6 
+_ret 1 9 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 5 -1 -2 -3 -4 -6 
+Constructors: 0
+
+Summary: 9
+-3 4 -2 2 0 -1 -4 1 -6 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractParticleTraverser.traverseAll(Lorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;ILcom/sun/org/apache/xerces/internal/xs/XSObject;)Lcom/sun/org/apache/xerces/internal/impl/xs/XSParticleDecl;
+PTG:
+Vars:
+41
+r1 1 -2 
+r0 1 -1 
+$r13 1 90 
+$r16 1 369 
+$r3 1 1 
+$r5 1 210 
+$r14 1 272 
+$r31 1 31 
+r33 2 50 84 
+r27 1 -4 
+$r17 1 373 
+$r10 1 238 
+r42 1 391 
+r40 2 283 308 
+$r35 1 90 
+$r6 1 221 
+$r21 1 283 
+r32 3 16 57 197 
+r7 1 221 
+$r24 1 162 
+r39 1 210 
+$r26 1 123 
+$r25 1 90 
+$r23 1 145 
+r36 1 139 
+r9 1 232 
+r37 1 109 
+$r18 1 373 
+$r29 1 126 
+$r19 1 1 
+$r22 1 113 
+$r15 1 317 
+$r8 1 232 
+$r30 1 28 
+r4 1 10 
+r34 1 66 
+r2 1 -3 
+$r20 1 283 
+_ret 1 391 
+r28 1 -6 
+$r12 1 90 
+Fields: 9
+123 fElementTraverser 126
+145 ArrayObject 152
+145 ArrayObject 157
+-1 fSchemaHandler 123
+-1 fAttrChecker 1
+-1 fPArray 90
+10 ArrayObject 232
+10 ArrayObject 210
+10 ArrayObject 221
+Accesses: 17
+0 1 -1 
+256 1 -1 
+356 1 317 
+263 1 238 
+329 1 317 
+393 1 -1 
+363 1 317 
+268 1 -1 
+275 1 238 
+339 1 317 
+183 1 -1 
+89 1 -1 
+122 1 -1 
+314 1 238 
+123 1 123 
+251 1 238 
+349 1 317 
+Functions: 28
+192 3 16 197 57 
+1 3 1 -2 -3 
+257 1 90 
+321 1 317 
+73 12 -1 1 -2 66 210 -3 232 90 10 123 221 126 
+12 1 -2 
+269 1 90 
+334 1 210 
+400 6 1 210 -3 232 10 221 
+344 1 221 
+26 3 16 197 57 
+28 2 28 31 
+93 1 90 
+287 1 283 
+160 3 16 197 57 
+40 13 -1 1 -3 197 232 10 16 210 57 90 123 221 126 
+104 3 16 197 57 
+299 3 50 84 283 
+366 8 -1 1 369 373 90 123 317 126 
+111 2 113 109 
+175 11 -1 16 1 145 197 152 57 90 123 157 126 
+242 1 238 
+52 3 16 197 57 
+372 1 -2 
+189 2 90 139 
+62 1 -2 
+126 7 16 -3 -4 197 -6 57 126 
+383 1 232 
+Constructors: 3
+321 317
+242 238
+287 283
+
+Summary: 27
+317 -3 210 221 84 1 28 50 232 139 197 145 -2 157 109 0 10 66 -4 57 16 373 4 2 152 -1 -6 

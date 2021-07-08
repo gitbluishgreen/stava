@@ -1,0 +1,913 @@
+24
+org/apache/fop/layoutmgr/table/TableLayoutManager.<init>(Lorg/apache/fop/fo/flow/table/Table;)V
+PTG:
+Vars:
+3
+$r2 1 16 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+7 1 -1 
+24 1 -1 
+12 1 -1 
+Functions: 2
+2 2 -1 -2 
+21 2 16 -2 
+Constructors: 2
+2 -1
+21 16
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.resetSpaces()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 6
+17 1 -1 
+2 1 -1 
+22 1 -1 
+7 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.notifyBorder(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+13
+r6 1 -2 
+$r9 1 64 
+r3 1 -1 
+$r5 1 51 
+$r12 1 24 
+$r1 1 38 
+$r4 1 46 
+$r11 1 4 
+$r10 1 67 
+$r2 1 35 
+$r7 1 55 
+r0 1 -3 
+$r8 1 60 
+Fields: 0
+Accesses: 2
+21 1 -1 
+13 1 -1 
+Functions: 9
+64 1 64 
+51 2 -2 51 
+38 2 -1 38 
+70 2 35 67 
+55 1 55 
+24 1 24 
+42 1 38 
+60 2 -3 60 
+46 1 46 
+Constructors: 1
+42 38
+
+Summary: 7
+0 1 67 -3 64 -1 -2 
+org/apache/fop/layoutmgr/table/TableLayoutManager.getParentArea(Lorg/apache/fop/area/Area;)Lorg/apache/fop/area/Area;
+PTG:
+Vars:
+13
+$r8 1 37 
+$r1 1 1 
+$r10 1 1 
+$r7 1 1 
+$r4 1 1 
+r12 1 -2 
+$r3 1 8 
+_ret 1 1 
+$r11 1 1 
+$r5 1 19 
+$r2 1 1 
+$r9 1 40 
+r0 1 -1 
+Fields: 2
+-1 curBlockArea 1
+-1 parentLM 19
+Accesses: 8
+0 1 -1 
+32 1 -1 
+65 1 -1 
+18 1 -1 
+22 1 -1 
+58 1 -1 
+46 1 -1 
+15 1 -1 
+Functions: 8
+50 3 -1 1 19 
+36 3 -1 1 19 
+37 1 37 
+54 1 1 
+26 2 1 19 
+43 2 1 40 
+12 1 8 
+62 3 -1 1 19 
+Constructors: 1
+12 8
+
+Summary: 5
+-2 0 40 37 -1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.notifySpace(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+28
+$r24 1 50 
+$r25 1 55 
+$r1 1 0 
+$r19 1 29 
+$r15 1 133 
+$r21 1 38 
+$r5 1 92 
+$r6 1 89 
+$r14 1 130 
+$r16 1 7 
+$r22 1 43 
+$r10 1 114 
+$r27 1 62 
+$r11 1 118 
+$r9 1 109 
+r3 1 -1 
+$r7 1 100 
+$r18 1 18 
+$r20 1 34 
+$r2 1 78 
+$r13 1 126 
+$r17 1 21 
+$r12 1 121 
+r4 1 -3 
+$r26 1 59 
+$r8 1 105 
+$r23 1 47 
+r0 1 -2 
+Fields: 2
+-1 effSpaceAfter 118
+-1 effSpaceBefore 47
+Accesses: 4
+117 1 -1 
+72 1 -1 
+46 1 -1 
+143 1 -1 
+Functions: 22
+96 1 92 
+65 2 18 62 
+34 2 -2 34 
+130 1 130 
+100 1 100 
+38 1 38 
+7 1 7 
+136 2 133 89 
+105 2 -2 105 
+43 2 43 47 
+109 1 109 
+78 1 78 
+50 1 50 
+114 2 114 118 
+21 4 -1 21 118 47 
+55 2 -3 55 
+25 1 21 
+121 1 121 
+59 1 59 
+92 4 -1 118 92 47 
+29 1 29 
+126 2 -3 126 
+Constructors: 2
+96 92
+25 21
+
+Summary: 8
+59 -2 130 62 0 1 -1 133 
+org/apache/fop/layoutmgr/table/TableLayoutManager.mustKeepWithNext()Z
+PTG:
+Vars:
+7
+$r3 1 7 
+$r6 1 23 
+$r1 1 1 
+$r5 1 20 
+r0 1 -1 
+$r4 1 17 
+$r2 1 4 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -1 
+16 1 -1 
+1 1 1 
+17 1 17 
+4 1 4 
+20 1 20 
+7 1 7 
+23 1 23 
+Constructors: 0
+
+Summary: 7
+17 23 4 1 20 7 -1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.getHalfBorderSeparationBPD()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.initialize()V
+PTG:
+Vars:
+30
+r0 1 -1 
+$r3 1 9 
+$r8 1 34 
+$r14 1 72 
+$r7 1 31 
+$r6 1 26 
+$r11 1 52 
+$r27 1 130 
+$r10 1 44 
+$r4 1 12 
+$r1 1 1 
+$r19 1 174 
+$r21 1 181 
+$r13 1 58 
+$r17 1 91 
+$r16 1 78 
+$r26 1 127 
+$r22 1 102 
+$r29 1 136 
+$r18 1 164 
+$r15 1 75 
+$r5 1 19 
+$r25 1 111 
+$r23 1 105 
+$r28 1 133 
+$r9 1 37 
+$r2 1 6 
+$r12 1 55 
+$r24 1 108 
+$r20 1 177 
+Fields: 4
+34 spaceAfter 37
+55 startIndent 58
+9 spaceBefore 12
+75 endIndent 78
+Accesses: 13
+160 1 -1 
+34 1 34 
+194 1 -1 
+67 1 -1 
+9 1 9 
+75 1 75 
+47 1 -1 
+147 1 -1 
+22 1 -1 
+55 1 55 
+87 1 -1 
+122 1 -1 
+155 1 -1 
+Functions: 32
+1 1 1 
+130 1 130 
+5 1 -1 
+133 1 133 
+6 1 6 
+71 1 -1 
+72 1 72 
+136 2 -1 136 
+78 2 -1 78 
+16 3 -1 1 12 
+26 1 26 
+90 1 -1 
+91 1 91 
+30 1 -1 
+31 1 31 
+163 1 -1 
+164 1 164 
+101 1 -1 
+102 1 102 
+41 3 -1 37 26 
+105 1 105 
+108 1 108 
+173 1 -1 
+174 1 174 
+111 2 -1 111 
+177 2 -1 177 
+51 1 -1 
+52 1 52 
+181 1 181 
+58 2 -1 58 
+126 1 -1 
+127 1 127 
+Constructors: 2
+16 1
+41 26
+
+Summary: 26
+6 127 52 37 105 181 75 136 91 174 31 9 130 26 55 78 177 -1 34 102 72 12 1 111 164 58 
+org/apache/fop/layoutmgr/table/TableLayoutManager.getNextKnuthElements(Lorg/apache/fop/layoutmgr/LayoutContext;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+45
+$r22 1 165 
+$r29 1 201 
+$r18 1 371 
+$r7 1 68 
+$r23 1 162 
+$r17 1 358 
+$r8 1 251 
+$r33 1 124 
+$r46 1 443 
+r10 1 344 
+$r11 1 381 
+$r38 1 43 
+$r24 1 174 
+_ret 1 0 
+$r41 1 291 
+$r0 1 0 
+$r26 1 186 
+$r14 1 472 
+$r21 1 93 
+$r40 1 93 
+$r31 1 208 
+$r12 1 542 
+$r34 1 127 
+$r36 1 36 
+$r42 1 302 
+$r39 1 46 
+$r27 1 193 
+$r30 1 205 
+$r25 1 181 
+$r43 1 328 
+$r47 1 518 
+$r16 1 501 
+$r32 1 118 
+r2 1 -1 
+r45 1 358 
+$r13 1 547 
+$r28 1 198 
+$r15 1 496 
+$r5 1 20 
+r3 1 -2 
+$r4 1 17 
+r44 1 337 
+$r37 1 39 
+$r6 1 24 
+$r35 1 77 
+Fields: 2
+-1 columns 93
+-1 contentLM 328
+Accesses: 12
+226 1 -1 
+102 1 -1 
+262 1 -1 
+279 1 -1 
+327 1 -1 
+216 1 -1 
+234 1 -1 
+299 1 -1 
+92 1 -1 
+13 1 -1 
+237 1 -1 
+142 1 -1 
+Functions: 82
+130 2 118 127 
+386 2 337 381 
+514 2 0 496 
+4 1 0 
+517 3 -1 328 93 
+518 1 518 
+9 1 -2 
+138 3 -1 328 93 
+395 5 -1 0 337 328 93 
+524 1 302 
+398 3 -1 328 93 
+526 0 
+16 3 -1 328 93 
+17 1 17 
+146 3 -1 328 93 
+274 4 -1 0 328 93 
+20 4 -1 20 328 93 
+405 1 302 
+24 1 24 
+153 3 -1 328 93 
+284 4 -1 -2 328 93 
+417 1 -2 
+546 3 -1 328 93 
+35 3 -1 328 93 
+36 1 36 
+420 3 -1 328 93 
+165 1 165 
+39 4 -1 39 328 93 
+296 4 -1 291 328 93 
+169 1 165 
+43 1 43 
+427 1 302 
+557 3 -2 547 542 
+46 4 -1 328 93 46 
+174 1 174 
+560 2 0 542 
+177 3 -1 328 93 
+307 1 302 
+181 1 181 
+566 3 -1 328 93 
+439 1 -2 
+186 1 186 
+314 1 -2 
+442 3 -1 328 93 
+570 3 -1 328 93 
+443 1 443 
+60 3 -1 328 93 
+189 1 -2 
+318 1 302 
+193 1 193 
+67 3 -1 328 93 
+68 1 68 
+324 2 -2 302 
+198 1 198 
+455 4 -1 0 328 93 
+328 2 328 302 
+204 3 -1 328 93 
+205 2 201 205 
+461 4 -1 0 328 93 
+464 1 -2 
+82 1 77 
+211 2 208 162 
+339 1 337 
+471 3 -1 328 93 
+88 3 -1 328 93 
+472 1 472 
+346 1 344 
+93 3 -1 328 93 
+478 1 302 
+480 0 
+227 3 -1 328 93 
+356 1 344 
+111 3 -1 328 93 
+369 1 358 
+500 3 -1 328 93 
+374 4 -1 371 328 93 
+247 4 -1 0 328 93 
+250 3 -1 328 93 
+123 3 -1 328 93 
+251 1 251 
+124 1 124 
+511 3 496 -2 501 
+Constructors: 6
+307 302
+4 0
+296 291
+169 165
+557 542
+511 496
+
+Summary: 28
+36 496 127 -2 68 46 371 542 205 39 198 24 251 17 0 501 547 358 124 -1 472 518 208 201 337 443 20 302 
+org/apache/fop/layoutmgr/table/TableLayoutManager.addChildArea(Lorg/apache/fop/area/Area;)V
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r3 1 -2 
+$r4 1 1 
+r2 1 -2 
+Fields: 1
+-1 curBlockArea 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+15 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.mustKeepWithPrevious()Z
+PTG:
+Vars:
+7
+$r2 1 4 
+$r4 1 17 
+$r5 1 20 
+$r3 1 7 
+$r6 1 23 
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -1 
+16 1 -1 
+1 1 1 
+17 1 17 
+4 1 4 
+20 1 20 
+7 1 7 
+23 1 23 
+Constructors: 0
+
+Summary: 7
+17 23 4 1 20 7 -1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.getBaseLength(ILorg/apache/fop/fo/FObj;)I
+PTG:
+Vars:
+4
+$r3 1 12 
+r0 1 -3 
+$r2 1 8 
+r1 1 -1 
+Fields: 0
+Accesses: 2
+49 1 -1 
+88 1 -1 
+Functions: 5
+7 1 -3 
+11 1 -1 
+44 1 -1 
+60 0 
+94 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+8 12 1 -3 -1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.negotiateBPDAdjustment(ILorg/apache/fop/layoutmgr/KnuthElement;)I
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+1 -3 -1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.addBackgroundArea(Lorg/apache/fop/area/Block;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 curBlockArea 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.notifyPadding(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+13
+$r9 1 64 
+r0 1 -3 
+$r11 1 4 
+$r12 1 24 
+r6 1 -2 
+$r7 1 55 
+$r5 1 51 
+$r2 1 35 
+$r1 1 38 
+$r4 1 46 
+$r8 1 60 
+r3 1 -1 
+$r10 1 67 
+Fields: 0
+Accesses: 2
+21 1 -1 
+13 1 -1 
+Functions: 9
+64 1 64 
+51 2 -2 51 
+38 2 -1 38 
+70 2 35 67 
+55 1 55 
+24 1 24 
+42 1 38 
+60 2 -3 60 
+46 1 46 
+Constructors: 1
+42 38
+
+Summary: 7
+0 1 67 -3 64 -1 -2 
+org/apache/fop/layoutmgr/table/TableLayoutManager.<clinit>()V
+PTG:
+Vars:
+3
+$r2 2 8 18 
+$r1 1 21 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/layoutmgr/table/TableLayoutManager.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r4 1 6 
+r0 1 -2 
+$r2 1 -1 
+$r1 1 1 
+$r5 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/layoutmgr/table/TableLayoutManager.discardSpace(Lorg/apache/fop/layoutmgr/KnuthGlue;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.registerColumnBackgroundArea(Lorg/apache/fop/fo/flow/table/TableColumn;Lorg/apache/fop/area/Block;I)V
+PTG:
+Vars:
+7
+$r3 1 27 
+r0 1 -1 
+$r5 1 6 
+r4 1 -2 
+$r2 1 6 
+$r6 1 13 
+r1 1 -3 
+Fields: 1
+-1 columnBackgroundAreas 6
+Accesses: 3
+20 1 -1 
+5 1 -1 
+23 1 -1 
+Functions: 4
+17 1 13 
+2 3 -1 -3 6 
+35 3 -2 -3 27 
+38 2 6 27 
+Constructors: 2
+17 13
+35 27
+
+Summary: 6
+-2 0 1 -3 27 -1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.getTable()Lorg/apache/fop/fo/flow/table/Table;
+PTG:
+Vars:
+4
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fobj 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.getColumns()Lorg/apache/fop/layoutmgr/table/ColumnSetup;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 columns 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.getHalfBorderSeparationIPD()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableLayoutManager.mustKeepTogether()Z
+PTG:
+Vars:
+7
+$r1 1 8 
+r0 1 -1 
+$r2 1 11 
+$r6 1 30 
+$r4 1 24 
+$r5 1 27 
+$r3 1 14 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -1 
+7 1 -1 
+23 1 -1 
+8 1 8 
+24 1 24 
+11 1 11 
+27 1 27 
+14 1 14 
+30 1 30 
+Constructors: 0
+
+Summary: 7
+27 8 14 24 30 -1 11 
+org/apache/fop/layoutmgr/table/TableLayoutManager.addAreas(Lorg/apache/fop/layoutmgr/PositionIterator;Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+50
+$r47 1 171 
+$r3 1 11 
+$r21 1 113 
+$r14 1 83 
+r0 1 -1 
+$r40 1 122 
+$r23 1 303 
+$r50 1 194 
+$r33 1 382 
+$r43 1 151 
+$r8 1 50 
+$r31 1 376 
+$r30 1 372 
+$r13 1 83 
+$r25 1 323 
+$r35 1 235 
+$r7 1 47 
+$r39 1 263 
+$r45 1 163 
+$r18 1 113 
+$r38 1 260 
+$r51 1 29 
+$r26 1 330 
+$r16 1 122 
+$r17 1 221 
+r41 1 137 
+$r6 1 44 
+$r4 1 14 
+$r11 1 83 
+$r15 1 113 
+$r48 1 182 
+r44 1 151 
+$r2 1 7 
+$r37 1 113 
+$r49 1 191 
+$r28 1 352 
+$r32 1 376 
+r5 1 -3 
+$r27 1 113 
+$r24 1 113 
+$r42 1 122 
+$r22 1 300 
+$r34 1 113 
+$r29 1 348 
+$r46 1 168 
+$r19 1 285 
+r12 1 -2 
+$r36 1 238 
+$r20 1 288 
+$r9 1 63 
+Fields: 6
+47 startIndent 50
+-1 effSpaceAfter 352
+-1 curBlockArea 113
+-1 effSpaceBefore 348
+-1 contentLM 83
+-1 columnBackgroundAreas 122
+Accesses: 23
+128 1 -1 
+102 1 -1 
+230 1 -1 
+295 1 -1 
+266 1 -1 
+270 1 -1 
+47 1 47 
+112 1 -1 
+368 1 -1 
+241 1 -1 
+82 1 -1 
+306 1 -1 
+211 1 -1 
+339 1 -1 
+245 1 -1 
+310 1 -1 
+280 1 -1 
+121 1 -1 
+90 1 -1 
+347 1 -1 
+318 1 -1 
+255 1 -1 
+351 1 -1 
+Functions: 60
+129 1 122 
+385 2 372 382 
+2 6 -1 352 113 83 122 348 
+259 6 -1 352 113 83 122 348 
+260 1 260 
+6 6 -1 352 113 83 122 348 
+10 6 -1 352 113 83 122 348 
+11 1 11 
+139 1 137 
+17 2 7 14 
+20 1 -3 
+149 1 137 
+277 7 -1 352 113 83 263 122 348 
+284 6 -1 352 113 83 122 348 
+285 1 285 
+33 1 -3 
+161 1 151 
+292 7 288 -1 352 113 83 122 348 
+37 1 29 
+166 1 151 
+40 7 -1 352 113 83 122 348 29 
+168 1 168 
+43 6 -1 352 113 83 122 348 
+299 6 -1 352 113 83 122 348 
+44 1 44 
+300 1 300 
+175 1 151 
+50 7 -1 352 113 50 83 122 348 
+180 1 151 
+182 1 182 
+315 7 -1 352 113 83 122 348 303 
+189 1 151 
+191 1 191 
+194 7 -1 352 113 194 83 122 348 
+322 6 -1 352 113 83 122 348 
+323 1 323 
+68 1 63 
+329 6 -1 352 113 83 122 348 
+330 1 330 
+75 6 -1 352 113 83 122 348 
+205 8 -1 352 113 163 83 122 171 348 
+79 1 63 
+336 1 113 
+87 1 83 
+215 1 122 
+343 1 -3 
+220 6 -1 352 113 83 122 348 
+221 1 221 
+97 3 -2 83 63 
+355 3 352 113 348 
+103 1 83 
+359 6 -1 352 113 83 122 348 
+234 6 -1 352 113 83 122 348 
+235 1 235 
+363 6 -1 352 113 83 122 348 
+371 6 -1 352 113 83 122 348 
+118 1 113 
+375 6 -1 352 113 83 122 348 
+379 1 376 
+252 7 -1 352 113 83 122 348 238 
+Constructors: 2
+68 63
+37 29
+
+Summary: 34
+376 323 44 263 14 -3 7 151 -2 235 288 182 303 47 168 372 221 0 191 1 63 260 29 -1 11 238 382 163 171 50 194 330 300 285 

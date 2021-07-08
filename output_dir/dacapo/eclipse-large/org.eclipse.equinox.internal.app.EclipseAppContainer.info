@@ -1,0 +1,1076 @@
+31
+org/eclipse/equinox/internal/app/EclipseAppContainer.getBranding()Lorg/eclipse/equinox/internal/app/IBranding;
+PTG:
+Vars:
+35
+$r33 1 258 
+$r20 1 303 
+$r1 1 1 
+$r45 1 297 
+$r43 1 235 
+$r34 1 263 
+$r4 1 48 
+$r11 1 181 
+$r18 1 351 
+r6 1 114 
+$r8 1 151 
+$r10 1 175 
+$r12 1 181 
+$r28 1 21 
+r3 1 61 
+$r32 1 253 
+$r23 1 320 
+r37 2 15 40 
+$r14 1 202 
+r9 1 151 
+$r22 1 320 
+$r17 1 347 
+$r2 1 48 
+r39 1 142 
+$r30 1 -1 
+$r27 1 21 
+r5 1 100 
+$r42 1 194 
+$r7 1 118 
+$r44 1 247 
+$r35 1 266 
+$r21 1 317 
+r38 1 235 
+r0 1 -1 
+$r46 1 341 
+Fields: 6
+151 ArrayObject 175
+151 ArrayObject 202
+100 ArrayObject 114
+-1 context 21
+-1 extensionRegistry 48
+-1 branding 1
+Accesses: 12
+0 1 -1 
+209 1 -1 
+82 1 -1 
+20 1 -1 
+7 1 -1 
+87 1 -1 
+29 1 -1 
+365 1 -1 
+206 1 -1 
+334 1 -1 
+47 1 -1 
+79 1 -1 
+Functions: 25
+256 1 114 
+258 1 258 
+132 1 114 
+263 2 263 253 
+328 3 320 297 303 
+203 2 194 202 
+331 1 297 
+12 0 
+76 2 40 15 
+273 3 -1 247 266 
+276 2 247 235 
+150 1 142 
+88 1 48 
+30 1 21 
+350 3 40 347 15 
+357 2 341 351 
+360 1 341 
+170 3 181 40 15 
+48 3 48 40 15 
+240 1 235 
+116 1 114 
+180 1 175 
+308 2 235 317 
+118 1 118 
+310 1 235 
+Constructors: 5
+240 235
+273 247
+357 341
+328 297
+203 194
+
+Summary: 19
+317 341 351 235 247 100 142 263 75 40 15 151 297 266 118 61 320 181 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.stopAllApps()V
+PTG:
+Vars:
+25
+$r10 1 -1 
+$r23 1 -1 
+$r20 1 99 
+r19 1 97 
+$r26 2 15 4 
+$r5 2 59 1 
+$r13 1 151 
+r7 1 65 
+$r18 1 91 
+$r25 1 30 
+$r24 1 25 
+$r2 1 37 
+$r11 1 -1 
+r3 1 48 
+$r9 2 166 1 
+r0 1 -1 
+$r14 2 146 1 
+$r22 2 124 1 
+$r8 1 171 
+$r4 1 64 
+$r15 1 -1 
+$r17 1 87 
+$r1 1 1 
+$r21 1 129 
+$r6 1 65 
+Fields: 5
+48 ArrayObject 151
+48 ArrayObject 171
+48 ArrayObject 129
+48 ArrayObject 64
+-1 context 1
+Accesses: 5
+0 1 -1 
+145 1 -1 
+165 1 -1 
+58 1 -1 
+123 1 -1 
+Functions: 14
+-1 1 -1 
+33 2 25 30 
+1 2 1 37 
+130 3 1 129 124 
+4 2 4 15 
+12 0 
+172 3 1 166 171 
+79 1 65 
+113 3 -1 97 99 
+116 1 99 
+152 3 1 146 151 
+90 1 65 
+59 3 64 1 59 
+91 2 87 91 
+Constructors: 2
+33 25
+113 99
+
+Summary: 8
+91 48 30 37 97 65 99 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.added([Lorg/eclipse/core/runtime/IExtension;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+$r2 1 8 
+r0 1 -2 
+Fields: 1
+-2 ArrayObject 8
+Accesses: 0
+Functions: 1
+9 2 -1 8 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.removeAppDescriptor(Ljava/lang/String;)Lorg/eclipse/equinox/internal/app/EclipseAppDescriptor;
+PTG:
+Vars:
+11
+$r10 1 23 
+r0 1 -1 
+$r8 1 6 
+r3 1 -2 
+$r4 1 30 
+$r9 1 20 
+$r11 1 -1 
+r6 1 41 
+$r1 1 30 
+$r7 1 9 
+$r5 1 41 
+Fields: 1
+-1 apps 30
+Accesses: 2
+36 1 -1 
+29 1 -1 
+Functions: 6
+16 1 9 
+20 1 20 
+37 2 -2 30 
+9 2 -2 9 
+57 1 41 
+26 2 6 23 
+Constructors: 1
+16 9
+
+Summary: 5
+20 -2 23 0 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.modifiedService(Lorg/osgi/framework/ServiceReference;Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r5 1 -1 
+r3 1 -5 
+$r4 1 4 
+r1 1 -3 
+$r7 1 10 
+r2 1 -4 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+3 4 -2 -3 -4 -5 
+25 2 -1 10 
+28 1 10 
+Constructors: 1
+25 10
+
+Summary: 6
+-3 -2 -5 0 -4 10 
+org/eclipse/equinox/internal/app/EclipseAppContainer.removed([Lorg/eclipse/core/runtime/IExtension;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 8 
+r1 1 -1 
+$r3 1 9 
+Fields: 1
+-2 ArrayObject 8
+Accesses: 0
+Functions: 2
+8 1 8 
+14 2 -1 9 
+Constructors: 0
+
+Summary: 3
+-2 9 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.getAppDescriptor(Ljava/lang/String;)Lorg/eclipse/equinox/internal/app/EclipseAppDescriptor;
+PTG:
+Vars:
+10
+$r7 1 50 
+$r1 1 3 
+$r5 1 3 
+$r4 1 14 
+r2 1 -2 
+r11 2 50 14 
+r0 1 -1 
+_ret 2 50 14 
+$r6 1 3 
+$r3 1 3 
+Fields: 1
+-1 apps 3
+Accesses: 4
+2 1 -1 
+38 1 -1 
+9 1 -1 
+45 1 -1 
+Functions: 3
+35 3 -1 -2 3 
+10 2 -2 3 
+46 2 -2 3 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.startDefaultApp(Z)V
+PTG:
+Vars:
+11
+$r2 1 7 
+r13 3 119 66 75 
+$r7 1 89 
+r1 1 4 
+$r12 1 48 
+r0 1 -1 
+$r8 1 93 
+$r4 1 22 
+$r11 1 44 
+$r10 1 101 
+$r9 1 98 
+Fields: 0
+Accesses: 1
+130 1 -1 
+Functions: 14
+0 1 -1 
+97 1 -1 
+98 3 98 4 93 
+70 2 -1 4 
+104 2 101 89 
+107 2 7 89 
+12 1 7 
+141 4 66 119 7 75 
+113 1 -1 
+51 2 48 44 
+54 2 7 44 
+25 2 22 7 
+60 1 -1 
+156 0 
+Constructors: 3
+51 44
+104 89
+12 7
+
+Summary: 8
+119 101 4 98 66 75 7 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.start()V
+PTG:
+Vars:
+10
+$r1 1 1 
+r5 1 44 
+$r10 1 75 
+$r2 1 8 
+r0 1 -1 
+$r3 1 20 
+$r4 1 20 
+$r6 1 49 
+$r9 1 67 
+$r7 1 -1 
+Fields: 3
+-1 launcherTracker 1
+-1 context 20
+-1 extensionRegistry 8
+Accesses: 4
+0 1 -1 
+33 1 -1 
+19 1 -1 
+7 1 -1 
+Functions: 9
+49 2 49 44 
+81 3 -1 67 75 
+34 1 20 
+4 1 1 
+84 1 67 
+24 4 -1 1 20 8 
+60 4 -1 1 20 8 
+14 4 -1 1 20 8 
+30 4 -1 1 20 8 
+Constructors: 1
+81 67
+
+Summary: 3
+44 -1 67 
+org/eclipse/equinox/internal/app/EclipseAppContainer.unlock(Lorg/eclipse/equinox/internal/app/EclipseAppHandle;)V
+PTG:
+Vars:
+15
+$r4 1 33 
+$r11 1 65 
+$r2 1 1 
+$r6 1 99 
+$r7 1 48 
+$r10 1 59 
+$r9 1 59 
+$r3 1 17 
+$r8 1 48 
+$r5 1 33 
+r13 1 68 
+$r14 1 86 
+r1 1 -2 
+$r12 1 68 
+r0 1 -1 
+Fields: 5
+-1 activeHandles 99
+-1 activeScopedSingleton 17
+-1 activeGlobalSingleton 1
+-1 activeLimited 48
+-1 activeMain 86
+Accesses: 9
+0 1 -1 
+16 1 -1 
+98 1 -1 
+85 1 -1 
+54 1 -1 
+10 1 -1 
+26 1 -1 
+47 1 -1 
+95 1 -1 
+Functions: 8
+32 1 -2 
+112 6 -1 48 17 1 99 86 
+81 2 -2 68 
+99 2 -2 99 
+36 1 33 
+55 2 48 65 
+58 1 -2 
+62 1 59 
+Constructors: 0
+
+Summary: 7
+59 -2 68 33 65 0 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.getDefaultAppId()Ljava/lang/String;
+PTG:
+Vars:
+12
+$r7 1 60 
+$r8 1 71 
+r0 1 -1 
+$r5 1 38 
+$r6 1 1 
+$r3 1 1 
+$r9 1 1 
+$r1 1 1 
+$r2 1 13 
+$r14 1 74 
+_ret 1 1 
+$r4 1 33 
+Fields: 2
+-1 context 33
+-1 defaultAppId 1
+Accesses: 11
+0 1 -1 
+16 1 -1 
+32 1 -1 
+82 1 -1 
+19 1 -1 
+53 1 -1 
+7 1 -1 
+26 1 -1 
+43 1 -1 
+46 1 -1 
+79 1 -1 
+Functions: 5
+-1 0 
+33 1 33 
+70 3 -1 33 1 
+71 1 71 
+59 3 -1 33 1 
+Constructors: 0
+
+Summary: 3
+60 71 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.isLocked(Lorg/eclipse/equinox/internal/app/EclipseAppDescriptor;)I
+PTG:
+Vars:
+11
+$r6 1 91 
+r8 1 94 
+$r5 1 80 
+r0 1 -1 
+$r10 1 57 
+$r7 1 94 
+r2 1 -2 
+$r9 1 71 
+$r4 1 131 
+$r3 1 80 
+$r1 1 1 
+Fields: 5
+-1 activeHandles 57
+-1 activeScopedSingleton 71
+-1 activeGlobalSingleton 1
+-1 activeLimited 80
+-1 activeMain 131
+Accesses: 6
+0 1 -1 
+130 1 -1 
+70 1 -1 
+86 1 -1 
+56 1 -1 
+79 1 -1 
+Functions: 7
+87 2 80 91 
+9 1 -2 
+57 1 57 
+105 1 94 
+121 1 -2 
+90 1 -2 
+109 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 91 0 -1 94 
+org/eclipse/equinox/internal/app/EclipseAppContainer.added([Lorg/eclipse/core/runtime/IExtensionPoint;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.stop()V
+PTG:
+Vars:
+5
+$r1 1 5 
+$r3 1 25 
+$r2 1 15 
+r0 1 -1 
+$r4 1 42 
+Fields: 4
+-1 apps 25
+-1 launcherTracker 42
+-1 context 5
+-1 extensionRegistry 15
+Accesses: 6
+33 1 -1 
+4 1 -1 
+38 1 -1 
+24 1 -1 
+41 1 -1 
+14 1 -1 
+Functions: 5
+1 5 -1 5 25 42 15 
+19 5 -1 5 25 42 15 
+9 5 -1 5 25 42 15 
+28 1 25 
+45 1 42 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.callMethodWithException(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+10
+r4 1 -5 
+r13 1 9 
+$r8 1 43 
+$r1 1 1 
+$r5 1 15 
+r0 1 -2 
+r3 1 -4 
+$r6 1 -1 
+$r7 1 23 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+32 1 -1 
+1 3 1 -3 -4 
+52 1 -1 
+21 1 -1 
+41 1 -1 
+11 3 -2 -5 9 
+Constructors: 0
+
+Summary: 12
+-3 -2 23 43 0 -4 1 1 3 2 -5 9 
+org/eclipse/equinox/internal/app/EclipseAppContainer.getAvailableAppExtensions()[Lorg/eclipse/core/runtime/IExtension;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 22 
+_ret 1 22 
+$r1 1 1 
+r2 1 11 
+Fields: 1
+-1 extensionRegistry 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+21 1 11 
+Constructors: 0
+
+Summary: 2
+11 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.createAppDescriptor(Lorg/eclipse/core/runtime/IExtension;)Lorg/eclipse/equinox/internal/app/EclipseAppDescriptor;
+PTG:
+Vars:
+47
+$r25 1 209 
+$r30 1 20 
+$r37 1 -1 
+$r26 1 229 
+r19 1 139 
+$r36 1 390 
+$r41 1 131 
+r39 1 53 
+$r4 1 37 
+$r46 1 327 
+$r47 1 331 
+r22 1 276 
+r40 1 103 
+$r6 1 53 
+r21 1 176 
+$r31 1 25 
+r51 1 411 
+$r45 1 322 
+$r11 1 405 
+$r35 1 385 
+r7 1 77 
+$r14 1 431 
+$r28 1 9 
+r0 1 -1 
+$r13 1 37 
+$r9 1 359 
+$r1 1 37 
+$r29 1 6 
+$r33 1 -1 
+$r12 1 411 
+$r24 1 190 
+$r23 1 286 
+r38 1 316 
+$r48 1 337 
+$r50 2 364 375 
+$r32 1 28 
+$r27 1 112 
+$r43 1 308 
+r3 1 -2 
+$r8 1 353 
+$r42 1 141 
+$r18 1 95 
+$r44 1 317 
+$r5 1 48 
+$r34 1 -1 
+$r20 1 168 
+$r10 1 397 
+Fields: 5
+-1 apps 37
+77 ArrayObject 95
+77 ArrayObject 308
+77 ArrayObject 168
+77 ArrayObject 131
+Accesses: 3
+36 1 -1 
+426 1 -1 
+43 1 -1 
+Functions: 37
+-1 1 -1 
+321 1 -2 
+322 1 322 
+131 1 131 
+71 1 -2 
+9 2 20 9 
+393 2 385 390 
+330 1 -2 
+141 2 139 141 
+16 1 9 
+272 2 -1 37 
+336 1 -2 
+209 2 176 209 
+19 1 -2 
+403 1 317 
+408 6 -1 353 37 405 359 317 
+25 1 25 
+283 2 276 286 
+348 7 -1 337 37 327 331 316 317 
+285 1 -2 
+31 2 6 28 
+95 1 95 
+353 1 353 
+229 2 176 229 
+423 2 411 317 
+168 1 168 
+44 2 48 37 
+364 2 375 364 
+110 1 103 
+430 1 -2 
+47 1 -2 
+112 1 112 
+308 1 308 
+372 0 
+438 3 37 317 431 
+248 1 176 
+190 2 176 190 
+Constructors: 4
+16 9
+408 353
+393 385
+348 317
+
+Summary: 28
+48 95 308 28 131 331 139 327 112 103 20 322 -2 176 359 25 390 286 337 0 77 411 431 276 316 -1 405 168 
+org/eclipse/equinox/internal/app/EclipseAppContainer.registerAppDescriptors()V
+PTG:
+Vars:
+3
+r1 1 4 
+r0 1 -1 
+$r2 1 13 
+Fields: 1
+4 ArrayObject 13
+Accesses: 0
+Functions: 2
+0 1 -1 
+14 2 -1 13 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.lock(Lorg/eclipse/equinox/internal/app/EclipseAppHandle;)V
+PTG:
+Vars:
+14
+$r26 1 217 
+$r31 1 217 
+$r25 1 217 
+$r28 1 243 
+$r30 1 254 
+r3 1 -1 
+r0 1 -2 
+$r1 1 1 
+r35 2 243 254 
+$r32 1 271 
+$r27 1 240 
+$r34 1 224 
+$r29 1 306 
+r2 1 1 
+Fields: 2
+-1 activeHandles 306
+-1 activeLimited 217
+Accesses: 11
+97 1 -1 
+305 1 -1 
+210 1 -1 
+216 1 -1 
+232 1 -1 
+138 1 -1 
+202 1 -1 
+266 1 -1 
+235 1 -1 
+302 1 -1 
+63 1 -1 
+Functions: 27
+0 1 -2 
+64 0 
+258 1 1 
+67 0 
+262 1 254 
+8 4 -1 1 306 217 
+73 0 
+139 0 
+142 0 
+270 1 1 
+275 3 217 254 271 
+148 0 
+85 0 
+152 1 1 
+281 3 -2 243 254 
+98 0 
+291 1 1 
+101 0 
+229 1 224 
+107 0 
+236 2 240 217 
+239 1 1 
+310 2 -2 306 
+119 1 1 
+120 0 
+317 3 -1 306 217 
+126 0 
+Constructors: 2
+229 224
+262 254
+
+Summary: 15
+101 70 1 142 254 67 145 104 0 120 243 123 240 -1 271 
+org/eclipse/equinox/internal/app/EclipseAppContainer.removed([Lorg/eclipse/core/runtime/IExtensionPoint;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.removedService(Lorg/osgi/framework/ServiceReference;Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.getRegServiceAction([Ljava/lang/String;Ljava/lang/Object;Ljava/util/Dictionary;)Ljava/security/PrivilegedAction;
+PTG:
+Vars:
+6
+r1 1 -1 
+r3 1 -3 
+r4 1 -4 
+r2 1 -2 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 5 0 -1 -2 -3 -4 
+Constructors: 1
+8 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.<init>(Lorg/osgi/framework/BundleContext;Lorg/eclipse/core/runtime/IExtensionRegistry;)V
+PTG:
+Vars:
+8
+r3 1 -2 
+$r1 1 5 
+$r6 1 79 
+r4 1 -3 
+$r2 1 16 
+r0 1 -1 
+$r12 2 57 47 
+$r5 1 42 
+Fields: 0
+Accesses: 6
+33 1 -1 
+38 1 -1 
+86 1 -1 
+23 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 8
+-1 0 
+1 1 -1 
+83 4 -1 -2 42 79 
+20 1 16 
+55 0 
+9 1 5 
+75 0 
+47 2 57 47 
+Constructors: 4
+1 -1
+83 42
+20 16
+9 5
+
+Summary: 3
+72 79 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.registerAppDescriptor(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+12 2 -1 5 
+Constructors: 0
+
+Summary: 4
+-2 5 0 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.bundleChanged(Lorg/osgi/framework/BundleEvent;)V
+PTG:
+Vars:
+3
+$r1 1 12 
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+3 1 -2 
+11 1 -2 
+27 1 -1 
+12 1 12 
+Constructors: 0
+
+Summary: 4
+-2 12 0 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.addingService(Lorg/osgi/framework/ServiceReference;)Ljava/lang/Object;
+PTG:
+Vars:
+13
+$r14 1 95 
+r3 1 -2 
+r13 2 23 56 
+$r15 1 41 
+$r4 1 6 
+r6 1 10 
+$r9 2 23 56 
+$r8 1 89 
+$r16 2 23 56 
+r0 1 -1 
+_ret 1 10 
+$r5 1 10 
+$r7 2 23 56 
+Fields: 3
+-1 context 6
+-1 missingAppLauncher 56
+-1 defaultMainThreadAppHandle 23
+Accesses: 7
+33 1 -1 
+49 1 -1 
+19 1 -1 
+52 1 -1 
+5 1 -1 
+26 1 -1 
+59 1 -1 
+Functions: 5
+6 2 -2 6 
+86 2 23 56 
+104 4 23 56 10 95 
+89 1 89 
+46 5 -1 6 23 56 41 
+Constructors: 1
+46 41
+
+Summary: 4
+-2 89 95 0 
+org/eclipse/equinox/internal/app/EclipseAppContainer.getAppExtension(Ljava/lang/String;)Lorg/eclipse/core/runtime/IExtension;
+PTG:
+Vars:
+5
+$r3 1 9 
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+_ret 1 9 
+Fields: 1
+-1 extensionRegistry 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.launch(Lorg/eclipse/equinox/internal/app/EclipseAppHandle;)V
+PTG:
+Vars:
+20
+r3 1 -1 
+$r13 1 129 
+$r7 1 176 
+$r1 1 6 
+$r29 1 176 
+r19 1 76 
+$r28 1 176 
+$r12 1 123 
+$r5 1 164 
+r24 1 217 
+r23 1 176 
+$r6 1 167 
+r22 1 167 
+r0 1 -2 
+$r10 1 34 
+r20 1 81 
+$r26 1 183 
+$r11 1 37 
+r18 1 37 
+$r2 1 6 
+Fields: 6
+-1 launcherTracker 34
+-1 launcherTracker 164
+-1 missingAppLauncher 81
+-1 missingAppLauncher 217
+-1 defaultAppListener 76
+-1 defaultAppListener 176
+Accesses: 10
+33 1 -1 
+194 1 -1 
+163 1 -1 
+213 1 -1 
+56 1 -1 
+72 1 -1 
+77 1 -1 
+206 1 -1 
+175 1 -1 
+191 1 -1 
+Functions: 15
+0 1 -2 
+34 1 34 
+99 2 -2 76 
+68 0 
+164 1 164 
+5 1 -2 
+134 3 -2 129 37 
+9 1 6 
+237 2 176 217 
+143 1 -2 
+113 2 81 -2 
+247 2 176 167 
+122 1 -2 
+123 1 123 
+188 2 -2 183 
+Constructors: 1
+188 183
+
+Summary: 6
+0 129 37 123 167 6 
+org/eclipse/equinox/internal/app/EclipseAppContainer.refreshAppDescriptors()V
+PTG:
+Vars:
+7
+r5 1 19 
+$r7 1 24 
+$r4 1 11 
+$r6 1 24 
+$r3 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 apps 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 5
+32 1 24 
+35 1 19 
+23 1 19 
+8 1 1 
+11 1 11 
+Constructors: 0
+
+Summary: 3
+11 24 -1 
+org/eclipse/equinox/internal/app/EclipseAppContainer.getAvailableAppsMsg()Ljava/lang/String;
+PTG:
+Vars:
+11
+$r3 1 28 
+$r2 1 16 
+r0 1 -1 
+$r4 1 33 
+$r7 1 48 
+$r8 1 53 
+r9 3 8 59 22 
+$r5 1 42 
+r1 1 4 
+$r6 1 47 
+_ret 3 8 59 22 
+Fields: 2
+4 ArrayObject 16
+4 ArrayObject 47
+Accesses: 0
+Functions: 8
+0 1 -1 
+16 1 16 
+32 3 22 8 59 
+36 2 33 28 
+53 1 53 
+42 2 48 42 
+28 1 28 
+47 1 47 
+Constructors: 1
+36 28
+
+Summary: 7
+4 33 48 16 53 42 -1 

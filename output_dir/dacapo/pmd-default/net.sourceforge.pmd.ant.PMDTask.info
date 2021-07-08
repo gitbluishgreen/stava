@@ -1,0 +1,947 @@
+31
+net/sourceforge/pmd/ant/PMDTask.doTask()V
+PTG:
+Vars:
+124
+$r134 1 451 
+$r98 1 132 
+$r171 1 926 
+$r82 1 225 
+r147 1 973 
+$r161 1 544 
+$r83 1 230 
+$r69 1 603 
+$r150 1 86 
+$r39 1 1006 
+r0 1 -1 
+$r116 1 826 
+$r151 1 112 
+$r41 1 1015 
+$r30 1 943 
+$r32 1 994 
+$r50 1 534 
+$r117 1 837 
+$r97 1 129 
+$r157 1 458 
+$r46 1 1043 
+r140 1 656 
+$r84 1 233 
+$r4 1 20 
+$r61 1 765 
+$r95 1 123 
+$r60 1 451 
+$r47 1 1048 
+$r166 1 672 
+$r85 1 243 
+$r29 1 940 
+$r154 1 171 
+$r149 1 51 
+$r80 1 205 
+$r73 1 617 
+r54 1 569 
+$r165 1 658 
+$r2 1 7 
+$r103 1 798 
+r124 2 51 40 
+$r175 2 51 40 
+$r45 1 1038 
+$r55 1 650 
+r143 1 714 
+$r17 1 304 
+$r152 1 143 
+$r104 1 846 
+$r111 1 866 
+r131 1 277 
+$r180 1 171 
+$r148 1 1 
+$r87 1 249 
+r146 1 959 
+$r170 1 895 
+$r18 1 304 
+$r14 1 183 
+$r91 1 102 
+$r70 1 606 
+$r20 1 304 
+$r28 1 935 
+$r52 1 556 
+$r86 1 246 
+$r9 1 71 
+$r62 1 7 
+$r172 1 1022 
+$r67 1 595 
+r130 1 205 
+$r43 1 1031 
+$r112 1 869 
+$r92 1 105 
+$r15 1 7 
+$r76 1 467 
+$r106 1 901 
+$r68 1 598 
+r136 1 520 
+$r109 1 854 
+$r96 1 126 
+r53 1 562 
+$r71 1 613 
+$r94 1 79 
+$r77 1 451 
+$r31 1 183 
+$r16 1 304 
+r142 1 700 
+$r110 1 857 
+$r107 1 906 
+$r162 1 586 
+$r100 1 34 
+$r19 1 304 
+$r63 1 714 
+$r48 1 1051 
+$r89 1 95 
+r133 6 379 448 406 433 325 352 
+$r168 1 813 
+$r3 1 13 
+$r8 1 68 
+$r102 1 789 
+$r159 1 493 
+$r90 1 79 
+$r79 1 477 
+r137 1 534 
+$r72 1 614 
+$r7 1 20 
+$r155 1 216 
+$r40 1 994 
+$r10 1 79 
+$r164 1 627 
+r125 2 77 142 
+$r158 1 484 
+$r6 1 56 
+$r178 1 171 
+$r160 1 502 
+r129 1 191 
+$r99 1 136 
+$r44 1 994 
+$r59 1 183 
+$r163 1 582 
+$r177 1 171 
+$r101 1 -1 
+$r49 1 973 
+$r64 1 728 
+$r167 1 804 
+$r78 1 474 
+$r26 1 512 
+Fields: 10
+-1 formatters 183
+-1 ruleSetFiles 7
+-1 encoding 765
+-1 excludeMarker 451
+-1 failuresPropertyName 994
+-1 classpath 20
+-1 filesets 512
+-1 auxClasspath 79
+-1 targetJDK 304
+569 ArrayObject 613
+Accesses: 31
+384 1 -1 
+768 1 -1 
+450 1 -1 
+260 1 -1 
+6 1 -1 
+330 1 -1 
+1034 1 -1 
+269 1 -1 
+78 1 -1 
+16 1 -1 
+19 1 -1 
+470 1 -1 
+411 1 -1 
+993 1 -1 
+98 1 -1 
+1058 1 -1 
+740 1 -1 
+357 1 -1 
+1067 1 -1 
+876 1 -1 
+303 1 -1 
+1009 1 -1 
+754 1 -1 
+691 1 -1 
+182 1 -1 
+758 1 -1 
+950 1 -1 
+119 1 -1 
+59 1 -1 
+764 1 -1 
+511 1 -1 
+Functions: 137
+512 1 512 
+1 1 1 
+1026 1 1022 
+773 15 448 352 544 672 451 484 325 7 171 143 656 433 406 379 765 
+1031 2 994 1031 
+264 1 171 
+10 11 -1 512 304 1 994 451 20 183 7 765 79 
+522 1 520 
+267 3 7 171 143 
+1038 1 1038 
+783 1 -1 
+787 1 -1 
+1043 1 1043 
+532 1 520 
+1048 1 1048 
+793 11 -1 512 304 994 451 20 789 183 7 765 79 
+282 11 -1 512 304 994 451 20 277 183 7 765 79 
+796 1 -1 
+30 10 -1 512 304 994 451 20 183 7 765 79 
+1055 11 -1 512 304 994 451 20 183 7 1051 765 79 
+33 10 -1 512 304 994 451 20 183 7 765 79 
+34 1 34 
+548 1 544 
+294 0 
+808 1 804 
+553 2 534 556 
+299 0 
+555 10 -1 512 304 994 451 20 183 7 765 79 
+48 10 -1 512 304 994 451 20 183 7 765 79 
+304 1 304 
+819 2 804 813 
+564 1 562 
+1078 0 
+55 10 -1 512 304 994 451 20 183 7 765 79 
+824 1 -1 
+1082 0 
+63 3 51 20 56 
+319 10 -1 512 304 994 451 20 183 7 765 79 
+831 2 826 813 
+1087 0 
+67 10 -1 512 304 994 451 20 183 7 765 79 
+835 1 804 
+68 1 68 
+1092 0 
+71 1 71 
+841 11 -1 512 304 994 451 20 837 183 7 765 79 
+1097 0 
+586 2 595 586 
+331 1 304 
+844 1 -1 
+590 1 586 
+1103 0 
+593 1 562 
+852 1 -1 
+86 1 86 
+598 2 598 603 
+854 1 854 
+601 0 
+90 1 86 
+346 10 -1 512 304 994 451 20 183 7 765 79 
+606 2 613 606 
+95 2 95 79 
+864 1 -1 
+866 1 866 
+102 1 102 
+358 1 304 
+614 1 614 
+873 11 -1 512 304 994 451 20 869 183 7 765 79 
+620 2 582 617 
+109 11 -1 512 304 994 451 20 183 7 105 765 79 
+112 2 112 123 
+116 1 112 
+373 10 -1 512 304 994 451 20 183 7 765 79 
+120 1 79 
+633 2 627 582 
+889 1 -1 
+636 2 544 627 
+126 2 129 126 
+385 1 304 
+899 1 -1 
+132 3 132 77 142 
+136 1 136 
+648 1 562 
+904 1 484 
+650 1 650 
+909 3 901 906 895 
+400 10 -1 512 304 994 451 20 183 7 765 79 
+912 2 493 895 
+149 5 51 40 77 142 143 
+918 1 502 
+667 13 -1 512 994 451 7 79 304 656 658 20 502 183 765 
+412 1 304 
+926 1 926 
+161 0 
+930 1 926 
+676 1 672 
+165 0 
+935 1 935 
+427 10 -1 512 304 994 451 20 183 7 765 79 
+940 1 940 
+685 2 672 658 
+177 12 -1 512 304 994 451 20 183 7 171 765 79 143 
+947 11 -1 512 304 994 451 20 183 7 765 79 943 
+692 1 183 
+183 1 183 
+951 1 183 
+442 10 -1 512 304 994 451 20 183 7 765 79 
+702 1 700 
+193 1 191 
+961 1 959 
+712 1 700 
+458 1 458 
+203 1 191 
+971 1 959 
+462 1 458 
+467 2 467 451 
+726 1 714 
+216 1 216 
+474 1 474 
+731 2 672 728 
+987 2 973 493 
+220 1 216 
+225 2 225 205 
+481 11 -1 512 304 994 451 20 183 7 765 477 79 
+230 1 230 
+488 1 484 
+237 11 -1 512 304 994 451 20 183 7 233 765 79 
+1005 10 -1 512 304 994 451 20 183 7 765 79 
+497 1 493 
+242 10 -1 512 304 994 451 20 183 7 765 79 
+243 1 243 
+1013 0 
+246 1 246 
+506 1 502 
+1018 3 994 1015 1006 
+252 2 249 205 
+1022 1 1022 
+Constructors: 22
+930 926
+1026 1022
+548 544
+676 672
+488 484
+808 804
+10 1
+620 582
+909 895
+462 458
+590 586
+177 171
+497 493
+819 813
+116 112
+149 143
+633 627
+90 86
+506 502
+667 658
+220 216
+63 51
+
+Summary: 94
+906 230 162 1097 672 1051 105 1031 467 658 1 142 895 243 813 68 474 296 484 603 656 728 926 1092 216 123 246 86 1022 1048 56 606 857 598 846 798 136 617 1038 520 233 544 943 1015 837 132 789 866 650 627 613 534 714 556 973 1087 71 95 826 940 477 1078 1043 40 569 458 171 1100 126 -1 51 493 1006 102 277 205 562 77 225 191 901 34 582 502 935 959 869 700 586 112 249 854 595 614 
+net/sourceforge/pmd/ant/PMDTask.createLongClasspath()Lorg/apache/tools/ant/types/Path;
+PTG:
+Vars:
+7
+$r5 1 13 
+$r3 1 26 
+$r2 1 1 
+_ret 1 26 
+r0 1 -1 
+$r1 1 1 
+$r4 1 8 
+Fields: 1
+-1 classpath 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+22 1 -1 
+Functions: 3
+16 2 8 13 
+23 1 1 
+12 2 -1 1 
+Constructors: 1
+16 8
+
+Summary: 2
+-1 13 
+net/sourceforge/pmd/ant/PMDTask.setCpus(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.getClasspath()Lorg/apache/tools/ant/types/Path;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 classpath 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.setAuxClasspathRef(Lorg/apache/tools/ant/types/Reference;)V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 1 
+net/sourceforge/pmd/ant/PMDTask.access$000(Lnet/sourceforge/pmd/ant/PMDTask;)Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -2 
+Fields: 1
+-2 ruleSetFiles 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+net/sourceforge/pmd/ant/PMDTask.setEncoding(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.getNestedRuleSetFiles()Ljava/lang/String;
+PTG:
+Vars:
+9
+$r6 1 28 
+_ret 1 66 
+r2 1 -1 
+$r0 1 0 
+r7 1 28 
+$r8 1 39 
+r4 1 17 
+$r5 1 66 
+$r3 1 9 
+Fields: 1
+-1 nestedRules 9
+Accesses: 1
+8 1 -1 
+Functions: 9
+65 1 0 
+18 1 17 
+4 1 0 
+38 1 28 
+9 1 9 
+42 2 0 39 
+58 1 0 
+27 1 17 
+46 1 17 
+Constructors: 1
+4 0
+
+Summary: 5
+-1 28 39 0 17 
+net/sourceforge/pmd/ant/PMDTask.logRulesUsed(Lnet/sourceforge/pmd/RuleSets;)V
+PTG:
+Vars:
+18
+r10 1 55 
+$r2 1 10 
+r6 1 -2 
+$r13 1 80 
+r7 1 31 
+r12 1 69 
+$r11 1 69 
+$r1 1 1 
+$r17 1 102 
+$r5 1 20 
+$r4 1 17 
+r8 1 43 
+r0 1 -1 
+$r9 1 47 
+$r14 1 89 
+$r16 1 99 
+$r15 1 94 
+$r3 1 14 
+Fields: 2
+-1 ruleSetFiles 14
+31 ArrayObject 43
+Accesses: 1
+13 1 -1 
+Functions: 16
+1 1 1 
+67 1 55 
+99 1 99 
+5 1 1 
+10 2 10 14 
+106 3 -1 102 14 
+45 1 43 
+47 1 47 
+80 1 80 
+17 1 17 
+84 1 80 
+24 3 -1 20 14 
+57 1 55 
+89 2 89 94 
+27 1 -2 
+92 1 69 
+Constructors: 2
+84 80
+5 1
+
+Summary: 17
+10 89 55 69 47 17 20 -1 31 -2 99 102 0 94 43 1 80 
+net/sourceforge/pmd/ant/PMDTask.validate()V
+PTG:
+Vars:
+14
+r0 1 -1 
+$r5 1 87 
+$r1 1 1 
+$r12 1 80 
+$r7 1 87 
+$r3 1 50 
+$r4 1 87 
+$r9 1 87 
+r15 1 20 
+r2 1 9 
+$r8 1 87 
+$r11 1 57 
+$r6 1 87 
+$r14 1 20 
+Fields: 4
+-1 formatters 1
+-1 ruleSetFiles 50
+-1 nestedRules 57
+-1 targetJDK 87
+Accesses: 10
+0 1 -1 
+49 1 -1 
+98 1 -1 
+146 1 -1 
+83 1 -1 
+86 1 -1 
+134 1 -1 
+56 1 -1 
+122 1 -1 
+110 1 -1 
+Functions: 15
+1 1 1 
+99 1 87 
+164 0 
+135 1 87 
+10 1 9 
+42 0 
+74 0 
+79 5 -1 1 50 87 57 
+111 1 87 
+19 1 9 
+147 1 87 
+87 1 87 
+57 1 57 
+123 1 87 
+29 1 20 
+Constructors: 0
+
+Summary: 3
+-1 9 20 
+net/sourceforge/pmd/ant/PMDTask.setTargetJDK(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.setMinimumPriority(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.setExcludeMarker(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.execute()V
+PTG:
+Vars:
+5
+$r4 1 21 
+r0 1 -1 
+$r1 1 4 
+$r5 1 17 
+$r3 1 13 
+Fields: 0
+Accesses: 0
+Functions: 6
+1 1 -1 
+33 1 -1 
+37 1 13 
+9 2 -1 4 
+28 3 17 21 13 
+45 1 13 
+Constructors: 2
+9 4
+28 13
+
+Summary: 3
+-1 13 21 
+net/sourceforge/pmd/ant/PMDTask.createLongAuxClasspath()Lorg/apache/tools/ant/types/Path;
+PTG:
+Vars:
+7
+_ret 1 26 
+$r3 1 26 
+r0 1 -1 
+$r5 1 13 
+$r2 1 1 
+$r1 1 1 
+$r4 1 8 
+Fields: 1
+-1 auxClasspath 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+22 1 -1 
+Functions: 3
+16 2 8 13 
+23 1 1 
+12 2 -1 1 
+Constructors: 1
+16 8
+
+Summary: 2
+-1 13 
+net/sourceforge/pmd/ant/PMDTask.setRuleSetFiles(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.addFileset(Lorg/apache/tools/ant/types/FileSet;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 filesets 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+net/sourceforge/pmd/ant/PMDTask.setFailOnError(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.<init>()V
+PTG:
+Vars:
+6
+$r1 1 5 
+r0 1 -1 
+$r4 1 58 
+$r2 1 16 
+$r3 1 34 
+$r5 1 68 
+Fields: 2
+-1 excludeMarker 54
+-1 targetJDK 48
+Accesses: 9
+48 1 -1 
+64 1 -1 
+37 1 -1 
+54 1 -1 
+23 1 -1 
+42 1 -1 
+75 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 7
+32 0 
+-1 0 
+1 3 -1 48 54 
+20 1 16 
+72 1 68 
+9 1 5 
+58 1 58 
+Constructors: 4
+1 -1
+20 16
+72 68
+9 5
+
+Summary: 4
+-1 48 54 58 
+net/sourceforge/pmd/ant/PMDTask.setClasspathRef(Lorg/apache/tools/ant/types/Reference;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 1 
+net/sourceforge/pmd/ant/PMDTask.setShortFilenames(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.setFailuresPropertyName(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.setFailOnRuleViolation(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.addFormatter(Lnet/sourceforge/pmd/ant/Formatter;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 formatters 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+net/sourceforge/pmd/ant/PMDTask.createAuxClasspath()Lorg/apache/tools/ant/types/Path;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r5 1 13 
+_ret 1 26 
+$r1 1 1 
+$r2 1 1 
+$r4 1 8 
+$r3 1 26 
+Fields: 1
+-1 auxClasspath 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+22 1 -1 
+Functions: 3
+16 2 8 13 
+23 1 1 
+12 2 -1 1 
+Constructors: 1
+16 8
+
+Summary: 2
+-1 13 
+net/sourceforge/pmd/ant/PMDTask.getAuxClasspath()Lorg/apache/tools/ant/types/Path;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 auxClasspath 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.setMaxRuleViolations(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.addRuleset(Lnet/sourceforge/pmd/ant/RuleSetWrapper;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 nestedRules 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+net/sourceforge/pmd/ant/PMDTask.setClasspath(Lorg/apache/tools/ant/types/Path;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/ant/PMDTask.createClasspath()Lorg/apache/tools/ant/types/Path;
+PTG:
+Vars:
+7
+$r2 1 1 
+$r4 1 8 
+$r5 1 13 
+_ret 1 26 
+r0 1 -1 
+$r1 1 1 
+$r3 1 26 
+Fields: 1
+-1 classpath 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+22 1 -1 
+Functions: 3
+16 2 8 13 
+23 1 1 
+12 2 -1 1 
+Constructors: 1
+16 8
+
+Summary: 2
+-1 13 
+net/sourceforge/pmd/ant/PMDTask.setAuxClasspath(Lorg/apache/tools/ant/types/Path;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

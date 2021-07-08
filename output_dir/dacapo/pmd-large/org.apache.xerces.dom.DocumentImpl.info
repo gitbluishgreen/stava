@@ -1,0 +1,1212 @@
+46
+org/apache/xerces/dom/DocumentImpl.createTreeWalker(Lorg/w3c/dom/Node;ILorg/w3c/dom/traversal/NodeFilter;Z)Lorg/w3c/dom/traversal/TreeWalker;
+PTG:
+Vars:
+6
+r0 1 -2 
+_ret 1 26 
+r5 1 -1 
+$r7 1 26 
+r2 1 -4 
+$r8 1 26 
+Fields: 0
+Accesses: 0
+Functions: 3
+35 3 -2 -4 26 
+22 0 
+8 0 
+Constructors: 1
+35 26
+
+Summary: 4
+-4 12 -1 -2 
+org/apache/xerces/dom/DocumentImpl.modifiedAttrValue(Lorg/apache/xerces/dom/AttrImpl;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+12 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 4
+1 -3 -1 -2 
+org/apache/xerces/dom/DocumentImpl.replacingData(Lorg/apache/xerces/dom/NodeImpl;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+9 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/dom/DocumentImpl.createTreeWalker(Lorg/w3c/dom/Node;SLorg/w3c/dom/traversal/NodeFilter;)Lorg/w3c/dom/traversal/TreeWalker;
+PTG:
+Vars:
+5
+r1 1 -2 
+_ret 1 5 
+r0 1 -1 
+r2 1 -4 
+$r3 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -4 
+Constructors: 0
+
+Summary: 3
+-4 -1 -2 
+org/apache/xerces/dom/DocumentImpl.dispatchEvent(Lorg/apache/xerces/dom/NodeImpl;Lorg/w3c/dom/events/Event;)Z
+PTG:
+Vars:
+44
+r45 1 486 
+$r11 1 540 
+r48 1 540 
+$r12 2 562 19 
+$r26 1 -1 
+$r9 1 486 
+r42 1 355 
+$r18 1 398 
+$r29 1 -1 
+$r53 1 -3 
+r37 1 207 
+$r3 1 19 
+$r4 1 59 
+$r20 1 187 
+$r24 1 259 
+$r16 1 380 
+r5 1 -2 
+r0 1 -3 
+$r19 1 423 
+$r21 1 216 
+r39 1 241 
+r47 1 515 
+$r51 1 -3 
+$r13 1 558 
+r38 1 216 
+$r17 2 402 19 
+$r10 1 515 
+$r25 1 284 
+$r50 1 95 
+r34 2 141 118 
+r36 1 187 
+$r2 1 19 
+r46 1 506 
+$r14 1 583 
+r32 1 65 
+$r28 1 -1 
+$r52 1 -3 
+$r22 1 241 
+r41 1 339 
+$r15 1 355 
+$r23 2 263 19 
+r8 1 -1 
+r43 1 380 
+r1 1 -3 
+Fields: 7
+540 type 558
+540 listener 583
+-3 type 19
+241 type 259
+241 listener 284
+380 type 398
+380 listener 423
+Accesses: 36
+257 1 241 
+67 1 65 
+388 1 380 
+581 1 540 
+198 1 -3 
+262 1 -3 
+326 1 -3 
+456 1 -3 
+11 1 -3 
+75 1 -3 
+331 1 -3 
+396 1 380 
+401 1 -3 
+18 1 -3 
+82 1 -3 
+148 1 65 
+341 1 -3 
+87 1 -3 
+472 1 -3 
+25 1 -3 
+282 1 241 
+92 1 -3 
+158 1 -3 
+548 1 540 
+421 1 380 
+617 1 65 
+556 1 540 
+173 1 -3 
+497 1 -3 
+561 1 -3 
+625 1 -3 
+632 1 -3 
+249 1 241 
+316 1 65 
+447 1 -3 
+639 1 -3 
+Functions: 34
+513 1 506 
+259 3 259 19 263 
+134 2 118 141 
+201 2 -1 187 
+459 1 95 
+523 1 515 
+587 3 -3 19 583 
+334 2 -1 -2 
+398 3 402 19 398 
+272 4 241 259 284 207 
+214 1 207 
+536 1 515 
+26 1 19 
+411 4 339 423 380 398 
+224 1 216 
+288 3 -3 19 284 
+161 1 95 
+353 1 339 
+482 1 95 
+103 1 95 
+41 0 
+363 1 355 
+427 3 -3 19 423 
+237 1 216 
+558 3 562 19 558 
+111 1 -2 
+500 2 -1 486 
+54 0 
+183 1 95 
+376 1 355 
+58 2 -3 19 
+59 1 59 
+571 4 583 506 540 558 
+127 3 118 141 95 
+Constructors: 1
+103 95
+
+Summary: 26
+216 45 398 -3 284 141 515 65 1 540 118 0 -1 355 380 423 339 207 259 59 95 583 19 506 241 558 
+org/apache/xerces/dom/DocumentImpl.dispatchAggregateEvents(Lorg/apache/xerces/dom/NodeImpl;Lorg/apache/xerces/dom/AttrImpl;Ljava/lang/String;S)V
+PTG:
+Vars:
+17
+$r7 1 54 
+$r20 1 89 
+r6 1 -4 
+r9 1 15 
+$r16 1 36 
+$r14 1 36 
+$r15 1 89 
+$r18 1 89 
+r12 1 79 
+r3 1 -2 
+r10 1 12 
+$r19 1 89 
+r2 1 -1 
+$r17 1 89 
+$r4 1 15 
+$r8 1 58 
+r0 1 -3 
+Fields: 0
+Accesses: 2
+81 1 79 
+23 1 12 
+Functions: 13
+70 2 36 15 
+7 0 
+40 1 36 
+136 3 -1 89 15 
+74 0 
+109 1 89 
+14 1 -3 
+147 3 -1 -2 89 
+53 1 -3 
+57 1 -3 
+122 3 -1 -3 89 
+93 1 89 
+63 5 -3 -4 36 54 58 
+Constructors: 2
+40 36
+93 89
+
+Summary: 14
+-4 79 -3 89 54 15 2 1 12 0 58 -1 -2 36 
+org/apache/xerces/dom/DocumentImpl.removingNode(Lorg/apache/xerces/dom/NodeImpl;Lorg/apache/xerces/dom/NodeImpl;Z)V
+PTG:
+Vars:
+25
+r23 4 208 -1 190 222 
+$r17 2 23 1 
+$r1 1 1 
+$r3 1 177 
+r11 1 -2 
+$r25 1 127 
+$r9 1 190 
+$r13 2 49 71 
+$r28 1 239 
+$r12 1 49 
+$r7 1 177 
+$r16 1 1 
+$r26 1 239 
+$r8 1 187 
+$r14 1 76 
+$r19 1 28 
+$r2 1 49 
+r6 1 -3 
+$r15 1 76 
+r22 1 163 
+$r18 1 28 
+r0 1 -1 
+$r27 1 127 
+r20 1 117 
+r24 2 208 222 
+Fields: 4
+177 node 187
+-1 iterators 1
+-1 savedEnclosingAttr 177
+-1 ranges 49
+Accesses: 12
+0 1 -1 
+48 1 -1 
+96 1 -1 
+176 1 -1 
+165 1 163 
+22 1 -1 
+70 1 -1 
+7 1 -1 
+55 1 -1 
+119 1 117 
+183 1 -1 
+184 1 177 
+Functions: 19
+35 2 -3 28 
+131 1 127 
+259 1 239 
+229 8 208 -1 1 177 49 187 190 222 
+71 2 49 71 
+8 1 1 
+266 7 -1 1 177 49 -3 187 239 
+203 8 208 -1 1 177 49 187 190 222 
+109 6 -1 1 177 49 -2 187 
+112 0 
+83 2 -3 76 
+147 2 -2 127 
+243 1 239 
+23 2 1 23 
+56 1 49 
+217 2 208 222 
+154 7 -1 1 177 49 -3 187 127 
+187 1 187 
+158 0 
+Constructors: 2
+131 127
+243 239
+
+Summary: 14
+-3 239 28 1 127 0 208 -1 76 -2 190 222 117 163 
+org/apache/xerces/dom/DocumentImpl.<init>(Lorg/w3c/dom/DocumentType;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 1
+-2 
+org/apache/xerces/dom/DocumentImpl.<init>(Lorg/w3c/dom/DocumentType;Z)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 1
+3 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 1
+-2 
+org/apache/xerces/dom/DocumentImpl.deletedText(Lorg/apache/xerces/dom/NodeImpl;II)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r4 1 28 
+$r3 2 23 1 
+$r1 1 1 
+$r6 1 28 
+$r2 1 1 
+r5 1 -2 
+Fields: 1
+-1 ranges 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+7 1 -1 
+Functions: 3
+37 2 -2 28 
+23 2 1 23 
+8 1 1 
+Constructors: 0
+
+Summary: 3
+-1 -2 28 
+org/apache/xerces/dom/DocumentImpl.setMutationEvents(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/dom/DocumentImpl.replacingNode(Lorg/apache/xerces/dom/NodeImpl;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+9 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/dom/DocumentImpl.createNodeIterator(Lorg/w3c/dom/Node;ILorg/w3c/dom/traversal/NodeFilter;Z)Lorg/w3c/dom/traversal/NodeIterator;
+PTG:
+Vars:
+9
+_ret 1 26 
+r2 1 -1 
+r0 1 -2 
+$r12 1 49 
+r3 1 -4 
+$r4 1 42 
+$r11 1 26 
+$r13 1 26 
+$r5 1 42 
+Fields: 1
+-1 iterators 42
+Accesses: 3
+56 1 -1 
+41 1 -1 
+59 1 -1 
+Functions: 5
+65 2 42 26 
+36 5 -1 -2 -4 26 42 
+53 1 49 
+22 0 
+8 0 
+Constructors: 2
+36 26
+53 49
+
+Summary: 4
+-4 12 -1 -2 
+org/apache/xerces/dom/DocumentImpl.replacedNode(Lorg/apache/xerces/dom/NodeImpl;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 10 
+r0 1 -1 
+Fields: 1
+-1 savedEnclosingAttr 10
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+13 3 -1 -2 10 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/dom/DocumentImpl.removeNodeIterator(Lorg/w3c/dom/traversal/NodeIterator;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 6 
+r1 1 -1 
+$r3 1 6 
+Fields: 1
+-1 iterators 6
+Accesses: 2
+5 1 -1 
+13 1 -1 
+Functions: 1
+18 2 -2 6 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/dom/DocumentImpl.removedNode(Lorg/apache/xerces/dom/NodeImpl;Z)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 14 
+Fields: 1
+-1 savedEnclosingAttr 14
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 1
+17 3 -1 -2 14 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xerces/dom/DocumentImpl.dispatchingEventToSubtree(Lorg/w3c/dom/Node;Lorg/w3c/dom/events/Event;)V
+PTG:
+Vars:
+8
+$r2 1 -2 
+$r4 1 67 
+r3 1 -1 
+$r5 1 78 
+r1 1 -3 
+r6 1 30 
+$r7 1 48 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 10
+66 1 -2 
+84 3 -1 -3 78 
+54 3 -1 48 -3 
+24 1 -2 
+73 3 -1 -3 67 
+10 2 -2 -3 
+45 1 30 
+77 1 -2 
+14 1 -2 
+31 1 30 
+Constructors: 0
+
+Summary: 8
+30 67 48 1 -3 0 -1 78 
+org/apache/xerces/dom/DocumentImpl.createNodeIterator(Lorg/w3c/dom/Node;SLorg/w3c/dom/traversal/NodeFilter;)Lorg/w3c/dom/traversal/NodeIterator;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r3 1 5 
+_ret 1 5 
+r0 1 -1 
+r2 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -4 
+Constructors: 0
+
+Summary: 3
+-4 -1 -2 
+org/apache/xerces/dom/DocumentImpl.setAttrNode(Lorg/apache/xerces/dom/AttrImpl;Lorg/apache/xerces/dom/AttrImpl;)V
+PTG:
+Vars:
+6
+$r4 1 32 
+r0 1 -1 
+$r3 1 27 
+r2 1 -2 
+$r5 1 13 
+r1 1 -3 
+Fields: 2
+-2 ownerNode 13
+-2 ownerNode 27
+Accesses: 3
+0 1 -1 
+26 1 -2 
+12 1 -2 
+Functions: 3
+19 4 -1 -2 27 13 
+36 5 -1 32 -2 27 13 
+31 1 -3 
+Constructors: 0
+
+Summary: 8
+32 1 27 -3 13 0 -1 -2 
+org/apache/xerces/dom/DocumentImpl.createRange()Lorg/w3c/dom/ranges/Range;
+PTG:
+Vars:
+7
+$r6 1 8 
+$r1 1 1 
+_ret 1 18 
+$r4 1 1 
+r0 1 -1 
+$r7 1 18 
+$r8 1 18 
+Fields: 1
+-1 ranges 1
+Accesses: 3
+0 1 -1 
+27 1 -1 
+15 1 -1 
+Functions: 3
+32 2 1 18 
+23 3 -1 1 18 
+12 1 8 
+Constructors: 2
+23 18
+12 8
+
+Summary: 1
+-1 
+org/apache/xerces/dom/DocumentImpl.modifyingCharacterData(Lorg/apache/xerces/dom/NodeImpl;Z)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+13 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xerces/dom/DocumentImpl.cloneNode(Z)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+3
+r2 1 -1 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 2
+22 1 -1 
+26 1 0 
+Functions: 3
+18 2 -1 0 
+4 1 0 
+12 2 -1 0 
+Constructors: 1
+4 0
+
+Summary: 0
+
+org/apache/xerces/dom/DocumentImpl.removedAttrNode(Lorg/apache/xerces/dom/AttrImpl;Lorg/apache/xerces/dom/NodeImpl;Ljava/lang/String;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+r7 1 -4 
+$r6 1 39 
+$r9 1 22 
+r5 1 -2 
+r1 1 12 
+$r8 1 22 
+r2 1 -3 
+Fields: 0
+Accesses: 2
+0 1 -1 
+14 1 12 
+Functions: 6
+52 3 -1 -3 22 
+38 1 -2 
+7 0 
+26 1 22 
+45 4 -2 -4 22 39 
+61 2 -1 -3 
+Constructors: 1
+26 22
+
+Summary: 7
+-4 12 -3 39 -1 -2 22 
+org/apache/xerces/dom/DocumentImpl.createEvent(Ljava/lang/String;)Lorg/w3c/dom/events/Event;
+PTG:
+Vars:
+6
+r5 1 60 
+$r4 1 35 
+r0 1 -2 
+r7 1 -1 
+$r2 1 9 
+$r10 1 61 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+48 0 
+35 2 -2 35 
+68 2 60 61 
+22 0 
+56 0 
+9 2 -2 9 
+26 1 -2 
+Constructors: 1
+68 61
+
+Summary: 3
+-1 -2 60 
+org/apache/xerces/dom/DocumentImpl.getImplementation()Lorg/w3c/dom/DOMImplementation;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/dom/DocumentImpl.removeEventListener(Lorg/apache/xerces/dom/NodeImpl;Ljava/lang/String;Lorg/w3c/dom/events/EventListener;Z)V
+PTG:
+Vars:
+10
+r9 1 111 
+r3 1 -2 
+$r5 1 47 
+r4 1 23 
+r0 1 -3 
+$r8 1 76 
+r6 1 47 
+$r7 1 67 
+r2 1 -1 
+r1 1 -4 
+Fields: 2
+47 type 76
+47 listener 67
+Accesses: 11
+65 1 47 
+129 1 111 
+162 1 111 
+118 1 111 
+55 1 47 
+151 1 111 
+137 1 111 
+74 1 47 
+154 1 111 
+126 1 111 
+143 1 111 
+Functions: 9
+18 2 -1 -2 
+4 1 -3 
+104 2 -1 -2 
+90 1 23 
+43 1 23 
+107 1 -3 
+76 2 -3 76 
+93 1 23 
+31 1 23 
+Constructors: 0
+
+Summary: 9
+-4 67 47 23 -3 -1 76 -2 111 
+org/apache/xerces/dom/DocumentImpl.renamedAttrNode(Lorg/w3c/dom/Attr;Lorg/w3c/dom/Attr;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-3 -1 -2 
+org/apache/xerces/dom/DocumentImpl.insertedText(Lorg/apache/xerces/dom/NodeImpl;II)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r1 1 1 
+$r4 1 28 
+$r3 2 23 1 
+r5 1 -2 
+$r2 1 1 
+$r6 1 28 
+Fields: 1
+-1 ranges 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+7 1 -1 
+Functions: 3
+37 2 -2 28 
+23 2 1 23 
+8 1 1 
+Constructors: 0
+
+Summary: 3
+-1 -2 28 
+org/apache/xerces/dom/DocumentImpl.modifiedCharacterData(Lorg/apache/xerces/dom/NodeImpl;Ljava/lang/String;Ljava/lang/String;Z)V
+PTG:
+Vars:
+9
+$r9 1 27 
+r1 1 17 
+r2 1 -2 
+$r3 1 63 
+$r10 1 27 
+r7 1 -4 
+$r8 1 27 
+r6 1 -3 
+r0 1 -1 
+Fields: 1
+-1 savedEnclosingAttr 63
+Accesses: 3
+0 1 -1 
+19 1 17 
+62 1 -1 
+Functions: 5
+66 3 -1 -2 63 
+56 4 -1 -2 27 63 
+12 0 
+31 1 27 
+47 3 -3 -4 27 
+Constructors: 1
+31 27
+
+Summary: 8
+-4 1 -3 0 -1 -2 17 27 
+org/apache/xerces/dom/DocumentImpl.insertingNode(Lorg/apache/xerces/dom/NodeImpl;Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+13 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/dom/DocumentImpl.setEventListeners(Lorg/apache/xerces/dom/NodeImpl;Ljava/util/Vector;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+r3 1 -2 
+$r8 1 1 
+$r6 1 1 
+$r1 1 1 
+$r9 1 8 
+$r4 1 1 
+r2 1 -3 
+Fields: 1
+-1 eventListeners 1
+Accesses: 7
+0 1 -1 
+49 1 -1 
+22 1 -1 
+43 1 -1 
+61 1 -1 
+15 1 -1 
+31 1 -1 
+Functions: 4
+32 1 1 
+55 3 1 -2 -3 
+27 2 1 -2 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 3
+-3 -1 -2 
+org/apache/xerces/dom/DocumentImpl.splitData(Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;I)V
+PTG:
+Vars:
+8
+$r2 1 1 
+$r3 2 23 1 
+$r4 1 28 
+r0 1 -1 
+r6 1 -3 
+$r7 1 28 
+r5 1 -2 
+$r1 1 1 
+Fields: 1
+-1 ranges 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+7 1 -1 
+Functions: 3
+37 3 -2 -3 28 
+23 2 1 23 
+8 1 1 
+Constructors: 0
+
+Summary: 4
+-3 -1 -2 28 
+org/apache/xerces/dom/DocumentImpl.getMutationEvents()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/dom/DocumentImpl.addEventListener(Lorg/apache/xerces/dom/NodeImpl;Ljava/lang/String;Lorg/w3c/dom/events/EventListener;Z)V
+PTG:
+Vars:
+8
+$r6 1 39 
+$r4 1 57 
+r5 1 76 
+r1 1 -4 
+r2 1 -1 
+r0 1 -3 
+r3 1 -2 
+r7 2 32 39 
+Fields: 0
+Accesses: 8
+83 1 76 
+116 1 76 
+102 1 76 
+119 1 76 
+91 1 76 
+108 1 76 
+94 1 76 
+127 1 76 
+Functions: 8
+66 4 -1 -3 -4 57 
+4 1 -3 
+52 3 -1 -2 39 
+69 3 32 39 57 
+24 4 -1 -2 -3 -4 
+72 1 -3 
+27 2 -1 -2 
+43 1 39 
+Constructors: 2
+66 57
+43 39
+
+Summary: 8
+-4 32 39 57 -3 -1 76 -2 
+org/apache/xerces/dom/DocumentImpl.insertedNode(Lorg/apache/xerces/dom/NodeImpl;Lorg/apache/xerces/dom/NodeImpl;Z)V
+PTG:
+Vars:
+23
+$r8 1 72 
+$r22 1 200 
+$r2 2 200 222 
+$r3 1 227 
+$r5 1 227 
+r0 1 -1 
+$r26 1 156 
+$r7 1 72 
+r4 1 -3 
+$r23 1 22 
+$r15 1 85 
+$r9 4 123 85 139 -2 
+$r13 1 72 
+$r24 1 156 
+r19 1 58 
+r21 4 123 85 139 -2 
+r17 1 12 
+r20 4 123 85 139 -2 
+$r14 1 82 
+$r10 1 123 
+r6 1 -2 
+$r25 1 22 
+$r1 1 200 
+Fields: 3
+72 node 82
+-1 savedEnclosingAttr 72
+-1 ranges 200
+Accesses: 10
+0 1 -1 
+192 1 -1 
+71 1 -1 
+199 1 -1 
+60 1 58 
+221 1 -1 
+14 1 12 
+78 1 -1 
+206 1 -1 
+79 1 72 
+Functions: 17
+160 1 156 
+196 5 -1 -2 82 72 200 
+134 4 -2 85 123 139 
+7 0 
+42 2 -2 22 
+234 2 -3 227 
+109 4 -2 85 123 139 
+207 1 200 
+176 1 156 
+49 6 -1 82 -3 22 72 200 
+82 1 82 
+146 4 -2 85 123 139 
+53 0 
+183 6 -1 82 -3 72 200 156 
+120 4 -2 85 123 139 
+26 1 22 
+222 2 200 222 
+Constructors: 2
+160 156
+26 22
+
+Summary: 11
+123 85 -3 227 22 12 139 58 -1 -2 156 
+org/apache/xerces/dom/DocumentImpl.renamedElement(Lorg/w3c/dom/Element;Lorg/w3c/dom/Element;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-3 -1 -2 
+org/apache/xerces/dom/DocumentImpl.replacedCharacterData(Lorg/apache/xerces/dom/NodeImpl;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 4
+-4 -3 -1 -2 
+org/apache/xerces/dom/DocumentImpl.saveEnclosingAttr(Lorg/apache/xerces/dom/NodeImpl;)V
+PTG:
+Vars:
+3
+r1 1 10 
+r2 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+2 1 -1 
+11 1 10 
+75 1 -1 
+Functions: 6
+99 0 
+5 0 
+85 0 
+28 0 
+45 1 -1 
+63 0 
+Constructors: 0
+
+Summary: 3
+10 0 -1 
+org/apache/xerces/dom/DocumentImpl.<init>(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+2 1 -1 
+Constructors: 1
+2 -1
+
+Summary: 0
+
+org/apache/xerces/dom/DocumentImpl.dispatchEventToSubtree(Lorg/w3c/dom/Node;Lorg/w3c/dom/events/Event;)V
+PTG:
+Vars:
+7
+$r6 1 43 
+r1 1 -3 
+$r4 1 62 
+r3 1 -1 
+r5 1 25 
+$r2 1 -2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 8
+49 3 -1 -3 43 
+19 1 -2 
+68 3 -1 -3 62 
+5 2 -2 -3 
+40 1 25 
+9 1 -2 
+26 1 25 
+61 1 -2 
+Constructors: 0
+
+Summary: 7
+1 43 62 -3 0 -1 25 
+org/apache/xerces/dom/DocumentImpl.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 0
+
+org/apache/xerces/dom/DocumentImpl.replacedText(Lorg/apache/xerces/dom/NodeImpl;)V
+PTG:
+Vars:
+7
+r5 1 -2 
+$r3 2 21 1 
+$r4 1 25 
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+$r6 1 25 
+Fields: 1
+-1 ranges 1
+Accesses: 3
+0 1 -1 
+20 1 -1 
+7 1 -1 
+Functions: 3
+32 2 -2 25 
+21 2 1 21 
+8 1 1 
+Constructors: 0
+
+Summary: 4
+0 -1 -2 25 
+org/apache/xerces/dom/DocumentImpl.dispatchAggregateEvents(Lorg/apache/xerces/dom/NodeImpl;Lorg/apache/xerces/dom/DocumentImpl$EnclosingAttr;)V
+PTG:
+Vars:
+5
+r0 1 -3 
+$r3 1 11 
+r1 1 -1 
+$r4 1 7 
+r2 1 -2 
+Fields: 2
+-3 oldvalue 11
+-3 node 7
+Accesses: 2
+6 1 -3 
+10 1 -3 
+Functions: 2
+26 2 -1 -2 
+15 4 -1 -2 7 11 
+Constructors: 0
+
+Summary: 7
+11 1 7 -3 0 -1 -2 
+org/apache/xerces/dom/DocumentImpl.getEventListeners(Lorg/apache/xerces/dom/NodeImpl;)Ljava/util/Vector;
+PTG:
+Vars:
+7
+_ret 1 14 
+r0 1 -1 
+$r3 1 1 
+r2 1 -2 
+$r4 1 14 
+$r1 1 1 
+$r5 1 14 
+Fields: 1
+-1 eventListeners 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/dom/DocumentImpl.removeRange(Lorg/w3c/dom/ranges/Range;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -1 
+$r3 1 6 
+$r2 1 6 
+Fields: 1
+-1 ranges 6
+Accesses: 2
+5 1 -1 
+13 1 -1 
+Functions: 1
+18 2 -2 6 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/dom/DocumentImpl.copyEventListeners(Lorg/apache/xerces/dom/NodeImpl;Lorg/apache/xerces/dom/NodeImpl;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+$r5 1 14 
+$r4 1 14 
+r2 1 5 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+20 3 -1 -3 14 
+13 1 5 
+Constructors: 0
+
+Summary: 5
+14 -3 -1 -2 5 

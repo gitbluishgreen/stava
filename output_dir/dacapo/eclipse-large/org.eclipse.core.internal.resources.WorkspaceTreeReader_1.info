@@ -1,0 +1,451 @@
+12
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.readSnapshotTree(Ljava/io/DataInputStream;Lorg/eclipse/core/internal/watson/ElementTree;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/internal/watson/ElementTree;
+PTG:
+Vars:
+18
+$r0 1 20 
+$r2 1 25 
+$r6 2 25 74 
+r1 1 -1 
+$r7 1 79 
+r13 2 -3 57 
+r4 1 -2 
+r14 1 -4 
+$r8 1 -1 
+r21 1 127 
+$r12 1 -1 
+r18 1 88 
+$r10 1 -1 
+$r11 1 129 
+$r3 1 28 
+r16 1 8 
+$r5 1 44 
+r15 1 4 
+Fields: 1
+-1 workspace 25
+Accesses: 2
+24 1 -1 
+73 1 -1 
+Functions: 16
+0 1 -4 
+66 2 -1 25 
+103 1 -2 
+42 1 4 
+77 2 25 74 
+141 3 -1 129 127 
+15 2 4 8 
+47 4 -1 -2 25 44 
+79 5 -2 -3 4 57 79 
+50 4 -2 -3 20 57 
+114 1 4 
+148 1 4 
+25 1 25 
+58 1 -2 
+91 1 4 
+31 2 20 28 
+Constructors: 2
+141 129
+31 20
+
+Summary: 11
+20 -2 4 0 44 -4 1 28 79 2 -1 
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.<init>(Lorg/eclipse/core/internal/resources/Workspace;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.linkBuildersToTrees(Ljava/util/List;[Lorg/eclipse/core/internal/watson/ElementTree;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+22
+r6 1 -1 
+r20 1 87 
+$r7 1 51 
+r19 1 5 
+r9 1 64 
+$r3 1 34 
+$r14 2 51 136 
+r4 1 -3 
+r2 1 22 
+$r8 1 54 
+$r1 1 22 
+r18 1 -5 
+$r11 1 70 
+$r13 1 139 
+r23 1 149 
+$r10 2 67 51 
+$r22 1 104 
+$r5 1 87 
+r21 1 85 
+r0 1 -2 
+$r15 1 155 
+$r12 2 51 136 
+Fields: 3
+-3 ArrayObject 104
+-1 workspace 51
+-1 workspace 136
+Accesses: 4
+50 1 -1 
+66 1 -1 
+135 1 -1 
+151 1 -1 
+Functions: 19
+0 1 -5 
+32 1 22 
+34 2 34 85 
+162 3 149 87 155 
+67 2 67 51 
+136 2 51 136 
+105 2 22 104 
+139 2 85 139 
+172 1 5 
+77 3 64 70 87 
+80 1 22 
+112 2 22 87 
+19 1 -2 
+51 1 51 
+54 2 85 54 
+182 1 5 
+152 2 51 136 
+121 1 -2 
+92 1 87 
+Constructors: 1
+92 87
+
+Summary: 18
+-3 -2 54 70 155 5 0 87 64 1 149 3 34 -5 22 139 -1 85 
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.readBuilderInfo(Lorg/eclipse/core/resources/IProject;Ljava/io/DataInputStream;I)Lorg/eclipse/core/internal/events/BuilderPersistentInfo;
+PTG:
+Vars:
+7
+r5 2 16 4 
+r1 1 -2 
+r2 1 22 
+r4 1 -1 
+_ret 1 24 
+r0 1 -3 
+$r3 1 24 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -3 
+33 4 16 4 22 24 
+18 1 -3 
+10 1 -2 
+Constructors: 1
+33 24
+
+Summary: 8
+-3 16 -2 4 22 0 -1 1 
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.readTree(Ljava/io/DataInputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+18
+$r11 1 118 
+$r13 1 139 
+$r6 1 74 
+r23 1 8 
+$r15 1 162 
+r1 1 -2 
+$r7 1 81 
+$r8 1 84 
+r14 1 145 
+r0 1 -1 
+$r3 1 36 
+r21 1 -3 
+$r4 1 47 
+$r12 1 125 
+$r9 1 92 
+r22 1 4 
+$r2 1 30 
+$r16 1 190 
+Fields: 1
+-1 workspace 81
+Accesses: 1
+80 1 -1 
+Functions: 23
+0 1 -3 
+33 4 -1 81 -2 30 
+161 1 4 
+193 5 -1 81 145 92 190 
+98 1 92 
+165 5 -1 81 145 162 47 
+232 1 4 
+73 1 4 
+42 1 36 
+138 1 4 
+13 2 4 8 
+77 6 -1 81 -2 36 74 47 
+173 1 47 
+81 1 81 
+53 1 47 
+117 1 4 
+216 0 
+89 2 84 36 
+121 5 -1 81 -2 118 92 
+124 5 -1 81 -2 139 125 
+29 1 4 
+189 1 4 
+223 1 4 
+Constructors: 3
+98 92
+53 47
+42 36
+
+Summary: 17
+-3 -2 4 145 0 30 92 84 1 162 47 118 74 139 36 190 -1 
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.readTree(Lorg/eclipse/core/resources/IProject;Ljava/io/DataInputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+18
+r22 1 86 
+$r12 1 165 
+$r11 1 142 
+$r13 1 168 
+r0 1 -3 
+$r4 1 71 
+r20 1 8 
+$r6 1 93 
+$r7 1 115 
+$r8 1 120 
+$r9 2 129 129 
+r2 1 -1 
+r3 1 -2 
+r18 1 -4 
+r19 1 4 
+r1 1 28 
+r21 1 43 
+$r5 1 80 
+Fields: 3
+28 ArrayObject 129
+86 ArrayObject 142
+-1 workspace 165
+Accesses: 1
+164 1 -1 
+Functions: 19
+0 1 -4 
+64 1 4 
+131 3 129 115 120 
+69 5 -1 80 -3 165 71 
+165 1 165 
+70 1 -2 
+39 1 -3 
+104 1 93 
+78 1 4 
+174 3 -2 168 93 
+206 0 
+15 2 4 8 
+143 2 115 142 
+179 1 4 
+20 1 -3 
+213 1 4 
+150 2 115 93 
+119 1 -2 
+222 1 4 
+Constructors: 2
+131 115
+104 93
+
+Summary: 16
+80 115 -3 86 93 1 28 71 -2 0 120 -4 129 2 -1 168 
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.readTrees(Lorg/eclipse/core/runtime/IPath;Ljava/io/DataInputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/internal/watson/ElementTree;
+PTG:
+Vars:
+17
+r8 1 -2 
+r6 1 -3 
+r2 1 -1 
+r7 1 41 
+r19 1 4 
+r0 1 8 
+$r12 1 24 
+$r15 1 24 
+$r3 1 24 
+$r14 1 78 
+$r9 1 24 
+$r16 1 -1 
+r18 1 -4 
+$r13 1 75 
+$r4 1 27 
+$r1 1 19 
+r11 1 67 
+Fields: 3
+24 tree 75
+41 ArrayObject 67
+-1 workspace 24
+Accesses: 6
+96 1 -1 
+84 1 -1 
+23 1 -1 
+71 1 -1 
+72 1 24 
+90 1 24 
+Functions: 13
+0 1 -4 
+129 1 4 
+35 2 -3 19 
+103 5 -2 67 24 41 75 
+75 1 75 
+108 1 4 
+45 1 4 
+14 2 4 8 
+81 2 67 78 
+50 1 -2 
+118 1 4 
+24 2 24 75 
+30 2 19 27 
+Constructors: 1
+30 19
+
+Summary: 10
+-3 -2 0 19 -4 1 2 78 -1 27 
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.readPluginsSavedStates(Ljava/io/DataInputStream;Ljava/util/HashMap;Ljava/util/List;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+9
+r3 1 -1 
+r11 1 -5 
+r8 1 -4 
+r1 1 23 
+$r2 1 25 
+r0 1 -2 
+r12 1 5 
+r6 1 -3 
+$r4 1 30 
+Fields: 1
+-1 workspace 30
+Accesses: 1
+29 1 -1 
+Functions: 8
+0 1 -5 
+19 1 -2 
+37 3 23 25 30 
+54 2 -4 25 
+7 1 -2 
+87 1 5 
+77 1 5 
+47 3 -3 23 25 
+Constructors: 1
+37 25
+
+Summary: 12
+-3 -2 23 25 5 0 -4 1 3 2 -5 -1 
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.linkPluginsSavedStateToTrees(Ljava/util/List;[Lorg/eclipse/core/internal/watson/ElementTree;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+12
+r0 1 -2 
+r13 1 4 
+r3 1 -1 
+r2 1 14 
+$r9 1 51 
+r5 1 31 
+$r7 1 37 
+r8 1 -3 
+$r6 1 37 
+r12 1 -4 
+$r4 1 25 
+$r1 1 14 
+Fields: 3
+-3 ArrayObject 51
+14 pluginId 37
+-1 workspace 25
+Accesses: 4
+35 1 14 
+52 1 14 
+24 1 -1 
+60 1 14 
+Functions: 8
+0 1 -4 
+33 2 37 31 
+65 2 37 31 
+97 1 4 
+88 1 4 
+25 1 25 
+73 1 -2 
+11 1 -2 
+Constructors: 0
+
+Summary: 11
+-3 -2 4 0 -4 1 37 14 2 31 -1 
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.readBuildersPersistentInfo(Lorg/eclipse/core/resources/IProject;Ljava/io/DataInputStream;Ljava/util/List;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+7
+r0 1 -3 
+r7 1 -5 
+r8 1 5 
+r3 1 -2 
+r2 1 -1 
+r1 1 -4 
+$r4 1 25 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -5 
+51 1 5 
+20 3 -1 -2 -3 
+7 1 -3 
+28 2 -4 25 
+61 1 5 
+Constructors: 0
+
+Summary: 10
+3 -3 -2 25 5 2 -5 -1 -4 1 
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.readWorkspaceFields(Ljava/io/DataInputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+9
+r1 1 -2 
+r10 1 4 
+$r4 1 6 
+$r5 1 36 
+$r6 1 36 
+r9 1 -3 
+r0 1 -1 
+$r3 1 6 
+$r2 1 6 
+Fields: 1
+-1 workspace 6
+Accesses: 5
+32 1 -1 
+5 1 -1 
+21 1 -1 
+13 1 6 
+29 1 6 
+Functions: 8
+0 1 -3 
+17 1 -2 
+33 1 6 
+51 1 4 
+9 1 -2 
+25 1 -2 
+43 2 -2 36 
+59 1 4 
+Constructors: 0
+
+Summary: 7
+-3 -2 4 0 -1 36 1 
+org/eclipse/core/internal/resources/WorkspaceTreeReader_1.getVersion()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

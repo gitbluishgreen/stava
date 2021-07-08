@@ -1,0 +1,417 @@
+13
+org/h2/result/RowList.close()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 1 
+$r2 1 1 
+$r1 1 1 
+Fields: 1
+-1 file 1
+Accesses: 5
+0 1 -1 
+7 1 -1 
+23 1 -1 
+28 1 -1 
+14 1 -1 
+Functions: 2
+18 1 1 
+11 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/RowList.hasNext()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/RowList.flushBuffer(Lorg/h2/store/DataPage;)V
+PTG:
+Vars:
+4
+$r2 1 31 
+$r3 1 35 
+r0 1 -2 
+r1 1 -1 
+Fields: 1
+-1 file 31
+Accesses: 1
+30 1 -1 
+Functions: 9
+16 1 -2 
+2 1 -2 
+34 1 -2 
+7 1 -2 
+23 1 -2 
+39 1 -2 
+11 1 -2 
+27 1 -2 
+43 2 35 31 
+Constructors: 0
+
+Summary: 4
+35 -1 -2 0 
+org/h2/result/RowList.writeAllRows()V
+PTG:
+Vars:
+18
+r13 1 37 
+$r7 1 1 
+$r1 1 1 
+r4 1 133 
+$r5 1 8 
+$r10 1 24 
+$r2 1 1 
+$r16 1 95 
+$r11 1 27 
+r12 1 14 
+$r6 1 44 
+r0 1 -1 
+r14 1 85 
+$r3 1 95 
+$r9 1 1 
+$r8 1 65 
+$r15 1 95 
+$r17 1 133 
+Fields: 4
+-1 file 1
+-1 list 95
+-1 rowBuff 85
+-1 session 8
+Accesses: 13
+0 1 -1 
+128 1 -1 
+68 1 -1 
+164 1 -1 
+7 1 -1 
+71 1 -1 
+173 1 -1 
+47 1 -1 
+81 1 -1 
+50 1 -1 
+157 1 -1 
+30 1 -1 
+94 1 -1 
+Functions: 19
+33 1 14 
+129 1 95 
+161 1 1 
+39 2 37 14 
+8 1 8 
+168 1 95 
+108 1 85 
+78 1 1 
+15 1 14 
+143 6 -1 1 85 133 8 95 
+23 1 14 
+24 1 24 
+88 5 -1 1 85 8 95 
+120 5 -1 1 85 8 95 
+57 1 1 
+154 5 -1 1 85 8 95 
+125 5 -1 1 85 8 95 
+62 1 14 
+95 1 95 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/RowList.invalidateCache()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/RowList.next()Lorg/h2/result/Row;
+PTG:
+Vars:
+17
+$r8 1 75 
+$r3 1 37 
+r0 1 -1 
+r6 1 62 
+$r15 1 22 
+$r12 1 1 
+$r5 1 37 
+r16 2 22 182 
+_ret 2 22 182 
+$r7 1 1 
+$r14 1 8 
+$r9 1 37 
+$r13 1 110 
+$r1 1 1 
+$r2 1 37 
+r17 1 135 
+$r4 1 182 
+Fields: 4
+-1 file 1
+-1 list 8
+-1 list 37
+-1 rowBuff 62
+Accesses: 17
+0 1 -1 
+32 1 -1 
+36 1 -1 
+164 1 -1 
+70 1 -1 
+7 1 -1 
+167 1 -1 
+105 1 -1 
+11 1 -1 
+171 1 -1 
+46 1 -1 
+143 1 -1 
+19 1 -1 
+179 1 -1 
+55 1 -1 
+58 1 -1 
+157 1 -1 
+Functions: 14
+64 1 62 
+130 5 -1 1 37 8 62 
+37 1 37 
+8 1 8 
+168 1 37 
+74 1 62 
+109 1 62 
+80 2 1 75 
+50 1 37 
+83 1 62 
+148 2 37 135 
+118 2 1 110 
+124 1 62 
+95 1 62 
+Constructors: 0
+
+Summary: 3
+-1 75 110 
+org/h2/result/RowList.initBuffer(Lorg/h2/store/DataPage;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+6 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/result/RowList.writeRow(Lorg/h2/store/DataPage;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+10
+$r2 1 144 
+r0 1 -2 
+$r4 1 159 
+r9 1 90 
+r8 2 177 90 
+$r6 1 166 
+$r5 1 159 
+r3 1 -1 
+r1 1 -3 
+r10 1 177 
+Fields: 1
+-1 lobs 159
+Accesses: 3
+179 1 -1 
+169 1 -1 
+158 1 -1 
+Functions: 31
+64 1 -2 
+-1 0 
+193 3 -2 177 90 
+3 1 -2 
+68 1 -3 
+199 1 -2 
+8 1 -2 
+72 1 -2 
+12 1 -3 
+205 3 -2 177 90 
+78 1 -3 
+142 1 90 
+16 1 -2 
+20 1 -3 
+85 1 -3 
+150 1 90 
+24 1 -2 
+28 1 -3 
+94 1 -2 
+32 1 -2 
+36 1 -3 
+40 1 -2 
+104 1 -2 
+44 1 -3 
+172 1 90 
+112 1 -2 
+115 2 177 90 
+56 1 -2 
+185 2 177 159 
+60 1 -3 
+125 2 177 90 
+Constructors: 0
+
+Summary: 4
+-1 -2 -3 0 
+org/h2/result/RowList.size()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/RowList.add(Lorg/h2/result/Row;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 list 1
+Accesses: 8
+0 1 -1 
+32 1 -1 
+18 1 -1 
+50 1 -1 
+21 1 -1 
+8 1 -1 
+43 1 -1 
+28 1 -1 
+Functions: 3
+5 2 1 -2 
+40 2 -1 1 
+13 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/h2/result/RowList.readRow(Lorg/h2/store/DataPage;)Lorg/h2/result/Row;
+PTG:
+Vars:
+11
+r0 1 -2 
+$r3 1 155 
+r8 1 100 
+r6 1 100 
+r1 1 -1 
+$r7 1 126 
+r2 1 69 
+r9 1 173 
+$r10 1 186 
+$r4 1 155 
+_ret 1 186 
+Fields: 2
+-1 cache 155
+-1 session 126
+Accesses: 4
+161 1 -1 
+154 1 -1 
+125 1 -1 
+31 1 -1 
+Functions: 20
+0 1 -2 
+96 1 -2 
+193 2 69 186 
+162 1 155 
+131 2 100 126 
+102 1 100 
+230 1 186 
+9 1 -2 
+41 1 -2 
+202 1 186 
+14 1 -2 
+209 1 186 
+19 1 -2 
+83 1 -2 
+117 1 100 
+56 1 -2 
+216 1 186 
+25 1 -2 
+62 1 -2 
+223 1 186 
+Constructors: 1
+193 186
+
+Summary: 5
+-1 -2 69 0 100 
+org/h2/result/RowList.<init>(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+5
+$r3 1 23 
+r0 1 -1 
+$r1 1 5 
+$r4 1 34 
+r2 1 -2 
+Fields: 0
+Accesses: 3
+8 1 -1 
+40 1 -1 
+13 1 -1 
+Functions: 6
+-1 0 
+1 1 -1 
+33 1 -2 
+34 1 34 
+22 1 -2 
+23 1 23 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 0 
+org/h2/result/RowList.reset()V
+PTG:
+Vars:
+4
+$r1 1 6 
+$r2 1 34 
+r0 1 -1 
+$r3 1 6 
+Fields: 2
+-1 file 6
+-1 list 34
+Accesses: 7
+17 1 -1 
+33 1 -1 
+2 1 -1 
+5 1 -1 
+40 1 -1 
+14 1 -1 
+30 1 -1 
+Functions: 3
+37 1 34 
+25 3 -1 34 6 
+47 1 6 
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,1008 @@
+24
+net/sourceforge/pmd/PMD.<init>()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 23 
+$r3 1 26 
+$r1 1 11 
+Fields: 1
+-1 excludeMarker 7
+Accesses: 3
+18 1 -1 
+7 1 -1 
+29 1 -1 
+Functions: 4
+1 2 -1 7 
+22 2 -1 7 
+23 1 23 
+15 1 11 
+Constructors: 2
+1 -1
+15 11
+
+Summary: 3
+-1 7 23 
+net/sourceforge/pmd/PMD.doPMD(Lnet/sourceforge/pmd/CommandLineOptions;)V
+PTG:
+Vars:
+58
+$r30 1 168 
+$r43 1 651 
+$r59 1 453 
+$r5 1 101 
+$r49 1 606 
+$r52 1 630 
+$r69 1 198 
+$r0 1 4 
+$r13 1 298 
+$r48 1 609 
+$r20 1 424 
+$r24 1 490 
+r68 5 95 151 195 179 123 
+$r18 1 377 
+$r29 1 284 
+r10 1 247 
+$r53 1 582 
+$r45 1 -1 
+$r11 1 249 
+r19 1 383 
+r2 1 -2 
+$r14 1 302 
+$r15 1 342 
+$r56 1 543 
+$r26 1 517 
+$r3 1 49 
+$r32 1 112 
+$r16 1 356 
+$r57 1 -1 
+$r4 1 73 
+$r25 1 502 
+$r34 1 36 
+$r33 1 84 
+$r60 1 466 
+$r51 1 623 
+$r31 1 140 
+r71 2 298 275 
+$r8 1 184 
+$r46 1 596 
+$r7 1 157 
+r67 2 43 56 
+$r12 1 269 
+$r28 1 279 
+r77 1 575 
+$r6 1 129 
+$r22 1 436 
+$r54 1 -1 
+$r47 1 593 
+$r42 1 -1 
+$r50 1 619 
+r9 1 204 
+$r61 1 470 
+$r27 1 275 
+$r23 1 440 
+$r44 1 656 
+$r58 1 456 
+$r55 1 538 
+$r21 1 432 
+Fields: 0
+Accesses: 0
+Functions: 95
+0 0 
+128 1 -2 
+129 1 129 
+387 1 383 
+643 2 275 298 
+516 1 -2 
+262 2 247 249 
+390 0 
+8 1 4 
+268 1 -2 
+13 1 -2 
+654 1 -1 
+17 1 4 
+145 1 140 
+402 0 
+530 2 275 298 
+659 2 656 651 
+21 1 -2 
+405 1 -2 
+662 0 
+25 1 4 
+283 1 -2 
+28 1 -2 
+156 1 -2 
+157 1 157 
+541 1 -1 
+287 2 279 284 
+290 2 275 279 
+546 2 538 543 
+35 1 -2 
+419 1 -2 
+675 0 
+549 0 
+39 2 36 4 
+423 1 -2 
+427 1 -2 
+683 1 -2 
+173 1 168 
+431 1 -2 
+48 1 -2 
+305 2 298 302 
+562 0 
+435 1 -2 
+52 2 49 4 
+439 1 -2 
+697 2 275 298 
+58 0 
+314 3 275 247 298 
+570 1 -1 
+189 1 184 
+445 15 195 356 424 43 204 432 179 436 342 151 56 440 249 123 95 
+321 1 247 
+708 0 
+69 0 
+197 1 -2 
+198 1 198 
+326 0 
+72 1 -2 
+73 1 73 
+713 0 
+587 2 582 575 
+716 0 
+463 3 -1 453 456 
+339 0 
+469 1 -2 
+89 1 84 
+473 2 466 470 
+729 0 
+346 1 342 
+603 3 -1 593 596 
+476 0 
+221 0 
+351 0 
+227 1 -2 
+483 1 247 
+100 1 -2 
+101 1 101 
+231 0 
+360 1 356 
+616 3 -1 609 606 
+493 3 275 298 490 
+238 0 
+622 1 -2 
+367 1 -2 
+498 2 275 298 
+626 2 619 623 
+243 1 -2 
+371 1 356 
+117 1 112 
+501 1 -2 
+629 1 -2 
+374 2 356 377 
+376 1 -2 
+253 1 249 
+510 2 275 298 
+Constructors: 7
+305 298
+290 275
+8 4
+360 356
+346 342
+253 249
+287 279
+
+Summary: 9
+249 0 298 275 -2 4 342 356 279 
+net/sourceforge/pmd/PMD.processFiles(ILnet/sourceforge/pmd/RuleSetFactory;Lnet/sourceforge/pmd/SourceType;Ljava/util/List;Lnet/sourceforge/pmd/RuleContext;Ljava/util/List;ZLjava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+PTG:
+Vars:
+79
+r14 1 -7 
+$r39 1 785 
+r66 1 90 
+$r50 1 718 
+$r12 1 586 
+r88 1 523 
+r98 1 850 
+$r26 1 72 
+$r48 1 708 
+$r25 1 618 
+r97 1 836 
+$r24 1 615 
+$r15 1 674 
+$r45 1 763 
+r74 1 229 
+r72 1 179 
+r82 1 416 
+$r32 1 337 
+$r8 1 523 
+r68 1 107 
+$r36 1 -1 
+r69 1 121 
+r78 1 323 
+$r20 1 598 
+$r54 1 -1 
+r89 1 544 
+r73 1 214 
+r91 1 638 
+r17 1 -12 
+r5 1 -13 
+$r60 1 -1 
+r70 1 142 
+r79 1 337 
+$r27 1 92 
+$r49 1 711 
+$r33 1 121 
+$r38 1 788 
+$r62 1 -1 
+$r40 1 800 
+r7 1 -9 
+$r11 1 571 
+r92 1 652 
+r4 1 -4 
+$r9 1 546 
+$r13 1 583 
+$r16 1 680 
+$r1 1 30 
+$r43 1 751 
+$r44 1 748 
+$r21 1 595 
+$r34 1 144 
+r10 1 -6 
+$r37 1 -1 
+$r22 1 607 
+r81 1 402 
+$r3 1 465 
+$r46 1 769 
+r85 1 496 
+$r18 1 850 
+$r51 1 726 
+r35 1 -14 
+$r29 1 430 
+$r53 1 -1 
+r87 1 509 
+$r55 1 -1 
+$r28 1 416 
+r0 1 -5 
+$r19 1 652 
+$r47 1 -1 
+$r42 1 -1 
+r2 1 -11 
+$r52 1 732 
+r63 1 58 
+r6 1 -3 
+$r41 1 806 
+$r30 1 214 
+$r31 1 229 
+$r61 1 244 
+$r23 1 612 
+Fields: 0
+Accesses: 0
+Functions: 89
+-1 0 
+640 1 638 
+131 2 121 -11 
+387 2 -6 58 
+390 0 
+774 3 544 769 763 
+264 0 
+521 1 509 
+777 2 546 763 
+650 1 638 
+395 1 -7 
+404 1 402 
+533 2 -11 523 
+23 1 -5 
+666 2 523 652 
+795 3 -1 785 788 
+414 1 402 
+804 1 -1 
+165 10 144 -4 -7 -9 121 90 -12 -13 -14 142 
+38 2 -11 30 
+550 1 546 
+678 1 523 
+41 2 -5 30 
+170 2 144 90 
+811 3 800 544 806 
+428 1 -6 
+685 2 674 680 
+814 2 800 546 
+559 2 546 -6 
+433 2 416 430 
+307 0 
+52 2 -3 -9 
+821 2 496 -6 
+566 2 544 -6 
+311 0 
+824 0 
+185 2 179 92 
+441 0 
+316 1 -7 
+700 5 496 465 674 -6 -12 
+829 1 -7 
+577 2 544 571 
+196 1 90 
+580 2 -6 571 
+69 2 -6 58 
+325 1 323 
+454 0 
+838 1 836 
+583 2 583 586 
+201 1 92 
+716 1 -1 
+79 3 -3 -6 72 
+335 1 323 
+848 1 836 
+721 3 708 711 718 
+211 1 92 
+85 1 72 
+469 1 465 
+598 1 598 
+602 1 598 
+730 1 -1 
+477 2 465 -4 
+351 2 337 229 
+607 2 612 607 
+96 1 92 
+864 2 850 546 
+737 3 544 726 732 
+610 1 -6 
+227 1 214 
+484 2 465 -13 
+740 2 546 726 
+101 1 -5 
+359 0 
+615 1 615 
+872 0 
+490 2 -3 -9 
+109 1 107 
+621 2 595 618 
+372 0 
+628 2 496 -6 
+885 0 
+758 3 -1 748 751 
+119 1 107 
+247 1 244 
+503 1 -5 
+631 1 -7 
+253 1 214 
+511 1 509 
+767 1 -1 
+Constructors: 12
+96 92
+577 571
+737 726
+165 144
+469 465
+38 30
+550 546
+774 763
+602 598
+811 800
+685 674
+79 72
+
+Summary: 30
+674 12 9 72 30 -7 3 -4 763 11 -9 5 -3 546 726 -5 800 4 -14 7 92 10 -11 571 -12 144 465 -13 -6 1 
+net/sourceforge/pmd/PMD.processFile(Ljava/io/InputStream;Ljava/lang/String;Lnet/sourceforge/pmd/RuleSet;Lnet/sourceforge/pmd/RuleContext;)V
+PTG:
+Vars:
+6
+r3 1 -3 
+$r1 1 1 
+r5 1 -5 
+r2 1 -2 
+r0 1 -1 
+r4 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 8
+48 0 
+34 0 
+37 0 
+7 3 1 -2 -3 
+25 0 
+42 0 
+13 4 -1 1 -4 -5 
+29 0 
+Constructors: 1
+7 1
+
+Summary: 11
+-5 45 -2 1 25 39 34 -3 42 -1 -4 
+net/sourceforge/pmd/PMD.processFile(Ljava/io/Reader;Lnet/sourceforge/pmd/RuleSets;Lnet/sourceforge/pmd/RuleContext;)V
+PTG:
+Vars:
+6
+r3 1 8 
+r0 1 -1 
+r4 1 -2 
+r5 1 -3 
+r1 1 -4 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 2 
+16 5 -1 -2 -3 -4 8 
+1 1 -4 
+Constructors: 0
+
+Summary: 7
+0 -3 -2 -1 -4 2 1 
+net/sourceforge/pmd/PMD.printRuleNamesInDebug(Lnet/sourceforge/pmd/RuleSets;)V
+PTG:
+Vars:
+13
+$r9 1 53 
+$r11 1 62 
+$r10 1 57 
+$r3 1 13 
+$r0 1 3 
+$r5 1 32 
+$r8 1 41 
+$r7 1 44 
+r4 1 21 
+r2 1 -2 
+r6 1 32 
+$r12 1 65 
+$r1 1 0 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 2 0 3 
+48 1 44 
+68 2 65 41 
+53 2 53 57 
+22 1 21 
+56 1 32 
+12 1 -2 
+44 1 44 
+13 1 13 
+62 1 62 
+31 1 21 
+Constructors: 1
+48 44
+
+Summary: 2
+-2 0 
+net/sourceforge/pmd/PMD.setJavaVersion(Lnet/sourceforge/pmd/SourceType;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 sourceTypeDiscoverer 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+net/sourceforge/pmd/PMD.processFile(Ljava/io/Reader;Lnet/sourceforge/pmd/RuleSets;Lnet/sourceforge/pmd/RuleContext;Lnet/sourceforge/pmd/SourceType;)V
+PTG:
+Vars:
+19
+r0 1 -3 
+$r10 1 65 
+r12 1 127 
+$r13 1 221 
+r9 1 52 
+r3 1 -2 
+r37 1 16 
+r6 1 -1 
+$r8 1 52 
+$r15 1 190 
+$r17 1 145 
+$r2 1 2 
+$r16 1 193 
+r1 1 -4 
+$r11 1 95 
+r4 1 -5 
+$r7 1 36 
+$r36 1 -1 
+r5 1 31 
+Fields: 2
+-1 excludeMarker 36
+-1 classLoader 190
+Accesses: 2
+35 1 -1 
+189 1 -1 
+Functions: 47
+0 2 -3 2 
+1 1 -4 
+129 2 -3 127 
+325 0 
+70 2 65 -4 
+200 2 193 52 
+73 0 
+138 0 
+11 1 -5 
+267 0 
+332 1 -2 
+205 0 
+143 1 16 
+271 0 
+276 0 
+21 2 -4 -5 
+85 0 
+279 1 -4 
+24 1 16 
+88 0 
+152 2 145 52 
+218 0 
+283 0 
+93 1 16 
+157 0 
+225 1 221 
+291 0 
+102 2 52 95 
+39 2 36 31 
+170 0 
+234 2 52 221 
+107 0 
+44 0 
+173 2 -3 127 
+301 0 
+49 2 -2 31 
+305 0 
+182 0 
+246 4 -3 -4 221 127 
+310 0 
+119 0 
+313 1 -4 
+122 1 -5 
+250 1 -2 
+187 2 16 190 
+317 0 
+63 1 31 
+Constructors: 1
+225 221
+
+Summary: 10
+-5 221 -2 0 3 -1 -4 2 -3 1 
+net/sourceforge/pmd/PMD.main([Ljava/lang/String;)V
+PTG:
+Vars:
+12
+r10 1 66 
+$r13 1 115 
+$r0 1 4 
+$r9 1 60 
+$r20 2 20 26 
+r1 1 -2 
+$r4 1 31 
+$r12 1 85 
+$r11 1 68 
+$r6 1 40 
+$r7 1 47 
+$r14 1 118 
+Fields: 0
+Accesses: 0
+Functions: 21
+0 0 
+-1 0 
+161 0 
+35 1 31 
+131 1 40 
+100 0 
+9 2 -2 4 
+73 3 68 20 26 
+170 0 
+139 1 66 
+13 1 4 
+77 1 4 
+142 1 4 
+112 0 
+82 1 40 
+149 0 
+55 4 20 40 26 47 
+121 2 115 118 
+90 2 66 85 
+60 1 60 
+93 1 4 
+Constructors: 3
+35 31
+55 40
+9 4
+
+Summary: 6
+47 -2 4 0 -1 40 
+net/sourceforge/pmd/PMD.processFile(Ljava/io/Reader;Lnet/sourceforge/pmd/RuleSet;Lnet/sourceforge/pmd/RuleContext;)V
+PTG:
+Vars:
+5
+$r2 1 2 
+r4 1 -4 
+r3 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+7 2 2 -3 
+11 4 -1 -2 2 -4 
+Constructors: 1
+7 2
+
+Summary: 5
+-3 2 -2 -1 -4 
+net/sourceforge/pmd/PMD.setExcludeMarker(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+net/sourceforge/pmd/PMD.getClassLoader()Ljava/lang/ClassLoader;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 classLoader 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/PMD.createClasspathClassLoader(Ljava/lang/String;)Ljava/lang/ClassLoader;
+PTG:
+Vars:
+5
+_ret 2 10 5 
+r1 1 -2 
+r3 2 10 5 
+$r0 1 0 
+$r2 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 0 
+16 3 -2 5 10 
+Constructors: 1
+16 10
+
+Summary: 2
+0 -2 
+net/sourceforge/pmd/PMD.processFiles(ILnet/sourceforge/pmd/RuleSetFactory;Lnet/sourceforge/pmd/SourceType;Ljava/util/List;Lnet/sourceforge/pmd/RuleContext;Ljava/util/List;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+PTG:
+Vars:
+10
+r5 1 -8 
+r0 1 -3 
+r2 1 -5 
+r1 1 -4 
+r6 1 -10 
+r9 1 -13 
+r7 1 -11 
+r4 1 -7 
+r8 1 -12 
+r3 1 -6 
+Fields: 0
+Accesses: 0
+Functions: 1
+21 10 -3 -4 -5 -6 -7 -8 -10 -11 -12 -13 
+Constructors: 0
+
+Summary: 10
+-5 -10 -7 -3 -8 -4 -11 -13 -6 -12 
+net/sourceforge/pmd/PMD.access$000()Ljava/util/logging/Logger;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+net/sourceforge/pmd/PMD.processFile(Ljava/io/InputStream;Lnet/sourceforge/pmd/RuleSet;Lnet/sourceforge/pmd/RuleContext;)V
+PTG:
+Vars:
+5
+r4 1 -4 
+$r2 1 4 
+r1 1 -2 
+r3 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 0 
+9 5 -1 -2 -3 -4 4 
+Constructors: 0
+
+Summary: 5
+-3 4 -2 -1 -4 
+net/sourceforge/pmd/PMD.processFiles(Ljava/util/List;Lnet/sourceforge/pmd/RuleContext;Lnet/sourceforge/pmd/RuleSets;ZZLjava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+26
+r16 1 -1 
+r17 1 -8 
+r0 1 -2 
+$r11 1 78 
+r18 1 -4 
+$r15 1 96 
+$r10 1 74 
+$r22 1 131 
+$r9 1 62 
+$r20 1 121 
+$r19 1 -1 
+r6 1 -3 
+$r8 1 65 
+r1 1 6 
+r4 1 -7 
+r5 1 41 
+$r12 1 81 
+$r24 1 141 
+$r21 1 124 
+$r13 1 84 
+r3 1 20 
+$r23 1 138 
+$r25 1 147 
+$r14 1 90 
+$r2 1 20 
+$r7 1 50 
+Fields: 0
+Accesses: 0
+Functions: 22
+0 1 -2 
+65 1 65 
+129 1 -1 
+69 1 65 
+101 2 96 90 
+134 3 131 121 124 
+8 1 6 
+137 1 -3 
+74 2 74 78 
+77 1 -3 
+46 2 -3 41 
+81 1 81 
+113 5 -1 -3 -4 -8 90 
+145 1 -1 
+18 1 6 
+87 2 84 62 
+56 2 50 41 
+152 3 147 41 141 
+59 2 -3 50 
+155 2 138 141 
+30 2 20 -7 
+94 1 20 
+Constructors: 4
+69 65
+101 90
+56 50
+152 141
+
+Summary: 21
+-8 -2 78 84 50 -7 20 90 -1 -4 81 41 131 147 141 138 65 -3 74 96 6 
+net/sourceforge/pmd/PMD.setClassLoader(Ljava/lang/ClassLoader;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 2 -2 11 
+$r1 1 5 
+Fields: 0
+Accesses: 1
+14 1 -1 
+Functions: 2
+4 1 -1 
+5 1 5 
+Constructors: 0
+
+Summary: 3
+0 5 -1 
+net/sourceforge/pmd/PMD.getSourceTypeOfFile(Ljava/lang/String;)Lnet/sourceforge/pmd/SourceType;
+PTG:
+Vars:
+6
+r1 1 -2 
+_ret 2 20 8 
+r0 1 -1 
+$r2 1 1 
+$r3 1 1 
+r4 2 20 8 
+Fields: 1
+-1 sourceTypeDiscoverer 1
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 2
+1 2 1 -2 
+14 1 1 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+net/sourceforge/pmd/PMD.collectFromCommaDelimitedString(Ljava/lang/String;Lnet/sourceforge/pmd/SourceFileSelector;)Ljava/util/List;
+PTG:
+Vars:
+7
+$r5 1 28 
+$r7 1 32 
+_ret 1 0 
+$r0 1 0 
+$r2 1 8 
+r3 1 -2 
+r6 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 6
+19 1 8 
+35 2 0 32 
+4 1 0 
+27 1 8 
+15 2 -2 8 
+31 2 -3 28 
+Constructors: 2
+4 0
+15 8
+
+Summary: 5
+0 -3 -2 8 1 
+net/sourceforge/pmd/PMD.processFile(Ljava/io/InputStream;Ljava/lang/String;Lnet/sourceforge/pmd/RuleSets;Lnet/sourceforge/pmd/RuleContext;)V
+PTG:
+Vars:
+6
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+r5 1 -5 
+r4 1 -4 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 8
+48 0 
+34 0 
+37 0 
+7 3 1 -2 -3 
+25 0 
+42 0 
+13 4 -1 1 -4 -5 
+29 0 
+Constructors: 1
+7 1
+
+Summary: 10
+-5 -2 1 2 0 3 -3 -1 -4 1 
+net/sourceforge/pmd/PMD.collect(Ljava/lang/String;Lnet/sourceforge/pmd/SourceFileSelector;)Ljava/util/List;
+PTG:
+Vars:
+21
+$r14 1 126 
+$r6 1 228 
+$r50 1 277 
+$r47 1 199 
+r1 1 -2 
+$r39 1 0 
+$r49 1 231 
+$r48 1 216 
+r8 1 -3 
+r38 1 252 
+$r9 1 266 
+r10 1 266 
+r37 1 243 
+_ret 1 51 
+$r44 1 136 
+$r51 1 231 
+$r42 1 51 
+r34 1 113 
+$r43 1 84 
+r33 1 99 
+$r13 1 113 
+Fields: 0
+Accesses: 0
+Functions: 39
+66 1 -2 
+194 0 
+5 2 0 -2 
+264 1 252 
+9 1 0 
+75 1 -2 
+204 2 0 199 
+207 2 51 199 
+144 3 113 84 136 
+147 2 51 136 
+20 0 
+24 0 
+89 2 0 84 
+283 2 277 266 
+220 1 216 
+29 0 
+94 1 84 
+286 2 51 277 
+32 1 0 
+225 3 228 231 216 
+227 1 0 
+36 0 
+101 1 99 
+165 0 
+41 0 
+169 0 
+236 2 -3 231 
+47 0 
+111 1 99 
+175 0 
+178 1 0 
+245 1 243 
+182 0 
+55 1 51 
+59 1 0 
+123 2 -3 126 
+124 1 113 
+188 0 
+254 1 252 
+Constructors: 8
+144 136
+5 0
+55 51
+89 84
+283 277
+204 199
+220 216
+236 231
+
+Summary: 13
+266 199 -2 0 243 0 84 216 136 231 -3 277 1 
+net/sourceforge/pmd/PMD.collectFilesFromOneName(Ljava/lang/String;Lnet/sourceforge/pmd/SourceFileSelector;)Ljava/util/List;
+PTG:
+Vars:
+4
+_ret 1 2 
+r0 1 -2 
+r1 1 -3 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+0 -3 -2 1 
+net/sourceforge/pmd/PMD.<clinit>()V
+PTG:
+Vars:
+6
+$r4 1 -1 
+$r2 1 14 
+$r3 1 17 
+r5 1 29 
+$r0 1 6 
+$r1 1 12 
+Fields: 0
+Accesses: 0
+Functions: 5
+3 0 
+25 0 
+12 1 12 
+14 1 14 
+31 1 29 
+Constructors: 0
+
+Summary: 0
+

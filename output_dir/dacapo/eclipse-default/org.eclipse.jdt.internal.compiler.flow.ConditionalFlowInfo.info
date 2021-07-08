@@ -1,0 +1,753 @@
+35
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isDefinitelyAssigned(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 12 
+r1 1 -2 
+$r2 1 1 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isDefinitelyNonNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)Z
+PTG:
+Vars:
+4
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+$r3 1 12 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.markAsDefinitelyNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+$r3 1 9 
+Fields: 2
+-1 initsWhenFalse 9
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+5 2 1 -2 
+13 2 -2 9 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isProtectedNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)Z
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+$r3 1 12 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.markAsComparedEqualToNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+$r3 1 9 
+Fields: 2
+-1 initsWhenFalse 9
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+5 2 1 -2 
+13 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.copy()Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+7
+_ret 1 0 
+$r2 1 5 
+$r4 1 12 
+$r5 1 15 
+$r3 1 8 
+$r0 1 0 
+r1 1 -1 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 5
+Accesses: 2
+4 1 -1 
+11 1 -1 
+Functions: 3
+18 3 0 8 15 
+5 1 5 
+12 1 12 
+Constructors: 1
+18 0
+
+Summary: 3
+-1 15 8 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.markAsDefinitelyUnknown(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+$r3 1 9 
+Fields: 2
+-1 initsWhenFalse 9
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+5 2 1 -2 
+13 2 -2 9 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.addPotentialInitializationsFrom(Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+5
+r1 1 -2 
+_ret 1 -1 
+$r4 1 10 
+r0 1 -1 
+$r2 1 1 
+Fields: 2
+-1 initsWhenFalse 10
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+5 2 1 -2 
+14 2 -2 10 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.unconditionalInits()Lorg/eclipse/jdt/internal/compiler/flow/UnconditionalFlowInfo;
+PTG:
+Vars:
+7
+$r5 1 14 
+_ret 1 14 
+$r2 1 4 
+$r1 1 1 
+$r3 1 8 
+r0 1 -1 
+$r4 1 11 
+Fields: 2
+-1 initsWhenFalse 8
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+1 1 1 
+4 2 4 11 
+8 1 8 
+Constructors: 0
+
+Summary: 2
+-1 11 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.addInitializationsFrom(Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+5
+$r2 1 1 
+$r4 1 10 
+_ret 1 -1 
+r0 1 -1 
+r1 1 -2 
+Fields: 2
+-1 initsWhenFalse 10
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+5 2 1 -2 
+14 2 -2 10 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isPotentiallyAssigned(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+$r3 1 12 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isDefinitelyNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)Z
+PTG:
+Vars:
+4
+$r2 1 1 
+r0 1 -1 
+$r3 1 12 
+r1 1 -2 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isProtectedNonNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+$r3 1 12 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.safeInitsWhenTrue()Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 initsWhenTrue 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.initsWhenFalse()Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 initsWhenFalse 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isPotentiallyAssigned(Lorg/eclipse/jdt/internal/compiler/lookup/FieldBinding;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 12 
+r1 1 -2 
+$r2 1 1 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isPotentiallyNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 12 
+r1 1 -2 
+$r2 1 1 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.<init>(Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 1 0 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.mergedWith(Lorg/eclipse/jdt/internal/compiler/flow/UnconditionalFlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/UnconditionalFlowInfo;
+PTG:
+Vars:
+5
+r0 1 -1 
+_ret 1 5 
+$r3 1 5 
+$r1 1 1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.asNegatedCondition()Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+4
+r1 1 4 
+$r2 1 7 
+_ret 1 -1 
+r0 1 -1 
+Fields: 2
+-1 initsWhenFalse 7
+-1 initsWhenTrue 4
+Accesses: 4
+0 1 -1 
+6 1 -1 
+10 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.markAsDefinitelyAssigned(Lorg/eclipse/jdt/internal/compiler/lookup/FieldBinding;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 9 
+r0 1 -1 
+$r2 1 1 
+Fields: 2
+-1 initsWhenFalse 9
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+5 2 1 -2 
+13 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.markAsComparedEqualToNonNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+4
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+$r3 1 9 
+Fields: 2
+-1 initsWhenFalse 9
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+5 2 1 -2 
+13 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.unconditionalCopy()Lorg/eclipse/jdt/internal/compiler/flow/UnconditionalFlowInfo;
+PTG:
+Vars:
+7
+_ret 1 14 
+$r3 1 8 
+r0 1 -1 
+$r4 1 11 
+$r5 1 14 
+$r1 1 1 
+$r2 1 4 
+Fields: 2
+-1 initsWhenFalse 8
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+1 1 1 
+4 2 4 11 
+8 1 8 
+Constructors: 0
+
+Summary: 2
+-1 11 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.unconditionalInitsWithoutSideEffect()Lorg/eclipse/jdt/internal/compiler/flow/UnconditionalFlowInfo;
+PTG:
+Vars:
+7
+$r2 1 4 
+_ret 1 14 
+r0 1 -1 
+$r1 1 1 
+$r4 1 11 
+$r5 1 14 
+$r3 1 8 
+Fields: 2
+-1 initsWhenFalse 8
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+1 1 1 
+4 2 4 11 
+8 1 8 
+Constructors: 0
+
+Summary: 2
+-1 11 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isDefinitelyUnknown(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)Z
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+$r3 1 12 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.initsWhenTrue()Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 initsWhenTrue 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.toString()Ljava/lang/String;
+PTG:
+Vars:
+12
+$r0 1 0 
+$r5 1 21 
+$r6 1 25 
+_ret 1 39 
+$r4 1 16 
+$r8 1 31 
+r1 1 -1 
+$r7 1 28 
+$r3 1 13 
+$r2 1 10 
+$r9 1 36 
+$r10 1 39 
+Fields: 2
+-1 initsWhenFalse 25
+-1 initsWhenTrue 10
+Accesses: 2
+24 1 -1 
+9 1 -1 
+Functions: 8
+0 2 0 13 
+16 1 16 
+36 1 36 
+21 2 21 28 
+6 1 0 
+25 1 25 
+10 1 10 
+31 1 31 
+Constructors: 1
+6 0
+
+Summary: 3
+-1 13 28 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.setReachMode(I)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+4
+_ret 1 -1 
+r0 1 -1 
+$r3 1 38 
+$r1 1 29 
+Fields: 2
+-1 initsWhenFalse 38
+-1 initsWhenTrue 29
+Accesses: 6
+18 1 -1 
+4 1 -1 
+37 1 -1 
+25 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 2
+33 1 29 
+42 1 38 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.nullInfoLessUnconditionalCopy()Lorg/eclipse/jdt/internal/compiler/flow/UnconditionalFlowInfo;
+PTG:
+Vars:
+4
+_ret 1 4 
+$r2 1 4 
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.markAsDefinitelyNonNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+4
+$r3 1 9 
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 2
+-1 initsWhenFalse 9
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+5 2 1 -2 
+13 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.unconditionalFieldLessCopy()Lorg/eclipse/jdt/internal/compiler/flow/UnconditionalFlowInfo;
+PTG:
+Vars:
+7
+$r1 1 1 
+_ret 1 14 
+$r3 1 8 
+$r4 1 11 
+$r5 1 14 
+r0 1 -1 
+$r2 1 4 
+Fields: 2
+-1 initsWhenFalse 8
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+1 1 1 
+4 2 4 11 
+8 1 8 
+Constructors: 0
+
+Summary: 2
+-1 11 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isPotentiallyNonNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)Z
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r3 1 12 
+$r2 1 1 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isPotentiallyUnknown(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+$r3 1 12 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.isDefinitelyAssigned(Lorg/eclipse/jdt/internal/compiler/lookup/FieldBinding;)Z
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 12 
+$r2 1 1 
+r0 1 -1 
+Fields: 2
+-1 initsWhenFalse 12
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/flow/ConditionalFlowInfo.markAsDefinitelyAssigned(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 9 
+r0 1 -1 
+$r2 1 1 
+Fields: 2
+-1 initsWhenFalse 9
+-1 initsWhenTrue 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+5 2 1 -2 
+13 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 

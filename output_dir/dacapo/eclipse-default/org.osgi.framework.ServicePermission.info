@@ -1,0 +1,423 @@
+16
+org/osgi/framework/ServicePermission.createName(Lorg/osgi/framework/ServiceReference;)Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 45 
+$r1 1 14 
+$r3 1 28 
+$r6 1 45 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+33 2 28 14 
+20 1 14 
+40 1 14 
+25 1 -2 
+10 0 
+44 1 14 
+Constructors: 1
+20 14
+
+Summary: 2
+28 -2 
+org/osgi/framework/ServicePermission.hashCode()I
+PTG:
+Vars:
+5
+$r2 1 17 
+$r1 1 4 
+$r3 1 26 
+$r4 1 26 
+r0 1 -1 
+Fields: 1
+-1 service 26
+Accesses: 2
+36 1 -1 
+25 1 -1 
+Functions: 5
+16 2 -1 26 
+17 1 17 
+3 2 -1 26 
+4 1 4 
+37 1 26 
+Constructors: 0
+
+Summary: 3
+-1 17 4 
+org/osgi/framework/ServicePermission.getProperties()Ljava/util/Dictionary;
+PTG:
+Vars:
+13
+$r1 1 12 
+$r22 1 82 
+$r19 1 59 
+$r7 1 12 
+r16 1 4 
+$r4 1 12 
+$r21 1 97 
+_ret 1 97 
+$r23 1 97 
+r0 1 -1 
+r5 1 77 
+$r24 1 97 
+$r20 1 82 
+Fields: 2
+-1 service 12
+-1 properties 4
+Accesses: 7
+0 1 -1 
+68 1 -1 
+102 1 -1 
+55 1 -1 
+11 1 -1 
+27 1 -1 
+110 1 -1 
+Functions: 8
+48 0 
+64 1 59 
+69 1 12 
+23 0 
+89 6 -1 82 4 59 12 77 
+106 3 97 59 12 
+43 3 -1 4 12 
+92 1 82 
+Constructors: 3
+64 59
+89 82
+106 97
+
+Summary: 4
+-1 59 77 38 
+org/osgi/framework/ServicePermission.newPermissionCollection()Ljava/security/PermissionCollection;
+PTG:
+Vars:
+4
+_ret 1 0 
+$r3 1 0 
+r1 1 -1 
+$r2 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/osgi/framework/ServicePermission.<init>(Ljava/lang/String;I)V
+PTG:
+Vars:
+3
+$r2 1 12 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+21 1 -1 
+7 1 -1 
+26 1 -1 
+Functions: 3
+16 2 -1 12 
+2 2 -1 -2 
+11 1 -2 
+Constructors: 1
+2 -1
+
+Summary: 4
+-1 12 0 -2 
+org/osgi/framework/ServicePermission.getActions()Ljava/lang/String;
+PTG:
+Vars:
+5
+r6 2 4 70 
+$r1 1 9 
+_ret 2 4 70 
+r0 1 -1 
+$r7 1 70 
+Fields: 1
+-1 actions 4
+Accesses: 3
+0 1 -1 
+19 1 -1 
+75 1 -1 
+Functions: 5
+64 1 9 
+36 1 9 
+69 1 9 
+57 1 9 
+13 1 9 
+Constructors: 1
+13 9
+
+Summary: 1
+-1 
+org/osgi/framework/ServicePermission.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 18 
+r3 1 -2 
+r0 1 -1 
+Fields: 2
+-1 service 1
+-1 actions 18
+Accesses: 2
+0 1 -1 
+17 1 -1 
+Functions: 3
+25 3 -1 1 18 
+13 0 
+30 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/osgi/framework/ServicePermission.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+5
+$r4 1 13 
+$r2 1 6 
+$r3 1 9 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 actions 13
+Accesses: 1
+12 1 -1 
+Functions: 5
+1 1 -2 
+19 3 -1 9 13 
+5 2 -1 13 
+6 1 6 
+13 1 13 
+Constructors: 0
+
+Summary: 4
+-1 9 6 -2 
+org/osgi/framework/ServicePermission.parseFilter(Ljava/lang/String;)Lorg/osgi/framework/Filter;
+PTG:
+Vars:
+5
+$r1 1 -1 
+$r3 1 23 
+r6 1 -2 
+$r0 1 18 
+r7 1 4 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+17 1 4 
+35 2 -1 23 
+5 1 4 
+29 1 23 
+Constructors: 1
+29 23
+
+Summary: 2
+4 0 
+org/osgi/framework/ServicePermission.<init>(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -3 
+$r3 1 10 
+r1 1 -2 
+Fields: 1
+-1 filter 10
+Accesses: 2
+16 1 -1 
+9 1 -1 
+Functions: 3
+32 0 
+2 1 -3 
+6 3 -1 -2 10 
+Constructors: 1
+6 -1
+
+Summary: 3
+-1 -3 -2 
+org/osgi/framework/ServicePermission.<init>(Lorg/osgi/framework/ServiceReference;Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r2 1 2 
+r3 1 -3 
+r1 1 -2 
+$r5 1 31 
+$r4 1 31 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+39 1 -1 
+24 1 -1 
+10 1 -1 
+42 1 -1 
+Functions: 6
+1 1 -2 
+19 1 -1 
+5 2 -1 2 
+58 0 
+28 1 -2 
+15 1 -3 
+Constructors: 1
+5 -1
+
+Summary: 4
+-1 2 -3 0 
+org/osgi/framework/ServicePermission.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+10
+$r4 1 37 
+$r3 1 33 
+$r9 1 47 
+r2 1 -2 
+r1 1 -1 
+$r5 1 51 
+r0 1 -2 
+$r7 1 47 
+$r8 1 51 
+$r6 1 47 
+Fields: 2
+-1 service 47
+-2 service 51
+Accesses: 7
+64 1 -1 
+50 1 -2 
+68 1 -2 
+21 1 -1 
+25 1 -2 
+57 1 -1 
+46 1 -1 
+Functions: 4
+32 2 -1 47 
+33 2 33 37 
+65 2 51 47 
+36 2 -2 51 
+Constructors: 0
+
+Summary: 6
+-1 51 33 37 0 -2 
+org/osgi/framework/ServicePermission.parseActions(Ljava/lang/String;)I
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 14 
+Fields: 0
+Accesses: 0
+Functions: 13
+353 1 -2 
+514 0 
+453 1 -2 
+518 0 
+359 0 
+10 1 -2 
+363 0 
+459 0 
+524 0 
+463 0 
+369 0 
+469 0 
+508 1 -2 
+Constructors: 0
+
+Summary: 9
+518 14 363 463 366 521 0 -2 466 
+org/osgi/framework/ServicePermission.implies(Ljava/security/Permission;)Z
+PTG:
+Vars:
+5
+$r3 1 15 
+r2 1 -1 
+r1 1 -2 
+r0 1 -2 
+$r4 1 24 
+Fields: 2
+-1 service 15
+-2 filter 24
+Accesses: 2
+23 1 -2 
+14 1 -1 
+Functions: 1
+32 4 -1 -2 24 15 
+Constructors: 0
+
+Summary: 4
+-1 24 0 -2 
+org/osgi/framework/ServicePermission.implies0(Lorg/osgi/framework/ServicePermission;I)Z
+PTG:
+Vars:
+10
+$r7 2 29 124 
+r0 1 -1 
+$r4 1 169 
+r1 1 -2 
+r2 1 41 
+r6 1 109 
+r10 1 152 
+$r9 1 29 
+$r5 1 29 
+r3 1 64 
+Fields: 5
+-1 prefix 29
+-1 filter 41
+-2 objectClass 64
+64 ArrayObject 169
+64 ArrayObject 109
+Accesses: 9
+1 1 -1 
+84 1 -1 
+21 1 -1 
+37 1 -1 
+7 1 -2 
+123 1 -1 
+28 1 -1 
+60 1 -2 
+77 1 -1 
+Functions: 8
+48 1 41 
+50 4 64 -2 169 109 
+148 3 -1 41 29 
+85 1 29 
+71 7 -1 64 -2 41 169 29 109 
+121 3 124 109 29 
+169 2 152 169 
+111 1 109 
+Constructors: 0
+
+Summary: 6
+-1 152 51 0 -2 64 
+org/osgi/framework/ServicePermission.setTransients(Lorg/osgi/framework/Filter;I)V
+PTG:
+Vars:
+4
+r3 1 39 
+r1 1 -1 
+$r4 1 107 
+r2 1 -2 
+Fields: 0
+Accesses: 5
+84 1 -1 
+23 1 -1 
+87 1 -1 
+28 1 -1 
+110 1 -1 
+Functions: 6
+17 0 
+66 1 39 
+35 1 -1 
+101 1 39 
+40 1 39 
+47 1 39 
+Constructors: 0
+
+Summary: 2
+-1 0 

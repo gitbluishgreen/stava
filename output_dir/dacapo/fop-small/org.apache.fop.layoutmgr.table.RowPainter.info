@@ -1,0 +1,680 @@
+15
+org/apache/fop/layoutmgr/table/RowPainter.recordRowOffset(II)V
+PTG:
+Vars:
+4
+$r2 1 24 
+$r1 1 1 
+r0 1 -1 
+$r3 1 1 
+Fields: 1
+-1 rowOffsets 1
+Accesses: 3
+0 1 -1 
+20 1 -1 
+12 1 -1 
+Functions: 3
+32 2 1 24 
+1 1 1 
+29 1 24 
+Constructors: 1
+29 24
+
+Summary: 2
+-1 24 
+org/apache/fop/layoutmgr/table/RowPainter.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r4 1 6 
+r0 1 -2 
+$r2 1 -1 
+$r1 1 1 
+$r5 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/layoutmgr/table/RowPainter.getRowOffset(I)I
+PTG:
+Vars:
+4
+$r1 1 1 
+$r3 1 10 
+r0 1 -1 
+$r2 1 10 
+Fields: 1
+-1 rowOffsets 1
+Accesses: 2
+0 1 -1 
+5 1 -1 
+Functions: 2
+1 1 1 
+15 1 10 
+Constructors: 0
+
+Summary: 2
+-1 10 
+org/apache/fop/layoutmgr/table/RowPainter.<clinit>()V
+PTG:
+Vars:
+5
+$r3 2 8 18 
+$r0 1 0 
+$r2 1 56 
+$r4 2 43 53 
+$r1 1 35 
+Fields: 0
+Accesses: 0
+Functions: 4
+18 2 18 8 
+53 2 53 43 
+6 0 
+41 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/layoutmgr/table/RowPainter.endBody()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 firstCellOnPage 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/RowPainter.startTablePart(Lorg/apache/fop/fo/flow/table/TableBody;)V
+PTG:
+Vars:
+5
+$r3 1 18 
+r2 1 -1 
+$r4 1 25 
+r0 1 -2 
+r1 1 4 
+Fields: 1
+-1 tablePartBackgroundAreas 18
+Accesses: 5
+32 1 -1 
+17 1 -1 
+36 1 -1 
+40 1 -1 
+14 1 -1 
+Functions: 3
+0 1 -2 
+5 1 4 
+29 1 25 
+Constructors: 1
+29 25
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/layoutmgr/table/RowPainter.computeContentLength(Lorg/apache/fop/fo/flow/table/PrimaryGridUnit;II)I
+PTG:
+Vars:
+12
+r0 1 -2 
+$r7 1 86 
+r8 1 86 
+$r10 1 38 
+r11 1 -1 
+$r3 1 59 
+$r1 1 8 
+$r6 1 129 
+$r9 1 38 
+$r5 1 129 
+r2 1 15 
+$r4 1 59 
+Fields: 0
+Accesses: 0
+Functions: 14
+64 1 59 
+96 1 86 
+36 1 15 
+134 1 129 
+7 1 -2 
+8 1 8 
+104 1 86 
+73 1 15 
+43 1 38 
+114 1 86 
+20 1 15 
+84 1 15 
+57 1 15 
+127 1 15 
+Constructors: 0
+
+Summary: 9
+59 -2 129 -1 15 8 38 86 0 
+org/apache/fop/layoutmgr/table/RowPainter.addAreasAndFlushRow(ZZ)V
+PTG:
+Vars:
+49
+$r41 2 284 125 
+$r24 1 146 
+$r13 1 305 
+$r44 2 284 125 
+$r0 1 0 
+$r22 1 146 
+$r3 1 519 
+$r9 3 367 253 339 
+$r26 1 125 
+$r25 1 166 
+$r27 1 181 
+$r31 1 23 
+$r48 2 284 125 
+$r39 2 146 388 
+$r29 1 14 
+$r17 3 367 253 339 
+$r50 1 477 
+$r5 2 284 125 
+$r42 1 426 
+r1 1 -1 
+r38 1 242 
+$r46 2 146 388 
+$r36 1 48 
+$r28 1 182 
+$r18 1 27 
+$r47 1 446 
+$r7 2 284 125 
+$r49 3 367 253 339 
+$r34 1 38 
+$r11 3 367 253 339 
+$r20 1 130 
+$r35 1 45 
+$r15 1 311 
+$r33 1 33 
+r37 1 94 
+$r32 1 27 
+$r12 2 284 125 
+$r6 1 289 
+$r14 1 306 
+$r19 1 125 
+$r23 1 151 
+$r30 1 11 
+$r21 1 135 
+$r43 1 427 
+$r2 1 27 
+$r8 1 331 
+$r4 1 27 
+$r40 1 393 
+$r45 1 436 
+Fields: 31
+426 pgu 427
+181 pgu 182
+-1 lastCellParts 388
+-1 lastCellParts 146
+-1 cellHeights 135
+-1 firstCellOnPage 367
+-1 firstCellOnPage 253
+-1 firstCellOnPage 339
+-1 firstCellParts 284
+-1 firstCellParts 125
+-1 rowOffsets 519
+-1 currentRow 27
+284 ArrayObject 331
+284 ArrayObject 289
+284 ArrayObject 426
+284 ArrayObject 436
+284 ArrayObject 305
+146 ArrayObject 166
+146 ArrayObject 393
+146 ArrayObject 151
+146 ArrayObject 446
+388 ArrayObject 393
+388 ArrayObject 446
+305 pgu 306
+125 ArrayObject 181
+125 ArrayObject 426
+125 ArrayObject 130
+125 ArrayObject 331
+125 ArrayObject 289
+125 ArrayObject 436
+125 ArrayObject 305
+Accesses: 39
+64 1 -1 
+387 1 -1 
+515 1 -1 
+325 1 -1 
+134 1 -1 
+518 1 -1 
+331 1 331 
+459 1 -1 
+78 1 -1 
+206 1 -1 
+145 1 -1 
+338 1 -1 
+530 1 -1 
+467 1 -1 
+85 1 -1 
+26 1 -1 
+283 1 -1 
+160 1 -1 
+226 1 -1 
+420 1 -1 
+41 1 -1 
+233 1 -1 
+426 1 426 
+299 1 -1 
+366 1 -1 
+430 1 -1 
+494 1 -1 
+175 1 -1 
+305 1 305 
+436 1 436 
+181 1 181 
+501 1 -1 
+440 1 -1 
+57 1 -1 
+124 1 -1 
+188 1 -1 
+252 1 -1 
+446 1 446 
+510 1 -1 
+Functions: 34
+0 1 0 
+321 0 
+68 25 -1 130 388 135 519 393 331 146 339 151 27 284 289 166 426 427 367 305 306 436 181 182 253 125 446 
+263 1 242 
+456 25 -1 130 388 135 519 393 331 146 339 151 27 284 289 166 426 427 367 305 306 436 181 182 253 125 446 
+393 1 393 
+522 1 519 
+14 1 14 
+18 1 14 
+210 0 
+275 1 242 
+86 1 27 
+23 1 23 
+151 1 151 
+27 1 27 
+475 1 242 
+477 1 477 
+96 1 94 
+33 1 33 
+485 3 339 253 367 
+38 1 38 
+166 1 166 
+104 1 94 
+234 1 27 
+45 1 45 
+174 25 -1 130 388 135 519 393 331 146 339 151 27 284 289 166 426 427 367 305 306 436 181 182 253 125 446 
+51 2 48 11 
+116 1 94 
+244 1 242 
+309 1 242 
+182 1 182 
+58 1 27 
+380 0 
+189 0 
+Constructors: 1
+18 14
+
+Summary: 6
+94 48 311 -1 477 45 
+org/apache/fop/layoutmgr/table/RowPainter.<init>(Lorg/apache/fop/layoutmgr/table/TableContentLayoutManager;Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+9
+$r4 1 42 
+r2 1 -2 
+r3 1 -3 
+$r6 1 66 
+r0 1 -1 
+$r8 1 87 
+$r5 1 56 
+$r7 1 76 
+$r1 1 15 
+Fields: 0
+Accesses: 17
+32 1 -1 
+68 1 -1 
+100 1 -1 
+37 1 -1 
+6 1 -1 
+72 1 -1 
+11 1 -1 
+79 1 -1 
+48 1 -1 
+83 1 -1 
+52 1 -1 
+22 1 -1 
+58 1 -1 
+90 1 -1 
+27 1 -1 
+62 1 -1 
+95 1 -1 
+Functions: 4
+1 1 -1 
+19 1 15 
+41 1 -2 
+42 1 42 
+Constructors: 2
+1 -1
+19 15
+
+Summary: 4
+-1 0 1 42 
+org/apache/fop/layoutmgr/table/RowPainter.startBody()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 firstCellOnPage 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/RowPainter.registerPartBackgroundArea(Lorg/apache/fop/area/Block;)V
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r4 1 12 
+$r2 1 4 
+r3 1 -2 
+Fields: 2
+-1 tclm 1
+-1 tablePartBackgroundAreas 12
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 3
+16 2 -2 12 
+1 1 1 
+8 2 -2 4 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 4 
+org/apache/fop/layoutmgr/table/RowPainter.handleTableContentPosition(Lorg/apache/fop/layoutmgr/table/TableContentPosition;)V
+PTG:
+Vars:
+36
+$r20 1 162 
+$r14 1 187 
+r34 1 128 
+$r31 1 30 
+$r23 1 175 
+$r2 1 39 
+$r9 1 196 
+$r26 1 47 
+$r0 1 0 
+$r15 1 247 
+$r25 1 39 
+$r8 1 187 
+$r13 1 246 
+$r5 1 139 
+$r28 1 11 
+r1 1 -1 
+$r12 1 196 
+$r22 1 171 
+r32 1 60 
+$r17 1 196 
+$r19 2 214 266 
+$r7 1 148 
+$r4 1 39 
+$r24 1 178 
+r6 1 139 
+$r29 1 23 
+r3 1 -2 
+$r30 1 27 
+$r18 1 221 
+$r10 1 201 
+$r11 2 214 266 
+$r36 1 294 
+$r33 1 120 
+$r21 1 159 
+$r27 1 14 
+$r35 2 214 266 
+Fields: 11
+-2 cellParts 120
+-1 lastCellParts 294
+-1 cellHeights 214
+-1 cellHeights 266
+-1 firstCellOnPage 221
+-1 firstCellParts 196
+-1 currentRow 39
+139 pgu 187
+246 pgu 247
+196 ArrayObject 201
+196 ArrayObject 246
+Accesses: 22
+65 1 -1 
+195 1 -1 
+101 1 -1 
+293 1 -1 
+38 1 -1 
+104 1 -1 
+265 1 -1 
+205 1 -1 
+112 1 -1 
+240 1 -1 
+50 1 -1 
+83 1 -1 
+116 1 -1 
+213 1 -1 
+86 1 -1 
+246 1 246 
+119 1 -2 
+279 1 -1 
+186 1 139 
+250 1 139 
+220 1 -1 
+94 1 -1 
+Functions: 26
+0 1 0 
+129 1 128 
+66 1 39 
+261 0 
+138 1 128 
+14 1 14 
+78 10 -1 196 294 214 246 39 247 201 266 221 
+273 2 139 187 
+18 1 14 
+148 1 148 
+23 3 -2 23 120 
+27 1 27 
+219 2 139 187 
+95 1 39 
+287 2 139 187 
+33 2 11 30 
+162 1 162 
+166 1 162 
+171 3 171 139 187 
+46 2 -2 120 
+175 1 175 
+181 2 178 159 
+56 2 -2 120 
+120 1 120 
+187 1 187 
+61 1 60 
+Constructors: 2
+18 14
+166 162
+
+Summary: 7
+120 27 -1 178 -2 175 30 
+org/apache/fop/layoutmgr/table/RowPainter.addAreasForCell(Lorg/apache/fop/fo/flow/table/PrimaryGridUnit;IIIIIZ)V
+PTG:
+Vars:
+33
+r2 1 -2 
+$r20 1 255 
+$r31 1 79 
+$r24 1 280 
+r33 1 305 
+$r26 1 290 
+$r6 1 378 
+r28 1 102 
+$r7 1 389 
+$r25 1 285 
+$r11 1 201 
+$r13 1 211 
+$r15 1 230 
+$r29 1 73 
+$r10 1 361 
+$r17 1 242 
+$r12 1 214 
+$r3 1 73 
+$r23 1 275 
+$r8 1 102 
+$r22 1 263 
+$r19 1 252 
+$r1 1 1 
+$r21 1 266 
+$r32 1 190 
+$r14 1 223 
+$r16 1 235 
+r0 1 -1 
+$r18 1 247 
+$r30 1 76 
+$r4 1 347 
+$r5 1 373 
+$r27 1 293 
+Fields: 3
+-1 tclm 73
+-1 layoutContext 389
+-1 currentRow 1
+Accesses: 9
+0 1 -1 
+180 1 -1 
+388 1 -1 
+309 1 -1 
+72 1 -1 
+60 1 -1 
+13 1 -1 
+238 1 -1 
+414 1 -1 
+Functions: 47
+1 1 1 
+385 2 373 378 
+258 2 211 255 
+324 1 305 
+9 1 -2 
+73 1 73 
+329 5 -1 1 -2 389 73 
+266 1 266 
+76 1 76 
+396 1 -2 
+206 1 201 
+270 1 266 
+79 1 79 
+336 1 305 
+275 1 275 
+403 1 -2 
+20 1 -2 
+214 1 214 
+343 1 305 
+88 1 -2 
+280 1 280 
+218 1 214 
+346 1 -2 
+285 1 285 
+350 1 347 
+223 1 223 
+33 4 -1 1 389 73 
+226 1 -2 
+290 1 290 
+230 1 230 
+296 2 293 263 
+360 1 -2 
+41 4 -1 1 389 73 
+106 4 -1 1 389 73 
+170 4 -1 1 389 73 
+235 1 235 
+301 1 -2 
+431 7 -1 305 1 373 389 102 73 
+368 1 361 
+242 1 242 
+310 2 -2 73 
+247 1 247 
+377 1 -2 
+252 1 252 
+317 1 305 
+190 1 190 
+127 4 -1 1 389 73 
+Constructors: 3
+385 373
+218 214
+270 266
+
+Summary: 15
+255 361 252 373 76 378 -1 290 293 305 -2 79 0 102 347 
+org/apache/fop/layoutmgr/table/RowPainter.getAccumulatedBPD()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/RowPainter.endTablePart(ZZ)V
+PTG:
+Vars:
+10
+$r1 1 7 
+r5 1 30 
+r8 1 44 
+$r2 1 14 
+$r9 1 7 
+r0 1 -1 
+$r4 1 22 
+$r6 1 22 
+$r7 1 44 
+r3 1 20 
+Fields: 3
+-1 tclm 14
+-1 tablePartBackgroundAreas 22
+-1 tablePartBackground 7
+Accesses: 9
+81 1 -1 
+98 1 -1 
+67 1 -1 
+21 1 -1 
+85 1 -1 
+101 1 -1 
+6 1 -1 
+56 1 -1 
+13 1 -1 
+Functions: 10
+32 1 30 
+3 4 -1 22 7 14 
+22 1 22 
+71 1 44 
+105 1 22 
+42 1 30 
+90 3 20 7 44 
+61 1 44 
+77 1 20 
+14 1 14 
+Constructors: 0
+
+Summary: 3
+-1 20 44 

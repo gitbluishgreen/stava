@@ -1,0 +1,1578 @@
+62
+java/lang/ClassLoader.loadClassInternal(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+r2 1 -2 
+r0 1 -1 
+_ret 1 26 
+$r3 1 26 
+$r1 1 1 
+Fields: 1
+-1 parallelLockMap 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+24 3 -1 1 -2 
+11 3 -1 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+java/lang/ClassLoader.checkCerts(Ljava/lang/String;Ljava/security/CodeSource;)V
+PTG:
+Vars:
+16
+$r23 2 12 20 
+r25 2 59 138 
+r2 1 -3 
+r3 1 -1 
+$r19 1 54 
+r0 1 -2 
+$r18 1 59 
+r1 2 12 20 
+$r7 1 138 
+$r6 1 117 
+$r26 2 85 36 
+$r5 1 117 
+$r17 1 54 
+$r4 1 42 
+$r27 2 130 36 
+r24 1 36 
+Fields: 3
+-1 parallelLockMap 42
+-1 package2certs 117
+-1 package2certs 54
+Accesses: 4
+116 1 -1 
+53 1 -1 
+41 1 -1 
+74 1 -1 
+Functions: 13
+0 1 -2 
+32 1 -3 
+166 0 
+170 0 
+175 1 -2 
+17 1 -2 
+179 0 
+54 3 20 54 12 
+151 7 -1 36 117 54 42 138 59 
+120 5 130 20 36 117 12 
+184 0 
+93 5 20 36 85 54 12 
+190 0 
+Constructors: 0
+
+Summary: 3
+1 -3 0 
+java/lang/ClassLoader.getBootstrapResources(Ljava/lang/String;)Ljava/util/Enumeration;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r0 1 0 
+r2 1 7 
+$r3 1 8 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+0 2 0 -2 
+13 2 7 8 
+Constructors: 1
+13 8
+
+Summary: 2
+-2 0 
+java/lang/ClassLoader.isAncestor(Ljava/lang/ClassLoader;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 6 
+Fields: 1
+6 parent 6
+Accesses: 1
+2 1 6 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+6 -2 -1 0 
+java/lang/ClassLoader.loadLibrary(Ljava/lang/Class;Ljava/lang/String;Z)V
+PTG:
+Vars:
+26
+$r37 1 29 
+$r10 1 261 
+r45 1 302 
+$r11 1 268 
+r0 1 -2 
+$r2 1 13 
+$r17 1 204 
+$r4 1 329 
+$r8 1 347 
+r43 1 229 
+$r9 1 350 
+$r18 1 206 
+$r38 1 9 
+$r16 1 199 
+$r7 1 342 
+$r15 1 195 
+$r14 1 279 
+r6 1 -3 
+$r13 1 277 
+r39 1 91 
+$r12 1 272 
+$r41 1 188 
+$r3 1 325 
+$r5 1 338 
+r1 1 9 
+$r36 1 21 
+Fields: 2
+199 ArrayObject 204
+272 ArrayObject 277
+Accesses: 0
+Functions: 40
+130 1 91 
+68 1 -3 
+135 0 
+8 1 -2 
+72 0 
+329 1 329 
+141 0 
+205 1 -3 
+333 1 329 
+78 0 
+209 3 195 204 206 
+146 1 -2 
+338 2 338 -3 
+19 0 
+86 2 -3 9 
+278 1 -3 
+342 1 342 
+215 2 -2 195 
+282 3 277 279 268 
+27 0 
+347 1 347 
+159 0 
+224 1 195 
+288 2 -2 268 
+353 2 325 350 
+163 0 
+40 1 -2 
+104 1 91 
+168 1 91 
+297 1 268 
+45 1 -3 
+109 0 
+173 0 
+237 2 -2 229 
+179 0 
+310 2 -2 302 
+121 0 
+59 0 
+125 0 
+63 0 
+Constructors: 4
+209 195
+353 325
+282 268
+333 329
+
+Summary: 9
+195 0 98 9 1 40 268 -2 91 
+java/lang/ClassLoader.initializeJavaAssertionMaps()V
+PTG:
+Vars:
+16
+$r10 1 95 
+$r15 1 46 
+r3 1 25 
+$r16 1 53 
+$r13 1 48 
+r0 1 -1 
+$r1 1 1 
+$r7 1 90 
+$r6 1 72 
+$r2 1 12 
+$r9 1 88 
+$r14 1 38 
+$r4 1 30 
+$r12 1 30 
+$r8 1 80 
+$r5 1 72 
+Fields: 8
+72 ArrayObject 88
+25 packageEnabled 90
+25 packages 72
+25 classes 30
+25 classEnabled 48
+-1 packageAssertionStatus 80
+-1 classAssertionStatus 38
+30 ArrayObject 46
+Accesses: 12
+19 1 -1 
+83 1 25 
+115 1 -1 
+37 1 -1 
+71 1 25 
+8 1 -1 
+41 1 25 
+89 1 25 
+29 1 25 
+47 1 25 
+79 1 -1 
+111 1 25 
+Functions: 7
+16 1 12 
+98 3 80 88 95 
+52 0 
+5 1 1 
+22 0 
+56 3 53 38 46 
+94 0 
+Constructors: 2
+16 12
+5 1
+
+Summary: 1
+-1 
+java/lang/ClassLoader.findSystemClass(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+r0 1 3 
+r3 1 -1 
+$r2 1 48 
+_ret 1 48 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 0 
+21 1 -2 
+8 2 -1 -2 
+40 1 -2 
+25 2 -1 -2 
+46 2 -2 3 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/ClassLoader.getSystemResource(Ljava/lang/String;)Ljava/net/URL;
+PTG:
+Vars:
+4
+$r2 1 15 
+_ret 1 15 
+r1 1 -2 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+8 1 -2 
+13 2 -2 3 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/lang/ClassLoader.checkName(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+4 1 -2 
+13 1 -2 
+29 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/ClassLoader.initializePath(Ljava/lang/String;)[Ljava/lang/String;
+PTG:
+Vars:
+7
+r2 1 10 
+r0 1 -2 
+$r4 1 146 
+_ret 1 52 
+r1 1 6 
+$r5 1 95 
+r3 1 52 
+Fields: 1
+52 ArrayObject 119
+Accesses: 0
+Functions: 8
+16 2 6 10 
+1 1 -2 
+34 2 6 10 
+90 1 6 
+11 1 6 
+126 2 6 10 
+142 1 6 
+63 2 6 10 
+Constructors: 0
+
+Summary: 1
+-2 
+java/lang/ClassLoader.getPackage(Ljava/lang/String;)Ljava/lang/Package;
+PTG:
+Vars:
+14
+$r4 1 12 
+r16 4 75 58 50 12 
+$r11 1 36 
+$r3 1 1 
+$r7 1 1 
+$r9 1 1 
+$r6 1 1 
+$r8 1 75 
+r2 1 -2 
+r19 1 75 
+$r1 1 1 
+_ret 4 75 58 50 12 
+r0 1 -1 
+$r5 1 36 
+Fields: 2
+-1 parent 36
+-1 packages 1
+Accesses: 7
+0 1 -1 
+35 1 -1 
+70 1 -1 
+7 1 -1 
+88 1 -1 
+42 1 -1 
+63 1 -1 
+Functions: 5
+54 1 -2 
+71 2 1 -2 
+8 2 1 -2 
+43 2 -2 36 
+94 6 1 -2 50 58 75 12 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/ClassLoader.getBootstrapClassPath()Lsun/misc/URLClassPath;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 0
+
+java/lang/ClassLoader.findBootstrapClassOrNull(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+4
+$r2 1 12 
+r1 1 -2 
+_ret 1 12 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+10 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/lang/ClassLoader.getSystemResources(Ljava/lang/String;)Ljava/util/Enumeration;
+PTG:
+Vars:
+4
+$r2 1 15 
+_ret 1 15 
+r1 1 -2 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+8 1 -2 
+13 2 -2 3 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/lang/ClassLoader.getResource(Ljava/lang/String;)Ljava/net/URL;
+PTG:
+Vars:
+6
+$r3 1 1 
+$r1 1 1 
+_ret 3 33 15 23 
+r2 1 -2 
+r4 3 33 15 23 
+r0 1 -1 
+Fields: 1
+-1 parent 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+19 1 -2 
+8 2 1 -2 
+28 3 -1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/ClassLoader.getClassLoadingLock(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r5 1 3 
+r4 1 -2 
+$r2 1 9 
+_ret 3 26 -1 9 
+$r1 1 3 
+r0 1 -1 
+r6 3 26 -1 9 
+Fields: 1
+-1 parallelLockMap 3
+Accesses: 2
+17 1 -1 
+2 1 -1 
+Functions: 2
+18 3 -2 3 9 
+13 1 9 
+Constructors: 1
+13 9
+
+Summary: 2
+-2 0 
+java/lang/ClassLoader.desiredAssertionStatus(Ljava/lang/String;)Z
+PTG:
+Vars:
+13
+$r6 1 88 
+r13 1 50 
+$r4 1 12 
+$r5 1 46 
+$r1 1 1 
+r14 1 88 
+r0 1 -1 
+$r3 1 8 
+r11 2 82 -2 
+$r8 1 50 
+$r7 1 46 
+$r9 1 -1 
+r12 1 12 
+Fields: 3
+-1 packageAssertionStatus 46
+-1 classAssertionStatus 8
+-1 assertionLock 1
+Accesses: 5
+0 1 -1 
+83 1 -1 
+7 1 -1 
+123 1 -1 
+45 1 -1 
+Functions: 9
+32 2 -2 82 
+84 3 -2 82 46 
+101 1 88 
+8 3 -2 82 8 
+25 1 12 
+75 2 -2 82 
+108 2 -2 82 
+46 1 46 
+63 1 50 
+Constructors: 0
+
+Summary: 6
+82 -1 88 0 50 12 
+java/lang/ClassLoader.<init>()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+7 3 -1 1 4 
+Constructors: 1
+7 -1
+
+Summary: 0
+
+java/lang/ClassLoader.checkPackageAccess(Ljava/lang/Class;Ljava/security/ProtectionDomain;)V
+PTG:
+Vars:
+8
+r1 1 -2 
+r10 1 61 
+r6 1 -3 
+$r2 1 78 
+r3 1 -1 
+r0 1 3 
+$r4 1 91 
+$r5 1 96 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 0 
+103 2 96 91 
+8 1 -2 
+88 4 -1 3 61 78 
+57 1 -2 
+106 2 91 78 
+15 1 -2 
+47 2 -1 -3 
+63 1 61 
+Constructors: 2
+103 91
+88 78
+
+Summary: 7
+19 -2 -1 0 41 61 96 
+java/lang/ClassLoader.getParent()Ljava/lang/ClassLoader;
+PTG:
+Vars:
+7
+$r3 1 1 
+r0 1 -1 
+r2 1 12 
+$r5 1 21 
+_ret 1 1 
+$r4 1 1 
+$r1 1 1 
+Fields: 1
+-1 parent 1
+Accesses: 3
+0 1 -1 
+17 1 -1 
+27 1 -1 
+Functions: 3
+-1 0 
+24 2 1 21 
+9 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/lang/ClassLoader.needsClassLoaderPermissionCheck(Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)Z
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+13 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+1 -2 -3 0 
+java/lang/ClassLoader.access$100()Ljava/util/Stack;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/lang/ClassLoader.initSystemClassLoader()V
+PTG:
+Vars:
+9
+$r0 1 6 
+r1 1 25 
+$r6 1 49 
+$r3 1 39 
+$r2 1 33 
+$r5 1 49 
+r12 2 66 78 
+$r4 1 43 
+$r10 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 8
+32 1 25 
+18 0 
+100 2 66 78 
+22 0 
+39 1 39 
+74 2 66 78 
+46 2 39 43 
+62 1 -1 
+Constructors: 1
+46 39
+
+Summary: 0
+
+java/lang/ClassLoader.definePackage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;)Ljava/lang/Package;
+PTG:
+Vars:
+15
+r17 1 13 
+r11 1 -9 
+r0 1 -1 
+r3 1 -2 
+r6 1 -4 
+r9 1 -7 
+$r4 1 29 
+r10 1 -8 
+$r12 1 1 
+r7 1 -5 
+$r14 1 20 
+$r1 1 1 
+$r15 1 -1 
+r5 1 -3 
+r8 1 -6 
+Fields: 1
+-1 packages 1
+Accesses: 2
+0 1 -1 
+52 1 -1 
+Functions: 4
+8 3 -1 1 -2 
+25 2 -2 20 
+59 3 1 -2 29 
+47 11 -1 -2 1 -3 -4 -5 -6 -7 -8 -9 29 
+Constructors: 2
+25 20
+47 29
+
+Summary: 17
+1 2 -3 -6 -9 0 3 6 -5 7 -4 -2 -8 4 -1 -7 5 
+java/lang/ClassLoader.getSystemResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+PTG:
+Vars:
+4
+$r2 1 -1 
+$r4 1 10 
+r0 1 -2 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+9 1 4 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/lang/ClassLoader.getPackages()[Ljava/lang/Package;
+PTG:
+Vars:
+16
+$r15 1 30 
+$r7 1 112 
+$r10 1 65 
+r0 1 -1 
+r19 2 50 43 
+$r3 1 1 
+$r13 1 87 
+$r9 1 115 
+$r5 1 30 
+r11 1 69 
+$r12 1 74 
+_ret 1 115 
+$r2 1 7 
+$r6 1 101 
+$r8 1 115 
+$r1 1 1 
+Fields: 6
+-1 parent 30
+-1 packages 1
+50 ArrayObject 65
+50 ArrayObject 87
+43 ArrayObject 65
+43 ArrayObject 87
+Accesses: 4
+0 1 -1 
+36 1 -1 
+11 1 -1 
+29 1 -1 
+Functions: 9
+65 1 65 
+100 1 7 
+37 1 30 
+101 2 112 101 
+71 2 69 7 
+88 3 69 7 87 
+106 1 7 
+15 2 1 7 
+47 0 
+Constructors: 1
+15 7
+
+Summary: 4
+112 7 -1 43 
+java/lang/ClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class;
+PTG:
+Vars:
+11
+$r5 1 26 
+$r8 1 94 
+$r2 1 2 
+$r6 1 75 
+r0 1 -1 
+$r10 1 -1 
+$r7 1 86 
+$r9 1 26 
+$r12 1 -1 
+r13 4 51 73 13 41 
+r1 1 -2 
+Fields: 1
+-1 parent 26
+Accesses: 2
+32 1 -1 
+25 1 -1 
+Functions: 12
+0 3 -1 -2 26 
+-1 0 
+33 2 -2 26 
+97 1 94 
+83 1 75 
+20 0 
+68 3 -1 -2 26 
+8 3 -1 -2 26 
+91 1 86 
+107 6 -1 51 73 41 26 13 
+46 3 -1 -2 26 
+63 0 
+Constructors: 0
+
+Summary: 2
+0 -2 
+java/lang/ClassLoader.defineClass(Ljava/lang/String;Ljava/nio/ByteBuffer;Ljava/security/ProtectionDomain;)Ljava/lang/Class;
+PTG:
+Vars:
+8
+r0 1 -3 
+r11 1 79 
+_ret 1 96 
+r1 1 -1 
+r10 1 73 
+r8 1 -4 
+r2 1 -2 
+r3 1 96 
+Fields: 0
+Accesses: 0
+Functions: 14
+0 1 -3 
+67 3 -1 -2 -4 
+6 1 -3 
+102 3 -1 96 73 
+74 2 -1 73 
+13 1 -3 
+81 5 -1 -2 -3 73 79 
+51 1 -3 
+20 3 -1 -2 -4 
+84 1 -3 
+22 1 -3 
+55 3 -1 -2 -4 
+26 1 -3 
+30 1 -3 
+Constructors: 0
+
+Summary: 6
+1 2 44 23 0 -4 
+java/lang/ClassLoader.findResources(Ljava/lang/String;)Ljava/util/Enumeration;
+PTG:
+Vars:
+4
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/lang/ClassLoader.postDefineClass(Ljava/lang/Class;Ljava/security/ProtectionDomain;)V
+PTG:
+Vars:
+6
+r4 1 -1 
+r0 1 -3 
+r3 1 14 
+$r2 1 8 
+r5 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -3 
+22 3 -1 -2 14 
+7 1 -3 
+8 1 8 
+Constructors: 0
+
+Summary: 4
+-2 -1 -3 0 
+java/lang/ClassLoader.<clinit>()V
+PTG:
+Vars:
+4
+$r0 1 4 
+$r1 1 10 
+$r2 1 20 
+$r3 1 30 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 0 
+34 1 30 
+24 1 20 
+14 1 10 
+Constructors: 3
+34 30
+24 20
+14 10
+
+Summary: 0
+
+java/lang/ClassLoader.setSigners(Ljava/lang/Class;[Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r2 1 -1 
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+1 -2 -1 0 
+java/lang/ClassLoader.findClass(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 3
+-2 -1 0 
+java/lang/ClassLoader.getBootstrapResource(Ljava/lang/String;)Ljava/net/URL;
+PTG:
+Vars:
+5
+r1 1 -2 
+r2 1 9 
+r0 1 3 
+_ret 1 15 
+$r3 1 15 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+4 2 -2 3 
+14 1 9 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/lang/ClassLoader.findLoadedClass(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 12 
+_ret 1 12 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+10 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/lang/ClassLoader.findResource(Ljava/lang/String;)Ljava/net/URL;
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/ClassLoader.clearAssertionStatus()V
+PTG:
+Vars:
+4
+$r1 1 1 
+$r3 1 8 
+$r4 1 19 
+r0 1 -1 
+Fields: 1
+-1 assertionLock 1
+Accesses: 4
+0 1 -1 
+26 1 -1 
+15 1 -1 
+31 1 -1 
+Functions: 2
+23 1 19 
+12 1 8 
+Constructors: 2
+23 19
+12 8
+
+Summary: 1
+-1 
+java/lang/ClassLoader.addClass(Ljava/lang/Class;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 classes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/lang/ClassLoader.getSystemClassLoader()Ljava/lang/ClassLoader;
+PTG:
+Vars:
+6
+$r2 1 28 
+$r0 1 3 
+r1 1 14 
+_ret 1 28 
+$r3 1 19 
+$r4 1 22 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 0 
+-1 0 
+25 2 19 22 
+11 0 
+Constructors: 0
+
+Summary: 0
+
+java/lang/ClassLoader.checkClassLoaderPermission(Ljava/lang/ClassLoader;Ljava/lang/Class;)V
+PTG:
+Vars:
+5
+r1 1 -3 
+$r4 1 22 
+r2 1 12 
+r3 1 -2 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 0 
+8 1 -3 
+25 2 3 22 
+14 2 -2 12 
+Constructors: 0
+
+Summary: 4
+1 -2 -3 0 
+java/lang/ClassLoader.setClassAssertionStatus(Ljava/lang/String;Z)V
+PTG:
+Vars:
+6
+$r5 1 8 
+$r1 1 1 
+r0 1 -1 
+r4 1 -2 
+$r3 1 8 
+$r6 1 24 
+Fields: 2
+-1 classAssertionStatus 8
+-1 assertionLock 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+7 1 -1 
+Functions: 3
+23 0 
+27 3 -2 8 24 
+15 3 -1 1 8 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/lang/ClassLoader.findLibrary(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/lang/ClassLoader.<init>(Ljava/lang/ClassLoader;)V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+5 3 -1 1 -2 
+Constructors: 1
+5 -1
+
+Summary: 2
+-2 0 
+java/lang/ClassLoader.defineClassSourceLocation(Ljava/security/ProtectionDomain;)Ljava/lang/String;
+PTG:
+Vars:
+7
+r0 1 -2 
+$r2 1 12 
+r1 1 4 
+r5 1 25 
+r4 1 -1 
+_ret 1 25 
+$r3 1 19 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+18 1 4 
+19 1 19 
+11 1 4 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/lang/ClassLoader.setPackageAssertionStatus(Ljava/lang/String;Z)V
+PTG:
+Vars:
+6
+$r5 1 8 
+$r6 1 24 
+$r3 1 8 
+r0 1 -1 
+$r1 1 1 
+r4 1 -2 
+Fields: 2
+-1 packageAssertionStatus 8
+-1 assertionLock 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+7 1 -1 
+Functions: 3
+23 0 
+27 3 -2 8 24 
+15 3 -1 1 8 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/lang/ClassLoader.findNative(Ljava/lang/ClassLoader;Ljava/lang/String;)J
+PTG:
+Vars:
+7
+$r4 1 38 
+r6 1 -3 
+r2 2 5 11 
+r0 1 -2 
+$r9 2 5 11 
+r1 2 5 11 
+r5 1 38 
+Fields: 1
+-2 nativeLibraries 5
+Accesses: 1
+4 1 -2 
+Functions: 3
+19 2 5 11 
+35 2 5 11 
+46 2 -3 38 
+Constructors: 0
+
+Summary: 1
+-2 
+java/lang/ClassLoader.setDefaultAssertionStatus(Z)V
+PTG:
+Vars:
+3
+$r3 1 8 
+$r1 1 1 
+r0 1 -1 
+Fields: 2
+-1 classAssertionStatus 8
+-1 assertionLock 1
+Accesses: 3
+0 1 -1 
+20 1 -1 
+7 1 -1 
+Functions: 1
+15 3 -1 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/ClassLoader.defineClass(Ljava/lang/String;[BIILjava/security/ProtectionDomain;)Ljava/lang/Class;
+PTG:
+Vars:
+8
+r5 1 -6 
+r1 1 -2 
+r3 1 -3 
+r4 1 30 
+_ret 1 30 
+r0 1 -1 
+r6 1 7 
+r2 1 15 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 3 -1 -2 -6 
+17 5 -1 -2 -3 7 15 
+37 3 -1 7 30 
+9 2 -1 7 
+Constructors: 0
+
+Summary: 4
+1 4 -6 0 
+java/lang/ClassLoader.access$000()Ljava/util/Vector;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/lang/ClassLoader.getResources(Ljava/lang/String;)Ljava/util/Enumeration;
+PTG:
+Vars:
+11
+$r5 1 32 
+r1 1 1 
+$r9 1 22 
+$r7 1 44 
+r4 1 -2 
+$r3 1 9 
+_ret 1 44 
+$r6 1 40 
+r2 1 -1 
+$r0 1 1 
+$r8 1 9 
+Fields: 1
+-1 parent 9
+Accesses: 2
+17 1 -1 
+8 1 -1 
+Functions: 4
+49 2 1 44 
+18 2 -2 9 
+38 3 -1 -2 9 
+31 1 -2 
+Constructors: 1
+49 44
+
+Summary: 4
+1 -2 -1 0 
+java/lang/ClassLoader.getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+PTG:
+Vars:
+5
+r1 1 -2 
+r2 1 5 
+r0 1 -1 
+$r3 1 -1 
+$r5 1 11 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+10 1 5 
+Constructors: 0
+
+Summary: 4
+5 -2 -1 0 
+java/lang/ClassLoader.checkCreateClassLoader()Ljava/lang/Void;
+PTG:
+Vars:
+1
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 0 
+9 1 3 
+Constructors: 0
+
+Summary: 0
+
+java/lang/ClassLoader.defineClass([BII)Ljava/lang/Class;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 6 
+_ret 1 6 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+java/lang/ClassLoader.preDefineClass(Ljava/lang/String;Ljava/security/ProtectionDomain;)Ljava/security/ProtectionDomain;
+PTG:
+Vars:
+5
+r14 2 93 -3 
+r0 1 -1 
+$r2 1 101 
+r1 1 -2 
+_ret 2 93 -3 
+Fields: 1
+-1 defaultDomain 93
+Accesses: 1
+89 1 -1 
+Functions: 16
+0 3 -1 -2 93 
+64 1 -2 
+66 1 -2 
+100 2 -3 93 
+39 1 -2 
+104 4 -1 -2 101 93 
+75 0 
+12 0 
+16 0 
+81 0 
+52 0 
+21 1 -2 
+56 0 
+25 0 
+61 0 
+31 0 
+Constructors: 0
+
+Summary: 1
+1 
+java/lang/ClassLoader.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r3 1 7 
+r0 1 -1 
+r2 1 -3 
+_ret 1 7 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+java/lang/ClassLoader.registerAsParallelCapable()Z
+PTG:
+Vars:
+2
+r1 1 8 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+0 1 0 
+9 1 8 
+Constructors: 0
+
+Summary: 1
+8 
+java/lang/ClassLoader.<init>(Ljava/lang/Void;Ljava/lang/ClassLoader;)V
+PTG:
+Vars:
+14
+r0 1 -1 
+$r3 1 20 
+$r9 1 135 
+$r12 1 116 
+$r4 0 
+$r5 1 42 
+$r10 1 94 
+$r8 1 84 
+r7 1 -3 
+$r1 1 5 
+$r6 1 53 
+$r11 1 105 
+r13 1 -2 
+$r2 1 16 
+Fields: 0
+Accesses: 14
+65 1 -1 
+131 1 -1 
+101 1 -1 
+38 1 -1 
+70 1 -1 
+75 1 -1 
+12 1 -1 
+142 1 -1 
+80 1 -1 
+112 1 -1 
+49 1 -1 
+147 1 -1 
+123 1 -1 
+60 1 -1 
+Functions: 12
+1 1 -1 
+98 1 94 
+35 3 16 -1 20 
+83 1 -1 
+84 1 84 
+120 1 116 
+9 1 5 
+57 1 53 
+139 1 135 
+29 1 20 
+109 1 105 
+46 1 42 
+Constructors: 10
+1 -1
+98 94
+35 16
+120 116
+9 5
+57 53
+139 135
+29 20
+109 105
+46 42
+
+Summary: 5
+1 84 0 -2 20 
+java/lang/ClassLoader.resolveClass(Ljava/lang/Class;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/lang/ClassLoader.compareCerts([Ljava/security/cert/Certificate;[Ljava/security/cert/Certificate;)Z
+PTG:
+Vars:
+7
+r1 1 -2 
+r0 1 -3 
+$r2 1 117 
+r6 1 -1 
+$r4 1 58 
+$r5 1 54 
+$r3 1 113 
+Fields: 4
+-2 ArrayObject 113
+-2 ArrayObject 58
+-3 ArrayObject 117
+-3 ArrayObject 54
+Accesses: 0
+Functions: 2
+113 2 113 117 
+54 2 54 58 
+Constructors: 0
+
+Summary: 9
+1 113 -2 117 -1 58 -3 0 54 
+java/lang/ClassLoader.loadLibrary0(Ljava/lang/Class;Ljava/io/File;)Z
+PTG:
+Vars:
+43
+$r17 1 235 
+r2 1 -2 
+r0 1 -3 
+$r33 1 132 
+$r19 1 251 
+$r38 1 -1 
+r51 1 121 
+$r27 1 173 
+$r23 1 282 
+$r31 1 194 
+$r34 1 22 
+$r18 1 248 
+$r7 1 201 
+$r21 1 269 
+$r8 1 303 
+$r47 1 71 
+$r22 1 278 
+$r6 1 159 
+$r14 1 219 
+$r1 1 1 
+r50 2 89 83 
+$r5 1 152 
+$r24 1 287 
+$r49 2 89 83 
+$r25 1 290 
+$r36 1 -1 
+r16 1 224 
+$r32 1 121 
+r3 2 89 83 
+$r28 1 182 
+$r29 1 186 
+$r40 1 -1 
+$r9 1 315 
+$r11 1 331 
+r45 2 7 54 
+$r26 1 169 
+r48 1 71 
+$r30 1 191 
+$r35 1 30 
+$r20 1 265 
+$r42 1 343 
+$r15 1 224 
+$r13 1 361 
+Fields: 3
+71 nativeLibraries 83
+224 name 235
+121 name 132
+Accesses: 4
+81 1 71 
+353 1 303 
+130 1 121 
+233 1 224 
+Functions: 34
+0 1 -3 
+320 2 315 303 
+1 1 1 
+129 3 132 54 7 
+197 2 194 169 
+70 1 -2 
+328 3 54 7 303 
+201 1 201 
+269 1 269 
+334 1 331 
+273 1 269 
+22 1 22 
+278 3 278 54 7 
+282 1 282 
+346 1 343 
+27 2 -3 22 
+219 1 219 
+159 3 54 7 159 
+287 1 287 
+100 2 83 89 
+293 2 290 265 
+232 3 54 7 235 
+173 1 173 
+365 3 54 7 361 
+177 1 173 
+50 1 -3 
+372 3 83 89 303 
+117 2 83 89 
+182 3 182 54 7 
+246 2 224 235 
+310 4 -2 54 7 303 
+248 1 248 
+186 1 186 
+191 1 191 
+Constructors: 6
+177 173
+273 269
+197 169
+293 265
+310 303
+27 22
+
+Summary: 7
+0 71 303 1 -3 -2 251 
+java/lang/ClassLoader.getClassLoader(Ljava/lang/Class;)Ljava/lang/ClassLoader;
+PTG:
+Vars:
+3
+$r1 1 7 
+r0 1 -2 
+_ret 1 7 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 

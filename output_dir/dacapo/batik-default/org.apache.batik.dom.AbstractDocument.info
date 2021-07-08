@@ -1,0 +1,2212 @@
+83
+org/apache/batik/dom/AbstractDocument.getElementsByTagName(Lorg/w3c/dom/Node;Ljava/lang/String;)Lorg/apache/batik/dom/AbstractParentNode$ElementsByTagName;
+PTG:
+Vars:
+10
+r2 1 -2 
+$r7 1 30 
+r0 1 -1 
+$r3 1 1 
+r5 1 14 
+$r8 1 30 
+_ret 1 30 
+$r1 1 1 
+r6 1 -3 
+$r4 1 14 
+Fields: 1
+-1 elementsByTagNames 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+10 2 1 -2 
+27 2 -3 14 
+Constructors: 0
+
+Summary: 6
+-2 14 -1 1 -3 0 
+org/apache/batik/dom/AbstractDocument.getXblFirstChild()Lorg/w3c/dom/Node;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 5 
+_ret 1 5 
+r0 1 -1 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getDocumentURI()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 documentURI 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getChildElementById(Lorg/w3c/dom/Node;Ljava/lang/String;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+14
+$r7 1 133 
+r0 1 -3 
+$r2 1 14 
+r4 1 27 
+r19 1 148 
+r1 1 -1 
+r18 1 38 
+r3 1 -2 
+r6 1 119 
+r9 1 148 
+$r5 1 14 
+r8 1 133 
+$r10 1 175 
+r15 1 38 
+Fields: 1
+-1 elementsById 14
+Accesses: 3
+70 1 -1 
+28 1 -1 
+13 1 -1 
+Functions: 12
+112 1 38 
+131 1 119 
+4 1 -3 
+22 3 -1 -2 14 
+57 0 
+121 1 119 
+90 2 -1 14 
+75 1 -3 
+172 3 -1 148 14 
+29 2 -3 14 
+157 1 119 
+143 1 133 
+Constructors: 0
+
+Summary: 5
+-2 1 -1 -3 0 
+org/apache/batik/dom/AbstractDocument.getImplementation()Lorg/w3c/dom/DOMImplementation;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 implementation 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.setStrictErrorChecking(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getXblLastElementChild()Lorg/w3c/dom/Element;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 5 
+$r1 1 1 
+$r2 1 5 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getXmlStandalone()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.putElementsByTagNameNS(Lorg/w3c/dom/Node;Ljava/lang/String;Ljava/lang/String;Lorg/apache/batik/dom/AbstractParentNode$ElementsByTagNameNS;)V
+PTG:
+Vars:
+12
+r2 1 -2 
+$r12 1 8 
+r13 2 43 25 
+r5 1 -3 
+$r1 1 1 
+r0 1 -1 
+r6 1 -4 
+r7 1 -5 
+$r9 1 43 
+$r3 1 1 
+$r10 1 1 
+$r4 1 25 
+Fields: 1
+-1 elementsByTagNamesNS 1
+Accesses: 4
+0 1 -1 
+17 1 -1 
+20 1 -1 
+38 1 -1 
+Functions: 5
+21 2 1 -2 
+53 3 1 -2 43 
+14 1 8 
+47 1 43 
+63 5 -3 -4 -5 25 43 
+Constructors: 2
+14 8
+47 43
+
+Summary: 10
+-5 -2 1 2 43 -1 3 -3 -4 0 
+org/apache/batik/dom/AbstractDocument.adoptNode1(Lorg/apache/batik/dom/AbstractNode;)V
+PTG:
+Vars:
+10
+$r7 1 88 
+r9 1 88 
+r10 2 207 148 
+r0 1 -2 
+r6 1 66 
+$r2 1 119 
+$r3 2 207 148 
+r8 1 -2 
+$r4 1 127 
+r1 1 -1 
+Fields: 0
+Accesses: 3
+2 1 -2 
+51 1 -2 
+56 1 -2 
+Functions: 14
+97 1 88 
+130 2 -2 127 
+67 1 66 
+5 1 -2 
+198 3 -1 148 207 
+201 2 148 207 
+106 2 -1 88 
+141 2 -1 -2 
+144 1 -2 
+85 1 66 
+118 1 -2 
+153 2 148 207 
+62 1 -2 
+126 1 -2 
+Constructors: 0
+
+Summary: 7
+-2 207 127 88 148 119 66 
+org/apache/batik/dom/AbstractDocument.formatMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+PTG:
+Vars:
+6
+r2 1 -3 
+_ret 1 6 
+$r3 1 1 
+$r4 1 6 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 localizableSupport 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 -1 1 -3 0 
+org/apache/batik/dom/AbstractDocument.getXblNextSibling()Lorg/w3c/dom/Node;
+PTG:
+Vars:
+4
+_ret 1 5 
+$r1 1 1 
+$r2 1 5 
+r0 1 -1 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.cloneNode(Z)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+6
+$r4 1 38 
+r0 1 -1 
+_ret 1 1 
+r6 2 29 55 
+$r1 1 1 
+r2 1 1 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -1 
+49 2 55 29 
+18 2 -1 1 
+35 3 1 55 29 
+25 1 -1 
+10 2 -1 1 
+43 2 1 38 
+Constructors: 0
+
+Summary: 4
+29 -1 55 38 
+org/apache/batik/dom/AbstractDocument.checkChars(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r1 1 -1 
+$r2 1 6 
+r0 1 -2 
+Fields: 1
+-1 xmlVersion 6
+Accesses: 1
+5 1 -1 
+Functions: 6
+0 1 -2 
+53 1 -2 
+6 1 6 
+55 0 
+24 1 -2 
+26 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/batik/dom/AbstractDocument.checkChildType(Lorg/w3c/dom/Node;Z)V
+PTG:
+Vars:
+4
+$r7 1 134 
+$r2 1 147 
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -2 
+113 1 -2 
+146 1 -1 
+85 1 -1 
+133 1 -1 
+71 1 -1 
+89 0 
+169 0 
+153 1 -1 
+107 0 
+95 1 -1 
+175 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 159 76 0 
+org/apache/batik/dom/AbstractDocument.createTreeWalker(Lorg/w3c/dom/Node;ILorg/w3c/dom/traversal/NodeFilter;Z)Lorg/w3c/dom/traversal/TreeWalker;
+PTG:
+Vars:
+5
+r2 1 -4 
+$r3 1 6 
+r1 1 -2 
+_ret 1 6 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -4 
+Constructors: 0
+
+Summary: 3
+-2 -1 -4 
+org/apache/batik/dom/AbstractDocument.renameNode(Lorg/w3c/dom/Node;Ljava/lang/String;Ljava/lang/String;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+32
+r12 1 387 
+$r20 1 928 
+$r83 1 915 
+$r6 1 126 
+r80 1 -2 
+r64 1 -3 
+$r19 1 928 
+r11 1 235 
+_ret 1 878 
+r81 1 858 
+$r3 1 9 
+r82 1 878 
+r5 1 -4 
+$r41 1 324 
+$r47 1 315 
+$r21 1 943 
+r1 1 -2 
+$r4 1 83 
+$r16 1 900 
+r85 1 986 
+$r84 1 943 
+r2 1 -1 
+$r15 1 890 
+$r17 1 900 
+$r42 1 334 
+r13 1 395 
+r0 1 -2 
+$r14 1 878 
+$r40 1 305 
+$r22 1 986 
+$r18 1 915 
+$r93 1 986 
+Fields: 3
+-2 userData 900
+-2 userDataHandlers 928
+-1 xmlVersion 83
+Accesses: 11
+528 1 -2 
+82 1 -1 
+898 1 -2 
+500 1 -2 
+949 1 878 
+921 1 878 
+298 1 -1 
+938 1 -2 
+446 1 -1 
+910 1 -2 
+926 1 -2 
+Functions: 79
+259 2 -1 83 
+389 3 928 -2 900 
+135 2 -1 83 
+8 2 -1 83 
+15 2 -1 83 
+655 0 
+912 1 900 
+530 0 
+786 0 
+403 3 928 -2 900 
+276 0 
+152 0 
+282 3 928 -2 900 
+411 4 -1 -3 83 -4 
+28 3 928 -2 900 
+797 2 -1 83 
+158 3 928 -2 900 
+800 2 -1 83 
+422 3 928 -2 900 
+551 3 928 -2 900 
+807 2 -1 83 
+169 1 -4 
+681 5 -1 928 -2 83 900 
+684 2 -1 83 
+940 1 928 
+48 2 -1 83 
+560 3 928 -2 900 
+305 2 305 235 
+434 0 
+691 2 -1 83 
+566 3 928 -2 900 
+184 1 -4 
+315 2 -3 315 
+832 2 387 395 
+65 0 
+193 2 -1 83 
+577 3 928 -2 900 
+961 2 858 878 
+324 2 324 235 
+71 3 928 -2 900 
+455 0 
+583 0 
+840 2 -1 83 
+715 2 387 395 
+973 6 -1 928 -2 83 900 878 
+334 2 -3 334 
+590 3 928 -2 900 
+976 2 -1 83 
+210 0 
+466 2 -1 83 
+83 1 83 
+723 2 -1 83 
+853 3 928 -2 900 
+343 2 -1 83 
+983 2 -1 83 
+216 3 928 -2 900 
+603 0 
+94 1 -4 
+478 0 
+483 0 
+101 1 -4 
+613 0 
+869 4 928 -2 900 858 
+231 1 -4 
+743 0 
+360 0 
+875 4 -1 -3 83 -4 
+108 2 -1 83 
+366 3 928 -2 900 
+1008 4 387 986 395 878 
+241 1 -3 
+502 0 
+631 0 
+759 0 
+888 3 928 -2 900 
+1016 3 -1 83 986 
+125 3 928 -2 900 
+381 3 928 -2 900 
+893 2 890 878 
+Constructors: 0
+
+Summary: 30
+395 9 439 21 890 -1 502 141 265 986 490 530 810 748 126 617 54 349 199 480 518 596 694 409 578 114 858 427 387 567 
+org/apache/batik/dom/AbstractDocument.importNode(Lorg/w3c/dom/Node;Z)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+4
+r1 1 -2 
+_ret 1 4 
+$r2 1 4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/batik/dom/AbstractDocument.setLocale(Ljava/util/Locale;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 localizableSupport 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/batik/dom/AbstractDocument.<init>()V
+PTG:
+Vars:
+5
+$r4 1 36 
+$r1 1 5 
+$r2 1 12 
+r0 1 -1 
+$r3 1 15 
+Fields: 1
+-1 xmlVersion 27
+Accesses: 4
+32 1 -1 
+21 1 -1 
+27 1 -1 
+43 1 -1 
+Functions: 5
+1 2 -1 27 
+18 2 5 15 
+40 1 36 
+11 2 -1 27 
+12 1 12 
+Constructors: 3
+1 -1
+18 5
+40 36
+
+Summary: 4
+27 15 -1 12 
+org/apache/batik/dom/AbstractDocument.getLocale()Ljava/util/Locale;
+PTG:
+Vars:
+4
+$r2 1 4 
+_ret 1 4 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 localizableSupport 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.setDocumentURI(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/batik/dom/AbstractDocument.createNodeIterator(Lorg/w3c/dom/Node;ILorg/w3c/dom/traversal/NodeFilter;Z)Lorg/w3c/dom/traversal/NodeIterator;
+PTG:
+Vars:
+8
+$r4 1 1 
+r0 1 -1 
+$r5 1 28 
+_ret 1 28 
+$r1 1 1 
+r2 1 -2 
+$r6 1 8 
+r3 1 -4 
+Fields: 1
+-1 traversalSupport 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 2
+19 4 -1 1 -2 -4 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 3
+-2 -1 -4 
+org/apache/batik/dom/AbstractDocument.setXBLManager(Lorg/apache/batik/dom/xbl/XBLManager;)V
+PTG:
+Vars:
+6
+$r3 1 1 
+r5 2 -2 23 
+$r4 1 23 
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 xblManager 1
+Accesses: 4
+0 1 -1 
+33 1 -1 
+40 1 -1 
+10 1 -1 
+Functions: 4
+1 1 1 
+27 1 23 
+44 1 1 
+14 1 1 
+Constructors: 1
+27 23
+
+Summary: 2
+-1 0 
+org/apache/batik/dom/AbstractDocument.getXBLManager()Lorg/apache/batik/dom/xbl/XBLManager;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getXblScopedChildNodes()Lorg/w3c/dom/NodeList;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 5 
+$r2 1 5 
+$r1 1 1 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.detachNodeIterator(Lorg/w3c/dom/traversal/NodeIterator;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 traversalSupport 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/batik/dom/AbstractDocument.getXblLastChild()Lorg/w3c/dom/Node;
+PTG:
+Vars:
+4
+$r2 1 5 
+r0 1 -1 
+_ret 1 5 
+$r1 1 1 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getInputEncoding()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 inputEncoding 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getNodeType()S
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.updateIdEntry(Lorg/w3c/dom/Element;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r1 1 -4 
+r3 1 -2 
+r0 1 -3 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+21 3 -1 -2 -3 
+9 2 -3 -4 
+27 3 -1 -2 -4 
+Constructors: 0
+
+Summary: 7
+-2 -1 1 -3 -4 2 0 
+org/apache/batik/dom/AbstractDocument.addIdEntry(Lorg/w3c/dom/Element;Ljava/lang/String;)V
+PTG:
+Vars:
+9
+$r4 1 6 
+r1 1 -1 
+$r3 1 6 
+$r2 1 6 
+r33 1 83 
+r31 1 83 
+$r5 1 237 
+r0 1 -3 
+r6 1 -2 
+Fields: 1
+-1 elementsById 6
+Accesses: 8
+66 1 -1 
+212 1 -1 
+5 1 -1 
+73 1 -1 
+90 1 -1 
+27 1 -1 
+141 1 -1 
+30 1 -1 
+Functions: 17
+129 0 
+102 4 -1 -2 -3 6 
+105 1 -3 
+42 4 -1 -2 -3 6 
+74 2 -3 6 
+170 0 
+203 4 -1 -2 -3 6 
+45 1 -3 
+206 0 
+16 0 
+179 0 
+246 6 -1 -2 -3 83 6 237 
+153 4 -1 -2 -3 6 
+249 2 83 237 
+186 0 
+219 1 -3 
+156 1 -3 
+Constructors: 1
+246 237
+
+Summary: 11
+-2 194 146 1 35 165 -1 95 237 -3 0 
+org/apache/batik/dom/AbstractDocument.createNSResolver(Lorg/w3c/dom/Node;)Lorg/w3c/dom/xpath/XPathNSResolver;
+PTG:
+Vars:
+5
+r1 1 -1 
+_ret 1 0 
+$r3 1 0 
+$r4 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -1 -2 
+Constructors: 1
+6 0
+
+Summary: 2
+-2 -1 
+org/apache/batik/dom/AbstractDocument.getXblDefinitions()Lorg/w3c/dom/NodeList;
+PTG:
+Vars:
+4
+_ret 1 5 
+r0 1 -1 
+$r2 1 5 
+$r1 1 1 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.setXmlVersion(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 1
+41 1 -1 
+Functions: 3
+4 1 -2 
+22 1 -1 
+13 1 -2 
+Constructors: 0
+
+Summary: 2
+28 0 
+org/apache/batik/dom/AbstractDocument.putElementsByTagName(Lorg/w3c/dom/Node;Ljava/lang/String;Lorg/apache/batik/dom/AbstractParentNode$ElementsByTagName;)V
+PTG:
+Vars:
+11
+$r8 1 43 
+r2 1 -2 
+r0 1 -1 
+r6 1 -4 
+$r1 1 1 
+$r3 1 1 
+r12 2 43 25 
+$r11 1 8 
+r5 1 -3 
+$r9 1 1 
+$r4 1 25 
+Fields: 1
+-1 elementsByTagNames 1
+Accesses: 4
+0 1 -1 
+17 1 -1 
+20 1 -1 
+38 1 -1 
+Functions: 5
+21 2 1 -2 
+53 3 1 -2 43 
+14 1 8 
+62 4 -3 -4 25 43 
+47 1 43 
+Constructors: 2
+14 8
+47 43
+
+Summary: 6
+-2 43 -1 25 -3 -4 
+org/apache/batik/dom/AbstractDocument.normalizeDocument()V
+PTG:
+Vars:
+13
+$r11 1 98 
+$r2 1 1 
+$r8 1 1 
+$r6 1 1 
+r10 1 88 
+$r3 1 1 
+$r7 1 1 
+$r4 1 1 
+$r9 1 88 
+$r12 1 8 
+$r5 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 domConfig 1
+Accesses: 9
+0 1 -1 
+16 1 -1 
+49 1 -1 
+82 1 -1 
+19 1 -1 
+39 1 -1 
+71 1 -1 
+60 1 -1 
+29 1 -1 
+Functions: 10
+112 4 -1 1 98 88 
+97 2 -1 1 
+50 1 1 
+83 1 1 
+20 1 1 
+40 1 1 
+72 1 1 
+13 3 -1 1 8 
+61 1 1 
+30 1 1 
+Constructors: 1
+13 8
+
+Summary: 3
+98 88 -1 
+org/apache/batik/dom/AbstractDocument.getDomConfig()Lorg/w3c/dom/DOMConfiguration;
+PTG:
+Vars:
+6
+$r2 1 1 
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+$r5 1 1 
+$r4 1 8 
+Fields: 1
+-1 domConfig 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+19 1 -1 
+Functions: 1
+13 3 -1 1 8 
+Constructors: 1
+13 8
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.createExpression(Ljava/lang/String;Lorg/w3c/dom/xpath/XPathNSResolver;)Lorg/w3c/dom/xpath/XPathExpression;
+PTG:
+Vars:
+6
+r2 1 -2 
+$r4 1 0 
+$r5 1 0 
+_ret 1 0 
+r1 1 -1 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 4 0 -1 -2 -3 
+Constructors: 1
+7 0
+
+Summary: 3
+-2 -1 -3 
+org/apache/batik/dom/AbstractDocument.setXmlStandalone(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getXmlVersion()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 xmlVersion 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.setTextContent(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/batik/dom/AbstractDocument.getDocumentElement()Lorg/w3c/dom/Element;
+PTG:
+Vars:
+2
+r2 2 30 4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+24 2 4 30 
+9 2 4 30 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.setEventsEnabled(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+17
+r17 1 46 
+$r6 1 25 
+$r10 1 54 
+r0 1 -2 
+$r15 1 69 
+$r12 1 -1 
+$r14 1 -1 
+$r16 1 69 
+r1 1 -1 
+$r9 0 
+$r5 1 25 
+$r11 1 54 
+$r2 1 5 
+$r8 0 
+$r4 1 15 
+$r3 1 12 
+r7 1 34 
+Fields: 0
+Accesses: 3
+21 1 -1 
+75 1 -1 
+60 1 -1 
+Functions: 9
+48 1 46 
+1 1 -2 
+18 2 5 15 
+35 1 34 
+68 1 34 
+24 1 -2 
+11 1 -1 
+12 1 12 
+28 1 25 
+Constructors: 1
+18 5
+
+Summary: 7
+-2 15 -1 25 34 12 46 
+org/apache/batik/dom/AbstractDocument.createEvent(Ljava/lang/String;)Lorg/w3c/dom/events/Event;
+PTG:
+Vars:
+9
+$r3 1 1 
+r0 1 -1 
+$r7 1 15 
+$r6 1 9 
+$r5 1 9 
+_ret 1 26 
+r2 1 -2 
+$r4 1 26 
+$r1 1 1 
+Fields: 2
+-1 documentEventSupport 1
+-1 implementation 9
+Accesses: 4
+0 1 -1 
+18 1 -1 
+21 1 -1 
+8 1 -1 
+Functions: 2
+22 2 1 -2 
+12 1 9 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/batik/dom/AbstractDocument.getElementsByTagNameNS(Lorg/w3c/dom/Node;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/batik/dom/AbstractParentNode$ElementsByTagNameNS;
+PTG:
+Vars:
+11
+r0 1 -1 
+r7 1 -4 
+$r4 1 14 
+_ret 1 33 
+$r8 1 33 
+r6 1 -3 
+r2 1 -2 
+$r1 1 1 
+$r3 1 1 
+r5 1 14 
+$r9 1 33 
+Fields: 1
+-1 elementsByTagNamesNS 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+10 2 1 -2 
+29 3 -3 -4 14 
+Constructors: 0
+
+Summary: 7
+-2 -1 1 -3 -4 2 0 
+org/apache/batik/dom/AbstractDocument.getNodeName()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.setDocumentXmlEncoding(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getCurrentDocument()Lorg/apache/batik/dom/AbstractDocument;
+PTG:
+Vars:
+2
+_ret 1 -1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/batik/dom/AbstractDocument.getStrictErrorChecking()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.nodeToBeRemoved(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+$r3 1 1 
+r2 1 -2 
+r0 1 -1 
+Fields: 1
+-1 traversalSupport 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/batik/dom/AbstractDocument.setDocumentInputEncoding(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/batik/dom/AbstractDocument.deepExport(Lorg/w3c/dom/Node;Lorg/w3c/dom/Document;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+5
+$r2 1 9 
+r0 1 -1 
+$r1 1 6 
+r4 1 -3 
+r3 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 6 
+Constructors: 0
+
+Summary: 4
+-2 -1 6 -3 
+org/apache/batik/dom/AbstractDocument.createXPathException(SLjava/lang/String;[Ljava/lang/Object;)Lorg/w3c/dom/xpath/XPathException;
+PTG:
+Vars:
+8
+r2 1 -3 
+$r0 1 0 
+$r4 1 8 
+_ret 1 17 
+r3 1 -4 
+$r7 1 17 
+$r5 1 -1 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+5 3 -1 -3 -4 
+23 2 17 -3 
+11 2 0 8 
+Constructors: 2
+23 17
+11 0
+
+Summary: 4
+-1 -3 -4 8 
+org/apache/batik/dom/AbstractDocument.getXblPreviousSibling()Lorg/w3c/dom/Node;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+_ret 1 5 
+$r2 1 5 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.normalizeDocument(Lorg/w3c/dom/Element;ZZZZZZLorg/w3c/dom/DOMErrorHandler;)Z
+PTG:
+Vars:
+104
+$r118 2 1250 1859 
+r115 1 1408 
+$r10 1 1614 
+$r46 1 1005 
+$r20 1 1585 
+$r32 1 1188 
+r95 1 547 
+$r53 1 950 
+$r59 1 707 
+$r24 1 1374 
+r5 1 -9 
+$r52 1 945 
+r97 1 649 
+$r70 1 61 
+$r31 1 1103 
+$r38 1 1136 
+$r51 1 936 
+r85 1 153 
+$r42 1 783 
+$r19 1 1566 
+$r21 1 1599 
+$r54 1 953 
+r84 1 130 
+$r15 1 1642 
+$r56 1 693 
+$r64 1 475 
+r110 1 1069 
+$r12 1 1722 
+$r36 1 1225 
+$r37 1 1129 
+$r14 1 1755 
+$r103 1 867 
+$r25 1 1388 
+$r43 1 1049 
+r1 1 -2 
+$r22 1 1350 
+r104 1 899 
+$r68 1 499 
+$r41 1 738 
+$r50 1 927 
+r101 1 783 
+$r107 1 984 
+$r99 2 710 688 
+r113 2 1250 1859 
+$r58 1 702 
+r108 1 990 
+$r6 1 1464 
+$r17 1 1658 
+$r30 1 1090 
+$r29 1 1813 
+r4 1 -1 
+r89 2 386 400 
+r80 6 386 400 170 425 12 297 
+r83 2 77 130 
+$r33 1 1193 
+r93 1 475 
+$r48 1 1019 
+r88 1 297 
+r100 1 762 
+r117 1 1678 
+$r3 1 447 
+$r34 1 1206 
+r111 1 1090 
+$r11 1 1717 
+$r28 1 1804 
+r86 1 170 
+$r2 1 438 
+$r109 1 996 
+$r8 1 1488 
+r94 1 492 
+$r61 1 618 
+$r35 1 1216 
+$r40 1 724 
+$r27 1 1797 
+r87 7 386 400 170 425 12 297 219 
+$r9 1 1502 
+r90 1 436 
+$r76 1 114 
+r114 1 1323 
+$r16 1 1649 
+r116 1 1522 
+r0 1 -2 
+r102 1 800 
+$r55 1 669 
+$r72 1 192 
+$r112 1 1161 
+$r106 1 979 
+$r26 1 1771 
+$r7 1 1469 
+r44 1 814 
+$r23 1 1355 
+r98 1 662 
+$r18 1 1561 
+$r49 1 1022 
+$r105 1 969 
+$r66 1 551 
+r81 6 386 400 170 425 12 297 
+r96 1 603 
+$r65 1 511 
+$r69 1 48 
+$r39 1 1145 
+$r13 1 1741 
+$r62 1 618 
+$r47 1 1014 
+Fields: 0
+Accesses: 0
+Functions: 154
+769 1 762 
+1027 3 800 -2 1022 
+260 6 400 386 425 297 170 12 
+6 1 -2 
+1802 2 1250 1859 
+779 1 762 
+1036 2 990 783 
+1550 2 -9 1599 
+1552 4 -1 1250 1859 1561 
+19 6 400 386 425 297 170 12 
+533 2 438 475 
+1047 1 783 
+793 1 783 
+282 7 400 386 425 297 170 219 12 
+540 1 475 
+290 6 400 386 425 297 170 12 
+1570 2 1250 1859 
+1826 4 -1 1250 1859 -9 
+1316 2 1250 1859 
+549 1 475 
+551 1 551 
+807 1 783 
+1063 1 -2 
+1577 1 1566 
+1325 2 -1 1323 
+302 7 400 -2 386 425 297 170 12 
+1583 2 1250 1859 
+52 1 48 
+564 1 547 
+1076 1 1069 
+821 1 814 
+59 6 400 386 425 297 170 12 
+1339 2 -9 1388 
+1852 2 1250 1859 
+1341 4 -1 1250 1859 1350 
+1086 1 1069 
+831 1 814 
+66 2 48 61 
+70 6 400 386 425 297 170 12 
+326 9 -1 400 -2 386 -9 425 297 170 12 
+583 3 547 492 447 
+841 1 800 
+1100 2 -1 1103 
+1612 2 1250 1859 
+1101 1 1090 
+1614 1 1614 
+1359 2 1250 1859 
+84 2 130 77 
+598 1 438 
+1366 1 1355 
+1372 2 1250 1859 
+605 1 603 
+863 2 -2 814 
+1119 2 -9 1145 
+1632 2 -9 1658 
+1121 3 -1 1090 1129 
+354 9 -1 400 -2 386 -9 425 297 170 12 
+1634 4 -1 1250 1859 1642 
+99 2 130 77 
+616 1 603 
+1134 1 1090 
+1647 2 1250 1859 
+112 2 130 77 
+626 2 -2 618 
+882 2 800 867 
+119 2 48 114 
+1401 2 1250 1859 
+123 2 130 77 
+379 6 400 386 425 297 170 12 
+892 2 800 -2 
+1410 2 -1 1408 
+643 1 -2 
+1158 2 -1 1161 
+135 3 -2 130 77 
+1159 1 1090 
+1671 2 1250 1859 
+393 6 400 386 425 297 170 12 
+1419 1 1408 
+910 2 899 783 
+656 1 -2 
+1680 2 -1 1678 
+148 1 48 
+405 7 400 -2 386 425 297 170 12 
+1431 1 1408 
+664 3 -1 649 669 
+665 2 -2 662 
+1177 2 -9 1225 
+1433 1 1408 
+1689 1 1678 
+155 1 153 
+923 2 -2 814 
+1179 3 -1 1090 1188 
+418 6 400 386 425 297 170 12 
+163 2 130 77 
+936 1 936 
+1706 2 -9 1755 
+940 1 936 
+1708 4 -1 1250 1859 1717 
+1453 2 -9 1502 
+430 1 -2 
+1198 1 1193 
+175 3 -2 130 77 
+1455 4 -1 1250 1859 1464 
+945 2 945 814 
+1204 1 1090 
+693 1 693 
+950 1 950 
+697 1 693 
+442 1 438 
+188 2 192 153 
+190 6 400 386 425 297 170 12 
+702 2 662 702 
+958 3 800 -2 953 
+1214 1 1090 
+1726 2 1250 1859 
+1473 2 1250 1859 
+451 1 447 
+707 1 707 
+1733 1 1722 
+1480 1 1469 
+969 1 969 
+715 4 688 -2 710 649 
+1739 2 1250 1859 
+461 1 436 
+973 1 969 
+1486 2 1250 1859 
+723 1 -2 
+979 1 979 
+213 2 -1 153 
+471 1 436 
+984 1 984 
+1244 1 -2 
+735 1 -2 
+992 2 -2 990 
+226 7 400 -2 386 425 297 170 12 
+485 1 475 
+1768 2 -1 1771 
+1257 2 1250 1859 
+1769 2 1250 1859 
+1515 2 1250 1859 
+1005 1 1005 
+751 1 -2 
+1009 1 1005 
+243 7 400 386 425 297 153 170 12 
+499 2 499 492 
+756 1 -2 
+1524 2 -1 1522 
+1014 2 1014 990 
+1019 1 1019 
+1787 2 1813 -9 
+509 1 475 
+1533 1 1522 
+1789 4 -1 1250 1859 1797 
+511 1 511 
+Constructors: 12
+1009 1005
+451 447
+52 48
+1733 1722
+1366 1355
+1480 1469
+697 693
+1577 1566
+442 438
+940 936
+973 969
+1198 1193
+
+Summary: 81
+130 979 814 669 990 1797 724 -1 936 603 702 1350 -2 1599 77 1464 48 475 1388 1250 1019 969 297 1642 1859 984 1188 1161 950 1561 114 447 710 511 1755 1813 12 1103 762 783 551 867 649 1049 707 547 1090 1145 945 219 153 1005 693 1022 61 492 386 899 400 1502 996 -9 1614 438 192 170 953 662 425 436 618 1014 1069 1225 800 1771 1658 1129 1717 738 927 
+org/apache/batik/dom/AbstractDocument.getElementById(Ljava/lang/String;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+5
+r2 1 -2 
+r0 1 -1 
+_ret 1 6 
+$r1 1 2 
+$r3 1 6 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 2 
+1 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/batik/dom/AbstractDocument.getXblPreviousElementSibling()Lorg/w3c/dom/Element;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r2 1 5 
+_ret 1 5 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.checkName(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 xmlVersion 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 1 1 
+17 1 -2 
+12 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/batik/dom/AbstractDocument.getXblBoundElement()Lorg/w3c/dom/Element;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 5 
+_ret 1 5 
+$r1 1 1 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.splitCdata(Lorg/w3c/dom/Element;Lorg/w3c/dom/Node;Lorg/w3c/dom/DOMErrorHandler;)Z
+PTG:
+Vars:
+12
+r9 1 -4 
+r3 1 45 
+$r12 1 72 
+r2 1 34 
+$r7 1 88 
+r6 1 -1 
+$r10 1 113 
+r4 1 61 
+r5 1 -2 
+r1 1 6 
+$r11 1 118 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -3 
+50 2 -3 34 
+36 1 6 
+69 2 -1 45 
+85 2 -1 45 
+55 1 -3 
+103 2 -4 118 
+8 1 6 
+24 1 6 
+104 3 -1 113 -3 
+75 2 -2 72 
+93 3 -2 88 61 
+Constructors: 0
+
+Summary: 12
+-2 72 88 -1 113 45 118 34 -3 -4 6 61 
+org/apache/batik/dom/AbstractDocument.copyInto(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+12
+$r5 1 20 
+r1 1 -2 
+$r4 1 13 
+$r6 1 27 
+$r11 1 73 
+_ret 1 -2 
+$r9 1 49 
+$r7 1 30 
+$r8 1 41 
+r3 1 -2 
+r0 1 -1 
+$r10 1 57 
+Fields: 5
+-1 documentURI 73
+-1 implementation 13
+-1 inputEncoding 41
+-1 xmlVersion 57
+-1 xmlEncoding 49
+Accesses: 15
+64 1 -1 
+36 1 -2 
+68 1 -2 
+40 1 -1 
+72 1 -1 
+12 1 -1 
+44 1 -2 
+76 1 -2 
+16 1 -2 
+48 1 -1 
+80 1 -1 
+52 1 -2 
+84 1 -2 
+56 1 -1 
+60 1 -2 
+Functions: 4
+33 2 20 30 
+2 7 -1 49 -2 73 41 57 13 
+26 6 -1 49 73 41 57 13 
+27 1 27 
+Constructors: 1
+33 20
+
+Summary: 4
+-1 30 27 0 
+org/apache/batik/dom/AbstractDocument.getXblFirstElementChild()Lorg/w3c/dom/Element;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 5 
+$r1 1 1 
+$r2 1 5 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.canDispatch(Ljava/lang/String;Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r0 1 -3 
+r1 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 11
+32 1 -3 
+50 1 -3 
+68 1 -3 
+86 1 -3 
+23 1 -2 
+104 1 -3 
+41 1 -3 
+10 1 -2 
+59 1 -3 
+77 1 -3 
+95 1 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+org/apache/batik/dom/AbstractDocument.getXblShadowTree()Lorg/w3c/dom/Element;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+_ret 1 5 
+$r2 1 5 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getRoot(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+4
+_ret 2 -2 14 
+r1 2 -2 14 
+r2 2 -2 14 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 2 -2 14 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/batik/dom/AbstractDocument.export(Lorg/w3c/dom/Node;Lorg/w3c/dom/Document;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+5
+r3 1 -2 
+$r1 1 6 
+r0 1 -1 
+$r2 1 9 
+r4 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 6 
+Constructors: 0
+
+Summary: 4
+-2 -1 6 -3 
+org/apache/batik/dom/AbstractDocument.getXblParentNode()Lorg/w3c/dom/Node;
+PTG:
+Vars:
+4
+$r2 1 5 
+$r1 1 1 
+_ret 1 5 
+r0 1 -1 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getXblChildNodes()Lorg/w3c/dom/NodeList;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 5 
+_ret 1 5 
+r0 1 -1 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.adoptNode(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+6
+$r8 1 -2 
+r1 1 -1 
+_ret 1 -2 
+r7 1 136 
+r6 1 -2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 11
+96 1 -1 
+130 1 -2 
+115 0 
+69 1 -1 
+56 1 -1 
+9 1 -2 
+89 1 -2 
+121 1 -2 
+154 2 -1 -2 
+111 1 -2 
+143 2 -2 136 
+Constructors: 0
+
+Summary: 5
+62 102 -1 136 75 
+org/apache/batik/dom/AbstractDocument.getEventsEnabled()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.deepCopyInto(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+8
+$r5 1 20 
+r1 1 -2 
+$r7 1 30 
+r3 1 -2 
+_ret 1 -2 
+$r4 1 13 
+r0 1 -1 
+$r6 1 27 
+Fields: 1
+-1 implementation 13
+Accesses: 3
+16 1 -2 
+36 1 -2 
+12 1 -1 
+Functions: 4
+33 2 20 30 
+2 3 -1 -2 13 
+26 2 -1 13 
+27 1 27 
+Constructors: 1
+33 20
+
+Summary: 4
+-1 30 27 0 
+org/apache/batik/dom/AbstractDocument.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+$r2 1 6 
+r1 1 -1 
+$r4 1 12 
+$r3 1 9 
+Fields: 1
+-1 implementation 6
+Accesses: 1
+5 1 -1 
+Functions: 4
+1 1 -2 
+6 1 6 
+9 1 9 
+15 2 -2 12 
+Constructors: 0
+
+Summary: 4
+-2 -1 9 12 
+org/apache/batik/dom/AbstractDocument.evaluate(Ljava/lang/String;Lorg/w3c/dom/Node;Lorg/w3c/dom/xpath/XPathNSResolver;SLjava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+8
+r2 1 -4 
+r3 1 6 
+$r6 1 15 
+r4 1 -3 
+r0 1 -1 
+r5 1 -6 
+_ret 1 15 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -4 
+8 3 -3 -6 6 
+Constructors: 0
+
+Summary: 6
+-2 -1 -6 -3 -4 6 
+org/apache/batik/dom/AbstractDocument.removeIdEntry(Lorg/w3c/dom/Element;Ljava/lang/String;)V
+PTG:
+Vars:
+13
+r0 1 -3 
+$r2 1 6 
+r7 1 76 
+$r5 1 6 
+r11 1 90 
+r17 1 30 
+$r3 1 6 
+r1 1 -1 
+r6 1 30 
+r12 1 -2 
+$r10 1 90 
+r18 1 105 
+$r8 1 6 
+Fields: 1
+-1 elementsById 6
+Accesses: 5
+48 1 -1 
+20 1 -1 
+5 1 -1 
+151 1 -1 
+13 1 -1 
+Functions: 10
+114 1 76 
+130 1 76 
+100 1 90 
+21 2 -3 6 
+53 1 -3 
+69 1 30 
+88 1 76 
+156 2 -3 6 
+141 1 30 
+78 1 76 
+Constructors: 0
+
+Summary: 5
+-2 -1 1 -3 0 
+org/apache/batik/dom/AbstractDocument.importNode(Lorg/w3c/dom/Node;ZZ)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+22
+$r13 1 72 
+$r7 1 255 
+$r15 1 126 
+r16 1 126 
+$r6 1 276 
+$r17 1 153 
+$r10 1 200 
+$r2 1 368 
+$r11 1 206 
+$r5 1 270 
+$r4 1 293 
+r14 1 101 
+r22 1 80 
+$r8 1 238 
+r18 1 153 
+r24 2 355 384 
+r23 8 263 80 246 301 312 214 229 284 
+$r9 1 221 
+_ret 8 263 80 246 301 312 214 229 284 
+r0 1 -2 
+r1 1 -1 
+$r12 1 66 
+Fields: 0
+Accesses: 0
+Functions: 34
+0 1 -2 
+64 3 -1 66 72 
+65 1 -2 
+198 3 -1 200 206 
+71 1 -2 
+199 1 -2 
+136 1 126 
+268 3 -1 276 270 
+205 1 -2 
+269 1 -2 
+275 1 -2 
+149 2 -1 126 
+86 1 -2 
+342 10 -1 80 -2 229 246 214 263 312 284 301 
+219 2 -1 221 
+220 1 -2 
+349 1 -2 
+95 1 -2 
+291 2 -1 293 
+292 1 -2 
+165 1 153 
+103 1 101 
+236 2 -1 238 
+364 3 -1 384 355 
+237 1 -2 
+176 1 153 
+371 9 80 368 229 246 214 263 312 284 301 
+308 1 -1 
+183 2 80 153 
+377 2 384 355 
+122 1 101 
+253 2 -1 255 
+317 1 -1 
+254 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 323 0 
+org/apache/batik/dom/AbstractDocument.getXblNextElementSibling()Lorg/w3c/dom/Element;
+PTG:
+Vars:
+4
+_ret 1 5 
+$r1 1 1 
+$r2 1 5 
+r0 1 -1 
+Fields: 1
+-1 xblManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.getXmlEncoding()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 xmlEncoding 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.createDOMError(Ljava/lang/String;SLjava/lang/String;[Ljava/lang/Object;Lorg/w3c/dom/Node;Ljava/lang/Exception;)Lorg/w3c/dom/DOMError;
+PTG:
+Vars:
+13
+r2 1 -2 
+r7 1 -6 
+r5 1 -5 
+r8 1 -7 
+$r3 1 8 
+r1 1 -1 
+$r6 1 14 
+$r15 1 27 
+$r9 1 -1 
+_ret 1 27 
+$r12 1 0 
+$r13 1 27 
+r4 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 4
+21 6 0 -1 -2 -6 -7 14 
+7 1 -1 
+39 6 -1 -2 -4 -6 -7 27 
+8 3 -4 -5 8 
+Constructors: 2
+21 0
+39 27
+
+Summary: 8
+-5 -2 14 -1 -6 -4 8 -7 
+org/apache/batik/dom/AbstractDocument.getDoctype()Lorg/w3c/dom/DocumentType;
+PTG:
+Vars:
+2
+r0 1 -1 
+r2 2 4 31 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+9 2 4 31 
+25 2 4 31 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/dom/AbstractDocument.<init>(Lorg/w3c/dom/DocumentType;Lorg/w3c/dom/DOMImplementation;)V
+PTG:
+Vars:
+9
+r5 1 -3 
+r0 1 -1 
+r6 1 -2 
+$r4 1 36 
+$r3 1 15 
+$r9 1 68 
+$r1 1 5 
+r8 1 -2 
+$r2 1 12 
+Fields: 1
+-1 xmlVersion 27
+Accesses: 5
+32 1 -1 
+48 1 -1 
+21 1 -1 
+27 1 -1 
+43 1 -1 
+Functions: 8
+1 2 -1 27 
+81 3 -1 -2 27 
+18 2 5 15 
+67 1 -2 
+40 1 36 
+11 2 -1 27 
+12 1 12 
+76 3 -1 -2 27 
+Constructors: 3
+1 -1
+18 5
+40 36
+
+Summary: 5
+-2 68 1 12 0 
+org/apache/batik/dom/AbstractDocument.setDoctype(Lorg/w3c/dom/DocumentType;)V
+PTG:
+Vars:
+3
+$r3 1 -2 
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 2 -1 -2 
+15 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 

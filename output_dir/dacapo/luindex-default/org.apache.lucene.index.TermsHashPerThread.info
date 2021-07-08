@@ -1,0 +1,298 @@
+10
+org/apache/lucene/index/TermsHashPerThread.addField(Lorg/apache/lucene/index/DocInverterPerField;Lorg/apache/lucene/index/FieldInfo;)Lorg/apache/lucene/index/InvertedDocConsumerPerField;
+PTG:
+Vars:
+6
+r1 1 -2 
+r3 1 -3 
+$r0 1 0 
+r2 1 -1 
+$r4 1 7 
+_ret 1 0 
+Fields: 1
+-1 nextPerThread 7
+Accesses: 1
+6 1 -1 
+Functions: 1
+11 5 0 -1 -2 -3 7 
+Constructors: 1
+11 0
+
+Summary: 4
+-1 -2 -3 0 
+org/apache/lucene/index/TermsHashPerThread.noNullPostings([Lorg/apache/lucene/index/RawPostingList;ILjava/lang/String;)Z
+PTG:
+Vars:
+3
+$r1 1 15 
+r0 1 -2 
+r9 1 -4 
+Fields: 1
+-2 ArrayObject 15
+Accesses: 0
+Functions: 9
+32 0 
+50 1 -4 
+36 0 
+54 0 
+23 0 
+41 0 
+27 0 
+60 0 
+45 0 
+Constructors: 0
+
+Summary: 5
+0 2 -2 -4 15 
+org/apache/lucene/index/TermsHashPerThread.finishDocument()Lorg/apache/lucene/index/DocumentsWriter$DocWriter;
+PTG:
+Vars:
+8
+$r1 1 1 
+r2 1 7 
+r0 1 -1 
+$r3 1 9 
+$r4 1 9 
+$r5 1 19 
+r6 1 25 
+_ret 1 7 
+Fields: 3
+-1 consumer 1
+-1 nextPerThread 9
+9 consumer 19
+Accesses: 4
+0 1 -1 
+16 1 9 
+8 1 -1 
+15 1 -1 
+Functions: 3
+1 1 1 
+19 1 19 
+39 2 7 25 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/TermsHashPerThread.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 2 18 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/TermsHashPerThread.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r4 1 6 
+r0 1 -2 
+$r1 1 1 
+$r2 1 -1 
+$r5 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/lucene/index/TermsHashPerThread.abort()V
+PTG:
+Vars:
+4
+$r3 1 13 
+$r2 1 13 
+r0 1 -1 
+$r1 1 6 
+Fields: 2
+-1 consumer 6
+-1 nextPerThread 13
+Accesses: 3
+19 1 -1 
+5 1 -1 
+12 1 -1 
+Functions: 3
+2 3 -1 6 13 
+23 1 13 
+9 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/TermsHashPerThread.morePostings()V
+PTG:
+Vars:
+10
+$r3 1 26 
+$r9 1 74 
+r0 1 -1 
+$r1 1 26 
+$r7 1 68 
+$r8 1 71 
+$r5 1 26 
+$r6 1 64 
+$r4 1 55 
+$r2 1 22 
+Fields: 3
+-1 consumer 68
+-1 termsHash 22
+-1 freePostings 26
+Accesses: 8
+33 1 -1 
+51 1 -1 
+67 1 -1 
+21 1 -1 
+6 1 -1 
+38 1 -1 
+25 1 -1 
+47 1 -1 
+Functions: 8
+64 2 64 68 
+17 0 
+55 1 55 
+71 1 71 
+87 0 
+74 2 26 74 
+59 1 55 
+29 2 22 26 
+Constructors: 1
+59 55
+
+Summary: 1
+-1 
+org/apache/lucene/index/TermsHashPerThread.<init>(Lorg/apache/lucene/index/DocInverterPerThread;Lorg/apache/lucene/index/TermsHash;Lorg/apache/lucene/index/TermsHash;Lorg/apache/lucene/index/TermsHashPerThread;)V
+PTG:
+Vars:
+18
+$r3 1 16 
+$r14 1 108 
+$r12 1 100 
+r0 1 -1 
+r7 1 -4 
+r2 1 -2 
+$r9 1 69 
+$r15 1 129 
+$r13 1 49 
+$r1 1 8 
+r4 1 -3 
+r8 1 -5 
+$r11 1 49 
+$r10 1 81 
+$r6 1 33 
+$r16 1 44 
+$r5 1 29 
+$r17 1 49 
+Fields: 5
+-5 charPool 69
+-2 docState 16
+-3 docWriter 49
+-3 consumer 29
+49 byteBlockAllocator 108
+Accesses: 21
+96 1 -1 
+67 1 -5 
+36 1 -1 
+132 1 -1 
+72 1 -1 
+104 1 -3 
+105 1 49 
+11 1 -1 
+140 1 -1 
+77 1 -1 
+15 1 -2 
+111 1 -3 
+48 1 -3 
+19 1 -1 
+85 1 -3 
+118 1 -1 
+55 1 -1 
+24 1 -1 
+89 1 -3 
+28 1 -3 
+60 1 -1 
+Functions: 6
+1 1 -1 
+115 2 100 108 
+52 3 49 44 108 
+29 2 -1 29 
+93 3 81 49 108 
+126 4 16 -1 -2 -4 
+Constructors: 4
+1 -1
+115 100
+52 44
+93 81
+
+Summary: 8
+-1 -5 1 0 2 -2 3 -4 
+org/apache/lucene/index/TermsHashPerThread.reset(Z)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r1 1 1 
+$r2 1 8 
+$r3 1 37 
+$r5 1 22 
+$r4 1 33 
+Fields: 5
+-1 bytePool 8
+-1 charPool 22
+-1 termsHash 33
+-1 freePostings 37
+-1 intPool 1
+Accesses: 8
+0 1 -1 
+32 1 -1 
+49 1 -1 
+36 1 -1 
+21 1 -1 
+7 1 -1 
+40 1 -1 
+14 1 -1 
+Functions: 4
+4 1 1 
+25 1 22 
+11 1 8 
+44 2 33 37 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/TermsHashPerThread.startDocument()V
+PTG:
+Vars:
+5
+$r1 1 1 
+$r4 1 18 
+$r2 1 8 
+$r3 1 8 
+r0 1 -1 
+Fields: 3
+-1 consumer 1
+-1 nextPerThread 8
+8 consumer 18
+Accesses: 4
+0 1 -1 
+7 1 -1 
+14 1 -1 
+15 1 8 
+Functions: 2
+4 1 1 
+21 1 18 
+Constructors: 0
+
+Summary: 1
+-1 

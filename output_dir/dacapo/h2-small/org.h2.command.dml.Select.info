@@ -1,0 +1,2056 @@
+45
+org/h2/command/dml/Select.setOrder(Lorg/h2/util/ObjectArray;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/command/dml/Select.addTableFilter(Lorg/h2/table/TableFilter;Z)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 1 
+$r3 1 13 
+r0 1 -1 
+Fields: 2
+-1 topFilters 13
+-1 filters 1
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 2
+17 2 -2 13 
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/command/dml/Select.getCurrentGroup()Ljava/util/HashMap;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 currentGroup 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.isHavingNullOrFalse([Lorg/h2/value/Value;)Z
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+$r5 1 27 
+$r3 1 15 
+$r4 1 23 
+r2 1 13 
+Fields: 1
+-2 ArrayObject 13
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+23 2 23 27 
+26 1 13 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/command/dml/Select.queryGroupSorted(ILorg/h2/result/LocalResult;)V
+PTG:
+Vars:
+26
+$r6 2 208 90 
+r1 1 -3 
+$r7 1 213 
+r26 1 213 
+$r9 1 191 
+$r14 1 95 
+$r17 1 113 
+$r21 1 45 
+$r11 1 133 
+$r5 1 191 
+$r19 1 28 
+$r8 1 42 
+$r3 1 58 
+r4 1 62 
+r22 1 62 
+$r16 1 42 
+$r18 1 42 
+$r20 1 34 
+r15 1 95 
+r0 1 -1 
+$r13 2 208 90 
+$r2 1 28 
+$r23 1 11 
+$r12 1 58 
+$r24 1 58 
+$r10 1 165 
+Fields: 7
+-1 expressions 208
+-1 expressions 90
+-1 groupByExpression 191
+-1 topTableFilter 11
+-1 condition 28
+-1 session 42
+-1 groupIndex 58
+Accesses: 17
+37 1 -1 
+197 1 -1 
+72 1 -1 
+136 1 -1 
+168 1 -1 
+41 1 -1 
+10 1 -1 
+171 1 -1 
+109 1 -1 
+207 1 -1 
+80 1 -1 
+178 1 -1 
+57 1 -1 
+89 1 -1 
+27 1 -1 
+190 1 -1 
+223 1 -1 
+Functions: 13
+-1 0 
+34 2 34 45 
+227 2 213 42 
+4 8 -1 208 90 42 58 11 28 191 
+38 2 42 28 
+11 1 11 
+107 2 42 95 
+144 1 62 
+208 2 208 90 
+24 8 -1 208 90 42 58 11 28 191 
+249 10 -1 208 -3 90 42 58 11 28 62 191 
+90 2 208 90 
+157 10 -1 208 -3 90 42 58 11 28 62 191 
+Constructors: 0
+
+Summary: 4
+1 -3 62 -1 
+org/h2/command/dml/Select.queryWithoutCache(I)Lorg/h2/result/LocalResult;
+PTG:
+Vars:
+20
+$r16 1 104 
+$r11 1 47 
+$r4 1 219 
+$r9 1 17 
+$r13 1 40 
+$r8 1 3 
+$r18 1 14 
+$r19 1 219 
+$r1 1 3 
+$r3 1 14 
+$r10 1 40 
+_ret 1 47 
+$r14 1 104 
+r0 1 -1 
+$r12 1 14 
+$r15 1 14 
+$r7 1 14 
+$r17 1 104 
+$r6 1 78 
+$r5 1 235 
+Fields: 6
+-1 expressions 40
+-1 sort 78
+-1 topTableFilter 104
+-1 limitExpr 3
+-1 session 14
+-1 offsetExpr 219
+Accesses: 25
+129 1 -1 
+2 1 -1 
+68 1 -1 
+133 1 -1 
+9 1 -1 
+140 1 -1 
+13 1 -1 
+77 1 -1 
+84 1 -1 
+218 1 -1 
+91 1 -1 
+157 1 -1 
+227 1 -1 
+164 1 -1 
+39 1 -1 
+103 1 -1 
+231 1 -1 
+107 1 -1 
+114 1 -1 
+51 1 -1 
+55 1 -1 
+121 1 -1 
+59 1 -1 
+125 1 -1 
+191 1 -1 
+Functions: 20
+256 1 47 
+34 0 
+100 1 47 
+228 2 219 14 
+40 1 40 
+137 2 104 14 
+10 2 3 14 
+203 8 -1 3 40 104 219 78 14 47 
+235 1 235 
+111 2 104 14 
+175 8 -1 3 40 104 219 78 14 47 
+17 1 17 
+81 2 78 47 
+241 1 47 
+118 1 104 
+151 8 -1 3 40 104 219 78 14 47 
+215 8 -1 3 40 104 219 78 14 47 
+185 8 -1 3 40 104 219 78 14 47 
+251 1 47 
+63 3 40 14 47 
+Constructors: 1
+63 47
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.setEvaluatable(Lorg/h2/table/TableFilter;Z)V
+PTG:
+Vars:
+8
+r0 1 -1 
+r7 1 18 
+$r1 1 1 
+r4 1 -2 
+$r5 1 39 
+r2 1 7 
+$r3 1 39 
+$r6 1 18 
+Fields: 2
+-1 expressions 1
+-1 condition 39
+Accesses: 3
+0 1 -1 
+38 1 -1 
+45 1 -1 
+Functions: 5
+32 2 -2 18 
+1 1 1 
+17 1 7 
+51 2 -2 39 
+8 1 7 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/command/dml/Select.<init>(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 13 
+r1 1 -2 
+$r2 1 6 
+Fields: 0
+Accesses: 2
+16 1 -1 
+9 1 -1 
+Functions: 2
+-1 0 
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 3
+-2 0 -1 
+org/h2/command/dml/Select.queryMeta()Lorg/h2/result/LocalResult;
+PTG:
+Vars:
+5
+$r0 1 0 
+_ret 1 0 
+$r2 1 9 
+$r3 1 5 
+r1 1 -1 
+Fields: 2
+-1 expressions 9
+-1 session 5
+Accesses: 3
+4 1 -1 
+8 1 -1 
+12 1 -1 
+Functions: 2
+16 3 0 5 9 
+21 1 0 
+Constructors: 1
+16 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.getTopTableFilter()Lorg/h2/table/TableFilter;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 topTableFilter 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.getFirstColumnAlias(Lorg/h2/engine/Session;)Ljava/lang/String;
+PTG:
+Vars:
+17
+$r7 1 41 
+r1 1 -2 
+$r6 1 82 
+r0 1 -1 
+$r4 1 74 
+$r13 1 33 
+_ret 1 107 
+$r12 1 30 
+r5 1 80 
+$r16 1 45 
+r3 1 71 
+$r10 1 14 
+$r8 1 107 
+$r11 1 23 
+$r15 1 41 
+r17 1 45 
+$r2 1 65 
+Fields: 1
+-1 expressions 41
+Accesses: 5
+97 1 -1 
+6 1 -1 
+40 1 -1 
+89 1 71 
+26 1 -1 
+Functions: 14
+64 1 -2 
+65 1 65 
+36 1 33 
+103 2 82 41 
+72 2 -2 74 
+41 1 41 
+73 2 -1 41 
+106 1 82 
+14 1 14 
+18 1 14 
+23 1 23 
+59 1 45 
+93 3 80 82 45 
+30 1 30 
+Constructors: 2
+18 14
+93 82
+
+Summary: 4
+-2 0 82 -1 
+org/h2/command/dml/Select.getTopFilters()Lorg/h2/util/ObjectArray;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 topFilters 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.getExpressions()Lorg/h2/util/ObjectArray;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 expressions 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.isEverything(Lorg/h2/expression/ExpressionVisitor;)Z
+PTG:
+Vars:
+26
+$r9 1 187 
+$r13 1 45 
+r25 1 224 
+$r10 1 90 
+$r4 1 280 
+r17 1 62 
+$r6 1 256 
+r24 1 213 
+$r7 1 224 
+r0 1 -2 
+$r3 1 280 
+r20 1 152 
+$r11 1 107 
+$r14 1 62 
+$r12 1 117 
+r19 1 107 
+$r8 1 163 
+r22 1 176 
+r1 1 -1 
+r16 1 51 
+$r2 1 146 
+r21 1 163 
+$r15 1 72 
+$r23 1 207 
+r18 1 96 
+$r5 1 256 
+Fields: 6
+-1 expressions 207
+-1 condition 256
+-1 filters 45
+-1 filters 146
+-1 filters 90
+-1 having 280
+Accesses: 8
+145 1 -1 
+262 1 -1 
+279 1 -1 
+89 1 -1 
+44 1 -1 
+206 1 -1 
+286 1 -1 
+255 1 -1 
+Functions: 27
+0 1 -2 
+128 1 -2 
+71 1 62 
+263 2 256 -2 
+72 1 72 
+201 1 -2 
+207 1 207 
+146 1 146 
+214 1 213 
+153 1 152 
+90 1 90 
+223 1 213 
+287 2 -2 280 
+97 1 96 
+162 1 152 
+106 1 96 
+234 2 224 -2 
+172 1 163 
+45 1 45 
+301 1 -2 
+52 1 51 
+116 1 107 
+117 1 117 
+181 2 176 -2 
+186 1 -2 
+61 1 51 
+190 2 176 187 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/command/dml/Select.keepOnlyDistinct([Lorg/h2/value/Value;I)[Lorg/h2/value/Value;
+PTG:
+Vars:
+4
+_ret 1 14 
+r2 1 -2 
+r1 1 14 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+1 1 -1 
+20 1 -1 
+10 1 -1 
+Functions: 1
+24 2 -2 14 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/command/dml/Select.isGroupSortedIndex(Lorg/h2/table/TableFilter;Lorg/h2/index/Index;)Z
+PTG:
+Vars:
+14
+r3 1 -1 
+$r11 1 85 
+$r7 1 47 
+r2 1 9 
+$r5 1 29 
+r1 1 6 
+r8 1 47 
+r10 1 -2 
+r9 1 47 
+r0 1 -3 
+$r4 1 19 
+$r13 1 97 
+$r12 1 94 
+$r6 1 19 
+Fields: 3
+6 ArrayObject 94
+-1 expressions 19
+-1 groupByExpression 29
+Accesses: 3
+18 1 -1 
+41 1 -1 
+28 1 -1 
+Functions: 6
+0 1 -3 
+19 1 19 
+83 1 47 
+42 1 19 
+94 2 97 94 
+95 1 47 
+Constructors: 0
+
+Summary: 5
+9 -2 0 -1 -3 
+org/h2/command/dml/Select.getGroupByExpressionCount()I
+PTG:
+Vars:
+3
+$r1 1 1 
+r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 groupByExpression 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.queryQuick(ILorg/h2/result/LocalResult;)V
+PTG:
+Vars:
+8
+$r3 1 15 
+r2 1 -1 
+r0 1 1 
+r1 1 -3 
+$r4 1 20 
+$r7 1 37 
+r5 1 20 
+$r6 1 34 
+Fields: 2
+-1 expressions 15
+-1 session 34
+Accesses: 2
+33 1 -1 
+14 1 -1 
+Functions: 3
+49 2 1 -3 
+15 1 15 
+31 2 34 20 
+Constructors: 0
+
+Summary: 4
+1 1 -1 -3 
+org/h2/command/dml/Select.mapColumns(Lorg/h2/table/ColumnResolver;I)V
+PTG:
+Vars:
+8
+r2 1 7 
+r4 1 -2 
+$r5 1 39 
+$r1 1 1 
+r0 1 -1 
+r7 1 18 
+$r3 1 39 
+$r6 1 18 
+Fields: 2
+-1 expressions 1
+-1 condition 39
+Accesses: 3
+0 1 -1 
+38 1 -1 
+45 1 -1 
+Functions: 5
+32 2 -2 18 
+1 1 1 
+17 1 7 
+51 2 -2 39 
+8 1 7 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/command/dml/Select.addCondition(Lorg/h2/expression/Expression;)V
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r2 1 16 
+$r4 1 1 
+r3 1 -2 
+Fields: 1
+-1 condition 1
+Accesses: 4
+0 1 -1 
+22 1 -1 
+9 1 -1 
+29 1 -1 
+Functions: 1
+26 3 16 -2 1 
+Constructors: 1
+26 16
+
+Summary: 2
+0 -1 
+org/h2/command/dml/Select.isReadOnly()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.updateAggregate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+10
+$r6 1 51 
+r0 1 -1 
+r9 1 18 
+$r3 1 36 
+$r1 1 1 
+r2 1 7 
+$r4 1 51 
+r5 1 -2 
+$r8 1 18 
+$r7 1 36 
+Fields: 3
+-1 expressions 1
+-1 condition 36
+-1 having 51
+Accesses: 5
+0 1 -1 
+50 1 -1 
+35 1 -1 
+57 1 -1 
+42 1 -1 
+Functions: 6
+1 1 1 
+17 1 7 
+8 1 7 
+29 2 -2 18 
+62 2 -2 51 
+47 2 -2 36 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/command/dml/Select.init()V
+PTG:
+Vars:
+55
+$r32 1 23 
+$r36 1 65 
+$r15 1 198 
+$r35 1 23 
+$r6 1 23 
+$r2 1 23 
+$r10 1 23 
+r44 1 81 
+$r3 1 140 
+r41 1 49 
+$r9 1 460 
+r53 1 490 
+$r22 2 374 355 
+$r26 1 23 
+r49 3 374 404 355 
+$r25 1 23 
+r48 1 306 
+$r24 2 374 355 
+$r19 1 424 
+$r39 1 23 
+$r57 1 551 
+$r13 1 490 
+$r56 1 551 
+$r28 1 318 
+r47 1 252 
+$r33 1 33 
+r51 1 460 
+$r11 1 511 
+$r17 1 23 
+r52 1 476 
+$r37 1 40 
+$r40 1 33 
+$r27 1 306 
+$r16 1 40 
+$r23 1 23 
+r43 1 76 
+$r30 1 140 
+$r4 1 40 
+$r20 1 40 
+$r7 1 544 
+r42 1 65 
+$r12 1 511 
+r54 1 544 
+r46 1 232 
+$r34 1 23 
+r50 1 449 
+r0 1 -1 
+$r21 1 221 
+$r18 1 395 
+r45 1 221 
+$r14 1 40 
+$r1 1 33 
+$r5 1 443 
+$r29 1 252 
+$r31 1 23 
+Fields: 10
+-1 expressions 23
+-1 groupByExpression 424
+-1 orderList 33
+-1 condition 511
+-1 group 40
+-1 filters 443
+-1 groupIndex 355
+-1 groupIndex 374
+-1 groupIndex 404
+-1 having 140
+Accesses: 44
+129 1 -1 
+388 1 -1 
+517 1 -1 
+6 1 -1 
+136 1 -1 
+200 1 -1 
+139 1 -1 
+397 1 -1 
+206 1 -1 
+400 1 -1 
+529 1 -1 
+146 1 -1 
+469 1 -1 
+22 1 -1 
+150 1 -1 
+216 1 -1 
+536 1 -1 
+345 1 -1 
+540 1 -1 
+29 1 -1 
+158 1 -1 
+32 1 -1 
+354 1 -1 
+100 1 -1 
+39 1 -1 
+167 1 -1 
+423 1 -1 
+362 1 -1 
+108 1 -1 
+172 1 -1 
+300 1 -1 
+113 1 -1 
+180 1 -1 
+53 1 -1 
+117 1 -1 
+373 1 -1 
+183 1 -1 
+439 1 -1 
+568 1 -1 
+121 1 -1 
+442 1 -1 
+60 1 -1 
+510 1 -1 
+191 1 -1 
+Functions: 37
+192 1 40 
+130 1 23 
+450 1 449 
+260 2 232 252 
+389 1 23 
+72 1 65 
+459 1 449 
+523 2 460 511 
+13 0 
+77 1 76 
+207 1 40 
+18 11 -1 33 355 404 374 23 424 40 443 140 511 
+86 2 49 81 
+470 1 23 
+23 1 23 
+217 1 40 
+537 1 23 
+154 2 23 140 
+346 1 23 
+478 1 476 
+159 1 23 
+228 1 221 
+293 1 49 
+488 1 476 
+556 12 -1 33 355 404 374 551 23 424 40 443 140 511 
+301 1 23 
+46 0 
+367 2 23 221 
+242 1 49 
+563 2 544 551 
+504 2 490 460 
+249 1 49 
+314 2 232 318 
+443 1 443 
+316 1 306 
+61 1 23 
+125 12 -1 33 49 355 404 374 23 424 40 443 140 511 
+Constructors: 1
+556 551
+
+Summary: 2
+551 -1 
+org/h2/command/dml/Select.prepare()V
+PTG:
+Vars:
+65
+$r29 1 150 
+$r10 1 41 
+r64 1 632 
+r60 1 350 
+$r5 1 357 
+$r13 1 324 
+$r20 1 357 
+$r31 1 241 
+$r14 1 335 
+$r61 1 510 
+$r45 1 90 
+$r36 1 150 
+$r30 1 241 
+$r11 1 106 
+$r7 1 357 
+$r37 1 167 
+$r35 1 121 
+$r47 1 93 
+$r9 1 150 
+$r8 1 357 
+$r39 1 106 
+r17 1 368 
+r22 1 465 
+$r46 1 41 
+$r43 1 41 
+$r38 2 90 118 
+$r33 2 90 118 
+$r19 1 395 
+$r12 1 41 
+$r6 1 548 
+r63 1 542 
+r62 1 534 
+$r50 1 47 
+$r34 1 106 
+r65 1 640 
+r56 1 167 
+$r16 1 360 
+$r4 1 357 
+$r49 1 28 
+$r3 1 646 
+$r42 1 143 
+$r24 1 485 
+$r28 1 106 
+r54 1 76 
+$r52 1 28 
+$r25 1 440 
+$r15 1 357 
+$r23 1 357 
+r21 1 416 
+r59 1 335 
+$r2 1 357 
+$r1 1 106 
+$r44 1 76 
+r58 1 324 
+$r48 1 41 
+$r18 1 389 
+r55 1 156 
+$r41 1 106 
+$r40 2 90 118 
+$r26 1 199 
+$r27 1 150 
+$r32 1 247 
+r57 1 234 
+r0 1 -1 
+$r53 1 41 
+Fields: 10
+389 ArrayObject 395
+-1 expressions 41
+-1 sort 510
+-1 orderList 28
+-1 topTableFilter 357
+-1 condition 106
+-1 session 90
+-1 session 118
+-1 filters 150
+-1 groupIndex 199
+Accesses: 55
+0 1 -1 
+259 1 -1 
+516 1 -1 
+134 1 -1 
+138 1 -1 
+267 1 -1 
+395 1 395 
+523 1 -1 
+14 1 -1 
+146 1 -1 
+276 1 -1 
+149 1 -1 
+662 1 -1 
+535 1 -1 
+409 1 -1 
+27 1 -1 
+283 1 -1 
+672 1 -1 
+290 1 -1 
+36 1 -1 
+677 1 -1 
+40 1 -1 
+301 1 -1 
+176 1 -1 
+50 1 -1 
+180 1 -1 
+564 1 -1 
+55 1 -1 
+312 1 -1 
+572 1 -1 
+61 1 -1 
+191 1 -1 
+319 1 -1 
+579 1 -1 
+198 1 -1 
+71 1 -1 
+586 1 -1 
+205 1 -1 
+83 1 -1 
+212 1 -1 
+598 1 -1 
+89 1 -1 
+223 1 -1 
+607 1 -1 
+356 1 -1 
+614 1 -1 
+105 1 -1 
+236 1 -1 
+495 1 -1 
+113 1 -1 
+117 1 -1 
+633 1 -1 
+506 1 -1 
+124 1 -1 
+509 1 -1 
+Functions: 50
+387 1 368 
+645 1 640 
+646 1 646 
+135 10 -1 357 118 150 199 41 106 90 28 510 
+263 10 -1 357 118 150 199 41 106 90 28 510 
+530 10 -1 357 118 150 199 41 106 90 28 510 
+150 1 150 
+23 0 
+536 1 357 
+410 1 357 
+667 2 357 632 
+157 1 156 
+418 1 368 
+35 10 -1 357 118 150 199 41 106 90 28 510 
+291 1 150 
+547 1 542 
+548 1 548 
+166 1 156 
+41 1 41 
+302 1 41 
+438 1 416 
+440 1 440 
+185 4 118 167 106 90 
+569 2 357 534 
+62 1 41 
+320 1 41 
+72 1 41 
+458 1 368 
+331 1 324 
+587 1 357 
+467 1 465 
+213 1 150 
+88 2 90 76 
+344 1 335 
+475 1 465 
+351 1 350 
+96 2 41 93 
+483 1 368 
+357 1 357 
+230 0 
+360 2 360 350 
+237 1 150 
+621 10 -1 357 118 150 199 41 106 90 28 510 
+114 3 118 106 90 
+244 1 241 
+628 10 -1 357 118 150 199 41 106 90 28 510 
+501 2 368 357 
+250 2 247 234 
+634 1 357 
+254 11 -1 357 118 150 199 41 106 90 234 28 510 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.addGlobalCondition(Lorg/h2/expression/Parameter;II)V
+PTG:
+Vars:
+22
+$r13 1 140 
+$r12 1 156 
+$r2 1 6 
+r19 1 10 
+$r16 1 130 
+$r7 1 179 
+$r17 1 70 
+$r5 1 30 
+$r14 1 6 
+$r9 1 179 
+$r3 1 10 
+$r8 1 195 
+r1 1 -2 
+r22 1 51 
+$r4 1 25 
+$r18 1 70 
+r20 1 23 
+$r6 1 30 
+$r10 1 70 
+r0 1 -1 
+$r15 1 130 
+$r11 1 140 
+Fields: 5
+-1 expressions 6
+-1 condition 179
+-1 session 30
+-1 groupIndex 70
+-1 having 140
+Accesses: 19
+161 1 -1 
+5 1 -1 
+69 1 -1 
+136 1 -1 
+200 1 -1 
+170 1 -1 
+139 1 -1 
+44 1 -1 
+78 1 -1 
+209 1 -1 
+114 1 -1 
+178 1 -1 
+149 1 -1 
+86 1 -1 
+56 1 -1 
+122 1 -1 
+188 1 -1 
+29 1 -1 
+126 1 -1 
+Functions: 8
+2 7 -1 -2 179 6 70 140 30 
+18 1 10 
+37 4 -2 23 25 30 
+6 1 6 
+167 3 51 156 140 
+42 2 25 30 
+123 1 6 
+206 3 195 179 51 
+Constructors: 3
+37 25
+167 156
+206 195
+
+Summary: 3
+-2 0 -1 
+org/h2/command/dml/Select.getCost()D
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.queryGroup(ILorg/h2/result/LocalResult;)V
+PTG:
+Vars:
+56
+r49 1 248 
+$r35 1 77 
+r52 1 345 
+r5 1 26 
+r11 1 -3 
+r54 1 380 
+$r21 1 421 
+$r42 1 53 
+r55 1 383 
+$r44 1 29 
+r47 1 128 
+$r4 1 20 
+$r24 1 77 
+$r27 1 166 
+$r9 1 366 
+$r13 3 459 123 243 
+$r14 1 464 
+$r25 1 77 
+$r10 1 77 
+$r26 1 77 
+r50 1 324 
+r3 1 10 
+$r8 1 366 
+$r20 1 77 
+r53 1 345 
+$r38 1 1 
+$r6 1 77 
+$r16 1 1 
+$r23 1 47 
+$r17 1 482 
+r15 1 464 
+$r2 1 4 
+r0 1 -1 
+$r39 1 146 
+r56 1 511 
+$r18 2 226 439 
+$r19 1 77 
+r48 2 179 166 
+r45 2 161 26 
+$r41 1 47 
+$r32 1 226 
+$r30 1 248 
+$r36 2 123 243 
+r51 1 331 
+$r43 1 64 
+$r29 2 123 243 
+$r22 1 310 
+$r37 1 128 
+$r33 1 179 
+$r40 1 1 
+$r12 2 226 439 
+r46 1 95 
+$r28 1 226 
+$r1 1 1 
+$r7 1 345 
+$r31 1 1 
+Fields: 10
+380 ArrayObject 421
+-1 expressions 459
+-1 expressions 123
+-1 expressions 243
+-1 groupByExpression 226
+-1 groupByExpression 439
+-1 topTableFilter 29
+-1 condition 47
+-1 session 1
+-1 groupIndex 77
+Accesses: 29
+0 1 -1 
+258 1 -1 
+199 1 -1 
+391 1 -1 
+202 1 -1 
+458 1 -1 
+76 1 -1 
+142 1 -1 
+271 1 -1 
+400 1 -1 
+209 1 -1 
+280 1 -1 
+90 1 -1 
+410 1 -1 
+28 1 -1 
+478 1 -1 
+225 1 -1 
+293 1 -1 
+232 1 -1 
+105 1 -1 
+46 1 -1 
+113 1 -1 
+242 1 -1 
+372 1 -1 
+438 1 -1 
+56 1 -1 
+122 1 -1 
+60 1 -1 
+445 1 -1 
+Functions: 30
+320 1 10 
+1 1 1 
+193 4 161 179 10 26 
+4 1 4 
+516 2 -3 511 
+262 2 1 248 
+326 1 324 
+459 3 243 459 123 
+140 2 128 1 
+333 1 331 
+16 10 -1 1 226 243 439 459 123 29 77 47 
+20 1 20 
+343 1 331 
+156 1 95 
+476 2 464 1 
+29 1 29 
+163 3 161 10 26 
+43 10 -1 1 226 243 439 459 123 29 77 47 
+363 2 345 10 
+300 1 10 
+492 11 -1 1 226 243 439 459 123 29 77 47 383 
+243 2 243 123 
+53 2 64 53 
+183 1 179 
+375 1 345 
+504 11 -1 1 226 243 439 459 123 29 77 47 383 
+57 2 1 47 
+314 1 310 
+123 2 243 123 
+317 3 310 10 26 
+Constructors: 2
+183 179
+314 310
+
+Summary: 7
+310 1 20 383 95 -3 -1 
+org/h2/command/dml/Select.setExpressions(Lorg/h2/util/ObjectArray;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/command/dml/Select.getColumnCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.queryFlat(ILorg/h2/result/LocalResult;J)V
+PTG:
+Vars:
+19
+$r11 1 58 
+$r5 1 100 
+$r12 1 64 
+$r14 1 7 
+$r16 1 7 
+$r13 1 75 
+$r17 1 22 
+$r18 1 40 
+r2 1 85 
+$r4 1 143 
+$r1 1 58 
+$r6 1 105 
+$r9 1 123 
+r0 1 -1 
+$r15 1 19 
+$r10 1 19 
+r7 1 105 
+r3 1 -3 
+$r8 1 19 
+Fields: 6
+-1 expressions 100
+-1 sort 143
+-1 topTableFilter 40
+-1 condition 58
+-1 session 19
+-1 offsetExpr 7
+Accesses: 13
+67 1 -1 
+99 1 -1 
+6 1 -1 
+39 1 -1 
+71 1 -1 
+14 1 -1 
+142 1 -1 
+175 1 -1 
+18 1 -1 
+149 1 -1 
+119 1 -1 
+184 1 -1 
+57 1 -1 
+Functions: 11
+64 2 64 75 
+162 1 -3 
+36 7 -1 19 100 7 40 58 143 
+68 2 19 58 
+100 1 100 
+117 2 19 105 
+22 1 22 
+54 7 -1 19 100 7 40 58 143 
+40 1 40 
+136 2 -3 85 
+15 2 19 7 
+Constructors: 0
+
+Summary: 4
+1 -3 85 -1 
+org/h2/command/dml/Select.setDistinct(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.setForUpdate(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.setGroupQuery()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.setGroupBy(Lorg/h2/util/ObjectArray;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/command/dml/Select.getSortIndex()Lorg/h2/index/Index;
+PTG:
+Vars:
+30
+$r7 2 139 206 
+r35 1 184 
+$r8 1 209 
+$r14 1 324 
+$r3 1 1 
+$r10 1 249 
+r12 1 314 
+r38 1 283 
+$r25 1 47 
+r31 1 90 
+$r9 1 239 
+r33 1 103 
+r0 1 -1 
+$r1 1 1 
+r34 1 170 
+$r27 1 135 
+$r4 1 167 
+r30 1 20 
+$r11 1 262 
+$r24 1 47 
+$r6 1 1 
+$r28 1 139 
+r36 1 215 
+$r29 1 150 
+r37 1 239 
+$r26 1 90 
+r32 1 103 
+r13 1 320 
+$r5 1 170 
+r2 1 12 
+Fields: 7
+314 column 324
+283 ArrayObject 314
+-1 expressions 47
+-1 sort 1
+-1 topTableFilter 206
+-1 topTableFilter 139
+170 ArrayObject 320
+Accesses: 11
+0 1 -1 
+177 1 -1 
+322 1 314 
+338 1 314 
+84 1 -1 
+197 1 -1 
+138 1 -1 
+13 1 -1 
+205 1 -1 
+46 1 -1 
+190 1 -1 
+Functions: 27
+65 0 
+194 0 
+260 1 239 
+133 1 103 
+262 1 262 
+72 0 
+9 0 
+14 1 1 
+78 0 
+206 2 139 206 
+209 1 209 
+148 1 103 
+276 1 239 
+85 1 47 
+153 2 150 12 
+98 1 90 
+162 2 167 12 
+163 1 12 
+227 1 215 
+105 1 103 
+235 1 215 
+47 1 47 
+178 1 1 
+247 1 239 
+56 0 
+60 0 
+191 0 
+Constructors: 0
+
+Summary: 2
+167 -1 
+org/h2/command/dml/Select.getCurrentGroupRowId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.queryDistinct(Lorg/h2/result/LocalResult;J)V
+PTG:
+Vars:
+19
+$r10 1 7 
+$r13 1 22 
+$r17 1 59 
+r0 1 -1 
+r2 1 87 
+r4 1 120 
+r5 1 152 
+r6 1 -2 
+$r8 1 40 
+$r11 1 19 
+r1 1 46 
+r3 1 109 
+$r9 1 131 
+$r18 1 19 
+$r16 1 53 
+r15 1 138 
+$r14 1 40 
+$r12 1 7 
+$r7 1 173 
+Fields: 5
+53 ArrayObject 59
+-1 sort 173
+-1 topTableFilter 40
+-1 session 19
+-1 offsetExpr 7
+Accesses: 10
+18 1 -1 
+179 1 -1 
+6 1 -1 
+214 1 -1 
+39 1 -1 
+75 1 -1 
+172 1 -1 
+205 1 -1 
+14 1 -1 
+127 1 -1 
+Functions: 16
+128 1 40 
+192 1 -2 
+131 1 131 
+36 5 -1 19 7 40 173 
+70 5 -1 19 7 40 173 
+102 1 87 
+166 2 -2 152 
+40 1 40 
+73 3 19 138 46 
+15 2 19 7 
+111 1 109 
+146 2 120 138 
+51 1 46 
+22 1 22 
+89 1 87 
+59 1 59 
+Constructors: 0
+
+Summary: 5
+152 -2 0 109 -1 
+org/h2/command/dml/Select.expandColumnList()V
+PTG:
+Vars:
+35
+r38 1 234 
+$r21 1 197 
+$r22 1 4 
+r37 1 167 
+$r29 1 106 
+r39 1 241 
+r11 1 283 
+r40 1 257 
+$r12 1 298 
+$r13 1 303 
+$r3 1 18 
+$r31 1 4 
+$r20 1 181 
+$r30 1 111 
+r4 1 18 
+$r8 1 4 
+$r19 1 167 
+$r27 1 100 
+r5 1 39 
+$r2 1 4 
+r35 1 167 
+$r24 2 64 147 
+r6 1 44 
+$r28 1 103 
+$r7 2 64 147 
+$r26 1 94 
+$r25 1 84 
+$r15 1 314 
+$r14 1 306 
+$r17 1 4 
+r0 1 -1 
+$r1 1 4 
+r32 1 70 
+r36 1 153 
+r33 1 84 
+Fields: 5
+257 ArrayObject 283
+-1 expressions 4
+-1 session 303
+-1 filters 147
+-1 filters 64
+Accesses: 9
+146 1 -1 
+322 1 -1 
+3 1 -1 
+243 1 -1 
+54 1 -1 
+119 1 -1 
+13 1 -1 
+302 1 -1 
+63 1 -1 
+Functions: 32
+64 2 64 147 
+129 2 4 94 
+194 2 197 39 
+195 1 167 
+4 1 4 
+72 1 70 
+332 2 4 298 
+14 1 4 
+82 1 70 
+147 2 64 147 
+25 1 18 
+155 1 153 
+285 2 167 283 
+223 1 44 
+98 1 84 
+35 1 18 
+100 1 100 
+165 1 153 
+229 1 167 
+103 1 103 
+40 1 18 
+236 1 167 
+109 1 84 
+303 1 303 
+177 2 181 44 
+114 3 106 94 111 
+179 1 167 
+248 1 4 
+312 1 283 
+59 1 4 
+252 1 234 
+317 4 241 306 298 314 
+Constructors: 2
+114 94
+317 298
+
+Summary: 3
+94 298 -1 
+org/h2/command/dml/Select.getPlanSQL()Ljava/lang/String;
+PTG:
+Vars:
+67
+$r3 1 11 
+$r31 1 612 
+$r65 1 214 
+$r54 1 326 
+$r41 1 465 
+$r57 1 387 
+r85 1 171 
+r92 1 444 
+$r27 1 593 
+$r46 1 457 
+$r2 1 1 
+$r42 1 486 
+$r6 1 21 
+$r35 1 494 
+r87 1 291 
+$r16 1 566 
+$r28 1 602 
+$r56 1 384 
+$r25 1 585 
+$r62 1 312 
+$r77 2 89 134 
+r86 1 241 
+r88 1 298 
+$r30 1 609 
+r0 1 -1 
+r94 1 519 
+$r67 1 233 
+$r69 1 171 
+$r50 1 421 
+$r55 1 365 
+r5 1 14 
+$r44 1 449 
+$r75 1 123 
+$r40 1 474 
+$r14 1 398 
+$r15 1 494 
+$r4 1 14 
+$r80 1 65 
+$r36 1 533 
+r95 1 533 
+$r1 1 1 
+r90 1 365 
+$r70 1 203 
+r83 2 89 134 
+$r29 1 593 
+$r66 1 230 
+r84 1 157 
+$r61 1 309 
+$r13 1 326 
+$r48 1 413 
+$r24 1 582 
+$r12 1 241 
+$r22 1 575 
+$r37 1 552 
+r89 1 351 
+$r79 1 64 
+$r49 1 418 
+$r96 1 697 
+$r93 1 465 
+$r64 1 223 
+$r23 1 566 
+r91 1 398 
+_ret 1 697 
+$r10 1 151 
+$r45 1 454 
+$r38 1 555 
+$r11 1 214 
+Fields: 14
+14 ArrayObject 444
+14 ArrayObject 291
+14 ArrayObject 64
+-1 expressions 1
+-1 sort 465
+-1 topTableFilter 89
+-1 orderList 494
+-1 limitExpr 566
+-1 condition 214
+-1 group 326
+-1 filters 151
+-1 groupIndex 241
+-1 having 398
+-1 offsetExpr 593
+Accesses: 31
+0 1 -1 
+512 1 -1 
+578 1 -1 
+259 1 -1 
+4 1 -1 
+325 1 -1 
+647 1 -1 
+397 1 -1 
+464 1 -1 
+592 1 -1 
+404 1 -1 
+85 1 -1 
+213 1 -1 
+661 1 -1 
+150 1 -1 
+344 1 -1 
+477 1 -1 
+605 1 -1 
+31 1 -1 
+226 1 -1 
+482 1 -1 
+675 1 -1 
+682 1 -1 
+619 1 -1 
+493 1 -1 
+431 1 -1 
+48 1 -1 
+240 1 -1 
+565 1 -1 
+439 1 -1 
+633 1 -1 
+Functions: 74
+384 1 384 
+1 2 1 11 
+513 1 494 
+130 2 134 89 
+643 1 21 
+5 1 1 
+390 2 387 21 
+521 1 519 
+143 1 21 
+657 1 21 
+531 1 519 
+151 1 151 
+410 1 21 
+27 1 21 
+159 1 157 
+671 1 21 
+416 1 398 
+418 1 418 
+546 1 21 
+293 1 291 
+550 1 533 
+424 2 421 413 
+552 1 552 
+41 1 21 
+169 1 157 
+558 2 21 555 
+303 1 21 
+307 1 298 
+692 1 21 
+309 1 309 
+184 1 21 
+696 1 21 
+58 1 21 
+315 2 21 312 
+188 1 171 
+572 1 21 
+446 1 21 
+64 1 64 
+579 1 566 
+68 2 65 21 
+452 1 444 
+454 1 454 
+582 1 582 
+460 2 449 457 
+588 2 585 575 
+206 2 21 203 
+335 1 21 
+81 1 21 
+340 1 21 
+471 1 21 
+599 1 21 
+345 1 326 
+220 1 21 
+478 5 64 465 291 444 14 
+606 1 593 
+95 1 21 
+353 1 351 
+609 1 609 
+227 1 214 
+230 1 230 
+615 2 612 602 
+105 1 21 
+489 2 486 474 
+363 1 351 
+236 2 233 223 
+109 2 134 89 
+629 1 21 
+503 1 21 
+250 1 21 
+378 1 21 
+508 1 21 
+126 2 21 123 
+382 1 365 
+255 1 21 
+Constructors: 1
+27 21
+
+Summary: 2
+-1 11 
+org/h2/command/dml/Select.isQuickAggregateQuery()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.addGroupSortedRow([Lorg/h2/value/Value;ILorg/h2/result/LocalResult;)V
+PTG:
+Vars:
+16
+$r5 1 81 
+r6 1 81 
+$r9 1 56 
+$r7 1 96 
+r2 1 -4 
+r12 1 -2 
+$r3 1 56 
+$r11 1 10 
+r0 1 -1 
+$r1 1 10 
+$r4 1 76 
+$r8 1 99 
+r14 1 1 
+$r10 1 10 
+r15 1 126 
+$r13 1 38 
+Fields: 5
+-2 ArrayObject 38
+-1 expressions 76
+-1 groupByExpression 56
+-1 session 96
+-1 groupIndex 10
+Accesses: 7
+18 1 -1 
+55 1 -1 
+9 1 -1 
+75 1 -1 
+28 1 -1 
+62 1 -1 
+95 1 -1 
+Functions: 5
+131 2 -4 126 
+119 6 -1 96 1 56 10 76 
+76 1 76 
+93 2 96 81 
+109 6 -1 96 1 56 10 76 
+Constructors: 0
+
+Summary: 6
+-2 0 -4 1 -1 2 
+org/h2/command/dml/Select.setHaving(Lorg/h2/expression/Expression;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/command/dml/Select.getTables()Ljava/util/HashSet;
+PTG:
+Vars:
+8
+_ret 1 3 
+r5 1 22 
+$r2 1 5 
+r3 1 11 
+r1 1 -1 
+r0 1 3 
+$r4 1 22 
+$r6 1 33 
+Fields: 1
+-1 filters 5
+Accesses: 1
+4 1 -1 
+Functions: 6
+0 0 
+32 1 22 
+36 2 33 3 
+5 1 5 
+21 1 11 
+12 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/Select.preparePlan()D
+PTG:
+Vars:
+24
+r5 1 14 
+$r10 1 94 
+$r6 1 56 
+$r29 1 232 
+$r3 1 11 
+$r13 1 252 
+$r20 1 44 
+$r8 2 62 44 
+$r19 2 62 44 
+$r11 2 62 44 
+$r15 1 66 
+r25 1 131 
+$r2 1 1 
+$r1 1 1 
+$r9 1 79 
+$r4 1 14 
+r14 1 252 
+r24 2 278 94 
+r28 1 204 
+$r7 1 66 
+r0 1 -1 
+r27 1 191 
+r22 1 39 
+r12 1 238 
+Fields: 7
+14 ArrayObject 39
+-1 expressions 232
+-1 topTableFilter 94
+-1 condition 62
+-1 condition 44
+-1 topFilters 1
+-1 session 66
+Accesses: 13
+0 1 -1 
+65 1 -1 
+4 1 -1 
+231 1 -1 
+43 1 -1 
+109 1 -1 
+82 1 -1 
+116 1 -1 
+184 1 -1 
+90 1 -1 
+283 1 -1 
+61 1 -1 
+157 1 -1 
+Functions: 28
+1 2 1 11 
+196 8 -1 1 66 232 44 94 62 191 
+5 1 1 
+69 6 66 39 56 44 14 62 
+199 2 278 94 
+74 1 56 
+138 1 131 
+267 3 278 252 94 
+78 1 56 
+273 2 278 94 
+147 2 278 94 
+211 1 204 
+85 1 56 
+155 1 131 
+222 2 278 94 
+287 1 94 
+228 8 -1 1 66 232 44 204 94 62 
+168 0 
+232 1 232 
+106 2 278 94 
+170 0 
+47 2 39 44 
+240 1 238 
+179 2 278 94 
+182 2 66 131 
+250 1 238 
+123 4 278 44 62 94 
+126 2 278 94 
+Constructors: 1
+69 56
+
+Summary: 3
+56 11 -1 
+org/h2/command/dml/Select.getGroupSortedIndex()Lorg/h2/index/Index;
+PTG:
+Vars:
+10
+$r6 1 43 
+$r4 1 20 
+r7 1 43 
+$r3 1 17 
+r5 1 26 
+r0 1 -1 
+$r1 1 1 
+$r8 1 51 
+$r2 1 8 
+$r9 1 17 
+Fields: 3
+-1 groupByExpression 8
+-1 topTableFilter 17
+-1 groupIndex 1
+Accesses: 4
+0 1 -1 
+16 1 -1 
+66 1 -1 
+7 1 -1 
+Functions: 7
+17 1 17 
+65 5 -1 17 1 8 43 
+34 1 26 
+50 1 43 
+51 1 51 
+20 1 20 
+41 1 26 
+Constructors: 0
+
+Summary: 1
+-1 

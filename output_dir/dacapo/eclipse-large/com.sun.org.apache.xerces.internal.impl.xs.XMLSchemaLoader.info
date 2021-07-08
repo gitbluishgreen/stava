@@ -1,0 +1,1552 @@
+42
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.reset(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager;)V
+PTG:
+Vars:
+37
+r3 1 34 
+$r19 1 217 
+$r27 1 186 
+$r24 1 281 
+$r33 1 50 
+$r28 1 186 
+$r17 1 186 
+$r20 1 232 
+$r15 1 171 
+$r35 1 -1 
+r4 1 -1 
+$r32 1 186 
+$r36 1 -1 
+$r29 1 369 
+$r23 1 281 
+$r14 1 156 
+$r7 1 73 
+$r8 1 80 
+$r9 1 91 
+r37 2 3 16 
+$r34 1 16 
+$r13 1 156 
+r0 1 -2 
+$r5 1 63 
+$r31 1 313 
+$r16 1 171 
+$r22 1 263 
+r38 2 202 192 
+$r26 1 186 
+$r6 1 66 
+$r12 1 145 
+$r1 1 3 
+$r30 2 202 192 
+$r21 1 232 
+$r18 1 217 
+$r2 1 34 
+$r25 1 320 
+Fields: 8
+-1 fNodeFactory 145
+-1 fCMBuilder 320
+-1 fErrorReporter 369
+-1 fGrammarPool 313
+-1 fSchemaHandler 186
+-1 fSubGroupHandler 80
+-1 fLoaderConfig 91
+-1 fGrammarBucket 73
+Accesses: 27
+129 1 -1 
+69 1 -1 
+327 1 -1 
+72 1 -1 
+136 1 -1 
+394 1 -1 
+204 1 -1 
+268 1 -1 
+397 1 -1 
+79 1 -1 
+144 1 -1 
+273 1 -1 
+90 1 -1 
+413 1 -1 
+225 1 -1 
+289 1 -1 
+164 1 -1 
+240 1 -1 
+368 1 -1 
+113 1 -1 
+179 1 -1 
+312 1 -1 
+185 1 -1 
+122 1 -1 
+250 1 -1 
+255 1 -1 
+319 1 -1 
+Functions: 33
+0 1 -2 
+385 1 -2 
+259 1 -2 
+324 1 320 
+199 0 
+76 1 73 
+140 0 
+332 1 186 
+401 1 -2 
+210 3 192 186 202 
+83 1 80 
+20 1 16 
+149 2 145 -2 
+277 1 -2 
+214 1 -2 
+153 1 -2 
+410 1 186 
+28 10 -1 320 80 16 145 369 313 73 186 91 
+349 2 192 202 
+31 1 -2 
+352 1 -2 
+97 1 -2 
+418 2 -2 186 
+229 1 -2 
+293 9 -1 320 80 145 369 313 73 186 91 
+168 1 -2 
+296 1 -2 
+55 1 50 
+376 1 369 
+58 10 -1 320 80 145 369 50 313 73 186 91 
+186 1 186 
+62 3 16 3 63 
+126 9 -1 320 80 145 369 313 73 186 91 
+Constructors: 2
+20 16
+55 50
+
+Summary: 9
+50 -2 202 192 0 3 34 16 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getRecognizedProperties()[Ljava/lang/String;
+PTG:
+Vars:
+6
+r4 1 -1 
+$r2 1 3 
+$r0 1 0 
+_ret 1 3 
+$r3 1 3 
+$r1 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getFeatureDefault(Ljava/lang/String;)Ljava/lang/Boolean;
+PTG:
+Vars:
+2
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.loadURIList(Lcom/sun/org/apache/xerces/internal/xs/StringList;)Lcom/sun/org/apache/xerces/internal/xs/XSModel;
+PTG:
+Vars:
+9
+r3 1 -1 
+$r2 1 68 
+$r7 1 42 
+r1 1 8 
+$r6 1 42 
+_ret 1 68 
+$r5 1 33 
+r0 1 -2 
+$r4 1 25 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+39 2 33 25 
+24 2 -1 25 
+57 1 -1 
+73 2 68 8 
+30 1 -2 
+Constructors: 2
+39 25
+73 68
+
+Summary: 6
+8 -2 25 33 42 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.setParameter(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r2 1 -1 
+r1 1 -2 
+r0 1 -3 
+Fields: 0
+Accesses: 4
+179 1 -1 
+102 1 -1 
+183 1 -1 
+106 1 -1 
+Functions: 18
+33 2 -1 -2 
+99 0 
+68 0 
+230 3 -1 -2 -3 
+8 0 
+264 0 
+73 1 -2 
+204 0 
+110 1 -1 
+15 1 -2 
+48 0 
+176 0 
+145 0 
+244 0 
+150 1 -2 
+187 1 -1 
+222 0 
+127 0 
+Constructors: 0
+
+Summary: 10
+204 127 -3 137 48 254 214 58 244 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.<init>(Lcom/sun/org/apache/xerces/internal/util/SymbolTable;)V
+PTG:
+Vars:
+3
+$r2 1 3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+7 1 3 
+13 3 -1 -2 3 
+Constructors: 2
+7 3
+13 -1
+
+Summary: 3
+-2 3 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.<init>(Lcom/sun/org/apache/xerces/internal/impl/XMLErrorReporter;Lcom/sun/org/apache/xerces/internal/impl/xs/XSGrammarBucket;Lcom/sun/org/apache/xerces/internal/impl/xs/SubstitutionGroupHandler;Lcom/sun/org/apache/xerces/internal/impl/xs/models/CMBuilder;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+r4 1 -5 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 5 -1 -2 -3 -4 -5 
+Constructors: 1
+8 -1
+
+Summary: 9
+3 -3 -2 2 -5 0 -1 -4 1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.processExternalHints(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lcom/sun/org/apache/xerces/internal/impl/XMLErrorReporter;)V
+PTG:
+Vars:
+24
+$r4 1 96 
+$r21 1 169 
+r0 1 -2 
+$r20 1 164 
+r6 1 -4 
+r16 1 -5 
+r27 1 13 
+r30 2 127 112 
+$r23 1 -1 
+r1 1 -3 
+$r24 1 66 
+r29 1 92 
+$r14 1 17 
+$r8 1 112 
+$r12 1 7 
+$r19 1 -1 
+$r2 1 86 
+$r17 1 44 
+$r7 1 109 
+$r3 1 83 
+$r9 1 127 
+$r10 1 137 
+$r13 1 4 
+$r25 1 71 
+Fields: 2
+13 fType 17
+92 fType 96
+Accesses: 2
+94 1 92 
+15 1 13 
+Functions: 16
+64 1 -1 
+162 1 -1 
+131 1 127 
+4 2 4 7 
+69 1 -1 
+102 2 96 -3 
+167 1 -1 
+75 3 66 -5 71 
+108 2 -4 109 
+173 3 -5 164 169 
+142 3 -4 137 127 
+83 2 83 86 
+52 2 -5 44 
+23 2 17 -2 
+151 3 112 -3 127 
+31 2 -2 -4 
+Constructors: 1
+131 127
+
+Summary: 15
+127 -3 169 1 3 71 -5 13 112 0 66 44 164 2 92 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.setLocale(Ljava/util/Locale;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 6 
+r0 1 -1 
+Fields: 1
+-1 fErrorReporter 6
+Accesses: 2
+2 1 -1 
+5 1 -1 
+Functions: 1
+10 2 -2 6 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 2 
+$r1 1 84 
+Fields: 25
+2 ArrayObject 14
+2 ArrayObject 25
+2 ArrayObject 37
+2 ArrayObject 50
+2 ArrayObject 19
+2 ArrayObject 43
+2 ArrayObject 64
+2 ArrayObject 71
+2 ArrayObject 57
+2 ArrayObject 78
+2 ArrayObject 31
+2 ArrayObject 9
+84 ArrayObject 96
+84 ArrayObject 116
+84 ArrayObject 111
+84 ArrayObject 134
+84 ArrayObject 140
+84 ArrayObject 159
+84 ArrayObject 91
+84 ArrayObject 106
+84 ArrayObject 153
+84 ArrayObject 146
+84 ArrayObject 122
+84 ArrayObject 128
+84 ArrayObject 101
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getEntityResolver()Lcom/sun/org/apache/xerces/internal/xni/parser/XMLEntityResolver;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 fUserEntityResolver 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.setFeature(Ljava/lang/String;Z)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 45 
+$r2 1 37 
+$r3 1 15 
+r1 1 -2 
+Fields: 3
+-1 fErrorReporter 15
+-1 fSchemaHandler 37
+-1 fLoaderConfig 45
+Accesses: 4
+2 1 -1 
+36 1 -1 
+44 1 -1 
+14 1 -1 
+Functions: 5
+50 2 -2 45 
+5 1 -2 
+21 1 15 
+41 1 37 
+27 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.initGrammarBucket()V
+PTG:
+Vars:
+9
+$r5 1 43 
+r0 1 -1 
+$r7 1 38 
+$r4 1 43 
+$r8 1 58 
+r3 1 18 
+$r2 1 1 
+$r1 1 1 
+$r6 1 43 
+Fields: 4
+-1 fErrorReporter 58
+-1 fGrammarPool 1
+-1 fGrammarBucket 38
+18 ArrayObject 43
+Accesses: 4
+0 1 -1 
+37 1 -1 
+7 1 -1 
+57 1 -1 
+Functions: 3
+67 1 58 
+38 2 38 43 
+8 1 1 
+Constructors: 0
+
+Summary: 3
+43 -1 18 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.resolveDocument(Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;Ljava/util/Map;Lcom/sun/org/apache/xerces/internal/xni/parser/XMLEntityResolver;)Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;
+PTG:
+Vars:
+13
+r0 1 -2 
+$r10 1 90 
+r6 2 61 87 
+r2 1 -3 
+r7 1 21 
+r5 1 -4 
+r4 1 41 
+$r8 2 21 28 
+r11 1 97 
+_ret 1 112 
+$r3 1 41 
+r9 1 70 
+$r12 1 112 
+Fields: 1
+70 ArrayObject 87
+Accesses: 0
+Functions: 11
+17 1 -2 
+2 1 -2 
+66 1 -2 
+101 3 -2 87 61 
+38 3 -3 21 28 
+56 1 41 
+89 1 -2 
+10 1 -2 
+107 2 -2 97 
+93 3 87 90 61 
+110 2 -2 -4 
+Constructors: 0
+
+Summary: 13
+41 -3 -2 90 70 0 21 -4 1 97 61 2 87 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.setErrorHandler(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLErrorHandler;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 fErrorReporter 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+7 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getErrorHandler()Lcom/sun/org/apache/xerces/internal/xni/parser/XMLErrorHandler;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 4 
+$r1 1 1 
+_ret 1 4 
+Fields: 1
+-1 fErrorReporter 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.setProperty(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+17
+$r11 1 156 
+$r5 1 202 
+$r7 1 -3 
+r0 1 -1 
+$r3 1 6 
+$r9 1 161 
+$r6 1 205 
+r2 1 -3 
+$r12 1 126 
+r1 1 -2 
+$r15 1 -3 
+$r10 1 173 
+$r13 1 -3 
+$r8 1 156 
+$r14 1 -3 
+r4 1 -3 
+$r16 1 -3 
+Fields: 3
+-1 fErrorReporter 156
+-1 fLoaderConfig 6
+-1 fEntityManager 126
+Accesses: 12
+208 1 -1 
+2 1 -1 
+50 1 -1 
+5 1 -1 
+70 1 -1 
+167 1 -1 
+152 1 -1 
+25 1 -1 
+90 1 -1 
+155 1 -1 
+125 1 -1 
+30 1 -1 
+Functions: 15
+96 1 -2 
+36 1 -2 
+132 2 -3 126 
+201 2 -3 202 
+138 1 -2 
+11 3 -2 -3 6 
+76 1 -2 
+14 1 -2 
+110 5 -1 -3 6 156 126 
+177 1 173 
+116 1 -2 
+180 2 156 173 
+56 1 -2 
+186 1 -2 
+156 1 156 
+Constructors: 1
+177 173
+
+Summary: 6
+-2 173 0 -1 161 1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getProperty(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+_ret 1 5 
+$r3 1 5 
+Fields: 1
+-1 fLoaderConfig 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.load(Lorg/w3c/dom/ls/LSInput;)Lcom/sun/org/apache/xerces/internal/xs/XSModel;
+PTG:
+Vars:
+7
+r6 1 9 
+$r5 1 -1 
+r0 1 -1 
+$r3 1 9 
+$r4 1 14 
+$r2 1 3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -1 3 
+1 2 -1 -2 
+23 1 -1 
+11 1 9 
+Constructors: 0
+
+Summary: 4
+3 -2 9 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getGlobalElementDecl(Lcom/sun/org/apache/xerces/internal/xni/QName;)Lcom/sun/org/apache/xerces/internal/impl/xs/XSElementDecl;
+PTG:
+Vars:
+5
+r4 1 11 
+$r2 1 5 
+r0 1 -1 
+r1 1 -2 
+$r3 1 1 
+Fields: 2
+-2 uri 5
+-1 fGrammarBucket 1
+Accesses: 3
+0 1 -1 
+17 1 -2 
+4 1 -2 
+Functions: 2
+16 1 11 
+1 2 1 5 
+Constructors: 0
+
+Summary: 6
+11 -2 5 0 -1 18 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getLocale()Ljava/util/Locale;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 fLocale 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getConfig()Lorg/w3c/dom/DOMConfiguration;
+PTG:
+Vars:
+2
+r0 1 -1 
+_ret 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.xsdToXMLInputSource(Ljava/lang/Object;)Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;
+PTG:
+Vars:
+12
+$r6 1 225 
+$r42 2 244 250 
+r0 1 -2 
+$r2 1 204 
+$r10 1 241 
+$r8 1 253 
+$r4 1 204 
+$r7 1 231 
+r1 1 -1 
+r41 1 212 
+$r3 1 213 
+$r5 1 217 
+Fields: 1
+-1 fErrorReporter 204
+Accesses: 8
+32 1 -1 
+160 1 -1 
+49 1 -1 
+19 1 -1 
+36 1 -1 
+203 1 -1 
+12 1 -1 
+221 1 -1 
+Functions: 20
+33 0 
+66 0 
+258 3 213 217 253 
+199 0 
+204 1 204 
+174 0 
+16 0 
+240 1 -2 
+81 0 
+241 1 241 
+148 0 
+180 0 
+151 0 
+121 0 
+27 0 
+220 3 225 212 231 
+189 0 
+190 0 
+222 1 204 
+95 0 
+Constructors: 1
+258 213
+
+Summary: 13
+139 241 225 231 193 143 169 212 0 190 -1 58 253 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.processJAXPSchemaSource(Ljava/util/Map;)V
+PTG:
+Vars:
+44
+$r39 1 263 
+$r18 1 655 
+$r7 1 408 
+$r28 1 549 
+r0 1 -1 
+$r2 1 6 
+r4 1 23 
+$r6 1 382 
+$r8 1 401 
+$r36 1 435 
+$r14 1 435 
+$r12 1 435 
+$r19 1 401 
+$r10 1 435 
+$r3 1 17 
+$r81 1 6 
+$r31 1 435 
+r16 1 531 
+r82 1 6 
+$r15 1 519 
+$r37 2 541 423 
+$r34 1 435 
+$r41 1 281 
+$r40 1 272 
+$r38 1 393 
+$r83 1 358 
+r86 1 455 
+$r17 1 629 
+$r9 1 409 
+$r88 2 541 423 
+r13 1 -2 
+$r33 1 435 
+$r29 1 545 
+$r80 1 6 
+$r27 1 553 
+$r1 1 6 
+$r11 1 446 
+$r35 1 504 
+r84 1 409 
+r85 1 450 
+$r20 1 640 
+$r32 1 475 
+$r30 2 541 423 
+r87 1 569 
+Fields: 16
+6 ArrayObject 408
+6 ArrayObject 382
+6 ArrayObject 446
+6 ArrayObject 640
+6 ArrayObject 393
+6 ArrayObject 629
+6 ArrayObject 655
+-1 fCMBuilder 549
+-1 fErrorReporter 553
+-1 fJAXPSource 6
+-1 fSchemaHandler 519
+-1 fSubGroupHandler 545
+-1 fJAXPCache 401
+-1 fGrammarBucket 423
+-1 fGrammarBucket 541
+-1 fXSDDescription 435
+Accesses: 50
+512 1 435 
+2 1 -1 
+130 1 -1 
+5 1 -1 
+518 1 -1 
+647 1 -1 
+139 1 -1 
+523 1 -1 
+13 1 -1 
+400 1 -1 
+148 1 -1 
+533 1 -1 
+662 1 -1 
+540 1 -1 
+544 1 -1 
+33 1 -1 
+548 1 -1 
+165 1 -1 
+422 1 -1 
+552 1 -1 
+297 1 -1 
+43 1 -1 
+434 1 -1 
+53 1 -1 
+181 1 -1 
+57 1 -1 
+317 1 -1 
+191 1 -1 
+581 1 -1 
+201 1 -1 
+457 1 -1 
+74 1 -1 
+205 1 -1 
+462 1 435 
+84 1 -1 
+470 1 -1 
+598 1 -1 
+215 1 -1 
+346 1 -1 
+92 1 -1 
+222 1 -1 
+481 1 -1 
+226 1 -1 
+230 1 -1 
+106 1 -1 
+234 1 -1 
+490 1 -1 
+241 1 -1 
+499 1 -1 
+119 1 -1 
+Functions: 45
+451 1 450 
+582 0 
+263 2 263 23 
+519 4 -2 450 435 519 
+136 0 
+332 1 23 
+14 8 640 629 6 408 393 382 446 655 
+80 0 
+272 2 272 23 
+17 1 17 
+145 0 
+401 2 401 408 
+658 3 401 531 655 
+211 0 
+596 0 
+342 0 
+599 0 
+88 0 
+281 2 23 281 
+474 1 450 
+91 17 -1 640 545 549 6 519 423 553 393 655 401 435 629 408 541 382 446 
+668 3 531 423 541 
+478 2 435 475 
+290 1 23 
+100 0 
+164 18 -1 640 545 -2 549 6 519 423 553 393 655 401 435 629 408 541 382 446 
+613 0 
+487 2 435 455 
+298 0 
+362 1 358 
+428 3 423 409 541 
+556 5 545 549 423 553 541 
+621 2 358 569 
+238 0 
+496 2 435 455 
+564 1 531 
+54 0 
+438 1 435 
+247 0 
+441 17 -1 640 545 549 6 519 423 553 393 655 401 435 629 408 541 382 446 
+123 0 
+315 0 
+571 2 358 569 
+318 0 
+127 0 
+Constructors: 1
+362 358
+
+Summary: 21
+174 17 590 99 327 475 569 306 337 321 602 409 61 -1 450 358 -2 124 0 608 531 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.loadGrammar(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)Lcom/sun/org/apache/xerces/internal/xni/grammars/Grammar;
+PTG:
+Vars:
+22
+$r10 1 55 
+$r5 1 28 
+$r15 1 81 
+$r17 1 113 
+$r13 1 81 
+$r2 1 13 
+$r11 1 51 
+$r14 1 94 
+$r18 1 118 
+$r6 1 36 
+r4 1 -2 
+$r16 1 97 
+$r19 1 60 
+$r22 1 94 
+$r7 1 42 
+r12 1 73 
+r0 1 -1 
+$r1 1 2 
+$r20 1 135 
+$r21 1 131 
+_ret 1 73 
+$r9 1 60 
+Fields: 9
+-1 fExternalSchemas 51
+-1 fCMBuilder 135
+-1 fErrorReporter 60
+-1 fGrammarPool 81
+-1 fSubGroupHandler 131
+-1 fJAXPCache 113
+-1 fLoaderConfig 2
+-1 fGrammarBucket 94
+-1 fExternalNoNSSchema 55
+Accesses: 15
+1 1 -1 
+130 1 -1 
+134 1 -1 
+105 1 -1 
+10 1 -1 
+138 1 -1 
+80 1 -1 
+112 1 -1 
+50 1 -1 
+54 1 -1 
+23 1 13 
+87 1 -1 
+59 1 -1 
+93 1 -1 
+126 1 -1 
+Functions: 13
+66 13 -1 -2 2 131 135 42 13 81 113 51 55 60 94 
+35 1 -2 
+100 2 81 97 
+5 10 -1 81 113 2 51 131 135 55 60 94 
+39 2 36 13 
+46 1 42 
+142 4 131 135 60 94 
+17 1 13 
+113 2 113 73 
+27 1 -2 
+94 1 94 
+31 2 28 13 
+63 4 51 55 42 60 
+Constructors: 2
+17 13
+46 42
+
+Summary: 8
+-2 42 28 97 118 13 -1 36 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.dom2xmlInputSource(Lorg/w3c/dom/ls/LSInput;)Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;
+PTG:
+Vars:
+29
+$r23 1 22 
+$r5 1 170 
+$r13 1 142 
+$r14 1 147 
+$r21 1 11 
+$r24 1 28 
+$r2 1 50 
+$r10 1 125 
+$r7 1 182 
+$r3 1 100 
+$r1 1 3 
+$r12 1 137 
+$r22 1 16 
+$r8 1 109 
+$r15 1 58 
+r0 1 -2 
+$r20 1 87 
+$r6 1 176 
+$r17 1 69 
+$r11 1 131 
+$r4 1 165 
+$r25 1 34 
+$r9 1 120 
+$r16 1 63 
+$r19 1 81 
+_ret 4 11 165 120 58 
+$r18 1 75 
+r26 1 -1 
+r27 4 11 165 120 58 
+Fields: 0
+Accesses: 0
+Functions: 26
+2 1 -2 
+130 1 -2 
+68 1 -2 
+136 1 -2 
+74 1 -2 
+15 1 -2 
+80 1 -2 
+146 1 -2 
+21 1 -2 
+86 1 -2 
+152 2 147 142 
+27 1 -2 
+92 6 81 69 87 58 75 63 
+158 5 131 120 137 125 142 
+33 1 -2 
+99 1 -2 
+169 1 -2 
+42 5 16 34 22 11 28 
+108 1 -2 
+109 1 109 
+175 1 -2 
+49 1 -2 
+181 1 -2 
+187 4 176 165 182 170 
+124 1 -2 
+62 1 -2 
+Constructors: 5
+152 142
+42 11
+187 165
+92 58
+158 120
+
+Summary: 22
+137 147 100 28 75 131 50 63 81 22 125 170 -2 176 109 182 3 16 34 69 87 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getParameterNames()Lorg/w3c/dom/DOMStringList;
+PTG:
+Vars:
+6
+$r1 1 1 
+$r3 1 7 
+r0 1 -1 
+$r2 1 1 
+$r5 1 173 
+_ret 1 1 
+Fields: 1
+-1 fRecognizedParameters 1
+Accesses: 3
+0 1 -1 
+181 1 -1 
+184 1 -1 
+Functions: 23
+160 1 7 
+129 1 7 
+98 1 7 
+35 1 7 
+70 1 7 
+136 1 7 
+168 1 7 
+105 1 7 
+42 1 7 
+11 1 7 
+77 1 7 
+144 1 7 
+49 1 7 
+113 1 7 
+178 2 7 173 
+19 1 7 
+84 1 7 
+56 1 7 
+152 1 7 
+121 1 7 
+27 1 7 
+91 1 7 
+63 1 7 
+Constructors: 2
+178 173
+11 7
+
+Summary: 2
+7 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getParameter(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+8
+r0 1 -2 
+r1 1 -1 
+$r11 1 -1 
+$r8 1 96 
+r9 1 106 
+r12 1 84 
+$r6 1 -1 
+$r10 1 108 
+Fields: 0
+Accesses: 4
+17 1 -1 
+39 1 -1 
+10 1 -1 
+46 1 -1 
+Functions: 8
+0 1 -2 
+96 1 96 
+18 0 
+116 2 106 108 
+58 2 -1 -2 
+29 1 -2 
+47 0 
+79 2 -1 -2 
+Constructors: 1
+116 108
+
+Summary: 3
+106 96 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getFeature(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 fLoaderConfig 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.saxToXMLInputSource(Lorg/xml/sax/InputSource;)Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;
+PTG:
+Vars:
+7
+r3 1 14 
+r4 1 36 
+r0 1 -2 
+r1 1 4 
+$r5 1 60 
+r2 1 9 
+_ret 1 60 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+32 1 -2 
+67 3 4 9 60 
+52 1 -2 
+5 1 -2 
+56 3 4 36 9 
+10 1 -2 
+28 3 4 9 14 
+Constructors: 1
+67 60
+
+Summary: 6
+-2 53 4 14 9 36 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.<init>()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 9 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 3
+19 3 -1 1 9 
+5 1 1 
+13 1 9 
+Constructors: 3
+19 -1
+5 1
+13 9
+
+Summary: 3
+1 -1 9 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getPropertyDefault(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.getRecognizedFeatures()[Ljava/lang/String;
+PTG:
+Vars:
+6
+$r2 1 3 
+$r3 1 3 
+$r1 1 3 
+$r0 1 0 
+_ret 1 3 
+r4 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.<init>(Lcom/sun/org/apache/xerces/internal/util/SymbolTable;Lcom/sun/org/apache/xerces/internal/impl/XMLErrorReporter;Lcom/sun/org/apache/xerces/internal/impl/XMLEntityManager;Lcom/sun/org/apache/xerces/internal/impl/xs/XSGrammarBucket;Lcom/sun/org/apache/xerces/internal/impl/xs/SubstitutionGroupHandler;Lcom/sun/org/apache/xerces/internal/impl/xs/models/CMBuilder;)V
+PTG:
+Vars:
+37
+$r23 1 299 
+$r1 1 5 
+$r18 1 340 
+$r7 1 127 
+$r5 1 105 
+$r13 1 199 
+r33 2 -3 164 
+$r6 1 130 
+$r11 1 199 
+$r17 1 127 
+$r4 1 88 
+$r26 1 127 
+$r27 1 216 
+$r14 1 127 
+$r22 1 325 
+$r3 1 77 
+$r28 1 199 
+$r32 1 127 
+$r12 1 204 
+$r16 1 245 
+$r25 1 245 
+$r31 1 183 
+r0 1 -1 
+$r2 1 16 
+$r20 1 355 
+r34 2 279 -5 
+r35 2 299 -6 
+$r29 1 164 
+r15 1 -4 
+r36 2 320 -7 
+$r21 1 320 
+$r8 1 140 
+$r24 1 279 
+r10 1 -2 
+$r9 1 127 
+$r30 1 174 
+$r19 1 345 
+Fields: 7
+-1 faccessExternalSchema 101
+-1 fNodeFactory 325
+-1 fErrorReporter 199
+-1 fLocale 174
+-1 fLoaderConfig 127
+-1 fEntityManager 245
+-1 fGrammarBucket 345
+Accesses: 41
+257 1 -1 
+195 1 -1 
+68 1 -1 
+324 1 -1 
+198 1 -1 
+136 1 -1 
+264 1 -1 
+73 1 -1 
+12 1 -1 
+336 1 -1 
+210 1 -1 
+84 1 -1 
+150 1 -1 
+23 1 -1 
+344 1 -1 
+28 1 -1 
+95 1 -1 
+351 1 -1 
+33 1 -1 
+226 1 -1 
+291 1 -1 
+101 1 -1 
+38 1 -1 
+232 1 -1 
+362 1 -1 
+43 1 -1 
+108 1 -1 
+173 1 -1 
+367 1 -1 
+48 1 -1 
+113 1 -1 
+241 1 -1 
+244 1 -1 
+53 1 -1 
+118 1 -1 
+312 1 -1 
+58 1 -1 
+123 1 -1 
+251 1 -1 
+126 1 -1 
+63 1 -1 
+Functions: 24
+-1 0 
+1 8 -1 101 325 245 199 345 174 127 
+133 2 130 127 
+261 2 245 127 
+199 1 199 
+359 1 355 
+168 1 164 
+328 2 320 325 
+9 1 5 
+236 2 199 127 
+143 2 140 127 
+271 1 127 
+304 9 -1 101 325 245 199 345 299 174 127 
+81 1 77 
+177 2 164 174 
+20 1 16 
+187 1 183 
+283 1 279 
+92 1 88 
+220 1 216 
+348 2 340 345 
+157 2 -2 127 
+190 2 164 183 
+223 2 199 216 
+Constructors: 13
+1 -1
+359 355
+168 164
+328 320
+9 5
+304 299
+81 77
+20 16
+187 183
+283 279
+92 88
+220 216
+348 340
+
+Summary: 12
+216 1 3 101 -2 0 5 183 4 2 204 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.loadURI(Ljava/lang/String;)Lcom/sun/org/apache/xerces/internal/xs/XSModel;
+PTG:
+Vars:
+7
+r2 1 -2 
+$r4 1 19 
+r6 1 14 
+$r1 1 1 
+$r3 1 14 
+$r5 1 -1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -1 1 
+16 1 14 
+8 2 1 -2 
+28 1 -1 
+Constructors: 1
+8 1
+
+Summary: 4
+-2 14 1 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.tokenizeSchemaLocationStr(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)Z
+PTG:
+Vars:
+10
+r4 1 -3 
+r6 1 -4 
+r0 1 -2 
+r3 1 26 
+r12 2 46 61 
+$r1 1 4 
+$r7 1 61 
+$r5 1 46 
+$r9 1 -1 
+r11 2 41 92 
+Fields: 0
+Accesses: 0
+Functions: 10
+65 1 61 
+37 1 4 
+22 1 4 
+103 4 41 92 61 46 
+88 3 -4 41 92 
+11 2 -2 4 
+43 2 -3 26 
+75 3 -3 26 61 
+28 1 4 
+15 1 4 
+Constructors: 2
+65 61
+11 4
+
+Summary: 10
+41 46 -2 4 61 2 26 92 -4 1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.setEntityResolver(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLEntityResolver;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 16 
+$r2 1 6 
+r1 1 -2 
+Fields: 2
+-1 fLoaderConfig 6
+-1 fEntityManager 16
+Accesses: 3
+2 1 -1 
+5 1 -1 
+15 1 -1 
+Functions: 2
+22 2 16 -2 
+12 2 -2 6 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.canSetParameter(Ljava/lang/String;Ljava/lang/Object;)Z
+PTG:
+Vars:
+3
+r0 1 -3 
+r1 1 -2 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 22
+128 1 -2 
+192 1 -2 
+65 1 -2 
+36 1 -2 
+165 1 -2 
+7 1 -2 
+104 1 -2 
+201 1 -2 
+74 1 -2 
+138 1 -2 
+45 1 -2 
+174 1 -2 
+17 1 -2 
+210 1 -2 
+147 1 -2 
+84 1 -2 
+118 1 -2 
+55 1 -2 
+183 1 -2 
+26 1 -2 
+156 1 -2 
+94 1 -2 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.loadInputList(Lcom/sun/org/apache/xerces/internal/xs/LSInputList;)Lcom/sun/org/apache/xerces/internal/xs/XSModel;
+PTG:
+Vars:
+9
+$r7 1 37 
+r0 1 -2 
+r1 1 8 
+$r2 1 63 
+$r6 1 37 
+$r4 1 29 
+r3 1 -1 
+_ret 1 63 
+$r5 1 34 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+52 1 -1 
+68 2 8 63 
+24 2 -1 34 
+25 2 -1 29 
+26 1 -2 
+Constructors: 1
+68 63
+
+Summary: 6
+8 37 -2 34 -1 29 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.loadSchema(Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;Ljava/util/Map;)Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;
+PTG:
+Vars:
+10
+r2 1 -3 
+r1 1 -2 
+r14 1 88 
+$r6 1 24 
+r3 1 -4 
+r0 1 -1 
+$r5 1 20 
+_ret 1 88 
+r13 1 32 
+$r4 1 79 
+Fields: 2
+-1 faccessExternalSchema 24
+-1 fSchemaHandler 79
+Accesses: 4
+0 1 -1 
+23 1 -1 
+43 1 -1 
+78 1 -1 
+Functions: 9
+19 1 -2 
+9 4 -1 -4 24 79 
+57 1 -2 
+58 0 
+74 0 
+27 2 20 24 
+12 1 -2 
+44 0 
+79 4 -2 -3 -4 79 
+Constructors: 0
+
+Summary: 11
+20 -3 -2 0 -4 1 58 52 71 2 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.loadGrammar([Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+r0 1 -2 
+$r2 1 13 
+Fields: 1
+-2 ArrayObject 13
+Accesses: 0
+Functions: 1
+14 2 -1 13 
+Constructors: 0
+
+Summary: 3
+-2 13 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader.reportDOMFatalError(Ljava/lang/Exception;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r4 1 -2 
+$r6 1 1 
+$r2 1 7 
+$r7 1 37 
+$r1 1 1 
+$r5 1 22 
+Fields: 1
+-1 fErrorHandler 1
+Accesses: 5
+0 1 -1 
+17 1 7 
+33 1 -1 
+25 1 7 
+30 1 7 
+Functions: 4
+34 1 1 
+21 1 -2 
+41 2 37 7 
+11 1 7 
+Constructors: 1
+11 7
+
+Summary: 3
+37 7 -1 

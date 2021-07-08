@@ -1,0 +1,1536 @@
+57
+org/apache/fop/pdf/PDFDocument.applyEncryption(Lorg/apache/fop/pdf/AbstractPDFStream;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 8 
+Fields: 1
+-1 encryption 8
+Accesses: 1
+7 1 -1 
+Functions: 2
+0 2 -1 8 
+12 2 -2 8 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.getPDFVersionString()Ljava/lang/String;
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 38 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+44 1 38 
+Constructors: 1
+44 38
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.getWriterFor(Ljava/io/OutputStream;)Ljava/io/Writer;
+PTG:
+Vars:
+5
+$r3 1 -1 
+r2 1 -2 
+$r1 1 4 
+$r0 1 0 
+$r5 1 19 
+Fields: 0
+Accesses: 0
+Functions: 3
+25 1 19 
+11 2 -2 4 
+14 2 0 4 
+Constructors: 3
+25 19
+11 4
+14 0
+
+Summary: 3
+-2 0 4 
+org/apache/fop/pdf/PDFDocument.getEncryption()Lorg/apache/fop/pdf/PDFEncryption;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 encryption 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.setFilterMap(Ljava/util/Map;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/fop/pdf/PDFDocument.getRoot()Lorg/apache/fop/pdf/PDFRoot;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 root 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.getIDEntry()Ljava/lang/String;
+PTG:
+Vars:
+21
+$r3 1 25 
+$r14 1 84 
+$r7 1 42 
+r10 1 63 
+$r16 1 94 
+$r8 1 50 
+$r18 1 102 
+$r17 1 99 
+$r13 1 79 
+$r0 1 6 
+$r15 1 89 
+$r6 1 39 
+$r4 1 28 
+$r19 1 -1 
+r27 1 5 
+r11 1 68 
+r5 1 -1 
+$r12 1 70 
+$r20 1 108 
+$r2 1 18 
+$r9 1 53 
+Fields: 0
+Accesses: 1
+35 1 -1 
+Functions: 29
+0 0 
+64 1 63 
+130 0 
+133 1 -1 
+70 1 70 
+137 0 
+74 1 70 
+12 1 6 
+79 2 68 79 
+143 0 
+17 2 18 6 
+84 1 84 
+22 1 18 
+25 1 25 
+89 2 68 89 
+94 1 94 
+31 2 5 28 
+99 1 99 
+36 0 
+39 1 39 
+107 1 -1 
+108 1 108 
+45 2 5 42 
+49 1 -1 
+50 1 50 
+56 2 5 53 
+121 0 
+59 1 5 
+125 0 
+Constructors: 3
+22 18
+74 70
+12 6
+
+Summary: 3
+6 18 -1 
+org/apache/fop/pdf/PDFDocument.findLink(Lorg/apache/fop/pdf/PDFLink;)Lorg/apache/fop/pdf/PDFLink;
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+_ret 1 6 
+$r4 1 6 
+$r2 1 2 
+$r3 1 6 
+Fields: 1
+-1 links 2
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/pdf/PDFDocument.isEncryptionActive()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 encryption 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.assignObjectNumber(Lorg/apache/fop/pdf/PDFObject;)V
+PTG:
+Vars:
+3
+r1 1 35 
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 2
+64 1 -1 
+56 1 -1 
+Functions: 7
+51 0 
+67 1 -2 
+10 0 
+27 0 
+76 2 -1 -2 
+14 1 -2 
+31 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.<init>(Ljava/lang/String;)V
+PTG:
+Vars:
+29
+r0 1 -1 
+$r8 1 117 
+$r2 1 19 
+$r26 1 282 
+$r11 1 150 
+$r17 1 216 
+$r12 1 161 
+$r21 1 256 
+$r25 1 274 
+$r5 1 62 
+$r1 1 7 
+r27 1 -2 
+$r10 1 139 
+$r22 1 260 
+$r13 1 172 
+$r3 1 30 
+$r4 1 46 
+$r15 1 194 
+$r24 1 271 
+$r28 1 286 
+$r14 1 183 
+$r20 1 248 
+$r16 1 205 
+$r19 1 245 
+$r23 1 263 
+$r7 1 106 
+$r6 1 79 
+$r18 1 232 
+$r9 1 128 
+Fields: 1
+-1 pages 260
+Accesses: 31
+259 1 -1 
+70 1 -1 
+135 1 -1 
+201 1 -1 
+10 1 -1 
+266 1 -1 
+75 1 -1 
+15 1 -1 
+146 1 -1 
+212 1 -1 
+277 1 -1 
+87 1 -1 
+26 1 -1 
+92 1 -1 
+157 1 -1 
+223 1 -1 
+97 1 -1 
+289 1 -1 
+228 1 -1 
+37 1 -1 
+102 1 -1 
+168 1 -1 
+42 1 -1 
+240 1 -1 
+113 1 -1 
+179 1 -1 
+53 1 -1 
+58 1 -1 
+251 1 -1 
+124 1 -1 
+190 1 -1 
+Functions: 27
+256 2 256 260 
+1 2 -1 260 
+67 3 -1 260 62 
+132 1 128 
+5 0 
+198 1 194 
+270 2 -1 260 
+143 1 139 
+271 1 271 
+209 1 205 
+84 1 79 
+23 1 19 
+281 2 -1 260 
+154 1 150 
+282 2 -2 282 
+220 1 216 
+34 1 30 
+165 1 161 
+237 3 -1 260 232 
+110 1 106 
+176 1 172 
+50 1 46 
+244 2 -1 260 
+245 1 245 
+121 1 117 
+187 1 183 
+255 2 -1 260 
+Constructors: 18
+1 -1
+34 30
+67 62
+132 128
+165 161
+198 194
+237 232
+110 106
+143 139
+176 172
+209 205
+50 46
+84 79
+23 19
+121 117
+154 150
+187 183
+220 216
+
+Summary: 3
+-1 -2 0 
+org/apache/fop/pdf/PDFDocument.getFactory()Lorg/apache/fop/pdf/PDFFactory;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 factory 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.encode(Ljava/lang/String;)[B
+PTG:
+Vars:
+5
+$r1 1 3 
+_ret 1 9 
+r0 1 -2 
+$r2 1 -1 
+$r4 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+8 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/fop/pdf/PDFDocument.setCreationDate(Ljava/util/Date;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 info 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/pdf/PDFDocument.setLocation(II)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 34 
+$r6 1 1 
+$r5 1 17 
+$r3 1 1 
+$r1 1 1 
+Fields: 1
+-1 location 1
+Accesses: 3
+0 1 -1 
+13 1 -1 
+29 1 -1 
+Functions: 4
+1 1 1 
+20 2 1 17 
+39 1 34 
+42 2 1 34 
+Constructors: 1
+39 34
+
+Summary: 2
+34 -1 
+org/apache/fop/pdf/PDFDocument.setEncryption(Lorg/apache/fop/pdf/PDFEncryptionParams;)V
+PTG:
+Vars:
+10
+$r3 1 20 
+$r6 1 27 
+$r5 1 27 
+$r8 1 27 
+$r9 1 27 
+r2 1 -2 
+$r7 1 59 
+r0 1 -1 
+$r4 1 27 
+$r1 1 1 
+Fields: 2
+-1 log 59
+-1 encryption 27
+Accesses: 7
+16 1 -1 
+37 1 -1 
+23 1 -1 
+8 1 -1 
+26 1 -1 
+58 1 -1 
+45 1 -1 
+Functions: 6
+0 3 -1 59 27 
+64 1 59 
+34 3 -1 27 59 
+19 1 -2 
+4 1 1 
+52 3 -1 59 27 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.findPattern(Lorg/apache/fop/pdf/PDFPattern;)Lorg/apache/fop/pdf/PDFPattern;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 2 
+r1 1 -2 
+$r4 1 6 
+_ret 1 6 
+$r3 1 6 
+Fields: 1
+-1 patterns 2
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.findGoTo(Lorg/apache/fop/pdf/PDFGoTo;)Lorg/apache/fop/pdf/PDFGoTo;
+PTG:
+Vars:
+6
+$r2 1 2 
+$r3 1 6 
+$r4 1 6 
+_ret 1 6 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 gotos 2
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.hasDestinations()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 destinations 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.resolveURI(Ljava/lang/String;)Ljava/io/InputStream;
+PTG:
+Vars:
+13
+r13 1 -1 
+r1 1 -2 
+$r7 1 26 
+$r6 1 17 
+$r3 1 -1 
+$r0 1 0 
+$r8 1 30 
+$r2 1 8 
+$r5 1 13 
+$r9 1 33 
+$r11 1 42 
+$r10 1 38 
+$r12 1 45 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 0 
+48 2 13 45 
+17 1 17 
+33 1 33 
+5 2 0 -2 
+21 1 17 
+38 2 -2 38 
+26 2 26 30 
+42 1 42 
+29 1 -1 
+Constructors: 3
+48 13
+5 0
+21 17
+
+Summary: 10
+33 -1 38 -2 17 26 45 30 42 0 
+org/apache/fop/pdf/PDFDocument.findPDFObject(Ljava/util/List;Lorg/apache/fop/pdf/PDFObject;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+r0 1 -2 
+r2 1 22 
+r1 1 6 
+r3 1 -3 
+r4 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+16 1 6 
+7 1 6 
+24 2 -3 22 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/fop/pdf/PDFDocument.setColorSpace(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 colorspace 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.addObject(Lorg/apache/fop/pdf/PDFObject;)V
+PTG:
+Vars:
+25
+$r21 1 106 
+r26 1 152 
+r27 1 -2 
+$r20 1 -2 
+r25 1 96 
+$r9 1 185 
+$r10 1 189 
+$r5 1 243 
+$r17 1 67 
+$r19 1 90 
+r0 1 -2 
+$r14 1 146 
+$r7 1 225 
+$r4 1 261 
+$r22 1 50 
+$r13 1 132 
+$r16 1 162 
+$r2 1 32 
+$r15 1 -2 
+$r3 1 279 
+$r12 1 123 
+r1 1 -1 
+$r18 1 76 
+$r8 1 207 
+$r6 1 -2 
+Fields: 10
+-1 patterns 162
+-1 links 243
+-1 shadings 106
+-1 gotoremotes 279
+-1 functions 50
+-1 objects 32
+-1 filespecs 261
+-1 pages 225
+-1 gstates 207
+-1 fontMap 185
+Accesses: 14
+224 1 -1 
+161 1 -1 
+260 1 -1 
+135 1 -1 
+105 1 -1 
+206 1 -1 
+79 1 -1 
+143 1 -1 
+49 1 -1 
+242 1 -1 
+278 1 -1 
+87 1 -1 
+184 1 -1 
+31 1 -1 
+Functions: 24
+193 3 -2 185 189 
+67 1 67 
+36 2 32 -2 
+132 1 132 
+102 2 96 -2 
+166 2 -2 162 
+71 1 67 
+232 2 225 -2 
+265 2 -2 261 
+10 0 
+76 1 76 
+14 1 -2 
+110 2 -2 106 
+146 1 146 
+211 2 -2 207 
+54 2 -2 50 
+247 2 -2 243 
+90 1 90 
+27 0 
+123 1 123 
+283 2 -2 279 
+188 1 -2 
+158 2 -2 152 
+127 1 123 
+Constructors: 2
+71 67
+127 123
+
+Summary: 3
+-1 -2 0 
+org/apache/fop/pdf/PDFDocument.getInfo()Lorg/apache/fop/pdf/PDFInfo;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 info 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.getColorSpace()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/apache/fop/pdf/PDFDocument.getImage(Ljava/lang/String;)Lorg/apache/fop/pdf/PDFImageXObject;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 5 
+r4 1 5 
+$r2 1 1 
+_ret 1 5 
+r1 1 -2 
+Fields: 1
+-1 xObjectsMap 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/pdf/PDFDocument.getDests()Lorg/apache/fop/pdf/PDFDests;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 dests 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.addDestination(Lorg/apache/fop/pdf/PDFDestination;)V
+PTG:
+Vars:
+5
+$r4 1 8 
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+$r3 1 1 
+Fields: 1
+-1 destinations 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 2
+23 2 1 -2 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.findShading(Lorg/apache/fop/pdf/PDFShading;)Lorg/apache/fop/pdf/PDFShading;
+PTG:
+Vars:
+6
+r1 1 -2 
+_ret 1 6 
+r0 1 -1 
+$r2 1 2 
+$r3 1 6 
+$r4 1 6 
+Fields: 1
+-1 shadings 2
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.findFileSpec(Lorg/apache/fop/pdf/PDFFileSpec;)Lorg/apache/fop/pdf/PDFFileSpec;
+PTG:
+Vars:
+6
+$r3 1 6 
+r1 1 -2 
+r0 1 -1 
+$r4 1 6 
+_ret 1 6 
+$r2 1 2 
+Fields: 1
+-1 filespecs 2
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.getResources()Lorg/apache/fop/pdf/PDFResources;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 resources 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.getPDFColorSpace()Lorg/apache/fop/pdf/PDFDeviceColorSpace;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 colorspace 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.addTrailerObject(Lorg/apache/fop/pdf/PDFObject;)V
+PTG:
+Vars:
+4
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+$r3 1 19 
+Fields: 2
+-1 gotos 19
+-1 trailerObjects 1
+Accesses: 2
+0 1 -1 
+18 1 -1 
+Functions: 2
+5 2 1 -2 
+23 2 -2 19 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.setCreator(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 info 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/pdf/PDFDocument.findDestination(Lorg/apache/fop/pdf/PDFDestination;)Lorg/apache/fop/pdf/PDFDestination;
+PTG:
+Vars:
+3
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+16 0 
+1 2 1 -2 
+15 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.getProfile()Lorg/apache/fop/pdf/PDFProfile;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 pdfProfile 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.findGState(Lorg/apache/fop/pdf/PDFGState;Lorg/apache/fop/pdf/PDFGState;)Lorg/apache/fop/pdf/PDFGState;
+PTG:
+Vars:
+8
+r2 1 9 
+$r3 1 23 
+r8 1 -2 
+$r1 1 1 
+r4 1 23 
+r0 1 -1 
+$r5 1 33 
+r7 1 -3 
+Fields: 1
+-1 gstates 1
+Accesses: 1
+0 1 -1 
+Functions: 7
+1 1 1 
+49 2 33 23 
+52 2 33 -2 
+21 1 9 
+37 1 33 
+11 1 9 
+43 2 33 -3 
+Constructors: 1
+37 33
+
+Summary: 7
+33 -2 -3 -1 23 0 1 
+org/apache/fop/pdf/PDFDocument.outputTrailer(Ljava/io/OutputStream;)V
+PTG:
+Vars:
+46
+r1 1 -2 
+$r31 1 23 
+$r9 1 222 
+$r41 1 54 
+$r13 1 237 
+$r14 1 242 
+$r19 1 263 
+$r40 1 51 
+$r22 1 284 
+$r38 1 68 
+$r4 1 198 
+$r21 1 275 
+$r10 1 227 
+$r17 1 254 
+$r7 1 37 
+$r12 1 234 
+r45 1 281 
+r44 2 171 188 
+$r23 1 173 
+r43 1 99 
+$r47 1 118 
+$r49 1 11 
+$r33 1 30 
+$r48 1 189 
+$r2 1 173 
+$r11 1 231 
+$r36 1 37 
+$r32 1 8 
+$r16 1 249 
+$r46 1 11 
+$r34 1 37 
+$r35 1 40 
+$r26 1 109 
+$r8 1 219 
+$r42 1 83 
+$r24 1 83 
+r0 1 -1 
+$r6 1 212 
+$r5 1 207 
+$r20 1 270 
+$r37 1 64 
+$r25 1 99 
+$r15 1 246 
+$r39 1 37 
+$r30 1 8 
+$r18 1 258 
+Fields: 7
+-1 location 109
+-1 info 231
+-1 dests 68
+-1 destinations 8
+-1 encryption 173
+-1 trailerObjects 83
+-1 root 37
+Accesses: 21
+33 1 -1 
+67 1 -1 
+36 1 -1 
+166 1 -1 
+230 1 -1 
+7 1 -1 
+135 1 -1 
+201 1 -1 
+266 1 -1 
+108 1 -1 
+172 1 -1 
+46 1 -1 
+82 1 -1 
+146 1 -1 
+179 1 -1 
+215 1 -1 
+26 1 -1 
+122 1 -1 
+155 1 -1 
+60 1 -1 
+94 1 -1 
+Functions: 40
+0 8 -1 83 68 37 231 8 109 173 
+129 2 118 109 
+193 1 189 
+258 1 258 
+198 1 198 
+71 2 64 68 
+263 1 263 
+76 9 -1 -2 83 68 37 231 8 109 173 
+140 2 -2 99 
+270 1 270 
+15 1 11 
+207 1 207 
+18 2 8 11 
+83 1 83 
+275 1 275 
+212 2 212 219 
+22 8 -1 83 68 37 231 8 109 173 
+23 2 23 8 
+216 1 37 
+283 1 281 
+222 1 222 
+95 1 83 
+287 2 -2 284 
+160 9 -1 -2 83 68 37 231 8 109 173 
+227 2 227 234 
+37 1 37 
+231 1 231 
+237 1 237 
+112 1 99 
+50 8 -1 83 68 37 231 8 109 173 
+242 2 242 246 
+51 1 51 
+180 1 173 
+245 8 -1 83 68 37 231 8 109 173 
+57 2 37 54 
+249 1 249 
+61 1 37 
+189 1 189 
+126 1 118 
+254 3 171 188 254 
+Constructors: 3
+193 189
+126 118
+15 11
+
+Summary: 5
+-1 118 188 0 11 
+org/apache/fop/pdf/PDFDocument.getXObject(Ljava/lang/String;)Lorg/apache/fop/pdf/PDFXObject;
+PTG:
+Vars:
+6
+r4 1 5 
+r1 1 -2 
+$r2 1 1 
+_ret 1 5 
+r0 1 -1 
+$r3 1 5 
+Fields: 1
+-1 xObjectsMap 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.getOutlineRoot()Lorg/apache/fop/pdf/PDFOutline;
+PTG:
+Vars:
+9
+$r1 1 1 
+$r6 1 43 
+$r7 1 1 
+$r4 1 1 
+_ret 1 1 
+r0 1 -1 
+$r5 1 1 
+$r2 1 13 
+$r3 1 1 
+Fields: 2
+-1 outlineRoot 1
+-1 root 43
+Accesses: 8
+0 1 -1 
+35 1 -1 
+53 1 -1 
+7 1 -1 
+23 1 -1 
+42 1 -1 
+27 1 -1 
+46 1 -1 
+Functions: 4
+50 2 1 43 
+20 1 13 
+39 3 -1 1 43 
+31 3 -1 1 43 
+Constructors: 1
+20 13
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.getPages()Lorg/apache/fop/pdf/PDFPages;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 pages 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.addImage(Lorg/apache/fop/pdf/PDFResourceContext;Lorg/apache/fop/pdf/PDFImage;)Lorg/apache/fop/pdf/PDFImageXObject;
+PTG:
+Vars:
+12
+r13 1 12 
+$r11 1 92 
+$r4 1 12 
+$r3 1 8 
+$r7 1 79 
+_ret 1 50 
+r8 1 -2 
+r1 1 6 
+$r9 1 8 
+r0 1 -3 
+r2 1 -1 
+$r5 1 50 
+Fields: 2
+-1 xObjectsMap 8
+-1 resources 79
+Accesses: 5
+100 1 -1 
+54 1 -1 
+7 1 -1 
+62 1 -1 
+78 1 -1 
+Functions: 11
+0 1 -3 
+97 2 50 92 
+66 2 50 -3 
+84 2 50 79 
+37 1 12 
+8 2 6 8 
+74 4 -1 50 8 79 
+91 1 -2 
+107 3 50 6 8 
+45 4 -1 -3 8 79 
+31 1 -2 
+Constructors: 1
+66 50
+
+Summary: 8
+-3 -1 32 -2 92 0 1 6 
+org/apache/fop/pdf/PDFDocument.outputXref(Ljava/io/OutputStream;)I
+PTG:
+Vars:
+25
+r0 1 -1 
+$r9 1 149 
+$r22 1 132 
+r13 1 81 
+$r23 1 135 
+r19 1 115 
+$r6 1 46 
+$r1 1 8 
+$r2 1 20 
+$r15 1 87 
+$r21 1 127 
+$r5 1 43 
+$r3 1 29 
+r25 1 155 
+$r18 1 109 
+$r20 1 118 
+$r16 1 101 
+r24 2 8 141 
+$r11 1 57 
+$r4 1 38 
+r10 1 -2 
+$r12 1 73 
+$r17 1 104 
+r14 1 85 
+$r8 1 57 
+Fields: 1
+-1 location 57
+Accesses: 5
+32 1 -1 
+1 1 -1 
+68 1 -1 
+5 1 -1 
+56 1 -1 
+Functions: 24
+96 1 81 
+132 1 132 
+69 1 57 
+38 1 38 
+104 2 81 104 
+73 1 73 
+43 1 43 
+109 1 109 
+15 1 8 
+49 2 8 46 
+20 1 20 
+148 2 8 141 
+117 3 135 8 141 
+149 1 149 
+118 2 115 118 
+87 2 101 87 
+24 1 20 
+57 1 57 
+122 1 118 
+91 1 87 
+29 1 29 
+94 1 85 
+158 2 -2 155 
+127 1 127 
+Constructors: 4
+24 20
+122 118
+91 87
+15 8
+
+Summary: 2
+-1 0 
+org/apache/fop/pdf/PDFDocument.getFontMap()Ljava/util/Map;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fontMap 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.addFormXObject(Lorg/apache/fop/pdf/PDFResourceContext;Lorg/apache/fop/pdf/PDFStream;Lorg/apache/fop/pdf/PDFReference;Ljava/lang/String;)Lorg/apache/fop/pdf/PDFFormXObject;
+PTG:
+Vars:
+13
+_ret 1 37 
+$r4 1 37 
+$r2 1 1 
+$r3 1 6 
+$r10 1 1 
+$r8 1 67 
+r0 1 -1 
+r9 1 -2 
+r14 1 6 
+r6 1 -4 
+$r12 1 80 
+r5 1 -3 
+r1 1 -5 
+Fields: 2
+-1 xObjectsMap 1
+-1 resources 67
+Accesses: 5
+0 1 -1 
+49 1 -1 
+66 1 -1 
+88 1 -1 
+41 1 -1 
+Functions: 9
+96 3 1 -5 37 
+1 2 1 -5 
+85 2 80 37 
+54 3 -3 -4 37 
+72 2 67 37 
+25 1 -2 
+62 4 -1 1 67 37 
+31 1 6 
+79 1 -2 
+Constructors: 1
+54 37
+
+Summary: 7
+-2 -3 -1 -4 26 80 -5 
+org/apache/fop/pdf/PDFDocument.getPDFVersion()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.findFunction(Lorg/apache/fop/pdf/PDFFunction;)Lorg/apache/fop/pdf/PDFFunction;
+PTG:
+Vars:
+6
+r1 1 -2 
+_ret 1 6 
+$r2 1 2 
+r0 1 -1 
+$r4 1 6 
+$r3 1 6 
+Fields: 1
+-1 functions 2
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.outputHeader(Ljava/io/OutputStream;)V
+PTG:
+Vars:
+11
+$r2 1 12 
+r8 1 42 
+$r6 1 33 
+$r4 1 25 
+$r3 1 21 
+r0 1 -1 
+$r1 1 6 
+$r5 1 28 
+$r7 1 36 
+r9 1 -2 
+$r10 1 61 
+Fields: 0
+Accesses: 5
+48 1 -1 
+2 1 -1 
+99 1 -1 
+56 1 -1 
+107 1 -1 
+Functions: 11
+16 1 12 
+96 2 -2 61 
+33 1 33 
+36 1 36 
+5 1 -1 
+21 2 21 25 
+24 1 -1 
+9 1 6 
+12 1 12 
+28 1 28 
+45 2 -2 42 
+Constructors: 1
+16 12
+
+Summary: 3
+61 -1 0 
+org/apache/fop/pdf/PDFDocument.findFont(Ljava/lang/String;)Lorg/apache/fop/pdf/PDFFont;
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+$r4 1 5 
+_ret 1 5 
+$r2 1 1 
+$r3 1 5 
+Fields: 1
+-1 fontMap 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 0 
+Constructors: 1
+5 0
+
+Summary: 0
+
+org/apache/fop/pdf/PDFDocument.setProducer(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 info 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/pdf/PDFDocument.getFilterMap()Ljava/util/Map;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 filterMap 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.getDestinationList()Ljava/util/List;
+PTG:
+Vars:
+3
+_ret 1 12 
+$r1 1 12 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.isEncodingOnTheFly()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/pdf/PDFDocument.registerObject(Lorg/apache/fop/pdf/PDFObject;)Lorg/apache/fop/pdf/PDFObject;
+PTG:
+Vars:
+3
+_ret 1 -2 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 2 -1 -2 
+7 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/fop/pdf/PDFDocument.output(Ljava/io/OutputStream;)V
+PTG:
+Vars:
+6
+r5 1 -2 
+$r3 1 17 
+r4 1 17 
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 objects 1
+Accesses: 5
+0 1 -1 
+33 1 -1 
+51 1 -1 
+40 1 -1 
+12 1 -1 
+Functions: 5
+1 1 1 
+37 2 -1 1 
+27 1 17 
+13 1 1 
+45 2 17 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/pdf/PDFDocument.findGoToRemote(Lorg/apache/fop/pdf/PDFGoToRemote;)Lorg/apache/fop/pdf/PDFGoToRemote;
+PTG:
+Vars:
+6
+r0 1 -1 
+_ret 1 6 
+$r2 1 2 
+$r4 1 6 
+r1 1 -2 
+$r3 1 6 
+Fields: 1
+-1 gotoremotes 2
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 

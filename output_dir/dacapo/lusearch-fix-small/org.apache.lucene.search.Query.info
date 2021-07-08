@@ -1,0 +1,257 @@
+12
+org/apache/lucene/search/Query.rewrite(Lorg/apache/lucene/index/IndexReader;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/apache/lucene/search/Query.extractTerms(Ljava/util/Set;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-1 -2 
+org/apache/lucene/search/Query.weight(Lorg/apache/lucene/search/Searcher;)Lorg/apache/lucene/search/Weight;
+PTG:
+Vars:
+6
+_ret 1 11 
+r1 1 -1 
+r3 1 11 
+r0 1 -2 
+$r4 1 22 
+r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 2 -1 -2 
+35 1 11 
+20 2 -1 -2 
+6 2 -2 5 
+22 1 22 
+12 1 11 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/lucene/search/Query.toString()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 3 
+$r1 1 3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/Query.clone()Ljava/lang/Object;
+PTG:
+Vars:
+9
+$r10 1 32 
+$r7 1 22 
+$r1 1 1 
+$r9 1 29 
+$r6 1 13 
+$r5 1 9 
+$r3 1 -1 
+$r8 1 26 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -1 
+17 1 13 
+35 2 32 9 
+22 2 22 26 
+25 1 -1 
+13 1 13 
+29 1 29 
+Constructors: 2
+17 13
+35 9
+
+Summary: 1
+-1 
+org/apache/lucene/search/Query.getSimilarity(Lorg/apache/lucene/search/Searcher;)Lorg/apache/lucene/search/Similarity;
+PTG:
+Vars:
+4
+r2 1 -1 
+_ret 1 1 
+r0 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/lucene/search/Query.combine([Lorg/apache/lucene/search/Query;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+17
+$r11 1 122 
+$r6 1 199 
+$r4 1 199 
+r2 1 -2 
+r19 1 176 
+$r10 1 121 
+$r5 1 207 
+r16 1 19 
+$r0 1 0 
+_ret 1 177 
+r18 1 19 
+$r13 1 78 
+r17 1 55 
+$r14 1 81 
+r15 1 -1 
+$r3 1 177 
+$r12 1 77 
+Fields: 3
+55 ArrayObject 121
+55 ArrayObject 77
+-2 ArrayObject 19
+Accesses: 0
+Functions: 15
+160 0 
+4 1 0 
+198 1 176 
+43 1 19 
+172 1 0 
+77 1 77 
+141 2 0 19 
+50 1 19 
+210 3 177 199 207 
+182 1 177 
+151 1 0 
+121 1 121 
+187 1 176 
+125 2 0 122 
+159 1 0 
+Constructors: 2
+4 0
+182 177
+
+Summary: 12
+176 160 121 -2 0 78 -1 19 199 77 122 55 
+org/apache/lucene/search/Query.getBoost()F
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/Query.createWeight(Lorg/apache/lucene/search/Searcher;)Lorg/apache/lucene/search/Weight;
+PTG:
+Vars:
+3
+r1 1 -1 
+r2 1 -2 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 3
+0 -1 -2 
+org/apache/lucene/search/Query.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/apache/lucene/search/Query.mergeBooleanQueries([Lorg/apache/lucene/search/Query;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+13
+$r4 1 68 
+r2 1 -2 
+$r8 1 18 
+_ret 1 76 
+$r6 1 104 
+$r3 1 68 
+r13 1 89 
+$r0 1 0 
+r11 1 25 
+$r9 1 18 
+$r10 1 40 
+$r5 1 76 
+$r7 1 104 
+Fields: 3
+25 ArrayObject 40
+-2 ArrayObject 68
+-2 ArrayObject 18
+Accesses: 0
+Functions: 9
+112 2 104 76 
+81 1 76 
+19 1 18 
+4 1 0 
+69 1 68 
+85 1 0 
+102 1 89 
+41 2 0 40 
+91 1 89 
+Constructors: 2
+81 76
+4 0
+
+Summary: 8
+40 68 89 25 18 -2 0 104 
+org/apache/lucene/search/Query.setBoost(F)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

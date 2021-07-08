@@ -1,0 +1,320 @@
+6
+org/eclipse/jdt/internal/compiler/ast/DoStatement.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;)V
+PTG:
+Vars:
+18
+$r17 1 27 
+$r12 1 139 
+r0 1 -1 
+r10 1 -2 
+$r15 1 139 
+$r8 1 50 
+$r7 1 27 
+$r11 1 58 
+$r14 1 149 
+$r9 1 50 
+r1 1 -3 
+$r16 1 139 
+$r18 1 58 
+$r4 1 27 
+$r2 1 16 
+r13 1 145 
+$r5 1 50 
+$r6 1 58 
+Fields: 4
+-1 continueLabel 58
+-1 breakLabel 50
+-1 action 27
+-1 condition 139
+Accesses: 23
+0 1 -1 
+33 1 16 
+131 1 -1 
+227 1 -1 
+41 1 16 
+105 1 -1 
+201 1 -1 
+138 1 -1 
+11 1 -3 
+76 1 -1 
+237 1 -1 
+175 1 -1 
+112 1 -1 
+49 1 -1 
+211 1 -1 
+84 1 -1 
+246 1 -1 
+57 1 -1 
+26 1 -1 
+122 1 -1 
+91 1 -1 
+188 1 -1 
+220 1 -1 
+Functions: 17
+224 2 -2 -3 
+97 3 -2 -3 27 
+228 1 50 
+198 4 16 -2 -3 139 
+135 2 -2 -3 
+139 1 139 
+109 1 58 
+46 1 16 
+81 2 -3 58 
+241 1 50 
+21 2 16 -3 
+54 2 50 -3 
+182 3 -2 -3 139 
+215 2 -2 -3 
+250 1 -3 
+155 1 145 
+126 2 -2 -3 
+Constructors: 1
+21 16
+
+Summary: 7
+-1 145 1 16 -3 0 -2 
+org/eclipse/jdt/internal/compiler/ast/DoStatement.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+48
+r6 1 -2 
+$r47 1 342 
+$r43 1 143 
+$r35 1 168 
+$r51 1 417 
+$r3 1 22 
+$r33 1 143 
+$r36 1 183 
+$r22 1 388 
+$r40 1 86 
+$r8 1 30 
+r17 1 257 
+$r30 1 331 
+$r15 1 183 
+$r10 1 44 
+$r18 1 261 
+$r26 1 309 
+$r46 3 174 248 140 
+$r13 1 44 
+$r28 1 315 
+r4 1 -3 
+$r45 1 143 
+r5 1 -4 
+$r25 1 304 
+$r24 1 34 
+$r50 2 391 257 
+r39 1 82 
+$r44 1 213 
+$r20 1 342 
+r0 1 -1 
+$r2 1 12 
+$r41 1 109 
+$r23 1 391 
+r21 1 413 
+$r48 2 342 370 
+_ret 1 413 
+$r7 1 34 
+r37 1 50 
+r42 2 174 140 
+$r31 1 334 
+$r1 1 1 
+$r34 1 143 
+$r29 1 328 
+$r19 1 362 
+$r16 1 251 
+$r11 1 54 
+$r27 1 312 
+$r38 1 44 
+Fields: 7
+-1 continueLabel 34
+-1 breakLabel 30
+-1 action 143
+-1 condition 44
+22 initsOnBreak 342
+22 initsOnContinue 183
+44 constant 50
+Accesses: 25
+197 1 -1 
+8 1 -1 
+75 1 -1 
+269 1 -1 
+142 1 -1 
+208 1 -1 
+19 1 -1 
+340 1 22 
+149 1 -1 
+277 1 -1 
+342 1 342 
+29 1 -1 
+159 1 -1 
+33 1 -1 
+353 1 22 
+229 1 -1 
+425 1 -1 
+43 1 -1 
+44 1 44 
+365 1 22 
+176 2 140 174 
+243 1 22 
+181 1 22 
+183 1 183 
+375 1 257 
+Functions: 37
+385 2 -4 388 
+130 1 -4 
+386 1 257 
+260 1 -2 
+324 3 331 140 174 
+5 1 1 
+261 3 261 140 174 
+326 1 257 
+136 1 -4 
+328 1 328 
+76 2 50 44 
+204 2 140 174 
+16 1 12 
+209 5 -2 50 213 251 44 
+337 3 -2 213 334 
+150 1 143 
+409 4 257 370 342 391 
+92 1 82 
+223 10 -1 -2 -3 34 50 -4 213 44 30 143 
+160 7 -2 22 342 183 140 174 143 
+416 1 -2 
+289 5 -2 257 22 342 183 
+417 2 417 413 
+38 12 -1 -2 -3 34 50 -4 22 342 183 44 30 143 
+168 1 168 
+297 3 -2 257 213 
+361 1 -4 
+362 2 342 362 
+303 1 -4 
+304 2 304 312 
+241 3 183 140 174 
+115 1 82 
+307 1 257 
+309 1 309 
+248 3 248 140 174 
+60 1 50 
+318 5 -2 22 342 183 315 
+Constructors: 4
+16 12
+5 1
+38 22
+223 213
+
+Summary: 19
+22 -3 213 388 261 82 -1 391 183 370 0 417 312 1 2 331 334 251 315 
+org/eclipse/jdt/internal/compiler/ast/DoStatement.<init>(Lorg/eclipse/jdt/internal/compiler/ast/Expression;Lorg/eclipse/jdt/internal/compiler/ast/Statement;II)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 8
+16 1 -1 
+32 1 -1 
+49 1 -3 
+6 1 -1 
+22 1 -1 
+42 1 -3 
+11 1 -1 
+27 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 1 0 
+org/eclipse/jdt/internal/compiler/ast/DoStatement.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+6
+r1 1 -1 
+$r5 1 10 
+r2 1 -3 
+$r4 1 26 
+$r3 1 10 
+r0 1 -2 
+Fields: 2
+-1 action 10
+-1 condition 26
+Accesses: 3
+16 1 -1 
+9 1 -1 
+25 1 -1 
+Functions: 4
+0 5 -1 -2 -3 10 26 
+37 5 -1 -2 -3 10 26 
+22 3 -2 -3 10 
+31 3 -2 -3 26 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/ast/DoStatement.resolve(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+8
+r4 1 11 
+$r3 1 1 
+r0 1 -1 
+r1 1 -2 
+$r2 1 5 
+$r6 1 23 
+$r7 1 23 
+$r5 1 1 
+Fields: 2
+-1 action 23
+-1 condition 1
+Accesses: 4
+0 1 -1 
+22 1 -1 
+12 1 -1 
+29 1 -1 
+Functions: 3
+1 3 1 -2 5 
+34 2 -2 23 
+19 3 1 -2 11 
+Constructors: 0
+
+Summary: 4
+-1 11 0 -2 
+org/eclipse/jdt/internal/compiler/ast/DoStatement.printStatement(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+10
+$r4 1 12 
+_ret 1 70 
+$r1 1 2 
+$r10 1 60 
+$r11 1 65 
+$r6 1 12 
+r0 1 -3 
+r3 1 -1 
+$r7 1 43 
+$r12 1 70 
+Fields: 2
+-1 action 12
+-1 condition 60
+Accesses: 3
+35 1 -1 
+11 1 -1 
+59 1 -1 
+Functions: 9
+48 1 43 
+1 1 -3 
+65 1 65 
+36 2 -3 12 
+21 1 -3 
+7 1 2 
+55 1 -3 
+60 2 -3 60 
+31 1 -3 
+Constructors: 0
+
+Summary: 2
+-1 1 

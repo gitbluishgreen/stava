@@ -1,0 +1,557 @@
+23
+org/eclipse/osgi/baseadaptor/HookRegistry.addClassLoadingStatsHook(Lorg/eclipse/osgi/baseadaptor/hooks/ClassLoadingStatsHook;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r4 1 4 
+$r3 1 14 
+$r5 1 17 
+r1 1 -2 
+$r2 1 4 
+$r6 1 17 
+Fields: 1
+-1 classLoadingStatsHooks 4
+Accesses: 3
+3 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 1
+1 4 -1 -2 4 14 
+Constructors: 0
+
+Summary: 3
+-1 -2 14 
+org/eclipse/osgi/baseadaptor/HookRegistry.addBundleFileWrapperFactoryHook(Lorg/eclipse/osgi/baseadaptor/hooks/BundleFileWrapperFactoryHook;)V
+PTG:
+Vars:
+7
+$r3 1 14 
+$r6 1 17 
+r0 1 -1 
+$r4 1 4 
+$r2 1 4 
+$r5 1 17 
+r1 1 -2 
+Fields: 1
+-1 bundleFileWrapperFactoryHooks 4
+Accesses: 3
+3 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 1
+1 4 -1 -2 4 14 
+Constructors: 0
+
+Summary: 3
+-1 -2 14 
+org/eclipse/osgi/baseadaptor/HookRegistry.getClassLoaderDelegateHooks()[Lorg/eclipse/osgi/framework/adaptor/ClassLoaderDelegateHook;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 classLoaderDelegateHooks 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/HookRegistry.initialize()[Lorg/eclipse/osgi/framework/log/FrameworkLogEntry;
+PTG:
+Vars:
+7
+r4 1 -1 
+$r7 1 48 
+_ret 1 48 
+$r0 1 0 
+$r2 1 9 
+$r6 1 48 
+$r5 1 45 
+Fields: 0
+Accesses: 1
+37 1 -1 
+Functions: 7
+32 3 -1 0 9 
+5 1 0 
+21 3 -1 0 9 
+40 2 9 45 
+41 1 9 
+26 2 -1 0 
+14 1 9 
+Constructors: 2
+5 0
+14 9
+
+Summary: 4
+-1 9 45 0 
+org/eclipse/osgi/baseadaptor/HookRegistry.mergePropertyHookConfigurators(Ljava/util/ArrayList;)V
+PTG:
+Vars:
+11
+$r0 1 2 
+$r6 1 102 
+r10 1 -1 
+r12 1 110 
+$r2 1 55 
+$r4 1 74 
+r1 1 10 
+$r5 1 85 
+r3 1 -2 
+r11 1 63 
+$r7 1 123 
+Fields: 3
+63 ArrayObject 85
+63 ArrayObject 74
+110 ArrayObject 123
+Accesses: 0
+Functions: 12
+0 0 
+17 1 -2 
+100 0 
+5 1 2 
+53 0 
+70 2 -2 74 
+86 2 -2 85 
+39 1 -2 
+25 1 -2 
+105 1 102 
+58 1 55 
+124 2 -2 123 
+Constructors: 0
+
+Summary: 9
+55 63 2 10 102 110 -1 0 -2 
+org/eclipse/osgi/baseadaptor/HookRegistry.addAdaptorHook(Lorg/eclipse/osgi/baseadaptor/hooks/AdaptorHook;)V
+PTG:
+Vars:
+7
+$r5 1 17 
+r1 1 -2 
+$r6 1 17 
+r0 1 -1 
+$r4 1 4 
+$r2 1 4 
+$r3 1 14 
+Fields: 1
+-1 adaptorHooks 4
+Accesses: 3
+3 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 1
+1 4 -1 -2 4 14 
+Constructors: 0
+
+Summary: 3
+-1 -2 14 
+org/eclipse/osgi/baseadaptor/HookRegistry.loadConfigurators(Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+14
+r0 1 -2 
+r6 1 -1 
+r1 1 4 
+$r7 1 -1 
+r5 1 28 
+$r12 1 73 
+$r4 1 28 
+r13 1 24 
+$r2 1 9 
+r3 1 9 
+$r9 1 50 
+r8 1 -3 
+$r10 1 58 
+$r11 1 70 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -2 
+80 3 -1 50 73 
+65 1 58 
+19 1 9 
+83 2 -3 50 
+70 1 70 
+39 2 -1 28 
+87 1 4 
+8 1 4 
+26 1 24 
+58 2 9 58 
+Constructors: 2
+80 50
+65 58
+
+Summary: 12
+1 -3 70 -1 9 73 4 24 28 0 50 -2 
+org/eclipse/osgi/baseadaptor/HookRegistry.getAdaptorHooks()[Lorg/eclipse/osgi/baseadaptor/hooks/AdaptorHook;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 adaptorHooks 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/HookRegistry.<init>(Lorg/eclipse/osgi/baseadaptor/BaseAdaptor;)V
+PTG:
+Vars:
+10
+$r1 1 11 
+$r3 1 27 
+r9 1 -2 
+$r2 1 19 
+$r8 1 67 
+$r7 1 59 
+$r4 1 35 
+r0 1 -1 
+$r6 1 51 
+$r5 1 43 
+Fields: 0
+Accesses: 10
+6 1 -1 
+22 1 -1 
+38 1 -1 
+54 1 -1 
+70 1 -1 
+75 1 -1 
+14 1 -1 
+30 1 -1 
+46 1 -1 
+62 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 0 
+org/eclipse/osgi/baseadaptor/HookRegistry.getStorageHooks()[Lorg/eclipse/osgi/baseadaptor/hooks/StorageHook;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 storageHooks 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/HookRegistry.getClassLoadingStatsHooks()[Lorg/eclipse/osgi/baseadaptor/hooks/ClassLoadingStatsHook;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 classLoadingStatsHooks 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/HookRegistry.addClassLoaderDelegateHook(Lorg/eclipse/osgi/framework/adaptor/ClassLoaderDelegateHook;)V
+PTG:
+Vars:
+7
+$r3 1 14 
+$r2 1 4 
+r0 1 -1 
+$r6 1 17 
+$r5 1 17 
+r1 1 -2 
+$r4 1 4 
+Fields: 1
+-1 classLoaderDelegateHooks 4
+Accesses: 3
+3 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 1
+1 4 -1 -2 4 14 
+Constructors: 0
+
+Summary: 3
+-1 -2 14 
+org/eclipse/osgi/baseadaptor/HookRegistry.getWatchers()[Lorg/eclipse/osgi/framework/adaptor/BundleWatcher;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 watchers 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/HookRegistry.addClassLoadingHook(Lorg/eclipse/osgi/baseadaptor/hooks/ClassLoadingHook;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r1 1 -2 
+$r3 1 14 
+$r5 1 17 
+$r6 1 17 
+$r4 1 4 
+$r2 1 4 
+Fields: 1
+-1 classLoadingHooks 4
+Accesses: 3
+3 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 1
+1 4 -1 -2 4 14 
+Constructors: 0
+
+Summary: 3
+-1 -2 14 
+org/eclipse/osgi/baseadaptor/HookRegistry.getAdaptor()Lorg/eclipse/osgi/baseadaptor/BaseAdaptor;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 adaptor 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/HookRegistry.addStorageHook(Lorg/eclipse/osgi/baseadaptor/hooks/StorageHook;)V
+PTG:
+Vars:
+7
+$r4 1 4 
+$r2 1 4 
+$r3 1 14 
+r1 1 -2 
+r0 1 -1 
+$r5 1 17 
+$r6 1 17 
+Fields: 1
+-1 storageHooks 4
+Accesses: 3
+3 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 1
+1 4 -1 -2 4 14 
+Constructors: 0
+
+Summary: 3
+-1 -2 14 
+org/eclipse/osgi/baseadaptor/HookRegistry.add(Ljava/lang/Object;[Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;
+PTG:
+Vars:
+5
+r2 1 -4 
+r0 1 -1 
+r3 1 -2 
+_ret 1 -4 
+r1 1 -3 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+29 2 -3 -4 
+14 0 
+Constructors: 0
+
+Summary: 5
+-1 2 1 -3 0 
+org/eclipse/osgi/baseadaptor/HookRegistry.getBundleFileWrapperFactoryHooks()[Lorg/eclipse/osgi/baseadaptor/hooks/BundleFileWrapperFactoryHook;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 bundleFileWrapperFactoryHooks 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/HookRegistry.getBundleFileFactoryHooks()[Lorg/eclipse/osgi/baseadaptor/hooks/BundleFileFactoryHook;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 bundleFileFactoryHooks 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/HookRegistry.getClassLoadingHooks()[Lorg/eclipse/osgi/baseadaptor/hooks/ClassLoadingHook;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 classLoadingHooks 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/HookRegistry.mergeFileHookConfigurators(Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+27
+r11 1 -2 
+r32 1 91 
+$r12 1 166 
+$r4 1 64 
+r3 2 15 23 
+$r26 1 247 
+$r25 1 244 
+$r30 2 15 23 
+r2 1 7 
+$r13 1 200 
+r7 1 107 
+r10 1 153 
+$r14 1 188 
+$r1 1 1 
+$r9 1 138 
+$r27 1 -1 
+$r6 1 77 
+$r20 1 -1 
+$r15 1 -1 
+r21 1 -3 
+$r23 1 230 
+$r22 1 222 
+r5 1 64 
+$r24 1 241 
+$r19 1 -1 
+$r8 1 135 
+r0 1 -1 
+Fields: 3
+153 ArrayObject 188
+153 ArrayObject 166
+153 ArrayObject 200
+Accesses: 0
+Functions: 29
+0 1 -1 
+1 1 1 
+257 2 -3 222 
+131 1 77 
+135 1 135 
+201 2 -2 200 
+138 1 138 
+12 1 7 
+268 1 91 
+81 1 77 
+148 1 107 
+21 0 
+86 1 64 
+287 1 91 
+97 2 91 77 
+161 2 -2 166 
+100 1 77 
+230 2 241 230 
+236 1 230 
+239 1 64 
+48 0 
+304 1 91 
+51 1 -3 
+244 1 244 
+311 2 23 15 
+121 1 91 
+189 2 -2 188 
+62 2 23 15 
+254 3 -1 247 222 
+Constructors: 3
+81 77
+236 230
+254 222
+
+Summary: 21
+91 244 107 -3 138 -1 1 0 247 7 15 23 135 1 153 241 34 77 -2 64 222 
+org/eclipse/osgi/baseadaptor/HookRegistry.addWatcher(Lorg/eclipse/osgi/framework/adaptor/BundleWatcher;)V
+PTG:
+Vars:
+7
+r1 1 -2 
+$r3 1 14 
+$r6 1 17 
+$r5 1 17 
+$r4 1 4 
+$r2 1 4 
+r0 1 -1 
+Fields: 1
+-1 watchers 4
+Accesses: 3
+3 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 1
+1 4 -1 -2 4 14 
+Constructors: 0
+
+Summary: 3
+-1 -2 14 
+org/eclipse/osgi/baseadaptor/HookRegistry.addBundleFileFactoryHook(Lorg/eclipse/osgi/baseadaptor/hooks/BundleFileFactoryHook;)V
+PTG:
+Vars:
+7
+$r3 1 14 
+$r2 1 4 
+$r6 1 17 
+r1 1 -2 
+$r4 1 4 
+$r5 1 17 
+r0 1 -1 
+Fields: 1
+-1 bundleFileFactoryHooks 4
+Accesses: 3
+3 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 1
+1 4 -1 -2 4 14 
+Constructors: 0
+
+Summary: 3
+-1 -2 14 

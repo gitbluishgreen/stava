@@ -1,0 +1,1126 @@
+34
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.createClassPathEntry(Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleFile;Ljava/security/ProtectionDomain;Lorg/eclipse/osgi/baseadaptor/BaseData;)Lorg/eclipse/osgi/baseadaptor/loader/ClasspathEntry;
+PTG:
+Vars:
+7
+$r3 1 1 
+r0 1 -1 
+r4 1 11 
+_ret 1 11 
+r1 1 -2 
+r2 1 -3 
+r5 1 -4 
+Fields: 1
+-1 classloader 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+16 2 -4 11 
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.addClassPathEntry(Ljava/util/ArrayList;Ljava/lang/String;Lorg/eclipse/osgi/baseadaptor/loader/ClasspathManager;Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/security/ProtectionDomain;)Z
+PTG:
+Vars:
+13
+$r9 1 83 
+r14 1 89 
+r13 1 35 
+r2 1 -5 
+r1 1 -4 
+r7 1 72 
+$r8 1 78 
+r0 1 -3 
+r10 1 -2 
+$r4 1 52 
+$r5 1 111 
+r3 1 -6 
+$r6 2 111 66 
+Fields: 4
+111 ArrayObject 72
+66 ArrayObject 72
+-4 data 52
+-4 fragments 111
+Accesses: 3
+65 1 -4 
+51 1 -4 
+110 1 -4 
+Functions: 10
+0 1 -3 
+81 1 72 
+99 2 -2 89 
+21 1 -2 
+10 6 -4 52 -5 -6 72 111 
+74 7 -3 -4 83 52 72 78 111 
+11 1 -5 
+27 7 -3 -4 52 -5 -6 72 111 
+76 1 72 
+45 2 -2 35 
+Constructors: 0
+
+Summary: 18
+-3 111 -2 12 0 35 -4 1 3 4 89 2 -5 52 78 83 18 -6 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findLocalClass_LockClassName(Ljava/lang/String;[Lorg/eclipse/osgi/baseadaptor/hooks/ClassLoadingStatsHook;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 -1 
+r2 1 -3 
+r1 1 -2 
+r3 1 12 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -1 -2 
+34 2 -1 -2 
+20 2 -1 -2 
+6 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findResourceImpl(Ljava/lang/String;Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleFile;I)Ljava/net/URL;
+PTG:
+Vars:
+6
+r2 1 -1 
+r1 1 -2 
+r0 1 -3 
+$r3 1 3 
+_ret 1 7 
+$r4 1 7 
+Fields: 1
+-1 data 3
+Accesses: 1
+2 1 -1 
+Functions: 1
+0 3 -2 -3 3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.getBaseData()Lorg/eclipse/osgi/baseadaptor/BaseData;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 data 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.getExternalClassPath(Ljava/lang/String;Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/security/ProtectionDomain;)Lorg/eclipse/osgi/baseadaptor/loader/ClasspathEntry;
+PTG:
+Vars:
+6
+r3 1 -3 
+r4 1 26 
+$r0 1 0 
+r6 1 -4 
+r5 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+33 4 -1 -3 -4 26 
+5 2 0 -2 
+22 2 0 -3 
+10 1 0 
+Constructors: 1
+5 0
+
+Summary: 9
+-3 -2 2 0 26 -1 -4 0 1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findLocalClass_LockClassLoader(Ljava/lang/String;[Lorg/eclipse/osgi/baseadaptor/hooks/ClassLoadingStatsHook;)Ljava/lang/Class;
+PTG:
+Vars:
+6
+$r1 1 1 
+r4 1 -3 
+r0 1 -1 
+$r5 1 10 
+r3 1 -2 
+$r6 1 -1 
+Fields: 1
+-1 classloader 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+7 4 -1 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.buildClasspath([Ljava/lang/String;Lorg/eclipse/osgi/baseadaptor/loader/ClasspathManager;Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/security/ProtectionDomain;)[Lorg/eclipse/osgi/baseadaptor/loader/ClasspathEntry;
+PTG:
+Vars:
+10
+r3 1 -3 
+$r0 1 0 
+r1 1 -2 
+$r6 1 22 
+r4 1 -4 
+$r9 1 49 
+_ret 1 49 
+$r8 1 49 
+$r7 1 46 
+r5 1 -5 
+Fields: 1
+-2 ArrayObject 22
+Accesses: 0
+Functions: 4
+6 1 0 
+39 2 0 46 
+41 1 0 
+26 5 0 -3 -4 -5 22 
+Constructors: 1
+6 0
+
+Summary: 10
+-3 -2 0 -4 0 46 1 3 2 -5 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findLocalEntry(Ljava/lang/String;)Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleEntry;
+PTG:
+Vars:
+4
+$r2 1 3 
+_ret 1 3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.initialize()V
+PTG:
+Vars:
+13
+$r6 1 7 
+$r7 1 29 
+$r3 1 7 
+$r4 1 14 
+r9 1 38 
+$r2 1 2 
+$r5 1 19 
+$r10 2 7 52 
+r0 1 -1 
+$r11 2 11 48 
+$r12 1 46 
+$r1 1 11 
+$r8 1 32 
+Fields: 4
+-1 data 7
+-1 classloader 11
+-1 classpath 2
+38 ArrayObject 46
+Accesses: 7
+1 1 -1 
+51 1 -1 
+6 1 -1 
+22 1 -1 
+25 1 -1 
+10 1 -1 
+47 1 -1 
+Functions: 6
+32 1 32 
+55 5 48 52 7 11 46 
+26 1 7 
+11 1 11 
+29 1 29 
+14 5 -1 2 7 11 14 
+Constructors: 0
+
+Summary: 5
+32 14 -1 38 29 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.insertFragment(Lorg/eclipse/osgi/baseadaptor/loader/FragmentClasspath;)V
+PTG:
+Vars:
+12
+r2 1 7 
+r0 1 -1 
+$r6 1 34 
+$r9 2 70 1 
+$r11 1 1 
+$r1 1 1 
+$r5 2 1 29 
+$r10 1 75 
+$r8 1 1 
+$r7 1 35 
+$r4 1 12 
+r3 1 -2 
+Fields: 5
+70 ArrayObject 75
+-1 fragments 1
+1 ArrayObject 34
+1 ArrayObject 75
+29 ArrayObject 34
+Accesses: 6
+0 1 -1 
+96 1 -1 
+82 1 -1 
+69 1 -1 
+105 1 -1 
+28 1 -1 
+Functions: 4
+34 1 34 
+35 1 35 
+11 1 -2 
+12 1 12 
+Constructors: 0
+
+Summary: 4
+12 0 35 -1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.<init>(Lorg/eclipse/osgi/baseadaptor/BaseData;[Ljava/lang/String;Lorg/eclipse/osgi/baseadaptor/loader/BaseClassLoader;)V
+PTG:
+Vars:
+7
+r5 1 -4 
+r4 1 -3 
+r3 1 -2 
+$r1 1 5 
+$r2 1 17 
+$r6 1 -4 
+r0 1 -1 
+Fields: 0
+Accesses: 7
+64 1 -1 
+35 1 -1 
+8 1 -1 
+40 1 -1 
+25 1 -1 
+13 1 -1 
+30 1 -1 
+Functions: 3
+1 1 -1 
+52 1 -4 
+22 1 17 
+Constructors: 2
+1 -1
+22 17
+
+Summary: 4
+2 0 -1 1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findLocalResources(Ljava/lang/String;)Ljava/util/Enumeration;
+PTG:
+Vars:
+17
+$r6 2 31 66 
+$r0 1 0 
+$r11 1 85 
+r18 1 89 
+r5 1 -2 
+$r13 1 104 
+r16 1 44 
+$r4 1 24 
+$r12 1 103 
+$r10 2 80 144 
+$r9 1 144 
+r2 1 -1 
+$r7 1 36 
+$r3 2 66 19 
+r14 1 111 
+$r8 1 37 
+$r17 1 66 
+Fields: 9
+80 ArrayObject 85
+144 ArrayObject 85
+89 ArrayObject 103
+31 ArrayObject 36
+-1 entries 66
+-1 fragments 144
+66 ArrayObject 24
+66 ArrayObject 36
+19 ArrayObject 24
+Accesses: 5
+65 1 -1 
+18 1 -1 
+30 1 -1 
+79 1 -1 
+143 1 -1 
+Functions: 10
+97 8 -1 144 -2 66 36 85 24 104 
+36 1 36 
+85 1 85 
+6 1 0 
+54 2 0 44 
+103 1 103 
+151 1 0 
+121 2 0 111 
+28 8 -1 144 -2 66 36 85 37 24 
+158 1 0 
+Constructors: 1
+6 0
+
+Summary: 9
+111 -2 104 0 44 0 37 89 -1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findClassPathEntry(Ljava/util/ArrayList;Ljava/lang/String;Lorg/eclipse/osgi/baseadaptor/loader/ClasspathManager;Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/security/ProtectionDomain;)V
+PTG:
+Vars:
+16
+r5 1 -3 
+r7 1 -6 
+$r1 1 1 
+$r13 1 92 
+r3 1 10 
+$r8 1 27 
+$r15 1 101 
+r6 1 -4 
+$r11 1 79 
+$r12 1 82 
+$r14 1 95 
+r4 1 -2 
+r0 1 -5 
+$r2 1 4 
+$r10 1 74 
+$r9 1 70 
+Fields: 1
+10 ArrayObject 27
+Accesses: 0
+Functions: 12
+0 1 -5 
+1 1 1 
+4 1 4 
+100 1 -5 
+86 2 82 70 
+57 5 -2 -3 -4 -5 -6 
+106 3 101 70 95 
+27 6 -2 -3 -4 -5 -6 27 
+91 1 -5 
+92 1 92 
+78 1 -5 
+79 3 -3 74 79 
+Constructors: 1
+86 70
+
+Summary: 17
+-3 -2 101 4 95 0 82 10 -4 1 3 4 79 2 -5 92 -6 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.lockClassName(Ljava/lang/String;)Z
+PTG:
+Vars:
+12
+$r10 1 -1 
+r5 1 19 
+r13 2 15 65 
+$r8 1 1 
+r0 1 -1 
+$r4 1 1 
+$r6 1 1 
+$r7 1 1 
+$r12 1 75 
+r3 1 -2 
+$r11 1 -1 
+$r1 1 1 
+Fields: 1
+-1 classNameLocks 1
+Accesses: 5
+0 1 -1 
+50 1 -1 
+35 1 -1 
+7 1 -1 
+57 1 -1 
+Functions: 7
+16 0 
+80 2 -2 75 
+54 1 1 
+8 2 1 -2 
+72 1 19 
+42 3 1 -2 19 
+58 2 1 -2 
+Constructors: 1
+80 75
+
+Summary: 6
+15 -2 65 0 -1 19 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.unlockClassName(Ljava/lang/String;)V
+PTG:
+Vars:
+5
+$r4 1 1 
+$r6 1 1 
+r0 1 -1 
+$r1 1 1 
+r3 1 -2 
+Fields: 1
+-1 classNameLocks 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+7 1 -1 
+Functions: 2
+20 1 1 
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findLibrary(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+17
+r6 1 52 
+$r11 1 93 
+r7 1 -2 
+$r4 1 5 
+$r15 1 12 
+$r3 1 5 
+$r2 1 5 
+$r16 1 -1 
+$r9 1 76 
+r20 1 47 
+r0 1 -1 
+$r12 1 114 
+$r5 1 52 
+r21 1 104 
+$r13 1 5 
+$r8 1 65 
+$r10 1 90 
+Fields: 4
+52 ArrayObject 65
+52 ArrayObject 76
+-1 classloader 90
+-1 loadedLibraries 5
+Accesses: 6
+4 1 -1 
+20 1 -1 
+38 1 -1 
+89 1 -1 
+109 1 -1 
+31 1 -1 
+Functions: 8
+80 1 47 
+17 1 12 
+65 2 65 -2 
+51 1 47 
+39 1 5 
+90 1 90 
+93 2 -2 93 
+125 2 114 5 
+Constructors: 1
+17 12
+
+Summary: 5
+93 0 114 52 65 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findLocalResource(Ljava/lang/String;)Ljava/net/URL;
+PTG:
+Vars:
+11
+r0 1 -1 
+r12 1 46 
+$r6 1 21 
+$r9 1 -1 
+$r1 1 1 
+r7 1 46 
+r5 1 -2 
+$r2 1 4 
+r4 1 13 
+$r11 1 92 
+$r3 1 7 
+Fields: 3
+13 ArrayObject 92
+13 ArrayObject 21
+-1 data 1
+Accesses: 1
+0 1 -1 
+Functions: 7
+96 5 -1 -2 1 92 46 
+1 1 1 
+4 1 4 
+7 1 7 
+24 4 -1 -2 1 21 
+40 3 -1 1 -2 
+63 4 -1 -2 1 46 
+Constructors: 0
+
+Summary: 6
+-2 7 4 0 13 -1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.getHostClasspathEntries()[Lorg/eclipse/osgi/baseadaptor/loader/ClasspathEntry;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 entries 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findLocalEntries(Ljava/lang/String;)Ljava/util/Enumeration;
+PTG:
+Vars:
+17
+$r3 2 16 56 
+$r0 1 0 
+$r7 1 31 
+$r17 1 56 
+$r10 2 127 69 
+r5 1 -2 
+$r9 1 127 
+$r8 1 32 
+$r12 1 91 
+$r6 2 27 56 
+$r13 1 92 
+$r4 1 20 
+r18 1 77 
+r2 1 -1 
+$r11 1 73 
+r16 1 38 
+r14 1 98 
+Fields: 9
+16 ArrayObject 20
+127 ArrayObject 73
+69 ArrayObject 73
+-1 entries 56
+-1 fragments 127
+77 ArrayObject 91
+27 ArrayObject 31
+56 ArrayObject 20
+56 ArrayObject 31
+Accesses: 5
+68 1 -1 
+55 1 -1 
+26 1 -1 
+126 1 -1 
+15 1 -1 
+Functions: 10
+48 2 0 38 
+85 8 -1 -2 20 56 73 92 127 31 
+6 1 0 
+134 1 0 
+24 8 -1 32 -2 20 56 73 127 31 
+73 1 73 
+91 1 91 
+108 2 0 98 
+141 1 0 
+31 1 31 
+Constructors: 1
+6 0
+
+Summary: 8
+-2 98 77 0 32 -1 38 92 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.attachFragment(Lorg/eclipse/osgi/framework/adaptor/BundleData;Ljava/security/ProtectionDomain;[Ljava/lang/String;)V
+PTG:
+Vars:
+14
+r0 1 -2 
+$r12 1 -2 
+$r6 1 -2 
+$r10 1 15 
+$r4 1 -2 
+r1 1 -4 
+$r8 1 -1 
+$r9 1 -2 
+$r5 1 48 
+r2 1 -1 
+$r11 1 18 
+r3 1 -3 
+$r13 1 26 
+r15 1 46 
+Fields: 0
+Accesses: 0
+Functions: 8
+1 1 -2 
+67 2 -1 48 
+23 1 -2 
+42 4 -1 -2 -3 -4 
+59 4 48 -2 -3 46 
+12 1 -2 
+15 1 15 
+31 3 -1 18 26 
+Constructors: 1
+59 48
+
+Summary: 12
+15 46 -3 -2 48 0 26 -4 1 2 -1 18 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findLocalClass(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+11
+$r3 1 9 
+$r6 1 25 
+r12 2 72 62 
+$r9 1 -1 
+r5 1 -2 
+$r2 1 6 
+r0 1 -1 
+r7 2 72 62 
+$r11 1 118 
+r4 1 15 
+$r1 1 3 
+Fields: 3
+15 ArrayObject 25
+15 ArrayObject 118
+-1 data 3
+Accesses: 2
+49 1 -1 
+2 1 -1 
+Functions: 8
+66 6 -1 -2 3 118 25 15 
+3 1 3 
+6 1 6 
+56 6 -1 -2 3 118 25 15 
+9 1 9 
+89 5 -1 -2 3 72 62 
+122 6 -1 -2 3 118 72 62 
+28 4 -1 -2 3 25 
+Constructors: 0
+
+Summary: 6
+15 -2 0 6 9 -1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findLocalResourceImpl(Ljava/lang/String;I)Ljava/net/URL;
+PTG:
+Vars:
+16
+$r4 2 24 65 
+$r14 1 65 
+r13 1 38 
+$r11 1 102 
+$r9 1 84 
+$r8 2 149 79 
+r15 1 111 
+$r7 1 149 
+r3 1 -2 
+$r1 2 12 65 
+$r5 1 29 
+$r12 1 103 
+r0 1 -1 
+$r2 1 17 
+$r6 1 30 
+r10 1 88 
+Fields: 9
+24 ArrayObject 29
+149 ArrayObject 84
+12 ArrayObject 17
+79 ArrayObject 84
+88 ArrayObject 102
+65 ArrayObject 17
+65 ArrayObject 29
+-1 entries 65
+-1 fragments 149
+Accesses: 5
+64 1 -1 
+148 1 -1 
+23 1 -1 
+11 1 -1 
+78 1 -1 
+Functions: 5
+96 8 -1 65 17 -2 84 149 103 29 
+84 1 84 
+21 8 -1 65 17 -2 84 149 29 30 
+102 1 102 
+29 1 29 
+Constructors: 0
+
+Summary: 6
+-2 88 0 30 -1 103 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findLocalEntry(Ljava/lang/String;I)Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleEntry;
+PTG:
+Vars:
+16
+$r14 1 63 
+$r7 1 145 
+$r1 2 12 63 
+r10 1 86 
+$r11 1 100 
+r13 1 36 
+$r12 1 101 
+r3 1 -2 
+$r5 1 29 
+$r4 2 24 63 
+$r8 2 145 77 
+r0 1 -1 
+$r6 1 30 
+r15 1 107 
+$r2 1 17 
+$r9 1 82 
+Fields: 9
+24 ArrayObject 29
+12 ArrayObject 17
+63 ArrayObject 17
+63 ArrayObject 29
+145 ArrayObject 82
+86 ArrayObject 100
+-1 entries 63
+-1 fragments 145
+77 ArrayObject 82
+Accesses: 5
+144 1 -1 
+23 1 -1 
+11 1 -1 
+76 1 -1 
+62 1 -1 
+Functions: 5
+82 1 82 
+100 1 100 
+21 8 -1 145 17 -2 82 29 30 63 
+29 1 29 
+94 8 -1 145 17 -2 82 101 29 63 
+Constructors: 0
+
+Summary: 6
+-2 101 0 30 86 -1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findLocalClassImpl(Ljava/lang/String;[Lorg/eclipse/osgi/baseadaptor/hooks/ClassLoadingStatsHook;)Ljava/lang/Class;
+PTG:
+Vars:
+18
+r1 1 -2 
+$r7 1 41 
+r17 1 101 
+$r16 1 59 
+$r2 1 1 
+r15 1 46 
+$r3 2 24 59 
+$r13 1 132 
+$r4 1 29 
+$r10 1 78 
+r11 1 82 
+r0 1 -1 
+$r8 1 125 
+r6 1 -3 
+r14 1 10 
+$r12 1 96 
+$r9 2 73 125 
+$r5 2 59 36 
+Fields: 10
+24 ArrayObject 29
+59 ArrayObject 41
+59 ArrayObject 29
+73 ArrayObject 78
+125 ArrayObject 78
+82 ArrayObject 96
+-1 entries 59
+-1 classloader 1
+-1 fragments 125
+36 ArrayObject 41
+Accesses: 6
+0 1 -1 
+35 1 -1 
+23 1 -1 
+72 1 -1 
+58 1 -1 
+124 1 -1 
+Functions: 5
+1 2 1 -2 
+33 9 -1 1 -2 -3 41 59 125 29 78 
+137 2 -2 132 
+90 10 -1 96 1 -2 -3 41 59 125 29 78 
+78 1 78 
+Constructors: 1
+137 132
+
+Summary: 6
+-3 -2 0 82 1 -1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findEntryImpl(Ljava/lang/String;Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleFile;)Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleEntry;
+PTG:
+Vars:
+5
+$r2 1 2 
+r1 1 -2 
+_ret 1 2 
+r3 1 -1 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.getBaseClassLoader()Lorg/eclipse/osgi/baseadaptor/loader/BaseClassLoader;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 classloader 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.findClassImpl(Ljava/lang/String;Lorg/eclipse/osgi/baseadaptor/loader/ClasspathEntry;[Lorg/eclipse/osgi/baseadaptor/hooks/ClassLoadingStatsHook;)Ljava/lang/Class;
+PTG:
+Vars:
+32
+$r15 1 170 
+r0 1 -2 
+$r25 1 30 
+$r28 1 -1 
+$r30 1 224 
+$r11 1 151 
+r5 1 70 
+$r20 1 198 
+$r24 1 26 
+$r22 1 17 
+r2 1 59 
+r6 1 84 
+$r18 1 184 
+$r4 1 62 
+$r1 1 50 
+$r14 1 164 
+r3 1 -3 
+$r12 1 157 
+$r13 1 161 
+$r31 1 235 
+$r27 1 39 
+$r21 1 6 
+$r10 1 138 
+$r17 1 178 
+r8 1 -4 
+r7 1 -1 
+$r16 1 175 
+$r32 1 238 
+$r9 1 212 
+$r19 1 195 
+$r26 1 36 
+$r23 1 20 
+Fields: 0
+Accesses: 0
+Functions: 38
+195 1 195 
+6 2 17 6 
+201 1 198 
+138 1 138 
+204 6 -1 -2 -3 -4 84 70 
+13 1 6 
+79 1 70 
+16 1 -3 
+145 1 138 
+20 1 20 
+151 1 151 
+26 2 -2 26 
+157 2 161 157 
+30 1 30 
+96 1 59 
+160 1 -3 
+224 2 224 -2 
+36 1 36 
+164 1 164 
+103 0 
+231 1 224 
+42 1 39 
+170 2 170 59 
+235 1 235 
+108 0 
+45 1 -2 
+175 1 175 
+241 1 238 
+50 1 50 
+114 0 
+117 1 -3 
+181 1 178 
+184 2 -2 184 
+121 0 
+61 1 -3 
+62 2 59 62 
+127 0 
+191 1 184 
+Constructors: 4
+145 138
+231 224
+13 6
+191 184
+
+Summary: 22
+-3 59 70 39 17 84 178 175 121 36 161 124 62 238 0 -4 198 118 2 195 -1 235 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.getClasspath(Ljava/lang/String;Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/security/ProtectionDomain;)Lorg/eclipse/osgi/baseadaptor/loader/ClasspathEntry;
+PTG:
+Vars:
+10
+r7 1 -1 
+$r10 1 20 
+r0 1 -3 
+$r5 1 48 
+r3 1 11 
+r11 2 37 63 
+r2 1 -2 
+$r1 1 4 
+r8 1 -4 
+$r4 1 43 
+Fields: 0
+Accesses: 0
+Functions: 9
+33 2 -2 -3 
+18 1 11 
+3 1 -3 
+4 2 -2 4 
+20 1 20 
+70 5 -1 -3 -4 37 63 
+42 1 -3 
+43 2 -2 43 
+59 2 48 -3 
+Constructors: 0
+
+Summary: 14
+20 -3 -2 4 43 48 0 -4 1 11 37 63 2 -1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.<clinit>()V
+PTG:
+Vars:
+3
+$r1 1 7 
+$r2 1 11 
+$r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+7 2 7 11 
+9 0 
+Constructors: 0
+
+Summary: 1
+11 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.getFragmentClasspaths()[Lorg/eclipse/osgi/baseadaptor/loader/FragmentClasspath;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 fragments 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.close()V
+PTG:
+Vars:
+17
+$r9 1 27 
+$r3 2 79 92 
+$r1 1 1 
+$r4 1 83 
+r0 1 -1 
+$r17 1 1 
+$r6 1 17 
+$r14 1 44 
+$r10 1 -1 
+$r16 1 52 
+$r12 1 38 
+$r2 1 92 
+$r8 1 26 
+$r5 2 13 1 
+$r13 1 41 
+$r15 2 49 38 
+$r7 2 22 1 
+Fields: 9
+79 ArrayObject 83
+13 ArrayObject 17
+22 ArrayObject 26
+-1 entries 1
+-1 data 38
+-1 fragments 92
+92 ArrayObject 83
+1 ArrayObject 17
+1 ArrayObject 26
+Accesses: 8
+0 1 -1 
+48 1 -1 
+65 1 -1 
+21 1 -1 
+37 1 -1 
+91 1 -1 
+12 1 -1 
+78 1 -1 
+Functions: 7
+49 2 49 38 
+84 1 83 
+38 1 38 
+56 3 -1 52 44 
+41 1 41 
+26 1 26 
+30 1 27 
+Constructors: 0
+
+Summary: 5
+41 44 52 -1 27 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.defineClass(Ljava/lang/String;[BLorg/eclipse/osgi/baseadaptor/loader/ClasspathEntry;Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleEntry;[Lorg/eclipse/osgi/baseadaptor/hooks/ClassLoadingStatsHook;)Ljava/lang/Class;
+PTG:
+Vars:
+16
+r5 1 -2 
+r4 1 13 
+$r1 1 1 
+r7 1 -5 
+r15 1 75 
+r10 1 -6 
+$r2 1 4 
+r0 1 -1 
+$r9 1 62 
+r6 1 -4 
+$r3 1 7 
+r14 1 40 
+_ret 1 75 
+$r11 1 87 
+r12 2 -3 40 
+$r8 1 28 
+Fields: 4
+13 ArrayObject 28
+-1 data 1
+-1 classloader 62
+-6 ArrayObject 87
+Accesses: 2
+0 1 -1 
+61 1 -1 
+Functions: 6
+96 10 -1 -2 1 -3 -4 -5 87 40 75 62 
+1 1 1 
+4 1 4 
+7 1 7 
+28 9 -1 -2 1 -3 -4 -5 40 28 62 
+62 6 -2 -3 -4 -5 40 62 
+Constructors: 0
+
+Summary: 15
+-3 -2 7 4 0 -4 1 3 4 2 -5 13 40 -1 -6 
+org/eclipse/osgi/baseadaptor/loader/ClasspathManager.createBundleFile(Ljava/lang/Object;Lorg/eclipse/osgi/baseadaptor/BaseData;)Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleFile;
+PTG:
+Vars:
+9
+r1 1 -3 
+$r3 1 29 
+r0 1 -2 
+$r7 1 35 
+$r2 1 24 
+$r9 1 43 
+$r4 1 -2 
+$r8 1 38 
+$r5 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+34 1 -3 
+35 1 35 
+23 1 -3 
+24 3 -2 -3 24 
+42 1 -3 
+12 1 -2 
+47 3 -1 38 43 
+Constructors: 0
+
+Summary: 8
+24 -3 -2 43 0 35 38 1 

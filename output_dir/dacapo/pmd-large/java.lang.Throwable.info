@@ -1,0 +1,690 @@
+25
+java/lang/Throwable.getCause()Ljava/lang/Throwable;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 1 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 cause 1
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/Throwable.fillInStackTrace()Ljava/lang/Throwable;
+PTG:
+Vars:
+5
+_ret 1 -1 
+$r1 1 1 
+$r4 1 8 
+r0 1 -1 
+$r3 1 21 
+Fields: 2
+-1 backtrace 8
+-1 stackTrace 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+24 1 -1 
+Functions: 1
+16 3 -1 1 8 
+Constructors: 0
+
+Summary: 0
+
+java/lang/Throwable.addSuppressed(Ljava/lang/Throwable;)V
+PTG:
+Vars:
+7
+$r2 1 31 
+$r5 1 31 
+$r4 1 31 
+r1 1 -1 
+r0 1 -2 
+$r3 1 42 
+$r6 1 49 
+Fields: 1
+-1 suppressedExceptions 31
+Accesses: 4
+38 1 -1 
+57 1 -1 
+60 1 -1 
+30 1 -1 
+Functions: 4
+65 2 -2 31 
+54 1 49 
+26 0 
+12 1 -2 
+Constructors: 1
+54 49
+
+Summary: 3
+0 -1 -2 
+java/lang/Throwable.<init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+PTG:
+Vars:
+5
+r4 1 -2 
+$r1 1 10 
+r0 1 -1 
+$r2 1 17 
+r5 1 -3 
+Fields: 0
+Accesses: 5
+35 1 -1 
+20 1 -1 
+6 1 -1 
+13 1 -1 
+30 1 -1 
+Functions: 2
+1 1 -1 
+24 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+1 0 
+java/lang/Throwable.getSuppressed()[Ljava/lang/Throwable;
+PTG:
+Vars:
+9
+$r1 1 4 
+$r8 1 28 
+_ret 1 28 
+$r2 1 1 
+$r4 1 1 
+$r6 1 1 
+r0 1 -1 
+$r7 1 28 
+$r5 1 25 
+Fields: 1
+-1 suppressedExceptions 1
+Accesses: 3
+0 1 -1 
+21 1 -1 
+10 1 -1 
+Functions: 1
+22 2 1 25 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/Throwable.getLocalizedMessage()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/Throwable.<init>()V
+PTG:
+Vars:
+3
+$r2 1 17 
+r0 1 -1 
+$r1 1 10 
+Fields: 0
+Accesses: 3
+20 1 -1 
+6 1 -1 
+13 1 -1 
+Functions: 2
+1 1 -1 
+24 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 0
+
+java/lang/Throwable.<init>(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+$r2 1 17 
+r4 1 -2 
+$r1 1 10 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+20 1 -1 
+6 1 -1 
+13 1 -1 
+30 1 -1 
+Functions: 2
+1 1 -1 
+24 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+0 
+java/lang/Throwable.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+5
+r2 1 9 
+$r3 1 9 
+r0 1 -1 
+$r5 1 18 
+r4 1 -2 
+Fields: 1
+-1 stackTrace 9
+Accesses: 5
+5 1 -1 
+21 1 -1 
+39 1 -1 
+10 1 -1 
+30 1 -1 
+Functions: 2
+1 2 -1 9 
+25 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/lang/Throwable.toString()Ljava/lang/String;
+PTG:
+Vars:
+10
+$r6 1 30 
+$r7 1 34 
+$r4 1 17 
+_ret 2 7 37 
+r3 1 12 
+$r1 1 1 
+$r5 1 25 
+$r8 2 7 37 
+r2 1 7 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -1 
+1 1 1 
+17 2 17 7 
+34 1 34 
+21 1 17 
+8 1 -1 
+25 1 25 
+30 2 12 30 
+Constructors: 1
+21 17
+
+Summary: 2
+-1 1 
+java/lang/Throwable.initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+PTG:
+Vars:
+4
+_ret 1 -1 
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 1
+-1 cause 1
+Accesses: 2
+0 1 -1 
+59 1 -1 
+Functions: 7
+16 0 
+21 0 
+37 2 -1 1 
+53 2 -1 1 
+25 1 -2 
+12 0 
+30 0 
+Constructors: 0
+
+Summary: 1
+0 
+java/lang/Throwable.<clinit>()V
+PTG:
+Vars:
+5
+$r1 1 17 
+$r3 1 31 
+$r4 1 38 
+$r0 1 0 
+$r2 1 23 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 0 
+23 1 23 
+28 1 23 
+Constructors: 1
+28 23
+
+Summary: 1
+23 
+java/lang/Throwable.printStackTrace(Ljava/io/PrintWriter;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 2 1 -2 
+9 2 -1 1 
+Constructors: 1
+6 1
+
+Summary: 4
+0 -1 -2 1 
+java/lang/Throwable.printEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V
+PTG:
+Vars:
+39
+$r31 1 7 
+$r21 1 197 
+$r33 1 139 
+$r13 1 228 
+$r8 1 287 
+$r34 1 148 
+$r29 1 54 
+$r9 1 296 
+r4 1 -2 
+r3 1 -3 
+$r28 1 49 
+$r15 1 238 
+r1 1 -1 
+$r30 1 57 
+$r23 1 201 
+r5 1 -5 
+r7 1 278 
+$r11 1 304 
+r6 1 -4 
+$r17 1 246 
+r0 1 -6 
+$r19 1 185 
+$r26 1 36 
+$r18 1 176 
+$r24 1 112 
+$r16 1 243 
+r2 1 79 
+$r37 1 159 
+$r35 1 152 
+$r36 1 156 
+$r27 1 45 
+$r10 1 301 
+$r22 1 198 
+$r14 1 233 
+$r25 1 108 
+$r20 1 190 
+r39 1 322 
+$r12 1 219 
+r38 1 256 
+Fields: 4
+256 ArrayObject 278
+79 ArrayObject 108
+79 ArrayObject 197
+-3 ArrayObject 112
+Accesses: 0
+Functions: 40
+69 2 -1 -6 
+6 1 -2 
+198 1 198 
+7 1 7 
+75 1 -1 
+139 2 -5 139 
+204 2 -2 201 
+143 1 139 
+20 0 
+148 2 -4 148 
+340 7 -2 322 -5 197 -6 108 79 
+24 2 -1 -6 
+152 2 -1 152 
+219 2 -5 219 
+156 1 156 
+223 1 219 
+287 2 -5 287 
+162 2 -2 159 
+291 1 287 
+36 1 36 
+228 1 228 
+40 1 36 
+296 1 296 
+233 1 233 
+108 2 112 108 
+45 2 -1 45 
+301 1 301 
+238 1 238 
+176 2 176 -5 
+49 1 49 
+243 1 243 
+180 1 176 
+309 7 304 -2 197 -6 278 108 79 
+54 1 54 
+185 1 185 
+249 2 -2 246 
+60 2 -2 57 
+252 1 -1 
+190 2 197 190 
+318 1 -1 
+Constructors: 5
+291 287
+180 176
+40 36
+143 139
+223 219
+
+Summary: 11
+-3 -5 1 0 -1 -2 -4 -6 112 3 4 
+java/lang/Throwable.<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 -2 
+r4 1 -3 
+$r1 1 10 
+$r2 1 17 
+Fields: 0
+Accesses: 7
+48 1 -1 
+20 1 -1 
+6 1 -1 
+38 1 -1 
+57 1 -1 
+43 1 -1 
+13 1 -1 
+Functions: 2
+1 1 -1 
+29 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+1 0 
+java/lang/Throwable.getStackTrace()[Ljava/lang/StackTraceElement;
+PTG:
+Vars:
+5
+_ret 1 4 
+$r3 1 4 
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+java/lang/Throwable.printStackTrace(Ljava/io/PrintStream;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 2 1 -2 
+9 2 -1 1 
+Constructors: 1
+6 1
+
+Summary: 4
+0 -1 -2 1 
+java/lang/Throwable.setStackTrace([Ljava/lang/StackTraceElement;)V
+PTG:
+Vars:
+7
+$r1 1 1 
+r3 1 -1 
+$r7 1 18 
+$r6 1 72 
+$r5 1 65 
+r0 1 -2 
+r2 1 1 
+Fields: 3
+-1 backtrace 72
+-1 stackTrace 65
+1 ArrayObject 18
+Accesses: 3
+64 1 -1 
+83 1 -1 
+71 1 -1 
+Functions: 7
+0 1 -2 
+50 0 
+35 0 
+39 0 
+26 0 
+44 0 
+30 0 
+Constructors: 0
+
+Summary: 6
+47 35 39 26 -2 44 
+java/lang/Throwable.printStackTrace()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/Throwable.<init>(Ljava/lang/Throwable;)V
+PTG:
+Vars:
+5
+$r2 1 17 
+r0 1 -1 
+r4 1 -2 
+$r1 1 10 
+$r6 1 38 
+Fields: 0
+Accesses: 5
+20 1 -1 
+6 1 -1 
+41 1 -1 
+13 1 -1 
+46 1 -1 
+Functions: 3
+1 1 -1 
+37 1 -2 
+24 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+0 
+java/lang/Throwable.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+17
+$r11 1 50 
+$r12 1 86 
+r2 1 8 
+r18 1 86 
+$r4 1 22 
+$r6 1 25 
+r17 1 72 
+r15 1 20 
+$r7 1 159 
+$r5 1 25 
+r21 1 221 
+$r3 1 10 
+$r9 1 183 
+$r10 1 178 
+r0 1 -2 
+r19 1 159 
+r1 1 -1 
+Fields: 4
+159 ArrayObject 183
+159 ArrayObject 221
+-1 suppressedExceptions 8
+-1 stackTrace 20
+Accesses: 8
+16 1 -1 
+192 1 -1 
+4 1 -1 
+246 1 -1 
+151 1 -1 
+13 1 -1 
+31 1 -1 
+143 1 -1 
+Functions: 14
+1 1 -2 
+66 1 8 
+131 2 50 86 
+38 3 -1 20 8 
+74 1 72 
+234 0 
+107 0 
+178 2 178 183 
+84 1 72 
+22 1 22 
+56 0 
+123 0 
+61 1 50 
+158 1 20 
+Constructors: 1
+61 50
+
+Summary: 4
+72 86 -1 -2 
+java/lang/Throwable.getMessage()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 detailMessage 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/Throwable.getOurStackTrace()[Ljava/lang/StackTraceElement;
+PTG:
+Vars:
+11
+$r1 1 4 
+$r8 1 1 
+_ret 1 1 
+$r5 1 1 
+r0 1 -1 
+$r2 1 1 
+$r3 1 31 
+$r7 1 1 
+$r10 1 18 
+$r4 1 1 
+$r6 1 51 
+Fields: 2
+-1 backtrace 18
+-1 stackTrace 1
+Accesses: 7
+0 1 -1 
+64 1 -1 
+17 1 -1 
+34 1 -1 
+10 1 -1 
+75 1 -1 
+44 1 -1 
+Functions: 2
+49 3 -1 1 18 
+24 3 -1 1 18 
+Constructors: 0
+
+Summary: 2
+-1 51 
+java/lang/Throwable.validateSuppressedExceptionsList(Ljava/util/List;)I
+PTG:
+Vars:
+5
+r5 1 -1 
+r6 1 7 
+r0 1 -2 
+$r4 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+1 1 1 
+34 0 
+38 1 -2 
+55 0 
+Constructors: 0
+
+Summary: 5
+7 0 -1 1 -2 
+java/lang/Throwable.printStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)V
+PTG:
+Vars:
+14
+$r8 1 73 
+r3 1 -2 
+$r9 1 78 
+$r7 1 64 
+$r10 1 81 
+r1 1 10 
+$r0 1 0 
+r6 1 35 
+r2 1 -1 
+r17 1 144 
+r16 1 119 
+r15 1 97 
+$r4 1 20 
+r14 1 61 
+Fields: 2
+35 ArrayObject 61
+97 ArrayObject 119
+Accesses: 0
+Functions: 15
+0 1 0 
+64 1 64 
+161 5 144 -2 35 10 61 
+131 5 -2 35 119 10 61 
+4 1 0 
+68 1 64 
+73 2 73 61 
+140 1 -1 
+13 2 -1 10 
+78 1 78 
+19 1 -2 
+84 2 -2 81 
+28 2 -1 -2 
+93 1 -1 
+31 1 -1 
+Constructors: 2
+4 0
+68 64
+
+Summary: 4
+0 0 -1 -2 

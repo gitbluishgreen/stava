@@ -1,0 +1,608 @@
+13
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.<clinit>()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.<init>(Ljava/lang/String;Lorg/eclipse/osgi/framework/internal/protocol/StreamHandlerFactory;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 2
+1 1 -1 
+15 1 -3 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 1 0 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.initializeMethods(Lorg/eclipse/osgi/framework/internal/protocol/StreamHandlerFactory;)V
+PTG:
+Vars:
+84
+$r203 2 1236 1246 
+$r181 2 809 819 
+$r151 1 383 
+$r34 1 1261 
+$r208 1 1345 
+$r6 1 698 
+$r32 1 -1 
+$r177 2 738 728 
+$r176 1 723 
+$r180 1 802 
+$r167 2 595 605 
+$r191 2 1032 1042 
+$r9 1 358 
+$r162 1 548 
+$r136 2 133 143 
+$r0 1 249 
+$r155 2 434 444 
+$r184 1 845 
+$r205 2 1280 1290 
+$r128 1 42 
+$r166 1 590 
+$r153 1 421 
+$r152 2 398 388 
+$r144 1 297 
+$r140 2 214 224 
+$r194 1 1137 
+$r159 2 484 474 
+$r31 1 1290 
+$r169 1 665 
+$r186 2 885 895 
+$r196 2 1150 1160 
+$r163 2 565 555 
+$r179 1 796 
+$r187 2 920 930 
+$r202 1 1229 
+r17 1 -2 
+$r132 2 93 103 
+$r209 1 1351 
+$r172 1 681 
+$r158 1 469 
+$r173 2 698 688 
+$r201 1 1223 
+$r141 2 262 272 
+$r5 1 819 
+$r11 1 103 
+$r8 1 444 
+$r185 2 850 860 
+$r139 1 207 
+$r154 1 427 
+$r7 1 565 
+$r160 2 509 519 
+$r12 1 17 
+$r146 1 335 
+$r178 2 763 773 
+$r138 1 201 
+$r131 1 86 
+$r171 1 675 
+$r3 1 1359 
+$r135 1 128 
+$r137 2 178 168 
+$r170 1 671 
+$r199 1 1185 
+$r147 1 341 
+$r148 2 348 358 
+$r130 1 80 
+$r190 2 1006 996 
+$r192 2 1068 1078 
+$r1 1 255 
+$r2 1 1270 
+$r195 1 1143 
+$r207 2 1312 1322 
+$r193 2 1104 1114 
+$r188 1 955 
+$r161 1 542 
+$r10 1 272 
+$r30 1 -1 
+$r200 2 1200 1190 
+$r145 2 302 312 
+$r168 2 630 640 
+$r125 2 7 17 
+$r189 2 961 971 
+$r4 1 1160 
+$r129 2 47 57 
+$r33 1 1256 
+Fields: 0
+Accesses: 1
+1370 1 -2 
+Functions: 98
+-1 1 -1 
+1024 0 
+259 1 255 
+771 0 
+517 0 
+262 3 272 262 297 
+7 3 17 7 42 
+1288 0 
+270 0 
+15 0 
+1040 0 
+791 0 
+537 0 
+1308 0 
+290 0 
+35 0 
+1060 0 
+806 1 802 
+552 1 548 
+1320 0 
+809 3 819 809 845 
+555 3 565 555 590 
+817 0 
+563 0 
+1076 0 
+310 0 
+55 0 
+1340 0 
+1344 4 1280 1312 1290 1322 
+837 0 
+583 0 
+1096 0 
+330 0 
+75 0 
+1363 1 1359 
+1112 0 
+345 1 341 
+90 1 86 
+858 0 
+603 0 
+1371 0 
+348 3 358 348 383 
+93 3 128 103 93 
+356 0 
+101 0 
+1383 0 
+1132 0 
+878 0 
+623 0 
+1391 0 
+376 0 
+121 0 
+1147 1 1143 
+893 0 
+638 0 
+1150 3 1185 1160 1150 
+1411 0 
+1158 0 
+396 0 
+141 0 
+1423 0 
+913 0 
+658 0 
+1426 0 
+1178 0 
+1435 0 
+416 0 
+928 0 
+1440 0 
+161 0 
+685 1 681 
+1198 0 
+431 1 427 
+176 0 
+688 3 688 723 698 
+434 3 434 469 444 
+948 0 
+696 0 
+442 0 
+1218 0 
+196 0 
+969 0 
+716 0 
+462 0 
+1233 1 1229 
+211 1 207 
+1236 2 1236 1246 
+214 2 224 214 
+1244 0 
+989 0 
+222 0 
+736 0 
+482 0 
+1004 0 
+1264 2 1256 1261 
+242 0 
+756 0 
+502 0 
+Constructors: 1
+1264 1256
+
+Summary: 49
+373 327 910 875 1305 297 1337 1415 42 1021 580 753 459 128 1408 945 287 1093 590 1185 499 1215 1374 1379 383 620 32 -2 1129 1371 193 158 1175 986 723 1261 788 72 534 1057 469 413 655 845 1436 239 834 118 713 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.hashCode(Ljava/net/URL;)I
+PTG:
+Vars:
+6
+r3 1 11 
+r0 1 -1 
+$r1 1 5 
+$r4 1 124 
+$r2 1 1 
+r6 1 -2 
+Fields: 2
+-1 factory 1
+-1 protocol 5
+Accesses: 3
+0 1 -1 
+48 1 -1 
+4 1 -1 
+Functions: 14
+-1 0 
+64 0 
+128 1 124 
+1 2 1 5 
+39 0 
+72 0 
+104 0 
+107 0 
+16 1 11 
+52 0 
+116 0 
+120 0 
+92 0 
+31 0 
+Constructors: 1
+128 124
+
+Summary: 9
+11 21 55 -1 60 89 117 28 96 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.openConnection(Ljava/net/URL;)Ljava/net/URLConnection;
+PTG:
+Vars:
+6
+$r1 1 5 
+$r4 1 139 
+$r2 1 1 
+r3 1 11 
+r0 1 -1 
+r6 1 -2 
+Fields: 2
+-1 factory 1
+-1 protocol 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+63 1 -1 
+Functions: 15
+-1 0 
+1 2 1 5 
+67 0 
+131 0 
+36 0 
+135 0 
+107 0 
+46 0 
+79 0 
+143 1 139 
+16 1 11 
+54 0 
+87 0 
+119 0 
+122 0 
+Constructors: 1
+143 139
+
+Summary: 9
+11 21 111 70 -1 37 75 104 132 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.equals(Ljava/net/URL;Ljava/net/URL;)Z
+PTG:
+Vars:
+7
+r6 1 -2 
+$r4 1 133 
+$r2 1 1 
+r0 1 -1 
+r3 1 11 
+$r1 1 5 
+r7 1 -3 
+Fields: 2
+-1 factory 1
+-1 protocol 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+55 1 -1 
+Functions: 14
+-1 0 
+1 2 1 5 
+129 0 
+35 0 
+99 0 
+71 0 
+137 1 133 
+44 0 
+79 0 
+16 1 11 
+112 0 
+115 0 
+59 0 
+124 0 
+Constructors: 1
+137 133
+
+Summary: 9
+11 21 103 67 62 126 -1 32 96 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.getHostAddress(Ljava/net/URL;)Ljava/net/InetAddress;
+PTG:
+Vars:
+6
+r6 1 -2 
+r3 1 11 
+$r4 1 121 
+r0 1 -1 
+$r1 1 5 
+$r2 1 1 
+Fields: 2
+-1 factory 1
+-1 protocol 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+45 1 -1 
+Functions: 13
+-1 0 
+1 2 1 5 
+36 0 
+69 0 
+101 0 
+104 0 
+16 1 11 
+49 0 
+113 0 
+117 0 
+89 0 
+61 0 
+125 1 121 
+Constructors: 1
+125 121
+
+Summary: 8
+11 21 86 114 -1 93 57 52 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.getDefaultPort()I
+PTG:
+Vars:
+5
+r3 1 11 
+$r1 1 5 
+$r2 1 1 
+r0 1 -1 
+$r4 1 117 
+Fields: 2
+-1 factory 1
+-1 protocol 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+41 1 -1 
+Functions: 14
+32 0 
+-1 0 
+1 2 1 5 
+65 0 
+97 0 
+100 0 
+45 0 
+109 0 
+16 1 11 
+113 0 
+85 0 
+24 0 
+57 0 
+121 1 117 
+Constructors: 1
+121 117
+
+Summary: 8
+11 82 110 -1 21 89 53 48 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.hostsEqual(Ljava/net/URL;Ljava/net/URL;)Z
+PTG:
+Vars:
+7
+$r2 1 1 
+r6 1 -2 
+r7 1 -3 
+r3 1 11 
+$r1 1 5 
+$r4 1 133 
+r0 1 -1 
+Fields: 2
+-1 factory 1
+-1 protocol 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+55 1 -1 
+Functions: 14
+-1 0 
+1 2 1 5 
+129 0 
+35 0 
+99 0 
+71 0 
+137 1 133 
+44 0 
+79 0 
+16 1 11 
+112 0 
+115 0 
+59 0 
+124 0 
+Constructors: 1
+137 133
+
+Summary: 9
+11 21 103 67 62 126 -1 32 96 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.sameFile(Ljava/net/URL;Ljava/net/URL;)Z
+PTG:
+Vars:
+7
+r3 1 11 
+r0 1 -1 
+r7 1 -3 
+$r2 1 1 
+$r4 1 133 
+r6 1 -2 
+$r1 1 5 
+Fields: 2
+-1 factory 1
+-1 protocol 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+55 1 -1 
+Functions: 14
+-1 0 
+1 2 1 5 
+129 0 
+35 0 
+99 0 
+71 0 
+137 1 133 
+44 0 
+79 0 
+16 1 11 
+112 0 
+115 0 
+59 0 
+124 0 
+Constructors: 1
+137 133
+
+Summary: 9
+11 21 103 67 62 126 -1 32 96 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.parseURL(Ljava/net/URL;Ljava/lang/String;II)V
+PTG:
+Vars:
+7
+$r1 1 5 
+r0 1 -1 
+r3 1 11 
+$r2 1 1 
+$r4 1 163 
+r8 1 -3 
+r5 1 -2 
+Fields: 2
+-1 factory 1
+-1 protocol 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+85 1 -1 
+Functions: 16
+-1 0 
+1 2 1 5 
+129 0 
+67 1 11 
+101 0 
+167 1 163 
+74 0 
+109 0 
+142 0 
+145 0 
+51 0 
+24 2 -2 11 
+89 0 
+154 0 
+63 0 
+159 0 
+Constructors: 1
+167 163
+
+Summary: 8
+11 97 156 126 -1 33 133 92 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.setURL(Ljava/net/URL;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+13
+r5 1 -2 
+r12 1 -6 
+r13 1 -7 
+$r4 1 185 
+r9 1 -4 
+r8 1 -3 
+$r1 1 5 
+r0 1 -1 
+r14 1 -8 
+r3 1 11 
+r16 1 -10 
+r15 1 -9 
+$r2 1 1 
+Fields: 2
+-1 factory 1
+-1 protocol 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+107 1 -1 
+Functions: 15
+96 0 
+-1 0 
+1 2 1 5 
+131 0 
+164 0 
+167 0 
+111 0 
+176 0 
+181 0 
+151 0 
+24 2 -2 11 
+57 0 
+89 1 11 
+123 0 
+189 1 185 
+Constructors: 1
+189 185
+
+Summary: 8
+11 148 119 114 -1 178 34 155 
+org/eclipse/osgi/framework/internal/protocol/MultiplexingURLStreamHandler.toExternalForm(Ljava/net/URL;)Ljava/lang/String;
+PTG:
+Vars:
+6
+$r2 1 1 
+r3 1 11 
+$r1 1 5 
+r6 1 -2 
+r0 1 -1 
+$r4 1 121 
+Fields: 2
+-1 factory 1
+-1 protocol 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+45 1 -1 
+Functions: 13
+-1 0 
+1 2 1 5 
+36 0 
+69 0 
+101 0 
+104 0 
+16 1 11 
+49 0 
+113 0 
+117 0 
+89 0 
+61 0 
+125 1 121 
+Constructors: 1
+125 121
+
+Summary: 8
+11 21 86 114 -1 93 57 52 

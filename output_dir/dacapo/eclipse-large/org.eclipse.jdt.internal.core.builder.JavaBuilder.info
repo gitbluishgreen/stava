@@ -1,0 +1,1621 @@
+33
+org/eclipse/jdt/internal/core/builder/JavaBuilder.buildDeltas(Lorg/eclipse/jdt/internal/compiler/util/SimpleLookupTable;)V
+PTG:
+Vars:
+17
+$r2 1 15 
+$r15 1 59 
+$r16 1 62 
+$r1 1 1 
+$r6 1 23 
+$r11 1 36 
+$r17 1 72 
+$r3 1 1 
+$r4 1 11 
+$r5 1 18 
+$r9 1 106 
+$r12 1 45 
+$r14 1 36 
+r0 1 -1 
+r8 1 -2 
+$r10 1 91 
+$r13 1 42 
+Fields: 4
+72 newState 91
+-1 notifier 1
+-1 currentProject 15
+-1 lastState 36
+Accesses: 6
+0 1 -1 
+35 1 -1 
+7 1 -1 
+55 1 -1 
+90 1 72 
+14 1 -1 
+Functions: 14
+65 2 42 62 
+4 1 1 
+69 4 -1 1 36 15 
+45 2 36 45 
+77 6 -1 1 36 72 91 15 
+15 1 15 
+112 1 106 
+81 3 -2 72 91 
+18 2 18 11 
+52 1 45 
+116 4 -1 1 36 15 
+26 2 1 23 
+59 1 59 
+94 5 -1 1 36 91 15 
+Constructors: 2
+52 45
+77 72
+
+Summary: 9
+59 -2 23 62 91 72 0 -1 18 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.createInconsistentBuildMarker(Lorg/eclipse/core/runtime/CoreException;)V
+PTG:
+Vars:
+14
+$r7 1 107 
+r0 1 -2 
+r1 1 6 
+r2 1 -1 
+$r4 1 70 
+$r8 1 113 
+r12 1 22 
+r13 1 65 
+r11 2 53 44 
+$r5 1 98 
+$r10 1 38 
+$r3 1 55 
+$r9 1 124 
+$r6 1 103 
+Fields: 7
+70 ArrayObject 78
+70 ArrayObject 84
+70 ArrayObject 90
+70 ArrayObject 96
+98 ArrayObject 138
+22 ArrayObject 38
+-1 currentProject 55
+Accesses: 1
+54 1 -1 
+Functions: 10
+16 1 6 
+49 1 -2 
+2 1 -2 
+130 1 124 
+38 1 38 
+118 1 113 
+7 1 6 
+55 1 55 
+106 3 53 103 44 
+139 8 96 65 98 84 70 90 138 78 
+Constructors: 2
+130 124
+118 113
+
+Summary: 15
+-2 98 96 44 138 90 70 6 53 65 22 78 84 -1 38 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.hasStructuralDelta()Z
+PTG:
+Vars:
+10
+$r4 1 23 
+r6 1 30 
+r9 1 80 
+r2 1 8 
+r7 1 53 
+r0 1 -1 
+$r3 1 2 
+$r1 1 2 
+r8 1 65 
+$r5 1 30 
+Fields: 3
+30 ArrayObject 53
+-1 binaryLocationsPerProject 23
+-1 currentProject 2
+Accesses: 3
+1 1 -1 
+22 1 -1 
+26 1 -1 
+Functions: 6
+0 3 -1 2 23 
+23 2 2 23 
+87 1 80 
+72 2 65 8 
+60 1 53 
+13 1 8 
+Constructors: 0
+
+Summary: 4
+80 65 30 -1 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.clean(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+42
+$r30 1 56 
+$r3 1 9 
+$r44 1 204 
+$r40 1 182 
+$r12 1 263 
+$r8 1 100 
+$r45 1 100 
+$r25 1 147 
+$r10 1 164 
+$r31 1 61 
+$r22 1 127 
+$r43 1 201 
+$r33 1 74 
+$r18 1 290 
+$r1 1 2 
+$r21 1 130 
+$r17 1 287 
+$r29 1 51 
+$r26 1 37 
+r0 1 -1 
+$r4 1 84 
+$r16 1 282 
+$r2 1 9 
+r5 1 -2 
+$r34 1 77 
+$r13 1 260 
+$r38 1 -1 
+$r27 1 34 
+$r14 1 9 
+$r19 1 300 
+$r32 1 64 
+$r20 1 303 
+$r6 1 9 
+$r23 1 141 
+$r28 1 9 
+$r9 1 9 
+$r15 1 277 
+$r11 1 100 
+$r42 1 196 
+$r7 1 100 
+$r24 1 144 
+$r41 1 9 
+Fields: 3
+-1 notifier 100
+-1 currentProject 9
+-1 lastState 141
+Accesses: 15
+96 1 -1 
+192 1 -1 
+99 1 -1 
+5 1 -1 
+230 1 -1 
+8 1 -1 
+106 1 -1 
+140 1 -1 
+15 1 -1 
+47 1 -1 
+273 1 -1 
+243 1 -1 
+215 1 -1 
+89 1 -1 
+157 1 -1 
+Functions: 43
+-1 0 
+1 4 -1 100 9 141 
+193 1 9 
+130 2 130 141 
+71 1 64 
+263 2 277 263 
+137 1 130 
+201 1 201 
+74 1 74 
+270 1 263 
+207 2 -1 204 
+16 1 9 
+80 2 34 77 
+144 1 144 
+274 1 9 
+212 4 -1 100 9 141 
+150 2 147 127 
+154 4 -1 100 9 141 
+282 1 282 
+219 1 100 
+93 3 -2 84 9 
+223 4 -1 100 9 141 
+287 2 290 287 
+161 1 9 
+37 2 51 37 
+103 1 100 
+297 1 290 
+170 5 -1 164 100 9 141 
+234 0 
+44 1 37 
+300 1 300 
+110 1 100 
+174 1 164 
+238 4 -1 100 9 141 
+48 1 9 
+306 2 260 303 
+117 4 -1 100 9 141 
+182 2 196 182 
+247 1 100 
+56 1 56 
+251 4 -1 100 9 141 
+61 2 64 61 
+189 1 182 
+Constructors: 8
+71 64
+137 130
+297 290
+170 164
+44 37
+93 84
+189 182
+270 263
+
+Summary: 17
+147 303 201 144 277 300 -2 51 164 0 77 196 64 290 74 204 -1 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.removeTasksFor(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+$r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 1 -2 
+4 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.filterExtraResource(Lorg/eclipse/core/resources/IResource;)Z
+PTG:
+Vars:
+17
+r0 1 -1 
+r15 1 67 
+$r1 1 1 
+$r12 2 30 1 
+$r13 1 34 
+$r2 1 55 
+r3 1 -2 
+r14 1 16 
+$r10 1 8 
+$r7 2 55 131 
+r16 1 74 
+$r5 2 111 55 
+$r11 1 1 
+$r4 1 55 
+$r8 1 136 
+$r6 1 116 
+$r9 1 140 
+Fields: 8
+111 ArrayObject 116
+30 ArrayObject 34
+-1 extraResourceFolderFilters 55
+-1 extraResourceFileFilters 1
+55 ArrayObject 116
+55 ArrayObject 136
+1 ArrayObject 34
+131 ArrayObject 136
+Accesses: 7
+0 1 -1 
+130 1 -1 
+19 1 -1 
+99 1 -1 
+54 1 -1 
+29 1 -1 
+110 1 -1 
+Functions: 10
+83 1 -2 
+36 2 16 34 
+68 1 67 
+7 1 -2 
+8 1 8 
+136 2 136 140 
+137 1 67 
+75 1 67 
+61 1 -2 
+109 2 116 74 
+Constructors: 0
+
+Summary: 7
+67 -2 8 140 16 74 -1 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.initializeBuilder(IZ)I
+PTG:
+Vars:
+40
+$r33 1 174 
+$r22 1 117 
+$r8 1 315 
+$r31 1 166 
+$r3 1 5 
+$r30 1 161 
+$r26 1 77 
+r27 1 110 
+$r29 1 149 
+$r19 1 2 
+$r32 1 44 
+$r2 1 5 
+$r23 1 54 
+$r9 1 324 
+$r12 1 371 
+$r7 1 44 
+$r17 1 47 
+r38 1 269 
+$r28 1 140 
+r0 1 -1 
+$r18 1 54 
+$r34 1 178 
+$r5 1 19 
+$r20 1 111 
+$r36 1 220 
+r35 1 202 
+$r14 1 37 
+$r1 1 2 
+$r6 1 24 
+$r21 1 130 
+$r11 1 379 
+r37 1 220 
+$r16 1 40 
+$r24 2 54 73 
+$r13 1 217 
+$r15 1 44 
+$r10 1 399 
+r39 1 346 
+$r25 2 79 44 
+$r4 1 2 
+Fields: 13
+37 compilationParticipants 40
+54 ArrayObject 77
+220 ArrayObject 269
+220 ArrayObject 346
+73 ArrayObject 77
+-1 javaProject 44
+-1 binaryLocationsPerProject 174
+-1 notifier 178
+-1 workspaceRoot 166
+-1 extraResourceFolderFilters 371
+-1 currentProject 2
+-1 extraResourceFileFilters 399
+-1 participants 54
+Accesses: 25
+1 1 -1 
+327 1 -1 
+72 1 -1 
+11 1 -1 
+78 1 -1 
+398 1 -1 
+15 1 -1 
+29 1 -1 
+157 1 -1 
+37 1 37 
+101 1 -1 
+165 1 -1 
+169 1 -1 
+43 1 -1 
+236 1 -1 
+173 1 -1 
+177 1 -1 
+241 1 -1 
+50 1 -1 
+370 1 -1 
+53 1 -1 
+184 1 -1 
+62 1 -1 
+318 1 -1 
+191 1 -1 
+Functions: 18
+-1 0 
+192 1 44 
+2 1 2 
+102 1 2 
+134 1 130 
+391 2 346 379 
+40 2 40 44 
+77 3 44 77 79 
+207 1 202 
+16 1 2 
+144 2 140 110 
+19 1 19 
+117 2 117 110 
+181 5 161 178 166 44 174 
+216 1 202 
+217 1 217 
+154 1 149 
+127 0 
+Constructors: 4
+181 161
+134 130
+391 379
+154 149
+
+Summary: 8
+220 40 202 19 37 110 -1 217 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.buildStarting()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/builder/JavaBuilder.clearLastState()V
+PTG:
+Vars:
+3
+$r2 1 4 
+$r0 1 0 
+r1 1 -1 
+Fields: 1
+-1 currentProject 4
+Accesses: 1
+3 1 -1 
+Functions: 2
+-1 0 
+8 2 0 4 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.isWorthBuilding()Z
+PTG:
+Vars:
+30
+$r36 1 318 
+r10 1 190 
+$r35 1 313 
+$r38 1 327 
+$r46 1 271 
+$r40 1 219 
+$r4 1 4 
+$r9 1 161 
+$r39 2 223 4 
+$r41 1 230 
+r13 1 203 
+$r45 1 265 
+$r3 1 11 
+$r43 1 245 
+$r7 1 4 
+$r34 1 298 
+$r5 1 29 
+$r8 1 150 
+r57 1 177 
+$r12 1 203 
+r0 1 -1 
+$r6 1 33 
+$r44 1 260 
+$r42 1 248 
+$r37 1 324 
+$r1 1 4 
+$r2 1 0 
+$r47 1 274 
+$r11 1 195 
+$r33 1 301 
+Fields: 3
+177 ArrayObject 190
+-1 javaProject 4
+-1 currentProject 33
+Accesses: 9
+32 1 -1 
+64 1 -1 
+384 1 -1 
+3 1 -1 
+25 1 -1 
+57 1 -1 
+153 1 -1 
+377 1 -1 
+222 1 -1 
+Functions: 48
+0 2 0 11 
+192 4 -1 33 4 190 
+65 0 
+385 0 
+258 1 190 
+450 1 190 
+4 1 4 
+324 1 324 
+452 0 
+134 0 
+201 1 190 
+265 1 265 
+330 2 327 298 
+143 0 
+271 1 271 
+466 1 190 
+211 1 203 
+468 0 
+277 2 274 245 
+150 2 161 150 
+24 4 -1 33 4 29 
+345 0 
+26 1 4 
+154 1 4 
+219 2 230 219 
+283 4 -1 33 4 190 
+223 2 4 223 
+352 0 
+355 1 190 
+484 0 
+362 0 
+172 3 -1 33 4 
+301 2 313 301 
+368 0 
+496 0 
+433 4 -1 33 4 190 
+434 1 203 
+308 1 301 
+54 0 
+374 0 
+311 1 190 
+248 2 260 248 
+505 0 
+122 0 
+61 0 
+381 0 
+318 1 318 
+255 1 248 
+Constructors: 2
+308 301
+255 248
+
+Summary: 36
+86 371 504 408 161 452 203 368 106 420 177 195 428 -1 468 98 324 357 75 313 274 78 260 327 400 395 436 414 92 11 230 142 271 426 104 29 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.mustPropagateStructuralChanges()V
+PTG:
+Vars:
+14
+$r3 1 13 
+r14 1 87 
+$r4 1 10 
+$r7 1 10 
+$r0 1 0 
+r9 1 49 
+r2 1 -1 
+$r6 1 22 
+r8 1 44 
+$r13 1 77 
+$r5 1 25 
+$r10 1 54 
+r11 1 54 
+$r12 2 71 22 
+Fields: 2
+-1 javaProject 10
+-1 workspaceRoot 22
+Accesses: 4
+21 1 -1 
+37 1 -1 
+70 1 -1 
+9 1 -1 
+Functions: 18
+34 5 0 22 25 10 13 
+130 0 
+5 1 0 
+38 1 10 
+71 3 22 71 77 
+136 0 
+74 1 54 
+107 0 
+140 3 -1 22 10 
+45 1 0 
+144 1 49 
+17 1 13 
+114 0 
+53 1 49 
+117 1 87 
+89 4 -1 22 87 10 
+124 0 
+30 1 25 
+Constructors: 3
+17 13
+5 0
+30 25
+
+Summary: 13
+119 49 54 124 25 44 77 133 0 130 13 87 -1 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.printLocations([Lorg/eclipse/jdt/internal/core/builder/ClasspathLocation;[Lorg/eclipse/jdt/internal/core/builder/ClasspathLocation;)V
+PTG:
+Vars:
+17
+$r2 1 21 
+$r15 1 95 
+r1 1 -2 
+$r12 1 88 
+$r7 1 40 
+$r4 1 33 
+$r8 1 55 
+$r14 1 92 
+r9 1 -3 
+$r13 1 89 
+r16 1 -1 
+$r11 1 73 
+$r6 1 37 
+$r3 1 18 
+$r5 1 34 
+$r0 1 0 
+$r10 1 76 
+Fields: 2
+-3 ArrayObject 88
+-2 ArrayObject 33
+Accesses: 0
+Functions: 12
+33 1 33 
+98 2 73 95 
+83 1 76 
+21 2 34 21 
+37 1 37 
+6 1 0 
+88 1 88 
+43 2 18 40 
+28 1 21 
+76 2 89 76 
+92 1 92 
+61 1 55 
+Constructors: 2
+83 76
+28 21
+
+Summary: 11
+-3 -2 95 0 1 37 34 89 40 -1 92 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.readState(Lorg/eclipse/core/resources/IProject;Ljava/io/DataInputStream;)Lorg/eclipse/jdt/internal/core/builder/State;
+PTG:
+Vars:
+4
+r1 1 -3 
+r0 1 -2 
+_ret 1 2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 -2 0 1 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.getTasksFor(Lorg/eclipse/core/resources/IResource;)[Lorg/eclipse/core/resources/IMarker;
+PTG:
+Vars:
+5
+$r1 1 18 
+$r3 1 26 
+r0 1 -2 
+$r2 1 -1 
+_ret 1 26 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 1 -2 
+13 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.findDeltas()Lorg/eclipse/jdt/internal/compiler/util/SimpleLookupTable;
+PTG:
+Vars:
+40
+$r3 1 4 
+$r16 1 153 
+$r36 1 349 
+$r40 1 369 
+$r20 1 182 
+$r26 1 304 
+$r49 1 8 
+$r43 1 263 
+$r51 1 81 
+$r4 1 11 
+$r25 2 301 1 
+$r1 1 8 
+$r18 1 153 
+r21 1 182 
+$r24 1 211 
+$r38 1 361 
+$r37 1 346 
+r19 1 167 
+r42 1 239 
+r0 1 -1 
+$r45 1 8 
+$r50 1 76 
+$r6 1 8 
+$r39 1 366 
+$r2 1 1 
+$r44 1 1 
+$r27 1 309 
+r53 1 30 
+r17 1 159 
+$r41 1 239 
+$r48 1 59 
+$r47 1 62 
+$r28 1 314 
+r23 1 208 
+$r7 1 31 
+$r52 1 84 
+$r5 1 16 
+_ret 1 31 
+r54 1 326 
+$r22 2 8 196 
+Fields: 9
+153 valueTable 167
+153 keyTable 159
+167 ArrayObject 239
+239 ArrayObject 263
+-1 binaryLocationsPerProject 153
+-1 notifier 1
+-1 currentProject 8
+-1 lastState 211
+159 ArrayObject 182
+Accesses: 16
+0 1 -1 
+160 1 -1 
+161 1 153 
+195 1 -1 
+421 1 -1 
+7 1 -1 
+72 1 -1 
+140 1 -1 
+300 1 -1 
+210 1 -1 
+23 1 -1 
+152 1 -1 
+153 1 153 
+122 1 -1 
+91 1 -1 
+443 1 -1 
+Functions: 40
+320 10 -1 1 211 182 167 263 8 153 159 239 
+450 1 1 
+131 0 
+69 1 62 
+263 1 263 
+8 1 8 
+73 1 8 
+137 0 
+202 10 -1 1 211 182 167 263 8 153 159 239 
+11 2 4 11 
+331 1 326 
+395 0 
+81 1 81 
+402 0 
+19 2 16 1 
+147 0 
+211 3 208 211 182 
+405 1 182 
+22 10 -1 1 211 182 167 263 8 153 159 239 
+87 2 84 59 
+412 0 
+349 2 361 349 
+96 3 8 30 31 
+224 1 208 
+418 0 
+36 1 31 
+356 1 349 
+359 1 182 
+44 1 30 
+428 0 
+366 1 366 
+112 0 
+307 1 182 
+372 2 369 346 
+309 2 304 309 
+119 0 
+123 0 
+379 3 182 326 31 
+317 3 1 314 301 
+62 2 76 62 
+Constructors: 3
+36 31
+356 349
+69 62
+
+Summary: 20
+314 361 366 84 131 326 76 407 81 126 134 412 309 369 30 415 11 16 208 -1 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.getProblemsFor(Lorg/eclipse/core/resources/IResource;)[Lorg/eclipse/core/resources/IMarker;
+PTG:
+Vars:
+16
+r3 1 33 
+$r4 1 45 
+r15 1 112 
+$r1 1 24 
+r0 1 -2 
+$r8 1 97 
+$r10 1 157 
+$r6 1 68 
+r14 1 89 
+$r7 1 97 
+$r2 1 27 
+r13 1 23 
+$r17 1 172 
+$r12 1 -1 
+$r9 1 127 
+_ret 1 172 
+Fields: 3
+24 compilationParticipants 27
+23 ArrayObject 68
+112 ArrayObject 127
+Accesses: 1
+24 1 24 
+Functions: 14
+-1 0 
+128 2 45 127 
+34 1 33 
+163 2 45 157 
+4 1 -2 
+69 2 68 45 
+13 1 -2 
+142 1 89 
+50 1 45 
+83 1 33 
+153 1 45 
+27 1 27 
+94 2 -2 97 
+95 1 89 
+Constructors: 1
+50 45
+
+Summary: 8
+-2 33 45 24 97 89 27 112 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.removeProblemsAndTasksFor(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+8
+r0 1 -2 
+r3 1 42 
+$r2 1 36 
+r4 1 59 
+$r5 1 65 
+$r7 1 -1 
+$r1 1 33 
+$r6 1 65 
+Fields: 1
+33 compilationParticipants 36
+Accesses: 1
+33 1 33 
+Functions: 10
+-1 0 
+64 1 59 
+80 1 59 
+18 1 -2 
+4 1 -2 
+36 1 36 
+53 1 42 
+43 1 42 
+75 2 -2 65 
+28 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 33 42 65 0 36 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.hasBuildpathErrors()Z
+PTG:
+Vars:
+4
+r2 1 13 
+r0 1 -1 
+$r3 1 24 
+$r1 1 1 
+Fields: 2
+13 ArrayObject 24
+-1 currentProject 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+24 1 24 
+Constructors: 0
+
+Summary: 2
+13 -1 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.toString()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r5 1 32 
+$r1 1 1 
+$r4 1 27 
+$r6 2 7 35 
+$r3 1 1 
+$r2 1 13 
+_ret 2 7 35 
+r0 1 -1 
+Fields: 1
+-1 currentProject 1
+Accesses: 2
+0 1 -1 
+23 1 -1 
+Functions: 4
+32 1 32 
+20 1 13 
+24 1 1 
+13 2 27 13 
+Constructors: 1
+20 13
+
+Summary: 2
+-1 27 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.writeState(Ljava/lang/Object;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+$r2 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 -2 0 1 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.buildAll()V
+PTG:
+Vars:
+15
+r0 1 -1 
+$r1 1 1 
+$r4 1 11 
+$r14 1 72 
+$r9 1 45 
+$r3 1 1 
+$r11 1 36 
+$r15 1 88 
+$r6 1 23 
+$r12 1 59 
+$r8 1 36 
+$r13 1 62 
+$r5 1 18 
+$r2 1 15 
+$r10 1 42 
+Fields: 4
+72 newState 88
+-1 notifier 1
+-1 currentProject 15
+-1 lastState 36
+Accesses: 6
+0 1 -1 
+35 1 -1 
+7 1 -1 
+55 1 -1 
+87 1 72 
+14 1 -1 
+Functions: 12
+65 2 42 62 
+18 2 18 11 
+83 2 72 88 
+4 1 1 
+52 1 45 
+69 4 -1 1 36 15 
+26 2 1 23 
+59 1 59 
+91 5 -1 1 36 88 15 
+45 2 36 45 
+78 6 -1 1 36 72 88 15 
+15 1 15 
+Constructors: 2
+52 45
+78 72
+
+Summary: 7
+59 23 62 88 72 -1 18 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.getRequiredProjects(Z)[Lorg/eclipse/core/resources/IProject;
+PTG:
+Vars:
+19
+r0 1 -1 
+$r12 1 56 
+r9 1 65 
+$r11 1 106 
+$r14 1 164 
+r22 1 260 
+$r13 2 158 8 
+r21 1 200 
+r6 1 30 
+r18 1 38 
+$r3 1 8 
+$r4 1 19 
+$r7 1 1 
+r20 1 174 
+r19 3 214 174 116 
+$r1 1 1 
+_ret 1 260 
+r8 1 56 
+$r10 2 101 8 
+Fields: 3
+-1 javaProject 1
+-1 workspaceRoot 8
+38 ArrayObject 56
+Accesses: 5
+0 1 -1 
+100 1 -1 
+7 1 -1 
+157 1 -1 
+31 1 -1 
+Functions: 18
+32 1 1 
+256 1 19 
+129 3 116 214 174 
+161 1 65 
+194 2 65 30 
+101 3 101 8 106 
+70 1 56 
+104 1 65 
+233 4 19 116 214 174 
+268 2 19 260 
+207 1 200 
+147 1 65 
+23 1 19 
+120 1 56 
+58 1 56 
+27 0 
+221 4 19 116 214 174 
+158 3 164 8 158 
+Constructors: 1
+23 19
+
+Summary: 11
+106 174 200 116 30 19 214 164 65 -1 38 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.hasJavaBuilder(Lorg/eclipse/core/resources/IProject;)Z
+PTG:
+Vars:
+6
+r5 1 -1 
+$r3 1 23 
+r2 1 11 
+$r1 1 1 
+r0 1 -2 
+$r4 1 24 
+Fields: 1
+11 ArrayObject 23
+Accesses: 0
+Functions: 4
+0 1 -2 
+1 1 1 
+23 1 23 
+24 1 24 
+Constructors: 0
+
+Summary: 5
+11 24 -2 -1 1 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.cleanup()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 7
+32 1 -1 
+17 1 -1 
+2 1 -1 
+22 1 -1 
+7 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.removeProblemsFor(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+8
+$r6 1 55 
+$r7 1 -1 
+$r5 1 55 
+r4 1 49 
+$r1 1 23 
+r3 1 32 
+r0 1 -2 
+$r2 1 26 
+Fields: 1
+23 compilationParticipants 26
+Accesses: 1
+23 1 23 
+Functions: 9
+-1 0 
+33 1 32 
+65 2 -2 55 
+18 1 -2 
+4 1 -2 
+54 1 49 
+70 1 49 
+26 1 26 
+43 1 32 
+Constructors: 0
+
+Summary: 6
+-2 49 23 32 26 55 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.<clinit>()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/builder/JavaBuilder.recordNewState(Lorg/eclipse/jdt/internal/core/builder/State;)V
+PTG:
+Vars:
+14
+r6 1 -2 
+$r1 1 1 
+$r5 1 33 
+$r3 1 19 
+$r11 1 66 
+$r7 1 45 
+$r13 1 83 
+r2 1 7 
+$r12 1 80 
+$r10 1 69 
+$r8 1 89 
+r4 1 19 
+$r9 2 93 33 
+r0 1 -1 
+Fields: 5
+7 ArrayObject 19
+-1 binaryLocationsPerProject 1
+-1 currentProject 93
+-1 currentProject 33
+1 keyTable 7
+Accesses: 4
+0 1 -1 
+32 1 -1 
+1 1 1 
+92 1 -1 
+Functions: 8
+48 3 -2 19 45 
+80 1 80 
+-1 0 
+97 4 33 -2 89 93 
+69 2 -2 69 
+86 2 66 83 
+42 6 -1 1 33 19 7 93 
+76 1 69 
+Constructors: 1
+76 69
+
+Summary: 7
+80 -2 0 45 89 -1 83 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.build(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;
+PTG:
+Vars:
+95
+r100 1 -3 
+$r95 1 405 
+$r88 1 -1 
+$r21 1 947 
+$r98 1 431 
+$r86 1 546 
+$r12 2 864 843 
+r101 1 242 
+$r75 1 476 
+$r84 2 541 520 
+$r79 1 498 
+$r20 1 942 
+$r35 1 182 
+$r83 1 520 
+$r7 1 9 
+$r91 1 381 
+$r4 1 9 
+$r71 1 598 
+$r61 1 662 
+$r28 1 231 
+$r42 1 64 
+$r85 1 548 
+$r10 1 843 
+$r31 1 319 
+$r15 1 103 
+$r2 1 9 
+$r65 1 699 
+_ret 1 912 
+$r9 1 103 
+$r90 1 9 
+$r80 1 501 
+$r73 1 606 
+$r22 1 950 
+$r87 1 103 
+$r94 1 405 
+$r13 1 871 
+$r82 1 520 
+$r63 1 676 
+r6 1 -4 
+$r54 1 -1 
+$r92 1 386 
+$r66 2 699 720 
+$r41 1 59 
+$r33 1 255 
+$r97 1 433 
+$r99 1 103 
+$r26 1 166 
+$r81 1 510 
+$r5 1 87 
+$r29 1 351 
+$r70 1 603 
+$r8 1 103 
+$r24 1 963 
+$r43 1 67 
+$r14 1 869 
+$r45 1 80 
+$r44 1 77 
+$r76 1 479 
+$r77 1 9 
+$r27 1 228 
+$r11 1 843 
+$r78 1 493 
+$r37 1 41 
+$r36 1 145 
+$r64 1 699 
+$r72 1 595 
+$r74 1 -1 
+r0 1 -1 
+$r39 1 9 
+$r40 1 54 
+r57 1 630 
+$r58 1 635 
+$r1 1 2 
+$r34 1 211 
+$r16 1 923 
+$r56 1 9 
+$r67 1 727 
+$r17 1 920 
+$r23 1 960 
+$r25 1 9 
+$r55 1 9 
+$r93 1 389 
+$r19 1 937 
+r105 1 912 
+$r38 1 38 
+$r62 1 670 
+$r68 1 725 
+$r32 1 294 
+$r59 1 657 
+$r60 1 603 
+$r30 1 341 
+$r69 1 103 
+$r89 1 367 
+$r18 1 9 
+$r96 2 426 405 
+Fields: 27
+541 ArrayObject 546
+228 sourceLocations 231
+426 ArrayObject 431
+699 ArrayObject 725
+520 ArrayObject 546
+720 ArrayObject 725
+843 ArrayObject 869
+-1 coreException 510
+-1 missingSourceFile 603
+635 ArrayObject 643
+635 ArrayObject 649
+635 ArrayObject 655
+657 ArrayObject 689
+864 ArrayObject 869
+-1 javaProject 433
+-1 javaProject 871
+-1 javaProject 727
+-1 javaProject 548
+-1 notifier 103
+-1 currentProject 9
+-1 nameEnvironment 228
+-1 participants 405
+-1 participants 843
+-1 participants 699
+-1 participants 520
+-1 lastState 351
+405 ArrayObject 431
+Accesses: 47
+896 1 -1 
+771 1 -1 
+5 1 -1 
+709 1 -1 
+519 1 -1 
+8 1 -1 
+458 1 -1 
+842 1 -1 
+782 1 -1 
+15 1 -1 
+271 1 242 
+719 1 -1 
+530 1 -1 
+404 1 -1 
+853 1 -1 
+726 1 -1 
+792 1 -1 
+601 1 -1 
+665 1 -1 
+92 1 -1 
+540 1 -1 
+350 1 -1 
+415 1 -1 
+799 1 -1 
+863 1 -1 
+162 1 -1 
+99 1 -1 
+227 1 -1 
+547 1 -1 
+228 1 228 
+612 1 -1 
+933 1 -1 
+102 1 -1 
+870 1 -1 
+425 1 -1 
+489 1 -1 
+170 1 -1 
+619 1 -1 
+112 1 -1 
+432 1 -1 
+752 1 -1 
+50 1 -1 
+377 1 -1 
+825 1 -1 
+698 1 -1 
+508 1 -1 
+573 1 -1 
+Functions: 83
+-1 0 
+1 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+513 19 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 510 351 
+386 1 386 
+900 1 103 
+261 1 255 
+392 4 -1 389 603 510 
+904 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+265 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+907 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+398 20 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 603 510 351 
+16 1 9 
+150 1 145 
+154 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+282 19 -1 546 548 228 869 871 103 231 520 9 843 431 433 242 405 725 727 699 351 
+667 2 662 603 
+923 2 937 923 
+161 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+930 1 923 
+803 0 
+934 1 9 
+551 2 546 548 
+41 2 54 41 
+681 1 676 
+300 1 294 
+942 1 942 
+47 1 41 
+306 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+690 7 657 689 643 630 649 635 655 
+51 1 9 
+947 2 947 950 
+436 2 433 431 
+822 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+570 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+59 1 59 
+188 1 182 
+829 0 
+957 1 950 
+64 2 64 67 
+192 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+960 1 960 
+577 1 103 
+833 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+325 1 319 
+581 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+198 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+966 2 963 920 
+455 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+329 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+74 1 67 
+77 1 77 
+462 1 103 
+466 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+83 2 80 38 
+217 1 211 
+474 3 -1 603 510 
+730 2 725 727 
+347 1 341 
+603 2 598 603 
+221 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+479 2 493 479 
+96 3 -4 87 9 
+609 2 595 606 
+354 1 351 
+486 1 479 
+616 1 9 
+106 1 103 
+490 1 9 
+874 2 869 871 
+620 1 9 
+749 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+238 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+367 2 381 367 
+498 1 498 
+116 1 103 
+756 1 103 
+374 1 367 
+119 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+504 2 501 476 
+760 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+378 1 9 
+893 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+126 18 -1 546 548 228 869 871 103 231 520 9 843 431 433 405 725 727 699 351 
+Constructors: 8
+96 87
+930 923
+374 367
+486 479
+681 676
+74 67
+957 950
+47 41
+
+Summary: 29
+80 649 476 67 381 963 630 77 -4 643 689 937 635 2 -1 -3 606 54 960 1 386 950 493 389 242 501 657 655 498 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.getLastState(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/jdt/internal/core/builder/State;
+PTG:
+Vars:
+8
+$r3 1 5 
+r2 1 -1 
+$r6 1 11 
+$r5 1 11 
+r1 1 -2 
+$r4 1 8 
+$r0 1 0 
+_ret 1 11 
+Fields: 2
+5 monitor 8
+-1 notifier 5
+Accesses: 2
+4 1 -1 
+5 1 5 
+Functions: 2
+-1 0 
+0 3 0 -2 8 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 0 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.buildFinished()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/builder/JavaBuilder.hasClasspathChanged()Z
+PTG:
+Vars:
+25
+r14 1 285 
+$r10 1 233 
+$r28 1 39 
+$r1 1 1 
+r4 1 15 
+$r13 1 1 
+$r6 1 174 
+$r35 2 72 9 
+$r18 1 323 
+$r29 1 35 
+$r9 1 232 
+$r34 1 79 
+$r33 1 78 
+$r11 2 9 226 
+r16 1 294 
+$r31 1 53 
+$r19 1 318 
+$r32 1 56 
+r0 1 -1 
+$r3 1 9 
+r2 1 7 
+$r7 1 177 
+$r15 1 9 
+$r30 1 52 
+$r5 1 173 
+Fields: 18
+15 ArrayObject 39
+15 ArrayObject 78
+15 ArrayObject 232
+232 sourceFolder 233
+7 ArrayObject 173
+7 ArrayObject 52
+7 ArrayObject 35
+9 sourceLocations 15
+9 binaryLocations 294
+52 sourceFolder 53
+78 sourceFolder 79
+173 sourceFolder 174
+285 ArrayObject 318
+294 ArrayObject 323
+-1 nameEnvironment 1
+-1 lastState 9
+1 binaryLocations 285
+1 sourceLocations 7
+Accesses: 14
+0 1 -1 
+288 1 9 
+1 1 1 
+225 1 -1 
+71 1 -1 
+8 1 -1 
+232 1 232 
+9 1 9 
+173 1 173 
+78 1 78 
+52 1 52 
+278 1 -1 
+279 1 1 
+287 1 -1 
+Functions: 26
+385 19 -1 1 35 323 294 7 39 232 9 233 173 78 174 15 79 52 53 285 318 
+131 0 
+260 0 
+72 10 323 294 39 72 232 9 233 78 15 79 
+137 0 
+266 19 -1 1 35 323 294 7 39 232 9 233 173 78 174 15 79 52 53 285 318 
+205 0 
+143 19 -1 1 35 323 294 7 39 232 9 233 173 78 174 15 79 52 53 285 318 
+211 19 -1 1 35 323 294 7 39 232 9 233 173 78 174 15 79 52 53 285 318 
+342 0 
+349 0 
+226 10 226 323 294 39 232 9 233 78 15 79 
+35 2 35 39 
+357 0 
+104 0 
+363 0 
+174 1 174 
+111 0 
+434 0 
+371 0 
+53 1 53 
+118 0 
+377 0 
+442 19 -1 1 35 323 294 7 39 232 9 233 173 78 174 15 79 52 53 285 318 
+124 0 
+318 2 323 318 
+Constructors: 0
+
+Summary: 7
+371 131 134 177 -1 374 56 
+org/eclipse/jdt/internal/core/builder/JavaBuilder.isClasspathBroken([Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/core/resources/IProject;)Z
+PTG:
+Vars:
+5
+r0 1 -3 
+r4 1 -2 
+r3 1 -1 
+$r2 1 25 
+r1 1 11 
+Fields: 1
+11 ArrayObject 25
+Accesses: 0
+Functions: 2
+0 1 -3 
+25 1 25 
+Constructors: 0
+
+Summary: 6
+11 -3 -2 0 -1 1 

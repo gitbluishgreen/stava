@@ -1,0 +1,393 @@
+21
+java/util/concurrent/locks/ReentrantLock.<init>(Z)V
+PTG:
+Vars:
+4
+$r4 1 19 
+$r2 2 9 19 
+$r3 1 9 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+26 1 -1 
+Functions: 3
+1 1 -1 
+23 1 19 
+13 1 9 
+Constructors: 3
+1 -1
+23 19
+13 9
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.hasWaiters(Ljava/util/concurrent/locks/Condition;)Z
+PTG:
+Vars:
+4
+r0 1 -2 
+$r3 1 30 
+$r2 1 -2 
+r1 1 -1 
+Fields: 1
+-1 sync 30
+Accesses: 1
+29 1 -1 
+Functions: 3
+8 0 
+25 0 
+30 2 -2 30 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/locks/ReentrantLock.tryLock()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.toString()Ljava/lang/String;
+PTG:
+Vars:
+15
+$r13 2 26 55 
+$r10 1 52 
+$r11 1 58 
+r2 1 7 
+$r9 1 47 
+r0 1 -1 
+$r4 1 16 
+$r6 1 31 
+_ret 1 61 
+$r3 1 8 
+$r7 1 40 
+$r8 1 44 
+$r5 1 19 
+$r1 1 1 
+$r12 1 61 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 12
+1 1 1 
+35 1 31 
+19 3 19 55 26 
+52 1 52 
+8 2 16 8 
+40 2 40 44 
+58 1 58 
+43 1 7 
+12 1 8 
+15 2 -1 1 
+31 1 31 
+47 1 47 
+Constructors: 2
+35 31
+12 8
+
+Summary: 3
+16 44 7 
+java/util/concurrent/locks/ReentrantLock.unlock()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.isFair()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.<init>()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 2
+1 1 -1 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.isLocked()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.hasQueuedThreads()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.getQueueLength()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.getQueuedThreads()Ljava/util/Collection;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 4 
+$r1 1 1 
+$r2 1 4 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.getOwner()Ljava/lang/Thread;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 4 
+$r1 1 1 
+$r2 1 4 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.hasQueuedThread(Ljava/lang/Thread;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/locks/ReentrantLock.newCondition()Ljava/util/concurrent/locks/Condition;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+_ret 1 4 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.getWaitQueueLength(Ljava/util/concurrent/locks/Condition;)I
+PTG:
+Vars:
+4
+r1 1 -1 
+$r3 1 30 
+$r2 1 -2 
+r0 1 -2 
+Fields: 1
+-1 sync 30
+Accesses: 1
+29 1 -1 
+Functions: 3
+8 0 
+25 0 
+30 2 -2 30 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/locks/ReentrantLock.lock()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.getWaitingThreads(Ljava/util/concurrent/locks/Condition;)Ljava/util/Collection;
+PTG:
+Vars:
+6
+r0 1 -2 
+$r2 1 -2 
+_ret 1 37 
+$r4 1 37 
+$r3 1 30 
+r1 1 -1 
+Fields: 1
+-1 sync 30
+Accesses: 1
+29 1 -1 
+Functions: 3
+8 0 
+25 0 
+30 2 -2 30 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/locks/ReentrantLock.tryLock(JLjava/util/concurrent/TimeUnit;)Z
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -3 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+5 1 -3 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+java/util/concurrent/locks/ReentrantLock.getHoldCount()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.isHeldByCurrentThread()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantLock.lockInterruptibly()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sync 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 

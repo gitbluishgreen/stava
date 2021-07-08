@@ -1,0 +1,651 @@
+21
+java/sql/DriverManager.setLogWriter(Ljava/io/PrintWriter;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 9 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 0 
+12 2 3 9 
+Constructors: 0
+
+Summary: 1
+3 
+java/sql/DriverManager.setLogStream(Ljava/io/PrintStream;)V
+PTG:
+Vars:
+4
+$r3 1 9 
+r1 1 -2 
+r0 1 3 
+$r2 1 23 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+12 2 3 9 
+28 2 -2 23 
+Constructors: 1
+28 23
+
+Summary: 1
+3 
+java/sql/DriverManager.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/sql/DriverManager.getLoginTimeout()I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/sql/DriverManager.getDrivers()Ljava/util/Enumeration;
+PTG:
+Vars:
+16
+_ret 1 92 
+$r0 1 0 
+$r8 1 39 
+$r10 1 69 
+$r5 1 92 
+$r12 1 76 
+$r13 1 79 
+$r9 1 60 
+$r3 1 12 
+r4 1 18 
+$r6 1 29 
+$r15 1 39 
+r2 1 11 
+$r11 1 73 
+$r14 1 82 
+r7 1 29 
+Fields: 1
+29 driver 39
+Accesses: 2
+50 1 29 
+38 1 29 
+Functions: 15
+64 1 60 
+4 1 0 
+69 2 69 76 
+8 0 
+72 2 39 29 
+73 1 73 
+42 2 39 11 
+12 1 12 
+79 1 79 
+19 1 18 
+85 1 82 
+54 2 0 39 
+91 1 0 
+28 1 18 
+60 1 60 
+Constructors: 2
+64 60
+4 0
+
+Summary: 11
+11 73 60 0 69 39 82 79 29 76 18 
+java/sql/DriverManager.getDriver(Ljava/lang/String;)Ljava/sql/Driver;
+PTG:
+Vars:
+29
+$r15 1 58 
+$r17 1 144 
+r8 1 37 
+$r23 1 58 
+$r13 1 125 
+$r16 1 141 
+$r4 1 18 
+$r29 1 -1 
+$r19 1 150 
+$r7 1 31 
+$r12 1 58 
+$r1 1 9 
+$r25 1 100 
+$r22 1 90 
+$r0 1 0 
+$r20 1 58 
+r11 1 48 
+$r18 1 147 
+$r5 1 21 
+$r27 1 106 
+$r3 1 13 
+$r21 1 81 
+$r26 1 103 
+$r10 1 48 
+$r24 1 97 
+$r9 1 164 
+r6 1 30 
+r2 1 -2 
+$r14 1 134 
+Fields: 1
+48 driver 58
+Accesses: 5
+112 1 48 
+68 1 48 
+57 1 48 
+137 1 48 
+93 1 48 
+Functions: 28
+0 1 0 
+129 1 125 
+4 1 0 
+69 2 -2 58 
+134 2 144 134 
+9 2 -2 9 
+138 1 58 
+13 1 13 
+141 1 141 
+81 1 81 
+18 1 18 
+147 1 147 
+85 1 81 
+24 1 21 
+153 1 150 
+90 2 100 90 
+27 0 
+94 1 58 
+31 1 31 
+97 1 97 
+161 0 
+38 1 37 
+103 1 103 
+172 1 164 
+109 1 106 
+47 1 37 
+61 2 58 30 
+125 1 125 
+Constructors: 4
+129 125
+4 0
+85 81
+172 164
+
+Summary: 4
+97 -2 0 141 
+java/sql/DriverManager.deregisterDriver(Ljava/sql/Driver;)V
+PTG:
+Vars:
+17
+$r15 1 90 
+r0 1 -2 
+$r3 1 29 
+r1 1 8 
+$r6 1 42 
+$r16 1 105 
+$r9 1 63 
+$r12 1 72 
+$r5 1 36 
+$r17 1 97 
+$r13 1 82 
+$r8 1 52 
+$r18 1 14 
+r14 1 82 
+$r2 1 20 
+$r4 1 33 
+$r11 1 75 
+Fields: 0
+Accesses: 0
+Functions: 19
+-1 0 
+96 1 82 
+33 1 33 
+100 1 97 
+5 0 
+39 1 36 
+72 1 72 
+75 2 42 75 
+109 2 105 42 
+48 2 -2 42 
+17 2 8 14 
+20 1 20 
+52 2 52 42 
+24 1 20 
+120 0 
+89 1 82 
+29 2 -2 29 
+126 0 
+63 2 -2 63 
+Constructors: 2
+48 42
+24 20
+
+Summary: 11
+97 90 -2 8 42 36 82 33 20 63 29 
+java/sql/DriverManager.registerDriver(Ljava/sql/Driver;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+java/sql/DriverManager.loadInitialDrivers()V
+PTG:
+Vars:
+25
+$r1 1 7 
+$r22 1 155 
+$r25 1 172 
+$r11 1 91 
+$r4 1 31 
+$r0 1 0 
+$r24 1 169 
+$r20 1 -1 
+$r17 1 134 
+$r7 1 47 
+r13 1 115 
+$r15 1 126 
+$r26 1 -1 
+$r5 1 40 
+$r9 1 83 
+$r18 1 143 
+$r14 1 117 
+r29 1 73 
+$r8 1 74 
+$r23 1 164 
+$r16 1 131 
+r27 1 7 
+$r6 1 44 
+$r2 1 20 
+$r10 1 88 
+Fields: 1
+73 ArrayObject 115
+Accesses: 0
+Functions: 28
+0 1 0 
+-1 0 
+67 1 7 
+131 1 131 
+4 1 0 
+137 1 134 
+74 1 74 
+78 1 74 
+146 2 115 143 
+83 1 83 
+24 1 20 
+88 1 88 
+27 1 20 
+155 1 155 
+94 1 91 
+31 1 31 
+159 1 155 
+35 1 31 
+164 2 -1 164 
+40 2 7 40 
+169 1 169 
+44 1 44 
+175 1 172 
+50 1 47 
+117 1 117 
+57 1 7 
+121 1 117 
+126 2 115 126 
+Constructors: 6
+35 31
+4 0
+24 20
+121 117
+78 74
+159 155
+
+Summary: 0
+
+java/sql/DriverManager.isDriverAllowed(Ljava/sql/Driver;Ljava/lang/ClassLoader;)Z
+PTG:
+Vars:
+7
+r3 1 -3 
+r7 1 20 
+$r2 1 12 
+$r5 1 -1 
+r0 1 -2 
+$r1 1 9 
+$r4 1 30 
+Fields: 0
+Accesses: 0
+Functions: 4
+16 2 -3 12 
+8 1 -2 
+9 1 9 
+29 1 -2 
+Constructors: 0
+
+Summary: 6
+-3 0 30 -2 9 1 
+java/sql/DriverManager.println(Ljava/lang/String;)V
+PTG:
+Vars:
+5
+$r5 1 19 
+$r2 1 6 
+r3 1 -2 
+$r4 1 12 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 2 -2 12 
+22 1 19 
+Constructors: 0
+
+Summary: 2
+0 -2 
+java/sql/DriverManager.getConnection(Ljava/lang/String;Ljava/util/Properties;Ljava/lang/Class;)Ljava/sql/Connection;
+PTG:
+Vars:
+49
+r22 1 110 
+$r9 1 307 
+r1 1 -2 
+$r16 1 340 
+$r6 1 81 
+$r31 1 141 
+$r41 1 122 
+$r11 1 314 
+$r23 1 122 
+r55 1 -1 
+$r27 1 252 
+$r12 1 320 
+$r2 1 60 
+$r28 1 255 
+$r7 1 90 
+$r51 1 5 
+$r4 1 73 
+$r36 1 158 
+$r25 1 244 
+$r32 1 122 
+$r24 1 235 
+$r38 1 122 
+$r8 1 298 
+$r13 1 324 
+r37 1 -3 
+r52 2 5 29 
+$r5 1 78 
+$r30 1 132 
+$r26 1 249 
+$r3 1 69 
+r0 1 -4 
+$r21 1 110 
+$r14 1 333 
+$r33 1 149 
+r56 1 96 
+$r44 1 206 
+$r47 1 23 
+$r10 1 311 
+$r43 1 203 
+$r35 1 155 
+$r39 1 183 
+$r49 1 -1 
+$r15 1 337 
+$r40 1 192 
+r57 1 176 
+$r45 1 209 
+$r42 1 200 
+$r29 1 258 
+$r34 1 152 
+Fields: 1
+110 driver 122
+Accesses: 4
+144 1 110 
+195 1 110 
+164 1 110 
+120 1 110 
+Functions: 51
+-1 0 
+4 1 -4 
+132 1 132 
+261 1 258 
+136 1 132 
+141 2 152 141 
+272 0 
+146 1 122 
+276 0 
+149 1 149 
+23 1 23 
+281 1 -1 
+155 1 155 
+286 0 
+161 1 158 
+292 0 
+166 3 -2 -3 122 
+298 1 298 
+302 1 298 
+307 2 -2 307 
+183 1 183 
+311 1 311 
+56 0 
+187 1 183 
+60 1 60 
+317 1 314 
+64 1 60 
+192 2 192 203 
+324 1 324 
+69 2 -2 69 
+197 1 122 
+200 1 200 
+328 1 324 
+73 1 73 
+333 2 -2 333 
+78 1 78 
+206 1 206 
+337 1 337 
+84 1 81 
+212 1 209 
+345 2 320 340 
+90 1 90 
+98 1 96 
+235 1 235 
+108 1 96 
+239 1 235 
+244 2 244 252 
+247 2 122 110 
+249 1 249 
+125 3 5 122 29 
+255 1 255 
+Constructors: 7
+64 60
+136 132
+328 324
+345 320
+187 183
+302 298
+239 235
+
+Summary: 44
+110 5 203 149 281 -2 122 69 333 -3 337 307 192 311 272 132 29 152 206 -4 60 96 249 289 314 324 209 235 155 286 141 340 183 81 252 298 73 258 200 244 158 23 78 255 
+java/sql/DriverManager.getLogWriter()Ljava/io/PrintWriter;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/sql/DriverManager.getConnection(Ljava/lang/String;)Ljava/sql/Connection;
+PTG:
+Vars:
+5
+$r3 1 10 
+_ret 1 13 
+r2 1 -2 
+$r0 1 0 
+$r4 1 13 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+4 1 0 
+10 3 0 -2 10 
+Constructors: 1
+4 0
+
+Summary: 3
+-2 0 10 
+java/sql/DriverManager.getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+PTG:
+Vars:
+7
+$r0 1 0 
+r2 1 -3 
+r4 1 -2 
+_ret 1 37 
+$r5 1 34 
+$r6 1 37 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 5
+16 2 0 -3 
+-1 0 
+34 3 0 -2 34 
+4 1 0 
+28 2 0 -4 
+Constructors: 1
+4 0
+
+Summary: 5
+34 -4 -3 -2 0 
+java/sql/DriverManager.setLoginTimeout(I)V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/sql/DriverManager.getConnection(Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;
+PTG:
+Vars:
+5
+r0 1 -2 
+_ret 1 5 
+$r3 1 5 
+$r2 1 2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+2 3 -2 -3 2 
+Constructors: 0
+
+Summary: 3
+-3 2 -2 
+java/sql/DriverManager.getLogStream()Ljava/io/PrintStream;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/sql/DriverManager.isDriverAllowed(Ljava/sql/Driver;Ljava/lang/Class;)Z
+PTG:
+Vars:
+3
+r2 1 -2 
+$r3 1 5 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 1 -3 
+14 2 -2 5 
+Constructors: 0
+
+Summary: 5
+-3 5 0 -2 1 
+java/sql/DriverManager.<clinit>()V
+PTG:
+Vars:
+4
+$r1 1 22 
+$r0 1 0 
+$r2 1 40 
+$r3 1 52 
+Fields: 0
+Accesses: 0
+Functions: 6
+32 0 
+4 1 0 
+37 0 
+26 1 22 
+58 1 52 
+46 1 40 
+Constructors: 4
+4 0
+26 22
+58 52
+46 40
+
+Summary: 0
+
+java/sql/DriverManager.registerDriver(Ljava/sql/Driver;Ljava/sql/DriverAction;)V
+PTG:
+Vars:
+8
+$r7 1 44 
+$r2 1 7 
+r3 1 -3 
+$r4 1 4 
+$r5 1 31 
+$r6 1 40 
+r0 1 -2 
+$r8 1 47 
+Fields: 0
+Accesses: 0
+Functions: 8
+16 2 4 7 
+50 1 47 
+35 1 31 
+40 2 -2 40 
+27 0 
+44 1 44 
+13 3 -2 -3 7 
+31 1 31 
+Constructors: 2
+35 31
+13 7
+
+Summary: 4
+7 -3 0 -2 

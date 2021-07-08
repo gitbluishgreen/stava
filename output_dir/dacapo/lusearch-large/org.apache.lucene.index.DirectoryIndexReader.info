@@ -1,0 +1,536 @@
+23
+org/apache/lucene/index/DirectoryIndexReader.doCommit()V
+PTG:
+Vars:
+22
+$r25 1 -2 
+r13 1 -2 
+$r27 1 -2 
+$r20 1 -2 
+$r15 1 -2 
+$r24 2 -2 -2 
+$r4 1 -2 
+$r12 1 -2 
+$r5 1 -2 
+$r7 1 -2 
+$r22 1 -1 
+$r26 1 -2 
+r14 1 -2 
+$r8 1 -2 
+$r1 1 -2 
+$r3 1 -2 
+$r18 1 -2 
+$r28 1 -2 
+r0 1 -1 
+$r17 1 -2 
+r16 1 -2 
+$r19 1 -2 
+Fields: 4
+-1 directory -2
+-1 deletionPolicy -2
+-1 segmentInfos -2
+-1 synced -2
+Accesses: 2
+-1 1 -1 
+2000000000 1 -1 
+Functions: 1
+-1 1 -2 
+Constructors: 1
+-1 -2
+
+Summary: 1
+-1 
+org/apache/lucene/index/DirectoryIndexReader.acquireWriteLock()V
+PTG:
+Vars:
+7
+$r2 1 29 
+r0 1 -1 
+r4 1 44 
+$r3 1 36 
+$r1 1 1 
+$r5 1 36 
+$r6 1 1 
+Fields: 3
+-1 directory 36
+-1 segmentInfos 1
+-1 writeLock 29
+Accesses: 10
+0 1 -1 
+35 1 -1 
+84 1 -1 
+87 1 -1 
+119 1 -1 
+11 1 -1 
+107 1 -1 
+28 1 -1 
+94 1 -1 
+110 1 -1 
+Functions: 13
+128 0 
+36 1 36 
+68 1 44 
+8 4 -1 1 36 29 
+72 0 
+45 1 44 
+78 0 
+114 0 
+24 0 
+88 1 36 
+59 0 
+63 0 
+95 1 1 
+Constructors: 0
+
+Summary: 5
+-1 59 75 72 68 
+org/apache/lucene/index/DirectoryIndexReader.<init>(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/index/SegmentInfos;ZZ)V
+PTG:
+Vars:
+4
+$r1 1 5 
+r0 1 -1 
+r3 1 -3 
+r2 1 -2 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 3
+1 1 -1 
+21 3 -1 -2 -3 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 5
+-1 -2 -3 0 1 
+org/apache/lucene/index/DirectoryIndexReader.access$002(Lorg/apache/lucene/index/DirectoryIndexReader;Lorg/apache/lucene/index/IndexDeletionPolicy;)Lorg/apache/lucene/index/IndexDeletionPolicy;
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -3 
+_ret 1 -3 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 1 
+org/apache/lucene/index/DirectoryIndexReader.<init>()V
+PTG:
+Vars:
+2
+$r1 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 2
+1 1 -1 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 1
+-1 
+org/apache/lucene/index/DirectoryIndexReader.listCommits(Lorg/apache/lucene/store/Directory;)Ljava/util/Collection;
+PTG:
+Vars:
+11
+$r6 1 69 
+$r8 1 131 
+$r9 1 162 
+$r4 1 49 
+r18 1 131 
+r7 1 98 
+r0 1 -2 
+r1 1 4 
+$r16 1 -1 
+$r2 1 41 
+_ret 1 41 
+Fields: 1
+4 ArrayObject 98
+Accesses: 0
+Functions: 20
+0 1 -2 
+100 1 98 
+37 0 
+135 1 131 
+169 3 -2 162 131 
+75 3 49 -2 69 
+172 2 162 41 
+13 0 
+45 1 41 
+78 2 69 41 
+110 1 98 
+17 0 
+145 3 -2 98 131 
+53 1 49 
+22 1 -2 
+120 1 98 
+26 0 
+59 2 49 -2 
+62 1 49 
+31 0 
+Constructors: 5
+53 49
+135 131
+169 162
+75 69
+45 41
+
+Summary: 12
+4 13 -2 131 22 49 98 69 162 34 26 31 
+org/apache/lucene/index/DirectoryIndexReader.reopen()Lorg/apache/lucene/index/IndexReader;
+PTG:
+Vars:
+11
+r0 1 -1 
+$r16 1 -2 
+r19 1 -2 
+$r15 1 -2 
+$r1 1 -2 
+$r17 1 -2 
+$r14 1 -2 
+$r13 1 -2 
+$r2 1 -2 
+$r11 1 -1 
+$r4 1 -2 
+Fields: 1
+-1 directory -2
+Accesses: 2
+-1 2 -1 -2 
+2000000000 1 -1 
+Functions: 1
+-1 1 -2 
+Constructors: 1
+-1 -2
+
+Summary: 0
+
+org/apache/lucene/index/DirectoryIndexReader.init(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/index/SegmentInfos;ZZ)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r1 1 -2 
+$r5 1 73 
+r4 1 55 
+$r6 1 80 
+r2 1 -3 
+r3 1 48 
+Fields: 1
+-1 synced 73
+Accesses: 5
+2 1 -1 
+18 1 -1 
+7 1 -1 
+72 1 -1 
+12 1 -1 
+Functions: 6
+50 1 48 
+35 1 -3 
+85 2 80 73 
+42 1 -3 
+76 1 55 
+62 1 55 
+Constructors: 0
+
+Summary: 3
+-1 0 1 
+org/apache/lucene/index/DirectoryIndexReader.open(Lorg/apache/lucene/store/Directory;ZLorg/apache/lucene/index/IndexDeletionPolicy;Lorg/apache/lucene/index/IndexCommit;Z)Lorg/apache/lucene/index/DirectoryIndexReader;
+PTG:
+Vars:
+12
+r4 1 -5 
+$r7 1 -2 
+$r13 1 -1 
+$r9 1 -2 
+r1 1 -2 
+$r5 1 -2 
+$r8 1 -2 
+$r6 1 -2 
+r14 1 -2 
+$r10 1 -1 
+$r0 1 -2 
+r2 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 1 -2 
+Constructors: 1
+-1 -2
+
+Summary: 6
+-2 -4 -5 2 3 0 
+org/apache/lucene/index/DirectoryIndexReader.getVersion()J
+PTG:
+Vars:
+2
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 segmentInfos 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DirectoryIndexReader.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r4 1 6 
+$r5 1 14 
+r0 1 -2 
+$r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/lucene/index/DirectoryIndexReader.isOptimized()Z
+PTG:
+Vars:
+2
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 segmentInfos 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+1 2 -1 5 
+5 1 5 
+15 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DirectoryIndexReader.getIndexCommit()Lorg/apache/lucene/index/IndexCommit;
+PTG:
+Vars:
+5
+$r0 1 0 
+r1 1 -1 
+$r2 1 9 
+$r3 1 5 
+_ret 1 0 
+Fields: 2
+-1 directory 9
+-1 segmentInfos 5
+Accesses: 2
+4 1 -1 
+8 1 -1 
+Functions: 1
+12 3 0 5 9 
+Constructors: 1
+12 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DirectoryIndexReader.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 2 18 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/DirectoryIndexReader.open(Lorg/apache/lucene/store/Directory;ZLorg/apache/lucene/index/IndexDeletionPolicy;)Lorg/apache/lucene/index/DirectoryIndexReader;
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -4 
+$r2 1 5 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -2 -4 
+Constructors: 0
+
+Summary: 2
+-2 -4 
+org/apache/lucene/index/DirectoryIndexReader.access$000(Lorg/apache/lucene/index/DirectoryIndexReader;)Lorg/apache/lucene/index/IndexDeletionPolicy;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-2 deletionPolicy 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/lucene/index/DirectoryIndexReader.finalize()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 -2 
+$r2 1 -2 
+$r3 1 -1 
+Fields: 1
+-1 writeLock -2
+Accesses: 2
+-1 1 -1 
+2000000000 1 -1 
+Functions: 1
+-1 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DirectoryIndexReader.setDeletionPolicy(Lorg/apache/lucene/index/IndexDeletionPolicy;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/lucene/index/DirectoryIndexReader.directory()Lorg/apache/lucene/store/Directory;
+PTG:
+Vars:
+3
+$r1 1 5 
+r0 1 -1 
+_ret 1 5 
+Fields: 1
+-1 directory 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DirectoryIndexReader.startCommit()V
+PTG:
+Vars:
+5
+$r1 1 1 
+$r3 1 12 
+$r4 1 12 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 segmentInfos 1
+Accesses: 5
+0 1 -1 
+18 1 -1 
+22 1 -1 
+8 1 -1 
+26 1 -1 
+Functions: 1
+9 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DirectoryIndexReader.doClose()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 8 
+Fields: 1
+-1 directory 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+11 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DirectoryIndexReader.isCurrent()Z
+PTG:
+Vars:
+3
+$r2 1 12 
+r0 1 -1 
+$r1 1 5 
+Fields: 2
+-1 directory 5
+-1 segmentInfos 12
+Accesses: 2
+4 1 -1 
+11 1 -1 
+Functions: 3
+1 3 -1 5 12 
+5 1 5 
+12 1 12 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DirectoryIndexReader.rollbackCommit()V
+PTG:
+Vars:
+7
+$r4 1 25 
+$r2 1 1 
+$r1 1 1 
+$r6 1 33 
+r0 1 -1 
+$r3 1 1 
+$r5 1 29 
+Fields: 2
+-1 segmentInfos 1
+-1 rollbackSegmentInfos 29
+Accesses: 7
+0 1 -1 
+51 1 -1 
+20 1 -1 
+55 1 -1 
+10 1 -1 
+28 1 -1 
+47 1 -1 
+Functions: 4
+36 2 33 25 
+21 1 1 
+11 1 1 
+29 1 29 
+Constructors: 0
+
+Summary: 1
+-1 

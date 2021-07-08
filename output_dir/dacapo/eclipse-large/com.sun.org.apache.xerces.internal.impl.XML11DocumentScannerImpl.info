@@ -1,0 +1,503 @@
+15
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.isValidNameChar(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.isValidNCName(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.normalizeWhitespace(Lcom/sun/org/apache/xerces/internal/xni/XMLString;)V
+PTG:
+Vars:
+4
+$r2 1 21 
+r3 1 -1 
+r0 1 -2 
+$r1 1 21 
+Fields: 1
+-2 ch 21
+Accesses: 5
+0 1 -2 
+4 1 -2 
+20 1 -2 
+36 1 -2 
+10 1 -2 
+Functions: 1
+28 0 
+Constructors: 0
+
+Summary: 4
+-2 0 21 -1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.versionSupported(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+9 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.scanAttributeValue(Lcom/sun/org/apache/xerces/internal/xni/XMLString;Lcom/sun/org/apache/xerces/internal/xni/XMLString;Ljava/lang/String;ZLjava/lang/String;Z)Z
+PTG:
+Vars:
+68
+$r14 1 175 
+$r25 1 715 
+$r66 1 334 
+$r47 1 398 
+r2 1 -2 
+$r46 1 1 
+$r42 1 474 
+$r22 1 1 
+$r18 1 141 
+$r33 1 202 
+$r50 1 347 
+$r27 1 175 
+$r63 1 175 
+$r4 1 141 
+$r38 1 1 
+$r36 1 1 
+$r71 1 1 
+$r34 1 1 
+$r49 1 141 
+$r13 1 1 
+$r70 1 175 
+$r61 1 46 
+$r12 1 175 
+$r6 1 141 
+$r8 1 957 
+r0 1 -1 
+$r23 1 141 
+$r7 1 1 
+r10 1 -6 
+$r16 1 175 
+$r35 1 233 
+r64 1 293 
+$r9 1 940 
+$r68 1 412 
+$r59 1 27 
+$r60 1 1 
+r5 1 -3 
+$r3 1 141 
+$r17 1 141 
+$r28 1 715 
+$r41 1 494 
+$r55 1 141 
+$r51 1 141 
+$r15 1 175 
+$r24 1 715 
+$r65 1 1 
+$r69 1 1 
+$r52 1 141 
+$r40 1 412 
+$r37 1 287 
+$r45 1 427 
+$r31 1 1 
+$r39 1 412 
+$r20 1 785 
+$r62 1 1 
+$r26 1 715 
+$r67 1 175 
+$r53 1 175 
+$r21 1 803 
+$r32 1 141 
+$r19 1 141 
+$r54 1 141 
+$r48 1 401 
+$r43 1 466 
+$r1 1 1 
+$r29 1 141 
+r11 1 -4 
+$r30 1 530 
+Fields: 9
+-2 ch 957
+398 name 401
+-1 fStringBuffer3 715
+-1 fErrorReporter 466
+-1 fEntityScanner 1
+-1 fStringBuffer2 141
+-1 fStringBuffer 175
+-1 fEntityManager 412
+1 fCurrentEntity 398
+Accesses: 66
+0 1 -1 
+899 1 -1 
+261 1 -1 
+265 1 -1 
+394 1 -1 
+395 1 1 
+140 1 -1 
+908 1 -1 
+398 1 398 
+912 1 -1 
+147 1 -1 
+661 1 -1 
+919 1 -1 
+283 1 -1 
+411 1 -1 
+670 1 -1 
+545 1 -1 
+681 1 -1 
+42 1 -1 
+810 1 -1 
+171 1 -1 
+556 1 -1 
+174 1 -1 
+688 1 -1 
+563 1 -1 
+53 1 -1 
+181 1 -1 
+821 1 -1 
+312 1 -1 
+441 1 -1 
+59 1 -1 
+828 1 -1 
+956 1 -2 
+319 1 -1 
+960 1 -2 
+196 1 -1 
+964 1 -2 
+838 1 -1 
+328 1 -1 
+458 1 -1 
+714 1 -1 
+590 1 -1 
+465 1 -1 
+722 1 -1 
+211 1 -1 
+854 1 -1 
+599 1 -1 
+218 1 -1 
+732 1 -1 
+861 1 -1 
+736 1 -1 
+227 1 -1 
+611 1 -1 
+100 1 -1 
+745 1 -1 
+618 1 -1 
+363 1 -1 
+752 1 -1 
+370 1 -1 
+883 1 -1 
+244 1 -1 
+756 1 -1 
+505 1 -1 
+890 1 -1 
+251 1 -1 
+382 1 -1 
+Functions: 60
+1 3 1 401 398 
+257 1 141 
+513 2 293 412 
+260 9 -1 1 401 466 715 412 141 398 175 
+772 9 -1 1 401 466 715 412 141 398 175 
+135 9 -1 1 401 466 715 412 141 398 175 
+903 3 -2 957 175 
+144 1 141 
+916 2 -3 141 
+405 9 -1 1 401 466 715 412 141 398 175 
+152 3 -2 141 957 
+920 3 1 401 398 
+666 3 1 401 398 
+284 4 1 401 398 287 
+412 2 293 412 
+542 10 -1 1 401 466 530 715 412 141 398 175 
+159 11 -1 1 401 -2 466 715 412 141 957 398 175 
+801 0 
+676 1 175 
+550 3 1 401 398 
+39 10 -1 1 401 466 715 27 412 141 398 175 
+807 10 -1 1 401 785 466 715 412 141 398 175 
+815 3 1 401 398 
+304 9 -1 1 401 466 715 412 141 398 175 
+49 4 1 401 398 46 
+178 1 175 
+435 10 -1 1 401 466 715 427 412 141 398 175 
+694 1 141 
+952 10 -1 1 401 466 715 412 940 141 398 175 
+186 3 -2 957 175 
+442 2 293 412 
+570 1 141 
+955 2 -3 957 
+60 5 1 401 -2 957 398 
+706 0 
+835 1 141 
+325 2 293 141 
+839 5 1 401 -2 957 398 
+329 4 1 401 398 334 
+205 4 1 401 202 398 
+718 1 715 
+721 9 -1 1 401 466 715 412 141 398 175 
+83 11 -1 1 401 -2 466 715 412 141 957 398 175 
+595 3 1 401 398 
+606 1 175 
+224 1 141 
+97 3 -2 -3 957 
+866 3 -2 141 957 
+355 10 -1 1 401 466 715 347 412 141 398 175 
+483 2 466 474 
+228 4 1 401 233 398 
+740 2 715 175 
+101 0 
+871 11 -1 1 401 -2 466 715 412 141 957 398 175 
+625 1 141 
+502 10 -1 1 401 466 715 412 141 398 494 175 
+376 1 141 
+760 2 715 141 
+379 10 -1 1 401 466 293 715 412 141 398 175 
+895 3 -2 957 175 
+Constructors: 0
+
+Summary: 15
+-3 940 1 427 494 -2 347 27 0 785 530 957 474 -1 123 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.isInvalidLiteral(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.scanContent(Lcom/sun/org/apache/xerces/internal/util/XMLStringBuffer;)I
+PTG:
+Vars:
+11
+$r2 1 1 
+$r5 1 1 
+$r1 1 1 
+$r8 1 9 
+$r10 1 9 
+$r3 1 9 
+r0 1 -1 
+r4 1 -2 
+$r7 1 9 
+$r9 1 9 
+$r6 1 9 
+Fields: 2
+-1 fTempString 1
+-1 fEntityScanner 9
+Accesses: 12
+0 1 -1 
+48 1 -1 
+130 1 -1 
+5 1 1 
+21 1 -1 
+86 1 -1 
+8 1 -1 
+72 1 -1 
+152 1 -1 
+89 1 -1 
+12 1 -1 
+108 1 -1 
+Functions: 12
+81 1 -2 
+131 1 9 
+147 3 -1 1 9 
+53 1 9 
+9 2 1 9 
+25 2 -2 1 
+73 1 9 
+105 1 -2 
+90 1 9 
+60 1 -2 
+124 1 -2 
+109 1 9 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.scanPubidLiteral(Lcom/sun/org/apache/xerces/internal/xni/XMLString;)Z
+PTG:
+Vars:
+11
+r0 1 -1 
+$r3 1 31 
+$r5 1 193 
+$r1 1 1 
+$r8 1 31 
+r7 1 -2 
+$r2 1 31 
+$r10 1 1 
+$r4 1 186 
+$r6 1 31 
+$r9 1 31 
+Fields: 2
+-1 fEntityScanner 1
+-1 fStringBuffer 31
+Accesses: 9
+0 1 -1 
+131 1 -1 
+117 1 -1 
+149 1 -1 
+118 1 31 
+42 1 -1 
+93 1 -1 
+30 1 -1 
+127 1 31 
+Functions: 11
+1 1 1 
+34 1 31 
+99 1 31 
+197 4 -1 1 186 31 
+135 2 -2 31 
+25 3 -1 1 31 
+43 1 1 
+156 1 31 
+141 0 
+174 3 -1 1 31 
+191 0 
+Constructors: 0
+
+Summary: 4
+-2 186 0 -1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.getVersionNotSupportedKey()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.isValidNameStartChar(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.isInvalid(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.normalizeWhitespace(Lcom/sun/org/apache/xerces/internal/xni/XMLString;I)V
+PTG:
+Vars:
+4
+r0 1 -2 
+$r1 1 25 
+r3 1 -1 
+$r2 1 25 
+Fields: 1
+-2 ch 25
+Accesses: 5
+0 1 -2 
+4 1 -2 
+24 1 -2 
+41 1 -2 
+10 1 -2 
+Functions: 1
+33 0 
+Constructors: 0
+
+Summary: 4
+-2 25 0 -1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.isValidNameStartHighSurrogate(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.isUnchangedByNormalization(Lcom/sun/org/apache/xerces/internal/xni/XMLString;)I
+PTG:
+Vars:
+3
+r2 1 -1 
+r0 1 -2 
+$r1 1 21 
+Fields: 1
+-2 ch 21
+Accesses: 5
+0 1 -2 
+4 1 -2 
+20 1 -2 
+37 1 -2 
+10 1 -2 
+Functions: 1
+28 0 
+Constructors: 0
+
+Summary: 4
+-2 0 21 -1 
+com/sun/org/apache/xerces/internal/impl/XML11DocumentScannerImpl.<init>()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 5 
+$r2 1 16 
+$r3 1 27 
+Fields: 0
+Accesses: 3
+34 1 -1 
+23 1 -1 
+12 1 -1 
+Functions: 4
+1 1 -1 
+20 1 16 
+9 1 5 
+31 1 27 
+Constructors: 4
+1 -1
+20 16
+9 5
+31 27
+
+Summary: 1
+-1 

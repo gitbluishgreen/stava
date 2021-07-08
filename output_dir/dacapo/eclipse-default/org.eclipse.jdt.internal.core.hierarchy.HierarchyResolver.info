@@ -1,0 +1,1198 @@
+22
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.rememberAllTypes(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;Lorg/eclipse/jdt/core/ICompilationUnit;Z)V
+PTG:
+Vars:
+18
+r13 1 -1 
+$r14 1 33 
+r12 1 147 
+$r11 1 147 
+r9 1 136 
+$r15 1 39 
+r7 1 122 
+$r3 1 74 
+$r4 1 83 
+$r2 1 68 
+r0 1 -2 
+$r16 1 45 
+$r5 1 96 
+r10 1 -3 
+$r6 2 68 116 
+r1 1 4 
+r8 1 129 
+r17 1 27 
+Fields: 7
+27 name 39
+4 ArrayObject 27
+-2 types 4
+-2 localTypes 68
+68 ArrayObject 122
+116 ArrayObject 122
+122 scope 129
+Accesses: 8
+0 1 -2 
+67 1 -2 
+115 1 -2 
+100 1 -2 
+37 1 27 
+87 1 -2 
+168 1 -2 
+124 1 122 
+Functions: 9
+32 2 33 -3 
+160 3 -1 147 136 
+50 4 -1 39 27 45 
+131 1 129 
+104 1 96 
+42 2 33 39 
+138 5 96 129 -3 83 74 
+91 1 83 
+78 1 74 
+Constructors: 4
+104 96
+42 33
+91 83
+78 74
+
+Summary: 14
+96 147 1 -3 -1 33 45 83 4 0 -2 68 136 74 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.<clinit>()V
+PTG:
+Vars:
+7
+$r5 1 27 
+$r1 1 4 
+$r8 1 41 
+$r3 1 16 
+$r2 1 9 
+$r6 1 31 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 0 
+48 3 4 41 27 
+20 1 16 
+37 2 27 31 
+23 4 16 3 4 9 
+13 1 9 
+Constructors: 5
+48 41
+20 16
+37 27
+23 4
+13 9
+
+Summary: 5
+3 9 4 16 27 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.subOrSuperOfFocus(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)Z
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 1 
+$r4 1 1 
+r2 1 -2 
+$r5 1 -1 
+$r1 1 1 
+Fields: 1
+-1 focusType 1
+Accesses: 4
+0 1 -1 
+32 1 -1 
+23 1 -1 
+10 1 -1 
+Functions: 2
+9 3 -1 1 -2 
+30 3 -1 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.setFocusType([[C)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+20
+$r7 1 38 
+r9 1 59 
+$r12 1 92 
+r14 1 117 
+$r10 1 82 
+$r5 1 26 
+$r15 1 134 
+$r4 1 19 
+$r3 1 5 
+_ret 1 26 
+$r2 1 5 
+$r17 1 135 
+$r8 1 26 
+$r6 1 5 
+r0 1 -2 
+$r13 1 26 
+r1 1 -1 
+$r11 1 5 
+$r16 2 127 26 
+$r18 1 26 
+Fields: 4
+-1 focusType 26
+-1 lookupEnvironment 5
+117 ArrayObject 134
+-2 ArrayObject 59
+Accesses: 13
+33 1 -1 
+98 1 -1 
+4 1 -1 
+41 1 -1 
+138 1 -1 
+44 1 -1 
+14 1 -1 
+22 1 -1 
+87 1 -1 
+152 1 -1 
+25 1 -1 
+126 1 -1 
+95 1 -1 
+Functions: 7
+80 1 59 
+113 1 59 
+34 3 -2 5 59 
+88 3 -2 5 59 
+62 1 59 
+15 3 -2 5 59 
+127 3 134 26 127 
+Constructors: 0
+
+Summary: 5
+59 -1 117 0 -2 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.reportHierarchy(Lorg/eclipse/jdt/core/IType;Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V
+PTG:
+Vars:
+25
+$r9 1 164 
+$r8 1 151 
+$r7 2 157 151 
+r25 1 209 
+$r13 2 212 151 
+$r11 2 224 71 
+$r20 1 47 
+$r16 1 196 
+$r2 1 71 
+r5 1 102 
+$r15 1 230 
+r3 1 77 
+r17 1 -4 
+r6 1 148 
+r24 1 138 
+r1 1 -1 
+r0 1 -2 
+$r19 1 32 
+r18 1 -3 
+$r22 1 22 
+$r14 2 212 151 
+$r10 2 203 96 
+r23 1 40 
+$r4 1 96 
+$r12 1 229 
+Fields: 14
+-1 focusType 196
+-1 typeModels 96
+-1 typeModels 203
+-1 builder 151
+-1 builder 212
+-1 typeBindings 71
+-1 typeBindings 224
+224 ArrayObject 229
+71 ArrayObject 77
+71 ArrayObject 229
+-3 binding 22
+203 ArrayObject 209
+96 ArrayObject 102
+96 ArrayObject 209
+Accesses: 15
+195 1 -1 
+70 1 -1 
+10 1 -1 
+202 1 -1 
+79 1 77 
+211 1 -1 
+21 1 -3 
+150 1 -1 
+25 1 -1 
+217 1 -1 
+156 1 -1 
+188 1 -1 
+61 1 -1 
+95 1 -1 
+223 1 -1 
+Functions: 13
+32 1 32 
+130 12 -1 96 224 209 196 212 229 102 151 71 203 77 
+104 12 -1 96 224 209 196 212 229 102 151 71 203 77 
+171 5 164 148 102 151 138 
+235 4 209 212 230 151 
+140 12 -1 96 224 209 196 212 229 102 151 71 203 77 
+45 1 40 
+50 13 -1 96 224 196 229 102 71 203 77 47 209 212 151 
+116 1 77 
+55 12 -1 96 224 209 196 212 229 102 151 71 203 77 
+218 4 209 212 229 151 
+157 4 102 151 157 77 
+31 1 -2 
+Constructors: 0
+
+Summary: 12
+148 164 -3 138 -1 0 47 1 2 230 40 32 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.rememberWithMemberTypes(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/core/IType;)V
+PTG:
+Vars:
+9
+$r3 1 3 
+$r8 1 50 
+r1 1 -3 
+r5 1 32 
+$r6 1 38 
+r4 1 13 
+r0 1 -1 
+r2 1 -2 
+$r7 1 44 
+Fields: 4
+13 ArrayObject 32
+32 name 44
+-2 memberTypes 13
+-2 binding 3
+Accesses: 3
+2 1 -2 
+9 1 -2 
+42 1 32 
+Functions: 4
+37 2 -3 38 
+6 3 -1 -3 3 
+55 4 -1 32 50 44 
+47 2 38 44 
+Constructors: 1
+47 38
+
+Summary: 8
+-1 3 13 1 50 0 38 -2 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.subTypeOfType(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)Z
+PTG:
+Vars:
+9
+r0 1 -3 
+$r5 1 72 
+r6 1 72 
+r2 1 -1 
+$r4 1 71 
+r8 2 21 27 
+r3 1 49 
+r1 1 -2 
+$r7 1 27 
+Fields: 1
+49 ArrayObject 71
+Accesses: 0
+Functions: 6
+80 3 -1 -3 72 
+17 1 -2 
+34 4 -1 -3 21 27 
+71 1 71 
+26 2 21 27 
+45 1 -2 
+Constructors: 0
+
+Summary: 8
+-1 49 27 1 -3 0 -2 72 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.accept(Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)V
+PTG:
+Vars:
+10
+r0 1 -1 
+r5 1 -2 
+$r1 1 1 
+$r4 1 4 
+$r6 1 18 
+$r7 1 23 
+$r3 1 11 
+$r2 1 7 
+r9 1 -3 
+$r8 1 26 
+Fields: 2
+-1 lookupEnvironment 1
+1 problemReporter 4
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 5
+17 1 -2 
+7 2 18 7 
+23 1 23 
+29 2 4 26 
+14 2 7 11 
+Constructors: 1
+14 7
+
+Summary: 7
+-1 23 1 -3 18 26 0 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.setEnvironment(Lorg/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;Lorg/eclipse/jdt/internal/core/hierarchy/HierarchyBuilder;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 17 
+r1 1 -2 
+r2 1 -3 
+$r4 1 25 
+Fields: 0
+Accesses: 5
+2 1 -1 
+20 1 -1 
+7 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 1 0 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.remember(Lorg/eclipse/jdt/core/IType;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V
+PTG:
+Vars:
+25
+r23 1 98 
+$r2 1 1 
+r10 1 -1 
+r20 1 52 
+$r9 1 197 
+r13 1 166 
+r21 1 116 
+r12 1 159 
+$r15 1 71 
+r22 2 77 86 
+$r16 1 -2 
+$r24 1 116 
+r6 1 129 
+r3 1 -3 
+$r17 1 19 
+r25 1 143 
+r0 1 -2 
+r19 1 19 
+$r4 1 -3 
+$r1 1 1 
+$r14 1 179 
+$r11 1 201 
+$r7 1 191 
+$r5 1 46 
+$r8 1 201 
+Fields: 10
+166 ArrayObject 179
+71 type 77
+129 ArrayObject 159
+-3 scope 46
+52 name 197
+52 superInterfaces 129
+52 superclass 86
+52 binding 201
+52 allocation 71
+98 ArrayObject 116
+Accesses: 10
+82 1 52 
+196 1 52 
+70 1 52 
+71 1 71 
+200 1 52 
+201 1 201 
+43 1 -3 
+59 1 52 
+219 1 52 
+125 1 52 
+Functions: 9
+0 1 -2 
+16 1 -2 
+161 1 159 
+211 5 -2 116 197 191 143 
+6 1 1 
+29 4 -1 -3 19 46 
+93 2 86 77 
+46 1 46 
+223 3 -1 201 191 
+Constructors: 1
+211 191
+
+Summary: 19
+19 143 71 191 1 -3 46 197 201 86 98 -1 1 166 77 129 52 0 116 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.remember(Lorg/eclipse/jdt/internal/compiler/env/IGenericType;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V
+PTG:
+Vars:
+10
+r3 1 -2 
+$r5 1 52 
+r0 1 -3 
+$r7 1 17 
+$r8 1 63 
+$r4 1 17 
+$r6 1 36 
+$r9 1 52 
+$r2 1 17 
+r1 1 -1 
+Fields: 2
+-1 typeModels 17
+-1 typeBindings 52
+Accesses: 15
+67 1 -1 
+5 1 -1 
+71 1 -1 
+40 1 -1 
+44 1 -1 
+13 1 -1 
+78 1 -1 
+16 1 -1 
+82 1 -1 
+51 1 -1 
+24 1 -1 
+88 1 -1 
+57 1 -1 
+92 1 -1 
+30 1 -1 
+Functions: 2
+48 2 17 36 
+75 2 52 63 
+Constructors: 0
+
+Summary: 3
+-1 1 0 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.findSuperInterfaces(Lorg/eclipse/jdt/internal/compiler/env/IGenericType;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)[Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+40
+r31 1 -2 
+$r16 1 491 
+$r12 1 407 
+$r7 1 357 
+r30 8 202 107 127 16 64 193 88 173 
+r3 2 267 267 
+$r23 1 107 
+$r10 1 391 
+r4 1 343 
+$r22 1 39 
+$r13 1 412 
+$r14 2 403 447 
+$r9 1 369 
+r5 1 -1 
+$r19 1 165 
+r8 1 357 
+r34 2 491 249 
+$r28 1 71 
+$r38 1 456 
+$r29 1 -2 
+$r6 1 356 
+$r1 1 150 
+$r36 1 450 
+r2 1 -3 
+$r25 1 49 
+$r17 1 249 
+$r24 1 112 
+$r26 1 56 
+r32 1 -2 
+$r21 1 180 
+$r35 2 403 447 
+$r37 1 453 
+_ret 2 491 249 
+$r18 1 158 
+$r11 1 396 
+r0 1 -2 
+$r27 1 64 
+r33 1 216 
+$r20 1 173 
+r15 1 418 
+Fields: 22
+357 sourceName 369
+216 ArrayObject 356
+127 ArrayObject 267
+64 ArrayObject 267
+193 ArrayObject 267
+-1 typeModels 407
+-1 builder 447
+-1 builder 403
+-1 typeBindings 391
+391 ArrayObject 396
+407 ArrayObject 412
+202 ArrayObject 267
+447 hierarchy 450
+107 ArrayObject 267
+16 ArrayObject 267
+450 missingTypes 453
+88 ArrayObject 267
+-2 superclassName 180
+-2 superInterfaceNames 193
+-2 superInterfaceNames 202
+-2 name 150
+173 ArrayObject 267
+Accesses: 12
+178 1 -2 
+402 1 -1 
+450 1 450 
+148 1 -2 
+197 1 -2 
+390 1 -1 
+406 1 -1 
+188 1 -2 
+381 1 -1 
+446 1 -1 
+367 1 357 
+447 2 403 447 
+Functions: 22
+164 1 -3 
+356 1 356 
+37 6 -2 193 180 150 202 267 
+69 6 -2 193 180 150 202 267 
+8 6 -2 193 180 150 202 267 
+298 1 267 
+462 2 343 456 
+48 1 -3 
+81 6 -2 193 180 150 202 267 
+369 2 369 343 
+465 2 453 456 
+338 1 267 
+403 7 369 450 403 453 357 412 447 
+212 1 -3 
+276 1 267 
+500 2 249 491 
+55 1 -3 
+120 6 -2 193 180 150 202 267 
+315 1 267 
+92 6 -2 193 180 150 202 267 
+157 1 -3 
+94 0 
+Constructors: 1
+462 456
+
+Summary: 23
+357 267 165 -3 64 -1 456 343 49 202 107 39 216 369 127 193 150 158 16 56 88 -2 173 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.worked(Lorg/eclipse/core/runtime/IProgressMonitor;I)V
+PTG:
+Vars:
+2
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+17 0 
+4 1 -2 
+23 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.accept([Lorg/eclipse/jdt/internal/compiler/env/ISourceType;Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)V
+PTG:
+Vars:
+22
+r13 1 110 
+r22 1 -3 
+$r6 1 62 
+$r16 2 50 38 
+r3 1 10 
+$r19 1 99 
+$r21 1 -1 
+r14 1 -4 
+$r2 1 4 
+r0 1 -1 
+$r7 1 68 
+$r8 1 76 
+$r12 1 102 
+r4 1 -2 
+$r10 1 88 
+r23 2 50 38 
+r18 1 140 
+$r1 1 1 
+$r5 1 54 
+$r11 1 99 
+$r15 1 99 
+$r17 1 132 
+Fields: 7
+-1 options 76
+-1 builder 1
+-1 lookupEnvironment 99
+1 hierarchy 4
+99 problemReporter 102
+4 progressMonitor 10
+-2 ArrayObject 38
+Accesses: 9
+0 1 -1 
+1 1 1 
+98 1 -1 
+99 1 99 
+4 1 4 
+117 1 -1 
+151 1 -1 
+75 1 -1 
+76 1 76 
+Functions: 12
+17 1 10 
+129 2 50 38 
+66 2 50 38 
+82 2 68 62 
+52 2 50 38 
+132 1 132 
+148 9 -1 1 99 4 102 10 76 140 110 
+105 3 102 88 62 
+43 2 50 38 
+124 4 99 -4 102 110 
+158 3 99 102 110 
+31 0 
+Constructors: 1
+82 62
+
+Summary: 14
+1 -3 50 54 88 62 110 -1 2 -4 0 -2 68 140 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.<init>(Lorg/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;Lorg/eclipse/jdt/internal/core/hierarchy/HierarchyBuilder;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+7 3 -1 -2 -3 
+Constructors: 1
+1 -1
+
+Summary: 4
+-1 -3 0 -2 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.resolve(Lorg/eclipse/jdt/internal/compiler/env/IGenericType;)V
+PTG:
+Vars:
+29
+$r26 1 -1 
+$r30 1 -1 
+$r21 2 79 10 
+r12 1 47 
+$r13 2 65 10 
+$r8 1 193 
+$r23 1 170 
+$r31 2 10 114 
+r0 1 -2 
+r14 1 71 
+$r7 1 225 
+$r1 1 -2 
+r32 1 22 
+$r20 1 82 
+$r9 1 -2 
+$r15 1 89 
+$r27 1 -1 
+r33 1 193 
+$r4 1 204 
+$r5 1 209 
+r16 1 95 
+$r2 1 185 
+$r10 1 10 
+$r3 1 194 
+$r22 1 167 
+r6 1 -1 
+$r11 1 41 
+$r19 2 10 140 
+$r29 2 10 128 
+Fields: 7
+-1 typeModels 41
+-1 builder 167
+-1 typeBindings 89
+-1 lookupEnvironment 10
+41 ArrayObject 47
+89 ArrayObject 95
+65 unitBeingCompleted 71
+Accesses: 18
+64 1 -1 
+65 2 65 10 
+162 1 -1 
+133 2 128 10 
+166 1 -1 
+40 1 -1 
+9 1 -1 
+139 1 -1 
+78 1 -1 
+113 1 -1 
+145 2 10 140 
+85 2 10 79 
+119 2 114 10 
+88 1 -1 
+153 1 -1 
+220 1 -1 
+29 1 -1 
+127 1 -1 
+Functions: 18
+0 1 -2 
+99 1 95 
+261 7 -1 167 41 89 10 47 95 
+198 1 194 
+167 1 167 
+105 1 95 
+10 2 -2 10 
+203 1 193 
+204 1 204 
+237 9 -1 225 194 167 41 89 10 47 95 
+175 9 -1 22 167 41 89 10 170 47 95 
+245 7 -1 167 41 89 10 47 95 
+54 1 47 
+182 1 -2 
+214 2 209 194 
+185 1 185 
+26 9 -1 -2 22 167 41 89 10 47 95 
+254 7 -1 167 41 89 10 47 95 
+Constructors: 1
+198 194
+
+Summary: 9
+204 -1 170 0 194 22 209 225 -2 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.accept(Lorg/eclipse/jdt/internal/compiler/env/IBinaryType;Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)V
+PTG:
+Vars:
+10
+$r2 1 4 
+r0 1 -1 
+r5 1 -3 
+r8 1 45 
+$r10 1 -1 
+r6 1 -4 
+r3 1 10 
+$r7 1 36 
+r4 1 -2 
+$r1 1 1 
+Fields: 4
+-1 builder 1
+-1 lookupEnvironment 36
+1 hierarchy 4
+4 progressMonitor 10
+Accesses: 4
+0 1 -1 
+1 1 1 
+35 1 -1 
+4 1 4 
+Functions: 4
+17 1 10 
+51 7 -1 1 -2 36 4 10 45 
+36 4 -2 -3 -4 36 
+31 0 
+Constructors: 0
+
+Summary: 8
+1 -3 -1 2 45 -4 0 -2 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.resolve([Lorg/eclipse/jdt/internal/core/Openable;Ljava/util/HashSet;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+83
+$r17 1 319 
+r78 3 506 483 450 
+$r59 1 -1 
+r37 1 -4 
+r83 1 644 
+$r56 1 -1 
+$r23 2 353 193 
+$r26 1 250 
+$r28 1 261 
+$r52 1 -1 
+r79 1 493 
+r69 1 151 
+$r5 1 34 
+$r40 1 839 
+$r36 2 652 92 
+$r29 2 92 301 
+r72 1 217 
+$r64 1 87 
+$r57 2 687 92 
+$r22 1 179 
+$r65 1 92 
+r61 2 373 312 
+$r41 1 895 
+$r44 1 40 
+$r33 1 662 
+$r54 1 -1 
+$r27 1 261 
+$r14 2 475 34 
+$r16 1 156 
+r87 2 818 818 
+r74 1 319 
+$r48 1 62 
+$r18 2 330 34 
+r4 1 -1 
+r1 1 6 
+$r53 1 -1 
+r0 1 -2 
+$r9 1 447 
+$r19 1 342 
+$r24 1 114 
+$r60 1 -1 
+$r66 1 95 
+$r39 2 857 857 
+$r43 1 913 
+r73 2 373 312 
+r62 2 524 919 
+$r38 2 771 92 
+r25 1 250 
+r84 1 668 
+$r34 2 713 92 
+$r8 1 442 
+r63 2 77 62 
+r77 1 114 
+$r12 1 465 
+$r21 2 405 92 
+r2 1 13 
+$r20 2 353 193 
+r15 1 -3 
+r75 1 340 
+r3 1 19 
+r81 1 605 
+r82 1 620 
+r67 1 114 
+$r35 1 655 
+$r13 2 34 496 
+$r55 2 701 92 
+$r32 2 638 92 
+r88 1 903 
+$r30 2 95 304 
+r68 1 114 
+$r11 2 514 92 
+$r10 1 450 
+$r42 1 92 
+r71 1 234 
+r86 2 744 744 
+r80 1 524 
+$r58 1 -1 
+$r31 1 614 
+r6 1 40 
+$r46 1 591 
+$r51 1 -1 
+$r47 1 77 
+$r45 1 585 
+Fields: 17
+-1 typeModels 614
+-1 options 353
+-1 options 193
+-1 builder 34
+-1 typeBindings 662
+-1 lookupEnvironment 92
+614 ArrayObject 620
+19 ArrayObject 857
+662 ArrayObject 668
+638 unitBeingCompleted 644
+6 ArrayObject 744
+6 ArrayObject 818
+217 ArrayObject 250
+92 problemReporter 95
+-2 ArrayObject 114
+301 problemReporter 304
+818 scope 839
+Accesses: 30
+192 1 -1 
+193 2 353 193 
+513 1 -1 
+706 2 92 701 
+770 1 -1 
+837 1 818 
+712 1 -1 
+329 1 -1 
+905 1 -1 
+651 1 -1 
+718 2 713 92 
+658 2 652 92 
+404 1 -1 
+661 1 -1 
+726 1 -1 
+474 1 -1 
+91 1 -1 
+92 1 92 
+352 1 -1 
+33 1 -1 
+353 2 353 193 
+613 1 -1 
+300 1 -1 
+301 2 92 301 
+686 1 -1 
+495 1 -1 
+692 2 92 687 
+700 1 -1 
+637 1 -1 
+638 2 92 638 
+Functions: 54
+-1 0 
+258 1 250 
+514 6 514 450 483 506 92 95 
+778 4 771 744 92 95 
+906 3 913 92 95 
+911 1 903 
+144 1 114 
+531 14 -1 353 193 34 450 483 614 620 524 662 506 92 668 95 
+534 3 114 77 62 
+153 2 -3 156 
+154 1 151 
+794 11 -1 353 193 34 -4 614 662 92 620 668 95 
+411 5 405 373 312 92 95 
+414 3 114 77 62 
+927 10 -1 353 193 34 614 662 92 620 668 95 
+672 1 668 
+34 1 34 
+678 1 668 
+169 1 114 
+938 14 -1 353 193 34 614 40 620 524 662 919 92 668 605 95 
+50 1 40 
+946 10 -1 353 193 34 614 662 92 620 668 95 
+307 4 304 179 234 95 
+442 2 442 447 
+60 1 40 
+317 1 114 
+445 1 114 
+962 1 -1 
+582 1 40 
+966 10 -1 353 193 34 614 662 92 620 668 95 
+199 2 114 179 
+330 4 34 114 330 319 
+842 1 839 
+75 1 40 
+463 1 114 
+591 2 40 591 
+847 2 818 839 
+975 10 -1 353 193 34 614 662 92 620 668 95 
+465 1 465 
+210 1 114 
+597 3 373 312 591 
+982 10 -1 353 193 34 614 662 92 620 668 95 
+475 3 34 114 475 
+860 13 -1 353 193 34 614 839 620 818 662 857 92 668 95 
+99 2 87 95 
+359 2 340 342 
+488 1 114 
+364 3 340 342 87 
+496 4 496 34 114 493 
+627 1 620 
+883 1 40 
+893 1 40 
+767 2 87 744 
+895 1 895 
+Constructors: 4
+99 87
+597 591
+199 179
+359 342
+
+Summary: 41
+156 373 19 -3 13 -1 151 442 744 506 342 312 465 62 2 234 919 903 818 493 340 913 857 447 -4 6 0 450 605 319 591 1 217 87 524 77 179 483 895 -2 585 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.<init>(Lorg/eclipse/jdt/internal/compiler/env/INameEnvironment;Ljava/util/Map;Lorg/eclipse/jdt/internal/core/hierarchy/HierarchyBuilder;Lorg/eclipse/jdt/internal/compiler/IProblemFactory;)V
+PTG:
+Vars:
+11
+$r8 1 39 
+r0 1 -1 
+r9 1 -2 
+r3 1 19 
+$r4 1 21 
+$r1 1 5 
+r2 1 -3 
+$r10 1 28 
+r5 1 -5 
+$r6 1 28 
+r11 1 -4 
+Fields: 1
+-1 options 28
+Accesses: 3
+27 1 -1 
+44 1 -1 
+13 1 -1 
+Functions: 6
+16 0 
+1 2 -1 28 
+33 4 19 -5 21 28 
+51 5 -1 -2 21 39 28 
+55 4 -1 -4 39 28 
+10 2 -3 5 
+Constructors: 4
+1 -1
+33 21
+51 39
+10 5
+
+Summary: 12
+21 19 -5 1 -3 39 -1 2 -4 0 -2 3 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.findSuperClass(Lorg/eclipse/jdt/internal/compiler/env/IGenericType;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+14
+$r18 1 -2 
+$r3 1 237 
+$r1 1 10 
+r24 1 4 
+$r10 1 -2 
+$r4 1 242 
+$r27 4 113 181 88 136 
+$r12 1 188 
+r0 1 -3 
+r26 3 113 88 136 
+r9 1 -2 
+r25 1 10 
+r2 1 -1 
+$r17 1 -2 
+Fields: 3
+-1 typeBindings 237
+-2 superclassName 136
+237 ArrayObject 242
+Accesses: 11
+64 1 10 
+34 1 -1 
+130 1 -2 
+51 1 10 
+227 1 -1 
+37 1 -1 
+199 1 -1 
+247 1 -1 
+202 1 -1 
+251 1 -1 
+236 1 -1 
+Functions: 14
+0 1 -3 
+9 1 4 
+105 2 -2 136 
+80 2 -2 136 
+17 1 -3 
+180 3 113 88 136 
+55 0 
+24 1 10 
+248 1 10 
+58 0 
+154 3 113 88 136 
+218 4 113 181 88 136 
+188 5 113 181 88 136 188 
+221 0 
+Constructors: 0
+
+Summary: 11
+10 181 -3 212 -1 113 52 47 88 -2 136 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.fixSupertypeBindings()V
+PTG:
+Vars:
+41
+$r22 1 14 
+$r12 2 161 146 
+$r8 2 268 280 
+$r1 1 9 
+$r14 1 14 
+$r18 1 80 
+$r13 2 161 146 
+r35 1 51 
+$r23 1 -1 
+$r11 1 246 
+$r26 1 397 
+$r24 1 14 
+$r27 1 403 
+$r17 1 69 
+$r9 1 14 
+r42 1 216 
+r36 1 54 
+r40 2 161 146 
+$r41 1 207 
+$r20 1 80 
+$r37 1 130 
+$r39 1 146 
+$r29 1 408 
+$r10 1 338 
+$r28 1 400 
+r43 2 246 338 
+r0 1 -1 
+r2 1 14 
+r44 2 268 280 
+$r7 2 268 280 
+$r21 1 -1 
+r31 1 14 
+$r6 1 264 
+r5 1 207 
+$r16 1 54 
+r32 1 60 
+$r30 1 411 
+$r25 1 394 
+$r34 1 14 
+$r15 1 51 
+$r19 1 80 
+Fields: 15
+9 ArrayObject 14
+-1 builder 394
+-1 typeBindings 9
+51 referenceContext 54
+397 missingTypes 400
+264 resolvedType 268
+69 resolvedType 80
+14 scope 51
+54 superInterfaces 207
+54 superclass 130
+54 allocation 60
+60 type 69
+394 hierarchy 397
+207 ArrayObject 264
+130 resolvedType 146
+Accesses: 26
+0 1 -1 
+128 1 54 
+193 1 14 
+67 1 60 
+390 1 14 
+8 1 -1 
+264 1 264 
+393 1 -1 
+394 1 394 
+205 1 54 
+397 1 397 
+78 1 69 
+15 1 14 
+144 1 130 
+87 1 69 
+95 1 14 
+356 1 14 
+102 1 14 
+423 1 -1 
+113 1 51 
+50 1 14 
+51 1 51 
+436 1 14 
+54 1 54 
+379 1 14 
+447 1 14 
+Functions: 12
+417 2 400 403 
+290 17 -1 130 69 264 9 394 268 397 14 207 400 80 146 51 54 280 60 
+370 11 80 130 146 51 69 54 264 60 268 14 207 
+275 2 280 268 
+212 11 80 130 146 51 69 54 264 60 268 14 207 
+407 11 80 130 146 51 69 54 264 60 268 14 207 
+408 1 408 
+171 17 -1 161 130 69 264 9 394 268 397 14 207 400 80 146 51 54 60 
+347 2 338 246 
+427 11 80 130 146 51 69 54 264 60 268 14 207 
+156 1 146 
+414 2 403 411 
+Constructors: 1
+414 403
+
+Summary: 5
+-1 403 216 408 411 
+org/eclipse/jdt/internal/core/hierarchy/HierarchyResolver.reset()V
+PTG:
+Vars:
+4
+$r2 1 24 
+$r1 1 1 
+r0 1 -1 
+$r3 1 32 
+Fields: 1
+-1 lookupEnvironment 1
+Accesses: 6
+0 1 -1 
+19 1 -1 
+35 1 -1 
+9 1 -1 
+27 1 -1 
+14 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,26 @@
+nice -n 19 /home/cs17b006/jdk1.8.0_291/bin/java -Xmx6G -javaagent:poa-trunk.jar -jar /home/cs17b006/stava-master/Benchmarks/dacapo/dacapo-9.12-MR1-bach.jar lusearch-fix -s small --scratch-directory /tmp/dacaposcratch -n 3
+============================================================
+TamiFlex Play-Out Agent Version trunk
+Loaded properties from /home/cs17b006/.tamiflex/poa.properties
+============================================================
+The derived number of threads (72) is outside the range [1,8]; rescaling to match thread limit.
+Using scaled threading model. 72 processors detected, 8 threads used to drive the workload, in a possible range of [1,8]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 230 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 71 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 63 msec =====
+
+============================================================
+TamiFlex Play-Out Agent Version trunk
+Found 44 new log entries.
+Dumped 777 new classes.
+Log file written to: /home/cs17b006/stava-master/Benchmarks/out/refl.log
+============================================================

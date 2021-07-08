@@ -1,0 +1,587 @@
+26
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.offsetArea(Lorg/apache/fop/area/inline/InlineArea;Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 2 
+r3 1 -3 
+r1 1 -1 
+Fields: 1
+-1 alignmentContext 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+2 1 2 
+8 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 0 1 -3 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.addKnuthElementsForBorderPaddingEnd(Ljava/util/List;)V
+PTG:
+Vars:
+9
+$r1 1 1 
+$r8 1 67 
+r0 1 -1 
+$r3 1 1 
+$r5 1 31 
+$r2 1 1 
+$r7 1 60 
+r4 1 -2 
+$r6 1 40 
+Fields: 1
+-1 commonBorderPaddingBackground 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 8
+16 2 -1 1 
+80 2 -2 60 
+50 2 40 31 
+53 2 -2 31 
+8 1 1 
+73 3 -1 1 67 
+77 2 67 60 
+46 3 -1 1 40 
+Constructors: 4
+50 31
+73 67
+77 60
+46 40
+
+Summary: 7
+-2 40 0 60 67 -1 31 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.getWordChars(Ljava/lang/StringBuffer;Lorg/apache/fop/layoutmgr/Position;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-2 0 1 -3 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.getAllocationIPD(I)Lorg/apache/fop/traits/MinOptMax;
+PTG:
+Vars:
+4
+$r2 1 5 
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 1
+-1 curArea 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+5 1 5 
+11 1 0 
+Constructors: 1
+11 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.getEffectiveArea()Lorg/apache/fop/area/inline/InlineArea;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 curArea 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.makeAlignmentContext(Lorg/apache/fop/layoutmgr/LayoutContext;)Lorg/apache/fop/layoutmgr/inline/AlignmentContext;
+PTG:
+Vars:
+4
+r0 1 -2 
+$r1 1 1 
+_ret 1 1 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.getNextKnuthElements(Lorg/apache/fop/layoutmgr/LayoutContext;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+17
+$r2 1 3 
+$r4 1 26 
+$r7 1 51 
+$r15 1 105 
+$r6 1 42 
+$r12 1 85 
+_ret 1 122 
+$r8 1 60 
+r0 1 -1 
+$r10 1 77 
+$r16 1 122 
+$r13 1 96 
+$r14 1 51 
+r1 1 -2 
+r5 1 40 
+$r11 1 82 
+$r3 1 10 
+Fields: 4
+82 ipdArea 85
+-1 alignmentContext 51
+-1 areaInfo 82
+-1 curArea 10
+Accesses: 9
+81 1 -1 
+50 1 -1 
+82 1 82 
+85 1 85 
+6 1 -1 
+9 1 -1 
+57 1 -1 
+91 1 -1 
+29 1 -1 
+Functions: 16
+32 5 -1 82 51 85 10 
+64 1 60 
+1 6 -1 -2 82 51 85 10 
+33 1 -2 
+102 6 96 -1 82 51 85 10 
+135 2 122 60 
+72 6 -1 82 51 85 10 60 
+109 3 51 105 77 
+141 5 -1 82 51 85 10 
+112 2 60 77 
+18 5 -1 82 51 85 10 
+54 7 -1 82 51 85 40 42 10 
+119 6 -1 82 51 85 10 60 
+24 6 -1 -2 82 51 85 10 
+126 1 122 
+95 6 -1 96 82 51 85 10 
+Constructors: 5
+64 60
+54 42
+102 96
+109 77
+126 122
+
+Summary: 7
+0 40 60 105 77 96 -2 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.getChangedKnuthElements(Ljava/util/List;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+11
+$r1 1 9 
+$r7 1 45 
+$r5 1 31 
+$r6 1 28 
+r10 1 -2 
+r0 1 -1 
+$r3 1 23 
+$r4 1 28 
+$r8 1 41 
+$r9 1 54 
+_ret 1 9 
+Fields: 3
+-1 areaInfo 28
+28 ipdArea 31
+28 alignmentContext 41
+Accesses: 5
+37 1 -1 
+38 1 28 
+27 1 -1 
+28 1 28 
+31 1 31 
+Functions: 9
+0 4 -1 41 28 31 
+19 5 -1 41 9 28 31 
+51 5 -1 41 28 45 31 
+67 5 -1 41 9 28 31 
+72 4 -1 41 28 31 
+58 3 54 23 41 
+44 5 -1 41 28 45 31 
+13 1 9 
+61 2 23 9 
+Constructors: 3
+51 45
+58 23
+13 9
+
+Summary: 6
+-2 0 23 45 54 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 5
+16 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.addChildArea(Lorg/apache/fop/area/Area;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.<clinit>()V
+PTG:
+Vars:
+3
+$r1 1 21 
+$r0 1 0 
+$r2 2 8 18 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.<init>(Lorg/apache/fop/fo/FObj;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 5
+17 1 -1 
+22 1 -1 
+7 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 2
+-2 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.addId()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.setCurrentArea(Lorg/apache/fop/area/inline/InlineArea;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.applyChanges(Ljava/util/List;)Z
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.resolved()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.addAreas(Lorg/apache/fop/layoutmgr/PositionIterator;Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+8
+$r4 1 63 
+$r7 1 36 
+r5 1 -2 
+r2 1 -3 
+r0 1 -1 
+$r3 1 36 
+$r8 1 36 
+r1 1 8 
+Fields: 2
+-1 parentLM 63
+-1 commonBorderPaddingBackground 36
+Accesses: 4
+35 1 -1 
+54 1 -1 
+43 1 -1 
+62 1 -1 
+Functions: 11
+16 1 8 
+32 5 -1 -3 36 8 63 
+80 1 -2 
+1 3 -1 36 63 
+50 4 -1 36 8 63 
+67 2 8 63 
+4 3 -1 36 63 
+72 1 -2 
+9 1 8 
+26 5 -1 -3 36 8 63 
+59 4 -1 36 8 63 
+Constructors: 0
+
+Summary: 5
+-2 0 8 1 -3 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.addALetterSpaceTo(Ljava/util/List;)Ljava/util/List;
+PTG:
+Vars:
+3
+r1 1 -1 
+r0 1 -2 
+_ret 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.getParentArea(Lorg/apache/fop/area/Area;)Lorg/apache/fop/area/Area;
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.hyphenate(Lorg/apache/fop/layoutmgr/Position;Lorg/apache/fop/layoutmgr/inline/HyphContext;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-2 0 1 -3 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.widthAdjustArea(Lorg/apache/fop/area/inline/InlineArea;Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+15
+$r8 1 9 
+$r3 1 9 
+$r5 1 6 
+$r13 1 6 
+$r10 1 9 
+r1 1 -1 
+r4 1 -2 
+$r2 1 6 
+$r12 1 9 
+$r9 1 6 
+$r11 1 6 
+$r6 1 9 
+r0 1 -3 
+$r14 1 9 
+$r7 1 6 
+Fields: 2
+6 ipdArea 9
+-1 areaInfo 6
+Accesses: 18
+67 1 -1 
+68 1 6 
+5 1 -1 
+37 1 -1 
+6 1 6 
+38 1 6 
+71 1 9 
+103 1 -1 
+104 1 6 
+9 1 9 
+41 1 9 
+107 1 9 
+77 1 -1 
+78 1 6 
+81 1 9 
+27 1 -1 
+28 1 6 
+31 1 9 
+Functions: 3
+0 1 -3 
+97 1 -2 
+114 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 0 1 -3 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.removeWordSpace(Ljava/util/List;)V
+PTG:
+Vars:
+9
+$r4 1 14 
+$r0 1 3 
+r2 1 -1 
+$r1 1 0 
+$r7 1 25 
+$r3 1 11 
+r8 1 -2 
+$r5 1 17 
+$r6 1 22 
+Fields: 0
+Accesses: 0
+Functions: 7
+17 1 17 
+3 2 3 14 
+22 1 22 
+7 1 3 
+10 1 -1 
+11 1 11 
+28 2 0 25 
+Constructors: 1
+7 3
+
+Summary: 8
+17 -2 25 14 22 3 -1 11 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.get(Lorg/apache/fop/layoutmgr/LayoutContext;)Lorg/apache/fop/area/inline/InlineArea;
+PTG:
+Vars:
+4
+r2 1 -2 
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 curArea 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r4 1 6 
+$r5 1 14 
+$r2 1 -1 
+r0 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.addKnuthElementsForBorderPaddingStart(Ljava/util/List;)V
+PTG:
+Vars:
+9
+$r6 1 40 
+$r8 1 67 
+r0 1 -1 
+$r5 1 31 
+$r7 1 60 
+$r3 1 1 
+$r1 1 1 
+r4 1 -2 
+$r2 1 1 
+Fields: 1
+-1 commonBorderPaddingBackground 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 8
+16 2 -1 1 
+80 2 -2 60 
+50 2 40 31 
+53 2 -2 31 
+8 1 1 
+73 3 -1 1 67 
+77 2 67 60 
+46 3 -1 1 40 
+Constructors: 4
+50 31
+73 67
+77 60
+46 40
+
+Summary: 7
+-2 40 0 60 67 -1 31 
+org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager.setCommonBorderPaddingBackground(Lorg/apache/fop/fo/properties/CommonBorderPaddingBackground;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 

@@ -1,0 +1,1201 @@
+30
+org/apache/batik/gvt/font/AWTGVTGlyphVector.setGlyphPosition(ILjava/awt/geom/Point2D;)V
+PTG:
+Vars:
+10
+$r3 1 5 
+$r4 1 1 
+$r6 1 57 
+$r9 1 78 
+$r7 1 64 
+$r5 1 19 
+$r8 1 71 
+r2 1 -3 
+$r1 1 1 
+r0 1 -1 
+Fields: 7
+1 ArrayObject 5
+1 ArrayObject 19
+-1 glyphVisualBounds 57
+-1 glyphMetrics 78
+-1 glyphLogicalBounds 64
+-1 glyphOutlines 71
+-1 glyphPositions 1
+Accesses: 12
+0 1 -1 
+35 1 -1 
+70 1 -1 
+40 1 -1 
+56 1 -1 
+25 1 19 
+11 1 5 
+45 1 -1 
+77 1 -1 
+14 1 -1 
+30 1 -1 
+63 1 -1 
+Functions: 3
+49 8 -1 64 1 19 5 71 57 78 
+20 1 -3 
+6 1 -3 
+Constructors: 0
+
+Summary: 3
+-1 -3 1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getNumGlyphs()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 awtGlyphVector 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGlyphLogicalBounds(I)Ljava/awt/Shape;
+PTG:
+Vars:
+7
+$r4 1 1 
+$r1 1 1 
+$r5 1 27 
+r0 1 -1 
+$r2 1 5 
+_ret 1 27 
+$r3 1 10 
+Fields: 4
+1 ArrayObject 5
+1 ArrayObject 27
+-1 glyphVisible 10
+-1 glyphLogicalBounds 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+9 1 -1 
+Functions: 1
+19 5 -1 1 5 10 27 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGlyphVisualBounds(I)Ljava/awt/Shape;
+PTG:
+Vars:
+22
+$r6 1 17 
+$r13 1 81 
+$r3 1 10 
+$r9 1 62 
+r4 1 15 
+r15 1 98 
+$r18 1 143 
+$r20 1 152 
+_ret 1 152 
+r11 1 70 
+r12 1 77 
+r0 1 -1 
+$r10 1 57 
+$r8 1 17 
+r16 1 105 
+$r2 1 5 
+$r5 1 17 
+$r7 1 17 
+$r1 1 1 
+$r14 1 89 
+$r17 1 1 
+$r19 1 1 
+Fields: 8
+1 ArrayObject 152
+1 ArrayObject 5
+-1 awtGlyphVector 62
+-1 glyphVisualBounds 1
+-1 gvtFont 57
+-1 defaultGlyphPositions 10
+-1 ci 17
+10 ArrayObject 15
+Accesses: 12
+0 1 -1 
+16 1 -1 
+147 1 -1 
+20 1 -1 
+37 1 -1 
+134 1 -1 
+56 1 -1 
+9 1 -1 
+41 1 -1 
+121 1 -1 
+61 1 -1 
+126 1 -1 
+Functions: 15
+66 3 57 62 15 
+131 1 98 
+100 9 -1 1 17 5 152 57 10 62 15 
+72 1 70 
+42 1 17 
+139 2 98 77 
+79 9 -1 1 17 5 152 57 10 62 15 
+17 1 17 
+81 1 81 
+50 1 17 
+116 2 98 105 
+21 1 17 
+87 9 -1 1 17 5 152 57 10 62 15 
+89 1 89 
+92 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.computeGlyphLogicalBounds()V
+PTG:
+Vars:
+43
+$r10 1 893 
+r37 1 68 
+$r22 1 202 
+r23 1 227 
+$r14 1 655 
+$r9 1 884 
+$r19 1 164 
+$r20 1 183 
+$r41 1 455 
+r1 1 4 
+$r3 1 503 
+$r46 1 557 
+r0 1 -1 
+$r47 1 557 
+r49 1 899 
+$r25 1 278 
+$r28 1 291 
+$r18 1 109 
+$r11 1 598 
+r35 1 461 
+$r12 1 608 
+r43 1 614 
+$r15 1 527 
+$r30 1 300 
+$r8 1 846 
+r48 1 852 
+$r5 1 557 
+$r17 1 37 
+r2 1 12 
+$r13 1 646 
+r44 1 661 
+$r45 1 760 
+$r53 1 1033 
+$r7 1 836 
+r36 1 60 
+$r26 1 282 
+r24 1 242 
+$r6 1 557 
+$r16 1 536 
+$r50 1 998 
+$r4 1 550 
+$r52 1 557 
+$r51 1 557 
+Fields: 14
+-1 glyphVisible 37
+-1 glyphLogicalBounds 1033
+-1 logicalBounds 557
+4 ArrayObject 655
+4 ArrayObject 455
+4 ArrayObject 846
+4 ArrayObject 646
+4 ArrayObject 527
+4 ArrayObject 598
+4 ArrayObject 536
+4 ArrayObject 608
+4 ArrayObject 893
+4 ArrayObject 884
+4 ArrayObject 836
+Accesses: 15
+258 1 -1 
+36 1 -1 
+102 1 -1 
+263 1 -1 
+775 1 -1 
+1032 1 -1 
+73 1 -1 
+553 1 -1 
+1002 1 -1 
+556 1 -1 
+78 1 -1 
+1011 1 -1 
+90 1 -1 
+795 1 -1 
+766 1 -1 
+Functions: 88
+0 4 -1 37 1033 557 
+130 1 109 
+517 4 -1 37 1033 557 
+901 1 899 
+391 0 
+8 4 -1 37 1033 557 
+776 1 557 
+268 1 242 
+1037 4 -1 37 1033 557 
+782 1 760 
+655 1 655 
+912 1 899 
+1041 13 608 4 836 646 455 1033 846 655 527 884 598 536 893 
+274 2 242 109 
+403 0 
+663 1 661 
+538 2 503 536 
+796 1 557 
+29 4 -1 37 1033 557 
+286 1 282 
+415 0 
+674 1 661 
+548 1 503 
+295 1 291 
+168 1 109 
+427 0 
+173 1 109 
+557 1 557 
+304 1 300 
+816 4 -1 37 1033 557 
+178 1 164 
+54 4 -1 37 1033 557 
+187 1 109 
+315 3 242 164 282 
+62 4 -1 37 1033 557 
+192 1 109 
+578 4 -1 37 1033 557 
+197 1 183 
+325 3 242 291 183 
+966 1 899 
+455 1 455 
+971 1 899 
+206 1 109 
+846 1 846 
+335 3 242 202 300 
+463 1 461 
+211 1 109 
+339 1 282 
+979 1 899 
+85 1 68 
+854 1 852 
+216 1 202 
+344 1 291 
+728 1 661 
+984 1 899 
+473 1 461 
+221 4 -1 37 1033 557 
+861 1 852 
+479 1 461 
+352 1 282 
+608 1 608 
+736 1 661 
+992 1 899 
+97 1 68 
+229 1 227 
+357 1 300 
+741 1 661 
+870 4 -1 37 1033 557 
+616 1 614 
+234 1 227 
+490 1 461 
+1003 1 557 
+236 0 
+365 1 282 
+749 1 661 
+623 1 614 
+370 1 291 
+754 1 661 
+1012 1 557 
+632 4 -1 37 1033 557 
+378 1 282 
+507 1 503 
+1020 1 998 
+125 1 109 
+253 2 242 60 
+893 1 893 
+383 1 300 
+767 1 557 
+Constructors: 10
+304 300
+178 164
+197 183
+295 291
+216 202
+507 503
+1020 998
+125 109
+286 282
+782 760
+
+Summary: 10
+183 300 164 109 -1 282 12 291 202 503 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGlyphJustificationInfo(I)Ljava/awt/font/GlyphJustificationInfo;
+PTG:
+Vars:
+4
+$r2 1 5 
+_ret 1 5 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 awtGlyphVector 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.<clinit>()V
+PTG:
+Vars:
+5
+$r2 1 12 
+$r0 1 0 
+$r3 1 36 
+r1 1 11 
+$r4 1 40 
+Fields: 0
+Accesses: 0
+Functions: 4
+36 2 36 40 
+6 0 
+38 0 
+12 2 11 12 
+Constructors: 0
+
+Summary: 0
+
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGlyphOutline(I)Ljava/awt/Shape;
+PTG:
+Vars:
+22
+$r9 1 62 
+$r6 1 17 
+$r13 1 81 
+$r14 1 89 
+_ret 1 152 
+$r19 1 1 
+$r8 1 17 
+$r5 1 17 
+$r17 1 1 
+r12 1 77 
+$r7 1 17 
+r4 1 15 
+r11 1 70 
+$r18 1 143 
+r16 1 105 
+$r10 1 57 
+$r2 1 5 
+$r3 1 10 
+$r20 1 152 
+r0 1 -1 
+r15 1 98 
+$r1 1 1 
+Fields: 8
+1 ArrayObject 152
+1 ArrayObject 5
+-1 awtGlyphVector 62
+-1 gvtFont 57
+-1 glyphOutlines 1
+-1 defaultGlyphPositions 10
+-1 ci 17
+10 ArrayObject 15
+Accesses: 12
+0 1 -1 
+16 1 -1 
+147 1 -1 
+20 1 -1 
+37 1 -1 
+134 1 -1 
+56 1 -1 
+9 1 -1 
+41 1 -1 
+121 1 -1 
+61 1 -1 
+126 1 -1 
+Functions: 15
+66 3 57 62 15 
+131 1 98 
+100 9 -1 1 17 5 152 57 10 62 15 
+72 1 70 
+42 1 17 
+139 2 98 77 
+79 9 -1 1 17 5 152 57 10 62 15 
+17 1 17 
+81 1 81 
+50 1 17 
+116 2 98 105 
+21 1 17 
+87 9 -1 1 17 5 152 57 10 62 15 
+89 1 89 
+92 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getOutline()Ljava/awt/Shape;
+PTG:
+Vars:
+8
+$r6 1 1 
+$r4 1 34 
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+r5 1 47 
+$r2 1 13 
+$r3 1 1 
+Fields: 2
+-1 outline 1
+-1 glyphVisible 34
+Accesses: 6
+0 1 -1 
+48 1 -1 
+33 1 -1 
+20 1 -1 
+7 1 -1 
+63 1 -1 
+Functions: 4
+17 1 13 
+54 2 1 47 
+26 3 -1 1 34 
+42 3 -1 1 34 
+Constructors: 1
+17 13
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGlyphCodes(II[I)[I
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 7 
+r1 1 -4 
+_ret 1 7 
+$r2 1 1 
+Fields: 1
+-1 awtGlyphVector 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -4 
+Constructors: 0
+
+Summary: 2
+-1 -4 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getOutline(FF)Ljava/awt/Shape;
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 12 
+r2 1 4 
+_ret 1 20 
+r3 1 20 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+8 0 
+14 2 4 12 
+Constructors: 0
+
+Summary: 3
+12 4 -1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGlyphMetrics(I)Lorg/apache/batik/gvt/font/GVTGlyphMetrics;
+PTG:
+Vars:
+23
+$r16 1 146 
+$r8 1 24 
+$r6 1 24 
+$r15 1 17 
+$r1 1 1 
+$r19 1 168 
+$r17 1 17 
+_ret 1 200 
+r0 1 -1 
+$r9 1 69 
+r12 1 84 
+r11 1 77 
+$r2 1 5 
+$r7 1 24 
+$r10 1 64 
+$r5 1 24 
+$r20 1 1 
+$r3 1 17 
+$r22 1 200 
+r4 1 22 
+$r13 1 86 
+$r21 1 1 
+$r18 1 155 
+Fields: 10
+1 ArrayObject 5
+1 ArrayObject 200
+-1 awtGlyphVector 69
+-1 glyphMetrics 1
+-1 gvtFont 64
+-1 defaultGlyphPositions 17
+-1 ci 24
+17 ArrayObject 155
+17 ArrayObject 146
+17 ArrayObject 22
+Accesses: 20
+0 1 -1 
+128 1 -1 
+163 1 -1 
+195 1 -1 
+68 1 -1 
+9 1 -1 
+106 1 -1 
+139 1 -1 
+44 1 -1 
+174 1 -1 
+16 1 -1 
+48 1 -1 
+179 1 -1 
+117 1 -1 
+150 1 -1 
+23 1 -1 
+183 1 -1 
+27 1 -1 
+63 1 -1 
+95 1 -1 
+Functions: 14
+101 1 84 
+134 1 86 
+73 3 64 69 22 
+79 1 77 
+112 1 84 
+49 1 24 
+146 1 146 
+24 1 24 
+57 1 24 
+90 1 84 
+123 1 84 
+155 1 155 
+28 1 24 
+191 2 86 168 
+Constructors: 2
+134 86
+191 168
+
+Summary: 2
+-1 86 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.setGlyphTransform(ILjava/awt/geom/AffineTransform;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r6 1 49 
+r1 1 -3 
+$r3 1 28 
+$r4 1 35 
+$r2 1 1 
+$r5 1 42 
+Fields: 5
+-1 glyphTransforms 1
+-1 glyphVisualBounds 28
+-1 glyphMetrics 49
+-1 glyphLogicalBounds 35
+-1 glyphOutlines 42
+Accesses: 9
+0 1 -1 
+48 1 -1 
+34 1 -1 
+19 1 -1 
+24 1 -1 
+9 1 -1 
+41 1 -1 
+27 1 -1 
+14 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGlyphPositions(II[F)[F
+PTG:
+Vars:
+4
+r1 1 27 
+r2 2 7 -4 
+_ret 2 7 -4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+36 1 27 
+52 1 27 
+21 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getLogicalBounds()Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 logicalBounds 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.draw(Ljava/awt/Graphics2D;Ljava/text/AttributedCharacterIterator;)V
+PTG:
+Vars:
+34
+$r16 1 240 
+$r10 1 553 
+$r12 2 480 523 
+r26 1 342 
+r6 1 53 
+$r11 2 480 523 
+$r32 1 480 
+$r9 2 480 523 
+$r20 1 155 
+$r17 1 128 
+$r2 1 13 
+r5 1 46 
+r24 1 246 
+r7 1 60 
+r21 1 134 
+r23 1 181 
+r1 1 -3 
+$r3 1 16 
+r4 1 16 
+$r18 1 137 
+$r29 1 460 
+$r15 1 224 
+$r14 1 240 
+r0 1 -1 
+$r19 1 147 
+r8 1 -2 
+r22 1 143 
+$r31 1 480 
+r25 1 322 
+r27 2 365 443 
+r33 1 559 
+$r28 1 443 
+r34 1 595 
+$r13 1 336 
+Fields: 13
+16 strokeStroke 53
+16 fillPaint 46
+16 strokePaint 60
+-1 glyphTransforms 240
+-1 glyphVisible 224
+-1 awtGlyphVector 523
+-1 awtGlyphVector 480
+-1 defaultGlyphPositions 553
+-1 glyphPositions 336
+240 ArrayObject 365
+240 ArrayObject 246
+336 ArrayObject 342
+553 ArrayObject 559
+Accesses: 15
+32 1 16 
+358 1 -1 
+552 1 -1 
+41 1 16 
+490 1 -1 
+522 1 -1 
+239 1 -1 
+335 1 -1 
+48 1 16 
+561 1 -1 
+55 1 16 
+313 1 -1 
+572 1 -1 
+223 1 -1 
+479 1 -1 
+Functions: 27
+0 11 -1 240 224 480 336 246 342 553 523 365 559 
+512 1 -2 
+449 2 322 443 
+579 2 480 523 
+6 1 -3 
+518 2 -2 46 
+136 2 -2 137 
+12 2 -3 13 
+591 11 -1 240 224 480 336 246 342 553 523 365 559 
+528 3 480 -2 523 
+344 1 342 
+474 1 460 
+540 1 -2 
+605 2 -2 46 
+351 1 342 
+611 2 -2 595 
+487 2 480 460 
+177 1 -2 
+498 3 480 443 365 
+627 2 -2 53 
+183 1 181 
+376 3 322 443 365 
+569 3 480 523 559 
+633 2 -2 60 
+253 1 246 
+127 2 128 -2 
+639 2 -2 595 
+Constructors: 2
+449 443
+474 460
+
+Summary: 8
+322 -3 443 460 -1 1 -2 0 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGeometricBounds()Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+6
+$r1 1 1 
+$r4 1 14 
+$r2 1 1 
+_ret 1 1 
+r0 1 -1 
+r3 1 11 
+Fields: 1
+-1 visualBounds 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+22 1 -1 
+Functions: 2
+7 2 -1 1 
+13 1 11 
+Constructors: 0
+
+Summary: 2
+11 -1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getFontRenderContext()Ljava/awt/font/FontRenderContext;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 4 
+_ret 1 4 
+r0 1 -1 
+Fields: 1
+-1 awtGlyphVector 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGlyphCellBounds(I)Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+4
+$r1 1 2 
+$r2 1 5 
+_ret 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+2 1 2 
+Constructors: 0
+
+Summary: 2
+2 -1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGlyphCode(I)I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 awtGlyphVector 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGlyphTransform(I)Ljava/awt/geom/AffineTransform;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 5 
+r0 1 -1 
+$r2 1 5 
+Fields: 2
+1 ArrayObject 5
+-1 glyphTransforms 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.outlinesPositioned()Z
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getCharacterCount(II)I
+PTG:
+Vars:
+6
+$r5 1 25 
+$r2 1 25 
+r0 1 -1 
+$r4 1 25 
+$r1 1 25 
+$r3 1 25 
+Fields: 1
+-1 ci 25
+Accesses: 5
+49 1 -1 
+84 1 -1 
+37 1 -1 
+24 1 -1 
+62 1 -1 
+Functions: 8
+50 1 25 
+85 1 25 
+38 1 25 
+7 2 -1 25 
+25 1 25 
+77 0 
+14 2 -1 25 
+63 1 25 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.setGlyphVisible(IZ)V
+PTG:
+Vars:
+7
+$r1 1 2 
+$r3 1 39 
+$r2 1 2 
+$r5 1 53 
+$r4 1 46 
+$r6 1 60 
+r0 1 -1 
+Fields: 5
+-1 glyphVisible 2
+-1 glyphVisualBounds 39
+-1 glyphMetrics 60
+-1 glyphLogicalBounds 46
+-1 glyphOutlines 53
+Accesses: 10
+1 1 -1 
+35 1 -1 
+20 1 -1 
+52 1 -1 
+38 1 -1 
+25 1 -1 
+11 1 -1 
+59 1 -1 
+45 1 -1 
+30 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getBounds2D(Ljava/text/AttributedCharacterIterator;)Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+22
+$r20 1 21 
+$r21 1 21 
+$r6 1 59 
+r19 2 83 124 
+r3 1 11 
+$r2 1 11 
+$r7 1 73 
+$r16 1 86 
+_ret 1 21 
+$r17 1 29 
+r4 1 -1 
+r8 1 98 
+$r12 1 128 
+$r15 1 21 
+r0 1 -2 
+$r5 1 21 
+r13 1 138 
+$r14 1 21 
+r9 1 104 
+$r11 1 21 
+$r1 1 8 
+$r10 1 21 
+Fields: 5
+11 strokeStroke 98
+11 fillPaint 73
+11 strokePaint 104
+-1 cacheTPI 29
+-1 bounds2D 21
+Accesses: 17
+67 1 -1 
+100 1 11 
+165 1 -1 
+38 1 -1 
+72 1 11 
+200 1 -1 
+203 1 -1 
+140 1 -1 
+174 1 -1 
+49 1 11 
+20 1 -1 
+150 1 -1 
+186 1 -1 
+91 1 -1 
+28 1 -1 
+156 1 -1 
+94 1 11 
+Functions: 12
+64 5 98 104 73 59 11 
+128 1 128 
+1 1 -2 
+162 2 21 138 
+85 2 83 124 
+7 2 -2 8 
+120 3 -1 21 29 
+187 1 21 
+29 5 98 104 73 11 29 
+125 3 98 83 124 
+79 3 -1 21 29 
+175 1 21 
+Constructors: 1
+64 59
+
+Summary: 3
+-1 -2 0 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getFont()Lorg/apache/batik/gvt/font/GVTFont;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 gvtFont 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.performDefaultLayout()V
+PTG:
+Vars:
+28
+$r3 1 250 
+$r23 1 8 
+$r18 1 226 
+$r21 1 8 
+$r22 1 21 
+r27 1 244 
+$r9 1 118 
+$r17 1 182 
+$r19 1 195 
+$r7 1 104 
+$r1 1 1 
+$r11 1 161 
+$r20 1 182 
+$r25 1 47 
+$r24 1 1 
+$r12 1 161 
+r0 1 -1 
+$r5 1 90 
+$r6 1 97 
+$r4 2 182 246 
+$r8 1 111 
+$r10 1 1 
+$r13 1 182 
+$r2 1 1 
+r26 1 130 
+$r16 1 215 
+$r15 1 182 
+$r14 1 186 
+Fields: 15
+1 ArrayObject 244
+1 ArrayObject 130
+182 ArrayObject 215
+182 ArrayObject 226
+182 ArrayObject 186
+-1 glyphTransforms 90
+-1 awtGlyphVector 8
+-1 glyphVisualBounds 97
+-1 glyphMetrics 118
+-1 glyphLogicalBounds 104
+-1 defaultGlyphPositions 1
+-1 glyphOutlines 111
+-1 ci 161
+-1 glyphPositions 182
+-1 glyphPositions 246
+Accesses: 29
+0 1 -1 
+64 1 -1 
+258 1 -1 
+69 1 -1 
+7 1 -1 
+135 1 -1 
+74 1 -1 
+272 1 -1 
+210 1 -1 
+151 1 -1 
+24 1 -1 
+89 1 -1 
+218 1 215 
+221 1 -1 
+96 1 -1 
+160 1 -1 
+37 1 -1 
+165 1 -1 
+229 1 226 
+103 1 -1 
+42 1 -1 
+110 1 -1 
+238 1 -1 
+117 1 -1 
+181 1 -1 
+245 1 -1 
+59 1 -1 
+124 1 -1 
+190 1 -1 
+Functions: 13
+131 1 130 
+166 1 161 
+11 1 8 
+43 1 8 
+203 1 195 
+268 1 244 
+15 16 -1 97 1 161 130 226 8 104 111 244 118 182 246 215 90 186 
+175 1 161 
+82 16 -1 97 1 161 130 226 8 104 111 244 118 182 246 215 90 186 
+147 1 130 
+279 1 250 
+30 16 -1 97 1 161 130 226 8 104 111 244 118 182 246 215 90 186 
+254 1 244 
+Constructors: 2
+279 250
+203 195
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.isGlyphVisible(I)Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 glyphVisible 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.getGlyphPosition(I)Ljava/awt/geom/Point2D;
+PTG:
+Vars:
+4
+$r2 1 5 
+$r1 1 1 
+r0 1 -1 
+_ret 1 5 
+Fields: 2
+1 ArrayObject 5
+-1 glyphPositions 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/font/AWTGVTGlyphVector.<init>(Ljava/awt/font/GlyphVector;Lorg/apache/batik/gvt/font/AWTGVTFont;FLjava/text/CharacterIterator;)V
+PTG:
+Vars:
+16
+$r5 1 26 
+$r9 1 101 
+r2 1 -3 
+$r10 1 110 
+$r13 1 137 
+$r6 1 35 
+r7 1 41 
+$r11 1 119 
+$r14 1 145 
+$r12 1 128 
+$r4 1 32 
+r3 1 -5 
+r0 1 -1 
+r1 1 -2 
+$r8 1 92 
+$r15 1 162 
+Fields: 3
+-1 awtGlyphVector 32
+-1 glyphVisible 162
+-1 gvtFont 26
+Accesses: 20
+161 1 -1 
+131 1 -1 
+68 1 -1 
+6 1 -1 
+104 1 -1 
+73 1 -1 
+11 1 -1 
+139 1 -1 
+78 1 -1 
+16 1 -1 
+49 1 -1 
+113 1 -1 
+148 1 -1 
+22 1 -1 
+25 1 -1 
+58 1 -1 
+122 1 -1 
+31 1 -1 
+63 1 -1 
+95 1 -1 
+Functions: 6
+32 1 32 
+1 4 -1 32 162 26 
+81 1 -2 
+53 1 41 
+26 2 35 26 
+44 1 41 
+Constructors: 1
+1 -1
+
+Summary: 4
+-1 1 3 0 

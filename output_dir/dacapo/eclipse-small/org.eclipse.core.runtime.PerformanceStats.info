@@ -1,0 +1,598 @@
+29
+org/eclipse/core/runtime/PerformanceStats.reset()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.addListener(Lorg/eclipse/core/runtime/PerformanceStats$PerformanceListener;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/core/runtime/PerformanceStats.getBlameString()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 blame 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.startRun(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+16 1 -1 
+9 1 -1 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/runtime/PerformanceStats.printStats()V
+PTG:
+Vars:
+2
+$r0 1 7 
+$r1 1 11 
+Fields: 0
+Accesses: 0
+Functions: 4
+19 1 7 
+23 1 7 
+27 1 7 
+14 2 7 11 
+Constructors: 1
+14 7
+
+Summary: 1
+7 
+org/eclipse/core/runtime/PerformanceStats.<init>(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 1
+4 -1
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/core/runtime/PerformanceStats.getContext()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 context 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.getRunCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.getBlame()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 blame 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.getThreshold(Ljava/lang/String;)J
+PTG:
+Vars:
+11
+r0 1 -2 
+$r1 1 0 
+$r8 1 29 
+$r9 1 -1 
+$r5 1 57 
+r11 3 29 4 46 
+$r3 1 17 
+$r2 1 4 
+$r7 1 46 
+r10 1 -1 
+r4 1 24 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 2 0 -2 
+-1 0 
+17 2 17 -2 
+34 2 24 29 
+68 3 4 29 46 
+53 1 46 
+62 5 -2 4 57 29 46 
+Constructors: 2
+34 29
+53 46
+
+Summary: 5
+-2 29 0 -1 46 
+org/eclipse/core/runtime/PerformanceStats.clear()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 0 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/runtime/PerformanceStats.<clinit>()V
+PTG:
+Vars:
+7
+$r3 1 27 
+$r6 1 52 
+$r1 1 14 
+$r4 1 34 
+$r2 1 21 
+$r5 1 40 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 8
+-1 0 
+18 1 14 
+52 1 52 
+8 1 0 
+40 1 40 
+27 1 27 
+14 1 14 
+31 1 27 
+Constructors: 3
+18 14
+8 0
+31 27
+
+Summary: 2
+27 14 
+org/eclipse/core/runtime/PerformanceStats.addRun(JLjava/lang/String;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 47 
+$r1 1 30 
+r2 1 -3 
+$r3 1 43 
+Fields: 2
+-1 event 30
+-1 blamePluginId 47
+Accesses: 6
+17 1 -1 
+7 1 -1 
+24 1 -1 
+29 1 -1 
+14 1 -1 
+46 1 -1 
+Functions: 4
+51 2 43 47 
+40 4 -1 -3 30 47 
+28 3 -1 30 47 
+61 3 -1 30 47 
+Constructors: 0
+
+Summary: 3
+1 -1 -3 
+org/eclipse/core/runtime/PerformanceStats.printStats(Ljava/io/PrintWriter;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/core/runtime/PerformanceStats.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+11
+$r3 1 19 
+$r10 1 54 
+r2 1 -1 
+$r8 1 73 
+$r5 1 31 
+r0 1 -2 
+$r9 1 47 
+$r4 1 15 
+r1 1 -2 
+$r6 1 35 
+$r7 1 47 
+Fields: 5
+-2 event 19
+-2 context 54
+-2 context 73
+-1 event 15
+-1 context 47
+Accesses: 6
+18 1 -2 
+68 1 -1 
+53 1 -2 
+72 1 -2 
+14 1 -1 
+46 1 -1 
+Functions: 5
+34 4 -2 19 54 73 
+69 2 73 47 
+30 3 -1 15 47 
+15 2 19 15 
+31 2 35 31 
+Constructors: 0
+
+Summary: 6
+-2 54 0 -1 19 73 
+org/eclipse/core/runtime/PerformanceStats.getEvent()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 event 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.getAllStats()[Lorg/eclipse/core/runtime/PerformanceStats;
+PTG:
+Vars:
+8
+$r6 1 24 
+$r2 1 8 
+$r5 1 24 
+$r4 1 21 
+$r0 1 0 
+$r1 1 3 
+$r3 1 11 
+_ret 1 24 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 0 
+3 2 3 21 
+8 1 8 
+11 1 11 
+Constructors: 0
+
+Summary: 3
+11 21 3 
+org/eclipse/core/runtime/PerformanceStats.getRunningTime()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.isFailure()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.startRun()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.removeStats(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+10
+r10 1 -3 
+$r3 1 9 
+$r9 1 48 
+$r2 1 6 
+$r0 1 0 
+$r7 1 36 
+r4 1 19 
+$r5 1 24 
+r6 1 24 
+r8 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 9
+48 2 48 -3 
+64 1 19 
+34 1 24 
+36 2 -2 36 
+6 1 6 
+23 1 19 
+9 1 9 
+59 1 19 
+46 1 24 
+Constructors: 0
+
+Summary: 3
+-2 1 -3 
+org/eclipse/core/runtime/PerformanceStats.<init>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+r2 1 -3 
+$r8 2 45 -3 
+$r3 1 42 
+$r5 1 56 
+r1 1 -2 
+r6 1 -4 
+$r4 1 52 
+Fields: 0
+Accesses: 7
+48 1 -1 
+64 1 -1 
+18 1 -1 
+23 1 -1 
+8 1 -1 
+59 1 -1 
+13 1 -1 
+Functions: 5
+-1 0 
+1 1 -1 
+52 2 -3 52 
+41 1 -3 
+42 1 42 
+Constructors: 1
+1 -1
+
+Summary: 5
+42 2 1 0 -1 
+org/eclipse/core/runtime/PerformanceStats.getStats(Ljava/lang/String;Ljava/lang/Object;)Lorg/eclipse/core/runtime/PerformanceStats;
+PTG:
+Vars:
+8
+$r4 1 36 
+$r5 1 40 
+$r7 1 55 
+r1 1 -3 
+$r2 1 18 
+r6 1 40 
+r0 1 -2 
+_ret 1 18 
+Fields: 0
+Accesses: 0
+Functions: 3
+36 2 18 36 
+24 3 -2 18 -3 
+60 2 18 55 
+Constructors: 1
+24 18
+
+Summary: 3
+-2 1 -3 
+org/eclipse/core/runtime/PerformanceStats.toString()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r12 1 37 
+r2 1 -1 
+$r8 1 37 
+$r3 1 13 
+$r6 1 29 
+$r10 1 67 
+$r0 1 0 
+_ret 1 67 
+Fields: 3
+-1 blame 29
+-1 event 13
+-1 context 37
+Accesses: 4
+51 1 -1 
+36 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 8
+16 2 0 13 
+32 2 0 29 
+66 1 0 
+7 1 0 
+23 1 0 
+55 2 0 37 
+46 1 0 
+62 1 0 
+Constructors: 1
+7 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.hashCode()I
+PTG:
+Vars:
+5
+$r4 1 20 
+$r3 1 20 
+$r1 1 1 
+$r2 1 11 
+r0 1 -1 
+Fields: 2
+-1 event 1
+-1 context 20
+Accesses: 3
+0 1 -1 
+19 1 -1 
+30 1 -1 
+Functions: 4
+1 1 1 
+10 3 -1 1 20 
+11 1 11 
+31 1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.endRun()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 28 
+Fields: 1
+-1 context 28
+Accesses: 4
+6 1 -1 
+22 1 -1 
+38 1 -1 
+27 1 -1 
+Functions: 2
+-1 0 
+31 2 -1 28 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/PerformanceStats.createFailureStats(Ljava/lang/String;J)Lorg/eclipse/core/runtime/PerformanceStats;
+PTG:
+Vars:
+11
+$r6 1 23 
+r1 1 -1 
+$r8 1 38 
+$r0 1 0 
+$r4 1 5 
+r2 1 -2 
+r12 2 0 23 
+$r3 1 9 
+$r5 1 18 
+r7 1 23 
+_ret 2 0 23 
+Fields: 2
+-1 blame 9
+-1 event 5
+Accesses: 7
+64 2 0 23 
+83 2 0 23 
+4 1 -1 
+8 1 -1 
+72 2 0 23 
+75 2 0 23 
+61 2 0 23 
+Functions: 3
+18 2 0 18 
+13 4 0 -2 5 9 
+45 2 0 38 
+Constructors: 1
+13 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/PerformanceStats.removeListener(Lorg/eclipse/core/runtime/PerformanceStats$PerformanceListener;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/core/runtime/PerformanceStats.isEnabled(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 12 
+Fields: 0
+Accesses: 0
+Functions: 3
+17 1 12 
+8 1 -2 
+26 1 12 
+Constructors: 0
+
+Summary: 1
+-2 

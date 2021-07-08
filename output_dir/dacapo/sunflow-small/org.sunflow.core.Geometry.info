@@ -1,0 +1,284 @@
+11
+org/sunflow/core/Geometry.update(Lorg/sunflow/core/ParameterList;Lorg/sunflow/SunflowAPI;)Z
+PTG:
+Vars:
+8
+$r3 1 8 
+r0 1 -1 
+$r2 1 5 
+$r7 1 61 
+r1 1 -2 
+$r4 1 15 
+$r5 1 15 
+r6 1 -3 
+Fields: 3
+-1 acceltype 5
+-1 primitives 61
+-1 tesselatable 15
+Accesses: 10
+48 1 -1 
+33 1 -1 
+4 1 -1 
+38 1 -1 
+23 1 -1 
+41 1 -1 
+11 1 -1 
+28 1 -1 
+60 1 -1 
+14 1 -1 
+Functions: 3
+1 2 -2 5 
+49 2 -2 -3 
+61 3 -2 -3 61 
+Constructors: 0
+
+Summary: 5
+-3 0 -1 -2 1 
+org/sunflow/core/Geometry.intersect(Lorg/sunflow/core/Ray;Lorg/sunflow/core/IntersectionState;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+$r3 1 23 
+Fields: 1
+-1 accel 23
+Accesses: 3
+0 1 -1 
+22 1 -1 
+11 1 -1 
+Functions: 3
+19 2 -1 23 
+8 2 -1 23 
+28 3 -2 -3 23 
+Constructors: 0
+
+Summary: 5
+-3 0 -1 -2 1 
+org/sunflow/core/Geometry.getNumPrimitives()I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+Fields: 1
+-1 primitives 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/Geometry.getPrimitiveList()Lorg/sunflow/core/PrimitiveList;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 primitives 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/Geometry.getBakingPrimitives()Lorg/sunflow/core/PrimitiveList;
+PTG:
+Vars:
+5
+$r2 1 12 
+$r1 1 12 
+_ret 1 24 
+$r3 1 24 
+r0 1 -1 
+Fields: 1
+-1 primitives 12
+Accesses: 3
+0 1 -1 
+20 1 -1 
+11 1 -1 
+Functions: 2
+21 1 12 
+8 2 -1 12 
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/Geometry.tesselate()V
+PTG:
+Vars:
+14
+r0 1 -1 
+$r10 1 69 
+$r2 1 16 
+$r7 1 16 
+$r8 1 75 
+$r1 1 9 
+$r3 1 28 
+$r11 1 89 
+$r4 1 22 
+$r5 1 9 
+$r12 1 60 
+$r13 1 54 
+$r6 1 39 
+$r9 1 16 
+Fields: 2
+-1 primitives 16
+-1 tesselatable 9
+Accesses: 8
+0 1 -1 
+80 1 -1 
+98 1 -1 
+35 1 -1 
+8 1 -1 
+44 1 -1 
+15 1 -1 
+47 1 -1 
+Functions: 6
+81 1 16 
+36 1 9 
+84 0 
+93 2 69 75 
+31 2 22 28 
+63 2 54 60 
+Constructors: 0
+
+Summary: 4
+28 -1 60 75 
+org/sunflow/core/Geometry.prepareShadingState(Lorg/sunflow/core/ShadingState;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 primitives 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/sunflow/core/Geometry.getWorldBounds(Lorg/sunflow/math/Matrix4;)Lorg/sunflow/math/BoundingBox;
+PTG:
+Vars:
+9
+r6 1 17 
+$r4 1 49 
+r2 1 -2 
+$r5 1 8 
+$r1 1 1 
+_ret 1 49 
+r0 1 -1 
+$r7 1 1 
+$r3 1 1 
+Fields: 2
+-1 primitives 1
+-1 tesselatable 8
+Accesses: 5
+0 1 -1 
+35 1 -1 
+7 1 -1 
+24 1 -1 
+44 1 -1 
+Functions: 3
+32 3 -1 1 8 
+8 2 -2 8 
+45 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/sunflow/core/Geometry.build()V
+PTG:
+Vars:
+11
+$r1 1 9 
+$r6 1 9 
+$r2 1 81 
+r0 1 -1 
+$r3 1 9 
+$r10 1 44 
+$r8 1 38 
+$r7 1 65 
+$r4 1 53 
+$r5 1 58 
+$r9 1 32 
+Fields: 3
+-1 acceltype 53
+-1 primitives 9
+-1 accel 65
+Accesses: 9
+0 1 -1 
+64 1 -1 
+52 1 -1 
+68 1 -1 
+8 1 -1 
+88 1 -1 
+61 1 -1 
+93 1 -1 
+15 1 -1 
+Functions: 6
+16 1 9 
+48 2 32 38 
+85 1 81 
+72 2 65 9 
+57 1 53 
+43 0 
+Constructors: 1
+85 81
+
+Summary: 2
+-1 38 
+org/sunflow/core/Geometry.<init>(Lorg/sunflow/core/Tesselatable;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 6
+16 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/sunflow/core/Geometry.<init>(Lorg/sunflow/core/PrimitiveList;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 5
+16 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 

@@ -1,0 +1,269 @@
+12
+sun/nio/ch/MembershipKeyImpl.networkInterface()Ljava/net/NetworkInterface;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 interf 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/MembershipKeyImpl.channel()Ljava/nio/channels/MulticastChannel;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 ch 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/MembershipKeyImpl.unblock(Ljava/net/InetAddress;)Ljava/nio/channels/MembershipKey;
+PTG:
+Vars:
+9
+$r9 1 8 
+_ret 1 -1 
+$r8 1 36 
+$r6 1 8 
+r0 1 -1 
+r5 1 -2 
+$r7 1 36 
+$r3 1 8 
+$r1 1 1 
+Fields: 3
+-1 ch 36
+-1 stateLock 1
+-1 blockedSet 8
+Accesses: 5
+0 1 -1 
+35 1 -1 
+7 1 -1 
+14 1 -1 
+47 1 -1 
+Functions: 4
+52 2 -2 8 
+44 5 -1 1 -2 36 8 
+15 2 -2 8 
+31 0 
+Constructors: 0
+
+Summary: 1
+-2 
+sun/nio/ch/MembershipKeyImpl.sourceAddress()Ljava/net/InetAddress;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 source 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/MembershipKeyImpl.drop()V
+PTG:
+Vars:
+3
+$r2 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 ch 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/MembershipKeyImpl.isValid()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/MembershipKeyImpl.group()Ljava/net/InetAddress;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 group 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/MembershipKeyImpl.<init>(Ljava/nio/channels/MulticastChannel;Ljava/net/InetAddress;Ljava/net/NetworkInterface;Ljava/net/InetAddress;Lsun/nio/ch/MembershipKeyImpl$1;)V
+PTG:
+Vars:
+6
+r2 1 -3 
+r4 1 -5 
+r5 1 -6 
+r0 1 -1 
+r3 1 -4 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 5 -1 -2 -3 -4 -5 
+Constructors: 1
+6 -1
+
+Summary: 10
+1 0 -1 2 -2 -3 3 -5 -6 -4 
+sun/nio/ch/MembershipKeyImpl.block(Ljava/net/InetAddress;)Ljava/nio/channels/MembershipKey;
+PTG:
+Vars:
+12
+$r2 1 18 
+r6 1 -2 
+_ret 1 -1 
+$r10 1 66 
+$r11 1 25 
+$r1 1 1 
+$r4 1 25 
+$r7 1 47 
+$r8 1 25 
+$r5 1 47 
+$r9 1 25 
+r0 1 -1 
+Fields: 4
+-1 ch 47
+-1 source 1
+-1 stateLock 18
+-1 blockedSet 25
+Accesses: 8
+0 1 -1 
+17 1 -1 
+24 1 -1 
+73 1 -1 
+58 1 -1 
+76 1 -1 
+46 1 -1 
+31 1 -1 
+Functions: 5
+32 2 -2 25 
+81 2 -2 25 
+70 1 66 
+55 6 -1 1 -2 18 25 47 
+13 0 
+Constructors: 1
+70 66
+
+Summary: 1
+-2 
+sun/nio/ch/MembershipKeyImpl.invalidate()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/MembershipKeyImpl.toString()Ljava/lang/String;
+PTG:
+Vars:
+11
+$r9 1 41 
+_ret 1 82 
+r3 1 -1 
+$r5 1 22 
+$r4 1 19 
+$r16 1 67 
+$r15 1 49 
+$r0 1 0 
+$r13 1 82 
+$r8 1 38 
+$r11 1 49 
+Fields: 3
+-1 interf 38
+-1 group 19
+-1 source 49
+Accesses: 4
+48 1 -1 
+18 1 -1 
+37 1 -1 
+63 1 -1 
+Functions: 12
+32 1 0 
+64 1 49 
+81 1 0 
+19 1 19 
+6 1 0 
+38 1 38 
+70 2 0 67 
+25 2 0 22 
+58 1 0 
+44 2 0 41 
+13 1 0 
+77 1 0 
+Constructors: 1
+6 0
+
+Summary: 4
+-1 22 41 67 
+sun/nio/ch/MembershipKeyImpl.<init>(Ljava/nio/channels/MulticastChannel;Ljava/net/InetAddress;Ljava/net/NetworkInterface;Ljava/net/InetAddress;)V
+PTG:
+Vars:
+6
+r3 1 -3 
+$r1 1 10 
+r5 1 -5 
+r0 1 -1 
+r2 1 -2 
+r4 1 -4 
+Fields: 0
+Accesses: 6
+32 1 -1 
+17 1 -1 
+6 1 -1 
+22 1 -1 
+38 1 -1 
+27 1 -1 
+Functions: 2
+1 1 -1 
+14 1 10 
+Constructors: 2
+1 -1
+14 10
+
+Summary: 5
+1 0 -1 2 3 

@@ -1,0 +1,1188 @@
+29
+org/eclipse/core/internal/jobs/DeadlockDetector.getOwnedLocks(Ljava/lang/Thread;)[Ljava/lang/Object;
+PTG:
+Vars:
+11
+_ret 1 81 
+r3 1 -2 
+$r6 1 39 
+$r10 1 61 
+$r8 1 81 
+$r4 2 57 23 
+$r5 1 27 
+r2 1 -1 
+$r9 1 57 
+$r7 1 44 
+$r0 1 0 
+Fields: 5
+-1 locks 39
+-1 graph 57
+57 ArrayObject 61
+57 ArrayObject 27
+23 ArrayObject 27
+Accesses: 3
+22 1 -1 
+38 1 -1 
+56 1 -1 
+Functions: 7
+80 1 0 
+66 1 0 
+5 1 0 
+39 1 39 
+9 6 -1 -2 39 57 27 61 
+76 0 
+47 2 0 44 
+Constructors: 1
+5 0
+
+Summary: 4
+-1 44 -2 0 
+org/eclipse/core/internal/jobs/DeadlockDetector.<init>()V
+PTG:
+Vars:
+4
+$r2 1 12 
+$r3 1 23 
+$r1 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+19 1 -1 
+35 1 -1 
+8 1 -1 
+30 1 -1 
+Functions: 3
+16 1 12 
+1 1 -1 
+27 1 23 
+Constructors: 3
+16 12
+1 -1
+27 23
+
+Summary: 1
+-1 
+org/eclipse/core/internal/jobs/DeadlockDetector.resizeGraph()V
+PTG:
+Vars:
+10
+$r9 1 51 
+$r1 1 1 
+r3 1 34 
+$r8 2 56 56 
+$r2 1 9 
+r0 1 -1 
+$r5 2 75 46 
+$r4 1 75 
+$r6 2 59 75 
+$r7 1 64 
+Fields: 8
+-1 lockThreads 1
+-1 locks 9
+-1 graph 75
+59 ArrayObject 64
+34 ArrayObject 56
+75 ArrayObject 64
+75 ArrayObject 51
+46 ArrayObject 51
+Accesses: 8
+0 1 -1 
+84 1 -1 
+8 1 -1 
+89 1 -1 
+58 1 -1 
+74 1 -1 
+28 1 -1 
+45 1 -1 
+Functions: 3
+1 1 1 
+66 2 51 56 
+9 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/jobs/DeadlockDetector.getThreadsInDeadlock(Ljava/lang/Thread;)[Ljava/lang/Thread;
+PTG:
+Vars:
+7
+$r4 1 35 
+_ret 1 38 
+$r0 1 0 
+$r5 1 38 
+r3 1 -2 
+$r6 1 38 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+19 2 0 -2 
+5 1 0 
+9 2 -1 -2 
+26 3 -1 0 -2 
+30 2 0 35 
+31 1 0 
+Constructors: 1
+5 0
+
+Summary: 5
+-1 35 0 -2 0 
+org/eclipse/core/internal/jobs/DeadlockDetector.fillPresentEntries(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;I)V
+PTG:
+Vars:
+28
+$r9 2 67 90 
+$r26 2 201 90 
+$r22 1 191 
+$r14 1 127 
+$r19 1 168 
+$r6 1 42 
+$r11 1 80 
+$r18 3 163 201 90 
+r1 1 -2 
+$r3 1 16 
+$r5 2 37 90 
+$r21 3 186 201 90 
+$r15 1 127 
+$r17 1 153 
+$r12 1 72 
+$r20 3 178 201 90 
+$r27 1 102 
+$r10 2 75 90 
+$r25 1 102 
+$r4 1 16 
+$r16 3 148 201 90 
+$r8 1 57 
+$r23 1 183 
+$r24 1 90 
+$r2 2 12 102 
+$r7 2 52 90 
+r0 1 -1 
+$r13 2 123 102 
+Fields: 23
+-1 locks 102
+-1 graph 90
+-1 graph 201
+178 ArrayObject 183
+186 ArrayObject 191
+148 ArrayObject 153
+37 ArrayObject 42
+67 ArrayObject 72
+75 ArrayObject 80
+163 ArrayObject 168
+52 ArrayObject 57
+201 ArrayObject 183
+201 ArrayObject 191
+201 ArrayObject 153
+201 ArrayObject 168
+90 ArrayObject 168
+90 ArrayObject 57
+90 ArrayObject 183
+90 ArrayObject 191
+90 ArrayObject 153
+90 ArrayObject 42
+90 ArrayObject 72
+90 ArrayObject 80
+Accesses: 14
+66 1 -1 
+162 1 -1 
+36 1 -1 
+101 1 -1 
+200 1 -1 
+74 1 -1 
+11 1 -1 
+177 1 -1 
+51 1 -1 
+147 1 -1 
+212 1 -1 
+89 1 -1 
+185 1 -1 
+122 1 -1 
+Functions: 6
+213 1 102 
+102 1 102 
+121 2 -2 127 
+10 2 16 -2 
+123 2 102 123 
+12 2 102 12 
+Constructors: 0
+
+Summary: 5
+-1 0 127 16 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.lockAcquired(Ljava/lang/Thread;Lorg/eclipse/core/runtime/jobs/ISchedulingRule;)V
+PTG:
+Vars:
+18
+r10 1 102 
+$r11 2 180 117 
+$r12 1 122 
+$r9 1 102 
+r13 1 122 
+r0 1 -1 
+$r14 2 27 161 
+$r18 1 180 
+$r15 1 166 
+$r4 1 32 
+r2 1 -2 
+$r3 1 27 
+$r17 1 47 
+$r16 1 27 
+$r7 1 27 
+$r5 1 53 
+r1 1 -3 
+$r8 1 79 
+Fields: 7
+-1 locks 180
+-1 graph 27
+27 ArrayObject 166
+27 ArrayObject 47
+27 ArrayObject 32
+27 ArrayObject 79
+161 ArrayObject 166
+Accesses: 7
+160 1 -1 
+179 1 -1 
+116 1 -1 
+41 1 -1 
+73 1 -1 
+26 1 -1 
+15 1 -1 
+Functions: 12
+0 8 -1 32 -3 180 166 27 47 79 
+98 1 53 
+130 2 102 122 
+194 1 53 
+180 1 180 
+69 2 -3 53 
+117 2 180 117 
+7 8 -1 32 -2 180 166 27 47 79 
+23 7 -1 32 180 166 27 47 79 
+58 1 53 
+156 2 53 122 
+142 2 53 122 
+Constructors: 1
+58 53
+
+Summary: 8
+1 -3 102 122 -1 53 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.resolutionCandidate([Ljava/lang/Thread;)Ljava/lang/Thread;
+PTG:
+Vars:
+6
+$r2 1 8 
+_ret 1 58 
+$r4 1 36 
+r0 1 -2 
+$r6 1 58 
+r1 1 -1 
+Fields: 3
+-2 ArrayObject 8
+-2 ArrayObject 58
+-2 ArrayObject 36
+Accesses: 0
+Functions: 2
+33 2 -1 36 
+5 2 -1 8 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.indexOf(Ljava/lang/Thread;Z)I
+PTG:
+Vars:
+5
+$r3 1 1 
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+$r4 1 1 
+Fields: 1
+-1 lockThreads 1
+Accesses: 4
+0 1 -1 
+17 1 -1 
+28 1 -1 
+31 1 -1 
+Functions: 3
+32 1 1 
+1 2 1 -2 
+22 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.lockWaitStart(Ljava/lang/Thread;Lorg/eclipse/core/runtime/jobs/ISchedulingRule;)Lorg/eclipse/core/internal/jobs/Deadlock;
+PTG:
+Vars:
+12
+_ret 1 60 
+r0 1 -1 
+r1 1 -2 
+$r10 1 135 
+r4 1 21 
+$r11 1 142 
+$r3 1 15 
+r7 1 58 
+r5 1 42 
+r6 1 50 
+$r8 1 60 
+r2 1 -3 
+Fields: 2
+-1 lockThreads 15
+58 ArrayObject 142
+Accesses: 1
+14 1 -1 
+Functions: 17
+97 0 
+4 4 -1 -2 -3 15 
+37 3 -1 -2 15 
+133 1 60 
+70 5 50 42 58 60 142 
+7 3 -1 -3 15 
+104 0 
+107 1 -2 
+44 3 -1 42 15 
+15 1 15 
+111 0 
+144 4 -1 135 142 15 
+52 3 -1 50 15 
+84 3 -1 60 15 
+116 0 
+25 3 -1 21 15 
+122 0 
+Constructors: 1
+70 60
+
+Summary: 13
+21 135 1 119 -3 42 50 58 -1 0 -2 108 116 
+org/eclipse/core/internal/jobs/DeadlockDetector.setToWait(Ljava/lang/Thread;Lorg/eclipse/core/runtime/jobs/ISchedulingRule;Z)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 -2 
+$r4 1 66 
+$r3 1 61 
+r1 1 -3 
+Fields: 2
+-1 graph 61
+61 ArrayObject 66
+Accesses: 2
+49 1 -1 
+60 1 -1 
+Functions: 4
+17 4 -1 66 -3 61 
+33 4 -1 -2 66 61 
+82 4 -1 66 -3 61 
+57 3 -1 66 61 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.realLocksForThread(Ljava/lang/Thread;)[Lorg/eclipse/core/runtime/jobs/ISchedulingRule;
+PTG:
+Vars:
+15
+$r8 2 54 38 
+$r9 1 59 
+$r13 1 72 
+$r12 1 104 
+$r4 2 23 72 
+$r5 1 27 
+$r6 1 38 
+$r2 1 7 
+$r7 1 43 
+r0 1 -1 
+_ret 1 104 
+$r11 1 104 
+r1 1 -2 
+$r14 1 76 
+$r10 1 101 
+Fields: 5
+-1 locks 38
+-1 graph 72
+23 ArrayObject 27
+72 ArrayObject 76
+72 ArrayObject 27
+Accesses: 4
+37 1 -1 
+53 1 -1 
+22 1 -1 
+71 1 -1 
+Functions: 9
+0 6 -1 -2 38 72 27 76 
+96 2 101 7 
+81 1 7 
+97 1 7 
+38 1 38 
+54 2 54 38 
+12 1 7 
+92 0 
+62 2 7 59 
+Constructors: 1
+12 7
+
+Summary: 7
+43 59 -1 7 101 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.indexOf(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;Z)I
+PTG:
+Vars:
+5
+$r3 1 1 
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+$r4 1 1 
+Fields: 1
+-1 locks 1
+Accesses: 4
+0 1 -1 
+17 1 -1 
+28 1 -1 
+31 1 -1 
+Functions: 3
+32 1 1 
+1 2 1 -2 
+22 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.addCycleThreads(Ljava/util/ArrayList;Ljava/lang/Thread;)Z
+PTG:
+Vars:
+8
+r0 1 -1 
+r1 1 -3 
+r3 1 -2 
+$r7 1 70 
+$r6 1 53 
+$r5 1 43 
+$r4 1 26 
+r2 1 5 
+Fields: 4
+5 ArrayObject 43
+5 ArrayObject 53
+5 ArrayObject 26
+5 ArrayObject 70
+Accesses: 0
+Functions: 5
+0 2 -1 -3 
+48 3 -1 -2 53 
+22 2 -2 26 
+71 2 -2 70 
+44 2 -2 43 
+Constructors: 0
+
+Summary: 6
+-1 5 1 -3 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.toDebugString()Ljava/lang/String;
+PTG:
+Vars:
+29
+$r7 2 42 68 
+$r17 1 108 
+$r10 1 54 
+$r16 1 102 
+$r24 2 190 144 
+$r20 1 120 
+$r18 1 111 
+$r23 1 133 
+r4 1 -1 
+$r21 2 172 190 
+$r14 1 98 
+$r5 1 68 
+$r0 1 0 
+$r12 1 190 
+$r6 1 31 
+$r15 1 102 
+$r13 1 87 
+$r11 1 57 
+$r28 1 160 
+$r9 1 49 
+$r27 1 157 
+$r29 1 205 
+_ret 1 205 
+$r26 1 152 
+$r8 1 46 
+$r19 1 117 
+$r22 1 176 
+$r25 1 148 
+$r2 1 8 
+Fields: 7
+-1 lockThreads 98
+-1 locks 68
+-1 graph 190
+172 ArrayObject 176
+190 ArrayObject 176
+190 ArrayObject 148
+144 ArrayObject 148
+Accesses: 6
+97 1 -1 
+67 1 -1 
+41 1 -1 
+171 1 -1 
+189 1 -1 
+143 1 -1 
+Functions: 26
+4 1 0 
+68 1 68 
+133 1 133 
+201 1 8 
+140 1 133 
+204 1 0 
+14 2 0 8 
+78 1 8 
+22 1 8 
+87 2 87 108 
+152 1 152 
+157 1 157 
+94 1 87 
+31 2 46 31 
+98 1 98 
+163 2 160 8 
+38 1 31 
+105 1 102 
+42 2 68 42 
+111 1 111 
+49 1 49 
+117 1 117 
+54 1 54 
+182 1 8 
+123 2 8 120 
+60 2 8 57 
+Constructors: 5
+4 0
+38 31
+140 133
+14 8
+94 87
+
+Summary: 11
+157 -1 8 57 108 160 46 54 102 117 120 
+org/eclipse/core/internal/jobs/DeadlockDetector.contains(Ljava/lang/Thread;)Z
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 lockThreads 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 10 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/internal/jobs/DeadlockDetector.ownsRealLocks(Ljava/lang/Thread;)Z
+PTG:
+Vars:
+8
+r5 1 34 
+$r3 1 17 
+r0 1 -1 
+r1 1 -2 
+$r4 1 27 
+$r7 1 55 
+$r2 2 13 51 
+$r6 1 51 
+Fields: 5
+13 ArrayObject 17
+-1 locks 27
+-1 graph 51
+51 ArrayObject 55
+51 ArrayObject 17
+Accesses: 3
+50 1 -1 
+26 1 -1 
+12 1 -1 
+Functions: 2
+0 6 -1 17 -2 51 55 27 
+27 1 27 
+Constructors: 0
+
+Summary: 3
+-1 34 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.ownsRuleLocks(Ljava/lang/Thread;)Z
+PTG:
+Vars:
+8
+r0 1 -1 
+$r3 1 17 
+$r4 1 27 
+r5 1 34 
+$r7 1 55 
+$r6 1 51 
+r1 1 -2 
+$r2 2 13 51 
+Fields: 5
+13 ArrayObject 17
+-1 locks 27
+-1 graph 51
+51 ArrayObject 55
+51 ArrayObject 17
+Accesses: 3
+50 1 -1 
+26 1 -1 
+12 1 -1 
+Functions: 2
+0 6 -1 17 -2 51 55 27 
+27 1 27 
+Constructors: 0
+
+Summary: 3
+-1 34 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.lockReleasedCompletely(Ljava/lang/Thread;Lorg/eclipse/core/runtime/jobs/ISchedulingRule;)V
+PTG:
+Vars:
+11
+$r7 2 162 144 
+$r8 1 149 
+r1 1 -3 
+r0 1 -1 
+$r23 1 162 
+r2 1 -2 
+$r6 1 133 
+$r4 1 118 
+$r3 1 113 
+$r24 1 167 
+$r5 2 162 128 
+Fields: 7
+-1 locks 113
+-1 graph 162
+162 ArrayObject 167
+162 ArrayObject 149
+162 ArrayObject 133
+128 ArrayObject 133
+144 ArrayObject 149
+Accesses: 4
+112 1 -1 
+161 1 -1 
+127 1 -1 
+143 1 -1 
+Functions: 18
+0 7 -1 113 162 -3 149 133 167 
+96 0 
+35 0 
+102 0 
+7 7 -1 113 -2 162 149 133 167 
+39 0 
+74 0 
+44 0 
+47 1 -2 
+80 0 
+176 7 -1 113 162 -3 149 133 167 
+113 1 113 
+51 0 
+83 1 -2 
+87 0 
+57 0 
+92 1 -3 
+29 1 -3 
+Constructors: 0
+
+Summary: 12
+51 99 -3 -1 0 84 1 54 118 48 96 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.blockingThreads(Ljava/lang/Thread;)[Ljava/lang/Thread;
+PTG:
+Vars:
+6
+$r4 1 11 
+_ret 1 11 
+$r2 1 2 
+r0 1 -1 
+r3 1 2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+9 2 -1 2 
+Constructors: 0
+
+Summary: 4
+-1 2 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.ownsLocks(Ljava/lang/Thread;)Z
+PTG:
+Vars:
+6
+$r5 1 17 
+$r3 1 37 
+r1 1 -2 
+$r2 1 33 
+$r4 2 13 33 
+r0 1 -1 
+Fields: 4
+13 ArrayObject 17
+-1 graph 33
+33 ArrayObject 37
+33 ArrayObject 17
+Accesses: 2
+32 1 -1 
+12 1 -1 
+Functions: 1
+0 5 -1 33 17 -2 37 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.reportDeadlock(Lorg/eclipse/core/internal/jobs/Deadlock;)V
+PTG:
+Vars:
+22
+$r22 1 131 
+$r0 1 0 
+$r8 1 39 
+$r12 1 67 
+r10 1 54 
+r13 1 71 
+$r14 1 78 
+$r3 1 14 
+$r29 1 200 
+r1 1 -2 
+$r18 1 102 
+$r30 2 154 148 
+r11 1 -1 
+r15 1 82 
+$r19 1 103 
+$r16 1 84 
+$r28 1 189 
+$r2 1 11 
+$r4 1 17 
+$r5 1 23 
+r6 1 29 
+$r7 1 30 
+Fields: 4
+71 ArrayObject 131
+54 ArrayObject 102
+54 ArrayObject 67
+54 ArrayObject 78
+Accesses: 0
+Functions: 23
+0 2 0 14 
+227 1 30 
+132 2 131 84 
+102 1 102 
+198 1 84 
+7 1 0 
+73 2 -1 78 
+10 1 -2 
+106 2 84 103 
+11 1 11 
+43 1 39 
+204 2 200 189 
+46 3 39 29 30 
+17 1 17 
+177 1 84 
+50 1 -2 
+115 1 84 
+212 2 189 30 
+23 1 23 
+185 2 82 84 
+91 1 84 
+157 3 84 148 154 
+62 2 -1 67 
+Constructors: 5
+7 0
+43 39
+91 84
+204 189
+46 30
+
+Summary: 14
+11 23 200 103 71 14 54 189 82 -1 29 30 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.lockWaitStop(Ljava/lang/Thread;Lorg/eclipse/core/runtime/jobs/ISchedulingRule;)V
+PTG:
+Vars:
+15
+$r5 1 99 
+$r13 1 147 
+$r6 1 163 
+r0 1 -1 
+$r10 1 134 
+$r8 1 125 
+$r14 1 150 
+$r4 1 104 
+$r12 1 141 
+$r7 1 114 
+$r9 1 128 
+$r11 1 138 
+r2 1 -2 
+r1 1 -3 
+$r3 1 99 
+Fields: 3
+-1 graph 99
+99 ArrayObject 104
+99 ArrayObject 163
+Accesses: 2
+98 1 -1 
+157 1 -1 
+Functions: 23
+0 5 -1 -3 99 163 104 
+128 1 128 
+36 0 
+134 2 134 138 
+7 5 -1 -2 99 163 104 
+39 1 -2 
+72 1 -3 
+137 1 -3 
+43 0 
+141 1 141 
+173 5 -1 -3 99 163 104 
+78 0 
+49 0 
+82 0 
+114 2 114 125 
+147 1 147 
+55 0 
+88 0 
+121 1 114 
+153 1 150 
+124 1 -2 
+29 0 
+94 0 
+Constructors: 1
+121 114
+
+Summary: 13
+91 147 138 -1 49 52 0 1 150 125 40 88 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.lockReleased(Ljava/lang/Thread;Lorg/eclipse/core/runtime/jobs/ISchedulingRule;)V
+PTG:
+Vars:
+27
+r1 1 -3 
+$r22 1 301 
+$r10 1 231 
+$r6 2 207 114 
+$r13 1 244 
+$r41 1 114 
+$r5 1 154 
+$r18 1 181 
+$r7 1 212 
+$r21 1 114 
+$r20 1 196 
+$r16 1 256 
+$r23 1 114 
+$r14 1 249 
+$r17 2 176 149 
+$r3 1 149 
+$r19 2 191 114 
+r2 1 -2 
+$r12 1 241 
+r0 1 -1 
+$r4 1 154 
+$r9 1 271 
+$r8 2 266 114 
+$r24 1 119 
+$r11 1 228 
+$r42 1 290 
+$r15 1 253 
+Fields: 11
+-1 locks 149
+-1 graph 114
+266 ArrayObject 271
+191 ArrayObject 196
+207 ArrayObject 212
+114 ArrayObject 212
+114 ArrayObject 196
+114 ArrayObject 271
+114 ArrayObject 301
+114 ArrayObject 119
+114 ArrayObject 290
+Accesses: 9
+128 1 -1 
+113 1 -1 
+148 1 -1 
+295 1 -1 
+265 1 -1 
+284 1 -1 
+190 1 -1 
+206 1 -1 
+175 1 -1 
+Functions: 27
+0 10 -1 114 290 -3 212 196 149 119 301 271 
+259 2 256 228 
+7 10 -1 -2 114 290 212 196 149 119 301 271 
+74 0 
+80 0 
+83 1 -2 
+147 2 -3 154 
+149 1 149 
+87 0 
+92 1 -3 
+29 1 -3 
+96 0 
+35 0 
+102 0 
+39 0 
+231 2 241 231 
+44 0 
+237 1 231 
+47 1 -2 
+176 2 176 149 
+240 1 -2 
+51 0 
+244 1 244 
+57 0 
+249 2 -3 249 
+314 10 -1 114 290 -3 212 196 149 119 301 271 
+253 1 253 
+Constructors: 1
+237 231
+
+Summary: 16
+51 99 181 -3 253 -1 154 0 84 256 1 54 241 48 96 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.reduceGraph(ILorg/eclipse/core/runtime/jobs/ISchedulingRule;)V
+PTG:
+Vars:
+36
+$r5 1 26 
+$r1 1 1 
+$r17 1 226 
+r37 1 271 
+$r20 1 412 
+r0 1 -1 
+$r8 1 46 
+$r32 1 478 
+$r22 1 336 
+$r28 2 109 303 
+$r6 1 26 
+$r29 1 109 
+$r14 1 148 
+$r31 1 109 
+$r36 2 109 173 
+$r9 1 109 
+$r25 2 385 109 
+$r26 1 393 
+$r7 2 1 41 
+$r12 1 87 
+$r21 2 331 109 
+$r10 1 113 
+$r19 2 407 109 
+r3 1 -3 
+$r18 1 1 
+$r11 2 83 109 
+$r30 1 109 
+r2 1 9 
+$r13 2 143 109 
+$r4 2 1 21 
+$r34 1 226 
+$r27 2 381 381 
+$r15 2 1 189 
+$r23 2 361 109 
+$r38 1 109 
+$r24 1 366 
+Fields: 18
+-1 lockThreads 226
+-1 locks 1
+-1 graph 109
+361 ArrayObject 366
+331 ArrayObject 336
+271 ArrayObject 381
+407 ArrayObject 412
+385 ArrayObject 393
+83 ArrayObject 87
+143 ArrayObject 148
+109 ArrayObject 148
+109 ArrayObject 393
+109 ArrayObject 87
+109 ArrayObject 113
+109 ArrayObject 366
+109 ArrayObject 336
+109 ArrayObject 412
+109 ArrayObject 478
+Accesses: 22
+0 1 -1 
+384 1 -1 
+225 1 -1 
+40 1 -1 
+264 1 -1 
+360 1 -1 
+425 1 -1 
+234 1 -1 
+330 1 -1 
+108 1 -1 
+172 1 -1 
+142 1 -1 
+302 1 -1 
+465 1 -1 
+82 1 -1 
+243 1 -1 
+20 1 -1 
+406 1 -1 
+439 1 -1 
+473 1 -1 
+188 1 -1 
+444 1 -1 
+Functions: 10
+1 1 1 
+194 2 1 189 
+19 2 -3 26 
+244 1 1 
+21 2 1 21 
+230 1 226 
+41 2 1 41 
+235 1 226 
+460 0 
+495 0 
+Constructors: 0
+
+Summary: 6
+-3 26 -1 9 1 46 
+org/eclipse/core/internal/jobs/DeadlockDetector.getWaitingLock(Ljava/lang/Thread;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 44 
+$r5 1 17 
+$r4 2 13 40 
+r1 1 -2 
+$r2 1 40 
+Fields: 4
+13 ArrayObject 17
+-1 graph 40
+40 ArrayObject 44
+40 ArrayObject 17
+Accesses: 3
+39 1 -1 
+26 1 -1 
+12 1 -1 
+Functions: 2
+0 5 -1 17 -2 40 44 
+27 0 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.checkWaitCycles([II)Z
+PTG:
+Vars:
+9
+$r8 1 97 
+$r1 2 97 6 
+r3 1 -2 
+$r5 1 48 
+$r6 2 97 76 
+r0 1 -1 
+$r4 2 97 44 
+$r7 1 80 
+$r2 1 10 
+Fields: 7
+-1 graph 97
+97 ArrayObject 10
+97 ArrayObject 80
+97 ArrayObject 48
+6 ArrayObject 10
+44 ArrayObject 48
+76 ArrayObject 80
+Accesses: 4
+96 1 -1 
+5 1 -1 
+43 1 -1 
+75 1 -1 
+Functions: 1
+58 6 -1 80 48 97 -2 10 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.getThreadsOwningLock(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;)[Ljava/lang/Thread;
+PTG:
+Vars:
+22
+$r5 1 37 
+$r15 1 99 
+$r2 1 16 
+$r9 1 134 
+$r13 1 89 
+r0 1 -2 
+$r6 1 48 
+$r11 1 152 
+$r7 1 53 
+$r16 1 104 
+$r4 2 32 66 
+$r20 1 166 
+_ret 1 169 
+r1 1 -1 
+$r21 1 169 
+$r12 1 155 
+$r14 1 86 
+$r8 1 137 
+$r10 1 147 
+$r22 1 169 
+$r19 1 66 
+$r17 1 107 
+Fields: 4
+-1 lockThreads 48
+-1 graph 66
+32 ArrayObject 37
+66 ArrayObject 37
+Accesses: 3
+65 1 -1 
+31 1 -1 
+47 1 -1 
+Functions: 18
+161 2 16 166 
+162 1 16 
+99 1 99 
+104 1 104 
+9 5 -1 48 -2 66 37 
+73 1 16 
+137 2 -2 137 
+110 2 86 107 
+143 1 137 
+48 1 48 
+113 1 16 
+147 1 147 
+21 1 16 
+56 2 16 53 
+152 1 152 
+89 2 -2 89 
+158 2 134 155 
+95 1 89 
+Constructors: 3
+21 16
+95 89
+143 137
+
+Summary: 10
+152 166 107 16 -1 53 155 0 104 -2 
+org/eclipse/core/internal/jobs/DeadlockDetector.isEmpty()Z
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 11 
+r0 1 -1 
+$r3 1 21 
+Fields: 3
+-1 lockThreads 11
+-1 locks 1
+-1 graph 21
+Accesses: 3
+0 1 -1 
+20 1 -1 
+10 1 -1 
+Functions: 2
+1 1 1 
+11 1 11 
+Constructors: 0
+
+Summary: 1
+-1 

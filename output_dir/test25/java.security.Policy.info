@@ -1,0 +1,501 @@
+21
+java/security/Policy.implies(Ljava/security/ProtectionDomain;Ljava/security/Permission;)Z
+PTG:
+Vars:
+13
+r0 1 -1 
+$r5 1 1 
+$r9 1 1 
+r11 1 -3 
+$r8 1 24 
+$r1 1 1 
+$r7 1 1 
+$r4 1 24 
+r3 1 -2 
+r17 1 27 
+r18 1 63 
+$r2 1 1 
+$r6 1 27 
+Fields: 2
+-1 pdMapping 1
+-2 key 24
+Accesses: 7
+0 1 -1 
+82 1 -2 
+19 1 -1 
+70 1 -1 
+23 1 -2 
+11 1 -1 
+78 1 -1 
+Functions: 6
+20 2 1 24 
+52 2 -3 27 
+87 3 1 24 63 
+8 2 -1 1 
+105 2 -3 63 
+58 4 -1 1 -2 24 
+Constructors: 0
+
+Summary: 4
+-1 -2 24 -3 
+java/security/Policy.addStaticPerms(Ljava/security/PermissionCollection;Ljava/security/PermissionCollection;)V
+PTG:
+Vars:
+6
+$r6 1 27 
+r4 1 -2 
+r3 1 12 
+$r5 1 27 
+r0 1 -3 
+r9 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+35 2 -2 27 
+8 1 -3 
+25 1 12 
+14 1 12 
+Constructors: 0
+
+Summary: 5
+-1 0 1 12 27 
+java/security/Policy.refresh()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Policy.getParameters()Ljava/security/Policy$Parameters;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Policy.setPolicy(Ljava/security/Policy;)V
+PTG:
+Vars:
+5
+$r3 1 37 
+$r4 1 34 
+r1 1 -2 
+$r7 1 9 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 0 
+18 2 3 9 
+51 2 -2 37 
+54 2 34 37 
+26 1 -2 
+15 1 9 
+Constructors: 2
+51 37
+15 9
+
+Summary: 3
+9 37 -2 
+java/security/Policy.initPolicy(Ljava/security/Policy;)V
+PTG:
+Vars:
+17
+$r6 1 52 
+$r14 1 85 
+$r15 1 94 
+r23 1 70 
+$r10 1 22 
+$r0 1 0 
+r20 2 80 85 
+$r8 1 61 
+$r5 1 22 
+$r2 1 8 
+r1 1 -2 
+$r9 1 61 
+r3 1 8 
+$r7 1 58 
+$r11 1 113 
+$r16 1 29 
+$r12 1 22 
+Fields: 3
+-2 pdMapping 22
+8 key 113
+61 policy 70
+Accesses: 6
+64 1 61 
+112 1 8 
+36 1 -2 
+100 1 -2 
+21 1 -2 
+108 1 -2 
+Functions: 9
+0 1 0 
+33 1 29 
+97 2 85 94 
+51 2 113 8 
+5 3 0 -2 22 
+117 4 80 113 85 22 
+89 1 85 
+58 1 58 
+75 3 113 70 8 
+Constructors: 3
+33 29
+5 0
+89 85
+
+Summary: 2
+52 0 
+java/security/Policy.getType()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Policy.getPolicyNoCheck()Ljava/security/Policy;
+PTG:
+Vars:
+6
+_ret 1 18 
+r2 1 3 
+$r13 1 18 
+$r1 1 3 
+$r14 1 18 
+$r0 1 0 
+Fields: 1
+3 policy 18
+Accesses: 3
+17 1 3 
+10 1 3 
+203 1 3 
+Functions: 16
+0 1 0 
+71 0 
+72 0 
+168 0 
+107 0 
+46 0 
+50 0 
+82 0 
+178 0 
+115 0 
+150 0 
+121 0 
+186 0 
+29 0 
+95 0 
+127 0 
+Constructors: 0
+
+Summary: 6
+67 143 91 75 100 171 
+java/security/Policy.getInstance(Ljava/lang/String;Ljava/security/Policy$Parameters;)Ljava/security/Policy;
+PTG:
+Vars:
+10
+$r7 1 38 
+$r3 1 19 
+$r6 1 -1 
+_ret 1 38 
+$r2 1 14 
+r0 1 -2 
+r1 1 -3 
+r8 1 13 
+$r5 1 19 
+$r4 1 26 
+Fields: 2
+13 impl 19
+13 provider 26
+Accesses: 2
+18 1 13 
+25 1 13 
+Functions: 4
+32 5 -2 -3 19 26 14 
+1 1 -2 
+37 1 -1 
+9 2 -2 -3 
+Constructors: 1
+32 14
+
+Summary: 2
+-2 -3 
+java/security/Policy.getInstance(Ljava/lang/String;Ljava/security/Policy$Parameters;Ljava/lang/String;)Ljava/security/Policy;
+PTG:
+Vars:
+11
+r2 1 -2 
+r0 1 -4 
+$r8 1 -1 
+$r6 1 48 
+r3 1 -3 
+$r7 1 41 
+_ret 1 60 
+r10 1 35 
+$r5 1 41 
+$r4 1 36 
+$r9 1 60 
+Fields: 2
+35 impl 41
+35 provider 48
+Accesses: 2
+40 1 35 
+47 1 35 
+Functions: 6
+17 0 
+4 1 -4 
+22 1 -2 
+54 5 48 -2 -3 36 41 
+59 1 -1 
+31 3 -2 -3 -4 
+Constructors: 1
+54 36
+
+Summary: 3
+-2 -4 -3 
+java/security/Policy.<clinit>()V
+PTG:
+Vars:
+4
+$r3 1 31 
+$r1 1 10 
+$r2 1 14 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 4
+4 1 0 
+20 1 14 
+23 2 10 14 
+29 0 
+Constructors: 3
+4 0
+20 14
+23 10
+
+Summary: 1
+14 
+java/security/Policy.access$000()Lsun/security/util/Debug;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/security/Policy.getPolicy()Ljava/security/Policy;
+PTG:
+Vars:
+4
+_ret 1 15 
+$r2 1 9 
+$r1 1 15 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+-1 0 
+12 2 3 9 
+Constructors: 0
+
+Summary: 0
+
+java/security/Policy.isSet()Z
+PTG:
+Vars:
+4
+$r0 1 0 
+$r1 1 3 
+r2 1 3 
+$r3 1 11 
+Fields: 1
+3 policy 11
+Accesses: 2
+17 1 3 
+10 1 3 
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 0
+
+java/security/Policy.handleException(Ljava/security/NoSuchAlgorithmException;)Ljava/security/Policy;
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 0
+
+java/security/Policy.getPermissions(Ljava/security/ProtectionDomain;)Ljava/security/PermissionCollection;
+PTG:
+Vars:
+14
+$r8 1 145 
+_ret 2 145 133 
+$r6 1 40 
+$r9 1 139 
+$r5 1 15 
+r1 1 -1 
+$r4 1 37 
+r24 2 145 133 
+$r25 1 156 
+$r7 1 127 
+$r2 1 15 
+$r3 1 15 
+r0 1 -2 
+r20 1 40 
+Fields: 2
+-1 pdMapping 15
+-2 key 37
+Accesses: 4
+32 1 -1 
+36 1 -2 
+25 1 -1 
+14 1 -1 
+Functions: 13
+33 2 37 15 
+67 0 
+103 0 
+10 0 
+76 1 40 
+82 0 
+149 1 145 
+22 2 -1 15 
+155 2 -2 37 
+93 0 
+125 3 -1 15 127 
+126 2 -2 37 
+159 5 -1 145 133 156 15 
+Constructors: 1
+149 145
+
+Summary: 8
+80 156 0 37 -1 -2 127 95 
+java/security/Policy.getPermissions(Ljava/security/CodeSource;)Ljava/security/PermissionCollection;
+PTG:
+Vars:
+4
+r1 1 -1 
+_ret 1 0 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/security/Policy.checkPermission(Ljava/lang/String;)V
+PTG:
+Vars:
+7
+$r3 1 22 
+$r6 1 29 
+$r5 1 26 
+r0 1 3 
+$r2 1 13 
+r4 1 -2 
+$r1 1 9 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 0 
+32 2 9 29 
+17 1 13 
+35 2 3 9 
+22 2 -2 22 
+26 1 26 
+13 1 13 
+Constructors: 2
+32 9
+17 13
+
+Summary: 3
+9 -2 0 
+java/security/Policy.getProvider()Ljava/security/Provider;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Policy.getInstance(Ljava/lang/String;Ljava/security/Policy$Parameters;Ljava/security/Provider;)Ljava/security/Policy;
+PTG:
+Vars:
+11
+r0 1 -4 
+_ret 1 53 
+$r6 1 34 
+r10 1 28 
+r1 1 -2 
+r2 1 -3 
+$r3 1 29 
+$r4 1 34 
+$r9 1 53 
+$r8 1 -1 
+$r5 1 41 
+Fields: 2
+28 impl 34
+28 provider 41
+Accesses: 2
+33 1 28 
+40 1 28 
+Functions: 5
+52 1 -1 
+24 3 -2 -3 -4 
+10 0 
+15 1 -2 
+47 5 -2 34 -3 41 29 
+Constructors: 1
+47 29
+
+Summary: 3
+-2 -4 -3 
+java/security/Policy.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 

@@ -1,0 +1,547 @@
+21
+org/eclipse/core/internal/preferences/DefaultPreferences.loadProperties(Ljava/lang/String;)Ljava/util/Properties;
+PTG:
+Vars:
+18
+r21 1 -1 
+$r17 1 -1 
+$r20 1 55 
+$r5 1 -1 
+$r19 1 52 
+r4 1 -2 
+$r18 1 41 
+r13 1 85 
+$r3 1 14 
+r22 1 10 
+$r12 1 78 
+$r14 1 87 
+$r10 1 -1 
+$r2 1 10 
+$r9 1 -1 
+$r0 1 0 
+$r16 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 15
+66 1 10 
+4 1 0 
+100 3 -1 85 87 
+132 1 10 
+41 2 -2 41 
+107 1 87 
+48 1 41 
+81 2 -2 78 
+19 2 -2 14 
+115 1 10 
+147 1 10 
+52 1 52 
+22 2 10 14 
+58 1 55 
+28 2 0 10 
+Constructors: 5
+48 41
+19 14
+4 0
+100 87
+22 10
+
+Summary: 8
+14 -2 87 55 52 -1 85 10 
+org/eclipse/core/internal/preferences/DefaultPreferences.applyDefaults(Ljava/lang/String;Ljava/util/Properties;Ljava/util/Properties;)V
+PTG:
+Vars:
+26
+$r20 1 158 
+r3 1 11 
+r6 1 -2 
+$r11 1 182 
+$r2 1 11 
+r23 1 27 
+r7 1 -1 
+r0 1 -3 
+$r21 1 163 
+r1 1 4 
+$r15 1 130 
+$r17 1 143 
+$r10 1 175 
+$r12 1 182 
+r9 1 -4 
+r5 1 55 
+r26 2 -2 82 
+$r16 1 135 
+$r18 1 148 
+r25 2 65 92 
+r27 1 113 
+$r19 1 153 
+$r8 1 95 
+$r14 1 121 
+$r4 1 37 
+$r22 1 166 
+Fields: 0
+Accesses: 0
+Functions: 25
+0 1 -3 
+192 3 113 182 55 
+130 3 65 130 92 
+196 1 4 
+134 1 -1 
+9 1 4 
+74 2 65 92 
+138 2 130 135 
+143 2 55 143 
+84 2 65 92 
+21 2 -3 11 
+153 1 153 
+94 1 -1 
+158 2 113 158 
+95 3 -2 82 95 
+163 1 163 
+169 1 166 
+106 3 -1 -4 27 
+43 2 37 11 
+172 2 -1 175 
+173 2 65 92 
+48 1 37 
+57 1 37 
+121 2 148 121 
+127 1 121 
+Constructors: 3
+138 130
+43 37
+127 121
+
+Summary: 21
+-3 163 95 55 1 175 148 27 166 -2 135 4 182 0 82 -4 113 11 2 65 92 
+org/eclipse/core/internal/preferences/DefaultPreferences.isAlreadyLoaded(Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;)Z
+PTG:
+Vars:
+4
+$r2 1 4 
+r0 1 -2 
+$r1 1 0 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 0 4 
+3 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 4 0 -1 
+org/eclipse/core/internal/preferences/DefaultPreferences.translatePreference(Ljava/lang/String;Ljava/util/Properties;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r0 1 -3 
+r4 1 -1 
+r5 1 -2 
+r6 1 4 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+50 1 4 
+67 1 4 
+20 1 4 
+9 1 4 
+42 1 4 
+76 1 -3 
+29 1 4 
+Constructors: 0
+
+Summary: 6
+-3 53 71 44 -1 1 
+org/eclipse/core/internal/preferences/DefaultPreferences.applyBundleDefaults()V
+PTG:
+Vars:
+17
+$r2 1 4 
+$r19 1 130 
+r1 1 -1 
+r9 1 88 
+$r10 1 99 
+r3 1 10 
+$r4 1 17 
+$r20 1 135 
+$r6 1 67 
+$r8 1 79 
+$r7 1 72 
+$r11 1 109 
+$r13 1 117 
+$r18 1 125 
+$r12 1 114 
+r5 1 30 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 22
+-1 0 
+0 2 0 4 
+128 2 -1 30 
+3 1 -1 
+67 1 67 
+99 2 99 109 
+133 2 -1 88 
+72 1 72 
+41 0 
+105 1 99 
+138 4 -1 130 135 125 
+108 1 10 
+47 0 
+50 1 10 
+114 1 114 
+84 2 10 79 
+23 1 17 
+56 0 
+120 1 117 
+26 2 17 10 
+124 1 -1 
+62 0 
+Constructors: 2
+23 17
+105 99
+
+Summary: 15
+59 114 51 88 109 135 4 117 30 10 79 130 125 0 56 
+org/eclipse/core/internal/preferences/DefaultPreferences.applyCommandLineDefaults()V
+PTG:
+Vars:
+8
+$r3 1 53 
+$r4 1 32 
+r2 1 9 
+$r5 1 42 
+$r7 1 61 
+r1 1 -1 
+$r6 1 45 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 7
+32 2 32 9 
+48 1 45 
+65 2 -1 61 
+51 2 -1 9 
+22 0 
+38 1 32 
+42 1 42 
+Constructors: 1
+38 32
+
+Summary: 2
+45 42 
+org/eclipse/core/internal/preferences/DefaultPreferences.applyProductDefaults()V
+PTG:
+Vars:
+15
+$r5 1 107 
+r4 1 9 
+$r12 1 77 
+$r8 1 52 
+r1 1 -1 
+$r18 2 30 19 
+$r7 1 14 
+$r13 1 86 
+$r6 1 113 
+$r2 1 137 
+$r10 1 65 
+r11 1 65 
+$r0 1 0 
+$r19 1 123 
+$r3 1 134 
+Fields: 0
+Accesses: 0
+Functions: 15
+-1 0 
+64 1 14 
+6 0 
+104 0 
+76 1 65 
+140 3 -1 134 137 
+48 0 
+19 2 19 30 
+85 1 65 
+117 1 113 
+56 3 52 9 14 
+27 0 
+123 1 123 
+61 1 14 
+95 1 14 
+Constructors: 2
+117 113
+56 14
+
+Summary: 4
+45 9 52 65 
+org/eclipse/core/internal/preferences/DefaultPreferences.applyRuntimeDefaults()V
+PTG:
+Vars:
+5
+r4 1 14 
+r1 1 -1 
+$r2 1 4 
+$r3 1 8 
+$r0 1 0 
+Fields: 1
+-1 pluginReference 8
+Accesses: 2
+21 1 -1 
+7 1 -1 
+Functions: 3
+-1 0 
+0 3 0 4 8 
+3 2 -1 8 
+Constructors: 0
+
+Summary: 3
+4 -1 0 
+org/eclipse/core/internal/preferences/DefaultPreferences.loaded()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 4 
+$r1 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 1 -1 
+7 2 0 4 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/eclipse/core/internal/preferences/DefaultPreferences.<init>(Lorg/eclipse/core/internal/preferences/EclipsePreferences;Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+5
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+r4 1 -4 
+$r3 1 7 
+Fields: 0
+Accesses: 1
+15 1 -1 
+Functions: 2
+3 3 -1 -2 -3 
+12 2 -4 7 
+Constructors: 2
+3 -1
+12 7
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/core/internal/preferences/DefaultPreferences.flush()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/preferences/DefaultPreferences.loadDefaults()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -1 
+5 1 -1 
+9 1 -1 
+13 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/internal/preferences/DefaultPreferences.<clinit>()V
+PTG:
+Vars:
+2
+$r1 1 10 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 1 10 
+4 1 0 
+Constructors: 2
+16 10
+4 0
+
+Summary: 0
+
+org/eclipse/core/internal/preferences/DefaultPreferences.getLoadLevel()Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;
+PTG:
+Vars:
+7
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+$r3 1 8 
+_ret 1 1 
+r5 2 24 -1 
+$r4 1 24 
+Fields: 2
+-1 loadLevel 1
+-1 qualifier 8
+Accesses: 5
+0 1 -1 
+35 1 -1 
+7 1 -1 
+44 1 -1 
+47 1 -1 
+Functions: 1
+23 4 -1 1 24 8 
+Constructors: 0
+
+Summary: 1
+24 
+org/eclipse/core/internal/preferences/DefaultPreferences.load()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/internal/preferences/DefaultPreferences.node(Ljava/lang/String;Ljava/lang/Object;)Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;
+PTG:
+Vars:
+5
+$r3 1 4 
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 -2 0 1 
+org/eclipse/core/internal/preferences/DefaultPreferences.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 1
+3 -1
+
+Summary: 1
+-1 
+org/eclipse/core/internal/preferences/DefaultPreferences.loadProperties(Ljava/net/URL;)Ljava/util/Properties;
+PTG:
+Vars:
+11
+$r3 1 -1 
+r13 1 -1 
+r14 1 20 
+$r8 1 -1 
+$r10 1 37 
+$r0 1 0 
+$r12 1 51 
+r2 1 -2 
+$r7 1 -1 
+_ret 1 0 
+$r11 1 48 
+Fields: 0
+Accesses: 0
+Functions: 11
+16 1 -2 
+48 1 48 
+67 1 20 
+99 1 20 
+4 1 0 
+84 1 20 
+37 2 -2 37 
+54 1 51 
+23 2 0 20 
+59 1 -1 
+44 1 37 
+Constructors: 2
+4 0
+44 37
+
+Summary: 5
+-2 51 48 0 -1 
+org/eclipse/core/internal/preferences/DefaultPreferences.<init>(Lorg/eclipse/core/internal/preferences/EclipsePreferences;Ljava/lang/String;)V
+PTG:
+Vars:
+7
+r3 1 28 
+$r4 1 49 
+r0 1 -1 
+r2 1 -3 
+$r5 1 -2 
+$r6 1 18 
+r1 1 -2 
+Fields: 1
+-2 pluginReference 18
+Accesses: 5
+34 1 -1 
+52 1 -1 
+21 1 -1 
+37 1 -1 
+15 1 -2 
+Functions: 4
+48 1 28 
+3 4 -1 -2 18 -3 
+24 1 -1 
+30 1 28 
+Constructors: 1
+3 -1
+
+Summary: 6
+-3 -2 0 -1 1 28 
+org/eclipse/core/internal/preferences/DefaultPreferences.internalCreate(Lorg/eclipse/core/internal/preferences/EclipsePreferences;Ljava/lang/String;Ljava/lang/Object;)Lorg/eclipse/core/internal/preferences/EclipsePreferences;
+PTG:
+Vars:
+6
+r4 1 -1 
+r1 1 -2 
+r2 1 -3 
+r3 1 -4 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 4 0 -2 -3 -4 
+Constructors: 1
+7 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/core/internal/preferences/DefaultPreferences.sync()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,650 @@
+16
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.setActualReceiverType(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.manageSyntheticAccessIfNecessary(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+11
+r3 1 17 
+$r8 1 30 
+$r10 1 100 
+$r5 1 26 
+$r9 1 93 
+r1 1 -1 
+$r6 1 30 
+r4 1 -2 
+$r11 1 54 
+$r2 1 11 
+r0 1 -3 
+Fields: 2
+-1 binding 11
+17 declaringClass 30
+Accesses: 8
+0 1 -3 
+96 1 -1 
+67 1 17 
+54 1 54 
+39 1 30 
+10 1 -1 
+76 1 17 
+29 1 17 
+Functions: 8
+18 2 17 30 
+99 1 -2 
+53 1 -2 
+85 2 17 30 
+25 1 -2 
+89 2 -1 11 
+105 5 -1 17 100 11 30 
+11 1 11 
+Constructors: 0
+
+Summary: 9
+-1 17 1 -3 54 26 30 0 100 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.checkCapturedLocalInitializationIfNecessary(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+10
+r8 1 -4 
+$r5 1 61 
+r4 1 57 
+r10 1 -1 
+$r9 1 91 
+r0 1 -2 
+r2 1 -2 
+$r7 1 75 
+r1 1 -3 
+r3 1 34 
+Fields: 3
+57 actualOuterLocalVariable 61
+61 declaration 75
+34 ArrayObject 57
+Accesses: 3
+0 1 -2 
+73 1 61 
+59 1 57 
+Functions: 5
+81 3 -4 75 61 
+97 4 -1 91 75 61 
+90 1 -3 
+29 1 -2 
+15 2 -2 -3 
+Constructors: 0
+
+Summary: 8
+-1 2 91 1 -4 34 0 -2 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+13
+r2 1 -3 
+$r9 1 49 
+$r6 1 65 
+$r5 1 65 
+$r11 2 29 10 
+r1 1 -1 
+$r8 1 88 
+$r4 1 49 
+$r7 2 65 84 
+$r12 1 33 
+$r10 1 10 
+$r3 1 10 
+r0 1 -2 
+Fields: 7
+-1 arguments 65
+-1 typeArguments 10
+-1 type 49
+29 ArrayObject 33
+65 ArrayObject 88
+10 ArrayObject 33
+84 ArrayObject 88
+Accesses: 8
+48 1 -1 
+64 1 -1 
+18 1 -1 
+83 1 -1 
+55 1 -1 
+9 1 -1 
+73 1 -1 
+28 1 -1 
+Functions: 5
+0 8 -1 -2 65 49 33 -3 88 10 
+36 3 33 -2 -3 
+106 8 -1 -2 65 49 33 -3 88 10 
+91 3 -2 -3 88 
+61 3 49 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.isTypeAccess()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.setDepth(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.enclosingInstance()Lorg/eclipse/jdt/internal/compiler/ast/Expression;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+23
+$r16 2 40 20 
+$r14 1 108 
+$r1 1 2 
+$r13 1 105 
+r20 2 70 116 
+$r11 1 98 
+$r2 1 5 
+$r17 1 45 
+r4 1 -2 
+$r15 1 20 
+_ret 2 55 -4 
+$r21 1 123 
+r9 1 -3 
+$r5 1 8 
+$r8 1 70 
+$r12 1 2 
+r0 1 -1 
+r19 2 55 -4 
+$r18 1 49 
+$r6 1 20 
+$r7 1 2 
+$r10 1 91 
+$r3 1 8 
+Fields: 8
+-1 arguments 20
+-1 binding 2
+-1 genericTypeArguments 91
+105 thrownExceptions 108
+2 declaringClass 5
+2 thrownExceptions 70
+40 ArrayObject 45
+20 ArrayObject 45
+Accesses: 11
+80 1 -1 
+1 1 -1 
+2 1 2 
+66 1 -1 
+19 1 -1 
+67 1 2 
+101 1 -1 
+39 1 -1 
+105 1 105 
+90 1 -1 
+29 1 -1 
+Functions: 11
+16 11 -1 -2 2 -4 20 5 70 55 8 91 45 
+49 1 49 
+97 1 -2 
+98 2 98 108 
+5 1 5 
+133 10 -1 -2 2 -4 20 5 70 55 91 45 
+102 3 2 5 70 
+122 2 -4 55 
+139 10 -1 -2 2 -4 20 5 70 55 91 45 
+45 5 -2 -3 -4 55 45 
+127 11 -1 -2 -3 2 116 20 5 70 91 123 45 
+Constructors: 0
+
+Summary: 12
+1 123 -3 98 -1 2 105 8 0 -2 108 116 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.isSuperAccess()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.manageEnclosingInstanceAccessIfNecessary(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+9
+r5 1 17 
+$r2 1 11 
+$r7 1 32 
+$r8 1 17 
+r6 1 -2 
+$r3 1 14 
+$r4 1 17 
+r0 1 -3 
+r1 1 -1 
+Fields: 2
+-1 binding 11
+11 declaringClass 14
+Accesses: 3
+0 1 -3 
+10 1 -1 
+11 1 11 
+Functions: 7
+32 1 32 
+54 2 17 -2 
+24 1 17 
+41 1 17 
+14 1 14 
+31 1 -2 
+63 2 -2 17 
+Constructors: 0
+
+Summary: 6
+-1 17 1 -3 32 0 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Z)V
+PTG:
+Vars:
+22
+r10 1 -2 
+r3 1 13 
+$r18 1 257 
+$r20 1 60 
+$r13 1 161 
+r4 1 20 
+$r5 1 84 
+$r16 1 192 
+$r9 1 101 
+$r12 1 7 
+$r11 1 136 
+$r2 1 7 
+$r7 1 90 
+r0 1 -3 
+$r6 1 87 
+$r15 1 186 
+$r8 1 84 
+$r14 1 161 
+r1 1 -1 
+$r21 1 60 
+$r17 1 161 
+$r19 1 123 
+Fields: 10
+-1 arguments 136
+-1 binding 7
+-1 enumConstant 84
+-1 syntheticAccessor 161
+-1 type 60
+13 parameters 192
+13 declaringClass 20
+161 parameters 186
+84 name 87
+84 binding 101
+Accesses: 23
+0 1 -3 
+160 1 -1 
+97 1 -1 
+257 1 257 
+98 1 84 
+131 1 -1 
+69 1 -1 
+101 1 101 
+6 1 -1 
+70 1 60 
+135 1 -1 
+232 1 -1 
+298 1 -1 
+15 1 13 
+83 1 -1 
+84 1 84 
+182 1 -1 
+183 1 161 
+248 1 -1 
+59 1 -1 
+219 1 -1 
+28 1 -1 
+190 1 13 
+Functions: 22
+224 3 161 -3 186 
+292 1 -3 
+7 1 7 
+107 1 -3 
+203 1 -3 
+76 1 -3 
+236 1 -3 
+141 11 -1 161 -2 -3 84 101 7 87 136 186 60 
+173 4 192 -3 20 13 
+110 1 20 
+302 1 -3 
+144 1 20 
+87 1 87 
+56 1 -3 
+25 2 -3 20 
+122 9 -1 161 84 101 7 87 136 186 60 
+252 1 -3 
+93 2 -3 90 
+157 12 -1 -2 161 -3 20 84 101 7 87 136 186 60 
+285 1 -3 
+127 13 -1 -2 161 -3 101 7 136 20 84 87 186 123 60 
+255 10 -1 161 -2 84 101 7 87 136 186 60 
+Constructors: 0
+
+Summary: 11
+192 1 123 -3 90 257 -1 13 20 0 -2 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.printExpression(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+17
+r0 1 -1 
+r4 1 -3 
+$r6 1 117 
+$r15 1 16 
+$r1 1 1 
+$r8 2 141 117 
+$r12 1 1 
+$r17 1 49 
+$r3 1 1 
+$r20 1 16 
+_ret 1 167 
+$r9 1 145 
+$r7 1 167 
+$r16 2 16 44 
+$r2 1 16 
+$r21 1 78 
+$r25 1 117 
+Fields: 8
+-1 arguments 117
+-1 typeArguments 16
+-1 type 1
+141 ArrayObject 145
+117 ArrayObject 145
+16 ArrayObject 78
+16 ArrayObject 49
+44 ArrayObject 49
+Accesses: 10
+0 1 -1 
+99 1 -1 
+116 1 -1 
+73 1 -1 
+43 1 -1 
+92 1 -1 
+140 1 -1 
+156 1 -1 
+29 1 -1 
+15 1 -1 
+Functions: 11
+112 1 -3 
+81 2 -3 78 
+52 2 49 -3 
+148 2 145 -3 
+164 1 -3 
+88 1 -3 
+136 1 -3 
+25 1 -3 
+105 2 1 -3 
+11 1 -3 
+60 1 -3 
+Constructors: 0
+
+Summary: 2
+1 -1 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.genericTypeArguments()[Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 genericTypeArguments 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.resolveType(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+59
+$r83 2 49 133 
+$r88 1 151 
+$r6 1 8 
+$r26 1 772 
+$r2 1 8 
+r0 1 -1 
+r91 1 346 
+$r8 1 49 
+$r10 1 8 
+r89 1 204 
+r96 1 49 
+$r69 1 216 
+$r9 1 49 
+$r68 1 207 
+$r29 1 731 
+$r44 1 311 
+$r65 1 164 
+$r70 1 239 
+$r85 1 16 
+$r76 1 49 
+$r81 1 120 
+r90 2 329 309 
+$r12 1 659 
+$r1 1 1 
+r86 2 49 86 
+_ret 1 49 
+$r78 1 8 
+$r45 2 340 311 
+$r7 1 311 
+r87 1 8 
+$r11 1 49 
+$r67 2 198 151 
+$r27 1 731 
+$r80 2 103 115 
+$r66 1 185 
+$r25 1 731 
+$r15 1 311 
+$r22 1 839 
+$r5 1 32 
+$r19 1 826 
+$r82 1 125 
+$r84 2 129 8 
+$r21 1 829 
+$r17 1 151 
+$r64 1 151 
+r3 1 -2 
+$r77 1 86 
+$r13 1 731 
+$r24 2 847 207 
+$r23 1 151 
+$r39 1 49 
+$r4 1 8 
+$r79 1 103 
+$r46 1 376 
+$r18 1 731 
+$r28 1 747 
+$r16 1 731 
+$r14 1 731 
+$r20 1 832 
+Fields: 15
+-1 arguments 311
+-1 binding 731
+-1 typeArguments 151
+-1 type 8
+-1 resolvedType 49
+-1 genericTypeArguments 847
+-1 genericTypeArguments 207
+198 ArrayObject 204
+103 ArrayObject 120
+115 ArrayObject 120
+8 typeArguments 103
+340 ArrayObject 346
+151 ArrayObject 204
+826 typeVariables 829
+311 ArrayObject 346
+Accesses: 65
+128 1 -1 
+4 1 -1 
+132 1 -1 
+260 1 -1 
+644 1 -1 
+7 1 -1 
+775 1 -1 
+270 1 -1 
+402 1 -1 
+19 1 -1 
+787 1 -1 
+150 1 -1 
+663 1 -1 
+791 1 -1 
+280 1 -1 
+26 1 -1 
+157 1 -1 
+543 1 -1 
+672 1 -1 
+35 1 -1 
+164 1 164 
+804 1 -1 
+38 1 -1 
+682 1 -1 
+812 1 -1 
+815 1 -1 
+48 1 -1 
+691 1 -1 
+310 1 -1 
+822 1 -1 
+698 1 -1 
+826 1 826 
+188 1 -1 
+62 2 49 86 
+320 1 -1 
+197 1 -1 
+583 1 -1 
+458 1 -1 
+842 1 -1 
+588 1 -1 
+206 1 -1 
+718 1 -1 
+846 1 -1 
+850 1 -1 
+339 1 -1 
+595 1 -1 
+725 1 -1 
+474 1 -1 
+730 1 -1 
+731 1 731 
+477 1 -1 
+94 1 -1 
+607 1 -1 
+356 1 346 
+484 1 -1 
+102 1 8 
+614 1 -1 
+365 1 346 
+494 1 -1 
+751 1 -1 
+114 1 8 
+628 1 -1 
+759 1 -1 
+632 1 -1 
+639 1 -1 
+Functions: 39
+771 1 -2 
+838 1 -2 
+136 7 129 49 133 103 8 120 125 
+457 13 -1 -2 103 8 204 847 207 49 311 151 120 346 731 
+713 1 -2 
+75 2 49 86 
+780 13 -1 772 103 8 204 847 207 49 311 151 120 346 731 
+525 1 -2 
+526 0 
+654 15 -1 -2 103 8 329 204 847 207 49 309 311 151 120 346 731 
+15 1 -2 
+529 0 
+722 12 -1 49 311 151 103 8 120 346 731 204 847 207 
+659 1 659 
+212 2 -2 204 
+596 1 49 
+85 2 49 86 
+854 6 839 151 731 204 847 207 
+27 4 -2 103 8 120 
+797 15 -1 -2 103 8 329 204 847 207 49 309 311 151 120 346 731 
+288 1 -2 
+546 0 
+163 1 -2 
+485 0 
+615 1 49 
+553 0 
+746 1 -2 
+238 1 -2 
+624 1 -2 
+561 1 -2 
+755 13 -1 103 8 747 204 847 207 49 311 151 120 346 731 
+244 2 204 239 
+373 2 -2 346 
+758 13 -1 -2 103 8 204 847 207 49 311 151 120 346 731 
+823 1 731 
+124 1 -2 
+636 0 
+702 0 
+511 0 
+Constructors: 0
+
+Summary: 22
+526 839 551 -1 538 747 714 826 433 516 329 513 625 772 164 414 829 0 239 531 86 125 
+org/eclipse/jdt/internal/compiler/ast/AllocationExpression.setFieldIndex(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

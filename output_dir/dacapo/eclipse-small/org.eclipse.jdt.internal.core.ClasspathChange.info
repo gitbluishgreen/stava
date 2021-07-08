@@ -1,0 +1,674 @@
+11
+org/eclipse/jdt/internal/core/ClasspathChange.classpathContains([Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/jdt/core/IClasspathEntry;)I
+PTG:
+Vars:
+20
+$r15 1 209 
+r18 1 -1 
+$r14 1 208 
+r9 1 160 
+r3 1 -2 
+r2 1 13 
+r8 1 123 
+r0 1 -3 
+$r12 1 304 
+$r10 1 294 
+r19 1 250 
+$r17 1 219 
+$r5 1 89 
+r4 1 37 
+$r16 1 218 
+$r11 1 295 
+r7 1 114 
+$r13 1 305 
+r1 1 6 
+$r6 1 95 
+Fields: 5
+-2 ArrayObject 37
+160 ArrayObject 218
+250 ArrayObject 304
+6 ArrayObject 294
+13 ArrayObject 208
+Accesses: 0
+Functions: 22
+0 1 -3 
+294 1 294 
+7 1 -3 
+39 1 37 
+71 1 37 
+295 2 305 295 
+138 2 114 123 
+108 1 -3 
+46 1 -3 
+78 1 -3 
+208 1 208 
+304 1 304 
+209 2 209 219 
+243 1 37 
+116 1 37 
+55 1 37 
+87 1 37 
+89 2 89 95 
+153 1 37 
+218 1 218 
+62 1 -3 
+94 1 -3 
+Constructors: 0
+
+Summary: 4
+-1 -3 -2 0 
+org/eclipse/jdt/internal/core/ClasspathChange.toString()Ljava/lang/String;
+PTG:
+Vars:
+7
+$r3 1 14 
+$r0 1 0 
+$r5 1 20 
+$r4 1 17 
+r1 1 -1 
+$r2 1 11 
+_ret 1 20 
+Fields: 1
+-1 project 11
+Accesses: 1
+10 1 -1 
+Functions: 4
+0 2 0 14 
+17 1 17 
+7 1 0 
+11 1 11 
+Constructors: 1
+7 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/ClasspathChange.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+5
+r0 1 -2 
+r1 1 -1 
+$r4 1 10 
+$r2 1 -2 
+$r3 1 17 
+Fields: 2
+-2 project 17
+-1 project 10
+Accesses: 2
+9 1 -1 
+14 1 -2 
+Functions: 1
+10 2 17 10 
+Constructors: 0
+
+Summary: 4
+-2 17 0 -1 
+org/eclipse/jdt/internal/core/ClasspathChange.addClasspathDeltas(Lorg/eclipse/jdt/internal/core/JavaElementDelta;[Lorg/eclipse/jdt/core/IPackageFragmentRoot;I)V
+PTG:
+Vars:
+5
+r5 1 -1 
+r2 1 -2 
+r0 1 -3 
+$r4 1 -1 
+r1 1 10 
+Fields: 1
+-3 ArrayObject 10
+Accesses: 0
+Functions: 2
+16 2 -2 10 
+46 1 10 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/jdt/internal/core/ClasspathChange.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;[Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/core/runtime/IPath;[Lorg/eclipse/jdt/core/IClasspathEntry;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+r4 1 -5 
+r3 1 -4 
+Fields: 0
+Accesses: 4
+16 1 -1 
+6 1 -1 
+22 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/core/ClasspathChange.determineAffectedPackageFragments(Lorg/eclipse/core/runtime/IPath;)Ljava/util/ArrayList;
+PTG:
+Vars:
+26
+$r9 1 82 
+r18 1 176 
+r13 1 135 
+$r21 1 204 
+r24 1 234 
+r26 1 31 
+$r6 1 57 
+r23 1 225 
+$r0 1 0 
+$r14 1 140 
+r15 1 140 
+r3 1 -2 
+r5 1 -1 
+$r16 1 146 
+_ret 1 0 
+r2 1 11 
+$r25 1 20 
+r7 1 63 
+$r19 1 192 
+r8 1 76 
+$r12 2 124 57 
+r22 1 216 
+r20 1 192 
+r4 1 31 
+$r11 1 131 
+r10 1 88 
+Fields: 5
+135 ArrayObject 140
+63 ArrayObject 82
+63 ArrayObject 76
+63 ArrayObject 131
+-1 project 57
+Accesses: 2
+56 1 -1 
+123 1 -1 
+Functions: 24
+227 2 225 140 
+4 1 0 
+101 2 -2 88 
+38 1 31 
+8 0 
+168 4 -1 146 57 31 
+202 1 192 
+171 1 146 
+204 1 204 
+236 1 234 
+112 2 -2 88 
+82 1 82 
+178 1 88 
+19 1 11 
+20 2 -2 20 
+150 1 146 
+247 2 0 234 
+57 1 57 
+90 1 76 
+218 1 216 
+251 1 176 
+124 3 131 57 124 
+190 1 176 
+159 2 146 31 
+Constructors: 2
+4 0
+150 146
+
+Summary: 4
+-1 -2 146 0 
+org/eclipse/jdt/internal/core/ClasspathChange.collectAllSubfolders(Lorg/eclipse/core/resources/IFolder;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+6
+r0 1 -2 
+r2 1 -3 
+$r4 1 21 
+r7 1 6 
+r3 1 -1 
+r1 1 21 
+Fields: 1
+6 ArrayObject 21
+Accesses: 0
+Functions: 5
+0 1 -2 
+48 3 -1 -3 21 
+37 2 -3 21 
+70 0 
+23 1 21 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/jdt/internal/core/ClasspathChange.requestIndexing()V
+PTG:
+Vars:
+43
+$r6 1 43 
+$r8 1 74 
+r43 1 411 
+$r19 1 217 
+r37 1 112 
+r40 1 182 
+r4 1 36 
+$r11 2 106 43 
+r42 1 351 
+$r33 1 398 
+$r20 1 255 
+$r5 1 43 
+$r13 1 129 
+$r16 2 6 186 
+$r28 2 6 444 
+$r17 1 203 
+r3 1 26 
+$r24 1 411 
+$r30 2 43 345 
+$r26 1 411 
+$r7 2 43 69 
+r0 1 -1 
+$r1 1 6 
+$r14 1 112 
+$r32 2 6 395 
+r44 1 420 
+r36 1 12 
+$r18 1 208 
+$r23 1 286 
+r41 1 336 
+$r10 1 92 
+r2 1 21 
+r27 1 440 
+$r15 1 112 
+r38 1 121 
+$r31 1 355 
+r39 1 172 
+$r12 2 124 43 
+r25 1 430 
+$r22 1 270 
+$r9 2 43 87 
+$r21 2 43 249 
+$r29 1 330 
+Fields: 20
+106 ArrayObject 112
+124 ArrayObject 129
+43 ArrayObject 351
+43 ArrayObject 112
+43 ArrayObject 74
+43 ArrayObject 92
+43 ArrayObject 129
+21 indexManager 26
+21 deltaState 36
+345 ArrayObject 351
+36 otherRoots 203
+-1 oldResolvedClasspath 43
+-1 project 6
+69 ArrayObject 74
+87 ArrayObject 92
+12 ArrayObject 270
+12 ArrayObject 286
+12 ArrayObject 330
+12 ArrayObject 411
+12 ArrayObject 255
+Accesses: 15
+32 1 21 
+68 1 -1 
+5 1 -1 
+105 1 -1 
+201 1 36 
+42 1 -1 
+394 1 -1 
+53 1 -1 
+22 1 21 
+86 1 -1 
+248 1 -1 
+344 1 -1 
+185 1 -1 
+123 1 -1 
+443 1 -1 
+Functions: 25
+129 1 129 
+66 14 -1 129 6 74 330 43 12 270 112 411 92 286 351 255 
+195 6 6 182 121 26 186 172 
+453 6 420 6 440 26 444 430 
+6 1 6 
+330 1 330 
+203 2 121 203 
+395 2 6 395 
+270 1 270 
+401 3 336 26 398 
+18 0 
+215 1 121 
+92 1 92 
+413 1 411 
+222 2 217 26 
+286 1 286 
+353 1 351 
+355 2 336 355 
+228 2 121 26 
+166 1 112 
+424 1 411 
+176 1 112 
+114 1 112 
+434 1 411 
+247 10 -1 112 129 6 249 74 43 92 351 255 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/ClasspathChange.hashCode()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/ClasspathChange.getSourceAttachmentDeltaFlag(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;)I
+PTG:
+Vars:
+3
+r2 1 -1 
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+22 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/jdt/internal/core/ClasspathChange.generateDelta(Lorg/eclipse/jdt/internal/core/JavaElementDelta;Z)I
+PTG:
+Vars:
+111
+$r21 1 485 
+$r69 1 1125 
+$r60 1 947 
+r113 1 1050 
+$r86 1 13 
+$r85 1 244 
+$r44 2 498 264 
+$r77 1 163 
+r6 1 32 
+$r56 1 563 
+$r28 2 774 264 
+$r4 1 16 
+$r49 1 619 
+$r42 2 722 13 
+r96 2 140 84 
+$r18 1 378 
+$r75 1 13 
+r15 1 -2 
+$r61 1 992 
+$r41 1 731 
+$r82 1 150 
+$r76 1 393 
+$r7 1 13 
+$r67 1 1076 
+$r36 2 828 264 
+$r59 2 924 264 
+$r65 1 163 
+r0 1 3 
+r114 1 1057 
+$r79 1 163 
+$r11 1 13 
+r1 1 8 
+r93 1 53 
+r98 1 115 
+r35 1 882 
+$r74 1 434 
+r107 1 563 
+r110 1 751 
+$r52 2 13 627 
+$r64 1 163 
+$r12 1 13 
+$r68 1 1076 
+$r83 2 150 206 
+r102 1 408 
+$r24 1 745 
+$r66 1 1064 
+$r30 1 791 
+$r54 1 557 
+$r81 1 13 
+r97 2 147 91 
+$r32 1 865 
+$r48 2 616 13 
+$r40 2 726 264 
+$r5 1 19 
+r115 1 1064 
+$r88 1 -1 
+$r29 1 779 
+$r39 1 834 
+$r55 1 558 
+$r58 1 931 
+$r90 1 -1 
+$r72 1 163 
+$r100 1 264 
+$r37 1 833 
+r95 2 133 77 
+r105 1 428 
+r112 1 797 
+$r20 2 480 264 
+$r50 2 631 264 
+r118 1 1125 
+$r71 1 1137 
+r106 3 579 652 669 
+r116 1 1111 
+$r62 2 985 13 
+$r63 1 993 
+$r80 1 150 
+$r84 2 13 239 
+$r51 1 636 
+r2 1 -1 
+$r22 2 688 264 
+$r14 1 264 
+r99 1 212 
+$r10 1 150 
+$r17 1 13 
+$r78 1 264 
+$r43 1 732 
+$r19 1 264 
+$r89 1 -1 
+$r70 1 1137 
+$r38 2 824 13 
+$r73 1 408 
+$r23 1 693 
+$r87 1 13 
+$r31 2 860 264 
+$r26 1 760 
+$r57 1 579 
+$r3 1 13 
+$r8 1 13 
+$r53 2 552 264 
+r34 1 869 
+r111 1 785 
+$r47 1 603 
+$r25 2 755 264 
+$r33 2 856 13 
+$r13 1 300 
+$r46 1 594 
+r117 1 1118 
+r103 1 393 
+$r16 1 13 
+$r45 1 503 
+$r27 1 761 
+Fields: 45
+115 rawClasspath 133
+115 outputLocation 147
+755 ArrayObject 760
+53 rawClasspath 77
+53 outputLocation 91
+774 ArrayObject 779
+860 ArrayObject 865
+869 ArrayObject 882
+688 ArrayObject 693
+-1 oldResolvedClasspath 264
+-1 project 13
+-1 oldOutputLocation 163
+-1 oldRawClasspath 150
+206 ArrayObject 212
+393 ArrayObject 428
+480 ArrayObject 485
+552 ArrayObject 557
+631 ArrayObject 636
+84 ArrayObject 745
+84 ArrayObject 931
+84 ArrayObject 947
+84 ArrayObject 992
+84 ArrayObject 791
+264 ArrayObject 731
+264 ArrayObject 485
+264 ArrayObject 503
+264 ArrayObject 557
+264 ArrayObject 636
+264 ArrayObject 693
+264 ArrayObject 760
+264 ArrayObject 779
+264 ArrayObject 833
+264 ArrayObject 865
+726 ArrayObject 731
+150 ArrayObject 212
+32 projectCachesToReset 300
+32 oldRoots 378
+140 ArrayObject 745
+140 ArrayObject 931
+140 ArrayObject 947
+140 ArrayObject 992
+140 ArrayObject 791
+3 deltaState 8
+828 ArrayObject 833
+498 ArrayObject 503
+Accesses: 49
+128 1 115 
+4 1 3 
+389 1 -1 
+773 1 -1 
+1030 1 -1 
+263 1 -1 
+12 1 -1 
+142 1 115 
+270 1 -1 
+1043 1 -1 
+276 1 -1 
+149 1 -1 
+923 1 -1 
+156 1 -1 
+162 1 -1 
+291 1 -1 
+551 1 -1 
+298 1 32 
+46 1 -1 
+175 1 -1 
+303 1 -1 
+687 1 -1 
+55 1 -1 
+823 1 -1 
+827 1 -1 
+195 1 -1 
+72 1 53 
+330 1 -1 
+205 1 -1 
+463 1 -1 
+721 1 -1 
+341 1 -1 
+725 1 -1 
+86 1 53 
+855 1 -1 
+984 1 -1 
+859 1 -1 
+479 1 -1 
+615 1 -1 
+360 1 -1 
+108 1 -1 
+238 1 -1 
+497 1 -1 
+626 1 -1 
+754 1 -1 
+117 1 -1 
+630 1 -1 
+376 1 32 
+1016 1 -1 
+Functions: 71
+0 0 
+1153 2 -2 1125 
+387 2 378 13 
+644 5 594 627 603 636 13 
+1028 3 147 163 91 
+1156 1 1118 
+135 3 115 147 133 
+647 1 594 
+10 2 16 8 
+779 1 779 
+13 1 13 
+1042 16 -1 833 865 163 485 264 779 13 557 212 693 150 503 760 731 636 
+661 4 594 579 652 669 
+791 1 791 
+280 21 992 833 865 931 163 485 264 745 779 140 557 947 147 84 693 503 791 760 731 91 636 
+922 18 -1 833 865 163 931 485 264 779 13 557 212 693 150 503 760 731 636 924 
+27 1 8 
+1179 1 -1 
+412 1 408 
+1052 1 1050 
+799 18 -1 833 865 163 485 264 779 13 557 785 212 693 150 503 760 731 636 797 
+549 2 408 558 
+166 7 163 147 212 133 150 91 77 
+1062 1 1057 
+295 1 13 
+681 20 -1 833 865 -2 163 579 485 264 779 652 13 557 212 693 150 503 760 731 636 669 
+557 1 557 
+47 1 13 
+432 1 428 
+1074 1 1064 
+307 2 300 13 
+947 1 947 
+693 1 693 
+182 2 -2 13 
+824 3 833 824 13 
+441 3 434 408 428 
+1084 1 1076 
+63 4 53 91 13 77 
+324 0 
+1092 2 -2 1064 
+839 18 -1 833 865 -2 834 163 485 264 779 13 557 212 693 150 503 760 731 636 
+1095 1 1057 
+79 3 53 91 77 
+1105 18 -1 833 865 163 485 264 779 13 557 147 212 693 150 503 760 731 91 636 
+722 3 722 731 13 
+214 1 212 
+598 1 594 
+856 3 865 856 13 
+985 3 992 985 13 
+1113 1 1111 
+348 2 -2 13 
+476 23 -1 992 833 865 163 931 485 264 745 779 140 13 557 947 212 84 693 150 503 791 760 731 636 
+608 1 603 
+225 18 -1 833 865 163 485 133 264 779 13 557 77 212 693 150 503 760 731 636 
+738 18 -1 833 865 -2 163 485 264 779 13 557 212 693 150 503 760 731 636 732 
+1123 1 1118 
+998 18 -1 833 865 -2 993 163 485 264 779 13 557 212 693 150 503 760 731 636 
+616 2 616 13 
+745 1 745 
+364 2 8 13 
+109 1 13 
+622 2 603 619 
+1135 1 1125 
+753 18 -1 833 865 163 485 264 779 13 557 751 212 693 150 503 760 761 731 636 
+242 1 212 
+886 1 882 
+503 1 503 
+760 1 760 
+1145 1 1137 
+250 5 3 244 8 13 239 
+125 4 115 147 133 13 
+Constructors: 3
+608 603
+598 594
+412 408
+
+Summary: 8
+-1 0 408 603 579 652 594 669 

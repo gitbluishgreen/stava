@@ -1,0 +1,785 @@
+32
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.decodeMethodAnnotations(IZLorg/eclipse/jdt/internal/compiler/classfmt/MethodInfo;)[Lorg/eclipse/jdt/internal/compiler/classfmt/AnnotationInfo;
+PTG:
+Vars:
+1
+r0 1 -4 
+Fields: 0
+Accesses: 2
+48 1 -4 
+56 1 -4 
+Functions: 2
+0 1 -4 
+19 1 -4 
+Constructors: 0
+
+Summary: 2
+2 -4 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.decodeCodeAttribute(I)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 69 
+r2 1 101 
+$r3 1 105 
+Fields: 1
+-1 constantPoolOffsets 69
+Accesses: 2
+68 1 -1 
+78 1 -1 
+Functions: 9
+18 2 -1 69 
+52 2 -1 69 
+5 2 -1 69 
+85 2 -1 69 
+117 2 -1 69 
+72 2 -1 69 
+105 2 101 105 
+90 2 -1 69 
+125 2 -1 69 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.isSynthetic()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.getAnnotations()[Lorg/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.readExceptionAttributes()V
+PTG:
+Vars:
+12
+$r10 2 201 138 
+r2 1 48 
+$r6 2 16 110 
+$r1 1 16 
+r0 1 -1 
+$r8 1 156 
+$r11 1 208 
+$r9 1 80 
+$r5 2 16 105 
+$r7 1 138 
+$r3 1 52 
+$r4 1 92 
+Fields: 3
+-1 constantPoolOffsets 16
+-1 exceptionNames 201
+-1 exceptionNames 138
+Accesses: 11
+130 1 -1 
+83 1 -1 
+211 1 -1 
+119 1 -1 
+104 1 -1 
+200 1 -1 
+25 1 -1 
+137 1 -1 
+109 1 -1 
+15 1 -1 
+95 1 -1 
+Functions: 11
+0 4 -1 16 201 138 
+32 4 -1 16 201 138 
+113 4 -1 16 201 138 
+19 4 -1 16 201 138 
+52 2 48 52 
+148 4 -1 16 201 138 
+37 4 -1 16 201 138 
+181 4 -1 16 201 138 
+108 4 -1 16 201 138 
+61 4 -1 16 201 138 
+143 4 -1 16 201 138 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+7
+$r3 1 15 
+r2 1 -1 
+$r5 1 29 
+$r4 1 19 
+r0 1 -2 
+r1 1 -2 
+$r6 1 33 
+Fields: 0
+Accesses: 0
+Functions: 6
+32 1 -2 
+33 2 33 29 
+18 1 -2 
+19 2 19 15 
+28 1 -1 
+14 1 -1 
+Constructors: 0
+
+Summary: 7
+-2 15 33 29 0 -1 19 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.getTagBits()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.isClinit()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.decodeParamAnnotations(IZLorg/eclipse/jdt/internal/compiler/classfmt/MethodInfo;)[[Lorg/eclipse/jdt/internal/compiler/classfmt/AnnotationInfo;
+PTG:
+Vars:
+5
+r0 1 -4 
+r1 1 67 
+$r2 1 87 
+r3 1 54 
+_ret 1 54 
+Fields: 1
+67 ArrayObject 87
+Accesses: 1
+87 1 87 
+Functions: 3
+32 1 -4 
+5 1 -4 
+63 1 -4 
+Constructors: 0
+
+Summary: 2
+2 -4 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.toString()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r0 1 0 
+$r3 1 14 
+r2 1 -1 
+_ret 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+10 2 -1 0 
+13 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.getMethodDescriptor()[C
+PTG:
+Vars:
+6
+r0 1 -1 
+$r1 1 1 
+$r4 1 35 
+$r2 1 1 
+$r3 1 8 
+_ret 1 1 
+Fields: 2
+-1 constantPoolOffsets 8
+-1 descriptor 1
+Accesses: 5
+0 1 -1 
+17 1 -1 
+38 1 -1 
+7 1 -1 
+41 1 -1 
+Functions: 3
+24 3 -1 1 8 
+11 3 -1 1 8 
+28 3 -1 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.<init>([B[II)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+9 1 -1 
+14 1 -1 
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 1
+4 -1
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.getGenericSignature()[C
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 6
+0 1 -1 
+17 1 -1 
+36 1 -1 
+39 1 -1 
+8 1 -1 
+24 1 -1 
+Functions: 2
+16 1 -1 
+23 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 1 6 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.getModifiers()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+21 1 -1 
+14 1 -1 
+Functions: 2
+18 1 -1 
+9 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.hashCode()I
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 8 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+1 1 1 
+7 1 -1 
+8 1 8 
+Constructors: 0
+
+Summary: 3
+-1 1 8 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.isConstructor()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.readCodeAttribute()V
+PTG:
+Vars:
+5
+r3 1 52 
+r0 1 -1 
+$r1 1 110 
+$r2 1 20 
+$r4 1 56 
+Fields: 1
+-1 constantPoolOffsets 20
+Accesses: 5
+81 1 -1 
+113 1 -1 
+19 1 -1 
+70 1 -1 
+29 1 -1 
+Functions: 7
+0 2 -1 20 
+67 2 -1 20 
+36 2 -1 20 
+23 2 -1 20 
+56 2 52 56 
+41 2 -1 20 
+90 2 -1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.getParameterAnnotations(I)[Lorg/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.initialize()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+16 1 -1 
+1 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+31 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.toString(Ljava/lang/StringBuffer;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 2 
+r1 1 -1 
+$r3 1 5 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -1 
+2 1 2 
+8 2 -2 5 
+14 2 -1 -2 
+Constructors: 0
+
+Summary: 4
+2 0 -1 5 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.toStringContent(Ljava/lang/StringBuffer;)V
+PTG:
+Vars:
+26
+$r6 1 87 
+$r13 1 198 
+$r8 1 127 
+$r5 1 68 
+$r23 2 124 118 
+$r16 1 209 
+r1 1 -2 
+$r3 1 25 
+$r4 1 46 
+$r14 1 202 
+r0 1 -1 
+$r19 2 43 37 
+$r9 1 148 
+$r26 2 189 183 
+$r20 2 65 59 
+$r24 2 145 139 
+$r11 1 192 
+$r21 2 78 84 
+$r22 2 97 103 
+$r25 2 160 166 
+$r15 1 205 
+$r7 1 106 
+$r12 1 195 
+$r10 1 169 
+r18 2 9 18 
+$r2 1 22 
+Fields: 0
+Accesses: 0
+Functions: 19
+0 1 -1 
+192 1 192 
+68 3 68 84 78 
+5 1 -1 
+198 2 198 202 
+169 3 183 169 189 
+201 1 -1 
+106 3 118 106 124 
+43 2 37 43 
+205 3 18 9 205 
+14 1 -1 
+49 2 25 46 
+19 1 -2 
+148 3 160 148 166 
+22 2 195 22 
+214 1 209 
+87 3 97 87 103 
+25 3 65 25 59 
+127 3 145 139 127 
+Constructors: 1
+49 25
+
+Summary: 8
+46 -1 9 0 195 18 192 202 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.getExceptionTypeNames()[[C
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 exceptionNames 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.compareTo(Ljava/lang/Object;)I
+PTG:
+Vars:
+11
+r0 1 -2 
+r1 1 -2 
+$r7 1 37 
+$r6 1 21 
+$r2 1 5 
+$r9 1 48 
+$r4 1 10 
+$r10 1 53 
+r3 1 -1 
+$r5 1 16 
+$r8 1 42 
+Fields: 0
+Accesses: 0
+Functions: 10
+20 1 -2 
+52 1 -2 
+5 2 16 5 
+37 2 48 37 
+24 2 16 21 
+56 2 48 53 
+9 1 -1 
+41 1 -1 
+13 2 5 10 
+45 2 37 42 
+Constructors: 4
+24 16
+56 48
+13 5
+45 37
+
+Summary: 11
+-2 42 5 10 48 53 16 21 0 -1 37 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.createMethod([B[II)Lorg/eclipse/jdt/internal/compiler/classfmt/MethodInfo;
+PTG:
+Vars:
+25
+$r18 1 420 
+$r0 1 0 
+r2 1 -3 
+r16 1 397 
+$r15 1 388 
+$r6 1 108 
+$r9 1 182 
+r23 2 244 221 
+$r17 1 406 
+$r8 1 159 
+$r11 1 228 
+$r10 1 205 
+_ret 1 0 
+$r13 1 354 
+r26 1 274 
+$r4 1 42 
+$r14 1 367 
+$r12 1 342 
+$r7 2 42 121 
+r25 2 244 221 
+$r19 1 379 
+r1 1 -2 
+r24 2 198 175 
+r5 1 75 
+r22 3 198 175 274 
+Fields: 15
+244 ArrayObject 367
+244 ArrayObject 388
+244 ArrayObject 406
+244 ArrayObject 420
+244 ArrayObject 342
+244 ArrayObject 379
+244 ArrayObject 354
+221 ArrayObject 367
+221 ArrayObject 388
+221 ArrayObject 406
+221 ArrayObject 420
+221 ArrayObject 342
+221 ArrayObject 379
+221 ArrayObject 354
+0 constantPoolOffsets 42
+Accesses: 6
+480 1 0 
+52 1 0 
+134 1 0 
+120 1 0 
+41 1 0 
+139 1 0 
+Functions: 22
+64 2 0 42 
+513 5 0 274 198 42 175 
+194 2 0 42 
+228 2 228 75 
+454 2 0 42 
+7 4 0 -2 -3 42 
+11 2 0 42 
+171 2 0 42 
+300 3 274 198 175 
+428 2 420 397 
+45 2 0 42 
+205 2 75 205 
+111 2 75 108 
+240 2 0 42 
+497 14 0 354 388 420 198 42 175 367 274 244 406 342 379 221 
+182 2 182 75 
+217 2 0 42 
+59 2 0 42 
+124 2 0 42 
+413 2 406 397 
+159 2 75 159 
+287 3 274 198 175 
+Constructors: 1
+7 0
+
+Summary: 4
+1 0 -3 -2 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.decodeLocalVariableAttribute(II)V
+PTG:
+Vars:
+9
+$r8 1 105 
+$r4 2 140 105 
+r6 1 91 
+$r7 1 95 
+$r1 1 23 
+$r3 1 157 
+r0 1 -1 
+$r5 1 62 
+$r2 2 140 105 
+Fields: 3
+-1 constantPoolOffsets 62
+-1 argumentNames 105
+-1 argumentNames 140
+Accesses: 13
+161 1 -1 
+68 1 -1 
+165 1 -1 
+135 1 -1 
+104 1 -1 
+139 1 -1 
+108 1 -1 
+147 1 -1 
+116 1 -1 
+153 1 -1 
+26 1 -1 
+61 1 -1 
+31 1 -1 
+Functions: 7
+80 4 -1 105 140 62 
+52 4 -1 105 140 62 
+5 4 -1 105 140 62 
+40 4 -1 105 140 62 
+169 3 105 140 157 
+75 4 -1 105 140 62 
+95 2 91 95 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.getArgumentNames()[[C
+PTG:
+Vars:
+4
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 argumentNames 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.sizeInBytes()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.getSelector()[C
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 1 
+$r4 1 35 
+$r3 1 8 
+$r1 1 1 
+_ret 1 1 
+Fields: 2
+-1 name 1
+-1 constantPoolOffsets 8
+Accesses: 5
+0 1 -1 
+17 1 -1 
+38 1 -1 
+7 1 -1 
+41 1 -1 
+Functions: 3
+24 3 -1 1 8 
+11 3 -1 1 8 
+28 3 -1 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.getDefaultValue()Ljava/lang/Object;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.decodeAnnotations(IZILorg/eclipse/jdt/internal/compiler/classfmt/MethodInfo;)[Lorg/eclipse/jdt/internal/compiler/classfmt/AnnotationInfo;
+PTG:
+Vars:
+7
+r2 1 -5 
+$r1 1 19 
+$r5 2 50 50 
+r0 1 1 
+$r3 1 28 
+$r4 1 24 
+_ret 1 1 
+Fields: 3
+1 ArrayObject 50
+-5 reference 24
+-5 constantPoolOffsets 28
+Accesses: 4
+33 1 -5 
+50 1 50 
+23 1 -5 
+27 1 -5 
+Functions: 1
+40 3 19 24 28 
+Constructors: 1
+40 19
+
+Summary: 4
+24 28 3 -5 
+org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.readModifierRelatedAttributes()V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r6 1 158 
+r2 1 48 
+$r3 1 184 
+$r4 1 132 
+$r1 1 16 
+$r5 1 106 
+Fields: 1
+-1 constantPoolOffsets 16
+Accesses: 10
+176 1 -1 
+193 1 -1 
+115 1 -1 
+150 1 -1 
+167 1 -1 
+25 1 -1 
+202 1 -1 
+124 1 -1 
+141 1 -1 
+15 1 -1 
+Functions: 9
+0 2 -1 16 
+32 2 -1 16 
+210 2 -1 16 
+19 2 -1 16 
+132 2 48 132 
+37 2 -1 16 
+184 2 48 184 
+106 2 48 106 
+158 2 48 158 
+Constructors: 0
+
+Summary: 1
+-1 

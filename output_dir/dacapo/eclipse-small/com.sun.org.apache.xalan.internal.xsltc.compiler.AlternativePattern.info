@@ -1,0 +1,214 @@
+8
+com/sun/org/apache/xalan/internal/xsltc/compiler/AlternativePattern.<init>(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Pattern;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Pattern;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+1 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/AlternativePattern.setParser(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Parser;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 6 
+$r3 1 14 
+Fields: 2
+-1 _left 6
+-1 _right 14
+Accesses: 2
+5 1 -1 
+13 1 -1 
+Functions: 3
+2 4 -1 -2 6 14 
+18 2 -2 14 
+10 2 -2 6 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/AlternativePattern.getPriority()D
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 9 
+Fields: 2
+-1 _left 1
+-1 _right 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+1 1 1 
+9 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/AlternativePattern.typeCheck(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/SymbolTable;)Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/Type;
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r4 1 10 
+$r2 1 1 
+Fields: 2
+-1 _left 1
+-1 _right 10
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+5 2 1 -2 
+14 2 -2 10 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/AlternativePattern.toString()Ljava/lang/String;
+PTG:
+Vars:
+11
+$r1 1 9 
+$r0 1 0 
+$r6 1 25 
+$r3 1 13 
+$r7 1 28 
+$r9 1 36 
+$r4 1 16 
+$r5 1 21 
+r2 1 -1 
+$r8 1 33 
+_ret 1 36 
+Fields: 2
+-1 _left 13
+-1 _right 25
+Accesses: 2
+24 1 -1 
+12 1 -1 
+Functions: 7
+0 1 0 
+16 1 16 
+33 1 33 
+4 1 0 
+21 2 21 25 
+9 2 9 13 
+28 1 28 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/AlternativePattern.getRight()Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Pattern;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 _right 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/AlternativePattern.getLeft()Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Pattern;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 _left 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/AlternativePattern.translate(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+21
+r3 1 -2 
+$r12 1 6 
+r0 1 -3 
+$r9 1 38 
+$r17 1 74 
+$r15 1 38 
+$r4 1 6 
+r1 1 4 
+$r5 1 15 
+r6 1 26 
+$r16 1 81 
+$r14 1 67 
+$r11 1 50 
+$r20 1 38 
+r2 1 -1 
+$r7 1 30 
+$r18 1 86 
+$r22 1 94 
+$r10 1 6 
+$r13 1 62 
+$r21 1 101 
+Fields: 8
+6 _trueList 50
+6 _falseList 62
+38 _trueList 81
+38 _falseList 101
+-1 _left 6
+-1 _right 38
+-1 _trueList 74
+-1 _falseList 94
+Accesses: 12
+97 1 -1 
+98 1 38 
+5 1 -1 
+37 1 -1 
+73 1 -1 
+58 1 -1 
+59 1 6 
+77 1 -1 
+93 1 -1 
+46 1 -1 
+78 1 38 
+47 1 6 
+Functions: 13
+0 1 -3 
+33 2 4 30 
+65 1 26 
+70 2 67 62 
+104 2 101 94 
+11 5 -2 50 -3 6 62 
+43 5 81 -2 -3 101 38 
+14 2 4 15 
+81 2 81 26 
+20 1 15 
+55 2 50 26 
+89 2 86 74 
+29 1 -3 
+Constructors: 1
+20 15
+
+Summary: 11
+1 4 -1 26 -3 -2 86 67 0 15 30 

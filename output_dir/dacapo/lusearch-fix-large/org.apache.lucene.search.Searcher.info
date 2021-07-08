@@ -1,0 +1,261 @@
+15
+org/apache/lucene/search/Searcher.search(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/HitCollector;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 0 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+1 -3 -2 -1 0 
+org/apache/lucene/search/Searcher.search(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/Filter;ILorg/apache/lucene/search/Sort;)Lorg/apache/lucene/search/TopFieldDocs;
+PTG:
+Vars:
+7
+_ret 1 10 
+$r5 1 10 
+r1 1 -2 
+r0 1 -1 
+r4 1 -5 
+r3 1 -3 
+$r2 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 4 -1 -3 3 -5 
+1 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-5 -3 -2 -1 3 
+org/apache/lucene/search/Searcher.setSimilarity(Lorg/apache/lucene/search/Similarity;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/Searcher.search(Lorg/apache/lucene/search/Query;I)Lorg/apache/lucene/search/TopDocs;
+PTG:
+Vars:
+4
+_ret 1 4 
+r0 1 -1 
+$r2 1 4 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/search/Searcher.search(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/Sort;)Lorg/apache/lucene/search/Hits;
+PTG:
+Vars:
+5
+_ret 1 0 
+r2 1 -2 
+r3 1 -3 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 4 0 -1 -2 -3 
+Constructors: 1
+8 0
+
+Summary: 3
+-3 -2 -1 
+org/apache/lucene/search/Searcher.getSimilarity()Lorg/apache/lucene/search/Similarity;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 similarity 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/Searcher.<init>()V
+PTG:
+Vars:
+2
+$r1 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 2
+-1 0 
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/apache/lucene/search/Searcher.search(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/Filter;I)Lorg/apache/lucene/search/TopDocs;
+PTG:
+Vars:
+6
+_ret 1 8 
+r1 1 -2 
+r3 1 -3 
+$r2 1 3 
+r0 1 -1 
+$r4 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -3 3 
+1 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+org/apache/lucene/search/Searcher.search(Lorg/apache/lucene/search/Query;)Lorg/apache/lucene/search/Hits;
+PTG:
+Vars:
+5
+_ret 1 6 
+$r2 0 
+r0 1 -1 
+r1 1 -2 
+$r3 1 6 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/search/Searcher.explain(Lorg/apache/lucene/search/Query;I)Lorg/apache/lucene/search/Explanation;
+PTG:
+Vars:
+5
+_ret 1 7 
+$r2 1 3 
+$r3 1 7 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 3 
+1 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 3 
+org/apache/lucene/search/Searcher.createWeight(Lorg/apache/lucene/search/Query;)Lorg/apache/lucene/search/Weight;
+PTG:
+Vars:
+4
+$r2 1 2 
+_ret 1 2 
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/lucene/search/Searcher.docFreqs([Lorg/apache/lucene/index/Term;)[I
+PTG:
+Vars:
+5
+r0 1 -2 
+_ret 1 2 
+$r3 1 18 
+r1 1 2 
+r2 1 -1 
+Fields: 1
+-2 ArrayObject 18
+Accesses: 0
+Functions: 1
+15 2 -1 18 
+Constructors: 0
+
+Summary: 3
+-2 -1 18 
+org/apache/lucene/search/Searcher.search(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/Filter;Lorg/apache/lucene/search/HitCollector;)V
+PTG:
+Vars:
+5
+r4 1 -4 
+r0 1 -1 
+r1 1 -2 
+$r2 1 3 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 2 -1 -2 
+8 4 -1 -3 3 -4 
+Constructors: 0
+
+Summary: 6
+2 -4 -3 -2 -1 0 
+org/apache/lucene/search/Searcher.search(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/Filter;)Lorg/apache/lucene/search/Hits;
+PTG:
+Vars:
+5
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+r2 1 -2 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 4 0 -1 -2 -3 
+Constructors: 1
+7 0
+
+Summary: 3
+-3 -2 -1 
+org/apache/lucene/search/Searcher.search(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/Filter;Lorg/apache/lucene/search/Sort;)Lorg/apache/lucene/search/Hits;
+PTG:
+Vars:
+6
+_ret 1 0 
+r4 1 -4 
+r3 1 -3 
+r1 1 -1 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 5 0 -1 -2 -3 -4 
+Constructors: 1
+8 0
+
+Summary: 4
+-4 -3 -2 -1 

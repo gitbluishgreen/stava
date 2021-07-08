@@ -1,0 +1,665 @@
+27
+org/h2/expression/ExpressionColumn.isAutoIncrement()Z
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 4 
+r0 1 -1 
+Fields: 1
+-1 column 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 4 
+org/h2/expression/ExpressionColumn.optimize(Lorg/h2/engine/Session;)Lorg/h2/expression/Expression;
+PTG:
+Vars:
+7
+$r1 1 1 
+_ret 1 144 
+r0 1 -1 
+$r3 1 1 
+$r4 1 144 
+$r2 1 141 
+r5 1 -2 
+Fields: 2
+-1 resolver 1
+-1 column 141
+Accesses: 11
+0 1 -1 
+38 1 -1 
+55 1 -1 
+135 1 -1 
+25 1 -1 
+74 1 -1 
+11 1 -1 
+60 1 -1 
+108 1 -1 
+140 1 -1 
+94 1 -1 
+Functions: 17
+130 0 
+67 0 
+37 0 
+101 0 
+7 1 -2 
+71 0 
+8 0 
+136 3 -1 1 141 
+105 0 
+78 0 
+112 0 
+18 1 -2 
+50 0 
+83 0 
+117 0 
+87 0 
+121 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/expression/ExpressionColumn.getColumn()Lorg/h2/table/Column;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 column 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.getSQL()Ljava/lang/String;
+PTG:
+Vars:
+20
+$r13 1 44 
+$r8 1 84 
+$r4 1 64 
+_ret 4 14 62 99 25 
+$r3 1 27 
+$r6 1 64 
+$r7 1 81 
+$r10 1 93 
+$r5 1 70 
+$r17 1 1 
+$r15 1 52 
+$r14 1 47 
+$r16 1 56 
+$r12 1 27 
+$r1 1 1 
+$r2 1 19 
+r0 1 -1 
+r18 4 14 62 99 25 
+$r9 1 89 
+$r11 1 33 
+Fields: 4
+-1 columnName 19
+-1 tableAlias 27
+-1 schemaName 64
+-1 column 1
+Accesses: 7
+0 1 -1 
+18 1 -1 
+7 1 -1 
+40 1 -1 
+26 1 -1 
+77 1 -1 
+63 1 -1 
+Functions: 14
+33 2 33 44 
+37 1 33 
+70 2 81 70 
+8 1 1 
+41 1 27 
+74 1 70 
+78 1 64 
+47 1 47 
+19 1 19 
+52 5 99 52 25 14 62 
+84 1 84 
+56 1 56 
+89 5 99 89 25 14 62 
+93 1 93 
+Constructors: 2
+37 33
+74 70
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.<init>(Lorg/h2/engine/Database;Lorg/h2/table/Column;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 0 1 
+org/h2/expression/ExpressionColumn.getNullable()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 column 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.setEvaluatable(Lorg/h2/table/TableFilter;Z)V
+PTG:
+Vars:
+5
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+$r3 1 1 
+$r4 1 12 
+Fields: 1
+-1 resolver 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+8 1 -1 
+Functions: 1
+9 1 1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ExpressionColumn.getValue(Lorg/h2/engine/Session;)Lorg/h2/value/Value;
+PTG:
+Vars:
+11
+$r5 1 25 
+$r10 1 46 
+r0 1 -1 
+r7 1 -2 
+r8 1 18 
+r6 1 25 
+_ret 1 54 
+$r9 1 1 
+r2 1 9 
+r11 1 54 
+$r1 1 1 
+Fields: 2
+-1 resolver 1
+-1 column 46
+Accesses: 3
+0 1 -1 
+41 1 -1 
+45 1 -1 
+Functions: 6
+1 1 1 
+23 4 -1 1 18 46 
+42 2 1 46 
+61 3 -1 1 46 
+14 1 9 
+62 0 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ExpressionColumn.getNotIfPossible(Lorg/h2/engine/Session;)Lorg/h2/expression/Expression;
+PTG:
+Vars:
+6
+_ret 1 0 
+r1 1 -2 
+$r4 1 11 
+r2 1 -1 
+$r0 1 0 
+$r3 1 8 
+Fields: 0
+Accesses: 0
+Functions: 3
+7 0 
+8 1 8 
+14 4 0 -1 -2 11 
+Constructors: 1
+14 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ExpressionColumn.getScale()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 column 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.updateAggregate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+11
+r15 1 -2 
+r6 1 42 
+$r1 1 5 
+$r4 1 1 
+$r7 1 53 
+$r9 1 78 
+r0 1 -1 
+$r2 1 1 
+r5 1 23 
+r8 1 53 
+r3 1 13 
+Fields: 3
+-1 database 78
+-1 resolver 1
+-1 column 5
+Accesses: 4
+0 1 -1 
+4 1 -1 
+77 1 -1 
+14 1 -1 
+Functions: 10
+1 2 1 5 
+50 5 -1 1 5 42 78 
+38 1 23 
+70 6 -1 1 5 42 13 78 
+92 4 -1 1 5 78 
+93 0 
+30 4 -1 1 5 78 
+78 3 53 13 78 
+15 1 1 
+31 0 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/expression/ExpressionColumn.createIndexConditions(Lorg/h2/engine/Session;Lorg/h2/table/TableFilter;)V
+PTG:
+Vars:
+8
+r1 1 4 
+r0 1 -1 
+$r3 1 11 
+$r5 1 27 
+r7 1 -2 
+r2 1 -3 
+$r4 1 24 
+r6 1 33 
+Fields: 1
+-1 column 11
+Accesses: 1
+10 1 -1 
+Functions: 6
+0 2 -1 11 
+38 2 33 -3 
+23 0 
+24 1 24 
+11 1 11 
+27 3 -1 11 27 
+Constructors: 0
+
+Summary: 5
+-1 -3 0 -2 1 
+org/h2/expression/ExpressionColumn.getOriginalTableAliasName()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 tableAlias 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.getSchemaName()Ljava/lang/String;
+PTG:
+Vars:
+6
+$r1 1 1 
+r2 1 7 
+_ret 1 20 
+r0 1 -1 
+$r3 1 17 
+$r4 1 20 
+Fields: 1
+-1 column 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+16 1 7 
+1 1 1 
+17 1 17 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.getOriginalColumnName()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 columnName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.isEverything(Lorg/h2/expression/ExpressionVisitor;)Z
+PTG:
+Vars:
+7
+$r8 1 143 
+$r12 1 165 
+r1 1 -1 
+$r9 1 152 
+$r10 1 159 
+r0 1 -2 
+$r11 1 162 
+Fields: 0
+Accesses: 6
+113 1 -1 
+98 1 -1 
+131 1 -1 
+84 1 -1 
+56 1 -1 
+73 1 -1 
+Functions: 15
+0 1 -2 
+162 1 162 
+99 0 
+132 0 
+102 0 
+138 1 -2 
+108 1 -2 
+143 1 143 
+80 1 -2 
+147 1 143 
+117 1 -2 
+152 1 152 
+155 1 -2 
+60 1 -2 
+159 1 159 
+Constructors: 1
+147 143
+
+Summary: 3
+-1 -2 0 
+org/h2/expression/ExpressionColumn.getPrecision()J
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 column 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.mapColumns(Lorg/h2/table/ColumnResolver;I)V
+PTG:
+Vars:
+16
+$r4 2 133 76 
+$r11 1 1 
+r6 1 73 
+r15 1 130 
+$r1 1 1 
+$r10 1 36 
+$r2 1 25 
+$r5 1 138 
+$r7 1 76 
+r0 1 -1 
+$r9 1 25 
+r14 1 111 
+r3 1 -2 
+$r12 1 12 
+r13 1 54 
+$r8 1 81 
+Fields: 6
+54 ArrayObject 73
+-1 columnName 133
+-1 columnName 76
+-1 tableAlias 1
+-1 schemaName 25
+111 ArrayObject 130
+Accesses: 6
+0 1 -1 
+132 1 -1 
+7 1 -1 
+24 1 -1 
+75 1 -1 
+31 1 -1 
+Functions: 12
+32 2 36 25 
+48 1 -2 
+35 1 -2 
+133 3 133 138 76 
+8 2 1 12 
+136 1 130 
+152 7 -1 1 -2 130 133 25 76 
+105 1 -2 
+11 1 -2 
+76 2 81 76 
+79 1 73 
+95 7 -1 1 -2 133 25 73 76 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/expression/ExpressionColumn.getDisplaySize()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 column 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.getCost()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.getAlias()Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 15 
+$r3 1 15 
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 column 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.getTableName()Ljava/lang/String;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 1 
+_ret 1 17 
+r2 1 7 
+$r3 1 17 
+Fields: 1
+-1 column 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+16 1 7 
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.mapColumn(Lorg/h2/table/ColumnResolver;Lorg/h2/table/Column;I)V
+PTG:
+Vars:
+5
+r2 1 -2 
+r6 1 -3 
+r0 1 -1 
+$r1 1 1 
+$r3 1 1 
+Fields: 1
+-1 resolver 1
+Accesses: 7
+0 1 -1 
+33 1 -1 
+19 1 -1 
+53 1 -1 
+9 1 -1 
+25 1 -1 
+14 1 -1 
+Functions: 1
+54 0 
+Constructors: 0
+
+Summary: 3
+-1 0 1 
+org/h2/expression/ExpressionColumn.getType()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 column 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.getTableFilter()Lorg/h2/table/TableFilter;
+PTG:
+Vars:
+5
+$r1 1 1 
+_ret 1 15 
+$r3 1 15 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 resolver 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ExpressionColumn.<init>(Lorg/h2/engine/Database;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r4 1 -5 
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+Fields: 0
+Accesses: 4
+16 1 -1 
+6 1 -1 
+22 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 5
+-1 2 0 3 1 
+org/h2/expression/ExpressionColumn.getColumnName()Ljava/lang/String;
+PTG:
+Vars:
+5
+r0 1 -1 
+_ret 2 1 18 
+$r3 2 1 18 
+$r2 1 15 
+$r1 1 1 
+Fields: 2
+-1 columnName 1
+-1 column 15
+Accesses: 3
+0 1 -1 
+7 1 -1 
+14 1 -1 
+Functions: 1
+15 1 15 
+Constructors: 0
+
+Summary: 1
+-1 

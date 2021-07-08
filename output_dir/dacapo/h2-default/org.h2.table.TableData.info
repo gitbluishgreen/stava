@@ -1,0 +1,1373 @@
+44
+org/h2/table/TableData.getTableType()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.checkRename()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.getDeadlockDetails(Lorg/h2/util/ObjectArray;)Ljava/lang/String;
+PTG:
+Vars:
+20
+$r11 1 56 
+$r9 1 48 
+$r4 1 185 
+r17 1 103 
+$r18 1 123 
+r2 1 -2 
+_ret 1 185 
+$r10 1 51 
+$r12 1 61 
+$r21 1 143 
+$r5 1 23 
+r25 1 -1 
+$r13 1 64 
+r3 1 12 
+r7 1 38 
+$r8 1 43 
+$r20 1 103 
+$r0 1 0 
+r6 1 23 
+r15 1 81 
+Fields: 2
+81 ArrayObject 103
+103 lockExclusive 143
+Accesses: 1
+140 1 103 
+Functions: 20
+33 1 23 
+4 1 0 
+164 1 0 
+69 1 64 
+8 1 -2 
+40 1 0 
+43 2 48 43 
+76 1 23 
+13 1 12 
+46 1 23 
+177 1 0 
+51 1 51 
+116 1 0 
+22 1 12 
+56 2 56 61 
+184 1 0 
+121 2 103 143 
+154 1 0 
+59 1 38 
+126 2 0 123 
+Constructors: 1
+4 0
+
+Summary: 3
+-1 -2 0 
+org/h2/table/TableData.isLockedExclusively()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 lockExclusive 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.createRow([Lorg/h2/value/Value;)Lorg/h2/result/Row;
+PTG:
+Vars:
+4
+r2 1 -1 
+r1 1 -2 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 1
+5 1 -1 
+Functions: 1
+9 2 0 -2 
+Constructors: 1
+9 0
+
+Summary: 2
+-1 -2 
+org/h2/table/TableData.isLockedExclusivelyBy(Lorg/h2/engine/Session;)Z
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 lockExclusive 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/table/TableData.setCompareMode(Lorg/h2/value/CompareMode;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.isGlobalTemporary()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.toString()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.getDropSQL()Ljava/lang/String;
+PTG:
+Vars:
+7
+$r1 1 9 
+$r5 1 19 
+r2 1 -1 
+$r3 1 13 
+_ret 1 19 
+$r0 1 0 
+$r4 1 16 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 0 
+16 1 16 
+4 1 0 
+9 2 9 13 
+12 1 -1 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.canDrop()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.canTruncate()Z
+PTG:
+Vars:
+7
+r1 1 4 
+$r6 1 51 
+$r2 1 21 
+r0 1 -1 
+r3 1 21 
+r5 1 21 
+$r4 1 29 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+49 1 21 
+19 1 4 
+12 1 4 
+28 1 21 
+29 1 29 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.addRowsToIndex(Lorg/h2/engine/Session;Lorg/h2/util/ObjectArray;Lorg/h2/index/Index;)V
+PTG:
+Vars:
+8
+r6 1 46 
+r2 1 -3 
+r4 1 -1 
+r0 1 -4 
+r11 1 32 
+$r5 1 46 
+$r3 1 4 
+r7 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 8
+34 1 32 
+69 1 -3 
+22 0 
+11 3 -1 -4 4 
+28 1 -3 
+44 1 32 
+60 3 -2 -4 46 
+14 2 -3 4 
+Constructors: 1
+11 4
+
+Summary: 8
+-1 -4 -2 4 1 2 0 -3 
+org/h2/table/TableData.checkDeadlock(Lorg/h2/engine/Session;Lorg/h2/engine/Session;Ljava/util/Set;)Lorg/h2/util/ObjectArray;
+PTG:
+Vars:
+16
+r17 1 157 
+r2 1 -1 
+$r5 1 144 
+r14 2 -4 16 
+$r11 1 -1 
+r16 1 65 
+$r7 1 79 
+r15 2 119 175 
+r9 1 103 
+r8 1 79 
+r13 2 -2 -3 
+$r4 1 144 
+$r10 1 25 
+r1 1 -2 
+$r6 1 144 
+$r3 1 59 
+Fields: 2
+-1 lockShared 59
+-1 lockExclusive 144
+Accesses: 4
+150 1 -1 
+166 1 -1 
+58 1 -1 
+143 1 -1 
+Functions: 13
+-1 0 
+32 3 16 -2 -4 
+129 3 -2 119 175 
+98 1 79 
+67 1 65 
+164 6 144 16 -2 -3 -4 157 
+13 0 
+77 1 65 
+110 6 16 -2 -3 -4 103 79 
+49 3 16 -2 -4 
+151 1 144 
+185 3 -2 119 175 
+59 1 59 
+Constructors: 0
+
+Summary: 7
+-4 2 1 -3 -1 -2 0 
+org/h2/table/TableData.getCreateSQL()Ljava/lang/String;
+PTG:
+Vars:
+13
+$r21 1 82 
+$r23 1 201 
+$r14 1 106 
+$r20 1 78 
+r9 1 141 
+$r10 1 152 
+$r0 1 0 
+$r12 1 99 
+_ret 1 201 
+$r22 1 90 
+r6 1 124 
+$r13 1 90 
+r2 1 -1 
+Fields: 3
+-1 columns 124
+-1 comment 90
+124 ArrayObject 141
+Accesses: 4
+17 1 -1 
+102 1 -1 
+120 1 -1 
+89 1 -1 
+Functions: 24
+96 1 0 
+196 1 0 
+37 1 0 
+6 1 0 
+71 1 0 
+103 1 90 
+168 1 0 
+200 1 0 
+10 4 -1 90 124 141 
+75 1 0 
+44 1 0 
+172 4 -1 90 124 141 
+109 2 99 106 
+81 4 -1 90 124 141 
+146 1 0 
+51 4 -1 90 124 141 
+179 4 -1 90 124 141 
+116 1 0 
+85 2 82 78 
+150 1 141 
+186 4 -1 90 124 141 
+27 1 0 
+155 2 0 152 
+61 1 0 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.unlock(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+10
+r0 1 -1 
+$r1 1 1 
+$r3 1 10 
+$r4 1 10 
+r2 1 -2 
+$r8 1 1 
+$r9 1 1 
+$r10 1 41 
+$r5 1 41 
+$r6 1 1 
+Fields: 3
+-1 database 1
+-1 lockShared 41
+-1 lockExclusive 10
+Accesses: 10
+0 1 -1 
+50 1 -1 
+66 1 -1 
+84 1 -1 
+37 1 -1 
+40 1 -1 
+9 1 -1 
+27 1 -1 
+59 1 -1 
+77 1 -1 
+Functions: 5
+67 1 1 
+55 2 -2 41 
+24 5 -1 1 -2 41 10 
+88 1 1 
+41 1 41 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/table/TableData.getRowCount(Lorg/h2/engine/Session;)J
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 1
+-1 database 1
+Accesses: 2
+0 1 -1 
+22 1 -1 
+Functions: 3
+1 1 1 
+10 3 -1 1 -2 
+12 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/table/TableData.doLock(Lorg/h2/engine/Session;IZ)V
+PTG:
+Vars:
+14
+$r19 1 23 
+$r22 1 43 
+$r20 1 43 
+$r23 1 -1 
+$r21 1 43 
+$r2 1 23 
+r0 1 -1 
+$r4 1 276 
+r1 1 -2 
+$r7 1 307 
+r25 1 191 
+$r6 1 296 
+$r3 1 23 
+$r5 1 276 
+Fields: 3
+-1 database 276
+-1 lockShared 43
+-1 lockExclusive 23
+Accesses: 15
+129 1 -1 
+35 1 -1 
+67 1 -1 
+164 1 -1 
+357 1 -1 
+71 1 -1 
+103 1 -1 
+360 1 -1 
+42 1 -1 
+107 1 -1 
+140 1 -1 
+82 1 -1 
+275 1 -1 
+22 1 -1 
+119 1 -1 
+Functions: 35
+-1 0 
+130 0 
+259 4 -1 276 23 43 
+260 0 
+5 5 -1 -2 276 23 43 
+72 1 43 
+200 5 -1 276 23 43 191 
+11 1 -2 
+203 0 
+141 1 -2 
+272 5 -1 -2 276 23 43 
+83 2 -2 43 
+339 0 
+276 1 276 
+216 0 
+156 5 -1 -2 276 23 43 
+161 5 -1 -2 276 23 43 
+98 5 -1 -2 276 23 43 
+232 0 
+296 1 296 
+169 1 -2 
+43 1 43 
+236 0 
+366 1 276 
+176 5 -1 -2 276 23 43 
+304 0 
+241 0 
+307 1 307 
+244 1 -2 
+120 0 
+184 5 -1 -2 276 23 43 
+248 0 
+57 5 -1 -2 276 23 43 
+62 5 -1 -2 276 23 43 
+254 5 -1 -2 276 23 43 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/table/TableData.addRow(Lorg/h2/engine/Session;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+8
+$r1 1 4 
+r15 1 37 
+$r6 1 37 
+r2 1 -3 
+r0 1 -1 
+$r4 1 23 
+r3 1 -2 
+$r5 1 23 
+Fields: 2
+-1 database 4
+-1 indexes 23
+Accesses: 8
+32 1 -1 
+128 1 -1 
+3 1 -1 
+68 1 -1 
+22 1 -1 
+10 1 -1 
+90 1 -1 
+75 1 -1 
+Functions: 13
+33 1 23 
+4 1 4 
+136 0 
+107 2 -2 -3 
+14 1 -2 
+49 3 -2 -3 37 
+18 1 -3 
+117 4 -1 -2 4 23 
+23 1 23 
+152 0 
+59 5 -1 -2 4 37 23 
+91 0 
+159 0 
+Constructors: 0
+
+Summary: 5
+1 -3 -1 -2 0 
+org/h2/table/TableData.addIndex(Lorg/h2/engine/Session;Ljava/lang/String;I[Lorg/h2/table/IndexColumn;Lorg/h2/index/IndexType;ILjava/lang/String;)Lorg/h2/index/Index;
+PTG:
+Vars:
+54
+$r61 1 88 
+$r27 1 573 
+$r36 1 227 
+r3 1 -3 
+$r12 1 88 
+$r25 1 566 
+$r44 1 88 
+r4 1 -5 
+$r16 1 416 
+$r23 1 556 
+$r26 1 570 
+$r18 1 424 
+r54 1 39 
+$r37 1 88 
+$r33 1 284 
+r0 1 -6 
+_ret 7 181 284 329 265 205 227 303 
+r6 1 -2 
+$r40 1 138 
+$r8 1 703 
+$r32 1 329 
+r57 1 365 
+r46 1 32 
+$r35 1 88 
+$r56 1 88 
+r13 1 391 
+$r10 1 88 
+$r28 1 576 
+r21 1 440 
+$r41 1 181 
+r5 1 -8 
+$r7 1 88 
+$r42 1 138 
+r31 1 488 
+$r11 1 728 
+r1 1 -1 
+r55 7 181 284 329 265 205 227 303 
+$r30 1 88 
+$r62 1 748 
+$r43 1 138 
+$r2 1 303 
+$r19 1 429 
+$r22 1 547 
+$r20 1 434 
+$r38 1 88 
+$r45 1 111 
+r14 1 406 
+$r60 1 643 
+$r39 1 205 
+$r15 1 408 
+$r24 1 561 
+$r9 1 88 
+$r34 1 265 
+$r17 1 419 
+Fields: 5
+-1 database 88
+-1 mainIndex 138
+-1 indexes 748
+32 column 39
+-5 ArrayObject 32
+Accesses: 18
+97 1 -1 
+609 1 -1 
+737 1 -1 
+34 1 32 
+137 1 -1 
+681 1 -1 
+714 1 -1 
+107 1 -1 
+459 1 -1 
+747 1 -1 
+172 1 -1 
+691 1 -1 
+724 1 -1 
+87 1 -1 
+190 1 -1 
+127 1 -1 
+319 1 -1 
+351 1 -1 
+Functions: 74
+0 1 -6 
+128 1 88 
+257 1 -6 
+513 13 -1 -2 227 329 265 138 748 205 303 181 406 88 284 
+641 7 227 181 329 265 284 205 303 
+138 2 -2 138 
+655 8 227 181 -8 329 265 284 205 303 
+401 0 
+531 13 -1 -2 227 329 265 138 748 205 303 181 406 88 284 
+276 10 -1 32 -3 -5 -6 39 88 265 138 748 
+408 2 416 408 
+665 4 -1 88 138 748 
+156 8 -1 32 -5 -6 39 88 138 748 
+412 1 408 
+415 4 -1 88 138 748 
+419 1 419 
+547 1 547 
+675 8 -2 227 181 329 265 284 205 303 
+295 10 -1 32 -3 -5 -6 39 88 138 284 748 
+551 1 547 
+424 2 424 429 
+41 1 39 
+427 7 227 181 329 265 284 205 303 
+556 1 556 
+688 9 -2 227 181 88 329 265 284 205 303 
+561 1 561 
+178 1 138 
+434 1 434 
+51 1 39 
+692 1 88 
+53 0 
+566 2 566 570 
+569 4 -1 88 138 748 
+314 10 -1 32 -3 -5 -6 39 88 138 748 303 
+442 0 
+573 1 573 
+701 7 227 181 329 265 284 205 303 
+63 1 39 
+703 1 703 
+320 1 88 
+449 1 391 
+579 1 576 
+197 8 -1 -2 -3 181 -6 88 138 748 
+72 4 -1 88 138 748 
+715 1 88 
+588 4 -1 88 138 748 
+79 1 -6 
+336 11 -1 227 181 88 329 265 138 284 748 205 303 
+593 1 -3 
+466 0 
+341 7 227 181 329 265 284 205 303 
+725 1 88 
+599 8 -2 227 181 329 265 284 205 303 
+88 1 88 
+728 1 728 
+219 11 -1 32 -2 -3 -5 -6 39 88 138 748 205 
+478 2 88 440 
+481 1 391 
+98 1 88 
+360 5 -1 -2 88 138 748 
+744 9 -2 227 181 88 329 265 284 205 303 
+617 0 
+108 1 88 
+494 2 406 488 
+111 1 111 
+367 2 -2 365 
+241 11 -1 32 -2 -3 227 -5 -6 39 88 138 748 
+497 1 406 
+753 8 227 181 329 265 748 284 205 303 
+626 4 -1 88 138 748 
+757 4 -1 88 138 748 
+249 1 -6 
+636 7 227 181 329 265 284 205 303 
+381 2 -2 365 
+Constructors: 9
+336 329
+241 227
+276 265
+197 181
+295 284
+551 547
+314 303
+219 205
+412 408
+
+Summary: 13
+3 1 4 0 -3 -1 -6 -8 39 -5 32 6 -2 
+org/h2/table/TableData.read(Lorg/h2/engine/Session;Lorg/h2/store/DataPage;)Lorg/h2/store/Record;
+PTG:
+Vars:
+5
+r1 1 -3 
+r0 1 -1 
+r3 1 -2 
+_ret 1 2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+org/h2/table/TableData.removeChildrenAndResources(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+22
+$r18 1 21 
+$r7 1 77 
+r9 1 77 
+$r2 1 6 
+$r17 1 6 
+$r10 1 94 
+r22 1 66 
+$r3 1 136 
+$r13 1 117 
+$r19 1 29 
+r0 1 -1 
+$r6 1 60 
+$r11 1 103 
+$r20 1 38 
+$r12 1 112 
+$r4 2 56 38 
+r8 1 77 
+r21 1 21 
+$r14 1 122 
+$r5 1 56 
+r1 1 -2 
+$r15 1 125 
+Fields: 4
+-1 database 56
+-1 database 38
+-1 scanIndex 136
+-1 indexes 6
+Accesses: 9
+16 1 -1 
+145 1 -1 
+164 1 -1 
+5 1 -1 
+37 1 -1 
+55 1 -1 
+135 1 -1 
+169 1 -1 
+159 1 -1 
+Functions: 20
+128 1 125 
+2 6 -1 -2 38 6 56 136 
+67 1 66 
+6 1 6 
+103 1 103 
+43 3 -2 21 38 
+107 1 103 
+76 1 66 
+140 2 -2 136 
+173 5 -1 38 6 56 136 
+112 2 112 117 
+17 1 6 
+115 1 77 
+150 5 -1 38 6 56 136 
+56 1 56 
+122 1 122 
+154 3 -2 38 56 
+28 1 21 
+60 1 60 
+92 1 77 
+Constructors: 1
+107 103
+
+Summary: 3
+-1 -2 0 
+org/h2/table/TableData.getContainsLargeObject()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.readRow(Lorg/h2/store/DataPage;)Lorg/h2/result/Row;
+PTG:
+Vars:
+6
+r1 1 6 
+r0 1 -2 
+$r4 1 23 
+$r3 1 35 
+r2 1 -1 
+_ret 1 35 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+33 2 -1 6 
+22 1 -2 
+Constructors: 0
+
+Summary: 4
+-1 23 -2 6 
+org/h2/table/TableData.getUniqueIndex()Lorg/h2/index/Index;
+PTG:
+Vars:
+6
+r2 1 7 
+r0 1 -1 
+$r3 1 18 
+$r5 1 28 
+r4 1 18 
+$r1 1 1 
+Fields: 1
+-1 indexes 1
+Accesses: 1
+0 1 -1 
+Functions: 5
+1 1 1 
+17 1 7 
+8 1 7 
+27 1 18 
+28 1 28 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.<init>(Lorg/h2/command/ddl/CreateTableData;)V
+PTG:
+Vars:
+25
+$r3 1 2 
+$r26 1 99 
+$r5 1 32 
+$r15 1 72 
+$r22 1 155 
+r1 1 -2 
+$r25 1 176 
+$r2 1 10 
+$r18 1 116 
+r14 1 202 
+$r6 1 39 
+r7 1 45 
+$r19 1 124 
+$r27 1 145 
+$r12 1 72 
+r0 1 -1 
+$r24 1 172 
+$r13 1 238 
+$r10 1 72 
+$r17 1 109 
+$r23 1 162 
+$r4 1 25 
+$r8 1 39 
+$r20 1 135 
+$r28 1 135 
+Fields: 9
+-1 database 72
+-1 mainIndex 135
+-1 scanIndex 176
+-1 indexes 172
+-2 columns 39
+-2 session 124
+-2 tableName 10
+-2 schema 2
+45 ArrayObject 202
+Accesses: 29
+64 1 -2 
+1 1 -2 
+130 1 -1 
+5 1 -2 
+134 1 -1 
+71 1 -1 
+9 1 -2 
+138 1 -1 
+13 1 -2 
+17 1 -2 
+81 1 -2 
+150 1 -2 
+88 1 -1 
+217 1 -1 
+28 1 -1 
+158 1 -2 
+222 1 -1 
+35 1 -1 
+38 1 -2 
+104 1 -2 
+168 1 -1 
+232 1 -1 
+171 1 -1 
+175 1 -1 
+112 1 -2 
+49 1 -2 
+241 1 -1 
+119 1 -2 
+123 1 -2 
+Functions: 18
+-1 0 
+68 5 -1 176 135 72 172 
+165 8 -1 176 145 162 135 72 155 172 
+39 1 39 
+72 1 72 
+233 1 72 
+108 2 202 45 
+204 1 202 
+206 0 
+113 0 
+179 2 176 172 
+21 7 -1 176 2 135 72 10 172 
+54 3 39 202 45 
+89 1 72 
+154 2 202 45 
+60 7 -1 176 135 72 202 172 45 
+127 9 -1 176 99 116 135 72 172 124 109 
+159 0 
+Constructors: 3
+21 -1
+165 145
+127 99
+
+Summary: 9
+39 -1 2 -2 0 10 45 124 202 
+org/h2/table/TableData.close(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+6
+r5 1 -2 
+$r3 1 18 
+r0 1 -1 
+r4 1 18 
+r2 1 7 
+$r1 1 1 
+Fields: 1
+-1 indexes 1
+Accesses: 1
+0 1 -1 
+Functions: 4
+1 1 1 
+17 1 7 
+8 1 7 
+29 2 -2 18 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/table/TableData.removeRow(Lorg/h2/engine/Session;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+9
+r4 1 -2 
+r0 1 -1 
+r21 1 97 
+$r19 1 1 
+$r20 1 79 
+$r3 1 97 
+r5 1 -3 
+$r2 1 79 
+$r1 1 1 
+Fields: 2
+-1 database 1
+-1 indexes 79
+Accesses: 10
+0 1 -1 
+128 1 -1 
+147 1 -1 
+195 1 -1 
+68 1 -1 
+135 1 -1 
+75 1 -1 
+92 1 -1 
+157 1 -1 
+78 1 -1 
+Functions: 21
+32 1 -2 
+1 1 1 
+226 0 
+69 1 1 
+10 1 -3 
+203 0 
+45 1 -3 
+109 3 97 -2 -3 
+174 2 -2 -3 
+79 1 79 
+19 3 -1 1 79 
+20 0 
+148 0 
+119 5 -1 1 -2 97 79 
+184 4 -1 1 -2 79 
+27 1 -3 
+59 3 -1 1 79 
+219 0 
+60 0 
+93 1 79 
+158 0 
+Constructors: 0
+
+Summary: 5
+1 -3 -1 -2 0 
+org/h2/table/TableData.checkSupportAlter()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.truncate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+12
+$r7 1 2 
+$r8 1 76 
+$r10 1 90 
+$r9 1 85 
+r5 1 30 
+r0 1 -1 
+$r2 1 12 
+$r3 1 12 
+r6 1 -2 
+$r4 1 30 
+$r1 1 2 
+$r11 1 93 
+Fields: 2
+-1 database 2
+-1 indexes 12
+Accesses: 6
+1 1 -1 
+50 1 -1 
+8 1 -1 
+25 1 -1 
+11 1 -1 
+108 1 -1 
+Functions: 11
+80 1 76 
+96 1 93 
+2 1 2 
+51 1 2 
+85 1 85 
+39 2 -2 30 
+26 1 12 
+90 1 90 
+12 1 12 
+60 2 -2 30 
+76 1 76 
+Constructors: 1
+80 76
+
+Summary: 3
+-1 -2 0 
+org/h2/table/TableData.canGetRowCount()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.getScanIndex(Lorg/h2/engine/Session;)Lorg/h2/index/Index;
+PTG:
+Vars:
+6
+$r3 1 5 
+$r1 1 1 
+r0 1 -1 
+r4 1 -2 
+$r2 1 5 
+_ret 1 5 
+Fields: 1
+-1 indexes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/table/TableData.lock(Lorg/h2/engine/Session;ZZ)V
+PTG:
+Vars:
+5
+r3 1 -2 
+$r1 1 1 
+$r9 1 1 
+r0 1 -1 
+$r4 1 1 
+Fields: 1
+-1 database 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+39 1 -1 
+Functions: 5
+1 1 1 
+67 1 -2 
+20 1 1 
+52 3 -1 1 -2 
+57 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/table/TableData.traceLock(Lorg/h2/engine/Session;ZLjava/lang/String;)V
+PTG:
+Vars:
+16
+$r7 1 44 
+$r8 1 49 
+$r10 1 53 
+r4 1 -2 
+$r13 1 65 
+$r14 1 68 
+r0 1 -1 
+$r11 1 58 
+$r6 1 30 
+r9 1 -4 
+$r2 1 14 
+$r12 1 62 
+$r3 1 1 
+$r15 2 37 42 
+$r1 1 1 
+$r5 1 25 
+Fields: 1
+-1 traceLock 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 13
+1 1 1 
+65 1 65 
+71 2 1 68 
+44 1 44 
+14 1 14 
+49 2 49 -4 
+18 1 14 
+21 1 -2 
+53 1 53 
+25 1 25 
+58 2 58 62 
+61 2 -1 1 
+30 3 37 42 30 
+Constructors: 1
+18 14
+
+Summary: 5
+-4 2 -1 -2 0 
+org/h2/table/TableData.isDeterministic()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.getMainIndexColumn(Lorg/h2/index/IndexType;[Lorg/h2/table/IndexColumn;)I
+PTG:
+Vars:
+7
+r0 1 -1 
+r2 1 -2 
+r3 1 -3 
+$r1 1 1 
+$r6 1 42 
+r4 1 31 
+$r5 1 42 
+Fields: 3
+-1 mainIndex 1
+31 column 42
+-3 ArrayObject 31
+Accesses: 4
+0 1 -1 
+32 1 31 
+85 1 31 
+41 1 31 
+Functions: 4
+1 1 1 
+86 1 42 
+42 1 42 
+13 1 -2 
+Constructors: 0
+
+Summary: 7
+-1 -2 1 0 31 -3 42 
+org/h2/table/TableData.setRowCount(J)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.setGlobalTemporary(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.getHeadPos()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 scanIndex 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.getRowCountApproximation()J
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 scanIndex 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.getRow(Lorg/h2/engine/Session;J)Lorg/h2/result/Row;
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+_ret 1 6 
+$r3 1 6 
+Fields: 1
+-1 scanIndex 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/table/TableData.checkRowCount(Lorg/h2/engine/Session;Lorg/h2/index/Index;I)V
+PTG:
+Vars:
+16
+r0 1 -1 
+$r1 1 7 
+$r8 1 74 
+$r14 1 100 
+$r4 1 45 
+$r10 1 83 
+$r12 1 91 
+r2 1 -3 
+$r11 1 86 
+r3 1 -2 
+$r5 1 54 
+$r13 1 95 
+$r15 1 103 
+$r7 1 69 
+$r9 1 79 
+$r6 1 64 
+Fields: 1
+-1 database 7
+Accesses: 3
+34 1 -1 
+6 1 -1 
+57 1 -1 
+Functions: 15
+64 1 64 
+100 1 100 
+69 1 69 
+7 1 7 
+74 1 74 
+106 1 103 
+45 1 45 
+79 2 83 79 
+49 1 45 
+82 2 -1 7 
+54 1 54 
+86 1 86 
+23 2 -2 -3 
+91 2 91 95 
+94 1 -3 
+Constructors: 1
+49 45
+
+Summary: 4
+-3 -1 -2 0 
+org/h2/table/TableData.getMaxDataModificationId()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/TableData.getIndexes()Lorg/h2/util/ObjectArray;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 indexes 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

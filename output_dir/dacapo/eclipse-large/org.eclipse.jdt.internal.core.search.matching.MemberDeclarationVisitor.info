@@ -1,0 +1,531 @@
+20
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.visit(Lorg/eclipse/jdt/internal/compiler/ast/NormalAnnotation;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-3 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.visit(Lorg/eclipse/jdt/internal/compiler/ast/Argument;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-3 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.visit(Lorg/eclipse/jdt/internal/compiler/ast/QualifiedTypeReference;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+19 1 -1 
+7 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.getLocalElement(I)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 14 
+Fields: 1
+-1 localElements 14
+Accesses: 4
+0 1 -1 
+20 1 -1 
+8 1 -1 
+13 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.getOtherElements(I)[Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+11
+$r14 1 81 
+r0 1 -1 
+$r1 1 66 
+r15 2 81 117 
+$r8 1 91 
+$r2 1 66 
+$r6 1 66 
+$r5 1 117 
+$r4 1 91 
+_ret 2 81 117 
+$r3 1 91 
+Fields: 3
+-1 ptrs 91
+-1 allOtherElements 66
+66 ArrayObject 81
+Accesses: 15
+0 1 -1 
+65 1 -1 
+37 1 -1 
+8 1 -1 
+104 1 -1 
+76 1 -1 
+109 1 -1 
+15 1 -1 
+47 1 -1 
+51 1 -1 
+21 1 -1 
+90 1 -1 
+60 1 -1 
+125 1 -1 
+31 1 -1 
+Functions: 2
+133 2 81 117 
+57 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.storeHandle(I)V
+PTG:
+Vars:
+48
+$r15 1 297 
+$r47 2 305 291 
+$r1 1 1 
+$r34 1 40 
+$r18 1 23 
+$r32 1 40 
+$r21 1 185 
+$r46 1 265 
+$r35 1 9 
+$r37 1 17 
+$r19 1 194 
+$r17 1 194 
+$r33 1 23 
+$r38 1 17 
+$r30 1 136 
+$r8 1 275 
+$r39 1 40 
+$r11 1 305 
+$r12 1 336 
+$r26 1 185 
+$r42 3 23 69 92 
+$r45 3 23 248 225 
+$r43 1 136 
+$r22 1 17 
+$r9 1 305 
+$r29 1 159 
+$r2 1 17 
+$r23 1 17 
+$r40 1 9 
+$r7 1 189 
+$r20 1 9 
+$r24 1 194 
+r41 2 69 92 
+$r48 1 352 
+r0 1 -1 
+r44 2 248 225 
+$r25 1 9 
+$r27 1 33 
+$r10 1 309 
+$r6 1 185 
+$r13 1 305 
+r5 1 23 
+$r16 1 291 
+$r28 1 136 
+$r4 1 9 
+$r3 1 1 
+$r14 1 324 
+$r31 1 126 
+Fields: 17
+305 ArrayObject 324
+305 ArrayObject 352
+305 ArrayObject 309
+185 ArrayObject 189
+-1 ptrs 275
+-1 ptrs 265
+-1 annotation 194
+-1 annotation 40
+-1 allOtherElements 291
+-1 allOtherElements 305
+-1 localDeclaration 1
+-1 enclosingElement 17
+-1 localElement 33
+-1 locator 9
+-1 otherElements 136
+-1 localElements 185
+291 ArrayObject 352
+Accesses: 39
+0 1 -1 
+129 1 -1 
+193 1 -1 
+326 1 -1 
+135 1 -1 
+8 1 -1 
+200 1 -1 
+264 1 -1 
+74 1 -1 
+12 1 -1 
+141 1 -1 
+78 1 -1 
+16 1 -1 
+82 1 -1 
+210 1 -1 
+274 1 -1 
+149 1 -1 
+214 1 -1 
+24 1 -1 
+347 1 -1 
+32 1 -1 
+290 1 -1 
+163 1 -1 
+230 1 -1 
+39 1 -1 
+103 1 -1 
+234 1 -1 
+171 1 -1 
+109 1 -1 
+238 1 -1 
+175 1 -1 
+48 1 -1 
+304 1 -1 
+117 1 -1 
+54 1 -1 
+184 1 -1 
+249 1 -1 
+58 1 -1 
+319 1 -1 
+Functions: 7
+211 3 194 23 9 
+55 3 23 40 9 
+231 3 17 194 9 
+168 2 136 159 
+344 2 336 324 
+9 3 1 17 9 
+75 3 17 40 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/Argument;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.visit(Lorg/eclipse/jdt/internal/compiler/ast/SingleMemberAnnotation;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-3 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.<init>(Lorg/eclipse/jdt/core/IJavaElement;[Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;Lorg/eclipse/jdt/internal/core/search/matching/MatchingNodeSet;Lorg/eclipse/jdt/internal/core/search/matching/MatchLocator;)V
+PTG:
+Vars:
+10
+r3 1 -4 
+$r1 1 5 
+$r6 1 100 
+r5 1 -3 
+$r9 1 73 
+r4 1 -5 
+$r8 1 121 
+r0 1 -1 
+r2 1 -2 
+$r7 1 111 
+Fields: 1
+-3 ArrayObject 73
+Accesses: 19
+32 1 -1 
+96 1 -1 
+38 1 -1 
+103 1 -1 
+74 1 -1 
+107 1 -1 
+12 1 -1 
+47 1 -1 
+79 1 -1 
+17 1 -1 
+113 1 -1 
+52 1 -1 
+117 1 -1 
+22 1 -1 
+87 1 -1 
+27 1 -1 
+92 1 -1 
+124 1 -1 
+61 1 -1 
+Functions: 2
+1 1 -1 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 5
+0 1 3 2 -1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.visit(Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-3 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.visit(Lorg/eclipse/jdt/internal/compiler/ast/MarkerAnnotation;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-3 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.visit(Lorg/eclipse/jdt/internal/compiler/ast/QualifiedNameReference;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+19 1 -1 
+7 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/MarkerAnnotation;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/NormalAnnotation;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.matchNode(Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;)I
+PTG:
+Vars:
+7
+$r6 1 1 
+r4 1 -2 
+$r5 1 33 
+$r1 1 1 
+$r3 2 29 18 
+$r2 1 18 
+r0 1 -1 
+Fields: 4
+-1 matchingNode 1
+-1 matchingNodes 18
+29 ArrayObject 33
+18 ArrayObject 33
+Accesses: 4
+0 1 -1 
+17 1 -1 
+7 1 -1 
+28 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.visit(Lorg/eclipse/jdt/internal/compiler/ast/SingleNameReference;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+19 1 -1 
+7 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/SingleMemberAnnotation;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.visit(Lorg/eclipse/jdt/internal/compiler/ast/SingleTypeReference;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+19 1 -1 
+7 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/search/matching/MemberDeclarationVisitor.visit(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+18
+r0 1 -2 
+r17 1 -3 
+$r5 1 97 
+$r13 1 77 
+$r2 1 24 
+$r3 1 24 
+$r16 1 144 
+$r15 1 -1 
+r18 2 14 22 
+$r8 1 94 
+r1 1 -1 
+$r10 1 110 
+$r9 1 115 
+r7 1 101 
+$r14 1 72 
+$r6 1 101 
+$r4 1 94 
+$r12 1 82 
+Fields: 9
+-2 name 22
+-1 nodeSet 82
+-1 nodeSet 94
+-1 occurrencesCounts 24
+-1 enclosingElement 77
+-1 enclosingElement 115
+-1 locator 72
+-1 locator 110
+94 matchingNodes 97
+Accesses: 13
+0 1 -2 
+132 1 -1 
+71 1 -1 
+76 1 -1 
+109 1 -1 
+49 1 -1 
+81 1 -1 
+18 1 -2 
+114 1 -1 
+23 1 -1 
+60 1 -2 
+93 1 -1 
+94 1 94 
+Functions: 7
+97 3 97 -2 22 
+149 2 144 -1 
+87 5 -2 82 22 72 77 
+24 3 22 24 14 
+56 3 22 24 14 
+138 6 -2 97 115 22 110 94 
+123 1 101 
+Constructors: 1
+149 144
+
+Summary: 7
+-3 -2 101 0 1 22 -1 

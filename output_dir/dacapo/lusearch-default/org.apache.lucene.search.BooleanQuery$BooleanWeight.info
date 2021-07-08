@@ -1,0 +1,315 @@
+7
+org/apache/lucene/search/BooleanQuery$BooleanWeight.getQuery()Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 this$0 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/BooleanQuery$BooleanWeight.explain(Lorg/apache/lucene/index/IndexReader;I)Lorg/apache/lucene/search/Explanation;
+PTG:
+Vars:
+43
+$r33 1 251 
+$r13 1 487 
+_ret 1 422 
+$r9 1 467 
+$r12 1 482 
+r48 1 63 
+$r45 1 179 
+$r51 2 380 386 
+$r37 1 265 
+$r1 1 1 
+$r23 1 58 
+$r26 1 77 
+$r10 1 472 
+$r2 1 8 
+$r6 1 422 
+$r38 1 146 
+$r7 1 452 
+r27 1 77 
+$r39 1 151 
+$r35 1 257 
+$r31 1 237 
+$r14 1 490 
+r29 1 94 
+$r36 1 262 
+$r42 1 168 
+$r8 1 458 
+$r40 1 160 
+$r43 1 171 
+$r4 1 45 
+r0 1 -1 
+$r41 1 165 
+$r22 1 1 
+$r30 1 232 
+$r32 1 246 
+$r46 1 206 
+$r47 1 209 
+r28 1 -2 
+$r44 1 176 
+$r5 1 400 
+$r34 1 254 
+$r25 1 45 
+$r11 1 477 
+$r24 1 63 
+Fields: 3
+-1 this$0 1
+-1 similarity 400
+-1 weights 45
+Accesses: 5
+0 1 -1 
+54 1 -1 
+71 1 -1 
+44 1 -1 
+399 1 -1 
+Functions: 61
+1 1 1 
+257 1 257 
+132 1 94 
+389 3 386 8 380 
+262 1 262 
+12 1 8 
+268 2 232 265 
+396 1 8 
+400 1 400 
+21 1 8 
+277 2 232 94 
+151 1 151 
+155 1 151 
+284 2 8 232 
+160 2 160 168 
+163 1 63 
+165 1 165 
+426 1 8 
+171 1 171 
+45 1 45 
+176 1 176 
+306 1 8 
+182 2 146 179 
+438 1 422 
+55 1 1 
+312 1 8 
+58 1 58 
+191 2 146 94 
+319 1 8 
+447 2 422 8 
+198 2 146 8 
+72 1 45 
+458 1 458 
+204 1 63 
+206 2 209 206 
+462 1 458 
+336 1 8 
+467 1 467 
+85 2 -2 77 
+342 1 8 
+472 1 472 
+347 0 
+477 1 477 
+351 0 
+96 1 63 
+224 1 63 
+482 1 482 
+356 0 
+487 1 487 
+360 0 
+107 1 94 
+237 1 237 
+493 2 452 490 
+366 1 8 
+496 2 452 422 
+241 1 237 
+115 1 63 
+246 2 246 254 
+249 1 63 
+251 1 251 
+127 2 8 94 
+Constructors: 8
+241 237
+182 146
+438 422
+155 151
+12 8
+268 232
+493 452
+462 458
+
+Summary: 35
+257 246 487 356 94 237 171 477 63 179 146 168 482 77 165 251 360 458 347 232 254 151 262 58 265 452 363 472 467 206 160 176 -2 490 -1 
+org/apache/lucene/search/BooleanQuery$BooleanWeight.normalize(F)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 28 
+$r1 1 2 
+r5 1 28 
+$r3 1 14 
+$r2 1 14 
+Fields: 2
+-1 this$0 2
+-1 weights 14
+Accesses: 3
+1 1 -1 
+23 1 -1 
+13 1 -1 
+Functions: 4
+2 1 2 
+37 1 28 
+24 1 14 
+14 1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/BooleanQuery$BooleanWeight.<init>(Lorg/apache/lucene/search/BooleanQuery;Lorg/apache/lucene/search/Searcher;)V
+PTG:
+Vars:
+12
+$r7 1 47 
+r3 1 -3 
+$r9 1 56 
+r1 1 -2 
+$r2 1 10 
+r8 1 47 
+$r5 1 33 
+$r10 1 61 
+$r11 1 65 
+r0 1 -1 
+$r4 1 23 
+$r6 1 43 
+Fields: 1
+-1 weights 56
+Accesses: 4
+17 1 -1 
+2 1 -1 
+55 1 -1 
+26 1 -1 
+Functions: 10
+32 1 -2 
+33 1 33 
+68 2 65 56 
+21 2 -2 -3 
+6 2 -1 56 
+42 1 -2 
+43 1 43 
+59 1 47 
+61 2 -3 61 
+14 1 10 
+Constructors: 2
+6 -1
+14 10
+
+Summary: 4
+1 -3 0 -1 
+org/apache/lucene/search/BooleanQuery$BooleanWeight.getValue()F
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 this$0 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/BooleanQuery$BooleanWeight.sumOfSquaredWeights()F
+PTG:
+Vars:
+11
+$r5 1 19 
+$r2 2 16 72 
+r0 1 -1 
+$r3 2 16 72 
+r10 1 35 
+$r1 1 6 
+$r8 1 6 
+$r9 1 35 
+$r6 1 23 
+$r4 1 16 
+r7 1 23 
+Fields: 3
+-1 this$0 72
+-1 this$0 16
+-1 weights 6
+Accesses: 5
+5 1 -1 
+71 1 -1 
+30 1 -1 
+78 1 -1 
+15 1 -1 
+Functions: 8
+16 1 16 
+19 1 19 
+52 1 23 
+6 1 6 
+72 2 16 72 
+43 1 35 
+31 1 6 
+79 2 16 72 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/search/BooleanQuery$BooleanWeight.scorer(Lorg/apache/lucene/index/IndexReader;)Lorg/apache/lucene/search/Scorer;
+PTG:
+Vars:
+15
+$r7 1 39 
+_ret 1 0 
+$r8 1 43 
+$r10 1 26 
+$r5 1 26 
+r14 1 72 
+$r2 1 9 
+r13 1 -2 
+r9 1 43 
+r1 1 -1 
+$r11 1 56 
+$r3 1 5 
+$r0 1 0 
+$r6 1 9 
+r12 1 56 
+Fields: 3
+-1 similarity 5
+-1 this$0 9
+-1 weights 26
+Accesses: 6
+35 1 -1 
+51 1 -1 
+4 1 -1 
+8 1 -1 
+9 1 9 
+25 1 -1 
+Functions: 11
+-1 0 
+64 2 -2 56 
+18 2 0 5 
+82 1 43 
+98 1 43 
+36 1 9 
+52 1 26 
+39 1 39 
+87 1 43 
+26 1 26 
+92 2 0 72 
+Constructors: 1
+18 0
+
+Summary: 3
+-2 0 -1 

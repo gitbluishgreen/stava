@@ -1,0 +1,1074 @@
+26
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.resolveLevelForTypeOrEnclosingTypes([C[CLorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)I
+PTG:
+Vars:
+5
+r4 2 43 -4 
+r0 1 -4 
+r2 1 -2 
+r3 1 -3 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+22 3 -1 -4 43 
+38 2 -4 43 
+Constructors: 0
+
+Summary: 8
+-1 2 43 1 -4 -3 0 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.matchReportReference(Lorg/eclipse/jdt/internal/compiler/ast/Expression;ILorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;Lorg/eclipse/jdt/internal/core/search/matching/MatchLocator;)V
+PTG:
+Vars:
+37
+$r39 2 24 207 
+$r17 1 282 
+r38 1 307 
+$r7 1 44 
+$r32 1 217 
+r1 1 -1 
+$r29 1 44 
+$r14 1 282 
+$r11 2 44 217 
+r5 1 -5 
+$r4 1 24 
+$r3 1 27 
+$r16 1 307 
+$r6 1 44 
+$r30 1 44 
+r0 1 -4 
+r8 1 -2 
+$r12 1 258 
+$r10 2 44 217 
+$r24 1 24 
+$r28 1 154 
+r37 1 273 
+r35 2 184 159 
+r33 1 -4 
+$r2 1 24 
+$r20 1 332 
+$r40 1 346 
+$r26 1 -2 
+$r31 1 207 
+$r13 2 24 207 
+$r27 1 -2 
+$r18 1 322 
+$r19 1 327 
+$r9 2 44 217 
+r36 1 258 
+r34 1 -2 
+$r15 1 290 
+Fields: 13
+-1 pattern 24
+-1 pattern 207
+-1 match 44
+-1 match 217
+154 ArrayObject 159
+258 enclosingMethod 282
+282 selector 322
+24 simpleName 346
+24 focus 273
+207 simpleName 346
+207 focus 273
+-2 typeArguments 154
+-2 typeArguments 184
+Accesses: 29
+193 1 -1 
+71 1 -1 
+266 1 -1 
+267 2 24 207 
+78 1 -1 
+206 1 -1 
+342 1 -1 
+23 1 -1 
+151 1 -2 
+343 2 24 207 
+88 1 -1 
+216 1 -1 
+280 1 258 
+30 1 -1 
+352 1 -1 
+356 1 -2 
+234 1 -1 
+43 1 -1 
+363 1 -1 
+239 1 -1 
+367 1 -2 
+178 1 -2 
+371 1 -2 
+54 1 -1 
+118 1 -1 
+61 1 -1 
+317 1 258 
+319 1 282 
+383 1 -1 
+Functions: 26
+0 1 -4 
+257 1 -4 
+387 3 -5 217 44 
+325 1 307 
+7 1 -4 
+327 1 327 
+202 5 -2 -5 184 154 159 
+332 2 322 332 
+79 1 44 
+207 3 273 346 207 
+24 3 273 24 346 
+89 1 44 
+222 1 217 
+31 3 273 24 346 
+288 1 273 
+290 1 290 
+40 10 -1 273 -4 -5 24 217 346 27 44 207 
+360 2 217 44 
+44 1 44 
+111 1 -4 
+305 1 273 
+246 5 -2 -5 184 154 159 
+119 3 273 24 346 
+250 1 -4 
+378 2 217 44 
+62 1 44 
+Constructors: 0
+
+Summary: 17
+27 332 -1 154 327 258 322 282 290 159 0 3 184 -5 2 -2 307 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.resolveLevel(Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;)I
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+7 1 -1 
+23 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.resolveLevelForType(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)I
+PTG:
+Vars:
+8
+$r2 1 2 
+$r1 1 2 
+$r5 1 12 
+$r3 1 2 
+$r4 1 5 
+r0 1 -1 
+$r6 1 19 
+r7 1 -2 
+Fields: 3
+-1 pattern 2
+2 simpleName 5
+2 qualification 12
+Accesses: 5
+1 1 -1 
+2 1 2 
+8 1 -1 
+9 1 2 
+15 1 -1 
+Functions: 2
+16 3 2 5 12 
+0 6 -1 -2 2 19 5 12 
+Constructors: 0
+
+Summary: 4
+-1 19 0 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.matchReportReference(Lorg/eclipse/jdt/internal/compiler/ast/ArrayTypeReference;Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/internal/compiler/lookup/Binding;ILorg/eclipse/jdt/internal/core/search/matching/MatchLocator;)V
+PTG:
+Vars:
+12
+r3 1 -6 
+r0 1 -1 
+r4 1 -3 
+$r8 1 107 
+r5 1 -4 
+$r7 1 100 
+$r11 1 132 
+r6 1 -2 
+$r2 1 4 
+$r10 1 4 
+$r1 1 1 
+$r9 1 1 
+Fields: 4
+-1 pattern 1
+-1 match 132
+1 simpleName 4
+-2 resolvedType 107
+Accesses: 15
+0 1 -1 
+64 1 -1 
+1 1 1 
+131 1 -1 
+36 1 -1 
+103 1 -1 
+136 1 -1 
+73 1 -1 
+137 1 1 
+106 1 -2 
+19 1 -2 
+84 1 -1 
+116 1 -2 
+25 1 -2 
+58 1 -1 
+Functions: 9
+117 0 
+70 0 
+88 1 -6 
+10 2 -3 -6 
+44 5 -2 -3 -4 -6 107 
+93 5 -2 -3 -4 -6 107 
+125 7 -1 1 -2 132 4 -6 107 
+79 0 
+143 5 -2 132 4 -6 107 
+Constructors: 0
+
+Summary: 6
+-6 -3 -1 -4 -2 120 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.matchReportReference(Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/internal/compiler/lookup/Binding;ILorg/eclipse/jdt/internal/core/search/matching/MatchLocator;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 -3 
+r4 1 -6 
+r1 1 -2 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 5 -1 -2 -3 -4 -6 
+Constructors: 0
+
+Summary: 9
+-1 2 1 -4 -6 -3 0 -2 4 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.resolveLevel(Lorg/eclipse/jdt/internal/compiler/ast/NameReference;)I
+PTG:
+Vars:
+13
+r0 1 -2 
+r13 1 4 
+$r10 1 128 
+r1 1 -2 
+$r6 1 206 
+r3 1 4 
+$r4 1 254 
+$r8 1 122 
+$r9 1 128 
+$r5 1 200 
+$r7 1 206 
+r2 1 -1 
+r14 4 270 4 155 233 
+Fields: 9
+4 name 254
+4 searchType 270
+-2 binding 4
+-2 otherBindings 128
+-2 otherBindings 206
+-2 tokens 122
+-2 tokens 200
+-2 actualReceiverType 155
+-2 actualReceiverType 233
+Accesses: 12
+0 1 -2 
+68 1 -2 
+229 1 -2 
+198 1 -2 
+151 1 -2 
+120 1 -2 
+216 1 -2 
+265 1 4 
+138 1 -2 
+204 1 -2 
+252 1 4 
+126 1 -2 
+Functions: 4
+34 1 -1 
+20 0 
+254 1 254 
+271 6 -1 4 233 155 270 254 
+Constructors: 0
+
+Summary: 12
+-1 200 206 270 254 4 155 233 26 -2 128 122 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.reportDeclaration(Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/internal/core/search/matching/MatchLocator;Lorg/eclipse/jdt/internal/compiler/util/SimpleSet;)V
+PTG:
+Vars:
+22
+$r15 1 123 
+r17 1 -3 
+$r4 1 346 
+r0 1 -2 
+$r16 1 -2 
+$r9 1 52 
+r11 1 235 
+r2 1 -4 
+r10 1 48 
+r8 1 48 
+r18 8 178 329 228 117 300 48 20 273 
+$r6 1 -2 
+r21 1 346 
+$r14 1 123 
+$r5 6 178 228 117 48 20 273 
+r1 1 -1 
+$r12 1 184 
+r3 1 -5 
+$r7 1 273 
+r19 1 -2 
+$r13 1 184 
+r20 1 329 
+Fields: 16
+178 leafComponentType 300
+228 leafComponentType 300
+117 leafComponentType 300
+48 name 235
+48 searchType 228
+48 leafComponentType 300
+20 leafComponentType 300
+273 leafComponentType 300
+-2 binding 273
+-2 binding 48
+-2 otherBindings 184
+-2 otherBindings 123
+-2 tokens 52
+-2 resolvedType 20
+-2 actualReceiverType 178
+-2 actualReceiverType 117
+Accesses: 14
+194 1 -2 
+133 1 -2 
+230 1 48 
+294 6 48 273 178 228 20 117 
+43 1 -2 
+173 1 -2 
+14 1 -2 
+270 1 -2 
+112 1 -2 
+50 1 -2 
+182 1 -2 
+121 1 -2 
+60 1 -2 
+223 1 48 
+Functions: 4
+324 9 48 273 178 228 20 117 329 235 300 
+341 9 48 273 178 228 20 117 329 235 300 
+359 4 -1 -4 -5 346 
+239 1 235 
+Constructors: 0
+
+Summary: 13
+184 -5 1 123 -3 -1 2 -4 346 52 0 -2 3 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.matchReportReference(Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/core/IJavaElement;[Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/internal/compiler/lookup/Binding;ILorg/eclipse/jdt/internal/core/search/matching/MatchLocator;)V
+PTG:
+Vars:
+14
+r18 1 -3 
+$r12 1 -2 
+$r10 1 -2 
+r2 1 -6 
+r4 1 49 
+$r11 1 -2 
+r3 1 -2 
+r1 1 -8 
+r5 1 -4 
+$r8 1 187 
+r0 1 -1 
+r6 1 -5 
+$r13 1 -2 
+$r20 1 156 
+Fields: 2
+-1 match 187
+-2 resolvedType 156
+Accesses: 5
+0 1 -1 
+67 1 -1 
+24 1 -1 
+153 1 -2 
+186 1 -1 
+Functions: 10
+34 5 -1 -2 -8 187 156 
+114 7 -1 -2 -3 -6 -8 187 156 
+180 4 -1 -8 187 156 
+38 5 -2 -3 -6 -8 156 
+54 2 49 -4 
+7 3 -1 -3 187 
+89 7 -1 -2 -3 -6 -8 187 156 
+139 7 -1 -2 -3 -6 -8 187 156 
+61 2 49 -5 
+190 2 -8 187 
+Constructors: 0
+
+Summary: 15
+11 156 -5 -8 6 1 -6 -3 4 -1 2 -4 0 -2 3 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.fineGrain()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.matchLevelAndReportImportRef(Lorg/eclipse/jdt/internal/compiler/ast/ImportReference;Lorg/eclipse/jdt/internal/compiler/lookup/Binding;Lorg/eclipse/jdt/internal/core/search/matching/MatchLocator;)V
+PTG:
+Vars:
+5
+r2 1 -1 
+r0 1 -3 
+r8 1 -3 
+r1 1 -2 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 8
+96 2 -1 -3 
+113 2 -2 -4 
+130 4 -1 -2 -3 -4 
+3 1 -2 
+23 0 
+55 0 
+87 0 
+139 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-1 37 69 -4 115 -3 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.matchLevel(Lorg/eclipse/jdt/internal/compiler/ast/ImportReference;)I
+PTG:
+Vars:
+24
+$r18 1 14 
+$r10 1 1 
+r22 2 164 4 
+$r12 1 14 
+r20 1 127 
+$r13 1 1 
+$r14 1 77 
+$r17 1 114 
+$r8 1 132 
+r23 1 174 
+$r6 1 1 
+$r9 1 4 
+$r7 1 1 
+r19 1 26 
+$r2 1 4 
+$r15 1 14 
+$r21 2 164 4 
+$r5 1 132 
+r0 1 -1 
+$r16 1 1 
+$r1 1 1 
+$r4 1 1 
+$r11 1 1 
+r3 1 -2 
+Fields: 8
+-1 pattern 1
+1 simpleName 14
+1 simpleName 132
+1 qualification 4
+26 ArrayObject 77
+26 ArrayObject 114
+-2 tokens 127
+-2 tokens 26
+Accesses: 24
+0 1 -1 
+128 1 -1 
+1 1 1 
+65 1 -1 
+129 1 1 
+66 1 1 
+228 1 -1 
+102 1 -1 
+103 1 1 
+295 1 -1 
+10 1 -1 
+138 1 -1 
+11 1 1 
+139 1 1 
+204 1 -1 
+148 1 -1 
+149 1 1 
+22 1 -2 
+310 1 -1 
+342 1 -1 
+27 1 -2 
+123 1 -2 
+155 1 -1 
+156 1 1 
+Functions: 10
+64 6 -1 1 132 4 77 14 
+352 3 164 4 174 
+369 3 164 4 174 
+162 2 4 132 
+101 6 -1 1 114 132 4 14 
+311 3 164 4 174 
+296 3 164 4 174 
+169 1 127 
+43 5 -2 114 26 77 127 
+333 3 164 4 174 
+Constructors: 0
+
+Summary: 9
+164 127 26 114 -1 174 77 0 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.resolveLevel(Lorg/eclipse/jdt/internal/compiler/ast/TypeReference;)I
+PTG:
+Vars:
+9
+$r4 1 60 
+r1 1 -1 
+$r7 1 4 
+$r5 1 53 
+r0 1 -2 
+r8 3 19 4 34 
+$r6 2 19 4 
+$r2 1 50 
+$r3 1 50 
+Fields: 5
+-1 pattern 50
+4 leafComponentType 19
+50 simpleName 53
+50 qualification 60
+-2 resolvedType 4
+Accesses: 6
+0 1 -2 
+49 1 -1 
+50 1 50 
+56 1 -1 
+57 1 50 
+13 1 4 
+Functions: 3
+48 7 -1 50 34 19 4 53 60 
+42 7 -1 50 34 19 4 53 60 
+28 2 19 4 
+Constructors: 0
+
+Summary: 6
+-1 19 4 34 0 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.match(Lorg/eclipse/jdt/internal/compiler/ast/TypeReference;Lorg/eclipse/jdt/internal/core/search/matching/MatchingNodeSet;)I
+PTG:
+Vars:
+14
+r9 1 -3 
+r5 1 87 
+$r1 1 1 
+$r2 1 4 
+$r12 1 50 
+$r8 2 103 4 
+r3 1 -2 
+$r4 1 -2 
+r0 1 -1 
+$r11 1 -2 
+$r7 1 109 
+$r13 1 4 
+$r10 1 1 
+$r6 2 1 100 
+Fields: 6
+-1 pattern 1
+1 simpleName 4
+87 ArrayObject 109
+100 simpleName 103
+-2 token 50
+-2 tokens 87
+Accesses: 10
+0 1 -1 
+1 1 1 
+81 1 -2 
+99 1 -1 
+100 2 1 100 
+39 1 -1 
+40 1 1 
+12 1 -1 
+61 1 -1 
+47 1 -2 
+Functions: 5
+98 5 -1 1 4 103 109 
+116 5 -2 -3 50 87 109 
+38 4 -1 1 50 4 
+10 5 -2 -3 50 87 109 
+59 5 -2 -3 50 87 109 
+Constructors: 0
+
+Summary: 7
+-1 87 1 -3 50 0 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.match(Lorg/eclipse/jdt/internal/compiler/ast/Reference;Lorg/eclipse/jdt/internal/core/search/matching/MatchingNodeSet;)I
+PTG:
+Vars:
+14
+$r8 2 13 98 
+$r13 1 13 
+$r7 1 104 
+$r10 1 10 
+$r11 1 -2 
+$r2 1 10 
+$r3 1 13 
+r0 1 -2 
+$r6 2 95 10 
+r1 1 -1 
+$r12 1 59 
+$r4 1 -2 
+r5 1 82 
+r9 1 -3 
+Fields: 6
+-1 pattern 10
+95 simpleName 98
+10 simpleName 13
+-2 token 59
+-2 tokens 82
+82 ArrayObject 104
+Accesses: 9
+48 1 -1 
+49 1 10 
+21 1 -1 
+56 1 -2 
+9 1 -1 
+10 1 10 
+76 1 -2 
+94 1 -1 
+95 2 10 95 
+Functions: 5
+19 5 -2 -3 82 104 59 
+68 5 -2 -3 82 104 59 
+93 5 -1 98 104 10 13 
+47 4 -1 10 59 13 
+111 5 -2 -3 82 104 59 
+Constructors: 0
+
+Summary: 7
+-1 59 1 -3 0 -2 82 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.matchReportReference(Lorg/eclipse/jdt/internal/compiler/ast/QualifiedTypeReference;Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/internal/compiler/lookup/Binding;ILorg/eclipse/jdt/internal/core/search/matching/MatchLocator;)V
+PTG:
+Vars:
+16
+r4 1 -6 
+r5 1 -3 
+$r3 1 66 
+r0 1 -2 
+r12 1 -4 
+$r1 1 7 
+r16 3 53 31 4 
+$r21 1 247 
+r2 1 -1 
+r18 4 53 224 31 4 
+$r15 1 4 
+$r20 1 244 
+$r19 1 66 
+$r14 1 57 
+r17 2 31 4 
+$r13 1 80 
+Fields: 8
+-1 pattern 244
+-1 match 66
+31 compoundName 57
+244 simpleName 247
+4 compoundName 57
+4 leafComponentType 31
+-2 tokens 7
+-2 resolvedType 4
+Accesses: 14
+0 1 -2 
+65 1 -1 
+132 1 -1 
+6 1 -2 
+238 1 -1 
+144 1 -1 
+83 1 -1 
+243 1 -1 
+244 1 244 
+181 1 -1 
+55 2 4 31 
+25 1 4 
+122 1 -2 
+190 1 -1 
+Functions: 9
+48 3 4 57 31 
+113 2 -3 -6 
+212 12 -1 224 -2 66 244 4 53 -6 247 7 57 31 
+104 9 -1 224 66 244 4 53 247 57 31 
+73 8 -2 -3 -4 4 -6 7 57 31 
+201 0 
+250 8 -2 66 4 -6 7 247 57 31 
+187 0 
+219 5 224 4 53 57 31 
+Constructors: 0
+
+Summary: 12
+7 224 31 -6 -3 126 -1 53 57 -4 4 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.match(Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;Lorg/eclipse/jdt/internal/core/search/matching/MatchingNodeSet;)I
+PTG:
+Vars:
+4
+r2 1 -1 
+r0 1 -2 
+$r3 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+9 2 -2 -3 
+11 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.matchReportImportRef(Lorg/eclipse/jdt/internal/compiler/ast/ImportReference;Lorg/eclipse/jdt/internal/compiler/lookup/Binding;Lorg/eclipse/jdt/core/IJavaElement;ILorg/eclipse/jdt/internal/core/search/matching/MatchLocator;)V
+PTG:
+Vars:
+22
+r24 1 -4 
+r23 1 -3 
+$r17 1 129 
+r3 1 -2 
+$r5 1 129 
+r30 3 242 -3 199 
+$r28 1 66 
+$r18 1 129 
+r29 5 443 242 310 -3 199 
+$r15 1 -3 
+$r7 1 274 
+$r1 1 66 
+$r33 1 66 
+$r14 1 314 
+$r32 1 129 
+r0 1 -1 
+$r19 1 66 
+$r6 1 66 
+$r34 1 466 
+$r4 1 122 
+r2 1 -6 
+$r16 1 -3 
+Fields: 9
+-1 pattern 66
+-1 match 129
+242 compoundName 314
+-3 declaringClass 199
+-3 declaringClass 242
+-3 compoundName 314
+199 compoundName 314
+-2 tokens 274
+66 simpleName 466
+Accesses: 29
+0 1 -1 
+128 1 -1 
+65 1 -1 
+193 1 -3 
+136 1 -1 
+457 1 -1 
+75 1 -1 
+462 1 -1 
+463 1 66 
+208 1 -2 
+273 1 -2 
+82 1 -1 
+146 1 -1 
+402 1 -1 
+19 1 -1 
+150 1 -1 
+343 1 -2 
+90 1 -1 
+91 1 66 
+411 1 -1 
+353 1 -1 
+100 1 -1 
+101 1 66 
+427 1 -1 
+236 1 -3 
+365 1 -1 
+312 3 242 -3 199 
+251 1 -2 
+125 1 -1 
+Functions: 19
+160 1 129 
+66 2 66 466 
+133 1 129 
+325 10 -1 129 66 466 242 -3 310 199 314 443 
+422 0 
+7 5 -1 129 66 466 -4 
+137 2 66 466 
+201 2 -2 274 
+334 2 -4 -6 
+431 1 -6 
+48 5 -1 129 66 466 -6 
+305 4 242 -3 199 314 
+51 0 
+115 8 -2 -3 242 274 -4 -6 199 314 
+244 2 -2 274 
+469 5 129 -2 274 466 -6 
+438 6 242 -3 310 199 314 443 
+151 1 129 
+408 0 
+Constructors: 0
+
+Summary: 14
+11 -3 -1 274 242 314 -4 199 -6 347 443 310 56 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.<init>(Lorg/eclipse/jdt/internal/core/search/matching/TypeReferencePattern;)V
+PTG:
+Vars:
+3
+$r2 1 28 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 pattern 28
+Accesses: 5
+34 1 -1 
+19 1 -2 
+7 1 -1 
+23 1 -1 
+27 1 -1 
+Functions: 1
+2 3 -1 -2 28 
+Constructors: 1
+2 -1
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.match(Lorg/eclipse/jdt/internal/compiler/ast/Annotation;Lorg/eclipse/jdt/internal/core/search/matching/MatchingNodeSet;)I
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 2 
+r2 1 -3 
+r0 1 -1 
+Fields: 1
+-2 type 2
+Accesses: 1
+1 1 -2 
+Functions: 1
+0 3 -1 2 -3 
+Constructors: 0
+
+Summary: 6
+-1 1 2 -3 0 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.resolveLevel(Lorg/eclipse/jdt/internal/compiler/lookup/Binding;)I
+PTG:
+Vars:
+9
+$r2 1 52 
+$r4 1 62 
+r0 1 -2 
+r8 3 49 34 -2 
+$r7 1 -2 
+r1 1 -1 
+$r3 1 52 
+$r6 2 34 -2 
+$r5 1 55 
+Fields: 4
+-1 pattern 52
+52 simpleName 55
+52 qualification 62
+-2 leafComponentType 34
+Accesses: 5
+51 1 -1 
+52 1 52 
+58 1 -1 
+59 1 52 
+28 1 -2 
+Functions: 2
+50 7 -1 49 -2 34 52 55 62 
+43 2 -2 34 
+Constructors: 0
+
+Summary: 5
+-1 49 34 0 -2 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.matchReportReference(Lorg/eclipse/jdt/internal/compiler/ast/QualifiedNameReference;Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/internal/compiler/lookup/Binding;ILorg/eclipse/jdt/internal/core/search/matching/MatchLocator;)V
+PTG:
+Vars:
+21
+$r14 1 241 
+$r20 1 77 
+r13 1 -4 
+r0 1 -2 
+$r25 1 406 
+$r18 1 153 
+r23 6 148 214 192 4 386 72 
+r22 4 148 192 4 72 
+$r4 1 227 
+$r17 1 153 
+r21 5 148 214 192 4 72 
+$r16 1 4 
+$r26 1 409 
+r1 1 4 
+$r24 1 227 
+$r15 1 218 
+r5 1 -6 
+r6 1 -3 
+r3 1 -1 
+$r2 1 10 
+$r19 1 77 
+Fields: 14
+-1 pattern 406
+-1 match 227
+148 compoundName 218
+192 compoundName 218
+4 searchType 192
+4 compoundName 218
+406 simpleName 409
+-2 binding 4
+-2 otherBindings 77
+-2 otherBindings 153
+-2 tokens 10
+-2 actualReceiverType 72
+-2 actualReceiverType 148
+72 compoundName 218
+Accesses: 21
+0 1 -2 
+352 1 -1 
+226 1 -1 
+163 1 -2 
+68 1 -2 
+294 1 -1 
+9 1 -2 
+76 1 -2 
+144 1 -2 
+400 1 -1 
+18 1 -2 
+306 1 -1 
+244 1 -1 
+405 1 -1 
+406 1 406 
+87 1 -2 
+343 1 -1 
+152 1 -2 
+216 4 192 148 4 72 
+186 1 4 
+284 1 -2 
+Functions: 9
+209 5 192 148 4 72 218 
+275 2 -3 -6 
+374 16 -1 192 -2 386 227 4 -6 72 10 77 148 406 214 409 153 218 
+265 11 -1 192 386 227 148 4 406 214 72 409 218 
+234 12 192 -2 -3 -4 4 148 -6 72 153 10 218 77 
+363 0 
+412 12 192 -2 227 4 148 -6 72 153 409 10 218 77 
+349 0 
+381 7 192 386 148 4 214 72 218 
+Constructors: 0
+
+Summary: 20
+148 10 -3 4 -1 218 -4 4 386 0 192 1 288 -6 153 2 214 77 -2 72 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.reportDeclaration(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;ILorg/eclipse/jdt/internal/core/search/matching/MatchLocator;Lorg/eclipse/jdt/internal/compiler/util/SimpleSet;)V
+PTG:
+Vars:
+20
+$r14 1 46 
+$r13 1 61 
+$r10 1 193 
+r18 1 74 
+r4 1 143 
+r5 1 -1 
+r17 2 56 20 
+$r7 2 5 219 
+r15 2 211 -2 
+$r2 3 123 211 -2 
+$r6 1 153 
+r16 2 5 219 
+$r9 1 180 
+$r12 1 61 
+$r8 1 163 
+$r11 2 211 -2 
+r19 1 131 
+r0 1 -4 
+r1 1 -5 
+r20 1 219 
+Fields: 3
+-1 match 193
+131 referenceContext 143
+123 scope 131
+Accesses: 6
+192 1 -1 
+145 1 143 
+169 1 143 
+138 1 131 
+188 1 -1 
+125 3 -2 211 123 
+Functions: 17
+0 3 -2 -4 211 
+196 2 193 -4 
+103 8 -2 -4 211 20 5 56 74 219 
+203 3 -5 5 219 
+44 2 5 219 
+13 2 5 219 
+46 1 46 
+79 3 -5 5 219 
+207 2 -2 211 
+179 1 -4 
+212 2 5 219 
+117 2 -2 211 
+22 2 5 219 
+185 5 163 180 20 56 153 
+58 4 -4 20 56 61 
+59 2 5 219 
+159 4 -2 211 5 219 
+Constructors: 1
+185 153
+
+Summary: 18
+180 -5 131 143 123 46 74 -1 2 61 -4 163 56 20 211 0 -2 3 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.toString()Ljava/lang/String;
+PTG:
+Vars:
+7
+$r4 1 17 
+_ret 1 20 
+$r5 1 20 
+$r0 1 0 
+r1 1 -1 
+$r2 1 11 
+$r3 1 14 
+Fields: 1
+-1 pattern 11
+Accesses: 1
+10 1 -1 
+Functions: 4
+0 2 0 14 
+17 1 17 
+7 1 0 
+11 1 11 
+Constructors: 1
+7 0
+
+Summary: 2
+-1 14 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.findElement(Lorg/eclipse/jdt/core/IJavaElement;I)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+6
+r0 1 -1 
+r2 1 7 
+_ret 2 23 -2 
+r4 2 23 -2 
+$r1 1 7 
+$r3 1 29 
+Fields: 2
+-1 pattern 7
+7 enclosingElement 29
+Accesses: 2
+6 1 -1 
+28 1 7 
+Functions: 2
+17 2 -2 23 
+29 3 -2 23 29 
+Constructors: 0
+
+Summary: 3
+-1 23 0 
+org/eclipse/jdt/internal/core/search/matching/TypeReferenceLocator.referenceType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,365 @@
+8
+org/eclipse/jdt/internal/core/search/matching/SuperTypeNamesCollector.buildBindings(Lorg/eclipse/jdt/core/ICompilationUnit;Z)Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;
+PTG:
+Vars:
+17
+$r5 1 39 
+r7 2 32 48 
+$r8 2 23 39 
+$r2 1 5 
+$r15 1 23 
+$r10 2 23 39 
+$r11 1 62 
+r0 1 -2 
+$r16 1 26 
+$r17 2 32 48 
+$r13 1 98 
+r4 1 -1 
+$r6 1 42 
+r1 1 -2 
+_ret 2 32 48 
+$r9 1 62 
+$r12 1 98 
+Fields: 6
+23 lookupEnvironment 62
+32 scope 98
+39 lookupEnvironment 62
+48 scope 98
+-1 locator 23
+-1 locator 39
+Accesses: 8
+96 2 32 48 
+22 1 -1 
+38 1 -1 
+71 1 -1 
+72 2 23 39 
+104 2 32 48 
+58 1 -1 
+59 2 23 39 
+Functions: 9
+114 3 32 48 98 
+68 4 32 48 98 62 
+23 2 23 62 
+39 2 39 62 
+89 4 32 48 98 62 
+26 3 -2 5 26 
+42 3 -2 5 42 
+13 2 -2 5 
+109 1 98 
+Constructors: 1
+13 5
+
+Summary: 5
+5 -2 42 26 -1 
+org/eclipse/jdt/internal/core/search/matching/SuperTypeNamesCollector.collect()[[[C
+PTG:
+Vars:
+28
+r0 1 -1 
+$r4 2 263 253 
+r51 1 393 
+r46 1 272 
+$r14 1 428 
+$r11 1 354 
+$r1 1 1 
+$r15 1 449 
+r48 1 272 
+r49 1 335 
+$r8 2 379 253 
+r44 1 217 
+$r3 1 253 
+r47 1 287 
+$r12 2 305 253 
+$r6 1 261 
+$r10 1 344 
+$r9 1 384 
+r45 1 287 
+$r16 1 428 
+$r13 1 428 
+r50 1 272 
+$r5 1 266 
+$r35 1 -1 
+$r7 1 256 
+_ret 1 428 
+$r2 1 232 
+$r34 1 -1 
+Fields: 7
+335 scope 354
+-1 type 1
+-1 result 428
+-1 locator 253
+217 ArrayObject 261
+263 scope 266
+253 handleFactory 256
+Accesses: 34
+0 1 -1 
+197 1 -1 
+453 1 -1 
+134 1 -1 
+262 1 -1 
+263 2 263 253 
+201 1 -1 
+457 1 -1 
+12 1 -1 
+79 1 -1 
+208 1 -1 
+464 1 -1 
+17 1 -1 
+20 1 -1 
+89 1 -1 
+352 1 335 
+33 1 -1 
+42 1 -1 
+171 1 -1 
+235 1 -1 
+427 1 -1 
+176 1 -1 
+240 1 -1 
+304 1 -1 
+432 1 -1 
+54 1 -1 
+183 1 -1 
+439 1 -1 
+58 1 -1 
+378 1 -1 
+252 1 -1 
+189 1 -1 
+253 1 253 
+445 1 -1 
+Functions: 26
+256 3 256 261 266 
+131 0 
+328 6 -1 256 272 1 428 253 
+73 5 -1 256 1 428 253 
+395 6 -1 256 1 393 428 253 
+205 0 
+461 2 449 428 
+80 0 
+21 0 
+213 5 -1 256 1 428 253 
+407 6 -1 256 1 393 428 253 
+282 1 272 
+349 6 -1 256 1 344 428 253 
+97 0 
+225 2 261 217 
+289 1 287 
+162 5 -1 256 1 428 253 
+357 3 354 344 335 
+39 0 
+43 0 
+111 5 -1 256 1 428 253 
+310 4 256 305 253 287 
+55 0 
+379 4 256 384 379 253 
+125 0 
+382 1 272 
+Constructors: 1
+349 344
+
+Summary: 17
+335 393 344 272 287 354 88 98 66 384 24 118 -1 217 125 141 150 
+org/eclipse/jdt/internal/core/search/matching/SuperTypeNamesCollector.matches([[C)Z
+PTG:
+Vars:
+10
+$r6 1 21 
+$r9 1 96 
+$r7 1 28 
+$r11 1 143 
+r12 1 -2 
+r0 1 14 
+$r8 1 21 
+r1 1 -1 
+$r10 1 130 
+$r2 1 21 
+Fields: 3
+-2 ArrayObject 14
+-1 pattern 28
+-1 typeSimpleName 21
+Accesses: 6
+32 1 -1 
+20 1 -1 
+27 1 -1 
+59 1 -1 
+63 1 -1 
+79 1 -1 
+Functions: 10
+80 2 21 14 
+128 1 14 
+147 4 -1 96 21 28 
+69 0 
+56 2 -2 14 
+104 3 96 -2 14 
+28 3 21 28 14 
+60 0 
+109 1 14 
+142 1 14 
+Constructors: 0
+
+Summary: 3
+71 0 -1 
+org/eclipse/jdt/internal/core/search/matching/SuperTypeNamesCollector.getPathsOfDeclaringType()[Ljava/lang/String;
+PTG:
+Vars:
+19
+$r9 1 8 
+$r20 1 1 
+$r8 1 58 
+r5 1 31 
+$r15 1 102 
+$r13 1 81 
+$r19 1 8 
+$r2 1 16 
+$r7 1 8 
+$r11 1 69 
+$r16 1 102 
+r0 1 -1 
+$r1 1 1 
+$r6 1 32 
+r4 1 27 
+$r14 1 87 
+$r21 1 112 
+_ret 1 130 
+$r17 1 130 
+Fields: 4
+-1 progressMonitor 102
+-1 pattern 58
+-1 typeQualification 1
+-1 typeSimpleName 8
+Accesses: 8
+0 1 -1 
+36 1 -1 
+52 1 -1 
+116 1 -1 
+101 1 -1 
+7 1 -1 
+57 1 -1 
+47 1 -1 
+Functions: 11
+64 3 32 1 8 
+97 5 32 81 69 87 27 
+129 1 16 
+20 1 16 
+24 0 
+58 1 58 
+122 2 112 102 
+75 7 -1 16 1 69 102 8 58 
+91 1 87 
+28 0 
+125 3 112 81 31 
+Constructors: 6
+64 32
+97 81
+20 16
+122 112
+75 69
+91 87
+
+Summary: 9
+32 69 87 112 16 81 31 -1 27 
+org/eclipse/jdt/internal/core/search/matching/SuperTypeNamesCollector.addToResult([[C)V
+PTG:
+Vars:
+8
+$r1 1 1 
+$r7 1 1 
+$r6 1 50 
+r3 1 -2 
+$r2 2 12 1 
+$r5 1 1 
+$r4 1 16 
+r0 1 -1 
+Fields: 3
+12 ArrayObject 16
+-1 result 1
+1 ArrayObject 16
+Accesses: 8
+0 1 -1 
+34 1 -1 
+66 1 -1 
+54 1 -1 
+41 1 -1 
+74 1 -1 
+11 1 -1 
+62 1 -1 
+Functions: 2
+17 2 16 -2 
+59 3 16 1 50 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/core/search/matching/SuperTypeNamesCollector.matches(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)Z
+PTG:
+Vars:
+4
+r2 1 -1 
+$r3 1 5 
+r0 1 -2 
+$r1 1 5 
+Fields: 1
+-2 compoundName 5
+Accesses: 2
+4 1 -2 
+12 1 -2 
+Functions: 1
+11 2 -1 5 
+Constructors: 0
+
+Summary: 4
+-2 5 0 -1 
+org/eclipse/jdt/internal/core/search/matching/SuperTypeNamesCollector.<init>(Lorg/eclipse/jdt/core/search/SearchPattern;[C[CLorg/eclipse/jdt/internal/core/search/matching/MatchLocator;Lorg/eclipse/jdt/core/IType;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r6 1 -7 
+r4 1 -5 
+r5 1 -6 
+r3 1 -4 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 6
+16 1 -1 
+34 1 -1 
+6 1 -1 
+22 1 -1 
+11 1 -1 
+28 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 7
+0 5 1 3 4 2 -1 
+org/eclipse/jdt/internal/core/search/matching/SuperTypeNamesCollector.collectSuperTypeNames(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V
+PTG:
+Vars:
+7
+r2 1 26 
+$r5 1 46 
+r1 1 4 
+r3 1 41 
+r4 1 -1 
+r0 1 -2 
+$r6 1 11 
+Fields: 3
+41 compoundName 46
+4 compoundName 11
+26 ArrayObject 41
+Accesses: 2
+10 1 4 
+44 1 41 
+Functions: 6
+0 1 -2 
+49 2 -1 46 
+19 3 -1 4 11 
+22 1 -2 
+55 3 -1 41 46 
+14 2 -1 11 
+Constructors: 0
+
+Summary: 6
+11 -2 4 0 26 -1 

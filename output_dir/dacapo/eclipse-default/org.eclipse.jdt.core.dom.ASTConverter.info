@@ -1,0 +1,7540 @@
+158
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/AssertStatement;)Lorg/eclipse/jdt/core/dom/AssertStatement;
+PTG:
+Vars:
+10
+r4 1 -2 
+r8 2 46 20 
+_ret 1 0 
+r7 1 33 
+r9 1 46 
+$r2 1 5 
+r1 1 -1 
+r6 1 20 
+$r0 1 0 
+$r5 1 14 
+Fields: 3
+-1 ast 5
+-2 exceptionArgument 33
+-2 assertExpression 14
+Accesses: 4
+4 1 -1 
+58 1 -2 
+13 1 -2 
+29 1 -2 
+Functions: 10
+64 4 -1 20 5 46 
+51 2 0 46 
+83 2 20 46 
+103 1 0 
+119 1 0 
+8 2 0 5 
+40 3 -1 33 5 
+26 2 0 20 
+12 3 -1 5 14 
+78 2 20 46 
+Constructors: 1
+8 0
+
+Summary: 7
+-1 33 14 46 20 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/VariableDeclarationStatement;Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;)V
+PTG:
+Vars:
+24
+$r23 1 69 
+$r9 1 353 
+$r11 1 269 
+r0 1 -1 
+$r20 1 49 
+$r13 1 305 
+$r16 1 317 
+r22 12 393 347 359 323 335 263 275 239 251 311 287 299 
+$r8 1 329 
+r2 1 -3 
+$r12 1 281 
+r18 1 385 
+$r21 1 -1 
+$r17 1 257 
+$r3 1 69 
+$r1 1 1 
+$r19 2 69 396 
+$r15 1 233 
+$r6 1 426 
+$r10 1 245 
+$r14 1 293 
+$r7 1 341 
+r5 1 -2 
+r4 1 87 
+Fields: 5
+-1 scanner 69
+-1 ast 1
+87 ArrayObject 385
+-3 annotations 87
+-3 annotations 49
+Accesses: 12
+0 1 -1 
+48 1 -3 
+1 1 1 
+83 1 -3 
+68 1 -1 
+437 1 -1 
+406 1 -1 
+72 1 -3 
+395 1 -1 
+28 1 -3 
+76 1 -3 
+399 1 385 
+Functions: 20
+256 4 -1 1 257 69 
+352 4 -1 1 353 69 
+387 4 -1 1 385 69 
+292 4 -1 1 69 293 
+232 4 -1 1 69 233 
+328 4 -1 1 69 329 
+425 1 -2 
+268 4 -1 1 69 269 
+45 1 -2 
+431 13 323 359 263 393 426 299 335 239 275 311 347 251 287 
+80 1 69 
+304 4 -1 1 305 69 
+244 4 -1 1 69 245 
+340 4 -1 1 69 341 
+438 1 69 
+56 1 -2 
+280 4 -1 1 69 281 
+410 2 69 396 
+316 4 -1 1 69 317 
+62 1 -2 
+Constructors: 0
+
+Summary: 20
+-3 -1 359 335 49 0 263 239 426 311 287 393 87 1 347 323 275 -2 251 299 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/PrefixExpression;)Lorg/eclipse/jdt/core/dom/PrefixExpression;
+PTG:
+Vars:
+9
+$r2 1 5 
+$r8 1 95 
+$r5 1 47 
+_ret 1 0 
+$r7 1 85 
+r4 1 -2 
+$r0 1 0 
+r1 1 -1 
+$r6 1 50 
+Fields: 2
+-1 ast 5
+-2 lhs 47
+Accesses: 7
+34 1 -2 
+4 1 -1 
+56 1 -2 
+26 1 -2 
+12 1 -1 
+30 1 -2 
+46 1 -2 
+Functions: 7
+98 2 0 95 
+53 2 0 50 
+22 5 -1 0 -2 5 47 
+8 2 0 5 
+88 2 0 85 
+41 1 0 
+45 3 -1 5 47 
+Constructors: 1
+8 0
+
+Summary: 5
+-1 47 50 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.recordPendingThisExpressionScopeResolution(Lorg/eclipse/jdt/core/dom/ThisExpression;)V
+PTG:
+Vars:
+5
+$r4 1 8 
+r2 1 -2 
+$r3 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 pendingThisExpressionScopeResolution 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 2
+23 2 1 -2 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveRightBraceOrSemiColonPosition(II)I
+PTG:
+Vars:
+4
+$r1 1 1 
+$r5 1 -1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 scanner 1
+Accesses: 4
+0 1 -1 
+48 1 -1 
+68 1 -1 
+58 1 -1 
+Functions: 2
+69 1 1 
+6 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.checkAndAddMultipleLocalDeclaration([Lorg/eclipse/jdt/internal/compiler/ast/Statement;ILjava/util/List;)V
+PTG:
+Vars:
+20
+$r5 1 117 
+$r6 1 8 
+$r16 1 67 
+$r11 1 93 
+$r3 1 113 
+$r19 1 77 
+$r7 1 19 
+$r4 1 113 
+$r14 1 55 
+$r18 1 73 
+r8 1 19 
+$r13 1 97 
+$r17 1 73 
+r1 1 -1 
+$r9 1 27 
+r10 1 27 
+r2 1 -2 
+r0 1 -4 
+r15 1 55 
+$r12 1 93 
+Fields: 6
+-2 ArrayObject 19
+-2 ArrayObject 27
+-2 ArrayObject 93
+-2 ArrayObject 73
+-2 ArrayObject 113
+-2 ArrayObject 8
+Accesses: 2
+33 1 19 
+38 1 27 
+Functions: 9
+80 2 67 77 
+65 1 55 
+100 2 97 -4 
+70 2 -1 73 
+120 2 -4 117 
+90 2 -1 93 
+46 1 -4 
+110 2 -1 113 
+47 1 -4 
+Constructors: 0
+
+Summary: 16
+55 19 27 67 -1 2 93 97 73 77 -4 113 117 8 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convertImport(Lorg/eclipse/jdt/internal/compiler/ast/ImportReference;)Lorg/eclipse/jdt/core/dom/ImportDeclaration;
+PTG:
+Vars:
+14
+$r2 1 5 
+$r12 1 5 
+r4 1 -2 
+$r11 1 92 
+$r13 1 61 
+_ret 1 0 
+r5 1 33 
+r7 1 46 
+$r6 1 33 
+$r0 1 0 
+$r10 1 85 
+r1 1 -1 
+$r8 1 70 
+$r9 1 5 
+Fields: 4
+-1 ast 5
+33 ArrayObject 92
+-2 tokens 33
+-2 sourcePositions 46
+Accesses: 15
+161 1 -2 
+35 1 -2 
+195 1 -1 
+4 1 -1 
+196 1 5 
+165 1 -2 
+262 1 -1 
+137 1 70 
+169 1 -2 
+42 1 -2 
+74 1 -1 
+12 1 -2 
+146 1 -1 
+184 1 -2 
+29 1 -2 
+Functions: 17
+64 2 0 61 
+96 2 85 70 
+225 1 0 
+131 1 70 
+259 1 0 
+231 1 0 
+8 2 0 5 
+78 2 5 70 
+143 2 0 70 
+176 1 0 
+272 7 -1 0 -2 33 5 92 46 
+181 1 0 
+246 1 0 
+55 6 -1 33 -2 5 92 46 
+93 2 85 92 
+157 7 -1 -2 33 5 70 92 46 
+253 1 0 
+Constructors: 3
+8 0
+93 85
+78 70
+
+Summary: 8
+-1 85 70 33 61 46 92 -2 
+org/eclipse/jdt/core/dom/ASTConverter.createModifier(Lorg/eclipse/jdt/core/dom/Modifier$ModifierKeyword;)Lorg/eclipse/jdt/core/dom/Modifier;
+PTG:
+Vars:
+7
+r1 1 -1 
+_ret 1 0 
+$r5 1 18 
+r4 1 -2 
+$r6 1 18 
+$r2 1 5 
+$r0 1 0 
+Fields: 2
+-1 scanner 18
+-1 ast 5
+Accesses: 3
+17 1 -1 
+4 1 -1 
+25 1 -1 
+Functions: 5
+18 1 18 
+8 2 0 5 
+26 1 18 
+42 1 0 
+14 2 0 -2 
+Constructors: 1
+8 0
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/Reference;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+7 1 -1 
+23 1 -1 
+39 1 -1 
+55 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setQualifiedNameNameAndSourceRanges([[C[JLorg/eclipse/jdt/internal/compiler/ast/ASTNode;)Lorg/eclipse/jdt/core/dom/QualifiedName;
+PTG:
+Vars:
+23
+$r20 2 9 322 
+$r11 1 90 
+$r8 1 75 
+$r14 1 9 
+r0 1 -2 
+r2 1 -1 
+$r3 1 9 
+$r17 1 259 
+$r6 1 25 
+$r9 1 9 
+r7 1 -3 
+r25 2 317 142 
+r23 2 317 142 
+_ret 2 317 142 
+$r12 1 96 
+$r13 1 142 
+$r16 2 9 249 
+$r1 1 4 
+$r18 1 266 
+$r5 1 19 
+$r15 1 244 
+r22 1 -4 
+$r19 1 317 
+Fields: 4
+-1 ast 9
+-2 ArrayObject 96
+-2 ArrayObject 266
+-2 ArrayObject 25
+Accesses: 14
+321 1 -1 
+35 1 4 
+355 1 317 
+419 1 -1 
+8 1 -1 
+169 1 -1 
+106 1 75 
+79 1 -1 
+146 1 -1 
+372 1 -1 
+279 1 244 
+248 1 -1 
+218 1 142 
+350 1 244 
+Functions: 32
+193 4 -1 -4 4 9 
+325 3 322 9 317 
+390 4 -1 -4 244 9 
+72 1 4 
+200 4 -1 -4 9 75 
+139 1 75 
+267 2 259 266 
+12 2 4 9 
+396 3 -1 9 317 
+206 3 -1 4 9 
+270 2 259 244 
+334 2 317 142 
+402 3 -1 244 9 
+83 2 9 75 
+212 3 -1 9 75 
+341 2 244 317 
+150 2 9 142 
+26 2 19 25 
+29 2 19 4 
+159 2 4 142 
+97 2 96 90 
+100 2 90 75 
+166 2 75 142 
+232 1 142 
+430 5 -1 -4 9 317 142 
+369 1 317 
+180 4 -1 -4 9 142 
+436 4 -1 9 317 142 
+186 3 -1 9 142 
+314 1 244 
+252 3 244 9 249 
+383 4 -1 -4 9 317 
+Constructors: 8
+97 90
+83 75
+325 317
+150 142
+26 19
+267 259
+12 4
+252 244
+
+Summary: 15
+244 19 1 -3 90 259 -1 2 25 -4 4 0 75 96 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/OR_OR_Expression;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+13
+$r0 1 0 
+r4 1 -2 
+$r2 1 5 
+$r5 1 45 
+$r7 1 590 
+$r10 1 45 
+$r6 1 45 
+r1 1 -1 
+_ret 1 0 
+$r9 1 600 
+$r3 1 13 
+$r8 1 593 
+r42 1 579 
+Fields: 3
+-1 ast 5
+-2 left 45
+-2 right 590
+Accesses: 18
+32 1 -2 
+4 1 -1 
+455 1 -1 
+616 1 -2 
+73 1 -2 
+265 1 -1 
+44 1 -2 
+557 1 -2 
+589 1 -2 
+274 1 -1 
+19 1 -1 
+179 1 -1 
+54 1 -2 
+86 1 -2 
+55 1 45 
+443 1 -2 
+188 1 -1 
+572 1 -2 
+Functions: 56
+386 0 
+516 2 -1 5 
+8 2 0 5 
+395 0 
+269 0 
+398 0 
+527 1 0 
+16 2 0 13 
+400 0 
+531 1 0 
+532 0 
+411 0 
+29 6 -1 0 -2 5 45 590 
+285 5 -1 -2 5 45 590 
+544 1 0 
+547 0 
+292 0 
+169 1 0 
+297 2 -1 5 
+302 0 
+431 0 
+432 0 
+307 0 
+566 1 0 
+183 0 
+312 0 
+571 3 -1 5 45 
+317 0 
+68 1 0 
+452 0 
+199 5 -1 -2 5 45 590 
+72 2 -1 5 
+584 2 0 579 
+204 2 -1 5 
+588 3 -1 5 590 
+80 0 
+209 0 
+465 5 -1 -2 5 45 590 
+212 2 -1 5 
+596 2 0 593 
+341 0 
+470 1 0 
+475 2 -1 5 
+603 2 0 600 
+606 1 579 
+224 0 
+481 0 
+229 0 
+234 0 
+364 0 
+239 0 
+367 0 
+369 0 
+625 1 0 
+242 0 
+381 0 
+Constructors: 1
+8 0
+
+Summary: 25
+413 590 173 74 -1 536 218 471 522 369 103 400 579 432 532 45 206 69 77 350 -2 593 478 494 299 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/Assignment;)Lorg/eclipse/jdt/core/dom/Assignment;
+PTG:
+Vars:
+10
+r1 1 -1 
+r4 1 -2 
+_ret 1 0 
+$r0 1 0 
+$r9 1 52 
+$r2 1 5 
+$r7 1 40 
+$r5 1 27 
+r6 1 33 
+$r8 1 49 
+Fields: 3
+-1 ast 5
+-2 expression 49
+-2 lhs 27
+Accesses: 5
+48 1 -2 
+67 1 -2 
+4 1 -1 
+26 1 -2 
+12 1 -1 
+Functions: 9
+36 2 0 33 
+22 6 -1 0 -2 49 5 27 
+55 2 0 52 
+8 2 0 5 
+25 3 -1 5 27 
+58 1 33 
+43 2 0 40 
+76 1 0 
+47 3 -1 49 5 
+Constructors: 1
+8 0
+
+Summary: 6
+-1 49 27 33 52 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/Javadoc;Lorg/eclipse/jdt/core/dom/PackageDeclaration;)V
+PTG:
+Vars:
+18
+r10 1 69 
+$r5 1 23 
+$r15 1 34 
+$r6 1 44 
+r2 1 -3 
+$r13 1 127 
+r0 1 -1 
+r8 1 69 
+$r3 1 12 
+$r1 1 1 
+$r11 1 110 
+$r7 1 34 
+r12 1 118 
+$r14 1 127 
+$r16 1 23 
+r4 1 -2 
+$r9 1 82 
+$r17 1 23 
+Fields: 3
+-1 ast 1
+-1 commentMapper 23
+-1 commentsTable 34
+Accesses: 10
+0 1 -1 
+48 1 -1 
+1 1 1 
+33 1 -1 
+22 1 -1 
+55 1 -1 
+58 1 -1 
+29 1 -1 
+62 1 -2 
+94 1 -1 
+Functions: 13
+135 6 -1 1 -2 34 23 127 
+105 6 -1 1 -2 34 69 23 
+74 1 69 
+138 1 118 
+11 1 -3 
+108 1 69 
+110 1 110 
+81 1 69 
+52 2 34 44 
+151 2 -3 69 
+59 1 23 
+125 1 118 
+30 2 34 23 
+Constructors: 1
+52 44
+
+Summary: 11
+127 1 -3 82 110 118 -1 69 12 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/AND_AND_Expression;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+13
+$r10 1 45 
+$r9 1 600 
+$r2 1 5 
+$r0 1 0 
+$r6 1 45 
+_ret 1 0 
+$r5 1 45 
+r1 1 -1 
+r42 1 579 
+$r7 1 590 
+$r8 1 593 
+r4 1 -2 
+$r3 1 13 
+Fields: 3
+-1 ast 5
+-2 left 45
+-2 right 590
+Accesses: 18
+32 1 -2 
+4 1 -1 
+455 1 -1 
+616 1 -2 
+73 1 -2 
+265 1 -1 
+44 1 -2 
+557 1 -2 
+589 1 -2 
+274 1 -1 
+19 1 -1 
+179 1 -1 
+54 1 -2 
+86 1 -2 
+55 1 45 
+443 1 -2 
+188 1 -1 
+572 1 -2 
+Functions: 56
+386 0 
+516 2 -1 5 
+8 2 0 5 
+395 0 
+269 0 
+398 0 
+527 1 0 
+16 2 0 13 
+400 0 
+531 1 0 
+532 0 
+411 0 
+29 6 -1 0 -2 5 45 590 
+285 5 -1 -2 5 45 590 
+544 1 0 
+547 0 
+292 0 
+169 1 0 
+297 2 -1 5 
+302 0 
+431 0 
+432 0 
+307 0 
+566 1 0 
+183 0 
+312 0 
+571 3 -1 5 45 
+317 0 
+68 1 0 
+452 0 
+199 5 -1 -2 5 45 590 
+72 2 -1 5 
+584 2 0 579 
+204 2 -1 5 
+588 3 -1 5 590 
+80 0 
+209 0 
+465 5 -1 -2 5 45 590 
+212 2 -1 5 
+596 2 0 593 
+341 0 
+470 1 0 
+475 2 -1 5 
+603 2 0 600 
+606 1 579 
+224 0 
+481 0 
+229 0 
+234 0 
+364 0 
+239 0 
+367 0 
+369 0 
+625 1 0 
+242 0 
+381 0 
+Constructors: 1
+8 0
+
+Summary: 25
+413 590 173 74 -1 536 218 471 522 369 103 400 579 432 532 45 206 69 77 350 -2 593 478 494 299 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/WhileStatement;)Lorg/eclipse/jdt/core/dom/WhileStatement;
+PTG:
+Vars:
+9
+$r0 1 0 
+r8 1 51 
+_ret 1 0 
+$r7 1 45 
+$r6 1 37 
+r4 1 -2 
+$r5 1 34 
+$r2 1 5 
+r1 1 -1 
+Fields: 3
+-1 ast 5
+-2 condition 34
+-2 action 45
+Accesses: 6
+17 1 -2 
+33 1 -2 
+4 1 -1 
+21 1 -2 
+44 1 -2 
+13 1 -2 
+Functions: 6
+32 3 -1 34 5 
+8 2 0 5 
+40 2 0 37 
+43 3 -1 5 45 
+28 1 0 
+60 2 0 51 
+Constructors: 1
+8 0
+
+Summary: 7
+-1 45 51 37 34 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.createFakeEmptyStatement(Lorg/eclipse/jdt/internal/compiler/ast/Statement;)Lorg/eclipse/jdt/core/dom/Statement;
+PTG:
+Vars:
+5
+r2 1 -1 
+_ret 1 6 
+r0 1 -2 
+$r1 1 6 
+$r3 1 11 
+Fields: 1
+-1 ast 11
+Accesses: 3
+33 1 -2 
+10 1 -1 
+28 1 -2 
+Functions: 4
+19 1 6 
+25 1 6 
+14 2 6 11 
+47 1 6 
+Constructors: 1
+14 6
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setTypeForMethodDeclaration(Lorg/eclipse/jdt/core/dom/AnnotationTypeMemberDeclaration;Lorg/eclipse/jdt/core/dom/Type;I)V
+PTG:
+Vars:
+3
+r1 1 -3 
+r0 1 -2 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/SingleMemberAnnotation;)Lorg/eclipse/jdt/core/dom/SingleMemberAnnotation;
+PTG:
+Vars:
+7
+_ret 1 0 
+r4 1 -2 
+$r6 1 24 
+$r2 1 5 
+$r0 1 0 
+r1 1 -1 
+$r5 1 21 
+Fields: 2
+-1 ast 5
+-2 memberValue 21
+Accesses: 5
+35 1 -2 
+4 1 -1 
+20 1 -2 
+52 1 -1 
+30 1 -2 
+Functions: 7
+49 1 0 
+66 1 0 
+19 3 -1 5 21 
+8 2 0 5 
+27 2 0 24 
+62 5 -1 0 -2 5 21 
+15 5 -1 0 -2 5 21 
+Constructors: 1
+8 0
+
+Summary: 5
+-1 21 24 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/Expression;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -2 
+Functions: 35
+72 1 -1 
+136 1 -1 
+200 1 -1 
+264 1 -1 
+328 1 -1 
+392 1 -1 
+456 1 -1 
+520 1 -1 
+11 2 -1 -2 
+216 1 -1 
+24 1 -1 
+88 1 -1 
+152 1 -1 
+280 1 -1 
+344 1 -1 
+408 1 -1 
+472 1 -1 
+536 1 -1 
+232 1 -1 
+40 1 -1 
+104 1 -1 
+168 1 -1 
+296 1 -1 
+360 1 -1 
+424 1 -1 
+488 1 -1 
+552 1 -1 
+56 1 -1 
+120 1 -1 
+184 1 -1 
+248 1 -1 
+312 1 -1 
+376 1 -1 
+440 1 -1 
+504 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/AnnotationMethodDeclaration;)Lorg/eclipse/jdt/core/dom/ASTNode;
+PTG:
+Vars:
+15
+r0 1 -1 
+r5 1 -2 
+$r3 1 5 
+$r10 1 53 
+$r12 1 152 
+$r15 1 174 
+$r7 1 5 
+$r1 1 5 
+r16 1 115 
+_ret 1 17 
+r11 1 102 
+$r9 1 48 
+$r6 1 35 
+$r2 1 17 
+r13 1 163 
+Fields: 5
+-1 ast 5
+-2 returnType 102
+-2 selector 53
+-2 defaultValue 163
+-2 javadoc 152
+Accesses: 13
+98 1 -2 
+131 1 -2 
+4 1 -1 
+5 1 5 
+39 1 -1 
+71 1 -2 
+52 1 -2 
+180 1 -1 
+21 1 -1 
+151 1 -2 
+125 1 -2 
+62 1 -2 
+159 1 -2 
+Functions: 18
+32 8 -1 17 -2 163 5 53 102 152 
+1 2 -1 5 
+68 2 -1 5 
+196 8 -1 -2 35 163 5 53 102 152 
+200 1 17 
+43 2 35 5 
+171 3 -1 163 5 
+109 3 -1 5 102 
+177 2 17 174 
+147 1 17 
+56 2 48 53 
+25 2 17 5 
+90 1 35 
+122 4 -1 17 115 5 
+59 2 48 35 
+156 4 -1 17 5 152 
+190 8 -1 17 -2 163 5 53 102 152 
+95 2 17 35 
+Constructors: 3
+56 48
+25 17
+43 35
+
+Summary: 11
+48 152 115 102 -1 35 174 53 163 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.recordNodes(Lorg/eclipse/jdt/core/dom/ASTNode;Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;)V
+PTG:
+Vars:
+5
+r3 1 -2 
+r4 1 -3 
+$r2 1 4 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 ast 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+9 3 -2 -3 4 
+Constructors: 0
+
+Summary: 6
+-1 1 4 -3 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convertToFieldDeclaration(Lorg/eclipse/jdt/internal/compiler/ast/FieldDeclaration;)Lorg/eclipse/jdt/core/dom/FieldDeclaration;
+PTG:
+Vars:
+10
+$r3 1 6 
+$r9 1 95 
+_ret 1 6 
+r8 1 74 
+$r4 1 11 
+r0 1 -1 
+r2 1 5 
+$r7 1 68 
+$r6 1 19 
+r1 1 -2 
+Fields: 3
+-1 ast 11
+-2 javadoc 95
+-2 type 68
+Accesses: 7
+48 1 -2 
+67 1 -2 
+52 1 -2 
+56 1 -2 
+10 1 -1 
+29 1 -1 
+94 1 -2 
+Functions: 12
+0 5 -1 -2 68 11 95 
+80 1 5 
+18 1 6 
+66 3 -1 68 11 
+99 4 -1 6 11 95 
+84 4 -1 6 74 11 
+23 2 19 5 
+39 6 -1 -2 68 5 11 95 
+90 6 -1 -2 68 6 11 95 
+43 1 5 
+14 2 6 11 
+63 1 6 
+Constructors: 1
+14 6
+
+Summary: 8
+-1 5 19 95 0 -2 68 74 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;[C)Lorg/eclipse/jdt/core/dom/CompilationUnit;
+PTG:
+Vars:
+42
+$r23 1 230 
+$r29 1 10 
+$r34 1 15 
+r39 1 149 
+$r19 1 391 
+$r2 1 4 
+$r6 1 15 
+$r15 1 1 
+$r25 1 269 
+r11 1 98 
+r4 1 -3 
+$r30 1 1 
+$r20 1 1 
+r38 1 137 
+$r33 1 25 
+$r7 1 71 
+$r12 1 126 
+r3 1 -1 
+r40 1 200 
+$r1 1 1 
+$r24 1 227 
+r41 1 223 
+$r8 1 76 
+$r16 1 362 
+r45 2 336 362 
+$r32 1 15 
+$r26 1 168 
+r0 1 -2 
+r42 1 248 
+r44 1 336 
+$r13 1 1 
+$r17 1 374 
+$r31 1 4 
+$r9 1 1 
+$r21 1 4 
+_ret 1 71 
+$r5 1 1 
+$r10 1 4 
+$r14 1 15 
+$r27 1 176 
+$r35 1 38 
+$r28 1 177 
+Fields: 12
+1 recoveryScannerData 4
+-1 scanner 15
+-1 docParser 38
+-1 ast 76
+200 ArrayObject 223
+149 ArrayObject 176
+223 name 227
+-2 imports 149
+-2 compilationResult 1
+-2 comments 98
+-2 currentPackage 126
+-2 types 200
+Accesses: 32
+0 1 -2 
+64 1 -2 
+1 1 1 
+196 1 -2 
+329 1 -2 
+75 1 -1 
+397 1 -2 
+14 1 -1 
+398 1 1 
+145 1 -2 
+18 1 -2 
+19 1 1 
+84 1 -2 
+85 1 1 
+94 1 -2 
+225 1 223 
+34 1 -1 
+291 1 -2 
+37 1 -1 
+421 1 -1 
+295 1 -2 
+41 1 -1 
+299 1 -2 
+45 1 38 
+112 1 -1 
+433 1 -1 
+50 1 -1 
+309 1 -2 
+310 1 1 
+56 1 -1 
+59 1 -1 
+125 1 -2 
+Functions: 28
+256 1 71 
+68 4 1 -3 4 15 
+132 14 -1 -2 1 98 227 4 38 200 76 15 176 149 126 223 
+388 2 374 71 
+262 1 71 
+330 2 1 4 
+268 1 71 
+142 2 71 137 
+79 2 71 76 
+274 2 248 269 
+404 4 336 4 391 362 
+22 1 4 
+91 2 4 71 
+28 3 25 10 15 
+412 2 71 391 
+418 3 336 71 362 
+230 2 227 230 
+167 1 71 
+171 5 -1 176 38 76 15 
+109 6 -1 98 38 71 76 15 
+429 4 -1 38 76 15 
+242 6 -1 227 38 76 15 223 
+306 1 71 
+371 2 336 362 
+180 2 177 168 
+437 2 71 15 
+122 15 -1 -2 1 98 227 4 38 71 200 76 15 176 149 126 223 
+380 3 336 374 362 
+Constructors: 4
+404 391
+28 10
+380 374
+79 71
+
+Summary: 18
+149 98 269 -1 1 25 137 4 0 168 200 391 248 1 177 126 374 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/QualifiedNameReference;)Lorg/eclipse/jdt/core/dom/Name;
+PTG:
+Vars:
+6
+r1 1 -2 
+_ret 1 10 
+$r2 1 6 
+$r4 1 10 
+r0 1 -1 
+$r3 1 2 
+Fields: 2
+-2 sourcePositions 6
+-2 tokens 2
+Accesses: 2
+1 1 -2 
+5 1 -2 
+Functions: 1
+0 4 -1 -2 2 6 
+Constructors: 0
+
+Summary: 5
+-1 2 6 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convertToVariableDeclarationFragment(Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;)Lorg/eclipse/jdt/core/dom/VariableDeclarationFragment;
+PTG:
+Vars:
+11
+r1 1 -1 
+r12 1 120 
+$r5 1 5 
+$r7 1 25 
+r10 1 73 
+_ret 1 0 
+r8 1 -2 
+$r9 1 30 
+$r0 1 0 
+$r2 1 5 
+$r4 1 12 
+Fields: 3
+-1 ast 5
+-2 name 30
+-2 initialization 73
+Accesses: 15
+227 1 -2 
+4 1 -1 
+69 1 -2 
+40 1 -2 
+44 1 -2 
+76 1 -2 
+237 1 -1 
+16 1 -1 
+48 1 -2 
+82 1 -1 
+155 1 -2 
+29 1 -2 
+221 1 -2 
+63 1 -2 
+159 1 -2 
+Functions: 21
+128 1 120 
+33 2 25 30 
+257 1 0 
+36 2 25 12 
+133 1 120 
+8 2 0 5 
+234 1 0 
+75 2 -1 5 
+204 1 0 
+114 3 -1 5 73 
+210 1 0 
+20 2 5 12 
+181 1 0 
+150 2 -1 5 
+55 1 12 
+247 6 -1 0 -2 5 73 30 
+187 1 0 
+60 2 0 12 
+125 2 0 120 
+253 6 -1 -2 5 73 12 30 
+94 1 0 
+Constructors: 3
+33 25
+20 12
+8 0
+
+Summary: 8
+-1 73 30 0 25 -2 12 120 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ExtendedStringLiteral;)Lorg/eclipse/jdt/core/dom/StringLiteral;
+PTG:
+Vars:
+7
+$r1 1 4 
+_ret 1 4 
+r2 1 -1 
+$r5 1 31 
+$r3 1 9 
+$r6 1 34 
+r0 1 -2 
+Fields: 2
+-1 ast 9
+-2 constant 31
+Accesses: 6
+16 1 -1 
+49 1 -2 
+8 1 -1 
+41 1 -2 
+45 1 -2 
+30 1 -2 
+Functions: 6
+1 2 -2 31 
+37 2 34 4 
+56 1 4 
+26 5 -1 -2 4 9 31 
+12 2 4 9 
+31 1 31 
+Constructors: 1
+12 4
+
+Summary: 5
+-1 31 34 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ArrayInitializer;)Lorg/eclipse/jdt/core/dom/ArrayInitializer;
+PTG:
+Vars:
+10
+$r6 1 67 
+r7 1 71 
+_ret 1 0 
+r4 1 -2 
+$r2 1 5 
+r5 1 48 
+$r8 1 91 
+$r9 1 86 
+r1 1 -1 
+$r0 1 0 
+Fields: 4
+-1 ast 5
+48 ArrayObject 86
+48 ArrayObject 67
+-2 expressions 48
+Accesses: 7
+34 1 -2 
+4 1 -1 
+73 1 -1 
+26 1 -2 
+12 1 -1 
+44 1 -2 
+30 1 -2 
+Functions: 7
+96 2 71 91 
+22 7 -1 0 48 -2 67 5 86 
+87 4 -1 5 86 71 
+8 2 0 5 
+41 1 0 
+90 1 0 
+63 3 -1 67 5 
+Constructors: 1
+8 0
+
+Summary: 6
+-1 91 71 48 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveStartingCatchPosition(II)I
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+$r4 1 -1 
+Fields: 1
+-1 scanner 1
+Accesses: 3
+0 1 -1 
+32 1 -1 
+40 1 -1 
+Functions: 2
+6 1 1 
+41 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/SingleVariableDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;)V
+PTG:
+Vars:
+24
+r4 1 79 
+$r15 1 221 
+$r21 1 -1 
+$r1 1 1 
+$r3 1 61 
+$r13 1 293 
+$r12 1 269 
+$r11 1 257 
+$r17 1 245 
+r2 1 -3 
+$r16 1 305 
+$r23 1 61 
+r22 12 347 323 335 227 378 263 275 239 251 311 287 299 
+$r19 2 381 61 
+$r14 1 281 
+r5 1 -2 
+$r6 1 411 
+$r7 1 329 
+$r8 1 317 
+r0 1 -1 
+$r9 1 341 
+$r20 1 41 
+$r10 1 233 
+r18 1 370 
+Fields: 5
+-1 scanner 61
+-1 ast 1
+79 ArrayObject 370
+-3 annotations 79
+-3 annotations 41
+Accesses: 12
+0 1 -1 
+64 1 -3 
+384 1 370 
+1 1 1 
+68 1 -3 
+422 1 -1 
+391 1 -1 
+40 1 -3 
+75 1 -3 
+60 1 -1 
+380 1 -1 
+29 1 -3 
+Functions: 20
+256 4 -1 1 257 61 
+416 13 323 227 263 299 335 239 275 311 378 411 347 251 287 
+292 4 -1 1 293 61 
+37 1 -2 
+423 1 61 
+72 1 61 
+232 4 -1 1 233 61 
+328 4 -1 1 329 61 
+395 2 381 61 
+268 4 -1 1 61 269 
+48 1 -2 
+304 4 -1 1 305 61 
+244 4 -1 1 245 61 
+340 4 -1 1 341 61 
+372 4 -1 1 370 61 
+54 1 -2 
+280 4 -1 1 281 61 
+410 1 -2 
+220 4 -1 1 61 221 
+316 4 -1 1 61 317 
+Constructors: 0
+
+Summary: 20
+-3 -1 335 41 378 0 263 239 311 287 79 1 347 323 411 227 275 -2 251 299 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/StringLiteral;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+7
+r0 1 -2 
+$r3 1 38 
+_ret 1 33 
+r2 1 -1 
+$r5 1 62 
+$r6 1 67 
+$r1 1 33 
+Fields: 2
+-1 ast 38
+-1 compilationUnitSource 67
+Accesses: 9
+16 1 -2 
+80 1 -2 
+66 1 -1 
+20 1 -2 
+84 1 -2 
+37 1 -1 
+88 1 -2 
+28 1 -2 
+46 1 -1 
+Functions: 6
+7 3 -1 67 38 
+72 2 67 62 
+41 2 33 38 
+57 5 -1 33 -2 67 38 
+75 2 33 62 
+95 1 33 
+Constructors: 2
+72 62
+41 33
+
+Summary: 3
+-1 -2 62 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration;)Lorg/eclipse/jdt/core/dom/ASTNode;
+PTG:
+Vars:
+50
+$r15 1 1094 
+r48 1 403 
+$r19 1 896 
+$r2 1 20 
+r46 1 -2 
+$r37 1 164 
+$r28 1 25 
+$r29 1 25 
+r0 1 -1 
+$r20 1 726 
+$r3 1 25 
+r52 1 912 
+$r17 1 986 
+$r16 1 879 
+r51 1 885 
+r41 1 199 
+$r14 1 1093 
+$r18 1 25 
+r54 1 1023 
+$r5 1 48 
+$r13 1 1085 
+_ret 1 20 
+$r31 1 324 
+$r36 1 157 
+$r33 1 339 
+r40 1 161 
+r49 1 568 
+r10 1 119 
+$r12 1 25 
+$r6 1 25 
+$r32 1 25 
+r50 1 623 
+$r55 1 1115 
+$r35 1 238 
+r47 1 390 
+r42 1 235 
+$r23 1 767 
+$r26 1 693 
+r1 1 -2 
+$r21 1 754 
+$r27 1 623 
+r44 1 -2 
+$r8 1 63 
+$r9 1 68 
+$r30 1 25 
+r43 1 292 
+$r25 1 687 
+$r24 1 740 
+r22 1 758 
+$r34 1 231 
+Fields: 15
+-1 ast 25
+1023 ArrayObject 1093
+568 ArrayObject 754
+568 ArrayObject 726
+119 ArrayObject 157
+879 problems 885
+885 ArrayObject 912
+199 ArrayObject 231
+-2 returnType 390
+-2 selector 68
+-2 constructorCall 292
+-2 javadoc 1115
+-2 thrownExceptions 119
+-2 arguments 199
+-2 statements 568
+Accesses: 38
+896 1 896 
+385 1 -2 
+449 1 -1 
+450 1 25 
+67 1 -2 
+195 1 -2 
+1030 1 -1 
+1031 1 25 
+328 1 -1 
+524 1 -2 
+588 1 -2 
+77 1 -2 
+530 1 -2 
+595 1 -2 
+86 1 -2 
+599 1 -2 
+24 1 -1 
+408 1 -2 
+1114 1 -2 
+347 1 -2 
+990 1 -1 
+287 1 -2 
+866 1 -2 
+1122 1 -1 
+676 1 292 
+421 1 -2 
+294 1 -1 
+295 1 25 
+872 1 -2 
+879 1 879 
+498 1 -2 
+115 1 -2 
+627 1 -1 
+52 1 -1 
+564 1 -2 
+504 1 -2 
+121 1 -2 
+573 1 -2 
+Functions: 83
+1 2 -1 25 
+772 2 758 767 
+261 1 235 
+647 1 623 
+520 1 20 
+266 1 235 
+11 2 -1 25 
+523 2 -1 25 
+397 3 -1 390 25 
+653 2 20 623 
+914 1 912 
+149 3 -1 25 157 
+405 2 -1 25 
+793 1 20 
+794 0 
+28 2 20 25 
+924 1 912 
+545 1 20 
+418 2 -1 25 
+35 15 -1 -2 68 292 390 199 231 754 20 726 119 568 25 1115 157 
+163 1 20 
+803 1 20 
+804 0 
+1061 1 20 
+38 12 -2 754 68 292 390 726 119 199 231 568 1115 157 
+935 1 912 
+169 2 161 164 
+1067 1 20 
+45 1 20 
+685 1 623 
+814 1 20 
+561 1 20 
+434 1 20 
+690 3 -1 292 25 
+820 1 20 
+182 1 161 
+56 2 48 25 
+696 2 693 687 
+570 2 -1 25 
+187 1 161 
+443 4 -1 403 20 25 
+827 1 20 
+955 1 20 
+1084 1 20 
+1088 3 -1 1093 25 
+833 1 20 
+836 12 -2 754 68 292 390 726 119 199 231 568 1115 157 
+71 2 68 63 
+1097 2 1094 1085 
+74 2 48 63 
+843 12 -2 754 68 292 390 726 119 199 231 568 1115 157 
+971 1 20 
+332 2 324 25 
+594 2 -1 25 
+850 2 -1 25 
+83 2 -1 25 
+342 2 339 324 
+223 3 -1 231 25 
+1119 4 -1 20 25 1115 
+352 1 324 
+481 1 20 
+738 1 623 
+994 2 25 986 
+358 2 20 324 
+487 1 20 
+743 6 -1 754 740 726 568 25 
+106 1 48 
+1132 15 -1 -2 68 292 390 199 231 754 20 726 119 568 25 1115 157 
+237 1 20 
+749 3 -1 754 25 
+366 1 20 
+878 12 -2 754 68 292 390 726 119 199 231 568 1115 157 
+495 1 20 
+112 2 48 20 
+1010 1 986 
+243 2 235 238 
+1139 15 -1 -2 68 292 390 199 231 48 754 726 119 568 25 1115 157 
+631 2 25 623 
+1143 1 20 
+1016 2 20 986 
+1019 12 -2 754 68 292 390 726 119 199 231 568 1115 157 
+765 1 623 
+895 12 -2 754 68 292 390 726 119 199 231 568 1115 157 
+Constructors: 6
+994 986
+71 63
+631 623
+56 48
+28 20
+332 324
+
+Summary: 32
+164 687 896 767 292 157 758 63 -1 693 568 1115 231 1094 199 68 48 1085 986 119 885 161 1023 403 238 879 235 390 740 623 -2 324 
+org/eclipse/jdt/core/dom/ASTConverter.completeRecord(Lorg/eclipse/jdt/core/dom/ArrayType;Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;)V
+PTG:
+Vars:
+5
+r2 1 -1 
+r0 1 -2 
+r3 1 -3 
+r1 1 18 
+r4 2 18 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+2 1 -2 
+24 3 -1 18 -3 
+27 1 18 
+14 2 -2 18 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 18 0 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/StringLiteralConcatenation;)Lorg/eclipse/jdt/core/dom/InfixExpression;
+PTG:
+Vars:
+14
+$r13 1 65 
+$r7 1 32 
+r2 1 -1 
+$r11 1 57 
+r0 1 -2 
+$r3 1 9 
+r6 1 27 
+$r10 1 44 
+$r8 1 33 
+_ret 1 4 
+$r9 1 43 
+$r1 1 4 
+$r5 1 17 
+$r12 1 64 
+Fields: 5
+-1 ast 9
+27 ArrayObject 64
+27 ArrayObject 43
+27 ArrayObject 32
+-2 literals 27
+Accesses: 7
+100 1 -2 
+86 1 -1 
+23 1 -2 
+8 1 -1 
+104 1 -2 
+108 1 -2 
+79 1 -2 
+Functions: 12
+96 8 -1 64 32 -2 4 9 27 43 
+1 5 64 32 -2 27 43 
+115 1 4 
+20 2 17 4 
+36 2 33 4 
+68 2 65 57 
+40 3 -1 9 43 
+56 1 4 
+12 2 4 9 
+60 3 -1 64 9 
+29 3 -1 32 9 
+47 2 4 44 
+Constructors: 1
+12 4
+
+Summary: 10
+43 27 -1 57 33 65 44 32 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/EmptyStatement;)Lorg/eclipse/jdt/core/dom/EmptyStatement;
+PTG:
+Vars:
+5
+_ret 1 0 
+$r0 1 0 
+r4 1 -2 
+r1 1 -1 
+$r2 1 5 
+Fields: 1
+-1 ast 5
+Accesses: 4
+17 1 -2 
+4 1 -1 
+21 1 -2 
+13 1 -2 
+Functions: 2
+8 2 0 5 
+28 1 0 
+Constructors: 1
+8 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/FieldDeclaration;)Lorg/eclipse/jdt/core/dom/EnumConstantDeclaration;
+PTG:
+Vars:
+20
+r10 1 83 
+$r11 1 349 
+r23 1 254 
+$r2 1 9 
+$r18 1 9 
+$r1 1 4 
+$r15 1 282 
+$r13 1 273 
+$r17 1 113 
+$r9 1 34 
+$r5 1 9 
+r20 1 106 
+_ret 1 4 
+r0 1 -1 
+$r4 1 16 
+$r7 1 29 
+$r22 1 83 
+r8 1 -2 
+$r14 1 281 
+$r16 1 83 
+Fields: 7
+-1 ast 9
+83 arguments 254
+83 anonymousType 106
+254 ArrayObject 281
+-2 name 34
+-2 javadoc 349
+-2 initialization 83
+Accesses: 19
+33 1 -2 
+161 1 106 
+67 1 -2 
+323 1 -1 
+100 1 83 
+132 1 106 
+196 1 -1 
+8 1 -1 
+73 1 -2 
+44 1 -2 
+79 1 -2 
+143 1 106 
+48 1 -2 
+20 1 -1 
+52 1 -2 
+117 1 -1 
+248 1 83 
+348 1 -2 
+127 1 106 
+Functions: 26
+64 2 16 4 
+320 10 -1 -2 34 83 4 9 281 106 349 254 
+1 2 -1 9 
+193 4 -1 113 9 106 
+12 2 4 9 
+333 10 -1 -2 34 83 4 9 281 106 349 254 
+142 2 -1 9 
+208 4 -1 113 9 106 
+272 1 4 
+339 10 -1 16 -2 34 83 9 281 106 349 254 
+276 3 -1 9 281 
+213 1 113 
+343 1 4 
+24 2 16 9 
+285 2 273 282 
+353 4 -1 4 9 349 
+227 1 4 
+37 2 34 29 
+40 2 16 29 
+179 1 113 
+243 1 4 
+121 2 113 9 
+185 2 113 4 
+314 1 4 
+59 1 16 
+126 2 -1 9 
+Constructors: 4
+37 29
+24 16
+121 113
+12 4
+
+Summary: 12
+349 83 16 34 273 113 106 -1 254 282 29 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convertToExpression(Lorg/eclipse/jdt/internal/compiler/ast/Statement;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setTypeNameForAnnotation(Lorg/eclipse/jdt/internal/compiler/ast/Annotation;Lorg/eclipse/jdt/core/dom/Annotation;)V
+PTG:
+Vars:
+13
+r10 1 23 
+r1 1 4 
+r12 1 4 
+$r4 1 59 
+$r5 1 69 
+r11 1 30 
+r0 1 -2 
+$r6 1 75 
+r9 1 4 
+$r8 1 39 
+r7 1 -3 
+$r2 1 54 
+r3 1 -1 
+Fields: 5
+-1 ast 59
+4 token 75
+4 tokens 23
+4 sourcePositions 30
+-2 type 4
+Accesses: 9
+0 1 -2 
+18 1 4 
+115 1 54 
+84 1 4 
+25 1 4 
+73 1 4 
+58 1 -1 
+91 1 4 
+124 1 -1 
+Functions: 8
+33 6 -1 4 23 59 75 30 
+81 2 69 54 
+135 7 -1 4 54 23 59 75 30 
+121 2 -3 54 
+42 2 -3 39 
+109 1 54 
+62 2 54 59 
+78 2 69 75 
+Constructors: 2
+62 54
+78 69
+
+Summary: 12
+39 23 69 75 1 -3 30 -1 4 54 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convertPackage(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;)Lorg/eclipse/jdt/core/dom/PackageDeclaration;
+PTG:
+Vars:
+20
+$r11 1 73 
+$r12 1 80 
+$r4 1 10 
+$r18 1 49 
+r6 1 21 
+$r2 1 5 
+$r13 1 280 
+$r10 1 10 
+$r16 1 245 
+$r7 1 21 
+$r17 1 246 
+r0 1 -2 
+$r9 1 58 
+$r14 1 10 
+_ret 1 5 
+r20 1 174 
+r3 1 -1 
+r8 1 34 
+$r15 1 237 
+r1 1 4 
+Fields: 8
+-1 ast 10
+174 ArrayObject 245
+21 ArrayObject 80
+4 annotations 174
+4 tokens 21
+4 sourcePositions 34
+-2 javadoc 280
+-2 currentPackage 4
+Accesses: 16
+0 1 -2 
+128 1 58 
+160 1 4 
+9 1 -1 
+137 1 -1 
+265 1 -1 
+170 1 4 
+17 1 4 
+181 1 -1 
+182 1 10 
+23 1 4 
+279 1 -2 
+152 1 4 
+156 1 4 
+30 1 4 
+62 1 -1 
+Functions: 17
+66 2 58 10 
+134 2 5 58 
+167 1 5 
+43 8 -1 80 34 4 21 245 10 174 
+236 1 5 
+13 2 5 10 
+240 3 -1 245 10 
+81 2 80 73 
+275 9 -1 80 34 4 5 21 245 10 174 
+52 2 49 5 
+84 2 73 58 
+148 11 -1 80 -2 34 4 21 245 280 10 58 174 
+213 1 5 
+249 2 246 237 
+122 1 58 
+219 1 5 
+284 4 -1 5 280 10 
+Constructors: 3
+81 73
+66 58
+13 5
+
+Summary: 14
+73 280 34 237 -1 174 49 58 21 246 4 0 -2 80 
+org/eclipse/jdt/core/dom/ASTConverter.convertToParenthesizedExpression(Lorg/eclipse/jdt/internal/compiler/ast/Expression;)Lorg/eclipse/jdt/core/dom/ParenthesizedExpression;
+PTG:
+Vars:
+6
+_ret 1 0 
+$r0 1 0 
+$r5 1 96 
+$r2 1 5 
+r1 1 -1 
+r4 1 -2 
+Fields: 1
+-1 ast 5
+Accesses: 10
+34 1 -2 
+66 1 -2 
+4 1 -1 
+54 1 -2 
+26 1 -2 
+90 1 -2 
+75 1 -2 
+12 1 -1 
+30 1 -2 
+78 1 -2 
+Functions: 7
+51 3 -1 -2 5 
+99 2 0 96 
+22 4 -1 0 -2 5 
+8 2 0 5 
+41 1 0 
+46 3 -1 -2 5 
+94 3 -1 -2 5 
+Constructors: 1
+8 0
+
+Summary: 4
+-1 0 96 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setTypeForVariableDeclarationExpression(Lorg/eclipse/jdt/core/dom/VariableDeclarationExpression;Lorg/eclipse/jdt/core/dom/Type;I)V
+PTG:
+Vars:
+11
+r0 1 -2 
+$r8 1 49 
+r9 1 36 
+r10 2 85 -3 
+r1 1 -3 
+$r6 1 150 
+r2 1 -3 
+$r7 1 46 
+$r3 1 85 
+$r5 1 147 
+r4 1 -1 
+Fields: 2
+-1 ast 46
+-1 ast 147
+Accesses: 2
+146 1 -1 
+45 1 -1 
+Functions: 18
+129 2 -3 85 
+67 1 -3 
+4 1 -3 
+164 2 -2 -3 
+101 3 -1 147 46 
+137 5 -1 -3 147 85 46 
+42 1 36 
+172 2 -2 -3 
+46 1 46 
+143 3 -2 -3 85 
+17 1 -3 
+83 2 -3 85 
+147 1 147 
+55 3 49 -3 36 
+122 2 -3 85 
+156 3 -3 85 150 
+61 2 -2 36 
+31 1 -3 
+Constructors: 0
+
+Summary: 8
+-1 150 49 85 1 36 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/IntLiteralMinValue;)Lorg/eclipse/jdt/core/dom/NumberLiteral;
+PTG:
+Vars:
+7
+$r6 1 37 
+_ret 1 17 
+r0 1 -2 
+$r5 1 32 
+$r3 1 22 
+r2 1 -1 
+$r1 1 17 
+Fields: 2
+-1 ast 22
+-1 compilationUnitSource 37
+Accesses: 6
+0 1 -2 
+48 1 -1 
+4 1 -2 
+36 1 -1 
+21 1 -1 
+12 1 -2 
+Functions: 6
+66 1 17 
+72 4 -1 17 37 22 
+25 2 17 22 
+42 2 32 37 
+59 5 -1 17 -2 37 22 
+45 2 32 17 
+Constructors: 2
+25 17
+42 32
+
+Summary: 3
+-1 32 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/TrueLiteral;)Lorg/eclipse/jdt/core/dom/BooleanLiteral;
+PTG:
+Vars:
+5
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+$r2 1 5 
+r4 1 -2 
+Fields: 1
+-1 ast 5
+Accesses: 5
+17 1 -1 
+35 1 -2 
+4 1 -1 
+39 1 -2 
+31 1 -2 
+Functions: 4
+8 2 0 5 
+27 4 -1 0 -2 5 
+14 1 0 
+46 1 0 
+Constructors: 1
+8 0
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/FloatLiteral;)Lorg/eclipse/jdt/core/dom/NumberLiteral;
+PTG:
+Vars:
+7
+r2 1 -1 
+$r5 1 32 
+$r1 1 17 
+_ret 1 17 
+$r3 1 22 
+r0 1 -2 
+$r6 1 37 
+Fields: 2
+-1 ast 22
+-1 compilationUnitSource 37
+Accesses: 6
+0 1 -2 
+48 1 -1 
+4 1 -2 
+36 1 -1 
+21 1 -1 
+12 1 -2 
+Functions: 6
+66 1 17 
+72 4 -1 17 37 22 
+25 2 17 22 
+42 2 32 37 
+59 5 -1 17 -2 37 22 
+45 2 32 17 
+Constructors: 2
+25 17
+42 32
+
+Summary: 3
+-1 32 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/MarkerAnnotation;)Lorg/eclipse/jdt/core/dom/MarkerAnnotation;
+PTG:
+Vars:
+5
+r4 1 -2 
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+$r2 1 5 
+Fields: 1
+-1 ast 5
+Accesses: 4
+18 1 -2 
+4 1 -1 
+23 1 -2 
+40 1 -1 
+Functions: 5
+50 4 -1 0 -2 5 
+37 1 0 
+54 1 0 
+8 2 0 5 
+15 4 -1 0 -2 5 
+Constructors: 1
+8 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveEllipsisStartPosition(II)I
+PTG:
+Vars:
+4
+$r2 1 1 
+$r4 1 -1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 scanner 1
+Accesses: 3
+0 1 -1 
+32 1 -1 
+42 1 -1 
+Functions: 2
+6 1 1 
+43 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/BinaryExpression;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+32
+$r38 1 233 
+$r57 1 360 
+$r49 1 343 
+r1 1 -1 
+$r74 1 1058 
+$r50 1 183 
+$r5 1 360 
+r3 1 -2 
+$r39 1 173 
+$r4 1 203 
+$r51 1 353 
+$r47 1 293 
+$r55 1 253 
+$r73 1 1055 
+$r54 1 243 
+$r52 1 323 
+$r0 1 0 
+$r45 1 213 
+$r42 1 313 
+$r2 1 5 
+$r41 1 283 
+$r6 1 360 
+$r53 1 303 
+$r40 1 223 
+$r44 1 273 
+_ret 1 0 
+$r18 1 360 
+$r48 1 193 
+$r43 1 263 
+$r71 1 360 
+r72 1 1044 
+$r46 1 333 
+Fields: 3
+-1 ast 5
+-2 left 360
+-2 right 1055
+Accesses: 24
+896 1 -2 
+897 1 360 
+770 1 -1 
+4 1 -1 
+388 1 -2 
+580 1 -1 
+359 1 -2 
+999 1 -2 
+872 1 -2 
+12 1 -1 
+589 1 -1 
+1037 1 -2 
+494 1 -1 
+369 1 -2 
+401 1 -2 
+370 1 360 
+1074 1 -2 
+916 1 -2 
+758 1 -2 
+886 1 -2 
+503 1 -1 
+25 1 -2 
+1022 1 -2 
+1054 1 -2 
+Functions: 84
+256 2 0 253 
+514 5 -1 -2 5 360 1055 
+387 2 -1 5 
+519 2 -1 5 
+1031 1 0 
+8 2 0 5 
+266 2 0 263 
+395 0 
+524 0 
+780 5 -1 -2 5 360 1055 
+1036 3 -1 5 360 
+527 2 -1 5 
+656 0 
+785 1 0 
+276 2 0 273 
+22 6 -1 0 -2 5 360 1055 
+790 2 -1 5 
+1049 2 0 1044 
+539 0 
+796 0 
+1053 3 -1 5 1055 
+286 2 0 283 
+544 0 
+549 0 
+933 2 -1 5 
+1061 2 0 1058 
+679 0 
+296 2 0 293 
+1064 1 1044 
+554 0 
+682 0 
+684 0 
+557 0 
+941 1 0 
+176 2 0 173 
+945 2 -1 5 
+306 2 0 303 
+696 0 
+953 1 0 
+186 2 0 183 
+1083 1 0 
+316 2 0 313 
+701 0 
+831 2 -1 5 
+962 1 0 
+196 2 0 193 
+326 2 0 323 
+710 0 
+966 2 -1 5 
+584 0 
+713 0 
+842 1 0 
+715 0 
+206 2 0 203 
+846 1 0 
+847 0 
+975 0 
+336 2 0 333 
+726 0 
+216 2 0 213 
+600 5 -1 -2 5 360 1055 
+346 2 0 343 
+859 1 0 
+862 0 
+607 0 
+226 2 0 223 
+994 1 0 
+356 2 0 353 
+484 1 0 
+612 2 -1 5 
+998 2 -1 5 
+617 0 
+746 0 
+747 0 
+236 2 0 233 
+622 0 
+1006 0 
+881 1 0 
+498 0 
+627 0 
+246 2 0 243 
+632 0 
+383 1 0 
+767 0 
+Constructors: 1
+8 0
+
+Summary: 35
+389 937 -1 837 533 1003 715 747 360 1044 392 488 938 614 1000 950 851 728 963 418 995 972 384 786 949 1055 930 793 809 521 1058 684 847 -2 665 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveEndOfPotentialExtendedDimensions(III)I
+PTG:
+Vars:
+6
+$r3 2 1 128 
+$r1 1 1 
+$r5 1 1 
+$r2 2 1 106 
+r0 1 -1 
+$r4 1 -1 
+Fields: 1
+-1 scanner 1
+Accesses: 6
+0 1 -1 
+128 2 128 1 
+105 1 -1 
+153 1 -1 
+106 2 1 106 
+127 1 -1 
+Functions: 2
+6 1 1 
+154 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.setAST(Lorg/eclipse/jdt/core/dom/AST;)V
+PTG:
+Vars:
+5
+$r3 1 15 
+r1 1 -2 
+$r2 1 6 
+r0 1 -1 
+$r4 1 11 
+Fields: 2
+-1 scanner 15
+-1 ast 11
+Accesses: 5
+2 1 -1 
+18 1 -1 
+25 1 -1 
+10 1 -1 
+14 1 -1 
+Functions: 1
+22 3 6 11 15 
+Constructors: 1
+22 6
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/core/dom/ASTConverter.isPrimitiveType([C)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ContinueStatement;)Lorg/eclipse/jdt/core/dom/ContinueStatement;
+PTG:
+Vars:
+10
+_ret 1 0 
+$r9 1 51 
+r1 1 -1 
+$r2 1 5 
+$r5 1 32 
+$r0 1 0 
+r4 1 -2 
+$r7 1 5 
+$r10 1 32 
+$r6 1 38 
+Fields: 2
+-1 ast 5
+-2 label 32
+Accesses: 9
+17 1 -2 
+66 1 -2 
+4 1 -1 
+21 1 -2 
+70 1 -2 
+55 1 -2 
+42 1 -1 
+13 1 -2 
+31 1 -2 
+Functions: 7
+80 2 0 38 
+8 2 0 5 
+59 2 32 51 
+75 3 -1 5 38 
+28 1 0 
+46 2 5 38 
+62 2 51 38 
+Constructors: 3
+8 0
+59 51
+46 38
+
+Summary: 6
+-1 32 0 38 -2 51 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ForeachStatement;)Lorg/eclipse/jdt/core/dom/Statement;
+PTG:
+Vars:
+5
+r0 1 -1 
+_ret 1 130 
+$r13 1 130 
+r5 1 -2 
+$r1 1 1 
+Fields: 1
+-1 ast 1
+Accesses: 8
+0 1 -1 
+48 1 -2 
+1 1 1 
+101 1 -2 
+38 1 -1 
+58 1 -2 
+107 1 -2 
+79 1 -2 
+Functions: 10
+128 3 -1 1 -2 
+98 0 
+70 2 -1 1 
+55 0 
+42 0 
+75 0 
+123 0 
+28 3 -1 1 -2 
+78 2 -1 1 
+47 2 -1 1 
+Constructors: 0
+
+Summary: 9
+86 62 -1 49 52 0 -2 72 80 
+org/eclipse/jdt/core/dom/ASTConverter.checkCanceled()V
+PTG:
+Vars:
+3
+$r2 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 monitor 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+23 0 
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.removeTrailingCommentFromExpressionEndingWithAParen(Lorg/eclipse/jdt/core/dom/ASTNode;)V
+PTG:
+Vars:
+6
+$r4 1 -1 
+$r2 1 6 
+r1 1 -1 
+$r3 2 63 6 
+r0 1 -2 
+$r5 1 6 
+Fields: 1
+-1 scanner 6
+Accesses: 4
+84 1 -1 
+5 1 -1 
+62 1 -1 
+63 2 6 63 
+Functions: 5
+0 1 -2 
+16 1 6 
+81 1 -2 
+85 1 6 
+11 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/CaseStatement;)Lorg/eclipse/jdt/core/dom/SwitchCase;
+PTG:
+Vars:
+7
+r1 1 -1 
+$r6 1 32 
+r5 1 16 
+_ret 1 0 
+$r0 1 0 
+r4 1 -2 
+$r2 1 5 
+Fields: 2
+-1 ast 5
+-2 constantExpression 16
+Accesses: 5
+4 1 -1 
+39 1 -2 
+43 1 -2 
+12 1 -2 
+47 1 -2 
+Functions: 6
+35 2 0 32 
+54 1 0 
+23 1 0 
+8 2 0 5 
+59 3 -1 0 5 
+30 3 -1 16 5 
+Constructors: 1
+8 0
+
+Summary: 5
+-1 16 32 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveProperRightBracketPosition(II)I
+PTG:
+Vars:
+4
+$r4 1 1 
+$r3 1 -1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 scanner 1
+Accesses: 4
+0 1 -1 
+5 1 -1 
+55 1 -1 
+45 1 -1 
+Functions: 2
+56 1 1 
+9 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.convertToVariableDeclarationExpression(Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;)Lorg/eclipse/jdt/core/dom/VariableDeclarationExpression;
+PTG:
+Vars:
+9
+r2 1 5 
+_ret 1 6 
+$r7 1 63 
+$r3 1 6 
+r1 1 -2 
+$r4 1 11 
+$r6 1 19 
+r8 1 69 
+r0 1 -1 
+Fields: 2
+-1 ast 11
+-2 type 63
+Accesses: 7
+82 1 -2 
+51 1 -2 
+10 1 -1 
+43 1 -2 
+29 1 -1 
+62 1 -2 
+47 1 -2 
+Functions: 10
+0 4 -1 -2 11 63 
+18 1 6 
+23 2 19 5 
+39 5 -1 -2 5 11 63 
+58 1 6 
+75 1 5 
+61 3 -1 11 63 
+93 5 -1 -2 6 11 63 
+14 2 6 11 
+79 4 -1 69 6 11 
+Constructors: 1
+14 6
+
+Summary: 7
+-1 5 19 63 69 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/FieldReference;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+12
+r0 1 -2 
+_ret 1 184 
+$r7 1 189 
+$r6 1 223 
+$r2 1 184 
+$r9 1 243 
+$r5 1 1 
+r26 1 217 
+$r4 1 189 
+r3 1 -1 
+$r1 1 1 
+$r8 1 238 
+Fields: 3
+-1 ast 189
+-2 receiver 1
+-2 token 243
+Accesses: 24
+0 1 -2 
+35 1 -2 
+227 1 -1 
+196 1 -1 
+165 1 -2 
+293 1 -1 
+262 1 -2 
+71 1 -2 
+105 1 -2 
+169 1 -2 
+14 1 -1 
+46 1 -2 
+144 1 -1 
+82 1 -1 
+210 1 -2 
+242 1 -2 
+115 1 -2 
+22 1 -1 
+312 1 -2 
+188 1 -1 
+252 1 -2 
+62 1 -1 
+158 1 -2 
+95 1 -2 
+Functions: 26
+192 2 184 189 
+1 1 1 
+323 1 184 
+136 0 
+75 2 -1 189 
+141 0 
+206 6 -1 -2 1 243 184 189 
+209 3 -1 1 189 
+18 0 
+86 0 
+154 5 -1 -2 1 243 189 
+220 2 184 217 
+284 1 223 
+32 5 -1 -2 1 243 189 
+290 2 184 223 
+99 0 
+102 0 
+231 2 189 223 
+45 2 -1 189 
+304 6 -1 -2 1 243 189 223 
+179 0 
+308 1 217 
+246 2 243 238 
+249 2 238 223 
+59 0 
+316 1 217 
+Constructors: 3
+192 184
+246 238
+231 223
+
+Summary: 11
+91 217 238 -1 1 78 56 96 -2 243 223 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ArrayReference;)Lorg/eclipse/jdt/core/dom/ArrayAccess;
+PTG:
+Vars:
+9
+r1 1 -1 
+_ret 1 0 
+$r5 1 47 
+$r7 1 59 
+$r8 1 62 
+$r6 1 50 
+$r2 1 5 
+r4 1 -2 
+$r0 1 0 
+Fields: 3
+-1 ast 5
+-2 position 59
+-2 receiver 47
+Accesses: 7
+34 1 -2 
+4 1 -1 
+26 1 -2 
+58 1 -2 
+12 1 -1 
+30 1 -2 
+46 1 -2 
+Functions: 7
+65 2 0 62 
+53 2 0 50 
+22 6 -1 0 -2 5 59 47 
+8 2 0 5 
+41 1 0 
+57 3 -1 5 59 
+45 3 -1 5 47 
+Constructors: 1
+8 0
+
+Summary: 7
+-1 47 59 50 0 -2 62 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveIdentifierEndPosition(II)I
+PTG:
+Vars:
+5
+$r4 1 -1 
+r0 1 -1 
+$r3 2 1 33 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 scanner 1
+Accesses: 3
+0 1 -1 
+32 1 -1 
+40 1 -1 
+Functions: 3
+33 2 1 33 
+6 1 1 
+41 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/DoStatement;)Lorg/eclipse/jdt/core/dom/DoStatement;
+PTG:
+Vars:
+9
+r4 1 -2 
+_ret 1 0 
+$r2 1 5 
+$r6 1 37 
+$r7 1 45 
+r1 1 -1 
+r8 1 51 
+$r0 1 0 
+$r5 1 34 
+Fields: 3
+-1 ast 5
+-2 action 45
+-2 condition 34
+Accesses: 6
+17 1 -2 
+33 1 -2 
+4 1 -1 
+21 1 -2 
+44 1 -2 
+13 1 -2 
+Functions: 6
+32 3 -1 34 5 
+8 2 0 5 
+40 2 0 37 
+43 3 -1 5 45 
+28 1 0 
+60 2 0 51 
+Constructors: 1
+8 0
+
+Summary: 7
+-1 45 51 37 34 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convertToType(Lorg/eclipse/jdt/internal/compiler/ast/NameReference;)Lorg/eclipse/jdt/core/dom/Type;
+PTG:
+Vars:
+6
+$r4 1 11 
+_ret 1 6 
+r1 1 -2 
+r0 1 -1 
+$r3 1 6 
+r2 1 5 
+Fields: 1
+-1 ast 11
+Accesses: 2
+35 1 -1 
+10 1 -1 
+Functions: 7
+0 3 -1 -2 11 
+32 1 6 
+20 2 5 6 
+24 1 5 
+28 1 5 
+45 4 -1 -2 6 11 
+14 2 6 11 
+Constructors: 1
+14 6
+
+Summary: 4
+-1 5 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveExtraDimension(II)I
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 -1 
+r0 1 -1 
+$r3 1 1 
+Fields: 1
+-1 scanner 1
+Accesses: 2
+0 1 -1 
+79 1 -1 
+Functions: 2
+80 1 1 
+6 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/IntLiteral;)Lorg/eclipse/jdt/core/dom/NumberLiteral;
+PTG:
+Vars:
+7
+$r3 1 22 
+_ret 1 17 
+$r1 1 17 
+r0 1 -2 
+$r6 1 37 
+r2 1 -1 
+$r5 1 32 
+Fields: 2
+-1 ast 22
+-1 compilationUnitSource 37
+Accesses: 6
+0 1 -2 
+48 1 -1 
+4 1 -2 
+36 1 -1 
+21 1 -1 
+12 1 -2 
+Functions: 6
+66 1 17 
+72 4 -1 17 37 22 
+25 2 17 22 
+42 2 32 37 
+59 5 -1 17 -2 37 22 
+45 2 32 17 
+Constructors: 2
+25 17
+42 32
+
+Summary: 3
+-1 32 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ConditionalExpression;)Lorg/eclipse/jdt/core/dom/ConditionalExpression;
+PTG:
+Vars:
+11
+_ret 1 0 
+$r10 1 74 
+$r0 1 0 
+$r2 1 5 
+$r5 1 47 
+$r7 1 59 
+$r6 1 50 
+r4 1 -2 
+r1 1 -1 
+$r9 1 71 
+$r8 1 62 
+Fields: 4
+-1 ast 5
+-2 condition 47
+-2 valueIfFalse 71
+-2 valueIfTrue 59
+Accesses: 8
+34 1 -2 
+4 1 -1 
+70 1 -2 
+26 1 -2 
+58 1 -2 
+12 1 -1 
+30 1 -2 
+46 1 -2 
+Functions: 9
+65 2 0 62 
+53 2 0 50 
+69 3 -1 5 71 
+22 7 -1 0 -2 5 71 59 47 
+8 2 0 5 
+41 1 0 
+57 3 -1 5 59 
+45 3 -1 5 47 
+77 2 0 74 
+Constructors: 1
+8 0
+
+Summary: 9
+-1 47 59 71 50 0 -2 62 74 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/PostfixExpression;)Lorg/eclipse/jdt/core/dom/PostfixExpression;
+PTG:
+Vars:
+9
+$r5 1 47 
+$r6 1 50 
+$r7 1 85 
+_ret 1 0 
+r4 1 -2 
+r1 1 -1 
+$r2 1 5 
+$r0 1 0 
+$r8 1 95 
+Fields: 2
+-1 ast 5
+-2 lhs 47
+Accesses: 7
+34 1 -2 
+4 1 -1 
+56 1 -2 
+26 1 -2 
+12 1 -1 
+30 1 -2 
+46 1 -2 
+Functions: 7
+98 2 0 95 
+53 2 0 50 
+22 5 -1 0 -2 5 47 
+8 2 0 5 
+88 2 0 85 
+41 1 0 
+45 3 -1 5 47 
+Constructors: 1
+8 0
+
+Summary: 5
+-1 47 50 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convertToAnnotationDeclaration(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)Lorg/eclipse/jdt/core/dom/AnnotationTypeDeclaration;
+PTG:
+Vars:
+10
+$r9 1 52 
+_ret 1 27 
+r0 1 -1 
+$r2 1 21 
+$r6 1 21 
+r4 1 -2 
+r3 1 27 
+$r1 1 5 
+$r5 1 34 
+$r8 1 47 
+Fields: 3
+-1 scanner 5
+-1 ast 21
+-2 name 52
+Accesses: 12
+66 1 -2 
+51 1 -2 
+4 1 -1 
+20 1 -1 
+5 1 5 
+38 1 -1 
+70 1 -2 
+86 1 -2 
+90 1 -2 
+62 1 -2 
+94 1 -2 
+110 1 -1 
+Functions: 13
+1 3 -1 5 21 
+130 1 27 
+101 1 27 
+42 2 34 21 
+107 6 -1 -2 52 5 21 27 
+77 1 34 
+82 2 34 27 
+21 1 21 
+55 2 52 47 
+120 6 -1 -2 52 5 21 27 
+58 2 34 47 
+126 6 -1 -2 34 52 5 21 
+31 6 -1 -2 52 5 21 27 
+Constructors: 2
+55 47
+42 34
+
+Summary: 6
+-1 47 34 52 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveEndOfElementTypeNamePosition(II)I
+PTG:
+Vars:
+4
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+$r4 1 -1 
+Fields: 1
+-1 scanner 1
+Accesses: 3
+0 1 -1 
+84 1 -1 
+94 1 -1 
+Functions: 2
+6 1 1 
+95 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.convertToSingleVariableDeclaration(Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;)Lorg/eclipse/jdt/core/dom/SingleVariableDeclaration;
+PTG:
+Vars:
+12
+$r8 1 31 
+$r9 1 36 
+$r10 1 81 
+$r6 1 5 
+$r5 1 18 
+_ret 1 0 
+$r0 1 0 
+$r2 1 5 
+r12 1 106 
+$r11 1 81 
+r1 1 -1 
+r4 1 -2 
+Fields: 3
+-1 ast 5
+-2 name 36
+-2 type 81
+Accesses: 12
+80 1 -2 
+144 1 -2 
+160 1 -1 
+81 1 81 
+35 1 -2 
+51 1 -2 
+99 1 -2 
+4 1 -1 
+22 1 -1 
+150 1 -2 
+45 1 -2 
+125 1 -2 
+Functions: 18
+98 3 -1 81 5 
+67 1 18 
+39 2 36 31 
+8 2 0 5 
+72 2 0 18 
+42 2 18 31 
+170 6 -1 -2 81 18 36 5 
+75 2 -1 5 
+108 1 106 
+140 4 -1 0 5 106 
+15 6 -1 0 -2 81 36 5 
+176 6 -1 0 -2 81 36 5 
+113 1 106 
+180 1 0 
+26 2 18 5 
+157 1 0 
+126 0 
+95 1 0 
+Constructors: 3
+39 31
+8 0
+26 18
+
+Summary: 8
+-1 81 18 31 36 0 -2 106 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/TypeDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r3 1 71 
+r2 1 -3 
+$r1 1 1 
+$r5 1 88 
+r4 1 -2 
+$r6 1 51 
+Fields: 4
+-1 scanner 71
+-1 ast 1
+-3 annotations 88
+-3 annotations 51
+Accesses: 9
+0 1 -1 
+1 1 1 
+50 1 -3 
+70 1 -1 
+87 1 -3 
+74 1 -3 
+91 1 -3 
+28 1 -3 
+78 1 -3 
+Functions: 5
+64 1 -2 
+82 1 71 
+58 1 -2 
+47 1 -2 
+95 5 -1 1 -2 71 88 
+Constructors: 0
+
+Summary: 7
+-1 51 1 -3 0 88 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convertType(Lorg/eclipse/jdt/internal/compiler/ast/TypeReference;)Lorg/eclipse/jdt/core/dom/Type;
+PTG:
+Vars:
+86
+r74 11 952 1473 1828 1883 748 360 459 1575 212 1216 682 
+$r38 1 873 
+$r58 1 459 
+$r47 1 773 
+$r62 1 212 
+$r13 1 1295 
+$r50 1 272 
+$r15 1 1306 
+$r52 1 272 
+$r10 1 1015 
+$r6 2 1833 873 
+r102 1 1302 
+$r1 1 -2 
+$r57 1 513 
+$r12 1 1283 
+r83 1 517 
+$r32 1 1054 
+r105 1 1774 
+$r31 1 1646 
+$r14 1 1298 
+$r36 1 -2 
+r82 1 487 
+r109 2 1958 1883 
+$r60 1 360 
+r75 1 158 
+r3 1 -1 
+$r41 1 618 
+$r28 1 1635 
+$r29 1 1638 
+$r33 1 873 
+$r97 1 1163 
+$r46 3 272 217 623 
+$r34 1 1069 
+r90 1 854 
+$r16 1 1395 
+_ret 11 952 1473 1828 1883 748 360 459 1575 212 1216 682 
+$r64 1 230 
+r91 1 861 
+$r23 1 1564 
+$r101 1 873 
+$r56 1 272 
+$r7 1 1958 
+$r37 1 952 
+$r20 1 1473 
+$r9 1 873 
+r87 2 773 748 
+$r27 1 1623 
+r92 1 907 
+r88 1 -2 
+$r45 1 623 
+$r8 1 1883 
+$r42 1 623 
+r103 3 1473 1575 1216 
+$r19 1 1418 
+$r21 2 873 1478 
+r93 1 950 
+$r35 1 1077 
+r30 1 1642 
+$r54 1 272 
+$r51 1 282 
+r106 1 1788 
+$r61 1 272 
+$r4 1 1828 
+$r39 1 -2 
+$r48 1 748 
+$r25 2 1580 873 
+$r2 1 -2 
+r107 1 1826 
+$r63 1 217 
+$r44 1 682 
+$r49 1 267 
+r89 1 847 
+$r100 1 1216 
+r77 1 -2 
+$r59 1 523 
+$r40 1 153 
+$r98 1 873 
+$r17 2 1400 873 
+$r5 1 1833 
+$r18 1 1410 
+r96 2 1161 1054 
+$r43 1 633 
+$r24 1 1575 
+$r53 1 424 
+r0 1 -2 
+$r55 1 459 
+Fields: 22
+-1 ast 873
+-1 ast 217
+-1 ast 272
+-1 ast 623
+-1 ast 1833
+854 ArrayObject 1564
+854 ArrayObject 1283
+854 ArrayObject 1623
+854 ArrayObject 1295
+854 ArrayObject 1635
+854 ArrayObject 1015
+487 ArrayObject 513
+153 ArrayObject 158
+847 ArrayObject 1077
+847 ArrayObject 1418
+-2 typeArguments 854
+-2 tokens 847
+-2 typeArguments 487
+-2 sourcePositions 861
+-2 sourcePositions 1788
+1295 ArrayObject 1298
+1635 ArrayObject 1638
+Accesses: 50
+271 1 -1 
+1167 1 -1 
+16 1 -1 
+407 1 -1 
+1431 1 1395 
+160 1 -2 
+1058 1 -1 
+1572 1 1473 
+165 1 -2 
+1832 1 -1 
+169 1 -2 
+810 1 -1 
+1579 1 -1 
+428 1 -1 
+686 1 -1 
+956 1 -1 
+1599 1 1575 
+1727 1 1473 
+1602 1 -1 
+1858 1 -2 
+1220 1 -1 
+1349 1 1216 
+1477 1 -1 
+842 1 -2 
+331 1 -1 
+1995 1 -1 
+332 1 272 
+1741 1 -1 
+463 1 -1 
+719 1 -1 
+849 1 -2 
+1873 1 -1 
+594 1 -1 
+1236 1 -1 
+216 1 -1 
+856 1 -2 
+1500 1 -1 
+1884 1 -1 
+482 1 -2 
+738 1 -1 
+1126 1 1054 
+872 1 -1 
+873 1 873 
+364 1 -1 
+1133 1 -1 
+622 1 -1 
+1905 1 -1 
+114 1 -1 
+1782 1 -2 
+1399 1 -1 
+Functions: 126
+771 2 773 748 
+520 1 459 
+1290 7 -1 272 1298 873 217 1833 623 
+781 6 -1 272 873 217 1833 623 
+528 2 517 523 
+1554 1 1473 
+275 2 272 267 
+20 0 
+534 1 517 
+1304 1 1216 
+1817 24 -1 -2 513 1283 1635 1638 487 873 1833 1418 1774 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+539 1 517 
+31 6 -1 272 873 217 1833 623 
+799 2 773 748 
+1311 2 1302 1306 
+288 2 282 158 
+291 2 282 267 
+1317 1 1302 
+294 6 -1 272 873 217 1833 623 
+1062 2 873 1054 
+1322 1 1302 
+1836 2 1828 1833 
+559 6 -1 272 873 217 1833 623 
+1583 3 1575 873 1580 
+1845 2 1826 1828 
+1078 2 1077 1069 
+823 24 -1 -2 513 1283 1635 1638 487 873 1833 1418 748 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+1592 2 1473 1575 
+57 0 
+1081 2 1069 1054 
+1087 7 -1 272 873 217 1833 1054 623 
+1855 1 1828 
+577 1 459 
+69 0 
+328 1 267 
+1352 6 -1 272 873 217 1833 623 
+74 0 
+1613 24 -1 -2 513 1283 1635 1638 1575 487 873 1833 1418 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+591 1 459 
+1874 13 1216 1473 1828 1575 360 1833 873 682 459 748 212 952 1883 
+83 0 
+605 24 -1 -2 513 1283 1635 1638 487 873 1833 1418 267 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+1630 7 -1 272 1638 873 217 1833 623 
+1120 1 1054 
+1379 1 1216 
+612 24 -1 -2 513 1283 1635 1638 487 424 873 1833 1418 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+1897 24 -1 -2 513 1283 1635 1638 487 873 1833 1418 623 847 1295 272 1298 1077 854 1623 1015 217 1883 1788 1564 861 
+1644 1 1575 
+1900 6 -1 272 873 217 1833 623 
+111 0 
+368 2 272 360 
+626 2 618 623 
+1651 2 1642 1646 
+1144 24 -1 -2 513 1283 1635 1638 487 873 1833 1418 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 1054 
+377 2 360 267 
+1657 1 1642 
+1403 3 1395 1400 873 
+124 23 -1 -2 513 1283 1635 1638 487 873 1833 1418 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+382 1 360 
+1150 23 -1 -2 513 1283 1635 1638 487 873 1833 1418 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+1662 1 1642 
+639 2 633 158 
+642 2 633 618 
+389 1 360 
+645 6 -1 272 873 217 1833 623 
+901 17 -2 513 1283 1635 1638 487 1418 847 1295 1298 1077 854 1623 1015 1788 1564 861 
+136 17 -2 513 1283 1635 1638 487 1418 847 1295 1298 1077 854 1623 1015 1788 1564 861 
+1928 11 1216 1473 1828 212 1575 952 360 682 1883 459 748 
+1419 2 1410 1418 
+1422 2 1410 1395 
+401 1 360 
+1682 6 -1 272 873 217 1833 623 
+1938 11 1216 1473 1828 212 1575 952 360 682 1883 459 748 
+1171 2 873 1163 
+150 17 -2 513 1283 1635 1638 487 1418 847 1295 1298 1077 854 1623 1015 1788 1564 861 
+1180 3 1161 1163 1054 
+418 24 -1 -2 513 1283 1635 1638 487 873 1833 1418 267 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+1956 2 1958 1883 
+679 1 618 
+941 24 -1 -2 513 1283 1635 1638 487 873 1833 1418 907 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+1709 1 1575 
+1966 6 -1 272 873 217 1833 623 
+432 2 272 424 
+178 7 -1 272 873 217 1833 158 623 
+690 2 682 623 
+1464 1 1395 
+441 2 424 267 
+187 6 -1 272 873 217 1833 623 
+699 2 682 618 
+1213 1 1163 
+446 1 267 
+1470 7 -1 272 1395 873 217 1833 623 
+960 2 952 873 
+1984 2 1958 1883 
+451 1 267 
+456 1 424 
+1224 2 1216 873 
+713 1 682 
+969 2 950 952 
+1481 3 1473 1478 873 
+977 1 952 
+1233 2 1216 1163 
+1490 3 1216 1473 1575 
+467 2 272 459 
+2005 34 -1 1216 1473 -2 513 1283 1418 459 847 1295 272 1298 212 854 1623 217 1883 1564 861 1635 1828 1638 1575 487 360 873 1833 682 748 623 1077 1015 952 1788 
+1752 26 -1 1216 1473 -2 513 1283 1418 847 1295 272 1298 854 1623 217 1564 861 1635 1638 1575 487 873 1833 623 1077 1015 1788 
+1497 2 1473 1395 
+730 24 -1 -2 513 1283 1635 1638 487 873 1833 618 1418 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+220 2 212 217 
+476 2 424 459 
+1247 24 -1 -2 513 1283 1635 1638 487 873 1833 1418 1163 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+227 7 -1 272 873 217 1833 158 623 
+739 14 1216 1473 1828 1575 360 682 459 748 623 272 212 952 217 1883 
+1254 24 -1 1216 -2 513 1283 1635 1638 487 873 1833 1418 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+1511 24 -1 -2 513 1283 1635 1638 487 873 1833 1418 623 847 1295 272 1298 1395 1077 854 1623 1015 217 1788 1564 861 
+1768 17 -2 513 1283 1635 1638 487 1418 847 1295 1298 1077 854 1623 1015 1788 1564 861 
+233 2 212 230 
+1257 1 1163 
+1518 24 -1 1473 -2 513 1283 1635 1638 487 873 1833 1418 623 847 1295 272 1298 1077 854 1623 1015 217 1788 1564 861 
+753 11 1216 1473 1828 212 1575 952 360 682 1883 459 748 
+1521 3 1216 1473 1575 
+1266 1 1163 
+245 1 212 
+1528 1 1395 
+508 7 -1 272 513 873 217 1833 623 
+1533 1 1395 
+Constructors: 19
+288 282
+960 952
+1062 1054
+1224 1216
+1481 1473
+1419 1410
+1836 1828
+1583 1575
+368 360
+432 424
+626 618
+690 682
+275 267
+467 459
+1171 1163
+1078 1069
+1403 1395
+220 212
+639 633
+
+Summary: 36
+1958 1161 1054 -1 1395 773 487 517 907 1826 1302 523 861 633 158 424 1163 618 1410 267 1306 1283 1788 854 25 950 1642 0 39 153 230 282 1646 1069 1774 -2 
+org/eclipse/jdt/core/dom/ASTConverter.lookupScope(Lorg/eclipse/jdt/core/dom/ASTNode;)Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;
+PTG:
+Vars:
+10
+r18 2 9 -2 
+r0 1 -2 
+$r4 1 234 
+_ret 1 242 
+$r5 1 242 
+r26 1 234 
+$r3 1 230 
+r1 1 -1 
+r17 3 9 67 -2 
+$r2 1 227 
+Fields: 2
+-1 ast 227
+234 scope 242
+Accesses: 5
+96 1 -1 
+161 1 -1 
+241 1 234 
+226 1 -1 
+206 1 -1 
+Functions: 13
+97 0 
+162 0 
+227 1 227 
+100 3 -2 67 9 
+5 3 -2 67 9 
+165 3 -2 67 9 
+230 4 -2 67 230 9 
+207 0 
+112 2 -2 9 
+177 0 
+210 3 -2 67 9 
+149 3 -2 67 9 
+63 3 -2 67 9 
+Constructors: 0
+
+Summary: 13
+67 153 165 169 -1 9 214 230 234 210 100 104 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert([Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;)Lorg/eclipse/jdt/core/dom/TypeDeclaration;
+PTG:
+Vars:
+31
+$r27 1 229 
+$r7 1 279 
+$r8 1 285 
+r1 1 -1 
+r31 1 318 
+$r22 1 117 
+$r16 1 216 
+r25 1 30 
+$r19 1 65 
+$r18 2 5 52 
+$r10 1 168 
+$r9 1 156 
+r5 1 30 
+$r14 1 198 
+r23 1 30 
+r30 1 30 
+r29 1 30 
+$r21 1 108 
+$r12 1 184 
+$r0 1 0 
+$r11 1 168 
+_ret 1 0 
+$r15 1 210 
+$r20 1 68 
+r26 1 198 
+$r28 1 235 
+r4 1 -2 
+$r13 1 188 
+$r2 1 5 
+$r17 1 47 
+$r6 1 339 
+Fields: 6
+-1 ast 5
+30 javadoc 108
+30 block 65
+-2 ArrayObject 156
+-2 ArrayObject 168
+-2 ArrayObject 30
+Accesses: 9
+51 1 -1 
+4 1 -1 
+84 1 30 
+89 1 30 
+169 1 168 
+106 1 30 
+94 1 30 
+63 1 30 
+175 1 30 
+Functions: 30
+262 3 65 108 30 
+326 1 0 
+71 2 68 47 
+8 2 0 5 
+332 1 0 
+14 1 0 
+270 3 65 108 30 
+79 6 -1 65 5 108 30 47 
+208 1 198 
+338 1 0 
+213 5 -1 65 5 108 30 
+278 1 0 
+344 2 339 318 
+282 5 -1 65 5 108 30 
+219 2 210 216 
+288 2 279 285 
+228 1 0 
+102 1 47 
+232 5 -1 65 5 108 30 
+238 2 229 235 
+113 4 -1 5 108 47 
+116 1 0 
+55 3 52 5 47 
+183 1 0 
+184 1 184 
+312 5 -1 65 5 108 30 
+122 2 117 47 
+187 1 0 
+188 1 188 
+62 3 -1 65 5 
+Constructors: 2
+55 47
+8 0
+
+Summary: 17
+188 229 285 -1 210 0 68 279 47 184 216 339 198 318 117 235 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/QualifiedThisReference;)Lorg/eclipse/jdt/core/dom/ThisExpression;
+PTG:
+Vars:
+7
+r4 1 -2 
+_ret 1 0 
+$r2 1 5 
+$r6 1 37 
+r1 1 -1 
+$r0 1 0 
+$r5 1 34 
+Fields: 2
+-1 ast 5
+-2 qualification 34
+Accesses: 6
+17 1 -2 
+33 1 -2 
+4 1 -1 
+21 1 -2 
+43 1 -1 
+13 1 -2 
+Functions: 6
+32 3 -1 34 5 
+53 5 -1 0 -2 34 5 
+8 2 0 5 
+40 2 0 37 
+58 3 -1 0 5 
+28 1 0 
+Constructors: 1
+8 0
+
+Summary: 5
+-1 37 34 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convertToVariableDeclarationStatement(Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;)Lorg/eclipse/jdt/core/dom/VariableDeclarationStatement;
+PTG:
+Vars:
+9
+_ret 1 6 
+r2 1 5 
+r0 1 -1 
+$r7 1 63 
+r8 1 69 
+$r3 1 6 
+$r4 1 11 
+r1 1 -2 
+$r6 1 19 
+Fields: 2
+-1 ast 11
+-2 type 63
+Accesses: 7
+82 1 -2 
+51 1 -2 
+10 1 -1 
+43 1 -2 
+29 1 -1 
+62 1 -2 
+47 1 -2 
+Functions: 10
+0 4 -1 -2 11 63 
+18 1 6 
+23 2 19 5 
+39 5 -1 -2 5 11 63 
+58 1 6 
+75 1 5 
+61 3 -1 11 63 
+93 5 -1 -2 6 11 63 
+14 2 6 11 
+79 4 -1 69 6 11 
+Constructors: 1
+14 6
+
+Summary: 7
+-1 5 19 63 69 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/EqualExpression;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+11
+$r0 1 0 
+r1 1 -1 
+$r2 1 5 
+$r10 1 109 
+r4 1 -2 
+_ret 1 0 
+$r7 1 42 
+r6 1 33 
+$r9 1 119 
+$r5 1 27 
+$r8 1 45 
+Fields: 3
+-1 ast 5
+-2 left 27
+-2 right 42
+Accesses: 6
+4 1 -1 
+72 1 -2 
+41 1 -2 
+26 1 -2 
+12 1 -1 
+60 1 -2 
+Functions: 10
+48 2 0 45 
+112 2 0 109 
+51 1 33 
+36 2 0 33 
+69 1 0 
+22 6 -1 0 -2 5 42 27 
+8 2 0 5 
+40 3 -1 5 42 
+25 3 -1 5 27 
+122 2 0 119 
+Constructors: 1
+8 0
+
+Summary: 6
+-1 45 27 33 42 -2 
+org/eclipse/jdt/core/dom/ASTConverter.<init>(Ljava/util/Map;ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+7
+r1 1 -2 
+$r5 1 63 
+r4 1 -4 
+r2 1 17 
+$r3 1 39 
+$r6 1 68 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+6 1 -1 
+54 1 -1 
+59 1 -1 
+76 1 -1 
+Functions: 6
+1 1 -1 
+65 1 -2 
+19 1 17 
+51 1 39 
+9 1 -2 
+63 2 68 63 
+Constructors: 2
+1 -1
+51 39
+
+Summary: 6
+-1 2 17 0 -2 68 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveRightBrace(II)I
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+$r4 1 -1 
+Fields: 1
+-1 scanner 1
+Accesses: 3
+0 1 -1 
+32 1 -1 
+42 1 -1 
+Functions: 2
+6 1 1 
+43 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveRightBracketPosition(II)I
+PTG:
+Vars:
+4
+$r4 1 1 
+r0 1 -1 
+$r3 1 -1 
+$r1 1 1 
+Fields: 1
+-1 scanner 1
+Accesses: 3
+0 1 -1 
+68 1 -1 
+58 1 -1 
+Functions: 2
+69 1 1 
+6 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveEndOfRightParenthesisPosition(II)I
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r4 1 -1 
+$r2 1 1 
+Fields: 1
+-1 scanner 1
+Accesses: 3
+0 1 -1 
+32 1 -1 
+40 1 -1 
+Functions: 2
+6 1 1 
+41 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/EnumDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)V
+PTG:
+Vars:
+5
+$r4 1 18 
+r1 1 -3 
+r0 1 -1 
+$r2 1 1 
+r3 1 -2 
+Fields: 2
+-1 scanner 1
+-3 annotations 18
+Accesses: 5
+0 1 -1 
+17 1 -3 
+4 1 -3 
+21 1 -3 
+8 1 -3 
+Functions: 2
+25 4 -1 1 -2 18 
+12 1 1 
+Constructors: 0
+
+Summary: 6
+-1 1 -3 18 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.buildBodyDeclarations(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/core/dom/AnonymousClassDeclaration;)V
+PTG:
+Vars:
+16
+r5 1 309 
+r1 1 4 
+$r8 1 282 
+r0 1 -2 
+$r12 1 232 
+$r9 1 288 
+r3 1 15 
+r14 1 131 
+r6 1 -3 
+$r7 1 330 
+r4 1 -1 
+r13 1 97 
+r15 1 164 
+r2 1 9 
+$r10 1 250 
+$r11 1 226 
+Fields: 6
+9 ArrayObject 97
+15 ArrayObject 131
+4 ArrayObject 164
+-2 methods 15
+-2 memberTypes 4
+-2 fields 9
+Accesses: 9
+0 1 -2 
+176 1 164 
+99 1 97 
+5 1 -2 
+133 1 131 
+166 1 164 
+11 1 -2 
+109 1 97 
+143 1 131 
+Functions: 16
+225 1 -3 
+291 2 288 282 
+323 1 -3 
+229 2 -1 97 
+265 1 131 
+329 1 -3 
+235 2 226 232 
+303 2 -1 164 
+335 2 309 330 
+273 1 131 
+216 1 97 
+249 1 -3 
+281 1 -3 
+253 4 -1 97 9 250 
+285 2 -1 131 
+317 1 -3 
+Constructors: 0
+
+Summary: 15
+15 232 1 288 -3 309 -1 9 226 250 282 4 330 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.adjustSourcePositionsForParent(Lorg/eclipse/jdt/internal/compiler/ast/Expression;)V
+PTG:
+Vars:
+8
+r0 1 -2 
+$r2 1 17 
+$r7 1 -1 
+$r3 1 17 
+$r4 1 17 
+$r6 1 17 
+r1 1 -1 
+$r5 1 17 
+Fields: 1
+-1 scanner 17
+Accesses: 11
+0 1 -2 
+16 1 -1 
+35 1 -1 
+36 1 17 
+100 1 -1 
+116 1 -1 
+5 1 -2 
+117 1 17 
+25 1 -1 
+42 1 -2 
+125 1 -2 
+Functions: 3
+32 1 17 
+101 1 17 
+22 1 17 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.lookupForScopes()V
+PTG:
+Vars:
+17
+$r7 1 95 
+$r8 1 1 
+r15 1 71 
+$r4 1 76 
+$r12 1 40 
+$r1 1 1 
+$r9 1 21 
+$r2 1 56 
+r0 1 -1 
+r16 1 76 
+$r3 1 56 
+$r5 2 31 86 
+$r11 1 34 
+r13 1 16 
+$r6 1 89 
+r14 1 21 
+$r10 1 31 
+Fields: 4
+-1 ast 86
+-1 ast 31
+-1 pendingNameScopeResolution 1
+-1 pendingThisExpressionScopeResolution 56
+Accesses: 6
+0 1 -1 
+85 1 -1 
+7 1 -1 
+55 1 -1 
+30 1 -1 
+62 1 -1 
+Functions: 12
+98 3 89 76 95 
+20 1 16 
+101 1 71 
+38 6 -1 1 21 86 56 31 
+86 2 86 31 
+8 1 1 
+43 3 34 21 40 
+75 1 71 
+93 6 -1 1 86 56 76 31 
+46 1 16 
+31 1 31 
+63 1 56 
+Constructors: 0
+
+Summary: 7
+95 34 -1 21 89 40 76 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveEndOfDimensionsPosition(II)I
+PTG:
+Vars:
+5
+$r2 2 1 72 
+$r3 1 -1 
+$r1 1 1 
+$r4 1 1 
+r0 1 -1 
+Fields: 1
+-1 scanner 1
+Accesses: 4
+0 1 -1 
+86 1 -1 
+71 1 -1 
+72 2 1 72 
+Functions: 2
+6 1 1 
+87 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.setTypeForMethodDeclaration(Lorg/eclipse/jdt/core/dom/MethodDeclaration;Lorg/eclipse/jdt/core/dom/Type;I)V
+PTG:
+Vars:
+15
+$r13 1 180 
+$r7 1 180 
+r0 1 -1 
+r5 1 -3 
+r2 1 -2 
+$r10 1 46 
+$r6 1 124 
+r12 2 -3 124 
+$r4 1 240 
+$r9 1 49 
+$r14 1 227 
+$r8 1 46 
+$r1 1 285 
+r3 1 -3 
+r11 1 36 
+Fields: 4
+-1 ast 180
+-1 ast 46
+-1 ast 240
+-1 ast 285
+Accesses: 10
+240 1 240 
+179 1 -1 
+180 1 180 
+58 1 -1 
+59 1 46 
+284 1 -1 
+45 1 -1 
+285 1 285 
+223 1 -1 
+239 1 -1 
+Functions: 22
+224 1 180 
+161 2 -3 124 
+322 2 -2 -3 
+4 1 -3 
+100 2 -2 36 
+168 2 -3 124 
+233 3 -3 227 124 
+42 1 36 
+106 1 -3 
+140 5 -1 240 180 285 46 
+46 1 46 
+270 2 -2 -3 
+176 7 -1 240 -3 180 124 285 46 
+17 1 -3 
+211 3 -2 -3 124 
+278 2 -2 -3 
+55 3 49 -3 36 
+122 2 -3 124 
+314 2 -2 -3 
+91 2 -2 36 
+220 3 -2 -3 124 
+31 1 -3 
+Constructors: 0
+
+Summary: 8
+1 -1 49 227 36 0 -2 124 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ArrayAllocationExpression;)Lorg/eclipse/jdt/core/dom/ArrayCreation;
+PTG:
+Vars:
+22
+$r12 1 218 
+$r6 1 62 
+$r11 1 5 
+$r15 1 301 
+$r8 1 94 
+r5 1 48 
+$r9 1 89 
+$r13 1 262 
+_ret 1 0 
+$r2 1 5 
+$r16 1 313 
+$r7 1 70 
+r21 2 218 262 
+$r14 1 301 
+r18 1 74 
+r20 2 174 123 
+$r0 1 0 
+r19 1 123 
+$r17 1 117 
+$r10 1 117 
+r1 1 -1 
+r4 1 -2 
+Fields: 7
+-1 ast 5
+48 ArrayObject 89
+48 ArrayObject 62
+48 ArrayObject 70
+-2 dimensions 48
+-2 type 117
+-2 initializer 301
+Accesses: 16
+34 1 -2 
+163 1 -1 
+4 1 -1 
+135 1 -2 
+12 1 -1 
+44 1 -2 
+76 1 -1 
+300 1 -2 
+237 1 -1 
+176 1 -1 
+116 1 -2 
+309 1 -2 
+26 1 -2 
+125 1 -1 
+30 1 -2 
+286 1 -1 
+Functions: 23
+257 2 262 218 
+66 3 -1 5 70 
+99 2 74 94 
+164 2 5 123 
+260 2 262 218 
+197 1 123 
+8 2 0 5 
+232 2 -1 5 
+41 1 0 
+297 11 -1 48 -2 5 117 70 89 123 301 174 62 
+202 1 123 
+139 4 -1 5 117 123 
+145 1 123 
+115 3 -1 5 117 
+308 3 -1 5 301 
+22 10 -1 0 48 -2 5 117 70 89 301 62 
+216 1 123 
+90 4 -1 5 89 74 
+187 11 -1 48 -2 5 117 70 89 123 301 174 62 
+283 3 0 123 174 
+316 2 0 313 
+93 1 0 
+190 1 123 
+Constructors: 1
+8 0
+
+Summary: 13
+123 94 74 301 313 -1 174 218 262 117 48 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/LongLiteralMinValue;)Lorg/eclipse/jdt/core/dom/NumberLiteral;
+PTG:
+Vars:
+7
+_ret 1 17 
+$r3 1 22 
+$r5 1 32 
+r2 1 -1 
+r0 1 -2 
+$r1 1 17 
+$r6 1 37 
+Fields: 2
+-1 ast 22
+-1 compilationUnitSource 37
+Accesses: 6
+0 1 -2 
+48 1 -1 
+4 1 -2 
+36 1 -1 
+21 1 -1 
+12 1 -2 
+Functions: 6
+66 1 17 
+72 4 -1 17 37 22 
+25 2 17 22 
+42 2 32 37 
+59 5 -1 17 -2 37 22 
+45 2 32 17 
+Constructors: 2
+25 17
+42 32
+
+Summary: 3
+-1 32 -2 
+org/eclipse/jdt/core/dom/ASTConverter.buildBodyDeclarations(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/core/dom/EnumDeclaration;)V
+PTG:
+Vars:
+17
+r1 1 4 
+$r11 1 226 
+r4 1 -3 
+$r8 1 282 
+r14 1 97 
+$r9 1 288 
+$r5 1 304 
+r6 1 -1 
+r15 1 131 
+$r7 1 310 
+r0 1 -2 
+r2 1 9 
+r16 1 164 
+$r10 1 250 
+$r13 1 342 
+$r12 1 232 
+r3 1 15 
+Fields: 7
+9 ArrayObject 97
+15 ArrayObject 131
+4 ArrayObject 164
+-2 javadoc 342
+-2 methods 15
+-2 memberTypes 4
+-2 fields 9
+Accesses: 10
+0 1 -2 
+176 1 164 
+99 1 97 
+5 1 -2 
+133 1 131 
+341 1 -2 
+166 1 164 
+11 1 -2 
+109 1 97 
+143 1 131 
+Functions: 15
+225 1 -3 
+291 2 288 282 
+229 2 -1 97 
+265 1 131 
+235 2 226 232 
+303 1 -3 
+273 1 131 
+307 2 -1 164 
+216 1 97 
+249 1 -3 
+281 1 -3 
+313 2 304 310 
+346 3 -1 -3 342 
+253 4 -1 97 9 250 
+285 2 -1 131 
+Constructors: 0
+
+Summary: 16
+15 232 304 1 288 -3 -1 9 226 250 310 282 4 342 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/CastExpression;)Lorg/eclipse/jdt/core/dom/CastExpression;
+PTG:
+Vars:
+12
+r4 1 -2 
+_ret 1 0 
+$r7 1 76 
+$r11 1 88 
+r1 1 -1 
+$r8 1 35 
+$r9 1 54 
+$r10 1 85 
+r5 1 35 
+$r6 1 35 
+$r2 1 5 
+$r0 1 0 
+Fields: 3
+-1 ast 5
+-2 expression 85
+-2 type 35
+Accesses: 7
+17 1 -2 
+4 1 -1 
+84 1 -2 
+21 1 -2 
+13 1 -2 
+94 1 -1 
+31 1 -2 
+Functions: 10
+49 3 -1 35 5 
+83 3 -1 5 85 
+38 3 -1 35 5 
+71 3 -1 35 5 
+8 2 0 5 
+104 6 -1 0 -2 35 5 85 
+57 2 0 54 
+91 2 0 88 
+28 1 0 
+79 2 0 76 
+Constructors: 1
+8 0
+
+Summary: 8
+-1 35 85 54 0 88 -2 76 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/AllocationExpression;)Lorg/eclipse/jdt/core/dom/ClassInstanceCreation;
+PTG:
+Vars:
+21
+$r5 1 26 
+$r0 1 0 
+$r7 1 165 
+$r2 1 5 
+$r15 1 86 
+$r18 1 96 
+r20 1 194 
+$r9 1 217 
+r4 1 -2 
+$r13 1 5 
+$r16 2 91 26 
+$r11 1 147 
+r1 1 -1 
+$r8 1 210 
+_ret 1 0 
+$r17 1 95 
+$r14 1 26 
+$r19 1 5 
+$r10 1 218 
+$r12 1 150 
+$r6 1 162 
+Fields: 8
+-1 ast 5
+194 ArrayObject 217
+91 ArrayObject 95
+26 ArrayObject 95
+-2 arguments 194
+-2 typeArguments 26
+-2 type 162
+-2 type 147
+Accesses: 15
+32 1 -1 
+33 1 5 
+161 1 -2 
+4 1 -1 
+75 1 -2 
+12 1 -1 
+172 1 -2 
+176 1 -2 
+114 1 -1 
+146 1 -2 
+115 1 5 
+180 1 -2 
+25 1 -2 
+90 1 -2 
+190 1 -2 
+Functions: 16
+160 3 -1 162 5 
+67 1 0 
+99 2 96 86 
+8 2 0 5 
+168 2 0 165 
+239 3 -1 0 5 
+145 3 -1 147 5 
+209 1 0 
+85 1 0 
+213 3 -1 5 217 
+22 10 -1 0 -2 194 162 147 5 217 26 95 
+89 3 -1 5 95 
+153 2 0 150 
+187 1 0 
+61 1 0 
+221 2 210 218 
+Constructors: 1
+8 0
+
+Summary: 13
+147 165 26 86 -1 150 162 218 194 210 0 96 -2 
+org/eclipse/jdt/core/dom/ASTConverter.createComment([I)Lorg/eclipse/jdt/core/dom/Comment;
+PTG:
+Vars:
+17
+$r8 1 58 
+$r1 1 122 
+r15 5 122 83 25 68 104 
+$r3 1 127 
+$r10 1 88 
+$r7 1 55 
+_ret 5 122 83 25 68 104 
+r14 1 25 
+$r6 1 52 
+$r13 1 18 
+$r5 1 109 
+$r4 1 104 
+$r12 1 73 
+r2 1 -1 
+$r11 1 68 
+r0 1 -2 
+$r9 1 83 
+Fields: 8
+-1 docParser 52
+-1 docParser 18
+-1 ast 88
+-1 ast 73
+-1 ast 127
+-1 ast 109
+55 source 58
+52 scanner 55
+Accesses: 8
+17 1 -1 
+51 1 -1 
+52 1 52 
+55 1 55 
+87 1 -1 
+72 1 -1 
+108 1 -1 
+126 1 -1 
+Functions: 6
+112 2 104 109 
+18 2 -2 18 
+130 2 122 127 
+91 2 83 88 
+76 2 68 73 
+140 5 83 68 104 25 122 
+Constructors: 4
+112 104
+130 122
+91 83
+76 68
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/core/dom/ASTConverter.recordNodes(Lorg/eclipse/jdt/internal/compiler/ast/Javadoc;Lorg/eclipse/jdt/core/dom/TagElement;)V
+PTG:
+Vars:
+56
+r5 1 -2 
+$r17 1 528 
+$r31 1 305 
+r40 1 14 
+r51 1 373 
+$r11 1 455 
+$r32 1 305 
+r22 1 589 
+$r36 1 172 
+$r19 1 569 
+r44 1 111 
+$r1 1 1 
+r6 1 -1 
+r0 1 -3 
+r13 1 455 
+$r28 1 493 
+r54 1 439 
+$r26 1 550 
+$r7 1 14 
+$r29 1 405 
+r12 1 455 
+r50 2 339 373 
+$r27 1 556 
+$r30 1 414 
+$r33 2 248 215 
+r2 1 9 
+r4 1 14 
+$r35 1 86 
+$r23 1 589 
+$r3 1 14 
+$r8 1 14 
+r46 1 14 
+$r9 1 215 
+r45 1 147 
+$r18 1 538 
+r55 1 663 
+$r16 1 502 
+r49 1 305 
+r47 1 205 
+r42 1 61 
+$r48 2 274 215 
+r15 1 499 
+$r52 1 424 
+$r37 1 61 
+$r14 1 493 
+$r10 1 439 
+r43 2 147 111 
+$r25 1 550 
+r41 1 46 
+$r34 2 260 215 
+$r24 1 613 
+$r38 1 61 
+r53 1 432 
+$r21 1 580 
+$r39 1 -1 
+$r20 1 580 
+Fields: 8
+-1 scanner 215
+-1 ast 502
+61 receiver 111
+61 receiver 147
+493 type 499
+455 argument 493
+305 type 339
+305 receiver 373
+Accesses: 14
+514 1 455 
+259 1 -1 
+105 1 61 
+491 1 455 
+141 1 61 
+333 1 305 
+493 1 493 
+367 1 305 
+273 1 -1 
+501 1 -1 
+214 1 -1 
+502 1 502 
+247 1 -1 
+248 2 215 248 
+Functions: 59
+0 1 -3 
+1 1 1 
+260 2 260 215 
+516 2 499 493 
+644 1 14 
+522 1 439 
+395 7 -1 305 339 373 502 215 205 
+13 1 9 
+526 1 439 
+654 1 -2 
+655 1 14 
+274 2 274 215 
+403 1 14 
+533 5 -1 528 499 502 215 
+24 1 14 
+536 1 439 
+538 1 538 
+412 1 14 
+673 5 -1 502 215 663 14 
+419 6 -1 339 373 502 215 414 
+548 1 439 
+422 1 14 
+679 1 14 
+424 1 424 
+41 1 14 
+553 1 550 
+170 1 14 
+299 1 -2 
+48 1 46 
+177 6 -1 147 502 215 172 111 
+561 5 -1 499 502 215 556 
+437 1 432 
+55 1 -2 
+183 1 14 
+567 1 439 
+696 5 -1 -2 502 215 14 
+569 1 569 
+699 1 9 
+317 7 -1 305 339 373 502 215 14 
+449 1 -2 
+450 1 439 
+578 1 439 
+583 1 580 
+200 1 14 
+73 7 -1 147 502 215 61 46 111 
+207 1 14 
+81 7 -1 147 502 215 61 14 111 
+84 1 14 
+596 5 -1 499 502 215 589 
+599 1 589 
+473 7 -1 499 502 215 439 455 493 
+222 1 205 
+351 7 -1 305 339 373 502 215 205 
+610 1 589 
+228 1 205 
+234 1 215 
+618 5 -1 499 613 502 215 
+621 1 432 
+634 1 14 
+Constructors: 0
+
+Summary: 29
+172 405 373 147 493 -3 205 663 -1 1 9 528 455 0 613 538 1 111 46 86 432 424 305 339 556 61 569 -2 414 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/Annotation;)Lorg/eclipse/jdt/core/dom/Annotation;
+PTG:
+Vars:
+5
+_ret 1 37 
+$r3 1 37 
+r0 1 -2 
+$r2 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+32 2 -1 -2 
+7 1 -1 
+23 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ExplicitConstructorCall;)Lorg/eclipse/jdt/core/dom/Statement;
+PTG:
+Vars:
+34
+r33 1 235 
+r2 1 -1 
+r31 2 19 218 
+$r16 1 46 
+$r4 1 33 
+$r6 1 24 
+$r23 2 367 284 
+$r27 1 263 
+$r3 1 24 
+$r25 1 373 
+$r20 1 223 
+$r15 1 33 
+$r8 1 182 
+$r14 1 85 
+$r17 1 218 
+$r21 1 284 
+$r13 1 84 
+$r24 1 372 
+$r5 1 105 
+$r19 1 284 
+$r34 1 393 
+r0 1 -2 
+$r12 1 76 
+$r22 1 362 
+_ret 2 19 218 
+$r11 1 193 
+$r9 2 105 187 
+$r10 1 192 
+$r18 1 223 
+$r1 1 19 
+r30 1 56 
+$r7 1 105 
+$r26 1 255 
+$r28 1 264 
+Fields: 14
+-1 ast 223
+-1 ast 24
+367 ArrayObject 372
+105 ArrayObject 192
+284 ArrayObject 372
+187 ArrayObject 192
+56 ArrayObject 84
+235 ArrayObject 263
+-2 arguments 56
+-2 arguments 235
+-2 typeArguments 105
+-2 typeArguments 284
+-2 qualification 393
+-2 qualification 33
+Accesses: 24
+0 1 -2 
+32 1 -2 
+416 1 -2 
+291 1 -2 
+231 1 -2 
+104 1 -2 
+392 1 -2 
+42 1 -2 
+170 1 -2 
+298 1 -2 
+427 1 -1 
+366 1 -2 
+303 1 -1 
+112 1 -2 
+304 1 223 
+52 1 -2 
+23 1 -1 
+119 1 -2 
+186 1 -2 
+283 1 -2 
+124 1 -1 
+125 1 24 
+222 1 -1 
+350 1 -2 
+Functions: 26
+258 4 -1 263 24 223 
+196 2 193 182 
+5 11 192 -2 33 84 372 263 56 105 393 235 284 
+74 1 19 
+267 2 264 255 
+12 11 192 -2 33 84 372 263 56 105 393 235 284 
+334 1 218 
+79 4 -1 84 24 223 
+401 1 218 
+341 1 218 
+88 2 85 76 
+408 1 218 
+154 1 19 
+27 2 19 24 
+161 1 19 
+226 2 218 223 
+360 1 218 
+424 2 19 218 
+41 4 -1 33 24 223 
+365 4 -1 372 24 223 
+49 2 19 46 
+180 1 19 
+437 16 -1 192 -2 33 263 105 393 235 19 84 372 24 56 218 284 223 
+376 2 373 362 
+185 4 -1 192 24 223 
+253 1 218 
+Constructors: 2
+226 218
+27 19
+
+Summary: 18
+373 284 -1 33 105 362 0 76 255 393 264 46 193 182 85 56 235 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/EnumConstantDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/FieldDeclaration;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r2 1 -3 
+$r6 1 41 
+$r5 1 78 
+r4 1 -2 
+$r1 1 1 
+$r3 1 61 
+Fields: 4
+-1 scanner 61
+-1 ast 1
+-3 annotations 78
+-3 annotations 41
+Accesses: 9
+0 1 -1 
+64 1 -3 
+1 1 1 
+81 1 -3 
+68 1 -3 
+40 1 -3 
+60 1 -1 
+29 1 -3 
+77 1 -3 
+Functions: 5
+48 1 -2 
+37 1 -2 
+85 5 -1 1 -2 61 78 
+54 1 -2 
+72 1 61 
+Constructors: 0
+
+Summary: 7
+-1 41 1 -3 0 -2 78 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveSemiColonPosition(Lorg/eclipse/jdt/core/dom/Expression;)I
+PTG:
+Vars:
+5
+r0 1 -2 
+$r5 1 -1 
+r1 1 -1 
+$r3 1 16 
+$r2 1 16 
+Fields: 1
+-1 scanner 16
+Accesses: 4
+52 1 -1 
+21 1 -1 
+62 1 -1 
+15 1 -1 
+Functions: 4
+0 1 -2 
+5 1 -2 
+25 1 16 
+63 1 16 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.buildBodyDeclarations(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/core/dom/AbstractTypeDeclaration;)V
+PTG:
+Vars:
+17
+r3 1 15 
+$r10 1 250 
+r4 1 -1 
+r0 1 -2 
+$r12 1 232 
+r15 1 131 
+$r7 1 330 
+$r9 1 288 
+r5 1 309 
+$r13 1 364 
+r6 1 -3 
+$r8 1 282 
+r14 1 97 
+$r11 1 226 
+r16 1 164 
+r1 1 4 
+r2 1 9 
+Fields: 7
+9 ArrayObject 97
+15 ArrayObject 131
+4 ArrayObject 164
+-2 javadoc 364
+-2 methods 15
+-2 memberTypes 4
+-2 fields 9
+Accesses: 10
+0 1 -2 
+176 1 164 
+99 1 97 
+5 1 -2 
+133 1 131 
+166 1 164 
+11 1 -2 
+363 1 -2 
+109 1 97 
+143 1 131 
+Functions: 17
+225 1 -3 
+291 2 288 282 
+323 1 -3 
+229 2 -1 97 
+265 1 131 
+329 1 -3 
+235 2 226 232 
+303 2 -1 164 
+335 2 309 330 
+368 3 -1 -3 364 
+273 1 131 
+216 1 97 
+249 1 -3 
+281 1 -3 
+253 4 -1 97 9 250 
+285 2 -1 131 
+317 1 -3 
+Constructors: 0
+
+Summary: 16
+15 232 1 288 364 -3 309 -1 9 226 250 282 4 330 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setTypeForSingleVariableDeclaration(Lorg/eclipse/jdt/core/dom/SingleVariableDeclaration;Lorg/eclipse/jdt/core/dom/Type;I)V
+PTG:
+Vars:
+11
+r4 1 -1 
+r1 1 -3 
+$r8 1 49 
+r0 1 -2 
+r10 2 85 -3 
+$r5 1 147 
+r2 1 -3 
+$r6 1 150 
+$r7 1 46 
+$r3 1 85 
+r9 1 36 
+Fields: 2
+-1 ast 46
+-1 ast 147
+Accesses: 2
+146 1 -1 
+45 1 -1 
+Functions: 18
+129 2 -3 85 
+67 1 -3 
+4 1 -3 
+164 2 -2 -3 
+101 3 -1 147 46 
+137 5 -1 -3 147 85 46 
+42 1 36 
+172 2 -2 -3 
+46 1 46 
+143 3 -2 -3 85 
+17 1 -3 
+83 2 -3 85 
+147 1 147 
+55 3 49 -3 36 
+122 2 -3 85 
+156 3 -3 85 150 
+61 2 -2 36 
+31 1 -3 
+Constructors: 0
+
+Summary: 8
+-1 150 49 85 1 36 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/LongLiteral;)Lorg/eclipse/jdt/core/dom/NumberLiteral;
+PTG:
+Vars:
+7
+$r6 1 37 
+_ret 1 17 
+$r1 1 17 
+$r5 1 32 
+$r3 1 22 
+r2 1 -1 
+r0 1 -2 
+Fields: 2
+-1 ast 22
+-1 compilationUnitSource 37
+Accesses: 6
+0 1 -2 
+48 1 -1 
+4 1 -2 
+36 1 -1 
+21 1 -1 
+12 1 -2 
+Functions: 6
+66 1 17 
+72 4 -1 17 37 22 
+25 2 17 22 
+42 2 32 37 
+59 5 -1 17 -2 37 22 
+45 2 32 17 
+Constructors: 2
+25 17
+42 32
+
+Summary: 3
+-1 32 -2 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveIdentifierAndSetPositions(IILorg/eclipse/jdt/core/dom/Name;)V
+PTG:
+Vars:
+7
+$r3 2 1 20 
+$r4 2 1 29 
+$r2 1 1 
+$r6 1 -1 
+r5 1 -4 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 scanner 1
+Accesses: 6
+0 1 -1 
+19 1 -1 
+20 2 1 20 
+53 1 -1 
+28 1 -1 
+29 2 1 29 
+Functions: 3
+49 1 -4 
+6 1 1 
+54 1 1 
+Constructors: 0
+
+Summary: 3
+-1 2 -4 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/BreakStatement;)Lorg/eclipse/jdt/core/dom/BreakStatement;
+PTG:
+Vars:
+10
+$r10 1 32 
+_ret 1 0 
+$r0 1 0 
+$r7 1 5 
+$r9 1 51 
+r1 1 -1 
+$r6 1 38 
+r4 1 -2 
+$r5 1 32 
+$r2 1 5 
+Fields: 2
+-1 ast 5
+-2 label 32
+Accesses: 9
+17 1 -2 
+66 1 -2 
+4 1 -1 
+21 1 -2 
+70 1 -2 
+55 1 -2 
+42 1 -1 
+13 1 -2 
+31 1 -2 
+Functions: 7
+80 2 0 38 
+8 2 0 5 
+59 2 32 51 
+75 3 -1 5 38 
+28 1 0 
+46 2 5 38 
+62 2 51 38 
+Constructors: 3
+8 0
+59 51
+46 38
+
+Summary: 6
+-1 32 0 38 -2 51 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/NameReference;)Lorg/eclipse/jdt/core/dom/Name;
+PTG:
+Vars:
+5
+_ret 1 21 
+$r2 1 -2 
+$r3 1 21 
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 2 -1 -2 
+7 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/Statement;)Lorg/eclipse/jdt/core/dom/Statement;
+PTG:
+Vars:
+8
+r0 1 -2 
+$r13 1 349 
+_ret 1 694 
+$r7 1 -2 
+r58 1 305 
+$r8 1 428 
+$r2 1 694 
+r1 1 -1 
+Fields: 2
+-1 ast 349
+-1 ast 428
+Accesses: 9
+386 1 -1 
+466 1 -1 
+531 1 -1 
+516 1 -1 
+648 1 -1 
+427 1 -1 
+348 1 -1 
+428 1 428 
+349 1 349 
+Functions: 52
+390 0 
+7 3 -1 428 349 
+520 0 
+137 3 -1 428 349 
+265 3 -1 428 349 
+652 0 
+399 0 
+528 0 
+402 0 
+660 0 
+663 0 
+153 3 -1 428 349 
+281 3 -1 428 349 
+409 0 
+28 3 -1 428 349 
+414 0 
+419 0 
+41 3 -1 428 349 
+169 3 -1 428 349 
+297 4 -1 -2 428 349 
+686 0 
+560 0 
+692 4 -1 -2 428 349 
+310 4 -1 -2 428 349 
+57 3 -1 428 349 
+185 3 -1 428 349 
+569 0 
+316 1 305 
+574 0 
+579 0 
+456 4 -1 -2 428 349 
+73 3 -1 428 349 
+201 3 -1 428 349 
+585 0 
+594 0 
+470 0 
+599 0 
+89 3 -1 428 349 
+217 3 -1 428 349 
+604 0 
+479 0 
+482 0 
+105 3 -1 428 349 
+233 3 -1 428 349 
+489 0 
+617 3 -1 428 349 
+494 0 
+499 0 
+376 4 -1 -2 428 349 
+121 3 -1 428 349 
+249 3 -1 428 349 
+638 3 -1 428 349 
+Constructors: 0
+
+Summary: 9
+590 -1 565 0 305 643 406 -2 486 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ReturnStatement;)Lorg/eclipse/jdt/core/dom/ReturnStatement;
+PTG:
+Vars:
+8
+r1 1 -1 
+_ret 1 0 
+$r0 1 0 
+$r5 1 32 
+$r2 1 5 
+$r6 1 32 
+$r7 1 44 
+r4 1 -2 
+Fields: 2
+-1 ast 5
+-2 expression 32
+Accesses: 6
+17 1 -2 
+4 1 -1 
+21 1 -2 
+40 1 -2 
+13 1 -2 
+31 1 -2 
+Functions: 4
+39 3 -1 32 5 
+8 2 0 5 
+28 1 0 
+47 2 0 44 
+Constructors: 1
+8 0
+
+Summary: 5
+-1 44 32 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/QualifiedAllocationExpression;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+26
+$r29 1 129 
+r4 1 -2 
+$r26 1 230 
+$r2 1 5 
+$r30 1 63 
+$r5 1 13 
+$r0 1 0 
+r1 1 -1 
+$r10 1 156 
+$r23 1 219 
+$r6 1 5 
+$r28 1 134 
+$r33 1 25 
+$r31 1 66 
+r9 1 91 
+$r24 2 156 224 
+_ret 1 0 
+$r7 1 78 
+$r8 1 81 
+$r35 1 250 
+$r27 1 110 
+r34 1 114 
+$r32 1 13 
+$r22 1 156 
+$r21 1 5 
+$r25 1 229 
+Fields: 11
+-1 ast 5
+156 ArrayObject 229
+224 ArrayObject 229
+91 ArrayObject 129
+91 ArrayObject 110
+-2 arguments 91
+-2 typeArguments 156
+-2 type 63
+-2 type 78
+-2 enclosingInstance 13
+-2 anonymousType 250
+Accesses: 28
+256 1 -2 
+4 1 -1 
+391 1 -2 
+265 1 -2 
+12 1 -2 
+77 1 -2 
+208 1 -2 
+339 1 -2 
+403 1 -1 
+21 1 -2 
+87 1 -2 
+155 1 -2 
+284 1 -1 
+348 1 -1 
+31 1 -1 
+223 1 -2 
+32 1 5 
+162 1 -1 
+163 1 5 
+357 1 -2 
+294 1 -2 
+301 1 -2 
+367 1 -2 
+116 1 -1 
+249 1 -2 
+317 1 -2 
+62 1 -2 
+382 1 -2 
+Functions: 28
+193 1 0 
+130 4 -1 129 114 5 
+69 2 0 66 
+133 1 0 
+199 1 0 
+8 2 0 5 
+329 0 
+139 2 114 134 
+76 3 -1 5 78 
+335 1 0 
+400 1 0 
+20 3 -1 5 13 
+84 2 0 81 
+277 1 0 
+345 2 -1 5 
+218 1 0 
+28 2 0 25 
+413 13 -1 0 -2 129 5 229 13 78 110 250 91 156 63 
+222 3 -1 5 229 
+288 0 
+418 3 -1 0 5 
+293 2 -1 5 
+233 2 230 219 
+361 3 -1 0 5 
+106 3 -1 5 110 
+371 2 -1 5 
+376 0 
+61 3 -1 5 63 
+Constructors: 1
+8 0
+
+Summary: 17
+156 91 63 66 78 134 114 -1 13 230 25 81 250 280 219 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/TypeReference;)Lorg/eclipse/jdt/core/dom/Name;
+PTG:
+Vars:
+8
+_ret 1 35 
+r0 1 -2 
+$r5 1 50 
+r1 1 4 
+$r2 1 35 
+$r4 1 40 
+$r6 1 56 
+r3 1 -1 
+Fields: 2
+-1 ast 40
+4 ArrayObject 56
+Accesses: 6
+65 1 -2 
+69 1 -2 
+86 1 35 
+39 1 -1 
+73 1 -2 
+89 1 -1 
+Functions: 7
+0 1 -2 
+80 1 35 
+100 4 -1 -2 35 40 
+57 2 50 56 
+26 5 -1 -2 4 40 56 
+43 2 35 40 
+60 2 50 35 
+Constructors: 2
+57 50
+43 35
+
+Summary: 7
+-1 4 56 24 0 50 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setQualifiedNameNameAndSourceRanges([[C[JILorg/eclipse/jdt/internal/compiler/ast/ASTNode;)Lorg/eclipse/jdt/core/dom/QualifiedName;
+PTG:
+Vars:
+23
+r7 1 -3 
+$r12 1 93 
+$r6 1 26 
+$r19 1 309 
+$r9 1 10 
+$r14 1 10 
+r1 1 -1 
+$r4 1 20 
+$r2 1 10 
+$r18 1 262 
+r5 1 -2 
+$r11 1 87 
+_ret 2 135 309 
+$r13 1 135 
+$r15 1 240 
+$r0 1 5 
+r23 2 135 309 
+$r20 2 314 10 
+r22 1 -5 
+$r8 1 72 
+r24 1 240 
+$r16 2 10 245 
+$r17 1 255 
+Fields: 4
+-1 ast 10
+-2 ArrayObject 93
+-2 ArrayObject 262
+-2 ArrayObject 26
+Accesses: 14
+162 1 -1 
+36 1 5 
+103 1 72 
+9 1 -1 
+139 1 -1 
+76 1 -1 
+364 1 -1 
+275 1 240 
+244 1 -1 
+214 1 135 
+342 1 240 
+313 1 -1 
+347 1 309 
+414 1 -1 
+Functions: 32
+384 4 -1 240 -5 10 
+132 1 72 
+196 4 -1 -5 72 10 
+69 1 5 
+326 2 309 135 
+390 3 -1 309 10 
+263 2 262 255 
+202 3 -1 5 10 
+266 2 240 255 
+396 3 -1 240 10 
+13 2 5 10 
+333 2 240 309 
+143 2 135 10 
+80 2 72 10 
+208 3 -1 72 10 
+152 2 5 135 
+27 2 20 26 
+30 2 20 5 
+94 2 87 93 
+159 2 135 72 
+97 2 87 72 
+228 1 135 
+361 1 309 
+426 5 -1 -5 309 135 10 
+174 4 -1 -5 135 10 
+432 4 -1 309 135 10 
+306 1 240 
+180 3 -1 135 10 
+248 3 240 245 10 
+376 4 -1 -5 309 10 
+188 4 -1 -5 5 10 
+317 3 309 314 10 
+Constructors: 8
+80 72
+263 255
+248 240
+27 20
+13 5
+317 309
+94 87
+143 135
+
+Summary: 14
+72 -5 20 240 -3 26 87 -1 93 255 5 0 -2 3 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveStartBlockPosition(II)I
+PTG:
+Vars:
+4
+r0 1 -1 
+$r4 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 scanner 1
+Accesses: 3
+0 1 -1 
+32 1 -1 
+40 1 -1 
+Functions: 2
+6 1 1 
+41 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/FalseLiteral;)Lorg/eclipse/jdt/core/dom/BooleanLiteral;
+PTG:
+Vars:
+5
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+$r2 1 5 
+r4 1 -2 
+Fields: 1
+-1 ast 5
+Accesses: 5
+17 1 -1 
+35 1 -2 
+4 1 -1 
+39 1 -2 
+31 1 -2 
+Functions: 4
+8 2 0 5 
+27 4 -1 0 -2 5 
+14 1 0 
+46 1 0 
+Constructors: 1
+8 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/SynchronizedStatement;)Lorg/eclipse/jdt/core/dom/SynchronizedStatement;
+PTG:
+Vars:
+9
+$r5 1 34 
+_ret 1 0 
+$r0 1 0 
+r4 1 -2 
+$r2 1 5 
+$r7 1 46 
+$r8 1 49 
+r1 1 -1 
+$r6 1 37 
+Fields: 3
+-1 ast 5
+-2 block 34
+-2 expression 46
+Accesses: 6
+17 1 -2 
+33 1 -2 
+4 1 -1 
+21 1 -2 
+13 1 -2 
+45 1 -2 
+Functions: 6
+32 3 -1 34 5 
+52 2 0 49 
+8 2 0 5 
+40 2 0 37 
+28 1 0 
+44 3 -1 5 46 
+Constructors: 1
+8 0
+
+Summary: 7
+-1 49 37 46 34 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/LabeledStatement;)Lorg/eclipse/jdt/core/dom/LabeledStatement;
+PTG:
+Vars:
+11
+r1 1 -1 
+$r5 1 32 
+_ret 1 0 
+r6 1 38 
+$r8 1 5 
+r4 1 -2 
+$r10 1 68 
+$r0 1 0 
+$r7 1 53 
+$r2 1 5 
+$r11 1 73 
+Fields: 3
+-1 ast 5
+-2 label 73
+-2 statement 32
+Accesses: 7
+19 1 -2 
+4 1 -1 
+85 1 -2 
+72 1 -2 
+57 1 -1 
+12 1 -2 
+31 1 -2 
+Functions: 9
+50 2 0 38 
+99 2 0 53 
+8 2 0 5 
+27 1 0 
+76 2 68 73 
+61 2 53 5 
+93 1 53 
+30 3 -1 32 5 
+79 2 68 53 
+Constructors: 3
+8 0
+76 68
+61 53
+
+Summary: 8
+-1 73 68 53 32 38 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.getPrimitiveTypeCode([C)Lorg/eclipse/jdt/core/dom/PrimitiveType$Code;
+PTG:
+Vars:
+2
+r10 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.getOperatorFor(I)Lorg/eclipse/jdt/core/dom/InfixExpression$Operator;
+PTG:
+Vars:
+1
+r19 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/CompoundAssignment;)Lorg/eclipse/jdt/core/dom/Assignment;
+PTG:
+Vars:
+20
+r6 1 20 
+$r9 1 207 
+$r14 1 167 
+$r7 1 237 
+r4 1 -2 
+r1 1 -1 
+$r2 1 5 
+$r5 1 14 
+$r11 1 137 
+$r15 1 197 
+_ret 1 0 
+$r19 1 249 
+$r10 1 157 
+$r13 1 217 
+$r18 1 246 
+$r12 1 147 
+$r16 1 187 
+$r17 1 177 
+$r0 1 0 
+$r8 1 227 
+Fields: 3
+-1 ast 5
+-2 expression 246
+-2 lhs 14
+Accesses: 6
+35 1 -2 
+4 1 -1 
+245 1 -2 
+13 1 -2 
+47 1 -2 
+255 1 -1 
+Functions: 19
+160 2 0 157 
+230 2 0 227 
+8 2 0 5 
+200 2 0 197 
+265 6 -1 0 -2 5 246 14 
+170 2 0 167 
+12 3 -1 5 14 
+44 1 0 
+140 2 0 137 
+240 2 0 237 
+210 2 0 207 
+180 2 0 177 
+244 3 -1 5 246 
+150 2 0 147 
+23 2 0 20 
+26 1 20 
+220 2 0 217 
+252 2 0 249 
+190 2 0 187 
+Constructors: 1
+8 0
+
+Summary: 7
+14 249 -1 246 20 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/InstanceOfExpression;)Lorg/eclipse/jdt/core/dom/InstanceofExpression;
+PTG:
+Vars:
+9
+_ret 1 0 
+$r5 1 27 
+r6 1 33 
+r1 1 -1 
+$r2 1 5 
+r8 1 47 
+$r7 1 41 
+r4 1 -2 
+$r0 1 0 
+Fields: 3
+-1 ast 5
+-2 type 41
+-2 expression 27
+Accesses: 4
+4 1 -1 
+40 1 -2 
+26 1 -2 
+12 1 -1 
+Functions: 10
+66 1 47 
+36 2 0 33 
+52 2 0 47 
+22 6 -1 0 -2 5 41 27 
+86 1 0 
+39 3 -1 5 41 
+55 1 33 
+8 2 0 5 
+25 3 -1 5 27 
+61 1 47 
+Constructors: 1
+8 0
+
+Summary: 7
+-1 41 47 27 33 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ThrowStatement;)Lorg/eclipse/jdt/core/dom/ThrowStatement;
+PTG:
+Vars:
+7
+r4 1 -2 
+_ret 1 0 
+r1 1 -1 
+$r6 1 37 
+$r0 1 0 
+$r2 1 5 
+$r5 1 34 
+Fields: 2
+-1 ast 5
+-2 exception 34
+Accesses: 5
+17 1 -2 
+33 1 -2 
+4 1 -1 
+21 1 -2 
+13 1 -2 
+Functions: 4
+32 3 -1 34 5 
+8 2 0 5 
+40 2 0 37 
+28 1 0 
+Constructors: 1
+8 0
+
+Summary: 5
+-1 37 34 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convertToVariableDeclarationFragment(Lorg/eclipse/jdt/internal/compiler/ast/FieldDeclaration;)Lorg/eclipse/jdt/core/dom/VariableDeclarationFragment;
+PTG:
+Vars:
+12
+_ret 1 0 
+$r12 1 96 
+$r9 1 30 
+r1 1 -1 
+$r7 1 25 
+r13 1 110 
+$r0 1 0 
+$r10 1 96 
+$r2 1 5 
+$r5 1 5 
+r8 1 -2 
+$r4 1 12 
+Fields: 3
+-1 ast 5
+-2 name 30
+-2 initialization 96
+Accesses: 17
+226 1 -1 
+4 1 -1 
+166 1 -2 
+103 1 -2 
+40 1 -2 
+74 1 -2 
+44 1 -2 
+16 1 -1 
+48 1 -2 
+80 1 -2 
+145 1 -2 
+210 1 -2 
+149 1 -2 
+216 1 -2 
+29 1 -2 
+63 1 -2 
+95 1 -2 
+Functions: 21
+33 2 25 30 
+193 1 0 
+36 2 25 12 
+102 3 -1 96 5 
+199 1 0 
+8 2 0 5 
+73 2 -1 5 
+140 2 -1 5 
+236 6 -1 96 -2 5 12 30 
+173 1 0 
+242 6 -1 0 96 -2 5 30 
+115 2 0 110 
+179 1 0 
+20 2 5 12 
+118 1 110 
+246 1 0 
+55 1 12 
+123 1 110 
+60 2 0 12 
+92 1 0 
+223 1 0 
+Constructors: 3
+33 25
+20 12
+8 0
+
+Summary: 8
+-1 30 0 25 96 -2 12 110 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ClassLiteralAccess;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+7
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+$r2 1 5 
+r4 1 -2 
+$r5 1 47 
+$r6 1 50 
+Fields: 2
+-1 ast 5
+-2 type 47
+Accesses: 6
+34 1 -2 
+4 1 -1 
+26 1 -2 
+12 1 -1 
+30 1 -2 
+46 1 -2 
+Functions: 5
+53 2 0 50 
+22 5 -1 0 -2 5 47 
+8 2 0 5 
+41 1 0 
+45 3 -1 5 47 
+Constructors: 1
+8 0
+
+Summary: 4
+-1 47 50 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/SwitchStatement;)Lorg/eclipse/jdt/core/dom/SwitchStatement;
+PTG:
+Vars:
+13
+$r5 1 34 
+r1 1 -1 
+$r8 1 65 
+r7 1 47 
+$r9 1 90 
+$r0 1 0 
+$r12 1 77 
+_ret 1 0 
+$r6 1 37 
+r10 1 94 
+$r11 1 102 
+$r2 1 5 
+r4 1 -2 
+Fields: 5
+-1 ast 5
+47 ArrayObject 90
+47 ArrayObject 65
+-2 statements 47
+-2 expression 34
+Accesses: 6
+17 1 -2 
+33 1 -2 
+4 1 -1 
+21 1 -2 
+43 1 -2 
+13 1 -2 
+Functions: 9
+32 3 -1 34 5 
+80 6 -1 65 5 90 77 47 
+101 1 0 
+86 3 -1 5 90 
+8 2 0 5 
+40 2 0 37 
+107 2 102 94 
+28 1 0 
+76 1 0 
+Constructors: 1
+8 0
+
+Summary: 9
+47 34 94 102 -1 37 77 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setTypeForVariableDeclarationStatement(Lorg/eclipse/jdt/core/dom/VariableDeclarationStatement;Lorg/eclipse/jdt/core/dom/Type;I)V
+PTG:
+Vars:
+11
+r10 2 85 -3 
+$r6 1 150 
+$r7 1 46 
+$r5 1 147 
+r9 1 36 
+$r8 1 49 
+r1 1 -3 
+$r3 1 85 
+r4 1 -1 
+r0 1 -2 
+r2 1 -3 
+Fields: 2
+-1 ast 46
+-1 ast 147
+Accesses: 2
+146 1 -1 
+45 1 -1 
+Functions: 18
+129 2 -3 85 
+67 1 -3 
+4 1 -3 
+164 2 -2 -3 
+101 3 -1 147 46 
+137 5 -1 -3 147 85 46 
+42 1 36 
+172 2 -2 -3 
+46 1 46 
+143 3 -2 -3 85 
+17 1 -3 
+83 2 -3 85 
+147 1 147 
+55 3 49 -3 36 
+122 2 -3 85 
+156 3 -3 85 150 
+61 2 -2 36 
+31 1 -3 
+Constructors: 0
+
+Summary: 8
+-1 150 49 85 1 36 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveEndBlockPosition(II)I
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r3 1 -1 
+$r4 1 1 
+Fields: 1
+-1 scanner 1
+Accesses: 3
+0 1 -1 
+67 1 -1 
+57 1 -1 
+Functions: 2
+68 1 1 
+6 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.recordName(Lorg/eclipse/jdt/core/dom/Name;Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;)V
+PTG:
+Vars:
+7
+$r3 2 58 -2 
+r6 1 42 
+r0 1 -3 
+r1 1 -1 
+r5 2 58 -2 
+$r4 2 58 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 7
+48 3 -1 -3 42 
+65 2 -2 58 
+36 2 -2 58 
+52 2 -2 58 
+22 2 -2 58 
+7 4 -1 -2 -3 58 
+62 4 -1 -2 -3 58 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 42 0 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/DoubleLiteral;)Lorg/eclipse/jdt/core/dom/NumberLiteral;
+PTG:
+Vars:
+7
+$r5 1 32 
+_ret 1 17 
+r0 1 -2 
+r2 1 -1 
+$r1 1 17 
+$r3 1 22 
+$r6 1 37 
+Fields: 2
+-1 ast 22
+-1 compilationUnitSource 37
+Accesses: 6
+0 1 -2 
+48 1 -1 
+4 1 -2 
+36 1 -1 
+21 1 -1 
+12 1 -2 
+Functions: 6
+66 1 17 
+72 4 -1 17 37 22 
+25 2 17 22 
+42 2 32 37 
+59 5 -1 17 -2 37 22 
+45 2 32 17 
+Constructors: 2
+25 17
+42 32
+
+Summary: 4
+-1 32 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/IfStatement;)Lorg/eclipse/jdt/core/dom/IfStatement;
+PTG:
+Vars:
+11
+$r6 1 37 
+r4 1 -2 
+_ret 1 0 
+r1 1 -1 
+r9 1 67 
+$r0 1 0 
+r8 1 51 
+$r7 1 45 
+r10 1 80 
+$r2 1 5 
+$r5 1 34 
+Fields: 4
+-1 ast 5
+-2 thenStatement 45
+-2 condition 34
+-2 elseStatement 67
+Accesses: 7
+17 1 -2 
+33 1 -2 
+4 1 -1 
+21 1 -2 
+44 1 -2 
+13 1 -2 
+63 1 -2 
+Functions: 8
+32 3 -1 34 5 
+8 2 0 5 
+40 2 0 37 
+74 3 -1 67 5 
+90 2 0 80 
+43 3 -1 5 45 
+28 1 0 
+60 2 0 51 
+Constructors: 1
+8 0
+
+Summary: 9
+-1 45 51 37 67 34 0 -2 80 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/FieldDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/FieldDeclaration;)V
+PTG:
+Vars:
+7
+$r3 1 61 
+$r5 1 78 
+$r6 1 41 
+r2 1 -3 
+$r1 1 1 
+r4 1 -2 
+r0 1 -1 
+Fields: 4
+-1 scanner 61
+-1 ast 1
+-3 annotations 78
+-3 annotations 41
+Accesses: 9
+0 1 -1 
+64 1 -3 
+1 1 1 
+81 1 -3 
+68 1 -3 
+40 1 -3 
+60 1 -1 
+29 1 -3 
+77 1 -3 
+Functions: 5
+48 1 -2 
+37 1 -2 
+85 5 -1 1 -2 61 78 
+54 1 -2 
+72 1 61 
+Constructors: 0
+
+Summary: 7
+-1 41 1 -3 0 -2 78 
+org/eclipse/jdt/core/dom/ASTConverter.removeLeadingAndTrailingCommentsFromLiteral(Lorg/eclipse/jdt/core/dom/ASTNode;)V
+PTG:
+Vars:
+8
+$r5 2 121 6 
+$r3 2 6 100 
+r1 1 -1 
+$r4 2 91 6 
+$r2 1 6 
+$r7 1 6 
+r0 1 -2 
+$r6 1 -1 
+Fields: 1
+-1 scanner 6
+Accesses: 8
+129 1 -1 
+99 1 -1 
+100 2 100 6 
+5 1 -1 
+120 1 -1 
+121 2 6 121 
+90 1 -1 
+91 2 6 91 
+Functions: 5
+0 1 -2 
+16 1 6 
+130 1 6 
+116 1 -2 
+11 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/AnnotationTypeMemberDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/AnnotationMethodDeclaration;)V
+PTG:
+Vars:
+5
+r3 1 -2 
+$r2 1 1 
+$r4 1 18 
+r0 1 -1 
+r1 1 -3 
+Fields: 2
+-1 scanner 1
+-3 annotations 18
+Accesses: 5
+0 1 -1 
+17 1 -3 
+4 1 -3 
+21 1 -3 
+8 1 -3 
+Functions: 2
+25 4 -1 1 -2 18 
+12 1 1 
+Constructors: 0
+
+Summary: 6
+-1 1 -3 18 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/UnaryExpression;)Lorg/eclipse/jdt/core/dom/PrefixExpression;
+PTG:
+Vars:
+11
+_ret 1 0 
+$r5 1 47 
+$r10 1 117 
+$r0 1 0 
+$r2 1 5 
+$r6 1 50 
+r4 1 -2 
+$r7 1 97 
+$r8 1 107 
+r1 1 -1 
+$r9 1 127 
+Fields: 2
+-1 ast 5
+-2 expression 47
+Accesses: 7
+34 1 -2 
+4 1 -1 
+56 1 -2 
+26 1 -2 
+12 1 -1 
+30 1 -2 
+46 1 -2 
+Functions: 9
+130 2 0 127 
+100 2 0 97 
+53 2 0 50 
+22 5 -1 0 -2 5 47 
+8 2 0 5 
+120 2 0 117 
+41 1 0 
+45 3 -1 5 47 
+110 2 0 107 
+Constructors: 1
+8 0
+
+Summary: 4
+-1 47 50 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/SingleNameReference;)Lorg/eclipse/jdt/core/dom/SimpleName;
+PTG:
+Vars:
+7
+r5 1 -2 
+$r0 1 0 
+$r2 1 5 
+_ret 1 0 
+$r4 1 13 
+$r6 1 18 
+r1 1 -1 
+Fields: 2
+-1 ast 5
+-2 token 18
+Accesses: 6
+17 1 -2 
+49 1 -2 
+4 1 -1 
+41 1 -2 
+27 1 -1 
+45 1 -2 
+Functions: 5
+21 2 18 13 
+37 5 -1 0 -2 18 5 
+8 2 0 5 
+24 2 0 13 
+56 1 0 
+Constructors: 2
+21 13
+8 0
+
+Summary: 5
+-1 18 0 13 -2 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveClosingAngleBracketPosition(I)I
+PTG:
+Vars:
+6
+$r3 1 1 
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+$r4 1 1 
+$r6 1 -1 
+Fields: 1
+-1 scanner 1
+Accesses: 8
+0 1 -1 
+17 1 1 
+65 1 -1 
+20 1 -1 
+52 1 -1 
+5 1 -1 
+70 1 1 
+12 1 -1 
+Functions: 2
+21 1 1 
+9 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/MessageSend;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+44
+$r28 1 231 
+$r4 1 381 
+$r12 1 543 
+$r24 1 320 
+$r7 1 401 
+$r9 1 708 
+$r18 1 39 
+$r20 1 54 
+$r15 1 509 
+$r6 1 396 
+r43 1 493 
+r2 1 -1 
+$r31 1 121 
+$r21 1 59 
+$r11 1 717 
+r36 1 182 
+r42 1 466 
+$r14 1 515 
+$r16 1 12 
+r37 1 209 
+r39 2 354 12 
+$r30 1 121 
+$r27 1 205 
+r44 1 543 
+$r25 1 328 
+$r1 1 354 
+$r13 1 489 
+r45 3 596 571 585 
+r38 1 256 
+r35 1 141 
+$r26 1 329 
+$r29 1 225 
+$r5 1 359 
+$r10 1 716 
+_ret 2 354 12 
+$r19 1 17 
+r0 1 -2 
+$r17 1 17 
+$r8 1 359 
+$r23 1 17 
+r46 1 643 
+$r3 1 359 
+$r32 1 121 
+$r22 1 121 
+Fields: 16
+-1 ast 359
+-1 ast 17
+182 ArrayObject 225
+182 ArrayObject 205
+256 ArrayObject 328
+-2 selector 59
+-2 selector 401
+-2 arguments 182
+-2 arguments 466
+-2 receiver 121
+-2 receiver 543
+-2 typeArguments 256
+-2 typeArguments 643
+643 ArrayObject 716
+466 ArrayObject 509
+466 ArrayObject 489
+Accesses: 33
+0 1 -2 
+448 1 -1 
+385 1 -1 
+131 1 -2 
+68 1 -2 
+263 1 -1 
+264 1 17 
+650 1 -1 
+651 1 359 
+78 1 -2 
+462 1 -2 
+16 1 -1 
+400 1 -2 
+211 1 -1 
+150 1 -1 
+25 1 -1 
+410 1 -2 
+539 1 -2 
+606 1 -1 
+160 1 -2 
+99 1 -1 
+420 1 -2 
+741 1 -2 
+358 1 -1 
+553 1 543 
+43 1 -1 
+367 1 -1 
+495 1 -1 
+178 1 -2 
+120 1 -2 
+58 1 -2 
+252 1 -2 
+639 1 -2 
+Functions: 47
+576 4 -1 17 359 543 
+65 2 54 39 
+513 1 354 
+130 4 -1 17 359 121 
+706 1 354 
+323 4 -1 17 359 328 
+5 15 256 -2 225 643 328 489 716 205 401 466 182 121 59 509 543 
+389 2 359 381 
+711 4 -1 17 359 716 
+200 4 -1 17 359 205 
+520 2 515 493 
+459 19 -1 256 -2 225 643 359 328 489 716 205 17 401 466 182 121 59 381 509 543 
+332 2 320 329 
+590 4 -1 17 359 543 
+720 2 708 717 
+147 2 12 141 
+20 2 17 12 
+404 2 401 396 
+407 2 396 381 
+96 1 39 
+226 5 -1 17 209 225 359 
+36 19 -1 256 -2 225 643 359 328 489 12 716 205 17 401 466 182 121 59 509 543 
+164 5 -1 17 359 121 141 
+484 4 -1 17 359 489 
+229 1 12 
+294 1 12 
+362 2 354 359 
+618 7 -1 17 596 359 585 571 543 
+682 1 354 
+172 1 141 
+236 2 209 231 
+301 1 12 
+749 2 354 12 
+110 19 -1 256 -2 225 643 359 39 328 489 716 205 17 401 466 182 121 59 509 543 
+47 2 17 39 
+625 4 354 596 585 571 
+689 1 354 
+754 5 -1 17 354 359 12 
+117 2 39 12 
+565 4 -1 17 359 543 
+438 1 381 
+633 3 596 585 571 
+378 19 -1 256 -2 225 354 643 359 328 489 716 205 17 401 466 182 121 59 509 543 
+445 2 354 381 
+62 2 54 59 
+318 1 12 
+510 5 -1 17 359 493 509 
+Constructors: 6
+20 12
+404 396
+389 381
+362 354
+62 54
+47 39
+
+Summary: 24
+59 493 -1 717 54 231 396 466 329 401 256 320 515 39 571 209 643 182 381 596 141 708 -2 585 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/TryStatement;)Lorg/eclipse/jdt/core/dom/TryStatement;
+PTG:
+Vars:
+23
+$r23 1 168 
+$r20 1 145 
+$r0 1 0 
+$r8 1 185 
+$r19 1 133 
+r1 1 -1 
+r11 1 60 
+$r21 1 146 
+$r18 1 132 
+$r9 1 185 
+$r12 1 34 
+$r6 1 37 
+_ret 1 0 
+$r14 2 5 82 
+$r17 1 113 
+$r22 1 153 
+r4 1 -2 
+$r5 1 34 
+$r13 1 77 
+$r2 1 5 
+$r10 1 197 
+r7 1 47 
+$r16 1 96 
+Fields: 10
+-1 ast 5
+47 ArrayObject 96
+47 ArrayObject 145
+60 ArrayObject 168
+60 ArrayObject 132
+60 ArrayObject 113
+-2 finallyBlock 185
+-2 tryBlock 34
+-2 catchArguments 47
+-2 catchBlocks 60
+Accesses: 15
+96 1 96 
+33 1 -2 
+193 1 -2 
+4 1 -1 
+168 1 168 
+43 1 -2 
+13 1 -2 
+17 1 -2 
+81 1 -1 
+113 1 113 
+21 1 -2 
+56 1 -2 
+184 1 -2 
+62 1 -2 
+63 1 34 
+Functions: 15
+32 3 -1 34 5 
+192 3 -1 5 185 
+8 2 0 5 
+40 2 0 37 
+136 2 133 77 
+200 2 0 197 
+141 3 -1 145 5 
+85 3 82 5 77 
+149 2 146 77 
+152 1 0 
+90 2 -1 5 
+122 1 77 
+28 1 0 
+158 2 153 77 
+127 3 -1 132 5 
+Constructors: 2
+85 77
+8 0
+
+Summary: 13
+47 185 153 34 197 146 -1 37 133 60 77 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/CharLiteral;)Lorg/eclipse/jdt/core/dom/CharacterLiteral;
+PTG:
+Vars:
+7
+_ret 1 17 
+r2 1 -1 
+r0 1 -2 
+$r6 1 51 
+$r3 1 22 
+$r5 1 46 
+$r1 1 17 
+Fields: 2
+-1 ast 22
+-1 compilationUnitSource 51
+Accesses: 6
+0 1 -2 
+50 1 -1 
+4 1 -2 
+21 1 -1 
+12 1 -2 
+30 1 -1 
+Functions: 6
+66 1 17 
+56 2 51 46 
+72 4 -1 17 51 22 
+25 2 17 22 
+41 5 -1 17 -2 51 22 
+59 2 17 46 
+Constructors: 2
+56 46
+25 17
+
+Summary: 4
+-1 46 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/MethodDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration;)V
+PTG:
+Vars:
+7
+r2 1 -3 
+r4 1 -2 
+$r3 1 61 
+$r5 1 78 
+r0 1 -1 
+$r1 1 1 
+$r6 1 41 
+Fields: 4
+-1 scanner 61
+-1 ast 1
+-3 annotations 78
+-3 annotations 41
+Accesses: 9
+0 1 -1 
+64 1 -3 
+1 1 1 
+81 1 -3 
+68 1 -3 
+40 1 -3 
+60 1 -1 
+29 1 -3 
+77 1 -3 
+Functions: 5
+48 1 -2 
+37 1 -2 
+85 5 -1 1 -2 61 78 
+54 1 -2 
+72 1 61 
+Constructors: 0
+
+Summary: 7
+-1 41 1 -3 0 -2 78 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)Lorg/eclipse/jdt/core/dom/ASTNode;
+PTG:
+Vars:
+28
+$r14 1 189 
+$r18 1 441 
+$r17 1 79 
+$r23 1 355 
+$r27 1 313 
+r0 1 -2 
+$r25 1 304 
+$r6 1 74 
+$r20 1 450 
+$r10 1 79 
+r34 1 379 
+$r12 1 129 
+$r22 1 347 
+$r21 1 79 
+$r26 1 312 
+r15 1 255 
+$r32 1 230 
+$r7 1 79 
+$r24 1 356 
+$r13 1 134 
+_ret 1 74 
+$r28 1 79 
+$r19 1 449 
+$r30 1 245 
+$r9 1 114 
+$r29 1 189 
+$r31 1 189 
+r1 1 -1 
+Fields: 8
+-1 ast 79
+379 ArrayObject 449
+-2 typeParameters 379
+-2 name 134
+-2 superInterfaces 255
+-2 superclass 189
+255 ArrayObject 355
+255 ArrayObject 312
+Accesses: 25
+0 1 -2 
+386 1 -1 
+195 1 -1 
+387 1 79 
+196 1 79 
+133 1 -2 
+262 1 -1 
+263 1 79 
+78 1 -1 
+145 1 -2 
+149 1 -2 
+86 1 -2 
+153 1 -2 
+475 1 -1 
+32 1 -1 
+226 1 -2 
+170 1 -2 
+174 1 -2 
+241 1 -2 
+178 1 -2 
+51 1 -1 
+118 1 -1 
+375 1 -2 
+251 1 -2 
+188 1 -2 
+Functions: 32
+64 10 -1 -2 449 355 134 312 379 189 79 255 
+1 0 
+453 2 450 441 
+71 2 -1 79 
+137 2 129 134 
+140 2 129 114 
+82 2 74 79 
+472 11 -1 -2 449 355 134 312 74 379 189 79 255 
+346 1 74 
+350 3 -1 355 79 
+160 1 114 
+97 11 -1 -2 449 355 134 312 74 379 189 79 255 
+225 3 -1 189 79 
+417 1 74 
+485 11 -1 -2 449 355 134 312 74 379 189 79 255 
+166 2 114 74 
+359 2 356 347 
+423 1 74 
+233 2 230 74 
+492 11 -1 -2 449 114 355 134 312 379 189 79 255 
+45 10 -1 -2 449 355 134 312 379 189 79 255 
+111 1 74 
+303 1 74 
+240 3 -1 189 79 
+496 1 74 
+307 3 -1 312 79 
+248 2 245 74 
+440 1 74 
+185 1 74 
+122 2 114 79 
+316 2 304 313 
+444 3 -1 449 79 
+Constructors: 3
+82 74
+137 129
+122 114
+
+Summary: 17
+189 356 114 245 -1 0 450 255 441 304 134 313 347 230 379 129 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ThisReference;)Lorg/eclipse/jdt/core/dom/Expression;
+PTG:
+Vars:
+5
+$r1 1 41 
+_ret 1 41 
+$r3 1 46 
+r2 1 -1 
+r0 1 -2 
+Fields: 1
+-1 ast 46
+Accesses: 5
+54 1 -2 
+72 1 -1 
+58 1 -2 
+45 1 -1 
+62 1 -2 
+Functions: 7
+0 1 -2 
+16 2 -1 46 
+32 2 -1 46 
+49 2 41 46 
+82 4 -1 -2 41 46 
+69 1 41 
+87 3 -1 41 46 
+Constructors: 1
+49 41
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/Initializer;Lorg/eclipse/jdt/internal/compiler/ast/Initializer;)V
+PTG:
+Vars:
+7
+r4 1 -2 
+r0 1 -1 
+$r6 1 41 
+$r5 1 78 
+r2 1 -3 
+$r3 1 61 
+$r1 1 1 
+Fields: 4
+-1 scanner 61
+-1 ast 1
+-3 annotations 78
+-3 annotations 41
+Accesses: 9
+0 1 -1 
+64 1 -3 
+1 1 1 
+81 1 -3 
+68 1 -3 
+40 1 -3 
+60 1 -1 
+29 1 -3 
+77 1 -3 
+Functions: 5
+48 1 -2 
+37 1 -2 
+85 5 -1 1 -2 61 78 
+54 1 -2 
+72 1 61 
+Constructors: 0
+
+Summary: 7
+-1 41 1 -3 0 -2 78 
+org/eclipse/jdt/core/dom/ASTConverter.buildCommentsTable(Lorg/eclipse/jdt/core/dom/CompilationUnit;[[I)V
+PTG:
+Vars:
+10
+$r6 1 39 
+r0 1 -1 
+$r3 1 21 
+$r7 2 39 72 
+$r2 1 3 
+r4 1 25 
+$r8 2 39 72 
+r5 1 -2 
+r1 1 -3 
+r9 1 66 
+Fields: 3
+-1 commentsTable 72
+-1 commentsTable 39
+-3 ArrayObject 21
+Accesses: 5
+6 1 -1 
+38 1 -1 
+86 1 -1 
+71 1 -1 
+90 1 -1 
+Functions: 4
+80 3 66 39 72 
+17 4 -1 21 39 72 
+35 2 -2 25 
+94 3 -2 39 72 
+Constructors: 0
+
+Summary: 6
+-1 25 1 -3 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.recordPendingNameScopeResolution(Lorg/eclipse/jdt/core/dom/Name;)V
+PTG:
+Vars:
+5
+r2 1 -2 
+$r3 1 1 
+r0 1 -1 
+$r1 1 1 
+$r4 1 8 
+Fields: 1
+-1 pendingNameScopeResolution 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 2
+23 2 1 -2 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.updateInnerPositions(Lorg/eclipse/jdt/core/dom/Type;I)V
+PTG:
+Vars:
+5
+r0 1 -2 
+$r3 2 59 17 
+r4 2 59 17 
+r2 1 -1 
+$r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+48 2 17 59 
+64 2 17 59 
+5 1 -2 
+53 2 17 59 
+11 1 -2 
+30 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 59 0 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/QualifiedSuperReference;)Lorg/eclipse/jdt/core/dom/Name;
+PTG:
+Vars:
+5
+$r2 1 2 
+_ret 1 5 
+$r3 1 5 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-2 qualification 2
+Accesses: 1
+1 1 -2 
+Functions: 1
+0 2 -1 2 
+Constructors: 0
+
+Summary: 4
+-1 2 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/ForStatement;)Lorg/eclipse/jdt/core/dom/ForStatement;
+PTG:
+Vars:
+29
+r27 1 250 
+$r2 1 5 
+r25 1 185 
+r5 1 35 
+$r0 1 0 
+$r18 1 92 
+$r20 1 129 
+$r10 1 228 
+$r16 1 78 
+$r26 1 228 
+$r13 1 181 
+$r8 1 277 
+$r17 1 86 
+$r6 1 299 
+r22 1 51 
+$r7 1 269 
+$r19 1 153 
+$r11 1 240 
+r4 1 -2 
+$r14 1 193 
+$r9 1 278 
+_ret 1 0 
+$r12 1 42 
+r28 1 305 
+r23 1 63 
+r1 1 -1 
+$r21 1 129 
+$r15 1 51 
+r24 1 78 
+Fields: 11
+-1 ast 5
+35 ArrayObject 181
+35 ArrayObject 42
+35 ArrayObject 51
+35 ArrayObject 78
+35 ArrayObject 129
+250 ArrayObject 277
+-2 initializations 35
+-2 increments 250
+-2 condition 228
+-2 action 299
+Accesses: 10
+17 1 -2 
+130 1 129 
+227 1 -2 
+4 1 -1 
+21 1 -2 
+246 1 -2 
+298 1 -2 
+236 1 -2 
+13 1 -2 
+31 1 -2 
+Functions: 22
+192 1 0 
+198 2 193 185 
+8 2 0 5 
+297 3 -1 5 299 
+235 3 -1 228 5 
+268 1 0 
+208 1 0 
+272 3 -1 5 277 
+177 3 -1 5 181 
+243 2 0 240 
+84 1 63 
+117 1 63 
+149 1 63 
+214 1 0 
+152 1 0 
+57 3 -1 51 5 
+89 3 -1 5 78 
+281 2 278 269 
+28 1 0 
+317 2 0 305 
+158 2 153 63 
+95 2 86 92 
+Constructors: 1
+8 0
+
+Summary: 20
+51 228 35 42 269 -1 250 129 0 92 63 240 185 153 193 86 305 278 -2 299 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/TypeParameter;)Lorg/eclipse/jdt/core/dom/TypeParameter;
+PTG:
+Vars:
+16
+r15 1 125 
+$r12 1 158 
+r16 1 155 
+$r5 1 5 
+$r4 1 12 
+$r9 1 30 
+r1 1 -1 
+$r11 1 151 
+r8 1 -2 
+_ret 1 0 
+$r0 1 0 
+$r7 1 25 
+$r2 1 5 
+r14 1 92 
+r10 1 73 
+$r13 1 95 
+Fields: 5
+-1 ast 5
+125 ArrayObject 151
+-2 name 30
+-2 bounds 125
+-2 type 73
+Accesses: 10
+16 1 -1 
+194 1 -2 
+4 1 -1 
+69 1 -2 
+39 1 -2 
+121 1 -2 
+75 1 -2 
+29 1 -2 
+45 1 -2 
+221 1 -1 
+Functions: 21
+33 2 25 30 
+66 2 0 12 
+163 2 155 158 
+36 2 25 12 
+100 2 92 95 
+231 8 -1 -2 5 151 73 12 125 30 
+8 2 0 5 
+200 2 -1 5 
+169 1 155 
+106 1 92 
+237 8 -1 0 -2 5 151 73 125 30 
+174 1 155 
+111 1 92 
+241 1 0 
+146 3 -1 5 151 
+20 2 5 12 
+86 3 -1 5 73 
+218 1 0 
+61 1 12 
+157 1 0 
+94 1 0 
+Constructors: 3
+33 25
+20 12
+8 0
+
+Summary: 11
+95 30 12 -1 158 73 125 155 25 92 -2 
+org/eclipse/jdt/core/dom/ASTConverter.trimWhiteSpacesAndComments(Lorg/eclipse/jdt/internal/compiler/ast/Expression;)V
+PTG:
+Vars:
+6
+$r5 1 -1 
+r3 1 32 
+$r4 1 37 
+r0 1 -2 
+$r2 1 26 
+r1 1 -1 
+Fields: 3
+-1 ast 26
+-1 compilationUnitSource 37
+26 scanner 32
+Accesses: 12
+0 1 -2 
+16 1 -2 
+128 1 32 
+113 1 32 
+147 1 -2 
+36 1 -1 
+5 1 -2 
+151 1 32 
+25 1 -1 
+10 1 -2 
+26 1 26 
+141 1 -2 
+Functions: 3
+50 1 32 
+40 2 32 37 
+47 1 32 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setTypeForField(Lorg/eclipse/jdt/core/dom/FieldDeclaration;Lorg/eclipse/jdt/core/dom/Type;I)V
+PTG:
+Vars:
+12
+r9 1 -3 
+r0 1 -3 
+$r5 1 147 
+$r2 1 -3 
+r1 1 -2 
+r3 1 -1 
+r10 1 36 
+$r7 1 46 
+$r8 1 49 
+r11 2 85 -3 
+$r4 1 85 
+$r6 1 150 
+Fields: 2
+-1 ast 46
+-1 ast 147
+Accesses: 2
+146 1 -1 
+45 1 -1 
+Functions: 21
+129 2 -3 85 
+67 1 -3 
+195 2 -2 -3 
+4 1 -3 
+164 2 -2 -3 
+101 3 -1 147 46 
+135 3 -2 -3 85 
+42 1 36 
+170 1 -3 
+46 1 46 
+143 5 -1 -3 147 85 46 
+17 1 -3 
+178 1 -3 
+83 2 -3 85 
+147 1 147 
+55 3 49 -3 36 
+122 2 -3 85 
+156 3 -3 85 150 
+61 2 -2 36 
+190 4 -1 -3 147 46 
+31 1 -3 
+Constructors: 0
+
+Summary: 8
+-1 150 49 85 1 36 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/VariableDeclarationExpression;Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;)V
+PTG:
+Vars:
+24
+$r10 1 245 
+$r7 1 341 
+r5 1 -2 
+$r17 1 257 
+$r9 1 353 
+$r13 1 305 
+$r21 1 -1 
+$r19 2 69 396 
+r0 1 -1 
+$r1 1 1 
+$r14 1 293 
+r18 1 385 
+r4 1 87 
+$r11 1 269 
+$r8 1 329 
+r2 1 -3 
+$r3 1 69 
+$r12 1 281 
+$r16 1 317 
+$r20 1 49 
+$r15 1 233 
+$r23 1 69 
+r22 12 393 347 359 323 335 263 275 239 251 311 287 299 
+$r6 1 426 
+Fields: 5
+-1 scanner 69
+-1 ast 1
+87 ArrayObject 385
+-3 annotations 87
+-3 annotations 49
+Accesses: 12
+0 1 -1 
+48 1 -3 
+1 1 1 
+83 1 -3 
+68 1 -1 
+437 1 -1 
+406 1 -1 
+72 1 -3 
+395 1 -1 
+28 1 -3 
+76 1 -3 
+399 1 385 
+Functions: 20
+256 4 -1 1 257 69 
+352 4 -1 1 353 69 
+387 4 -1 1 385 69 
+292 4 -1 1 69 293 
+232 4 -1 1 69 233 
+328 4 -1 1 69 329 
+425 1 -2 
+268 4 -1 1 69 269 
+45 1 -2 
+431 13 323 359 263 393 426 299 335 239 275 311 347 251 287 
+80 1 69 
+304 4 -1 1 305 69 
+244 4 -1 1 69 245 
+340 4 -1 1 69 341 
+438 1 69 
+56 1 -2 
+280 4 -1 1 69 281 
+410 2 69 396 
+316 4 -1 1 69 317 
+62 1 -2 
+Constructors: 0
+
+Summary: 20
+-3 -1 359 335 49 0 263 239 426 311 287 393 87 1 347 323 275 -2 251 299 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/Block;)Lorg/eclipse/jdt/core/dom/Block;
+PTG:
+Vars:
+11
+r4 1 -2 
+$r2 1 5 
+r5 1 42 
+_ret 1 0 
+$r10 1 72 
+$r6 1 60 
+$r9 1 97 
+r1 1 -1 
+r8 1 89 
+$r7 1 85 
+$r0 1 0 
+Fields: 4
+-1 ast 5
+42 ArrayObject 85
+42 ArrayObject 60
+-2 statements 42
+Accesses: 6
+4 1 -1 
+20 1 -2 
+38 1 -2 
+24 1 -2 
+12 1 -2 
+28 1 -2 
+Functions: 7
+96 1 0 
+81 3 -1 5 85 
+35 1 0 
+102 2 97 89 
+71 1 0 
+8 2 0 5 
+75 6 -1 5 85 72 42 60 
+Constructors: 1
+8 0
+
+Summary: 7
+-1 89 97 42 0 -2 72 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/BodyDeclaration;[Lorg/eclipse/jdt/internal/compiler/ast/Annotation;I)V
+PTG:
+Vars:
+21
+$r6 1 269 
+$r3 1 335 
+r15 1 -3 
+$r12 1 149 
+$r10 1 221 
+$r9 1 197 
+$r20 1 1 
+$r1 1 1 
+$r8 1 185 
+r19 12 306 179 191 155 167 215 227 203 263 275 239 251 
+$r11 1 209 
+r0 1 -1 
+r2 1 -2 
+$r7 1 161 
+$r18 1 -1 
+$r5 1 245 
+$r13 1 233 
+r16 1 298 
+$r4 1 257 
+$r17 2 1 309 
+$r14 1 173 
+Fields: 2
+-1 scanner 1
+-3 ArrayObject 298
+Accesses: 5
+0 1 -1 
+308 1 -1 
+5 1 1 
+312 1 298 
+346 1 -1 
+Functions: 16
+160 3 -1 1 161 
+256 3 -1 1 257 
+320 2 1 309 
+196 3 -1 1 197 
+232 3 -1 1 233 
+172 3 -1 1 173 
+268 3 -1 1 269 
+300 3 -1 1 298 
+334 1 -2 
+208 3 -1 1 209 
+148 3 -1 1 149 
+244 3 -1 1 245 
+340 13 227 167 263 203 335 239 306 179 275 215 155 251 191 
+184 3 -1 1 185 
+347 1 1 
+220 3 -1 1 221 
+Constructors: 0
+
+Summary: 18
+-3 -1 335 306 191 167 215 0 263 239 1 179 155 227 203 275 -2 251 
+org/eclipse/jdt/core/dom/ASTConverter.checkAndAddMultipleFieldDeclaration([Lorg/eclipse/jdt/internal/compiler/ast/FieldDeclaration;ILjava/util/List;)V
+PTG:
+Vars:
+13
+$r5 1 162 
+r0 1 -2 
+r2 1 -4 
+r3 1 -1 
+$r4 1 161 
+$r1 1 2 
+$r11 1 145 
+$r8 1 126 
+r20 1 126 
+$r10 1 144 
+$r9 1 138 
+$r6 1 104 
+$r7 1 110 
+Fields: 5
+-2 ArrayObject 2
+-2 ArrayObject 161
+-2 ArrayObject 104
+-2 ArrayObject 144
+-2 ArrayObject 110
+Accesses: 3
+21 1 -1 
+104 1 104 
+110 1 110 
+Functions: 14
+32 1 -1 
+165 2 162 -4 
+72 0 
+136 1 126 
+41 0 
+141 2 -1 144 
+49 1 -1 
+83 1 -1 
+148 2 145 138 
+117 1 -4 
+118 1 -4 
+25 0 
+89 1 -4 
+158 2 -1 161 
+Constructors: 0
+
+Summary: 19
+11 35 2 17 161 38 78 126 138 110 -1 2 162 145 -4 0 104 -2 144 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/NormalAnnotation;)Lorg/eclipse/jdt/core/dom/NormalAnnotation;
+PTG:
+Vars:
+9
+$r0 1 0 
+r1 1 -1 
+$r2 1 5 
+_ret 1 0 
+r4 1 -2 
+$r7 1 56 
+r5 1 33 
+$r9 1 96 
+r8 1 60 
+Fields: 3
+-1 ast 5
+33 ArrayObject 56
+-2 memberValuePairs 33
+Accesses: 5
+128 1 -1 
+18 1 -2 
+4 1 -1 
+23 1 -2 
+29 1 -2 
+Functions: 12
+51 3 -1 5 56 
+67 1 60 
+85 1 0 
+101 2 96 60 
+8 2 0 5 
+138 6 -1 0 -2 33 5 56 
+92 1 0 
+125 1 0 
+62 1 60 
+142 1 0 
+15 6 -1 0 -2 33 5 56 
+95 1 0 
+Constructors: 1
+8 0
+
+Summary: 6
+-1 33 60 0 96 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/Javadoc;Lorg/eclipse/jdt/core/dom/BodyDeclaration;)V
+PTG:
+Vars:
+17
+$r15 1 12 
+r2 1 -2 
+r0 1 -3 
+$r14 1 23 
+r9 1 58 
+$r8 1 71 
+$r4 1 12 
+$r5 1 33 
+$r16 1 12 
+r7 1 58 
+$r6 1 23 
+$r12 1 116 
+r11 1 107 
+$r13 1 116 
+r3 1 -1 
+$r1 1 1 
+$r10 1 99 
+Fields: 2
+-1 commentMapper 12
+-1 commentsTable 23
+Accesses: 8
+18 1 -1 
+51 1 -2 
+83 1 -1 
+37 1 -1 
+22 1 -1 
+11 1 -1 
+44 1 -1 
+47 1 -1 
+Functions: 13
+0 1 -3 
+97 1 58 
+99 1 99 
+70 1 58 
+41 2 33 23 
+140 2 -3 58 
+48 1 12 
+114 1 107 
+19 2 23 12 
+124 5 -1 -2 116 23 12 
+94 5 -1 -2 23 58 12 
+63 1 58 
+127 1 107 
+Constructors: 1
+41 33
+
+Summary: 11
+99 71 1 107 -3 58 -1 1 0 -2 116 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/AnnotationTypeDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)V
+PTG:
+Vars:
+5
+$r2 1 1 
+r1 1 -3 
+r3 1 -2 
+$r4 1 18 
+r0 1 -1 
+Fields: 2
+-1 scanner 1
+-3 annotations 18
+Accesses: 5
+0 1 -1 
+17 1 -3 
+4 1 -3 
+21 1 -3 
+8 1 -3 
+Functions: 2
+25 4 -1 1 -2 18 
+12 1 1 
+Constructors: 0
+
+Summary: 6
+-1 1 -3 18 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.setModifiers(Lorg/eclipse/jdt/core/dom/SingleVariableDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/Argument;)V
+PTG:
+Vars:
+24
+r22 12 347 323 335 227 378 263 275 239 251 311 287 299 
+$r19 2 381 61 
+$r17 1 245 
+r2 1 -3 
+$r15 1 221 
+$r14 1 281 
+$r12 1 269 
+$r11 1 257 
+$r6 1 411 
+r0 1 -1 
+$r20 1 41 
+$r21 1 -1 
+$r16 1 305 
+$r13 1 293 
+$r23 1 61 
+$r3 1 61 
+$r10 1 233 
+r18 1 370 
+r4 1 79 
+$r1 1 1 
+$r8 1 317 
+$r7 1 329 
+$r9 1 341 
+r5 1 -2 
+Fields: 5
+-1 scanner 61
+-1 ast 1
+79 ArrayObject 370
+-3 annotations 79
+-3 annotations 41
+Accesses: 12
+0 1 -1 
+64 1 -3 
+384 1 370 
+1 1 1 
+68 1 -3 
+422 1 -1 
+391 1 -1 
+40 1 -3 
+75 1 -3 
+60 1 -1 
+380 1 -1 
+29 1 -3 
+Functions: 20
+256 4 -1 1 257 61 
+416 13 323 227 263 299 335 239 275 311 378 411 347 251 287 
+292 4 -1 1 293 61 
+37 1 -2 
+423 1 61 
+72 1 61 
+232 4 -1 1 233 61 
+328 4 -1 1 329 61 
+395 2 381 61 
+268 4 -1 1 61 269 
+48 1 -2 
+304 4 -1 1 305 61 
+244 4 -1 1 245 61 
+340 4 -1 1 341 61 
+372 4 -1 1 370 61 
+54 1 -2 
+280 4 -1 1 281 61 
+410 1 -2 
+220 4 -1 1 61 221 
+316 4 -1 1 61 317 
+Constructors: 0
+
+Summary: 20
+-3 -1 335 41 378 0 263 239 311 287 79 1 347 323 411 227 275 -2 251 299 
+org/eclipse/jdt/core/dom/ASTConverter.retrieveColonPosition(Lorg/eclipse/jdt/core/dom/ASTNode;)V
+PTG:
+Vars:
+6
+$r2 1 16 
+$r3 1 16 
+$r4 2 55 16 
+r1 1 -1 
+r0 1 -2 
+$r5 1 -1 
+Fields: 1
+-1 scanner 16
+Accesses: 5
+67 1 -1 
+21 1 -1 
+54 1 -1 
+55 2 16 55 
+15 1 -1 
+Functions: 5
+0 1 -2 
+68 1 16 
+5 1 -2 
+25 1 16 
+63 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/NullLiteral;)Lorg/eclipse/jdt/core/dom/NullLiteral;
+PTG:
+Vars:
+5
+_ret 1 0 
+r4 1 -2 
+$r0 1 0 
+r1 1 -1 
+$r2 1 5 
+Fields: 1
+-1 ast 5
+Accesses: 5
+34 1 -2 
+4 1 -1 
+26 1 -2 
+12 1 -1 
+30 1 -2 
+Functions: 3
+22 4 -1 0 -2 5 
+8 2 0 5 
+41 1 0 
+Constructors: 1
+8 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/Argument;)Lorg/eclipse/jdt/core/dom/SingleVariableDeclaration;
+PTG:
+Vars:
+15
+r4 1 -2 
+r11 1 146 
+$r8 1 31 
+$r0 1 0 
+$r6 1 5 
+$r9 1 36 
+$r15 1 76 
+_ret 1 0 
+$r13 1 5 
+$r2 1 5 
+$r5 1 18 
+r1 1 -1 
+$r10 1 76 
+$r14 1 76 
+$r16 1 76 
+Fields: 3
+-1 ast 5
+-2 name 36
+-2 type 76
+Accesses: 18
+224 1 -2 
+35 1 -2 
+4 1 -1 
+165 1 -2 
+135 1 76 
+75 1 -2 
+139 1 -2 
+76 1 76 
+45 1 -2 
+239 1 -1 
+240 1 5 
+51 1 -2 
+22 1 -1 
+118 1 -2 
+218 1 -2 
+123 1 -2 
+124 1 76 
+286 1 -1 
+Functions: 26
+67 1 18 
+196 1 0 
+8 2 0 5 
+72 2 0 18 
+138 3 -1 5 76 
+202 1 0 
+269 1 0 
+15 6 -1 0 -2 36 5 76 
+275 1 0 
+84 2 -1 5 
+148 1 146 
+214 4 -1 0 146 5 
+153 1 146 
+26 2 18 5 
+283 1 0 
+99 1 0 
+102 3 -2 36 76 
+166 0 
+39 2 36 31 
+231 1 0 
+296 6 -1 -2 18 36 5 76 
+42 2 18 31 
+302 6 -1 0 -2 36 5 76 
+306 1 0 
+122 2 -1 5 
+187 4 -1 0 146 5 
+Constructors: 3
+39 31
+8 0
+26 18
+
+Summary: 7
+-1 18 31 36 0 -2 146 
+org/eclipse/jdt/core/dom/ASTConverter.convertToEnumDeclaration(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)Lorg/eclipse/jdt/core/dom/EnumDeclaration;
+PTG:
+Vars:
+13
+$r6 1 9 
+$r8 1 35 
+$r13 1 123 
+$r5 1 22 
+$r2 1 9 
+r4 1 -2 
+_ret 1 4 
+r0 1 -1 
+$r9 1 40 
+$r14 1 124 
+$r1 1 4 
+r10 1 96 
+$r12 1 115 
+Fields: 4
+-1 ast 9
+96 ArrayObject 123
+-2 name 40
+-2 superInterfaces 96
+Accesses: 11
+50 1 -2 
+82 1 -2 
+149 1 -1 
+54 1 -2 
+39 1 -2 
+8 1 -1 
+26 1 -1 
+58 1 -2 
+74 1 -2 
+92 1 -2 
+78 1 -2 
+Functions: 16
+1 2 -1 9 
+65 1 22 
+165 7 -1 96 -2 22 40 9 123 
+70 2 4 22 
+169 1 4 
+43 2 35 40 
+12 2 4 9 
+46 2 35 22 
+114 1 4 
+146 7 -1 96 -2 4 40 9 123 
+19 7 -1 96 -2 4 40 9 123 
+118 3 -1 9 123 
+89 1 4 
+30 2 22 9 
+127 2 115 124 
+159 7 -1 96 -2 4 40 9 123 
+Constructors: 3
+43 35
+12 4
+30 22
+
+Summary: 9
+22 115 -1 35 40 0 96 -2 124 
+org/eclipse/jdt/core/dom/ASTConverter.convert(Lorg/eclipse/jdt/internal/compiler/ast/MemberValuePair;)Lorg/eclipse/jdt/core/dom/MemberValuePair;
+PTG:
+Vars:
+16
+$r4 1 12 
+$r12 1 71 
+$r15 1 139 
+$r14 1 71 
+r11 1 77 
+$r16 1 136 
+$r7 1 25 
+$r10 1 71 
+_ret 1 0 
+$r2 1 5 
+$r13 1 71 
+$r9 1 30 
+$r5 1 5 
+$r0 1 0 
+r1 1 -1 
+r8 1 -2 
+Fields: 4
+-1 ast 5
+71 token 136
+-2 value 71
+-2 name 30
+Accesses: 11
+16 1 -1 
+129 1 -2 
+4 1 -1 
+85 1 -2 
+133 1 71 
+70 1 -2 
+39 1 -2 
+119 1 -2 
+156 1 -1 
+29 1 -2 
+45 1 -2 
+Functions: 15
+96 1 77 
+33 2 25 30 
+66 2 0 12 
+36 2 25 12 
+69 4 -1 5 71 136 
+166 7 -1 -2 5 71 136 12 30 
+8 2 0 5 
+172 7 -1 0 -2 5 71 136 30 
+82 2 0 77 
+146 1 0 
+20 2 5 12 
+116 1 0 
+153 1 0 
+91 1 77 
+61 1 12 
+Constructors: 3
+33 25
+20 12
+8 0
+
+Summary: 8
+-1 71 77 30 25 -2 136 12 

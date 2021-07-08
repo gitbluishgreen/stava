@@ -1,0 +1,376 @@
+13
+sun/security/x509/PolicyInformation.delete(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r8 1 -1 
+r0 1 -2 
+$r9 1 10 
+Fields: 0
+Accesses: 1
+13 1 -1 
+Functions: 10
+0 1 -2 
+-1 0 
+34 0 
+66 0 
+19 1 -2 
+51 1 -2 
+55 0 
+42 0 
+60 0 
+46 0 
+Constructors: 0
+
+Summary: 7
+-1 63 42 55 -2 60 51 
+sun/security/x509/PolicyInformation.get(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+8
+r0 1 -2 
+$r3 1 41 
+$r2 1 32 
+$r6 1 53 
+$r5 1 50 
+$r1 1 28 
+r7 1 -1 
+$r4 1 45 
+Fields: 0
+Accesses: 2
+23 1 -1 
+9 1 -1 
+Functions: 8
+0 1 -2 
+32 1 32 
+50 1 50 
+36 1 32 
+56 2 53 28 
+41 2 -2 41 
+45 1 45 
+14 1 -2 
+Constructors: 2
+36 32
+56 28
+
+Summary: 7
+32 53 -1 -2 45 50 41 
+sun/security/x509/PolicyInformation.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+7
+$r5 1 31 
+$r3 1 15 
+$r6 1 35 
+r2 1 -1 
+$r4 1 19 
+r0 1 -2 
+r1 1 -2 
+Fields: 2
+-1 policyQualifiers 31
+-1 policyIdentifier 15
+Accesses: 2
+14 1 -1 
+30 1 -1 
+Functions: 4
+18 1 -2 
+34 1 -2 
+15 2 19 15 
+31 2 35 31 
+Constructors: 0
+
+Summary: 5
+35 -1 19 -2 0 
+sun/security/x509/PolicyInformation.getElements()Ljava/util/Enumeration;
+PTG:
+Vars:
+4
+$r0 1 0 
+$r2 1 21 
+_ret 1 21 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+17 1 0 
+4 1 0 
+20 1 0 
+11 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+0 -1 
+sun/security/x509/PolicyInformation.<init>(Lsun/security/x509/CertificatePolicyId;Ljava/util/Set;)V
+PTG:
+Vars:
+4
+$r2 1 19 
+r0 1 -1 
+r1 1 -3 
+r3 1 -2 
+Fields: 0
+Accesses: 2
+32 1 -1 
+27 1 -1 
+Functions: 3
+1 1 -1 
+24 2 -3 19 
+14 0 
+Constructors: 2
+1 -1
+24 19
+
+Summary: 2
+-1 -3 
+sun/security/x509/PolicyInformation.toString()Ljava/lang/String;
+PTG:
+Vars:
+15
+$r7 1 26 
+$r13 1 53 
+$r15 1 61 
+r3 1 -1 
+$r4 1 17 
+$r5 1 20 
+$r1 1 4 
+$r2 1 13 
+$r9 1 34 
+$r6 1 23 
+$r0 1 0 
+$r12 1 50 
+_ret 1 61 
+$r10 1 42 
+$r11 1 45 
+Fields: 2
+-1 policyQualifiers 42
+-1 policyIdentifier 17
+Accesses: 2
+16 1 -1 
+41 1 -1 
+Functions: 12
+17 1 17 
+34 2 34 42 
+50 1 50 
+4 1 4 
+38 1 34 
+23 1 23 
+8 1 4 
+56 2 0 53 
+60 1 0 
+13 2 20 13 
+29 2 0 26 
+45 1 45 
+Constructors: 3
+38 34
+8 4
+29 0
+
+Summary: 2
+20 -1 
+sun/security/x509/PolicyInformation.hashCode()I
+PTG:
+Vars:
+3
+$r2 1 16 
+$r1 1 3 
+r0 1 -1 
+Fields: 2
+-1 policyQualifiers 16
+-1 policyIdentifier 3
+Accesses: 2
+2 1 -1 
+15 1 -1 
+Functions: 2
+16 1 16 
+3 1 3 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/PolicyInformation.encode(Lsun/security/util/DerOutputStream;)V
+PTG:
+Vars:
+11
+$r0 1 0 
+$r6 1 28 
+r9 1 45 
+$r8 1 17 
+r5 1 -2 
+$r4 1 17 
+r11 1 59 
+$r3 1 9 
+r2 1 -1 
+$r10 1 59 
+$r12 1 72 
+Fields: 2
+-1 policyQualifiers 17
+-1 policyIdentifier 9
+Accesses: 3
+16 1 -1 
+36 1 -1 
+8 1 -1 
+Functions: 11
+32 1 28 
+17 1 17 
+4 1 0 
+37 1 17 
+85 2 0 28 
+70 1 59 
+57 1 45 
+75 2 72 28 
+92 2 0 -2 
+13 2 0 9 
+47 1 45 
+Constructors: 2
+32 28
+4 0
+
+Summary: 7
+0 28 59 -1 -2 72 0 
+sun/security/x509/PolicyInformation.getPolicyIdentifier()Lsun/security/x509/CertificatePolicyId;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 policyIdentifier 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/PolicyInformation.set(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+9
+r9 1 -3 
+$r11 1 -3 
+r12 1 79 
+r14 1 95 
+r7 1 -1 
+$r18 1 -3 
+$r13 1 -3 
+r0 1 -2 
+$r8 1 47 
+Fields: 1
+-1 policyIdentifier 47
+Accesses: 3
+21 1 -1 
+123 1 -1 
+46 1 -1 
+Functions: 15
+0 1 -2 
+33 0 
+161 0 
+37 1 -2 
+71 1 -3 
+135 0 
+167 0 
+111 0 
+143 0 
+80 1 79 
+147 0 
+152 1 -2 
+89 1 79 
+59 0 
+156 0 
+Constructors: 0
+
+Summary: 9
+143 152 79 156 -2 161 164 -1 95 
+sun/security/x509/PolicyInformation.getPolicyQualifiers()Ljava/util/Set;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 policyQualifiers 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/PolicyInformation.<init>(Lsun/security/util/DerValue;)V
+PTG:
+Vars:
+17
+r0 1 -1 
+$r15 1 131 
+$r2 1 24 
+$r4 1 32 
+$r6 1 153 
+r1 1 -2 
+$r10 1 90 
+r9 1 69 
+$r12 1 123 
+$r3 1 29 
+$r5 1 29 
+$r14 1 120 
+$r7 1 52 
+$r13 1 90 
+$r16 1 134 
+$r8 1 29 
+$r11 1 90 
+Fields: 3
+-1 policyQualifiers 120
+-2 data 29
+69 data 90
+Accesses: 12
+4 1 -2 
+38 1 -1 
+70 1 69 
+119 1 -1 
+41 1 -2 
+89 1 69 
+59 1 -1 
+28 1 -2 
+156 1 -1 
+109 1 69 
+62 1 -2 
+127 1 69 
+Functions: 16
+128 1 90 
+-1 0 
+1 2 -1 120 
+35 2 32 24 
+131 1 131 
+105 0 
+137 2 134 123 
+42 1 29 
+140 2 120 123 
+110 1 90 
+19 0 
+85 0 
+56 1 52 
+90 1 90 
+29 1 29 
+63 1 29 
+Constructors: 4
+1 -1
+35 24
+56 52
+137 123
+
+Summary: 10
+90 29 131 32 123 -2 -1 69 134 0 
+sun/security/x509/PolicyInformation.getName()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

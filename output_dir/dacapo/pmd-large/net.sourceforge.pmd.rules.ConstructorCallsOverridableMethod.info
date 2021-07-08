@@ -1,0 +1,722 @@
+23
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.evaluateDangerOfConstructors2(Ljava/util/Map;)Z
+PTG:
+Vars:
+12
+$r3 1 24 
+r7 1 75 
+r4 1 24 
+r0 1 -2 
+r9 1 97 
+r5 1 39 
+r11 1 -1 
+$r8 1 97 
+$r6 1 65 
+$r1 1 3 
+r2 1 13 
+$r10 1 117 
+Fields: 0
+Accesses: 0
+Functions: 16
+64 1 -2 
+65 1 65 
+2 1 -2 
+34 1 24 
+3 1 3 
+135 1 24 
+107 1 97 
+77 1 75 
+14 1 13 
+46 1 24 
+115 1 97 
+117 1 117 
+23 1 13 
+87 1 24 
+57 1 39 
+95 1 75 
+Constructors: 0
+
+Summary: 10
+65 3 0 39 -1 -2 75 24 117 97 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.addCalledMethodsOfNode(Lnet/sourceforge/pmd/ast/SimpleNode;Ljava/util/List;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r4 1 -4 
+r3 1 -3 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+18 3 0 -3 -4 
+4 1 0 
+12 2 0 -2 
+Constructors: 1
+4 0
+
+Summary: 7
+-4 2 1 -3 0 0 -2 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.putEvalPackage(Lnet/sourceforge/pmd/rules/ConstructorCallsOverridableMethod$EvalPackage;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 evalPackages 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.getCurrentEvalPackage()Lnet/sourceforge/pmd/rules/ConstructorCallsOverridableMethod$EvalPackage;
+PTG:
+Vars:
+6
+$r4 1 15 
+_ret 1 15 
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+$r3 1 15 
+Fields: 1
+-1 evalPackages 1
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 2
+1 1 1 
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.findMethod(Lnet/sourceforge/pmd/ast/ASTPrimaryExpression;Ljava/lang/String;)Lnet/sourceforge/pmd/rules/ConstructorCallsOverridableMethod$MethodInvocation;
+PTG:
+Vars:
+13
+$r2 1 51 
+_ret 1 43 
+$r10 1 26 
+$r11 1 43 
+r3 1 73 
+r7 1 -3 
+r4 1 92 
+$r5 1 106 
+$r9 1 22 
+$r8 1 9 
+r6 1 106 
+r0 1 -2 
+r1 1 43 
+Fields: 0
+Accesses: 0
+Functions: 15
+0 1 -2 
+69 1 43 
+7 1 -2 
+39 1 -2 
+104 1 92 
+9 1 9 
+75 1 73 
+50 1 43 
+51 1 51 
+20 1 -2 
+116 2 -3 106 
+85 1 73 
+22 1 22 
+62 1 43 
+94 1 92 
+Constructors: 0
+
+Summary: 10
+9 106 -3 26 22 73 1 0 -2 51 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.clearEvalPackages()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 evalPackages 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.access$100(Lnet/sourceforge/pmd/ast/SimpleNode;Lnet/sourceforge/pmd/ast/SimpleNode;)I
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 2 -2 -3 
+Constructors: 0
+
+Summary: 2
+-3 -2 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.removeCurrentEvalPackage()V
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 evalPackages 1
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 2
+5 1 1 
+15 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.visit(Lnet/sourceforge/pmd/ast/ASTCompilationUnit;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+_ret 1 7 
+$r3 1 7 
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+4 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 -2 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 0
+
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.evaluateDangerOfMethods(Ljava/util/Map;)Z
+PTG:
+Vars:
+21
+$r7 1 48 
+r17 1 148 
+$r10 1 87 
+$r14 1 122 
+$r18 1 152 
+r4 1 24 
+r9 1 65 
+r20 1 -1 
+$r5 1 36 
+$r16 1 142 
+$r19 1 164 
+r11 1 87 
+$r12 1 98 
+r6 1 36 
+r8 1 48 
+$r1 1 3 
+r2 1 13 
+r15 1 122 
+r13 1 108 
+$r3 1 24 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 24
+160 2 148 164 
+192 2 36 148 
+97 1 -2 
+2 1 -2 
+34 1 24 
+98 1 98 
+162 1 87 
+3 1 3 
+67 1 65 
+132 1 122 
+140 1 122 
+77 1 36 
+14 1 13 
+46 1 24 
+110 1 108 
+142 1 142 
+175 1 87 
+85 1 65 
+150 1 122 
+23 1 13 
+120 1 108 
+152 1 152 
+185 1 36 
+58 1 48 
+Constructors: 0
+
+Summary: 16
+142 108 3 36 148 152 87 48 122 65 164 0 -1 -2 98 24 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.visitClassDec(Lnet/sourceforge/pmd/ast/ASTClassOrInterfaceDeclaration;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+53
+r1 1 4 
+_ret 1 -3 
+$r18 1 281 
+r0 1 -2 
+$r21 1 311 
+r44 1 134 
+$r28 1 145 
+$r39 1 260 
+$r27 1 134 
+r49 1 311 
+r51 1 365 
+$r26 1 389 
+$r40 1 265 
+$r15 1 96 
+$r19 1 284 
+$r30 1 151 
+$r31 1 175 
+$r25 1 365 
+$r37 1 252 
+r48 1 297 
+$r3 1 28 
+$r22 1 331 
+r43 1 120 
+r4 1 -3 
+$r52 1 13 
+$r8 1 56 
+$r20 1 287 
+$r32 1 195 
+$r54 1 28 
+$r13 1 83 
+$r34 1 217 
+$r7 1 53 
+$r24 1 343 
+r47 1 201 
+r45 1 161 
+r46 1 175 
+$r10 1 73 
+r50 1 351 
+$r38 1 257 
+$r33 1 205 
+$r14 1 93 
+r2 1 -1 
+$r16 1 109 
+$r53 1 243 
+$r12 1 80 
+$r17 1 112 
+$r23 1 340 
+$r9 1 70 
+$r35 1 240 
+$r11 1 77 
+$r29 1 148 
+$r41 1 268 
+$r6 1 42 
+Fields: 8
+70 allPrivateConstructorsOfClass 73
+53 allMethodsOfClass 56
+109 calledMethods 112
+145 allMethodsOfClass 148
+77 allMethodsOfClass 80
+281 allPrivateConstructorsOfClass 284
+93 allPrivateConstructorsOfClass 96
+340 calledConstructors 343
+Accesses: 8
+145 1 145 
+340 1 340 
+53 1 53 
+70 1 70 
+281 1 281 
+77 1 77 
+93 1 93 
+109 1 109 
+Functions: 56
+0 1 -2 
+387 1 365 
+132 1 120 
+260 1 260 
+5 1 -2 
+265 1 265 
+394 3 -1 -3 389 
+271 4 -1 240 -3 268 
+144 1 -1 
+18 2 4 13 
+148 1 148 
+404 1 -1 
+21 2 -1 13 
+151 1 151 
+280 1 -1 
+284 1 284 
+31 2 -1 28 
+287 1 287 
+163 1 161 
+37 3 -1 -2 -3 
+41 1 -1 
+299 1 297 
+173 1 161 
+51 2 -1 56 
+52 1 -1 
+309 1 297 
+185 1 175 
+193 1 175 
+321 1 311 
+195 1 195 
+69 1 -1 
+329 1 311 
+203 1 175 
+331 1 331 
+76 1 -1 
+205 1 205 
+80 1 80 
+339 1 -1 
+213 2 201 217 
+215 1 134 
+343 1 343 
+88 3 -1 83 73 
+91 2 -1 96 
+92 1 -1 
+353 1 351 
+226 1 134 
+363 1 351 
+108 1 -1 
+238 1 134 
+112 1 112 
+243 1 243 
+247 1 243 
+375 1 365 
+122 1 120 
+252 2 257 252 
+255 1 175 
+Constructors: 2
+18 13
+247 243
+
+Summary: 41
+201 148 42 284 80 13 -1 -2 389 112 93 73 134 331 175 240 56 257 151 281 4 268 311 83 53 205 265 365 1 287 145 0 77 340 161 70 195 343 217 109 96 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.visit(Lnet/sourceforge/pmd/ast/ASTEnumDeclaration;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+4
+r2 1 -2 
+_ret 1 -3 
+r0 1 -3 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.addCalledMethodsOfNodeImpl(Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V
+PTG:
+Vars:
+7
+r0 1 -2 
+r3 1 17 
+$r2 1 17 
+r5 1 33 
+r6 1 -3 
+r4 1 -4 
+r1 1 6 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+16 1 6 
+7 1 6 
+43 2 33 -3 
+29 2 17 -4 
+Constructors: 0
+
+Summary: 8
+-4 2 1 33 -3 0 -2 17 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.addCalledMethodsOfNode(Lnet/sourceforge/pmd/ast/AccessNode;Ljava/util/List;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r4 1 -4 
+r3 1 -3 
+r2 1 -2 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+19 3 0 -3 -4 
+4 1 0 
+13 2 0 -2 
+Constructors: 1
+4 0
+
+Summary: 7
+-4 2 1 -3 0 0 -2 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.visit(Lnet/sourceforge/pmd/ast/ASTMethodDeclarator;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+17
+$r17 1 108 
+_ret 1 124 
+$r4 1 11 
+$r10 1 76 
+r0 1 -1 
+r3 1 -3 
+$r1 1 1 
+r2 1 -2 
+$r6 1 18 
+$r12 1 82 
+$r18 1 124 
+$r9 1 64 
+$r16 1 105 
+$r15 1 98 
+$r14 1 95 
+r5 1 11 
+r11 1 64 
+Fields: 2
+105 allMethodsOfClass 108
+95 m_ClassName 98
+Accesses: 2
+105 1 105 
+95 1 95 
+Functions: 17
+0 1 -1 
+35 1 11 
+101 3 82 98 11 
+104 1 -1 
+10 1 -2 
+42 1 11 
+74 1 64 
+79 2 18 76 
+49 1 11 
+115 3 18 82 108 
+86 1 82 
+23 2 -2 18 
+121 3 -1 -2 -3 
+58 1 18 
+28 1 11 
+61 1 -2 
+94 1 -1 
+Constructors: 2
+86 82
+23 18
+
+Summary: 12
+11 -3 95 1 105 18 -1 76 -2 98 82 64 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.visit(Lnet/sourceforge/pmd/ast/ASTClassOrInterfaceDeclaration;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+_ret 1 27 
+r1 1 -1 
+$r6 1 15 
+r4 1 27 
+r3 1 -3 
+$r2 1 15 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+18 2 -1 15 
+21 3 -1 -2 -3 
+7 3 -1 -2 -3 
+29 1 -1 
+Constructors: 0
+
+Summary: 3
+-3 -1 -2 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.<init>()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 2
+1 1 -1 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 1
+-1 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.visit(Lnet/sourceforge/pmd/ast/ASTConstructorDeclaration;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+18
+$r10 1 104 
+_ret 1 122 
+$r18 1 91 
+$r14 1 52 
+$r19 1 122 
+$r8 1 32 
+r2 1 -2 
+$r17 1 86 
+r3 1 -3 
+$r13 1 49 
+r0 1 -1 
+$r6 1 18 
+$r16 1 83 
+$r1 1 1 
+$r4 1 10 
+$r9 1 35 
+r15 1 67 
+$r11 1 107 
+Fields: 4
+49 calledMethods 52
+104 allPrivateConstructorsOfClass 107
+32 m_ClassName 35
+83 calledConstructors 86
+Accesses: 4
+32 1 32 
+49 1 49 
+83 1 83 
+104 1 104 
+Functions: 16
+0 1 -1 
+38 3 -2 35 10 
+103 1 -1 
+41 1 -2 
+74 1 67 
+14 1 10 
+48 1 -1 
+113 3 18 10 107 
+82 1 -1 
+119 3 -1 -2 -3 
+24 3 -1 -2 18 
+56 2 52 10 
+89 1 18 
+62 1 18 
+94 2 86 91 
+31 1 -1 
+Constructors: 2
+24 18
+14 10
+
+Summary: 15
+49 104 32 83 -3 1 35 10 67 86 18 52 -1 -2 91 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.compareNodes(Lnet/sourceforge/pmd/ast/SimpleNode;Lnet/sourceforge/pmd/ast/SimpleNode;)I
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+19 1 -3 
+5 1 -3 
+15 1 -2 
+Constructors: 0
+
+Summary: 2
+-3 -2 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.getNameFromPrefix(Lnet/sourceforge/pmd/ast/ASTPrimaryPrefix;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r1 1 15 
+_ret 1 30 
+r3 1 30 
+$r2 1 15 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+2 1 -2 
+24 1 15 
+10 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 15 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.evaluateDangerOfConstructors1(Ljava/util/Map;Ljava/util/Set;)V
+PTG:
+Vars:
+21
+$r15 1 137 
+$r19 1 167 
+r14 1 123 
+r18 1 163 
+r13 1 -3 
+$r1 1 1 
+r16 1 137 
+r4 1 22 
+r11 1 93 
+r12 1 108 
+$r5 1 34 
+r8 1 54 
+r0 1 -2 
+$r7 1 54 
+r6 1 34 
+r20 1 -1 
+$r17 1 157 
+r9 1 71 
+$r3 1 22 
+r2 1 11 
+$r10 1 93 
+Fields: 0
+Accesses: 0
+Functions: 23
+0 1 -2 
+32 1 22 
+64 1 54 
+1 1 1 
+195 1 34 
+165 1 137 
+103 1 93 
+135 1 123 
+167 1 167 
+73 1 71 
+12 1 11 
+44 1 34 
+110 1 93 
+175 2 163 108 
+83 1 34 
+147 1 137 
+52 1 22 
+21 1 11 
+117 1 -3 
+91 1 71 
+155 1 137 
+125 1 123 
+157 1 157 
+Constructors: 0
+
+Summary: 17
+123 157 108 -3 1 93 22 167 54 34 1 0 -1 -2 137 71 163 
+net/sourceforge/pmd/rules/ConstructorCallsOverridableMethod.access$000(Lnet/sourceforge/pmd/ast/ASTPrimaryPrefix;)Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 

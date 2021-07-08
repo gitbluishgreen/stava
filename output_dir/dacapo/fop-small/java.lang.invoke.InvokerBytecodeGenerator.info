@@ -1,0 +1,2623 @@
+72
+java/lang/invoke/InvokerBytecodeGenerator.arrayTypeCode(Lsun/invoke/util/Wrapper;)B
+PTG:
+Vars:
+4
+$r2 1 84 
+r3 1 -1 
+$r1 1 0 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 1 -2 
+88 1 84 
+Constructors: 1
+88 84
+
+Summary: 3
+-2 -1 0 
+java/lang/invoke/InvokerBytecodeGenerator.emitAstoreInsn(I)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.emitStaticInvoke(Ljava/lang/invoke/MemberName;Ljava/lang/invoke/LambdaForm$Name;)V
+PTG:
+Vars:
+20
+r1 1 32 
+r3 1 43 
+$r14 1 125 
+$r18 1 11 
+$r6 1 154 
+$r9 1 182 
+$r13 1 116 
+$r10 1 192 
+r4 1 -1 
+r21 1 122 
+$r8 1 185 
+$r17 1 8 
+r2 1 37 
+r5 1 -3 
+r11 1 198 
+$r15 1 141 
+r0 1 -2 
+$r20 1 84 
+r22 1 160 
+$r7 1 163 
+Fields: 4
+-3 function 8
+-3 type 182
+-1 mv 163
+-1 mv 125
+Accesses: 4
+162 1 -1 
+181 1 -3 
+7 1 -3 
+124 1 -1 
+Functions: 29
+64 1 -2 
+128 3 -1 163 125 
+192 1 192 
+6 2 -2 11 
+8 1 8 
+76 1 -2 
+140 1 -2 
+141 1 141 
+206 1 198 
+83 1 -2 
+147 4 37 122 43 125 
+84 1 84 
+24 0 
+153 1 -2 
+154 1 154 
+218 0 
+28 1 -2 
+33 1 32 
+229 1 198 
+166 3 -1 163 125 
+39 1 -2 
+105 6 -1 -3 163 182 8 125 
+108 1 -2 
+45 1 -2 
+241 7 -1 -3 163 198 182 8 125 
+178 4 160 163 37 43 
+115 1 -2 
+116 1 116 
+191 1 -2 
+Constructors: 0
+
+Summary: 6
+-3 182 8 -1 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.isStaticallyInvocable(Ljava/lang/invoke/LambdaForm$Name;)Z
+PTG:
+Vars:
+3
+$r2 1 4 
+r0 1 -2 
+$r1 1 1 
+Fields: 1
+-2 function 1
+Accesses: 1
+0 1 -2 
+Functions: 2
+1 1 1 
+4 1 4 
+Constructors: 0
+
+Summary: 3
+-2 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.isGuardWithCatch(I)Z
+PTG:
+Vars:
+14
+$r1 1 4 
+r8 1 37 
+r11 1 49 
+$r10 1 7 
+r5 1 25 
+$r3 1 4 
+$r4 1 7 
+$r12 1 4 
+$r7 1 7 
+$r2 1 7 
+$r9 1 4 
+$r13 1 4 
+r0 1 -1 
+$r6 1 4 
+Fields: 5
+7 ArrayObject 25
+7 ArrayObject 37
+7 ArrayObject 49
+-1 lambdaForm 4
+4 names 7
+Accesses: 10
+16 1 -1 
+17 1 4 
+114 1 -1 
+3 1 -1 
+4 1 4 
+38 1 -1 
+39 1 4 
+26 1 -1 
+90 1 -1 
+27 1 4 
+Functions: 7
+64 6 -1 49 4 37 7 25 
+81 2 37 25 
+51 6 -1 49 4 37 7 25 
+115 5 49 4 37 7 25 
+72 6 -1 49 4 37 7 25 
+104 2 49 37 
+91 5 49 4 37 7 25 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.checkActualReceiver()Z
+PTG:
+Vars:
+5
+$r3 1 1 
+$r2 1 16 
+$r4 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 2
+-1 mv 1
+-1 localsMap 16
+Accesses: 4
+0 1 -1 
+24 1 -1 
+9 1 -1 
+15 1 -1 
+Functions: 3
+21 1 1 
+6 1 1 
+38 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.memberRefersTo(Ljava/lang/invoke/MemberName;Ljava/lang/Class;Ljava/lang/String;)Z
+PTG:
+Vars:
+6
+r0 1 -2 
+$r3 1 13 
+r5 1 -1 
+r2 1 -3 
+$r1 1 5 
+r4 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 -2 
+12 1 -2 
+13 2 -4 13 
+Constructors: 0
+
+Summary: 6
+-3 2 -1 -4 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.generateNamedFunctionInvokerImpl(Ljava/lang/invoke/MethodTypeForm;)[B
+PTG:
+Vars:
+26
+$r17 1 84 
+_ret 1 269 
+r29 1 269 
+r19 1 70 
+r1 1 4 
+$r15 1 10 
+r2 1 -1 
+$r12 1 263 
+r23 1 145 
+r21 1 98 
+$r16 1 81 
+$r3 1 10 
+$r28 1 225 
+$r9 1 170 
+$r22 2 98 108 
+r0 1 -2 
+$r8 1 10 
+r25 1 189 
+$r5 1 10 
+$r14 1 10 
+$r13 1 272 
+$r11 1 252 
+$r26 2 199 189 
+r24 1 166 
+$r10 1 240 
+$r7 1 139 
+Fields: 3
+-1 className 272
+-1 cw 263
+-1 mv 10
+Accesses: 7
+146 1 -1 
+20 1 -1 
+262 1 -1 
+231 1 -1 
+56 1 -1 
+9 1 -1 
+271 1 -1 
+Functions: 33
+0 1 -2 
+65 1 4 
+129 6 -1 272 98 263 10 108 
+259 5 -1 272 263 10 252 
+6 4 -1 272 263 10 
+263 1 263 
+72 1 70 
+138 1 4 
+139 1 139 
+16 1 10 
+80 1 4 
+81 1 81 
+277 2 272 269 
+214 6 -1 272 263 199 10 189 
+27 1 10 
+91 1 84 
+220 6 -1 272 263 199 10 189 
+93 1 70 
+159 2 145 10 
+33 4 -1 272 263 10 
+162 1 4 
+100 1 98 
+39 1 4 
+236 1 10 
+48 4 -1 272 263 10 
+176 1 166 
+243 5 -1 272 240 263 10 
+53 4 -1 272 263 10 
+247 4 -1 272 263 10 
+184 1 166 
+121 6 -1 272 98 263 10 108 
+62 1 10 
+191 1 189 
+Constructors: 0
+
+Summary: 12
+81 -1 98 84 139 70 166 -2 252 189 0 145 
+java/lang/invoke/InvokerBytecodeGenerator.getInternalName(Ljava/lang/Class;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r0 1 -2 
+_ret 1 71 
+$r1 1 64 
+$r2 1 71 
+Fields: 0
+Accesses: 0
+Functions: 5
+64 1 64 
+55 1 -2 
+43 1 -2 
+59 0 
+63 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/lang/invoke/InvokerBytecodeGenerator.debugString(Ljava/lang/Object;)Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 32 
+_ret 1 32 
+Fields: 0
+Accesses: 0
+Functions: 4
+21 0 
+26 0 
+12 0 
+31 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+java/lang/invoke/InvokerBytecodeGenerator.emitPushArguments(Ljava/lang/invoke/LambdaForm$Name;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/invoke/InvokerBytecodeGenerator.<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/invoke/MethodType;)V
+PTG:
+Vars:
+12
+r0 1 -1 
+r3 1 -3 
+$r5 1 23 
+$r6 1 13 
+$r9 1 13 
+$r11 1 79 
+r2 1 -2 
+$r4 1 13 
+$r10 1 76 
+$r7 1 33 
+r1 1 -4 
+$r8 1 33 
+Fields: 2
+-1 localTypes 13
+-1 localsMap 33
+Accesses: 5
+16 1 -1 
+32 1 -1 
+67 1 -1 
+40 1 -1 
+12 1 -1 
+Functions: 7
+2 1 -4 
+50 1 -4 
+9 6 -1 33 -2 -3 -4 13 
+73 1 -4 
+60 1 -4 
+76 1 76 
+46 1 -4 
+Constructors: 1
+9 -1
+
+Summary: 6
+-2 -3 2 -1 -4 1 
+java/lang/invoke/InvokerBytecodeGenerator.generateLambdaFormInterpreterEntryPoint(Ljava/lang/String;)Ljava/lang/invoke/MemberName;
+PTG:
+Vars:
+12
+$r3 1 35 
+r2 1 -2 
+$r6 1 61 
+$r0 1 21 
+r11 1 52 
+$r9 1 79 
+r5 1 47 
+_ret 1 79 
+$r8 1 76 
+$r4 1 41 
+r12 1 60 
+$r1 1 31 
+Fields: 0
+Accesses: 0
+Functions: 13
+34 1 -2 
+35 1 35 
+6 1 -2 
+70 3 60 61 47 
+41 1 41 
+74 2 76 61 
+75 1 61 
+48 1 -2 
+17 0 
+21 1 21 
+53 1 52 
+25 1 21 
+31 1 31 
+Constructors: 2
+70 61
+25 21
+
+Summary: 3
+61 -2 0 
+java/lang/invoke/InvokerBytecodeGenerator.emitX2I(Lsun/invoke/util/Wrapper;)V
+PTG:
+Vars:
+6
+r2 1 -1 
+$r1 1 0 
+$r5 1 37 
+r0 1 -2 
+$r3 1 63 
+$r4 1 50 
+Fields: 3
+-1 mv 37
+-1 mv 63
+-1 mv 50
+Accesses: 3
+49 1 -1 
+36 1 -1 
+62 1 -1 
+Functions: 9
+98 0 
+3 1 -2 
+83 0 
+69 1 63 
+56 1 50 
+88 1 -2 
+43 1 37 
+92 0 
+79 0 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/invoke/InvokerBytecodeGenerator.emitArrayLoad(Ljava/lang/invoke/LambdaForm$Name;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/lang/invoke/InvokerBytecodeGenerator.emitStoreResult(Ljava/lang/invoke/LambdaForm$Name;)V
+PTG:
+Vars:
+5
+$r4 1 5 
+$r2 1 5 
+$r1 1 8 
+r3 1 -1 
+r0 1 -2 
+Fields: 1
+-2 type 5
+Accesses: 2
+4 1 -2 
+15 1 -2 
+Functions: 2
+19 2 -2 5 
+23 2 -1 5 
+Constructors: 0
+
+Summary: 3
+-2 -1 5 
+java/lang/invoke/InvokerBytecodeGenerator.emitGuardWithCatch(I)Ljava/lang/invoke/LambdaForm$Name;
+PTG:
+Vars:
+47
+$r18 1 73 
+$r31 1 162 
+r3 1 9 
+$r10 1 35 
+$r50 1 110 
+$r22 1 88 
+_ret 1 33 
+r21 1 85 
+$r12 1 44 
+$r44 1 110 
+$r32 1 110 
+$r42 1 288 
+$r14 1 53 
+$r19 1 76 
+$r20 1 79 
+$r34 1 110 
+r6 1 21 
+$r37 1 110 
+$r40 1 110 
+$r33 1 110 
+$r16 1 62 
+$r4 1 1 
+$r29 1 110 
+r0 1 -1 
+$r28 1 110 
+$r5 1 4 
+$r23 1 91 
+$r47 1 110 
+$r30 1 159 
+$r38 1 242 
+$r8 1 4 
+$r36 1 110 
+$r27 1 110 
+$r49 1 110 
+r26 1 107 
+r9 1 33 
+$r1 1 1 
+$r35 1 110 
+$r48 1 110 
+$r46 1 318 
+$r25 1 99 
+$r2 1 4 
+$r7 1 1 
+r43 1 300 
+$r24 1 94 
+$r41 1 110 
+$r45 1 315 
+Fields: 11
+33 function 73
+9 function 88
+288 ArrayObject 296
+-1 lambdaForm 1
+-1 mv 110
+1 names 4
+73 resolvedHandle 76
+4 ArrayObject 9
+4 ArrayObject 21
+4 ArrayObject 33
+88 resolvedHandle 91
+Accesses: 26
+0 1 -1 
+1 1 1 
+325 1 -1 
+71 1 33 
+199 1 -1 
+73 1 73 
+10 1 -1 
+11 1 1 
+269 1 -1 
+337 1 -1 
+146 1 -1 
+22 1 -1 
+214 1 -1 
+23 1 1 
+87 1 9 
+88 1 88 
+346 1 -1 
+223 1 -1 
+356 1 -1 
+169 1 -1 
+109 1 -1 
+302 1 -1 
+178 1 -1 
+251 1 -1 
+125 1 -1 
+190 1 -1 
+Functions: 36
+66 1 62 
+322 2 110 318 
+131 2 35 110 
+196 2 53 110 
+260 2 242 110 
+137 11 -1 1 33 4 21 88 9 73 91 76 110 
+266 11 -1 1 33 4 21 88 9 73 91 76 110 
+76 1 76 
+205 1 110 
+334 2 110 62 
+79 1 79 
+143 11 -1 1 33 4 21 88 9 73 91 76 110 
+211 11 -1 1 33 4 21 88 9 73 91 76 110 
+275 1 110 
+343 2 242 110 
+281 11 -1 1 33 4 21 88 9 73 91 76 110 
+91 1 91 
+220 1 110 
+284 3 288 296 107 
+157 1 107 
+94 1 94 
+159 1 159 
+353 1 110 
+99 2 99 85 
+166 2 162 110 
+39 1 35 
+362 2 110 62 
+175 2 44 110 
+239 1 110 
+48 1 44 
+246 1 242 
+57 1 53 
+313 1 300 
+122 4 35 53 44 110 
+187 2 110 62 
+315 1 315 
+Constructors: 5
+48 44
+66 62
+246 242
+39 35
+57 53
+
+Summary: 7
+35 62 288 -1 53 242 44 
+java/lang/invoke/InvokerBytecodeGenerator.indexForFrameLocal(I)I
+PTG:
+Vars:
+6
+$r3 1 22 
+$r5 1 26 
+r0 1 -1 
+$r1 1 4 
+$r4 1 27 
+$r2 1 4 
+Fields: 3
+22 ArrayObject 26
+-1 localTypes 22
+-1 localsMap 4
+Accesses: 3
+3 1 -1 
+21 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.emitReferenceCast(Ljava/lang/Class;Ljava/lang/Object;)V
+PTG:
+Vars:
+17
+$r4 1 76 
+$r7 1 71 
+r15 1 -3 
+$r12 1 56 
+$r5 1 71 
+$r11 1 71 
+r1 1 -2 
+$r3 1 71 
+r14 1 -3 
+$r10 1 71 
+r2 1 -1 
+$r13 1 27 
+r16 1 53 
+$r9 2 56 71 
+$r6 1 71 
+$r8 1 120 
+r0 1 -3 
+Fields: 3
+-1 lambdaForm 27
+-1 mv 56
+-1 mv 71
+Accesses: 9
+129 1 -1 
+82 1 -1 
+70 1 -1 
+150 1 -1 
+166 1 -1 
+55 1 -1 
+103 1 -1 
+26 1 -1 
+94 1 -1 
+Functions: 16
+64 2 53 56 
+100 1 71 
+42 1 -2 
+74 5 -1 -2 71 56 27 
+138 1 71 
+172 2 71 56 
+15 6 -1 -2 -3 71 56 27 
+79 2 71 76 
+176 1 -3 
+49 1 -2 
+180 4 -1 71 56 27 
+117 1 71 
+120 2 -2 120 
+27 2 -3 27 
+91 1 71 
+159 1 71 
+Constructors: 0
+
+Summary: 4
+-3 -1 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.generateLambdaFormInterpreterEntryPointBytes()[B
+PTG:
+Vars:
+26
+_ret 1 240 
+$r1 1 5 
+$r15 1 5 
+$r18 1 103 
+$r11 1 28 
+$r12 1 192 
+$r9 1 5 
+$r14 1 28 
+r19 1 70 
+$r23 1 28 
+$r7 1 28 
+$r8 1 5 
+$r6 1 5 
+$r26 1 242 
+r25 1 240 
+$r17 1 5 
+r20 1 183 
+$r3 1 5 
+$r13 1 200 
+r0 1 -1 
+$r22 1 220 
+$r24 1 234 
+$r21 1 208 
+$r5 1 28 
+$r16 1 87 
+$r10 1 5 
+Fields: 4
+-1 className 242
+-1 invokerType 28
+-1 cw 234
+-1 mv 5
+Accesses: 15
+129 1 -1 
+225 1 -1 
+4 1 -1 
+37 1 -1 
+71 1 -1 
+233 1 -1 
+109 1 -1 
+15 1 -1 
+176 1 -1 
+241 1 -1 
+147 1 -1 
+52 1 -1 
+27 1 -1 
+156 1 -1 
+62 1 -1 
+Functions: 30
+1 5 -1 242 5 234 28 
+199 1 183 
+11 1 5 
+203 6 -1 242 5 200 234 28 
+77 1 5 
+207 1 183 
+144 1 5 
+82 5 -1 242 5 234 28 
+211 6 -1 208 242 5 234 28 
+22 1 5 
+86 1 70 
+215 5 -1 242 5 234 28 
+153 1 5 
+91 6 -1 242 5 87 234 28 
+28 1 28 
+94 1 70 
+34 5 -1 242 5 234 28 
+102 1 70 
+230 6 -1 242 5 234 28 220 
+106 6 -1 242 5 103 234 28 
+234 1 234 
+173 1 5 
+46 1 5 
+177 1 28 
+115 1 5 
+53 1 28 
+246 2 240 242 
+184 1 183 
+126 5 -1 242 5 234 28 
+63 1 28 
+Constructors: 0
+
+Summary: 2
+-1 220 
+java/lang/invoke/InvokerBytecodeGenerator.emitStoreInsn(Ljava/lang/invoke/LambdaForm$BasicType;I)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r2 1 12 
+$r3 1 7 
+Fields: 2
+-1 mv 7
+-1 localsMap 12
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 2
+0 4 -1 -2 7 12 
+17 1 7 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/invoke/InvokerBytecodeGenerator.storeInsnOpcode(Ljava/lang/invoke/LambdaForm$BasicType;)I
+PTG:
+Vars:
+8
+$r5 1 76 
+$r3 1 63 
+r0 1 -2 
+r7 1 -1 
+$r1 1 0 
+$r4 1 72 
+$r6 1 79 
+$r2 1 59 
+Fields: 0
+Accesses: 0
+Functions: 6
+82 2 59 79 
+3 1 -2 
+67 1 63 
+72 2 -2 72 
+76 1 76 
+63 1 63 
+Constructors: 2
+82 59
+67 63
+
+Summary: 3
+-2 -1 0 
+java/lang/invoke/InvokerBytecodeGenerator.emitSelectAlternative(Ljava/lang/invoke/LambdaForm$Name;Ljava/lang/invoke/LambdaForm$Name;)Ljava/lang/invoke/LambdaForm$Name;
+PTG:
+Vars:
+18
+r13 1 71 
+$r11 1 68 
+$r17 1 56 
+$r16 1 68 
+_ret 1 -3 
+r0 1 -3 
+$r10 1 56 
+$r15 1 56 
+$r12 1 71 
+r9 1 -2 
+$r4 1 31 
+$r14 1 56 
+$r18 1 68 
+r3 1 26 
+$r1 1 22 
+$r6 1 40 
+$r2 1 26 
+r8 1 -1 
+Fields: 4
+22 ArrayObject 26
+-3 arguments 22
+-1 mv 56
+-1 localClasses 68
+Accesses: 8
+98 1 -1 
+67 1 -1 
+164 1 -1 
+21 1 -3 
+55 1 -1 
+152 1 -1 
+122 1 -1 
+110 1 -1 
+Functions: 20
+64 2 56 31 
+130 2 68 71 
+35 1 31 
+68 1 68 
+6 3 -3 22 26 
+136 4 -1 -2 68 56 
+107 2 56 40 
+44 1 40 
+140 1 26 
+172 2 68 71 
+144 3 -1 68 56 
+17 0 
+82 4 -1 -2 68 56 
+52 4 -1 -2 68 56 
+116 2 56 31 
+149 6 -1 -3 68 22 56 26 
+86 1 26 
+90 3 -1 68 56 
+158 2 56 40 
+95 6 -1 -3 68 22 56 26 
+Constructors: 2
+35 31
+44 40
+
+Summary: 4
+-2 -1 40 31 
+java/lang/invoke/InvokerBytecodeGenerator.emitPushArgument(Ljava/lang/invoke/LambdaForm$Name;I)V
+PTG:
+Vars:
+7
+$r3 1 8 
+$r1 1 1 
+r6 1 -1 
+$r4 1 11 
+r5 1 18 
+r0 1 -2 
+r2 1 6 
+Fields: 3
+-2 function 8
+-2 arguments 1
+1 ArrayObject 6
+Accesses: 2
+0 1 -2 
+7 1 -2 
+Functions: 3
+8 1 8 
+24 3 -1 18 6 
+11 1 11 
+Constructors: 0
+
+Summary: 6
+-2 -1 8 0 1 6 
+java/lang/invoke/InvokerBytecodeGenerator.<clinit>()V
+PTG:
+Vars:
+12
+$r5 1 74 
+$r7 1 84 
+$r1 1 16 
+$r4 1 44 
+$r6 1 71 
+$r3 1 34 
+$r9 1 90 
+$r2 1 123 
+$r8 1 87 
+$r11 1 99 
+$r0 1 0 
+$r10 1 96 
+Fields: 3
+123 ArrayObject 136
+123 ArrayObject 142
+123 ArrayObject 130
+Accesses: 0
+Functions: 13
+0 1 0 
+-1 0 
+96 1 96 
+38 1 34 
+102 2 99 71 
+74 1 74 
+109 0 
+78 1 74 
+51 1 44 
+84 2 84 87 
+55 1 44 
+90 1 90 
+63 1 44 
+Constructors: 3
+51 44
+38 34
+78 74
+
+Summary: 0
+
+java/lang/invoke/InvokerBytecodeGenerator.emitBoxing(Lsun/invoke/util/Wrapper;)V
+PTG:
+Vars:
+16
+r14 1 65 
+r15 1 -1 
+$r8 1 29 
+$r12 1 54 
+$r13 1 59 
+$r3 1 13 
+$r16 1 68 
+r2 1 -2 
+$r11 1 50 
+r6 1 25 
+$r9 1 38 
+$r0 1 0 
+$r5 1 19 
+$r10 1 45 
+$r4 1 16 
+$r1 1 9 
+Fields: 1
+-1 mv 68
+Accesses: 1
+67 1 -1 
+Functions: 15
+0 1 0 
+33 1 29 
+4 1 0 
+38 1 38 
+9 2 16 9 
+41 1 -2 
+12 1 -2 
+13 1 13 
+45 1 45 
+79 3 65 68 25 
+50 2 50 25 
+19 1 19 
+54 1 54 
+59 1 59 
+29 1 29 
+Constructors: 2
+33 29
+4 0
+
+Summary: 3
+-1 -2 0 
+java/lang/invoke/InvokerBytecodeGenerator.emitNewArray(Ljava/lang/invoke/LambdaForm$Name;)V
+PTG:
+Vars:
+15
+$r7 1 165 
+$r8 1 184 
+$r4 1 12 
+r25 1 107 
+$r11 1 147 
+$r12 1 154 
+$r2 1 4 
+$r6 1 12 
+$r1 1 1 
+$r9 2 147 184 
+r3 1 10 
+r0 1 -2 
+$r10 2 147 184 
+r5 1 -1 
+$r26 1 12 
+Fields: 4
+-2 function 1
+-2 arguments 12
+-1 mv 184
+-1 mv 147
+Accesses: 10
+0 1 -2 
+208 1 -1 
+146 1 -1 
+19 1 -2 
+84 1 -1 
+230 1 -1 
+183 1 -1 
+200 1 -2 
+11 1 -2 
+127 1 -2 
+Functions: 26
+192 1 184 
+1 1 1 
+4 1 4 
+68 0 
+132 3 -1 147 184 
+139 1 107 
+80 0 
+214 2 147 184 
+23 0 
+88 3 -1 147 184 
+153 1 107 
+220 3 -1 147 184 
+93 0 
+157 2 147 154 
+35 0 
+99 4 -1 147 184 10 
+163 4 -1 147 165 184 
+227 6 -1 -2 1 147 184 12 
+164 1 107 
+103 1 10 
+236 2 147 184 
+173 3 -1 147 184 
+47 0 
+248 7 -1 -2 1 147 184 10 12 
+58 0 
+122 0 
+Constructors: 0
+
+Summary: 6
+-1 12 -2 69 1 107 
+java/lang/invoke/InvokerBytecodeGenerator.classFileEpilogue()V
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 mv 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+6 1 1 
+13 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.resolveInvokerMember(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MemberName;
+PTG:
+Vars:
+8
+$r0 1 0 
+$r4 1 19 
+r1 1 -2 
+r3 1 -4 
+r10 1 27 
+_ret 1 27 
+r2 1 -3 
+$r5 1 13 
+Fields: 0
+Accesses: 0
+Functions: 3
+33 0 
+9 4 0 -2 -3 -4 
+13 3 0 19 13 
+Constructors: 1
+9 0
+
+Summary: 6
+-3 2 -2 -4 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.access$000()Ljava/io/File;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/lang/invoke/InvokerBytecodeGenerator.refKindOpcode(B)I
+PTG:
+Vars:
+6
+$r0 1 84 
+$r2 1 98 
+$r1 1 88 
+r5 1 -1 
+$r3 1 102 
+$r4 1 105 
+Fields: 0
+Accesses: 0
+Functions: 5
+98 1 98 
+102 1 102 
+88 1 88 
+92 1 88 
+108 2 84 105 
+Constructors: 2
+92 88
+108 84
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.nameRefersTo(Ljava/lang/invoke/LambdaForm$Name;Ljava/lang/Class;Ljava/lang/String;)Z
+PTG:
+Vars:
+7
+$r4 1 12 
+$r3 1 1 
+r2 1 -1 
+$r1 1 1 
+r0 1 -2 
+r5 1 -3 
+r6 1 -4 
+Fields: 1
+-2 function 1
+Accesses: 2
+0 1 -2 
+8 1 -2 
+Functions: 2
+7 4 -1 -3 -4 12 
+9 1 1 
+Constructors: 0
+
+Summary: 6
+-2 -3 -1 -4 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.emitReturnInsn(Ljava/lang/invoke/LambdaForm$BasicType;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r2 1 -1 
+$r8 1 118 
+$r1 1 0 
+Fields: 1
+-1 mv 118
+Accesses: 1
+117 1 -1 
+Functions: 7
+113 0 
+98 0 
+3 1 -2 
+103 1 -2 
+122 1 118 
+107 0 
+94 0 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/invoke/InvokerBytecodeGenerator.emitPushArgument(Ljava/lang/Class;Ljava/lang/Object;)V
+PTG:
+Vars:
+13
+$r8 1 111 
+$r6 1 99 
+$r7 1 104 
+$r11 1 21 
+$r3 1 59 
+$r4 1 74 
+$r12 1 21 
+r10 1 -3 
+$r9 1 84 
+r1 1 4 
+r0 1 -2 
+r2 1 -3 
+r5 1 -1 
+Fields: 2
+-3 type 21
+-1 mv 99
+Accesses: 3
+33 1 -3 
+98 1 -1 
+19 1 -3 
+Functions: 11
+0 1 -2 
+67 4 -1 -3 99 21 
+116 6 -1 -2 -3 99 21 111 
+102 4 -1 -3 99 21 
+24 2 -3 21 
+41 5 -1 -2 -3 99 21 
+73 2 -3 21 
+74 1 74 
+107 2 99 104 
+92 4 -1 -3 99 21 
+29 3 -1 99 21 
+Constructors: 0
+
+Summary: 7
+-3 -1 -2 74 0 21 1 
+java/lang/invoke/InvokerBytecodeGenerator.assertStaticType(Ljava/lang/Class;Ljava/lang/invoke/LambdaForm$Name;)Z
+PTG:
+Vars:
+6
+$r2 1 6 
+r1 1 -1 
+$r5 1 6 
+r0 1 -3 
+r4 1 -2 
+r3 1 11 
+Fields: 2
+-1 localClasses 6
+6 ArrayObject 11
+Accesses: 2
+49 1 -1 
+5 1 -1 
+Functions: 3
+0 1 -3 
+24 2 -2 11 
+40 2 -2 11 
+Constructors: 0
+
+Summary: 4
+-3 -1 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.emitAloadInsn(I)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.isSelectAlternative(I)Z
+PTG:
+Vars:
+10
+$r1 1 4 
+$r4 1 7 
+$r7 1 7 
+r0 1 -1 
+r8 1 37 
+$r9 1 4 
+r5 1 25 
+$r2 1 7 
+$r6 1 4 
+$r3 1 4 
+Fields: 4
+7 ArrayObject 25
+7 ArrayObject 37
+-1 lambdaForm 4
+4 names 7
+Accesses: 7
+16 1 -1 
+17 1 4 
+3 1 -1 
+67 1 -1 
+4 1 4 
+26 1 -1 
+27 1 4 
+Functions: 4
+51 5 -1 4 37 7 25 
+68 4 4 37 7 25 
+38 5 -1 4 37 7 25 
+59 2 37 25 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.constantPlaceholder(Ljava/lang/Object;)Ljava/lang/String;
+PTG:
+Vars:
+17
+$r3 1 23 
+r2 1 -1 
+$r19 1 56 
+$r5 1 109 
+$r16 1 44 
+_ret 2 67 29 
+r7 1 -2 
+$r8 1 69 
+$r4 1 69 
+$r6 1 122 
+$r15 1 36 
+$r1 1 9 
+$r18 1 53 
+$r20 1 61 
+r21 2 67 29 
+$r17 1 49 
+$r0 1 0 
+Fields: 2
+-1 cw 109
+-1 cpPatches 69
+Accesses: 5
+20 1 -1 
+68 1 -1 
+117 1 -1 
+12 1 -1 
+108 1 -1 
+Functions: 20
+0 1 0 
+98 0 
+130 7 -1 -2 67 69 122 109 29 
+4 1 0 
+36 3 67 36 29 
+69 3 67 69 29 
+133 4 67 69 122 29 
+40 1 36 
+104 0 
+9 1 9 
+44 1 44 
+109 3 67 109 29 
+49 2 49 53 
+52 1 -2 
+85 0 
+23 1 23 
+56 1 56 
+89 0 
+61 1 61 
+94 2 67 29 
+Constructors: 3
+130 122
+4 0
+40 36
+
+Summary: 4
+-1 -2 122 0 
+java/lang/invoke/InvokerBytecodeGenerator.<init>(Ljava/lang/invoke/LambdaForm;ILjava/lang/String;Ljava/lang/String;Ljava/lang/invoke/MethodType;)V
+PTG:
+Vars:
+17
+r11 1 -6 
+$r14 1 156 
+r16 2 57 -5 
+$r5 1 87 
+$r3 1 80 
+$r6 1 94 
+$r13 1 146 
+r15 3 -4 47 69 
+$r9 1 110 
+$r4 1 84 
+r0 1 -1 
+$r7 1 103 
+r10 1 -2 
+$r1 1 5 
+$r12 1 137 
+$r8 1 107 
+$r2 1 71 
+Fields: 0
+Accesses: 10
+17 1 -1 
+113 1 -1 
+130 1 -1 
+149 1 -1 
+118 1 -1 
+90 1 -1 
+139 1 -1 
+12 1 -1 
+124 1 -1 
+159 1 -1 
+Functions: 15
+1 1 -1 
+65 3 -4 69 47 
+98 1 94 
+39 2 -5 57 
+71 1 71 
+103 4 -4 69 103 47 
+9 1 5 
+75 1 71 
+107 1 107 
+48 2 -5 57 
+80 4 80 -4 69 47 
+20 2 -5 57 
+84 1 84 
+30 2 -5 57 
+94 1 94 
+Constructors: 4
+1 -1
+98 94
+9 5
+75 71
+
+Summary: 6
+2 -1 4 -4 3 0 
+java/lang/invoke/InvokerBytecodeGenerator.emitImplicitConversion(Ljava/lang/invoke/LambdaForm$BasicType;Ljava/lang/Class;Ljava/lang/Object;)V
+PTG:
+Vars:
+15
+r1 1 -2 
+r0 1 -3 
+$r3 1 38 
+r4 1 -1 
+r5 1 -4 
+$r14 1 152 
+$r15 1 155 
+$r13 1 149 
+$r16 1 31 
+$r12 1 145 
+$r10 1 136 
+$r9 1 127 
+$r11 1 140 
+$r17 1 7 
+$r2 1 24 
+Fields: 0
+Accesses: 0
+Functions: 18
+99 3 -1 -3 -4 
+131 1 127 
+6 1 -3 
+136 2 -2 136 
+41 1 -2 
+75 1 -3 
+107 1 -3 
+140 1 140 
+145 2 145 -3 
+18 0 
+115 1 -2 
+149 1 149 
+23 1 -2 
+119 1 -3 
+152 1 152 
+123 1 -1 
+92 2 -1 -4 
+127 1 127 
+Constructors: 1
+131 127
+
+Summary: 7
+-3 2 -1 -2 -4 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.isLinkerMethodInvoke(Ljava/lang/invoke/LambdaForm$Name;)Z
+PTG:
+Vars:
+8
+$r1 1 1 
+r7 1 -1 
+$r6 1 56 
+$r3 1 1 
+r4 1 27 
+$r2 1 10 
+$r5 1 33 
+r0 1 -2 
+Fields: 2
+-2 function 1
+-2 arguments 10
+Accesses: 3
+0 1 -2 
+20 1 -2 
+9 1 -2 
+Functions: 6
+32 1 27 
+48 1 27 
+21 1 1 
+55 1 27 
+56 1 56 
+41 1 27 
+Constructors: 0
+
+Summary: 5
+-2 -1 10 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.emitPrimCast(Lsun/invoke/util/Wrapper;Lsun/invoke/util/Wrapper;)V
+PTG:
+Vars:
+13
+$r3 1 219 
+$r17 1 88 
+$r15 1 202 
+$r19 1 125 
+$r14 1 155 
+$r5 1 266 
+r4 1 -1 
+$r13 1 253 
+$r18 1 138 
+r0 1 -2 
+$r16 1 189 
+$r2 1 52 
+r1 1 -3 
+Fields: 6
+-1 mv 253
+-1 mv 266
+-1 mv 189
+-1 mv 202
+-1 mv 138
+-1 mv 125
+Accesses: 6
+137 1 -1 
+201 1 -1 
+265 1 -1 
+124 1 -1 
+188 1 -1 
+252 1 -1 
+Functions: 23
+33 1 -3 
+131 1 125 
+195 1 189 
+259 1 253 
+323 0 
+293 0 
+6 1 -2 
+297 0 
+44 8 -1 -3 266 202 138 253 189 125 
+15 8 -1 -3 266 202 138 253 189 125 
+303 1 -2 
+144 1 138 
+208 1 202 
+272 1 266 
+307 0 
+21 1 -3 
+55 1 -2 
+313 1 -3 
+91 1 -3 
+317 0 
+30 8 -1 -2 266 202 138 253 189 125 
+158 1 -3 
+222 1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -1 -2 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.getConstantPoolSize([B)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/lang/invoke/InvokerBytecodeGenerator.loadMethod([B)Ljava/lang/invoke/MemberName;
+PTG:
+Vars:
+8
+$r5 1 12 
+r0 1 -2 
+r3 1 9 
+$r4 1 16 
+_ret 1 19 
+r1 1 -1 
+$r6 1 19 
+$r2 1 3 
+Fields: 2
+-1 invokerType 16
+-1 invokerName 12
+Accesses: 2
+11 1 -1 
+15 1 -1 
+Functions: 3
+16 3 16 9 12 
+1 4 -1 16 -2 12 
+3 2 -2 3 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/invoke/InvokerBytecodeGenerator.isInvokeBasic(Ljava/lang/invoke/LambdaForm$Name;)Z
+PTG:
+Vars:
+6
+r4 1 27 
+$r2 1 10 
+r0 1 -2 
+$r3 1 1 
+$r1 1 1 
+r5 1 -1 
+Fields: 2
+-2 function 1
+-2 arguments 10
+Accesses: 3
+0 1 -2 
+20 1 -2 
+9 1 -2 
+Functions: 4
+21 1 1 
+40 1 27 
+28 2 -1 27 
+47 1 27 
+Constructors: 0
+
+Summary: 5
+-2 -1 10 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.bogusMethod([Ljava/lang/Object;)V
+PTG:
+Vars:
+11
+$r2 1 21 
+$r6 2 48 75 
+r8 1 45 
+r0 1 -1 
+$r5 2 48 75 
+r3 1 -2 
+$r1 1 8 
+$r10 1 53 
+$r11 1 48 
+$r7 2 48 75 
+$r9 1 48 
+Fields: 4
+-2 ArrayObject 45
+-1 cw 8
+-1 mv 75
+-1 mv 48
+Accesses: 7
+84 1 -1 
+7 1 -1 
+24 1 -1 
+74 1 -1 
+59 1 -1 
+93 1 -1 
+47 1 -1 
+Functions: 7
+65 1 48 
+81 2 48 75 
+97 2 48 75 
+51 1 45 
+8 1 8 
+56 2 48 53 
+90 2 48 75 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 45 
+java/lang/invoke/InvokerBytecodeGenerator.emitStaticInvoke(Ljava/lang/invoke/LambdaForm$Name;)V
+PTG:
+Vars:
+4
+$r2 1 2 
+r0 1 -1 
+$r3 1 5 
+r1 1 -2 
+Fields: 1
+-2 function 2
+Accesses: 1
+1 1 -2 
+Functions: 2
+2 1 2 
+9 4 -1 -2 2 5 
+Constructors: 0
+
+Summary: 4
+-2 -1 2 0 
+java/lang/invoke/InvokerBytecodeGenerator.maybeDump(Ljava/lang/String;[B)V
+PTG:
+Vars:
+3
+r2 1 -3 
+$r0 1 6 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+12 3 -2 -3 6 
+15 1 6 
+Constructors: 1
+12 6
+
+Summary: 4
+-2 -3 0 1 
+java/lang/invoke/InvokerBytecodeGenerator.emitReturn(Ljava/lang/invoke/LambdaForm$Name;)V
+PTG:
+Vars:
+14
+r10 1 -2 
+$r3 1 9 
+r4 1 15 
+$r11 1 9 
+$r12 1 46 
+r2 1 7 
+$r8 1 62 
+$r6 1 9 
+r0 1 -1 
+$r13 1 24 
+r9 1 73 
+$r5 1 39 
+$r7 1 9 
+$r1 1 1 
+Fields: 5
+9 names 62
+-1 lambdaForm 9
+-1 invokerType 1
+-1 mv 46
+62 ArrayObject 73
+Accesses: 9
+0 1 -1 
+65 1 -1 
+66 1 9 
+83 1 -1 
+84 1 9 
+8 1 -1 
+58 1 -1 
+59 1 9 
+45 1 -1 
+Functions: 8
+1 1 1 
+34 0 
+98 8 -1 1 7 9 73 46 62 15 
+52 1 46 
+23 1 7 
+103 7 -1 1 9 73 46 62 15 
+9 3 9 73 62 
+90 7 -1 1 9 73 46 62 15 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/lang/invoke/InvokerBytecodeGenerator.emitLoadInsn(Ljava/lang/invoke/LambdaForm$BasicType;I)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r3 1 7 
+$r2 1 12 
+Fields: 2
+-1 mv 7
+-1 localsMap 12
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 2
+0 4 -1 -2 7 12 
+17 1 7 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/invoke/InvokerBytecodeGenerator.arrayInsnOpcode(BI)I
+PTG:
+Vars:
+1
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+146 0 
+22 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.makeDumpableClassName(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+16
+$r9 1 66 
+r18 1 107 
+r17 2 57 85 
+$r11 1 79 
+_ret 1 107 
+$r10 1 75 
+$r7 1 97 
+$r8 1 101 
+$r2 1 10 
+$r0 1 0 
+$r4 1 36 
+$r1 1 6 
+$r3 1 26 
+r14 1 -2 
+$r6 1 89 
+r16 2 10 25 
+Fields: 0
+Accesses: 0
+Functions: 15
+97 3 97 85 57 
+66 1 66 
+35 0 
+101 1 101 
+6 2 -2 6 
+70 1 66 
+39 3 -2 36 26 
+75 3 85 57 75 
+79 1 79 
+21 0 
+53 2 25 10 
+89 2 -2 89 
+58 2 85 57 
+93 1 89 
+30 2 25 10 
+Constructors: 2
+70 66
+93 89
+
+Summary: 2
+-2 0 
+java/lang/invoke/InvokerBytecodeGenerator.isStaticallyNameable(Ljava/lang/Class;)Z
+PTG:
+Vars:
+6
+r5 2 -2 19 
+r4 1 95 
+$r2 1 47 
+$r0 1 42 
+$r1 1 45 
+r3 1 81 
+Fields: 1
+81 ArrayObject 95
+Accesses: 0
+Functions: 10
+32 2 -2 19 
+66 2 -2 19 
+67 0 
+99 3 -2 19 95 
+23 2 -2 19 
+8 2 -2 19 
+41 2 -2 19 
+57 2 -2 19 
+45 1 45 
+15 2 -2 19 
+Constructors: 0
+
+Summary: 3
+-2 0 19 
+java/lang/invoke/InvokerBytecodeGenerator.emitArrayStore(Ljava/lang/invoke/LambdaForm$Name;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/lang/invoke/InvokerBytecodeGenerator.loadInsnOpcode(Ljava/lang/invoke/LambdaForm$BasicType;)I
+PTG:
+Vars:
+8
+$r4 1 72 
+$r5 1 76 
+r7 1 -1 
+$r6 1 79 
+$r1 1 0 
+r0 1 -2 
+$r3 1 63 
+$r2 1 59 
+Fields: 0
+Accesses: 0
+Functions: 6
+82 2 59 79 
+3 1 -2 
+67 1 63 
+72 2 -2 72 
+76 1 76 
+63 1 63 
+Constructors: 2
+82 59
+67 63
+
+Summary: 3
+-2 -1 0 
+java/lang/invoke/InvokerBytecodeGenerator.emitArrayOp(Ljava/lang/invoke/LambdaForm$Name;I)V
+PTG:
+Vars:
+8
+$r8 1 30 
+r2 1 -1 
+r1 1 40 
+$r7 1 27 
+$r9 1 34 
+$r3 1 90 
+r0 1 -2 
+r4 1 75 
+Fields: 2
+-2 function 27
+-1 mv 90
+Accesses: 2
+89 1 -1 
+26 1 -2 
+Functions: 11
+64 1 40 
+34 1 34 
+22 0 
+55 0 
+71 1 40 
+27 1 27 
+61 4 -1 -2 90 27 
+77 2 -1 90 
+30 1 30 
+78 3 -1 90 75 
+94 1 90 
+Constructors: 0
+
+Summary: 5
+-2 -1 27 0 40 
+java/lang/invoke/InvokerBytecodeGenerator.classFilePrologue()V
+PTG:
+Vars:
+11
+$r8 1 59 
+$r1 1 1 
+$r9 1 13 
+r0 1 -1 
+$r5 1 13 
+$r3 1 13 
+$r6 1 44 
+$r10 1 65 
+$r4 1 36 
+$r2 1 21 
+r7 1 50 
+Fields: 5
+-1 className 21
+-1 sourceFile 36
+-1 cw 13
+-1 invokerType 44
+-1 invokerName 59
+Accesses: 9
+35 1 -1 
+20 1 -1 
+52 1 -1 
+68 1 -1 
+9 1 -1 
+58 1 -1 
+43 1 -1 
+12 1 -1 
+31 1 -1 
+Functions: 5
+53 3 50 59 13 
+6 1 1 
+40 2 36 13 
+28 2 21 13 
+44 1 44 
+Constructors: 1
+6 1
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.emitUnboxing(Lsun/invoke/util/Wrapper;)V
+PTG:
+Vars:
+19
+$r17 1 75 
+$r7 1 26 
+$r12 1 49 
+$r14 1 65 
+r16 1 -1 
+r11 1 48 
+$r8 1 34 
+$r13 1 58 
+$r18 1 83 
+$r1 1 9 
+$r10 1 42 
+$r0 1 0 
+$r3 1 13 
+$r9 1 37 
+r15 1 71 
+r6 1 25 
+r2 1 -2 
+$r5 1 19 
+$r4 1 16 
+Fields: 1
+-1 mv 83
+Accesses: 1
+82 1 -1 
+Functions: 19
+0 1 0 
+33 1 -2 
+65 1 65 
+4 1 0 
+37 1 37 
+9 2 16 9 
+42 1 42 
+74 1 -2 
+12 1 -2 
+13 1 13 
+79 3 -1 83 75 
+49 1 49 
+19 1 19 
+53 1 49 
+26 2 34 26 
+58 1 58 
+61 1 -2 
+30 1 26 
+94 4 48 83 71 25 
+Constructors: 3
+4 0
+53 49
+30 26
+
+Summary: 3
+-1 -2 0 
+java/lang/invoke/InvokerBytecodeGenerator.freeFrameLocal(I)V
+PTG:
+Vars:
+7
+$r5 1 59 
+r2 1 17 
+r0 1 -1 
+$r3 1 26 
+$r7 1 59 
+$r1 1 12 
+$r4 1 26 
+Fields: 4
+-1 localTypes 12
+-1 mv 26
+-1 localsMap 59
+12 ArrayObject 17
+Accesses: 5
+38 1 -1 
+25 1 -1 
+58 1 -1 
+11 1 -1 
+76 1 -1 
+Functions: 9
+0 5 -1 17 26 59 12 
+49 1 26 
+18 5 -1 17 26 59 12 
+35 1 26 
+102 0 
+72 0 
+42 5 -1 17 26 59 12 
+90 5 -1 17 26 59 12 
+29 5 -1 17 26 59 12 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.generateNamedFunctionInvoker(Ljava/lang/invoke/MethodTypeForm;)Ljava/lang/invoke/MemberName;
+PTG:
+Vars:
+13
+$r12 1 53 
+r0 1 3 
+_ret 1 53 
+$r5 1 21 
+$r2 1 14 
+$r1 1 4 
+$r7 1 27 
+r3 1 -2 
+$r9 1 34 
+r8 1 33 
+$r4 1 18 
+$r6 1 24 
+$r11 1 50 
+Fields: 0
+Accesses: 0
+Functions: 10
+48 2 -2 34 
+17 1 -2 
+18 1 18 
+4 1 4 
+21 1 21 
+8 1 4 
+27 1 27 
+43 3 33 34 3 
+14 2 24 14 
+47 2 34 50 
+Constructors: 2
+8 4
+43 34
+
+Summary: 10
+24 33 34 50 -2 27 14 21 4 18 
+java/lang/invoke/InvokerBytecodeGenerator.emitPushArguments(Ljava/lang/invoke/LambdaForm$Name;I)V
+PTG:
+Vars:
+3
+r2 1 -1 
+$r1 1 4 
+r0 1 -2 
+Fields: 1
+-2 arguments 4
+Accesses: 1
+3 1 -2 
+Functions: 1
+14 3 -1 -2 4 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 4 
+java/lang/invoke/InvokerBytecodeGenerator.emitConst(Ljava/lang/Object;)V
+PTG:
+Vars:
+6
+$r9 1 -2 
+r1 1 -1 
+$r5 1 -2 
+$r7 1 -2 
+r0 1 -2 
+$r2 1 183 
+Fields: 1
+-1 mv 183
+Accesses: 5
+144 1 -1 
+4 1 -1 
+182 1 -1 
+103 1 -1 
+62 1 -1 
+Functions: 15
+100 2 -1 183 
+164 0 
+69 0 
+40 1 -2 
+9 0 
+141 2 -1 183 
+110 0 
+81 1 -2 
+178 2 -1 183 
+22 0 
+151 0 
+122 1 -2 
+59 2 -1 183 
+187 2 -2 183 
+28 2 -1 183 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/invoke/InvokerBytecodeGenerator.emitInvoke(Ljava/lang/invoke/LambdaForm$Name;)V
+PTG:
+Vars:
+11
+$r6 1 53 
+r13 1 83 
+$r4 1 58 
+$r7 1 96 
+$r1 1 23 
+r2 1 -1 
+r12 1 29 
+$r3 1 53 
+$r5 1 23 
+$r8 1 99 
+r0 1 -2 
+Fields: 3
+-2 function 23
+-1 mv 53
+23 resolvedHandle 29
+Accesses: 5
+52 1 -1 
+84 1 -1 
+22 1 -2 
+23 1 23 
+76 1 -2 
+Functions: 12
+48 0 
+96 1 96 
+18 0 
+68 3 -1 53 29 
+6 5 -1 -2 53 23 29 
+103 2 99 53 
+56 3 -1 53 29 
+73 5 -1 -2 53 23 29 
+44 3 -2 23 29 
+61 2 53 58 
+77 2 23 29 
+95 1 83 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.generateCustomizedCode(Ljava/lang/invoke/LambdaForm;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MemberName;
+PTG:
+Vars:
+6
+$r5 1 17 
+r1 1 -2 
+r2 1 -3 
+$r0 1 0 
+_ret 1 17 
+$r4 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+8 3 0 -2 -3 
+12 2 0 14 
+13 1 0 
+Constructors: 1
+8 0
+
+Summary: 5
+-2 -3 0 1 0 
+java/lang/invoke/InvokerBytecodeGenerator.isStaticallyInvocable(Ljava/lang/invoke/MemberName;)Z
+PTG:
+Vars:
+9
+r8 1 115 
+r0 1 -2 
+$r4 1 58 
+r5 1 79 
+$r2 1 53 
+r7 1 96 
+r1 1 19 
+$r6 1 81 
+$r3 1 56 
+Fields: 1
+96 ArrayObject 115
+Accesses: 0
+Functions: 18
+66 1 19 
+36 1 19 
+133 1 -2 
+6 1 -2 
+43 1 19 
+75 1 -2 
+142 1 19 
+15 1 -2 
+80 1 79 
+81 1 81 
+20 1 19 
+52 1 19 
+117 1 115 
+151 1 -2 
+56 1 56 
+27 1 19 
+92 1 79 
+158 1 19 
+Constructors: 0
+
+Summary: 1
+0 
+java/lang/invoke/InvokerBytecodeGenerator.emitI2X(Lsun/invoke/util/Wrapper;)V
+PTG:
+Vars:
+11
+$r8 1 57 
+$r5 1 99 
+$r9 1 138 
+$r10 1 138 
+r0 1 -2 
+$r4 1 112 
+r2 1 -1 
+$r1 1 0 
+$r6 1 70 
+$r3 1 125 
+$r7 1 83 
+Fields: 7
+-1 mv 70
+-1 mv 57
+-1 mv 99
+-1 mv 112
+-1 mv 138
+-1 mv 83
+-1 mv 125
+Accesses: 8
+145 1 -1 
+82 1 -1 
+98 1 -1 
+69 1 -1 
+56 1 -1 
+137 1 -1 
+124 1 -1 
+111 1 -1 
+Functions: 14
+161 0 
+3 1 -2 
+131 1 125 
+165 0 
+105 1 99 
+170 1 -2 
+76 1 70 
+142 1 138 
+174 0 
+180 0 
+118 1 112 
+151 1 138 
+89 1 83 
+63 1 57 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/lang/invoke/InvokerBytecodeGenerator.loadAndInitializeInvokerClass([B[Ljava/lang/Object;)Ljava/lang/Class;
+PTG:
+Vars:
+7
+$r3 1 0 
+$r2 1 3 
+r0 1 -2 
+r1 1 -3 
+$r5 1 12 
+r4 1 11 
+_ret 1 11 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 4 0 -2 -3 3 
+16 2 11 12 
+Constructors: 0
+
+Summary: 2
+0 1 
+java/lang/invoke/InvokerBytecodeGenerator.<init>(Ljava/lang/String;Ljava/lang/invoke/LambdaForm;Ljava/lang/invoke/MethodType;)V
+PTG:
+Vars:
+12
+$r7 1 31 
+r10 1 63 
+$r5 1 9 
+r6 1 3 
+r3 1 -2 
+r1 1 -3 
+$r8 1 31 
+r0 1 -1 
+$r2 1 3 
+$r9 1 59 
+r4 1 -4 
+$r11 1 76 
+Fields: 5
+-3 debugName 9
+-3 names 3
+-1 localTypes 76
+-1 localsMap 31
+3 ArrayObject 59
+Accesses: 6
+16 1 -3 
+2 1 -3 
+38 1 -1 
+8 1 -3 
+75 1 -1 
+30 1 -1 
+Functions: 3
+67 1 63 
+59 1 59 
+13 9 -1 -2 -3 3 -4 9 59 76 31 
+Constructors: 1
+13 -1
+
+Summary: 9
+59 -2 9 -3 2 -1 3 -4 1 
+java/lang/invoke/InvokerBytecodeGenerator.cpPatches([B)[Ljava/lang/Object;
+PTG:
+Vars:
+10
+r0 1 -2 
+$r3 1 11 
+$r4 1 14 
+r1 1 6 
+r7 1 38 
+_ret 1 6 
+$r8 1 119 
+r5 1 24 
+$r6 1 38 
+r2 1 -1 
+Fields: 2
+-1 cpPatches 11
+38 value 119
+Accesses: 4
+48 1 38 
+112 1 38 
+117 1 38 
+10 1 -1 
+Functions: 16
+0 1 -2 
+65 0 
+36 1 24 
+101 0 
+70 0 
+74 0 
+11 1 11 
+107 0 
+14 1 14 
+79 2 38 119 
+84 0 
+89 0 
+26 1 24 
+61 0 
+93 1 -2 
+95 0 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/lang/invoke/InvokerBytecodeGenerator.generateCustomizedCodeBytes()[B
+PTG:
+Vars:
+50
+$r3 1 5 
+r63 1 531 
+$r10 1 573 
+r64 1 593 
+_ret 1 593 
+$r15 1 152 
+$r14 1 27 
+$r33 3 465 434 275 
+$r51 1 5 
+$r21 1 482 
+$r56 1 27 
+$r24 3 465 434 275 
+$r1 1 5 
+$r49 1 5 
+$r12 1 587 
+$r48 1 83 
+r0 1 -1 
+$r46 1 65 
+r18 1 183 
+r55 3 168 375 341 
+$r45 1 27 
+$r22 1 485 
+$r37 1 292 
+$r28 1 177 
+$r5 1 27 
+$r36 3 465 434 275 
+$r38 1 292 
+$r6 1 5 
+$r61 1 337 
+$r8 1 27 
+$r34 1 279 
+$r11 1 27 
+$r53 1 5 
+$r57 1 27 
+$r47 1 5 
+$r19 1 185 
+$r59 1 27 
+$r26 3 465 434 275 
+r16 1 168 
+$r23 1 488 
+$r60 1 152 
+$r50 1 129 
+$r9 1 65 
+r62 1 393 
+$r31 1 5 
+$r29 1 387 
+$r20 1 177 
+$r17 1 177 
+$r58 1 152 
+$r13 1 595 
+Fields: 20
+465 ArrayObject 279
+465 ArrayObject 292
+168 function 177
+168 type 482
+168 arguments 465
+168 arguments 434
+168 arguments 275
+434 ArrayObject 279
+434 ArrayObject 292
+-1 className 595
+-1 lambdaForm 27
+-1 cw 587
+-1 mv 5
+-1 localsMap 129
+27 names 152
+27 customized 65
+152 ArrayObject 168
+152 ArrayObject 337
+275 ArrayObject 279
+275 ArrayObject 292
+Accesses: 34
+128 1 -1 
+578 1 -1 
+4 1 -1 
+71 1 -1 
+327 1 -1 
+328 1 27 
+586 1 -1 
+139 1 -1 
+76 1 -1 
+140 1 27 
+524 1 168 
+77 1 27 
+15 1 -1 
+464 1 168 
+274 1 168 
+594 1 -1 
+148 1 -1 
+149 1 27 
+89 1 -1 
+26 1 -1 
+27 1 27 
+159 1 -1 
+287 1 168 
+160 1 27 
+481 1 168 
+36 1 -1 
+176 1 168 
+433 1 168 
+50 1 -1 
+122 1 -1 
+314 1 -1 
+61 1 -1 
+62 1 27 
+383 1 168 
+Functions: 49
+384 1 177 
+1 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+258 0 
+514 0 
+387 1 387 
+517 0 
+134 1 5 
+11 1 5 
+395 1 393 
+525 1 177 
+405 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+533 1 531 
+22 1 5 
+413 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+286 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+545 18 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 531 279 152 27 
+421 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+553 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+43 1 5 
+171 19 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 341 279 375 152 27 
+177 1 177 
+564 19 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 341 279 375 152 27 
+310 0 
+568 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+57 1 5 
+188 1 183 
+446 0 
+321 1 5 
+452 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+325 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+583 18 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 573 
+75 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+587 1 587 
+86 2 83 5 
+599 2 593 595 
+476 0 
+98 1 5 
+354 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+482 1 482 
+485 1 485 
+107 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+491 18 -1 129 65 482 292 5 168 488 587 337 177 465 434 595 275 279 152 27 
+366 0 
+370 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+500 0 
+118 0 
+246 17 -1 129 65 482 292 5 168 587 337 177 465 434 595 275 279 152 27 
+504 0 
+509 1 183 
+Constructors: 0
+
+Summary: 2
+-1 573 
+java/lang/invoke/InvokerBytecodeGenerator.emitIconstInsn(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r5 1 129 
+Fields: 1
+-1 mv 129
+Accesses: 4
+128 1 -1 
+116 1 -1 
+102 1 -1 
+79 1 -1 
+Functions: 5
+133 1 129 
+120 0 
+90 0 
+124 0 
+110 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/invoke/InvokerBytecodeGenerator.makeLocalTemp(Ljava/lang/invoke/LambdaForm$BasicType;)I
+PTG:
+Vars:
+6
+r4 1 -2 
+$r3 1 1 
+$r5 1 1 
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 localsMap 1
+Accesses: 4
+0 1 -1 
+17 1 -1 
+4 1 -1 
+13 1 -1 
+Functions: 1
+25 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 

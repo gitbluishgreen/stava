@@ -1,0 +1,264 @@
+11
+java/util/zip/GZIPInputStream.close()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+18 1 -1 
+13 1 -1 
+Functions: 1
+8 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/zip/GZIPInputStream.readUByte(Ljava/io/InputStream;)I
+PTG:
+Vars:
+2
+r0 1 -2 
+r3 1 -1 
+Fields: 0
+Accesses: 1
+41 1 -1 
+Functions: 10
+0 1 -2 
+34 0 
+66 0 
+51 0 
+38 0 
+56 0 
+42 0 
+60 0 
+45 0 
+14 0 
+Constructors: 0
+
+Summary: 4
+0 45 -1 -2 
+java/util/zip/GZIPInputStream.readUShort(Ljava/io/InputStream;)I
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+6 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+java/util/zip/GZIPInputStream.read([BII)I
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 52 
+Fields: 1
+-1 crc 52
+Accesses: 3
+51 1 -1 
+4 1 -1 
+37 1 -1 
+Functions: 5
+1 2 -1 52 
+43 3 -1 -2 52 
+59 2 -2 52 
+28 2 -1 52 
+13 3 -1 -2 52 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+java/util/zip/GZIPInputStream.<init>(Ljava/io/InputStream;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 -1 -2 
+Constructors: 1
+5 -1
+
+Summary: 3
+0 -1 -2 
+java/util/zip/GZIPInputStream.<init>(Ljava/io/InputStream;I)V
+PTG:
+Vars:
+5
+r1 1 -2 
+$r2 1 2 
+$r4 1 34 
+r0 1 -1 
+$r3 1 15 
+Fields: 0
+Accesses: 4
+36 1 -1 
+22 1 -1 
+41 1 -1 
+27 1 -1 
+Functions: 4
+19 1 15 
+7 1 2 
+11 3 -1 -2 2 
+46 2 -1 -2 
+Constructors: 3
+19 15
+7 2
+11 -1
+
+Summary: 4
+2 0 -1 -2 
+java/util/zip/GZIPInputStream.skipBytes(Ljava/io/InputStream;I)V
+PTG:
+Vars:
+5
+r1 1 -1 
+$r4 1 6 
+$r3 1 6 
+$r2 1 6 
+r0 1 -2 
+Fields: 1
+-1 tmpbuf 6
+Accesses: 3
+5 1 -1 
+23 1 -1 
+11 1 -1 
+Functions: 2
+4 2 -2 6 
+41 0 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+java/util/zip/GZIPInputStream.readHeader(Ljava/io/InputStream;)I
+PTG:
+Vars:
+7
+$r0 1 0 
+r1 1 -2 
+r2 1 -1 
+$r7 1 6 
+$r5 1 6 
+$r6 1 6 
+$r3 1 6 
+Fields: 1
+-1 crc 6
+Accesses: 4
+5 1 -1 
+154 1 -1 
+13 1 -1 
+190 1 -1 
+Functions: 16
+194 1 6 
+36 0 
+70 3 -1 0 6 
+167 3 -1 0 6 
+40 3 -1 0 6 
+9 3 0 -2 6 
+139 3 -1 0 6 
+17 1 6 
+20 3 -1 0 6 
+84 3 -1 0 6 
+119 3 -1 0 6 
+183 0 
+56 0 
+155 1 6 
+60 3 -1 0 6 
+95 3 -1 0 6 
+Constructors: 1
+9 0
+
+Summary: 4
+0 0 -1 -2 
+java/util/zip/GZIPInputStream.readUInt(Ljava/io/InputStream;)J
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+7 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+java/util/zip/GZIPInputStream.ensureOpen()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/zip/GZIPInputStream.readTrailer()Z
+PTG:
+Vars:
+10
+r0 1 -1 
+$r10 1 21 
+$r5 1 4 
+$r1 1 6 
+r15 2 4 17 
+$r2 1 58 
+$r9 1 17 
+$r12 1 39 
+$r4 1 6 
+$r11 1 26 
+Fields: 4
+-1 in 4
+-1 buf 26
+-1 crc 58
+-1 inf 6
+Accesses: 11
+0 1 -1 
+144 1 -1 
+98 1 -1 
+132 1 -1 
+148 1 -1 
+5 1 -1 
+152 1 -1 
+25 1 -1 
+57 1 -1 
+73 1 -1 
+29 1 -1 
+Functions: 13
+99 1 4 
+163 0 
+36 2 21 26 
+68 6 -1 17 4 6 26 58 
+6 1 6 
+136 0 
+74 1 6 
+45 7 -1 17 4 6 39 26 58 
+48 3 17 21 39 
+52 6 -1 17 4 6 26 58 
+118 6 -1 17 4 6 26 58 
+58 1 58 
+94 0 
+Constructors: 3
+48 17
+36 21
+45 39
+
+Summary: 4
+-1 39 21 17 

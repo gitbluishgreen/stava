@@ -1,0 +1,386 @@
+13
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.toString()Ljava/lang/String;
+PTG:
+Vars:
+8
+_ret 2 31 7 
+$r2 1 12 
+$r5 1 28 
+$r1 1 1 
+r0 1 -1 
+$r4 1 1 
+$r3 1 21 
+$r6 2 31 7 
+Fields: 1
+-1 fTargetNamespace 1
+Accesses: 2
+0 1 -1 
+24 1 -1 
+Functions: 4
+16 1 12 
+21 2 1 21 
+12 1 12 
+28 1 28 
+Constructors: 1
+16 12
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.removeAnnotations()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.returnSchemaAttrs()V
+PTG:
+Vars:
+3
+$r1 1 5 
+$r2 1 1 
+r0 1 -1 
+Fields: 2
+-1 fSchemaAttrs 5
+-1 fAttrChecker 1
+Accesses: 3
+0 1 -1 
+4 1 -1 
+14 1 -1 
+Functions: 1
+9 2 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.isAllowedNS(Ljava/lang/String;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 2 8 -2 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 fImportedNS 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 8 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.restoreNSSupport()V
+PTG:
+Vars:
+6
+$r1 1 2 
+$r3 1 5 
+$r2 1 5 
+r0 1 -1 
+$r4 1 19 
+$r5 1 15 
+Fields: 3
+-1 fValidationContext 15
+-1 SchemaNamespaceSupportStack 2
+-1 fNamespaceSupport 19
+Accesses: 4
+1 1 -1 
+18 1 -1 
+11 1 -1 
+14 1 -1 
+Functions: 2
+2 1 2 
+22 2 19 15 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.initNamespaceSupport(Lorg/w3c/dom/Element;)V
+PTG:
+Vars:
+18
+r3 1 -2 
+$r11 1 12 
+r9 1 115 
+$r12 1 161 
+r0 1 -1 
+r17 2 153 142 
+$r13 1 12 
+r16 2 24 199 
+$r10 1 134 
+r6 1 64 
+$r4 1 40 
+r8 1 98 
+$r15 1 180 
+$r2 1 12 
+r5 2 24 199 
+$r1 1 1 
+$r7 1 98 
+$r14 1 175 
+Fields: 1
+-1 fNamespaceSupport 12
+Accesses: 4
+167 1 -1 
+8 1 -1 
+11 1 -1 
+155 1 -1 
+Functions: 18
+193 2 199 24 
+132 1 98 
+5 1 1 
+134 1 134 
+39 2 199 24 
+71 1 64 
+40 1 40 
+108 1 98 
+173 1 98 
+15 1 12 
+175 1 175 
+18 1 -2 
+183 4 180 153 12 142 
+58 2 199 24 
+122 1 115 
+156 3 153 12 142 
+29 2 199 24 
+94 1 64 
+Constructors: 1
+5 1
+
+Summary: 13
+180 115 161 98 134 142 -1 175 40 24 199 -2 64 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.addAllowedNS(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+$r3 2 8 -2 
+Fields: 1
+-1 fImportedNS 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+14 3 1 -2 8 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.addAnnotation(Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSAnnotationInfo;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+$r2 1 2 
+r1 1 -1 
+Fields: 1
+-1 fAnnotations 2
+Accesses: 3
+1 1 -1 
+5 1 -2 
+10 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.needReportTNSError(Ljava/lang/String;)Z
+PTG:
+Vars:
+6
+$r1 1 1 
+$r4 1 1 
+r2 1 -2 
+$r3 1 1 
+r0 1 -1 
+$r5 1 8 
+Fields: 1
+-1 fReportedTNS 1
+Accesses: 4
+0 1 -1 
+36 1 -1 
+21 1 -1 
+15 1 -1 
+Functions: 3
+22 2 1 -2 
+41 2 1 -2 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 2
+-1 -2 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.<init>(Lorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSAttributeChecker;Lcom/sun/org/apache/xerces/internal/util/SymbolTable;)V
+PTG:
+Vars:
+32
+$r9 1 97 
+$r28 1 243 
+$r8 1 90 
+$r27 1 243 
+$r29 1 253 
+$r12 1 121 
+r0 1 -1 
+$r24 1 211 
+$r15 1 148 
+$r17 1 175 
+$r13 1 97 
+$r16 1 97 
+$r20 1 193 
+$r32 1 231 
+r5 1 -4 
+$r21 1 193 
+r6 1 -3 
+$r11 1 121 
+$r10 1 97 
+$r14 1 148 
+$r26 1 238 
+$r1 1 5 
+$r25 1 219 
+$r19 1 97 
+$r22 1 97 
+$r18 1 175 
+$r31 1 219 
+$r30 1 253 
+r4 1 -2 
+$r2 1 16 
+$r3 1 27 
+$r23 1 211 
+Fields: 9
+-1 fValidationContext 253
+-1 fSchemaAttrs 97
+-1 fTargetNamespace 219
+-1 fNamespaceSupport 243
+97 ArrayObject 175
+97 ArrayObject 148
+97 ArrayObject 193
+97 ArrayObject 211
+97 ArrayObject 121
+Accesses: 30
+64 1 -1 
+256 1 -1 
+69 1 -1 
+263 1 -1 
+200 1 -1 
+137 1 -1 
+74 1 -1 
+12 1 -1 
+204 1 -1 
+141 1 -1 
+23 1 -1 
+215 1 -1 
+218 1 -1 
+93 1 -1 
+96 1 -1 
+34 1 -1 
+227 1 -1 
+164 1 -1 
+39 1 -1 
+168 1 -1 
+234 1 -1 
+44 1 -1 
+49 1 -1 
+114 1 -1 
+242 1 -1 
+54 1 -1 
+182 1 -1 
+249 1 -1 
+186 1 -1 
+252 1 -1 
+Functions: 15
+1 10 -1 97 193 243 211 148 121 219 253 175 
+194 1 193 
+226 2 -4 219 
+260 2 243 253 
+9 1 5 
+268 2 -4 253 
+109 0 
+176 1 175 
+20 1 16 
+85 12 -1 -2 97 193 -3 243 211 148 121 219 253 175 
+149 1 148 
+246 2 243 238 
+122 1 121 
+59 11 -1 97 193 -2 243 211 148 121 219 253 175 
+31 1 27 
+Constructors: 5
+1 -1
+20 16
+246 238
+9 5
+31 27
+
+Summary: 4
+1 -1 2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.getSchemaAttrs()[Ljava/lang/Object;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fSchemaAttrs 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.getAnnotations()Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSAnnotationInfo;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 fAnnotations 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo.backupNSSupport(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaNamespaceSupport;)V
+PTG:
+Vars:
+7
+$r2 1 1 
+$r4 1 22 
+r7 2 20 -2 
+$r6 1 34 
+r0 1 -1 
+$r1 1 5 
+$r5 1 5 
+Fields: 4
+-1 fValidationContext 34
+-1 fNamespaceSupportRoot 20
+-1 SchemaNamespaceSupportStack 1
+-1 fNamespaceSupport 5
+Accesses: 6
+0 1 -1 
+16 1 -1 
+33 1 -1 
+4 1 -1 
+37 1 -1 
+30 1 -1 
+Functions: 3
+8 2 1 5 
+41 2 34 5 
+27 3 -2 20 22 
+Constructors: 1
+27 22
+
+Summary: 3
+-1 0 -2 

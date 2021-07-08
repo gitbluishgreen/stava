@@ -1,0 +1,3571 @@
+87
+org/apache/crimson/parser/Parser2.peek(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 in 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/crimson/parser/Parser2.fatal(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/crimson/parser/Parser2.parse(Lorg/xml/sax/InputSource;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+6 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+org/apache/crimson/parser/Parser2.defaultAttributes(Lorg/apache/crimson/parser/ElementDecl;)Z
+PTG:
+Vars:
+18
+$r18 1 102 
+$r12 2 204 175 
+$r8 2 40 3 
+$r14 2 204 175 
+$r1 1 3 
+r11 1 118 
+$r3 1 14 
+$r6 1 25 
+r2 1 9 
+$r16 1 152 
+r5 1 -1 
+r4 1 14 
+$r13 2 193 25 
+$r7 1 30 
+r0 1 -2 
+$r17 1 83 
+$r9 1 45 
+r10 1 45 
+Fields: 6
+-1 attTmp 25
+-1 nsAttTmp 83
+-2 attributes 3
+45 defaultValue 118
+45 type 204
+45 type 175
+Accesses: 16
+192 1 -1 
+2 1 -2 
+163 1 -1 
+68 1 -1 
+132 1 -1 
+39 1 -2 
+202 1 45 
+75 1 -1 
+139 1 45 
+173 1 45 
+113 1 45 
+82 1 -1 
+53 1 -1 
+24 1 -1 
+60 1 45 
+125 1 -1 
+Functions: 10
+160 4 -1 83 152 25 
+3 1 3 
+83 2 83 14 
+212 6 193 118 25 204 14 175 
+40 3 3 40 14 
+25 2 25 14 
+185 7 -1 83 118 25 204 14 175 
+217 1 9 
+13 1 9 
+110 4 -1 83 102 25 
+Constructors: 0
+
+Summary: 11
+152 9 102 -1 204 -2 175 118 45 0 30 
+org/apache/crimson/parser/Parser2.maybeGetNameCacheEntry()Lorg/apache/crimson/parser/Parser2$NameCacheEntry;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 32 
+_ret 1 32 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+5 0 
+25 1 -1 
+30 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.maybeEntityDecl()Z
+PTG:
+Vars:
+42
+$r34 1 49 
+$r28 1 357 
+$r37 1 294 
+$r40 1 278 
+$r22 1 343 
+$r49 1 49 
+$r9 1 49 
+$r41 1 282 
+$r23 1 362 
+$r8 1 362 
+$r4 1 91 
+$r44 1 175 
+$r18 1 456 
+$r11 1 513 
+r0 1 -1 
+$r2 1 27 
+$r45 1 57 
+r1 1 7 
+$r17 1 461 
+r31 1 181 
+$r13 1 485 
+r48 3 75 505 288 
+$r36 1 49 
+$r30 1 175 
+$r10 1 518 
+$r27 1 362 
+$r46 1 122 
+$r16 1 362 
+$r38 1 290 
+$r19 1 450 
+$r15 1 499 
+$r25 1 365 
+$r26 1 380 
+$r14 1 495 
+$r12 1 507 
+$r6 1 27 
+r47 2 49 57 
+$r32 1 205 
+$r39 1 268 
+$r5 1 57 
+r3 1 87 
+$r24 1 357 
+Fields: 13
+-1 strTmp 175
+-1 entities 57
+-1 in 27
+-1 params 49
+-1 notations 357
+-1 dtdHandler 450
+-1 declHandler 290
+-1 declHandler 507
+87 publicId 456
+87 publicId 513
+87 notation 362
+87 systemId 461
+87 systemId 518
+Accesses: 40
+64 1 -1 
+449 1 -1 
+516 1 87 
+261 1 -1 
+134 1 -1 
+390 1 87 
+454 1 87 
+459 1 87 
+396 1 -1 
+16 1 -1 
+464 1 87 
+408 1 87 
+26 1 -1 
+346 1 87 
+156 1 -1 
+220 1 -1 
+349 1 -1 
+413 1 -1 
+541 1 -1 
+478 1 -1 
+289 1 -1 
+356 1 -1 
+549 1 -1 
+166 1 -1 
+232 1 205 
+360 1 87 
+425 1 87 
+45 1 -1 
+237 1 -1 
+110 1 -1 
+174 1 -1 
+371 1 -1 
+53 1 -1 
+375 1 87 
+312 1 -1 
+249 1 205 
+441 1 87 
+506 1 -1 
+191 1 -1 
+511 1 87 
+Functions: 36
+0 9 -1 49 450 290 357 57 27 507 175 
+256 6 288 49 57 505 75 205 
+129 10 -1 49 450 290 357 57 122 27 507 175 
+67 9 -1 49 450 290 357 57 27 507 175 
+326 9 -1 49 450 290 357 57 27 507 175 
+521 6 288 513 518 505 507 75 
+202 2 181 175 
+268 1 268 
+527 9 -1 49 450 290 357 57 27 507 175 
+80 9 -1 49 450 290 357 57 27 507 175 
+272 1 268 
+338 9 -1 49 450 290 357 57 27 507 175 
+83 9 -1 49 450 290 357 57 27 507 175 
+212 5 288 181 505 75 205 
+469 7 288 450 456 505 362 75 461 
+278 4 288 278 505 75 
+23 9 -1 49 450 290 357 57 27 507 175 
+89 5 288 49 57 505 75 
+282 1 282 
+538 12 -1 288 49 450 290 357 57 505 27 507 75 175 
+27 1 27 
+161 9 -1 49 450 290 357 57 27 507 175 
+357 2 357 362 
+485 1 485 
+489 1 485 
+42 9 -1 49 450 290 357 57 27 507 175 
+300 2 181 294 
+175 1 175 
+303 5 288 290 294 505 75 
+495 4 288 505 75 495 
+561 9 -1 49 450 290 357 57 27 507 175 
+499 1 499 
+437 11 288 49 513 518 87 456 57 505 362 75 461 
+59 9 -1 49 450 290 357 57 27 507 175 
+319 9 -1 49 450 290 357 57 27 507 175 
+383 3 357 362 380 
+Constructors: 4
+272 268
+212 205
+489 485
+300 294
+
+Summary: 18
+205 518 499 513 87 362 122 365 181 461 7 456 505 -1 91 288 282 294 
+org/apache/crimson/parser/Parser2.getFrequency(Lorg/apache/crimson/parser/ContentModel;)Lorg/apache/crimson/parser/ContentModel;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 -2 
+r2 1 -2 
+Fields: 0
+Accesses: 3
+38 1 -2 
+23 1 -1 
+47 1 -2 
+Functions: 4
+0 1 -1 
+52 2 -1 -2 
+28 0 
+60 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/crimson/parser/Parser2.parseSystemId()Ljava/lang/String;
+PTG:
+Vars:
+4
+r1 1 8 
+r0 1 -1 
+_ret 1 11 
+$r2 1 11 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+9 2 -1 8 
+Constructors: 0
+
+Summary: 2
+-1 8 
+org/apache/crimson/parser/Parser2.warning(Ljava/lang/String;[Ljava/lang/Object;)V
+PTG:
+Vars:
+9
+r2 1 -2 
+$r6 1 13 
+r3 1 -3 
+$r4 1 8 
+r1 1 -1 
+$r0 1 0 
+$r5 1 4 
+$r9 1 25 
+$r7 1 17 
+Fields: 3
+-1 errHandler 25
+-1 locale 8
+-1 locator 17
+Accesses: 3
+16 1 -1 
+7 1 -1 
+24 1 -1 
+Functions: 3
+4 4 -2 -3 4 8 
+20 3 0 17 13 
+29 2 0 25 
+Constructors: 1
+20 0
+
+Summary: 5
+-1 -3 1 -2 13 
+org/apache/crimson/parser/Parser2.setHandlers()V
+PTG:
+Vars:
+11
+$r1 1 1 
+$r9 1 22 
+$r2 1 15 
+$r4 1 43 
+$r6 1 64 
+$r3 1 29 
+r0 1 -1 
+$r10 1 8 
+$r7 1 50 
+$r8 1 36 
+$r5 1 57 
+Fields: 5
+-1 contentHandler 1
+-1 dtdHandler 29
+-1 declHandler 57
+-1 errHandler 15
+-1 lexicalHandler 43
+Accesses: 10
+0 1 -1 
+67 1 -1 
+53 1 -1 
+39 1 -1 
+56 1 -1 
+25 1 -1 
+42 1 -1 
+11 1 -1 
+28 1 -1 
+14 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.ungetc()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 in 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.resolveURI(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+15
+$r9 1 39 
+$r7 1 92 
+r11 1 29 
+$r1 1 23 
+_ret 3 102 158 -2 
+r0 1 -1 
+r12 1 73 
+r10 3 102 158 -2 
+$r3 1 148 
+$r4 1 152 
+r13 2 123 137 
+$r2 1 139 
+$r8 1 96 
+$r6 1 84 
+$r5 1 174 
+Fields: 1
+-1 in 23
+Accesses: 1
+22 1 -1 
+Functions: 20
+0 3 -2 102 158 
+96 1 96 
+128 1 73 
+74 3 -2 102 158 
+106 1 73 
+139 3 137 139 123 
+12 3 -2 102 158 
+46 3 -1 23 39 
+143 1 139 
+49 3 -2 102 158 
+84 2 84 73 
+148 4 -2 148 102 158 
+181 3 -1 23 174 
+23 1 23 
+88 1 84 
+152 1 152 
+60 1 29 
+92 4 -2 102 92 158 
+62 1 29 
+159 3 -2 102 158 
+Constructors: 2
+88 84
+143 139
+
+Summary: 7
+-1 137 96 152 174 0 39 
+org/apache/crimson/parser/Parser2.readVersion(ZLjava/lang/String;)V
+PTG:
+Vars:
+6
+r1 1 7 
+r2 1 -3 
+$r5 1 20 
+r0 1 -1 
+$r3 1 164 
+$r4 1 128 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -1 
+34 1 7 
+135 2 -1 128 
+152 2 -3 7 
+27 2 -1 20 
+46 1 7 
+175 2 -1 164 
+Constructors: 0
+
+Summary: 4
+164 -1 20 128 
+org/apache/crimson/parser/Parser2.maybeExternalID()Lorg/apache/crimson/parser/ExternalEntity;
+PTG:
+Vars:
+8
+$r4 1 69 
+$r1 1 39 
+r0 1 -1 
+r7 1 23 
+_ret 1 39 
+$r2 1 44 
+$r5 1 78 
+$r6 1 81 
+Fields: 2
+-1 in 44
+39 verbatimSystemId 78
+Accesses: 5
+84 1 39 
+53 1 39 
+72 1 39 
+43 1 -1 
+77 1 39 
+Functions: 8
+16 2 -1 44 
+64 2 -1 44 
+2 2 -1 44 
+19 2 -1 44 
+27 2 -1 44 
+60 2 -1 44 
+76 3 -1 44 78 
+47 3 39 44 78 
+Constructors: 1
+47 39
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.setErrorHandler(Lorg/xml/sax/ErrorHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/crimson/parser/Parser2.maybeReferenceInContent(Lorg/apache/crimson/parser/ElementDecl;Lorg/apache/crimson/parser/ElementValidator;)Z
+PTG:
+Vars:
+7
+$r4 1 64 
+r0 1 -1 
+r3 1 -3 
+$r1 1 1 
+r7 1 -2 
+$r2 1 1 
+$r5 1 68 
+Fields: 3
+-1 charTmp 68
+-1 in 1
+-1 contentHandler 64
+Accesses: 4
+0 1 -1 
+67 1 -1 
+14 1 -1 
+63 1 -1 
+Functions: 10
+80 2 64 68 
+1 1 1 
+38 4 -1 64 1 68 
+54 6 -1 64 1 -2 -3 68 
+72 4 -1 64 1 68 
+73 4 -1 64 1 68 
+26 4 -1 64 1 68 
+60 1 -3 
+15 1 1 
+47 4 -1 64 1 68 
+Constructors: 0
+
+Summary: 6
+-1 -3 1 -2 0 30 
+org/apache/crimson/parser/Parser2.maybeNotationDecl()Z
+PTG:
+Vars:
+20
+r2 1 22 
+r0 1 -1 
+$r4 1 28 
+$r14 1 199 
+$r21 1 213 
+$r15 1 175 
+$r3 1 23 
+r1 1 7 
+$r11 1 271 
+$r20 1 175 
+$r16 1 28 
+$r12 1 240 
+$r17 1 120 
+$r10 1 276 
+$r18 1 61 
+$r19 1 85 
+$r13 1 175 
+r6 1 220 
+$r7 1 213 
+$r9 1 175 
+Fields: 5
+-1 in 28
+-1 notations 213
+-1 dtdHandler 271
+23 publicId 276
+23 systemId 175
+Accesses: 15
+64 1 23 
+260 1 -1 
+204 1 23 
+174 1 23 
+270 1 -1 
+275 1 23 
+212 1 -1 
+181 1 23 
+151 1 -1 
+279 1 23 
+88 1 23 
+27 1 -1 
+123 1 23 
+253 1 -1 
+159 1 -1 
+Functions: 24
+0 4 -1 213 28 271 
+67 4 -1 213 28 271 
+101 4 -1 213 28 271 
+133 4 -1 213 28 271 
+39 4 -1 213 28 271 
+137 4 -1 213 28 271 
+42 4 -1 213 28 271 
+74 4 -1 213 28 271 
+266 5 276 213 22 23 175 
+171 4 -1 213 28 271 
+14 4 -1 213 28 271 
+209 5 -1 213 199 28 271 
+115 4 -1 213 28 271 
+84 4 -1 213 28 271 
+148 5 -1 213 22 28 271 
+213 2 213 22 
+182 1 175 
+119 4 -1 213 28 271 
+247 5 -1 240 213 28 271 
+56 4 -1 213 28 271 
+283 4 276 22 271 175 
+60 4 -1 213 28 271 
+31 4 276 23 28 175 
+95 4 -1 213 28 271 
+Constructors: 1
+31 23
+
+Summary: 7
+220 7 -1 240 23 199 276 
+org/apache/crimson/parser/Parser2.maybeXmlDecl()V
+PTG:
+Vars:
+5
+$r4 1 69 
+$r1 1 1 
+$r3 1 63 
+r0 1 -1 
+$r2 1 57 
+Fields: 1
+-1 in 1
+Accesses: 1
+0 1 -1 
+Functions: 11
+48 2 -1 1 
+1 1 1 
+35 2 -1 1 
+22 2 -1 1 
+39 2 -1 1 
+74 1 69 
+27 2 -1 1 
+14 2 -1 1 
+62 0 
+78 3 -1 1 57 
+31 2 -1 1 
+Constructors: 1
+74 69
+
+Summary: 2
+-1 57 
+org/apache/crimson/parser/Parser2.maybeTextDecl()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 in 1
+Accesses: 1
+0 1 -1 
+Functions: 7
+48 2 -1 1 
+1 1 1 
+35 2 -1 1 
+22 2 -1 1 
+27 2 -1 1 
+14 2 -1 1 
+31 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.chooseLocale([Ljava/lang/String;)Ljava/util/Locale;
+PTG:
+Vars:
+5
+$r1 1 0 
+r2 1 7 
+r0 1 -2 
+_ret 1 7 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 0 -2 
+14 2 -1 7 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/crimson/parser/Parser2.readEncoding(Z)V
+PTG:
+Vars:
+7
+r1 1 8 
+$r2 1 104 
+$r5 1 161 
+r6 1 140 
+$r4 1 134 
+$r3 1 109 
+r0 1 -1 
+Fields: 1
+-1 in 134
+Accesses: 1
+133 1 -1 
+Functions: 8
+0 2 -1 134 
+19 1 8 
+115 1 109 
+147 2 8 140 
+134 1 134 
+119 3 -1 134 104 
+173 3 -1 161 134 
+126 1 8 
+Constructors: 1
+115 109
+
+Summary: 3
+161 104 -1 
+org/apache/crimson/parser/Parser2.parsePublicId()Ljava/lang/String;
+PTG:
+Vars:
+9
+r1 1 7 
+$r4 1 62 
+$r8 1 107 
+$r6 1 97 
+$r2 1 19 
+$r5 1 86 
+_ret 1 107 
+r0 1 -1 
+$r3 1 57 
+Fields: 1
+-1 strTmp 97
+Accesses: 2
+96 1 -1 
+93 1 -1 
+Functions: 9
+0 2 -1 97 
+19 1 19 
+67 1 62 
+101 2 97 7 
+71 3 -1 97 57 
+105 2 -1 97 
+90 1 86 
+13 1 7 
+78 1 7 
+Constructors: 2
+67 62
+90 86
+
+Summary: 3
+7 -1 57 
+org/apache/crimson/parser/Parser2.fatal(Ljava/lang/String;[Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-1 -3 1 -2 
+org/apache/crimson/parser/Parser2.error(Ljava/lang/String;[Ljava/lang/Object;)V
+PTG:
+Vars:
+9
+$r0 1 0 
+$r4 1 8 
+$r7 1 17 
+r1 1 -1 
+$r5 1 4 
+$r6 1 13 
+r3 1 -3 
+$r9 1 25 
+r2 1 -2 
+Fields: 3
+-1 errHandler 25
+-1 locale 8
+-1 locator 17
+Accesses: 3
+16 1 -1 
+7 1 -1 
+24 1 -1 
+Functions: 3
+4 4 -2 -3 4 8 
+20 3 0 17 13 
+29 2 0 25 
+Constructors: 1
+20 0
+
+Summary: 5
+-1 -3 1 -2 13 
+org/apache/crimson/parser/Parser2.newContentModel(Ljava/lang/String;)Lorg/apache/crimson/parser/ContentModel;
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/crimson/parser/Parser2.processAttributeNS(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/util/Vector;)Ljava/util/Vector;
+PTG:
+Vars:
+15
+$r16 1 173 
+r0 1 -2 
+$r8 1 173 
+$r5 1 187 
+_ret 2 207 -8 
+$r15 1 -1 
+r3 1 -4 
+$r7 1 179 
+r20 1 170 
+r4 1 -5 
+$r6 1 183 
+$r17 1 207 
+r2 1 -3 
+r1 1 -1 
+r18 2 207 -8 
+Fields: 4
+-1 attTmp 173
+170 ArrayObject 187
+170 ArrayObject 183
+170 ArrayObject 179
+Accesses: 9
+147 1 -1 
+135 1 -1 
+104 1 -1 
+92 1 -1 
+172 1 -1 
+157 1 -1 
+63 1 -1 
+111 1 -1 
+223 1 -1 
+Functions: 15
+0 1 -2 
+64 1 -4 
+129 3 -3 -4 -5 
+194 7 -3 179 -4 -5 183 187 173 
+99 1 -4 
+163 3 -1 -2 173 
+10 1 -2 
+237 5 -2 -3 -4 -5 173 
+211 1 207 
+55 1 -2 
+119 1 -2 
+152 1 -2 
+89 2 -1 173 
+220 3 -1 -8 207 
+30 1 -2 
+Constructors: 1
+211 207
+
+Summary: 13
+120 -3 3 -5 187 -4 81 179 -1 1 2 170 183 
+org/apache/crimson/parser/Parser2.getMarkupDeclname(Ljava/lang/String;Z)Ljava/lang/String;
+PTG:
+Vars:
+8
+$r4 1 27 
+r2 1 9 
+$r3 1 18 
+$r5 1 23 
+r0 1 -1 
+_ret 1 9 
+$r6 1 31 
+r1 1 -2 
+Fields: 1
+-1 locale 27
+Accesses: 1
+26 1 -1 
+Functions: 4
+2 3 -1 -2 27 
+35 3 -1 18 27 
+5 2 -1 27 
+23 3 -2 23 27 
+Constructors: 0
+
+Summary: 3
+-1 18 -2 
+org/apache/crimson/parser/Parser2.setFastStandalone(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+17 1 -1 
+5 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.maybePI(Z)Z
+PTG:
+Vars:
+17
+$r15 1 77 
+$r7 1 95 
+$r8 1 6 
+$r3 1 49 
+$r17 2 13 18 
+$r12 1 140 
+$r16 1 -1 
+$r9 1 140 
+$r6 1 203 
+r2 1 38 
+$r1 1 6 
+$r5 1 6 
+$r11 1 6 
+$r14 1 172 
+r0 1 -1 
+$r4 1 64 
+$r13 1 164 
+Fields: 4
+-1 strTmp 140
+-1 in 6
+-1 contentHandler 164
+-1 contentHandler 203
+Accesses: 12
+0 1 -1 
+163 1 -1 
+5 1 -1 
+102 1 -1 
+183 1 -1 
+168 1 -1 
+216 1 -1 
+202 1 -1 
+139 1 -1 
+108 1 -1 
+124 1 -1 
+31 1 -1 
+Functions: 18
+64 2 64 38 
+160 5 -1 164 6 203 140 
+34 5 -1 164 6 203 140 
+99 1 95 
+6 3 18 6 13 
+199 5 -1 164 6 203 140 
+169 1 140 
+109 1 6 
+46 5 -1 164 6 203 140 
+175 3 164 38 172 
+49 2 49 38 
+145 1 140 
+209 2 38 203 
+84 6 -1 164 6 203 140 77 
+87 5 -1 164 6 203 140 
+184 1 6 
+61 5 -1 164 6 203 140 
+125 1 6 
+Constructors: 1
+99 95
+
+Summary: 3
+-1 77 172 
+org/apache/crimson/parser/Parser2.maybeComment(Z)Z
+PTG:
+Vars:
+16
+$r15 1 193 
+$r3 1 35 
+$r8 1 35 
+r0 1 -1 
+$r16 1 1 
+$r13 1 -1 
+$r12 1 55 
+r7 1 231 
+$r2 1 38 
+$r6 3 221 135 102 
+$r4 2 135 102 
+$r17 2 8 13 
+$r9 3 221 135 102 
+$r14 1 1 
+$r1 1 1 
+$r10 2 135 102 
+Fields: 5
+-1 strTmp 102
+-1 strTmp 221
+-1 strTmp 135
+-1 in 1
+-1 lexicalHandler 35
+Accesses: 17
+0 1 -1 
+34 1 -1 
+164 1 -1 
+196 1 -1 
+101 1 -1 
+134 1 -1 
+174 1 -1 
+240 1 -1 
+213 1 -1 
+150 1 -1 
+24 1 -1 
+220 1 -1 
+157 1 -1 
+189 1 -1 
+253 1 -1 
+62 1 -1 
+31 1 -1 
+Functions: 15
+1 3 1 8 13 
+165 1 1 
+262 2 35 231 
+71 6 -1 1 35 102 135 221 
+107 2 102 135 
+141 2 102 135 
+205 6 -1 1 35 102 135 221 
+112 6 -1 1 35 102 135 221 
+84 6 -1 1 35 102 135 221 
+185 6 -1 1 35 102 135 221 
+250 4 102 135 231 221 
+59 1 55 
+124 6 -1 1 35 102 135 221 
+221 3 102 135 221 
+190 1 1 
+Constructors: 1
+59 55
+
+Summary: 2
+-1 231 
+org/apache/crimson/parser/Parser2.surrogatesToCharTmp(I)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 84 
+$r1 1 78 
+Fields: 0
+Accesses: 3
+36 1 -1 
+55 1 -1 
+13 1 -1 
+Functions: 3
+83 0 
+6 0 
+88 2 -1 78 
+Constructors: 0
+
+Summary: 2
+-1 78 
+org/apache/crimson/parser/Parser2.afterDocument()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.getMixedOrChildren(Lorg/apache/crimson/parser/ElementDecl;)Ljava/lang/String;
+PTG:
+Vars:
+13
+r2 1 -2 
+$r9 1 35 
+$r5 1 35 
+$r10 1 104 
+r4 1 28 
+_ret 1 104 
+r0 1 -1 
+$r7 1 18 
+$r1 1 1 
+$r13 1 18 
+$r8 1 89 
+$r11 1 35 
+$r3 1 18 
+Fields: 3
+-1 strTmp 35
+-1 in 28
+-2 name 18
+Accesses: 11
+17 1 -2 
+97 1 -2 
+34 1 -1 
+66 1 -2 
+84 1 -2 
+100 1 -1 
+54 1 -1 
+8 1 -1 
+24 1 -1 
+76 1 -2 
+92 1 -2 
+Functions: 9
+83 4 -1 18 35 28 
+5 1 1 
+21 4 -1 18 35 28 
+101 1 35 
+71 4 -1 18 35 28 
+40 1 35 
+44 3 -1 35 28 
+61 1 35 
+30 3 -1 35 28 
+Constructors: 1
+5 1
+
+Summary: 4
+-1 18 -2 0 
+org/apache/crimson/parser/Parser2.maybeMarkupDecl()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+36 1 -1 
+21 1 -1 
+7 1 -1 
+28 1 -1 
+14 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.pushInputBuffer([CII)V
+PTG:
+Vars:
+3
+r0 1 16 
+r2 2 -2 16 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+36 3 -1 16 -2 
+26 2 16 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 16 
+org/apache/crimson/parser/Parser2.setDeclHandler(Lorg/xml/sax/ext/DeclHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.getLocale()Ljava/util/Locale;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 locale 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.nameCharString(C)Lorg/apache/crimson/parser/Parser2$NameCacheEntry;
+PTG:
+Vars:
+13
+$r4 1 3 
+$r9 1 3 
+$r11 1 89 
+$r1 1 3 
+_ret 1 89 
+$r8 1 3 
+$r2 1 13 
+$r7 1 3 
+$r3 1 3 
+$r10 1 81 
+r6 1 44 
+$r5 1 3 
+r0 1 -1 
+Fields: 3
+-1 nameTmp 3
+-1 in 13
+-1 nameCache 81
+Accesses: 10
+64 1 -1 
+80 1 -1 
+2 1 -1 
+67 1 -1 
+36 1 -1 
+84 1 -1 
+54 1 -1 
+12 1 -1 
+28 1 -1 
+47 1 -1 
+Functions: 3
+81 2 81 3 
+59 2 3 44 
+13 1 13 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.processName(Ljava/lang/String;ZZ)[Ljava/lang/String;
+PTG:
+Vars:
+11
+$r2 1 6 
+$r16 2 48 54 
+r0 1 -1 
+r15 2 21 13 
+_ret 2 21 13 
+$r14 1 21 
+$r3 1 1 
+r4 1 36 
+$r7 1 71 
+r1 1 -2 
+$r5 1 61 
+Fields: 3
+21 ArrayObject 31
+-1 nsSupport 1
+-1 namePartsTmp 6
+Accesses: 4
+0 1 -1 
+5 1 -1 
+102 1 -1 
+91 1 -1 
+Functions: 7
+32 1 -2 
+1 3 1 -2 6 
+115 4 -1 1 6 71 
+88 1 71 
+106 0 
+60 1 -2 
+46 1 36 
+Constructors: 0
+
+Summary: 5
+-1 36 71 99 0 
+org/apache/crimson/parser/Parser2.newValidator(Lorg/apache/crimson/parser/ElementDecl;)Lorg/apache/crimson/parser/ElementValidator;
+PTG:
+Vars:
+4
+r1 1 -1 
+$r0 1 0 
+r2 1 -2 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/crimson/parser/Parser2.fatal(Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Exception;)V
+PTG:
+Vars:
+10
+$r6 1 13 
+r3 1 -3 
+$r4 1 8 
+$r8 1 17 
+$r10 1 27 
+r7 1 -4 
+$r0 1 0 
+$r5 1 4 
+r2 1 -2 
+r1 1 -1 
+Fields: 3
+-1 errHandler 27
+-1 locale 8
+-1 locator 17
+Accesses: 3
+16 1 -1 
+7 1 -1 
+26 1 -1 
+Functions: 3
+32 2 0 27 
+4 4 -2 -3 4 8 
+21 4 0 17 -4 13 
+Constructors: 1
+21 0
+
+Summary: 7
+-1 -3 1 -2 13 0 -4 
+org/apache/crimson/parser/Parser2.validateAttributeSyntax(Lorg/apache/crimson/parser/AttributeDecl;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-1 -3 1 -2 0 
+org/apache/crimson/parser/Parser2.externalParameterEntity(Lorg/apache/crimson/parser/ExternalEntity;)V
+PTG:
+Vars:
+20
+$r4 1 53 
+$r11 2 107 53 
+$r19 1 35 
+$r15 1 67 
+$r8 1 182 
+$r10 1 191 
+$r13 1 -1 
+$r17 1 41 
+$r6 1 53 
+r0 1 -1 
+r1 1 -2 
+$r3 2 53 96 
+$r9 1 53 
+$r20 1 41 
+$r14 1 53 
+$r16 1 78 
+$r12 1 110 
+$r18 1 -1 
+$r5 1 203 
+r2 1 53 
+Fields: 2
+-1 in 53
+-2 systemId 41
+Accesses: 19
+0 1 -1 
+225 1 -1 
+70 1 -1 
+230 1 -1 
+7 1 -1 
+199 1 -1 
+40 1 -2 
+106 1 -1 
+206 1 -1 
+17 1 -1 
+49 1 -1 
+113 1 -1 
+146 1 -1 
+210 1 -1 
+83 1 -2 
+121 1 -1 
+187 1 -1 
+63 1 -1 
+95 1 -1 
+Functions: 17
+64 1 53 
+96 2 96 53 
+163 1 53 
+195 3 -1 53 182 
+134 2 -1 53 
+200 1 53 
+170 1 53 
+107 2 53 107 
+46 3 -1 35 53 
+211 1 53 
+149 2 -1 53 
+22 4 -1 -2 53 41 
+55 2 -1 53 
+89 3 -1 53 78 
+124 2 -1 53 
+156 2 -1 53 
+188 1 53 
+Constructors: 0
+
+Summary: 6
+35 -1 -2 182 78 0 
+org/apache/crimson/parser/Parser2.expandEntityInLiteral(Ljava/lang/String;Lorg/apache/crimson/parser/SimpleHashtable;Z)V
+PTG:
+Vars:
+12
+$r8 1 100 
+$r14 2 137 142 
+r9 1 5 
+$r7 1 5 
+$r4 1 131 
+$r13 1 48 
+r2 1 5 
+$r5 1 145 
+r3 1 -1 
+$r10 1 61 
+r1 1 -2 
+r0 1 -3 
+Fields: 2
+5 buf 61
+-1 params 131
+Accesses: 6
+65 1 5 
+130 1 -1 
+36 1 5 
+22 1 -1 
+59 1 5 
+29 1 -1 
+Functions: 6
+0 2 -2 -3 
+116 4 -1 131 5 61 
+55 3 -1 48 131 
+152 5 -1 145 131 137 142 
+107 3 -1 131 100 
+78 4 -1 -2 131 61 
+Constructors: 0
+
+Summary: 9
+145 -1 1 48 61 5 -3 100 0 
+org/apache/crimson/parser/Parser2.pushReader(Lorg/apache/crimson/parser/ExternalEntity;)Z
+PTG:
+Vars:
+11
+r0 1 -2 
+$r7 1 32 
+r1 1 -1 
+$r8 1 41 
+r3 1 47 
+$r6 1 28 
+$r5 1 15 
+$r4 1 19 
+$r9 1 19 
+$r10 1 55 
+r2 1 38 
+Fields: 6
+-1 resolver 41
+-1 in 55
+-1 errHandler 28
+-1 lexicalHandler 15
+-1 locale 32
+-2 name 19
+Accesses: 11
+0 1 -2 
+18 1 -2 
+50 1 -2 
+67 1 -1 
+54 1 -1 
+7 1 -1 
+40 1 -1 
+58 1 -2 
+27 1 -1 
+14 1 -1 
+31 1 -1 
+Functions: 4
+32 2 32 28 
+22 2 19 15 
+39 3 -2 19 41 
+62 4 19 38 55 47 
+Constructors: 0
+
+Summary: 5
+47 -1 19 -2 0 
+org/apache/crimson/parser/Parser2.getcps(Ljava/lang/String;Lorg/apache/crimson/parser/InputEntity;)Lorg/apache/crimson/parser/ContentModel;
+PTG:
+Vars:
+28
+$r30 1 131 
+$r32 2 26 67 
+_ret 1 394 
+$r28 3 122 116 103 
+r1 1 18 
+r23 2 92 45 
+$r31 2 237 231 
+$r12 1 258 
+$r16 1 173 
+r9 1 -2 
+r24 4 184 301 92 45 
+$r8 1 371 
+r0 1 -1 
+$r29 1 126 
+$r19 1 86 
+$r17 2 26 67 
+$r14 2 26 67 
+r26 1 64 
+r25 3 301 92 45 
+$r33 1 394 
+$r20 2 26 67 
+r6 1 -3 
+$r7 1 64 
+$r3 2 26 67 
+$r11 1 246 
+$r2 1 301 
+$r22 1 39 
+$r10 1 241 
+Fields: 4
+-1 strTmp 26
+-1 strTmp 67
+-1 in 64
+184 next 184
+Accesses: 10
+176 4 184 92 301 45 
+193 1 -1 
+66 1 -1 
+179 4 184 92 301 45 
+326 1 -1 
+358 1 -1 
+25 1 -1 
+60 1 -1 
+381 1 -1 
+351 1 -1 
+Functions: 30
+320 4 -1 64 67 26 
+387 2 67 26 
+135 4 -1 64 67 26 
+199 2 67 26 
+391 7 -1 64 67 26 92 301 45 
+72 2 67 26 
+264 1 258 
+139 1 131 
+204 4 -1 64 67 26 
+268 7 -1 64 241 67 231 26 237 
+332 2 67 26 
+77 4 -1 64 67 26 
+14 4 -1 64 67 26 
+143 8 -1 64 67 116 103 26 122 126 
+81 5 -1 64 67 86 26 
+337 4 -1 64 67 26 
+82 5 -1 64 -2 67 26 
+274 4 -1 64 67 26 
+147 4 -1 64 67 26 
+341 4 -1 64 67 26 
+155 4 -1 64 67 26 
+219 4 -1 64 67 26 
+31 3 18 67 26 
+35 5 -1 64 67 39 26 
+36 5 -1 64 18 67 26 
+168 6 -1 64 67 26 92 45 
+296 6 -1 64 67 26 92 45 
+50 4 -1 64 67 26 
+378 5 -1 64 67 371 26 
+252 1 246 
+Constructors: 3
+264 258
+139 131
+252 246
+
+Summary: 14
+92 39 -3 86 -1 1 371 184 18 126 301 241 45 0 
+org/apache/crimson/parser/Parser2.expandEntityInContent(Lorg/apache/crimson/parser/ElementDecl;Ljava/lang/String;Lorg/apache/crimson/parser/ElementValidator;)V
+PTG:
+Vars:
+24
+r3 1 8 
+$r13 2 14 128 
+r24 1 8 
+$r9 1 250 
+$r16 1 76 
+r4 1 14 
+$r17 1 25 
+$r22 1 14 
+$r6 1 203 
+r7 1 -2 
+$r10 1 214 
+r1 1 -3 
+$r2 1 1 
+r8 1 -4 
+$r11 1 14 
+$r23 1 177 
+r18 1 8 
+$r15 1 152 
+$r19 1 89 
+$r14 1 131 
+r0 1 -1 
+$r21 1 163 
+$r20 1 14 
+$r12 1 14 
+Fields: 5
+-1 entities 1
+-1 in 14
+-1 lexicalHandler 163
+8 notation 203
+8 buf 89
+Accesses: 18
+0 1 -1 
+64 1 8 
+224 1 -1 
+162 1 -1 
+134 1 -1 
+231 1 -1 
+104 1 -1 
+137 1 -1 
+201 1 8 
+10 1 -1 
+173 1 -1 
+238 1 8 
+113 1 -1 
+50 1 -1 
+180 1 -1 
+87 1 8 
+57 1 -1 
+127 1 -1 
+Functions: 15
+32 5 -1 1 163 25 14 
+128 2 128 14 
+1 2 1 -3 
+257 5 -1 1 163 250 14 
+101 6 -1 1 -2 163 -4 14 
+167 2 -3 163 
+265 9 -1 1 -2 163 -4 8 89 203 14 
+138 1 14 
+174 1 14 
+114 1 14 
+83 5 -1 1 163 76 14 
+277 1 -3 
+221 5 -1 1 163 214 14 
+94 6 -1 1 -3 163 89 14 
+159 5 -1 1 163 152 14 
+Constructors: 0
+
+Summary: 14
+152 -1 1 250 -2 2 8 203 214 76 25 0 -4 89 
+org/apache/crimson/parser/Parser2.externalParsedEntity(Lorg/apache/crimson/parser/ElementDecl;Lorg/apache/crimson/parser/ExternalEntity;Lorg/apache/crimson/parser/ElementValidator;)Z
+PTG:
+Vars:
+11
+$r4 1 42 
+$r9 1 56 
+$r5 1 42 
+$r6 1 74 
+$r7 1 62 
+r2 1 -2 
+r1 1 -3 
+$r8 1 88 
+$r10 1 62 
+r0 1 -1 
+r3 1 -4 
+Fields: 3
+-1 in 42
+-1 lexicalHandler 88
+-3 name 62
+Accesses: 10
+80 1 -1 
+19 1 -3 
+70 1 -1 
+87 1 -1 
+8 1 -1 
+41 1 -1 
+91 1 -3 
+61 1 -3 
+77 1 -1 
+15 1 -1 
+Functions: 8
+0 5 -1 -3 88 42 62 
+66 4 -1 88 56 42 
+38 5 -1 -2 -4 88 42 
+23 0 
+71 1 42 
+42 1 42 
+31 3 -1 88 42 
+95 2 88 62 
+Constructors: 0
+
+Summary: 9
+56 -1 1 -2 2 -3 20 0 -4 
+org/apache/crimson/parser/Parser2.afterRoot()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.getQuotedString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+15
+r0 1 -1 
+$r6 1 94 
+$r9 1 38 
+$r11 1 33 
+$r14 1 53 
+$r2 1 1 
+_ret 1 94 
+$r1 1 1 
+r8 1 -2 
+$r12 1 29 
+$r3 1 67 
+$r5 2 91 67 
+$r7 1 24 
+$r13 1 45 
+r10 1 -3 
+Fields: 4
+-1 strTmp 91
+-1 strTmp 67
+-1 in 1
+-1 locale 33
+Accesses: 6
+0 1 -1 
+32 1 -1 
+66 1 -1 
+90 1 -1 
+60 1 -1 
+76 1 -1 
+Functions: 7
+1 1 1 
+49 6 -1 1 33 67 24 91 
+72 1 67 
+57 1 53 
+91 2 67 91 
+29 4 33 -2 38 29 
+77 1 1 
+Constructors: 1
+57 53
+
+Summary: 4
+24 -1 38 -2 
+org/apache/crimson/parser/Parser2.nextChar(CLjava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+18
+$r7 1 70 
+$r4 1 55 
+$r19 2 110 84 
+$r18 1 8 
+$r2 1 15 
+$r16 1 15 
+$r14 1 107 
+$r13 1 102 
+$r12 1 98 
+r0 1 -1 
+$r3 1 50 
+r6 1 -3 
+$r11 1 89 
+$r17 2 15 5 
+$r1 1 15 
+$r8 1 66 
+$r9 1 74 
+r10 1 -4 
+Fields: 2
+-1 in 15
+-1 locale 70
+Accesses: 6
+34 1 -1 
+4 1 -1 
+69 1 -1 
+24 1 -1 
+11 1 -1 
+14 1 -1 
+Functions: 12
+66 3 66 -3 70 
+98 2 98 -4 
+114 4 -1 50 70 15 
+35 1 15 
+5 2 5 15 
+102 1 102 
+25 1 15 
+89 1 89 
+107 1 107 
+60 1 55 
+93 1 89 
+15 1 15 
+Constructors: 2
+60 55
+93 89
+
+Summary: 7
+107 -1 2 110 -3 50 -4 
+org/apache/crimson/parser/Parser2.setEntityResolver(Lorg/xml/sax/EntityResolver;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.peekDeclaration(Ljava/lang/String;)Lorg/apache/crimson/parser/InputEntity;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 1 
+r2 1 1 
+r3 1 -2 
+$r1 1 1 
+$r5 1 1 
+Fields: 1
+-1 in 1
+Accesses: 4
+0 1 -1 
+33 1 -1 
+19 1 -1 
+14 1 -1 
+Functions: 3
+1 1 1 
+20 2 1 -2 
+37 1 1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/crimson/parser/Parser2.newContentModel(CLorg/apache/crimson/parser/ContentModel;)Lorg/apache/crimson/parser/ContentModel;
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -3 1 
+org/apache/crimson/parser/Parser2.maybeElementDecl()Z
+PTG:
+Vars:
+21
+$r3 1 24 
+$r17 1 43 
+$r13 3 90 28 78 
+$r21 1 78 
+$r4 1 28 
+$r18 1 43 
+$r10 1 258 
+$r19 1 68 
+r2 1 22 
+$r14 1 111 
+$r5 1 90 
+$r12 1 236 
+r0 1 -1 
+$r9 1 278 
+$r11 1 227 
+$r6 1 198 
+r1 1 7 
+r20 3 90 28 78 
+$r15 1 24 
+$r8 1 111 
+$r7 3 184 159 43 
+Fields: 11
+90 name 111
+90 contentType 184
+90 contentType 159
+-1 in 258
+-1 declHandler 278
+-1 elements 24
+28 contentType 184
+28 contentType 43
+28 contentType 159
+78 contentType 184
+78 contentType 159
+Accesses: 19
+257 1 -1 
+99 1 -1 
+164 3 90 28 78 
+135 3 90 28 78 
+201 3 90 28 78 
+42 3 90 28 78 
+106 1 -1 
+110 1 90 
+49 1 -1 
+277 1 -1 
+23 1 -1 
+56 3 90 28 78 
+184 3 90 28 78 
+249 1 -1 
+281 3 90 28 78 
+123 1 -1 
+189 3 90 28 78 
+285 3 90 28 78 
+159 3 90 28 78 
+Functions: 17
+0 4 -1 258 278 24 
+289 5 278 184 43 111 159 
+196 11 -1 258 278 24 184 90 43 28 78 111 159 
+170 4 -1 258 278 24 
+75 5 -1 258 68 278 24 
+205 4 -1 258 278 24 
+269 4 -1 258 278 24 
+14 4 -1 258 278 24 
+142 4 -1 258 278 24 
+145 4 -1 258 278 24 
+209 4 -1 258 278 24 
+242 1 236 
+83 4 22 184 78 159 
+115 5 24 184 90 111 159 
+246 5 -1 258 227 278 24 
+24 2 22 24 
+95 5 22 184 90 111 159 
+Constructors: 3
+242 236
+83 78
+95 90
+
+Summary: 11
+184 43 159 7 -1 28 90 111 68 227 78 
+org/apache/crimson/parser/Parser2.maybePEReference()Z
+PTG:
+Vars:
+10
+$r3 1 39 
+$r7 1 46 
+$r1 1 1 
+$r5 1 127 
+r0 1 -1 
+r4 1 46 
+r8 1 46 
+$r9 1 61 
+$r6 1 110 
+r2 1 18 
+Fields: 3
+-1 in 1
+-1 params 39
+46 buf 61
+Accesses: 5
+0 1 -1 
+96 1 -1 
+99 1 -1 
+38 1 -1 
+60 1 46 
+Functions: 9
+1 1 1 
+66 5 -1 1 18 39 61 
+35 4 -1 1 18 39 
+84 5 -1 1 39 61 46 
+117 4 -1 1 39 110 
+134 4 -1 1 39 127 
+39 2 18 39 
+26 3 -1 1 39 
+14 3 -1 1 39 
+Constructors: 0
+
+Summary: 5
+61 127 -1 46 110 
+org/apache/crimson/parser/Parser2.builtin(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+6
+r1 1 -2 
+r2 1 -3 
+$r0 1 0 
+r5 1 -1 
+$r6 1 14 
+$r3 1 6 
+Fields: 1
+-1 entities 14
+Accesses: 1
+13 1 -1 
+Functions: 3
+19 3 0 -2 14 
+5 1 -3 
+9 3 0 -2 6 
+Constructors: 1
+9 0
+
+Summary: 5
+-1 -3 6 -2 0 
+org/apache/crimson/parser/Parser2.setLexicalHandler(Lorg/xml/sax/ext/LexicalHandler;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.pushReader([CLjava/lang/String;Z)V
+PTG:
+Vars:
+8
+$r10 1 26 
+r2 1 -2 
+$r9 1 22 
+r1 1 32 
+$r8 1 12 
+$r4 1 39 
+r0 1 -1 
+r3 1 -3 
+Fields: 4
+-1 in 39
+-1 errHandler 22
+-1 lexicalHandler 12
+-1 locale 26
+Accesses: 6
+4 1 -1 
+21 1 -1 
+38 1 -1 
+25 1 -1 
+57 1 -1 
+11 1 -1 
+Functions: 3
+16 2 -3 12 
+51 4 32 -2 -3 39 
+26 2 22 26 
+Constructors: 0
+
+Summary: 5
+-1 -3 1 -2 0 
+org/apache/crimson/parser/Parser2.maybeGetName()Ljava/lang/String;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 14 
+_ret 1 14 
+r1 1 4 
+Fields: 1
+4 name 14
+Accesses: 1
+13 1 4 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/apache/crimson/parser/Parser2.parseLiteral(Z)V
+PTG:
+Vars:
+23
+$r15 1 186 
+$r12 1 234 
+r0 1 -1 
+$r25 1 85 
+$r18 5 150 267 230 425 399 
+$r30 5 150 267 230 425 399 
+$r23 1 14 
+$r24 1 14 
+r29 1 304 
+$r16 5 150 267 230 425 399 
+$r6 1 332 
+$r9 1 234 
+$r7 5 267 150 230 425 399 
+$r10 5 150 267 230 425 399 
+$r27 1 14 
+$r5 1 346 
+$r31 5 150 267 230 425 399 
+$r2 1 48 
+r28 1 128 
+$r13 5 150 267 230 425 399 
+$r20 5 150 267 230 425 399 
+r1 1 14 
+$r22 1 14 
+Fields: 9
+-1 strTmp 150
+-1 strTmp 267
+-1 strTmp 230
+-1 strTmp 425
+-1 strTmp 399
+-1 charTmp 234
+-1 entities 186
+-1 in 14
+-1 params 332
+Accesses: 22
+321 1 -1 
+229 1 -1 
+70 1 -1 
+424 1 -1 
+105 1 -1 
+169 1 -1 
+233 1 -1 
+10 1 -1 
+266 1 -1 
+331 1 -1 
+44 1 -1 
+398 1 -1 
+81 1 -1 
+149 1 -1 
+55 1 -1 
+439 1 -1 
+88 1 -1 
+185 1 -1 
+249 1 -1 
+61 1 -1 
+253 1 -1 
+159 1 -1 
+Functions: 27
+259 5 150 230 425 267 399 
+196 10 -1 150 230 425 234 186 267 332 14 399 
+5 10 -1 150 230 425 234 186 267 332 14 399 
+71 1 14 
+142 11 -1 128 150 230 425 234 186 267 332 14 399 
+208 10 -1 150 230 425 234 186 267 332 14 399 
+336 11 -1 304 150 230 425 234 186 267 332 14 399 
+273 5 150 230 425 267 399 
+82 1 14 
+404 5 150 230 425 267 399 
+155 5 150 230 425 267 399 
+283 10 -1 150 230 425 234 186 267 332 14 399 
+221 10 -1 150 230 425 234 186 267 332 14 399 
+94 10 -1 150 230 425 234 186 267 332 14 399 
+31 10 -1 150 230 425 234 186 267 332 14 399 
+354 11 -1 150 230 425 234 186 346 267 332 14 399 
+165 6 128 150 230 425 267 399 
+421 10 -1 150 230 425 234 186 267 332 14 399 
+363 10 -1 150 230 425 234 186 267 332 14 399 
+300 10 -1 150 230 425 234 186 267 332 14 399 
+430 5 150 230 425 267 399 
+175 5 150 230 425 267 399 
+239 5 150 230 425 267 399 
+52 1 48 
+124 10 -1 150 230 425 234 186 267 332 14 399 
+190 11 -1 128 150 230 425 234 186 267 332 14 399 
+318 11 -1 304 150 230 425 234 186 267 332 14 399 
+Constructors: 1
+52 48
+
+Summary: 3
+-1 346 128 
+org/apache/crimson/parser/Parser2.maybeElement(Lorg/apache/crimson/parser/ElementValidator;)Z
+PTG:
+Vars:
+107
+$r71 2 677 287 
+$r66 3 677 287 799 
+r103 1 796 
+$r61 1 863 
+$r81 1 23 
+$r38 1 1112 
+$r6 1 287 
+$r87 1 23 
+$r57 1 913 
+$r34 2 935 907 
+r104 1 904 
+$r37 1 1116 
+$r20 1 522 
+$r99 2 589 434 
+$r76 1 23 
+$r36 1 1120 
+$r19 1 508 
+$r33 1 23 
+$r3 1 30 
+r94 1 254 
+r97 3 424 460 487 
+$r106 1 23 
+r107 1 1103 
+$r21 1 23 
+$r69 2 692 369 
+$r85 1 117 
+r102 1 752 
+$r4 1 37 
+$r101 1 508 
+$r7 1 292 
+$r67 1 820 
+$r54 2 677 287 
+$r43 1 191 
+$r42 3 935 1151 907 
+$r32 1 935 
+$r80 1 117 
+$r50 1 1048 
+r89 2 37 80 
+$r78 1 30 
+$r24 2 481 418 
+$r28 1 266 
+$r83 1 142 
+$r90 1 163 
+$r30 2 677 287 
+$r64 3 677 287 744 
+$r98 1 548 
+$r82 1 117 
+$r52 1 989 
+$r35 1 23 
+r100 2 589 434 
+$r27 1 303 
+$r84 1 23 
+$r63 2 677 287 
+$r77 1 23 
+$r45 1 23 
+$r22 1 508 
+$r9 1 163 
+$r86 1 56 
+$r39 2 935 907 
+r1 1 10 
+$r56 1 917 
+$r49 1 23 
+r109 1 1140 
+$r8 1 163 
+$r17 1 287 
+$r51 2 677 287 
+$r12 1 374 
+$r53 1 23 
+$r10 1 163 
+$r70 1 681 
+$r47 1 163 
+$r31 1 23 
+r96 1 374 
+$r44 1 1022 
+$r29 1 271 
+$r75 1 80 
+$r40 1 191 
+$r95 1 374 
+$r74 1 23 
+r105 1 1000 
+$r41 1 1140 
+r108 1 1133 
+$r91 1 163 
+$r15 2 481 418 
+$r93 1 163 
+$r11 1 369 
+$r59 1 843 
+r88 1 -2 
+$r65 1 807 
+$r58 1 907 
+$r46 1 163 
+$r2 1 23 
+$r62 1 863 
+$r55 1 921 
+$r25 1 399 
+$r73 1 67 
+$r60 2 856 843 
+$r48 1 1036 
+$r13 1 434 
+$r18 1 573 
+$r26 1 23 
+$r5 1 163 
+$r68 3 812 677 287 
+$r14 1 429 
+r0 1 -1 
+$r72 1 191 
+r92 1 641 
+Fields: 32
+37 attributes 692
+37 attributes 369
+37 contentType 56
+37 id 681
+1103 ArrayObject 1116
+1103 ArrayObject 1120
+1103 ArrayObject 1112
+-1 strTmp 418
+-1 strTmp 481
+-1 attTmp 677
+-1 attTmp 287
+-1 nsAttTmp 989
+-1 in 163
+-1 rootElementName 117
+-1 contentHandler 935
+-1 contentHandler 907
+-1 nsSupport 191
+-1 errHandler 843
+-1 elements 30
+10 name 23
+10 chars 1022
+80 attributes 692
+80 attributes 369
+80 contentType 96
+80 id 681
+904 ArrayObject 921
+904 ArrayObject 913
+904 ArrayObject 917
+796 ArrayObject 820
+796 ArrayObject 807
+374 defaultValue 508
+374 type 434
+Accesses: 80
+387 1 -1 
+646 1 -1 
+906 1 -1 
+1041 1 10 
+147 1 10 
+1171 1 -1 
+532 1 10 
+22 1 10 
+409 1 10 
+154 1 -1 
+922 1 -1 
+539 1 374 
+29 1 -1 
+1181 1 -1 
+286 1 -1 
+798 1 -1 
+33 1 10 
+417 1 -1 
+162 1 -1 
+676 1 -1 
+1061 1 -1 
+1189 1 10 
+934 1 -1 
+680 2 80 37 
+171 1 -1 
+811 1 -1 
+44 1 -1 
+942 1 10 
+432 1 374 
+946 1 -1 
+691 2 80 37 
+1075 1 10 
+55 2 80 37 
+183 1 -1 
+314 1 -1 
+444 1 374 
+190 1 -1 
+1086 1 -1 
+960 1 -1 
+1094 1 10 
+199 1 -1 
+967 1 -1 
+72 1 10 
+842 1 -1 
+205 1 -1 
+333 1 -1 
+462 1 -1 
+974 1 -1 
+721 1 -1 
+1105 1 -1 
+595 1 374 
+84 1 10 
+981 1 -1 
+343 1 -1 
+855 1 -1 
+728 1 -1 
+220 1 -1 
+988 1 -1 
+351 1 -1 
+96 1 80 
+480 1 -1 
+99 1 -1 
+611 1 374 
+1126 1 -1 
+103 1 10 
+743 1 -1 
+489 1 -1 
+618 1 -1 
+368 2 80 37 
+496 1 374 
+116 1 -1 
+1013 1 -1 
+887 1 -1 
+1017 1 10 
+506 1 374 
+123 1 -1 
+1021 1 10 
+1150 1 -1 
+127 1 10 
+895 1 10 
+Functions: 74
+1156 4 1140 935 907 1151 
+6 13 -1 481 418 163 677 935 907 843 117 989 30 287 191 
+774 1 752 
+1161 1 1133 
+275 13 -1 481 418 163 677 935 907 843 117 989 30 287 191 
+788 14 -1 481 418 163 677 935 907 843 752 117 989 30 287 191 
+279 1 271 
+663 8 434 487 424 460 508 589 254 287 
+1175 1 191 
+26 2 -2 23 
+283 14 -1 481 418 163 677 935 266 907 843 117 989 30 287 191 
+30 2 23 30 
+414 14 -1 481 418 163 677 935 907 843 399 117 989 30 287 191 
+926 6 913 917 677 921 907 287 
+1054 1 1048 
+159 14 -1 481 418 163 677 935 907 843 142 117 989 30 287 191 
+287 2 254 287 
+545 14 -1 481 418 163 677 935 522 907 843 117 989 30 287 191 
+418 2 481 418 
+1058 14 -1 481 418 163 677 935 907 843 1036 117 989 30 287 191 
+163 1 163 
+548 2 548 254 
+808 4 677 807 287 799 
+1065 1 163 
+1193 3 935 23 907 
+172 1 163 
+684 3 677 681 287 
+429 2 434 429 
+559 16 -1 481 418 163 677 935 487 424 907 843 460 117 989 30 287 191 
+692 2 369 692 
+821 4 820 677 812 287 
+950 4 677 935 23 287 
+311 14 -1 481 418 163 677 935 907 843 303 117 989 30 287 191 
+1079 14 -1 481 418 163 677 935 907 843 117 23 989 30 287 191 
+443 13 -1 481 418 163 677 935 907 843 117 989 30 287 191 
+1083 1 1000 
+701 20 -1 96 481 418 163 677 37 935 681 907 843 80 369 692 117 56 989 30 287 191 
+318 1 163 
+194 1 191 
+964 2 677 287 
+581 14 -1 481 418 163 677 935 907 843 117 989 573 30 287 191 
+1093 14 -1 481 418 163 677 935 907 843 117 23 989 30 287 191 
+330 14 -1 481 418 163 677 935 907 843 117 989 30 254 287 191 
+77 14 -1 481 418 163 67 677 935 907 843 117 989 30 287 191 
+206 1 163 
+337 1 163 
+88 6 80 96 369 692 23 681 
+729 2 677 287 
+474 19 -1 481 418 163 677 935 487 424 907 843 460 434 117 374 508 989 30 287 191 
+859 1 641 
+348 13 -1 481 418 163 677 935 907 843 117 989 30 287 191 
+221 1 163 
+352 1 163 
+992 1 989 
+481 2 481 418 
+1121 5 1120 935 1112 907 1116 
+995 20 -1 96 481 418 163 677 37 935 681 907 843 80 369 692 117 56 989 30 287 191 
+869 3 856 843 863 
+1127 1 191 
+744 3 677 744 287 
+108 7 80 96 369 692 23 681 30 
+879 1 641 
+369 2 369 254 
+625 21 -1 481 641 418 163 677 935 487 424 907 843 460 589 434 117 508 989 30 254 287 191 
+754 1 752 
+1010 21 -1 96 481 418 163 677 37 935 1000 681 907 843 80 369 692 117 56 989 30 287 191 
+1138 1 1133 
+1014 3 163 23 1022 
+247 13 -1 481 418 163 677 935 907 843 117 989 30 287 191 
+504 4 487 424 460 508 
+250 13 -1 481 418 163 677 935 907 843 117 989 30 287 191 
+124 2 117 23 
+765 1 752 
+894 14 -1 481 418 163 677 935 907 843 117 23 989 30 287 191 
+Constructors: 3
+279 271
+88 80
+1054 1048
+
+Summary: 43
+292 573 460 641 921 1000 1036 1103 1112 1120 796 1140 67 1022 -1 56 -2 820 1116 96 0 434 80 303 863 681 1133 913 424 10 142 807 904 374 37 399 917 522 692 266 752 369 487 
+org/apache/crimson/parser/Parser2.setNamespaceFeatures(ZZ)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 1 11 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 1 0 
+15 1 11 
+Constructors: 2
+5 0
+15 11
+
+Summary: 0
+
+org/apache/crimson/parser/Parser2.normalize(Z)Ljava/lang/String;
+PTG:
+Vars:
+8
+r0 1 -1 
+$r3 2 1 75 
+$r1 1 1 
+_ret 2 12 7 
+r9 2 12 7 
+$r5 2 1 62 
+$r2 1 29 
+r10 1 12 
+Fields: 1
+-1 strTmp 1
+Accesses: 7
+0 1 -1 
+129 1 -1 
+36 1 -1 
+136 1 -1 
+169 1 -1 
+74 1 -1 
+61 1 -1 
+Functions: 13
+1 1 1 
+33 1 29 
+161 2 -1 1 
+67 2 1 62 
+102 2 7 12 
+8 2 7 12 
+105 0 
+170 0 
+45 2 7 12 
+80 2 1 75 
+53 0 
+122 2 7 12 
+95 2 7 12 
+Constructors: 1
+33 29
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.<init>()V
+PTG:
+Vars:
+8
+$r2 1 13 
+r0 1 -1 
+$r3 1 35 
+$r5 1 61 
+$r7 1 87 
+$r1 1 6 
+$r6 1 74 
+$r4 1 48 
+Fields: 0
+Accesses: 10
+16 1 -1 
+83 1 -1 
+21 1 -1 
+70 1 -1 
+8 1 -1 
+57 1 -1 
+26 1 -1 
+44 1 -1 
+31 1 -1 
+95 1 -1 
+Functions: 7
+80 1 74 
+1 1 -1 
+67 1 61 
+99 1 -1 
+54 1 48 
+41 1 35 
+92 2 -1 87 
+Constructors: 6
+80 74
+1 -1
+67 61
+54 48
+41 35
+92 87
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.maybeReadAttribute(Ljava/lang/String;Z)Ljava/lang/String;
+PTG:
+Vars:
+6
+$r4 1 17 
+$r2 1 85 
+_ret 1 85 
+r1 1 -2 
+r0 1 -1 
+$r3 1 43 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -1 
+81 2 -1 -2 
+50 2 -1 43 
+24 2 -1 17 
+57 1 -1 
+73 1 -1 
+27 2 -1 -2 
+77 1 -1 
+63 1 -1 
+Constructors: 0
+
+Summary: 3
+17 -1 43 
+org/apache/crimson/parser/Parser2.content(Lorg/apache/crimson/parser/ElementDecl;ZLorg/apache/crimson/parser/ElementValidator;)V
+PTG:
+Vars:
+21
+$r8 1 243 
+$r21 1 4 
+r1 1 -2 
+$r20 1 73 
+$r7 1 237 
+$r17 2 86 202 
+$r9 1 4 
+$r14 1 73 
+r2 1 -4 
+$r15 1 4 
+$r11 1 160 
+$r13 1 173 
+$r6 1 4 
+$r12 1 167 
+$r16 1 4 
+$r22 2 86 202 
+$r5 2 86 202 
+$r19 1 127 
+$r10 1 4 
+$r3 1 4 
+r0 1 -1 
+Fields: 5
+-1 in 4
+-1 contentHandler 202
+-1 contentHandler 86
+-1 lexicalHandler 73
+-2 name 243
+Accesses: 21
+225 1 -2 
+257 1 -1 
+3 1 -1 
+197 1 -1 
+72 1 -1 
+137 1 -1 
+201 1 -1 
+106 1 -1 
+271 1 -1 
+81 1 -1 
+113 1 -1 
+242 1 -2 
+211 1 -1 
+85 1 -1 
+120 1 -2 
+26 1 -1 
+58 1 -1 
+218 1 -1 
+253 1 -1 
+94 1 -2 
+190 1 -2 
+Functions: 20
+4 1 4 
+165 0 
+134 5 -4 4 86 202 127 
+198 3 4 86 202 
+39 5 -1 4 86 73 202 
+297 0 
+76 1 73 
+141 1 73 
+15 6 -1 -4 4 86 73 202 
+47 5 -1 4 86 73 202 
+272 1 4 
+179 1 173 
+149 5 -1 4 86 73 202 
+309 5 -1 4 86 73 202 
+183 6 -1 160 4 86 73 202 
+247 6 -1 4 86 73 202 237 
+27 1 4 
+59 1 4 
+284 8 -1 -2 243 -4 4 86 73 202 
+254 4 -4 4 86 202 
+Constructors: 1
+179 173
+
+Summary: 7
+237 -1 -2 2 160 0 -4 
+org/apache/crimson/parser/Parser2.setIsValidating(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.getc()C
+PTG:
+Vars:
+10
+$r8 2 107 62 
+$r9 1 107 
+$r19 1 107 
+$r2 2 107 45 
+$r4 1 76 
+$r5 1 90 
+$r3 2 107 73 
+$r6 2 107 96 
+$r7 1 99 
+r0 1 -1 
+Fields: 1
+-1 in 107
+Accesses: 15
+0 1 -1 
+161 1 -1 
+257 1 -1 
+130 1 -1 
+7 1 -1 
+72 1 -1 
+106 1 -1 
+44 1 -1 
+14 1 -1 
+79 1 -1 
+116 1 -1 
+54 1 -1 
+28 1 -1 
+61 1 -1 
+95 1 -1 
+Functions: 22
+96 2 96 107 
+162 0 
+258 0 
+39 2 -1 107 
+103 3 -1 90 107 
+199 2 -1 107 
+231 2 -1 107 
+73 2 73 107 
+137 2 -1 107 
+107 1 107 
+171 0 
+45 2 107 45 
+15 0 
+241 0 
+179 2 -1 107 
+117 1 107 
+149 2 -1 107 
+246 0 
+217 2 -1 107 
+62 2 107 62 
+158 2 -1 107 
+254 2 -1 107 
+Constructors: 0
+
+Summary: 7
+249 -1 141 194 90 174 169 
+org/apache/crimson/parser/Parser2.setLocale(Ljava/util/Locale;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+$r2 1 4 
+$r3 1 8 
+r0 1 -2 
+Fields: 0
+Accesses: 2
+24 1 -1 
+47 1 -1 
+Functions: 4
+4 2 4 8 
+21 0 
+7 1 -2 
+41 0 
+Constructors: 0
+
+Summary: 4
+-1 31 38 8 
+org/apache/crimson/parser/Parser2.setDTDHandler(Lorg/xml/sax/DTDHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/crimson/parser/Parser2.getNmtoken()Ljava/lang/String;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 21 
+$r1 1 35 
+$r2 1 38 
+_ret 1 38 
+$r3 1 16 
+Fields: 1
+35 name 38
+Accesses: 1
+35 1 35 
+Functions: 5
+0 1 -1 
+33 1 -1 
+5 0 
+26 1 21 
+30 2 -1 16 
+Constructors: 1
+26 21
+
+Summary: 3
+-1 16 35 
+org/apache/crimson/parser/Parser2.setContentHandler(Lorg/xml/sax/ContentHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.maybeAttlistDecl()Z
+PTG:
+Vars:
+79
+$r18 1 1107 
+$r70 1 223 
+$r63 3 625 1149 499 
+$r56 1 611 
+$r4 1 114 
+$r87 10 198 322 343 219 364 546 156 280 177 301 
+$r9 1 967 
+$r3 1 28 
+$r10 10 198 322 343 219 364 546 156 280 177 301 
+$r74 1 87 
+$r8 2 830 964 
+$r37 10 198 322 343 219 364 546 156 280 177 301 
+$r34 10 198 322 343 219 364 546 156 280 177 301 
+$r59 1 634 
+$r6 1 662 
+$r68 2 422 433 
+$r62 1 485 
+$r67 1 426 
+$r53 1 753 
+r86 1 567 
+r1 1 7 
+$r54 2 760 915 
+$r27 2 855 989 
+$r24 4 625 1149 499 1192 
+r80 1 22 
+$r50 2 855 989 
+r82 1 77 
+$r31 1 1259 
+$r46 2 760 915 
+$r7 1 671 
+$r13 1 1064 
+$r52 10 198 322 343 219 364 546 156 280 177 301 
+$r49 10 198 322 343 219 364 546 156 280 177 301 
+$r58 1 634 
+$r21 4 625 1176 1149 499 
+$r43 1 952 
+$r71 1 241 
+$r42 2 855 989 
+$r41 2 855 989 
+$r14 2 760 915 
+$r76 1 1311 
+$r55 1 554 
+$r17 10 198 322 343 219 364 546 156 280 177 301 
+$r92 3 625 1149 499 
+$r28 3 772 708 879 
+$r88 10 198 322 343 219 364 546 156 280 177 301 
+r81 2 28 39 
+$r2 1 24 
+$r57 3 625 1149 499 
+$r48 1 833 
+$r90 2 760 915 
+$r39 2 855 989 
+$r26 3 625 1149 499 
+r0 1 -1 
+$r22 1 1181 
+$r61 1 399 
+$r38 2 855 989 
+$r15 2 1071 1056 
+$r44 10 198 322 343 219 364 546 156 280 177 301 
+$r65 1 508 
+$r72 2 223 247 
+$r77 1 39 
+$r60 1 389 
+$r89 1 995 
+$r75 1 92 
+r93 11 198 322 343 219 364 546 156 280 177 301 1246 
+$r64 1 508 
+$r11 2 760 915 
+$r66 1 422 
+$r47 2 830 964 
+$r12 1 1056 
+$r30 1 1263 
+$r29 2 760 915 
+$r19 10 198 322 343 219 364 546 156 280 177 301 
+$r40 1 1034 
+$r51 1 818 
+$r45 1 908 
+$r20 3 625 1149 499 
+$r78 1 24 
+Fields: 36
+625 ArrayObject 1181
+-1 strTmp 830
+-1 strTmp 964
+-1 in 1311
+-1 notations 422
+-1 declHandler 1259
+-1 elements 24
+1176 ArrayObject 1181
+1149 ArrayObject 1181
+499 ArrayObject 1181
+114 valueDefault 879
+114 valueDefault 772
+114 valueDefault 708
+114 defaultValue 989
+114 defaultValue 855
+114 name 760
+114 name 915
+114 values 499
+114 values 625
+114 values 1149
+114 type 198
+114 type 322
+114 type 343
+114 type 219
+114 type 364
+114 type 546
+114 type 156
+114 type 280
+114 type 177
+114 type 301
+28 attributes 1056
+28 name 1263
+28 id 223
+39 attributes 1056
+39 name 1263
+39 id 223
+Accesses: 79
+259 2 39 28 
+772 1 114 
+138 1 114 
+778 1 114 
+1039 1 114 
+913 1 114 
+790 1 -1 
+1174 1 114 
+1302 1 -1 
+23 1 -1 
+280 1 114 
+1048 1 -1 
+156 1 114 
+924 1 -1 
+414 1 -1 
+1310 1 -1 
+1055 2 39 28 
+800 1 -1 
+546 1 114 
+803 1 114 
+1059 1 114 
+421 1 -1 
+934 1 -1 
+1190 1 114 
+937 1 114 
+301 1 114 
+1070 2 39 28 
+48 1 -1 
+432 1 -1 
+177 1 114 
+1074 1 114 
+821 1 114 
+55 1 -1 
+955 1 114 
+829 1 -1 
+1085 1 114 
+1213 1 114 
+322 1 114 
+963 1 -1 
+708 1 114 
+836 1 114 
+198 1 114 
+1222 1 114 
+839 1 114 
+1096 1 114 
+714 1 114 
+970 1 114 
+973 1 114 
+853 1 114 
+343 1 114 
+730 1 -1 
+219 1 114 
+987 1 114 
+1116 1 114 
+222 2 39 28 
+737 1 114 
+1251 1 114 
+229 1 -1 
+614 1 114 
+998 1 114 
+488 1 114 
+1129 1 114 
+1258 1 -1 
+364 1 114 
+1262 2 39 28 
+623 1 114 
+879 1 114 
+497 1 114 
+1009 1 114 
+1266 1 114 
+885 1 -1 
+246 2 39 28 
+758 1 114 
+1273 1 114 
+1018 1 114 
+1147 1 114 
+892 1 114 
+126 1 -1 
+1278 1 114 
+Functions: 85
+0 7 -1 964 422 24 1259 830 1311 
+385 7 -1 964 422 24 1259 830 1311 
+1283 20 322 546 772 708 198 1259 364 301 1263 879 177 915 343 855 760 280 219 156 989 1246 
+646 1 554 
+520 1 389 
+265 7 -1 964 422 24 1259 830 1311 
+393 1 389 
+1289 7 -1 964 422 24 1259 830 1311 
+1162 1 1107 
+141 7 -1 964 422 24 1259 830 1311 
+1293 7 -1 964 422 24 1259 830 1311 
+14 7 -1 964 422 24 1259 830 1311 
+398 7 -1 964 422 24 1259 830 1311 
+785 7 -1 964 422 24 1259 830 1311 
+531 7 -1 964 422 24 1259 830 1311 
+1045 8 -1 964 422 24 1034 1259 830 1311 
+919 8 -1 964 422 24 1259 908 830 1311 
+24 2 22 24 
+411 7 -1 964 422 24 1259 830 1311 
+795 7 -1 964 422 24 1259 830 1311 
+286 7 -1 964 422 24 1259 830 1311 
+1182 2 1107 1181 
+1056 3 1056 915 760 
+929 7 -1 964 422 24 1259 830 1311 
+162 7 -1 964 422 24 1259 830 1311 
+675 7 -1 964 422 24 1259 830 1311 
+422 2 422 399 
+550 7 -1 964 422 24 1259 830 1311 
+679 1 671 
+1322 7 -1 964 422 24 1259 830 1311 
+683 8 -1 964 422 662 24 1259 830 1311 
+44 5 1056 22 39 1263 223 
+558 1 554 
+816 7 -1 964 422 24 1259 830 1311 
+690 7 -1 964 422 24 1259 830 1311 
+307 7 -1 964 422 24 1259 830 1311 
+563 7 -1 964 422 24 1259 830 1311 
+1204 1 1107 
+693 7 -1 964 422 24 1259 830 1311 
+438 3 433 422 399 
+950 7 -1 964 422 24 1259 830 1311 
+183 7 -1 964 422 24 1259 830 1311 
+1081 24 1056 322 546 772 708 198 364 301 1071 879 625 177 114 915 499 855 343 760 280 219 156 989 1149 1181 
+571 2 567 554 
+61 6 1056 22 39 24 1263 223 
+445 2 389 399 
+830 2 964 830 
+575 7 -1 964 422 24 1259 830 1311 
+449 7 -1 964 422 24 1259 830 1311 
+66 7 -1 964 422 24 1259 830 1311 
+579 7 -1 964 422 24 1259 830 1311 
+964 2 964 830 
+453 7 -1 964 422 24 1259 830 1311 
+328 7 -1 964 422 24 1259 830 1311 
+73 7 -1 964 422 24 1259 830 1311 
+204 7 -1 964 422 24 1259 830 1311 
+590 7 -1 964 422 24 1259 830 1311 
+464 7 -1 964 422 24 1259 830 1311 
+720 7 -1 964 422 24 1259 830 1311 
+594 7 -1 964 422 24 1259 830 1311 
+468 7 -1 964 422 24 1259 830 1311 
+1237 1 1107 
+1111 1 1107 
+1241 1 1107 
+858 29 -1 322 964 772 708 198 915 855 343 24 280 219 156 989 1181 1311 546 422 1259 364 301 879 625 177 114 499 760 1149 830 
+349 7 -1 964 422 24 1259 830 1311 
+606 1 554 
+96 7 -1 964 422 24 1259 830 1311 
+480 1 389 
+864 7 -1 964 422 24 1259 830 1311 
+992 29 -1 322 964 772 708 198 915 855 343 24 280 219 156 989 1181 1311 546 422 1259 364 301 879 625 177 114 499 760 1149 830 
+995 3 995 915 760 
+100 1 92 
+104 8 -1 964 422 87 24 1259 830 1311 
+1134 11 177 322 546 1107 198 343 280 219 364 156 301 
+111 7 -1 964 422 24 1259 830 1311 
+371 7 -1 964 422 24 1259 830 1311 
+630 1 554 
+119 23 322 546 772 708 198 364 301 77 879 625 177 114 915 499 855 343 760 280 219 156 989 1149 1181 
+1143 1 1107 
+504 1 389 
+1017 9 -1 964 422 855 24 1259 989 830 1311 
+251 8 -1 241 964 422 24 1259 830 1311 
+764 8 -1 753 964 422 24 1259 830 1311 
+381 7 -1 964 422 24 1259 830 1311 
+Constructors: 7
+100 92
+119 114
+679 671
+1111 1107
+393 389
+44 39
+558 554
+
+Summary: 37
+322 22 662 389 567 1149 908 546 156 301 39 426 708 7 -1 753 1056 241 280 399 625 1263 219 364 499 554 114 198 1034 772 343 28 87 1064 1246 879 177 
+org/apache/crimson/parser/Parser2.maybeDoctypeDecl()Z
+PTG:
+Vars:
+29
+$r18 1 85 
+r9 1 249 
+r30 1 366 
+$r23 1 49 
+$r27 1 85 
+r29 1 254 
+$r22 1 53 
+$r2 1 74 
+$r28 1 85 
+$r19 1 85 
+$r20 1 124 
+$r1 1 18 
+$r8 1 243 
+$r4 1 219 
+$r10 1 254 
+$r21 1 32 
+$r24 1 45 
+$r13 1 277 
+r12 1 273 
+$r3 1 70 
+$r11 2 243 265 
+$r25 1 41 
+r26 1 32 
+$r14 1 333 
+$r6 1 234 
+r0 1 -1 
+$r15 1 294 
+$r5 2 41 70 
+$r16 2 243 376 
+Fields: 10
+-1 in 85
+-1 rootElementName 74
+-1 rootElementName 45
+-1 params 219
+-1 notations 243
+-1 lexicalHandler 41
+-1 lexicalHandler 70
+32 publicId 49
+32 verbatimSystemId 53
+32 name 205
+Accesses: 21
+225 1 -1 
+322 1 -1 
+99 1 -1 
+69 1 -1 
+40 1 -1 
+264 1 -1 
+73 1 -1 
+44 1 -1 
+109 1 -1 
+205 1 32 
+48 1 32 
+210 1 32 
+242 1 -1 
+52 1 32 
+84 1 -1 
+21 1 -1 
+375 1 -1 
+120 1 -1 
+218 1 -1 
+283 1 -1 
+127 1 -1 
+Functions: 35
+0 8 -1 243 85 70 41 74 219 45 
+385 1 234 
+195 8 -1 243 85 70 41 74 219 45 
+133 8 -1 243 85 70 41 74 219 45 
+265 3 243 265 254 
+140 8 -1 243 85 70 41 74 219 45 
+14 8 -1 243 85 70 41 74 219 45 
+79 2 70 74 
+147 8 -1 243 85 70 41 74 219 45 
+85 1 85 
+341 9 -1 243 85 70 41 74 219 45 333 
+215 12 -1 32 49 243 85 53 70 41 74 219 45 205 
+24 8 -1 243 85 70 41 74 219 45 
+347 2 234 254 
+157 8 -1 243 85 70 41 74 219 45 
+222 1 219 
+350 1 249 
+31 8 -1 243 85 70 41 74 219 45 
+100 1 85 
+229 2 70 41 
+169 8 -1 243 85 70 41 74 219 45 
+362 1 234 
+110 1 85 
+238 1 234 
+302 9 -1 243 85 70 294 41 74 219 45 
+243 1 243 
+371 2 234 366 
+308 2 234 254 
+181 8 -1 243 85 70 41 74 219 45 
+56 4 49 53 41 45 
+121 1 85 
+185 8 -1 243 85 70 41 74 219 45 
+253 1 249 
+381 3 243 376 366 
+62 8 -1 243 85 70 41 74 219 45 
+Constructors: 1
+238 234
+
+Summary: 12
+249 205 -1 32 273 366 53 49 124 234 294 333 
+org/apache/crimson/parser/Parser2.getMixed(Ljava/lang/String;Lorg/apache/crimson/parser/InputEntity;)V
+PTG:
+Vars:
+16
+r8 1 105 
+r20 1 75 
+r0 1 -1 
+$r14 1 250 
+$r15 1 262 
+r5 1 -2 
+$r18 1 75 
+$r6 1 87 
+$r10 1 158 
+r2 1 -3 
+$r16 1 218 
+$r17 1 227 
+$r11 1 117 
+$r21 2 179 87 
+$r12 1 130 
+$r22 2 87 273 
+Fields: 3
+-1 strTmp 87
+-1 strTmp 273
+-1 in 250
+Accesses: 10
+32 1 -1 
+272 1 -1 
+178 1 -1 
+242 1 -1 
+68 1 -1 
+86 1 -1 
+55 1 -1 
+25 1 -1 
+137 1 -1 
+249 1 -1 
+Functions: 24
+1 4 -1 273 87 250 
+97 4 -1 273 87 250 
+193 4 -1 273 87 250 
+5 4 -1 273 87 250 
+101 4 -1 273 87 250 
+134 5 -1 273 117 87 250 
+166 5 -1 273 87 250 158 
+231 4 -1 273 87 250 
+203 4 -1 273 87 250 
+235 1 227 
+269 5 -1 273 262 87 250 
+15 4 -1 273 87 250 
+79 1 75 
+175 2 105 75 
+239 5 -1 273 87 250 218 
+144 2 105 75 
+52 4 -1 273 87 250 
+278 2 273 87 
+184 3 179 87 105 
+92 1 87 
+61 0 
+189 4 -1 273 87 250 
+126 4 -1 273 87 250 
+127 0 
+Constructors: 2
+235 227
+79 75
+
+Summary: 10
+-1 1 45 158 218 -3 75 117 262 0 
+org/apache/crimson/parser/Parser2.isXmlLang(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -2 
+83 1 -2 
+22 1 -2 
+182 1 -2 
+137 1 -2 
+10 1 -2 
+122 1 -2 
+189 1 -2 
+174 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/crimson/parser/Parser2.isFastStandalone()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.maybeMisc(Z)V
+PTG:
+Vars:
+2
+$r1 1 31 
+r0 1 -1 
+Fields: 1
+-1 in 31
+Accesses: 1
+30 1 -1 
+Functions: 4
+3 2 -1 31 
+19 2 -1 31 
+11 2 -1 31 
+31 1 31 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.whitespace(Ljava/lang/String;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r5 1 24 
+$r1 1 11 
+$r3 1 20 
+$r4 1 16 
+r2 1 -2 
+Fields: 1
+-1 locale 20
+Accesses: 1
+19 1 -1 
+Functions: 3
+0 2 -1 20 
+16 3 16 -2 20 
+28 3 -1 20 11 
+Constructors: 0
+
+Summary: 4
+-1 11 -2 0 
+org/apache/crimson/parser/Parser2.maybeWhitespace()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 2 45 35 
+$r3 1 35 
+Fields: 1
+-1 in 35
+Accesses: 5
+0 1 -1 
+34 1 -1 
+7 1 -1 
+44 1 -1 
+14 1 -1 
+Functions: 6
+35 1 35 
+22 2 -1 35 
+86 2 -1 35 
+56 2 -1 35 
+45 2 35 45 
+15 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.access$100(Lorg/apache/crimson/parser/Parser2;)Lorg/apache/crimson/parser/InputEntity;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -2 
+_ret 1 1 
+Fields: 1
+-2 in 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/crimson/parser/Parser2.init()V
+PTG:
+Vars:
+16
+$r15 1 6 
+$r16 1 17 
+$r5 1 207 
+$r19 1 79 
+$r3 1 30 
+$r7 1 200 
+$r18 1 54 
+$r13 1 141 
+r0 1 -1 
+$r10 1 120 
+$r11 1 127 
+$r20 1 214 
+$r12 1 134 
+$r14 1 193 
+$r17 1 36 
+$r21 1 214 
+Fields: 6
+-1 entities 120
+-1 resolver 207
+-1 notations 127
+-1 params 134
+-1 elements 141
+-1 locale 193
+Accesses: 25
+64 1 -1 
+192 1 -1 
+2 1 -1 
+133 1 -1 
+71 1 -1 
+203 1 -1 
+140 1 -1 
+13 1 -1 
+206 1 -1 
+149 1 -1 
+86 1 -1 
+24 1 -1 
+91 1 -1 
+221 1 -1 
+32 1 -1 
+96 1 -1 
+101 1 -1 
+106 1 -1 
+43 1 -1 
+46 1 -1 
+111 1 -1 
+116 1 -1 
+119 1 -1 
+61 1 -1 
+126 1 -1 
+Functions: 17
+-1 0 
+225 7 -1 193 134 120 141 207 127 
+130 1 127 
+165 7 -1 193 134 120 141 207 127 
+40 1 36 
+137 1 134 
+10 1 6 
+173 7 -1 193 134 120 141 207 127 
+144 1 141 
+83 1 79 
+21 1 17 
+181 7 -1 193 134 120 141 207 127 
+58 1 54 
+218 1 214 
+123 1 120 
+157 7 -1 193 134 120 141 207 127 
+189 7 -1 193 134 120 141 207 127 
+Constructors: 6
+83 79
+21 17
+40 36
+10 6
+58 54
+218 214
+
+Summary: 1
+-1 
+org/apache/crimson/parser/Parser2.maybeConditionalSect()Z
+PTG:
+Vars:
+13
+$r12 1 73 
+r1 1 15 
+r0 1 -1 
+$r7 1 15 
+$r2 1 22 
+$r4 1 52 
+$r8 1 15 
+$r11 2 15 70 
+$r9 1 127 
+$r5 1 203 
+$r10 1 15 
+$r13 1 15 
+$r6 1 284 
+Fields: 1
+-1 in 15
+Accesses: 12
+97 1 -1 
+130 1 -1 
+148 1 -1 
+69 1 -1 
+89 1 -1 
+217 1 -1 
+11 1 -1 
+107 1 -1 
+123 1 -1 
+76 1 -1 
+173 1 -1 
+79 1 -1 
+Functions: 23
+0 2 -1 15 
+161 2 -1 15 
+34 2 -1 15 
+98 1 15 
+259 2 -1 15 
+291 3 -1 284 15 
+133 2 -1 15 
+197 2 -1 15 
+38 2 -1 15 
+70 2 70 15 
+203 2 22 203 
+236 2 -1 15 
+80 1 15 
+176 2 -1 15 
+17 2 -1 15 
+49 2 -1 15 
+52 2 52 22 
+21 2 -1 15 
+119 2 -1 15 
+151 2 -1 15 
+183 2 -1 15 
+124 1 15 
+223 2 -1 15 
+Constructors: 0
+
+Summary: 2
+-1 284 
+org/apache/crimson/parser/Parser2.readStandalone()V
+PTG:
+Vars:
+5
+$r2 1 12 
+$r3 1 23 
+$r4 1 44 
+r1 1 7 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+35 1 -1 
+Functions: 4
+0 1 -1 
+51 2 -1 44 
+23 2 23 7 
+12 2 7 12 
+Constructors: 0
+
+Summary: 2
+44 -1 
+org/apache/crimson/parser/Parser2.parseCharNumber()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+2 1 -1 
+18 1 -1 
+68 1 -1 
+169 1 -1 
+12 1 -1 
+62 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 

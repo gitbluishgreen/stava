@@ -1,0 +1,20 @@
+nice -n 19 /home/cs17b006/jdk1.8.0_291/bin/java -Xmx6G -javaagent:poa-trunk.jar -jar /home/cs17b006/stava-master/Benchmarks/dacapo/dacapo-9.12-MR1-bach.jar sunflow -s small --scratch-directory /tmp/dacaposcratch -n 3
+============================================================
+TamiFlex Play-Out Agent Version trunk
+Loaded properties from /home/cs17b006/.tamiflex/poa.properties
+============================================================
+The derived number of threads (72) is outside the range [1,32]; rescaling to match thread limit.
+Using scaled threading model. 72 processors detected, 32 threads used to drive the workload, in a possible range of [1,32]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 644 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 282 msec =====
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 245 msec =====
+
+============================================================
+TamiFlex Play-Out Agent Version trunk
+Found 74 new log entries.
+Dumped 1290 new classes.
+Log file written to: /home/cs17b006/stava-master/Benchmarks/out/refl.log
+============================================================

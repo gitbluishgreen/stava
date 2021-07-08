@@ -1,0 +1,716 @@
+17
+java/util/HashMap$TreeNode.getTreeNode(ILjava/lang/Object;)Ljava/util/HashMap$TreeNode;
+PTG:
+Vars:
+6
+_ret 1 18 
+$r3 1 18 
+r2 1 -3 
+$r1 1 1 
+r0 1 -1 
+$r4 2 8 -1 
+Fields: 1
+-1 parent 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+7 2 -1 1 
+14 4 -1 1 -3 8 
+Constructors: 0
+
+Summary: 2
+-3 1 
+java/util/HashMap$TreeNode.putTreeVal(Ljava/util/HashMap;[Ljava/util/HashMap$Node;ILjava/lang/Object;Ljava/lang/Object;)Ljava/util/HashMap$TreeNode;
+PTG:
+Vars:
+19
+r7 1 -6 
+$r19 2 14 -1 
+$r25 2 129 156 
+$r16 1 145 
+r2 2 14 -1 
+$r15 1 172 
+$r14 1 156 
+r24 4 14 -1 129 156 
+r5 1 -5 
+$r3 1 59 
+r6 1 -2 
+r9 1 -3 
+r20 2 129 156 
+r0 1 -1 
+$r1 1 7 
+$r17 1 95 
+r22 2 145 172 
+r18 1 95 
+$r13 1 129 
+Fields: 7
+-1 right 156
+-1 left 129
+-1 parent 7
+-1 key 59
+14 right 156
+14 left 129
+14 key 59
+Accesses: 11
+210 2 129 156 
+260 4 -1 129 156 14 
+6 1 -1 
+57 2 129 156 
+154 2 129 156 
+202 2 129 156 
+250 4 -1 129 156 14 
+27 2 129 156 
+267 4 -1 129 156 14 
+221 4 -1 129 156 14 
+127 2 129 156 
+Functions: 10
+306 1 -3 
+228 3 -2 -5 -6 
+165 3 -5 156 95 
+138 3 129 -5 95 
+186 2 -5 59 
+75 2 -5 59 
+108 3 -5 59 95 
+13 5 -1 129 7 59 156 
+93 1 -5 
+301 6 -1 129 7 59 156 14 
+Constructors: 0
+
+Summary: 6
+-3 1 0 -6 3 -2 
+java/util/HashMap$TreeNode.split(Ljava/util/HashMap;[Ljava/util/HashMap$Node;II)V
+PTG:
+Vars:
+12
+$r5 1 148 
+$r4 1 191 
+r7 1 32 
+r2 1 -3 
+r8 2 -1 32 
+r3 1 -2 
+r12 2 -1 32 
+r0 1 -1 
+$r6 1 32 
+r10 2 -1 32 
+r11 2 -1 32 
+r9 2 -1 32 
+Fields: 1
+-1 next 32
+Accesses: 7
+97 2 -1 32 
+114 2 -1 32 
+43 2 -1 32 
+30 2 -1 32 
+46 2 -1 32 
+62 2 -1 32 
+79 2 -1 32 
+Functions: 4
+145 3 -1 32 -2 
+214 3 -1 32 -3 
+168 3 -1 32 -3 
+188 3 -1 32 -2 
+Constructors: 0
+
+Summary: 3
+-3 -2 0 
+java/util/HashMap$TreeNode.rotateRight(Ljava/util/HashMap$TreeNode;Ljava/util/HashMap$TreeNode;)Ljava/util/HashMap$TreeNode;
+PTG:
+Vars:
+7
+$r5 1 36 
+$r1 1 5 
+_ret 2 5 -2 
+r0 1 -3 
+$r7 1 59 
+$r3 1 15 
+r8 2 5 -2 
+Fields: 4
+5 right 15
+36 right 59
+-3 left 5
+-3 parent 36
+Accesses: 12
+81 1 5 
+19 1 -3 
+35 1 -3 
+4 1 -3 
+52 1 5 
+68 1 36 
+86 1 -3 
+40 1 5 
+58 1 36 
+76 1 36 
+14 1 5 
+31 1 15 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+1 0 
+java/util/HashMap$TreeNode.root()Ljava/util/HashMap$TreeNode;
+PTG:
+Vars:
+3
+$r1 1 3 
+r3 1 3 
+r0 1 -1 
+Fields: 1
+-1 parent 3
+Accesses: 1
+2 1 3 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/HashMap$TreeNode.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/HashMap$TreeNode.moveRootToFront([Ljava/util/HashMap$Node;Ljava/util/HashMap$TreeNode;)V
+PTG:
+Vars:
+7
+$r8 1 49 
+$r2 1 26 
+$r6 1 49 
+r3 1 26 
+r1 1 -2 
+r0 1 -3 
+r5 1 46 
+Fields: 3
+-3 prev 46
+-3 next 49
+-2 ArrayObject 26
+Accesses: 8
+48 1 -3 
+65 1 49 
+18 1 -3 
+99 1 -3 
+88 1 26 
+42 1 -3 
+77 1 46 
+94 1 -3 
+Functions: 2
+119 0 
+108 3 49 -3 46 
+Constructors: 0
+
+Summary: 3
+1 -2 0 
+java/util/HashMap$TreeNode.untreeify(Ljava/util/HashMap;)Ljava/util/HashMap$Node;
+PTG:
+Vars:
+7
+_ret 1 19 
+r3 1 19 
+r4 1 19 
+r5 2 -1 45 
+r2 1 19 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+45 next 45
+Accesses: 2
+34 1 19 
+40 2 -1 45 
+Functions: 1
+12 3 -1 -2 45 
+Constructors: 0
+
+Summary: 4
+-1 -2 0 45 
+java/util/HashMap$TreeNode.treeify([Ljava/util/HashMap$Node;)V
+PTG:
+Vars:
+13
+r1 1 -2 
+r9 2 9 -1 
+r8 3 9 -1 202 
+r6 5 9 162 154 -1 202 
+$r2 1 9 
+$r12 2 162 154 
+r10 1 110 
+r11 2 162 154 
+r3 1 9 
+$r7 1 110 
+r5 2 50 69 
+r0 1 -1 
+r4 1 50 
+Fields: 8
+162 right 162
+162 left 154
+162 key 69
+-1 next 9
+-1 key 50
+154 right 162
+154 left 154
+154 key 69
+Accesses: 14
+64 2 162 154 
+160 2 162 154 
+33 2 -1 9 
+194 5 -1 162 9 154 202 
+38 2 -1 9 
+71 2 162 154 
+8 2 -1 9 
+46 2 -1 9 
+174 2 -1 9 
+52 2 -1 9 
+21 2 -1 9 
+24 2 -1 9 
+152 2 162 154 
+185 5 -1 162 9 154 202 
+Functions: 5
+198 4 -1 50 9 202 
+136 2 50 69 
+217 5 -1 -2 50 9 202 
+123 3 50 69 110 
+108 1 50 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/HashMap$TreeNode.find(ILjava/lang/Object;Ljava/lang/Class;)Ljava/util/HashMap$TreeNode;
+PTG:
+Vars:
+10
+r5 1 -3 
+r9 2 106 -4 
+r1 1 8 
+r2 1 15 
+$r11 2 8 15 
+$r8 1 106 
+r10 2 8 15 
+$r3 1 51 
+$r6 1 149 
+r0 1 -1 
+Fields: 3
+-1 right 15
+-1 left 8
+-1 key 51
+Accesses: 4
+17 2 8 15 
+49 2 8 15 
+3 2 8 15 
+10 2 8 15 
+Functions: 4
+144 4 -3 -4 106 15 
+65 2 -3 51 
+116 4 -3 -4 51 106 
+105 1 -3 
+Constructors: 0
+
+Summary: 3
+2 1 -4 
+java/util/HashMap$TreeNode.<init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V
+PTG:
+Vars:
+4
+r1 1 -3 
+r2 1 -4 
+r3 1 -5 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 4 -1 -3 -4 -5 
+Constructors: 1
+6 -1
+
+Summary: 7
+-5 2 -3 -1 1 -4 3 
+java/util/HashMap$TreeNode.balanceDeletion(Ljava/util/HashMap$TreeNode;Ljava/util/HashMap$TreeNode;)Ljava/util/HashMap$TreeNode;
+PTG:
+Vars:
+24
+r13 1 12 
+$r6 1 52 
+$r8 1 127 
+$r10 1 12 
+r23 1 345 
+$r24 1 42 
+$r1 1 42 
+r14 1 42 
+r18 1 127 
+r15 1 52 
+$r21 1 42 
+$r3 1 339 
+r12 8 12 275 307 417 202 486 -2 85 
+r17 1 120 
+$r19 1 52 
+$r5 1 12 
+$r7 1 12 
+$r16 1 52 
+$r9 1 52 
+r22 1 339 
+$r2 1 12 
+$r0 1 12 
+$r4 1 42 
+r11 7 275 307 417 202 486 -2 85 
+Fields: 7
+12 right 52
+12 left 42
+-3 parent 12
+52 right 127
+52 left 120
+42 right 345
+42 left 339
+Accesses: 46
+193 1 52 
+321 1 12 
+449 1 12 
+258 1 127 
+388 1 339 
+453 1 42 
+134 1 127 
+72 1 52 
+456 1 42 
+11 8 417 -2 275 307 85 486 202 12 
+203 8 417 -2 275 307 85 486 202 12 
+267 1 12 
+77 1 12 
+335 1 42 
+147 1 120 
+404 1 345 
+341 1 42 
+469 1 339 
+22 8 417 -2 275 307 85 486 202 12 
+86 8 417 -2 275 307 85 486 202 12 
+216 1 12 
+409 1 42 
+27 8 417 -2 275 307 85 486 202 12 
+285 1 42 
+158 1 52 
+478 1 12 
+352 1 339 
+418 8 417 -2 275 307 85 486 202 12 
+99 1 12 
+36 8 417 -2 275 307 85 486 202 12 
+294 1 42 
+41 1 12 
+171 1 127 
+299 1 12 
+237 1 12 
+365 1 345 
+431 1 12 
+241 1 52 
+51 1 12 
+115 1 52 
+244 1 52 
+308 8 417 -2 275 307 85 486 202 12 
+375 1 42 
+122 1 52 
+187 1 120 
+61 1 52 
+Functions: 6
+81 14 417 -2 486 202 42 12 275 307 339 52 85 120 345 127 
+482 14 417 -2 486 202 42 12 275 307 339 52 85 120 345 127 
+197 10 417 -2 275 307 52 85 486 120 202 127 
+413 10 417 -2 275 307 339 85 486 345 202 42 
+271 14 417 -2 486 202 42 12 275 307 339 52 85 120 345 127 
+303 14 417 -2 486 202 42 12 275 307 339 52 85 120 345 127 
+Constructors: 0
+
+Summary: 1
+0 
+java/util/HashMap$TreeNode.removeTreeNode(Ljava/util/HashMap;[Ljava/util/HashMap$Node;Z)V
+PTG:
+Vars:
+30
+$r13 1 239 
+$r19 1 392 
+r37 8 232 163 556 187 -1 169 27 107 
+r0 1 -3 
+r1 1 -1 
+r38 1 239 
+$r23 1 120 
+$r3 1 38 
+r28 7 232 163 187 -1 169 27 107 
+$r22 1 287 
+r18 1 270 
+r17 1 239 
+r4 1 38 
+r10 1 169 
+$r24 1 128 
+$r12 1 609 
+r7 1 -2 
+r16 1 232 
+$r6 1 96 
+r9 1 163 
+$r14 1 392 
+$r15 1 187 
+$r36 8 232 163 556 187 -1 169 27 107 
+r30 2 187 169 
+r34 4 232 163 -1 169 
+$r26 1 139 
+r5 1 50 
+$r11 1 392 
+$r2 1 27 
+r27 2 38 27 
+Fields: 20
+187 right 232
+187 parent 270
+-3 ArrayObject 27
+270 left 287
+-1 prev 50
+-1 right 169
+-1 next 38
+-1 left 163
+-1 parent 239
+27 right 120
+27 left 128
+27 parent 96
+169 right 232
+169 left 187
+169 parent 270
+128 left 139
+107 right 120
+107 left 128
+239 right 609
+239 left 392
+Accesses: 51
+259 2 169 187 
+390 1 239 
+518 1 239 
+137 1 128 
+265 2 169 187 
+17 1 -1 
+529 1 -1 
+402 1 239 
+277 1 -1 
+533 1 -1 
+536 1 -1 
+539 1 -1 
+412 1 239 
+285 1 270 
+159 1 -1 
+37 1 -1 
+165 1 -1 
+297 1 270 
+46 1 -1 
+307 1 270 
+568 1 -1 
+185 2 169 187 
+315 2 169 187 
+578 1 -1 
+325 1 169 
+73 1 50 
+203 2 169 187 
+331 1 -1 
+588 1 239 
+339 1 -1 
+212 1 -1 
+85 1 38 
+471 1 -1 
+599 1 239 
+217 2 169 187 
+349 1 232 
+477 4 -1 163 232 169 
+94 7 -1 163 232 169 187 27 107 
+607 1 239 
+224 1 -1 
+227 2 169 187 
+357 2 169 187 
+234 1 -1 
+618 1 239 
+367 1 163 
+496 1 239 
+118 7 -1 163 232 169 187 27 107 
+375 2 169 187 
+252 1 -1 
+508 1 239 
+126 7 -1 163 232 169 187 27 107 
+Functions: 4
+148 7 128 96 -2 38 120 27 139 
+628 20 128 96 -1 609 -3 163 38 232 392 169 139 107 556 270 239 50 120 27 187 287 
+102 18 -1 128 96 609 163 38 232 392 169 107 139 270 239 50 120 187 27 287 
+554 18 -1 128 96 609 163 38 232 392 169 107 139 270 239 50 120 187 27 287 
+Constructors: 0
+
+Summary: 4
+-3 1 0 -2 
+java/util/HashMap$TreeNode.tieBreakOrder(Ljava/lang/Object;Ljava/lang/Object;)I
+PTG:
+Vars:
+6
+$r3 1 12 
+$r5 1 19 
+$r4 1 16 
+r1 1 -3 
+$r2 1 9 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 7
+16 1 16 
+34 1 -3 
+8 1 -2 
+9 1 9 
+12 2 19 12 
+30 1 -2 
+15 1 -3 
+Constructors: 0
+
+Summary: 3
+9 16 0 
+java/util/HashMap$TreeNode.checkInvariants(Ljava/util/HashMap$TreeNode;)Z
+PTG:
+Vars:
+13
+$r12 1 37 
+$r11 1 53 
+r6 1 22 
+$r8 1 89 
+r3 1 14 
+$r9 1 68 
+r2 1 9 
+$r5 1 22 
+$r10 1 76 
+r4 1 19 
+r0 1 -2 
+r1 1 4 
+$r7 1 114 
+Fields: 11
+9 parent 89
+4 right 76
+4 left 68
+22 prev 53
+14 parent 114
+19 next 37
+-2 right 14
+-2 prev 19
+-2 next 22
+-2 left 9
+-2 parent 4
+Accesses: 18
+0 1 -2 
+96 1 9 
+35 1 19 
+67 1 4 
+100 1 -2 
+5 1 -2 
+134 1 -2 
+10 1 -2 
+75 1 4 
+15 1 -2 
+113 1 14 
+145 1 9 
+51 1 22 
+21 1 -2 
+88 1 9 
+121 1 14 
+156 1 14 
+125 1 -2 
+Functions: 2
+182 2 114 14 
+169 2 9 89 
+Constructors: 0
+
+Summary: 13
+9 4 89 68 14 22 76 0 53 37 114 19 -2 
+java/util/HashMap$TreeNode.balanceInsertion(Ljava/util/HashMap$TreeNode;Ljava/util/HashMap$TreeNode;)Ljava/util/HashMap$TreeNode;
+PTG:
+Vars:
+14
+$r4 3 29 119 214 
+$r15 2 119 214 
+$r7 2 51 91 
+$r0 3 29 119 214 
+$r3 2 186 41 
+r13 3 29 119 214 
+$r11 4 29 6 119 214 
+$r5 1 51 
+r12 4 29 6 119 214 
+$r8 3 29 119 214 
+r9 1 241 
+r10 5 29 -3 6 119 214 
+$r1 1 41 
+$r14 2 119 214 
+Fields: 8
+29 right 51
+29 left 41
+29 parent 214
+29 parent 119
+-3 parent 6
+6 right 91
+6 left 186
+6 parent 29
+Accesses: 25
+129 4 6 214 119 29 
+2 5 -3 6 214 119 29 
+5 5 -3 6 214 119 29 
+71 1 51 
+200 4 6 214 119 29 
+138 3 214 119 29 
+76 4 6 214 119 29 
+16 5 -3 6 214 119 29 
+81 3 214 119 29 
+21 4 6 214 119 29 
+213 3 214 119 29 
+90 4 6 214 119 29 
+155 1 41 
+28 4 6 214 119 29 
+224 4 6 214 119 29 
+166 1 41 
+40 3 214 119 29 
+105 4 6 214 119 29 
+233 3 214 119 29 
+171 4 6 214 119 29 
+176 3 214 119 29 
+50 3 214 119 29 
+118 3 214 119 29 
+185 4 6 214 119 29 
+60 1 51 
+Functions: 4
+193 9 241 51 6 214 119 41 186 91 29 
+98 9 241 51 6 214 119 41 186 91 29 
+237 6 241 51 214 119 41 29 
+142 6 241 51 214 119 41 29 
+Constructors: 0
+
+Summary: 0
+
+java/util/HashMap$TreeNode.rotateLeft(Ljava/util/HashMap$TreeNode;Ljava/util/HashMap$TreeNode;)Ljava/util/HashMap$TreeNode;
+PTG:
+Vars:
+7
+$r3 1 15 
+_ret 2 5 -2 
+r8 2 5 -2 
+$r1 1 5 
+$r7 1 59 
+r0 1 -3 
+$r5 1 36 
+Fields: 4
+5 left 15
+36 left 59
+-3 right 5
+-3 parent 36
+Accesses: 12
+81 1 5 
+19 1 -3 
+35 1 -3 
+4 1 -3 
+52 1 5 
+68 1 36 
+86 1 -3 
+40 1 5 
+58 1 36 
+76 1 36 
+14 1 5 
+31 1 15 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+1 0 

@@ -1,0 +1,2192 @@
+103
+org/h2/engine/Session.unlockAll()V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r8 1 7 
+$r5 1 21 
+$r12 1 21 
+$r3 1 21 
+r4 1 44 
+$r1 1 31 
+r7 1 55 
+$r6 1 55 
+Fields: 3
+-1 undoLog 7
+-1 locks 21
+-1 database 31
+Accesses: 9
+96 1 -1 
+20 1 -1 
+100 1 -1 
+37 1 -1 
+6 1 -1 
+72 1 -1 
+93 1 -1 
+109 1 -1 
+30 1 -1 
+Functions: 8
+16 0 
+66 5 -1 21 55 7 31 
+21 1 21 
+38 1 21 
+54 1 44 
+7 1 7 
+76 1 21 
+45 1 44 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.unlinkAtCommitStop(Lorg/h2/value/Value;)V
+PTG:
+Vars:
+5
+r2 1 -2 
+$r3 1 1 
+$r4 1 12 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 unlinkMap 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+11 1 -2 
+15 2 1 12 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getPowerOffCount()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 database 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.rollbackTo(IZ)V
+PTG:
+Vars:
+15
+$r3 1 36 
+$r15 1 1 
+r11 1 98 
+$r5 1 57 
+r16 1 18 
+$r10 1 98 
+$r1 1 1 
+$r2 1 36 
+r0 1 -1 
+r17 1 49 
+$r14 1 1 
+r8 1 90 
+$r4 1 36 
+$r9 1 36 
+$r12 1 36 
+Fields: 3
+-1 undoLog 1
+-1 savepoints 36
+49 ArrayObject 90
+Accesses: 8
+0 1 -1 
+35 1 -1 
+115 1 -1 
+53 1 -1 
+24 1 -1 
+42 1 -1 
+11 1 -1 
+92 1 -1 
+Functions: 10
+1 1 1 
+21 4 -1 1 18 36 
+54 1 36 
+121 2 36 90 
+106 1 98 
+43 1 36 
+12 1 1 
+29 1 1 
+61 3 49 57 90 
+93 2 36 90 
+Constructors: 0
+
+Summary: 3
+-1 90 49 
+org/h2/engine/Session.getSessionStart()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.addLocalTempTableIndex(Lorg/h2/index/Index;)V
+PTG:
+Vars:
+9
+r2 1 -2 
+$r1 1 1 
+$r11 1 8 
+$r7 1 47 
+$r5 1 24 
+$r3 1 1 
+r0 1 -1 
+$r4 1 19 
+$r6 1 1 
+Fields: 1
+-1 localTempTableIndexes 1
+Accesses: 4
+0 1 -1 
+42 1 -1 
+11 1 -1 
+14 1 -1 
+Functions: 7
+-1 0 
+32 1 -2 
+33 0 
+18 1 -2 
+53 3 1 -2 47 
+46 1 -2 
+15 2 1 19 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.prepare(Ljava/lang/String;)Lorg/h2/command/Prepared;
+PTG:
+Vars:
+4
+$r2 1 3 
+r0 1 -1 
+_ret 1 3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.removeProcedure(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+$r3 1 1 
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+Fields: 1
+-1 procedures 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.findLocalTempTableConstraint(Ljava/lang/String;)Lorg/h2/constraint/Constraint;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r1 1 1 
+r2 1 -2 
+_ret 1 14 
+$r3 1 1 
+$r4 1 14 
+$r5 1 14 
+Fields: 1
+-1 localTempTableConstraints 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.getUser()Lorg/h2/engine/User;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 user 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.log(Lorg/h2/table/Table;SLorg/h2/result/Row;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 2
+8 3 1 -2 -4 
+11 2 -1 1 
+Constructors: 1
+8 1
+
+Summary: 6
+-1 -4 1 2 0 -2 
+org/h2/engine/Session.setCurrentCommand(Lorg/h2/command/Command;J)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 5
+2 1 -1 
+7 1 -1 
+25 1 -1 
+10 1 -1 
+31 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/engine/Session.setWaitForLock(Lorg/h2/table/Table;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/engine/Session.nextObjectId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setVariable(Ljava/lang/String;Lorg/h2/value/Value;)V
+PTG:
+Vars:
+10
+$r1 1 15 
+r8 2 52 -3 
+r0 1 -1 
+$r6 1 22 
+$r7 1 26 
+r9 2 26 59 
+$r4 1 59 
+r2 1 -2 
+$r5 1 45 
+$r3 1 54 
+Fields: 3
+-1 variables 54
+-1 variables 22
+-1 database 45
+Accesses: 5
+4 1 -1 
+21 1 -1 
+53 1 -1 
+11 1 -1 
+44 1 -1 
+Functions: 6
+1 4 -1 54 22 45 
+22 2 -2 22 
+54 4 -2 -3 52 54 
+71 2 26 59 
+43 3 -3 52 45 
+75 2 26 59 
+Constructors: 0
+
+Summary: 4
+-1 0 -2 1 
+org/h2/engine/Session.getModificationId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.addLock(Lorg/h2/table/Table;)V
+PTG:
+Vars:
+4
+$r2 1 7 
+r1 1 -2 
+$r4 1 7 
+r0 1 -1 
+Fields: 1
+-1 locks 7
+Accesses: 2
+21 1 -1 
+6 1 -1 
+Functions: 3
+17 0 
+7 2 -2 7 
+26 2 -2 7 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.containsUncommitted()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getLocalTempTableConstraints()Ljava/util/HashMap;
+PTG:
+Vars:
+4
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 localTempTableConstraints 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.closeTemporaryResults()V
+PTG:
+Vars:
+6
+$r1 1 1 
+r5 1 25 
+r3 1 14 
+r0 1 -1 
+$r2 1 1 
+$r4 1 25 
+Fields: 1
+-1 temporaryResults 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+43 1 -1 
+Functions: 4
+35 1 25 
+8 1 1 
+24 1 14 
+15 1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setLastIdentity(Lorg/h2/value/Value;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/engine/Session.getTrace()Lorg/h2/message/Trace;
+PTG:
+Vars:
+11
+$r9 1 17 
+$r8 1 8 
+_ret 1 70 
+$r3 1 63 
+$r1 1 1 
+r0 1 -1 
+$r4 1 70 
+$r11 1 29 
+$r12 1 32 
+$r2 1 1 
+$r10 1 24 
+Fields: 2
+-1 traceModuleName 1
+-1 database 63
+Accesses: 7
+0 1 -1 
+66 1 -1 
+35 1 -1 
+20 1 -1 
+38 1 -1 
+54 1 -1 
+62 1 -1 
+Functions: 8
+17 1 17 
+51 0 
+8 1 8 
+24 1 24 
+12 1 8 
+29 1 29 
+45 0 
+63 2 1 63 
+Constructors: 1
+12 8
+
+Summary: 1
+-1 
+org/h2/engine/Session.addSavepoint(Ljava/lang/String;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+$r6 1 8 
+$r3 1 1 
+$r4 1 23 
+Fields: 1
+-1 savepoints 1
+Accesses: 3
+0 1 -1 
+11 1 -1 
+14 1 -1 
+Functions: 4
+-1 0 
+19 2 -1 1 
+20 0 
+26 3 1 -2 23 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.addTemporaryResult(Lorg/h2/result/LocalResult;)V
+PTG:
+Vars:
+6
+$r4 1 9 
+$r2 1 9 
+$r5 1 16 
+$r3 1 9 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 temporaryResults 9
+Accesses: 4
+34 1 -1 
+19 1 -1 
+22 1 -1 
+8 1 -1 
+Functions: 4
+0 1 -2 
+-1 0 
+23 1 9 
+39 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.getVariable(Ljava/lang/String;)Lorg/h2/value/Value;
+PTG:
+Vars:
+7
+r4 1 9 
+r0 1 -1 
+_ret 2 20 9 
+$r2 1 5 
+$r3 1 9 
+$r5 2 20 9 
+r1 1 -2 
+Fields: 1
+-1 variables 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.getCurrentCommand()Lorg/h2/command/Command;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 currentCommand 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.reconnect(Z)Lorg/h2/engine/SessionInterface;
+PTG:
+Vars:
+7
+$r4 1 21 
+$r5 1 36 
+_ret 1 18 
+$r1 1 8 
+$r2 1 12 
+r0 1 -1 
+r3 1 18 
+Fields: 3
+-1 connectionInfo 12
+-1 sessionState 21
+-1 database 36
+Accesses: 4
+35 1 -1 
+20 1 -1 
+24 1 18 
+11 1 -1 
+Functions: 6
+-1 0 
+1 4 -1 36 21 12 
+36 1 36 
+5 4 -1 36 21 12 
+8 2 8 12 
+28 1 18 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getLastIdentity()Lorg/h2/value/Value;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 lastIdentity 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.addLocalTempTable(Lorg/h2/table/Table;)V
+PTG:
+Vars:
+9
+$r7 1 53 
+$r3 1 1 
+$r6 1 1 
+$r4 1 19 
+r2 1 -2 
+$r5 1 22 
+$r1 1 1 
+r0 1 -1 
+$r11 1 8 
+Fields: 1
+-1 localTempTables 1
+Accesses: 6
+0 1 -1 
+48 1 -1 
+38 1 -1 
+11 1 -1 
+45 1 -1 
+14 1 -1 
+Functions: 7
+-1 0 
+18 1 -2 
+52 1 -2 
+57 3 1 -2 53 
+30 1 -2 
+15 2 1 19 
+31 0 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.removeLocalTempTable(Lorg/h2/table/Table;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+$r3 1 15 
+$r5 1 23 
+r0 1 -1 
+$r2 1 11 
+Fields: 2
+-1 localTempTables 11
+-1 database 23
+Accesses: 4
+0 1 -1 
+22 1 -1 
+7 1 -1 
+10 1 -1 
+Functions: 3
+18 2 11 15 
+14 1 -2 
+31 4 -1 -2 23 11 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.getNextSystemIdentifier(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+7
+_ret 1 29 
+r2 1 -1 
+$r0 1 0 
+$r3 1 23 
+r4 1 29 
+r5 1 -2 
+$r1 1 9 
+Fields: 0
+Accesses: 2
+20 1 -1 
+12 1 -1 
+Functions: 5
+0 1 0 
+4 1 0 
+23 1 23 
+9 1 9 
+30 2 -2 29 
+Constructors: 1
+4 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.getProcedure(Ljava/lang/String;)Lorg/h2/engine/Procedure;
+PTG:
+Vars:
+7
+r0 1 -1 
+_ret 1 14 
+$r4 1 14 
+$r1 1 1 
+r2 1 -2 
+$r5 1 14 
+$r3 1 1 
+Fields: 1
+-1 procedures 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.getFirstUncommittedPos()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setPowerOffCount(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 database 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setLockTimeout(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getDatabase()Lorg/h2/engine/Database;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 database 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.checkCanceled()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+19 1 -1 
+4 1 -1 
+29 1 -1 
+Functions: 3
+32 0 
+1 1 -1 
+14 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.throttle()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 -1 
+Fields: 0
+Accesses: 5
+0 1 -1 
+34 1 -1 
+37 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 2
+8 0 
+42 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.toString()Ljava/lang/String;
+PTG:
+Vars:
+11
+$r7 1 31 
+$r6 1 28 
+_ret 1 39 
+$r9 1 39 
+$r1 1 9 
+$r4 1 21 
+r2 1 -1 
+$r5 1 25 
+$r8 1 36 
+$r0 1 0 
+$r3 1 16 
+Fields: 1
+-1 user 25
+Accesses: 2
+24 1 -1 
+12 1 -1 
+Functions: 8
+0 1 0 
+16 1 16 
+4 1 0 
+36 1 36 
+21 2 21 28 
+9 1 9 
+25 1 25 
+31 1 31 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getLastUncommittedDelete()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.createConnection(Z)Lorg/h2/jdbc/JdbcConnection;
+PTG:
+Vars:
+6
+r1 1 -1 
+r4 2 6 12 
+_ret 1 13 
+$r0 1 13 
+$r2 1 19 
+$r3 1 22 
+Fields: 0
+Accesses: 0
+Functions: 3
+18 1 -1 
+19 1 19 
+26 5 -1 22 6 12 13 
+Constructors: 1
+26 13
+
+Summary: 1
+-1 
+org/h2/engine/Session.hashCode()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.finalize()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+16 1 -1 
+7 1 -1 
+Functions: 1
+17 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setCommitOrRollbackDisabled(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getAutoCommit()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.prepareCommit(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+$r2 1 8 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 logSystem 8
+Accesses: 2
+18 1 -1 
+7 1 -1 
+Functions: 2
+0 2 -1 8 
+13 3 -1 -2 8 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/engine/Session.<init>(Lorg/h2/engine/Database;Lorg/h2/engine/User;I)V
+PTG:
+Vars:
+11
+$r9 1 123 
+$r6 1 91 
+r10 1 129 
+$r1 1 18 
+$r8 1 114 
+$r3 1 39 
+$r4 1 56 
+r7 1 -3 
+r0 1 -1 
+r5 1 -2 
+$r2 1 31 
+Fields: 1
+-1 currentSchemaName 154
+Accesses: 18
+34 1 -1 
+99 1 -1 
+68 1 -1 
+104 1 -1 
+42 1 -1 
+75 1 -1 
+109 1 -1 
+14 1 -1 
+47 1 -1 
+82 1 -1 
+52 1 -1 
+148 1 -1 
+21 1 -1 
+117 1 -1 
+87 1 -1 
+26 1 -1 
+154 1 -1 
+63 1 -1 
+Functions: 10
+-1 0 
+96 3 -1 154 91 
+1 2 -1 154 
+113 1 -2 
+38 0 
+120 2 -2 123 
+121 0 
+60 1 56 
+30 0 
+143 1 129 
+Constructors: 3
+96 91
+1 -1
+60 56
+
+Summary: 4
+154 -1 0 1 
+org/h2/engine/Session.getRandom()Ljava/util/Random;
+PTG:
+Vars:
+5
+$r2 1 1 
+r0 1 -1 
+$r3 1 8 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 random 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 1
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 1
+-1 
+org/h2/engine/Session.getVariableNames()[Ljava/lang/String;
+PTG:
+Vars:
+7
+_ret 1 19 
+$r5 1 27 
+$r1 1 1 
+r3 1 19 
+r0 1 -1 
+$r2 1 1 
+$r4 1 1 
+Fields: 1
+-1 variables 1
+Accesses: 3
+0 1 -1 
+23 1 -1 
+12 1 -1 
+Functions: 3
+24 1 1 
+13 1 1 
+31 2 19 27 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.begin()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.rollback()V
+PTG:
+Vars:
+4
+$r2 1 30 
+$r3 1 44 
+r0 1 -1 
+$r1 1 12 
+Fields: 3
+-1 logSystem 44
+-1 undoLog 12
+-1 locks 30
+Accesses: 7
+69 1 -1 
+6 1 -1 
+74 1 -1 
+11 1 -1 
+43 1 -1 
+60 1 -1 
+29 1 -1 
+Functions: 7
+48 4 -1 44 12 30 
+1 4 -1 44 12 30 
+53 4 -1 44 12 30 
+24 4 -1 44 12 30 
+57 4 -1 44 12 30 
+12 1 12 
+30 1 30 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.prepareCommand(Ljava/lang/String;I)Lorg/h2/command/CommandInterface;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 2 
+$r2 1 2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.addLocalTempTableConstraint(Lorg/h2/constraint/Constraint;)V
+PTG:
+Vars:
+8
+$r5 1 24 
+$r1 1 1 
+$r4 1 1 
+$r10 1 8 
+r0 1 -1 
+r3 1 18 
+r2 1 -2 
+$r6 1 1 
+Fields: 1
+-1 localTempTableConstraints 1
+Accesses: 4
+0 1 -1 
+19 1 -1 
+40 1 -1 
+11 1 -1 
+Functions: 6
+-1 0 
+32 1 -2 
+33 0 
+20 2 1 18 
+14 1 -2 
+46 3 1 -2 18 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.setUndoLogEnabled(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.log(Lorg/h2/log/UndoLogRecord;)V
+PTG:
+Vars:
+11
+r0 1 -1 
+$r7 1 33 
+$r3 1 69 
+$r6 1 29 
+$r9 1 45 
+r1 1 -2 
+$r8 1 42 
+$r4 1 7 
+$r10 1 48 
+$r2 1 84 
+$r5 1 7 
+Fields: 3
+-1 undoLog 69
+-1 locks 29
+-1 database 7
+Accesses: 5
+18 1 -1 
+68 1 -1 
+6 1 -1 
+28 1 -1 
+61 1 -1 
+Functions: 12
+32 1 -2 
+80 1 -2 
+19 1 7 
+83 1 -2 
+7 1 7 
+87 1 84 
+57 0 
+73 2 -2 69 
+42 2 48 42 
+44 1 -2 
+29 2 33 29 
+45 1 45 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.isClosed()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setThrottle(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.prepare(Ljava/lang/String;Z)Lorg/h2/command/Prepared;
+PTG:
+Vars:
+5
+_ret 1 16 
+$r4 1 16 
+r1 1 -1 
+r3 1 -2 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+5 2 0 -1 
+11 1 0 
+14 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 4
+-1 0 -2 0 
+org/h2/engine/Session.addProcedure(Lorg/h2/engine/Procedure;)V
+PTG:
+Vars:
+6
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+$r4 1 19 
+$r6 1 8 
+$r3 1 1 
+Fields: 1
+-1 procedures 1
+Accesses: 3
+0 1 -1 
+11 1 -1 
+14 1 -1 
+Functions: 3
+-1 0 
+18 1 -2 
+23 3 1 -2 19 
+Constructors: 0
+
+Summary: 4
+-1 0 -2 19 
+org/h2/engine/Session.getCurrentCommandStart()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.removeLocalTempTableIndex(Lorg/h2/index/Index;)V
+PTG:
+Vars:
+6
+$r1 1 1 
+$r6 1 22 
+$r4 1 12 
+r0 1 -1 
+r2 1 -2 
+$r3 1 1 
+Fields: 2
+-1 localTempTableIndexes 1
+-1 database 22
+Accesses: 3
+0 1 -1 
+21 1 -1 
+7 1 -1 
+Functions: 3
+17 2 1 12 
+11 1 -2 
+30 4 -1 -2 1 22 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.cancel()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+4 1 -1 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getSchemaSearchPath()[Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 schemaSearchPath 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getLocalTempTables()Lorg/h2/util/ObjectArray;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 15 
+$r1 1 1 
+$r2 1 1 
+_ret 1 18 
+$r4 1 18 
+Fields: 1
+-1 localTempTables 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 3
+-1 0 
+12 1 1 
+15 1 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getLocks()[Lorg/h2/table/Table;
+PTG:
+Vars:
+6
+$r7 1 -1 
+$r3 1 8 
+$r1 1 1 
+r0 1 -1 
+$r5 1 8 
+r4 1 14 
+Fields: 2
+-1 locks 8
+-1 database 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+7 1 -1 
+Functions: 2
+23 2 8 14 
+8 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setSchemaSearchPath([Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+0 1 -1 
+7 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/engine/Session.setConnectionInfo(Lorg/h2/engine/ConnectionInfo;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/engine/Session.findLocalTempTableIndex(Ljava/lang/String;)Lorg/h2/index/Index;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r4 1 14 
+_ret 1 14 
+$r1 1 1 
+r2 1 -2 
+$r5 1 14 
+$r3 1 1 
+Fields: 1
+-1 localTempTableIndexes 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.setCurrentSchema(Lorg/h2/schema/Schema;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 12 
+Fields: 0
+Accesses: 3
+0 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 1
+11 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.setAutoCommit(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getAllowLiterals()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setPreparedTransaction(Ljava/lang/String;Z)V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r6 1 78 
+r4 1 -2 
+$r9 1 1 
+$r8 1 88 
+r7 1 78 
+$r2 1 38 
+$r1 1 1 
+r3 1 44 
+Fields: 2
+-1 currentTransactionName 1
+-1 logSystem 38
+Accesses: 3
+0 1 -1 
+37 1 -1 
+7 1 -1 
+Functions: 10
+68 1 44 
+38 1 38 
+86 1 78 
+102 1 78 
+8 2 1 -2 
+24 3 -1 1 38 
+88 2 -2 88 
+75 1 44 
+124 1 -2 
+31 3 -1 1 38 
+Constructors: 0
+
+Summary: 4
+-1 0 88 -2 
+org/h2/engine/Session.close()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 13 
+Fields: 1
+-1 database 13
+Accesses: 4
+0 1 -1 
+22 1 -1 
+12 1 -1 
+31 1 -1 
+Functions: 2
+17 2 -1 13 
+9 2 -1 13 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getCurrentSchemaName()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 currentSchemaName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getLocalTempTableIndexes()Ljava/util/HashMap;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 localTempTableIndexes 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.checkCommitRollback()V
+PTG:
+Vars:
+2
+$r1 1 8 
+r0 1 -1 
+Fields: 1
+-1 locks 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+17 0 
+8 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getQueryTimeout()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.isUndoLogEnabled()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setScopeIdentity(Lorg/h2/value/Value;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setLastUncommittedDelete(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getFirstUncommittedLog()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.initVariables()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 8 
+$r1 1 1 
+Fields: 1
+-1 variables 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getTransactionId()Lorg/h2/value/Value;
+PTG:
+Vars:
+12
+$r5 1 35 
+$r6 1 40 
+$r10 1 62 
+r0 1 -1 
+$r11 1 65 
+_ret 1 65 
+$r9 1 59 
+$r7 1 47 
+$r3 1 11 
+$r8 1 52 
+$r1 1 1 
+$r4 1 24 
+Fields: 2
+-1 undoLog 1
+-1 database 11
+Accesses: 5
+0 1 -1 
+55 1 -1 
+10 1 -1 
+43 1 -1 
+31 1 -1 
+Functions: 10
+1 1 1 
+35 1 35 
+52 1 52 
+24 1 24 
+40 1 40 
+11 1 11 
+59 1 59 
+28 1 24 
+62 1 62 
+47 1 47 
+Constructors: 1
+28 24
+
+Summary: 1
+-1 
+org/h2/engine/Session.rollbackToSavepoint(Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r1 1 5 
+$r3 1 5 
+r5 1 23 
+r2 1 -2 
+$r4 1 23 
+r0 1 -1 
+Fields: 1
+-1 savepoints 5
+Accesses: 2
+18 1 -1 
+4 1 -1 
+Functions: 6
+1 2 -1 5 
+49 2 -1 5 
+19 2 -2 5 
+36 1 -2 
+41 1 23 
+13 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.isReconnectNeeded(Z)Z
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 database 1
+Accesses: 2
+0 1 -1 
+18 1 -1 
+Functions: 2
+1 1 1 
+19 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setAllCommitted()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getLockTimeout()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.cleanTempTables(Z)V
+PTG:
+Vars:
+12
+$r2 1 1 
+$r7 1 31 
+r0 1 -1 
+r10 1 48 
+$r6 1 28 
+$r9 1 48 
+$r11 1 1 
+$r12 1 91 
+$r1 1 1 
+$r3 1 18 
+$r5 1 1 
+r8 1 37 
+Fields: 2
+-1 localTempTables 1
+-1 database 18
+Accesses: 7
+0 1 -1 
+17 1 -1 
+85 1 -1 
+70 1 -1 
+7 1 -1 
+24 1 -1 
+77 1 -1 
+Functions: 13
+101 4 48 -1 1 18 
+38 1 37 
+8 1 1 
+107 1 48 
+47 1 37 
+82 1 48 
+118 4 48 -1 1 18 
+25 1 1 
+89 1 48 
+28 1 28 
+62 1 48 
+94 2 1 91 
+31 1 31 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.findLocalTempTable(Ljava/lang/String;)Lorg/h2/table/Table;
+PTG:
+Vars:
+7
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+_ret 1 14 
+$r3 1 1 
+$r4 1 14 
+$r5 1 14 
+Fields: 1
+-1 localTempTables 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.setQueryTimeout(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+21 1 -1 
+26 1 -1 
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.prepareLocal(Ljava/lang/String;)Lorg/h2/command/Command;
+PTG:
+Vars:
+5
+$r1 1 13 
+_ret 1 24 
+r3 1 -2 
+r0 1 -1 
+$r4 1 24 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 3
+18 2 -1 13 
+22 2 -2 13 
+7 0 
+Constructors: 1
+18 13
+
+Summary: 4
+-1 13 0 -2 
+org/h2/engine/Session.unlockReadLocks()V
+PTG:
+Vars:
+8
+$r2 1 15 
+$r6 1 1 
+r5 1 29 
+$r8 1 15 
+$r4 1 29 
+$r1 1 1 
+r0 1 -1 
+$r3 1 15 
+Fields: 2
+-1 locks 15
+-1 database 1
+Accesses: 5
+0 1 -1 
+55 1 -1 
+24 1 -1 
+43 1 -1 
+14 1 -1 
+Functions: 6
+1 1 1 
+36 1 29 
+52 4 -1 1 29 15 
+25 1 15 
+60 1 15 
+15 1 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getWaitForLock()Lorg/h2/table/Table;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 waitForLock 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.setAllowLiterals(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getScopeIdentity()Lorg/h2/value/Value;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 scopeIdentity 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getLogId()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 undoLog 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.waitIfExclusiveModeEnabled()V
+PTG:
+Vars:
+4
+$r3 1 -1 
+r0 1 -1 
+r2 1 7 
+$r1 1 1 
+Fields: 1
+-1 database 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+23 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.getDataHandler()Lorg/h2/store/DataHandler;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 database 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.removeLocalTempTableConstraint(Lorg/h2/constraint/Constraint;)V
+PTG:
+Vars:
+6
+$r3 1 1 
+$r4 1 12 
+r0 1 -1 
+$r1 1 1 
+$r6 1 20 
+r2 1 -2 
+Fields: 2
+-1 localTempTableConstraints 1
+-1 database 20
+Accesses: 3
+0 1 -1 
+19 1 -1 
+7 1 -1 
+Functions: 3
+11 1 -2 
+28 4 -1 -2 1 20 
+15 2 1 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/engine/Session.commit(Z)V
+PTG:
+Vars:
+22
+$r2 1 177 
+$r5 1 204 
+r24 1 223 
+$r4 1 177 
+$r12 1 30 
+r18 1 42 
+$r3 1 22 
+r23 1 212 
+r20 1 67 
+r11 1 113 
+$r7 1 44 
+$r22 1 177 
+$r9 1 30 
+$r13 1 77 
+r0 1 -1 
+$r15 1 22 
+r21 1 99 
+$r10 1 113 
+$r8 1 30 
+$r14 1 30 
+$r1 1 30 
+$r6 1 223 
+Fields: 4
+-1 logSystem 22
+-1 undoLog 30
+-1 unlinkMap 177
+-1 database 44
+Accesses: 17
+193 1 -1 
+6 1 -1 
+168 1 -1 
+200 1 -1 
+11 1 -1 
+43 1 -1 
+173 1 -1 
+143 1 -1 
+176 1 -1 
+241 1 -1 
+50 1 -1 
+84 1 -1 
+21 1 -1 
+183 1 -1 
+60 1 -1 
+29 1 -1 
+159 1 -1 
+Functions: 25
+1 5 -1 177 22 44 30 
+197 1 22 
+71 1 67 
+201 1 177 
+75 1 67 
+204 1 204 
+14 5 -1 177 22 44 30 
+80 2 42 77 
+147 1 30 
+213 1 212 
+89 1 30 
+26 5 -1 177 22 44 30 
+156 5 -1 177 22 44 30 
+30 1 30 
+222 1 212 
+95 1 42 
+101 1 99 
+39 0 
+233 1 223 
+111 1 99 
+51 1 30 
+245 5 -1 177 22 44 30 
+184 1 177 
+61 1 30 
+125 1 113 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.addLogPos(II)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+10 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/Session.unlinkAtCommit(Lorg/h2/value/ValueLob;)V
+PTG:
+Vars:
+6
+$r7 1 18 
+r0 1 -1 
+$r5 1 25 
+$r3 1 36 
+$r2 1 18 
+r1 1 -2 
+Fields: 1
+-1 unlinkMap 18
+Accesses: 3
+17 1 -1 
+28 1 -1 
+31 1 -1 
+Functions: 5
+-1 0 
+35 1 -2 
+6 1 -2 
+40 3 -2 18 36 
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,1155 @@
+18
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.getErrorHandler()Lorg/w3c/dom/DOMErrorHandler;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fDOMErrorHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.writeToURI(Lorg/w3c/dom/Node;Ljava/lang/String;)Z
+PTG:
+Vars:
+42
+$r45 3 43 79 72 
+$r20 1 432 
+$r14 1 424 
+$r19 1 432 
+$r48 1 100 
+$r17 1 444 
+$r5 1 259 
+$r50 1 10 
+r0 1 -2 
+$r16 1 424 
+$r31 1 66 
+$r29 1 100 
+$r59 1 43 
+r43 1 31 
+$r13 1 424 
+$r11 1 464 
+$r47 1 100 
+r21 1 349 
+$r12 1 488 
+$r30 1 43 
+r2 1 10 
+r53 1 257 
+r8 1 285 
+r1 1 -1 
+$r46 1 86 
+$r55 1 324 
+$r49 1 43 
+$r58 1 405 
+$r3 1 20 
+$r10 1 444 
+$r27 1 36 
+r57 2 402 320 
+$r56 1 330 
+$r18 1 424 
+r4 1 -3 
+$r28 1 43 
+$r51 1 100 
+$r54 1 320 
+r9 1 349 
+r7 1 278 
+$r60 1 424 
+$r15 1 464 
+Fields: 8
+-1 fXMLSerializer 10
+-1 fEncoding 43
+-1 fDOMConfigProperties 100
+-1 fDOMErrorHandler 444
+-1 fSerializerFilter 464
+-1 fDOMSerializer 424
+-1 fVisitedNode 20
+-1 fEndOfLine 488
+Accesses: 31
+450 1 -1 
+6 1 -1 
+454 1 -1 
+463 1 -1 
+82 1 -1 
+19 1 -1 
+212 1 -1 
+470 1 -1 
+474 1 -1 
+538 1 -1 
+219 1 -1 
+411 1 -1 
+157 1 -1 
+545 1 -1 
+99 1 -1 
+483 1 -1 
+39 1 -1 
+167 1 -1 
+423 1 -1 
+487 1 -1 
+42 1 -1 
+111 1 -1 
+496 1 -1 
+50 1 -1 
+117 1 -1 
+181 1 -1 
+184 1 -1 
+440 1 -1 
+57 1 -1 
+443 1 -1 
+188 1 -1 
+Functions: 51
+518 0 
+136 1 -2 
+265 2 257 259 
+394 1 349 
+12 1 10 
+397 1 349 
+527 0 
+273 1 259 
+146 1 -2 
+532 0 
+280 1 259 
+26 10 -1 464 -2 100 20 424 488 10 43 444 
+287 1 278 
+415 4 320 402 405 43 
+34 10 -1 464 -2 100 20 424 488 10 43 444 
+418 2 405 10 
+554 0 
+302 1 285 
+175 1 100 
+431 1 10 
+562 0 
+565 0 
+310 1 285 
+573 0 
+64 10 -1 464 -2 100 20 424 488 10 43 444 
+192 2 100 10 
+582 0 
+328 1 259 
+201 0 
+458 2 424 444 
+587 0 
+77 10 -1 464 -2 100 20 424 488 10 43 444 
+333 2 324 330 
+336 2 320 324 
+85 1 10 
+344 1 259 
+478 2 464 424 
+95 2 86 31 
+354 1 349 
+232 0 
+360 1 349 
+107 2 100 31 
+235 0 
+491 2 424 488 
+366 1 349 
+372 1 349 
+501 2 -2 424 
+121 2 100 43 
+249 0 
+125 1 -2 
+253 1 -3 
+Constructors: 4
+336 320
+265 259
+333 324
+415 405
+
+Summary: 21
+405 -1 278 285 324 549 556 584 66 210 349 529 257 -3 259 330 402 86 31 223 320 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.getParameterNames()Lorg/w3c/dom/DOMStringList;
+PTG:
+Vars:
+4
+$r2 1 5 
+$r0 1 0 
+r1 1 -1 
+_ret 1 0 
+Fields: 1
+-1 fRecognizedParameters 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+8 2 0 5 
+Constructors: 1
+8 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.setFilter(Lorg/w3c/dom/ls/LSSerializerFilter;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.getXMLEncoding(Lorg/w3c/dom/Node;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r3 1 -1 
+r0 1 -2 
+r4 2 -2 31 
+$r1 1 37 
+Fields: 0
+Accesses: 0
+Functions: 5
+36 2 -2 31 
+37 1 37 
+6 1 -2 
+54 2 -2 31 
+25 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 31 -1 37 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.setNewLine(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r3 2 -2 10 
+Fields: 1
+-1 fEndOfLine 10
+Accesses: 2
+9 1 -1 
+13 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.getXMLVersion(Lorg/w3c/dom/Node;)Ljava/lang/String;
+PTG:
+Vars:
+6
+$r2 1 55 
+r5 2 -2 31 
+$r3 1 -1 
+r4 1 -1 
+r0 1 -2 
+$r1 1 37 
+Fields: 0
+Accesses: 0
+Functions: 5
+36 2 -2 31 
+37 1 37 
+6 1 -2 
+54 2 -2 31 
+25 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 31 -1 37 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.getFilter()Lorg/w3c/dom/ls/LSSerializerFilter;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fSerializerFilter 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.canSetParameter(Ljava/lang/String;Ljava/lang/Object;)Z
+PTG:
+Vars:
+3
+r3 1 -1 
+r1 1 -2 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 22
+97 1 -2 
+34 1 -2 
+162 1 -2 
+197 0 
+70 1 -2 
+7 1 -2 
+135 1 -2 
+106 1 -2 
+43 1 -2 
+172 0 
+204 1 -2 
+79 1 -2 
+16 1 -2 
+144 1 -2 
+115 1 -2 
+52 1 -2 
+88 1 -2 
+25 1 -2 
+153 1 -2 
+187 1 -2 
+61 1 -2 
+126 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.getInputEncoding(Lorg/w3c/dom/Node;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r3 1 -1 
+r4 2 -2 31 
+r0 1 -2 
+$r1 1 37 
+Fields: 0
+Accesses: 0
+Functions: 5
+36 2 -2 31 
+37 1 37 
+6 1 -2 
+54 2 -2 31 
+25 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 31 -1 37 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.write(Lorg/w3c/dom/Node;Lorg/w3c/dom/ls/LSOutput;)Z
+PTG:
+Vars:
+48
+r22 1 446 
+$r34 1 97 
+$r74 1 63 
+$r35 1 225 
+$r15 1 622 
+$r30 1 88 
+$r71 3 97 142 135 
+$r72 1 97 
+$r75 1 225 
+$r12 1 634 
+r77 1 341 
+r1 1 -2 
+$r19 1 420 
+$r31 1 97 
+$r14 1 622 
+$r7 1 678 
+$r33 1 225 
+$r36 1 225 
+$r13 1 614 
+$r42 1 106 
+$r80 1 481 
+$r84 1 566 
+r23 1 510 
+$r11 1 614 
+$r43 1 97 
+$r17 1 97 
+r24 1 510 
+r83 2 481 563 
+r21 1 439 
+r68 1 63 
+$r8 1 614 
+$r32 1 211 
+$r81 1 485 
+$r9 1 614 
+$r16 1 584 
+$r6 1 654 
+r18 1 354 
+$r4 1 614 
+r69 1 84 
+$r82 1 491 
+$r10 1 654 
+r0 1 -3 
+r79 1 418 
+$r44 1 129 
+r76 1 328 
+$r5 1 634 
+$r3 1 73 
+r2 1 -1 
+Fields: 8
+-1 fXMLSerializer 63
+-1 fEncoding 97
+-1 fDOMConfigProperties 225
+-1 fDOMErrorHandler 634
+-1 fSerializerFilter 654
+-1 fDOMSerializer 614
+-1 fVisitedNode 73
+-1 fEndOfLine 678
+Accesses: 40
+640 1 -1 
+644 1 -1 
+72 1 -1 
+712 1 -1 
+653 1 -1 
+14 1 -1 
+590 1 -1 
+719 1 -1 
+145 1 -1 
+148 1 -1 
+660 1 -1 
+852 1 -1 
+21 1 -1 
+664 1 -1 
+282 1 -1 
+93 1 -1 
+797 1 -1 
+96 1 -1 
+224 1 -1 
+673 1 -1 
+292 1 -1 
+804 1 -1 
+613 1 -1 
+677 1 -1 
+169 1 -1 
+236 1 -1 
+109 1 -1 
+686 1 -1 
+176 1 -1 
+113 1 -1 
+242 1 -1 
+306 1 -1 
+372 1 -1 
+309 1 -1 
+630 1 -1 
+120 1 -1 
+313 1 -1 
+633 1 -1 
+59 1 -1 
+379 1 -1 
+Functions: 72
+515 1 510 
+4 0 
+261 1 -2 
+392 0 
+648 2 614 634 
+521 1 510 
+395 0 
+140 10 -1 97 225 -2 614 678 73 634 654 63 
+781 0 
+271 1 -2 
+527 1 510 
+149 1 97 
+533 1 510 
+791 0 
+409 0 
+668 2 614 654 
+413 1 354 
+158 0 
+33 0 
+36 0 
+681 2 614 678 
+426 2 418 420 
+555 1 510 
+300 1 225 
+813 0 
+558 1 510 
+49 0 
+434 1 420 
+691 2 -2 614 
+821 0 
+824 0 
+441 1 420 
+572 3 481 563 566 
+189 0 
+317 2 225 63 
+701 0 
+575 2 566 63 
+192 0 
+448 1 439 
+832 0 
+65 1 63 
+322 1 -3 
+841 0 
+206 0 
+846 0 
+79 10 -1 97 225 -2 614 678 73 634 654 63 
+335 1 -3 
+463 1 446 
+210 1 63 
+594 3 97 341 584 
+597 2 584 63 
+87 1 -3 
+471 1 446 
+220 2 211 84 
+348 1 -3 
+734 0 
+608 2 328 63 
+737 0 
+104 10 -1 97 225 -2 614 678 73 634 654 63 
+232 2 225 84 
+361 0 
+489 1 420 
+621 1 63 
+749 0 
+494 2 485 491 
+497 2 481 485 
+754 0 
+246 2 225 97 
+505 1 420 
+250 1 -2 
+127 10 -1 97 225 -2 614 678 73 634 654 63 
+767 0 
+Constructors: 5
+497 481
+594 584
+426 420
+572 566
+494 485
+
+Summary: 32
+808 783 180 328 -1 510 481 843 167 815 354 446 129 418 563 439 723 341 370 13 710 566 420 211 485 584 -3 84 383 25 751 491 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.getParameter(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+r5 1 -1 
+$r2 1 547 
+$r1 1 553 
+$r4 1 564 
+r0 1 -2 
+r3 1 563 
+Fields: 0
+Accesses: 20
+226 1 -1 
+196 1 -1 
+452 1 -1 
+484 1 -1 
+166 1 -1 
+136 1 -1 
+106 1 -1 
+522 1 -1 
+77 1 -1 
+462 1 -1 
+495 1 -1 
+49 1 -1 
+433 1 -1 
+20 1 -1 
+342 1 -1 
+313 1 -1 
+473 1 -1 
+443 1 -1 
+284 1 -1 
+255 1 -1 
+Functions: 25
+0 1 -2 
+384 1 -2 
+513 1 -2 
+68 1 -2 
+393 1 -2 
+11 1 -2 
+333 1 -2 
+527 1 -2 
+402 1 -2 
+275 1 -2 
+536 1 -2 
+217 1 -2 
+411 1 -2 
+157 1 -2 
+97 1 -2 
+547 2 547 553 
+40 1 -2 
+424 1 -2 
+362 1 -2 
+304 1 -2 
+246 1 -2 
+375 1 -2 
+187 1 -2 
+571 2 563 564 
+127 1 -2 
+Constructors: 1
+571 564
+
+Summary: 3
+-1 553 563 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.getNewLine()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fEndOfLine 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.getDomConfig()Lorg/w3c/dom/DOMConfiguration;
+PTG:
+Vars:
+2
+r0 1 -1 
+_ret 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.initializeSerializerProps()V
+PTG:
+Vars:
+31
+$r1 1 1 
+$r54 1 1 
+$r25 1 1 
+$r7 1 1 
+r0 1 -1 
+$r40 1 1 
+$r52 1 1 
+$r11 1 1 
+$r56 1 1 
+$r42 1 1 
+$r21 1 1 
+$r17 1 1 
+$r48 1 1 
+$r5 1 1 
+$r46 1 1 
+$r30 1 294 
+r58 2 330 347 
+$r38 1 1 
+$r23 1 1 
+$r3 1 1 
+$r34 1 1 
+$r50 1 1 
+$r36 1 1 
+$r44 1 1 
+$r27 1 1 
+$r15 1 1 
+$r19 1 1 
+$r13 1 1 
+$r9 1 1 
+$r32 1 1 
+$r29 1 1 
+Fields: 1
+-1 fDOMConfigProperties 1
+Accesses: 31
+0 1 -1 
+131 1 -1 
+387 1 -1 
+263 1 -1 
+72 1 -1 
+203 1 -1 
+12 1 -1 
+143 1 -1 
+275 1 -1 
+84 1 -1 
+215 1 -1 
+24 1 -1 
+155 1 -1 
+95 1 -1 
+287 1 -1 
+227 1 -1 
+36 1 -1 
+167 1 -1 
+361 1 -1 
+107 1 -1 
+301 1 -1 
+239 1 -1 
+48 1 -1 
+369 1 -1 
+179 1 -1 
+372 1 -1 
+119 1 -1 
+313 1 -1 
+251 1 -1 
+60 1 -1 
+191 1 -1 
+Functions: 33
+321 1 1 
+259 1 1 
+68 1 1 
+325 0 
+199 1 1 
+8 1 1 
+139 1 1 
+395 1 1 
+271 1 1 
+335 2 330 347 
+80 1 1 
+211 1 1 
+20 1 1 
+342 0 
+151 1 1 
+283 1 1 
+223 1 1 
+32 1 1 
+352 2 330 347 
+163 1 1 
+293 0 
+103 1 1 
+297 2 1 294 
+235 1 1 
+44 1 1 
+175 1 1 
+115 1 1 
+309 1 1 
+247 1 1 
+56 1 1 
+187 1 1 
+380 1 1 
+127 1 1 
+Constructors: 0
+
+Summary: 4
+294 330 -1 347 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.setParameter(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+46
+$r35 1 1216 
+r0 1 -3 
+$r104 1 121 
+$r84 1 399 
+$r45 1 886 
+r5 1 -1 
+$r50 1 828 
+$r37 1 1216 
+$r107 1 69 
+$r99 1 189 
+$r11 1 1085 
+$r64 1 634 
+$r29 1 1216 
+$r13 1 1061 
+$r10 1 -3 
+r1 1 -2 
+$r109 1 54 
+$r33 1 1216 
+$r68 1 605 
+$r82 1 414 
+$r97 1 204 
+$r59 1 702 
+$r15 1 1037 
+$r92 1 274 
+$r6 1 -3 
+$r41 1 1216 
+$r102 1 136 
+$r66 1 605 
+$r52 1 813 
+$r17 1 1013 
+$r87 1 344 
+$r79 1 469 
+$r19 1 989 
+$r31 1 1216 
+$r89 1 329 
+$r61 1 687 
+$r39 1 1216 
+$r77 1 484 
+$r27 1 1216 
+$r94 1 259 
+$r72 1 552 
+$r55 1 751 
+$r69 1 623 
+$r112 2 765 760 
+$r43 1 1216 
+$r74 1 537 
+Fields: 30
+-1 fDOMConfigProperties 259
+-1 fDOMConfigProperties 344
+-1 fDOMConfigProperties 989
+-1 fDOMConfigProperties 1061
+-1 fDOMConfigProperties 121
+-1 fDOMConfigProperties 69
+-1 fDOMConfigProperties 537
+-1 fDOMConfigProperties 484
+-1 fDOMConfigProperties 687
+-1 fDOMConfigProperties 813
+-1 fDOMConfigProperties 399
+-1 fDOMConfigProperties 828
+-1 fDOMConfigProperties 886
+-1 fDOMConfigProperties 469
+-1 fDOMConfigProperties 136
+-1 fDOMConfigProperties 1216
+-1 fDOMConfigProperties 54
+-1 fDOMConfigProperties 414
+-1 fDOMConfigProperties 702
+-1 fDOMConfigProperties 1013
+-1 fDOMConfigProperties 1085
+-1 fDOMConfigProperties 329
+-1 fDOMConfigProperties 552
+-1 fDOMConfigProperties 605
+-1 fDOMConfigProperties 1037
+-1 fDOMConfigProperties 204
+-1 fDOMConfigProperties 189
+-1 fDOMConfigProperties 274
+-1 fDOMConfigProperties 634
+-1 fDOMConfigProperties 751
+Accesses: 94
+512 1 -1 
+258 1 -1 
+1154 1 -1 
+1157 1 -1 
+135 1 -1 
+391 1 -1 
+1287 1 -1 
+522 1 -1 
+1036 1 -1 
+398 1 -1 
+1166 1 -1 
+273 1 -1 
+529 1 -1 
+1169 1 -1 
+1299 1 -1 
+788 1 -1 
+662 1 -1 
+536 1 -1 
+1178 1 -1 
+29 1 -1 
+413 1 -1 
+1181 1 -1 
+798 1 -1 
+1311 1 -1 
+672 1 -1 
+164 1 -1 
+1060 1 -1 
+805 1 -1 
+1190 1 -1 
+39 1 -1 
+551 1 -1 
+679 1 -1 
+1193 1 -1 
+812 1 -1 
+46 1 -1 
+174 1 -1 
+302 1 -1 
+686 1 -1 
+1201 1 -1 
+1204 1 -1 
+53 1 -1 
+181 1 -1 
+313 1 -1 
+442 1 -1 
+827 1 -1 
+188 1 -1 
+1084 1 -1 
+1212 1 -1 
+701 1 -1 
+1215 1 -1 
+321 1 -1 
+68 1 -1 
+580 1 -1 
+453 1 -1 
+328 1 -1 
+203 1 -1 
+1227 1 -1 
+461 1 -1 
+590 1 -1 
+468 1 -1 
+597 1 -1 
+343 1 -1 
+1239 1 -1 
+1112 1 -1 
+730 1 -1 
+604 1 -1 
+988 1 -1 
+1120 1 -1 
+97 1 -1 
+483 1 -1 
+1123 1 -1 
+1251 1 -1 
+740 1 -1 
+232 1 -1 
+616 1 -1 
+106 1 -1 
+747 1 -1 
+1131 1 -1 
+750 1 -1 
+1134 1 -1 
+1263 1 -1 
+113 1 -1 
+1393 1 -1 
+243 1 -1 
+372 1 -1 
+1012 1 -1 
+885 1 -1 
+1143 1 -1 
+120 1 -1 
+633 1 -1 
+1146 1 -1 
+251 1 -1 
+1275 1 -1 
+383 1 -1 
+Functions: 82
+128 1 121 
+641 1 634 
+1027 1 -2 
+1283 1 1216 
+900 1 -2 
+774 1 -2 
+8 1 -3 
+648 1 -2 
+266 1 259 
+909 1 -2 
+15 1 -2 
+143 1 136 
+1295 1 1216 
+1423 0 
+1427 1 -2 
+1044 1 1037 
+150 1 -2 
+406 1 399 
+918 1 -2 
+281 1 274 
+1051 1 -2 
+1307 1 1216 
+1436 1 -2 
+927 1 -2 
+288 1 -2 
+544 1 537 
+421 1 414 
+1445 1 -2 
+1319 1 1216 
+936 1 -2 
+428 1 -2 
+1068 1 1061 
+1326 1 -2 
+559 1 552 
+1458 0 
+1075 1 -2 
+820 1 813 
+949 0 
+566 1 -2 
+694 1 687 
+1335 0 
+61 1 54 
+835 1 828 
+196 1 189 
+1092 1 1085 
+709 1 702 
+1223 1 1216 
+842 1 -2 
+1482 0 
+1099 1 -2 
+76 1 69 
+716 1 -2 
+1486 0 
+975 0 
+336 1 329 
+1361 0 
+83 1 -2 
+211 1 204 
+979 1 -2 
+1235 1 1216 
+855 0 
+1368 1 -2 
+218 1 -2 
+476 1 469 
+351 1 344 
+1247 1 1216 
+612 1 605 
+996 1 989 
+358 1 -2 
+1510 0 
+491 1 484 
+1003 1 -2 
+1259 1 1216 
+622 0 
+881 0 
+498 1 -2 
+626 2 605 623 
+1271 1 1216 
+1399 0 
+1020 1 1013 
+893 1 886 
+767 3 760 765 751 
+Constructors: 0
+
+Summary: 14
+-1 1341 1474 1405 623 965 871 1502 955 1492 861 1351 1415 1464 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.<init>()V
+PTG:
+Vars:
+8
+$r7 1 314 
+$r1 1 48 
+$r5 1 314 
+$r6 1 328 
+r0 1 -1 
+$r2 1 282 
+r3 1 301 
+$r4 1 303 
+Fields: 23
+48 ArrayObject 92
+48 ArrayObject 128
+48 ArrayObject 164
+48 ArrayObject 70
+48 ArrayObject 134
+48 ArrayObject 86
+48 ArrayObject 80
+48 ArrayObject 122
+48 ArrayObject 98
+48 ArrayObject 116
+48 ArrayObject 75
+48 ArrayObject 104
+48 ArrayObject 110
+48 ArrayObject 60
+48 ArrayObject 152
+48 ArrayObject 146
+48 ArrayObject 65
+48 ArrayObject 140
+48 ArrayObject 158
+48 ArrayObject 55
+-1 fXMLSerializer 314
+-1 fDOMConfigProperties 328
+-1 fEndOfLine 32
+Accesses: 34
+256 1 -1 
+259 1 -1 
+323 1 -1 
+197 1 -1 
+6 1 -1 
+327 1 -1 
+200 1 -1 
+11 1 -1 
+267 1 -1 
+270 1 -1 
+16 1 -1 
+208 1 -1 
+211 1 -1 
+21 1 -1 
+278 1 -1 
+26 1 -1 
+220 1 -1 
+223 1 -1 
+32 1 -1 
+289 1 -1 
+37 1 -1 
+165 1 -1 
+168 1 -1 
+232 1 -1 
+42 1 -1 
+235 1 -1 
+175 1 -1 
+178 1 -1 
+244 1 -1 
+310 1 -1 
+247 1 -1 
+313 1 -1 
+186 1 -1 
+189 1 -1 
+Functions: 7
+1 4 -1 32 328 314 
+307 1 303 
+293 4 -1 32 328 314 
+296 0 
+331 2 328 314 
+286 1 282 
+318 2 314 301 
+Constructors: 3
+1 -1
+307 303
+286 282
+
+Summary: 3
+301 -1 32 
+com/sun/org/apache/xml/internal/serializer/dom3/LSSerializerImpl.writeToString(Lorg/w3c/dom/Node;)Ljava/lang/String;
+PTG:
+Vars:
+26
+$r3 1 20 
+$r40 1 156 
+$r7 1 156 
+r2 1 10 
+$r4 1 176 
+$r6 1 220 
+$r16 1 33 
+$r11 1 156 
+$r15 1 164 
+$r5 1 196 
+$r22 1 46 
+$r10 1 196 
+$r14 1 164 
+$r36 1 10 
+$r9 1 324 
+_ret 1 324 
+$r37 1 46 
+r0 1 -2 
+r35 1 31 
+$r38 1 140 
+$r20 1 46 
+r1 1 -1 
+$r12 1 176 
+$r13 1 156 
+$r18 1 46 
+$r8 1 156 
+Fields: 7
+-1 fXMLSerializer 10
+-1 fDOMConfigProperties 46
+-1 fDOMErrorHandler 176
+-1 fSerializerFilter 196
+-1 fDOMSerializer 156
+-1 fVisitedNode 20
+-1 fEndOfLine 220
+Accesses: 22
+131 1 -1 
+195 1 -1 
+100 1 -1 
+228 1 -1 
+6 1 -1 
+202 1 -1 
+172 1 -1 
+45 1 -1 
+110 1 -1 
+206 1 -1 
+270 1 -1 
+175 1 -1 
+19 1 -1 
+277 1 -1 
+182 1 -1 
+215 1 -1 
+56 1 -1 
+186 1 -1 
+155 1 -1 
+219 1 -1 
+124 1 -1 
+127 1 -1 
+Functions: 28
+64 1 46 
+259 0 
+323 1 140 
+68 1 -2 
+135 2 10 46 
+264 0 
+12 1 10 
+79 1 -2 
+144 1 140 
+210 2 196 156 
+150 2 10 140 
+89 1 -2 
+26 9 -1 176 -2 196 20 10 156 220 46 
+286 0 
+223 2 156 220 
+32 1 10 
+163 1 10 
+294 0 
+41 2 33 31 
+233 2 -2 156 
+297 0 
+305 0 
+52 2 46 31 
+118 1 46 
+250 0 
+314 0 
+190 2 176 156 
+319 0 
+Constructors: 1
+144 140
+
+Summary: 7
+33 316 -1 281 261 288 31 

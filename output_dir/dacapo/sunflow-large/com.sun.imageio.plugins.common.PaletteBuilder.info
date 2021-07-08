@@ -1,0 +1,514 @@
+16
+com/sun/imageio/plugins/common/PaletteBuilder.<init>(Ljava/awt/image/RenderedImage;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 -1 -2 
+Constructors: 1
+5 -1
+
+Summary: 3
+0 -1 -2 
+com/sun/imageio/plugins/common/PaletteBuilder.getBranchIndex(Ljava/awt/Color;I)I
+PTG:
+Vars:
+2
+r6 1 -1 
+r5 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 8
+33 0 
+18 0 
+23 0 
+74 1 -2 
+27 0 
+60 1 -2 
+14 0 
+46 1 -2 
+Constructors: 0
+
+Summary: 6
+-1 -2 27 23 30 14 
+com/sun/imageio/plugins/common/PaletteBuilder.createIndexedImage(Ljava/awt/image/RenderedImage;)Ljava/awt/image/RenderedImage;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r0 1 0 
+$r3 1 14 
+_ret 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+5 2 0 -2 
+10 1 0 
+13 1 0 
+Constructors: 1
+5 0
+
+Summary: 2
+0 -2 
+com/sun/imageio/plugins/common/PaletteBuilder.findColorIndex(Lcom/sun/imageio/plugins/common/PaletteBuilder$ColorNode;Ljava/awt/Color;)I
+PTG:
+Vars:
+5
+$r4 1 48 
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+$r3 1 44 
+Fields: 2
+44 ArrayObject 48
+-2 children 44
+Accesses: 5
+0 1 -1 
+34 1 -2 
+20 1 -2 
+27 1 -2 
+43 1 -2 
+Functions: 3
+32 2 -1 -3 
+8 1 -3 
+42 3 -1 48 -3 
+Constructors: 0
+
+Summary: 5
+48 -3 44 -1 -2 
+com/sun/imageio/plugins/common/PaletteBuilder.reduceTree()V
+PTG:
+Vars:
+19
+$r6 1 1 
+$r5 1 51 
+$r2 1 1 
+$r11 1 175 
+r0 1 -1 
+$r7 1 94 
+$r10 1 187 
+$r1 1 1 
+r17 2 51 33 
+$r3 1 13 
+$r13 1 51 
+$r15 1 51 
+$r14 1 1 
+$r12 1 188 
+r18 1 51 
+r16 2 51 33 
+$r4 1 1 
+$r8 1 118 
+$r9 1 175 
+Fields: 9
+51 children 175
+51 nextReducible 118
+175 ArrayObject 187
+1 ArrayObject 13
+1 ArrayObject 94
+1 ArrayObject 33
+-1 reduceList 1
+33 children 175
+33 nextReducible 51
+Accesses: 23
+0 1 -1 
+98 1 -1 
+71 2 33 51 
+103 2 33 51 
+8 1 -1 
+200 2 33 51 
+41 2 33 51 
+77 2 33 51 
+142 2 33 51 
+174 2 33 51 
+111 2 33 51 
+145 1 -1 
+50 2 33 51 
+117 1 51 
+181 2 33 51 
+89 1 -1 
+121 2 33 51 
+27 1 -1 
+59 2 33 51 
+155 1 -1 
+60 1 51 
+126 2 33 51 
+158 2 33 51 
+Functions: 2
+180 9 -1 1 33 51 118 187 13 94 175 
+134 5 33 51 118 187 175 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/common/PaletteBuilder.getIndexedImage()Ljava/awt/image/RenderedImage;
+PTG:
+Vars:
+9
+r0 1 -1 
+$r2 1 5 
+r7 1 71 
+$r3 1 10 
+$r4 1 10 
+r6 1 38 
+$r8 1 81 
+_ret 1 5 
+r1 1 4 
+Fields: 2
+-1 src 10
+-1 root 81
+Accesses: 3
+80 1 -1 
+18 1 -1 
+9 1 -1 
+Functions: 10
+0 3 -1 81 10 
+34 1 5 
+19 1 10 
+56 1 5 
+89 1 38 
+10 1 10 
+44 1 5 
+30 2 4 5 
+63 3 -1 81 10 
+79 4 -1 81 71 10 
+Constructors: 1
+30 5
+
+Summary: 4
+71 4 38 -1 
+com/sun/imageio/plugins/common/PaletteBuilder.getIndexColorModel()Ljava/awt/image/IndexColorModel;
+PTG:
+Vars:
+14
+$r8 1 6 
+$r1 1 6 
+$r6 1 6 
+r12 2 101 81 
+r2 1 16 
+$r9 1 101 
+_ret 2 101 81 
+r4 1 24 
+$r10 1 81 
+$r11 1 50 
+r0 1 -1 
+r3 1 20 
+$r7 1 50 
+$r5 1 33 
+Fields: 2
+-1 transColor 6
+-1 root 50
+Accesses: 8
+0 1 -1 
+49 1 -1 
+36 1 -1 
+5 1 -1 
+39 1 -1 
+57 1 -1 
+74 1 -1 
+107 1 -1 
+Functions: 3
+67 6 -1 16 50 20 6 24 
+115 4 16 20 101 24 
+93 4 16 81 20 24 
+Constructors: 2
+115 101
+93 81
+
+Summary: 4
+-1 24 20 16 
+com/sun/imageio/plugins/common/PaletteBuilder.getSrcColor(II)Ljava/awt/Color;
+PTG:
+Vars:
+6
+$r3 1 11 
+$r2 1 1 
+$r1 1 5 
+$r4 1 18 
+_ret 1 18 
+r0 1 -1 
+Fields: 2
+-1 srcColorModel 1
+-1 srcRaster 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+23 1 -1 
+Functions: 3
+1 2 1 11 
+36 1 18 
+5 1 5 
+Constructors: 1
+36 18
+
+Summary: 2
+11 -1 
+com/sun/imageio/plugins/common/PaletteBuilder.<init>(Ljava/awt/image/RenderedImage;I)V
+PTG:
+Vars:
+5
+$r4 1 31 
+r1 1 -2 
+$r2 1 11 
+$r3 1 21 
+r0 1 -1 
+Fields: 1
+-1 srcColorModel 31
+Accesses: 6
+16 1 -1 
+37 1 -1 
+6 1 -1 
+26 1 -1 
+42 1 -1 
+30 1 -1 
+Functions: 4
+1 2 -1 31 
+20 1 -2 
+10 1 -2 
+31 1 31 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+com/sun/imageio/plugins/common/PaletteBuilder.createIndexColorModel(Ljava/awt/image/RenderedImage;)Ljava/awt/image/IndexColorModel;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 14 
+_ret 1 14 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+5 2 0 -2 
+10 1 0 
+13 1 0 
+Constructors: 1
+5 0
+
+Summary: 2
+0 -2 
+com/sun/imageio/plugins/common/PaletteBuilder.freeTree(Lcom/sun/imageio/plugins/common/PaletteBuilder$ColorNode;)Lcom/sun/imageio/plugins/common/PaletteBuilder$ColorNode;
+PTG:
+Vars:
+6
+$r2 1 15 
+$r5 1 26 
+$r3 1 25 
+r0 1 -2 
+$r4 1 15 
+r1 1 -1 
+Fields: 2
+-2 children 15
+15 ArrayObject 25
+Accesses: 4
+20 1 -2 
+36 1 -1 
+43 1 -1 
+14 1 -2 
+Functions: 1
+19 2 -1 25 
+Constructors: 0
+
+Summary: 5
+25 26 -1 -2 15 
+com/sun/imageio/plugins/common/PaletteBuilder.canCreatePalette(Ljava/awt/image/RenderedImage;)Z
+PTG:
+Vars:
+2
+$r1 1 14 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+19 2 -2 14 
+23 1 14 
+10 0 
+Constructors: 1
+19 14
+
+Summary: 2
+-2 14 
+com/sun/imageio/plugins/common/PaletteBuilder.canCreatePalette(Ljavax/imageio/ImageTypeSpecifier;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 0 
+Constructors: 0
+
+Summary: 1
+-2 
+com/sun/imageio/plugins/common/PaletteBuilder.insertNode(Lcom/sun/imageio/plugins/common/PaletteBuilder$ColorNode;Ljava/awt/Color;I)Lcom/sun/imageio/plugins/common/PaletteBuilder$ColorNode;
+PTG:
+Vars:
+14
+$r7 1 4 
+$r14 1 147 
+_ret 2 4 -2 
+$r3 1 152 
+r9 2 4 -2 
+$r5 1 180 
+r1 1 -1 
+$r4 1 176 
+$r6 1 176 
+$r16 1 204 
+r0 1 -3 
+$r15 1 147 
+$r2 1 147 
+$r17 1 209 
+Fields: 6
+4 children 147
+147 ArrayObject 204
+147 ArrayObject 152
+-1 reduceList 176
+-2 children 147
+176 ArrayObject 180
+Accesses: 29
+128 2 -2 4 
+131 2 -2 4 
+69 1 -1 
+198 2 -2 4 
+76 1 -1 
+13 1 -1 
+79 2 -2 4 
+146 2 -2 4 
+20 1 -1 
+86 2 -2 4 
+23 1 -1 
+89 2 -2 4 
+27 1 -1 
+156 2 -2 4 
+35 1 -1 
+163 2 -2 4 
+100 2 -2 4 
+166 2 -2 4 
+39 1 -1 
+103 2 -2 4 
+44 1 4 
+175 1 -1 
+114 2 -2 4 
+117 2 -2 4 
+181 2 -2 4 
+184 1 -1 
+59 1 4 
+62 1 4 
+191 2 -2 4 
+Functions: 6
+197 5 -1 176 -3 180 204 
+9 7 -1 176 147 4 180 152 204 
+122 1 -3 
+138 4 -1 176 -3 180 
+108 1 -3 
+94 1 -3 
+Constructors: 1
+9 4
+
+Summary: 2
+-3 -1 
+com/sun/imageio/plugins/common/PaletteBuilder.findPaletteEntry(Lcom/sun/imageio/plugins/common/PaletteBuilder$ColorNode;I[B[B[B)I
+PTG:
+Vars:
+10
+$r9 1 60 
+r6 1 -5 
+$r8 1 99 
+r3 1 -1 
+r0 1 -2 
+r7 1 -6 
+$r4 1 83 
+r5 1 -4 
+$r1 1 83 
+$r2 1 88 
+Fields: 4
+-1 palette 60
+-2 children 83
+83 ArrayObject 99
+83 ArrayObject 88
+Accesses: 11
+0 1 -2 
+82 1 -2 
+56 1 -2 
+9 1 -2 
+25 1 -2 
+41 1 -2 
+59 1 -1 
+13 1 -2 
+29 1 -2 
+45 1 -2 
+93 1 -2 
+Functions: 1
+92 6 -1 99 -4 -5 -6 60 
+Constructors: 0
+
+Summary: 4
+-4 -5 -1 -6 
+com/sun/imageio/plugins/common/PaletteBuilder.buildPalette()V
+PTG:
+Vars:
+14
+$r13 1 13 
+$r12 1 132 
+$r4 1 60 
+$r10 1 177 
+$r1 1 3 
+$r11 1 149 
+$r3 1 60 
+r5 1 110 
+$r9 1 132 
+$r8 1 132 
+$r7 1 195 
+$r6 1 189 
+$r2 1 13 
+r0 1 -1 
+Fields: 4
+-1 transColor 132
+-1 reduceList 13
+-1 src 60
+-1 root 189
+Accesses: 23
+160 1 -1 
+35 1 -1 
+131 1 -1 
+69 1 -1 
+165 1 132 
+6 1 -1 
+198 1 -1 
+40 1 -1 
+201 1 -1 
+138 1 -1 
+170 1 -1 
+12 1 -1 
+45 1 -1 
+205 1 -1 
+112 1 -1 
+145 1 -1 
+50 1 -1 
+20 1 -1 
+180 1 -1 
+56 1 -1 
+59 1 -1 
+188 1 -1 
+157 1 -1 
+Functions: 8
+213 5 -1 132 60 13 189 
+70 1 60 
+120 1 110 
+169 6 -1 132 60 13 189 110 
+154 6 -1 132 149 60 13 189 
+187 6 -1 132 60 13 189 110 
+60 1 60 
+95 5 -1 132 60 13 189 
+Constructors: 1
+154 149
+
+Summary: 2
+110 -1 

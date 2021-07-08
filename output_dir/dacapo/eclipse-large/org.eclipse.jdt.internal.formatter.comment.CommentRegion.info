@@ -1,0 +1,658 @@
+29
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.expandTabs(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r0 1 0 
+r2 1 -2 
+_ret 1 96 
+r4 1 -1 
+$r6 1 96 
+Fields: 0
+Accesses: 2
+51 1 -1 
+76 1 -1 
+Functions: 6
+67 1 0 
+4 1 0 
+22 1 -2 
+10 1 -2 
+42 1 0 
+95 1 0 
+Constructors: 1
+4 0
+
+Summary: 4
+-2 0 -1 0 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.format(IZ)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+5
+$r1 1 2 
+r2 1 10 
+r0 1 -1 
+$r5 1 21 
+r6 1 34 
+Fields: 1
+-1 preferences 21
+Accesses: 3
+20 1 -1 
+21 1 21 
+79 1 -1 
+Functions: 11
+0 2 -1 21 
+64 2 -1 21 
+80 0 
+2 1 2 
+54 2 -1 21 
+39 3 -1 34 21 
+72 3 -1 34 21 
+58 2 -1 21 
+11 1 10 
+29 2 -1 21 
+47 0 
+Constructors: 0
+
+Summary: 3
+34 -1 10 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.isNonAlphaNumeric(Lorg/eclipse/jdt/internal/formatter/comment/CommentRange;)Z
+PTG:
+Vars:
+3
+r2 1 12 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+1 1 -2 
+18 1 12 
+35 1 12 
+20 0 
+5 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 12 -1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.hasBorder(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.getDelimiter()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fDelimiter 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.wrapRegion(I)V
+PTG:
+Vars:
+12
+r8 1 57 
+$r2 2 41 1 
+$r4 1 57 
+$r11 1 138 
+r0 1 -1 
+$r10 2 128 138 
+r7 1 38 
+r5 1 38 
+$r9 2 99 138 
+$r1 1 1 
+r6 1 57 
+$r3 2 54 138 
+Fields: 2
+-1 fLines 1
+-1 fRanges 138
+Accesses: 6
+0 1 -1 
+98 1 -1 
+53 1 -1 
+40 1 -1 
+137 1 -1 
+127 1 -1 
+Functions: 11
+128 2 128 138 
+65 5 -1 1 38 57 138 
+34 3 -1 1 138 
+114 1 57 
+4 1 1 
+54 2 54 138 
+102 2 99 138 
+138 1 138 
+93 1 38 
+46 3 1 38 41 
+110 2 38 57 
+Constructors: 0
+
+Summary: 3
+-1 38 57 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.createLine()Lorg/eclipse/jdt/internal/formatter/comment/CommentLine;
+PTG:
+Vars:
+4
+$r3 1 0 
+r1 1 -1 
+$r2 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -1 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.isAlphaNumeric(Lorg/eclipse/jdt/internal/formatter/comment/CommentRange;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 12 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+1 1 -2 
+18 1 12 
+35 1 12 
+20 0 
+5 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 12 -1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.logEdit(Ljava/lang/String;II)V
+PTG:
+Vars:
+8
+r3 1 -2 
+$r6 1 -1 
+r2 1 20 
+$r1 1 9 
+$r4 1 55 
+$r7 1 -1 
+r0 1 -1 
+$r5 1 36 
+Fields: 3
+-1 scribe 36
+-1 scribe 55
+-1 fDocument 9
+Accesses: 3
+35 1 -1 
+54 1 -1 
+8 1 -1 
+Functions: 7
+0 4 -1 36 55 9 
+48 2 -2 36 
+81 1 -1 
+22 2 -2 20 
+71 1 -1 
+9 1 9 
+61 2 -2 55 
+Constructors: 0
+
+Summary: 3
+20 -2 -1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.isClearLines()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.canAppend(Lorg/eclipse/jdt/internal/formatter/comment/CommentLine;Lorg/eclipse/jdt/internal/formatter/comment/CommentRange;Lorg/eclipse/jdt/internal/formatter/comment/CommentRange;II)Z
+PTG:
+Vars:
+4
+r3 1 -3 
+r2 1 -2 
+r0 1 -4 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 1 -4 
+Constructors: 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.getRanges()Ljava/util/LinkedList;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 fRanges 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.tokenizeRegion()V
+PTG:
+Vars:
+5
+r4 1 16 
+$r3 1 16 
+$r1 1 5 
+r0 1 -1 
+r2 1 11 
+Fields: 1
+-1 fLines 5
+Accesses: 1
+4 1 -1 
+Functions: 5
+32 1 16 
+5 1 5 
+38 1 11 
+27 1 16 
+15 1 11 
+Constructors: 0
+
+Summary: 3
+11 16 -1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.computeIndentation(I)Ljava/lang/String;
+PTG:
+Vars:
+4
+$r2 1 2 
+$r1 1 2 
+r0 1 -1 
+$r3 1 2 
+Fields: 1
+-1 preferences 2
+Accesses: 9
+48 1 -1 
+1 1 -1 
+49 1 2 
+2 1 2 
+66 1 -1 
+35 1 -1 
+21 1 -1 
+22 1 2 
+58 1 -1 
+Functions: 9
+97 0 
+83 2 -1 2 
+100 2 -1 2 
+118 0 
+11 2 -1 2 
+91 0 
+110 0 
+31 2 -1 2 
+79 0 
+Constructors: 0
+
+Summary: 5
+110 107 91 -1 94 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.getText(II)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 5 
+$r2 1 -1 
+r0 1 -1 
+r3 2 20 3 
+_ret 2 20 3 
+Fields: 1
+-1 fDocument 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+5 1 5 
+8 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.canFormat(Lorg/eclipse/jdt/internal/formatter/comment/CommentRange;Lorg/eclipse/jdt/internal/formatter/comment/CommentRange;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 -3 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.getDocument()Lorg/eclipse/jface/text/IDocument;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fDocument 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.formatRegion(Ljava/lang/String;I)V
+PTG:
+Vars:
+12
+r4 1 19 
+$r3 1 19 
+$r2 1 1 
+$r8 2 60 1 
+$r9 1 65 
+r0 1 -1 
+$r1 1 1 
+r5 1 32 
+r10 1 65 
+r11 1 85 
+r7 1 65 
+r6 1 -2 
+Fields: 1
+-1 fLines 1
+Accesses: 3
+0 1 -1 
+59 1 -1 
+14 1 -1 
+Functions: 7
+1 1 1 
+101 3 65 -2 85 
+40 3 32 -2 19 
+73 3 65 -2 85 
+27 1 19 
+60 2 1 60 
+15 1 1 
+Constructors: 0
+
+Summary: 7
+-2 32 65 0 -1 85 19 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.replicate(Ljava/lang/String;I)Ljava/lang/String;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r0 1 0 
+r5 1 -1 
+_ret 1 36 
+$r4 1 36 
+Fields: 0
+Accesses: 0
+Functions: 4
+35 1 0 
+5 1 -2 
+22 2 0 -2 
+10 1 0 
+Constructors: 1
+10 0
+
+Summary: 3
+-2 -1 0 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.stringToIndent(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 8 
+r0 1 -1 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.<init>(Lorg/eclipse/jface/text/IDocument;Lorg/eclipse/jface/text/Position;Lorg/eclipse/jdt/internal/formatter/CodeFormatterVisitor;)V
+PTG:
+Vars:
+23
+r1 1 -3 
+$r27 1 103 
+$r26 1 183 
+$r28 1 103 
+$r20 1 -1 
+$r10 1 49 
+r22 1 179 
+r0 1 -1 
+$r29 1 103 
+$r23 1 18 
+$r11 1 97 
+r4 1 -4 
+$r16 1 208 
+$r25 1 103 
+$r5 1 41 
+$r18 1 49 
+$r14 1 126 
+$r6 1 49 
+$r24 1 29 
+$r7 1 52 
+$r9 1 49 
+r21 1 173 
+r8 1 -2 
+Fields: 5
+49 line_separator 52
+-1 fLines 208
+-1 preferences 49
+-4 scribe 97
+-4 preferences 41
+Accesses: 20
+96 1 -4 
+65 1 -1 
+66 1 49 
+36 1 -1 
+100 1 -1 
+40 1 -4 
+75 1 -1 
+44 1 -1 
+76 1 49 
+14 1 -1 
+207 1 -1 
+48 1 -1 
+49 1 49 
+85 1 -1 
+86 1 49 
+55 1 -1 
+25 1 -1 
+155 1 -1 
+60 1 -1 
+92 1 -1 
+Functions: 17
+1 1 -3 
+33 1 29 
+129 2 103 126 
+194 1 173 
+164 1 103 
+5 1 -3 
+134 1 103 
+9 4 -1 208 49 52 
+201 1 183 
+107 1 103 
+204 2 179 183 
+175 4 -1 208 49 52 
+213 2 208 179 
+22 1 18 
+120 4 -1 208 49 52 
+122 4 -1 208 49 52 
+187 1 173 
+Constructors: 5
+33 29
+22 18
+9 -1
+201 183
+107 103
+
+Summary: 11
+103 179 -3 173 0 -4 1 183 126 2 -1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.stringToLength(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+2 1 2 
+Constructors: 0
+
+Summary: 3
+2 -2 -1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.append(Lorg/eclipse/jdt/internal/formatter/comment/CommentRange;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 fRanges 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.markRegion()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.isSingleLine()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.setBorder(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.getDelimiter(Lorg/eclipse/jdt/internal/formatter/comment/CommentLine;Lorg/eclipse/jdt/internal/formatter/comment/CommentLine;Lorg/eclipse/jdt/internal/formatter/comment/CommentRange;Lorg/eclipse/jdt/internal/formatter/comment/CommentRange;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+14
+r6 1 -3 
+r10 1 -2 
+$r3 1 8 
+r4 1 -6 
+r1 1 -1 
+$r9 1 26 
+$r7 1 20 
+$r5 1 16 
+$r0 1 0 
+r11 1 -4 
+r12 1 -5 
+$r2 1 5 
+_ret 1 26 
+$r8 1 23 
+Fields: 1
+-1 fDelimiter 5
+Accesses: 1
+4 1 -1 
+Functions: 6
+0 2 0 -6 
+16 2 16 20 
+19 1 -3 
+5 1 5 
+23 1 23 
+11 2 0 8 
+Constructors: 1
+11 0
+
+Summary: 15
+20 -3 -2 23 0 -4 8 1 3 16 4 2 -5 -1 -6 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.getSize()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fLines 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/comment/CommentRegion.getDelimiter(Lorg/eclipse/jdt/internal/formatter/comment/CommentRange;Lorg/eclipse/jdt/internal/formatter/comment/CommentRange;)Ljava/lang/String;
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 

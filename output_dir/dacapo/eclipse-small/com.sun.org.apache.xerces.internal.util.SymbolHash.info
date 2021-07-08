@@ -1,0 +1,364 @@
+15
+com/sun/org/apache/xerces/internal/util/SymbolHash.getEntries()[Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r2 1 33 
+r0 1 -1 
+r5 2 38 72 
+r1 1 6 
+$r4 1 60 
+_ret 1 6 
+$r3 1 49 
+Fields: 5
+33 ArrayObject 38
+38 key 49
+38 value 60
+72 next 72
+-1 fBuckets 33
+Accesses: 7
+0 1 -1 
+32 1 -1 
+67 2 38 72 
+23 1 -1 
+58 2 38 72 
+15 1 -1 
+47 2 38 72 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+72 -1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.clear()V
+PTG:
+Vars:
+2
+$r1 1 11 
+r0 1 -1 
+Fields: 1
+-1 fBuckets 11
+Accesses: 4
+3 1 -1 
+25 1 -1 
+10 1 -1 
+30 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.rehashCommon(I)V
+PTG:
+Vars:
+9
+$r7 1 84 
+r8 2 47 63 
+r5 2 47 63 
+r0 1 -1 
+r3 1 12 
+r2 1 1 
+$r6 1 68 
+$r4 1 1 
+$r1 1 1 
+Fields: 5
+47 key 68
+63 next 63
+-1 fBuckets 1
+1 ArrayObject 47
+12 ArrayObject 84
+Accesses: 8
+0 1 -1 
+66 2 47 63 
+20 1 -1 
+85 2 47 63 
+6 1 -1 
+24 1 -1 
+58 2 47 63 
+29 1 -1 
+Functions: 1
+65 4 -1 1 68 47 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.getValues([Ljava/lang/Object;I)I
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 -2 
+$r3 1 42 
+$r1 1 23 
+r4 2 28 54 
+Fields: 4
+28 value 42
+54 next 54
+-1 fBuckets 23
+23 ArrayObject 28
+Accesses: 6
+49 2 54 28 
+65 1 -1 
+6 1 -1 
+22 1 -1 
+40 2 54 28 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-2 54 0 -1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.search(Ljava/lang/Object;I)Lcom/sun/org/apache/xerces/internal/util/SymbolHash$Entry;
+PTG:
+Vars:
+5
+$r3 1 13 
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+r4 2 6 28 
+Fields: 4
+6 key 13
+28 next 28
+-1 fBuckets 1
+1 ArrayObject 6
+Accesses: 3
+0 1 -1 
+24 2 6 28 
+12 2 6 28 
+Functions: 1
+11 2 -2 13 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.makeClone()Lcom/sun/org/apache/xerces/internal/util/SymbolHash;
+PTG:
+Vars:
+14
+r1 1 -1 
+$r0 1 0 
+$r5 1 63 
+$r8 1 68 
+$r14 1 32 
+$r9 1 78 
+$r4 1 59 
+$r6 1 59 
+$r7 1 77 
+$r3 1 22 
+$r12 1 32 
+$r10 1 22 
+$r11 1 32 
+_ret 1 0 
+Fields: 5
+-1 fHashMultipliers 22
+-1 fBuckets 59
+59 ArrayObject 63
+59 ArrayObject 77
+0 fBuckets 68
+Accesses: 10
+17 1 0 
+51 1 -1 
+67 1 0 
+4 1 -1 
+21 1 -1 
+72 1 -1 
+58 1 -1 
+28 1 -1 
+13 1 -1 
+45 1 0 
+Functions: 3
+8 2 0 68 
+29 1 22 
+77 1 77 
+Constructors: 1
+8 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.rebalance()V
+PTG:
+Vars:
+5
+$r3 1 24 
+r0 1 -1 
+$r1 1 1 
+$r4 1 10 
+$r2 1 1 
+Fields: 2
+-1 fHashMultipliers 1
+-1 fBuckets 24
+Accesses: 4
+0 1 -1 
+23 1 -1 
+12 1 -1 
+15 1 -1 
+Functions: 2
+19 1 1 
+28 3 -1 1 24 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.put(Ljava/lang/Object;Ljava/lang/Object;)V
+PTG:
+Vars:
+10
+$r7 1 19 
+$r10 1 19 
+$r2 1 19 
+$r6 1 120 
+$r4 1 35 
+r3 1 -3 
+r0 1 -1 
+r5 2 25 59 
+$r8 1 132 
+r1 1 -2 
+Fields: 5
+25 key 35
+-1 fBuckets 19
+19 ArrayObject 25
+19 ArrayObject 132
+59 next 59
+Accesses: 13
+64 1 -1 
+33 2 25 59 
+68 1 -1 
+138 1 -1 
+11 1 -1 
+47 2 25 59 
+81 1 -1 
+113 1 -1 
+18 1 -1 
+147 1 -1 
+54 2 25 59 
+154 1 -1 
+126 1 -1 
+Functions: 6
+32 2 -2 35 
+2 6 -1 -2 19 35 132 25 
+133 4 -2 -3 132 120 
+105 5 -1 19 35 132 25 
+76 5 -1 19 35 132 25 
+108 6 -1 -2 19 35 132 25 
+Constructors: 1
+133 120
+
+Summary: 5
+-2 1 0 -1 59 
+com/sun/org/apache/xerces/internal/util/SymbolHash.get(Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 17 
+Fields: 0
+Accesses: 2
+5 1 -1 
+22 1 17 
+Functions: 2
+0 2 -1 -2 
+11 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.rehash()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 2 
+Fields: 1
+-1 fBuckets 2
+Accesses: 1
+1 1 -1 
+Functions: 1
+10 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.getLength()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.hash(Ljava/lang/Object;)I
+PTG:
+Vars:
+4
+$r3 1 -2 
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+Fields: 1
+-1 fHashMultipliers 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+22 3 -1 1 -2 
+14 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.<init>(I)V
+PTG:
+Vars:
+2
+$r1 1 19 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+6 1 -1 
+22 1 -1 
+11 1 -1 
+15 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.hash0(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 11 
+r1 1 -1 
+Fields: 1
+-1 fHashMultipliers 11
+Accesses: 1
+7 1 -1 
+Functions: 2
+32 1 -2 
+2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/util/SymbolHash.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 1
+3 -1
+
+Summary: 1
+-1 

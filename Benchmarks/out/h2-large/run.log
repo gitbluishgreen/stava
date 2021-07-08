@@ -1,0 +1,52 @@
+nice -n 19 /home/cs17b006/jdk1.8.0_291/bin/java -Xmx6G -javaagent:poa-trunk.jar -jar /home/cs17b006/stava-master/Benchmarks/dacapo/dacapo-9.12-MR1-bach.jar h2 -s large --scratch-directory /tmp/dacaposcratch -n 3
+============================================================
+TamiFlex Play-Out Agent Version trunk
+Loaded properties from /home/cs17b006/.tamiflex/poa.properties
+============================================================
+Using scaled threading model. 72 processors detected, 72 threads used to drive the workload, in a possible range of [1,64000]
+===== DaCapo 9.12-MR1 h2 starting warmup 1 =====
+................................
+Completed 32000 transactions
+	Stock level .............  1277 ( 4.0%)
+	Order status by name ....   765 ( 2.4%)
+	Order status by ID ......   518 ( 1.6%)
+	Payment by name .........  8262 (25.8%)
+	Payment by ID ...........  5489 (17.2%)
+	Delivery schedule .......  1299 ( 4.1%)
+	New order ............... 14241 (44.5%)
+	New order rollback ......   149 ( 0.5%)
+Resetting database to initial state
+===== DaCapo 9.12-MR1 h2 completed warmup 1 in 73650 msec =====
+===== DaCapo 9.12-MR1 h2 starting warmup 2 =====
+................................
+Completed 32000 transactions
+	Stock level .............  1277 ( 4.0%)
+	Order status by name ....   765 ( 2.4%)
+	Order status by ID ......   518 ( 1.6%)
+	Payment by name .........  8262 (25.8%)
+	Payment by ID ...........  5489 (17.2%)
+	Delivery schedule .......  1299 ( 4.1%)
+	New order ............... 14241 (44.5%)
+	New order rollback ......   149 ( 0.5%)
+Resetting database to initial state
+===== DaCapo 9.12-MR1 h2 completed warmup 2 in 73840 msec =====
+===== DaCapo 9.12-MR1 h2 starting =====
+................................
+Completed 32000 transactions
+	Stock level .............  1277 ( 4.0%)
+	Order status by name ....   765 ( 2.4%)
+	Order status by ID ......   518 ( 1.6%)
+	Payment by name .........  8262 (25.8%)
+	Payment by ID ...........  5489 (17.2%)
+	Delivery schedule .......  1299 ( 4.1%)
+	New order ............... 14241 (44.5%)
+	New order rollback ......   149 ( 0.5%)
+Resetting database to initial state
+===== DaCapo 9.12-MR1 h2 PASSED in 76232 msec =====
+
+============================================================
+TamiFlex Play-Out Agent Version trunk
+Found 46 new log entries.
+Dumped 1091 new classes.
+Log file written to: /home/cs17b006/stava-master/Benchmarks/out/refl.log
+============================================================

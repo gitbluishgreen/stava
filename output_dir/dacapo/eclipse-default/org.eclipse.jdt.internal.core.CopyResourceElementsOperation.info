@@ -1,0 +1,1004 @@
+23
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.updatePackageStatement(Lorg/eclipse/jdt/core/dom/CompilationUnit;[Ljava/lang/String;Lorg/eclipse/jdt/core/dom/rewrite/ASTRewrite;Lorg/eclipse/jdt/core/ICompilationUnit;)V
+PTG:
+Vars:
+19
+r0 1 -3 
+r11 1 100 
+r16 1 143 
+r15 1 27 
+r17 1 156 
+r2 1 16 
+$r6 1 161 
+$r5 1 193 
+$r8 1 128 
+r1 1 -2 
+r7 1 39 
+r18 1 178 
+r12 1 110 
+$r13 1 114 
+r4 1 -4 
+r9 1 -5 
+$r3 1 185 
+$r10 1 88 
+r14 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 19
+64 1 27 
+34 1 27 
+133 3 128 -2 -4 
+102 2 -4 100 
+71 2 -2 27 
+167 4 161 -4 156 143 
+199 4 -2 193 178 -4 
+139 1 -2 
+12 1 -2 
+173 1 16 
+46 1 39 
+51 1 39 
+86 1 -5 
+150 2 16 -3 
+182 2 16 -3 
+23 1 -2 
+88 1 88 
+120 4 -2 114 -4 110 
+188 2 178 185 
+Constructors: 0
+
+Summary: 17
+156 39 27 143 1 185 -3 110 -1 178 2 -4 16 0 100 -2 3 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.verify(Lorg/eclipse/jdt/core/IJavaElement;)V
+PTG:
+Vars:
+8
+$r5 1 151 
+$r3 1 -2 
+r0 1 -2 
+r6 1 151 
+$r7 1 167 
+r1 1 -1 
+r4 1 -2 
+r2 1 59 
+Fields: 1
+-1 renamings 167
+Accesses: 1
+166 1 -1 
+Functions: 18
+130 3 -1 -2 167 
+67 1 59 
+163 4 -1 -2 167 151 
+4 1 -2 
+37 2 -1 167 
+102 2 -1 167 
+109 1 -2 
+175 3 -1 -2 167 
+49 3 -1 -2 167 
+81 3 -1 -2 167 
+18 3 -1 -2 167 
+146 3 -1 -2 167 
+84 1 -2 
+21 1 -2 
+53 1 -2 
+117 1 -2 
+149 3 -1 -2 167 
+30 2 -1 167 
+Constructors: 0
+
+Summary: 3
+-1 151 0 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.saveContent(Lorg/eclipse/jdt/internal/core/PackageFragment;Ljava/lang/String;Lorg/eclipse/text/edits/TextEdit;Ljava/lang/String;Lorg/eclipse/core/resources/IFile;)V
+PTG:
+Vars:
+10
+r6 1 -4 
+r3 1 -3 
+r1 1 -6 
+$r8 1 -1 
+r2 1 -2 
+$r7 1 10 
+r4 1 33 
+r5 1 -1 
+r0 1 -5 
+$r9 1 46 
+Fields: 1
+-1 progressMonitor 10
+Accesses: 2
+49 1 -1 
+9 1 -1 
+Functions: 6
+53 2 33 46 
+39 4 -1 33 -4 10 
+25 1 -6 
+28 2 -2 -3 
+44 2 -1 10 
+13 3 -5 -6 10 
+Constructors: 0
+
+Summary: 12
+-5 1 -6 -3 46 4 -1 2 -4 0 -2 3 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.createNeededPackageFragments(Lorg/eclipse/core/resources/IContainer;Lorg/eclipse/jdt/internal/core/PackageFragmentRoot;[Ljava/lang/String;Z)Z
+PTG:
+Vars:
+17
+$r9 1 176 
+r4 1 -4 
+r0 1 -3 
+$r1 1 4 
+$r16 1 192 
+r8 1 146 
+r6 1 63 
+r10 2 129 -2 
+r3 1 31 
+r2 1 25 
+$r14 1 98 
+r7 1 -1 
+r11 3 63 4 112 
+r13 1 52 
+r5 1 43 
+r12 1 182 
+$r15 1 115 
+Fields: 2
+-1 createdElements 192
+-4 ArrayObject 43
+Accesses: 2
+89 1 -1 
+191 1 -1 
+Functions: 17
+96 4 112 98 4 63 
+161 5 112 4 25 63 31 
+130 2 129 -2 
+3 1 -3 
+197 2 192 146 
+104 2 98 43 
+140 2 -3 52 
+174 3 -1 192 176 
+47 2 52 43 
+175 1 -3 
+114 3 129 -2 115 
+21 1 -3 
+54 4 112 4 43 63 
+121 2 115 43 
+27 1 -3 
+188 2 146 182 
+93 6 -1 192 112 4 43 63 
+Constructors: 2
+104 98
+121 115
+
+Summary: 16
+176 31 63 1 146 -1 182 2 25 129 -4 4 52 0 -2 112 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.getSchedulingRule(Lorg/eclipse/jdt/core/IJavaElement;)Lorg/eclipse/core/runtime/jobs/ISchedulingRule;
+PTG:
+Vars:
+21
+$r12 1 21 
+r1 1 -1 
+$r6 1 21 
+$r13 1 11 
+r2 1 11 
+r16 2 55 36 
+r0 1 -2 
+$r14 1 -1 
+$r3 1 15 
+$r8 1 178 
+$r11 1 74 
+r20 3 156 171 178 
+$r5 1 113 
+_ret 3 156 171 178 
+r17 1 100 
+r4 1 21 
+$r10 1 197 
+$r9 1 183 
+$r19 1 129 
+r7 1 137 
+r18 2 127 88 
+Fields: 0
+Accesses: 0
+Functions: 17
+129 1 129 
+161 4 88 137 11 127 
+193 3 88 137 127 
+6 2 -1 -2 
+71 2 21 74 
+139 1 -1 
+203 2 178 183 
+12 2 -1 15 
+13 2 -1 -2 
+110 2 113 21 
+80 3 36 55 74 
+49 1 -2 
+146 4 88 137 11 127 
+119 3 113 36 55 
+91 1 11 
+60 1 11 
+31 2 -1 -2 
+Constructors: 3
+80 74
+119 113
+203 178
+
+Summary: 13
+11 15 55 127 -1 21 183 129 137 36 0 88 100 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.updateTypeName(Lorg/eclipse/jdt/core/ICompilationUnit;Lorg/eclipse/jdt/core/dom/CompilationUnit;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jdt/core/dom/rewrite/ASTRewrite;)V
+PTG:
+Vars:
+24
+r2 1 9 
+$r10 1 48 
+$r16 1 104 
+r1 1 -4 
+$r22 1 177 
+r20 1 154 
+r7 1 30 
+r8 1 48 
+r12 1 71 
+r13 1 -6 
+r6 1 -2 
+r4 1 -3 
+$r9 1 52 
+r23 1 -1 
+r19 1 124 
+$r21 1 158 
+r5 1 22 
+r3 1 16 
+r17 1 112 
+r18 1 124 
+$r11 1 71 
+$r14 1 88 
+$r15 1 95 
+r0 1 -5 
+Fields: 1
+30 ArrayObject 48
+Accesses: 0
+Functions: 20
+67 2 48 -3 
+99 3 -6 88 95 
+5 1 -4 
+102 1 71 
+104 1 104 
+11 1 -5 
+141 1 124 
+173 2 16 22 
+18 1 -3 
+50 1 48 
+52 2 52 9 
+117 1 112 
+149 1 124 
+181 3 177 -6 154 
+86 1 71 
+24 1 -2 
+184 1 112 
+91 2 16 22 
+156 1 154 
+158 2 9 158 
+Constructors: 0
+
+Summary: 21
+-3 4 -1 9 154 -4 52 0 3 -5 95 1 177 -6 22 30 2 158 16 88 104 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.processCompilationUnitResource(Lorg/eclipse/jdt/core/ICompilationUnit;Lorg/eclipse/jdt/internal/core/PackageFragment;)V
+PTG:
+Vars:
+29
+r9 1 60 
+r1 1 -2 
+$r12 1 86 
+$r27 1 255 
+$r25 1 436 
+$r8 1 60 
+r47 1 53 
+$r29 1 220 
+r3 2 5 15 
+$r10 1 70 
+$r13 1 93 
+$r21 1 286 
+$r24 1 416 
+$r22 1 290 
+$r23 1 295 
+$r45 1 -1 
+r7 1 32 
+r52 1 430 
+r51 1 424 
+r11 1 84 
+$r6 1 32 
+r5 1 29 
+r4 1 -3 
+$r26 1 445 
+r2 1 5 
+$r30 1 229 
+$r46 2 5 15 
+r0 1 -1 
+$r28 1 264 
+Fields: 0
+Accesses: 3
+131 1 -1 
+458 1 -1 
+189 1 -1 
+Functions: 52
+0 2 -1 -2 
+387 1 84 
+516 7 -1 -3 84 5 53 29 15 
+262 1 -1 
+267 3 32 264 255 
+397 1 84 
+14 1 -2 
+142 2 -1 84 
+147 1 86 
+404 1 -1 
+22 4 -1 -2 -3 5 
+278 0 
+408 3 -1 -2 86 
+284 1 86 
+31 1 -2 
+415 1 -2 
+416 1 416 
+289 1 -2 
+290 1 290 
+167 1 84 
+169 0 
+426 1 5 
+300 2 295 286 
+45 1 32 
+174 0 
+433 2 -2 424 
+182 0 
+185 0 
+441 2 86 430 
+59 1 -3 
+448 1 -1 
+321 0 
+68 2 70 60 
+452 3 -1 436 445 
+330 1 84 
+203 1 -1 
+76 3 5 70 15 
+218 1 84 
+349 7 -1 -3 84 5 53 29 15 
+479 1 84 
+96 5 -3 5 86 93 15 
+481 0 
+227 1 -1 
+101 2 32 84 
+486 0 
+232 3 32 229 220 
+494 0 
+113 1 86 
+497 0 
+121 1 84 
+377 0 
+253 1 84 
+Constructors: 2
+96 86
+76 70
+
+Summary: 29
+469 220 445 229 436 -1 157 290 60 0 84 255 295 15 264 481 1 169 416 424 5 174 53 29 491 286 179 430 486 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.processPackageFragmentResource(Lorg/eclipse/jdt/internal/core/PackageFragment;Lorg/eclipse/jdt/internal/core/PackageFragmentRoot;Ljava/lang/String;)V
+PTG:
+Vars:
+62
+$r60 1 60 
+r66 1 440 
+$r29 1 413 
+$r22 2 608 599 
+r74 2 834 822 
+$r40 1 291 
+$r8 1 905 
+$r58 2 5 12 
+$r53 1 122 
+r6 1 60 
+$r64 1 151 
+$r43 1 308 
+$r17 1 148 
+r7 1 73 
+$r12 1 857 
+$r10 1 148 
+$r32 1 430 
+$r50 1 248 
+r1 1 -3 
+$r19 1 579 
+$r52 1 82 
+r3 1 -1 
+r27 1 654 
+$r54 1 41 
+r24 1 615 
+r61 1 110 
+$r11 1 857 
+r76 1 919 
+$r39 1 288 
+r72 1 730 
+$r51 1 201 
+$r67 1 5 
+r68 1 534 
+r26 1 635 
+$r28 1 410 
+r5 1 30 
+r75 1 900 
+r69 1 540 
+$r42 1 303 
+r70 1 558 
+r59 2 5 12 
+r0 1 -4 
+r65 1 318 
+$r63 1 151 
+r73 1 748 
+$r41 1 302 
+r4 1 -2 
+$r31 1 425 
+$r13 1 148 
+$r21 1 612 
+$r15 1 699 
+$r18 1 552 
+$r62 1 148 
+$r20 1 599 
+$r30 1 424 
+$r16 1 804 
+$r9 1 924 
+$r23 1 615 
+$r14 1 699 
+r2 1 23 
+r71 1 575 
+r25 1 628 
+Fields: 9
+-1 progressMonitor 612
+-1 parser 599
+730 ArrayObject 748
+30 ArrayObject 424
+30 ArrayObject 302
+30 ArrayObject 552
+-2 names 5
+-2 parent 148
+110 ArrayObject 122
+Accesses: 12
+194 1 -1 
+147 1 -2 
+611 1 -1 
+4 1 -2 
+325 1 -1 
+853 1 -2 
+598 1 -1 
+695 1 -2 
+520 1 -2 
+827 1 -2 
+447 1 -1 
+607 1 -1 
+Functions: 88
+-1 0 
+896 3 -2 148 5 
+769 1 748 
+515 8 -1 612 599 424 552 73 30 302 
+646 8 -1 612 5 599 615 635 12 575 
+902 4 -1 612 900 599 
+264 8 -1 612 599 424 552 73 30 302 
+776 4 -1 612 599 748 
+393 8 -1 612 599 424 552 73 30 302 
+521 2 5 12 
+649 1 635 
+11 1 -4 
+270 3 -1 612 599 
+911 5 -2 148 5 23 905 
+17 3 -3 5 12 
+146 7 -1 -3 612 5 599 151 12 
+530 1 -3 
+914 1 23 
+148 1 148 
+661 5 -1 612 599 654 575 
+536 1 -3 
+25 6 -1 -2 612 148 5 599 
+921 4 -1 612 599 919 
+410 1 410 
+668 1 575 
+413 2 413 430 
+32 3 -1 612 599 
+288 1 288 
+800 2 804 73 
+418 2 73 425 
+802 1 60 
+930 5 -2 148 5 23 924 
+291 2 291 308 
+39 1 23 
+167 1 60 
+296 2 73 303 
+424 1 424 
+552 1 552 
+41 1 41 
+302 1 302 
+687 3 -1 612 599 
+560 1 558 
+817 1 23 
+949 0 
+568 2 23 558 
+696 1 148 
+59 3 -2 148 5 
+187 1 60 
+828 1 148 
+577 1 575 
+68 1 23 
+710 7 -1 -3 612 5 599 699 12 
+199 3 -1 612 599 
+713 1 60 
+841 8 -1 -2 834 612 148 5 822 599 
+458 4 -1 612 599 440 
+204 3 73 201 60 
+588 3 579 534 540 
+80 1 60 
+336 4 -1 612 599 318 
+82 2 82 73 
+723 1 60 
+854 1 148 
+217 1 60 
+604 2 599 575 
+478 1 440 
+480 0 
+608 3 608 612 599 
+226 0 
+866 7 -1 -3 612 5 599 857 12 
+356 1 318 
+485 0 
+358 0 
+103 1 60 
+874 3 -1 612 599 
+363 0 
+493 0 
+238 3 -1 612 599 
+623 1 615 
+496 0 
+881 3 -2 148 5 
+371 0 
+245 2 248 73 
+374 0 
+630 1 628 
+758 1 748 
+247 3 -2 148 5 
+888 1 23 
+Constructors: 0
+
+Summary: 49
+468 558 485 654 857 905 615 -1 12 151 410 346 490 699 900 248 30 730 440 110 635 363 2 628 318 919 430 804 534 413 308 82 822 41 -4 0 303 924 425 1 288 579 201 368 480 834 540 358 291 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.processElement(Lorg/eclipse/jdt/core/IJavaElement;)V
+PTG:
+Vars:
+12
+$r4 1 -2 
+$r11 1 85 
+r0 1 -1 
+$r6 1 5 
+$r9 1 -2 
+r1 1 -2 
+$r3 1 5 
+$r5 1 49 
+$r8 1 62 
+r2 1 5 
+$r10 1 5 
+$r7 1 57 
+Fields: 1
+-1 createdElements 49
+Accesses: 1
+48 1 -1 
+Functions: 10
+0 3 -1 49 -2 
+67 2 49 62 
+83 3 -1 49 -2 
+53 2 5 57 
+6 1 -2 
+56 1 -2 
+88 5 -1 49 -2 5 85 
+106 1 -2 
+45 4 -1 49 -2 5 
+109 0 
+Constructors: 0
+
+Summary: 6
+-1 5 57 85 62 98 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.<init>([Lorg/eclipse/jdt/core/IJavaElement;[Lorg/eclipse/jdt/core/IJavaElement;Z)V
+PTG:
+Vars:
+4
+r2 1 -3 
+$r3 1 8 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+16 1 -1 
+Functions: 3
+4 3 -1 -2 -3 
+20 1 -1 
+13 1 8 
+Constructors: 2
+4 -1
+13 8
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.getMainTaskName()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.getDeltaFor(Lorg/eclipse/jdt/core/IJavaProject;)Lorg/eclipse/jdt/internal/core/JavaElementDelta;
+PTG:
+Vars:
+8
+r1 1 -2 
+_ret 2 5 18 
+r7 2 5 18 
+$r5 1 1 
+r0 1 -1 
+$r4 1 18 
+$r2 1 1 
+$r3 1 5 
+Fields: 1
+-1 deltasPerProject 1
+Accesses: 2
+0 1 -1 
+27 1 -1 
+Functions: 3
+1 2 1 -2 
+33 3 1 -2 18 
+23 2 -2 18 
+Constructors: 1
+23 18
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.getSchedulingRule()Lorg/eclipse/core/runtime/jobs/ISchedulingRule;
+PTG:
+Vars:
+11
+$r6 1 97 
+$r8 1 32 
+$r2 1 1 
+$r4 1 51 
+_ret 1 97 
+r0 1 -1 
+$r1 1 1 
+$r3 2 1 46 
+r5 1 55 
+r12 2 32 87 
+$r7 1 87 
+Fields: 3
+-1 elementsToProcess 1
+1 ArrayObject 51
+46 ArrayObject 51
+Accesses: 4
+0 1 -1 
+21 1 -1 
+9 1 -1 
+45 1 -1 
+Functions: 4
+20 3 -1 1 51 
+102 3 32 97 87 
+44 3 -1 1 51 
+94 2 32 87 
+Constructors: 1
+102 97
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.verify()Lorg/eclipse/jdt/core/IJavaModelStatus;
+PTG:
+Vars:
+7
+_ret 1 47 
+$r4 1 17 
+r1 1 4 
+$r2 1 17 
+$r3 1 47 
+r0 1 -1 
+$r5 1 29 
+Fields: 2
+-1 renamingsList 17
+-1 elementsToProcess 29
+Accesses: 3
+16 1 -1 
+23 1 -1 
+28 1 -1 
+Functions: 3
+0 3 -1 17 29 
+5 1 4 
+43 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.getResource(Lorg/eclipse/jdt/core/IJavaElement;)Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+8
+$r1 1 36 
+_ret 1 57 
+$r3 1 47 
+r0 1 22 
+$r2 1 36 
+r5 2 55 -2 
+$r6 1 57 
+r4 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+16 2 -2 55 
+35 2 -2 55 
+6 2 -2 55 
+23 1 22 
+56 2 -2 55 
+41 2 36 47 
+44 1 22 
+Constructors: 0
+
+Summary: 4
+-1 47 36 0 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.prepareDeltas(Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/core/IJavaElement;Z)V
+PTG:
+Vars:
+8
+$r4 1 63 
+r0 1 -2 
+r2 1 21 
+r3 1 -1 
+$r6 1 38 
+r1 1 -3 
+$r7 1 49 
+r5 1 33 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -2 
+35 2 -1 33 
+67 2 -3 63 
+54 3 49 -2 -3 
+7 1 -3 
+27 1 -2 
+43 3 -2 -3 38 
+60 2 -1 21 
+46 2 -1 21 
+15 1 -3 
+Constructors: 0
+
+Summary: 8
+-1 49 21 33 63 1 38 0 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.processDeltas()V
+PTG:
+Vars:
+6
+$r1 1 1 
+$r5 1 20 
+r3 1 14 
+r0 1 -1 
+$r4 1 20 
+$r2 1 4 
+Fields: 1
+-1 deltasPerProject 1
+Accesses: 1
+0 1 -1 
+Functions: 5
+1 1 1 
+19 1 14 
+4 1 4 
+28 3 -1 1 20 
+31 1 14 
+Constructors: 0
+
+Summary: 3
+-1 4 20 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.initializeASTParser()V
+PTG:
+Vars:
+2
+$r1 1 2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+5 1 -1 
+Functions: 1
+1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.updateReadOnlyPackageFragmentsForCopy(Lorg/eclipse/core/resources/IContainer;Lorg/eclipse/jdt/internal/core/PackageFragmentRoot;[Ljava/lang/String;)V
+PTG:
+Vars:
+9
+r8 2 1 41 
+$r1 1 1 
+r3 1 23 
+r6 1 -1 
+r2 1 -4 
+r0 1 -3 
+$r4 1 27 
+$r5 1 44 
+r7 2 58 -2 
+Fields: 1
+-4 ArrayObject 23
+Accesses: 0
+Functions: 8
+0 1 -3 
+33 2 23 27 
+50 2 23 44 
+68 2 -2 58 
+25 3 1 41 27 
+43 3 -2 58 44 
+59 2 -2 58 
+78 2 1 41 
+Constructors: 2
+33 27
+50 44
+
+Summary: 9
+1 58 -1 1 2 41 -4 0 -2 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.collectResourcesOfInterest(Lorg/eclipse/jdt/core/IPackageFragment;)[Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+15
+r1 1 6 
+$r7 1 151 
+$r5 1 63 
+r13 1 43 
+r14 1 86 
+r17 1 234 
+$r4 1 43 
+_ret 1 234 
+$r6 1 106 
+$r8 1 169 
+r0 1 -2 
+r12 1 -1 
+$r9 1 169 
+r15 1 128 
+$r2 1 22 
+Fields: 4
+6 ArrayObject 43
+86 ArrayObject 151
+86 ArrayObject 169
+86 ArrayObject 106
+Accesses: 0
+Functions: 12
+0 1 -2 
+80 1 -2 
+66 2 22 63 
+210 1 22 
+243 2 22 234 
+229 1 22 
+9 1 -2 
+28 1 22 
+60 1 43 
+45 1 43 
+189 1 22 
+223 1 128 
+Constructors: 1
+28 22
+
+Summary: 6
+22 63 6 86 -1 0 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.processElements()V
+PTG:
+Vars:
+7
+$r6 1 61 
+$r1 1 1 
+$r4 1 67 
+$r5 1 78 
+$r2 1 6 
+r0 1 -1 
+$r3 1 61 
+Fields: 3
+-1 createdElements 61
+-1 elementsToProcess 6
+-1 resultElements 78
+Accesses: 10
+5 1 -1 
+38 1 -1 
+70 1 -1 
+41 1 -1 
+73 1 -1 
+28 1 -1 
+60 1 -1 
+13 1 -1 
+45 1 -1 
+77 1 -1 
+Functions: 8
+17 4 -1 6 61 78 
+49 0 
+81 2 61 78 
+54 4 -1 6 61 78 
+86 4 -1 6 61 78 
+10 1 1 
+29 0 
+61 1 61 
+Constructors: 1
+10 1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.updateContent(Lorg/eclipse/jdt/core/ICompilationUnit;Lorg/eclipse/jdt/internal/core/PackageFragment;Ljava/lang/String;)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+19
+r12 1 62 
+r5 1 18 
+r4 1 -3 
+r13 1 75 
+$r15 1 89 
+r14 1 82 
+r16 1 -4 
+r3 1 12 
+$r10 1 47 
+_ret 1 113 
+$r8 1 47 
+$r9 1 38 
+r0 1 -2 
+$r7 1 38 
+$r1 1 1 
+$r2 1 1 
+$r11 1 62 
+$r17 1 113 
+r6 1 -1 
+Fields: 4
+1 names 12
+-1 progressMonitor 38
+-1 parser 47
+-3 names 18
+Accesses: 6
+37 1 -1 
+6 1 1 
+54 1 -1 
+58 1 -1 
+14 1 -3 
+46 1 -1 
+Functions: 11
+0 1 -2 
+97 8 -1 -2 82 -4 38 89 62 47 
+51 2 -2 47 
+22 2 18 12 
+70 1 62 
+55 2 38 47 
+88 1 -2 
+41 2 -2 38 
+108 7 -1 -2 18 82 38 62 47 
+77 1 75 
+111 1 82 
+Constructors: 0
+
+Summary: 13
+75 1 -3 18 62 82 -1 1 2 89 -4 12 0 
+org/eclipse/jdt/internal/core/CopyResourceElementsOperation.updateReadOnlyPackageFragmentsForMove(Lorg/eclipse/core/resources/IContainer;Lorg/eclipse/jdt/internal/core/PackageFragmentRoot;[Ljava/lang/String;Z)V
+PTG:
+Vars:
+9
+r7 2 58 -2 
+r2 1 -4 
+r0 1 -3 
+$r1 1 1 
+$r4 1 27 
+r8 2 1 41 
+$r5 1 44 
+r6 1 -1 
+r3 1 23 
+Fields: 1
+-4 ArrayObject 23
+Accesses: 0
+Functions: 9
+0 1 -3 
+33 2 23 27 
+97 2 -2 58 
+50 2 23 44 
+68 2 -2 58 
+25 3 1 41 27 
+43 3 -2 58 44 
+59 2 -2 58 
+92 2 1 41 
+Constructors: 2
+33 27
+50 44
+
+Summary: 9
+1 58 -1 1 2 41 -4 0 -2 

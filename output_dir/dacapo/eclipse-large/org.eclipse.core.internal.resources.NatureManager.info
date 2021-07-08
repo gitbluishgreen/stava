@@ -1,0 +1,940 @@
+28
+org/eclipse/core/internal/resources/NatureManager.setEnabledNatures(Lorg/eclipse/core/resources/IProject;[Ljava/lang/String;)V
+PTG:
+Vars:
+7
+r2 1 -2 
+$r6 1 8 
+$r4 1 1 
+r3 1 -3 
+r0 1 -1 
+$r1 1 1 
+$r7 1 17 
+Fields: 1
+-1 natureEnablements 1
+Accesses: 3
+0 1 -1 
+20 1 -1 
+23 1 -1 
+Functions: 3
+8 1 8 
+29 3 1 -2 -3 
+14 1 8 
+Constructors: 1
+14 8
+
+Summary: 6
+8 -3 -2 0 -1 1 
+org/eclipse/core/internal/resources/NatureManager.getEnabledNatures(Lorg/eclipse/core/internal/resources/Project;)[Ljava/lang/String;
+PTG:
+Vars:
+8
+r0 1 -1 
+$r4 1 12 
+$r1 1 1 
+r2 1 -2 
+$r3 1 1 
+_ret 1 32 
+r5 1 12 
+r6 1 32 
+Fields: 1
+-1 natureEnablements 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+36 4 -1 32 1 -2 
+8 2 1 -2 
+27 3 -1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/NatureManager.hasCycles(Lorg/eclipse/core/internal/resources/ProjectNatureDescriptor;)Z
+PTG:
+Vars:
+6
+r1 1 42 
+r0 1 -2 
+r5 1 52 
+r2 1 -1 
+$r3 1 51 
+$r4 1 52 
+Fields: 1
+42 ArrayObject 51
+Accesses: 10
+0 1 -2 
+81 1 -2 
+97 1 -2 
+35 1 -2 
+102 1 -2 
+23 1 -2 
+8 1 -2 
+28 1 -2 
+76 1 -2 
+13 1 -2 
+Functions: 3
+48 2 -1 51 
+65 2 -1 52 
+38 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 42 52 0 -1 
+org/eclipse/core/internal/resources/NatureManager.sortNatureSet([Ljava/lang/String;)[Ljava/lang/String;
+PTG:
+Vars:
+12
+$r9 1 119 
+$r10 1 122 
+r0 1 -2 
+$r3 1 18 
+$r7 1 62 
+$r11 1 122 
+r5 1 -1 
+r8 1 85 
+$r1 1 9 
+$r6 1 41 
+_ret 1 122 
+r12 1 73 
+Fields: 1
+-2 ArrayObject 41
+Accesses: 0
+Functions: 13
+65 2 18 62 
+99 1 73 
+69 1 9 
+104 1 73 
+42 4 -1 18 9 41 
+14 1 9 
+78 1 73 
+114 2 119 9 
+115 1 9 
+23 1 18 
+87 2 18 85 
+56 1 18 
+61 2 -2 41 
+Constructors: 2
+23 18
+14 9
+
+Summary: 7
+62 119 0 18 -1 9 85 
+org/eclipse/core/internal/resources/NatureManager.startup(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+4
+r3 1 -2 
+$r0 1 0 
+r1 1 -1 
+$r2 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+7 2 0 -1 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/eclipse/core/internal/resources/NatureManager.validateRemovals(Ljava/util/HashSet;Ljava/util/HashSet;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+11
+$r2 1 9 
+$r13 1 97 
+r7 1 -3 
+r6 1 39 
+r1 1 4 
+_ret 1 97 
+r4 1 -1 
+r3 1 9 
+r5 1 25 
+r0 1 -2 
+$r8 1 52 
+Fields: 1
+39 ArrayObject 52
+Accesses: 0
+Functions: 8
+0 1 -2 
+32 1 25 
+19 2 -1 9 
+68 1 9 
+8 1 4 
+88 1 4 
+59 1 -1 
+47 2 -3 52 
+Constructors: 0
+
+Summary: 9
+-3 -2 25 70 39 0 1 9 -1 
+org/eclipse/core/internal/resources/NatureManager.configureNatures(Lorg/eclipse/core/internal/resources/Project;Lorg/eclipse/core/internal/resources/ProjectDescription;Lorg/eclipse/core/internal/resources/ProjectDescription;Lorg/eclipse/core/runtime/MultiStatus;)V
+PTG:
+Vars:
+28
+$r23 1 177 
+r20 1 -5 
+r13 1 57 
+$r2 1 6 
+r11 1 47 
+$r25 1 202 
+$r0 1 0 
+$r18 1 235 
+r15 1 -2 
+r29 1 186 
+$r22 1 174 
+r26 1 90 
+$r19 1 235 
+r30 1 244 
+r1 1 -3 
+$r17 1 232 
+$r5 1 17 
+$r16 1 141 
+$r12 1 57 
+r6 1 -4 
+$r10 1 47 
+r14 1 -1 
+$r3 1 9 
+$r21 1 258 
+$r7 1 23 
+$r24 1 177 
+$r8 1 26 
+r27 1 118 
+Fields: 2
+244 ArrayObject 258
+186 ArrayObject 202
+Accesses: 0
+Functions: 30
+4 1 -3 
+69 2 0 57 
+261 4 -1 -2 258 -5 
+6 1 6 
+134 2 -5 118 
+139 1 -4 
+12 2 0 9 
+77 2 17 47 
+205 4 -1 -2 -5 202 
+144 2 -3 141 
+81 4 -1 17 -2 57 
+21 1 -4 
+149 2 -1 -2 
+23 1 23 
+216 1 57 
+92 1 90 
+29 2 17 26 
+158 1 47 
+224 2 -1 235 
+225 2 232 57 
+34 2 0 17 
+227 1 57 
+166 2 -1 177 
+167 2 174 47 
+169 1 47 
+106 2 -5 90 
+45 1 0 
+110 3 -1 17 47 
+55 1 17 
+120 1 118 
+Constructors: 2
+12 0
+29 17
+
+Summary: 26
+-3 23 90 0 1 17 3 -5 9 244 174 -2 0 26 232 -4 57 118 6 2 177 186 -1 141 235 47 
+org/eclipse/core/internal/resources/NatureManager.flushEnablements(Lorg/eclipse/core/resources/IProject;)V
+PTG:
+Vars:
+5
+r2 1 -2 
+$r1 1 1 
+$r3 1 1 
+$r5 1 1 
+r0 1 -1 
+Fields: 1
+-1 natureEnablements 1
+Accesses: 4
+0 1 -1 
+32 1 -1 
+18 1 -1 
+7 1 -1 
+Functions: 2
+19 1 1 
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/NatureManager.insert(Ljava/util/ArrayList;Ljava/util/Set;Ljava/lang/String;)V
+PTG:
+Vars:
+7
+$r6 1 53 
+r4 1 -2 
+r0 1 -3 
+r5 1 38 
+r1 1 -4 
+r2 1 -1 
+r3 1 24 
+Fields: 1
+38 ArrayObject 53
+Accesses: 0
+Functions: 6
+0 2 -3 -4 
+19 2 -1 -4 
+54 4 -1 -2 -3 53 
+70 2 -2 -4 
+13 2 -3 -4 
+31 1 24 
+Constructors: 0
+
+Summary: 8
+24 -3 -2 0 -1 38 -4 1 
+org/eclipse/core/internal/resources/NatureManager.findNatureForBuilder(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+16
+r0 1 -1 
+$r4 1 99 
+$r3 1 1 
+$r13 1 65 
+$r14 2 58 1 
+r9 1 38 
+$r11 1 42 
+r7 1 24 
+$r5 1 99 
+r2 1 -2 
+$r8 1 32 
+_ret 1 99 
+$r6 1 8 
+r12 1 49 
+$r1 1 1 
+$r10 1 42 
+Fields: 4
+24 ArrayObject 32
+24 ArrayObject 42
+49 ArrayObject 65
+-1 buildersToNatures 1
+Accesses: 4
+0 1 -1 
+17 1 -1 
+57 1 -1 
+94 1 -1 
+Functions: 6
+32 1 32 
+20 2 -1 1 
+68 4 1 65 38 58 
+43 1 42 
+14 1 8 
+95 2 1 -2 
+Constructors: 1
+14 8
+
+Summary: 6
+-2 49 0 24 -1 38 
+org/eclipse/core/internal/resources/NatureManager.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/NatureManager.hasSetOverlap(Lorg/eclipse/core/resources/IProjectNatureDescriptor;Lorg/eclipse/core/resources/IProjectNatureDescriptor;)Ljava/lang/String;
+PTG:
+Vars:
+7
+r1 1 -3 
+r0 1 -2 
+r2 1 16 
+r3 1 23 
+$r5 1 40 
+r7 1 -1 
+$r4 1 45 
+Fields: 2
+16 ArrayObject 40
+23 ArrayObject 45
+Accesses: 0
+Functions: 3
+17 1 -3 
+40 2 40 45 
+10 1 -2 
+Constructors: 0
+
+Summary: 7
+-3 16 -2 23 0 -1 1 
+org/eclipse/core/internal/resources/NatureManager.hasLinks(Lorg/eclipse/core/resources/IProject;)Z
+PTG:
+Vars:
+6
+r5 1 6 
+r0 1 -2 
+$r3 1 39 
+$r1 1 14 
+r4 1 -1 
+$r2 1 -1 
+Fields: 1
+6 ArrayObject 14
+Accesses: 0
+Functions: 4
+0 1 -2 
+38 1 -1 
+42 1 39 
+14 1 14 
+Constructors: 0
+
+Summary: 5
+-2 6 39 0 -1 
+org/eclipse/core/internal/resources/NatureManager.lazyInitialize()V
+PTG:
+Vars:
+13
+$r8 2 90 1 
+r3 1 22 
+r4 1 29 
+$r2 1 8 
+$r5 1 31 
+$r7 1 65 
+$r6 1 59 
+$r13 1 78 
+r0 1 -1 
+$r1 1 1 
+$r9 1 95 
+r14 1 59 
+$r11 1 -1 
+Fields: 2
+-1 descriptors 1
+29 ArrayObject 65
+Accesses: 3
+0 1 -1 
+89 1 -1 
+44 1 -1 
+Functions: 10
+-1 0 
+81 1 78 
+66 2 65 59 
+102 4 1 90 59 95 
+118 2 -1 1 
+23 1 22 
+8 1 8 
+41 1 31 
+76 1 -1 
+93 1 59 
+Constructors: 2
+66 59
+41 31
+
+Summary: 7
+59 78 22 95 -1 8 29 
+org/eclipse/core/internal/resources/NatureManager.failure(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r0 1 0 
+r2 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 0 -2 
+Constructors: 1
+7 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/NatureManager.createNature(Lorg/eclipse/core/internal/resources/Project;Ljava/lang/String;)Lorg/eclipse/core/resources/IProjectNature;
+PTG:
+Vars:
+17
+r19 1 201 
+r28 1 171 
+$r17 1 -1 
+$r9 1 94 
+$r20 1 203 
+$r18 1 194 
+r26 1 118 
+$r10 1 102 
+r24 1 51 
+r22 1 -1 
+$r8 1 101 
+r4 1 -2 
+$r0 1 0 
+r2 1 15 
+r1 1 -3 
+$r21 1 209 
+$r3 1 171 
+Fields: 2
+51 ArrayObject 118
+51 ArrayObject 101
+Accesses: 0
+Functions: 19
+-1 0 
+0 2 0 -3 
+34 1 -2 
+162 0 
+101 1 101 
+197 2 194 -3 
+166 1 118 
+41 0 
+74 1 -2 
+45 1 15 
+144 1 -3 
+208 1 -2 
+81 0 
+23 1 -3 
+184 2 -2 171 
+216 4 -1 209 201 203 
+155 1 -2 
+94 2 102 94 
+63 1 -3 
+Constructors: 1
+216 203
+
+Summary: 17
+-3 1 75 201 102 148 27 0 15 67 -2 51 156 0 35 209 -1 
+org/eclipse/core/internal/resources/NatureManager.handleEvent(Lorg/eclipse/core/internal/events/LifecycleEvent;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+$r2 1 58 
+r0 1 -2 
+$r3 1 58 
+Fields: 1
+-2 resource 58
+Accesses: 2
+0 1 -2 
+57 1 -2 
+Functions: 1
+64 2 -1 58 
+Constructors: 0
+
+Summary: 4
+58 -2 0 -1 
+org/eclipse/core/internal/resources/NatureManager.validateAdditions(Ljava/util/HashSet;Ljava/util/HashSet;Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+20
+r1 1 7 
+$r32 1 274 
+r0 1 -3 
+r34 1 134 
+$r9 1 94 
+r3 1 14 
+$r6 1 30 
+$r14 1 141 
+r8 1 -2 
+r5 1 30 
+r33 2 232 226 
+$r2 1 14 
+$r35 2 232 226 
+r7 1 81 
+r15 1 141 
+r4 1 -1 
+r21 1 -4 
+_ret 1 274 
+$r16 1 167 
+r17 1 173 
+Fields: 1
+81 ArrayObject 94
+Accesses: 1
+52 1 30 
+Functions: 26
+65 1 14 
+193 1 134 
+130 1 -2 
+3 1 -3 
+264 1 7 
+74 1 30 
+139 1 134 
+203 1 30 
+12 1 7 
+151 2 141 14 
+24 2 -1 14 
+89 2 -2 94 
+218 2 -1 -4 
+161 3 -1 167 30 
+164 2 -1 141 
+37 1 -1 
+101 1 -1 
+41 1 14 
+237 2 226 232 
+111 1 14 
+180 1 -1 
+245 1 -1 
+184 1 173 
+249 1 -4 
+61 1 -1 
+255 1 14 
+Constructors: 0
+
+Summary: 19
+257 -3 43 173 1 81 14 112 67 -2 0 30 250 -4 167 2 186 -1 141 
+org/eclipse/core/internal/resources/NatureManager.deconfigureNature(Lorg/eclipse/core/internal/resources/Project;Ljava/lang/String;Lorg/eclipse/core/runtime/MultiStatus;)V
+PTG:
+Vars:
+16
+r0 1 -2 
+r7 1 -4 
+$r12 1 83 
+$r18 1 41 
+$r10 1 64 
+$r15 1 93 
+$r1 1 3 
+r3 1 -3 
+$r14 1 90 
+$r13 1 87 
+r17 2 17 30 
+r6 1 -1 
+r2 1 3 
+$r11 1 78 
+$r20 1 41 
+$r19 1 67 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -2 
+96 2 64 93 
+67 2 -3 67 
+83 2 83 87 
+53 8 -1 17 -2 -3 3 -4 41 30 
+101 1 41 
+86 1 -2 
+24 3 -1 -2 -3 
+74 1 67 
+90 1 90 
+11 2 -3 3 
+78 1 78 
+Constructors: 2
+53 41
+74 67
+
+Summary: 13
+93 -3 -2 90 0 17 30 -4 3 41 2 87 -1 
+org/eclipse/core/internal/resources/NatureManager.getNatureDescriptor(Ljava/lang/String;)Lorg/eclipse/core/resources/IProjectNatureDescriptor;
+PTG:
+Vars:
+6
+$r3 1 9 
+r0 1 -1 
+r1 1 -2 
+$r2 1 5 
+_ret 1 9 
+$r4 1 9 
+Fields: 1
+-1 descriptors 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/NatureManager.shutdown(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/NatureManager.configureNature(Lorg/eclipse/core/internal/resources/Project;Ljava/lang/String;Lorg/eclipse/core/runtime/MultiStatus;)V
+PTG:
+Vars:
+12
+r3 1 -3 
+$r6 1 22 
+$r12 1 47 
+r1 1 -1 
+$r7 1 19 
+$r11 1 44 
+r4 1 -4 
+$r0 1 0 
+$r9 1 37 
+r2 1 -2 
+$r8 1 32 
+$r10 1 41 
+Fields: 0
+Accesses: 0
+Functions: 9
+32 1 32 
+50 2 19 47 
+37 2 37 41 
+22 2 -3 22 
+55 1 0 
+8 5 0 -1 -2 -3 -4 
+40 1 -2 
+28 1 22 
+44 1 44 
+Constructors: 2
+8 0
+28 22
+
+Summary: 10
+41 -3 -2 0 44 -4 0 2 -1 47 
+org/eclipse/core/internal/resources/NatureManager.detectCycles()V
+PTG:
+Vars:
+8
+$r3 1 17 
+$r1 1 1 
+r0 1 -1 
+$r4 1 20 
+$r7 1 46 
+$r6 1 36 
+r5 1 20 
+r2 1 9 
+Fields: 3
+20 ArrayObject 36
+20 ArrayObject 46
+-1 descriptors 1
+Accesses: 2
+0 1 -1 
+36 1 36 
+Functions: 4
+1 1 1 
+10 2 17 9 
+11 1 9 
+47 3 -1 1 46 
+Constructors: 0
+
+Summary: 3
+17 20 -1 
+org/eclipse/core/internal/resources/NatureManager.isNatureEnabled(Lorg/eclipse/core/internal/resources/Project;Ljava/lang/String;)Z
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+$r4 1 15 
+r3 1 -3 
+r2 1 5 
+Fields: 1
+5 ArrayObject 15
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+15 2 -3 15 
+Constructors: 0
+
+Summary: 6
+-3 -2 5 0 -1 1 
+org/eclipse/core/internal/resources/NatureManager.validateLinkCreation([Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+6
+$r8 1 62 
+r0 1 -2 
+r1 1 -1 
+r3 1 12 
+_ret 1 62 
+$r2 1 8 
+Fields: 1
+-2 ArrayObject 8
+Accesses: 0
+Functions: 5
+17 1 12 
+49 0 
+5 2 -1 8 
+29 1 12 
+30 0 
+Constructors: 0
+
+Summary: 6
+-2 12 0 30 -1 38 
+org/eclipse/core/internal/resources/NatureManager.computeNatureEnablements(Lorg/eclipse/core/internal/resources/Project;)[Ljava/lang/String;
+PTG:
+Vars:
+30
+$r19 1 359 
+$r5 1 43 
+r25 2 125 138 
+r24 1 119 
+r31 1 286 
+r29 1 265 
+r7 1 -1 
+$r12 1 189 
+r2 1 18 
+r22 1 69 
+$r16 1 309 
+$r17 1 356 
+r28 1 251 
+r30 1 278 
+$r13 1 204 
+$r10 1 138 
+$r3 1 30 
+r21 1 64 
+$r9 1 125 
+r1 1 4 
+r27 1 204 
+$r18 1 359 
+r32 1 295 
+r0 1 -2 
+r26 1 197 
+r23 1 106 
+$r14 1 248 
+_ret 1 359 
+$r8 1 69 
+$r15 1 251 
+Fields: 4
+106 ArrayObject 119
+265 ArrayObject 278
+295 ArrayObject 309
+18 ArrayObject 64
+Accesses: 1
+85 1 69 
+Functions: 26
+0 1 -2 
+320 2 278 30 
+66 2 -1 64 
+259 2 -1 251 
+202 1 197 
+14 1 4 
+143 1 138 
+214 1 204 
+280 2 -1 278 
+154 3 119 138 43 
+349 2 356 30 
+351 1 30 
+288 1 286 
+97 2 64 30 
+162 3 64 138 125 
+227 2 204 30 
+101 1 69 
+38 1 30 
+231 1 197 
+303 2 309 30 
+49 1 43 
+241 2 248 30 
+243 1 30 
+121 2 119 43 
+187 1 43 
+189 1 189 
+Constructors: 3
+49 43
+38 30
+143 138
+
+Summary: 18
+106 189 43 295 125 251 30 356 -2 265 4 286 0 138 248 69 204 -1 
+org/eclipse/core/internal/resources/NatureManager.getNatureDescriptors()[Lorg/eclipse/core/resources/IProjectNatureDescriptor;
+PTG:
+Vars:
+7
+$r4 1 24 
+$r5 1 24 
+$r3 1 21 
+r2 1 13 
+_ret 1 24 
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 descriptors 5
+Accesses: 1
+4 1 -1 
+Functions: 4
+1 2 -1 5 
+5 1 5 
+14 2 21 13 
+15 1 13 
+Constructors: 0
+
+Summary: 2
+-1 21 
+org/eclipse/core/internal/resources/NatureManager.validateNatureSet([Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+35
+r1 1 14 
+$r24 1 229 
+r34 1 158 
+$r12 1 182 
+r36 1 250 
+$r29 1 286 
+$r6 1 43 
+$r9 1 68 
+$r16 1 144 
+r0 1 -2 
+r33 1 68 
+$r21 1 84 
+r32 1 63 
+$r10 1 172 
+$r13 1 190 
+$r23 1 92 
+$r18 1 112 
+$r4 1 31 
+$r17 1 147 
+$r37 2 323 15 
+$r22 1 89 
+r35 1 233 
+$r25 1 264 
+$r19 1 117 
+$r14 1 193 
+$r30 1 289 
+$r11 1 189 
+$r26 1 285 
+$r2 1 15 
+$r27 1 280 
+$r15 1 139 
+$r28 1 274 
+$r20 1 120 
+_ret 2 323 15 
+r8 1 -1 
+Fields: 7
+158 ArrayObject 189
+158 ArrayObject 172
+-2 ArrayObject 229
+-2 ArrayObject 280
+-2 ArrayObject 63
+250 ArrayObject 285
+250 ArrayObject 264
+Accesses: 1
+101 1 68 
+Functions: 26
+65 2 -1 63 
+258 2 264 31 
+196 2 193 15 
+138 2 -1 144 
+142 2 139 63 
+273 2 -1 286 
+83 2 -1 89 
+150 2 147 15 
+87 2 84 63 
+153 1 68 
+26 2 14 15 
+285 3 274 280 285 
+95 2 92 15 
+225 2 -1 229 
+292 2 289 15 
+38 1 31 
+166 2 43 172 
+111 2 -1 117 
+48 1 43 
+115 2 112 63 
+243 1 233 
+181 2 -1 190 
+123 2 120 15 
+315 1 15 
+189 2 182 189 
+126 2 31 63 
+Constructors: 3
+48 43
+38 31
+26 15
+
+Summary: 18
+158 117 147 43 68 144 193 89 233 -2 286 250 120 289 190 -1 31 92 

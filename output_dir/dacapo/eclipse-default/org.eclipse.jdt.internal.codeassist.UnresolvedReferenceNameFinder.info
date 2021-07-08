@@ -1,0 +1,872 @@
+36
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/Argument;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 2
+1 1 -2 
+5 1 -2 
+Functions: 1
+9 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.indexOfNextName(I)I
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 40 
+$r4 1 8 
+$r2 1 36 
+$r1 2 75 8 
+Fields: 4
+-1 potentialVariableNames 36
+-1 potentialVariableNameStarts 8
+-1 potentialVariableNameStarts 75
+36 ArrayObject 40
+Accesses: 7
+35 1 -1 
+53 1 -1 
+7 1 -1 
+74 1 -1 
+28 1 -1 
+44 1 -1 
+62 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.findBefore([CLorg/eclipse/jdt/internal/compiler/lookup/Scope;IIII[[CLorg/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder$UnresolvedReferenceNameRequestor;)Lorg/eclipse/jdt/internal/compiler/ast/MethodDeclaration;
+PTG:
+Vars:
+18
+r12 1 100 
+$r4 1 7 
+r0 1 -1 
+$r2 1 7 
+$r11 1 94 
+$r9 1 70 
+$r13 1 70 
+r1 1 -9 
+r8 1 -3 
+_ret 1 100 
+$r10 1 91 
+$r15 1 128 
+$r5 1 24 
+$r6 1 7 
+r16 1 -2 
+r14 1 -8 
+$r7 1 70 
+$r3 1 7 
+Fields: 4
+-1 completionScanner 7
+-1 parser 70
+7 lineEnds 24
+91 referenceContext 94
+Accesses: 14
+3 1 -1 
+131 1 -1 
+69 1 -1 
+6 1 -1 
+102 1 -1 
+11 1 7 
+14 1 -1 
+80 1 -1 
+20 1 -1 
+21 1 7 
+122 1 -1 
+91 1 91 
+28 1 -1 
+29 1 7 
+Functions: 7
+32 1 24 
+81 2 70 94 
+90 1 -3 
+106 1 70 
+77 1 70 
+109 5 -1 70 7 -8 24 
+15 2 7 24 
+Constructors: 0
+
+Summary: 10
+-8 91 6 1 7 -3 94 -1 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.find([CLorg/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration;I[[CLorg/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder$UnresolvedReferenceNameRequestor;)V
+PTG:
+Vars:
+9
+r2 1 -3 
+r4 1 -6 
+$r7 1 3 
+$r8 1 35 
+r6 1 21 
+r0 1 -1 
+$r5 1 3 
+r3 1 -5 
+r1 1 -2 
+Fields: 1
+-3 scope 3
+Accesses: 3
+2 1 -3 
+7 1 -3 
+31 1 -3 
+Functions: 3
+0 5 -1 -2 3 -5 -6 
+32 1 3 
+38 3 -1 35 21 
+Constructors: 0
+
+Summary: 8
+-1 3 21 35 -5 -6 -3 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.indexOfFisrtNameAfter(I)I
+PTG:
+Vars:
+4
+$r1 1 24 
+$r3 1 24 
+r0 1 -1 
+$r2 1 24 
+Fields: 1
+-1 potentialVariableNameStarts 24
+Accesses: 4
+2 1 -1 
+83 1 -1 
+68 1 -1 
+23 1 -1 
+Functions: 2
+37 2 -1 24 
+102 2 -1 24 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.acceptName([C)V
+PTG:
+Vars:
+11
+$r7 1 70 
+r0 1 -2 
+$r8 1 6 
+$r3 1 9 
+r1 1 -1 
+$r11 1 9 
+$r4 1 49 
+$r5 1 49 
+$r2 1 6 
+$r9 1 24 
+$r10 1 6 
+Fields: 5
+-1 requestor 70
+-1 completionEngine 6
+-1 acceptedNames 49
+6 options 24
+6 completionToken 9
+Accesses: 10
+48 1 -1 
+33 1 -1 
+34 1 6 
+20 1 -1 
+5 1 -1 
+21 1 6 
+69 1 -1 
+6 1 6 
+24 1 24 
+60 1 -1 
+Functions: 5
+49 2 49 -2 
+65 2 49 -2 
+40 2 -2 9 
+74 2 -2 70 
+13 2 -2 9 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/MethodDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+1 1 -2 
+5 1 -2 
+Functions: 2
+9 1 -1 
+13 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.visit(Lorg/eclipse/jdt/internal/compiler/ast/Initializer;Lorg/eclipse/jdt/internal/compiler/lookup/MethodScope;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisitRemoved(II)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 10 
+Fields: 1
+-1 potentialVariableNameStarts 10
+Accesses: 1
+9 1 -1 
+Functions: 3
+0 2 -1 10 
+43 2 -1 10 
+31 2 -1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.findAfter([CLorg/eclipse/jdt/internal/compiler/lookup/Scope;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;II[[CLorg/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder$UnresolvedReferenceNameRequestor;)V
+PTG:
+Vars:
+7
+r2 1 -3 
+r3 1 -7 
+r1 1 -2 
+r5 1 17 
+r4 1 -8 
+r6 1 -4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 5 -1 -2 -3 -7 -8 
+28 3 -1 17 -4 
+Constructors: 0
+
+Summary: 7
+-1 -7 17 -8 -4 -3 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.findBefore([CLorg/eclipse/jdt/internal/compiler/lookup/Scope;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;III[[CLorg/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder$UnresolvedReferenceNameRequestor;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r1 1 -2 
+r3 1 -8 
+r6 1 -4 
+r2 1 -3 
+r5 1 18 
+r4 1 -9 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 5 -1 -2 -3 -8 -9 
+29 3 -1 18 -4 
+Constructors: 0
+
+Summary: 7
+-1 -8 -4 -9 -3 18 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.visit(Lorg/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)Z
+PTG:
+Vars:
+5
+r0 1 -2 
+$r3 1 36 
+r4 1 -3 
+r1 1 -1 
+$r2 1 20 
+Fields: 2
+-2 arguments 20
+-2 statements 36
+Accesses: 7
+0 1 -2 
+19 1 -2 
+35 1 -2 
+23 1 -2 
+39 1 -2 
+27 1 -2 
+43 1 -2 
+Functions: 4
+52 4 -1 -2 20 36 
+11 3 -2 20 36 
+31 2 -1 20 
+47 2 -1 36 
+Constructors: 0
+
+Summary: 7
+-1 1 -3 20 36 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.initPotentialNamesTables([[C)Z
+PTG:
+Vars:
+9
+r7 1 57 
+r6 1 -2 
+$r1 1 1 
+r0 1 -1 
+r2 1 7 
+$r5 1 1 
+r4 1 15 
+$r8 1 78 
+$r3 1 1 
+Fields: 5
+-1 parser 1
+1 potentialVariableNames 7
+1 potentialVariableNameStarts 15
+7 ArrayObject 57
+-2 ArrayObject 78
+Accesses: 9
+0 1 -1 
+16 1 -1 
+144 1 -1 
+1 1 1 
+17 1 1 
+149 1 -1 
+8 1 -1 
+9 1 1 
+155 1 -1 
+Functions: 1
+79 2 57 78 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.visit(Lorg/eclipse/jdt/internal/compiler/ast/FieldDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/MethodScope;)Z
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+1 1 -2 
+5 1 -2 
+Functions: 1
+9 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/Initializer;Lorg/eclipse/jdt/internal/compiler/lookup/MethodScope;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+1 1 -2 
+5 1 -2 
+Functions: 2
+9 1 -1 
+13 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.removeNameAt(I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 19 
+Fields: 2
+-1 potentialVariableNames 1
+-1 potentialVariableNameStarts 19
+Accesses: 3
+0 1 -1 
+33 1 -1 
+18 1 -1 
+Functions: 1
+7 3 -1 1 19 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/Argument;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+1 1 -2 
+5 1 -2 
+Functions: 1
+9 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/Block;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.removeFields(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)V
+PTG:
+Vars:
+8
+r0 1 -2 
+r2 1 -1 
+$r4 1 59 
+$r3 1 38 
+r1 1 14 
+$r5 1 69 
+$r6 1 70 
+$r7 1 64 
+Fields: 6
+-1 potentialVariableNames 59
+-1 potentialVariableNameStarts 38
+59 ArrayObject 64
+69 name 70
+14 ArrayObject 69
+-2 fields 14
+Accesses: 6
+0 1 -2 
+5 1 -2 
+37 1 -1 
+69 1 69 
+10 1 -2 
+58 1 -1 
+Functions: 4
+83 4 -1 64 38 59 
+73 2 64 70 
+27 4 -1 64 38 59 
+95 4 -1 64 38 59 
+Constructors: 0
+
+Summary: 4
+-1 14 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+r2 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 3
+0 1 -2 
+19 1 -2 
+23 1 -2 
+Functions: 3
+11 1 -2 
+27 1 -1 
+31 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.visit(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 2 -1 -2 
+7 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+1 1 -2 
+5 1 -2 
+Functions: 2
+9 1 -1 
+13 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.<init>(Lorg/eclipse/jdt/internal/codeassist/CompletionEngine;)V
+PTG:
+Vars:
+7
+$r4 1 30 
+$r6 1 33 
+r2 1 -2 
+$r5 1 33 
+$r1 1 5 
+$r3 1 22 
+r0 1 -1 
+Fields: 3
+-1 parser 30
+30 scanner 33
+-2 parser 22
+Accesses: 7
+17 1 -1 
+21 1 -2 
+39 1 -1 
+25 1 -1 
+12 1 -1 
+29 1 -1 
+30 1 30 
+Functions: 2
+1 3 -1 33 30 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/FieldDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/MethodScope;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 4
+1 1 -2 
+17 1 -2 
+5 1 -2 
+13 1 -2 
+Functions: 3
+21 1 -1 
+9 1 -1 
+25 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.removeLocals([Lorg/eclipse/jdt/internal/compiler/ast/Statement;II)V
+PTG:
+Vars:
+9
+$r6 1 61 
+$r8 1 66 
+r3 1 23 
+r0 1 -2 
+$r2 1 23 
+r4 1 -1 
+$r7 1 69 
+$r1 1 13 
+$r5 1 40 
+Fields: 6
+-1 potentialVariableNames 61
+-1 potentialVariableNameStarts 40
+23 name 69
+61 ArrayObject 66
+-2 ArrayObject 13
+-2 ArrayObject 23
+Accesses: 3
+67 1 23 
+39 1 -1 
+60 1 -1 
+Functions: 4
+82 4 -1 66 40 61 
+72 2 66 69 
+29 4 -1 66 40 61 
+94 4 -1 66 40 61 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.visit(Lorg/eclipse/jdt/internal/compiler/ast/Block;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Z
+PTG:
+Vars:
+5
+r4 1 -3 
+r2 1 -2 
+$r3 1 7 
+r1 1 4 
+r0 1 -1 
+Fields: 1
+-2 statements 7
+Accesses: 3
+6 1 -2 
+10 1 4 
+14 1 -2 
+Functions: 3
+0 1 -1 
+18 2 -1 7 
+23 3 -1 -2 7 
+Constructors: 0
+
+Summary: 7
+-1 7 1 4 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisitPreserved(II)V
+PTG:
+Vars:
+4
+$r2 1 31 
+$r3 1 35 
+$r1 1 10 
+r0 1 -1 
+Fields: 3
+-1 potentialVariableNames 31
+-1 potentialVariableNameStarts 10
+31 ArrayObject 35
+Accesses: 2
+9 1 -1 
+30 1 -1 
+Functions: 4
+0 4 -1 35 10 31 
+36 4 -1 35 10 31 
+53 4 -1 35 10 31 
+41 4 -1 35 10 31 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.getEnclosingDeclaration()Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;
+PTG:
+Vars:
+3
+r2 1 14 
+$r1 1 9 
+r0 1 -1 
+Fields: 2
+9 ArrayObject 14
+-1 parents 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.find([CLorg/eclipse/jdt/internal/compiler/ast/Initializer;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;I[[CLorg/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder$UnresolvedReferenceNameRequestor;)V
+PTG:
+Vars:
+7
+r2 1 -4 
+r1 1 -2 
+r0 1 -1 
+r5 1 -7 
+r6 1 19 
+r4 1 -6 
+r3 1 -3 
+Fields: 0
+Accesses: 1
+5 1 -3 
+Functions: 2
+0 5 -1 -2 -4 -6 -7 
+30 3 -1 19 -4 
+Constructors: 0
+
+Summary: 7
+-1 -7 19 -4 -6 -3 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.visit(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 2 -1 -2 
+7 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.popParent()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.endVisit(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 2
+1 1 -2 
+5 1 -2 
+Functions: 2
+9 1 -1 
+13 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.findAfter([CLorg/eclipse/jdt/internal/compiler/lookup/Scope;IIIZ[[CLorg/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder$UnresolvedReferenceNameRequestor;)Lorg/eclipse/jdt/internal/compiler/ast/MethodDeclaration;
+PTG:
+Vars:
+21
+$r8 1 109 
+r18 1 -2 
+$r17 1 7 
+$r19 1 109 
+$r4 1 7 
+r1 1 -9 
+r13 1 -8 
+$r3 1 7 
+r11 1 146 
+$r14 1 174 
+$r2 1 7 
+$r16 1 7 
+r0 1 -1 
+$r12 1 109 
+_ret 1 146 
+$r9 1 137 
+$r6 1 7 
+$r5 1 58 
+$r10 1 140 
+r7 1 -3 
+$r15 1 7 
+Fields: 4
+-1 completionScanner 7
+-1 parser 109
+7 lineEnds 58
+137 referenceContext 140
+Accesses: 18
+3 1 -1 
+6 1 -1 
+38 1 -1 
+39 1 7 
+168 1 -1 
+137 1 137 
+11 1 7 
+108 1 -1 
+49 1 -1 
+177 1 -1 
+19 1 -1 
+148 1 -1 
+54 1 -1 
+118 1 -1 
+55 1 7 
+62 1 -1 
+31 1 -1 
+63 1 7 
+Functions: 9
+66 1 58 
+50 2 7 58 
+35 2 7 58 
+115 1 109 
+119 2 140 109 
+136 1 -3 
+152 1 109 
+155 5 -1 7 -8 58 109 
+28 2 7 58 
+Constructors: 0
+
+Summary: 10
+-8 6 1 7 -3 -1 137 0 -2 140 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.pushParent(Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;)V
+PTG:
+Vars:
+6
+r3 1 -2 
+$r5 1 1 
+$r4 1 25 
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 parents 1
+Accesses: 7
+0 1 -1 
+16 1 -1 
+49 1 -1 
+37 1 -1 
+6 1 -1 
+41 1 -1 
+29 1 -1 
+Functions: 1
+34 2 1 25 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/codeassist/UnresolvedReferenceNameFinder.visit(Lorg/eclipse/jdt/internal/compiler/ast/MethodDeclaration;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)Z
+PTG:
+Vars:
+5
+r1 1 -2 
+$r3 1 18 
+$r2 1 2 
+r4 1 -3 
+r0 1 -1 
+Fields: 2
+-2 arguments 2
+-2 statements 18
+Accesses: 6
+1 1 -2 
+17 1 -2 
+5 1 -2 
+21 1 -2 
+9 1 -2 
+25 1 -2 
+Functions: 3
+34 4 -1 -2 2 18 
+13 2 -1 2 
+29 2 -1 18 
+Constructors: 0
+
+Summary: 7
+-1 1 2 -3 18 0 -2 

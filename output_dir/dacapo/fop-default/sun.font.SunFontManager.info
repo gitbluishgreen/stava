@@ -1,0 +1,4276 @@
+116
+sun/font/SunFontManager.usingAlternateCompositeFonts()Z
+PTG:
+Vars:
+3
+$r1 1 14 
+$r2 1 19 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+-1 0 
+14 1 14 
+Constructors: 0
+
+Summary: 3
+19 14 -1 
+sun/font/SunFontManager.registerCompositeFont(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;I[I[IZ)V
+PTG:
+Vars:
+9
+r1 1 -2 
+r5 1 -7 
+r4 1 -6 
+r6 1 -1 
+r3 1 -4 
+$r0 1 0 
+$r8 1 29 
+r2 1 -3 
+$r10 1 29 
+Fields: 1
+-1 compFonts 29
+Accesses: 4
+48 1 -1 
+36 1 -1 
+40 1 -1 
+28 1 -1 
+Functions: 2
+16 8 0 -1 -2 -3 -4 -6 -7 29 
+25 3 -1 0 29 
+Constructors: 1
+16 0
+
+Summary: 6
+-2 -4 -7 -6 -3 -1 
+sun/font/SunFontManager.addToPool(Lsun/font/FileFont;)V
+PTG:
+Vars:
+10
+$r10 1 43 
+r4 1 -2 
+$r1 1 5 
+$r9 1 5 
+$r7 1 5 
+$r3 1 5 
+r13 1 84 
+$r8 1 28 
+$r5 1 5 
+r0 1 -1 
+Fields: 4
+5 ArrayObject 43
+5 ArrayObject 84
+5 ArrayObject 28
+-1 fontFileCache 5
+Accesses: 10
+64 1 -1 
+96 1 -1 
+4 1 -1 
+37 1 -1 
+85 1 -1 
+22 1 -1 
+89 1 -1 
+105 1 -1 
+75 1 -1 
+79 1 -1 
+Functions: 1
+127 1 84 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.isRegisteredFontFile(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 registeredFonts 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/font/SunFontManager.logPlatformFontInfo()V
+PTG:
+Vars:
+50
+$r16 1 272 
+$r26 1 196 
+$r33 1 51 
+$r40 1 8 
+r1 1 -1 
+$r43 1 38 
+r44 1 62 
+$r11 1 251 
+$r3 1 51 
+r47 1 152 
+$r28 1 73 
+$r38 1 16 
+$r21 1 176 
+$r17 1 275 
+r45 1 73 
+$r42 1 35 
+$r8 1 212 
+$r13 1 261 
+$r23 1 130 
+$r29 1 83 
+$r41 1 34 
+$r37 1 120 
+$r4 1 54 
+$r24 1 190 
+r0 1 3 
+$r22 1 182 
+$r39 1 26 
+$r12 1 255 
+$r6 1 133 
+$r7 1 209 
+$r36 1 117 
+$r5 1 130 
+$r31 1 97 
+$r27 1 199 
+$r25 1 190 
+$r35 1 111 
+$r10 1 241 
+$r14 1 209 
+$r9 1 231 
+$r34 1 111 
+$r15 1 269 
+r48 1 220 
+$r20 1 172 
+r46 1 141 
+$r30 1 93 
+$r32 1 103 
+$r19 1 162 
+$r2 1 8 
+r49 1 231 
+$r18 1 152 
+Fields: 5
+8 ArrayObject 34
+-1 fontToFamilyNameMap 130
+-1 fontToFileMap 51
+-1 pathDirs 8
+-1 familyToFontListMap 209
+Accesses: 8
+208 1 -1 
+129 1 -1 
+50 1 -1 
+7 1 -1 
+264 1 -1 
+185 1 -1 
+106 1 -1 
+29 1 -1 
+Functions: 42
+0 0 
+130 1 130 
+196 1 196 
+133 1 133 
+261 2 261 269 
+72 1 62 
+265 2 209 231 
+202 2 3 199 
+142 1 141 
+16 1 16 
+272 1 272 
+209 1 209 
+83 1 83 
+20 1 16 
+212 1 212 
+278 2 3 275 
+87 1 83 
+151 1 141 
+26 2 34 26 
+93 2 73 93 
+221 1 220 
+97 1 97 
+162 1 162 
+35 1 35 
+166 1 162 
+230 1 220 
+103 2 103 111 
+41 2 3 38 
+107 2 51 73 
+172 2 152 172 
+176 1 176 
+241 1 241 
+51 1 51 
+117 1 117 
+245 1 241 
+54 1 54 
+182 2 182 190 
+186 2 130 152 
+123 2 3 120 
+251 2 231 251 
+63 1 62 
+255 1 255 
+Constructors: 4
+20 16
+245 241
+166 162
+87 83
+
+Summary: 36
+172 255 97 120 196 272 38 241 212 182 152 220 54 190 16 62 251 176 93 199 275 3 26 117 -1 261 231 162 133 269 35 83 103 73 141 111 
+sun/font/SunFontManager.getPlatformFontDirs(Z)[Ljava/lang/String;
+PTG:
+Vars:
+13
+$r1 1 1 
+$r10 1 71 
+$r6 1 30 
+$r3 1 18 
+$r12 1 49 
+$r11 1 1 
+_ret 1 1 
+$r14 1 -1 
+r0 1 -1 
+$r9 1 71 
+r2 1 17 
+$r4 1 23 
+$r8 1 68 
+Fields: 1
+-1 pathDirs 1
+Accesses: 4
+0 1 -1 
+80 1 -1 
+7 1 -1 
+77 1 -1 
+Functions: 7
+48 1 18 
+65 2 68 30 
+34 1 30 
+52 2 49 30 
+39 1 18 
+26 3 17 18 23 
+12 2 -1 1 
+Constructors: 2
+34 30
+26 18
+
+Summary: 6
+17 49 30 68 -1 18 
+sun/font/SunFontManager.findJREDeferredFont(Ljava/lang/String;I)Lsun/font/PhysicalFont;
+PTG:
+Vars:
+47
+$r24 1 149 
+$r18 1 75 
+$r8 1 27 
+$r9 1 32 
+r29 1 214 
+$r31 1 230 
+$r27 1 198 
+$r39 1 75 
+r6 1 24 
+$r33 1 45 
+$r25 1 188 
+$r41 1 99 
+r7 1 -1 
+$r40 1 80 
+$r3 1 11 
+$r12 1 149 
+$r14 1 149 
+$r13 1 149 
+r30 1 221 
+r45 1 32 
+$r19 1 168 
+$r15 1 344 
+r50 1 313 
+$r22 1 271 
+$r23 1 271 
+$r5 1 18 
+$r17 1 155 
+r1 1 -2 
+$r2 1 8 
+r20 1 174 
+$r37 1 61 
+$r35 1 55 
+$r36 1 58 
+$r10 1 141 
+$r16 1 356 
+$r32 1 141 
+r47 1 92 
+$r49 1 149 
+r51 1 337 
+r26 1 188 
+r46 1 72 
+$r34 1 52 
+$r4 1 14 
+$r42 1 111 
+$r21 1 268 
+$r0 1 0 
+$r38 1 66 
+Fields: 5
+-1 jreOtherFontFiles 149
+-1 deferredFontFiles 75
+-1 jreLucidaFontFiles 141
+-1 jreFontMap 27
+149 ArrayObject 313
+Accesses: 15
+290 1 -1 
+131 1 -1 
+323 1 -1 
+164 1 -1 
+74 1 -1 
+298 1 -1 
+140 1 -1 
+366 1 337 
+239 1 -1 
+306 1 -1 
+148 1 -1 
+277 1 -1 
+280 1 -1 
+121 1 92 
+26 1 -1 
+Functions: 34
+0 2 0 11 
+66 1 66 
+258 2 155 188 
+4 1 0 
+7 2 -2 8 
+266 2 155 268 
+75 2 72 75 
+331 6 -1 149 313 75 27 141 
+204 2 198 188 
+14 1 14 
+209 1 198 
+18 1 18 
+86 7 -1 149 72 313 75 27 141 
+342 1 337 
+216 1 198 
+344 2 -2 344 
+27 2 24 27 
+159 1 155 
+97 1 92 
+354 1 337 
+99 2 -2 99 
+228 2 214 230 
+356 2 -2 356 
+165 1 75 
+168 1 168 
+45 2 52 45 
+109 1 92 
+111 2 -2 111 
+176 1 174 
+240 2 141 221 
+49 1 45 
+55 2 55 58 
+186 1 174 
+61 2 32 61 
+Constructors: 4
+49 45
+4 0
+204 198
+159 155
+
+Summary: 25
+14 0 188 155 -2 174 61 99 356 24 168 32 221 55 214 18 -1 11 72 344 80 45 111 198 66 
+sun/font/SunFontManager.registerFontFile(Ljava/lang/String;[Ljava/lang/String;IZI)Lsun/font/PhysicalFont;
+PTG:
+Vars:
+31
+$r3 1 5 
+$r15 1 195 
+$r24 1 220 
+r0 1 -1 
+r1 1 -2 
+$r10 1 167 
+$r14 1 190 
+_ret 3 89 156 132 
+r32 3 89 156 132 
+$r27 1 236 
+$r16 1 200 
+$r22 1 -1 
+$r29 1 246 
+$r18 1 113 
+$r20 1 63 
+$r12 1 180 
+r4 1 5 
+$r11 1 176 
+$r13 1 185 
+$r30 1 249 
+$r31 1 252 
+r33 1 89 
+$r17 1 203 
+$r25 1 223 
+$r7 1 1 
+$r9 1 164 
+$r5 1 137 
+$r2 1 1 
+r19 1 -3 
+$r28 1 241 
+$r26 1 232 
+Fields: 1
+-1 registeredFonts 1
+Accesses: 2
+0 1 -1 
+268 1 -1 
+Functions: 28
+-1 0 
+1 2 1 -2 
+195 1 195 
+200 1 200 
+76 3 -2 -3 63 
+206 2 164 203 
+143 2 -2 137 
+81 3 -1 1 63 
+275 5 1 -2 132 89 156 
+148 3 -1 1 137 
+158 0 
+223 1 223 
+227 1 223 
+102 1 63 
+167 1 167 
+232 2 -2 232 
+171 1 167 
+236 1 236 
+176 2 176 -2 
+241 2 241 246 
+180 1 180 
+244 1 -1 
+119 3 113 -2 -3 
+185 4 132 185 89 156 
+249 1 249 
+124 3 -1 1 113 
+190 1 190 
+255 2 220 252 
+Constructors: 5
+227 223
+119 113
+171 167
+76 63
+143 137
+
+Summary: 24
+89 167 180 195 223 241 203 -3 249 -2 137 220 190 236 113 176 252 63 185 -1 200 246 164 232 
+sun/font/SunFontManager.access$502(Lsun/font/SunFontManager;Lsun/awt/FontConfiguration;)Lsun/awt/FontConfiguration;
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -3 
+_ret 1 -3 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 1 
+sun/font/SunFontManager.getFileNameFromPlatformName(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r3 1 5 
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+_ret 1 5 
+Fields: 1
+-1 fontConfig 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/font/SunFontManager.access$1302(Lsun/font/SunFontManager;Z)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/font/SunFontManager.access$200()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 0
+
+sun/font/SunFontManager.useAlternateFontforJALocales()V
+PTG:
+Vars:
+5
+$r2 1 40 
+r0 1 38 
+$r4 1 6 
+$r1 1 43 
+r5 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+35 0 
+12 1 6 
+46 3 38 40 43 
+Constructors: 0
+
+Summary: 3
+6 38 -1 
+sun/font/SunFontManager.getSystemStartupLocale()Ljava/util/Locale;
+PTG:
+Vars:
+6
+$r4 1 13 
+$r0 1 0 
+$r2 1 6 
+$r1 1 22 
+$r3 1 13 
+_ret 1 22 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+6 
+sun/font/SunFontManager.getFontFilesFromPath(Z)[Ljava/lang/String;
+PTG:
+Vars:
+8
+$r0 1 11 
+$r1 1 20 
+r2 1 -1 
+$r3 1 29 
+$r5 1 29 
+r6 2 11 7 
+$r4 1 29 
+_ret 1 29 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 1 11 
+20 1 20 
+26 4 -1 20 7 11 
+Constructors: 2
+16 11
+26 20
+
+Summary: 3
+11 20 -1 
+sun/font/SunFontManager.gotFontsFromPlatform()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+sun/font/SunFontManager.access$1000(Lsun/font/SunFontManager;)[Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-2 pathDirs 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/font/SunFontManager.initDefaultFonts()V
+PTG:
+Vars:
+8
+$r5 1 36 
+r0 1 -1 
+$r3 1 30 
+$r7 1 44 
+$r2 1 27 
+$r4 1 33 
+$r1 1 20 
+$r6 1 41 
+Fields: 2
+-1 defaultFontName 9
+-1 defaultFontFileName 56
+Accesses: 3
+56 1 -1 
+9 1 -1 
+47 1 -1 
+Functions: 7
+-1 0 
+20 2 20 27 
+36 1 36 
+24 1 20 
+41 1 41 
+12 3 -1 56 9 
+30 2 33 30 
+Constructors: 1
+24 20
+
+Summary: 5
+36 20 41 30 -1 
+sun/font/SunFontManager.getDefaultFontFaceName()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 defaultFontName 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.replaceFont(Lsun/font/PhysicalFont;Lsun/font/PhysicalFont;)V
+PTG:
+Vars:
+35
+$r18 1 164 
+r0 1 -2 
+$r34 1 225 
+$r19 1 167 
+$r15 1 264 
+$r11 1 138 
+$r1 1 1 
+$r2 1 4 
+$r8 1 135 
+$r17 1 160 
+$r10 1 128 
+$r5 1 120 
+$r22 1 193 
+$r31 1 43 
+$r23 1 205 
+r38 2 76 -3 
+$r21 1 192 
+$r9 1 120 
+$r14 1 260 
+$r32 1 -1 
+r4 1 -1 
+$r29 1 36 
+$r20 1 167 
+r40 1 167 
+$r6 1 116 
+$r35 1 150 
+$r27 1 23 
+$r36 1 226 
+$r30 1 40 
+$r16 1 150 
+$r28 1 26 
+$r13 1 150 
+$r26 1 67 
+r39 1 53 
+$r3 1 1 
+Fields: 13
+53 ArrayObject 67
+53 ArrayObject 76
+-2 fullName 120
+-2 handle 1
+167 ArrayObject 205
+167 ArrayObject 192
+167 ArrayObject 225
+1 font2D 4
+260 ArrayObject 264
+-1 localeFullNamesToFont 150
+-1 physicalFonts 116
+-1 fullNameToFont 128
+-1 compFonts 260
+Accesses: 13
+0 1 -2 
+1 1 1 
+131 1 -2 
+259 1 -1 
+107 1 -2 
+112 1 1 
+115 1 -1 
+244 1 -1 
+149 1 -1 
+119 1 -2 
+218 1 -1 
+156 1 -1 
+127 1 -1 
+Functions: 20
+-1 0 
+160 2 160 164 
+192 1 192 
+225 1 225 
+36 5 -2 1 36 4 120 
+132 2 135 120 
+103 0 
+231 2 226 150 
+40 1 40 
+267 7 -2 1 -3 4 264 120 76 
+141 2 128 138 
+46 2 23 43 
+207 3 -3 76 205 
+49 6 -1 128 116 260 150 264 
+146 4 -2 1 4 120 
+26 1 26 
+123 2 116 120 
+251 2 -3 76 
+157 1 150 
+30 1 26 
+Constructors: 1
+30 26
+
+Summary: 22
+36 164 225 97 120 67 226 53 -2 23 167 1 205 160 26 138 40 192 -1 193 4 43 
+sun/font/SunFontManager.registerFontDirs(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/font/SunFontManager.access$302(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/font/SunFontManager.loadLocaleNames()V
+PTG:
+Vars:
+13
+$r9 1 102 
+$r1 1 1 
+$r8 1 86 
+$r2 1 9 
+r0 1 -1 
+$r4 1 34 
+r6 1 43 
+r13 1 92 
+r3 1 23 
+r7 1 52 
+$r11 1 1 
+$r5 1 43 
+$r10 1 73 
+Fields: 5
+23 ArrayObject 34
+23 ArrayObject 43
+52 ArrayObject 73
+43 familyName 86
+-1 localeFullNamesToFont 1
+Accesses: 4
+0 1 -1 
+16 1 -1 
+65 1 -1 
+85 1 43 
+Functions: 7
+48 2 86 43 
+19 2 -1 1 
+101 2 86 43 
+86 1 86 
+105 2 102 92 
+75 4 1 86 73 43 
+13 1 9 
+Constructors: 1
+13 9
+
+Summary: 9
+34 102 23 52 86 73 43 92 -1 
+sun/font/SunFontManager.getDefaultFontFile()Ljava/lang/String;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 defaultFontFileName 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.register1dot0Fonts()V
+PTG:
+Vars:
+2
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 2 0 -1 
+8 1 0 
+Constructors: 1
+5 0
+
+Summary: 2
+0 -1 
+sun/font/SunFontManager.getDefaultPhysicalFont()Lsun/font/PhysicalFont;
+PTG:
+Vars:
+15
+r0 1 -1 
+$r6 1 52 
+$r2 1 13 
+$r13 1 35 
+$r11 1 75 
+$r3 1 13 
+$r4 1 1 
+$r7 1 55 
+_ret 1 1 
+$r12 1 35 
+$r10 1 75 
+$r1 1 1 
+$r5 1 1 
+$r14 1 1 
+r8 1 63 
+Fields: 2
+-1 physicalFonts 52
+-1 defaultPhysicalFont 1
+Accesses: 8
+0 1 -1 
+19 1 -1 
+51 1 -1 
+83 1 -1 
+99 1 -1 
+22 1 -1 
+41 1 -1 
+44 1 -1 
+Functions: 7
+64 1 63 
+52 1 52 
+55 1 55 
+8 3 -1 1 52 
+74 1 63 
+30 3 -1 1 52 
+95 0 
+Constructors: 0
+
+Summary: 3
+55 63 -1 
+sun/font/SunFontManager.getCreatedFontFamilyNames()Ljava/util/TreeMap;
+PTG:
+Vars:
+16
+$r7 1 60 
+r8 1 68 
+$r12 1 126 
+r0 1 -1 
+r10 1 82 
+$r1 1 27 
+$r2 1 30 
+r18 1 45 
+r16 2 30 11 
+r11 1 119 
+$r14 1 -1 
+$r9 1 82 
+$r5 1 50 
+r19 2 111 98 
+r17 1 25 
+r3 2 30 11 
+Fields: 1
+-1 createdByFamilyName 11
+Accesses: 3
+0 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 13
+131 3 50 119 126 
+70 1 68 
+105 1 82 
+42 0 
+80 1 68 
+113 3 98 45 111 
+22 0 
+54 1 50 
+26 2 25 27 
+59 2 11 30 
+123 2 119 45 
+60 1 60 
+92 1 82 
+Constructors: 1
+54 50
+
+Summary: 10
+119 25 82 60 -1 45 98 68 111 126 
+sun/font/SunFontManager.getDefaultLogicalFont(I)Lsun/font/Font2D;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 5 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.registerFontsInDir(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/font/SunFontManager.<clinit>()V
+PTG:
+Vars:
+9
+$r7 1 69 
+$r8 1 87 
+$r9 1 97 
+$r0 1 4 
+$r2 1 27 
+$r6 1 59 
+$r1 1 15 
+$r5 1 49 
+$r3 1 38 
+Fields: 0
+Accesses: 0
+Functions: 9
+20 1 15 
+53 1 49 
+101 1 97 
+9 1 4 
+73 1 69 
+42 1 38 
+91 1 87 
+45 1 38 
+63 1 59 
+Constructors: 8
+20 15
+53 49
+101 97
+9 4
+73 69
+42 38
+91 87
+63 59
+
+Summary: 0
+
+sun/font/SunFontManager.usingPerAppContextComposites()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.registerOtherFontFiles(Ljava/util/HashSet;)V
+PTG:
+Vars:
+8
+r4 1 23 
+r0 1 -1 
+$r5 1 34 
+$r2 1 12 
+r8 1 -2 
+$r1 1 1 
+$r3 1 15 
+r6 1 34 
+Fields: 1
+-1 fontToFileMap 12
+Accesses: 1
+11 1 -1 
+Functions: 7
+0 2 -1 12 
+1 1 1 
+33 1 23 
+24 1 23 
+12 1 12 
+45 3 -1 34 12 
+15 1 15 
+Constructors: 0
+
+Summary: 6
+34 -2 15 23 1 -1 
+sun/font/SunFontManager.getRegisteredFonts()[Lsun/font/Font2D;
+PTG:
+Vars:
+5
+r2 1 14 
+$r3 1 19 
+r1 1 4 
+r0 1 -1 
+_ret 1 14 
+Fields: 1
+-1 compFonts 19
+Accesses: 2
+18 1 -1 
+5 1 -1 
+Functions: 3
+0 2 -1 19 
+35 2 4 14 
+26 2 19 14 
+Constructors: 0
+
+Summary: 2
+4 -1 
+sun/font/SunFontManager.findFont2DAllLocales(Ljava/lang/String;I)Lsun/font/Font2D;
+PTG:
+Vars:
+19
+$r5 1 33 
+$r10 1 19 
+r21 1 182 
+$r1 1 33 
+r3 1 47 
+r18 1 101 
+r20 1 166 
+$r9 1 9 
+$r11 1 23 
+r15 1 55 
+_ret 1 101 
+$r8 1 6 
+r2 1 -2 
+$r12 1 26 
+$r6 1 101 
+r19 1 153 
+r0 1 -1 
+r16 2 68 81 
+$r7 1 147 
+Fields: 1
+-1 localeFullNamesToFont 33
+Accesses: 3
+32 1 -1 
+96 1 -1 
+128 1 101 
+Functions: 17
+-1 0 
+160 1 153 
+97 2 33 -2 
+40 2 -1 33 
+9 1 9 
+43 1 -2 
+75 1 55 
+13 1 9 
+144 1 101 
+176 1 153 
+19 2 -2 19 
+51 1 47 
+147 1 147 
+23 1 23 
+29 2 6 26 
+189 1 182 
+62 1 55 
+Constructors: 1
+13 9
+
+Summary: 11
+9 153 0 6 55 26 147 19 -2 23 47 
+sun/font/SunFontManager.resolveFontFiles(Ljava/util/HashSet;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+25
+r9 1 -3 
+$r15 1 157 
+r0 1 3 
+$r25 1 76 
+$r26 1 97 
+$r19 1 49 
+$r23 1 70 
+r4 1 22 
+$r13 1 142 
+r1 1 -2 
+$r24 1 -1 
+$r10 1 115 
+r2 1 8 
+r8 1 103 
+$r16 1 163 
+$r3 1 22 
+$r12 1 139 
+$r14 1 152 
+r5 1 -1 
+$r21 1 62 
+$r22 1 67 
+$r17 1 168 
+$r20 1 52 
+$r18 1 171 
+r6 1 41 
+Fields: 1
+-1 fontToFileMap 115
+Accesses: 1
+114 1 -1 
+Functions: 25
+0 0 
+-1 0 
+129 2 -3 103 
+67 1 67 
+4 1 -2 
+73 2 49 70 
+10 1 8 
+142 1 142 
+146 1 142 
+20 1 8 
+152 2 103 152 
+89 2 41 76 
+157 1 157 
+94 2 3 76 
+97 1 97 
+35 3 -1 115 22 
+163 2 163 41 
+168 1 168 
+105 2 -3 103 
+174 2 139 171 
+179 1 76 
+52 1 52 
+56 1 52 
+122 3 115 22 103 
+62 2 41 62 
+Constructors: 3
+146 142
+56 52
+89 76
+
+Summary: 24
+157 97 52 67 -3 22 -2 8 142 152 76 168 62 70 0 1 3 139 41 -1 49 163 103 171 
+sun/font/SunFontManager.getNewComposite(Ljava/lang/String;ILsun/font/Font2DHandle;)Lsun/font/Font2DHandle;
+PTG:
+Vars:
+14
+r13 2 -2 39 
+r8 1 84 
+$r1 1 1 
+$r7 1 84 
+r5 1 -1 
+_ret 1 112 
+r4 1 27 
+r3 1 1 
+r14 2 27 58 
+r0 1 -4 
+$r9 1 99 
+r6 2 27 58 
+$r2 1 1 
+$r11 1 112 
+Fields: 1
+-4 font2D 1
+Accesses: 2
+0 1 -4 
+12 1 -4 
+Functions: 7
+33 1 27 
+51 3 -1 -2 39 
+21 1 1 
+118 2 112 99 
+107 4 99 84 58 27 
+45 1 1 
+79 1 -1 
+Constructors: 2
+118 112
+107 99
+
+Summary: 7
+-2 99 27 84 39 58 -1 
+sun/font/SunFontManager.fontSupportsEncoding(Ljava/awt/Font;Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r2 1 -3 
+$r1 1 1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+1 2 1 -3 
+Constructors: 0
+
+Summary: 3
+-2 1 -3 
+sun/font/SunFontManager.useAbsoluteFontFileNames()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.isNameForRegisteredFile(Ljava/lang/String;)Z
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 13 
+r0 1 -1 
+r2 1 5 
+Fields: 1
+-1 registeredFontFiles 13
+Accesses: 1
+12 1 -1 
+Functions: 2
+0 3 -1 -2 13 
+13 2 5 13 
+Constructors: 0
+
+Summary: 4
+-2 0 5 -1 
+sun/font/SunFontManager.getInstalledFontFamilyNames(Ljava/util/Locale;)[Ljava/lang/String;
+PTG:
+Vars:
+33
+r36 1 126 
+$r15 1 190 
+$r35 1 115 
+$r13 1 274 
+$r33 1 101 
+$r1 1 9 
+r32 1 98 
+$r12 1 273 
+$r26 1 59 
+r39 1 173 
+_ret 1 237 
+$r20 1 16 
+r30 1 84 
+r28 1 70 
+r24 2 -2 7 
+$r17 1 212 
+$r31 1 87 
+$r9 1 306 
+$r10 1 9 
+$r38 1 138 
+r41 1 237 
+$r19 1 16 
+$r14 1 274 
+$r11 1 9 
+$r7 1 243 
+$r16 1 201 
+r0 1 -1 
+$r37 1 129 
+r42 1 251 
+$r29 1 73 
+r34 1 112 
+$r8 1 288 
+r40 1 206 
+Fields: 5
+173 ArrayObject 201
+173 ArrayObject 190
+-1 lastDefaultLocale 16
+-1 allFamilies 9
+251 ArrayObject 273
+Accesses: 10
+320 1 -1 
+33 1 -1 
+49 1 -1 
+309 1 -1 
+23 1 -1 
+8 1 -1 
+42 1 -1 
+299 1 -1 
+315 1 -1 
+15 1 -1 
+Functions: 31
+128 1 126 
+-1 0 
+4 0 
+133 2 129 59 
+325 2 9 237 
+72 1 70 
+137 3 -2 7 138 
+201 3 -2 7 201 
+138 0 
+268 2 273 59 
+77 2 73 59 
+209 3 -2 7 206 
+147 6 -1 16 -2 7 9 59 
+22 3 16 -2 7 
+86 1 84 
+217 3 212 59 206 
+91 2 87 59 
+159 6 -1 16 -2 7 9 59 
+287 3 288 -2 7 
+100 1 98 
+166 3 -1 16 9 
+230 6 -1 16 -2 7 9 59 
+105 2 101 59 
+169 3 -1 16 9 
+233 1 59 
+114 1 112 
+242 1 59 
+243 1 243 
+54 0 
+119 2 115 59 
+63 1 59 
+Constructors: 1
+63 59
+
+Summary: 17
+59 173 129 212 288 273 190 243 115 251 138 206 101 -1 87 201 73 
+sun/font/SunFontManager.getRegisteredFontFile(Ljava/lang/String;)Lsun/font/PhysicalFont;
+PTG:
+Vars:
+6
+$r4 1 5 
+r1 1 -2 
+r0 1 -1 
+$r3 1 5 
+_ret 1 5 
+$r2 1 1 
+Fields: 1
+-1 registeredFonts 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/font/SunFontManager.registerFontsInDir(Ljava/lang/String;ZIZZ)V
+PTG:
+Vars:
+5
+$r0 1 0 
+$r4 1 14 
+r3 1 -1 
+r1 1 -2 
+$r5 1 41 
+Fields: 0
+Accesses: 0
+Functions: 3
+34 4 -1 0 -2 14 
+5 2 0 -2 
+61 4 -1 0 -2 41 
+Constructors: 1
+5 0
+
+Summary: 3
+-2 0 -1 
+sun/font/SunFontManager.getTrueTypeFilter()Ljava/io/FilenameFilter;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.findFontFromPlatform(Ljava/lang/String;I)Lsun/font/Font2D;
+PTG:
+Vars:
+44
+$r7 1 140 
+r14 1 314 
+$r15 1 344 
+r45 1 184 
+$r16 1 272 
+r41 2 120 22 
+_ret 2 408 395 
+r40 1 40 
+$r9 1 143 
+$r11 1 299 
+$r13 1 314 
+$r20 1 192 
+r0 1 -1 
+r42 2 60 75 
+r44 1 143 
+$r34 1 36 
+$r5 1 71 
+r47 1 282 
+r49 2 408 395 
+$r19 1 36 
+$r4 1 22 
+r50 1 369 
+$r30 1 101 
+$r1 1 1 
+r43 1 107 
+$r37 1 49 
+$r17 1 178 
+$r33 1 120 
+$r31 1 95 
+$r3 1 18 
+r48 1 306 
+r46 1 192 
+$r29 1 95 
+$r10 1 300 
+$r36 1 54 
+$r39 1 60 
+$r8 1 143 
+$r38 1 57 
+$r18 1 177 
+$r32 1 18 
+$r35 1 40 
+$r6 1 75 
+$r12 1 36 
+r2 1 -2 
+Fields: 6
+143 ArrayObject 299
+143 ArrayObject 177
+-1 fontToFamilyNameMap 18
+-1 fontToFileMap 36
+-1 familyToFontListMap 49
+-1 familyToFontListMap 71
+Accesses: 8
+48 1 -1 
+17 1 -1 
+114 1 -1 
+35 1 -1 
+308 1 -1 
+70 1 -1 
+377 1 282 
+186 1 -1 
+Functions: 32
+0 5 -1 49 18 36 71 
+-1 0 
+1 1 1 
+389 1 369 
+71 2 -2 71 
+327 2 40 314 
+139 3 75 60 140 
+268 6 -1 272 49 18 36 71 
+269 6 -1 49 18 36 71 40 
+18 2 -2 18 
+402 1 369 
+341 6 -1 49 18 36 71 314 
+86 2 75 60 
+214 0 
+218 0 
+93 2 75 60 
+351 6 -1 49 18 36 71 344 
+224 0 
+98 2 101 95 
+36 2 -2 36 
+232 0 
+299 2 299 300 
+364 2 22 120 
+238 2 22 120 
+49 2 49 57 
+177 2 177 178 
+115 2 18 107 
+243 0 
+52 3 22 54 120 
+309 2 306 36 
+249 0 
+187 2 36 184 
+Constructors: 0
+
+Summary: 32
+369 120 22 211 214 60 75 143 -2 272 408 1 107 243 0 40 282 184 177 192 -1 238 306 57 344 95 231 299 246 314 224 232 
+sun/font/SunFontManager.addDirFonts(Ljava/lang/String;Ljava/io/File;Ljava/io/FilenameFilter;IZIZZ)V
+PTG:
+Vars:
+49
+$r27 1 343 
+$r10 1 135 
+$r32 1 135 
+$r16 1 232 
+$r23 1 358 
+$r14 1 217 
+$r26 1 336 
+r46 2 77 117 
+$r31 1 269 
+$r7 1 58 
+$r50 1 384 
+$r15 1 227 
+$r20 1 295 
+$r9 1 120 
+r49 3 308 350 275 
+$r12 1 205 
+$r13 1 208 
+$r19 1 289 
+$r43 1 110 
+$r33 1 159 
+r4 1 30 
+$r44 1 111 
+$r30 1 263 
+$r24 1 321 
+$r18 1 280 
+r1 1 -4 
+$r36 1 177 
+r48 1 238 
+$r21 1 301 
+$r25 1 330 
+r3 1 22 
+$r6 1 49 
+$r37 1 180 
+$r34 1 162 
+r2 1 5 
+$r29 1 254 
+r39 1 -2 
+$r40 1 97 
+$r35 1 172 
+$r28 1 344 
+$r45 1 -1 
+$r42 1 103 
+r0 1 -3 
+$r38 1 89 
+r5 1 -1 
+$r22 1 302 
+r17 1 247 
+$r11 1 120 
+$r41 1 100 
+Fields: 6
+5 ArrayObject 58
+5 ArrayObject 110
+247 ArrayObject 343
+247 ArrayObject 301
+-1 badFonts 135
+-1 registeredFontFiles 120
+Accesses: 4
+134 1 -1 
+119 1 -1 
+141 1 -1 
+189 1 -1 
+Functions: 40
+0 2 -3 -4 
+-1 0 
+321 4 321 275 308 350 
+258 1 254 
+195 3 117 120 77 
+325 1 321 
+263 1 263 
+72 1 49 
+330 1 330 
+205 2 208 205 
+269 1 269 
+142 3 117 135 77 
+336 2 336 343 
+280 2 280 238 
+344 1 344 
+89 2 -2 89 
+217 1 217 
+409 5 -1 22 135 120 30 
+284 1 280 
+93 1 89 
+221 1 217 
+97 2 97 100 
+289 1 289 
+162 1 162 
+227 3 227 117 77 
+166 1 162 
+103 2 103 110 
+295 2 295 301 
+232 1 232 
+363 4 275 308 358 350 
+172 3 117 172 77 
+302 1 302 
+111 1 111 
+240 5 -1 117 135 120 77 
+177 1 177 
+183 2 180 159 
+120 3 117 120 77 
+59 3 49 -3 58 
+380 5 -1 117 135 120 77 
+254 2 254 238 
+Constructors: 7
+258 254
+325 321
+166 162
+59 49
+284 280
+93 89
+221 217
+
+Summary: 46
+254 180 301 302 227 30 77 321 350 343 1 177 117 -1 336 110 162 269 103 232 172 308 -4 217 263 97 -3 22 -2 159 295 205 49 289 0 275 358 238 89 344 5 330 280 111 58 247 
+sun/font/SunFontManager.initCompositeFonts(Lsun/awt/FontConfiguration;Ljava/util/concurrent/ConcurrentHashMap;)V
+PTG:
+Vars:
+29
+r0 1 -2 
+$r15 1 218 
+$r17 1 237 
+$r6 1 251 
+r3 1 155 
+$r12 1 301 
+r26 1 123 
+r27 1 141 
+$r9 1 283 
+r24 2 42 50 
+$r4 1 157 
+$r10 1 286 
+r25 1 97 
+$r21 1 202 
+r5 1 -3 
+r23 1 42 
+$r8 1 270 
+$r13 1 304 
+$r20 1 193 
+$r16 1 232 
+$r11 1 296 
+$r22 1 6 
+r2 1 -1 
+$r18 1 181 
+r1 1 24 
+$r7 1 265 
+$r14 1 307 
+r28 1 148 
+$r19 1 174 
+Fields: 3
+123 ArrayObject 141
+148 ArrayObject 181
+24 ArrayObject 42
+Accesses: 0
+Functions: 32
+-1 0 
+192 1 -1 
+258 1 141 
+263 1 141 
+201 1 -1 
+12 1 6 
+268 1 141 
+15 1 -2 
+143 1 141 
+274 7 -1 148 181 265 251 155 270 
+20 1 -2 
+86 2 -1 42 
+150 1 141 
+216 1 141 
+89 3 -1 50 42 
+286 1 286 
+225 1 141 
+290 1 286 
+230 1 141 
+296 2 296 301 
+106 4 -1 97 50 42 
+235 1 141 
+299 1 141 
+44 2 -1 42 
+174 2 181 174 
+304 1 304 
+242 7 -3 148 181 232 218 155 237 
+116 1 -1 
+310 2 307 283 
+119 1 -2 
+249 1 141 
+60 2 50 42 
+Constructors: 1
+290 286
+
+Summary: 25
+6 218 97 301 -3 181 -2 265 24 304 251 0 123 1 237 283 -1 155 42 148 50 307 141 232 270 
+sun/font/SunFontManager.getNumFonts()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 physicalFonts 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.populateFontFileNameMap(Ljava/util/HashMap;Ljava/util/HashMap;Ljava/util/HashMap;Ljava/util/Locale;)V
+PTG:
+Vars:
+5
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+r3 1 -4 
+r4 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-2 -4 -5 -3 -1 
+sun/font/SunFontManager.getCreatedFonts()[Ljava/awt/Font;
+PTG:
+Vars:
+15
+$r1 1 27 
+r0 1 -1 
+$r10 1 102 
+r14 2 30 11 
+r9 1 85 
+$r11 1 109 
+r15 1 25 
+r16 1 45 
+r5 1 54 
+r7 1 71 
+$r8 1 85 
+r3 2 30 11 
+$r2 1 30 
+$r12 1 -1 
+$r6 1 63 
+Fields: 1
+-1 createdByFullName 11
+Accesses: 3
+0 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 10
+50 2 11 30 
+114 2 102 109 
+83 1 71 
+22 0 
+73 1 71 
+26 2 25 27 
+42 0 
+106 2 85 45 
+62 2 11 30 
+63 1 63 
+Constructors: 1
+114 102
+
+Summary: 7
+85 25 63 71 109 -1 45 
+sun/font/SunFontManager.preferLocaleFonts()V
+PTG:
+Vars:
+13
+$r4 1 88 
+$r7 1 96 
+$r15 1 6 
+$r1 1 71 
+$r10 1 114 
+$r5 1 85 
+$r8 1 99 
+r0 1 69 
+$r3 1 77 
+r13 1 -1 
+$r2 1 74 
+$r14 1 44 
+$r9 1 102 
+Fields: 1
+-1 fontNameCache 44
+Accesses: 7
+51 1 -1 
+132 1 -1 
+39 1 -1 
+43 1 -1 
+28 1 -1 
+60 1 -1 
+47 1 -1 
+Functions: 10
+-1 0 
+66 0 
+70 2 69 71 
+118 1 114 
+55 2 -1 44 
+91 3 69 85 88 
+139 3 -1 114 44 
+12 1 6 
+126 2 114 69 
+95 2 96 69 
+Constructors: 1
+118 114
+
+Summary: 6
+6 74 114 -1 99 69 
+sun/font/SunFontManager.registerDeferredJREFonts(Ljava/lang/String;)V
+PTG:
+Vars:
+10
+r7 1 -2 
+$r2 1 4 
+$r8 1 33 
+r5 1 23 
+r3 1 12 
+r0 1 -1 
+$r1 1 1 
+$r4 1 23 
+$r6 1 33 
+$r9 1 33 
+Fields: 2
+23 fontFilePath 33
+-1 deferredFontFiles 1
+Accesses: 4
+0 1 -1 
+32 1 23 
+51 1 23 
+39 1 23 
+Functions: 6
+1 1 1 
+4 1 4 
+22 1 12 
+55 3 -1 1 33 
+40 2 33 -2 
+13 1 12 
+Constructors: 0
+
+Summary: 6
+-2 23 4 12 33 -1 
+sun/font/SunFontManager.getFullNameToFileMap()Ljava/util/HashMap;
+PTG:
+Vars:
+12
+$r10 1 1 
+$r4 1 32 
+$r9 1 1 
+r0 1 -1 
+$r3 1 19 
+$r1 1 1 
+$r6 1 70 
+$r8 1 63 
+$r2 1 12 
+_ret 1 1 
+$r5 1 45 
+$r7 1 67 
+Fields: 3
+-1 fontToFamilyNameMap 63
+-1 fontToFileMap 1
+-1 familyToFontListMap 67
+Accesses: 9
+0 1 -1 
+96 1 -1 
+66 1 -1 
+54 1 -1 
+41 1 -1 
+58 1 -1 
+28 1 -1 
+62 1 -1 
+15 1 -1 
+Functions: 8
+-1 0 
+51 1 45 
+83 4 -1 1 67 63 
+38 1 32 
+8 4 -1 1 67 63 
+25 1 19 
+73 5 -1 1 67 70 63 
+93 4 -1 1 67 63 
+Constructors: 3
+51 45
+38 32
+25 19
+
+Summary: 1
+-1 
+sun/font/SunFontManager.deRegisterBadFont(Lsun/font/Font2D;)V
+PTG:
+Vars:
+9
+$r3 1 46 
+r0 1 -2 
+$r8 1 34 
+r1 1 -1 
+$r4 1 14 
+$r5 1 17 
+$r6 1 27 
+$r7 1 31 
+$r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 8
+-1 0 
+17 1 17 
+49 3 -1 -2 46 
+21 1 17 
+37 2 34 14 
+27 2 -2 27 
+45 1 -1 
+31 1 31 
+Constructors: 1
+21 17
+
+Summary: 8
+34 -2 27 14 17 31 46 -1 
+sun/font/SunFontManager.addToFontList(Lsun/font/PhysicalFont;I)Lsun/font/PhysicalFont;
+PTG:
+Vars:
+11
+$r6 1 45 
+$r5 1 27 
+$r8 1 189 
+r1 1 4 
+r4 1 -1 
+$r7 1 45 
+r0 1 -2 
+r9 1 189 
+$r3 1 15 
+r2 1 9 
+_ret 1 189 
+Fields: 4
+-2 familyName 9
+-2 fullName 4
+-1 compositeFonts 27
+-1 physicalFonts 45
+Accesses: 19
+0 1 -2 
+448 1 -1 
+290 1 189 
+163 1 -1 
+5 1 -2 
+520 1 -2 
+105 1 -1 
+426 1 -2 
+459 1 -1 
+44 1 -1 
+334 1 189 
+143 1 -2 
+213 1 189 
+184 1 -1 
+505 1 -2 
+26 1 -1 
+347 1 -2 
+156 1 -2 
+413 1 189 
+Functions: 55
+-1 0 
+387 0 
+135 1 9 
+392 1 4 
+396 0 
+525 3 -2 4 9 
+15 2 4 15 
+401 0 
+147 3 -2 4 9 
+405 0 
+410 0 
+27 2 4 27 
+160 3 -2 4 9 
+418 0 
+292 0 
+167 1 4 
+423 0 
+41 3 -2 4 9 
+45 2 4 45 
+175 3 -2 4 9 
+431 0 
+437 0 
+185 2 4 45 
+313 0 
+317 0 
+445 7 -1 -2 4 9 27 45 189 
+64 0 
+322 1 4 
+68 0 
+326 0 
+455 3 -2 4 9 
+73 1 9 
+331 0 
+204 1 189 
+78 0 
+463 1 4 
+83 1 4 
+339 0 
+87 0 
+344 0 
+472 3 -2 4 9 
+92 0 
+476 1 9 
+96 0 
+352 0 
+229 1 189 
+102 0 
+358 0 
+111 3 -2 4 9 
+496 1 9 
+115 1 9 
+373 0 
+377 0 
+382 1 9 
+510 3 -2 4 9 
+Constructors: 0
+
+Summary: 39
+313 467 127 331 120 392 423 61 92 410 78 396 -1 64 87 382 352 322 405 73 481 96 339 83 355 370 310 431 401 99 326 387 418 215 434 344 373 171 488 
+sun/font/SunFontManager.access$402(Lsun/font/SunFontManager;Ljava/util/ArrayList;)Ljava/util/ArrayList;
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -3 
+_ret 1 -3 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 1 
+sun/font/SunFontManager.access$1200(Lsun/font/SunFontManager;Ljava/lang/String;ZIZZ)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 0 1 -3 
+sun/font/SunFontManager.maybeUsingAlternateCompositeFonts()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.addCompositeToFontList(Lsun/font/CompositeFont;I)V
+PTG:
+Vars:
+23
+$r12 1 22 
+$r18 1 30 
+$r7 1 74 
+r24 2 99 104 
+$r16 1 22 
+$r17 1 25 
+$r2 1 34 
+$r19 1 34 
+$r8 1 84 
+$r6 1 34 
+$r13 1 6 
+$r5 1 81 
+$r23 1 49 
+$r21 1 42 
+r0 1 -2 
+$r3 1 61 
+r1 1 -1 
+$r14 1 9 
+$r15 1 18 
+$r11 1 104 
+$r20 1 37 
+$r10 1 22 
+$r22 1 46 
+Fields: 4
+-2 familyName 22
+-2 fullName 34
+-1 compositeFonts 61
+-1 fullNameToFont 74
+Accesses: 9
+64 1 -2 
+33 1 -2 
+21 1 -2 
+120 1 -2 
+73 1 -1 
+60 1 -1 
+92 1 -2 
+108 1 -2 
+77 1 -2 
+Functions: 17
+-1 0 
+37 1 37 
+69 4 -2 34 22 61 
+9 1 9 
+42 1 42 
+13 1 9 
+46 1 46 
+78 2 81 34 
+18 2 18 22 
+114 2 22 104 
+52 2 49 6 
+88 5 -2 34 84 22 74 
+25 1 25 
+57 3 -2 34 22 
+124 5 -2 34 99 22 104 
+93 1 22 
+30 2 34 30 
+Constructors: 2
+114 104
+13 9
+
+Summary: 16
+9 6 25 18 104 22 37 30 -1 34 -2 49 42 99 46 84 
+sun/font/SunFontManager.getPathName(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+8
+$r6 1 66 
+$r0 1 0 
+r7 1 66 
+r1 1 -2 
+r3 1 -1 
+_ret 1 -2 
+$r5 1 57 
+$r4 1 19 
+Fields: 1
+-1 pathDirs 19
+Accesses: 2
+18 1 -1 
+34 1 -1 
+Functions: 9
+50 0 
+5 2 0 -2 
+40 0 
+9 1 0 
+57 1 57 
+27 0 
+46 1 -2 
+31 0 
+63 4 -1 -2 19 57 
+Constructors: 2
+5 0
+63 57
+
+Summary: 8
+0 40 0 -1 46 50 27 57 
+sun/font/SunFontManager.createFont2D(Ljava/io/File;IZLsun/font/CreatedFontTracker;)Lsun/font/Font2D;
+PTG:
+Vars:
+14
+r5 1 -1 
+$r8 1 209 
+$r7 1 126 
+r1 1 4 
+r23 2 126 100 
+$r12 1 255 
+$r13 1 216 
+r3 1 -5 
+$r14 1 100 
+_ret 2 126 100 
+$r9 1 209 
+r0 1 -2 
+$r10 1 236 
+$r11 1 242 
+Fields: 2
+-1 fileCloser 236
+-1 tmpFontFiles 209
+Accesses: 7
+208 1 -1 
+226 1 -1 
+37 1 -1 
+27 1 -1 
+235 1 -1 
+44 1 -1 
+223 1 -1 
+Functions: 14
+0 1 -2 
+260 1 255 
+134 2 4 126 
+199 4 -2 100 -5 126 
+231 2 209 -2 
+109 2 100 4 
+145 1 126 
+180 5 -1 209 -2 -5 236 
+183 0 
+247 4 -1 209 242 236 
+120 1 100 
+220 1 216 
+253 4 -1 209 242 236 
+158 0 
+Constructors: 4
+134 126
+247 242
+220 216
+109 100
+
+Summary: 5
+255 -5 -2 4 171 
+sun/font/SunFontManager.initialiseDeferredFonts()V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 21 
+$r2 1 4 
+r3 1 10 
+r5 1 21 
+$r1 1 1 
+Fields: 1
+-1 deferredFontFiles 1
+Accesses: 1
+0 1 -1 
+Functions: 5
+32 3 -1 1 21 
+1 1 1 
+4 1 4 
+20 1 10 
+11 1 10 
+Constructors: 0
+
+Summary: 4
+4 21 10 -1 
+sun/font/SunFontManager.access$800(Lsun/font/SunFontManager;Lsun/awt/FontConfiguration;Ljava/util/concurrent/ConcurrentHashMap;)V
+PTG:
+Vars:
+3
+r1 1 -3 
+r0 1 -2 
+r2 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -2 -3 -4 
+Constructors: 0
+
+Summary: 5
+-2 0 -4 1 -3 
+sun/font/SunFontManager.resolveWindowsFonts()V
+PTG:
+Vars:
+64
+$r10 1 508 
+$r4 2 35 236 
+r73 1 541 
+$r34 1 25 
+$r8 1 253 
+$r24 2 35 236 
+$r17 1 607 
+$r6 1 239 
+$r37 1 206 
+$r27 1 414 
+r61 1 239 
+$r23 1 365 
+$r26 1 400 
+r63 1 275 
+$r46 1 35 
+r71 1 508 
+$r12 1 522 
+$r44 1 35 
+r65 1 318 
+$r11 1 3 
+$r7 1 3 
+$r42 1 35 
+$r28 1 318 
+r55 1 25 
+r53 1 206 
+r68 1 400 
+$r25 1 378 
+$r18 1 610 
+$r39 1 164 
+$r30 2 35 236 
+r59 1 164 
+$r74 1 3 
+$r35 1 35 
+r62 1 261 
+$r9 1 296 
+$r19 1 536 
+$r48 1 3 
+$r38 1 35 
+$r20 1 541 
+$r3 1 227 
+r56 1 39 
+r58 1 77 
+$r36 1 39 
+$r2 1 6 
+r64 1 304 
+r0 1 -1 
+$r14 1 589 
+$r47 1 77 
+$r1 1 3 
+$r21 1 536 
+r67 1 386 
+r69 1 429 
+$r32 1 275 
+$r15 1 592 
+r70 1 451 
+$r16 1 602 
+r54 1 14 
+$r5 1 239 
+$r40 1 35 
+r72 1 522 
+r57 1 69 
+$r29 1 332 
+$r49 1 35 
+$r51 1 35 
+Fields: 5
+429 ArrayObject 451
+-1 fontToFamilyNameMap 3
+-1 fontToFileMap 35
+-1 fontToFileMap 236
+-1 familyToFontListMap 536
+Accesses: 18
+2 1 -1 
+34 1 -1 
+516 1 -1 
+102 1 -1 
+71 1 -1 
+135 1 -1 
+235 1 -1 
+112 1 -1 
+177 1 -1 
+339 1 -1 
+563 1 -1 
+374 1 -1 
+535 1 -1 
+249 1 -1 
+90 1 -1 
+187 1 -1 
+573 1 -1 
+158 1 -1 
+Functions: 61
+-1 0 
+3 1 3 
+388 1 386 
+517 2 3 508 
+6 1 6 
+263 1 261 
+142 2 35 25 
+398 1 386 
+15 1 14 
+273 1 261 
+149 1 25 
+24 1 14 
+536 2 536 522 
+412 1 400 
+159 1 35 
+288 2 275 239 
+417 2 365 414 
+35 2 35 25 
+295 1 239 
+296 1 296 
+424 5 -1 3 35 536 236 
+554 1 541 
+306 1 304 
+52 1 25 
+183 1 35 
+569 2 536 522 
+316 1 304 
+61 1 25 
+195 2 35 164 
+579 2 3 508 
+453 2 451 365 
+583 0 
+72 2 35 69 
+329 2 318 239 
+335 2 227 332 
+592 1 592 
+210 1 206 
+466 2 227 451 
+596 1 592 
+216 2 25 206 
+345 3 35 236 318 
+602 2 602 508 
+91 2 3 69 
+479 7 -1 3 35 227 536 236 206 
+607 1 607 
+482 1 206 
+355 7 -1 3 35 227 536 236 206 
+613 2 610 589 
+358 1 206 
+231 1 227 
+489 1 206 
+108 2 35 69 
+236 2 35 236 
+369 1 365 
+119 3 35 25 77 
+375 2 35 236 
+505 1 206 
+250 1 3 
+378 1 378 
+253 1 253 
+126 1 25 
+Constructors: 4
+369 365
+210 206
+596 592
+231 227
+
+Summary: 33
+429 6 414 14 592 332 400 589 227 378 318 386 522 69 39 296 77 304 508 206 607 25 275 253 -1 365 261 541 239 602 164 451 610 
+sun/font/SunFontManager.initialiseDeferredFont(Ljava/lang/String;)Lsun/font/PhysicalFont;
+PTG:
+Vars:
+25
+r1 1 -1 
+$r16 1 116 
+$r15 1 113 
+r4 1 42 
+$r12 1 68 
+$r19 1 92 
+$r2 1 38 
+_ret 3 148 86 154 
+$r13 1 64 
+$r8 1 154 
+r0 1 -2 
+$r23 1 24 
+$r24 1 28 
+$r21 1 12 
+r7 1 131 
+$r22 1 15 
+$r10 1 38 
+$r14 1 108 
+$r18 1 97 
+$r3 1 42 
+$r25 1 31 
+$r5 1 127 
+$r6 1 131 
+r26 3 148 86 154 
+$r9 1 154 
+Fields: 9
+42 nativeNames 68
+42 fontFilePath 64
+131 font2D 154
+86 handle 97
+113 handle 116
+-1 initialisedFonts 108
+-1 initialisedFonts 92
+-1 initialisedFonts 127
+-1 deferredFontFiles 38
+Accesses: 13
+96 3 148 86 154 
+67 1 42 
+37 1 -1 
+71 1 42 
+75 1 42 
+107 1 -1 
+79 1 42 
+113 1 113 
+53 1 -1 
+152 1 131 
+91 1 -1 
+126 1 -1 
+63 1 42 
+Functions: 14
+-1 0 
+34 2 12 31 
+100 3 -2 97 92 
+38 2 -2 38 
+15 1 15 
+112 5 -1 38 108 92 127 
+144 5 -1 38 108 92 127 
+19 1 15 
+119 3 -2 116 108 
+24 2 -2 24 
+58 2 -2 38 
+28 1 28 
+62 7 -1 64 68 38 108 92 127 
+127 2 -2 127 
+Constructors: 1
+19 15
+
+Summary: 13
+15 116 131 113 64 -1 -2 68 42 31 12 24 28 
+sun/font/SunFontManager.registerFontFile(Ljava/lang/String;)Lsun/font/PhysicalFont;
+PTG:
+Vars:
+4
+$r3 1 15 
+r2 1 -1 
+$r0 1 0 
+r1 1 -2 
+Fields: 1
+-1 registeredFonts 15
+Accesses: 1
+14 1 -1 
+Functions: 6
+0 1 0 
+50 1 -2 
+5 2 0 -2 
+74 3 -1 -2 15 
+30 1 -2 
+15 2 -2 15 
+Constructors: 1
+5 0
+
+Summary: 4
+-2 0 0 -1 
+sun/font/SunFontManager.findDeferredFont(Ljava/lang/String;I)Lsun/font/PhysicalFont;
+PTG:
+Vars:
+5
+r2 1 6 
+$r3 1 16 
+r1 1 -2 
+r0 1 -1 
+_ret 1 16 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+13 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+sun/font/SunFontManager.registerFontDir(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/font/SunFontManager.getPhysicalFonts()[Lsun/font/PhysicalFont;
+PTG:
+Vars:
+7
+$r1 1 1 
+$r2 1 4 
+$r4 1 11 
+r0 1 -1 
+$r5 1 11 
+_ret 1 11 
+$r3 1 8 
+Fields: 1
+-1 physicalFonts 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+4 2 4 8 
+Constructors: 0
+
+Summary: 3
+4 8 -1 
+sun/font/SunFontManager.findFont2D(Ljava/lang/String;II)Lsun/font/Font2D;
+PTG:
+Vars:
+61
+$r78 1 40 
+r7 1 -1 
+$r27 1 1218 
+$r24 1 1201 
+$r2 1 9 
+$r19 1 857 
+$r5 1 25 
+r6 1 31 
+$r14 1 751 
+$r23 1 1198 
+$r17 1 767 
+$r26 1 1215 
+$r66 1 449 
+r13 1 747 
+r83 2 85 62 
+r93 1 615 
+$r73 1 107 
+r87 1 320 
+r99 3 824 811 798 
+r84 1 190 
+r85 4 242 229 216 203 
+r90 1 423 
+$r0 1 1 
+$r80 1 62 
+$r8 1 80 
+r98 1 779 
+$r64 1 434 
+$r18 1 779 
+$r65 1 444 
+r89 1 373 
+$r3 1 18 
+$r76 1 124 
+$r77 1 127 
+$r25 1 1211 
+r96 2 733 754 
+$r15 1 754 
+r86 1 270 
+$r20 1 1007 
+r97 2 767 739 
+$r74 1 110 
+$r79 1 45 
+$r69 1 314 
+$r11 1 270 
+$r12 1 479 
+r82 1 45 
+r100 1 857 
+$r67 1 452 
+r81 4 -2 171 153 185 
+$r10 1 265 
+r88 1 339 
+r1 1 7 
+$r50 1 479 
+r102 1 1046 
+r92 1 524 
+$r31 1 1038 
+$r4 1 22 
+$r16 1 764 
+$r63 1 431 
+$r9 1 85 
+$r75 1 120 
+r91 1 495 
+Fields: 5
+-1 createdByFamilyName 733
+-1 deferredFontFiles 479
+-1 fontNameCache 80
+-1 fullNameToFont 265
+-1 createdByFullName 739
+Accesses: 38
+705 1 -1 
+643 1 -1 
+838 1 -1 
+264 1 -1 
+584 1 -1 
+712 1 -1 
+330 1 270 
+395 1 -1 
+79 1 -1 
+463 1 -1 
+1103 1 -1 
+722 1 -1 
+599 1 -1 
+729 1 -1 
+1177 1 -1 
+346 1 -1 
+283 1 270 
+478 1 -1 
+735 1 -1 
+672 1 -1 
+33 1 -1 
+993 1 -1 
+870 1 -1 
+1063 1 -1 
+296 1 -1 
+937 1 -1 
+364 1 270 
+877 1 -1 
+622 1 -1 
+690 1 -1 
+948 1 -1 
+1140 1 -1 
+502 1 -1 
+1016 1 -1 
+249 1 -1 
+892 1 -1 
+383 1 270 
+831 1 -1 
+Functions: 108
+0 5 -2 1 153 185 171 
+-1 0 
+1024 2 31 1007 
+257 5 242 229 216 203 31 
+517 7 -1 80 739 7 265 733 479 
+775 3 754 7 733 
+9 2 7 9 
+265 2 7 265 
+13 1 9 
+1037 6 -1 80 739 265 733 479 
+1038 5 -2 153 185 171 1038 
+18 2 18 22 
+21 0 
+792 1 779 
+25 1 25 
+540 0 
+1053 7 -1 80 739 1046 265 733 479 
+544 0 
+805 1 779 
+550 4 -2 153 185 171 
+40 1 40 
+554 0 
+1071 1 31 
+304 2 270 31 
+560 0 
+818 1 779 
+564 0 
+311 1 270 
+1081 1 7 
+58 2 45 31 
+314 1 314 
+570 1 524 
+575 0 
+1092 6 -1 80 739 265 733 479 
+581 0 
+327 1 320 
+846 4 824 811 798 31 
+80 2 80 31 
+592 2 524 31 
+853 3 739 7 767 
+1111 1 31 
+600 1 479 
+1118 1 7 
+609 10 -1 80 -2 739 265 153 185 171 733 479 
+354 2 339 31 
+361 1 320 
+1129 6 -1 80 739 265 733 479 
+110 1 110 
+114 1 110 
+885 2 857 31 
+630 2 615 31 
+120 5 -2 120 153 185 171 
+124 1 124 
+380 1 373 
+1148 1 31 
+130 2 107 127 
+1155 1 7 
+650 1 7 
+139 1 7 
+908 0 
+1166 6 -1 80 739 265 733 479 
+912 0 
+403 2 373 31 
+661 6 -1 80 739 265 733 479 
+918 4 -2 153 185 171 
+922 0 
+157 1 7 
+416 7 -1 80 739 7 265 733 479 
+928 0 
+1185 1 31 
+932 6 -1 80 739 265 733 479 
+680 1 31 
+172 1 7 
+940 10 -1 80 -2 739 265 153 185 171 733 479 
+685 6 -1 80 739 265 733 479 
+1201 1 1201 
+434 1 434 
+693 10 -1 80 -2 739 265 153 185 171 733 479 
+1205 1 1201 
+438 1 434 
+186 4 -2 153 185 171 
+1211 5 -2 153 185 1211 171 
+444 2 423 444 
+1215 1 1215 
+449 1 449 
+964 0 
+197 1 190 
+1221 2 1218 1198 
+455 2 452 431 
+968 0 
+974 4 -2 153 185 171 
+210 10 -1 80 -2 739 265 153 185 171 733 479 
+978 0 
+471 2 423 31 
+984 0 
+988 6 -1 80 739 265 733 479 
+223 1 190 
+479 1 479 
+996 10 -1 80 -2 739 265 153 185 171 733 479 
+1252 6 -1 80 739 265 733 479 
+488 7 -1 80 739 7 265 733 479 
+744 0 
+1257 6 -1 80 739 265 733 479 
+236 1 190 
+1004 10 -1 80 -2 739 265 153 185 171 733 479 
+749 2 747 751 
+762 2 747 764 
+510 2 31 495 
+Constructors: 4
+114 110
+1205 1201
+438 434
+13 9
+
+Summary: 53
+9 905 434 754 452 981 120 1201 45 922 31 560 575 107 25 320 18 124 449 1046 578 767 1198 540 564 670 444 550 1215 127 747 974 22 7 964 908 -2 431 779 537 961 1218 190 1211 40 110 554 1038 570 978 925 918 314 
+sun/font/SunFontManager.getFontNamesFromPlatform()[Ljava/lang/String;
+PTG:
+Vars:
+15
+r6 1 36 
+r0 1 -1 
+r14 1 74 
+$r1 1 1 
+$r13 1 74 
+$r7 1 98 
+$r2 1 16 
+$r10 1 47 
+$r5 1 28 
+r11 1 47 
+_ret 1 101 
+r12 1 60 
+$r8 1 101 
+$r9 1 101 
+$r4 1 25 
+Fields: 1
+-1 familyToFontListMap 25
+Accesses: 1
+24 1 -1 
+Functions: 13
+0 2 -1 25 
+1 1 1 
+97 2 16 98 
+37 1 36 
+72 1 60 
+13 2 -1 25 
+46 1 36 
+20 1 16 
+87 2 16 74 
+56 1 47 
+25 1 25 
+28 1 28 
+62 1 60 
+Constructors: 1
+20 16
+
+Summary: 8
+36 74 1 60 16 47 -1 28 
+sun/font/SunFontManager.registerCompositeFont(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;I[I[IZLjava/util/concurrent/ConcurrentHashMap;)V
+PTG:
+Vars:
+15
+r2 1 -3 
+$r14 1 63 
+r12 1 31 
+$r0 1 0 
+r8 1 -9 
+r3 1 -4 
+$r10 1 28 
+r4 1 -6 
+$r16 1 49 
+r1 1 -2 
+r5 1 -7 
+$r11 1 31 
+$r9 1 25 
+$r6 1 14 
+$r13 1 60 
+Fields: 1
+31 handle 49
+Accesses: 2
+54 1 49 
+47 1 31 
+Functions: 6
+-1 0 
+17 7 0 -2 -3 -4 -6 -7 14 
+68 3 0 -9 63 
+22 2 -9 28 
+24 2 -2 25 
+59 2 -2 60 
+Constructors: 1
+17 0
+
+Summary: 15
+0 -4 14 63 4 1 -3 2 49 -7 31 -6 5 7 28 
+sun/font/SunFontManager.getFamilyNamesFromPlatform(Ljava/util/TreeMap;Ljava/util/Locale;)Z
+PTG:
+Vars:
+10
+$r2 1 17 
+$r3 1 20 
+$r1 1 1 
+r7 1 -2 
+r8 1 -3 
+$r5 1 39 
+$r9 1 53 
+r6 1 39 
+r0 1 -1 
+r4 1 28 
+Fields: 1
+-1 fontToFamilyNameMap 17
+Accesses: 1
+16 1 -1 
+Functions: 9
+0 2 -1 17 
+1 1 1 
+17 1 17 
+50 2 -3 39 
+20 1 20 
+38 1 28 
+58 3 -2 53 39 
+13 2 -1 17 
+29 1 28 
+Constructors: 0
+
+Summary: 8
+53 -2 1 -3 39 20 -1 28 
+sun/font/SunFontManager.access$1100()[Ljava/lang/String;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/font/SunFontManager.getFileNameForFontName(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+8
+$r5 1 13 
+r2 1 7 
+r3 1 -1 
+r0 1 -2 
+$r1 1 1 
+$r6 1 13 
+$r4 1 9 
+_ret 1 13 
+Fields: 1
+-1 fontToFileMap 9
+Accesses: 1
+8 1 -1 
+Functions: 2
+0 2 -2 1 
+9 2 7 9 
+Constructors: 0
+
+Summary: 3
+-2 7 -1 
+sun/font/SunFontManager.isOpenJDK()Z
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/font/SunFontManager.<init>()V
+PTG:
+Vars:
+19
+$r10 1 160 
+$r14 1 239 
+$r11 1 219 
+$r1 1 7 
+$r15 1 239 
+$r3 1 33 
+$r13 1 231 
+r0 1 -1 
+$r7 1 97 
+$r2 1 26 
+$r5 1 55 
+$r6 1 66 
+$r8 1 118 
+$r18 1 274 
+$r9 1 129 
+$r17 1 266 
+$r16 1 258 
+$r19 1 282 
+$r4 1 44 
+Fields: 0
+Accesses: 32
+192 1 -1 
+197 1 -1 
+136 1 -1 
+73 1 -1 
+10 1 -1 
+202 1 -1 
+141 1 -1 
+78 1 -1 
+15 1 -1 
+207 1 -1 
+146 1 -1 
+83 1 -1 
+20 1 -1 
+212 1 -1 
+151 1 -1 
+88 1 -1 
+156 1 -1 
+29 1 -1 
+93 1 -1 
+167 1 -1 
+40 1 -1 
+104 1 -1 
+172 1 -1 
+109 1 -1 
+177 1 -1 
+114 1 -1 
+51 1 -1 
+182 1 -1 
+187 1 -1 
+125 1 -1 
+62 1 -1 
+255 1 -1 
+Functions: 19
+224 2 -1 219 
+1 1 -1 
+227 1 219 
+164 1 160 
+37 1 33 
+101 1 97 
+133 1 129 
+70 1 66 
+231 1 231 
+263 1 258 
+236 2 -1 231 
+271 1 266 
+48 1 44 
+242 1 239 
+279 1 274 
+216 1 -1 
+122 1 118 
+59 1 55 
+287 1 282 
+Constructors: 11
+48 44
+224 219
+1 -1
+164 160
+37 33
+101 97
+133 129
+70 66
+122 118
+59 55
+236 231
+
+Summary: 4
+-1 219 239 231 
+sun/font/SunFontManager.registerDeferredFont(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;IZI)V
+PTG:
+Vars:
+6
+$r0 1 0 
+r2 1 -4 
+r5 1 -2 
+r4 1 -1 
+r1 1 -3 
+$r6 1 18 
+Fields: 1
+-1 deferredFontFiles 18
+Accesses: 1
+17 1 -1 
+Functions: 2
+24 3 0 -2 18 
+12 3 0 -3 -4 
+Constructors: 1
+12 0
+
+Summary: 5
+-2 -4 0 -3 -1 
+sun/font/SunFontManager.registerFonts([Ljava/lang/String;[[Ljava/lang/String;IIZIZ)V
+PTG:
+Vars:
+8
+$r3 1 47 
+r0 1 -1 
+$r6 1 26 
+$r7 1 22 
+r2 1 -3 
+$r8 1 18 
+$r4 1 43 
+r1 1 -2 
+Fields: 5
+-2 ArrayObject 18
+-2 ArrayObject 22
+-2 ArrayObject 43
+-3 ArrayObject 26
+-3 ArrayObject 47
+Accesses: 0
+Functions: 2
+33 4 -1 18 22 26 
+54 3 -1 43 47 
+Constructors: 0
+
+Summary: 8
+-2 18 -3 22 26 43 47 -1 
+sun/font/SunFontManager.addNativeFontFamilyNames(Ljava/util/TreeMap;Ljava/util/Locale;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -3 -1 
+sun/font/SunFontManager.findOtherDeferredFont(Ljava/lang/String;I)Lsun/font/PhysicalFont;
+PTG:
+Vars:
+15
+$r15 1 73 
+r12 1 -2 
+$r2 1 4 
+r5 1 21 
+$r6 1 31 
+$r14 1 63 
+r3 1 10 
+r9 1 54 
+$r13 1 116 
+$r4 1 21 
+r10 1 93 
+r0 1 -1 
+$r1 1 1 
+r8 1 47 
+$r11 1 103 
+Fields: 2
+-1 deferredFontFiles 1
+-1 jreLucidaFontFiles 73
+Accesses: 3
+0 1 -1 
+72 1 -1 
+126 1 93 
+Functions: 14
+1 1 1 
+4 1 4 
+100 1 93 
+37 2 21 31 
+103 2 -2 103 
+73 2 54 73 
+42 1 31 
+11 1 10 
+49 1 31 
+113 1 93 
+20 1 10 
+116 2 -2 116 
+87 4 -1 1 21 73 
+61 2 47 63 
+Constructors: 1
+37 31
+
+Summary: 12
+0 21 10 93 116 -1 -2 4 103 54 47 31 
+sun/font/SunFontManager.usingAlternateFontforJALocales()Z
+PTG:
+Vars:
+5
+$r1 1 15 
+r0 1 13 
+$r3 1 21 
+r4 1 -1 
+$r2 1 18 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+10 0 
+14 2 13 15 
+Constructors: 0
+
+Summary: 3
+18 13 -1 
+sun/font/SunFontManager.removeFromCache(Lsun/font/Font2D;)V
+PTG:
+Vars:
+13
+$r8 1 39 
+$r10 1 40 
+$r9 1 6 
+$r6 1 15 
+$r2 1 6 
+r7 1 15 
+r1 1 -1 
+$r4 1 12 
+$r5 1 15 
+$r12 1 6 
+$r11 1 53 
+r0 1 -2 
+$r3 1 9 
+Fields: 3
+15 ArrayObject 53
+15 ArrayObject 39
+-1 fontNameCache 6
+Accesses: 3
+33 1 -1 
+5 1 -1 
+47 1 -1 
+Functions: 4
+34 2 6 39 
+6 1 6 
+54 2 53 6 
+9 2 9 12 
+Constructors: 0
+
+Summary: 8
+53 -2 15 0 40 39 9 -1 
+sun/font/SunFontManager.registerPlatformFontsUsedByFontConfiguration()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.getAllInstalledFonts()[Ljava/awt/Font;
+PTG:
+Vars:
+30
+$r12 1 225 
+$r8 1 199 
+r28 1 122 
+$r7 1 191 
+$r23 1 46 
+_ret 1 258 
+r6 1 23 
+$r9 1 211 
+$r1 1 1 
+r11 1 212 
+r29 1 136 
+$r22 1 44 
+r27 1 66 
+r31 1 258 
+r0 1 -1 
+$r21 1 34 
+$r5 1 11 
+$r13 1 235 
+$r15 1 128 
+$r24 1 51 
+$r14 1 232 
+$r19 1 96 
+$r18 1 85 
+$r2 1 1 
+r30 1 171 
+$r4 1 1 
+$r3 1 1 
+$r16 1 157 
+$r17 1 157 
+$r10 1 212 
+Fields: 11
+136 ArrayObject 157
+23 ArrayObject 34
+23 ArrayObject 51
+23 ArrayObject 44
+212 handle 235
+171 ArrayObject 232
+122 ArrayObject 199
+122 ArrayObject 211
+66 ArrayObject 85
+66 ArrayObject 96
+-1 allFonts 1
+Accesses: 6
+0 1 -1 
+262 1 -1 
+233 1 212 
+250 1 -1 
+253 1 -1 
+269 1 -1 
+Functions: 17
+128 1 128 
+-1 0 
+98 2 96 11 
+8 2 -1 1 
+202 2 199 191 
+44 1 44 
+206 2 211 11 
+238 3 225 232 235 
+15 1 11 
+111 1 11 
+81 3 -1 1 85 
+274 2 1 258 
+19 2 -1 1 
+52 3 51 11 46 
+118 1 11 
+62 2 -1 1 
+127 1 11 
+Constructors: 2
+202 191
+15 11
+
+Summary: 18
+51 225 44 211 128 199 136 23 212 235 46 85 11 122 -1 34 66 96 
+sun/font/SunFontManager.registerFontsOnPath(Ljava/lang/String;ZIZZ)V
+PTG:
+Vars:
+6
+$r2 1 5 
+$r6 1 -1 
+$r0 1 0 
+r4 1 -1 
+r1 1 -2 
+$r5 1 24 
+Fields: 0
+Accesses: 0
+Functions: 4
+33 2 -1 24 
+22 1 0 
+8 3 0 -2 5 
+13 1 0 
+Constructors: 1
+8 0
+
+Summary: 5
+-2 0 0 24 -1 
+sun/font/SunFontManager.getInstance()Lsun/font/SunFontManager;
+PTG:
+Vars:
+3
+r0 1 3 
+$r1 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 0
+
+sun/font/SunFontManager.loadFonts()V
+PTG:
+Vars:
+3
+$r5 1 21 
+$r3 1 34 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 6
+-1 0 
+18 0 
+39 2 -1 34 
+42 1 34 
+27 1 21 
+31 1 -1 
+Constructors: 1
+39 34
+
+Summary: 2
+21 34 
+sun/font/SunFontManager.access$500(Lsun/font/SunFontManager;)Lsun/awt/FontConfiguration;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-2 fontConfig 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/font/SunFontManager.getFullNameByFileName(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r3 1 -2 
+r0 1 -1 
+$r4 1 16 
+r1 1 4 
+$r2 1 15 
+Fields: 2
+15 platName 16
+4 ArrayObject 15
+Accesses: 1
+15 1 15 
+Functions: 3
+0 1 -1 
+16 2 16 -2 
+28 0 
+Constructors: 0
+
+Summary: 6
+-2 15 4 16 -1 28 
+sun/font/SunFontManager.getEUDCFont()Lsun/font/TrueTypeFont;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.preferProportionalFonts()V
+PTG:
+Vars:
+13
+$r4 1 88 
+$r15 1 6 
+$r10 1 114 
+$r3 1 77 
+$r2 1 74 
+$r8 1 99 
+r13 1 -1 
+$r1 1 71 
+r0 1 69 
+$r5 1 85 
+$r9 1 102 
+$r7 1 96 
+$r14 1 44 
+Fields: 1
+-1 fontNameCache 44
+Accesses: 7
+51 1 -1 
+132 1 -1 
+39 1 -1 
+43 1 -1 
+28 1 -1 
+60 1 -1 
+47 1 -1 
+Functions: 10
+-1 0 
+66 0 
+70 2 69 71 
+118 1 114 
+55 2 -1 44 
+91 3 69 85 88 
+139 3 -1 114 44 
+12 1 6 
+126 2 114 69 
+95 2 96 69 
+Constructors: 1
+118 114
+
+Summary: 6
+6 74 114 -1 99 69 
+sun/font/SunFontManager.loadFontFiles()V
+PTG:
+Vars:
+3
+$r5 1 25 
+$r3 1 34 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+4 1 -1 
+Functions: 6
+-1 0 
+1 1 -1 
+22 0 
+39 2 -1 34 
+42 1 34 
+31 1 25 
+Constructors: 1
+39 34
+
+Summary: 2
+25 34 
+sun/font/SunFontManager.getNativeNames(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -3 -1 
+sun/font/SunFontManager.getFontConfiguration()Lsun/awt/FontConfiguration;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 fontConfig 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.getJREFontFamilyNames(Ljava/util/TreeMap;Ljava/util/Locale;)V
+PTG:
+Vars:
+9
+$r1 1 1 
+r0 1 -1 
+$r5 1 35 
+r6 1 40 
+r7 1 -2 
+r4 1 -3 
+r2 1 11 
+$r3 1 25 
+$r8 1 46 
+Fields: 2
+11 ArrayObject 35
+11 ArrayObject 25
+Accesses: 0
+Functions: 5
+35 2 -3 35 
+51 3 -2 40 46 
+4 2 -1 1 
+7 1 -1 
+43 2 -3 40 
+Constructors: 0
+
+Summary: 8
+-2 40 25 46 35 -3 -1 11 
+sun/font/SunFontManager.getFontConfigFUIR(Ljava/lang/String;II)Ljavax/swing/plaf/FontUIResource;
+PTG:
+Vars:
+4
+r1 1 -2 
+r2 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 0 -2 
+Constructors: 1
+7 0
+
+Summary: 2
+-2 -1 
+sun/font/SunFontManager.access$702(Lsun/font/SunFontManager;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -3 
+_ret 1 -3 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 1 
+sun/font/SunFontManager.access$602(Lsun/font/SunFontManager;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -3 
+_ret 1 -3 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 1 
+sun/font/SunFontManager.findFontFromPlatformMap(Ljava/lang/String;I)Lsun/font/Font2D;
+PTG:
+Vars:
+38
+r11 1 -1 
+r46 1 258 
+$r17 1 379 
+$r18 1 379 
+$r13 1 189 
+$r8 1 96 
+$r19 1 153 
+$r42 1 7 
+$r2 1 19 
+r22 1 476 
+_ret 5 579 534 566 521 476 
+$r40 1 189 
+$r4 1 52 
+$r38 1 243 
+$r20 1 456 
+$r1 1 13 
+r45 1 231 
+$r14 1 344 
+$r21 1 468 
+$r16 1 369 
+$r39 1 216 
+$r7 1 78 
+$r50 1 270 
+r43 2 -2 50 
+$r5 1 57 
+$r48 1 216 
+r51 5 579 534 566 521 476 
+$r41 1 153 
+$r37 1 270 
+r3 1 -2 
+$r0 1 0 
+$r9 1 114 
+r47 1 285 
+r6 1 57 
+$r10 1 132 
+r52 1 503 
+r44 1 204 
+$r49 1 243 
+Fields: 11
+57 italicFileName 243
+57 familyName 153
+57 plainFullName 78
+57 boldItalicFullName 132
+57 boldFullName 96
+57 italicFullName 114
+57 plainFileName 189
+57 boldFileName 216
+57 boldItalicFileName 270
+344 ArrayObject 456
+344 ArrayObject 468
+Accesses: 16
+544 5 579 534 566 521 476 
+130 1 57 
+196 1 57 
+553 5 579 534 566 521 476 
+76 1 57 
+268 1 57 
+495 1 57 
+112 1 57 
+241 1 57 
+277 1 57 
+214 1 57 
+151 1 57 
+250 1 57 
+187 1 57 
+94 1 57 
+223 1 57 
+Functions: 37
+-1 0 
+129 2 -2 132 
+195 2 -1 189 
+323 0 
+515 1 503 
+6 1 -1 
+329 0 
+75 2 -2 78 
+463 2 -1 468 
+528 1 503 
+337 2 -2 50 
+19 1 19 
+276 2 -1 270 
+404 0 
+150 2 -2 153 
+408 0 
+93 2 96 -2 
+30 1 -2 
+222 2 -1 216 
+414 1 -2 
+418 0 
+424 0 
+44 1 -2 
+111 2 -2 114 
+432 2 -2 50 
+560 1 503 
+369 1 369 
+497 1 153 
+52 3 -2 50 52 
+309 0 
+183 1 -1 
+376 5 -1 369 468 344 456 
+249 2 -1 243 
+313 0 
+573 1 503 
+382 1 379 
+319 1 -2 
+Constructors: 1
+376 369
+
+Summary: 33
+323 344 369 414 468 566 521 456 189 -2 401 114 326 243 379 309 319 153 78 418 404 -1 132 306 57 503 216 50 579 534 270 96 421 
+sun/font/SunFontManager.isDeferredFont(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 deferredFontFiles 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/font/SunFontManager.initJREFontMap()V
+PTG:
+Vars:
+37
+$r29 1 30 
+$r7 1 30 
+$r17 1 30 
+$r62 1 388 
+$r33 1 30 
+$r39 1 30 
+$r60 1 369 
+r0 1 -1 
+$r59 1 30 
+$r51 1 30 
+$r27 1 30 
+$r19 1 30 
+$r23 1 30 
+$r41 1 30 
+r63 1 388 
+$r35 1 30 
+$r13 1 30 
+$r64 1 398 
+$r15 1 30 
+$r53 1 30 
+$r57 1 30 
+$r21 1 30 
+$r37 1 30 
+$r43 1 30 
+r61 1 377 
+$r3 1 30 
+$r45 1 30 
+$r9 1 30 
+$r2 1 12 
+$r31 1 30 
+$r55 1 30 
+$r1 1 1 
+$r47 1 30 
+$r49 1 30 
+$r11 1 30 
+$r5 1 30 
+$r25 1 30 
+Fields: 2
+-1 jreLucidaFontFiles 398
+-1 jreFontMap 30
+Accesses: 32
+65 1 -1 
+257 1 -1 
+197 1 -1 
+8 1 -1 
+137 1 -1 
+329 1 -1 
+77 1 -1 
+269 1 -1 
+397 1 -1 
+209 1 -1 
+19 1 -1 
+149 1 -1 
+341 1 -1 
+89 1 -1 
+281 1 -1 
+29 1 -1 
+221 1 -1 
+161 1 -1 
+353 1 -1 
+101 1 -1 
+293 1 -1 
+41 1 -1 
+233 1 -1 
+173 1 -1 
+365 1 -1 
+113 1 -1 
+305 1 -1 
+53 1 -1 
+245 1 -1 
+185 1 -1 
+125 1 -1 
+317 1 -1 
+Functions: 36
+-1 0 
+193 1 30 
+387 1 377 
+5 1 1 
+133 1 30 
+325 1 30 
+73 1 30 
+265 1 30 
+205 1 30 
+16 1 12 
+145 1 30 
+337 1 30 
+402 2 388 398 
+85 1 30 
+277 1 30 
+217 1 30 
+157 1 30 
+349 1 30 
+97 1 30 
+289 1 30 
+37 1 30 
+229 1 30 
+169 1 30 
+361 1 30 
+109 1 30 
+301 1 30 
+366 1 30 
+49 1 30 
+241 1 30 
+369 1 369 
+181 1 30 
+121 1 30 
+313 1 30 
+378 1 377 
+61 1 30 
+253 1 30 
+Constructors: 2
+16 12
+5 1
+
+Summary: 4
+369 388 377 -1 
+sun/font/SunFontManager.dotStyleStr(I)Ljava/lang/String;
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/font/SunFontManager.getInstalledNames()Ljava/util/HashSet;
+PTG:
+Vars:
+13
+r4 1 19 
+$r6 1 25 
+$r1 1 103 
+r2 1 9 
+$r0 1 0 
+_ret 1 103 
+r3 1 13 
+r5 1 24 
+$r10 1 85 
+$r12 1 51 
+$r8 1 79 
+$r11 1 49 
+$r9 1 81 
+Fields: 2
+19 ArrayObject 49
+24 ArrayObject 79
+Accesses: 0
+Functions: 10
+49 2 49 9 
+81 2 81 9 
+20 1 13 
+6 0 
+54 2 51 25 
+88 2 85 25 
+10 0 
+29 1 25 
+14 2 9 13 
+79 2 9 79 
+Constructors: 1
+29 25
+
+Summary: 9
+19 49 51 85 9 24 13 81 79 
+sun/font/SunFontManager.lambda$createFont2D$0(Ljava/lang/Runnable;)Ljava/lang/Void;
+PTG:
+Vars:
+7
+r3 1 -2 
+$r5 1 25 
+$r6 1 18 
+$r4 1 18 
+$r2 1 5 
+r1 1 -1 
+r0 1 3 
+Fields: 1
+-1 fileCloser 18
+Accesses: 3
+17 1 -1 
+28 1 -1 
+14 1 -1 
+Functions: 5
+0 0 
+-1 0 
+32 2 18 25 
+22 1 18 
+11 3 -2 3 5 
+Constructors: 1
+11 5
+
+Summary: 4
+-2 25 3 -1 
+sun/font/SunFontManager.registerFont(Ljava/awt/Font;)Z
+PTG:
+Vars:
+35
+$r30 1 31 
+$r15 1 293 
+r35 1 70 
+$r23 1 173 
+r34 1 66 
+r39 1 222 
+r0 1 -2 
+r36 3 173 147 13 
+$r40 1 235 
+$r20 1 248 
+$r24 1 182 
+$r29 1 20 
+$r21 1 254 
+$r7 1 83 
+r37 3 127 182 160 
+$r19 1 324 
+r8 1 89 
+r41 2 235 248 
+$r25 1 193 
+$r4 1 51 
+$r16 1 303 
+$r3 1 13 
+$r18 1 324 
+r38 1 140 
+$r14 1 283 
+r6 1 79 
+$r5 1 73 
+$r17 1 313 
+r2 1 -1 
+$r1 1 6 
+$r9 1 144 
+$r11 1 157 
+$r10 1 147 
+$r12 1 160 
+$r27 1 204 
+Fields: 2
+-1 createdByFamilyName 13
+-1 createdByFullName 127
+Accesses: 8
+272 1 -1 
+131 1 -1 
+117 1 -1 
+38 1 -1 
+215 1 -1 
+27 1 -1 
+123 1 -1 
+12 1 -1 
+Functions: 37
+-1 0 
+320 4 160 182 89 127 
+257 2 248 254 
+67 0 
+198 3 193 140 173 
+71 2 -2 70 
+73 1 73 
+137 0 
+330 4 -1 324 13 127 
+268 5 147 248 173 13 79 
+142 2 144 140 
+81 2 -2 70 
+209 3 182 140 204 
+83 1 83 
+339 3 248 235 222 
+24 1 20 
+280 2 248 235 
+218 1 -2 
+91 2 66 79 
+155 2 140 157 
+348 5 160 182 89 222 127 
+286 4 -1 283 13 127 
+224 1 222 
+290 2 248 235 
+35 1 31 
+100 2 66 89 
+231 4 147 173 13 79 
+296 4 -1 293 13 127 
+300 2 248 235 
+177 1 173 
+306 4 -1 13 127 303 
+51 2 -2 51 
+310 2 248 235 
+186 1 182 
+252 2 -2 70 
+316 4 -1 313 13 127 
+63 0 
+Constructors: 5
+177 173
+257 248
+35 31
+24 20
+186 182
+
+Summary: 23
+51 89 293 173 324 83 248 -2 235 303 160 70 222 313 147 283 -1 79 140 182 254 73 66 
+sun/font/SunFontManager.registerFontFile(Ljava/lang/String;[Ljava/lang/String;IZ)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r5 1 -3 
+r1 1 -2 
+$r2 1 1 
+$r3 1 12 
+$r7 1 1 
+$r4 1 31 
+Fields: 1
+-1 registeredFontFiles 1
+Accesses: 2
+0 1 -1 
+53 1 -1 
+Functions: 6
+1 2 1 -2 
+88 4 -1 1 -2 -3 
+58 2 1 -2 
+75 4 -1 1 -2 -3 
+12 2 -2 12 
+31 2 -2 31 
+Constructors: 0
+
+Summary: 3
+-2 -3 -1 
+sun/font/SunFontManager.access$400(Lsun/font/SunFontManager;)Ljava/util/ArrayList;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-2 badFonts 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/font/SunFontManager.getPlatformFontPath(Z)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r2 1 1 
+r0 1 -1 
+$r3 1 10 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fontPath 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+13 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.addFontToPlatformFontPath(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/font/SunFontManager.maybeMultiAppContext()Z
+PTG:
+Vars:
+3
+$r0 1 0 
+r2 1 7 
+$r1 1 7 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 0 
+4 1 0 
+14 1 7 
+Constructors: 1
+4 0
+
+Summary: 2
+0 7 
+sun/font/SunFontManager.populateHardcodedFileNameMap()Ljava/util/HashMap;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 0 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.addToMissingFontFileList(Ljava/lang/String;)V
+PTG:
+Vars:
+5
+$r0 1 0 
+r4 1 -1 
+$r3 1 6 
+r1 1 -2 
+$r2 1 16 
+Fields: 0
+Accesses: 0
+Functions: 2
+20 2 16 -2 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 2
+-2 -1 
+sun/font/SunFontManager.usePlatformFontMetrics()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/SunFontManager.createCompositeFonts(Ljava/util/concurrent/ConcurrentHashMap;ZZ)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 6 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+12 3 -1 -2 6 
+Constructors: 0
+
+Summary: 3
+-2 6 -1 
+sun/font/SunFontManager.checkForUnreferencedFontFiles()V
+PTG:
+Vars:
+34
+$r3 1 29 
+$r7 1 154 
+r34 1 186 
+$r14 1 256 
+$r22 1 198 
+$r28 1 144 
+r35 1 198 
+$r1 1 20 
+r6 1 106 
+r0 1 -1 
+$r24 1 123 
+r36 1 256 
+r8 1 160 
+$r4 1 32 
+$r26 1 136 
+r10 1 225 
+$r21 1 191 
+$r27 1 141 
+r5 1 84 
+$r30 1 62 
+$r17 1 269 
+$r15 1 281 
+r31 1 40 
+$r23 1 203 
+r32 1 51 
+r37 2 269 281 
+r9 1 217 
+r11 1 232 
+$r20 1 186 
+$r19 1 29 
+$r25 1 126 
+$r29 1 51 
+r33 1 174 
+$r18 1 174 
+Fields: 4
+84 ArrayObject 106
+-1 fontToFamilyNameMap 191
+-1 fontToFileMap 29
+-1 familyToFontListMap 203
+Accesses: 9
+0 1 -1 
+178 1 -1 
+322 1 -1 
+328 1 -1 
+10 1 -1 
+202 1 -1 
+28 1 -1 
+333 1 -1 
+190 1 -1 
+Functions: 30
+-1 0 
+65 2 20 62 
+130 1 126 
+194 2 186 191 
+136 2 136 106 
+141 1 141 
+206 2 198 203 
+79 4 -1 203 29 191 
+273 1 269 
+147 2 144 123 
+211 1 160 
+150 5 -1 154 203 29 191 
+151 5 -1 106 203 29 191 
+24 1 20 
+219 1 160 
+29 1 29 
+287 2 256 281 
+32 1 32 
+227 1 225 
+296 3 281 217 269 
+41 1 40 
+108 2 20 106 
+239 3 225 217 186 
+50 1 40 
+306 4 198 232 281 269 
+182 2 29 174 
+248 3 217 106 174 
+252 2 198 232 
+61 1 51 
+126 1 126 
+Constructors: 7
+273 269
+130 126
+194 186
+182 174
+24 20
+206 198
+287 281
+
+Summary: 21
+51 225 256 136 106 126 144 84 160 62 32 40 123 154 281 -1 269 141 20 232 217 
+sun/font/SunFontManager.getType1Filter()Ljava/io/FilenameFilter;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

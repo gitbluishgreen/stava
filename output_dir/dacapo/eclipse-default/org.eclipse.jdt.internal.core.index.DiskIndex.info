@@ -1,0 +1,1872 @@
+34
+org/eclipse/jdt/internal/core/index/DiskIndex.cacheDocumentNames()V
+PTG:
+Vars:
+10
+$r3 1 16 
+$r6 1 57 
+$r1 1 5 
+$r5 1 40 
+$r2 1 11 
+$r7 1 70 
+r0 1 -1 
+$r10 1 113 
+$r8 1 70 
+$r9 1 119 
+Fields: 4
+-1 chunkOffsets 40
+-1 indexFile 16
+-1 streamBuffer 70
+-1 cachedChunks 113
+Accesses: 17
+64 1 -1 
+1 1 -1 
+161 1 -1 
+100 1 -1 
+69 1 -1 
+39 1 -1 
+135 1 -1 
+8 1 -1 
+74 1 -1 
+15 1 -1 
+112 1 -1 
+82 1 -1 
+179 1 -1 
+148 1 -1 
+23 1 -1 
+59 1 -1 
+91 1 -1 
+Functions: 6
+128 7 -1 16 113 70 119 40 11 
+49 1 11 
+19 2 16 11 
+68 2 70 11 
+156 1 11 
+174 1 11 
+Constructors: 1
+19 11
+
+Summary: 2
+-1 11 
+org/eclipse/jdt/internal/core/index/DiskIndex.initialize(Z)V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r16 1 268 
+$r18 1 1 
+$r2 1 1 
+$r13 1 239 
+$r1 1 1 
+$r14 1 1 
+$r17 1 289 
+$r15 1 256 
+Fields: 2
+-1 indexFile 1
+-1 streamBuffer 289
+Accesses: 27
+0 1 -1 
+258 1 -1 
+134 1 -1 
+263 1 -1 
+18 1 -1 
+341 1 -1 
+215 1 -1 
+280 1 -1 
+89 1 -1 
+92 1 -1 
+159 1 -1 
+32 1 -1 
+288 1 -1 
+100 1 -1 
+37 1 -1 
+229 1 -1 
+293 1 -1 
+104 1 -1 
+42 1 -1 
+302 1 -1 
+368 1 -1 
+243 1 -1 
+116 1 -1 
+53 1 -1 
+121 1 -1 
+188 1 -1 
+126 1 -1 
+Functions: 36
+192 0 
+1 1 1 
+198 0 
+139 3 -1 1 289 
+331 0 
+205 0 
+79 0 
+271 5 -1 1 289 268 239 
+338 0 
+84 3 -1 1 289 
+148 0 
+212 0 
+277 4 -1 1 289 239 
+22 0 
+345 0 
+155 0 
+219 0 
+351 0 
+160 1 1 
+225 0 
+230 1 1 
+358 0 
+41 0 
+297 2 289 239 
+365 0 
+110 0 
+178 0 
+372 0 
+310 1 239 
+56 3 -1 1 289 
+120 0 
+248 2 1 239 
+185 0 
+378 0 
+316 1 239 
+63 0 
+Constructors: 1
+248 239
+
+Summary: 12
+348 372 14 -1 375 345 192 239 222 61 219 195 
+org/eclipse/jdt/internal/core/index/DiskIndex.writeStreamInt(Ljava/io/FileOutputStream;I)V
+PTG:
+Vars:
+7
+$r3 1 14 
+r5 1 -2 
+$r6 1 14 
+$r4 1 14 
+$r2 1 14 
+r0 1 -1 
+$r1 1 14 
+Fields: 1
+-1 streamBuffer 14
+Accesses: 18
+0 1 -1 
+97 1 -1 
+34 1 -1 
+72 1 -1 
+105 1 -1 
+42 1 -1 
+76 1 -1 
+13 1 -1 
+111 1 -1 
+18 1 -1 
+51 1 -1 
+84 1 -1 
+118 1 -1 
+55 1 -1 
+27 1 -1 
+93 1 -1 
+30 1 -1 
+63 1 -1 
+Functions: 1
+22 2 -2 14 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.writeCategories(Ljava/io/FileOutputStream;)V
+PTG:
+Vars:
+10
+r2 1 7 
+$r5 1 29 
+r4 1 15 
+$r6 1 41 
+$r8 1 41 
+$r1 1 1 
+$r3 1 1 
+$r9 1 37 
+r0 1 -1 
+r7 1 -2 
+Fields: 6
+-1 categoryTables 1
+1 keyTable 7
+1 valueTable 15
+7 ArrayObject 29
+7 ArrayObject 37
+15 ArrayObject 41
+Accesses: 5
+0 1 -1 
+1 1 1 
+8 1 -1 
+9 1 1 
+61 1 -1 
+Functions: 1
+46 8 -1 1 -2 37 7 41 29 15 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.computeDocumentNames([Ljava/lang/String;[ILorg/eclipse/jdt/internal/compiler/util/SimpleLookupTable;Lorg/eclipse/jdt/internal/core/index/MemoryIndex;)[Ljava/lang/String;
+PTG:
+Vars:
+29
+$r21 1 553 
+$r24 1 593 
+$r2 1 6 
+r3 1 12 
+r11 1 -4 
+r5 1 22 
+$r19 2 472 472 
+r38 1 223 
+$r16 1 424 
+r39 2 344 -2 
+r35 1 -1 
+r40 1 392 
+$r22 1 563 
+$r7 1 223 
+$r18 1 473 
+_ret 2 344 -2 
+$r25 2 589 589 
+r0 1 -2 
+$r4 1 6 
+$r8 1 245 
+$r10 1 297 
+$r13 1 376 
+$r14 1 409 
+$r9 1 256 
+$r15 1 424 
+$r17 2 460 460 
+r41 2 546 546 
+r6 1 -3 
+r1 1 -5 
+Fields: 19
+344 ArrayObject 546
+344 ArrayObject 472
+344 ArrayObject 460
+344 ArrayObject 589
+-5 docsToReferences 6
+-4 keyTable 392
+6 valueTable 22
+6 keyTable 12
+12 ArrayObject 223
+392 ArrayObject 424
+392 ArrayObject 409
+22 ArrayObject 256
+22 ArrayObject 297
+-2 ArrayObject 546
+-2 ArrayObject 553
+-2 ArrayObject 376
+-2 ArrayObject 589
+-2 ArrayObject 593
+-2 ArrayObject 245
+Accesses: 9
+16 1 6 
+336 1 -4 
+81 1 -4 
+4 1 -5 
+388 1 -4 
+69 1 -4 
+6 1 6 
+327 1 -4 
+14 1 -5 
+Functions: 14
+160 0 
+482 6 -4 392 424 472 409 473 
+163 4 -4 392 424 409 
+548 2 546 553 
+134 0 
+455 5 -4 392 424 409 460 
+589 2 593 589 
+240 2 245 223 
+305 5 -4 392 424 409 223 
+55 4 -4 392 424 409 
+441 10 -2 593 546 245 344 472 376 553 460 589 
+569 1 563 
+572 6 546 -4 563 392 424 409 
+479 1 473 
+Constructors: 2
+569 563
+479 473
+
+Summary: 14
+563 -3 -1 154 -4 12 0 3 -5 1 6 22 2 473 
+org/eclipse/jdt/internal/core/index/DiskIndex.<clinit>()V
+PTG:
+Vars:
+3
+$r0 1 6 
+$r2 1 18 
+$r1 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 1 6 
+24 1 18 
+Constructors: 1
+24 18
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/index/DiskIndex.writeStreamChars(Ljava/io/FileOutputStream;[CII)V
+PTG:
+Vars:
+9
+$r5 3 167 28 86 
+$r4 4 167 28 86 245 
+r1 1 -3 
+$r6 4 121 167 28 86 
+r0 1 -1 
+$r2 3 167 28 86 
+r8 1 -2 
+$r3 4 210 167 28 86 
+$r7 3 167 28 86 
+Fields: 3
+-1 streamBuffer 86
+-1 streamBuffer 167
+-1 streamBuffer 28
+Accesses: 22
+0 1 -1 
+256 1 -1 
+97 1 -1 
+132 1 -1 
+166 1 -1 
+39 1 -1 
+170 1 -1 
+268 1 -1 
+209 1 -1 
+273 1 -1 
+178 1 -1 
+244 1 -1 
+85 1 -1 
+213 1 -1 
+120 1 -1 
+248 1 -1 
+89 1 -1 
+281 1 -1 
+27 1 -1 
+124 1 -1 
+221 1 -1 
+31 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.writeOffsetToHeader(I)V
+PTG:
+Vars:
+3
+$r2 1 9 
+$r0 1 4 
+r1 1 -1 
+Fields: 1
+-1 indexFile 9
+Accesses: 3
+35 1 -1 
+20 1 -1 
+8 1 -1 
+Functions: 5
+49 1 4 
+25 1 4 
+43 1 4 
+30 1 4 
+15 2 4 9 
+Constructors: 1
+15 4
+
+Summary: 2
+-1 4 
+org/eclipse/jdt/internal/core/index/DiskIndex.readAllDocumentNames()[Ljava/lang/String;
+PTG:
+Vars:
+9
+$r2 1 16 
+$r1 1 11 
+r8 1 85 
+$r7 1 54 
+r0 1 -1 
+$r5 1 41 
+$r4 1 24 
+$r14 1 -1 
+$r6 1 54 
+Fields: 3
+-1 chunkOffsets 24
+-1 indexFile 16
+-1 streamBuffer 54
+Accesses: 14
+0 1 -1 
+128 1 -1 
+66 1 -1 
+69 1 -1 
+43 1 -1 
+15 1 -1 
+48 1 -1 
+80 1 -1 
+145 1 -1 
+116 1 -1 
+53 1 -1 
+23 1 -1 
+58 1 -1 
+159 1 -1 
+Functions: 6
+33 1 11 
+19 2 16 11 
+52 2 54 11 
+120 6 -1 16 85 54 24 11 
+154 1 11 
+140 1 11 
+Constructors: 1
+19 11
+
+Summary: 2
+-1 11 
+org/eclipse/jdt/internal/core/index/DiskIndex.mergeWith(Lorg/eclipse/jdt/internal/core/index/MemoryIndex;)Lorg/eclipse/jdt/internal/core/index/DiskIndex;
+PTG:
+Vars:
+31
+r2 1 -2 
+$r45 1 209 
+r61 1 9 
+$r3 1 70 
+$r13 1 79 
+r63 1 33 
+r38 1 160 
+$r9 1 97 
+$r12 1 110 
+$r43 1 199 
+$r10 1 110 
+$r11 1 116 
+$r14 1 79 
+$r1 1 13 
+$r7 1 85 
+r39 1 167 
+$r4 1 74 
+$r27 1 79 
+$r16 1 79 
+$r15 1 110 
+$r40 1 184 
+$r5 1 79 
+r0 1 -1 
+r60 1 4 
+$r41 1 198 
+_ret 1 70 
+$r46 1 199 
+$r8 1 94 
+$r42 1 191 
+$r44 1 209 
+$r6 1 82 
+Fields: 8
+-1 indexFile 79
+160 ArrayObject 184
+160 ArrayObject 198
+70 indexFile 110
+167 ArrayObject 209
+13 valueTable 167
+13 keyTable 160
+-2 docsToReferences 191
+Accesses: 24
+256 1 70 
+288 1 -1 
+321 1 -1 
+162 1 13 
+452 1 -1 
+391 1 70 
+425 1 -1 
+108 1 70 
+396 1 -1 
+301 1 -1 
+78 1 -1 
+528 1 -1 
+49 1 -1 
+147 1 13 
+468 1 70 
+532 1 70 
+311 1 -1 
+120 1 70 
+377 1 -1 
+155 1 13 
+509 1 70 
+190 1 -2 
+350 1 -1 
+479 1 70 
+Functions: 49
+0 2 -1 79 
+514 0 
+387 0 
+520 0 
+393 2 110 79 
+139 4 33 116 70 110 
+267 3 116 70 110 
+18 6 160 209 198 167 184 13 
+23 12 -1 160 209 -2 4 198 167 184 9 13 79 191 
+283 1 116 
+415 0 
+422 0 
+296 1 116 
+429 0 
+50 0 
+435 0 
+308 2 70 110 
+56 0 
+312 1 79 
+442 0 
+191 2 198 191 
+64 0 
+449 0 
+322 1 79 
+456 0 
+74 1 74 
+462 0 
+79 1 79 
+82 1 82 
+210 1 209 
+340 0 
+470 0 
+88 2 85 74 
+216 3 70 199 110 
+347 0 
+94 1 94 
+481 0 
+354 0 
+100 3 97 70 110 
+360 0 
+367 0 
+240 3 116 70 110 
+113 4 -1 70 110 79 
+499 0 
+374 0 
+506 0 
+253 6 -1 116 70 9 110 79 
+381 0 
+126 2 116 110 
+Constructors: 4
+18 13
+100 70
+88 74
+126 116
+
+Summary: 26
+357 381 429 116 13 82 9 33 97 4 191 354 167 517 199 0 160 514 384 94 432 456 53 85 459 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.writeHeaderInfo(Ljava/io/FileOutputStream;)V
+PTG:
+Vars:
+15
+$r12 1 23 
+r18 1 167 
+$r2 1 23 
+r1 1 -2 
+$r3 1 23 
+$r4 1 23 
+$r13 1 23 
+$r5 1 120 
+r9 1 175 
+$r6 1 151 
+r0 1 -1 
+$r10 1 189 
+$r7 1 151 
+$r11 1 198 
+$r8 1 151 
+Fields: 7
+-1 chunkOffsets 120
+-1 streamBuffer 23
+-1 categoryOffsets 151
+151 keyTable 167
+151 valueTable 175
+167 ArrayObject 189
+167 ArrayObject 198
+Accesses: 32
+64 1 -1 
+2 1 -1 
+132 1 -1 
+72 1 -1 
+9 1 -1 
+75 1 -1 
+141 1 -1 
+81 1 -1 
+85 1 -1 
+22 1 -1 
+150 1 -1 
+151 1 151 
+27 1 -1 
+93 1 -1 
+221 1 -1 
+96 1 -1 
+160 1 -1 
+161 1 151 
+36 1 -1 
+229 1 -1 
+102 1 -1 
+39 1 -1 
+168 1 -1 
+169 1 151 
+234 1 -1 
+43 1 -1 
+109 1 -1 
+51 1 -1 
+243 1 -1 
+54 1 -1 
+119 1 -1 
+60 1 -1 
+Functions: 8
+208 9 -1 -2 198 23 151 167 120 189 175 
+145 9 -1 -2 198 23 151 167 120 189 175 
+6 9 -1 -2 198 23 151 167 120 189 175 
+199 9 -1 -2 198 23 151 167 120 189 175 
+125 9 -1 -2 198 23 151 167 120 189 175 
+157 9 -1 -2 198 23 151 167 120 189 175 
+238 2 -2 23 
+31 2 -2 23 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.writeCategoryTable([CLorg/eclipse/jdt/internal/compiler/util/HashtableOfObject;Ljava/io/FileOutputStream;)V
+PTG:
+Vars:
+18
+$r12 1 176 
+r14 1 163 
+r8 1 -2 
+r0 1 -3 
+r1 1 9 
+r17 1 145 
+r16 2 27 54 
+$r13 1 163 
+r15 2 27 54 
+$r7 1 54 
+$r9 1 110 
+$r2 1 80 
+$r10 1 123 
+r3 1 -1 
+$r6 1 50 
+$r5 1 50 
+r4 1 -4 
+r18 1 163 
+Fields: 8
+-1 categoryTables 123
+-1 categoryOffsets 110
+9 ArrayObject 163
+9 ArrayObject 50
+9 ArrayObject 27
+145 ArrayObject 176
+-3 valueTable 9
+-3 keyTable 145
+Accesses: 7
+114 1 -1 
+84 1 -1 
+5 1 -3 
+134 1 -3 
+122 1 -1 
+109 1 -1 
+141 1 -3 
+Functions: 12
+96 6 -1 -4 54 123 27 110 
+128 2 -2 123 
+177 5 -1 176 -4 123 110 
+209 4 -1 -4 123 110 
+242 4 -1 -4 123 110 
+51 1 50 
+229 4 -1 -4 123 110 
+118 2 -2 110 
+88 1 80 
+138 4 -1 -4 123 110 
+219 5 -1 163 -4 123 110 
+236 1 163 
+Constructors: 1
+88 80
+
+Summary: 9
+1 -3 -1 9 2 145 -4 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.readStreamBuffer(Ljava/io/FileInputStream;)V
+PTG:
+Vars:
+6
+$r4 1 5 
+$r1 1 5 
+$r3 1 5 
+r2 1 -2 
+$r5 1 5 
+r0 1 -1 
+Fields: 1
+-1 streamBuffer 5
+Accesses: 11
+0 1 -1 
+17 1 -1 
+65 1 -1 
+35 1 -1 
+4 1 -1 
+52 1 -1 
+27 1 -1 
+60 1 -1 
+13 1 -1 
+31 1 -1 
+47 1 -1 
+Functions: 2
+41 1 5 
+46 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.readDocumentNumbers(Ljava/lang/Object;)[I
+PTG:
+Vars:
+10
+r2 1 -1 
+r9 1 81 
+$r5 1 -2 
+r0 1 -2 
+$r6 1 43 
+$r1 1 12 
+$r3 1 17 
+$r8 1 56 
+$r7 1 56 
+$r11 1 -1 
+Fields: 2
+-1 indexFile 17
+-1 streamBuffer 56
+Accesses: 8
+16 1 -1 
+50 1 -1 
+68 1 -1 
+55 1 -1 
+103 1 -1 
+89 1 -1 
+60 1 -1 
+45 1 -1 
+Functions: 8
+98 1 12 
+35 1 12 
+20 2 17 12 
+84 1 12 
+54 2 56 12 
+71 4 -1 17 56 12 
+25 1 -2 
+73 4 -1 17 56 12 
+Constructors: 1
+20 12
+
+Summary: 3
+-1 0 12 
+org/eclipse/jdt/internal/core/index/DiskIndex.writeDocumentNumbers([ILjava/io/FileOutputStream;)V
+PTG:
+Vars:
+11
+r1 1 -1 
+$r5 2 198 257 
+$r6 3 198 294 257 
+$r8 2 99 64 
+$r7 4 198 318 294 257 
+r2 1 -3 
+$r3 2 198 257 
+r0 1 -2 
+$r4 3 222 198 257 
+$r10 3 99 64 134 
+$r9 2 99 64 
+Fields: 6
+-1 streamBuffer 198
+-1 streamBuffer 99
+-1 streamBuffer 257
+-1 streamBuffer 64
+-1 streamBuffer 134
+-1 streamBuffer 294
+Accesses: 33
+256 1 -1 
+321 1 -1 
+67 1 -1 
+133 1 -1 
+197 1 -1 
+261 1 -1 
+137 1 -1 
+201 1 -1 
+329 1 -1 
+75 1 -1 
+270 1 -1 
+16 1 -1 
+145 1 -1 
+209 1 -1 
+273 1 -1 
+347 1 -1 
+221 1 -1 
+225 1 -1 
+98 1 -1 
+163 1 -1 
+356 1 -1 
+293 1 -1 
+103 1 -1 
+233 1 -1 
+297 1 -1 
+170 1 -1 
+112 1 -1 
+305 1 -1 
+50 1 -1 
+115 1 -1 
+182 1 -1 
+317 1 -1 
+63 1 -1 
+Functions: 5
+6 8 -1 64 257 -3 99 198 134 294 
+374 8 -1 64 257 -3 99 198 134 294 
+265 3 257 -3 198 
+10 1 -2 
+107 3 64 -3 99 
+Constructors: 0
+
+Summary: 4
+-1 1 -3 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.<init>(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 23 
+r1 1 -2 
+Fields: 0
+Accesses: 13
+66 1 -1 
+36 1 -1 
+7 1 -1 
+71 1 -1 
+41 1 -1 
+76 1 -1 
+46 1 -1 
+81 1 -1 
+51 1 -1 
+86 1 -1 
+56 1 -1 
+61 1 -1 
+31 1 -1 
+Functions: 3
+1 1 -1 
+18 0 
+28 2 -2 23 
+Constructors: 2
+1 -1
+28 23
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.addDocumentNames(Ljava/lang/String;Lorg/eclipse/jdt/internal/core/index/MemoryIndex;)Lorg/eclipse/jdt/internal/compiler/util/SimpleSet;
+PTG:
+Vars:
+13
+r4 1 -2 
+$r7 1 127 
+r0 1 -1 
+r5 1 -3 
+$r11 1 39 
+r13 1 61 
+$r2 1 5 
+_ret 1 5 
+$r8 1 141 
+r15 1 163 
+r1 1 4 
+r14 1 77 
+r16 1 179 
+Fields: 7
+4 ArrayObject 179
+4 ArrayObject 39
+4 ArrayObject 77
+4 ArrayObject 127
+4 ArrayObject 141
+-3 docsToReferences 61
+-3 docsToReferences 163
+Accesses: 2
+57 1 -3 
+159 1 -3 
+Functions: 10
+0 1 -1 
+181 2 -2 179 
+40 2 5 39 
+11 1 5 
+93 2 5 77 
+205 2 179 5 
+142 2 5 141 
+79 2 61 77 
+127 2 -2 127 
+191 2 163 179 
+Constructors: 1
+11 5
+
+Summary: 8
+1 -3 -1 61 4 163 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.mergeCategories(Lorg/eclipse/jdt/internal/core/index/DiskIndex;[ILjava/io/FileOutputStream;)V
+PTG:
+Vars:
+13
+r10 1 -4 
+$r7 2 33 66 
+$r5 2 45 33 
+r0 1 -2 
+$r11 1 98 
+$r8 1 89 
+r12 1 25 
+r2 1 7 
+$r1 1 1 
+$r4 1 33 
+r9 1 -3 
+r13 1 72 
+r3 1 -1 
+Fields: 9
+1 keyTable 7
+-1 categoryTables 66
+-1 categoryTables 33
+7 ArrayObject 25
+33 keyTable 72
+-2 categoryOffsets 1
+66 keyTable 72
+72 ArrayObject 89
+72 ArrayObject 98
+Accesses: 7
+0 1 -2 
+32 1 -1 
+1 1 1 
+65 1 -1 
+66 2 33 66 
+117 1 -1 
+44 1 -1 
+Functions: 3
+33 5 33 98 72 89 25 
+51 6 33 98 72 89 25 45 
+102 12 -1 33 -2 1 66 98 -3 -4 7 72 89 25 
+Constructors: 0
+
+Summary: 9
+7 1 -3 -1 1 2 -4 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.stopQuery()V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r6 1 32 
+$r3 1 25 
+$r9 1 79 
+$r4 1 57 
+$r2 1 32 
+$r8 1 32 
+$r1 1 25 
+$r7 1 25 
+Fields: 2
+-1 categoryTables 25
+-1 cachedCategoryName 32
+Accesses: 13
+0 1 -1 
+67 1 -1 
+71 1 -1 
+8 1 -1 
+40 1 -1 
+75 1 -1 
+46 1 -1 
+47 1 25 
+16 1 -1 
+21 1 -1 
+24 1 -1 
+88 1 -1 
+31 1 -1 
+Functions: 3
+82 3 32 57 79 
+72 2 32 25 
+62 1 57 
+Constructors: 1
+62 57
+
+Summary: 2
+-1 79 
+org/eclipse/jdt/internal/core/index/DiskIndex.readChunk([Ljava/lang/String;Ljava/io/FileInputStream;II)V
+PTG:
+Vars:
+25
+$r16 1 145 
+$r14 1 134 
+$r0 1 0 
+$r22 2 51 73 
+$r3 1 6 
+$r6 1 220 
+$r17 1 157 
+$r20 1 51 
+$r12 1 191 
+$r13 1 125 
+r1 1 -1 
+$r24 1 94 
+r26 4 166 94 244 197 
+$r10 1 180 
+$r8 1 238 
+$r9 1 171 
+$r11 1 183 
+$r18 1 160 
+r4 1 -2 
+r2 1 -3 
+$r7 1 235 
+r19 5 166 94 244 197 0 
+$r25 1 100 
+$r15 1 137 
+$r5 1 214 
+Fields: 1
+-1 streamBuffer 51
+Accesses: 8
+32 1 -1 
+50 1 -1 
+84 1 -1 
+38 1 -1 
+54 1 -1 
+72 1 -1 
+76 1 -1 
+62 1 -1 
+Functions: 24
+160 1 160 
+129 5 0 244 197 166 94 
+98 3 -1 -3 51 
+226 5 0 244 197 166 94 
+4 3 -1 -3 51 
+134 1 134 
+103 2 100 94 
+9 2 0 6 
+171 2 171 94 
+140 2 137 125 
+238 1 238 
+47 3 -1 -3 51 
+175 5 0 244 197 166 94 
+207 5 0 244 197 166 94 
+145 2 145 157 
+148 5 0 244 197 166 94 
+180 1 180 
+118 5 0 244 197 166 94 
+214 2 214 235 
+186 2 183 171 
+218 1 94 
+125 2 125 94 
+191 1 191 
+223 2 214 220 
+Constructors: 5
+103 94
+9 0
+186 171
+140 125
+223 214
+
+Summary: 19
+180 220 244 157 -3 -1 137 183 191 0 100 160 1 6 134 166 238 235 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.writeAllDocumentNames([Ljava/lang/String;Ljava/io/FileOutputStream;)V
+PTG:
+Vars:
+15
+$r4 1 34 
+$r6 1 194 
+$r9 3 407 371 388 
+$r5 1 149 
+$r21 2 463 469 
+r1 1 -1 
+$r8 2 371 388 
+r20 2 188 213 
+r7 1 213 
+$r19 1 129 
+r0 1 -2 
+r3 1 -3 
+$r2 1 17 
+$r13 2 371 388 
+$r10 1 456 
+Fields: 5
+-1 chunkOffsets 149
+-1 streamBuffer 388
+-1 streamBuffer 371
+-2 ArrayObject 188
+-2 ArrayObject 213
+Accesses: 33
+64 1 -1 
+384 1 -1 
+131 1 -1 
+387 1 -1 
+134 1 -1 
+391 1 -1 
+72 1 -1 
+75 1 -1 
+399 1 -1 
+82 1 -1 
+19 1 -1 
+148 1 -1 
+406 1 -1 
+24 1 -1 
+89 1 -1 
+154 1 -1 
+410 1 -1 
+29 1 -1 
+95 1 -1 
+418 1 -1 
+357 1 -1 
+166 1 -1 
+41 1 -1 
+425 1 -1 
+45 1 -1 
+494 1 -1 
+432 1 -1 
+370 1 -1 
+502 1 -1 
+375 1 -1 
+121 1 -1 
+508 1 -1 
+125 1 -1 
+Functions: 16
+192 2 213 188 
+321 2 213 188 
+37 6 -1 -3 34 371 388 149 
+197 6 -1 -3 194 371 388 149 
+454 1 213 
+264 2 213 188 
+9 0 
+331 1 213 
+461 1 456 
+271 1 213 
+51 5 -1 -3 371 388 149 
+435 1 213 
+215 2 213 188 
+472 7 -1 -3 371 388 149 469 463 
+379 3 -3 371 388 
+222 1 213 
+Constructors: 0
+
+Summary: 8
+1 -3 456 -1 194 463 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.mergeCategory([CLorg/eclipse/jdt/internal/core/index/DiskIndex;[ILjava/io/FileOutputStream;)V
+PTG:
+Vars:
+23
+r9 1 71 
+r11 1 82 
+r22 2 181 222 
+r19 2 5 18 
+$r16 1 95 
+$r17 1 283 
+$r2 1 1 
+$r14 1 181 
+r21 1 181 
+r6 1 -5 
+r12 1 -4 
+$r18 1 18 
+$r13 1 222 
+r7 1 46 
+r1 1 -2 
+r4 1 -3 
+r5 1 34 
+$r3 1 5 
+r0 1 -1 
+r8 1 53 
+r20 2 95 163 
+$r15 1 163 
+$r10 1 82 
+Fields: 6
+-1 categoryTables 1
+53 ArrayObject 82
+-3 categoryTables 283
+46 ArrayObject 71
+34 keyTable 46
+34 valueTable 53
+Accesses: 4
+0 1 -1 
+48 1 34 
+41 1 34 
+282 1 -3 
+Functions: 11
+288 2 -2 283 
+1 2 1 -2 
+194 5 18 163 5 71 95 
+242 4 18 5 71 222 
+259 2 181 222 
+23 1 18 
+231 2 181 222 
+298 6 -1 1 -2 18 -5 5 
+171 2 163 95 
+28 3 -2 -3 283 
+174 3 18 5 71 
+Constructors: 2
+23 18
+231 222
+
+Summary: 15
+-5 1 18 181 -3 46 34 -1 5 2 53 -4 -2 3 222 
+org/eclipse/jdt/internal/core/index/DiskIndex.addQueryResult(Lorg/eclipse/jdt/internal/compiler/util/HashtableOfObject;[CLorg/eclipse/jdt/internal/compiler/util/HashtableOfObject;Lorg/eclipse/jdt/internal/core/index/MemoryIndex;)Lorg/eclipse/jdt/internal/compiler/util/HashtableOfObject;
+PTG:
+Vars:
+15
+r3 1 66 
+r0 1 -3 
+$r11 1 36 
+r8 1 115 
+$r6 1 87 
+r14 2 4 -2 
+r7 1 93 
+$r10 1 73 
+$r13 1 4 
+r4 1 -1 
+r2 1 -5 
+_ret 2 4 -2 
+r5 1 -4 
+$r1 1 16 
+r15 2 73 16 
+Fields: 1
+-5 docsToReferences 66
+Accesses: 1
+61 1 -5 
+Functions: 13
+131 3 16 115 73 
+10 1 4 
+42 3 -3 -4 36 
+106 1 -1 
+45 4 -2 -3 4 36 
+14 3 -2 -3 4 
+79 2 -3 73 
+144 2 16 73 
+84 2 -1 87 
+85 2 -3 -4 
+117 2 66 115 
+55 3 16 -4 73 
+156 5 16 -2 -3 4 73 
+Constructors: 3
+10 4
+42 36
+79 73
+
+Summary: 15
+73 -5 87 1 115 -3 66 36 -1 2 93 -4 16 0 3 
+org/eclipse/jdt/internal/core/index/DiskIndex.readStreamChars(Ljava/io/FileInputStream;)[C
+PTG:
+Vars:
+11
+$r3 2 23 124 
+_ret 1 70 
+r1 1 -1 
+r0 1 -2 
+$r13 1 23 
+r2 1 70 
+$r11 1 23 
+$r10 2 23 106 
+$r7 2 23 258 
+$r4 2 331 23 
+$r5 2 23 350 
+Fields: 1
+-1 streamBuffer 23
+Accesses: 24
+257 1 -1 
+353 1 -1 
+34 1 -1 
+4 1 -1 
+101 1 -1 
+261 1 -1 
+135 1 -1 
+105 1 -1 
+361 1 -1 
+10 1 -1 
+330 1 -1 
+269 1 -1 
+334 1 -1 
+47 1 -1 
+81 1 -1 
+51 1 -1 
+85 1 -1 
+22 1 -1 
+342 1 -1 
+26 1 -1 
+59 1 -1 
+123 1 -1 
+349 1 -1 
+127 1 -1 
+Functions: 5
+466 3 -1 -2 23 
+19 3 -1 -2 23 
+387 0 
+292 0 
+443 0 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.readDocumentName(I)Ljava/lang/String;
+PTG:
+Vars:
+14
+r18 2 29 200 
+$r7 1 110 
+$r10 1 135 
+$r3 2 245 245 
+r0 1 -1 
+$r2 1 1 
+$r8 1 115 
+$r1 1 1 
+$r4 1 52 
+$r14 1 12 
+_ret 2 245 245 
+$r6 1 100 
+$r5 1 52 
+$r11 1 1 
+Fields: 7
+-1 chunkOffsets 52
+-1 indexFile 115
+-1 streamBuffer 135
+-1 cachedChunks 1
+1 ArrayObject 29
+29 ArrayObject 245
+200 ArrayObject 245
+Accesses: 17
+0 1 -1 
+64 1 -1 
+161 1 -1 
+226 1 -1 
+35 1 -1 
+102 1 -1 
+134 1 -1 
+71 1 -1 
+8 1 -1 
+107 1 -1 
+235 1 -1 
+15 1 -1 
+114 1 -1 
+51 1 -1 
+23 1 -1 
+187 1 -1 
+220 1 -1 
+Functions: 8
+128 1 110 
+210 8 -1 1 115 52 245 135 200 29 
+179 1 110 
+132 2 135 110 
+118 2 115 110 
+153 0 
+171 1 110 
+93 0 
+Constructors: 1
+118 110
+
+Summary: 2
+-1 110 
+org/eclipse/jdt/internal/core/index/DiskIndex.copyQueryResults(Lorg/eclipse/jdt/internal/compiler/util/HashtableOfObject;I)V
+PTG:
+Vars:
+19
+r11 1 123 
+r10 1 109 
+r9 1 91 
+$r7 1 43 
+$r4 1 36 
+$r16 1 123 
+r5 1 36 
+$r17 1 135 
+r1 1 4 
+r22 2 67 48 
+r0 1 -2 
+$r19 1 67 
+$r20 2 43 62 
+r2 1 9 
+$r12 1 168 
+r3 1 25 
+$r13 1 123 
+r6 1 -1 
+$r8 1 48 
+Fields: 7
+9 ArrayObject 36
+-1 categoryTables 43
+91 ArrayObject 109
+4 ArrayObject 25
+36 words 91
+-2 keyTable 4
+-2 valueTable 9
+Accesses: 6
+0 1 -2 
+5 1 -2 
+86 1 36 
+71 1 36 
+42 1 -1 
+61 1 -1 
+Functions: 9
+177 2 168 123 
+82 4 67 25 43 62 
+162 1 123 
+194 4 48 67 168 109 
+116 3 48 67 109 
+185 1 168 
+43 2 25 43 
+76 1 67 
+141 4 48 67 135 109 
+Constructors: 2
+177 168
+76 67
+
+Summary: 9
+168 67 123 -1 9 135 4 48 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.readCategoryTable([CZ)Lorg/eclipse/jdt/internal/compiler/util/HashtableOfObject;
+PTG:
+Vars:
+45
+$r26 1 212 
+$r11 1 291 
+$r14 1 443 
+$r31 1 238 
+$r23 1 697 
+$r21 1 172 
+$r10 1 172 
+$r22 2 687 687 
+$r6 1 118 
+$r15 1 558 
+$r35 1 261 
+$r38 1 276 
+$r9 1 172 
+r0 1 -1 
+$r37 1 273 
+r1 1 -2 
+$r3 1 19 
+$r43 1 26 
+$r20 1 172 
+$r19 1 123 
+$r5 1 45 
+r68 1 503 
+$r36 1 258 
+$r18 1 629 
+$r29 1 226 
+$r16 1 19 
+$r39 1 282 
+$r13 1 474 
+$r28 1 123 
+$r2 1 1 
+r65 1 45 
+$r25 1 200 
+$r33 1 249 
+$r4 1 19 
+$r71 1 531 
+$r34 1 252 
+_ret 1 291 
+$r17 1 562 
+r12 1 423 
+$r30 1 229 
+$r72 1 -2 
+$r27 1 209 
+$r32 1 235 
+$r8 1 150 
+$r7 1 123 
+Fields: 5
+-1 categoryTables 19
+-1 indexFile 123
+-1 streamBuffer 172
+-1 categoryOffsets 1
+503 ArrayObject 687
+Accesses: 24
+0 1 -1 
+672 1 -1 
+34 1 -1 
+165 1 -1 
+40 1 -1 
+744 1 -1 
+554 1 -1 
+171 1 -1 
+588 1 -1 
+653 1 -1 
+334 1 -1 
+176 1 -1 
+721 1 -1 
+18 1 -1 
+659 1 -1 
+598 1 -1 
+152 1 -1 
+184 1 -1 
+664 1 -1 
+633 1 -1 
+122 1 -1 
+572 1 291 
+62 1 45 
+222 1 -1 
+Functions: 58
+1 2 1 -2 
+385 0 
+261 1 261 
+391 0 
+647 1 629 
+268 1 261 
+400 0 
+273 1 273 
+657 2 629 172 
+279 2 258 276 
+537 1 531 
+540 3 291 531 423 
+31 1 26 
+159 1 118 
+288 1 282 
+417 6 -1 1 19 118 123 172 
+41 2 -2 19 
+169 2 118 172 
+297 1 291 
+425 6 -1 1 19 118 123 172 
+558 2 -2 558 
+688 6 -1 1 19 629 123 172 
+691 6 -1 1 19 629 123 172 
+309 0 
+567 3 562 19 291 
+187 6 -1 1 19 118 123 172 
+700 3 291 697 687 
+318 0 
+451 3 291 423 443 
+324 0 
+331 0 
+206 1 200 
+338 0 
+212 2 212 123 
+469 6 -1 1 19 118 123 172 
+344 0 
+219 1 212 
+731 1 629 
+477 3 291 423 474 
+350 0 
+95 5 -1 1 19 123 172 
+608 1 118 
+226 1 226 
+739 1 629 
+484 6 -1 1 19 118 123 172 
+357 0 
+232 2 209 229 
+616 1 118 
+361 0 
+238 1 238 
+367 0 
+245 1 238 
+373 0 
+249 1 249 
+380 0 
+637 2 629 123 
+126 2 118 123 
+255 2 235 252 
+Constructors: 8
+245 238
+297 291
+537 531
+219 212
+268 261
+637 629
+126 118
+31 26
+
+Summary: 24
+341 67 252 364 229 -1 503 474 385 443 273 531 629 118 276 388 226 338 0 361 562 687 249 697 
+org/eclipse/jdt/internal/core/index/DiskIndex.initializeFrom(Lorg/eclipse/jdt/internal/core/index/DiskIndex;Ljava/io/File;)V
+PTG:
+Vars:
+13
+$r21 1 40 
+r3 1 -1 
+$r5 1 149 
+r1 1 -2 
+$r4 1 137 
+$r22 1 117 
+r0 1 -3 
+$r19 1 34 
+$r2 1 117 
+$r20 1 37 
+$r6 1 161 
+$r18 1 20 
+$r17 1 23 
+Fields: 2
+-1 indexFile 34
+-2 categoryOffsets 117
+Accesses: 11
+128 1 -2 
+33 1 -1 
+129 1 117 
+145 1 -1 
+177 1 -1 
+116 1 -2 
+102 1 -1 
+169 1 -1 
+75 1 -1 
+157 1 -1 
+173 1 -2 
+Functions: 18
+0 1 -3 
+65 0 
+99 0 
+37 1 37 
+166 1 161 
+7 1 -3 
+72 0 
+106 0 
+43 2 20 40 
+142 1 137 
+79 0 
+112 0 
+49 1 -3 
+85 0 
+23 2 34 23 
+154 1 149 
+92 0 
+30 1 23 
+Constructors: 4
+166 161
+154 149
+30 23
+142 137
+
+Summary: 12
+79 1 -3 82 106 -1 37 109 117 40 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.readStreamDocumentArray(Ljava/io/FileInputStream;I)[I
+PTG:
+Vars:
+7
+$r2 1 159 
+_ret 1 1 
+r4 1 -2 
+r1 1 -1 
+$r5 1 76 
+r0 1 1 
+$r3 2 192 159 
+Fields: 2
+-1 streamBuffer 76
+-1 streamBuffer 159
+Accesses: 14
+162 1 -1 
+195 1 -1 
+132 1 -1 
+136 1 -1 
+170 1 -1 
+75 1 -1 
+203 1 -1 
+13 1 -1 
+45 1 -1 
+79 1 -1 
+50 1 -1 
+87 1 -1 
+158 1 -1 
+191 1 -1 
+Functions: 3
+115 4 -1 -2 76 159 
+232 4 -1 -2 76 159 
+253 4 -1 -2 76 159 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.addQueryResults([[C[CILorg/eclipse/jdt/internal/core/index/MemoryIndex;)Lorg/eclipse/jdt/internal/compiler/util/HashtableOfObject;
+PTG:
+Vars:
+24
+$r1 1 1 
+r14 1 35 
+r15 1 47 
+r5 1 -5 
+r3 1 -2 
+r16 1 187 
+r19 1 278 
+$r8 1 30 
+r21 1 372 
+r13 5 214 419 316 54 102 
+$r11 1 54 
+$r4 1 243 
+r0 1 -1 
+r20 1 360 
+_ret 5 214 419 316 54 102 
+$r9 1 83 
+$r6 1 182 
+r17 1 248 
+r18 1 260 
+$r12 1 130 
+$r10 1 94 
+r2 1 -3 
+$r7 1 355 
+r22 1 390 
+Fields: 13
+-1 categoryOffsets 1
+-1 cachedChunks 130
+47 ArrayObject 83
+47 ArrayObject 94
+35 keyTable 47
+260 ArrayObject 278
+248 keyTable 260
+360 keyTable 372
+372 ArrayObject 390
+-2 ArrayObject 182
+-2 ArrayObject 355
+-2 ArrayObject 30
+-2 ArrayObject 243
+Accesses: 6
+0 1 -1 
+129 1 -1 
+42 1 35 
+58 1 35 
+255 1 248 
+367 1 360 
+Functions: 13
+194 2 -3 187 
+296 2 -3 278 
+137 3 -1 1 130 
+203 11 -1 1 130 -3 419 -5 214 54 102 187 316 
+239 4 -1 1 130 243 
+304 12 -1 1 130 419 260 -5 214 54 102 278 248 316 
+400 2 -3 390 
+178 4 -1 1 130 182 
+87 13 -1 1 130 419 35 -5 102 47 83 214 54 316 94 
+407 12 -1 1 130 419 372 -5 214 54 102 390 360 316 
+26 4 -1 1 130 30 
+63 1 54 
+351 4 -1 1 130 355 
+Constructors: 1
+63 54
+
+Summary: 17
+35 260 316 -3 372 -1 0 3 47 -5 248 1 360 102 419 187 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.readHeaderInfo(Ljava/io/FileInputStream;)V
+PTG:
+Vars:
+17
+$r2 1 11 
+$r3 1 11 
+r1 1 -2 
+r11 1 183 
+r16 1 183 
+$r10 1 177 
+$r9 1 172 
+$r8 1 147 
+$r14 1 249 
+r0 1 -1 
+$r12 1 193 
+$r15 2 236 209 
+$r7 1 135 
+$r13 1 209 
+$r5 1 87 
+$r4 1 11 
+$r6 1 98 
+Fields: 5
+-1 categoryEnds 236
+-1 categoryEnds 209
+-1 chunkOffsets 98
+-1 streamBuffer 11
+-1 categoryOffsets 193
+Accesses: 25
+192 1 -1 
+257 1 -1 
+6 1 -1 
+70 1 -1 
+10 1 -1 
+14 1 -1 
+79 1 -1 
+143 1 -1 
+208 1 -1 
+83 1 -1 
+22 1 -1 
+89 1 -1 
+155 1 -1 
+30 1 -1 
+97 1 -1 
+34 1 -1 
+38 1 -1 
+235 1 -1 
+46 1 -1 
+112 1 -1 
+240 1 -1 
+54 1 -1 
+58 1 -1 
+125 1 -1 
+62 1 -1 
+Functions: 13
+128 7 -1 209 193 -2 98 11 236 
+1 7 -1 209 193 -2 98 11 236 
+102 7 -1 209 193 -2 98 11 236 
+200 2 193 183 
+140 1 135 
+172 2 177 172 
+175 7 -1 209 193 -2 98 11 236 
+244 3 209 183 236 
+215 2 209 183 
+120 7 -1 209 193 -2 98 11 236 
+152 1 147 
+185 7 -1 209 193 -2 98 11 236 
+254 1 249 
+Constructors: 3
+152 147
+140 135
+254 249
+
+Summary: 5
+177 -1 183 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.writeStreamChars(Ljava/io/FileOutputStream;[C)V
+PTG:
+Vars:
+8
+$r2 1 14 
+$r3 1 14 
+$r5 2 158 14 
+r1 1 -3 
+$r7 1 14 
+r4 1 -2 
+r0 1 -1 
+$r6 1 14 
+Fields: 1
+-1 streamBuffer 14
+Accesses: 19
+0 1 -1 
+33 1 -1 
+162 1 -1 
+131 1 -1 
+37 1 -1 
+70 1 -1 
+103 1 -1 
+171 1 -1 
+13 1 -1 
+45 1 -1 
+80 1 -1 
+18 1 -1 
+117 1 -1 
+87 1 -1 
+58 1 -1 
+122 1 -1 
+27 1 -1 
+157 1 -1 
+62 1 -1 
+Functions: 5
+22 2 -2 14 
+166 3 -2 158 14 
+139 4 -1 -2 -3 14 
+126 2 -2 14 
+206 4 -1 -2 -3 14 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.readStreamInt(Ljava/io/FileInputStream;)I
+PTG:
+Vars:
+6
+$r4 1 19 
+r5 1 -2 
+$r1 1 19 
+r0 1 -1 
+$r2 1 19 
+$r3 1 19 
+Fields: 1
+-1 streamBuffer 19
+Accesses: 14
+0 1 -1 
+99 1 -1 
+69 1 -1 
+6 1 -1 
+73 1 -1 
+43 1 -1 
+107 1 -1 
+47 1 -1 
+81 1 -1 
+18 1 -1 
+22 1 -1 
+55 1 -1 
+30 1 -1 
+95 1 -1 
+Functions: 1
+15 3 -1 -2 19 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/index/DiskIndex.startQuery()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

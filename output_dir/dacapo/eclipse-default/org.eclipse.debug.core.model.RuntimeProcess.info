@@ -1,0 +1,438 @@
+20
+org/eclipse/debug/core/model/RuntimeProcess.initializeAttributes(Ljava/util/Map;)V
+PTG:
+Vars:
+8
+r0 1 -2 
+$r3 1 20 
+$r7 1 33 
+$r1 1 5 
+r4 1 20 
+r5 1 -1 
+r2 1 15 
+$r6 1 33 
+Fields: 0
+Accesses: 0
+Functions: 6
+19 1 15 
+4 1 -2 
+5 1 5 
+41 3 -1 33 20 
+44 1 15 
+31 2 -2 20 
+Constructors: 0
+
+Summary: 6
+-1 5 33 20 0 -2 
+org/eclipse/debug/core/model/RuntimeProcess.setLaunch(Lorg/eclipse/debug/core/ILaunch;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/debug/core/model/RuntimeProcess.terminate()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 6
+17 1 -1 
+83 1 -1 
+99 1 -1 
+7 1 -1 
+90 1 -1 
+59 1 -1 
+Functions: 11
+0 1 -1 
+-1 0 
+67 0 
+37 0 
+117 0 
+55 0 
+24 0 
+27 1 -1 
+45 1 -1 
+94 0 
+126 0 
+Constructors: 0
+
+Summary: 4
+-1 49 107 102 
+org/eclipse/debug/core/model/RuntimeProcess.createStreamsProxy()Lorg/eclipse/debug/core/model/IStreamsProxy;
+PTG:
+Vars:
+6
+$r4 1 36 
+_ret 1 31 
+r2 1 30 
+$r8 1 31 
+r0 1 -1 
+$r1 1 20 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 6
+19 1 -1 
+35 1 -1 
+20 1 20 
+40 3 36 30 31 
+11 1 -1 
+15 0 
+Constructors: 1
+40 31
+
+Summary: 5
+-1 12 20 30 36 
+org/eclipse/debug/core/model/RuntimeProcess.getLabel()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/core/model/RuntimeProcess.getAttribute(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+7
+_ret 1 14 
+$r1 1 1 
+$r3 1 1 
+r2 1 -2 
+$r5 1 14 
+$r4 1 14 
+r0 1 -1 
+Fields: 1
+-1 fAttributes 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/debug/core/model/RuntimeProcess.fireTerminateEvent()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+8 2 -1 1 
+11 2 -1 1 
+Constructors: 1
+8 1
+
+Summary: 2
+-1 1 
+org/eclipse/debug/core/model/RuntimeProcess.canTerminate()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/core/model/RuntimeProcess.getLaunch()Lorg/eclipse/debug/core/ILaunch;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fLaunch 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/core/model/RuntimeProcess.terminated()V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 1 
+$r2 1 27 
+$r3 1 1 
+$r1 1 1 
+$r5 1 -1 
+Fields: 2
+-1 fProcess 27
+-1 fStreamsProxy 1
+Accesses: 6
+0 1 -1 
+33 1 -1 
+22 1 -1 
+10 1 -1 
+26 1 -1 
+42 1 -1 
+Functions: 3
+17 1 1 
+27 1 27 
+46 3 -1 1 27 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/core/model/RuntimeProcess.getStreamsProxy()Lorg/eclipse/debug/core/model/IStreamsProxy;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 10 
+$r1 1 10 
+Fields: 1
+-1 fStreamsProxy 10
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/core/model/RuntimeProcess.getSystemProcess()Ljava/lang/Process;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 fProcess 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/core/model/RuntimeProcess.getAdapter(Ljava/lang/Class;)Ljava/lang/Object;
+PTG:
+Vars:
+8
+$r27 2 1 12 
+_ret 1 230 
+$r30 2 190 179 
+r1 1 -1 
+$r28 2 43 54 
+r0 1 -2 
+$r2 1 230 
+$r29 2 145 134 
+Fields: 0
+Accesses: 0
+Functions: 21
+-1 0 
+0 3 -2 1 12 
+163 0 
+100 1 -1 
+228 2 -1 -2 
+133 3 -2 145 134 
+72 0 
+104 0 
+9 0 
+42 3 -2 54 43 
+173 1 -1 
+142 0 
+208 0 
+82 1 -1 
+178 3 -2 179 190 
+51 0 
+87 0 
+218 1 -1 
+187 0 
+219 0 
+30 0 
+Constructors: 0
+
+Summary: 10
+27 205 105 0 160 86 93 69 219 -2 
+org/eclipse/debug/core/model/RuntimeProcess.fireChangeEvent()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+8 2 -1 1 
+11 2 -1 1 
+Constructors: 1
+8 1
+
+Summary: 2
+-1 1 
+org/eclipse/debug/core/model/RuntimeProcess.isTerminated()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/core/model/RuntimeProcess.<init>(Lorg/eclipse/debug/core/ILaunch;Ljava/lang/Process;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+11
+r5 1 57 
+$r9 1 100 
+$r7 1 80 
+r2 1 -5 
+r4 1 -4 
+r1 1 -2 
+r0 1 -1 
+$r8 1 87 
+r3 1 -3 
+$r11 1 -1 
+$r6 1 60 
+Fields: 1
+-1 fMonitor 100
+Accesses: 9
+32 1 -1 
+96 1 -1 
+83 1 -1 
+99 1 -1 
+6 1 -1 
+22 1 -1 
+27 1 -1 
+75 1 -1 
+46 1 -1 
+Functions: 11
+1 2 -1 100 
+17 3 -1 100 -5 
+49 1 -2 
+114 2 -1 100 
+36 1 -3 
+103 1 100 
+11 3 -1 -2 100 
+60 2 57 60 
+108 3 -1 -2 100 
+93 3 -1 100 87 
+79 2 -1 100 
+Constructors: 2
+1 -1
+93 87
+
+Summary: 7
+-5 1 -1 2 57 0 3 
+org/eclipse/debug/core/model/RuntimeProcess.getExitValue()I
+PTG:
+Vars:
+5
+$r1 1 12 
+$r4 1 27 
+$r3 1 21 
+r0 1 -1 
+$r2 1 16 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 4
+0 1 -1 
+-1 0 
+34 2 16 12 
+31 3 16 21 27 
+Constructors: 2
+34 12
+31 16
+
+Summary: 3
+-1 21 16 
+org/eclipse/debug/core/model/RuntimeProcess.setAttribute(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+8
+r5 1 -3 
+r4 1 29 
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+$r8 1 8 
+$r3 1 1 
+$r6 1 1 
+Fields: 1
+-1 fAttributes 1
+Accesses: 4
+0 1 -1 
+16 1 -1 
+19 1 -1 
+43 1 -1 
+Functions: 5
+49 3 1 -2 -3 
+34 2 -3 29 
+20 2 1 -2 
+56 2 -1 1 
+13 1 8 
+Constructors: 1
+13 8
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/debug/core/model/RuntimeProcess.fireEvent(Lorg/eclipse/debug/core/DebugEvent;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+r0 1 3 
+r3 1 -1 
+$r1 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 0 
+17 2 3 10 
+Constructors: 0
+
+Summary: 4
+-1 3 10 0 
+org/eclipse/debug/core/model/RuntimeProcess.fireCreationEvent()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+7 2 -1 1 
+10 2 -1 1 
+Constructors: 1
+7 1
+
+Summary: 2
+-1 1 

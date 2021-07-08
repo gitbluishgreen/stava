@@ -1,0 +1,1050 @@
+54
+java/io/PrintWriter.println(J)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 lock 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 2 -1 1 
+13 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.println(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 lock 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 2 -1 1 
+13 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.ensureOpen()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 out 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.println([C)V
+PTG:
+Vars:
+3
+r3 1 -2 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 lock 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 3 -1 1 -2 
+13 2 -1 1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/io/PrintWriter.<init>(Ljava/io/Writer;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 3
+-1 -2 0 
+java/io/PrintWriter.printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+PTG:
+Vars:
+5
+r2 1 -3 
+_ret 1 3 
+r0 1 -1 
+r1 1 -2 
+$r3 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+java/io/PrintWriter.append(Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
+PTG:
+Vars:
+4
+$r2 1 15 
+r0 1 -2 
+_ret 1 -1 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+20 2 -1 15 
+7 1 -1 
+14 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+java/io/PrintWriter.print(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 0 
+5 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.println(F)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 lock 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 2 -1 1 
+13 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.println(Z)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 lock 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 2 -1 1 
+13 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;
+PTG:
+Vars:
+4
+$r2 1 8 
+$r3 1 -1 
+r0 1 -2 
+$r5 1 13 
+Fields: 0
+Accesses: 0
+Functions: 3
+18 2 -2 13 
+3 1 -2 
+7 1 -2 
+Constructors: 1
+18 13
+
+Summary: 2
+-2 0 
+java/io/PrintWriter.newLine()V
+PTG:
+Vars:
+9
+$r4 1 12 
+$r1 1 1 
+$r8 1 -1 
+$r3 1 12 
+$r6 1 -1 
+$r7 1 50 
+$r5 1 -1 
+r0 1 -1 
+$r2 1 16 
+Fields: 3
+-1 lineSeparator 16
+-1 out 12
+-1 lock 1
+Accesses: 6
+0 1 -1 
+22 1 -1 
+11 1 -1 
+29 1 -1 
+62 1 -1 
+15 1 -1 
+Functions: 5
+-1 0 
+33 1 12 
+19 2 16 12 
+53 1 50 
+8 4 -1 16 1 12 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+PTG:
+Vars:
+16
+$r1 1 1 
+$r8 1 62 
+$r2 1 13 
+$r3 1 31 
+$r17 1 13 
+r6 1 -4 
+$r9 1 13 
+$r11 1 -1 
+r4 1 -2 
+$r13 1 87 
+_ret 1 -1 
+$r14 1 -1 
+r5 1 -3 
+r0 1 -1 
+$r12 1 -1 
+$r10 1 23 
+Fields: 3
+-1 out 62
+-1 lock 1
+-1 formatter 13
+Accesses: 8
+0 1 -1 
+19 1 -1 
+100 1 -1 
+54 1 -1 
+40 1 -1 
+43 1 -1 
+12 1 -1 
+61 1 -1 
+Functions: 7
+-1 0 
+65 1 62 
+50 4 -2 -3 -4 13 
+20 1 13 
+37 6 -1 1 -2 13 62 31 
+9 4 -1 1 13 62 
+90 1 87 
+Constructors: 1
+37 31
+
+Summary: 7
+-4 23 -3 -2 1 0 2 
+java/io/PrintWriter.append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
+PTG:
+Vars:
+4
+_ret 1 4 
+r0 1 -1 
+r1 1 -2 
+$r2 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+java/io/PrintWriter.write([CII)V
+PTG:
+Vars:
+8
+$r1 1 1 
+$r5 1 -1 
+r0 1 -1 
+r2 1 -2 
+$r3 1 13 
+$r6 1 41 
+$r4 1 -1 
+$r7 1 -1 
+Fields: 2
+-1 out 13
+-1 lock 1
+Accesses: 3
+0 1 -1 
+54 1 -1 
+12 1 -1 
+Functions: 4
+-1 0 
+19 2 -2 13 
+9 3 -1 1 13 
+44 1 41 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/io/PrintWriter.<init>(Ljava/io/Writer;Z)V
+PTG:
+Vars:
+5
+$r2 1 26 
+r0 1 -1 
+r1 1 -2 
+$r3 1 35 
+$r4 1 35 
+Fields: 0
+Accesses: 5
+17 1 -1 
+22 1 -1 
+7 1 -1 
+41 1 -1 
+12 1 -1 
+Functions: 3
+32 1 26 
+2 2 -1 -2 
+26 1 26 
+Constructors: 2
+32 26
+2 -1
+
+Summary: 2
+-1 0 
+java/io/PrintWriter.append(C)Ljava/io/PrintWriter;
+PTG:
+Vars:
+2
+_ret 1 -1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/io/PrintWriter.append(Ljava/lang/CharSequence;II)Ljava/io/Writer;
+PTG:
+Vars:
+4
+$r2 1 4 
+r0 1 -1 
+_ret 1 4 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/io/PrintWriter.append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+_ret 1 2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/io/PrintWriter.print(F)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 0 
+5 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.print(Z)V
+PTG:
+Vars:
+2
+$r2 2 5 10 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+12 3 -1 5 10 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.print(D)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 0 
+5 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.write(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 1 -2 
+7 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/io/PrintWriter.flush()V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 -1 
+$r3 1 -1 
+$r1 1 1 
+$r2 1 12 
+Fields: 2
+-1 out 12
+-1 lock 1
+Accesses: 3
+0 1 -1 
+34 1 -1 
+11 1 -1 
+Functions: 2
+8 3 -1 1 12 
+15 1 12 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.clearError()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.checkError()Z
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+$r3 1 35 
+Fields: 2
+-1 out 1
+-1 psOut 35
+Accesses: 6
+0 1 -1 
+49 1 -1 
+34 1 -1 
+21 1 -1 
+41 1 -1 
+11 1 -1 
+Functions: 3
+8 3 -1 1 35 
+42 0 
+29 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.print(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 2 6 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+9 3 -1 -2 6 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/io/PrintWriter.<init>(Ljava/io/OutputStream;Z)V
+PTG:
+Vars:
+5
+$r4 1 -2 
+r3 1 -2 
+$r1 1 1 
+r0 1 -1 
+$r2 1 5 
+Fields: 0
+Accesses: 1
+32 1 -1 
+Functions: 3
+17 2 -1 1 
+10 2 -2 5 
+13 2 1 5 
+Constructors: 3
+17 -1
+10 5
+13 1
+
+Summary: 4
+-1 1 5 0 
+java/io/PrintWriter.println(C)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 lock 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 2 -1 1 
+13 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.print([C)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/io/PrintWriter.write(I)V
+PTG:
+Vars:
+7
+$r3 1 -1 
+r0 1 -1 
+$r6 1 -1 
+$r4 1 -1 
+$r2 1 12 
+$r5 1 33 
+$r1 1 1 
+Fields: 2
+-1 out 12
+-1 lock 1
+Accesses: 3
+0 1 -1 
+11 1 -1 
+45 1 -1 
+Functions: 4
+16 1 12 
+-1 0 
+36 1 33 
+8 3 -1 1 12 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.append(Ljava/lang/CharSequence;)Ljava/io/Writer;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 2 
+$r2 1 2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/io/PrintWriter.append(Ljava/lang/CharSequence;II)Ljava/io/PrintWriter;
+PTG:
+Vars:
+6
+r0 1 -2 
+_ret 1 -1 
+$r4 1 22 
+$r3 1 17 
+r2 1 -1 
+$r5 2 -2 4 
+Fields: 0
+Accesses: 0
+Functions: 3
+17 1 17 
+27 2 -1 22 
+13 2 -2 4 
+Constructors: 0
+
+Summary: 1
+0 
+java/io/PrintWriter.append(C)Ljava/lang/Appendable;
+PTG:
+Vars:
+3
+_ret 1 2 
+r0 1 -1 
+$r1 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/io/PrintWriter.print(Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+5 2 -1 2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/io/PrintWriter.println(Ljava/lang/Object;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+$r3 1 6 
+r1 1 4 
+r2 1 -1 
+Fields: 1
+-1 lock 6
+Accesses: 1
+5 1 -1 
+Functions: 3
+0 1 -2 
+18 2 -1 6 
+14 3 -1 4 6 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/io/PrintWriter.<init>(Ljava/io/File;)V
+PTG:
+Vars:
+5
+$r1 1 1 
+$r3 1 9 
+$r2 1 5 
+r4 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+17 2 5 9 
+20 2 1 5 
+24 2 -1 1 
+14 2 -2 9 
+Constructors: 4
+17 5
+20 1
+24 -1
+14 9
+
+Summary: 5
+-1 1 -2 5 9 
+java/io/PrintWriter.append(C)Ljava/io/Writer;
+PTG:
+Vars:
+3
+$r1 1 2 
+_ret 1 2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/io/PrintWriter.write([C)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/io/PrintWriter.<init>(Ljava/io/OutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 2
+-1 -2 
+java/io/PrintWriter.setError()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.println(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r3 1 -2 
+Fields: 1
+-1 lock 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 3 -1 1 -2 
+13 2 -1 1 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/io/PrintWriter.println()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+PTG:
+Vars:
+17
+r5 1 -3 
+$r18 1 47 
+r0 1 -1 
+$r10 1 25 
+$r12 1 -1 
+r4 1 -2 
+$r8 1 12 
+$r3 1 32 
+$r17 1 12 
+$r11 1 -1 
+_ret 1 -1 
+$r7 1 64 
+$r9 1 22 
+$r2 1 12 
+$r1 1 1 
+$r14 1 -1 
+$r13 1 86 
+Fields: 3
+-1 out 64
+-1 lock 1
+-1 formatter 12
+Accesses: 8
+0 1 -1 
+18 1 -1 
+98 1 -1 
+40 1 -1 
+56 1 -1 
+11 1 -1 
+43 1 -1 
+63 1 -1 
+Functions: 8
+-1 0 
+19 1 12 
+67 1 64 
+52 4 -2 -3 12 47 
+37 5 32 -1 64 1 12 
+8 4 -1 64 1 12 
+89 1 86 
+47 0 
+Constructors: 1
+37 32
+
+Summary: 4
+-3 -2 1 0 
+java/io/PrintWriter.<init>(Ljava/io/File;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -3 
+r3 1 -2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -3 
+6 3 -1 -2 2 
+Constructors: 1
+6 -1
+
+Summary: 3
+-1 -2 -3 
+java/io/PrintWriter.print(C)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+PTG:
+Vars:
+6
+r3 1 -4 
+_ret 1 4 
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+$r4 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 3
+-4 -2 -3 
+java/io/PrintWriter.print(J)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 0 
+5 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.<init>(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 -3 
+$r3 1 5 
+$r2 1 2 
+r4 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -3 
+10 2 -2 5 
+13 3 -1 2 5 
+Constructors: 2
+10 5
+13 -1
+
+Summary: 4
+-1 -2 5 -3 
+java/io/PrintWriter.close()V
+PTG:
+Vars:
+6
+$r3 1 8 
+r0 1 -1 
+$r2 1 8 
+$r1 1 1 
+$r5 1 -1 
+$r4 1 -1 
+Fields: 2
+-1 out 8
+-1 lock 1
+Accesses: 5
+0 1 -1 
+17 1 -1 
+7 1 -1 
+26 1 -1 
+45 1 -1 
+Functions: 1
+21 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+java/io/PrintWriter.write(Ljava/lang/String;II)V
+PTG:
+Vars:
+8
+$r6 1 41 
+r2 1 -2 
+$r1 1 1 
+$r3 1 13 
+$r5 1 -1 
+r0 1 -1 
+$r4 1 -1 
+$r7 1 -1 
+Fields: 2
+-1 out 13
+-1 lock 1
+Accesses: 3
+0 1 -1 
+54 1 -1 
+12 1 -1 
+Functions: 4
+-1 0 
+19 2 -2 13 
+9 3 -1 1 13 
+44 1 41 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/io/PrintWriter.<init>(Ljava/nio/charset/Charset;Ljava/io/File;)V
+PTG:
+Vars:
+6
+$r2 1 5 
+r5 1 -2 
+$r1 1 1 
+r4 1 -3 
+r0 1 -1 
+$r3 1 9 
+Fields: 0
+Accesses: 0
+Functions: 4
+18 3 -2 5 9 
+21 2 1 5 
+25 2 -1 1 
+14 2 -3 9 
+Constructors: 4
+18 5
+21 1
+25 -1
+14 9
+
+Summary: 8
+-1 1 -2 5 1 -3 9 0 
+java/io/PrintWriter.<init>(Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r4 1 -2 
+$r2 1 5 
+$r3 1 9 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 4
+17 2 5 9 
+20 2 1 5 
+24 2 -1 1 
+14 2 -2 9 
+Constructors: 4
+17 5
+20 1
+24 -1
+14 9
+
+Summary: 5
+-1 1 -2 5 9 
+java/io/PrintWriter.println(D)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 lock 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 2 -1 1 
+13 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 

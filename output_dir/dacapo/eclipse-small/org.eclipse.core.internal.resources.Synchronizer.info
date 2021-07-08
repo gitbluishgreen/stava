@@ -1,0 +1,494 @@
+18
+org/eclipse/core/internal/resources/Synchronizer.getSyncInfo(Lorg/eclipse/core/runtime/QualifiedName;Lorg/eclipse/core/resources/IResource;)[B
+PTG:
+Vars:
+8
+r1 1 -3 
+r0 1 -2 
+$r4 1 66 
+$r3 1 62 
+r2 1 -1 
+r9 1 76 
+$r10 1 88 
+_ret 1 88 
+Fields: 1
+-1 workspace 62
+Accesses: 1
+61 1 -1 
+Functions: 9
+65 1 -3 
+37 1 -2 
+85 2 -2 76 
+22 0 
+54 0 
+9 0 
+57 0 
+26 3 -1 -2 62 
+62 2 66 62 
+Constructors: 0
+
+Summary: 7
+-2 76 -1 46 41 -3 66 
+org/eclipse/core/internal/resources/Synchronizer.readPartners(Ljava/io/DataInputStream;)V
+PTG:
+Vars:
+4
+r4 1 -2 
+$r0 1 0 
+$r2 1 5 
+r1 1 -1 
+Fields: 1
+-1 workspace 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+9 3 0 -1 5 
+15 2 0 -2 
+Constructors: 1
+9 0
+
+Summary: 3
+-2 -1 0 
+org/eclipse/core/internal/resources/Synchronizer.getRegistry()Ljava/util/Set;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 registry 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Synchronizer.setSyncInfo(Lorg/eclipse/core/runtime/QualifiedName;Lorg/eclipse/core/resources/IResource;[B)V
+PTG:
+Vars:
+21
+$r3 1 27 
+r27 1 -3 
+r7 1 -4 
+$r9 1 270 
+r1 1 -3 
+$r13 1 163 
+$r15 1 193 
+r30 1 220 
+$r5 1 27 
+$r4 1 27 
+r0 1 -2 
+$r32 1 27 
+r28 1 122 
+$r10 1 280 
+$r11 1 -3 
+$r14 1 177 
+r29 1 177 
+$r16 1 27 
+$r8 1 264 
+r2 1 -1 
+$r6 1 114 
+Fields: 1
+-1 workspace 27
+Accesses: 8
+35 1 -1 
+148 1 -1 
+26 1 -1 
+202 1 -1 
+91 1 -1 
+108 1 -1 
+332 1 -1 
+319 1 -1 
+Functions: 36
+133 1 -3 
+261 1 220 
+326 1 -3 
+199 1 177 
+9 0 
+73 0 
+76 0 
+80 1 -3 
+209 2 -3 27 
+339 2 -3 27 
+213 1 -3 
+22 0 
+155 1 -3 
+284 2 280 270 
+32 2 -3 27 
+161 1 -3 
+98 1 -3 
+226 3 -2 -4 220 
+166 1 -3 
+231 1 220 
+40 1 27 
+296 2 -3 270 
+43 3 -1 -2 27 
+299 1 270 
+172 2 -3 163 
+109 2 114 27 
+175 1 -3 
+239 1 220 
+112 1 -3 
+242 2 -3 220 
+54 1 -2 
+313 1 270 
+187 2 177 193 
+251 1 -3 
+124 2 -3 122 
+189 1 177 
+Constructors: 1
+284 270
+
+Summary: 14
+270 193 220 -1 64 163 177 -3 264 -2 114 122 -4 58 
+org/eclipse/core/internal/resources/Synchronizer.snapSyncInfo(Lorg/eclipse/core/internal/resources/ResourceInfo;Lorg/eclipse/core/internal/watson/IPathRequestor;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+$r4 1 1 
+r2 1 -3 
+r0 1 -1 
+r3 1 -4 
+Fields: 1
+-1 writer 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+7 4 1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 
+org/eclipse/core/internal/resources/Synchronizer.accept(Lorg/eclipse/core/runtime/QualifiedName;Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/resources/IResourceVisitor;I)V
+PTG:
+Vars:
+8
+r6 1 93 
+r1 1 -3 
+$r4 1 42 
+$r5 1 -3 
+$r7 1 107 
+r2 1 -4 
+r3 1 -1 
+r0 1 -2 
+Fields: 1
+93 ArrayObject 107
+Accesses: 0
+Functions: 8
+48 2 -3 -4 
+64 1 -3 
+35 0 
+85 1 -3 
+22 0 
+39 3 -1 -2 -3 
+9 0 
+111 4 -1 -2 -4 107 
+Constructors: 0
+
+Summary: 6
+-2 42 93 -4 -1 -3 
+org/eclipse/core/internal/resources/Synchronizer.savePartners(Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 writer 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/resources/Synchronizer.restoreFromSave(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+16
+r0 1 -1 
+$r2 1 4 
+$r5 1 1 
+$r1 1 1 
+$r14 1 1 
+$r6 1 16 
+$r12 1 64 
+$r11 1 58 
+r7 1 23 
+r4 1 11 
+$r9 1 49 
+$r10 1 53 
+r3 1 -2 
+$r8 1 25 
+$r15 1 37 
+$r13 1 77 
+Fields: 1
+-1 workspace 1
+Accesses: 3
+0 1 -1 
+81 1 -1 
+12 1 -1 
+Functions: 18
+1 1 1 
+4 2 -2 4 
+36 1 23 
+37 1 37 
+69 3 64 53 58 
+72 2 49 53 
+105 1 49 
+13 1 1 
+142 1 11 
+16 2 16 11 
+113 1 49 
+86 3 -1 1 77 
+24 1 11 
+25 1 25 
+57 1 11 
+124 1 11 
+63 1 23 
+95 2 49 77 
+Constructors: 3
+69 53
+86 77
+72 49
+
+Summary: 6
+77 -1 -2 53 0 49 
+org/eclipse/core/internal/resources/Synchronizer.restore(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 2 -1 -2 
+7 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/core/internal/resources/Synchronizer.getPartners()[Lorg/eclipse/core/runtime/QualifiedName;
+PTG:
+Vars:
+7
+$r5 1 16 
+$r2 1 1 
+$r3 1 13 
+r0 1 -1 
+$r4 1 16 
+$r1 1 1 
+_ret 1 16 
+Fields: 1
+-1 registry 1
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 2
+1 2 1 13 
+5 1 1 
+Constructors: 0
+
+Summary: 2
+13 -1 
+org/eclipse/core/internal/resources/Synchronizer.add(Lorg/eclipse/core/runtime/QualifiedName;)V
+PTG:
+Vars:
+3
+$r2 1 14 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 registry 14
+Accesses: 1
+13 1 -1 
+Functions: 2
+18 2 -2 14 
+9 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/resources/Synchronizer.<init>(Lorg/eclipse/core/internal/resources/Workspace;)V
+PTG:
+Vars:
+4
+$r3 1 22 
+r2 1 -2 
+r0 1 -1 
+$r1 1 5 
+Fields: 0
+Accesses: 3
+18 1 -1 
+13 1 -1 
+31 1 -1 
+Functions: 3
+1 1 -1 
+10 1 5 
+28 3 -1 -2 22 
+Constructors: 3
+1 -1
+10 5
+28 22
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/resources/Synchronizer.flushSyncInfo(Lorg/eclipse/core/runtime/QualifiedName;Lorg/eclipse/core/resources/IResource;I)V
+PTG:
+Vars:
+6
+r0 1 -2 
+r1 1 -3 
+$r6 1 26 
+$r5 1 40 
+$r7 1 26 
+r3 1 -1 
+Fields: 1
+-1 workspace 40
+Accesses: 1
+39 1 -1 
+Functions: 4
+48 3 -3 40 26 
+34 5 -1 -2 -3 40 26 
+22 0 
+9 0 
+Constructors: 1
+34 26
+
+Summary: 4
+-2 -1 26 -3 
+org/eclipse/core/internal/resources/Synchronizer.restoreFromSnap(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+17
+$r1 1 1 
+$r10 1 1 
+$r8 1 34 
+r4 1 11 
+$r11 1 -1 
+r20 1 94 
+$r5 1 13 
+r0 1 -1 
+$r6 1 25 
+$r7 1 29 
+r3 1 -2 
+$r12 1 87 
+$r14 1 -1 
+$r2 1 4 
+$r13 1 96 
+$r9 1 46 
+$r16 1 -1 
+Fields: 1
+-1 workspace 1
+Accesses: 2
+0 1 -1 
+50 1 -1 
+Functions: 14
+1 1 1 
+33 1 11 
+4 2 -2 4 
+39 2 34 29 
+71 1 25 
+42 2 25 29 
+107 4 96 -1 11 94 
+12 1 11 
+13 1 13 
+110 1 96 
+80 1 25 
+55 3 -1 1 46 
+90 2 87 11 
+63 2 25 46 
+Constructors: 4
+39 29
+55 46
+42 25
+107 96
+
+Summary: 7
+29 -1 46 -2 96 25 0 
+org/eclipse/core/internal/resources/Synchronizer.saveSyncInfo(Lorg/eclipse/core/internal/resources/ResourceInfo;Lorg/eclipse/core/internal/watson/IPathRequestor;Ljava/io/DataOutputStream;Ljava/util/List;)V
+PTG:
+Vars:
+6
+r4 1 -5 
+r1 1 -2 
+r3 1 -4 
+r0 1 -1 
+r2 1 -3 
+$r5 1 1 
+Fields: 1
+-1 writer 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+9 5 1 -2 -3 -4 -5 
+Constructors: 0
+
+Summary: 5
+-2 -4 -1 -5 -3 
+org/eclipse/core/internal/resources/Synchronizer.remove(Lorg/eclipse/core/runtime/QualifiedName;)V
+PTG:
+Vars:
+6
+$r3 1 27 
+$r2 1 24 
+$r5 1 -1 
+$r4 1 35 
+r0 1 -2 
+r1 1 -1 
+Fields: 2
+-1 registry 35
+-1 workspace 24
+Accesses: 2
+34 1 -1 
+23 1 -1 
+Functions: 6
+50 1 -1 
+39 2 -2 35 
+24 1 24 
+9 0 
+13 4 -1 -2 35 24 
+31 5 -1 -2 35 24 27 
+Constructors: 0
+
+Summary: 3
+-2 27 -1 
+org/eclipse/core/internal/resources/Synchronizer.setRegistry(Ljava/util/Set;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/Synchronizer.isRegistered(Lorg/eclipse/core/runtime/QualifiedName;)Z
+PTG:
+Vars:
+3
+$r2 1 14 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 registry 14
+Accesses: 1
+13 1 -1 
+Functions: 2
+9 0 
+14 2 -2 14 
+Constructors: 0
+
+Summary: 2
+-2 -1 

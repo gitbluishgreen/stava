@@ -1,0 +1,284 @@
+10
+org/apache/xerces/util/SymbolTable.hash(Ljava/lang/String;)I
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/util/SymbolTable.rehash()V
+PTG:
+Vars:
+10
+r2 1 1 
+$r8 2 102 102 
+r3 1 18 
+r9 2 74 60 
+$r1 1 1 
+$r7 1 79 
+r5 2 74 60 
+$r4 1 1 
+$r6 2 79 85 
+r0 1 -1 
+Fields: 6
+74 next 74
+74 characters 79
+1 ArrayObject 60
+60 characters 79
+-1 fBuckets 1
+18 ArrayObject 102
+Accesses: 11
+0 1 -1 
+32 1 -1 
+83 2 74 60 
+69 2 74 60 
+6 1 -1 
+38 1 -1 
+103 2 74 60 
+26 1 -1 
+42 1 -1 
+77 2 74 60 
+47 1 -1 
+Functions: 1
+76 4 -1 1 60 79 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/util/SymbolTable.containsSymbol(Ljava/lang/String;)Z
+PTG:
+Vars:
+6
+$r2 1 17 
+$r4 2 30 51 
+r5 2 79 22 
+$r3 1 30 
+r0 1 -1 
+r1 1 -2 
+Fields: 5
+79 next 79
+79 characters 30
+17 ArrayObject 22
+-1 fBuckets 17
+22 characters 30
+Accesses: 5
+16 1 -1 
+49 2 22 79 
+5 1 -1 
+74 2 22 79 
+28 2 22 79 
+Functions: 3
+0 5 -1 17 -2 22 30 
+11 1 -2 
+43 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/util/SymbolTable.addSymbol(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+11
+r0 1 -1 
+r12 2 41 17 
+$r5 1 72 
+_ret 1 108 
+$r3 1 22 
+$r6 1 12 
+r1 1 -2 
+$r2 1 12 
+$r10 1 108 
+$r9 1 12 
+$r7 1 82 
+Fields: 7
+41 next 41
+41 symbol 22
+17 symbol 22
+-1 fBuckets 12
+12 ArrayObject 82
+12 ArrayObject 17
+72 symbol 108
+Accesses: 13
+32 2 17 41 
+96 1 -1 
+66 1 -1 
+5 1 -1 
+37 2 17 41 
+103 1 -1 
+106 1 72 
+11 1 -1 
+77 1 -1 
+46 1 -1 
+50 1 -1 
+21 2 17 41 
+88 1 -1 
+Functions: 5
+0 6 -1 17 -2 82 22 12 
+83 4 -2 82 72 108 
+22 2 -2 22 
+58 5 -1 17 82 22 12 
+61 6 -1 17 -2 82 22 12 
+Constructors: 1
+83 72
+
+Summary: 2
+-2 -1 
+org/apache/xerces/util/SymbolTable.<init>(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 -1 
+Constructors: 1
+4 -1
+
+Summary: 1
+-1 
+org/apache/xerces/util/SymbolTable.addSymbol([CII)Ljava/lang/String;
+PTG:
+Vars:
+12
+r0 1 -1 
+$r10 1 158 
+r1 1 -2 
+$r9 1 15 
+_ret 1 158 
+$r2 1 15 
+r12 2 21 82 
+$r6 1 118 
+$r7 1 15 
+$r3 1 29 
+$r8 1 131 
+$r4 2 50 29 
+Fields: 7
+-1 fBuckets 15
+15 ArrayObject 21
+15 ArrayObject 131
+21 characters 29
+82 next 82
+82 characters 29
+118 symbol 158
+Accesses: 14
+7 1 -1 
+71 2 82 21 
+137 1 -1 
+77 2 82 21 
+14 1 -1 
+111 1 -1 
+48 2 82 21 
+146 1 -1 
+89 1 -1 
+153 1 -1 
+27 2 82 21 
+156 1 118 
+93 1 -1 
+125 1 -1 
+Functions: 4
+0 6 -1 -2 131 21 29 15 
+132 4 -2 131 118 158 
+101 5 -1 131 21 29 15 
+104 6 -1 -2 131 21 29 15 
+Constructors: 1
+132 118
+
+Summary: 2
+-2 -1 
+org/apache/xerces/util/SymbolTable.<init>(IF)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r6 1 101 
+Fields: 0
+Accesses: 8
+97 1 -1 
+116 1 -1 
+6 1 -1 
+88 1 -1 
+104 1 -1 
+121 1 -1 
+108 1 -1 
+93 1 -1 
+Functions: 12
+1 1 -1 
+17 0 
+66 0 
+36 0 
+21 0 
+70 0 
+57 0 
+26 0 
+76 0 
+61 0 
+30 0 
+46 0 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/apache/xerces/util/SymbolTable.hash([CII)I
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/util/SymbolTable.containsSymbol([CII)Z
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 29 
+$r2 1 15 
+r5 2 78 21 
+$r4 2 50 29 
+r1 1 -2 
+Fields: 5
+78 next 78
+78 characters 29
+-1 fBuckets 15
+15 ArrayObject 21
+21 characters 29
+Accesses: 5
+48 2 21 78 
+7 1 -1 
+73 2 21 78 
+27 2 21 78 
+14 1 -1 
+Functions: 1
+0 5 -1 -2 21 29 15 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/util/SymbolTable.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 -1 
+Constructors: 1
+5 -1
+
+Summary: 1
+-1 

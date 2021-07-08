@@ -1,0 +1,2579 @@
+84
+org/apache/xml/serializer/ToStream.attributeDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r5 1 86 
+r4 1 -5 
+r1 1 -2 
+r9 1 12 
+r2 1 -3 
+r3 1 -4 
+r8 1 -6 
+Fields: 2
+-1 m_writer 12
+-1 m_lineSep 86
+Accesses: 4
+0 1 -1 
+85 1 -1 
+8 1 -1 
+90 1 -1 
+Functions: 12
+48 1 12 
+80 1 12 
+66 1 12 
+35 1 12 
+22 1 12 
+54 2 -4 12 
+41 2 -3 12 
+73 2 -5 12 
+28 2 -2 12 
+108 0 
+94 2 86 12 
+15 3 -1 86 12 
+Constructors: 0
+
+Summary: 11
+-2 4 -6 1 -3 0 -5 3 2 -1 -4 
+org/apache/xml/serializer/ToStream.setTransformer(Ljavax/xml/transform/Transformer;)V
+PTG:
+Vars:
+7
+$r6 1 13 
+r0 1 -1 
+$r3 1 13 
+$r5 1 6 
+r1 1 -2 
+$r4 1 23 
+$r2 1 6 
+Fields: 2
+-1 m_writer 13
+-1 m_tracer 6
+Accesses: 4
+5 1 -1 
+27 1 -1 
+12 1 -1 
+31 1 -1 
+Functions: 3
+2 4 -1 -2 6 13 
+35 3 6 23 13 
+39 4 -1 6 23 13 
+Constructors: 1
+35 23
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.setNewLine([C)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+8 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.resetToStream()V
+PTG:
+Vars:
+5
+$r1 1 6 
+$r3 1 50 
+$r4 1 63 
+r0 1 -1 
+$r2 1 43 
+Fields: 2
+-1 m_disableOutputEscapingStates 6
+-1 m_preserves 63
+Accesses: 16
+2 1 -1 
+34 1 -1 
+5 1 -1 
+39 1 -1 
+71 1 -1 
+76 1 -1 
+14 1 -1 
+46 1 -1 
+81 1 -1 
+19 1 -1 
+54 1 -1 
+86 1 -1 
+24 1 -1 
+59 1 -1 
+29 1 -1 
+62 1 -1 
+Functions: 2
+66 1 63 
+9 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.indent(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+20 1 -1 
+11 1 -1 
+Functions: 2
+8 1 -1 
+25 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.setIndentAmount(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.setDTDEntityExpansion(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.ensurePrefixIsDeclared(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+12
+$r6 1 112 
+$r7 1 122 
+r3 1 -1 
+r1 1 -3 
+$r8 1 127 
+r2 2 35 43 
+$r4 1 55 
+r0 1 -2 
+$r15 2 107 130 
+$r10 2 35 43 
+r5 1 63 
+$r14 3 35 43 -2 
+Fields: 1
+-1 m_prefixMap 55
+Accesses: 1
+54 1 -1 
+Functions: 11
+112 1 112 
+4 1 -2 
+84 5 -1 -2 35 55 43 
+116 1 112 
+55 3 35 55 43 
+71 2 -2 63 
+40 1 -3 
+137 7 -1 -2 130 35 55 43 107 
+122 3 35 122 43 
+11 1 -3 
+127 1 127 
+Constructors: 1
+116 112
+
+Summary: 8
+-2 43 63 1 0 130 127 -1 
+org/apache/xml/serializer/ToStream.closeCDATA()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_writer 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+6 1 1 
+23 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.externalEntityDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+14
+$r10 1 5 
+$r5 1 5 
+$r7 1 5 
+$r12 1 5 
+$r1 1 5 
+r4 1 -3 
+$r8 1 5 
+$r13 1 -1 
+r6 1 -4 
+$r3 1 5 
+r0 1 -1 
+r2 1 -2 
+$r11 1 5 
+$r9 1 76 
+Fields: 2
+-1 m_writer 5
+-1 m_lineSep 76
+Accesses: 10
+80 1 -1 
+34 1 -1 
+4 1 -1 
+54 1 -1 
+71 1 -1 
+25 1 -1 
+75 1 -1 
+13 1 -1 
+45 1 -1 
+62 1 -1 
+Functions: 10
+1 3 -1 5 76 
+18 2 -2 5 
+51 1 5 
+68 1 5 
+84 2 5 76 
+39 2 -3 5 
+10 1 5 
+59 2 -4 5 
+94 1 -1 
+31 1 5 
+Constructors: 0
+
+Summary: 7
+-2 1 -3 0 2 -1 -4 
+org/apache/xml/serializer/ToStream.<clinit>()V
+PTG:
+Vars:
+3
+$r2 1 11 
+$r1 1 8 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+4 1 3 
+8 1 8 
+Constructors: 0
+
+Summary: 0
+
+org/apache/xml/serializer/ToStream.setWriterInternal(Ljava/io/Writer;Z)V
+PTG:
+Vars:
+8
+r7 2 23 56 
+$r6 2 23 56 
+r1 1 -2 
+$r5 1 23 
+$r4 1 11 
+$r2 1 11 
+$r3 1 66 
+r0 1 -1 
+Fields: 2
+-1 m_writer 23
+-1 m_tracer 11
+Accesses: 7
+81 1 -1 
+2 1 -1 
+19 1 -1 
+70 1 -1 
+7 1 -1 
+10 1 -1 
+74 1 -1 
+Functions: 2
+48 2 23 56 
+78 3 66 23 11 
+Constructors: 1
+78 66
+
+Summary: 3
+56 0 -1 
+org/apache/xml/serializer/ToStream.flushPending()V
+PTG:
+Vars:
+6
+$r1 1 17 
+$r5 1 -1 
+$r2 1 55 
+$r3 1 55 
+$r4 1 17 
+r0 1 -1 
+Fields: 2
+-1 m_writer 55
+-1 m_elemContext 17
+Accesses: 10
+0 1 -1 
+16 1 -1 
+17 1 17 
+35 1 17 
+51 1 -1 
+38 1 -1 
+54 1 -1 
+13 1 -1 
+61 1 -1 
+30 1 -1 
+Functions: 4
+65 1 55 
+8 3 -1 17 55 
+27 3 -1 17 55 
+46 3 -1 17 55 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.setCdataSectionElements(Ljava/lang/String;Ljava/util/Properties;)V
+PTG:
+Vars:
+8
+r0 1 -3 
+$r3 1 11 
+$r10 1 80 
+r1 1 -2 
+$r5 1 29 
+r7 1 -1 
+$r8 1 145 
+r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 16
+0 2 -2 -3 
+33 1 29 
+162 2 -1 11 
+69 1 29 
+134 1 29 
+78 1 29 
+15 1 11 
+143 1 29 
+48 1 5 
+20 1 5 
+85 3 -1 80 11 
+150 3 -1 145 11 
+56 0 
+91 1 29 
+124 1 29 
+156 1 29 
+Constructors: 2
+33 29
+15 11
+
+Summary: 8
+29 5 11 145 -2 80 -3 -1 
+org/apache/xml/serializer/ToStream.endElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+21
+$r13 1 58 
+$r5 1 13 
+$r6 1 13 
+r4 1 -4 
+$r2 1 9 
+r22 1 27 
+$r3 1 13 
+$r24 1 40 
+r21 1 -3 
+$r8 1 207 
+$r9 1 207 
+r0 1 -1 
+$r11 1 13 
+r20 1 -2 
+$r7 1 252 
+$r15 1 58 
+$r17 1 51 
+$r1 1 13 
+$r14 1 27 
+$r12 1 40 
+$r16 1 13 
+Fields: 8
+13 m_prev 252
+13 m_elementName 51
+-1 m_prefixMap 9
+-1 m_writer 27
+-1 m_attributes 58
+-1 m_elemContext 13
+-1 m_preserves 207
+-1 m_tracer 40
+Accesses: 28
+0 1 -1 
+134 1 -1 
+198 1 -1 
+135 1 13 
+8 1 -1 
+72 1 -1 
+12 1 -1 
+13 1 13 
+206 1 -1 
+81 1 -1 
+23 1 -1 
+88 1 -1 
+220 1 -1 
+29 1 -1 
+30 1 13 
+227 1 -1 
+39 1 -1 
+232 1 -1 
+235 1 -1 
+47 1 -1 
+48 1 13 
+115 1 -1 
+248 1 -1 
+57 1 -1 
+249 1 13 
+188 1 -1 
+189 1 13 
+255 1 -1 
+Functions: 18
+99 1 27 
+163 2 -4 27 
+170 1 27 
+109 1 27 
+78 9 -1 51 40 9 58 27 252 13 207 
+143 9 -1 51 40 9 58 27 252 13 207 
+207 1 207 
+20 1 9 
+244 10 -1 51 -4 40 9 58 27 252 13 207 
+85 1 58 
+54 9 -1 51 40 9 58 27 252 13 207 
+150 1 27 
+184 0 
+58 1 58 
+123 9 -1 51 40 9 58 27 252 13 207 
+157 1 27 
+221 1 207 
+126 9 -1 51 40 9 58 27 252 13 207 
+Constructors: 0
+
+Summary: 7
+-2 1 -3 0 2 -1 -4 
+org/apache/xml/serializer/ToStream.endElement(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xml/serializer/ToStream.<init>()V
+PTG:
+Vars:
+6
+$r2 1 16 
+r0 1 -1 
+$r1 1 5 
+$r3 1 30 
+$r4 1 51 
+$r5 1 64 
+Fields: 1
+-1 m_lineSep 64
+Accesses: 16
+98 1 -1 
+68 1 -1 
+37 1 -1 
+103 1 -1 
+73 1 -1 
+42 1 -1 
+12 1 -1 
+78 1 -1 
+47 1 -1 
+83 1 -1 
+54 1 -1 
+88 1 -1 
+26 1 -1 
+59 1 -1 
+93 1 -1 
+63 1 -1 
+Functions: 4
+1 2 -1 64 
+34 1 30 
+23 1 16 
+9 1 5 
+Constructors: 4
+1 -1
+34 30
+23 16
+9 5
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.indent()V
+PTG:
+Vars:
+2
+$r1 1 2 
+r0 1 -1 
+Fields: 1
+-1 m_elemContext 2
+Accesses: 2
+1 1 -1 
+2 1 2 
+Functions: 1
+8 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.characters([CII)V
+PTG:
+Vars:
+21
+$r4 1 97 
+$r6 1 25 
+$r13 1 596 
+$r15 2 198 386 
+r0 1 -1 
+$r16 1 198 
+$r8 1 758 
+$r11 1 648 
+r7 1 171 
+r2 1 -2 
+$r19 1 25 
+$r18 1 25 
+$r14 1 538 
+r22 1 227 
+$r10 2 198 386 
+$r17 1 198 
+$r9 1 171 
+$r12 1 682 
+$r3 1 25 
+$r1 1 25 
+r23 1 415 
+Fields: 7
+-1 m_writer 171
+-1 m_charInfo 386
+-1 m_charInfo 198
+-1 m_disableOutputEscapingStates 97
+-1 m_encodingInfo 648
+-1 m_elemContext 25
+-1 m_tracer 758
+Accesses: 29
+385 1 -1 
+67 1 -1 
+4 1 -1 
+68 1 25 
+197 1 -1 
+135 1 -1 
+647 1 -1 
+136 1 25 
+11 1 -1 
+21 1 -1 
+85 1 -1 
+149 1 -1 
+725 1 -1 
+406 1 -1 
+24 1 -1 
+25 1 25 
+154 1 25 
+218 1 -1 
+96 1 -1 
+739 1 -1 
+38 1 -1 
+167 1 -1 
+106 1 -1 
+43 1 25 
+49 1 -1 
+369 1 -1 
+757 1 -1 
+120 1 -1 
+60 1 -1 
+Functions: 43
+768 9 -1 97 -2 386 198 758 648 25 171 
+386 2 386 198 
+131 9 -1 97 -2 386 198 758 648 25 171 
+323 9 -1 97 -2 386 198 758 648 25 171 
+198 1 198 
+582 9 -1 97 -2 386 198 758 648 25 171 
+648 1 648 
+330 1 171 
+524 9 -1 97 -2 386 198 758 648 25 171 
+589 1 171 
+81 9 -1 97 -2 386 198 758 648 25 171 
+146 8 -1 97 386 198 758 648 25 171 
+594 0 
+403 9 -1 97 -2 386 198 758 648 25 171 
+531 1 171 
+215 9 -1 97 -2 386 198 758 648 25 171 
+407 2 386 198 
+599 2 596 171 
+536 0 
+219 1 198 
+668 9 -1 97 -2 386 198 758 648 25 171 
+93 8 -1 97 386 198 758 648 25 171 
+541 2 538 171 
+606 1 171 
+734 2 -2 171 
+479 9 -1 97 -2 386 198 758 648 25 171 
+97 1 97 
+35 8 -1 97 386 198 758 648 25 171 
+675 1 171 
+548 1 171 
+421 2 171 415 
+680 0 
+233 2 227 171 
+298 9 -1 97 -2 386 198 758 648 25 171 
+685 2 682 171 
+753 0 
+692 1 171 
+117 9 -1 97 -2 386 198 758 648 25 171 
+501 9 -1 97 -2 386 198 758 648 25 171 
+630 9 -1 97 -2 386 198 758 648 25 171 
+57 8 -1 97 386 198 758 648 25 171 
+508 1 171 
+637 1 171 
+Constructors: 0
+
+Summary: 8
+596 -2 538 0 227 682 -1 415 
+org/apache/xml/serializer/ToStream.charactersRaw([CII)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 -2 
+$r1 1 9 
+$r3 1 36 
+$r4 1 9 
+Fields: 2
+-1 m_writer 36
+-1 m_elemContext 9
+Accesses: 7
+0 1 -1 
+32 1 -1 
+35 1 -1 
+22 1 -1 
+8 1 -1 
+9 1 9 
+27 1 9 
+Functions: 3
+19 3 -1 36 9 
+56 0 
+42 2 -2 36 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.setOutputFormat(Ljava/util/Properties;)V
+PTG:
+Vars:
+13
+r12 1 105 
+r1 1 -2 
+$r3 1 105 
+$r5 1 24 
+r6 1 40 
+$r2 1 90 
+r11 1 90 
+r8 1 45 
+$r7 1 45 
+r10 1 24 
+r0 1 -1 
+r9 1 13 
+$r4 1 117 
+Fields: 0
+Accesses: 3
+0 1 -1 
+120 1 -1 
+125 1 -1 
+Functions: 10
+81 3 -1 24 45 
+34 2 -2 24 
+115 2 105 90 
+68 3 -1 24 40 
+102 1 -2 
+23 1 13 
+87 1 -2 
+9 1 -2 
+42 2 -2 24 
+14 1 13 
+Constructors: 0
+
+Summary: 9
+13 -2 45 90 105 40 24 0 -1 
+org/apache/xml/serializer/ToStream.setWriter(Ljava/io/Writer;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.flushWriter()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 4 
+r1 1 4 
+$r3 1 4 
+Fields: 1
+-1 m_writer 4
+Accesses: 3
+0 1 -1 
+48 1 -1 
+17 1 -1 
+Functions: 5
+38 1 4 
+56 1 4 
+75 0 
+28 1 4 
+63 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.setCdataSectionElements(Ljava/util/Vector;)V
+PTG:
+Vars:
+9
+r8 1 60 
+r0 1 -2 
+$r4 1 109 
+$r14 1 117 
+$r2 1 15 
+$r5 1 47 
+r1 1 -1 
+r6 1 47 
+$r7 1 60 
+Fields: 1
+-1 m_StringOfCDATASections 117
+Accesses: 2
+112 1 -1 
+116 1 -1 
+Functions: 11
+97 2 60 15 
+19 1 15 
+83 2 15 47 
+4 1 -2 
+55 1 -2 
+40 1 15 
+120 2 -1 117 
+90 1 15 
+44 1 -2 
+76 1 15 
+108 1 15 
+Constructors: 1
+19 15
+
+Summary: 5
+60 -2 47 15 -1 
+org/apache/xml/serializer/ToStream.ignorableWhitespace([CII)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.shouldIndent()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 22 
+Fields: 1
+-1 m_elemContext 22
+Accesses: 5
+0 1 -1 
+21 1 -1 
+22 1 22 
+7 1 -1 
+14 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.accumDefaultEscape(Ljava/io/Writer;CI[CIZZ)I
+PTG:
+Vars:
+9
+r1 1 -2 
+$r7 1 155 
+$r5 1 224 
+$r4 1 268 
+r2 1 -5 
+r0 1 -1 
+$r6 1 224 
+$r24 1 251 
+$r3 1 195 
+Fields: 2
+-1 m_charInfo 224
+-1 m_elemContext 251
+Accesses: 4
+250 1 -1 
+251 1 251 
+223 1 -1 
+239 1 -1 
+Functions: 34
+0 5 -1 224 -2 -5 251 
+64 0 
+194 0 
+134 0 
+198 2 -2 195 
+263 1 -2 
+139 0 
+267 0 
+204 1 -2 
+77 0 
+271 2 -2 268 
+210 3 -1 224 251 
+149 1 -2 
+277 1 -2 
+23 0 
+89 0 
+153 0 
+285 1 -2 
+158 2 -2 155 
+224 1 224 
+100 0 
+164 1 -2 
+104 0 
+107 0 
+45 0 
+173 0 
+111 0 
+240 1 224 
+116 0 
+180 0 
+119 0 
+56 0 
+124 0 
+190 1 -2 
+Constructors: 0
+
+Summary: 15
+-2 108 -5 268 155 121 61 124 0 3 131 195 51 95 -1 
+org/apache/xml/serializer/ToStream.escapingNotNeeded(C)Z
+PTG:
+Vars:
+2
+$r1 1 41 
+r0 1 -1 
+Fields: 1
+-1 m_encodingInfo 41
+Accesses: 1
+40 1 -1 
+Functions: 1
+41 1 41 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.startCDATA()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.setOutputStream(Ljava/io/OutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+12
+$r8 1 70 
+r13 1 133 
+$r5 1 70 
+r3 1 -5 
+$r9 1 52 
+$r7 1 194 
+r2 1 -4 
+$r6 1 182 
+r4 1 -3 
+r0 1 -1 
+r1 1 -2 
+$r12 1 70 
+Fields: 3
+-1 m_writer 133
+-1 m_elemContext 70
+-1 m_tracer 194
+Accesses: 19
+0 1 -1 
+32 1 -1 
+129 1 -1 
+193 1 -1 
+66 1 -1 
+69 1 -1 
+70 1 70 
+103 1 -1 
+8 1 -1 
+43 1 -1 
+175 1 -1 
+113 1 -1 
+83 1 -1 
+21 1 -1 
+88 1 70 
+185 1 -1 
+26 1 -1 
+126 1 -1 
+190 1 -1 
+Functions: 14
+98 6 -1 -2 194 -4 133 70 
+40 4 -1 194 133 70 
+201 4 -1 194 133 70 
+106 4 -1 194 133 70 
+139 1 133 
+171 5 -1 194 -5 133 70 
+16 4 -1 194 133 70 
+80 4 -1 194 133 70 
+176 4 -2 -3 -4 70 
+145 2 -4 133 
+51 4 -1 194 133 70 
+121 4 -1 194 133 70 
+61 5 -1 194 -4 133 70 
+159 0 
+Constructors: 0
+
+Summary: 10
+-2 1 -3 0 -5 3 52 2 -1 -4 
+org/apache/xml/serializer/ToStream.writeNormalizedChars([CIIZZ)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 42 
+r5 1 297 
+r1 1 4 
+r4 1 119 
+r2 1 -2 
+Fields: 2
+-1 m_writer 4
+-1 m_lineSep 42
+Accesses: 8
+0 1 -1 
+208 1 -1 
+224 1 -1 
+274 1 -1 
+245 1 -1 
+70 1 -1 
+41 1 -1 
+46 1 -1 
+Functions: 21
+97 4 -1 -2 4 42 
+289 1 4 
+194 3 -1 4 42 
+132 1 4 
+292 0 
+231 1 4 
+264 4 -1 -2 4 42 
+237 0 
+78 3 -1 4 42 
+111 1 4 
+303 2 4 297 
+81 0 
+50 2 4 42 
+114 0 
+310 1 4 
+185 1 4 
+282 3 -1 4 42 
+219 1 4 
+61 3 -1 4 42 
+125 2 4 119 
+253 3 -1 4 42 
+Constructors: 0
+
+Summary: 5
+297 -2 119 0 -1 
+org/apache/xml/serializer/ToStream.setProp(Ljava/lang/String;Ljava/lang/String;Z)V
+PTG:
+Vars:
+48
+r14 1 215 
+$r32 1 387 
+$r6 1 640 
+$r35 1 146 
+$r30 1 367 
+$r24 1 427 
+$r17 1 289 
+$r23 1 326 
+$r36 1 108 
+$r20 1 311 
+$r16 1 277 
+r45 1 338 
+r43 1 300 
+$r33 1 359 
+$r5 1 666 
+$r25 1 435 
+r47 1 497 
+$r22 1 321 
+$r34 1 129 
+r40 2 -3 450 
+r38 2 -3 454 
+$r19 1 302 
+$r3 1 691 
+r42 2 268 460 
+$r28 1 416 
+$r18 1 283 
+r26 1 350 
+$r31 1 359 
+$r8 1 622 
+r0 1 -2 
+r15 1 223 
+r49 1 516 
+$r7 1 611 
+$r10 1 557 
+$r29 1 359 
+$r13 1 180 
+$r11 1 577 
+r41 1 193 
+$r27 1 408 
+$r4 1 657 
+r48 1 508 
+$r12 1 586 
+$r21 1 316 
+$r37 1 -1 
+$r1 1 725 
+r44 1 332 
+r2 1 -1 
+$r9 1 630 
+Fields: 3
+268 name 277
+-1 m_sourceLocator 359
+-1 m_lineSep 630
+Accesses: 18
+736 1 -1 
+358 1 -1 
+393 1 -1 
+490 1 -1 
+714 1 -1 
+171 1 -1 
+523 1 -1 
+651 1 -1 
+140 1 -1 
+685 1 -1 
+625 1 -1 
+275 2 268 460 
+373 1 -1 
+629 1 -1 
+474 1 -1 
+634 1 -1 
+157 1 -1 
+605 1 -1 
+Functions: 54
+640 2 640 -2 
+129 2 129 -2 
+4 1 -2 
+263 2 -3 450 
+397 3 387 359 332 
+400 2 387 350 
+657 2 657 -2 
+146 2 -2 146 
+530 3 -3 450 516 
+666 3 -3 454 666 
+283 2 289 283 
+413 2 408 300 
+160 2 -3 454 
+544 6 -1 -2 -3 630 454 359 
+421 2 416 332 
+551 4 -1 497 630 359 
+557 2 -2 557 
+302 1 302 
+432 2 427 300 
+306 1 302 
+691 2 -2 691 
+180 2 -2 180 
+311 3 -3 450 311 
+567 2 -3 454 
+440 2 435 332 
+571 3 -1 630 359 
+316 1 316 
+189 2 -3 454 
+321 1 321 
+577 2 577 -2 
+706 5 -1 -3 630 454 359 
+326 1 326 
+455 0 
+586 3 -3 454 586 
+206 4 -1 193 630 359 
+334 3 -1 630 359 
+719 5 -1 -3 630 454 359 
+209 3 -1 630 359 
+725 2 -2 725 
+217 3 -1 630 359 
+345 1 338 
+483 2 -3 450 
+611 2 -2 611 
+234 3 -3 450 223 
+746 6 -1 -2 -3 630 454 359 
+108 2 -2 108 
+493 3 -1 630 359 
+621 2 -3 454 
+504 3 -1 630 359 
+377 3 359 300 367 
+123 5 -1 -3 630 454 359 
+380 2 350 367 
+253 3 -3 450 215 
+510 3 -1 630 359 
+Constructors: 3
+306 302
+377 367
+397 387
+
+Summary: 18
+-2 1 300 193 367 0 350 332 516 326 497 338 508 387 215 223 -1 289 
+org/apache/xml/serializer/ToStream.startEntity(Ljava/lang/String;)V
+PTG:
+Vars:
+7
+$r5 1 53 
+$r4 1 48 
+$r6 1 56 
+$r2 1 34 
+r0 1 -2 
+$r3 1 44 
+r1 1 -1 
+Fields: 0
+Accesses: 4
+68 1 -1 
+22 1 -1 
+12 1 -1 
+15 1 -1 
+Functions: 9
+0 1 -2 
+48 1 48 
+34 1 34 
+53 1 53 
+38 1 34 
+59 2 -1 56 
+44 2 -2 44 
+30 1 -1 
+63 1 -1 
+Constructors: 1
+38 34
+
+Summary: 5
+-2 53 56 0 -1 
+org/apache/xml/serializer/ToStream.processLineFeed([CIILjava/io/Writer;)I
+PTG:
+Vars:
+5
+$r4 1 16 
+r2 1 -5 
+r1 1 -2 
+$r3 1 16 
+r0 1 -1 
+Fields: 1
+-1 m_lineSep 16
+Accesses: 5
+0 1 -1 
+38 1 -1 
+7 1 -1 
+43 1 -1 
+15 1 -1 
+Functions: 2
+33 3 -1 16 -2 
+47 2 16 -5 
+Constructors: 0
+
+Summary: 5
+-2 0 -5 -1 3 
+org/apache/xml/serializer/ToStream.outputDocTypeDecl(Ljava/lang/String;Z)V
+PTG:
+Vars:
+6
+r1 1 -2 
+r2 1 31 
+r3 1 61 
+r0 1 -1 
+r7 1 15 
+$r4 1 108 
+Fields: 2
+-1 m_writer 15
+-1 m_lineSep 108
+Accesses: 4
+0 1 -1 
+112 1 -1 
+11 1 -1 
+107 1 -1 
+Functions: 15
+103 1 15 
+8 3 -1 108 15 
+42 1 15 
+139 0 
+78 1 15 
+48 2 15 31 
+19 1 15 
+116 2 108 15 
+54 1 15 
+87 1 15 
+24 2 -2 15 
+57 3 -1 108 15 
+27 3 -1 108 15 
+93 2 61 15 
+127 1 15 
+Constructors: 0
+
+Summary: 5
+-2 31 61 0 -1 
+org/apache/xml/serializer/ToStream.outputEntityDecl(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+$r4 1 35 
+r1 1 4 
+r0 1 -1 
+r3 1 -3 
+r2 1 -2 
+Fields: 2
+-1 m_writer 4
+-1 m_lineSep 35
+Accesses: 3
+0 1 -1 
+34 1 -1 
+39 1 -1 
+Functions: 6
+19 1 4 
+8 1 4 
+24 2 -3 4 
+43 2 35 4 
+13 2 -2 4 
+30 1 4 
+Constructors: 0
+
+Summary: 5
+-2 1 -3 0 -1 
+org/apache/xml/serializer/ToStream.getIndentAmount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.startNonEscaping()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_disableOutputEscapingStates 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.endPrefixMapping(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.setOutputStreamInternal(Ljava/io/OutputStream;Z)V
+PTG:
+Vars:
+20
+$r11 1 128 
+$r12 1 133 
+$r7 1 110 
+$r2 1 12 
+r0 1 -1 
+$r16 1 -1 
+r1 1 -2 
+$r13 1 136 
+r17 1 11 
+$r15 1 -1 
+$r3 1 37 
+$r6 1 177 
+$r5 1 55 
+$r18 1 65 
+$r9 1 119 
+$r10 1 123 
+$r4 1 46 
+$r8 1 107 
+r19 2 155 92 
+$r14 1 22 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 23
+128 1 128 
+164 1 -1 
+5 1 -1 
+37 2 37 11 
+133 1 133 
+70 2 65 -2 
+74 2 -1 65 
+139 2 136 107 
+171 3 -1 155 92 
+12 2 11 12 
+46 2 11 46 
+110 1 110 
+114 1 110 
+147 1 -1 
+182 2 177 -2 
+55 2 55 11 
+119 2 119 11 
+151 1 -2 
+88 2 -2 11 
+27 2 -2 22 
+123 1 123 
+31 2 -1 22 
+191 2 -1 177 
+Constructors: 4
+114 110
+70 65
+182 177
+27 22
+
+Summary: 8
+155 177 11 136 92 0 133 -1 
+org/apache/xml/serializer/ToStream.writeOutCleanChars([CII)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 18 
+r1 1 -2 
+Fields: 1
+-1 m_writer 18
+Accesses: 1
+17 1 -1 
+Functions: 1
+26 2 -2 18 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.closeStartTag()V
+PTG:
+Vars:
+12
+$r3 1 29 
+$r4 1 42 
+$r1 1 1 
+$r6 1 109 
+$r5 1 79 
+$r7 1 1 
+$r10 1 1 
+r0 1 -1 
+$r11 1 22 
+$r9 1 29 
+$r2 1 11 
+$r8 1 42 
+Fields: 7
+1 m_elementName 22
+-1 m_attributes 29
+-1 m_writer 42
+-1 m_CdataElems 79
+-1 m_elemContext 1
+-1 m_preserves 109
+-1 m_tracer 11
+Accesses: 16
+0 1 -1 
+96 1 -1 
+1 1 1 
+41 1 -1 
+105 1 -1 
+10 1 -1 
+108 1 -1 
+78 1 -1 
+112 1 -1 
+49 1 -1 
+18 1 -1 
+19 1 1 
+85 1 -1 
+56 1 -1 
+28 1 -1 
+93 1 1 
+Functions: 8
+116 1 109 
+53 1 29 
+25 8 -1 1 22 42 11 29 109 79 
+89 8 -1 1 22 42 11 29 109 79 
+74 0 
+29 1 29 
+46 8 -1 1 22 42 11 29 109 79 
+62 1 42 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.endDTD()V
+PTG:
+Vars:
+5
+$r3 1 12 
+r0 1 -1 
+$r2 1 9 
+r6 1 28 
+$r1 1 54 
+Fields: 4
+9 m_elementName 12
+-1 m_writer 28
+-1 m_lineSep 54
+-1 m_elemContext 9
+Accesses: 8
+0 1 -1 
+21 1 -1 
+53 1 -1 
+8 1 -1 
+24 1 -1 
+9 1 9 
+58 1 -1 
+29 1 -1 
+Functions: 5
+16 5 -1 54 9 28 12 
+49 1 28 
+40 1 28 
+74 0 
+62 2 54 28 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.setEscaping(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.startDTD(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r2 1 -3 
+r3 1 -2 
+r1 1 -4 
+$r4 1 11 
+r0 1 -1 
+Fields: 1
+-1 m_elemContext 11
+Accesses: 3
+20 1 -1 
+10 1 -1 
+15 1 11 
+Functions: 2
+2 3 -1 -4 11 
+7 3 -1 -3 11 
+Constructors: 0
+
+Summary: 6
+1 -3 0 2 -1 -4 
+org/apache/xml/serializer/ToStream.reset()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 1 -1 
+10 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.addCdataSectionElements(Ljava/lang/String;)V
+PTG:
+Vars:
+9
+r0 1 -2 
+r1 1 -1 
+$r3 1 24 
+$r7 1 45 
+$r8 1 48 
+$r4 1 10 
+$r5 1 36 
+$r2 1 10 
+$r6 1 41 
+Fields: 1
+-1 m_StringOfCDATASections 10
+Accesses: 4
+18 1 -1 
+51 1 -1 
+9 1 -1 
+31 1 -1 
+Functions: 6
+36 1 36 
+6 3 -1 -2 10 
+24 2 24 10 
+41 2 -2 41 
+28 1 24 
+45 1 45 
+Constructors: 1
+28 24
+
+Summary: 2
+45 -1 
+org/apache/xml/serializer/ToStream.endCDATA()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 1
+8 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.setContentHandler(Lorg/xml/sax/ContentHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.setLineSepUse(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.printSpace(I)V
+PTG:
+Vars:
+2
+r1 1 4 
+r0 1 -1 
+Fields: 1
+-1 m_writer 4
+Accesses: 1
+0 1 -1 
+Functions: 1
+15 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.addAttributeAlways(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Z
+PTG:
+Vars:
+27
+r3 1 -5 
+$r7 1 153 
+$r13 1 216 
+$r11 1 207 
+r23 1 129 
+r6 1 140 
+r1 1 -1 
+$r9 1 132 
+r21 1 63 
+r19 2 222 -4 
+$r12 1 212 
+$r22 2 29 16 
+$r14 1 132 
+r24 2 196 182 
+r0 1 -2 
+$r20 1 16 
+r2 1 -3 
+$r8 1 164 
+$r10 1 198 
+$r5 1 132 
+$r17 1 29 
+r4 1 -6 
+$r16 2 29 16 
+$r15 1 48 
+$r18 1 -1 
+$r28 1 260 
+$r27 2 29 16 
+Fields: 7
+140 m_uri 164
+-1 m_prefixMap 132
+-1 m_attributes 16
+-1 m_attributes 29
+-1 m_elemContext 153
+-1 m_tracer 48
+-1 m_tracer 260
+Accesses: 14
+162 1 140 
+131 1 -1 
+259 1 -1 
+78 1 -1 
+174 1 -1 
+15 1 -1 
+47 1 -1 
+242 1 -1 
+147 1 140 
+54 1 -1 
+152 1 -1 
+153 1 153 
+28 1 -1 
+189 1 -1 
+Functions: 22
+65 2 -6 63 
+98 7 -1 16 48 132 260 153 29 
+132 2 129 132 
+164 2 -2 164 
+198 3 196 198 182 
+230 11 -1 16 48 -2 -3 -4 132 260 153 29 222 
+8 1 -2 
+202 1 198 
+267 7 -1 16 48 132 260 153 29 
+109 2 -4 222 
+175 2 -2 132 
+207 1 207 
+239 1 -1 
+16 3 16 -4 222 
+212 2 -3 212 
+86 3 16 -6 29 
+55 2 16 29 
+216 1 216 
+122 2 -4 222 
+29 3 -2 -3 29 
+253 8 16 -2 -3 -4 -5 -6 29 222 
+190 1 132 
+Constructors: 1
+202 198
+
+Summary: 18
+-2 4 140 1 -5 129 196 164 2 216 -6 63 222 182 -3 0 3 -1 
+org/apache/xml/serializer/ToStream.outputLineSep()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 5 
+$r2 1 1 
+Fields: 2
+-1 m_writer 1
+-1 m_lineSep 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+9 1 -1 
+Functions: 1
+13 2 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.serialize(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+5 2 0 -1 
+23 0 
+11 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.firePseudoAttributes()V
+PTG:
+Vars:
+11
+r13 1 64 
+$r10 1 -1 
+$r9 1 -1 
+$r4 1 23 
+$r6 1 58 
+$r3 1 14 
+$r8 1 34 
+$r1 1 1 
+$r7 1 1 
+r0 1 -1 
+$r2 1 8 
+Fields: 3
+-1 m_writer 8
+-1 m_attributes 23
+-1 m_tracer 1
+Accesses: 4
+0 1 -1 
+65 1 -1 
+22 1 -1 
+7 1 -1 
+Functions: 9
+18 1 14 
+53 1 14 
+23 1 23 
+40 6 -1 1 34 23 8 14 
+57 1 14 
+58 1 58 
+11 1 8 
+75 2 64 1 
+47 5 -1 1 34 23 8 
+Constructors: 2
+18 14
+40 34
+
+Summary: 3
+58 64 -1 
+org/apache/xml/serializer/ToStream.internalEntityDecl(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 3
+9 1 -1 
+27 0 
+15 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 -3 0 -1 
+org/apache/xml/serializer/ToStream.DTDprolog()V
+PTG:
+Vars:
+5
+$r4 1 17 
+$r3 1 14 
+r1 1 4 
+$r2 1 45 
+r0 1 -1 
+Fields: 4
+14 m_elementName 17
+-1 m_writer 4
+-1 m_lineSep 45
+-1 m_elemContext 14
+Accesses: 9
+0 1 -1 
+49 1 -1 
+5 1 -1 
+26 1 -1 
+58 1 -1 
+44 1 -1 
+13 1 -1 
+29 1 -1 
+14 1 14 
+Functions: 3
+21 5 -1 17 4 45 14 
+53 2 4 45 
+40 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.ensureAttributesNamespaceIsDeclared(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r1 1 -4 
+r15 1 -3 
+r3 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 3
+133 1 -1 
+118 1 -1 
+46 1 -1 
+Functions: 19
+32 1 -4 
+160 0 
+97 0 
+4 1 -2 
+102 0 
+134 0 
+166 0 
+171 0 
+14 1 -4 
+78 2 -1 -2 
+47 0 
+112 2 -1 -2 
+147 2 -1 -2 
+181 2 -1 -2 
+87 0 
+119 1 -2 
+91 0 
+156 0 
+62 1 -2 
+Constructors: 0
+
+Summary: 11
+171 -2 105 1 174 -3 0 55 102 2 -1 
+org/apache/xml/serializer/ToStream.startPrefixMapping(Ljava/lang/String;Ljava/lang/String;Z)Z
+PTG:
+Vars:
+12
+$r7 1 89 
+r3 1 -3 
+$r9 1 103 
+$r5 1 49 
+$r6 1 80 
+r0 1 -1 
+$r1 1 23 
+r12 1 109 
+r2 1 -2 
+$r4 1 32 
+$r8 1 99 
+$r10 1 9 
+Fields: 3
+-1 m_prefixMap 32
+-1 m_elemContext 9
+-1 m_elemContext 23
+Accesses: 5
+22 1 -1 
+23 1 23 
+8 1 -1 
+9 1 9 
+31 1 -1 
+Functions: 10
+32 3 32 -2 -3 
+80 2 80 -3 
+49 2 49 -2 
+99 2 -2 99 
+5 4 -1 32 23 9 
+103 1 103 
+73 5 -1 32 -3 23 9 
+89 1 89 
+121 7 -1 32 -2 -3 23 9 109 
+93 1 89 
+Constructors: 1
+93 89
+
+Summary: 7
+-2 109 1 -3 0 103 -1 
+org/apache/xml/serializer/ToStream.unparsedEntityDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+17
+$r14 1 5 
+$r11 1 5 
+$r1 1 5 
+$r15 1 5 
+$r5 1 5 
+$r13 1 5 
+$r16 1 -1 
+$r12 1 96 
+$r8 1 5 
+$r3 1 5 
+$r10 1 5 
+r0 1 -1 
+$r7 1 5 
+r9 1 -5 
+r4 1 -3 
+r6 1 -4 
+r2 1 -2 
+Fields: 2
+-1 m_writer 5
+-1 m_lineSep 96
+Accesses: 12
+81 1 -1 
+34 1 -1 
+4 1 -1 
+100 1 -1 
+54 1 -1 
+72 1 -1 
+25 1 -1 
+91 1 -1 
+13 1 -1 
+45 1 -1 
+62 1 -1 
+95 1 -1 
+Functions: 12
+1 3 -1 96 5 
+18 2 -2 5 
+114 1 -1 
+51 1 5 
+69 1 5 
+39 2 -3 5 
+88 1 5 
+104 2 96 5 
+10 1 5 
+59 2 -4 5 
+78 2 -5 5 
+31 1 5 
+Constructors: 0
+
+Summary: 9
+-2 1 -3 0 -5 2 -1 3 -4 
+org/apache/xml/serializer/ToStream.isNELorLSEPCharacter(C)Z
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/xml/serializer/ToStream.setEncoding(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xml/serializer/ToStream.accumDefaultEntity(Ljava/io/Writer;CI[CIZZ)I
+PTG:
+Vars:
+8
+$r5 1 33 
+$r1 1 33 
+r7 1 -5 
+$r6 1 13 
+$r2 1 33 
+r4 1 -2 
+r3 1 67 
+r0 1 -1 
+Fields: 2
+-1 m_charInfo 33
+-1 m_lineSep 13
+Accesses: 5
+32 1 -1 
+48 1 -1 
+17 1 -1 
+59 1 -1 
+12 1 -1 
+Functions: 5
+33 1 33 
+49 1 33 
+21 2 -2 13 
+60 1 33 
+78 2 -2 67 
+Constructors: 0
+
+Summary: 6
+-2 67 0 -5 -1 3 
+org/apache/xml/serializer/ToStream.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r3 1 -4 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-2 1 -3 0 2 -1 -4 
+org/apache/xml/serializer/ToStream.getWriter()Ljava/io/Writer;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_writer 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.addCdataSectionElement(Ljava/lang/String;Ljava/util/Vector;)V
+PTG:
+Vars:
+6
+r5 1 -3 
+r3 1 17 
+r6 1 -1 
+$r0 1 0 
+$r7 1 27 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 8
+65 2 -3 27 
+50 2 17 -3 
+19 1 0 
+9 2 0 -2 
+26 1 0 
+59 2 17 -3 
+44 1 -3 
+13 1 0 
+Constructors: 1
+9 0
+
+Summary: 8
+-2 27 1 17 -3 0 0 -1 
+org/apache/xml/serializer/ToStream.getOutputFormat()Ljava/util/Properties;
+PTG:
+Vars:
+14
+r16 1 94 
+_ret 1 60 
+r5 1 110 
+$r0 1 0 
+r15 1 80 
+r11 1 30 
+r9 1 12 
+$r4 1 94 
+r12 1 46 
+r2 1 -1 
+r10 1 19 
+$r7 1 30 
+$r3 1 60 
+r14 1 73 
+Fields: 0
+Accesses: 0
+Functions: 14
+65 2 0 60 
+4 1 0 
+69 1 -1 
+8 1 -1 
+40 2 -1 30 
+104 2 -1 94 
+74 1 73 
+13 1 12 
+82 1 80 
+20 1 19 
+53 3 0 30 46 
+122 3 60 94 110 
+92 1 80 
+29 1 19 
+Constructors: 2
+65 60
+4 0
+
+Summary: 10
+12 46 19 30 73 80 94 110 0 -1 
+org/apache/xml/serializer/ToStream.startElement(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xml/serializer/ToStream.isEscapingDisabled()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_disableOutputEscapingStates 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.notationDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+14
+$r5 1 5 
+$r11 1 5 
+$r1 1 5 
+$r8 1 5 
+r6 1 -4 
+r2 1 -2 
+$r12 1 5 
+r4 1 -3 
+$r9 1 77 
+r0 1 -1 
+$r3 1 5 
+$r10 1 5 
+$r13 1 -1 
+$r7 1 5 
+Fields: 2
+-1 m_writer 5
+-1 m_lineSep 77
+Accesses: 10
+81 1 -1 
+35 1 -1 
+4 1 -1 
+55 1 -1 
+72 1 -1 
+26 1 -1 
+76 1 -1 
+14 1 -1 
+46 1 -1 
+63 1 -1 
+Functions: 10
+32 1 5 
+1 3 -1 5 77 
+19 2 -2 5 
+52 1 5 
+69 1 5 
+85 2 5 77 
+40 2 -3 5 
+11 1 5 
+60 2 -4 5 
+95 1 -1 
+Constructors: 0
+
+Summary: 7
+-2 1 -3 0 2 -1 -4 
+org/apache/xml/serializer/ToStream.writeUTF16Surrogate(C[CII)I
+PTG:
+Vars:
+6
+r4 1 143 
+$r3 1 116 
+$r5 1 177 
+r0 1 -3 
+r1 1 -1 
+r2 1 113 
+Fields: 2
+-1 m_writer 113
+-1 m_encodingInfo 116
+Accesses: 2
+115 1 -1 
+109 1 -1 
+Functions: 23
+34 0 
+163 1 113 
+133 2 113 -3 
+198 2 113 -3 
+71 0 
+105 0 
+170 1 113 
+75 0 
+139 3 -1 113 116 
+78 0 
+15 0 
+175 0 
+48 0 
+82 0 
+116 1 116 
+180 2 113 177 
+87 0 
+152 0 
+26 0 
+90 0 
+187 1 113 
+60 0 
+95 0 
+Constructors: 0
+
+Summary: 12
+31 79 92 95 1 -3 21 177 102 143 66 -1 
+org/apache/xml/serializer/ToStream.cdata([CII)V
+PTG:
+Vars:
+6
+r2 1 -2 
+$r9 1 140 
+$r3 1 76 
+r0 1 -1 
+$r4 1 4 
+$r1 1 4 
+Fields: 3
+-1 m_writer 76
+-1 m_elemContext 4
+-1 m_tracer 140
+Accesses: 10
+17 1 -1 
+3 1 -1 
+4 1 4 
+68 1 -1 
+22 1 4 
+86 1 -1 
+27 1 -1 
+75 1 -1 
+139 1 -1 
+111 1 -1 
+Functions: 12
+81 1 76 
+115 5 -1 -2 4 76 140 
+163 0 
+100 5 -1 -2 4 76 140 
+38 4 -1 4 76 140 
+151 5 -1 -2 4 76 140 
+136 4 -1 4 76 140 
+89 4 -1 4 76 140 
+14 4 -1 4 76 140 
+30 4 -1 4 76 140 
+46 4 -1 4 76 140 
+174 0 
+Constructors: 0
+
+Summary: 4
+-2 169 0 -1 
+org/apache/xml/serializer/ToStream.comment([CII)V
+PTG:
+Vars:
+6
+r4 1 -2 
+$r5 1 12 
+r2 1 86 
+$r1 1 12 
+r0 1 -1 
+$r3 1 237 
+Fields: 3
+-1 m_writer 86
+-1 m_elemContext 12
+-1 m_tracer 237
+Accesses: 11
+49 1 -1 
+82 1 -1 
+3 1 -1 
+36 1 -1 
+25 1 -1 
+233 1 -1 
+11 1 -1 
+12 1 12 
+60 1 -1 
+236 1 -1 
+30 1 12 
+Functions: 13
+128 2 -2 86 
+227 0 
+68 4 -1 86 12 237 
+71 4 -1 86 12 237 
+136 1 86 
+44 4 -1 86 12 237 
+205 1 86 
+79 4 -1 86 12 237 
+213 1 86 
+22 4 -1 86 12 237 
+248 5 -1 -2 86 12 237 
+187 2 -2 86 
+93 1 86 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.elementDecl(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r6 1 12 
+$r3 1 47 
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 2
+-1 m_writer 12
+-1 m_lineSep 47
+Accesses: 4
+0 1 -1 
+51 1 -1 
+8 1 -1 
+46 1 -1 
+Functions: 8
+67 0 
+20 1 12 
+36 2 -3 12 
+55 2 12 47 
+25 2 -2 12 
+42 1 12 
+14 3 -1 12 47 
+31 1 12 
+Constructors: 0
+
+Summary: 5
+-2 1 -3 0 -1 
+org/apache/xml/serializer/ToStream.startPrefixMapping(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 -3 0 -1 
+org/apache/xml/serializer/ToStream.isCharacterInC0orC1Range(C)Z
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/xml/serializer/ToStream.processDirty([CIICIZ)I
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 19 
+$r5 1 19 
+$r3 1 47 
+r1 1 -2 
+$r2 1 19 
+Fields: 2
+-1 m_writer 19
+-1 m_lineSep 47
+Accesses: 5
+18 1 -1 
+51 1 -1 
+42 1 -1 
+46 1 -1 
+62 1 -1 
+Functions: 3
+55 2 19 47 
+27 2 -2 19 
+61 4 -1 -2 19 47 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xml/serializer/ToStream.getOutputStream()Ljava/io/OutputStream;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_outputStream 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.characters(Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r5 1 35 
+$r3 1 22 
+$r4 1 22 
+$r2 1 22 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 m_charsBuff 22
+Accesses: 6
+0 1 -1 
+52 1 -1 
+21 1 -1 
+37 1 -1 
+7 1 -1 
+43 1 -1 
+Functions: 3
+48 2 -2 22 
+58 2 -1 22 
+15 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.writeAttrString(Ljava/io/Writer;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+13
+$r9 1 228 
+$r11 1 23 
+$r2 1 9 
+$r8 1 290 
+$r3 1 9 
+$r10 1 180 
+r1 1 -1 
+r4 1 9 
+$r5 1 64 
+r7 1 -2 
+r12 1 -4 
+$r6 1 261 
+r0 1 -3 
+Fields: 3
+-1 m_attrBuff 9
+-1 m_charInfo 64
+-1 m_encodingInfo 261
+Accesses: 6
+32 1 -1 
+260 1 -1 
+8 1 -1 
+40 1 -1 
+25 1 -1 
+63 1 -1 
+Functions: 23
+0 1 -3 
+64 1 64 
+288 0 
+226 0 
+37 2 -3 9 
+165 1 -2 
+261 1 261 
+293 2 -2 290 
+231 2 -2 228 
+299 1 -2 
+205 1 -2 
+237 1 -2 
+174 1 -2 
+178 0 
+147 1 -2 
+275 1 -2 
+87 5 -1 64 -2 261 9 
+183 2 -2 180 
+156 1 -2 
+284 1 -2 
+189 1 -2 
+222 1 -2 
+254 1 -2 
+Constructors: 0
+
+Summary: 9
+-2 -3 0 290 228 180 2 -1 -4 
+org/apache/xml/serializer/ToStream.endNonEscaping()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_disableOutputEscapingStates 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/serializer/ToStream.skippedEntity(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xml/serializer/ToStream.processAttributes(Ljava/io/Writer;I)V
+PTG:
+Vars:
+7
+r3 1 23 
+r0 1 -1 
+r5 1 34 
+r6 1 -2 
+$r4 1 15 
+$r2 1 15 
+r1 1 4 
+Fields: 1
+-1 m_attributes 15
+Accesses: 2
+25 1 -1 
+14 1 -1 
+Functions: 8
+0 2 -1 15 
+65 1 -2 
+51 1 -2 
+39 1 -2 
+26 1 15 
+59 5 -1 -2 34 4 15 
+45 2 -2 23 
+15 1 15 
+Constructors: 0
+
+Summary: 6
+4 34 -2 23 0 -1 

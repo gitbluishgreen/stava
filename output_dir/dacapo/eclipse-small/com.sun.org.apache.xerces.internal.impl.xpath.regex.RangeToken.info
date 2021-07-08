@@ -1,0 +1,823 @@
+18
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.setSorted(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.complementRanges(Lcom/sun/org/apache/xerces/internal/impl/xpath/regex/Token;)Lcom/sun/org/apache/xerces/internal/impl/xpath/regex/Token;
+PTG:
+Vars:
+20
+r0 1 -2 
+r6 1 104 
+$r8 1 60 
+$r7 1 109 
+$r2 1 60 
+$r3 1 60 
+$r23 1 60 
+$r17 1 128 
+$r14 1 128 
+$r10 1 128 
+$r15 1 128 
+$r5 1 60 
+$r16 1 60 
+$r13 1 60 
+$r9 1 128 
+$r12 1 128 
+$r4 1 60 
+$r11 1 60 
+r1 1 -2 
+_ret 1 104 
+Fields: 2
+-2 ranges 60
+104 ranges 128
+Accesses: 19
+0 1 -2 
+32 1 -2 
+192 1 104 
+162 1 -2 
+226 1 104 
+67 1 -2 
+8 1 -2 
+138 1 104 
+202 1 -2 
+172 1 104 
+79 1 -2 
+111 1 104 
+240 1 104 
+83 1 -2 
+148 1 -2 
+117 1 -2 
+182 1 -2 
+59 1 -2 
+126 1 104 
+Functions: 9
+20 0 
+36 0 
+52 2 -2 60 
+101 0 
+24 0 
+56 2 -2 60 
+42 0 
+252 2 128 104 
+29 0 
+Constructors: 0
+
+Summary: 4
+-2 39 36 0 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.isSorted()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.mergeRanges(Lcom/sun/org/apache/xerces/internal/impl/xpath/regex/Token;)V
+PTG:
+Vars:
+26
+$r9 1 14 
+$r24 1 14 
+$r20 1 32 
+$r12 1 14 
+$r10 1 14 
+r0 1 -2 
+$r16 1 32 
+r1 1 -2 
+$r19 1 32 
+$r3 1 14 
+$r5 1 32 
+$r23 1 14 
+$r17 1 32 
+$r21 1 32 
+$r6 1 14 
+$r11 1 32 
+r2 1 -1 
+$r30 1 32 
+$r15 1 32 
+$r14 1 14 
+$r4 1 32 
+$r13 1 14 
+$r8 1 32 
+$r18 1 14 
+r7 1 79 
+$r22 1 14 
+Fields: 2
+-2 ranges 14
+-1 ranges 32
+Accesses: 29
+320 1 -1 
+68 1 -1 
+73 1 -2 
+266 1 -2 
+13 1 -2 
+205 1 -2 
+144 1 -2 
+336 1 -1 
+212 1 -1 
+23 1 -1 
+283 1 -2 
+93 1 -1 
+222 1 -2 
+31 1 -1 
+160 1 -2 
+229 1 -1 
+39 1 -2 
+103 1 -2 
+46 1 -1 
+174 1 -1 
+239 1 -2 
+303 1 -1 
+49 1 -2 
+113 1 -1 
+54 1 -1 
+248 1 -1 
+59 1 -2 
+127 1 -2 
+191 1 -1 
+Functions: 4
+64 0 
+6 2 -1 32 
+10 2 -2 14 
+28 2 -1 32 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.getCaseInsensitiveToken()Lcom/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken;
+PTG:
+Vars:
+13
+$r9 1 34 
+$r6 1 34 
+$r5 1 34 
+$r10 2 110 116 
+r2 2 20 26 
+r0 1 -1 
+$r3 1 124 
+$r4 1 124 
+$r1 1 1 
+$r12 1 124 
+r11 2 110 116 
+$r8 2 20 26 
+_ret 2 110 116 
+Fields: 4
+20 ranges 124
+-1 icaseCache 1
+-1 ranges 34
+26 ranges 124
+Accesses: 11
+0 1 -1 
+33 1 -1 
+49 1 -1 
+131 2 20 26 
+102 1 -1 
+214 1 -1 
+7 1 -1 
+41 1 -1 
+123 2 20 26 
+12 1 -1 
+141 2 20 26 
+Functions: 10
+-1 0 
+209 2 116 110 
+164 2 116 110 
+69 3 20 26 124 
+87 3 20 26 124 
+183 2 116 110 
+200 5 116 20 26 124 110 
+76 0 
+172 0 
+205 5 -1 1 34 116 110 
+Constructors: 0
+
+Summary: 4
+124 20 -1 26 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.match(I)Z
+PTG:
+Vars:
+8
+$r8 1 60 
+$r2 1 141 
+$r3 1 141 
+r0 1 -1 
+$r4 1 141 
+$r1 1 1 
+$r6 1 60 
+$r7 1 60 
+Fields: 3
+-1 ranges 60
+-1 ranges 141
+-1 map 1
+Accesses: 12
+0 1 -1 
+67 1 -1 
+148 1 -1 
+53 1 -1 
+134 1 -1 
+26 1 -1 
+11 1 -1 
+59 1 -1 
+107 1 -1 
+140 1 -1 
+78 1 -1 
+159 1 -1 
+Functions: 1
+8 4 -1 1 60 141 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.dumpRanges()V
+PTG:
+Vars:
+15
+$r14 1 80 
+$r4 1 92 
+$r13 1 77 
+$r9 1 56 
+$r0 1 0 
+$r6 1 35 
+$r7 1 47 
+$r2 1 9 
+$r10 1 61 
+r1 1 -1 
+$r11 1 9 
+$r5 1 38 
+$r12 1 72 
+$r8 1 9 
+$r3 1 9 
+Fields: 1
+-1 ranges 9
+Accesses: 4
+64 1 -1 
+50 1 -1 
+8 1 -1 
+27 1 -1 
+Functions: 11
+97 1 92 
+83 2 80 35 
+20 0 
+5 1 0 
+38 1 38 
+56 1 56 
+72 1 72 
+42 1 38 
+61 1 61 
+77 1 77 
+47 1 47 
+Constructors: 1
+42 38
+
+Summary: 8
+61 56 -1 77 38 47 72 80 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.intersectRanges(Lcom/sun/org/apache/xerces/internal/impl/xpath/regex/Token;)V
+PTG:
+Vars:
+18
+$r6 1 6 
+$r14 1 6 
+r1 1 -2 
+$r12 1 13 
+$r10 1 13 
+r7 1 52 
+$r32 1 13 
+$r9 1 403 
+$r8 1 13 
+$r11 1 6 
+r3 1 -1 
+$r33 1 13 
+$r4 1 13 
+$r5 1 13 
+$r15 1 6 
+$r13 1 13 
+r0 1 -2 
+$r2 1 6 
+Fields: 2
+-2 ranges 6
+-1 ranges 13
+Accesses: 19
+66 1 -1 
+5 1 -2 
+326 1 -1 
+358 1 -2 
+104 1 -2 
+41 1 -1 
+12 1 -1 
+76 1 -2 
+46 1 -2 
+113 1 -2 
+84 1 -1 
+341 1 -1 
+373 1 -2 
+405 1 -1 
+22 1 -1 
+214 1 -1 
+280 1 -1 
+410 1 -1 
+93 1 -1 
+Functions: 17
+417 2 52 13 
+34 2 -2 6 
+323 0 
+355 0 
+387 0 
+38 2 -2 6 
+393 0 
+333 0 
+365 0 
+338 0 
+370 0 
+26 2 -1 13 
+314 0 
+30 2 -1 13 
+318 0 
+350 0 
+382 0 
+Constructors: 0
+
+Summary: 5
+387 -1 -2 0 390 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.addRange(II)V
+PTG:
+Vars:
+12
+$r1 1 27 
+$r12 1 27 
+r0 1 -1 
+$r7 1 27 
+$r10 1 35 
+$r6 1 27 
+$r11 1 27 
+$r2 1 27 
+r4 1 101 
+$r5 1 27 
+$r8 1 27 
+$r3 1 27 
+Fields: 1
+-1 ranges 27
+Accesses: 14
+2 1 -1 
+162 1 -1 
+37 1 -1 
+70 1 -1 
+40 1 -1 
+105 1 -1 
+142 1 -1 
+47 1 -1 
+85 1 -1 
+121 1 -1 
+153 1 -1 
+26 1 -1 
+124 1 -1 
+63 1 -1 
+Functions: 4
+115 2 101 27 
+57 2 -1 27 
+170 2 -1 27 
+139 2 -1 27 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.setCompacted()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.toString(I)Ljava/lang/String;
+PTG:
+Vars:
+30
+$r40 1 81 
+$r21 1 35 
+$r3 1 232 
+$r1 1 206 
+$r41 1 81 
+$r34 1 81 
+$r4 1 244 
+r38 9 56 385 30 227 201 17 43 214 240 
+$r2 1 219 
+$r28 1 153 
+$r32 1 177 
+$r44 1 265 
+$r31 1 81 
+$r13 1 361 
+_ret 9 56 385 30 227 201 17 43 214 240 
+$r22 1 48 
+$r43 1 265 
+$r35 1 135 
+$r27 1 81 
+r0 1 -1 
+$r6 1 265 
+$r20 1 22 
+$r25 1 81 
+$r8 1 265 
+$r9 1 337 
+$r23 1 60 
+$r16 1 319 
+$r19 1 9 
+$r12 1 265 
+$r15 1 265 
+Fields: 2
+-1 ranges 81
+-1 ranges 265
+Accesses: 13
+0 1 -1 
+128 1 -1 
+352 1 -1 
+292 1 -1 
+168 1 -1 
+264 1 -1 
+330 1 -1 
+299 1 -1 
+108 1 -1 
+80 1 -1 
+146 1 -1 
+115 1 -1 
+312 1 -1 
+Functions: 24
+64 1 60 
+288 1 244 
+193 1 60 
+322 2 244 319 
+163 1 60 
+197 1 60 
+134 0 
+71 1 60 
+104 1 60 
+360 0 
+138 2 135 60 
+364 2 244 361 
+176 0 
+336 0 
+180 2 177 60 
+340 2 337 244 
+152 0 
+248 1 244 
+377 1 244 
+347 1 244 
+156 2 153 60 
+381 1 244 
+318 0 
+255 1 244 
+Constructors: 2
+64 60
+248 244
+
+Summary: 7
+135 337 -1 177 153 319 361 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.escapeCharInCharClass(I)Ljava/lang/String;
+PTG:
+Vars:
+26
+$r13 1 275 
+$r16 1 173 
+$r15 1 169 
+$r19 1 192 
+r23 1 182 
+$r12 1 272 
+$r8 1 238 
+$r11 1 257 
+$r10 1 248 
+$r7 1 234 
+$r3 1 285 
+$r18 1 183 
+$r14 1 160 
+_ret 9 138 281 132 305 215 126 144 150 120 
+$r2 1 114 
+$r9 1 241 
+$r6 1 225 
+r24 1 247 
+$r1 1 109 
+$r0 1 100 
+$r21 1 209 
+$r5 1 299 
+r22 9 138 281 132 305 215 126 144 150 120 
+$r20 1 206 
+$r4 1 294 
+$r17 1 176 
+Fields: 0
+Accesses: 0
+Functions: 32
+192 2 192 206 
+257 2 272 257 
+195 1 182 
+196 1 182 
+260 1 247 
+261 1 247 
+202 1 182 
+268 1 247 
+209 1 209 
+275 1 275 
+285 1 285 
+160 1 160 
+225 1 225 
+289 1 285 
+100 1 100 
+164 1 160 
+229 1 225 
+294 1 294 
+104 1 100 
+169 2 169 173 
+234 2 234 238 
+299 1 299 
+172 0 
+109 1 109 
+237 0 
+176 1 176 
+241 1 241 
+114 1 114 
+183 1 183 
+248 1 248 
+187 1 183 
+252 1 248 
+Constructors: 6
+289 285
+164 160
+229 225
+104 100
+187 183
+252 248
+
+Summary: 10
+272 206 209 299 238 241 173 114 176 275 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.subtractRanges(Lcom/sun/org/apache/xerces/internal/impl/xpath/regex/Token;)V
+PTG:
+Vars:
+23
+$r38 1 27 
+$r37 1 27 
+$r2 1 20 
+r3 1 -1 
+$r9 1 463 
+$r34 1 27 
+r0 1 -2 
+$r35 1 27 
+$r15 1 27 
+$r5 1 27 
+$r10 1 27 
+$r4 1 27 
+r1 1 -2 
+$r8 1 27 
+$r17 1 20 
+$r11 1 27 
+$r36 1 27 
+$r13 1 20 
+$r12 1 27 
+r7 1 66 
+$r16 1 20 
+$r14 1 27 
+$r6 1 20 
+Fields: 2
+-2 ranges 20
+-1 ranges 27
+Accesses: 25
+0 1 -2 
+386 1 -2 
+80 1 -1 
+465 1 -1 
+19 1 -2 
+339 1 -1 
+470 1 -1 
+151 1 -1 
+26 1 -1 
+90 1 -2 
+223 1 -1 
+415 1 -1 
+98 1 -1 
+354 1 -1 
+36 1 -1 
+293 1 -1 
+168 1 -1 
+107 1 -1 
+429 1 -1 
+371 1 -2 
+118 1 -2 
+55 1 -1 
+60 1 -2 
+446 1 -1 
+127 1 -2 
+Functions: 18
+327 0 
+40 2 -1 27 
+10 4 -1 -2 20 27 
+331 0 
+363 0 
+395 0 
+44 2 -1 27 
+48 2 -2 20 
+336 0 
+368 0 
+400 0 
+52 2 -2 20 
+406 0 
+346 0 
+378 0 
+477 2 66 27 
+351 0 
+383 0 
+Constructors: 0
+
+Summary: 5
+403 400 -1 -2 0 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.createMap()V
+PTG:
+Vars:
+6
+r1 1 -1 
+$r4 1 8 
+r0 1 4 
+$r2 1 8 
+$r5 1 8 
+$r3 1 8 
+Fields: 1
+-1 ranges 8
+Accesses: 6
+147 1 -1 
+38 1 -1 
+7 1 -1 
+55 1 -1 
+152 1 -1 
+46 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.compactRanges()V
+PTG:
+Vars:
+23
+$r75 1 3 
+$r4 1 3 
+$r101 1 3 
+$r10 1 3 
+r0 1 -1 
+$r29 1 3 
+$r74 1 3 
+$r3 1 3 
+$r5 1 3 
+$r99 1 3 
+$r76 1 3 
+$r103 1 3 
+$r28 1 3 
+$r1 1 3 
+$r8 1 3 
+$r27 1 3 
+r104 1 671 
+$r102 1 3 
+$r7 1 3 
+$r100 1 3 
+$r2 1 3 
+$r6 1 3 
+$r9 1 3 
+Fields: 1
+-1 ranges 3
+Accesses: 26
+2 1 -1 
+67 1 -1 
+262 1 -1 
+9 1 -1 
+588 1 -1 
+83 1 -1 
+662 1 -1 
+280 1 -1 
+602 1 -1 
+540 1 -1 
+94 1 -1 
+414 1 -1 
+32 1 -1 
+547 1 -1 
+675 1 -1 
+106 1 -1 
+618 1 -1 
+556 1 -1 
+45 1 -1 
+50 1 -1 
+690 1 -1 
+246 1 -1 
+632 1 -1 
+122 1 -1 
+60 1 -1 
+253 1 -1 
+Functions: 15
+576 0 
+640 0 
+610 0 
+580 0 
+645 0 
+615 0 
+585 0 
+651 0 
+684 2 3 671 
+624 0 
+594 0 
+19 2 -1 3 
+629 0 
+694 2 -1 3 
+599 0 
+Constructors: 0
+
+Summary: 3
+-1 645 648 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.sortRanges()V
+PTG:
+Vars:
+17
+$r13 1 9 
+$r12 1 9 
+$r14 1 9 
+r0 1 -1 
+$r16 1 9 
+$r7 1 9 
+$r11 1 9 
+$r1 1 9 
+$r10 1 9 
+$r4 1 9 
+$r5 1 9 
+$r9 1 9 
+$r6 1 9 
+$r2 1 9 
+$r3 1 9 
+$r15 1 9 
+$r8 1 9 
+Fields: 1
+-1 ranges 9
+Accesses: 16
+97 1 -1 
+35 1 -1 
+69 1 -1 
+134 1 -1 
+8 1 -1 
+104 1 -1 
+41 1 -1 
+77 1 -1 
+111 1 -1 
+143 1 -1 
+16 1 -1 
+52 1 -1 
+118 1 -1 
+88 1 -1 
+58 1 -1 
+127 1 -1 
+Functions: 2
+0 2 -1 9 
+166 2 -1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.<init>(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+7 1 -1 
+12 1 -1 
+Functions: 2
+17 1 -1 
+2 1 -1 
+Constructors: 1
+2 -1
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xpath/regex/RangeToken.isCompacted()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,614 @@
+34
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.parser()Lorg/eclipse/jdt/internal/compiler/parser/Parser;
+PTG:
+Vars:
+3
+$r1 1 6 
+r3 2 -1 21 
+r0 1 -1 
+Fields: 3
+-1 recoveringParser 6
+21 recoveringParser 6
+21 parent 21
+Accesses: 3
+17 2 -1 21 
+5 2 -1 21 
+12 2 -1 21 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.previousAvailableLineEnd(I)I
+PTG:
+Vars:
+7
+r0 1 -1 
+$r5 1 17 
+r1 1 4 
+r2 1 15 
+$r3 1 17 
+$r4 1 17 
+r6 1 63 
+Fields: 3
+15 source 63
+15 lineEnds 17
+4 scanner 15
+Accesses: 6
+16 1 15 
+48 1 15 
+26 1 15 
+11 1 4 
+59 1 15 
+31 1 15 
+Functions: 2
+0 1 -1 
+32 1 17 
+Constructors: 0
+
+Summary: 5
+-1 15 17 63 4 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.enclosingType()Lorg/eclipse/jdt/internal/compiler/parser/RecoveredType;
+PTG:
+Vars:
+2
+r2 2 -1 21 
+r0 1 -1 
+Fields: 1
+21 parent 21
+Accesses: 1
+17 2 -1 21 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.toString(I)Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.updateFromParserState()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.<init>(Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;ILorg/eclipse/jdt/internal/compiler/parser/Parser;)V
+PTG:
+Vars:
+3
+r2 1 -4 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+16 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 2 0 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.resetPendingModifiers()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.preserveEnclosingBlocks()V
+PTG:
+Vars:
+4
+r3 2 -1 39 
+$r2 2 -1 39 
+r0 1 -1 
+$r1 2 -1 39 
+Fields: 1
+39 parent 39
+Accesses: 3
+32 2 -1 39 
+17 2 -1 39 
+35 2 -1 39 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.updateSourceEndIfNecessary(II)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.updateOnClosingBrace(II)Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 -1 
+$r1 1 15 
+Fields: 1
+-1 parent 15
+Accesses: 4
+0 1 -1 
+8 1 -1 
+27 1 -1 
+14 1 -1 
+Functions: 1
+24 2 -1 15 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.updateSourceEndIfNecessary(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.toString()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 2 
+_ret 1 2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.add(Lorg/eclipse/jdt/internal/compiler/ast/Statement;I)Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;
+PTG:
+Vars:
+6
+r2 1 -2 
+_ret 1 33 
+$r1 1 5 
+r0 1 -1 
+$r4 1 33 
+$r3 1 5 
+Fields: 1
+-1 parent 5
+Accesses: 3
+4 1 -1 
+27 1 -1 
+15 1 -2 
+Functions: 4
+1 2 -1 5 
+24 2 -1 5 
+28 2 -2 5 
+14 2 -1 5 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.type()Lorg/eclipse/jdt/internal/compiler/parser/RecoveredType;
+PTG:
+Vars:
+2
+r0 1 -1 
+r2 2 -1 21 
+Fields: 1
+21 parent 21
+Accesses: 1
+17 2 -1 21 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.add(Lorg/eclipse/jdt/internal/compiler/ast/LocalDeclaration;I)Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;
+PTG:
+Vars:
+6
+$r4 1 33 
+_ret 1 33 
+$r1 1 5 
+$r3 1 5 
+r2 1 -2 
+r0 1 -1 
+Fields: 1
+-1 parent 5
+Accesses: 3
+4 1 -1 
+27 1 -1 
+15 1 -2 
+Functions: 4
+1 2 -1 5 
+24 2 -1 5 
+28 2 -2 5 
+14 2 -1 5 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.<init>(Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;I)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 1
+4 -1
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.add(Lorg/eclipse/jdt/internal/compiler/ast/FieldDeclaration;I)Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;
+PTG:
+Vars:
+6
+$r1 1 5 
+_ret 1 33 
+r2 1 -2 
+$r4 1 33 
+$r3 1 5 
+r0 1 -1 
+Fields: 1
+-1 parent 5
+Accesses: 3
+4 1 -1 
+27 1 -1 
+15 1 -2 
+Functions: 4
+1 2 -1 5 
+24 2 -1 5 
+28 2 -2 5 
+14 2 -1 5 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.addBlockStatement(Lorg/eclipse/jdt/internal/compiler/parser/RecoveredBlock;)V
+PTG:
+Vars:
+6
+r1 1 4 
+r6 1 -1 
+r0 1 -2 
+$r2 1 6 
+r3 1 6 
+$r4 1 27 
+Fields: 3
+4 statements 6
+6 ArrayObject 27
+-2 blockDeclaration 4
+Accesses: 3
+0 1 -2 
+5 1 4 
+12 1 4 
+Functions: 1
+29 4 -2 4 6 27 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.enclosingMethod()Lorg/eclipse/jdt/internal/compiler/parser/RecoveredMethod;
+PTG:
+Vars:
+2
+r2 2 -1 21 
+r0 1 -1 
+Fields: 1
+21 parent 21
+Accesses: 1
+17 2 -1 21 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.sourceEnd()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.enclosingInitializer()Lorg/eclipse/jdt/internal/compiler/parser/RecoveredInitializer;
+PTG:
+Vars:
+2
+r2 2 -1 21 
+r0 1 -1 
+Fields: 1
+21 parent 21
+Accesses: 1
+17 2 -1 21 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.parseTree()Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.updateOnOpeningBrace(II)Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 1
+18 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.add(Lorg/eclipse/jdt/internal/compiler/ast/Block;I)Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;
+PTG:
+Vars:
+6
+$r1 1 5 
+_ret 1 33 
+r0 1 -1 
+$r4 1 33 
+r2 1 -2 
+$r3 1 5 
+Fields: 1
+-1 parent 5
+Accesses: 3
+4 1 -1 
+27 1 -1 
+15 1 -2 
+Functions: 4
+1 2 -1 5 
+24 2 -1 5 
+28 2 -2 5 
+14 2 -1 5 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.addModifier(II)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.updateBodyStart(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.tabString(I)Ljava/lang/String;
+PTG:
+Vars:
+4
+$r3 1 28 
+_ret 1 28 
+$r0 1 0 
+r4 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 1 0 
+4 1 0 
+27 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.topElement()Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;
+PTG:
+Vars:
+4
+r2 3 -1 9 11 
+_ret 3 -1 9 11 
+r0 1 -1 
+$r1 1 11 
+Fields: 2
+-1 parent 11
+9 parent 11
+Accesses: 2
+5 3 -1 9 11 
+10 3 -1 9 11 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.depth()I
+PTG:
+Vars:
+3
+$r1 1 11 
+r2 1 11 
+r0 1 -1 
+Fields: 1
+-1 parent 11
+Accesses: 1
+10 1 11 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.addAnnotationName(IIII)Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;
+PTG:
+Vars:
+5
+_ret 1 33 
+$r1 1 5 
+$r3 1 33 
+r0 1 -1 
+$r2 1 5 
+Fields: 1
+-1 parent 5
+Accesses: 2
+4 1 -1 
+24 1 -1 
+Functions: 4
+1 2 -1 5 
+21 2 -1 5 
+25 1 5 
+14 2 -1 5 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.add(Lorg/eclipse/jdt/internal/compiler/ast/ImportReference;I)Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;
+PTG:
+Vars:
+6
+r2 1 -2 
+$r1 1 5 
+$r3 1 5 
+$r4 1 33 
+_ret 1 33 
+r0 1 -1 
+Fields: 1
+-1 parent 5
+Accesses: 3
+4 1 -1 
+27 1 -1 
+15 1 -2 
+Functions: 4
+1 2 -1 5 
+24 2 -1 5 
+28 2 -2 5 
+14 2 -1 5 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.updateParseTree()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.add(Lorg/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration;I)Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;
+PTG:
+Vars:
+6
+_ret 1 33 
+r0 1 -1 
+r2 1 -2 
+$r1 1 5 
+$r3 1 5 
+$r4 1 33 
+Fields: 1
+-1 parent 5
+Accesses: 3
+4 1 -1 
+27 1 -1 
+15 1 -2 
+Functions: 4
+1 2 -1 5 
+24 2 -1 5 
+28 2 -2 5 
+14 2 -1 5 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/parser/RecoveredElement.add(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;I)Lorg/eclipse/jdt/internal/compiler/parser/RecoveredElement;
+PTG:
+Vars:
+6
+$r3 1 5 
+_ret 1 33 
+r0 1 -1 
+$r4 1 33 
+r2 1 -2 
+$r1 1 5 
+Fields: 1
+-1 parent 5
+Accesses: 3
+4 1 -1 
+27 1 -1 
+15 1 -2 
+Functions: 4
+1 2 -1 5 
+24 2 -1 5 
+28 2 -2 5 
+14 2 -1 5 
+Constructors: 0
+
+Summary: 2
+0 -2 

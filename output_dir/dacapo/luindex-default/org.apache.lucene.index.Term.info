@@ -1,0 +1,259 @@
+13
+org/apache/lucene/index/Term.set(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/Term.text()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 text 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/Term.<init>(Ljava/lang/String;Ljava/lang/String;Z)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+$r4 2 10 -2 
+Fields: 0
+Accesses: 2
+17 1 -1 
+22 1 -1 
+Functions: 2
+1 1 -1 
+9 1 -2 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 1 0 
+org/apache/lucene/index/Term.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+7
+$r5 1 43 
+$r3 1 32 
+r0 1 -2 
+r2 1 -2 
+$r6 1 39 
+r1 1 -1 
+$r4 1 28 
+Fields: 4
+-1 field 28
+-1 text 39
+-2 field 32
+-2 text 43
+Accesses: 4
+38 1 -1 
+42 1 -2 
+27 1 -1 
+31 1 -2 
+Functions: 1
+39 2 39 43 
+Constructors: 0
+
+Summary: 5
+-1 -2 43 32 0 
+org/apache/lucene/index/Term.compareTo(Ljava/lang/Object;)I
+PTG:
+Vars:
+3
+$r2 1 -2 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/index/Term.compareTo(Lorg/apache/lucene/index/Term;)I
+PTG:
+Vars:
+6
+$r2 1 5 
+$r5 1 1 
+$r4 1 5 
+r1 1 -2 
+$r3 1 1 
+r0 1 -1 
+Fields: 2
+-1 field 1
+-2 field 5
+Accesses: 6
+0 1 -1 
+4 1 -2 
+23 1 -1 
+11 1 -1 
+27 1 -2 
+15 1 -2 
+Functions: 2
+24 2 1 5 
+12 0 
+Constructors: 0
+
+Summary: 5
+-1 -2 16 0 5 
+org/apache/lucene/index/Term.<init>(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 1
+4 -1
+
+Summary: 3
+-1 -2 -3 
+org/apache/lucene/index/Term.field()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 field 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/Term.<init>(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 -1 -2 
+Constructors: 1
+5 -1
+
+Summary: 2
+-1 -2 
+org/apache/lucene/index/Term.hashCode()I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 8 
+Fields: 2
+-1 field 1
+-1 text 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+1 1 1 
+8 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/Term.toString()Ljava/lang/String;
+PTG:
+Vars:
+9
+$r3 1 11 
+$r5 1 20 
+$r7 1 26 
+$r2 1 8 
+$r4 1 16 
+r1 1 -1 
+$r0 1 0 
+$r6 1 23 
+_ret 1 26 
+Fields: 2
+-1 field 8
+-1 text 20
+Accesses: 2
+19 1 -1 
+7 1 -1 
+Functions: 5
+0 2 0 8 
+16 2 16 20 
+4 1 0 
+23 1 23 
+11 1 11 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/Term.createTerm(Ljava/lang/String;)Lorg/apache/lucene/index/Term;
+PTG:
+Vars:
+5
+$r0 1 0 
+r1 1 -1 
+r2 1 -2 
+$r3 1 5 
+_ret 1 0 
+Fields: 1
+-1 field 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+10 3 0 -2 5 
+Constructors: 1
+10 0
+
+Summary: 2
+-1 -2 
+org/apache/lucene/index/Term.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+r0 1 -2 
+$r2 1 6 
+$r3 1 9 
+Fields: 1
+-1 field 6
+Accesses: 2
+5 1 -1 
+12 1 -1 
+Functions: 2
+1 1 -2 
+6 1 6 
+Constructors: 0
+
+Summary: 2
+-1 -2 

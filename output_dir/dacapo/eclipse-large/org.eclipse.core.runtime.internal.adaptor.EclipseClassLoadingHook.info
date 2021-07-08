@@ -1,0 +1,495 @@
+15
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.createClassLoader(Ljava/lang/ClassLoader;Lorg/eclipse/osgi/framework/adaptor/ClassLoaderDelegate;Lorg/eclipse/osgi/framework/adaptor/BundleProtectionDomain;Lorg/eclipse/osgi/baseadaptor/BaseData;[Ljava/lang/String;)Lorg/eclipse/osgi/baseadaptor/loader/BaseClassLoader;
+PTG:
+Vars:
+6
+r3 1 -4 
+r5 1 -6 
+r4 1 -5 
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 11
+3 -3 4 -2 2 -5 0 -1 -4 1 -6 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.processClass(Ljava/lang/String;[BLorg/eclipse/osgi/baseadaptor/loader/ClasspathEntry;Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleEntry;Lorg/eclipse/osgi/baseadaptor/loader/ClasspathManager;)[B
+PTG:
+Vars:
+44
+$r45 1 33 
+$r3 1 33 
+$r17 1 201 
+$r5 1 42 
+r9 1 132 
+r2 1 -1 
+r48 1 399 
+$r15 1 167 
+r35 2 327 347 
+r37 2 109 96 
+r28 1 -5 
+$r7 1 93 
+r1 1 30 
+r30 1 52 
+r27 1 -3 
+$r24 1 109 
+$r21 1 281 
+$r47 1 389 
+$r14 1 159 
+$r8 1 96 
+$r13 1 156 
+$r40 1 231 
+r34 2 317 297 
+r39 2 144 182 
+$r19 1 341 
+$r12 1 146 
+$r10 1 413 
+$r22 1 251 
+r31 2 227 207 
+$r43 1 321 
+$r23 1 221 
+r6 1 -4 
+r33 2 287 267 
+r0 1 -2 
+$r44 1 351 
+r38 1 144 
+$r41 1 261 
+$r42 1 291 
+r4 1 -6 
+r32 2 257 237 
+$r20 1 311 
+r36 2 377 357 
+r16 1 173 
+$r18 1 371 
+Fields: 1
+-1 pkgLock 33
+Accesses: 2
+32 1 -1 
+379 1 -1 
+Functions: 31
+259 3 144 261 182 
+387 1 -6 
+389 2 389 30 
+199 3 144 182 201 
+8 1 -2 
+139 1 132 
+146 1 146 
+339 2 144 341 
+150 1 30 
+23 1 -2 
+279 2 144 281 
+219 2 144 221 
+411 1 -6 
+92 2 -4 93 
+156 1 156 
+349 3 144 182 351 
+289 3 144 291 182 
+162 2 146 159 
+229 3 144 182 231 
+167 1 167 
+40 1 -6 
+42 2 42 30 
+175 2 132 173 
+431 14 257 227 357 327 297 267 237 207 377 347 413 317 30 287 
+113 1 109 
+369 2 144 371 
+309 2 144 311 
+121 2 -4 109 
+249 2 144 251 
+124 4 96 -4 -6 109 
+319 3 144 321 182 
+Constructors: 2
+113 109
+162 146
+
+Summary: 36
+132 257 267 173 413 287 3 144 -5 237 109 182 156 -4 167 2 -1 159 347 -3 377 357 1 399 389 327 317 0 207 4 227 297 42 52 96 -6 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.initializedClassLoader(Lorg/eclipse/osgi/baseadaptor/loader/BaseClassLoader;Lorg/eclipse/osgi/baseadaptor/BaseData;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.buildLibraryVariants()[Ljava/lang/String;
+PTG:
+Vars:
+31
+$r16 1 83 
+$r18 1 96 
+$r11 1 60 
+r28 1 115 
+r29 3 124 165 173 
+$r30 2 165 173 
+$r20 1 104 
+$r3 1 13 
+$r12 1 64 
+$r10 1 55 
+$r6 1 31 
+$r19 1 101 
+$r7 1 34 
+$r22 1 139 
+$r25 1 196 
+$r8 1 42 
+$r5 1 26 
+$r23 1 144 
+$r21 1 129 
+$r0 1 0 
+$r26 1 199 
+$r4 1 23 
+$r15 1 75 
+$r13 1 67 
+$r24 1 147 
+r2 1 11 
+$r17 1 93 
+$r27 1 199 
+$r14 1 72 
+_ret 1 199 
+$r9 1 52 
+Fields: 0
+Accesses: 0
+Functions: 36
+192 1 0 
+129 4 129 165 124 173 
+67 1 67 
+4 1 0 
+135 1 129 
+8 0 
+72 1 72 
+139 1 139 
+13 2 23 13 
+78 2 0 75 
+144 1 144 
+19 1 13 
+83 2 83 93 
+22 1 11 
+150 2 0 147 
+89 1 83 
+26 1 26 
+154 3 165 124 173 
+92 1 11 
+31 1 31 
+96 1 96 
+37 2 0 34 
+101 1 101 
+42 2 52 42 
+170 3 165 124 173 
+107 2 0 104 
+111 1 11 
+48 1 42 
+177 3 165 124 173 
+51 1 11 
+116 1 115 
+55 1 55 
+187 1 0 
+60 2 64 60 
+63 1 11 
+191 2 0 196 
+Constructors: 5
+48 42
+19 13
+4 0
+135 129
+89 83
+
+Summary: 16
+101 23 147 173 64 0 75 144 31 93 72 104 11 34 52 196 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.addInternalClassPath(Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;Lorg/eclipse/osgi/baseadaptor/loader/ClasspathManager;Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/security/ProtectionDomain;)Z
+PTG:
+Vars:
+15
+$r6 1 138 
+$r8 1 145 
+r11 1 -7 
+r28 1 115 
+r10 1 -6 
+$r5 1 137 
+r0 1 -2 
+r9 1 -5 
+r26 1 -1 
+r27 1 -4 
+$r7 1 142 
+$r3 1 123 
+$r4 1 132 
+r2 1 -3 
+$r1 1 167 
+Fields: 1
+132 ArrayObject 137
+Accesses: 0
+Functions: 24
+0 1 -2 
+-1 0 
+129 1 123 
+34 0 
+67 0 
+100 1 -2 
+70 0 
+138 2 115 138 
+11 0 
+44 4 -3 -5 -6 -7 
+76 0 
+110 1 -4 
+142 1 142 
+79 1 -4 
+17 0 
+50 1 -2 
+20 0 
+84 0 
+152 5 145 -3 -5 -6 -7 
+26 0 
+123 2 137 123 
+29 1 -4 
+61 0 
+94 4 -3 -5 -6 -7 
+Constructors: 1
+129 123
+
+Summary: 25
+-3 23 70 142 84 1 3 81 -7 -5 31 20 -2 145 0 73 5 37 4 115 34 2 87 -1 -6 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.getBundleClassLoaderParent()Ljava/lang/ClassLoader;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.buildNLJarVariants(Ljava/lang/String;)[Ljava/lang/String;
+PTG:
+Vars:
+12
+$r8 1 91 
+$r3 1 31 
+r9 1 -2 
+$r6 1 88 
+$r4 1 36 
+$r2 1 21 
+r10 3 16 57 65 
+$r7 1 91 
+_ret 1 91 
+$r5 1 39 
+$r0 1 0 
+$r11 2 57 65 
+Fields: 0
+Accesses: 0
+Functions: 13
+4 1 0 
+36 1 36 
+69 3 16 65 57 
+8 1 -2 
+42 2 0 39 
+46 3 16 65 57 
+79 1 0 
+83 2 0 88 
+84 1 0 
+21 4 16 65 21 57 
+27 1 21 
+62 3 16 65 57 
+31 1 31 
+Constructors: 2
+4 0
+27 21
+
+Summary: 6
+39 0 0 88 65 36 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.searchVariants(Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+12
+$r8 1 29 
+r7 1 -3 
+$r3 1 13 
+$r6 1 22 
+$r9 1 32 
+r27 1 -1 
+$r5 1 21 
+r10 1 38 
+r1 1 -2 
+$r4 1 17 
+r2 1 9 
+$r0 1 151 
+Fields: 1
+17 ArrayObject 21
+Accesses: 0
+Functions: 19
+-1 0 
+97 0 
+5 1 -2 
+138 0 
+11 2 32 9 
+13 2 -3 13 
+45 1 9 
+141 0 
+47 1 -3 
+82 0 
+21 1 21 
+85 0 
+118 0 
+55 0 
+25 2 22 13 
+59 0 
+29 1 29 
+63 0 
+127 0 
+Constructors: 1
+25 13
+
+Summary: 21
+115 -3 1 63 32 9 22 101 85 109 -2 124 88 0 73 66 97 -1 38 29 56 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.findLibrary(Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+8
+r3 1 60 
+$r4 1 74 
+r2 1 -2 
+r6 2 46 78 
+r0 1 39 
+_ret 2 46 78 
+r1 1 -1 
+r5 2 -3 34 
+Fields: 1
+60 ArrayObject 74
+Accesses: 0
+Functions: 8
+0 2 -3 34 
+19 2 -3 34 
+35 2 -3 34 
+68 3 -1 -2 74 
+40 3 -1 -2 39 
+56 1 39 
+9 2 -3 34 
+29 2 -3 34 
+Constructors: 0
+
+Summary: 5
+-2 60 39 -1 1 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.addHooks(Lorg/eclipse/osgi/baseadaptor/HookRegistry;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.<clinit>()V
+PTG:
+Vars:
+5
+$r2 1 6 
+$r1 1 3 
+$r0 1 0 
+$r3 1 12 
+$r5 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+0 1 0 
+3 1 3 
+20 0 
+Constructors: 0
+
+Summary: 2
+3 0 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.addClassPathEntry(Ljava/util/ArrayList;Ljava/lang/String;Lorg/eclipse/osgi/baseadaptor/loader/ClasspathManager;Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/security/ProtectionDomain;)Z
+PTG:
+Vars:
+11
+r7 1 -2 
+r4 1 -5 
+r0 1 4 
+r9 1 -3 
+$r1 1 35 
+r10 1 43 
+$r3 1 46 
+r8 1 -1 
+r2 1 -4 
+r6 1 56 
+r5 1 -6 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -3 
+34 1 -3 
+66 2 -2 56 
+35 1 35 
+25 1 -3 
+11 7 -1 -2 -3 -4 4 -5 -6 
+44 4 -4 -5 -6 46 
+45 1 43 
+Constructors: 0
+
+Summary: 14
+46 -2 4 43 0 -4 1 3 4 2 -5 -1 -6 56 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.<init>()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 2
+1 1 -1 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.hasPrefix(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+28 1 -2 
+14 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/core/runtime/internal/adaptor/EclipseClassLoadingHook.recordClassDefine(Ljava/lang/String;Ljava/lang/Class;[BLorg/eclipse/osgi/baseadaptor/loader/ClasspathEntry;Lorg/eclipse/osgi/baseadaptor/bundlefile/BundleEntry;Lorg/eclipse/osgi/baseadaptor/loader/ClasspathManager;)V
+PTG:
+Vars:
+7
+r5 1 -6 
+r3 1 -4 
+r4 1 -5 
+r6 1 -7 
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 7
+-3 -2 -7 -5 -1 -4 -6 

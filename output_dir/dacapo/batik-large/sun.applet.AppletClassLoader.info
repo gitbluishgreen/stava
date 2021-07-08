@@ -1,0 +1,893 @@
+34
+sun/applet/AppletClassLoader.isJDK12Target(Ljava/lang/Class;)Ljava/lang/Boolean;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r3 1 5 
+_ret 1 8 
+$r4 1 8 
+$r5 1 8 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 jdk12AppletInfo 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 5 
+4 1 -2 
+Constructors: 0
+
+Summary: 3
+5 -1 -2 
+sun/applet/AppletClassLoader.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 0 
+Constructors: 1
+6 0
+
+Summary: 0
+
+sun/applet/AppletClassLoader.setCodebaseLookup(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/applet/AppletClassLoader.findResource(Ljava/lang/String;)Ljava/net/URL;
+PTG:
+Vars:
+10
+r0 1 -1 
+$r7 1 -1 
+$r6 1 111 
+r1 1 -2 
+$r4 1 101 
+$r5 1 106 
+_ret 2 5 101 
+$r3 1 69 
+r11 2 5 101 
+$r2 1 33 
+Fields: 3
+-1 base 106
+-1 syncResourceAsStream 69
+-1 syncResourceAsStreamFromJar 33
+Accesses: 6
+32 1 -1 
+17 1 -1 
+68 1 -1 
+40 1 -1 
+105 1 -1 
+76 1 -1 
+Functions: 5
+0 5 -1 33 -2 69 106 
+114 3 101 106 111 
+6 1 -2 
+118 5 -1 33 69 101 106 
+110 1 -2 
+Constructors: 1
+114 101
+
+Summary: 3
+111 -1 -2 
+sun/applet/AppletClassLoader.access$100(Ljava/net/URL;)[B
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/applet/AppletClassLoader.getPermissions(Ljava/security/CodeSource;)Ljava/security/PermissionCollection;
+PTG:
+Vars:
+44
+$r21 1 213 
+$r17 1 270 
+$r8 1 225 
+$r23 1 137 
+r3 1 10 
+r32 1 21 
+$r18 1 279 
+$r24 1 140 
+_ret 1 5 
+$r27 1 55 
+r45 2 352 385 
+$r6 1 225 
+$r40 1 228 
+$r16 1 293 
+$r7 1 319 
+r0 1 -1 
+$r4 1 15 
+$r14 1 379 
+$r13 1 374 
+r31 2 44 85 
+r44 1 345 
+r1 1 -2 
+$r28 1 67 
+$r20 1 200 
+r2 1 5 
+$r22 1 123 
+r41 1 234 
+$r9 1 334 
+$r19 1 284 
+r34 1 78 
+r35 2 44 85 
+r36 1 151 
+$r10 1 356 
+$r29 1 -1 
+r43 2 257 290 
+$r15 1 261 
+$r12 1 365 
+$r30 1 -1 
+$r37 1 168 
+$r39 1 225 
+$r11 1 388 
+$r25 1 145 
+$r5 1 98 
+$r26 1 154 
+Fields: 1
+-1 base 225
+Accesses: 4
+224 1 -1 
+186 1 -1 
+330 1 -1 
+315 1 -1 
+Functions: 47
+0 3 -1 225 -2 
+66 1 10 
+130 2 85 44 
+67 1 67 
+259 3 257 290 261 
+6 1 -2 
+198 2 85 44 
+200 1 200 
+331 1 225 
+140 1 140 
+396 3 352 385 388 
+14 1 10 
+270 3 257 290 270 
+334 1 334 
+15 1 15 
+399 2 388 5 
+80 1 78 
+145 1 145 
+274 1 270 
+211 2 85 44 
+213 1 213 
+279 1 279 
+347 1 345 
+284 1 284 
+96 3 98 85 44 
+225 1 225 
+162 2 151 154 
+354 3 352 385 356 
+228 1 228 
+165 2 5 154 
+39 1 21 
+107 2 85 44 
+301 3 257 290 293 
+365 3 352 385 365 
+174 3 85 168 44 
+304 2 5 293 
+369 1 365 
+179 1 168 
+54 1 10 
+374 1 374 
+55 1 55 
+123 2 137 123 
+379 1 379 
+252 1 234 
+316 1 225 
+127 1 123 
+319 1 319 
+Constructors: 7
+369 365
+162 154
+274 270
+396 388
+301 293
+174 168
+127 123
+
+Summary: 12
+257 234 345 228 319 -1 293 388 -2 154 168 0 
+sun/applet/AppletClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class;
+PTG:
+Vars:
+6
+r0 1 -2 
+$r2 1 27 
+r1 1 -1 
+$r7 1 36 
+$r3 1 -1 
+r6 1 15 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+33 2 -1 -2 
+24 1 -2 
+12 0 
+30 2 27 15 
+Constructors: 0
+
+Summary: 1
+0 
+sun/applet/AppletClassLoader.grab()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 grabReleaseSynchronizer 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+14 1 -1 
+Functions: 1
+28 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/applet/AppletClassLoader.getURLs()[Ljava/net/URL;
+PTG:
+Vars:
+5
+r2 1 9 
+r1 1 4 
+r0 1 -1 
+$r3 1 28 
+_ret 1 9 
+Fields: 1
+-1 base 28
+Accesses: 1
+27 1 -1 
+Functions: 2
+0 2 -1 28 
+19 2 4 9 
+Constructors: 0
+
+Summary: 2
+4 -1 
+sun/applet/AppletClassLoader.disableRecursiveDirectoryRead()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/applet/AppletClassLoader.getResourceAsStreamFromJar(Ljava/lang/String;)Ljava/io/InputStream;
+PTG:
+Vars:
+6
+r0 1 -2 
+$r6 1 -1 
+r1 1 -1 
+$r2 1 17 
+r8 1 33 
+$r5 1 -1 
+Fields: 1
+-1 syncResourceAsStreamFromJar 17
+Accesses: 3
+16 1 -1 
+36 1 -1 
+25 1 -1 
+Functions: 2
+10 0 
+28 3 -1 17 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+sun/applet/AppletClassLoader.addJar(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+$r0 1 0 
+$r3 1 5 
+r2 1 -2 
+Fields: 1
+-1 base 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+23 0 
+9 3 0 -2 5 
+29 3 -1 0 5 
+Constructors: 1
+9 0
+
+Summary: 3
+-1 -2 0 
+sun/applet/AppletClassLoader.getAppContext()Lsun/awt/AppContext;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 appContext 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/applet/AppletClassLoader.loadCode(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+14
+r0 1 -1 
+r9 1 -2 
+_ret 1 136 
+$r2 1 87 
+$r8 1 125 
+r13 3 49 18 131 
+$r7 1 115 
+r12 1 42 
+$r6 1 136 
+$r4 1 -1 
+$r1 1 105 
+$r3 1 96 
+r11 4 49 102 18 82 
+r10 1 8 
+Fields: 0
+Accesses: 0
+Functions: 18
+0 1 -2 
+96 1 96 
+33 4 49 18 82 102 
+35 4 49 18 82 102 
+133 4 -1 49 18 131 
+71 4 49 18 82 102 
+103 5 -1 49 18 82 102 
+9 1 8 
+73 4 49 18 82 102 
+43 4 49 18 82 102 
+115 2 115 42 
+21 4 49 18 82 102 
+53 4 49 18 82 102 
+87 2 87 42 
+121 4 49 18 115 131 
+92 5 49 18 82 102 87 
+125 1 125 
+62 4 49 18 82 102 
+Constructors: 2
+121 115
+92 87
+
+Summary: 11
+-1 102 42 18 82 96 131 -2 8 125 49 
+sun/applet/AppletClassLoader.setJDK12Target(Ljava/lang/Class;Z)V
+PTG:
+Vars:
+5
+$r3 1 5 
+r1 1 -2 
+$r2 1 1 
+$r4 1 9 
+r0 1 -1 
+Fields: 1
+-1 jdk12AppletInfo 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+4 1 -2 
+8 0 
+12 3 1 5 9 
+Constructors: 0
+
+Summary: 4
+5 9 -1 -2 
+sun/applet/AppletClassLoader.access$202(Lsun/applet/AppletClassLoader;Lsun/applet/AppletThreadGroup;)Lsun/applet/AppletThreadGroup;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 -3 
+r1 1 -3 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+1 -2 0 
+sun/applet/AppletClassLoader.access$200(Lsun/applet/AppletClassLoader;)Lsun/applet/AppletThreadGroup;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -2 
+$r1 1 1 
+Fields: 1
+-2 threadGroup 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/applet/AppletClassLoader.getThreadGroup()Ljava/lang/ThreadGroup;
+PTG:
+Vars:
+7
+$r3 1 8 
+$r6 1 8 
+$r1 1 1 
+$r4 1 24 
+$r7 1 -1 
+r0 1 -1 
+$r9 1 8 
+Fields: 2
+-1 threadGroup 8
+-1 threadGroupSynchronizer 1
+Accesses: 4
+0 1 -1 
+36 1 -1 
+7 1 -1 
+14 1 -1 
+Functions: 3
+32 1 24 
+29 4 -1 1 24 8 
+15 1 8 
+Constructors: 1
+29 24
+
+Summary: 1
+-1 
+sun/applet/AppletClassLoader.setExceptionStatus()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/applet/AppletClassLoader.getExceptionStatus()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/applet/AppletClassLoader.resetAppContext()Lsun/awt/AppContext;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 3 
+r5 1 13 
+_ret 1 13 
+Fields: 2
+-1 appContext 13
+-1 threadGroupSynchronizer 3
+Accesses: 5
+16 1 -1 
+2 1 -1 
+21 1 -1 
+9 1 -1 
+26 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/applet/AppletClassLoader.isJDK11Target(Ljava/lang/Class;)Ljava/lang/Boolean;
+PTG:
+Vars:
+7
+r1 1 -2 
+$r4 1 8 
+r0 1 -1 
+$r2 1 1 
+_ret 1 8 
+$r5 1 8 
+$r3 1 5 
+Fields: 1
+-1 jdk11AppletInfo 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 5 
+4 1 -2 
+Constructors: 0
+
+Summary: 3
+5 -1 -2 
+sun/applet/AppletClassLoader.setJDK11Target(Ljava/lang/Class;Z)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 5 
+r1 1 -2 
+$r4 1 9 
+$r2 1 1 
+Fields: 1
+-1 jdk11AppletInfo 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+4 1 -2 
+8 0 
+12 3 1 5 9 
+Constructors: 0
+
+Summary: 4
+5 9 -1 -2 
+sun/applet/AppletClassLoader.access$302(Lsun/applet/AppletClassLoader;Lsun/awt/AppContext;)Lsun/awt/AppContext;
+PTG:
+Vars:
+3
+r1 1 -3 
+_ret 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/applet/AppletClassLoader.getBaseURL()Ljava/net/URL;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 base 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/applet/AppletClassLoader.findClass(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+22
+$r14 1 107 
+$r17 1 135 
+$r5 1 -1 
+r10 1 91 
+$r11 1 93 
+$r16 1 132 
+$r7 1 70 
+r0 1 -1 
+r19 2 31 -2 
+$r6 1 61 
+$r9 1 85 
+$r1 1 34 
+$r3 1 150 
+r22 1 68 
+$r13 1 107 
+$r4 1 157 
+$r2 1 -1 
+$r8 1 81 
+$r15 1 139 
+r23 1 107 
+r20 2 24 9 
+$r12 1 104 
+Fields: 2
+-1 acc 104
+-1 codesource 132
+Accesses: 3
+131 1 -1 
+103 1 -1 
+40 1 -1 
+Functions: 18
+0 2 -2 31 
+32 5 -1 -2 132 104 31 
+64 1 61 
+160 4 -2 150 157 31 
+100 5 -1 132 104 91 93 
+70 1 70 
+104 2 104 93 
+76 2 68 70 
+15 2 -2 31 
+144 3 -2 139 31 
+17 2 -2 31 
+81 3 81 24 9 
+52 2 -2 31 
+85 1 85 
+56 2 -2 31 
+25 2 -2 31 
+123 6 -1 -2 132 104 107 31 
+155 1 -1 
+Constructors: 4
+144 139
+160 150
+100 93
+76 70
+
+Summary: 2
+157 0 
+sun/applet/AppletClassLoader.access$000(Lsun/applet/AppletClassLoader;)Ljava/net/URL;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-2 base 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/applet/AppletClassLoader.findResources(Ljava/lang/String;)Ljava/util/Enumeration;
+PTG:
+Vars:
+9
+r0 1 -1 
+$r3 1 26 
+r1 1 -2 
+$r4 1 31 
+$r5 1 36 
+_ret 1 56 
+r2 1 5 
+r8 1 26 
+$r7 1 56 
+Fields: 1
+-1 base 31
+Accesses: 2
+17 1 -1 
+30 1 -1 
+Functions: 6
+0 3 -1 -2 31 
+64 5 -1 5 56 26 31 
+35 1 -2 
+6 1 -2 
+39 3 36 26 31 
+43 3 -1 26 31 
+Constructors: 2
+64 56
+39 26
+
+Summary: 4
+26 -1 36 -2 
+sun/applet/AppletClassLoader.getBytes(Ljava/net/URL;)[B
+PTG:
+Vars:
+7
+$r2 1 52 
+r1 1 4 
+r0 1 -2 
+$r3 1 57 
+_ret 1 69 
+r8 1 4 
+r4 1 69 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -2 
+17 1 4 
+65 1 52 
+81 1 52 
+35 0 
+39 1 4 
+56 1 4 
+72 1 52 
+60 2 52 57 
+Constructors: 1
+60 52
+
+Summary: 3
+52 -2 0 
+sun/applet/AppletClassLoader.getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+PTG:
+Vars:
+9
+r1 1 -1 
+r0 1 -2 
+$r4 1 68 
+$r3 1 63 
+$r5 1 73 
+$r7 1 -1 
+$r8 1 -1 
+r11 2 33 84 
+$r2 1 17 
+Fields: 2
+-1 base 68
+-1 syncResourceAsStream 17
+Accesses: 5
+16 1 -1 
+51 1 -1 
+67 1 -1 
+36 1 -1 
+25 1 -1 
+Functions: 5
+80 1 63 
+72 1 -2 
+10 0 
+28 4 -1 17 -2 68 
+76 3 68 73 63 
+Constructors: 1
+76 63
+
+Summary: 5
+63 -1 73 -2 0 
+sun/applet/AppletClassLoader.release()V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 -1 
+$r2 1 31 
+r9 1 41 
+$r1 1 3 
+Fields: 2
+-1 grabReleaseSynchronizer 3
+-1 threadGroupSynchronizer 31
+Accesses: 5
+17 1 -1 
+2 1 -1 
+24 1 -1 
+9 1 -1 
+30 1 -1 
+Functions: 2
+37 3 -1 3 31 
+71 1 41 
+Constructors: 0
+
+Summary: 2
+41 -1 
+sun/applet/AppletClassLoader.<init>(Ljava/net/URL;)V
+PTG:
+Vars:
+12
+$r9 1 110 
+$r10 0 
+r0 1 -1 
+$r2 1 14 
+r8 1 -2 
+$r1 1 2 
+$r4 1 46 
+$r11 1 126 
+$r6 1 83 
+$r3 1 25 
+$r7 1 94 
+$r5 1 57 
+Fields: 0
+Accesses: 15
+32 1 -1 
+64 1 -1 
+129 1 -1 
+37 1 -1 
+69 1 -1 
+101 1 -1 
+10 1 -1 
+42 1 -1 
+74 1 -1 
+106 1 -1 
+79 1 -1 
+21 1 -1 
+53 1 -1 
+90 1 -1 
+122 1 -1 
+Functions: 9
+-1 0 
+18 1 14 
+50 1 46 
+98 1 94 
+5 2 -1 2 
+87 1 83 
+119 2 -2 110 
+29 1 25 
+61 1 57 
+Constructors: 8
+18 14
+50 46
+98 94
+5 -1
+87 83
+119 110
+29 25
+61 57
+
+Summary: 1
+2 
+sun/applet/AppletClassLoader.printError(Ljava/lang/String;Ljava/lang/Throwable;)V
+PTG:
+Vars:
+10
+$r7 1 26 
+$r8 1 6 
+r4 1 -2 
+$r6 1 46 
+$r2 1 86 
+r9 5 15 75 55 99 35 
+$r5 1 66 
+$r1 1 104 
+$r3 1 92 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 7
+66 2 -2 66 
+6 2 -2 6 
+86 3 -2 86 92 
+26 2 -2 26 
+91 1 -3 
+108 6 99 35 55 104 75 15 
+46 2 -2 46 
+Constructors: 0
+
+Summary: 8
+15 92 -2 75 -3 55 99 35 
+sun/applet/AppletClassLoader.resourceExists(Ljava/net/URL;)Z
+PTG:
+Vars:
+6
+r2 1 -1 
+r0 1 -2 
+r5 1 61 
+r4 1 6 
+r3 1 6 
+$r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+65 1 61 
+2 1 -2 
+24 1 6 
+57 1 6 
+27 1 6 
+Constructors: 0
+
+Summary: 4
+61 -1 -2 0 

@@ -1,0 +1,1287 @@
+43
+org/h2/constraint/ConstraintReferential.appendAction(Lorg/h2/util/StatementBuilder;I)V
+PTG:
+Vars:
+6
+$r7 1 74 
+r9 1 -1 
+$r5 1 67 
+$r6 1 71 
+$r4 1 58 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 8
+51 1 -2 
+67 1 67 
+71 1 71 
+41 1 -2 
+58 1 58 
+77 1 74 
+62 1 58 
+31 1 -2 
+Constructors: 1
+62 58
+
+Summary: 2
+0 -1 
+org/h2/constraint/ConstraintReferential.getDelete(Lorg/h2/engine/Session;)Lorg/h2/command/Prepared;
+PTG:
+Vars:
+5
+_ret 1 10 
+$r2 1 3 
+r1 1 -2 
+r0 1 -1 
+$r3 1 10 
+Fields: 1
+-1 deleteSQL 3
+Accesses: 2
+2 1 -1 
+6 1 -1 
+Functions: 1
+0 3 -1 -2 3 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/constraint/ConstraintReferential.getCreateSQLWithoutIndexes()Ljava/lang/String;
+PTG:
+Vars:
+6
+$r2 1 6 
+$r4 1 14 
+_ret 1 14 
+$r3 1 10 
+$r1 1 2 
+r0 1 -1 
+Fields: 2
+-1 refTable 6
+-1 table 2
+Accesses: 2
+1 1 -1 
+5 1 -1 
+Functions: 2
+0 4 -1 2 6 10 
+9 3 -1 2 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.found(Lorg/h2/engine/Session;Lorg/h2/index/Index;Lorg/h2/result/SearchRow;Lorg/h2/result/Row;)Z
+PTG:
+Vars:
+13
+r6 1 -5 
+r2 1 -2 
+r11 1 131 
+r0 1 -3 
+r1 1 6 
+r10 1 120 
+r4 1 25 
+r7 1 76 
+$r12 1 87 
+r8 1 -1 
+r3 1 -4 
+r5 1 44 
+$r9 1 106 
+Fields: 2
+76 ArrayObject 106
+-1 columns 87
+Accesses: 1
+86 1 -1 
+Functions: 12
+0 1 -3 
+16 3 -2 -3 -4 
+112 1 -4 
+51 1 44 
+37 1 25 
+133 3 131 6 120 
+70 1 -3 
+58 1 -5 
+106 1 106 
+122 1 44 
+27 1 25 
+13 2 -2 6 
+Constructors: 0
+
+Summary: 9
+1 -2 0 -3 3 -5 -4 -1 2 
+org/h2/constraint/ConstraintReferential.containsColumn(Lorg/h2/table/Column;)Z
+PTG:
+Vars:
+8
+r4 1 4 
+r5 1 21 
+r0 1 -1 
+r6 1 44 
+r7 1 61 
+$r3 1 25 
+r1 1 -2 
+$r2 1 65 
+Fields: 6
+4 ArrayObject 21
+21 column 25
+61 column 65
+44 ArrayObject 61
+-1 columns 4
+-1 refColumns 44
+Accesses: 4
+0 1 -1 
+23 1 21 
+40 1 -1 
+63 1 61 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/constraint/ConstraintReferential.setColumns([Lorg/h2/table/IndexColumn;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/constraint/ConstraintReferential.appendWhere(Lorg/h2/util/StatementBuilder;)V
+PTG:
+Vars:
+8
+r3 1 -1 
+r4 1 16 
+r5 1 33 
+$r9 1 53 
+r0 1 -2 
+$r8 1 50 
+$r6 1 44 
+$r7 1 47 
+Fields: 3
+16 ArrayObject 33
+33 column 44
+-1 columns 16
+Accesses: 2
+42 1 33 
+12 1 -1 
+Functions: 7
+3 1 -2 
+38 1 -2 
+8 1 -2 
+41 2 -2 50 
+58 1 53 
+44 1 44 
+47 1 47 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/constraint/ConstraintReferential.getCreateSQL()Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 9 
+$r2 1 6 
+$r3 1 9 
+r0 1 -1 
+$r1 1 2 
+Fields: 1
+-1 table 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+0 3 -1 2 6 
+5 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.getConstraintType()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.setRefIndex(Lorg/h2/index/Index;Z)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/constraint/ConstraintReferential.getShortDescription()Ljava/lang/String;
+PTG:
+Vars:
+20
+$r7 1 25 
+$r15 1 154 
+$r5 1 19 
+r23 1 110 
+$r9 1 82 
+$r10 1 86 
+$r17 1 138 
+$r16 1 157 
+$r4 1 15 
+$r0 1 0 
+$r12 1 92 
+r22 1 55 
+r21 1 38 
+_ret 1 157 
+r1 1 -1 
+$r11 1 89 
+$r6 1 22 
+$r2 1 5 
+$r19 1 66 
+r24 1 127 
+Fields: 6
+110 ArrayObject 127
+38 ArrayObject 55
+-1 columns 38
+-1 refTable 86
+-1 table 19
+-1 refColumns 110
+Accesses: 4
+18 1 -1 
+34 1 -1 
+85 1 -1 
+106 1 -1 
+Functions: 19
+64 1 55 
+97 1 92 
+4 7 -1 19 38 86 55 110 127 
+132 1 0 
+69 2 0 66 
+102 1 0 
+8 2 0 5 
+136 1 127 
+12 1 0 
+141 2 0 138 
+15 2 22 15 
+79 1 0 
+82 2 82 89 
+19 1 19 
+86 1 86 
+151 1 0 
+154 1 154 
+60 1 0 
+30 1 25 
+Constructors: 1
+8 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.checkRowRefTable(Lorg/h2/engine/Session;Lorg/h2/result/Row;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+16
+r13 1 63 
+$r9 1 152 
+r7 1 138 
+r14 1 104 
+$r5 1 127 
+r10 1 156 
+$r11 1 166 
+r3 1 -2 
+$r12 1 52 
+r15 1 119 
+$r8 1 147 
+$r6 1 138 
+r1 1 -4 
+$r4 1 127 
+r0 1 -3 
+r2 1 -1 
+Fields: 5
+147 ArrayObject 152
+-1 columns 52
+-1 columns 127
+-1 refColumns 147
+152 column 156
+Accesses: 9
+146 1 -1 
+51 1 -1 
+83 1 -1 
+181 1 -1 
+23 1 -1 
+39 1 -1 
+152 1 152 
+106 1 -1 
+126 1 -1 
+Functions: 14
+160 1 -4 
+33 8 -1 -2 -3 147 52 152 156 127 
+161 1 156 
+193 7 -1 147 52 152 104 156 127 
+99 7 -1 -2 147 52 152 156 127 
+134 1 119 
+71 8 -1 -3 147 52 152 156 127 63 
+9 8 -1 -3 147 -4 52 152 156 127 
+169 2 166 138 
+77 7 -1 147 52 152 156 127 63 
+114 1 104 
+58 7 -1 -2 147 52 152 156 127 
+187 8 -1 -3 147 52 152 104 156 127 
+93 8 -1 -2 -3 147 52 152 156 127 
+Constructors: 0
+
+Summary: 7
+1 -2 0 -3 -4 -1 2 
+org/h2/constraint/ConstraintReferential.setRefTable(Lorg/h2/table/Table;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 2
+5 1 -2 
+14 1 -1 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/constraint/ConstraintReferential.getCreateSQLForCopy(Lorg/h2/table/Table;Lorg/h2/table/Table;Ljava/lang/String;Z)Ljava/lang/String;
+PTG:
+Vars:
+33
+$r37 1 116 
+r2 1 -2 
+$r40 1 35 
+r6 1 -4 
+$r32 1 151 
+$r0 1 0 
+$r5 1 26 
+$r4 1 21 
+$r34 1 165 
+$r39 1 45 
+$r20 1 382 
+$r30 1 267 
+r8 1 -1 
+r3 1 15 
+$r45 1 151 
+$r46 1 190 
+$r16 1 215 
+r29 1 254 
+$r21 1 385 
+$r9 1 35 
+r15 1 -3 
+$r35 1 168 
+$r25 1 312 
+$r27 1 319 
+_ret 1 385 
+$r41 1 52 
+$r33 1 161 
+r10 1 63 
+r44 1 103 
+$r24 1 151 
+r11 1 69 
+$r26 1 316 
+r47 2 209 200 
+Fields: 9
+69 ArrayObject 254
+63 ArrayObject 103
+-1 comment 35
+-1 index 165
+-1 columns 63
+-1 refTable 190
+-1 refColumns 69
+-1 table 151
+-1 refIndex 316
+Accesses: 16
+65 1 -1 
+353 1 -1 
+34 1 -1 
+164 1 -1 
+293 1 -1 
+328 1 -1 
+301 1 -1 
+142 1 -1 
+48 1 -1 
+371 1 -1 
+150 1 -1 
+185 1 -1 
+346 1 -1 
+59 1 -1 
+315 1 -1 
+189 1 -1 
+Functions: 35
+196 1 -2 
+260 1 0 
+324 2 312 319 
+133 1 0 
+6 1 0 
+265 1 254 
+11 1 -2 
+75 1 0 
+205 1 -3 
+270 2 0 267 
+17 2 0 15 
+211 3 0 209 200 
+339 1 0 
+21 1 21 
+220 1 215 
+284 1 0 
+157 1 0 
+30 2 -4 26 
+350 11 -1 0 35 165 69 151 103 316 190 254 63 
+226 1 0 
+165 1 165 
+41 1 0 
+364 1 0 
+109 1 0 
+173 2 161 168 
+49 1 35 
+114 1 103 
+308 1 0 
+181 1 0 
+55 2 52 45 
+119 2 0 116 
+375 11 -1 0 35 165 69 151 103 316 190 254 63 
+378 1 0 
+316 1 316 
+382 1 382 
+Constructors: 1
+6 0
+
+Summary: 7
+1 -2 -4 2 0 -3 -1 
+org/h2/constraint/ConstraintReferential.setDeleteAction(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r2 1 9 
+Fields: 1
+-1 deleteSQL 9
+Accesses: 4
+16 1 -1 
+1 1 -1 
+33 1 -1 
+8 1 -1 
+Functions: 2
+37 2 -1 9 
+25 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.getDeleteAction()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.getRefTable()Lorg/h2/table/Table;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 refTable 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.checkRow(Lorg/h2/engine/Session;Lorg/h2/table/Table;Lorg/h2/result/Row;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+10
+r6 1 -2 
+r8 1 -5 
+$r3 1 22 
+$r1 1 1 
+r4 1 -3 
+$r9 1 22 
+$r5 1 12 
+r0 1 -1 
+r7 1 -4 
+$r2 1 12 
+Fields: 3
+-1 database 1
+-1 refTable 22
+-1 table 12
+Accesses: 6
+0 1 -1 
+33 1 -1 
+21 1 -1 
+40 1 -1 
+56 1 -1 
+11 1 -1 
+Functions: 5
+1 1 1 
+52 7 -1 1 -2 -4 -5 22 12 
+68 7 -1 1 -2 -4 -5 22 12 
+22 1 22 
+12 1 12 
+Constructors: 0
+
+Summary: 9
+3 -5 1 -2 0 -4 -1 -3 2 
+org/h2/constraint/ConstraintReferential.buildDeleteSQL()V
+PTG:
+Vars:
+6
+$r3 1 56 
+r0 1 -1 
+$r6 1 34 
+$r1 1 8 
+$r4 1 27 
+$r5 1 31 
+Fields: 1
+-1 table 31
+Accesses: 4
+0 1 -1 
+16 1 -1 
+59 1 -1 
+30 1 -1 
+Functions: 7
+51 3 -1 8 31 
+37 2 34 27 
+55 1 8 
+24 1 8 
+12 1 8 
+46 3 -1 8 31 
+31 1 31 
+Constructors: 1
+12 8
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.rebuild()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+5 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.checkExistingData(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+35
+r41 1 44 
+$r13 1 209 
+$r24 1 272 
+$r31 1 302 
+r45 1 182 
+r44 1 25 
+$r14 1 213 
+$r15 1 216 
+$r1 1 1 
+$r35 1 129 
+$r20 1 331 
+$r8 1 81 
+r42 1 25 
+r43 1 118 
+$r6 1 75 
+$r26 1 280 
+$r28 1 290 
+$r2 1 11 
+r4 1 -1 
+$r38 1 55 
+$r25 1 277 
+r48 1 338 
+r46 1 25 
+r0 1 -2 
+r47 1 326 
+$r7 1 78 
+$r16 1 219 
+$r29 1 294 
+$r33 1 193 
+$r36 1 132 
+r40 1 25 
+$r5 1 71 
+$r27 1 285 
+$r30 1 301 
+r23 1 261 
+Fields: 9
+294 ArrayObject 301
+25 ArrayObject 118
+25 ArrayObject 44
+25 ArrayObject 182
+25 ArrayObject 261
+-1 columns 25
+-1 refTable 213
+-1 table 75
+-1 refColumns 294
+Accesses: 7
+212 1 -1 
+21 1 -1 
+293 1 -1 
+74 1 -1 
+235 1 -1 
+95 1 -1 
+159 1 -1 
+Functions: 40
+0 1 -2 
+1 1 1 
+322 1 11 
+68 1 11 
+196 2 193 11 
+71 2 71 78 
+328 2 -2 326 
+137 1 132 
+266 1 11 
+75 1 75 
+331 1 331 
+269 1 11 
+206 1 11 
+272 2 272 277 
+17 1 11 
+209 2 209 216 
+275 1 261 
+340 1 338 
+213 1 213 
+86 1 81 
+150 1 11 
+280 1 280 
+91 1 11 
+155 1 11 
+285 1 285 
+351 10 -1 213 261 294 118 182 25 75 44 301 
+224 1 219 
+352 0 
+229 1 11 
+301 1 301 
+49 1 11 
+305 2 290 302 
+53 1 44 
+58 2 55 11 
+123 1 11 
+187 1 11 
+126 2 129 11 
+318 1 11 
+127 1 118 
+191 1 182 
+Constructors: 1
+17 11
+
+Summary: 3
+-2 0 -1 
+org/h2/constraint/ConstraintReferential.setWhere(Lorg/h2/command/Prepared;ILorg/h2/result/Row;)V
+PTG:
+Vars:
+11
+$r3 1 19 
+$r2 1 6 
+$r9 1 48 
+r10 1 48 
+r6 1 34 
+r7 1 -2 
+r8 1 40 
+r5 1 -4 
+$r1 1 6 
+r0 1 -1 
+$r4 1 20 
+Fields: 3
+6 ArrayObject 19
+19 column 20
+-1 refColumns 6
+Accesses: 3
+19 1 19 
+5 1 -1 
+13 1 -1 
+Functions: 5
+20 1 20 
+36 1 -2 
+42 1 40 
+28 1 -4 
+60 2 48 34 
+Constructors: 0
+
+Summary: 5
+-2 0 -4 -1 2 
+org/h2/constraint/ConstraintReferential.isEqual(Lorg/h2/result/Row;Lorg/h2/result/Row;)Z
+PTG:
+Vars:
+4
+$r3 1 1 
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 1
+-1 refIndex 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+1 -2 0 -1 -3 
+org/h2/constraint/ConstraintReferential.getUniqueIndex()Lorg/h2/index/Index;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 refIndex 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.appendUpdate(Lorg/h2/util/StatementBuilder;)V
+PTG:
+Vars:
+12
+$r3 1 7 
+$r4 1 10 
+$r10 1 59 
+$r5 1 13 
+r9 1 48 
+$r11 1 62 
+$r12 1 65 
+$r1 1 3 
+r0 1 -2 
+r2 1 -1 
+r8 1 31 
+$r13 1 68 
+Fields: 4
+31 ArrayObject 48
+48 column 59
+-1 columns 31
+-1 table 7
+Accesses: 3
+6 1 -1 
+57 1 48 
+27 1 -1 
+Functions: 10
+0 1 -2 
+18 1 13 
+3 2 3 10 
+53 1 -2 
+7 1 7 
+23 1 -2 
+56 2 -2 65 
+73 1 68 
+59 1 59 
+62 1 62 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/constraint/ConstraintReferential.getUpdate(Lorg/h2/engine/Session;)Lorg/h2/command/Prepared;
+PTG:
+Vars:
+5
+_ret 1 10 
+r1 1 -2 
+$r3 1 10 
+$r2 1 3 
+r0 1 -1 
+Fields: 1
+-1 updateSQL 3
+Accesses: 2
+2 1 -1 
+6 1 -1 
+Functions: 1
+0 3 -1 -2 3 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/constraint/ConstraintReferential.setUpdateAction(I)V
+PTG:
+Vars:
+2
+$r2 1 9 
+r0 1 -1 
+Fields: 1
+-1 updateSQL 9
+Accesses: 4
+16 1 -1 
+1 1 -1 
+33 1 -1 
+8 1 -1 
+Functions: 2
+37 2 -1 9 
+25 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.getCreateSQLForCopy(Lorg/h2/table/Table;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+6
+_ret 1 8 
+$r4 1 8 
+r2 1 -3 
+r0 1 -1 
+$r3 1 3 
+r1 1 -2 
+Fields: 1
+-1 refTable 3
+Accesses: 1
+2 1 -1 
+Functions: 1
+0 4 -1 -2 -3 3 
+Constructors: 0
+
+Summary: 5
+1 -2 0 -1 -3 
+org/h2/constraint/ConstraintReferential.usesIndex(Lorg/h2/index/Index;)Z
+PTG:
+Vars:
+4
+r1 1 -1 
+$r2 1 2 
+$r3 1 10 
+r0 1 -2 
+Fields: 2
+-1 index 2
+-1 refIndex 10
+Accesses: 2
+1 1 -1 
+9 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/constraint/ConstraintReferential.getUpdateAction()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.<init>(Lorg/h2/schema/Schema;ILjava/lang/String;Lorg/h2/table/Table;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r3 1 -5 
+r0 1 -1 
+r2 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 4 -1 -2 -4 -5 
+Constructors: 1
+6 -1
+
+Summary: 7
+3 -5 -2 0 -4 -1 2 
+org/h2/constraint/ConstraintReferential.setIndexOwner(Lorg/h2/index/Index;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 17 
+$r2 1 1 
+r0 1 -1 
+Fields: 2
+-1 index 1
+-1 refIndex 17
+Accesses: 4
+0 1 -1 
+16 1 -1 
+10 1 -1 
+26 1 -1 
+Functions: 1
+32 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/constraint/ConstraintReferential.checkRowOwnTable(Lorg/h2/engine/Session;Lorg/h2/result/Row;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+34
+$r21 1 161 
+$r4 1 106 
+$r17 1 20 
+$r18 1 138 
+r30 1 153 
+$r26 1 81 
+r27 1 20 
+$r23 1 183 
+$r11 1 242 
+r35 1 269 
+r32 1 221 
+$r33 1 20 
+$r24 1 46 
+$r19 1 139 
+$r14 1 265 
+r6 1 -2 
+r1 1 -3 
+$r13 1 156 
+$r3 1 110 
+r2 1 -1 
+r29 1 60 
+$r12 1 243 
+$r25 1 64 
+r31 1 165 
+$r7 1 301 
+r28 1 42 
+$r10 1 20 
+r0 1 -4 
+r34 1 257 
+$r20 1 156 
+$r15 1 286 
+$r16 1 20 
+$r5 1 106 
+r22 1 180 
+Fields: 16
+161 column 165
+42 column 46
+138 column 139
+156 ArrayObject 265
+156 ArrayObject 161
+20 ArrayObject 242
+20 ArrayObject 42
+20 ArrayObject 138
+265 column 269
+-1 database 183
+-1 columns 20
+-1 refTable 106
+-1 table 110
+-1 refColumns 156
+-1 refIndex 301
+242 column 243
+Accesses: 17
+161 1 161 
+259 1 -1 
+132 1 -1 
+228 1 -1 
+105 1 -1 
+265 1 265 
+138 1 138 
+44 1 42 
+236 1 -1 
+300 1 -1 
+109 1 -1 
+16 1 -1 
+242 1 242 
+182 1 -1 
+214 1 -1 
+155 1 -1 
+124 1 -1 
+Functions: 18
+289 2 221 286 
+167 1 165 
+298 19 -1 161 -2 165 265 106 42 138 139 301 269 110 46 242 243 20 183 156 221 
+139 1 139 
+76 2 81 60 
+46 1 46 
+78 1 -3 
+174 1 -4 
+271 1 269 
+147 1 -4 
+243 1 243 
+54 1 -4 
+183 3 180 183 153 
+215 1 106 
+282 2 257 269 
+251 1 -4 
+316 17 -1 161 165 265 106 42 138 139 301 269 110 46 242 243 20 183 156 
+317 0 
+Constructors: 0
+
+Summary: 7
+1 -2 -4 2 0 -3 -1 
+org/h2/constraint/ConstraintReferential.prepare(Lorg/h2/engine/Session;Ljava/lang/String;I)Lorg/h2/command/Prepared;
+PTG:
+Vars:
+14
+r3 1 17 
+r11 1 74 
+r0 1 -2 
+r1 1 -3 
+r2 1 5 
+_ret 1 5 
+$r6 1 25 
+$r7 1 38 
+r10 1 48 
+r8 1 42 
+r14 2 64 98 
+r4 1 -1 
+$r5 1 25 
+$r9 1 48 
+Fields: 3
+25 ArrayObject 38
+38 column 42
+-1 columns 25
+Accesses: 3
+32 1 -1 
+38 1 38 
+24 1 -1 
+Functions: 8
+0 2 -2 -3 
+83 1 42 
+69 1 42 
+85 0 
+104 3 48 64 98 
+12 1 5 
+44 1 17 
+92 2 -2 74 
+Constructors: 0
+
+Summary: 5
+1 -2 0 -3 -1 
+org/h2/constraint/ConstraintReferential.setIndex(Lorg/h2/index/Index;Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/constraint/ConstraintReferential.removeChildrenAndResources(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+9
+$r1 1 1 
+$r5 1 48 
+r3 1 -2 
+$r7 1 29 
+$r4 1 55 
+$r8 1 1 
+r0 1 -1 
+$r6 1 9 
+$r2 1 9 
+Fields: 5
+-1 database 55
+-1 index 29
+-1 refTable 9
+-1 table 1
+-1 refIndex 48
+Accesses: 17
+0 1 -1 
+98 1 -1 
+35 1 -1 
+68 1 -1 
+103 1 -1 
+8 1 -1 
+73 1 -1 
+42 1 -1 
+78 1 -1 
+47 1 -1 
+16 1 -1 
+83 1 -1 
+54 1 -1 
+23 1 -1 
+88 1 -1 
+28 1 -1 
+93 1 -1 
+Functions: 7
+32 3 1 -2 29 
+51 3 48 -2 9 
+5 6 -1 48 1 55 9 29 
+59 6 -1 48 1 55 9 29 
+107 6 -1 48 1 55 9 29 
+13 6 -1 48 1 55 9 29 
+63 2 -2 55 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/constraint/ConstraintReferential.buildUpdateSQL()V
+PTG:
+Vars:
+3
+$r1 1 8 
+$r3 1 28 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+31 1 -1 
+Functions: 4
+18 2 -1 8 
+23 2 -1 8 
+27 1 8 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 2
+8 -1 
+org/h2/constraint/ConstraintReferential.getRefColumns()[Lorg/h2/table/IndexColumn;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 refColumns 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.getColumns()[Lorg/h2/table/IndexColumn;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 columns 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.isBefore()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/constraint/ConstraintReferential.setRefColumns([Lorg/h2/table/IndexColumn;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/constraint/ConstraintReferential.checkRow(Lorg/h2/engine/Session;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+18
+$r4 1 1 
+$r5 1 86 
+r0 1 -1 
+$r3 1 15 
+r18 1 64 
+r2 1 8 
+$r11 1 23 
+$r17 1 58 
+$r7 1 106 
+$r19 1 -3 
+r10 1 -3 
+$r1 1 1 
+$r15 1 47 
+r16 1 51 
+$r12 1 28 
+r6 1 -2 
+$r14 1 15 
+r13 1 32 
+Fields: 9
+28 column 32
+15 ArrayObject 47
+23 ArrayObject 28
+47 column 51
+-1 index 106
+-1 columns 15
+-1 refTable 86
+-1 table 1
+-1 refColumns 23
+Accesses: 9
+0 1 -1 
+85 1 -1 
+22 1 -1 
+41 1 -1 
+89 1 -1 
+105 1 -1 
+28 1 28 
+14 1 -1 
+47 1 47 
+Functions: 9
+1 1 1 
+34 1 32 
+67 1 51 
+53 2 51 58 
+55 1 -3 
+103 13 -1 32 1 -2 -3 8 106 15 47 51 86 23 28 
+121 10 -1 32 1 51 86 23 106 28 15 47 
+74 2 64 8 
+122 0 
+Constructors: 0
+
+Summary: 5
+1 -2 0 -3 -1 
+org/h2/constraint/ConstraintReferential.updateWithSkipCheck(Lorg/h2/command/Prepared;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+2 1 -1 
+21 1 -1 
+12 1 -1 
+Functions: 1
+6 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 

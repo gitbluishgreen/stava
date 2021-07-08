@@ -1,0 +1,583 @@
+24
+java/security/Signature$Delegate.engineInitSign(Ljava/security/PrivateKey;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+PTG:
+Vars:
+6
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+r4 1 -4 
+$r5 1 1 
+r3 1 -3 
+Fields: 1
+-1 sigSpi 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+25 5 -1 1 -2 -3 -4 
+14 4 1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+2 -3 -1 1 -4 -2 0 
+java/security/Signature$Delegate.engineInitSign(Ljava/security/PrivateKey;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -2 
+$r3 1 1 
+$r1 1 1 
+Fields: 1
+-1 sigSpi 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+35 0 
+23 3 -1 1 -2 
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/security/Signature$Delegate.engineUpdate([BII)V
+PTG:
+Vars:
+3
+$r2 1 5 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 sigSpi 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+11 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/security/Signature$Delegate.engineUpdate(Ljava/nio/ByteBuffer;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 5 
+Fields: 1
+-1 sigSpi 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+9 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/security/Signature$Delegate.engineSign()[B
+PTG:
+Vars:
+4
+_ret 1 8 
+$r2 1 8 
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 sigSpi 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Signature$Delegate.engineVerify([BII)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 5 
+Fields: 1
+-1 sigSpi 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/security/Signature$Delegate.chooseProvider(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+PTG:
+Vars:
+27
+$r1 1 1 
+$r16 1 245 
+$r25 1 23 
+r24 1 -1 
+$r23 1 -1 
+r7 1 -3 
+$r14 1 237 
+r8 1 -4 
+$r11 1 30 
+$r13 1 228 
+$r20 1 -1 
+r0 1 -1 
+$r12 1 224 
+r9 1 -5 
+$r10 1 124 
+$r19 1 -1 
+$r5 1 30 
+$r21 1 -1 
+$r3 1 9 
+$r17 1 211 
+r27 1 108 
+$r29 2 214 220 
+$r18 1 -1 
+r26 2 66 23 
+$r6 1 66 
+$r4 1 23 
+$r15 1 242 
+Fields: 4
+-1 lock 1
+-1 sigSpi 9
+-1 firstService 23
+-1 serviceIterator 30
+Accesses: 12
+0 1 -1 
+48 1 -1 
+133 1 -1 
+22 1 -1 
+8 1 -1 
+56 1 -1 
+41 1 -1 
+138 1 -1 
+29 1 -1 
+62 1 -1 
+127 1 -1 
+143 1 -1 
+Functions: 14
+228 1 228 
+103 2 66 23 
+232 1 228 
+237 3 214 220 237 
+80 3 66 -3 23 
+210 1 -3 
+242 1 242 
+211 1 211 
+118 9 -1 1 -3 -4 -5 23 9 108 30 
+122 2 66 23 
+250 3 224 -1 245 
+92 2 66 23 
+30 1 30 
+63 1 30 
+Constructors: 2
+232 228
+250 224
+
+Summary: 8
+2 -3 211 1 -4 -5 -1 3 
+java/security/Signature$Delegate.engineSetParameter(Ljava/security/spec/AlgorithmParameterSpec;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r1 1 1 
+$r3 1 1 
+r0 1 -1 
+Fields: 1
+-1 sigSpi 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+36 0 
+24 3 -1 1 -2 
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/security/Signature$Delegate.engineGetParameters()Ljava/security/AlgorithmParameters;
+PTG:
+Vars:
+4
+_ret 1 8 
+$r1 1 5 
+$r2 1 8 
+r0 1 -1 
+Fields: 1
+-1 sigSpi 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Signature$Delegate.engineVerify([B)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 5 
+Fields: 1
+-1 sigSpi 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/security/Signature$Delegate.newInstance(Ljava/security/Provider$Service;)Ljava/security/SignatureSpi;
+PTG:
+Vars:
+5
+_ret 1 46 
+$r1 1 1 
+r0 1 -2 
+r16 1 46 
+$r2 1 46 
+Fields: 0
+Accesses: 0
+Functions: 14
+0 1 -2 
+1 1 1 
+67 0 
+37 0 
+70 1 46 
+71 0 
+41 1 -2 
+77 0 
+14 1 -2 
+15 0 
+83 0 
+58 0 
+27 0 
+62 0 
+Constructors: 0
+
+Summary: 6
+1 15 0 74 71 -2 
+java/security/Signature$Delegate.engineUpdate(B)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 sigSpi 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+9 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/Signature$Delegate.engineGetParameter(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+r0 1 -1 
+_ret 1 9 
+r1 1 -2 
+$r2 1 5 
+$r3 1 9 
+Fields: 1
+-1 sigSpi 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/security/Signature$Delegate.engineInitSign(Ljava/security/PrivateKey;Ljava/security/SecureRandom;)V
+PTG:
+Vars:
+5
+$r4 1 1 
+r2 1 -2 
+r3 1 -3 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 sigSpi 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+36 0 
+24 4 -1 1 -2 -3 
+13 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -1 1 -2 0 
+java/security/Signature$Delegate.<clinit>()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/security/Signature$Delegate.chooseFirstProvider()V
+PTG:
+Vars:
+20
+$r2 1 9 
+$r8 1 122 
+$r22 1 80 
+$r10 1 151 
+r0 1 -1 
+$r19 1 -1 
+$r14 1 45 
+$r12 1 178 
+$r15 1 65 
+$r6 1 80 
+$r7 1 87 
+$r11 1 87 
+$r5 1 25 
+r21 1 -1 
+$r9 1 143 
+$r17 1 -1 
+$r1 1 1 
+$r16 1 57 
+$r4 1 1 
+r23 2 122 80 
+Fields: 4
+-1 lock 9
+-1 sigSpi 1
+-1 firstService 80
+-1 serviceIterator 87
+Accesses: 13
+0 1 -1 
+98 1 -1 
+164 1 -1 
+8 1 -1 
+105 1 -1 
+15 1 -1 
+79 1 -1 
+112 1 -1 
+146 1 -1 
+86 1 -1 
+118 1 -1 
+154 1 -1 
+159 1 -1 
+Functions: 12
+-1 0 
+50 1 45 
+194 2 -1 178 
+131 2 80 122 
+150 2 80 122 
+71 1 65 
+87 1 87 
+119 1 87 
+184 1 178 
+74 1 65 
+62 1 57 
+142 2 80 122 
+Constructors: 2
+71 65
+184 178
+
+Summary: 1
+-1 
+java/security/Signature$Delegate.engineInitVerify(Ljava/security/PublicKey;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+$r3 1 1 
+Fields: 1
+-1 sigSpi 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+35 0 
+23 3 -1 1 -2 
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/security/Signature$Delegate.engineSetParameter(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 5 
+r1 1 -2 
+r2 1 -3 
+Fields: 1
+-1 sigSpi 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+10 3 -2 -3 5 
+Constructors: 0
+
+Summary: 5
+-3 -1 1 -2 0 
+java/security/Signature$Delegate.clone()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r2 1 48 
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 sigSpi 5
+Accesses: 3
+4 1 -1 
+39 1 -1 
+14 1 -1 
+Functions: 5
+1 2 -1 5 
+34 0 
+52 1 48 
+30 2 -1 5 
+15 0 
+Constructors: 1
+52 48
+
+Summary: 1
+-1 
+java/security/Signature$Delegate.<init>(Ljava/security/SignatureSpi;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 2
+7 1 -1 
+12 1 -1 
+Functions: 1
+2 2 -1 -3 
+Constructors: 1
+2 -1
+
+Summary: 4
+-3 -1 1 0 
+java/security/Signature$Delegate.engineInitVerify(Ljava/security/PublicKey;Ljava/security/spec/AlgorithmParameterSpec;)V
+PTG:
+Vars:
+5
+r3 1 -3 
+$r4 1 1 
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sigSpi 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+24 4 -1 1 -2 -3 
+13 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -1 1 -2 0 
+java/security/Signature$Delegate.tryOperation(Ljava/security/SignatureSpi;ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+PTG:
+Vars:
+10
+r14 1 -1 
+r2 1 -4 
+$r8 1 -4 
+r0 1 -2 
+r3 1 -6 
+$r6 1 -4 
+r1 1 -5 
+$r5 1 -4 
+$r7 1 -4 
+$r4 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 11
+97 4 -2 -4 -5 -6 
+129 0 
+82 3 -2 -4 -6 
+116 0 
+69 2 -2 -4 
+135 0 
+120 0 
+58 3 -2 -4 -5 
+106 2 -2 -5 
+45 2 -2 -4 
+125 0 
+Constructors: 0
+
+Summary: 8
+2 -4 -5 4 -1 -6 3 -2 
+java/security/Signature$Delegate.<init>(Ljava/security/Provider$Service;Ljava/util/Iterator;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+$r4 1 16 
+r1 1 -4 
+r2 1 -2 
+r3 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+7 1 -1 
+23 1 -1 
+12 1 -1 
+Functions: 2
+2 2 -1 -4 
+20 1 16 
+Constructors: 2
+2 -1
+20 16
+
+Summary: 5
+2 -1 1 -4 0 
+java/security/Signature$Delegate.engineSign([BII)I
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 5 
+Fields: 1
+-1 sigSpi 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 

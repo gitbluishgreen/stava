@@ -1,0 +1,1644 @@
+39
+org/dacapo/h2/TPCC.configure()V
+PTG:
+Vars:
+31
+$r13 1 102 
+$r10 1 44 
+$r3 1 8 
+r4 1 8 
+$r8 1 24 
+$r1 1 5 
+$r5 1 5 
+$r28 1 115 
+$r9 1 48 
+$r2 1 1 
+$r6 1 17 
+$r16 1 125 
+$r22 1 182 
+$r11 1 75 
+$r24 1 201 
+$r21 1 186 
+$r18 1 144 
+$r29 1 88 
+r0 1 -1 
+$r25 1 224 
+$r20 1 163 
+$r30 1 61 
+$r12 1 71 
+$r17 1 148 
+$r26 1 220 
+$r15 1 129 
+$r27 1 237 
+$r23 1 205 
+$r14 1 98 
+$r19 1 167 
+$r7 1 24 
+Fields: 16
+-1 threadMap 17
+-1 argMap 1
+-1 size 5
+8 ArrayObject 237
+8 ArrayObject 48
+8 ArrayObject 75
+8 ArrayObject 115
+8 ArrayObject 129
+8 ArrayObject 224
+8 ArrayObject 205
+8 ArrayObject 61
+8 ArrayObject 102
+8 ArrayObject 88
+8 ArrayObject 148
+8 ArrayObject 186
+8 ArrayObject 167
+Accesses: 14
+0 1 -1 
+33 1 -1 
+65 1 -1 
+195 1 -1 
+4 1 -1 
+138 1 -1 
+238 1 -1 
+16 1 -1 
+176 1 -1 
+20 1 -1 
+214 1 -1 
+119 1 -1 
+92 1 -1 
+157 1 -1 
+Functions: 15
+1 2 1 5 
+98 2 98 102 
+163 2 163 167 
+71 2 71 75 
+201 2 201 205 
+44 2 48 44 
+144 2 144 148 
+17 2 17 5 
+115 1 115 
+182 2 182 186 
+88 1 88 
+27 1 24 
+220 2 224 220 
+61 1 61 
+125 2 129 125 
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;
+PTG:
+Vars:
+5
+$r3 1 12 
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+_ret 1 12 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/dacapo/h2/TPCC.createSchema()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 1 -1 
+9 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.cleanup()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+15 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.createConstraints()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.getDatabaseName()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 database 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.runScript(Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r1 1 9 
+r4 1 19 
+r2 1 -2 
+$r0 1 0 
+r5 1 -1 
+$r3 1 13 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 0 
+4 1 0 
+20 2 -1 19 
+9 2 -2 9 
+42 0 
+13 1 13 
+Constructors: 1
+4 0
+
+Summary: 2
+-1 -2 
+org/dacapo/h2/TPCC.deleteDirectory(Ljava/io/File;)Z
+PTG:
+Vars:
+5
+$r4 1 31 
+$r3 1 41 
+r0 1 -2 
+r1 1 11 
+$r2 1 22 
+Fields: 3
+11 ArrayObject 22
+11 ArrayObject 41
+11 ArrayObject 31
+Accesses: 0
+Functions: 6
+0 1 -2 
+32 1 31 
+52 1 -2 
+22 1 22 
+7 1 -2 
+42 1 41 
+Constructors: 0
+
+Summary: 1
+0 
+org/dacapo/h2/TPCC.runScript(Ljava/io/InputStream;Ljava/lang/String;)I
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 4 
+r4 1 15 
+r5 1 -3 
+$r1 1 1 
+r3 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+4 2 1 4 
+21 1 15 
+9 2 -2 4 
+Constructors: 1
+9 4
+
+Summary: 6
+-1 -2 -3 4 1 0 
+org/dacapo/h2/TPCC.newThread(ILorg/apache/derbyTesting/system/oe/client/Submitter;I)Ljava/lang/Thread;
+PTG:
+Vars:
+7
+r5 1 -3 
+$r0 1 0 
+$r1 1 4 
+$r2 1 14 
+$r3 1 18 
+$r4 1 21 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 5
+18 1 18 
+4 1 4 
+8 1 4 
+26 3 0 -3 21 
+14 1 14 
+Constructors: 2
+8 4
+26 0
+
+Summary: 2
+-3 1 
+org/dacapo/h2/TPCC.deleteDatabase()Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 22 
+$r2 1 17 
+$r1 1 13 
+Fields: 1
+-1 database 22
+Accesses: 2
+0 1 -1 
+21 1 -1 
+Functions: 4
+8 2 -1 22 
+25 2 17 22 
+28 2 17 13 
+13 1 13 
+Constructors: 2
+25 17
+28 13
+
+Summary: 3
+17 13 -1 
+org/dacapo/h2/TPCC.runScript(Ljava/lang/String;Ljava/lang/String;)I
+PTG:
+Vars:
+6
+r3 1 -1 
+r4 1 33 
+r1 1 4 
+r2 1 27 
+r5 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -2 
+49 1 33 
+19 0 
+35 3 -1 -3 27 
+23 1 4 
+71 1 33 
+59 1 33 
+29 1 -1 
+46 1 27 
+Constructors: 0
+
+Summary: 4
+-1 -2 -3 0 
+org/dacapo/h2/TPCC.getTestResource(Ljava/lang/String;)Ljava/net/URL;
+PTG:
+Vars:
+5
+$r3 1 8 
+r1 1 -2 
+$r2 1 8 
+$r0 1 0 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 0 
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 2
+-2 0 
+org/dacapo/h2/TPCC.preIterationDiskDB()V
+PTG:
+Vars:
+11
+$r0 1 0 
+$r11 1 84 
+$r6 1 109 
+$r9 1 5 
+$r5 1 5 
+r1 1 -1 
+$r8 1 67 
+$r10 1 80 
+$r4 1 96 
+$r2 1 5 
+$r7 1 113 
+Fields: 1
+-1 scratch 5
+Accesses: 7
+33 1 -1 
+4 1 -1 
+100 1 -1 
+21 1 -1 
+71 1 -1 
+40 1 -1 
+14 1 -1 
+Functions: 15
+64 2 -1 5 
+96 1 96 
+67 1 67 
+10 2 0 5 
+106 2 96 5 
+77 2 67 5 
+48 2 -1 5 
+112 1 0 
+83 1 0 
+52 2 -1 5 
+119 2 113 109 
+56 2 -1 5 
+90 2 80 84 
+60 2 -1 5 
+29 2 -1 5 
+Constructors: 3
+10 0
+106 96
+77 67
+
+Summary: 4
+-1 67 96 0 
+org/dacapo/h2/TPCC.preIteration(Ljava/lang/String;)V
+PTG:
+Vars:
+19
+r18 1 -2 
+$r11 1 168 
+$r12 1 79 
+$r7 1 146 
+$r19 1 7 
+$r4 1 127 
+$r5 1 135 
+$r9 1 156 
+$r8 1 135 
+$r17 1 79 
+$r6 1 142 
+$r14 1 26 
+$r2 1 60 
+$r13 1 184 
+$r15 1 127 
+r0 1 -1 
+$r21 1 79 
+$r1 1 26 
+$r16 1 92 
+Fields: 7
+79 ArrayObject 184
+135 ArrayObject 156
+-1 submitters 127
+-1 size 7
+-1 connections 135
+-1 reporter 26
+-1 rands 79
+Accesses: 13
+162 1 -1 
+6 1 -1 
+134 1 -1 
+42 1 -1 
+172 1 -1 
+205 1 -1 
+78 1 -1 
+178 1 -1 
+86 1 -1 
+150 1 -1 
+25 1 -1 
+185 1 -1 
+126 1 -1 
+Functions: 13
+32 0 
+-1 0 
+68 1 60 
+7 2 -2 7 
+39 0 
+140 8 -1 7 135 184 26 156 127 79 
+111 1 92 
+50 8 -1 7 135 184 26 156 127 79 
+21 0 
+57 8 -1 7 135 184 26 156 127 79 
+29 1 26 
+157 2 146 156 
+189 4 146 168 184 26 
+Constructors: 4
+68 60
+157 146
+189 168
+111 92
+
+Summary: 5
+60 -1 -2 146 0 
+org/dacapo/h2/TPCC.getDatabaseURLString(Z)Ljava/lang/String;
+PTG:
+Vars:
+9
+r2 1 -1 
+$r5 1 32 
+$r7 2 24 30 
+$r6 1 35 
+$r1 1 9 
+$r0 1 0 
+$r3 1 13 
+$r4 1 16 
+_ret 1 35 
+Fields: 1
+-1 createSuffix 24
+Accesses: 1
+23 1 -1 
+Functions: 6
+0 1 0 
+16 3 16 24 30 
+32 1 32 
+4 1 0 
+9 2 9 13 
+12 2 -1 24 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.backupData()V
+PTG:
+Vars:
+74
+$r53 1 304 
+$r25 1 134 
+$r2 1 9 
+$r69 1 399 
+$r15 1 80 
+$r46 1 261 
+$r33 1 180 
+$r27 1 151 
+$r45 1 258 
+$r24 1 131 
+$r8 1 39 
+$r73 1 414 
+$r58 1 331 
+$r43 1 243 
+$r64 1 363 
+$r72 1 411 
+$r23 1 126 
+$r31 1 172 
+$r32 1 177 
+$r48 1 269 
+$r9 1 42 
+$r44 1 252 
+$r57 1 318 
+$r1 1 1 
+$r68 1 392 
+$r67 1 383 
+$r4 1 22 
+$r42 1 239 
+$r40 1 223 
+$r14 1 77 
+$r38 1 215 
+$r29 1 166 
+$r41 1 226 
+$r62 1 354 
+$r55 1 310 
+$r47 1 264 
+$r19 1 105 
+$r65 1 366 
+$r16 1 85 
+$r13 1 74 
+$r34 1 193 
+$r59 1 335 
+$r71 1 405 
+$r18 1 101 
+$r51 1 289 
+$r10 1 55 
+$r21 1 120 
+$r60 1 344 
+$r50 1 285 
+$r17 1 88 
+$r36 1 206 
+$r66 1 379 
+$r54 1 307 
+$r12 1 68 
+$r37 1 212 
+$r28 1 160 
+$r7 1 34 
+$r11 1 59 
+$r61 1 351 
+$r63 1 357 
+$r70 1 402 
+$r6 1 31 
+$r5 1 28 
+$r56 1 315 
+$r52 1 298 
+$r22 1 123 
+$r26 1 147 
+r0 1 -1 
+$r49 1 272 
+$r20 1 114 
+$r30 1 169 
+$r35 1 197 
+$r3 1 13 
+$r39 1 218 
+Fields: 0
+Accesses: 0
+Functions: 83
+0 1 -1 
+258 1 258 
+131 1 131 
+387 1 383 
+4 1 1 
+264 1 264 
+392 2 402 392 
+137 2 101 134 
+395 1 -1 
+13 1 13 
+269 1 269 
+142 2 -1 101 
+399 1 399 
+17 1 13 
+275 2 272 239 
+405 1 405 
+22 2 22 31 
+151 1 151 
+280 2 -1 239 
+25 1 -1 
+155 1 151 
+411 1 411 
+28 1 28 
+160 2 160 169 
+289 1 289 
+417 2 379 414 
+34 1 34 
+163 1 -1 
+293 1 289 
+166 1 166 
+422 2 -1 379 
+39 1 39 
+298 2 307 298 
+172 1 172 
+45 2 9 42 
+301 1 -1 
+304 1 304 
+177 1 177 
+50 2 -1 9 
+310 1 310 
+183 2 147 180 
+59 1 59 
+315 1 315 
+188 2 -1 147 
+63 1 59 
+321 2 285 318 
+68 2 68 77 
+197 1 197 
+326 2 -1 285 
+71 1 -1 
+201 1 197 
+74 1 74 
+206 2 215 206 
+335 1 335 
+80 1 80 
+209 1 -1 
+339 1 335 
+212 1 212 
+85 1 85 
+344 2 354 344 
+218 1 218 
+91 2 55 88 
+347 1 -1 
+223 1 223 
+351 1 351 
+96 2 -1 55 
+229 2 193 226 
+357 1 357 
+105 1 105 
+234 2 -1 193 
+363 1 363 
+109 1 105 
+369 2 331 366 
+114 2 114 123 
+243 1 243 
+117 1 -1 
+374 2 -1 331 
+247 1 243 
+120 1 120 
+252 2 261 252 
+126 1 126 
+255 1 -1 
+383 1 383 
+Constructors: 18
+321 285
+417 379
+387 383
+229 193
+293 289
+137 101
+201 197
+45 9
+109 105
+17 13
+369 331
+275 239
+339 335
+183 147
+247 243
+91 55
+155 151
+63 59
+
+Summary: 74
+272 160 269 166 289 331 335 85 172 88 55 169 399 9 206 223 307 318 101 402 226 131 243 366 22 212 383 123 147 218 379 354 414 42 252 1 285 177 239 28 258 151 193 392 180 68 34 261 105 351 74 -1 298 264 77 197 59 363 304 114 80 215 315 310 134 405 39 344 13 120 126 31 357 411 
+org/dacapo/h2/TPCC.loadData()V
+PTG:
+Vars:
+7
+$r4 1 5 
+$r8 1 40 
+$r2 1 13 
+r1 1 -1 
+$r3 1 9 
+$r6 1 20 
+$r0 1 0 
+Fields: 3
+-1 properties 13
+-1 driver 5
+-1 database 9
+Accesses: 6
+4 1 -1 
+52 1 -1 
+8 1 -1 
+43 1 -1 
+12 1 -1 
+60 1 -1 
+Functions: 7
+16 4 0 5 9 13 
+64 1 20 
+33 1 20 
+70 1 20 
+39 4 -1 5 9 13 
+25 2 0 20 
+47 2 20 40 
+Constructors: 2
+16 0
+25 20
+
+Summary: 2
+-1 0 
+org/dacapo/h2/TPCC.calculateSumDB(Ljava/lang/String;I)J
+PTG:
+Vars:
+9
+$r1 1 3 
+r6 1 25 
+r7 1 42 
+r8 1 72 
+r0 1 -1 
+$r5 1 19 
+$r4 1 16 
+r3 1 -2 
+$r2 1 12 
+Fields: 0
+Accesses: 0
+Functions: 11
+16 1 16 
+2 2 -1 19 
+3 1 3 
+35 1 25 
+84 1 72 
+7 1 3 
+12 2 -2 12 
+44 1 42 
+29 1 25 
+93 1 72 
+63 1 42 
+Constructors: 1
+7 3
+
+Summary: 2
+-1 -2 
+org/dacapo/h2/TPCC.resetToInitialData()V
+PTG:
+Vars:
+21
+$r2 1 11 
+$r14 1 144 
+$r19 1 197 
+$r5 1 47 
+$r6 1 59 
+$r12 1 123 
+$r3 1 23 
+$r9 1 92 
+$r0 1 0 
+$r15 1 155 
+$r17 1 176 
+$r16 1 165 
+$r18 1 186 
+$r13 1 134 
+r1 1 -1 
+$r10 1 102 
+$r11 1 113 
+$r20 1 207 
+$r4 1 35 
+$r7 1 71 
+$r8 1 81 
+Fields: 0
+Accesses: 0
+Functions: 39
+194 1 -1 
+131 1 -1 
+68 1 -1 
+5 1 0 
+8 1 -1 
+200 1 197 
+137 1 134 
+74 1 71 
+14 1 11 
+206 1 -1 
+143 1 -1 
+80 1 -1 
+210 1 207 
+147 1 144 
+20 1 -1 
+84 1 81 
+152 1 -1 
+89 1 -1 
+26 1 23 
+158 1 155 
+95 1 92 
+32 1 -1 
+164 1 -1 
+101 1 -1 
+38 1 35 
+168 1 165 
+105 1 102 
+44 1 -1 
+173 1 -1 
+110 1 -1 
+50 1 47 
+179 1 176 
+116 1 113 
+56 1 -1 
+185 1 -1 
+122 1 -1 
+189 1 186 
+62 1 59 
+126 1 123 
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.makeConnection(Z)Ljava/sql/Connection;
+PTG:
+Vars:
+8
+$r4 1 4 
+r0 1 -1 
+r7 2 4 13 
+$r2 1 35 
+$r3 1 39 
+_ret 1 39 
+$r1 1 30 
+$r5 1 13 
+Fields: 2
+-1 properties 4
+-1 driver 30
+Accesses: 3
+0 1 -1 
+9 1 -1 
+29 1 -1 
+Functions: 4
+33 3 -1 4 30 
+25 2 4 13 
+10 1 4 
+30 4 35 4 13 30 
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.calculateSumDB()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 11
+3 1 -1 
+36 1 -1 
+100 1 -1 
+69 1 -1 
+25 1 -1 
+58 1 -1 
+90 1 -1 
+14 1 -1 
+47 1 -1 
+79 1 -1 
+111 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.make(Ljava/util/TreeMap;Ljava/util/TreeMap;Ljava/io/File;Ljava/lang/Boolean;Ljava/lang/Boolean;)Lorg/dacapo/h2/TPCC;
+PTG:
+Vars:
+7
+r3 1 -4 
+r5 1 -6 
+$r0 1 0 
+r1 1 -2 
+r2 1 -3 
+_ret 1 0 
+r4 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 4 0 -2 -3 -4 
+7 1 -5 
+11 1 -6 
+Constructors: 1
+16 0
+
+Summary: 11
+4 -4 -3 -5 -6 -2 -1 3 2 1 0 
+org/dacapo/h2/TPCC.iteration(Ljava/lang/String;)V
+PTG:
+Vars:
+24
+$r6 1 180 
+$r15 1 50 
+$r19 1 69 
+$r25 1 26 
+$r10 1 209 
+$r12 1 109 
+$r23 1 -1 
+$r14 1 26 
+$r16 1 26 
+$r13 1 89 
+$r3 1 129 
+r0 1 -1 
+$r4 1 136 
+$r9 1 204 
+$r7 1 192 
+$r8 1 199 
+$r11 1 212 
+$r18 1 62 
+r20 1 -2 
+r2 1 30 
+$r21 1 7 
+$r5 1 183 
+$r17 1 64 
+$r1 1 26 
+Fields: 7
+-1 submitters 26
+-1 size 7
+-1 transactionsPerTerminal 64
+26 ArrayObject 62
+26 ArrayObject 50
+30 ArrayObject 109
+30 ArrayObject 89
+Accesses: 11
+224 1 -1 
+195 1 -1 
+37 1 -1 
+149 1 -1 
+6 1 -1 
+25 1 -1 
+57 1 -1 
+172 1 -1 
+45 1 -1 
+142 1 -1 
+63 1 -1 
+Functions: 20
+192 1 192 
+-1 0 
+161 6 -1 64 50 7 26 62 
+68 1 62 
+132 1 129 
+164 6 -1 64 50 7 26 62 
+7 2 -2 7 
+199 1 199 
+139 7 -1 64 50 7 136 26 62 
+204 1 204 
+110 1 109 
+209 1 209 
+51 1 50 
+21 0 
+183 1 183 
+215 2 180 212 
+120 1 -1 
+90 1 89 
+187 1 183 
+156 0 
+Constructors: 1
+187 183
+
+Summary: 6
+89 30 -1 -2 109 0 
+org/dacapo/h2/TPCC.closeConnection()V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 1 
+$r2 1 1 
+$r1 1 1 
+$r3 1 1 
+Fields: 1
+-1 conn 1
+Accesses: 6
+0 1 -1 
+19 1 -1 
+54 1 -1 
+7 1 -1 
+41 1 -1 
+28 1 -1 
+Functions: 4
+32 1 1 
+23 1 1 
+8 1 1 
+45 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.report(Ljava/io/PrintStream;)V
+PTG:
+Vars:
+30
+$r16 1 150 
+$r11 1 131 
+$r23 1 183 
+$r4 1 75 
+$r5 1 87 
+$r10 1 119 
+$r12 1 134 
+$r14 1 140 
+$r26 1 13 
+$r3 1 78 
+$r8 1 99 
+$r13 1 139 
+r28 1 -2 
+$r7 1 96 
+r30 1 107 
+$r15 1 145 
+$r20 1 167 
+$r27 1 26 
+$r17 1 155 
+$r21 1 170 
+$r6 1 91 
+$r18 1 159 
+$r22 1 174 
+r0 1 4 
+$r9 1 122 
+$r2 1 13 
+r29 1 30 
+$r19 1 162 
+r1 1 -1 
+$r24 1 200 
+Fields: 4
+-1 submitters 13
+13 ArrayObject 26
+134 ArrayObject 139
+150 ArrayObject 155
+Accesses: 2
+20 1 -1 
+12 1 -1 
+Functions: 19
+96 1 96 
+162 1 162 
+131 2 131 139 
+102 2 99 75 
+167 1 167 
+199 0 
+140 1 140 
+204 3 119 170 174 
+78 1 78 
+145 2 145 159 
+82 1 78 
+148 1 107 
+182 0 
+87 1 87 
+26 1 26 
+122 1 122 
+91 1 91 
+155 1 155 
+126 1 122 
+Constructors: 2
+82 78
+126 122
+
+Summary: 4
+-1 -2 174 4 
+org/dacapo/h2/TPCC.openTestResource(Ljava/net/URL;)Ljava/io/InputStream;
+PTG:
+Vars:
+5
+$r3 1 8 
+$r2 1 8 
+$r0 1 0 
+r1 1 -2 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 0 
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 2
+-2 0 
+org/dacapo/h2/TPCC.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 0
+
+org/dacapo/h2/TPCC.postIteration(Ljava/lang/String;)V
+PTG:
+Vars:
+20
+$r8 1 78 
+r0 1 -1 
+$r13 1 102 
+r5 1 -2 
+$r15 1 21 
+$r11 1 94 
+$r20 1 142 
+$r1 1 142 
+$r10 1 87 
+$r14 1 24 
+$r12 1 99 
+$r6 1 120 
+$r16 1 33 
+$r4 1 157 
+$r19 1 48 
+$r18 1 45 
+$r9 1 75 
+$r17 1 40 
+$r3 1 161 
+$r2 1 157 
+Fields: 4
+-1 submitters 142
+-1 size 120
+-1 connections 157
+157 ArrayObject 161
+Accesses: 16
+0 1 -1 
+36 1 -1 
+68 1 -1 
+7 1 -1 
+167 1 -1 
+141 1 -1 
+14 1 -1 
+110 1 -1 
+180 1 -1 
+149 1 -1 
+54 1 -1 
+119 1 -1 
+90 1 -1 
+187 1 -1 
+156 1 -1 
+61 1 -1 
+Functions: 16
+33 1 33 
+162 1 161 
+99 1 99 
+195 5 -1 161 120 157 142 
+134 0 
+40 1 40 
+105 2 102 75 
+45 1 45 
+78 1 78 
+82 1 78 
+51 2 48 21 
+87 1 87 
+24 1 24 
+120 2 -2 120 
+28 1 24 
+94 1 94 
+Constructors: 2
+82 78
+28 24
+
+Summary: 3
+-1 -2 0 
+org/dacapo/h2/TPCC.getBackupFile(Ljava/lang/String;)Ljava/io/File;
+PTG:
+Vars:
+5
+r1 1 -1 
+r3 1 -2 
+$r2 1 5 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 1 -1 
+9 3 0 -2 5 
+Constructors: 1
+9 0
+
+Summary: 3
+-1 -2 5 
+org/dacapo/h2/TPCC.<init>(Ljava/util/TreeMap;Ljava/util/TreeMap;Ljava/io/File;ZZ)V
+PTG:
+Vars:
+6
+$r1 1 28 
+r5 1 -4 
+r3 1 -2 
+r0 1 -1 
+r4 1 -3 
+$r2 1 64 
+Fields: 1
+-1 createSuffix 87
+Accesses: 19
+97 1 -1 
+6 1 -1 
+102 1 -1 
+71 1 -1 
+40 1 -1 
+11 1 -1 
+107 1 -1 
+76 1 -1 
+45 1 -1 
+81 1 -1 
+113 1 -1 
+18 1 -1 
+50 1 -1 
+23 1 -1 
+55 1 -1 
+87 1 -1 
+119 1 -1 
+60 1 -1 
+92 1 -1 
+Functions: 2
+1 2 -1 87 
+68 1 64 
+Constructors: 2
+1 -1
+68 64
+
+Summary: 5
+-1 87 1 2 0 
+org/dacapo/h2/TPCC.getBackupDir()Ljava/io/File;
+PTG:
+Vars:
+4
+$r0 1 0 
+$r2 1 5 
+_ret 1 0 
+r1 1 -1 
+Fields: 1
+-1 scratch 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+10 2 0 5 
+Constructors: 1
+10 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.prepare(Ljava/lang/String;)V
+PTG:
+Vars:
+23
+$r2 1 31 
+$r9 1 78 
+$r14 1 98 
+r0 1 -1 
+$r15 1 101 
+$r11 1 85 
+$r24 1 172 
+$r17 1 111 
+$r21 1 139 
+$r12 1 88 
+$r3 1 35 
+$r4 1 40 
+$r6 1 56 
+$r25 1 212 
+$r5 1 53 
+$r13 1 91 
+$r23 1 161 
+$r10 1 24 
+$r19 1 111 
+r1 1 -2 
+$r16 1 101 
+$r8 1 69 
+$r22 1 150 
+Fields: 4
+-1 scratch 40
+-1 transactionsPerTerminal 212
+-1 properties 111
+-1 database 24
+Accesses: 25
+192 1 -1 
+2 1 -1 
+7 1 -1 
+135 1 -1 
+204 1 -1 
+14 1 -1 
+142 1 -1 
+81 1 -1 
+146 1 -1 
+211 1 -1 
+24 1 -1 
+153 1 -1 
+157 1 -1 
+94 1 -1 
+164 1 -1 
+39 1 -1 
+168 1 -1 
+107 1 -1 
+110 1 -1 
+174 1 -1 
+177 1 -1 
+181 1 -1 
+122 1 -1 
+59 1 -1 
+187 1 -1 
+Functions: 15
+64 0 
+-1 0 
+98 1 98 
+130 1 111 
+69 1 69 
+73 1 69 
+11 5 -1 212 40 24 111 
+45 2 35 40 
+78 2 24 78 
+50 2 35 31 
+53 1 53 
+85 1 85 
+118 1 111 
+88 1 88 
+31 1 31 
+Constructors: 3
+50 31
+73 69
+45 35
+
+Summary: 5
+24 31 35 -1 0 
+org/dacapo/h2/TPCC.getConnection()Ljava/sql/Connection;
+PTG:
+Vars:
+5
+$r3 1 1 
+r0 1 -1 
+$r2 1 32 
+_ret 1 32 
+$r1 1 1 
+Fields: 1
+-1 conn 1
+Accesses: 5
+0 1 -1 
+19 1 -1 
+36 1 -1 
+7 1 -1 
+26 1 -1 
+Functions: 2
+8 1 1 
+30 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.reportQuantities()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 11
+33 1 -1 
+3 1 -1 
+51 1 -1 
+21 1 -1 
+39 1 -1 
+9 1 -1 
+57 1 -1 
+27 1 -1 
+45 1 -1 
+15 1 -1 
+63 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.createIndexes()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 1 -1 
+9 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.restoreData()V
+PTG:
+Vars:
+73
+$r4 1 22 
+$r9 1 50 
+$r20 1 119 
+$r27 1 161 
+$r3 1 15 
+$r45 1 266 
+$r8 1 37 
+$r17 1 99 
+$r50 1 295 
+$r65 1 387 
+$r64 1 374 
+$r68 1 407 
+$r25 1 147 
+$r42 1 247 
+$r58 1 343 
+$r19 1 113 
+$r44 1 263 
+$r43 1 257 
+$r15 1 83 
+$r57 1 339 
+$r71 1 419 
+$r35 1 209 
+$r48 1 278 
+$r63 1 371 
+$r33 1 195 
+$r21 1 122 
+$r56 1 326 
+$r31 1 179 
+$r18 1 103 
+$r2 1 5 
+$r22 1 125 
+$r30 1 173 
+$r46 1 269 
+$r69 1 410 
+$r16 1 86 
+$r55 1 323 
+$r51 1 305 
+$r54 1 317 
+$r1 1 1 
+$r41 1 243 
+$r28 1 167 
+$r10 1 54 
+$r53 1 314 
+$r67 1 401 
+$r37 1 218 
+$r5 1 25 
+$r32 1 182 
+$r23 1 131 
+$r70 1 413 
+$r60 1 359 
+$r13 1 74 
+$r40 1 230 
+$r47 1 275 
+$r49 1 291 
+$r52 1 311 
+$r7 1 34 
+$r12 1 71 
+$r6 1 28 
+$r61 1 362 
+$r34 1 199 
+$r59 1 353 
+$r38 1 221 
+$r14 1 77 
+$r24 1 134 
+$r29 1 170 
+$r72 1 422 
+r0 1 -1 
+$r36 1 215 
+$r39 1 227 
+$r26 1 151 
+$r11 1 64 
+$r62 1 365 
+$r66 1 391 
+Fields: 0
+Accesses: 0
+Functions: 81
+257 2 257 266 
+131 1 131 
+260 1 -1 
+5 1 5 
+263 1 263 
+391 1 391 
+9 1 5 
+137 2 99 134 
+395 1 391 
+269 1 269 
+142 2 -1 99 
+15 2 25 15 
+401 2 401 410 
+18 1 -1 
+275 1 275 
+404 1 -1 
+22 1 22 
+151 1 151 
+407 1 407 
+281 2 243 278 
+155 1 151 
+28 1 28 
+413 1 413 
+286 2 -1 243 
+161 2 161 170 
+34 1 34 
+419 1 419 
+164 1 -1 
+167 1 167 
+295 1 295 
+40 2 1 37 
+425 2 387 422 
+299 1 295 
+45 2 -1 1 
+173 1 173 
+430 2 -1 387 
+305 2 305 314 
+179 1 179 
+308 1 -1 
+54 1 54 
+311 1 311 
+185 2 147 182 
+58 1 54 
+317 1 317 
+190 2 -1 147 
+64 2 64 74 
+67 1 -1 
+323 1 323 
+71 1 71 
+199 1 199 
+329 2 291 326 
+203 1 199 
+77 1 77 
+334 2 -1 291 
+209 2 209 218 
+83 1 83 
+212 1 -1 
+215 1 215 
+343 1 343 
+89 2 50 86 
+347 1 343 
+221 1 221 
+94 2 -1 50 
+353 2 353 362 
+227 1 227 
+356 1 -1 
+103 1 103 
+359 1 359 
+233 2 195 230 
+107 1 103 
+365 1 365 
+238 2 -1 195 
+113 2 113 122 
+371 1 371 
+116 1 -1 
+119 1 119 
+247 1 247 
+377 2 339 374 
+251 1 247 
+125 1 125 
+382 2 -1 339 
+Constructors: 18
+40 1
+9 5
+137 99
+233 195
+329 291
+425 387
+107 103
+203 199
+299 295
+395 391
+89 50
+185 147
+281 243
+377 339
+58 54
+155 151
+251 247
+347 343
+
+Summary: 73
+269 275 353 266 359 247 195 278 179 365 263 64 387 103 182 257 339 362 374 131 170 243 5 22 122 422 1 54 83 147 218 407 326 99 401 50 28 230 37 291 151 314 15 71 34 227 305 317 74 -1 413 77 311 209 419 86 125 199 173 215 371 410 134 295 161 323 221 119 25 343 391 113 167 
+org/dacapo/h2/TPCC.preIterationMemoryDB()V
+PTG:
+Vars:
+14
+$r4 1 162 
+$r2 1 143 
+$r11 1 52 
+$r6 1 171 
+$r8 1 84 
+$r9 1 99 
+$r7 1 174 
+$r5 1 167 
+$r12 1 33 
+$r13 1 14 
+r0 1 -1 
+$r10 1 71 
+$r1 1 146 
+$r3 1 155 
+Fields: 0
+Accesses: 10
+0 1 -1 
+64 1 -1 
+112 1 -1 
+118 1 -1 
+7 1 -1 
+135 1 -1 
+26 1 -1 
+92 1 -1 
+45 1 -1 
+158 1 -1 
+Functions: 21
+129 1 -1 
+162 1 162 
+38 1 33 
+167 1 167 
+104 1 99 
+42 1 -1 
+171 1 171 
+76 1 71 
+108 1 -1 
+80 1 -1 
+177 2 174 143 
+146 1 146 
+19 1 14 
+83 1 -1 
+150 1 146 
+23 1 -1 
+87 1 84 
+57 1 52 
+155 1 155 
+61 1 -1 
+126 1 -1 
+Constructors: 1
+150 146
+
+Summary: 1
+-1 
+org/dacapo/h2/TPCC.reportQuantity(Ljava/lang/String;)V
+PTG:
+Vars:
+14
+r3 1 -2 
+$r11 1 61 
+$r12 1 71 
+$r4 1 14 
+$r9 1 45 
+$r13 1 74 
+$r1 1 1 
+$r10 1 56 
+$r8 1 48 
+r6 1 23 
+$r2 1 10 
+r0 1 -1 
+$r5 1 17 
+r7 1 37 
+Fields: 0
+Accesses: 0
+Functions: 15
+0 2 -1 17 
+64 1 37 
+1 1 1 
+5 1 1 
+39 1 37 
+71 1 71 
+10 2 -2 10 
+77 2 74 45 
+14 1 14 
+48 2 48 -2 
+52 1 48 
+56 1 56 
+25 1 23 
+61 1 61 
+31 1 23 
+Constructors: 2
+52 48
+5 1
+
+Summary: 13
+23 37 71 1 10 61 17 56 48 74 -1 -2 14 

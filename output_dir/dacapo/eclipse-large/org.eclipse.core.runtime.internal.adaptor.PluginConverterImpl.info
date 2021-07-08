@@ -1,0 +1,1715 @@
+40
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.parsePluginInfo(Ljava/net/URL;)Lorg/eclipse/core/runtime/internal/adaptor/IPluginInfo;
+PTG:
+Vars:
+17
+$r6 1 23 
+r1 1 -2 
+$r22 1 67 
+$r7 1 19 
+$r20 1 2 
+$r9 1 -1 
+$r15 1 55 
+r16 1 65 
+$r2 1 7 
+$r14 1 59 
+$r5 1 27 
+$r21 1 14 
+r19 1 2 
+$r11 1 -1 
+r4 1 -1 
+r8 1 37 
+$r12 1 -1 
+Fields: 4
+-1 context 23
+-1 target 27
+-1 pluginManifestLocation 59
+-1 adaptor 19
+Accesses: 4
+18 1 -1 
+22 1 -1 
+26 1 -1 
+58 1 -1 
+Functions: 8
+85 1 2 
+6 1 -2 
+10 2 2 7 
+74 3 -1 65 67 
+59 2 55 59 
+44 1 2 
+30 4 19 23 27 14 
+14 2 2 14 
+Constructors: 3
+10 2
+74 67
+30 14
+
+Summary: 7
+2 14 -2 7 0 65 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.generateProvidePackage()V
+PTG:
+Vars:
+7
+r1 1 4 
+$r3 1 22 
+$r5 1 48 
+$r4 1 19 
+$r2 1 26 
+r0 1 -1 
+$r7 2 35 41 
+Fields: 2
+-1 target 26
+-1 generatedManifest 19
+Accesses: 2
+18 1 -1 
+25 1 -1 
+Functions: 5
+0 3 -1 19 26 
+51 4 48 19 35 41 
+22 2 22 26 
+9 1 4 
+44 4 -1 19 4 26 
+Constructors: 0
+
+Summary: 3
+4 48 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.fillManifest(ZZ)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 10
+1 1 -1 
+17 1 -1 
+33 1 -1 
+5 1 -1 
+37 1 -1 
+9 1 -1 
+25 1 -1 
+13 1 -1 
+29 1 -1 
+45 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.generatePluginClass()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 22 
+$r1 1 8 
+r2 1 16 
+Fields: 2
+-1 pluginInfo 8
+-1 generatedManifest 22
+Accesses: 2
+21 1 -1 
+7 1 -1 
+Functions: 3
+0 3 -1 22 8 
+8 1 8 
+29 2 16 22 
+Constructors: 0
+
+Summary: 2
+16 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.generateManifestVersion()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 generatedManifest 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+9 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.findPluginManifest(Ljava/io/File;)Ljava/net/URL;
+PTG:
+Vars:
+15
+$r3 1 16 
+$r7 1 39 
+$r4 1 27 
+$r5 1 30 
+$r33 1 72 
+$r30 1 -1 
+r31 2 222 88 
+r1 1 -1 
+r32 2 12 66 
+$r6 1 36 
+$r2 1 12 
+$r40 1 206 
+r0 1 -2 
+$r11 1 -1 
+$r22 1 -1 
+Fields: 0
+Accesses: 8
+97 1 -1 
+277 1 -1 
+231 1 -1 
+56 1 -1 
+89 1 -1 
+47 1 -1 
+143 1 -1 
+223 1 -1 
+Functions: 24
+288 0 
+129 0 
+36 1 36 
+196 2 88 222 
+5 1 -2 
+263 0 
+42 2 39 12 
+138 0 
+330 2 88 222 
+108 2 88 222 
+16 2 16 27 
+80 3 66 72 12 
+144 0 
+272 0 
+242 2 88 222 
+84 1 72 
+214 3 66 12 206 
+278 0 
+23 1 16 
+26 1 -2 
+154 0 
+218 1 206 
+30 1 30 
+62 1 -2 
+Constructors: 4
+80 72
+214 206
+23 16
+42 12
+
+Summary: 13
+-2 265 120 39 147 66 254 131 281 12 -1 36 27 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.findWSJars(Ljava/io/File;Ljava/lang/String;Z)Ljava/util/ArrayList;
+PTG:
+Vars:
+24
+$r6 1 42 
+$r15 1 94 
+$r12 1 118 
+r20 1 -1 
+r22 1 5 
+r9 1 -2 
+r7 1 48 
+$r24 1 133 
+$r18 1 106 
+$r2 1 22 
+$r3 1 32 
+$r14 1 84 
+$r4 1 37 
+$r17 1 100 
+$r0 1 6 
+$r10 1 68 
+$r13 1 121 
+$r5 1 38 
+r21 1 -3 
+$r11 1 74 
+$r16 1 99 
+_ret 1 6 
+$r8 1 50 
+$r23 2 115 109 
+Fields: 2
+32 ArrayObject 37
+94 ArrayObject 99
+Accesses: 0
+Functions: 17
+0 1 -3 
+100 1 100 
+68 3 115 68 109 
+38 2 5 38 
+72 1 48 
+42 1 42 
+106 1 106 
+11 1 6 
+77 2 68 74 
+50 1 50 
+84 2 99 84 
+22 2 37 22 
+118 1 118 
+57 3 48 -2 50 
+91 1 84 
+124 2 6 121 
+29 1 22 
+Constructors: 5
+57 50
+11 6
+91 84
+29 22
+77 68
+
+Summary: 13
+106 50 48 1 121 -2 109 5 0 118 42 74 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.getTimeStamp(Ljava/io/File;B)J
+PTG:
+Vars:
+1
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 7
+18 0 
+66 1 -2 
+38 0 
+7 1 -2 
+25 1 -2 
+58 0 
+45 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.getExportsFromDir(Ljava/io/File;)Ljava/util/Set;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 5 
+r0 1 -1 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.isValidPackageName(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+19 1 -2 
+9 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.filterExport(Ljava/util/Collection;Ljava/util/Collection;)Ljava/util/Set;
+PTG:
+Vars:
+11
+$r3 1 20 
+$r9 1 70 
+$r6 1 47 
+r7 1 47 
+r0 1 -3 
+r10 1 -1 
+r1 1 -2 
+r5 1 40 
+_ret 1 20 
+r11 2 70 104 
+r8 1 63 
+Fields: 0
+Accesses: 0
+Functions: 13
+96 2 70 104 
+128 1 63 
+34 1 -2 
+4 1 -3 
+68 1 63 
+106 3 70 104 47 
+138 1 40 
+45 1 40 
+80 2 70 104 
+119 2 20 47 
+24 1 -2 
+57 1 -3 
+30 1 20 
+Constructors: 1
+30 20
+
+Summary: 5
+104 0 -1 1 47 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.getVersionRange(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+21
+r15 1 -1 
+r0 1 -2 
+$r21 1 261 
+$r8 1 155 
+$r9 1 161 
+$r18 1 237 
+$r14 1 25 
+$r11 1 109 
+$r20 1 256 
+$r22 1 272 
+$r13 1 60 
+$r17 1 224 
+$r12 1 54 
+$r10 1 103 
+$r19 1 243 
+r2 1 -3 
+r1 1 10 
+$r3 1 191 
+$r4 1 197 
+_ret 1 272 
+r16 6 222 -2 88 39 134 186 
+Fields: 0
+Accesses: 0
+Functions: 32
+64 1 10 
+128 3 103 10 109 
+256 7 256 -2 134 39 88 186 222 
+68 1 10 
+6 1 -2 
+201 1 10 
+266 1 261 
+139 1 -3 
+78 1 60 
+270 1 224 
+15 1 -3 
+82 3 54 10 60 
+212 1 197 
+216 3 197 10 191 
+25 1 25 
+155 1 155 
+93 1 -3 
+33 2 25 10 
+228 1 224 
+165 1 10 
+103 1 103 
+233 1 224 
+44 1 -3 
+237 1 237 
+176 1 161 
+113 1 10 
+180 3 161 10 155 
+54 1 54 
+248 1 243 
+124 1 109 
+252 1 224 
+191 1 191 
+Constructors: 10
+128 103
+176 161
+33 25
+82 54
+180 155
+212 197
+228 224
+216 191
+124 109
+78 60
+
+Summary: 20
+103 -3 39 161 1 134 191 197 109 -2 25 88 155 0 10 222 54 60 186 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.convertManifest(Ljava/io/File;Ljava/io/File;ZLjava/lang/String;ZLjava/util/Dictionary;)Ljava/io/File;
+PTG:
+Vars:
+20
+$r18 1 73 
+r3 1 -7 
+$r13 1 52 
+$r14 1 36 
+$r16 1 64 
+$r5 1 82 
+$r6 1 100 
+$r15 1 59 
+$r9 1 31 
+$r10 1 36 
+r19 2 -3 25 
+r0 1 -1 
+$r17 1 70 
+r7 1 23 
+$r8 1 25 
+$r11 1 39 
+r1 1 -2 
+r2 1 -5 
+_ret 2 -3 25 
+$r12 1 44 
+Fields: 3
+-1 pluginManifestLocation 82
+-1 pluginInfo 36
+-1 generatedManifest 100
+Accesses: 5
+81 1 -1 
+35 1 -1 
+99 1 -1 
+85 1 -1 
+55 1 -1 
+Functions: 13
+64 1 64 
+36 1 36 
+70 1 70 
+39 1 39 
+104 6 -1 82 -3 36 100 25 
+9 7 -1 -2 82 36 100 -5 -7 
+76 3 23 25 73 
+47 2 44 31 
+17 0 
+52 2 52 59 
+86 3 -3 82 25 
+56 1 36 
+31 1 31 
+Constructors: 2
+76 25
+47 31
+
+Summary: 12
+59 -2 23 70 39 44 73 64 -7 -5 52 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.getSymbolicNameEntry()Ljava/lang/String;
+PTG:
+Vars:
+11
+$r1 1 1 
+$r2 1 22 
+$r11 1 79 
+$r8 1 58 
+$r16 2 73 67 
+$r4 1 30 
+r0 1 -1 
+_ret 1 90 
+$r9 1 54 
+$r13 1 90 
+$r3 1 1 
+Fields: 2
+-1 target 58
+-1 pluginInfo 1
+Accesses: 4
+0 1 -1 
+57 1 -1 
+26 1 -1 
+12 1 -1 
+Functions: 10
+1 1 1 
+50 1 22 
+35 2 22 30 
+85 1 79 
+54 2 54 58 
+89 1 22 
+42 1 22 
+27 1 1 
+13 0 
+77 3 67 22 73 
+Constructors: 1
+35 22
+
+Summary: 2
+30 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.generateClasspath()V
+PTG:
+Vars:
+5
+r2 1 9 
+$r1 1 1 
+$r3 1 16 
+r0 1 -1 
+$r4 1 26 
+Fields: 2
+-1 pluginInfo 1
+-1 generatedManifest 16
+Accesses: 2
+0 1 -1 
+15 1 -1 
+Functions: 3
+1 1 1 
+22 4 -1 16 1 9 
+29 2 16 26 
+Constructors: 0
+
+Summary: 3
+9 26 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.<init>(Lorg/eclipse/osgi/framework/adaptor/FrameworkAdaptor;Lorg/osgi/framework/BundleContext;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.convertManifest(Ljava/io/File;ZLjava/lang/String;ZLjava/util/Dictionary;)Ljava/util/Dictionary;
+PTG:
+Vars:
+18
+$r11 1 122 
+$r5 1 87 
+$r10 1 119 
+$r6 1 84 
+$r7 1 98 
+r0 1 -1 
+$r14 1 11 
+r2 1 -6 
+$r13 1 14 
+$r17 2 49 43 
+$r8 1 104 
+r3 1 -2 
+$r15 1 25 
+$r9 1 113 
+$r4 1 129 
+r1 1 -4 
+_ret 1 129 
+$r16 1 28 
+Fields: 1
+-1 generatedManifest 129
+Accesses: 3
+128 1 -1 
+57 1 -1 
+63 1 -1 
+Functions: 17
+0 0 
+-1 0 
+98 1 98 
+35 2 -1 129 
+68 3 -1 129 -2 
+104 1 104 
+75 2 -1 129 
+14 2 -2 14 
+113 1 113 
+21 1 14 
+54 3 49 -4 43 
+87 2 -2 87 
+119 1 119 
+25 1 25 
+125 2 84 122 
+94 1 87 
+31 2 11 28 
+Constructors: 2
+21 14
+94 87
+
+Summary: 8
+119 -2 25 0 -4 28 122 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.init()V
+PTG:
+Vars:
+2
+$r1 1 16 
+r0 1 -1 
+Fields: 0
+Accesses: 7
+2 1 -1 
+35 1 -1 
+7 1 -1 
+40 1 -1 
+25 1 -1 
+12 1 -1 
+30 1 -1 
+Functions: 1
+22 1 16 
+Constructors: 1
+22 16
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.generateHeaders()V
+PTG:
+Vars:
+26
+$r5 1 38 
+$r14 1 35 
+r15 1 91 
+$r16 1 35 
+$r31 1 14 
+$r7 1 35 
+$r9 1 58 
+r0 1 -1 
+$r4 1 14 
+$r33 1 14 
+$r17 1 120 
+$r25 1 156 
+$r28 1 183 
+$r11 1 14 
+$r20 1 133 
+$r8 1 14 
+$r27 1 14 
+$r22 1 35 
+r26 1 164 
+$r12 1 75 
+$r1 1 4 
+$r3 1 35 
+$r19 1 35 
+$r2 1 0 
+$r23 1 147 
+$r24 1 35 
+Fields: 3
+-1 target 4
+-1 pluginInfo 35
+-1 generatedManifest 14
+Accesses: 14
+96 1 -1 
+129 1 -1 
+34 1 -1 
+3 1 -1 
+67 1 -1 
+108 1 -1 
+13 1 -1 
+47 1 -1 
+143 1 -1 
+175 1 -1 
+82 1 -1 
+54 1 -1 
+152 1 -1 
+27 1 -1 
+Functions: 20
+0 2 0 4 
+130 1 35 
+35 1 35 
+104 2 91 14 
+74 4 -1 35 4 14 
+138 2 133 120 
+43 2 38 14 
+171 2 164 120 
+109 1 35 
+78 2 75 14 
+142 6 -1 35 147 4 156 14 
+144 1 35 
+83 1 35 
+182 1 120 
+23 1 14 
+55 1 35 
+153 1 35 
+186 2 183 14 
+124 1 120 
+63 2 58 14 
+Constructors: 1
+124 120
+
+Summary: 10
+91 147 156 133 75 58 164 183 -1 38 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.generateEclipseHeaders()V
+PTG:
+Vars:
+10
+$r9 1 40 
+$r2 1 1 
+r0 1 -1 
+$r5 1 60 
+$r1 1 1 
+$r7 1 53 
+$r6 1 56 
+r3 1 22 
+$r4 1 1 
+$r10 2 69 75 
+Fields: 3
+-1 target 60
+-1 pluginInfo 1
+-1 generatedManifest 53
+Accesses: 5
+0 1 -1 
+52 1 -1 
+23 1 -1 
+59 1 -1 
+13 1 -1 
+Functions: 7
+1 1 1 
+81 3 53 69 75 
+39 1 22 
+24 1 1 
+40 1 40 
+56 2 56 60 
+14 1 1 
+Constructors: 0
+
+Summary: 2
+40 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.getStringFromCollection(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+8
+$r6 1 42 
+$r0 1 0 
+r9 1 -1 
+$r8 1 62 
+r2 1 -2 
+r4 1 -3 
+_ret 1 62 
+r3 1 17 
+Fields: 0
+Accesses: 0
+Functions: 7
+35 2 0 -3 
+51 1 17 
+4 1 0 
+40 1 17 
+11 1 -2 
+61 1 0 
+47 2 0 42 
+Constructors: 1
+4 0
+
+Summary: 5
+-3 -2 42 0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.requireRuntimeCompatibility()Z
+PTG:
+Vars:
+7
+$r6 1 27 
+$r1 1 1 
+$r4 1 19 
+r0 1 -1 
+r2 1 9 
+r3 1 14 
+$r5 1 19 
+Fields: 1
+-1 pluginInfo 1
+Accesses: 1
+0 1 -1 
+Functions: 6
+1 1 1 
+18 1 14 
+24 1 19 
+40 1 14 
+10 1 9 
+27 1 27 
+Constructors: 0
+
+Summary: 4
+9 -1 27 19 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.generateLocalizationEntry()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 generatedManifest 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+9 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.<clinit>()V
+PTG:
+Vars:
+5
+$r1 1 23 
+$r2 1 38 
+$r0 1 10 
+$r3 1 76 
+$r4 1 119 
+Fields: 18
+76 ArrayObject 103
+76 ArrayObject 88
+76 ArrayObject 83
+76 ArrayObject 98
+76 ArrayObject 108
+76 ArrayObject 93
+76 ArrayObject 114
+38 ArrayObject 70
+38 ArrayObject 65
+38 ArrayObject 50
+38 ArrayObject 60
+38 ArrayObject 55
+38 ArrayObject 45
+119 ArrayObject 146
+119 ArrayObject 126
+119 ArrayObject 141
+119 ArrayObject 136
+119 ArrayObject 131
+Accesses: 0
+Functions: 2
+17 1 10 
+30 1 23 
+Constructors: 2
+17 10
+30 23
+
+Summary: 0
+
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.hasPrefix(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+28 1 -2 
+14 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.writeEntry(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+11
+r1 1 -1 
+r0 1 -3 
+$r2 1 16 
+$r6 1 30 
+$r10 1 12 
+$r5 1 21 
+$r8 1 37 
+r3 1 -2 
+$r7 1 34 
+$r9 1 40 
+$r4 1 12 
+Fields: 1
+-1 out 12
+Accesses: 2
+11 1 -1 
+46 1 -1 
+Functions: 9
+16 1 16 
+34 1 34 
+4 1 -3 
+20 1 -2 
+52 1 12 
+24 2 16 21 
+43 2 40 12 
+30 2 -3 30 
+15 3 -1 37 12 
+Constructors: 1
+24 16
+
+Summary: 9
+37 -3 -2 34 0 21 40 -1 1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.getLibrariesExpandingVariables(Ljava/lang/String;Z)Ljava/util/ArrayList;
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+_ret 1 72 
+$r3 1 72 
+r2 1 5 
+Fields: 0
+Accesses: 2
+41 1 -1 
+62 1 -1 
+Functions: 8
+0 2 -1 -2 
+51 1 5 
+23 1 -2 
+40 2 -1 -2 
+61 2 -1 -2 
+77 1 72 
+30 1 5 
+15 0 
+Constructors: 1
+77 72
+
+Summary: 4
+-2 5 0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.getExports()Ljava/util/Set;
+PTG:
+Vars:
+49
+$r13 1 265 
+$r1 1 1 
+$r7 1 46 
+$r44 1 200 
+r22 1 428 
+$r23 1 435 
+$r33 1 182 
+$r10 1 95 
+$r4 1 1 
+r43 1 132 
+$r29 1 479 
+$r12 1 240 
+$r17 2 326 292 
+$r32 1 17 
+$r16 1 297 
+r24 1 435 
+r38 1 45 
+$r52 2 297 321 
+$r26 3 326 292 450 
+r49 1 240 
+$r25 1 445 
+_ret 1 200 
+$r5 1 33 
+$r31 1 359 
+$r35 1 156 
+r0 1 -1 
+r50 4 326 292 297 321 
+$r11 1 228 
+$r19 1 400 
+$r6 1 17 
+r48 1 228 
+r20 1 412 
+r15 1 276 
+$r36 1 150 
+r53 3 367 392 414 
+$r14 1 265 
+$r3 1 17 
+r41 1 75 
+r42 1 82 
+$r21 1 414 
+r47 1 221 
+r2 1 9 
+$r9 1 95 
+r46 1 214 
+$r28 1 474 
+$r30 1 384 
+$r8 1 82 
+$r18 1 400 
+r40 1 66 
+Fields: 6
+132 ArrayObject 156
+45 ArrayObject 182
+-1 pluginManifestLocation 326
+-1 pluginManifestLocation 292
+-1 pluginInfo 1
+-1 devProperties 17
+Accesses: 8
+0 1 -1 
+16 1 -1 
+288 1 -1 
+449 1 -1 
+325 1 -1 
+38 1 -1 
+29 1 -1 
+125 1 -1 
+Functions: 48
+-1 0 
+512 1 221 
+1 1 1 
+68 1 66 
+263 1 228 
+455 5 450 435 292 326 445 
+331 5 321 292 276 326 297 
+204 1 200 
+460 1 445 
+397 6 -1 400 1 17 292 326 
+270 1 265 
+398 1 228 
+80 1 75 
+208 1 9 
+339 4 321 292 326 297 
+150 2 150 156 
+278 1 276 
+470 7 -1 240 1 17 292 326 474 
+215 1 214 
+471 6 -1 1 17 292 326 445 
+347 4 321 292 326 297 
+93 1 82 
+30 1 1 
+226 1 221 
+418 1 414 
+482 2 414 479 
+355 7 -1 240 1 17 292 326 359 
+356 7 -1 1 17 321 292 326 297 
+166 1 9 
+39 2 33 17 
+103 2 46 95 
+423 1 412 
+488 1 428 
+109 1 75 
+238 1 228 
+303 2 276 297 
+433 1 428 
+50 1 9 
+308 1 297 
+372 4 321 292 326 297 
+56 1 46 
+184 3 182 9 46 
+250 1 240 
+506 4 200 392 414 367 
+60 1 9 
+380 7 -1 384 240 1 17 292 326 
+381 7 -1 1 17 321 292 326 297 
+126 1 17 
+Constructors: 5
+418 414
+455 445
+56 46
+204 200
+303 297
+
+Summary: 27
+132 33 95 214 45 435 474 367 479 412 400 228 156 359 82 66 414 46 297 321 384 240 445 276 428 -1 392 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.getStringFromArray([Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+7
+$r3 1 37 
+r8 1 -1 
+r0 1 -2 
+r5 1 -3 
+_ret 1 53 
+$r7 1 53 
+$r1 1 8 
+Fields: 1
+-2 ArrayObject 37
+Accesses: 0
+Functions: 4
+52 1 8 
+38 2 37 8 
+12 1 8 
+29 2 -3 8 
+Constructors: 1
+12 8
+
+Summary: 4
+-3 -2 0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.getExportsFromJAR(Ljava/io/File;)Ljava/util/Set;
+PTG:
+Vars:
+12
+$r9 1 -1 
+$r4 1 87 
+r5 1 102 
+$r2 1 10 
+$r7 1 161 
+r20 1 80 
+r3 1 -2 
+_ret 1 0 
+$r0 1 0 
+r21 1 87 
+r6 1 -1 
+$r8 1 168 
+Fields: 0
+Accesses: 2
+42 1 -1 
+28 1 -1 
+Functions: 20
+32 1 -2 
+97 1 87 
+161 1 161 
+66 0 
+4 1 0 
+69 0 
+134 1 102 
+104 2 -1 102 
+200 1 10 
+43 0 
+171 2 0 168 
+76 1 10 
+15 2 -2 10 
+144 1 102 
+116 1 102 
+85 1 80 
+183 1 0 
+156 1 102 
+29 0 
+189 1 80 
+Constructors: 2
+4 0
+15 10
+
+Summary: 10
+80 46 -2 0 32 51 40 87 -1 168 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.generateRequireBundle()V
+PTG:
+Vars:
+29
+r5 1 30 
+$r25 2 100 170 
+$r1 1 1 
+$r26 1 96 
+r2 1 9 
+$r22 1 189 
+r7 1 35 
+$r19 1 218 
+$r38 1 231 
+$r6 1 35 
+$r11 1 62 
+$r36 1 271 
+$r23 1 195 
+$r32 1 125 
+$r3 1 18 
+r0 1 -1 
+$r35 1 264 
+$r30 1 113 
+r13 1 73 
+$r31 1 119 
+$r18 1 212 
+$r16 2 100 170 
+$r17 1 166 
+$r9 1 51 
+$r21 1 183 
+$r27 1 142 
+$r28 1 148 
+$r8 1 45 
+$r12 1 67 
+Fields: 4
+-1 target 170
+-1 target 100
+-1 pluginInfo 1
+-1 generatedManifest 264
+Accesses: 4
+0 1 -1 
+99 1 -1 
+263 1 -1 
+169 1 -1 
+Functions: 36
+1 1 1 
+65 1 35 
+131 1 125 
+201 1 195 
+10 1 9 
+138 1 45 
+142 1 142 
+270 1 18 
+208 1 45 
+274 2 264 271 
+84 2 73 45 
+212 1 212 
+22 1 18 
+88 1 35 
+26 1 9 
+154 1 148 
+158 1 35 
+96 3 96 100 170 
+224 1 218 
+34 1 30 
+229 1 45 
+166 3 100 166 170 
+234 2 18 231 
+109 1 45 
+238 1 30 
+49 1 35 
+113 1 113 
+179 1 45 
+54 2 51 45 
+119 1 119 
+183 1 183 
+250 1 18 
+59 7 -1 1 67 100 264 170 62 
+60 1 35 
+189 1 189 
+254 1 30 
+Constructors: 2
+22 18
+54 45
+
+Summary: 9
+231 9 67 51 62 73 35 -1 271 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.findOSJars(Ljava/io/File;Ljava/lang/String;Z)Ljava/util/ArrayList;
+PTG:
+Vars:
+52
+$r23 1 213 
+$r3 1 22 
+$r52 2 269 263 
+r49 1 54 
+$r28 1 238 
+$r15 1 162 
+$r50 2 121 115 
+$r7 1 44 
+$r22 1 207 
+r47 1 -3 
+$r8 1 48 
+$r11 1 140 
+r51 1 187 
+$r17 1 170 
+$r29 1 239 
+$r37 1 80 
+$r9 1 56 
+$r42 1 105 
+$r40 1 90 
+$r27 1 233 
+$r12 1 150 
+$r44 1 112 
+_ret 1 6 
+$r2 1 299 
+r10 1 -2 
+$r43 1 106 
+$r25 1 275 
+r48 1 5 
+$r24 1 272 
+$r19 1 177 
+$r5 1 37 
+$r16 1 165 
+$r4 1 32 
+$r21 1 189 
+$r14 1 156 
+$r36 1 74 
+$r41 1 100 
+$r39 1 127 
+$r26 1 223 
+$r32 1 253 
+$r20 1 181 
+$r34 1 260 
+$r53 1 287 
+r46 1 -1 
+$r30 1 245 
+$r18 1 171 
+$r31 1 248 
+$r38 1 124 
+$r6 1 38 
+$r13 1 155 
+$r33 1 254 
+$r0 1 6 
+Fields: 6
+165 ArrayObject 170
+32 ArrayObject 37
+248 ArrayObject 253
+233 ArrayObject 238
+100 ArrayObject 105
+150 ArrayObject 155
+Accesses: 0
+Functions: 38
+0 1 -3 
+130 2 6 127 
+196 3 -2 187 189 
+260 1 260 
+74 3 115 121 74 
+11 1 6 
+140 2 155 140 
+78 1 54 
+207 3 263 269 207 
+272 1 272 
+83 2 80 74 
+147 1 140 
+211 1 187 
+22 2 37 22 
+278 2 275 6 
+216 2 213 207 
+90 2 105 90 
+156 1 156 
+29 1 22 
+223 2 238 223 
+97 1 90 
+162 2 162 170 
+38 1 38 
+230 1 223 
+106 1 106 
+171 1 171 
+44 2 5 44 
+239 1 239 
+48 1 48 
+112 1 112 
+177 2 177 5 
+181 1 181 
+245 2 245 253 
+56 1 56 
+124 1 124 
+189 1 189 
+254 1 254 
+63 3 -2 54 56 
+Constructors: 9
+97 90
+83 74
+147 140
+196 189
+230 223
+216 207
+11 6
+29 22
+63 56
+
+Summary: 21
+80 48 112 275 213 5 187 115 -1 56 54 127 263 1 272 189 260 -2 124 0 181 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.writeManifest(Ljava/io/File;Ljava/util/Dictionary;Z)V
+PTG:
+Vars:
+54
+$r27 1 261 
+$r44 1 473 
+$r24 1 227 
+$r2 1 10 
+$r33 1 312 
+$r46 1 493 
+$r4 1 -3 
+$r48 1 508 
+$r23 1 227 
+$r21 1 210 
+$r28 1 261 
+$r29 1 278 
+$r37 1 349 
+$r10 1 110 
+$r20 1 193 
+r70 1 342 
+$r50 1 385 
+$r13 1 142 
+r66 1 -3 
+$r47 1 502 
+$r12 1 125 
+r5 1 -1 
+$r30 1 278 
+$r16 1 159 
+$r41 1 385 
+$r40 1 365 
+$r22 1 210 
+$r25 1 244 
+$r7 1 81 
+$r18 1 176 
+$r55 1 -1 
+$r15 1 159 
+$r3 1 64 
+$r17 1 176 
+$r36 1 329 
+$r9 1 110 
+$r43 1 476 
+$r42 1 385 
+$r35 1 329 
+$r6 1 77 
+$r32 1 295 
+$r19 1 193 
+$r11 1 125 
+r38 1 349 
+$r39 1 365 
+$r49 1 511 
+r1 1 -2 
+$r34 1 312 
+$r45 1 487 
+$r31 1 295 
+$r14 1 142 
+$r26 1 244 
+$r8 1 85 
+$r0 1 5 
+Fields: 1
+-1 out 385
+Accesses: 8
+384 1 -1 
+449 1 -1 
+435 1 -1 
+101 1 -1 
+39 1 -1 
+456 1 -1 
+428 1 -1 
+399 1 -1 
+Functions: 60
+0 0 
+-1 0 
+257 1 64 
+514 2 473 511 
+131 3 -1 385 125 
+388 1 385 
+9 1 -2 
+138 1 64 
+267 3 -1 385 261 
+13 2 5 10 
+400 0 
+274 1 64 
+20 1 5 
+148 3 -1 385 142 
+408 1 -2 
+25 1 -2 
+155 1 64 
+284 3 -1 385 278 
+29 1 -2 
+291 1 64 
+165 3 -1 385 159 
+422 0 
+40 0 
+172 1 64 
+301 3 -1 385 295 
+48 1 -2 
+308 1 64 
+182 3 -1 176 385 
+439 0 
+60 0 
+189 1 64 
+318 3 -1 385 312 
+325 1 64 
+199 3 -1 385 193 
+72 2 64 -3 
+460 1 385 
+206 1 64 
+335 3 -1 385 329 
+338 1 64 
+216 3 -1 385 210 
+90 2 -2 85 
+347 1 342 
+476 2 -2 476 
+95 2 81 85 
+223 1 64 
+98 2 81 77 
+483 1 476 
+487 1 487 
+233 3 -1 385 227 
+362 2 64 349 
+107 1 64 
+493 1 493 
+240 1 64 
+371 4 -1 385 349 365 
+116 3 -1 385 110 
+374 1 342 
+502 1 502 
+122 1 64 
+250 3 -1 385 244 
+508 1 508 
+Constructors: 6
+98 77
+483 476
+72 64
+90 85
+13 5
+95 81
+
+Summary: 32
+-3 278 43 210 142 1 193 295 511 125 349 412 403 244 -2 176 312 85 0 10 365 261 64 508 110 227 342 52 81 -1 159 329 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.generateTimestamp()V
+PTG:
+Vars:
+11
+$r5 1 24 
+$r3 1 1 
+$r9 1 51 
+$r6 1 33 
+$r10 1 54 
+r0 1 -1 
+$r1 1 6 
+$r4 1 21 
+$r7 1 38 
+$r8 1 44 
+$r2 1 11 
+Fields: 2
+-1 pluginManifestLocation 11
+-1 generatedManifest 1
+Accesses: 4
+0 1 -1 
+10 1 -1 
+14 1 -1 
+47 1 -1 
+Functions: 10
+33 1 33 
+18 0 
+51 1 51 
+21 1 21 
+6 1 6 
+38 1 38 
+57 2 1 54 
+27 2 6 24 
+44 1 44 
+15 1 11 
+Constructors: 1
+27 6
+
+Summary: 5
+24 54 51 21 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.upToDate(Ljava/io/File;Ljava/io/File;B)Z
+PTG:
+Vars:
+15
+$r2 1 18 
+$r3 1 22 
+r0 1 -2 
+$r7 1 158 
+$r4 1 136 
+$r1 1 14 
+r6 1 154 
+r16 1 14 
+r5 1 141 
+r17 1 49 
+$r9 1 -1 
+r8 1 -3 
+$r11 1 -1 
+r20 1 132 
+r19 1 106 
+Fields: 1
+136 ArrayObject 141
+Accesses: 0
+Functions: 17
+0 1 -2 
+96 1 14 
+33 2 18 14 
+165 1 -3 
+135 1 132 
+40 1 14 
+44 1 14 
+79 1 14 
+112 1 49 
+149 1 141 
+27 2 -2 22 
+123 1 49 
+124 1 106 
+156 1 154 
+61 1 14 
+30 2 18 22 
+158 1 158 
+Constructors: 3
+33 14
+27 22
+30 18
+
+Summary: 11
+14 132 158 -3 -2 0 18 1 22 136 141 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.fillPluginInfo(Ljava/io/File;)V
+PTG:
+Vars:
+7
+$r4 1 51 
+r0 1 -1 
+r1 1 -2 
+$r2 1 6 
+r6 1 66 
+r3 1 25 
+$r5 1 58 
+Fields: 2
+-1 pluginManifestLocation 6
+-1 pluginInfo 58
+Accesses: 4
+2 1 -1 
+5 1 -1 
+54 1 -1 
+57 1 -1 
+Functions: 8
+16 0 
+49 4 -1 6 25 58 
+20 4 -1 -2 6 58 
+37 1 -2 
+38 0 
+58 1 58 
+44 0 
+76 1 66 
+Constructors: 0
+
+Summary: 6
+41 25 0 66 -1 38 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.splitOnComma(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+10
+r1 1 25 
+$r2 1 37 
+r11 1 -1 
+$r10 1 104 
+$r5 1 70 
+_ret 1 104 
+$r6 1 71 
+r0 1 -2 
+$r8 1 98 
+$r3 1 49 
+Fields: 2
+25 ArrayObject 98
+25 ArrayObject 70
+Accesses: 0
+Functions: 10
+0 1 -2 
+49 1 49 
+66 2 37 70 
+99 2 98 37 
+21 1 -2 
+103 1 37 
+56 1 37 
+41 1 -2 
+10 1 -2 
+76 1 71 
+Constructors: 1
+56 37
+
+Summary: 4
+25 98 0 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.getDefault()Lorg/eclipse/core/runtime/internal/adaptor/PluginConverterImpl;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.generateActivator()V
+PTG:
+Vars:
+7
+r5 1 28 
+$r7 1 47 
+$r1 1 1 
+$r2 1 62 
+$r6 1 34 
+r0 1 -1 
+$r4 1 1 
+Fields: 3
+-1 pluginInfo 1
+-1 generatedManifest 62
+-1 generatedManifest 47
+Accesses: 4
+0 1 -1 
+19 1 -1 
+61 1 -1 
+46 1 -1 
+Functions: 7
+1 1 1 
+33 1 28 
+34 1 34 
+20 1 1 
+54 2 28 47 
+70 1 62 
+12 4 -1 1 62 47 
+Constructors: 0
+
+Summary: 2
+34 -1 
+org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.getExportsFromDir(Ljava/io/File;Ljava/lang/String;)Ljava/util/Set;
+PTG:
+Vars:
+20
+r1 2 29 23 
+$r7 1 67 
+$r4 1 39 
+$r13 1 120 
+$r16 1 127 
+r6 1 -1 
+r3 1 37 
+r2 1 -2 
+$r17 1 7 
+r0 1 -3 
+$r12 1 110 
+$r11 1 105 
+$r9 1 86 
+$r18 1 12 
+$r15 1 124 
+$r20 2 29 23 
+$r8 1 77 
+$r19 1 20 
+_ret 1 39 
+$r14 1 121 
+Fields: 3
+37 ArrayObject 120
+37 ArrayObject 67
+37 ArrayObject 86
+Accesses: 0
+Functions: 19
+0 1 -3 
+33 1 -2 
+130 2 39 127 
+102 3 -1 124 77 
+7 1 7 
+168 2 -3 39 
+105 2 120 105 
+11 1 -3 
+43 1 39 
+109 2 23 29 
+15 2 7 12 
+113 2 105 110 
+20 1 20 
+181 1 39 
+87 3 -2 86 77 
+121 1 121 
+92 1 77 
+62 2 -1 67 
+158 1 -3 
+Constructors: 4
+113 105
+87 77
+43 39
+15 7
+
+Summary: 13
+20 -3 12 124 23 127 0 1 37 110 121 -1 77 

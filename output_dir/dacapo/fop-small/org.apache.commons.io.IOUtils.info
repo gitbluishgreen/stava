@@ -1,0 +1,918 @@
+50
+org/apache/commons/io/IOUtils.copy(Ljava/io/InputStream;Ljava/io/Writer;)V
+PTG:
+Vars:
+3
+$r0 1 0 
+r1 1 -2 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 2 0 -2 
+11 2 0 -3 
+Constructors: 1
+5 0
+
+Summary: 3
+-2 -3 0 
+org/apache/commons/io/IOUtils.readLines(Ljava/io/Reader;)Ljava/util/List;
+PTG:
+Vars:
+5
+r5 2 37 21 
+_ret 1 9 
+r1 1 -2 
+$r3 1 9 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 5
+17 1 0 
+33 1 0 
+5 2 0 -2 
+27 3 37 21 9 
+13 1 9 
+Constructors: 2
+5 0
+13 9
+
+Summary: 4
+-2 37 21 0 
+org/apache/commons/io/IOUtils.toString(Ljava/io/Reader;)Ljava/lang/String;
+PTG:
+Vars:
+4
+$r3 1 15 
+_ret 1 15 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+10 2 0 -2 
+14 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-2 
+org/apache/commons/io/IOUtils.toByteArray(Ljava/io/Reader;Ljava/lang/String;)[B
+PTG:
+Vars:
+5
+r3 1 -3 
+$r4 1 15 
+$r0 1 0 
+_ret 1 15 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+11 3 0 -2 -3 
+14 1 0 
+Constructors: 1
+4 0
+
+Summary: 3
+-2 -3 0 
+org/apache/commons/io/IOUtils.closeQuietly(Ljava/io/Writer;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+$r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/commons/io/IOUtils.lineIterator(Ljava/io/InputStream;Ljava/lang/String;)Lorg/apache/commons/io/LineIterator;
+PTG:
+Vars:
+7
+$r3 1 28 
+r5 2 6 18 
+$r1 1 18 
+r0 1 -3 
+$r4 1 6 
+_ret 1 28 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+33 3 18 6 28 
+24 3 -2 18 -3 
+11 2 -2 6 
+Constructors: 3
+33 28
+24 18
+11 6
+
+Summary: 4
+-2 -3 6 18 
+org/apache/commons/io/IOUtils.toCharArray(Ljava/io/Reader;)[C
+PTG:
+Vars:
+4
+_ret 1 15 
+r2 1 -2 
+$r0 1 0 
+$r3 1 15 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+10 2 0 -2 
+14 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-2 
+org/apache/commons/io/IOUtils.writeLines(Ljava/util/Collection;Ljava/lang/String;Ljava/io/OutputStream;Ljava/lang/String;)V
+PTG:
+Vars:
+9
+r0 1 -5 
+r1 1 -2 
+r3 1 44 
+$r6 1 54 
+r2 1 32 
+$r5 1 67 
+r4 1 -4 
+$r7 1 58 
+r8 2 -3 25 
+Fields: 0
+Accesses: 0
+Functions: 9
+65 3 -3 -5 25 
+52 1 44 
+37 1 32 
+54 2 -5 54 
+70 2 -4 67 
+7 4 -2 -3 -4 25 
+73 1 32 
+26 1 -2 
+61 2 -4 58 
+Constructors: 0
+
+Summary: 9
+-2 -3 -4 32 44 58 -5 67 54 
+org/apache/commons/io/IOUtils.write([BLjava/io/Writer;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r2 1 -3 
+$r3 1 17 
+r1 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 3
+23 3 17 -2 -4 
+10 2 -2 -3 
+26 2 17 -3 
+Constructors: 1
+23 17
+
+Summary: 4
+-2 -3 17 -4 
+org/apache/commons/io/IOUtils.write(Ljava/lang/StringBuffer;Ljava/io/OutputStream;)V
+PTG:
+Vars:
+4
+$r2 1 6 
+r0 1 -2 
+r1 1 -3 
+$r3 1 9 
+Fields: 0
+Accesses: 0
+Functions: 3
+5 1 -2 
+6 1 6 
+12 2 -3 9 
+Constructors: 0
+
+Summary: 4
+-2 9 -3 6 
+org/apache/commons/io/IOUtils.write([CLjava/io/Writer;)V
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 -2 -3 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+org/apache/commons/io/IOUtils.toInputStream(Ljava/lang/String;)Ljava/io/InputStream;
+PTG:
+Vars:
+4
+$r2 1 5 
+_ret 1 5 
+r1 1 4 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+10 2 4 5 
+Constructors: 1
+10 5
+
+Summary: 2
+-2 4 
+org/apache/commons/io/IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;)J
+PTG:
+Vars:
+3
+r0 1 3 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+19 2 -3 3 
+29 2 -2 3 
+Constructors: 0
+
+Summary: 4
+-2 0 3 1 
+org/apache/commons/io/IOUtils.lineIterator(Ljava/io/Reader;)Lorg/apache/commons/io/LineIterator;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 1
+-2 
+org/apache/commons/io/IOUtils.copy(Ljava/io/Reader;Ljava/io/OutputStream;)V
+PTG:
+Vars:
+3
+r1 1 -3 
+r3 1 -2 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 1 0 
+5 2 0 -3 
+11 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 3
+-2 -3 0 
+org/apache/commons/io/IOUtils.closeQuietly(Ljava/io/Reader;)V
+PTG:
+Vars:
+2
+$r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/commons/io/IOUtils.toInputStream(Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
+PTG:
+Vars:
+5
+r1 1 -2 
+_ret 1 17 
+$r4 2 13 6 
+r0 1 -3 
+$r3 1 17 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 2 -2 -3 
+22 3 17 6 13 
+12 1 -2 
+Constructors: 1
+22 17
+
+Summary: 4
+-2 -3 13 6 
+org/apache/commons/io/IOUtils.write(Ljava/lang/String;Ljava/io/OutputStream;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r1 1 -4 
+r0 1 -2 
+$r3 1 19 
+Fields: 0
+Accesses: 0
+Functions: 3
+17 2 -2 -4 
+22 2 -3 19 
+10 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 -3 -4 19 
+org/apache/commons/io/IOUtils.toCharArray(Ljava/io/InputStream;Ljava/lang/String;)[C
+PTG:
+Vars:
+5
+$r0 1 0 
+$r4 1 15 
+_ret 1 15 
+r3 1 -3 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+11 3 0 -2 -3 
+14 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-2 -3 
+org/apache/commons/io/IOUtils.write(Ljava/lang/StringBuffer;Ljava/io/Writer;)V
+PTG:
+Vars:
+3
+$r2 1 6 
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 1 -2 
+9 2 -3 6 
+Constructors: 0
+
+Summary: 3
+-2 -3 6 
+org/apache/commons/io/IOUtils.write(Ljava/lang/String;Ljava/io/OutputStream;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -3 
+$r2 1 6 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 1 -2 
+9 2 -3 6 
+Constructors: 0
+
+Summary: 3
+-2 -3 6 
+org/apache/commons/io/IOUtils.toString(Ljava/io/InputStream;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r3 1 -3 
+$r4 1 15 
+$r0 1 0 
+_ret 1 15 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+11 3 0 -2 -3 
+14 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-2 -3 
+org/apache/commons/io/IOUtils.closeQuietly(Ljava/io/InputStream;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+$r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/commons/io/IOUtils.write(Ljava/lang/String;Ljava/io/Writer;)V
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 -2 -3 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+org/apache/commons/io/IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 -3 0 1 
+org/apache/commons/io/IOUtils.contentEquals(Ljava/io/Reader;Ljava/io/Reader;)Z
+PTG:
+Vars:
+4
+$r1 1 7 
+$r0 1 23 
+r2 2 -2 7 
+r3 2 -3 23 
+Fields: 0
+Accesses: 0
+Functions: 6
+32 2 -2 7 
+52 2 -2 7 
+40 2 -3 23 
+12 2 -2 7 
+28 2 -3 23 
+62 2 -3 23 
+Constructors: 2
+12 7
+28 23
+
+Summary: 4
+-2 7 -3 23 
+org/apache/commons/io/IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 2 -2 -3 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+org/apache/commons/io/IOUtils.toByteArray(Ljava/io/Reader;)[B
+PTG:
+Vars:
+4
+$r3 1 14 
+$r0 1 0 
+r2 1 -2 
+_ret 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+10 2 0 -2 
+13 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-2 0 
+org/apache/commons/io/IOUtils.<clinit>()V
+PTG:
+Vars:
+3
+$r2 1 15 
+$r4 1 29 
+$r0 1 6 
+Fields: 0
+Accesses: 0
+Functions: 4
+20 2 6 15 
+25 1 15 
+11 1 6 
+28 1 6 
+Constructors: 2
+20 15
+11 6
+
+Summary: 1
+15 
+org/apache/commons/io/IOUtils.readLines(Ljava/io/InputStream;Ljava/lang/String;)Ljava/util/List;
+PTG:
+Vars:
+5
+$r1 1 9 
+$r4 1 20 
+_ret 1 20 
+r2 1 -2 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+19 1 9 
+4 1 -2 
+15 3 -2 -3 9 
+Constructors: 1
+15 9
+
+Summary: 3
+-2 -3 9 
+org/apache/commons/io/IOUtils.readLines(Ljava/io/InputStream;)Ljava/util/List;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r0 1 0 
+_ret 1 10 
+$r3 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 2 0 -2 
+9 1 0 
+Constructors: 1
+5 0
+
+Summary: 2
+-2 0 
+org/apache/commons/io/IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;)J
+PTG:
+Vars:
+3
+r0 1 3 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+19 2 -3 3 
+29 2 -2 3 
+Constructors: 0
+
+Summary: 3
+-2 -3 3 
+org/apache/commons/io/IOUtils.toByteArray(Ljava/io/InputStream;)[B
+PTG:
+Vars:
+4
+_ret 1 15 
+$r3 1 15 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+10 2 0 -2 
+14 1 0 
+Constructors: 1
+4 0
+
+Summary: 3
+-2 0 0 
+org/apache/commons/io/IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z
+PTG:
+Vars:
+4
+r2 2 -2 7 
+r3 2 -3 23 
+$r0 1 23 
+$r1 1 7 
+Fields: 0
+Accesses: 0
+Functions: 6
+32 2 -2 7 
+52 2 -2 7 
+40 2 -3 23 
+12 2 -2 7 
+28 2 -3 23 
+62 2 -3 23 
+Constructors: 2
+12 7
+28 23
+
+Summary: 4
+-2 7 -3 23 
+org/apache/commons/io/IOUtils.write([CLjava/io/OutputStream;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -3 
+$r3 1 13 
+$r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 2 -3 13 
+5 1 5 
+10 2 -2 5 
+Constructors: 1
+10 5
+
+Summary: 4
+-2 -3 13 5 
+org/apache/commons/io/IOUtils.toByteArray(Ljava/lang/String;)[B
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/commons/io/IOUtils.toString([B)Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 1
+-2 
+org/apache/commons/io/IOUtils.write([CLjava/io/OutputStream;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r1 1 -4 
+$r4 1 26 
+$r3 1 17 
+r2 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+17 2 17 -4 
+22 2 17 -2 
+10 2 -2 -3 
+29 2 -3 26 
+Constructors: 1
+22 17
+
+Summary: 5
+-2 -3 17 -4 26 
+org/apache/commons/io/IOUtils.copy(Ljava/io/Reader;Ljava/io/OutputStream;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r4 1 -2 
+r2 1 -3 
+r0 1 -4 
+$r1 1 12 
+Fields: 0
+Accesses: 0
+Functions: 4
+18 3 -3 -4 12 
+6 2 -2 -3 
+24 2 -2 12 
+29 1 12 
+Constructors: 1
+18 12
+
+Summary: 4
+-2 -3 -4 12 
+org/apache/commons/io/IOUtils.write([BLjava/io/Writer;)V
+PTG:
+Vars:
+3
+$r2 1 5 
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+10 2 -2 5 
+13 2 -3 5 
+Constructors: 1
+10 5
+
+Summary: 3
+-2 -3 5 
+org/apache/commons/io/IOUtils.closeQuietly(Ljava/io/OutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+$r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+org/apache/commons/io/IOUtils.write([BLjava/io/OutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 -2 -3 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+org/apache/commons/io/IOUtils.write(Ljava/lang/StringBuffer;Ljava/io/OutputStream;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+r2 1 -3 
+$r4 1 22 
+$r3 1 18 
+r1 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 4
+17 1 -2 
+18 2 18 -4 
+25 2 -3 22 
+10 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+22 -2 -3 -4 18 
+org/apache/commons/io/IOUtils.copy(Ljava/io/InputStream;Ljava/io/Writer;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r0 1 -4 
+r4 1 -3 
+$r1 1 12 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+18 3 -2 -4 12 
+6 2 -2 -3 
+24 2 -3 12 
+Constructors: 1
+18 12
+
+Summary: 4
+-2 -3 -4 12 
+org/apache/commons/io/IOUtils.toString([BLjava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 13 
+r2 1 -2 
+r0 1 -3 
+_ret 1 13 
+Fields: 0
+Accesses: 0
+Functions: 2
+19 3 -2 -3 13 
+9 1 -2 
+Constructors: 1
+19 13
+
+Summary: 2
+-2 -3 
+org/apache/commons/io/IOUtils.toString(Ljava/io/InputStream;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r2 1 -2 
+$r3 1 14 
+$r0 1 0 
+_ret 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+10 2 0 -2 
+13 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-2 
+org/apache/commons/io/IOUtils.writeLines(Ljava/util/Collection;Ljava/lang/String;Ljava/io/OutputStream;)V
+PTG:
+Vars:
+8
+r0 1 -2 
+$r4 1 50 
+$r6 1 42 
+r2 1 29 
+$r5 1 39 
+r3 1 -4 
+r1 1 19 
+r7 2 -3 12 
+Fields: 0
+Accesses: 0
+Functions: 8
+49 2 -3 12 
+37 1 29 
+53 2 50 -4 
+23 1 19 
+39 1 39 
+56 1 19 
+13 1 -2 
+45 2 -4 42 
+Constructors: 0
+
+Summary: 8
+-2 -3 39 -4 50 19 29 42 
+org/apache/commons/io/IOUtils.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/apache/commons/io/IOUtils.writeLines(Ljava/util/Collection;Ljava/lang/String;Ljava/io/Writer;)V
+PTG:
+Vars:
+6
+r5 2 -3 12 
+r1 1 19 
+$r4 1 39 
+r2 1 29 
+r0 1 -2 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 6
+50 1 19 
+37 1 29 
+23 1 19 
+42 2 -4 39 
+13 1 -2 
+47 3 -3 -4 12 
+Constructors: 0
+
+Summary: 6
+-2 -3 39 -4 19 29 
+org/apache/commons/io/IOUtils.toCharArray(Ljava/io/InputStream;)[C
+PTG:
+Vars:
+4
+$r3 1 14 
+r2 1 -2 
+_ret 1 14 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+10 2 0 -2 
+13 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-2 

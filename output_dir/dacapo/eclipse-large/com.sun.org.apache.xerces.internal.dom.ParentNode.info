@@ -1,0 +1,948 @@
+36
+com/sun/org/apache/xerces/internal/dom/ParentNode.getOwnerDocument()Lorg/w3c/dom/Document;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 ownerDocument 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.getLastChild()Lorg/w3c/dom/Node;
+PTG:
+Vars:
+3
+$r1 1 12 
+r0 1 -1 
+_ret 1 12 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+8 1 -1 
+11 1 -1 
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/ParentNode.hasTextContent(Lorg/w3c/dom/Node;)Z
+PTG:
+Vars:
+3
+r2 1 -1 
+r0 1 -2 
+$r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+33 1 -2 
+22 1 -2 
+11 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.lastChild()Lcom/sun/org/apache/xerces/internal/dom/ChildNode;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 1 
+$r3 1 11 
+_ret 1 11 
+$r2 1 1 
+Fields: 2
+-1 firstChild 1
+1 previousSibling 11
+Accesses: 3
+0 1 -1 
+7 1 -1 
+8 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.setOwnerDocument(Lcom/sun/org/apache/xerces/internal/dom/CoreDocumentImpl;)V
+PTG:
+Vars:
+3
+r2 2 25 39 
+r1 1 -2 
+r0 1 -1 
+Fields: 2
+39 nextSibling 39
+-1 firstChild 25
+Accesses: 3
+18 1 -1 
+35 2 39 25 
+21 1 -1 
+Functions: 4
+0 2 -1 25 
+32 3 -2 39 25 
+8 2 -1 25 
+13 3 -1 -2 25 
+Constructors: 0
+
+Summary: 3
+39 0 -1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.access$100(Lcom/sun/org/apache/xerces/internal/dom/ParentNode;I)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+com/sun/org/apache/xerces/internal/dom/ParentNode.item(I)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 2 
+$r1 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/ParentNode.internalInsertBefore(Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;Z)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+36
+$r22 1 1 
+$r14 1 400 
+$r24 1 1 
+r3 1 -3 
+$r13 1 400 
+$r21 1 175 
+$r4 1 400 
+$r10 1 569 
+$r23 1 1 
+r51 1 440 
+$r16 1 499 
+$r12 1 569 
+$r54 1 1 
+$r15 1 400 
+r52 1 534 
+$r7 1 569 
+$r8 1 569 
+r2 1 -2 
+$r6 1 569 
+r44 1 -3 
+$r27 1 246 
+$r17 1 400 
+r47 2 317 -1 
+r50 1 364 
+$r48 1 1 
+$r5 1 400 
+$r11 1 569 
+$r1 1 1 
+$r18 1 400 
+r49 1 -2 
+$r53 1 569 
+$r19 1 400 
+$r9 1 614 
+_ret 1 -2 
+$r32 1 1 
+r0 1 -1 
+Fields: 7
+400 previousSibling 440
+400 previousSibling 499
+-3 previousSibling 534
+569 fChild 614
+-1 ownerDocument 1
+-1 firstChild 400
+-1 fNodeListCache 569
+Accesses: 49
+0 1 -1 
+1 1 1 
+642 1 -1 
+517 1 -1 
+390 1 -2 
+399 1 -1 
+273 1 -1 
+529 1 -3 
+274 1 1 
+409 1 -1 
+540 1 -2 
+547 1 534 
+38 1 -1 
+422 1 -2 
+554 1 -3 
+433 1 -1 
+561 1 -2 
+434 1 400 
+180 1 -1 
+568 1 -1 
+188 1 -1 
+446 1 440 
+575 1 -1 
+576 1 569 
+453 1 -2 
+456 1 -1 
+586 1 -1 
+587 1 569 
+462 1 400 
+212 1 -1 
+596 1 569 
+469 1 -1 
+599 1 -1 
+344 1 -1 
+600 1 569 
+476 1 -1 
+610 1 -1 
+611 1 569 
+486 1 -1 
+490 1 -2 
+622 1 -1 
+495 1 -1 
+496 1 400 
+628 1 569 
+502 1 -2 
+505 1 -1 
+634 1 -1 
+511 1 400 
+639 1 569 
+Functions: 39
+64 0 
+68 0 
+133 7 -1 400 1 499 614 440 569 
+9 1 -2 
+265 0 
+650 8 -1 400 1 -2 499 614 440 569 
+523 1 -2 
+204 0 
+396 1 -2 
+141 7 -1 400 1 499 614 440 569 
+269 0 
+80 1 -2 
+208 0 
+336 0 
+656 8 -1 400 1 -2 499 614 440 569 
+340 0 
+149 7 -1 400 1 499 614 440 569 
+213 8 -1 400 1 -2 499 614 440 569 
+25 1 -2 
+90 1 -2 
+350 7 -1 400 1 499 614 440 569 
+415 1 -2 
+97 9 -1 400 1 -3 499 614 534 440 569 
+481 3 400 499 440 
+166 0 
+39 7 -1 400 1 499 614 440 569 
+359 1 -2 
+233 0 
+170 0 
+237 0 
+174 1 -2 
+111 2 -3 534 
+245 2 -3 534 
+565 7 -1 400 1 499 614 440 569 
+375 2 -2 364 
+120 8 -1 400 1 -2 499 614 440 569 
+312 8 -1 400 1 499 614 440 569 317 
+60 0 
+127 8 -1 400 1 -2 499 614 440 569 
+Constructors: 0
+
+Summary: 16
+205 117 91 1 75 175 31 246 317 337 0 364 234 266 167 61 
+com/sun/org/apache/xerces/internal/dom/ParentNode.replaceChild(Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+6
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+$r5 1 1 
+r3 1 -3 
+_ret 1 -3 
+Fields: 1
+-1 ownerDocument 1
+Accesses: 2
+0 1 -1 
+28 1 -1 
+Functions: 4
+33 2 -1 1 
+5 2 -1 1 
+24 3 -1 1 -3 
+12 4 -1 1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.checkNormalizationAfterRemove(Lcom/sun/org/apache/xerces/internal/dom/ChildNode;)V
+PTG:
+Vars:
+3
+r1 1 16 
+r2 1 -1 
+r0 1 -2 
+Fields: 1
+-2 nextSibling 16
+Accesses: 1
+12 1 -2 
+Functions: 3
+4 2 16 -2 
+21 1 16 
+31 1 -1 
+Constructors: 0
+
+Summary: 3
+16 -2 -1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.removeChild(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+4
+$r2 1 3 
+r0 1 -1 
+r1 1 -2 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.setTextContent(Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r3 1 -2 
+$r1 1 1 
+r0 1 -1 
+$r4 1 31 
+$r5 1 35 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+22 1 -2 
+38 2 -1 35 
+11 2 -1 1 
+30 1 -1 
+31 2 -2 31 
+Constructors: 0
+
+Summary: 5
+-2 0 31 35 1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.getChildNodesUnoptimized()Lorg/w3c/dom/NodeList;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 11 
+$r1 1 11 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+16 2 -1 11 
+8 1 -1 
+Constructors: 1
+16 11
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.internalRemoveChild(Lorg/w3c/dom/Node;Z)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+25
+r3 1 -2 
+$r17 1 91 
+$r9 1 180 
+r1 1 4 
+r4 1 88 
+$r19 1 91 
+r2 1 -2 
+$r14 1 91 
+r0 1 -1 
+r5 1 236 
+$r10 1 180 
+$r18 1 91 
+$r7 1 180 
+$r21 1 42 
+$r11 1 222 
+$r20 1 91 
+$r8 1 195 
+$r12 1 180 
+$r16 1 136 
+$r26 1 91 
+$r27 1 180 
+r6 1 243 
+$r15 1 91 
+_ret 1 -2 
+$r13 1 91 
+Fields: 7
+-2 nextSibling 243
+-2 nextSibling 195
+-2 previousSibling 222
+-2 previousSibling 236
+91 fChild 136
+-1 fNodeListCache 91
+-1 firstChild 180
+Accesses: 35
+193 1 -2 
+257 1 -1 
+132 1 -1 
+5 1 4 
+133 1 91 
+198 1 -1 
+263 1 180 
+201 1 -1 
+144 1 -1 
+208 1 -1 
+145 1 91 
+273 1 243 
+279 1 -2 
+216 1 -1 
+90 1 -1 
+154 1 91 
+220 1 -2 
+157 1 -1 
+97 1 -1 
+225 1 180 
+98 1 91 
+163 1 91 
+291 1 -2 
+231 1 -2 
+169 1 -1 
+297 1 -2 
+108 1 -1 
+109 1 91 
+174 1 91 
+238 1 -2 
+179 1 -1 
+118 1 91 
+121 1 -1 
+249 1 236 
+122 1 91 
+Functions: 15
+0 4 -1 180 136 91 
+33 0 
+65 0 
+41 5 -2 243 195 236 222 
+12 4 -1 180 136 91 
+301 4 -1 180 136 91 
+80 10 -1 -2 243 195 4 180 136 91 236 222 
+83 5 -2 243 195 236 222 
+307 5 -1 4 180 136 91 
+213 1 180 
+313 5 -1 180 136 88 91 
+29 0 
+61 0 
+189 5 -2 243 195 236 222 
+285 5 -2 243 195 236 222 
+Constructors: 0
+
+Summary: 5
+62 0 30 42 -1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.access$000(Lcom/sun/org/apache/xerces/internal/dom/ParentNode;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+com/sun/org/apache/xerces/internal/dom/ParentNode.synchronizeChildren()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+8 1 -1 
+12 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.lastChild(Lcom/sun/org/apache/xerces/internal/dom/ChildNode;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 1 
+r2 1 -2 
+$r1 1 1 
+Fields: 1
+-1 firstChild 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+12 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.getTextContent()Ljava/lang/String;
+PTG:
+Vars:
+2
+r1 1 4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -1 
+51 1 -1 
+20 2 -1 4 
+54 0 
+9 1 4 
+29 0 
+45 0 
+Constructors: 0
+
+Summary: 2
+15 41 
+com/sun/org/apache/xerces/internal/dom/ParentNode.hasChildNodes()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 12 
+Fields: 1
+-1 firstChild 12
+Accesses: 1
+11 1 -1 
+Functions: 2
+0 2 -1 12 
+8 2 -1 12 
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/ParentNode.nodeListItem(I)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+18
+r0 1 -1 
+$r6 1 19 
+$r13 1 23 
+r17 5 106 69 161 19 131 
+$r4 1 1 
+$r7 1 1 
+$r11 1 183 
+$r5 1 1 
+$r9 1 1 
+$r12 1 19 
+$r15 1 48 
+$r3 1 1 
+$r10 1 44 
+$r2 1 1 
+_ret 5 106 69 161 19 131 
+$r8 1 1 
+$r14 1 44 
+$r1 1 1 
+Fields: 6
+106 nextSibling 106
+-1 ownerDocument 44
+-1 fNodeListCache 1
+-1 firstChild 19
+161 nextSibling 161
+1 fChild 69
+Accesses: 23
+0 1 -1 
+224 1 1 
+33 1 -1 
+194 1 1 
+227 1 -1 
+197 1 -1 
+102 5 161 19 131 69 106 
+232 1 1 
+202 1 1 
+43 1 -1 
+141 1 -1 
+205 1 -1 
+174 1 -1 
+209 1 -1 
+18 1 -1 
+51 1 -1 
+54 1 -1 
+55 1 1 
+219 1 -1 
+157 5 161 19 131 69 106 
+189 1 -1 
+62 1 -1 
+63 1 1 
+Functions: 7
+213 3 1 69 44 
+22 5 -1 1 19 69 44 
+182 5 -1 1 19 69 44 
+7 5 -1 1 19 69 44 
+44 5 -1 1 19 69 44 
+15 5 -1 1 19 69 44 
+127 5 161 19 131 69 106 
+Constructors: 0
+
+Summary: 2
+23 183 
+com/sun/org/apache/xerces/internal/dom/ParentNode.insertBefore(Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 -2 
+$r3 1 4 
+r2 1 -3 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 -2 0 1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.isEqualNode(Lorg/w3c/dom/Node;)Z
+PTG:
+Vars:
+4
+r1 1 -2 
+r3 2 21 55 
+r2 2 14 48 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 2 -1 -2 
+49 2 21 55 
+10 1 -1 
+42 2 48 14 
+30 4 48 21 55 14 
+15 1 -2 
+Constructors: 0
+
+Summary: 7
+-2 14 48 0 21 -1 55 
+com/sun/org/apache/xerces/internal/dom/ParentNode.normalize()V
+PTG:
+Vars:
+2
+r1 2 23 36 
+r0 1 -1 
+Fields: 2
+-1 firstChild 23
+36 nextSibling 36
+Accesses: 2
+32 2 36 23 
+19 1 -1 
+Functions: 5
+0 2 -1 23 
+16 2 -1 23 
+8 2 -1 23 
+42 2 -1 23 
+29 2 36 23 
+Constructors: 0
+
+Summary: 2
+-1 36 
+com/sun/org/apache/xerces/internal/dom/ParentNode.getLength()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/ParentNode.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+6 1 -1 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.nodeListGetLength()I
+PTG:
+Vars:
+16
+$r2 1 1 
+$r9 1 1 
+$r11 1 19 
+$r4 1 1 
+$r12 1 32 
+$r13 1 42 
+$r14 1 46 
+$r5 1 1 
+r0 1 -1 
+$r10 1 19 
+$r3 1 1 
+$r7 1 78 
+$r8 1 1 
+$r6 1 1 
+$r1 1 1 
+r15 3 78 121 19 
+Fields: 5
+121 nextSibling 121
+-1 ownerDocument 42
+-1 fNodeListCache 1
+-1 firstChild 19
+1 fChild 78
+Accesses: 21
+0 1 -1 
+64 1 1 
+130 1 1 
+133 1 -1 
+134 1 1 
+103 1 -1 
+41 1 -1 
+74 1 -1 
+75 1 1 
+49 1 -1 
+18 1 -1 
+52 1 -1 
+84 1 -1 
+53 1 1 
+85 1 1 
+117 3 19 121 78 
+27 1 -1 
+92 1 -1 
+93 1 1 
+125 1 -1 
+63 1 -1 
+Functions: 4
+7 5 -1 1 19 42 78 
+42 5 -1 1 19 42 78 
+15 5 -1 1 19 42 78 
+31 5 -1 1 19 42 78 
+Constructors: 0
+
+Summary: 2
+32 121 
+com/sun/org/apache/xerces/internal/dom/ParentNode.getFirstChild()Lorg/w3c/dom/Node;
+PTG:
+Vars:
+3
+_ret 1 12 
+r0 1 -1 
+$r1 1 12 
+Fields: 1
+-1 firstChild 12
+Accesses: 1
+11 1 -1 
+Functions: 2
+0 2 -1 12 
+8 2 -1 12 
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/ParentNode.ownerDocument()Lcom/sun/org/apache/xerces/internal/dom/CoreDocumentImpl;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 ownerDocument 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.checkNormalizationAfterInsert(Lcom/sun/org/apache/xerces/internal/dom/ChildNode;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -1 
+r3 1 17 
+r2 1 12 
+Fields: 1
+-2 nextSibling 17
+Accesses: 1
+13 1 -2 
+Functions: 7
+0 2 -2 17 
+34 1 17 
+50 2 -2 17 
+22 1 12 
+8 2 -2 17 
+59 1 -1 
+44 1 -1 
+Constructors: 0
+
+Summary: 4
+-2 12 17 -1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.cloneNode(Z)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+7
+r6 2 46 65 
+$r1 1 13 
+$r4 1 54 
+r0 1 -1 
+_ret 1 13 
+r2 1 13 
+$r3 1 22 
+Fields: 3
+65 nextSibling 65
+-1 ownerDocument 22
+-1 firstChild 46
+Accesses: 6
+35 1 13 
+21 1 -1 
+25 1 13 
+42 1 -1 
+61 2 65 46 
+30 1 13 
+Functions: 5
+0 3 -1 22 46 
+52 2 65 46 
+8 3 -1 22 46 
+57 2 54 13 
+11 3 -1 22 46 
+Constructors: 0
+
+Summary: 1
+54 
+com/sun/org/apache/xerces/internal/dom/ParentNode.<init>(Lcom/sun/org/apache/xerces/internal/dom/CoreDocumentImpl;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+17 1 -1 
+7 1 -1 
+12 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/dom/ParentNode.setReadOnly(ZZ)V
+PTG:
+Vars:
+2
+r1 2 25 48 
+r0 1 -1 
+Fields: 2
+48 nextSibling 48
+-1 firstChild 25
+Accesses: 2
+21 1 -1 
+44 2 48 25 
+Functions: 5
+18 2 -1 25 
+3 2 -1 25 
+41 2 48 25 
+10 2 -1 25 
+30 2 48 25 
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/ParentNode.getChildNodes()Lorg/w3c/dom/NodeList;
+PTG:
+Vars:
+2
+r0 1 -1 
+_ret 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+8 1 -1 
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/dom/ParentNode.getTextContent(Ljava/lang/StringBuilder;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r3 2 4 31 
+r0 1 -1 
+$r2 2 4 31 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+22 3 -2 4 31 
+9 3 -1 4 31 
+25 2 4 31 
+Constructors: 0
+
+Summary: 3
+-2 0 31 

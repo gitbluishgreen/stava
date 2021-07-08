@@ -1,0 +1,542 @@
+9
+org/apache/lucene/index/DocFieldProcessorPerThread.<clinit>()V
+PTG:
+Vars:
+2
+$r1 2 8 18 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/DocFieldProcessorPerThread.trimFields(Lorg/apache/lucene/index/DocumentsWriter$FlushState;)V
+PTG:
+Vars:
+19
+$r7 1 61 
+$r17 1 4 
+$r5 1 61 
+$r8 1 77 
+$r11 1 90 
+$r16 2 54 44 
+r19 3 17 54 44 
+$r1 1 4 
+$r6 1 64 
+$r13 1 96 
+$r12 1 93 
+$r14 1 99 
+$r3 2 54 44 
+$r2 1 4 
+r0 1 -1 
+r18 3 17 54 44 
+$r10 1 86 
+$r9 1 64 
+r4 1 -2 
+Fields: 8
+-2 docWriter 61
+4 ArrayObject 17
+17 fieldInfo 90
+17 next 44
+17 next 54
+90 name 93
+61 infoStream 64
+-1 fieldHash 4
+Accesses: 17
+3 1 -1 
+38 1 -1 
+70 1 -2 
+71 1 61 
+105 1 -1 
+11 1 -1 
+43 3 17 54 44 
+112 1 -1 
+53 3 17 54 44 
+120 3 17 54 44 
+25 3 17 54 44 
+57 3 17 54 44 
+89 3 17 54 44 
+90 1 90 
+60 1 -2 
+61 1 61 
+126 3 17 54 44 
+Functions: 5
+96 1 96 
+81 1 77 
+86 2 86 93 
+102 2 64 99 
+77 1 77 
+Constructors: 1
+81 77
+
+Summary: 4
+-2 61 -1 0 
+org/apache/lucene/index/DocFieldProcessorPerThread.fields()Ljava/util/Collection;
+PTG:
+Vars:
+7
+$r3 1 12 
+_ret 1 0 
+$r5 1 12 
+r2 1 -1 
+$r0 1 0 
+r7 2 45 25 
+$r6 1 32 
+Fields: 4
+12 ArrayObject 25
+45 next 45
+25 consumer 32
+-1 fieldHash 12
+Accesses: 5
+19 1 -1 
+67 1 -1 
+41 2 25 45 
+11 1 -1 
+31 2 25 45 
+Functions: 4
+35 2 0 32 
+4 1 0 
+61 1 0 
+78 0 
+Constructors: 1
+4 0
+
+Summary: 2
+45 -1 
+org/apache/lucene/index/DocFieldProcessorPerThread.<init>(Lorg/apache/lucene/index/DocumentsWriterThreadState;Lorg/apache/lucene/index/DocFieldProcessor;)V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r6 1 40 
+$r2 1 14 
+$r1 1 6 
+$r4 1 27 
+$r7 1 48 
+r3 1 -2 
+r5 1 -3 
+$r8 1 52 
+Fields: 3
+-2 docState 27
+-3 fieldInfos 40
+-3 consumer 48
+Accesses: 10
+17 1 -1 
+35 1 -1 
+22 1 -1 
+39 1 -3 
+55 1 -1 
+9 1 -1 
+26 1 -2 
+43 1 -1 
+30 1 -1 
+47 1 -3 
+Functions: 2
+48 2 48 -1 
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 4
+-2 1 0 -1 
+org/apache/lucene/index/DocFieldProcessorPerThread.processDocument()Lorg/apache/lucene/index/DocumentsWriter$DocWriter;
+PTG:
+Vars:
+58
+$r47 1 122 
+$r36 1 355 
+$r17 1 617 
+$r20 1 533 
+$r40 1 355 
+$r21 2 355 502 
+$r34 1 430 
+$r38 1 355 
+$r50 1 22 
+$r37 1 355 
+$r33 1 430 
+$r7 1 570 
+r39 1 373 
+r55 3 128 220 156 
+$r10 1 8 
+r29 1 107 
+$r23 2 355 502 
+$r43 1 220 
+$r13 1 602 
+$r59 1 1 
+r58 1 445 
+$r57 1 430 
+$r49 1 140 
+$r26 1 534 
+$r5 2 355 502 
+$r52 1 28 
+$r16 1 612 
+$r1 1 1 
+$r12 1 580 
+r56 1 218 
+$r24 1 553 
+$r32 1 430 
+$r48 1 137 
+$r9 1 580 
+$r14 1 8 
+r4 1 68 
+r3 1 14 
+$r60 1 630 
+$r27 1 90 
+r28 1 90 
+$r30 1 122 
+$r45 1 240 
+$r19 2 355 502 
+_ret 1 630 
+$r42 1 167 
+$r15 1 570 
+$r46 1 122 
+$r8 1 8 
+$r51 1 25 
+$r44 1 122 
+r0 1 -1 
+$r6 1 8 
+$r18 1 620 
+$r25 1 544 
+$r2 1 8 
+$r22 1 543 
+$r11 1 593 
+$r31 1 137 
+Fields: 28
+128 fieldInfo 137
+128 fields 430
+220 fields 430
+22 docWriter 25
+122 ArrayObject 128
+122 ArrayObject 240
+-1 fieldHash 122
+-1 fields 355
+-1 fields 502
+-1 consumer 1
+-1 fieldInfos 167
+-1 docState 8
+-1 docFieldProcessor 22
+502 ArrayObject 533
+502 ArrayObject 553
+502 ArrayObject 543
+355 ArrayObject 533
+355 ArrayObject 553
+355 ArrayObject 543
+8 infoStream 580
+8 doc 14
+8 maxTermPrefix 570
+543 fields 544
+156 fields 430
+156 next 156
+25 writer 28
+533 consumer 534
+137 name 140
+Accesses: 62
+0 1 -1 
+386 1 -1 
+260 1 -1 
+7 1 -1 
+135 3 128 220 156 
+263 1 -1 
+8 1 8 
+520 1 -1 
+137 1 137 
+267 1 -1 
+396 1 -1 
+399 1 -1 
+527 1 -1 
+403 1 -1 
+21 1 -1 
+533 1 533 
+22 1 22 
+151 3 128 220 156 
+25 1 25 
+537 1 -1 
+411 1 -1 
+284 3 128 220 156 
+543 1 543 
+547 1 -1 
+420 3 128 220 156 
+166 1 -1 
+423 3 128 220 156 
+553 1 553 
+428 3 128 220 156 
+49 1 -1 
+52 1 -1 
+437 3 128 220 156 
+566 1 -1 
+567 1 8 
+60 1 -1 
+576 1 -1 
+577 1 8 
+450 3 128 220 156 
+586 1 -1 
+459 3 128 220 156 
+587 1 8 
+336 3 128 220 156 
+471 3 128 220 156 
+474 3 128 220 156 
+347 3 128 220 156 
+605 1 -1 
+350 1 -1 
+606 1 8 
+479 3 128 220 156 
+354 1 -1 
+488 3 128 220 156 
+234 1 -1 
+362 1 -1 
+241 1 220 
+114 1 -1 
+626 1 -1 
+244 1 -1 
+501 1 -1 
+121 1 -1 
+378 1 -1 
+506 1 -1 
+253 1 -1 
+Functions: 36
+64 1 14 
+512 23 -1 128 544 1 355 580 167 8 553 137 140 14 430 240 533 502 22 534 25 122 570 28 543 
+193 1 90 
+4 1 1 
+69 1 68 
+325 1 90 
+390 7 544 355 533 373 534 553 543 
+200 1 90 
+140 2 107 140 
+332 2 137 140 
+208 1 90 
+464 2 445 430 
+593 1 593 
+597 1 593 
+278 23 -1 128 544 1 355 580 167 8 553 137 140 14 430 240 533 502 22 534 25 122 570 28 543 
+87 1 68 
+602 2 602 570 
+28 1 28 
+289 1 90 
+227 25 -1 128 1 580 8 137 140 14 533 22 534 25 218 220 28 543 544 355 167 553 430 240 502 122 570 
+100 1 90 
+612 1 612 
+167 2 167 107 
+296 1 90 
+617 1 617 
+43 0 
+172 1 90 
+109 1 107 
+557 2 544 534 
+303 1 90 
+623 2 580 620 
+179 1 90 
+627 1 1 
+310 1 90 
+186 1 90 
+317 1 90 
+Constructors: 2
+227 220
+597 593
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocFieldProcessorPerThread.quickSort([Lorg/apache/lucene/index/DocFieldProcessorPerField;II)V
+PTG:
+Vars:
+39
+$r5 1 77 
+$r43 1 218 
+$r46 1 229 
+r14 1 -1 
+$r2 1 64 
+$r42 1 217 
+$r26 1 160 
+r40 1 133 
+$r23 1 149 
+$r20 1 229 
+$r22 1 140 
+$r6 1 67 
+$r4 1 74 
+$r10 1 117 
+$r21 1 258 
+$r1 1 63 
+r0 1 -2 
+r39 1 89 
+r15 1 292 
+$r12 1 111 
+$r30 1 96 
+$r17 1 254 
+$r25 1 159 
+$r9 1 116 
+$r28 1 153 
+$r11 1 120 
+r41 1 175 
+$r8 1 108 
+$r24 1 150 
+$r27 1 163 
+$r44 1 221 
+r13 1 212 
+$r3 1 73 
+$r16 1 300 
+$r7 1 107 
+$r19 1 226 
+$r45 1 226 
+$r18 1 255 
+$r29 1 182 
+Fields: 35
+-2 ArrayObject 292
+-2 ArrayObject 89
+-2 ArrayObject 96
+-2 ArrayObject 159
+-2 ArrayObject 140
+-2 ArrayObject 182
+-2 ArrayObject 116
+-2 ArrayObject 149
+-2 ArrayObject 107
+-2 ArrayObject 217
+-2 ArrayObject 73
+-2 ArrayObject 133
+-2 ArrayObject 212
+-2 ArrayObject 175
+-2 ArrayObject 254
+-2 ArrayObject 63
+-2 ArrayObject 300
+226 name 229
+108 name 111
+64 name 67
+74 name 77
+159 fieldInfo 160
+117 name 120
+218 name 221
+116 fieldInfo 117
+149 fieldInfo 150
+107 fieldInfo 108
+217 fieldInfo 218
+255 name 258
+73 fieldInfo 74
+150 name 153
+212 fieldInfo 226
+254 fieldInfo 255
+160 name 163
+63 fieldInfo 64
+Accesses: 20
+64 1 64 
+160 1 160 
+224 1 212 
+226 1 226 
+261 1 212 
+263 1 226 
+73 1 73 
+74 1 74 
+107 1 107 
+108 1 108 
+116 1 116 
+117 1 117 
+149 1 149 
+150 1 150 
+217 1 217 
+218 1 218 
+254 1 254 
+63 1 63 
+159 1 159 
+255 1 255 
+Functions: 8
+258 2 258 229 
+19 0 
+67 2 67 77 
+153 2 163 153 
+329 37 -1 64 -2 258 67 133 73 74 140 77 212 149 150 89 217 153 218 221 159 96 160 226 163 292 229 107 300 108 175 111 116 117 182 120 254 63 255 
+221 2 229 221 
+111 2 120 111 
+319 37 -1 64 -2 258 67 133 73 74 140 77 212 149 150 89 217 153 218 221 159 96 160 226 163 292 229 107 300 108 175 111 116 117 182 120 254 63 255 
+Constructors: 0
+
+Summary: 36
+24 64 15 74 159 218 19 116 163 149 107 217 255 150 77 67 254 160 -2 226 108 120 117 153 -1 28 111 73 229 0 212 25 16 63 221 258 
+org/apache/lucene/index/DocFieldProcessorPerThread.rehash()V
+PTG:
+Vars:
+11
+$r7 1 94 
+$r4 1 69 
+$r10 1 1 
+$r3 1 1 
+r2 1 32 
+r0 1 -1 
+$r5 1 72 
+$r1 1 1 
+r11 2 87 60 
+r6 1 87 
+$r8 1 1 
+Fields: 6
+69 name 72
+32 ArrayObject 94
+1 ArrayObject 60
+60 fieldInfo 69
+60 next 87
+-1 fieldHash 1
+Accesses: 10
+0 1 -1 
+82 2 87 60 
+67 2 87 60 
+53 1 -1 
+69 1 69 
+119 1 -1 
+124 1 -1 
+45 1 -1 
+15 1 -1 
+95 2 87 60 
+Functions: 2
+72 1 72 
+27 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/DocFieldProcessorPerThread.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -2 
+$r4 1 6 
+$r2 1 -1 
+$r5 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/lucene/index/DocFieldProcessorPerThread.abort()V
+PTG:
+Vars:
+6
+$r1 1 4 
+$r2 1 43 
+r5 2 17 26 
+r4 1 26 
+r0 1 -1 
+$r3 1 4 
+Fields: 4
+4 ArrayObject 17
+17 next 26
+-1 fieldHash 4
+-1 consumer 43
+Accesses: 4
+3 1 -1 
+22 2 17 26 
+42 1 -1 
+11 1 -1 
+Functions: 2
+28 2 17 26 
+46 1 43 
+Constructors: 0
+
+Summary: 1
+-1 

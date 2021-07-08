@@ -1,0 +1,958 @@
+30
+java/time/zone/ZoneRules.hashCode()I
+PTG:
+Vars:
+6
+$r1 1 1 
+$r4 1 24 
+r0 1 -1 
+$r2 1 8 
+$r5 1 32 
+$r3 1 16 
+Fields: 5
+-1 standardTransitions 1
+-1 lastRules 32
+-1 wallOffsets 24
+-1 standardOffsets 8
+-1 savingsInstantTransitions 16
+Accesses: 5
+0 1 -1 
+7 1 -1 
+23 1 -1 
+15 1 -1 
+31 1 -1 
+Functions: 5
+16 1 16 
+32 1 32 
+1 1 1 
+8 1 8 
+24 1 24 
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/zone/ZoneRules.getTransitions()Ljava/util/List;
+PTG:
+Vars:
+11
+$r4 1 60 
+$r0 1 0 
+_ret 1 60 
+$r6 1 12 
+$r9 1 43 
+$r3 1 12 
+$r7 1 31 
+$r5 1 20 
+$r10 1 35 
+r2 1 -1 
+$r8 1 31 
+Fields: 4
+31 ArrayObject 43
+31 ArrayObject 35
+-1 wallOffsets 31
+-1 savingsInstantTransitions 12
+Accesses: 4
+36 1 -1 
+24 1 -1 
+11 1 -1 
+30 1 -1 
+Functions: 4
+4 1 0 
+59 1 0 
+44 3 35 20 43 
+47 2 0 20 
+Constructors: 2
+4 0
+44 20
+
+Summary: 3
+0 -1 20 
+java/time/zone/ZoneRules.<init>(Ljava/time/ZoneOffset;)V
+PTG:
+Vars:
+10
+$r7 1 45 
+$r9 1 60 
+$r4 1 24 
+$r6 1 38 
+r3 1 -2 
+$r1 1 5 
+$r5 1 31 
+r0 1 -1 
+$r2 1 17 
+$r8 1 24 
+Fields: 1
+-1 standardOffsets 24
+Accesses: 9
+48 1 -1 
+34 1 -1 
+20 1 -1 
+52 1 -1 
+23 1 -1 
+56 1 -1 
+41 1 -1 
+12 1 -1 
+63 1 -1 
+Functions: 2
+1 2 -1 24 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 2
+0 -1 
+java/time/zone/ZoneRules.<init>(Ljava/time/ZoneOffset;Ljava/time/ZoneOffset;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
+PTG:
+Vars:
+40
+$r22 1 389 
+$r21 1 389 
+r28 1 161 
+$r16 1 287 
+r10 1 -3 
+r42 1 147 
+$r18 1 306 
+$r24 1 327 
+$r4 1 36 
+$r13 1 263 
+$r35 1 72 
+$r6 1 43 
+$r40 1 103 
+$r7 1 113 
+$r15 1 284 
+r0 1 -1 
+$r38 1 95 
+$r32 1 183 
+$r3 1 22 
+$r20 1 386 
+$r37 1 43 
+$r12 1 260 
+$r17 1 287 
+$r8 1 122 
+$r1 1 5 
+$r36 1 72 
+$r27 1 161 
+r5 1 -2 
+$r29 1 212 
+r11 1 -5 
+$r34 1 64 
+r19 1 -6 
+r2 1 -4 
+$r39 1 95 
+$r25 1 336 
+$r31 1 238 
+$r33 1 196 
+$r30 1 225 
+$r14 1 263 
+$r26 1 336 
+Fields: 3
+-1 standardTransitions 64
+-1 standardOffsets 43
+-1 savingsInstantTransitions 327
+Accesses: 11
+84 1 -1 
+308 1 -1 
+326 1 -1 
+39 1 -1 
+295 1 -1 
+24 1 -1 
+42 1 -1 
+12 1 -1 
+397 1 -1 
+63 1 -1 
+271 1 -1 
+Functions: 38
+1 4 -1 64 327 43 
+194 1 161 
+69 1 -4 
+134 2 -3 122 
+199 2 113 196 
+9 1 5 
+140 1 -5 
+332 1 -5 
+77 1 72 
+16 1 -4 
+210 1 161 
+275 2 122 284 
+149 1 147 
+277 1 122 
+341 1 336 
+215 2 113 212 
+28 1 -4 
+92 1 -4 
+159 1 147 
+223 1 161 
+354 1 -6 
+100 1 95 
+228 2 113 225 
+171 1 161 
+299 1 -5 
+236 1 161 
+241 2 122 238 
+372 0 
+117 1 113 
+181 1 161 
+54 1 -4 
+377 2 386 -6 
+186 2 113 183 
+251 2 113 260 
+379 1 -6 
+316 1 -5 
+253 1 113 
+126 1 122 
+Constructors: 4
+1 -1
+117 113
+9 5
+126 122
+
+Summary: 26
+-5 212 122 4 183 0 3 196 -1 -4 260 95 386 72 103 113 2 147 161 -3 238 225 336 284 -6 1 
+java/time/zone/ZoneRules.readExternal(Ljava/io/DataInput;)Ljava/time/zone/ZoneRules;
+PTG:
+Vars:
+14
+$r6 1 147 
+r9 1 44 
+$r8 2 11 18 
+r1 2 11 18 
+$r10 2 85 93 
+$r7 1 62 
+$r12 2 178 170 
+_ret 1 208 
+r2 2 85 93 
+$r5 1 198 
+$r4 1 208 
+r11 1 126 
+r3 2 178 170 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -2 
+146 1 -2 
+197 1 -2 
+72 1 -2 
+220 9 208 18 178 85 170 11 44 93 126 
+61 1 -2 
+157 1 -2 
+30 1 -2 
+111 1 -2 
+Constructors: 1
+220 208
+
+Summary: 8
+-2 93 0 178 44 62 126 18 
+java/time/zone/ZoneRules.isFixedOffset()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 savingsInstantTransitions 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/zone/ZoneRules.toString()Ljava/lang/String;
+PTG:
+Vars:
+10
+$r0 1 0 
+$r6 1 24 
+_ret 1 32 
+r2 1 -1 
+$r4 1 13 
+$r3 1 13 
+$r8 1 32 
+$r1 1 9 
+$r7 1 29 
+$r5 1 23 
+Fields: 2
+-1 standardOffsets 13
+13 ArrayObject 23
+Accesses: 2
+16 1 -1 
+12 1 -1 
+Functions: 5
+0 1 0 
+4 1 0 
+24 1 24 
+9 2 23 9 
+29 1 29 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+java/time/zone/ZoneRules.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+r2 1 -2 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 0 
+Constructors: 1
+6 0
+
+Summary: 2
+-2 -1 
+java/time/zone/ZoneRules.previousTransition(Ljava/time/Instant;)Ljava/time/zone/ZoneOffsetTransition;
+PTG:
+Vars:
+19
+$r1 1 1 
+$r4 1 1 
+$r12 1 111 
+$r14 1 1 
+r2 1 -2 
+$r20 1 1 
+$r16 1 49 
+$r8 1 218 
+r18 1 92 
+_ret 1 197 
+$r10 1 64 
+$r7 1 225 
+r0 1 -1 
+r17 1 75 
+$r3 1 197 
+$r5 1 64 
+$r6 1 64 
+$r15 1 1 
+$r9 1 64 
+Fields: 7
+64 ArrayObject 218
+64 ArrayObject 225
+64 ArrayObject 75
+92 ArrayObject 111
+-1 lastRules 49
+-1 wallOffsets 64
+-1 savingsInstantTransitions 1
+Accesses: 10
+0 1 -1 
+48 1 -1 
+34 1 -1 
+210 1 -1 
+67 1 -1 
+38 1 -1 
+168 1 -1 
+201 1 -1 
+219 1 -1 
+63 1 -1 
+Functions: 9
+226 3 225 197 218 
+131 7 -1 64 49 1 225 218 75 
+86 7 -1 64 49 1 225 218 75 
+151 7 -1 64 49 1 225 218 75 
+10 1 -2 
+172 1 1 
+77 7 -1 64 49 1 225 218 75 
+15 1 -2 
+111 1 111 
+Constructors: 1
+226 197
+
+Summary: 5
+-2 157 92 -1 111 
+java/time/zone/ZoneRules.getTransitionRules()Ljava/util/List;
+PTG:
+Vars:
+5
+$r2 1 4 
+_ret 1 7 
+r0 1 -1 
+$r1 1 1 
+$r3 1 7 
+Fields: 1
+-1 lastRules 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+4 1 4 
+Constructors: 0
+
+Summary: 2
+4 -1 
+java/time/zone/ZoneRules.getStandardOffset(Ljava/time/Instant;)Ljava/time/ZoneOffset;
+PTG:
+Vars:
+7
+$r4 1 43 
+_ret 1 50 
+r2 1 -2 
+$r3 1 21 
+$r1 1 1 
+r0 1 -1 
+$r5 1 50 
+Fields: 4
+43 ArrayObject 50
+-1 standardTransitions 21
+-1 standardOffsets 43
+-1 savingsInstantTransitions 1
+Accesses: 4
+0 1 -1 
+20 1 -1 
+8 1 -1 
+42 1 -1 
+Functions: 2
+24 1 21 
+15 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+java/time/zone/ZoneRules.isValidOffset(Ljava/time/LocalDateTime;Ljava/time/ZoneOffset;)Z
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 2 
+r0 1 -1 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+2 2 2 -3 
+Constructors: 0
+
+Summary: 6
+0 -3 -2 2 -1 1 
+java/time/zone/ZoneRules.findOffsetInfo(Ljava/time/LocalDateTime;Ljava/time/zone/ZoneOffsetTransition;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+r9 1 -1 
+r0 1 -3 
+_ret 1 -3 
+r2 1 -2 
+r1 1 4 
+$r3 1 58 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -3 
+51 1 -3 
+67 1 -3 
+20 1 -3 
+5 1 -3 
+38 1 -3 
+56 2 -2 58 
+25 1 -2 
+57 1 -3 
+26 1 -3 
+43 2 -2 4 
+12 2 -2 4 
+Constructors: 0
+
+Summary: 7
+27 4 -2 58 0 -1 1 
+java/time/zone/ZoneRules.of(Ljava/time/ZoneOffset;)Ljava/time/zone/ZoneRules;
+PTG:
+Vars:
+3
+$r2 1 7 
+_ret 1 7 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 1 -2 
+12 2 -2 7 
+Constructors: 1
+12 7
+
+Summary: 2
+0 -2 
+java/time/zone/ZoneRules.getOffset(Ljava/time/LocalDateTime;)Ljava/time/ZoneOffset;
+PTG:
+Vars:
+5
+_ret 1 5 
+$r3 1 5 
+r1 1 -2 
+r0 1 -1 
+r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+14 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/time/zone/ZoneRules.getDaylightSavings(Ljava/time/Instant;)Ljava/time/Duration;
+PTG:
+Vars:
+7
+$r5 1 34 
+r2 1 -2 
+r4 1 23 
+_ret 1 34 
+$r1 1 1 
+r0 1 -1 
+r3 1 17 
+Fields: 1
+-1 savingsInstantTransitions 1
+Accesses: 1
+0 1 -1 
+Functions: 5
+33 0 
+18 3 -1 1 -2 
+24 1 23 
+12 3 -1 1 -2 
+28 1 17 
+Constructors: 0
+
+Summary: 4
+-2 17 -1 23 
+java/time/zone/ZoneRules.getOffsetInfo(Ljava/time/LocalDateTime;)Ljava/lang/Object;
+PTG:
+Vars:
+16
+$r21 1 25 
+$r22 1 35 
+$r15 1 25 
+$r5 1 25 
+$r4 1 25 
+$r14 1 25 
+$r17 1 164 
+$r16 1 172 
+r0 1 -1 
+$r7 1 276 
+r3 1 -2 
+$r20 1 25 
+$r6 1 268 
+_ret 1 276 
+$r2 1 16 
+$r1 1 1 
+Fields: 8
+25 ArrayObject 35
+25 ArrayObject 172
+25 ArrayObject 164
+268 ArrayObject 276
+-1 savingsLocalTransitions 25
+-1 lastRules 16
+-1 wallOffsets 268
+-1 savingsInstantTransitions 1
+Accesses: 15
+0 1 -1 
+129 1 -1 
+195 1 -1 
+165 1 -1 
+8 1 -1 
+267 1 -1 
+205 1 -1 
+15 1 -1 
+115 1 -1 
+149 1 -1 
+215 1 -1 
+24 1 -1 
+28 1 -1 
+188 1 -1 
+159 1 -1 
+Functions: 12
+227 0 
+164 2 164 172 
+23 2 -2 35 
+119 5 -2 35 164 25 172 
+263 0 
+232 0 
+249 0 
+42 9 -1 16 1 35 164 276 25 268 172 
+43 1 -2 
+93 0 
+78 10 -1 16 1 -2 35 164 276 25 268 172 
+94 0 
+Constructors: 0
+
+Summary: 7
+50 -2 76 0 -1 85 96 
+java/time/zone/ZoneRules.of(Ljava/time/ZoneOffset;Ljava/time/ZoneOffset;Ljava/util/List;Ljava/util/List;Ljava/util/List;)Ljava/time/zone/ZoneRules;
+PTG:
+Vars:
+7
+r2 1 -3 
+$r10 1 36 
+_ret 1 36 
+r4 1 -4 
+r0 1 -2 
+r8 1 -6 
+r6 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 6
+32 1 -6 
+17 1 -4 
+3 1 -2 
+24 1 -5 
+10 1 -3 
+46 6 -2 -3 -4 36 -5 -6 
+Constructors: 1
+46 36
+
+Summary: 5
+-5 -3 -2 -4 -6 
+java/time/zone/ZoneRules.findTransitionArray(I)[Ljava/time/zone/ZoneOffsetTransition;
+PTG:
+Vars:
+11
+$r3 1 10 
+r9 1 10 
+r1 1 -1 
+$r5 1 6 
+$r8 1 58 
+_ret 1 34 
+$r7 1 56 
+$r2 1 6 
+r4 1 29 
+r10 1 34 
+r0 1 4 
+Fields: 3
+29 ArrayObject 56
+-1 lastRules 29
+-1 lastRulesCache 6
+Accesses: 3
+5 1 -1 
+25 1 -1 
+75 1 -1 
+Functions: 4
+0 0 
+81 3 34 4 6 
+6 2 4 6 
+56 1 56 
+Constructors: 0
+
+Summary: 3
+4 -1 58 
+java/time/zone/ZoneRules.getOffset(Ljava/time/Instant;)Ljava/time/ZoneOffset;
+PTG:
+Vars:
+10
+r2 1 -2 
+$r5 1 144 
+_ret 1 151 
+$r8 1 1 
+r0 1 -1 
+$r1 1 1 
+$r3 1 21 
+$r4 1 1 
+$r6 1 151 
+$r7 1 1 
+Fields: 4
+-1 lastRules 21
+-1 wallOffsets 144
+-1 savingsInstantTransitions 1
+144 ArrayObject 151
+Accesses: 9
+0 1 -1 
+33 1 -1 
+51 1 -1 
+20 1 -1 
+8 1 -1 
+121 1 -1 
+29 1 -1 
+47 1 -1 
+143 1 -1 
+Functions: 7
+64 5 -1 144 1 21 151 
+115 0 
+103 0 
+45 5 -1 144 1 21 151 
+125 1 1 
+94 0 
+15 1 -2 
+Constructors: 0
+
+Summary: 5
+91 -2 0 70 -1 
+java/time/zone/ZoneRules.<init>([J[Ljava/time/ZoneOffset;[J[Ljava/time/ZoneOffset;[Ljava/time/zone/ZoneOffsetTransitionRule;)V
+PTG:
+Vars:
+19
+$r1 1 5 
+$r7 1 57 
+$r10 1 191 
+$r14 1 92 
+$r20 1 48 
+r5 1 -5 
+r0 1 -1 
+r2 1 -2 
+$r11 1 191 
+$r18 1 121 
+r3 1 -3 
+r4 1 -4 
+r12 1 81 
+$r19 1 134 
+r6 1 -6 
+$r16 1 150 
+$r17 1 163 
+r13 1 90 
+$r9 1 188 
+Fields: 2
+-5 ArrayObject 81
+-5 ArrayObject 90
+Accesses: 8
+17 1 -1 
+33 1 -1 
+51 1 -1 
+22 1 -1 
+39 1 -1 
+199 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 15
+1 1 -1 
+161 1 92 
+132 1 92 
+166 2 163 57 
+104 3 81 90 92 
+9 1 5 
+137 2 134 57 
+109 1 92 
+179 2 57 188 
+148 1 92 
+181 1 57 
+119 1 92 
+153 2 150 57 
+124 2 57 121 
+61 1 57 
+Constructors: 4
+1 -1
+104 92
+9 5
+61 57
+
+Summary: 13
+150 163 188 121 4 2 0 92 3 134 -1 57 1 
+java/time/zone/ZoneRules.isDaylightSavings(Ljava/time/Instant;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+$r3 1 7 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+2 2 2 7 
+5 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+7 0 -2 2 -1 
+java/time/zone/ZoneRules.getValidOffsets(Ljava/time/LocalDateTime;)Ljava/util/List;
+PTG:
+Vars:
+6
+r2 1 5 
+_ret 1 25 
+$r3 1 5 
+$r4 1 25 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+22 1 5 
+14 0 
+Constructors: 0
+
+Summary: 4
+0 5 -2 -1 
+java/time/zone/ZoneRules.writeReplace()Ljava/lang/Object;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 0 -1 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+java/time/zone/ZoneRules.findYear(JLjava/time/ZoneOffset;)I
+PTG:
+Vars:
+3
+$r1 1 21 
+r0 1 -3 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -3 
+19 0 
+21 1 21 
+11 0 
+Constructors: 0
+
+Summary: 4
+-3 -1 21 1 
+java/time/zone/ZoneRules.nextTransition(Ljava/time/Instant;)Ljava/time/zone/ZoneOffsetTransition;
+PTG:
+Vars:
+13
+$r1 1 1 
+$r4 1 1 
+$r9 1 178 
+$r6 1 166 
+$r8 1 178 
+$r11 1 183 
+_ret 1 166 
+$r7 1 1 
+$r5 1 1 
+r0 1 -1 
+r2 1 -2 
+$r10 1 192 
+$r3 1 1 
+Fields: 4
+178 ArrayObject 183
+178 ArrayObject 192
+-1 wallOffsets 178
+-1 savingsInstantTransitions 1
+Accesses: 10
+0 1 -1 
+16 1 -1 
+32 1 -1 
+48 1 -1 
+177 1 -1 
+20 1 -1 
+184 1 -1 
+138 1 -1 
+170 1 -1 
+44 1 -1 
+Functions: 7
+96 0 
+193 3 192 166 183 
+121 5 -1 192 1 178 183 
+10 1 -2 
+42 5 -1 192 1 178 183 
+61 5 -1 192 1 178 183 
+142 1 1 
+Constructors: 1
+193 166
+
+Summary: 4
+-2 67 129 -1 
+java/time/zone/ZoneRules.writeExternal(Ljava/io/DataOutput;)V
+PTG:
+Vars:
+13
+r7 1 67 
+r9 1 131 
+r11 1 164 
+r0 1 -2 
+r12 1 194 
+$r3 1 83 
+$r4 1 164 
+r10 1 148 
+r1 1 -1 
+$r2 1 2 
+r8 1 83 
+r6 1 50 
+r5 1 2 
+Fields: 8
+131 ArrayObject 148
+50 ArrayObject 67
+164 ArrayObject 194
+-1 standardTransitions 2
+-1 lastRules 164
+-1 wallOffsets 131
+-1 standardOffsets 50
+-1 savingsInstantTransitions 83
+Accesses: 8
+1 1 -1 
+82 1 -1 
+163 1 -1 
+11 1 -1 
+92 1 -1 
+173 1 -1 
+46 1 -1 
+127 1 -1 
+Functions: 8
+37 1 -2 
+6 1 -2 
+118 1 -2 
+87 1 -2 
+199 2 -2 194 
+72 2 -2 67 
+168 1 -2 
+153 2 -2 148 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/time/zone/ZoneRules.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 5
+33 1 -1 
+19 1 -1 
+75 1 -1 
+61 1 -1 
+47 1 -1 
+Functions: 5
+80 0 
+66 0 
+52 0 
+38 0 
+24 0 
+Constructors: 0
+
+Summary: 8
+-2 80 24 0 52 -1 38 66 
+java/time/zone/ZoneRules.getTransition(Ljava/time/LocalDateTime;)Ljava/time/zone/ZoneOffsetTransition;
+PTG:
+Vars:
+5
+r2 1 5 
+_ret 1 5 
+r1 1 -2 
+r0 1 -1 
+$r3 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+java/time/zone/ZoneRules.<clinit>()V
+PTG:
+Vars:
+3
+$r1 1 7 
+$r2 1 14 
+$r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+

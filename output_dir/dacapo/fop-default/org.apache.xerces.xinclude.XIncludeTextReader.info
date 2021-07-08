@@ -1,0 +1,401 @@
+11
+org/apache/xerces/xinclude/XIncludeTextReader.close()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 fReader 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+7 1 -1 
+Functions: 1
+11 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeTextReader.setBufferSize(I)V
+PTG:
+Vars:
+5
+$r2 1 4 
+$r4 1 1 
+$r1 1 1 
+r0 1 -1 
+$r3 1 20 
+Fields: 2
+1 ch 4
+-1 fTempString 1
+Accesses: 4
+0 1 -1 
+1 1 1 
+22 1 1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeTextReader.consumeBOM(Ljava/io/InputStream;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r2 1 -3 
+r3 1 -1 
+r1 1 -2 
+_ret 1 -3 
+r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 8
+21 2 -2 1 
+101 1 -3 
+182 1 -2 
+88 1 -2 
+9 1 -2 
+12 1 -3 
+110 2 -2 1 
+95 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 0 1 1 -1 
+org/apache/xerces/xinclude/XIncludeTextReader.parse()V
+PTG:
+Vars:
+36
+$r12 1 229 
+$r8 2 52 22 
+$r29 2 22 277 
+$r32 2 297 22 
+$r1 1 3 
+$r31 2 293 18 
+$r33 2 25 300 
+$r2 1 6 
+$r15 3 155 184 213 
+$r10 1 221 
+$r27 2 246 281 
+$r30 1 286 
+$r23 2 25 88 
+$r16 1 201 
+$r3 1 22 
+$r14 1 192 
+$r22 2 85 22 
+$r28 2 246 273 
+$r4 1 22 
+$r7 1 18 
+$r21 2 25 117 
+$r9 2 55 25 
+$r25 2 257 22 
+$r17 1 163 
+$r19 1 172 
+$r20 2 114 22 
+$r35 2 308 25 
+$r11 3 155 184 213 
+$r5 1 25 
+$r26 2 265 22 
+r0 1 -1 
+$r13 2 99 18 
+$r24 1 246 
+$r6 1 25 
+$r18 3 155 184 213 
+$r34 2 305 22 
+Fields: 13
+85 ch 88
+297 ch 300
+305 ch 308
+114 ch 117
+52 ch 55
+22 ch 25
+-1 fReader 18
+-1 fSource 3
+-1 fErrorReporter 155
+-1 fErrorReporter 213
+-1 fErrorReporter 184
+-1 fHandler 246
+-1 fTempString 22
+Accesses: 31
+256 1 -1 
+2 1 -1 
+261 2 257 22 
+264 1 -1 
+9 1 -1 
+269 2 22 265 
+14 1 -1 
+272 1 -1 
+17 1 -1 
+84 1 -1 
+212 1 -1 
+276 1 -1 
+21 1 -1 
+85 2 85 22 
+22 1 22 
+280 1 -1 
+154 1 -1 
+29 1 -1 
+30 1 22 
+98 1 -1 
+292 1 -1 
+296 1 -1 
+297 2 22 297 
+304 1 -1 
+113 1 -1 
+305 2 305 22 
+114 2 114 22 
+51 1 -1 
+52 2 52 22 
+245 1 -1 
+183 1 -1 
+Functions: 17
+128 0 
+1 9 -1 18 3 213 246 22 184 25 155 
+289 6 273 277 246 22 25 286 
+99 2 18 99 
+227 0 
+69 0 
+293 4 18 293 25 300 
+199 0 
+170 0 
+234 4 213 184 155 221 
+139 0 
+206 4 192 213 184 155 
+145 9 -1 18 3 213 246 22 184 25 155 
+177 4 163 213 184 155 
+18 2 18 25 
+281 2 246 281 
+61 9 -1 18 3 213 246 22 184 25 155 
+Constructors: 0
+
+Summary: 5
+192 286 221 163 -1 
+org/apache/xerces/xinclude/XIncludeTextReader.getEncodingName(Ljava/io/InputStream;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r2 1 -1 
+r3 1 35 
+r0 1 1 
+_ret 1 35 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+21 1 -2 
+8 1 -2 
+11 2 -2 1 
+30 2 -1 1 
+Constructors: 0
+
+Summary: 4
+-2 0 1 -1 
+org/apache/xerces/xinclude/XIncludeTextReader.getEncodingName([B)Ljava/lang/String;
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xerces/xinclude/XIncludeTextReader.<init>(Lorg/apache/xerces/xni/parser/XMLInputSource;Lorg/apache/xerces/xinclude/XIncludeHandler;I)V
+PTG:
+Vars:
+6
+$r5 1 33 
+r2 1 -3 
+r0 1 -1 
+r3 1 -2 
+$r1 1 5 
+$r4 1 26 
+Fields: 0
+Accesses: 4
+17 1 -1 
+22 1 -1 
+40 1 -1 
+12 1 -1 
+Functions: 3
+1 1 -1 
+37 2 33 26 
+9 1 5 
+Constructors: 3
+1 -1
+37 26
+9 5
+
+Summary: 4
+33 0 1 -1 
+org/apache/xerces/xinclude/XIncludeTextReader.isValid(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeTextReader.getReader(Lorg/apache/xerces/xni/parser/XMLInputSource;)Ljava/io/Reader;
+PTG:
+Vars:
+39
+$r27 1 256 
+r46 1 130 
+r0 1 -2 
+$r29 1 292 
+$r48 1 201 
+_ret 1 634 
+$r32 1 151 
+$r49 1 207 
+r39 7 446 369 414 18 466 25 298 
+r52 2 262 385 
+$r7 1 634 
+$r2 1 27 
+r44 1 95 
+$r31 1 151 
+r50 1 219 
+$r28 1 270 
+$r55 1 477 
+r58 1 537 
+r57 1 490 
+$r35 1 45 
+r56 1 483 
+$r5 1 79 
+$r3 1 66 
+r43 1 95 
+$r1 1 1 
+r53 1 276 
+$r30 1 137 
+$r33 1 161 
+$r36 1 51 
+r54 5 446 369 414 466 298 
+r45 1 -2 
+r40 3 45 201 37 
+$r37 1 54 
+$r34 1 161 
+r6 1 -1 
+r41 1 77 
+r47 1 137 
+$r4 1 70 
+r51 2 369 298 
+Fields: 2
+51 ch 54
+-1 fTempString 51
+Accesses: 10
+544 1 -1 
+513 1 -1 
+50 1 -1 
+51 1 51 
+614 1 -1 
+505 1 -1 
+522 1 -1 
+555 1 -1 
+606 1 -1 
+623 1 -1 
+Functions: 60
+0 1 -2 
+256 1 256 
+641 5 37 201 537 634 45 
+514 0 
+390 2 385 262 
+7 1 -2 
+135 1 130 
+264 1 219 
+523 0 
+14 1 -2 
+270 1 270 
+529 3 37 201 45 
+149 1 137 
+533 1 490 
+278 1 276 
+26 1 -2 
+159 1 137 
+288 1 276 
+33 1 -2 
+545 0 
+419 2 385 262 
+292 1 292 
+169 3 161 151 95 
+172 1 130 
+300 2 369 298 
+556 0 
+182 1 -2 
+311 2 369 298 
+568 0 
+313 2 369 298 
+441 4 -1 51 54 201 
+58 3 37 201 45 
+65 1 -2 
+451 2 385 262 
+69 1 -2 
+198 1 95 
+328 2 369 298 
+73 2 66 70 
+587 0 
+205 1 95 
+461 4 -1 51 54 201 
+591 1 537 
+210 2 201 207 
+339 2 369 298 
+85 2 77 79 
+341 2 369 298 
+214 1 95 
+90 1 79 
+476 8 369 18 466 25 298 477 446 414 
+226 1 219 
+356 2 369 298 
+484 7 -1 51 483 37 54 201 45 
+359 2 369 298 
+615 0 
+491 1 490 
+624 0 
+630 3 37 201 45 
+251 1 219 
+380 1 219 
+125 1 -2 
+Constructors: 4
+641 634
+210 201
+85 79
+58 45
+
+Summary: 28
+483 151 620 1 137 77 161 562 207 -1 27 201 262 66 37 385 627 582 -2 537 79 553 70 0 575 526 45 519 
+org/apache/xerces/xinclude/XIncludeTextReader.setErrorReporter(Lorg/apache/xerces/impl/XMLErrorReporter;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/xinclude/XIncludeTextReader.setInputSource(Lorg/apache/xerces/xni/parser/XMLInputSource;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

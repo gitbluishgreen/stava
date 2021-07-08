@@ -1,0 +1,593 @@
+19
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+20
+r0 1 -1 
+r20 1 -3 
+$r7 1 45 
+r9 1 -4 
+$r8 1 59 
+r5 1 -5 
+$r6 1 51 
+$r13 1 12 
+r10 1 -2 
+$r12 1 79 
+$r3 1 23 
+$r14 1 89 
+$r16 1 99 
+$r15 1 94 
+$r18 1 108 
+$r1 1 12 
+$r19 1 113 
+$r2 1 16 
+$r11 1 98 
+$r17 1 107 
+Fields: 8
+23 ArrayObject 51
+23 ArrayObject 98
+23 ArrayObject 107
+59 ArrayObject 89
+59 ArrayObject 94
+-1 eventFactory 12
+-1 writer 79
+-1 namespaceStack 45
+Accesses: 5
+0 1 -1 
+82 1 -1 
+11 1 -1 
+44 1 -1 
+78 1 -1 
+Functions: 13
+98 1 98 
+8 4 -1 12 45 79 
+41 9 -1 98 51 -5 23 107 12 45 79 
+75 4 -4 89 59 94 
+107 1 107 
+141 0 
+15 4 -1 12 45 79 
+19 2 16 12 
+83 6 -2 99 89 12 108 94 
+52 2 51 45 
+116 2 113 79 
+153 8 -1 -2 -3 -4 -5 12 45 79 
+127 8 -1 -2 -3 -4 -5 12 45 79 
+Constructors: 0
+
+Summary: 20
+-3 98 89 1 3 59 107 99 -5 51 -2 108 0 -4 113 23 16 94 2 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.characters([CII)V
+PTG:
+Vars:
+8
+$r5 1 26 
+$r11 1 33 
+$r6 1 15 
+$r7 1 43 
+$r3 1 19 
+r1 1 -2 
+$r2 1 15 
+r0 1 -1 
+Fields: 2
+-1 eventFactory 15
+-1 writer 26
+Accesses: 4
+7 1 -1 
+25 1 -1 
+29 1 -1 
+14 1 -1 
+Functions: 7
+18 3 -1 26 15 
+4 4 -1 -2 26 15 
+22 2 19 15 
+40 2 33 -2 
+30 2 33 15 
+46 2 26 43 
+62 0 
+Constructors: 1
+40 33
+
+Summary: 6
+-2 43 0 -1 19 33 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.getEventFactory()Ljavax/xml/stream/XMLEventFactory;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 eventFactory 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.processingInstruction(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r4 1 18 
+$r3 1 22 
+r1 1 -2 
+$r5 1 27 
+r0 1 -1 
+r2 1 -3 
+Fields: 2
+-1 eventFactory 22
+-1 writer 18
+Accesses: 3
+0 1 -1 
+17 1 -1 
+21 1 -1 
+Functions: 5
+22 3 -2 -3 22 
+8 3 -1 18 22 
+44 0 
+14 5 -1 -2 18 -3 22 
+30 2 18 27 
+Constructors: 0
+
+Summary: 6
+-3 -2 0 -1 27 1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.setEventFactory(Ljavax/xml/stream/XMLEventFactory;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.ignorableWhitespace([CII)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 2 -1 -2 
+11 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.setEventWriter(Ljavax/xml/stream/XMLEventWriter;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.startDocument()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 18 
+$r1 1 5 
+$r2 1 14 
+Fields: 2
+-1 eventFactory 14
+-1 namespaceStack 5
+Accesses: 3
+4 1 -1 
+26 1 -1 
+13 1 -1 
+Functions: 4
+1 3 -1 5 14 
+17 3 -1 5 14 
+21 2 18 14 
+8 1 5 
+Constructors: 0
+
+Summary: 2
+-1 18 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.comment([CII)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r2 1 19 
+$r6 1 19 
+$r7 1 47 
+r1 1 -2 
+$r5 1 30 
+$r3 1 23 
+$r11 1 37 
+Fields: 2
+-1 eventFactory 19
+-1 writer 30
+Accesses: 4
+0 1 -1 
+33 1 -1 
+18 1 -1 
+29 1 -1 
+Functions: 8
+34 2 19 37 
+50 2 30 47 
+66 0 
+22 3 -1 19 30 
+8 3 -1 19 30 
+26 2 19 23 
+44 2 -2 37 
+15 4 -1 -2 19 30 
+Constructors: 1
+44 37
+
+Summary: 6
+-2 23 37 0 -1 47 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.writeStartDocument()V
+PTG:
+Vars:
+18
+$r12 1 8 
+$r18 1 27 
+$r3 1 1 
+$r13 1 15 
+$r1 1 1 
+$r2 1 1 
+$r9 1 53 
+$r10 1 58 
+$r5 1 31 
+$r16 1 -1 
+$r6 1 41 
+$r4 1 27 
+$r11 1 12 
+$r7 1 1 
+$r19 1 78 
+r0 1 -1 
+$r8 1 1 
+$r17 1 31 
+Fields: 5
+-1 eventFactory 31
+-1 eventFactory 12
+-1 writer 8
+-1 writer 27
+-1 docLocator 1
+Accesses: 10
+0 1 -1 
+34 1 -1 
+101 1 -1 
+70 1 -1 
+7 1 -1 
+26 1 -1 
+74 1 -1 
+11 1 -1 
+30 1 -1 
+46 1 -1 
+Functions: 9
+81 2 27 78 
+18 2 8 15 
+50 1 1 
+38 1 1 
+75 1 31 
+12 1 12 
+61 2 58 27 
+31 3 53 41 31 
+95 0 
+Constructors: 0
+
+Summary: 6
+15 41 58 53 78 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.<init>(Ljavax/xml/stream/XMLEventWriter;Ljavax/xml/stream/XMLEventFactory;)V
+PTG:
+Vars:
+5
+$r4 1 38 
+r3 1 -3 
+r2 1 -2 
+r0 1 -1 
+$r1 1 5 
+Fields: 0
+Accesses: 5
+17 1 -1 
+22 1 -1 
+41 1 -1 
+12 1 -1 
+31 1 -1 
+Functions: 3
+-1 0 
+1 1 -1 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.endElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+17
+$r6 1 19 
+$r8 1 39 
+$r15 1 8 
+r12 1 70 
+$r5 1 12 
+r1 1 -2 
+$r10 1 53 
+r0 1 -1 
+$r17 1 91 
+$r4 1 8 
+$r14 1 83 
+$r13 1 88 
+r2 1 -3 
+r11 1 53 
+$r9 1 39 
+r3 1 -4 
+$r16 1 73 
+Fields: 5
+19 ArrayObject 83
+19 ArrayObject 88
+-1 eventFactory 8
+-1 writer 73
+-1 namespaceStack 39
+Accesses: 5
+38 1 -1 
+7 1 -1 
+72 1 -1 
+42 1 -1 
+76 1 -1 
+Functions: 10
+35 4 -4 19 83 88 
+4 7 -1 -2 -3 -4 39 8 73 
+39 1 39 
+11 4 -1 39 8 73 
+43 1 39 
+77 5 -2 83 70 8 88 
+94 2 73 91 
+110 0 
+15 2 8 12 
+63 1 53 
+Constructors: 0
+
+Summary: 14
+-3 -2 12 70 91 0 19 -4 1 88 83 53 2 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.createNamespace(Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/Namespace;
+PTG:
+Vars:
+6
+r1 1 -1 
+$r6 1 26 
+$r5 1 21 
+r0 1 -2 
+r2 1 -3 
+_ret 1 26 
+Fields: 1
+-1 eventFactory 21
+Accesses: 2
+20 1 -1 
+11 1 -1 
+Functions: 3
+4 1 -2 
+21 3 -2 -3 21 
+12 1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.getEventWriter()Ljavax/xml/stream/XMLEventWriter;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 writer 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.endCDATA()V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r4 1 12 
+$r1 1 1 
+$r5 1 1 
+$r3 1 20 
+$r7 1 26 
+$r2 1 5 
+$r6 1 23 
+Fields: 3
+-1 eventFactory 1
+-1 writer 12
+-1 CDATABuffer 20
+Accesses: 4
+0 1 -1 
+19 1 -1 
+11 1 -1 
+15 1 -1 
+Functions: 7
+16 2 1 23 
+48 4 -1 1 20 12 
+4 4 -1 1 20 12 
+20 1 20 
+8 2 1 5 
+43 0 
+29 2 26 12 
+Constructors: 0
+
+Summary: 4
+23 5 26 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.<init>(Ljavax/xml/stream/XMLEventWriter;)V
+PTG:
+Vars:
+4
+$r1 1 5 
+r0 1 -1 
+r2 1 -2 
+$r3 1 26 
+Fields: 0
+Accesses: 4
+17 1 -1 
+22 1 -1 
+12 1 -1 
+29 1 -1 
+Functions: 3
+-1 0 
+1 1 -1 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.<init>()V
+PTG:
+Vars:
+3
+$r2 1 21 
+r0 1 -1 
+$r1 1 5 
+Fields: 0
+Accesses: 3
+17 1 -1 
+24 1 -1 
+12 1 -1 
+Functions: 3
+-1 0 
+1 1 -1 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.createStartEvents(Lorg/xml/sax/Attributes;[Ljava/util/Collection;)V
+PTG:
+Vars:
+32
+$r21 1 6 
+r27 1 40 
+$r16 1 301 
+$r18 1 6 
+r3 1 -2 
+r33 1 239 
+$r17 2 284 264 
+r10 1 186 
+$r36 2 352 301 
+$r15 2 284 264 
+$r24 1 76 
+r31 1 150 
+$r19 1 6 
+r0 1 -1 
+$r13 1 212 
+$r20 1 40 
+r25 2 76 212 
+$r14 1 198 
+r26 1 301 
+$r35 2 339 332 
+r9 1 176 
+r29 1 70 
+r32 1 156 
+$r11 1 188 
+$r7 1 136 
+$r22 1 54 
+r4 1 -3 
+$r1 1 6 
+$r2 1 102 
+r8 1 166 
+r28 1 54 
+r34 2 278 294 
+Fields: 5
+-1 namespaces 6
+-1 eventFactory 284
+-1 eventFactory 264
+102 ArrayObject 150
+102 ArrayObject 156
+Accesses: 6
+48 1 -1 
+5 1 -1 
+263 1 -1 
+283 1 -1 
+12 1 -1 
+31 1 -1 
+Functions: 24
+32 1 6 
+133 1 -2 
+198 2 198 150 
+231 6 -1 176 6 264 284 156 
+168 1 -2 
+264 6 176 150 264 186 284 156 
+13 1 6 
+143 4 102 150 136 156 
+80 1 76 
+49 1 6 
+305 1 301 
+178 1 -2 
+338 2 212 76 
+118 1 -2 
+246 4 212 76 156 239 
+216 1 212 
+89 4 212 70 40 76 
+314 3 278 294 301 
+188 2 166 188 
+220 3 212 76 156 
+284 4 176 264 284 156 
+62 6 -1 6 54 264 40 284 
+158 1 -2 
+255 1 150 
+Constructors: 3
+80 76
+305 301
+216 212
+
+Summary: 20
+-3 278 54 156 70 294 1 76 212 40 166 -2 176 239 0 136 186 -1 150 102 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2StAXEventWriter.endDocument()V
+PTG:
+Vars:
+7
+$r1 1 1 
+r0 1 -1 
+$r6 1 45 
+$r2 1 5 
+$r4 1 12 
+$r3 1 1 
+$r5 1 19 
+Fields: 3
+-1 eventFactory 1
+-1 writer 12
+-1 namespaceStack 45
+Accesses: 4
+0 1 -1 
+11 1 -1 
+44 1 -1 
+15 1 -1 
+Functions: 7
+16 1 1 
+48 1 45 
+4 4 -1 1 12 45 
+36 0 
+22 2 19 12 
+8 2 1 5 
+41 4 -1 1 12 45 
+Constructors: 0
+
+Summary: 3
+5 -1 19 

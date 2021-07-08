@@ -1,0 +1,625 @@
+21
+sun/security/provider/X509Factory.engineGenerateCertPath(Ljava/io/InputStream;Ljava/lang/String;)Ljava/security/cert/CertPath;
+PTG:
+Vars:
+10
+r9 1 -1 
+$r2 1 23 
+$r7 1 51 
+r4 1 -3 
+$r3 1 27 
+$r6 1 -1 
+$r1 1 40 
+r0 1 -2 
+r10 1 18 
+$r8 1 56 
+Fields: 0
+Accesses: 0
+Functions: 7
+32 2 18 27 
+36 3 -3 23 27 
+55 1 -1 
+10 0 
+59 2 51 56 
+14 1 -2 
+46 1 40 
+Constructors: 4
+32 27
+36 23
+59 51
+46 40
+
+Summary: 6
+-1 -3 1 -2 0 27 
+sun/security/provider/X509Factory.parseX509orPKCS7CRL(Ljava/io/InputStream;)Ljava/util/Collection;
+PTG:
+Vars:
+12
+r13 1 -1 
+$r3 1 10 
+$r5 1 65 
+$r7 1 93 
+_ret 1 10 
+r1 1 -2 
+$r8 1 89 
+$r0 1 0 
+r14 2 129 50 
+r6 1 80 
+$r11 1 -1 
+$r12 1 110 
+Fields: 0
+Accesses: 0
+Functions: 14
+98 1 93 
+35 0 
+5 2 0 -2 
+70 3 65 129 50 
+42 1 0 
+75 1 65 
+45 1 0 
+14 1 10 
+19 1 0 
+115 3 129 50 110 
+118 2 10 110 
+87 1 80 
+124 1 0 
+61 0 
+Constructors: 5
+98 93
+115 110
+5 0
+70 65
+14 10
+
+Summary: 6
+-1 65 0 110 -2 0 
+sun/security/provider/X509Factory.checkHeaderFooter(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r3 1 133 
+r1 1 -3 
+r2 1 120 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 28
+0 1 -2 
+134 2 133 120 
+72 1 -3 
+9 1 -2 
+18 1 -2 
+146 0 
+85 0 
+150 0 
+89 0 
+155 1 -2 
+94 1 -3 
+31 0 
+159 0 
+98 0 
+35 0 
+164 1 -3 
+40 1 -2 
+104 0 
+168 0 
+44 0 
+108 1 -2 
+174 0 
+111 1 -2 
+50 0 
+54 1 -3 
+121 1 -3 
+124 1 -3 
+63 1 -3 
+Constructors: 0
+
+Summary: 2
+1 0 
+sun/security/provider/X509Factory.intern(Ljava/security/cert/X509CRL;)Lsun/security/x509/X509CRLImpl;
+PTG:
+Vars:
+10
+$r5 1 -2 
+r8 2 -2 60 
+$r1 1 31 
+_ret 2 -2 60 
+r6 3 22 30 73 
+$r4 1 74 
+$r3 1 60 
+$r2 1 35 
+r0 1 -2 
+r7 1 35 
+Fields: 0
+Accesses: 0
+Functions: 6
+16 1 -2 
+65 4 22 73 60 30 
+34 4 22 73 30 31 
+69 1 60 
+26 1 -2 
+79 6 -2 22 73 74 60 30 
+Constructors: 1
+65 60
+
+Summary: 3
+22 30 0 
+sun/security/provider/X509Factory.engineGenerateCertificates(Ljava/io/InputStream;)Ljava/util/Collection;
+PTG:
+Vars:
+5
+$r2 1 16 
+r1 1 -1 
+r0 1 -2 
+$r4 1 -1 
+$r6 1 21 
+Fields: 0
+Accesses: 0
+Functions: 3
+10 0 
+26 2 -1 21 
+14 2 -1 -2 
+Constructors: 1
+26 21
+
+Summary: 3
+-1 -2 0 
+sun/security/provider/X509Factory.getFromCache(Lsun/security/util/Cache;[B)Ljava/lang/Object;
+PTG:
+Vars:
+5
+_ret 1 11 
+r3 1 -2 
+r1 1 -3 
+$r4 1 11 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 2 0 -3 
+9 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 4
+1 -2 0 -3 
+sun/security/provider/X509Factory.readBERInternal(Ljava/io/InputStream;Ljava/io/ByteArrayOutputStream;I)I
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 37
+65 0 
+321 1 -2 
+449 0 
+387 1 -3 
+5 1 -2 
+71 1 -3 
+327 1 -2 
+201 0 
+393 1 -3 
+139 1 -2 
+267 0 
+333 1 -2 
+208 1 -3 
+274 1 -3 
+21 0 
+214 1 -3 
+280 1 -3 
+157 0 
+286 1 -3 
+351 0 
+96 0 
+164 1 -3 
+102 2 -2 -3 
+40 0 
+427 0 
+237 1 -2 
+46 1 -3 
+368 0 
+49 1 -2 
+177 1 -2 
+433 2 -2 -3 
+243 1 -2 
+183 1 -2 
+375 1 -3 
+249 1 -2 
+315 1 -2 
+381 1 -3 
+Constructors: 0
+
+Summary: 4
+-3 1 -2 0 
+sun/security/provider/X509Factory.recordEvent(Lsun/security/x509/X509CertImpl;)V
+PTG:
+Vars:
+13
+$r10 1 58 
+$r7 1 34 
+$r8 1 37 
+r1 1 10 
+$r6 1 28 
+$r11 1 65 
+$r9 1 43 
+r0 1 -2 
+$r4 1 21 
+$r5 1 25 
+$r3 1 16 
+$r2 1 12 
+r12 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 17
+-1 0 
+64 1 -2 
+33 1 -2 
+65 1 65 
+34 1 34 
+6 1 -2 
+71 5 21 37 43 12 28 
+42 1 10 
+11 1 -2 
+15 1 -2 
+16 1 16 
+48 1 10 
+52 1 -2 
+24 1 -2 
+25 1 25 
+57 1 -2 
+58 1 58 
+Constructors: 0
+
+Summary: 13
+-1 25 12 28 65 43 21 34 -2 58 0 10 37 
+sun/security/provider/X509Factory.engineGenerateCRL(Ljava/io/InputStream;)Ljava/security/cert/CRL;
+PTG:
+Vars:
+13
+r12 1 -1 
+$r11 1 84 
+r0 1 -2 
+$r4 1 46 
+$r2 1 29 
+r13 1 24 
+r14 1 33 
+$r9 1 -1 
+$r6 1 59 
+$r10 1 79 
+$r1 1 68 
+$r3 1 33 
+$r5 1 55 
+Fields: 0
+Accesses: 0
+Functions: 10
+16 0 
+32 2 24 29 
+51 2 24 46 
+83 1 -1 
+20 1 -2 
+7 0 
+87 2 84 79 
+58 1 46 
+74 1 68 
+63 3 55 59 46 
+Constructors: 3
+51 46
+87 79
+74 68
+
+Summary: 3
+-1 -2 0 
+sun/security/provider/X509Factory.parseX509orPKCS7Cert(Ljava/io/InputStream;)Ljava/util/Collection;
+PTG:
+Vars:
+12
+$r8 1 89 
+r6 1 80 
+_ret 1 10 
+$r5 1 65 
+r13 1 -1 
+r1 1 -2 
+$r0 1 0 
+$r3 1 10 
+r14 2 129 50 
+$r11 1 -1 
+$r7 1 93 
+$r12 1 110 
+Fields: 0
+Accesses: 0
+Functions: 14
+98 1 93 
+35 0 
+5 2 0 -2 
+70 3 65 129 50 
+42 1 0 
+75 1 65 
+45 1 0 
+14 1 10 
+19 1 0 
+115 3 129 50 110 
+118 2 10 110 
+87 1 80 
+124 1 0 
+61 0 
+Constructors: 5
+98 93
+115 110
+5 0
+70 65
+14 10
+
+Summary: 6
+-1 65 0 110 -2 0 
+sun/security/provider/X509Factory.engineGetCertPathEncodings()Ljava/util/Iterator;
+PTG:
+Vars:
+3
+r1 1 -1 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/provider/X509Factory.readOneBlock(Ljava/io/InputStream;)[B
+PTG:
+Vars:
+9
+_ret 1 404 
+$r16 1 394 
+$r17 1 404 
+$r3 1 322 
+r0 1 -2 
+$r14 1 383 
+r11 2 318 49 
+$r12 1 146 
+$r15 1 388 
+Fields: 0
+Accesses: 0
+Functions: 23
+0 1 -2 
+257 1 146 
+386 1 322 
+37 1 -2 
+391 2 388 383 
+200 1 -2 
+264 1 -2 
+328 1 322 
+41 0 
+394 1 394 
+333 1 -2 
+175 0 
+80 1 -2 
+401 3 49 394 318 
+374 1 322 
+152 1 146 
+25 0 
+218 0 
+282 0 
+314 2 49 318 
+157 1 -2 
+381 1 146 
+31 0 
+Constructors: 3
+401 394
+152 146
+328 322
+
+Summary: 5
+394 18 49 -2 0 
+sun/security/provider/X509Factory.engineGenerateCertPath(Ljava/util/List;)Ljava/security/cert/CertPath;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r0 1 0 
+_ret 1 0 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 3
+-1 -2 0 
+sun/security/provider/X509Factory.engineGenerateCertPath(Ljava/io/InputStream;)Ljava/security/cert/CertPath;
+PTG:
+Vars:
+9
+r0 1 -2 
+$r3 1 27 
+$r6 1 50 
+$r7 1 55 
+r9 1 18 
+$r2 1 23 
+$r5 1 -1 
+$r1 1 39 
+r8 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+32 2 18 27 
+35 2 23 27 
+54 1 -1 
+10 0 
+58 2 50 55 
+45 1 39 
+14 1 -2 
+Constructors: 4
+32 27
+35 23
+58 50
+45 39
+
+Summary: 4
+-1 -2 0 27 
+sun/security/provider/X509Factory.intern(Ljava/security/cert/X509Certificate;)Lsun/security/x509/X509CertImpl;
+PTG:
+Vars:
+10
+$r3 1 60 
+$r1 1 31 
+$r4 1 74 
+_ret 2 -2 60 
+r7 1 35 
+r8 2 -2 60 
+r0 1 -2 
+$r5 1 -2 
+r6 3 22 30 73 
+$r2 1 35 
+Fields: 0
+Accesses: 0
+Functions: 6
+16 1 -2 
+65 4 22 73 60 30 
+34 4 22 73 30 31 
+69 1 60 
+26 1 -2 
+79 6 -2 22 73 74 60 30 
+Constructors: 1
+65 60
+
+Summary: 1
+0 
+sun/security/provider/X509Factory.addToCache(Lsun/security/util/Cache;[BLjava/lang/Object;)V
+PTG:
+Vars:
+4
+$r1 1 8 
+r3 1 -2 
+r4 1 -4 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+20 3 -2 -4 8 
+13 2 -3 8 
+Constructors: 1
+13 8
+
+Summary: 6
+-4 1 -2 2 8 -3 
+sun/security/provider/X509Factory.engineGenerateCRLs(Ljava/io/InputStream;)Ljava/util/Collection;
+PTG:
+Vars:
+6
+$r2 1 16 
+$r4 1 -1 
+$r7 1 26 
+$r6 1 21 
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+25 1 -1 
+10 0 
+29 2 21 26 
+14 2 -1 -2 
+Constructors: 1
+29 21
+
+Summary: 3
+-1 -2 0 
+sun/security/provider/X509Factory.engineGenerateCertificate(Ljava/io/InputStream;)Ljava/security/cert/Certificate;
+PTG:
+Vars:
+17
+$r1 1 76 
+$r6 1 62 
+$r13 1 100 
+$r5 1 58 
+$r12 1 91 
+$r10 1 -1 
+$r16 1 110 
+$r3 1 36 
+$r11 1 87 
+r0 1 -2 
+$r2 1 32 
+r18 1 36 
+r7 1 -1 
+$r15 1 107 
+r17 1 27 
+$r14 1 104 
+$r4 1 49 
+Fields: 0
+Accesses: 0
+Functions: 16
+66 3 49 58 62 
+35 2 32 27 
+100 2 100 104 
+7 0 
+71 2 -1 49 
+103 1 -1 
+10 0 
+107 1 107 
+82 1 76 
+114 3 -1 87 110 
+19 0 
+54 2 49 27 
+23 1 -2 
+91 1 91 
+61 1 49 
+95 1 91 
+Constructors: 4
+82 76
+114 87
+54 49
+95 91
+
+Summary: 3
+-1 -2 0 
+sun/security/provider/X509Factory.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+sun/security/provider/X509Factory.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 3 
+$r1 1 12 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 0 
+9 0 
+Constructors: 0
+
+Summary: 0
+
+sun/security/provider/X509Factory.readFully(Ljava/io/InputStream;Ljava/io/ByteArrayOutputStream;I)I
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+50 2 -3 5 
+13 2 -2 5 
+Constructors: 0
+
+Summary: 5
+1 -2 5 0 -3 

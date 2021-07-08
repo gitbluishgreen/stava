@@ -1,0 +1,896 @@
+24
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.<clinit>()V
+PTG:
+Vars:
+3
+$r0 1 6 
+$r2 1 12 
+$r1 1 14 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 0 
+12 2 12 14 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.internalFormatClassBodyDeclarations(Ljava/lang/String;ILjava/lang/String;[Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;[Lorg/eclipse/jface/text/IRegion;)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+16
+$r13 1 66 
+r10 1 -2 
+r6 1 -6 
+$r14 1 5 
+$r4 2 5 16 
+r0 1 -4 
+$r12 1 60 
+r1 1 -1 
+_ret 1 66 
+$r3 1 16 
+$r2 1 19 
+$r5 1 34 
+$r9 2 5 16 
+$r8 1 43 
+$r7 1 49 
+r11 1 -5 
+Fields: 5
+-1 newCodeFormatter 60
+-1 preferences 5
+-1 preferences 16
+-1 options 43
+-1 codeSnippetParsingUtil 49
+Accesses: 11
+48 1 -1 
+4 1 -1 
+22 1 16 
+38 1 -1 
+56 1 -1 
+9 1 5 
+25 1 -1 
+42 1 -1 
+59 1 -1 
+30 2 16 5 
+15 1 -1 
+Functions: 2
+53 6 16 49 34 5 -6 43 
+60 3 -2 -5 60 
+Constructors: 1
+53 34
+
+Summary: 8
+-5 -6 4 -1 2 0 -2 3 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.probeFormatting(Ljava/lang/String;ILjava/lang/String;[Lorg/eclipse/jface/text/IRegion;Z)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+33
+$r19 1 288 
+$r24 1 330 
+r23 1 -4 
+r4 1 -1 
+$r2 1 28 
+$r31 1 134 
+$r0 1 0 
+$r7 1 64 
+$r30 1 116 
+r5 1 -5 
+$r22 1 304 
+$r32 1 6 
+r21 1 300 
+$r8 1 82 
+$r13 1 222 
+$r16 1 257 
+$r11 1 214 
+$r14 1 214 
+r34 1 229 
+$r18 1 214 
+$r9 1 152 
+r17 1 264 
+$r29 1 187 
+$r10 1 206 
+$r20 1 292 
+$r3 1 32 
+r6 1 44 
+$r28 1 201 
+_ret 1 330 
+$r15 1 253 
+$r33 1 -1 
+$r12 1 218 
+r1 1 -2 
+Fields: 2
+-1 codeSnippetParsingUtil 214
+300 statements 304
+Accesses: 4
+213 1 -1 
+248 1 -1 
+283 1 -1 
+302 1 300 
+Functions: 27
+256 2 -1 214 
+322 5 -1 -2 -4 -5 214 
+134 1 134 
+76 1 64 
+271 6 -1 -2 -4 -5 214 264 
+82 1 82 
+210 1 206 
+22 1 6 
+214 3 214 218 222 
+152 1 152 
+217 1 -2 
+284 3 288 292 214 
+221 2 -1 214 
+31 1 -2 
+287 1 -2 
+35 2 32 28 
+291 2 -1 214 
+38 3 -1 -5 214 
+236 6 -1 -2 -4 -5 229 214 
+46 1 44 
+179 5 -1 -2 -4 -5 214 
+116 1 116 
+310 7 -1 304 -2 -4 -5 214 300 
+55 1 44 
+249 3 257 214 253 
+252 1 -2 
+191 5 -1 -2 -4 -5 214 
+Constructors: 1
+22 6
+
+Summary: 19
+292 300 229 253 -1 218 -4 44 0 3 -5 264 304 288 257 2 222 32 -2 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.formatStatements(Ljava/lang/String;ILjava/lang/String;[Lorg/eclipse/jface/text/IRegion;)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+11
+r8 1 -5 
+_ret 1 37 
+r1 1 -2 
+r5 1 17 
+$r3 1 5 
+r0 1 -1 
+r7 1 -4 
+$r6 1 21 
+$r9 1 37 
+$r2 1 1 
+$r4 1 9 
+Fields: 2
+-1 codeSnippetParsingUtil 1
+17 statements 21
+Accesses: 2
+0 1 -1 
+19 1 17 
+Functions: 4
+1 3 1 5 9 
+4 1 -2 
+8 2 -1 1 
+29 7 -1 1 -2 17 -4 -5 21 
+Constructors: 0
+
+Summary: 11
+-5 -1 5 9 2 17 21 -4 0 -2 3 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.formatComment(ILjava/lang/String;ILjava/lang/String;[Lorg/eclipse/jface/text/IRegion;)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+15
+$r25 1 97 
+$r2 1 115 
+$r33 1 60 
+r3 1 -5 
+r8 1 -3 
+$r30 1 81 
+r1 1 4 
+$r32 1 52 
+$r27 1 102 
+r0 1 -1 
+$r31 1 55 
+r14 1 -6 
+$r26 1 94 
+$r29 1 73 
+$r28 1 76 
+Fields: 3
+-1 options 55
+-1 options 97
+-1 options 76
+Accesses: 15
+96 1 -1 
+164 1 -1 
+134 1 -1 
+75 1 -1 
+204 1 -1 
+268 1 -1 
+208 1 -1 
+146 1 -1 
+179 1 -1 
+54 1 -1 
+182 1 -1 
+214 1 -1 
+156 1 -1 
+222 1 -1 
+254 1 -1 
+Functions: 18
+0 4 -1 97 55 76 
+97 1 97 
+225 5 -1 97 -6 55 76 
+195 0 
+73 2 81 73 
+233 0 
+265 1 -3 
+76 1 76 
+176 0 
+272 0 
+115 2 115 4 
+52 2 52 60 
+244 0 
+55 1 55 
+186 1 -3 
+219 1 -6 
+94 2 102 94 
+190 4 -1 97 55 76 
+Constructors: 0
+
+Summary: 13
+-3 4 -1 81 4 191 60 231 3 1 -6 102 187 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.regionsSatisfiesPreconditions([Lorg/eclipse/jface/text/IRegion;I)Z
+PTG:
+Vars:
+4
+r3 1 -1 
+r0 1 -2 
+r2 1 92 
+r1 1 20 
+Fields: 2
+-2 ArrayObject 92
+-2 ArrayObject 20
+Accesses: 0
+Functions: 13
+32 1 20 
+96 1 92 
+128 1 92 
+70 1 20 
+135 1 92 
+42 1 20 
+108 1 92 
+49 1 20 
+149 1 92 
+22 1 20 
+118 1 92 
+156 1 92 
+63 1 20 
+Constructors: 0
+
+Summary: 4
+-1 20 0 -2 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.<init>()V
+PTG:
+Vars:
+3
+$r2 1 5 
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+8 2 1 5 
+12 2 -1 1 
+Constructors: 2
+8 1
+12 -1
+
+Summary: 3
+-1 5 1 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.oldCommentFormatOption()Ljava/lang/Object;
+PTG:
+Vars:
+4
+_ret 1 7 
+r0 1 -1 
+$r1 1 1 
+$r2 1 7 
+Fields: 1
+-1 options 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.<init>(Lorg/eclipse/jdt/internal/formatter/DefaultCodeFormatterOptions;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.formatComment(ILjava/lang/String;ILjava/lang/String;[Lorg/eclipse/jface/text/IRegion;Z)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+30
+$r16 1 235 
+$r31 1 215 
+$r6 1 147 
+$r33 1 259 
+r1 1 4 
+$r28 1 52 
+$r23 1 102 
+$r10 3 55 97 76 
+r17 1 241 
+r0 1 -1 
+$r26 1 81 
+r14 1 -3 
+$r7 2 135 147 
+$r11 2 135 147 
+$r29 1 60 
+$r25 1 73 
+$r34 1 215 
+$r22 1 94 
+$r5 1 150 
+r12 1 194 
+$r32 1 223 
+_ret 1 259 
+r4 1 -5 
+r9 1 -6 
+$r21 1 97 
+$r30 1 165 
+$r27 1 55 
+$r24 1 76 
+$r2 1 115 
+$r20 1 135 
+Fields: 6
+-1 newCodeFormatter 235
+-1 preferences 135
+-1 preferences 147
+-1 options 55
+-1 options 97
+-1 options 76
+Accesses: 14
+96 1 -1 
+161 2 147 135 
+134 1 -1 
+169 1 -1 
+234 1 -1 
+75 1 -1 
+140 1 135 
+173 1 -1 
+146 1 -1 
+54 1 -1 
+248 1 -1 
+153 1 147 
+185 1 -1 
+156 1 -1 
+Functions: 17
+0 7 -1 97 147 135 55 235 76 
+97 1 97 
+196 1 194 
+231 1 223 
+263 1 259 
+73 2 81 73 
+235 3 215 235 223 
+76 1 76 
+205 1 194 
+115 2 115 4 
+52 2 52 60 
+182 7 97 147 165 -6 135 55 76 
+55 1 55 
+249 2 241 -3 
+188 8 -1 97 147 -6 135 55 235 76 
+220 2 -3 215 
+94 2 102 94 
+Constructors: 4
+182 165
+231 223
+263 259
+220 215
+
+Summary: 12
+215 -3 4 -1 194 81 4 60 -6 102 241 223 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.internalFormatExpression(Ljava/lang/String;ILjava/lang/String;Lorg/eclipse/jdt/internal/compiler/ast/Expression;[Lorg/eclipse/jface/text/IRegion;)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+16
+r0 1 -4 
+$r4 2 5 16 
+$r8 1 43 
+r1 1 -1 
+$r12 1 60 
+$r7 1 49 
+r6 1 -6 
+r13 1 69 
+$r2 1 19 
+_ret 1 69 
+$r14 1 5 
+r11 1 -5 
+$r3 1 16 
+$r5 1 34 
+$r9 2 5 16 
+r10 1 -2 
+Fields: 5
+-1 newCodeFormatter 60
+-1 preferences 5
+-1 preferences 16
+-1 options 43
+-1 codeSnippetParsingUtil 49
+Accesses: 11
+48 1 -1 
+4 1 -1 
+22 1 16 
+38 1 -1 
+56 1 -1 
+9 1 5 
+25 1 -1 
+42 1 -1 
+59 1 -1 
+30 2 16 5 
+15 1 -1 
+Functions: 2
+53 6 16 49 34 5 -6 43 
+60 3 -2 -5 60 
+Constructors: 1
+53 34
+
+Summary: 8
+-5 -6 4 -1 2 0 -2 3 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.formatExpression(Ljava/lang/String;ILjava/lang/String;[Lorg/eclipse/jface/text/IRegion;)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+10
+r6 1 -4 
+$r3 1 5 
+_ret 1 33 
+r7 1 -5 
+$r4 1 9 
+r1 1 -2 
+r5 1 16 
+$r2 1 1 
+r0 1 -1 
+$r8 1 33 
+Fields: 1
+-1 codeSnippetParsingUtil 1
+Accesses: 1
+0 1 -1 
+Functions: 4
+1 3 1 5 9 
+4 1 -2 
+8 2 -1 1 
+25 6 -1 16 1 -2 -4 -5 
+Constructors: 0
+
+Summary: 10
+-5 -1 5 9 2 -4 16 0 -2 3 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.getCoveredRegion([Lorg/eclipse/jface/text/IRegion;)Lorg/eclipse/jface/text/IRegion;
+PTG:
+Vars:
+6
+_ret 1 28 
+r2 1 26 
+$r1 1 14 
+$r3 1 28 
+r0 1 -2 
+r5 1 -1 
+Fields: 2
+-2 ArrayObject 14
+-2 ArrayObject 26
+Accesses: 0
+Functions: 4
+33 1 26 
+50 1 28 
+40 1 26 
+14 1 14 
+Constructors: 1
+50 28
+
+Summary: 5
+-1 14 26 0 -2 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.<init>(Lorg/eclipse/jdt/internal/formatter/DefaultCodeFormatterOptions;Ljava/util/Map;)V
+PTG:
+Vars:
+10
+r6 1 -2 
+r1 1 -3 
+$r7 1 62 
+$r8 1 66 
+$r9 1 14 
+$r5 1 51 
+$r3 1 36 
+r0 1 -1 
+$r4 1 40 
+$r2 1 29 
+Fields: 1
+-1 preferences 62
+Accesses: 6
+32 1 -1 
+22 1 -1 
+54 1 -1 
+10 1 -1 
+61 1 -1 
+46 1 -1 
+Functions: 7
+-1 0 
+1 2 -1 62 
+65 1 -2 
+50 2 -1 62 
+19 2 -3 14 
+69 2 66 62 
+43 2 36 40 
+Constructors: 3
+1 -1
+19 14
+43 36
+
+Summary: 6
+-1 1 40 0 -2 66 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.getDefaultCompilerOptions()Ljava/util/Map;
+PTG:
+Vars:
+10
+$r3 1 1 
+$r5 1 1 
+_ret 1 1 
+$r64 1 725 
+r68 1 763 
+$r6 1 1 
+r0 1 -1 
+$r2 1 752 
+$r1 1 1 
+$r8 1 7 
+Fields: 2
+-1 defaultCompilerOptions 1
+-1 options 752
+Accesses: 6
+0 1 -1 
+768 1 -1 
+785 1 -1 
+801 1 -1 
+748 1 -1 
+751 1 -1 
+Functions: 62
+512 1 7 
+385 1 7 
+776 2 1 763 
+139 1 7 
+268 1 7 
+524 1 7 
+652 1 7 
+13 1 7 
+398 1 7 
+151 1 7 
+24 1 7 
+281 1 7 
+537 1 7 
+665 1 7 
+411 1 7 
+795 1 1 
+164 1 7 
+37 1 7 
+677 1 7 
+294 1 7 
+550 1 7 
+424 1 7 
+177 1 7 
+689 1 7 
+50 1 7 
+562 1 7 
+307 1 7 
+437 1 7 
+701 1 7 
+190 1 7 
+63 1 7 
+575 1 7 
+320 1 7 
+449 1 7 
+713 1 7 
+75 1 7 
+203 1 7 
+588 1 7 
+333 1 7 
+462 1 7 
+723 0 
+88 1 7 
+216 1 7 
+600 1 7 
+728 2 725 7 
+346 1 7 
+474 1 7 
+740 1 7 
+101 1 7 
+229 1 7 
+613 1 7 
+486 1 7 
+359 1 7 
+752 1 752 
+114 1 7 
+242 1 7 
+626 1 7 
+499 1 7 
+372 1 7 
+127 1 7 
+255 1 7 
+639 1 7 
+Constructors: 1
+13 7
+
+Summary: 3
+-1 725 763 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.<init>(Ljava/util/Map;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.formatCompilationUnit(Ljava/lang/String;ILjava/lang/String;[Lorg/eclipse/jface/text/IRegion;Z)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+19
+$r15 1 79 
+$r16 1 85 
+$r9 2 23 34 
+$r10 1 52 
+r11 1 -5 
+$r3 1 5 
+r5 1 16 
+r6 1 -4 
+$r4 1 9 
+$r12 1 1 
+r1 1 -2 
+_ret 1 85 
+$r7 1 37 
+$r8 1 34 
+$r14 2 23 34 
+$r13 1 61 
+r0 1 -1 
+$r2 1 1 
+$r17 1 23 
+Fields: 5
+-1 newCodeFormatter 79
+-1 preferences 23
+-1 preferences 34
+-1 codeSnippetParsingUtil 1
+-1 options 61
+Accesses: 12
+0 1 -1 
+48 2 34 23 
+33 1 -1 
+66 1 -1 
+22 1 -1 
+40 1 34 
+56 1 -1 
+27 1 23 
+43 1 -1 
+75 1 -1 
+60 1 -1 
+78 1 -1 
+Functions: 5
+1 3 1 5 9 
+4 1 -2 
+8 6 -1 1 34 23 61 79 
+72 6 1 34 52 -5 23 61 
+79 3 16 -2 79 
+Constructors: 1
+72 52
+
+Summary: 9
+-5 -1 5 9 2 16 0 -2 3 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.formatClassBodyDeclarations(Ljava/lang/String;ILjava/lang/String;[Lorg/eclipse/jface/text/IRegion;)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+10
+r6 1 -4 
+_ret 1 33 
+r0 1 -1 
+$r8 1 33 
+r7 1 -5 
+$r2 1 1 
+$r3 1 5 
+$r4 1 9 
+r5 1 16 
+r1 1 -2 
+Fields: 1
+-1 codeSnippetParsingUtil 1
+Accesses: 1
+0 1 -1 
+Functions: 4
+1 3 1 5 9 
+4 1 -2 
+8 2 -1 1 
+25 6 -1 16 1 -2 -4 -5 
+Constructors: 0
+
+Summary: 10
+-5 -1 5 9 2 -4 16 0 -2 3 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.createIndentationString(I)Ljava/lang/String;
+PTG:
+Vars:
+8
+_ret 1 181 
+$r3 1 17 
+$r9 1 17 
+$r1 1 17 
+$r2 1 17 
+$r7 1 181 
+r0 1 -1 
+$r4 1 121 
+Fields: 1
+-1 preferences 17
+Accesses: 8
+16 1 -1 
+80 1 -1 
+17 1 17 
+81 1 17 
+53 1 -1 
+54 1 17 
+70 1 -1 
+71 1 17 
+Functions: 5
+128 1 121 
+179 1 121 
+166 1 121 
+8 0 
+143 1 121 
+Constructors: 1
+128 121
+
+Summary: 2
+-1 121 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.format(ILjava/lang/String;IIILjava/lang/String;)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+7
+$r13 1 182 
+_ret 1 202 
+r0 1 -3 
+$r15 1 202 
+r3 1 -7 
+r1 1 -1 
+$r14 1 187 
+Fields: 0
+Accesses: 1
+146 1 -1 
+Functions: 11
+130 0 
+194 1 187 
+178 4 -1 -3 182 -7 
+149 3 -1 -3 -7 
+22 0 
+70 3 -1 -3 -7 
+169 0 
+11 1 -3 
+107 3 -1 -3 -7 
+93 0 
+143 0 
+Constructors: 1
+194 187
+
+Summary: 7
+118 -3 -1 -7 157 182 81 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.getDebugOutput()Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 7 
+$r1 1 1 
+$r3 1 7 
+$r2 1 4 
+r0 1 -1 
+Fields: 2
+-1 newCodeFormatter 1
+1 scribe 4
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 1
+4 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.createRegion(ILorg/eclipse/jface/text/IDocument;Lorg/eclipse/jface/text/Position;Lorg/eclipse/jdt/internal/formatter/CodeFormatterVisitor;)Lorg/eclipse/jdt/internal/formatter/comment/CommentRegion;
+PTG:
+Vars:
+3
+r1 1 -3 
+r2 1 -4 
+r3 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 3
+69 3 -3 -4 -5 
+58 3 -3 -4 -5 
+47 3 -3 -4 -5 
+Constructors: 0
+
+Summary: 3
+-5 -4 -3 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.format(ILjava/lang/String;[Lorg/eclipse/jface/text/IRegion;ILjava/lang/String;)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+5
+$r3 1 21 
+r5 1 -6 
+r2 1 -3 
+r0 1 -1 
+r1 1 -4 
+Fields: 0
+Accesses: 1
+28 1 -1 
+Functions: 10
+0 2 -1 -4 
+16 0 
+2 1 -3 
+147 4 -1 -3 -4 -6 
+134 4 -1 -3 -4 -6 
+184 4 -1 -3 -4 -6 
+25 1 21 
+201 0 
+108 4 -1 -3 -4 -6 
+158 4 -1 -3 -4 -6 
+Constructors: 1
+25 21
+
+Summary: 4
+-6 -3 -1 -4 
+org/eclipse/jdt/internal/formatter/DefaultCodeFormatter.internalFormatStatements(Ljava/lang/String;ILjava/lang/String;Lorg/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration;[Lorg/eclipse/jface/text/IRegion;)Lorg/eclipse/text/edits/TextEdit;
+PTG:
+Vars:
+16
+$r2 1 19 
+r11 1 -5 
+r0 1 -4 
+r6 1 -6 
+r1 1 -1 
+$r8 1 43 
+$r3 1 16 
+$r9 2 5 16 
+_ret 1 66 
+$r4 2 5 16 
+$r14 1 5 
+$r7 1 49 
+$r13 1 66 
+$r12 1 60 
+r10 1 -2 
+$r5 1 34 
+Fields: 5
+-1 newCodeFormatter 60
+-1 preferences 5
+-1 preferences 16
+-1 options 43
+-1 codeSnippetParsingUtil 49
+Accesses: 11
+48 1 -1 
+4 1 -1 
+22 1 16 
+38 1 -1 
+56 1 -1 
+9 1 5 
+25 1 -1 
+42 1 -1 
+59 1 -1 
+30 2 16 5 
+15 1 -1 
+Functions: 2
+53 6 16 49 34 5 -6 43 
+60 3 -2 -5 60 
+Constructors: 1
+53 34
+
+Summary: 8
+-5 -6 4 -1 2 0 -2 3 

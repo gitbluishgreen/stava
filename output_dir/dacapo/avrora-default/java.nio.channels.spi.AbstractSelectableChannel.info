@@ -1,0 +1,360 @@
+14
+java/nio/channels/spi/AbstractSelectableChannel.register(Ljava/nio/channels/Selector;ILjava/lang/Object;)Ljava/nio/channels/SelectionKey;
+PTG:
+Vars:
+13
+r3 1 -2 
+$r9 1 103 
+r0 1 -1 
+r6 1 -4 
+r19 2 62 121 
+$r15 1 -1 
+$r1 1 1 
+$r4 1 89 
+$r17 1 -1 
+$r13 1 34 
+$r7 1 -2 
+$r14 1 15 
+$r12 1 49 
+Fields: 2
+-1 regLock 1
+-1 keyLock 89
+Accesses: 3
+0 1 -1 
+88 1 -1 
+42 1 -1 
+Functions: 12
+96 3 -1 1 89 
+112 5 -1 -2 1 -4 89 
+19 1 15 
+53 1 49 
+38 1 34 
+8 3 -1 1 89 
+24 3 -1 1 89 
+72 2 121 62 
+57 4 -1 1 -2 89 
+107 1 103 
+126 5 -1 1 89 121 62 
+79 3 -4 121 62 
+Constructors: 4
+19 15
+53 49
+38 34
+107 103
+
+Summary: 3
+-2 -4 -1 
+java/nio/channels/spi/AbstractSelectableChannel.addKey(Ljava/nio/channels/SelectionKey;)V
+PTG:
+Vars:
+16
+$r7 1 27 
+$r11 1 27 
+r6 1 -2 
+r0 1 -1 
+$r10 1 27 
+r4 1 101 
+$r2 1 27 
+$r1 1 27 
+$r8 1 125 
+$r14 1 7 
+$r9 1 83 
+$r5 1 27 
+$r3 1 27 
+$r12 1 27 
+$r16 1 27 
+$r13 1 61 
+Fields: 4
+27 ArrayObject 125
+27 ArrayObject 61
+-1 keys 27
+-1 keyLock 7
+Accesses: 16
+33 1 -1 
+37 1 -1 
+6 1 -1 
+136 1 -1 
+74 1 -1 
+139 1 -1 
+109 1 -1 
+48 1 -1 
+144 1 -1 
+86 1 -1 
+151 1 -1 
+56 1 -1 
+120 1 -1 
+26 1 -1 
+92 1 -1 
+158 1 -1 
+Functions: 2
+20 0 
+7 1 7 
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/nio/channels/spi/AbstractSelectableChannel.blockingLock()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 regLock 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/nio/channels/spi/AbstractSelectableChannel.haveValidKeys()Z
+PTG:
+Vars:
+8
+$r4 1 22 
+r0 1 -1 
+$r7 1 43 
+$r3 1 22 
+$r1 1 1 
+$r5 1 34 
+$r6 1 22 
+$r8 1 -1 
+Fields: 4
+-1 keys 22
+-1 keyLock 1
+22 ArrayObject 43
+22 ArrayObject 34
+Accesses: 5
+0 1 -1 
+21 1 -1 
+38 1 -1 
+7 1 -1 
+29 1 -1 
+Functions: 1
+43 1 43 
+Constructors: 0
+
+Summary: 1
+-1 
+java/nio/channels/spi/AbstractSelectableChannel.keyFor(Ljava/nio/channels/Selector;)Ljava/nio/channels/SelectionKey;
+PTG:
+Vars:
+4
+_ret 1 2 
+r1 1 -2 
+r0 1 -1 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/nio/channels/spi/AbstractSelectableChannel.removeKey(Ljava/nio/channels/SelectionKey;)V
+PTG:
+Vars:
+8
+r4 1 -2 
+$r1 1 1 
+$r3 1 11 
+$r6 1 11 
+$r5 1 -2 
+$r8 1 11 
+$r7 1 23 
+r0 1 -1 
+Fields: 3
+11 ArrayObject 23
+-1 keys 11
+-1 keyLock 1
+Accesses: 6
+0 1 -1 
+18 1 -1 
+35 1 -1 
+10 1 -1 
+42 1 -1 
+28 1 -1 
+Functions: 1
+55 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/nio/channels/spi/AbstractSelectableChannel.isBlocking()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r3 1 -1 
+$r1 1 1 
+Fields: 1
+-1 regLock 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/nio/channels/spi/AbstractSelectableChannel.findKey(Ljava/nio/channels/Selector;)Ljava/nio/channels/SelectionKey;
+PTG:
+Vars:
+13
+r10 1 -2 
+$r8 1 43 
+$r9 1 44 
+r0 1 -1 
+$r1 1 1 
+$r6 1 34 
+$r4 1 8 
+$r11 1 8 
+$r5 1 8 
+$r13 1 -1 
+$r3 1 8 
+$r12 1 56 
+$r7 1 8 
+Fields: 5
+-1 keys 8
+-1 keyLock 1
+8 ArrayObject 43
+8 ArrayObject 56
+8 ArrayObject 34
+Accesses: 6
+0 1 -1 
+51 1 -1 
+21 1 -1 
+38 1 -1 
+7 1 -1 
+29 1 -1 
+Functions: 1
+43 1 43 
+Constructors: 0
+
+Summary: 4
+-2 -1 44 0 
+java/nio/channels/spi/AbstractSelectableChannel.implCloseChannel()V
+PTG:
+Vars:
+6
+r6 1 41 
+$r4 1 12 
+$r5 1 12 
+r0 1 -1 
+$r3 1 12 
+$r1 1 5 
+Fields: 3
+12 ArrayObject 41
+-1 keys 12
+-1 keyLock 5
+Accesses: 4
+35 1 -1 
+4 1 -1 
+22 1 -1 
+11 1 -1 
+Functions: 2
+1 4 -1 5 41 12 
+50 1 41 
+Constructors: 0
+
+Summary: 1
+-1 
+java/nio/channels/spi/AbstractSelectableChannel.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 0
+
+java/nio/channels/spi/AbstractSelectableChannel.provider()Ljava/nio/channels/spi/SelectorProvider;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 provider 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/nio/channels/spi/AbstractSelectableChannel.configureBlocking(Z)Ljava/nio/channels/SelectableChannel;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 -1 
+$r1 1 1 
+Fields: 1
+-1 regLock 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+60 1 -1 
+Functions: 5
+49 0 
+18 0 
+38 2 -1 1 
+7 2 -1 1 
+55 2 -1 1 
+Constructors: 0
+
+Summary: 0
+
+java/nio/channels/spi/AbstractSelectableChannel.<init>(Ljava/nio/channels/spi/SelectorProvider;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r3 1 -2 
+$r2 1 26 
+$r1 1 15 
+Fields: 0
+Accesses: 6
+33 1 -1 
+6 1 -1 
+22 1 -1 
+38 1 -1 
+11 1 -1 
+43 1 -1 
+Functions: 3
+1 1 -1 
+19 1 15 
+30 1 26 
+Constructors: 3
+1 -1
+19 15
+30 26
+
+Summary: 2
+-1 0 
+java/nio/channels/spi/AbstractSelectableChannel.isRegistered()Z
+PTG:
+Vars:
+3
+$r3 1 -1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 keyLock 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,1524 @@
+44
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.processName()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.getIndexes([Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/jdt/internal/core/index/Index;
+PTG:
+Vars:
+12
+r10 2 4 124 
+$r4 1 59 
+_ret 2 4 124 
+r2 1 43 
+r11 2 51 87 
+r1 1 -3 
+$r5 1 64 
+r0 1 -2 
+$r9 1 4 
+$r8 1 124 
+r3 1 -1 
+r6 1 64 
+Fields: 2
+-1 indexLocations 59
+-2 ArrayObject 43
+Accesses: 1
+58 1 -1 
+Functions: 6
+35 0 
+133 2 4 124 
+22 1 -3 
+59 2 59 43 
+45 3 -1 59 43 
+77 4 -1 64 59 43 
+Constructors: 0
+
+Summary: 7
+51 1 -3 -1 0 -2 64 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.updateIndexState(Lorg/eclipse/core/runtime/IPath;Ljava/lang/Integer;)V
+PTG:
+Vars:
+21
+$r4 1 56 
+$r11 1 90 
+$r21 1 181 
+$r20 1 170 
+r1 1 -1 
+r0 1 -2 
+$r22 1 187 
+r19 5 169 155 116 141 127 
+$r15 1 32 
+$r24 1 194 
+$r12 1 101 
+$r13 1 104 
+r3 1 -3 
+$r23 1 191 
+$r5 1 56 
+$r9 1 146 
+$r10 1 160 
+$r14 1 28 
+$r16 1 28 
+$r7 1 118 
+$r8 1 132 
+Fields: 2
+-1 indexStates 56
+-1 indexStates 28
+Accesses: 4
+67 1 -1 
+55 1 -1 
+42 1 -1 
+27 1 -1 
+Functions: 19
+0 1 -2 
+97 1 90 
+101 1 101 
+197 1 194 
+72 2 -2 56 
+170 6 116 169 170 155 141 127 
+107 1 104 
+13 0 
+77 3 -1 56 28 
+48 3 -2 -3 28 
+177 1 170 
+18 3 -1 56 28 
+181 1 181 
+56 2 -2 56 
+26 2 32 -3 
+90 2 -2 90 
+187 2 -2 187 
+28 2 -2 28 
+191 1 191 
+Constructors: 2
+97 90
+177 170
+
+Summary: 10
+-3 -1 194 191 0 1 101 32 104 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.addBinary(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+9
+r7 1 -3 
+$r4 1 18 
+r6 1 -1 
+r2 1 -2 
+r1 1 10 
+$r3 1 13 
+r5 1 26 
+$r0 1 0 
+r8 1 33 
+Fields: 0
+Accesses: 0
+Functions: 7
+-1 0 
+7 0 
+42 5 -1 33 -3 26 10 
+11 2 18 10 
+12 1 -2 
+28 2 -1 -3 
+13 1 13 
+Constructors: 0
+
+Summary: 11
+-1 13 33 1 0 10 -3 18 26 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.getIndex(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;ZZ)Lorg/eclipse/jdt/internal/core/index/Index;
+PTG:
+Vars:
+20
+$r19 1 94 
+r0 1 -1 
+r4 2 27 20 
+$r22 1 113 
+$r21 1 198 
+$r39 2 27 20 
+$r7 1 57 
+r6 1 -2 
+$r5 1 42 
+$r31 1 -1 
+r8 2 75 66 
+$r23 1 128 
+_ret 2 5 113 
+$r40 2 75 66 
+$r2 1 13 
+r3 1 20 
+r1 1 -3 
+r38 2 5 113 
+r9 1 88 
+$r32 1 144 
+Fields: 1
+-1 indexes 128
+Accesses: 2
+269 1 -1 
+127 1 -1 
+Functions: 34
+0 3 -1 128 -3 
+65 1 -2 
+134 3 128 113 -3 
+264 3 66 88 75 
+74 1 -2 
+12 2 -1 128 
+13 2 -3 13 
+207 4 -1 128 -2 -3 
+82 1 -3 
+276 1 -3 
+156 1 88 
+223 1 88 
+290 1 88 
+163 0 
+100 2 88 94 
+230 0 
+168 0 
+105 1 94 
+297 0 
+235 0 
+174 2 66 75 
+302 0 
+241 2 66 75 
+51 4 -1 128 -2 -3 
+179 0 
+308 2 66 75 
+246 0 
+56 1 -2 
+185 0 
+313 0 
+122 4 113 66 88 75 
+252 0 
+191 4 -1 128 -2 -3 
+319 0 
+Constructors: 2
+100 94
+122 113
+
+Summary: 18
+75 316 -3 66 -1 57 20 0 94 1 249 313 13 182 246 179 88 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.removeIndexFamily(Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+10
+$r6 1 52 
+r4 1 23 
+r2 1 9 
+r0 1 -1 
+r5 1 -2 
+r9 1 52 
+$r8 1 97 
+$r3 1 23 
+$r1 1 3 
+$r7 1 97 
+Fields: 3
+-1 indexLocations 3
+3 keyTable 9
+9 ArrayObject 23
+Accesses: 2
+2 1 -1 
+3 1 3 
+Functions: 6
+84 1 52 
+37 2 -2 23 
+103 5 -1 97 3 23 9 
+56 1 52 
+94 1 52 
+63 2 52 23 
+Constructors: 1
+56 52
+
+Summary: 5
+-1 97 52 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.resetIndex(Lorg/eclipse/core/runtime/IPath;)Z
+PTG:
+Vars:
+17
+$r9 1 65 
+$r15 2 19 10 
+$r11 1 -1 
+$r1 1 1 
+r16 1 30 
+$r12 1 105 
+$r5 1 81 
+$r8 1 61 
+$r13 1 116 
+r0 1 -2 
+r3 1 -1 
+$r10 1 68 
+r2 2 19 10 
+$r7 1 55 
+$r6 1 44 
+$r14 1 119 
+r4 1 36 
+Fields: 0
+Accesses: 0
+Functions: 18
+0 1 -2 
+65 1 65 
+71 1 68 
+9 1 -2 
+105 3 19 105 10 
+44 2 44 30 
+79 2 -1 -2 
+112 1 105 
+18 1 -2 
+51 1 44 
+116 1 116 
+55 1 55 
+25 2 -1 -2 
+122 1 119 
+61 3 19 10 61 
+93 1 36 
+126 1 -1 
+31 2 -1 30 
+Constructors: 2
+112 105
+51 44
+
+Summary: 13
+19 119 10 30 -1 1 65 81 36 0 -2 68 116 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.remove(Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+5
+r2 1 -2 
+$r4 1 1 
+r3 1 -3 
+r0 1 -1 
+$r5 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+8 4 -1 1 -2 -3 
+11 2 -1 1 
+Constructors: 1
+8 1
+
+Summary: 6
+-1 1 -3 0 -2 1 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.writeSavedIndexNamesFile()V
+PTG:
+Vars:
+20
+r9 1 68 
+r22 1 2 
+$r5 1 39 
+$r3 1 11 
+$r4 1 36 
+$r13 1 106 
+$r20 1 -1 
+$r10 1 82 
+r11 1 82 
+$r15 1 -1 
+$r1 1 6 
+$r8 1 54 
+$r12 1 107 
+$r14 1 116 
+$r6 1 54 
+r2 1 -1 
+$r0 1 2 
+$r21 1 153 
+r7 1 60 
+$r19 1 -1 
+Fields: 6
+-1 savedIndexNamesFile 11
+-1 indexStates 54
+54 valueTable 68
+54 keyTable 60
+60 ArrayObject 82
+68 ArrayObject 106
+Accesses: 5
+53 1 -1 
+54 1 54 
+10 1 -1 
+61 1 -1 
+62 1 54 
+Functions: 16
+35 7 -1 82 68 54 106 11 60 
+36 1 36 
+164 1 2 
+196 1 2 
+44 2 2 39 
+14 2 6 11 
+17 2 2 6 
+50 1 2 
+114 1 82 
+181 1 2 
+25 1 2 
+121 2 2 116 
+156 1 153 
+93 1 82 
+31 1 2 
+127 1 2 
+Constructors: 2
+17 2
+14 6
+
+Summary: 6
+39 -1 6 2 36 116 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.toString()Ljava/lang/String;
+PTG:
+Vars:
+13
+$r11 1 72 
+$r10 1 66 
+$r6 1 30 
+r2 1 -1 
+$r0 1 0 
+r9 1 50 
+$r15 1 100 
+_ret 1 100 
+$r3 1 12 
+$r8 1 50 
+$r12 1 77 
+$r13 1 80 
+r7 1 36 
+Fields: 3
+-1 indexes 30
+30 valueTable 36
+36 ArrayObject 50
+Accesses: 2
+29 1 -1 
+30 1 30 
+Functions: 10
+66 1 66 
+99 1 0 
+85 1 80 
+6 1 0 
+23 1 0 
+72 2 72 77 
+11 4 -1 50 36 30 
+75 1 50 
+61 1 0 
+15 2 0 12 
+Constructors: 1
+6 0
+
+Summary: 3
+-1 77 12 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.removeIndexPath(Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+21
+$r0 1 12 
+$r7 1 79 
+r6 1 47 
+$r18 1 33 
+$r13 1 174 
+$r15 2 224 224 
+$r14 1 177 
+$r2 1 23 
+r8 1 79 
+r4 1 -1 
+$r3 1 26 
+$r19 1 33 
+r10 1 107 
+r20 1 126 
+$r9 1 107 
+$r12 1 162 
+$r21 1 33 
+$r16 2 33 217 
+r5 1 39 
+r1 1 -2 
+r11 1 146 
+Fields: 6
+-1 indexes 33
+39 ArrayObject 79
+47 ArrayObject 107
+33 valueTable 47
+33 keyTable 39
+126 ArrayObject 224
+Accesses: 8
+32 1 -1 
+33 1 33 
+116 1 107 
+54 1 -1 
+55 1 33 
+40 1 -1 
+216 1 -1 
+41 1 33 
+Functions: 14
+225 7 224 33 39 217 107 47 79 
+162 2 162 146 
+169 1 162 
+12 2 -2 12 
+141 1 107 
+174 1 174 
+242 8 -1 224 33 39 107 126 47 79 
+19 1 12 
+148 1 146 
+180 1 177 
+23 1 23 
+185 1 146 
+29 1 26 
+93 2 -2 79 
+Constructors: 2
+19 12
+169 162
+
+Summary: 9
+23 177 26 146 -1 174 126 224 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.getIndexForUpdate(Lorg/eclipse/core/runtime/IPath;ZZ)Lorg/eclipse/jdt/internal/core/index/Index;
+PTG:
+Vars:
+6
+$r4 1 13 
+$r3 1 8 
+$r5 1 16 
+r1 1 -2 
+r2 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -1 -2 
+22 3 -1 -2 5 
+7 1 -1 
+8 2 5 8 
+Constructors: 0
+
+Summary: 6
+-1 5 13 8 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.saveIndexes()V
+PTG:
+Vars:
+11
+$r4 1 13 
+r19 1 84 
+r20 1 97 
+$r6 1 84 
+$r12 1 -1 
+r2 1 -1 
+r18 1 33 
+$r14 1 148 
+r17 1 19 
+$r0 1 0 
+$r5 1 33 
+Fields: 4
+-1 indexes 13
+13 valueTable 19
+19 ArrayObject 33
+84 monitor 97
+Accesses: 4
+226 1 -1 
+12 1 -1 
+92 1 84 
+13 1 13 
+Functions: 15
+131 6 -1 33 97 19 84 13 
+163 1 97 
+4 1 0 
+196 1 97 
+73 1 0 
+204 1 97 
+109 1 97 
+173 1 97 
+47 2 0 33 
+112 2 97 84 
+82 1 0 
+181 1 97 
+151 1 148 
+120 1 97 
+156 1 -1 
+Constructors: 1
+4 0
+
+Summary: 3
+97 84 0 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.deleteIndexFiles(Lorg/eclipse/jdt/internal/compiler/util/SimpleSet;)V
+PTG:
+Vars:
+12
+r4 1 28 
+$r3 1 24 
+$r10 1 107 
+r0 1 -1 
+r5 1 -2 
+$r1 1 1 
+r6 1 49 
+$r9 1 104 
+r2 1 7 
+$r7 1 91 
+$r8 1 103 
+$r11 1 115 
+Fields: 3
+7 ArrayObject 103
+7 ArrayObject 24
+7 ArrayObject 115
+Accesses: 0
+Functions: 13
+0 1 -1 
+1 1 1 
+34 2 -2 28 
+98 1 91 
+68 1 49 
+104 1 104 
+110 1 107 
+51 1 28 
+116 1 115 
+54 1 28 
+24 1 24 
+59 1 49 
+91 2 103 91 
+Constructors: 1
+98 91
+
+Summary: 7
+7 107 -1 28 0 104 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.deleteIndexFiles()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 13 
+Fields: 1
+-1 savedIndexNamesFile 13
+Accesses: 1
+12 1 -1 
+Functions: 3
+16 1 13 
+22 2 -1 13 
+9 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.computeIndexLocation(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+26
+$r12 1 61 
+$r10 1 49 
+$r15 1 111 
+$r17 1 121 
+$r18 1 1 
+$r6 1 29 
+$r3 1 5 
+$r21 1 86 
+$r7 1 33 
+r1 1 -2 
+$r20 1 75 
+$r22 1 92 
+$r5 1 23 
+r0 1 -1 
+$r14 1 107 
+$r9 1 43 
+$r11 1 52 
+$r24 1 100 
+_ret 2 5 121 
+$r8 1 39 
+r13 1 67 
+$r2 1 1 
+$r23 1 97 
+$r16 1 116 
+r4 1 22 
+r25 2 5 121 
+Fields: 1
+-1 indexLocations 1
+Accesses: 2
+0 1 -1 
+128 1 -1 
+Functions: 22
+32 1 22 
+1 2 1 -2 
+97 1 97 
+36 2 33 29 
+134 4 1 -2 5 121 
+39 1 39 
+103 1 100 
+106 2 -1 1 
+43 1 43 
+75 2 22 75 
+107 2 116 107 
+46 0 
+110 2 -1 1 
+111 2 67 111 
+16 1 -2 
+49 1 49 
+82 1 75 
+86 1 86 
+55 2 52 39 
+26 1 23 
+92 2 67 92 
+61 1 61 
+Constructors: 2
+82 75
+55 39
+
+Summary: 13
+67 107 -1 49 33 97 52 0 100 116 22 61 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.moveToNextJob()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.getJavaPluginWorkingLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+$r1 1 1 
+_ret 1 18 
+r0 1 -1 
+$r2 1 12 
+r3 1 18 
+Fields: 1
+-1 javaPluginLocation 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+7 1 -1 
+Functions: 2
+-1 0 
+12 1 12 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.indexSourceFolder(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/core/runtime/IPath;[[C[[C)V
+PTG:
+Vars:
+9
+r4 1 -3 
+r6 1 -5 
+r2 1 -1 
+$r10 1 40 
+r1 1 4 
+r5 1 -4 
+r0 1 -2 
+$r11 1 40 
+$r9 1 17 
+Fields: 0
+Accesses: 2
+6 1 -1 
+10 1 -1 
+Functions: 5
+0 1 -2 
+51 6 -1 -3 -4 4 -5 40 
+54 2 -1 40 
+24 3 -1 17 4 
+29 2 -1 17 
+Constructors: 2
+51 40
+24 17
+
+Summary: 12
+-1 2 -5 1 -4 4 17 -3 40 0 -2 3 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.getIndex(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/internal/core/index/Index;
+PTG:
+Vars:
+6
+r1 1 -2 
+_ret 1 5 
+r0 1 -1 
+$r2 1 1 
+$r3 1 5 
+$r4 1 5 
+Fields: 1
+-1 indexes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.scheduleDocumentIndexing(Lorg/eclipse/jdt/core/search/SearchDocument;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/search/SearchParticipant;)V
+PTG:
+Vars:
+6
+r3 1 -4 
+r5 1 -5 
+$r1 1 1 
+r0 1 -1 
+r4 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+12 6 -1 1 -2 -3 -4 -5 
+15 2 -1 1 
+Constructors: 1
+12 1
+
+Summary: 10
+-1 2 -5 1 -4 -3 0 -2 1 3 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.removeIndexesState([Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+10
+r0 1 -1 
+r2 1 -2 
+$r10 1 65 
+$r4 1 33 
+$r8 1 61 
+$r7 1 48 
+$r5 1 27 
+$r6 1 34 
+$r9 1 62 
+$r3 1 19 
+Fields: 4
+-1 indexStates 27
+-2 ArrayObject 61
+-2 ArrayObject 19
+-2 ArrayObject 33
+Accesses: 1
+26 1 -1 
+Functions: 7
+48 2 48 61 
+1 2 -1 27 
+68 1 65 
+86 2 -1 27 
+55 1 48 
+27 2 33 27 
+62 1 62 
+Constructors: 1
+55 48
+
+Summary: 6
+-1 65 34 0 -2 62 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.indexAll(Lorg/eclipse/core/resources/IProject;)V
+PTG:
+Vars:
+12
+$r1 1 7 
+r7 1 -1 
+r11 1 13 
+r2 1 -2 
+$r9 1 80 
+r6 1 40 
+r4 1 16 
+$r8 1 56 
+r5 1 27 
+$r0 1 0 
+$r3 1 16 
+$r10 1 -1 
+Fields: 1
+27 ArrayObject 40
+Accesses: 0
+Functions: 10
+-1 0 
+100 2 -1 80 
+54 1 40 
+86 3 80 -1 -2 
+7 1 7 
+23 1 16 
+42 1 40 
+90 2 -1 80 
+14 2 -2 13 
+62 3 -1 -2 56 
+Constructors: 1
+86 80
+
+Summary: 10
+-1 7 13 27 80 0 16 56 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.rebuildIndex(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+18
+$r4 1 49 
+$r7 1 5 
+r2 1 -1 
+r10 1 5 
+$r13 1 28 
+$r6 1 125 
+$r11 1 79 
+r17 4 79 101 149 125 
+$r16 1 41 
+$r9 1 5 
+$r5 1 149 
+$r14 1 34 
+r3 1 -2 
+r0 1 -3 
+$r12 1 17 
+$r15 1 38 
+r1 1 5 
+$r8 1 101 
+Fields: 0
+Accesses: 0
+Functions: 14
+1 1 -3 
+34 2 34 -3 
+38 1 38 
+134 3 -1 5 125 
+71 1 5 
+168 5 -1 101 149 125 79 
+44 1 41 
+110 3 -1 101 5 
+17 2 17 -2 
+52 3 -1 -2 49 
+86 3 -1 5 79 
+24 1 17 
+155 3 -1 -3 149 
+28 1 28 
+Constructors: 5
+86 79
+134 125
+24 17
+155 149
+110 101
+
+Summary: 12
+1 -3 38 -1 5 41 79 101 0 149 -2 125 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.readIndexState(Ljava/lang/String;)[[C
+PTG:
+Vars:
+11
+r0 1 -1 
+r5 1 -2 
+$r9 1 54 
+r2 1 8 
+$r8 1 48 
+$r6 1 38 
+r3 1 20 
+r7 1 44 
+$r10 1 -1 
+$r1 1 1 
+$r4 1 27 
+Fields: 2
+-1 savedIndexNamesFile 1
+20 ArrayObject 54
+Accesses: 1
+0 1 -1 
+Functions: 8
+16 1 8 
+34 1 27 
+4 1 1 
+38 1 38 
+55 2 48 54 
+27 2 -2 27 
+76 0 
+46 2 48 44 
+Constructors: 2
+34 27
+55 48
+
+Summary: 7
+48 38 -1 8 44 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.<init>()V
+PTG:
+Vars:
+5
+$r1 1 5 
+$r4 1 47 
+r0 1 -1 
+$r2 1 16 
+$r3 1 42 
+Fields: 0
+Accesses: 6
+33 1 -1 
+38 1 -1 
+23 1 -1 
+55 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 5
+1 1 -1 
+20 1 16 
+52 2 42 47 
+9 1 5 
+46 1 -1 
+Constructors: 4
+1 -1
+20 16
+52 42
+9 5
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.recreateIndex(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/internal/core/index/Index;
+PTG:
+Vars:
+21
+r0 1 -2 
+$r18 1 149 
+r21 1 36 
+r3 1 -1 
+r2 2 19 10 
+$r12 1 81 
+$r1 1 1 
+$r13 1 84 
+$r5 1 90 
+$r6 1 95 
+$r9 1 60 
+$r17 1 146 
+r4 1 49 
+$r11 1 77 
+$r10 1 71 
+r20 1 30 
+$r16 1 135 
+$r19 2 19 10 
+$r22 1 49 
+$r7 1 108 
+$r15 1 -1 
+Fields: 2
+-1 indexes 108
+36 monitor 49
+Accesses: 3
+122 1 90 
+107 1 -1 
+47 1 36 
+Functions: 19
+0 1 -2 
+67 1 60 
+102 4 19 90 10 95 
+71 1 71 
+135 3 19 135 10 
+9 1 -2 
+77 3 19 10 77 
+142 1 135 
+81 1 81 
+18 1 -2 
+114 3 90 108 30 
+146 1 146 
+87 1 84 
+152 1 149 
+25 3 -1 -2 108 
+60 2 60 30 
+156 1 -1 
+94 1 30 
+31 3 -1 108 30 
+Constructors: 3
+67 60
+102 90
+142 135
+
+Summary: 13
+19 95 10 149 30 146 -1 1 81 36 0 84 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.getIndex(Lorg/eclipse/core/runtime/IPath;ZZ)Lorg/eclipse/jdt/internal/core/index/Index;
+PTG:
+Vars:
+5
+_ret 1 13 
+r0 1 -1 
+$r3 1 13 
+r1 1 -2 
+r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+7 3 -1 -2 5 
+Constructors: 0
+
+Summary: 4
+-1 5 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.indexLibrary(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IProject;)V
+PTG:
+Vars:
+11
+r4 1 -1 
+$r6 1 47 
+$r3 1 68 
+r9 1 -3 
+r1 1 -2 
+r10 3 47 23 68 
+$r0 1 0 
+$r5 1 12 
+$r8 1 12 
+$r7 1 23 
+r2 1 12 
+Fields: 0
+Accesses: 0
+Functions: 7
+-1 0 
+32 3 -1 23 12 
+98 4 -1 68 23 47 
+53 3 -1 -2 47 
+86 4 -1 68 23 47 
+8 1 -2 
+77 3 -1 68 12 
+Constructors: 3
+32 23
+53 47
+77 68
+
+Summary: 10
+-1 47 23 1 68 0 12 -3 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.ensureIndexExists(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 19 
+r5 1 -3 
+r2 1 -2 
+r3 1 10 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+5 2 -2 4 
+22 3 -1 -2 19 
+30 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 4 10 -3 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.jobWasCancelled(Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+6
+r3 1 11 
+$r4 1 32 
+r1 1 -2 
+$r5 1 22 
+r0 1 -1 
+r2 1 5 
+Fields: 1
+-1 indexes 22
+Accesses: 2
+18 1 11 
+21 1 -1 
+Functions: 4
+0 3 -1 -2 22 
+35 4 -1 32 5 22 
+6 3 -1 5 22 
+26 2 5 22 
+Constructors: 0
+
+Summary: 5
+-1 5 11 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.removeSourceFolderFromIndex(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/core/runtime/IPath;[[C[[C)V
+PTG:
+Vars:
+8
+r0 1 -2 
+r4 1 -3 
+r1 1 4 
+r6 1 -5 
+$r7 1 17 
+$r3 1 40 
+r5 1 -4 
+r2 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+10 1 -1 
+Functions: 5
+0 1 -2 
+51 6 -1 -3 -4 -5 4 40 
+54 2 -1 40 
+24 3 -1 17 4 
+29 2 -1 17 
+Constructors: 2
+51 40
+24 17
+
+Summary: 10
+-1 -5 1 -4 4 17 -3 40 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.getIndexStates()Lorg/eclipse/jdt/internal/compiler/util/SimpleLookupTable;
+PTG:
+Vars:
+16
+$r8 1 64 
+r7 1 55 
+$r6 1 1 
+r3 1 27 
+r0 1 -1 
+$r15 1 101 
+$r14 1 98 
+$r1 1 1 
+$r4 1 30 
+_ret 1 1 
+r9 1 78 
+$r11 2 1 108 
+$r2 1 13 
+r5 1 38 
+$r13 1 86 
+$r10 1 113 
+Fields: 2
+-1 indexStates 1
+38 ArrayObject 55
+Accesses: 5
+0 1 -1 
+20 1 -1 
+7 1 -1 
+136 1 -1 
+107 1 -1 
+Functions: 12
+17 1 13 
+98 1 98 
+116 4 1 113 108 78 
+133 2 -1 1 
+70 2 64 55 
+86 2 86 78 
+23 2 -1 1 
+104 1 101 
+28 3 -1 1 30 
+29 1 27 
+93 1 86 
+63 2 64 27 
+Constructors: 3
+17 13
+70 64
+93 86
+
+Summary: 7
+64 30 38 98 78 -1 101 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.indexDocument(Lorg/eclipse/jdt/core/search/SearchDocument;Lorg/eclipse/jdt/core/search/SearchParticipant;Lorg/eclipse/jdt/internal/core/index/Index;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+r3 1 -5 
+r1 1 -4 
+r2 1 -3 
+r6 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+2 2 -2 -4 
+19 1 -2 
+9 3 -2 -3 -5 
+27 1 -2 
+Constructors: 0
+
+Summary: 9
+-1 2 -5 1 -4 -3 0 -2 3 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.aboutToUpdateIndex(Lorg/eclipse/core/runtime/IPath;Ljava/lang/Integer;)V
+PTG:
+Vars:
+10
+r1 1 -2 
+r4 1 14 
+$r3 1 7 
+$r6 1 36 
+$r10 2 21 14 
+$r9 1 78 
+r0 1 -1 
+r7 1 -3 
+$r8 1 74 
+r2 1 5 
+Fields: 1
+-1 indexes 74
+Accesses: 1
+73 1 -1 
+Functions: 8
+0 3 -1 -2 74 
+34 3 36 21 14 
+6 2 -1 74 
+7 2 5 7 
+87 4 -1 -2 5 74 
+74 2 5 74 
+46 3 -3 21 14 
+62 4 -1 -3 5 74 
+Constructors: 0
+
+Summary: 9
+-1 5 7 1 14 -3 0 -2 78 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.saveIndex(Lorg/eclipse/jdt/internal/core/index/Index;)V
+PTG:
+Vars:
+14
+r17 1 130 
+r1 1 -1 
+$r9 1 13 
+r6 1 83 
+$r12 1 30 
+$r16 1 49 
+$r7 1 83 
+$r10 1 24 
+$r15 1 44 
+$r5 1 77 
+$r11 1 27 
+r0 1 -2 
+$r8 1 98 
+$r4 1 135 
+Fields: 4
+-1 awaitingJobs 77
+83 containerPath 98
+77 ArrayObject 83
+-2 containerPath 49
+Accesses: 7
+48 1 -2 
+67 1 -1 
+118 1 -1 
+56 1 -1 
+60 1 -1 
+76 1 -1 
+95 1 83 
+Functions: 11
+0 2 -2 49 
+33 1 30 
+98 2 98 44 
+20 1 13 
+52 2 49 44 
+37 2 -2 49 
+23 2 -2 49 
+138 6 -1 98 130 83 135 77 
+27 1 27 
+13 2 24 13 
+125 5 -1 98 83 44 77 
+Constructors: 2
+20 13
+52 44
+
+Summary: 7
+27 30 130 49 24 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.reset()V
+PTG:
+Vars:
+4
+$r2 1 28 
+$r1 1 5 
+r0 1 -1 
+$r3 1 12 
+Fields: 1
+-1 indexes 5
+Accesses: 5
+19 1 -1 
+35 1 -1 
+4 1 -1 
+24 1 -1 
+40 1 -1 
+Functions: 3
+16 1 12 
+32 1 28 
+1 2 -1 5 
+Constructors: 2
+16 12
+32 28
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.addSource(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/internal/compiler/SourceElementParser;)V
+PTG:
+Vars:
+10
+r5 1 28 
+r2 1 -2 
+r7 1 -1 
+r8 1 -3 
+$r4 1 20 
+r6 1 -4 
+$r0 1 0 
+$r3 1 15 
+r1 1 10 
+r9 1 41 
+Fields: 0
+Accesses: 0
+Functions: 8
+-1 0 
+33 2 -4 28 
+51 5 -1 -3 41 10 28 
+36 2 -1 -3 
+7 0 
+12 2 20 10 
+14 1 -2 
+15 1 15 
+Constructors: 0
+
+Summary: 13
+15 1 10 -3 -1 2 41 -4 0 20 28 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.<clinit>()V
+PTG:
+Vars:
+5
+$r1 1 10 
+$r4 1 43 
+$r2 1 21 
+$r3 1 32 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 5
+48 1 43 
+4 1 0 
+37 1 32 
+26 1 21 
+15 1 10 
+Constructors: 5
+48 43
+4 0
+37 32
+26 21
+15 10
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.removeIndex(Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+14
+r1 1 -2 
+$r3 1 26 
+$r2 1 23 
+$r9 1 108 
+$r8 1 96 
+$r11 1 67 
+$r12 1 72 
+r6 1 43 
+$r0 1 12 
+$r10 1 111 
+r5 1 37 
+$r14 1 124 
+r13 2 67 60 
+r4 1 -1 
+Fields: 1
+-1 indexes 124
+Accesses: 2
+53 1 43 
+123 1 -1 
+Functions: 17
+32 3 -1 -2 124 
+96 3 96 67 60 
+128 2 37 124 
+38 3 -1 37 124 
+71 1 37 
+103 1 96 
+135 3 -1 37 124 
+12 2 -2 12 
+108 1 108 
+77 2 67 72 
+82 2 67 60 
+114 1 111 
+19 1 12 
+23 1 23 
+119 2 67 60 
+56 1 43 
+29 1 26 
+Constructors: 3
+19 12
+103 96
+77 67
+
+Summary: 12
+43 23 67 111 26 -1 37 60 0 -2 72 108 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.cleanUpIndexes()V
+PTG:
+Vars:
+17
+$r3 1 12 
+$r4 1 17 
+$r12 1 75 
+r17 1 55 
+r19 1 97 
+r10 1 -1 
+r15 1 120 
+r18 1 88 
+$r13 1 75 
+$r0 1 0 
+$r7 1 48 
+$r16 1 134 
+$r11 1 75 
+$r8 1 49 
+r2 1 11 
+$r14 1 120 
+r6 1 31 
+Fields: 4
+-1 indexStates 75
+31 ArrayObject 48
+75 keyTable 88
+88 ArrayObject 120
+Accesses: 5
+81 1 -1 
+82 1 75 
+74 1 -1 
+90 1 -1 
+91 1 75 
+Functions: 12
+-1 0 
+48 1 48 
+49 1 49 
+178 5 -1 0 88 120 75 
+131 2 0 134 
+4 1 0 
+132 1 120 
+22 3 17 11 12 
+8 0 
+26 1 12 
+60 2 0 55 
+173 5 -1 97 88 120 75 
+Constructors: 2
+4 0
+22 12
+
+Summary: 10
+11 97 55 31 134 12 -1 49 17 0 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.notifyIdle(J)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 1
+16 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.getSourceElementParser(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor;)Lorg/eclipse/jdt/internal/compiler/SourceElementParser;
+PTG:
+Vars:
+11
+$r7 1 36 
+$r9 1 60 
+_ret 1 21 
+r4 1 -3 
+$r10 1 60 
+r1 1 7 
+$r6 1 30 
+r0 1 -2 
+r11 1 -1 
+$r3 1 21 
+$r5 1 26 
+Fields: 1
+21 javadocParser 60
+Accesses: 5
+64 1 60 
+67 1 21 
+55 1 21 
+73 1 60 
+58 1 21 
+Functions: 6
+0 1 -2 
+-1 0 
+33 2 26 30 
+41 2 36 7 
+15 1 7 
+47 5 -3 36 21 26 60 
+Constructors: 3
+33 26
+41 36
+47 21
+
+Summary: 8
+-1 1 -3 30 0 -2 26 36 
+org/eclipse/jdt/internal/core/search/indexing/IndexManager.getSavedIndexesDirectory()Ljava/io/File;
+PTG:
+Vars:
+5
+$r0 1 0 
+_ret 1 0 
+$r3 1 8 
+r1 1 -1 
+$r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 -1 
+5 1 5 
+13 2 0 8 
+Constructors: 1
+13 0
+
+Summary: 1
+-1 

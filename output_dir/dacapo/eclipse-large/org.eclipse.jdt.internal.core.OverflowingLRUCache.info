@@ -1,0 +1,486 @@
+19
+org/eclipse/jdt/internal/core/OverflowingLRUCache.getLoadFactor()D
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.setSpaceLimit(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+1 1 -1 
+21 1 -1 
+9 1 -1 
+Functions: 1
+15 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.elements()Ljava/util/Enumeration;
+PTG:
+Vars:
+13
+$r6 1 1 
+$r16 1 73 
+r12 2 63 16 
+r11 2 68 38 
+$r3 1 1 
+$r8 1 50 
+r0 1 -1 
+$r14 1 16 
+$r15 1 45 
+$r1 1 1 
+_ret 1 73 
+$r4 1 24 
+$r18 1 73 
+Fields: 7
+68 next 68
+68 value 50
+63 next 63
+-1 entryQueue 1
+38 value 50
+1 next 38
+1 value 24
+Accesses: 9
+0 1 -1 
+32 1 1 
+64 2 68 38 
+49 2 68 38 
+20 1 -1 
+21 1 1 
+56 2 16 63 
+59 2 16 63 
+31 1 -1 
+Functions: 4
+53 2 50 45 
+27 2 16 24 
+12 0 
+78 2 16 73 
+Constructors: 3
+53 45
+27 16
+78 73
+
+Summary: 2
+16 -1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+r5 1 23 
+$r3 1 19 
+r2 1 -2 
+r0 1 -1 
+r1 1 -3 
+_ret 1 -3 
+$r4 1 23 
+Fields: 1
+-1 entryTable 19
+Accesses: 9
+0 1 -1 
+18 1 -1 
+36 1 23 
+84 1 -1 
+56 1 -1 
+72 1 23 
+89 1 -1 
+43 1 -1 
+78 1 23 
+Functions: 7
+112 4 -1 -2 -3 19 
+66 3 -1 19 23 
+19 2 -2 19 
+99 3 -1 19 23 
+8 2 -1 19 
+104 2 -1 19 
+12 3 -1 -3 19 
+Constructors: 0
+
+Summary: 5
+-2 23 0 -1 1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.<init>(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 1
+3 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.shrink()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+7 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.updateTimestamp(Lorg/eclipse/jdt/internal/core/util/LRUCache$LRUCacheEntry;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 23 
+r1 1 -2 
+Fields: 1
+-1 entryQueue 23
+Accesses: 5
+0 1 -1 
+16 1 -1 
+19 1 -2 
+22 1 -1 
+8 1 -1 
+Functions: 2
+33 3 -1 -2 23 
+39 3 -1 -2 23 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.clone()Ljava/lang/Object;
+PTG:
+Vars:
+7
+r5 2 20 44 
+r2 1 9 
+$r4 1 26 
+$r1 1 9 
+$r3 1 30 
+r0 1 -1 
+_ret 1 9 
+Fields: 6
+20 value 30
+20 key 26
+44 value 30
+44 previous 44
+44 key 26
+-1 entryQueueTail 20
+Accesses: 7
+16 1 -1 
+1 1 -1 
+33 2 20 44 
+5 1 -1 
+40 2 20 44 
+25 2 20 44 
+29 2 20 44 
+Functions: 2
+0 4 -1 20 26 30 
+37 3 9 26 30 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.makeSpace(I)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r3 2 50 73 
+Fields: 2
+73 previous 73
+-1 entryQueueTail 50
+Accesses: 14
+0 1 -1 
+97 1 -1 
+68 2 50 73 
+5 1 -1 
+134 1 -1 
+105 1 -1 
+75 1 -1 
+12 1 -1 
+108 1 -1 
+46 1 -1 
+54 1 -1 
+120 1 -1 
+25 1 -1 
+126 1 -1 
+Functions: 1
+65 3 -1 50 73 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.privateRemoveEntry(Lorg/eclipse/jdt/internal/core/util/LRUCache$LRUCacheEntry;ZZ)V
+PTG:
+Vars:
+11
+$r10 1 13 
+$r6 1 53 
+r2 1 95 
+$r7 1 50 
+r0 1 -2 
+$r8 1 46 
+r1 1 89 
+$r5 1 46 
+r3 1 -1 
+$r11 1 9 
+$r4 1 50 
+Fields: 6
+-2 next 95
+-2 previous 89
+-2 key 50
+-2 key 13
+-1 entryTable 9
+-1 entryTable 46
+Accesses: 18
+64 1 -2 
+8 1 -1 
+72 1 -1 
+136 1 95 
+105 1 -1 
+12 1 -2 
+45 1 -1 
+77 1 -2 
+49 1 -2 
+82 1 -1 
+115 1 89 
+20 1 -1 
+85 1 -2 
+25 1 -2 
+91 1 -2 
+60 1 -1 
+30 1 -1 
+126 1 -1 
+Functions: 4
+16 2 9 13 
+36 8 -1 -2 50 9 89 13 46 95 
+68 2 50 46 
+46 2 50 46 
+Constructors: 0
+
+Summary: 6
+50 -2 53 13 0 -1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.getEntryTable()Ljava/util/Hashtable;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 entryTable 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.remove(Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 2 
+r1 1 -2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.toString()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r4 1 18 
+$r6 1 24 
+$r0 1 0 
+$r5 1 21 
+_ret 1 24 
+r1 1 -1 
+$r2 1 8 
+$r3 1 11 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 2 0 18 
+17 1 -1 
+4 1 -1 
+21 1 21 
+8 1 8 
+14 2 0 11 
+Constructors: 1
+14 0
+
+Summary: 3
+-1 8 18 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.setLoadFactor(D)V
+PTG:
+Vars:
+1
+r2 1 -1 
+Fields: 0
+Accesses: 1
+14 1 -1 
+Functions: 1
+27 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.<init>(II)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+19 1 -1 
+7 1 -1 
+24 1 -1 
+12 1 -1 
+Functions: 1
+2 1 -1 
+Constructors: 1
+2 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.printStats()V
+PTG:
+Vars:
+27
+$r11 1 97 
+r0 1 -1 
+$r3 1 35 
+$r22 1 210 
+$r17 1 140 
+r26 1 120 
+$r23 1 215 
+r24 2 6 17 
+r27 1 134 
+$r1 1 25 
+$r19 1 157 
+r28 1 205 
+$r21 1 197 
+$r5 1 69 
+r10 1 95 
+$r2 1 22 
+$r6 1 66 
+$r8 1 82 
+$r4 1 38 
+$r7 1 79 
+r18 1 140 
+$r13 2 110 89 
+$r14 1 115 
+$r9 1 89 
+$r15 1 120 
+$r16 1 128 
+r25 2 50 61 
+Fields: 6
+61 previous 61
+17 next 17
+-1 entryQueueTail 50
+-1 entryTable 89
+-1 entryQueue 6
+120 value 128
+Accesses: 9
+2 1 -1 
+182 1 140 
+88 1 -1 
+57 2 50 61 
+13 2 17 6 
+109 1 -1 
+46 1 -1 
+174 1 140 
+127 1 120 
+Functions: 22
+128 1 128 
+35 1 35 
+195 1 97 
+164 6 -1 50 6 134 89 157 
+69 1 69 
+101 1 97 
+197 1 197 
+167 3 97 134 157 
+136 2 97 134 
+41 2 22 38 
+75 1 69 
+110 3 115 89 110 
+79 1 79 
+113 1 95 
+85 2 66 82 
+213 1 205 
+25 1 25 
+89 1 89 
+185 1 95 
+220 2 210 215 
+31 1 25 
+223 1 205 
+Constructors: 4
+164 157
+101 97
+75 69
+31 25
+
+Summary: 16
+205 95 134 215 197 97 157 35 82 120 140 128 115 79 -1 38 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.getOverflow()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.fillingRatio()D
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+4 1 -1 
+14 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/OverflowingLRUCache.privateRemoveEntry(Lorg/eclipse/jdt/internal/core/util/LRUCache$LRUCacheEntry;Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 

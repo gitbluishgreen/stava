@@ -1,0 +1,2422 @@
+75
+org/eclipse/core/internal/registry/ExtensionRegistry.getExtensions(Ljava/lang/String;)[Lorg/eclipse/core/runtime/IExtension;
+PTG:
+Vars:
+7
+r0 1 -1 
+r4 1 15 
+$r1 1 1 
+$r6 1 -1 
+r2 1 -2 
+$r8 1 1 
+$r3 1 8 
+Fields: 2
+-1 access 1
+-1 registryObjects 8
+Accesses: 4
+0 1 -1 
+16 1 -1 
+7 1 -1 
+26 1 -1 
+Functions: 4
+4 1 1 
+20 0 
+8 2 -2 8 
+30 1 1 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.removeExtensionPoint(Lorg/eclipse/core/runtime/IExtensionPoint;Ljava/lang/Object;)Z
+PTG:
+Vars:
+5
+r1 1 -1 
+$r3 1 14 
+r0 1 -2 
+$r2 1 -2 
+r4 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+9 3 -1 -3 14 
+11 1 -2 
+Constructors: 0
+
+Summary: 4
+-3 -2 14 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.addExtension(I)Ljava/lang/String;
+PTG:
+Vars:
+13
+r4 1 17 
+$r11 1 90 
+r0 1 -1 
+r7 1 49 
+$r5 1 1 
+$r2 1 6 
+r6 1 26 
+r8 1 56 
+r3 1 6 
+$r9 1 90 
+_ret 1 111 
+$r1 1 1 
+$r10 1 111 
+Fields: 2
+-1 registryObjects 1
+-1 eventDelta 90
+Accesses: 5
+0 1 -1 
+96 1 -1 
+33 1 -1 
+18 1 -1 
+89 1 -1 
+Functions: 9
+1 1 1 
+19 2 1 17 
+69 2 49 56 
+86 5 -1 1 56 90 26 
+39 1 17 
+103 2 90 26 
+106 4 -1 1 90 26 
+44 1 26 
+13 1 6 
+Constructors: 0
+
+Summary: 4
+6 17 26 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.hasContributor(Ljava/lang/String;)Z
+PTG:
+Vars:
+6
+$r7 1 1 
+$r5 1 -1 
+r0 1 -1 
+r2 1 -2 
+$r3 1 8 
+$r1 1 1 
+Fields: 2
+-1 access 1
+-1 registryObjects 8
+Accesses: 4
+0 1 -1 
+16 1 -1 
+7 1 -1 
+26 1 -1 
+Functions: 4
+4 1 1 
+20 0 
+8 2 -2 8 
+30 1 1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.addListener(Lorg/eclipse/core/runtime/IRegistryEventListener;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 -2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.removeExtensionsAndExtensionPoints(Ljava/lang/String;)Ljava/util/Set;
+PTG:
+Vars:
+10
+r2 1 -1 
+r3 1 -2 
+r8 1 31 
+r5 1 16 
+$r4 1 9 
+$r0 1 0 
+$r6 1 9 
+r7 1 82 
+_ret 1 0 
+r9 1 65 
+Fields: 1
+-1 registryObjects 9
+Accesses: 2
+8 1 -1 
+57 1 -1 
+Functions: 7
+4 1 0 
+23 2 -1 9 
+9 2 -2 9 
+41 2 0 31 
+73 2 -1 9 
+58 2 -2 9 
+92 2 0 82 
+Constructors: 1
+4 0
+
+Summary: 7
+16 -2 65 0 31 82 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.recordChange(Lorg/eclipse/core/internal/registry/ExtensionPoint;[II)Ljava/lang/String;
+PTG:
+Vars:
+10
+$r5 1 32 
+r0 1 -1 
+$r9 1 46 
+r6 1 38 
+r2 1 -2 
+$r10 1 46 
+r3 1 16 
+r4 1 -3 
+_ret 1 16 
+$r1 1 1 
+Fields: 1
+-1 listeners 1
+Accesses: 1
+0 1 -1 
+Functions: 10
+1 1 1 
+50 1 46 
+66 1 -2 
+83 2 38 46 
+70 1 46 
+12 1 -2 
+76 1 46 
+61 1 46 
+30 3 -1 32 1 
+31 1 -2 
+Constructors: 1
+50 46
+
+Summary: 8
+-3 -2 32 0 -1 38 46 1 
+org/eclipse/core/internal/registry/ExtensionRegistry.useLazyCacheLoading()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 strategy 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.addContribution(Ljava/io/InputStream;Lorg/eclipse/core/runtime/IContributor;ZLjava/lang/String;Ljava/util/ResourceBundle;Ljava/lang/Object;)Z
+PTG:
+Vars:
+21
+r5 1 50 
+$r41 1 114 
+$r39 1 62 
+r34 2 28 -5 
+$r16 1 111 
+r3 1 -3 
+r7 1 60 
+r18 1 -2 
+$r13 1 96 
+r14 1 103 
+$r4 1 37 
+r0 1 -1 
+r20 1 -6 
+$r40 1 78 
+$r12 1 91 
+r2 1 -3 
+$r15 1 108 
+r1 1 -7 
+$r6 1 52 
+$r23 1 -1 
+$r19 1 125 
+Fields: 2
+-1 registryObjects 37
+-1 strategy 108
+Accesses: 2
+36 1 -1 
+107 1 -1 
+Functions: 26
+0 4 -1 37 -7 108 
+257 1 -2 
+132 8 114 -5 -6 103 28 125 78 111 
+136 1 62 
+73 2 60 62 
+267 4 -1 37 103 108 
+208 6 -1 50 -5 37 108 28 
+17 0 
+212 1 -2 
+85 5 -1 37 108 78 62 
+151 4 -1 37 108 62 
+90 3 -1 37 108 
+91 2 96 91 
+94 1 -3 
+230 6 -1 50 -5 37 108 28 
+168 1 -2 
+42 2 -3 37 
+234 1 -2 
+108 1 108 
+45 1 -3 
+246 1 -2 
+55 2 50 52 
+119 2 -2 114 
+186 6 -1 50 -5 37 108 28 
+124 3 -1 37 108 
+190 1 -2 
+Constructors: 3
+85 78
+119 114
+73 62
+
+Summary: 20
+-3 111 62 91 1 50 3 -7 -5 78 125 103 0 5 114 4 60 96 -1 -6 
+org/eclipse/core/internal/registry/ExtensionRegistry.getNamespaces()[Ljava/lang/String;
+PTG:
+Vars:
+12
+r5 1 20 
+r0 1 -1 
+r4 1 17 
+$r1 1 1 
+$r6 1 33 
+$r7 1 33 
+$r8 1 37 
+$r14 1 1 
+$r12 1 -1 
+$r3 1 11 
+$r9 1 37 
+$r2 1 8 
+Fields: 3
+17 ArrayObject 33
+-1 access 1
+-1 registryObjects 8
+Accesses: 4
+0 1 -1 
+68 1 -1 
+7 1 -1 
+56 1 -1 
+Functions: 6
+34 1 33 
+4 1 1 
+8 1 8 
+72 1 1 
+11 1 11 
+60 0 
+Constructors: 0
+
+Summary: 3
+11 17 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.<init>(Lorg/eclipse/core/runtime/spi/RegistryStrategy;Ljava/lang/Object;Ljava/lang/Object;)V
+PTG:
+Vars:
+54
+$r42 1 176 
+$r56 1 29 
+$r29 1 180 
+$r58 1 57 
+$r27 1 176 
+$r35 1 180 
+$r60 1 106 
+$r31 1 205 
+$r25 1 398 
+$r13 1 144 
+$r64 1 504 
+$r44 1 180 
+$r36 1 176 
+$r17 1 475 
+$r37 1 241 
+$r46 1 295 
+$r33 1 176 
+$r48 1 311 
+$r47 1 144 
+$r24 2 144 393 
+$r26 1 180 
+$r40 1 259 
+$r52 1 357 
+r0 1 -1 
+$r14 1 144 
+$r19 1 435 
+r10 1 -4 
+$r54 1 5 
+$r55 1 16 
+$r49 1 327 
+$r43 1 277 
+$r23 2 144 380 
+$r63 1 438 
+$r65 1 504 
+$r39 1 176 
+$r41 1 180 
+$r50 1 -1 
+$r34 1 223 
+$r38 1 180 
+r7 1 -2 
+$r12 1 144 
+$r22 1 144 
+$r45 1 176 
+$r59 1 83 
+$r30 1 176 
+r9 1 -3 
+$r20 1 454 
+$r62 1 348 
+$r61 1 129 
+$r28 1 187 
+$r16 1 487 
+$r57 1 45 
+$r21 1 457 
+$r32 1 180 
+Fields: 5
+-1 cacheStorageManager 180
+-1 theTableReader 176
+-1 registryObjects 311
+-1 aggregatedTimestamp 327
+-1 strategy 144
+Accesses: 38
+64 1 -1 
+193 1 -1 
+515 1 -1 
+69 1 -1 
+197 1 -1 
+326 1 -1 
+392 1 -1 
+137 1 -1 
+265 1 -1 
+74 1 -1 
+523 1 -1 
+12 1 -1 
+269 1 -1 
+79 1 -1 
+143 1 -1 
+211 1 -1 
+215 1 -1 
+25 1 -1 
+90 1 -1 
+283 1 -1 
+413 1 -1 
+287 1 -1 
+99 1 -1 
+36 1 -1 
+229 1 -1 
+41 1 -1 
+233 1 -1 
+301 1 -1 
+175 1 -1 
+115 1 -1 
+179 1 -1 
+53 1 -1 
+310 1 -1 
+247 1 -1 
+120 1 -1 
+251 1 -1 
+379 1 -1 
+125 1 -1 
+Functions: 51
+-1 0 
+512 7 -1 176 144 180 311 327 504 
+1 6 -1 176 144 180 311 327 
+134 7 -1 176 144 129 180 311 327 
+262 2 176 259 
+520 6 144 -1 176 180 311 327 
+9 1 5 
+393 2 144 393 
+270 1 180 
+144 1 144 
+402 7 -1 176 144 180 311 327 398 
+530 6 144 -1 176 180 311 327 
+22 1 16 
+280 2 176 277 
+156 6 -1 176 144 180 311 327 
+414 1 144 
+288 1 180 
+33 1 29 
+163 0 
+423 6 -1 176 144 180 311 327 
+168 6 -1 176 144 180 311 327 
+298 2 176 295 
+302 1 144 
+50 7 -1 176 144 180 311 327 45 
+180 1 180 
+438 1 438 
+311 1 311 
+61 1 57 
+445 1 438 
+190 2 176 187 
+198 1 180 
+454 1 454 
+332 1 327 
+460 2 435 457 
+463 6 -1 176 144 180 311 327 
+208 2 176 205 
+87 1 83 
+216 1 180 
+344 6 -1 176 144 180 311 327 
+481 1 475 
+226 2 176 223 
+234 1 180 
+362 3 -1 357 348 
+365 7 -1 176 144 180 311 327 348 
+493 1 487 
+112 1 106 
+496 6 -1 176 144 180 311 327 
+244 2 176 241 
+252 1 180 
+380 2 144 380 
+509 7 -1 176 144 180 311 327 504 
+Constructors: 12
+112 106
+1 -1
+33 29
+50 45
+22 16
+134 129
+87 83
+9 5
+362 348
+61 57
+445 438
+509 504
+
+Summary: 16
+205 241 398 348 1 504 277 295 457 223 259 0 187 454 2 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.remove(Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 1 
+$r2 1 8 
+r3 1 -2 
+$r1 1 1 
+Fields: 1
+-1 access 1
+Accesses: 5
+0 1 -1 
+32 1 -1 
+25 1 -1 
+41 1 -1 
+11 1 -1 
+Functions: 6
+-1 0 
+16 3 -1 1 -2 
+4 1 1 
+20 2 -1 1 
+36 0 
+45 1 1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.addExtension(Ljava/lang/String;Lorg/eclipse/core/runtime/IContributor;ZLjava/lang/String;Ljava/lang/String;Lorg/eclipse/core/internal/registry/spi/ConfigurationElementDescription;Ljava/lang/Object;)Z
+PTG:
+Vars:
+31
+$r18 1 227 
+$r17 1 222 
+$r31 1 174 
+r13 1 -6 
+$r15 1 208 
+$r30 1 169 
+r35 2 180 -6 
+r36 1 233 
+r1 1 -8 
+r11 1 -5 
+$r6 1 44 
+$r4 1 28 
+r19 1 241 
+$r29 1 161 
+r38 1 346 
+$r8 1 56 
+$r27 1 152 
+r14 1 -7 
+r12 1 132 
+r2 1 -3 
+r34 2 109 96 
+$r28 1 158 
+$r16 1 214 
+r33 2 -2 87 
+r9 1 63 
+r7 1 53 
+r10 1 -2 
+r3 1 -3 
+$r37 1 318 
+r0 1 -1 
+r5 1 41 
+Fields: 1
+-1 registryObjects 28
+Accesses: 1
+27 1 -1 
+Functions: 44
+0 3 -1 -8 28 
+65 1 -2 
+193 3 180 -6 63 
+257 0 
+324 2 318 63 
+201 2 -1 28 
+138 2 132 63 
+141 1 -6 
+79 1 -2 
+335 5 -1 -7 41 28 63 
+208 1 208 
+17 0 
+273 0 
+212 2 96 109 
+342 2 41 63 
+152 1 152 
+89 1 -2 
+217 2 208 214 
+156 1 53 
+158 1 158 
+222 3 -2 87 222 
+33 2 -3 28 
+227 1 227 
+36 1 -3 
+164 2 161 152 
+104 1 53 
+169 2 -6 169 
+43 2 -1 28 
+235 3 -1 233 28 
+363 1 63 
+44 2 41 44 
+174 1 174 
+115 3 -2 87 63 
+309 0 
+373 2 53 346 
+55 2 -1 28 
+56 1 56 
+248 1 53 
+312 2 -1 28 
+122 3 96 109 63 
+379 3 -1 53 28 
+125 3 -1 -5 28 
+317 2 -1 28 
+255 1 241 
+Constructors: 2
+164 152
+217 208
+
+Summary: 31
+132 257 158 -3 174 241 294 44 346 169 214 180 63 53 -7 -5 161 318 41 -2 109 273 297 -8 222 227 87 96 -1 -6 56 
+org/eclipse/core/internal/registry/ExtensionRegistry.link(Lorg/eclipse/core/internal/registry/ExtensionPoint;[I)V
+PTG:
+Vars:
+4
+r2 1 -1 
+r0 1 -2 
+r1 1 -3 
+$r3 1 6 
+Fields: 1
+-1 registryObjects 6
+Accesses: 1
+5 1 -1 
+Functions: 2
+2 2 -2 -3 
+11 2 -2 6 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/core/internal/registry/ExtensionRegistry.checkReadWriteAccess(Ljava/lang/Object;Z)Z
+PTG:
+Vars:
+4
+$r3 1 11 
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 2
+-1 userToken 11
+-1 masterToken 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.translate(Ljava/lang/String;Ljava/util/ResourceBundle;)Ljava/lang/String;
+PTG:
+Vars:
+6
+r2 1 -3 
+r1 1 -2 
+$r4 1 6 
+$r3 1 1 
+_ret 1 6 
+r0 1 -1 
+Fields: 1
+-1 strategy 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getExtensionPoints()[Lorg/eclipse/core/runtime/IExtensionPoint;
+PTG:
+Vars:
+6
+$r2 1 8 
+r0 1 -1 
+$r7 1 1 
+$r1 1 1 
+$r5 1 -1 
+r3 1 14 
+Fields: 2
+-1 access 1
+-1 registryObjects 8
+Accesses: 4
+0 1 -1 
+7 1 -1 
+25 1 -1 
+15 1 -1 
+Functions: 4
+19 0 
+4 1 1 
+8 1 8 
+29 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.setFileManager(Ljava/io/File;Z)V
+PTG:
+Vars:
+8
+$r9 1 28 
+$r3 1 19 
+$r8 1 -1 
+$r7 1 1 
+r2 1 -2 
+$r4 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 cacheStorageManager 1
+Accesses: 4
+0 1 -1 
+38 1 -1 
+7 1 -1 
+41 1 -1 
+Functions: 3
+35 3 -2 19 28 
+54 1 1 
+11 1 1 
+Constructors: 1
+35 19
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.basicAdd(Lorg/eclipse/core/internal/registry/Contribution;Z)V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r8 1 36 
+$r6 1 30 
+$r2 1 1 
+r3 1 18 
+$r7 1 33 
+$r4 1 1 
+$r5 1 1 
+r1 1 -2 
+Fields: 1
+-1 registryObjects 1
+Accesses: 3
+0 1 -1 
+21 1 -1 
+25 1 -1 
+Functions: 6
+5 2 1 -2 
+22 2 1 33 
+39 4 -1 1 18 36 
+26 2 1 30 
+13 3 -1 1 -2 
+29 1 -2 
+Constructors: 0
+
+Summary: 7
+-2 33 0 30 -1 36 18 
+org/eclipse/core/internal/registry/ExtensionRegistry.getTemporaryUserToken()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 userToken 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getExtensionPoint(Ljava/lang/String;)Lorg/eclipse/core/runtime/IExtensionPoint;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r3 1 5 
+_ret 1 5 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 registryObjects 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getDelta(Ljava/lang/String;)Lorg/eclipse/core/internal/registry/RegistryDelta;
+PTG:
+Vars:
+8
+$r3 1 5 
+r0 1 -1 
+$r5 1 20 
+r1 1 -2 
+r4 1 5 
+$r2 1 1 
+_ret 1 20 
+$r7 1 1 
+Fields: 1
+-1 deltas 1
+Accesses: 2
+0 1 -1 
+28 1 -1 
+Functions: 3
+1 2 1 -2 
+34 3 1 -2 20 
+24 1 20 
+Constructors: 1
+24 20
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getAllContributors()[Lorg/eclipse/core/runtime/IContributor;
+PTG:
+Vars:
+8
+$r6 1 21 
+$r2 1 4 
+r0 1 -1 
+$r5 1 21 
+r3 1 10 
+$r1 1 1 
+$r4 1 18 
+_ret 1 21 
+Fields: 1
+-1 registryObjects 1
+Accesses: 1
+0 1 -1 
+Functions: 4
+1 1 1 
+4 1 4 
+11 2 18 10 
+12 1 10 
+Constructors: 0
+
+Summary: 4
+4 18 -1 10 
+org/eclipse/core/internal/registry/ExtensionRegistry.removeContributor(Lorg/eclipse/core/runtime/IContributor;Ljava/lang/Object;)V
+PTG:
+Vars:
+5
+$r3 1 -2 
+r2 1 -3 
+r1 1 -1 
+r0 1 -2 
+r4 1 42 
+Fields: 0
+Accesses: 0
+Functions: 5
+36 1 -2 
+11 0 
+45 2 -1 42 
+15 2 -1 -3 
+31 0 
+Constructors: 0
+
+Summary: 4
+-3 -2 42 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.addRegistryChangeListener(Lorg/eclipse/core/runtime/IRegistryChangeListener;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getExtensionPoints(Ljava/lang/String;)[Lorg/eclipse/core/runtime/IExtensionPoint;
+PTG:
+Vars:
+7
+r0 1 -1 
+r4 1 15 
+$r1 1 1 
+$r3 1 8 
+$r8 1 1 
+r2 1 -2 
+$r6 1 -1 
+Fields: 2
+-1 access 1
+-1 registryObjects 8
+Accesses: 4
+0 1 -1 
+16 1 -1 
+7 1 -1 
+26 1 -1 
+Functions: 4
+4 1 1 
+20 0 
+8 2 -2 8 
+30 1 1 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.addExtensionPoint(Ljava/lang/String;Lorg/eclipse/core/runtime/IContributor;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Z
+PTG:
+Vars:
+25
+r5 1 41 
+r25 1 95 
+$r16 1 128 
+$r21 1 58 
+r26 2 126 164 
+$r19 1 146 
+r27 2 -2 152 
+$r12 1 207 
+$r4 1 28 
+r10 1 -5 
+r6 1 -2 
+r11 1 190 
+r3 1 -3 
+r2 1 -3 
+r29 1 270 
+$r20 1 47 
+r24 1 55 
+r0 1 -1 
+r1 1 -7 
+$r17 1 134 
+$r8 1 98 
+r9 1 105 
+$r18 1 142 
+r23 2 83 -6 
+$r7 1 86 
+Fields: 1
+-1 registryObjects 28
+Accesses: 1
+27 1 -1 
+Functions: 35
+0 3 -1 -7 28 
+128 1 128 
+257 2 -1 28 
+132 2 164 126 
+196 2 105 190 
+70 2 55 58 
+73 3 -1 58 28 
+137 2 128 134 
+266 2 105 41 
+203 3 83 -6 105 
+142 2 -2 142 
+206 2 -1 28 
+207 2 105 207 
+17 0 
+146 1 146 
+85 2 -1 28 
+86 2 86 41 
+219 2 -1 28 
+157 1 -2 
+287 1 105 
+33 2 -3 28 
+97 2 -1 28 
+98 1 98 
+36 1 -3 
+231 1 95 
+233 2 -2 152 
+297 2 270 95 
+107 1 -2 
+173 3 -2 152 105 
+303 3 -1 28 95 
+50 2 -5 47 
+180 3 164 105 126 
+183 3 -1 -5 28 
+121 1 95 
+254 0 
+Constructors: 2
+70 58
+137 128
+
+Summary: 25
+-3 95 86 55 142 -7 126 -5 134 233 152 41 -2 270 98 239 207 146 164 190 -1 105 58 242 -6 
+org/eclipse/core/internal/registry/ExtensionRegistry.getExtensionPoints(Lorg/eclipse/core/runtime/IContributor;)[Lorg/eclipse/core/runtime/IExtensionPoint;
+PTG:
+Vars:
+9
+r3 1 -1 
+$r11 1 24 
+r6 1 38 
+$r1 1 -2 
+r2 1 22 
+r0 1 -2 
+$r9 1 -1 
+$r5 1 31 
+$r4 1 24 
+Fields: 2
+-1 access 24
+-1 registryObjects 31
+Accesses: 4
+51 1 -1 
+23 1 -1 
+40 1 -1 
+30 1 -1 
+Functions: 6
+16 1 -2 
+55 1 24 
+11 0 
+27 1 24 
+44 0 
+31 2 22 31 
+Constructors: 0
+
+Summary: 3
+-2 22 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.hasContributor(Lorg/eclipse/core/runtime/IContributor;)Z
+PTG:
+Vars:
+4
+r0 1 -2 
+r2 1 22 
+$r1 1 -2 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 1 -2 
+23 2 -1 22 
+11 0 
+Constructors: 0
+
+Summary: 4
+-2 22 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.enterRead()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 access 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.debugEvents()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 strategy 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.addExtensionsAndExtensionPoints(Lorg/eclipse/core/internal/registry/Contribution;)Ljava/util/Set;
+PTG:
+Vars:
+8
+r5 1 74 
+r4 1 -1 
+$r0 1 0 
+r3 1 12 
+r7 1 57 
+_ret 1 0 
+r2 1 -2 
+r6 1 27 
+Fields: 0
+Accesses: 0
+Functions: 7
+65 1 -1 
+19 1 -1 
+4 1 0 
+84 2 0 74 
+37 2 0 27 
+53 1 -2 
+8 1 -2 
+Constructors: 1
+4 0
+
+Summary: 7
+-2 12 74 0 -1 27 57 
+org/eclipse/core/internal/registry/ExtensionRegistry.getExtensionPoint(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/core/runtime/IExtensionPoint;
+PTG:
+Vars:
+13
+$r14 1 1 
+$r4 1 8 
+$r6 1 24 
+$r8 1 28 
+r3 1 -2 
+$r1 1 1 
+r7 1 -3 
+$r2 1 11 
+$r12 1 -1 
+$r5 1 16 
+$r9 1 31 
+r0 1 -1 
+r10 1 37 
+Fields: 2
+-1 access 1
+-1 registryObjects 8
+Accesses: 4
+0 1 -1 
+50 1 -1 
+7 1 -1 
+39 1 -1 
+Functions: 9
+19 2 16 11 
+4 1 1 
+54 1 1 
+24 2 -3 24 
+8 2 8 31 
+11 1 11 
+43 0 
+28 1 28 
+15 1 -2 
+Constructors: 1
+19 11
+
+Summary: 8
+-3 -2 0 1 28 16 31 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.removeListener(Lorg/eclipse/core/runtime/IRegistryEventListener;)V
+PTG:
+Vars:
+5
+$r5 1 1 
+r4 1 -2 
+$r1 1 1 
+$r3 1 11 
+r0 1 -1 
+Fields: 1
+-1 listeners 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+18 4 -1 1 -2 11 
+21 2 1 11 
+Constructors: 1
+18 11
+
+Summary: 4
+11 -2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.removeObject(Lorg/eclipse/core/internal/registry/RegistryObject;ZLjava/lang/Object;)Z
+PTG:
+Vars:
+17
+r1 1 -4 
+r0 1 -1 
+$r9 1 99 
+$r10 1 99 
+r22 2 53 64 
+r12 1 135 
+$r11 1 99 
+$r7 1 78 
+$r16 1 30 
+$r13 1 140 
+$r17 1 99 
+$r14 1 149 
+$r4 1 37 
+$r15 1 99 
+$r3 1 30 
+r2 1 -2 
+$r5 1 66 
+Fields: 3
+-1 access 30
+-1 registryObjects 99
+-1 eventDelta 149
+Accesses: 11
+98 1 -1 
+148 1 -1 
+117 1 -1 
+181 1 -1 
+40 1 -1 
+108 1 -1 
+29 1 -1 
+157 1 -1 
+173 1 -1 
+126 1 -1 
+191 1 -1 
+Functions: 22
+0 5 -1 99 -4 149 30 
+-1 0 
+33 1 30 
+2 1 -2 
+163 1 99 
+195 1 30 
+71 1 66 
+168 4 -1 99 149 30 
+105 3 -2 66 99 
+137 6 -1 64 99 149 53 30 
+47 4 -1 99 149 30 
+145 2 135 140 
+114 2 66 99 
+19 0 
+84 1 78 
+23 1 -2 
+88 3 -2 66 78 
+185 0 
+58 4 -1 99 149 30 
+154 2 149 135 
+123 2 66 99 
+127 2 66 99 
+Constructors: 2
+84 78
+71 66
+
+Summary: 11
+-2 135 66 0 64 -4 140 53 2 78 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getConfigurationElementsFor(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)[Lorg/eclipse/core/runtime/IConfigurationElement;
+PTG:
+Vars:
+7
+r2 1 -3 
+r0 1 -1 
+r3 1 -4 
+$r5 1 21 
+r1 1 -2 
+r4 1 7 
+_ret 1 21 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 4 -1 -2 -3 -4 
+19 1 7 
+Constructors: 0
+
+Summary: 6
+-3 -2 7 2 -1 -4 
+org/eclipse/core/internal/registry/ExtensionRegistry.debug()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 strategy 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.computeState()J
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 strategy 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.setElementFactory()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 1
+9 1 -1 
+Functions: 1
+6 2 -1 1 
+Constructors: 1
+6 1
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getElementFactory()Lorg/eclipse/core/internal/registry/RegistryObjectFactory;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+_ret 1 1 
+Fields: 1
+-1 theRegistryObjectFactory 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getExtension(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/core/runtime/IExtension;
+PTG:
+Vars:
+5
+r3 1 6 
+r2 1 -3 
+r0 1 -1 
+r4 1 -4 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+13 2 -4 6 
+Constructors: 0
+
+Summary: 8
+-3 -2 6 2 0 -1 -4 1 
+org/eclipse/core/internal/registry/ExtensionRegistry.addRegistryChangeListener(Lorg/eclipse/core/runtime/IRegistryChangeListener;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 -2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.createExecutableExtension(Lorg/eclipse/core/runtime/spi/RegistryContributor;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+r3 1 -4 
+$r4 1 1 
+r2 1 -3 
+r0 1 -1 
+_ret 1 7 
+$r5 1 7 
+r1 1 -2 
+Fields: 1
+-1 strategy 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 4 1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/core/internal/registry/ExtensionRegistry.removeRegistryChangeListener(Lorg/eclipse/core/runtime/IRegistryChangeListener;)V
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r5 1 1 
+r4 1 -2 
+$r3 1 11 
+Fields: 1
+-1 listeners 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+18 4 -1 1 -2 11 
+21 2 1 11 
+Constructors: 1
+18 11
+
+Summary: 4
+11 -2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.basicRemove(Ljava/lang/String;)V
+PTG:
+Vars:
+11
+r1 1 -2 
+$r7 1 7 
+$r10 1 7 
+$r5 1 7 
+r2 1 5 
+$r3 1 7 
+$r9 1 7 
+$r6 1 7 
+r4 1 14 
+r0 1 -1 
+$r8 1 38 
+Fields: 1
+-1 registryObjects 7
+Accesses: 6
+33 1 -1 
+52 1 -1 
+6 1 -1 
+23 1 -1 
+44 1 -1 
+15 1 -1 
+Functions: 8
+0 3 -1 -2 7 
+49 2 -2 7 
+34 2 7 14 
+20 2 7 14 
+7 2 -2 7 
+41 4 -1 5 38 7 
+57 2 -2 7 
+28 2 7 14 
+Constructors: 0
+
+Summary: 6
+-2 5 14 0 -1 38 
+org/eclipse/core/internal/registry/ExtensionRegistry.log(Lorg/eclipse/core/runtime/IStatus;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 strategy 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getConfigurationElementsFor(Ljava/lang/String;)[Lorg/eclipse/core/runtime/IConfigurationElement;
+PTG:
+Vars:
+6
+$r2 1 21 
+r1 1 -1 
+$r3 1 28 
+_ret 1 31 
+r0 1 -2 
+$r4 1 31 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+17 3 -1 21 28 
+18 1 -2 
+24 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 21 -1 28 
+org/eclipse/core/internal/registry/ExtensionRegistry.setObjectManagers(Ljava/util/Set;Lorg/eclipse/core/internal/registry/IObjectManager;)V
+PTG:
+Vars:
+9
+r2 1 -1 
+r0 1 -2 
+$r8 1 37 
+$r3 1 12 
+$r5 1 20 
+r6 1 -3 
+$r4 1 12 
+r1 1 6 
+$r7 1 37 
+Fields: 1
+-1 eventDelta 37
+Accesses: 2
+36 1 -1 
+43 1 -1 
+Functions: 6
+0 1 -2 
+48 2 -3 37 
+24 2 -3 20 
+10 3 -1 37 12 
+11 1 6 
+27 1 6 
+Constructors: 0
+
+Summary: 7
+20 -3 -2 12 0 -1 1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getObjectManager()Lorg/eclipse/core/internal/registry/RegistryObjectManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 registryObjects 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.exitRead()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 access 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.createExtensionData(Ljava/lang/String;Lorg/eclipse/core/internal/registry/spi/ConfigurationElementDescription;Lorg/eclipse/core/internal/registry/RegistryObject;Z)V
+PTG:
+Vars:
+21
+r2 1 9 
+$r8 1 147 
+r4 1 -3 
+r18 1 52 
+r20 1 160 
+$r15 1 91 
+$r16 1 92 
+r19 1 132 
+r9 1 -4 
+$r5 1 20 
+r3 1 -2 
+$r13 1 73 
+$r14 1 74 
+r21 1 202 
+r6 1 30 
+$r1 1 1 
+$r17 1 96 
+r10 1 213 
+$r7 1 122 
+$r12 1 179 
+r0 1 -1 
+Fields: 3
+160 ArrayObject 179
+30 ArrayObject 91
+30 ArrayObject 73
+Accesses: 0
+Functions: 23
+0 1 -1 
+128 1 -3 
+256 2 -4 213 
+1 1 1 
+261 1 -4 
+198 1 -4 
+73 1 73 
+265 1 9 
+14 2 -2 9 
+143 2 132 9 
+114 2 52 9 
+146 1 -1 
+19 1 -3 
+86 2 -1 92 
+23 2 20 9 
+247 1 9 
+184 4 -1 -2 179 9 
+153 2 147 9 
+26 1 -3 
+282 1 9 
+91 1 91 
+156 1 -3 
+125 2 9 122 
+Constructors: 0
+
+Summary: 18
+132 20 -3 -2 202 147 160 0 30 -4 1 1 213 52 2 9 -1 92 
+org/eclipse/core/internal/registry/ExtensionRegistry.processChangeEvent([Ljava/lang/Object;Ljava/util/Map;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+28
+r15 1 143 
+r25 1 232 
+r6 1 -2 
+$r9 1 46 
+r18 1 -1 
+r0 1 -3 
+$r16 1 66 
+$r19 1 66 
+r26 1 269 
+$r28 1 86 
+$r14 1 66 
+r8 1 38 
+$r29 1 86 
+r13 1 132 
+$r4 1 20 
+$r24 1 46 
+$r21 1 239 
+$r12 1 66 
+$r20 1 222 
+$r7 1 38 
+$r10 1 46 
+r2 1 3 
+$r1 1 3 
+$r27 1 12 
+r11 1 46 
+$r23 1 247 
+$r22 1 239 
+_ret 1 12 
+Fields: 3
+-2 ArrayObject 38
+38 listener 46
+38 filter 66
+Accesses: 7
+64 1 38 
+113 1 38 
+102 1 38 
+135 1 38 
+73 1 38 
+44 1 38 
+124 1 38 
+Functions: 21
+0 1 -3 
+96 7 -1 66 -3 86 38 12 46 
+192 2 132 46 
+161 2 46 143 
+99 1 86 
+134 2 66 3 
+72 2 -3 66 
+265 1 3 
+237 1 232 
+206 2 46 143 
+175 2 132 46 
+145 1 3 
+244 1 239 
+278 1 269 
+55 1 -3 
+24 2 20 12 
+250 1 247 
+123 2 66 3 
+221 1 -3 
+222 1 222 
+255 1 232 
+Constructors: 2
+96 86
+24 12
+
+Summary: 12
+132 -3 -2 86 247 239 3 222 232 269 143 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.add(Lorg/eclipse/core/internal/registry/Contribution;)V
+PTG:
+Vars:
+5
+r3 1 -2 
+$r2 1 8 
+$r4 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 access 1
+Accesses: 5
+0 1 -1 
+33 1 -1 
+26 1 -1 
+42 1 -1 
+11 1 -1 
+Functions: 6
+-1 0 
+17 3 -1 1 -2 
+4 1 1 
+21 2 -1 1 
+37 0 
+46 1 1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.recordChange(Lorg/eclipse/core/internal/registry/ExtensionPoint;II)Ljava/lang/String;
+PTG:
+Vars:
+9
+$r9 1 12 
+r4 1 -2 
+$r7 1 56 
+$r6 1 47 
+$r8 1 12 
+$r5 1 44 
+r0 1 -1 
+_ret 1 56 
+$r1 1 1 
+Fields: 1
+-1 listeners 1
+Accesses: 1
+0 1 -1 
+Functions: 10
+16 1 12 
+1 1 1 
+33 1 12 
+52 2 12 47 
+39 1 12 
+55 1 -2 
+24 1 12 
+42 3 -1 1 44 
+43 1 -2 
+29 1 -2 
+Constructors: 1
+16 12
+
+Summary: 6
+-2 0 12 44 -1 47 
+org/eclipse/core/internal/registry/ExtensionRegistry.getTableReader()Lorg/eclipse/core/internal/registry/TableReader;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 theTableReader 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getExtension(Ljava/lang/String;)Lorg/eclipse/core/runtime/IExtension;
+PTG:
+Vars:
+7
+$r6 1 53 
+$r3 1 28 
+r1 1 26 
+r5 1 48 
+r4 1 35 
+r2 1 -1 
+r0 1 -2 
+Fields: 2
+35 ArrayObject 48
+-1 registryObjects 28
+Accesses: 1
+27 1 -1 
+Functions: 5
+50 2 -2 53 
+51 1 48 
+20 1 -2 
+6 1 -2 
+28 2 26 28 
+Constructors: 0
+
+Summary: 4
+53 26 35 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.clearRegistryCache()V
+PTG:
+Vars:
+8
+$r6 1 -1 
+$r0 1 1 
+$r4 1 41 
+$r3 2 46 46 
+$r5 1 84 
+$r9 1 64 
+$r8 1 55 
+r2 1 -1 
+Fields: 8
+1 ArrayObject 9
+1 ArrayObject 46
+1 ArrayObject 15
+1 ArrayObject 21
+1 ArrayObject 27
+1 ArrayObject 33
+-1 cacheStorageManager 41
+-1 aggregatedTimestamp 84
+Accesses: 2
+83 1 -1 
+40 1 -1 
+Functions: 4
+68 3 64 -1 55 
+71 4 -1 84 55 41 
+87 1 84 
+47 2 41 46 
+Constructors: 1
+68 55
+
+Summary: 9
+15 27 1 46 21 -1 9 55 33 
+org/eclipse/core/internal/registry/ExtensionRegistry.stop(Ljava/lang/Object;)V
+PTG:
+Vars:
+54
+$r16 1 39 
+$r37 1 482 
+$r45 1 1 
+$r20 1 39 
+r44 1 -2 
+$r33 1 421 
+$r6 1 39 
+$r7 1 93 
+$r58 1 39 
+$r35 1 39 
+$r1 1 1 
+r51 1 220 
+$r3 1 39 
+r0 1 -1 
+$r28 1 39 
+$r2 1 27 
+$r38 1 490 
+$r14 1 39 
+$r32 1 47 
+$r24 1 39 
+$r39 1 498 
+$r41 1 514 
+$r18 1 39 
+$r23 1 249 
+$r34 1 469 
+$r30 1 371 
+$r10 1 39 
+$r17 1 197 
+$r4 1 47 
+$r26 1 39 
+$r12 1 39 
+$r42 1 523 
+$r13 1 39 
+r50 1 203 
+$r40 1 506 
+r56 1 309 
+$r25 1 267 
+r53 1 255 
+$r22 1 39 
+$r29 1 303 
+r55 1 291 
+$r43 1 371 
+$r31 1 27 
+$r36 1 475 
+$r15 1 39 
+$r21 1 231 
+$r57 1 535 
+$r9 1 39 
+$r11 1 39 
+r52 1 237 
+r54 1 273 
+$r27 1 285 
+$r19 1 214 
+$r47 1 -1 
+Fields: 13
+421 ArrayObject 429
+421 ArrayObject 466
+421 ArrayObject 441
+421 ArrayObject 453
+421 ArrayObject 435
+421 ArrayObject 447
+421 ArrayObject 459
+-1 cacheStorageManager 39
+-1 theTableReader 535
+-1 registryObjects 47
+-1 aggregatedTimestamp 371
+-1 strategy 27
+-1 masterToken 1
+Accesses: 29
+0 1 -1 
+193 1 -1 
+66 1 -1 
+7 1 -1 
+263 1 -1 
+392 1 -1 
+139 1 -1 
+210 1 -1 
+403 1 -1 
+534 1 -1 
+151 1 -1 
+281 1 -1 
+26 1 -1 
+541 1 -1 
+415 1 -1 
+163 1 -1 
+227 1 -1 
+38 1 -1 
+103 1 -1 
+362 1 -1 
+299 1 -1 
+46 1 -1 
+175 1 -1 
+370 1 -1 
+115 1 -1 
+245 1 -1 
+56 1 -1 
+380 1 -1 
+127 1 -1 
+Functions: 50
+512 1 291 
+135 1 39 
+264 1 39 
+393 1 27 
+521 1 309 
+267 1 267 
+527 10 466 435 421 453 469 39 441 459 429 447 
+401 2 93 47 
+147 1 39 
+22 0 
+282 1 39 
+538 1 535 
+285 1 285 
+31 7 -1 1 371 39 535 27 47 
+159 1 39 
+545 1 39 
+35 7 -1 1 371 39 535 27 47 
+171 1 39 
+300 1 39 
+47 1 47 
+303 1 303 
+183 1 39 
+57 1 39 
+314 2 203 93 
+321 2 93 237 
+194 1 39 
+197 1 197 
+70 0 
+327 2 220 93 
+334 2 93 255 
+211 1 39 
+341 2 273 93 
+214 1 214 
+474 1 203 
+348 2 291 93 
+481 1 220 
+98 8 -1 1 371 39 535 27 93 47 
+355 2 309 93 
+228 1 39 
+231 1 231 
+488 1 237 
+366 0 
+111 1 39 
+496 1 255 
+371 1 371 
+246 1 39 
+504 1 273 
+249 1 249 
+123 1 39 
+381 1 371 
+Constructors: 1
+98 93
+
+Summary: 27
+231 466 220 267 93 303 435 459 214 421 255 237 469 273 291 197 309 -2 429 441 249 453 203 285 0 -1 447 
+org/eclipse/core/internal/registry/ExtensionRegistry.addListenerInternal(Ljava/util/EventListener;Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r3 1 11 
+r4 1 -2 
+$r1 1 1 
+r5 1 -3 
+r0 1 -1 
+$r6 1 1 
+Fields: 1
+-1 listeners 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+18 5 -1 1 -2 -3 11 
+21 2 1 11 
+Constructors: 1
+18 11
+
+Summary: 6
+11 -3 -2 0 -1 1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getExtension(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/core/runtime/IExtension;
+PTG:
+Vars:
+7
+$r3 1 25 
+$r5 1 29 
+$r2 1 18 
+r0 1 -2 
+r1 1 -1 
+r4 1 -3 
+_ret 1 29 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+21 1 -2 
+14 4 -1 18 -3 25 
+15 1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 25 -1 18 
+org/eclipse/core/internal/registry/ExtensionRegistry.addListener(Lorg/eclipse/core/runtime/IRegistryEventListener;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getExtensions(Lorg/eclipse/core/runtime/IContributor;)[Lorg/eclipse/core/runtime/IExtension;
+PTG:
+Vars:
+9
+$r4 1 24 
+r0 1 -2 
+r2 1 22 
+r6 1 38 
+$r9 1 -1 
+$r11 1 24 
+r3 1 -1 
+$r1 1 -2 
+$r5 1 31 
+Fields: 2
+-1 access 24
+-1 registryObjects 31
+Accesses: 4
+51 1 -1 
+23 1 -1 
+40 1 -1 
+30 1 -1 
+Functions: 6
+16 1 -2 
+55 1 24 
+11 0 
+27 1 24 
+44 0 
+31 2 22 31 
+Constructors: 0
+
+Summary: 3
+-2 22 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.addContribution(Ljava/io/InputStream;Lorg/eclipse/core/runtime/IContributor;ZLjava/lang/String;Ljava/util/ResourceBundle;Ljava/lang/Object;J)Z
+PTG:
+Vars:
+7
+r5 1 -7 
+r2 1 -3 
+r1 1 -2 
+r4 1 -6 
+$r6 1 23 
+r0 1 -1 
+r3 1 -5 
+Fields: 1
+-1 aggregatedTimestamp 23
+Accesses: 1
+22 1 -1 
+Functions: 2
+0 7 -1 -2 -3 -5 -6 -7 23 
+28 1 23 
+Constructors: 0
+
+Summary: 11
+3 -3 4 -2 -7 -5 0 5 -1 1 -6 
+org/eclipse/core/internal/registry/ExtensionRegistry.addExtensionPoint(I)Ljava/lang/String;
+PTG:
+Vars:
+13
+$r1 1 1 
+r7 1 39 
+$r9 1 72 
+r3 1 6 
+$r8 1 14 
+r0 1 -1 
+$r11 1 14 
+$r10 1 14 
+$r4 1 14 
+_ret 1 72 
+$r6 1 33 
+$r2 1 6 
+$r5 1 1 
+Fields: 2
+-1 registryObjects 1
+-1 eventDelta 14
+Accesses: 6
+0 1 -1 
+20 1 -1 
+52 1 -1 
+59 1 -1 
+28 1 -1 
+13 1 -1 
+Functions: 7
+32 1 6 
+1 1 1 
+49 5 -1 1 6 39 14 
+65 3 6 39 14 
+68 5 -1 1 6 39 14 
+25 2 6 14 
+29 2 1 33 
+Constructors: 0
+
+Summary: 4
+6 33 39 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.checkCache()Z
+PTG:
+Vars:
+10
+r0 1 -1 
+$r4 1 35 
+r8 1 54 
+$r1 2 6 77 
+$r6 1 47 
+r2 1 13 
+$r9 1 77 
+$r3 2 24 77 
+$r7 1 -1 
+$r5 2 44 35 
+Fields: 2
+-1 cacheStorageManager 35
+-1 strategy 77
+Accesses: 5
+34 1 -1 
+5 1 -1 
+23 1 -1 
+43 1 -1 
+76 1 -1 
+Functions: 7
+-1 0 
+6 2 6 77 
+24 2 24 77 
+44 3 35 44 47 
+77 1 77 
+31 4 -1 35 77 13 
+63 1 54 
+Constructors: 0
+
+Summary: 4
+54 13 -1 47 
+org/eclipse/core/internal/registry/ExtensionRegistry.removeExtensionPoint(I)Ljava/lang/String;
+PTG:
+Vars:
+15
+$r4 1 1 
+$r12 1 53 
+$r5 1 19 
+r3 1 6 
+$r10 1 1 
+$r8 1 60 
+$r1 1 1 
+r0 1 -1 
+$r2 1 6 
+$r9 1 60 
+$r11 1 44 
+_ret 1 87 
+$r7 1 87 
+r6 1 29 
+$r13 1 60 
+Fields: 2
+-1 registryObjects 1
+-1 eventDelta 60
+Accesses: 6
+0 1 -1 
+66 1 -1 
+39 1 -1 
+74 1 -1 
+59 1 -1 
+13 1 -1 
+Functions: 10
+48 3 1 44 29 
+80 3 6 60 29 
+1 1 1 
+18 1 6 
+83 5 -1 1 6 60 29 
+22 2 1 19 
+71 2 6 60 
+56 5 -1 1 53 6 60 
+25 1 6 
+43 1 6 
+Constructors: 0
+
+Summary: 5
+6 44 -1 29 19 
+org/eclipse/core/internal/registry/ExtensionRegistry.concatArrays(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r1 1 1 
+r5 1 16 
+r3 1 -3 
+$r2 1 4 
+r0 1 -2 
+_ret 1 16 
+$r4 1 16 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -2 
+1 1 1 
+37 1 -2 
+7 1 -2 
+41 1 -3 
+11 1 -3 
+27 1 -2 
+45 2 16 -3 
+15 1 4 
+31 2 16 -2 
+Constructors: 0
+
+Summary: 4
+-3 -2 4 1 
+org/eclipse/core/internal/registry/ExtensionRegistry.scheduleChangeEvent([Ljava/lang/Object;Ljava/util/Map;)V
+PTG:
+Vars:
+10
+$r5 1 12 
+$r11 1 12 
+r3 1 -3 
+$r6 1 39 
+$r0 1 0 
+$r8 1 39 
+$r9 1 39 
+r2 1 -2 
+r1 1 -1 
+$r10 1 19 
+Fields: 2
+-1 queue 39
+-1 eventThread 12
+Accesses: 6
+38 1 -1 
+57 1 -1 
+11 1 -1 
+28 1 -1 
+46 1 -1 
+31 1 -1 
+Functions: 5
+35 1 12 
+51 2 0 39 
+7 6 0 -1 -2 -3 39 12 
+25 4 -1 19 39 12 
+61 1 39 
+Constructors: 2
+7 0
+25 19
+
+Summary: 6
+-3 -2 0 -1 0 1 
+org/eclipse/core/internal/registry/ExtensionRegistry.remove(Ljava/lang/String;J)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 12 
+Fields: 1
+-1 aggregatedTimestamp 12
+Accesses: 1
+11 1 -1 
+Functions: 2
+16 1 12 
+2 3 -1 -2 12 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.removeExtension(I)Ljava/lang/String;
+PTG:
+Vars:
+16
+$r4 1 1 
+$r10 1 150 
+r6 1 29 
+$r7 1 1 
+r14 2 66 92 
+r9 1 61 
+$r5 1 19 
+$r12 1 150 
+r0 1 -1 
+$r2 1 6 
+r8 1 38 
+r15 1 85 
+$r1 1 1 
+r3 1 6 
+$r11 1 174 
+_ret 1 174 
+Fields: 2
+-1 registryObjects 1
+-1 eventDelta 150
+Accesses: 6
+0 1 -1 
+149 1 -1 
+156 1 -1 
+13 1 -1 
+45 1 -1 
+30 1 -1 
+Functions: 12
+1 1 1 
+18 1 6 
+146 6 -1 1 66 150 38 92 
+51 1 29 
+163 2 150 38 
+22 2 1 19 
+166 4 -1 1 150 38 
+56 1 38 
+25 1 6 
+169 1 6 
+110 1 6 
+31 2 1 29 
+Constructors: 0
+
+Summary: 7
+92 19 6 61 -1 38 29 
+org/eclipse/core/internal/registry/ExtensionRegistry.removeExtension(Lorg/eclipse/core/runtime/IExtension;Ljava/lang/Object;)Z
+PTG:
+Vars:
+5
+r4 1 -3 
+$r2 1 -2 
+r0 1 -2 
+$r3 1 14 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+9 3 -1 -3 14 
+11 1 -2 
+Constructors: 0
+
+Summary: 4
+-3 -2 14 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.stopChangeEventScheduler()V
+PTG:
+Vars:
+4
+$r4 1 1 
+$r2 1 8 
+r0 1 -1 
+$r1 1 1 
+Fields: 2
+-1 queue 8
+-1 eventThread 1
+Accesses: 4
+0 1 -1 
+7 1 -1 
+23 1 -1 
+14 1 -1 
+Functions: 1
+18 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/ExtensionRegistry.getConfigurationElementsFor(Ljava/lang/String;Ljava/lang/String;)[Lorg/eclipse/core/runtime/IConfigurationElement;
+PTG:
+Vars:
+6
+$r4 1 17 
+r1 1 -2 
+r3 1 6 
+_ret 1 17 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+16 1 6 
+Constructors: 0
+
+Summary: 4
+-3 -2 6 -1 
+org/eclipse/core/internal/registry/ExtensionRegistry.logError(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+PTG:
+Vars:
+12
+r1 1 -2 
+$r4 1 17 
+$r3 1 8 
+r8 1 30 
+$r6 1 21 
+$r2 1 0 
+r5 1 -3 
+$r0 1 3 
+$r10 1 33 
+r9 1 -1 
+r11 1 -4 
+$r7 1 24 
+Fields: 0
+Accesses: 0
+Functions: 8
+48 2 -1 33 
+17 2 17 -3 
+3 1 3 
+21 1 21 
+7 1 -2 
+24 2 0 24 
+11 2 3 8 
+45 3 33 -4 30 
+Constructors: 2
+11 3
+45 33
+
+Summary: 11
+-3 -2 0 30 21 -4 8 1 24 -1 33 
+org/eclipse/core/internal/registry/ExtensionRegistry.fireRegistryChangeEvent()V
+PTG:
+Vars:
+10
+$r10 1 1 
+$r7 1 44 
+$r1 1 7 
+$r11 1 66 
+$r5 1 17 
+$r4 1 17 
+$r2 1 1 
+r0 1 -1 
+$r8 1 1 
+r6 1 43 
+Fields: 4
+-1 deltas 1
+-1 listeners 17
+-1 eventDelta 7
+-1 strategy 66
+Accesses: 8
+0 1 -1 
+16 1 -1 
+48 1 -1 
+65 1 -1 
+36 1 -1 
+6 1 -1 
+56 1 -1 
+26 1 -1 
+Functions: 7
+17 1 17 
+52 2 1 44 
+37 1 17 
+72 7 -1 1 17 66 7 43 44 
+10 2 1 7 
+60 1 1 
+30 0 
+Constructors: 1
+52 44
+
+Summary: 3
+43 -1 44 

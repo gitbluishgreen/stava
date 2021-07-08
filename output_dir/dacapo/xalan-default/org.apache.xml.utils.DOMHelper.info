@@ -1,0 +1,691 @@
+27
+org/apache/xml/utils/DOMHelper.setDOMFactory(Lorg/w3c/dom/Document;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/utils/DOMHelper.getNamespaceForPrefix(Ljava/lang/String;Lorg/w3c/dom/Element;)Ljava/lang/String;
+PTG:
+Vars:
+13
+r0 1 -3 
+r9 2 -3 141 
+_ret 3 17 33 131 
+$r3 1 58 
+r10 3 17 33 131 
+r7 1 117 
+r8 1 -1 
+r5 2 44 65 
+$r4 1 62 
+r1 1 -2 
+$r11 2 44 65 
+$r2 1 49 
+$r6 2 -3 141 
+Fields: 0
+Accesses: 0
+Functions: 10
+49 1 49 
+82 2 -3 141 
+53 1 49 
+6 1 -2 
+22 1 -2 
+136 2 -3 141 
+58 2 -2 58 
+107 4 65 -3 44 141 
+124 1 117 
+62 1 62 
+Constructors: 1
+53 49
+
+Summary: 9
+62 65 -1 -2 117 49 58 -3 141 
+org/apache/xml/utils/DOMHelper.getRootNode(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+4
+r0 1 -2 
+_ret 2 -2 24 
+r1 1 -1 
+$r2 2 -2 24 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+23 1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/utils/DOMHelper.getNodeData(Lorg/w3c/dom/Node;)Ljava/lang/String;
+PTG:
+Vars:
+4
+$r5 2 17 23 
+_ret 2 17 23 
+r0 1 3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 0 
+16 1 3 
+35 1 3 
+6 2 -2 3 
+9 1 3 
+27 1 3 
+Constructors: 0
+
+Summary: 2
+3 -2 
+org/apache/xml/utils/DOMHelper.getNamespaceOfNode(Lorg/w3c/dom/Node;)Ljava/lang/String;
+PTG:
+Vars:
+45
+$r12 1 15 
+$r45 2 330 336 
+r43 3 -2 424 454 
+$r9 1 15 
+$r46 2 390 396 
+$r14 2 493 430 
+$r16 1 574 
+r38 4 390 471 22 396 
+r41 3 114 137 131 
+$r5 1 669 
+_ret 3 159 357 72 
+r44 1 234 
+r36 1 22 
+$r19 1 590 
+r40 1 84 
+$r29 1 15 
+$r27 1 430 
+$r30 1 15 
+r39 3 159 357 72 
+$r25 1 562 
+$r35 1 15 
+r50 1 539 
+$r11 1 639 
+$r22 2 493 430 
+$r49 2 493 430 
+r32 1 260 
+$r42 2 137 131 
+$r2 1 684 
+$r37 1 22 
+r1 1 -1 
+$r8 1 654 
+r47 1 471 
+$r23 1 15 
+$r17 2 493 430 
+$r24 1 559 
+$r51 2 493 430 
+$r28 1 430 
+$r20 1 593 
+r0 1 -2 
+$r3 1 15 
+r33 1 269 
+$r6 1 15 
+$r48 1 471 
+$r15 1 543 
+$r18 1 15 
+Fields: 4
+-1 m_NSInfos 15
+-1 m_candidateNoAncestorXMLNS 493
+-1 m_candidateNoAncestorXMLNS 430
+22 m_namespace 72
+Accesses: 20
+67 4 390 22 471 396 
+580 1 -1 
+549 1 -1 
+679 1 -1 
+584 1 -1 
+553 1 -1 
+649 1 -1 
+492 1 -1 
+429 1 -1 
+14 1 -1 
+462 1 -1 
+528 1 -1 
+49 1 22 
+401 1 -1 
+210 4 390 22 471 396 
+438 1 -1 
+183 4 390 22 471 396 
+664 1 -1 
+634 1 -1 
+606 1 -1 
+Functions: 36
+0 1 -2 
+642 3 -2 15 639 
+195 3 -2 454 424 
+262 1 260 
+326 1 269 
+585 2 493 430 
+78 1 -2 
+15 2 -2 15 
+271 1 269 
+463 4 -2 454 424 15 
+529 2 493 430 
+657 3 -2 654 15 
+147 3 114 131 137 
+340 5 336 114 131 137 330 
+596 3 593 590 15 
+86 1 84 
+409 6 -2 454 390 424 396 15 
+282 1 269 
+350 1 260 
+672 3 -2 669 15 
+610 2 493 430 
+227 3 -2 454 424 
+291 1 269 
+419 3 -2 454 424 
+106 1 84 
+554 2 493 430 
+493 2 493 430 
+241 1 234 
+435 4 -2 454 424 430 
+691 4 357 72 684 159 
+565 3 562 15 559 
+694 3 -2 684 15 
+251 1 234 
+444 6 390 22 471 72 396 430 
+126 1 84 
+447 3 -2 454 424 
+Constructors: 1
+691 684
+
+Summary: 17
+269 471 -1 84 454 114 260 539 131 330 590 -2 22 234 559 684 424 
+org/apache/xml/utils/DOMHelper.getLevel(Lorg/w3c/dom/Node;)S
+PTG:
+Vars:
+3
+$r0 1 4 
+r1 1 -1 
+r2 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 4 
+Constructors: 0
+
+Summary: 3
+4 -1 -2 
+org/apache/xml/utils/DOMHelper.getNodeData(Lorg/w3c/dom/Node;Lorg/apache/xml/utils/FastStringBuffer;)V
+PTG:
+Vars:
+5
+r4 2 70 87 
+$r2 1 96 
+r0 1 -2 
+$r3 1 109 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+64 1 -2 
+81 2 70 87 
+114 2 -3 109 
+101 2 96 -3 
+108 1 -2 
+78 3 -3 70 87 
+95 1 -2 
+Constructors: 0
+
+Summary: 6
+70 87 -3 -2 96 109 
+org/apache/xml/utils/DOMHelper.getElementByID(Ljava/lang/String;Lorg/w3c/dom/Document;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-3 -1 -2 
+org/apache/xml/utils/DOMHelper.createDocument()Lorg/w3c/dom/Document;
+PTG:
+Vars:
+2
+$r0 1 1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/xml/utils/DOMHelper.isNodeTheSame(Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)Z
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+15 0 
+Constructors: 0
+
+Summary: 2
+-3 -2 
+org/apache/xml/utils/DOMHelper.isNodeAfter(Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)Z
+PTG:
+Vars:
+8
+r5 3 264 -3 132 
+r6 3 253 -2 172 
+r1 1 -3 
+r2 2 21 75 
+r0 1 -2 
+r3 2 92 26 
+r4 3 253 -2 172 
+r7 3 264 -3 132 
+Fields: 0
+Accesses: 0
+Functions: 13
+35 4 21 26 75 92 
+259 3 -3 132 264 
+6 2 -2 -3 
+71 2 21 75 
+167 3 -2 172 253 
+201 6 -2 -3 132 264 172 253 
+235 6 -2 -3 132 264 172 253 
+17 1 -2 
+50 4 -2 -3 21 75 
+22 1 -3 
+87 2 26 92 
+248 3 -2 172 253 
+127 3 -3 132 264 
+Constructors: 0
+
+Summary: 10
+21 264 253 -3 -2 92 132 26 172 75 
+org/apache/xml/utils/DOMHelper.isIgnorableWhitespace(Lorg/w3c/dom/Text;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xml/utils/DOMHelper.getUnparsedEntityURI(Ljava/lang/String;Lorg/w3c/dom/Document;)Ljava/lang/String;
+PTG:
+Vars:
+10
+r7 1 -1 
+r2 1 24 
+$r4 1 37 
+r1 1 9 
+r3 1 -2 
+r5 1 37 
+_ret 3 2 90 77 
+r0 1 -3 
+r8 3 2 90 77 
+r6 1 62 
+Fields: 0
+Accesses: 0
+Functions: 6
+17 1 9 
+34 2 -2 24 
+3 1 -3 
+83 1 37 
+70 1 37 
+55 1 37 
+Constructors: 0
+
+Summary: 7
+37 9 62 -3 -1 -2 24 
+org/apache/xml/utils/DOMHelper.getLocalNameOfNode(Lorg/w3c/dom/Node;)Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 2 6 26 
+r2 1 -1 
+r1 1 6 
+$r3 2 6 26 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+22 1 6 
+7 1 6 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xml/utils/DOMHelper.<clinit>()V
+PTG:
+Vars:
+6
+$r5 1 61 
+$r4 1 49 
+$r1 1 12 
+$r0 1 0 
+$r3 1 37 
+$r2 1 24 
+Fields: 0
+Accesses: 0
+Functions: 6
+18 1 12 
+68 1 61 
+6 1 0 
+55 1 49 
+43 1 37 
+31 1 24 
+Constructors: 6
+18 12
+68 61
+6 0
+55 49
+43 37
+31 24
+
+Summary: 0
+
+org/apache/xml/utils/DOMHelper.getUniqueID(Lorg/w3c/dom/Node;)Ljava/lang/String;
+PTG:
+Vars:
+9
+r2 1 -2 
+$r1 1 9 
+$r0 1 0 
+_ret 1 25 
+$r4 1 19 
+$r6 1 25 
+$r3 1 16 
+$r5 1 22 
+r7 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 0 
+16 1 16 
+4 1 0 
+22 1 22 
+9 2 19 9 
+12 1 -2 
+13 0 
+Constructors: 1
+4 0
+
+Summary: 7
+9 0 16 -1 -2 22 19 
+org/apache/xml/utils/DOMHelper.isNodeAfterSibling(Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)Z
+PTG:
+Vars:
+6
+r0 1 -3 
+r5 2 256 176 
+r2 1 -2 
+r1 1 -4 
+r4 1 64 
+r3 1 100 
+Fields: 0
+Accesses: 0
+Functions: 11
+2 1 -3 
+66 1 64 
+228 3 256 176 -4 
+197 3 256 176 -3 
+249 2 256 176 
+10 1 -4 
+58 1 -2 
+170 1 -2 
+91 1 64 
+140 2 -4 100 
+109 2 -3 100 
+Constructors: 0
+
+Summary: 7
+256 176 -3 -2 100 -4 64 
+org/apache/xml/utils/DOMHelper.isNamespaceNode(Lorg/w3c/dom/Node;)Z
+PTG:
+Vars:
+2
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -2 
+17 0 
+10 1 -2 
+26 0 
+Constructors: 0
+
+Summary: 3
+16 -1 -2 
+org/apache/xml/utils/DOMHelper.<init>()V
+PTG:
+Vars:
+3
+$r2 1 16 
+r0 1 -1 
+$r1 1 5 
+Fields: 0
+Accesses: 3
+23 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 3
+1 1 -1 
+20 1 16 
+9 1 5 
+Constructors: 3
+1 -1
+20 16
+9 5
+
+Summary: 1
+-1 
+org/apache/xml/utils/DOMHelper.getRoot(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 2 12 -2 
+_ret 2 12 -2 
+r1 2 12 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 2 -2 12 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/utils/DOMHelper.getDOMFactory()Lorg/w3c/dom/Document;
+PTG:
+Vars:
+5
+$r3 1 9 
+_ret 1 2 
+r0 1 -1 
+$r1 1 2 
+$r2 1 2 
+Fields: 1
+-1 m_DOMFactory 2
+Accesses: 3
+1 1 -1 
+12 1 -1 
+15 1 -1 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/utils/DOMHelper.locateAttrParent(Lorg/w3c/dom/Element;Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+8
+r3 1 14 
+r0 1 -2 
+r1 1 -3 
+_ret 2 -2 61 
+r6 2 33 77 
+$r2 1 4 
+$r4 2 33 77 
+r5 2 -2 61 
+Fields: 0
+Accesses: 0
+Functions: 6
+2 2 -2 4 
+3 1 -3 
+70 2 33 77 
+57 3 33 -3 77 
+42 2 33 77 
+27 1 -2 
+Constructors: 0
+
+Summary: 5
+33 4 -3 14 77 
+org/apache/xml/utils/DOMHelper.getExpandedAttributeName(Lorg/w3c/dom/Attr;)Ljava/lang/String;
+PTG:
+Vars:
+10
+$r5 1 24 
+r0 1 -1 
+$r7 1 32 
+_ret 2 35 43 
+r2 1 5 
+$r8 2 35 43 
+$r4 1 19 
+r1 1 -2 
+$r3 1 11 
+$r6 1 29 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 2 -1 -2 
+32 1 32 
+19 1 19 
+24 2 24 29 
+41 2 -1 -2 
+11 2 5 11 
+27 2 -1 -2 
+15 1 11 
+Constructors: 1
+15 11
+
+Summary: 8
+29 5 11 -1 -2 19 24 32 
+org/apache/xml/utils/DOMHelper.shouldStripSourceNode(Lorg/w3c/dom/Node;)Z
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xml/utils/DOMHelper.getParentOfNode(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+6
+r2 1 25 
+r0 1 -2 
+_ret 2 102 92 
+r3 1 64 
+r8 2 102 92 
+r1 1 18 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -2 
+32 1 25 
+96 1 -2 
+82 0 
+19 1 18 
+88 2 64 -2 
+58 1 18 
+12 1 -2 
+78 0 
+47 0 
+Constructors: 0
+
+Summary: 5
+25 79 -2 64 18 
+org/apache/xml/utils/DOMHelper.createDocument(Z)Lorg/w3c/dom/Document;
+PTG:
+Vars:
+7
+r7 1 33 
+$r3 1 49 
+$r4 1 -1 
+$r1 1 -1 
+r0 1 38 
+r5 1 3 
+$r2 1 42 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 0 
+48 0 
+34 1 33 
+52 2 49 42 
+6 1 3 
+22 1 3 
+11 1 3 
+29 1 3 
+Constructors: 1
+52 42
+
+Summary: 3
+33 3 49 
+org/apache/xml/utils/DOMHelper.getExpandedElementName(Lorg/w3c/dom/Element;)Ljava/lang/String;
+PTG:
+Vars:
+10
+$r6 1 29 
+$r5 1 24 
+$r3 1 11 
+$r8 2 35 43 
+_ret 2 35 43 
+r1 1 -2 
+$r4 1 19 
+$r7 1 32 
+r0 1 -1 
+r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 2 -1 -2 
+32 1 32 
+19 1 19 
+24 2 24 29 
+41 2 -1 -2 
+11 2 5 11 
+27 2 -1 -2 
+15 1 11 
+Constructors: 1
+15 11
+
+Summary: 8
+29 5 11 -1 -2 19 24 32 

@@ -1,0 +1,948 @@
+14
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.checkVariableComparison(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;ILorg/eclipse/jdt/internal/compiler/ast/Expression;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+r7 1 -6 
+r3 1 -7 
+r4 1 -9 
+r2 1 -2 
+r5 1 -4 
+r1 1 -3 
+r6 1 -5 
+Fields: 0
+Accesses: 2
+104 1 -1 
+28 1 -1 
+Functions: 9
+98 2 -6 -7 
+130 5 -2 -3 -4 -7 -9 
+68 2 -6 -7 
+84 5 -2 -3 -4 -7 -9 
+54 5 -2 -3 -4 -7 -9 
+137 2 -5 -7 
+153 5 -2 -3 -4 -7 -9 
+91 2 -5 -7 
+61 2 -5 -7 
+Constructors: 0
+
+Summary: 15
+-3 -2 7 0 5 -4 1 3 4 -9 -7 2 -5 -1 -6 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.<init>(Lorg/eclipse/jdt/internal/compiler/ast/Expression;Lorg/eclipse/jdt/internal/compiler/ast/Expression;I)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 1
+4 -1
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+5
+$r4 1 19 
+$r3 1 10 
+r0 1 -2 
+r1 1 -1 
+r2 1 -3 
+Fields: 2
+-1 right 19
+-1 left 10
+Accesses: 2
+18 1 -1 
+9 1 -1 
+Functions: 4
+0 5 -1 -2 -3 19 10 
+24 3 -2 -3 19 
+30 5 -1 -2 -3 19 10 
+15 3 -2 -3 10 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Z)V
+PTG:
+Vars:
+6
+$r3 1 7 
+$r2 1 10 
+r0 1 -3 
+$r4 1 44 
+r1 1 -1 
+r5 1 -2 
+Fields: 2
+-1 left 44
+-1 constant 7
+Accesses: 9
+0 1 -3 
+35 1 -1 
+21 1 -1 
+6 1 -1 
+25 1 -1 
+89 1 -1 
+43 1 -1 
+44 1 44 
+79 1 -1 
+Functions: 6
+83 1 -3 
+39 1 -3 
+71 5 -1 -2 -3 7 44 
+29 1 -3 
+61 5 -1 -2 -3 7 44 
+93 1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.generateNonBooleanEqual(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Z)V
+PTG:
+Vars:
+18
+$r18 1 24 
+$r20 1 51 
+$r19 1 45 
+$r23 1 194 
+$r8 1 24 
+r4 1 -3 
+r3 1 -2 
+$r10 1 24 
+$r21 1 185 
+$r6 1 185 
+$r5 1 24 
+$r7 1 642 
+$r2 1 24 
+r0 1 -1 
+$r1 1 24 
+$r22 1 188 
+$r36 1 185 
+$r9 1 893 
+Fields: 4
+24 constant 45
+185 constant 188
+-1 right 185
+-1 left 24
+Accesses: 30
+0 1 -1 
+256 1 -1 
+65 1 -1 
+327 1 -1 
+267 1 -1 
+208 1 -1 
+337 1 -1 
+657 1 -1 
+658 1 24 
+23 1 -1 
+24 1 24 
+858 1 -1 
+418 1 -1 
+547 1 -1 
+869 1 -1 
+41 1 -1 
+489 1 -1 
+42 1 24 
+618 1 -1 
+429 1 -1 
+558 1 -1 
+113 1 -1 
+370 1 -1 
+499 1 -1 
+628 1 -1 
+757 1 -1 
+758 1 24 
+184 1 -1 
+185 1 185 
+124 1 -1 
+Functions: 94
+128 1 -3 
+898 2 -3 893 
+133 6 -1 -3 24 185 188 45 
+389 1 -3 
+518 1 -3 
+647 2 642 -3 
+138 0 
+906 2 -3 893 
+142 1 -3 
+271 1 -3 
+911 1 -3 
+402 1 -3 
+531 1 -3 
+276 6 -1 -3 24 185 188 45 
+916 1 642 
+920 1 -3 
+153 1 -3 
+281 0 
+411 1 -3 
+540 1 -3 
+285 1 -3 
+925 1 893 
+415 1 -3 
+544 1 -3 
+161 1 -3 
+803 2 -3 642 
+166 1 -3 
+296 1 -3 
+810 1 -3 
+171 0 
+175 1 -3 
+304 1 -3 
+816 2 -3 642 
+433 1 -3 
+562 1 -3 
+180 0 
+309 1 -3 
+438 6 -1 -3 24 185 188 45 
+567 6 -1 -3 24 185 188 45 
+823 1 -3 
+57 1 45 
+314 0 
+443 0 
+572 0 
+829 2 -3 642 
+318 1 -3 
+447 1 -3 
+703 2 -3 642 
+576 1 -3 
+323 0 
+836 1 -3 
+710 1 -3 
+72 2 -2 -3 
+200 1 188 
+458 1 -3 
+842 2 -3 642 
+587 1 -3 
+716 2 -3 642 
+466 1 -3 
+595 1 -3 
+723 1 -3 
+851 2 -3 642 
+84 1 -3 
+215 2 -2 -3 
+471 1 -3 
+855 1 -3 
+600 1 -3 
+729 2 -3 642 
+476 0 
+605 0 
+480 1 -3 
+736 1 -3 
+97 1 -3 
+609 1 -3 
+227 1 -3 
+357 1 -3 
+485 0 
+614 0 
+742 2 -3 642 
+873 1 -3 
+106 1 -3 
+364 1 -3 
+110 1 -3 
+878 6 -1 -3 24 185 188 45 
+751 2 -3 642 
+240 1 -3 
+625 4 -2 -3 24 45 
+883 1 642 
+887 1 -3 
+249 1 -3 
+377 2 -2 -3 
+506 2 -2 -3 
+635 4 -2 -3 185 188 
+253 1 -3 
+Constructors: 2
+898 893
+647 642
+
+Summary: 15
+222 513 893 -3 -2 453 642 0 1 291 582 384 -1 148 79 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.generateOptimizedBooleanEqual(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;Z)V
+PTG:
+Vars:
+13
+r7 1 -2 
+$r9 1 1 
+r12 1 -4 
+$r2 1 7 
+$r5 1 66 
+r11 1 -5 
+r8 1 -3 
+$r1 1 1 
+$r6 1 63 
+$r10 1 60 
+r0 1 -1 
+$r3 1 4 
+$r4 1 60 
+Fields: 4
+60 constant 63
+-1 right 60
+-1 left 1
+1 constant 4
+Accesses: 11
+0 1 -1 
+1 1 1 
+129 1 -1 
+84 1 -1 
+118 1 -1 
+72 1 -1 
+25 1 -1 
+59 1 -1 
+60 1 60 
+13 1 -1 
+174 1 -3 
+Functions: 9
+17 0 
+114 2 -2 -3 
+178 2 -2 -3 
+55 2 -2 -3 
+137 4 -2 -3 60 63 
+169 2 -3 -5 
+76 0 
+156 2 -3 -4 
+126 4 1 -2 -3 4 
+Constructors: 0
+
+Summary: 9
+-3 -2 0 -4 1 3 2 -5 -1 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.isCompactableOperation()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.generateOptimizedBoolean(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;Z)V
+PTG:
+Vars:
+9
+r7 1 -4 
+$r2 1 1 
+$r1 1 4 
+r6 1 -5 
+$r8 1 39 
+r5 1 -3 
+$r3 1 81 
+r0 1 -1 
+r4 1 -2 
+Fields: 3
+-1 left 39
+-1 left 81
+-1 constant 1
+Accesses: 6
+0 1 -1 
+80 1 -1 
+81 1 81 
+22 1 -1 
+38 1 -1 
+39 1 39 
+Functions: 5
+18 8 -1 81 1 -2 -3 -4 -5 39 
+116 8 -1 81 1 -2 -3 -4 -5 39 
+102 8 -1 81 1 -2 -3 -4 -5 39 
+74 8 -1 81 1 -2 -3 -4 -5 39 
+60 8 -1 81 1 -2 -3 -4 -5 39 
+Constructors: 0
+
+Summary: 9
+-3 -2 0 -4 1 3 2 -5 -1 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.computeConstant(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)V
+PTG:
+Vars:
+17
+$r6 1 20 
+$r13 1 4 
+$r7 1 17 
+$r12 1 17 
+$r16 1 87 
+r11 1 -3 
+$r5 1 14 
+$r1 1 1 
+$r14 1 49 
+$r2 1 7 
+$r4 1 97 
+$r3 1 4 
+r0 1 -1 
+r9 1 -2 
+$r15 1 73 
+$r8 1 1 
+$r10 1 14 
+Fields: 5
+14 constant 17
+-1 right 14
+-1 left 1
+-1 constant 73
+1 constant 4
+Accesses: 15
+0 1 -1 
+1 1 1 
+34 1 -2 
+100 1 -1 
+38 1 -1 
+39 1 14 
+72 1 -1 
+13 1 -1 
+45 1 -3 
+14 1 14 
+52 1 -1 
+55 1 -1 
+90 1 -1 
+27 1 -1 
+28 1 1 
+Functions: 3
+86 0 
+73 1 73 
+46 2 17 4 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 1 -1 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+60
+$r55 1 57 
+$r38 1 90 
+$r28 1 248 
+$r22 1 327 
+$r51 1 17 
+$r34 1 90 
+r56 11 157 396 333 242 315 139 260 363 66 187 84 
+$r27 1 196 
+$r18 1 269 
+$r32 1 23 
+r0 1 -1 
+$r19 1 266 
+$r4 1 266 
+$r50 1 20 
+$r40 1 178 
+$r15 1 385 
+$r21 1 193 
+$r23 1 193 
+$r11 1 266 
+$r36 1 93 
+$r35 1 96 
+$r37 1 17 
+$r39 1 175 
+$r30 1 233 
+$r6 1 269 
+_ret 11 157 396 333 242 315 139 260 363 66 187 84 
+$r31 1 17 
+r7 1 -2 
+$r24 1 193 
+$r49 1 17 
+$r20 1 269 
+$r5 1 272 
+$r44 1 90 
+$r46 1 17 
+$r52 1 20 
+$r1 1 193 
+$r3 1 196 
+$r33 1 20 
+$r42 1 90 
+$r53 1 72 
+$r17 1 266 
+$r13 1 354 
+$r25 1 196 
+r8 1 -3 
+$r12 1 351 
+$r45 1 93 
+$r47 1 151 
+$r58 1 410 
+$r16 1 390 
+r9 1 -4 
+$r14 1 357 
+$r10 1 193 
+$r41 1 181 
+$r29 1 254 
+$r54 1 78 
+$r57 1 405 
+$r43 1 93 
+$r26 1 193 
+$r48 1 17 
+$r2 1 199 
+Fields: 12
+266 constant 269
+90 constant 93
+193 constant 196
+17 constant 20
+-1 right 266
+-1 right 72
+-1 right 90
+-1 right 248
+-1 right 233
+-1 right 57
+-1 left 17
+-1 left 193
+Accesses: 38
+0 1 -1 
+192 1 -1 
+320 1 -1 
+129 1 -1 
+193 1 193 
+71 1 -1 
+265 1 -1 
+266 1 266 
+205 1 -1 
+206 1 193 
+16 1 -1 
+144 1 -1 
+17 1 17 
+338 1 -1 
+278 1 -1 
+279 1 266 
+344 1 -1 
+89 1 -1 
+90 1 90 
+219 1 -1 
+220 1 193 
+29 1 -1 
+30 1 17 
+162 1 -1 
+292 1 -1 
+293 1 266 
+102 1 -1 
+103 1 90 
+168 1 -1 
+232 1 -1 
+43 1 -1 
+44 1 17 
+305 1 -1 
+116 1 -1 
+117 1 90 
+373 11 242 66 260 84 315 139 363 187 396 157 333 
+247 1 -1 
+56 1 -1 
+Functions: 34
+321 5 193 -2 -3 -4 196 
+130 5 17 -2 -3 -4 20 
+388 11 242 66 260 84 315 139 363 187 396 157 333 
+390 2 385 390 
+327 1 327 
+72 4 -2 -3 -4 72 
+78 1 78 
+145 5 17 -2 -3 -4 20 
+209 1 196 
+339 5 -2 -3 354 266 269 
+403 11 242 66 260 84 315 139 363 187 396 157 333 
+151 1 151 
+408 11 242 66 260 84 315 139 363 187 396 157 333 
+345 5 193 -2 -3 -4 196 
+282 1 269 
+413 28 -1 193 -2 -3 66 196 260 72 266 139 396 269 333 17 20 84 405 90 410 93 157 233 363 242 248 57 315 187 
+223 1 196 
+351 1 351 
+33 1 20 
+163 5 -2 -3 178 90 93 
+357 1 357 
+296 1 269 
+169 5 17 -2 -3 -4 20 
+233 4 -2 -3 -4 233 
+106 1 93 
+47 1 20 
+175 1 175 
+306 5 193 -2 -3 -4 196 
+181 1 181 
+120 1 93 
+248 4 -2 -3 -4 248 
+57 4 -2 -3 -4 57 
+254 1 254 
+383 11 242 66 260 84 315 139 363 187 396 157 333 
+Constructors: 0
+
+Summary: 13
+-4 2 -1 -3 1 178 354 385 -2 390 0 410 405 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.generateOptimizedNonBooleanEqual(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;Z)V
+PTG:
+Vars:
+19
+$r8 1 7 
+r0 1 -3 
+$r3 1 10 
+$r5 1 23 
+$r11 1 23 
+$r24 1 112 
+$r7 1 23 
+$r4 1 16 
+$r22 1 106 
+r1 1 -1 
+$r18 1 23 
+$r21 1 23 
+r10 1 -4 
+$r16 1 23 
+$r12 1 23 
+$r25 1 7 
+r6 1 -2 
+r9 1 -5 
+$r2 1 7 
+Fields: 4
+7 constant 10
+23 constant 106
+-1 right 7
+-1 left 23
+Accesses: 27
+0 1 -3 
+6 1 -1 
+198 1 -1 
+7 1 7 
+394 1 -1 
+395 1 23 
+144 1 -1 
+208 1 -1 
+593 1 -1 
+22 1 -1 
+23 1 23 
+94 1 -1 
+286 1 -1 
+350 1 -1 
+102 1 -1 
+294 1 -1 
+358 1 -1 
+103 1 23 
+492 1 -1 
+493 1 23 
+48 1 -1 
+240 1 -1 
+304 1 -1 
+369 1 -1 
+118 1 -1 
+119 1 23 
+190 1 -1 
+Functions: 38
+194 1 -3 
+450 2 -3 -4 
+578 2 -3 -5 
+136 1 106 
+457 1 -3 
+75 2 -3 -4 
+267 2 -3 -4 
+331 2 -3 -4 
+587 2 -3 -5 
+462 2 -3 -4 
+469 1 -3 
+597 1 -3 
+88 2 -3 -5 
+152 2 -2 -3 
+280 2 -3 -5 
+344 2 -3 -5 
+474 2 -3 -4 
+539 2 -3 -5 
+98 1 -3 
+290 1 -3 
+354 1 -3 
+482 2 -3 -4 
+546 1 -3 
+40 1 10 
+552 2 -3 -5 
+234 2 -3 -4 
+171 2 -3 -4 
+366 4 -2 -3 23 106 
+559 1 -3 
+565 2 -3 -5 
+438 2 -3 -4 
+56 2 -2 -3 
+184 2 -3 -5 
+248 2 -2 -3 
+312 2 -2 -3 
+377 4 -2 -3 7 10 
+572 1 -3 
+445 1 -3 
+Constructors: 0
+
+Summary: 9
+-3 -2 0 -4 1 3 2 -5 -1 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.resolveType(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+21
+$r43 1 127 
+r50 2 158 70 
+r4 1 34 
+$r47 1 37 
+r49 2 188 34 
+$r46 1 150 
+$r29 1 420 
+$r45 1 180 
+$r64 1 746 
+$r48 1 1 
+$r65 1 753 
+$r44 1 165 
+$r9 1 92 
+$r28 1 436 
+$r3 1 1 
+r7 1 70 
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+$r5 1 37 
+$r6 1 37 
+Fields: 2
+-1 right 37
+-1 left 1
+Accesses: 41
+0 1 -1 
+512 1 -1 
+258 1 -1 
+12 1 -1 
+524 1 -1 
+13 1 1 
+206 2 34 188 
+718 1 -1 
+336 1 -1 
+593 1 -1 
+340 2 34 188 
+468 2 70 158 
+213 2 70 158 
+86 1 -1 
+406 1 -1 
+23 1 1 
+280 1 -1 
+536 1 -1 
+26 1 -1 
+346 1 -1 
+92 1 92 
+350 2 70 158 
+478 2 34 188 
+673 1 -1 
+291 1 -1 
+36 1 -1 
+741 1 -1 
+618 1 -1 
+236 1 -1 
+557 1 -1 
+749 1 -1 
+367 1 -1 
+48 1 -1 
+49 1 37 
+306 1 -1 
+692 1 -1 
+503 1 -1 
+59 1 37 
+62 1 -1 
+702 1 -1 
+383 1 -1 
+Functions: 44
+384 0 
+133 1 34 
+198 2 70 158 
+455 8 -1 1 -2 34 37 70 188 158 
+393 1 -2 
+521 3 -2 34 188 
+651 4 -1 1 -2 37 
+141 1 70 
+398 3 -1 1 37 
+271 1 -2 
+719 0 
+149 1 -2 
+277 2 -2 70 
+533 3 -2 70 158 
+150 2 150 70 
+728 1 -2 
+410 2 34 188 
+27 2 1 -2 
+91 1 -2 
+669 1 -2 
+733 3 -1 1 37 
+356 1 -2 
+680 0 
+426 2 70 158 
+171 1 70 
+364 7 -1 1 34 37 70 188 158 
+493 7 -1 1 34 37 70 188 158 
+368 0 
+688 1 -2 
+752 1 -2 
+179 1 -2 
+180 2 34 180 
+309 1 -2 
+249 1 -2 
+761 8 -1 753 1 34 37 70 188 158 
+442 8 -1 1 -2 34 37 70 188 158 
+506 1 -2 
+699 0 
+190 2 34 188 
+318 7 -1 1 34 37 70 188 158 
+638 4 -1 1 -2 37 
+63 2 -2 37 
+255 2 -2 34 
+703 0 
+Constructors: 0
+
+Summary: 22
+158 387 70 689 310 272 188 753 180 394 510 0 250 729 722 709 34 670 -1 92 374 150 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.checkNullComparison(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+16
+$r8 1 1 
+r15 1 63 
+r7 1 -6 
+r4 1 -3 
+r13 1 7 
+$r14 1 42 
+r5 1 -4 
+$r1 1 1 
+r3 1 -2 
+$r12 1 1 
+$r10 1 16 
+$r2 1 72 
+r6 1 -5 
+r0 1 -1 
+$r11 1 42 
+$r9 1 42 
+Fields: 4
+7 type 16
+63 type 72
+-1 right 42
+-1 left 1
+Accesses: 10
+0 1 -1 
+16 1 16 
+49 1 -1 
+97 1 -1 
+70 1 63 
+56 1 -1 
+72 1 72 
+41 1 -1 
+105 1 -1 
+14 1 7 
+Functions: 6
+1 1 1 
+98 2 1 -4 
+53 10 -1 16 1 -2 -3 -4 -5 -6 7 42 
+57 1 42 
+42 2 -4 42 
+109 10 -1 1 -2 -3 -4 -5 -6 72 42 63 
+Constructors: 0
+
+Summary: 15
+-3 72 -2 7 0 -4 1 3 16 4 63 2 -5 -1 -6 
+org/eclipse/jdt/internal/compiler/ast/EqualExpression.generateBooleanEqual(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Z)V
+PTG:
+Vars:
+13
+r31 1 30 
+$r9 1 525 
+$r2 1 34 
+$r3 1 311 
+r0 1 -1 
+r5 1 -2 
+$r4 1 321 
+$r7 1 24 
+$r10 1 578 
+$r1 1 24 
+$r8 1 311 
+r6 1 -3 
+r35 1 317 
+Fields: 2
+-1 right 311
+-1 left 24
+Accesses: 26
+0 1 -1 
+67 1 -1 
+387 1 -1 
+199 1 -1 
+337 1 -1 
+401 1 -1 
+23 1 -1 
+152 1 -1 
+216 1 -1 
+474 1 -1 
+347 1 -1 
+412 1 -1 
+543 1 -1 
+289 1 -1 
+162 1 -1 
+227 1 -1 
+484 1 -1 
+40 1 -1 
+554 1 -1 
+299 1 -1 
+495 1 -1 
+310 1 -1 
+374 1 -1 
+57 1 -1 
+505 1 -1 
+189 1 -1 
+Functions: 65
+256 1 -3 
+384 2 -2 -3 
+512 3 -2 -3 311 
+129 1 -3 
+136 1 -3 
+264 1 -3 
+394 2 -2 -3 
+269 1 -3 
+142 1 30 
+398 1 -3 
+274 0 
+530 2 -3 525 
+278 1 -3 
+24 1 24 
+536 2 -3 525 
+283 0 
+540 1 -3 
+159 2 -2 -3 
+416 1 -3 
+421 4 -1 -3 311 24 
+296 2 -2 -3 
+41 0 
+169 2 -2 -3 
+426 0 
+430 1 -3 
+558 1 -3 
+306 2 -2 -3 
+563 4 -1 -3 311 24 
+311 1 311 
+184 1 -3 
+568 1 525 
+441 1 -3 
+572 1 -3 
+64 2 -2 -3 
+449 1 -3 
+196 2 -2 -3 
+454 1 -3 
+327 1 317 
+583 2 578 -3 
+74 2 -2 -3 
+459 0 
+463 1 -3 
+591 2 -3 578 
+81 1 30 
+209 2 -2 -3 
+468 0 
+596 1 -3 
+213 1 -3 
+88 0 
+344 2 -2 -3 
+601 1 525 
+605 1 -3 
+481 2 -2 -3 
+354 2 -2 -3 
+610 1 578 
+231 1 -3 
+617 1 -3 
+491 2 -2 -3 
+108 1 -3 
+236 4 -1 -3 311 24 
+241 0 
+369 1 -3 
+115 1 -3 
+245 1 -3 
+502 3 -2 -3 24 
+Constructors: 2
+530 525
+583 578
+
+Summary: 14
+-3 317 364 525 -2 578 179 0 30 251 436 1 -1 47 

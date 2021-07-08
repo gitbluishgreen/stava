@@ -1,0 +1,1453 @@
+35
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.getScannerStateName(I)Ljava/lang/String;
+PTG:
+Vars:
+7
+$r2 1 126 
+$r0 1 113 
+_ret 1 134 
+$r3 1 131 
+r5 1 -1 
+$r1 1 122 
+$r4 1 134 
+Fields: 0
+Accesses: 0
+Functions: 5
+113 1 113 
+131 1 131 
+117 1 113 
+122 1 122 
+126 1 126 
+Constructors: 1
+117 113
+
+Summary: 2
+131 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanEndElement()I
+PTG:
+Vars:
+21
+$r17 1 19 
+$r16 1 5 
+$r15 1 72 
+$r1 1 5 
+$r9 1 147 
+$r7 1 12 
+$r8 1 113 
+$r10 1 5 
+$r5 1 12 
+$r22 1 19 
+$r4 1 19 
+r0 1 -1 
+$r11 1 147 
+$r12 1 130 
+$r14 1 139 
+$r2 1 1 
+$r3 1 5 
+$r13 1 136 
+$r21 1 5 
+$r6 1 12 
+$r20 1 32 
+Fields: 8
+5 rawname 19
+136 rawname 139
+-1 fEntityScanner 12
+-1 fElementStack 1
+-1 fCurrentElement 136
+-1 fDocumentHandler 147
+-1 fElementQName 5
+-1 fEntityStack 113
+Accesses: 24
+0 1 -1 
+98 1 -1 
+4 1 -1 
+37 1 -1 
+38 1 5 
+135 1 -1 
+167 1 -1 
+136 1 136 
+105 1 -1 
+11 1 -1 
+108 1 -1 
+77 1 -1 
+78 1 5 
+15 1 -1 
+16 1 5 
+48 1 -1 
+112 1 -1 
+146 1 -1 
+116 1 -1 
+56 1 -1 
+88 1 -1 
+153 1 -1 
+157 1 -1 
+95 1 -1 
+Functions: 8
+162 3 147 19 5 
+52 1 12 
+85 10 -1 1 113 147 19 5 136 72 139 12 
+8 3 1 19 5 
+57 1 12 
+12 2 19 12 
+45 10 -1 32 1 113 147 19 5 136 139 12 
+143 10 -1 1 113 130 147 19 5 136 139 12 
+Constructors: 0
+
+Summary: 4
+72 32 -1 130 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.startEntity(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+15
+$r10 1 5 
+r3 1 -2 
+$r9 1 89 
+r0 1 -1 
+$r8 1 75 
+r5 1 -4 
+$r7 1 100 
+r11 1 19 
+$r14 1 100 
+$r1 1 5 
+r6 1 -5 
+$r12 1 5 
+$r13 1 5 
+$r2 1 5 
+r4 1 -3 
+Fields: 3
+-1 fDocumentHandler 100
+-1 fEntityManager 75
+-1 fEntityStack 5
+Accesses: 14
+0 1 -1 
+67 1 -1 
+99 1 -1 
+4 1 -1 
+42 1 -1 
+74 1 -1 
+106 1 -1 
+12 1 -1 
+45 1 -1 
+49 1 -1 
+53 1 -1 
+23 1 -1 
+122 1 -1 
+31 1 -1 
+Functions: 6
+64 8 -1 -2 -3 -4 100 -5 5 75 
+96 5 -1 100 5 89 75 
+113 1 -2 
+131 5 -2 -3 -4 100 -5 
+36 2 19 5 
+75 2 -2 75 
+Constructors: 0
+
+Summary: 9
+1 89 -3 0 -5 3 2 -1 -4 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanDocument(Z)Z
+PTG:
+Vars:
+5
+$r4 1 20 
+$r2 1 5 
+r0 1 -1 
+$r1 1 2 
+$r3 1 2 
+Fields: 2
+-1 fEntityManager 2
+-1 fDispatcher 20
+Accesses: 4
+1 1 -1 
+19 1 -1 
+8 1 -1 
+11 1 -1 
+Functions: 3
+16 3 -1 2 20 
+2 1 2 
+20 1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanComment()V
+PTG:
+Vars:
+5
+$r3 1 2 
+$r1 1 2 
+r0 1 -1 
+$r4 1 19 
+$r2 1 19 
+Fields: 2
+-1 fStringBuffer 2
+-1 fDocumentHandler 19
+Accesses: 6
+1 1 -1 
+18 1 -1 
+8 1 -1 
+25 1 -1 
+29 1 -1 
+15 1 -1 
+Functions: 2
+34 2 2 19 
+5 3 -1 2 19 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.endEntity(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+11
+r1 1 -2 
+$r10 1 57 
+r2 1 -3 
+$r3 1 18 
+$r6 1 18 
+$r7 1 8 
+$r8 1 18 
+$r4 1 18 
+$r9 1 8 
+r0 1 -1 
+$r5 1 8 
+Fields: 3
+-1 fStringBuffer 8
+-1 fDocumentHandler 18
+-1 fEntityStack 57
+Accesses: 14
+0 1 -1 
+98 1 -1 
+38 1 -1 
+7 1 -1 
+8 1 8 
+43 1 8 
+75 1 -1 
+17 1 -1 
+82 1 -1 
+52 1 -1 
+24 1 -1 
+56 1 -1 
+28 1 -1 
+60 1 -1 
+Functions: 5
+33 2 18 8 
+49 6 -1 -2 18 -3 8 57 
+72 4 -1 18 8 57 
+104 3 -2 18 -3 
+89 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 1 -3 0 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.setFeature(Ljava/lang/String;Z)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 19 
+$r3 1 27 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+46 1 -1 
+Functions: 6
+3 2 -1 -2 
+19 1 19 
+35 1 -2 
+6 1 -2 
+27 1 27 
+15 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanStartElementName()V
+PTG:
+Vars:
+7
+r2 1 29 
+$r6 1 8 
+$r1 1 23 
+r0 1 -1 
+$r5 1 12 
+$r3 1 31 
+$r4 2 23 8 
+Fields: 4
+-1 fEntityScanner 8
+-1 fEntityScanner 23
+-1 fElementQName 12
+-1 fElementQName 31
+Accesses: 7
+0 1 -1 
+49 1 -1 
+22 1 -1 
+7 1 -1 
+42 1 -1 
+11 1 -1 
+30 1 -1 
+Functions: 4
+38 2 29 31 
+23 1 23 
+43 2 23 8 
+15 2 8 12 
+Constructors: 0
+
+Summary: 2
+29 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.access$000(Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;)Lorg/apache/xerces/util/XMLStringBuffer;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-2 fStringBuffer 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.getDispatcherName(Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl$Dispatcher;)Ljava/lang/String;
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.createContentDispatcher()Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl$Dispatcher;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -1 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanStartElementAfterName()Z
+PTG:
+Vars:
+28
+$r19 1 1 
+$r20 1 10 
+r0 1 -1 
+$r27 1 33 
+$r13 1 1 
+$r24 1 87 
+$r18 1 169 
+$r21 1 211 
+$r7 1 33 
+$r10 1 33 
+$r22 1 217 
+r2 1 7 
+$r1 1 1 
+$r6 1 26 
+$r17 1 1 
+$r16 1 26 
+$r8 1 136 
+$r9 1 33 
+$r12 1 26 
+$r25 1 33 
+$r26 1 26 
+$r5 1 17 
+$r3 1 1 
+$r11 1 169 
+$r4 1 10 
+$r14 1 169 
+$r15 1 194 
+$r23 1 220 
+Fields: 9
+217 rawname 220
+1 rawname 7
+-1 fEntityScanner 33
+-1 fElementStack 10
+-1 fDocumentHandler 169
+-1 fCurrentElement 217
+-1 fAttributes 26
+-1 fElementQName 1
+-1 fEntityStack 194
+Accesses: 31
+0 1 -1 
+1 1 1 
+193 1 -1 
+259 1 -1 
+197 1 -1 
+71 1 -1 
+263 1 -1 
+9 1 -1 
+267 1 -1 
+13 1 -1 
+147 1 -1 
+20 1 -1 
+216 1 -1 
+25 1 -1 
+217 1 217 
+155 1 -1 
+32 1 -1 
+162 1 -1 
+227 1 -1 
+231 1 -1 
+168 1 -1 
+235 1 -1 
+46 1 -1 
+110 1 -1 
+179 1 -1 
+245 1 -1 
+249 1 -1 
+186 1 -1 
+125 1 -1 
+189 1 -1 
+63 1 -1 
+Functions: 16
+224 11 -1 33 1 194 211 7 169 217 10 26 220 
+33 1 33 
+67 1 33 
+102 10 -1 33 1 194 7 169 217 10 26 220 
+72 1 33 
+10 3 1 7 10 
+143 11 -1 33 1 194 7 136 169 217 10 26 220 
+240 4 1 7 169 26 
+272 4 1 7 169 26 
+50 1 33 
+117 10 -1 33 1 194 7 169 217 10 26 220 
+151 10 -1 33 1 194 7 169 217 10 26 220 
+156 1 33 
+29 1 26 
+253 3 1 7 10 
+94 11 -1 33 1 194 7 87 169 217 10 26 220 
+Constructors: 0
+
+Summary: 4
+136 87 -1 211 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.setInputSource(Lorg/apache/xerces/xni/parser/XMLInputSource;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+$r3 1 1 
+Fields: 1
+-1 fEntityManager 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+17 2 1 -2 
+5 2 -1 1 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.<clinit>()V
+PTG:
+Vars:
+6
+$r4 1 55 
+$r1 1 28 
+$r0 1 1 
+$r3 1 47 
+$r2 1 41 
+$r5 1 82 
+Fields: 8
+55 ArrayObject 77
+55 ArrayObject 67
+55 ArrayObject 72
+55 ArrayObject 62
+1 ArrayObject 18
+1 ArrayObject 23
+1 ArrayObject 13
+1 ArrayObject 8
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.reset(Lorg/apache/xerces/xni/parser/XMLComponentManager;)V
+PTG:
+Vars:
+9
+$r3 1 27 
+$r4 1 56 
+r0 1 -1 
+$r2 1 6 
+r9 1 98 
+$r7 1 -1 
+$r10 1 98 
+$r6 1 -1 
+r1 1 -2 
+Fields: 3
+-1 fContentDispatcher 56
+-1 fElementStack 27
+-1 fAttributes 6
+Accesses: 14
+35 1 -1 
+5 1 -1 
+40 1 -1 
+9 1 -1 
+45 1 -1 
+78 1 -1 
+18 1 -1 
+115 1 -1 
+23 1 -1 
+55 1 -1 
+87 1 -1 
+26 1 -1 
+124 1 -1 
+62 1 -1 
+Functions: 7
+2 5 -1 -2 6 56 27 
+51 4 -1 6 56 27 
+70 1 -2 
+90 1 -2 
+59 4 -1 6 56 27 
+13 1 6 
+30 1 27 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.handleCharacter(CLjava/lang/String;)V
+PTG:
+Vars:
+10
+$r8 1 1 
+$r5 1 35 
+$r9 1 1 
+$r6 1 1 
+$r2 1 28 
+r0 1 -1 
+$r4 1 35 
+r7 1 -3 
+$r3 1 28 
+$r1 1 1 
+Fields: 3
+-1 fSingleChar 28
+-1 fDocumentHandler 1
+-1 fTempString 35
+Accesses: 10
+0 1 -1 
+34 1 -1 
+51 1 -1 
+68 1 -1 
+38 1 -1 
+7 1 -1 
+27 1 -1 
+61 1 -1 
+14 1 -1 
+47 1 -1 
+Functions: 4
+22 2 1 -3 
+56 2 1 35 
+74 2 1 -3 
+44 2 35 28 
+Constructors: 0
+
+Summary: 2
+-3 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.getRecognizedProperties()[Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 3 
+$r0 1 0 
+$r1 1 3 
+$r2 1 3 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.setScannerState(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanPIData(Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+$r3 1 17 
+$r4 1 17 
+r2 1 -3 
+r0 1 -1 
+Fields: 1
+-1 fDocumentHandler 17
+Accesses: 4
+16 1 -1 
+6 1 -1 
+23 1 -1 
+13 1 -1 
+Functions: 2
+3 4 -1 17 -2 -3 
+30 3 17 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 -3 0 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.getFeatureDefault(Ljava/lang/String;)Ljava/lang/Boolean;
+PTG:
+Vars:
+5
+$r3 1 9 
+$r0 1 27 
+r6 1 -1 
+r2 1 -2 
+$r1 1 5 
+Fields: 1
+5 ArrayObject 9
+Accesses: 0
+Functions: 1
+9 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanCharReference()V
+PTG:
+Vars:
+15
+$r8 1 115 
+$r1 1 1 
+r0 1 -1 
+$r4 1 51 
+$r12 1 33 
+$r2 1 1 
+$r3 1 33 
+$r10 1 78 
+$r14 1 33 
+$r7 1 97 
+$r15 1 1 
+$r11 1 51 
+r13 1 78 
+$r6 1 78 
+$r5 1 33 
+Fields: 4
+-1 fDocumentHandler 33
+-1 fStringBuffer2 1
+-1 fCharRefLiteral 51
+-1 fTempAugmentations 78
+Accesses: 18
+0 1 -1 
+32 1 -1 
+64 1 -1 
+128 1 -1 
+39 1 -1 
+8 1 -1 
+104 1 -1 
+138 1 -1 
+107 1 -1 
+77 1 -1 
+46 1 -1 
+17 1 -1 
+145 1 -1 
+50 1 -1 
+84 1 -1 
+149 1 -1 
+24 1 -1 
+124 1 -1 
+Functions: 8
+4 1 1 
+101 1 97 
+133 3 33 1 78 
+118 2 115 78 
+7 5 -1 33 1 51 78 
+88 1 78 
+57 2 33 51 
+154 2 33 51 
+Constructors: 1
+101 97
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanEntityReference()V
+PTG:
+Vars:
+22
+$r22 1 152 
+$r8 1 133 
+$r13 1 212 
+$r7 1 114 
+$r14 1 166 
+r0 1 -1 
+$r4 1 57 
+$r6 1 95 
+$r10 1 152 
+$r20 1 36 
+$r11 1 238 
+$r16 1 123 
+$r5 1 76 
+$r3 1 1 
+r2 1 7 
+$r18 1 85 
+$r17 1 104 
+$r19 1 66 
+$r1 1 1 
+$r15 1 142 
+$r9 1 152 
+$r12 1 220 
+Fields: 3
+-1 fEntityScanner 1
+-1 fEntityManager 152
+-1 fErrorReporter 212
+Accesses: 11
+0 1 -1 
+179 1 -1 
+211 1 -1 
+20 1 -1 
+53 1 -1 
+197 1 -1 
+151 1 -1 
+248 1 -1 
+204 1 -1 
+46 1 -1 
+190 1 -1 
+Functions: 15
+1 1 1 
+228 2 212 220 
+69 5 -1 1 66 212 152 
+43 5 -1 1 212 36 152 
+107 5 -1 1 212 152 104 
+173 5 -1 1 212 166 152 
+16 4 -1 1 212 152 
+145 5 -1 1 212 152 142 
+180 2 7 152 
+21 1 1 
+245 5 -1 1 212 152 238 
+88 5 -1 1 212 85 152 
+152 2 7 152 
+126 5 -1 1 212 152 123 
+254 2 7 152 
+Constructors: 0
+
+Summary: 5
+220 166 238 36 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.<init>()V
+PTG:
+Vars:
+15
+$r3 1 34 
+$r5 1 52 
+$r14 1 144 
+$r13 1 138 
+r0 1 -1 
+$r2 1 17 
+$r7 1 74 
+$r1 1 6 
+$r12 1 126 
+$r8 1 85 
+$r9 1 97 
+$r11 1 115 
+$r6 1 63 
+$r10 1 104 
+$r4 1 41 
+Fields: 0
+Accesses: 17
+100 1 -1 
+37 1 -1 
+133 1 -1 
+70 1 -1 
+8 1 -1 
+140 1 -1 
+13 1 -1 
+111 1 -1 
+48 1 -1 
+81 1 -1 
+151 1 -1 
+24 1 -1 
+122 1 -1 
+59 1 -1 
+92 1 -1 
+156 1 -1 
+29 1 -1 
+Functions: 12
+1 1 -1 
+33 1 -1 
+130 1 126 
+67 1 63 
+148 1 144 
+21 1 17 
+119 1 115 
+56 1 52 
+89 1 85 
+108 1 104 
+45 1 41 
+78 1 74 
+Constructors: 11
+1 -1
+130 126
+67 63
+148 144
+21 17
+119 115
+56 52
+89 85
+108 104
+45 41
+78 74
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.getDocumentHandler()Lorg/apache/xerces/xni/XMLDocumentHandler;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.setDispatcher(Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl$Dispatcher;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanCDATASection(Z)Z
+PTG:
+Vars:
+42
+$r33 1 1 
+$r38 1 21 
+$r39 1 28 
+$r17 1 1 
+$r34 1 21 
+$r11 1 1 
+$r7 1 21 
+$r8 1 21 
+$r14 1 1 
+$r19 1 21 
+$r9 1 1 
+$r10 1 21 
+$r5 1 410 
+r0 1 -1 
+$r4 1 402 
+$r20 1 21 
+$r16 1 1 
+$r21 1 1 
+$r36 1 1 
+$r15 1 28 
+$r30 2 165 1 
+$r29 2 21 169 
+$r23 1 1 
+$r37 1 1 
+$r12 1 21 
+$r18 1 21 
+$r27 1 1 
+$r3 1 28 
+$r6 1 28 
+$r40 1 21 
+$r2 1 1 
+$r26 1 21 
+$r13 1 1 
+$r31 1 21 
+$r22 1 1 
+$r28 2 139 21 
+$r1 1 1 
+$r41 1 28 
+$r32 1 21 
+$r35 1 21 
+$r25 2 21 224 
+$r24 1 21 
+Fields: 3
+-1 fEntityScanner 28
+-1 fStringBuffer 21
+-1 fDocumentHandler 1
+Accesses: 43
+0 1 -1 
+64 1 -1 
+192 1 -1 
+320 1 -1 
+385 1 -1 
+198 1 21 
+7 1 -1 
+201 1 -1 
+138 1 -1 
+330 1 -1 
+205 1 -1 
+269 1 -1 
+82 1 -1 
+20 1 -1 
+276 1 -1 
+27 1 -1 
+283 1 -1 
+94 1 -1 
+223 1 -1 
+33 1 -1 
+417 1 -1 
+164 1 -1 
+292 1 -1 
+358 1 -1 
+168 1 -1 
+296 1 -1 
+105 1 -1 
+43 1 -1 
+428 1 -1 
+366 1 -1 
+240 1 -1 
+50 1 -1 
+51 1 21 
+435 1 -1 
+244 1 -1 
+309 1 -1 
+374 1 -1 
+438 1 -1 
+60 1 -1 
+316 1 -1 
+381 1 -1 
+445 1 -1 
+254 1 -1 
+Functions: 26
+450 1 1 
+69 2 1 21 
+325 2 1 21 
+390 2 1 21 
+331 1 28 
+12 1 1 
+144 2 21 139 
+210 2 1 21 
+83 1 28 
+343 4 -1 1 21 28 
+24 1 21 
+280 1 21 
+408 0 
+28 2 21 28 
+414 5 -1 1 402 21 28 
+351 0 
+289 1 21 
+229 2 224 21 
+421 1 28 
+362 1 21 
+109 1 21 
+173 4 1 165 21 169 
+301 2 1 21 
+370 4 -1 1 21 28 
+249 2 1 21 
+255 1 28 
+Constructors: 0
+
+Summary: 2
+402 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.setDocumentHandler(Lorg/apache/xerces/xni/XMLDocumentHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanAttribute(Lorg/apache/xerces/xni/XMLAttributes;)V
+PTG:
+Vars:
+32
+$r3 2 23 8 
+$r15 1 84 
+$r25 1 188 
+r6 1 -2 
+$r1 1 23 
+$r29 1 74 
+$r27 1 84 
+$r21 1 12 
+$r5 2 23 8 
+r23 1 29 
+$r12 1 71 
+$r31 1 218 
+$r22 1 8 
+$r17 1 71 
+$r19 2 12 31 
+$r9 1 188 
+$r18 1 74 
+r0 1 -1 
+$r10 1 237 
+$r20 1 84 
+$r2 1 31 
+$r4 2 23 8 
+$r26 2 12 31 
+$r30 1 184 
+$r8 2 12 31 
+$r13 1 74 
+$r28 1 71 
+$r14 2 12 31 
+$r16 1 65 
+$r7 1 111 
+$r24 1 184 
+$r11 1 135 
+Fields: 10
+12 rawname 84
+31 rawname 84
+71 rawname 74
+-1 fEntityScanner 8
+-1 fEntityScanner 23
+-1 fTempString2 188
+-1 fCurrentElement 71
+-1 fTempString 184
+-1 fAttributeQName 12
+-1 fAttributeQName 31
+Accesses: 27
+0 1 -1 
+192 2 12 31 
+70 1 -1 
+7 1 -1 
+71 1 71 
+200 1 -1 
+201 1 71 
+11 1 -1 
+140 1 -1 
+141 1 71 
+80 1 -1 
+81 2 12 31 
+22 1 -1 
+150 1 -1 
+214 1 -1 
+151 2 12 31 
+91 1 -1 
+30 1 -1 
+161 1 -1 
+168 1 -1 
+41 1 -1 
+233 1 -1 
+107 1 -1 
+49 1 -1 
+183 1 -1 
+187 1 -1 
+191 1 -1 
+Functions: 17
+99 1 -2 
+38 3 84 29 31 
+106 5 -2 84 12 31 111 
+234 1 188 
+45 2 23 8 
+15 3 84 8 12 
+240 2 -2 237 
+50 2 23 8 
+182 10 -1 84 23 71 8 184 74 188 12 31 
+23 1 23 
+215 1 184 
+88 11 -1 65 84 23 71 8 184 74 188 12 31 
+248 1 -2 
+122 1 -2 
+221 2 -2 218 
+158 11 -1 84 23 71 135 8 184 74 188 12 31 
+95 2 23 8 
+Constructors: 0
+
+Summary: 8
+218 29 -2 65 0 135 237 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.getPropertyDefault(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+$r1 1 5 
+r6 1 -1 
+r2 1 -2 
+$r3 1 9 
+$r0 1 27 
+Fields: 1
+5 ArrayObject 9
+Accesses: 0
+Functions: 1
+9 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.getRecognizedFeatures()[Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 3 
+$r2 1 3 
+_ret 1 3 
+$r0 1 0 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanContent()I
+PTG:
+Vars:
+23
+$r17 1 29 
+$r22 1 63 
+$r7 1 6 
+$r14 1 6 
+$r15 1 63 
+$r13 2 155 29 
+$r16 1 6 
+$r1 1 6 
+$r18 1 4 
+$r4 1 29 
+$r11 1 29 
+$r12 1 6 
+$r20 1 29 
+r0 1 -1 
+$r9 1 29 
+$r10 1 63 
+$r3 1 4 
+$r19 1 29 
+$r8 1 29 
+r21 2 4 29 
+$r2 1 63 
+$r6 1 29 
+$r5 1 6 
+Fields: 4
+-1 fEntityScanner 6
+-1 fStringBuffer 29
+-1 fTempString 4
+-1 fDocumentHandler 63
+Accesses: 28
+0 1 -1 
+130 1 -1 
+194 1 -1 
+5 1 -1 
+69 2 4 29 
+201 1 -1 
+202 1 29 
+76 1 -1 
+142 1 -1 
+211 1 -1 
+20 1 -1 
+215 1 -1 
+154 1 -1 
+28 1 -1 
+93 1 -1 
+94 1 4 
+35 1 -1 
+163 1 -1 
+227 1 -1 
+39 1 -1 
+103 1 -1 
+46 1 -1 
+110 1 -1 
+175 1 -1 
+114 1 -1 
+55 1 -1 
+62 1 -1 
+127 1 -1 
+Functions: 16
+32 1 29 
+160 2 155 29 
+131 1 6 
+164 1 6 
+6 3 4 6 29 
+43 2 4 29 
+107 1 29 
+176 1 6 
+82 3 4 29 63 
+115 1 6 
+52 1 29 
+148 1 29 
+24 1 6 
+122 1 29 
+220 2 29 63 
+191 5 -1 4 6 29 63 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.setProperty(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+6
+r1 1 -2 
+$r3 1 19 
+r2 1 -3 
+$r5 1 54 
+$r4 1 27 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+49 1 -1 
+87 1 -1 
+Functions: 8
+3 3 -1 -2 -3 
+19 1 19 
+35 1 -2 
+6 1 -2 
+54 1 54 
+27 1 27 
+62 1 -2 
+15 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 1 0 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanStartElement()Z
+PTG:
+Vars:
+33
+$r23 1 257 
+$r31 2 23 8 
+$r1 1 23 
+$r8 1 184 
+$r18 1 206 
+$r12 1 67 
+$r25 2 23 8 
+$r20 1 51 
+$r3 2 12 31 
+$r7 1 67 
+$r19 2 12 31 
+$r11 1 206 
+$r32 1 67 
+$r27 1 8 
+$r14 1 206 
+$r21 1 248 
+$r9 2 23 8 
+$r2 1 31 
+$r22 1 254 
+$r16 1 67 
+r28 1 29 
+$r15 1 231 
+r0 1 -1 
+$r10 2 23 8 
+$r30 2 23 8 
+$r5 1 51 
+$r4 2 12 31 
+r29 1 48 
+$r17 2 12 31 
+$r6 1 58 
+$r24 1 139 
+$r26 1 12 
+$r13 2 12 31 
+Fields: 12
+12 rawname 48
+31 rawname 48
+254 rawname 257
+-1 fEntityScanner 8
+-1 fEntityScanner 23
+-1 fElementStack 51
+-1 fDocumentHandler 206
+-1 fCurrentElement 254
+-1 fAttributes 67
+-1 fElementQName 12
+-1 fElementQName 31
+-1 fEntityStack 231
+Accesses: 33
+0 1 -1 
+66 1 -1 
+195 1 -1 
+7 1 -1 
+264 1 -1 
+73 1 -1 
+11 1 -1 
+268 1 -1 
+205 1 -1 
+272 1 -1 
+81 1 -1 
+22 1 -1 
+216 1 -1 
+282 1 -1 
+30 1 -1 
+286 1 -1 
+223 1 -1 
+97 1 -1 
+226 1 -1 
+230 1 -1 
+296 1 -1 
+41 1 -1 
+42 2 12 31 
+234 1 -1 
+300 1 -1 
+304 1 -1 
+50 1 -1 
+115 1 -1 
+54 1 -1 
+123 1 -1 
+61 1 -1 
+253 1 -1 
+254 1 254 
+Functions: 19
+290 4 48 51 12 31 
+101 2 23 8 
+261 13 -1 257 67 231 8 12 206 48 51 23 248 254 31 
+38 3 48 29 31 
+70 1 67 
+167 12 -1 48 257 51 67 23 231 8 12 206 254 31 
+199 12 -1 48 257 51 67 23 231 8 12 206 254 31 
+74 2 23 8 
+15 3 48 8 12 
+82 2 23 8 
+146 13 -1 257 67 231 8 139 12 206 48 51 23 254 31 
+51 4 48 51 12 31 
+277 5 48 67 12 206 31 
+309 5 48 67 12 206 31 
+23 1 23 
+119 2 23 8 
+154 12 -1 48 257 51 67 23 231 8 12 206 254 31 
+124 2 23 8 
+191 13 -1 257 67 231 8 12 206 48 51 23 184 254 31 
+Constructors: 0
+
+Summary: 5
+29 184 248 139 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.handleEndElement(Lorg/apache/xerces/xni/QName;Z)I
+PTG:
+Vars:
+15
+$r13 1 38 
+$r11 1 66 
+$r14 1 41 
+$r12 1 32 
+$r3 1 54 
+$r6 1 62 
+$r10 1 76 
+r2 1 52 
+$r1 1 15 
+$r9 1 98 
+r0 1 -1 
+$r8 1 105 
+$r5 1 66 
+$r7 1 105 
+r4 1 -2 
+Fields: 9
+52 rawname 66
+52 uri 98
+38 rawname 41
+-2 rawname 62
+-1 fElementStack 54
+-1 fCurrentElement 38
+-1 fDocumentHandler 105
+-1 fQName 52
+-1 fEntityStack 15
+Accesses: 18
+0 1 -1 
+65 1 52 
+97 1 52 
+37 1 -1 
+101 1 -2 
+38 1 38 
+7 1 -1 
+104 1 -1 
+10 1 -1 
+14 1 -1 
+48 1 -1 
+81 1 52 
+18 1 -1 
+115 1 -1 
+53 1 -1 
+89 1 -1 
+61 1 -2 
+126 1 -1 
+Functions: 4
+86 10 -1 66 98 52 54 38 105 41 76 15 
+121 3 -2 105 62 
+58 4 66 98 52 54 
+45 10 -1 32 66 98 52 54 38 105 41 15 
+Constructors: 0
+
+Summary: 5
+76 62 -2 32 -1 
+org/apache/xerces/impl/XMLDocumentFragmentScannerImpl.scanXMLDeclOrTextDecl(Z)V
+PTG:
+Vars:
+16
+$r1 1 3 
+$r8 1 77 
+$r2 1 3 
+r3 1 25 
+$r6 1 3 
+$r16 1 85 
+$r12 1 85 
+$r11 1 85 
+r0 1 -1 
+$r4 1 3 
+r5 1 32 
+$r9 1 132 
+r7 1 39 
+$r14 1 66 
+$r10 1 77 
+$r15 1 77 
+Fields: 8
+3 ArrayObject 25
+3 ArrayObject 32
+3 ArrayObject 39
+77 fCurrentEntity 132
+-1 fEntityScanner 77
+-1 fDocumentHandler 85
+-1 fEntityManager 66
+-1 fStrings 3
+Accesses: 16
+128 1 -1 
+33 1 -1 
+65 1 -1 
+129 1 77 
+2 1 -1 
+69 1 -1 
+9 1 -1 
+76 1 -1 
+141 1 -1 
+110 1 -1 
+16 1 -1 
+19 1 -1 
+84 1 -1 
+26 1 -1 
+62 1 -1 
+95 1 -1 
+Functions: 8
+81 3 132 25 77 
+146 3 32 132 77 
+132 1 132 
+6 9 -1 32 66 3 132 85 39 25 77 
+102 3 32 85 25 
+119 4 32 85 39 25 
+73 1 66 
+47 1 39 
+Constructors: 0
+
+Summary: 1
+-1 

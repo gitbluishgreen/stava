@@ -1,0 +1,1311 @@
+57
+java/util/concurrent/LinkedBlockingDeque.removeFirst()Ljava/lang/Object;
+PTG:
+Vars:
+3
+r1 1 4 
+r0 1 -1 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.unlinkLast()Ljava/lang/Object;
+PTG:
+Vars:
+6
+r0 1 -1 
+r2 1 15 
+$r4 1 64 
+r3 1 20 
+_ret 1 20 
+r1 1 4 
+Fields: 4
+4 item 20
+4 prev 15
+-1 notFull 64
+-1 last 4
+Accesses: 11
+0 1 -1 
+16 1 4 
+33 1 -1 
+50 1 15 
+53 1 -1 
+23 1 4 
+42 1 -1 
+11 1 4 
+28 1 4 
+60 1 -1 
+63 1 -1 
+Functions: 1
+67 1 64 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.<init>(I)V
+PTG:
+Vars:
+6
+$r3 1 20 
+$r4 1 17 
+$r5 1 31 
+$r1 1 5 
+$r2 1 17 
+r0 1 -1 
+Fields: 1
+-1 lock 17
+Accesses: 6
+16 1 -1 
+34 1 -1 
+51 1 -1 
+23 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 5
+1 2 -1 17 
+17 1 17 
+9 1 5 
+28 1 17 
+45 0 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.pollFirst()Ljava/lang/Object;
+PTG:
+Vars:
+4
+r2 1 13 
+r0 1 -1 
+r1 1 4 
+$r3 1 -1 
+Fields: 1
+-1 lock 4
+Accesses: 1
+0 1 -1 
+Functions: 4
+6 1 4 
+22 1 4 
+9 2 -1 4 
+15 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.pollFirst(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+$r6 1 -1 
+r1 1 -1 
+r2 1 11 
+$r3 1 19 
+r0 1 -3 
+$r5 1 47 
+Fields: 2
+-1 lock 11
+-1 notEmpty 47
+Accesses: 2
+7 1 -1 
+46 1 -1 
+Functions: 7
+0 1 -3 
+18 3 -1 11 47 
+68 1 11 
+40 1 11 
+78 1 11 
+15 1 11 
+47 1 47 
+Constructors: 0
+
+Summary: 3
+-1 -3 1 
+java/util/concurrent/LinkedBlockingDeque.getLast()Ljava/lang/Object;
+PTG:
+Vars:
+3
+r1 1 4 
+r0 1 -1 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.addFirst(Ljava/lang/Object;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+14 0 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/util/concurrent/LinkedBlockingDeque.add(Ljava/lang/Object;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/util/concurrent/LinkedBlockingDeque.remove()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.removeLast()Ljava/lang/Object;
+PTG:
+Vars:
+3
+r1 1 4 
+r0 1 -1 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.offerLast(Ljava/lang/Object;)Z
+PTG:
+Vars:
+5
+r3 1 -1 
+r0 1 -2 
+$r1 1 12 
+r4 1 25 
+$r6 1 -1 
+Fields: 1
+-1 lock 25
+Accesses: 1
+21 1 -1 
+Functions: 6
+17 2 -2 12 
+38 1 25 
+8 0 
+27 1 25 
+30 3 -1 25 12 
+47 1 25 
+Constructors: 1
+17 12
+
+Summary: 4
+-1 -2 0 12 
+java/util/concurrent/LinkedBlockingDeque.peek()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.putLast(Ljava/lang/Object;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+$r1 1 12 
+$r5 1 39 
+r4 1 25 
+r3 1 -1 
+Fields: 2
+-1 notFull 39
+-1 lock 25
+Accesses: 2
+21 1 -1 
+38 1 -1 
+Functions: 7
+17 2 -2 12 
+51 1 25 
+8 0 
+42 1 39 
+27 1 25 
+60 1 25 
+30 4 -1 39 25 12 
+Constructors: 1
+17 12
+
+Summary: 3
+-1 -2 12 
+java/util/concurrent/LinkedBlockingDeque.<init>(Ljava/util/Collection;)V
+PTG:
+Vars:
+6
+r1 1 10 
+r3 1 21 
+r0 1 -1 
+r4 1 37 
+r2 1 -2 
+$r5 1 53 
+Fields: 1
+-1 lock 10
+Accesses: 1
+6 1 -1 
+Functions: 11
+48 0 
+82 1 10 
+3 2 -1 10 
+52 3 -1 53 10 
+22 1 21 
+74 0 
+59 2 53 37 
+91 1 10 
+12 1 10 
+15 1 -2 
+31 1 21 
+Constructors: 2
+3 -1
+59 53
+
+Summary: 5
+37 21 -1 -2 53 
+java/util/concurrent/LinkedBlockingDeque.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 23 
+r1 1 -1 
+Fields: 0
+Accesses: 3
+16 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 3
+1 1 -2 
+33 2 -1 23 
+19 1 -2 
+Constructors: 0
+
+Summary: 3
+23 -1 -2 
+java/util/concurrent/LinkedBlockingDeque.offer(Ljava/lang/Object;JLjava/util/concurrent/TimeUnit;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -4 
+Constructors: 0
+
+Summary: 3
+-1 -2 -4 
+java/util/concurrent/LinkedBlockingDeque.takeFirst()Ljava/lang/Object;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 10 
+r1 1 4 
+$r6 1 -1 
+$r5 1 19 
+Fields: 2
+-1 lock 4
+-1 notEmpty 19
+Accesses: 2
+0 1 -1 
+18 1 -1 
+Functions: 5
+33 1 4 
+6 1 4 
+22 1 19 
+9 3 -1 19 4 
+41 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.drainTo(Ljava/util/Collection;I)I
+PTG:
+Vars:
+6
+$r8 1 -1 
+r0 1 -2 
+$r3 1 62 
+r1 1 -1 
+r2 1 35 
+$r4 1 65 
+Fields: 3
+-1 lock 35
+-1 first 62
+62 item 65
+Accesses: 4
+41 1 -1 
+61 1 -1 
+62 1 62 
+31 1 -1 
+Functions: 8
+99 1 35 
+68 2 -2 65 
+21 0 
+37 1 35 
+8 0 
+42 0 
+90 1 35 
+75 4 -1 65 35 62 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/util/concurrent/LinkedBlockingDeque.pop()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.pollLast()Ljava/lang/Object;
+PTG:
+Vars:
+4
+$r3 1 -1 
+r2 1 13 
+r1 1 4 
+r0 1 -1 
+Fields: 1
+-1 lock 4
+Accesses: 1
+0 1 -1 
+Functions: 4
+6 1 4 
+22 1 4 
+9 2 -1 4 
+15 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.pollLast(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+$r5 1 47 
+$r6 1 -1 
+$r3 1 19 
+r2 1 11 
+r1 1 -1 
+r0 1 -3 
+Fields: 2
+-1 lock 11
+-1 notEmpty 47
+Accesses: 2
+7 1 -1 
+46 1 -1 
+Functions: 7
+0 1 -3 
+18 3 -1 11 47 
+68 1 11 
+40 1 11 
+78 1 11 
+15 1 11 
+47 1 47 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+java/util/concurrent/LinkedBlockingDeque.linkLast(Ljava/util/concurrent/LinkedBlockingDeque$Node;)Z
+PTG:
+Vars:
+5
+r2 1 -2 
+r0 1 -1 
+$r3 1 29 
+$r4 1 59 
+r1 1 17 
+Fields: 3
+-1 last 17
+-1 notEmpty 59
+-1 first 29
+Accesses: 11
+0 1 -1 
+48 1 -1 
+4 1 -1 
+20 1 -2 
+37 1 -1 
+55 1 -1 
+25 1 -1 
+58 1 -1 
+28 1 -1 
+13 1 -1 
+45 1 17 
+Functions: 1
+62 1 59 
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/util/concurrent/LinkedBlockingDeque.clear()V
+PTG:
+Vars:
+5
+r6 2 13 27 
+r3 1 27 
+r1 1 4 
+$r2 1 59 
+r0 1 -1 
+Fields: 4
+-1 notFull 59
+-1 lock 4
+-1 first 13
+13 next 27
+Accesses: 10
+0 1 -1 
+50 1 -1 
+35 2 27 13 
+20 2 27 13 
+23 2 27 13 
+55 1 -1 
+9 1 -1 
+58 1 -1 
+30 2 27 13 
+47 1 -1 
+Functions: 4
+68 1 4 
+6 1 4 
+77 1 4 
+62 1 59 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.offer(Ljava/lang/Object;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/util/concurrent/LinkedBlockingDeque.peekLast()Ljava/lang/Object;
+PTG:
+Vars:
+6
+r1 1 4 
+$r2 1 10 
+$r3 1 10 
+r0 1 -1 
+$r5 1 -1 
+$r7 1 24 
+Fields: 3
+-1 lock 4
+-1 last 10
+10 item 24
+Accesses: 4
+0 1 -1 
+20 1 -1 
+21 1 10 
+9 1 -1 
+Functions: 3
+36 1 4 
+6 1 4 
+29 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.iterator()Ljava/util/Iterator;
+PTG:
+Vars:
+3
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 0 -1 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.size()I
+PTG:
+Vars:
+3
+r1 1 4 
+r0 1 -1 
+$r2 1 -1 
+Fields: 1
+-1 lock 4
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 3
+6 1 4 
+22 1 4 
+15 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.unlinkFirst()Ljava/lang/Object;
+PTG:
+Vars:
+6
+r3 1 20 
+r0 1 -1 
+$r4 1 64 
+r2 1 15 
+r1 1 4 
+_ret 1 20 
+Fields: 4
+4 next 15
+4 item 20
+-1 notFull 64
+-1 first 4
+Accesses: 11
+0 1 -1 
+16 1 4 
+33 1 -1 
+50 1 15 
+53 1 -1 
+23 1 4 
+42 1 -1 
+11 1 4 
+28 1 4 
+60 1 -1 
+63 1 -1 
+Functions: 1
+67 1 64 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.addLast(Ljava/lang/Object;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+14 0 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/util/concurrent/LinkedBlockingDeque.put(Ljava/lang/Object;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/util/concurrent/LinkedBlockingDeque.remainingCapacity()I
+PTG:
+Vars:
+3
+r1 1 4 
+r0 1 -1 
+$r2 1 -1 
+Fields: 1
+-1 lock 4
+Accesses: 3
+0 1 -1 
+9 1 -1 
+13 1 -1 
+Functions: 3
+20 1 4 
+6 1 4 
+27 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.poll(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -3 
+_ret 1 3 
+$r2 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -3 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+java/util/concurrent/LinkedBlockingDeque.toString()Ljava/lang/String;
+PTG:
+Vars:
+10
+r9 1 84 
+$r8 1 78 
+r4 1 46 
+$r16 2 46 55 
+$r2 1 27 
+$r6 1 96 
+r1 1 4 
+$r11 1 -1 
+r0 1 -1 
+r13 2 70 13 
+Fields: 4
+-1 lock 4
+-1 first 13
+70 next 70
+13 item 46
+Accesses: 4
+0 1 -1 
+66 2 70 13 
+9 1 -1 
+42 2 70 13 
+Functions: 11
+101 1 96 
+6 1 4 
+22 1 4 
+38 1 27 
+87 1 4 
+75 1 27 
+93 1 27 
+62 3 55 27 46 
+78 1 78 
+31 1 27 
+111 1 4 
+Constructors: 1
+31 27
+
+Summary: 2
+-1 70 
+java/util/concurrent/LinkedBlockingDeque.unlink(Ljava/util/concurrent/LinkedBlockingDeque$Node;)V
+PTG:
+Vars:
+5
+r1 1 4 
+r3 1 -1 
+r2 1 9 
+r0 1 -2 
+$r4 1 60 
+Fields: 3
+-2 next 9
+-2 prev 4
+-1 notFull 60
+Accesses: 8
+0 1 -2 
+49 1 -1 
+36 1 4 
+5 1 -2 
+56 1 -1 
+41 1 9 
+59 1 -1 
+46 1 -2 
+Functions: 3
+27 2 -1 60 
+15 2 -1 60 
+63 1 60 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/util/concurrent/LinkedBlockingDeque.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 1
+3 -1
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.takeLast()Ljava/lang/Object;
+PTG:
+Vars:
+5
+$r2 1 10 
+r0 1 -1 
+$r5 1 19 
+r1 1 4 
+$r6 1 -1 
+Fields: 2
+-1 lock 4
+-1 notEmpty 19
+Accesses: 2
+0 1 -1 
+18 1 -1 
+Functions: 5
+33 1 4 
+6 1 4 
+22 1 19 
+9 3 -1 19 4 
+41 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.drainTo(Ljava/util/Collection;)I
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/util/concurrent/LinkedBlockingDeque.offerFirst(Ljava/lang/Object;JLjava/util/concurrent/TimeUnit;)Z
+PTG:
+Vars:
+7
+r3 1 -4 
+$r6 1 69 
+$r8 1 -1 
+$r1 1 12 
+r4 1 -1 
+r5 1 34 
+r0 1 -2 
+Fields: 2
+-1 notFull 69
+-1 lock 34
+Accesses: 2
+68 1 -1 
+30 1 -1 
+Functions: 9
+17 2 -2 12 
+99 1 34 
+69 1 69 
+22 1 -4 
+38 1 34 
+8 0 
+41 4 -1 34 69 12 
+89 1 34 
+62 1 34 
+Constructors: 1
+17 12
+
+Summary: 4
+-1 -2 -4 12 
+java/util/concurrent/LinkedBlockingDeque.descendingIterator()Ljava/util/Iterator;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 0 -1 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.push(Ljava/lang/Object;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/util/concurrent/LinkedBlockingDeque.toArray()[Ljava/lang/Object;
+PTG:
+Vars:
+6
+r2 1 13 
+r6 2 23 46 
+$r3 1 37 
+r0 1 -1 
+$r4 1 -1 
+r1 1 4 
+Fields: 4
+23 item 37
+46 next 46
+-1 lock 4
+-1 first 23
+Accesses: 5
+0 1 -1 
+19 1 -1 
+35 2 23 46 
+9 1 -1 
+41 2 23 46 
+Functions: 3
+64 1 4 
+6 1 4 
+55 1 4 
+Constructors: 0
+
+Summary: 2
+46 -1 
+java/util/concurrent/LinkedBlockingDeque.remove(Ljava/lang/Object;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/util/concurrent/LinkedBlockingDeque.removeFirstOccurrence(Ljava/lang/Object;)Z
+PTG:
+Vars:
+6
+r6 2 19 54 
+$r4 1 -1 
+r1 1 -1 
+r0 1 -2 
+$r3 1 26 
+r2 1 10 
+Fields: 4
+-1 lock 10
+-1 first 19
+19 item 26
+54 next 54
+Accesses: 4
+50 2 19 54 
+6 1 -1 
+25 2 19 54 
+15 1 -1 
+Functions: 6
+37 5 -1 19 54 10 26 
+69 1 10 
+24 2 -2 26 
+12 1 10 
+44 1 10 
+61 1 10 
+Constructors: 0
+
+Summary: 3
+-1 54 0 
+java/util/concurrent/LinkedBlockingDeque.getFirst()Ljava/lang/Object;
+PTG:
+Vars:
+3
+r1 1 4 
+_ret 1 4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.peekFirst()Ljava/lang/Object;
+PTG:
+Vars:
+6
+$r5 1 -1 
+r0 1 -1 
+$r2 1 10 
+$r3 1 10 
+$r7 1 24 
+r1 1 4 
+Fields: 3
+-1 lock 4
+-1 first 10
+10 item 24
+Accesses: 4
+0 1 -1 
+20 1 -1 
+21 1 10 
+9 1 -1 
+Functions: 3
+36 1 4 
+6 1 4 
+29 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.putFirst(Ljava/lang/Object;)V
+PTG:
+Vars:
+5
+$r5 1 39 
+r3 1 -1 
+$r1 1 12 
+r4 1 25 
+r0 1 -2 
+Fields: 2
+-1 notFull 39
+-1 lock 25
+Accesses: 2
+21 1 -1 
+38 1 -1 
+Functions: 7
+17 2 -2 12 
+51 1 25 
+8 0 
+42 1 39 
+27 1 25 
+60 1 25 
+30 4 -1 39 25 12 
+Constructors: 1
+17 12
+
+Summary: 3
+-1 -2 12 
+java/util/concurrent/LinkedBlockingDeque.element()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.contains(Ljava/lang/Object;)Z
+PTG:
+Vars:
+6
+r2 1 10 
+$r4 1 -1 
+r0 1 -2 
+r6 2 49 19 
+$r3 1 26 
+r1 1 -1 
+Fields: 4
+49 next 49
+-1 lock 10
+-1 first 19
+19 item 26
+Accesses: 4
+6 1 -1 
+25 2 49 19 
+45 2 49 19 
+15 1 -1 
+Functions: 5
+64 1 10 
+39 1 10 
+24 2 -2 26 
+56 1 10 
+12 1 10 
+Constructors: 0
+
+Summary: 3
+49 -1 0 
+java/util/concurrent/LinkedBlockingDeque.poll()Ljava/lang/Object;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.offerLast(Ljava/lang/Object;JLjava/util/concurrent/TimeUnit;)Z
+PTG:
+Vars:
+7
+r3 1 -4 
+$r8 1 -1 
+r0 1 -2 
+$r6 1 69 
+r4 1 -1 
+r5 1 34 
+$r1 1 12 
+Fields: 2
+-1 notFull 69
+-1 lock 34
+Accesses: 2
+68 1 -1 
+30 1 -1 
+Functions: 9
+17 2 -2 12 
+99 1 34 
+69 1 69 
+22 1 -4 
+38 1 34 
+8 0 
+41 4 -1 34 69 12 
+89 1 34 
+62 1 34 
+Constructors: 1
+17 12
+
+Summary: 4
+-1 -2 -4 12 
+java/util/concurrent/LinkedBlockingDeque.toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+PTG:
+Vars:
+10
+r10 2 45 68 
+$r2 1 59 
+$r5 1 29 
+$r3 1 19 
+$r4 1 22 
+r0 1 -1 
+r1 1 4 
+r9 2 -2 29 
+$r6 1 29 
+$r7 1 -1 
+Fields: 4
+-1 lock 4
+-1 first 45
+45 item 59
+68 next 68
+Accesses: 6
+0 1 -1 
+25 1 -1 
+41 1 -1 
+57 2 68 45 
+11 1 -1 
+63 2 68 45 
+Functions: 6
+96 1 4 
+18 2 -2 29 
+19 1 19 
+6 1 4 
+87 1 4 
+26 1 22 
+Constructors: 0
+
+Summary: 5
+-1 19 22 68 0 
+java/util/concurrent/LinkedBlockingDeque.linkFirst(Ljava/util/concurrent/LinkedBlockingDeque$Node;)Z
+PTG:
+Vars:
+5
+r2 1 -2 
+r1 1 17 
+$r4 1 59 
+r0 1 -1 
+$r3 1 29 
+Fields: 3
+-1 last 29
+-1 notEmpty 59
+-1 first 17
+Accesses: 11
+0 1 -1 
+48 1 -1 
+4 1 -1 
+20 1 -2 
+37 1 -1 
+55 1 -1 
+25 1 -1 
+58 1 -1 
+28 1 -1 
+13 1 -1 
+45 1 17 
+Functions: 1
+62 1 59 
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/util/concurrent/LinkedBlockingDeque.take()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/LinkedBlockingDeque.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 4 
+r6 2 34 17 
+$r3 1 24 
+r2 1 -2 
+Fields: 4
+-1 lock 4
+-1 first 17
+34 next 34
+17 item 24
+Accesses: 4
+0 1 -1 
+23 2 17 34 
+13 1 -1 
+30 2 17 34 
+Functions: 6
+53 1 4 
+6 1 4 
+40 1 -2 
+10 1 -2 
+27 2 -2 24 
+44 1 4 
+Constructors: 0
+
+Summary: 3
+-1 -2 34 
+java/util/concurrent/LinkedBlockingDeque.removeLastOccurrence(Ljava/lang/Object;)Z
+PTG:
+Vars:
+6
+r2 1 10 
+r6 2 19 54 
+r0 1 -2 
+$r4 1 -1 
+$r3 1 26 
+r1 1 -1 
+Fields: 4
+-1 lock 10
+-1 last 19
+19 item 26
+54 prev 54
+Accesses: 4
+50 2 19 54 
+6 1 -1 
+25 2 19 54 
+15 1 -1 
+Functions: 6
+37 5 -1 19 54 10 26 
+69 1 10 
+24 2 -2 26 
+12 1 10 
+44 1 10 
+61 1 10 
+Constructors: 0
+
+Summary: 3
+-1 -2 54 
+java/util/concurrent/LinkedBlockingDeque.offerFirst(Ljava/lang/Object;)Z
+PTG:
+Vars:
+5
+r0 1 -2 
+$r1 1 12 
+r3 1 -1 
+r4 1 25 
+$r6 1 -1 
+Fields: 1
+-1 lock 25
+Accesses: 1
+21 1 -1 
+Functions: 6
+17 2 -2 12 
+38 1 25 
+8 0 
+27 1 25 
+30 3 -1 25 12 
+47 1 25 
+Constructors: 1
+17 12
+
+Summary: 4
+-1 -2 0 12 
+java/util/concurrent/LinkedBlockingDeque.spliterator()Ljava/util/Spliterator;
+PTG:
+Vars:
+3
+$r0 1 0 
+r1 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -1 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 

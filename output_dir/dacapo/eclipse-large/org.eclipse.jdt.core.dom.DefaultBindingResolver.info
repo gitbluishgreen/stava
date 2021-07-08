@@ -1,0 +1,2080 @@
+58
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveAnnotation(Lorg/eclipse/jdt/core/dom/Annotation;)Lorg/eclipse/jdt/core/dom/IAnnotationBinding;
+PTG:
+Vars:
+4
+$r2 1 1 
+r0 1 -1 
+r3 1 10 
+r1 1 -2 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 2
+0 1 -1 
+40 1 -1 
+Functions: 4
+1 2 1 -2 
+23 2 -1 1 
+24 0 
+47 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 25 0 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.isResolvedTypeInferredFromExpectedType(Lorg/eclipse/jdt/core/dom/MethodInvocation;)Z
+PTG:
+Vars:
+6
+r4 1 10 
+r5 1 27 
+r0 1 -1 
+$r2 1 1 
+r3 1 10 
+r1 1 -2 
+Fields: 2
+-1 newAstToOldAst 1
+10 binding 27
+Accesses: 2
+0 1 -1 
+23 1 10 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 -1 10 27 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.isResolvedTypeInferredFromExpectedType(Lorg/eclipse/jdt/core/dom/SuperMethodInvocation;)Z
+PTG:
+Vars:
+6
+r1 1 -2 
+r5 1 27 
+$r2 1 1 
+r4 1 10 
+r3 1 10 
+r0 1 -1 
+Fields: 2
+-1 newAstToOldAst 1
+10 binding 27
+Accesses: 2
+0 1 -1 
+23 1 10 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 -1 10 27 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.store(Lorg/eclipse/jdt/core/dom/ASTNode;Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+$r3 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveType(Lorg/eclipse/jdt/core/dom/Type;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+19
+$r27 1 -2 
+$r6 1 344 
+$r3 1 5 
+$r26 1 -2 
+$r23 1 5 
+r4 1 5 
+$r22 1 5 
+$r25 1 5 
+$r21 1 5 
+r0 1 -1 
+$r24 1 5 
+$r7 1 347 
+r28 6 108 38 224 150 178 206 
+$r2 1 1 
+r1 1 -2 
+r30 2 108 38 
+r31 1 5 
+$r5 1 -2 
+r29 1 5 
+Fields: 6
+5 resolvedType 38
+5 resolvedType 224
+5 resolvedType 150
+5 resolvedType 178
+5 resolvedType 206
+-1 newAstToOldAst 1
+Accesses: 11
+0 1 -1 
+48 1 -2 
+33 1 5 
+145 1 5 
+242 1 -1 
+67 1 -2 
+200 1 5 
+265 1 -1 
+218 1 5 
+172 1 5 
+287 1 -1 
+Functions: 21
+288 6 224 178 38 150 108 206 
+1 2 1 -2 
+353 2 -1 1 
+162 6 224 178 5 38 150 206 
+292 0 
+229 1 -2 
+103 2 38 108 
+327 8 -1 224 1 178 38 150 108 206 
+40 1 -2 
+264 2 -1 1 
+266 0 
+333 1 -2 
+304 6 224 178 38 150 108 206 
+81 8 -1 224 1 178 5 38 150 206 
+274 0 
+341 1 -2 
+59 1 -2 
+251 6 224 178 38 150 108 206 
+317 2 -1 1 
+190 6 224 178 5 38 150 206 
+286 2 -1 1 
+Constructors: 0
+
+Summary: 14
+-2 5 108 178 344 279 297 320 -1 38 271 224 150 206 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveType(Lorg/eclipse/jdt/core/dom/TypeDeclaration;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+4
+r0 1 -1 
+r3 1 10 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 3
+0 1 -1 
+67 1 -1 
+40 1 -1 
+Functions: 5
+1 2 1 -2 
+53 0 
+23 2 -1 1 
+78 0 
+47 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 25 60 0 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.lookupEnvironment()Lorg/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+_ret 1 4 
+Fields: 1
+-1 scope 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveTypeParameter(Lorg/eclipse/jdt/core/dom/TypeParameter;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+r3 1 10 
+$r2 1 1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 3
+0 1 -1 
+67 1 -1 
+40 1 -1 
+Functions: 5
+1 2 1 -2 
+53 0 
+23 2 -1 1 
+78 0 
+47 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 25 60 0 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveReference(Lorg/eclipse/jdt/core/dom/MemberRef;)Lorg/eclipse/jdt/core/dom/IBinding;
+PTG:
+Vars:
+5
+$r2 1 1 
+r0 1 -1 
+$r3 1 5 
+r1 1 -2 
+r4 1 5 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 2
+0 1 -1 
+22 1 5 
+Functions: 4
+1 2 1 -2 
+49 2 -1 1 
+21 2 -1 1 
+58 2 -1 1 
+Constructors: 0
+
+Summary: 6
+-2 23 60 43 5 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveConstructor(Lorg/eclipse/jdt/core/dom/SuperConstructorInvocation;)Lorg/eclipse/jdt/core/dom/IMethodBinding;
+PTG:
+Vars:
+5
+$r2 1 1 
+r4 1 5 
+$r3 1 5 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+26 2 -1 1 
+Constructors: 0
+
+Summary: 4
+-2 5 -1 28 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveArrayType(Lorg/eclipse/jdt/core/dom/ITypeBinding;I)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+10
+r0 1 -2 
+$r8 1 255 
+$r10 1 265 
+r3 1 68 
+r7 9 179 171 163 219 211 203 195 251 187 
+$r1 2 -2 38 
+$r9 1 262 
+r2 1 -1 
+r6 2 -2 38 
+_ret 1 265 
+Fields: 2
+-2 binding 251
+38 binding 251
+Accesses: 1
+245 2 -2 38 
+Functions: 11
+32 2 -2 251 
+228 0 
+53 3 -2 38 251 
+70 1 68 
+23 2 -2 251 
+41 2 -2 251 
+253 2 -1 262 
+14 0 
+62 3 -2 38 251 
+254 1 -1 
+255 10 179 163 211 195 171 219 203 251 187 255 
+Constructors: 0
+
+Summary: 7
+-2 68 255 251 -1 38 262 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.recordScope(Lorg/eclipse/jdt/core/dom/ASTNode;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+$r3 1 1 
+Fields: 1
+-1 astNodesToBlockScope 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 3 1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 -2 -1 1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolvePackage(Lorg/eclipse/jdt/core/dom/PackageDeclaration;)Lorg/eclipse/jdt/core/dom/IPackageBinding;
+PTG:
+Vars:
+20
+$r4 1 14 
+$r19 1 -1 
+r21 1 55 
+$r8 1 40 
+r20 2 90 55 
+$r10 1 49 
+r2 1 -2 
+r0 1 -1 
+$r15 1 146 
+r6 1 14 
+$r3 1 10 
+$r9 1 1 
+$r7 1 40 
+$r12 1 119 
+$r16 1 149 
+r22 1 109 
+r14 1 138 
+$r11 2 90 55 
+r5 1 14 
+$r1 1 1 
+Fields: 7
+146 bindingKeysToBindings 149
+14 tokens 40
+-1 bindingsToAstNodes 119
+-1 scope 1
+-1 newAstToOldAst 10
+-1 bindingTables 146
+55 fPackage 90
+Accesses: 9
+0 1 -1 
+145 1 -1 
+146 1 146 
+35 1 -1 
+85 1 55 
+118 1 -1 
+39 1 14 
+9 1 -1 
+44 1 14 
+Functions: 8
+48 1 40 
+131 1 109 
+36 2 1 49 
+100 8 -1 1 146 149 119 55 10 90 
+10 2 -2 10 
+156 3 149 138 109 
+125 3 -2 119 109 
+62 2 55 90 
+Constructors: 0
+
+Summary: 8
+-2 49 90 138 55 14 40 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getMemberValuePairBinding(Lorg/eclipse/jdt/internal/compiler/lookup/ElementValuePair;)Lorg/eclipse/jdt/core/dom/IMemberValuePairBinding;
+PTG:
+Vars:
+12
+r2 1 -1 
+$r7 1 14 
+$r13 1 36 
+$r12 1 36 
+$r8 1 17 
+r10 1 21 
+$r5 1 21 
+_ret 1 36 
+r0 1 -2 
+$r1 1 5 
+$r3 1 14 
+$r4 1 17 
+Fields: 3
+-2 binding 5
+14 compilerBindingsToASTBindings 17
+-1 bindingTables 14
+Accesses: 5
+4 1 -2 
+13 1 -1 
+14 1 14 
+46 1 -1 
+47 1 14 
+Functions: 3
+17 3 17 -2 5 
+55 4 17 -2 36 5 
+42 6 -1 -2 17 36 5 14 
+Constructors: 1
+42 36
+
+Summary: 3
+-2 5 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.<init>(Lorg/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope;Lorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/jdt/core/dom/DefaultBindingResolver$BindingTables;Z)V
+PTG:
+Vars:
+7
+$r3 1 27 
+r4 1 -4 
+r5 1 -2 
+r0 1 -1 
+r6 1 -3 
+$r2 1 16 
+$r1 1 5 
+Fields: 0
+Accesses: 7
+49 1 -1 
+34 1 -1 
+23 1 -1 
+39 1 -1 
+55 1 -1 
+12 1 -1 
+44 1 -1 
+Functions: 4
+1 1 -1 
+20 1 16 
+9 1 5 
+31 1 27 
+Constructors: 4
+1 -1
+20 16
+9 5
+31 27
+
+Summary: 4
+2 0 -1 1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveConstantExpressionValue(Lorg/eclipse/jdt/core/dom/Expression;)Ljava/lang/Object;
+PTG:
+Vars:
+8
+$r2 1 1 
+r5 1 5 
+r1 1 -2 
+r4 1 5 
+$r7 1 39 
+r0 1 -1 
+$r3 1 5 
+r6 1 30 
+Fields: 2
+5 constant 30
+-1 newAstToOldAst 1
+Accesses: 2
+0 1 -1 
+26 1 5 
+Functions: 18
+160 1 30 
+1 2 1 -2 
+165 0 
+134 1 30 
+139 0 
+108 1 30 
+204 1 30 
+45 1 30 
+173 1 30 
+113 0 
+209 0 
+178 0 
+147 1 30 
+213 1 30 
+182 1 30 
+152 0 
+121 1 30 
+126 0 
+Constructors: 0
+
+Summary: 4
+-2 5 30 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveMethod(Lorg/eclipse/jdt/core/dom/MethodDeclaration;)Lorg/eclipse/jdt/core/dom/IMethodBinding;
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+r3 1 10 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 3
+0 1 -1 
+67 1 -1 
+40 1 -1 
+Functions: 5
+1 2 1 -2 
+53 0 
+23 2 -1 1 
+78 0 
+47 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 25 60 0 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getPackageBinding(Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;)Lorg/eclipse/jdt/core/dom/IPackageBinding;
+PTG:
+Vars:
+11
+$r7 1 10 
+$r4 1 14 
+$r11 1 29 
+$r12 1 29 
+$r6 1 7 
+$r3 1 10 
+r0 1 -2 
+$r2 1 7 
+r9 1 14 
+_ret 1 29 
+r1 1 -1 
+Fields: 2
+7 compilerBindingsToASTBindings 10
+-1 bindingTables 7
+Accesses: 4
+6 1 -1 
+7 1 7 
+39 1 -1 
+40 1 7 
+Functions: 3
+48 3 -2 10 29 
+35 5 -1 -2 7 10 29 
+10 2 -2 10 
+Constructors: 1
+35 29
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveReference(Lorg/eclipse/jdt/core/dom/MethodRef;)Lorg/eclipse/jdt/core/dom/IBinding;
+PTG:
+Vars:
+5
+$r2 1 1 
+r1 1 -2 
+$r3 1 5 
+r4 1 5 
+r0 1 -1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 2 1 -2 
+21 2 -1 1 
+40 2 -1 1 
+Constructors: 0
+
+Summary: 5
+45 -2 5 26 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getTypeBinding(Lorg/eclipse/jdt/core/dom/VariableDeclaration;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+10
+r0 1 -1 
+r9 1 8 
+$r7 1 4 
+$r6 1 1 
+$r5 1 23 
+$r4 1 8 
+r2 1 -2 
+$r3 1 4 
+_ret 1 23 
+$r1 1 1 
+Fields: 2
+-1 bindingTables 1
+1 compilerBindingsToASTBindings 4
+Accesses: 4
+0 1 -1 
+1 1 1 
+33 1 -1 
+34 1 1 
+Functions: 3
+4 2 -2 4 
+42 3 -2 4 23 
+29 5 -1 1 -2 4 23 
+Constructors: 1
+29 23
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveExpressionType(Lorg/eclipse/jdt/core/dom/Expression;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+42
+$r33 1 327 
+$r20 1 455 
+$r30 1 392 
+$r5 1 400 
+$r25 1 306 
+r41 1 373 
+r38 1 282 
+r37 1 253 
+r24 1 253 
+$r29 1 373 
+$r13 1 350 
+$r16 1 364 
+r10 1 419 
+r40 1 327 
+$r34 1 342 
+$r36 1 -1 
+$r27 1 276 
+$r6 1 404 
+$r31 1 395 
+r0 1 -2 
+$r22 1 249 
+$r32 1 323 
+$r8 1 415 
+$r12 1 442 
+r4 1 -1 
+$r9 1 419 
+$r17 1 -2 
+$r11 1 439 
+$r23 1 253 
+r39 1 253 
+$r14 1 350 
+r7 1 404 
+r1 1 -2 
+$r18 1 318 
+r2 1 473 
+$r28 1 369 
+$r26 1 309 
+$r21 1 458 
+$r35 1 345 
+$r15 1 361 
+r19 1 -2 
+$r3 1 482 
+Fields: 9
+-1 scope 350
+-1 astNodesToBlockScope 415
+-1 newAstToOldAst 369
+-1 newAstToOldAst 400
+-1 newAstToOldAst 323
+-1 newAstToOldAst 249
+327 resolvedType 342
+253 resolvedType 306
+253 binding 276
+Accesses: 10
+368 1 -1 
+305 1 253 
+322 1 -1 
+275 1 253 
+341 1 327 
+357 1 -1 
+248 1 -1 
+349 1 -1 
+414 1 -1 
+399 1 -1 
+Functions: 20
+0 1 -2 
+480 1 473 
+323 2 -2 323 
+356 8 -1 400 369 323 249 361 350 415 
+388 8 -1 400 369 323 392 249 350 415 
+452 8 -1 400 369 323 455 249 350 415 
+389 1 373 
+453 1 -2 
+358 1 350 
+304 8 -1 400 369 306 323 249 350 415 
+400 2 400 -2 
+369 2 369 -2 
+274 8 -1 400 369 323 276 249 350 415 
+434 8 -1 400 369 323 439 249 350 415 
+435 2 419 404 
+340 8 -1 400 369 323 342 249 350 415 
+468 1 -2 
+249 2 -2 249 
+313 8 -1 400 369 -2 323 249 350 415 
+415 2 -2 415 
+Constructors: 0
+
+Summary: 15
+455 361 404 327 439 -2 306 473 373 276 342 419 -1 392 253 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getTypeBinding(Lorg/eclipse/jdt/core/dom/Type;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+10
+$r1 1 1 
+$r3 1 4 
+$r6 1 1 
+r2 1 -2 
+$r7 1 4 
+r0 1 -1 
+r9 1 8 
+$r5 1 23 
+_ret 1 23 
+$r4 1 8 
+Fields: 2
+-1 bindingTables 1
+1 compilerBindingsToASTBindings 4
+Accesses: 4
+0 1 -1 
+1 1 1 
+33 1 -1 
+34 1 1 
+Functions: 3
+4 2 -2 4 
+42 3 -2 4 23 
+29 5 -1 1 -2 4 23 
+Constructors: 1
+29 23
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveMember(Lorg/eclipse/jdt/core/dom/AnnotationTypeMemberDeclaration;)Lorg/eclipse/jdt/core/dom/IMethodBinding;
+PTG:
+Vars:
+4
+$r2 1 1 
+r3 1 10 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 3
+0 1 -1 
+67 1 -1 
+40 1 -1 
+Functions: 5
+1 2 1 -2 
+53 0 
+23 2 -1 1 
+78 0 
+47 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 25 60 0 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveMemberValuePair(Lorg/eclipse/jdt/core/dom/MemberValuePair;)Lorg/eclipse/jdt/core/dom/IMemberValuePairBinding;
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+r4 1 5 
+$r3 1 5 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 2
+0 1 -1 
+19 1 5 
+Functions: 2
+1 2 1 -2 
+18 2 -1 1 
+Constructors: 0
+
+Summary: 4
+20 -2 5 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getCorrespondingNode(Lorg/eclipse/jdt/core/dom/ASTNode;)Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;
+PTG:
+Vars:
+6
+$r2 1 1 
+$r4 1 5 
+r0 1 -1 
+r1 1 -2 
+_ret 1 5 
+$r3 1 5 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveName(Lorg/eclipse/jdt/core/dom/Name;)Lorg/eclipse/jdt/core/dom/IBinding;
+PTG:
+Vars:
+55
+r1 1 -2 
+r128 1 5 
+$r2 1 1 
+r141 1 5 
+r92 1 282 
+$r3 1 5 
+$r68 1 655 
+r147 1 186 
+r136 2 715 683 
+$r106 1 57 
+r140 1 853 
+r0 1 -1 
+$r105 1 53 
+r149 1 1070 
+r135 1 5 
+r120 1 37 
+$r112 1 76 
+$r51 1 847 
+$r54 1 630 
+r139 1 837 
+$r57 1 703 
+$r69 1 410 
+r146 1 186 
+r148 1 261 
+r122 2 115 98 
+$r70 1 421 
+r4 1 5 
+r123 1 186 
+$r50 1 884 
+$r114 1 92 
+$r107 1 109 
+r121 1 57 
+r142 1 890 
+r145 1 5 
+$r118 1 -1 
+$r115 1 -1 
+r125 1 261 
+$r91 1 277 
+$r55 1 616 
+$r36 1 1063 
+$r113 1 76 
+r119 1 5 
+$r116 1 -1 
+$r53 1 616 
+$r56 1 630 
+r144 1 922 
+$r66 1 616 
+r138 1 818 
+r143 1 5 
+$r67 1 630 
+r137 1 5 
+$r37 1 1079 
+$r93 1 291 
+r124 1 186 
+$r49 1 916 
+Fields: 19
+37 ArrayObject 277
+818 ArrayObject 837
+5 resolvedType 410
+5 tokens 37
+5 types 818
+5 tokens 616
+5 tokens 421
+5 binding 186
+5 binding 916
+5 binding 884
+186 declaringClass 261
+186 name 1063
+837 binding 847
+1070 type 1079
+-1 scope 76
+-1 scope 630
+-1 astNodesToBlockScope 53
+-1 newAstToOldAst 1
+282 type 291
+Accesses: 42
+0 1 -1 
+256 1 186 
+963 1 5 
+644 1 -1 
+520 1 -1 
+648 1 5 
+75 1 -1 
+524 1 5 
+845 1 837 
+14 1 -2 
+336 1 -1 
+658 1 5 
+914 1 5 
+84 1 -1 
+408 1 5 
+472 1 5 
+1052 1 186 
+32 1 5 
+544 1 5 
+289 1 282 
+419 1 5 
+1124 1 -1 
+1061 1 186 
+614 1 5 
+39 1 5 
+359 1 5 
+488 1 -1 
+297 1 -1 
+172 1 5 
+428 1 5 
+813 1 5 
+882 1 5 
+52 1 -1 
+692 1 -1 
+181 1 5 
+629 1 -1 
+1077 1 1070 
+696 1 5 
+954 1 5 
+379 1 5 
+1085 1 -1 
+511 1 -1 
+Functions: 66
+1280 5 -1 1 53 630 76 
+1 2 1 -2 
+129 5 -1 1 53 630 76 
+770 5 -1 1 53 630 76 
+645 2 630 655 
+1160 5 -1 1 53 630 76 
+521 0 
+268 2 261 277 
+654 1 616 
+913 6 -1 1 916 53 630 76 
+1425 5 -1 1 53 630 76 
+530 0 
+147 5 -1 1 53 630 76 
+788 5 -1 1 53 630 76 
+1180 5 -1 1 53 630 76 
+542 0 
+1310 5 -1 1 53 630 76 
+1311 0 
+163 14 5 37 421 837 261 1063 616 847 818 916 884 277 410 186 
+675 14 5 37 421 837 261 1063 616 847 818 916 884 277 410 186 
+1059 2 261 1063 
+550 0 
+1448 5 -1 1 53 630 76 
+171 5 -1 1 53 630 76 
+301 2 291 282 
+430 0 
+945 14 5 37 421 837 261 1063 616 847 818 916 884 277 410 186 
+53 2 -2 53 
+693 2 630 703 
+1333 5 -1 1 53 630 76 
+953 5 -1 1 53 630 76 
+571 5 -1 1 53 630 76 
+1213 5 -1 1 53 630 76 
+702 1 616 
+193 3 261 1063 186 
+1089 2 1079 1070 
+707 14 5 37 421 837 261 1063 616 847 818 916 884 277 410 186 
+1223 5 -1 1 53 630 76 
+201 5 -1 1 53 630 76 
+331 7 -1 1 291 53 630 282 76 
+844 6 -1 1 53 630 76 847 
+1356 5 -1 1 53 630 76 
+461 5 -1 1 53 630 76 
+589 5 -1 1 53 630 76 
+975 3 261 1063 186 
+85 2 76 92 
+471 5 -1 1 53 630 76 
+983 5 -1 1 53 630 76 
+1240 5 -1 1 53 630 76 
+474 0 
+91 2 37 277 
+347 2 291 282 
+860 1 853 
+734 5 -1 1 53 630 76 
+1119 7 -1 1 53 630 1079 76 1070 
+226 3 261 1063 186 
+1379 5 -1 1 53 630 76 
+103 2 57 109 
+489 1 -2 
+108 2 37 277 
+1135 2 1079 1070 
+752 5 -1 1 53 630 76 
+1008 3 261 1063 186 
+881 6 -1 1 884 53 630 76 
+378 5 -1 1 53 630 76 
+1402 5 -1 1 53 630 76 
+Constructors: 0
+
+Summary: 53
+715 361 1226 277 551 1166 5 115 916 1359 616 1313 282 884 109 390 655 57 37 1185 531 557 410 1163 174 455 1382 1245 537 1079 1070 703 1207 818 1336 1063 -1 92 1274 1428 493 847 837 1451 291 421 -2 98 261 477 186 683 853 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveUnboxing(Lorg/eclipse/jdt/core/dom/Expression;)Z
+PTG:
+Vars:
+5
+$r2 1 1 
+r1 1 -2 
+$r3 1 5 
+r0 1 -1 
+r4 1 5 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 5 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveBoxing(Lorg/eclipse/jdt/core/dom/Expression;)Z
+PTG:
+Vars:
+5
+r1 1 -2 
+$r2 1 1 
+$r3 1 5 
+r4 1 5 
+r0 1 -1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 5 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getTypeBinding(Lorg/eclipse/jdt/core/dom/RecoveredTypeBinding;I)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+4
+$r1 1 6 
+r2 1 -1 
+r0 1 -2 
+_ret 1 6 
+Fields: 0
+Accesses: 0
+Functions: 1
+13 3 -1 -2 6 
+Constructors: 1
+13 6
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveConstructor(Lorg/eclipse/jdt/core/dom/ConstructorInvocation;)Lorg/eclipse/jdt/core/dom/IMethodBinding;
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+r4 1 5 
+$r3 1 5 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+26 2 -1 1 
+Constructors: 0
+
+Summary: 4
+-2 5 -1 28 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.findDeclaringNode(Ljava/lang/String;)Lorg/eclipse/jdt/core/dom/ASTNode;
+PTG:
+Vars:
+9
+$r3 1 10 
+r1 1 -1 
+$r7 1 31 
+$r5 1 27 
+_ret 1 31 
+r0 1 -2 
+$r2 1 7 
+r4 1 19 
+$r6 1 31 
+Fields: 3
+7 bindingKeysToBindings 10
+-1 bindingsToAstNodes 27
+-1 bindingTables 7
+Accesses: 3
+6 1 -1 
+7 1 7 
+26 1 -1 
+Functions: 2
+10 2 -2 10 
+27 2 19 27 
+Constructors: 0
+
+Summary: 3
+-2 -1 19 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.findDeclaringNode(Lorg/eclipse/jdt/core/dom/IBinding;)Lorg/eclipse/jdt/core/dom/ASTNode;
+PTG:
+Vars:
+6
+r0 1 -2 
+$r2 1 100 
+$r3 1 104 
+_ret 1 104 
+$r4 1 104 
+r1 1 -1 
+Fields: 1
+-1 bindingsToAstNodes 100
+Accesses: 4
+80 1 -1 
+49 1 -1 
+18 1 -1 
+99 1 -1 
+Functions: 7
+81 0 
+50 0 
+19 0 
+84 0 
+100 2 -2 100 
+53 0 
+22 0 
+Constructors: 0
+
+Summary: 5
+-2 54 23 -1 85 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveTypeBindingForName(Lorg/eclipse/jdt/core/dom/Name;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+39
+r112 1 5 
+r116 1 5 
+$r3 1 5 
+$r82 1 74 
+$r39 1 789 
+$r49 1 604 
+$r44 1 604 
+$r46 1 691 
+r98 2 132 115 
+$r45 1 618 
+r125 1 414 
+$r83 1 126 
+r105 1 5 
+$r42 1 604 
+r97 1 74 
+r96 1 37 
+r124 1 5 
+r0 1 -1 
+$r2 1 1 
+r4 1 5 
+$r51 1 643 
+$r52 1 414 
+$r91 1 -1 
+$r87 1 93 
+r117 1 795 
+r118 1 5 
+r95 1 5 
+$r92 1 -1 
+r113 2 671 703 
+$r94 1 -1 
+$r53 1 425 
+$r88 1 109 
+$r81 1 70 
+$r36 1 820 
+$r43 1 618 
+r119 1 820 
+r1 1 -2 
+$r86 1 93 
+$r50 1 618 
+Fields: 10
+5 resolvedType 414
+5 tokens 37
+5 tokens 604
+5 tokens 425
+5 binding 820
+5 binding 789
+-1 scope 93
+-1 scope 618
+-1 astNodesToBlockScope 70
+-1 newAstToOldAst 1
+Accesses: 39
+0 1 -1 
+834 1 820 
+260 1 5 
+324 1 5 
+516 1 -1 
+69 1 -1 
+646 1 5 
+200 1 5 
+520 1 5 
+333 1 5 
+14 1 -2 
+787 1 5 
+276 1 5 
+468 1 5 
+602 1 5 
+92 1 -1 
+412 1 5 
+540 1 5 
+32 1 5 
+228 1 5 
+484 1 -1 
+101 1 -1 
+423 1 5 
+296 1 5 
+680 1 -1 
+617 1 -1 
+364 1 5 
+684 1 5 
+1005 1 5 
+47 1 5 
+432 1 5 
+306 1 5 
+818 1 5 
+181 1 5 
+56 1 5 
+632 1 -1 
+507 1 -1 
+636 1 5 
+190 1 5 
+Functions: 52
+1 2 1 -2 
+642 1 604 
+899 5 -1 1 70 618 93 
+517 0 
+392 5 -1 1 70 618 93 
+1164 5 -1 1 70 618 93 
+526 0 
+1040 5 -1 1 70 618 93 
+786 6 -1 1 789 70 618 93 
+663 7 820 5 37 789 425 604 414 
+919 0 
+538 0 
+156 5 -1 1 70 618 93 
+289 5 -1 1 70 618 93 
+546 0 
+1058 0 
+1187 5 -1 1 70 618 93 
+681 2 691 618 
+172 7 820 5 37 789 425 604 414 
+46 5 -1 1 70 618 93 
+434 0 
+690 1 604 
+180 5 -1 1 70 618 93 
+948 5 -1 1 70 618 93 
+1205 0 
+695 7 820 5 37 789 425 604 414 
+1079 5 -1 1 70 618 93 
+954 0 
+577 5 -1 1 70 618 93 
+833 5 -1 1 70 618 93 
+323 5 -1 1 70 618 93 
+963 5 -1 1 70 618 93 
+70 2 -2 70 
+1097 0 
+722 5 -1 1 70 618 93 
+467 5 -1 1 70 618 93 
+980 5 -1 1 70 618 93 
+470 0 
+856 5 -1 1 70 618 93 
+1118 5 -1 1 70 618 93 
+485 1 -2 
+102 2 93 109 
+747 5 -1 1 70 618 93 
+108 1 37 
+879 5 -1 1 70 618 93 
+1141 5 -1 1 70 618 93 
+120 2 74 126 
+633 2 643 618 
+1017 5 -1 1 70 618 93 
+1018 1 414 
+125 1 37 
+765 0 
+Constructors: 0
+
+Summary: 57
+132 278 49 1049 756 527 789 287 425 547 183 820 904 954 1088 1196 882 703 671 5 192 473 942 885 489 836 115 298 74 643 414 -1 262 553 533 1043 221 357 1190 326 126 604 376 343 -2 109 390 1082 691 910 1020 207 37 1167 271 750 459 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getWorkingCopyOwner()Lorg/eclipse/jdt/core/WorkingCopyOwner;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 workingCopyOwner 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveMethod(Lorg/eclipse/jdt/core/dom/MethodInvocation;)Lorg/eclipse/jdt/core/dom/IMethodBinding;
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+r3 1 10 
+$r2 1 1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+23 2 -1 1 
+Constructors: 0
+
+Summary: 4
+-2 25 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveImport(Lorg/eclipse/jdt/core/dom/ImportDeclaration;)Lorg/eclipse/jdt/core/dom/IBinding;
+PTG:
+Vars:
+30
+r2 1 -2 
+r5 1 14 
+$r15 1 57 
+$r19 1 75 
+$r12 1 185 
+$r11 1 273 
+r32 1 294 
+$r14 1 57 
+$r7 1 176 
+$r8 1 1 
+r0 1 -1 
+$r16 1 1 
+$r17 1 66 
+$r3 1 10 
+r22 1 75 
+r23 1 104 
+$r18 1 75 
+$r21 1 -1 
+r30 1 245 
+r28 1 214 
+$r1 1 1 
+$r9 1 185 
+r27 1 185 
+$r13 1 185 
+$r10 1 185 
+r6 1 14 
+r26 1 159 
+$r20 1 75 
+r25 1 138 
+$r4 1 14 
+Fields: 4
+14 tokens 57
+14 tokens 176
+-1 scope 1
+-1 newAstToOldAst 10
+Accesses: 8
+0 1 -1 
+52 1 -1 
+56 1 14 
+9 1 -1 
+41 1 14 
+171 1 -1 
+61 1 14 
+175 1 14 
+Functions: 13
+65 1 57 
+129 4 -1 1 10 75 
+35 3 176 57 14 
+10 2 -2 10 
+267 4 -1 1 185 10 
+172 2 176 1 
+236 4 -1 1 185 10 
+205 4 -1 1 185 10 
+53 2 1 66 
+118 1 75 
+150 4 -1 1 10 75 
+285 4 -1 1 185 10 
+95 4 -1 1 10 75 
+Constructors: 0
+
+Summary: 8
+-2 176 185 66 57 75 14 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getTypeArguments(Lorg/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference;)I
+PTG:
+Vars:
+4
+r0 1 -2 
+r3 1 -1 
+$r2 1 20 
+r1 1 4 
+Fields: 2
+-2 typeArguments 4
+4 ArrayObject 20
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-2 4 0 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getMethodBinding(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Lorg/eclipse/jdt/core/dom/IMethodBinding;
+PTG:
+Vars:
+3
+r9 1 -2 
+r8 2 20 -2 
+r0 1 -1 
+Fields: 1
+-2 closestMatch 20
+Accesses: 5
+16 1 -2 
+32 2 -2 20 
+80 1 -1 
+25 1 -1 
+47 1 -1 
+Functions: 4
+51 2 -2 20 
+4 2 -2 20 
+89 2 -2 20 
+76 3 -1 -2 20 
+Constructors: 0
+
+Summary: 4
+20 -2 0 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getBinding(Lorg/eclipse/jdt/internal/compiler/lookup/Binding;)Lorg/eclipse/jdt/core/dom/IBinding;
+PTG:
+Vars:
+2
+r0 1 -2 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+144 1 -1 
+113 1 -1 
+131 1 -1 
+135 1 -1 
+104 1 -1 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveField(Lorg/eclipse/jdt/core/dom/SuperFieldAccess;)Lorg/eclipse/jdt/core/dom/IVariableBinding;
+PTG:
+Vars:
+4
+r3 1 10 
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+23 2 -1 1 
+Constructors: 0
+
+Summary: 4
+-2 25 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.scope()Lorg/eclipse/jdt/internal/compiler/lookup/CompilationUnitScope;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 scope 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveConstructor(Lorg/eclipse/jdt/core/dom/EnumConstantDeclaration;)Lorg/eclipse/jdt/core/dom/IMethodBinding;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r3 1 5 
+r4 1 5 
+$r2 1 1 
+r1 1 -2 
+r5 1 5 
+$r6 1 35 
+Fields: 2
+5 initialization 35
+-1 newAstToOldAst 1
+Accesses: 3
+0 1 -1 
+34 1 5 
+41 1 5 
+Functions: 3
+1 2 1 -2 
+50 2 -1 1 
+26 2 35 5 
+Constructors: 0
+
+Summary: 5
+-2 53 5 35 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveType(Lorg/eclipse/jdt/core/dom/EnumDeclaration;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 1 
+r3 1 10 
+r0 1 -1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 3
+0 1 -1 
+67 1 -1 
+40 1 -1 
+Functions: 5
+1 2 1 -2 
+53 0 
+23 2 -1 1 
+78 0 
+47 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 25 60 0 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveField(Lorg/eclipse/jdt/core/dom/FieldAccess;)Lorg/eclipse/jdt/core/dom/IVariableBinding;
+PTG:
+Vars:
+4
+$r2 1 1 
+r1 1 -2 
+r3 1 10 
+r0 1 -1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+23 2 -1 1 
+Constructors: 0
+
+Summary: 4
+-2 25 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.updateKey(Lorg/eclipse/jdt/core/dom/ASTNode;Lorg/eclipse/jdt/core/dom/ASTNode;)V
+PTG:
+Vars:
+6
+r4 1 -3 
+$r2 1 1 
+r3 1 10 
+$r5 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 2
+0 1 -1 
+15 1 -1 
+Functions: 2
+1 2 1 -2 
+21 3 1 -3 10 
+Constructors: 0
+
+Summary: 6
+-3 -2 0 -1 10 1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveVariable(Lorg/eclipse/jdt/core/dom/EnumConstantDeclaration;)Lorg/eclipse/jdt/core/dom/IVariableBinding;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+r3 1 10 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 3
+0 1 -1 
+67 1 -1 
+40 1 -1 
+Functions: 5
+1 2 1 -2 
+53 0 
+23 2 -1 1 
+78 0 
+47 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 25 60 0 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveType(Lorg/eclipse/jdt/core/dom/AnonymousClassDeclaration;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 1 
+$r3 1 5 
+r4 1 5 
+r1 1 -2 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 4
+0 1 -1 
+18 1 5 
+51 1 -1 
+78 1 -1 
+Functions: 5
+64 0 
+1 2 1 -2 
+34 2 -1 1 
+89 0 
+58 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 71 5 0 -1 36 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveWellKnownType(Ljava/lang/String;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+86
+$r38 1 1 
+$r85 1 106 
+$r81 1 131 
+$r61 1 347 
+$r52 1 426 
+$r33 1 633 
+$r7 1 51 
+$r42 1 546 
+$r78 1 1 
+$r58 1 1 
+$r44 1 1 
+$r12 1 116 
+$r77 1 185 
+$r25 1 469 
+$r4 1 21 
+$r17 1 249 
+$r26 1 498 
+$r28 1 556 
+r2 1 -2 
+$r50 1 1 
+$r55 1 397 
+$r24 1 440 
+$r53 1 1 
+$r51 1 459 
+$r80 1 1 
+$r46 1 484 
+$r29 1 585 
+$r41 1 1 
+$r65 1 1 
+$r39 1 575 
+$r75 1 181 
+$r74 1 210 
+$r27 1 527 
+$r71 1 1 
+$r82 1 -1 
+$r11 1 91 
+$r35 1 1 
+$r36 1 604 
+$r66 1 297 
+$r63 1 322 
+$r1 1 1 
+$r59 1 372 
+$r37 1 571 
+$r5 1 31 
+$r64 1 293 
+$r56 1 1 
+$r79 1 156 
+$r69 1 268 
+$r6 1 41 
+$r9 1 71 
+$r19 1 307 
+$r45 1 517 
+$r57 1 401 
+$r68 1 1 
+$r62 1 1 
+$r73 1 1 
+$r18 1 278 
+r0 1 -1 
+$r16 1 220 
+$r3 1 11 
+$r14 1 166 
+$r49 1 455 
+$r72 1 239 
+$r8 1 61 
+$r54 1 430 
+$r76 1 1 
+$r48 1 488 
+$r15 1 195 
+$r20 1 332 
+$r40 1 542 
+$r60 1 1 
+$r23 1 411 
+$r84 1 103 
+$r21 1 357 
+$r34 1 600 
+$r47 1 1 
+$r32 1 1 
+$r31 1 629 
+$r43 1 513 
+$r10 1 81 
+$r22 1 382 
+$r13 1 141 
+$r70 1 235 
+$r30 1 614 
+r83 20 494 353 137 465 436 216 639 303 523 245 552 610 328 581 162 378 274 407 191 112 
+$r67 1 264 
+Fields: 1
+-1 scope 1
+Accesses: 20
+0 1 -1 
+480 1 -1 
+289 1 -1 
+451 1 -1 
+260 1 -1 
+422 1 -1 
+231 1 -1 
+393 1 -1 
+206 1 -1 
+368 1 -1 
+177 1 -1 
+625 1 -1 
+596 1 -1 
+343 1 -1 
+567 1 -1 
+152 1 -1 
+538 1 -1 
+509 1 -1 
+318 1 -1 
+127 1 -1 
+Functions: 70
+128 1 1 
+259 3 -1 1 268 
+261 2 1 264 
+392 3 -1 1 401 
+648 20 353 610 162 581 552 328 137 523 494 303 112 465 274 436 245 407 216 378 639 191 
+394 2 1 397 
+11 2 -2 11 
+141 2 -2 141 
+527 2 -2 527 
+21 2 -2 21 
+278 2 -2 278 
+151 3 -1 1 156 
+153 1 1 
+537 3 -1 1 546 
+411 2 -2 411 
+539 2 1 542 
+31 2 -2 31 
+288 3 -1 1 297 
+290 2 1 293 
+421 3 -1 1 430 
+166 2 -2 166 
+423 2 1 426 
+41 2 -2 41 
+556 2 -2 556 
+176 3 -1 1 185 
+178 2 1 181 
+51 2 -2 51 
+307 2 -2 307 
+566 3 -1 1 575 
+440 2 -2 440 
+568 2 1 571 
+61 2 -2 61 
+317 3 -1 1 322 
+319 1 1 
+450 3 -1 1 459 
+195 2 -2 195 
+452 2 1 455 
+71 2 -2 71 
+585 2 -2 585 
+332 2 -2 332 
+205 3 -1 1 210 
+207 1 1 
+81 2 81 -2 
+595 3 -1 1 604 
+469 2 -2 469 
+597 2 1 600 
+342 3 -1 1 347 
+344 1 1 
+91 2 -2 91 
+220 2 -2 220 
+479 3 -1 1 488 
+481 2 1 484 
+101 3 -1 1 106 
+357 2 -2 357 
+102 1 -2 
+230 3 -1 1 239 
+614 2 -2 614 
+103 1 103 
+232 2 1 235 
+367 3 -1 1 372 
+624 3 -1 1 633 
+369 1 1 
+498 2 -2 498 
+626 2 1 629 
+116 2 -2 116 
+249 2 -2 249 
+508 3 -1 1 517 
+126 3 -1 1 131 
+382 2 -2 382 
+510 2 1 513 
+Constructors: 0
+
+Summary: 23
+268 185 131 488 372 103 239 156 633 401 -1 517 347 106 575 210 430 604 322 -2 546 297 459 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveType(Lorg/eclipse/jdt/core/dom/AnnotationTypeDeclaration;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+4
+$r2 1 1 
+r3 1 10 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 3
+0 1 -1 
+67 1 -1 
+40 1 -1 
+Functions: 5
+1 2 1 -2 
+53 0 
+23 2 -1 1 
+78 0 
+47 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 25 60 0 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveMethod(Lorg/eclipse/jdt/core/dom/SuperMethodInvocation;)Lorg/eclipse/jdt/core/dom/IMethodBinding;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+r3 1 10 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+23 2 -1 1 
+Constructors: 0
+
+Summary: 4
+-2 25 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveConstructor(Lorg/eclipse/jdt/core/dom/ClassInstanceCreation;)Lorg/eclipse/jdt/core/dom/IMethodBinding;
+PTG:
+Vars:
+5
+$r3 1 5 
+r1 1 -2 
+r4 1 5 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 2
+0 1 -1 
+18 1 5 
+Functions: 3
+1 2 1 -2 
+34 2 -1 1 
+53 2 -1 1 
+Constructors: 0
+
+Summary: 6
+58 -2 5 39 -1 36 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getAnnotationInstance(Lorg/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)Lorg/eclipse/jdt/core/dom/IAnnotationBinding;
+PTG:
+Vars:
+12
+r10 1 45 
+$r7 1 38 
+$r13 1 60 
+r1 1 10 
+r2 1 -1 
+$r8 1 41 
+$r3 1 38 
+r0 1 -2 
+_ret 1 60 
+$r12 1 60 
+$r5 1 45 
+$r4 1 41 
+Fields: 2
+-1 bindingTables 38
+38 compilerBindingsToASTBindings 41
+Accesses: 6
+37 1 -1 
+22 1 10 
+38 1 38 
+70 1 -1 
+71 1 38 
+11 1 -1 
+Functions: 4
+66 5 -1 -2 38 41 60 
+6 1 -2 
+41 2 -2 41 
+79 3 -2 41 60 
+Constructors: 1
+66 60
+
+Summary: 4
+-2 0 -1 10 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.<init>(Lorg/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;Lorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/jdt/core/dom/DefaultBindingResolver$BindingTables;Z)V
+PTG:
+Vars:
+9
+$r6 1 47 
+$r1 1 5 
+r0 1 -1 
+$r2 1 16 
+r7 1 -2 
+$r5 1 43 
+$r3 1 27 
+r4 1 -4 
+r8 1 -3 
+Fields: 0
+Accesses: 7
+34 1 -1 
+66 1 -1 
+23 1 -1 
+39 1 -1 
+72 1 -1 
+12 1 -1 
+61 1 -1 
+Functions: 6
+1 1 -1 
+20 1 16 
+54 1 47 
+9 1 5 
+58 3 -2 43 47 
+31 1 27 
+Constructors: 6
+1 -1
+20 16
+54 47
+9 5
+58 43
+31 27
+
+Summary: 6
+47 -2 2 0 -1 1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getTypeBinding(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)Lorg/eclipse/jdt/core/dom/ITypeBinding;
+PTG:
+Vars:
+10
+r0 1 -2 
+$r2 1 243 
+$r7 1 246 
+$r6 1 243 
+r30 1 250 
+$r4 1 250 
+$r5 1 265 
+$r3 1 246 
+_ret 1 265 
+r1 1 -1 
+Fields: 2
+-1 bindingTables 243
+243 compilerBindingsToASTBindings 246
+Accesses: 12
+114 1 -1 
+242 1 -1 
+243 1 243 
+275 1 -1 
+276 1 243 
+133 1 -1 
+165 1 -2 
+201 1 -1 
+233 1 -1 
+220 1 -2 
+77 1 -1 
+142 1 -1 
+Functions: 13
+197 4 -1 -2 243 246 
+6 1 -2 
+72 0 
+13 1 -2 
+109 3 -1 243 246 
+271 5 -1 -2 243 246 265 
+81 0 
+146 1 -2 
+210 1 -2 
+246 2 -2 246 
+184 4 -1 -2 243 246 
+124 0 
+284 3 -2 246 265 
+Constructors: 1
+271 265
+
+Summary: 4
+-2 0 76 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getBindingsToNodesMap()Lorg/eclipse/jdt/internal/core/util/Util$BindingsToNodesMap;
+PTG:
+Vars:
+4
+$r3 1 0 
+$r2 1 0 
+r1 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -1 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.resolveVariable(Lorg/eclipse/jdt/core/dom/VariableDeclaration;)Lorg/eclipse/jdt/core/dom/IVariableBinding;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+r3 1 10 
+$r2 1 1 
+Fields: 1
+-1 newAstToOldAst 1
+Accesses: 3
+0 1 -1 
+102 1 -1 
+75 1 -1 
+Functions: 6
+1 2 1 -2 
+113 0 
+82 1 -2 
+54 3 -1 1 -2 
+39 3 -1 1 -2 
+88 0 
+Constructors: 0
+
+Summary: 7
+59 -2 95 0 10 42 -1 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getVariableBinding(Lorg/eclipse/jdt/internal/compiler/lookup/VariableBinding;Lorg/eclipse/jdt/core/dom/VariableDeclaration;)Lorg/eclipse/jdt/core/dom/IVariableBinding;
+PTG:
+Vars:
+5
+r1 1 -2 
+r18 1 -3 
+$r2 1 230 
+_ret 1 230 
+r0 1 -1 
+Fields: 0
+Accesses: 6
+0 1 -1 
+18 1 -1 
+71 1 -1 
+167 1 -1 
+41 1 -2 
+206 1 -1 
+Functions: 11
+80 1 -2 
+67 2 -1 -3 
+100 0 
+228 2 -1 -2 
+22 1 -2 
+54 2 -1 -2 
+150 0 
+201 1 -1 
+217 0 
+11 1 -2 
+171 0 
+Constructors: 0
+
+Summary: 9
+-3 153 -2 160 0 1 42 -1 148 
+org/eclipse/jdt/core/dom/DefaultBindingResolver.getVariableBinding(Lorg/eclipse/jdt/internal/compiler/lookup/VariableBinding;)Lorg/eclipse/jdt/core/dom/IVariableBinding;
+PTG:
+Vars:
+7
+r21 1 -2 
+r18 1 15 
+$r1 1 155 
+r2 1 162 
+r22 1 152 
+r3 1 -1 
+r0 1 -2 
+Fields: 3
+-2 type 15
+-2 declaringClass 152
+-2 name 155
+Accesses: 9
+208 1 -1 
+20 1 -1 
+148 1 -2 
+169 1 -1 
+42 1 -1 
+154 1 -2 
+11 1 -2 
+27 1 15 
+75 1 -1 
+Functions: 9
+4 4 -2 152 155 15 
+84 4 -2 152 155 15 
+71 5 -1 -2 152 155 15 
+104 4 -2 152 155 15 
+153 2 152 155 
+203 2 -1 162 
+219 1 162 
+173 1 162 
+46 4 -2 152 155 15 
+Constructors: 0
+
+Summary: 7
+15 -2 155 0 162 152 -1 

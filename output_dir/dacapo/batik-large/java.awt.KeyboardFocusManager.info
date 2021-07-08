@@ -1,0 +1,2329 @@
+93
+java/awt/KeyboardFocusManager.setGlobalActiveWindow(Ljava/awt/Window;)V
+PTG:
+Vars:
+12
+r1 1 -1 
+$r10 1 47 
+$r6 1 29 
+$r3 1 17 
+r2 1 13 
+$r4 1 14 
+r5 1 -2 
+$r9 1 42 
+$r7 1 26 
+$r11 1 51 
+$r12 1 54 
+$r8 1 38 
+Fields: 0
+Accesses: 0
+Functions: 12
+33 1 29 
+65 3 -1 -2 13 
+97 3 -1 -2 13 
+51 1 51 
+6 1 -1 
+38 2 -2 38 
+9 1 -1 
+57 2 54 26 
+42 1 42 
+29 1 29 
+14 2 17 14 
+47 2 13 47 
+Constructors: 1
+33 29
+
+Summary: 5
+-1 51 13 54 0 
+java/awt/KeyboardFocusManager.addPropertyChangeListener(Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+PTG:
+Vars:
+6
+r5 1 -2 
+r1 1 -1 
+r0 1 -3 
+$r6 1 9 
+$r4 1 9 
+$r7 1 16 
+Fields: 1
+-1 changeSupport 9
+Accesses: 3
+8 1 -1 
+24 1 -1 
+27 1 -1 
+Functions: 2
+33 3 -2 -3 9 
+21 3 16 -1 9 
+Constructors: 1
+21 16
+
+Summary: 2
+-3 -2 
+java/awt/KeyboardFocusManager.removePropertyChangeListener(Ljava/beans/PropertyChangeListener;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -1 
+$r5 1 9 
+$r4 1 9 
+Fields: 1
+-1 changeSupport 9
+Accesses: 2
+8 1 -1 
+15 1 -1 
+Functions: 1
+20 2 -2 9 
+Constructors: 0
+
+Summary: 1
+-2 
+java/awt/KeyboardFocusManager.setNativeFocusOwner(Ljava/awt/Component;)V
+PTG:
+Vars:
+10
+$r0 1 3 
+$r9 1 34 
+$r1 1 0 
+$r6 1 24 
+r2 1 -1 
+$r4 1 24 
+$r7 1 12 
+$r5 1 18 
+r3 1 -2 
+$r8 1 27 
+Fields: 1
+-1 peer 24
+Accesses: 2
+23 1 -1 
+41 1 -1 
+Functions: 5
+0 2 0 3 
+33 1 -2 
+38 2 18 12 
+24 1 24 
+46 2 -2 24 
+Constructors: 0
+
+Summary: 4
+-1 18 -2 0 
+java/awt/KeyboardFocusManager.setMostRecentFocusOwner(Ljava/awt/Component;)V
+PTG:
+Vars:
+3
+$r1 2 17 -2 
+r2 2 17 -2 
+r0 1 -2 
+Fields: 1
+17 parent 17
+Accesses: 1
+13 2 17 -2 
+Functions: 1
+30 2 17 -2 
+Constructors: 0
+
+Summary: 3
+17 -2 0 
+java/awt/KeyboardFocusManager.getFocusOwner()Ljava/awt/Component;
+PTG:
+Vars:
+7
+$r2 1 15 
+$r4 1 21 
+$r8 1 27 
+$r3 1 18 
+r7 1 -1 
+$r5 1 -1 
+$r1 1 5 
+Fields: 1
+15 appContext 18
+Accesses: 1
+15 1 15 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 2
+-1 21 
+java/awt/KeyboardFocusManager.getGlobalFocusedWindow()Ljava/awt/Window;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r3 1 -1 
+$r2 1 9 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.retargetFocusGained(Ljava/awt/event/FocusEvent;)Ljava/awt/event/FocusEvent;
+PTG:
+Vars:
+29
+$r0 1 24 
+$r21 1 228 
+$r7 1 61 
+$r10 1 274 
+$r13 1 125 
+$r19 1 134 
+r1 1 30 
+$r15 1 134 
+$r23 1 204 
+$r12 1 106 
+$r16 1 137 
+r2 1 -2 
+$r20 1 214 
+$r4 1 47 
+r6 1 57 
+$r22 1 134 
+r31 2 45 106 
+$r32 1 285 
+$r24 1 92 
+$r8 1 243 
+r17 1 137 
+r18 1 150 
+$r28 1 -1 
+r3 1 40 
+$r25 1 95 
+r30 2 106 35 
+$r11 1 106 
+$r26 1 68 
+$r9 1 264 
+Fields: 5
+137 component 150
+137 cause 228
+92 component 95
+57 lightweightRequests 134
+57 heavyweight 106
+Accesses: 10
+256 1 57 
+145 1 137 
+178 1 137 
+226 1 137 
+132 1 57 
+196 1 57 
+101 1 57 
+117 1 57 
+185 1 57 
+92 1 92 
+Functions: 20
+-1 0 
+128 1 125 
+67 1 -2 
+36 1 -2 
+6 1 -2 
+134 1 134 
+167 2 150 40 
+231 4 228 214 150 40 
+41 2 35 106 
+208 1 204 
+242 1 30 
+211 1 204 
+20 0 
+277 3 274 264 30 
+54 0 
+24 1 24 
+90 3 134 57 106 
+187 1 134 
+284 1 -2 
+31 1 -2 
+Constructors: 3
+208 204
+277 264
+231 214
+
+Summary: 14
+243 92 106 57 40 30 228 137 -2 24 95 45 0 35 
+java/awt/KeyboardFocusManager.getKeyEventDispatchers()Ljava/util/List;
+PTG:
+Vars:
+6
+$r4 1 11 
+_ret 1 11 
+$r3 1 11 
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 keyEventDispatchers 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.setGlobalPermanentFocusOwner(Ljava/awt/Component;)V
+PTG:
+Vars:
+3
+r8 1 29 
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+80 3 -1 -2 29 
+35 3 -1 -2 29 
+52 1 -2 
+22 1 -1 
+8 1 -2 
+25 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 29 0 
+java/awt/KeyboardFocusManager.setGlobalCurrentFocusCycleRootPriv(Ljava/awt/Container;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 3 0 -1 -2 
+9 1 0 
+Constructors: 1
+6 0
+
+Summary: 3
+-1 -2 0 
+java/awt/KeyboardFocusManager.setDefaultFocusTraversalPolicy(Ljava/awt/FocusTraversalPolicy;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+r4 1 22 
+r0 1 -2 
+Fields: 1
+-1 defaultPolicy 22
+Accesses: 2
+18 1 -1 
+25 1 -1 
+Functions: 2
+10 0 
+45 3 -1 -2 22 
+Constructors: 0
+
+Summary: 0
+
+java/awt/KeyboardFocusManager.upFocusCycle()V
+PTG:
+Vars:
+2
+r1 1 4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 2 -1 4 
+Constructors: 0
+
+Summary: 2
+4 -1 
+java/awt/KeyboardFocusManager.handleException(Ljava/lang/Throwable;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/KeyboardFocusManager.fireVetoableChange(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+PTG:
+Vars:
+5
+r1 1 -4 
+r0 1 -3 
+r4 1 -2 
+r3 1 10 
+r2 1 -1 
+Fields: 1
+-1 vetoableSupport 10
+Accesses: 1
+6 1 -1 
+Functions: 1
+22 4 -2 -3 -4 10 
+Constructors: 0
+
+Summary: 5
+-1 -3 1 -2 -4 
+java/awt/KeyboardFocusManager.getCurrentKeyboardFocusManager(Lsun/awt/AppContext;)Ljava/awt/KeyboardFocusManager;
+PTG:
+Vars:
+5
+$r2 1 14 
+r4 2 14 3 
+r0 1 -2 
+_ret 2 14 3 
+$r1 1 3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+18 1 14 
+26 2 -2 14 
+Constructors: 1
+18 14
+
+Summary: 2
+-2 0 
+java/awt/KeyboardFocusManager.getCurrentWaitingRequest(Ljava/awt/Component;)Ljava/awt/Component;
+PTG:
+Vars:
+8
+r11 1 -1 
+r3 1 -2 
+$r4 1 15 
+$r5 1 23 
+$r6 1 26 
+$r0 1 0 
+r7 1 26 
+r2 1 9 
+Fields: 2
+9 lightweightRequests 23
+9 heavyweight 15
+Accesses: 3
+22 1 9 
+39 1 26 
+14 1 9 
+Functions: 2
+6 0 
+23 1 23 
+Constructors: 0
+
+Summary: 6
+15 26 9 -1 23 -2 
+java/awt/KeyboardFocusManager.removePropertyChangeListener(Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+PTG:
+Vars:
+5
+r1 1 -1 
+$r6 1 9 
+r0 1 -3 
+$r4 1 9 
+r5 1 -2 
+Fields: 1
+-1 changeSupport 9
+Accesses: 2
+8 1 -1 
+15 1 -1 
+Functions: 1
+21 3 -2 -3 9 
+Constructors: 0
+
+Summary: 2
+-3 -2 
+java/awt/KeyboardFocusManager.<clinit>()V
+PTG:
+Vars:
+16
+$r5 1 88 
+$r8 1 115 
+$r0 1 0 
+$r6 1 94 
+$r9 1 123 
+$r3 1 50 
+$r11 1 145 
+$r14 1 167 
+$r15 1 177 
+$r7 1 103 
+$r10 1 133 
+$r2 1 37 
+$r4 1 57 
+$r12 1 153 
+$r1 1 19 
+$r13 1 160 
+Fields: 4
+57 ArrayObject 83
+57 ArrayObject 65
+57 ArrayObject 71
+57 ArrayObject 77
+Accesses: 0
+Functions: 14
+0 1 0 
+-1 0 
+34 0 
+132 0 
+102 0 
+41 1 37 
+171 1 167 
+44 1 37 
+47 0 
+16 0 
+144 0 
+114 0 
+181 1 177 
+25 0 
+Constructors: 3
+181 177
+41 37
+171 167
+
+Summary: 1
+37 
+java/awt/KeyboardFocusManager.getMostRecentFocusOwner(Ljava/awt/Window;)Ljava/awt/Component;
+PTG:
+Vars:
+7
+r0 1 -2 
+$r4 1 22 
+$r1 1 0 
+$r5 1 22 
+_ret 1 22 
+$r2 1 4 
+r3 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 0 -2 
+21 1 4 
+Constructors: 0
+
+Summary: 3
+4 -2 0 
+java/awt/KeyboardFocusManager.clearGlobalFocusOwnerPriv()V
+PTG:
+Vars:
+2
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 2 0 -1 
+8 1 0 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.getNativeFocusOwner()Ljava/awt/Component;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 4 
+_ret 1 4 
+$r1 1 1 
+Fields: 1
+-1 peer 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.clearMarkers()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.getCurrentFocusCycleRoot()Ljava/awt/Container;
+PTG:
+Vars:
+7
+$r1 1 5 
+$r3 1 18 
+$r8 1 27 
+$r5 1 -1 
+$r2 1 15 
+r7 1 -1 
+$r4 1 21 
+Fields: 1
+15 appContext 18
+Accesses: 1
+15 1 15 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 2
+-1 21 
+java/awt/KeyboardFocusManager.removeVetoableChangeListener(Ljava/beans/VetoableChangeListener;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+$r4 1 9 
+$r5 1 9 
+r1 1 -1 
+Fields: 1
+-1 vetoableSupport 9
+Accesses: 2
+8 1 -1 
+15 1 -1 
+Functions: 1
+20 2 -2 9 
+Constructors: 0
+
+Summary: 1
+-2 
+java/awt/KeyboardFocusManager.setCurrentKeyboardFocusManager(Ljava/awt/KeyboardFocusManager;)V
+PTG:
+Vars:
+7
+$r4 1 81 
+r9 2 22 38 
+r1 1 13 
+$r6 1 65 
+$r5 1 68 
+$r3 1 84 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 0 
+18 1 13 
+34 1 13 
+71 4 65 68 22 38 
+87 3 -2 81 84 
+10 0 
+42 1 13 
+27 2 -2 13 
+Constructors: 0
+
+Summary: 4
+22 38 -2 13 
+java/awt/KeyboardFocusManager.dispatchAndCatchException(Ljava/lang/Throwable;Ljava/awt/Component;Ljava/awt/event/FocusEvent;)Ljava/lang/Throwable;
+PTG:
+Vars:
+7
+r0 1 -3 
+$r4 1 -1 
+r5 1 -1 
+_ret 1 -2 
+r2 1 -2 
+r1 1 -4 
+$r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+32 1 -2 
+4 2 -3 -4 
+Constructors: 0
+
+Summary: 5
+-3 1 2 0 -4 
+java/awt/KeyboardFocusManager.getCurrentKeyboardFocusManager()Ljava/awt/KeyboardFocusManager;
+PTG:
+Vars:
+3
+$r0 1 0 
+$r1 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+0 1 0 
+Constructors: 0
+
+Summary: 1
+0 
+java/awt/KeyboardFocusManager.addPropertyChangeListener(Ljava/beans/PropertyChangeListener;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+r1 1 -1 
+$r6 1 16 
+$r4 1 9 
+$r5 1 9 
+Fields: 1
+-1 changeSupport 9
+Accesses: 3
+8 1 -1 
+24 1 -1 
+27 1 -1 
+Functions: 2
+32 2 -2 9 
+21 3 16 -1 9 
+Constructors: 1
+21 16
+
+Summary: 1
+-2 
+java/awt/KeyboardFocusManager.getCurrentSequencedEvent()Ljava/awt/SequencedEvent;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r2 1 6 
+$r3 1 -1 
+Fields: 1
+-1 currentSequencedEvent 6
+Accesses: 1
+5 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.removeVetoableChangeListener(Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+PTG:
+Vars:
+5
+r5 1 -2 
+r1 1 -1 
+$r6 1 9 
+r0 1 -3 
+$r4 1 9 
+Fields: 1
+-1 vetoableSupport 9
+Accesses: 2
+8 1 -1 
+15 1 -1 
+Functions: 1
+21 3 -2 -3 9 
+Constructors: 0
+
+Summary: 2
+-3 -2 
+java/awt/KeyboardFocusManager.downFocusCycle()V
+PTG:
+Vars:
+3
+r1 1 4 
+r0 1 -1 
+$r2 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+17 2 -1 4 
+Constructors: 0
+
+Summary: 2
+4 -1 
+java/awt/KeyboardFocusManager.getFirstHWRequest()Ljava/awt/KeyboardFocusManager$HeavyweightFocusRequest;
+PTG:
+Vars:
+6
+$r5 1 -1 
+$r4 1 18 
+$r3 1 15 
+$r0 1 0 
+$r7 1 18 
+$r2 1 6 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 1 6 
+15 1 15 
+Constructors: 0
+
+Summary: 0
+
+java/awt/KeyboardFocusManager.addVetoableChangeListener(Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+PTG:
+Vars:
+6
+r1 1 -1 
+r5 1 -2 
+$r6 1 9 
+r0 1 -3 
+$r7 1 16 
+$r4 1 9 
+Fields: 1
+-1 vetoableSupport 9
+Accesses: 3
+8 1 -1 
+24 1 -1 
+27 1 -1 
+Functions: 2
+33 3 -2 -3 9 
+21 3 16 -1 9 
+Constructors: 1
+21 16
+
+Summary: 2
+-3 -2 
+java/awt/KeyboardFocusManager.getGlobalCurrentFocusCycleRoot()Ljava/awt/Container;
+PTG:
+Vars:
+3
+$r2 1 9 
+$r3 1 -1 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.setGlobalFocusedWindow(Ljava/awt/Window;)V
+PTG:
+Vars:
+3
+r2 1 -1 
+r0 1 -2 
+r8 1 29 
+Fields: 0
+Accesses: 0
+Functions: 5
+35 3 -1 -2 29 
+22 1 -1 
+8 1 -2 
+25 1 -1 
+76 3 -1 -2 29 
+Constructors: 0
+
+Summary: 3
+-1 29 0 
+java/awt/KeyboardFocusManager.initFocusTraversalKeysSet(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set;
+PTG:
+Vars:
+7
+r3 1 -3 
+$r4 1 20 
+r1 1 -2 
+$r0 1 0 
+_ret 2 44 51 
+$r5 1 23 
+$r6 2 44 51 
+Fields: 0
+Accesses: 0
+Functions: 7
+50 1 -3 
+19 1 0 
+35 1 -3 
+20 1 20 
+7 2 0 -2 
+26 2 -3 23 
+11 1 0 
+Constructors: 1
+7 0
+
+Summary: 6
+-3 1 23 -2 20 0 
+java/awt/KeyboardFocusManager.processSynchronousLightweightTransfer(Ljava/awt/Component;Ljava/awt/Component;ZZJ)Z
+PTG:
+Vars:
+18
+$r2 1 28 
+r21 2 -3 -2 
+$r13 1 115 
+r28 2 250 222 
+$r10 1 69 
+$r12 1 107 
+$r6 1 190 
+$r5 1 49 
+$r11 1 100 
+$r15 1 129 
+r25 1 59 
+r0 1 -2 
+r23 1 145 
+r4 1 47 
+r1 1 4 
+$r14 1 145 
+r3 1 34 
+r22 1 129 
+Fields: 0
+Accesses: 3
+210 1 129 
+11 1 4 
+239 1 145 
+Functions: 13
+0 1 -2 
+97 3 -2 34 -3 
+67 1 34 
+42 1 34 
+140 4 129 -2 -3 47 
+110 4 -2 -3 100 107 
+245 5 -2 145 -3 250 222 
+56 0 
+120 2 115 100 
+217 2 129 47 
+27 2 -2 -3 
+28 1 28 
+156 4 145 -2 -3 47 
+Constructors: 3
+140 129
+156 145
+110 100
+
+Summary: 11
+145 28 -2 129 47 4 34 -3 100 59 69 
+java/awt/KeyboardFocusManager.isAutoFocusTransferEnabledFor(Ljava/awt/Component;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+6 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/KeyboardFocusManager.processCurrentLightweightRequests()V
+PTG:
+Vars:
+24
+r0 1 3 
+$r3 1 32 
+r6 1 104 
+$r7 1 124 
+r1 1 10 
+$r16 1 156 
+$r13 1 172 
+$r18 1 172 
+r8 1 124 
+$r15 1 172 
+r25 1 49 
+r27 1 261 
+$r17 1 177 
+$r31 2 120 172 
+$r11 1 172 
+r30 1 156 
+$r20 1 19 
+$r19 1 16 
+$r2 1 26 
+r29 1 120 
+$r14 1 263 
+r28 1 172 
+$r10 1 177 
+$r9 1 185 
+Fields: 3
+10 appContext 16
+124 component 172
+124 cause 177
+Accesses: 12
+274 1 124 
+165 1 124 
+197 1 124 
+214 1 124 
+247 1 185 
+232 1 156 
+170 1 124 
+266 1 124 
+251 1 124 
+189 1 124 
+15 1 10 
+175 1 124 
+Functions: 14
+0 0 
+-1 0 
+256 3 261 185 172 
+100 1 49 
+6 1 3 
+134 1 104 
+262 1 3 
+106 1 104 
+238 3 261 120 156 
+50 1 49 
+116 1 3 
+180 4 177 120 156 172 
+122 1 104 
+219 4 177 120 185 172 
+Constructors: 2
+180 156
+219 185
+
+Summary: 12
+263 16 243 120 3 185 19 10 177 124 156 172 
+java/awt/KeyboardFocusManager.removeKeyEventPostProcessor(Ljava/awt/KeyEventPostProcessor;)V
+PTG:
+Vars:
+4
+$r5 1 9 
+$r4 1 9 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 keyEventPostProcessors 9
+Accesses: 2
+8 1 -1 
+15 1 -1 
+Functions: 1
+20 2 -2 9 
+Constructors: 0
+
+Summary: 1
+-2 
+java/awt/KeyboardFocusManager.redispatchEvent(Ljava/awt/Component;Ljava/awt/AWTEvent;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -3 
+r2 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -3 
+12 1 -3 
+Functions: 1
+7 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 -3 1 -2 0 
+java/awt/KeyboardFocusManager.isAutoFocusTransferEnabled()Z
+PTG:
+Vars:
+4
+$r2 1 6 
+$r3 1 22 
+$r4 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 6 
+Constructors: 0
+
+Summary: 0
+
+java/awt/KeyboardFocusManager.markClearGlobalFocusOwner()Ljava/awt/Window;
+PTG:
+Vars:
+12
+r4 1 16 
+$r9 1 -1 
+r1 1 6 
+$r5 1 18 
+$r0 1 0 
+$r7 1 28 
+$r2 1 7 
+r12 3 76 46 6 
+$r8 1 43 
+$r11 2 46 6 
+$r13 3 76 46 6 
+$r6 1 31 
+Fields: 1
+16 heavyweight 43
+Accesses: 1
+42 1 16 
+Functions: 6
+-1 0 
+0 1 0 
+34 2 28 31 
+72 3 6 76 46 
+43 1 43 
+13 0 
+Constructors: 0
+
+Summary: 4
+76 43 16 0 
+java/awt/KeyboardFocusManager.access$000()Ljava/awt/Container;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/awt/KeyboardFocusManager.isProxyActiveImpl(Ljava/awt/event/KeyEvent;)Z
+PTG:
+Vars:
+7
+$r2 1 22 
+$r0 1 0 
+$r6 1 -1 
+r1 1 -2 
+$r4 1 13 
+$r3 1 6 
+$r5 1 13 
+Fields: 0
+Accesses: 0
+Functions: 4
+6 1 6 
+22 2 -2 22 
+41 0 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 2
+-2 0 
+java/awt/KeyboardFocusManager.isProxyActive(Ljava/awt/event/KeyEvent;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+6 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/KeyboardFocusManager.getActiveWindow()Ljava/awt/Window;
+PTG:
+Vars:
+7
+$r3 1 18 
+$r2 1 15 
+$r1 1 5 
+r7 1 -1 
+$r4 1 21 
+$r5 1 -1 
+$r8 1 27 
+Fields: 1
+15 appContext 18
+Accesses: 1
+15 1 15 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 2
+-1 21 
+java/awt/KeyboardFocusManager.getPropertyChangeListeners()[Ljava/beans/PropertyChangeListener;
+PTG:
+Vars:
+6
+$r3 1 23 
+$r1 1 1 
+$r2 1 1 
+_ret 1 23 
+r0 1 -1 
+$r4 1 8 
+Fields: 1
+-1 changeSupport 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+19 1 -1 
+Functions: 2
+20 1 1 
+13 3 -1 1 8 
+Constructors: 1
+13 8
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.focusNextComponent()V
+PTG:
+Vars:
+2
+r1 1 4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 2 -1 4 
+Constructors: 0
+
+Summary: 2
+4 -1 
+java/awt/KeyboardFocusManager.getVetoableChangeListeners(Ljava/lang/String;)[Ljava/beans/VetoableChangeListener;
+PTG:
+Vars:
+7
+r2 1 -2 
+$r1 1 1 
+$r5 1 8 
+$r4 1 24 
+_ret 1 24 
+r0 1 -1 
+$r3 1 1 
+Fields: 1
+-1 vetoableSupport 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+19 1 -1 
+Functions: 2
+20 2 1 -2 
+13 3 -1 1 8 
+Constructors: 1
+13 8
+
+Summary: 2
+-1 -2 
+java/awt/KeyboardFocusManager.checkReplaceKFMPermission()V
+PTG:
+Vars:
+4
+$r1 1 8 
+$r2 1 28 
+r0 1 3 
+$r3 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+21 1 14 
+31 2 3 28 
+Constructors: 1
+21 14
+
+Summary: 1
+3 
+java/awt/KeyboardFocusManager.focusPreviousComponent()V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 2 -1 4 
+Constructors: 0
+
+Summary: 2
+4 -1 
+java/awt/KeyboardFocusManager.getPermanentFocusOwner()Ljava/awt/Component;
+PTG:
+Vars:
+7
+r7 1 -1 
+$r8 1 27 
+$r2 1 15 
+$r4 1 21 
+$r5 1 -1 
+$r3 1 18 
+$r1 1 5 
+Fields: 1
+15 appContext 18
+Accesses: 1
+15 1 15 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 2
+-1 21 
+java/awt/KeyboardFocusManager.<init>()V
+PTG:
+Vars:
+11
+$r10 1 62 
+$r1 1 5 
+$r8 1 56 
+$r5 1 46 
+$r3 1 35 
+$r11 2 96 89 
+$r9 1 60 
+$r2 1 17 
+$r7 1 76 
+r0 1 -1 
+$r6 1 50 
+Fields: 4
+-1 defaultFocusTraversalKeys 76
+46 ArrayObject 50
+56 ArrayObject 60
+60 ArrayObject 62
+Accesses: 4
+20 1 -1 
+25 1 -1 
+75 1 -1 
+12 1 -1 
+Functions: 7
+80 1 35 
+1 2 -1 76 
+39 1 35 
+9 1 5 
+107 2 -1 76 
+63 2 35 62 
+95 1 35 
+Constructors: 3
+1 -1
+39 35
+9 5
+
+Summary: 3
+35 -1 96 
+java/awt/KeyboardFocusManager.focusedWindowChanged(Ljava/awt/Component;Ljava/awt/Component;)Z
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 4 
+r3 1 9 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+5 1 -3 
+Constructors: 0
+
+Summary: 6
+9 4 -3 1 -2 0 
+java/awt/KeyboardFocusManager.isTemporary(Ljava/awt/Component;Ljava/awt/Component;)Z
+PTG:
+Vars:
+4
+r2 1 -3 
+r1 1 4 
+r3 1 9 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+5 1 -3 
+Constructors: 0
+
+Summary: 6
+9 4 -3 1 -2 0 
+java/awt/KeyboardFocusManager.getDefaultFocusTraversalKeys(I)Ljava/util/Set;
+PTG:
+Vars:
+4
+$r2 1 20 
+_ret 1 24 
+r1 1 -1 
+$r3 1 24 
+Fields: 2
+-1 defaultFocusTraversalKeys 20
+20 ArrayObject 24
+Accesses: 1
+19 1 -1 
+Functions: 1
+15 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.dumpRequests()V
+PTG:
+Vars:
+17
+$r5 1 27 
+r8 1 39 
+$r3 1 18 
+$r12 1 62 
+$r16 1 78 
+$r4 1 21 
+$r10 1 50 
+r11 1 50 
+$r2 1 12 
+$r13 1 59 
+$r1 1 0 
+$r14 1 71 
+$r0 1 3 
+$r7 1 33 
+$r9 1 99 
+r19 1 -1 
+$r15 1 75 
+Fields: 0
+Accesses: 0
+Functions: 15
+-1 0 
+33 1 33 
+66 1 62 
+3 1 3 
+7 1 3 
+71 2 50 71 
+40 1 39 
+104 1 99 
+75 1 75 
+12 1 12 
+49 1 39 
+81 2 59 78 
+18 1 18 
+24 2 0 21 
+62 1 62 
+Constructors: 2
+66 62
+7 3
+
+Summary: 11
+3 71 -1 78 18 62 12 75 39 21 50 
+java/awt/KeyboardFocusManager.removeLastFocusRequest(Ljava/awt/Component;)V
+PTG:
+Vars:
+10
+r5 1 -2 
+$r1 1 0 
+$r6 1 43 
+r4 1 37 
+$r13 1 57 
+$r0 1 3 
+$r7 1 50 
+r2 1 27 
+$r9 1 16 
+$r12 1 28 
+Fields: 1
+37 heavyweight 43
+Accesses: 1
+42 1 37 
+Functions: 7
+0 2 0 3 
+34 0 
+67 1 27 
+21 1 16 
+53 1 50 
+24 0 
+57 1 57 
+Constructors: 0
+
+Summary: 4
+37 43 27 -2 
+java/awt/KeyboardFocusManager.getHeavyweight(Ljava/awt/Component;)Ljava/awt/Component;
+PTG:
+Vars:
+4
+$r1 1 5 
+r0 1 -2 
+$r2 1 14 
+_ret 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 -2 
+23 1 -2 
+13 1 -2 
+Constructors: 0
+
+Summary: 3
+5 14 0 
+java/awt/KeyboardFocusManager.setMostRecentFocusOwner(Ljava/awt/Window;Ljava/awt/Component;)V
+PTG:
+Vars:
+5
+$r2 1 15 
+$r4 1 6 
+r5 1 6 
+r0 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+20 3 -2 6 15 
+11 2 -3 6 
+Constructors: 1
+11 6
+
+Summary: 5
+-3 1 6 -2 0 
+java/awt/KeyboardFocusManager.getPropertyChangeListeners(Ljava/lang/String;)[Ljava/beans/PropertyChangeListener;
+PTG:
+Vars:
+7
+$r4 1 24 
+$r5 1 8 
+$r3 1 1 
+r0 1 -1 
+_ret 1 24 
+r2 1 -2 
+$r1 1 1 
+Fields: 1
+-1 changeSupport 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+19 1 -1 
+Functions: 2
+20 2 1 -2 
+13 3 -1 1 8 
+Constructors: 1
+13 8
+
+Summary: 2
+-1 -2 
+java/awt/KeyboardFocusManager.getGlobalPermanentFocusOwner()Ljava/awt/Component;
+PTG:
+Vars:
+3
+$r2 1 9 
+$r3 1 -1 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.getKeyEventPostProcessors()Ljava/util/List;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 11 
+$r3 1 11 
+_ret 1 11 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 keyEventPostProcessors 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.clearGlobalFocusOwner()V
+PTG:
+Vars:
+1
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 0 
+-1 0 
+9 0 
+14 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.removeKeyEventDispatcher(Ljava/awt/KeyEventDispatcher;)V
+PTG:
+Vars:
+4
+$r4 1 9 
+$r5 1 9 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 keyEventDispatchers 9
+Accesses: 2
+8 1 -1 
+15 1 -1 
+Functions: 1
+20 2 -2 9 
+Constructors: 0
+
+Summary: 1
+-2 
+java/awt/KeyboardFocusManager.initPeer()V
+PTG:
+Vars:
+4
+r0 1 3 
+r1 1 3 
+r2 1 -1 
+$r3 1 11 
+Fields: 0
+Accesses: 1
+16 1 -1 
+Functions: 2
+0 0 
+10 1 3 
+Constructors: 0
+
+Summary: 2
+-1 3 
+java/awt/KeyboardFocusManager.removeFirstRequest()Z
+PTG:
+Vars:
+13
+r9 1 39 
+$r11 1 54 
+$r8 1 26 
+$r15 1 71 
+$r12 1 62 
+$r1 1 4 
+$r5 1 18 
+$r13 1 -1 
+$r4 1 84 
+r0 1 3 
+r3 1 13 
+$r7 1 26 
+$r10 1 54 
+Fields: 2
+54 component 62
+13 lightweightRequests 26
+Accesses: 3
+32 1 13 
+25 1 13 
+59 1 54 
+Functions: 10
+0 0 
+33 1 26 
+65 2 3 62 
+81 1 3 
+84 1 84 
+21 1 18 
+53 1 39 
+71 1 71 
+40 1 39 
+10 0 
+Constructors: 0
+
+Summary: 4
+26 54 13 62 
+java/awt/KeyboardFocusManager.shouldNativelyFocusHeavyweight(Ljava/awt/Component;Ljava/awt/Component;ZZJLsun/awt/CausedFocusEvent$Cause;)I
+PTG:
+Vars:
+87
+$r52 1 360 
+$r25 1 672 
+$r82 1 31 
+$r79 1 92 
+$r77 1 183 
+r86 2 -3 -2 
+$r9 1 80 
+$r45 1 485 
+$r71 1 143 
+r7 1 78 
+$r72 1 156 
+$r61 1 263 
+$r58 1 411 
+$r46 1 490 
+$r20 1 647 
+$r22 1 659 
+$r49 1 246 
+$r42 1 472 
+$r67 1 214 
+$r91 1 541 
+$r12 1 190 
+$r78 1 98 
+$r75 1 176 
+$r31 1 587 
+$r64 1 272 
+$r36 1 520 
+r18 1 -7 
+$r26 1 675 
+$r74 1 163 
+$r56 1 405 
+$r40 1 460 
+$r34 1 606 
+r4 1 57 
+$r16 1 628 
+$r32 1 599 
+$r62 1 260 
+$r21 1 644 
+$r0 1 3 
+$r66 1 220 
+$r41 1 457 
+$r54 1 390 
+$r44 1 481 
+$r69 1 136 
+r6 1 71 
+$r8 1 83 
+$r23 1 656 
+$r65 1 284 
+$r28 1 578 
+$r15 1 202 
+$r29 1 575 
+$r84 1 -1 
+$r92 2 430 78 
+$r59 1 332 
+$r48 1 497 
+$r14 1 205 
+$r10 1 121 
+$r73 1 150 
+$r24 1 668 
+$r63 1 278 
+$r57 1 399 
+$r43 1 469 
+$r81 1 111 
+r5 1 64 
+$r83 1 16 
+$r2 1 46 
+$r53 1 379 
+r3 1 52 
+$r38 1 541 
+$r11 1 118 
+$r19 1 625 
+$r80 1 104 
+$r51 1 318 
+$r55 1 387 
+$r33 1 603 
+r87 2 200 541 
+$r70 1 130 
+r17 1 -2 
+$r68 1 227 
+$r60 1 352 
+$r37 1 534 
+$r27 1 514 
+$r30 1 590 
+$r76 1 170 
+$r1 1 0 
+$r50 1 304 
+$r39 1 430 
+$r47 1 494 
+Fields: 4
+200 heavyweight 430
+-3 appContext 379
+64 appContext 352
+-2 appContext 379
+Accesses: 4
+378 2 -2 -3 
+428 2 200 541 
+350 1 64 
+559 2 200 541 
+Functions: 66
+0 2 0 3 
+384 2 360 379 
+640 2 625 628 
+387 2 387 390 
+260 2 260 263 
+644 2 644 647 
+520 1 520 
+141 2 64 352 
+147 2 130 136 
+659 1 659 
+21 1 16 
+534 1 534 
+663 1 659 
+410 3 -2 -3 379 
+283 3 -2 -3 379 
+668 4 -2 -3 379 668 
+415 2 405 399 
+288 2 272 278 
+672 1 672 
+161 1 71 
+36 1 31 
+678 2 656 675 
+167 2 150 156 
+45 3 -2 -3 379 
+301 4 -2 -3 52 379 
+46 1 46 
+181 1 78 
+437 7 -2 -3 -7 200 379 541 430 
+54 0 
+567 4 -2 379 430 78 
+313 5 304 -2 -3 -7 379 
+59 1 57 
+187 2 176 170 
+575 2 578 575 
+66 1 57 
+323 2 304 318 
+197 0 
+454 4 -2 -3 52 379 
+73 1 57 
+457 2 457 460 
+202 2 202 205 
+590 1 590 
+80 2 80 83 
+594 1 590 
+599 4 -2 -3 599 379 
+472 1 472 
+345 7 64 352 -2 -3 -7 379 332 
+603 1 603 
+476 1 472 
+225 3 200 541 430 
+481 4 481 -2 -3 379 
+609 2 587 606 
+357 2 352 332 
+485 1 485 
+103 3 -2 -3 379 
+231 2 214 220 
+490 3 -2 490 379 
+110 2 -2 379 
+494 1 494 
+622 4 -2 -3 52 379 
+115 2 98 92 
+500 2 497 469 
+245 2 -2 379 
+373 7 64 352 -2 -3 -7 360 379 
+118 2 118 121 
+637 5 -2 -3 628 -7 379 
+Constructors: 7
+594 590
+373 360
+663 659
+313 304
+345 332
+476 472
+637 628
+
+Summary: 40
+78 590 278 352 599 156 246 668 675 -2 430 606 659 379 497 490 71 -7 485 52 57 136 494 -3 481 220 541 200 603 304 332 98 176 360 405 628 672 46 472 64 
+java/awt/KeyboardFocusManager.clearFocusOwner()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+8 1 -1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+java/awt/KeyboardFocusManager.retargetFocusEvent(Ljava/awt/AWTEvent;)Ljava/awt/AWTEvent;
+PTG:
+Vars:
+26
+$r11 1 45 
+$r4 1 -2 
+r6 1 -2 
+$r8 1 152 
+_ret 3 238 227 -2 
+$r2 1 12 
+$r5 1 -2 
+$r12 1 38 
+$r15 1 77 
+$r7 1 148 
+$r18 1 107 
+$r16 1 90 
+$r10 1 162 
+$r9 1 159 
+r0 1 11 
+$r14 1 84 
+$r20 1 113 
+$r1 1 15 
+$r13 1 51 
+$r19 1 100 
+$r26 1 120 
+$r24 1 58 
+r23 3 238 227 -2 
+$r17 1 93 
+$r25 1 61 
+$r27 1 126 
+Fields: 0
+Accesses: 0
+Functions: 18
+97 2 84 77 
+132 3 -2 227 238 
+8 0 
+232 1 -2 
+12 2 12 15 
+112 3 -2 227 238 
+50 3 -2 227 238 
+147 1 11 
+117 2 100 107 
+55 2 38 45 
+151 1 -2 
+89 1 11 
+58 2 58 61 
+90 1 90 
+188 0 
+221 1 -2 
+158 1 -2 
+191 3 -2 227 238 
+Constructors: 0
+
+Summary: 9
+11 90 159 148 84 45 107 152 0 
+java/awt/KeyboardFocusManager.clearMostRecentFocusOwner(Ljava/awt/Component;)V
+PTG:
+Vars:
+8
+r14 2 16 32 
+$r6 2 16 32 
+r11 2 16 32 
+$r2 1 84 
+$r5 1 59 
+$r1 1 6 
+r0 1 -2 
+$r4 2 16 32 
+Fields: 0
+Accesses: 0
+Functions: 7
+83 2 16 32 
+5 1 -2 
+71 2 16 32 
+56 2 16 32 
+12 1 -2 
+28 2 16 32 
+93 2 16 32 
+Constructors: 0
+
+Summary: 6
+16 59 32 -2 84 0 
+java/awt/KeyboardFocusManager.setGlobalFocusOwner(Ljava/awt/Component;)V
+PTG:
+Vars:
+6
+r9 1 29 
+r2 1 -1 
+r0 1 -2 
+$r3 1 56 
+$r4 1 64 
+r11 2 77 -2 
+Fields: 0
+Accesses: 0
+Functions: 10
+35 3 -1 -2 29 
+133 3 -1 -2 29 
+22 1 -1 
+55 1 -1 
+8 1 -2 
+25 1 -1 
+73 1 -2 
+105 3 -1 -2 77 
+62 2 64 -2 
+63 1 -1 
+Constructors: 0
+
+Summary: 6
+-1 29 56 77 64 0 
+java/awt/KeyboardFocusManager.retargetFocusLost(Ljava/awt/event/FocusEvent;)Ljava/awt/event/FocusEvent;
+PTG:
+Vars:
+26
+r29 2 242 -2 
+$r15 1 196 
+$r10 1 252 
+$r9 1 242 
+$r24 1 72 
+$r22 1 65 
+$r21 1 110 
+$r19 1 149 
+$r18 1 146 
+$r20 1 100 
+$r0 1 24 
+r1 1 30 
+$r8 1 265 
+$r4 1 41 
+$r13 1 169 
+$r12 1 166 
+r6 1 51 
+$r17 1 208 
+$r11 1 133 
+r14 1 169 
+$r27 1 -1 
+$r7 1 55 
+r3 1 40 
+$r25 1 82 
+r2 1 35 
+$r16 1 213 
+Fields: 5
+146 component 149
+51 lightweightRequests 166
+51 heavyweight 133
+169 component 208
+169 cause 213
+Accesses: 6
+146 1 146 
+131 1 51 
+211 1 169 
+164 1 51 
+189 1 169 
+206 1 169 
+Functions: 18
+-1 0 
+224 2 35 30 
+36 1 35 
+68 1 65 
+6 2 -2 242 
+166 1 166 
+231 2 -2 242 
+264 2 -2 242 
+48 0 
+144 3 51 133 166 
+113 3 100 30 110 
+178 2 35 30 
+20 0 
+85 3 82 72 30 
+24 1 24 
+216 4 208 196 213 30 
+31 2 -2 242 
+255 4 242 35 252 30 
+Constructors: 4
+113 100
+85 72
+216 196
+255 242
+
+Summary: 12
+208 213 40 146 169 30 149 51 24 133 0 35 
+java/awt/KeyboardFocusManager.getFocusedWindow()Ljava/awt/Window;
+PTG:
+Vars:
+7
+$r3 1 18 
+$r2 1 15 
+$r4 1 21 
+$r8 1 27 
+$r5 1 -1 
+r7 1 -1 
+$r1 1 5 
+Fields: 1
+15 appContext 18
+Accesses: 1
+15 1 15 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 2
+-1 21 
+java/awt/KeyboardFocusManager.getGlobalActiveWindow()Ljava/awt/Window;
+PTG:
+Vars:
+3
+$r2 1 9 
+r1 1 -1 
+$r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.setCurrentSequencedEvent(Ljava/awt/SequencedEvent;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+$r3 1 16 
+r2 1 -2 
+Fields: 1
+-1 currentSequencedEvent 16
+Accesses: 2
+32 1 -1 
+15 1 -1 
+Functions: 1
+26 0 
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/awt/KeyboardFocusManager.retargetUnexpectedFocusEvent(Ljava/awt/event/FocusEvent;)Ljava/awt/event/FocusEvent;
+PTG:
+Vars:
+9
+$r9 1 60 
+$r5 1 13 
+r4 1 31 
+$r0 1 0 
+r3 1 26 
+$r10 1 72 
+$r7 1 -1 
+r2 1 -2 
+$r6 1 13 
+Fields: 0
+Accesses: 0
+Functions: 8
+-1 0 
+65 1 -2 
+50 2 26 31 
+35 1 -2 
+22 1 -2 
+27 1 -2 
+75 4 72 26 60 31 
+12 1 -2 
+Constructors: 1
+75 60
+
+Summary: 4
+26 31 -2 0 
+java/awt/KeyboardFocusManager.access$100()Lsun/util/logging/PlatformLogger;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/awt/KeyboardFocusManager.addKeyEventDispatcher(Ljava/awt/KeyEventDispatcher;)V
+PTG:
+Vars:
+5
+r1 1 -1 
+$r6 1 16 
+$r5 1 9 
+r0 1 -2 
+$r4 1 9 
+Fields: 1
+-1 keyEventDispatchers 9
+Accesses: 3
+23 1 -1 
+8 1 -1 
+26 1 -1 
+Functions: 2
+20 1 16 
+31 2 -2 9 
+Constructors: 1
+20 16
+
+Summary: 1
+-2 
+java/awt/KeyboardFocusManager.getGlobalFocusOwner()Ljava/awt/Component;
+PTG:
+Vars:
+3
+$r2 1 9 
+$r3 1 -1 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.getDefaultFocusTraversalPolicy()Ljava/awt/FocusTraversalPolicy;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 defaultPolicy 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.setGlobalCurrentFocusCycleRoot(Ljava/awt/Container;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+r3 1 -2 
+r2 1 12 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+34 3 -1 -2 12 
+8 1 -1 
+Constructors: 0
+
+Summary: 3
+12 -1 0 
+java/awt/KeyboardFocusManager.setDefaultFocusTraversalKeys(ILjava/util/Set;)V
+PTG:
+Vars:
+14
+r2 1 -1 
+r7 1 163 
+$r9 2 122 158 
+r1 1 -3 
+r5 1 44 
+$r12 1 200 
+$r15 1 122 
+$r10 1 177 
+$r8 1 169 
+$r13 1 58 
+$r11 1 196 
+$r16 1 127 
+$r6 2 122 158 
+r14 1 58 
+Fields: 6
+196 ArrayObject 200
+-1 defaultFocusTraversalKeys 158
+-1 defaultFocusTraversalKeys 122
+122 ArrayObject 163
+122 ArrayObject 127
+158 ArrayObject 163
+Accesses: 3
+164 1 -1 
+121 1 -1 
+157 1 -1 
+Functions: 13
+99 0 
+38 1 -3 
+169 1 169 
+203 7 -1 -3 163 200 122 158 127 
+46 1 44 
+174 2 -3 169 
+15 0 
+79 0 
+144 0 
+83 1 58 
+56 1 44 
+29 0 
+127 2 58 127 
+Constructors: 1
+174 169
+
+Summary: 4
+58 44 169 -3 
+java/awt/KeyboardFocusManager.checkKFMSecurity()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+7 0 
+Constructors: 0
+
+Summary: 2
+1 -1 
+java/awt/KeyboardFocusManager._clearGlobalFocusOwner()V
+PTG:
+Vars:
+3
+r0 1 3 
+r1 1 -1 
+$r2 1 5 
+Fields: 1
+-1 peer 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+0 0 
+9 2 3 5 
+Constructors: 0
+
+Summary: 2
+-1 3 
+java/awt/KeyboardFocusManager.firePropertyChange(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+PTG:
+Vars:
+5
+r0 1 -3 
+r3 1 10 
+r4 1 -2 
+r1 1 -4 
+r2 1 -1 
+Fields: 1
+-1 changeSupport 10
+Accesses: 1
+6 1 -1 
+Functions: 1
+22 4 -2 -3 -4 10 
+Constructors: 0
+
+Summary: 5
+-1 -3 1 -2 -4 
+java/awt/KeyboardFocusManager.getVetoableChangeListeners()[Ljava/beans/VetoableChangeListener;
+PTG:
+Vars:
+6
+$r3 1 23 
+r0 1 -1 
+$r1 1 1 
+$r4 1 8 
+_ret 1 23 
+$r2 1 1 
+Fields: 1
+-1 vetoableSupport 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+19 1 -1 
+Functions: 2
+20 1 1 
+13 3 -1 1 8 
+Constructors: 1
+13 8
+
+Summary: 1
+-1 
+java/awt/KeyboardFocusManager.addVetoableChangeListener(Ljava/beans/VetoableChangeListener;)V
+PTG:
+Vars:
+5
+$r4 1 9 
+$r6 1 16 
+$r5 1 9 
+r0 1 -2 
+r1 1 -1 
+Fields: 1
+-1 vetoableSupport 9
+Accesses: 3
+8 1 -1 
+24 1 -1 
+27 1 -1 
+Functions: 2
+32 2 -2 9 
+21 3 16 -1 9 
+Constructors: 1
+21 16
+
+Summary: 1
+-2 
+java/awt/KeyboardFocusManager.getLastHWRequest()Ljava/awt/KeyboardFocusManager$HeavyweightFocusRequest;
+PTG:
+Vars:
+6
+$r4 1 18 
+$r5 1 -1 
+$r7 1 18 
+$r3 1 15 
+$r2 1 6 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 1 6 
+15 1 15 
+Constructors: 0
+
+Summary: 0
+
+java/awt/KeyboardFocusManager.addKeyEventPostProcessor(Ljava/awt/KeyEventPostProcessor;)V
+PTG:
+Vars:
+5
+r1 1 -1 
+$r5 1 9 
+$r4 1 9 
+$r6 1 16 
+r0 1 -2 
+Fields: 1
+-1 keyEventPostProcessors 9
+Accesses: 3
+23 1 -1 
+8 1 -1 
+26 1 -1 
+Functions: 2
+20 1 16 
+31 2 -2 9 
+Constructors: 1
+20 16
+
+Summary: 1
+-2 
+java/awt/KeyboardFocusManager.getNativeFocusedWindow()Ljava/awt/Window;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 4 
+_ret 1 4 
+r0 1 -1 
+Fields: 1
+-1 peer 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 

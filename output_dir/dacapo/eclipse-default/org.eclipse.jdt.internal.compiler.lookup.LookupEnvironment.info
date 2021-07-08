@@ -1,0 +1,1779 @@
+48
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.computeBoxingType(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+4
+$r34 1 437 
+_ret 1 -2 
+r9 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 2
+0 1 -2 
+437 1 437 
+Functions: 18
+288 1 -1 
+257 0 
+261 1 -1 
+230 0 
+392 0 
+234 1 -1 
+203 0 
+396 1 -2 
+365 0 
+207 1 -1 
+369 1 -1 
+338 0 
+180 1 -1 
+436 1 -2 
+342 1 -1 
+311 0 
+315 1 -1 
+284 0 
+Constructors: 0
+
+Summary: 3
+437 -1 0 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.<clinit>()V
+PTG:
+Vars:
+4
+$r0 1 0 
+$r1 1 4 
+$r3 1 18 
+$r2 1 14 
+Fields: 0
+Accesses: 0
+Functions: 2
+23 2 18 14 
+8 2 0 4 
+Constructors: 2
+23 14
+8 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.createPackage([[C)Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;
+PTG:
+Vars:
+23
+r0 1 -1 
+$r4 1 25 
+$r22 1 92 
+r9 1 59 
+r20 4 7 19 129 92 
+$r17 1 101 
+$r13 1 108 
+$r5 1 37 
+$r12 1 113 
+$r11 1 116 
+$r16 1 138 
+$r2 1 3 
+$r3 1 19 
+$r6 1 32 
+$r8 1 55 
+$r18 1 68 
+_ret 4 7 19 129 92 
+$r15 1 129 
+$r14 1 119 
+$r19 1 13 
+r10 4 7 19 129 92 
+r1 1 -2 
+$r21 1 91 
+Fields: 12
+-1 knownPackages 32
+-1 nameEnvironment 108
+7 compoundName 116
+19 compoundName 116
+129 compoundName 116
+92 compoundName 116
+-2 ArrayObject 3
+-2 ArrayObject 55
+-2 ArrayObject 25
+-2 ArrayObject 37
+-2 ArrayObject 91
+-2 ArrayObject 113
+Accesses: 3
+114 4 129 19 7 92 
+107 1 -1 
+31 1 -1 
+Functions: 9
+0 4 -1 32 3 108 
+144 9 -1 32 129 19 116 7 138 92 108 
+52 6 129 19 116 7 55 92 
+39 4 32 19 116 37 
+87 6 129 19 116 7 91 92 
+151 5 129 19 116 7 92 
+137 7 -2 113 3 37 55 25 91 
+27 6 -1 32 19 116 25 108 
+108 3 113 116 108 
+Constructors: 2
+144 129
+27 19
+
+Summary: 10
+3 59 119 138 -1 25 37 0 92 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.createWildcard(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;ILorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;[Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;I)Lorg/eclipse/jdt/internal/compiler/lookup/WildcardBinding;
+PTG:
+Vars:
+22
+$r16 2 166 106 
+$r3 1 9 
+$r14 1 106 
+r20 3 13 254 214 
+$r22 1 277 
+$r12 1 94 
+$r18 1 171 
+$r9 1 9 
+$r17 1 176 
+$r1 1 9 
+r21 1 45 
+$r13 1 106 
+_ret 1 277 
+r5 1 -4 
+r19 2 7 -2 
+$r7 1 254 
+$r15 1 106 
+$r8 2 13 214 
+$r2 1 13 
+$r11 1 57 
+r0 1 -1 
+r6 1 -5 
+Fields: 8
+-1 uniqueWildcardBindings 9
+13 ArrayObject 45
+166 ArrayObject 171
+45 genericType 57
+45 otherBounds 106
+45 bound 94
+-5 ArrayObject 176
+106 ArrayObject 171
+Accesses: 11
+114 1 45 
+67 1 45 
+164 1 45 
+55 1 45 
+8 1 -1 
+104 1 45 
+266 1 -1 
+219 1 -1 
+92 1 45 
+126 1 45 
+79 1 45 
+Functions: 5
+273 4 -2 7 9 254 
+289 8 176 -1 -2 -4 -5 277 7 9 
+226 11 -2 214 7 9 57 106 171 13 45 254 94 
+263 8 214 57 106 171 13 45 94 254 
+9 3 -2 7 9 
+Constructors: 1
+289 277
+
+Summary: 7
+-5 -1 2 -4 0 -2 3 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getTypeArgumentsFromSignature(Lorg/eclipse/jdt/internal/compiler/lookup/SignatureWrapper;[Lorg/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[[[C)[Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+11
+r6 1 -5 
+_ret 1 64 
+r7 1 -6 
+$r0 1 0 
+r2 1 -1 
+r5 1 -4 
+r4 1 -3 
+r3 1 -2 
+$r9 1 36 
+r10 1 64 
+$r8 1 28 
+Fields: 1
+-2 signature 36
+Accesses: 4
+49 1 -2 
+35 1 -2 
+39 1 -2 
+56 1 -2 
+Functions: 5
+5 1 0 
+73 2 0 64 
+59 1 0 
+15 7 -1 -2 -3 -4 36 -5 -6 
+31 2 0 28 
+Constructors: 1
+5 0
+
+Summary: 14
+-5 1 -6 -3 4 -1 2 -4 28 36 0 -2 3 0 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.isPackage([[C[C)Z
+PTG:
+Vars:
+4
+$r4 1 22 
+r1 1 -1 
+r0 1 -2 
+r2 1 -3 
+Fields: 1
+-1 nameEnvironment 22
+Accesses: 2
+21 1 -1 
+9 1 -1 
+Functions: 2
+22 3 -2 -3 22 
+10 1 -3 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.releaseClassFiles([Lorg/eclipse/jdt/internal/compiler/ClassFile;)V
+PTG:
+Vars:
+4
+$r2 1 14 
+r0 1 -2 
+r1 1 -1 
+$r3 1 9 
+Fields: 2
+-1 classFilePool 9
+-2 ArrayObject 14
+Accesses: 1
+8 1 -1 
+Functions: 1
+15 2 9 14 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.askForType(Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;[C)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+18
+$r2 1 24 
+$r6 1 106 
+r0 1 -1 
+r1 1 -3 
+$r12 1 51 
+$r14 1 5 
+r4 1 32 
+$r13 1 56 
+r15 2 5 -2 
+$r16 1 121 
+$r9 1 79 
+_ret 1 121 
+$r10 1 83 
+$r5 1 102 
+$r11 1 47 
+$r8 1 75 
+$r7 1 111 
+$r3 1 19 
+Fields: 7
+-1 typeRequestor 47
+-1 typeRequestor 102
+-1 typeRequestor 75
+-1 defaultPackage 5
+-1 nameEnvironment 19
+5 compoundName 24
+-2 compoundName 24
+Accesses: 7
+18 1 -1 
+4 1 -1 
+101 1 -1 
+23 2 -2 5 
+74 1 -1 
+13 1 -1 
+46 1 -1 
+Functions: 14
+67 1 32 
+39 1 32 
+105 1 32 
+78 1 32 
+110 1 32 
+50 1 32 
+82 1 32 
+114 6 -2 5 102 24 106 111 
+19 3 -3 19 24 
+86 3 83 75 79 
+55 1 32 
+119 4 -2 -3 5 24 
+59 6 -2 51 5 24 56 47 
+94 1 32 
+Constructors: 0
+
+Summary: 12
+51 83 79 1 111 -3 106 -1 56 32 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.askForType([[C)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+17
+$r5 1 89 
+$r9 1 62 
+$r15 1 109 
+$r4 1 85 
+$r7 1 99 
+$r12 1 29 
+$r8 1 58 
+$r11 1 25 
+$r6 1 95 
+r1 1 -2 
+$r10 1 66 
+_ret 1 109 
+$r2 1 1 
+$r13 1 35 
+$r14 1 39 
+r0 1 -1 
+r3 1 10 
+Fields: 4
+-1 typeRequestor 58
+-1 typeRequestor 25
+-1 typeRequestor 85
+-1 nameEnvironment 1
+Accesses: 4
+0 1 -1 
+84 1 -1 
+24 1 -1 
+57 1 -1 
+Functions: 16
+32 6 -1 1 -2 85 25 58 
+1 2 1 -2 
+65 1 10 
+98 1 10 
+69 3 66 58 62 
+38 1 10 
+102 4 99 85 89 95 
+42 4 35 39 25 29 
+107 6 -1 1 -2 85 25 58 
+77 1 10 
+17 1 10 
+50 1 10 
+88 1 10 
+28 1 10 
+92 6 -1 1 -2 85 25 58 
+61 1 10 
+Constructors: 0
+
+Summary: 12
+39 35 95 99 10 62 66 -1 29 89 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.createBinaryTypeFrom(Lorg/eclipse/jdt/internal/compiler/env/IBinaryType;Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;ZLorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)Lorg/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding;
+PTG:
+Vars:
+11
+$r11 1 30 
+r8 1 30 
+r3 1 -1 
+_ret 1 0 
+$r0 1 0 
+$r7 1 26 
+$r6 1 15 
+r2 1 -2 
+r1 1 -3 
+$r5 1 15 
+r9 1 -5 
+Fields: 2
+15 ArrayObject 26
+0 compoundName 15
+Accesses: 2
+18 1 0 
+13 1 0 
+Functions: 7
+53 5 0 -1 26 30 15 
+86 5 -1 0 -5 26 15 
+7 6 0 -1 -2 -3 26 15 
+59 1 30 
+12 2 -3 26 
+93 4 0 -2 26 15 
+78 4 0 -3 26 15 
+Constructors: 1
+7 0
+
+Summary: 7
+-1 -5 1 -3 0 -2 3 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.buildTypeBindings(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)V
+PTG:
+Vars:
+8
+$r6 1 16 
+r1 1 -2 
+$r0 1 0 
+r4 1 -3 
+$r8 1 16 
+$r5 1 16 
+r2 1 -1 
+$r7 1 48 
+Fields: 1
+-1 units 16
+Accesses: 7
+65 1 -1 
+52 1 -1 
+22 1 -1 
+38 1 -1 
+61 1 -1 
+30 1 -1 
+15 1 -1 
+Functions: 3
+6 4 0 -1 16 -2 
+58 2 16 48 
+12 2 0 -3 
+Constructors: 1
+6 0
+
+Summary: 4
+-1 1 -3 0 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.createRawType(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)Lorg/eclipse/jdt/internal/compiler/lookup/RawTypeBinding;
+PTG:
+Vars:
+15
+$r8 2 5 87 
+$r12 1 57 
+$r4 1 1 
+$r3 1 5 
+$r11 1 45 
+r14 1 33 
+r1 1 -2 
+$r7 1 123 
+$r15 1 144 
+_ret 1 144 
+r6 1 -3 
+$r9 1 1 
+r0 1 -1 
+$r2 1 1 
+r13 3 5 87 123 
+Fields: 2
+-1 uniqueRawTypeBindings 1
+5 ArrayObject 33
+Accesses: 3
+0 1 -1 
+134 1 -1 
+91 1 -1 
+Functions: 7
+1 2 1 -2 
+97 6 1 -2 33 5 87 123 
+131 4 33 5 87 123 
+55 1 33 
+151 5 144 -1 -2 1 -3 
+43 1 33 
+140 3 1 -2 123 
+Constructors: 1
+151 144
+
+Summary: 7
+1 -3 -1 45 57 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.completeTypeBindings(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+$r2 1 16 
+r0 1 -1 
+$r4 1 16 
+$r3 1 16 
+Fields: 1
+-2 scope 16
+Accesses: 9
+0 1 -1 
+32 1 -2 
+65 1 -1 
+34 1 -1 
+52 1 -2 
+54 1 -1 
+23 1 -1 
+43 1 -1 
+15 1 -2 
+Functions: 3
+40 1 16 
+9 1 -1 
+60 1 16 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getTypeFromConstantPoolName([CIIZ[[[C)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+7
+r3 1 -1 
+_ret 1 73 
+r1 1 16 
+r2 1 -6 
+$r4 1 43 
+r0 1 -2 
+$r5 1 73 
+Fields: 1
+-6 ArrayObject 43
+Accesses: 0
+Functions: 3
+66 2 -1 16 
+43 2 16 43 
+12 1 -2 
+Constructors: 0
+
+Summary: 6
+-1 16 -6 0 -2 4 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getTypeFromCompoundName([[CZZ)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+11
+r1 1 -2 
+$r2 1 61 
+_ret 4 5 89 101 20 
+r0 1 -1 
+r7 1 18 
+$r4 1 77 
+$r3 1 101 
+$r5 1 73 
+$r6 1 68 
+r9 4 5 89 101 20 
+$r8 1 20 
+Fields: 3
+-1 unitBeingCompleted 73
+-1 problemReporter 68
+-1 missingClassFileLocation 77
+Accesses: 5
+67 1 -1 
+36 1 20 
+72 1 -1 
+76 1 -1 
+46 1 20 
+Functions: 7
+0 5 -1 -2 68 73 77 
+80 4 -2 68 73 77 
+98 8 -1 68 20 5 101 73 89 77 
+83 5 -1 -2 68 73 77 
+53 2 18 20 
+27 3 -2 18 20 
+12 5 -1 -2 68 73 77 
+Constructors: 1
+27 20
+
+Summary: 4
+18 -1 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getResolvedType([[CLorg/eclipse/jdt/internal/compiler/lookup/Scope;)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+9
+r1 1 -2 
+$r4 1 13 
+$r6 1 42 
+r3 1 -3 
+_ret 1 42 
+$r8 2 29 22 
+$r5 1 33 
+r0 1 -1 
+r2 1 5 
+Fields: 3
+-1 unitBeingCompleted 22
+-1 problemReporter 13
+-1 missingClassFileLocation 33
+Accesses: 3
+32 1 -1 
+21 1 -1 
+12 1 -1 
+Functions: 4
+0 5 -1 33 -2 22 13 
+36 5 -2 33 22 13 29 
+39 5 -1 33 -2 22 13 
+28 1 -3 
+Constructors: 0
+
+Summary: 5
+-1 29 1 -3 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getType([[C)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+25
+$r9 1 169 
+r0 1 -2 
+$r16 1 22 
+$r3 1 75 
+$r19 1 7 
+$r18 1 58 
+$r5 1 154 
+r21 5 154 143 173 22 62 
+$r13 1 7 
+$r17 1 33 
+$r2 1 69 
+$r10 1 103 
+$r12 1 116 
+$r6 1 179 
+r22 1 37 
+$r15 1 7 
+r1 1 -1 
+$r20 1 43 
+$r14 1 21 
+r23 2 73 104 
+r24 1 190 
+_ret 1 190 
+$r11 1 104 
+$r7 1 190 
+$r4 1 153 
+Fields: 8
+-1 defaultPackage 7
+-2 ArrayObject 21
+-2 ArrayObject 33
+-2 ArrayObject 103
+-2 ArrayObject 69
+-2 ArrayObject 153
+-2 ArrayObject 169
+-2 ArrayObject 58
+Accesses: 3
+52 1 -1 
+6 1 -1 
+15 1 -1 
+Functions: 11
+16 2 21 7 
+66 3 -1 69 7 
+162 5 -1 7 104 73 169 
+51 3 -1 7 58 
+99 3 103 104 73 
+147 3 104 73 153 
+211 9 -2 33 21 69 103 153 169 58 190 
+197 1 190 
+138 10 -1 -2 33 21 69 7 103 153 169 58 
+189 7 -1 22 7 154 173 62 143 
+30 3 -1 33 7 
+Constructors: 0
+
+Summary: 17
+173 58 -1 154 33 73 0 143 153 169 22 62 21 37 69 104 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.createParameterizedGenericMethod(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;[Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)Lorg/eclipse/jdt/internal/compiler/lookup/ParameterizedGenericMethodBinding;
+PTG:
+Vars:
+16
+r15 1 45 
+$r12 1 111 
+r1 1 -2 
+$r13 1 106 
+$r2 1 1 
+$r8 2 5 148 
+$r5 1 1 
+$r7 1 184 
+$r16 1 205 
+$r9 1 1 
+_ret 1 205 
+r0 1 -1 
+r4 1 -3 
+r11 1 71 
+$r3 1 5 
+r14 3 5 184 148 
+Fields: 5
+-1 uniqueParameterizedGenericMethodBindings 1
+5 ArrayObject 45
+45 typeArguments 71
+71 ArrayObject 111
+-3 ArrayObject 106
+Accesses: 5
+0 1 -1 
+66 1 45 
+195 1 -1 
+55 1 45 
+152 1 -1 
+Functions: 5
+192 6 148 5 71 184 45 111 
+1 2 1 -2 
+212 6 -1 -2 1 -3 106 205 
+201 3 1 -2 184 
+158 8 1 -2 148 5 71 184 45 111 
+Constructors: 1
+212 205
+
+Summary: 5
+1 -3 -1 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.convertToParameterizedType(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+7
+_ret 1 -2 
+$r8 2 45 34 
+r2 1 -1 
+r1 1 13 
+r7 3 13 45 34 
+$r6 1 34 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 7
+4 1 -2 
+71 5 -1 -2 34 13 45 
+24 1 -2 
+9 1 -2 
+43 2 -1 13 
+77 1 -2 
+31 2 -1 13 
+Constructors: 0
+
+Summary: 6
+-1 13 45 34 0 78 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.reset()V
+PTG:
+Vars:
+14
+$r11 1 143 
+$r5 2 55 46 
+$r3 1 29 
+$r8 1 102 
+r6 1 60 
+$r13 1 181 
+$r12 2 152 143 
+$r9 1 114 
+$r1 1 1 
+$r10 1 126 
+r0 1 -1 
+$r7 1 90 
+$r4 1 46 
+$r2 1 18 
+Fields: 5
+-1 classFilePool 181
+-1 uniqueArrayBindings 46
+-1 units 143
+55 ArrayObject 60
+46 ArrayObject 60
+Accesses: 18
+98 1 -1 
+37 1 -1 
+134 1 -1 
+167 1 -1 
+9 1 -1 
+42 1 -1 
+139 1 -1 
+172 1 -1 
+45 1 -1 
+14 1 -1 
+110 1 -1 
+142 1 -1 
+177 1 -1 
+180 1 -1 
+54 1 -1 
+151 1 -1 
+25 1 -1 
+122 1 -1 
+Functions: 8
+34 1 29 
+131 1 126 
+6 6 -1 1 181 60 46 143 
+22 1 18 
+119 1 114 
+184 1 181 
+107 1 102 
+95 1 90 
+Constructors: 7
+34 29
+131 126
+6 1
+22 18
+119 114
+107 102
+95 90
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.computeArrayClone(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;
+PTG:
+Vars:
+12
+$r1 1 1 
+_ret 1 1 
+$r5 1 25 
+r4 1 -2 
+$r3 1 8 
+$r7 1 31 
+$r6 1 25 
+$r8 1 28 
+$r10 1 21 
+$r9 1 25 
+r0 1 -1 
+$r2 1 1 
+Fields: 2
+-1 arrayClone 1
+-2 returnType 25
+Accesses: 6
+0 1 -1 
+34 1 -2 
+24 1 -2 
+12 1 -2 
+44 1 -1 
+47 1 -1 
+Functions: 1
+41 5 21 8 25 28 31 
+Constructors: 1
+41 8
+
+Summary: 4
+-1 25 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.methodVerifier()Lorg/eclipse/jdt/internal/compiler/lookup/MethodVerifier;
+PTG:
+Vars:
+5
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+$r3 1 9 
+$r2 1 1 
+Fields: 1
+-1 verifier 1
+Accesses: 3
+0 1 -1 
+12 1 -1 
+15 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getTopLevelPackage([C)Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;
+PTG:
+Vars:
+6
+r0 1 -1 
+r10 1 5 
+$r2 1 22 
+$r3 1 62 
+$r4 1 58 
+r1 1 -2 
+Fields: 2
+-1 knownPackages 58
+-1 nameEnvironment 22
+Accesses: 3
+35 1 -1 
+21 1 -1 
+57 1 -1 
+Functions: 5
+0 4 -1 -2 22 58 
+65 3 -2 58 62 
+51 1 -2 
+22 2 -2 22 
+46 4 -1 -2 22 58 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getTypeFromSignature([CIIZLorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;[[[C)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+8
+r1 1 -1 
+_ret 1 238 
+$r3 1 238 
+r0 1 -2 
+r4 1 -6 
+$r5 1 197 
+r2 1 -7 
+r6 10 127 135 143 175 183 191 151 159 167 223 
+Fields: 1
+-1 problemReporter 197
+Accesses: 1
+196 1 -1 
+Functions: 3
+210 4 -1 -2 197 -7 
+233 12 -1 197 135 183 151 167 127 143 175 191 159 223 
+204 3 -2 197 -6 
+Constructors: 0
+
+Summary: 7
+-6 4 -1 -7 5 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.createBinaryTypeFrom(Lorg/eclipse/jdt/internal/compiler/env/IBinaryType;Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)Lorg/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding;
+PTG:
+Vars:
+6
+r2 1 -3 
+r3 1 -4 
+_ret 1 5 
+r1 1 -2 
+r0 1 -1 
+$r4 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-1 2 1 -4 -3 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getCachedType([[C)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+11
+$r8 1 95 
+$r4 1 61 
+_ret 1 95 
+$r7 1 94 
+$r6 1 71 
+$r5 1 62 
+r0 1 -2 
+r1 1 -1 
+r13 2 33 62 
+$r2 1 29 
+$r3 1 39 
+Fields: 3
+-2 ArrayObject 94
+-2 ArrayObject 61
+-2 ArrayObject 29
+Accesses: 2
+6 1 -1 
+15 1 -1 
+Functions: 4
+16 0 
+88 3 33 62 94 
+26 2 -1 29 
+58 3 33 61 62 
+Constructors: 0
+
+Summary: 8
+94 62 -1 21 29 33 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getAccessRestriction(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;
+PTG:
+Vars:
+6
+$r3 1 5 
+_ret 1 5 
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+$r4 1 5 
+Fields: 1
+-1 accessRestrictions 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.createParameterizedType(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)Lorg/eclipse/jdt/internal/compiler/lookup/ParameterizedTypeBinding;
+PTG:
+Vars:
+19
+r14 1 88 
+r17 3 5 205 165 
+$r12 1 61 
+$r8 1 205 
+$r13 1 73 
+$r16 1 123 
+$r19 1 228 
+r18 1 49 
+r7 1 -4 
+r4 1 -3 
+$r2 1 1 
+_ret 1 228 
+$r5 1 1 
+r1 1 -2 
+$r10 1 1 
+$r3 1 5 
+$r15 1 128 
+$r9 2 5 165 
+r0 1 -1 
+Fields: 5
+-1 uniqueParameterizedTypeBindings 1
+5 ArrayObject 49
+49 arguments 88
+-3 ArrayObject 123
+88 ArrayObject 128
+Accesses: 4
+0 1 -1 
+83 1 49 
+217 1 -1 
+170 1 -1 
+Functions: 7
+224 3 1 -2 205 
+1 2 1 -2 
+177 8 128 1 -2 49 5 165 88 205 
+214 6 128 49 5 165 88 205 
+71 3 128 49 88 
+59 3 128 49 88 
+236 7 -1 -2 1 -3 -4 228 123 
+Constructors: 1
+236 228
+
+Summary: 9
+1 -3 -1 2 61 73 -4 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.computePackageFrom([[CZ)Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;
+PTG:
+Vars:
+16
+$r14 1 24 
+$r2 1 14 
+$r5 1 64 
+r1 1 -1 
+$r3 1 30 
+r16 4 91 106 30 18 
+$r10 1 91 
+$r13 1 100 
+r8 4 91 106 30 18 
+$r11 1 106 
+_ret 4 91 106 30 18 
+$r4 1 36 
+$r6 1 59 
+$r9 1 90 
+$r12 1 116 
+r0 1 -2 
+Fields: 5
+-1 knownPackages 59
+-2 ArrayObject 14
+-2 ArrayObject 36
+-2 ArrayObject 90
+-2 ArrayObject 64
+Accesses: 6
+130 1 106 
+6 1 -1 
+55 1 30 
+58 1 -1 
+139 1 106 
+46 1 30 
+Functions: 7
+145 4 18 106 91 30 
+66 3 64 59 30 
+115 5 64 -2 36 90 14 
+85 5 18 106 90 91 30 
+38 4 -1 36 59 30 
+122 7 -1 18 116 106 91 59 30 
+11 3 -1 59 14 
+Constructors: 2
+38 30
+122 106
+
+Summary: 7
+14 -1 36 0 -2 64 116 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.newMethodVerifier()Lorg/eclipse/jdt/internal/compiler/lookup/MethodVerifier;
+PTG:
+Vars:
+6
+$r4 1 25 
+$r3 1 14 
+$r2 2 25 14 
+_ret 2 25 14 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 globalOptions 1
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 2
+19 3 -1 1 14 
+30 3 -1 1 25 
+Constructors: 2
+19 14
+30 25
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.cacheBinaryType(Lorg/eclipse/jdt/internal/compiler/env/IBinaryType;ZLorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)Lorg/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding;
+PTG:
+Vars:
+6
+$r1 1 3 
+r0 1 -2 
+r6 1 -4 
+r4 1 19 
+r2 1 11 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+2 1 -2 
+34 3 -1 -2 -4 
+3 1 3 
+36 2 -1 11 
+13 2 -1 11 
+Constructors: 0
+
+Summary: 8
+-1 3 11 19 -4 40 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getPackage0([C)Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;
+PTG:
+Vars:
+5
+$r3 1 5 
+_ret 1 5 
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 knownPackages 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.updateCaches(Lorg/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V
+PTG:
+Vars:
+18
+r0 1 -1 
+r14 1 73 
+$r5 1 142 
+r1 1 -2 
+$r4 1 111 
+r6 1 -3 
+$r15 1 111 
+$r12 1 56 
+$r7 1 56 
+$r3 1 5 
+$r8 1 87 
+$r10 1 32 
+$r16 1 115 
+$r9 1 1 
+r11 1 18 
+$r13 1 60 
+r17 1 128 
+$r2 1 1 
+Fields: 9
+-1 uniqueRawTypeBindings 56
+-1 uniqueWildcardBindings 111
+-1 uniqueParameterizedTypeBindings 1
+1 keyTable 18
+73 ArrayObject 87
+111 keyTable 128
+56 keyTable 73
+18 ArrayObject 32
+128 ArrayObject 142
+Accesses: 9
+0 1 -1 
+66 1 -1 
+67 1 56 
+55 1 -1 
+121 1 -1 
+122 1 111 
+11 1 -1 
+12 1 1 
+110 1 -1 
+Functions: 3
+1 4 32 1 -2 18 
+56 4 -2 87 56 73 
+111 4 128 -2 142 111 
+Constructors: 0
+
+Summary: 6
+115 -1 5 60 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.createAnnotation(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[Lorg/eclipse/jdt/internal/compiler/lookup/ElementValuePair;)Lorg/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;
+PTG:
+Vars:
+5
+_ret 1 10 
+r3 1 -1 
+r0 1 -3 
+r2 1 -2 
+$r1 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 3 -2 -3 10 
+7 2 -2 -3 
+Constructors: 1
+16 10
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getTypeFromVariantTypeSignature(Lorg/eclipse/jdt/internal/compiler/lookup/SignatureWrapper;[Lorg/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;I[[[C)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+9
+r3 1 -3 
+r5 1 -7 
+_ret 1 136 
+r0 1 -2 
+r6 1 -5 
+$r10 1 136 
+r2 1 -1 
+r4 1 -4 
+$r1 1 1 
+Fields: 1
+-2 signature 1
+Accesses: 8
+0 1 -2 
+81 1 -2 
+115 1 -2 
+4 1 -2 
+40 1 -2 
+74 1 -2 
+108 1 -2 
+47 1 -2 
+Functions: 6
+50 6 -1 -2 1 -3 -4 -7 
+130 6 -1 -2 1 -3 -4 -7 
+84 6 -1 -2 1 -3 -4 -7 
+118 2 -1 -5 
+61 2 -1 -5 
+95 2 -1 -5 
+Constructors: 0
+
+Summary: 14
+59 -5 1 -3 -1 1 2 -7 5 93 -4 0 -2 3 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.<init>(Lorg/eclipse/jdt/internal/compiler/impl/ITypeRequestor;Lorg/eclipse/jdt/internal/compiler/impl/CompilerOptions;Lorg/eclipse/jdt/internal/compiler/problem/ProblemReporter;Lorg/eclipse/jdt/internal/compiler/env/INameEnvironment;)V
+PTG:
+Vars:
+17
+$r7 1 76 
+r0 1 -1 
+r3 1 -3 
+r2 1 -2 
+$r9 1 101 
+$r11 1 106 
+$r10 1 95 
+r4 1 -4 
+r6 1 -5 
+$r13 1 130 
+$r8 1 88 
+$r14 1 142 
+$r15 1 159 
+$r12 1 118 
+$r5 1 53 
+$r1 1 26 
+$r16 1 171 
+Fields: 1
+-1 uniqueArrayBindings 95
+Accesses: 22
+34 1 -1 
+66 1 -1 
+6 1 -1 
+39 1 -1 
+167 1 -1 
+72 1 -1 
+138 1 -1 
+11 1 -1 
+44 1 -1 
+174 1 -1 
+16 1 -1 
+49 1 -1 
+114 1 -1 
+83 1 -1 
+21 1 -1 
+150 1 -1 
+91 1 -1 
+155 1 -1 
+29 1 -1 
+61 1 -1 
+94 1 -1 
+126 1 -1 
+Functions: 9
+80 1 76 
+-1 0 
+1 2 -1 95 
+147 1 142 
+164 1 159 
+135 1 130 
+58 3 -1 53 95 
+123 1 118 
+111 1 106 
+Constructors: 8
+80 76
+1 -1
+147 142
+164 159
+135 130
+58 53
+123 118
+111 106
+
+Summary: 5
+1 -1 2 0 3 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.cacheBinaryType(Lorg/eclipse/jdt/internal/compiler/env/IBinaryType;Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)Lorg/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding;
+PTG:
+Vars:
+5
+_ret 1 4 
+$r3 1 4 
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-1 -3 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.isMissingType([C)Z
+PTG:
+Vars:
+8
+r6 1 -2 
+$r2 1 1 
+$r7 1 35 
+r0 1 -1 
+r5 1 27 
+$r4 1 27 
+$r3 2 1 23 
+$r1 1 1 
+Fields: 2
+-1 missingTypes 1
+27 sourceName 35
+Accesses: 4
+0 1 -1 
+34 1 27 
+22 1 -1 
+11 1 -1 
+Functions: 3
+38 2 -2 35 
+23 2 1 23 
+12 1 1 
+Constructors: 0
+
+Summary: 4
+-1 27 35 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.convertToRawType(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;Z)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+20
+r1 1 -1 
+r18 4 172 304 259 321 
+$r4 1 357 
+r17 5 194 369 75 342 -2 
+$r8 1 259 
+$r12 1 153 
+$r6 1 331 
+r14 2 75 -2 
+$r11 1 187 
+$r5 1 331 
+$r10 1 187 
+$r16 3 194 75 -2 
+_ret 1 -2 
+$r3 1 357 
+$r7 2 75 -2 
+$r2 1 304 
+r15 1 172 
+r0 1 -2 
+r13 2 75 -2 
+$r9 2 75 -2 
+Fields: 0
+Accesses: 1
+80 1 -2 
+Functions: 20
+0 1 -2 
+66 1 -2 
+354 6 -1 304 321 259 357 172 
+291 2 -2 75 
+355 2 -2 75 
+389 6 -1 369 -2 194 342 75 
+71 1 -2 
+167 2 -2 75 
+328 6 -1 304 321 259 331 172 
+329 2 -2 75 
+300 2 -1 172 
+207 1 172 
+151 2 -2 75 
+184 2 -1 187 
+153 1 153 
+185 2 -2 75 
+315 2 -1 172 
+222 2 -2 75 
+95 2 -2 75 
+255 2 -1 172 
+Constructors: 0
+
+Summary: 10
+172 357 304 153 321 -1 331 187 0 259 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.setAccessRestriction(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)V
+PTG:
+Vars:
+4
+r0 1 -3 
+r2 1 -1 
+r1 1 -2 
+$r3 1 18 
+Fields: 1
+-1 accessRestrictions 18
+Accesses: 3
+17 1 -1 
+5 1 -2 
+14 1 -2 
+Functions: 1
+23 3 -2 18 -3 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.convertUnresolvedBinaryToRawType(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+18
+$r5 1 269 
+$r4 1 269 
+$r10 1 180 
+$r9 1 180 
+r13 2 75 -2 
+$r7 1 244 
+$r6 1 244 
+$r8 2 75 -2 
+$r11 1 148 
+r3 1 202 
+_ret 1 -2 
+r16 5 75 187 -2 255 281 
+r1 1 -1 
+r0 1 -2 
+$r2 1 202 
+r12 2 75 -2 
+r14 1 166 
+$r15 3 75 187 -2 
+Fields: 0
+Accesses: 1
+79 1 -2 
+Functions: 16
+0 1 -2 
+66 1 -2 
+162 2 -2 75 
+71 1 -2 
+199 2 -1 166 
+267 3 -1 202 269 
+299 6 -1 -2 281 75 187 255 
+268 2 -2 75 
+146 2 -2 75 
+178 2 -1 180 
+242 3 -1 244 202 
+179 2 -2 75 
+243 2 -2 75 
+148 1 148 
+220 2 -2 75 
+93 2 -2 75 
+Constructors: 0
+
+Summary: 8
+180 148 244 269 -1 166 202 0 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.createMissingType(Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;[[C)Lorg/eclipse/jdt/internal/compiler/lookup/MissingTypeBinding;
+PTG:
+Vars:
+12
+r10 2 49 64 
+$r6 1 58 
+_ret 1 23 
+$r11 1 78 
+r0 1 -3 
+r1 1 -1 
+r8 3 10 22 -2 
+$r4 1 85 
+$r7 1 12 
+$r3 1 78 
+$r9 1 23 
+$r5 1 43 
+Fields: 2
+-1 missingTypes 78
+-1 defaultPackage 22
+Accesses: 5
+96 1 -1 
+18 1 -1 
+34 1 23 
+77 1 -1 
+93 1 -1 
+Functions: 8
+4 4 -1 -3 22 78 
+69 3 64 49 23 
+101 2 23 78 
+56 4 -1 22 58 78 
+42 4 -1 22 43 78 
+74 4 -2 22 23 10 
+90 1 85 
+30 7 -1 -2 -3 22 23 10 78 
+Constructors: 2
+90 85
+30 23
+
+Summary: 8
+1 10 -3 -1 49 0 -2 64 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.getTypeFromTypeSignature(Lorg/eclipse/jdt/internal/compiler/lookup/SignatureWrapper;[Lorg/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[[[C)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+28
+r3 1 -1 
+$r1 1 20 
+r7 1 427 
+$r13 1 455 
+$r17 1 336 
+$r2 1 20 
+$r11 2 20 470 
+r5 1 -5 
+r38 1 280 
+r41 2 371 360 
+r0 1 -2 
+r44 1 504 
+$r9 1 439 
+$r4 1 20 
+r42 1 390 
+r10 1 447 
+r6 1 -3 
+$r12 2 461 20 
+$r14 1 371 
+$r45 1 20 
+r40 2 347 280 
+_ret 3 566 525 402 
+$r15 1 325 
+$r18 1 347 
+$r46 3 566 525 402 
+r33 1 -4 
+$r16 1 325 
+r43 2 525 402 
+Fields: 4
+-1 problemReporter 455
+325 ArrayObject 336
+280 compoundName 325
+-2 signature 20
+Accesses: 30
+259 1 -2 
+323 2 280 347 
+6 1 -2 
+454 1 -1 
+328 2 280 347 
+75 1 -2 
+460 1 -2 
+13 1 -2 
+527 1 -2 
+19 1 -2 
+531 1 -2 
+469 1 -2 
+23 1 -2 
+407 1 -2 
+473 1 -2 
+220 1 -1 
+541 1 -2 
+414 1 -2 
+224 1 -2 
+33 1 -2 
+417 1 -2 
+483 1 -2 
+164 1 -2 
+548 1 -2 
+37 1 -2 
+490 1 -2 
+47 1 -2 
+243 1 -2 
+247 1 -2 
+255 1 -2 
+Functions: 26
+515 6 -1 402 455 504 525 447 
+392 9 -1 336 371 325 390 455 280 360 347 
+142 1 -4 
+336 1 336 
+81 0 
+466 5 402 20 455 525 461 
+211 1 -4 
+346 6 336 -1 325 455 280 347 
+355 4 336 325 280 347 
+101 2 -1 455 
+230 0 
+423 2 -2 20 
+297 5 -1 336 325 455 280 
+170 0 
+237 0 
+493 8 -1 -2 -3 -4 20 -5 455 447 
+367 4 -1 371 455 360 
+433 4 -1 402 455 525 
+561 4 -1 402 455 525 
+242 5 -1 -4 20 -5 455 
+437 2 402 525 
+55 2 -2 20 
+439 2 439 427 
+251 2 -2 20 
+379 11 -1 336 -2 -3 -4 20 -5 325 455 280 347 
+191 2 -1 455 
+Constructors: 0
+
+Summary: 22
+212 -3 146 -1 504 439 447 137 -4 20 0 3 232 -5 1 360 347 2 371 427 390 -2 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.createParameterizedGenericMethod(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/RawTypeBinding;)Lorg/eclipse/jdt/internal/compiler/lookup/ParameterizedGenericMethodBinding;
+PTG:
+Vars:
+15
+$r3 1 5 
+r1 1 -2 
+$r7 1 133 
+$r4 1 1 
+$r11 1 56 
+$r8 2 5 97 
+r0 1 -1 
+$r2 1 1 
+_ret 1 154 
+$r14 2 -3 64 
+$r9 1 1 
+r13 1 33 
+$r15 1 154 
+r6 1 -3 
+r12 3 5 97 133 
+Fields: 4
+-1 uniqueParameterizedGenericMethodBindings 1
+5 ArrayObject 33
+33 declaringClass 56
+-2 declaringClass 64
+Accesses: 6
+0 1 -1 
+144 1 -1 
+101 1 -1 
+54 1 33 
+43 1 33 
+63 1 -2 
+Functions: 5
+1 3 64 1 -2 
+161 6 64 -1 -2 1 -3 154 
+150 4 64 1 -2 133 
+107 8 64 1 -2 97 33 5 133 56 
+141 5 97 33 5 133 56 
+Constructors: 1
+161 154
+
+Summary: 6
+1 -3 -1 0 -2 64 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.convertToRawTypes([Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;ZZ)[Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+9
+$r8 2 23 32 
+_ret 2 66 -2 
+r4 1 41 
+r2 1 -1 
+$r5 1 66 
+r7 2 66 -2 
+r0 1 -2 
+r1 1 23 
+$r3 1 41 
+Fields: 1
+-2 ArrayObject 23
+Accesses: 0
+Functions: 3
+25 3 -1 32 23 
+75 3 -2 66 23 
+30 1 23 
+Constructors: 0
+
+Summary: 3
+-1 32 0 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.completeTypeBindings()V
+PTG:
+Vars:
+11
+$r6 1 69 
+r0 1 -1 
+$r5 1 64 
+$r8 1 107 
+$r7 3 17 103 60 
+$r3 1 26 
+$r1 1 17 
+$r2 1 21 
+r9 1 115 
+$r10 4 17 103 125 60 
+$r4 2 17 60 
+Fields: 12
+-1 units 103
+-1 units 60
+-1 units 17
+17 ArrayObject 64
+17 ArrayObject 21
+17 ArrayObject 107
+21 scope 26
+103 ArrayObject 107
+107 scope 115
+60 ArrayObject 64
+60 ArrayObject 107
+64 scope 69
+Accesses: 23
+64 1 64 
+2 1 -1 
+66 1 -1 
+36 1 -1 
+5 1 -1 
+102 1 -1 
+135 1 -1 
+107 1 107 
+45 1 -1 
+109 1 -1 
+79 1 -1 
+16 1 -1 
+48 1 -1 
+144 1 -1 
+148 1 -1 
+21 1 21 
+23 1 -1 
+88 1 -1 
+152 1 -1 
+59 1 -1 
+91 1 -1 
+124 1 -1 
+157 1 -1 
+Functions: 4
+117 1 115 
+72 1 69 
+121 1 115 
+29 1 26 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.completeTypeBindings(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;Z)V
+PTG:
+Vars:
+7
+r2 1 -1 
+r0 1 -2 
+$r6 1 1 
+$r1 1 1 
+$r3 1 1 
+$r4 1 1 
+$r5 1 1 
+Fields: 1
+-2 scope 1
+Accesses: 7
+0 1 -2 
+20 1 -2 
+38 1 -2 
+9 1 -2 
+11 1 -1 
+27 1 -2 
+47 1 -1 
+Functions: 4
+17 1 1 
+24 1 1 
+42 1 1 
+31 1 1 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment.createArrayType(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;I)Lorg/eclipse/jdt/internal/compiler/lookup/ArrayBinding;
+PTG:
+Vars:
+18
+r19 3 39 53 90 
+$r6 1 22 
+$r15 1 53 
+$r8 1 139 
+$r16 1 22 
+r0 1 -2 
+$r5 1 90 
+$r14 1 39 
+$r10 1 166 
+$r12 1 190 
+_ret 1 190 
+$r13 1 22 
+$r11 1 22 
+r1 1 -1 
+$r3 1 70 
+r7 2 113 113 
+$r4 1 22 
+$r2 1 22 
+Fields: 6
+-1 uniqueArrayBindings 22
+39 ArrayObject 113
+113 leafComponentType 139
+53 ArrayObject 113
+22 ArrayObject 39
+90 ArrayObject 113
+Accesses: 8
+34 1 -1 
+178 1 -1 
+83 1 -1 
+21 1 -1 
+137 1 113 
+74 1 -1 
+46 1 -1 
+63 1 -1 
+Functions: 5
+80 5 113 22 70 39 139 
+131 6 -1 -2 113 22 39 139 
+197 7 -1 -2 113 22 39 139 190 
+8 5 -1 113 22 39 139 
+175 6 113 53 166 39 90 139 
+Constructors: 1
+197 190
+
+Summary: 3
+-1 0 -2 

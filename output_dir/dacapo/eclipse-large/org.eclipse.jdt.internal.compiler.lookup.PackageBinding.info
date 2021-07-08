@@ -1,0 +1,477 @@
+21
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.<init>([CLorg/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r1 1 2 
+r0 1 -1 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 3 -1 2 -3 
+Constructors: 1
+11 -1
+
+Summary: 5
+2 -3 0 -1 1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.getPackage0([C)Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;
+PTG:
+Vars:
+5
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+$r3 1 5 
+_ret 1 5 
+Fields: 1
+-1 knownPackages 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.addPackage(Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;)V
+PTG:
+Vars:
+6
+$r4 1 32 
+$r5 1 18 
+r1 1 -1 
+r0 1 -2 
+$r2 1 22 
+$r3 1 22 
+Fields: 3
+-2 compoundName 22
+22 ArrayObject 32
+-1 knownPackages 18
+Accesses: 4
+0 1 -2 
+17 1 -1 
+21 1 -2 
+25 1 -2 
+Functions: 2
+34 4 32 -2 18 22 
+14 2 -1 18 
+Constructors: 0
+
+Summary: 5
+-2 32 22 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.problemId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.computeUniqueKey(Z)[C
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 6 
+$r1 1 1 
+_ret 1 6 
+Fields: 1
+-1 compoundName 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.addNotFoundType([C)V
+PTG:
+Vars:
+6
+$r6 1 8 
+r2 1 -2 
+r0 1 -1 
+$r4 1 1 
+$r3 1 25 
+$r1 1 1 
+Fields: 1
+-1 knownTypes 1
+Accesses: 3
+0 1 -1 
+17 1 -1 
+20 1 -1 
+Functions: 2
+28 3 1 -2 25 
+14 1 8 
+Constructors: 1
+14 8
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.isViewedAsDeprecated()Z
+PTG:
+Vars:
+5
+$r1 1 29 
+r4 1 42 
+$r3 1 36 
+r0 1 -1 
+$r2 1 26 
+Fields: 1
+-1 compoundName 26
+Accesses: 8
+0 1 -1 
+65 1 -1 
+51 1 -1 
+68 1 -1 
+22 1 -1 
+56 1 42 
+25 1 -1 
+13 1 -1 
+Functions: 2
+48 1 42 
+35 3 -1 36 26 
+Constructors: 0
+
+Summary: 2
+42 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.addType(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V
+PTG:
+Vars:
+8
+$r5 1 52 
+$r4 1 42 
+$r2 1 18 
+r1 1 -1 
+r0 1 -2 
+$r8 1 25 
+$r6 1 18 
+$r3 1 42 
+Fields: 3
+-2 compoundName 42
+42 ArrayObject 52
+-1 knownTypes 18
+Accesses: 6
+0 1 -2 
+17 1 -1 
+34 1 -1 
+37 1 -1 
+41 1 -2 
+45 1 -2 
+Functions: 3
+54 4 -2 18 52 42 
+14 2 -1 18 
+31 1 25 
+Constructors: 1
+31 25
+
+Summary: 5
+-2 42 52 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.getTypeOrPackage([C)Lorg/eclipse/jdt/internal/compiler/lookup/Binding;
+PTG:
+Vars:
+12
+r1 1 -2 
+$r4 1 19 
+$r9 1 11 
+$r8 1 81 
+$r11 1 23 
+$r5 1 99 
+r15 1 75 
+$r2 1 145 
+r0 1 -1 
+r14 3 23 99 5 
+$r10 1 19 
+$r3 1 160 
+Fields: 1
+-1 environment 19
+Accesses: 3
+18 1 -1 
+55 3 99 5 23 
+93 1 -1 
+Functions: 11
+0 3 -1 -2 19 
+128 1 99 
+51 3 99 5 23 
+22 4 99 19 5 23 
+70 3 -1 -2 19 
+136 3 -1 -2 19 
+170 3 -1 -2 19 
+107 1 99 
+30 3 99 5 23 
+94 3 -1 -2 19 
+143 3 -1 -2 19 
+Constructors: 0
+
+Summary: 4
+0 42 119 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.getPackage([C)Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 23 
+r0 1 -1 
+r4 1 5 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+35 2 -1 -2 
+21 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.findPackage([C)Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;
+PTG:
+Vars:
+9
+r5 1 25 
+$r6 1 26 
+$r3 1 1 
+$r2 1 5 
+r0 1 -1 
+r1 1 -2 
+$r4 1 5 
+$r7 1 1 
+_ret 1 26 
+Fields: 2
+-1 compoundName 5
+-1 environment 1
+Accesses: 4
+0 1 -1 
+32 1 -1 
+17 1 -1 
+4 1 -1 
+Functions: 4
+1 3 1 -2 5 
+36 5 -1 1 5 25 26 
+21 2 -2 5 
+42 4 -1 1 5 26 
+Constructors: 1
+36 26
+
+Summary: 4
+-2 25 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.<init>([[CLorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;Lorg/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)V
+PTG:
+Vars:
+5
+r3 1 -4 
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+$r4 1 30 
+Fields: 0
+Accesses: 6
+16 1 -1 
+21 1 -1 
+6 1 -1 
+38 1 -1 
+26 1 -1 
+11 1 -1 
+Functions: 2
+1 1 -1 
+35 1 30 
+Constructors: 2
+1 -1
+35 30
+
+Summary: 4
+2 0 -1 1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.getType([C)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+10
+r0 1 -1 
+$r8 1 16 
+r9 2 16 5 
+$r7 1 11 
+r1 1 -2 
+$r3 1 11 
+r10 1 46 
+_ret 1 46 
+$r4 1 46 
+$r2 1 32 
+Fields: 1
+-1 environment 11
+Accesses: 2
+41 1 -1 
+10 1 -1 
+Functions: 6
+0 3 -1 -2 11 
+53 1 46 
+26 3 -1 -2 11 
+74 1 46 
+11 3 -1 -2 11 
+45 3 16 5 11 
+Constructors: 0
+
+Summary: 4
+16 65 5 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.clearMissingTagBit()V
+PTG:
+Vars:
+3
+r0 1 -1 
+r3 1 15 
+$r1 1 15 
+Fields: 1
+-1 parent 15
+Accesses: 3
+2 1 15 
+11 1 15 
+14 1 15 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.readableName()[C
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 6 
+r0 1 -1 
+$r2 1 6 
+Fields: 1
+-1 compoundName 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.kind()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.addNotFoundPackage([C)V
+PTG:
+Vars:
+4
+$r3 1 1 
+r0 1 -1 
+r1 1 -2 
+$r2 1 5 
+Fields: 1
+-1 knownPackages 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+8 3 1 -2 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.<init>(Lorg/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 -1 1 -2 
+Constructors: 1
+6 -1
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.getType0([C)Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;
+PTG:
+Vars:
+6
+$r3 1 1 
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+_ret 1 14 
+$r4 1 14 
+Fields: 1
+-1 knownTypes 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/lookup/PackageBinding.toString()Ljava/lang/String;
+PTG:
+Vars:
+13
+$r8 1 77 
+r0 1 -1 
+r10 3 50 12 83 
+$r2 1 1 
+$r5 1 44 
+$r6 1 64 
+$r3 1 16 
+$r9 1 1 
+$r1 1 4 
+$r4 1 1 
+$r11 2 42 36 
+_ret 3 50 12 83 
+$r7 1 69 
+Fields: 1
+-1 compoundName 1
+Accesses: 4
+0 1 -1 
+32 1 -1 
+51 1 -1 
+25 1 -1 
+Functions: 8
+16 3 16 36 42 
+64 1 64 
+33 1 1 
+68 3 50 83 12 
+22 1 16 
+72 2 64 69 
+44 1 44 
+77 1 77 
+Constructors: 2
+22 16
+72 64
+
+Summary: 1
+-1 

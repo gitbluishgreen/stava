@@ -1,0 +1,829 @@
+27
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.generateCode(Lorg/eclipse/jdt/internal/compiler/ClassFile;)V
+PTG:
+Vars:
+20
+r1 1 -1 
+$r20 1 90 
+$r17 2 144 164 
+r0 1 -2 
+$r3 1 2 
+$r7 1 2 
+$r11 1 66 
+$r9 1 90 
+$r21 2 90 112 
+$r10 1 144 
+$r23 1 118 
+$r8 1 66 
+$r2 1 2 
+r6 1 56 
+$r5 1 2 
+$r22 1 117 
+$r16 1 144 
+$r18 2 171 66 
+$r4 1 2 
+$r19 1 169 
+Fields: 10
+-2 codeStream 56
+144 ArrayObject 169
+90 ArrayObject 117
+117 binding 118
+164 ArrayObject 169
+-1 arguments 90
+-1 statements 144
+-1 scope 66
+-1 binding 2
+112 ArrayObject 117
+Accesses: 22
+32 1 -1 
+1 1 -1 
+65 1 -1 
+99 1 -1 
+163 1 -1 
+69 1 -1 
+8 1 -2 
+200 1 -1 
+232 1 -1 
+42 1 -2 
+170 1 -1 
+14 1 -1 
+111 1 -1 
+143 1 -1 
+242 1 -1 
+52 1 -2 
+117 1 117 
+22 1 -1 
+215 1 -1 
+89 1 -1 
+153 1 -1 
+189 1 -1 
+Functions: 19
+33 1 2 
+130 1 118 
+227 1 56 
+5 3 -2 2 56 
+70 1 2 
+262 8 -1 144 66 2 117 118 169 90 
+201 0 
+236 2 66 56 
+268 2 -2 56 
+13 3 -2 2 56 
+176 4 66 56 169 171 
+49 2 -2 56 
+211 0 
+86 2 66 56 
+246 1 56 
+23 1 2 
+124 2 118 56 
+252 2 -2 56 
+62 10 -1 144 -2 66 2 117 118 56 169 90 
+Constructors: 0
+
+Summary: 5
+-2 0 207 204 -1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.resolveStatements()V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r6 1 25 
+$r7 1 23 
+$r5 2 1 19 
+$r4 1 1 
+$r1 1 1 
+$r2 1 53 
+$r3 1 56 
+Fields: 5
+-1 statements 1
+-1 scope 25
+-1 scope 53
+1 ArrayObject 23
+19 ArrayObject 23
+Accesses: 8
+0 1 -1 
+65 1 -1 
+18 1 -1 
+52 1 -1 
+24 1 -1 
+9 1 -1 
+42 1 -1 
+59 1 -1 
+Functions: 3
+53 1 53 
+71 1 56 
+28 2 23 25 
+Constructors: 0
+
+Summary: 2
+-1 56 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.bindThrownExceptions()V
+PTG:
+Vars:
+23
+$r4 1 18 
+$r6 1 8 
+$r1 1 1 
+$r3 1 8 
+$r19 2 8 56 
+$r17 1 151 
+$r5 1 1 
+$r21 1 63 
+r16 1 141 
+$r11 2 99 18 
+$r7 1 18 
+$r14 1 173 
+r13 1 111 
+r9 1 93 
+$r22 1 54 
+$r10 2 96 8 
+r0 1 -1 
+$r8 2 87 1 
+$r2 1 8 
+$r18 2 50 1 
+r12 1 104 
+$r15 1 136 
+$r20 2 59 18 
+Fields: 16
+59 ArrayObject 63
+111 ArrayObject 151
+104 compoundName 111
+8 thrownExceptions 18
+1 ArrayObject 93
+1 ArrayObject 54
+50 ArrayObject 54
+99 ArrayObject 104
+136 ArrayObject 141
+87 ArrayObject 93
+96 thrownExceptions 99
+-1 thrownExceptions 1
+-1 binding 8
+18 ArrayObject 104
+18 ArrayObject 63
+56 thrownExceptions 59
+Accesses: 17
+0 1 -1 
+64 1 54 
+96 2 96 8 
+162 1 93 
+7 1 -1 
+106 1 104 
+14 1 -1 
+15 1 8 
+49 1 -1 
+86 1 -1 
+55 1 -1 
+24 1 -1 
+56 2 8 56 
+188 1 93 
+30 1 -1 
+31 1 8 
+95 1 -1 
+Functions: 4
+176 3 151 173 111 
+134 1 93 
+151 2 151 141 
+171 1 93 
+Constructors: 0
+
+Summary: 4
+173 136 -1 141 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.isAnnotationMethod()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.abort(ILorg/eclipse/jdt/core/compiler/CategorizedProblem;)V
+PTG:
+Vars:
+4
+$r9 1 88 
+r1 1 -1 
+r2 1 -3 
+$r8 1 83 
+Fields: 1
+-1 compilationResult 88
+Accesses: 4
+48 1 -1 
+87 1 -1 
+74 1 -1 
+61 1 -1 
+Functions: 4
+66 1 -3 
+53 1 -3 
+92 3 -3 83 88 
+79 1 -3 
+Constructors: 1
+92 83
+
+Summary: 3
+-3 -1 1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.printReturnType(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+3
+r0 1 -3 
+_ret 1 -3 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.isConstructor()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.hasErrors()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.typeParameters()[Lorg/eclipse/jdt/internal/compiler/ast/TypeParameter;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.isStatic()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 binding 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.isDefaultConstructor()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.isAbstract()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 binding 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.isNative()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 binding 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.resolveJavadoc()V
+PTG:
+Vars:
+14
+r0 1 -1 
+$r12 1 1 
+$r4 1 31 
+$r6 1 31 
+$r10 1 62 
+$r7 1 1 
+$r8 1 62 
+$r2 1 9 
+$r5 1 1 
+$r3 1 1 
+r11 1 76 
+$r13 1 97 
+r9 1 68 
+$r1 1 1 
+Fields: 4
+-1 scope 62
+-1 binding 1
+-1 javadoc 9
+1 declaringClass 31
+Accesses: 16
+0 1 -1 
+37 1 -1 
+69 1 -1 
+38 1 1 
+8 1 -1 
+105 1 -1 
+106 1 1 
+15 1 -1 
+50 1 -1 
+19 1 -1 
+51 1 1 
+120 1 -1 
+27 1 -1 
+28 1 1 
+124 1 -1 
+61 1 -1 
+Functions: 8
+96 1 68 
+100 1 97 
+132 1 76 
+70 1 62 
+23 0 
+41 1 31 
+77 1 76 
+62 1 62 
+Constructors: 0
+
+Summary: 4
+76 97 68 -1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.printBody(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+8
+$r8 1 34 
+$r6 1 95 
+$r10 2 53 34 
+$r4 1 34 
+$r11 1 57 
+_ret 1 -3 
+r0 1 -1 
+r1 1 -3 
+Fields: 3
+53 ArrayObject 57
+34 ArrayObject 57
+-1 statements 34
+Accesses: 4
+33 1 -1 
+52 1 -1 
+68 1 -1 
+7 1 -1 
+Functions: 8
+0 3 -1 34 57 
+48 1 -3 
+18 1 -3 
+100 1 95 
+60 2 -3 57 
+29 1 -3 
+94 1 -3 
+79 1 -3 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.isMethod()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.isInitializationMethod()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.resolve(Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)V
+PTG:
+Vars:
+14
+r13 1 -2 
+$r3 1 29 
+$r5 1 1 
+$r8 1 25 
+$r2 1 1 
+$r4 1 25 
+$r11 1 101 
+$r7 1 1 
+$r9 1 84 
+$r1 1 1 
+r0 1 -1 
+$r12 1 -1 
+$r6 1 1 
+$r10 1 25 
+Fields: 3
+-1 scope 25
+-1 annotations 29
+-1 binding 1
+Accesses: 13
+0 1 -1 
+32 1 -1 
+97 1 -1 
+66 1 -1 
+67 1 1 
+9 1 -1 
+43 1 -1 
+80 1 -1 
+50 1 -1 
+114 1 -1 
+84 1 84 
+24 1 -1 
+28 1 -1 
+Functions: 9
+17 4 -1 1 25 29 
+81 1 25 
+98 1 25 
+51 1 1 
+36 3 1 25 29 
+21 4 -1 1 25 29 
+40 4 -1 1 25 29 
+105 5 -1 1 101 25 29 
+13 4 -1 1 25 29 
+Constructors: 0
+
+Summary: 5
+-2 101 0 -1 84 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.compilationResult()Lorg/eclipse/jdt/internal/compiler/CompilationResult;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 compilationResult 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.<init>(Lorg/eclipse/jdt/internal/compiler/CompilationResult;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+16 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.tagAsHavingErrors()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.isClinit()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.print(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+21
+r2 1 -3 
+$r31 1 33 
+$r16 2 200 234 
+$r13 1 200 
+$r35 1 141 
+$r8 1 128 
+$r17 1 239 
+$r21 1 172 
+$r25 1 79 
+r6 1 52 
+$r9 1 131 
+$r20 2 167 141 
+r0 1 -1 
+$r5 1 33 
+$r36 1 200 
+$r1 1 1 
+$r7 1 124 
+$r28 1 107 
+$r33 1 1 
+_ret 1 -3 
+$r11 1 141 
+Fields: 11
+167 ArrayObject 172
+200 ArrayObject 239
+52 ArrayObject 107
+52 ArrayObject 79
+-1 arguments 141
+-1 selector 128
+-1 thrownExceptions 200
+-1 annotations 33
+-1 javadoc 1
+234 ArrayObject 239
+141 ArrayObject 172
+Accesses: 12
+0 1 -1 
+32 1 -1 
+166 1 -1 
+7 1 -1 
+23 1 -1 
+39 1 -1 
+199 1 -1 
+184 1 -1 
+233 1 -1 
+251 1 -1 
+140 1 -1 
+127 1 -1 
+Functions: 20
+162 1 -3 
+195 1 -3 
+229 1 -3 
+136 1 131 
+264 9 -1 128 33 1 -3 200 172 141 239 
+44 2 33 -3 
+13 2 1 -3 
+110 2 -3 107 
+175 2 -3 172 
+48 8 -1 128 33 1 200 172 141 239 
+82 2 -3 79 
+210 1 -3 
+242 2 -3 239 
+19 1 -3 
+117 1 -3 
+121 9 -1 128 33 1 -3 200 172 141 239 
+90 1 -3 
+28 1 -3 
+60 1 -3 
+124 2 128 124 
+Constructors: 0
+
+Summary: 4
+1 107 52 -1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.bindArguments()V
+PTG:
+Vars:
+19
+$r8 1 114 
+$r16 1 8 
+$r14 1 146 
+$r15 1 8 
+$r9 1 103 
+$r4 2 93 1 
+$r11 1 179 
+$r2 1 8 
+$r7 1 110 
+$r22 1 1 
+$r12 1 163 
+r5 1 98 
+r21 1 133 
+$r6 2 107 8 
+$r3 1 8 
+r0 1 -1 
+$r10 1 121 
+$r1 1 1 
+$r13 1 166 
+Fields: 9
+93 ArrayObject 98
+110 ArrayObject 114
+107 parameters 110
+98 binding 163
+98 annotations 121
+-1 arguments 1
+-1 scope 103
+-1 binding 8
+1 ArrayObject 98
+Accesses: 15
+0 1 -1 
+161 1 98 
+196 1 -1 
+102 1 -1 
+7 1 -1 
+106 1 -1 
+107 2 8 107 
+16 1 -1 
+49 1 -1 
+82 1 -1 
+119 1 98 
+25 1 -1 
+59 1 -1 
+92 1 -1 
+31 1 -1 
+Functions: 6
+50 1 8 
+163 1 163 
+116 5 98 114 163 103 121 
+37 0 
+201 2 133 8 
+60 1 8 
+Constructors: 0
+
+Summary: 2
+133 -1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.checkArgumentsSize()V
+PTG:
+Vars:
+13
+$r6 2 72 65 
+$r11 1 89 
+$r3 1 21 
+$r1 1 1 
+$r9 1 84 
+$r8 2 81 65 
+$r7 1 75 
+r2 1 7 
+$r5 1 68 
+$r12 1 79 
+r0 1 -1 
+$r10 1 88 
+$r4 1 65 
+Fields: 9
+72 locals 75
+7 ArrayObject 21
+81 locals 84
+88 declaration 89
+-1 scope 65
+-1 binding 1
+1 parameters 7
+84 ArrayObject 88
+75 ArrayObject 79
+Accesses: 9
+0 1 -1 
+64 1 -1 
+80 1 -1 
+1 1 1 
+81 2 81 65 
+21 1 21 
+71 1 -1 
+72 2 65 72 
+88 1 88 
+Functions: 2
+65 1 65 
+92 3 68 89 79 
+Constructors: 0
+
+Summary: 2
+68 -1 
+org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;Lorg/eclipse/jdt/internal/compiler/ClassFile;)V
+PTG:
+Vars:
+21
+$r16 1 184 
+$r17 1 187 
+r2 1 -1 
+$r18 1 190 
+r21 1 -2 
+$r15 1 91 
+r27 1 196 
+r28 1 204 
+$r12 1 171 
+$r1 1 3 
+$r10 1 135 
+$r9 1 132 
+r25 1 144 
+r0 1 -3 
+$r14 1 94 
+$r11 1 138 
+$r19 1 223 
+$r8 1 -1 
+r26 1 152 
+$r20 1 3 
+$r13 1 -1 
+Fields: 8
+-3 codeStream 3
+135 compilationResult 138
+-1 scope 132
+-1 scope 184
+-1 binding 223
+-1 binding 171
+187 compilationResult 190
+-1 compilationResult 91
+Accesses: 18
+64 1 -1 
+2 1 -3 
+131 1 -1 
+102 1 -3 
+7 1 3 
+135 1 135 
+105 1 -3 
+10 1 -1 
+74 1 -3 
+170 1 -1 
+112 1 -3 
+17 1 -1 
+115 1 -3 
+183 1 -1 
+25 1 -1 
+89 1 -1 
+187 1 187 
+222 1 -1 
+Functions: 15
+32 0 
+132 1 132 
+165 2 144 152 
+229 8 -1 -3 3 132 184 171 204 223 
+70 7 -1 -3 3 132 184 171 223 
+138 1 138 
+81 7 -1 -3 3 132 184 171 223 
+177 8 -1 -3 3 132 184 152 171 223 
+119 1 3 
+184 1 184 
+217 2 196 204 
+26 0 
+59 0 
+124 7 -1 -3 3 132 184 171 223 
+190 1 190 
+Constructors: 0
+
+Summary: 11
+-3 138 1 32 -2 135 0 187 190 -1 29 

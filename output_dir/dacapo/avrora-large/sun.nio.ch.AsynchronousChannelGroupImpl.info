@@ -1,0 +1,515 @@
+24
+sun/nio/ch/AsynchronousChannelGroupImpl.schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/Future;
+PTG:
+Vars:
+7
+r0 1 -1 
+r1 1 -2 
+r2 1 -4 
+$r5 1 -1 
+$r3 1 1 
+$r4 1 8 
+$r7 1 23 
+Fields: 1
+-1 timeoutExecutor 1
+Accesses: 2
+0 1 -1 
+14 1 -1 
+Functions: 2
+1 3 1 -2 -4 
+29 2 -1 23 
+Constructors: 1
+29 23
+
+Summary: 3
+-2 -1 -4 
+sun/nio/ch/AsynchronousChannelGroupImpl.threadCount()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 threadCount 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/AsynchronousChannelGroupImpl.isFixedThreadPool()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 pool 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/AsynchronousChannelGroupImpl.offerTask(Ljava/lang/Runnable;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 taskQueue 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/nio/ch/AsynchronousChannelGroupImpl.awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
+PTG:
+Vars:
+4
+$r2 1 4 
+r0 1 -1 
+$r1 1 1 
+r3 1 -3 
+Fields: 1
+-1 pool 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+4 2 -3 4 
+Constructors: 0
+
+Summary: 3
+-3 -1 4 
+sun/nio/ch/AsynchronousChannelGroupImpl.execute(Ljava/lang/Runnable;)V
+PTG:
+Vars:
+5
+r2 1 11 
+r1 1 -1 
+$r4 1 15 
+r5 2 -2 15 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 0 
+23 4 -1 -2 11 15 
+8 0 
+29 3 -1 -2 15 
+Constructors: 1
+23 15
+
+Summary: 4
+-2 11 -1 3 
+sun/nio/ch/AsynchronousChannelGroupImpl.isShutdown()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 shutdown 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/AsynchronousChannelGroupImpl.detachFromThreadPool()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 shutdown 1
+Accesses: 1
+0 1 -1 
+Functions: 5
+1 1 1 
+17 0 
+34 0 
+21 2 -1 1 
+39 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/AsynchronousChannelGroupImpl.<clinit>()V
+PTG:
+Vars:
+3
+$r2 1 10 
+$r1 1 10 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 0 
+7 1 0 
+13 1 10 
+Constructors: 1
+7 0
+
+Summary: 1
+10 
+sun/nio/ch/AsynchronousChannelGroupImpl.pollTask()Ljava/lang/Runnable;
+PTG:
+Vars:
+6
+$r1 1 1 
+r0 1 -1 
+$r4 1 15 
+_ret 1 15 
+$r3 1 15 
+$r2 1 1 
+Fields: 1
+-1 taskQueue 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/AsynchronousChannelGroupImpl.shutdownNow()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 9 
+$r1 1 1 
+Fields: 2
+-1 shutdownNowLock 9
+-1 shutdown 1
+Accesses: 4
+0 1 -1 
+8 1 -1 
+24 1 -1 
+15 1 -1 
+Functions: 4
+32 3 -1 1 9 
+36 3 -1 1 9 
+5 1 1 
+28 3 -1 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/AsynchronousChannelGroupImpl.startThreads(Ljava/lang/Runnable;)V
+PTG:
+Vars:
+10
+$r6 1 22 
+$r2 1 36 
+$r7 1 -1 
+$r1 1 36 
+r8 1 -2 
+r0 1 -1 
+r9 1 50 
+$r3 1 36 
+$r5 2 22 78 
+$r4 1 68 
+Fields: 3
+-1 threadCount 78
+-1 threadCount 22
+-1 pool 36
+Accesses: 5
+64 1 -1 
+35 1 -1 
+21 1 -1 
+54 1 -1 
+77 1 -1 
+Functions: 9
+0 4 -1 36 22 78 
+65 1 36 
+81 2 22 78 
+18 5 -1 -2 36 22 78 
+36 1 36 
+55 1 36 
+72 2 50 68 
+25 1 22 
+45 5 -1 -2 36 22 78 
+Constructors: 0
+
+Summary: 4
+-2 -1 68 50 
+sun/nio/ch/AsynchronousChannelGroupImpl.access$100(Lsun/nio/ch/AsynchronousChannelGroupImpl;)Ljava/util/concurrent/ScheduledThreadPoolExecutor;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -2 
+Fields: 1
+-2 timeoutExecutor 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/nio/ch/AsynchronousChannelGroupImpl.threadExit(Ljava/lang/Runnable;Z)I
+PTG:
+Vars:
+8
+$r3 1 36 
+$r1 1 36 
+r2 1 -2 
+$r5 1 14 
+$r4 1 11 
+$r6 1 19 
+$r7 1 -1 
+r0 1 -1 
+Fields: 2
+-1 threadCount 36
+-1 pool 11
+Accesses: 3
+35 1 -1 
+10 1 -1 
+44 1 -1 
+Functions: 7
+-1 0 
+32 4 -1 -2 36 11 
+17 4 -1 -2 36 11 
+36 1 36 
+22 2 19 14 
+11 1 11 
+45 1 36 
+Constructors: 0
+
+Summary: 4
+-2 19 14 -1 
+sun/nio/ch/AsynchronousChannelGroupImpl.fixedThreadCount()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 16 
+Fields: 1
+-1 pool 16
+Accesses: 2
+7 1 -1 
+15 1 -1 
+Functions: 3
+0 2 -1 16 
+16 1 16 
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/AsynchronousChannelGroupImpl.shutdownExecutors()V
+PTG:
+Vars:
+4
+$r0 1 0 
+$r2 1 10 
+$r3 1 15 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+5 2 0 -1 
+21 1 15 
+25 2 0 10 
+Constructors: 2
+5 0
+21 15
+
+Summary: 3
+0 -1 10 
+sun/nio/ch/AsynchronousChannelGroupImpl.bindToGroup(Ljava/lang/Runnable;)Ljava/lang/Runnable;
+PTG:
+Vars:
+4
+_ret 1 2 
+$r2 1 2 
+r0 1 -1 
+r3 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+9 3 -1 -2 2 
+Constructors: 1
+9 2
+
+Summary: 3
+-2 -1 0 
+sun/nio/ch/AsynchronousChannelGroupImpl.executor()Ljava/util/concurrent/ExecutorService;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 4 
+r0 1 -1 
+$r2 1 4 
+Fields: 1
+-1 pool 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/AsynchronousChannelGroupImpl.isTerminated()Z
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 4 
+r0 1 -1 
+Fields: 1
+-1 pool 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+4 1 4 
+Constructors: 0
+
+Summary: 2
+-1 4 
+sun/nio/ch/AsynchronousChannelGroupImpl.access$000(Lsun/nio/ch/AsynchronousChannelGroupImpl;)Lsun/nio/ch/ThreadPool;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -2 
+$r1 1 1 
+Fields: 1
+-2 pool 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/nio/ch/AsynchronousChannelGroupImpl.<init>(Ljava/nio/channels/spi/AsynchronousChannelProvider;Lsun/nio/ch/ThreadPool;)V
+PTG:
+Vars:
+11
+$r2 1 6 
+$r9 1 84 
+$r7 1 74 
+r0 1 -1 
+r5 1 -3 
+$r3 1 17 
+$r10 1 51 
+$r8 1 74 
+r1 1 -2 
+$r4 1 28 
+$r6 1 71 
+Fields: 1
+-1 timeoutExecutor 84
+Accesses: 8
+80 1 -1 
+66 1 -1 
+35 1 -1 
+83 1 -1 
+24 1 -1 
+40 1 -1 
+58 1 -1 
+13 1 -1 
+Functions: 9
+32 1 28 
+-1 0 
+2 3 -1 -2 84 
+21 1 17 
+55 1 51 
+71 1 71 
+88 1 84 
+10 1 6 
+43 1 -3 
+Constructors: 5
+32 28
+2 -1
+21 17
+55 51
+10 6
+
+Summary: 3
+-2 -1 71 
+sun/nio/ch/AsynchronousChannelGroupImpl.shutdown()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 21 
+Fields: 2
+-1 shutdownNowLock 21
+-1 shutdown 1
+Accesses: 4
+0 1 -1 
+20 1 -1 
+36 1 -1 
+27 1 -1 
+Functions: 4
+1 1 1 
+40 3 -1 1 21 
+12 3 -1 1 21 
+44 3 -1 1 21 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/AsynchronousChannelGroupImpl.executeOnPooledThread(Ljava/lang/Runnable;)V
+PTG:
+Vars:
+5
+$r1 1 16 
+$r4 1 24 
+r0 1 -1 
+r3 1 -2 
+$r2 1 19 
+Fields: 1
+-1 pool 16
+Accesses: 1
+15 1 -1 
+Functions: 5
+0 2 -1 16 
+16 1 16 
+22 3 -1 16 -2 
+9 3 -1 16 -2 
+27 2 19 24 
+Constructors: 0
+
+Summary: 4
+-2 19 -1 24 
+sun/nio/ch/AsynchronousChannelGroupImpl.startInternalThread(Ljava/lang/Runnable;)V
+PTG:
+Vars:
+3
+$r0 1 0 
+r1 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 3 0 -1 -2 
+9 1 0 
+Constructors: 1
+6 0
+
+Summary: 4
+0 -2 -1 0 

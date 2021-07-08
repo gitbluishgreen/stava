@@ -1,0 +1,786 @@
+29
+org/eclipse/core/internal/resources/LocalMetaArea.getSyncInfoSnapshotLocationFor(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+_ret 1 7 
+$r3 1 7 
+r0 1 -1 
+$r2 1 2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+2 1 2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.getHistoryStoreLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+4
+_ret 1 6 
+$r2 1 6 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 metaAreaLocation 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/LocalMetaArea.create(Lorg/eclipse/core/resources/IProject;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 2 
+r3 1 10 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -1 -2 
+17 1 10 
+2 1 2 
+12 1 10 
+Constructors: 0
+
+Summary: 4
+-1 2 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.getMarkersSnapshotLocationFor(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+$r2 1 2 
+_ret 1 7 
+$r3 1 7 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+2 1 2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.hasSavedProject(Lorg/eclipse/core/resources/IProject;)Z
+PTG:
+Vars:
+7
+$r5 1 23 
+$r3 1 5 
+$r2 1 2 
+$r4 1 18 
+r1 1 -2 
+$r6 1 28 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 2 -1 -2 
+16 2 -1 -2 
+2 1 2 
+18 1 18 
+5 1 5 
+23 1 23 
+28 1 28 
+Constructors: 0
+
+Summary: 7
+-1 5 23 2 28 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.getWorkspace()Lorg/eclipse/core/internal/resources/Workspace;
+PTG:
+Vars:
+4
+_ret 1 0 
+$r1 1 0 
+$r0 1 0 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/LocalMetaArea.writePrivateDescription(Lorg/eclipse/core/resources/IProject;)V
+PTG:
+Vars:
+17
+r6 1 32 
+$r13 1 124 
+$r16 1 153 
+r7 1 45 
+r4 1 19 
+r3 1 12 
+$r2 1 2 
+$r5 1 -2 
+r1 1 -2 
+$r10 1 81 
+$r9 1 71 
+$r11 1 110 
+r0 1 -1 
+r8 1 53 
+$r14 1 127 
+$r12 1 121 
+$r15 1 152 
+Fields: 1
+53 ArrayObject 152
+Accesses: 0
+Functions: 24
+0 2 -1 -2 
+225 0 
+2 1 2 
+130 2 81 127 
+102 1 81 
+40 1 32 
+137 1 81 
+202 1 -2 
+203 0 
+76 2 19 71 
+13 1 12 
+173 1 71 
+110 2 121 110 
+47 1 32 
+116 1 110 
+21 1 19 
+87 2 81 71 
+119 1 45 
+183 1 81 
+152 1 152 
+26 1 -2 
+124 1 124 
+158 2 81 153 
+191 1 81 
+Constructors: 3
+116 110
+87 81
+76 71
+
+Summary: 15
+19 127 153 -1 45 53 81 121 12 32 203 211 0 -2 124 
+org/eclipse/core/internal/resources/LocalMetaArea.write(Lorg/eclipse/core/internal/resources/WorkspaceDescription;)V
+PTG:
+Vars:
+7
+r6 1 -2 
+$r5 1 24 
+$r2 1 6 
+r1 1 4 
+r0 1 -1 
+r4 1 23 
+$r3 1 11 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -1 
+18 2 -1 4 
+34 4 -2 4 23 24 
+5 1 4 
+6 1 6 
+28 1 24 
+45 1 4 
+14 1 11 
+63 0 
+Constructors: 1
+28 24
+
+Summary: 8
+-1 11 49 23 4 6 -2 24 
+org/eclipse/core/internal/resources/LocalMetaArea.readPrivateDescription(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IProjectDescription;)V
+PTG:
+Vars:
+28
+$r20 1 143 
+$r2 1 2 
+$r21 1 147 
+r0 1 -1 
+$r8 1 218 
+$r22 1 157 
+$r16 1 -1 
+$r5 1 66 
+$r15 1 113 
+r26 1 34 
+r1 1 -2 
+r7 1 202 
+r10 1 -3 
+$r19 1 -1 
+$r9 1 221 
+$r13 1 105 
+r30 1 190 
+$r23 1 166 
+$r17 1 -1 
+$r3 1 52 
+r25 2 41 19 
+r27 1 82 
+r24 1 12 
+$r14 1 110 
+r29 1 155 
+$r11 1 127 
+$r31 1 196 
+$r12 1 130 
+Fields: 0
+Accesses: 0
+Functions: 32
+0 2 -1 -2 
+2 1 2 
+195 1 -1 
+196 1 196 
+260 1 66 
+133 2 -3 130 
+72 2 66 52 
+13 1 12 
+77 1 66 
+146 1 -2 
+147 2 147 143 
+84 1 82 
+21 2 19 41 
+214 2 202 218 
+216 1 66 
+92 1 82 
+29 2 -1 12 
+35 1 34 
+165 1 -2 
+103 1 82 
+105 1 105 
+43 2 19 41 
+110 1 110 
+175 4 -1 166 155 157 
+240 2 -3 190 
+178 1 157 
+116 2 113 -3 
+181 1 66 
+252 1 66 
+61 3 19 52 41 
+125 1 82 
+127 1 127 
+Constructors: 3
+72 66
+61 52
+175 157
+
+Summary: 23
+19 196 147 66 -3 34 130 -1 41 157 218 202 113 12 52 0 127 1 190 110 166 155 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.locationFor(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+7
+$r5 1 33 
+_ret 1 33 
+$r3 1 23 
+r0 1 -2 
+$r1 1 0 
+r2 1 -1 
+$r4 1 28 
+Fields: 1
+-1 projectMetaLocation 23
+Accesses: 2
+22 1 -1 
+10 1 -1 
+Functions: 4
+0 2 0 -2 
+23 2 23 28 
+26 1 -2 
+11 0 
+Constructors: 0
+
+Summary: 4
+-1 28 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.getOldDescriptionLocationFor(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+_ret 1 7 
+$r3 1 7 
+r1 1 -2 
+r0 1 -1 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+2 1 2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.hasSavedWorkspace()Z
+PTG:
+Vars:
+6
+$r1 1 1 
+$r3 1 1 
+$r2 1 4 
+$r4 1 20 
+$r5 1 23 
+r0 1 -1 
+Fields: 1
+-1 metaAreaLocation 1
+Accesses: 2
+0 1 -1 
+16 1 -1 
+Functions: 5
+1 1 1 
+4 1 4 
+20 1 20 
+23 1 23 
+15 2 -1 1 
+Constructors: 0
+
+Summary: 4
+-1 23 4 20 
+org/eclipse/core/internal/resources/LocalMetaArea.getLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 metaAreaLocation 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/LocalMetaArea.clearOldDescription(Lorg/eclipse/core/resources/IProject;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 2 
+$r3 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+2 1 2 
+10 1 5 
+Constructors: 0
+
+Summary: 5
+-1 5 2 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.getTreeLocationFor(Lorg/eclipse/core/resources/IResource;Z)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+24
+$r18 1 126 
+$r14 1 108 
+$r15 1 117 
+r2 1 13 
+$r4 1 15 
+$r19 1 129 
+$r13 1 103 
+r3 1 -1 
+$r12 1 99 
+$r20 1 135 
+$r5 1 18 
+$r23 1 149 
+$r1 1 1 
+$r9 1 78 
+$r22 1 146 
+_ret 1 149 
+$r8 1 49 
+$r11 1 96 
+$r10 1 93 
+r0 1 -2 
+$r21 1 143 
+$r7 1 25 
+r17 3 33 43 90 
+$r6 1 21 
+Fields: 0
+Accesses: 0
+Functions: 24
+0 1 -2 
+96 1 96 
+1 1 1 
+129 1 129 
+133 3 33 90 43 
+102 1 13 
+138 2 129 135 
+108 1 108 
+14 1 -1 
+78 1 78 
+15 1 15 
+143 1 143 
+49 1 49 
+18 1 18 
+114 4 33 90 43 108 
+84 1 78 
+21 2 21 25 
+55 4 49 33 90 43 
+24 1 13 
+120 3 99 117 103 
+92 1 -1 
+124 2 -1 -2 
+93 1 93 
+126 2 146 126 
+Constructors: 4
+114 108
+84 78
+55 49
+138 129
+
+Summary: 21
+99 18 90 146 -1 25 33 108 0 49 15 103 135 143 13 21 93 117 78 96 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.createMetaArea()V
+PTG:
+Vars:
+3
+$r1 1 1 
+r2 1 9 
+r0 1 -1 
+Fields: 1
+-1 metaAreaLocation 1
+Accesses: 1
+0 1 -1 
+Functions: 5
+1 1 1 
+40 0 
+25 1 9 
+11 1 9 
+15 1 9 
+Constructors: 0
+
+Summary: 2
+-1 29 
+org/eclipse/core/internal/resources/LocalMetaArea.delete(Lorg/eclipse/core/resources/IProject;)V
+PTG:
+Vars:
+5
+r2 1 5 
+r0 1 -1 
+$r4 1 19 
+r1 1 -2 
+$r3 1 7 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 2 -1 -2 
+33 1 -2 
+18 1 5 
+34 0 
+50 1 -2 
+19 1 19 
+6 1 5 
+7 1 7 
+58 0 
+Constructors: 0
+
+Summary: 9
+-1 5 7 51 19 42 34 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.getSnapshotLocationFor(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+$r2 1 6 
+_ret 1 6 
+r3 1 -2 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 metaAreaLocation 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.getPropertyStoreLocation(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+r1 1 -1 
+$r2 1 28 
+_ret 1 33 
+$r3 1 33 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+22 0 
+26 2 -1 -2 
+28 1 28 
+Constructors: 0
+
+Summary: 3
+-1 28 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.getBackupLocationFor(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+10
+r0 1 -2 
+r8 1 -1 
+$r7 1 31 
+_ret 1 31 
+$r3 1 12 
+$r5 1 25 
+$r1 1 2 
+$r4 1 17 
+$r6 1 28 
+$r2 1 7 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+2 2 2 28 
+20 2 17 7 
+7 1 7 
+25 1 25 
+11 1 -2 
+12 1 12 
+Constructors: 1
+20 7
+
+Summary: 6
+-1 17 25 12 28 0 
+org/eclipse/core/internal/resources/LocalMetaArea.getOldWorkspaceDescriptionLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 6 
+$r2 1 6 
+r0 1 -1 
+Fields: 1
+-1 metaAreaLocation 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/LocalMetaArea.readOldDescription(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/core/internal/resources/ProjectDescription;
+PTG:
+Vars:
+8
+_ret 1 42 
+r4 1 25 
+$r3 1 7 
+r2 1 5 
+$r5 1 29 
+r16 1 42 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 14
+0 2 -1 -2 
+34 2 -2 29 
+6 1 5 
+70 1 -2 
+7 1 7 
+110 1 -2 
+80 0 
+20 2 -1 5 
+52 1 -2 
+53 0 
+119 0 
+92 1 -2 
+29 3 5 25 29 
+93 0 
+Constructors: 1
+34 29
+
+Summary: 13
+7 71 111 -1 5 53 25 93 101 61 29 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.getWorkingLocation(Lorg/eclipse/core/resources/IResource;Ljava/lang/String;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+6
+$r4 1 6 
+_ret 1 6 
+r3 1 -3 
+r1 1 -2 
+$r2 1 2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+2 2 2 -3 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.readOldWorkspace()Lorg/eclipse/core/internal/resources/WorkspaceDescription;
+PTG:
+Vars:
+9
+r0 1 -1 
+$r4 1 20 
+$r7 1 38 
+r1 1 4 
+r5 1 20 
+$r8 1 -1 
+$r3 1 11 
+r2 1 10 
+$r6 1 28 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -1 
+33 1 28 
+5 2 -1 4 
+37 1 10 
+11 3 4 10 11 
+27 1 4 
+43 1 38 
+15 1 11 
+Constructors: 1
+15 11
+
+Summary: 6
+-1 11 4 10 28 38 
+org/eclipse/core/internal/resources/LocalMetaArea.locationFor(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+7
+r0 1 -2 
+_ret 1 38 
+$r4 1 33 
+r1 1 -1 
+$r3 1 28 
+$r2 1 24 
+$r5 1 38 
+Fields: 1
+-1 projectMetaLocation 24
+Accesses: 2
+23 1 -1 
+11 1 -1 
+Functions: 5
+0 1 -2 
+24 2 33 24 
+27 1 -2 
+12 0 
+28 1 28 
+Constructors: 0
+
+Summary: 4
+-1 33 28 0 
+org/eclipse/core/internal/resources/LocalMetaArea.getMarkersLocationFor(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+$r2 1 36 
+_ret 1 41 
+$r3 1 41 
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+1 1 -2 
+34 2 -1 -2 
+4 1 -2 
+36 1 36 
+30 0 
+15 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.getSyncInfoLocationFor(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+$r2 1 36 
+_ret 1 41 
+$r3 1 41 
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+1 1 -2 
+34 2 -1 -2 
+4 1 -2 
+36 1 36 
+30 0 
+15 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.getSafeTableLocationFor(Ljava/lang/String;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+13
+$r9 1 59 
+$r11 1 65 
+$r6 1 42 
+r0 1 -1 
+$r1 1 1 
+$r7 1 47 
+r2 1 11 
+_ret 1 65 
+$r4 1 30 
+r3 1 -2 
+$r8 1 55 
+$r5 1 33 
+$r10 1 62 
+Fields: 1
+-1 metaAreaLocation 1
+Accesses: 1
+0 1 -1 
+Functions: 12
+1 1 1 
+33 2 33 -2 
+50 2 42 47 
+21 2 -2 11 
+55 1 55 
+41 2 11 62 
+42 1 42 
+59 1 59 
+12 1 -2 
+29 2 -1 1 
+30 1 30 
+46 1 -2 
+Constructors: 1
+50 42
+
+Summary: 8
+47 59 30 62 -1 33 0 -2 
+org/eclipse/core/internal/resources/LocalMetaArea.<init>()V
+PTG:
+Vars:
+5
+$r3 1 16 
+$r1 1 5 
+$r4 1 21 
+$r2 1 8 
+r0 1 -1 
+Fields: 1
+-1 metaAreaLocation 16
+Accesses: 3
+26 1 -1 
+11 1 -1 
+15 1 -1 
+Functions: 4
+-1 0 
+16 1 16 
+1 2 -1 16 
+5 1 5 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 5 

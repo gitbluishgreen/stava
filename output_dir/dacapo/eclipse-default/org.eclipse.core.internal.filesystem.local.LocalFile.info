@@ -1,0 +1,803 @@
+26
+org/eclipse/core/internal/filesystem/local/LocalFile.isParentOf(Lorg/eclipse/core/filesystem/IFileStore;)Z
+PTG:
+Vars:
+8
+$r6 1 66 
+r2 1 13 
+r1 1 -1 
+r4 1 21 
+$r3 1 -2 
+$r5 1 44 
+r0 1 -2 
+$r7 1 70 
+Fields: 2
+-1 filePath 13
+-2 filePath 21
+Accesses: 2
+9 1 -1 
+15 1 -2 
+Functions: 10
+65 1 21 
+81 1 13 
+66 2 66 70 
+69 1 13 
+22 1 13 
+55 2 21 13 
+43 2 -1 13 
+28 1 21 
+44 1 44 
+95 1 21 
+Constructors: 0
+
+Summary: 6
+-1 44 0 -2 66 70 
+org/eclipse/core/internal/filesystem/local/LocalFile.toString()Ljava/lang/String;
+PTG:
+Vars:
+4
+_ret 1 4 
+$r2 1 4 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 file 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/filesystem/local/LocalFile.openInputStream(ILorg/eclipse/core/runtime/IProgressMonitor;)Ljava/io/InputStream;
+PTG:
+Vars:
+16
+$r8 1 20 
+$r0 1 15 
+$r13 1 73 
+$r6 1 -1 
+$r2 1 20 
+$r10 1 92 
+$r14 1 52 
+r17 1 4 
+$r4 1 -1 
+r16 1 -3 
+r18 3 83 58 98 
+$r9 1 20 
+$r11 1 88 
+$r12 1 77 
+r1 1 -1 
+$r15 1 48 
+Fields: 4
+-1 filePath 52
+-1 filePath 92
+-1 filePath 77
+-1 file 20
+Accesses: 6
+19 1 -1 
+51 1 -1 
+38 1 -1 
+91 1 -1 
+76 1 -1 
+63 1 -1 
+Functions: 12
+0 1 -3 
+64 1 20 
+52 2 48 52 
+23 2 20 15 
+39 1 20 
+120 1 4 
+10 1 4 
+106 4 -1 98 83 58 
+92 2 88 92 
+29 1 4 
+77 2 73 77 
+110 1 4 
+Constructors: 1
+23 15
+
+Summary: 7
+83 1 -3 58 98 -1 4 
+org/eclipse/core/internal/filesystem/local/LocalFile.mkdir(ILorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/filesystem/IFileStore;
+PTG:
+Vars:
+11
+$r3 2 17 28 
+$r4 2 17 28 
+$r5 1 67 
+_ret 1 -1 
+$r8 1 17 
+$r6 1 63 
+$r1 1 28 
+r0 1 -1 
+r7 1 73 
+$r2 2 17 28 
+r9 1 -3 
+Fields: 3
+-1 filePath 67
+-1 file 17
+-1 file 28
+Accesses: 6
+16 1 -1 
+66 1 -1 
+35 1 -1 
+55 1 -1 
+27 1 -1 
+46 1 -1 
+Functions: 7
+80 1 73 
+51 4 -1 17 67 28 
+67 2 67 63 
+20 1 17 
+36 2 17 28 
+60 4 -1 17 67 28 
+31 1 28 
+Constructors: 0
+
+Summary: 3
+73 1 -3 
+org/eclipse/core/internal/filesystem/local/LocalFile.checkReadOnlyParent(Ljava/io/File;Ljava/lang/Throwable;)V
+PTG:
+Vars:
+7
+r6 1 -1 
+r0 1 -2 
+r5 1 -3 
+$r3 1 22 
+r1 1 4 
+r4 1 28 
+$r2 1 18 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+36 2 -3 28 
+21 1 -2 
+22 2 18 22 
+9 1 4 
+Constructors: 0
+
+Summary: 7
+-1 4 -3 22 28 0 -2 
+org/eclipse/core/internal/filesystem/local/LocalFile.openOutputStream(ILorg/eclipse/core/runtime/IProgressMonitor;)Ljava/io/OutputStream;
+PTG:
+Vars:
+13
+r1 1 -1 
+$r0 1 15 
+$r4 1 -1 
+$r11 1 87 
+r15 2 95 82 
+r14 1 4 
+r13 1 -3 
+$r2 1 20 
+$r6 1 -1 
+$r12 1 74 
+$r10 1 20 
+r9 1 62 
+$r8 1 20 
+Fields: 2
+-1 filePath 62
+-1 file 20
+Accesses: 4
+64 1 -1 
+50 1 -1 
+19 1 -1 
+58 1 -1 
+Functions: 11
+0 1 -3 
+65 1 20 
+34 2 20 15 
+117 1 4 
+55 3 -1 20 62 
+103 3 -1 82 95 
+40 1 4 
+10 1 4 
+90 2 87 62 
+107 1 4 
+77 2 74 62 
+Constructors: 1
+34 15
+
+Summary: 6
+95 1 -3 82 -1 4 
+org/eclipse/core/internal/filesystem/local/LocalFile.getFileSystem()Lorg/eclipse/core/filesystem/IFileSystem;
+PTG:
+Vars:
+3
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/filesystem/local/LocalFile.move(Lorg/eclipse/core/filesystem/IFileStore;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+27
+r28 1 47 
+r1 1 -1 
+$r11 1 275 
+$r10 1 303 
+$r12 1 280 
+$r23 1 -1 
+$r6 1 54 
+r27 1 -4 
+$r17 1 197 
+$r9 1 77 
+$r20 1 136 
+$r8 1 72 
+$r7 1 57 
+r31 1 208 
+$r25 1 95 
+$r5 1 49 
+r30 1 142 
+r33 1 286 
+r4 1 28 
+$r24 1 90 
+$r16 1 183 
+$r3 1 -2 
+$r19 1 131 
+r2 1 19 
+$r18 1 202 
+r26 1 101 
+r0 1 -2 
+Fields: 2
+-1 file 19
+-2 file 28
+Accesses: 2
+22 1 -2 
+15 1 -1 
+Functions: 37
+194 1 183 
+258 1 47 
+324 1 47 
+70 1 19 
+134 1 28 
+72 2 72 77 
+136 2 131 136 
+200 1 19 
+264 1 47 
+202 2 197 202 
+11 5 -1 -2 19 -4 28 
+75 1 28 
+149 1 142 
+278 1 19 
+215 1 208 
+152 2 19 28 
+280 2 275 280 
+93 1 19 
+221 1 28 
+95 2 90 95 
+294 1 286 
+167 1 19 
+232 1 19 
+43 1 -4 
+237 1 28 
+301 1 47 
+110 2 -1 101 
+175 1 28 
+239 0 
+306 5 -1 -2 19 28 303 
+52 1 19 
+54 2 49 54 
+123 1 28 
+315 1 47 
+252 0 
+189 2 183 28 
+62 2 57 47 
+Constructors: 1
+189 183
+
+Summary: 23
+245 -1 57 234 202 -4 28 0 239 303 208 95 280 54 142 2 183 101 77 286 -2 72 136 
+org/eclipse/core/internal/filesystem/local/LocalFile.internalDelete(Ljava/io/File;Ljava/lang/String;Lorg/eclipse/core/runtime/MultiStatus;Lorg/eclipse/core/runtime/IProgressMonitor;)Z
+PTG:
+Vars:
+20
+r2 1 -1 
+$r6 1 311 
+r0 1 -5 
+$r7 1 283 
+$r3 1 298 
+$r4 1 302 
+r5 1 -4 
+r1 1 -2 
+r24 2 59 69 
+r11 1 -3 
+r28 2 308 293 
+$r13 1 119 
+$r9 1 43 
+$r17 1 166 
+$r8 1 287 
+$r10 1 47 
+$r12 1 109 
+$r15 1 153 
+$r27 1 271 
+r16 1 163 
+Fields: 4
+59 ArrayObject 153
+59 ArrayObject 119
+69 ArrayObject 153
+69 ArrayObject 119
+Accesses: 0
+Functions: 33
+0 1 -5 
+259 0 
+324 3 308 293 311 
+134 2 -3 109 
+262 1 -4 
+71 1 -3 
+327 2 -4 311 
+201 1 -5 
+14 0 
+270 1 -1 
+143 1 109 
+271 1 271 
+18 1 -2 
+25 1 -2 
+154 2 153 109 
+91 1 -5 
+221 1 -2 
+158 1 109 
+286 1 -2 
+287 2 283 287 
+34 1 -2 
+165 5 -1 163 -4 -5 166 
+105 0 
+235 1 -2 
+172 2 163 166 
+236 0 
+301 1 -2 
+46 2 -2 43 
+302 2 298 302 
+50 2 -5 47 
+55 1 -2 
+119 1 119 
+126 1 109 
+Constructors: 3
+324 311
+172 166
+126 109
+
+Summary: 20
+59 236 166 308 -3 311 293 -1 242 -4 0 271 3 287 47 245 1 2 302 163 
+org/eclipse/core/internal/filesystem/local/LocalFile.putInfo(Lorg/eclipse/core/filesystem/IFileInfo;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+9
+r8 1 -4 
+$r7 1 20 
+r5 1 -2 
+$r3 1 75 
+$r4 1 82 
+r0 1 -1 
+$r1 1 42 
+$r6 1 42 
+$r2 1 20 
+Fields: 2
+-1 filePath 20
+-1 file 42
+Accesses: 4
+19 1 -1 
+41 1 -1 
+62 1 -1 
+78 1 -1 
+Functions: 7
+-1 0 
+85 1 82 
+24 2 -2 20 
+42 1 42 
+45 1 -2 
+63 1 42 
+79 2 20 75 
+Constructors: 0
+
+Summary: 5
+-1 -4 0 -2 82 
+org/eclipse/core/internal/filesystem/local/LocalFile.getChild(Ljava/lang/String;)Lorg/eclipse/core/filesystem/IFileStore;
+PTG:
+Vars:
+6
+r2 1 -1 
+_ret 1 0 
+r3 1 -2 
+$r4 1 9 
+$r1 1 4 
+$r0 1 0 
+Fields: 1
+-1 file 9
+Accesses: 1
+8 1 -1 
+Functions: 2
+16 2 0 4 
+13 3 -2 4 9 
+Constructors: 2
+16 0
+13 4
+
+Summary: 4
+-1 4 0 -2 
+org/eclipse/core/internal/filesystem/local/LocalFile.childNames(ILorg/eclipse/core/runtime/IProgressMonitor;)[Ljava/lang/String;
+PTG:
+Vars:
+6
+_ret 2 7 12 
+r0 1 -1 
+$r1 1 1 
+r3 1 -3 
+r2 1 7 
+$r4 2 7 12 
+Fields: 1
+-1 file 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 3
+-1 1 -3 
+org/eclipse/core/internal/filesystem/local/LocalFile.<init>(Ljava/io/File;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 11 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+14 1 -1 
+Functions: 2
+1 1 -1 
+10 1 -2 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 0 
+org/eclipse/core/internal/filesystem/local/LocalFile.getFileStore(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/filesystem/IFileStore;
+PTG:
+Vars:
+9
+r5 1 -2 
+$r1 1 4 
+$r7 1 22 
+_ret 1 0 
+r2 1 -1 
+$r6 1 19 
+$r0 1 0 
+$r4 1 12 
+$r3 1 9 
+Fields: 1
+-1 file 9
+Accesses: 1
+8 1 -1 
+Functions: 5
+19 1 19 
+4 2 -2 4 
+9 1 9 
+27 2 0 22 
+15 2 4 12 
+Constructors: 2
+27 0
+15 4
+
+Summary: 5
+-1 19 12 22 -2 
+org/eclipse/core/internal/filesystem/local/LocalFile.delete(ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+11
+r1 1 -1 
+$r7 1 66 
+r14 2 4 15 
+$r5 1 44 
+$r3 1 29 
+r4 1 43 
+$r10 1 4 
+r13 1 -3 
+$r0 1 15 
+$r2 1 25 
+$r8 1 62 
+Fields: 2
+-1 filePath 66
+-1 file 62
+Accesses: 2
+65 1 -1 
+61 1 -1 
+Functions: 10
+97 2 4 15 
+35 3 4 29 15 
+20 2 -3 15 
+55 2 43 44 
+8 1 4 
+72 6 -1 66 4 44 62 15 
+90 1 44 
+106 2 4 15 
+28 4 -1 66 25 62 
+76 1 44 
+Constructors: 3
+20 15
+55 44
+8 4
+
+Summary: 7
+44 1 -3 15 -1 29 4 
+org/eclipse/core/internal/filesystem/local/LocalFile.hashCode()I
+PTG:
+Vars:
+2
+$r1 1 18 
+r0 1 -1 
+Fields: 1
+-1 file 18
+Accesses: 2
+17 1 -1 
+6 1 -1 
+Functions: 3
+18 1 18 
+7 0 
+10 0 
+Constructors: 0
+
+Summary: 2
+-1 10 
+org/eclipse/core/internal/filesystem/local/LocalFile.getParent()Lorg/eclipse/core/filesystem/IFileStore;
+PTG:
+Vars:
+5
+_ret 1 16 
+$r1 1 1 
+r2 1 7 
+$r3 1 16 
+r0 1 -1 
+Fields: 1
+-1 file 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+21 2 16 7 
+Constructors: 1
+21 16
+
+Summary: 2
+-1 7 
+org/eclipse/core/internal/filesystem/local/LocalFile.copy(Lorg/eclipse/core/filesystem/IFileStore;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+12
+$r8 1 -1 
+$r10 1 41 
+r5 1 20 
+$r7 1 29 
+r0 1 -2 
+r2 1 -4 
+$r11 1 46 
+r12 1 52 
+$r6 1 24 
+$r4 1 -2 
+r3 1 11 
+r1 1 -1 
+Fields: 2
+-1 file 11
+-2 file 20
+Accesses: 2
+7 1 -1 
+14 1 -2 
+Functions: 7
+68 5 -1 -2 -4 20 11 
+22 1 11 
+24 2 24 29 
+27 1 20 
+44 1 11 
+61 2 -1 52 
+46 2 41 46 
+Constructors: 0
+
+Summary: 10
+46 -1 2 29 -4 52 20 24 0 -2 
+org/eclipse/core/internal/filesystem/local/LocalFile.toURI()Ljava/net/URI;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+_ret 1 4 
+Fields: 1
+-1 filePath 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/filesystem/local/LocalFile.attributes(Ljava/io/File;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+7 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+org/eclipse/core/internal/filesystem/local/LocalFile.fetchInfo(ILorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/filesystem/IFileInfo;
+PTG:
+Vars:
+12
+r1 1 -1 
+$r7 1 42 
+_ret 1 37 
+$r4 1 42 
+$r6 1 42 
+$r5 1 42 
+$r8 1 42 
+r13 1 -3 
+$r0 1 37 
+$r2 1 42 
+$r3 1 45 
+$r17 1 42 
+Fields: 1
+-1 file 42
+Accesses: 9
+98 1 -1 
+52 1 -1 
+6 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+41 1 -1 
+141 1 -1 
+110 1 -1 
+Functions: 21
+-1 0 
+32 0 
+99 1 42 
+70 1 37 
+7 0 
+135 1 37 
+105 1 37 
+42 1 42 
+14 0 
+78 1 37 
+142 1 42 
+15 0 
+111 1 42 
+48 2 37 45 
+83 1 37 
+148 1 37 
+53 1 42 
+88 1 42 
+121 1 42 
+26 0 
+94 1 37 
+Constructors: 1
+48 37
+
+Summary: 5
+-1 15 45 29 -3 
+org/eclipse/core/internal/filesystem/local/LocalFile.getChild(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/filesystem/IFileStore;
+PTG:
+Vars:
+7
+r3 1 -2 
+_ret 1 0 
+$r5 1 13 
+$r0 1 0 
+$r4 1 9 
+r2 1 -1 
+$r1 1 4 
+Fields: 1
+-1 file 9
+Accesses: 1
+8 1 -1 
+Functions: 3
+18 3 4 9 13 
+21 2 0 4 
+12 1 -2 
+Constructors: 2
+18 4
+21 0
+
+Summary: 5
+-1 13 4 0 -2 
+org/eclipse/core/internal/filesystem/local/LocalFile.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+5
+$r4 1 39 
+r1 1 -2 
+r2 1 -1 
+$r3 1 43 
+r0 1 -2 
+Fields: 2
+-1 file 39
+-2 file 43
+Accesses: 4
+20 1 -1 
+38 1 -1 
+42 1 -2 
+27 1 -2 
+Functions: 4
+21 0 
+39 2 39 43 
+24 0 
+28 0 
+Constructors: 0
+
+Summary: 6
+-1 43 31 24 0 -2 
+org/eclipse/core/internal/filesystem/local/LocalFile.getName()Ljava/lang/String;
+PTG:
+Vars:
+4
+_ret 1 4 
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+Fields: 1
+-1 file 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/filesystem/local/LocalFile.toLocalFile(ILorg/eclipse/core/runtime/IProgressMonitor;)Ljava/io/File;
+PTG:
+Vars:
+4
+_ret 1 15 
+r2 1 -3 
+r0 1 -1 
+$r1 1 15 
+Fields: 1
+-1 file 15
+Accesses: 1
+14 1 -1 
+Functions: 1
+7 3 -1 -3 15 
+Constructors: 0
+
+Summary: 3
+-1 1 -3 
+org/eclipse/core/internal/filesystem/local/LocalFile.checkTargetIsNotWritable(Ljava/io/File;Ljava/lang/Throwable;)V
+PTG:
+Vars:
+6
+r0 1 -2 
+r4 1 -1 
+$r2 1 11 
+r3 1 17 
+r5 1 -3 
+$r1 1 7 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+22 1 17 
+10 1 -2 
+11 2 7 11 
+Constructors: 0
+
+Summary: 5
+-1 11 17 -3 0 

@@ -1,0 +1,1191 @@
+36
+org/apache/lucene/index/SegmentInfo.advanceNormGen(I)V
+PTG:
+Vars:
+4
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+$r3 1 1 
+Fields: 1
+-1 normGen 1
+Accesses: 3
+0 1 -1 
+23 1 -1 
+13 1 -1 
+Functions: 1
+34 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.setHasProx(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.files()Ljava/util/List;
+PTG:
+Vars:
+100
+r9 1 742 
+$r63 1 302 
+$r82 1 89 
+$r38 1 555 
+$r61 1 296 
+$r6 1 717 
+$r30 1 588 
+$r25 1 367 
+$r43 1 476 
+r105 2 608 565 
+r104 1 491 
+$r70 1 240 
+$r101 2 97 44 
+$r58 1 1 
+$r36 1 545 
+$r40 1 460 
+$r8 1 345 
+$r69 1 235 
+$r84 1 97 
+r102 1 330 
+$r31 1 593 
+$r29 2 97 44 
+$r54 1 428 
+$r76 1 177 
+$r47 1 1 
+$r103 1 367 
+$r53 1 423 
+$r35 2 97 44 
+$r2 1 13 
+$r86 1 105 
+$r67 1 141 
+$r45 1 485 
+$r74 1 1 
+$r85 1 100 
+$r50 2 97 44 
+$r48 1 407 
+$r56 1 345 
+$r28 1 577 
+$r66 1 1 
+$r55 1 1 
+$r1 1 1 
+$r62 1 301 
+$r49 1 1 
+r99 1 205 
+$r92 1 44 
+$r80 1 141 
+$r107 1 1 
+$r79 1 190 
+$r75 1 141 
+r106 2 728 697 
+$r65 1 219 
+$r72 1 244 
+$r73 1 166 
+$r46 1 345 
+$r64 1 305 
+$r7 1 722 
+r98 1 75 
+$r52 1 420 
+$r96 1 60 
+$r57 1 280 
+$r4 2 97 44 
+$r90 1 36 
+$r59 2 97 44 
+r10 1 800 
+r0 1 -1 
+$r68 1 230 
+$r37 1 550 
+$r34 1 534 
+$r91 1 1 
+$r20 2 97 44 
+$r24 1 367 
+$r23 1 691 
+$r41 2 97 44 
+$r78 1 187 
+$r3 1 701 
+$r42 1 471 
+$r60 1 291 
+$r21 1 681 
+_ret 1 1 
+$r88 1 111 
+$r19 1 670 
+$r93 1 47 
+$r95 1 57 
+$r33 1 602 
+$r89 1 114 
+r100 1 266 
+$r22 1 686 
+$r39 1 559 
+$r26 1 345 
+$r77 1 182 
+$r44 1 481 
+$r87 1 110 
+$r83 1 1 
+$r51 1 416 
+$r71 1 241 
+$r32 1 598 
+$r27 1 1 
+$r94 1 52 
+$r11 1 1 
+$r5 1 712 
+Fields: 10
+266 ArrayObject 301
+75 ArrayObject 110
+205 ArrayObject 240
+-1 files 1
+-1 docStoreSegment 141
+-1 dir 345
+-1 normGen 367
+-1 name 97
+-1 name 44
+742 ArrayObject 800
+Accesses: 43
+0 1 -1 
+384 1 -1 
+449 1 -1 
+834 1 -1 
+323 1 -1 
+708 1 -1 
+7 1 -1 
+584 1 -1 
+648 1 -1 
+140 1 -1 
+335 1 -1 
+399 1 -1 
+655 1 -1 
+403 1 -1 
+467 1 -1 
+20 1 -1 
+276 1 -1 
+852 1 -1 
+85 1 -1 
+215 1 -1 
+344 1 -1 
+155 1 -1 
+541 1 -1 
+287 1 -1 
+735 1 -1 
+32 1 -1 
+96 1 -1 
+162 1 -1 
+226 1 -1 
+355 1 -1 
+677 1 -1 
+615 1 -1 
+43 1 -1 
+173 1 -1 
+493 1 -1 
+366 1 -1 
+627 1 -1 
+376 1 -1 
+505 1 -1 
+570 1 -1 
+317 1 -1 
+765 1 -1 
+126 1 -1 
+Functions: 87
+769 0 
+774 0 
+780 0 
+17 1 13 
+534 3 97 534 44 
+23 7 -1 1 97 345 44 141 367 
+151 0 
+407 1 407 
+280 3 97 280 44 
+538 1 534 
+411 1 407 
+284 1 280 
+670 3 97 44 670 
+416 1 416 
+545 1 545 
+674 1 670 
+802 1 800 
+291 1 291 
+36 2 36 44 
+420 1 420 
+166 2 166 141 
+550 1 550 
+40 1 36 
+296 2 296 301 
+681 1 681 
+170 1 166 
+426 3 97 423 44 
+555 1 555 
+812 1 800 
+302 1 302 
+686 1 686 
+47 1 47 
+431 2 1 428 
+559 1 559 
+816 0 
+177 1 177 
+691 1 691 
+52 1 52 
+308 8 -1 1 97 305 345 44 141 367 
+182 1 182 
+57 1 57 
+825 3 800 728 697 
+187 1 187 
+701 3 97 44 701 
+63 2 1 60 
+193 2 1 190 
+577 3 577 97 44 
+705 1 701 
+324 2 97 44 
+581 1 577 
+712 1 712 
+840 2 800 1 
+460 3 97 460 44 
+588 1 588 
+717 1 717 
+464 1 460 
+593 1 593 
+722 1 722 
+598 1 598 
+471 1 471 
+89 2 97 89 
+345 2 345 330 
+729 2 728 697 
+602 1 602 
+219 2 219 141 
+476 1 476 
+93 1 89 
+223 1 219 
+736 1 345 
+481 1 481 
+100 1 100 
+485 1 485 
+230 1 230 
+360 2 1 330 
+616 3 608 565 345 
+105 2 105 110 
+235 2 240 235 
+494 2 345 491 
+111 1 111 
+241 1 241 
+753 0 
+117 8 -1 1 97 114 345 44 141 367 
+757 0 
+247 8 -1 1 97 244 345 44 141 367 
+633 3 608 1 565 
+762 0 
+511 2 1 491 
+Constructors: 12
+464 460
+17 13
+705 701
+674 670
+581 577
+40 36
+170 166
+538 534
+411 407
+284 280
+93 89
+223 219
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+7
+r0 1 -2 
+$r6 1 23 
+r2 1 -1 
+r1 1 -2 
+$r4 1 12 
+$r3 1 16 
+$r5 1 27 
+Fields: 4
+-2 dir 12
+-2 name 23
+-1 dir 16
+-1 name 27
+Accesses: 4
+22 1 -2 
+26 1 -1 
+11 1 -2 
+15 1 -1 
+Functions: 1
+23 2 23 27 
+Constructors: 0
+
+Summary: 5
+-2 23 12 0 -1 
+org/apache/lucene/index/SegmentInfo.<init>(Ljava/lang/String;ILorg/apache/lucene/store/Directory;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -4 
+r1 1 -2 
+Fields: 0
+Accesses: 13
+65 1 -1 
+35 1 -1 
+70 1 -1 
+8 1 -1 
+40 1 -1 
+13 1 -1 
+45 1 -1 
+18 1 -1 
+50 1 -1 
+23 1 -1 
+55 1 -1 
+60 1 -1 
+30 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+2 0 -1 
+org/apache/lucene/index/SegmentInfo.getDelCount()I
+PTG:
+Vars:
+4
+$r3 1 21 
+$r4 1 26 
+r2 1 19 
+r0 1 -1 
+Fields: 1
+-1 dir 26
+Accesses: 7
+0 1 -1 
+36 1 -1 
+53 1 -1 
+72 1 -1 
+25 1 -1 
+57 1 -1 
+44 1 -1 
+Functions: 5
+68 0 
+21 1 21 
+8 2 -1 26 
+30 3 19 21 26 
+15 2 -1 26 
+Constructors: 1
+30 21
+
+Summary: 3
+21 19 -1 
+org/apache/lucene/index/SegmentInfo.hashCode()I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 8 
+$r1 1 1 
+Fields: 2
+-1 dir 1
+-1 name 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+1 1 1 
+8 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.hasDeletions()Z
+PTG:
+Vars:
+3
+$r2 1 29 
+r0 1 -1 
+$r1 1 25 
+Fields: 1
+-1 dir 25
+Accesses: 3
+0 1 -1 
+24 1 -1 
+13 1 -1 
+Functions: 2
+25 2 25 29 
+28 2 -1 25 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.<init>(Lorg/apache/lucene/store/Directory;ILorg/apache/lucene/store/IndexInput;)V
+PTG:
+Vars:
+9
+r1 1 -2 
+$r4 1 119 
+$r9 1 200 
+$r12 1 70 
+$r5 1 184 
+r2 1 -4 
+$r11 1 98 
+r0 1 -1 
+$r3 1 18 
+Fields: 3
+-1 normGen 200
+-1 name 119
+-1 name 98
+Accesses: 40
+320 1 -1 
+260 1 -1 
+325 1 -1 
+199 1 -1 
+8 1 -1 
+264 1 -1 
+73 1 -1 
+330 1 -1 
+13 1 -1 
+335 1 -1 
+340 1 -1 
+21 1 -1 
+150 1 -1 
+281 1 -1 
+345 1 -1 
+90 1 -1 
+29 1 -1 
+221 1 -1 
+158 1 -1 
+350 1 -1 
+97 1 -1 
+225 1 -1 
+355 1 -1 
+101 1 -1 
+360 1 -1 
+106 1 -1 
+43 1 -1 
+237 1 -1 
+365 1 -1 
+175 1 -1 
+304 1 -1 
+114 1 -1 
+118 1 -1 
+312 1 -1 
+57 1 -1 
+122 1 -1 
+186 1 -1 
+251 1 -1 
+60 1 -1 
+127 1 -1 
+Functions: 14
+1 4 -1 98 119 200 
+161 1 -4 
+291 1 -4 
+69 1 -4 
+39 1 -4 
+138 1 -4 
+205 1 -4 
+78 1 -4 
+17 1 -4 
+275 0 
+53 1 -4 
+247 1 -4 
+25 1 -4 
+217 1 -4 
+Constructors: 1
+1 -1
+
+Summary: 4
+2 -4 0 -1 
+org/apache/lucene/index/SegmentInfo.clearFiles()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+9 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.setNumFields(I)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 9 
+$r3 1 1 
+Fields: 1
+-1 normGen 1
+Accesses: 4
+0 1 -1 
+11 1 -1 
+14 1 -1 
+31 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.getDocStoreSegment()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 docStoreSegment 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.reset(Lorg/apache/lucene/index/SegmentInfo;)V
+PTG:
+Vars:
+10
+$r8 1 92 
+$r9 1 61 
+$r7 1 61 
+$r4 1 61 
+r0 1 -1 
+$r3 1 22 
+$r2 1 6 
+r1 1 -2 
+$r6 1 81 
+$r5 1 61 
+Fields: 4
+-2 dir 22
+-2 normGen 61
+-2 name 6
+-1 normGen 92
+Accesses: 27
+5 1 -2 
+69 1 -1 
+9 1 -1 
+76 1 -2 
+13 1 -2 
+17 1 -1 
+83 1 -1 
+21 1 -2 
+86 1 -2 
+25 1 -1 
+91 1 -1 
+29 1 -2 
+96 1 -2 
+33 1 -1 
+37 1 -2 
+41 1 -1 
+105 1 -2 
+45 1 -2 
+109 1 -1 
+49 1 -1 
+113 1 -2 
+53 1 -2 
+117 1 -1 
+57 1 -1 
+121 1 -2 
+60 1 -2 
+125 1 -1 
+Functions: 2
+1 2 -1 92 
+101 2 92 61 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/index/SegmentInfo.advanceDelGen()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+0 1 -1 
+19 1 -1 
+26 1 -1 
+13 1 -1 
+Functions: 1
+30 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.setDocStoreOffset(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.setDocStoreIsCompoundFile(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.<init>(Ljava/lang/String;ILorg/apache/lucene/store/Directory;ZZILjava/lang/String;ZZ)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r2 1 -4 
+r0 1 -1 
+r3 1 -8 
+Fields: 0
+Accesses: 8
+48 1 -1 
+19 1 -1 
+36 1 -1 
+54 1 -1 
+25 1 -1 
+42 1 -1 
+59 1 -1 
+30 1 -1 
+Functions: 10
+112 0 
+97 0 
+83 0 
+4 3 -1 -2 -4 
+116 0 
+102 1 -8 
+87 0 
+122 0 
+107 0 
+92 0 
+Constructors: 1
+4 -1
+
+Summary: 6
+6 -2 -4 -1 2 0 
+org/apache/lucene/index/SegmentInfo.addIfExists(Ljava/util/List;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -3 
+$r2 1 1 
+r3 1 -2 
+Fields: 1
+-1 dir 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -3 
+13 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 1 0 -1 
+org/apache/lucene/index/SegmentInfo.getDelFileName()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r2 1 23 
+_ret 1 23 
+$r1 1 14 
+r0 1 -1 
+Fields: 1
+-1 name 14
+Accesses: 3
+0 1 -1 
+19 1 -1 
+13 1 -1 
+Functions: 1
+20 1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 2 8 18 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/SegmentInfo.clone()Ljava/lang/Object;
+PTG:
+Vars:
+11
+$r3 1 5 
+$r9 1 72 
+$r6 1 94 
+_ret 1 0 
+$r7 1 61 
+$r10 1 72 
+$r0 1 0 
+$r2 1 13 
+$r8 1 72 
+r1 1 -1 
+$r5 1 61 
+Fields: 4
+-1 docStoreSegment 94
+-1 dir 13
+-1 normGen 61
+-1 name 5
+Accesses: 22
+33 1 0 
+97 1 0 
+4 1 -1 
+68 1 -1 
+37 1 -1 
+101 1 -1 
+8 1 -1 
+41 1 0 
+105 1 0 
+12 1 -1 
+45 1 -1 
+49 1 0 
+81 1 0 
+21 1 -1 
+53 1 -1 
+85 1 -1 
+25 1 0 
+57 1 0 
+89 1 0 
+60 1 -1 
+29 1 -1 
+93 1 -1 
+Functions: 2
+16 3 0 5 13 
+69 1 61 
+Constructors: 1
+16 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.getNormFileName(I)Ljava/lang/String;
+PTG:
+Vars:
+10
+$r6 1 96 
+r0 1 -1 
+_ret 1 103 
+$r2 1 1 
+$r4 1 81 
+$r3 1 84 
+$r8 1 103 
+$r1 1 1 
+$r5 1 92 
+$r7 1 99 
+Fields: 2
+-1 normGen 1
+-1 name 81
+Accesses: 6
+0 1 -1 
+80 1 -1 
+67 1 -1 
+57 1 -1 
+12 1 -1 
+30 1 -1 
+Functions: 12
+96 1 96 
+34 0 
+19 3 -1 1 81 
+52 0 
+84 1 84 
+38 0 
+102 2 81 99 
+72 0 
+88 1 84 
+42 0 
+92 1 92 
+46 0 
+Constructors: 1
+88 84
+
+Summary: 5
+96 -1 46 99 49 
+org/apache/lucene/index/SegmentInfo.getUseCompoundFile()Z
+PTG:
+Vars:
+8
+$r1 1 24 
+$r4 1 35 
+$r6 1 45 
+r0 1 -1 
+$r5 1 40 
+$r7 1 48 
+$r2 1 21 
+$r3 1 32 
+Fields: 2
+-1 dir 21
+-1 name 32
+Accesses: 4
+0 1 -1 
+20 1 -1 
+10 1 -1 
+31 1 -1 
+Functions: 6
+35 1 35 
+21 2 48 21 
+24 2 32 24 
+40 1 40 
+28 1 24 
+45 1 45 
+Constructors: 1
+28 24
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.hasSeparateNorms()Z
+PTG:
+Vars:
+6
+$r4 1 1 
+$r5 1 1 
+r0 1 -1 
+$r1 1 1 
+$r3 1 1 
+$r2 1 1 
+Fields: 1
+-1 normGen 1
+Accesses: 9
+0 1 -1 
+16 1 -1 
+177 1 -1 
+147 1 -1 
+70 1 -1 
+7 1 -1 
+169 1 -1 
+139 1 -1 
+44 1 -1 
+Functions: 16
+32 0 
+67 0 
+36 0 
+104 0 
+41 0 
+74 0 
+79 0 
+48 0 
+17 0 
+115 0 
+53 0 
+117 0 
+86 0 
+59 0 
+188 2 -1 1 
+63 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.getHasProx()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.segString(Lorg/apache/lucene/store/Directory;)Ljava/lang/String;
+PTG:
+Vars:
+21
+$r4 1 76 
+$r5 1 80 
+$r10 1 109 
+_ret 1 112 
+r17 3 9 15 22 
+$r3 1 71 
+$r12 1 31 
+$r13 1 40 
+$r14 1 44 
+$r9 1 105 
+r0 1 -1 
+$r8 1 98 
+$r15 1 47 
+$r1 1 60 
+$r16 1 -1 
+$r11 1 112 
+$r2 1 68 
+r6 1 -2 
+r19 2 53 59 
+$r20 2 96 91 
+$r7 1 84 
+Fields: 3
+-1 docStoreSegment 44
+-1 dir 84
+-1 name 68
+Accesses: 5
+67 1 -1 
+83 1 -1 
+101 1 -1 
+23 1 -1 
+43 1 -1 
+Functions: 13
+0 4 -1 84 68 44 
+64 1 60 
+98 1 98 
+35 1 31 
+71 1 71 
+40 2 40 44 
+105 3 53 105 59 
+76 4 22 9 76 15 
+109 1 109 
+47 1 47 
+80 3 80 96 91 
+60 2 68 60 
+31 1 31 
+Constructors: 2
+64 60
+35 31
+
+Summary: 3
+-2 -1 0 
+org/apache/lucene/index/SegmentInfo.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+r0 1 -2 
+$r4 1 6 
+$r5 1 14 
+$r2 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/lucene/index/SegmentInfo.setUseCompoundFile(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+14 1 -1 
+Functions: 1
+18 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.write(Lorg/apache/lucene/store/IndexOutput;)V
+PTG:
+Vars:
+8
+$r7 1 83 
+r0 1 -2 
+$r3 1 83 
+$r2 1 2 
+$r9 1 42 
+$r4 1 83 
+r1 1 -1 
+$r5 1 83 
+Fields: 3
+-1 docStoreSegment 42
+-1 normGen 83
+-1 name 2
+Accesses: 15
+32 1 -1 
+1 1 -1 
+66 1 -1 
+98 1 -1 
+134 1 -1 
+9 1 -1 
+41 1 -1 
+109 1 -1 
+142 1 -1 
+17 1 -1 
+49 1 -1 
+82 1 -1 
+118 1 -1 
+150 1 -1 
+25 1 -1 
+Functions: 13
+163 1 -2 
+5 2 -2 2 
+103 1 -2 
+138 1 -2 
+13 1 -2 
+45 2 -2 42 
+79 1 -2 
+146 1 -2 
+21 1 -2 
+91 1 -2 
+124 1 -2 
+29 1 -2 
+62 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/index/SegmentInfo.<init>(Ljava/lang/String;ILorg/apache/lucene/store/Directory;ZZ)V
+PTG:
+Vars:
+3
+r2 1 -4 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+12 3 -1 -2 -4 
+Constructors: 1
+12 -1
+
+Summary: 3
+-2 -4 -1 
+org/apache/lucene/index/SegmentInfo.getDocStoreOffset()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.getDocStoreIsCompoundFile()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.sizeInBytes()J
+PTG:
+Vars:
+5
+r3 1 37 
+$r4 1 69 
+$r2 1 37 
+r0 1 -1 
+r1 1 15 
+Fields: 1
+-1 dir 69
+Accesses: 7
+0 1 -1 
+68 1 -1 
+87 1 -1 
+25 1 -1 
+78 1 -1 
+47 1 -1 
+63 1 -1 
+Functions: 5
+16 1 15 
+35 1 15 
+69 2 69 37 
+55 1 37 
+11 2 -1 69 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.clearDelGen()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+4 1 -1 
+Functions: 1
+8 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.hasSeparateNorms(I)Z
+PTG:
+Vars:
+6
+$r2 1 1 
+$r5 1 1 
+r0 1 -1 
+$r4 1 1 
+$r3 1 1 
+$r1 1 1 
+Fields: 1
+-1 normGen 1
+Accesses: 8
+0 1 -1 
+68 1 -1 
+21 1 -1 
+7 1 -1 
+39 1 -1 
+59 1 -1 
+75 1 -1 
+14 1 -1 
+Functions: 6
+32 0 
+48 0 
+36 0 
+52 0 
+43 0 
+60 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentInfo.setDelCount(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+12 1 -1 
+Functions: 1
+23 0 
+Constructors: 0
+
+Summary: 1
+-1 

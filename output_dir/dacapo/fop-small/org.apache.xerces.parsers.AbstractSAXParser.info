@@ -1,0 +1,1680 @@
+53
+org/apache/xerces/parsers/AbstractSAXParser.setEntityResolver(Lorg/xml/sax/EntityResolver;)V
+PTG:
+Vars:
+14
+$r1 1 1 
+$r5 1 1 
+$r10 1 -1 
+r4 1 -2 
+r11 1 6 
+r12 1 6 
+r0 1 -1 
+$r6 1 58 
+$r2 1 6 
+$r7 1 -2 
+r13 1 6 
+$r8 1 1 
+$r3 1 103 
+$r9 1 -2 
+Fields: 1
+-1 fConfiguration 1
+Accesses: 4
+0 1 -1 
+97 1 -1 
+52 1 -1 
+15 1 -1 
+Functions: 7
+1 1 1 
+66 2 -2 58 
+69 2 1 58 
+91 2 -2 6 
+108 2 -2 103 
+46 2 -2 6 
+111 2 1 103 
+Constructors: 2
+66 58
+108 103
+
+Summary: 6
+58 -2 -1 0 103 6 
+org/apache/xerces/parsers/AbstractSAXParser.getElementPSVI()Lorg/apache/xerces/xs/ElementPSVI;
+PTG:
+Vars:
+6
+$r2 1 1 
+$r3 1 13 
+_ret 1 13 
+r0 1 -1 
+$r1 1 1 
+$r4 1 13 
+Fields: 1
+-1 fAugmentations 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/parsers/AbstractSAXParser.setDocumentHandler(Lorg/xml/sax/DocumentHandler;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/xerces/parsers/AbstractSAXParser.endNamespaceMapping()V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 2 24 1 
+$r3 1 20 
+$r4 1 28 
+$r1 1 1 
+Fields: 2
+-1 fContentHandler 20
+-1 fNamespaceContext 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+23 1 -1 
+Functions: 3
+1 1 1 
+33 2 20 28 
+24 2 1 24 
+Constructors: 0
+
+Summary: 2
+-1 28 
+org/apache/xerces/parsers/AbstractSAXParser.externalEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+8
+r8 1 -4 
+$r1 1 1 
+$r10 2 32 23 
+r4 1 -2 
+r9 1 13 
+r2 1 -3 
+r0 1 -1 
+$r5 1 1 
+Fields: 1
+-1 fDeclHandler 1
+Accesses: 3
+0 1 -1 
+39 1 -1 
+15 1 -1 
+Functions: 5
+48 5 32 1 -2 23 13 
+64 0 
+22 1 -3 
+7 1 -3 
+31 1 -3 
+Constructors: 0
+
+Summary: 10
+-3 2 -1 32 -2 13 -4 23 0 1 
+org/apache/xerces/parsers/AbstractSAXParser.xmlDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+6
+r4 1 -3 
+$r3 1 6 
+r5 1 -5 
+r1 1 -2 
+r0 1 -1 
+r2 1 -4 
+Fields: 0
+Accesses: 2
+2 1 -1 
+12 1 -1 
+Functions: 1
+6 2 -4 6 
+Constructors: 0
+
+Summary: 8
+-3 2 -1 -4 3 0 -5 1 
+org/apache/xerces/parsers/AbstractSAXParser.endParameterEntity(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+7
+r1 1 -1 
+$r2 1 22 
+r3 1 -2 
+$r5 1 4 
+r0 1 -3 
+$r6 1 10 
+$r4 1 22 
+Fields: 1
+-1 fLexicalHandler 22
+Accesses: 3
+35 1 -1 
+21 1 -1 
+28 1 -1 
+Functions: 4
+4 2 4 10 
+54 0 
+7 1 -3 
+40 2 -2 22 
+Constructors: 0
+
+Summary: 6
+-2 -3 -1 10 0 1 
+org/apache/xerces/parsers/AbstractSAXParser.setFeature(Ljava/lang/String;Z)V
+PTG:
+Vars:
+16
+r1 1 -1 
+$r9 1 245 
+$r6 1 144 
+$r4 1 56 
+$r5 1 91 
+$r13 1 345 
+$r14 1 363 
+r0 1 -2 
+$r12 1 327 
+$r7 1 168 
+$r45 1 411 
+$r8 1 192 
+$r10 1 269 
+$r11 1 309 
+$r3 1 21 
+$r2 1 13 
+Fields: 1
+-1 fConfiguration 411
+Accesses: 15
+384 1 -1 
+163 1 -1 
+38 1 -1 
+264 1 -1 
+296 1 -1 
+73 1 -1 
+51 1 -1 
+116 1 -1 
+86 1 -1 
+217 1 -1 
+473 1 -1 
+410 1 -1 
+442 1 -1 
+187 1 -1 
+287 1 -1 
+Functions: 49
+0 1 -2 
+128 0 
+385 0 
+9 1 -2 
+138 0 
+396 0 
+13 1 13 
+269 1 269 
+144 1 144 
+21 1 21 
+277 1 -2 
+406 0 
+152 1 -2 
+29 1 -2 
+416 2 -2 411 
+168 1 168 
+425 0 
+44 1 -2 
+300 2 -1 411 
+431 0 
+176 1 -2 
+304 2 -1 411 
+309 1 309 
+56 1 56 
+443 0 
+317 1 -2 
+64 1 -2 
+192 1 192 
+454 0 
+327 1 327 
+200 1 -2 
+79 1 -2 
+335 1 -2 
+465 0 
+345 1 345 
+218 0 
+474 0 
+91 1 91 
+353 1 -2 
+99 1 -2 
+229 0 
+485 0 
+363 1 363 
+239 0 
+496 0 
+371 1 -2 
+117 0 
+245 1 245 
+253 1 -2 
+Constructors: 0
+
+Summary: 18
+120 229 403 485 221 446 301 493 128 388 -1 135 236 477 0 462 396 454 
+org/apache/xerces/parsers/AbstractSAXParser.endCDATA(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+r6 1 -2 
+$r2 1 1 
+Fields: 1
+-1 fLexicalHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+25 0 
+11 1 1 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/parsers/AbstractSAXParser.comment(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+6
+$r4 1 1 
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+r8 1 -3 
+$r3 1 12 
+Fields: 2
+-2 ch 12
+-1 fLexicalHandler 1
+Accesses: 4
+0 1 -1 
+16 1 -2 
+7 1 -1 
+11 1 -2 
+Functions: 2
+34 0 
+20 2 1 12 
+Constructors: 0
+
+Summary: 6
+-2 -3 -1 0 12 1 
+org/apache/xerces/parsers/AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V
+PTG:
+Vars:
+8
+r7 1 -1 
+r1 1 -2 
+$r0 1 0 
+$r6 1 35 
+$r2 1 5 
+$r3 1 9 
+$r4 1 19 
+$r5 1 27 
+Fields: 0
+Accesses: 0
+Functions: 27
+64 1 -1 
+4 1 -2 
+71 0 
+8 1 -2 
+75 0 
+13 3 0 5 9 
+80 0 
+18 1 -2 
+210 0 
+84 0 
+148 0 
+22 2 0 19 
+89 0 
+153 0 
+26 1 -2 
+93 0 
+30 2 0 27 
+34 1 -2 
+98 0 
+38 2 0 35 
+102 0 
+168 0 
+43 2 -1 0 
+172 0 
+109 0 
+50 0 
+115 0 
+Constructors: 1
+13 0
+
+Summary: 14
+72 81 59 -1 19 5 35 -2 9 27 110 0 169 0 
+org/apache/xerces/parsers/AbstractSAXParser.reset()V
+PTG:
+Vars:
+3
+$r2 1 22 
+$r1 1 22 
+r0 1 -1 
+Fields: 2
+-1 fVersion 12
+-1 fConfiguration 22
+Accesses: 9
+32 1 -1 
+17 1 -1 
+36 1 -1 
+52 1 -1 
+21 1 -1 
+6 1 -1 
+57 1 -1 
+12 1 -1 
+47 1 -1 
+Functions: 3
+1 3 -1 22 12 
+37 1 22 
+22 1 22 
+Constructors: 0
+
+Summary: 2
+-1 12 
+org/apache/xerces/parsers/AbstractSAXParser.setProperty(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+9
+$r5 1 88 
+$r7 1 173 
+r2 1 -3 
+r0 1 -2 
+$r3 1 13 
+$r6 1 155 
+r1 1 -1 
+$r4 1 21 
+$r40 1 221 
+Fields: 1
+-1 fConfiguration 221
+Accesses: 6
+194 1 -1 
+55 1 -1 
+122 1 -1 
+283 1 -1 
+220 1 -1 
+252 1 -1 
+Functions: 31
+0 1 -2 
+67 0 
+195 0 
+134 0 
+264 0 
+9 1 -2 
+13 1 13 
+206 0 
+82 0 
+275 0 
+21 1 21 
+149 0 
+88 1 88 
+216 0 
+155 1 155 
+284 0 
+29 1 -2 
+96 1 -2 
+226 3 -2 -3 221 
+163 1 -2 
+295 0 
+43 2 -1 221 
+235 0 
+173 1 173 
+110 2 -1 221 
+241 0 
+306 0 
+181 1 -2 
+56 0 
+123 0 
+253 0 
+Constructors: 0
+
+Summary: 21
+-3 146 206 295 145 67 287 59 134 303 -1 272 78 79 213 0 198 256 264 1 126 
+org/apache/xerces/parsers/AbstractSAXParser.startParameterEntity(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+11
+r3 1 -2 
+r12 1 -3 
+$r2 1 44 
+r0 1 -5 
+$r4 1 44 
+$r5 1 5 
+$r8 1 24 
+$r7 1 24 
+$r6 1 12 
+r13 1 -4 
+r1 1 -1 
+Fields: 2
+-1 fContentHandler 24
+-1 fLexicalHandler 44
+Accesses: 5
+50 1 -1 
+23 1 -1 
+57 1 -1 
+43 1 -1 
+30 1 -1 
+Functions: 5
+35 2 -2 24 
+5 2 5 12 
+8 1 -5 
+62 2 -2 44 
+78 0 
+Constructors: 0
+
+Summary: 10
+-3 2 -1 12 -2 -4 3 0 -5 1 
+org/apache/xerces/parsers/AbstractSAXParser.startElement(Lorg/apache/xerces/xni/QName;Lorg/apache/xerces/xni/XMLAttributes;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+36
+$r28 1 8 
+$r1 1 1 
+$r6 1 8 
+$r24 1 90 
+$r7 1 8 
+$r13 2 191 163 
+r3 1 -4 
+$r31 1 1 
+$r11 2 151 160 
+$r29 1 8 
+$r12 1 166 
+r5 1 -3 
+r0 1 -1 
+$r21 1 78 
+$r19 1 179 
+r36 2 238 251 
+$r37 2 269 263 
+$r8 1 20 
+$r2 1 33 
+$r23 1 93 
+$r34 1 238 
+r4 1 -2 
+$r10 1 151 
+$r30 1 20 
+$r20 1 176 
+$r9 1 33 
+$r14 2 186 151 
+$r35 2 238 251 
+$r17 2 216 151 
+$r27 1 103 
+$r22 2 87 78 
+$r15 2 151 195 
+$r18 2 151 173 
+$r25 2 100 78 
+$r26 1 106 
+$r16 2 151 204 
+Fields: 18
+-2 rawname 20
+-2 uri 238
+-2 localpart 263
+186 prefix 191
+151 uri 200
+151 localpart 209
+151 prefix 191
+195 uri 200
+-1 fDocumentHandler 1
+-1 fAttributesProxy 8
+-1 fContentHandler 33
+-1 fQName 78
+-1 fQName 151
+87 prefix 90
+204 localpart 209
+100 rawname 103
+160 prefix 163
+173 rawname 176
+Accesses: 35
+0 1 -1 
+194 1 -1 
+131 1 -1 
+262 1 -2 
+7 1 -1 
+200 2 195 151 
+203 1 -1 
+77 1 -1 
+15 1 -1 
+209 2 151 204 
+273 1 -1 
+19 1 -2 
+86 1 -1 
+150 1 -1 
+23 1 -1 
+87 2 87 78 
+215 1 -1 
+281 1 -1 
+159 1 -1 
+32 1 -1 
+160 2 160 151 
+289 1 -2 
+99 1 -1 
+100 2 100 78 
+293 1 -1 
+39 1 -1 
+234 1 -1 
+172 1 -1 
+173 2 151 173 
+237 1 -2 
+244 1 -2 
+185 1 -1 
+58 1 -1 
+191 2 151 186 
+255 1 -1 
+Functions: 11
+81 2 -3 78 
+50 1 -3 
+115 1 -3 
+278 2 -3 8 
+297 7 33 20 263 8 251 269 238 
+313 0 
+154 5 209 -3 151 200 191 
+27 3 1 20 8 
+219 6 209 -3 151 216 200 191 
+12 2 -3 8 
+47 9 -1 1 33 209 151 8 200 78 191 
+Constructors: 0
+
+Summary: 9
+-3 263 238 2 -1 20 -2 0 1 
+org/apache/xerces/parsers/AbstractSAXParser.<init>(Lorg/apache/xerces/xni/parser/XMLParserConfiguration;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r4 1 65 
+r1 1 -2 
+$r2 1 31 
+$r5 1 76 
+$r3 1 47 
+$r7 1 -1 
+$r6 1 85 
+Fields: 0
+Accesses: 11
+17 1 -1 
+67 1 -1 
+22 1 -1 
+38 1 -1 
+54 1 -1 
+7 1 -1 
+72 1 -1 
+27 1 -1 
+43 1 -1 
+59 1 -1 
+12 1 -1 
+Functions: 6
+97 1 -2 
+2 2 -1 -2 
+35 1 31 
+51 1 47 
+88 2 -2 85 
+79 2 -2 76 
+Constructors: 3
+2 -1
+35 31
+51 47
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/parsers/AbstractSAXParser.startExternalSubset(Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r1 1 -3 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+org/apache/xerces/parsers/AbstractSAXParser.endElement(Lorg/apache/xerces/xni/QName;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+13
+$r5 1 33 
+$r7 1 12 
+r3 1 -3 
+r0 1 -1 
+r4 1 -2 
+$r1 1 1 
+$r10 1 1 
+$r2 1 21 
+$r15 2 57 63 
+$r9 1 12 
+$r8 1 21 
+r14 2 33 46 
+$r13 2 33 46 
+Fields: 5
+-2 rawname 12
+-2 uri 33
+-2 localpart 57
+-1 fDocumentHandler 1
+-1 fContentHandler 21
+Accesses: 12
+0 1 -1 
+32 1 -2 
+49 1 -1 
+67 1 -1 
+83 1 -1 
+20 1 -1 
+7 1 -1 
+39 1 -2 
+56 1 -2 
+74 1 -2 
+11 1 -2 
+29 1 -1 
+Functions: 4
+103 0 
+91 3 -1 1 21 
+78 6 33 21 57 12 46 63 
+15 2 1 12 
+Constructors: 0
+
+Summary: 7
+33 -1 12 -2 57 0 1 
+org/apache/xerces/parsers/AbstractSAXParser.getErrorHandler()Lorg/xml/sax/ErrorHandler;
+PTG:
+Vars:
+8
+$r3 1 8 
+_ret 1 35 
+r5 1 35 
+$r4 1 -1 
+$r2 1 8 
+r6 1 8 
+$r1 1 3 
+r0 1 -1 
+Fields: 1
+-1 fConfiguration 3
+Accesses: 1
+2 1 -1 
+Functions: 2
+3 1 3 
+29 1 8 
+Constructors: 0
+
+Summary: 2
+-1 8 
+org/apache/xerces/parsers/AbstractSAXParser.internalEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+8
+$r5 1 13 
+r10 1 -5 
+$r1 1 1 
+r2 1 -2 
+r9 1 -4 
+$r4 1 1 
+r0 1 -1 
+r3 1 -3 
+Fields: 1
+-1 fDeclHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+16 3 1 -2 13 
+32 0 
+12 1 -3 
+Constructors: 0
+
+Summary: 10
+-3 2 -1 -2 13 -4 3 0 -5 1 
+org/apache/xerces/parsers/AbstractSAXParser.getAttributePSVIByName(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/xerces/xs/AttributePSVI;
+PTG:
+Vars:
+9
+r0 1 -1 
+$r1 1 1 
+$r4 1 4 
+r2 1 -2 
+r3 1 -3 
+$r6 1 16 
+_ret 1 16 
+$r7 1 16 
+$r5 1 9 
+Fields: 2
+-1 fAttributesProxy 1
+1 fAttributes 4
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 2
+4 3 -2 -3 4 
+9 1 9 
+Constructors: 0
+
+Summary: 4
+-2 9 -3 -1 
+org/apache/xerces/parsers/AbstractSAXParser.getLexicalHandler()Lorg/xml/sax/ext/LexicalHandler;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 fLexicalHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/parsers/AbstractSAXParser.getAttributePSVI(I)Lorg/apache/xerces/xs/AttributePSVI;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r1 1 1 
+_ret 1 15 
+$r4 1 15 
+$r2 1 4 
+$r5 1 15 
+$r3 1 8 
+Fields: 2
+-1 fAttributesProxy 1
+1 fAttributes 4
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 2
+4 1 4 
+8 1 8 
+Constructors: 0
+
+Summary: 2
+-1 8 
+org/apache/xerces/parsers/AbstractSAXParser.getProperty(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+22
+r1 1 -1 
+$r8 1 112 
+$r5 1 67 
+$r7 1 107 
+$r26 1 131 
+$r14 1 -1 
+$r10 1 123 
+$r3 1 21 
+$r27 1 135 
+$r6 1 90 
+$r11 1 85 
+$r9 1 115 
+$r2 1 13 
+r0 1 -2 
+$r4 1 44 
+$r20 1 207 
+$r12 1 62 
+r15 1 146 
+$r19 1 200 
+$r16 1 184 
+$r18 1 192 
+$r17 2 112 131 
+Fields: 2
+-1 fConfiguration 112
+-1 fConfiguration 131
+Accesses: 5
+130 1 -1 
+38 1 -1 
+188 1 -1 
+158 1 -1 
+111 1 -1 
+Functions: 25
+0 1 -2 
+67 1 67 
+131 2 -2 131 
+200 2 192 200 
+9 1 -2 
+75 1 -2 
+13 1 13 
+142 1 -1 
+210 2 184 207 
+147 1 -1 
+84 3 -1 112 131 
+21 1 21 
+90 1 90 
+29 1 -2 
+159 0 
+98 1 -2 
+170 0 
+44 1 44 
+112 1 112 
+52 1 -2 
+180 0 
+122 1 115 
+61 3 -1 112 131 
+189 2 112 131 
+126 2 107 123 
+Constructors: 2
+210 184
+126 107
+
+Summary: 11
+177 115 170 192 200 123 162 207 -1 -2 0 
+org/apache/xerces/parsers/AbstractSAXParser.setDeclHandler(Lorg/xml/sax/ext/DeclHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+0 1 -1 
+40 1 -1 
+11 1 -1 
+Functions: 3
+34 0 
+23 0 
+12 0 
+Constructors: 0
+
+Summary: 6
+31 30 -1 15 23 0 
+org/apache/xerces/parsers/AbstractSAXParser.endExternalSubset(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/parsers/AbstractSAXParser.processingInstruction(Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+10
+$r5 1 22 
+r4 1 -3 
+r12 1 -4 
+$r1 1 1 
+$r2 1 22 
+$r6 1 34 
+$r8 1 13 
+r0 1 -1 
+$r7 1 1 
+r3 1 -2 
+Fields: 2
+-1 fDocumentHandler 1
+-1 fContentHandler 22
+Accesses: 4
+0 1 -1 
+21 1 -1 
+7 1 -1 
+28 1 -1 
+Functions: 5
+16 3 1 -2 13 
+33 1 -3 
+37 3 -2 34 22 
+53 0 
+12 1 -3 
+Constructors: 0
+
+Summary: 9
+-3 2 -1 34 -2 13 -4 0 1 
+org/apache/xerces/parsers/AbstractSAXParser.startGeneralEntity(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+11
+r12 1 -3 
+$r6 1 12 
+r3 1 -2 
+r1 1 -1 
+r13 1 -4 
+r0 1 -5 
+$r7 1 24 
+$r8 1 24 
+$r5 1 5 
+$r2 1 44 
+$r4 1 44 
+Fields: 2
+-1 fContentHandler 24
+-1 fLexicalHandler 44
+Accesses: 4
+50 1 -1 
+23 1 -1 
+43 1 -1 
+30 1 -1 
+Functions: 5
+35 2 -2 24 
+5 2 5 12 
+55 2 -2 44 
+71 0 
+8 1 -5 
+Constructors: 0
+
+Summary: 10
+-3 2 -1 12 -2 -4 3 0 -5 1 
+org/apache/xerces/parsers/AbstractSAXParser.notationDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+8
+r8 1 -4 
+r2 1 -3 
+r0 1 -1 
+$r1 1 1 
+r4 1 -2 
+r9 1 13 
+$r10 2 32 23 
+$r5 1 1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 3
+0 1 -1 
+39 1 -1 
+15 1 -1 
+Functions: 5
+48 5 32 1 -2 23 13 
+64 0 
+22 1 -3 
+7 1 -3 
+31 1 -3 
+Constructors: 0
+
+Summary: 10
+-3 2 -1 32 -2 13 -4 23 0 1 
+org/apache/xerces/parsers/AbstractSAXParser.startCDATA(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+$r2 1 1 
+$r1 1 1 
+r6 1 -2 
+r0 1 -1 
+Fields: 1
+-1 fLexicalHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+25 0 
+11 1 1 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/parsers/AbstractSAXParser.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 1 
+$r1 1 23 
+Fields: 6
+23 ArrayObject 40
+23 ArrayObject 30
+23 ArrayObject 35
+1 ArrayObject 8
+1 ArrayObject 13
+1 ArrayObject 18
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/xerces/parsers/AbstractSAXParser.attributeDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+22
+r19 1 -6 
+$r2 1 7 
+r26 1 -9 
+r25 1 -8 
+r18 1 -7 
+$r20 1 1 
+r5 1 -3 
+$r14 1 128 
+r0 1 -1 
+$r30 1 187 
+$r8 1 35 
+$r10 1 30 
+$r6 1 21 
+r3 1 -2 
+$r4 1 17 
+$r7 1 30 
+$r9 1 48 
+r13 1 -5 
+$r1 1 1 
+r28 1 27 
+$r11 1 72 
+r27 2 175 -4 
+Fields: 3
+-1 fDeclHandler 1
+-1 fDeclaredAttrs 30
+-5 ArrayObject 128
+Accesses: 4
+0 1 -1 
+192 1 -1 
+42 1 -1 
+29 1 -1 
+Functions: 20
+129 2 128 72 
+101 1 72 
+166 1 72 
+7 1 7 
+170 1 72 
+203 7 1 -2 -3 -4 -6 187 175 
+12 2 -2 7 
+76 1 72 
+112 1 72 
+17 2 17 -3 
+81 2 -4 175 
+51 3 48 27 30 
+147 1 72 
+21 1 21 
+54 2 -4 175 
+185 1 -7 
+219 0 
+93 3 -4 72 175 
+30 2 27 30 
+63 2 -4 175 
+Constructors: 2
+12 7
+76 72
+
+Summary: 22
+7 -3 -9 187 4 6 -7 27 -4 -5 -6 2 -8 -1 5 35 -2 175 3 0 21 1 
+org/apache/xerces/parsers/AbstractSAXParser.setDTDHandler(Lorg/xml/sax/DTDHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/xerces/parsers/AbstractSAXParser.parse(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r3 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 19
+65 0 
+131 0 
+36 1 -1 
+70 0 
+7 2 0 -2 
+74 0 
+43 0 
+13 2 -1 0 
+47 0 
+81 0 
+147 0 
+20 0 
+52 0 
+87 0 
+56 0 
+152 0 
+61 0 
+125 0 
+190 0 
+Constructors: 1
+7 0
+
+Summary: 9
+-1 82 53 31 149 -2 44 0 0 
+org/apache/xerces/parsers/AbstractSAXParser.startDocument(Lorg/apache/xerces/xni/XMLLocator;Ljava/lang/String;Lorg/apache/xerces/xni/NamespaceContext;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+13
+r14 1 -5 
+r13 1 -3 
+$r9 1 6 
+$r2 1 6 
+$r6 1 44 
+$r8 1 20 
+$r4 1 44 
+$r15 1 44 
+r3 1 -2 
+$r7 1 6 
+r0 1 -1 
+r1 1 -4 
+$r5 1 58 
+Fields: 2
+-1 fDocumentHandler 6
+-1 fContentHandler 44
+Accesses: 7
+16 1 -1 
+2 1 -1 
+34 1 -1 
+5 1 -1 
+54 1 -1 
+72 1 -1 
+43 1 -1 
+Functions: 7
+64 5 -1 -2 6 58 44 
+67 2 58 44 
+38 1 6 
+26 5 -1 -2 20 6 44 
+76 1 44 
+92 0 
+29 2 20 6 
+Constructors: 2
+64 58
+26 20
+
+Summary: 10
+58 -3 2 -1 20 -2 3 0 -5 1 
+org/apache/xerces/parsers/AbstractSAXParser.characters(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+9
+$r2 1 9 
+r11 1 -3 
+$r6 1 20 
+$r5 1 37 
+$r7 1 9 
+r1 1 -1 
+$r3 1 37 
+$r4 1 20 
+r0 1 -2 
+Fields: 3
+-2 ch 20
+-1 fDocumentHandler 9
+-1 fContentHandler 37
+Accesses: 11
+0 1 -2 
+19 1 -2 
+51 1 -2 
+36 1 -1 
+23 1 -2 
+55 1 -2 
+8 1 -1 
+27 1 -2 
+43 1 -1 
+15 1 -1 
+47 1 -2 
+Functions: 3
+73 0 
+59 2 20 37 
+31 2 20 9 
+Constructors: 0
+
+Summary: 6
+-2 -3 -1 20 0 1 
+org/apache/xerces/parsers/AbstractSAXParser.startNamespaceMapping()V
+PTG:
+Vars:
+8
+$r3 2 37 1 
+r0 1 -1 
+$r4 1 48 
+$r1 1 1 
+$r8 2 46 56 
+r6 1 35 
+$r2 2 25 1 
+r7 1 46 
+Fields: 2
+-1 fContentHandler 48
+-1 fNamespaceContext 1
+Accesses: 4
+0 1 -1 
+36 1 -1 
+24 1 -1 
+47 1 -1 
+Functions: 4
+1 1 1 
+37 3 1 35 37 
+25 2 1 25 
+62 4 48 35 56 46 
+Constructors: 0
+
+Summary: 3
+35 46 -1 
+org/apache/xerces/parsers/AbstractSAXParser.getContentHandler()Lorg/xml/sax/ContentHandler;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 fContentHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/parsers/AbstractSAXParser.endGeneralEntity(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+7
+$r4 1 22 
+$r2 1 22 
+r0 1 -3 
+$r6 1 10 
+$r5 1 4 
+r3 1 -2 
+r1 1 -1 
+Fields: 1
+-1 fLexicalHandler 22
+Accesses: 2
+21 1 -1 
+28 1 -1 
+Functions: 4
+33 2 -2 22 
+4 2 4 10 
+7 1 -3 
+47 0 
+Constructors: 0
+
+Summary: 6
+-2 -3 -1 10 0 1 
+org/apache/xerces/parsers/AbstractSAXParser.setLexicalHandler(Lorg/xml/sax/ext/LexicalHandler;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+40 1 -1 
+11 1 -1 
+Functions: 3
+34 0 
+23 0 
+12 0 
+Constructors: 0
+
+Summary: 6
+31 30 -1 15 23 0 
+org/apache/xerces/parsers/AbstractSAXParser.setErrorHandler(Lorg/xml/sax/ErrorHandler;)V
+PTG:
+Vars:
+9
+r8 1 6 
+r6 1 6 
+$r1 1 1 
+$r5 1 1 
+$r7 1 -1 
+r4 1 -2 
+r0 1 -1 
+$r3 1 41 
+$r2 1 6 
+Fields: 1
+-1 fConfiguration 1
+Accesses: 2
+0 1 -1 
+35 1 -1 
+Functions: 4
+1 1 1 
+49 2 1 41 
+29 2 -2 6 
+46 2 -2 41 
+Constructors: 1
+46 41
+
+Summary: 5
+-2 -1 41 0 6 
+org/apache/xerces/parsers/AbstractSAXParser.doctypeDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+9
+r5 1 -3 
+r4 1 -2 
+$r3 1 47 
+$r7 1 6 
+$r1 1 6 
+r0 1 -1 
+r6 1 -4 
+$r2 1 40 
+r11 1 -5 
+Fields: 2
+-1 fDeclHandler 40
+-1 fLexicalHandler 6
+Accesses: 5
+2 1 -1 
+5 1 -1 
+54 1 -1 
+39 1 -1 
+12 1 -1 
+Functions: 3
+19 4 -2 -3 -4 6 
+35 0 
+51 1 47 
+Constructors: 1
+51 47
+
+Summary: 9
+-3 2 -1 -2 -4 3 0 -5 1 
+org/apache/xerces/parsers/AbstractSAXParser.unparsedEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r6 1 1 
+r5 1 -4 
+$r1 1 1 
+r4 1 -2 
+r10 1 13 
+$r11 2 32 23 
+r2 1 -3 
+r9 1 -5 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 3
+0 1 -1 
+39 1 -1 
+15 1 -1 
+Functions: 5
+49 6 32 1 -2 -4 23 13 
+65 0 
+22 1 -3 
+7 1 -3 
+31 1 -3 
+Constructors: 0
+
+Summary: 12
+-3 2 -1 32 -2 13 -4 3 23 0 -5 1 
+org/apache/xerces/parsers/AbstractSAXParser.endDTD(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+6
+$r1 1 6 
+$r4 1 6 
+r0 1 -1 
+$r2 1 35 
+r8 1 -2 
+$r3 1 35 
+Fields: 2
+-1 fDeclaredAttrs 35
+-1 fLexicalHandler 6
+Accesses: 5
+2 1 -1 
+34 1 -1 
+5 1 -1 
+41 1 -1 
+12 1 -1 
+Functions: 3
+16 1 6 
+45 1 35 
+30 0 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/parsers/AbstractSAXParser.ignorableWhitespace(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+9
+$r6 1 12 
+r3 1 -2 
+$r5 1 29 
+r0 1 -1 
+$r1 1 1 
+$r4 1 12 
+r11 1 -3 
+$r7 1 1 
+$r2 1 29 
+Fields: 3
+-2 ch 12
+-1 fDocumentHandler 1
+-1 fContentHandler 29
+Accesses: 10
+0 1 -1 
+19 1 -2 
+35 1 -1 
+7 1 -1 
+39 1 -2 
+11 1 -2 
+43 1 -2 
+28 1 -1 
+15 1 -2 
+47 1 -2 
+Functions: 3
+65 0 
+51 2 12 29 
+23 2 1 12 
+Constructors: 0
+
+Summary: 6
+-2 -3 -1 0 12 1 
+org/apache/xerces/parsers/AbstractSAXParser.setContentHandler(Lorg/xml/sax/ContentHandler;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/xerces/parsers/AbstractSAXParser.getEntityResolver()Lorg/xml/sax/EntityResolver;
+PTG:
+Vars:
+9
+$r5 1 -1 
+$r4 1 8 
+r7 1 8 
+$r3 1 8 
+_ret 2 35 53 
+$r2 1 8 
+$r1 1 3 
+r0 1 -1 
+r6 2 35 53 
+Fields: 1
+-1 fConfiguration 3
+Accesses: 1
+2 1 -1 
+Functions: 3
+3 1 3 
+29 1 8 
+47 1 8 
+Constructors: 0
+
+Summary: 2
+-1 8 
+org/apache/xerces/parsers/AbstractSAXParser.getDTDHandler()Lorg/xml/sax/DTDHandler;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 fDTDHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/parsers/AbstractSAXParser.getFeature(Ljava/lang/String;)Z
+PTG:
+Vars:
+23
+$r4 1 52 
+$r5 1 72 
+$r17 1 324 
+$r20 1 340 
+$r11 1 210 
+$r6 1 95 
+$r16 1 -1 
+r29 1 286 
+$r21 1 347 
+$r7 1 121 
+$r2 1 13 
+$r18 2 271 39 
+$r15 1 39 
+r1 1 -1 
+r0 1 -2 
+$r3 1 21 
+$r10 1 190 
+$r27 1 271 
+$r19 1 332 
+$r8 1 144 
+$r12 1 233 
+$r9 1 167 
+$r13 1 251 
+Fields: 2
+-1 fConfiguration 39
+-1 fConfiguration 271
+Accesses: 10
+112 1 -1 
+161 1 -1 
+227 1 -1 
+38 1 -1 
+184 1 -1 
+328 1 -1 
+89 1 -1 
+138 1 -1 
+298 1 -1 
+270 1 -1 
+Functions: 35
+0 1 -2 
+320 0 
+129 1 -2 
+259 1 -2 
+198 1 -2 
+72 1 72 
+9 1 -2 
+329 2 39 271 
+13 1 13 
+271 2 -2 271 
+80 1 -2 
+144 1 144 
+210 1 210 
+340 2 340 332 
+21 1 21 
+152 1 -2 
+218 1 -2 
+282 1 -1 
+29 1 -2 
+350 2 324 347 
+95 1 95 
+287 1 -1 
+39 2 -2 39 
+103 1 -2 
+167 1 167 
+233 1 233 
+299 0 
+175 1 -2 
+241 1 -2 
+52 1 52 
+310 0 
+121 1 121 
+251 1 251 
+60 1 -2 
+190 1 190 
+Constructors: 1
+350 324
+
+Summary: 9
+310 317 302 340 -1 -2 332 0 347 
+org/apache/xerces/parsers/AbstractSAXParser.getDeclHandler()Lorg/xml/sax/ext/DeclHandler;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 fDeclHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/parsers/AbstractSAXParser.setLocale(Ljava/util/Locale;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 fConfiguration 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/parsers/AbstractSAXParser.endDocument(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+6
+$r1 1 1 
+$r3 1 17 
+$r4 1 1 
+r0 1 -1 
+$r2 1 17 
+r8 1 -2 
+Fields: 2
+-1 fDocumentHandler 1
+-1 fContentHandler 17
+Accesses: 4
+0 1 -1 
+16 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 3
+41 0 
+11 1 1 
+27 1 17 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/xerces/parsers/AbstractSAXParser.elementDecl(Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+6
+r3 1 -3 
+r8 1 -4 
+$r4 1 1 
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 1
+-1 fDeclHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+13 3 1 -2 -3 
+29 0 
+Constructors: 0
+
+Summary: 7
+-2 -3 2 -1 -4 0 1 

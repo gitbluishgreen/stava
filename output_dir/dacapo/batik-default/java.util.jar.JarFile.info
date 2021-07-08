@@ -1,0 +1,894 @@
+34
+java/util/jar/JarFile.getManifestFromReference()Ljava/util/jar/Manifest;
+PTG:
+Vars:
+16
+r14 3 67 90 11 
+$r11 1 1 
+$r3 1 90 
+$r12 1 11 
+$r7 1 67 
+r0 1 -1 
+$r5 1 104 
+$r13 1 11 
+r2 1 30 
+$r10 1 56 
+_ret 3 67 90 11 
+$r1 1 1 
+$r4 1 96 
+r6 1 47 
+$r9 1 72 
+$r8 1 75 
+Fields: 2
+-1 manRef 1
+-1 jv 72
+Accesses: 7
+0 1 -1 
+48 1 -1 
+64 1 -1 
+112 1 -1 
+35 1 -1 
+7 1 -1 
+71 1 -1 
+Functions: 9
+80 2 75 47 
+83 3 67 72 75 
+99 2 96 90 
+8 1 1 
+26 3 -1 1 72 
+42 4 -1 1 72 30 
+61 2 56 47 
+109 4 67 104 90 11 
+94 4 -1 1 72 30 
+Constructors: 5
+80 75
+83 67
+99 90
+61 56
+109 104
+
+Summary: 1
+75 
+java/util/jar/JarFile.getCodeSource(Ljava/net/URL;Ljava/lang/String;)Ljava/security/CodeSource;
+PTG:
+Vars:
+6
+r5 1 -3 
+$r3 1 73 
+r2 1 -2 
+_ret 1 73 
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 jv 5
+Accesses: 5
+50 1 -1 
+35 1 -1 
+4 1 -1 
+11 1 -1 
+62 1 -1 
+Functions: 6
+1 2 -1 5 
+51 2 -2 -3 
+36 3 -1 -2 5 
+23 3 -1 -3 5 
+72 1 -2 
+63 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 28 -1 -3 
+java/util/jar/JarFile.<init>(Ljava/lang/String;Z)V
+PTG:
+Vars:
+3
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 2 1 -2 
+11 2 -1 1 
+Constructors: 2
+6 1
+11 -1
+
+Summary: 3
+-2 -1 1 
+java/util/jar/JarFile.<init>(Ljava/io/File;ZI)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 1
+3 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 3
+-2 -1 0 
+java/util/jar/JarFile.ensureInitialization()V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r5 1 49 
+$r1 1 18 
+$r3 1 31 
+$r4 1 52 
+$r2 1 34 
+Fields: 1
+-1 jv 18
+Accesses: 3
+17 1 -1 
+24 1 -1 
+46 1 -1 
+Functions: 6
+1 2 -1 18 
+68 0 
+37 2 34 31 
+55 2 49 52 
+41 2 -1 18 
+13 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/jar/JarFile.<init>(Ljava/io/File;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 1
+4 -1
+
+Summary: 3
+-2 -1 0 
+java/util/jar/JarFile.<clinit>()V
+PTG:
+Vars:
+15
+$r8 1 117 
+$r12 1 149 
+$r2 1 22 
+$r3 1 84 
+$r0 1 0 
+$r9 1 125 
+$r6 1 103 
+$r13 1 178 
+$r1 1 10 
+$r11 1 141 
+$r14 1 165 
+$r7 1 110 
+$r4 1 91 
+$r5 1 96 
+$r10 1 133 
+Fields: 0
+Accesses: 0
+Functions: 3
+17 1 10 
+4 1 0 
+14 1 10 
+Constructors: 2
+4 0
+14 10
+
+Summary: 1
+10 
+java/util/jar/JarFile.access$001(Ljava/util/jar/JarFile;)Ljava/util/Enumeration;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/jar/JarFile.entryNames([Ljava/security/CodeSource;)Ljava/util/Enumeration;
+PTG:
+Vars:
+7
+$r1 1 5 
+$r3 1 60 
+$r5 1 33 
+_ret 1 60 
+r0 1 -1 
+$r6 1 34 
+r2 1 -2 
+Fields: 2
+-2 ArrayObject 33
+-1 jv 5
+Accesses: 2
+4 1 -1 
+11 1 -1 
+Functions: 5
+1 2 -1 5 
+33 1 33 
+65 3 -1 5 60 
+55 2 -1 5 
+12 4 -1 -2 33 5 
+Constructors: 1
+65 60
+
+Summary: 4
+-2 33 -1 34 
+java/util/jar/JarFile.stream()Ljava/util/stream/Stream;
+PTG:
+Vars:
+5
+$r0 1 0 
+r1 1 -1 
+_ret 1 21 
+$r2 1 17 
+$r3 1 21 
+Fields: 0
+Accesses: 0
+Functions: 4
+20 1 17 
+6 2 0 -1 
+9 1 -1 
+14 1 0 
+Constructors: 1
+6 0
+
+Summary: 3
+0 17 -1 
+java/util/jar/JarFile.newEntry(Ljava/util/zip/ZipEntry;)Ljava/util/jar/JarEntry;
+PTG:
+Vars:
+4
+r2 1 -2 
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -1 -2 
+Constructors: 1
+6 0
+
+Summary: 3
+-2 -1 0 
+java/util/jar/JarFile.isInitializing()Z
+PTG:
+Vars:
+3
+$r1 1 3 
+$r0 1 0 
+r2 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 0 
+18 1 3 
+Constructors: 0
+
+Summary: 1
+3 
+java/util/jar/JarFile.entries2()Ljava/util/Enumeration;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 5 
+$r3 1 29 
+_ret 1 29 
+r2 1 28 
+Fields: 1
+-1 jv 5
+Accesses: 2
+4 1 -1 
+11 1 -1 
+Functions: 5
+16 2 -1 5 
+1 2 -1 5 
+35 4 -1 5 28 29 
+24 2 -1 5 
+12 2 -1 5 
+Constructors: 1
+35 29
+
+Summary: 3
+28 17 -1 
+java/util/jar/JarFile.getBytes(Ljava/util/zip/ZipEntry;)[B
+PTG:
+Vars:
+8
+$r3 1 -1 
+$r6 1 -1 
+r0 1 -1 
+$r7 1 -1 
+r2 1 5 
+r11 1 18 
+r1 1 -2 
+r10 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 2 -1 -2 
+83 1 -1 
+72 1 5 
+9 1 -2 
+90 1 5 
+14 1 5 
+47 1 5 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/jar/JarFile.isKnownNotToHaveSpecialAttributes()Z
+PTG:
+Vars:
+52
+$r27 1 188 
+$r3 1 341 
+$r46 1 15 
+$r11 1 88 
+$r15 1 113 
+$r13 1 105 
+$r28 1 197 
+r47 1 32 
+$r40 1 282 
+$r29 1 205 
+$r45 1 15 
+$r4 1 47 
+r48 1 39 
+$r34 1 245 
+$r36 1 257 
+$r38 1 270 
+$r9 1 80 
+$r7 1 63 
+$r1 1 24 
+$r5 1 55 
+$r35 1 248 
+$r8 1 72 
+$r18 1 135 
+$r31 1 213 
+$r37 1 265 
+$r16 1 122 
+r51 1 314 
+$r33 1 240 
+r50 1 310 
+$r10 1 85 
+$r12 1 97 
+$r24 1 172 
+$r39 1 273 
+$r22 1 160 
+$r41 1 290 
+$r23 1 163 
+$r0 1 0 
+$r43 1 298 
+$r17 1 130 
+$r26 1 185 
+$r42 1 295 
+r52 1 326 
+$r30 1 210 
+$r6 1 60 
+$r32 1 232 
+$r20 1 147 
+$r14 1 110 
+$r25 1 180 
+r2 1 -1 
+$r44 1 6 
+$r21 1 155 
+$r19 1 138 
+Fields: 2
+326 ArrayObject 341
+32 ArrayObject 226
+Accesses: 0
+Functions: 45
+257 1 257 
+130 1 130 
+197 2 197 39 
+261 1 257 
+6 1 6 
+135 1 135 
+72 2 39 72 
+201 1 197 
+265 1 265 
+12 1 6 
+76 1 72 
+205 1 205 
+270 1 270 
+80 1 80 
+337 2 341 310 
+210 1 210 
+147 2 147 39 
+85 1 85 
+151 1 147 
+282 1 282 
+155 1 155 
+286 1 282 
+160 1 160 
+97 2 97 39 
+290 1 290 
+101 1 97 
+295 1 295 
+232 1 232 
+105 1 105 
+172 2 39 172 
+236 1 232 
+110 1 110 
+47 2 39 47 
+176 1 172 
+240 1 240 
+306 1 -1 
+51 1 47 
+180 1 180 
+245 1 245 
+55 1 55 
+185 1 185 
+122 2 39 122 
+315 2 310 314 
+60 1 60 
+126 1 122 
+Constructors: 11
+176 172
+51 47
+101 97
+261 257
+151 147
+201 197
+12 6
+76 72
+236 232
+126 122
+286 282
+
+Summary: 1
+-1 
+java/util/jar/JarFile.unsignedEntryNames()Ljava/util/Enumeration;
+PTG:
+Vars:
+4
+r1 1 4 
+_ret 1 5 
+r0 1 -1 
+$r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 3 -1 4 5 
+Constructors: 1
+11 5
+
+Summary: 2
+-1 4 
+java/util/jar/JarFile.entries()Ljava/util/Enumeration;
+PTG:
+Vars:
+3
+r1 1 -1 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 0 -1 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+java/util/jar/JarFile.getManifestDigests()Ljava/util/List;
+PTG:
+Vars:
+4
+_ret 1 19 
+r0 1 -1 
+$r2 1 19 
+$r1 1 5 
+Fields: 1
+-1 jv 5
+Accesses: 2
+4 1 -1 
+11 1 -1 
+Functions: 3
+1 2 -1 5 
+23 1 19 
+12 0 
+Constructors: 1
+23 19
+
+Summary: 1
+-1 
+java/util/jar/JarFile.access$200(Ljava/util/jar/JarFile;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+java/util/jar/JarFile.access$300(Ljava/util/jar/JarFile;)Ljava/util/jar/JarVerifier;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-2 jv 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/jar/JarFile.checkForSpecialAttributes()V
+PTG:
+Vars:
+6
+$r4 1 35 
+r0 1 -1 
+r1 1 19 
+r2 1 29 
+$r5 1 31 
+$r3 1 38 
+Fields: 0
+Accesses: 3
+0 1 -1 
+49 1 -1 
+54 1 -1 
+Functions: 4
+8 1 -1 
+24 2 -1 19 
+30 5 -1 35 38 29 31 
+15 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/jar/JarFile.<init>(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 2 1 -2 
+11 2 -1 1 
+Constructors: 2
+6 1
+11 -1
+
+Summary: 4
+-2 -1 1 0 
+java/util/jar/JarFile.getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+PTG:
+Vars:
+11
+r0 1 -1 
+$r2 1 46 
+$r6 1 78 
+$r7 1 5 
+$r8 1 5 
+$r1 1 5 
+$r11 2 -2 73 
+$r3 1 51 
+_ret 1 46 
+r4 1 -2 
+$r5 1 70 
+Fields: 1
+-1 jv 5
+Accesses: 5
+17 1 -1 
+33 1 -1 
+81 1 -1 
+4 1 -1 
+30 1 -1 
+Functions: 9
+1 2 -1 5 
+50 2 -1 5 
+68 3 -1 5 70 
+69 1 -2 
+85 6 -2 51 5 73 46 78 
+40 3 -1 -2 5 
+25 2 -1 5 
+11 3 -1 -2 5 
+76 3 -1 -2 5 
+Constructors: 1
+85 46
+
+Summary: 2
+-2 0 
+java/util/jar/JarFile.maybeInstantiateVerifier()V
+PTG:
+Vars:
+6
+r2 1 19 
+r0 1 -1 
+r5 1 41 
+$r4 1 34 
+$r1 1 1 
+$r3 1 35 
+Fields: 2
+-1 jv 1
+19 ArrayObject 34
+Accesses: 3
+0 1 -1 
+8 1 -1 
+92 1 -1 
+Functions: 7
+34 2 34 35 
+51 1 41 
+69 1 41 
+42 1 41 
+60 1 41 
+15 2 -1 1 
+79 2 -1 1 
+Constructors: 0
+
+Summary: 2
+19 41 
+java/util/jar/JarFile.getJarEntry(Ljava/lang/String;)Ljava/util/jar/JarEntry;
+PTG:
+Vars:
+5
+r1 1 -2 
+_ret 1 2 
+$r2 1 2 
+r0 1 -1 
+$r3 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/jar/JarFile.match([C[B[I[I)Z
+PTG:
+Vars:
+5
+r4 1 -1 
+r3 1 -5 
+r2 1 -4 
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+96 0 
+Constructors: 0
+
+Summary: 6
+-5 -2 -1 1 -3 -4 
+java/util/jar/JarFile.hasClassPathAttribute()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/jar/JarFile.getManifest()Ljava/util/jar/Manifest;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/jar/JarFile.getManEntry()Ljava/util/jar/JarEntry;
+PTG:
+Vars:
+13
+$r1 1 1 
+r4 1 28 
+$r6 1 45 
+$r10 1 63 
+$r3 1 1 
+$r9 1 62 
+$r8 1 49 
+r0 1 -1 
+$r11 1 1 
+_ret 1 1 
+$r7 1 41 
+$r5 1 46 
+$r2 1 11 
+Fields: 3
+28 ArrayObject 62
+28 ArrayObject 45
+-1 manEntry 1
+Accesses: 5
+0 1 -1 
+17 1 -1 
+66 1 -1 
+14 1 -1 
+78 1 -1 
+Functions: 5
+8 2 -1 1 
+24 2 -1 1 
+41 2 49 41 
+59 3 -1 1 62 
+45 2 45 46 
+Constructors: 0
+
+Summary: 3
+62 28 49 
+java/util/jar/JarFile.setEagerValidation(Z)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 18 
+$r2 1 18 
+Fields: 1
+-1 jv 18
+Accesses: 2
+17 1 -1 
+24 1 -1 
+Functions: 3
+1 2 -1 18 
+13 0 
+29 1 18 
+Constructors: 0
+
+Summary: 0
+
+java/util/jar/JarFile.getCodeSources(Ljava/net/URL;)[Ljava/security/CodeSource;
+PTG:
+Vars:
+4
+r4 1 -2 
+r0 1 -1 
+$r1 1 5 
+r2 1 25 
+Fields: 1
+-1 jv 5
+Accesses: 2
+4 1 -1 
+11 1 -1 
+Functions: 5
+1 2 -1 5 
+21 2 -1 5 
+41 1 -2 
+26 1 25 
+12 3 -1 -2 5 
+Constructors: 0
+
+Summary: 3
+-2 -1 25 
+java/util/jar/JarFile.initializeVerifier()V
+PTG:
+Vars:
+26
+r23 1 76 
+r12 1 55 
+$r4 1 222 
+$r10 1 30 
+$r16 1 108 
+$r22 1 172 
+$r11 1 51 
+$r3 1 108 
+$r8 1 21 
+$r18 1 81 
+$r14 1 108 
+$r20 1 -1 
+$r15 1 108 
+$r26 1 108 
+$r17 1 76 
+$r6 1 204 
+$r19 1 62 
+$r2 1 198 
+r24 1 6 
+$r5 1 228 
+r13 1 94 
+$r7 1 22 
+r0 1 -1 
+$r21 1 166 
+r9 1 28 
+$r1 1 108 
+Fields: 3
+-1 jv 108
+6 ArrayObject 21
+6 ArrayObject 51
+Accesses: 10
+163 1 -1 
+243 1 -1 
+212 1 -1 
+117 1 -1 
+134 1 -1 
+184 1 -1 
+107 1 -1 
+158 1 -1 
+238 1 -1 
+191 1 -1 
+Functions: 18
+2 2 -1 108 
+131 3 108 76 94 
+195 1 108 
+68 1 62 
+40 1 28 
+233 1 228 
+143 2 108 76 
+48 3 -1 51 108 
+80 2 -1 108 
+177 1 172 
+209 1 204 
+114 3 55 108 76 
+84 2 81 76 
+21 2 21 22 
+181 1 -1 
+213 1 108 
+88 3 -1 55 108 
+30 2 28 30 
+Constructors: 2
+68 62
+84 76
+
+Summary: 4
+28 76 6 51 
+java/util/jar/JarFile.<init>(Ljava/io/File;Z)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 1
+4 -1
+
+Summary: 2
+-2 -1 
+java/util/jar/JarFile.getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+PTG:
+Vars:
+3
+r2 1 5 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+16 2 -1 5 
+Constructors: 0
+
+Summary: 2
+-2 0 

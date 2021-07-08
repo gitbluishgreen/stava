@@ -1,0 +1,368 @@
+8
+org/eclipse/jdt/internal/compiler/ast/IfStatement.<init>(Lorg/eclipse/jdt/internal/compiler/ast/Expression;Lorg/eclipse/jdt/internal/compiler/ast/Statement;Lorg/eclipse/jdt/internal/compiler/ast/Statement;II)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+r0 1 -1 
+Fields: 0
+Accesses: 14
+66 1 -4 
+36 1 -3 
+6 1 -1 
+11 1 -1 
+43 1 -3 
+76 1 -4 
+16 1 -1 
+48 1 -1 
+83 1 -4 
+21 1 -1 
+89 1 -1 
+26 1 -1 
+58 1 -4 
+95 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 4
+-1 2 1 0 
+org/eclipse/jdt/internal/compiler/ast/IfStatement.resolve(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+10
+$r3 1 1 
+r4 1 11 
+$r5 1 1 
+$r7 1 38 
+$r9 1 23 
+$r8 1 38 
+r1 1 -2 
+$r2 1 5 
+$r6 1 23 
+r0 1 -1 
+Fields: 3
+-1 thenStatement 23
+-1 condition 1
+-1 elseStatement 38
+Accesses: 6
+0 1 -1 
+37 1 -1 
+22 1 -1 
+12 1 -1 
+44 1 -1 
+29 1 -1 
+Functions: 4
+1 3 1 -2 5 
+49 2 -2 38 
+34 2 -2 23 
+19 3 1 -2 11 
+Constructors: 0
+
+Summary: 4
+-1 11 0 -2 
+org/eclipse/jdt/internal/compiler/ast/IfStatement.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+8
+r0 1 -2 
+$r7 1 19 
+r1 1 -1 
+$r3 1 10 
+$r6 1 35 
+r2 1 -3 
+$r4 1 19 
+$r5 1 35 
+Fields: 3
+-1 thenStatement 19
+-1 condition 10
+-1 elseStatement 35
+Accesses: 5
+18 1 -1 
+34 1 -1 
+9 1 -1 
+25 1 -1 
+41 1 -1 
+Functions: 5
+0 6 -1 -2 -3 19 35 10 
+53 6 -1 -2 -3 19 35 10 
+15 3 -2 -3 10 
+31 3 -2 -3 19 
+47 3 -2 -3 35 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/ast/IfStatement.<init>(Lorg/eclipse/jdt/internal/compiler/ast/Expression;Lorg/eclipse/jdt/internal/compiler/ast/Statement;II)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 9
+16 1 -1 
+48 1 -1 
+36 1 -3 
+21 1 -1 
+6 1 -1 
+54 1 -1 
+26 1 -1 
+11 1 -1 
+43 1 -3 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 1 0 
+org/eclipse/jdt/internal/compiler/ast/IfStatement.printStatement(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+9
+$r4 1 12 
+$r5 1 17 
+_ret 1 -3 
+$r9 1 39 
+r3 1 -1 
+$r1 1 2 
+r0 1 -3 
+$r7 1 27 
+$r13 1 39 
+Fields: 3
+-1 thenStatement 27
+-1 condition 12
+-1 elseStatement 39
+Accesses: 4
+65 1 -1 
+38 1 -1 
+26 1 -1 
+11 1 -1 
+Functions: 9
+48 1 -3 
+1 1 -3 
+34 2 -3 27 
+22 1 17 
+54 1 -3 
+7 1 2 
+73 2 -3 39 
+12 2 -3 12 
+61 1 -3 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/compiler/ast/IfStatement.isKnowDeadCodePattern(Lorg/eclipse/jdt/internal/compiler/ast/Expression;)Z
+PTG:
+Vars:
+2
+r1 2 14 -2 
+$r0 1 -2 
+Fields: 1
+-2 expression 14
+Accesses: 1
+8 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+14 0 -2 
+org/eclipse/jdt/internal/compiler/ast/IfStatement.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+31
+r0 1 -1 
+$r28 1 122 
+$r9 1 122 
+$r16 1 214 
+r2 1 -3 
+$r19 1 130 
+r11 1 335 
+r3 1 -4 
+$r10 1 214 
+$r13 1 1 
+r27 2 107 321 
+$r21 1 122 
+r7 1 35 
+$r15 1 288 
+$r30 1 214 
+$r22 1 157 
+$r18 1 214 
+$r29 1 261 
+r5 1 10 
+$r12 1 222 
+$r8 1 39 
+$r31 1 339 
+$r14 1 214 
+$r20 1 1 
+r26 2 190 88 
+_ret 1 335 
+r1 1 -2 
+$r4 1 1 
+$r6 1 1 
+$r17 1 249 
+$r25 1 62 
+Fields: 3
+-1 thenStatement 122
+-1 condition 1
+-1 elseStatement 214
+Accesses: 21
+0 1 -1 
+192 2 88 190 
+288 1 288 
+228 1 -1 
+166 1 -1 
+297 1 -1 
+138 1 -1 
+202 1 -1 
+269 1 -1 
+238 1 -1 
+146 1 -1 
+210 1 -1 
+179 1 -1 
+213 1 -1 
+277 1 -1 
+310 1 -1 
+121 1 -1 
+347 1 -1 
+28 1 -1 
+252 1 -1 
+157 1 157 
+Functions: 26
+256 2 214 249 
+1 4 1 -2 -3 -4 
+129 1 -2 
+130 3 130 88 190 
+68 1 35 
+260 1 -2 
+261 3 321 261 107 
+331 4 321 88 107 190 
+12 1 -4 
+338 1 -2 
+83 1 10 
+147 1 1 
+339 2 339 335 
+278 1 1 
+156 1 -2 
+29 1 1 
+287 1 -2 
+98 2 88 190 
+102 1 10 
+45 1 35 
+175 4 -2 88 122 190 
+306 4 321 -2 214 107 
+180 5 -2 -3 88 122 190 
+117 2 321 107 
+311 5 -2 321 -3 214 107 
+248 1 -2 
+Constructors: 0
+
+Summary: 15
+35 157 -3 261 130 -1 -4 0 1 288 249 321 190 2 339 
+org/eclipse/jdt/internal/compiler/ast/IfStatement.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;)V
+PTG:
+Vars:
+25
+$r12 1 27 
+$r14 1 91 
+$r20 1 51 
+$r15 1 27 
+$r13 1 27 
+r27 1 134 
+$r29 2 243 -2 
+$r28 2 134 16 
+r0 1 -1 
+$r7 1 36 
+$r10 1 91 
+r11 1 -2 
+$r2 1 16 
+$r5 1 30 
+$r19 1 51 
+$r4 1 27 
+r1 1 -3 
+$r17 1 91 
+$r9 1 76 
+$r21 1 51 
+$r25 1 91 
+$r16 1 51 
+$r8 1 51 
+$r18 1 51 
+$r26 1 51 
+Fields: 4
+-1 thenStatement 51
+-1 condition 27
+-1 elseStatement 91
+51 scope 243
+Accesses: 33
+0 1 -1 
+321 1 -1 
+194 1 -1 
+388 1 -1 
+265 1 -1 
+11 1 -3 
+331 1 -1 
+204 1 -1 
+397 1 -1 
+274 1 -1 
+340 1 -1 
+213 1 -3 
+26 1 -1 
+90 1 -1 
+154 1 -1 
+347 1 -1 
+411 1 -1 
+97 1 -1 
+226 1 -1 
+291 1 -1 
+164 1 -1 
+359 1 -1 
+236 1 -1 
+173 1 -1 
+240 1 51 
+50 1 -1 
+371 1 -1 
+180 1 -1 
+308 1 -1 
+57 1 -1 
+122 1 -1 
+378 1 -1 
+255 1 -1 
+Functions: 28
+392 2 -2 -3 
+139 3 16 -3 134 
+269 2 -2 -3 
+335 2 -2 -3 
+401 2 -2 -3 
+82 1 30 
+210 3 16 51 243 
+21 2 16 -3 
+278 2 -2 -3 
+406 1 16 
+151 5 16 -2 -3 134 27 
+344 2 -2 -3 
+27 1 27 
+222 2 16 -3 
+415 1 -3 
+288 1 134 
+353 3 -2 -3 91 
+98 1 91 
+168 2 -2 -3 
+297 3 -2 -3 91 
+42 1 30 
+366 3 -2 -3 27 
+177 2 -2 -3 
+375 1 -3 
+58 2 51 243 
+186 4 -2 -3 51 243 
+252 3 -2 -3 243 
+318 4 16 -2 -3 27 
+Constructors: 1
+21 16
+
+Summary: 8
+1 16 -3 30 -1 134 0 -2 

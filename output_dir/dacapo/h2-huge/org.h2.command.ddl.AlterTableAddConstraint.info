@@ -1,0 +1,795 @@
+25
+org/h2/command/ddl/AlterTableAddConstraint.setRefIndex(Lorg/h2/index/Index;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/ddl/AlterTableAddConstraint.setIndexColumns([Lorg/h2/table/IndexColumn;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/ddl/AlterTableAddConstraint.setCheckExisting(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAddConstraint.canUseUniqueIndex(Lorg/h2/index/Index;Lorg/h2/table/Table;[Lorg/h2/table/IndexColumn;)Z
+PTG:
+Vars:
+11
+r8 1 -1 
+r10 1 70 
+$r7 1 76 
+r6 1 45 
+r12 1 113 
+r4 1 30 
+$r3 1 11 
+r0 1 -2 
+r5 1 -4 
+r2 1 -3 
+$r1 1 1 
+Fields: 3
+30 ArrayObject 113
+70 column 76
+-4 ArrayObject 70
+Accesses: 1
+74 1 70 
+Functions: 7
+0 1 -2 
+115 2 113 45 
+24 1 -2 
+10 1 -2 
+42 0 
+11 1 11 
+79 2 76 45 
+Constructors: 0
+
+Summary: 9
+-4 76 -3 -1 -2 70 1 2 0 
+org/h2/command/ddl/AlterTableAddConstraint.tryUpdate()I
+PTG:
+Vars:
+120
+$r67 1 895 
+$r42 1 172 
+$r97 1 669 
+$r76 1 756 
+$r17 1 206 
+$r32 1 353 
+r109 1 148 
+$r123 1 462 
+$r120 1 560 
+r0 1 -1 
+$r82 1 510 
+$r11 1 44 
+$r99 1 1 
+$r78 1 785 
+$r57 1 835 
+$r68 1 905 
+$r89 1 491 
+$r88 1 462 
+$r43 1 180 
+$r16 1 138 
+$r4 1 17 
+$r2 1 1 
+$r33 1 206 
+$r15 1 129 
+$r98 1 651 
+$r58 1 748 
+$r134 1 748 
+$r29 1 129 
+$r83 1 462 
+$r84 1 451 
+$r69 1 895 
+$r61 1 1 
+r7 1 31 
+$r27 1 305 
+$r50 1 734 
+$r91 1 620 
+$r95 1 1 
+r131 1 998 
+$r23 1 129 
+$r80 1 462 
+$r19 1 206 
+$r79 1 451 
+$r70 1 922 
+$r53 1 748 
+$r51 1 748 
+$r24 1 206 
+$r75 1 748 
+$r20 1 382 
+$r81 1 451 
+$r36 1 129 
+$r133 1 1005 
+$r138 1 1139 
+r3 1 15 
+$r6 1 1 
+$r37 1 265 
+r118 1 553 
+$r122 1 451 
+$r44 1 184 
+$r77 1 756 
+r127 1 728 
+$r56 1 835 
+$r55 1 756 
+$r72 1 851 
+$r54 1 804 
+$r63 1 954 
+$r22 1 411 
+$r35 1 255 
+$r38 1 266 
+$r47 1 1 
+$r14 1 1 
+$r59 1 895 
+r110 1 172 
+$r119 1 555 
+$r87 1 462 
+$r74 1 825 
+r129 1 846 
+$r130 1 895 
+$r9 1 41 
+$r25 1 1 
+$r26 1 1 
+$r48 1 714 
+$r137 1 895 
+$r10 1 1 
+$r92 1 633 
+$r85 1 531 
+$r135 1 756 
+r111 1 221 
+r113 1 318 
+$r65 1 835 
+$r8 1 33 
+r112 1 302 
+r117 4 555 406 1000 615 
+r115 1 404 
+$r94 1 651 
+$r64 1 895 
+$r132 1 1000 
+$r86 1 451 
+$r46 1 722 
+$r28 1 1 
+$r96 1 651 
+$r18 1 206 
+$r73 1 748 
+$r1 1 1 
+$r31 1 346 
+$r30 1 1 
+$r34 1 129 
+$r66 1 976 
+$r52 1 756 
+$r12 1 1 
+$r90 1 615 
+$r5 1 25 
+$r93 1 1 
+$r136 1 835 
+$r49 1 1 
+$r21 1 406 
+$r128 1 835 
+$r39 1 256 
+r124 1 613 
+$r13 1 73 
+$r62 1 835 
+Fields: 19
+265 column 266
+221 ArrayObject 255
+-1 constraintName 41
+-1 index 462
+-1 index 206
+-1 index 756
+-1 refIndex 895
+-1 comment 1139
+-1 tableName 25
+-1 refSchema 714
+-1 refIndexColumns 835
+-1 session 1
+-1 indexColumns 129
+-1 indexColumns 451
+-1 indexColumns 748
+-1 checkExpression 651
+-1 refTableName 722
+129 ArrayObject 265
+255 column 256
+Accesses: 89
+0 1 -1 
+128 1 -1 
+768 1 -1 
+513 1 -1 
+259 1 -1 
+516 1 -1 
+901 1 -1 
+1029 1 -1 
+1159 1 -1 
+8 1 -1 
+265 1 265 
+650 1 -1 
+141 1 -1 
+781 1 -1 
+526 1 -1 
+1171 1 -1 
+20 1 -1 
+661 1 -1 
+534 1 -1 
+918 1 -1 
+1047 1 -1 
+24 1 -1 
+665 1 -1 
+284 1 -1 
+672 1 -1 
+800 1 -1 
+1056 1 -1 
+36 1 -1 
+677 1 -1 
+295 1 -1 
+807 1 -1 
+40 1 -1 
+936 1 -1 
+1065 1 -1 
+810 1 -1 
+427 1 -1 
+939 1 -1 
+50 1 -1 
+1074 1 -1 
+308 1 -1 
+436 1 -1 
+820 1 -1 
+694 1 -1 
+950 1 -1 
+828 1 -1 
+61 1 -1 
+957 1 -1 
+703 1 -1 
+576 1 -1 
+960 1 -1 
+450 1 -1 
+834 1 -1 
+1092 1 -1 
+69 1 -1 
+585 1 -1 
+713 1 -1 
+330 1 -1 
+971 1 -1 
+205 1 -1 
+461 1 -1 
+717 1 -1 
+1101 1 -1 
+721 1 -1 
+338 1 -1 
+83 1 -1 
+979 1 -1 
+212 1 -1 
+469 1 -1 
+856 1 -1 
+474 1 -1 
+730 1 -1 
+92 1 -1 
+349 1 -1 
+862 1 -1 
+226 1 -1 
+1123 1 -1 
+487 1 -1 
+871 1 -1 
+747 1 -1 
+876 1 -1 
+1138 1 -1 
+755 1 -1 
+378 1 -1 
+506 1 -1 
+763 1 -1 
+1020 1 -1 
+637 1 -1 
+894 1 -1 
+255 1 255 
+Functions: 103
+1024 2 1000 748 
+5 1 1 
+9 1 1 
+1035 2 756 1000 
+524 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 31 
+782 1 756 
+16 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+272 0 
+17 3 17 1 25 
+1042 2 1000 728 
+791 1 785 
+1051 2 835 1000 
+540 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+798 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 31 
+32 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+33 3 33 1 41 
+291 1 31 
+548 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 31 
+1062 2 1000 895 
+296 0 
+559 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+304 1 31 
+305 3 305 1 31 
+818 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 31 
+1078 2 1 1000 
+569 4 560 553 555 31 
+62 0 
+1087 2 728 1000 
+320 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+580 2 451 555 
+70 1 1 
+1096 1 1000 
+329 7 1 129 265 266 318 302 31 
+841 1 728 
+79 2 73 31 
+591 2 555 462 
+849 1 846 
+1105 1 1000 
+1111 0 
+600 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+89 2 1 31 
+1115 0 
+352 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+608 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 31 
+1120 0 
+868 2 835 728 
+358 2 353 318 
+1127 0 
+1130 0 
+619 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+366 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+372 1 318 
+628 4 613 615 620 31 
+884 0 
+1142 5 1139 406 615 1000 555 
+1145 1 31 
+379 1 206 
+1152 1 31 
+388 1 382 
+133 4 129 265 266 31 
+645 3 1 633 31 
+902 1 895 
+391 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+137 1 31 
+1164 5 1 406 615 1000 555 
+399 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 31 
+144 1 31 
+657 2 633 651 
+662 2 1 651 
+919 1 895 
+1176 6 1 406 615 1000 555 15 
+410 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+1181 5 406 615 1000 555 31 
+160 1 148 
+928 1 922 
+420 4 404 406 411 31 
+168 1 148 
+681 2 615 651 
+431 4 129 406 265 266 
+688 2 615 633 
+947 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 728 25 895 
+180 2 180 184 
+182 1 172 
+441 2 406 206 
+193 0 
+707 2 1 615 
+455 2 451 31 
+968 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 728 25 895 
+714 3 1 722 714 
+468 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 31 
+213 1 206 
+985 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+731 1 1 
+993 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 31 
+741 2 728 734 
+488 1 462 
+234 0 
+1004 18 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 
+752 2 748 31 
+497 1 491 
+1013 4 998 1000 1005 31 
+504 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 31 
+762 19 -1 1 129 835 451 41 265 714 266 651 748 462 206 722 1139 756 25 895 31 
+Constructors: 5
+420 406
+628 615
+645 633
+1013 1000
+569 555
+
+Summary: 6
+633 406 615 1000 -1 555 
+org/h2/command/ddl/AlterTableAddConstraint.getType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAddConstraint.update()I
+PTG:
+Vars:
+4
+$r5 1 20 
+r0 1 -1 
+$r3 1 -1 
+$r6 1 24 
+Fields: 1
+-1 constraintName 24
+Accesses: 2
+23 1 -1 
+9 1 -1 
+Functions: 5
+0 2 -1 24 
+19 2 -1 24 
+5 2 -1 24 
+27 2 20 24 
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAddConstraint.generateConstraintName(Lorg/h2/table/Table;)Ljava/lang/String;
+PTG:
+Vars:
+8
+$r5 1 13 
+$r2 1 1 
+$r1 1 1 
+r4 1 -2 
+$r6 1 17 
+_ret 1 1 
+$r3 1 9 
+r0 1 -1 
+Fields: 2
+-1 constraintName 1
+-1 session 13
+Accesses: 4
+0 1 -1 
+20 1 -1 
+23 1 -1 
+12 1 -1 
+Functions: 2
+8 3 -1 1 13 
+9 3 -2 9 13 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/command/ddl/AlterTableAddConstraint.setTableName(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/ddl/AlterTableAddConstraint.setComment(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/ddl/AlterTableAddConstraint.canUseIndex(Lorg/h2/index/Index;Lorg/h2/table/Table;[Lorg/h2/table/IndexColumn;)Z
+PTG:
+Vars:
+9
+r0 1 -2 
+r5 1 -4 
+$r1 1 1 
+r2 1 -3 
+$r8 1 67 
+$r3 1 11 
+r7 1 62 
+r9 1 -1 
+r4 1 27 
+Fields: 2
+-4 ArrayObject 62
+62 column 67
+Accesses: 1
+65 1 62 
+Functions: 4
+0 1 -2 
+64 2 -2 67 
+21 1 -2 
+10 1 -2 
+Constructors: 0
+
+Summary: 9
+-1 -2 -4 -3 1 0 2 62 67 
+org/h2/command/ddl/AlterTableAddConstraint.setUpdateAction(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAddConstraint.getIndexColumns()[Lorg/h2/table/IndexColumn;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 indexColumns 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAddConstraint.setConstraintName(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/ddl/AlterTableAddConstraint.setType(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAddConstraint.getIndex(Lorg/h2/table/Table;[Lorg/h2/table/IndexColumn;)Lorg/h2/index/Index;
+PTG:
+Vars:
+7
+r0 1 -2 
+r6 1 -3 
+r5 1 -1 
+r4 1 18 
+r2 1 7 
+$r3 1 18 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+1 1 1 
+17 1 7 
+8 1 7 
+28 4 -1 -2 18 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 0 1 
+org/h2/command/ddl/AlterTableAddConstraint.setCheckExpression(Lorg/h2/expression/Expression;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/ddl/AlterTableAddConstraint.<init>(Lorg/h2/engine/Session;Lorg/h2/schema/Schema;Z)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 1
+3 3 -1 -2 -3 
+Constructors: 1
+3 -1
+
+Summary: 5
+-1 -2 -3 0 1 
+org/h2/command/ddl/AlterTableAddConstraint.getUniqueIndex(Lorg/h2/table/Table;[Lorg/h2/table/IndexColumn;)Lorg/h2/index/Index;
+PTG:
+Vars:
+7
+r2 1 7 
+r5 1 -1 
+r4 1 18 
+$r3 1 18 
+$r1 1 1 
+r6 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+1 1 1 
+17 1 7 
+8 1 7 
+28 4 -1 -2 18 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 0 1 
+org/h2/command/ddl/AlterTableAddConstraint.setRefIndexColumns([Lorg/h2/table/IndexColumn;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/ddl/AlterTableAddConstraint.setIndex(Lorg/h2/index/Index;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/ddl/AlterTableAddConstraint.setPrimaryKeyHash(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAddConstraint.setDeleteAction(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/ddl/AlterTableAddConstraint.createIndex(Lorg/h2/table/Table;[Lorg/h2/table/IndexColumn;Z)Lorg/h2/index/Index;
+PTG:
+Vars:
+17
+r18 2 32 20 
+$r9 1 84 
+$r2 1 41 
+$r15 1 -1 
+r1 1 -2 
+$r17 1 126 
+r11 1 -3 
+$r6 1 63 
+r13 1 109 
+r10 1 90 
+$r8 1 81 
+$r19 2 41 47 
+$r7 1 76 
+r0 1 -1 
+$r5 1 67 
+$r12 1 63 
+$r4 1 59 
+Fields: 2
+-1 constraintName 41
+-1 session 63
+Accesses: 4
+52 1 -1 
+40 1 -1 
+93 1 -1 
+62 1 -1 
+Functions: 17
+0 3 -1 41 63 
+67 3 67 41 47 
+131 2 90 126 
+37 2 32 20 
+71 1 67 
+12 1 -2 
+76 1 76 
+111 3 -1 41 63 
+16 0 
+81 1 81 
+117 1 90 
+25 1 -2 
+26 0 
+58 1 -2 
+59 4 -2 84 59 63 
+92 6 32 -2 -3 20 90 63 
+125 3 -1 41 63 
+Constructors: 1
+71 67
+
+Summary: 5
+-3 -1 -2 1 0 
+org/h2/command/ddl/AlterTableAddConstraint.setRefTableName(Lorg/h2/schema/Schema;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 1 0 

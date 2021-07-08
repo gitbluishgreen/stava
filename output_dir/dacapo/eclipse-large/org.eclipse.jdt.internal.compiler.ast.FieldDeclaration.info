@@ -1,0 +1,526 @@
+9
+org/eclipse/jdt/internal/compiler/ast/FieldDeclaration.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/MethodScope;)V
+PTG:
+Vars:
+13
+r1 1 -1 
+$r11 1 50 
+$r3 1 10 
+$r10 2 45 26 
+$r5 1 66 
+$r7 1 82 
+$r4 1 26 
+r2 1 -3 
+$r6 1 82 
+r0 1 -2 
+$r8 1 66 
+$r12 1 10 
+$r9 1 26 
+Fields: 6
+45 ArrayObject 50
+26 ArrayObject 50
+-1 annotations 26
+-1 javadoc 10
+-1 type 66
+-1 initialization 82
+Accesses: 9
+16 1 -1 
+32 1 -1 
+65 1 -1 
+81 1 -1 
+72 1 -1 
+88 1 -1 
+9 1 -1 
+25 1 -1 
+44 1 -1 
+Functions: 6
+0 8 -1 -2 66 82 50 -3 26 10 
+100 8 -1 -2 66 82 50 -3 26 10 
+53 3 -2 50 -3 
+22 3 -2 -3 10 
+78 3 -2 66 -3 
+94 3 -2 82 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/FieldDeclaration.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;)V
+PTG:
+Vars:
+11
+$r9 1 40 
+$r2 1 17 
+r4 1 -2 
+r1 1 -3 
+$r5 1 17 
+$r10 1 43 
+$r6 1 24 
+$r3 1 24 
+$r8 1 24 
+$r7 1 24 
+r0 1 -1 
+Fields: 2
+-1 binding 24
+-1 initialization 17
+Accesses: 9
+0 1 -1 
+16 1 -1 
+36 1 -1 
+100 1 -1 
+23 1 -1 
+58 1 -1 
+90 1 -1 
+11 1 -3 
+76 1 -1 
+Functions: 7
+65 3 17 -2 -3 
+81 2 -3 24 
+37 1 24 
+55 1 -3 
+24 1 24 
+104 1 -3 
+95 2 -3 24 
+Constructors: 0
+
+Summary: 6
+-3 -2 0 40 -1 1 
+org/eclipse/jdt/internal/compiler/ast/FieldDeclaration.resolve(Lorg/eclipse/jdt/internal/compiler/lookup/MethodScope;)V
+PTG:
+Vars:
+100
+$r25 1 845 
+$r103 1 798 
+r88 1 78 
+$r104 1 817 
+$r63 1 403 
+$r100 1 12 
+r90 1 160 
+r0 1 -1 
+$r22 1 12 
+$r37 1 292 
+$r45 1 393 
+r92 1 186 
+$r51 1 393 
+$r5 1 12 
+$r11 1 12 
+$r17 1 784 
+$r1 1 12 
+$r6 1 12 
+$r49 1 712 
+$r65 1 12 
+$r66 1 371 
+$r71 1 55 
+r87 1 53 
+$r36 1 12 
+$r31 1 70 
+$r68 1 12 
+$r53 1 393 
+$r54 1 393 
+r89 1 78 
+$r15 1 393 
+$r50 1 393 
+$r16 1 501 
+$r74 1 144 
+$r57 1 393 
+$r2 1 12 
+$r70 1 278 
+$r69 1 292 
+$r106 1 12 
+$r32 1 393 
+$r21 1 12 
+$r47 1 393 
+$r72 1 70 
+$r76 1 12 
+$r9 1 12 
+$r29 1 817 
+$r23 1 845 
+$r34 1 393 
+r105 1 880 
+$r33 1 393 
+$r107 1 999 
+$r13 1 393 
+$r59 1 393 
+$r48 1 393 
+$r102 1 393 
+$r38 1 393 
+$r96 1 393 
+$r93 1 268 
+r91 1 186 
+$r30 1 805 
+$r40 1 12 
+$r60 1 457 
+$r64 1 12 
+$r24 1 12 
+$r62 1 393 
+$r19 1 12 
+$r28 1 903 
+$r46 1 575 
+$r18 1 12 
+$r7 1 12 
+$r67 1 385 
+$r14 1 393 
+$r79 1 236 
+r95 1 302 
+r4 1 44 
+$r43 1 393 
+$r55 1 393 
+$r42 1 771 
+$r41 1 745 
+$r73 1 55 
+$r61 1 393 
+$r39 1 745 
+r3 1 -2 
+$r44 1 393 
+$r58 1 457 
+$r20 1 1009 
+$r27 1 12 
+r97 1 292 
+$r26 1 12 
+$r80 1 12 
+$r35 1 393 
+$r101 1 12 
+$r10 1 416 
+$r56 1 518 
+$r12 1 12 
+$r8 1 330 
+$r94 1 278 
+$r75 1 116 
+$r77 1 70 
+$r52 1 393 
+$r78 1 12 
+Fields: 12
+12 type 292
+12 declaringClass 845
+-2 initializedField 302
+53 superclass 55
+393 constant 745
+44 parent 160
+-1 binding 12
+-1 name 70
+-1 annotations 330
+-1 type 278
+-1 initialization 393
+-1 javadoc 817
+Accesses: 93
+0 1 -1 
+645 1 -1 
+392 1 -1 
+11 1 -1 
+780 1 -1 
+399 1 -1 
+528 1 -1 
+657 1 -1 
+913 1 -1 
+18 1 -1 
+914 1 12 
+277 1 -1 
+790 1 -1 
+794 1 -1 
+667 1 -1 
+156 1 44 
+284 1 -1 
+412 1 -1 
+668 1 393 
+29 1 -1 
+288 1 -1 
+289 1 12 
+162 1 160 
+930 1 -1 
+37 1 -1 
+422 1 -1 
+934 1 -1 
+295 1 278 
+423 1 12 
+552 1 -1 
+809 1 -1 
+298 1 -2 
+684 1 -1 
+303 1 -2 
+431 1 -1 
+176 1 -1 
+816 1 -1 
+54 1 53 
+310 1 -1 
+823 1 -1 
+440 1 -1 
+952 1 -2 
+697 1 292 
+314 1 -2 
+318 1 -1 
+958 1 -2 
+319 1 12 
+65 1 53 
+961 1 -1 
+450 1 -1 
+578 1 -1 
+834 1 -1 
+69 1 -1 
+325 1 -2 
+329 1 -1 
+841 1 -1 
+842 1 12 
+971 1 -1 
+333 1 -1 
+589 1 -1 
+719 1 -1 
+209 1 -1 
+466 1 -1 
+851 1 -1 
+340 1 -1 
+852 1 12 
+599 1 -1 
+727 1 -1 
+600 1 393 
+986 1 -2 
+478 1 393 
+864 1 -1 
+992 1 -2 
+481 1 -1 
+737 1 -1 
+865 1 12 
+995 1 -1 
+356 1 -1 
+357 1 12 
+741 1 -1 
+742 1 393 
+616 1 -1 
+748 1 -1 
+749 1 12 
+1005 1 -1 
+239 1 -1 
+496 1 -1 
+752 1 292 
+371 1 371 
+119 1 -1 
+760 1 -1 
+761 1 393 
+634 1 -1 
+Functions: 60
+384 2 -2 302 
+129 15 -1 -2 292 70 393 745 330 12 845 78 302 817 53 278 55 
+257 2 53 55 
+389 11 -1 385 817 292 70 278 393 745 330 12 845 
+517 2 -2 302 
+774 4 771 292 12 845 
+902 2 160 44 
+906 1 903 
+267 2 -2 302 
+525 3 292 501 518 
+654 6 -2 292 501 393 745 302 
+143 2 -2 302 
+529 4 292 501 393 745 
+274 12 -1 817 292 70 278 393 745 330 186 268 12 845 
+19 3 292 12 845 
+787 4 784 292 12 845 
+150 12 144 -1 817 292 70 278 393 745 330 12 845 78 
+406 4 403 292 12 845 
+795 2 393 745 
+542 2 292 501 
+419 4 416 292 12 845 
+804 2 -2 302 
+40 2 -2 302 
+813 11 -1 817 292 805 70 278 393 745 330 12 845 
+174 11 160 -1 817 292 70 278 393 745 330 12 845 
+942 1 880 
+49 2 160 44 
+561 6 -2 292 501 393 745 302 
+691 5 -2 292 393 745 302 
+564 2 292 501 
+437 3 292 393 745 
+828 3 817 -2 302 
+574 2 -2 302 
+64 13 160 -1 292 70 393 745 330 44 12 845 817 278 55 
+962 0 
+451 5 -2 292 393 745 302 
+196 1 186 
+711 2 -2 302 
+586 5 292 501 393 745 575 
+337 6 -2 292 330 12 845 302 
+978 0 
+724 5 292 501 712 393 745 
+341 3 292 12 845 
+855 1 845 
+88 1 78 
+728 3 292 12 845 
+996 3 292 12 845 
+745 1 745 
+234 1 186 
+490 6 -2 292 393 745 457 302 
+876 2 -2 302 
+623 5 -2 292 393 745 302 
+497 4 -2 393 745 302 
+114 1 78 
+370 2 -2 302 
+882 1 880 
+1012 4 1009 292 12 845 
+629 13 -1 -2 292 70 393 745 330 12 845 302 817 501 278 
+249 1 186 
+764 1 745 
+Constructors: 0
+
+Summary: 20
+236 116 575 903 371 268 798 518 55 805 771 53 144 385 712 999 0 -1 880 965 
+org/eclipse/jdt/internal/compiler/ast/FieldDeclaration.<init>([CII)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+16 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/compiler/ast/FieldDeclaration.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/MethodScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+29
+$r17 1 1 
+$r7 1 1 
+$r11 1 82 
+$r27 1 133 
+$r6 1 1 
+r3 1 -3 
+$r22 1 28 
+$r1 1 1 
+$r20 1 1 
+$r9 1 1 
+r0 1 -1 
+$r15 1 92 
+$r24 1 41 
+$r13 1 92 
+$r23 1 31 
+$r21 1 1 
+$r16 1 115 
+$r26 1 1 
+$r14 1 1 
+$r12 1 1 
+$r18 1 92 
+$r10 1 79 
+$r19 1 92 
+$r8 1 1 
+$r5 1 146 
+r25 2 152 -4 
+r2 1 -2 
+_ret 2 152 -4 
+$r4 1 133 
+Fields: 4
+-1 binding 1
+-1 initialization 133
+1 declaringClass 92
+28 compilationResult 31
+Accesses: 18
+0 1 -1 
+65 1 -1 
+132 1 -1 
+101 1 -1 
+102 1 1 
+7 1 -1 
+75 1 -1 
+139 1 -1 
+48 1 -1 
+17 1 -1 
+118 1 -1 
+55 1 -1 
+119 1 1 
+88 1 -1 
+89 1 1 
+154 1 -1 
+28 1 28 
+31 1 31 
+Functions: 15
+129 5 -1 1 115 133 92 
+66 2 1 92 
+8 2 1 92 
+40 1 -2 
+105 1 92 
+76 2 1 92 
+140 5 -2 -3 -4 133 152 
+45 5 -1 1 133 41 92 
+18 2 1 92 
+114 1 -2 
+146 1 146 
+56 2 1 92 
+27 1 -2 
+92 1 92 
+158 4 1 -4 152 92 
+Constructors: 0
+
+Summary: 10
+41 -3 0 1 28 115 79 2 31 -1 
+org/eclipse/jdt/internal/compiler/ast/FieldDeclaration.printStatement(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+6
+$r4 1 1 
+$r1 1 1 
+r0 1 -1 
+r2 1 -3 
+_ret 1 20 
+$r3 1 20 
+Fields: 1
+-1 javadoc 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+17 3 -1 1 -3 
+13 2 1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+org/eclipse/jdt/internal/compiler/ast/FieldDeclaration.getKind()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 type 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/FieldDeclaration.isStatic()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 binding 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/FieldDeclaration.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 

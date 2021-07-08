@@ -1,0 +1,1731 @@
+31
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.isPIWellFormed(Lorg/w3c/dom/ProcessingInstruction;)V
+PTG:
+Vars:
+19
+$r2 1 2 
+$r15 1 45 
+$r13 1 45 
+r18 1 85 
+r0 1 -1 
+r1 1 -2 
+$r17 1 77 
+$r11 1 17 
+$r3 1 96 
+$r5 1 108 
+$r12 1 34 
+$r14 1 55 
+$r9 1 45 
+$r10 1 23 
+r16 1 43 
+r6 1 115 
+$r7 1 45 
+$r8 1 127 
+$r4 1 90 
+Fields: 2
+23 ArrayObject 30
+-1 fErrorHandler 45
+Accesses: 5
+51 1 -1 
+116 1 -1 
+7 1 -1 
+123 1 -1 
+44 1 -1 
+Functions: 14
+0 3 -1 2 45 
+1 1 -2 
+33 1 -2 
+66 2 55 43 
+69 2 55 45 
+101 1 85 
+102 0 
+105 0 
+138 2 115 127 
+75 3 -1 45 77 
+76 1 -2 
+141 2 45 127 
+17 3 17 23 30 
+90 2 96 90 
+Constructors: 2
+66 55
+138 127
+
+Summary: 12
+127 2 -2 43 96 77 23 115 30 -1 55 85 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.initProperties(Ljava/util/Properties;)V
+PTG:
+Vars:
+33
+r30 1 225 
+r1 1 4 
+$r5 9 244 258 295 337 125 185 148 357 198 
+r0 1 -2 
+$r3 1 350 
+$r4 1 350 
+$r27 8 244 258 295 337 125 185 148 198 
+r32 1 323 
+$r28 1 31 
+$r23 8 244 258 295 337 125 185 148 198 
+$r16 8 244 258 295 337 125 185 148 198 
+$r21 1 172 
+$r10 1 100 
+$r11 1 160 
+$r19 8 244 258 295 337 125 185 148 198 
+$r12 1 210 
+$r20 8 244 258 295 337 125 185 148 198 
+$r8 1 24 
+$r14 1 308 
+r7 1 15 
+r9 1 31 
+$r22 8 244 258 295 337 125 185 148 198 
+$r29 1 58 
+$r17 8 244 295 258 337 125 185 148 198 
+r31 1 287 
+r2 1 -1 
+$r26 8 244 258 295 337 125 185 148 198 
+$r25 8 244 258 295 337 125 185 148 198 
+$r18 1 227 
+$r13 1 272 
+$r6 1 15 
+$r15 1 325 
+$r24 1 112 
+Fields: 10
+-1 fNewLine 350
+-1 fSerializer 244
+-1 fSerializer 258
+-1 fSerializer 295
+-1 fSerializer 337
+-1 fSerializer 125
+-1 fSerializer 185
+-1 fSerializer 148
+-1 fSerializer 357
+-1 fSerializer 198
+Accesses: 17
+257 1 -1 
+356 1 -1 
+197 1 -1 
+134 1 -1 
+294 1 -1 
+71 1 -1 
+363 1 -1 
+78 1 -1 
+240 1 -1 
+336 1 -1 
+147 1 -1 
+243 1 -1 
+85 1 -1 
+184 1 -1 
+124 1 -1 
+349 1 -1 
+94 1 -1 
+Functions: 31
+0 1 -2 
+129 8 337 258 244 148 198 295 185 125 
+5 1 4 
+325 2 323 325 
+264 8 337 258 244 148 198 295 185 125 
+202 8 337 258 244 148 198 295 185 125 
+139 8 337 258 244 148 198 295 185 125 
+14 1 4 
+272 2 272 15 
+210 2 210 15 
+341 8 337 258 244 148 198 295 185 125 
+24 2 24 15 
+152 8 337 258 244 148 198 295 185 125 
+282 2 -2 15 
+220 2 -2 15 
+160 2 160 15 
+227 2 225 227 
+100 2 100 15 
+170 2 -2 15 
+172 1 172 
+300 9 337 258 244 148 198 295 185 125 287 
+110 2 -2 15 
+367 10 337 258 244 148 357 198 295 185 125 350 
+48 1 31 
+112 1 112 
+308 2 308 15 
+56 2 -2 15 
+249 9 337 225 258 244 148 198 295 185 125 
+58 1 58 
+189 8 337 258 244 148 198 295 185 125 
+318 2 -2 15 
+Constructors: 0
+
+Summary: 11
+225 287 58 323 31 112 15 -2 4 172 -1 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.isCommentWellFormed(Ljava/lang/String;)V
+PTG:
+Vars:
+27
+r1 1 16 
+$r22 1 311 
+$r10 2 127 195 
+$r19 2 127 195 
+$r9 1 183 
+$r7 1 342 
+$r17 1 111 
+r0 1 -2 
+r18 1 124 
+$r25 2 400 332 
+$r14 2 127 195 
+$r8 2 400 332 
+r20 1 192 
+$r3 1 388 
+$r11 1 205 
+$r6 2 400 332 
+$r21 1 305 
+$r23 1 316 
+$r15 1 100 
+$r13 1 137 
+$r16 1 106 
+r24 1 329 
+$r12 2 127 195 
+r2 1 -1 
+$r5 1 410 
+r26 1 397 
+$r4 2 400 332 
+Fields: 4
+-1 fErrorHandler 195
+-1 fErrorHandler 400
+-1 fErrorHandler 127
+-1 fErrorHandler 332
+Accesses: 9
+194 1 -1 
+338 1 -1 
+20 1 -1 
+133 1 -1 
+406 1 -1 
+201 1 -1 
+331 1 -1 
+126 1 -1 
+399 1 -1 
+Functions: 26
+258 0 
+322 1 316 
+4 1 -2 
+388 1 388 
+12 1 -2 
+76 0 
+149 2 137 124 
+86 0 
+88 0 
+152 3 195 137 127 
+217 2 192 205 
+281 0 
+220 3 195 205 127 
+354 2 342 329 
+291 0 
+100 2 100 106 
+293 0 
+357 3 400 342 332 
+422 2 410 397 
+425 3 400 410 332 
+45 0 
+305 2 305 311 
+53 0 
+117 1 111 
+183 1 183 
+250 0 
+Constructors: 6
+322 316
+354 342
+117 111
+149 137
+422 410
+217 205
+
+Summary: 13
+311 -2 124 192 342 397 410 205 137 106 16 -1 329 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.isXMLName(Ljava/lang/String;Z)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+10 1 -2 
+15 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.serializeText(Lorg/w3c/dom/Text;)V
+PTG:
+Vars:
+8
+$r4 1 137 
+$r6 1 13 
+$r2 1 116 
+$r3 1 128 
+$r5 1 140 
+$r7 1 13 
+r0 1 -1 
+r1 1 -2 
+Fields: 2
+-1 fSerializer 13
+-1 fSerializer 116
+Accesses: 8
+0 1 -1 
+48 1 -1 
+66 1 -1 
+115 1 -1 
+84 1 -1 
+9 1 -1 
+12 1 -1 
+30 1 -1 
+Functions: 12
+128 1 128 
+20 1 13 
+116 1 116 
+101 4 -1 -2 116 13 
+38 1 13 
+151 4 -1 -2 116 13 
+73 1 -2 
+137 1 137 
+27 4 -1 -2 116 13 
+140 1 140 
+61 4 -1 -2 116 13 
+127 1 -2 
+Constructors: 0
+
+Summary: 5
+128 -2 137 -1 140 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.fixupElementNS(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+35
+$r3 1 -2 
+$r9 1 212 
+$r15 1 283 
+r27 1 19 
+$r12 1 178 
+$r14 1 -2 
+$r13 1 247 
+$r2 1 -2 
+$r17 1 47 
+$r7 1 200 
+r0 1 -2 
+$r23 1 134 
+r34 1 255 
+r33 1 209 
+$r19 1 -2 
+$r22 1 -2 
+$r21 1 125 
+$r5 1 194 
+$r24 1 138 
+$r32 1 47 
+r29 2 39 19 
+$r6 1 188 
+$r11 1 212 
+$r28 2 39 19 
+$r10 1 222 
+r8 1 -1 
+$r18 1 84 
+r4 1 29 
+r26 1 9 
+$r1 1 -2 
+$r16 1 247 
+$r20 1 93 
+$r25 1 141 
+$r31 1 151 
+r30 1 54 
+Fields: 5
+-1 fLocalNSBinder 283
+-1 fLocalNSBinder 151
+-1 fNSBinder 247
+-1 fNSBinder 47
+-1 fErrorHandler 212
+Accesses: 9
+160 1 -1 
+211 1 -1 
+150 1 -1 
+246 1 -1 
+294 1 -1 
+73 1 -1 
+218 1 -1 
+282 1 -1 
+46 1 -1 
+Functions: 25
+1 1 -2 
+129 1 125 
+260 1 255 
+134 3 19 134 39 
+199 1 -2 
+138 1 138 
+11 1 -2 
+145 3 -2 9 141 
+84 3 19 84 39 
+21 1 -2 
+277 1 -2 
+156 4 19 151 39 9 
+93 2 9 93 
+290 1 283 
+166 4 19 39 9 47 
+234 2 209 222 
+237 2 212 222 
+302 1 247 
+47 3 19 39 47 
+111 2 -2 9 
+178 2 178 29 
+247 1 247 
+188 2 194 188 
+61 2 54 9 
+125 1 125 
+Constructors: 2
+129 125
+234 222
+
+Summary: 14
+54 138 9 134 255 222 -2 19 209 -1 29 125 141 194 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.serializeAttList(Lorg/w3c/dom/Element;)V
+PTG:
+Vars:
+74
+$r38 1 377 
+r2 1 31 
+$r68 1 479 
+$r61 1 31 
+$r16 1 648 
+$r21 1 257 
+$r71 2 453 496 
+$r20 1 662 
+$r13 1 733 
+$r26 1 549 
+$r10 2 404 574 
+$r50 1 354 
+$r39 1 411 
+$r34 2 453 496 
+r65 1 276 
+$r24 1 535 
+$r19 1 672 
+$r12 2 404 574 
+$r9 2 404 574 
+$r25 1 544 
+$r14 1 733 
+r63 3 68 61 247 
+r56 2 68 61 
+$r32 1 598 
+$r53 1 99 
+$r30 1 590 
+$r17 1 642 
+$r62 3 68 61 247 
+r6 1 -1 
+$r27 1 554 
+$r8 2 404 574 
+r1 1 6 
+$r72 1 501 
+r64 1 265 
+$r69 1 487 
+$r37 1 524 
+$r46 1 313 
+$r22 1 257 
+$r31 1 595 
+$r33 1 257 
+$r4 1 53 
+$r15 1 733 
+$r18 1 662 
+$r51 1 288 
+$r41 1 420 
+$r48 1 344 
+$r35 1 507 
+$r40 2 404 574 
+$r11 1 832 
+$r29 2 404 574 
+$r74 2 960 971 
+$r23 1 278 
+$r28 1 581 
+$r58 2 109 116 
+$r43 1 428 
+r73 1 659 
+$r44 1 257 
+r3 1 40 
+r5 1 82 
+$r49 1 349 
+$r55 2 68 61 
+r0 1 -2 
+r57 1 109 
+$r67 1 470 
+r60 1 132 
+$r36 1 516 
+$r42 1 425 
+$r45 2 453 496 
+r70 2 530 493 
+$r52 1 31 
+r54 5 49 157 560 360 40 
+$r7 1 976 
+$r47 1 335 
+r59 2 109 116 
+Fields: 7
+-1 fSerializer 404
+-1 fSerializer 574
+-1 fLocalNSBinder 453
+-1 fLocalNSBinder 496
+-1 fFilter 733
+-1 fNSBinder 257
+-1 fErrorHandler 662
+Accesses: 28
+256 1 -1 
+452 1 -1 
+708 1 -1 
+392 1 -1 
+842 1 -1 
+267 1 -1 
+204 1 -1 
+912 1 -1 
+403 1 -1 
+661 1 -1 
+87 1 -1 
+986 1 -1 
+668 1 -1 
+732 1 -1 
+221 1 -1 
+610 1 -1 
+739 1 -1 
+936 1 -1 
+874 1 -1 
+622 1 -1 
+495 1 -1 
+816 1 -1 
+562 1 -1 
+693 1 -1 
+758 1 -1 
+440 1 -1 
+890 1 -1 
+573 1 -1 
+Functions: 71
+0 1 -2 
+257 2 257 132 
+642 2 642 648 
+516 1 516 
+7 1 6 
+904 11 560 49 82 404 132 116 40 360 157 109 574 
+139 1 132 
+268 4 257 68 247 61 
+524 1 524 
+150 1 31 
+278 4 68 278 247 61 
+23 1 6 
+535 3 530 535 493 
+411 1 411 
+539 1 535 
+926 10 560 49 82 404 116 40 360 157 109 574 
+415 1 411 
+288 2 288 265 
+544 1 544 
+33 1 31 
+161 1 31 
+420 4 420 68 247 61 
+549 2 549 40 
+425 1 425 
+42 1 31 
+298 4 68 247 265 61 
+554 1 554 
+684 2 672 659 
+687 2 672 662 
+177 5 560 49 360 40 157 
+51 1 31 
+435 7 404 68 132 247 428 61 574 
+947 5 560 49 360 40 157 
+313 2 313 265 
+187 5 560 49 360 40 157 
+448 5 257 68 132 247 61 
+832 2 832 40 
+66 1 31 
+581 1 581 
+965 5 560 49 360 40 157 
+327 1 265 
+585 1 581 
+75 1 31 
+460 6 496 68 132 453 247 61 
+590 3 530 493 590 
+335 2 265 335 
+976 3 976 960 971 
+339 1 335 
+595 1 595 
+470 1 470 
+344 1 344 
+856 11 560 49 82 404 132 116 40 360 157 109 574 
+218 9 -1 496 257 404 453 662 733 574 31 
+474 1 470 
+349 2 40 349 
+605 6 530 404 132 598 493 574 
+479 1 479 
+96 1 31 
+354 1 354 
+994 5 960 82 404 971 574 
+99 1 99 
+740 1 733 
+487 1 487 
+618 4 257 530 132 493 
+496 4 496 530 453 493 
+630 5 496 530 132 453 493 
+759 2 733 31 
+377 4 68 247 377 61 
+507 1 507 
+125 1 31 
+511 1 507 
+Constructors: 7
+339 335
+585 581
+474 470
+539 535
+684 672
+415 411
+511 507
+
+Summary: 44
+132 549 487 590 516 425 68 560 99 40 349 335 265 530 82 360 581 535 470 -1 507 595 971 411 554 344 659 53 493 501 479 31 354 524 598 -2 109 672 648 420 6 276 544 428 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.startNode(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+18
+r0 1 -2 
+$r5 1 -2 
+r1 1 -1 
+$r15 1 43 
+$r9 1 -2 
+$r4 1 -2 
+r11 1 -2 
+$r10 1 -2 
+$r14 1 13 
+$r7 1 -2 
+$r2 1 68 
+$r13 1 13 
+$r3 1 68 
+$r16 1 13 
+$r12 1 13 
+$r17 1 56 
+$r6 1 -2 
+$r8 1 -2 
+Fields: 2
+-1 fLocator 13
+-1 fLocator 68
+Accesses: 6
+51 1 -1 
+67 1 -1 
+38 1 -1 
+25 1 -1 
+75 1 -1 
+12 1 -1 
+Functions: 18
+194 4 -1 -2 68 13 
+35 1 13 
+228 4 -1 -2 68 13 
+165 4 -1 -2 68 13 
+72 1 68 
+42 1 -2 
+205 4 -1 -2 68 13 
+16 1 -2 
+48 2 43 13 
+80 1 68 
+83 1 -2 
+22 1 13 
+55 1 -2 
+183 4 -1 -2 68 13 
+216 4 -1 -2 68 13 
+154 4 -1 -2 68 13 
+29 1 -2 
+61 2 56 13 
+Constructors: 0
+
+Summary: 4
+-2 43 -1 56 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.serializeElement(Lorg/w3c/dom/Element;Z)V
+PTG:
+Vars:
+13
+$r7 1 76 
+$r11 1 52 
+$r9 1 86 
+$r2 1 131 
+r0 1 -1 
+$r3 1 135 
+r1 1 -2 
+$r6 1 169 
+$r10 1 92 
+$r4 1 141 
+$r5 1 147 
+$r12 1 59 
+$r8 1 80 
+Fields: 5
+-1 fSerializer 76
+-1 fSerializer 131
+-1 fLocalNSBinder 59
+-1 fNSBinder 52
+-1 fNSBinder 169
+Accesses: 12
+130 1 -1 
+51 1 -1 
+4 1 -1 
+117 1 -1 
+40 1 -1 
+168 1 -1 
+58 1 -1 
+11 1 -1 
+75 1 -1 
+157 1 -1 
+14 1 -1 
+110 1 -1 
+Functions: 17
+97 4 80 86 76 92 
+67 7 -1 -2 131 52 169 59 76 
+134 1 -2 
+72 7 -1 -2 131 52 169 59 76 
+104 7 -1 -2 131 52 169 59 76 
+140 1 -2 
+172 1 169 
+79 1 -2 
+146 1 -2 
+85 1 -2 
+55 1 52 
+120 7 -1 -2 131 52 169 59 76 
+152 4 131 147 135 141 
+27 7 -1 -2 131 52 169 59 76 
+91 1 -2 
+30 7 -1 -2 131 52 169 59 76 
+62 1 59 
+Constructors: 0
+
+Summary: 8
+80 -2 135 147 86 -1 92 141 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.isAttributeWellFormed(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+27
+$r19 1 94 
+r26 1 208 
+$r13 1 181 
+r24 1 120 
+$r18 1 84 
+r25 1 168 
+$r11 1 159 
+r0 1 -1 
+$r12 1 84 
+$r21 1 15 
+$r20 1 84 
+r3 1 234 
+$r17 1 73 
+$r14 1 84 
+$r4 1 234 
+r23 1 82 
+$r2 1 39 
+$r8 1 130 
+$r6 1 136 
+$r5 1 234 
+$r22 1 21 
+$r15 1 62 
+$r10 1 150 
+$r7 1 -2 
+$r9 1 145 
+$r16 1 56 
+r1 1 -2 
+Fields: 2
+62 ArrayObject 69
+-1 fErrorHandler 84
+Accesses: 7
+177 1 -1 
+2 1 -1 
+83 1 -1 
+26 1 -1 
+90 1 -1 
+170 1 -1 
+44 1 -1 
+Functions: 23
+193 2 181 168 
+225 1 208 
+130 2 130 136 
+196 2 84 181 
+37 3 -1 84 39 
+38 1 -2 
+294 3 -1 84 234 
+72 1 -2 
+105 2 82 94 
+202 1 -2 
+108 2 84 94 
+13 4 -1 84 21 15 
+14 1 -2 
+142 1 -2 
+145 1 145 
+114 1 -2 
+20 1 -2 
+244 1 234 
+215 1 208 
+56 3 69 56 62 
+121 1 120 
+282 3 -1 84 234 
+158 1 -2 
+Constructors: 2
+193 181
+105 94
+
+Summary: 16
+15 -2 62 145 39 69 21 82 120 181 136 234 94 208 -1 168 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.<init>(Lcom/sun/org/apache/xml/internal/serializer/SerializationHandler;Lorg/w3c/dom/DOMErrorHandler;Lorg/w3c/dom/ls/LSSerializerFilter;Ljava/lang/String;)V
+PTG:
+Vars:
+22
+r5 1 -5 
+$r1 1 10 
+$r9 1 133 
+$r8 1 130 
+$r15 1 175 
+r2 1 -2 
+$r19 1 189 
+$r12 1 156 
+$r10 1 146 
+$r21 1 -1 
+$r16 1 178 
+r3 1 -3 
+$r7 1 118 
+$r13 1 166 
+$r6 1 107 
+$r17 1 181 
+$r14 1 146 
+$r18 1 184 
+$r11 1 130 
+$r20 1 192 
+r4 1 -4 
+r0 1 -1 
+Fields: 3
+-1 fSerializer 130
+-1 fDOMConfigProperties 156
+-1 fLocator 146
+Accesses: 27
+129 1 -1 
+67 1 -1 
+6 1 -1 
+72 1 -1 
+138 1 -1 
+77 1 -1 
+141 1 -1 
+17 1 -1 
+145 1 -1 
+82 1 -1 
+22 1 -1 
+87 1 -1 
+27 1 -1 
+155 1 -1 
+92 1 -1 
+32 1 -1 
+97 1 -1 
+162 1 -1 
+37 1 -1 
+103 1 -1 
+42 1 -1 
+47 1 -1 
+114 1 -1 
+52 1 -1 
+57 1 -1 
+125 1 -1 
+62 1 -1 
+Functions: 14
+1 4 -1 130 146 156 
+130 1 130 
+195 2 192 146 
+166 2 166 175 
+170 1 166 
+173 0 
+14 1 10 
+111 1 107 
+178 2 178 181 
+149 2 130 146 
+184 1 184 
+122 1 118 
+189 1 189 
+159 4 -1 130 146 156 
+Constructors: 5
+1 -1
+122 118
+170 166
+14 10
+111 107
+
+Summary: 11
+184 192 0 189 1 178 175 3 166 2 -1 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.isCDATASectionWellFormed(Lorg/w3c/dom/CDATASection;)V
+PTG:
+Vars:
+11
+r3 1 10 
+r1 1 -2 
+r0 1 -1 
+$r10 1 42 
+r7 1 40 
+$r9 1 52 
+$r2 1 2 
+$r6 1 33 
+$r5 1 15 
+$r4 1 21 
+$r8 1 42 
+Fields: 1
+-1 fErrorHandler 42
+Accesses: 2
+48 1 -1 
+41 1 -1 
+Functions: 8
+0 3 -1 2 42 
+1 1 -2 
+66 2 52 42 
+26 1 10 
+27 0 
+30 0 
+15 2 21 15 
+63 2 52 40 
+Constructors: 1
+63 52
+
+Summary: 7
+2 -2 52 40 -1 10 21 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.recordLocalNSDecl(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+28
+r19 1 61 
+$r8 2 236 251 
+$r27 2 129 70 
+r2 1 9 
+r12 1 180 
+r26 2 115 61 
+r20 1 70 
+r7 1 -1 
+$r11 1 158 
+$r14 1 193 
+$r4 1 138 
+r22 2 43 87 
+$r16 1 77 
+r3 1 34 
+$r6 1 217 
+$r1 1 -2 
+r17 1 43 
+$r5 1 148 
+$r23 2 52 101 
+r18 1 52 
+$r9 2 236 251 
+$r15 1 183 
+$r10 1 164 
+$r13 1 183 
+r24 2 52 101 
+$r25 2 115 61 
+r0 1 -2 
+$r21 2 43 87 
+Fields: 4
+164 ArrayObject 176
+-1 fErrorHandler 183
+-1 fNSBinder 236
+-1 fNSBinder 251
+Accesses: 4
+182 1 -1 
+250 1 -1 
+235 1 -1 
+189 1 -1 
+Functions: 17
+1 1 -2 
+258 4 115 251 236 61 
+227 2 115 61 
+36 1 34 
+10 1 9 
+138 3 129 70 138 
+45 1 34 
+77 2 43 77 
+205 2 193 180 
+208 2 193 183 
+243 6 115 87 251 43 236 61 
+148 3 115 148 61 
+54 1 34 
+217 3 52 101 217 
+26 1 9 
+158 3 176 164 158 
+63 1 34 
+Constructors: 1
+205 193
+
+Summary: 11
+-2 43 70 164 180 34 61 9 176 -1 193 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.isWFXMLChar(Ljava/lang/String;Ljava/lang/Character;)Z
+PTG:
+Vars:
+4
+r1 1 17 
+r0 1 -2 
+r2 1 -1 
+r3 1 -3 
+Fields: 0
+Accesses: 1
+22 1 -1 
+Functions: 14
+96 0 
+4 1 -2 
+139 0 
+13 1 -2 
+45 0 
+208 0 
+114 0 
+178 0 
+84 0 
+154 0 
+60 0 
+188 0 
+94 0 
+190 0 
+Constructors: 0
+
+Summary: 6
+-3 -2 202 108 17 -1 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.isTextWellFormed(Lorg/w3c/dom/Text;)V
+PTG:
+Vars:
+11
+r1 1 -2 
+$r5 1 15 
+$r4 1 21 
+$r10 1 42 
+$r9 1 52 
+$r2 1 2 
+r0 1 -1 
+$r6 1 33 
+r7 1 40 
+r3 1 10 
+$r8 1 42 
+Fields: 1
+-1 fErrorHandler 42
+Accesses: 2
+48 1 -1 
+41 1 -1 
+Functions: 8
+0 3 -1 2 42 
+1 1 -2 
+66 2 52 42 
+26 1 10 
+27 0 
+30 0 
+15 2 21 15 
+63 2 52 40 
+Constructors: 1
+63 52
+
+Summary: 7
+2 -2 52 40 -1 10 21 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.dispatachChars(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+8
+$r1 1 1 
+$r5 1 1 
+$r6 1 35 
+$r3 1 -2 
+r4 1 29 
+r2 1 -2 
+$r7 1 1 
+r0 1 -1 
+Fields: 1
+-1 fSerializer 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+30 1 -1 
+Functions: 5
+34 1 29 
+21 1 -2 
+39 1 29 
+43 2 1 35 
+12 2 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 0 35 -1 29 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.traverse(Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+14
+$r9 1 32 
+r0 1 -1 
+$r8 1 1 
+r13 2 172 139 
+$r2 1 -2 
+$r12 1 1 
+r10 3 -2 172 139 
+$r1 1 1 
+$r3 1 61 
+r6 1 -3 
+r11 1 26 
+$r7 1 102 
+$r5 1 1 
+$r4 1 102 
+Fields: 2
+-1 fSerializer 1
+-1 fFilter 102
+Accesses: 10
+0 1 -1 
+80 1 -1 
+98 1 -1 
+51 1 -1 
+83 1 -1 
+101 1 -1 
+213 1 -1 
+118 1 -1 
+109 1 -1 
+94 1 -1 
+Functions: 16
+32 1 32 
+128 6 -1 1 -2 102 139 172 
+195 4 -2 -3 139 172 
+4 1 1 
+133 3 -2 139 172 
+166 3 -2 139 172 
+9 3 -2 139 172 
+110 1 102 
+178 3 -2 139 172 
+147 6 -1 1 -2 102 139 172 
+20 3 -2 139 172 
+217 1 1 
+58 1 -2 
+155 4 -2 -3 139 172 
+61 1 61 
+31 1 26 
+Constructors: 0
+
+Summary: 9
+184 -3 -2 172 32 61 139 26 -1 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.isValidQName(Ljava/lang/String;Ljava/lang/String;Z)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -3 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+17 1 -2 
+52 1 -3 
+24 1 -3 
+45 1 -2 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.traverse(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+14
+r13 2 141 169 
+r12 1 -2 
+$r11 1 1 
+$r4 1 102 
+$r3 1 61 
+$r1 1 1 
+r9 3 -2 141 169 
+r10 1 26 
+$r5 1 1 
+r0 1 -1 
+$r7 1 1 
+$r6 1 102 
+$r8 1 32 
+$r2 1 -2 
+Fields: 2
+-1 fSerializer 1
+-1 fFilter 102
+Accesses: 10
+0 1 -1 
+80 1 -1 
+98 1 -1 
+51 1 -1 
+83 1 -1 
+101 1 -1 
+118 1 -1 
+215 1 -1 
+109 1 -1 
+94 1 -1 
+Functions: 17
+32 1 32 
+130 6 -1 1 -2 102 169 141 
+163 3 -2 169 141 
+4 1 1 
+135 3 -2 169 141 
+9 3 -2 169 141 
+202 6 -1 1 -2 102 169 141 
+110 1 102 
+175 3 -2 169 141 
+20 3 -2 169 141 
+149 6 -1 1 -2 102 169 141 
+152 3 -2 169 141 
+58 1 -2 
+187 3 -2 169 141 
+219 1 1 
+61 1 61 
+31 1 26 
+Constructors: 0
+
+Summary: 8
+-2 32 61 181 26 -1 141 169 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.<clinit>()V
+PTG:
+Vars:
+24
+$r13 1 108 
+$r1 1 12 
+$r4 1 35 
+$r2 1 21 
+$r11 1 92 
+$r28 1 232 
+$r16 1 134 
+$r26 1 221 
+$r32 1 256 
+$r30 1 244 
+$r25 1 211 
+$r10 1 82 
+$r17 1 144 
+$r23 1 196 
+$r19 1 160 
+$r0 1 0 
+$r36 1 280 
+$r5 1 44 
+$r14 1 118 
+$r8 1 67 
+$r7 1 58 
+$r22 1 186 
+$r34 1 268 
+$r20 1 170 
+Fields: 0
+Accesses: 0
+Functions: 24
+192 1 186 
+288 1 280 
+99 2 82 92 
+4 1 0 
+228 2 211 221 
+166 1 160 
+40 1 35 
+264 1 256 
+74 2 67 58 
+203 2 196 186 
+140 1 134 
+240 1 232 
+17 1 12 
+177 2 160 170 
+114 1 108 
+51 2 35 44 
+276 1 268 
+151 2 144 134 
+88 1 82 
+217 1 211 
+28 2 21 12 
+252 1 244 
+125 2 118 108 
+63 1 58 
+Constructors: 10
+192 186
+17 12
+114 108
+4 0
+166 160
+40 35
+88 82
+217 211
+140 134
+63 58
+
+Summary: 9
+186 211 108 134 160 35 82 12 58 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.endNode(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+r1 1 -1 
+$r2 1 -2 
+$r4 1 -2 
+$r3 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+96 2 -1 -2 
+81 2 -1 -2 
+69 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.checkUnboundPrefixInEntRef(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+29
+$r10 1 190 
+$r23 1 91 
+$r12 1 211 
+r13 1 220 
+$r18 1 47 
+$r4 1 149 
+r28 1 128 
+$r6 1 42 
+$r14 1 91 
+r0 1 -2 
+$r9 1 178 
+$r11 1 199 
+$r21 1 65 
+r27 1 88 
+$r15 1 233 
+$r19 1 59 
+$r24 1 101 
+$r8 1 184 
+r5 1 159 
+$r22 1 74 
+$r25 1 91 
+r2 1 -1 
+$r16 1 91 
+r1 1 17 
+$r7 1 172 
+r3 1 34 
+$r20 1 53 
+$r17 1 42 
+r26 2 6 17 
+Fields: 2
+-1 fNSBinder 42
+-1 fErrorHandler 91
+Accesses: 6
+97 1 -1 
+229 1 -1 
+166 1 -1 
+41 1 -1 
+90 1 -1 
+222 1 -1 
+Functions: 23
+0 1 -2 
+64 1 -2 
+260 2 17 6 
+198 2 17 6 
+135 1 128 
+167 2 42 159 
+73 2 17 6 
+42 2 34 42 
+11 2 17 6 
+207 1 128 
+271 5 -1 17 6 42 91 
+113 2 101 88 
+145 1 128 
+18 2 17 6 
+178 2 178 184 
+116 2 101 91 
+53 2 53 59 
+149 1 149 
+245 2 233 220 
+248 2 233 91 
+122 2 17 6 
+28 2 17 6 
+189 1 -2 
+Constructors: 2
+113 101
+245 233
+
+Summary: 15
+233 220 17 59 101 -2 88 184 128 149 6 172 -1 159 47 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.serializeComment(Lorg/w3c/dom/Comment;)V
+PTG:
+Vars:
+6
+$r5 1 57 
+$r4 1 34 
+r0 1 -1 
+r1 1 -2 
+$r3 1 34 
+r2 1 16 
+Fields: 1
+-1 fLexicalHandler 34
+Accesses: 4
+0 1 -1 
+17 1 -1 
+33 1 -1 
+52 1 -1 
+Functions: 6
+65 2 34 57 
+40 3 -1 -2 34 
+56 1 16 
+10 1 -2 
+61 1 16 
+30 3 -1 16 34 
+Constructors: 0
+
+Summary: 4
+16 -2 -1 57 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.serializeCDATASection(Lorg/w3c/dom/CDATASection;)V
+PTG:
+Vars:
+13
+r15 1 62 
+$r3 1 178 
+$r14 1 76 
+r0 1 -1 
+$r12 1 76 
+$r11 1 64 
+r16 1 73 
+$r5 1 178 
+r1 1 -2 
+$r6 1 178 
+$r13 1 86 
+$r4 1 178 
+r2 1 31 
+Fields: 2
+-1 fLexicalHandler 178
+-1 fErrorHandler 76
+Accesses: 11
+0 1 -1 
+16 1 -1 
+177 1 -1 
+82 1 -1 
+198 1 -1 
+39 1 -1 
+136 1 -1 
+184 1 -1 
+75 1 -1 
+205 1 -1 
+143 1 -1 
+Functions: 16
+32 1 31 
+64 1 64 
+99 3 86 73 62 
+195 4 -1 -2 178 76 
+102 2 86 76 
+166 4 -1 -2 178 76 
+13 4 -1 -2 178 76 
+209 1 178 
+54 1 31 
+25 1 -2 
+123 1 31 
+219 4 -1 -2 178 76 
+156 0 
+188 1 178 
+125 0 
+159 0 
+Constructors: 1
+99 86
+
+Summary: 8
+-2 86 62 73 134 31 -1 147 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.isWFXMLChar(Ljava/lang/String;)Ljava/lang/Character;
+PTG:
+Vars:
+3
+r2 1 -1 
+r0 1 -2 
+r1 1 17 
+Fields: 0
+Accesses: 1
+22 1 -1 
+Functions: 14
+96 0 
+4 1 -2 
+139 0 
+13 1 -2 
+45 0 
+208 0 
+114 0 
+178 0 
+84 0 
+154 0 
+60 0 
+188 0 
+94 0 
+190 0 
+Constructors: 0
+
+Summary: 3
+-2 17 -1 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.applyFilter(Lorg/w3c/dom/Node;I)Z
+PTG:
+Vars:
+4
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+$r3 1 1 
+Fields: 1
+-1 fFilter 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+7 1 -1 
+Functions: 1
+17 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.serializeDocType(Lorg/w3c/dom/DocumentType;Z)V
+PTG:
+Vars:
+17
+$r8 1 250 
+$r6 1 274 
+$r33 1 173 
+r4 1 29 
+$r10 1 36 
+$r7 1 274 
+r1 1 6 
+r5 1 -1 
+$r34 1 173 
+$r12 1 61 
+r32 1 59 
+r0 1 -2 
+r2 1 13 
+r3 1 21 
+$r35 1 210 
+$r9 1 250 
+$r11 1 51 
+Fields: 4
+-1 fNewLine 173
+-1 fSerializer 51
+-1 fLexicalHandler 250
+-1 fLexicalHandler 274
+Accesses: 7
+256 1 -1 
+273 1 -1 
+50 1 -1 
+198 1 -1 
+280 1 -1 
+249 1 -1 
+172 1 -1 
+Functions: 28
+0 1 -2 
+192 1 61 
+65 1 61 
+131 1 61 
+7 1 -2 
+265 4 21 6 250 13 
+74 1 61 
+202 2 61 173 
+142 1 61 
+15 1 -2 
+208 1 61 
+81 2 6 61 
+213 2 210 59 
+150 2 21 61 
+23 1 -2 
+218 1 59 
+284 1 274 
+158 1 61 
+95 1 61 
+36 2 36 29 
+166 1 61 
+230 0 
+103 2 61 13 
+111 1 61 
+176 2 61 173 
+241 0 
+51 1 51 
+184 2 61 29 
+Constructors: 1
+65 61
+
+Summary: 10
+59 236 -2 61 210 21 6 13 -1 29 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.serializePI(Lorg/w3c/dom/ProcessingInstruction;)V
+PTG:
+Vars:
+5
+$r4 1 54 
+$r5 1 59 
+r3 1 -1 
+r0 1 -2 
+r2 1 8 
+Fields: 1
+-1 fSerializer 54
+Accesses: 3
+53 1 -1 
+9 1 -1 
+47 1 -1 
+Functions: 6
+64 3 54 8 59 
+2 1 -2 
+36 1 8 
+22 3 -1 -2 54 
+25 3 -1 -2 54 
+58 1 -2 
+Constructors: 0
+
+Summary: 4
+59 -2 -1 8 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.isElementWellFormed(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+12
+r0 1 -1 
+$r4 1 56 
+$r7 1 84 
+$r9 1 84 
+$r2 1 39 
+$r3 1 62 
+$r8 1 94 
+r1 1 -2 
+$r5 1 73 
+$r10 1 15 
+$r11 1 21 
+r6 1 82 
+Fields: 2
+62 ArrayObject 69
+-1 fErrorHandler 84
+Accesses: 5
+2 1 -1 
+83 1 -1 
+26 1 -1 
+90 1 -1 
+44 1 -1 
+Functions: 9
+20 1 -2 
+37 3 -1 84 39 
+38 1 -2 
+72 1 -2 
+56 3 69 56 62 
+105 2 82 94 
+108 2 84 94 
+13 4 -1 84 21 15 
+14 1 -2 
+Constructors: 1
+105 94
+
+Summary: 9
+15 -2 94 62 39 69 21 82 -1 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.serializeEntityReference(Lorg/w3c/dom/EntityReference;Z)V
+PTG:
+Vars:
+8
+$r6 1 60 
+$r4 1 87 
+$r8 1 49 
+$r5 1 49 
+r0 1 -2 
+r1 1 -1 
+$r2 1 76 
+$r3 1 76 
+Fields: 2
+-1 fLexicalHandler 76
+-1 fLexicalHandler 49
+Accesses: 7
+16 1 -1 
+32 1 -1 
+48 1 -1 
+82 1 -1 
+6 1 -1 
+55 1 -1 
+75 1 -1 
+Functions: 6
+65 2 49 60 
+86 1 -2 
+59 1 -2 
+92 2 87 76 
+29 4 -1 49 -2 76 
+45 4 -1 49 -2 76 
+Constructors: 0
+
+Summary: 4
+-2 60 87 -1 
+com/sun/org/apache/xml/internal/serializer/dom3/DOM3TreeWalker.isEntityReferneceWellFormed(Lorg/w3c/dom/EntityReference;)V
+PTG:
+Vars:
+46
+r12 2 189 196 
+$r39 2 213 220 
+$r5 1 125 
+$r31 1 55 
+$r25 1 301 
+$r45 1 45 
+r3 1 93 
+$r41 1 382 
+$r28 1 17 
+r14 2 213 220 
+$r13 1 205 
+$r11 1 181 
+r6 1 125 
+r0 1 -1 
+r1 1 -2 
+$r37 2 172 166 
+$r29 1 34 
+$r38 2 189 196 
+$r35 1 83 
+$r27 1 23 
+r33 1 43 
+r4 1 104 
+$r43 1 394 
+$r21 1 273 
+$r9 1 158 
+$r20 1 259 
+$r15 1 354 
+r8 2 144 150 
+$r2 1 2 
+$r24 1 45 
+$r18 1 364 
+$r42 1 388 
+$r22 1 267 
+r40 1 288 
+r10 2 172 166 
+$r17 1 45 
+r34 1 81 
+$r30 1 45 
+$r7 1 136 
+$r26 1 45 
+$r19 1 374 
+$r23 1 279 
+r44 1 403 
+$r32 1 45 
+$r16 1 416 
+$r36 2 144 150 
+Fields: 2
+23 ArrayObject 30
+-1 fErrorHandler 45
+Accesses: 7
+290 1 -1 
+51 1 -1 
+405 1 -1 
+7 1 -1 
+297 1 -1 
+44 1 -1 
+412 1 -1 
+Functions: 38
+0 3 -1 2 45 
+1 1 -2 
+257 1 125 
+66 2 55 43 
+194 1 125 
+322 1 81 
+69 2 55 45 
+135 1 -2 
+393 1 -2 
+75 1 -2 
+203 1 125 
+267 2 273 267 
+332 4 213 166 220 172 
+17 3 17 23 30 
+82 1 -2 
+83 1 83 
+149 1 -2 
+278 1 -2 
+342 4 144 196 150 189 
+218 1 125 
+157 1 -2 
+352 1 125 
+33 1 -2 
+98 1 93 
+227 1 81 
+362 1 125 
+171 1 -2 
+428 2 416 403 
+237 4 213 166 220 172 
+111 1 104 
+431 2 416 45 
+179 1 125 
+372 1 125 
+247 4 144 196 150 189 
+121 1 104 
+313 2 288 301 
+316 2 45 301 
+382 2 388 382 
+Constructors: 3
+66 55
+313 301
+428 416
+
+Summary: 30
+158 205 2 288 43 220 416 81 125 30 354 55 403 93 -2 388 104 259 301 273 364 196 23 172 136 181 -1 83 374 150 

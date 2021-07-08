@@ -1,0 +1,2096 @@
+62
+sun/awt/datatransfer/DataTransferer.translateBytesToString([BJLjava/awt/datatransfer/Transferable;)Ljava/lang/String;
+PTG:
+Vars:
+17
+r14 2 296 123 
+_ret 2 296 123 
+$r5 1 21 
+r6 1 21 
+$r11 1 123 
+r15 1 148 
+r2 1 -4 
+r0 1 4 
+$r8 1 36 
+$r7 1 31 
+$r4 1 16 
+r9 1 36 
+r1 1 -1 
+r10 1 -2 
+r3 1 14 
+$r13 1 296 
+r12 1 155 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 0 
+16 2 16 4 
+305 2 148 296 
+51 1 36 
+133 3 -2 123 14 
+6 3 -1 -4 4 
+150 1 21 
+31 2 4 31 
+143 1 123 
+Constructors: 2
+305 296
+133 123
+
+Summary: 11
+-4 21 0 -1 2 4 14 155 36 -2 148 
+sun/awt/datatransfer/DataTransferer.inputStreamToByteArray(Ljava/io/InputStream;)[B
+PTG:
+Vars:
+8
+r3 1 -2 
+$r9 1 -1 
+r2 1 15 
+$r5 1 -1 
+$r0 1 0 
+r12 1 -1 
+r4 1 46 
+$r8 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 8
+97 1 0 
+19 2 -2 15 
+115 1 0 
+4 1 0 
+36 2 0 15 
+42 1 0 
+75 1 0 
+108 1 -1 
+Constructors: 1
+4 0
+
+Summary: 3
+0 15 -2 
+sun/awt/datatransfer/DataTransferer.getTextCharset(Ljava/awt/datatransfer/DataFlavor;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r1 1 15 
+_ret 2 15 24 
+$r2 2 15 24 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+-1 0 
+9 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/awt/datatransfer/DataTransferer.removeSuspectedData(Ljava/awt/datatransfer/DataFlavor;Ljava/awt/datatransfer/Transferable;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+10
+$r7 1 39 
+r2 1 -2 
+r4 1 26 
+$r5 1 28 
+r13 1 39 
+r1 1 -4 
+$r0 1 1 
+_ret 1 39 
+r6 1 -1 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 7
+-1 0 
+36 4 -1 -4 26 28 
+22 1 -3 
+7 1 -2 
+56 0 
+28 1 28 
+63 0 
+Constructors: 1
+36 28
+
+Summary: 10
+-3 1 28 0 -1 2 26 -2 58 1 
+sun/awt/datatransfer/DataTransferer.getFormatsForTransferableAsArray(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/FlavorTable;)[J
+PTG:
+Vars:
+6
+$r4 1 6 
+r0 1 -1 
+_ret 1 6 
+r2 1 -3 
+r1 1 -2 
+$r3 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+3 1 3 
+Constructors: 0
+
+Summary: 4
+-3 -1 3 -2 
+sun/awt/datatransfer/DataTransferer.getCharsetForTextFormat(Ljava/lang/Long;)Ljava/lang/String;
+PTG:
+Vars:
+6
+r0 1 -2 
+r4 1 -1 
+$r1 1 0 
+_ret 1 4 
+$r2 1 4 
+$r3 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 0 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+sun/awt/datatransfer/DataTransferer.constructFlavoredObject(Ljava/lang/Object;Ljava/awt/datatransfer/DataFlavor;Ljava/lang/Class;)Ljava/lang/Object;
+PTG:
+Vars:
+19
+$r22 1 -1 
+r0 1 -3 
+$r3 1 20 
+r8 1 -2 
+$r7 1 189 
+$r19 1 94 
+$r24 1 208 
+$r21 1 116 
+r28 1 30 
+$r5 1 30 
+r4 1 -1 
+r30 1 128 
+r2 1 -4 
+$r23 1 202 
+r20 1 98 
+$r6 1 30 
+$r18 1 77 
+r1 1 4 
+$r9 1 196 
+Fields: 4
+30 ArrayObject 77
+30 ArrayObject 94
+30 ArrayObject 128
+98 ArrayObject 116
+Accesses: 0
+Functions: 21
+0 1 -3 
+162 0 
+6 2 -4 4 
+168 0 
+171 1 4 
+77 1 77 
+78 0 
+206 1 -1 
+112 2 -4 116 
+176 0 
+50 0 
+211 2 208 202 
+20 1 20 
+148 0 
+182 0 
+55 0 
+152 0 
+186 2 128 189 
+27 3 -1 20 4 
+94 1 94 
+158 1 -4 
+Constructors: 2
+211 202
+27 20
+
+Summary: 23
+-3 20 -4 168 0 -1 30 98 52 128 162 77 94 158 179 176 148 208 4 173 116 189 1 
+sun/awt/datatransfer/DataTransferer.castToFile(Ljava/lang/Object;)Ljava/io/File;
+PTG:
+Vars:
+6
+r0 1 -2 
+_ret 1 37 
+$r1 1 37 
+r3 1 -1 
+r4 2 16 -2 
+$r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+10 1 -2 
+42 3 16 -2 37 
+Constructors: 1
+42 37
+
+Summary: 4
+16 0 -1 -2 
+sun/awt/datatransfer/DataTransferer.getInstance()Lsun/awt/datatransfer/DataTransferer;
+PTG:
+Vars:
+4
+_ret 1 6 
+$r0 1 0 
+$r2 1 6 
+$r1 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+3 1 0 
+Constructors: 0
+
+Summary: 1
+0 
+sun/awt/datatransfer/DataTransferer.getFlavorsForFormats([JLjava/awt/datatransfer/FlavorTable;)Ljava/util/Map;
+PTG:
+Vars:
+24
+r26 1 278 
+r20 1 54 
+r15 1 87 
+r16 1 153 
+$r14 1 87 
+$r3 1 10 
+r9 1 243 
+$r0 1 0 
+r8 1 -3 
+r21 1 64 
+r1 1 -2 
+$r7 1 225 
+_ret 1 0 
+r10 1 -1 
+$r12 1 267 
+r23 1 211 
+$r5 1 21 
+$r19 1 113 
+r22 1 73 
+r17 1 162 
+r25 1 252 
+r24 1 225 
+$r11 1 267 
+r27 1 287 
+Fields: 0
+Accesses: 0
+Functions: 30
+66 1 64 
+132 1 87 
+6 1 0 
+264 2 -1 267 
+265 1 252 
+75 1 73 
+140 1 87 
+204 1 21 
+16 1 10 
+148 0 
+85 1 73 
+213 1 211 
+282 2 225 278 
+27 1 21 
+157 2 87 153 
+223 1 211 
+97 1 87 
+289 2 10 287 
+105 1 87 
+169 3 0 87 153 
+235 2 225 -3 
+48 1 -1 
+113 2 113 87 
+306 3 0 225 278 
+179 2 162 10 
+245 1 243 
+56 2 -3 54 
+124 1 87 
+189 2 21 87 
+254 1 252 
+Constructors: 3
+16 10
+6 0
+27 21
+
+Summary: 18
+-3 225 10 54 21 -1 64 278 243 153 73 287 162 252 267 87 211 -2 
+sun/awt/datatransfer/DataTransferer.getFlavorsForFormat(JLjava/awt/datatransfer/FlavorTable;)Ljava/util/Map;
+PTG:
+Vars:
+5
+r0 1 -1 
+_ret 1 9 
+r2 1 -3 
+$r1 1 2 
+$r3 1 9 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 2 -3 
+Constructors: 0
+
+Summary: 3
+-3 2 -1 
+sun/awt/datatransfer/DataTransferer.doesSubtypeSupportCharset(Ljava/awt/datatransfer/DataFlavor;)Z
+PTG:
+Vars:
+12
+r3 1 36 
+$r13 1 24 
+$r4 1 43 
+$r12 1 15 
+$r14 2 99 93 
+$r0 1 3 
+r2 1 -2 
+$r7 1 85 
+$r1 1 0 
+$r11 1 12 
+$r6 1 73 
+r5 1 52 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 2 0 3 
+32 1 -2 
+70 1 -2 
+102 4 99 36 85 93 
+43 2 36 43 
+12 2 12 15 
+29 1 24 
+14 1 -2 
+Constructors: 0
+
+Summary: 5
+0 15 73 36 -2 
+sun/awt/datatransfer/DataTransferer.translateTransferableString(Ljava/lang/String;J)[B
+PTG:
+Vars:
+14
+r0 1 4 
+$r4 1 20 
+r12 2 143 -2 
+$r3 1 15 
+_ret 2 185 150 
+r2 1 13 
+$r7 1 157 
+r5 1 20 
+$r6 1 152 
+r14 2 185 150 
+r15 1 157 
+r16 1 185 
+$r8 1 41 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 16
+0 0 
+64 3 -2 20 143 
+128 1 41 
+98 2 -2 143 
+35 2 -2 143 
+6 2 -1 4 
+198 2 150 185 
+138 1 41 
+172 1 157 
+15 2 4 15 
+79 2 20 41 
+144 3 -2 13 143 
+49 1 41 
+85 1 20 
+117 2 20 41 
+152 2 4 152 
+Constructors: 1
+49 41
+
+Summary: 9
+157 41 0 -1 20 13 4 143 -2 
+sun/awt/datatransfer/DataTransferer.canonicalName(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 -2 
+$r3 1 -1 
+r0 1 -2 
+$r2 1 10 
+$r1 1 7 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 1 -2 
+7 1 7 
+Constructors: 0
+
+Summary: 1
+0 
+sun/awt/datatransfer/DataTransferer.convertObjectToBytes(Ljava/lang/Object;)[B
+PTG:
+Vars:
+12
+$r13 1 -1 
+$r12 1 -1 
+r16 1 -1 
+r19 1 31 
+r3 1 -2 
+$r2 1 10 
+$r7 1 -1 
+$r4 1 -1 
+$r9 1 -1 
+$r0 1 0 
+$r8 1 -1 
+r18 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 12
+160 1 0 
+178 1 0 
+131 1 -1 
+4 1 0 
+119 1 10 
+24 2 -2 10 
+138 1 10 
+27 1 0 
+171 1 -1 
+92 1 0 
+62 1 10 
+15 2 0 10 
+Constructors: 2
+4 0
+15 10
+
+Summary: 3
+0 10 -2 
+sun/awt/datatransfer/DataTransferer.getBestCharsetForTextFormat(Ljava/lang/Long;Ljava/awt/datatransfer/Transferable;)Ljava/lang/String;
+PTG:
+Vars:
+12
+r0 1 -3 
+$r4 1 29 
+r11 3 67 29 75 
+$r5 1 34 
+_ret 3 67 29 75 
+r1 1 -1 
+$r8 1 37 
+$r3 1 18 
+$r6 1 37 
+$r9 1 -1 
+r2 1 -2 
+$r7 1 37 
+Fields: 0
+Accesses: 0
+Functions: 7
+17 2 -3 18 
+33 2 -3 34 
+50 2 37 29 
+6 1 -1 
+7 1 -2 
+72 0 
+62 2 -1 -2 
+Constructors: 1
+50 29
+
+Summary: 6
+-3 37 0 -1 -2 1 
+sun/awt/datatransfer/DataTransferer.isURIListFormat(J)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/awt/datatransfer/DataTransferer.adaptFlavorMap(Ljava/awt/datatransfer/FlavorMap;)Ljava/awt/datatransfer/FlavorTable;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 12 
+$r1 1 12 
+Fields: 0
+Accesses: 0
+Functions: 1
+17 2 -2 12 
+Constructors: 1
+17 12
+
+Summary: 0
+
+sun/awt/datatransfer/DataTransferer.getDefaultTextCharset()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r2 1 13 
+_ret 1 13 
+$r0 1 0 
+$r1 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+10 1 10 
+Constructors: 0
+
+Summary: 1
+10 
+sun/awt/datatransfer/DataTransferer.setToSortedDataFlavorArray(Ljava/util/Set;)[Ljava/awt/datatransfer/DataFlavor;
+PTG:
+Vars:
+4
+r0 1 -2 
+$r3 1 18 
+_ret 1 6 
+r1 1 6 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+23 1 18 
+12 2 -2 6 
+29 2 18 6 
+Constructors: 1
+23 18
+
+Summary: 2
+-2 18 
+sun/awt/datatransfer/DataTransferer.castToFiles(Ljava/util/List;Ljava/security/ProtectionDomain;)Ljava/util/ArrayList;
+PTG:
+Vars:
+6
+$r0 1 0 
+r5 1 -3 
+_ret 1 0 
+r4 1 -2 
+r3 1 -1 
+$r2 1 8 
+Fields: 0
+Accesses: 0
+Functions: 5
+16 5 -1 0 -2 -3 8 
+32 0 
+19 1 8 
+4 1 0 
+37 0 
+Constructors: 2
+16 8
+4 0
+
+Summary: 7
+-3 34 0 8 -1 -2 1 
+sun/awt/datatransfer/DataTransferer.standardImageBytesToImage([BLjava/lang/String;)Ljava/awt/Image;
+PTG:
+Vars:
+22
+r31 2 -1 313 
+$r6 1 334 
+$r20 1 -1 
+$r26 1 -1 
+$r23 1 -1 
+$r7 1 55 
+r34 1 83 
+$r2 1 313 
+r12 1 113 
+$r24 1 -1 
+r11 1 90 
+r1 1 4 
+$r3 1 317 
+r33 1 -1 
+r10 1 -2 
+$r4 1 327 
+$r9 1 65 
+$r5 1 331 
+$r19 1 -1 
+r8 1 55 
+r30 1 -1 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 31
+0 1 -3 
+193 1 83 
+321 1 317 
+5 1 4 
+133 1 55 
+70 2 65 -2 
+327 2 -3 327 
+200 1 55 
+267 1 65 
+331 1 331 
+78 1 65 
+337 2 313 334 
+18 0 
+85 1 55 
+22 0 
+279 1 -1 
+28 1 -3 
+287 1 65 
+32 0 
+98 2 83 55 
+101 2 55 90 
+38 0 
+103 1 55 
+168 1 65 
+45 1 4 
+238 1 65 
+176 1 83 
+54 1 4 
+183 1 55 
+317 1 317 
+126 1 83 
+Constructors: 3
+321 317
+337 313
+70 65
+
+Summary: 16
+-3 90 327 55 32 -1 35 317 18 334 28 4 83 331 65 -2 
+sun/awt/datatransfer/DataTransferer.isEncodingSupported(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+$r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/awt/datatransfer/DataTransferer.translateBytes([BLjava/awt/datatransfer/DataFlavor;JLjava/awt/datatransfer/Transferable;)Ljava/lang/Object;
+PTG:
+Vars:
+45
+r101 0 
+$r32 1 68 
+$r26 1 105 
+$r28 1 185 
+$r24 1 541 
+$r8 1 1207 
+r79 1 48 
+$r7 1 677 
+r89 0 
+r78 1 36 
+r92 1 547 
+$r15 1 885 
+$r2 1 342 
+$r13 1 856 
+$r31 1 11 
+$r3 1 345 
+$r18 1 710 
+r77 13 891 1241 185 1115 669 611 757 412 558 716 377 92 -2 
+$r20 1 647 
+r95 0 
+$r19 1 643 
+r0 1 -1 
+r76 2 653 -2 
+$r30 1 222 
+$r27 1 115 
+r82 1 137 
+$r33 1 76 
+$r74 1 -1 
+_ret 13 891 1241 185 1115 669 611 757 412 558 716 377 92 -2 
+$r11 1 1092 
+$r5 1 566 
+$r17 1 706 
+r29 1 218 
+$r4 1 563 
+$r6 1 674 
+r12 1 -5 
+r99 0 
+$r25 1 389 
+r108 0 
+r93 1 658 
+$r16 1 734 
+$r22 1 605 
+r81 0 
+r1 1 -3 
+$r14 1 869 
+Fields: 2
+36 ArrayObject 76
+137 ArrayObject 218
+Accesses: 0
+Functions: 93
+128 3 -1 115 -5 
+3 1 -1 
+643 2 643 647 
+518 1 -1 
+646 1 -3 
+394 3 -2 389 653 
+11 2 -3 11 
+654 2 -2 653 
+1041 1 856 
+402 4 -1 -3 -5 389 
+532 0 
+660 3 -1 658 -3 
+791 1 734 
+536 4 -1 -2 -5 653 
+1178 1 1092 
+27 0 
+284 1 115 
+541 1 541 
+925 1 869 
+1053 0 
+31 3 -1 -2 653 
+674 2 674 677 
+676 1 -3 
+549 3 -1 -3 547 
+1061 1 856 
+1190 0 
+686 1 -3 
+1198 1 1092 
+179 1 115 
+563 2 563 566 
+820 1 734 
+1076 0 
+565 1 -3 
+693 1 -1 
+1207 2 -3 1207 
+313 1 115 
+1081 0 
+954 1 869 
+189 1 185 
+701 4 -1 -2 -5 653 
+1085 1 -3 
+446 1 389 
+575 1 -3 
+832 0 
+1217 1 -1 
+706 2 706 710 
+325 0 
+709 1 -3 
+582 1 -1 
+966 0 
+840 1 734 
+1097 3 -2 1092 653 
+77 2 68 76 
+333 1 115 
+974 1 869 
+1231 0 
+849 1 -3 
+1105 4 -1 -3 1092 -5 
+1235 3 -1 -2 653 
+596 0 
+342 2 342 345 
+87 1 48 
+727 1 -3 
+344 1 -3 
+600 4 -1 -2 -5 653 
+475 1 389 
+605 1 605 
+861 3 -2 856 653 
+97 1 -1 
+354 1 -3 
+739 3 -2 653 734 
+228 2 218 222 
+1254 0 
+231 2 185 222 
+487 0 
+616 1 -3 
+105 2 -3 105 
+361 1 -1 
+747 4 -1 -3 -5 734 
+875 2 869 856 
+495 1 389 
+623 1 -3 
+369 4 -1 -2 -5 653 
+883 1 869 
+1012 1 856 
+885 1 885 
+630 1 -1 
+120 3 -2 115 653 
+504 1 -3 
+1149 1 1092 
+382 1 -3 
+638 4 -1 -2 -5 653 
+511 1 -3 
+Constructors: 9
+739 734
+228 222
+120 115
+1097 1092
+394 389
+875 869
+77 68
+189 185
+861 856
+
+Summary: 29
+643 710 76 1092 706 734 48 658 647 36 566 677 541 1078 869 547 -3 -1 856 885 345 653 115 137 222 218 605 389 -5 
+sun/awt/datatransfer/DataTransferer.access$100(Ljava/io/File;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/awt/datatransfer/DataTransferer.getFormatsForFlavor(Ljava/awt/datatransfer/DataFlavor;Ljava/awt/datatransfer/FlavorTable;)Ljava/util/SortedMap;
+PTG:
+Vars:
+6
+r3 1 -3 
+_ret 1 10 
+r0 1 -1 
+$r1 1 2 
+r2 1 -2 
+$r4 1 10 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 2 -3 
+Constructors: 0
+
+Summary: 3
+-3 2 -1 
+sun/awt/datatransfer/DataTransferer.concatData(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+13
+$r7 1 77 
+r1 1 -3 
+$r5 1 -2 
+$r3 1 -3 
+_ret 1 133 
+r0 1 -2 
+r11 1 -1 
+r12 2 77 -2 
+$r14 1 133 
+r13 2 -3 108 
+$r2 1 108 
+r6 1 -2 
+$r4 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 5
+83 2 -2 77 
+71 0 
+119 2 -3 108 
+57 1 -2 
+140 5 -2 -3 133 108 77 
+Constructors: 3
+83 77
+119 108
+140 133
+
+Summary: 5
+-3 -1 108 -2 77 
+sun/awt/datatransfer/DataTransferer.keysToLongArray(Ljava/util/SortedMap;)[J
+PTG:
+Vars:
+7
+r0 1 -2 
+r3 1 24 
+r1 1 6 
+_ret 1 13 
+$r4 1 40 
+r2 1 13 
+$r5 1 40 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+18 1 6 
+38 1 24 
+7 1 6 
+26 1 24 
+45 1 40 
+Constructors: 0
+
+Summary: 4
+6 40 -2 24 
+sun/awt/datatransfer/DataTransferer.getFormatsForFlavorsAsArray([Ljava/awt/datatransfer/DataFlavor;Ljava/awt/datatransfer/FlavorTable;)[J
+PTG:
+Vars:
+6
+r0 1 -1 
+r2 1 -3 
+_ret 1 6 
+r1 1 -2 
+$r4 1 6 
+$r3 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+3 1 3 
+Constructors: 0
+
+Summary: 4
+-3 -1 3 -2 
+sun/awt/datatransfer/DataTransferer.access$500()Ljava/util/Map;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/awt/datatransfer/DataTransferer.isRemote(Ljava/lang/Class;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+sun/awt/datatransfer/DataTransferer.access$400()Ljava/util/Map;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/awt/datatransfer/DataTransferer.translateTransferable(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/DataFlavor;J)[B
+PTG:
+Vars:
+52
+$r33 1 656 
+$r20 1 1030 
+$r31 1 850 
+$r22 1 1059 
+r110 1 697 
+$r21 1 1059 
+r129 1 1028 
+r122 1 901 
+$r11 1 523 
+r112 0 
+r123 1 911 
+$r6 1 84 
+r87 2 43 7 
+$r27 1 978 
+$r29 1 990 
+r109 1 687 
+r1 1 -3 
+r127 1 968 
+$r28 1 985 
+r119 2 888 864 
+_ret 5 1488 1105 715 1616 1599 
+$r18 1 913 
+r118 1 840 
+r108 2 43 7 
+r23 1 1070 
+$r52 1 35 
+r126 1 946 
+$r17 1 815 
+r3 1 -1 
+r131 0 
+$r25 1 956 
+$r26 1 972 
+$r30 1 996 
+$r12 1 583 
+r137 0 
+r135 0 
+r147 1 1592 
+$r24 1 946 
+r0 1 -2 
+$r9 1 386 
+r136 2 43 7 
+r125 1 932 
+$r7 1 87 
+$r2 1 17 
+$r19 1 1021 
+r121 2 43 7 
+$r14 1 1216 
+$r8 1 383 
+r113 5 1488 1105 715 1616 1599 
+r138 1 1264 
+$r10 1 520 
+r111 1 705 
+Fields: 0
+Accesses: 0
+Functions: 132
+0 2 -2 -3 
+520 2 520 523 
+522 1 -3 
+778 1 705 
+1034 1 1030 
+268 0 
+1551 1 1216 
+16 2 17 -3 
+790 0 
+1047 1 913 
+280 0 
+1304 2 1216 1264 
+1563 0 
+542 1 -3 
+798 1 705 
+1055 1 913 
+288 0 
+34 2 -2 35 
+1571 1 1216 
+549 1 -1 
+294 1 -1 
+1062 3 864 1059 888 
+295 0 
+807 1 -1 
+1580 1 -3 
+557 1 -3 
+815 2 -3 815 
+305 1 -3 
+563 1 -1 
+1587 2 7 43 
+312 1 -3 
+1080 2 1030 1070 
+1594 1 1592 
+572 0 
+319 1 -1 
+831 0 
+1344 2 7 43 
+835 1 -1 
+1091 2 1028 1030 
+1604 1 -3 
+70 0 
+583 2 -3 583 
+75 0 
+1611 2 7 43 
+1100 1 1030 
+333 0 
+593 1 -1 
+850 1 850 
+84 2 84 87 
+86 1 -3 
+344 0 
+856 2 850 840 
+1627 0 
+1373 2 7 43 
+607 0 
+96 1 -3 
+103 1 -1 
+1385 0 
+618 1 -1 
+364 0 
+877 0 
+111 3 -1 -2 -3 
+368 1 -1 
+1393 2 7 43 
+1139 1 1030 
+375 0 
+1399 1 -3 
+124 1 -1 
+638 0 
+1406 1 -1 
+383 2 386 383 
+385 1 -3 
+897 1 -2 
+132 1 -3 
+1414 1 1216 
+903 4 -1 901 7 43 
+648 1 -1 
+139 1 -3 
+395 1 -3 
+1421 1 -3 
+656 2 656 -3 
+1168 1 1030 
+146 1 -1 
+402 1 -1 
+1427 1 -1 
+917 1 911 
+922 1 913 
+1180 0 
+1436 0 
+927 1 911 
+160 0 
+416 0 
+672 0 
+420 1 -1 
+1188 1 1030 
+934 1 932 
+168 0 
+683 1 -2 
+1197 1 -3 
+944 1 932 
+433 0 
+689 4 -1 7 43 687 
+183 0 
+441 1 -3 
+699 2 -1 697 
+956 1 956 
+962 2 946 956 
+1220 1 1216 
+1477 1 1216 
+710 1 705 
+455 0 
+200 0 
+1483 1 1216 
+972 1 972 
+976 1 968 
+983 1 968 
+1241 2 7 43 
+475 0 
+988 1 968 
+479 1 -3 
+993 4 978 985 972 990 
+486 1 -1 
+999 2 913 996 
+749 1 705 
+494 1 -3 
+239 0 
+1522 1 1216 
+500 1 -1 
+1268 3 1264 7 43 
+1014 0 
+509 0 
+1021 3 864 888 1021 
+Constructors: 6
+993 972
+962 956
+1220 1216
+856 850
+922 913
+1034 1030
+
+Summary: 45
+1216 1070 687 122 978 932 956 1030 386 972 1028 369 164 901 968 990 501 564 840 353 996 72 697 850 561 913 -3 -1 864 705 297 1425 498 87 1592 1264 946 1059 421 1419 1428 985 523 911 -2 
+sun/awt/datatransfer/DataTransferer.isTextFormat(J)Z
+PTG:
+Vars:
+3
+r2 1 -1 
+$r0 1 0 
+$r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 0 4 
+3 0 
+Constructors: 0
+
+Summary: 2
+4 -1 
+sun/awt/datatransfer/DataTransferer.dragQueryURIs(Ljava/io/InputStream;JLjava/awt/datatransfer/Transferable;)[Ljava/net/URI;
+PTG:
+Vars:
+5
+r4 1 -4 
+r2 1 -1 
+$r0 1 0 
+$r1 1 4 
+r3 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+11 1 4 
+14 2 0 4 
+Constructors: 2
+11 4
+14 0
+
+Summary: 3
+-4 -1 -2 
+sun/awt/datatransfer/DataTransferer.translateStreamToInputStream(Ljava/io/InputStream;Ljava/awt/datatransfer/DataFlavor;JLjava/awt/datatransfer/Transferable;)Ljava/lang/Object;
+PTG:
+Vars:
+8
+r5 2 15 -2 
+$r2 1 15 
+$r3 1 23 
+r0 1 -3 
+_ret 1 37 
+$r6 1 37 
+r1 1 -1 
+r4 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -3 
+32 4 -1 -2 -3 15 
+22 1 -3 
+7 1 -1 
+28 5 -1 -2 -5 23 15 
+Constructors: 1
+28 15
+
+Summary: 9
+-3 23 3 15 0 -1 -2 -5 1 
+sun/awt/datatransfer/DataTransferer.getPlatformMappingsForFlavor(Ljava/awt/datatransfer/DataFlavor;)Ljava/util/LinkedHashSet;
+PTG:
+Vars:
+4
+r2 1 -2 
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-1 -2 
+sun/awt/datatransfer/DataTransferer.doesSubtypeSupportCharset(Ljava/lang/String;Ljava/lang/String;)Z
+PTG:
+Vars:
+6
+r0 1 -2 
+r2 1 9 
+$r8 2 45 51 
+$r4 1 37 
+$r1 1 0 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 0 -2 
+54 4 -2 51 37 45 
+Constructors: 0
+
+Summary: 3
+-3 9 -2 
+sun/awt/datatransfer/DataTransferer.getFormatsForFlavorAsArray(Ljava/awt/datatransfer/DataFlavor;Ljava/awt/datatransfer/FlavorTable;)[J
+PTG:
+Vars:
+6
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+_ret 1 6 
+$r3 1 3 
+$r4 1 6 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+3 1 3 
+Constructors: 0
+
+Summary: 4
+-3 -1 3 -2 
+sun/awt/datatransfer/DataTransferer.convertData(Ljava/lang/Object;Ljava/awt/datatransfer/Transferable;JLjava/util/Map;Z)[B
+PTG:
+Vars:
+17
+r3 1 -1 
+$r1 1 149 
+$r10 1 40 
+r8 1 -2 
+r4 1 -3 
+$r2 1 152 
+$r5 1 8 
+_ret 2 175 106 
+r20 2 175 106 
+$r12 1 106 
+$r13 1 118 
+r9 1 37 
+$r11 1 106 
+r22 1 152 
+$r15 1 79 
+$r6 1 17 
+r0 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 19
+33 1 -2 
+67 2 -2 17 
+131 1 -1 
+100 1 37 
+70 1 8 
+39 1 -1 
+135 0 
+167 3 -1 -3 152 
+104 1 8 
+43 1 40 
+12 1 8 
+78 1 -1 
+82 1 79 
+146 2 -5 149 
+148 0 
+117 1 -1 
+121 1 118 
+28 5 -1 17 -3 -5 8 
+60 2 17 37 
+Constructors: 2
+12 8
+28 17
+
+Summary: 12
+-3 79 37 -1 132 149 40 152 118 8 -2 -5 
+sun/awt/datatransfer/DataTransferer.imageToStandardBytesImpl(Ljava/awt/image/RenderedImage;Ljava/lang/String;)[B
+PTG:
+Vars:
+20
+r22 2 164 -1 
+r1 1 4 
+$r10 1 182 
+$r19 1 -1 
+$r5 1 15 
+$r9 1 178 
+$r14 1 37 
+$r18 1 -1 
+$r13 1 195 
+r23 1 72 
+$r2 1 5 
+$r7 1 164 
+$r8 1 168 
+r15 1 37 
+r21 1 -1 
+$r12 1 192 
+r3 1 -2 
+r0 1 -3 
+r16 1 52 
+$r11 1 188 
+Fields: 0
+Accesses: 0
+Functions: 26
+0 1 -3 
+128 1 15 
+192 1 192 
+67 1 15 
+198 2 195 164 
+10 2 -2 5 
+140 1 37 
+78 2 37 72 
+145 1 15 
+19 1 15 
+84 2 -2 37 
+148 1 15 
+89 1 72 
+27 1 4 
+156 1 15 
+96 1 72 
+36 1 4 
+168 1 168 
+108 1 72 
+172 1 168 
+47 1 37 
+178 2 -2 178 
+54 2 52 5 
+182 1 182 
+123 1 37 
+188 2 -3 188 
+Constructors: 4
+19 15
+198 164
+10 5
+172 168
+
+Summary: 15
+-3 192 168 15 37 178 195 -1 188 52 4 72 -2 5 182 
+sun/awt/datatransfer/DataTransferer.createMapping(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+$r3 1 12 
+r2 1 -3 
+r1 1 -2 
+$r0 1 1 
+_ret 1 12 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+1 
+sun/awt/datatransfer/DataTransferer.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+sun/awt/datatransfer/DataTransferer.access$300(Lsun/awt/datatransfer/DataTransferer;Ljava/lang/Object;)Ljava/io/File;
+PTG:
+Vars:
+4
+_ret 1 2 
+r1 1 -3 
+r0 1 -2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 0 -2 1 
+sun/awt/datatransfer/DataTransferer.standardEncodings()Ljava/util/Set;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 0
+
+sun/awt/datatransfer/DataTransferer.getFlavorsForFormatsAsArray([JLjava/awt/datatransfer/FlavorTable;)[Ljava/awt/datatransfer/DataFlavor;
+PTG:
+Vars:
+6
+$r4 1 6 
+_ret 1 6 
+$r3 1 3 
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+3 1 3 
+Constructors: 0
+
+Summary: 4
+-3 -1 3 -2 
+sun/awt/datatransfer/DataTransferer.getFlavorsForFormatAsArray(JLjava/awt/datatransfer/FlavorTable;)[Ljava/awt/datatransfer/DataFlavor;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 9 
+_ret 1 9 
+r2 1 -3 
+$r1 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 2 -3 
+Constructors: 0
+
+Summary: 3
+-3 2 -1 
+sun/awt/datatransfer/DataTransferer.registerTextFlavorProperties(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+12
+$r11 1 67 
+r6 1 -4 
+$r3 1 7 
+$r15 2 -3 38 
+r7 1 -5 
+r1 1 -2 
+r2 1 5 
+r8 1 97 
+r4 1 -3 
+$r13 1 18 
+$r9 1 107 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 2 -1 -2 
+-1 0 
+114 3 97 5 107 
+51 1 -4 
+99 1 97 
+84 1 -5 
+41 4 18 -3 5 38 
+73 3 67 -4 5 
+58 1 -4 
+27 1 -3 
+12 2 5 7 
+92 1 -5 
+Constructors: 0
+
+Summary: 8
+-3 -4 5 38 -1 97 -2 -5 
+sun/awt/datatransfer/DataTransferer.getFormatsForTransferable(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/FlavorTable;)Ljava/util/SortedMap;
+PTG:
+Vars:
+6
+r2 1 -1 
+_ret 1 22 
+$r4 1 22 
+r0 1 -2 
+r3 1 -3 
+r1 1 6 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+19 3 -1 -3 6 
+15 0 
+Constructors: 0
+
+Summary: 4
+-3 6 -1 -2 
+sun/awt/datatransfer/DataTransferer.isFileInWebstartedCache(Ljava/io/File;)Z
+PTG:
+Vars:
+14
+r13 1 96 
+$r1 1 79 
+r9 1 12 
+r10 1 52 
+r14 2 125 -2 
+r4 1 26 
+$r2 1 96 
+r5 1 33 
+r12 1 85 
+$r7 1 59 
+$r0 1 0 
+$r6 1 40 
+r3 1 -2 
+$r8 1 -1 
+Fields: 1
+12 ArrayObject 26
+Accesses: 0
+Functions: 10
+0 1 0 
+64 2 52 59 
+86 1 85 
+40 1 40 
+121 2 -2 125 
+28 1 26 
+46 2 33 40 
+79 1 79 
+95 1 85 
+111 3 96 -2 125 
+Constructors: 1
+46 40
+
+Summary: 7
+125 33 0 40 52 96 -2 
+sun/awt/datatransfer/DataTransferer.getUserProtectionDomain(Ljava/awt/datatransfer/Transferable;)Ljava/security/ProtectionDomain;
+PTG:
+Vars:
+4
+_ret 1 4 
+r0 1 -2 
+$r2 1 4 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+1 -2 
+sun/awt/datatransfer/DataTransferer.isFlavorNoncharsetTextType(Ljava/awt/datatransfer/DataFlavor;)Z
+PTG:
+Vars:
+5
+$r2 1 3 
+r0 1 -2 
+$r4 1 38 
+$r1 1 0 
+$r3 1 35 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 2 0 3 
+2 1 -2 
+35 2 35 38 
+21 1 -2 
+37 1 -2 
+12 1 -2 
+28 1 -2 
+Constructors: 0
+
+Summary: 4
+38 0 3 -2 
+sun/awt/datatransfer/DataTransferer.imageToStandardBytes(Ljava/awt/Image;Ljava/lang/String;)[B
+PTG:
+Vars:
+16
+r0 1 -3 
+r2 1 -2 
+$r10 1 -2 
+$r19 1 -1 
+r3 1 142 
+r7 1 -1 
+$r11 1 59 
+$r8 1 206 
+r6 1 168 
+r1 1 6 
+r20 1 -1 
+$r9 1 -2 
+r23 1 131 
+$r4 1 144 
+$r17 1 -1 
+r22 1 88 
+Fields: 0
+Accesses: 0
+Functions: 23
+32 1 -3 
+128 0 
+97 1 88 
+2 1 -3 
+163 1 144 
+36 0 
+196 1 168 
+133 1 131 
+8 1 6 
+104 1 88 
+42 0 
+202 3 -1 144 -3 
+82 1 -2 
+114 1 -2 
+180 2 -2 168 
+53 3 -1 -2 -3 
+22 0 
+152 1 131 
+121 1 -2 
+26 0 
+186 1 168 
+94 1 88 
+158 3 144 131 142 
+Constructors: 1
+158 144
+
+Summary: 13
+-3 168 88 32 -1 142 6 22 144 39 36 131 -2 
+sun/awt/datatransfer/DataTransferer.getFlavorsForFormatsAsSet([JLjava/awt/datatransfer/FlavorTable;)Ljava/util/Set;
+PTG:
+Vars:
+11
+r1 1 -2 
+r4 1 28 
+r3 1 -1 
+_ret 1 0 
+$r10 1 87 
+r9 1 61 
+r7 1 47 
+$r0 1 0 
+r5 1 -3 
+r6 1 38 
+$r8 1 61 
+Fields: 0
+Accesses: 0
+Functions: 13
+98 1 61 
+6 1 0 
+71 1 61 
+40 1 38 
+106 1 61 
+79 1 61 
+49 1 47 
+114 1 61 
+20 1 -1 
+87 2 87 61 
+59 1 47 
+125 2 0 61 
+30 2 -3 28 
+Constructors: 1
+6 0
+
+Summary: 7
+-3 28 61 38 -1 47 -2 
+sun/awt/datatransfer/DataTransferer.<clinit>()V
+PTG:
+Vars:
+34
+$r8 1 55 
+$r46 1 -1 
+$r11 1 103 
+$r36 1 272 
+$r6 1 39 
+$r5 1 33 
+$r16 1 143 
+$r18 1 156 
+$r12 1 117 
+$r40 1 298 
+$r10 1 84 
+$r2 1 13 
+r49 1 84 
+$r7 1 46 
+r47 1 63 
+$r45 1 -1 
+$r24 1 195 
+$r38 1 285 
+$r34 1 259 
+$r0 1 0 
+$r4 1 26 
+$r20 1 169 
+$r3 1 20 
+$r32 1 246 
+$r1 1 7 
+$r28 1 221 
+$r14 1 130 
+$r44 1 345 
+$r9 1 63 
+$r26 1 208 
+$r43 1 315 
+$r22 1 182 
+$r42 1 308 
+$r30 1 233 
+Fields: 4
+315 ArrayObject 323
+315 ArrayObject 335
+315 ArrayObject 329
+315 ArrayObject 341
+Accesses: 0
+Functions: 29
+0 1 0 
+4 1 0 
+133 2 130 103 
+70 1 63 
+198 2 195 103 
+262 2 259 103 
+13 1 13 
+17 1 13 
+146 2 103 143 
+211 2 208 103 
+275 2 272 103 
+26 1 26 
+91 1 84 
+349 1 345 
+30 1 26 
+159 2 103 156 
+224 2 103 221 
+288 2 103 285 
+39 1 39 
+43 1 39 
+172 2 103 169 
+236 2 103 233 
+109 1 103 
+301 2 103 298 
+307 1 103 
+52 0 
+120 2 117 103 
+185 2 182 103 
+249 2 246 103 
+Constructors: 8
+17 13
+4 0
+70 63
+43 39
+91 84
+109 103
+349 345
+30 26
+
+Summary: 5
+103 26 39 13 0 
+sun/awt/datatransfer/DataTransferer.getPlatformMappingsForNative(Ljava/lang/String;)Ljava/util/LinkedHashSet;
+PTG:
+Vars:
+4
+$r0 1 0 
+_ret 1 0 
+r2 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-1 -2 
+sun/awt/datatransfer/DataTransferer.translateStream(Ljava/io/InputStream;Ljava/awt/datatransfer/DataFlavor;JLjava/awt/datatransfer/Transferable;)Ljava/lang/Object;
+PTG:
+Vars:
+36
+$r13 1 363 
+r30 1 71 
+$r20 1 239 
+$r24 1 161 
+$r9 1 638 
+r8 1 -2 
+r61 0 
+$r21 1 247 
+r58 1 253 
+r0 1 -1 
+$r17 1 321 
+$r56 1 145 
+$r19 1 233 
+$r11 1 483 
+$r2 1 106 
+$r14 1 311 
+$r22 1 255 
+$r50 1 -1 
+r57 1 239 
+_ret 9 277 155 327 501 336 369 38 194 645 
+$r12 1 348 
+$r25 1 167 
+r1 1 -3 
+$r29 1 38 
+r15 1 -5 
+$r28 1 11 
+r53 1 29 
+$r6 1 608 
+r66 0 
+$r23 1 155 
+$r3 1 109 
+$r5 1 285 
+r52 9 277 155 327 501 336 369 38 194 645 
+$r4 1 282 
+$r31 1 75 
+$r16 1 317 
+Fields: 1
+29 ArrayObject 71
+Accesses: 0
+Functions: 60
+3 1 -1 
+133 2 -1 -5 
+134 1 -2 
+263 3 253 255 239 
+11 2 -3 11 
+268 3 -1 -3 255 
+145 2 145 -3 
+658 0 
+403 1 348 
+21 3 -1 -2 -5 
+535 1 483 
+282 2 282 285 
+284 1 -3 
+159 3 -1 161 -5 
+160 1 -2 
+294 1 -3 
+42 1 38 
+170 2 167 155 
+301 1 -1 
+432 1 348 
+178 1 -3 
+564 1 483 
+309 3 -1 -5 311 
+310 1 -2 
+185 4 -1 -2 -3 -5 
+444 0 
+317 2 321 317 
+320 1 -3 
+576 0 
+452 1 348 
+199 1 -3 
+584 1 483 
+332 1 -2 
+206 1 -3 
+81 2 71 75 
+467 0 
+84 2 38 75 
+213 1 -1 
+341 1 -3 
+599 0 
+472 0 
+476 1 -3 
+604 0 
+608 2 608 -3 
+353 2 -2 348 
+227 0 
+231 4 -1 -2 -5 233 
+488 2 -2 483 
+361 1 348 
+106 2 106 109 
+618 1 -1 
+363 1 363 
+108 1 -3 
+496 1 483 
+118 1 -3 
+247 1 247 
+632 0 
+636 2 -1 638 
+125 1 -1 
+637 1 -2 
+Constructors: 6
+81 75
+353 348
+263 255
+488 483
+42 38
+170 155
+
+Summary: 24
+-3 601 -1 285 239 29 311 638 321 253 75 135 255 71 161 363 317 483 167 348 109 469 -2 -5 
+sun/awt/datatransfer/DataTransferer.getFormatsForFlavors([Ljava/awt/datatransfer/DataFlavor;Ljava/awt/datatransfer/FlavorTable;)Ljava/util/SortedMap;
+PTG:
+Vars:
+23
+r1 1 -2 
+r18 1 187 
+_ret 1 323 
+r13 1 151 
+r11 1 -3 
+$r5 1 21 
+$r28 1 87 
+r29 1 61 
+$r0 1 0 
+$r23 1 240 
+$r22 1 216 
+$r10 1 323 
+r17 1 177 
+r12 1 130 
+$r21 1 212 
+$r27 1 229 
+r14 1 -1 
+$r26 1 225 
+$r7 1 32 
+$r15 1 166 
+$r3 1 10 
+$r9 1 311 
+$r16 1 166 
+Fields: 1
+-2 ArrayObject 61
+Accesses: 0
+Functions: 32
+194 3 0 177 61 
+6 1 0 
+134 1 130 
+71 1 61 
+329 2 323 311 
+267 3 32 177 187 
+206 3 177 21 187 
+79 1 61 
+16 1 10 
+144 1 130 
+337 2 0 323 
+212 2 212 216 
+214 1 61 
+278 1 130 
+87 2 87 61 
+153 1 151 
+27 1 21 
+225 2 225 229 
+98 1 61 
+163 2 -1 166 
+227 1 61 
+164 1 151 
+38 1 32 
+297 2 0 10 
+106 1 61 
+238 2 240 61 
+114 1 61 
+306 2 32 21 
+179 0 
+122 2 -3 61 
+318 2 21 311 
+255 3 177 10 61 
+Constructors: 6
+16 10
+6 0
+38 32
+329 323
+27 21
+318 311
+
+Summary: 16
+-3 10 21 32 229 -1 166 130 187 0 61 151 311 216 177 -2 
+sun/awt/datatransfer/DataTransferer.isFlavorCharsetTextType(Ljava/awt/datatransfer/DataFlavor;)Z
+PTG:
+Vars:
+9
+$r8 1 86 
+r0 1 -2 
+$r5 1 45 
+$r6 1 61 
+r7 1 103 
+$r2 1 12 
+r4 1 37 
+$r3 1 15 
+$r1 1 0 
+Fields: 0
+Accesses: 0
+Functions: 14
+0 2 0 -2 
+33 1 -2 
+97 1 -2 
+38 1 -2 
+72 1 -2 
+12 2 12 15 
+108 1 103 
+45 2 37 45 
+14 1 -2 
+79 1 -2 
+54 1 -2 
+86 2 37 86 
+24 1 -2 
+61 2 37 61 
+Constructors: 0
+
+Summary: 5
+37 0 15 -2 103 
+sun/awt/datatransfer/DataTransferer.processDataConversionRequests()V
+PTG:
+Vars:
+6
+r4 1 23 
+$r2 1 11 
+$r3 1 23 
+r0 1 9 
+$r5 1 49 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 11
+-1 0 
+48 1 -1 
+65 0 
+19 1 9 
+35 1 23 
+52 1 49 
+6 0 
+10 1 -1 
+44 1 9 
+61 1 -1 
+14 1 11 
+Constructors: 0
+
+Summary: 6
+23 11 62 49 9 -1 
+sun/awt/datatransfer/DataTransferer.access$200(Lsun/awt/datatransfer/DataTransferer;Ljava/io/File;Ljava/security/ProtectionDomain;)Z
+PTG:
+Vars:
+3
+r1 1 -3 
+r2 1 -4 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -2 -3 -4 
+Constructors: 0
+
+Summary: 6
+-3 -4 2 0 -2 1 
+sun/awt/datatransfer/DataTransferer.isForbiddenToRead(Ljava/io/File;Ljava/security/ProtectionDomain;)Z
+PTG:
+Vars:
+6
+r0 1 -3 
+$r3 1 12 
+$r1 1 7 
+r2 1 -2 
+r5 1 -1 
+$r4 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+17 2 7 12 
+21 2 -3 7 
+11 1 -2 
+Constructors: 1
+17 7
+
+Summary: 7
+-3 12 0 -1 7 -2 1 

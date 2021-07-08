@@ -1,0 +1,334 @@
+13
+java/net/HttpConnectSocketImpl.doTunneling(Ljava/net/HttpURLConnection;)V
+PTG:
+Vars:
+4
+r7 1 -1 
+$r1 1 5 
+$r2 1 0 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+23 0 
+8 3 0 -2 5 
+Constructors: 0
+
+Summary: 4
+5 -2 0 -1 
+java/net/HttpConnectSocketImpl.<init>(Ljava/net/Proxy;)V
+PTG:
+Vars:
+6
+r3 1 20 
+$r1 1 6 
+r2 1 -2 
+r0 1 -1 
+r4 1 20 
+$r5 1 45 
+Fields: 0
+Accesses: 3
+48 1 -1 
+56 1 -1 
+13 1 -1 
+Functions: 6
+16 1 -2 
+2 1 -1 
+34 0 
+52 1 20 
+10 1 6 
+44 1 20 
+Constructors: 2
+2 -1
+10 6
+
+Summary: 3
+-2 0 -1 
+java/net/HttpConnectSocketImpl.setOption(ILjava/lang/Object;)V
+PTG:
+Vars:
+5
+$r4 1 19 
+r1 1 -3 
+$r2 1 7 
+$r3 1 15 
+r0 1 -1 
+Fields: 2
+-1 optionsMap 15
+-1 external_address 7
+Accesses: 2
+6 1 -1 
+14 1 -1 
+Functions: 3
+18 0 
+3 4 -1 -3 7 15 
+23 3 -3 19 15 
+Constructors: 0
+
+Summary: 3
+-1 -3 1 
+java/net/HttpConnectSocketImpl.access$000()Ljava/lang/reflect/Field;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/net/HttpConnectSocketImpl.connect(Ljava/net/SocketAddress;I)V
+PTG:
+Vars:
+26
+$r8 1 88 
+r12 1 -1 
+$r21 1 187 
+r5 1 58 
+$r10 1 98 
+$r19 1 173 
+r0 1 -2 
+r11 1 104 
+r15 1 126 
+$r23 1 200 
+r18 1 150 
+r26 1 159 
+r2 1 -2 
+$r25 2 34 44 
+r20 1 173 
+$r6 1 74 
+r4 2 34 44 
+$r17 1 144 
+$r22 1 187 
+r13 1 113 
+$r7 1 83 
+$r14 1 126 
+$r16 1 135 
+$r24 1 -1 
+$r3 1 41 
+$r9 1 93 
+Fields: 2
+113 impl 126
+-1 optionsMap 144
+Accesses: 4
+117 1 -1 
+124 1 113 
+140 1 135 
+143 1 -1 
+Functions: 25
+192 1 187 
+134 2 -1 144 
+198 1 173 
+71 3 34 58 44 
+74 1 74 
+205 2 200 126 
+78 1 74 
+144 1 144 
+17 0 
+83 3 34 83 44 
+88 1 88 
+152 1 150 
+26 1 -2 
+93 1 93 
+33 1 -2 
+161 1 159 
+98 1 98 
+40 1 -2 
+41 1 41 
+106 3 -1 144 104 
+171 1 159 
+49 1 -2 
+55 0 
+121 2 -1 144 
+185 1 173 
+Constructors: 1
+78 74
+
+Summary: 2
+0 -1 
+java/net/HttpConnectSocketImpl.getInetAddress()Ljava/net/InetAddress;
+PTG:
+Vars:
+4
+$r2 1 16 
+_ret 1 16 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 external_address 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+8 0 
+15 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/net/HttpConnectSocketImpl.access$200(Ljava/net/HttpConnectSocketImpl;Ljava/lang/String;I)Ljava/net/Socket;
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -3 
+$r2 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 0 -3 1 
+java/net/HttpConnectSocketImpl.doTunnel(Ljava/lang/String;I)Ljava/net/Socket;
+PTG:
+Vars:
+15
+$r13 1 88 
+r7 1 -2 
+r10 1 39 
+$r1 1 7 
+$r0 1 0 
+$r11 1 73 
+$r16 1 97 
+r17 1 81 
+$r3 1 12 
+$r6 1 26 
+$r4 1 4 
+$r12 1 83 
+$r15 1 -1 
+r2 1 -1 
+$r9 1 39 
+Fields: 1
+-1 server 12
+Accesses: 3
+55 1 -1 
+11 1 -1 
+15 1 -1 
+Functions: 11
+64 1 39 
+50 1 39 
+19 2 7 12 
+83 2 81 83 
+36 2 0 26 
+22 3 0 4 7 
+70 3 -1 39 12 
+73 2 39 73 
+105 2 -1 97 
+59 1 39 
+31 2 -2 26 
+Constructors: 4
+19 7
+22 0
+105 97
+31 26
+
+Summary: 7
+26 0 7 -1 0 -2 81 
+java/net/HttpConnectSocketImpl.getLocalPort()I
+PTG:
+Vars:
+3
+$r2 1 13 
+$r1 1 1 
+r0 1 -1 
+Fields: 2
+-1 external_address 13
+-1 socket 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+12 1 -1 
+Functions: 3
+20 0 
+7 3 -1 1 13 
+27 3 -1 1 13 
+Constructors: 0
+
+Summary: 1
+-1 
+java/net/HttpConnectSocketImpl.privilegedDoTunnel(Ljava/lang/String;I)Ljava/net/Socket;
+PTG:
+Vars:
+7
+$r8 1 19 
+r1 1 -1 
+$r5 1 -1 
+$r3 1 10 
+$r7 1 19 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 0 
+18 1 -1 
+7 3 0 -1 -2 
+Constructors: 1
+7 0
+
+Summary: 3
+-2 0 -1 
+java/net/HttpConnectSocketImpl.getPort()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 external_address 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+8 0 
+15 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/net/HttpConnectSocketImpl.<clinit>()V
+PTG:
+Vars:
+7
+$r0 1 11 
+$r2 1 24 
+r3 1 37 
+$r1 1 21 
+$r4 1 41 
+r9 1 7 
+$r5 1 47 
+Fields: 0
+Accesses: 0
+Functions: 8
+17 2 21 7 
+33 0 
+3 0 
+51 1 47 
+69 0 
+38 1 37 
+54 1 47 
+8 1 7 
+Constructors: 1
+51 47
+
+Summary: 1
+21 
+java/net/HttpConnectSocketImpl.access$100()Ljava/lang/reflect/Field;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+

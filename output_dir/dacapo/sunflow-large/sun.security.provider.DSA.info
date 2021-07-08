@@ -1,0 +1,677 @@
+22
+sun/security/provider/DSA.engineVerify([B)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+sun/security/provider/DSA.engineUpdate(Ljava/nio/ByteBuffer;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 md 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+sun/security/provider/DSA.engineInitSign(Ljava/security/PrivateKey;)V
+PTG:
+Vars:
+14
+$r13 1 87 
+$r12 1 61 
+$r6 1 100 
+$r10 1 61 
+$r11 1 61 
+$r5 1 64 
+$r8 1 125 
+r2 1 45 
+$r7 1 115 
+$r4 1 61 
+$r9 1 135 
+r1 1 -2 
+r3 1 -1 
+r0 1 -2 
+Fields: 1
+-1 md 61
+Accesses: 10
+130 1 -1 
+83 1 -1 
+120 1 -1 
+73 1 -1 
+105 1 -1 
+60 1 -1 
+140 1 -1 
+110 1 -1 
+95 1 -1 
+143 1 -1 
+Functions: 16
+99 1 -2 
+134 1 45 
+39 1 -2 
+74 1 61 
+11 0 
+15 0 
+114 1 45 
+147 1 61 
+20 1 -2 
+84 1 61 
+24 0 
+56 0 
+90 2 87 45 
+124 1 45 
+61 1 61 
+30 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+sun/security/provider/DSA.<init>(Ljava/security/MessageDigest;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+sun/security/provider/DSA.engineGetParameters()Ljava/security/AlgorithmParameters;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/provider/DSA.generateS(Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
+PTG:
+Vars:
+14
+$r1 1 1 
+r5 1 -5 
+$r10 1 81 
+$r9 1 76 
+r0 1 -1 
+$r3 1 54 
+$r12 1 90 
+_ret 1 90 
+r6 1 72 
+$r11 1 86 
+r16 2 52 7 
+r7 1 -2 
+r8 1 -4 
+r2 1 -3 
+Fields: 1
+-1 md 1
+Accesses: 1
+0 1 -1 
+Functions: 11
+1 1 1 
+81 2 81 72 
+18 0 
+66 2 -3 -5 
+86 2 -3 86 
+23 0 
+74 2 -2 -4 
+27 1 -3 
+76 2 54 76 
+61 3 52 54 7 
+47 2 52 7 
+Constructors: 1
+61 54
+
+Summary: 17
+-4 7 -2 86 20 1 76 -3 0 -5 2 52 72 -1 81 54 3 
+sun/security/provider/DSA.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 0
+
+sun/security/provider/DSA.generateR(Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
+PTG:
+Vars:
+14
+r10 1 -5 
+$r5 1 34 
+r1 1 4 
+r13 1 40 
+$r9 1 54 
+r12 1 27 
+$r2 1 6 
+r4 1 -3 
+_ret 1 54 
+$r3 1 21 
+r7 1 -2 
+r6 1 -4 
+r0 1 -1 
+r8 1 49 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -1 
+19 2 21 6 
+51 2 49 -3 
+42 3 -2 -4 40 
+29 2 34 -5 
+14 2 4 6 
+31 2 -3 27 
+Constructors: 1
+14 6
+
+Summary: 15
+-4 34 49 4 6 -2 27 40 1 -3 0 -5 2 -1 3 
+sun/security/provider/DSA.checkKey(Ljava/security/interfaces/DSAParams;ILjava/lang/String;)V
+PTG:
+Vars:
+3
+r5 1 -4 
+r0 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+32 0 
+1 1 1 
+19 0 
+37 0 
+23 0 
+43 0 
+28 1 -4 
+Constructors: 0
+
+Summary: 4
+-4 2 1 -2 
+sun/security/provider/DSA.engineSign()[B
+PTG:
+Vars:
+16
+$r16 1 89 
+$r5 1 11 
+$r3 1 19 
+r9 1 41 
+$r10 1 42 
+r6 1 26 
+$r1 1 2 
+r0 1 -1 
+$r7 1 2 
+$r4 1 2 
+r2 1 8 
+$r15 1 -1 
+$r11 1 65 
+$r12 1 73 
+$r8 1 29 
+$r14 1 83 
+Fields: 4
+-1 presetG 19
+-1 presetQ 2
+-1 presetP 11
+-1 presetX 29
+Accesses: 6
+32 1 -1 
+1 1 -1 
+18 1 -1 
+10 1 -1 
+28 1 -1 
+14 1 -1 
+Functions: 10
+0 5 -1 2 19 11 29 
+48 1 42 
+81 1 65 
+71 1 42 
+56 2 42 26 
+9 6 -1 2 19 8 11 29 
+27 7 -1 2 19 8 26 11 29 
+76 2 65 73 
+62 2 41 42 
+95 1 89 
+Constructors: 3
+48 42
+76 65
+95 89
+
+Summary: 7
+65 73 8 26 42 -1 41 
+sun/security/provider/DSA.generateK(Ljava/math/BigInteger;)Ljava/math/BigInteger;
+PTG:
+Vars:
+11
+r0 1 -1 
+r1 1 4 
+r3 1 18 
+$r8 1 45 
+$r7 1 42 
+$r9 1 48 
+$r4 1 26 
+$r5 1 36 
+_ret 1 48 
+r2 1 -2 
+$r6 1 39 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -1 
+32 2 18 26 
+35 2 -2 36 
+5 1 -2 
+23 2 18 4 
+26 2 39 26 
+42 2 42 45 
+Constructors: 1
+32 26
+
+Summary: 7
+26 42 39 4 -1 -2 18 
+sun/security/provider/DSA.engineUpdate(B)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 md 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/provider/DSA.engineGetParameter(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+sun/security/provider/DSA.engineVerify([BII)Z
+PTG:
+Vars:
+15
+$r16 1 118 
+r24 2 95 59 
+$r4 1 64 
+r5 1 -1 
+r23 1 25 
+r25 2 118 68 
+$r6 1 136 
+$r3 1 55 
+$r0 1 6 
+r1 1 -2 
+$r7 1 213 
+$r8 1 136 
+$r18 1 95 
+$r19 1 102 
+$r17 1 125 
+Fields: 3
+25 ArrayObject 55
+25 ArrayObject 64
+-1 presetQ 136
+Accesses: 9
+160 1 -1 
+192 1 -1 
+148 1 -1 
+164 1 -1 
+180 1 -1 
+135 1 -1 
+168 1 -1 
+184 1 -1 
+188 1 -1 
+Functions: 19
+64 1 64 
+128 2 118 125 
+34 1 6 
+100 2 59 95 
+133 3 136 59 95 
+105 2 102 95 
+205 2 59 95 
+14 2 -2 6 
+110 2 68 118 
+48 0 
+146 3 68 118 136 
+19 1 6 
+83 0 
+179 4 -1 136 59 95 
+55 1 55 
+87 2 59 95 
+123 2 68 118 
+219 1 213 
+159 4 -1 68 118 136 
+Constructors: 4
+128 118
+105 95
+219 213
+14 6
+
+Summary: 6
+95 6 -2 0 -1 118 
+sun/security/provider/DSA.toString()Ljava/lang/String;
+PTG:
+Vars:
+41
+$r28 1 92 
+$r3 1 182 
+$r39 1 130 
+$r21 1 54 
+$r17 1 37 
+$r25 1 74 
+$r22 1 62 
+$r38 1 125 
+_ret 4 136 173 207 113 
+$r1 1 4 
+$r23 1 67 
+$r15 1 24 
+$r10 1 138 
+r36 4 136 173 207 113 
+$r5 1 196 
+$r26 1 77 
+$r19 1 44 
+$r27 1 84 
+r0 1 -1 
+$r20 1 47 
+$r11 1 164 
+$r40 1 138 
+$r30 1 18 
+$r9 1 157 
+$r29 1 97 
+$r7 1 144 
+$r37 1 117 
+$r2 1 138 
+$r14 1 18 
+r35 1 83 
+$r6 1 201 
+$r32 1 107 
+$r31 1 104 
+$r8 1 152 
+$r16 1 32 
+$r18 1 4 
+$r13 1 11 
+r34 1 53 
+$r12 1 167 
+$r24 1 11 
+$r4 1 188 
+Fields: 5
+-1 presetG 18
+-1 presetQ 11
+-1 presetP 4
+-1 presetX 182
+-1 presetY 138
+Accesses: 10
+160 1 -1 
+17 1 -1 
+3 1 -1 
+100 1 -1 
+181 1 -1 
+70 1 -1 
+40 1 -1 
+137 1 -1 
+10 1 -1 
+174 1 -1 
+Functions: 32
+192 1 188 
+130 1 130 
+67 2 67 74 
+196 1 196 
+71 1 11 
+201 1 201 
+77 1 77 
+144 5 144 113 136 173 207 
+84 2 83 84 
+148 1 144 
+24 1 24 
+88 1 84 
+152 1 152 
+28 1 24 
+92 1 92 
+157 2 164 157 
+32 1 32 
+97 2 97 104 
+161 1 138 
+37 2 37 44 
+101 1 18 
+167 1 167 
+41 1 4 
+107 1 107 
+47 1 47 
+117 1 117 
+54 2 53 54 
+121 1 117 
+58 1 54 
+188 5 113 136 188 173 207 
+125 1 125 
+62 1 62 
+Constructors: 6
+192 188
+148 144
+88 84
+121 117
+58 54
+28 24
+
+Summary: 13
+130 74 77 44 47 53 83 107 201 164 167 104 -1 
+sun/security/provider/DSA.engineInitVerify(Ljava/security/PublicKey;)V
+PTG:
+Vars:
+9
+r1 1 -2 
+r2 1 45 
+$r6 1 92 
+$r7 1 102 
+$r5 1 82 
+r3 1 -1 
+$r4 1 67 
+$r8 1 111 
+r0 1 -2 
+Fields: 1
+-1 md 111
+Accesses: 7
+97 1 -1 
+87 1 -1 
+72 1 -1 
+107 1 -1 
+77 1 -1 
+62 1 -1 
+110 1 -1 
+Functions: 12
+81 1 45 
+66 1 -2 
+114 1 111 
+20 1 -2 
+101 1 45 
+39 1 -2 
+24 0 
+56 0 
+11 0 
+91 1 45 
+30 0 
+15 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+sun/security/provider/DSA.engineSetParameter(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+r2 1 -2 
+r3 1 -3 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 0 
+Constructors: 1
+6 0
+
+Summary: 3
+-3 -1 -2 
+sun/security/provider/DSA.engineSetParameter(Ljava/security/spec/AlgorithmParameterSpec;)V
+PTG:
+Vars:
+2
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 0 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+sun/security/provider/DSA.getSigningRandom()Ljava/security/SecureRandom;
+PTG:
+Vars:
+7
+$r4 1 8 
+$r3 1 26 
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+$r2 1 8 
+$r5 1 1 
+Fields: 2
+-1 appRandom 8
+-1 signingRandom 1
+Accesses: 6
+0 1 -1 
+32 1 -1 
+19 1 -1 
+7 1 -1 
+29 1 -1 
+15 1 -1 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/provider/DSA.generateW(Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
+PTG:
+Vars:
+7
+r5 1 -4 
+r4 1 -2 
+r3 1 -1 
+r0 1 -5 
+$r2 1 3 
+_ret 1 3 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -3 -5 
+Constructors: 0
+
+Summary: 9
+-4 -3 0 -5 2 -1 -2 3 1 
+sun/security/provider/DSA.generateV(Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
+PTG:
+Vars:
+20
+r14 1 -2 
+r8 1 -7 
+r2 1 -4 
+r16 1 118 
+r11 1 -5 
+$r6 1 70 
+r10 1 90 
+r0 1 -1 
+r17 1 126 
+_ret 1 131 
+r13 1 100 
+r15 1 109 
+r7 1 77 
+r5 1 -6 
+r22 2 52 7 
+$r1 1 1 
+$r9 1 83 
+$r3 1 54 
+$r18 1 131 
+r12 1 -3 
+Fields: 1
+-1 md 1
+Accesses: 1
+0 1 -1 
+Functions: 15
+128 2 -4 126 
+1 1 1 
+66 2 -6 54 
+70 2 -4 70 
+102 3 -2 -3 90 
+47 2 52 7 
+79 2 -6 -7 
+111 2 100 109 
+18 0 
+83 2 83 -4 
+23 0 
+120 2 -3 118 
+27 1 -4 
+92 3 -3 -5 77 
+61 3 52 54 7 
+Constructors: 1
+61 54
+
+Summary: 10
+-4 5 1 -3 2 3 4 -6 0 -1 
+sun/security/provider/DSA.engineUpdate([BII)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 md 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+7 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 

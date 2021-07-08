@@ -1,0 +1,762 @@
+23
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.replace(CC[[C)[[C
+PTG:
+Vars:
+4
+r1 1 -1 
+r0 1 -4 
+$r2 1 22 
+_ret 1 -4 
+Fields: 1
+-4 ArrayObject 22
+Accesses: 0
+Functions: 1
+23 2 -1 22 
+Constructors: 0
+
+Summary: 2
+2 -1 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.removeFirstSyntheticParameter([C)[C
+PTG:
+Vars:
+3
+r2 1 -1 
+r0 1 -2 
+_ret 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+33 1 -2 
+65 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.convertToArrayType([CI)[C
+PTG:
+Vars:
+4
+r2 1 -1 
+r1 1 8 
+r0 1 -2 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 1
+18 2 -2 8 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.indexDocument()V
+PTG:
+Vars:
+63
+$r61 1 600 
+r0 1 -1 
+r67 1 858 
+$r39 1 1008 
+$r31 1 1052 
+r54 1 466 
+$r12 1 514 
+r60 1 591 
+$r9 1 265 
+r2 1 7 
+$r14 1 822 
+r56 1 560 
+r4 1 20 
+r52 1 404 
+r55 1 546 
+r66 1 851 
+$r33 1 -1 
+$r41 1 35 
+r13 1 514 
+$r38 1 1002 
+$r27 1 1029 
+r62 1 606 
+$r28 1 1 
+$r5 1 21 
+$r36 1 1 
+$r37 1 999 
+r10 1 271 
+$r19 1 679 
+r63 3 560 621 649 
+$r22 1 398 
+r49 1 230 
+r53 1 443 
+$r3 1 1 
+r8 1 54 
+r45 4 154 104 54 145 
+$r25 1 -1 
+r70 1 915 
+$r20 4 154 104 54 145 
+r64 1 729 
+r68 1 877 
+$r30 1 1046 
+r51 1 348 
+$r29 1 1043 
+r59 1 583 
+r44 2 90 112 
+r17 1 752 
+$r40 1 1011 
+r46 2 173 202 
+$r32 1 1055 
+r47 1 182 
+r69 1 892 
+$r26 1 1 
+$r34 1 1 
+$r35 1 985 
+$r23 1 342 
+$r1 1 1 
+r65 1 822 
+r48 1 251 
+$r18 1 712 
+$r16 1 871 
+$r15 1 868 
+$r50 1 283 
+$r7 1 48 
+Fields: 6
+443 ArrayObject 466
+892 ArrayObject 915
+514 ArrayObject 546
+729 ArrayObject 752
+-1 document 1
+822 ArrayObject 851
+Accesses: 6
+0 1 -1 
+977 1 -1 
+995 1 -1 
+13 1 -1 
+1021 1 -1 
+1039 1 -1 
+Functions: 82
+1 1 1 
+513 1 21 
+1025 1 1 
+386 11 -1 112 1 145 54 104 90 154 283 251 271 
+770 1 546 
+259 3 -1 1 265 
+643 3 -1 560 1 
+1029 2 1043 1029 
+135 1 21 
+264 1 21 
+392 3 -1 1 398 
+1036 1 1029 
+397 1 21 
+14 1 1 
+1040 1 1 
+150 1 21 
+1046 1 1046 
+791 2 -1 1 
+920 3 -1 1 915 
+156 1 21 
+1052 1 1052 
+34 1 20 
+1058 1 1055 
+163 1 21 
+420 11 -1 112 1 145 404 54 104 90 154 283 271 
+548 1 546 
+293 1 21 
+677 1 546 
+933 1 851 
+38 3 35 21 7 
+42 3 -1 48 1 
+682 1 546 
+299 0 
+555 1 546 
+47 1 21 
+178 1 21 
+562 3 -1 560 1 
+818 5 -1 112 1 54 90 
+436 9 -1 112 1 145 54 104 90 154 283 
+821 1 21 
+439 1 21 
+695 14 -1 1 583 679 104 649 621 560 112 145 54 154 90 606 
+58 1 54 
+954 2 -1 1 
+701 1 546 
+710 1 546 
+585 3 -1 560 1 
+970 4 -1 1 21 7 
+336 3 -1 1 342 
+593 3 -1 1 600 
+721 6 -1 1 583 712 606 591 
+724 1 546 
+85 1 54 
+341 1 21 
+853 1 851 
+981 1 1 
+598 1 546 
+471 3 -1 1 466 
+217 3 182 202 173 
+985 2 999 985 
+860 3 -1 1 871 
+861 3 -1 1 868 
+992 1 985 
+226 1 21 
+866 1 851 
+100 1 54 
+484 1 21 
+996 1 1 
+616 1 546 
+1002 1 1002 
+366 12 -1 112 1 145 54 104 90 154 283 251 348 271 
+1008 1 1008 
+243 1 230 
+628 1 21 
+884 4 -1 1 858 877 
+757 3 -1 752 1 
+246 1 230 
+1014 1 1011 
+887 1 851 
+504 2 -1 1 
+507 1 21 
+124 1 21 
+Constructors: 3
+992 985
+38 21
+1036 1029
+
+Summary: 3
+21 -1 283 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.convertToArrayType([[CII)V
+PTG:
+Vars:
+5
+$r3 1 18 
+$r1 1 2 
+r2 1 12 
+r4 1 -1 
+r0 1 -2 
+Fields: 2
+-2 ArrayObject 18
+-2 ArrayObject 2
+Accesses: 0
+Functions: 1
+25 2 18 12 
+Constructors: 0
+
+Summary: 3
+-2 2 -1 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.extractClassName([ILorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;I)[C
+PTG:
+Vars:
+5
+r1 1 -2 
+$r2 1 38 
+r0 1 -3 
+r3 1 -1 
+_ret 1 38 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -3 
+25 1 -3 
+12 1 -3 
+30 1 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.<init>(Lorg/eclipse/jdt/core/search/SearchDocument;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.extractReferenceFromConstantPool([BLorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;)V
+PTG:
+Vars:
+14
+$r8 1 320 
+r14 1 109 
+r1 1 4 
+r15 1 130 
+$r3 1 111 
+r18 1 287 
+$r16 1 130 
+r13 1 99 
+r9 1 -2 
+r17 1 257 
+r19 1 302 
+r2 1 -1 
+r0 1 -3 
+r12 1 80 
+Fields: 1
+302 ArrayObject 320
+Accesses: 0
+Functions: 17
+0 1 -3 
+321 2 -1 320 
+227 2 -1 130 
+292 2 -1 287 
+101 3 -1 -3 4 
+72 3 -1 -3 4 
+297 1 287 
+236 2 -1 109 
+15 1 -3 
+114 2 99 111 
+210 3 -1 130 109 
+243 2 -1 99 
+85 2 -1 80 
+277 2 -1 257 
+249 3 -1 -3 4 
+122 3 -1 -3 4 
+91 3 -1 -3 4 
+Constructors: 0
+
+Summary: 5
+1 -1 -3 -2 0 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.<clinit>()V
+PTG:
+Vars:
+20
+$r18 1 72 
+$r5 1 18 
+$r1 1 2 
+$r16 1 64 
+$r17 1 66 
+$r2 1 8 
+$r9 1 34 
+$r14 1 56 
+$r10 1 40 
+$r8 1 32 
+$r15 1 58 
+$r0 1 0 
+$r4 1 16 
+$r13 1 50 
+$r6 1 24 
+$r3 1 10 
+$r11 1 42 
+$r12 1 48 
+$r19 1 74 
+$r7 1 26 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 0 
+16 1 16 
+32 1 32 
+48 1 48 
+64 1 64 
+8 1 8 
+24 1 24 
+40 1 40 
+56 1 56 
+72 1 72 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.addBinaryAnnotation(Lorg/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;)V
+PTG:
+Vars:
+9
+$r3 1 12 
+r5 1 27 
+$r7 1 49 
+r8 1 65 
+$r2 1 7 
+$r4 1 15 
+r1 1 -2 
+r6 1 44 
+r0 1 -1 
+Fields: 1
+27 ArrayObject 44
+Accesses: 0
+Functions: 9
+1 2 -1 12 
+18 2 -1 15 
+21 1 -2 
+6 1 -2 
+70 2 -1 65 
+7 1 7 
+55 2 -1 49 
+58 1 44 
+47 1 44 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.extractClassReference([ILorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;I)[C
+PTG:
+Vars:
+5
+r3 1 -1 
+r1 1 -3 
+$r2 1 26 
+r0 1 -2 
+_ret 1 26 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -3 
+18 1 -3 
+13 1 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.extractName([ILorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;I)[C
+PTG:
+Vars:
+5
+r1 1 -2 
+r3 1 -1 
+r0 1 -3 
+$r2 1 38 
+_ret 1 38 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -3 
+25 1 -3 
+12 1 -3 
+30 1 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.addTypeReference([C)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 85 
+Fields: 0
+Accesses: 0
+Functions: 2
+80 1 -2 
+88 2 -1 85 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.addBinaryStandardAnnotations(J)V
+PTG:
+Vars:
+15
+$r7 1 20 
+r14 1 167 
+r13 1 143 
+$r1 1 174 
+$r5 1 78 
+$r4 1 102 
+$r2 1 150 
+r12 1 119 
+$r3 1 126 
+r9 1 42 
+$r6 1 49 
+r0 1 -1 
+r10 1 71 
+r11 1 95 
+r8 1 13 
+Fields: 7
+42 ArrayObject 49
+119 ArrayObject 126
+71 ArrayObject 78
+143 ArrayObject 150
+13 ArrayObject 20
+95 ArrayObject 102
+167 ArrayObject 174
+Accesses: 0
+Functions: 9
+50 2 -1 49 
+21 2 -1 20 
+55 1 -1 
+103 2 -1 102 
+151 2 -1 150 
+26 1 -1 
+79 2 -1 78 
+127 2 -1 126 
+175 2 -1 174 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.extractType([ILorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;I)[C
+PTG:
+Vars:
+5
+r0 1 -3 
+r1 1 -2 
+r3 1 -1 
+$r2 1 38 
+_ret 1 38 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -3 
+25 1 -3 
+12 1 -3 
+30 1 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.decodeReturnType([C)[C
+PTG:
+Vars:
+2
+r0 1 -2 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 18
+290 0 
+322 1 -1 
+391 0 
+8 1 -2 
+168 1 -1 
+202 1 -1 
+298 1 -1 
+362 1 -1 
+299 1 -1 
+236 1 -1 
+332 1 -2 
+272 1 -2 
+309 1 -2 
+24 0 
+185 1 -1 
+345 1 -1 
+219 1 -1 
+253 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.decodeFieldType([C)[C
+PTG:
+Vars:
+2
+r0 1 -2 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 16
+161 1 -1 
+195 1 -1 
+229 1 -1 
+296 1 -1 
+265 0 
+364 0 
+335 1 -1 
+144 1 -1 
+273 1 -1 
+305 1 -2 
+178 1 -1 
+274 1 -1 
+212 1 -1 
+247 1 -2 
+283 1 -2 
+318 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.replace(CC[C)[C
+PTG:
+Vars:
+3
+r1 1 -1 
+r0 1 -4 
+_ret 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+2 -1 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.extractArgCount([C[C)I
+PTG:
+Vars:
+4
+r6 1 -3 
+r5 1 -1 
+r0 1 -2 
+r1 1 180 
+Fields: 0
+Accesses: 0
+Functions: 6
+144 1 -2 
+176 1 -3 
+2 1 -2 
+162 0 
+294 0 
+25 0 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.addBinaryTargetAnnotation(J)V
+PTG:
+Vars:
+19
+$r3 1 240 
+r0 1 -1 
+$r8 1 165 
+$r7 1 170 
+$r13 1 65 
+$r16 1 30 
+$r12 1 95 
+$r5 1 205 
+$r11 1 100 
+r18 1 263 
+$r2 1 270 
+$r9 1 135 
+$r1 1 275 
+$r15 1 25 
+$r4 1 235 
+r17 7 88 53 158 18 193 123 228 
+$r14 1 60 
+$r10 1 130 
+$r6 1 200 
+Fields: 8
+88 ArrayObject 95
+263 ArrayObject 270
+53 ArrayObject 60
+158 ArrayObject 165
+18 ArrayObject 25
+193 ArrayObject 200
+123 ArrayObject 130
+228 ArrayObject 235
+Accesses: 0
+Functions: 16
+96 2 -1 95 
+33 2 -1 30 
+131 2 -1 130 
+68 2 -1 65 
+166 2 -1 165 
+103 2 -1 100 
+201 2 -1 200 
+138 2 -1 135 
+236 2 -1 235 
+173 2 -1 170 
+271 2 -1 270 
+208 2 -1 205 
+243 2 -1 240 
+278 2 -1 275 
+26 2 -1 25 
+61 2 -1 60 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.addBinaryRetentionAnnotation(J)V
+PTG:
+Vars:
+6
+r0 1 3 
+$r4 1 47 
+r1 1 -1 
+$r5 1 27 
+$r2 1 10 
+$r3 1 67 
+Fields: 1
+3 ArrayObject 10
+Accesses: 0
+Functions: 4
+50 2 -1 47 
+70 2 -1 67 
+11 2 -1 10 
+30 2 -1 27 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.decodeParameterTypes([CZ)[[C
+PTG:
+Vars:
+18
+r2 1 -1 
+r0 1 -2 
+$r16 1 581 
+$r4 1 441 
+$r7 1 353 
+$r17 2 68 36 
+$r9 1 285 
+$r5 1 444 
+$r14 1 68 
+r19 3 68 36 581 
+$r10 1 251 
+$r3 1 482 
+$r15 2 68 36 
+$r11 1 217 
+$r12 1 183 
+$r8 1 319 
+$r1 1 516 
+_ret 3 68 36 581 
+Fields: 0
+Accesses: 0
+Functions: 18
+386 1 -2 
+8 1 -2 
+201 4 -1 68 36 581 
+235 4 -1 68 36 581 
+555 0 
+77 2 68 36 
+269 4 -1 68 36 581 
+429 2 -1 441 
+462 4 -1 68 36 581 
+590 3 68 36 581 
+303 4 -1 68 36 581 
+337 4 -1 68 36 581 
+371 4 -1 68 36 581 
+404 0 
+500 4 -1 68 36 581 
+534 4 -1 68 36 581 
+439 1 -2 
+31 0 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.addPairValue(Ljava/lang/Object;)V
+PTG:
+Vars:
+14
+$r10 1 33 
+$r3 1 -2 
+r0 1 -2 
+r11 1 -2 
+$r5 1 64 
+$r8 1 22 
+$r4 1 61 
+r1 1 -1 
+$r7 1 19 
+r12 1 -2 
+$r9 1 25 
+$r6 1 67 
+r13 1 -2 
+$r2 1 118 
+Fields: 1
+-2 ArrayObject 118
+Accesses: 0
+Functions: 12
+32 2 -2 118 
+18 2 -2 118 
+19 1 19 
+36 2 -1 33 
+70 2 -1 67 
+55 2 -1 64 
+119 2 -1 118 
+88 3 -1 -2 118 
+28 2 -1 25 
+60 2 -2 118 
+13 2 -1 22 
+61 1 61 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 

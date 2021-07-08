@@ -1,0 +1,1502 @@
+65
+java/util/concurrent/ThreadPoolExecutor.lambda$finalize$0()Ljava/lang/Void;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.reject(Ljava/lang/Runnable;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 handler 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 3 -1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/concurrent/ThreadPoolExecutor.awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
+PTG:
+Vars:
+6
+$r5 1 -1 
+r2 1 11 
+r1 1 -1 
+r0 1 -3 
+$r4 1 63 
+$r3 1 19 
+Fields: 3
+-1 termination 63
+-1 ctl 19
+-1 mainLock 11
+Accesses: 3
+18 1 -1 
+7 1 -1 
+62 1 -1 
+Functions: 8
+0 1 -3 
+82 1 11 
+19 1 19 
+38 1 11 
+56 1 11 
+25 0 
+15 1 11 
+63 1 63 
+Constructors: 0
+
+Summary: 2
+-3 -1 
+java/util/concurrent/ThreadPoolExecutor.addWorker(Ljava/lang/Runnable;Z)Z
+PTG:
+Vars:
+12
+$r1 1 1 
+r5 1 135 
+$r9 1 196 
+r6 1 146 
+r0 1 -1 
+$r3 1 119 
+$r7 1 1 
+$r2 1 1 
+r4 1 -2 
+$r11 1 29 
+r16 1 119 
+$r8 1 196 
+Fields: 5
+119 thread 135
+-1 workers 196
+-1 ctl 1
+-1 workQueue 29
+-1 mainLock 146
+Accesses: 12
+0 1 -1 
+130 1 119 
+226 1 -1 
+195 1 -1 
+68 1 -1 
+88 1 -1 
+216 1 -1 
+153 1 -1 
+28 1 -1 
+61 1 -1 
+205 1 -1 
+142 1 -1 
+Functions: 20
+96 0 
+1 1 1 
+257 1 135 
+8 0 
+201 3 196 119 135 
+42 0 
+234 1 146 
+77 5 -1 1 146 196 29 
+269 7 -1 1 146 196 119 135 29 
+206 1 196 
+179 1 135 
+244 1 146 
+150 1 146 
+89 1 1 
+154 1 1 
+284 7 -1 1 146 196 119 135 29 
+29 1 29 
+125 8 -1 1 -2 146 196 119 135 29 
+157 0 
+191 0 
+Constructors: 1
+125 119
+
+Summary: 3
+-2 -1 0 
+java/util/concurrent/ThreadPoolExecutor.runStateAtLeast(II)Z
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ThreadPoolExecutor.isRunningOrShutdown(Z)Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 ctl 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+4 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.prestartCoreThread()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 ctl 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 3
+1 1 1 
+17 2 -1 1 
+4 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.ensurePrestart()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 ctl 1
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 4
+1 1 1 
+4 0 
+36 2 -1 1 
+22 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.getCorePoolSize()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.compareAndDecrementWorkerCount(I)Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 ctl 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.runStateLessThan(II)Z
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ThreadPoolExecutor.compareAndIncrementWorkerCount(I)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 ctl 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.prestartAllCoreThreads()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.terminated()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.remove(Ljava/lang/Runnable;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 workQueue 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -1 1 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/concurrent/ThreadPoolExecutor.setCorePoolSize(I)V
+PTG:
+Vars:
+4
+$r1 1 25 
+r0 1 -1 
+$r2 1 51 
+$r3 1 51 
+Fields: 2
+-1 ctl 25
+-1 workQueue 51
+Accesses: 5
+50 1 -1 
+21 1 -1 
+24 1 -1 
+13 1 -1 
+79 1 -1 
+Functions: 8
+80 1 51 
+51 1 51 
+54 0 
+70 3 -1 51 25 
+39 3 -1 51 25 
+8 0 
+25 1 25 
+28 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.onShutdown()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.setRejectedExecutionHandler(Ljava/util/concurrent/RejectedExecutionHandler;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+14 1 -1 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.tryTerminate()V
+PTG:
+Vars:
+5
+$r1 1 1 
+$r3 1 1 
+$r6 1 32 
+r2 1 61 
+r0 1 -1 
+Fields: 3
+-1 ctl 1
+-1 workQueue 32
+-1 mainLock 61
+Accesses: 8
+0 1 -1 
+113 1 -1 
+66 1 -1 
+100 1 -1 
+87 1 -1 
+57 1 -1 
+126 1 -1 
+31 1 -1 
+Functions: 20
+32 1 32 
+1 1 1 
+97 0 
+130 0 
+67 1 1 
+8 0 
+104 0 
+73 0 
+138 1 61 
+44 0 
+143 1 61 
+16 0 
+84 4 -1 32 1 61 
+53 4 -1 32 1 61 
+119 0 
+24 0 
+152 1 61 
+123 0 
+93 0 
+63 1 61 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.getThreadFactory()Ljava/util/concurrent/ThreadFactory;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 threadFactory 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.getKeepAliveTime(Ljava/util/concurrent/TimeUnit;)J
+PTG:
+Vars:
+3
+r0 1 -2 
+$r2 1 5 
+r1 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 2 -2 5 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/ThreadPoolExecutor.checkShutdownAccess()V
+PTG:
+Vars:
+9
+$r4 1 25 
+r2 1 -1 
+$r6 1 42 
+r3 1 19 
+$r8 1 55 
+r7 1 42 
+r0 1 3 
+$r1 1 9 
+r5 1 31 
+Fields: 3
+-1 workers 25
+-1 mainLock 19
+42 thread 55
+Accesses: 3
+53 1 42 
+24 1 -1 
+15 1 -1 
+Functions: 9
+0 0 
+32 1 31 
+65 1 19 
+21 1 19 
+25 1 25 
+41 1 31 
+58 2 3 55 
+74 1 19 
+12 2 3 9 
+Constructors: 0
+
+Summary: 4
+3 55 -1 42 
+java/util/concurrent/ThreadPoolExecutor.addWorkerFailed(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 14 
+r1 1 4 
+r2 1 -2 
+Fields: 2
+-1 workers 14
+-1 mainLock 4
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 6
+18 2 -2 14 
+6 1 4 
+23 3 -1 4 14 
+39 1 4 
+27 3 -1 4 14 
+31 1 4 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/ThreadPoolExecutor.<init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;)V
+PTG:
+Vars:
+5
+$r4 1 11 
+r1 1 -5 
+r2 1 -6 
+$r3 1 8 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+14 5 -1 -5 -6 8 11 
+Constructors: 1
+14 -1
+
+Summary: 5
+-6 4 -5 -1 8 
+java/util/concurrent/ThreadPoolExecutor.finalize()V
+PTG:
+Vars:
+5
+$r2 1 9 
+r1 1 -1 
+r3 1 28 
+r0 1 3 
+$r4 1 9 
+Fields: 1
+-1 acc 9
+Accesses: 2
+8 1 -1 
+30 1 -1 
+Functions: 4
+0 0 
+16 2 -1 9 
+34 2 9 28 
+22 2 -1 9 
+Constructors: 0
+
+Summary: 2
+3 -1 
+java/util/concurrent/ThreadPoolExecutor.decrementWorkerCount()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 2 
+Fields: 1
+-1 ctl 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+0 2 -1 2 
+2 1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.processWorkerExit(Ljava/util/concurrent/ThreadPoolExecutor$Worker;Z)V
+PTG:
+Vars:
+6
+r1 1 12 
+r0 1 -1 
+r2 1 -2 
+$r5 1 105 
+$r3 1 31 
+$r4 1 60 
+Fields: 4
+-1 workers 31
+-1 ctl 60
+-1 workQueue 105
+-1 mainLock 12
+Accesses: 9
+17 1 -1 
+82 1 -1 
+22 1 -2 
+8 1 -1 
+104 1 -1 
+27 1 -1 
+59 1 -1 
+93 1 -1 
+30 1 -1 
+Functions: 11
+49 1 12 
+35 2 -2 31 
+5 5 -1 105 60 12 31 
+133 5 -1 105 60 12 31 
+70 0 
+119 0 
+40 1 12 
+56 5 -1 105 60 12 31 
+105 1 105 
+60 1 60 
+14 1 12 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/concurrent/ThreadPoolExecutor.workerCountOf(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ThreadPoolExecutor.allowCoreThreadTimeOut(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+33 1 -1 
+4 1 -1 
+24 1 -1 
+Functions: 2
+19 0 
+41 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.isRunning(I)Z
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V
+PTG:
+Vars:
+8
+r0 1 3 
+r2 1 -1 
+$r4 1 39 
+r16 1 26 
+$r5 1 26 
+r1 1 -2 
+$r3 1 39 
+r17 0 
+Fields: 2
+-2 firstTask 8
+-1 ctl 39
+Accesses: 8
+179 1 -2 
+4 1 -2 
+165 1 -2 
+38 1 -1 
+186 1 -2 
+11 1 -2 
+59 1 -1 
+158 1 -2 
+Functions: 20
+0 0 
+-1 0 
+66 0 
+35 2 -2 8 
+39 1 39 
+104 3 -1 39 26 
+169 2 -2 8 
+74 1 3 
+140 0 
+45 0 
+206 4 -1 -2 39 8 
+15 2 -2 8 
+82 1 3 
+150 3 -1 39 26 
+88 4 -1 3 39 26 
+25 2 -1 39 
+218 4 -1 -2 39 8 
+60 1 39 
+190 2 -2 8 
+95 1 26 
+Constructors: 0
+
+Summary: 4
+3 26 -1 0 
+java/util/concurrent/ThreadPoolExecutor.getMaximumPoolSize()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.purge()V
+PTG:
+Vars:
+10
+r0 1 -1 
+r1 1 4 
+$r4 1 -1 
+r8 1 22 
+$r3 1 22 
+r5 1 88 
+$r6 1 88 
+r7 1 11 
+$r2 1 22 
+r10 1 69 
+Fields: 2
+69 ArrayObject 88
+-1 workQueue 4
+Accesses: 1
+0 1 -1 
+Functions: 9
+114 2 4 88 
+51 1 11 
+100 1 88 
+5 1 4 
+21 1 11 
+39 1 22 
+12 1 11 
+63 1 4 
+127 2 -1 4 
+Constructors: 0
+
+Summary: 5
+69 22 11 -1 88 
+java/util/concurrent/ThreadPoolExecutor.isTerminated()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 ctl 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+7 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.getCompletedTaskCount()J
+PTG:
+Vars:
+7
+r4 1 35 
+$r3 1 35 
+r1 1 4 
+$r5 1 -1 
+r0 1 -1 
+r7 1 21 
+$r2 1 15 
+Fields: 2
+-1 workers 15
+-1 mainLock 4
+Accesses: 4
+0 1 -1 
+9 1 -1 
+14 1 -1 
+46 1 35 
+Functions: 6
+33 1 21 
+69 1 4 
+6 1 4 
+23 1 21 
+60 1 4 
+15 1 15 
+Constructors: 0
+
+Summary: 3
+35 21 -1 
+java/util/concurrent/ThreadPoolExecutor.<init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/RejectedExecutionHandler;)V
+PTG:
+Vars:
+5
+r4 1 -7 
+r2 1 -6 
+$r3 1 8 
+r0 1 -1 
+r1 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+13 5 -1 -5 -6 -7 8 
+Constructors: 1
+13 -1
+
+Summary: 7
+-6 4 5 -5 -7 -1 8 
+java/util/concurrent/ThreadPoolExecutor.setThreadFactory(Ljava/util/concurrent/ThreadFactory;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 1
+14 1 -1 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.getActiveCount()I
+PTG:
+Vars:
+7
+r1 1 4 
+r7 1 18 
+r4 1 29 
+$r5 1 -1 
+$r2 1 12 
+$r3 1 29 
+r0 1 -1 
+Fields: 2
+-1 workers 12
+-1 mainLock 4
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 7
+64 1 4 
+19 1 18 
+6 1 4 
+39 1 29 
+56 1 4 
+12 1 12 
+28 1 18 
+Constructors: 0
+
+Summary: 3
+18 -1 29 
+java/util/concurrent/ThreadPoolExecutor.getRejectedExecutionHandler()Ljava/util/concurrent/RejectedExecutionHandler;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 handler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.getTaskCount()J
+PTG:
+Vars:
+8
+$r3 1 70 
+$r6 1 -1 
+r0 1 -1 
+$r2 1 15 
+r8 1 21 
+$r4 1 35 
+r5 1 35 
+r1 1 4 
+Fields: 3
+-1 workers 15
+-1 workQueue 70
+-1 mainLock 4
+Accesses: 5
+0 1 -1 
+69 1 -1 
+9 1 -1 
+14 1 -1 
+46 1 35 
+Functions: 8
+33 1 21 
+83 1 4 
+53 1 35 
+6 1 4 
+70 1 70 
+23 1 21 
+92 1 4 
+15 1 15 
+Constructors: 0
+
+Summary: 3
+35 21 -1 
+java/util/concurrent/ThreadPoolExecutor.execute(Ljava/lang/Runnable;)V
+PTG:
+Vars:
+6
+r1 1 -1 
+$r2 1 13 
+$r4 1 13 
+$r3 1 57 
+$r5 1 13 
+r0 1 -2 
+Fields: 2
+-1 ctl 13
+-1 workQueue 57
+Accesses: 5
+69 1 -1 
+24 1 -1 
+56 1 -1 
+41 1 -1 
+12 1 -1 
+Functions: 15
+128 4 -1 -2 57 13 
+100 0 
+70 1 13 
+8 0 
+42 1 13 
+13 1 13 
+77 0 
+110 3 -1 57 13 
+49 0 
+20 0 
+84 4 -1 -2 57 13 
+117 4 -1 -2 57 13 
+57 2 -2 57 
+94 4 -1 -2 57 13 
+31 4 -1 -2 57 13 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/concurrent/ThreadPoolExecutor.setKeepAliveTime(JLjava/util/concurrent/TimeUnit;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -3 
+Fields: 0
+Accesses: 2
+56 1 -1 
+46 1 -1 
+Functions: 5
+33 0 
+67 1 -1 
+20 1 -1 
+37 1 -3 
+10 0 
+Constructors: 0
+
+Summary: 2
+-3 -1 
+java/util/concurrent/ThreadPoolExecutor.beforeExecute(Ljava/lang/Thread;Ljava/lang/Runnable;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+1 -2 -3 -1 0 
+java/util/concurrent/ThreadPoolExecutor.toString()Ljava/lang/String;
+PTG:
+Vars:
+26
+$r20 1 180 
+$r15 1 156 
+$r12 1 140 
+$r18 1 170 
+$r5 1 48 
+r8 1 34 
+$r21 1 185 
+$r3 1 20 
+$r10 3 116 136 131 
+_ret 1 214 
+$r17 1 166 
+$r22 1 189 
+$r23 1 197 
+r1 1 4 
+$r4 1 99 
+$r24 1 202 
+$r16 1 161 
+$r13 1 148 
+$r26 1 211 
+$r2 1 20 
+$r14 1 151 
+$r27 1 214 
+r0 1 -1 
+r9 1 48 
+$r19 1 175 
+$r25 1 206 
+Fields: 4
+-1 workers 20
+-1 ctl 99
+-1 workQueue 189
+-1 mainLock 4
+Accesses: 7
+0 1 -1 
+98 1 -1 
+19 1 -1 
+11 1 -1 
+27 1 -1 
+59 1 48 
+188 1 -1 
+Functions: 27
+66 1 48 
+197 1 197 
+8 1 4 
+202 1 202 
+140 2 148 140 
+206 1 206 
+144 1 140 
+82 1 4 
+147 5 -1 99 20 4 189 
+211 1 211 
+20 1 20 
+151 1 151 
+28 1 20 
+92 1 4 
+156 4 131 116 136 156 
+161 1 161 
+99 1 99 
+36 1 34 
+166 1 166 
+170 1 170 
+109 0 
+46 1 34 
+175 1 175 
+180 1 180 
+185 1 185 
+123 0 
+189 1 189 
+Constructors: 1
+144 140
+
+Summary: 2
+48 148 
+java/util/concurrent/ThreadPoolExecutor.shutdownNow()Ljava/util/List;
+PTG:
+Vars:
+4
+r2 1 27 
+r0 1 -1 
+r1 1 4 
+_ret 1 27 
+Fields: 1
+-1 mainLock 4
+Accesses: 1
+0 1 -1 
+Functions: 8
+16 2 -1 4 
+20 2 -1 4 
+37 1 4 
+6 1 4 
+23 2 -1 4 
+10 2 -1 4 
+43 2 -1 4 
+29 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.advanceRunState(I)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 ctl 1
+Accesses: 2
+0 1 -1 
+16 1 -1 
+Functions: 5
+1 1 1 
+17 1 1 
+22 0 
+23 0 
+9 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.interruptIdleWorkers(Z)V
+PTG:
+Vars:
+8
+$r4 1 27 
+r0 1 -1 
+r6 1 42 
+$r2 1 10 
+r1 1 4 
+r3 1 16 
+r5 1 27 
+$r11 1 -1 
+Fields: 3
+27 thread 42
+-1 workers 10
+-1 mainLock 4
+Accesses: 3
+0 1 -1 
+37 1 27 
+9 1 -1 
+Functions: 12
+17 1 16 
+113 1 4 
+67 2 42 27 
+52 2 42 27 
+6 1 4 
+87 2 42 27 
+104 1 4 
+10 1 10 
+26 1 16 
+44 1 42 
+77 2 42 27 
+62 1 42 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.interruptIdleWorkers()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.allowsCoreThreadTimeOut()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.<init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;Ljava/util/concurrent/RejectedExecutionHandler;)V
+PTG:
+Vars:
+12
+$r1 1 5 
+$r3 1 33 
+r7 1 -7 
+$r5 1 48 
+$r14 1 115 
+r6 1 -6 
+$r4 1 45 
+$r9 1 105 
+$r2 1 22 
+r0 1 -1 
+r8 1 -8 
+r10 1 -5 
+Fields: 1
+-1 mainLock 45
+Accesses: 12
+128 1 -1 
+144 1 -1 
+18 1 -1 
+51 1 -1 
+118 1 -1 
+134 1 -1 
+150 1 -1 
+40 1 -1 
+123 1 -1 
+44 1 -1 
+156 1 -1 
+29 1 -1 
+Functions: 10
+-1 0 
+1 2 -1 45 
+100 0 
+37 1 33 
+26 1 22 
+138 1 -5 
+11 0 
+45 1 45 
+77 0 
+15 1 5 
+Constructors: 4
+1 -1
+37 33
+26 22
+15 5
+
+Summary: 7
+105 5 6 -1 3 4 -5 
+java/util/concurrent/ThreadPoolExecutor.getLargestPoolSize()I
+PTG:
+Vars:
+3
+$r2 1 -1 
+r1 1 4 
+r0 1 -1 
+Fields: 1
+-1 mainLock 4
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 3
+6 1 4 
+22 1 4 
+15 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.interruptWorkers()V
+PTG:
+Vars:
+6
+$r2 1 10 
+r3 1 16 
+r1 1 4 
+$r4 1 27 
+r5 1 27 
+r0 1 -1 
+Fields: 2
+-1 workers 10
+-1 mainLock 4
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 7
+17 1 16 
+37 1 27 
+53 1 4 
+6 1 4 
+10 1 10 
+26 1 16 
+44 1 4 
+Constructors: 0
+
+Summary: 3
+16 27 -1 
+java/util/concurrent/ThreadPoolExecutor.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 1 10 
+4 1 0 
+Constructors: 2
+16 10
+4 0
+
+Summary: 0
+
+java/util/concurrent/ThreadPoolExecutor.getTask()Ljava/lang/Runnable;
+PTG:
+Vars:
+11
+$r5 1 26 
+r0 1 -1 
+$r4 1 131 
+$r2 1 26 
+$r8 1 -1 
+$r9 1 3 
+$r3 1 149 
+$r6 1 134 
+$r7 1 26 
+$r10 2 134 149 
+$r1 1 26 
+Fields: 2
+-1 ctl 3
+-1 workQueue 26
+Accesses: 9
+96 1 -1 
+49 1 -1 
+145 1 -1 
+2 1 -1 
+25 1 -1 
+58 1 -1 
+74 1 -1 
+123 1 -1 
+127 1 -1 
+Functions: 9
+97 1 26 
+146 1 26 
+3 1 3 
+38 3 -1 3 26 
+10 0 
+26 1 26 
+43 0 
+108 3 -1 3 26 
+124 2 131 26 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.setMaximumPoolSize(I)V
+PTG:
+Vars:
+2
+$r2 1 26 
+r1 1 -1 
+Fields: 1
+-1 ctl 26
+Accesses: 3
+5 1 -1 
+22 1 -1 
+25 1 -1 
+Functions: 4
+16 0 
+40 2 -1 26 
+26 1 26 
+29 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.ctlOf(II)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ThreadPoolExecutor.afterExecute(Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-2 -3 -1 0 
+java/util/concurrent/ThreadPoolExecutor.getPoolSize()I
+PTG:
+Vars:
+5
+r1 1 4 
+$r2 1 10 
+$r4 1 -1 
+r0 1 -1 
+$r3 1 29 
+Fields: 3
+-1 workers 29
+-1 ctl 10
+-1 mainLock 4
+Accesses: 3
+0 1 -1 
+9 1 -1 
+28 1 -1 
+Functions: 6
+16 0 
+37 1 4 
+6 1 4 
+10 1 10 
+44 1 4 
+29 1 29 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.isShutdown()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 ctl 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+4 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.runStateOf(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/ThreadPoolExecutor.<init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
+PTG:
+Vars:
+5
+r1 1 -5 
+r0 1 -1 
+r3 1 -7 
+r2 1 -6 
+$r4 1 10 
+Fields: 0
+Accesses: 0
+Functions: 1
+13 5 -1 -5 -6 -7 10 
+Constructors: 1
+13 -1
+
+Summary: 6
+-6 4 5 -5 -7 -1 
+java/util/concurrent/ThreadPoolExecutor.getQueue()Ljava/util/concurrent/BlockingQueue;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 workQueue 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.drainQueue()Ljava/util/List;
+PTG:
+Vars:
+8
+r6 1 35 
+r7 1 62 
+$r5 1 35 
+$r4 1 32 
+$r2 1 5 
+r0 1 -1 
+r1 1 4 
+_ret 1 5 
+Fields: 2
+35 ArrayObject 62
+-1 workQueue 4
+Accesses: 1
+0 1 -1 
+Functions: 6
+64 2 4 62 
+21 1 4 
+9 1 5 
+30 2 32 4 
+78 2 5 62 
+15 2 4 5 
+Constructors: 1
+9 5
+
+Summary: 4
+35 -1 32 62 
+java/util/concurrent/ThreadPoolExecutor.isTerminating()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 ctl 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+16 0 
+1 1 1 
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/ThreadPoolExecutor.shutdown()V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 4 
+Fields: 1
+-1 mainLock 4
+Accesses: 1
+0 1 -1 
+Functions: 8
+19 2 -1 4 
+35 1 4 
+6 1 4 
+23 2 -1 4 
+41 2 -1 4 
+10 2 -1 4 
+27 1 4 
+15 2 -1 4 
+Constructors: 0
+
+Summary: 1
+-1 

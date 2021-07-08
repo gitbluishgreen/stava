@@ -1,0 +1,981 @@
+23
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.getParentArea(Lorg/apache/fop/area/Area;)Lorg/apache/fop/area/Area;
+PTG:
+Vars:
+27
+$r24 1 1 
+$r16 1 1 
+_ret 1 1 
+$r12 1 54 
+$r17 1 101 
+$r22 1 123 
+$r21 1 1 
+$r4 1 1 
+$r14 1 76 
+$r20 1 111 
+$r7 1 1 
+$r13 1 1 
+$r1 1 1 
+$r23 1 130 
+$r9 1 40 
+$r18 1 104 
+$r2 1 1 
+$r10 1 1 
+r26 1 -2 
+$r5 1 19 
+$r3 1 8 
+$r15 1 79 
+$r25 1 1 
+r0 1 -1 
+$r11 1 51 
+$r8 1 37 
+$r19 1 108 
+Fields: 2
+-1 curBlockArea 1
+-1 parentLM 19
+Accesses: 17
+0 1 -1 
+32 1 -1 
+96 1 -1 
+165 1 -1 
+71 1 -1 
+139 1 -1 
+46 1 -1 
+15 1 -1 
+18 1 -1 
+82 1 -1 
+149 1 -1 
+22 1 -1 
+86 1 -1 
+118 1 -1 
+57 1 -1 
+61 1 -1 
+158 1 -1 
+Functions: 24
+129 3 -1 1 19 
+130 1 130 
+162 3 -1 1 19 
+36 3 -1 1 19 
+68 4 -1 1 19 54 
+100 3 -1 1 19 
+37 1 37 
+101 1 101 
+136 1 1 
+43 2 1 40 
+75 3 -1 1 19 
+107 3 -1 1 19 
+12 1 8 
+76 1 76 
+108 1 108 
+143 3 -1 1 19 
+50 3 -1 1 19 
+51 1 51 
+115 5 -1 1 19 104 111 
+26 2 1 19 
+122 3 -1 1 19 
+154 1 1 
+123 1 123 
+93 4 -1 1 19 79 
+Constructors: 1
+12 8
+
+Summary: 15
+104 51 0 40 108 123 101 37 -1 79 -2 76 54 111 130 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.getMaxRemainingHeight([I[I)I
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -3 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+13 0 
+Constructors: 0
+
+Summary: 5
+-2 0 1 -3 -1 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.<clinit>()V
+PTG:
+Vars:
+3
+$r2 2 8 18 
+$r1 1 21 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.getNextStep([Ljava/util/List;[I[I[I)I
+PTG:
+Vars:
+13
+$r7 1 77 
+$r9 1 132 
+$r6 1 57 
+$r8 1 82 
+r4 1 -4 
+$r10 1 139 
+r11 1 139 
+r14 1 82 
+r3 1 -3 
+r1 1 -5 
+r13 1 -1 
+r5 1 -2 
+$r0 1 1 
+Fields: 3
+-2 ArrayObject 57
+-2 ArrayObject 77
+-2 ArrayObject 132
+Accesses: 0
+Functions: 11
+114 1 82 
+100 1 82 
+132 1 132 
+324 0 
+149 1 139 
+166 1 82 
+182 1 82 
+280 0 
+57 1 57 
+92 1 82 
+77 1 77 
+Constructors: 0
+
+Summary: 15
+0 -4 -5 82 1 3 -3 139 -1 132 2 -2 57 1 77 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.getNextKnuthElements(Lorg/apache/fop/layoutmgr/LayoutContext;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+25
+$r7 1 115 
+$r10 1 122 
+_ret 1 8 
+$r16 1 200 
+$r9 1 102 
+$r2 1 8 
+$r5 1 102 
+$r6 1 102 
+$r13 1 169 
+$r21 1 226 
+$r22 1 207 
+$r14 1 187 
+$r23 1 122 
+$r15 1 187 
+$r20 1 223 
+$r8 1 122 
+r0 1 -1 
+$r18 1 187 
+$r11 1 138 
+$r4 1 84 
+r24 1 267 
+$r17 1 207 
+$r19 1 207 
+$r12 1 141 
+r1 1 -2 
+Fields: 4
+-1 bodyList 207
+-1 body 187
+-1 label 102
+-1 labelList 122
+Accesses: 23
+128 1 -1 
+194 1 -1 
+259 1 -1 
+5 1 -1 
+101 1 -1 
+134 1 -1 
+166 1 -1 
+203 1 -1 
+76 1 -1 
+300 1 -1 
+109 1 -1 
+206 1 -1 
+17 1 -1 
+307 1 -1 
+213 1 -1 
+118 1 -1 
+121 1 -1 
+26 1 -1 
+186 1 -1 
+59 1 -1 
+219 1 -1 
+251 1 -1 
+255 1 -1 
+Functions: 42
+1 1 -2 
+195 2 169 187 
+325 1 -2 
+71 6 -1 102 8 122 187 207 
+135 1 102 
+328 5 -1 102 122 187 207 
+138 1 138 
+12 1 8 
+144 2 122 141 
+81 6 -1 -2 102 122 187 207 
+210 1 207 
+147 1 84 
+275 7 -1 102 8 122 187 267 207 
+339 1 -2 
+344 5 -1 102 122 187 207 
+89 1 84 
+282 6 -1 102 8 122 187 207 
+220 1 187 
+348 5 -1 102 122 187 207 
+29 1 -2 
+94 1 -2 
+158 1 -2 
+223 1 223 
+289 6 -1 102 8 122 187 207 
+98 1 84 
+162 1 84 
+36 7 -1 -2 102 8 122 187 207 
+229 2 226 207 
+232 1 169 
+296 7 -1 -2 102 8 122 187 207 
+105 1 102 
+110 2 84 102 
+174 1 169 
+179 1 -2 
+243 1 -2 
+53 6 -1 102 8 122 187 207 
+183 1 169 
+247 1 169 
+314 5 -1 102 122 187 207 
+125 1 122 
+190 1 187 
+254 6 -1 -2 102 122 187 207 
+Constructors: 3
+89 84
+12 8
+174 169
+
+Summary: 10
+138 0 169 267 226 -1 223 -2 84 141 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.mustKeepWithNext()Z
+PTG:
+Vars:
+7
+r0 1 -1 
+$r3 1 7 
+$r4 1 17 
+$r5 1 20 
+$r1 1 1 
+$r2 1 4 
+$r6 1 23 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -1 
+16 1 -1 
+1 1 1 
+17 1 17 
+4 1 4 
+20 1 20 
+7 1 7 
+23 1 23 
+Constructors: 0
+
+Summary: 7
+17 23 4 1 20 7 -1 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.initialize()V
+PTG:
+Vars:
+17
+$r13 1 58 
+$r10 1 44 
+$r12 1 55 
+$r7 1 31 
+$r15 1 75 
+$r9 1 37 
+$r8 1 34 
+$r2 1 6 
+$r16 1 78 
+$r11 1 52 
+r0 1 -1 
+$r6 1 26 
+$r1 1 1 
+$r4 1 12 
+$r3 1 9 
+$r5 1 19 
+$r14 1 72 
+Fields: 4
+34 spaceAfter 37
+55 startIndent 58
+9 spaceBefore 12
+75 endIndent 78
+Accesses: 8
+34 1 34 
+67 1 -1 
+22 1 -1 
+55 1 55 
+87 1 -1 
+9 1 9 
+75 1 75 
+47 1 -1 
+Functions: 14
+1 1 1 
+5 1 -1 
+6 1 6 
+71 1 -1 
+72 1 72 
+41 3 -1 37 26 
+78 2 -1 78 
+16 3 -1 1 12 
+51 1 -1 
+52 1 52 
+26 1 26 
+58 2 -1 58 
+30 1 -1 
+31 1 31 
+Constructors: 2
+16 1
+41 26
+
+Summary: 15
+26 6 55 78 52 37 75 -1 34 72 31 12 1 9 58 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.addAreas(Lorg/apache/fop/layoutmgr/PositionIterator;Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+49
+$r46 1 52 
+$r11 1 133 
+$r12 1 146 
+$r29 1 473 
+$r31 1 501 
+$r35 1 345 
+$r20 1 208 
+r47 1 52 
+$r34 1 322 
+$r48 1 91 
+$r28 1 477 
+$r15 1 159 
+$r45 1 295 
+r0 1 -1 
+$r2 1 7 
+$r41 1 322 
+$r38 1 395 
+$r7 1 35 
+$r40 1 322 
+$r44 1 288 
+$r5 1 20 
+$r22 1 322 
+$r36 1 208 
+$r33 1 507 
+$r3 1 11 
+r52 1 52 
+$r25 1 457 
+$r43 1 184 
+$r49 1 52 
+$r13 1 146 
+$r18 1 184 
+$r4 1 14 
+$r42 1 238 
+$r30 1 497 
+$r39 1 402 
+$r19 1 184 
+$r10 1 133 
+$r17 1 172 
+r9 1 -2 
+$r27 1 322 
+$r50 1 104 
+r51 1 52 
+$r14 1 159 
+$r32 1 501 
+$r16 1 172 
+$r23 1 322 
+r26 1 -3 
+$r21 1 208 
+$r24 1 454 
+Fields: 7
+-1 bodyList 208
+-1 curBlockArea 322
+-1 body 402
+-1 effSpaceAfter 477
+-1 effSpaceBefore 473
+-1 label 295
+-1 labelList 184
+Accesses: 17
+321 1 -1 
+449 1 -1 
+194 1 -1 
+294 1 -1 
+423 1 -1 
+489 1 -1 
+330 1 -1 
+207 1 -1 
+464 1 -1 
+401 1 -1 
+242 1 -1 
+183 1 -1 
+472 1 -1 
+218 1 -1 
+411 1 -1 
+476 1 -1 
+349 1 -1 
+Functions: 66
+128 8 -1 208 322 402 295 184 473 477 
+2 8 -1 208 322 402 295 184 473 477 
+386 1 -3 
+131 1 35 
+260 1 -3 
+6 8 -1 208 322 402 295 184 473 477 
+390 1 20 
+136 1 133 
+264 1 20 
+10 8 -1 208 322 402 295 184 473 477 
+394 1 -3 
+11 1 11 
+398 2 20 395 
+271 1 -3 
+144 1 35 
+17 2 7 14 
+275 1 20 
+149 1 146 
+279 1 -3 
+408 3 402 20 345 
+25 1 20 
+283 1 20 
+412 1 322 
+157 1 35 
+287 1 -3 
+162 1 159 
+291 2 288 20 
+39 1 35 
+170 1 35 
+44 1 -2 
+301 3 20 295 238 
+429 1 322 
+175 1 172 
+434 9 -1 208 322 402 52 295 184 473 477 
+51 1 -2 
+440 9 -1 208 322 402 52 295 184 473 477 
+187 1 184 
+60 1 52 
+446 8 -1 208 322 402 295 184 473 477 
+322 1 322 
+453 8 -1 208 322 402 295 184 473 477 
+454 1 454 
+204 1 184 
+461 9 -1 208 322 402 295 184 457 473 477 
+335 1 322 
+211 1 208 
+468 1 -3 
+89 1 52 
+480 3 322 473 477 
+228 1 208 
+484 8 -1 208 322 402 295 184 473 477 
+101 1 52 
+359 2 208 345 
+107 2 35 104 
+493 8 -1 208 322 402 295 184 473 477 
+367 1 -3 
+496 8 -1 208 322 402 295 184 473 477 
+371 1 20 
+116 9 -1 208 322 402 52 295 184 473 477 
+500 8 -1 208 322 402 295 184 473 477 
+504 1 501 
+122 9 -1 208 322 402 52 295 184 473 477 
+378 1 -3 
+252 2 184 238 
+382 1 20 
+510 2 497 507 
+Constructors: 4
+39 35
+359 345
+25 20
+252 238
+
+Summary: 25
+104 172 497 14 52 -3 7 -2 91 159 345 454 238 288 507 35 0 501 395 146 1 457 11 133 20 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.getListItemHeight()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.getListItemFO()Lorg/apache/fop/fo/flow/ListItem;
+PTG:
+Vars:
+4
+$r2 1 1 
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 fobj 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r5 1 14 
+$r2 1 -1 
+$r4 1 6 
+$r1 1 1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.notifyPadding(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+13
+$r9 1 64 
+$r4 1 46 
+$r12 1 24 
+$r8 1 60 
+r0 1 -3 
+$r11 1 4 
+$r1 1 38 
+$r7 1 55 
+$r10 1 67 
+r6 1 -2 
+r3 1 -1 
+$r2 1 35 
+$r5 1 51 
+Fields: 0
+Accesses: 2
+21 1 -1 
+13 1 -1 
+Functions: 9
+64 1 64 
+51 2 -2 51 
+38 2 -1 38 
+70 2 35 67 
+55 1 55 
+24 1 24 
+42 1 38 
+60 2 -3 60 
+46 1 46 
+Constructors: 1
+42 38
+
+Summary: 7
+0 1 67 -3 64 -1 -2 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.setLabel(Lorg/apache/fop/fo/flow/ListItemLabel;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r3 1 13 
+r2 1 -2 
+Fields: 1
+-1 label 13
+Accesses: 2
+9 1 -1 
+12 1 -1 
+Functions: 2
+17 2 -1 13 
+6 2 1 -2 
+Constructors: 1
+6 1
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.resetSpaces()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 6
+17 1 -1 
+2 1 -1 
+22 1 -1 
+7 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.addChildArea(Lorg/apache/fop/area/Area;)V
+PTG:
+Vars:
+5
+$r4 1 1 
+r0 1 -1 
+$r3 1 -2 
+$r1 1 1 
+r2 1 -2 
+Fields: 1
+-1 curBlockArea 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+15 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.notifySpace(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+28
+r0 1 -2 
+$r27 1 62 
+r4 1 -3 
+$r16 1 7 
+$r6 1 89 
+$r12 1 121 
+$r1 1 0 
+$r13 1 126 
+$r25 1 55 
+$r26 1 59 
+$r17 1 21 
+$r20 1 34 
+$r21 1 38 
+$r14 1 130 
+$r15 1 133 
+$r19 1 29 
+$r9 1 109 
+$r11 1 118 
+$r8 1 105 
+$r23 1 47 
+$r5 1 92 
+$r2 1 78 
+$r18 1 18 
+r3 1 -1 
+$r24 1 50 
+$r22 1 43 
+$r10 1 114 
+$r7 1 100 
+Fields: 2
+-1 effSpaceAfter 118
+-1 effSpaceBefore 47
+Accesses: 4
+117 1 -1 
+72 1 -1 
+46 1 -1 
+143 1 -1 
+Functions: 22
+96 1 92 
+65 2 18 62 
+34 2 -2 34 
+130 1 130 
+100 1 100 
+38 1 38 
+7 1 7 
+136 2 133 89 
+105 2 -2 105 
+43 2 43 47 
+109 1 109 
+78 1 78 
+50 1 50 
+114 2 114 118 
+21 4 -1 21 118 47 
+55 2 -3 55 
+25 1 21 
+121 1 121 
+59 1 59 
+92 4 -1 118 92 47 
+29 1 29 
+126 2 -3 126 
+Constructors: 2
+96 92
+25 21
+
+Summary: 8
+59 -2 130 62 0 1 -1 133 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.mustKeepWithPrevious()Z
+PTG:
+Vars:
+7
+$r3 1 7 
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+$r4 1 17 
+$r5 1 20 
+$r6 1 23 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -1 
+16 1 -1 
+1 1 1 
+17 1 17 
+4 1 4 
+20 1 20 
+7 1 7 
+23 1 23 
+Constructors: 0
+
+Summary: 7
+17 23 4 1 20 7 -1 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.mustKeepTogether()Z
+PTG:
+Vars:
+9
+r0 1 -1 
+$r7 1 35 
+$r2 1 1 
+$r5 1 22 
+$r1 1 1 
+$r6 1 32 
+$r8 1 38 
+$r4 1 19 
+$r3 1 16 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -1 
+16 1 16 
+32 1 32 
+19 1 19 
+35 1 35 
+4 1 1 
+22 1 22 
+38 1 38 
+15 1 -1 
+31 1 -1 
+Constructors: 0
+
+Summary: 8
+19 32 38 1 35 16 22 -1 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.notifyBorder(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+13
+r0 1 -3 
+$r8 1 60 
+$r10 1 67 
+$r9 1 64 
+$r11 1 4 
+$r12 1 24 
+r6 1 -2 
+$r1 1 38 
+$r2 1 35 
+$r7 1 55 
+r3 1 -1 
+$r4 1 46 
+$r5 1 51 
+Fields: 0
+Accesses: 2
+21 1 -1 
+13 1 -1 
+Functions: 9
+64 1 64 
+51 2 -2 51 
+38 2 -1 38 
+70 2 35 67 
+55 1 55 
+24 1 24 
+42 1 38 
+60 2 -3 60 
+46 1 46 
+Constructors: 1
+42 38
+
+Summary: 7
+0 1 67 -3 64 -1 -2 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.getCombinedKnuthElementsForListItem(Ljava/util/LinkedList;Ljava/util/LinkedList;Lorg/apache/fop/layoutmgr/LayoutContext;)Ljava/util/LinkedList;
+PTG:
+Vars:
+28
+$r0 1 1 
+$r30 1 221 
+$r22 1 314 
+$r14 1 80 
+_ret 1 111 
+$r26 1 257 
+$r7 1 36 
+$r8 1 46 
+$r24 1 343 
+$r1 1 6 
+$r33 1 388 
+$r12 1 67 
+$r16 1 111 
+$r28 1 175 
+$r21 1 257 
+$r19 1 147 
+r18 1 -1 
+$r10 1 54 
+$r27 1 221 
+r4 1 -3 
+r31 1 221 
+$r6 1 29 
+$r20 1 252 
+r2 1 -2 
+r25 1 -4 
+$r3 1 17 
+$r29 1 216 
+r32 1 257 
+Fields: 6
+1 ArrayObject 147
+1 ArrayObject 175
+1 ArrayObject 36
+1 ArrayObject 216
+1 ArrayObject 46
+1 ArrayObject 252
+Accesses: 2
+184 1 -1 
+156 1 -1 
+Functions: 21
+352 2 343 314 
+99 0 
+355 2 343 111 
+36 1 36 
+196 3 -1 54 29 
+11 2 -2 6 
+46 1 46 
+175 1 175 
+336 2 -1 314 
+400 3 -4 388 314 
+241 1 221 
+115 1 111 
+147 1 147 
+403 2 388 111 
+22 2 17 -3 
+374 1 -1 
+279 1 257 
+120 11 -1 80 1 147 67 36 54 216 252 46 175 
+216 1 216 
+282 0 
+252 1 252 
+Constructors: 6
+336 314
+352 343
+400 388
+115 111
+22 17
+11 6
+
+Summary: 23
+-4 80 -3 257 2 -2 216 314 388 46 147 54 175 221 0 1 252 29 -1 36 67 343 1 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.getChangedKnuthElements(Ljava/util/List;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+21
+$r14 1 36 
+$r3 1 10 
+r19 1 57 
+r11 1 133 
+r4 1 -2 
+$r2 1 2 
+$r8 1 105 
+r5 1 22 
+$r10 1 133 
+$r1 1 6 
+_ret 1 105 
+r18 1 36 
+$r13 1 152 
+r0 1 -1 
+$r16 1 48 
+r20 1 99 
+$r17 1 76 
+$r12 1 145 
+r9 1 119 
+$r15 1 48 
+$r6 1 91 
+Fields: 3
+-1 body 91
+-1 label 2
+-1 labelList 6
+Accesses: 4
+1 1 -1 
+5 1 -1 
+90 1 -1 
+13 1 -1 
+Functions: 18
+2 2 2 6 
+35 1 22 
+131 1 119 
+68 2 36 57 
+165 2 133 105 
+109 1 105 
+46 1 36 
+16 1 -2 
+81 5 -1 2 6 91 76 
+114 1 99 
+51 1 48 
+84 2 36 76 
+150 1 133 
+121 1 119 
+26 1 22 
+91 2 -2 91 
+155 6 -1 145 2 6 152 91 
+158 2 145 133 
+Constructors: 3
+81 76
+155 145
+109 105
+
+Summary: 13
+36 119 0 48 22 -1 -2 57 99 133 145 152 76 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.setBody(Lorg/apache/fop/fo/flow/ListItemBody;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r3 1 13 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 body 13
+Accesses: 2
+9 1 -1 
+12 1 -1 
+Functions: 2
+17 2 -1 13 
+6 2 1 -2 
+Constructors: 1
+6 1
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/list/ListItemLayoutManager.<init>(Lorg/apache/fop/fo/flow/ListItem;)V
+PTG:
+Vars:
+4
+$r2 1 22 
+$r3 1 30 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+17 1 -1 
+7 1 -1 
+12 1 -1 
+Functions: 5
+33 2 -1 30 
+2 2 -1 -2 
+21 1 -2 
+25 2 -1 22 
+29 1 -2 
+Constructors: 1
+2 -1
+
+Summary: 5
+-2 0 22 30 -1 

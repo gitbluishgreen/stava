@@ -1,0 +1,1074 @@
+21
+sun/security/util/SignatureFileVerifier.getDigest(Ljava/lang/String;)Ljava/security/MessageDigest;
+PTG:
+Vars:
+10
+$r4 1 23 
+r10 2 38 23 
+_ret 2 38 23 
+$r1 1 1 
+$r5 1 1 
+$r7 1 8 
+r0 1 -1 
+$r8 1 -1 
+r2 1 -2 
+$r3 1 1 
+Fields: 1
+-1 createdDigests 1
+Accesses: 4
+0 1 -1 
+18 1 -1 
+39 1 -1 
+15 1 -1 
+Functions: 4
+34 1 -2 
+19 2 1 -2 
+12 1 8 
+45 4 1 -2 38 23 
+Constructors: 1
+12 8
+
+Summary: 3
+0 -1 -2 
+sun/security/util/SignatureFileVerifier.getSigners([Lsun/security/pkcs/SignerInfo;Lsun/security/pkcs/PKCS7;)[Ljava/security/CodeSigner;
+PTG:
+Vars:
+18
+r5 1 -3 
+$r18 1 98 
+r7 1 -1 
+r0 1 -2 
+$r15 1 86 
+$r8 1 27 
+$r11 1 58 
+$r12 1 68 
+$r16 1 92 
+r20 1 41 
+$r19 1 41 
+$r10 1 50 
+r6 1 24 
+$r13 1 77 
+r9 1 35 
+$r14 1 74 
+r4 1 16 
+$r17 1 95 
+Fields: 2
+-1 certificateFactory 27
+-2 ArrayObject 16
+Accesses: 1
+26 1 -1 
+Functions: 14
+64 2 50 41 
+101 2 98 74 
+45 1 41 
+77 1 77 
+81 1 77 
+18 2 16 -3 
+114 1 41 
+115 1 41 
+86 2 86 92 
+56 1 16 
+89 1 24 
+27 2 24 27 
+61 3 50 35 58 
+95 1 95 
+Constructors: 3
+81 77
+45 41
+61 50
+
+Summary: 9
+0 -3 41 50 -2 -1 16 1 119 
+sun/security/util/SignatureFileVerifier.processImpl(Ljava/util/Hashtable;Ljava/util/List;)V
+PTG:
+Vars:
+51
+$r26 1 279 
+$r33 1 397 
+r20 1 161 
+$r39 1 418 
+$r8 1 14 
+$r40 1 415 
+$r42 1 432 
+$r16 1 144 
+$r34 1 400 
+$r43 1 435 
+$r19 1 155 
+r23 1 -3 
+$r30 1 383 
+$r47 1 200 
+$r31 1 380 
+$r4 1 14 
+$r9 1 52 
+$r14 1 136 
+$r22 1 216 
+r58 1 226 
+$r37 1 309 
+$r5 1 24 
+$r17 1 147 
+$r41 1 427 
+r3 1 -1 
+$r46 1 184 
+$r0 1 0 
+$r44 1 231 
+$r48 1 195 
+$r18 1 152 
+$r24 1 231 
+r56 1 170 
+r7 1 33 
+$r6 1 27 
+r59 3 345 291 363 
+r12 1 109 
+$r21 1 213 
+$r29 1 374 
+$r13 1 118 
+$r11 1 52 
+$r32 1 392 
+r57 1 184 
+r10 1 62 
+$r15 1 133 
+r25 1 -2 
+$r2 1 9 
+r27 1 279 
+$r36 1 231 
+$r38 1 409 
+$r35 1 309 
+$r28 1 291 
+Fields: 6
+-1 params 133
+-1 md 231
+-1 sfBytes 14
+-1 name 144
+-1 permittedAlgs 195
+-1 block 52
+Accesses: 12
+194 1 -1 
+51 1 -1 
+132 1 -1 
+85 1 -1 
+102 1 -1 
+230 1 -1 
+55 1 -1 
+247 1 -1 
+13 1 -1 
+127 1 -1 
+143 1 -1 
+319 1 -1 
+Functions: 50
+387 1 383 
+4 1 0 
+263 0 
+136 2 144 136 
+392 4 291 392 345 363 
+267 1 226 
+140 1 136 
+397 1 397 
+17 2 9 14 
+147 1 147 
+403 2 400 380 
+20 2 0 9 
+277 1 226 
+23 1 0 
+24 2 24 27 
+152 1 152 
+155 3 133 155 62 
+289 1 279 
+418 1 418 
+163 1 161 
+422 1 418 
+40 1 33 
+427 4 291 345 427 363 
+172 1 170 
+432 1 432 
+306 11 -1 144 195 291 52 133 309 231 345 363 14 
+307 1 279 
+52 2 52 14 
+182 1 170 
+438 2 435 415 
+450 9 -1 144 -2 195 52 133 231 109 14 
+73 0 
+329 3 291 345 363 
+203 3 195 184 200 
+77 0 
+82 0 
+339 3 291 345 363 
+212 1 0 
+213 1 213 
+216 1 216 
+89 0 
+347 3 291 345 363 
+95 0 
+99 8 -1 144 195 52 133 231 14 62 
+228 9 -1 144 0 -3 195 52 133 231 14 
+357 3 291 345 363 
+371 12 -1 144 -2 195 291 52 133 231 345 363 109 14 
+245 8 -1 144 0 195 52 133 231 14 
+124 2 118 109 
+383 1 383 
+Constructors: 6
+17 9
+387 383
+4 0
+422 418
+124 118
+140 136
+
+Summary: 7
+0 -3 -2 0 9 -1 1 
+sun/security/util/SignatureFileVerifier.getWeakAlgorithms(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+21
+$r13 1 102 
+$r16 1 115 
+r0 1 -1 
+$r3 1 28 
+$r10 1 79 
+$r17 1 118 
+r19 1 17 
+$r9 1 74 
+$r14 1 106 
+$r8 1 71 
+r18 3 124 2 85 
+_ret 3 124 2 85 
+r4 1 28 
+$r12 1 93 
+$r11 1 -1 
+$r15 1 111 
+$r1 1 4 
+$r6 1 47 
+$r7 1 55 
+r5 1 -2 
+$r2 1 7 
+Fields: 1
+-1 permittedAlgs 4
+Accesses: 1
+3 1 -1 
+Functions: 21
+97 1 93 
+66 1 -2 
+4 1 4 
+38 2 -2 28 
+102 2 -2 102 
+7 1 7 
+74 1 74 
+106 1 106 
+47 4 2 85 124 47 
+79 1 79 
+111 2 115 111 
+18 1 17 
+114 1 -1 
+51 1 47 
+118 1 118 
+55 2 55 71 
+58 1 28 
+27 1 17 
+61 1 28 
+93 1 93 
+125 3 2 85 124 
+Constructors: 2
+97 93
+51 47
+
+Summary: 2
+-2 -1 
+sun/security/util/SignatureFileVerifier.contains([Ljava/security/CodeSigner;Ljava/security/CodeSigner;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+$r2 1 10 
+r1 1 -3 
+Fields: 1
+-2 ArrayObject 10
+Accesses: 0
+Functions: 1
+10 2 -3 10 
+Constructors: 0
+
+Summary: 5
+0 -3 10 1 -2 
+sun/security/util/SignatureFileVerifier.setSignatureFile([B)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+sun/security/util/SignatureFileVerifier.process(Ljava/util/Hashtable;Ljava/util/List;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r5 1 5 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+2 0 
+22 1 5 
+9 3 -1 -2 -3 
+13 1 5 
+Constructors: 0
+
+Summary: 5
+0 -1 -3 1 -2 
+sun/security/util/SignatureFileVerifier.isBlockOrSF(Ljava/lang/String;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+18 1 -2 
+9 1 -2 
+27 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/security/util/SignatureFileVerifier.needSignatureFileBytes()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 sfBytes 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/util/SignatureFileVerifier.isSubSet([Ljava/security/CodeSigner;[Ljava/security/CodeSigner;)Z
+PTG:
+Vars:
+3
+r0 1 -3 
+r1 1 -2 
+$r2 1 18 
+Fields: 1
+-2 ArrayObject 18
+Accesses: 0
+Functions: 1
+18 2 -3 18 
+Constructors: 0
+
+Summary: 5
+0 -3 18 1 -2 
+sun/security/util/SignatureFileVerifier.<clinit>()V
+PTG:
+Vars:
+5
+$r3 1 13 
+$r4 1 21 
+$r1 1 10 
+$r0 1 2 
+$r2 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 0 
+8 2 8 10 
+Constructors: 0
+
+Summary: 0
+
+sun/security/util/SignatureFileVerifier.<init>(Ljava/util/ArrayList;Lsun/security/util/ManifestDigester;Ljava/lang/String;[B)V
+PTG:
+Vars:
+15
+$r7 1 63 
+$r4 1 48 
+r3 1 -5 
+$r6 1 54 
+$r11 1 102 
+$r2 1 34 
+r0 1 -1 
+r12 1 -3 
+$r1 1 15 
+$r5 1 51 
+r8 1 -4 
+$r9 1 96 
+r13 1 -2 
+r16 1 31 
+$r10 1 99 
+Fields: 1
+-1 block 48
+Accesses: 10
+66 1 -1 
+115 1 -1 
+6 1 -1 
+22 1 -1 
+57 1 -1 
+105 1 -1 
+11 1 -1 
+43 1 -1 
+110 1 -1 
+47 1 -1 
+Functions: 12
+48 1 48 
+96 2 96 99 
+1 2 -1 48 
+81 1 31 
+19 1 15 
+51 1 51 
+71 1 31 
+40 2 34 -5 
+88 1 -4 
+90 1 -4 
+28 0 
+61 0 
+Constructors: 3
+1 -1
+19 15
+40 34
+
+Summary: 6
+0 3 -5 2 -1 1 
+sun/security/util/SignatureFileVerifier.verifyManifestHash(Ljava/util/jar/Manifest;Lsun/security/util/ManifestDigester;Ljava/util/List;)Z
+PTG:
+Vars:
+57
+r30 1 91 
+$r44 1 198 
+$r52 1 239 
+$r41 1 184 
+$r24 1 379 
+$r38 1 162 
+$r15 1 342 
+$r45 1 201 
+$r51 1 230 
+$r55 1 253 
+r1 1 4 
+$r23 1 376 
+$r21 1 365 
+r59 1 25 
+$r17 1 351 
+$r19 1 302 
+$r36 1 157 
+$r47 1 207 
+r62 1 329 
+$r37 1 162 
+$r43 1 193 
+$r3 1 287 
+$r48 1 219 
+$r40 1 175 
+$r29 1 66 
+$r46 1 210 
+r39 1 173 
+$r28 1 63 
+$r53 1 236 
+$r14 1 329 
+$r22 1 373 
+r60 1 39 
+r61 1 315 
+r31 1 -4 
+$r56 1 256 
+$r11 1 293 
+r0 1 -2 
+$r26 1 51 
+$r54 1 248 
+$r16 1 339 
+r7 1 -1 
+$r13 1 305 
+$r32 1 125 
+$r50 1 227 
+$r12 1 302 
+r33 1 142 
+$r49 1 224 
+$r18 1 356 
+$r2 1 17 
+$r20 1 365 
+r34 1 -3 
+$r42 1 181 
+$r25 1 39 
+$r58 1 265 
+r27 1 59 
+$r57 1 259 
+r35 1 155 
+Fields: 1
+-1 permittedAlgs 302
+Accesses: 2
+359 1 -1 
+301 1 -1 
+Functions: 58
+0 1 -2 
+-1 0 
+256 1 256 
+130 2 -4 125 
+262 2 259 236 
+136 3 -1 91 302 
+268 1 265 
+15 1 4 
+17 1 17 
+273 2 155 173 
+402 0 
+149 2 -3 142 
+406 0 
+27 1 25 
+411 0 
+157 2 162 157 
+414 2 -1 302 
+160 1 39 
+420 0 
+37 1 25 
+298 1 293 
+426 0 
+302 1 302 
+49 1 39 
+305 1 305 
+51 1 51 
+184 1 184 
+188 1 184 
+61 2 59 63 
+317 1 315 
+193 2 193 91 
+66 1 66 
+198 1 198 
+327 1 315 
+204 2 181 201 
+77 1 59 
+80 1 59 
+210 1 210 
+214 1 210 
+342 2 342 329 
+346 1 342 
+219 2 224 219 
+222 1 173 
+351 1 351 
+96 4 -1 59 91 302 
+227 1 227 
+356 2 356 373 
+360 2 329 302 
+233 2 230 207 
+239 1 239 
+370 1 365 
+243 1 239 
+116 2 -4 59 
+248 2 248 253 
+376 1 376 
+123 1 39 
+251 1 155 
+382 2 339 379 
+Constructors: 4
+243 239
+214 210
+346 342
+188 184
+
+Summary: 7
+0 -3 -2 2 -1 1 -4 
+sun/security/util/SignatureFileVerifier.needSignatureFile(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 name 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+sun/security/util/SignatureFileVerifier.toHex([B)Ljava/lang/String;
+PTG:
+Vars:
+6
+_ret 1 59 
+$r3 1 59 
+r1 1 -2 
+$r4 1 21 
+$r6 1 38 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 4
+48 1 0 
+33 1 0 
+8 1 0 
+58 1 0 
+Constructors: 1
+8 0
+
+Summary: 2
+0 -2 
+sun/security/util/SignatureFileVerifier.updateSigners([Ljava/security/CodeSigner;Ljava/util/Hashtable;Ljava/lang/String;)V
+PTG:
+Vars:
+12
+$r9 1 11 
+$r10 1 33 
+r4 1 -1 
+r6 1 -2 
+r12 1 33 
+$r5 1 11 
+$r7 1 11 
+r1 1 -4 
+$r2 1 2 
+r13 2 -2 84 
+r0 1 -3 
+r3 1 2 
+Fields: 1
+-1 signerCache 11
+Accesses: 3
+113 1 -1 
+10 1 -1 
+27 1 -1 
+Functions: 9
+0 2 -3 -4 
+98 3 -2 2 84 
+119 3 -2 84 11 
+56 3 33 -3 -4 
+11 1 11 
+28 1 11 
+45 3 33 -2 2 
+110 2 -2 84 
+127 4 -2 -3 -4 84 
+Constructors: 0
+
+Summary: 6
+2 0 -1 -3 1 -4 
+sun/security/util/SignatureFileVerifier.verifySection(Ljava/util/jar/Attributes;Ljava/lang/String;Lsun/security/util/ManifestDigester;)Z
+PTG:
+Vars:
+69
+r2 1 -1 
+r34 1 162 
+r84 2 216 204 
+$r27 1 60 
+$r14 1 486 
+r86 1 499 
+r33 1 134 
+$r63 1 256 
+$r53 1 397 
+$r70 1 294 
+$r21 1 486 
+$r48 1 371 
+$r62 1 253 
+$r67 1 279 
+$r13 1 477 
+$r35 1 172 
+$r20 1 540 
+r1 1 -3 
+r0 1 -4 
+$r57 1 224 
+$r59 1 240 
+r38 1 188 
+$r39 1 218 
+$r32 1 109 
+$r68 1 282 
+$r56 1 227 
+r85 1 359 
+$r49 1 380 
+$r37 1 177 
+$r54 1 400 
+$r16 1 513 
+r4 1 15 
+r87 1 513 
+$r60 1 245 
+$r26 1 563 
+$r6 1 471 
+$r15 1 489 
+$r18 1 523 
+$r66 1 274 
+$r28 1 82 
+$r3 1 6 
+$r19 1 535 
+$r64 1 265 
+r5 1 -2 
+$r25 1 560 
+$r75 1 314 
+$r17 1 526 
+r82 1 68 
+$r73 1 308 
+$r22 1 549 
+$r61 1 250 
+$r58 1 236 
+$r52 1 394 
+$r31 1 106 
+r30 1 102 
+$r51 1 389 
+$r36 1 177 
+$r65 1 262 
+r83 1 82 
+$r24 1 557 
+$r71 1 291 
+$r23 1 549 
+$r55 1 406 
+$r50 1 377 
+$r74 1 311 
+$r76 1 320 
+$r72 1 303 
+$r69 1 285 
+$r29 1 94 
+Fields: 2
+-1 permittedAlgs 486
+-1 block 6
+Accesses: 6
+5 1 -1 
+485 1 -1 
+345 1 -1 
+190 1 -1 
+414 1 -1 
+543 1 -1 
+Functions: 82
+-1 0 
+384 1 380 
+3 2 -3 -4 
+259 2 224 256 
+389 2 389 394 
+6 1 6 
+392 1 359 
+265 1 265 
+139 5 -1 486 6 102 134 
+269 1 265 
+397 1 397 
+526 2 513 526 
+274 2 274 279 
+530 1 526 
+403 2 400 377 
+277 1 188 
+535 1 535 
+409 1 406 
+282 1 282 
+156 4 -1 486 6 134 
+540 2 540 557 
+32 0 
+288 2 262 285 
+544 2 513 486 
+36 0 
+294 1 294 
+41 1 -3 
+298 1 294 
+554 1 549 
+172 2 177 172 
+45 0 
+175 1 82 
+303 2 308 303 
+432 0 
+560 1 560 
+306 2 216 204 
+51 0 
+436 0 
+566 2 563 523 
+311 1 311 
+441 0 
+59 1 -2 
+60 1 60 
+444 1 162 
+317 2 291 314 
+449 0 
+323 1 320 
+197 2 162 15 
+70 1 68 
+454 1 -3 
+328 3 216 204 188 
+458 0 
+586 0 
+590 0 
+80 1 68 
+464 0 
+209 2 162 15 
+595 0 
+598 3 -1 486 6 
+92 1 82 
+604 0 
+94 1 94 
+352 2 162 15 
+482 1 477 
+610 0 
+227 1 227 
+486 1 486 
+231 1 227 
+104 2 102 106 
+489 1 489 
+363 2 359 188 
+236 2 -3 236 
+109 1 109 
+240 1 240 
+245 2 245 250 
+501 1 499 
+120 1 102 
+248 1 162 
+123 1 102 
+380 1 380 
+253 1 253 
+511 1 499 
+Constructors: 5
+384 380
+530 526
+231 227
+298 294
+269 265
+
+Summary: 7
+0 -3 -2 2 -1 1 -4 
+sun/security/util/SignatureFileVerifier.verifyManifestMainAttrs(Ljava/util/jar/Manifest;Lsun/security/util/ManifestDigester;)Z
+PTG:
+Vars:
+62
+$r65 1 252 
+$r25 1 392 
+$r47 1 294 
+$r57 1 217 
+r0 1 -2 
+$r34 1 84 
+$r24 1 384 
+$r51 1 188 
+$r58 1 220 
+r1 1 4 
+$r48 1 174 
+$r19 1 358 
+$r53 1 194 
+r67 1 23 
+$r41 1 152 
+$r56 1 212 
+$r49 1 171 
+r36 1 122 
+$r28 1 37 
+$r15 1 321 
+r39 1 145 
+$r59 1 223 
+$r26 1 395 
+$r44 1 165 
+$r69 1 306 
+r38 1 136 
+$r23 1 384 
+r37 1 -3 
+$r45 1 280 
+$r32 1 64 
+$r64 1 249 
+$r27 1 398 
+$r21 1 375 
+$r50 1 183 
+r70 1 334 
+$r16 1 324 
+r9 1 -1 
+$r46 1 286 
+$r17 1 348 
+r68 1 37 
+$r14 1 312 
+$r20 1 370 
+$r18 1 361 
+$r54 1 203 
+$r40 1 147 
+$r29 1 49 
+r43 1 163 
+$r22 1 321 
+$r31 1 61 
+$r52 1 191 
+$r42 1 152 
+$r63 1 246 
+$r61 1 229 
+$r62 1 241 
+r71 1 348 
+$r66 1 258 
+$r33 1 67 
+$r55 1 200 
+$r60 1 232 
+$r2 1 15 
+r35 1 94 
+r30 1 57 
+Fields: 1
+-1 permittedAlgs 321
+Accesses: 2
+320 1 -1 
+378 1 -1 
+Functions: 62
+0 1 -2 
+-1 0 
+129 1 -3 
+261 1 258 
+389 1 384 
+138 2 136 122 
+266 2 145 163 
+395 1 395 
+14 1 4 
+15 1 15 
+401 2 358 398 
+147 2 147 152 
+150 1 37 
+25 1 23 
+35 1 23 
+291 1 286 
+421 0 
+297 1 294 
+425 0 
+174 1 174 
+430 0 
+47 1 37 
+49 1 49 
+178 1 174 
+436 0 
+183 2 183 188 
+441 0 
+186 1 122 
+59 2 57 61 
+444 2 -1 321 
+317 1 312 
+191 1 191 
+64 2 64 67 
+321 1 321 
+451 0 
+324 1 324 
+197 2 194 171 
+457 0 
+203 1 203 
+76 1 57 
+79 1 57 
+207 1 203 
+336 1 334 
+84 1 84 
+212 2 212 217 
+215 1 163 
+346 1 334 
+220 1 220 
+226 2 200 223 
+99 4 -1 321 57 94 
+232 1 232 
+361 2 361 348 
+236 1 232 
+365 1 361 
+241 2 241 246 
+370 1 370 
+116 3 -1 321 94 
+244 1 145 
+375 2 375 392 
+249 1 249 
+379 2 321 348 
+255 2 229 252 
+Constructors: 4
+178 174
+236 232
+365 361
+207 203
+
+Summary: 5
+0 -3 -2 -1 1 
+sun/security/util/SignatureFileVerifier.isSigningRelated(Ljava/lang/String;)Z
+PTG:
+Vars:
+4
+$r0 1 1 
+r2 1 -2 
+r3 1 7 
+r4 1 25 
+Fields: 0
+Accesses: 0
+Functions: 13
+0 2 -2 1 
+65 1 25 
+38 1 25 
+8 1 7 
+106 0 
+45 1 25 
+77 1 25 
+113 0 
+19 1 7 
+85 0 
+56 1 25 
+26 1 25 
+93 0 
+Constructors: 0
+
+Summary: 2
+0 84 
+sun/security/util/SignatureFileVerifier.matches([Ljava/security/CodeSigner;[Ljava/security/CodeSigner;[Ljava/security/CodeSigner;)Z
+PTG:
+Vars:
+5
+$r4 1 53 
+r2 1 -2 
+$r3 1 64 
+r0 1 -3 
+r1 1 -4 
+Fields: 2
+-2 ArrayObject 53
+-2 ArrayObject 64
+Accesses: 0
+Functions: 4
+16 4 64 -2 -3 53 
+64 2 64 -4 
+53 2 -3 53 
+26 4 64 -2 -4 53 
+Constructors: 0
+
+Summary: 5
+53 -3 64 -2 -4 
+sun/security/util/SignatureFileVerifier.permittedCheck(Ljava/lang/String;Ljava/lang/String;)Z
+PTG:
+Vars:
+6
+$r2 1 1 
+r4 1 5 
+r0 1 -1 
+$r3 1 5 
+r12 1 -2 
+r1 1 -3 
+Fields: 1
+-1 permittedAlgs 1
+Accesses: 7
+0 1 -1 
+96 1 -1 
+209 1 -1 
+18 1 -1 
+82 1 -1 
+70 1 -1 
+29 1 -1 
+Functions: 34
+-1 0 
+1 2 1 -3 
+193 0 
+130 1 -2 
+134 0 
+199 0 
+74 1 -3 
+138 0 
+204 0 
+143 0 
+146 0 
+22 0 
+151 0 
+217 1 -3 
+26 0 
+90 1 -3 
+157 0 
+33 0 
+225 1 5 
+100 1 -2 
+38 0 
+166 0 
+170 0 
+107 0 
+44 1 -2 
+175 1 -2 
+48 0 
+179 0 
+52 0 
+119 0 
+184 1 -3 
+57 0 
+188 0 
+63 0 
+Constructors: 0
+
+Summary: 4
+0 -3 -1 1 

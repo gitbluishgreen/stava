@@ -1,0 +1,1278 @@
+51
+java/util/HashMap.treeifyBin([Ljava/util/HashMap$Node;I)V
+PTG:
+Vars:
+8
+r7 1 50 
+r4 1 50 
+r1 1 -1 
+r6 2 84 30 
+r0 1 -2 
+$r3 1 30 
+r8 1 50 
+$r5 1 84 
+Fields: 2
+30 next 84
+-2 ArrayObject 30
+Accesses: 3
+82 2 84 30 
+68 1 50 
+75 1 50 
+Functions: 3
+106 4 -2 50 84 30 
+43 3 -1 84 30 
+14 1 -1 
+Constructors: 0
+
+Summary: 5
+84 30 -2 -1 0 
+java/util/HashMap.remove(Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+$r2 1 9 
+r1 1 -2 
+r0 1 -1 
+$r4 1 22 
+_ret 1 22 
+Fields: 1
+9 value 22
+Accesses: 1
+21 1 9 
+Functions: 2
+0 2 -1 -2 
+1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/HashMap.compareComparables(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Object;)I
+PTG:
+Vars:
+5
+$r4 1 -3 
+r3 1 -3 
+r0 1 -4 
+r2 1 -2 
+$r1 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+17 2 -3 -4 
+4 1 -4 
+Constructors: 0
+
+Summary: 7
+2 -2 5 -3 1 0 -4 
+java/util/HashMap.<init>(IF)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+86 1 -1 
+94 1 -1 
+Functions: 13
+1 1 -1 
+65 0 
+70 0 
+74 0 
+12 0 
+16 0 
+80 0 
+50 0 
+21 0 
+25 0 
+90 0 
+61 0 
+31 0 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/util/HashMap.afterNodeRemoval(Ljava/util/HashMap$Node;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/HashMap.remove(Ljava/lang/Object;Ljava/lang/Object;)Z
+PTG:
+Vars:
+4
+r2 1 -3 
+$r3 1 9 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+1 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 -1 9 -3 1 0 
+java/util/HashMap.entrySet()Ljava/util/Set;
+PTG:
+Vars:
+5
+$r4 1 10 
+$r3 2 10 1 
+$r1 1 1 
+r0 1 -1 
+_ret 2 10 1 
+Fields: 1
+-1 entrySet 1
+Accesses: 2
+0 1 -1 
+19 1 -1 
+Functions: 1
+15 3 -1 1 10 
+Constructors: 1
+15 10
+
+Summary: 1
+-1 
+java/util/HashMap.loadFactor()F
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/HashMap.tableSizeFor(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/HashMap.<init>(Ljava/util/Map;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 2
+1 1 -1 
+13 2 -1 -2 
+Constructors: 1
+1 -1
+
+Summary: 3
+-2 -1 0 
+java/util/HashMap.computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;
+PTG:
+Vars:
+17
+$r6 1 176 
+r13 3 160 105 77 
+$r15 1 57 
+$r4 1 263 
+r14 2 38 57 
+r2 1 -1 
+r17 2 160 77 
+r0 1 -3 
+$r16 1 77 
+$r7 1 125 
+$r18 1 160 
+$r10 1 38 
+$r9 1 77 
+r1 1 -2 
+r20 1 201 
+r12 1 77 
+_ret 1 201 
+Fields: 8
+160 value 176
+38 ArrayObject 77
+105 value 176
+-1 table 38
+57 ArrayObject 77
+77 next 160
+77 value 176
+77 key 125
+Accesses: 12
+288 1 -1 
+114 2 160 77 
+291 1 -1 
+37 1 -1 
+281 1 -1 
+26 1 -1 
+298 1 -1 
+123 2 160 77 
+219 3 160 105 77 
+30 1 -1 
+158 2 160 77 
+174 3 160 105 77 
+Functions: 12
+256 8 -1 160 176 -2 38 201 77 125 
+225 7 -1 160 176 38 105 77 125 
+194 2 -2 -3 
+245 9 160 176 -1 -2 38 57 201 77 125 
+278 7 -1 160 176 38 57 77 125 
+8 0 
+56 6 -1 160 176 38 77 125 
+139 2 -2 125 
+12 1 -2 
+188 7 -1 160 176 38 105 77 125 
+94 5 160 176 -2 77 125 
+303 6 -1 160 176 38 77 125 
+Constructors: 0
+
+Summary: 4
+-1 1 -3 0 
+java/util/HashMap.forEach(Ljava/util/function/BiConsumer;)V
+PTG:
+Vars:
+6
+r8 2 75 47 
+r1 1 -1 
+$r6 1 57 
+$r2 1 20 
+r0 1 -2 
+$r5 1 62 
+Fields: 5
+20 ArrayObject 47
+75 next 75
+-1 table 20
+47 value 62
+47 key 57
+Accesses: 7
+19 1 -1 
+70 2 75 47 
+86 1 -1 
+55 2 75 47 
+12 1 -1 
+28 1 -1 
+60 2 75 47 
+Functions: 3
+65 3 -2 57 62 
+98 0 
+8 0 
+Constructors: 0
+
+Summary: 4
+-2 75 -1 0 
+java/util/HashMap.afterNodeInsertion(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/HashMap.replacementNode(Ljava/util/HashMap$Node;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;
+PTG:
+Vars:
+7
+r5 1 -1 
+$r4 1 9 
+r1 1 -2 
+r2 1 -3 
+$r0 1 0 
+$r3 1 13 
+_ret 1 0 
+Fields: 2
+-2 value 13
+-2 key 9
+Accesses: 3
+4 1 -2 
+8 1 -2 
+12 1 -2 
+Functions: 1
+17 4 0 -3 9 13 
+Constructors: 1
+17 0
+
+Summary: 6
+13 -2 -1 9 -3 0 
+java/util/HashMap.values()Ljava/util/Collection;
+PTG:
+Vars:
+4
+r2 2 4 9 
+$r1 1 9 
+r0 1 -1 
+_ret 2 4 9 
+Fields: 1
+-1 values 4
+Accesses: 2
+0 1 -1 
+20 1 -1 
+Functions: 1
+14 3 -1 4 9 
+Constructors: 1
+14 9
+
+Summary: 1
+-1 
+java/util/HashMap.hash(Ljava/lang/Object;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+java/util/HashMap.containsKey(Ljava/lang/Object;)Z
+PTG:
+Vars:
+3
+$r2 1 6 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/HashMap.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+$r3 1 9 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+1 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 -1 -3 0 1 
+java/util/HashMap.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+7
+r1 1 -1 
+$r18 1 208 
+r9 1 241 
+r0 1 -2 
+$r17 1 193 
+r8 1 235 
+r7 1 208 
+Fields: 0
+Accesses: 6
+17 1 -1 
+8 1 -1 
+104 1 -1 
+43 1 -1 
+219 1 -1 
+190 1 -1 
+Functions: 24
+1 1 -2 
+193 0 
+35 0 
+5 1 -1 
+231 1 -2 
+40 0 
+105 0 
+201 2 193 -2 
+75 0 
+237 1 -2 
+47 0 
+79 0 
+111 0 
+18 0 
+84 0 
+244 1 235 
+53 0 
+88 0 
+153 0 
+58 1 -2 
+62 1 -2 
+94 0 
+31 0 
+255 3 -1 241 235 
+Constructors: 0
+
+Summary: 4
+235 -2 -1 241 
+java/util/HashMap.newNode(ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;
+PTG:
+Vars:
+6
+r4 1 -1 
+r2 1 -4 
+r1 1 -3 
+r3 1 -5 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+9 4 0 -3 -4 -5 
+Constructors: 1
+9 0
+
+Summary: 6
+3 -5 -1 -3 1 -4 
+java/util/HashMap.getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 6 
+r4 1 -3 
+$r5 2 19 -3 
+r1 1 -2 
+_ret 2 19 -3 
+Fields: 1
+6 value 19
+Accesses: 1
+18 1 6 
+Functions: 2
+0 2 -1 -2 
+1 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 -1 1 0 
+java/util/HashMap.putAll(Ljava/util/Map;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/HashMap.clone()Ljava/lang/Object;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+r2 1 1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+17 0 
+22 1 1 
+28 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/HashMap.putMapEntries(Ljava/util/Map;Z)V
+PTG:
+Vars:
+9
+$r3 1 106 
+r4 1 123 
+r9 1 92 
+r0 1 -2 
+$r8 1 82 
+r5 1 132 
+r10 1 106 
+r1 1 -1 
+$r2 1 12 
+Fields: 1
+-1 table 12
+Accesses: 5
+49 1 -1 
+20 1 -1 
+69 1 -1 
+11 1 -1 
+62 1 -1 
+Functions: 11
+0 1 -2 
+81 1 -2 
+82 1 82 
+146 4 -1 132 123 12 
+116 1 106 
+135 1 123 
+104 1 92 
+57 0 
+77 2 -1 12 
+125 1 106 
+94 1 92 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/HashMap.putVal(ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object;
+PTG:
+Vars:
+15
+$r8 1 152 
+$r9 1 40 
+$r15 1 40 
+r0 1 -1 
+$r2 1 20 
+r5 1 -3 
+r7 1 -4 
+$r4 1 186 
+$r10 1 74 
+r16 2 136 40 
+$r11 1 56 
+r14 2 1 20 
+r18 3 136 126 40 
+$r1 1 1 
+$r3 1 136 
+Fields: 6
+136 key 186
+1 ArrayObject 40
+20 ArrayObject 40
+-1 table 1
+40 next 136
+40 key 74
+Accesses: 14
+0 1 -1 
+227 3 136 40 126 
+259 1 -1 
+134 2 136 40 
+72 1 40 
+266 1 -1 
+269 1 -1 
+175 1 136 
+277 1 -1 
+247 3 136 40 126 
+184 1 136 
+280 1 -1 
+155 2 136 40 
+63 1 40 
+Functions: 10
+288 6 -1 1 40 136 74 186 
+114 9 -1 1 -3 -4 20 40 136 74 186 
+19 6 -1 1 40 136 74 186 
+51 8 -1 1 -3 -4 40 136 74 186 
+147 8 -1 1 -3 -4 40 136 74 186 
+295 6 -1 1 40 136 74 186 
+88 2 -3 74 
+200 2 -3 186 
+169 7 -1 1 20 40 136 74 186 
+253 7 -1 1 40 136 74 186 126 
+Constructors: 0
+
+Summary: 3
+-1 1 2 
+java/util/HashMap.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/util/HashMap.replacementTreeNode(Ljava/util/HashMap$Node;Ljava/util/HashMap$Node;)Ljava/util/HashMap$TreeNode;
+PTG:
+Vars:
+7
+r2 1 -3 
+r5 1 -1 
+$r3 1 13 
+r1 1 -2 
+$r0 1 0 
+$r4 1 9 
+_ret 1 0 
+Fields: 2
+-2 value 13
+-2 key 9
+Accesses: 3
+4 1 -2 
+8 1 -2 
+12 1 -2 
+Functions: 1
+17 4 0 -3 9 13 
+Constructors: 1
+17 0
+
+Summary: 6
+13 -2 -1 9 -3 0 
+java/util/HashMap.reinitialize()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 7
+32 1 -1 
+17 1 -1 
+2 1 -1 
+22 1 -1 
+7 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/HashMap.newTreeNode(ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$TreeNode;
+PTG:
+Vars:
+6
+r1 1 -3 
+$r0 1 0 
+r3 1 -5 
+r4 1 -1 
+r2 1 -4 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+9 4 0 -3 -4 -5 
+Constructors: 1
+9 0
+
+Summary: 6
+2 -5 -1 -3 1 -4 
+java/util/HashMap.isEmpty()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/HashMap.putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+$r3 1 9 
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+1 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 -1 -3 0 1 
+java/util/HashMap.removeNode(ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/util/HashMap$Node;
+PTG:
+Vars:
+14
+$r1 1 1 
+r9 1 -4 
+r18 2 162 83 
+$r20 1 162 
+r11 1 -3 
+$r12 1 30 
+r0 1 -1 
+$r3 1 30 
+r14 3 162 30 83 
+$r13 1 51 
+$r17 1 83 
+$r10 1 126 
+$r7 1 183 
+r15 4 110 162 30 83 
+Fields: 10
+110 value 183
+162 value 183
+30 next 83
+30 value 183
+30 key 51
+1 ArrayObject 30
+-1 table 1
+83 next 162
+83 value 183
+83 key 126
+Accesses: 15
+0 1 -1 
+160 2 162 83 
+257 3 162 83 30 
+260 1 -1 
+40 1 30 
+267 1 -1 
+270 1 -1 
+49 1 30 
+81 1 30 
+241 4 162 83 110 30 
+115 2 162 83 
+181 4 162 83 110 30 
+277 1 -1 
+124 2 162 83 
+252 4 162 83 110 30 
+Functions: 6
+224 8 -1 1 162 83 51 183 30 126 
+65 2 -3 51 
+197 2 -4 183 
+102 7 162 -3 83 51 183 30 126 
+283 9 -1 1 162 83 51 183 30 126 110 
+140 2 -3 126 
+Constructors: 0
+
+Summary: 3
+-1 1 2 
+java/util/HashMap.internalWriteEntries(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+6
+r3 1 -2 
+r6 2 27 57 
+$r4 1 37 
+r0 1 -1 
+$r5 1 46 
+$r1 1 8 
+Fields: 5
+27 value 46
+27 key 37
+8 ArrayObject 27
+-1 table 8
+57 next 57
+Accesses: 5
+0 1 -1 
+35 2 57 27 
+52 2 57 27 
+7 1 -1 
+44 2 57 27 
+Functions: 2
+49 2 -2 46 
+40 2 -2 37 
+Constructors: 0
+
+Summary: 4
+-2 -1 57 0 
+java/util/HashMap.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+15 1 -1 
+Functions: 5
+0 1 -1 
+19 1 -2 
+6 1 -2 
+24 2 -1 -2 
+11 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/HashMap.containsValue(Ljava/lang/Object;)Z
+PTG:
+Vars:
+5
+r0 1 -1 
+r5 1 -2 
+$r1 1 1 
+$r3 1 39 
+r6 2 30 67 
+Fields: 4
+30 value 39
+67 next 67
+1 ArrayObject 30
+-1 table 1
+Accesses: 4
+0 1 -1 
+37 2 67 30 
+9 1 -1 
+62 2 67 30 
+Functions: 1
+52 2 -2 39 
+Constructors: 0
+
+Summary: 3
+67 -1 0 
+java/util/HashMap.merge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+16
+r21 2 176 91 
+$r19 1 70 
+r18 2 51 70 
+r17 3 176 120 91 
+$r13 1 51 
+$r5 1 289 
+$r10 1 141 
+$r22 1 176 
+r0 1 -3 
+r16 1 91 
+$r20 1 91 
+r3 1 -1 
+$r12 1 91 
+r2 1 -2 
+r1 1 -4 
+_ret 1 -3 
+Fields: 5
+51 ArrayObject 91
+-1 table 51
+70 ArrayObject 91
+91 next 176
+91 key 141
+Accesses: 13
+129 2 176 91 
+227 3 176 120 91 
+325 1 -1 
+39 1 -1 
+199 3 176 120 91 
+43 1 -1 
+139 2 176 91 
+174 2 176 91 
+50 1 -1 
+308 1 -1 
+315 1 -1 
+190 3 176 120 91 
+318 1 -1 
+Functions: 13
+69 5 -1 176 51 91 141 
+198 2 -3 -4 
+8 0 
+233 6 -1 176 51 120 91 141 
+330 5 -1 176 51 91 141 
+108 4 176 -2 91 141 
+271 8 176 -1 -2 -3 51 70 91 141 
+305 6 -1 176 51 70 91 141 
+20 0 
+246 6 -1 176 -2 51 91 141 
+24 1 -2 
+282 7 -1 176 -2 -3 51 91 141 
+155 2 -2 141 
+Constructors: 0
+
+Summary: 5
+-1 1 -4 2 0 
+java/util/HashMap.comparableClassFor(Ljava/lang/Object;)Ljava/lang/Class;
+PTG:
+Vars:
+8
+$r9 1 60 
+$r10 1 72 
+$r5 1 42 
+$r1 1 8 
+r0 1 -2 
+$r12 1 90 
+$r3 1 21 
+$r7 1 42 
+Fields: 2
+21 ArrayObject 42
+72 ArrayObject 90
+Accesses: 0
+Functions: 4
+20 1 8 
+54 1 42 
+70 1 42 
+7 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/HashMap.afterNodeAccess(Ljava/util/HashMap$Node;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/HashMap.replaceAll(Ljava/util/function/BiFunction;)V
+PTG:
+Vars:
+7
+$r6 1 59 
+r9 2 80 47 
+r1 1 -1 
+r0 1 -2 
+$r2 1 20 
+$r7 1 67 
+$r5 1 64 
+Fields: 5
+80 next 80
+20 ArrayObject 47
+-1 table 20
+47 value 64
+47 key 59
+Accesses: 8
+19 1 -1 
+72 2 80 47 
+57 2 80 47 
+75 2 80 47 
+91 1 -1 
+12 1 -1 
+28 1 -1 
+62 2 80 47 
+Functions: 3
+103 0 
+8 0 
+56 3 64 -2 59 
+Constructors: 0
+
+Summary: 4
+80 -2 -1 0 
+java/util/HashMap.capacity()I
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 table 1
+Accesses: 4
+0 1 -1 
+22 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/HashMap.computeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+$r3 1 22 
+$r5 1 31 
+r7 1 49 
+r1 1 -2 
+r0 1 -3 
+r2 1 -1 
+Fields: 1
+22 value 31
+Accesses: 2
+59 1 22 
+30 1 22 
+Functions: 6
+64 3 -1 22 31 
+18 2 -1 -2 
+8 0 
+40 3 -2 -3 31 
+12 1 -2 
+77 2 -1 -2 
+Constructors: 0
+
+Summary: 7
+-2 -1 31 22 -3 1 0 
+java/util/HashMap.replace(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
+PTG:
+Vars:
+6
+$r4 1 17 
+r1 1 -2 
+r6 1 -3 
+r7 1 -4 
+r0 1 -1 
+$r2 1 6 
+Fields: 1
+6 value 17
+Accesses: 2
+44 1 6 
+15 1 6 
+Functions: 4
+0 2 -1 -2 
+32 2 17 -3 
+1 1 -2 
+50 3 -1 17 6 
+Constructors: 0
+
+Summary: 7
+2 6 -2 -1 -3 1 0 
+java/util/HashMap.keySet()Ljava/util/Set;
+PTG:
+Vars:
+4
+$r1 1 9 
+r0 1 -1 
+r2 2 4 9 
+_ret 2 4 9 
+Fields: 1
+-1 keySet 4
+Accesses: 2
+0 1 -1 
+20 1 -1 
+Functions: 1
+14 3 -1 4 9 
+Constructors: 1
+14 9
+
+Summary: 1
+-1 
+java/util/HashMap.resize()[Ljava/util/HashMap$Node;
+PTG:
+Vars:
+14
+r10 2 177 163 
+$r3 1 177 
+$r6 1 133 
+r12 2 177 163 
+$r2 1 163 
+r0 1 -1 
+r4 1 177 
+$r5 1 163 
+r8 2 177 163 
+r7 1 133 
+r9 2 177 163 
+r1 1 4 
+_ret 1 133 
+r11 2 177 163 
+Fields: 3
+4 ArrayObject 163
+-1 table 4
+163 next 177
+Accesses: 14
+0 1 -1 
+128 1 -1 
+320 2 177 163 
+37 1 -1 
+297 2 177 163 
+238 2 177 163 
+175 1 163 
+271 2 177 163 
+16 1 -1 
+144 1 -1 
+338 2 177 163 
+245 2 177 163 
+185 1 163 
+93 1 -1 
+Functions: 1
+220 5 -1 177 163 4 133 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/HashMap.getNode(ILjava/lang/Object;)Ljava/util/HashMap$Node;
+PTG:
+Vars:
+9
+$r11 1 70 
+r12 2 70 137 
+$r1 1 1 
+$r3 1 24 
+r0 1 -1 
+$r14 1 137 
+$r9 1 42 
+$r5 1 109 
+r6 1 -3 
+Fields: 6
+1 ArrayObject 24
+-1 table 1
+70 next 137
+70 key 109
+24 next 70
+24 key 42
+Accesses: 7
+0 1 -1 
+98 2 70 137 
+68 1 24 
+135 2 70 137 
+40 1 24 
+107 2 70 137 
+31 1 24 
+Functions: 3
+56 2 -3 42 
+89 1 -3 
+123 2 -3 109 
+Constructors: 0
+
+Summary: 2
+-1 1 
+java/util/HashMap.replace(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 6 
+r1 1 -2 
+r5 1 -3 
+Fields: 0
+Accesses: 2
+22 1 6 
+14 1 6 
+Functions: 3
+0 2 -1 -2 
+1 1 -2 
+27 2 -1 6 
+Constructors: 0
+
+Summary: 5
+6 -2 -1 1 0 
+java/util/HashMap.<init>(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 -1 
+Constructors: 1
+4 -1
+
+Summary: 1
+-1 
+java/util/HashMap.compute(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;
+PTG:
+Vars:
+17
+$r9 1 38 
+$r4 1 272 
+r12 3 160 105 77 
+r0 1 -3 
+$r15 1 77 
+$r8 1 77 
+r11 1 77 
+r1 1 -2 
+$r14 1 57 
+r13 2 38 57 
+r16 2 160 77 
+$r19 1 180 
+r2 1 -1 
+r21 1 194 
+$r18 1 160 
+$r7 1 125 
+_ret 1 194 
+Fields: 8
+160 value 180
+38 ArrayObject 77
+105 value 180
+-1 table 38
+57 ArrayObject 77
+77 next 160
+77 value 180
+77 key 125
+Accesses: 12
+114 2 160 77 
+178 3 160 105 77 
+210 3 160 105 77 
+290 1 -1 
+307 1 -1 
+37 1 -1 
+297 1 -1 
+26 1 -1 
+123 2 160 77 
+300 1 -1 
+30 1 -1 
+158 2 160 77 
+Functions: 12
+228 7 -1 160 -2 180 38 77 125 
+8 0 
+56 6 -1 160 180 38 77 125 
+216 7 -1 160 180 38 105 77 125 
+312 6 -1 160 180 38 77 125 
+185 3 -2 -3 180 
+265 8 -1 160 -2 194 180 38 77 125 
+139 2 -2 125 
+12 1 -2 
+94 5 160 -2 180 77 125 
+254 9 160 -1 -2 194 180 38 57 77 125 
+287 7 -1 160 180 38 57 77 125 
+Constructors: 0
+
+Summary: 6
+105 -1 57 1 -3 0 
+java/util/HashMap.size()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/HashMap.clear()V
+PTG:
+Vars:
+2
+$r1 1 11 
+r0 1 -1 
+Fields: 1
+-1 table 11
+Accesses: 5
+0 1 -1 
+19 1 -1 
+7 1 -1 
+10 1 -1 
+28 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 6 
+$r4 1 19 
+r1 1 -2 
+_ret 1 19 
+Fields: 1
+6 value 19
+Accesses: 1
+18 1 6 
+Functions: 2
+0 2 -1 -2 
+1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 

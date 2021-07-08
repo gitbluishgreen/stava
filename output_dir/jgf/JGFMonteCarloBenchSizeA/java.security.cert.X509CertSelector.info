@@ -1,0 +1,2522 @@
+78
+java/security/cert/X509CertSelector.getPathToNames()Ljava/util/Collection;
+PTG:
+Vars:
+5
+$r1 1 1 
+_ret 1 13 
+$r3 1 13 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 pathToNames 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.addPathToName(ILjava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -3 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+java/security/cert/X509CertSelector.getSubjectKeyIdentifier()[B
+PTG:
+Vars:
+6
+$r3 1 13 
+$r4 1 13 
+$r2 1 1 
+r0 1 -1 
+_ret 1 13 
+$r1 1 1 
+Fields: 1
+-1 subjectKeyID 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.setCertificateValid(Ljava/util/Date;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+r0 1 -2 
+$r2 1 14 
+$r3 1 14 
+Fields: 0
+Accesses: 2
+20 1 -1 
+6 1 -1 
+Functions: 1
+13 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/security/cert/X509CertSelector.getSubjectPublicKeyAlgID()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 1 
+_ret 1 13 
+$r2 1 1 
+$r3 1 13 
+r0 1 -1 
+Fields: 1
+-1 subjectPublicKeyAlgID 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.setSubjectPublicKey(Ljava/security/PublicKey;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+r0 1 -2 
+$r2 1 24 
+Fields: 0
+Accesses: 4
+19 1 -1 
+6 1 -1 
+11 1 -1 
+29 1 -1 
+Functions: 1
+23 1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.matchSubjectAlternativeNames(Ljava/security/cert/X509Certificate;)Z
+PTG:
+Vars:
+15
+r5 1 58 
+$r1 1 1 
+r20 1 129 
+r0 1 -1 
+r26 1 23 
+$r8 1 82 
+$r19 1 118 
+$r4 1 23 
+$r6 1 60 
+r7 1 68 
+r10 1 99 
+r3 1 -2 
+r9 1 82 
+$r18 1 118 
+$r2 1 1 
+Fields: 2
+-1 subjectAlternativeGeneralNames 60
+-1 subjectAlternativeNames 1
+Accesses: 5
+0 1 -1 
+211 1 -1 
+148 1 -1 
+7 1 -1 
+59 1 -1 
+Functions: 20
+131 2 129 82 
+195 0 
+101 1 99 
+70 1 68 
+8 1 1 
+201 0 
+46 0 
+174 0 
+80 1 68 
+240 0 
+178 0 
+51 1 23 
+116 1 99 
+22 1 -2 
+184 1 82 
+123 1 118 
+155 1 68 
+60 1 60 
+189 0 
+95 1 58 
+Constructors: 0
+
+Summary: 4
+82 0 -1 -2 
+java/security/cert/X509CertSelector.getSubjectPublicKey()Ljava/security/PublicKey;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 subjectPublicKey 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.getMatchAllSubjectAltNames()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.matchExcluded(Lsun/security/x509/GeneralSubtrees;)Z
+PTG:
+Vars:
+11
+$r9 1 56 
+r10 1 56 
+$r2 1 15 
+r0 1 -2 
+$r4 1 25 
+$r7 1 34 
+r3 1 15 
+r5 1 31 
+r1 1 4 
+r8 1 42 
+r6 1 -1 
+Fields: 1
+-1 pathToGeneralNames 34
+Accesses: 1
+33 1 -1 
+Functions: 17
+0 1 -2 
+34 1 34 
+66 1 31 
+132 0 
+5 1 4 
+73 1 56 
+138 0 
+44 1 42 
+14 1 4 
+142 0 
+83 2 56 31 
+148 1 56 
+54 1 42 
+24 1 15 
+25 1 25 
+153 0 
+159 0 
+Constructors: 0
+
+Summary: 8
+25 31 0 15 -1 56 42 -2 
+java/security/cert/X509CertSelector.matchKeyUsage(Ljava/security/cert/X509Certificate;)Z
+PTG:
+Vars:
+6
+$r1 1 1 
+$r4 1 1 
+r3 1 13 
+$r5 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 1
+-1 keyUsage 1
+Accesses: 3
+0 1 -1 
+21 1 -1 
+29 1 -1 
+Functions: 2
+9 1 -2 
+62 0 
+Constructors: 0
+
+Summary: 4
+13 -2 0 -1 
+java/security/cert/X509CertSelector.getPolicy()Ljava/util/Set;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 policySet 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.matchSubjectPublicKeyAlgID(Ljava/security/cert/X509Certificate;)Z
+PTG:
+Vars:
+21
+$r20 1 97 
+$r3 1 10 
+r8 1 58 
+r0 1 -1 
+r2 1 -2 
+$r7 1 52 
+$r17 1 1 
+$r14 1 69 
+$r9 1 60 
+$r21 1 100 
+$r6 1 49 
+$r16 1 79 
+$r22 1 103 
+r27 1 18 
+$r19 1 92 
+$r4 1 19 
+$r11 1 115 
+$r15 1 66 
+$r1 1 1 
+$r10 1 1 
+$r18 1 86 
+Fields: 2
+19 data 49
+-1 subjectPublicKeyAlgID 1
+Accesses: 5
+0 1 -1 
+48 1 19 
+82 1 -1 
+28 1 19 
+109 1 -1 
+Functions: 18
+100 1 100 
+69 1 69 
+136 0 
+9 1 -2 
+73 1 69 
+10 1 10 
+106 2 66 103 
+44 0 
+110 2 1 115 
+79 2 1 79 
+49 1 49 
+113 1 58 
+52 1 52 
+86 1 86 
+24 3 49 18 19 
+92 2 97 92 
+157 0 
+95 1 58 
+Constructors: 2
+24 19
+73 69
+
+Summary: 7
+18 -1 -2 10 0 49 19 
+java/security/cert/X509CertSelector.addSubjectAlternativeName(ILjava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -3 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+java/security/cert/X509CertSelector.toString()Ljava/lang/String;
+PTG:
+Vars:
+137
+$r144 1 89 
+$r118 1 275 
+$r6 1 100 
+$r4 1 16 
+$r23 1 621 
+$r137 1 131 
+$r147 1 23 
+$r134 1 120 
+$r91 1 445 
+$r31 1 747 
+$r136 1 128 
+$r48 1 644 
+$r42 1 694 
+$r17 1 360 
+$r148 1 32 
+$r70 1 511 
+$r75 1 529 
+$r67 1 571 
+$r41 1 689 
+$r95 1 384 
+$r96 1 360 
+$r15 1 213 
+$r49 1 647 
+$r150 1 39 
+$r65 1 563 
+$r130 1 170 
+$r21 1 537 
+$r122 1 295 
+$r72 1 518 
+$r46 1 637 
+$r50 1 652 
+$r9 1 187 
+$r33 1 756 
+r155 1 235 
+$r20 1 495 
+$r129 1 167 
+$r0 1 0 
+$r135 1 123 
+$r69 1 502 
+$r66 1 568 
+$r57 1 605 
+r3 1 -1 
+$r24 1 663 
+$r37 1 670 
+$r105 1 309 
+$r149 1 16 
+$r88 1 434 
+$r74 1 526 
+$r56 1 602 
+r114 1 246 
+$r97 1 392 
+$r77 1 460 
+$r35 1 764 
+$r107 1 344 
+$r93 1 366 
+$r89 1 437 
+$r153 1 50 
+$r117 1 270 
+$r109 1 352 
+$r80 1 476 
+$r40 1 686 
+$r141 1 58 
+$r102 1 315 
+$r87 1 411 
+$r39 1 663 
+$r98 1 395 
+$r43 1 697 
+$r5 1 58 
+$r128 1 162 
+$r140 1 74 
+$r126 1 155 
+$r78 1 469 
+$r79 1 453 
+$r120 1 285 
+$r73 1 521 
+$r27 1 782 
+$r86 1 427 
+$r103 1 324 
+$r90 1 442 
+$r11 1 197 
+$r132 1 107 
+$r127 1 159 
+$r55 1 579 
+$r38 1 679 
+$r63 1 537 
+$r18 1 411 
+$r30 1 738 
+$r25 1 705 
+$r142 1 81 
+$r34 1 761 
+$r113 1 246 
+$r12 1 202 
+$r145 1 92 
+$r19 1 453 
+$r106 1 341 
+$r112 1 213 
+$r71 1 495 
+$r116 1 265 
+$r81 1 479 
+$r152 1 47 
+$r100 1 403 
+$r45 1 628 
+$r8 1 178 
+$r151 1 42 
+$r62 1 553 
+$r7 1 139 
+$r94 1 375 
+$r125 1 146 
+$r99 1 400 
+$r47 1 621 
+$r51 1 655 
+$r16 1 309 
+$r53 1 586 
+$r58 1 610 
+$r29 1 705 
+r158 1 727 
+$r85 1 418 
+$r82 1 484 
+$r64 1 560 
+$r121 1 290 
+$r139 1 65 
+$r119 1 280 
+$r22 1 579 
+$r54 1 595 
+$r83 1 487 
+$r115 1 256 
+$r13 1 205 
+$r10 1 194 
+$r32 1 751 
+$r143 1 84 
+$r61 1 544 
+$r59 1 613 
+$r108 1 349 
+_ret 1 782 
+$r104 1 333 
+$r133 1 116 
+$r123 1 298 
+Fields: 15
+-1 subjectPublicKeyAlgID 495
+-1 keyUsage 579
+-1 keyPurposeSet 621
+-1 x509Cert 16
+-1 authorityKeyID 360
+-1 policy 663
+-1 subjectAlternativeNames 213
+-1 subjectKeyID 309
+-1 certificateValid 411
+-1 pathToGeneralNames 705
+-1 serialNumber 58
+-1 subjectPublicKey 537
+-1 subject 139
+-1 privateKeyValid 453
+-1 issuer 100
+Accesses: 29
+640 1 -1 
+704 1 -1 
+514 1 -1 
+578 1 -1 
+388 1 -1 
+452 1 -1 
+138 1 -1 
+77 1 -1 
+718 1 -1 
+15 1 -1 
+337 1 -1 
+212 1 -1 
+598 1 -1 
+662 1 -1 
+472 1 -1 
+536 1 -1 
+410 1 -1 
+226 1 -1 
+35 1 -1 
+99 1 -1 
+359 1 -1 
+682 1 -1 
+556 1 -1 
+620 1 -1 
+430 1 -1 
+494 1 -1 
+308 1 -1 
+57 1 -1 
+190 1 -1 
+Functions: 128
+256 1 256 
+515 1 495 
+4 1 0 
+260 1 256 
+265 2 265 270 
+521 1 521 
+777 1 0 
+11 1 0 
+268 1 246 
+781 1 0 
+526 1 526 
+275 1 275 
+532 2 0 529 
+23 1 23 
+280 2 280 285 
+27 1 23 
+283 1 246 
+32 2 32 39 
+544 1 544 
+290 1 290 
+36 1 16 
+548 1 544 
+295 1 295 
+553 2 560 553 
+42 1 42 
+301 2 0 298 
+557 1 537 
+47 1 47 
+563 1 563 
+53 2 0 50 
+568 1 568 
+574 2 0 571 
+319 1 315 
+65 1 65 
+324 1 324 
+69 1 65 
+328 1 324 
+74 2 81 74 
+586 1 586 
+333 2 341 333 
+78 1 58 
+590 1 586 
+336 2 309 315 
+595 2 595 602 
+84 1 84 
+599 1 579 
+344 1 344 
+89 1 89 
+349 1 349 
+605 1 605 
+95 2 0 92 
+610 1 610 
+355 2 0 352 
+616 2 0 613 
+107 1 107 
+111 1 107 
+370 1 366 
+116 2 116 120 
+628 1 628 
+119 16 -1 705 579 100 453 360 139 621 495 16 213 309 663 537 58 411 
+375 1 375 
+632 1 628 
+123 1 123 
+379 1 375 
+637 2 644 637 
+128 1 128 
+384 2 384 392 
+641 1 621 
+387 2 360 366 
+134 2 0 131 
+647 1 647 
+395 1 395 
+652 1 652 
+400 1 400 
+146 1 146 
+658 2 0 655 
+150 1 146 
+406 2 0 403 
+155 2 155 159 
+158 16 -1 705 579 100 453 360 139 621 495 16 213 309 663 537 58 411 
+670 1 670 
+162 1 162 
+418 1 418 
+674 1 670 
+422 1 418 
+167 1 167 
+679 2 679 686 
+427 2 434 427 
+683 1 663 
+173 2 0 170 
+431 1 411 
+689 1 689 
+178 1 178 
+437 1 437 
+182 1 178 
+694 1 694 
+442 1 442 
+187 2 194 187 
+700 2 0 697 
+191 0 
+448 2 0 445 
+197 1 197 
+202 1 202 
+714 1 0 
+460 1 460 
+719 1 705 
+208 2 0 205 
+464 1 460 
+469 2 469 476 
+728 1 727 
+473 1 453 
+222 1 0 
+479 1 479 
+738 1 738 
+227 1 213 
+484 1 484 
+742 1 738 
+490 2 0 487 
+747 2 747 751 
+236 1 235 
+750 1 727 
+756 1 756 
+245 1 235 
+502 1 502 
+761 1 761 
+506 1 502 
+511 2 518 511 
+767 2 0 764 
+Constructors: 19
+674 670
+4 0
+260 256
+548 544
+69 65
+422 418
+742 738
+328 324
+590 586
+111 107
+464 460
+370 366
+150 146
+182 178
+632 628
+506 502
+27 23
+379 375
+319 315
+
+Summary: 10
+366 -1 434 81 560 644 476 518 686 315 
+java/security/cert/X509CertSelector.cloneSet(Ljava/util/Set;)Ljava/util/Set;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 20 
+$r1 1 20 
+Fields: 0
+Accesses: 0
+Functions: 2
+8 0 
+25 2 -2 20 
+Constructors: 1
+25 20
+
+Summary: 2
+-2 0 
+java/security/cert/X509CertSelector.setMatchAllSubjectAltNames(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.<clinit>()V
+PTG:
+Vars:
+10
+$r4 1 50 
+$r6 1 64 
+$r2 1 34 
+$r5 1 56 
+$r3 1 43 
+$r0 1 3 
+$r1 1 10 
+$r7 1 72 
+$r8 1 80 
+$r9 1 88 
+Fields: 5
+72 ArrayObject 79
+80 ArrayObject 87
+88 ArrayObject 95
+64 ArrayObject 71
+56 ArrayObject 63
+Accesses: 0
+Functions: 3
+0 0 
+40 0 
+10 1 10 
+Constructors: 0
+
+Summary: 1
+10 
+java/security/cert/X509CertSelector.matchExtendedKeyUsage(Ljava/security/cert/X509Certificate;)Z
+PTG:
+Vars:
+9
+r3 1 -2 
+r0 1 -1 
+$r4 1 23 
+$r7 1 54 
+$r1 1 1 
+r13 1 23 
+$r2 1 1 
+$r6 1 43 
+r5 1 41 
+Fields: 2
+-1 keyPurposeOIDSet 54
+-1 keyPurposeSet 1
+Accesses: 3
+0 1 -1 
+53 1 -1 
+7 1 -1 
+Functions: 7
+96 0 
+34 1 23 
+52 2 54 41 
+22 1 -2 
+8 1 1 
+42 2 41 43 
+75 0 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+java/security/cert/X509CertSelector.getNameConstraints()[B
+PTG:
+Vars:
+6
+$r2 1 1 
+$r1 1 1 
+r0 1 -1 
+$r4 1 13 
+_ret 1 13 
+$r3 1 13 
+Fields: 1
+-1 ncBytes 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.setPolicy(Ljava/util/Set;)V
+PTG:
+Vars:
+11
+$r9 1 82 
+$r10 1 86 
+$r4 1 36 
+$r1 1 17 
+$r11 1 60 
+$r7 1 114 
+r8 1 60 
+r6 1 -1 
+r3 1 35 
+r0 1 -2 
+r2 1 28 
+Fields: 0
+Accesses: 4
+6 1 -1 
+11 1 -1 
+123 1 -1 
+110 1 -1 
+Functions: 11
+17 1 17 
+98 2 82 86 
+101 2 82 36 
+22 2 17 -2 
+54 1 35 
+40 1 36 
+120 2 114 36 
+76 0 
+29 1 28 
+45 1 35 
+95 2 86 60 
+Constructors: 5
+98 82
+22 17
+40 36
+120 114
+95 86
+
+Summary: 6
+17 -2 36 86 82 -1 
+java/security/cert/X509CertSelector.setNameConstraints([B)V
+PTG:
+Vars:
+6
+r1 1 -1 
+$r2 1 19 
+$r5 1 33 
+r0 1 -2 
+$r3 1 19 
+$r4 1 29 
+Fields: 0
+Accesses: 4
+6 1 -1 
+40 1 -1 
+25 1 -1 
+11 1 -1 
+Functions: 2
+18 1 -2 
+37 3 33 -2 29 
+Constructors: 1
+37 29
+
+Summary: 2
+-2 -1 
+java/security/cert/X509CertSelector.getSubjectAlternativeNames()Ljava/util/Collection;
+PTG:
+Vars:
+5
+$r2 1 1 
+$r1 1 1 
+_ret 1 13 
+r0 1 -1 
+$r3 1 13 
+Fields: 1
+-1 subjectAlternativeNames 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.getIssuerAsBytes()[B
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 1 
+$r3 1 15 
+_ret 1 15 
+$r2 1 1 
+Fields: 1
+-1 issuer 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.setExtendedKeyUsage(Ljava/util/Set;)V
+PTG:
+Vars:
+11
+r8 1 72 
+r0 1 -2 
+$r4 1 42 
+r1 1 -1 
+$r2 1 27 
+r6 1 61 
+$r7 1 72 
+$r3 1 35 
+$r10 1 82 
+$r5 1 53 
+$r9 1 85 
+Fields: 2
+-1 keyPurposeOIDSet 82
+-1 keyPurposeSet 53
+Accesses: 6
+49 1 -1 
+81 1 -1 
+20 1 -1 
+52 1 -1 
+38 1 -1 
+15 1 -1 
+Functions: 9
+32 2 -2 27 
+4 1 -2 
+53 1 53 
+71 1 61 
+90 2 85 72 
+27 1 27 
+93 2 82 85 
+46 1 42 
+62 1 61 
+Constructors: 3
+32 27
+90 85
+46 42
+
+Summary: 5
+72 -2 85 -1 27 
+java/security/cert/X509CertSelector.getSubjectAsString()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r3 1 15 
+$r1 1 1 
+r0 1 -1 
+_ret 1 15 
+$r2 1 1 
+Fields: 1
+-1 subject 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.keyUsageToString([Z)Ljava/lang/String;
+PTG:
+Vars:
+35
+$r9 1 206 
+$r17 1 121 
+$r1 1 244 
+$r30 1 22 
+$r13 1 139 
+$r11 1 174 
+$r4 1 220 
+$r2 1 252 
+$r16 1 113 
+$r27 1 48 
+$r25 1 35 
+$r19 1 87 
+r33 10 28 54 2 80 239 158 132 106 185 212 
+$r21 1 100 
+$r10 1 166 
+$r31 1 -1 
+$r6 1 233 
+$r3 1 257 
+$r18 1 126 
+$r8 1 201 
+$r15 1 152 
+$r5 1 228 
+$r26 1 43 
+$r29 1 17 
+r34 1 263 
+$r14 1 147 
+$r23 1 69 
+$r22 1 61 
+$r24 1 74 
+$r7 1 193 
+_ret 1 263 
+r0 1 -2 
+$r28 1 9 
+$r12 1 179 
+$r20 1 95 
+Fields: 0
+Accesses: 0
+Functions: 40
+65 1 61 
+193 11 80 193 2 132 212 54 185 106 28 158 239 
+257 1 257 
+69 1 69 
+197 1 193 
+9 1 9 
+201 1 201 
+74 1 74 
+139 11 80 2 132 212 54 185 106 139 28 158 239 
+13 1 9 
+206 1 206 
+143 1 139 
+17 1 17 
+147 1 147 
+22 1 22 
+87 11 80 2 132 212 54 87 185 106 28 158 239 
+152 1 152 
+91 1 87 
+220 11 80 2 132 212 54 185 106 220 28 158 239 
+95 1 95 
+224 1 220 
+35 11 80 2 35 132 212 54 185 106 28 158 239 
+100 1 100 
+228 1 228 
+166 11 80 2 132 212 166 54 185 106 28 158 239 
+39 1 35 
+233 1 233 
+170 1 166 
+43 1 43 
+174 1 174 
+48 1 48 
+113 11 80 113 2 132 212 54 185 106 28 158 239 
+179 1 179 
+244 11 80 2 244 132 212 54 185 106 28 158 239 
+117 1 113 
+248 1 244 
+121 1 121 
+252 1 252 
+61 11 80 2 132 212 54 185 106 28 61 158 239 
+126 1 126 
+Constructors: 10
+224 220
+65 61
+117 113
+197 193
+39 35
+248 244
+170 166
+91 87
+13 9
+143 139
+
+Summary: 2
+-2 0 
+java/security/cert/X509CertSelector.getIssuer()Ljavax/security/auth/x500/X500Principal;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 issuer 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.cloneAndCheckNames(Ljava/util/Collection;)Ljava/util/Set;
+PTG:
+Vars:
+16
+r23 1 69 
+$r9 1 170 
+r21 1 25 
+r22 1 58 
+r8 1 170 
+$r18 1 25 
+$r10 1 170 
+r2 1 -2 
+$r11 1 231 
+$r3 1 69 
+_ret 1 0 
+r5 1 110 
+$r19 1 35 
+r20 1 14 
+$r6 1 110 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 20
+98 0 
+162 1 69 
+4 1 0 
+68 1 58 
+132 1 110 
+228 1 170 
+102 1 69 
+199 0 
+8 1 -2 
+40 2 35 25 
+234 2 69 231 
+43 2 0 35 
+15 1 14 
+208 0 
+81 1 69 
+52 1 0 
+24 1 14 
+59 1 58 
+126 0 
+158 0 
+Constructors: 2
+4 0
+40 35
+
+Summary: 4
+25 0 -2 35 
+java/security/cert/X509CertSelector.setSubject(Ljavax/security/auth/x500/X500Principal;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.setIssuer([B)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r6 1 9 
+Fields: 0
+Accesses: 1
+17 1 -1 
+Functions: 2
+14 2 -2 9 
+31 0 
+Constructors: 1
+14 9
+
+Summary: 2
+-2 -1 
+java/security/cert/X509CertSelector.setSubjectPublicKeyAlgID(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -1 
+$r2 1 13 
+Fields: 0
+Accesses: 2
+21 1 -1 
+6 1 -1 
+Functions: 1
+18 2 -2 13 
+Constructors: 1
+18 13
+
+Summary: 2
+-2 -1 
+java/security/cert/X509CertSelector.getPrivateKeyValid()Ljava/util/Date;
+PTG:
+Vars:
+6
+$r2 1 1 
+r0 1 -1 
+$r4 1 13 
+$r3 1 13 
+$r1 1 1 
+_ret 1 13 
+Fields: 1
+-1 privateKeyValid 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.parseNames(Ljava/util/Collection;)Ljava/util/Set;
+PTG:
+Vars:
+10
+$r4 1 25 
+r5 1 25 
+r2 1 -2 
+r3 1 14 
+_ret 1 0 
+$r0 1 0 
+$r6 1 61 
+r10 1 61 
+r11 1 98 
+$r7 1 105 
+Fields: 0
+Accesses: 0
+Functions: 12
+34 1 25 
+50 0 
+83 1 61 
+4 1 0 
+54 1 25 
+103 1 98 
+8 1 -2 
+24 1 14 
+91 1 25 
+108 2 0 105 
+77 0 
+15 1 14 
+Constructors: 1
+4 0
+
+Summary: 1
+-2 
+java/security/cert/X509CertSelector.clone()Ljava/lang/Object;
+PTG:
+Vars:
+16
+$r14 1 69 
+$r10 1 20 
+$r12 1 31 
+$r13 1 -1 
+$r2 1 9 
+$r3 1 38 
+r16 1 1 
+$r7 1 60 
+$r6 1 38 
+r0 1 -1 
+$r4 1 46 
+$r15 1 74 
+$r1 1 1 
+$r9 1 9 
+$r11 1 28 
+$r5 1 49 
+Fields: 4
+-1 pathToGeneralNames 38
+-1 subjectAlternativeGeneralNames 28
+-1 pathToNames 46
+-1 subjectAlternativeNames 9
+Accesses: 10
+16 1 -1 
+34 1 1 
+52 1 1 
+37 1 -1 
+23 1 1 
+8 1 -1 
+56 1 -1 
+27 1 -1 
+45 1 -1 
+63 1 1 
+Functions: 7
+0 5 -1 38 9 28 46 
+17 1 9 
+57 1 38 
+73 1 -1 
+28 1 28 
+46 1 46 
+78 3 -1 69 74 
+Constructors: 1
+78 69
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.matchSubjectKeyID(Ljava/security/cert/X509Certificate;)Z
+PTG:
+Vars:
+7
+r0 1 -1 
+r23 1 16 
+r5 1 51 
+r2 1 -2 
+$r1 1 1 
+$r3 1 38 
+$r17 1 1 
+Fields: 1
+-1 subjectKeyID 1
+Accesses: 3
+0 1 -1 
+58 1 -1 
+92 1 -1 
+Functions: 15
+33 0 
+99 0 
+9 1 -2 
+105 0 
+43 2 16 38 
+108 1 51 
+140 0 
+47 1 38 
+79 0 
+113 0 
+83 0 
+119 0 
+89 0 
+93 0 
+62 2 1 51 
+Constructors: 1
+43 38
+
+Summary: 5
+0 16 -1 38 -2 
+java/security/cert/X509CertSelector.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.match(Ljava/security/cert/Certificate;)Z
+PTG:
+Vars:
+37
+$r41 1 61 
+$r21 1 154 
+$r44 1 73 
+$r29 1 83 
+$r36 1 41 
+$r5 1 117 
+r0 1 -2 
+r1 1 -2 
+$r18 1 202 
+$r12 1 270 
+$r4 1 83 
+$r38 1 49 
+$r26 1 128 
+r3 1 -1 
+$r45 1 76 
+$r37 1 44 
+$r42 1 65 
+$r34 1 32 
+$r35 1 36 
+$r7 1 191 
+$r2 1 14 
+$r6 1 154 
+$r32 1 23 
+$r40 1 56 
+$r13 1 263 
+$r33 1 20 
+r50 1 278 
+$r9 1 263 
+$r10 1 404 
+$r16 1 228 
+$r43 1 68 
+$r25 1 117 
+$r8 1 228 
+$r39 1 53 
+$r17 1 191 
+$r22 1 165 
+$r11 1 410 
+Fields: 6
+-1 certificateValid 228
+-1 serialNumber 117
+-1 x509Cert 83
+-1 subject 191
+-1 issuer 154
+-1 subjectPublicKeyBytes 263
+Accesses: 12
+160 1 -1 
+82 1 -1 
+227 1 -1 
+116 1 -1 
+197 1 -1 
+262 1 -1 
+279 1 -1 
+89 1 -1 
+153 1 -1 
+123 1 -1 
+235 1 -1 
+190 1 -1 
+Functions: 43
+64 1 -2 
+257 0 
+322 8 -1 -2 83 228 117 263 154 191 
+386 8 -1 -2 83 228 117 263 154 191 
+68 1 68 
+198 2 202 191 
+73 1 73 
+201 1 -2 
+330 8 -1 -2 83 228 117 263 154 191 
+269 1 -2 
+270 1 270 
+79 2 20 76 
+338 8 -1 -2 83 228 117 263 154 191 
+148 0 
+23 1 23 
+90 2 -2 83 
+346 8 -1 -2 83 228 117 263 154 191 
+27 1 23 
+283 2 278 263 
+222 0 
+32 2 32 41 
+416 1 410 
+161 2 165 154 
+354 8 -1 -2 83 228 117 263 154 191 
+35 1 -2 
+36 1 36 
+164 1 -2 
+362 8 -1 -2 83 228 117 263 154 191 
+44 1 44 
+301 0 
+111 0 
+239 2 -2 228 
+49 2 49 53 
+306 8 -1 -2 83 228 117 263 154 191 
+370 8 -1 -2 83 228 117 263 154 191 
+52 1 -2 
+56 1 56 
+185 0 
+314 8 -1 -2 83 228 117 263 154 191 
+378 8 -1 -2 83 228 117 263 154 191 
+124 2 128 117 
+61 2 65 61 
+127 1 -2 
+Constructors: 1
+27 23
+
+Summary: 10
+53 41 -1 65 278 -2 202 128 270 165 
+java/security/cert/X509CertSelector.setPrivateKeyValid(Ljava/util/Date;)V
+PTG:
+Vars:
+4
+$r3 1 14 
+$r2 1 14 
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 2
+20 1 -1 
+6 1 -1 
+Functions: 1
+13 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/security/cert/X509CertSelector.getSubject()Ljavax/security/auth/x500/X500Principal;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 subject 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.getExtendedKeyUsage()Ljava/util/Set;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 keyPurposeSet 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.setSubjectPublicKey([B)V
+PTG:
+Vars:
+7
+$r2 1 19 
+$r4 1 29 
+$r5 1 34 
+$r3 1 19 
+$r6 1 40 
+r0 1 -2 
+r1 1 -1 
+Fields: 1
+-1 subjectPublicKeyBytes 34
+Accesses: 5
+33 1 -1 
+6 1 -1 
+25 1 -1 
+11 1 -1 
+43 1 -1 
+Functions: 3
+18 1 -2 
+37 2 34 29 
+29 1 29 
+Constructors: 1
+37 29
+
+Summary: 3
+-2 29 -1 
+java/security/cert/X509CertSelector.setCertificate(Ljava/security/cert/X509Certificate;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+java/security/cert/X509CertSelector.addSubjectAlternativeName(I[B)V
+PTG:
+Vars:
+3
+$r2 1 3 
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 1 -3 
+6 2 -1 3 
+Constructors: 0
+
+Summary: 3
+3 -1 -3 
+java/security/cert/X509CertSelector.matchPolicy(Ljava/security/cert/X509Certificate;)Z
+PTG:
+Vars:
+19
+r2 1 -2 
+r26 1 68 
+$r8 1 1 
+$r11 1 164 
+$r1 1 1 
+$r10 1 1 
+$r18 1 82 
+r27 1 82 
+$r7 1 1 
+r28 1 172 
+$r14 1 186 
+$r19 1 96 
+r0 1 -1 
+$r3 1 11 
+$r9 1 122 
+r4 1 46 
+$r5 1 47 
+r15 1 186 
+r25 1 11 
+Fields: 1
+-1 policy 1
+Accesses: 4
+0 1 -1 
+160 1 -1 
+118 1 -1 
+108 1 -1 
+Functions: 21
+161 1 1 
+34 0 
+99 2 96 47 
+164 1 164 
+196 2 186 47 
+133 1 47 
+70 1 68 
+39 1 11 
+10 1 -2 
+234 0 
+174 1 172 
+80 1 68 
+51 1 46 
+119 1 1 
+184 1 172 
+57 1 47 
+122 1 122 
+155 0 
+62 1 46 
+94 1 82 
+255 0 
+Constructors: 1
+57 47
+
+Summary: 7
+186 0 47 -1 -2 122 164 
+java/security/cert/X509CertSelector.setPathToNamesInternal(Ljava/util/Set;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+r2 1 -2 
+Fields: 0
+Accesses: 2
+4 1 -1 
+9 1 -1 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 2
+0 -1 
+java/security/cert/X509CertSelector.setSubjectKeyIdentifier([B)V
+PTG:
+Vars:
+4
+$r3 1 14 
+r0 1 -2 
+r1 1 -1 
+$r2 1 14 
+Fields: 0
+Accesses: 2
+20 1 -1 
+6 1 -1 
+Functions: 1
+13 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/security/cert/X509CertSelector.getAuthorityKeyIdentifier()[B
+PTG:
+Vars:
+6
+$r4 1 13 
+$r3 1 13 
+$r1 1 1 
+_ret 1 13 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 authorityKeyID 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.matchPathToNames(Ljava/security/cert/X509Certificate;)Z
+PTG:
+Vars:
+18
+r20 1 112 
+r5 1 120 
+$r3 1 11 
+r19 1 57 
+r0 1 -1 
+$r12 1 88 
+$r11 1 83 
+$r14 1 96 
+$r9 1 67 
+r18 1 11 
+$r1 1 1 
+$r7 1 1 
+$r6 1 39 
+$r8 1 70 
+$r10 1 79 
+r2 1 -2 
+$r13 1 93 
+$r4 1 24 
+Fields: 1
+-1 pathToGeneralNames 1
+Accesses: 2
+0 1 -1 
+48 1 -1 
+Functions: 17
+99 2 96 67 
+70 1 70 
+168 0 
+105 1 11 
+10 1 -2 
+74 1 70 
+45 1 39 
+142 3 -1 112 1 
+79 2 83 79 
+49 1 1 
+113 1 11 
+82 1 57 
+88 1 88 
+58 1 57 
+93 1 93 
+30 0 
+127 3 -1 1 120 
+Constructors: 1
+74 70
+
+Summary: 4
+83 0 -1 -2 
+java/security/cert/X509CertSelector.matchNameConstraints(Ljava/security/cert/X509Certificate;)Z
+PTG:
+Vars:
+4
+$r3 1 1 
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 nc 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 3
+32 0 
+53 0 
+10 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/security/cert/X509CertSelector.setSubject(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+$r2 1 13 
+$r3 1 21 
+r0 1 -2 
+Fields: 0
+Accesses: 2
+6 1 -1 
+24 1 -1 
+Functions: 2
+18 2 -2 13 
+13 1 13 
+Constructors: 1
+18 13
+
+Summary: 2
+-2 -1 
+java/security/cert/X509CertSelector.getSubjectAsBytes()[B
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r3 1 15 
+_ret 1 15 
+$r2 1 1 
+Fields: 1
+-1 subject 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.getExtensionObject(Ljava/security/cert/X509Certificate;I)Ljava/security/cert/Extension;
+PTG:
+Vars:
+6
+r0 1 -2 
+$r1 1 76 
+r26 1 84 
+$r2 1 80 
+$r3 1 91 
+r5 1 104 
+Fields: 1
+76 ArrayObject 80
+Accesses: 0
+Functions: 15
+96 2 84 91 
+68 0 
+100 1 91 
+164 0 
+75 2 80 -2 
+203 1 104 
+48 0 
+177 1 104 
+53 0 
+149 1 104 
+216 1 104 
+58 0 
+190 1 104 
+63 0 
+159 0 
+Constructors: 1
+96 91
+
+Summary: 4
+91 -2 84 0 
+java/security/cert/X509CertSelector.getBasicConstraints()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.getSerialNumber()Ljava/math/BigInteger;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 serialNumber 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.getIssuerAsString()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r3 1 15 
+_ret 1 15 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 issuer 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.matchPermitted(Lsun/security/x509/GeneralSubtrees;)Z
+PTG:
+Vars:
+16
+r0 1 -1 
+$r3 1 20 
+$r19 1 102 
+$r22 1 122 
+r5 1 -2 
+r2 1 9 
+r23 2 128 44 
+r16 1 63 
+r4 1 20 
+$r20 1 111 
+r6 1 33 
+$r1 1 1 
+$r21 1 117 
+$r15 1 63 
+$r17 1 75 
+r18 1 81 
+Fields: 1
+-1 pathToGeneralNames 1
+Accesses: 1
+0 1 -1 
+Functions: 24
+192 0 
+1 1 1 
+130 2 81 20 
+196 0 
+228 0 
+102 3 128 102 44 
+73 1 63 
+10 1 9 
+106 1 102 
+202 0 
+75 1 75 
+205 1 20 
+46 1 33 
+111 1 111 
+19 1 9 
+83 1 81 
+211 0 
+117 2 81 117 
+217 2 128 44 
+90 1 20 
+122 1 122 
+29 1 -2 
+61 1 33 
+222 0 
+Constructors: 1
+106 102
+
+Summary: 8
+33 0 75 -1 20 -2 81 63 
+java/security/cert/X509CertSelector.setSerialNumber(Ljava/math/BigInteger;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.setIssuer(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+$r2 1 13 
+r1 1 -1 
+r0 1 -2 
+$r3 1 21 
+Fields: 0
+Accesses: 2
+6 1 -1 
+24 1 -1 
+Functions: 2
+18 2 -2 13 
+13 1 13 
+Constructors: 1
+18 13
+
+Summary: 2
+-2 -1 
+java/security/cert/X509CertSelector.setBasicConstraints(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+18 1 -1 
+Functions: 1
+12 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.addPathToName(I[B)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -3 
+$r2 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 1 -3 
+6 2 -1 3 
+Constructors: 0
+
+Summary: 3
+3 -1 -3 
+java/security/cert/X509CertSelector.makeGeneralNameInterface(ILjava/lang/Object;)Lsun/security/x509/GeneralNameInterface;
+PTG:
+Vars:
+56
+$r35 1 243 
+$r17 1 444 
+$r12 1 501 
+$r9 1 296 
+$r63 1 22 
+$r45 1 -3 
+$r43 1 -3 
+$r23 1 372 
+$r60 1 9 
+$r16 1 523 
+$r39 1 265 
+$r20 1 408 
+$r57 1 61 
+$r10 1 456 
+$r34 1 246 
+$r46 1 135 
+$r47 1 -3 
+$r58 1 65 
+$r49 1 -3 
+$r15 1 520 
+$r24 1 360 
+$r61 1 6 
+$r40 1 180 
+$r19 1 420 
+$r41 1 -3 
+$r18 1 432 
+$r32 1 195 
+$r65 1 30 
+$r44 1 150 
+$r6 1 -3 
+$r64 1 27 
+$r55 1 52 
+$r38 1 262 
+$r11 1 504 
+r66 15 195 372 150 444 180 420 396 384 360 165 456 432 135 408 120 
+$r56 1 49 
+$r62 1 18 
+$r42 1 165 
+$r7 1 -3 
+r1 1 -3 
+$r48 1 120 
+$r13 1 513 
+$r68 1 495 
+$r36 1 255 
+$r5 1 281 
+$r22 1 384 
+$r31 1 43 
+$r30 1 302 
+$r14 1 517 
+$r67 1 237 
+$r33 1 -3 
+$r21 1 396 
+$r37 1 259 
+_ret 15 195 372 150 444 180 420 396 384 360 165 456 432 135 408 120 
+$r0 1 0 
+$r59 1 68 
+Fields: 0
+Accesses: 0
+Functions: 52
+128 2 -3 120 
+513 2 513 517 
+258 15 384 195 420 165 135 360 456 396 432 372 180 150 408 120 444 
+516 15 384 195 420 165 135 360 456 396 432 372 180 150 408 120 444 
+389 2 384 281 
+262 1 262 
+520 1 520 
+9 1 9 
+268 2 243 265 
+13 1 9 
+526 2 501 523 
+143 2 -3 135 
+401 2 281 396 
+18 1 18 
+22 1 22 
+27 1 27 
+413 2 408 281 
+158 2 -3 150 
+543 0 
+33 2 6 30 
+292 2 -3 281 
+552 0 
+425 2 420 281 
+173 2 -3 165 
+307 1 302 
+52 1 52 
+437 2 432 281 
+56 1 52 
+188 2 -3 180 
+61 2 -3 61 
+65 1 65 
+449 2 281 444 
+71 2 49 68 
+203 2 -3 195 
+461 2 456 281 
+214 0 
+472 0 
+218 0 
+476 0 
+223 0 
+481 0 
+227 0 
+485 0 
+233 0 
+491 0 
+365 2 360 281 
+246 1 246 
+504 1 504 
+377 2 372 281 
+250 1 246 
+508 1 504 
+255 2 259 255 
+Constructors: 20
+128 120
+449 444
+292 281
+389 384
+425 420
+203 195
+13 9
+173 165
+365 360
+461 456
+143 135
+401 396
+437 432
+56 52
+377 372
+250 246
+188 180
+508 504
+413 408
+158 150
+
+Summary: 3
+281 -3 1 
+java/security/cert/X509CertSelector.equalNames(Ljava/util/Collection;Ljava/util/Collection;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+19 2 -2 -3 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+java/security/cert/X509CertSelector.setIssuer(Ljavax/security/auth/x500/X500Principal;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.matchAuthorityKeyID(Ljava/security/cert/X509Certificate;)Z
+PTG:
+Vars:
+7
+$r8 1 1 
+$r1 1 1 
+$r3 1 38 
+r14 1 16 
+r5 1 51 
+r2 1 -2 
+r0 1 -1 
+Fields: 1
+-1 authorityKeyID 1
+Accesses: 2
+0 1 -1 
+58 1 -1 
+Functions: 7
+33 0 
+82 0 
+103 0 
+9 1 -2 
+43 2 16 38 
+62 2 1 51 
+47 1 38 
+Constructors: 1
+43 38
+
+Summary: 5
+0 16 -1 38 -2 
+java/security/cert/X509CertSelector.setPathToNames(Ljava/util/Collection;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r2 1 30 
+r1 1 -1 
+$r3 1 33 
+Fields: 0
+Accesses: 4
+20 1 -1 
+36 1 -1 
+41 1 -1 
+15 1 -1 
+Functions: 3
+32 1 30 
+4 1 -2 
+26 1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.setSubject([B)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r6 1 9 
+Fields: 0
+Accesses: 1
+17 1 -1 
+Functions: 2
+14 2 -2 9 
+31 0 
+Constructors: 1
+14 9
+
+Summary: 2
+-2 -1 
+java/security/cert/X509CertSelector.setSubjectAlternativeNames(Ljava/util/Collection;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r2 1 -1 
+$r3 1 44 
+r1 1 41 
+Fields: 0
+Accesses: 6
+33 1 -1 
+52 1 -1 
+6 1 -1 
+11 1 -1 
+28 1 -1 
+47 1 -1 
+Functions: 3
+17 1 -2 
+37 1 -2 
+43 1 41 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.cloneNames(Ljava/util/Collection;)Ljava/util/Set;
+PTG:
+Vars:
+9
+$r8 1 26 
+r0 1 -2 
+$r9 1 29 
+$r2 1 -1 
+$r1 1 1 
+$r4 1 6 
+$r5 1 10 
+$r7 1 23 
+$r6 1 19 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+32 2 6 29 
+19 2 19 23 
+22 1 -1 
+10 1 10 
+26 1 26 
+14 1 10 
+Constructors: 2
+32 6
+14 10
+
+Summary: 2
+-2 0 
+java/security/cert/X509CertSelector.getCertificateValid()Ljava/util/Date;
+PTG:
+Vars:
+6
+$r4 1 13 
+$r2 1 1 
+_ret 1 13 
+$r3 1 13 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 certificateValid 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.matchBasicConstraints(Ljava/security/cert/X509Certificate;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 4
+0 1 -1 
+86 1 -1 
+15 1 -1 
+47 1 -1 
+Functions: 10
+67 0 
+83 0 
+101 0 
+41 0 
+73 0 
+10 1 -2 
+90 0 
+77 0 
+63 0 
+95 0 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+java/security/cert/X509CertSelector.matchPrivateKeyValid(Ljava/security/cert/X509Certificate;)Z
+PTG:
+Vars:
+6
+r2 1 -2 
+$r1 1 1 
+r35 1 13 
+$r3 1 13 
+r0 1 -1 
+$r4 1 1 
+Fields: 1
+-1 privateKeyValid 1
+Accesses: 2
+0 1 -1 
+25 1 -1 
+Functions: 31
+71 0 
+135 0 
+75 0 
+203 0 
+12 1 -2 
+207 0 
+81 0 
+213 0 
+86 0 
+150 0 
+216 2 -1 1 
+154 0 
+92 0 
+220 0 
+29 2 1 13 
+95 2 -1 1 
+160 0 
+226 0 
+99 0 
+165 0 
+230 0 
+105 0 
+171 0 
+109 0 
+174 2 -1 1 
+47 1 13 
+178 0 
+56 0 
+184 0 
+188 0 
+126 1 13 
+Constructors: 0
+
+Summary: 6
+217 -1 175 -2 0 96 
+java/security/cert/X509CertSelector.setKeyUsage([Z)V
+PTG:
+Vars:
+4
+$r2 1 14 
+$r3 1 14 
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 2
+20 1 -1 
+6 1 -1 
+Functions: 1
+13 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/security/cert/X509CertSelector.getCertificate()Ljava/security/cert/X509Certificate;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 x509Cert 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.getKeyUsage()[Z
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 1 
+_ret 1 13 
+$r3 1 13 
+$r1 1 1 
+$r4 1 13 
+Fields: 1
+-1 keyUsage 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/cert/X509CertSelector.addSubjectAlternativeNameInternal(ILjava/lang/Object;)V
+PTG:
+Vars:
+11
+$r8 1 7 
+r0 1 -3 
+$r11 1 14 
+$r5 1 42 
+$r9 1 25 
+$r10 1 32 
+$r7 1 55 
+r2 1 -1 
+$r4 1 25 
+r1 1 5 
+$r3 1 7 
+Fields: 2
+-1 subjectAlternativeGeneralNames 25
+-1 subjectAlternativeNames 7
+Accesses: 6
+21 1 -1 
+85 1 -1 
+6 1 -1 
+39 1 -1 
+24 1 -1 
+73 1 -1 
+Functions: 9
+1 1 -3 
+18 1 14 
+67 2 -3 42 
+36 1 32 
+54 0 
+58 2 55 42 
+90 2 5 25 
+47 1 42 
+79 2 7 42 
+Constructors: 3
+18 14
+36 32
+47 42
+
+Summary: 4
+42 -1 -3 1 
+java/security/cert/X509CertSelector.setAuthorityKeyIdentifier([B)V
+PTG:
+Vars:
+4
+$r2 1 14 
+r0 1 -2 
+r1 1 -1 
+$r3 1 14 
+Fields: 0
+Accesses: 2
+20 1 -1 
+6 1 -1 
+Functions: 1
+13 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/security/cert/X509CertSelector.addPathToNameInternal(ILjava/lang/Object;)V
+PTG:
+Vars:
+10
+$r9 1 14 
+r0 1 -3 
+$r6 1 48 
+$r4 1 35 
+$r10 1 25 
+$r8 1 7 
+r1 1 5 
+$r3 1 7 
+$r7 1 67 
+r2 1 -1 
+Fields: 2
+-1 pathToGeneralNames 7
+-1 pathToNames 67
+Accesses: 5
+32 1 -1 
+66 1 -1 
+21 1 -1 
+6 1 -1 
+78 1 -1 
+Functions: 9
+1 1 -3 
+18 1 14 
+51 2 48 35 
+83 2 5 7 
+40 1 35 
+72 2 67 35 
+60 2 -3 35 
+29 1 25 
+47 0 
+Constructors: 3
+18 14
+40 35
+29 25
+
+Summary: 4
+35 -1 -3 1 

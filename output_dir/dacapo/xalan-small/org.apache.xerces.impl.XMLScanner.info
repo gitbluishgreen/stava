@@ -1,0 +1,1314 @@
+32
+org/apache/xerces/impl/XMLScanner.versionSupported(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/XMLScanner.setFeature(Ljava/lang/String;Z)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r3 1 -1 
+$r1 1 0 
+$r2 1 17 
+Fields: 0
+Accesses: 2
+11 1 -1 
+28 1 -1 
+Functions: 2
+0 2 0 -2 
+17 2 17 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/xerces/impl/XMLScanner.isUnchangedByNormalization(Lorg/apache/xerces/xni/XMLString;)I
+PTG:
+Vars:
+3
+$r1 1 19 
+r2 1 -1 
+r0 1 -2 
+Fields: 1
+-2 ch 19
+Accesses: 5
+0 1 -2 
+18 1 -2 
+34 1 -2 
+4 1 -2 
+10 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-1 -2 19 0 
+org/apache/xerces/impl/XMLScanner.isValidNCName(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLScanner.scanExternalID([Ljava/lang/String;Z)V
+PTG:
+Vars:
+23
+$r7 1 6 
+r0 1 -1 
+$r14 1 36 
+$r22 1 6 
+r16 1 282 
+$r13 1 36 
+$r19 1 6 
+$r10 1 6 
+$r6 1 6 
+r20 2 36 192 
+r3 1 -2 
+$r18 1 6 
+r17 1 50 
+$r2 1 6 
+$r8 1 192 
+$r4 1 192 
+$r5 1 192 
+$r15 1 6 
+$r12 1 6 
+$r21 1 6 
+$r11 1 6 
+$r1 1 6 
+$r9 1 192 
+Fields: 3
+-1 fString 36
+-1 fEntityScanner 6
+-1 fStringBuffer 192
+Accesses: 20
+161 1 -1 
+35 1 -1 
+5 1 -1 
+198 1 -1 
+262 1 -1 
+231 1 -1 
+169 1 -1 
+43 1 -1 
+235 1 -1 
+78 1 -1 
+175 1 -1 
+207 1 -1 
+271 1 -1 
+112 1 -1 
+17 1 -1 
+52 1 -1 
+246 1 -1 
+283 1 -1 
+95 1 -1 
+191 1 -1 
+Functions: 25
+195 1 192 
+6 1 6 
+70 4 -1 192 36 6 
+204 2 192 36 
+268 2 192 36 
+79 1 6 
+208 1 6 
+18 1 6 
+277 2 192 36 
+216 0 
+284 1 6 
+158 4 -1 192 36 6 
+31 4 -1 192 36 6 
+96 1 6 
+165 1 6 
+39 4 -1 192 36 6 
+299 4 -1 192 36 6 
+44 1 36 
+236 1 6 
+109 4 -1 192 36 6 
+176 3 192 36 6 
+113 1 6 
+243 1 192 
+53 1 6 
+247 3 192 36 6 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/xerces/impl/XMLScanner.init()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 16 
+Fields: 1
+-1 fResourceIdentifier 16
+Accesses: 4
+2 1 -1 
+7 1 -1 
+12 1 -1 
+15 1 -1 
+Functions: 1
+19 1 16 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLScanner.isValidNameStartChar(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLScanner.reportFatalError(Ljava/lang/String;[Ljava/lang/Object;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 1 
+r2 1 -3 
+r0 1 -1 
+Fields: 1
+-1 fErrorReporter 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+9 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 1 0 -3 
+org/apache/xerces/impl/XMLScanner.endEntity(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-1 -2 1 0 -3 
+org/apache/xerces/impl/XMLScanner.startEntity(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+7
+$r2 1 15 
+r3 1 -2 
+r5 1 -4 
+$r1 1 12 
+r4 1 -3 
+r0 1 -1 
+r6 1 -5 
+Fields: 1
+-1 fEntityManager 12
+Accesses: 4
+0 1 -1 
+18 1 -1 
+7 1 -1 
+11 1 -1 
+Functions: 1
+12 1 12 
+Constructors: 0
+
+Summary: 9
+-1 -2 1 0 3 2 -5 -3 -4 
+org/apache/xerces/impl/XMLScanner.scanSurrogates(Lorg/apache/xerces/util/XMLStringBuffer;)Z
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r3 1 1 
+r4 1 -2 
+$r2 1 1 
+Fields: 1
+-1 fEntityScanner 1
+Accesses: 3
+0 1 -1 
+8 1 -1 
+44 1 -1 
+Functions: 12
+16 0 
+48 1 1 
+1 1 1 
+33 0 
+81 0 
+101 1 -2 
+39 2 -1 1 
+55 0 
+87 2 -1 1 
+9 1 1 
+61 2 -1 1 
+95 1 -2 
+Constructors: 0
+
+Summary: 5
+-1 -2 0 74 27 
+org/apache/xerces/impl/XMLScanner.scanPI()V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 26 
+$r2 1 47 
+r4 2 32 21 
+$r3 1 15 
+Fields: 3
+-1 fString 47
+-1 fEntityScanner 15
+-1 fEntityScanner 26
+Accesses: 6
+2 1 -1 
+7 1 -1 
+55 1 -1 
+25 1 -1 
+14 1 -1 
+46 1 -1 
+Functions: 4
+50 6 -1 32 21 26 47 15 
+41 4 -1 26 47 15 
+26 1 26 
+15 1 15 
+Constructors: 0
+
+Summary: 3
+-1 32 21 
+org/apache/xerces/impl/XMLScanner.scanXMLDeclOrTextDecl(Z[Ljava/lang/String;)V
+PTG:
+Vars:
+31
+r21 1 -3 
+r3 1 30 
+$r10 1 304 
+$r12 1 358 
+$r2 1 24 
+$r32 1 15 
+r23 2 282 206 
+$r11 2 323 54 
+r22 1 128 
+$r4 1 54 
+r24 2 409 329 
+$r31 2 470 15 
+$r20 1 15 
+$r25 2 110 115 
+$r18 1 146 
+$r15 1 161 
+$r30 2 276 54 
+$r6 1 384 
+r5 1 60 
+$r7 2 54 403 
+$r27 2 188 193 
+$r29 2 264 269 
+$r17 1 142 
+$r14 1 94 
+$r9 1 248 
+$r28 2 200 54 
+$r26 2 122 54 
+$r33 1 15 
+r0 1 -1 
+$r1 1 15 
+$r8 1 438 
+Fields: 3
+-1 fString 54
+-1 fEntityScanner 15
+-1 fEntityManager 24
+Accesses: 15
+32 1 30 
+577 1 -1 
+322 1 -1 
+199 1 -1 
+42 1 30 
+14 1 -1 
+558 1 -1 
+402 1 -1 
+498 1 30 
+275 1 -1 
+53 1 -1 
+469 1 -1 
+23 1 -1 
+121 1 -1 
+478 1 -1 
+Functions: 37
+578 1 15 
+323 2 323 54 
+515 4 -1 54 24 15 
+132 5 -1 128 54 24 15 
+196 6 -1 193 54 24 188 15 
+200 2 54 200 
+456 4 -1 54 24 15 
+141 4 -1 54 24 15 
+334 2 409 329 
+15 1 15 
+399 4 -1 54 24 15 
+272 6 -1 54 24 264 269 15 
+593 4 -1 54 24 15 
+466 4 -1 54 24 15 
+403 2 403 54 
+276 2 276 54 
+470 2 470 15 
+24 1 24 
+344 2 409 329 
+536 4 -1 54 24 15 
+153 6 -1 146 54 24 142 15 
+414 2 409 329 
+479 1 15 
+230 4 -1 54 24 15 
+424 2 409 329 
+555 4 -1 54 24 15 
+366 5 -1 54 358 24 15 
+175 4 -1 54 24 15 
+559 1 15 
+240 4 -1 54 24 15 
+51 4 -1 54 24 15 
+118 6 -1 115 54 24 110 15 
+376 4 -1 54 24 15 
+122 2 54 122 
+446 5 -1 54 438 24 15 
+574 4 -1 54 24 15 
+319 4 -1 54 24 15 
+Constructors: 0
+
+Summary: 9
+-3 146 -1 1 438 60 142 30 358 
+org/apache/xerces/impl/XMLScanner.scanComment(Lorg/apache/xerces/util/XMLStringBuffer;)V
+PTG:
+Vars:
+8
+$r2 2 70 8 
+r0 1 -2 
+$r4 1 54 
+$r3 1 48 
+$r7 1 70 
+r1 1 -1 
+$r6 1 70 
+$r5 2 70 62 
+Fields: 1
+-1 fEntityScanner 70
+Accesses: 4
+82 1 -1 
+69 1 -1 
+7 1 -1 
+61 1 -1 
+Functions: 11
+1 1 -2 
+65 2 70 62 
+98 2 -1 70 
+83 1 70 
+20 0 
+36 2 -1 70 
+53 0 
+70 2 -2 70 
+8 2 70 8 
+58 3 -1 48 70 
+29 3 -1 -2 70 
+Constructors: 0
+
+Summary: 4
+-1 -2 0 48 
+org/apache/xerces/impl/XMLScanner.<init>()V
+PTG:
+Vars:
+6
+$r1 1 25 
+r0 1 -1 
+$r2 1 36 
+$r5 1 69 
+$r4 1 58 
+$r3 1 47 
+Fields: 0
+Accesses: 9
+16 1 -1 
+32 1 -1 
+65 1 -1 
+21 1 -1 
+6 1 -1 
+54 1 -1 
+11 1 -1 
+43 1 -1 
+76 1 -1 
+Functions: 6
+1 1 -1 
+51 1 47 
+40 1 36 
+73 1 69 
+29 1 25 
+62 1 58 
+Constructors: 6
+1 -1
+51 47
+40 36
+73 69
+29 25
+62 58
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLScanner.scanPIData(Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;)V
+PTG:
+Vars:
+24
+$r21 1 65 
+$r16 1 65 
+r19 1 140 
+$r9 1 65 
+$r24 1 189 
+r2 1 -3 
+$r4 1 65 
+$r20 1 189 
+$r6 1 261 
+$r15 1 163 
+r0 1 -2 
+$r22 1 189 
+$r12 1 118 
+$r14 1 157 
+$r11 1 65 
+r1 1 -1 
+$r17 1 65 
+$r10 1 65 
+$r8 1 189 
+$r3 1 189 
+$r5 1 255 
+$r23 1 65 
+$r7 1 65 
+$r13 1 65 
+Fields: 2
+-1 fEntityScanner 65
+-1 fStringBuffer 189
+Accesses: 16
+64 1 -1 
+98 1 -1 
+195 1 -1 
+133 1 -1 
+293 1 -1 
+232 1 -1 
+201 1 -1 
+74 1 -1 
+170 1 -1 
+268 1 -1 
+110 1 -1 
+211 1 -1 
+276 1 -1 
+282 1 -1 
+91 1 -1 
+188 1 -1 
+Functions: 32
+0 1 -2 
+192 1 189 
+65 1 65 
+130 1 118 
+196 2 65 189 
+260 0 
+134 1 65 
+8 1 -2 
+265 4 -1 65 189 255 
+10 0 
+75 1 65 
+272 1 65 
+17 1 -2 
+19 0 
+212 1 65 
+277 2 65 189 
+150 2 118 140 
+87 1 -3 
+27 1 -2 
+29 0 
+224 0 
+162 1 118 
+99 1 65 
+167 4 -1 65 189 157 
+297 2 -3 189 
+236 3 -1 65 189 
+174 1 65 
+114 1 65 
+243 3 -1 65 189 
+185 3 -1 65 189 
+123 2 -2 118 
+61 3 -1 65 189 
+Constructors: 1
+123 118
+
+Summary: 9
+118 -3 255 -1 -2 1 0 157 140 
+org/apache/xerces/impl/XMLScanner.isInvalid(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLScanner.setProperty(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+10
+r6 1 -3 
+$r3 1 50 
+r5 1 -1 
+$r2 1 21 
+$r4 1 79 
+$r1 1 13 
+$r8 1 -3 
+$r7 1 -3 
+$r9 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 3
+101 1 -1 
+72 1 -1 
+43 1 -1 
+Functions: 9
+0 1 -2 
+50 1 50 
+21 1 21 
+87 1 -2 
+9 1 -2 
+58 1 -2 
+13 1 13 
+29 1 -2 
+79 1 79 
+Constructors: 0
+
+Summary: 4
+-1 -2 1 0 
+org/apache/xerces/impl/XMLScanner.getVersionNotSupportedKey()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLScanner.scanPubidLiteral(Lorg/apache/xerces/xni/XMLString;)Z
+PTG:
+Vars:
+11
+$r9 1 30 
+$r5 1 178 
+$r4 1 171 
+$r3 1 30 
+$r1 1 1 
+r0 1 -1 
+$r2 1 30 
+$r8 1 30 
+$r6 1 30 
+r7 1 -2 
+$r10 1 1 
+Fields: 2
+-1 fEntityScanner 1
+-1 fStringBuffer 30
+Accesses: 9
+0 1 -1 
+112 1 30 
+116 1 -1 
+102 1 -1 
+134 1 -1 
+103 1 30 
+44 1 -1 
+29 1 -1 
+78 1 -1 
+Functions: 11
+176 0 
+1 1 1 
+33 1 30 
+84 1 30 
+182 4 -1 1 171 30 
+24 3 -1 1 30 
+120 2 -2 30 
+45 1 1 
+141 1 30 
+126 0 
+159 3 -1 1 30 
+Constructors: 0
+
+Summary: 4
+-1 -2 0 171 
+org/apache/xerces/impl/XMLScanner.reset(Lorg/apache/xerces/xni/parser/XMLComponentManager;)V
+PTG:
+Vars:
+12
+$r11 1 -1 
+$r8 1 -1 
+r1 1 -2 
+$r2 1 37 
+$r6 1 67 
+$r10 1 -1 
+$r5 1 52 
+$r9 1 -1 
+r0 1 -1 
+$r3 1 37 
+$r4 1 52 
+$r7 1 67 
+Fields: 0
+Accesses: 12
+96 1 -1 
+129 1 -1 
+18 1 -1 
+21 1 -1 
+117 1 -1 
+87 1 -1 
+9 1 -1 
+138 1 -1 
+75 1 -1 
+60 1 -1 
+108 1 -1 
+45 1 -1 
+Functions: 9
+64 1 -2 
+1 1 -2 
+49 1 -2 
+34 1 -2 
+100 1 -2 
+121 1 -2 
+29 1 -1 
+142 1 -1 
+79 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/xerces/impl/XMLScanner.scanCharReferenceValue(Lorg/apache/xerces/util/XMLStringBuffer;Lorg/apache/xerces/util/XMLStringBuffer;)I
+PTG:
+Vars:
+46
+$r39 2 27 239 
+$r8 1 659 
+$r26 1 3 
+$r22 1 523 
+$r1 1 3 
+$r11 2 27 239 
+$r10 1 682 
+$r3 1 3 
+$r15 2 27 239 
+$r16 2 27 239 
+$r28 1 27 
+$r38 2 27 239 
+r4 1 -3 
+$r30 1 3 
+$r41 1 491 
+$r9 1 668 
+$r46 1 3 
+$r2 1 239 
+$r25 1 239 
+$r35 1 535 
+$r33 1 27 
+$r40 2 27 239 
+$r31 1 27 
+r52 1 698 
+$r44 1 603 
+$r32 1 3 
+$r5 2 27 239 
+$r17 2 27 239 
+$r19 1 491 
+$r47 1 3 
+$r48 1 3 
+r0 1 -1 
+$r51 2 680 675 
+$r6 1 427 
+$r18 2 27 239 
+$r34 1 -1 
+$r36 2 27 239 
+$r27 1 239 
+$r21 1 516 
+$r13 1 692 
+$r29 1 3 
+r7 1 -2 
+$r12 1 689 
+$r24 1 3 
+$r43 1 596 
+$r14 1 455 
+Fields: 5
+-1 fEntityScanner 3
+-1 fStringBuffer3 27
+-1 fStringBuffer3 239
+27 ch 491
+239 ch 491
+Accesses: 37
+128 1 -1 
+2 1 -1 
+581 1 -1 
+582 2 27 239 
+646 1 -1 
+710 1 -1 
+391 1 -1 
+202 1 -1 
+459 1 -1 
+460 2 27 239 
+210 1 -1 
+26 1 -1 
+539 1 -1 
+540 2 27 239 
+36 1 -1 
+294 1 -1 
+358 1 -1 
+423 1 -1 
+487 1 -1 
+488 2 27 239 
+685 1 -1 
+110 1 -1 
+238 1 -1 
+302 1 -1 
+366 1 -1 
+494 1 -1 
+495 2 27 239 
+501 1 -1 
+118 1 -1 
+502 2 27 239 
+567 1 -1 
+248 1 -1 
+312 1 -1 
+568 2 27 239 
+700 1 -1 
+574 1 -1 
+575 2 27 239 
+Functions: 50
+129 1 3 
+3 1 3 
+643 1 -2 
+388 5 -1 3 27 491 239 
+392 1 3 
+521 1 455 
+527 6 -1 3 516 27 491 239 
+659 1 659 
+21 1 -3 
+407 5 -1 3 27 491 239 
+663 1 659 
+668 3 675 680 668 
+30 2 27 491 
+417 1 -3 
+291 1 -3 
+548 1 535 
+37 1 3 
+424 3 27 491 239 
+298 1 3 
+682 2 689 682 
+686 3 27 491 239 
+561 1 535 
+692 1 692 
+309 2 491 239 
+439 1 427 
+313 1 3 
+446 5 -1 3 27 491 239 
+199 1 -3 
+588 2 535 491 
+206 1 3 
+468 1 455 
+217 2 27 491 
+601 1 535 
+607 6 -1 3 596 27 491 239 
+481 1 455 
+610 0 
+355 1 -3 
+232 5 -1 3 27 491 239 
+362 1 3 
+107 1 -3 
+622 1 -2 
+114 1 3 
+242 2 491 239 
+373 2 491 239 
+629 0 
+249 1 3 
+634 1 -2 
+508 2 455 491 
+125 2 27 491 
+638 0 
+Constructors: 3
+468 455
+548 535
+663 659
+
+Summary: 10
+-3 -1 427 1 516 596 692 -2 0 689 
+org/apache/xerces/impl/XMLScanner.scanAttributeValue(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/XMLString;Ljava/lang/String;ZLjava/lang/String;)Z
+PTG:
+Vars:
+69
+$r51 1 167 
+$r4 1 133 
+$r59 1 133 
+$r36 1 1 
+$r56 1 133 
+$r48 1 167 
+$r55 1 133 
+$r19 1 1 
+$r67 1 1 
+$r24 1 1 
+$r29 1 167 
+r0 1 -1 
+$r23 1 830 
+$r26 1 742 
+$r18 1 133 
+$r50 1 167 
+$r17 1 133 
+$r15 1 167 
+$r12 1 167 
+$r31 1 133 
+$r52 1 167 
+$r63 1 1 
+r5 1 -3 
+$r57 1 167 
+$r34 1 133 
+$r20 1 167 
+$r7 1 1 
+$r30 1 742 
+$r37 1 1 
+$r25 1 133 
+$r35 1 1 
+$r41 1 441 
+$r21 1 133 
+$r69 1 460 
+$r42 1 460 
+$r45 1 522 
+$r46 1 514 
+$r64 1 1 
+$r3 1 133 
+$r70 1 1 
+r66 1 276 
+r10 1 -6 
+$r40 1 421 
+$r49 1 167 
+r11 1 -4 
+$r6 1 133 
+$r38 1 381 
+$r39 1 401 
+$r9 1 963 
+r2 1 -2 
+$r14 1 167 
+$r22 1 812 
+$r32 1 576 
+$r13 1 1 
+$r8 1 980 
+$r65 1 167 
+$r68 1 361 
+$r47 1 475 
+$r58 1 133 
+$r1 1 1 
+$r33 1 1 
+$r53 1 133 
+$r54 1 327 
+$r44 1 541 
+$r28 1 742 
+$r16 1 167 
+$r62 1 27 
+$r27 1 742 
+$r43 1 460 
+Fields: 7
+-1 fEntityScanner 1
+-1 fEntityManager 460
+-1 fStringBuffer2 133
+-1 fStringBuffer3 742
+-1 fErrorReporter 514
+-1 fStringBuffer 167
+-2 ch 980
+Accesses: 67
+0 1 -1 
+513 1 -1 
+387 1 -1 
+643 1 -1 
+132 1 -1 
+772 1 -1 
+139 1 -1 
+779 1 -1 
+907 1 -1 
+269 1 -1 
+655 1 -1 
+783 1 -1 
+914 1 -1 
+662 1 -1 
+407 1 -1 
+923 1 -1 
+163 1 -1 
+932 1 -1 
+166 1 -1 
+295 1 -1 
+552 1 -1 
+936 1 -1 
+42 1 -1 
+427 1 -1 
+173 1 -1 
+302 1 -1 
+943 1 -1 
+689 1 -1 
+50 1 -1 
+311 1 -1 
+56 1 -1 
+697 1 -1 
+188 1 -1 
+447 1 -1 
+708 1 -1 
+837 1 -1 
+200 1 -1 
+459 1 -1 
+715 1 -1 
+207 1 -1 
+591 1 -1 
+847 1 -1 
+979 1 -2 
+854 1 -1 
+343 1 -1 
+983 1 -2 
+216 1 -1 
+601 1 -1 
+987 1 -2 
+350 1 -1 
+95 1 -1 
+608 1 -1 
+864 1 -1 
+741 1 -1 
+230 1 -1 
+489 1 -1 
+237 1 -1 
+749 1 -1 
+878 1 -1 
+367 1 -1 
+885 1 -1 
+247 1 -1 
+759 1 -1 
+506 1 -1 
+251 1 -1 
+635 1 -1 
+763 1 -1 
+Functions: 63
+1 1 1 
+136 1 133 
+393 1 167 
+650 1 167 
+270 1 1 
+144 3 -2 980 133 
+531 2 514 522 
+787 2 133 742 
+151 9 -1 1 -2 514 980 133 742 167 460 
+919 3 -2 980 167 
+413 1 167 
+669 1 133 
+287 7 -1 1 514 133 742 167 460 
+799 7 -1 1 514 133 742 167 460 
+927 3 -2 980 167 
+549 8 -1 1 514 133 742 167 460 541 
+39 8 -1 1 514 133 742 167 27 460 
+170 1 167 
+940 2 -3 133 
+46 1 1 
+559 2 276 460 
+944 1 1 
+433 1 167 
+178 3 -2 980 167 
+308 2 276 133 
+693 1 1 
+312 1 1 
+57 3 1 -2 980 
+828 0 
+703 1 167 
+194 1 1 
+834 8 -1 1 514 133 742 167 460 812 
+453 1 167 
+841 1 1 
+460 2 276 460 
+588 8 -1 576 1 514 133 742 167 460 
+78 9 -1 1 -2 514 980 133 742 167 460 
+335 8 -1 1 514 133 742 167 327 460 
+975 8 -1 1 514 963 133 742 167 460 
+721 1 133 
+978 2 -3 980 
+595 1 1 
+213 1 133 
+217 1 1 
+92 3 -2 -3 980 
+733 0 
+861 1 133 
+96 0 
+865 3 1 -2 980 
+483 8 -1 1 514 133 742 167 475 460 
+356 1 133 
+615 1 133 
+745 1 742 
+490 2 276 460 
+748 7 -1 1 514 133 742 167 460 
+243 1 133 
+373 1 167 
+246 7 -1 1 514 133 742 167 460 
+890 3 -2 980 133 
+127 7 -1 1 514 133 742 167 460 
+639 1 1 
+767 2 742 167 
+895 9 -1 1 -2 514 980 133 742 167 460 
+Constructors: 0
+
+Summary: 15
+963 522 -3 -1 541 1 980 475 812 -2 0 327 576 115 27 
+org/apache/xerces/impl/XMLScanner.normalizeWhitespace(Lorg/apache/xerces/xni/XMLString;)V
+PTG:
+Vars:
+4
+r3 1 -1 
+r0 1 -2 
+$r1 1 19 
+$r2 2 19 34 
+Fields: 1
+-2 ch 19
+Accesses: 5
+0 1 -2 
+33 1 -2 
+18 1 -2 
+4 1 -2 
+10 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 19 
+org/apache/xerces/impl/XMLScanner.getFeature(Ljava/lang/String;)Z
+PTG:
+Vars:
+5
+$r2 1 14 
+r4 1 -1 
+$r1 1 0 
+$r3 1 28 
+r0 1 -2 
+Fields: 0
+Accesses: 2
+23 1 -1 
+9 1 -1 
+Functions: 3
+0 2 0 -2 
+34 2 -2 28 
+14 2 -2 14 
+Constructors: 1
+34 28
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/XMLScanner.isValidNameStartHighSurrogate(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLScanner.scanPseudoAttribute(ZLorg/apache/xerces/xni/XMLString;)Ljava/lang/String;
+PTG:
+Vars:
+32
+$r22 1 62 
+r0 1 -1 
+$r29 1 1 
+$r31 1 1 
+$r24 2 54 59 
+$r33 1 1 
+$r34 2 347 342 
+$r8 1 1 
+$r19 1 154 
+$r11 1 154 
+$r12 1 154 
+$r20 1 116 
+$r16 1 266 
+$r30 1 154 
+r7 1 -3 
+$r25 1 1 
+$r18 1 1 
+$r5 1 1 
+$r4 1 12 
+$r13 1 154 
+_ret 1 7 
+$r6 1 1 
+$r26 1 1 
+$r14 1 154 
+$r27 2 113 108 
+$r32 2 258 253 
+$r9 1 350 
+r2 1 7 
+$r3 1 9 
+$r28 1 1 
+$r17 1 275 
+$r1 1 1 
+Fields: 3
+-1 fEntityScanner 1
+-1 fEntityManager 9
+-1 fStringBuffer2 154
+Accesses: 18
+0 1 -1 
+160 1 -1 
+290 1 -1 
+37 1 -1 
+229 1 -1 
+325 1 -1 
+134 1 -1 
+8 1 -1 
+72 1 -1 
+202 1 -1 
+206 1 -1 
+80 1 -1 
+309 1 -1 
+153 1 -1 
+282 1 -1 
+29 1 -1 
+126 1 -1 
+318 1 -1 
+Functions: 27
+1 1 1 
+130 1 1 
+322 2 -3 154 
+69 7 -1 1 54 9 154 59 62 
+326 1 1 
+135 2 1 -3 
+9 1 9 
+76 1 1 
+15 1 12 
+207 1 1 
+81 1 1 
+273 0 
+214 1 154 
+279 7 -1 1 258 9 154 266 253 
+26 4 -1 1 9 154 
+220 0 
+157 1 154 
+286 1 1 
+33 1 1 
+291 2 1 -3 
+165 2 -3 154 
+357 7 -1 1 342 9 154 347 350 
+38 1 1 
+233 4 -1 1 9 154 
+240 4 -1 1 9 154 
+314 2 -3 154 
+123 7 -1 1 113 116 9 154 108 
+Constructors: 0
+
+Summary: 8
+12 -3 -1 1 62 266 116 350 
+org/apache/xerces/impl/XMLScanner.isInvalidLiteral(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLScanner.<clinit>()V
+PTG:
+Vars:
+16
+$r2 1 8 
+$r7 1 26 
+$r11 1 42 
+$r10 1 40 
+$r1 1 2 
+$r3 1 10 
+$r12 1 48 
+$r5 1 18 
+$r4 1 16 
+$r15 1 58 
+$r8 1 32 
+$r13 1 50 
+$r14 1 56 
+$r6 1 24 
+$r0 1 0 
+$r9 1 34 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 0 
+16 1 16 
+32 1 32 
+48 1 48 
+8 1 8 
+24 1 24 
+40 1 40 
+56 1 56 
+Constructors: 0
+
+Summary: 0
+
+org/apache/xerces/impl/XMLScanner.reset()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/XMLScanner.normalizeWhitespace(Lorg/apache/xerces/xni/XMLString;I)V
+PTG:
+Vars:
+4
+$r1 1 22 
+$r2 2 22 38 
+r0 1 -2 
+r3 1 -1 
+Fields: 1
+-2 ch 22
+Accesses: 5
+0 1 -2 
+4 1 -2 
+21 1 -2 
+37 1 -2 
+10 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-1 -2 22 0 
+org/apache/xerces/impl/XMLScanner.isValidNameChar(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 

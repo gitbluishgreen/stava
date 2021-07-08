@@ -1,0 +1,950 @@
+29
+java/util/jar/JarVerifier.findMatchingSigners(Ljava/security/CodeSource;)[Ljava/security/CodeSigner;
+PTG:
+Vars:
+9
+r1 1 -1 
+r12 1 -2 
+$r9 1 14 
+r13 1 44 
+$r8 1 67 
+r0 1 -2 
+$r4 1 45 
+$r2 1 33 
+$r3 1 37 
+Fields: 2
+-1 csdomain 14
+44 ArrayObject 67
+Accesses: 2
+116 1 -1 
+13 1 -1 
+Functions: 10
+32 1 -2 
+80 2 -2 45 
+49 1 45 
+36 2 -1 14 
+68 2 67 45 
+103 0 
+24 0 
+12 2 -2 14 
+31 4 -1 33 37 14 
+95 1 45 
+Constructors: 1
+49 45
+
+Summary: 8
+-2 67 33 37 45 -1 44 0 
+java/util/jar/JarVerifier.getCerts(Ljava/util/jar/JarFile;Ljava/util/jar/JarEntry;)[Ljava/security/cert/Certificate;
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+_ret 1 6 
+r2 1 -3 
+$r3 1 3 
+$r4 1 6 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+3 1 3 
+Constructors: 0
+
+Summary: 5
+-2 -1 -3 0 1 
+java/util/jar/JarVerifier.beginEntry(Ljava/util/jar/JarEntry;Lsun/security/util/ManifestEntryVerifier;)V
+PTG:
+Vars:
+17
+$r11 1 14 
+r2 1 -1 
+$r12 1 11 
+r0 1 -2 
+r9 1 58 
+r3 1 -3 
+$r4 1 207 
+$r13 1 23 
+$r15 1 30 
+$r14 1 27 
+r17 3 43 181 196 
+$r6 1 218 
+$r16 1 33 
+$r1 1 5 
+$r5 1 211 
+$r7 1 222 
+$r8 1 52 
+Fields: 2
+-1 sigFileSigners 207
+-1 verifiedSigners 218
+Accesses: 6
+128 1 -1 
+217 1 -1 
+44 1 -1 
+125 1 -1 
+142 1 -1 
+206 1 -1 
+Functions: 29
+132 0 
+197 3 196 181 43 
+70 1 58 
+138 2 -2 -3 
+14 1 14 
+207 4 196 181 43 207 
+80 1 -2 
+18 1 14 
+150 3 -1 218 207 
+23 2 23 27 
+153 1 -2 
+26 1 -2 
+90 2 -2 -3 
+218 4 196 181 218 43 
+30 1 30 
+94 1 58 
+163 2 -2 -3 
+36 2 33 11 
+39 1 -2 
+167 3 196 181 43 
+231 5 -2 -3 196 181 43 
+104 1 58 
+238 2 -2 -3 
+176 3 196 181 43 
+51 4 196 52 181 43 
+115 1 58 
+182 3 196 181 43 
+60 1 58 
+191 3 196 181 43 
+Constructors: 1
+18 14
+
+Summary: 5
+-2 1 -1 -3 0 
+java/util/jar/JarVerifier.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/jar/JarVerifier.<init>([B)V
+PTG:
+Vars:
+13
+$r12 1 140 
+$r8 1 94 
+$r10 1 118 
+$r3 1 47 
+r6 1 -2 
+$r2 1 36 
+r0 1 -1 
+$r11 1 129 
+$r5 1 66 
+$r4 1 59 
+$r7 1 83 
+$r9 1 105 
+$r1 1 25 
+Fields: 0
+Accesses: 16
+32 1 -1 
+101 1 -1 
+6 1 -1 
+136 1 -1 
+74 1 -1 
+11 1 -1 
+43 1 -1 
+79 1 -1 
+16 1 -1 
+114 1 -1 
+147 1 -1 
+21 1 -1 
+54 1 -1 
+90 1 -1 
+125 1 -1 
+62 1 -1 
+Functions: 11
+144 1 140 
+1 1 -1 
+98 1 94 
+51 1 47 
+133 1 129 
+71 2 -1 66 
+87 1 83 
+40 1 36 
+122 1 118 
+29 1 25 
+111 1 105 
+Constructors: 11
+144 140
+1 -1
+98 94
+51 47
+133 129
+71 66
+87 83
+40 36
+122 118
+29 25
+111 105
+
+Summary: 2
+-1 0 
+java/util/jar/JarVerifier.entryNames(Ljava/util/jar/JarFile;[Ljava/security/CodeSource;)Ljava/util/Enumeration;
+PTG:
+Vars:
+12
+r3 1 16 
+r1 1 4 
+r10 1 50 
+$r4 1 21 
+_ret 1 114 
+$r9 1 46 
+r5 1 -3 
+$r12 2 102 109 
+r8 1 -2 
+$r7 1 114 
+r0 1 -1 
+$r2 1 6 
+Fields: 2
+-1 emptyEnumeration 109
+-3 ArrayObject 46
+Accesses: 1
+108 1 -1 
+Functions: 8
+0 2 -1 109 
+67 2 50 21 
+100 3 -1 -2 109 
+5 1 4 
+6 1 6 
+42 3 -1 109 46 
+27 1 21 
+125 6 -1 16 114 21 102 109 
+Constructors: 2
+27 21
+125 114
+
+Summary: 12
+-2 102 1 46 50 6 21 -1 16 4 -3 0 
+java/util/jar/JarVerifier.getJarCodeSigners()Ljava/util/List;
+PTG:
+Vars:
+9
+$r1 1 1 
+$r5 1 17 
+$r6 1 20 
+$r8 1 1 
+_ret 1 1 
+r0 1 -1 
+$r7 1 30 
+$r2 1 1 
+$r3 1 7 
+Fields: 1
+-1 jarCodeSigners 1
+Accesses: 4
+0 1 -1 
+51 1 -1 
+37 1 -1 
+40 1 -1 
+Functions: 6
+16 2 -1 1 
+17 1 17 
+34 1 30 
+25 2 20 7 
+11 1 7 
+45 2 1 7 
+Constructors: 2
+34 30
+11 7
+
+Summary: 4
+-1 20 17 7 
+java/util/jar/JarVerifier.setEagerValidation(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/jar/JarVerifier.mapSignersToCodeSource(Ljava/net/URL;[Ljava/security/CodeSigner;)Ljava/security/CodeSource;
+PTG:
+Vars:
+15
+$r6 1 81 
+$r8 1 97 
+r1 1 -1 
+$r2 1 2 
+$r4 1 21 
+r5 1 -3 
+$r3 1 17 
+$r10 1 34 
+r13 3 12 21 34 
+$r11 1 17 
+$r14 1 66 
+r15 2 81 66 
+r0 1 -2 
+_ret 2 81 66 
+$r7 1 86 
+Fields: 5
+-1 csdomain 86
+-1 urlToCodeSourceMap 17
+-1 lastURL 2
+-1 signerToCodeSource 97
+-1 lastURLMap 12
+Accesses: 8
+16 1 -1 
+96 1 -1 
+1 1 -1 
+85 1 -1 
+8 1 -1 
+56 1 -1 
+42 1 -1 
+61 1 -1 
+Functions: 6
+48 3 17 -2 34 
+64 4 34 -3 21 12 
+17 2 17 -2 
+38 1 34 
+103 3 97 81 -3 
+91 4 81 -2 -3 86 
+Constructors: 2
+38 34
+91 81
+
+Summary: 4
+1 -1 -3 0 
+java/util/jar/JarVerifier.nothingToVerify()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/jar/JarVerifier.processEntry(Lsun/security/util/ManifestEntryVerifier;)V
+PTG:
+Vars:
+77
+$r36 1 17 
+$r3 1 73 
+r80 1 329 
+$r14 1 377 
+$r59 1 432 
+$r18 1 357 
+r75 1 114 
+$r23 1 243 
+$r61 1 448 
+$r53 1 479 
+r72 1 11 
+$r17 1 342 
+$r9 1 305 
+r30 1 148 
+$r47 1 518 
+$r57 1 426 
+$r44 1 505 
+$r40 1 17 
+$r6 1 218 
+$r20 1 243 
+$r56 1 -1 
+$r1 1 58 
+$r64 1 391 
+$r70 1 -1 
+$r5 1 79 
+$r69 1 416 
+$r60 1 444 
+$r37 1 30 
+$r12 1 308 
+$r33 1 191 
+$r8 1 291 
+$r15 1 325 
+$r31 1 167 
+$r22 1 258 
+$r24 1 225 
+$r48 1 521 
+$r45 1 502 
+$r35 1 64 
+$r63 1 -1 
+$r67 1 409 
+$r39 1 33 
+$r42 1 -1 
+$r4 1 76 
+$r16 1 329 
+$r28 1 128 
+$r52 1 467 
+$r41 1 44 
+$r54 1 483 
+$r13 1 381 
+$r19 1 348 
+$r62 1 451 
+r2 1 -2 
+$r25 1 108 
+$r26 1 117 
+$r21 1 236 
+$r65 1 400 
+r76 1 134 
+$r49 1 -1 
+$r50 1 461 
+$r51 1 470 
+$r46 1 514 
+r74 1 106 
+$r38 1 26 
+$r66 1 397 
+$r29 1 148 
+$r68 1 413 
+$r32 1 195 
+$r43 1 496 
+r73 1 85 
+$r10 1 218 
+$r55 1 486 
+$r7 1 236 
+$r34 1 173 
+$r11 1 236 
+r77 1 216 
+r0 1 -1 
+$r58 1 435 
+Fields: 16
+-1 manifestDigests 195
+-1 manifestDigests 381
+-1 sigFileSigners 30
+-1 sigFileSigners 191
+-1 sigFileSigners 377
+-1 manDig 236
+-1 signerCache 218
+-1 baos 305
+-1 baos 108
+-1 sigFileData 117
+-1 sigFileData 325
+-1 pendingBlocks 357
+-1 pendingBlocks 128
+-1 verifiedSigners 26
+-1 manifestRawBytes 243
+11 signers 17
+Accesses: 28
+0 1 -1 
+194 1 -1 
+324 1 -1 
+262 1 -1 
+269 1 -1 
+16 1 11 
+274 1 -1 
+25 1 -1 
+217 1 -1 
+29 1 -1 
+36 1 11 
+356 1 -1 
+295 1 -1 
+40 1 11 
+232 1 -1 
+107 1 -1 
+235 1 -1 
+299 1 -1 
+47 1 11 
+304 1 -1 
+242 1 -1 
+116 1 -1 
+55 1 -1 
+376 1 -1 
+250 1 -1 
+380 1 -1 
+190 1 -1 
+127 1 -1 
+Functions: 51
+128 1 128 
+384 3 291 377 381 
+514 2 -1 514 
+518 1 518 
+7 1 -2 
+136 1 134 
+266 2 258 243 
+524 2 502 521 
+400 1 400 
+146 1 134 
+404 1 400 
+24 3 -2 26 30 
+409 2 -1 409 
+413 1 413 
+158 2 148 106 
+419 2 416 397 
+41 1 17 
+305 1 305 
+178 1 173 
+435 1 435 
+311 5 291 308 85 218 236 
+439 1 435 
+185 2 114 148 
+316 1 291 
+444 2 -1 444 
+448 1 448 
+69 1 64 
+325 2 325 216 
+198 3 195 148 191 
+454 2 432 451 
+72 1 -2 
+73 1 73 
+76 2 76 79 
+205 1 85 
+207 1 85 
+86 1 85 
+470 1 470 
+474 1 470 
+95 1 85 
+479 2 -1 479 
+97 1 85 
+353 1 348 
+483 1 483 
+229 1 225 
+489 2 467 486 
+362 2 291 357 
+108 1 108 
+371 2 291 329 
+505 1 505 
+123 3 114 117 106 
+509 1 505 
+Constructors: 7
+404 400
+229 225
+311 291
+439 435
+266 258
+474 470
+509 505
+
+Summary: 4
+291 -2 -1 0 
+java/util/jar/JarVerifier.getCodeSource(Ljava/net/URL;Ljava/lang/String;)Ljava/security/CodeSource;
+PTG:
+Vars:
+8
+$r3 1 5 
+$r1 1 1 
+r5 1 -2 
+r2 1 -3 
+r4 1 5 
+_ret 1 17 
+$r6 1 17 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+1 2 1 -3 
+14 3 -1 -2 5 
+Constructors: 0
+
+Summary: 6
+-2 -1 -3 5 1 1 
+java/util/jar/JarVerifier.mapSignersToCertArray([Ljava/security/CodeSigner;)[Ljava/security/cert/Certificate;
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+23 0 
+8 0 
+24 0 
+40 0 
+41 0 
+30 0 
+Constructors: 0
+
+Summary: 6
+27 23 -2 45 4 0 
+java/util/jar/JarVerifier.getCodeSigners(Ljava/util/jar/JarFile;Ljava/util/jar/JarEntry;)[Ljava/security/CodeSigner;
+PTG:
+Vars:
+11
+r8 1 28 
+r0 1 -3 
+$r3 1 13 
+$r7 1 -1 
+$r10 1 76 
+_ret 1 76 
+r6 1 33 
+r2 1 -1 
+r5 1 -2 
+r1 1 4 
+$r4 1 17 
+Fields: 1
+-1 sigFileSigners 13
+Accesses: 2
+5 1 -1 
+12 1 -1 
+Functions: 6
+0 1 -3 
+48 2 33 28 
+66 1 28 
+23 2 -2 -3 
+74 3 -1 4 13 
+13 2 4 13 
+Constructors: 0
+
+Summary: 5
+1 -1 33 -3 0 
+java/util/jar/JarVerifier.update(I[BIILsun/security/util/ManifestEntryVerifier;)V
+PTG:
+Vars:
+4
+$r3 1 13 
+r2 1 -3 
+r1 1 -6 
+r0 1 -1 
+Fields: 1
+-1 baos 13
+Accesses: 2
+5 1 -1 
+12 1 -1 
+Functions: 3
+19 2 -3 13 
+39 3 -1 -6 13 
+30 2 -3 -6 
+Constructors: 0
+
+Summary: 5
+-1 -6 4 -3 1 
+java/util/jar/JarVerifier.entries2(Ljava/util/jar/JarFile;Ljava/util/Enumeration;)Ljava/util/Enumeration;
+PTG:
+Vars:
+7
+$r0 1 0 
+r7 1 -2 
+_ret 1 21 
+$r3 1 10 
+$r6 1 21 
+r2 1 -1 
+r4 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 4
+4 1 0 
+9 1 -1 
+13 2 0 10 
+30 5 -1 0 -2 -3 21 
+Constructors: 2
+4 0
+30 21
+
+Summary: 7
+10 0 -2 -1 -3 0 1 
+java/util/jar/JarVerifier.getManifestDigests()Ljava/util/List;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 4 
+$r2 1 4 
+$r1 1 1 
+Fields: 1
+-1 manifestDigests 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/jar/JarVerifier.getCodeSigners(Ljava/lang/String;)[Ljava/security/CodeSigner;
+PTG:
+Vars:
+6
+$r3 1 5 
+r0 1 -1 
+$r4 1 5 
+_ret 1 5 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 verifiedSigners 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/jar/JarVerifier.getCodeSource(Ljava/net/URL;Ljava/util/jar/JarFile;Ljava/util/jar/JarEntry;)Ljava/security/CodeSource;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r4 1 5 
+r3 1 -4 
+$r5 1 8 
+_ret 1 8 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 5 
+2 3 -1 -3 -4 
+Constructors: 0
+
+Summary: 8
+-2 -1 2 -3 -4 5 1 0 
+java/util/jar/JarVerifier.signerMap()Ljava/util/Map;
+PTG:
+Vars:
+11
+$r4 1 13 
+$r3 1 8 
+_ret 1 1 
+$r7 1 1 
+r0 1 -1 
+$r5 1 20 
+$r6 1 13 
+$r2 1 1 
+$r1 1 1 
+$r9 1 1 
+$r8 1 20 
+Fields: 3
+-1 sigFileSigners 20
+-1 signerMap 1
+-1 verifiedSigners 13
+Accesses: 9
+0 1 -1 
+33 1 -1 
+50 1 -1 
+19 1 -1 
+37 1 -1 
+59 1 -1 
+12 1 -1 
+30 1 -1 
+46 1 -1 
+Functions: 5
+20 1 20 
+54 2 1 20 
+41 2 1 13 
+27 1 8 
+13 1 13 
+Constructors: 1
+27 8
+
+Summary: 1
+-1 
+java/util/jar/JarVerifier.isSigningRelated(Ljava/lang/String;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/jar/JarVerifier.getCerts(Ljava/lang/String;)[Ljava/security/cert/Certificate;
+PTG:
+Vars:
+5
+$r2 1 2 
+$r3 1 5 
+_ret 1 5 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+2 1 2 
+Constructors: 0
+
+Summary: 3
+-2 -1 2 
+java/util/jar/JarVerifier.unsignedEntryNames(Ljava/util/jar/JarFile;)Ljava/util/Enumeration;
+PTG:
+Vars:
+6
+r0 1 -1 
+_ret 1 10 
+r3 1 9 
+r1 1 4 
+$r4 1 10 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+17 4 -1 4 9 10 
+5 1 -2 
+Constructors: 1
+17 10
+
+Summary: 5
+-2 -1 4 9 0 
+java/util/jar/JarVerifier.mapSignersToCodeSources(Ljava/net/URL;Ljava/util/List;Z)[Ljava/security/CodeSource;
+PTG:
+Vars:
+12
+r6 1 -1 
+$r9 1 30 
+$r10 1 30 
+$r11 1 38 
+r2 1 -3 
+$r0 1 0 
+_ret 1 83 
+r7 1 -2 
+$r3 1 80 
+$r5 1 83 
+$r8 1 62 
+$r4 1 83 
+Fields: 0
+Accesses: 0
+Functions: 9
+65 2 0 62 
+4 1 0 
+71 2 0 80 
+25 3 -1 -2 30 
+41 2 0 38 
+73 1 0 
+27 1 -3 
+59 2 -1 -2 
+14 1 -3 
+Constructors: 1
+4 0
+
+Summary: 10
+80 30 0 -2 -1 62 -3 38 1 0 
+java/util/jar/JarVerifier.getUnsignedCS(Ljava/net/URL;)Ljava/security/CodeSource;
+PTG:
+Vars:
+4
+$r2 0 
+r1 1 -2 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 2 0 -2 
+Constructors: 1
+10 0
+
+Summary: 2
+-2 0 
+java/util/jar/JarVerifier.doneWithMeta()V
+PTG:
+Vars:
+7
+r5 1 67 
+$r1 1 7 
+r0 1 -1 
+$r4 1 67 
+$r6 1 75 
+$r2 1 7 
+$r3 1 7 
+Fields: 2
+-1 sigFileSigners 7
+-1 verifiedSigners 75
+Accesses: 11
+49 1 -1 
+2 1 -1 
+36 1 -1 
+21 1 -1 
+6 1 -1 
+41 1 -1 
+26 1 -1 
+74 1 -1 
+61 1 -1 
+46 1 -1 
+31 1 -1 
+Functions: 4
+81 2 67 75 
+50 1 7 
+7 1 7 
+62 1 7 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/jar/JarVerifier.update(ILsun/security/util/ManifestEntryVerifier;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 13 
+r1 1 -3 
+Fields: 1
+-1 baos 13
+Accesses: 2
+5 1 -1 
+12 1 -1 
+Functions: 3
+17 1 13 
+34 3 -1 -3 13 
+26 1 -3 
+Constructors: 0
+
+Summary: 3
+-1 -3 1 
+java/util/jar/JarVerifier.isTrustedManifestEntry(Ljava/lang/String;)Z
+PTG:
+Vars:
+10
+r4 1 -2 
+r9 2 24 40 
+$r1 1 1 
+$r2 1 6 
+$r7 1 1 
+r0 1 -1 
+$r5 1 20 
+$r8 1 40 
+r3 1 6 
+$r6 1 24 
+Fields: 2
+-1 sigFileSigners 20
+-1 verifiedSigners 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+35 1 -1 
+Functions: 3
+1 1 1 
+20 2 -2 20 
+36 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/jar/JarVerifier.getCodeSources(Ljava/util/jar/JarFile;Ljava/net/URL;)[Ljava/security/CodeSource;
+PTG:
+Vars:
+7
+$r2 1 2 
+r0 1 -1 
+_ret 1 18 
+r3 1 -3 
+$r4 1 14 
+r1 1 -2 
+$r5 1 18 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -1 -2 
+2 1 2 
+11 3 -1 -3 14 
+13 1 -1 
+Constructors: 0
+
+Summary: 7
+14 -2 -1 2 -3 1 0 

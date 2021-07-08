@@ -1,0 +1,538 @@
+22
+org/osgi/util/tracker/ServiceTracker.getServiceReference()Lorg/osgi/framework/ServiceReference;
+PTG:
+Vars:
+12
+$r4 1 63 
+$r7 1 173 
+r5 1 72 
+$r10 1 218 
+r0 1 -1 
+r2 1 15 
+$r8 1 176 
+r1 1 4 
+$r6 1 72 
+r3 1 42 
+$r9 1 176 
+_ret 1 218 
+Fields: 4
+15 ArrayObject 63
+15 ArrayObject 218
+15 ArrayObject 173
+-1 cachedReference 4
+Accesses: 2
+0 1 -1 
+220 1 -1 
+Functions: 5
+84 1 72 
+181 1 176 
+11 2 -1 4 
+173 1 173 
+63 1 63 
+Constructors: 0
+
+Summary: 2
+42 -1 
+org/osgi/util/tracker/ServiceTracker.getServices()[Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r8 1 -1 
+r0 1 -1 
+$r6 1 62 
+r1 1 4 
+r4 1 19 
+r5 1 43 
+$r7 1 63 
+Fields: 1
+19 ArrayObject 62
+Accesses: 0
+Functions: 3
+0 1 -1 
+58 2 -1 62 
+15 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/osgi/util/tracker/ServiceTracker.addingService(Lorg/osgi/framework/ServiceReference;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 -2 
+$r3 1 5 
+$r2 1 1 
+_ret 1 5 
+Fields: 1
+-1 context 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/osgi/util/tracker/ServiceTracker.open()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/osgi/util/tracker/ServiceTracker.<init>(Lorg/osgi/framework/BundleContext;Lorg/osgi/framework/ServiceReference;Lorg/osgi/util/tracker/ServiceTrackerCustomizer;)V
+PTG:
+Vars:
+13
+$r10 1 70 
+$r5 1 45 
+r0 1 -1 
+r2 1 -3 
+$r4 1 33 
+$r8 1 58 
+$r9 1 61 
+$r11 1 73 
+$r6 1 50 
+r3 1 -4 
+$r22 2 -4 -1 
+r1 1 -2 
+$r7 1 53 
+Fields: 1
+-1 listenerFilter 70
+Accesses: 7
+16 1 -1 
+64 1 -1 
+69 1 -1 
+6 1 -1 
+11 1 -1 
+29 1 -1 
+78 1 -1 
+Functions: 14
+96 0 
+1 2 -1 70 
+33 2 33 50 
+99 0 
+68 2 -2 70 
+39 1 33 
+104 0 
+42 1 -3 
+45 1 45 
+110 0 
+53 1 53 
+119 0 
+58 1 58 
+90 0 
+Constructors: 2
+1 -1
+39 33
+
+Summary: 7
+53 107 101 50 104 45 58 
+org/osgi/util/tracker/ServiceTracker.size()I
+PTG:
+Vars:
+3
+$r4 1 -1 
+r0 1 -1 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+15 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/osgi/util/tracker/ServiceTracker.getServiceReferences()[Lorg/osgi/framework/ServiceReference;
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 4 
+$r6 1 33 
+$r7 1 -1 
+$r4 1 30 
+$r5 1 33 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+28 2 4 30 
+15 1 4 
+Constructors: 0
+
+Summary: 2
+30 -1 
+org/osgi/util/tracker/ServiceTracker.open(Z)V
+PTG:
+Vars:
+20
+$r18 1 64 
+r5 2 29 18 
+$r3 1 5 
+$r31 1 18 
+r4 2 29 18 
+$r8 1 44 
+$r10 1 86 
+$r17 1 86 
+$r16 1 105 
+$r14 1 86 
+$r32 1 29 
+$r15 1 96 
+$r11 1 49 
+$r29 2 49 141 
+$r27 2 29 18 
+r0 1 -1 
+$r7 1 49 
+$r12 1 138 
+$r9 1 64 
+r28 3 105 80 149 
+Fields: 6
+-1 listenerFilter 49
+-1 context 44
+-1 tracked 5
+-1 filter 138
+-1 trackClass 64
+-1 trackReference 86
+Accesses: 12
+48 1 -1 
+130 1 -1 
+4 1 -1 
+85 1 -1 
+72 1 -1 
+137 1 -1 
+43 1 -1 
+123 1 -1 
+92 1 -1 
+204 1 -1 
+110 1 -1 
+63 1 -1 
+Functions: 14
+34 8 -1 64 49 5 86 138 44 29 
+70 7 -1 64 49 5 86 138 44 
+166 0 
+138 1 138 
+172 0 
+175 0 
+52 4 49 18 44 29 
+180 0 
+23 8 -1 64 49 18 5 86 138 44 
+120 8 -1 64 49 5 86 138 44 141 
+216 2 18 29 
+154 5 80 18 149 105 29 
+188 0 
+93 1 86 
+Constructors: 2
+34 29
+23 18
+
+Summary: 2
+105 96 
+org/osgi/util/tracker/ServiceTracker.getService()Ljava/lang/Object;
+PTG:
+Vars:
+5
+r1 1 4 
+r2 1 15 
+r0 1 -1 
+$r3 1 25 
+_ret 1 25 
+Fields: 1
+-1 cachedService 4
+Accesses: 2
+0 1 -1 
+29 1 -1 
+Functions: 2
+23 3 -1 4 15 
+11 2 -1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/osgi/util/tracker/ServiceTracker.getService(Lorg/osgi/framework/ServiceReference;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+r1 1 4 
+r0 1 -1 
+r4 1 -2 
+$r5 1 17 
+$r6 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+15 2 -2 4 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/osgi/util/tracker/ServiceTracker.<init>(Lorg/osgi/framework/BundleContext;Lorg/osgi/framework/Filter;Lorg/osgi/util/tracker/ServiceTrackerCustomizer;)V
+PTG:
+Vars:
+10
+$r12 2 -4 -1 
+r6 1 -3 
+$r5 1 38 
+$r11 1 61 
+r7 1 -4 
+r1 1 -2 
+r4 1 28 
+r0 1 -1 
+$r3 1 28 
+$r2 1 19 
+Fields: 0
+Accesses: 6
+16 1 -1 
+6 1 -1 
+70 1 -1 
+88 1 -1 
+11 1 -1 
+75 1 -1 
+Functions: 6
+1 1 -1 
+19 1 19 
+36 2 38 28 
+103 0 
+25 3 -1 -2 19 
+60 1 -3 
+Constructors: 2
+1 -1
+25 19
+
+Summary: 3
+1 2 0 
+org/osgi/util/tracker/ServiceTracker.getTrackingCount()I
+PTG:
+Vars:
+3
+$r4 1 -1 
+r1 1 4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+15 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/osgi/util/tracker/ServiceTracker.remove(Lorg/osgi/framework/ServiceReference;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 4 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+13 2 -2 4 
+Constructors: 0
+
+Summary: 3
+-2 4 -1 
+org/osgi/util/tracker/ServiceTracker.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 1 0 
+Constructors: 1
+7 0
+
+Summary: 0
+
+org/osgi/util/tracker/ServiceTracker.getInitialReferences(ZLjava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/ServiceReference;
+PTG:
+Vars:
+6
+$r3 1 17 
+r2 1 -4 
+r0 1 -1 
+r1 1 -3 
+$r4 1 22 
+_ret 1 22 
+Fields: 1
+-1 context 17
+Accesses: 2
+16 1 -1 
+4 1 -1 
+Functions: 2
+17 3 17 -3 -4 
+5 2 -3 -4 
+Constructors: 0
+
+Summary: 4
+2 -4 -1 -3 
+org/osgi/util/tracker/ServiceTracker.modifiedService(Lorg/osgi/framework/ServiceReference;Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/osgi/util/tracker/ServiceTracker.<init>(Lorg/osgi/framework/BundleContext;Ljava/lang/String;Lorg/osgi/util/tracker/ServiceTrackerCustomizer;)V
+PTG:
+Vars:
+12
+$r7 1 51 
+$r8 1 54 
+$r10 1 66 
+r1 1 -2 
+r0 1 -1 
+r3 1 -4 
+$r9 1 63 
+r2 1 -3 
+$r4 1 33 
+$r6 1 46 
+$r5 1 43 
+$r21 2 -4 -1 
+Fields: 1
+-1 listenerFilter 63
+Accesses: 7
+16 1 -1 
+6 1 -1 
+71 1 -1 
+57 1 -1 
+11 1 -1 
+29 1 -1 
+62 1 -1 
+Functions: 13
+1 2 -1 63 
+33 2 33 43 
+97 0 
+39 1 33 
+103 0 
+42 1 -3 
+46 1 46 
+112 0 
+51 1 51 
+83 0 
+89 0 
+92 0 
+61 2 -2 63 
+Constructors: 2
+1 -1
+39 33
+
+Summary: 3
+2 1 0 
+org/osgi/util/tracker/ServiceTracker.close()V
+PTG:
+Vars:
+6
+r2 1 8 
+$r4 1 31 
+$r6 1 84 
+r0 1 -1 
+r3 1 24 
+$r9 1 -1 
+Fields: 3
+24 ArrayObject 84
+-1 context 31
+-1 tracked 8
+Accesses: 3
+4 1 -1 
+27 1 -1 
+30 1 -1 
+Functions: 6
+17 1 8 
+35 2 8 31 
+20 3 -1 8 31 
+53 3 -1 8 31 
+86 2 84 8 
+61 1 8 
+Constructors: 0
+
+Summary: 0
+
+org/osgi/util/tracker/ServiceTracker.modified()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/osgi/util/tracker/ServiceTracker.waitForService(J)Ljava/lang/Object;
+PTG:
+Vars:
+4
+r1 1 28 
+r0 1 -1 
+r6 2 20 71 
+_ret 2 20 71 
+Fields: 0
+Accesses: 0
+Functions: 6
+16 1 -1 
+67 1 -1 
+54 1 28 
+24 1 -1 
+43 1 28 
+12 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/osgi/util/tracker/ServiceTracker.tracked()Lorg/osgi/util/tracker/ServiceTracker$Tracked;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 tracked 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/osgi/util/tracker/ServiceTracker.removedService(Lorg/osgi/framework/ServiceReference;Ljava/lang/Object;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+r3 1 -3 
+$r2 1 1 
+Fields: 1
+-1 context 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 

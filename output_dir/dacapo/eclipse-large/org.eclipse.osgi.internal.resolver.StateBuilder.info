@@ -1,0 +1,1336 @@
+27
+org/eclipse/osgi/internal/resolver/StateBuilder.getPlatformProperty(Lorg/eclipse/osgi/internal/resolver/StateImpl;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+7
+$r5 1 9 
+$r3 1 28 
+$r4 1 30 
+$r6 1 30 
+r2 1 -3 
+_ret 1 30 
+r0 1 -2 
+Fields: 1
+9 ArrayObject 28
+Accesses: 0
+Functions: 2
+8 1 -2 
+28 2 -3 28 
+Constructors: 0
+
+Summary: 5
+-3 -2 9 0 28 
+org/eclipse/osgi/internal/resolver/StateBuilder.createVersionRanges([Ljava/lang/String;)[Lorg/eclipse/osgi/service/resolver/VersionRange;
+PTG:
+Vars:
+5
+$r3 1 25 
+r1 1 8 
+$r2 1 19 
+_ret 1 8 
+r0 1 -2 
+Fields: 1
+-2 ArrayObject 25
+Accesses: 0
+Functions: 1
+26 2 19 25 
+Constructors: 1
+26 19
+
+Summary: 2
+-2 0 
+org/eclipse/osgi/internal/resolver/StateBuilder.addExportPackages(Lorg/eclipse/osgi/util/ManifestElement;Ljava/util/ArrayList;IZ)V
+PTG:
+Vars:
+21
+r1 1 4 
+$r19 1 190 
+$r13 1 152 
+$r22 1 203 
+$r16 1 171 
+$r25 1 16 
+$r24 1 83 
+$r18 1 187 
+$r4 1 49 
+r23 1 -3 
+$r8 1 117 
+$r2 1 34 
+$r21 1 200 
+$r5 1 98 
+$r15 1 168 
+r0 1 -2 
+$r26 1 22 
+$r12 1 149 
+$r10 1 133 
+r27 2 59 72 
+$r6 1 101 
+Fields: 1
+4 ArrayObject 49
+Accesses: 0
+Functions: 28
+0 1 -2 
+129 1 -2 
+193 2 34 190 
+66 1 -2 
+136 2 34 133 
+200 2 -2 200 
+206 2 34 203 
+16 2 16 22 
+81 2 72 59 
+145 1 -2 
+18 1 -2 
+212 2 -3 34 
+149 1 149 
+86 2 34 83 
+155 2 34 152 
+94 1 -2 
+98 1 98 
+164 1 -2 
+38 1 34 
+104 2 34 101 
+168 1 168 
+174 2 34 171 
+113 1 -2 
+50 2 49 34 
+53 1 -2 
+183 1 -2 
+120 2 34 117 
+187 1 187 
+Constructors: 1
+38 34
+
+Summary: 20
+-3 59 72 -2 101 171 4 98 117 203 133 187 1 149 22 152 190 34 83 168 
+org/eclipse/osgi/internal/resolver/StateBuilder.createImportPackages([Lorg/eclipse/osgi/service/resolver/ExportPackageDescription;Ljava/util/ArrayList;[Lorg/eclipse/osgi/util/ManifestElement;[Lorg/eclipse/osgi/util/ManifestElement;I)[Lorg/eclipse/osgi/service/resolver/ImportPackageSpecification;
+PTG:
+Vars:
+22
+$r6 1 211 
+r10 1 -3 
+$r17 1 99 
+$r5 1 240 
+$r9 1 24 
+r2 1 -5 
+$r16 1 86 
+r8 1 -2 
+r1 1 -4 
+$r13 1 71 
+$r11 1 56 
+$r18 1 100 
+$r12 1 57 
+$r20 1 108 
+$r4 1 240 
+$r3 1 237 
+$r7 1 179 
+r21 2 24 147 
+$r0 1 147 
+_ret 1 240 
+$r15 1 85 
+$r19 1 105 
+Fields: 5
+-2 ArrayObject 85
+-2 ArrayObject 99
+-2 ArrayObject 56
+-5 ArrayObject 179
+-4 ArrayObject 211
+Accesses: 0
+Functions: 17
+161 1 147 
+130 2 71 24 
+99 1 99 
+100 1 100 
+230 3 147 24 237 
+232 2 147 24 
+41 1 24 
+105 1 105 
+75 1 71 
+111 2 71 108 
+52 2 -3 57 
+85 1 85 
+56 1 56 
+185 3 179 147 24 
+217 3 211 147 24 
+122 1 71 
+91 2 86 71 
+Constructors: 3
+161 147
+41 24
+75 71
+
+Summary: 17
+-3 -2 108 0 24 86 100 -4 57 1 3 237 71 2 -5 105 147 
+org/eclipse/osgi/internal/resolver/StateBuilder.createBundleDescription(Lorg/eclipse/osgi/internal/resolver/StateImpl;Ljava/util/Dictionary;Ljava/lang/String;)Lorg/eclipse/osgi/service/resolver/BundleDescription;
+PTG:
+Vars:
+63
+r21 1 399 
+$r11 1 311 
+$r25 1 451 
+$r18 1 374 
+r74 1 383 
+r4 1 11 
+r2 1 -3 
+r22 1 -2 
+$r46 1 594 
+$r12 1 324 
+$r6 1 24 
+$r23 1 419 
+$r20 1 390 
+$r34 1 513 
+$r33 1 502 
+$r68 1 212 
+r67 1 149 
+$r56 1 -1 
+$r32 1 491 
+$r30 1 478 
+$r19 1 390 
+$r35 1 513 
+$r37 1 527 
+$r40 1 550 
+$r47 1 361 
+$r10 1 311 
+_ret 1 0 
+r31 1 487 
+r39 1 545 
+$r7 1 62 
+r36 1 522 
+$r14 1 330 
+$r55 1 120 
+$r17 1 374 
+$r0 1 0 
+r65 1 82 
+$r15 1 341 
+r69 1 212 
+r38 1 537 
+$r50 1 94 
+$r70 2 228 234 
+r66 2 110 126 
+$r52 1 104 
+$r13 1 324 
+$r26 1 462 
+$r54 1 143 
+r73 1 350 
+$r5 1 19 
+$r51 1 95 
+$r53 1 130 
+r45 1 589 
+r8 1 62 
+r28 1 471 
+$r42 1 567 
+$r44 1 580 
+$r16 1 341 
+r9 1 -4 
+$r3 1 11 
+$r43 1 580 
+$r27 1 462 
+r41 1 562 
+$r48 1 363 
+$r29 1 478 
+Fields: 5
+350 ArrayObject 361
+82 ArrayObject 104
+82 ArrayObject 143
+82 ArrayObject 120
+82 ArrayObject 94
+Accesses: 0
+Functions: 72
+256 1 212 
+130 3 130 110 126 
+387 1 -3 
+4 1 0 
+516 1 513 
+8 1 -3 
+137 1 0 
+393 1 390 
+267 0 
+525 1 522 
+143 1 143 
+271 0 
+530 2 0 527 
+19 2 19 24 
+276 0 
+21 1 -3 
+405 1 -2 
+533 1 -2 
+281 0 
+156 1 149 
+284 1 -1 
+540 2 -3 537 
+289 0 
+548 1 545 
+40 1 11 
+553 2 0 550 
+170 1 0 
+298 1 -1 
+557 2 -3 537 
+304 2 0 -4 
+178 1 0 
+435 1 419 
+308 1 -3 
+565 1 562 
+56 1 -3 
+184 1 149 
+570 2 0 567 
+59 1 -3 
+317 2 0 311 
+576 1 -3 
+321 1 -3 
+449 3 419 383 399 
+198 1 0 
+454 2 0 451 
+327 1 324 
+583 1 580 
+459 1 -3 
+77 1 62 
+333 2 0 330 
+206 1 0 
+592 1 589 
+209 1 -3 
+465 1 462 
+338 1 -3 
+597 2 0 594 
+344 1 341 
+475 1 -3 
+94 1 94 
+481 1 478 
+98 2 0 95 
+226 1 212 
+104 1 104 
+362 2 -2 361 
+490 1 0 
+237 3 0 228 234 
+366 2 0 363 
+371 1 -3 
+500 4 419 471 487 491 
+120 1 120 
+377 1 374 
+505 2 0 502 
+510 1 -3 
+Constructors: 2
+435 419
+4 0
+
+Summary: 55
+330 361 341 350 527 487 537 550 143 363 228 82 120 545 -4 478 149 589 594 110 2 311 522 383 -3 502 491 324 95 471 1 292 126 399 273 94 -2 62 390 286 419 567 462 104 212 0 11 24 261 451 289 513 580 374 562 
+org/eclipse/osgi/internal/resolver/StateBuilder.createGenericCapabilities([Lorg/eclipse/osgi/util/ManifestElement;)[Lorg/eclipse/osgi/service/resolver/GenericDescription;
+PTG:
+Vars:
+28
+$r7 1 46 
+r10 1 110 
+$r27 1 84 
+$r20 1 230 
+$r1 1 6 
+$r15 1 182 
+r13 1 142 
+r0 1 -2 
+$r5 1 34 
+$r29 1 290 
+$r24 1 64 
+$r31 1 157 
+$r22 1 157 
+$r8 1 98 
+$r11 1 131 
+$r23 1 121 
+$r3 1 23 
+$r17 1 198 
+$r28 1 287 
+r18 1 208 
+r19 1 220 
+$r26 1 79 
+$r25 1 68 
+r4 1 27 
+_ret 1 290 
+$r9 1 104 
+$r12 1 129 
+$r30 1 290 
+Fields: 8
+-2 ArrayObject 23
+-2 ArrayObject 104
+-2 ArrayObject 129
+131 ArrayObject 138
+27 ArrayObject 46
+27 ArrayObject 64
+27 ArrayObject 79
+27 ArrayObject 98
+Accesses: 0
+Functions: 26
+64 1 64 
+131 3 129 131 138 
+259 2 34 6 
+196 1 142 
+198 1 198 
+71 2 34 68 
+12 1 6 
+79 1 79 
+213 1 208 
+23 1 23 
+87 2 34 84 
+153 1 142 
+282 2 6 287 
+283 1 6 
+226 2 220 142 
+99 2 34 98 
+38 1 34 
+104 1 104 
+235 3 182 230 220 
+46 1 46 
+239 1 208 
+179 2 34 157 
+119 1 110 
+186 1 182 
+124 2 34 121 
+253 2 34 182 
+Constructors: 3
+38 34
+186 182
+12 6
+
+Summary: 17
+220 84 182 68 157 121 34 27 287 -2 0 138 198 110 230 6 131 
+org/eclipse/osgi/internal/resolver/StateBuilder.getVersionRange(Ljava/lang/String;)Lorg/eclipse/osgi/service/resolver/VersionRange;
+PTG:
+Vars:
+3
+$r1 1 6 
+r0 1 -2 
+_ret 1 6 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -2 6 
+Constructors: 1
+11 6
+
+Summary: 2
+-2 0 
+org/eclipse/osgi/internal/resolver/StateBuilder.getResolution(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r2 2 3 15 
+$r1 1 4 
+_ret 2 3 15 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -2 4 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/osgi/internal/resolver/StateBuilder.createRequiredBundles([Lorg/eclipse/osgi/util/ManifestElement;)[Lorg/eclipse/osgi/service/resolver/BundleSpecification;
+PTG:
+Vars:
+5
+$r2 1 21 
+r1 1 8 
+r0 1 -2 
+$r3 1 22 
+_ret 1 8 
+Fields: 1
+-2 ArrayObject 21
+Accesses: 0
+Functions: 1
+21 1 21 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/osgi/internal/resolver/StateBuilder.checkImportExportSyntax(Ljava/lang/String;[Lorg/eclipse/osgi/util/ManifestElement;ZZZ)V
+PTG:
+Vars:
+16
+$r37 1 366 
+$r33 1 228 
+$r20 1 55 
+r66 1 234 
+r7 1 -2 
+$r60 1 244 
+r67 1 250 
+$r6 1 132 
+$r5 1 207 
+$r1 1 9 
+$r3 1 29 
+r0 1 -3 
+r4 1 33 
+$r35 1 296 
+$r34 1 293 
+$r36 1 363 
+Fields: 8
+-3 ArrayObject 244
+-3 ArrayObject 293
+-3 ArrayObject 363
+-3 ArrayObject 228
+-3 ArrayObject 29
+33 ArrayObject 132
+33 ArrayObject 55
+33 ArrayObject 207
+Accesses: 0
+Functions: 48
+257 2 250 234 
+322 0 
+132 1 132 
+197 0 
+326 0 
+71 0 
+72 1 -2 
+392 0 
+331 0 
+396 0 
+15 1 9 
+208 2 9 207 
+336 0 
+401 0 
+84 0 
+276 0 
+149 0 
+150 1 -2 
+406 0 
+88 0 
+344 0 
+282 0 
+412 0 
+29 1 29 
+93 0 
+349 0 
+98 0 
+162 0 
+228 1 228 
+356 0 
+420 0 
+293 1 293 
+166 0 
+426 0 
+171 0 
+363 1 363 
+108 0 
+112 0 
+176 0 
+49 2 55 9 
+244 1 244 
+309 0 
+310 1 -2 
+119 0 
+186 0 
+379 0 
+380 1 -2 
+190 0 
+Constructors: 1
+15 9
+
+Summary: 34
+278 90 310 193 349 9 112 412 296 72 380 156 187 422 234 352 115 190 316 -3 33 398 366 346 1 386 -2 109 250 415 328 78 168 150 
+org/eclipse/osgi/internal/resolver/StateBuilder.createRequiredBundle(Lorg/eclipse/osgi/util/ManifestElement;)Lorg/eclipse/osgi/service/resolver/BundleSpecification;
+PTG:
+Vars:
+14
+$r9 1 90 
+$r14 1 70 
+$r6 1 30 
+$r10 1 46 
+$r11 1 52 
+$r7 1 37 
+r2 1 -2 
+$r3 1 10 
+$r15 1 76 
+$r4 1 20 
+$r8 1 85 
+_ret 1 0 
+$r5 1 23 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 16
+33 1 -2 
+66 1 0 
+4 1 0 
+70 2 70 76 
+72 1 -2 
+104 1 0 
+9 1 -2 
+13 2 0 10 
+46 2 52 46 
+48 1 -2 
+17 1 -2 
+20 1 20 
+85 2 85 90 
+87 1 -2 
+26 2 0 23 
+30 2 37 30 
+Constructors: 1
+4 0
+
+Summary: 8
+20 -2 23 90 10 37 76 52 
+org/eclipse/osgi/internal/resolver/StateBuilder.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 1 
+$r1 1 29 
+Fields: 10
+29 ArrayObject 41
+29 ArrayObject 61
+29 ArrayObject 51
+29 ArrayObject 36
+29 ArrayObject 46
+29 ArrayObject 56
+1 ArrayObject 8
+1 ArrayObject 23
+1 ArrayObject 18
+1 ArrayObject 13
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/osgi/internal/resolver/StateBuilder.createExportPackages([Lorg/eclipse/osgi/util/ManifestElement;[Lorg/eclipse/osgi/util/ManifestElement;Ljava/util/ArrayList;IZ)[Lorg/eclipse/osgi/service/resolver/ExportPackageDescription;
+PTG:
+Vars:
+9
+$r8 1 54 
+r7 1 -4 
+$r6 1 94 
+$r2 1 30 
+r0 1 -2 
+$r4 1 91 
+$r5 1 94 
+_ret 1 94 
+r1 1 -3 
+Fields: 1
+-2 ArrayObject 54
+Accesses: 0
+Functions: 5
+81 3 -3 -4 30 
+36 1 30 
+84 2 91 30 
+86 1 30 
+60 2 54 30 
+Constructors: 1
+36 30
+
+Summary: 8
+-3 -2 2 0 30 -4 1 91 
+org/eclipse/osgi/internal/resolver/StateBuilder.createGenericRequires([Lorg/eclipse/osgi/util/ManifestElement;)[Lorg/eclipse/osgi/service/resolver/GenericSpecification;
+PTG:
+Vars:
+23
+$r1 1 6 
+$r20 1 270 
+$r12 1 186 
+$r13 1 197 
+$r15 1 64 
+$r18 1 84 
+$r10 1 110 
+$r17 1 79 
+$r11 1 176 
+$r5 1 34 
+r0 1 -2 
+r34 1 182 
+$r7 1 46 
+r35 1 192 
+r4 1 27 
+$r9 1 106 
+$r19 1 267 
+$r16 1 68 
+$r14 1 213 
+$r21 1 270 
+$r8 1 98 
+$r3 1 23 
+_ret 1 270 
+Fields: 8
+-2 ArrayObject 106
+-2 ArrayObject 186
+-2 ArrayObject 176
+-2 ArrayObject 23
+27 ArrayObject 46
+27 ArrayObject 64
+27 ArrayObject 79
+27 ArrayObject 98
+Accesses: 0
+Functions: 27
+64 1 64 
+128 0 
+129 0 
+197 2 197 182 
+262 2 6 267 
+71 2 34 68 
+263 1 6 
+12 1 6 
+141 0 
+79 1 79 
+145 0 
+213 2 192 213 
+150 0 
+23 1 23 
+87 2 34 84 
+155 0 
+161 0 
+99 2 34 98 
+38 1 34 
+233 1 34 
+106 1 106 
+170 0 
+46 1 46 
+239 2 34 6 
+176 1 176 
+113 2 34 110 
+186 1 186 
+Constructors: 2
+38 34
+12 6
+
+Summary: 16
+147 84 68 34 161 27 -2 135 182 192 0 129 110 267 6 164 
+org/eclipse/osgi/internal/resolver/StateBuilder.getAttributes(Lorg/eclipse/osgi/util/ManifestElement;[Ljava/lang/String;)Ljava/util/Map;
+PTG:
+Vars:
+30
+r3 1 -3 
+$r7 1 170 
+r0 1 -2 
+r1 1 4 
+$r24 1 -1 
+$r10 1 339 
+$r9 1 315 
+r30 1 67 
+$r17 1 180 
+r33 1 210 
+$r19 1 117 
+$r34 2 231 220 
+$r26 1 241 
+$r12 1 325 
+r31 2 96 80 
+$r13 1 215 
+$r15 1 262 
+r28 1 117 
+r32 6 67 180 325 156 273 357 
+$r2 1 17 
+$r6 1 146 
+$r8 1 194 
+$r5 1 129 
+$r27 1 246 
+r29 2 106 17 
+$r25 1 -1 
+$r18 1 156 
+$r4 1 36 
+_ret 1 117 
+r14 1 257 
+Fields: 1
+-3 ArrayObject 36
+Accesses: 0
+Functions: 28
+0 1 -2 
+-1 1 -1 
+129 3 96 80 129 
+194 3 96 80 194 
+259 2 257 262 
+69 2 17 106 
+331 2 67 325 
+204 0 
+16 1 4 
+146 3 96 80 146 
+339 3 96 80 339 
+212 2 210 215 
+87 2 17 106 
+351 1 67 
+98 2 17 106 
+162 2 67 156 
+36 3 17 36 106 
+228 0 
+170 3 96 80 170 
+364 9 17 273 67 180 117 325 357 106 156 
+306 0 
+370 1 4 
+311 0 
+121 1 117 
+249 2 241 246 
+186 2 67 180 
+315 3 96 80 315 
+61 3 -2 17 106 
+Constructors: 5
+162 156
+121 117
+249 241
+186 180
+331 325
+
+Summary: 19
+106 257 -3 180 156 210 17 308 357 1 325 262 246 273 -2 4 0 96 215 
+org/eclipse/osgi/internal/resolver/StateBuilder.getGenericAliases(Lorg/eclipse/osgi/internal/resolver/StateImpl;)[[Ljava/lang/String;
+PTG:
+Vars:
+7
+$r5 1 49 
+$r4 1 45 
+r2 1 26 
+r1 1 7 
+r0 1 -2 
+r3 1 29 
+_ret 1 29 
+Fields: 1
+26 ArrayObject 45
+Accesses: 0
+Functions: 3
+1 1 -2 
+20 1 7 
+46 1 45 
+Constructors: 0
+
+Summary: 4
+-2 7 0 26 
+org/eclipse/osgi/internal/resolver/StateBuilder.createHostSpecification(Lorg/eclipse/osgi/util/ManifestElement;Lorg/eclipse/osgi/internal/resolver/StateImpl;)Lorg/eclipse/osgi/service/resolver/HostSpecification;
+PTG:
+Vars:
+10
+$r3 1 16 
+$r5 1 29 
+r0 1 -2 
+$r6 1 56 
+$r4 1 26 
+$r10 1 6 
+$r9 1 6 
+r8 2 54 42 
+_ret 1 6 
+r7 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 10
+32 2 6 29 
+48 1 -3 
+19 2 16 6 
+35 1 -2 
+23 1 -2 
+56 3 54 56 42 
+10 1 6 
+26 1 26 
+62 1 6 
+15 1 -2 
+Constructors: 1
+10 6
+
+Summary: 9
+-3 16 -2 54 42 0 26 29 1 
+org/eclipse/osgi/internal/resolver/StateBuilder.validateHeaders(Ljava/util/Dictionary;Z)V
+PTG:
+Vars:
+29
+$r29 1 53 
+r0 1 -2 
+$r21 1 112 
+$r22 1 116 
+$r24 1 126 
+$r13 1 33 
+$r6 1 139 
+$r28 1 80 
+$r16 1 47 
+$r1 1 6 
+$r23 1 122 
+$r18 1 70 
+$r11 1 26 
+$r31 1 166 
+$r25 1 99 
+$r2 1 10 
+$r5 1 135 
+$r30 1 57 
+$r20 1 93 
+$r27 1 76 
+$r19 1 89 
+$r26 1 103 
+$r3 1 11 
+$r15 1 43 
+r4 1 11 
+$r14 1 37 
+$r17 1 66 
+r12 1 31 
+$r10 1 22 
+Fields: 12
+76 ArrayObject 80
+6 ArrayObject 10
+53 ArrayObject 57
+135 ArrayObject 139
+43 ArrayObject 47
+99 ArrayObject 103
+33 ArrayObject 37
+89 ArrayObject 93
+22 ArrayObject 26
+66 ArrayObject 70
+112 ArrayObject 116
+122 ArrayObject 126
+Accesses: 0
+Functions: 9
+129 2 126 31 
+5 2 -2 10 
+86 2 80 31 
+40 2 37 31 
+152 0 
+27 2 26 11 
+109 2 103 31 
+158 0 
+63 2 57 31 
+Constructors: 0
+
+Summary: 5
+31 -2 0 11 154 
+org/eclipse/osgi/internal/resolver/StateBuilder.createNativeCodeDescription(Lorg/eclipse/osgi/util/ManifestElement;)Lorg/eclipse/osgi/internal/resolver/NativeCodeDescriptionImpl;
+PTG:
+Vars:
+10
+$r4 1 28 
+$r9 1 75 
+r2 1 -2 
+$r3 1 17 
+$r0 1 0 
+$r6 1 50 
+$r8 1 64 
+$r7 1 53 
+_ret 1 0 
+$r5 1 39 
+Fields: 0
+Accesses: 0
+Functions: 23
+130 0 
+35 1 -2 
+67 2 0 64 
+4 1 0 
+71 1 -2 
+103 0 
+42 2 0 39 
+107 0 
+12 1 0 
+46 1 -2 
+78 2 0 75 
+111 0 
+16 1 -2 
+50 1 50 
+20 2 0 17 
+116 0 
+24 1 -2 
+56 2 0 53 
+122 0 
+91 1 -2 
+60 1 -2 
+92 0 
+31 2 0 28 
+Constructors: 1
+4 0
+
+Summary: 13
+-2 98 108 39 17 64 28 75 122 50 53 125 92 
+org/eclipse/osgi/internal/resolver/StateBuilder.addProvidePackages([Lorg/eclipse/osgi/util/ManifestElement;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+15
+r4 1 -2 
+$r14 1 88 
+$r5 1 33 
+$r12 1 73 
+r9 1 -4 
+$r13 1 87 
+$r7 1 40 
+r0 1 -3 
+$r6 1 34 
+$r10 1 105 
+r3 1 8 
+$r8 1 41 
+$r2 1 8 
+$r11 1 106 
+$r1 1 5 
+Fields: 4
+-2 ArrayObject 105
+-2 ArrayObject 87
+-2 ArrayObject 33
+8 ArrayObject 40
+Accesses: 0
+Functions: 11
+0 2 -3 5 
+1 1 -3 
+33 1 33 
+97 2 -3 73 
+34 2 34 41 
+87 1 87 
+40 1 40 
+105 1 105 
+91 2 88 73 
+77 1 73 
+109 2 -4 106 
+Constructors: 1
+77 73
+
+Summary: 13
+106 41 -3 -2 88 73 0 -4 8 1 5 34 2 
+org/eclipse/osgi/internal/resolver/StateBuilder.createNativeCode([Lorg/eclipse/osgi/util/ManifestElement;)Lorg/eclipse/osgi/service/resolver/NativeCodeSpecification;
+PTG:
+Vars:
+10
+$r8 1 6 
+$r6 1 32 
+$r7 1 33 
+r0 1 -2 
+$r10 1 6 
+r3 1 54 
+$r5 1 71 
+$r9 1 54 
+_ret 1 6 
+$r4 1 70 
+Fields: 2
+-2 ArrayObject 32
+-2 ArrayObject 70
+Accesses: 0
+Functions: 7
+32 1 32 
+33 1 33 
+18 1 6 
+70 1 70 
+86 2 6 54 
+10 1 6 
+47 1 6 
+Constructors: 1
+10 6
+
+Summary: 5
+-2 32 33 54 0 
+org/eclipse/osgi/internal/resolver/StateBuilder.addImportPackages(Lorg/eclipse/osgi/util/ManifestElement;Ljava/util/ArrayList;IZ)V
+PTG:
+Vars:
+19
+$r17 1 33 
+$r3 1 84 
+$r8 1 189 
+$r7 1 138 
+$r9 1 192 
+$r18 1 41 
+r11 1 -3 
+$r16 1 33 
+$r2 1 69 
+r19 1 21 
+$r6 1 135 
+$r13 1 152 
+$r15 1 30 
+$r5 1 124 
+r0 1 -2 
+$r4 1 113 
+r21 2 107 94 
+r1 1 4 
+$r14 1 155 
+Fields: 2
+4 ArrayObject 84
+4 ArrayObject 30
+Accesses: 0
+Functions: 25
+0 1 -2 
+195 2 192 69 
+132 1 -2 
+135 1 135 
+73 1 69 
+202 2 -3 69 
+141 2 69 138 
+17 1 -3 
+85 2 84 69 
+88 1 -2 
+152 2 -2 152 
+30 2 41 30 
+158 2 69 155 
+31 1 21 
+101 1 -2 
+38 1 33 
+173 1 69 
+111 2 107 94 
+116 2 113 69 
+54 1 21 
+121 1 -2 
+185 1 -2 
+59 1 21 
+189 1 189 
+127 2 69 124 
+Constructors: 1
+73 69
+
+Summary: 17
+41 -3 -2 124 135 4 155 33 192 69 21 138 189 113 1 107 94 
+org/eclipse/osgi/internal/resolver/StateBuilder.checkExtensionBundle(Ljava/lang/String;[Lorg/eclipse/osgi/util/ManifestElement;)V
+PTG:
+Vars:
+7
+r6 1 -2 
+$r3 1 20 
+r0 1 -3 
+$r1 1 7 
+r4 1 24 
+$r2 1 11 
+$r5 1 36 
+Fields: 2
+-3 ArrayObject 20
+-3 ArrayObject 7
+Accesses: 0
+Functions: 14
+-1 0 
+35 2 36 24 
+67 0 
+7 1 7 
+71 0 
+76 0 
+82 1 24 
+51 0 
+20 1 20 
+52 1 -2 
+86 0 
+25 1 24 
+93 0 
+63 0 
+Constructors: 0
+
+Summary: 15
+20 -3 -2 7 51 86 1 11 24 58 68 89 52 36 83 
+org/eclipse/osgi/internal/resolver/StateBuilder.getGenericCapabilities(Ljava/util/Dictionary;[[Ljava/lang/String;)[Lorg/eclipse/osgi/util/ManifestElement;
+PTG:
+Vars:
+41
+r3 1 14 
+$r2 1 5 
+$r37 1 172 
+$r28 1 205 
+$r23 1 114 
+r4 1 -3 
+$r6 1 296 
+r0 1 -2 
+r40 1 22 
+$r30 1 220 
+$r22 1 108 
+$r26 1 125 
+$r8 1 273 
+$r29 1 208 
+$r7 1 296 
+$r38 1 175 
+$r21 1 103 
+$r31 1 136 
+$r15 1 59 
+r42 1 214 
+$r14 1 59 
+r16 1 68 
+$r24 1 116 
+$r19 1 99 
+$r10 1 49 
+$r12 1 58 
+$r9 1 22 
+$r11 1 56 
+$r36 1 169 
+$r13 1 51 
+$r20 1 100 
+$r27 1 203 
+r41 1 129 
+r32 1 136 
+$r5 1 293 
+$r34 1 156 
+_ret 1 296 
+$r1 1 5 
+$r35 1 162 
+$r17 1 84 
+$r33 1 151 
+Fields: 13
+214 ArrayObject 220
+114 ArrayObject 116
+-3 ArrayObject 203
+-3 ArrayObject 114
+-3 ArrayObject 49
+-3 ArrayObject 56
+49 ArrayObject 51
+68 ArrayObject 99
+68 ArrayObject 125
+68 ArrayObject 169
+14 ArrayObject 273
+203 ArrayObject 205
+56 ArrayObject 58
+Accesses: 0
+Functions: 26
+2 1 -2 
+134 1 129 
+8 1 5 
+206 1 84 
+208 2 208 205 
+146 1 84 
+274 2 273 22 
+151 2 151 136 
+88 1 84 
+156 1 156 
+93 2 84 100 
+221 2 22 220 
+288 2 293 22 
+289 1 22 
+162 2 162 172 
+99 1 99 
+36 1 22 
+103 1 103 
+169 2 136 169 
+52 2 -2 58 
+117 2 116 108 
+181 1 175 
+250 1 22 
+125 1 125 
+62 2 51 59 
+190 1 129 
+Constructors: 2
+36 22
+88 84
+
+Summary: 16
+293 -3 59 220 100 1 214 68 -2 5 0 129 22 172 136 208 
+org/eclipse/osgi/internal/resolver/StateBuilder.checkForDuplicateDirectivesAttributes(Ljava/lang/String;[Lorg/eclipse/osgi/util/ManifestElement;)V
+PTG:
+Vars:
+14
+$r5 1 141 
+r33 1 38 
+r0 1 -3 
+r36 1 129 
+$r3 1 113 
+r37 1 147 
+$r20 1 32 
+$r4 1 129 
+r2 1 11 
+$r19 1 20 
+r32 1 20 
+r35 1 117 
+r6 1 -2 
+$r1 1 7 
+Fields: 4
+-3 ArrayObject 7
+-3 ArrayObject 113
+-3 ArrayObject 32
+-3 ArrayObject 141
+Accesses: 0
+Functions: 26
+66 0 
+195 1 129 
+70 0 
+7 1 7 
+200 0 
+75 0 
+141 2 129 141 
+207 0 
+80 0 
+19 1 11 
+211 1 117 
+86 0 
+92 1 20 
+32 2 32 20 
+98 0 
+162 0 
+163 1 -2 
+102 1 11 
+175 0 
+113 1 113 
+179 0 
+53 0 
+54 1 -2 
+184 0 
+189 0 
+127 1 117 
+Constructors: 0
+
+Summary: 21
+-3 54 200 163 117 147 86 169 1 89 94 197 20 72 -2 203 129 11 60 181 38 
+org/eclipse/osgi/internal/resolver/StateBuilder.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/resolver/StateBuilder.getGenericRequires(Ljava/util/Dictionary;[[Ljava/lang/String;)[Lorg/eclipse/osgi/util/ManifestElement;
+PTG:
+Vars:
+38
+$r26 1 125 
+$r35 1 155 
+$r33 1 144 
+$r13 1 51 
+r0 1 -2 
+$r12 1 58 
+$r14 1 59 
+$r37 1 166 
+$r23 1 114 
+$r5 1 269 
+r4 1 -3 
+$r32 1 196 
+$r11 1 56 
+$r20 1 100 
+$r28 1 179 
+$r6 1 272 
+$r8 1 249 
+$r10 1 49 
+$r21 1 103 
+$r15 1 59 
+$r19 1 99 
+r27 1 132 
+r39 1 22 
+$r7 1 272 
+$r24 1 116 
+r16 1 68 
+$r17 1 84 
+$r22 1 108 
+$r36 1 161 
+$r29 1 181 
+$r30 1 184 
+$r2 1 5 
+$r1 1 5 
+$r34 1 150 
+r3 1 14 
+$r9 1 22 
+_ret 1 272 
+r31 1 190 
+Fields: 12
+179 ArrayObject 181
+114 ArrayObject 116
+-3 ArrayObject 179
+-3 ArrayObject 114
+-3 ArrayObject 49
+-3 ArrayObject 56
+49 ArrayObject 51
+68 ArrayObject 99
+68 ArrayObject 125
+14 ArrayObject 249
+190 ArrayObject 196
+56 ArrayObject 58
+Accesses: 0
+Functions: 24
+161 2 161 132 
+2 1 -2 
+226 1 22 
+99 1 99 
+36 1 22 
+197 2 196 22 
+103 1 103 
+8 1 5 
+264 2 22 269 
+265 1 22 
+139 1 84 
+172 1 166 
+144 1 144 
+52 2 -2 58 
+117 2 116 108 
+150 2 132 150 
+182 1 84 
+88 1 84 
+184 2 181 184 
+250 2 22 249 
+155 1 155 
+93 2 84 100 
+125 1 125 
+62 2 51 59 
+Constructors: 2
+36 22
+88 84
+
+Summary: 14
+132 184 -3 59 269 100 1 68 -2 5 0 196 22 190 

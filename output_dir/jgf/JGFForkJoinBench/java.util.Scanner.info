@@ -1,0 +1,3291 @@
+103
+java/util/Scanner.cacheResult(Ljava/lang/String;)V
+PTG:
+Vars:
+5
+$r3 1 7 
+$r2 1 7 
+r0 1 -1 
+r1 1 -2 
+$r4 1 21 
+Fields: 1
+-1 matcher 7
+Accesses: 5
+17 1 -1 
+2 1 -1 
+6 1 -1 
+24 1 -1 
+13 1 -1 
+Functions: 2
+18 1 7 
+7 1 7 
+Constructors: 0
+
+Summary: 2
+0 -1 
+java/util/Scanner.hasNext(Ljava/lang/String;)Z
+PTG:
+Vars:
+5
+$r4 1 6 
+r0 1 -1 
+r1 1 -2 
+$r3 1 6 
+$r2 1 2 
+Fields: 1
+-1 patternCache 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+0 3 -1 2 6 
+2 2 -2 2 
+Constructors: 0
+
+Summary: 3
+6 -2 -1 
+java/util/Scanner.nextDouble()D
+PTG:
+Vars:
+10
+r0 1 -1 
+$r10 1 72 
+$r5 1 1 
+$r4 1 53 
+$r11 1 77 
+$r3 1 50 
+$r9 1 63 
+$r2 1 47 
+$r8 1 -1 
+$r1 1 1 
+Fields: 2
+-1 matcher 63
+-1 typeCache 1
+Accesses: 5
+0 1 -1 
+17 1 -1 
+69 1 -1 
+7 1 -1 
+62 1 -1 
+Functions: 11
+80 2 72 77 
+21 0 
+37 3 -1 1 63 
+53 1 53 
+41 3 -1 1 63 
+44 4 -1 1 50 63 
+76 1 -1 
+29 3 -1 1 63 
+45 4 -1 1 63 47 
+46 3 -1 1 63 
+63 1 63 
+Constructors: 1
+80 72
+
+Summary: 4
+53 50 -1 47 
+java/util/Scanner.<init>(Ljava/io/File;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r3 1 9 
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 1 
+6 2 1 -2 
+12 2 -1 9 
+Constructors: 2
+6 1
+12 -1
+
+Summary: 2
+-2 0 
+java/util/Scanner.useDelimiter(Ljava/util/regex/Pattern;)Ljava/util/Scanner;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/Scanner.hasNextByte(I)Z
+PTG:
+Vars:
+8
+$r4 1 54 
+$r3 1 26 
+$r6 1 -1 
+$r1 1 7 
+$r5 1 34 
+$r7 2 44 37 
+$r2 1 19 
+r0 1 -1 
+Fields: 3
+-1 matcher 19
+-1 hasNextResult 34
+-1 hasNextResult 44
+Accesses: 5
+33 1 -1 
+18 1 -1 
+22 1 -1 
+57 1 -1 
+43 1 -1 
+Functions: 7
+32 4 -1 34 19 44 
+2 4 -1 34 19 44 
+50 2 37 44 
+19 1 19 
+51 0 
+5 5 -1 34 19 7 44 
+6 4 -1 34 19 44 
+Constructors: 0
+
+Summary: 4
+-1 37 26 7 
+java/util/Scanner.hasNext()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 7
+1 1 -1 
+35 1 -1 
+5 1 -1 
+22 1 -1 
+40 1 -1 
+29 1 -1 
+15 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.buildFloatAndDecimalPattern()V
+PTG:
+Vars:
+117
+$r34 1 156 
+$r12 1 53 
+$r13 1 57 
+$r108 1 499 
+$r19 1 81 
+r109 1 505 
+$r38 1 156 
+$r57 1 258 
+$r60 1 270 
+$r24 1 106 
+$r104 1 479 
+$r88 1 258 
+$r77 1 351 
+$r117 1 543 
+$r52 1 233 
+$r39 1 175 
+$r50 1 225 
+$r112 1 522 
+$r43 1 192 
+$r53 1 242 
+r100 1 458 
+$r23 1 102 
+$r106 1 489 
+r21 1 92 
+$r99 1 452 
+$r114 1 532 
+$r11 1 48 
+r81 1 372 
+$r4 1 21 
+$r14 1 62 
+$r44 1 201 
+$r93 1 428 
+$r67 1 303 
+r71 1 321 
+$r105 1 484 
+$r2 1 12 
+$r72 1 323 
+$r25 1 111 
+$r86 1 394 
+$r48 1 217 
+$r58 1 261 
+$r31 1 142 
+$r6 1 28 
+$r94 1 291 
+$r96 1 440 
+$r9 1 41 
+$r16 1 69 
+$r116 1 540 
+$r63 1 287 
+$r84 1 387 
+$r49 1 220 
+$r110 1 508 
+$r54 1 246 
+$r62 1 278 
+$r17 1 73 
+$r115 1 537 
+$r22 1 93 
+r42 1 190 
+$r92 1 419 
+$r75 1 341 
+$r32 1 147 
+$r90 1 411 
+$r55 1 249 
+$r73 1 332 
+$r85 1 246 
+$r68 1 306 
+$r30 1 137 
+r8 1 -1 
+r91 1 417 
+$r80 1 366 
+$r66 1 299 
+$r40 1 179 
+$r26 1 115 
+$r47 1 213 
+r61 1 276 
+$r69 1 310 
+$r103 1 474 
+$r111 1 517 
+$r83 1 378 
+$r113 1 527 
+$r87 1 399 
+r28 1 126 
+$r76 1 346 
+$r101 1 460 
+$r36 1 163 
+$r107 1 494 
+$r1 1 3 
+$r74 1 337 
+$r33 1 152 
+$r45 1 205 
+$r95 1 435 
+$r29 1 128 
+$r3 1 16 
+$r98 1 447 
+$r56 1 254 
+$r65 1 294 
+$r18 1 77 
+$r35 1 159 
+$r59 1 265 
+$r89 1 406 
+$r41 1 184 
+$r78 1 356 
+r5 1 27 
+$r97 1 303 
+$r15 1 66 
+$r37 1 168 
+$r20 1 86 
+r51 1 231 
+$r7 1 37 
+$r10 1 44 
+$r102 1 469 
+$r70 1 315 
+$r79 1 361 
+$r118 1 552 
+$r64 1 291 
+$r27 1 120 
+$r46 1 208 
+Fields: 9
+-1 positivePrefix 246
+-1 positiveSuffix 258
+-1 decimalSeparator 156
+-1 groupSeparator 66
+-1 nanString 205
+-1 negativePrefix 291
+-1 negativeSuffix 303
+-1 non0Digit 41
+-1 infinityString 217
+Accesses: 16
+65 1 -1 
+257 1 -1 
+290 1 -1 
+546 1 -1 
+390 1 -1 
+40 1 -1 
+171 1 -1 
+555 1 -1 
+204 1 -1 
+302 1 -1 
+431 1 -1 
+402 1 -1 
+245 1 -1 
+216 1 -1 
+155 1 -1 
+443 1 -1 
+Functions: 102
+512 1 508 
+3 1 3 
+261 2 261 27 
+517 1 517 
+7 1 3 
+265 1 265 
+522 1 522 
+12 1 12 
+270 1 270 
+527 1 527 
+16 1 16 
+532 2 532 505 
+21 1 21 
+278 1 278 
+537 1 537 
+282 1 278 
+28 1 28 
+540 1 540 
+287 2 291 287 
+32 1 28 
+37 2 37 41 
+294 2 294 190 
+550 1 372 
+299 2 299 303 
+44 1 44 
+48 1 48 
+306 2 306 27 
+53 1 53 
+310 1 310 
+57 1 57 
+315 1 315 
+62 2 66 62 
+323 1 323 
+69 1 69 
+327 1 323 
+73 1 73 
+332 2 332 190 
+77 1 77 
+81 1 81 
+337 2 337 27 
+341 1 341 
+86 1 86 
+346 2 276 346 
+93 1 93 
+351 1 351 
+97 1 93 
+356 2 321 356 
+102 1 102 
+361 1 361 
+106 1 106 
+366 1 366 
+111 2 92 111 
+115 1 115 
+120 1 120 
+378 1 378 
+382 1 378 
+128 1 128 
+387 2 387 246 
+132 1 128 
+137 2 137 126 
+394 2 231 394 
+142 1 142 
+399 2 258 399 
+147 2 147 126 
+406 1 406 
+152 2 152 156 
+411 1 411 
+159 1 159 
+163 1 163 
+419 1 419 
+423 1 419 
+168 2 168 156 
+428 2 291 428 
+175 1 175 
+179 1 179 
+435 2 435 231 
+184 1 184 
+440 2 440 303 
+447 1 447 
+192 1 192 
+196 1 192 
+452 1 452 
+201 2 201 205 
+460 1 460 
+208 1 208 
+464 1 460 
+213 2 213 217 
+469 2 469 231 
+474 1 474 
+220 1 220 
+479 2 417 479 
+225 1 225 
+484 1 484 
+233 1 233 
+489 2 489 458 
+237 1 233 
+494 1 494 
+242 2 242 246 
+499 1 499 
+249 2 249 190 
+508 2 372 508 
+254 2 258 254 
+Constructors: 12
+32 28
+464 460
+512 508
+97 93
+132 128
+196 192
+7 3
+327 323
+423 419
+282 278
+237 233
+382 378
+
+Summary: 1
+-1 
+java/util/Scanner.getCachedResult()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 19 
+$r1 1 19 
+Fields: 1
+-1 hasNextResult 19
+Accesses: 5
+1 1 -1 
+18 1 -1 
+5 1 -1 
+10 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.makeReadable(Ljava/nio/channels/ReadableByteChannel;Ljava/nio/charset/CharsetDecoder;)Ljava/lang/Readable;
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 3 
+_ret 1 3 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+1 -2 -3 0 
+java/util/Scanner.next(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+7
+r0 1 -1 
+_ret 1 12 
+$r3 1 6 
+$r2 1 2 
+r1 1 -2 
+$r4 1 6 
+$r5 1 12 
+Fields: 1
+-1 patternCache 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+0 3 -1 2 6 
+2 2 -2 2 
+Constructors: 0
+
+Summary: 3
+6 -2 -1 
+java/util/Scanner.cacheResult()V
+PTG:
+Vars:
+6
+$r1 1 2 
+r0 1 -1 
+$r2 1 5 
+$r4 1 2 
+$r5 1 27 
+$r3 1 2 
+Fields: 1
+-1 matcher 2
+Accesses: 6
+1 1 -1 
+19 1 -1 
+23 1 -1 
+8 1 -1 
+12 1 -1 
+30 1 -1 
+Functions: 3
+2 1 2 
+24 1 2 
+13 1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.<init>(Ljava/lang/Readable;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 -2 
+$r4 1 4 
+$r2 1 4 
+$r3 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 1 -2 
+13 3 -1 4 10 
+Constructors: 1
+13 -1
+
+Summary: 2
+-2 0 
+java/util/Scanner.<init>(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+$r3 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 2 1 -2 
+12 3 -1 1 9 
+Constructors: 2
+6 1
+12 -1
+
+Summary: 1
+-2 
+java/util/Scanner.hasNextLong()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.useDelimiter(Ljava/lang/String;)Ljava/util/Scanner;
+PTG:
+Vars:
+6
+r1 1 -2 
+_ret 1 -1 
+$r4 1 6 
+$r2 1 2 
+r0 1 -1 
+$r3 1 6 
+Fields: 1
+-1 patternCache 2
+Accesses: 2
+1 1 -1 
+12 1 -1 
+Functions: 1
+2 2 -2 2 
+Constructors: 0
+
+Summary: 1
+-2 
+java/util/Scanner.translateSavedIndexes(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+8 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.<init>(Ljava/io/InputStream;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+$r3 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 2 1 -2 
+12 3 -1 1 9 
+Constructors: 2
+6 1
+12 -1
+
+Summary: 3
+-2 1 0 
+java/util/Scanner.<clinit>()V
+PTG:
+Vars:
+4
+$r0 1 0 
+$r2 1 28 
+$r1 1 19 
+$r3 1 37 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 0 
+16 0 
+34 0 
+25 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/Scanner.close()V
+PTG:
+Vars:
+5
+$r3 1 9 
+$r4 1 -1 
+$r2 1 9 
+r0 1 -1 
+$r1 1 9 
+Fields: 1
+-1 source 9
+Accesses: 7
+0 1 -1 
+18 1 -1 
+51 1 -1 
+36 1 -1 
+8 1 -1 
+41 1 -1 
+46 1 -1 
+Functions: 1
+25 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.hasNextLong(I)Z
+PTG:
+Vars:
+8
+$r1 1 7 
+$r3 1 26 
+$r2 1 19 
+$r4 1 54 
+$r5 1 34 
+$r7 2 44 37 
+r0 1 -1 
+$r6 1 -1 
+Fields: 3
+-1 matcher 19
+-1 hasNextResult 34
+-1 hasNextResult 44
+Accesses: 5
+33 1 -1 
+18 1 -1 
+22 1 -1 
+57 1 -1 
+43 1 -1 
+Functions: 7
+32 4 -1 34 19 44 
+2 4 -1 34 19 44 
+50 2 37 44 
+19 1 19 
+51 0 
+5 5 -1 34 19 7 44 
+6 4 -1 34 19 44 
+Constructors: 0
+
+Summary: 4
+-1 37 26 7 
+java/util/Scanner.hasNextShort(I)Z
+PTG:
+Vars:
+8
+$r5 1 34 
+$r2 1 19 
+$r6 1 -1 
+r0 1 -1 
+$r7 2 44 37 
+$r4 1 54 
+$r3 1 26 
+$r1 1 7 
+Fields: 3
+-1 matcher 19
+-1 hasNextResult 34
+-1 hasNextResult 44
+Accesses: 5
+33 1 -1 
+18 1 -1 
+22 1 -1 
+57 1 -1 
+43 1 -1 
+Functions: 7
+32 4 -1 34 19 44 
+2 4 -1 34 19 44 
+50 2 37 44 
+19 1 19 
+51 0 
+5 5 -1 34 19 7 44 
+6 4 -1 34 19 44 
+Constructors: 0
+
+Summary: 4
+-1 37 26 7 
+java/util/Scanner.saveState()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+1 1 -1 
+5 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.setRadix(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+10 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.<init>(Ljava/nio/channels/ReadableByteChannel;Ljava/lang/String;)V
+PTG:
+Vars:
+8
+$r2 1 4 
+$r6 1 14 
+r3 1 -3 
+$r4 1 4 
+$r7 1 17 
+r1 1 -2 
+$r5 1 11 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+2 1 -2 
+20 3 -1 17 14 
+10 1 -3 
+11 2 4 11 
+Constructors: 1
+20 -1
+
+Summary: 2
+-2 -3 
+java/util/Scanner.useTypeCache()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 5
+0 1 -1 
+32 1 -1 
+18 1 -1 
+22 1 -1 
+27 1 -1 
+Functions: 1
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.makeReadable(Ljava/nio/channels/ReadableByteChannel;)Ljava/lang/Readable;
+PTG:
+Vars:
+5
+$r2 1 4 
+r0 1 -2 
+$r3 1 7 
+_ret 1 7 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+1 1 1 
+4 2 -2 4 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/Scanner.findInLine(Ljava/util/regex/Pattern;)Ljava/lang/String;
+PTG:
+Vars:
+8
+$r3 1 65 
+$r2 1 27 
+r7 1 34 
+$r4 1 98 
+_ret 1 98 
+r1 1 -2 
+$r5 1 40 
+r0 1 -1 
+Fields: 2
+-1 matcher 40
+-1 buf 65
+Accesses: 4
+64 1 -1 
+50 1 -1 
+83 1 -1 
+39 1 -1 
+Functions: 11
+-1 0 
+1 3 -1 65 40 
+17 3 -1 65 40 
+65 1 65 
+23 3 -1 65 40 
+40 1 40 
+26 4 -1 65 40 27 
+58 3 -1 65 40 
+12 0 
+79 3 -1 65 40 
+95 4 -1 65 -2 40 
+Constructors: 0
+
+Summary: 4
+34 -2 0 -1 
+java/util/Scanner.integerPattern()Ljava/util/regex/Pattern;
+PTG:
+Vars:
+8
+r0 1 -1 
+$r1 1 1 
+$r3 1 9 
+$r2 1 1 
+_ret 1 1 
+$r4 1 13 
+$r5 1 16 
+$r6 1 16 
+Fields: 2
+-1 integerPattern 1
+-1 patternCache 9
+Accesses: 4
+0 1 -1 
+22 1 -1 
+8 1 -1 
+25 1 -1 
+Functions: 2
+9 2 9 13 
+12 3 -1 1 9 
+Constructors: 0
+
+Summary: 2
+-1 13 
+java/util/Scanner.<init>(Ljava/nio/file/Path;Ljava/nio/charset/Charset;)V
+PTG:
+Vars:
+6
+r1 1 -2 
+r0 1 -1 
+r4 1 -3 
+$r2 1 3 
+$r5 1 10 
+$r3 1 6 
+Fields: 0
+Accesses: 0
+Functions: 3
+3 2 -2 3 
+9 2 -3 6 
+13 2 -1 10 
+Constructors: 1
+13 -1
+
+Summary: 5
+1 -2 -3 0 3 
+java/util/Scanner.findWithinHorizon(Ljava/util/regex/Pattern;I)Ljava/lang/String;
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 40 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+52 1 -1 
+47 1 -1 
+Functions: 6
+1 1 -1 
+34 2 -1 -2 
+26 0 
+12 0 
+60 1 -1 
+31 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/util/Scanner.hasNextShort()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.floatPattern()Ljava/util/regex/Pattern;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 floatPattern 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.makeReadable(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/Readable;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r0 1 0 
+_ret 1 0 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -2 -3 
+Constructors: 1
+6 0
+
+Summary: 4
+1 -2 -3 0 
+java/util/Scanner.hasNextLine()Z
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 5 
+r4 2 48 12 
+r2 1 21 
+r3 1 29 
+Fields: 0
+Accesses: 0
+Functions: 11
+-1 0 
+1 1 -1 
+17 1 -1 
+34 2 48 12 
+51 3 -1 48 12 
+4 2 -1 5 
+36 2 48 12 
+22 1 21 
+40 1 29 
+58 1 -1 
+62 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.<init>(Ljava/io/InputStream;Ljava/lang/String;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+r3 1 -3 
+$r5 1 11 
+r1 1 -2 
+$r6 1 14 
+$r4 1 4 
+$r2 1 4 
+$r7 1 17 
+Fields: 0
+Accesses: 0
+Functions: 4
+2 1 -2 
+20 3 -1 17 14 
+10 1 -3 
+11 2 4 11 
+Constructors: 1
+20 -1
+
+Summary: 2
+-2 -3 
+java/util/Scanner.findPatternInBuffer(Ljava/util/regex/Pattern;I)Ljava/lang/String;
+PTG:
+Vars:
+6
+$r2 1 6 
+$r4 1 15 
+r0 1 -1 
+r1 1 -2 
+$r9 1 6 
+$r8 1 6 
+Fields: 2
+-1 matcher 6
+-1 buf 15
+Accesses: 17
+32 1 -1 
+64 1 -1 
+2 1 -1 
+130 1 -1 
+100 1 -1 
+5 1 -1 
+137 1 -1 
+74 1 -1 
+170 1 -1 
+140 1 -1 
+14 1 -1 
+112 1 -1 
+50 1 -1 
+84 1 -1 
+148 1 -1 
+54 1 -1 
+124 1 -1 
+Functions: 8
+65 1 6 
+113 0 
+131 0 
+10 2 -2 6 
+75 0 
+60 1 6 
+141 0 
+15 1 15 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/util/Scanner.nextBigInteger(I)Ljava/math/BigInteger;
+PTG:
+Vars:
+12
+$r6 1 58 
+$r8 1 104 
+$r12 1 58 
+$r1 1 1 
+r0 1 -1 
+$r10 1 50 
+r11 2 76 56 
+$r3 1 1 
+$r5 1 -1 
+$r2 1 77 
+$r13 1 65 
+$r7 1 99 
+Fields: 2
+-1 matcher 58
+-1 typeCache 1
+Accesses: 8
+0 1 -1 
+96 1 -1 
+17 1 -1 
+7 1 -1 
+25 1 -1 
+57 1 -1 
+89 1 -1 
+61 1 -1 
+Functions: 11
+48 4 -1 1 50 58 
+49 3 -1 1 58 
+34 3 -1 1 58 
+83 3 56 76 77 
+71 5 -1 1 56 58 76 
+103 1 -1 
+41 3 -1 1 58 
+58 1 58 
+90 1 58 
+107 2 99 104 
+45 3 -1 1 58 
+Constructors: 2
+83 77
+107 99
+
+Summary: 5
+76 65 50 56 -1 
+java/util/Scanner.<init>(Ljava/io/File;Ljava/lang/String;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+r3 1 -3 
+$r2 1 2 
+$r5 1 9 
+$r4 1 2 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -2 
+8 1 -3 
+12 3 -1 2 9 
+Constructors: 1
+12 -1
+
+Summary: 2
+-2 -3 
+java/util/Scanner.nextLong(I)J
+PTG:
+Vars:
+11
+$r5 1 -1 
+$r7 1 98 
+$r2 1 1 
+$r9 1 53 
+$r6 1 61 
+$r12 1 68 
+r0 1 -1 
+r10 2 59 79 
+$r8 1 103 
+$r11 1 61 
+$r1 1 1 
+Fields: 2
+-1 matcher 61
+-1 typeCache 1
+Accesses: 8
+0 1 -1 
+64 1 -1 
+17 1 -1 
+7 1 -1 
+88 1 -1 
+25 1 -1 
+60 1 -1 
+95 1 -1 
+Functions: 12
+48 3 -1 1 61 
+81 2 59 79 
+51 4 -1 1 53 61 
+52 3 -1 1 61 
+37 3 -1 1 61 
+102 1 -1 
+89 1 61 
+74 5 -1 1 59 61 79 
+106 2 98 103 
+44 3 -1 1 61 
+29 0 
+61 1 61 
+Constructors: 1
+106 98
+
+Summary: 5
+53 68 59 -1 79 
+java/util/Scanner.boolPattern()Ljava/util/regex/Pattern;
+PTG:
+Vars:
+3
+$r0 1 11 
+r1 2 3 11 
+_ret 2 3 11 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/Scanner.nextBigInteger()Ljava/math/BigInteger;
+PTG:
+Vars:
+3
+$r1 1 5 
+_ret 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.linePattern()Ljava/util/regex/Pattern;
+PTG:
+Vars:
+3
+$r0 1 10 
+r1 2 10 3 
+_ret 2 10 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/Scanner.<init>(Ljava/nio/file/Path;)V
+PTG:
+Vars:
+4
+$r3 1 6 
+r0 1 -1 
+$r2 1 3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 2 -2 3 
+9 2 -1 6 
+Constructors: 1
+9 -1
+
+Summary: 2
+-2 3 
+java/util/Scanner.hasNextByte()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.decimalPattern()Ljava/util/regex/Pattern;
+PTG:
+Vars:
+4
+$r2 1 1 
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 decimalPattern 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.<init>(Ljava/lang/Readable;Ljava/util/regex/Pattern;)V
+PTG:
+Vars:
+13
+$r7 1 196 
+$r12 1 220 
+$r15 1 241 
+r3 1 -3 
+r0 1 -1 
+$r9 1 213 
+$r8 1 206 
+r2 1 -2 
+$r5 1 196 
+$r1 1 57 
+$r14 1 238 
+$r4 1 189 
+$r10 1 220 
+Fields: 13
+-1 positiveSuffix 109
+-1 matcher 220
+-1 negativeSuffix 115
+-1 non0Digit 127
+-1 buf 196
+-1 infinityString 91
+-1 positivePrefix 97
+-1 decimalSeparator 79
+-1 groupSeparator 73
+-1 nanString 85
+-1 negativePrefix 103
+-1 digits 121
+-1 delimPattern 206
+Accesses: 31
+192 1 -1 
+67 1 -1 
+195 1 -1 
+132 1 -1 
+6 1 -1 
+73 1 -1 
+11 1 -1 
+205 1 -1 
+79 1 -1 
+16 1 -1 
+209 1 -1 
+21 1 -1 
+85 1 -1 
+216 1 -1 
+26 1 -1 
+91 1 -1 
+219 1 -1 
+31 1 -1 
+97 1 -1 
+36 1 -1 
+228 1 -1 
+103 1 -1 
+42 1 -1 
+109 1 -1 
+48 1 -1 
+177 1 -1 
+115 1 -1 
+53 1 -1 
+182 1 -1 
+121 1 -1 
+127 1 -1 
+Functions: 11
+64 15 -1 97 196 103 73 109 206 79 115 85 57 121 91 220 127 
+224 1 220 
+1 14 -1 97 196 103 73 109 206 79 115 85 121 91 220 127 
+244 15 -1 97 196 103 73 109 206 79 241 115 85 121 91 220 127 
+151 0 
+200 1 196 
+233 1 220 
+186 0 
+171 0 
+206 2 196 206 
+238 1 238 
+Constructors: 2
+64 57
+1 -1
+
+Summary: 1
+0 
+java/util/Scanner.readInput()V
+PTG:
+Vars:
+14
+r0 1 -1 
+$r2 1 1 
+$r4 1 1 
+$r10 1 1 
+$r7 1 1 
+$r12 1 1 
+$r11 1 63 
+$r5 1 1 
+$r17 1 -1 
+$r3 1 1 
+$r8 1 1 
+$r15 1 1 
+$r1 1 1 
+$r13 1 1 
+Fields: 2
+-1 source 63
+-1 buf 1
+Accesses: 16
+0 1 -1 
+34 1 -1 
+66 1 -1 
+99 1 -1 
+7 1 -1 
+108 1 -1 
+45 1 -1 
+111 1 -1 
+49 1 -1 
+82 1 -1 
+115 1 -1 
+22 1 -1 
+30 1 -1 
+62 1 -1 
+94 1 -1 
+126 1 -1 
+Functions: 12
+1 1 1 
+18 3 -1 1 63 
+50 1 1 
+35 1 1 
+131 1 1 
+116 1 1 
+23 1 1 
+8 1 1 
+56 1 1 
+41 1 1 
+122 1 1 
+63 2 1 63 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.next()Ljava/lang/String;
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 13 
+Fields: 0
+Accesses: 3
+20 1 -1 
+25 1 -1 
+30 1 -1 
+Functions: 5
+1 1 -1 
+5 1 -1 
+38 1 -1 
+8 1 -1 
+45 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 13 
+java/util/Scanner.<init>(Ljava/io/File;Ljava/nio/charset/CharsetDecoder;)V
+PTG:
+Vars:
+6
+r2 1 -2 
+$r5 1 13 
+$r3 1 9 
+r4 1 -3 
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+16 2 -1 13 
+1 1 1 
+6 2 1 -2 
+12 2 -3 9 
+Constructors: 2
+16 -1
+6 1
+
+Summary: 4
+1 -2 -3 0 
+java/util/Scanner.hasNextInt()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.reset()Ljava/util/Scanner;
+PTG:
+Vars:
+5
+$r3 1 11 
+$r2 1 8 
+$r1 1 1 
+_ret 1 -1 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+4 1 -1 
+Functions: 4
+21 1 -1 
+8 1 8 
+26 1 -1 
+14 2 -1 11 
+Constructors: 0
+
+Summary: 0
+
+java/util/Scanner.delimiter()Ljava/util/regex/Pattern;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 delimPattern 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.nextLong()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.nextFloat()F
+PTG:
+Vars:
+10
+$r2 1 47 
+$r5 1 1 
+$r3 1 50 
+r0 1 -1 
+$r10 1 72 
+$r11 1 77 
+$r8 1 -1 
+$r1 1 1 
+$r4 1 53 
+$r9 1 63 
+Fields: 2
+-1 matcher 63
+-1 typeCache 1
+Accesses: 5
+0 1 -1 
+17 1 -1 
+69 1 -1 
+7 1 -1 
+62 1 -1 
+Functions: 11
+80 2 72 77 
+21 0 
+37 3 -1 1 63 
+53 1 53 
+41 3 -1 1 63 
+44 4 -1 1 50 63 
+76 1 -1 
+29 3 -1 1 63 
+45 4 -1 1 63 47 
+46 3 -1 1 63 
+63 1 63 
+Constructors: 1
+80 72
+
+Summary: 4
+53 50 -1 47 
+java/util/Scanner.separatorPattern()Ljava/util/regex/Pattern;
+PTG:
+Vars:
+3
+$r0 1 10 
+r1 2 10 3 
+_ret 2 10 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/Scanner.ioException()Ljava/io/IOException;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 lastException 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.skip(Ljava/lang/String;)Ljava/util/Scanner;
+PTG:
+Vars:
+7
+$r5 1 12 
+$r4 1 6 
+$r2 1 2 
+$r3 1 6 
+_ret 1 12 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 patternCache 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+0 3 -1 2 6 
+2 2 -2 2 
+Constructors: 0
+
+Summary: 2
+6 -2 
+java/util/Scanner.match()Ljava/util/regex/MatchResult;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 21 
+$r2 1 21 
+$r1 1 18 
+Fields: 1
+-1 matcher 18
+Accesses: 2
+0 1 -1 
+17 1 -1 
+Functions: 2
+18 1 18 
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.nextInt()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.next(Ljava/util/regex/Pattern;)Ljava/lang/String;
+PTG:
+Vars:
+4
+$r2 1 17 
+r1 1 -2 
+r3 1 38 
+r0 1 -1 
+Fields: 1
+-1 hasNextPattern 17
+Accesses: 4
+16 1 -1 
+50 1 -1 
+55 1 -1 
+45 1 -1 
+Functions: 7
+1 2 -1 17 
+33 3 -1 17 -2 
+70 2 -1 17 
+24 2 -1 17 
+12 0 
+30 2 -1 17 
+63 2 -1 17 
+Constructors: 0
+
+Summary: 4
+-2 38 0 -1 
+java/util/Scanner.nextInt(I)I
+PTG:
+Vars:
+11
+r10 2 59 79 
+$r7 1 98 
+$r5 1 -1 
+$r2 1 1 
+$r6 1 61 
+$r8 1 103 
+$r1 1 1 
+$r11 1 61 
+r0 1 -1 
+$r9 1 53 
+$r12 1 68 
+Fields: 2
+-1 matcher 61
+-1 typeCache 1
+Accesses: 8
+0 1 -1 
+64 1 -1 
+17 1 -1 
+7 1 -1 
+88 1 -1 
+25 1 -1 
+60 1 -1 
+95 1 -1 
+Functions: 12
+48 3 -1 1 61 
+81 2 59 79 
+51 4 -1 1 53 61 
+52 3 -1 1 61 
+37 3 -1 1 61 
+102 1 -1 
+89 1 61 
+74 5 -1 1 59 61 79 
+106 2 98 103 
+44 3 -1 1 61 
+29 0 
+61 1 61 
+Constructors: 1
+106 98
+
+Summary: 5
+53 68 59 -1 79 
+java/util/Scanner.toString()Ljava/lang/String;
+PTG:
+Vars:
+83
+$r93 1 448 
+$r67 1 328 
+$r58 1 288 
+$r94 1 453 
+$r19 1 96 
+$r0 1 0 
+$r29 1 144 
+_ret 1 464 
+$r92 1 445 
+$r42 1 217 
+$r71 1 349 
+$r6 1 29 
+$r80 1 389 
+$r52 1 261 
+$r74 1 360 
+$r65 1 320 
+$r83 1 400 
+$r60 1 296 
+$r39 1 200 
+$r79 1 384 
+$r38 1 197 
+$r77 1 377 
+$r11 1 48 
+$r48 1 240 
+$r87 1 421 
+$r25 1 128 
+$r8 1 37 
+$r20 1 101 
+$r24 1 121 
+$r70 1 345 
+$r72 1 352 
+$r7 1 32 
+$r13 1 64 
+$r49 1 249 
+$r14 1 69 
+$r62 1 304 
+r5 1 -1 
+$r55 1 272 
+$r18 1 89 
+$r21 1 104 
+$r81 1 392 
+$r56 1 281 
+$r51 1 256 
+$r35 1 176 
+$r41 1 208 
+$r37 1 192 
+$r43 1 221 
+$r57 1 285 
+$r17 1 80 
+$r44 1 224 
+$r59 1 293 
+$r23 1 112 
+$r88 1 424 
+$r95 1 456 
+$r36 1 185 
+$r97 1 464 
+$r9 1 40 
+$r46 1 232 
+$r15 1 72 
+$r66 1 325 
+$r27 1 136 
+$r69 1 336 
+$r3 1 16 
+$r78 1 381 
+$r45 1 229 
+$r86 1 416 
+$r33 1 168 
+$r31 1 160 
+$r64 1 317 
+$r30 1 153 
+$r85 1 413 
+$r73 1 357 
+$r90 1 432 
+$r26 1 133 
+$r91 1 441 
+$r84 1 409 
+$r53 1 264 
+$r12 1 57 
+$r32 1 165 
+$r76 1 368 
+$r50 1 253 
+$r63 1 313 
+$r4 1 25 
+Fields: 9
+-1 positivePrefix 285
+-1 positiveSuffix 349
+-1 decimalSeparator 253
+-1 groupSeparator 221
+-1 negativePrefix 317
+-1 negativeSuffix 381
+-1 nanString 413
+-1 delimPattern 29
+-1 infinityString 445
+Accesses: 14
+28 1 -1 
+92 1 -1 
+156 1 -1 
+220 1 -1 
+284 1 -1 
+348 1 -1 
+412 1 -1 
+60 1 -1 
+124 1 -1 
+188 1 -1 
+252 1 -1 
+316 1 -1 
+380 1 -1 
+444 1 -1 
+Functions: 87
+128 1 128 
+256 1 256 
+384 1 384 
+4 1 0 
+133 1 133 
+261 1 261 
+389 1 389 
+11 1 0 
+139 2 0 136 
+267 2 0 264 
+395 2 0 392 
+16 1 16 
+144 1 144 
+272 1 272 
+400 1 400 
+20 1 16 
+148 1 144 
+276 1 272 
+404 1 400 
+25 2 25 29 
+153 1 153 
+281 2 281 285 
+409 2 409 413 
+32 1 32 
+160 1 160 
+288 1 288 
+416 1 416 
+37 1 37 
+165 1 165 
+293 1 293 
+421 1 421 
+43 2 0 40 
+171 2 0 168 
+299 2 0 296 
+427 2 0 424 
+48 1 48 
+176 1 176 
+304 1 304 
+432 1 432 
+52 1 48 
+180 1 176 
+308 1 304 
+436 1 432 
+57 1 57 
+185 1 185 
+313 2 313 317 
+441 2 441 445 
+64 1 64 
+192 1 192 
+320 1 320 
+448 1 448 
+69 1 69 
+197 1 197 
+325 1 325 
+453 1 453 
+75 2 0 72 
+203 2 0 200 
+331 2 0 328 
+459 2 0 456 
+463 1 0 
+80 1 80 
+208 1 208 
+336 1 336 
+84 1 80 
+212 1 208 
+340 1 336 
+89 1 89 
+217 2 217 221 
+345 2 345 349 
+96 1 96 
+224 1 224 
+352 1 352 
+101 1 101 
+229 1 229 
+357 1 357 
+107 2 0 104 
+235 2 0 232 
+363 2 0 360 
+112 1 112 
+240 1 240 
+368 1 368 
+116 1 112 
+244 1 240 
+372 1 368 
+121 1 121 
+249 2 249 253 
+377 2 377 381 
+Constructors: 15
+4 0
+20 16
+84 80
+148 144
+212 208
+276 272
+340 336
+404 400
+52 48
+116 112
+180 176
+244 240
+308 304
+372 368
+436 432
+
+Summary: 1
+-1 
+java/util/Scanner.<init>(Ljava/nio/file/Path;Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r4 1 2 
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+$r5 1 9 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -2 
+8 1 -3 
+12 3 -1 2 9 
+Constructors: 1
+12 -1
+
+Summary: 2
+-2 -3 
+java/util/Scanner.toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;
+PTG:
+Vars:
+4
+$r2 1 8 
+$r3 1 -1 
+$r5 1 13 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+18 2 -1 13 
+3 1 -2 
+7 1 -2 
+Constructors: 1
+18 13
+
+Summary: 2
+-2 0 
+java/util/Scanner.hasNextBigDecimal()Z
+PTG:
+Vars:
+6
+r5 1 27 
+$r4 1 -1 
+r0 1 -1 
+$r2 1 21 
+$r3 1 29 
+$r1 1 8 
+Fields: 1
+-1 hasNextResult 21
+Accesses: 2
+20 1 -1 
+37 1 -1 
+Functions: 5
+34 2 27 29 
+3 2 -1 21 
+19 2 -1 21 
+6 3 -1 21 8 
+7 2 -1 21 
+Constructors: 1
+34 29
+
+Summary: 3
+27 8 -1 
+java/util/Scanner.nextShort()S
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.hasTokenInBuffer()Z
+PTG:
+Vars:
+8
+$r1 1 10 
+$r4 1 26 
+$r9 1 6 
+r0 1 -1 
+$r8 1 26 
+$r2 1 6 
+$r7 1 6 
+$r5 1 6 
+Fields: 3
+-1 matcher 6
+-1 buf 26
+-1 delimPattern 10
+Accesses: 11
+17 1 -1 
+2 1 -1 
+36 1 -1 
+5 1 -1 
+21 1 -1 
+54 1 -1 
+9 1 -1 
+25 1 -1 
+57 1 -1 
+61 1 -1 
+47 1 -1 
+Functions: 6
+32 1 6 
+48 1 6 
+37 1 6 
+26 1 26 
+13 2 6 10 
+62 1 26 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.nextLine()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r1 1 1 
+$r2 1 4 
+r0 1 -1 
+r4 1 46 
+r9 2 27 73 
+_ret 2 27 73 
+$r3 1 20 
+r5 1 54 
+Fields: 1
+-1 hasNextPattern 1
+Accesses: 1
+0 1 -1 
+Functions: 11
+-1 0 
+16 2 -1 1 
+65 1 54 
+82 0 
+19 3 -1 1 20 
+38 0 
+10 2 -1 1 
+42 2 -1 1 
+59 2 73 27 
+61 2 73 27 
+47 1 46 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.findWithinHorizon(Ljava/lang/String;I)Ljava/lang/String;
+PTG:
+Vars:
+7
+$r2 1 2 
+r0 1 -1 
+$r3 1 6 
+r1 1 -2 
+_ret 1 13 
+$r4 1 6 
+$r5 1 13 
+Fields: 1
+-1 patternCache 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+0 3 -1 2 6 
+2 2 -2 2 
+Constructors: 0
+
+Summary: 3
+6 -2 -1 
+java/util/Scanner.hasNextBigInteger(I)Z
+PTG:
+Vars:
+8
+$r2 1 19 
+$r6 1 -1 
+$r1 1 7 
+$r5 1 34 
+r0 1 -1 
+$r4 1 49 
+$r7 2 44 37 
+$r3 1 26 
+Fields: 3
+-1 matcher 19
+-1 hasNextResult 34
+-1 hasNextResult 44
+Accesses: 5
+33 1 -1 
+18 1 -1 
+22 1 -1 
+58 1 -1 
+43 1 -1 
+Functions: 6
+32 4 -1 34 19 44 
+2 4 -1 34 19 44 
+19 1 19 
+5 5 -1 34 19 7 44 
+6 4 -1 34 19 44 
+55 3 49 37 44 
+Constructors: 1
+55 49
+
+Summary: 4
+-1 37 26 7 
+java/util/Scanner.hasNextBigInteger()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.nextByte(I)B
+PTG:
+Vars:
+11
+$r9 1 53 
+$r1 1 1 
+$r2 1 1 
+$r11 1 61 
+$r12 1 68 
+$r6 1 61 
+r0 1 -1 
+$r8 1 103 
+r10 2 59 79 
+$r7 1 98 
+$r5 1 -1 
+Fields: 2
+-1 matcher 61
+-1 typeCache 1
+Accesses: 8
+0 1 -1 
+64 1 -1 
+17 1 -1 
+7 1 -1 
+88 1 -1 
+25 1 -1 
+60 1 -1 
+95 1 -1 
+Functions: 12
+48 3 -1 1 61 
+81 2 59 79 
+51 4 -1 1 53 61 
+52 3 -1 1 61 
+37 3 -1 1 61 
+102 1 -1 
+89 1 61 
+74 5 -1 1 59 61 79 
+106 2 98 103 
+44 3 -1 1 61 
+29 0 
+61 1 61 
+Constructors: 1
+106 98
+
+Summary: 5
+53 68 59 -1 79 
+java/util/Scanner.hasNextInt(I)Z
+PTG:
+Vars:
+8
+$r1 1 7 
+r0 1 -1 
+$r5 1 34 
+$r4 1 54 
+$r7 2 44 37 
+$r3 1 26 
+$r6 1 -1 
+$r2 1 19 
+Fields: 3
+-1 matcher 19
+-1 hasNextResult 34
+-1 hasNextResult 44
+Accesses: 5
+33 1 -1 
+18 1 -1 
+22 1 -1 
+57 1 -1 
+43 1 -1 
+Functions: 7
+32 4 -1 34 19 44 
+2 4 -1 34 19 44 
+50 2 37 44 
+19 1 19 
+51 0 
+5 5 -1 34 19 7 44 
+6 4 -1 34 19 44 
+Constructors: 0
+
+Summary: 4
+-1 37 26 7 
+java/util/Scanner.ensureOpen()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.makeSpace()Z
+PTG:
+Vars:
+7
+$r3 1 25 
+$r8 1 25 
+$r1 1 25 
+r4 1 84 
+r0 1 -1 
+$r9 1 120 
+$r5 1 25 
+Fields: 2
+-1 matcher 120
+-1 buf 25
+Accesses: 15
+4 1 -1 
+37 1 -1 
+70 1 -1 
+104 1 -1 
+12 1 -1 
+111 1 -1 
+50 1 -1 
+19 1 -1 
+116 1 -1 
+86 1 -1 
+119 1 -1 
+24 1 -1 
+57 1 -1 
+123 1 -1 
+60 1 -1 
+Functions: 11
+64 0 
+80 0 
+1 3 -1 120 25 
+101 3 -1 120 25 
+71 1 25 
+41 0 
+90 2 84 25 
+29 1 25 
+47 3 -1 120 25 
+95 1 84 
+127 2 120 25 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.processFloatToken(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+19
+$r18 1 12 
+$r4 1 38 
+$r16 1 72 
+$r3 1 12 
+$r2 1 2 
+r1 1 -1 
+_ret 8 34 70 10 277 113 127 141 166 
+$r6 1 167 
+$r13 1 146 
+$r8 1 184 
+r19 8 34 70 10 277 113 127 141 166 
+$r5 1 130 
+$r21 1 116 
+$r17 1 38 
+$r20 1 72 
+r0 1 -2 
+$r15 1 160 
+r7 1 174 
+$r14 1 156 
+Fields: 6
+-1 decimalSeparator 12
+-1 groupSeparator 2
+-1 negativePrefix 38
+-1 negativeSuffix 72
+-1 nanString 116
+-1 infinityString 130
+Accesses: 9
+1 1 -1 
+129 1 -1 
+115 1 -1 
+52 1 -1 
+37 1 -1 
+86 1 -1 
+71 1 -1 
+24 1 -1 
+11 1 -1 
+Functions: 28
+0 2 -2 2 
+64 8 113 34 277 70 166 10 141 127 
+128 9 113 34 130 277 70 166 10 141 127 
+198 8 113 34 277 70 166 10 141 127 
+262 1 184 
+72 1 72 
+12 1 12 
+205 8 113 34 277 70 166 10 141 127 
+272 1 184 
+146 1 146 
+85 9 113 34 277 70 166 72 10 141 127 
+213 0 
+150 1 146 
+23 9 113 34 277 70 166 10 12 141 127 
+156 9 113 34 277 70 166 10 156 141 127 
+223 0 
+160 1 160 
+98 8 113 34 277 70 166 10 141 127 
+99 8 113 34 277 70 166 10 141 127 
+38 1 38 
+167 9 113 34 277 70 166 167 10 141 127 
+106 8 113 34 277 70 166 10 141 127 
+176 1 174 
+240 1 184 
+114 9 113 34 116 277 70 166 10 141 127 
+51 9 113 34 277 70 166 38 10 141 127 
+251 1 184 
+188 1 184 
+Constructors: 2
+150 146
+188 184
+
+Summary: 3
+-2 0 -1 
+java/util/Scanner.revertState(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+1 1 -1 
+5 1 -1 
+10 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.remove()V
+PTG:
+Vars:
+2
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+java/util/Scanner.skip(Ljava/util/regex/Pattern;)Ljava/util/Scanner;
+PTG:
+Vars:
+3
+r2 1 25 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 4
+32 1 -1 
+48 1 -1 
+36 1 -1 
+43 1 -1 
+Functions: 7
+1 1 -1 
+17 1 -1 
+66 0 
+20 2 -1 -2 
+37 0 
+56 1 -1 
+12 0 
+Constructors: 0
+
+Summary: 3
+-2 25 0 
+java/util/Scanner.locale()Ljava/util/Locale;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 locale 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.useLocale(Ljava/util/Locale;)Ljava/util/Scanner;
+PTG:
+Vars:
+39
+$r37 1 144 
+r4 1 19 
+$r18 1 101 
+_ret 1 -1 
+$r30 1 217 
+$r10 1 56 
+$r13 1 75 
+$r34 1 159 
+$r22 1 123 
+$r15 1 85 
+$r26 1 181 
+$r16 1 90 
+$r21 1 115 
+$r17 1 93 
+$r23 1 130 
+$r33 1 202 
+$r31 1 231 
+r1 1 -1 
+$r29 1 217 
+$r35 1 173 
+$r6 1 32 
+$r27 1 188 
+$r9 1 51 
+$r28 1 210 
+$r2 1 2 
+$r7 1 41 
+r0 1 -2 
+$r36 1 130 
+$r8 1 48 
+$r19 1 104 
+r5 1 30 
+$r11 1 59 
+$r3 1 19 
+$r24 1 152 
+$r25 1 159 
+$r12 1 66 
+$r14 1 82 
+$r20 1 112 
+$r32 1 188 
+Fields: 5
+-1 positivePrefix 130
+-1 positiveSuffix 188
+-1 locale 2
+-1 negativePrefix 159
+-1 negativeSuffix 217
+Accesses: 24
+96 1 -1 
+1 1 -1 
+129 1 -1 
+227 1 -1 
+198 1 -1 
+169 1 -1 
+234 1 -1 
+107 1 -1 
+140 1 -1 
+205 1 -1 
+15 1 -1 
+239 1 -1 
+176 1 -1 
+147 1 -1 
+244 1 -1 
+213 1 -1 
+118 1 -1 
+184 1 -1 
+216 1 -1 
+155 1 -1 
+187 1 -1 
+62 1 -1 
+126 1 -1 
+158 1 -1 
+Functions: 33
+0 2 -2 2 
+66 1 66 
+130 1 130 
+70 1 66 
+199 1 188 
+75 2 82 75 
+141 1 130 
+78 1 30 
+79 0 
+209 1 19 
+18 1 -2 
+85 1 85 
+151 1 19 
+217 1 217 
+26 1 -2 
+90 1 90 
+159 1 159 
+32 1 32 
+36 1 32 
+100 1 30 
+228 1 217 
+101 1 101 
+41 2 48 41 
+170 1 159 
+44 1 30 
+45 0 
+111 1 30 
+112 1 112 
+51 1 51 
+180 1 19 
+56 1 56 
+122 1 19 
+188 1 188 
+Constructors: 2
+36 32
+70 66
+
+Summary: 1
+0 
+java/util/Scanner.findInLine(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r4 1 6 
+$r2 1 2 
+r1 1 -2 
+$r5 1 12 
+_ret 1 12 
+$r3 1 6 
+Fields: 1
+-1 patternCache 2
+Accesses: 1
+1 1 -1 
+Functions: 2
+0 3 -1 2 6 
+2 2 -2 2 
+Constructors: 0
+
+Summary: 3
+6 -2 -1 
+java/util/Scanner.toDecoder(Ljava/lang/String;)Ljava/nio/charset/CharsetDecoder;
+PTG:
+Vars:
+5
+$r4 1 -1 
+r0 1 -2 
+$r2 1 8 
+$r6 1 16 
+$r3 1 11 
+Fields: 0
+Accesses: 0
+Functions: 4
+3 1 -2 
+21 2 16 -2 
+7 1 -2 
+8 1 8 
+Constructors: 1
+21 16
+
+Summary: 2
+-2 0 
+java/util/Scanner.nextBoolean()Z
+PTG:
+Vars:
+3
+$r1 1 5 
+$r2 1 8 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+1 1 -1 
+4 2 -1 5 
+8 1 8 
+Constructors: 0
+
+Summary: 2
+8 -1 
+java/util/Scanner.radix()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.hasNextBoolean()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+0 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.buildIntegerPatternString()Ljava/lang/String;
+PTG:
+Vars:
+59
+$r21 1 96 
+$r47 1 219 
+$r45 1 212 
+$r25 1 116 
+$r6 1 31 
+r2 1 12 
+$r17 1 79 
+_ret 1 269 
+$r49 1 227 
+r7 1 37 
+r41 1 194 
+$r32 1 152 
+$r40 1 188 
+$r52 1 246 
+$r36 1 173 
+$r4 1 22 
+r22 1 102 
+$r23 1 103 
+$r37 1 176 
+$r1 1 1 
+$r18 1 83 
+$r19 1 87 
+$r54 1 256 
+$r57 1 269 
+$r27 1 125 
+$r38 1 181 
+r48 1 225 
+$r42 1 196 
+$r28 1 130 
+$r56 1 266 
+$r9 1 47 
+$r35 1 165 
+$r46 1 216 
+$r26 1 121 
+$r20 1 91 
+$r24 1 112 
+r34 1 163 
+$r50 1 236 
+$r3 1 13 
+$r33 1 157 
+$r43 1 204 
+$r12 1 58 
+$r44 1 207 
+r29 1 136 
+r0 1 -1 
+$r11 1 54 
+$r30 1 138 
+$r16 1 76 
+$r55 1 261 
+$r51 1 241 
+$r5 1 26 
+$r31 1 147 
+$r15 1 72 
+$r39 1 185 
+$r10 1 51 
+$r53 1 251 
+$r13 1 63 
+$r8 1 38 
+$r14 1 67 
+Fields: 7
+-1 positivePrefix 204
+-1 positiveSuffix 216
+-1 groupSeparator 76
+-1 digits 1
+-1 negativePrefix 173
+-1 negativeSuffix 185
+-1 non0Digit 51
+Accesses: 8
+0 1 -1 
+50 1 -1 
+5 1 -1 
+215 1 -1 
+184 1 -1 
+75 1 -1 
+203 1 -1 
+172 1 -1 
+Functions: 50
+256 2 256 194 
+1 1 1 
+130 1 130 
+261 1 261 
+138 1 138 
+266 1 266 
+13 1 13 
+142 1 138 
+17 1 13 
+147 2 147 136 
+22 2 22 12 
+152 1 152 
+26 1 26 
+157 1 157 
+31 1 31 
+165 2 165 173 
+38 1 38 
+169 1 165 
+42 1 38 
+47 2 51 47 
+176 2 176 136 
+181 2 181 185 
+54 2 37 54 
+58 1 58 
+188 1 188 
+63 2 37 63 
+67 1 67 
+196 2 196 204 
+72 2 72 76 
+200 1 196 
+79 2 37 79 
+207 2 136 207 
+83 2 83 37 
+212 2 212 216 
+87 2 37 87 
+91 1 91 
+219 1 219 
+96 1 96 
+227 1 227 
+103 1 103 
+231 1 227 
+107 1 103 
+236 2 163 236 
+112 2 112 37 
+241 1 241 
+116 1 116 
+246 2 225 246 
+121 2 102 121 
+251 1 251 
+125 1 125 
+Constructors: 7
+17 13
+231 227
+200 196
+169 165
+42 38
+107 103
+142 138
+
+Summary: 2
+12 -1 
+java/util/Scanner.revertState()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+1 1 -1 
+5 1 -1 
+10 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.processIntegerToken(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+16
+$r1 1 1 
+$r6 1 20 
+$r7 1 32 
+r3 1 -1 
+_ret 4 107 64 28 132 
+r13 4 107 64 28 132 
+$r14 1 66 
+$r11 1 66 
+$r9 1 122 
+$r2 1 10 
+$r8 1 112 
+$r4 1 14 
+$r5 1 17 
+$r12 1 32 
+$r10 1 126 
+r0 1 -2 
+Fields: 3
+-1 groupSeparator 14
+-1 negativePrefix 32
+-1 negativeSuffix 66
+Accesses: 5
+80 1 -1 
+65 1 -1 
+13 1 -1 
+46 1 -1 
+31 1 -1 
+Functions: 17
+0 2 -2 20 
+32 1 32 
+1 1 1 
+66 1 66 
+100 4 64 132 107 28 
+5 1 1 
+10 2 10 14 
+45 5 64 32 132 107 28 
+79 5 64 66 132 107 28 
+112 1 112 
+17 1 17 
+116 1 112 
+58 4 64 132 107 28 
+122 5 64 132 122 107 28 
+92 4 64 132 107 28 
+93 4 64 132 107 28 
+126 1 126 
+Constructors: 2
+116 112
+5 1
+
+Summary: 3
+-2 0 -1 
+java/util/Scanner.nextBigDecimal()Ljava/math/BigDecimal;
+PTG:
+Vars:
+11
+$r5 1 1 
+$r4 1 54 
+$r8 1 66 
+$r10 1 80 
+$r2 1 44 
+$r7 1 -1 
+$r9 1 75 
+r0 1 -1 
+$r1 1 1 
+r12 1 53 
+$r3 1 47 
+Fields: 2
+-1 matcher 66
+-1 typeCache 1
+Accesses: 5
+0 1 -1 
+17 1 -1 
+65 1 -1 
+7 1 -1 
+72 1 -1 
+Functions: 10
+34 3 -1 1 66 
+66 1 66 
+83 2 80 75 
+38 3 -1 1 66 
+41 4 -1 1 66 47 
+26 3 -1 1 66 
+42 4 -1 1 66 44 
+43 3 -1 1 66 
+59 2 53 54 
+79 1 -1 
+Constructors: 2
+83 75
+59 54
+
+Summary: 4
+53 44 -1 47 
+java/util/Scanner.useRadix(I)Ljava/util/Scanner;
+PTG:
+Vars:
+2
+r5 1 -1 
+_ret 1 -1 
+Fields: 0
+Accesses: 3
+50 1 -1 
+38 1 -1 
+55 1 -1 
+Functions: 5
+34 0 
+19 0 
+24 0 
+28 0 
+15 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/Scanner.matchPatternInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String;
+PTG:
+Vars:
+6
+$r7 1 6 
+r0 1 -1 
+$r4 1 23 
+$r2 1 6 
+r1 1 -2 
+$r5 1 6 
+Fields: 2
+-1 matcher 6
+-1 buf 23
+Accesses: 14
+33 1 -1 
+97 1 -1 
+2 1 -1 
+68 1 -1 
+5 1 -1 
+43 1 -1 
+75 1 -1 
+14 1 -1 
+78 1 -1 
+18 1 -1 
+53 1 -1 
+22 1 -1 
+86 1 -1 
+62 1 -1 
+Functions: 7
+34 1 6 
+69 0 
+23 1 23 
+10 2 -2 6 
+44 0 
+29 1 6 
+79 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/util/Scanner.<init>(Ljava/nio/channels/ReadableByteChannel;)V
+PTG:
+Vars:
+6
+$r3 1 4 
+r0 1 -1 
+r1 1 -2 
+$r5 1 13 
+$r2 1 4 
+$r4 1 10 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 3 -1 10 13 
+2 1 -2 
+7 1 4 
+Constructors: 1
+16 -1
+
+Summary: 2
+-2 0 
+java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String;
+PTG:
+Vars:
+15
+r0 1 -1 
+$r26 1 6 
+r34 1 -2 
+$r2 1 6 
+$r5 1 6 
+$r27 1 6 
+$r35 1 33 
+$r7 1 6 
+$r4 1 33 
+$r29 1 6 
+$r32 1 6 
+$r33 1 6 
+$r1 1 10 
+$r28 1 33 
+$r31 1 6 
+Fields: 3
+-1 matcher 6
+-1 buf 33
+-1 delimPattern 10
+Accesses: 46
+320 1 -1 
+2 1 -1 
+131 1 -1 
+5 1 -1 
+262 1 -1 
+199 1 -1 
+72 1 -1 
+9 1 -1 
+330 1 -1 
+204 1 -1 
+269 1 -1 
+142 1 -1 
+79 1 -1 
+17 1 -1 
+83 1 -1 
+339 1 -1 
+277 1 -1 
+24 1 -1 
+90 1 -1 
+154 1 -1 
+346 1 -1 
+28 1 -1 
+220 1 -1 
+93 1 -1 
+32 1 -1 
+97 1 -1 
+161 1 -1 
+355 1 -1 
+292 1 -1 
+229 1 -1 
+168 1 -1 
+233 1 -1 
+43 1 -1 
+107 1 -1 
+301 1 -1 
+305 1 -1 
+242 1 -1 
+180 1 -1 
+53 1 -1 
+309 1 -1 
+118 1 -1 
+123 1 -1 
+252 1 -1 
+190 1 -1 
+63 1 -1 
+127 1 -1 
+Functions: 25
+321 0 
+132 1 33 
+263 0 
+138 1 6 
+331 0 
+13 2 6 10 
+205 0 
+143 1 6 
+84 1 6 
+340 0 
+155 1 6 
+33 1 33 
+225 1 -2 
+98 1 33 
+39 1 6 
+169 1 6 
+297 1 -2 
+44 1 6 
+238 0 
+243 0 
+181 0 
+54 1 6 
+310 0 
+316 0 
+253 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+java/util/Scanner.throwFor()V
+PTG:
+Vars:
+3
+$r2 1 17 
+r0 1 -1 
+$r1 1 34 
+Fields: 1
+-1 buf 17
+Accesses: 4
+16 1 -1 
+2 1 -1 
+5 1 -1 
+12 1 -1 
+Functions: 3
+17 1 17 
+38 1 34 
+30 0 
+Constructors: 1
+38 34
+
+Summary: 1
+-1 
+java/util/Scanner.nextShort(I)S
+PTG:
+Vars:
+11
+$r12 1 68 
+$r7 1 98 
+$r1 1 1 
+$r6 1 61 
+$r9 1 53 
+r10 2 59 79 
+$r2 1 1 
+$r8 1 103 
+r0 1 -1 
+$r5 1 -1 
+$r11 1 61 
+Fields: 2
+-1 matcher 61
+-1 typeCache 1
+Accesses: 8
+0 1 -1 
+64 1 -1 
+17 1 -1 
+7 1 -1 
+88 1 -1 
+25 1 -1 
+60 1 -1 
+95 1 -1 
+Functions: 12
+48 3 -1 1 61 
+81 2 59 79 
+51 4 -1 1 53 61 
+52 3 -1 1 61 
+37 3 -1 1 61 
+102 1 -1 
+89 1 61 
+74 5 -1 1 59 61 79 
+106 2 98 103 
+44 3 -1 1 61 
+29 0 
+61 1 61 
+Constructors: 1
+106 98
+
+Summary: 5
+53 68 59 -1 79 
+java/util/Scanner.hasNextFloat()Z
+PTG:
+Vars:
+6
+$r2 1 21 
+$r4 1 -1 
+$r1 1 8 
+r0 1 -1 
+r5 1 27 
+$r3 1 33 
+Fields: 1
+-1 hasNextResult 21
+Accesses: 2
+20 1 -1 
+36 1 -1 
+Functions: 6
+3 2 -1 21 
+19 2 -1 21 
+6 3 -1 21 8 
+7 2 -1 21 
+29 1 27 
+30 0 
+Constructors: 0
+
+Summary: 3
+27 8 -1 
+java/util/Scanner.next()Ljava/lang/Object;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.hasNextDouble()Z
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 33 
+$r1 1 8 
+$r2 1 21 
+r5 1 27 
+$r4 1 -1 
+Fields: 1
+-1 hasNextResult 21
+Accesses: 2
+20 1 -1 
+36 1 -1 
+Functions: 6
+3 2 -1 21 
+19 2 -1 21 
+6 3 -1 21 8 
+7 2 -1 21 
+29 1 27 
+30 0 
+Constructors: 0
+
+Summary: 3
+27 8 -1 
+java/util/Scanner.nextByte()B
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/Scanner.hasNext(Ljava/util/regex/Pattern;)Z
+PTG:
+Vars:
+3
+$r2 1 27 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+48 1 -1 
+18 1 -1 
+35 1 -1 
+Functions: 8
+1 1 -1 
+22 1 -1 
+39 1 -1 
+56 1 -1 
+25 2 -1 -2 
+42 1 -1 
+12 0 
+62 1 -1 
+Constructors: 0
+
+Summary: 4
+-2 27 0 -1 
+java/util/Scanner.clearCaches()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

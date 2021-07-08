@@ -1,0 +1,3667 @@
+102
+org/apache/xerces/impl/dtd/DTDGrammar.addUniqueLeafNode(Ljava/lang/String;)I
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 6 
+$r3 1 6 
+Fields: 1
+-1 fContentSpec 6
+Accesses: 2
+17 1 -1 
+5 1 -1 
+Functions: 3
+0 2 -1 6 
+21 2 -1 6 
+12 2 -2 6 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.resize([[BI)[[B
+PTG:
+Vars:
+3
+_ret 1 1 
+r1 1 -2 
+r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -2 1 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xerces/impl/dtd/DTDGrammar.ensureEntityDeclCapacity(I)V
+PTG:
+Vars:
+44
+$r13 1 83 
+$r29 1 65 
+$r20 1 2 
+$r8 1 198 
+$r9 1 47 
+$r23 1 29 
+$r17 1 119 
+$r36 1 101 
+$r12 1 222 
+$r41 1 137 
+$r27 1 47 
+$r33 1 83 
+$r43 1 147 
+$r19 1 137 
+$r16 1 246 
+$r18 1 257 
+$r14 1 234 
+$r5 1 2 
+$r4 1 174 
+$r26 1 47 
+$r42 1 137 
+$r37 1 111 
+$r15 1 101 
+r0 1 -1 
+$r31 1 75 
+$r32 1 83 
+$r40 1 129 
+$r25 1 39 
+$r28 1 57 
+$r39 1 119 
+$r34 1 93 
+$r7 1 29 
+$r10 1 210 
+$r11 1 65 
+$r1 1 2 
+$r2 1 2 
+$r30 1 65 
+$r35 1 101 
+$r21 1 2 
+$r24 1 29 
+$r3 1 161 
+$r38 1 119 
+$r22 1 21 
+$r6 1 186 
+Fields: 9
+-1 fEntityPublicId 47
+-1 fEntityInExternal 137
+-1 fEntityName 2
+-1 fEntityNotation 101
+-1 fEntitySystemId 65
+-1 fEntityValue 29
+-1 fEntityBaseSystemId 83
+-1 fEntityIsPE 119
+2 ArrayObject 161
+Accesses: 34
+64 1 -1 
+1 1 -1 
+68 1 -1 
+132 1 -1 
+136 1 -1 
+10 1 -1 
+202 1 -1 
+140 1 -1 
+14 1 -1 
+78 1 -1 
+82 1 -1 
+86 1 -1 
+150 1 -1 
+214 1 -1 
+24 1 -1 
+28 1 -1 
+156 1 -1 
+32 1 -1 
+96 1 -1 
+226 1 -1 
+100 1 -1 
+166 1 -1 
+104 1 -1 
+42 1 -1 
+46 1 -1 
+238 1 -1 
+50 1 -1 
+114 1 -1 
+178 1 -1 
+118 1 -1 
+249 1 -1 
+122 1 -1 
+60 1 -1 
+190 1 -1 
+Functions: 8
+128 1 119 
+146 1 137 
+20 2 161 2 
+38 1 29 
+56 1 47 
+74 1 65 
+92 1 83 
+110 1 101 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.addContentSpecNode(SLjava/lang/String;)I
+PTG:
+Vars:
+4
+r1 1 -3 
+$r2 1 6 
+$r3 1 6 
+r0 1 -1 
+Fields: 1
+-1 fContentSpec 6
+Accesses: 2
+17 1 -1 
+5 1 -1 
+Functions: 3
+0 2 -1 6 
+21 2 -1 6 
+12 2 -3 6 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.setDTDContentModelSource(Lorg/apache/xerces/xni/parser/XMLDTDContentModelSource;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.getGrammarDescription()Lorg/apache/xerces/xni/grammars/XMLGrammarDescription;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fGrammarDescription 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.createEntityDecl()I
+PTG:
+Vars:
+5
+$r4 1 36 
+$r2 1 27 
+$r1 1 23 
+$r3 1 32 
+r0 1 -1 
+Fields: 4
+-1 fEntityInExternal 32
+-1 fEntityIsPE 23
+32 ArrayObject 36
+23 ArrayObject 27
+Accesses: 6
+0 1 -1 
+48 1 -1 
+22 1 -1 
+8 1 -1 
+40 1 -1 
+31 1 -1 
+Functions: 1
+19 5 -1 32 36 23 27 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.getAttributeDeclIsExternal(I)Z
+PTG:
+Vars:
+3
+$r2 1 22 
+$r1 1 18 
+r0 1 -1 
+Fields: 2
+-1 fAttributeDeclIsExternal 18
+18 ArrayObject 22
+Accesses: 1
+17 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.resize([[II)[[I
+PTG:
+Vars:
+3
+r1 1 -2 
+_ret 1 1 
+r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -2 1 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xerces/impl/dtd/DTDGrammar.startConditional(SLorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.resize([[SI)[[S
+PTG:
+Vars:
+3
+r0 1 1 
+_ret 1 1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -2 1 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xerces/impl/dtd/DTDGrammar.isNamespaceAware()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.setAttributeDecl(IILorg/apache/xerces/impl/dtd/XMLAttributeDecl;)V
+PTG:
+Vars:
+45
+$r44 1 63 
+$r5 1 22 
+$r14 1 92 
+$r40 1 307 
+$r38 1 296 
+$r17 1 109 
+$r32 1 217 
+$r34 1 241 
+$r10 1 75 
+$r16 1 97 
+$r29 1 173 
+$r7 1 40 
+$r12 1 87 
+$r43 1 31 
+$r8 1 36 
+$r23 1 138 
+$r28 1 148 
+$r15 1 40 
+$r37 2 212 291 
+$r22 1 40 
+$r42 1 255 
+$r39 1 264 
+$r20 1 114 
+$r6 1 31 
+$r25 1 143 
+r3 1 -4 
+$r13 1 80 
+$r26 1 40 
+$r30 1 178 
+r0 1 -1 
+$r1 1 14 
+$r24 1 131 
+$r41 1 173 
+$r27 1 155 
+$r2 1 19 
+$r36 1 269 
+$r33 1 173 
+$r19 1 121 
+$r18 1 40 
+$r9 1 40 
+$r31 1 212 
+$r35 1 264 
+$r11 1 40 
+$r4 1 24 
+$r21 1 126 
+Fields: 34
+-4 simpleType 40
+-4 name 24
+264 ArrayObject 269
+264 ArrayObject 307
+75 ArrayObject 80
+126 ArrayObject 131
+143 ArrayObject 148
+212 ArrayObject 296
+212 ArrayObject 217
+173 ArrayObject 255
+173 ArrayObject 178
+173 ArrayObject 241
+291 ArrayObject 296
+92 ArrayObject 97
+14 ArrayObject 19
+-1 fElementDeclFirstAttributeDeclIndex 173
+-1 fElementDeclLastAttributeDeclIndex 264
+-1 fAttributeDeclNextAttributeDeclIndex 212
+-1 fAttributeDeclNextAttributeDeclIndex 291
+-1 fAttributeDeclDefaultType 92
+-1 fAttributeDeclDatatypeValidator 109
+-1 fAttributeDeclDefaultValue 126
+-1 fAttributeDeclEnumeration 75
+-1 fAttributeDeclNonNormalizedDefaultValue 143
+-1 fAttributeDeclName 14
+-1 fAttributeDeclType 31
+31 ArrayObject 36
+31 ArrayObject 63
+19 ArrayObject 22
+40 defaultValue 138
+40 nonNormalizedDefaultValue 155
+40 enumeration 87
+40 datatypeValidator 121
+109 ArrayObject 114
+Accesses: 30
+134 1 -4 
+135 1 40 
+263 1 -1 
+74 1 -1 
+13 1 -1 
+142 1 -1 
+83 1 -4 
+211 1 -1 
+84 1 40 
+23 1 -4 
+151 1 -4 
+152 1 40 
+91 1 -1 
+30 1 -1 
+290 1 -1 
+100 1 -4 
+101 1 40 
+39 1 -4 
+40 1 40 
+235 1 -1 
+108 1 -1 
+172 1 -1 
+301 1 -1 
+47 1 -4 
+48 1 40 
+117 1 -4 
+118 1 40 
+57 1 -1 
+249 1 -1 
+125 1 -1 
+Functions: 1
+27 2 22 24 
+Constructors: 0
+
+Summary: 4
+40 24 -4 -1 
+org/apache/xerces/impl/dtd/DTDGrammar.setDTDSource(Lorg/apache/xerces/xni/parser/XMLDTDSource;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.comment(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.addContentSpecNode(SII)I
+PTG:
+Vars:
+5
+r1 1 7 
+r2 1 12 
+$r3 1 27 
+r0 1 -1 
+$r4 1 27 
+Fields: 1
+-1 fContentSpec 27
+Accesses: 2
+41 1 -1 
+26 1 -1 
+Functions: 3
+0 2 -1 27 
+35 3 7 27 12 
+45 2 -1 27 
+Constructors: 0
+
+Summary: 3
+-1 12 7 
+org/apache/xerces/impl/dtd/DTDGrammar.elementDecl(Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+15
+$r5 1 48 
+$r16 1 222 
+r10 1 -3 
+$r14 1 1 
+$r7 1 58 
+r0 1 -1 
+$r8 1 58 
+$r9 1 70 
+r13 1 -4 
+$r3 1 5 
+$r12 1 227 
+$r2 1 1 
+$r15 1 190 
+r1 1 -2 
+r4 1 5 
+Fields: 6
+-1 fQName 58
+-1 fElementDecl 190
+-1 fElementDeclIsExternal 222
+-1 fElementDeclTab 1
+48 name 70
+222 ArrayObject 227
+Accesses: 21
+0 1 -1 
+33 1 -1 
+161 1 -1 
+68 1 48 
+196 1 -1 
+230 1 -1 
+104 1 48 
+73 1 -1 
+45 1 -1 
+205 1 -1 
+175 1 -1 
+18 1 5 
+83 1 48 
+149 1 48 
+57 1 -1 
+89 1 48 
+185 1 -1 
+122 1 48 
+189 1 -1 
+221 1 -1 
+158 1 48 
+Functions: 14
+128 1 -3 
+1 2 1 -2 
+65 2 -2 58 
+193 6 -1 1 227 58 190 222 
+168 4 48 1 -2 70 
+41 6 -1 1 227 58 190 222 
+137 1 -3 
+77 2 70 58 
+110 1 -3 
+52 2 48 70 
+181 8 -1 48 1 227 70 58 190 222 
+218 6 -1 1 227 58 190 222 
+28 7 -1 1 -2 227 58 190 222 
+92 1 -3 
+Constructors: 1
+52 48
+
+Summary: 5
+-1 -4 -2 -3 5 
+org/apache/xerces/impl/dtd/DTDGrammar.isEntityUnparsed(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+23 1 -1 
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.getFirstElementDeclIndex()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.getNextElementDeclIndex(I)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.printAttributes(I)V
+PTG:
+Vars:
+7
+$r5 1 55 
+$r3 1 24 
+$r1 1 6 
+$r2 1 13 
+r0 1 -1 
+$r4 1 32 
+$r6 1 68 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -1 
+18 1 13 
+36 1 32 
+41 1 -1 
+73 1 68 
+10 1 6 
+44 1 -1 
+60 1 55 
+29 1 24 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.getContentSpecIndex(I)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 26 
+$r2 1 30 
+Fields: 2
+-1 fElementDeclContentSpecIndex 26
+26 ArrayObject 30
+Accesses: 2
+5 1 -1 
+25 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.printAttribute(I)V
+PTG:
+Vars:
+7
+$r7 1 38 
+r2 1 -1 
+$r6 1 25 
+$r0 1 0 
+$r5 1 32 
+$r4 1 29 
+$r3 1 17 
+Fields: 2
+29 localpart 32
+0 name 29
+Accesses: 2
+28 1 0 
+29 1 29 
+Functions: 5
+35 2 32 25 
+4 3 0 32 29 
+22 1 17 
+8 4 -1 0 32 29 
+43 1 38 
+Constructors: 1
+4 0
+
+Summary: 4
+-1 29 0 32 
+org/apache/xerces/impl/dtd/DTDGrammar.initializeContentModelStack()V
+PTG:
+Vars:
+15
+$r6 1 112 
+$r2 1 1 
+$r1 1 1 
+$r12 1 1 
+$r14 1 112 
+$r4 1 1 
+r3 1 52 
+$r8 1 18 
+r11 1 108 
+$r5 1 84 
+$r13 1 84 
+r10 1 80 
+$r9 1 26 
+$r7 1 10 
+r0 1 -1 
+Fields: 3
+-1 fPrevNodeIndexStack 112
+-1 fOpStack 1
+-1 fNodeIndexStack 84
+Accesses: 24
+0 1 -1 
+34 1 -1 
+130 1 -1 
+99 1 -1 
+38 1 -1 
+102 1 -1 
+134 1 -1 
+71 1 -1 
+74 1 -1 
+12 1 -1 
+140 1 -1 
+46 1 -1 
+111 1 -1 
+144 1 -1 
+83 1 -1 
+20 1 -1 
+118 1 -1 
+150 1 -1 
+55 1 -1 
+90 1 -1 
+154 1 -1 
+28 1 -1 
+62 1 -1 
+127 1 -1 
+Functions: 3
+66 2 1 52 
+122 2 112 108 
+94 2 80 84 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.getEntityDeclIndex(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -1 
+$r2 1 7 
+Fields: 1
+-1 fEntityIndexMap 7
+Accesses: 1
+6 1 -1 
+Functions: 1
+7 2 -2 7 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.getFirstAttributeDeclIndex(I)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 12 
+$r2 1 16 
+Fields: 2
+-1 fElementDeclFirstAttributeDeclIndex 12
+12 ArrayObject 16
+Accesses: 1
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.<init>(Lorg/apache/xerces/util/SymbolTable;Lorg/apache/xerces/impl/dtd/XMLDTDDescription;)V
+PTG:
+Vars:
+46
+$r22 1 219 
+$r38 1 385 
+$r32 1 309 
+$r16 1 166 
+$r24 1 235 
+$r28 1 272 
+$r21 1 211 
+$r1 1 31 
+$r2 1 39 
+$r8 1 97 
+$r23 1 227 
+$r25 1 243 
+$r13 1 137 
+r45 1 -3 
+$r19 1 195 
+$r41 1 439 
+$r5 1 63 
+$r35 1 342 
+$r39 1 396 
+$r18 1 187 
+$r20 1 203 
+$r37 1 374 
+$r40 1 407 
+$r4 1 55 
+$r14 1 145 
+$r11 1 121 
+$r7 1 84 
+$r29 1 280 
+$r10 1 113 
+$r26 1 256 
+$r42 1 451 
+$r31 1 298 
+$r34 1 331 
+$r15 1 158 
+r0 1 -1 
+r44 1 -2 
+$r6 1 71 
+$r3 1 47 
+$r12 1 129 
+$r43 1 459 
+$r27 1 264 
+$r9 1 105 
+$r30 1 287 
+$r33 1 320 
+$r36 1 363 
+$r17 1 174 
+Fields: 0
+Accesses: 65
+259 1 -1 
+132 1 -1 
+6 1 -1 
+392 1 -1 
+11 1 -1 
+267 1 -1 
+140 1 -1 
+16 1 -1 
+275 1 -1 
+403 1 -1 
+148 1 -1 
+21 1 -1 
+153 1 -1 
+26 1 -1 
+283 1 -1 
+414 1 -1 
+161 1 -1 
+34 1 -1 
+419 1 -1 
+294 1 -1 
+424 1 -1 
+169 1 -1 
+42 1 -1 
+429 1 -1 
+177 1 -1 
+305 1 -1 
+50 1 -1 
+434 1 -1 
+182 1 -1 
+441 1 -1 
+58 1 -1 
+316 1 -1 
+190 1 -1 
+446 1 -1 
+66 1 -1 
+198 1 -1 
+454 1 -1 
+327 1 -1 
+74 1 -1 
+206 1 -1 
+462 1 -1 
+79 1 -1 
+338 1 -1 
+467 1 -1 
+214 1 -1 
+87 1 -1 
+472 1 -1 
+92 1 -1 
+349 1 -1 
+477 1 -1 
+222 1 -1 
+354 1 -1 
+482 1 -1 
+100 1 -1 
+230 1 -1 
+359 1 -1 
+487 1 -1 
+108 1 -1 
+238 1 -1 
+370 1 -1 
+116 1 -1 
+246 1 -1 
+251 1 -1 
+124 1 -1 
+381 1 -1 
+Functions: 12
+400 1 396 
+1 1 -1 
+291 1 287 
+324 1 320 
+389 1 385 
+313 1 309 
+346 1 342 
+378 1 374 
+411 1 407 
+302 1 298 
+335 1 331 
+367 1 363 
+Constructors: 12
+400 396
+1 -1
+291 287
+324 320
+389 385
+313 309
+346 342
+378 374
+411 407
+302 298
+335 331
+367 363
+
+Summary: 3
+1 0 -1 
+org/apache/xerces/impl/dtd/DTDGrammar.externalEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r7 1 58 
+$r2 1 33 
+$r5 1 46 
+r8 1 -4 
+r1 1 -2 
+r4 1 -3 
+$r6 1 52 
+Fields: 0
+Accesses: 1
+27 1 -1 
+Functions: 9
+0 2 -1 -2 
+19 1 -2 
+51 1 -3 
+37 1 33 
+69 5 33 -2 52 58 46 
+57 1 -3 
+13 1 -1 
+45 1 -3 
+77 2 -1 33 
+Constructors: 1
+37 33
+
+Summary: 8
+-1 -4 52 58 -2 33 -3 46 
+org/apache/xerces/impl/dtd/DTDGrammar.ensureNotationDeclCapacity(I)V
+PTG:
+Vars:
+24
+$r20 1 57 
+$r21 1 65 
+$r23 1 75 
+$r2 1 2 
+$r7 1 29 
+$r17 1 39 
+$r22 1 65 
+$r6 1 114 
+$r10 1 138 
+r0 1 -1 
+$r12 1 2 
+$r15 1 29 
+$r13 1 2 
+$r19 1 47 
+$r1 1 2 
+$r16 1 29 
+$r3 1 89 
+$r8 1 126 
+$r4 1 102 
+$r5 1 2 
+$r14 1 21 
+$r18 1 47 
+$r9 1 47 
+$r11 1 65 
+Fields: 5
+-1 fNotationBaseSystemId 65
+-1 fNotationPublicId 29
+-1 fNotationName 2
+-1 fNotationSystemId 47
+2 ArrayObject 89
+Accesses: 18
+32 1 -1 
+64 1 -1 
+1 1 -1 
+130 1 -1 
+68 1 -1 
+10 1 -1 
+42 1 -1 
+106 1 -1 
+14 1 -1 
+46 1 -1 
+78 1 -1 
+50 1 -1 
+84 1 -1 
+118 1 -1 
+24 1 -1 
+28 1 -1 
+60 1 -1 
+94 1 -1 
+Functions: 4
+20 2 2 89 
+38 1 29 
+56 1 47 
+74 1 65 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.endParameterEntity(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+r0 1 -1 
+$r1 1 12 
+r3 1 -3 
+Fields: 1
+-1 fPEntityStack 12
+Accesses: 5
+0 1 -1 
+20 1 -1 
+7 1 -1 
+11 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.getElementDecl(ILorg/apache/xerces/impl/dtd/XMLElementDecl;)Z
+PTG:
+Vars:
+18
+r0 1 -1 
+$r6 1 43 
+$r8 1 43 
+$r10 1 43 
+$r13 1 136 
+$r4 1 38 
+$r14 1 61 
+$r3 1 35 
+$r7 1 47 
+$r9 1 77 
+$r15 2 61 90 
+$r16 2 61 90 
+$r2 1 31 
+$r12 1 90 
+$r11 1 98 
+$r5 1 27 
+$r17 2 61 90 
+r1 1 -3 
+Fields: 10
+-1 fElementDeclType 43
+-1 fElementDeclName 31
+31 ArrayObject 35
+-3 name 27
+-3 simpleType 90
+-3 simpleType 61
+43 ArrayObject 77
+43 ArrayObject 98
+43 ArrayObject 47
+35 ArrayObject 38
+Accesses: 21
+65 1 61 
+163 2 90 61 
+5 1 -1 
+72 1 -1 
+42 1 -1 
+139 1 -3 
+142 1 -3 
+114 1 90 
+147 2 90 61 
+117 1 -3 
+86 1 -3 
+150 1 -3 
+57 1 -3 
+89 1 -3 
+26 1 -3 
+155 2 90 61 
+60 1 -3 
+93 1 -1 
+125 1 -3 
+30 1 -1 
+158 1 -3 
+Functions: 2
+134 8 -1 98 35 38 43 77 31 47 
+39 2 38 27 
+Constructors: 0
+
+Summary: 5
+27 61 -3 -1 90 
+org/apache/xerces/impl/dtd/DTDGrammar.getElementDeclIndex(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 fElementIndexMap 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.isImmutable()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.notationDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+8
+r8 1 -4 
+$r4 1 13 
+r3 1 -3 
+r2 1 -2 
+$r6 1 25 
+r7 1 -1 
+$r5 1 19 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 8
+33 2 -1 -2 
+18 1 -3 
+4 1 0 
+24 1 -3 
+57 2 -1 0 
+12 1 -3 
+30 5 0 -2 19 25 13 
+46 1 -1 
+Constructors: 1
+4 0
+
+Summary: 8
+-1 13 -4 -2 -3 19 25 0 
+org/apache/xerces/impl/dtd/DTDGrammar.setFirstAttributeDeclIndex(II)V
+PTG:
+Vars:
+3
+$r2 1 30 
+$r1 1 26 
+r0 1 -1 
+Fields: 2
+-1 fElementDeclFirstAttributeDeclIndex 26
+26 ArrayObject 30
+Accesses: 2
+5 1 -1 
+25 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.getElementDeclIndex(Lorg/apache/xerces/xni/QName;)I
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+Fields: 1
+-2 rawname 2
+Accesses: 1
+1 1 -2 
+Functions: 1
+0 2 -1 2 
+Constructors: 0
+
+Summary: 3
+-1 -2 2 
+org/apache/xerces/impl/dtd/DTDGrammar.unparsedEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+9
+r2 1 -2 
+$r0 1 0 
+r9 1 -5 
+r3 1 -1 
+r8 1 -4 
+r4 1 -3 
+$r5 1 27 
+$r6 1 33 
+$r7 1 39 
+Fields: 0
+Accesses: 1
+17 1 -1 
+Functions: 9
+32 1 -3 
+50 6 0 -2 33 -4 39 27 
+66 1 -1 
+4 1 0 
+53 2 -1 -2 
+38 1 -3 
+9 1 -2 
+26 1 -3 
+77 2 -1 0 
+Constructors: 1
+4 0
+
+Summary: 9
+-1 27 -4 -2 33 39 -3 -5 0 
+org/apache/xerces/impl/dtd/DTDGrammar.createAttributeDecl()I
+PTG:
+Vars:
+18
+$r3 1 27 
+r0 1 -1 
+$r7 1 51 
+$r11 1 69 
+$r4 1 38 
+$r15 1 87 
+$r8 1 56 
+$r10 1 65 
+$r12 1 74 
+$r5 1 42 
+$r13 1 78 
+$r16 1 92 
+$r6 1 47 
+$r14 1 83 
+$r17 1 96 
+$r2 1 29 
+$r9 1 60 
+$r1 1 23 
+Fields: 16
+-1 fAttributeDeclNextAttributeDeclIndex 92
+-1 fAttributeDeclDefaultType 65
+-1 fAttributeDeclDatatypeValidator 47
+-1 fAttributeDeclDefaultValue 74
+-1 fAttributeDeclEnumeration 56
+-1 fAttributeDeclNonNormalizedDefaultValue 83
+-1 fAttributeDeclName 23
+-1 fAttributeDeclType 38
+65 ArrayObject 69
+74 ArrayObject 78
+47 ArrayObject 51
+83 ArrayObject 87
+92 ArrayObject 96
+38 ArrayObject 42
+56 ArrayObject 60
+23 ArrayObject 27
+Accesses: 12
+0 1 -1 
+64 1 -1 
+82 1 -1 
+100 1 -1 
+37 1 -1 
+22 1 -1 
+55 1 -1 
+8 1 -1 
+73 1 -1 
+91 1 -1 
+108 1 -1 
+46 1 -1 
+Functions: 2
+33 1 29 
+19 17 -1 96 65 69 38 74 42 78 47 83 51 23 87 56 27 92 60 
+Constructors: 1
+33 29
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.pcdata(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.putElementNameMapping(Lorg/apache/xerces/xni/QName;II)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.createElementDecl()I
+PTG:
+Vars:
+12
+$r1 1 23 
+$r6 1 47 
+$r9 1 60 
+$r4 1 38 
+$r8 1 56 
+r0 1 -1 
+$r3 1 27 
+$r5 1 42 
+$r7 1 51 
+$r10 1 65 
+$r2 1 29 
+$r11 1 69 
+Fields: 10
+-1 fElementDeclFirstAttributeDeclIndex 56
+-1 fElementDeclLastAttributeDeclIndex 65
+-1 fElementDeclType 38
+-1 fElementDeclContentModelValidator 47
+-1 fElementDeclName 23
+65 ArrayObject 69
+47 ArrayObject 51
+38 ArrayObject 42
+56 ArrayObject 60
+23 ArrayObject 27
+Accesses: 9
+0 1 -1 
+64 1 -1 
+81 1 -1 
+37 1 -1 
+22 1 -1 
+55 1 -1 
+8 1 -1 
+73 1 -1 
+46 1 -1 
+Functions: 2
+33 1 29 
+19 11 -1 65 51 69 38 23 56 42 27 60 47 
+Constructors: 1
+33 29
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.getContentSpecAsString(I)Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 26 
+$r3 1 35 
+$r2 1 30 
+r0 1 -1 
+Fields: 2
+-1 fElementDeclContentSpecIndex 26
+26 ArrayObject 30
+Accesses: 27
+64 1 35 
+580 1 35 
+5 1 -1 
+517 1 35 
+136 1 35 
+393 1 35 
+202 1 35 
+331 1 35 
+780 1 35 
+144 1 35 
+595 1 35 
+405 1 35 
+533 1 35 
+25 1 -1 
+351 1 35 
+607 1 35 
+224 1 35 
+740 1 35 
+165 1 35 
+359 1 35 
+553 1 35 
+561 1 35 
+628 1 35 
+758 1 35 
+186 1 35 
+378 1 35 
+315 1 35 
+Functions: 51
+641 0 
+386 0 
+132 0 
+774 0 
+266 0 
+398 0 
+529 4 -1 35 26 30 
+785 0 
+278 4 -1 35 26 30 
+156 0 
+796 0 
+285 0 
+670 0 
+417 0 
+549 0 
+39 1 35 
+807 0 
+170 0 
+682 4 -1 35 26 30 
+811 0 
+44 4 -1 35 26 30 
+300 4 -1 35 26 30 
+432 4 -1 35 26 30 
+689 0 
+178 0 
+307 0 
+439 0 
+59 0 
+573 0 
+704 4 -1 35 26 30 
+198 4 -1 35 26 30 
+327 4 -1 35 26 30 
+711 0 
+588 0 
+468 0 
+726 4 -1 35 26 30 
+600 0 
+218 0 
+347 0 
+480 4 -1 35 26 30 
+736 0 
+229 0 
+487 0 
+619 0 
+237 0 
+752 0 
+371 0 
+502 4 -1 35 26 30 
+633 0 
+763 0 
+509 0 
+Constructors: 1
+39 35
+
+Summary: 14
+782 317 146 188 742 35 519 390 55 -1 361 138 592 563 
+org/apache/xerces/impl/dtd/DTDGrammar.getContentSpecType(I)S
+PTG:
+Vars:
+5
+$r2 1 30 
+$r3 1 26 
+$r1 1 26 
+$r4 1 44 
+r0 1 -1 
+Fields: 3
+-1 fElementDeclType 26
+26 ArrayObject 30
+26 ArrayObject 44
+Accesses: 3
+5 1 -1 
+39 1 -1 
+25 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.resize([[[Ljava/lang/String;I)[[[Ljava/lang/String;
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -2 1 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xerces/impl/dtd/DTDGrammar.ignoredCharacters(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.processingInstruction(Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r3 1 -4 
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-1 -4 -2 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.getNotationDecl(ILorg/apache/xerces/impl/dtd/XMLNotationDecl;)Z
+PTG:
+Vars:
+14
+$r5 1 41 
+$r8 1 55 
+r0 1 -1 
+$r10 1 62 
+$r13 1 35 
+$r6 1 46 
+$r7 1 50 
+$r11 1 53 
+r1 1 -3 
+$r2 1 28 
+$r12 1 44 
+$r3 1 32 
+$r4 1 37 
+$r9 1 59 
+Fields: 12
+-1 fNotationBaseSystemId 55
+-1 fNotationPublicId 37
+-1 fNotationName 28
+-1 fNotationSystemId 46
+41 ArrayObject 44
+37 ArrayObject 41
+55 ArrayObject 59
+28 ArrayObject 32
+46 ArrayObject 50
+59 ArrayObject 62
+32 ArrayObject 35
+50 ArrayObject 53
+Accesses: 5
+36 1 -1 
+5 1 -1 
+54 1 -1 
+27 1 -1 
+45 1 -1 
+Functions: 1
+63 5 -3 35 53 44 62 
+Constructors: 0
+
+Summary: 2
+-3 -1 
+org/apache/xerces/impl/dtd/DTDGrammar.getSymbolTable()Lorg/apache/xerces/util/SymbolTable;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fSymbolTable 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.occurrence(SLorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+8
+$r1 1 77 
+r0 1 -1 
+$r2 1 77 
+$r4 1 45 
+$r5 1 13 
+r7 1 -3 
+$r3 1 45 
+$r6 1 13 
+Fields: 3
+-1 fNodeIndexStack 77
+-1 fNodeIndexStack 13
+-1 fNodeIndexStack 45
+Accesses: 13
+0 1 -1 
+12 1 -1 
+44 1 -1 
+76 1 -1 
+16 1 -1 
+48 1 -1 
+80 1 -1 
+22 1 -1 
+54 1 -1 
+86 1 -1 
+26 1 -1 
+58 1 -1 
+90 1 -1 
+Functions: 3
+20 4 -1 77 13 45 
+52 4 -1 77 13 45 
+84 4 -1 77 13 45 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.contentSpecTree(ILorg/apache/xerces/impl/dtd/XMLContentSpec;Lorg/apache/xerces/impl/dtd/DTDGrammar$ChildrenList;)V
+PTG:
+Vars:
+14
+r0 1 -1 
+r1 1 -3 
+$r21 1 314 
+$r25 1 188 
+$r19 1 300 
+$r17 1 213 
+$r23 1 324 
+r2 1 -4 
+$r22 1 321 
+$r24 1 188 
+$r18 1 213 
+$r16 1 213 
+$r20 1 304 
+$r15 1 188 
+Fields: 2
+-3 value 188
+-3 otherValue 213
+Accesses: 34
+129 1 -4 
+194 1 -3 
+7 1 -3 
+73 1 -4 
+138 1 -3 
+267 1 -3 
+14 1 -3 
+81 1 -4 
+145 1 -3 
+275 1 -3 
+212 1 -3 
+152 1 -3 
+26 1 -3 
+91 1 -4 
+219 1 -3 
+283 1 -3 
+94 1 -4 
+163 1 -4 
+38 1 -3 
+167 1 -4 
+104 1 -4 
+234 1 -3 
+171 1 -3 
+112 1 -4 
+176 1 -4 
+50 1 -4 
+242 1 -3 
+54 1 -4 
+183 1 -4 
+122 1 -4 
+187 1 -3 
+125 1 -4 
+317 1 -3 
+62 1 -4 
+Functions: 12
+304 1 304 
+321 1 321 
+3 4 -1 -3 213 188 
+116 0 
+308 1 304 
+85 0 
+263 5 -1 -3 -4 213 188 
+327 2 324 300 
+296 5 -1 -3 -4 213 188 
+314 1 314 
+159 0 
+255 5 -1 -3 -4 213 188 
+Constructors: 2
+308 304
+327 300
+
+Summary: 15
+213 -4 55 314 2 1 153 -3 188 321 304 -1 324 105 139 
+org/apache/xerces/impl/dtd/DTDGrammar.separator(SLorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+20
+$r14 1 8 
+$r1 1 8 
+$r13 1 25 
+r19 1 -3 
+$r11 1 25 
+$r2 1 8 
+$r18 1 38 
+$r7 1 8 
+$r16 1 25 
+$r12 1 38 
+$r5 1 127 
+$r4 1 140 
+$r6 1 8 
+$r3 1 127 
+$r10 1 140 
+$r15 1 8 
+$r8 1 127 
+$r9 1 140 
+r0 1 -1 
+$r17 1 38 
+Fields: 5
+-1 fPrevNodeIndexStack 127
+-1 fPrevNodeIndexStack 25
+-1 fOpStack 8
+-1 fNodeIndexStack 140
+-1 fNodeIndexStack 38
+Accesses: 37
+0 1 -1 
+64 1 -1 
+130 1 -1 
+68 1 -1 
+197 1 -1 
+7 1 -1 
+201 1 -1 
+11 1 -1 
+139 1 -1 
+77 1 -1 
+143 1 -1 
+81 1 -1 
+148 1 -1 
+85 1 -1 
+24 1 -1 
+152 1 -1 
+89 1 -1 
+28 1 -1 
+157 1 -1 
+95 1 -1 
+161 1 -1 
+99 1 -1 
+37 1 -1 
+166 1 -1 
+41 1 -1 
+170 1 -1 
+108 1 -1 
+46 1 -1 
+112 1 -1 
+50 1 -1 
+179 1 -1 
+55 1 -1 
+183 1 -1 
+59 1 -1 
+187 1 -1 
+126 1 -1 
+191 1 -1 
+Functions: 2
+147 6 -1 38 8 25 140 127 
+45 6 -1 38 8 25 140 127 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.element(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r6 1 8 
+r7 1 -3 
+$r5 1 8 
+$r2 1 69 
+$r3 1 8 
+r1 1 -2 
+$r4 1 8 
+Fields: 2
+-1 fNodeIndexStack 69
+-1 fNodeIndexStack 8
+Accesses: 11
+0 1 -1 
+51 1 -1 
+20 1 -1 
+68 1 -1 
+37 1 -1 
+7 1 -1 
+24 1 -1 
+72 1 -1 
+41 1 -1 
+11 1 -1 
+47 1 -1 
+Functions: 4
+56 4 -1 -2 69 8 
+28 4 -1 -2 69 8 
+76 4 -1 -2 69 8 
+45 3 -1 69 8 
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.setNotationDecl(ILorg/apache/xerces/impl/dtd/XMLNotationDecl;)V
+PTG:
+Vars:
+16
+$r10 1 43 
+$r13 1 56 
+$r4 1 17 
+$r6 1 34 
+$r15 1 65 
+$r5 1 26 
+$r11 1 52 
+$r12 1 60 
+$r9 1 47 
+r2 1 -3 
+$r8 1 39 
+$r3 1 21 
+$r1 1 13 
+$r7 1 30 
+r0 1 -1 
+$r14 1 21 
+Fields: 13
+-1 fNotationBaseSystemId 52
+-1 fNotationPublicId 26
+-1 fNotationIndexMap 65
+-1 fNotationName 13
+-1 fNotationSystemId 39
+13 ArrayObject 17
+52 ArrayObject 56
+39 ArrayObject 43
+-3 name 21
+-3 systemId 47
+-3 publicId 34
+-3 baseSystemId 60
+26 ArrayObject 30
+Accesses: 10
+64 1 -1 
+33 1 -3 
+51 1 -1 
+20 1 -3 
+68 1 -3 
+38 1 -1 
+25 1 -1 
+59 1 -3 
+12 1 -1 
+46 1 -3 
+Functions: 1
+73 2 65 21 
+Constructors: 0
+
+Summary: 2
+-3 -1 
+org/apache/xerces/impl/dtd/DTDGrammar.getEntityDecl(ILorg/apache/xerces/impl/dtd/XMLEntityDecl;)Z
+PTG:
+Vars:
+24
+$r20 1 44 
+$r6 1 46 
+r0 1 -1 
+$r22 1 62 
+$r10 1 64 
+$r23 1 71 
+$r16 1 99 
+$r21 1 53 
+$r24 1 80 
+$r4 1 37 
+$r3 1 32 
+$r19 1 35 
+$r2 1 28 
+$r14 1 82 
+$r17 1 103 
+$r9 1 59 
+$r7 1 50 
+$r13 1 77 
+$r5 1 41 
+$r15 1 86 
+$r11 1 68 
+r1 1 -3 
+$r12 1 73 
+$r8 1 55 
+Fields: 22
+41 ArrayObject 44
+55 ArrayObject 59
+77 ArrayObject 80
+59 ArrayObject 62
+68 ArrayObject 71
+32 ArrayObject 35
+50 ArrayObject 53
+-1 fEntityPublicId 37
+-1 fEntityInExternal 99
+-1 fEntityName 28
+-1 fEntityNotation 64
+-1 fEntitySystemId 46
+-1 fEntityValue 73
+-1 fEntityBaseSystemId 55
+-1 fEntityIsPE 82
+37 ArrayObject 41
+82 ArrayObject 86
+28 ArrayObject 32
+99 ArrayObject 103
+46 ArrayObject 50
+64 ArrayObject 68
+73 ArrayObject 77
+Accesses: 9
+81 1 -1 
+98 1 -1 
+36 1 -1 
+5 1 -1 
+54 1 -1 
+72 1 -1 
+27 1 -1 
+45 1 -1 
+63 1 -1 
+Functions: 1
+115 7 80 -3 35 53 71 44 62 
+Constructors: 0
+
+Summary: 2
+-3 -1 
+org/apache/xerces/impl/dtd/DTDGrammar.ensureContentSpecCapacity(I)V
+PTG:
+Vars:
+19
+$r2 1 2 
+$r9 1 47 
+$r13 1 29 
+$r7 1 29 
+$r12 1 21 
+$r1 1 2 
+$r10 1 2 
+$r15 1 39 
+$r5 1 2 
+$r6 1 95 
+$r4 1 84 
+$r16 1 47 
+$r18 1 57 
+$r17 1 47 
+$r11 1 2 
+$r8 1 107 
+r0 1 -1 
+$r14 1 29 
+$r3 1 71 
+Fields: 4
+-1 fContentSpecOtherValue 47
+-1 fContentSpecValue 29
+-1 fContentSpecType 2
+2 ArrayObject 71
+Accesses: 14
+32 1 -1 
+1 1 -1 
+66 1 -1 
+99 1 -1 
+10 1 -1 
+42 1 -1 
+76 1 -1 
+14 1 -1 
+46 1 -1 
+50 1 -1 
+87 1 -1 
+24 1 -1 
+28 1 -1 
+60 1 -1 
+Functions: 3
+20 2 2 71 
+38 1 29 
+56 1 47 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.isEntityDeclared(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.getNextAttributeDeclIndex(I)I
+PTG:
+Vars:
+3
+$r1 1 12 
+$r2 1 16 
+r0 1 -1 
+Fields: 2
+-1 fAttributeDeclNextAttributeDeclIndex 12
+12 ArrayObject 16
+Accesses: 1
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.startContentModel(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+6
+r5 1 -3 
+r4 1 5 
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+$r3 1 5 
+Fields: 1
+-1 fElementDeclTab 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+23 1 -1 
+Functions: 2
+1 2 1 -2 
+27 2 -1 1 
+Constructors: 0
+
+Summary: 5
+-1 -2 1 0 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.appendContentSpec(Lorg/apache/xerces/impl/dtd/XMLContentSpec;Ljava/lang/StringBuffer;ZI)V
+PTG:
+Vars:
+30
+r13 1 -1 
+$r52 1 164 
+$r48 1 68 
+$r38 1 61 
+$r56 1 357 
+$r44 1 68 
+$r45 1 101 
+$r39 1 61 
+$r37 1 205 
+$r36 1 205 
+$r55 1 357 
+$r4 1 584 
+r0 1 -2 
+$r9 1 550 
+$r27 1 391 
+r1 1 -3 
+$r41 1 61 
+$r15 1 453 
+$r54 1 257 
+$r26 1 391 
+$r7 1 550 
+$r53 1 257 
+$r12 1 441 
+$r14 1 453 
+$r51 1 164 
+$r31 1 298 
+$r11 1 441 
+$r40 1 61 
+$r32 1 298 
+$r46 1 68 
+Fields: 12
+-2 value 61
+-2 value 257
+-2 value 298
+-2 value 164
+-2 value 391
+-2 value 357
+-2 value 205
+-2 value 453
+-2 otherValue 584
+-2 otherValue 550
+-2 otherValue 68
+-2 otherValue 441
+Accesses: 21
+0 1 -2 
+256 1 -2 
+67 1 -2 
+163 1 -2 
+356 1 -2 
+452 1 -2 
+133 1 -2 
+549 1 -2 
+390 1 -2 
+583 1 -2 
+104 1 -2 
+297 1 -2 
+204 1 -2 
+434 1 -2 
+115 1 -2 
+84 1 -2 
+564 1 -2 
+469 1 -2 
+440 1 -2 
+91 1 -2 
+60 1 -2 
+Functions: 41
+578 1 -3 
+323 1 -3 
+515 14 -1 -2 257 164 68 357 453 550 391 584 298 205 441 61 
+196 1 -3 
+137 2 -3 61 
+266 14 -1 -2 257 164 68 357 453 550 391 584 298 205 441 61 
+587 2 -3 584 
+77 1 -3 
+525 15 -1 -2 257 -3 164 68 357 453 550 391 584 298 205 441 61 
+462 14 -1 -2 257 164 68 357 453 550 391 584 298 205 441 61 
+400 14 -1 -2 257 164 68 357 453 550 391 584 298 205 441 61 
+273 1 -3 
+597 1 -3 
+214 14 -1 -2 257 164 68 357 453 550 391 584 298 205 441 61 
+535 1 -3 
+410 15 -1 -2 257 -3 164 68 357 453 550 391 584 298 205 441 61 
+283 15 -1 -2 257 -3 164 68 357 453 550 391 584 298 205 441 61 
+351 1 -3 
+607 1 -3 
+224 15 -1 -2 257 -3 164 68 357 453 550 391 584 298 205 441 61 
+416 1 -3 
+289 1 -3 
+545 1 -3 
+98 1 -3 
+485 15 -1 -2 257 -3 164 68 357 453 550 391 584 298 205 441 61 
+230 1 -3 
+108 2 68 101 
+173 14 -1 -2 257 164 68 357 453 550 391 584 298 205 441 61 
+366 14 -1 -2 257 164 68 357 453 550 391 584 298 205 441 61 
+430 1 -3 
+559 1 -3 
+497 1 -3 
+307 14 -1 -2 257 164 68 357 453 550 391 584 298 205 441 61 
+180 1 -3 
+376 15 -1 -2 257 -3 164 68 357 453 550 391 584 298 205 441 61 
+568 2 -3 550 
+507 1 -3 
+125 1 -3 
+317 15 -1 -2 257 -3 164 68 357 453 550 391 584 298 205 441 61 
+190 15 -1 -2 257 -3 164 68 357 453 550 391 584 298 205 441 61 
+382 1 -3 
+Constructors: 0
+
+Summary: 18
+61 1 101 -3 164 68 357 441 453 -1 550 -2 257 0 298 584 391 205 
+org/apache/xerces/impl/dtd/DTDGrammar.getElementContentModelValidator(I)Lorg/apache/xerces/impl/dtd/models/ContentModelValidator;
+PTG:
+Vars:
+18
+$r3 1 30 
+_ret 2 141 100 
+$r6 1 52 
+$r19 1 57 
+$r15 1 111 
+r0 1 -1 
+$r16 1 106 
+$r5 1 48 
+$r23 2 141 100 
+$r2 1 16 
+$r20 1 81 
+$r21 1 100 
+$r1 1 12 
+$r10 1 12 
+r17 1 19 
+$r4 1 34 
+r18 2 141 100 
+$r11 1 161 
+Fields: 10
+-1 fElementDeclContentSpecIndex 48
+-1 fElementDeclContentModelValidator 12
+-1 fElementDeclType 30
+48 ArrayObject 52
+16 ArrayObject 19
+30 ArrayObject 34
+12 ArrayObject 16
+12 ArrayObject 161
+81 type 111
+81 qname 106
+Accesses: 7
+115 1 81 
+104 1 81 
+11 1 -1 
+156 1 -1 
+29 1 -1 
+109 1 81 
+47 1 -1 
+Functions: 7
+97 13 -1 161 34 106 12 111 48 16 81 19 52 57 30 
+85 3 81 106 111 
+71 10 -1 48 16 161 34 19 52 57 12 30 
+135 9 -1 48 16 161 34 19 52 12 30 
+152 0 
+121 3 100 106 111 
+61 1 57 
+Constructors: 3
+85 81
+121 100
+61 57
+
+Summary: 5
+106 111 -1 57 81 
+org/apache/xerces/impl/dtd/DTDGrammar.ensureElementDeclCapacity(I)V
+PTG:
+Vars:
+39
+$r6 1 167 
+$r33 1 101 
+$r2 1 2 
+$r5 1 11 
+$r1 1 2 
+$r7 1 2 
+$r36 1 119 
+$r9 1 47 
+$r37 1 119 
+$r24 1 47 
+$r23 1 39 
+$r22 1 2 
+$r25 1 47 
+$r13 1 83 
+r0 1 -1 
+$r4 1 156 
+$r21 1 2 
+$r18 1 11 
+$r20 1 21 
+$r34 1 101 
+$r30 1 83 
+$r3 1 143 
+$r15 1 101 
+$r27 1 65 
+$r11 1 65 
+$r26 1 57 
+$r10 1 190 
+$r38 1 129 
+$r29 1 75 
+$r17 1 119 
+$r8 1 179 
+$r14 1 213 
+$r28 1 65 
+$r16 1 224 
+$r12 1 202 
+$r19 1 11 
+$r35 1 111 
+$r31 1 83 
+$r32 1 93 
+Fields: 8
+-1 fElementDeclContentSpecIndex 83
+-1 fElementDeclFirstAttributeDeclIndex 101
+-1 fElementDeclLastAttributeDeclIndex 119
+-1 fElementDeclType 47
+-1 fElementDeclContentModelValidator 65
+-1 fElementDeclIsExternal 11
+-1 fElementDeclName 2
+2 ArrayObject 143
+Accesses: 30
+64 1 -1 
+1 1 -1 
+194 1 -1 
+68 1 -1 
+132 1 -1 
+10 1 -1 
+138 1 -1 
+205 1 -1 
+14 1 -1 
+78 1 -1 
+82 1 -1 
+148 1 -1 
+86 1 -1 
+24 1 -1 
+216 1 -1 
+28 1 -1 
+159 1 -1 
+32 1 -1 
+96 1 -1 
+100 1 -1 
+104 1 -1 
+42 1 -1 
+171 1 -1 
+46 1 -1 
+50 1 -1 
+114 1 -1 
+118 1 -1 
+182 1 -1 
+122 1 -1 
+60 1 -1 
+Functions: 7
+128 1 119 
+20 1 11 
+38 2 2 143 
+56 1 47 
+74 1 65 
+92 1 83 
+110 1 101 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.setElementDecl(ILorg/apache/xerces/impl/dtd/XMLElementDecl;)V
+PTG:
+Vars:
+17
+$r6 1 42 
+r0 1 -1 
+$r5 1 33 
+$r11 1 68 
+$r13 1 102 
+$r14 1 95 
+$r2 1 30 
+$r7 1 46 
+$r16 1 83 
+$r8 1 55 
+r3 1 -3 
+$r10 1 59 
+$r9 1 63 
+$r1 1 26 
+$r4 1 35 
+$r15 1 42 
+$r12 1 35 
+Fields: 13
+-1 fElementDeclType 42
+-1 fElementDeclContentModelValidator 55
+-1 fElementDeclName 26
+-1 fElementIndexMap 95
+55 ArrayObject 59
+30 ArrayObject 33
+42 ArrayObject 83
+42 ArrayObject 46
+-3 name 35
+-3 contentModelValidator 63
+-3 simpleType 68
+35 rawname 102
+26 ArrayObject 30
+Accesses: 13
+34 1 -3 
+98 1 -3 
+67 1 -3 
+99 1 35 
+68 1 68 
+5 1 -1 
+41 1 -1 
+78 1 -1 
+49 1 -3 
+54 1 -1 
+25 1 -1 
+62 1 -3 
+94 1 -1 
+Functions: 2
+38 3 33 35 102 
+106 2 102 95 
+Constructors: 0
+
+Summary: 5
+-3 35 68 -1 102 
+org/apache/xerces/impl/dtd/DTDGrammar.createContentSpec()I
+PTG:
+Vars:
+7
+r0 1 -1 
+$r2 1 27 
+$r3 1 32 
+$r6 1 45 
+$r4 1 36 
+$r1 1 23 
+$r5 1 41 
+Fields: 6
+-1 fContentSpecOtherValue 41
+-1 fContentSpecValue 32
+-1 fContentSpecType 23
+41 ArrayObject 45
+32 ArrayObject 36
+23 ArrayObject 27
+Accesses: 7
+0 1 -1 
+49 1 -1 
+22 1 -1 
+8 1 -1 
+40 1 -1 
+57 1 -1 
+31 1 -1 
+Functions: 1
+19 7 -1 32 36 23 41 27 45 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.resize([[Ljava/lang/Object;I)[[Ljava/lang/Object;
+PTG:
+Vars:
+3
+_ret 1 1 
+r1 1 -2 
+r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -2 1 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xerces/impl/dtd/DTDGrammar.ensureAttributeDeclCapacity(I)V
+PTG:
+Vars:
+49
+$r39 1 111 
+$r26 1 2 
+$r10 1 226 
+$r23 1 11 
+$r27 1 39 
+r0 1 -1 
+$r11 1 65 
+$r14 1 249 
+$r32 1 65 
+$r3 1 179 
+$r41 1 119 
+$r40 1 119 
+$r6 1 203 
+$r46 1 155 
+$r45 1 147 
+$r28 1 47 
+$r47 1 155 
+$r37 1 101 
+$r9 1 47 
+$r33 1 75 
+$r20 1 285 
+$r36 1 93 
+$r19 1 137 
+$r12 1 238 
+$r8 1 215 
+$r2 1 2 
+$r31 1 65 
+$r21 1 155 
+$r44 1 137 
+$r7 1 2 
+$r22 1 11 
+$r42 1 129 
+$r24 1 21 
+$r13 1 83 
+$r5 1 11 
+$r25 1 2 
+$r30 1 57 
+$r4 1 192 
+$r15 1 101 
+$r1 1 2 
+$r48 1 165 
+$r29 1 47 
+$r43 1 137 
+$r34 1 83 
+$r17 1 119 
+$r38 1 101 
+$r35 1 83 
+$r16 1 261 
+$r18 1 273 
+Fields: 10
+-1 fAttributeDeclNextAttributeDeclIndex 155
+-1 fAttributeDeclDefaultType 83
+-1 fAttributeDeclDatatypeValidator 101
+-1 fAttributeDeclDefaultValue 119
+-1 fAttributeDeclIsExternal 11
+-1 fAttributeDeclEnumeration 65
+-1 fAttributeDeclNonNormalizedDefaultValue 137
+-1 fAttributeDeclName 2
+-1 fAttributeDeclType 47
+2 ArrayObject 179
+Accesses: 38
+64 1 -1 
+1 1 -1 
+195 1 -1 
+68 1 -1 
+132 1 -1 
+136 1 -1 
+265 1 -1 
+10 1 -1 
+140 1 -1 
+14 1 -1 
+78 1 -1 
+207 1 -1 
+82 1 -1 
+277 1 -1 
+86 1 -1 
+150 1 -1 
+24 1 -1 
+154 1 -1 
+218 1 -1 
+28 1 -1 
+158 1 -1 
+32 1 -1 
+96 1 -1 
+100 1 -1 
+230 1 -1 
+104 1 -1 
+168 1 -1 
+42 1 -1 
+46 1 -1 
+174 1 -1 
+241 1 -1 
+50 1 -1 
+114 1 -1 
+118 1 -1 
+184 1 -1 
+122 1 -1 
+60 1 -1 
+253 1 -1 
+Functions: 9
+128 1 119 
+146 1 137 
+20 1 11 
+164 1 155 
+38 2 2 179 
+56 1 47 
+74 1 65 
+92 1 83 
+110 1 101 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.setEntityDecl(ILorg/apache/xerces/impl/dtd/XMLEntityDecl;)V
+PTG:
+Vars:
+26
+$r11 1 52 
+$r1 1 13 
+$r19 1 82 
+$r18 1 86 
+$r20 1 91 
+$r7 1 30 
+$r6 1 34 
+$r25 1 133 
+r0 1 -1 
+$r13 1 56 
+$r17 1 78 
+$r9 1 47 
+$r22 1 112 
+$r12 1 60 
+$r23 1 116 
+$r14 1 65 
+$r21 1 95 
+r2 1 -3 
+$r4 1 17 
+$r16 1 69 
+$r8 1 39 
+$r3 1 21 
+$r15 1 73 
+$r10 1 43 
+$r5 1 26 
+$r24 1 21 
+Fields: 23
+-1 fEntityPublicId 39
+-1 fEntityInExternal 112
+-1 fEntityName 13
+-1 fEntityNotation 78
+-1 fEntityIndexMap 133
+-1 fEntitySystemId 52
+-1 fEntityValue 26
+-1 fEntityBaseSystemId 65
+-1 fEntityIsPE 91
+65 ArrayObject 69
+13 ArrayObject 17
+52 ArrayObject 56
+78 ArrayObject 82
+91 ArrayObject 95
+39 ArrayObject 43
+-3 baseSystemId 73
+-3 publicId 47
+-3 name 21
+-3 value 34
+-3 notation 86
+-3 systemId 60
+112 ArrayObject 116
+26 ArrayObject 30
+Accesses: 18
+64 1 -1 
+33 1 -3 
+98 1 -3 
+132 1 -1 
+38 1 -1 
+72 1 -3 
+136 1 -3 
+12 1 -1 
+77 1 -1 
+46 1 -3 
+111 1 -1 
+51 1 -1 
+20 1 -3 
+85 1 -3 
+119 1 -3 
+25 1 -1 
+90 1 -1 
+59 1 -3 
+Functions: 1
+141 2 133 21 
+Constructors: 0
+
+Summary: 2
+-3 -1 
+org/apache/xerces/impl/dtd/DTDGrammar.startDTD(Lorg/apache/xerces/xni/XMLLocator;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+2 1 -1 
+7 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.startGroup(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+16 1 -1 
+7 1 -1 
+Functions: 1
+11 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.resize([[Lorg/apache/xerces/impl/dv/DatatypeValidator;I)[[Lorg/apache/xerces/impl/dv/DatatypeValidator;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -2 1 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xerces/impl/dtd/DTDGrammar.startExternalSubset(Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.printElements()V
+PTG:
+Vars:
+12
+$r10 1 44 
+$r12 1 50 
+$r6 1 29 
+r2 1 -1 
+$r11 1 47 
+$r4 1 13 
+$r9 2 41 29 
+$r0 1 2 
+$r8 1 37 
+$r7 1 32 
+$r3 1 16 
+$r5 1 25 
+Fields: 2
+41 rawname 44
+2 name 29
+Accesses: 3
+40 1 2 
+41 2 41 29 
+28 1 2 
+Functions: 9
+16 1 16 
+32 1 32 
+20 1 16 
+37 2 37 44 
+53 2 50 13 
+6 2 2 29 
+56 3 -1 2 29 
+25 2 25 29 
+47 1 47 
+Constructors: 2
+20 16
+6 2
+
+Summary: 9
+-1 2 37 29 16 25 47 32 50 
+org/apache/xerces/impl/dtd/DTDGrammar.internalEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+7
+$r2 1 33 
+$r5 1 50 
+r1 1 -2 
+r6 1 -4 
+r0 1 -1 
+r4 1 -3 
+r7 1 -5 
+Fields: 0
+Accesses: 1
+27 1 -1 
+Functions: 7
+0 2 -1 -2 
+49 1 -3 
+65 2 -1 33 
+19 1 -2 
+37 1 33 
+57 3 33 -2 50 
+13 1 -1 
+Constructors: 1
+37 33
+
+Summary: 7
+-1 -4 -2 33 -3 -5 50 
+org/apache/xerces/impl/dtd/DTDGrammar.createChildModel(I)Lorg/apache/xerces/impl/dtd/models/ContentModelValidator;
+PTG:
+Vars:
+15
+r2 1 -1 
+$r60 1 155 
+$r6 1 166 
+_ret 1 418 
+r54 1 417 
+$r53 1 325 
+$r69 1 418 
+$r56 1 0 
+$r7 1 166 
+$r62 1 315 
+$r9 1 181 
+$r52 1 325 
+$r8 1 181 
+$r59 1 147 
+$r65 1 418 
+Fields: 3
+0 value 166
+0 value 325
+0 otherValue 181
+Accesses: 43
+131 1 0 
+195 1 147 
+68 1 0 
+260 1 155 
+324 1 0 
+202 1 155 
+139 1 0 
+15 1 0 
+210 1 -1 
+338 1 315 
+275 1 0 
+403 1 -1 
+85 1 -1 
+215 1 147 
+279 1 -1 
+408 1 -1 
+345 1 -1 
+90 1 0 
+27 1 0 
+283 1 -1 
+222 1 147 
+350 1 315 
+97 1 0 
+291 1 0 
+165 1 0 
+229 1 147 
+357 1 315 
+39 1 0 
+423 1 -1 
+104 1 0 
+299 1 0 
+364 1 315 
+239 1 -1 
+307 1 0 
+180 1 0 
+244 1 155 
+54 1 0 
+118 1 0 
+122 1 -1 
+378 1 0 
+252 1 155 
+61 1 0 
+382 1 -1 
+Functions: 19
+387 0 
+4 4 0 325 181 166 
+11 5 -1 0 325 181 166 
+236 0 
+268 0 
+428 2 417 418 
+397 0 
+334 2 -1 315 
+111 0 
+175 2 -1 147 
+81 0 
+371 0 
+151 1 147 
+411 5 -1 0 325 181 166 
+127 0 
+159 1 155 
+191 2 -1 155 
+287 0 
+319 1 315 
+Constructors: 5
+4 0
+151 147
+428 418
+159 155
+319 315
+
+Summary: 17
+230 365 246 62 155 417 315 166 0 262 351 147 216 69 -1 325 181 
+org/apache/xerces/impl/dtd/DTDGrammar.resize([[Ljava/lang/String;I)[[Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 1 
+_ret 1 1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -2 1 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xerces/impl/dtd/DTDGrammar.endDTD(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+10
+$r1 1 6 
+r10 1 59 
+$r7 1 55 
+$r5 1 49 
+r0 1 -1 
+$r6 1 53 
+$r8 1 6 
+$r3 1 20 
+$r2 1 9 
+r9 1 -2 
+Fields: 5
+-1 fElementDeclName 49
+-1 fGrammarDescription 6
+55 rawname 59
+53 ArrayObject 55
+49 ArrayObject 53
+Accesses: 6
+48 1 -1 
+80 1 -1 
+2 1 -1 
+5 1 -1 
+55 1 55 
+73 1 -1 
+Functions: 4
+65 2 20 59 
+6 1 6 
+86 2 20 6 
+24 1 20 
+Constructors: 1
+24 20
+
+Summary: 5
+-1 9 -2 0 20 
+org/apache/xerces/impl/dtd/DTDGrammar.startAttlist(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.getAttributeDeclIndex(ILjava/lang/String;)I
+PTG:
+Vars:
+9
+r0 1 -1 
+$r1 1 19 
+$r3 1 30 
+r4 1 -3 
+$r6 2 42 19 
+$r2 2 27 19 
+$r7 1 45 
+$r8 1 48 
+$r5 1 33 
+Fields: 5
+-1 fAttributeDecl 19
+27 name 30
+30 rawname 33
+42 name 45
+45 rawname 48
+Accesses: 7
+18 1 -1 
+41 1 -1 
+26 1 -1 
+42 2 19 42 
+27 2 19 27 
+45 1 45 
+30 1 30 
+Functions: 4
+22 2 -1 19 
+7 2 -1 19 
+40 2 48 -3 
+59 2 -1 19 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.attributeDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+46
+$r13 1 98 
+$r47 1 526 
+$r45 1 98 
+$r24 1 98 
+$r23 1 98 
+$r25 1 98 
+r12 1 -8 
+$r36 1 98 
+$r43 1 471 
+$r46 1 471 
+$r5 1 1 
+r7 1 -3 
+$r4 1 33 
+$r31 1 98 
+$r21 1 453 
+$r42 1 460 
+$r8 1 98 
+r38 1 -9 
+$r40 1 180 
+$r20 1 450 
+$r3 1 22 
+$r34 1 98 
+$r11 1 98 
+$r32 1 98 
+$r29 1 98 
+r1 1 -2 
+$r35 1 98 
+$r41 1 201 
+$r15 1 98 
+$r33 1 98 
+$r17 1 437 
+$r26 1 98 
+r10 1 -7 
+r14 1 -5 
+r16 1 -4 
+r9 1 -6 
+$r30 1 98 
+$r37 1 98 
+$r27 1 98 
+$r2 1 1 
+$r19 1 446 
+$r22 1 531 
+r0 1 -1 
+$r18 1 434 
+$r28 1 98 
+$r44 1 460 
+Fields: 7
+-1 fQName 460
+-1 fAttributeDeclIsExternal 526
+-1 fAttributeDecl 471
+-1 fElementDeclTab 1
+-1 fSimpleType 98
+526 ArrayObject 531
+22 name 33
+Accesses: 54
+0 1 -1 
+387 1 98 
+140 1 -1 
+269 1 -1 
+525 1 -1 
+145 1 98 
+274 1 98 
+402 1 -1 
+19 1 -1 
+534 1 -1 
+408 1 98 
+286 1 -1 
+31 1 22 
+161 1 -1 
+291 1 98 
+166 1 98 
+423 1 -1 
+169 1 -1 
+428 1 98 
+46 1 22 
+49 1 -1 
+306 1 -1 
+311 1 98 
+314 1 -1 
+187 1 98 
+61 1 -1 
+190 1 -1 
+319 1 98 
+459 1 -1 
+334 1 -1 
+208 1 98 
+211 1 -1 
+339 1 98 
+470 1 -1 
+217 1 98 
+474 1 -1 
+94 1 -1 
+478 1 -1 
+97 1 -1 
+354 1 -1 
+229 1 -1 
+359 1 98 
+489 1 -1 
+234 1 98 
+362 1 -1 
+493 1 -1 
+367 1 98 
+500 1 -1 
+119 1 -1 
+249 1 -1 
+124 1 98 
+509 1 -1 
+254 1 98 
+382 1 -1 
+Functions: 34
+1 2 1 -2 
+130 1 -6 
+450 1 450 
+67 9 -1 1 33 98 531 22 471 460 526 
+260 1 -4 
+325 1 -4 
+70 8 -1 1 -2 98 531 471 460 526 
+199 1 -8 
+456 2 434 453 
+393 1 -4 
+522 7 -1 1 98 531 471 460 526 
+77 8 -1 1 98 -3 531 471 460 526 
+15 7 -1 1 98 531 471 460 526 
+467 2 -3 460 
+277 1 -4 
+151 1 -6 
+345 1 -4 
+26 2 33 22 
+90 7 -1 1 98 531 471 460 526 
+220 1 -4 
+414 1 -4 
+483 3 98 471 460 
+101 1 98 
+40 2 33 -2 
+297 1 -4 
+109 1 -6 
+240 1 -4 
+497 7 -1 1 98 531 471 460 526 
+178 1 -7 
+373 1 -4 
+437 1 437 
+56 4 1 -2 33 22 
+441 1 437 
+446 2 -4 446 
+Constructors: 2
+441 437
+26 22
+
+Summary: 14
+-4 33 -9 -3 -7 450 453 -1 437 -2 -6 22 446 -8 
+org/apache/xerces/impl/dtd/DTDGrammar.getElementDeclName(I)Lorg/apache/xerces/xni/QName;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 26 
+$r2 1 30 
+_ret 1 32 
+$r3 1 32 
+Fields: 3
+-1 fElementDeclName 26
+30 ArrayObject 32
+26 ArrayObject 30
+Accesses: 2
+5 1 -1 
+25 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.getContentSpec(ILorg/apache/xerces/impl/dtd/XMLContentSpec;)Z
+PTG:
+Vars:
+10
+$r2 1 28 
+$r9 1 61 
+$r3 1 32 
+$r4 1 41 
+r1 1 -3 
+$r7 1 54 
+$r8 1 58 
+r0 1 -1 
+$r6 1 48 
+$r5 1 45 
+Fields: 8
+-1 fContentSpecOtherValue 54
+-1 fContentSpecValue 41
+-1 fContentSpecType 28
+41 ArrayObject 45
+58 ArrayObject 61
+28 ArrayObject 32
+54 ArrayObject 58
+45 ArrayObject 48
+Accesses: 7
+49 1 -3 
+36 1 -3 
+5 1 -1 
+53 1 -1 
+40 1 -1 
+27 1 -1 
+62 1 -3 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.getDTDSource()Lorg/apache/xerces/xni/parser/XMLDTDSource;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fDTDSource 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.empty(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.getAttributeDecl(ILorg/apache/xerces/impl/dtd/XMLAttributeDecl;)Z
+PTG:
+Vars:
+31
+$r25 1 151 
+$r9 1 69 
+$r23 1 146 
+$r12 1 104 
+$r29 1 164 
+r1 1 -3 
+$r13 1 31 
+$r28 1 160 
+$r2 1 31 
+$r17 1 122 
+$r14 1 114 
+$r20 1 133 
+$r21 1 137 
+$r3 1 35 
+$r16 1 118 
+$r11 1 85 
+$r30 1 167 
+$r22 1 142 
+$r26 1 155 
+$r4 1 38 
+$r6 1 43 
+$r19 1 129 
+$r10 1 43 
+$r18 1 126 
+r0 1 -1 
+$r7 1 47 
+$r8 1 43 
+$r24 1 149 
+$r5 1 27 
+$r15 1 117 
+$r27 1 158 
+Fields: 26
+151 ArrayObject 155
+114 ArrayObject 117
+117 localpart 118
+126 ArrayObject 129
+122 ArrayObject 126
+146 ArrayObject 149
+-3 simpleType 104
+-3 name 27
+164 ArrayObject 167
+35 ArrayObject 38
+-1 fAttributeDeclDefaultType 133
+-1 fAttributeDeclDatatypeValidator 160
+-1 fAttributeDeclDefaultValue 142
+-1 fAttributeDeclEnumeration 122
+-1 fAttributeDeclNonNormalizedDefaultValue 151
+-1 fAttributeDeclName 31
+-1 fAttributeDeclType 43
+31 ArrayObject 35
+31 ArrayObject 114
+155 ArrayObject 158
+160 ArrayObject 164
+43 ArrayObject 47
+43 ArrayObject 85
+43 ArrayObject 69
+133 ArrayObject 137
+142 ArrayObject 146
+Accesses: 14
+64 1 -1 
+132 1 -1 
+5 1 -1 
+103 1 -3 
+42 1 -1 
+109 1 -1 
+141 1 -1 
+80 1 -1 
+117 1 117 
+150 1 -1 
+121 1 -1 
+26 1 -3 
+30 1 -1 
+159 1 -1 
+Functions: 2
+39 2 38 27 
+168 6 129 149 118 167 104 158 
+Constructors: 0
+
+Summary: 4
+27 -3 104 -1 
+org/apache/xerces/impl/dtd/DTDGrammar.endGroup(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+9
+r9 1 -2 
+$r3 1 21 
+$r6 1 21 
+$r1 1 8 
+$r5 1 8 
+$r7 1 21 
+$r4 1 30 
+$r2 1 21 
+r0 1 -1 
+Fields: 3
+-1 fPrevNodeIndexStack 8
+-1 fNodeIndexStack 21
+-1 fOpStack 30
+Accesses: 16
+0 1 -1 
+64 1 -1 
+33 1 -1 
+38 1 -1 
+7 1 -1 
+72 1 -1 
+42 1 -1 
+11 1 -1 
+77 1 -1 
+47 1 -1 
+81 1 -1 
+51 1 -1 
+20 1 -1 
+24 1 -1 
+60 1 -1 
+29 1 -1 
+Functions: 1
+28 4 -1 21 8 30 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.endContentModel(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.textDecl(Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r3 1 -4 
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-1 -4 -2 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.resize([[Lorg/apache/xerces/xni/QName;I)[[Lorg/apache/xerces/xni/QName;
+PTG:
+Vars:
+3
+r1 1 -2 
+_ret 1 1 
+r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -2 1 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xerces/impl/dtd/DTDGrammar.buildSyntaxTree(ILorg/apache/xerces/impl/dtd/XMLContentSpec;)Lorg/apache/xerces/impl/dtd/models/CMNode;
+PTG:
+Vars:
+32
+r28 7 275 174 321 66 238 111 21 
+$r11 1 287 
+$r32 1 66 
+$r2 1 201 
+$r23 1 75 
+$r12 1 151 
+$r27 1 30 
+$r16 1 151 
+$r20 1 146 
+$r30 1 333 
+$r35 1 238 
+$r18 1 146 
+$r36 1 275 
+$r34 1 174 
+$r31 1 21 
+$r7 1 250 
+$r15 1 165 
+$r37 1 321 
+$r4 1 212 
+$r39 7 275 174 321 66 238 111 21 
+_ret 7 275 174 321 66 238 111 21 
+$r33 1 111 
+$r14 1 165 
+$r3 1 201 
+$r17 1 151 
+$r8 1 257 
+r0 1 -1 
+r1 1 -3 
+$r13 1 151 
+$r5 1 212 
+$r26 1 30 
+$r24 1 75 
+Fields: 7
+-1 fQName 146
+-3 value 151
+-3 value 201
+-3 otherValue 165
+-3 otherValue 212
+-3 otherValue 30
+-3 otherValue 75
+Accesses: 33
+128 1 -1 
+325 1 -3 
+70 1 -3 
+200 1 -3 
+9 1 -3 
+74 1 -3 
+138 1 -3 
+267 1 -3 
+81 1 -1 
+145 1 -1 
+211 1 -3 
+150 1 -3 
+279 1 -3 
+25 1 -3 
+89 1 -1 
+29 1 -3 
+157 1 -3 
+222 1 -3 
+99 1 -3 
+36 1 -1 
+164 1 -3 
+230 1 -3 
+297 1 -3 
+44 1 -1 
+305 1 -3 
+178 1 -1 
+242 1 -3 
+115 1 -3 
+54 1 -3 
+182 1 -1 
+120 1 -1 
+313 1 -3 
+190 1 -1 
+Functions: 14
+193 2 146 174 
+290 2 275 287 
+131 1 111 
+260 3 257 250 238 
+5 9 -1 146 -3 212 165 151 201 75 30 
+329 9 -1 146 -3 212 165 151 201 75 30 
+171 3 146 165 151 
+47 2 21 30 
+336 2 321 333 
+246 9 -1 146 -3 212 165 151 201 75 30 
+283 9 -1 146 -3 212 165 151 201 75 30 
+92 2 66 75 
+253 9 -1 146 -3 212 165 151 201 75 30 
+349 0 
+Constructors: 7
+336 321
+193 174
+290 275
+131 111
+260 238
+92 66
+47 21
+
+Summary: 13
+165 151 30 75 1 201 -3 212 333 -1 257 287 250 
+org/apache/xerces/impl/dtd/DTDGrammar.isCDATAAttribute(Lorg/apache/xerces/xni/QName;Lorg/apache/xerces/xni/QName;)Z
+PTG:
+Vars:
+6
+$r2 1 9 
+r0 1 -1 
+$r3 1 9 
+r5 1 -3 
+r1 1 -2 
+$r4 1 22 
+Fields: 2
+-1 fAttributeDecl 9
+9 simpleType 22
+Accesses: 4
+18 1 -1 
+19 1 9 
+22 1 22 
+8 1 -1 
+Functions: 2
+0 4 -1 -2 22 9 
+6 3 -1 22 9 
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.getNotationDeclIndex(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+r1 1 -1 
+r0 1 -2 
+$r2 1 7 
+Fields: 1
+-1 fNotationIndexMap 7
+Accesses: 1
+6 1 -1 
+Functions: 1
+7 2 -2 7 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.getDTDContentModelSource()Lorg/apache/xerces/xni/parser/XMLDTDContentModelSource;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 fDTDContentModelSource 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.startParameterEntity(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+11
+r11 1 -5 
+r0 1 -1 
+r8 1 -2 
+r10 1 -4 
+$r3 1 5 
+$r5 1 5 
+r4 1 19 
+r9 1 -3 
+$r2 1 5 
+$r1 1 5 
+$r6 1 5 
+Fields: 1
+-1 fPEntityStack 5
+Accesses: 11
+0 1 -1 
+49 1 -1 
+65 1 -1 
+4 1 -1 
+53 1 -1 
+23 1 -1 
+42 1 -1 
+58 1 -1 
+12 1 -1 
+45 1 -1 
+31 1 -1 
+Functions: 1
+36 2 19 5 
+Constructors: 0
+
+Summary: 5
+-1 -4 -2 -3 -5 
+org/apache/xerces/impl/dtd/DTDGrammar.setContentSpecIndex(II)V
+PTG:
+Vars:
+3
+$r2 1 30 
+$r1 1 26 
+r0 1 -1 
+Fields: 2
+-1 fElementDeclContentSpecIndex 26
+26 ArrayObject 30
+Accesses: 2
+5 1 -1 
+25 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.resize([[Lorg/apache/xerces/impl/dtd/models/ContentModelValidator;I)[[Lorg/apache/xerces/impl/dtd/models/ContentModelValidator;
+PTG:
+Vars:
+3
+r0 1 1 
+_ret 1 1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -2 1 
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/xerces/impl/dtd/DTDGrammar.endAttlist(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.any(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.getElementDeclIsExternal(I)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 22 
+$r1 1 18 
+Fields: 2
+-1 fElementDeclIsExternal 18
+18 ArrayObject 22
+Accesses: 1
+17 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.endConditional(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.endExternalSubset(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xerces/impl/dtd/DTDGrammar.createNotationDecl()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+21 1 -1 
+13 1 -1 
+Functions: 1
+10 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/impl/dtd/DTDGrammar.setContentSpec(ILorg/apache/xerces/impl/dtd/XMLContentSpec;)V
+PTG:
+Vars:
+10
+r2 1 -3 
+$r5 1 34 
+$r8 1 47 
+$r3 1 17 
+$r9 1 43 
+$r1 1 13 
+r0 1 -1 
+$r7 1 39 
+$r6 1 30 
+$r4 1 26 
+Fields: 8
+-1 fContentSpecOtherValue 39
+-1 fContentSpecValue 26
+-1 fContentSpecType 13
+13 ArrayObject 17
+39 ArrayObject 43
+-3 value 34
+-3 otherValue 47
+26 ArrayObject 30
+Accesses: 6
+33 1 -3 
+20 1 -3 
+38 1 -1 
+25 1 -1 
+12 1 -1 
+46 1 -3 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/apache/xerces/impl/dtd/DTDGrammar.addContentSpecToElement(Lorg/apache/xerces/impl/dtd/XMLElementDecl;)V
+PTG:
+Vars:
+8
+$r6 1 24 
+r0 1 -1 
+r2 1 -2 
+$r5 1 24 
+$r4 1 24 
+$r1 1 24 
+$r7 1 24 
+$r3 1 24 
+Fields: 1
+-1 fNodeIndexStack 24
+Accesses: 12
+0 1 -1 
+64 1 -1 
+83 1 -1 
+54 1 -1 
+7 1 -1 
+23 1 -1 
+87 1 -1 
+72 1 -1 
+91 1 -1 
+44 1 -1 
+30 1 -2 
+15 1 -2 
+Functions: 3
+96 2 -1 24 
+69 2 -1 24 
+38 2 -1 24 
+Constructors: 0
+
+Summary: 2
+-1 -2 

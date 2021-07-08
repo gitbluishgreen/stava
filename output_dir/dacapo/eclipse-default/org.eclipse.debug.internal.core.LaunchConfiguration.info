@@ -1,0 +1,1261 @@
+50
+org/eclipse/debug/internal/core/LaunchConfiguration.getMemento()Ljava/lang/String;
+PTG:
+Vars:
+18
+r19 1 140 
+r15 1 -1 
+r12 2 36 13 
+r13 1 43 
+$r11 1 -1 
+r0 1 -1 
+$r5 1 88 
+r1 1 6 
+$r7 1 13 
+$r6 1 100 
+$r4 1 75 
+r2 1 55 
+$r18 1 129 
+$r3 1 72 
+$r8 1 18 
+$r9 1 -1 
+$r10 1 -1 
+$r20 1 142 
+Fields: 0
+Accesses: 0
+Functions: 15
+128 2 -1 129 
+2 1 -1 
+98 1 43 
+71 0 
+40 0 
+72 1 72 
+45 1 43 
+78 2 55 75 
+17 1 -1 
+148 2 140 142 
+21 2 18 13 
+87 2 36 13 
+61 2 55 43 
+93 2 55 88 
+30 1 6 
+Constructors: 2
+148 142
+21 13
+
+Summary: 10
+43 55 75 6 18 -1 36 88 72 140 
+org/eclipse/debug/internal/core/LaunchConfiguration.toString()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/internal/core/LaunchConfiguration.getLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+6
+$r4 1 27 
+r1 1 4 
+$r3 1 22 
+r0 1 -1 
+$r5 1 -1 
+r2 1 17 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+9 1 4 
+26 1 17 
+30 2 22 27 
+Constructors: 1
+30 22
+
+Summary: 4
+-1 17 27 4 
+org/eclipse/debug/internal/core/LaunchConfiguration.hasAttribute(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 1 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.getWorkingCopy()Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;
+PTG:
+Vars:
+4
+r1 1 -1 
+_ret 1 0 
+$r2 1 0 
+$r3 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -1 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+org/eclipse/debug/internal/core/LaunchConfiguration.getSimpleName(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+2
+_ret 1 -2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+9 1 -2 
+11 1 -2 
+15 0 
+Constructors: 0
+
+Summary: 1
+0 
+org/eclipse/debug/internal/core/LaunchConfiguration.setName(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/debug/internal/core/LaunchConfiguration.getName()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/internal/core/LaunchConfiguration.getType()Lorg/eclipse/debug/core/ILaunchConfigurationType;
+PTG:
+Vars:
+4
+_ret 1 4 
+$r2 1 4 
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/debug/internal/core/LaunchConfiguration.getAttributes()Ljava/util/Map;
+PTG:
+Vars:
+4
+r1 1 4 
+_ret 1 6 
+r0 1 -1 
+$r2 1 6 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+5 1 4 
+Constructors: 0
+
+Summary: 2
+-1 4 
+org/eclipse/debug/internal/core/LaunchConfiguration.migrate()V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+8 2 -1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/debug/internal/core/LaunchConfiguration.getContainer()Lorg/eclipse/core/resources/IContainer;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fContainer 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/internal/core/LaunchConfiguration.launch(Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;ZZ)Lorg/eclipse/debug/core/ILaunch;
+PTG:
+Vars:
+70
+$r21 1 699 
+$r30 1 490 
+$r11 1 817 
+$r15 1 743 
+$r27 1 460 
+$r40 1 321 
+$r29 1 481 
+r2 1 52 
+$r76 1 726 
+$r28 1 475 
+$r31 1 421 
+$r42 1 281 
+$r39 1 316 
+$r47 1 106 
+r3 1 -2 
+$r12 1 831 
+$r7 1 548 
+$r10 1 795 
+$r50 1 151 
+$r36 1 351 
+$r56 1 4 
+$r32 1 206 
+$r44 1 227 
+$r24 1 450 
+$r17 1 634 
+$r38 1 310 
+$r16 1 619 
+r68 2 273 291 
+r5 1 74 
+$r35 1 346 
+r1 1 -1 
+$r48 1 109 
+$r49 1 145 
+$r25 1 455 
+$r22 1 663 
+$r53 1 128 
+r63 1 115 
+$r4 1 64 
+$r33 1 209 
+r66 1 215 
+$r37 1 360 
+$r43 1 231 
+$r18 1 646 
+$r20 1 694 
+r65 2 181 199 
+$r54 1 124 
+$r59 1 -1 
+$r9 1 561 
+r67 1 242 
+$r45 1 242 
+$r34 1 340 
+$r6 1 439 
+$r8 1 552 
+$r14 1 786 
+r71 3 377 95 305 
+r72 2 414 421 
+$r57 1 -1 
+$r19 1 686 
+$r51 1 156 
+$r23 1 578 
+$r52 1 165 
+r61 2 4 -3 
+$r26 1 464 
+$r60 1 862 
+$r0 1 40 
+r62 3 377 95 305 
+$r46 1 189 
+$r41 1 330 
+$r13 1 883 
+$r55 1 89 
+Fields: 1
+74 ArrayObject 89
+Accesses: 0
+Functions: 78
+-1 0 
+896 2 -3 4 
+257 1 242 
+775 2 -3 4 
+8 1 4 
+649 2 646 619 
+139 3 128 115 124 
+267 2 -1 52 
+523 2 421 414 
+907 2 -3 4 
+785 1 -1 
+659 6 -1 305 -2 663 377 95 
+21 2 -3 4 
+405 5 -1 305 -2 377 95 
+791 3 786 421 414 
+280 1 -1 
+281 2 52 281 
+537 2 421 414 
+798 3 -3 4 795 
+671 2 663 619 
+160 3 145 151 156 
+34 2 -3 4 
+547 1 -1 
+548 2 -1 548 
+806 3 -1 421 414 
+298 2 273 291 
+43 3 -3 4 40 
+171 2 145 165 
+555 3 421 552 414 
+811 2 -3 4 
+428 3 -1 -2 421 
+175 2 -1 52 
+48 1 -1 
+689 2 619 686 
+436 2 -2 439 
+564 3 561 -3 4 
+820 3 817 -3 4 
+437 2 421 414 
+57 2 -2 52 
+188 1 -1 
+189 2 52 189 
+574 6 -1 305 -2 578 377 95 
+63 1 -1 
+64 2 64 52 
+706 2 699 619 
+325 3 321 310 316 
+709 2 694 699 
+838 3 -3 4 831 
+584 3 578 -3 4 
+841 8 -1 305 -2 421 377 414 95 831 
+206 2 209 206 
+336 2 310 330 
+464 2 464 460 
+720 1 619 
+851 2 421 414 
+600 2 -3 4 
+89 1 89 
+473 2 421 414 
+729 3 -3 4 726 
+861 1 -1 
+225 3 227 215 231 
+610 2 -3 4 
+355 3 340 346 351 
+739 6 -1 305 -2 743 377 95 
+867 3 421 862 414 
+485 3 481 450 455 
+873 2 -3 4 
+106 2 106 109 
+749 3 -3 4 743 
+366 2 340 360 
+496 2 450 490 
+370 2 181 199 
+882 1 -1 
+627 3 -3 4 619 
+500 1 -1 
+888 3 883 421 414 
+765 2 -3 4 
+639 2 634 619 
+Constructors: 16
+160 145
+706 699
+355 340
+325 310
+485 450
+838 831
+8 4
+584 578
+171 165
+428 421
+749 743
+366 360
+336 330
+496 490
+627 619
+671 663
+
+Summary: 45
+316 464 115 181 -3 74 106 862 439 455 346 450 151 699 215 199 145 95 340 481 273 831 305 206 548 231 128 619 663 189 694 310 552 89 242 4 883 52 743 377 786 281 578 64 291 
+org/eclipse/debug/internal/core/LaunchConfiguration.launch(Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;Z)Lorg/eclipse/debug/core/ILaunch;
+PTG:
+Vars:
+5
+$r3 1 5 
+_ret 1 5 
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-1 -3 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.isLocal()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/debug/internal/core/LaunchConfiguration.initializeSourceLocator(Lorg/eclipse/debug/core/ILaunch;)V
+PTG:
+Vars:
+12
+$r1 1 1 
+r2 1 -1 
+r0 1 -2 
+r7 1 53 
+r10 2 17 31 
+$r6 1 46 
+$r11 1 44 
+$r3 1 10 
+$r9 1 23 
+$r8 1 44 
+r5 1 44 
+$r4 1 37 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -2 
+36 1 -1 
+84 3 -1 53 44 
+37 3 17 37 31 
+22 1 -1 
+102 2 -2 44 
+23 1 23 
+9 2 -1 10 
+45 2 -1 46 
+62 2 -1 44 
+95 2 53 44 
+Constructors: 0
+
+Summary: 9
+-1 1 53 17 23 31 37 44 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.getAttribute(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set;
+PTG:
+Vars:
+6
+$r1 1 1 
+_ret 1 6 
+$r4 1 6 
+r3 1 -3 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-1 1 -3 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.getInfo()Lorg/eclipse/debug/internal/core/LaunchConfigurationInfo;
+PTG:
+Vars:
+4
+_ret 1 5 
+r0 1 -1 
+$r2 1 5 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/internal/core/LaunchConfiguration.getAttribute(Ljava/lang/String;I)I
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 1 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.exists()Z
+PTG:
+Vars:
+5
+$r3 1 26 
+r1 1 4 
+$r4 1 -1 
+r2 1 20 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -1 
+16 1 -1 
+9 1 4 
+25 1 20 
+26 1 26 
+Constructors: 0
+
+Summary: 4
+-1 4 20 26 
+org/eclipse/debug/internal/core/LaunchConfiguration.copy(Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;
+PTG:
+Vars:
+5
+r1 1 -1 
+_ret 1 0 
+$r5 1 0 
+$r4 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -1 -2 
+Constructors: 1
+6 0
+
+Summary: 2
+-1 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.<clinit>()V
+PTG:
+Vars:
+23
+$r14 1 66 
+$r3 1 15 
+$r12 1 55 
+$r16 1 76 
+$r10 1 48 
+$r11 1 52 
+$r1 1 4 
+$r22 1 134 
+$r21 1 115 
+$r19 1 90 
+$r20 1 96 
+$r17 1 79 
+$r15 1 72 
+$r18 1 87 
+$r7 1 31 
+$r8 1 39 
+$r13 1 63 
+$r4 1 18 
+$r2 1 7 
+$r5 1 24 
+$r6 1 28 
+$r0 1 0 
+$r9 1 42 
+Fields: 0
+Accesses: 0
+Functions: 20
+-1 0 
+0 1 0 
+128 1 115 
+34 2 24 31 
+4 1 4 
+39 1 39 
+72 1 72 
+10 2 0 7 
+76 1 76 
+109 1 96 
+15 1 15 
+48 1 48 
+82 2 72 79 
+147 1 134 
+52 1 52 
+87 1 87 
+24 1 24 
+58 2 48 55 
+28 1 28 
+63 1 63 
+Constructors: 7
+128 115
+34 24
+82 72
+147 134
+10 0
+58 48
+109 96
+
+Summary: 12
+7 15 39 55 31 87 63 79 4 52 28 76 
+org/eclipse/debug/internal/core/LaunchConfiguration.getModes()Ljava/util/Set;
+PTG:
+Vars:
+5
+r0 1 -1 
+_ret 2 13 24 
+$r3 2 13 24 
+r2 1 8 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 1 
+18 3 24 8 13 
+29 2 24 13 
+Constructors: 0
+
+Summary: 2
+-1 8 
+org/eclipse/debug/internal/core/LaunchConfiguration.getLaunchManager()Lorg/eclipse/debug/internal/core/LaunchManager;
+PTG:
+Vars:
+5
+$r1 1 3 
+_ret 1 3 
+$r2 1 3 
+$r0 1 0 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+0 1 0 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/debug/internal/core/LaunchConfiguration.getAttribute(Ljava/lang/String;Z)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 1 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.<init>(Lorg/eclipse/core/resources/IFile;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+$r2 1 2 
+$r4 1 11 
+$r3 1 7 
+Fields: 0
+Accesses: 0
+Functions: 4
+16 3 -1 7 11 
+1 1 -2 
+2 1 2 
+10 1 -2 
+Constructors: 1
+16 -1
+
+Summary: 6
+-1 7 11 2 0 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.equalOrNull(Ljava/lang/Object;Ljava/lang/Object;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+16 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-1 1 -3 0 
+org/eclipse/debug/internal/core/LaunchConfiguration.getAttribute(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
+PTG:
+Vars:
+6
+r2 1 -2 
+r0 1 -1 
+_ret 1 6 
+$r4 1 6 
+$r1 1 1 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-1 1 -3 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.isReadOnly()Z
+PTG:
+Vars:
+4
+$r2 1 10 
+r0 1 -1 
+r1 1 4 
+$r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+9 1 4 
+10 1 10 
+Constructors: 0
+
+Summary: 3
+-1 4 10 
+org/eclipse/debug/internal/core/LaunchConfiguration.initialize()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/internal/core/LaunchConfiguration.isWorkingCopy()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/debug/internal/core/LaunchConfiguration.getMappedResources()[Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+19
+$r21 1 326 
+r28 1 162 
+$r22 1 326 
+$r1 1 1 
+$r12 1 97 
+r2 1 8 
+$r3 1 25 
+$r8 1 70 
+_ret 1 326 
+r13 1 97 
+r29 4 225 86 239 253 
+$r10 1 78 
+$r20 1 323 
+$r14 1 110 
+r4 1 32 
+$r16 1 125 
+r11 1 86 
+r0 1 -1 
+r15 1 110 
+Fields: 0
+Accesses: 0
+Functions: 27
+0 2 -1 1 
+-1 0 
+66 0 
+74 1 70 
+13 1 8 
+269 1 -1 
+78 1 78 
+142 1 -1 
+279 0 
+24 2 -1 25 
+216 2 162 86 
+153 0 
+157 1 97 
+94 1 8 
+291 5 225 70 86 253 239 
+37 1 32 
+230 2 97 86 
+43 1 8 
+107 1 32 
+300 1 8 
+244 2 162 86 
+309 1 70 
+56 1 -1 
+123 1 110 
+125 1 125 
+318 2 323 70 
+319 1 70 
+Constructors: 1
+74 70
+
+Summary: 17
+70 276 253 -1 162 97 239 63 225 86 78 110 150 125 8 32 323 
+org/eclipse/debug/internal/core/LaunchConfiguration.newStatus(Ljava/lang/String;ILjava/lang/Throwable;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+6
+r3 1 -4 
+_ret 1 0 
+r2 1 -2 
+$r0 1 0 
+r4 1 -1 
+$r1 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+11 4 0 -2 -4 5 
+Constructors: 1
+11 0
+
+Summary: 4
+-1 5 -4 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.getPreferredDelegate(Ljava/util/Set;)Lorg/eclipse/debug/core/ILaunchDelegate;
+PTG:
+Vars:
+7
+$r4 1 15 
+$r5 1 18 
+$r1 1 1 
+r2 1 8 
+r0 1 -1 
+r3 1 -2 
+r6 1 18 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 2 -1 1 
+32 1 18 
+13 2 8 15 
+14 1 -2 
+31 1 -1 
+Constructors: 0
+
+Summary: 6
+-1 15 8 18 32 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.hashCode()I
+PTG:
+Vars:
+3
+r1 1 4 
+$r2 1 18 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+17 1 -1 
+18 1 18 
+24 1 4 
+9 1 -1 
+10 0 
+Constructors: 0
+
+Summary: 4
+-1 4 10 18 
+org/eclipse/debug/internal/core/LaunchConfiguration.getFileStore()Lorg/eclipse/core/filesystem/IFileStore;
+PTG:
+Vars:
+3
+r2 1 42 
+$r1 1 34 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -1 
+-1 0 
+17 0 
+33 1 -1 
+34 1 34 
+7 0 
+10 0 
+13 1 -1 
+47 1 42 
+Constructors: 0
+
+Summary: 6
+-1 7 17 14 42 22 
+org/eclipse/debug/internal/core/LaunchConfiguration.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 8
+49 1 -1 
+50 1 -1 
+35 1 -1 
+36 0 
+54 1 -2 
+7 1 -1 
+39 1 -2 
+28 1 -2 
+Constructors: 0
+
+Summary: 7
+-1 51 55 40 36 0 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.setContainer(Lorg/eclipse/core/resources/IContainer;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/debug/internal/core/LaunchConfiguration.getAttribute(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+6
+_ret 1 6 
+r3 1 -3 
+r2 1 -2 
+$r4 1 6 
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-1 1 -3 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.delete()V
+PTG:
+Vars:
+8
+r11 1 20 
+$r5 1 34 
+r0 1 -1 
+r12 1 110 
+$r3 1 97 
+r1 1 11 
+$r6 1 74 
+$r2 1 93 
+Fields: 0
+Accesses: 0
+Functions: 16
+0 1 -1 
+-1 0 
+33 1 20 
+34 1 34 
+66 0 
+132 1 11 
+69 0 
+7 1 -1 
+73 1 -1 
+78 2 -1 74 
+111 1 110 
+16 1 -1 
+84 1 11 
+28 1 20 
+93 2 97 93 
+125 1 110 
+Constructors: 0
+
+Summary: 9
+97 34 74 110 -1 93 56 20 51 
+org/eclipse/debug/internal/core/LaunchConfiguration.isMigrationCandidate()Z
+PTG:
+Vars:
+3
+$r2 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+4 2 -1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/debug/internal/core/LaunchConfiguration.getFile()Lorg/eclipse/core/resources/IFile;
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+18 0 
+9 1 4 
+14 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 15 4 
+org/eclipse/debug/internal/core/LaunchConfiguration.getAttribute(Ljava/lang/String;Ljava/util/Map;)Ljava/util/Map;
+PTG:
+Vars:
+6
+_ret 1 6 
+r2 1 -2 
+r3 1 -3 
+$r1 1 1 
+r0 1 -1 
+$r4 1 6 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-1 1 -3 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.supportsMode(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 1 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.launch(Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/debug/core/ILaunch;
+PTG:
+Vars:
+5
+$r3 1 4 
+_ret 1 4 
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-1 -3 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.<init>(Ljava/lang/String;)V
+PTG:
+Vars:
+31
+r0 1 -1 
+$r21 1 144 
+$r15 1 174 
+$r19 1 202 
+r31 1 -1 
+$r23 1 113 
+$r17 1 192 
+$r26 1 -1 
+$r9 1 53 
+r27 1 61 
+$r20 1 133 
+r2 1 14 
+r16 1 182 
+r35 1 253 
+$r4 1 28 
+r29 1 212 
+r11 1 80 
+$r7 1 38 
+$r13 1 161 
+r28 2 103 126 
+$r34 1 243 
+$r12 1 153 
+$r3 1 18 
+$r22 1 90 
+r10 1 70 
+$r24 1 -1 
+$r36 1 254 
+r5 1 -2 
+$r18 1 195 
+$r25 1 -1 
+$r1 1 8 
+Fields: 0
+Accesses: 0
+Functions: 27
+-1 0 
+192 1 192 
+1 1 -1 
+195 2 161 195 
+259 2 253 254 
+8 1 8 
+72 1 61 
+137 3 -1 103 126 
+202 1 202 
+147 2 144 133 
+22 1 18 
+151 1 70 
+25 2 18 14 
+153 1 153 
+217 2 -1 182 
+90 2 80 90 
+223 2 -1 212 
+33 2 -2 28 
+167 2 80 161 
+44 2 38 28 
+172 1 161 
+174 1 174 
+49 2 38 14 
+113 2 113 70 
+242 2 -1 243 
+53 1 53 
+62 1 61 
+Constructors: 7
+1 -1
+33 28
+147 133
+259 254
+22 18
+167 161
+44 38
+
+Summary: 20
+212 18 253 -1 202 0 192 14 153 38 70 174 182 53 61 8 195 -2 80 144 
+org/eclipse/debug/internal/core/LaunchConfiguration.<init>(Ljava/lang/String;Lorg/eclipse/core/resources/IContainer;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -1 
+5 1 -1 
+10 2 -1 -2 
+15 2 -1 -3 
+Constructors: 1
+1 -1
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.contentsEqual(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z
+PTG:
+Vars:
+12
+r0 1 -2 
+$r6 1 31 
+r1 1 -2 
+$r5 1 27 
+$r9 1 56 
+$r4 1 17 
+r2 1 -1 
+$r10 1 60 
+$r3 1 13 
+$r7 1 42 
+$r8 1 46 
+$r11 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 12
+16 1 -2 
+55 1 -1 
+40 3 -1 42 46 
+56 2 56 60 
+41 1 -1 
+26 1 -1 
+27 2 27 31 
+59 1 -2 
+12 1 -1 
+13 2 17 13 
+45 1 -2 
+30 1 -2 
+Constructors: 0
+
+Summary: 10
+-1 13 17 27 31 42 46 56 60 -2 
+org/eclipse/debug/internal/core/LaunchConfiguration.getCategory()Ljava/lang/String;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 4 
+$r2 1 4 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/debug/internal/core/LaunchConfiguration.getFileName()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r0 1 0 
+_ret 1 27 
+$r2 1 5 
+r1 1 -1 
+$r6 1 27 
+Fields: 0
+Accesses: 0
+Functions: 5
+4 1 -1 
+22 1 0 
+8 2 0 5 
+26 1 0 
+15 1 0 
+Constructors: 1
+8 0
+
+Summary: 2
+-1 5 

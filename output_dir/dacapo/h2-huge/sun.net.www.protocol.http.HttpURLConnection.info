@@ -1,0 +1,4276 @@
+91
+sun/net/www/protocol/http/HttpURLConnection.setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r2 1 -2 
+r0 1 -1 
+r3 1 -3 
+$r5 1 69 
+$r4 1 50 
+Fields: 2
+-1 userHeaders 69
+-1 requests 50
+Accesses: 4
+0 1 -1 
+49 1 -1 
+68 1 -1 
+7 1 -1 
+Functions: 6
+36 0 
+21 0 
+55 3 -2 50 -3 
+40 5 -1 -2 50 -3 69 
+58 1 -2 
+74 3 -2 -3 69 
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+sun/net/www/protocol/http/HttpURLConnection.getOutputStream()Ljava/io/OutputStream;
+PTG:
+Vars:
+5
+$r3 1 52 
+$r1 1 7 
+r0 1 -1 
+r2 1 13 
+_ret 1 52 
+Fields: 1
+-1 url 7
+Accesses: 2
+2 1 -1 
+6 1 -1 
+Functions: 5
+51 2 -1 7 
+5 2 -1 7 
+23 2 -1 7 
+43 0 
+28 0 
+Constructors: 0
+
+Summary: 2
+28 18 
+sun/net/www/protocol/http/HttpURLConnection.expect100Continue()V
+PTG:
+Vars:
+15
+$r1 1 1 
+$r3 1 33 
+$r12 1 -1 
+$r6 1 33 
+$r14 1 -1 
+r9 1 105 
+$r7 1 33 
+$r5 1 1 
+$r15 1 1 
+$r10 1 123 
+$r2 1 37 
+r0 1 -1 
+$r11 1 1 
+$r4 1 1 
+r17 1 79 
+Fields: 4
+-1 pi 37
+-1 http 1
+-1 responses 33
+105 ArrayObject 123
+Accesses: 13
+0 1 -1 
+32 1 -1 
+36 1 -1 
+165 1 -1 
+71 1 -1 
+135 1 -1 
+168 1 -1 
+109 1 -1 
+16 1 -1 
+59 1 -1 
+155 1 -1 
+28 1 -1 
+127 1 -1 
+Functions: 11
+64 1 1 
+160 1 1 
+1 1 1 
+97 1 79 
+86 1 79 
+23 1 1 
+151 0 
+72 1 33 
+41 4 -1 1 33 37 
+123 1 123 
+172 1 33 
+Constructors: 0
+
+Summary: 3
+123 -1 105 
+sun/net/www/protocol/http/HttpURLConnection.<init>(Ljava/net/URL;Lsun/net/www/protocol/http/Handler;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 1
+4 -1
+
+Summary: 3
+-1 -2 -3 
+sun/net/www/protocol/http/HttpURLConnection.filterHeaderField(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+6
+$r15 1 16 
+r1 1 -2 
+r3 1 -1 
+_ret 1 -3 
+$r2 1 6 
+r0 1 -3 
+Fields: 0
+Accesses: 1
+26 1 -1 
+Functions: 15
+33 1 -3 
+98 0 
+67 0 
+132 0 
+6 2 -2 6 
+42 0 
+76 0 
+142 0 
+16 2 16 -2 
+50 0 
+86 0 
+118 0 
+55 1 -3 
+124 0 
+156 0 
+Constructors: 0
+
+Summary: 8
+127 88 -1 -2 45 1 0 62 
+sun/net/www/protocol/http/HttpURLConnection.getErrorStream()Ljava/io/InputStream;
+PTG:
+Vars:
+3
+$r2 1 30 
+r0 1 -1 
+$r1 1 18 
+Fields: 2
+-1 errorStream 18
+-1 inputStream 30
+Accesses: 6
+0 1 -1 
+17 1 -1 
+36 1 -1 
+7 1 -1 
+24 1 -1 
+29 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.checkSetHost()Z
+PTG:
+Vars:
+6
+r0 1 3 
+$r7 1 60 
+$r6 1 57 
+r3 1 -1 
+$r1 1 9 
+r2 1 15 
+Fields: 1
+-1 url 57
+Accesses: 1
+56 1 -1 
+Functions: 9
+0 0 
+16 1 15 
+64 2 3 60 
+34 1 15 
+8 1 3 
+9 1 9 
+25 1 15 
+57 1 57 
+43 1 15 
+Constructors: 0
+
+Summary: 5
+9 60 -1 3 15 
+sun/net/www/protocol/http/HttpURLConnection.setRequestMethod(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+19 2 -1 -2 
+13 0 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+sun/net/www/protocol/http/HttpURLConnection.getRequestURI()Ljava/lang/String;
+PTG:
+Vars:
+6
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+$r4 1 12 
+$r3 1 9 
+_ret 1 1 
+Fields: 2
+-1 requestURI 1
+-1 http 9
+Accesses: 4
+0 1 -1 
+18 1 -1 
+8 1 -1 
+15 1 -1 
+Functions: 1
+9 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.access$100(Lsun/net/www/protocol/http/HttpURLConnection;)Ljava/io/OutputStream;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+sun/net/www/protocol/http/HttpURLConnection.streaming()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+19 1 -1 
+8 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.getRequestProperty(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+8
+$r1 1 9 
+$r3 1 74 
+r0 1 -2 
+$r7 1 17 
+$r4 1 78 
+r2 1 -1 
+_ret 1 78 
+$r8 1 21 
+Fields: 2
+-1 requests 74
+17 ArrayObject 21
+Accesses: 4
+36 1 -1 
+68 1 -1 
+53 1 -1 
+73 1 -1 
+Functions: 4
+16 2 -2 21 
+58 1 -2 
+74 2 -2 74 
+43 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+sun/net/www/protocol/http/HttpURLConnection.getNewHttpClient(Ljava/net/URL;Ljava/net/Proxy;IZ)Lsun/net/www/http/HttpClient;
+PTG:
+Vars:
+5
+r2 1 -1 
+r0 1 -2 
+r1 1 -3 
+_ret 1 6 
+$r3 1 6 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+sun/net/www/protocol/http/HttpURLConnection.hostsEqual(Ljava/net/URL;Ljava/net/URL;)Z
+PTG:
+Vars:
+6
+r2 1 -3 
+r0 1 -2 
+$r6 1 49 
+r1 1 4 
+r3 1 9 
+$r4 1 41 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+5 1 -3 
+57 4 49 4 9 41 
+60 1 49 
+30 2 4 9 
+Constructors: 1
+57 49
+
+Summary: 6
+9 4 -2 49 -3 41 
+sun/net/www/protocol/http/HttpURLConnection.addRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r2 1 -2 
+$r5 1 69 
+r3 1 -3 
+$r4 1 50 
+r0 1 -1 
+Fields: 2
+-1 userHeaders 69
+-1 requests 50
+Accesses: 4
+0 1 -1 
+49 1 -1 
+68 1 -1 
+7 1 -1 
+Functions: 6
+36 0 
+21 0 
+55 3 -2 50 -3 
+40 5 -1 -2 50 -3 69 
+58 1 -2 
+74 3 -2 -3 69 
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+sun/net/www/protocol/http/HttpURLConnection.tunnelState()Lsun/net/www/protocol/http/HttpURLConnection$TunnelState;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 tunnelState 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.getNetProperty(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r0 1 -2 
+$r2 1 8 
+r1 1 6 
+$r3 1 8 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+7 1 6 
+Constructors: 0
+
+Summary: 1
+-2 
+sun/net/www/protocol/http/HttpURLConnection.setTunnelState(Lsun/net/www/protocol/http/HttpURLConnection$TunnelState;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.authObj(Ljava/lang/Object;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.getRequestProperties()Ljava/util/Map;
+PTG:
+Vars:
+17
+$r7 1 113 
+$r9 1 72 
+$r4 1 46 
+r18 1 52 
+r0 1 -1 
+$r20 1 126 
+_ret 1 130 
+$r1 1 39 
+$r13 1 46 
+$r10 1 39 
+$r3 1 39 
+$r19 1 123 
+$r21 1 130 
+$r11 1 82 
+$r6 1 46 
+$r5 1 103 
+$r2 1 52 
+Fields: 3
+-1 userCookies 39
+-1 userCookies2 46
+-1 requests 123
+Accesses: 10
+0 1 -1 
+18 1 -1 
+38 1 -1 
+25 1 -1 
+122 1 -1 
+91 1 -1 
+60 1 -1 
+108 1 -1 
+45 1 -1 
+77 1 -1 
+Functions: 8
+116 2 113 52 
+85 2 82 52 
+103 1 103 
+56 1 52 
+72 1 72 
+26 0 
+123 3 52 123 126 
+14 0 
+Constructors: 1
+56 52
+
+Summary: 6
+52 72 -1 103 82 113 
+sun/net/www/protocol/http/HttpURLConnection.getHostAndPort(Ljava/net/URL;)Ljava/lang/String;
+PTG:
+Vars:
+13
+r0 1 -2 
+$r9 1 117 
+r3 1 -1 
+_ret 1 120 
+$r4 1 16 
+$r2 1 7 
+$r5 1 96 
+$r6 1 104 
+$r8 1 114 
+$r7 1 109 
+$r21 1 -1 
+$r10 1 120 
+r22 2 16 4 
+Fields: 0
+Accesses: 0
+Functions: 20
+0 1 -2 
+64 0 
+96 3 96 16 4 
+100 1 96 
+69 0 
+7 1 7 
+40 1 -2 
+104 1 104 
+76 2 16 4 
+13 4 -1 16 4 7 
+109 2 114 109 
+46 0 
+80 0 
+112 0 
+84 0 
+117 1 117 
+56 2 16 4 
+89 0 
+28 1 -2 
+60 0 
+Constructors: 2
+100 96
+13 7
+
+Summary: 10
+16 44 69 114 117 4 -1 -2 0 89 
+sun/net/www/protocol/http/HttpURLConnection.openConnectionCheckRedirects(Ljava/net/URLConnection;)Ljava/io/InputStream;
+PTG:
+Vars:
+11
+r8 2 -2 184 
+r9 1 100 
+r0 1 21 
+r1 2 -2 184 
+$r7 2 -2 184 
+r2 1 81 
+r3 1 90 
+$r5 1 130 
+_ret 1 21 
+$r6 1 100 
+$r4 1 125 
+Fields: 0
+Accesses: 0
+Functions: 15
+128 1 100 
+37 2 -2 184 
+139 1 81 
+76 2 -2 184 
+108 3 81 100 90 
+173 0 
+14 2 -2 184 
+144 1 100 
+17 2 -2 184 
+83 2 -2 184 
+115 2 -2 184 
+179 1 100 
+154 2 81 100 
+123 1 81 
+125 2 130 125 
+Constructors: 1
+108 100
+
+Summary: 8
+130 21 -2 125 81 184 90 100 
+sun/net/www/protocol/http/HttpURLConnection.access$200(Lsun/net/www/protocol/http/HttpURLConnection;)Ljava/io/InputStream;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+sun/net/www/protocol/http/HttpURLConnection.getHeaderFields()Ljava/util/Map;
+PTG:
+Vars:
+4
+$r2 1 10 
+r0 1 -1 
+$r3 1 -1 
+_ret 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+9 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.access$400(Lsun/net/www/protocol/http/HttpURLConnection;Z)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/net/www/protocol/http/HttpURLConnection.getReadTimeout()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.followRedirect()Z
+PTG:
+Vars:
+11
+$r5 1 74 
+$r2 1 57 
+r1 1 50 
+$r16 1 90 
+r18 2 90 57 
+$r4 1 70 
+$r17 1 67 
+$r15 1 -1 
+r0 1 -1 
+r6 1 116 
+$r3 1 67 
+Fields: 1
+-1 url 67
+Accesses: 3
+66 1 -1 
+108 1 -1 
+94 1 -1 
+Functions: 14
+0 2 -1 67 
+67 1 67 
+99 3 50 67 90 
+132 5 -1 50 67 57 90 
+70 2 70 74 
+166 5 -1 50 67 57 90 
+9 2 -1 67 
+73 1 57 
+137 0 
+44 2 -1 67 
+111 4 -1 67 57 90 
+148 0 
+157 0 
+62 2 50 57 
+Constructors: 2
+99 90
+62 57
+
+Summary: 8
+123 137 74 70 90 145 57 50 
+sun/net/www/protocol/http/HttpURLConnection.getInputStream()Ljava/io/InputStream;
+PTG:
+Vars:
+5
+$r1 1 7 
+r0 1 -1 
+_ret 1 52 
+r2 1 13 
+$r3 1 52 
+Fields: 1
+-1 url 7
+Accesses: 2
+2 1 -1 
+6 1 -1 
+Functions: 5
+51 2 -1 7 
+5 2 -1 7 
+23 2 -1 7 
+43 0 
+28 0 
+Constructors: 0
+
+Summary: 2
+28 18 
+sun/net/www/protocol/http/HttpURLConnection.doTunneling()V
+PTG:
+Vars:
+50
+$r33 1 232 
+$r20 1 562 
+r49 1 356 
+$r28 1 412 
+$r12 1 483 
+$r55 1 191 
+r50 1 370 
+$r43 1 53 
+$r37 1 69 
+$r36 1 139 
+$r4 1 69 
+r1 1 21 
+$r5 1 69 
+$r30 1 76 
+$r42 1 108 
+$r53 1 170 
+r56 1 243 
+$r59 1 306 
+$r22 1 562 
+$r2 1 24 
+$r58 1 69 
+$r34 1 130 
+$r38 1 148 
+$r26 1 69 
+$r32 1 232 
+r52 1 169 
+$r63 1 76 
+$r23 1 469 
+$r3 1 38 
+$r9 1 69 
+$r31 1 76 
+$r8 1 89 
+$r6 1 76 
+$r60 1 53 
+$r57 1 295 
+$r40 1 69 
+$r35 1 127 
+$r7 1 92 
+$r61 1 76 
+$r21 1 69 
+$r51 1 69 
+$r24 1 69 
+$r64 1 333 
+$r62 1 318 
+r25 1 218 
+$r39 1 155 
+$r41 1 101 
+r0 1 -1 
+r27 1 401 
+$r54 1 188 
+Fields: 5
+-1 url 53
+-1 proxyAuthKey 562
+-1 http 76
+-1 responses 69
+-1 requests 21
+Accesses: 29
+321 1 -1 
+68 1 -1 
+580 1 -1 
+391 1 -1 
+520 1 -1 
+75 1 -1 
+587 1 -1 
+79 1 -1 
+208 1 -1 
+17 1 -1 
+341 1 -1 
+151 1 -1 
+600 1 -1 
+283 1 -1 
+603 1 -1 
+31 1 -1 
+161 1 -1 
+104 1 -1 
+363 1 -1 
+302 1 -1 
+561 1 -1 
+114 1 -1 
+52 1 -1 
+372 1 -1 
+310 1 -1 
+440 1 -1 
+568 1 -1 
+314 1 -1 
+445 1 -1 
+Functions: 55
+256 1 243 
+392 1 69 
+524 0 
+145 1 139 
+531 0 
+404 6 -1 562 53 69 21 76 
+407 9 -1 401 562 356 53 69 21 76 412 
+535 0 
+152 1 69 
+410 1 295 
+28 1 24 
+541 1 169 
+158 2 148 155 
+545 0 
+162 1 69 
+551 0 
+424 6 -1 562 53 69 21 76 
+41 7 -1 562 53 69 21 38 76 
+44 6 -1 562 53 69 21 76 
+557 0 
+175 2 169 170 
+434 0 
+182 1 170 
+186 1 170 
+315 1 76 
+188 1 188 
+572 1 562 
+61 7 -1 562 370 53 69 21 76 
+191 1 191 
+65 6 -1 562 53 69 21 76 
+322 1 76 
+72 1 69 
+328 3 306 53 318 
+458 1 356 
+591 0 
+336 4 306 69 295 333 
+209 1 69 
+85 6 -1 562 69 53 21 76 
+472 7 -1 562 53 69 21 469 76 
+89 2 89 92 
+220 1 218 
+348 8 -1 562 356 53 69 21 295 76 
+479 6 -1 562 53 69 21 76 
+607 1 69 
+230 1 218 
+486 7 -1 562 483 53 69 21 76 
+105 1 69 
+364 1 76 
+237 1 232 
+111 2 101 108 
+115 1 69 
+245 1 243 
+373 1 76 
+382 6 -1 562 53 69 21 76 
+127 2 130 127 
+Constructors: 4
+336 295
+328 306
+28 24
+175 170
+
+Summary: 16
+191 370 170 412 356 551 -1 169 108 243 155 318 295 306 554 401 
+sun/net/www/protocol/http/HttpURLConnection.<init>(Ljava/net/URL;Ljava/lang/String;I)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r1 1 -2 
+$r4 1 6 
+$r6 1 14 
+$r5 1 10 
+r3 1 -3 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 4
+17 3 2 6 14 
+20 3 -1 -2 2 
+9 1 -3 
+13 1 10 
+Constructors: 2
+17 2
+20 -1
+
+Summary: 6
+-1 -2 2 14 -3 10 
+sun/net/www/protocol/http/HttpURLConnection.mapToMessageHeader(Ljava/util/Map;)Lsun/net/www/MessageHeader;
+PTG:
+Vars:
+15
+$r0 1 0 
+$r3 1 24 
+$r7 1 57 
+r8 1 57 
+$r5 1 45 
+$r9 1 69 
+r13 1 100 
+r2 1 -2 
+_ret 1 0 
+r6 1 45 
+r11 1 86 
+r14 1 -1 
+r4 1 34 
+r10 1 69 
+$r12 1 100 
+Fields: 0
+Accesses: 0
+Functions: 13
+98 1 86 
+35 1 34 
+67 1 45 
+131 3 0 100 57 
+4 1 0 
+12 1 -2 
+44 1 34 
+79 1 69 
+23 1 -2 
+55 1 45 
+24 1 24 
+88 1 86 
+120 3 0 100 57 
+Constructors: 1
+4 0
+
+Summary: 9
+-1 -2 69 86 45 57 24 0 100 
+sun/net/www/protocol/http/HttpURLConnection.getChainedException(Ljava/io/IOException;)Ljava/io/IOException;
+PTG:
+Vars:
+9
+$r5 1 22 
+$r2 1 7 
+r1 1 -2 
+$r3 1 12 
+r4 1 -1 
+$r0 1 1 
+$r8 1 -1 
+_ret 1 -2 
+r6 1 22 
+Fields: 0
+Accesses: 0
+Functions: 4
+19 4 -1 -2 1 12 
+6 1 -2 
+12 1 12 
+31 2 -2 22 
+Constructors: 1
+19 12
+
+Summary: 3
+-1 1 0 
+sun/net/www/protocol/http/HttpURLConnection.getConnectTimeout()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.checkHost(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+2
+r0 1 -2 
+_ret 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 1 -2 
+20 0 
+Constructors: 0
+
+Summary: 0
+
+sun/net/www/protocol/http/HttpURLConnection.reset()V
+PTG:
+Vars:
+13
+$r9 1 -1 
+$r5 1 25 
+r7 1 79 
+$r12 1 -1 
+$r13 1 53 
+$r17 1 181 
+$r8 1 111 
+r4 1 23 
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+$r3 1 1 
+$r6 1 71 
+Fields: 5
+-1 cdata 111
+-1 cdata 53
+-1 method 25
+-1 http 1
+-1 responses 71
+Accesses: 14
+0 1 -1 
+193 1 -1 
+5 1 1 
+70 1 -1 
+9 1 -1 
+13 1 -1 
+110 1 -1 
+142 1 -1 
+16 1 -1 
+177 1 -1 
+52 1 -1 
+24 1 -1 
+152 1 -1 
+188 1 -1 
+Functions: 9
+17 1 1 
+51 2 53 23 
+86 1 79 
+71 1 71 
+168 1 23 
+25 1 25 
+185 1 181 
+156 6 -1 1 53 71 25 111 
+109 2 23 111 
+Constructors: 1
+185 181
+
+Summary: 3
+23 79 -1 
+sun/net/www/protocol/http/HttpURLConnection.<init>(Ljava/net/URL;Ljava/net/Proxy;Lsun/net/www/protocol/http/Handler;)V
+PTG:
+Vars:
+19
+$r10 1 183 
+$r11 1 208 
+$r6 1 151 
+r0 1 -1 
+$r5 1 140 
+$r15 1 -1 
+$r17 1 226 
+r8 1 -4 
+$r3 1 109 
+$r18 1 234 
+$r19 1 234 
+r9 1 -3 
+$r2 1 2 
+$r4 1 134 
+r1 1 -2 
+$r13 1 216 
+$r12 1 216 
+$r14 1 193 
+$r7 1 162 
+Fields: 1
+-1 instProxy 183
+Accesses: 34
+65 1 -1 
+196 1 -1 
+70 1 -1 
+136 1 -1 
+10 1 -1 
+75 1 -1 
+15 1 -1 
+80 1 -1 
+147 1 -1 
+20 1 -1 
+85 1 -1 
+25 1 -1 
+90 1 -1 
+30 1 -1 
+158 1 -1 
+222 1 -1 
+95 1 -1 
+35 1 -1 
+100 1 -1 
+40 1 -1 
+105 1 -1 
+169 1 -1 
+45 1 -1 
+174 1 -1 
+112 1 -1 
+240 1 -1 
+50 1 -1 
+179 1 -1 
+117 1 -1 
+182 1 -1 
+55 1 -1 
+122 1 -1 
+60 1 -1 
+127 1 -1 
+Functions: 10
+144 1 140 
+-1 0 
+208 1 208 
+1 1 -2 
+226 1 226 
+5 3 -1 2 183 
+213 3 208 -1 183 
+166 1 162 
+231 3 -1 226 183 
+155 1 151 
+Constructors: 6
+144 140
+5 -1
+213 208
+166 162
+231 226
+155 151
+
+Summary: 6
+2 -1 -2 0 1 2 
+sun/net/www/protocol/http/HttpURLConnection.resetProxyAuthentication(Lsun/net/www/protocol/http/AuthenticationInfo;Lsun/net/www/protocol/http/AuthenticationHeader;)Lsun/net/www/protocol/http/AuthenticationInfo;
+PTG:
+Vars:
+8
+r4 1 18 
+r1 1 -3 
+$r2 1 5 
+r19 1 131 
+r0 1 -1 
+$r3 1 8 
+_ret 1 131 
+r17 1 -2 
+Fields: 0
+Accesses: 7
+52 1 -1 
+117 1 -1 
+102 1 -1 
+134 1 -1 
+89 1 -1 
+76 1 -1 
+93 1 -1 
+Functions: 13
+4 1 -2 
+70 0 
+40 1 -1 
+72 1 -1 
+106 1 -2 
+14 1 -3 
+112 0 
+50 0 
+19 2 -2 18 
+53 0 
+88 1 -2 
+123 1 -2 
+126 2 -1 -3 
+Constructors: 0
+
+Summary: 12
+65 107 41 -3 73 5 83 100 56 18 -1 1 
+sun/net/www/protocol/http/HttpURLConnection.disconnectInternal()V
+PTG:
+Vars:
+5
+$r4 1 11 
+r0 1 -1 
+$r1 1 11 
+$r2 1 30 
+$r3 1 30 
+Fields: 2
+-1 pi 11
+-1 http 30
+Accesses: 9
+17 1 -1 
+2 1 -1 
+50 1 -1 
+36 1 -1 
+7 1 -1 
+10 1 -1 
+26 1 -1 
+29 1 -1 
+45 1 -1 
+Functions: 2
+21 1 11 
+40 1 30 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.lambda$getNetProperty$0(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -2 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+sun/net/www/protocol/http/HttpURLConnection.setProxiedClient(Ljava/net/URL;Ljava/lang/String;I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 1 0 
+sun/net/www/protocol/http/HttpURLConnection.URLtoSocketPermission(Ljava/net/URL;)Ljava/net/SocketPermission;
+PTG:
+Vars:
+25
+$r9 1 49 
+$r15 1 72 
+r2 1 15 
+$r17 1 83 
+$r20 1 96 
+r0 1 -1 
+$r19 1 93 
+$r13 1 64 
+$r22 1 103 
+$r11 1 58 
+r14 1 70 
+$r28 1 -1 
+$r5 1 28 
+$r21 1 100 
+r23 1 109 
+$r18 1 89 
+r4 1 -2 
+$r16 1 80 
+$r12 1 61 
+$r24 1 111 
+$r1 1 1 
+$r3 1 22 
+$r7 1 38 
+$r8 1 46 
+$r10 1 54 
+Fields: 1
+-1 socketPermission 1
+Accesses: 4
+0 1 -1 
+132 1 -1 
+7 1 -1 
+135 1 -1 
+Functions: 22
+64 1 64 
+96 2 96 100 
+34 2 22 28 
+99 1 -2 
+38 2 38 46 
+103 1 103 
+72 2 80 72 
+42 1 38 
+12 0 
+76 1 72 
+45 2 -1 1 
+79 1 -2 
+49 1 49 
+83 1 83 
+54 2 54 61 
+119 3 70 109 111 
+57 2 -1 1 
+89 2 89 93 
+26 3 -1 1 -2 
+58 1 58 
+92 1 -2 
+127 2 15 111 
+Constructors: 4
+34 22
+119 111
+42 38
+76 72
+
+Summary: 16
+93 15 46 -1 -2 70 64 0 58 103 80 61 100 109 111 28 
+sun/net/www/protocol/http/HttpURLConnection.checkReuseConnection()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 10 
+Fields: 1
+-1 reuseClient 10
+Accesses: 8
+0 1 -1 
+17 1 -1 
+50 1 -1 
+35 1 -1 
+21 1 -1 
+24 1 -1 
+9 1 -1 
+45 1 -1 
+Functions: 2
+32 0 
+28 2 -1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.getNewHttpClient(Ljava/net/URL;Ljava/net/Proxy;I)Lsun/net/www/http/HttpClient;
+PTG:
+Vars:
+5
+$r3 1 4 
+r2 1 -1 
+r0 1 -2 
+_ret 1 4 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 1 0 
+sun/net/www/protocol/http/HttpURLConnection.connect()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+20 1 -1 
+Constructors: 0
+
+Summary: 0
+
+sun/net/www/protocol/http/HttpURLConnection.isExternalMessageHeaderAllowed(Ljava/lang/String;Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 3 -1 -2 -3 
+6 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 1 0 
+sun/net/www/protocol/http/HttpURLConnection.access$000()Lsun/util/logging/PlatformLogger;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/net/www/protocol/http/HttpURLConnection.setCookieHeader()V
+PTG:
+Vars:
+76
+$r18 1 19 
+$r10 1 19 
+$r72 1 -1 
+$r65 1 153 
+$r69 1 68 
+$r59 1 219 
+$r44 1 299 
+$r38 1 229 
+$r5 1 110 
+$r56 1 199 
+r42 1 262 
+$r28 1 469 
+$r29 1 472 
+$r11 1 19 
+$r7 1 496 
+$r43 1 272 
+$r48 1 19 
+$r49 1 397 
+$r3 1 19 
+$r23 1 19 
+$r60 1 222 
+$r31 1 121 
+$r15 1 496 
+r45 1 299 
+$r66 1 19 
+$r19 1 412 
+$r24 1 453 
+$r14 1 546 
+$r8 1 19 
+$r20 1 19 
+$r81 1 412 
+$r37 1 187 
+$r17 1 556 
+$r1 1 1 
+$r30 1 124 
+$r22 1 19 
+$r35 1 171 
+$r4 1 19 
+$r46 1 324 
+$r54 1 283 
+$r27 1 412 
+r77 1 177 
+$r52 1 368 
+$r39 1 250 
+$r9 1 525 
+$r41 1 262 
+$r58 1 216 
+$r63 1 146 
+r0 1 -1 
+$r57 1 212 
+$r21 1 441 
+$r71 1 40 
+$r64 1 150 
+$r12 1 537 
+$r82 1 496 
+$r67 1 19 
+$r61 1 136 
+$r32 1 168 
+$r16 1 553 
+$r62 1 133 
+$r13 1 540 
+$r50 1 354 
+r76 1 116 
+$r55 1 202 
+r51 1 354 
+$r6 1 19 
+$r68 1 19 
+$r36 1 190 
+$r70 1 19 
+$r25 1 456 
+$r33 1 19 
+r40 1 250 
+$r26 1 462 
+r78 1 239 
+r79 1 340 
+$r34 1 1 
+Fields: 5
+-1 cookieHandler 1
+-1 url 110
+-1 userCookies 412
+-1 userCookies2 496
+-1 requests 19
+Accesses: 29
+0 1 -1 
+448 1 -1 
+518 1 -1 
+71 1 -1 
+11 1 -1 
+76 1 -1 
+465 1 -1 
+18 1 -1 
+532 1 -1 
+89 1 -1 
+411 1 -1 
+159 1 -1 
+481 1 -1 
+418 1 -1 
+35 1 -1 
+99 1 -1 
+164 1 -1 
+549 1 -1 
+488 1 -1 
+43 1 -1 
+109 1 -1 
+46 1 -1 
+495 1 -1 
+434 1 -1 
+565 1 -1 
+502 1 -1 
+572 1 -1 
+381 1 -1 
+63 1 -1 
+Functions: 59
+387 1 324 
+260 1 250 
+390 1 324 
+136 1 136 
+140 1 136 
+525 2 537 525 
+272 2 272 262 
+400 3 19 262 397 
+529 1 525 
+146 2 146 116 
+19 1 19 
+533 1 19 
+150 1 150 
+283 2 262 283 
+156 2 133 153 
+540 1 540 
+160 3 1 116 171 
+546 2 496 546 
+419 1 19 
+36 1 19 
+165 2 19 168 
+297 1 250 
+553 1 553 
+47 1 19 
+559 2 19 556 
+178 1 177 
+441 2 453 441 
+314 1 299 
+187 2 187 190 
+445 1 441 
+64 1 19 
+576 2 496 19 
+449 1 19 
+328 1 324 
+456 1 456 
+202 1 202 
+333 1 299 
+206 1 202 
+462 2 412 462 
+212 2 212 216 
+469 1 469 
+342 1 340 
+215 1 177 
+219 1 219 
+475 2 19 472 
+96 1 19 
+352 1 340 
+225 2 199 222 
+228 1 177 
+229 1 229 
+106 1 19 
+364 2 354 324 
+492 2 19 412 
+110 1 110 
+240 1 239 
+374 1 368 
+503 1 19 
+121 2 121 124 
+249 1 239 
+Constructors: 5
+529 525
+328 324
+140 136
+445 441
+206 202
+
+Summary: 20
+216 219 222 453 250 469 556 116 537 354 299 340 150 171 472 553 153 229 397 262 
+sun/net/www/protocol/http/HttpURLConnection.setNewClient(Ljava/net/URL;Z)V
+PTG:
+Vars:
+4
+$r2 1 10 
+r0 1 -1 
+$r3 1 17 
+r1 1 -2 
+Fields: 1
+-1 http 17
+Accesses: 4
+16 1 -1 
+20 1 -1 
+5 1 -1 
+13 1 -1 
+Functions: 2
+24 1 17 
+9 3 -1 -2 17 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+sun/net/www/protocol/http/HttpURLConnection.disconnectWeb()V
+PTG:
+Vars:
+2
+$r1 1 8 
+r0 1 -1 
+Fields: 1
+-1 http 8
+Accesses: 2
+19 1 -1 
+7 1 -1 
+Functions: 4
+0 2 -1 8 
+23 2 -1 8 
+8 1 8 
+30 2 -1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.plainConnect0()V
+PTG:
+Vars:
+93
+r85 1 21 
+$r93 6 586 397 554 364 627 662 
+$r72 1 164 
+$r6 1 236 
+$r35 1 445 
+$r14 1 586 
+$r54 1 53 
+$r46 1 211 
+$r28 2 397 364 
+$r27 1 390 
+r0 1 -1 
+$r61 1 89 
+$r2 1 236 
+$r82 1 500 
+$r71 1 63 
+$r47 1 218 
+$r17 1 554 
+$r49 1 33 
+$r30 1 407 
+r92 1 250 
+$r75 1 63 
+$r7 1 15 
+$r3 1 15 
+$r69 1 128 
+$r33 1 437 
+$r20 1 272 
+$r84 1 -1 
+$r74 1 63 
+$r55 1 63 
+$r37 1 15 
+$r52 1 43 
+$r24 1 328 
+$r80 1 471 
+$r13 1 579 
+$r56 1 186 
+$r86 1 77 
+$r11 1 250 
+$r77 1 -1 
+$r10 1 242 
+$r4 1 655 
+$r48 1 1 
+$r63 1 106 
+$r5 1 662 
+$r22 1 309 
+$r51 1 40 
+$r31 1 427 
+$r15 1 15 
+r23 1 317 
+$r60 1 92 
+$r43 1 298 
+$r45 1 15 
+$r66 1 119 
+$r73 1 167 
+$r12 1 15 
+$r94 1 677 
+$r95 1 677 
+$r42 1 294 
+$r21 1 269 
+$r32 1 424 
+$r65 1 116 
+$r36 1 448 
+$r39 2 397 364 
+$r57 1 189 
+$r41 1 281 
+$r70 1 141 
+$r1 1 1 
+$r88 2 161 155 
+r19 1 268 
+$r26 1 15 
+$r18 1 15 
+$r44 1 301 
+$r89 1 63 
+$r81 1 15 
+$r34 1 442 
+$r38 1 357 
+$r8 1 620 
+$r79 1 461 
+$r87 1 80 
+$r62 1 102 
+$r67 1 122 
+$r91 1 236 
+$r68 1 131 
+r25 1 328 
+$r59 1 200 
+$r16 1 547 
+$r83 2 397 364 
+$r64 1 112 
+$r40 1 284 
+$r50 1 37 
+$r9 1 627 
+$r58 1 63 
+$r29 1 410 
+$r53 1 49 
+Fields: 12
+-1 url 15
+-1 cacheHandler 1
+-1 cachedHeaders 211
+-1 cachedInputStream 218
+-1 http 586
+-1 http 397
+-1 http 554
+-1 http 364
+-1 http 627
+-1 http 662
+-1 cachedResponse 63
+-1 instProxy 236
+Accesses: 62
+0 1 -1 
+385 1 -1 
+642 1 -1 
+261 1 -1 
+646 1 -1 
+393 1 -1 
+650 1 -1 
+396 1 -1 
+14 1 -1 
+144 1 -1 
+400 1 -1 
+529 1 -1 
+658 1 -1 
+661 1 -1 
+151 1 -1 
+665 1 -1 
+538 1 -1 
+27 1 -1 
+543 1 -1 
+673 1 -1 
+550 1 -1 
+553 1 -1 
+683 1 -1 
+173 1 -1 
+557 1 -1 
+46 1 -1 
+182 1 -1 
+694 1 -1 
+569 1 -1 
+62 1 -1 
+574 1 -1 
+192 1 -1 
+196 1 -1 
+582 1 -1 
+585 1 -1 
+74 1 -1 
+203 1 -1 
+589 1 -1 
+210 1 -1 
+338 1 -1 
+599 1 -1 
+217 1 -1 
+347 1 -1 
+608 1 -1 
+353 1 -1 
+226 1 -1 
+612 1 -1 
+232 1 -1 
+360 1 -1 
+616 1 -1 
+490 1 -1 
+235 1 -1 
+363 1 -1 
+367 1 -1 
+495 1 -1 
+623 1 -1 
+626 1 -1 
+630 1 -1 
+503 1 -1 
+506 1 -1 
+379 1 -1 
+510 1 -1 
+Functions: 64
+641 13 -1 1 586 554 364 236 397 15 211 627 662 218 63 
+514 2 364 397 
+131 1 131 
+262 1 15 
+7 13 -1 1 586 554 364 236 397 15 211 627 662 218 63 
+135 1 131 
+141 3 161 155 141 
+269 2 272 269 
+15 1 15 
+404 2 364 397 
+407 2 407 410 
+152 1 63 
+537 13 -1 1 586 554 364 236 397 15 211 627 662 218 63 
+28 4 1 33 21 40 
+284 1 284 
+669 1 662 
+32 13 -1 1 586 554 364 236 397 15 211 627 662 218 63 
+288 1 284 
+674 6 627 662 586 554 364 397 
+36 13 -1 1 586 554 364 236 397 15 211 627 662 218 63 
+164 1 164 
+37 1 37 
+294 2 294 268 
+170 2 128 167 
+298 1 298 
+427 1 427 
+431 1 427 
+304 2 281 301 
+49 2 49 53 
+561 1 554 
+307 2 250 268 
+52 1 21 
+181 14 -1 1 586 554 364 236 397 15 211 627 662 218 186 63 
+309 1 309 
+437 2 437 442 
+183 1 63 
+440 1 328 
+568 13 -1 1 586 554 364 236 397 15 211 627 662 218 63 
+445 1 445 
+318 1 317 
+451 2 448 424 
+197 1 63 
+327 1 317 
+77 2 80 77 
+593 1 586 
+469 1 328 
+346 14 -1 1 328 586 554 364 236 397 15 211 627 662 218 63 
+92 1 92 
+476 4 -1 471 250 268 
+479 1 317 
+607 13 -1 1 586 554 364 236 397 15 211 627 662 218 63 
+96 1 92 
+102 2 21 102 
+489 13 -1 1 586 554 364 236 397 15 211 627 662 218 63 
+106 1 106 
+112 2 112 116 
+242 1 242 
+115 13 -1 1 586 554 364 236 397 15 211 627 662 218 63 
+371 2 364 397 
+119 1 119 
+247 14 -1 1 586 554 364 236 397 15 242 211 627 662 218 63 
+378 14 -1 1 328 586 554 364 236 397 15 211 627 662 218 63 
+634 1 627 
+125 2 89 122 
+Constructors: 5
+96 92
+288 284
+135 131
+247 242
+431 427
+
+Summary: 23
+471 33 250 328 164 122 116 21 442 37 448 -1 298 186 53 301 155 40 268 309 119 167 445 
+sun/net/www/protocol/http/HttpURLConnection.isRestrictedHeader(Ljava/lang/String;Ljava/lang/String;)Z
+PTG:
+Vars:
+5
+r1 1 -3 
+$r0 1 13 
+r4 1 12 
+r3 1 -2 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+34 1 -3 
+8 1 -2 
+25 1 12 
+13 2 12 13 
+47 1 12 
+Constructors: 0
+
+Summary: 5
+-1 -3 1 0 12 
+sun/net/www/protocol/http/HttpURLConnection.setNewClient(Ljava/net/URL;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+sun/net/www/protocol/http/HttpURLConnection.getUserSetHeaders()Lsun/net/www/MessageHeader;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 userHeaders 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.checkResponseCredentials(Z)V
+PTG:
+Vars:
+19
+$r8 1 15 
+$r5 1 83 
+r0 1 -1 
+r16 1 15 
+$r6 1 133 
+$r9 1 15 
+$r10 1 32 
+$r7 1 61 
+r15 1 41 
+$r3 1 83 
+$r19 1 83 
+r18 1 83 
+$r12 1 61 
+$r13 1 65 
+$r1 1 15 
+$r2 1 83 
+$r11 1 15 
+r17 1 109 
+$r4 1 32 
+Fields: 5
+-1 url 133
+-1 currentServerCredentials 83
+-1 currentProxyCredentials 15
+-1 method 61
+-1 responses 32
+Accesses: 18
+0 1 -1 
+128 1 -1 
+160 1 -1 
+99 1 -1 
+132 1 -1 
+73 1 -1 
+141 1 -1 
+173 1 -1 
+14 1 -1 
+144 1 -1 
+50 1 -1 
+82 1 -1 
+21 1 -1 
+118 1 -1 
+151 1 -1 
+89 1 -1 
+60 1 -1 
+31 1 -1 
+Functions: 6
+32 1 32 
+64 6 -1 32 83 133 61 15 
+68 4 65 41 61 15 
+100 1 32 
+136 4 83 133 109 61 
+168 6 -1 32 83 133 61 15 
+Constructors: 0
+
+Summary: 4
+109 65 -1 41 
+sun/net/www/protocol/http/HttpURLConnection.<init>(Ljava/net/URL;Ljava/net/Proxy;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r3 1 3 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+7 1 3 
+10 4 -1 -2 -3 3 
+Constructors: 2
+7 3
+10 -1
+
+Summary: 6
+3 -1 -2 -3 0 1 
+sun/net/www/protocol/http/HttpURLConnection.setDefaultAuthenticator(Lsun/net/www/protocol/http/HttpAuthenticator;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/net/www/protocol/http/HttpURLConnection.writeRequests()V
+PTG:
+Vars:
+90
+$r21 1 135 
+$r33 1 449 
+$r32 1 658 
+r95 1 736 
+$r2 1 1 
+$r6 1 1 
+$r75 1 66 
+$r36 1 449 
+$r43 1 22 
+$r46 1 22 
+$r20 1 135 
+$r82 1 14 
+$r77 1 73 
+$r47 1 411 
+$r83 1 22 
+$r67 1 183 
+$r48 1 58 
+$r66 1 179 
+$r81 1 11 
+$r79 1 83 
+$r93 1 675 
+$r62 1 22 
+$r68 1 186 
+$r42 1 529 
+$r50 1 424 
+$r24 1 22 
+$r51 1 332 
+$r9 1 1 
+$r41 1 22 
+$r61 1 274 
+$r27 1 22 
+$r39 1 22 
+$r65 1 174 
+$r69 1 22 
+$r7 1 1 
+$r35 1 449 
+$r72 1 22 
+$r87 1 22 
+$r59 1 22 
+$r17 1 694 
+$r28 1 631 
+$r49 1 135 
+$r26 1 449 
+r86 2 149 192 
+$r44 1 449 
+$r29 1 22 
+$r92 1 58 
+$r76 1 70 
+$r4 1 449 
+$r3 1 22 
+$r15 1 22 
+$r58 1 1 
+$r80 1 86 
+$r60 1 271 
+$r94 1 678 
+$r31 1 646 
+$r78 1 78 
+r91 1 390 
+$r55 1 22 
+$r37 1 22 
+$r23 1 22 
+$r13 1 135 
+$r19 1 22 
+$r30 1 649 
+$r63 1 135 
+r0 1 -1 
+$r73 1 58 
+$r40 1 556 
+$r70 1 22 
+$r53 1 349 
+$r45 1 22 
+$r18 1 128 
+$r64 1 166 
+$r12 1 816 
+$r16 1 687 
+$r10 1 801 
+$r38 1 600 
+$r11 1 801 
+$r74 1 61 
+$r54 1 361 
+$r25 1 135 
+$r8 1 135 
+$r56 1 377 
+$r57 1 1 
+$r5 1 720 
+$r88 1 22 
+$r1 1 1 
+$r71 1 50 
+$r52 1 343 
+r22 1 202 
+Fields: 6
+-1 url 135
+-1 ps 720
+-1 method 58
+-1 http 1
+-1 poster 449
+-1 requests 22
+Accesses: 64
+0 1 -1 
+768 1 -1 
+1 1 1 
+260 1 -1 
+261 1 1 
+134 1 -1 
+519 1 -1 
+776 1 -1 
+525 1 -1 
+142 1 -1 
+21 1 -1 
+405 1 -1 
+789 1 -1 
+280 1 -1 
+538 1 -1 
+28 1 -1 
+156 1 -1 
+797 1 -1 
+416 1 -1 
+672 1 -1 
+546 1 -1 
+35 1 -1 
+420 1 -1 
+294 1 -1 
+807 1 -1 
+552 1 -1 
+812 1 -1 
+46 1 -1 
+433 1 -1 
+690 1 -1 
+308 1 -1 
+436 1 -1 
+565 1 -1 
+823 1 -1 
+57 1 -1 
+572 1 -1 
+700 1 -1 
+828 1 -1 
+448 1 -1 
+704 1 -1 
+193 1 -1 
+580 1 -1 
+708 1 -1 
+587 1 -1 
+462 1 -1 
+719 1 -1 
+593 1 -1 
+729 1 -1 
+222 1 -1 
+737 1 -1 
+483 1 -1 
+100 1 -1 
+232 1 -1 
+491 1 -1 
+749 1 -1 
+111 1 -1 
+367 1 -1 
+625 1 -1 
+243 1 -1 
+122 1 -1 
+250 1 -1 
+508 1 -1 
+637 1 -1 
+383 1 -1 
+Functions: 80
+384 1 135 
+131 2 128 22 
+643 1 22 
+646 2 646 649 
+135 1 135 
+10 7 -1 720 1 449 22 135 58 
+397 1 390 
+270 7 -1 720 1 449 22 135 58 
+526 0 
+782 8 -1 720 736 1 449 22 135 58 
+143 1 135 
+532 2 529 22 
+663 1 658 
+25 7 -1 720 1 449 22 135 58 
+409 1 390 
+793 7 -1 720 1 449 22 135 58 
+667 7 -1 720 1 449 22 135 58 
+157 1 135 
+414 3 390 135 58 
+798 1 1 
+288 1 22 
+675 2 675 678 
+166 3 192 149 166 
+553 0 
+170 1 166 
+43 7 -1 720 1 449 22 135 58 
+427 3 22 424 411 
+174 1 174 
+302 1 22 
+559 2 22 556 
+50 2 50 58 
+179 2 179 183 
+691 1 22 
+820 1 816 
+437 1 58 
+54 1 50 
+182 0 
+697 2 694 687 
+186 1 186 
+316 1 22 
+61 1 61 
+319 7 -1 720 1 449 22 135 58 
+832 7 -1 720 1 449 22 135 58 
+66 2 66 70 
+194 1 22 
+69 7 -1 720 1 449 22 135 58 
+455 7 -1 720 1 449 22 135 58 
+584 1 449 
+712 7 -1 720 1 449 22 135 58 
+73 1 73 
+716 3 1 449 22 
+78 1 78 
+207 3 192 149 202 
+720 1 720 
+338 1 332 
+594 1 449 
+83 1 83 
+597 0 
+470 1 22 
+215 7 -1 720 1 449 22 135 58 
+90 2 22 86 
+730 1 1 
+603 2 22 600 
+476 7 -1 720 1 449 22 135 58 
+93 7 -1 720 1 449 22 135 58 
+352 2 343 349 
+738 1 1 
+229 3 192 149 22 
+359 0 
+746 7 -1 720 1 449 22 135 58 
+108 1 22 
+364 2 343 361 
+240 1 22 
+626 1 22 
+499 1 22 
+373 2 343 332 
+119 1 22 
+762 0 
+251 1 1 
+380 2 22 377 
+Constructors: 5
+352 343
+338 332
+820 816
+54 50
+170 166
+
+Summary: 22
+736 70 192 271 83 556 631 332 202 149 529 183 361 186 694 86 424 600 343 377 411 11 
+sun/net/www/protocol/http/HttpURLConnection.connectRequestURI(Ljava/net/URL;)Ljava/lang/String;
+PTG:
+Vars:
+8
+$r3 1 32 
+$r2 1 24 
+r1 1 4 
+$r5 1 41 
+r0 1 -2 
+$r6 1 44 
+_ret 1 44 
+$r4 1 37 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+32 1 32 
+19 1 -2 
+5 1 -2 
+37 1 37 
+24 2 4 24 
+41 1 41 
+28 1 24 
+Constructors: 1
+28 24
+
+Summary: 4
+4 -2 41 0 
+sun/net/www/protocol/http/HttpURLConnection.getHeaderField(I)Ljava/lang/String;
+PTG:
+Vars:
+9
+$r2 1 10 
+$r4 1 43 
+$r5 1 39 
+$r13 1 -1 
+$r3 1 39 
+r0 1 -1 
+$r6 1 51 
+_ret 1 54 
+$r7 1 54 
+Fields: 2
+-1 cachedHeaders 10
+-1 responses 39
+Accesses: 5
+17 1 -1 
+38 1 -1 
+9 1 -1 
+25 1 -1 
+46 1 -1 
+Functions: 7
+16 3 -1 39 10 
+1 3 -1 39 10 
+18 0 
+37 5 -1 51 39 10 43 
+39 1 39 
+26 0 
+47 1 39 
+Constructors: 0
+
+Summary: 4
+30 51 22 43 
+sun/net/www/protocol/http/HttpURLConnection.setProxiedClient(Ljava/net/URL;Ljava/lang/String;IZ)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 1 0 
+sun/net/www/protocol/http/HttpURLConnection.getOutputStream0()Ljava/io/OutputStream;
+PTG:
+Vars:
+28
+$r18 1 137 
+$r4 1 78 
+$r10 1 299 
+$r3 1 38 
+$r21 1 51 
+$r30 1 283 
+$r8 1 177 
+$r6 1 119 
+$r20 1 54 
+$r19 1 84 
+$r29 1 277 
+$r2 2 35 19 
+r0 1 -1 
+$r12 1 306 
+$r1 1 19 
+$r13 1 154 
+$r15 1 214 
+$r22 1 57 
+$r5 1 109 
+$r24 1 7 
+r28 1 118 
+$r17 1 154 
+$r16 1 219 
+$r25 1 -1 
+$r7 1 137 
+$r9 1 177 
+$r14 1 209 
+$r23 1 66 
+Fields: 10
+-1 url 54
+-1 strOutputStream 154
+-1 ps 219
+-1 ps 283
+-1 method 19
+-1 method 35
+-1 inputStream 78
+-1 http 137
+-1 poster 299
+-1 requests 109
+Accesses: 28
+0 1 -1 
+193 1 -1 
+262 1 -1 
+136 1 -1 
+200 1 -1 
+329 1 -1 
+77 1 -1 
+270 1 -1 
+18 1 -1 
+340 1 -1 
+153 1 -1 
+218 1 -1 
+282 1 -1 
+222 1 -1 
+290 1 -1 
+35 1 -1 
+293 1 -1 
+41 1 -1 
+298 1 -1 
+235 1 -1 
+108 1 -1 
+173 1 -1 
+243 1 -1 
+53 1 -1 
+183 1 -1 
+313 1 -1 
+316 1 -1 
+254 1 -1 
+Functions: 25
+129 11 -1 19 35 54 137 154 219 283 299 109 78 
+323 11 -1 19 35 54 137 154 219 283 299 109 78 
+73 1 66 
+141 1 137 
+14 1 7 
+335 11 -1 19 35 54 137 154 219 283 299 109 78 
+146 11 -1 19 35 54 137 154 219 283 299 109 78 
+19 1 19 
+91 1 84 
+347 11 -1 19 35 54 137 154 219 283 299 109 78 
+95 11 -1 19 35 54 137 154 219 283 299 109 78 
+287 12 -1 19 35 277 54 137 154 219 283 299 109 78 
+161 11 -1 19 35 54 137 154 219 283 299 109 78 
+226 2 214 219 
+38 3 35 19 38 
+103 11 -1 19 35 54 137 154 219 283 299 109 78 
+232 13 -1 35 137 299 109 78 209 19 54 214 154 219 283 
+169 11 -1 19 35 54 137 154 219 283 299 109 78 
+109 1 109 
+174 1 137 
+51 2 51 57 
+54 1 54 
+310 1 306 
+119 2 118 119 
+186 11 -1 19 35 54 137 154 219 283 299 109 78 
+Constructors: 7
+226 214
+310 306
+232 209
+73 66
+91 84
+14 7
+287 277
+
+Summary: 3
+118 214 57 
+sun/net/www/protocol/http/HttpURLConnection.proxiedConnect(Ljava/net/URL;Ljava/lang/String;IZ)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+$r4 1 18 
+$r3 1 11 
+Fields: 1
+-1 http 18
+Accesses: 4
+17 1 -1 
+21 1 -1 
+6 1 -1 
+14 1 -1 
+Functions: 2
+25 1 18 
+10 4 -1 -2 -3 18 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 1 0 
+sun/net/www/protocol/http/HttpURLConnection.sameDestination(Ljava/net/URL;Ljava/net/URL;)Z
+PTG:
+Vars:
+6
+$r1 1 59 
+r2 1 -3 
+$r3 1 63 
+r0 1 -2 
+$r4 1 7 
+$r5 1 11 
+Fields: 0
+Accesses: 0
+Functions: 17
+34 1 -2 
+99 1 -3 
+6 1 -2 
+38 0 
+7 2 7 11 
+10 1 -3 
+74 1 -2 
+44 1 -3 
+48 0 
+84 1 -2 
+54 0 
+24 0 
+89 1 -3 
+58 1 -2 
+59 2 59 63 
+28 0 
+62 1 -3 
+Constructors: 0
+
+Summary: 10
+51 48 -3 59 7 63 -2 0 1 11 
+sun/net/www/protocol/http/HttpURLConnection.sendCONNECTRequest()V
+PTG:
+Vars:
+35
+$r29 1 111 
+$r32 1 9 
+$r23 1 190 
+$r11 1 48 
+$r8 1 35 
+$r19 1 9 
+$r9 1 38 
+$r26 1 94 
+$r30 1 114 
+$r7 1 1 
+$r5 1 23 
+r31 2 120 77 
+$r25 1 1 
+$r20 1 143 
+$r6 1 28 
+$r15 1 1 
+$r24 1 9 
+$r16 1 9 
+r0 1 -1 
+$r14 1 9 
+$r13 1 64 
+$r18 1 171 
+$r28 1 107 
+$r12 1 51 
+$r21 1 9 
+$r3 1 9 
+$r10 1 43 
+$r22 1 183 
+$r2 1 13 
+$r17 1 174 
+$r4 1 20 
+$r33 1 9 
+$r27 1 102 
+$r1 1 1 
+$r34 1 143 
+Fields: 3
+-1 url 1
+-1 http 143
+-1 requests 9
+Accesses: 14
+0 1 -1 
+131 1 -1 
+164 1 -1 
+196 1 -1 
+70 1 -1 
+8 1 -1 
+200 1 -1 
+142 1 -1 
+84 1 -1 
+152 1 -1 
+121 1 -1 
+58 1 -1 
+186 1 -1 
+31 1 -1 
+Functions: 28
+128 3 120 9 77 
+1 1 1 
+193 2 183 190 
+67 2 64 9 
+71 1 1 
+139 1 9 
+13 2 20 13 
+205 2 9 143 
+143 1 143 
+17 1 13 
+85 1 1 
+23 1 23 
+28 2 35 28 
+94 3 120 77 94 
+32 1 1 
+160 1 9 
+98 1 94 
+38 1 38 
+102 1 102 
+168 4 -1 1 9 143 
+43 1 43 
+107 2 107 111 
+171 2 171 174 
+110 0 
+48 1 48 
+114 1 114 
+55 2 51 9 
+187 1 9 
+Constructors: 2
+17 13
+98 94
+
+Summary: 9
+51 48 -1 77 111 114 190 35 120 
+sun/net/www/protocol/http/HttpURLConnection.checkURLFile()V
+PTG:
+Vars:
+6
+r0 1 3 
+$r8 1 60 
+r3 1 -1 
+$r1 1 9 
+$r7 1 57 
+r2 1 15 
+Fields: 1
+-1 url 57
+Accesses: 1
+56 1 -1 
+Functions: 10
+0 0 
+16 1 15 
+64 2 3 60 
+80 0 
+34 1 15 
+8 1 3 
+9 1 9 
+25 1 15 
+57 1 57 
+43 1 15 
+Constructors: 0
+
+Summary: 5
+9 60 -1 3 15 
+sun/net/www/protocol/http/HttpURLConnection.checkMessageHeader(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r6 1 -3 
+r12 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 16
+129 0 
+34 0 
+3 1 -2 
+38 0 
+134 1 -3 
+10 1 -2 
+138 0 
+43 1 -2 
+109 1 -3 
+47 0 
+80 1 -3 
+144 0 
+53 0 
+87 1 -3 
+125 0 
+62 1 -3 
+Constructors: 0
+
+Summary: 9
+47 -3 -1 -2 141 138 0 1 50 
+sun/net/www/protocol/http/HttpURLConnection.getFilteredHeaderFields()Ljava/util/Map;
+PTG:
+Vars:
+23
+r25 2 45 34 
+r21 1 132 
+$r6 1 47 
+$r2 1 12 
+r10 1 68 
+$r18 1 185 
+$r8 1 199 
+_ret 1 199 
+r0 1 -1 
+$r5 1 39 
+$r15 1 102 
+r14 1 92 
+r7 1 57 
+$r9 1 68 
+r12 1 80 
+$r4 1 21 
+$r13 1 92 
+$r23 1 21 
+$r11 1 80 
+$r20 1 132 
+r22 1 150 
+r17 1 118 
+$r1 1 1 
+Fields: 3
+-1 cachedHeaders 21
+-1 filteredHeaders 1
+-1 responses 39
+Accesses: 6
+0 1 -1 
+20 1 -1 
+38 1 -1 
+7 1 -1 
+27 1 -1 
+203 1 -1 
+Functions: 19
+161 2 102 150 
+130 1 118 
+67 1 57 
+198 1 12 
+39 1 39 
+106 1 102 
+170 1 102 
+46 2 34 45 
+78 1 68 
+142 6 -1 80 1 132 21 39 
+47 1 47 
+111 1 92 
+16 1 12 
+183 1 102 
+120 1 118 
+58 1 57 
+90 1 68 
+28 1 21 
+188 3 80 185 12 
+Constructors: 2
+16 12
+106 102
+
+Summary: 14
+118 132 102 47 80 68 185 34 12 -1 92 45 57 150 
+sun/net/www/protocol/http/HttpURLConnection.usingProxy()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 http 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 2
+-1 11 
+sun/net/www/protocol/http/HttpURLConnection.setPreemptiveProxyAuthentication(Lsun/net/www/MessageHeader;)V
+PTG:
+Vars:
+18
+r0 1 -1 
+r9 1 17 
+$r2 1 4 
+r17 3 84 100 67 
+$r12 1 74 
+$r15 1 58 
+$r14 1 55 
+$r10 1 43 
+$r8 1 103 
+$r13 1 78 
+$r5 1 94 
+r7 1 -2 
+$r6 1 90 
+$r1 1 1 
+r4 1 17 
+$r16 1 61 
+$r3 1 1 
+$r11 1 46 
+Fields: 5
+-1 url 55
+-1 url 90
+-1 method 94
+-1 method 78
+-1 http 1
+Accesses: 7
+0 1 -1 
+112 1 -1 
+54 1 -1 
+7 1 -1 
+89 1 -1 
+77 1 -1 
+93 1 -1 
+Functions: 12
+1 1 1 
+52 3 17 58 61 
+22 1 17 
+102 1 17 
+55 1 55 
+71 3 17 74 78 
+8 1 1 
+88 3 17 90 94 
+73 6 -1 1 55 90 94 78 
+42 6 -1 1 55 90 94 78 
+11 1 4 
+107 5 -2 67 84 100 103 
+Constructors: 0
+
+Summary: 11
+58 103 100 4 74 -1 -2 43 84 0 67 
+sun/net/www/protocol/http/HttpURLConnection.setAuthenticationProperty(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 7 
+r0 1 -1 
+r2 1 -3 
+Fields: 1
+-1 requests 7
+Accesses: 1
+6 1 -1 
+Functions: 2
+3 4 -1 -2 -3 7 
+12 3 -2 -3 7 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 0 1 
+sun/net/www/protocol/http/HttpURLConnection.schemesListToSet(Ljava/lang/String;)Ljava/util/Set;
+PTG:
+Vars:
+7
+$r8 1 58 
+r0 1 -2 
+$r2 1 15 
+r4 1 29 
+$r7 1 55 
+_ret 1 15 
+r6 1 50 
+Fields: 1
+29 ArrayObject 50
+Accesses: 0
+Functions: 6
+-1 0 
+19 1 15 
+4 1 -2 
+53 2 50 55 
+23 1 -2 
+61 2 58 15 
+Constructors: 1
+19 15
+
+Summary: 3
+58 29 0 
+sun/net/www/protocol/http/HttpURLConnection.access$500()I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/net/www/protocol/http/HttpURLConnection.setReadTimeout(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+17 1 -1 
+Functions: 1
+11 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.authObj()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 authObj 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.getInputStream0()Ljava/io/InputStream;
+PTG:
+Vars:
+163
+r173 1 1202 
+r170 2 1159 1198 
+$r22 1 1444 
+$r141 1 -1 
+$r102 1 319 
+$r20 1 390 
+$r135 1 319 
+r147 1 921 
+$r181 1 283 
+$r117 1 79 
+$r82 1 246 
+$r182 1 1579 
+$r130 1 1993 
+$r57 1 1873 
+r171 1 1166 
+$r42 1 1710 
+$r16 1 331 
+$r15 1 334 
+r148 1 199 
+r152 1 530 
+$r68 1 1273 
+$r76 1 1093 
+$r41 1 1798 
+$r45 1 1609 
+$r40 1 1795 
+$r2 1 60 
+$r54 1 283 
+$r103 1 343 
+$r75 1 319 
+$r35 1 1775 
+$r142 1 -1 
+$r93 1 696 
+$r21 1 319 
+r189 1 60 
+$r107 1 246 
+$r108 1 283 
+$r53 1 1634 
+r183 1 1599 
+$r59 1 1883 
+$r10 1 294 
+$r89 1 319 
+r162 1 670 
+$r150 1 429 
+$r66 1 1241 
+$r134 1 -1 
+$r12 1 283 
+r184 2 -1 1634 
+$r144 1 -1 
+$r97 1 449 
+$r32 1 1754 
+$r86 1 817 
+$r165 1 921 
+$r33 1 1761 
+$r167 1 932 
+r176 1 1261 
+$r84 1 858 
+$r71 1 246 
+$r155 1 593 
+$r18 1 319 
+$r61 1 143 
+$r79 1 143 
+$r94 1 519 
+r163 1 844 
+$r88 1 319 
+$r133 1 1993 
+r177 1 1268 
+$r24 1 291 
+$r58 1 1877 
+$r153 1 582 
+$r95 1 519 
+$r49 1 1682 
+$r96 1 478 
+$r37 1 1785 
+$r156 1 246 
+$r157 1 291 
+r164 1 869 
+$r63 1 246 
+$r99 1 319 
+$r154 1 319 
+$r70 1 1294 
+$r104 1 350 
+$r14 1 291 
+$r6 1 242 
+$r5 1 199 
+$r158 1 605 
+$r143 1 -1 
+$r106 1 250 
+r169 1 955 
+$r188 1 60 
+$r159 1 291 
+$r98 1 402 
+$r11 1 294 
+$r78 1 974 
+$r73 1 1324 
+$r23 1 250 
+$r131 1 2007 
+$r80 1 1003 
+$r46 1 1614 
+r0 1 -1 
+$r168 1 246 
+$r92 1 737 
+$r140 1 1981 
+$r186 1 1579 
+$r67 1 1135 
+$r36 1 1779 
+$r60 1 1886 
+$r39 1 1792 
+$r83 1 1016 
+r69 1 1292 
+$r56 1 1863 
+$r132 1 2007 
+$r9 1 291 
+$r48 1 291 
+r145 2 1046 1202 
+$r3 1 143 
+$r8 1 246 
+r187 1 1658 
+$r137 1 291 
+$r13 1 319 
+$r62 1 143 
+$r31 1 246 
+$r38 1 246 
+$r4 1 143 
+$r166 1 319 
+$r47 1 291 
+$r51 1 1624 
+$r100 1 411 
+$r52 1 1630 
+r146 1 643 
+$r65 1 1135 
+$r64 1 1153 
+$r81 1 250 
+$r55 1 1859 
+$r30 1 1746 
+$r19 1 393 
+$r91 1 722 
+$r116 1 79 
+$r72 1 1309 
+r174 2 1046 1202 
+$r25 1 1521 
+$r85 1 858 
+$r77 1 971 
+$r87 1 143 
+$r128 1 -1 
+$r50 1 60 
+$r7 1 250 
+$r139 1 60 
+$r101 1 418 
+r192 1 1925 
+$r90 1 681 
+$r172 1 1202 
+$r149 1 291 
+r151 1 505 
+$r136 1 291 
+$r138 1 291 
+$r17 1 319 
+$r160 1 620 
+$r1 1 19 
+$r34 1 1765 
+$r44 1 246 
+$r115 1 79 
+$r105 1 264 
+$r43 1 60 
+Fields: 19
+1046 realm 1261
+1046 params 1273
+1046 path 1166
+1046 pw 1268
+-1 proxyAuthKey 1993
+-1 digestparams 1324
+-1 serverAuthKey 2007
+-1 rememberedException 19
+-1 responses 319
+-1 requests 143
+-1 url 246
+-1 pi 283
+-1 strOutputStream 79
+-1 cacheHandler 1579
+-1 domain 1135
+-1 cachedInputStream 199
+-1 method 250
+-1 inputStream 60
+-1 http 291
+Accesses: 121
+0 1 -1 
+769 1 -1 
+1025 1 -1 
+772 1 -1 
+779 1 -1 
+268 1 -1 
+1807 1 -1 
+272 1 -1 
+18 1 -1 
+1298 1 -1 
+1812 1 -1 
+279 1 -1 
+1815 1 -1 
+25 1 -1 
+282 1 -1 
+1051 1 -1 
+1821 1 -1 
+290 1 -1 
+1828 1 -1 
+39 1 -1 
+1578 1 -1 
+1323 1 -1 
+1835 1 -1 
+300 1 -1 
+48 1 -1 
+1842 1 -1 
+1592 1 -1 
+314 1 -1 
+570 1 -1 
+59 1 -1 
+318 1 -1 
+66 1 -1 
+322 1 -1 
+834 1 -1 
+1353 1 -1 
+589 1 -1 
+78 1 -1 
+1358 1 -1 
+1361 1 -1 
+1106 1 -1 
+597 1 -1 
+1111 1 -1 
+1368 1 -1 
+601 1 -1 
+90 1 -1 
+346 1 -1 
+608 1 -1 
+97 1 -1 
+1378 1 -1 
+356 1 -1 
+1385 1 -1 
+1134 1 -1 
+1902 1 -1 
+1647 1 -1 
+368 1 -1 
+628 1 -1 
+1913 1 -1 
+1916 1 -1 
+1149 1 -1 
+1665 1 -1 
+1412 1 -1 
+1927 1 -1 
+1672 1 -1 
+1161 2 1202 1046 
+1417 1 -1 
+909 1 -1 
+142 1 -1 
+1934 1 -1 
+660 1 -1 
+1687 1 -1 
+1437 1 -1 
+414 1 -1 
+928 1 -1 
+1696 1 -1 
+161 1 -1 
+1699 1 -1 
+165 1 -1 
+936 1 -1 
+425 1 -1 
+432 1 -1 
+1456 1 -1 
+1715 1 -1 
+1972 1 -1 
+184 1 -1 
+1977 1 -1 
+1722 1 -1 
+957 1 -1 
+1984 1 -1 
+1219 1 1202 
+198 1 -1 
+1992 1 -1 
+205 1 -1 
+1999 1 -1 
+1489 1 -1 
+211 1 -1 
+1750 1 -1 
+2006 1 -1 
+1496 1 -1 
+218 1 -1 
+1245 1 -1 
+2013 1 -1 
+225 1 -1 
+1505 1 -1 
+1508 1 -1 
+997 1 -1 
+232 1 -1 
+1256 2 1202 1046 
+1517 1 -1 
+750 1 -1 
+495 1 -1 
+1263 2 1202 1046 
+1008 1 -1 
+755 1 -1 
+1012 1 -1 
+245 1 -1 
+1271 2 1202 1046 
+1528 1 -1 
+249 1 -1 
+1276 1 -1 
+1788 1 -1 
+1533 1 -1 
+Functions: 152
+-1 0 
+1795 1 1795 
+517 1 505 
+1029 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1287 1 1241 
+1801 2 1761 1798 
+524 1 519 
+1037 6 1202 1268 1046 1273 1261 1166 
+14 0 
+1040 17 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 921 250 283 60 319 
+786 1 143 
+276 3 246 264 250 
+532 1 530 
+1304 3 246 1292 1294 
+796 1 643 
+286 1 283 
+543 1 530 
+291 1 291 
+1060 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+806 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1832 0 
+43 0 
+1067 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+814 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+47 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+303 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1327 5 1268 1324 1309 1261 1294 
+1585 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1074 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1077 23 -1 291 199 1993 1579 1324 1261 1166 143 79 1135 1202 19 1268 1046 246 2007 1273 250 283 955 60 319 
+1334 1 1309 
+1846 0 
+311 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1593 1 246 
+827 1 817 
+1090 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+835 1 319 
+71 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+327 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1863 1 1863 
+1609 2 1609 1614 
+331 2 331 334 
+1867 1 1863 
+1100 1 1093 
+1612 1 1599 
+846 1 844 
+1873 1 1873 
+1877 1 1877 
+86 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1623 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+856 1 844 
+1624 1 1624 
+602 1 291 
+347 1 319 
+1115 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1883 1 1883 
+94 1 79 
+1630 17 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 1630 319 
+863 1 858 
+1375 1 143 
+353 2 343 350 
+609 1 291 
+1889 2 1859 1886 
+98 1 79 
+357 1 319 
+615 3 593 246 605 
+871 1 869 
+1896 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+623 4 593 582 620 319 
+1392 1 143 
+1648 18 -1 1634 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 1599 319 
+369 1 319 
+114 0 
+882 1 869 
+635 18 -1 291 643 582 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1404 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1917 1 319 
+1150 1 246 
+1153 1 1153 
+390 2 390 393 
+1420 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+654 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1678 2 291 1658 
+143 1 143 
+1935 1 291 
+1168 3 1159 1166 1198 
+661 1 319 
+1431 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+408 1 402 
+1178 2 1159 1198 
+1693 18 -1 291 199 1993 1579 1324 143 79 1135 1682 19 246 2007 250 1658 283 60 319 
+1438 1 319 
+415 1 319 
+1183 1 1166 
+673 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+676 19 -1 643 291 199 1993 681 1579 1324 143 79 1135 19 246 2007 250 283 60 670 319 
+1444 1 1444 
+421 2 418 411 
+166 1 143 
+679 1 582 
+1193 3 1159 1166 1198 
+1961 1 1925 
+426 1 291 
+940 2 932 246 
+1200 6 1202 1268 1046 1273 1261 1166 
+945 3 932 921 319 
+1457 1 250 
+435 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+693 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+950 1 921 
+1719 17 -1 291 199 1993 1579 1324 1710 143 79 1135 19 246 2007 250 283 60 319 
+1978 2 291 60 
+187 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1212 6 1202 1268 1046 1273 1261 1166 
+446 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+703 1 696 
+195 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+456 1 449 
+969 6 1202 1268 1046 1273 1261 1166 
+1228 6 1202 1268 1046 1273 1261 1166 
+717 24 -1 291 199 1993 1579 1324 1261 1166 143 79 1135 1202 722 19 1268 1046 246 2007 1273 250 283 60 670 319 
+720 1 921 
+467 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+2003 1 1993 
+980 7 1202 1268 1046 1273 955 1261 1166 
+1751 1 246 
+475 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+1500 1 283 
+1757 2 1746 1754 
+222 0 
+734 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+991 16 -1 291 199 1993 1579 1324 143 79 1135 19 246 2007 250 283 60 319 
+2017 1 2007 
+1251 2 1241 1135 
+1765 1 1765 
+488 1 478 
+744 1 737 
+1512 1 291 
+1001 6 1202 1268 1046 1273 1261 1166 
+1769 1 1765 
+236 0 
+1006 8 1202 1268 1046 246 1273 250 1261 1166 
+1775 1 1775 
+496 1 319 
+242 3 242 246 250 
+1779 1 1779 
+1525 1 1521 
+1785 2 1792 1785 
+507 1 505 
+1019 3 1016 1003 143 
+1789 1 246 
+1279 1 1241 
+Constructors: 22
+1889 1859
+1251 1241
+615 593
+456 449
+488 478
+744 737
+1769 1765
+1801 1761
+1867 1863
+940 932
+1100 1093
+623 582
+1327 1309
+945 921
+276 264
+1525 1521
+1719 1710
+1304 1294
+827 817
+1693 1682
+1757 1746
+703 696
+
+Summary: 37
+1925 1153 605 1003 670 643 593 1792 1798 1444 1886 722 971 1883 1634 1599 1658 1630 1241 1754 1292 932 1016 869 530 1614 921 1294 681 955 1624 1795 582 418 242 350 1309 
+sun/net/www/protocol/http/HttpURLConnection.getHttpLogger()Lsun/util/logging/PlatformLogger;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/net/www/protocol/http/HttpURLConnection.privilegedRequestPasswordAuthentication(Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/net/Authenticator$RequestorType;)Ljava/net/PasswordAuthentication;
+PTG:
+Vars:
+11
+r2 1 -8 
+r7 1 -9 
+$r8 1 19 
+r5 1 -6 
+$r0 1 0 
+r3 1 -3 
+$r9 1 19 
+r4 1 -5 
+_ret 1 19 
+r1 1 -2 
+r6 1 -7 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 8 0 -2 -3 -5 -6 -7 -8 -9 
+0 1 0 
+Constructors: 1
+16 0
+
+Summary: 13
+4 5 -3 -5 -9 -6 -8 -7 -2 6 3 0 1 
+sun/net/www/protocol/http/HttpURLConnection.getHttpProxyAuthentication(Lsun/net/www/protocol/http/AuthenticationHeader;)Lsun/net/www/protocol/http/AuthenticationInfo;
+PTG:
+Vars:
+66
+$r17 1 83 
+$r7 1 745 
+$r20 1 150 
+$r22 1 197 
+_ret 7 523 694 557 203 532 377 315 
+$r52 1 368 
+$r11 1 771 
+$r38 1 566 
+r68 1 308 
+$r77 2 779 785 
+$r37 1 561 
+$r43 1 471 
+$r61 1 -1 
+r14 1 41 
+$r40 1 536 
+$r36 1 557 
+r70 1 489 
+$r48 1 341 
+r4 1 14 
+$r13 1 791 
+$r60 1 -1 
+$r12 1 788 
+$r24 1 642 
+$r19 1 126 
+$r27 1 694 
+$r42 1 468 
+$r56 1 273 
+$r51 1 341 
+r2 1 -1 
+$r3 1 8 
+$r58 1 299 
+$r54 1 377 
+$r23 1 636 
+$r10 1 765 
+$r75 1 733 
+r69 1 361 
+r65 1 273 
+$r47 1 450 
+r64 6 116 97 164 140 62 78 
+$r46 1 510 
+r0 1 -2 
+r63 2 51 179 
+$r21 1 190 
+$r8 1 758 
+r73 1 687 
+$r16 1 64 
+$r5 1 8 
+$r76 1 736 
+$r49 1 344 
+r1 1 6 
+$r26 1 673 
+$r18 1 102 
+$r39 1 532 
+$r57 1 302 
+$r44 1 483 
+$r45 1 468 
+$r55 1 263 
+$r59 1 315 
+$r9 1 762 
+$r28 1 208 
+$r50 1 355 
+r62 7 523 694 557 203 532 377 315 
+r15 1 57 
+$r41 1 541 
+$r25 1 655 
+$r6 1 748 
+Fields: 5
+-1 url 468
+-1 url 299
+-1 url 341
+-1 proxyAuthKey 197
+-1 http 8
+Accesses: 21
+193 1 -1 
+418 1 -1 
+196 1 -1 
+421 1 -1 
+7 1 -1 
+168 1 -1 
+298 1 -1 
+491 1 -1 
+428 1 -1 
+526 1 -1 
+16 1 -1 
+144 1 -1 
+498 1 -1 
+467 1 -1 
+340 1 -1 
+437 1 -1 
+407 1 -1 
+120 1 -1 
+443 1 -1 
+351 1 -1 
+479 1 -1 
+Functions: 55
+2 1 -2 
+642 2 642 57 
+771 3 785 771 779 
+263 1 263 
+8 1 8 
+394 7 368 51 179 377 57 361 14 
+778 7 532 694 377 523 203 315 557 
+270 8 -1 468 341 197 263 8 299 14 
+17 1 8 
+788 1 788 
+150 2 150 57 
+794 2 791 745 
+540 1 -2 
+668 2 14 655 
+30 1 -2 
+673 5 673 51 179 57 655 
+547 2 536 541 
+37 1 -2 
+550 2 532 536 
+43 1 41 
+302 7 273 51 179 57 299 14 302 
+53 1 -2 
+565 1 -2 
+188 9 97 51 179 116 164 140 14 62 78 
+572 2 561 566 
+575 2 561 557 
+64 2 64 57 
+707 5 51 179 694 14 687 
+197 1 197 
+582 0 
+328 5 51 179 308 315 14 
+456 1 450 
+720 15 -1 197 6 8 41 523 203 299 557 532 468 341 694 377 315 
+83 2 83 57 
+211 6 97 116 164 140 62 78 
+468 1 468 
+341 1 341 
+597 0 
+601 0 
+733 2 736 733 
+607 1 57 
+355 7 51 179 355 341 344 57 14 
+483 5 483 468 471 57 14 
+612 0 
+102 2 102 57 
+618 0 
+748 1 748 
+752 1 748 
+372 1 368 
+628 0 
+758 2 758 762 
+761 1 -2 
+765 1 765 
+126 2 57 126 
+510 3 489 510 14 
+Constructors: 11
+752 748
+547 536
+707 694
+372 368
+550 532
+328 315
+394 377
+572 561
+668 655
+270 263
+575 557
+
+Summary: 27
+368 51 536 471 779 -2 57 788 41 273 612 14 489 655 566 361 561 -1 541 687 308 762 0 6 791 615 344 
+sun/net/www/protocol/http/HttpURLConnection.setConnectTimeout(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+17 1 -1 
+Functions: 1
+11 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.checkURL(Ljava/net/URL;)Ljava/net/URL;
+PTG:
+Vars:
+4
+r1 1 31 
+r0 1 -2 
+_ret 1 -2 
+$r3 1 5 
+Fields: 0
+Accesses: 0
+Functions: 5
+4 1 -2 
+5 1 5 
+23 0 
+41 1 31 
+27 1 -2 
+Constructors: 0
+
+Summary: 3
+31 5 0 
+sun/net/www/protocol/http/HttpURLConnection.disconnect()V
+PTG:
+Vars:
+12
+$r6 1 25 
+$r12 1 101 
+$r2 1 25 
+r7 1 25 
+r0 1 -1 
+$r5 1 25 
+$r4 1 32 
+$r1 1 6 
+$r3 1 101 
+$r9 1 6 
+$r10 1 -1 
+$r8 1 32 
+Fields: 4
+-1 pi 6
+-1 cachedHeaders 101
+-1 http 25
+-1 inputStream 32
+Accesses: 15
+97 1 -1 
+2 1 -1 
+100 1 -1 
+5 1 -1 
+38 1 -1 
+70 1 -1 
+107 1 -1 
+12 1 -1 
+78 1 -1 
+48 1 -1 
+21 1 -1 
+87 1 -1 
+24 1 -1 
+92 1 -1 
+31 1 -1 
+Functions: 7
+16 1 6 
+64 1 25 
+82 1 25 
+52 1 32 
+43 1 25 
+75 1 25 
+111 1 101 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.getHeaderFieldKey(I)Ljava/lang/String;
+PTG:
+Vars:
+6
+$r4 1 30 
+$r3 1 26 
+$r7 1 -1 
+$r2 1 10 
+r0 1 -1 
+_ret 1 30 
+Fields: 2
+-1 cachedHeaders 10
+-1 responses 26
+Accesses: 3
+16 1 -1 
+9 1 -1 
+25 1 -1 
+Functions: 3
+1 3 -1 10 26 
+17 0 
+26 1 26 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.access$300(Lsun/net/www/protocol/http/HttpURLConnection;Ljava/lang/String;ILjava/net/URL;)Z
+PTG:
+Vars:
+3
+r2 1 -5 
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -2 -3 -5 
+Constructors: 0
+
+Summary: 5
+-3 -5 3 1 0 
+sun/net/www/protocol/http/HttpURLConnection.getServerAuthentication(Lsun/net/www/protocol/http/AuthenticationHeader;)Lsun/net/www/protocol/http/AuthenticationInfo;
+PTG:
+Vars:
+83
+$r91 2 820 814 
+$r38 1 317 
+$r63 1 346 
+$r75 1 -1 
+$r15 1 103 
+r11 1 34 
+$r43 1 172 
+$r22 1 698 
+r78 6 93 74 141 55 39 117 
+$r52 1 172 
+$r37 1 301 
+$r26 1 172 
+_ret 7 381 192 734 317 629 292 451 
+$r13 1 60 
+r77 2 28 168 
+$r69 1 172 
+$r9 1 826 
+$r66 1 368 
+$r21 1 692 
+$r51 1 172 
+$r40 1 326 
+r80 1 210 
+$r3 1 780 
+$r6 1 800 
+$r24 1 711 
+$r42 1 172 
+$r14 1 79 
+r10 1 18 
+$r4 1 793 
+$r89 1 768 
+r88 1 727 
+$r23 1 172 
+r84 1 433 
+$r58 1 441 
+$r67 1 172 
+r1 1 6 
+$r50 1 552 
+$r68 1 381 
+$r61 1 172 
+$r49 1 618 
+$r8 1 823 
+$r56 1 427 
+$r53 1 405 
+$r90 1 771 
+$r82 1 172 
+$r64 1 172 
+r86 1 597 
+$r72 1 204 
+$r16 1 127 
+$r20 1 186 
+$r70 1 172 
+r0 1 -2 
+$r7 1 806 
+$r71 1 172 
+$r60 1 467 
+$r12 1 41 
+$r27 1 245 
+$r35 1 292 
+$r65 1 357 
+r76 7 381 192 734 317 629 292 451 
+$r48 1 172 
+$r54 1 172 
+$r18 1 172 
+$r19 1 179 
+$r55 1 416 
+r83 1 374 
+$r25 1 734 
+$r2 1 783 
+r17 1 -1 
+$r45 1 172 
+$r46 1 579 
+$r57 1 172 
+$r5 1 797 
+$r44 1 568 
+$r39 1 321 
+$r62 1 172 
+$r36 1 296 
+$r59 1 451 
+$r41 1 483 
+$r79 1 154 
+r85 2 172 483 
+$r73 1 -1 
+$r47 1 591 
+Fields: 3
+-1 url 172
+-1 serverAuthKey 186
+-1 digestparams 467
+Accesses: 36
+448 1 -1 
+386 1 -1 
+200 1 -1 
+456 1 -1 
+521 1 -1 
+714 1 -1 
+587 1 -1 
+524 1 -1 
+145 1 -1 
+401 1 -1 
+466 1 -1 
+532 1 -1 
+342 1 -1 
+599 1 -1 
+217 1 -1 
+539 1 -1 
+412 1 -1 
+157 1 -1 
+606 1 -1 
+97 1 -1 
+353 1 -1 
+545 1 -1 
+739 1 -1 
+423 1 -1 
+487 1 -1 
+232 1 -1 
+171 1 -1 
+364 1 -1 
+564 1 -1 
+182 1 -1 
+504 1 -1 
+632 1 -1 
+121 1 -1 
+185 1 -1 
+510 1 -1 
+575 1 -1 
+Functions: 61
+768 2 768 771 
+2 1 -2 
+7 1 -2 
+394 5 374 168 172 28 381 
+653 0 
+14 1 -2 
+783 1 783 
+657 0 
+402 1 172 
+787 1 783 
+20 1 18 
+149 1 18 
+533 1 172 
+663 1 34 
+793 2 793 797 
+668 0 
+796 1 -2 
+413 1 172 
+30 1 -2 
+800 1 800 
+674 0 
+806 3 820 806 814 
+41 2 34 41 
+427 8 416 210 34 405 168 427 28 172 
+300 1 -2 
+684 0 
+813 7 192 451 292 629 381 317 734 
+558 1 552 
+177 9 117 55 39 168 74 172 28 93 141 
+307 2 296 301 
+565 1 172 
+310 2 292 296 
+823 1 823 
+186 1 186 
+698 2 34 698 
+60 2 34 60 
+445 1 441 
+829 2 826 780 
+576 1 172 
+325 1 -2 
+711 5 34 711 168 172 28 
+201 1 172 
+204 1 204 
+332 2 321 326 
+79 2 34 79 
+335 2 321 317 
+591 6 210 34 579 568 172 591 
+470 7 433 34 451 467 168 172 28 
+343 1 172 
+218 1 172 
+354 1 172 
+103 2 34 103 
+233 1 172 
+618 4 483 597 618 172 
+747 5 727 168 172 28 734 
+494 2 483 172 
+368 8 368 210 34 357 168 346 28 172 
+755 13 192 -1 451 292 6 172 18 467 629 186 381 317 734 
+248 6 117 55 39 74 93 141 
+638 0 
+127 2 34 127 
+Constructors: 10
+307 296
+787 783
+310 292
+470 451
+394 381
+747 734
+332 321
+445 441
+494 483
+335 317
+
+Summary: 30
+823 826 210 568 -2 416 346 374 671 727 204 326 597 814 28 34 579 -1 301 0 433 6 405 483 668 18 797 296 357 321 
+sun/net/www/protocol/http/HttpURLConnection.getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+8
+r3 1 -2 
+$r10 1 -1 
+$r5 1 37 
+$r2 1 10 
+$r4 1 33 
+$r6 1 40 
+r0 1 -1 
+_ret 1 40 
+Fields: 2
+-1 cachedHeaders 10
+-1 responses 33
+Accesses: 3
+32 1 -1 
+18 1 -1 
+9 1 -1 
+Functions: 5
+16 4 -1 33 -2 10 
+1 3 -1 33 10 
+33 2 33 -2 
+19 1 -2 
+30 5 -1 33 -2 37 10 
+Constructors: 0
+
+Summary: 4
+23 37 -2 0 
+sun/net/www/protocol/http/HttpURLConnection.getMethod()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 method 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/net/www/protocol/http/HttpURLConnection.followRedirect0(Ljava/lang/String;ILjava/net/URL;)Z
+PTG:
+Vars:
+63
+$r39 1 149 
+$r44 1 169 
+$r20 1 345 
+$r27 1 53 
+$r19 1 340 
+$r35 1 53 
+$r9 1 325 
+r59 1 53 
+$r10 1 53 
+r63 1 508 
+$r12 1 529 
+$r5 1 214 
+$r14 1 53 
+r0 1 -1 
+$r2 1 24 
+r60 2 388 436 
+$r15 1 542 
+$r49 1 49 
+$r40 1 152 
+$r3 1 76 
+$r34 1 243 
+$r18 1 214 
+$r31 1 422 
+$r36 1 53 
+$r38 1 137 
+$r54 1 69 
+$r21 1 349 
+$r24 1 362 
+$r28 1 53 
+$r13 1 214 
+$r29 1 408 
+r4 1 -4 
+$r17 1 325 
+$r11 1 325 
+$r53 1 66 
+$r26 1 53 
+$r52 1 62 
+$r30 1 417 
+$r32 1 427 
+$r42 1 161 
+$r16 1 329 
+$r8 1 325 
+$r45 1 174 
+$r47 1 39 
+$r50 1 53 
+$r23 1 357 
+$r43 1 164 
+$r51 1 56 
+$r33 1 430 
+$r41 1 157 
+$r61 1 325 
+$r22 1 352 
+r58 1 108 
+$r25 1 365 
+r56 1 -2 
+$r37 1 141 
+r57 1 97 
+$r1 1 27 
+$r48 1 36 
+$r46 1 177 
+$r62 1 53 
+$r6 1 318 
+$r7 1 325 
+Fields: 6
+-1 url 53
+-1 method 214
+-1 method 149
+-1 http 318
+-1 requests 137
+-1 requests 325
+Accesses: 35
+451 1 -1 
+324 1 -1 
+197 1 -1 
+136 1 -1 
+267 1 -1 
+523 1 -1 
+205 1 -1 
+398 1 -1 
+463 1 -1 
+336 1 -1 
+210 1 -1 
+83 1 -1 
+148 1 -1 
+468 1 -1 
+213 1 -1 
+534 1 -1 
+471 1 -1 
+538 1 -1 
+283 1 -1 
+481 1 -1 
+295 1 -1 
+551 1 -1 
+491 1 -1 
+300 1 -1 
+52 1 -1 
+372 1 -1 
+501 1 -1 
+438 1 -1 
+186 1 -1 
+250 1 -1 
+125 1 -1 
+317 1 -1 
+381 1 -1 
+191 1 -1 
+255 1 -1 
+Functions: 63
+1 7 -1 53 149 325 214 137 318 
+515 1 508 
+4 7 -1 53 149 325 214 137 318 
+133 8 -1 97 53 149 325 214 137 318 
+262 7 -1 53 149 325 214 137 318 
+141 2 149 141 
+270 7 -1 53 149 325 214 137 318 
+399 1 53 
+527 1 508 
+145 1 141 
+20 1 -2 
+532 3 53 214 508 
+278 7 -1 53 149 325 214 137 318 
+24 2 24 27 
+152 1 152 
+408 3 388 436 408 
+284 1 53 
+412 1 408 
+157 2 161 157 
+160 7 -1 53 149 325 214 137 318 
+417 1 417 
+545 3 529 325 542 
+164 1 164 
+422 2 422 427 
+39 1 39 
+169 1 169 
+425 0 
+43 1 39 
+174 1 174 
+430 1 430 
+49 2 49 53 
+306 7 -1 53 149 325 214 137 318 
+181 2 177 137 
+56 1 56 
+314 7 -1 53 149 325 214 137 318 
+62 2 -4 62 
+446 3 388 436 325 
+66 1 66 
+452 1 53 
+72 2 36 69 
+329 2 214 329 
+333 1 329 
+80 1 76 
+340 1 340 
+214 1 214 
+345 2 345 349 
+348 7 -1 53 149 325 214 137 318 
+93 1 -4 
+478 1 325 
+352 1 352 
+226 0 
+99 1 -4 
+357 1 357 
+488 1 325 
+105 0 
+362 1 362 
+369 2 325 365 
+498 1 325 
+373 1 53 
+502 1 53 
+247 1 243 
+121 2 97 108 
+382 1 53 
+Constructors: 6
+80 76
+145 141
+247 243
+43 39
+412 408
+333 329
+
+Summary: 19
+365 -2 362 2 388 69 97 542 436 427 177 174 529 108 0 430 349 66 161 
+sun/net/www/protocol/http/HttpURLConnection.access$600()I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/net/www/protocol/http/HttpURLConnection.plainConnect()V
+PTG:
+Vars:
+5
+$r3 1 37 
+$r4 1 47 
+$r2 1 26 
+r0 1 -1 
+r12 1 32 
+Fields: 1
+-1 url 26
+Accesses: 2
+4 1 -1 
+25 1 -1 
+Functions: 5
+54 2 37 47 
+71 2 -1 26 
+24 2 -1 26 
+42 3 -1 37 26 
+62 0 
+Constructors: 1
+42 37
+
+Summary: 2
+37 47 
+sun/net/www/protocol/http/HttpURLConnection.<clinit>()V
+PTG:
+Vars:
+53
+$r33 1 415 
+$r3 1 128 
+$r29 1 368 
+$r34 1 415 
+$r17 1 265 
+$r23 1 309 
+$r8 1 159 
+$r43 1 457 
+$r1 1 36 
+$r14 1 226 
+r51 1 243 
+$r44 1 465 
+$r10 1 206 
+$r16 1 259 
+$r26 1 331 
+$r25 1 319 
+$r5 1 140 
+$r11 1 214 
+$r28 1 344 
+$r9 1 169 
+$r2 1 116 
+$r47 1 193 
+$r0 1 0 
+$r46 1 190 
+$r36 1 507 
+$r37 1 540 
+$r27 1 344 
+$r22 1 297 
+$r7 1 150 
+$r39 1 437 
+$r4 1 128 
+$r19 1 275 
+$r45 1 180 
+$r32 1 405 
+$r31 1 381 
+$r15 1 245 
+$r38 1 433 
+$r35 1 488 
+$r20 1 287 
+$r12 1 220 
+$r40 1 450 
+$r48 1 196 
+$r18 1 275 
+$r24 1 319 
+$r6 1 150 
+$r21 1 297 
+r49 1 169 
+r52 1 257 
+$r42 1 464 
+$r13 1 223 
+$r30 1 381 
+$r41 1 460 
+r50 2 202 232 
+Fields: 19
+460 ArrayObject 464
+36 ArrayObject 66
+36 ArrayObject 60
+36 ArrayObject 71
+36 ArrayObject 112
+36 ArrayObject 105
+36 ArrayObject 98
+36 ArrayObject 55
+36 ArrayObject 78
+36 ArrayObject 85
+36 ArrayObject 92
+36 ArrayObject 44
+36 ArrayObject 50
+507 ArrayObject 533
+507 ArrayObject 527
+507 ArrayObject 521
+507 ArrayObject 515
+488 ArrayObject 496
+488 ArrayObject 502
+Accesses: 0
+Functions: 43
+0 1 0 
+384 1 381 
+258 1 257 
+322 1 319 
+131 1 128 
+196 1 196 
+265 1 265 
+331 1 331 
+140 1 140 
+206 2 169 206 
+272 1 265 
+464 1 464 
+210 1 206 
+147 1 140 
+468 2 465 457 
+341 1 331 
+405 1 405 
+214 1 214 
+278 1 275 
+537 0 
+347 1 344 
+220 2 220 223 
+412 1 405 
+159 1 159 
+287 1 287 
+226 1 226 
+418 1 415 
+166 1 159 
+294 1 287 
+300 1 297 
+237 0 
+368 1 368 
+116 1 116 
+180 1 180 
+244 1 243 
+309 1 309 
+184 1 180 
+441 1 433 
+378 1 368 
+251 0 
+316 1 309 
+125 1 116 
+190 2 193 190 
+Constructors: 12
+272 265
+210 206
+147 140
+341 331
+166 159
+294 287
+184 180
+441 433
+378 368
+316 309
+412 405
+125 116
+
+Summary: 13
+465 297 275 381 415 169 257 226 319 196 243 128 344 
+sun/net/www/protocol/http/HttpURLConnection.getCookieHandler()Ljava/net/CookieHandler;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 cookieHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

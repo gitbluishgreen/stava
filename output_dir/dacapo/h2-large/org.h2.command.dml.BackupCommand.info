@@ -1,0 +1,326 @@
+11
+org/h2/command/dml/BackupCommand.needRecompile()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/BackupCommand.<init>(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 3
+-1 0 -2 
+org/h2/command/dml/BackupCommand.backupTo(Ljava/lang/String;)V
+PTG:
+Vars:
+38
+$r8 1 112 
+$r12 1 142 
+$r5 1 38 
+r2 1 7 
+$r26 1 84 
+$r23 1 237 
+$r17 1 178 
+r18 1 189 
+r43 1 282 
+$r1 1 1 
+r22 1 319 
+$r14 1 156 
+r3 1 -2 
+r37 1 30 
+r41 1 237 
+$r21 1 319 
+r36 1 25 
+$r24 1 73 
+$r27 1 89 
+$r28 1 103 
+$r19 1 192 
+r44 1 289 
+$r13 1 148 
+$r15 1 159 
+$r11 1 128 
+r7 1 53 
+r46 1 305 
+r0 1 -1 
+r45 1 298 
+r4 1 36 
+$r25 1 81 
+r39 1 134 
+r42 1 250 
+$r10 1 123 
+r38 2 95 170 
+$r9 1 120 
+$r16 1 164 
+r40 1 211 
+Fields: 1
+-1 session 1
+Accesses: 1
+0 1 -1 
+Functions: 55
+128 1 128 
+1 1 1 
+259 5 -1 1 38 250 189 
+390 1 53 
+8 1 7 
+141 1 7 
+269 2 7 30 
+15 0 
+145 5 -1 1 38 134 142 
+401 1 -2 
+148 2 148 156 
+21 1 7 
+278 1 7 
+152 1 148 
+26 1 25 
+155 1 7 
+284 1 282 
+159 1 159 
+32 1 -2 
+164 1 164 
+294 2 289 30 
+44 2 36 38 
+300 1 298 
+49 1 7 
+177 1 7 
+307 1 305 
+181 6 -1 1 178 38 170 95 
+184 2 170 95 
+57 1 53 
+317 1 305 
+63 1 53 
+191 1 7 
+66 1 7 
+199 1 7 
+73 2 81 73 
+329 1 319 
+77 1 73 
+206 1 53 
+80 1 7 
+84 1 84 
+213 1 211 
+89 1 89 
+346 5 -1 1 38 189 319 
+225 1 211 
+102 1 7 
+233 1 211 
+106 6 -1 1 38 103 170 95 
+112 2 112 120 
+368 1 38 
+116 1 112 
+245 1 237 
+373 1 36 
+119 1 7 
+123 1 123 
+379 1 53 
+Constructors: 4
+116 112
+152 148
+44 38
+77 73
+
+Summary: 10
+289 30 -2 189 250 0 -1 298 319 38 
+org/h2/command/dml/BackupCommand.queryMeta()Lorg/h2/result/LocalResult;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/BackupCommand.backupDiskFile(Ljava/util/zip/ZipOutputStream;Ljava/lang/String;Lorg/h2/store/DiskFile;)V
+PTG:
+Vars:
+8
+r6 1 -3 
+$r4 1 15 
+r5 1 -4 
+$r1 1 1 
+r0 1 -1 
+r2 1 7 
+r7 1 13 
+r3 1 -2 
+Fields: 1
+-1 session 1
+Accesses: 1
+0 1 -1 
+Functions: 8
+1 1 1 
+35 2 -2 -4 
+67 1 -2 
+20 2 13 15 
+23 2 -2 15 
+9 1 -3 
+60 2 7 13 
+29 1 -4 
+Constructors: 1
+20 15
+
+Summary: 9
+-1 -4 2 -3 13 0 15 -2 1 
+org/h2/command/dml/BackupCommand.correctFileName(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 2 23 8 
+r0 1 -2 
+r1 2 23 8 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+18 2 23 8 
+9 2 23 8 
+Constructors: 0
+
+Summary: 1
+0 
+org/h2/command/dml/BackupCommand.update()I
+PTG:
+Vars:
+7
+r0 1 -1 
+$r3 1 8 
+$r2 1 1 
+$r1 1 5 
+$r6 1 19 
+r4 1 14 
+$r5 1 5 
+Fields: 2
+-1 session 5
+-1 fileNameExpr 1
+Accesses: 3
+0 1 -1 
+4 1 -1 
+15 1 -1 
+Functions: 5
+16 1 5 
+1 2 1 5 
+22 1 19 
+8 1 8 
+27 4 -1 1 5 14 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/BackupCommand.backupFile(Ljava/util/zip/ZipOutputStream;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+15
+$r5 1 29 
+$r7 1 38 
+r15 1 64 
+$r4 1 20 
+$r6 1 34 
+$r2 1 67 
+r0 1 -4 
+r10 1 -1 
+r11 1 -3 
+r13 1 10 
+$r8 1 41 
+r3 1 83 
+r12 1 4 
+r1 1 -2 
+r14 1 57 
+Fields: 0
+Accesses: 0
+Functions: 17
+0 1 -4 
+34 2 34 10 
+6 1 -3 
+38 1 38 
+73 2 64 67 
+11 2 4 10 
+44 1 41 
+76 2 -2 67 
+79 1 -4 
+48 1 4 
+50 1 10 
+20 2 20 4 
+24 1 20 
+88 2 -2 83 
+59 1 57 
+29 1 29 
+93 1 -2 
+Constructors: 2
+24 20
+73 67
+
+Summary: 11
+-1 -4 2 -2 10 57 -3 83 0 67 1 
+org/h2/command/dml/BackupCommand.backupPageStore(Ljava/util/zip/ZipOutputStream;Ljava/lang/String;Lorg/h2/store/PageStore;)V
+PTG:
+Vars:
+8
+r3 1 -2 
+r2 1 7 
+$r1 1 1 
+r5 1 -4 
+r7 1 13 
+r6 1 -3 
+r0 1 -1 
+$r4 1 15 
+Fields: 1
+-1 session 1
+Accesses: 1
+0 1 -1 
+Functions: 8
+1 1 1 
+35 2 -2 -4 
+67 1 -2 
+20 2 13 15 
+23 2 -2 15 
+9 1 -3 
+26 1 -4 
+60 2 7 13 
+Constructors: 1
+20 15
+
+Summary: 9
+-1 -4 2 -3 13 0 15 -2 1 
+org/h2/command/dml/BackupCommand.isTransactional()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/BackupCommand.setFileName(Lorg/h2/expression/Expression;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 

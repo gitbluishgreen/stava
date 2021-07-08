@@ -1,0 +1,950 @@
+31
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.setEntityResolver(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLEntityResolver;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 fProperties 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+7 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.getDocumentHandler()Lcom/sun/org/apache/xerces/internal/xni/XMLDocumentHandler;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.getDTDHandler()Lcom/sun/org/apache/xerces/internal/xni/XMLDTDHandler;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.setParameter(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+28
+$r20 1 762 
+$r46 1 -1 
+r3 1 -1 
+$r6 1 -3 
+$r32 1 -3 
+$r13 1 -3 
+r0 1 -3 
+$r22 1 810 
+$r14 1 726 
+$r10 1 920 
+$r23 1 783 
+$r25 1 652 
+$r28 1 -3 
+$r8 1 886 
+$r48 1 -1 
+$r16 1 825 
+$r11 1 898 
+$r15 1 731 
+$r29 1 605 
+$r17 1 -3 
+$r18 1 749 
+$r47 1 -1 
+$r21 1 807 
+$r49 1 -1 
+$r9 1 908 
+r1 1 -2 
+$r30 1 605 
+$r26 1 -3 
+Fields: 2
+-1 fErrorHandlerWrapper 605
+-1 fSchemaLocation 731
+Accesses: 41
+705 1 -1 
+260 1 -1 
+389 1 -1 
+135 1 -1 
+328 1 -1 
+268 1 -1 
+80 1 -1 
+144 1 -1 
+339 1 -1 
+723 1 -1 
+212 1 -1 
+152 1 -1 
+89 1 -1 
+410 1 -1 
+730 1 -1 
+348 1 -1 
+604 1 -1 
+221 1 -1 
+543 1 -1 
+33 1 -1 
+97 1 -1 
+289 1 -1 
+419 1 -1 
+229 1 -1 
+423 1 -1 
+616 1 -1 
+106 1 -1 
+554 1 -1 
+43 1 -1 
+299 1 -1 
+173 1 -1 
+431 1 -1 
+369 1 -1 
+114 1 -1 
+51 1 -1 
+307 1 -1 
+563 1 -1 
+183 1 -1 
+250 1 -1 
+380 1 -1 
+191 1 -1 
+Functions: 63
+771 1 726 
+901 4 -1 898 731 605 
+10 1 -3 
+395 1 -2 
+523 1 -2 
+907 2 -3 908 
+1035 4 -1 -3 731 605 
+781 1 726 
+528 1 -2 
+1041 1 -2 
+18 1 -2 
+274 1 -2 
+786 2 749 783 
+660 2 -3 652 
+1046 1 -2 
+663 4 -1 731 652 605 
+923 4 -1 920 731 605 
+158 1 -2 
+798 2 807 749 
+800 1 749 
+674 1 -2 
+934 1 -2 
+679 1 -2 
+939 1 -2 
+815 4 -1 810 731 605 
+438 3 -1 731 605 
+57 1 -2 
+313 1 -2 
+444 1 -2 
+835 4 -1 825 731 605 
+964 4 -1 -3 731 605 
+197 1 -2 
+453 1 -2 
+71 3 -1 731 605 
+584 1 -2 
+712 3 -1 731 605 
+462 1 -2 
+846 1 -2 
+975 1 -2 
+851 1 -2 
+980 1 -2 
+471 1 -2 
+736 2 726 731 
+354 1 -2 
+612 2 -3 605 
+485 1 -2 
+741 1 726 
+1000 4 -1 -3 731 605 
+490 1 -2 
+235 1 -2 
+620 3 -1 731 605 
+1006 1 -2 
+879 3 -1 731 605 
+753 1 749 
+626 1 -2 
+1011 1 -2 
+885 2 -3 886 
+631 1 -2 
+120 1 -2 
+504 1 -2 
+760 1 726 
+509 1 -2 
+765 2 762 749 
+Constructors: 3
+736 726
+753 749
+660 652
+
+Summary: 10
+762 783 810 749 726 -2 807 652 825 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.newFeatureNotFoundError(Ljava/lang/String;)Lorg/w3c/dom/DOMException;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r3 1 16 
+r2 1 15 
+$r0 1 5 
+_ret 1 16 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 1 5 
+23 2 16 15 
+Constructors: 1
+23 16
+
+Summary: 2
+5 15 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.addComponent(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLComponent;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r5 1 39 
+$r3 1 1 
+r1 1 -2 
+$r2 1 1 
+r4 1 27 
+Fields: 1
+-1 fComponents 1
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 6
+1 2 1 -2 
+17 2 1 -2 
+33 1 -2 
+21 1 -2 
+42 3 -1 1 39 
+30 3 -1 1 27 
+Constructors: 0
+
+Summary: 4
+-2 39 -1 27 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.checkProperty(Ljava/lang/String;)Lcom/sun/org/apache/xerces/internal/util/PropertyState;
+PTG:
+Vars:
+6
+$r3 1 21 
+r1 1 -1 
+$r2 1 13 
+$r5 1 44 
+_ret 1 44 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+21 1 21 
+9 1 -2 
+42 2 -1 -2 
+13 1 13 
+29 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.setProperty(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 1
+3 -1
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.newTypeMismatchError(Ljava/lang/String;)Lorg/w3c/dom/DOMException;
+PTG:
+Vars:
+5
+$r0 1 5 
+r1 1 -2 
+$r3 1 16 
+r2 1 15 
+_ret 1 16 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 1 5 
+23 2 16 15 
+Constructors: 1
+23 16
+
+Summary: 2
+5 15 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.createValidationManager()Lcom/sun/org/apache/xerces/internal/impl/validation/ValidationManager;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.<init>(Lcom/sun/org/apache/xerces/internal/util/SymbolTable;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.setLocale(Ljava/util/Locale;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 6 
+r0 1 -1 
+Fields: 1
+-1 fErrorReporter 6
+Accesses: 2
+2 1 -1 
+5 1 -1 
+Functions: 1
+10 2 -2 6 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.reset()V
+PTG:
+Vars:
+7
+$r6 1 1 
+$r1 1 1 
+$r2 1 15 
+r5 1 34 
+r0 1 -1 
+$r4 1 34 
+$r3 1 15 
+Fields: 2
+-1 fComponents 15
+-1 fValidationManager 1
+Accesses: 4
+0 1 -1 
+7 1 -1 
+29 1 -1 
+14 1 -1 
+Functions: 4
+11 1 1 
+43 4 -1 1 34 15 
+30 1 15 
+15 1 15 
+Constructors: 0
+
+Summary: 2
+34 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.getParameter(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 534 
+r0 1 -2 
+r2 1 -1 
+Fields: 0
+Accesses: 13
+66 1 -1 
+355 1 -1 
+38 1 -1 
+9 1 -1 
+269 1 -1 
+398 1 -1 
+239 1 -1 
+209 1 -1 
+466 1 -1 
+180 1 -1 
+151 1 -1 
+123 1 -1 
+94 1 -1 
+Functions: 34
+0 1 -2 
+320 1 -2 
+450 1 -1 
+260 1 -2 
+389 1 -2 
+517 1 -2 
+200 1 -2 
+457 1 -2 
+333 1 -2 
+142 1 -2 
+526 1 -1 
+399 0 
+85 1 -2 
+533 1 -2 
+406 1 -2 
+471 1 -2 
+346 1 -2 
+29 1 -2 
+415 1 -1 
+480 1 -1 
+293 1 -2 
+485 1 -2 
+230 1 -2 
+171 1 -2 
+302 1 -2 
+494 1 -1 
+432 0 
+114 1 -2 
+501 1 -2 
+311 1 -2 
+376 1 -2 
+57 1 -2 
+441 1 -2 
+510 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 419 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.<init>(Lcom/sun/org/apache/xerces/internal/util/SymbolTable;Lcom/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager;)V
+PTG:
+Vars:
+36
+r37 2 -2 499 
+$r30 1 676 
+$r18 1 596 
+r39 1 722 
+$r28 1 722 
+$r40 1 753 
+$r27 1 713 
+$r20 1 621 
+$r10 1 527 
+$r11 1 534 
+$r34 1 -1 
+$r4 1 38 
+$r12 1 548 
+$r23 1 654 
+$r29 1 548 
+$r7 1 304 
+$r31 1 548 
+$r9 1 513 
+$r21 1 631 
+r1 1 -3 
+$r2 1 11 
+$r16 1 580 
+$r17 1 590 
+$r26 1 548 
+$r33 1 499 
+r0 1 -1 
+$r32 1 548 
+$r3 1 27 
+$r5 1 50 
+$r15 1 572 
+$r13 1 548 
+$r24 1 548 
+$r25 1 670 
+$r35 1 -1 
+$r14 1 563 
+$r22 1 640 
+Fields: 41
+50 ArrayObject 62
+50 ArrayObject 72
+50 ArrayObject 67
+50 ArrayObject 136
+50 ArrayObject 160
+50 ArrayObject 100
+50 ArrayObject 106
+50 ArrayObject 112
+50 ArrayObject 118
+50 ArrayObject 124
+50 ArrayObject 130
+50 ArrayObject 82
+50 ArrayObject 88
+50 ArrayObject 94
+50 ArrayObject 142
+50 ArrayObject 154
+50 ArrayObject 57
+50 ArrayObject 77
+50 ArrayObject 148
+304 ArrayObject 311
+304 ArrayObject 316
+304 ArrayObject 342
+304 ArrayObject 348
+304 ArrayObject 366
+304 ArrayObject 372
+304 ArrayObject 321
+304 ArrayObject 390
+304 ArrayObject 326
+304 ArrayObject 384
+304 ArrayObject 396
+304 ArrayObject 354
+304 ArrayObject 360
+304 ArrayObject 336
+304 ArrayObject 331
+304 ArrayObject 378
+304 ArrayObject 402
+-1 fErrorReporter 548
+-1 fCurrentDVFactory 590
+-1 fDatatypeValidatorFactory 580
+-1 fSymbolTable 527
+-1 fValidationManager 631
+Accesses: 37
+579 1 -1 
+707 1 -1 
+454 1 -1 
+7 1 -1 
+583 1 -1 
+520 1 -1 
+457 1 -1 
+589 1 -1 
+526 1 -1 
+18 1 -1 
+466 1 -1 
+469 1 -1 
+23 1 -1 
+664 1 -1 
+411 1 -1 
+541 1 -1 
+479 1 -1 
+34 1 -1 
+482 1 -1 
+419 1 -1 
+547 1 -1 
+741 1 -1 
+422 1 -1 
+555 1 -1 
+492 1 -1 
+45 1 -1 
+685 1 -1 
+430 1 -1 
+624 1 -1 
+433 1 -1 
+566 1 -1 
+630 1 -1 
+696 1 -1 
+442 1 -1 
+445 1 -1 
+509 1 -1 
+575 1 -1 
+Functions: 52
+-1 0 
+2 7 -1 -3 548 580 631 590 527 
+517 1 513 
+645 1 640 
+262 6 -1 548 580 631 590 527 
+648 7 -1 640 548 580 631 590 527 
+269 6 -1 548 580 631 590 527 
+15 1 11 
+530 6 -1 548 580 631 590 527 
+658 1 654 
+276 6 -1 548 580 631 590 527 
+661 7 -1 548 580 631 590 654 527 
+408 24 -1 384 321 354 548 580 390 326 360 331 396 590 366 527 304 336 402 372 342 631 311 378 316 348 
+665 1 548 
+538 1 534 
+283 6 -1 548 580 631 590 527 
+31 1 27 
+290 6 -1 548 580 631 590 527 
+164 26 -1 130 67 580 72 136 77 590 142 527 82 148 88 154 94 160 548 100 106 112 50 118 631 57 124 62 
+551 6 -1 548 580 631 590 527 
+680 1 676 
+42 1 38 
+171 6 -1 548 580 631 590 527 
+299 6 -1 548 580 631 590 527 
+559 6 -1 548 580 631 590 527 
+178 6 -1 548 580 631 590 527 
+693 2 548 676 
+185 6 -1 548 580 631 590 527 
+570 0 
+192 6 -1 548 580 631 590 527 
+704 2 548 676 
+708 1 548 
+199 6 -1 548 580 631 590 527 
+206 6 -1 548 580 631 590 527 
+593 6 -1 548 580 631 590 527 
+213 6 -1 548 580 631 590 527 
+726 1 722 
+600 1 596 
+220 6 -1 548 580 631 590 527 
+610 7 -1 548 580 596 631 590 527 
+227 6 -1 548 580 631 590 527 
+616 7 -1 548 580 596 631 590 527 
+234 6 -1 548 580 631 590 527 
+620 6 -1 548 580 631 590 527 
+749 2 722 548 
+241 6 -1 548 580 631 590 527 
+753 0 
+756 7 -1 753 548 580 631 590 527 
+503 1 499 
+248 6 -1 548 580 631 590 527 
+634 6 -1 548 580 631 590 527 
+255 6 -1 548 580 631 590 527 
+Constructors: 12
+2 -1
+658 654
+517 513
+645 640
+726 722
+503 499
+600 596
+680 676
+42 38
+538 534
+15 11
+31 27
+
+Summary: 49
+596 62 72 67 124 130 82 640 57 360 722 331 316 366 136 321 390 713 160 106 94 654 336 -1 148 378 -3 50 348 372 118 753 88 676 396 354 402 311 304 342 0 100 112 326 142 384 154 670 77 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.setDTDHandler(Lcom/sun/org/apache/xerces/internal/xni/XMLDTDHandler;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.setDocumentHandler(Lcom/sun/org/apache/xerces/internal/xni/XMLDocumentHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.getParameterNames()Lorg/w3c/dom/DOMStringList;
+PTG:
+Vars:
+6
+$r1 1 1 
+$r5 1 184 
+$r2 1 1 
+r0 1 -1 
+_ret 1 1 
+$r3 1 7 
+Fields: 1
+-1 fRecognizedParameters 1
+Accesses: 3
+0 1 -1 
+192 1 -1 
+195 1 -1 
+Functions: 26
+130 1 7 
+67 1 7 
+137 1 7 
+74 1 7 
+11 1 7 
+144 1 7 
+81 1 7 
+18 1 7 
+151 1 7 
+88 1 7 
+25 1 7 
+158 1 7 
+95 1 7 
+32 1 7 
+165 1 7 
+102 1 7 
+39 1 7 
+172 1 7 
+109 1 7 
+46 1 7 
+179 1 7 
+116 1 7 
+53 1 7 
+123 1 7 
+60 1 7 
+189 2 7 184 
+Constructors: 2
+11 7
+189 184
+
+Summary: 2
+7 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.getEntityResolver()Lcom/sun/org/apache/xerces/internal/xni/parser/XMLEntityResolver;
+PTG:
+Vars:
+5
+$r3 1 6 
+r0 1 -1 
+$r2 1 6 
+_ret 1 6 
+$r1 1 1 
+Fields: 1
+-1 fProperties 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.getLocale()Ljava/util/Locale;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 fLocale 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.canSetParameter(Ljava/lang/String;Ljava/lang/Object;)Z
+PTG:
+Vars:
+3
+r0 1 -3 
+r5 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 27
+193 1 -2 
+67 1 -2 
+259 1 -2 
+323 1 -2 
+132 1 -2 
+76 1 -2 
+13 1 -2 
+141 1 -3 
+275 1 -3 
+85 1 -2 
+22 1 -2 
+215 1 -2 
+345 1 -2 
+157 1 -2 
+285 1 -3 
+94 1 -2 
+31 1 -2 
+166 1 -2 
+40 1 -2 
+105 1 -2 
+237 1 -2 
+301 1 -2 
+175 1 -3 
+49 1 -2 
+114 1 -2 
+58 1 -2 
+123 1 -2 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.setFeature(Ljava/lang/String;Z)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.setDTDValidatorFactory(Ljava/lang/String;)V
+PTG:
+Vars:
+11
+$r1 1 0 
+$r4 1 42 
+$r10 1 10 
+$r6 1 42 
+r0 1 -2 
+$r3 1 46 
+$r7 1 14 
+$r9 1 14 
+$r8 1 10 
+$r5 1 46 
+r2 1 -1 
+Fields: 4
+-1 fXML11DatatypeFactory 14
+-1 fCurrentDVFactory 10
+-1 fCurrentDVFactory 42
+-1 fDatatypeValidatorFactory 46
+Accesses: 10
+21 1 -1 
+53 1 -1 
+9 1 -1 
+25 1 -1 
+41 1 -1 
+57 1 -1 
+13 1 -1 
+45 1 -1 
+31 1 -1 
+63 1 -1 
+Functions: 3
+0 2 0 -2 
+35 5 -1 10 42 14 46 
+67 5 -1 10 42 14 46 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.setDTDContentModelHandler(Lcom/sun/org/apache/xerces/internal/xni/XMLDTDContentModelHandler;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.newFeatureNotSupportedError(Ljava/lang/String;)Lorg/w3c/dom/DOMException;
+PTG:
+Vars:
+5
+r2 1 15 
+r1 1 -2 
+$r3 1 16 
+$r0 1 5 
+_ret 1 16 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 1 5 
+23 2 16 15 
+Constructors: 1
+23 16
+
+Summary: 2
+5 15 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.getFeature(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+11 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.getDTDContentModelHandler()Lcom/sun/org/apache/xerces/internal/xni/XMLDTDContentModelHandler;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.setErrorHandler(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLErrorHandler;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+r0 1 -2 
+$r2 1 5 
+Fields: 1
+-1 fProperties 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+11 2 -2 5 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/dom/DOMConfigurationImpl.getErrorHandler()Lcom/sun/org/apache/xerces/internal/xni/parser/XMLErrorHandler;
+PTG:
+Vars:
+5
+$r2 1 6 
+$r3 1 6 
+r0 1 -1 
+_ret 1 6 
+$r1 1 1 
+Fields: 1
+-1 fProperties 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 

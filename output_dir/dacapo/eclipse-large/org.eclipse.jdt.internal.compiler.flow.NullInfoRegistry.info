@@ -1,0 +1,588 @@
+8
+org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.<init>(Lorg/eclipse/jdt/internal/compiler/flow/UnconditionalFlowInfo;)V
+PTG:
+Vars:
+28
+$r23 1 314 
+$r14 1 228 
+r0 1 -1 
+$r3 1 143 
+$r9 2 200 134 
+$r5 1 154 
+$r18 3 265 165 192 
+$r17 1 196 
+$r6 1 172 
+$r21 1 295 
+$r8 2 165 192 
+$r10 1 204 
+$r15 2 244 134 
+$r20 3 165 192 291 
+$r25 1 323 
+$r27 1 333 
+$r7 1 165 
+$r11 2 211 134 
+$r16 1 248 
+r1 1 -2 
+$r12 1 215 
+$r22 3 165 192 310 
+$r2 1 134 
+$r19 1 269 
+$r13 2 134 224 
+$r26 3 165 192 329 
+$r4 1 134 
+$r24 3 165 192 319 
+Fields: 29
+244 ArrayObject 248
+-2 extra 134
+265 ArrayObject 269
+200 ArrayObject 204
+192 ArrayObject 269
+192 ArrayObject 323
+192 ArrayObject 196
+192 ArrayObject 333
+192 ArrayObject 295
+192 ArrayObject 314
+310 ArrayObject 314
+319 ArrayObject 323
+165 ArrayObject 269
+165 ArrayObject 323
+165 ArrayObject 333
+165 ArrayObject 295
+165 ArrayObject 314
+165 ArrayObject 196
+211 ArrayObject 215
+134 ArrayObject 204
+134 ArrayObject 215
+134 ArrayObject 228
+134 ArrayObject 154
+134 ArrayObject 248
+-1 extra 165
+-1 extra 192
+224 ArrayObject 228
+329 ArrayObject 333
+291 ArrayObject 295
+Accesses: 31
+66 1 -1 
+130 1 -1 
+5 1 -2 
+133 1 -2 
+199 1 -2 
+264 1 -1 
+328 1 -1 
+9 1 -1 
+12 1 -2 
+146 1 -1 
+210 1 -2 
+149 1 -2 
+22 1 -2 
+87 1 -1 
+343 1 -1 
+28 1 -2 
+350 1 -1 
+223 1 -2 
+290 1 -1 
+36 1 -2 
+164 1 -1 
+101 1 -1 
+104 1 -1 
+108 1 -1 
+113 1 -1 
+51 1 -2 
+243 1 -2 
+309 1 -1 
+123 1 -1 
+318 1 -1 
+191 1 -1 
+Functions: 1
+1 9 -1 192 323 196 165 295 314 269 333 
+Constructors: 1
+1 -1
+
+Summary: 5
+134 -2 0 154 -1 
+org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.mitigateNullInfoOf(Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/UnconditionalFlowInfo;
+PTG:
+Vars:
+32
+$r9 1 328 
+$r3 1 280 
+$r6 1 280 
+r31 3 528 21 189 
+$r28 2 532 280 
+$r27 1 589 
+$r8 3 324 532 280 
+$r17 1 380 
+r1 1 -2 
+$r15 1 368 
+$r20 2 413 272 
+$r24 2 532 280 
+$r29 1 610 
+$r7 1 301 
+$r13 1 355 
+$r18 2 394 272 
+$r22 2 532 280 
+$r5 1 291 
+$r26 2 532 280 
+$r10 3 337 532 280 
+$r4 1 272 
+$r16 2 376 272 
+$r2 1 272 
+$r12 3 351 532 280 
+$r14 2 364 272 
+$r21 1 417 
+$r25 1 554 
+$r19 1 398 
+_ret 3 528 21 189 
+$r11 1 341 
+r0 1 -1 
+$r23 1 536 
+Fields: 31
+351 ArrayObject 355
+528 extra 532
+324 ArrayObject 328
+337 ArrayObject 341
+21 extra 280
+532 ArrayObject 589
+532 ArrayObject 341
+532 ArrayObject 536
+532 ArrayObject 554
+532 ArrayObject 610
+532 ArrayObject 355
+532 ArrayObject 328
+189 extra 280
+364 ArrayObject 368
+413 ArrayObject 417
+272 ArrayObject 380
+272 ArrayObject 368
+272 ArrayObject 291
+272 ArrayObject 398
+272 ArrayObject 417
+376 ArrayObject 380
+-1 extra 272
+394 ArrayObject 398
+280 ArrayObject 589
+280 ArrayObject 341
+280 ArrayObject 536
+280 ArrayObject 301
+280 ArrayObject 355
+280 ArrayObject 554
+280 ArrayObject 610
+280 ArrayObject 328
+Accesses: 31
+0 1 -1 
+256 3 528 21 189 
+322 3 528 21 189 
+69 1 -1 
+583 3 528 21 189 
+393 1 -1 
+203 3 528 21 189 
+268 3 528 21 189 
+206 3 528 21 189 
+271 1 -1 
+335 3 528 21 189 
+530 3 528 21 189 
+83 1 -1 
+278 3 528 21 189 
+23 3 528 21 189 
+412 1 -1 
+604 3 528 21 189 
+349 3 528 21 189 
+286 1 -1 
+31 3 528 21 189 
+548 3 528 21 189 
+295 3 528 21 189 
+40 3 528 21 189 
+235 3 528 21 189 
+363 1 -1 
+238 3 528 21 189 
+49 1 -1 
+375 1 -1 
+56 1 -1 
+253 3 528 21 189 
+191 3 528 21 189 
+Functions: 4
+17 1 -2 
+184 13 610 355 328 554 589 301 528 532 21 341 280 536 189 
+9 1 -2 
+523 13 610 355 328 554 589 301 528 532 21 341 280 536 189 
+Constructors: 0
+
+Summary: 4
+528 532 0 -1 
+org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.add(Lorg/eclipse/jdt/internal/compiler/flow/NullInfoRegistry;)Lorg/eclipse/jdt/internal/compiler/flow/NullInfoRegistry;
+PTG:
+Vars:
+28
+$r7 1 156 
+$r4 1 81 
+$r21 1 74 
+r0 1 -2 
+$r16 2 74 195 
+$r19 1 200 
+$r26 1 114 
+$r5 1 148 
+$r25 2 81 117 
+$r9 1 254 
+$r13 1 185 
+$r18 1 208 
+$r15 1 176 
+$r14 2 179 81 
+$r17 2 81 203 
+$r3 1 81 
+$r20 1 90 
+r1 1 -1 
+$r22 1 103 
+$r6 1 74 
+$r10 2 74 260 
+$r12 2 171 81 
+$r23 2 110 74 
+_ret 1 -1 
+$r8 2 81 249 
+$r2 1 74 
+$r24 1 122 
+$r11 1 265 
+Fields: 17
+-2 extra 74
+110 ArrayObject 114
+171 ArrayObject 176
+81 ArrayObject 208
+81 ArrayObject 176
+81 ArrayObject 148
+81 ArrayObject 254
+249 ArrayObject 254
+203 ArrayObject 208
+74 ArrayObject 156
+74 ArrayObject 114
+74 ArrayObject 265
+74 ArrayObject 200
+74 ArrayObject 103
+195 ArrayObject 200
+260 ArrayObject 265
+-1 extra 81
+Accesses: 29
+0 1 -2 
+65 1 -2 
+194 1 -2 
+259 1 -2 
+70 1 -1 
+73 1 -2 
+202 1 -1 
+11 1 -1 
+143 1 -1 
+80 1 -1 
+18 1 -1 
+21 1 -1 
+151 1 -2 
+26 1 -2 
+93 1 -1 
+31 1 -1 
+34 1 -1 
+98 1 -2 
+39 1 -2 
+170 1 -1 
+44 1 -1 
+109 1 -2 
+47 1 -1 
+178 1 -1 
+52 1 -2 
+116 1 -1 
+248 1 -1 
+57 1 -1 
+60 1 -1 
+Functions: 3
+128 2 114 122 
+213 2 208 200 
+191 2 176 185 
+Constructors: 0
+
+Summary: 5
+103 -2 156 0 74 
+org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.markAsDefinitelyNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+15
+$r5 1 112 
+$r12 2 83 56 
+$r11 1 90 
+$r3 1 56 
+$r9 1 132 
+$r6 2 127 56 
+$r10 1 70 
+$r1 1 1 
+$r4 1 56 
+$r13 1 56 
+$r14 1 168 
+r0 1 -1 
+$r8 2 135 56 
+$r7 1 143 
+r2 1 -2 
+Fields: 5
+127 ArrayObject 132
+-1 extra 56
+56 ArrayObject 132
+56 ArrayObject 112
+56 ArrayObject 168
+Accesses: 13
+33 1 -1 
+163 1 -1 
+134 1 -1 
+7 1 -1 
+73 1 -1 
+42 1 -1 
+107 1 -1 
+14 1 -1 
+17 1 -2 
+82 1 -1 
+21 1 -1 
+55 1 -1 
+126 1 -1 
+Functions: 1
+150 2 132 143 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.toString()Ljava/lang/String;
+PTG:
+Vars:
+37
+$r9 1 1 
+$r32 1 205 
+$r2 1 53 
+$r7 1 1 
+$r13 1 135 
+$r29 1 230 
+$r23 2 172 1 
+$r20 2 161 1 
+$r33 1 210 
+$r16 1 146 
+$r18 1 154 
+$r6 1 87 
+$r25 1 179 
+$r34 1 218 
+$r24 1 176 
+$r30 1 238 
+$r22 1 168 
+$r10 1 116 
+r42 3 93 185 224 
+$r14 2 139 1 
+$r27 1 200 
+$r11 1 122 
+$r17 2 1 150 
+$r8 1 101 
+r0 1 -1 
+$r1 1 1 
+$r21 1 165 
+$r26 1 1 
+$r5 1 80 
+$r4 1 73 
+$r12 1 127 
+$r28 1 225 
+_ret 1 241 
+$r15 1 143 
+$r3 1 66 
+$r19 1 157 
+$r31 1 241 
+Fields: 12
+172 ArrayObject 176
+139 ArrayObject 143
+-1 extra 1
+161 ArrayObject 165
+1 ArrayObject 101
+1 ArrayObject 176
+1 ArrayObject 200
+1 ArrayObject 116
+1 ArrayObject 165
+1 ArrayObject 154
+1 ArrayObject 143
+150 ArrayObject 154
+Accesses: 16
+0 1 -1 
+96 1 -1 
+160 1 -1 
+195 1 -1 
+37 1 -1 
+69 1 -1 
+138 1 -1 
+171 1 -1 
+76 1 -1 
+111 1 -1 
+16 1 -1 
+83 1 -1 
+149 1 -1 
+23 1 -1 
+30 1 -1 
+62 1 -1 
+Functions: 29
+66 1 66 
+130 2 122 127 
+7 0 
+135 1 135 
+73 1 73 
+13 0 
+205 1 205 
+80 1 80 
+209 3 224 185 93 
+146 1 146 
+20 0 
+213 2 210 205 
+87 1 87 
+218 1 218 
+27 0 
+157 1 157 
+225 1 225 
+34 0 
+229 3 224 185 93 
+168 1 168 
+41 0 
+233 2 225 230 
+46 0 
+238 1 238 
+179 1 179 
+53 1 53 
+122 1 122 
+59 1 53 
+126 3 224 185 93 
+Constructors: 4
+130 122
+213 205
+233 225
+59 53
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.markAsComparedEqualToNonNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+15
+$r8 2 135 56 
+r0 1 -1 
+$r1 1 1 
+$r11 1 90 
+$r13 1 56 
+$r14 1 168 
+$r5 1 112 
+$r9 1 132 
+$r4 1 56 
+$r3 1 56 
+$r12 2 83 56 
+r2 1 -2 
+$r10 1 70 
+$r6 2 127 56 
+$r7 1 143 
+Fields: 5
+127 ArrayObject 132
+-1 extra 56
+56 ArrayObject 132
+56 ArrayObject 112
+56 ArrayObject 168
+Accesses: 13
+33 1 -1 
+163 1 -1 
+134 1 -1 
+7 1 -1 
+73 1 -1 
+42 1 -1 
+107 1 -1 
+14 1 -1 
+17 1 -2 
+82 1 -1 
+21 1 -1 
+55 1 -1 
+126 1 -1 
+Functions: 1
+150 2 132 143 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.markAsDefinitelyUnknown(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+15
+$r5 1 112 
+$r14 1 168 
+$r4 1 56 
+$r12 2 83 56 
+$r9 1 132 
+$r1 1 1 
+$r8 2 135 56 
+r0 1 -1 
+$r11 1 90 
+$r6 2 127 56 
+$r13 1 56 
+r2 1 -2 
+$r3 1 56 
+$r10 1 70 
+$r7 1 143 
+Fields: 5
+127 ArrayObject 132
+-1 extra 56
+56 ArrayObject 132
+56 ArrayObject 112
+56 ArrayObject 168
+Accesses: 13
+33 1 -1 
+163 1 -1 
+134 1 -1 
+7 1 -1 
+73 1 -1 
+42 1 -1 
+107 1 -1 
+14 1 -1 
+17 1 -2 
+82 1 -1 
+21 1 -1 
+55 1 -1 
+126 1 -1 
+Functions: 1
+150 2 132 143 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/flow/NullInfoRegistry.markAsDefinitelyNonNull(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;)V
+PTG:
+Vars:
+15
+$r12 2 83 56 
+$r11 1 90 
+$r9 1 132 
+$r14 1 168 
+$r1 1 1 
+r2 1 -2 
+$r13 1 56 
+$r10 1 70 
+$r3 1 56 
+$r8 2 135 56 
+$r4 1 56 
+$r5 1 112 
+$r7 1 143 
+$r6 2 127 56 
+r0 1 -1 
+Fields: 5
+127 ArrayObject 132
+-1 extra 56
+56 ArrayObject 132
+56 ArrayObject 112
+56 ArrayObject 168
+Accesses: 13
+33 1 -1 
+163 1 -1 
+134 1 -1 
+7 1 -1 
+73 1 -1 
+42 1 -1 
+107 1 -1 
+14 1 -1 
+17 1 -2 
+82 1 -1 
+21 1 -1 
+55 1 -1 
+126 1 -1 
+Functions: 1
+150 2 132 143 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 

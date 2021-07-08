@@ -1,0 +1,444 @@
+20
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.tryReadLock()Z
+PTG:
+Vars:
+3
+r1 1 -1 
+r0 1 3 
+$r8 1 17 
+Fields: 0
+Accesses: 9
+65 1 -1 
+97 1 -1 
+84 1 -1 
+149 1 -1 
+70 1 -1 
+135 1 -1 
+122 1 -1 
+91 1 -1 
+76 1 -1 
+Functions: 10
+0 0 
+16 1 -1 
+113 1 3 
+4 1 -1 
+9 0 
+26 0 
+43 0 
+123 0 
+155 0 
+47 1 -1 
+Constructors: 0
+
+Summary: 2
+17 -1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.tryWriteLock()Z
+PTG:
+Vars:
+3
+r1 1 -1 
+r0 1 3 
+$r2 1 24 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 0 
+48 1 -1 
+4 1 -1 
+23 1 -1 
+44 0 
+13 0 
+63 2 -1 3 
+Constructors: 0
+
+Summary: 3
+3 -1 24 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.tryAcquire(I)Z
+PTG:
+Vars:
+2
+r0 1 3 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 0 
+65 1 -1 
+4 1 -1 
+36 0 
+52 0 
+87 2 -1 3 
+72 1 -1 
+9 0 
+25 1 -1 
+60 1 -1 
+Constructors: 0
+
+Summary: 2
+3 26 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.fullTryAcquireShared(Ljava/lang/Thread;)I
+PTG:
+Vars:
+8
+$r11 1 15 
+$r7 1 32 
+$r9 1 71 
+r0 1 -1 
+$r8 1 68 
+r1 1 -2 
+r12 2 50 71 
+$r10 1 68 
+Fields: 3
+-1 firstReader 32
+-1 readHolds 68
+-1 cachedHoldCounter 50
+Accesses: 20
+160 1 -1 
+67 1 -1 
+227 2 50 71 
+198 1 -1 
+167 1 -1 
+234 2 50 71 
+141 1 -1 
+46 1 -1 
+78 2 50 71 
+239 1 -1 
+177 1 -1 
+146 1 -1 
+212 2 50 71 
+85 1 -1 
+55 2 50 71 
+152 1 -1 
+186 2 50 71 
+219 1 -1 
+92 2 50 71 
+31 1 -1 
+Functions: 14
+224 2 50 71 
+2 4 -1 32 50 68 
+68 1 68 
+132 0 
+101 0 
+7 0 
+199 0 
+14 4 -1 32 50 68 
+116 0 
+24 4 -1 32 50 68 
+120 4 -1 32 50 68 
+89 1 68 
+59 1 -2 
+190 1 -2 
+Constructors: 0
+
+Summary: 2
+15 71 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.sharedCount(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.getOwner()Ljava/lang/Thread;
+PTG:
+Vars:
+3
+_ret 1 15 
+$r1 1 15 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+1 0 
+14 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.isWriteLocked()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.getCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.getReadLockCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.tryAcquireShared(I)I
+PTG:
+Vars:
+3
+r0 1 3 
+r1 1 -1 
+$r7 1 17 
+Fields: 0
+Accesses: 9
+65 1 -1 
+97 1 -1 
+84 1 -1 
+149 1 -1 
+70 1 -1 
+135 1 -1 
+122 1 -1 
+91 1 -1 
+76 1 -1 
+Functions: 11
+0 0 
+16 1 -1 
+32 1 -1 
+113 1 3 
+4 1 -1 
+9 0 
+26 0 
+123 0 
+155 0 
+171 2 -1 3 
+46 1 -1 
+Constructors: 0
+
+Summary: 1
+17 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.exclusiveCount(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.isHeldExclusively()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+-1 0 
+Constructors: 0
+
+Summary: 3
+4 1 -1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.newCondition()Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -1 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.unmatchedUnlockException()Ljava/lang/IllegalMonitorStateException;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 0 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -1 
+$r2 1 5 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 3
+1 1 -2 
+17 1 -1 
+9 1 5 
+Constructors: 1
+9 5
+
+Summary: 2
+-2 -1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.tryReleaseShared(I)Z
+PTG:
+Vars:
+7
+r1 1 -1 
+$r4 1 66 
+r0 1 3 
+$r3 1 63 
+$r2 1 5 
+r8 2 45 66 
+$r5 1 63 
+Fields: 3
+-1 firstReader 5
+-1 readHolds 63
+-1 cachedHoldCounter 45
+Accesses: 12
+50 2 66 45 
+35 1 -1 
+4 1 -1 
+85 1 -1 
+22 1 -1 
+102 2 66 45 
+41 1 -1 
+73 2 66 45 
+12 1 -1 
+28 1 -1 
+109 2 66 45 
+62 1 -1 
+Functions: 7
+0 0 
+112 4 -1 5 45 63 
+97 4 -1 5 45 63 
+54 1 3 
+89 1 63 
+123 4 -1 5 45 63 
+63 1 63 
+Constructors: 0
+
+Summary: 2
+3 66 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.<init>()V
+PTG:
+Vars:
+2
+$r1 1 10 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+17 1 -1 
+6 1 -1 
+Functions: 4
+1 1 -1 
+21 1 -1 
+25 1 -1 
+14 1 10 
+Constructors: 2
+1 -1
+14 10
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.getWriteHoldCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+7 1 -1 
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.tryRelease(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+22 0 
+41 1 -1 
+11 0 
+46 1 -1 
+15 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/ReentrantReadWriteLock$Sync.getReadHoldCount()I
+PTG:
+Vars:
+8
+r3 1 30 
+$r7 1 53 
+$r2 1 14 
+$r5 1 56 
+$r6 1 56 
+r1 1 12 
+$r4 1 53 
+r0 1 -1 
+Fields: 3
+-1 firstReader 14
+-1 readHolds 53
+-1 cachedHoldCounter 30
+Accesses: 8
+35 1 30 
+52 1 -1 
+21 1 -1 
+70 1 -1 
+26 1 -1 
+59 1 56 
+13 1 -1 
+47 1 30 
+Functions: 5
+0 4 -1 53 14 30 
+53 1 53 
+39 1 12 
+9 0 
+74 1 53 
+Constructors: 0
+
+Summary: 3
+-1 12 56 

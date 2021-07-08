@@ -1,0 +1,534 @@
+12
+raytracer/RayTracer.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 0
+
+raytracer/RayTracer.TransDir(Lraytracer/Surface;Lraytracer/Surface;Lraytracer/Vec;Lraytracer/Vec;)Lraytracer/Vec;
+PTG:
+Vars:
+7
+r4 1 89 
+r1 1 -3 
+_ret 1 89 
+r0 1 -2 
+r2 1 -4 
+r3 1 -5 
+r5 1 -1 
+Fields: 0
+Accesses: 2
+22 1 -3 
+8 1 -2 
+Functions: 4
+36 2 -4 -5 
+84 2 -4 -5 
+93 1 89 
+78 0 
+Constructors: 0
+
+Summary: 9
+-2 0 2 -4 -1 -3 3 1 -5 
+raytracer/RayTracer.createScene()Lraytracer/Scene;
+PTG:
+Vars:
+17
+r17 1 -1 
+$r3 1 234 
+$r4 1 255 
+$r7 1 315 
+$r0 1 4 
+$r16 1 157 
+$r5 1 276 
+$r12 1 112 
+$r6 1 297 
+$r10 1 346 
+$r8 1 319 
+$r2 1 213 
+$r11 1 108 
+$r9 1 334 
+_ret 1 4 
+$r15 1 157 
+$r14 1 157 
+Fields: 1
+108 surf 157
+Accesses: 6
+177 1 108 
+163 1 157 
+166 1 108 
+185 1 157 
+155 1 108 
+174 1 157 
+Functions: 20
+128 3 112 108 157 
+353 1 346 
+290 1 276 
+227 1 213 
+293 2 4 276 
+230 2 4 213 
+8 1 4 
+361 4 346 315 334 319 
+331 1 319 
+269 1 255 
+272 2 4 255 
+369 2 4 315 
+309 1 297 
+343 1 334 
+152 2 108 157 
+248 1 234 
+312 2 4 297 
+122 1 112 
+251 2 4 234 
+191 3 4 108 157 
+Constructors: 12
+128 108
+353 346
+290 276
+227 213
+309 297
+343 334
+8 4
+248 234
+361 315
+122 112
+331 319
+269 255
+
+Summary: 12
+108 319 213 276 346 255 234 334 112 297 -1 315 
+raytracer/RayTracer.<init>()V
+PTG:
+Vars:
+5
+$r1 1 5 
+$r4 1 39 
+$r3 1 27 
+r0 1 -1 
+$r2 1 16 
+Fields: 0
+Accesses: 5
+34 1 -1 
+53 1 -1 
+23 1 -1 
+58 1 -1 
+12 1 -1 
+Functions: 4
+1 1 -1 
+20 1 16 
+9 1 5 
+31 1 27 
+Constructors: 4
+1 -1
+20 16
+9 5
+31 27
+
+Summary: 1
+-1 
+raytracer/RayTracer.main([Ljava/lang/String;)V
+PTG:
+Vars:
+5
+$r2 1 10 
+$r4 1 24 
+r6 1 -2 
+$r0 1 0 
+$r3 1 18 
+Fields: 1
+0 scene 18
+Accesses: 5
+17 1 0 
+33 1 0 
+38 1 0 
+13 1 0 
+29 1 0 
+Functions: 5
+50 3 0 18 24 
+4 2 0 18 
+21 2 0 18 
+9 2 0 18 
+44 1 24 
+Constructors: 2
+4 0
+44 24
+
+Summary: 4
+24 -2 18 0 
+raytracer/RayTracer.shade(IDLraytracer/Vec;Lraytracer/Vec;Lraytracer/Vec;Lraytracer/Isect;)Lraytracer/Vec;
+PTG:
+Vars:
+37
+$r19 1 71 
+$r23 1 103 
+r2 1 -7 
+$r15 1 293 
+$r24 1 61 
+r36 1 410 
+$r10 1 386 
+r5 1 -4 
+$r11 2 262 103 
+$r0 1 0 
+$r14 2 262 103 
+$r28 1 53 
+$r20 1 61 
+r4 1 -1 
+$r3 1 16 
+$r27 1 61 
+_ret 1 0 
+$r22 1 61 
+r35 1 317 
+$r6 2 262 103 
+$r13 1 365 
+$r29 1 156 
+$r18 1 70 
+$r34 1 53 
+$r12 2 262 103 
+$r21 1 61 
+$r26 1 103 
+r32 1 14 
+$r9 2 262 103 
+$r25 1 103 
+$r17 1 53 
+r8 1 -5 
+r33 2 16 45 
+$r30 1 169 
+$r16 2 262 103 
+r7 1 -6 
+$r31 1 61 
+Fields: 9
+53 ArrayObject 156
+53 ArrayObject 70
+70 pos 71
+14 color 169
+-1 lights 53
+-1 L 61
+-1 tRay 262
+-1 tRay 103
+-7 surf 14
+Accesses: 45
+64 1 -1 
+321 1 14 
+261 1 -1 
+389 2 262 103 
+70 1 70 
+9 1 -7 
+137 1 -1 
+267 2 262 103 
+331 1 14 
+396 1 14 
+270 1 14 
+144 1 14 
+81 1 -1 
+209 1 14 
+403 1 -1 
+150 1 -1 
+25 1 14 
+345 1 -7 
+219 1 0 
+156 1 156 
+284 1 -1 
+93 1 -1 
+414 1 14 
+353 1 -1 
+228 1 0 
+102 1 -1 
+167 1 14 
+231 1 0 
+296 2 262 103 
+108 1 103 
+111 1 -1 
+175 1 14 
+303 1 14 
+240 1 0 
+368 2 262 103 
+115 1 -1 
+243 1 0 
+52 1 -1 
+310 1 -1 
+374 1 -1 
+119 1 103 
+123 1 -1 
+60 1 -1 
+252 1 0 
+189 1 -1 
+Functions: 18
+288 10 -1 -5 53 -6 262 70 103 71 156 61 
+4 1 0 
+37 10 -1 -5 53 -6 262 70 103 71 156 61 
+357 12 -1 -5 53 -6 262 70 103 71 169 156 61 14 
+421 2 0 410 
+328 2 0 317 
+392 8 -1 53 262 70 103 71 156 61 
+138 2 -5 61 
+299 8 -1 53 262 70 103 71 156 61 
+76 3 -4 71 61 
+172 2 0 169 
+82 2 -5 61 
+211 0 
+20 1 16 
+122 8 -1 53 262 70 103 71 156 61 
+378 12 -1 -5 53 -6 262 70 103 71 169 156 61 14 
+94 1 61 
+190 3 16 45 61 
+Constructors: 2
+4 0
+20 16
+
+Summary: 11
+16 -6 169 -7 4 -1 2 14 5 3 -5 
+raytracer/RayTracer.render(Lraytracer/Interval;)V
+PTG:
+Vars:
+29
+r14 1 84 
+$r19 1 20 
+$r21 1 155 
+$r22 1 20 
+$r3 1 20 
+$r16 1 61 
+$r4 1 20 
+$r8 1 44 
+$r23 1 166 
+$r15 1 20 
+r34 1 292 
+$r28 1 267 
+$r13 1 61 
+r2 1 -1 
+$r10 1 20 
+$r11 1 61 
+$r6 1 23 
+$r20 1 20 
+$r12 1 20 
+$r5 1 30 
+$r18 1 20 
+$r29 1 267 
+$r26 1 174 
+$r24 1 30 
+r0 1 -2 
+r7 1 36 
+r17 1 104 
+r1 1 14 
+$r27 1 259 
+Fields: 5
+155 D 267
+-1 view 20
+20 from 30
+20 up 61
+20 at 23
+Accesses: 39
+0 1 -2 
+4 1 -2 
+196 1 -2 
+262 1 155 
+390 1 -1 
+8 1 -2 
+72 1 -1 
+73 1 20 
+265 1 155 
+393 1 -1 
+142 1 -1 
+143 1 20 
+210 1 -2 
+402 1 -1 
+19 1 -1 
+275 1 155 
+20 1 20 
+344 1 292 
+26 1 -1 
+27 1 20 
+92 1 -1 
+93 1 20 
+159 1 -1 
+160 1 20 
+225 1 -2 
+294 1 292 
+239 1 -2 
+112 1 -1 
+113 1 20 
+369 1 -1 
+119 1 -1 
+183 1 -2 
+120 1 20 
+57 1 -1 
+58 1 20 
+378 1 -1 
+187 1 -2 
+381 1 -1 
+319 1 292 
+Functions: 18
+64 2 36 61 
+257 2 84 104 
+99 2 36 61 
+69 1 44 
+40 1 36 
+137 1 84 
+169 4 166 155 267 30 
+108 1 104 
+79 2 44 61 
+272 2 36 267 
+50 2 36 44 
+178 1 174 
+88 1 84 
+152 1 104 
+280 1 267 
+123 0 
+284 7 -1 20 23 155 267 61 30 
+30 2 23 30 
+Constructors: 3
+50 44
+178 174
+169 155
+
+Summary: 7
+0 14 155 -2 174 44 -1 
+raytracer/RayTracer.Shadow(Lraytracer/Ray;D)I
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+raytracer/RayTracer.trace(IDLraytracer/Ray;)Lraytracer/Vec;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 98 
+$r2 1 98 
+r1 1 -4 
+Fields: 0
+Accesses: 5
+32 1 -1 
+85 1 -4 
+58 1 -4 
+90 1 -1 
+44 1 -1 
+Functions: 7
+48 0 
+10 0 
+75 0 
+14 2 -1 -4 
+30 1 -4 
+78 1 -1 
+63 0 
+Constructors: 0
+
+Summary: 3
+2 -4 -1 
+raytracer/RayTracer.setScene(Lraytracer/Scene;)V
+PTG:
+Vars:
+9
+$r7 1 36 
+$r2 1 12 
+$r4 1 84 
+$r5 1 64 
+$r8 1 44 
+r1 1 -1 
+$r3 1 20 
+$r6 1 72 
+r0 1 -2 
+Fields: 2
+-1 lights 36
+-1 prim 64
+Accesses: 5
+35 1 -1 
+23 1 -1 
+87 1 -1 
+15 1 -1 
+63 1 -1 
+Functions: 5
+0 1 -2 
+83 1 -2 
+5 1 -2 
+69 1 -2 
+41 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+raytracer/RayTracer.intersect(Lraytracer/Ray;D)Z
+PTG:
+Vars:
+14
+$r11 1 90 
+$r12 1 4 
+$r1 1 4 
+$r8 1 4 
+$r3 1 19 
+r6 1 37 
+$r5 1 32 
+$r10 1 4 
+r0 1 -1 
+$r2 1 19 
+r4 1 -2 
+$r13 1 4 
+$r9 1 78 
+$r7 1 4 
+Fields: 5
+37 prim 78
+37 surf 90
+19 ArrayObject 32
+-1 prim 19
+-1 inter 4
+Accesses: 19
+64 1 37 
+96 1 -1 
+3 1 -1 
+100 1 37 
+69 1 4 
+72 1 -1 
+105 1 4 
+10 1 4 
+44 1 37 
+76 1 37 
+49 1 -1 
+81 1 4 
+18 1 -1 
+50 1 4 
+84 1 -1 
+88 1 37 
+26 1 -1 
+60 1 -1 
+93 1 4 
+Functions: 1
+32 2 32 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+raytracer/RayTracer.SpecularDirection(Lraytracer/Vec;Lraytracer/Vec;)Lraytracer/Vec;
+PTG:
+Vars:
+5
+_ret 1 18 
+r0 1 -2 
+r3 1 -1 
+r1 1 -3 
+r2 1 18 
+Fields: 0
+Accesses: 0
+Functions: 4
+2 2 -2 -3 
+3 0 
+20 1 18 
+14 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 0 -1 -3 1 

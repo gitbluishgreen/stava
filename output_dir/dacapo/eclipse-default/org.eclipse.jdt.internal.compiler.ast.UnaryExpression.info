@@ -1,0 +1,342 @@
+8
+org/eclipse/jdt/internal/compiler/ast/UnaryExpression.printExpressionNoParenthesis(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+7
+_ret 1 20 
+r0 1 -3 
+$r2 1 2 
+$r3 1 5 
+$r5 1 15 
+$r6 1 20 
+r1 1 -1 
+Fields: 1
+-1 expression 15
+Accesses: 1
+14 1 -1 
+Functions: 4
+0 2 -3 2 
+1 2 -1 15 
+10 1 5 
+15 2 -3 15 
+Constructors: 0
+
+Summary: 3
+-1 1 2 
+org/eclipse/jdt/internal/compiler/ast/UnaryExpression.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Z)V
+PTG:
+Vars:
+22
+$r14 1 7 
+$r20 1 85 
+$r12 1 7 
+$r16 1 200 
+$r15 1 200 
+$r10 1 312 
+$r13 1 7 
+$r22 1 155 
+$r8 1 426 
+$r3 1 7 
+$r19 1 123 
+r4 1 -2 
+$r9 1 426 
+$r6 1 301 
+$r18 1 85 
+r1 1 -1 
+$r11 1 7 
+$r5 1 513 
+$r17 1 200 
+r0 1 -3 
+$r2 1 10 
+$r7 1 7 
+Fields: 6
+-1 constant 7
+-1 expression 513
+-1 expression 200
+-1 expression 85
+-1 expression 426
+-1 expression 312
+Accesses: 26
+0 1 -3 
+512 1 -1 
+6 1 -1 
+390 1 -1 
+199 1 -1 
+200 1 200 
+269 1 -1 
+527 1 -1 
+84 1 -1 
+21 1 -1 
+85 1 85 
+408 1 -1 
+25 1 -1 
+537 1 -1 
+35 1 -1 
+357 1 -1 
+297 1 -1 
+425 1 -1 
+43 1 -1 
+116 1 -1 
+244 1 -1 
+373 1 -1 
+311 1 -1 
+439 1 -1 
+312 1 312 
+440 1 426 
+Functions: 35
+128 2 -3 123 
+193 1 123 
+259 1 -3 
+135 4 -2 -3 85 123 
+263 1 -3 
+391 1 7 
+519 3 513 -2 -3 
+143 1 -3 
+401 1 -3 
+146 1 123 
+531 1 -3 
+276 3 -2 -3 200 
+409 1 7 
+29 1 -3 
+541 1 -3 
+287 1 -3 
+160 2 -3 155 
+291 1 -3 
+419 1 -3 
+485 1 -3 
+166 2 -3 155 
+358 1 7 
+39 1 -3 
+171 1 -3 
+492 1 -3 
+366 1 -3 
+176 1 123 
+432 3 -2 -3 426 
+499 1 -3 
+180 1 -3 
+374 1 7 
+185 1 155 
+506 1 -3 
+251 3 -2 -3 200 
+383 1 -3 
+Constructors: 2
+128 123
+160 155
+
+Summary: 7
+1 -3 -1 155 0 -2 123 
+org/eclipse/jdt/internal/compiler/ast/UnaryExpression.optimizedBooleanConstant()Lorg/eclipse/jdt/internal/compiler/impl/Constant;
+PTG:
+Vars:
+4
+_ret 2 1 8 
+$r2 2 1 8 
+$r1 1 1 
+r0 1 -1 
+Fields: 2
+-1 constant 8
+-1 optimizedBooleanConstant 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+14 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/UnaryExpression.resolveType(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+34
+$r23 1 305 
+$r18 1 325 
+$r31 1 1 
+$r3 1 1 
+$r19 1 315 
+$r37 1 1 
+$r1 1 1 
+$r17 1 411 
+$r7 1 421 
+$r10 1 1 
+$r39 1 384 
+$r20 1 345 
+$r38 1 381 
+$r32 1 177 
+$r8 1 499 
+r0 1 -1 
+r2 1 -2 
+$r34 1 1 
+$r21 1 285 
+$r16 1 381 
+$r22 1 295 
+$r6 1 335 
+$r35 1 207 
+$r12 1 454 
+$r15 1 1 
+$r9 1 1 
+r11 1 450 
+r4 1 34 
+$r13 1 474 
+$r29 1 92 
+_ret 1 499 
+$r28 1 88 
+$r5 1 55 
+$r33 1 182 
+Fields: 4
+-1 expression 1
+-1 resolvedType 499
+1 constant 381
+177 ArrayObject 182
+Accesses: 34
+0 1 -1 
+193 1 -1 
+391 1 -1 
+328 1 -1 
+392 1 1 
+12 1 -1 
+13 1 1 
+400 1 -1 
+338 1 -1 
+214 1 -1 
+23 1 1 
+26 1 -1 
+92 1 92 
+348 1 -1 
+477 1 -1 
+414 1 -1 
+288 1 -1 
+225 1 -1 
+358 1 -1 
+424 1 -1 
+489 1 -1 
+298 1 -1 
+43 1 -1 
+427 1 -1 
+111 1 -1 
+48 1 34 
+498 1 -1 
+308 1 -1 
+55 1 55 
+377 1 -1 
+378 1 1 
+443 1 -1 
+125 1 -1 
+318 1 -1 
+Functions: 16
+461 1 450 
+206 1 -2 
+366 1 -2 
+495 3 -2 1 381 
+80 1 34 
+114 1 -2 
+211 5 1 -2 34 381 207 
+372 5 -1 1 34 499 381 
+54 1 -2 
+87 1 -2 
+88 2 34 88 
+120 5 -1 1 34 499 381 
+473 0 
+410 1 381 
+27 3 1 -2 381 
+444 2 1 381 
+Constructors: 0
+
+Summary: 10
+115 34 -1 367 207 0 92 450 55 88 
+org/eclipse/jdt/internal/compiler/ast/UnaryExpression.<init>(Lorg/eclipse/jdt/internal/compiler/ast/Expression;I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+19 1 -1 
+6 1 -1 
+9 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/compiler/ast/UnaryExpression.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+8
+$r6 1 47 
+$r4 1 1 
+_ret 1 47 
+r3 1 -4 
+$r5 1 1 
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 1
+-1 expression 1
+Accesses: 4
+0 1 -1 
+40 1 -1 
+10 1 -1 
+26 1 -1 
+Functions: 4
+33 0 
+7 4 1 -2 -3 -4 
+41 4 1 -2 -3 -4 
+27 3 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-1 2 1 -4 -3 0 -2 
+org/eclipse/jdt/internal/compiler/ast/UnaryExpression.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+4
+$r3 1 10 
+r2 1 -3 
+r0 1 -2 
+r1 1 -1 
+Fields: 1
+-1 expression 10
+Accesses: 1
+9 1 -1 
+Functions: 3
+0 4 -1 -2 -3 10 
+21 4 -1 -2 -3 10 
+15 3 -2 -3 10 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/ast/UnaryExpression.generateOptimizedBoolean(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;Z)V
+PTG:
+Vars:
+9
+r5 1 -4 
+r6 1 -5 
+r4 1 -3 
+$r8 1 1 
+r0 1 -1 
+$r7 1 50 
+$r2 1 1 
+r3 1 -2 
+$r1 1 4 
+Fields: 2
+-1 constant 1
+-1 expression 50
+Accesses: 4
+0 1 -1 
+33 1 -1 
+49 1 -1 
+10 1 -1 
+Functions: 4
+74 7 -1 1 -2 50 -3 -4 -5 
+11 1 1 
+60 5 -2 50 -3 -4 -5 
+29 7 -1 1 -2 50 -3 -4 -5 
+Constructors: 0
+
+Summary: 9
+-1 2 -5 1 -4 -3 0 -2 3 

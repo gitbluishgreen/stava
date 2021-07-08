@@ -1,0 +1,393 @@
+24
+java/util/concurrent/CountedCompleter.getCompleter()Ljava/util/concurrent/CountedCompleter;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 completer 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/CountedCompleter.nextComplete()Ljava/util/concurrent/CountedCompleter;
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 completer 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 1 1 
+15 2 -1 1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/CountedCompleter.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/util/concurrent/CountedCompleter.helpComplete(I)V
+PTG:
+Vars:
+6
+$r4 1 11 
+r0 1 -1 
+$r7 1 28 
+$r6 1 32 
+$r1 1 11 
+$r3 1 44 
+Fields: 2
+11 workQueue 32
+11 pool 28
+Accesses: 3
+4 1 -1 
+23 1 11 
+31 1 11 
+Functions: 3
+-1 0 
+49 2 -1 44 
+37 3 32 -1 28 
+Constructors: 0
+
+Summary: 4
+32 28 11 -1 
+java/util/concurrent/CountedCompleter.internalPropagateException(Ljava/lang/Throwable;)V
+PTG:
+Vars:
+5
+r3 2 16 -1 
+$r2 1 16 
+r1 1 -2 
+r0 1 -1 
+r4 2 16 -1 
+Fields: 1
+-1 completer 16
+Accesses: 2
+24 1 16 
+13 2 16 -1 
+Functions: 2
+4 3 16 -1 -2 
+31 2 16 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/concurrent/CountedCompleter.onCompletion(Ljava/util/concurrent/CountedCompleter;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/CountedCompleter.<init>(Ljava/util/concurrent/CountedCompleter;I)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/util/concurrent/CountedCompleter.getRawResult()Ljava/lang/Object;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/CountedCompleter.firstComplete()Ljava/util/concurrent/CountedCompleter;
+PTG:
+Vars:
+2
+$r1 1 11 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+11 2 -1 11 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/CountedCompleter.setRawResult(Ljava/lang/Object;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/CountedCompleter.propagateCompletion()V
+PTG:
+Vars:
+5
+$r2 1 16 
+$r1 1 29 
+r5 2 16 -1 
+r3 2 16 -1 
+r0 1 -1 
+Fields: 1
+-1 completer 16
+Accesses: 2
+4 2 16 -1 
+13 2 16 -1 
+Functions: 2
+25 2 16 -1 
+29 3 16 -1 29 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/CountedCompleter.quietlyCompleteRoot()V
+PTG:
+Vars:
+3
+$r1 1 3 
+r0 1 -1 
+r3 1 3 
+Fields: 1
+-1 completer 3
+Accesses: 1
+2 1 3 
+Functions: 1
+12 1 3 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/CountedCompleter.getRoot()Ljava/util/concurrent/CountedCompleter;
+PTG:
+Vars:
+4
+r3 2 3 -1 
+$r1 1 3 
+r0 1 -1 
+_ret 2 3 -1 
+Fields: 1
+-1 completer 3
+Accesses: 1
+2 2 -1 3 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/CountedCompleter.<clinit>()V
+PTG:
+Vars:
+4
+$r1 1 9 
+$r2 1 6 
+$r0 1 0 
+$r3 1 13 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+6 2 6 13 
+9 1 9 
+31 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/CountedCompleter.complete(Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 15 
+Fields: 1
+-1 completer 15
+Accesses: 1
+14 1 -1 
+Functions: 4
+2 3 -1 -2 15 
+7 2 -1 15 
+24 1 15 
+11 2 -1 15 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/CountedCompleter.compareAndSetPendingCount(II)Z
+PTG:
+Vars:
+2
+$r1 1 0 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 0 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/CountedCompleter.addToPendingCount(I)V
+PTG:
+Vars:
+2
+$r1 1 0 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 2 0 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/CountedCompleter.tryComplete()V
+PTG:
+Vars:
+5
+r4 2 21 -1 
+r3 2 21 -1 
+$r1 1 34 
+r0 1 -1 
+$r2 1 21 
+Fields: 1
+-1 completer 21
+Accesses: 2
+18 2 -1 21 
+4 2 -1 21 
+Functions: 3
+34 3 -1 34 21 
+30 2 -1 21 
+15 2 -1 21 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/CountedCompleter.onExceptionalCompletion(Ljava/lang/Throwable;Ljava/util/concurrent/CountedCompleter;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+1 -2 -3 -1 0 
+java/util/concurrent/CountedCompleter.<init>(Ljava/util/concurrent/CountedCompleter;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 0 
+java/util/concurrent/CountedCompleter.decrementPendingCountUnlessZero()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 9 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+9 2 -1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/CountedCompleter.setPendingCount(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/CountedCompleter.exec()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/CountedCompleter.getPendingCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

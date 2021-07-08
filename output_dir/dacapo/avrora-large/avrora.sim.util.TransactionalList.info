@@ -1,0 +1,197 @@
+8
+avrora/sim/util/TransactionalList.isEmpty()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 head 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/util/TransactionalList.remove(Ljava/lang/Object;)V
+PTG:
+Vars:
+9
+r2 1 -2 
+r7 2 20 29 
+$r5 1 64 
+r1 1 29 
+r8 2 20 29 
+$r3 1 32 
+$r6 1 29 
+r0 1 -1 
+$r4 1 29 
+Fields: 4
+-1 tail 64
+-1 head 20
+20 next 29
+20 object 32
+Accesses: 10
+0 1 -1 
+16 1 -1 
+48 1 -1 
+55 2 20 29 
+72 1 -1 
+25 2 20 29 
+59 2 20 29 
+44 2 20 29 
+31 2 20 29 
+63 1 -1 
+Functions: 1
+10 6 -1 64 32 -2 20 29 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+avrora/sim/util/TransactionalList.addTransaction(Ljava/lang/Object;Z)V
+PTG:
+Vars:
+8
+$r6 1 49 
+r3 1 -2 
+$r1 1 1 
+$r5 1 29 
+$r7 1 9 
+$r2 1 32 
+$r4 1 29 
+r0 1 -1 
+Fields: 3
+-1 transHead 1
+-1 transTail 29
+29 next 49
+Accesses: 8
+0 1 -1 
+19 1 -1 
+52 1 -1 
+22 1 -1 
+41 1 29 
+28 1 -1 
+45 1 -1 
+46 1 29 
+Functions: 2
+38 2 32 -2 
+15 2 -2 9 
+Constructors: 2
+38 32
+15 9
+
+Summary: 3
+-2 -1 0 
+avrora/sim/util/TransactionalList.endTransaction()V
+PTG:
+Vars:
+5
+$r2 2 47 58 
+r0 1 -1 
+$r3 2 47 58 
+r1 1 21 
+r4 2 21 68 
+Fields: 4
+21 object 47
+21 object 58
+-1 transHead 21
+68 next 68
+Accesses: 10
+0 1 -1 
+64 2 68 21 
+17 1 -1 
+38 2 68 21 
+7 1 -1 
+24 1 -1 
+57 2 68 21 
+10 1 -1 
+29 1 -1 
+46 2 68 21 
+Functions: 2
+50 4 -1 21 58 47 
+61 4 -1 21 58 47 
+Constructors: 0
+
+Summary: 2
+-1 68 
+avrora/sim/util/TransactionalList.getHead()Lavrora/sim/util/TransactionalList$Link;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 head 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/util/TransactionalList.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+avrora/sim/util/TransactionalList.add(Ljava/lang/Object;)V
+PTG:
+Vars:
+8
+r3 1 -2 
+$r6 1 61 
+$r7 1 23 
+r0 1 -1 
+$r2 1 45 
+$r4 1 42 
+$r1 1 15 
+$r5 1 42 
+Fields: 3
+-1 tail 42
+-1 head 15
+42 next 61
+Accesses: 9
+0 1 -1 
+32 1 -1 
+64 1 -1 
+35 1 -1 
+53 1 42 
+41 1 -1 
+57 1 -1 
+58 1 42 
+14 1 -1 
+Functions: 3
+50 2 -2 45 
+10 5 -1 -2 42 61 15 
+28 2 -2 23 
+Constructors: 2
+50 45
+28 23
+
+Summary: 3
+-2 -1 0 
+avrora/sim/util/TransactionalList.beginTransaction()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

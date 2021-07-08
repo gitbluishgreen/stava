@@ -1,0 +1,342 @@
+16
+avrora/core/Program.getNextPC(I)I
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 39 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 8
+17 0 
+49 1 39 
+34 1 -1 
+20 0 
+8 0 
+24 0 
+27 0 
+12 0 
+Constructors: 0
+
+Summary: 7
+-1 21 8 27 39 17 24 
+avrora/core/Program.getArchitecture()Lavrora/arch/AbstractArchitecture;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 arch 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/core/Program.getCFG()Lavrora/core/ControlFlowGraph;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 8 
+$r1 1 1 
+$r4 1 16 
+_ret 1 1 
+$r2 1 1 
+Fields: 1
+-1 cfg 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+22 1 -1 
+Functions: 2
+8 1 8 
+13 3 -1 1 8 
+Constructors: 1
+13 8
+
+Summary: 2
+-1 8 
+avrora/core/Program.writeInstr(Lavrora/arch/AbstractInstr;I)V
+PTG:
+Vars:
+4
+$r2 1 22 
+$r3 1 22 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 flash_instrs 22
+Accesses: 4
+21 1 -1 
+26 1 -1 
+42 1 -1 
+47 1 -1 
+Functions: 3
+0 1 -2 
+18 2 -1 22 
+9 2 -1 22 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/core/Program.getSourceMapping()Lavrora/core/SourceMapping;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 sourceMapping 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/core/Program.writeByteInto(BI)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 flash_data 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/core/Program.writeProgramBytes([BI)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+16 1 -1 
+Functions: 3
+2 1 -1 
+41 1 -1 
+12 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+avrora/core/Program.writeProgramByte(BI)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 2
+2 1 -1 
+15 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/core/Program.addIndirectEdge(II)V
+PTG:
+Vars:
+8
+$r0 1 0 
+$r6 1 24 
+$r2 1 9 
+r4 1 -1 
+r10 1 24 
+$r8 1 20 
+$r5 1 20 
+$r7 1 37 
+Fields: 1
+-1 indirectEdges 20
+Accesses: 2
+19 1 -1 
+56 1 -1 
+Functions: 7
+50 2 37 9 
+20 2 0 20 
+5 1 0 
+41 1 37 
+74 2 24 9 
+14 1 9 
+63 3 0 20 37 
+Constructors: 3
+5 0
+41 37
+14 9
+
+Summary: 5
+9 0 37 -1 24 
+avrora/core/Program.<init>(Lavrora/arch/AbstractArchitecture;II)V
+PTG:
+Vars:
+7
+r1 1 -2 
+$r2 1 40 
+$r5 1 61 
+$r6 1 69 
+r0 1 -1 
+$r4 1 52 
+$r3 1 47 
+Fields: 2
+-1 flash_data 61
+-1 arch 47
+Accesses: 11
+16 1 -1 
+6 1 -1 
+23 1 -1 
+57 1 -1 
+26 1 -1 
+42 1 -1 
+11 1 -1 
+60 1 -1 
+76 1 -1 
+30 1 -1 
+46 1 -1 
+Functions: 4
+1 3 -1 61 47 
+65 1 61 
+73 1 69 
+47 1 47 
+Constructors: 2
+1 -1
+73 69
+
+Summary: 2
+0 -1 
+avrora/core/Program.getIndirectEdges(I)Ljava/util/List;
+PTG:
+Vars:
+6
+$r3 1 12 
+$r2 1 1 
+r0 1 -1 
+$r1 1 4 
+$r4 1 12 
+_ret 1 12 
+Fields: 1
+-1 indirectEdges 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 4 
+9 1 4 
+Constructors: 1
+9 4
+
+Summary: 2
+4 -1 
+avrora/core/Program.setSourceMapping(Lavrora/core/SourceMapping;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+avrora/core/Program.checkAddress(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+1 1 -1 
+9 1 -1 
+Functions: 6
+16 0 
+32 0 
+35 0 
+20 0 
+25 0 
+28 0 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/core/Program.disassembleInstr(I)Lavrora/arch/AbstractInstr;
+PTG:
+Vars:
+7
+r0 1 -1 
+r2 1 27 
+r4 1 50 
+$r3 1 42 
+$r5 1 58 
+$r1 1 19 
+_ret 1 50 
+Fields: 3
+-1 flash_data 42
+-1 arch 19
+-1 flash_instrs 58
+Accesses: 7
+1 1 -1 
+18 1 -1 
+36 1 -1 
+9 1 -1 
+41 1 -1 
+57 1 -1 
+29 1 -1 
+Functions: 2
+19 1 19 
+35 2 42 27 
+Constructors: 0
+
+Summary: 2
+-1 27 
+avrora/core/Program.readProgramByte(I)B
+PTG:
+Vars:
+2
+$r1 1 6 
+r0 1 -1 
+Fields: 1
+-1 flash_data 6
+Accesses: 2
+5 1 -1 
+10 1 -1 
+Functions: 1
+2 2 -1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/core/Program.readInstr(I)Lavrora/arch/AbstractInstr;
+PTG:
+Vars:
+4
+$r1 1 19 
+$r2 1 28 
+r0 1 -1 
+_ret 1 28 
+Fields: 2
+19 ArrayObject 28
+-1 flash_instrs 19
+Accesses: 4
+1 1 -1 
+18 1 -1 
+23 1 -1 
+9 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

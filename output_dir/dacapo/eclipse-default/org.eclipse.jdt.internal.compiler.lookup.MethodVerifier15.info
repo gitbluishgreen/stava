@@ -1,0 +1,1410 @@
+30
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.checkTypeVariableMethods(Lorg/eclipse/jdt/internal/compiler/ast/TypeParameter;)V
+PTG:
+Vars:
+16
+r11 1 -2 
+r9 1 88 
+$r3 1 16 
+$r4 2 1 24 
+$r5 1 27 
+$r6 1 31 
+r14 1 143 
+$r12 2 219 219 
+$r10 1 232 
+r13 1 119 
+r8 1 53 
+r0 1 -1 
+$r1 1 1 
+r2 1 7 
+r15 2 196 196 
+r7 1 31 
+Fields: 9
+-1 inheritedMethods 1
+1 keyTable 7
+7 ArrayObject 16
+27 ArrayObject 31
+31 ArrayObject 88
+31 ArrayObject 119
+53 ArrayObject 196
+53 ArrayObject 219
+24 valueTable 27
+Accesses: 4
+0 1 -1 
+1 1 1 
+23 1 -1 
+24 2 1 24 
+Functions: 6
+242 5 -2 196 53 232 219 
+212 6 -1 16 1 196 7 219 
+150 6 -1 16 1 7 88 143 
+135 6 -1 16 1 7 119 88 
+231 4 -1 16 1 7 
+121 6 -1 16 1 7 119 88 
+Constructors: 0
+
+Summary: 6
+196 232 219 -1 53 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.findSuperinterfaceCollisions(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)Lorg/eclipse/jdt/internal/compiler/util/SimpleSet;
+PTG:
+Vars:
+29
+r10 2 394 394 
+$r6 1 233 
+$r1 1 13 
+$r11 1 406 
+r0 1 -3 
+$r5 1 227 
+$r16 1 419 
+r27 2 205 205 
+r32 1 379 
+r22 4 104 -3 54 263 
+$r19 2 139 139 
+r29 1 285 
+$r14 2 445 445 
+r24 2 180 -2 
+r31 2 364 364 
+r4 1 -2 
+$r8 1 263 
+$r17 1 54 
+$r12 2 435 435 
+r26 1 126 
+r30 1 419 
+_ret 1 419 
+$r18 1 60 
+$r9 4 104 -3 54 263 
+$r7 2 298 298 
+$r21 3 104 -3 54 
+$r3 1 28 
+$r20 1 104 
+r2 1 -1 
+Fields: 30
+-1 type 28
+104 ArrayObject 394
+104 ArrayObject 205
+104 ArrayObject 364
+104 ArrayObject 139
+104 ArrayObject 298
+104 ArrayObject 435
+104 ArrayObject 445
+-3 ArrayObject 435
+-3 ArrayObject 445
+-3 ArrayObject 139
+-3 ArrayObject 298
+-3 ArrayObject 364
+-3 ArrayObject 394
+-3 ArrayObject 205
+54 ArrayObject 435
+54 ArrayObject 445
+54 ArrayObject 139
+54 ArrayObject 298
+54 ArrayObject 364
+54 ArrayObject 394
+54 ArrayObject 205
+54 ArrayObject 126
+227 ArrayObject 285
+263 ArrayObject 394
+263 ArrayObject 364
+263 ArrayObject 205
+263 ArrayObject 298
+263 ArrayObject 435
+263 ArrayObject 445
+Accesses: 1
+27 1 -1 
+Functions: 17
+225 1 205 
+425 1 419 
+44 2 -2 180 
+396 1 394 
+366 1 364 
+175 2 -2 180 
+207 1 205 
+271 12 -3 435 54 263 104 394 298 139 364 205 445 126 
+112 11 -3 435 54 104 394 298 139 364 205 445 126 
+52 2 -2 180 
+404 1 394 
+436 2 419 435 
+374 1 364 
+217 1 205 
+187 2 -2 180 
+28 1 28 
+446 2 419 445 
+Constructors: 1
+425 419
+
+Summary: 7
+180 -1 0 379 227 406 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.isAcceptableReturnTypeOverride(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+13
+$r1 1 1 
+r4 1 24 
+$r6 1 54 
+r2 1 16 
+r7 1 60 
+$r3 1 18 
+$r8 1 87 
+r14 1 -1 
+r5 1 -2 
+$r10 1 24 
+$r11 1 111 
+$r9 1 90 
+r0 1 -3 
+Fields: 5
+16 returnType 18
+-3 returnType 87
+-3 declaringClass 1
+24 declaringElement 111
+-2 returnType 54
+Accesses: 6
+0 1 -3 
+17 1 16 
+34 1 -2 
+53 1 -2 
+86 1 -3 
+108 1 24 
+Functions: 10
+1 1 1 
+18 1 18 
+98 2 24 111 
+35 0 
+38 0 
+54 1 54 
+87 1 87 
+26 2 24 111 
+12 3 1 -3 87 
+62 1 60 
+Constructors: 0
+
+Summary: 10
+1 111 38 90 -1 16 60 24 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.detectNameClash(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+13
+$r4 1 16 
+r1 1 4 
+r3 1 -1 
+$r5 1 19 
+$r10 1 36 
+r0 1 -3 
+$r6 1 53 
+$r7 1 58 
+$r9 1 33 
+$r11 1 40 
+r2 1 -2 
+$r12 1 43 
+$r13 2 4 -3 
+Fields: 5
+-1 environment 16
+16 globalOptions 19
+4 returnType 40
+-3 declaringClass 58
+-2 returnType 33
+Accesses: 6
+16 1 16 
+32 1 -2 
+19 1 19 
+39 1 4 
+57 1 -3 
+15 1 -1 
+Functions: 7
+0 2 -3 58 
+33 1 33 
+51 5 -1 16 -2 33 19 
+5 4 -2 33 4 40 
+40 1 40 
+72 7 -2 33 -3 4 53 40 58 
+58 1 58 
+Constructors: 0
+
+Summary: 8
+43 1 -1 53 4 36 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.checkInheritedReturnTypes(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+10
+$r13 1 12 
+$r3 1 12 
+r2 1 -3 
+$r9 1 47 
+$r11 1 12 
+r1 1 -2 
+$r8 1 22 
+$r12 1 22 
+r0 1 -1 
+$r10 1 47 
+Fields: 3
+-1 type 12
+-3 declaringClass 47
+-2 declaringClass 22
+Accesses: 10
+82 1 -2 
+35 1 -2 
+21 1 -2 
+86 1 -3 
+56 1 -1 
+104 1 -1 
+11 1 -1 
+60 1 -3 
+46 1 -3 
+31 1 -1 
+Functions: 10
+0 6 -1 -2 -3 22 12 47 
+32 2 22 12 
+97 4 -1 -2 22 12 
+83 0 
+22 1 22 
+57 2 12 47 
+73 6 -1 -2 -3 22 12 47 
+12 1 12 
+108 4 -2 -3 22 47 
+47 1 47 
+Constructors: 0
+
+Summary: 8
+-1 47 99 1 -3 22 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.verify()V
+PTG:
+Vars:
+26
+$r4 2 1 35 
+$r9 1 45 
+$r14 1 159 
+r0 1 -1 
+r25 2 96 108 
+$r20 1 201 
+$r19 1 198 
+r6 1 43 
+$r24 1 1 
+$r26 2 160 173 
+$r5 2 38 26 
+$r17 2 1 192 
+r11 1 119 
+$r13 1 145 
+$r23 1 67 
+$r3 1 26 
+$r21 1 205 
+$r1 1 1 
+$r2 1 1 
+$r8 1 45 
+$r18 1 195 
+$r22 1 108 
+$r15 1 160 
+$r7 1 48 
+r12 1 124 
+$r10 1 81 
+Fields: 14
+-1 type 1
+1 typeVariables 26
+43 superInterfaces 45
+43 superclass 67
+35 typeVariables 38
+192 scope 195
+198 typeParameters 201
+119 ArrayObject 173
+119 ArrayObject 159
+119 ArrayObject 145
+38 ArrayObject 43
+195 referenceContext 198
+201 ArrayObject 205
+26 ArrayObject 43
+Accesses: 15
+0 1 -1 
+192 2 192 1 
+34 1 -1 
+66 1 43 
+35 2 1 35 
+67 1 67 
+195 1 195 
+198 1 198 
+10 1 -1 
+44 1 43 
+22 1 -1 
+23 1 1 
+57 1 43 
+89 1 -1 
+191 1 -1 
+Functions: 12
+1 5 1 67 26 43 45 
+97 2 96 108 
+145 1 145 
+19 6 -1 1 67 26 43 45 
+115 3 67 43 45 
+86 1 81 
+107 2 96 108 
+187 9 -1 96 1 67 26 43 108 124 45 
+92 3 67 43 45 
+14 5 1 67 26 43 45 
+206 7 -1 1 67 26 43 45 205 
+159 1 159 
+Constructors: 1
+86 81
+
+Summary: 4
+119 -1 108 124 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.isSubstituteParameterSubsignature(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+5
+$r4 1 137 
+r0 1 -1 
+$r3 1 140 
+r2 1 -3 
+r1 1 -2 
+Fields: 1
+-2 typeVariables 137
+Accesses: 5
+96 1 -2 
+24 1 -2 
+56 1 -3 
+136 1 -2 
+46 1 -2 
+Functions: 10
+0 4 -1 -2 -3 137 
+16 3 -2 -3 137 
+80 4 -1 -2 -3 137 
+34 3 -1 -2 137 
+66 2 -2 137 
+9 1 -3 
+57 0 
+73 1 -3 
+122 3 -1 -2 137 
+47 0 
+Constructors: 0
+
+Summary: 10
+47 1 -3 -1 57 25 97 137 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.checkInheritedMethods([Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;I)V
+PTG:
+Vars:
+19
+$r2 1 64 
+$r3 1 59 
+$r9 2 228 228 
+$r5 2 154 154 
+r14 2 290 -2 
+$r11 2 241 241 
+$r8 1 215 
+r16 1 55 
+r0 1 3 
+r15 1 93 
+$r6 2 162 162 
+$r7 2 210 210 
+r1 1 34 
+r17 3 174 34 174 
+$r12 1 304 
+r4 1 -1 
+$r10 1 219 
+$r13 1 317 
+r18 1 290 
+Fields: 13
+-1 type 219
+55 declaringClass 64
+93 ArrayObject 162
+93 ArrayObject 174
+93 ArrayObject 210
+93 ArrayObject 154
+93 ArrayObject 228
+93 ArrayObject 241
+34 declaringClass 59
+-2 ArrayObject 55
+-2 ArrayObject 34
+-2 ArrayObject 304
+-2 ArrayObject 317
+Accesses: 3
+57 1 34 
+218 1 -1 
+62 1 55 
+Functions: 6
+337 10 -1 304 64 -2 290 34 55 219 59 317 
+162 1 162 
+229 5 34 228 215 219 59 
+70 6 -1 64 34 55 219 59 
+214 2 -1 219 
+120 2 34 59 
+Constructors: 0
+
+Summary: 13
+162 210 -1 154 215 3 0 290 241 93 228 174 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.isInterfaceMethodImplemented(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)Z
+PTG:
+Vars:
+9
+$r4 1 32 
+$r3 1 36 
+r6 1 -4 
+r1 1 -1 
+$r0 1 1 
+r2 1 -3 
+r8 1 26 
+r7 1 -2 
+$r5 1 9 
+Fields: 3
+-3 returnType 36
+-3 declaringClass 9
+26 returnType 32
+Accesses: 3
+35 1 -3 
+8 1 -3 
+31 1 26 
+Functions: 4
+0 1 -2 
+20 5 -1 -2 -3 36 9 
+9 1 9 
+42 6 -1 32 -3 36 9 26 
+Constructors: 0
+
+Summary: 8
+-1 1 9 -4 -3 26 32 36 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.areReturnTypesCompatible(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+5
+r4 1 -1 
+$r2 1 5 
+r0 1 -2 
+r1 1 -3 
+$r3 1 1 
+Fields: 2
+-3 returnType 5
+-2 returnType 1
+Accesses: 2
+0 1 -2 
+4 1 -3 
+Functions: 1
+13 5 -1 -2 1 -3 5 
+Constructors: 0
+
+Summary: 7
+-1 1 5 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.areParametersEqual(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+34
+$r32 1 58 
+r2 1 -3 
+r0 1 -2 
+$r13 1 137 
+$r26 1 250 
+$r17 1 155 
+$r6 1 95 
+r1 1 4 
+$r7 1 90 
+$r16 1 158 
+$r11 1 126 
+$r25 1 238 
+$r27 1 258 
+$r33 1 53 
+$r12 1 136 
+r5 1 -1 
+$r4 1 34 
+$r24 1 237 
+$r19 1 176 
+$r15 1 145 
+$r21 1 222 
+r3 1 9 
+$r20 1 227 
+$r28 1 268 
+$r29 1 269 
+$r10 1 118 
+$r8 1 105 
+$r18 1 175 
+$r31 1 277 
+$r22 1 294 
+$r9 1 106 
+$r23 1 295 
+$r30 1 276 
+$r14 1 144 
+Fields: 22
+9 ArrayObject 95
+9 ArrayObject 258
+9 ArrayObject 276
+9 ArrayObject 58
+9 ArrayObject 227
+9 ArrayObject 126
+9 ArrayObject 144
+4 ArrayObject 53
+4 ArrayObject 222
+4 ArrayObject 268
+4 ArrayObject 250
+4 ArrayObject 294
+4 ArrayObject 105
+4 ArrayObject 175
+4 ArrayObject 90
+4 ArrayObject 237
+4 ArrayObject 136
+4 ArrayObject 118
+-3 parameters 9
+-2 parameters 4
+-2 declaringClass 34
+-2 typeVariables 155
+Accesses: 4
+0 1 -2 
+33 1 -2 
+5 1 -3 
+154 1 -2 
+Functions: 22
+34 1 34 
+258 1 258 
+294 1 294 
+295 1 295 
+136 1 136 
+105 1 105 
+137 2 145 137 
+106 1 106 
+268 1 268 
+237 1 237 
+269 2 277 269 
+238 1 238 
+175 1 175 
+144 1 144 
+176 1 176 
+49 3 -1 53 58 
+276 1 276 
+86 3 -1 90 95 
+118 1 118 
+218 3 -1 227 222 
+250 1 250 
+126 1 126 
+Constructors: 0
+
+Summary: 17
+-3 34 269 277 106 -1 9 137 145 4 0 295 176 1 238 155 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.checkConcreteInheritedMethod(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;[Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)V
+PTG:
+Vars:
+24
+r2 1 -3 
+$r23 3 83 105 40 
+r0 1 -1 
+r4 1 51 
+$r15 4 83 105 149 40 
+$r11 2 131 108 
+$r21 3 83 105 40 
+$r24 1 91 
+$r12 1 134 
+$r20 1 76 
+$r7 3 83 105 40 
+$r18 4 83 115 105 40 
+$r14 1 142 
+$r8 1 108 
+$r19 2 118 108 
+$r9 1 101 
+$r13 1 91 
+r3 1 18 
+$r16 1 155 
+$r10 4 83 105 40 128 
+$r22 1 33 
+r1 1 -2 
+$r6 1 55 
+$r5 1 59 
+Fields: 11
+-1 type 83
+-1 type 40
+-1 type 105
+51 returnType 55
+51 declaringClass 91
+105 superclass 108
+115 superclass 118
+-3 ArrayObject 18
+-2 returnType 59
+-2 declaringClass 101
+128 superclass 131
+Accesses: 14
+128 4 128 83 40 105 
+100 1 -2 
+39 1 -1 
+104 1 -1 
+105 3 83 40 105 
+137 1 51 
+82 1 -1 
+114 1 -1 
+115 4 83 115 40 105 
+148 1 -1 
+53 1 51 
+89 1 51 
+58 1 -2 
+127 1 -1 
+Functions: 15
+32 5 -1 83 40 105 108 
+65 9 -1 -2 18 83 101 40 105 59 108 
+3 10 -1 -2 -3 18 83 101 40 105 59 108 
+131 2 131 108 
+134 2 134 91 
+43 9 33 -2 18 83 101 40 105 59 108 
+75 5 -1 83 40 105 108 
+46 1 18 
+20 3 -2 101 59 
+86 11 -2 51 83 101 55 40 105 59 91 76 108 
+118 2 118 108 
+24 1 18 
+154 3 -2 101 59 
+91 1 91 
+158 9 83 51 149 55 40 105 91 155 108 
+Constructors: 0
+
+Summary: 10
+51 55 91 -3 142 -1 33 155 0 76 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.areTypesEqual(Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)Z
+PTG:
+Vars:
+3
+r1 1 -3 
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+21 2 -2 -3 
+7 1 -2 
+29 2 -2 -3 
+14 1 -3 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.detectInheritedNameClash(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+18
+$r14 1 28 
+$r8 1 57 
+$r7 1 54 
+r2 1 -1 
+$r12 1 47 
+$r10 1 84 
+r0 1 -2 
+r1 1 -3 
+$r15 1 31 
+$r16 1 35 
+$r9 1 80 
+$r11 1 54 
+$r4 1 14 
+$r6 1 50 
+$r5 1 47 
+$r17 1 38 
+$r3 1 11 
+$r13 1 71 
+Fields: 7
+-1 environment 11
+-1 type 84
+11 globalOptions 14
+-3 returnType 35
+-3 declaringClass 54
+-2 returnType 28
+-2 declaringClass 47
+Accesses: 10
+34 1 -3 
+67 1 -3 
+83 1 -1 
+53 1 -3 
+10 1 -1 
+11 1 11 
+27 1 -2 
+14 1 14 
+46 1 -2 
+63 1 -2 
+Functions: 8
+0 6 -2 -3 35 54 28 47 
+64 2 54 47 
+35 1 35 
+54 1 54 
+89 8 80 -2 -3 35 84 54 28 47 
+28 1 28 
+47 1 47 
+79 4 -1 84 11 14 
+Constructors: 0
+
+Summary: 11
+31 71 1 -3 50 38 -1 57 0 -2 80 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.canSkipInheritedMethods(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+6
+r0 1 -3 
+r5 1 -1 
+$r4 1 5 
+$r3 1 5 
+r1 1 -2 
+$r2 1 9 
+Fields: 2
+-3 declaringClass 9
+-2 declaringClass 5
+Accesses: 3
+4 1 -2 
+8 1 -3 
+15 1 -2 
+Functions: 1
+16 1 5 
+Constructors: 0
+
+Summary: 5
+-1 5 9 -3 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.<init>(Lorg/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.isMethodSubsignature(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+17
+r15 2 30 -2 
+$r4 1 17 
+$r3 1 41 
+$r7 1 41 
+r17 1 35 
+$r0 1 5 
+$r11 1 91 
+r6 1 -1 
+$r2 1 17 
+$r12 1 92 
+r16 1 -3 
+$r1 1 1 
+$r9 1 47 
+r10 1 74 
+$r8 1 68 
+r5 1 47 
+$r13 1 96 
+Fields: 6
+35 selector 68
+35 declaringClass 41
+-3 selector 5
+-2 selector 1
+-2 declaringClass 17
+74 ArrayObject 91
+Accesses: 7
+0 2 -2 30 
+16 2 -2 30 
+67 1 35 
+4 1 -3 
+36 2 -2 30 
+40 1 35 
+56 1 35 
+Functions: 10
+64 2 68 47 
+17 1 17 
+5 2 1 5 
+37 2 17 41 
+102 5 -1 -2 1 17 30 
+26 4 -2 1 17 30 
+91 1 91 
+123 8 -1 -2 1 17 35 68 41 30 
+31 2 -3 5 
+95 3 35 68 41 
+Constructors: 0
+
+Summary: 14
+47 35 -3 30 74 -1 1 5 41 17 92 96 -2 68 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.checkForBridgeMethod(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;[Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)V
+PTG:
+Vars:
+17
+r0 1 -2 
+r1 1 -3 
+$r9 1 115 
+$r7 1 104 
+$r12 1 13 
+$r16 1 77 
+$r4 1 33 
+$r11 1 19 
+r5 1 -1 
+$r10 1 54 
+$r15 1 74 
+r6 1 -4 
+r2 1 29 
+$r3 1 37 
+$r8 1 114 
+$r13 1 19 
+$r14 1 19 
+Fields: 5
+-1 type 19
+29 returnType 33
+-4 ArrayObject 104
+-4 ArrayObject 114
+-2 returnType 37
+Accesses: 5
+18 1 -1 
+67 1 -1 
+36 1 -2 
+60 1 -1 
+31 1 29 
+Functions: 12
+0 2 -2 37 
+64 6 -2 33 19 37 54 29 
+114 1 114 
+4 1 -3 
+52 4 -1 -2 19 37 
+68 4 33 19 74 29 
+22 5 -2 -3 19 37 13 
+25 1 -3 
+73 2 -2 37 
+11 4 -1 -2 19 37 
+43 5 -1 -2 -3 19 37 
+108 5 -1 33 19 115 29 
+Constructors: 0
+
+Summary: 11
+115 54 74 -1 13 2 29 33 77 -4 0 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.checkMethods()V
+PTG:
+Vars:
+33
+r28 1 334 
+r1 1 29 
+$r2 1 40 
+$r9 1 84 
+r31 1 398 
+r30 2 367 367 
+$r3 1 54 
+$r7 2 23 76 
+r0 1 -1 
+$r15 1 449 
+$r5 1 55 
+r29 1 360 
+r10 1 84 
+$r13 2 406 406 
+$r18 2 579 579 
+$r19 2 590 590 
+$r22 1 109 
+$r20 1 191 
+$r14 1 454 
+r11 1 138 
+r25 1 172 
+r32 1 440 
+r12 1 146 
+$r24 1 23 
+r6 1 55 
+$r21 2 208 208 
+$r17 2 491 491 
+r26 1 264 
+$r16 2 523 523 
+$r8 1 79 
+$r23 1 120 
+$r4 1 48 
+r27 1 197 
+Fields: 22
+-1 inheritedMethods 23
+-1 currentMethods 48
+146 ArrayObject 208
+146 ArrayObject 523
+146 ArrayObject 406
+146 ArrayObject 367
+146 ArrayObject 491
+55 ArrayObject 172
+23 keyTable 29
+29 ArrayObject 40
+29 ArrayObject 54
+79 ArrayObject 84
+360 declaringClass 449
+84 ArrayObject 360
+84 ArrayObject 191
+84 ArrayObject 398
+84 ArrayObject 109
+84 ArrayObject 120
+440 declaringClass 454
+76 valueTable 79
+138 ArrayObject 590
+138 ArrayObject 579
+Accesses: 7
+452 1 440 
+22 1 -1 
+23 1 23 
+75 1 -1 
+76 2 23 76 
+47 1 -1 
+447 1 360 
+Functions: 16
+0 6 -1 48 54 23 40 29 
+418 9 -1 48 449 54 23 40 360 29 398 
+579 1 579 
+9 6 -1 48 54 23 40 29 
+460 10 -1 48 449 54 454 23 40 360 440 29 
+109 1 109 
+302 11 -1 48 579 54 23 40 264 138 172 29 590 
+591 7 -1 48 54 23 40 29 590 
+48 2 48 54 
+432 9 -1 48 449 54 23 40 360 29 398 
+212 8 -1 48 197 54 23 40 172 29 
+532 10 -1 48 449 54 454 23 40 360 440 29 
+566 9 -1 48 579 54 23 40 138 29 590 
+248 8 -1 48 197 54 23 40 172 29 
+121 7 -1 48 54 23 40 120 29 
+186 8 -1 48 54 23 40 172 29 191 
+Constructors: 0
+
+Summary: 13
+367 264 -1 208 406 146 55 590 491 138 334 579 523 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.areMethodsCompatible(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+14
+r13 1 4 
+$r0 1 15 
+r2 1 21 
+$r6 1 21 
+$r3 1 15 
+$r1 1 11 
+$r5 1 44 
+r4 1 -1 
+r7 1 50 
+r11 1 -2 
+$r8 1 67 
+$r9 1 68 
+r12 1 -3 
+r14 1 9 
+Fields: 4
+9 selector 44
+9 declaringClass 15
+4 declaringClass 11
+50 ArrayObject 67
+Accesses: 4
+32 1 9 
+10 1 4 
+43 1 9 
+14 1 9 
+Functions: 7
+0 1 -2 
+96 6 -1 4 9 11 44 15 
+67 1 67 
+5 1 -3 
+40 2 21 44 
+11 2 11 15 
+75 3 -1 4 11 
+Constructors: 0
+
+Summary: 10
+15 1 50 -1 9 21 4 44 0 68 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.isParameterSubsignature(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+r3 1 6 
+r1 1 -3 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+11 3 -1 -2 6 
+Constructors: 0
+
+Summary: 6
+-1 1 6 -3 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.canSkipInheritedMethods()Z
+PTG:
+Vars:
+10
+r0 1 -1 
+$r6 1 1 
+$r7 1 14 
+$r4 1 42 
+$r8 1 1 
+$r3 1 1 
+$r5 1 45 
+$r1 1 1 
+$r9 1 27 
+$r2 1 4 
+Fields: 1
+-1 type 1
+Accesses: 4
+0 1 -1 
+38 1 -1 
+23 1 -1 
+10 1 -1 
+Functions: 6
+1 1 1 
+39 1 1 
+24 1 1 
+11 1 1 
+27 1 27 
+14 1 14 
+Constructors: 0
+
+Summary: 5
+-1 27 4 14 42 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.doTypeVariablesClash(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+5
+r0 1 -2 
+$r1 1 4 
+r3 1 -3 
+r4 1 -1 
+$r2 1 1 
+Fields: 1
+-2 typeVariables 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-1 1 -3 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.reportIncompatibleReturnTypeError(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+16 1 -1 
+Functions: 4
+0 3 -1 -2 -3 
+20 2 -2 -3 
+9 2 -1 -2 
+25 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 11 -3 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.checkForNameClash(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)V
+PTG:
+Vars:
+38
+r0 1 -2 
+$r15 1 476 
+$r9 1 80 
+r39 1 537 
+r34 1 312 
+$r17 2 551 551 
+$r7 1 60 
+r37 1 436 
+r3 1 -1 
+$r20 1 165 
+$r6 1 65 
+$r23 1 240 
+$r1 1 1 
+$r25 1 289 
+r35 2 394 394 
+$r14 1 431 
+$r21 1 189 
+r32 1 194 
+$r24 2 326 326 
+$r19 4 234 133 514 289 
+$r26 3 234 133 289 
+$r8 1 72 
+r28 1 126 
+r27 4 234 133 514 289 
+r5 1 36 
+$r16 1 482 
+r2 1 -3 
+$r12 1 137 
+r30 2 157 368 
+r31 1 171 
+$r22 1 234 
+$r13 2 407 165 
+r36 1 413 
+$r18 1 514 
+$r11 1 91 
+r4 1 31 
+r29 1 133 
+$r10 1 95 
+Fields: 27
+234 ArrayObject 326
+234 ArrayObject 394
+234 ArrayObject 551
+234 ArrayObject 312
+31 ArrayObject 60
+31 ArrayObject 95
+31 ArrayObject 72
+413 ArrayObject 431
+133 ArrayObject 326
+133 ArrayObject 394
+133 ArrayObject 551
+514 ArrayObject 394
+514 ArrayObject 551
+289 ArrayObject 394
+289 ArrayObject 326
+289 ArrayObject 551
+171 ArrayObject 189
+-3 parameters 36
+-3 declaringClass 126
+36 ArrayObject 91
+36 ArrayObject 65
+36 ArrayObject 80
+-2 selector 165
+-2 selector 407
+-2 parameters 31
+-2 declaringClass 1
+476 ArrayObject 537
+Accesses: 6
+0 1 -2 
+32 1 -3 
+164 1 -2 
+406 1 -2 
+122 1 -3 
+27 1 -2 
+Functions: 23
+128 1 126 
+1 1 1 
+162 3 368 165 157 
+453 10 -1 -2 1 436 165 407 72 60 31 95 
+72 1 72 
+232 2 368 157 
+201 10 -1 -2 1 194 165 407 72 60 31 95 
+10 6 80 65 -3 36 91 126 
+298 7 289 133 326 551 312 234 394 
+426 10 -1 -2 1 165 407 72 60 431 31 95 
+363 2 368 157 
+523 8 289 514 133 326 551 312 234 394 
+396 1 394 
+80 1 80 
+18 15 -1 -2 1 65 -3 36 165 72 80 407 91 60 126 31 95 
+211 10 -1 -2 1 194 165 407 72 60 31 95 
+404 3 165 407 394 
+375 2 368 157 
+152 1 126 
+184 10 -1 -2 1 165 407 72 60 189 31 95 
+474 1 394 
+91 2 91 95 
+443 10 -1 -2 1 436 165 407 72 60 31 95 
+Constructors: 0
+
+Summary: 16
+413 157 165 -3 436 476 -1 1 407 194 36 31 368 126 171 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.isUnsafeReturnTypeOverride(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+20
+$r4 1 8 
+$r6 1 64 
+r0 1 -2 
+$r12 1 5 
+$r3 1 1 
+$r2 1 5 
+$r14 1 100 
+$r19 1 39 
+r17 1 -1 
+$r9 1 77 
+$r5 1 67 
+$r10 1 1 
+r15 1 18 
+r16 1 23 
+$r7 1 74 
+$r13 1 97 
+r1 1 -3 
+$r8 1 80 
+$r11 1 90 
+$r18 1 44 
+Fields: 8
+23 ArrayObject 44
+-3 returnType 5
+-3 parameters 23
+18 ArrayObject 39
+-2 returnType 1
+-2 parameters 18
+-2 typeVariables 64
+74 typeVariables 77
+Accesses: 8
+0 1 -2 
+19 1 -3 
+4 1 -3 
+86 1 -2 
+74 1 74 
+93 1 -3 
+14 1 -2 
+63 1 -2 
+Functions: 6
+35 3 -1 39 44 
+5 1 5 
+87 1 1 
+73 4 -3 5 23 44 
+90 2 97 90 
+94 1 5 
+Constructors: 0
+
+Summary: 11
+1 18 74 -1 97 77 8 0 100 -2 64 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.hasGenericParameter(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+7
+r2 1 13 
+$r1 1 1 
+$r3 1 25 
+r0 1 -2 
+r6 1 -1 
+r4 1 29 
+$r5 1 29 
+Fields: 2
+13 ArrayObject 25
+-2 parameters 13
+Accesses: 2
+9 1 -2 
+41 1 29 
+Functions: 2
+0 3 -2 25 13 
+25 1 25 
+Constructors: 0
+
+Summary: 5
+-1 1 29 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.doesMethodOverride(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+9 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.checkInheritedMethods(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)V
+PTG:
+Vars:
+10
+r7 1 -1 
+$r1 1 1 
+$r6 1 1 
+$r2 1 4 
+$r8 1 83 
+r3 1 -3 
+$r4 1 8 
+$r5 1 11 
+r0 1 -2 
+$r9 1 87 
+Fields: 2
+-3 declaringClass 8
+-2 declaringClass 1
+Accesses: 4
+0 1 -2 
+53 1 -1 
+7 1 -3 
+63 1 -2 
+Functions: 13
+64 1 1 
+1 1 1 
+39 4 -2 1 -3 8 
+8 1 8 
+73 2 -2 1 
+17 2 -2 1 
+49 1 -1 
+82 2 -2 1 
+86 2 -3 8 
+24 2 -3 8 
+90 3 -1 83 87 
+59 4 -2 1 -3 8 
+31 4 -2 1 -3 8 
+Constructors: 0
+
+Summary: 6
+-1 11 83 87 4 50 
+org/eclipse/jdt/internal/compiler/lookup/MethodVerifier15.computeSubstituteMethod(Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;
+PTG:
+Vars:
+36
+$r4 1 22 
+$r33 1 22 
+$r37 1 247 
+$r36 1 244 
+r0 1 -2 
+$r26 1 186 
+$r34 1 22 
+r11 1 143 
+$r25 1 181 
+$r18 1 262 
+r14 2 162 162 
+$r2 1 7 
+$r31 1 44 
+$r10 1 134 
+$r16 1 181 
+$r21 1 300 
+$r30 1 44 
+$r24 1 186 
+r8 1 117 
+$r23 1 318 
+r6 1 69 
+$r17 1 181 
+r9 1 -1 
+r7 1 85 
+$r3 1 12 
+r22 1 304 
+$r15 1 186 
+$r38 1 252 
+r12 1 155 
+_ret 1 143 
+$r20 2 262 295 
+$r5 1 44 
+$r27 1 181 
+r13 2 162 162 
+r1 1 -3 
+r19 1 273 
+Fields: 18
+-1 environment 134
+162 superInterfaces 273
+162 firstBound 181
+162 superclass 252
+262 ArrayObject 300
+69 ArrayObject 155
+117 ArrayObject 162
+155 superInterfaces 262
+155 firstBound 186
+155 superclass 244
+-3 parameters 7
+-3 declaringClass 22
+-3 typeVariables 85
+273 ArrayObject 318
+-2 parameters 12
+-2 declaringClass 44
+-2 typeVariables 69
+295 ArrayObject 300
+Accesses: 22
+192 1 162 
+65 1 -2 
+98 1 -1 
+227 1 155 
+260 1 155 
+133 1 -1 
+293 1 155 
+6 1 -3 
+11 1 -2 
+43 1 -2 
+203 1 162 
+268 1 162 
+81 1 -3 
+242 1 155 
+179 1 162 
+211 1 155 
+21 1 -3 
+53 1 -2 
+184 1 155 
+250 1 162 
+219 1 162 
+31 1 -3 
+Functions: 10
+97 9 -2 244 69 262 186 155 12 44 300 
+130 3 162 85 117 
+244 2 244 143 
+229 1 186 
+134 12 -2 162 244 69 117 134 262 186 155 12 44 300 
+39 4 -3 85 22 7 
+300 2 300 143 
+61 9 -2 244 69 262 186 155 44 12 300 
+221 1 181 
+350 11 273 162 244 181 262 186 155 300 252 318 143 
+Constructors: 0
+
+Summary: 8
+-3 -1 0 247 7 304 1 22 

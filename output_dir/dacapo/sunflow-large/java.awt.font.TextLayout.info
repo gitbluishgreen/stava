@@ -1,0 +1,2108 @@
+77
+java/awt/font/TextLayout.getPixelBounds(Ljava/awt/font/FontRenderContext;FF)Ljava/awt/Rectangle;
+PTG:
+Vars:
+5
+$r3 1 7 
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+_ret 1 7 
+Fields: 1
+-1 textLine 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/awt/font/TextLayout.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 0
+
+java/awt/font/TextLayout.getCaretShape(Ljava/awt/font/TextHitInfo;)Ljava/awt/Shape;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r2 1 3 
+$r3 1 6 
+_ret 1 6 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 3 
+2 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 -2 3 
+java/awt/font/TextLayout.getDescent()F
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 lineMetrics 5
+Accesses: 2
+4 1 -1 
+5 1 5 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.ensureCache()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+8 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.getCaretPath(ILjava/awt/geom/Rectangle2D;Z)[D
+PTG:
+Vars:
+5
+r2 1 7 
+r1 1 -3 
+$r3 2 441 477 
+_ret 2 441 477 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+66 1 -1 
+Functions: 5
+0 2 -1 -3 
+48 1 -3 
+33 1 -3 
+56 1 -3 
+41 1 -3 
+Constructors: 0
+
+Summary: 4
+-3 -1 7 1 
+java/awt/font/TextLayout.caretIsValid(I)Z
+PTG:
+Vars:
+6
+$r5 1 15 
+$r2 1 15 
+$r3 1 15 
+r0 1 -1 
+$r1 1 15 
+$r4 1 15 
+Fields: 1
+-1 textLine 15
+Accesses: 6
+1 1 -1 
+34 1 -1 
+23 1 -1 
+58 1 -1 
+45 1 -1 
+14 1 -1 
+Functions: 5
+35 1 15 
+24 1 15 
+59 1 15 
+46 1 15 
+15 1 15 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.handleJustify(F)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.caretToPointDistance([FFF)F
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+14 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/awt/font/TextLayout.singleFont([CIILjava/util/Map;)Ljava/awt/Font;
+PTG:
+Vars:
+13
+$r9 1 -1 
+$r2 1 4 
+$r1 1 1 
+r8 1 84 
+r10 3 57 112 21 
+_ret 3 57 112 21 
+r12 1 76 
+$r4 1 21 
+$r6 1 42 
+r0 1 -5 
+r5 1 -2 
+$r7 1 45 
+$r3 1 18 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 2 1 -5 
+80 1 -2 
+17 2 18 -5 
+53 1 -5 
+86 2 84 76 
+118 4 112 -2 21 57 
+104 2 -5 76 
+41 2 -5 42 
+73 0 
+59 4 112 -2 21 57 
+95 1 84 
+Constructors: 0
+
+Summary: 8
+84 4 -2 45 76 0 -5 3 
+java/awt/font/TextLayout.paragraphInit(BLsun/font/CoreMetrics;Ljava/util/Map;[C)V
+PTG:
+Vars:
+7
+$r2 1 7 
+r0 1 -1 
+r6 1 -5 
+$r3 1 14 
+r1 1 -3 
+r5 1 32 
+r4 1 -4 
+Fields: 1
+-3 baselineOffsets 7
+Accesses: 5
+17 1 -1 
+2 1 -1 
+6 1 -3 
+25 1 -1 
+10 1 -1 
+Functions: 4
+21 1 -4 
+11 1 7 
+28 1 -4 
+47 2 32 -5 
+Constructors: 0
+
+Summary: 9
+-4 -3 -5 2 -1 7 32 3 1 
+java/awt/font/TextLayout.<init>(Ljava/awt/font/TextLine;B[FF)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -4 
+Fields: 0
+Accesses: 11
+16 1 -1 
+49 1 -1 
+21 1 -1 
+6 1 -1 
+54 1 -1 
+39 1 -1 
+26 1 -1 
+11 1 -1 
+44 1 -1 
+60 1 -1 
+31 1 -1 
+Functions: 2
+1 1 -1 
+35 1 -2 
+Constructors: 1
+1 -1
+
+Summary: 3
+0 2 -1 
+java/awt/font/TextLayout.getNextRightHit(ILjava/awt/font/TextLayout$CaretPolicy;)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+6
+r1 1 -1 
+r6 1 59 
+r3 1 40 
+$r5 1 53 
+r2 1 -3 
+r4 1 45 
+Fields: 0
+Accesses: 1
+5 1 -1 
+Functions: 8
+32 0 
+48 4 -1 -3 40 45 
+18 0 
+66 2 -1 59 
+36 0 
+41 1 40 
+74 3 -1 -3 59 
+47 2 -1 53 
+Constructors: 0
+
+Summary: 7
+45 -3 59 72 -1 40 53 
+java/awt/font/TextLayout.getAdvance()F
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 lineMetrics 5
+Accesses: 2
+4 1 -1 
+5 1 5 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.hitTestChar(FF)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+4
+$r2 1 7 
+$r1 1 4 
+r0 1 -1 
+_ret 1 7 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 4 
+3 1 -1 
+Constructors: 0
+
+Summary: 2
+4 -1 
+java/awt/font/TextLayout.clone()Ljava/lang/Object;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 -1 
+r0 1 -1 
+$r4 1 6 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 2 -1 6 
+Constructors: 1
+11 6
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.getNextRightHit(Ljava/awt/font/TextHitInfo;)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 38 
+r0 1 -1 
+_ret 1 38 
+Fields: 0
+Accesses: 1
+16 1 -1 
+Functions: 5
+1 1 -1 
+36 1 -1 
+6 2 -1 -2 
+9 2 -1 -2 
+28 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/awt/font/TextLayout.getVisualHighlightShape(Ljava/awt/font/TextHitInfo;Ljava/awt/font/TextHitInfo;)Ljava/awt/Shape;
+PTG:
+Vars:
+6
+r1 1 -2 
+r2 1 -3 
+$r3 1 4 
+$r4 1 7 
+_ret 1 7 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 4 -1 -2 -3 4 
+3 1 -1 
+Constructors: 0
+
+Summary: 4
+-3 4 -1 -2 
+java/awt/font/TextLayout.getVisualOtherHit(Ljava/awt/font/TextHitInfo;)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+14
+$r10 1 126 
+$r3 1 28 
+_ret 2 255 262 
+r1 1 -2 
+$r6 1 28 
+$r5 1 28 
+$r4 1 28 
+$r8 1 126 
+$r7 1 126 
+r0 1 -1 
+$r2 1 28 
+$r9 1 126 
+$r12 2 255 262 
+$r11 1 126 
+Fields: 2
+-1 textLine 28
+-1 textLine 126
+Accesses: 15
+192 1 -1 
+225 1 -1 
+71 1 -1 
+135 1 -1 
+104 1 -1 
+235 1 -1 
+173 1 -1 
+20 1 -1 
+180 1 -1 
+53 1 -1 
+215 1 -1 
+27 1 -1 
+91 1 -1 
+61 1 -1 
+125 1 -1 
+Functions: 16
+1 3 -1 28 126 
+193 1 126 
+261 0 
+6 4 -1 -2 28 126 
+72 1 28 
+136 1 126 
+9 1 -2 
+105 1 28 
+143 1 -2 
+181 1 126 
+216 1 126 
+28 1 28 
+92 1 28 
+62 1 28 
+126 1 126 
+254 0 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/awt/font/TextLayout.getNaturalBounds()Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+6
+$r2 1 5 
+$r3 1 13 
+r0 1 -1 
+_ret 1 5 
+$r1 1 5 
+$r4 1 16 
+Fields: 2
+-1 naturalBounds 5
+-1 textLine 13
+Accesses: 4
+19 1 -1 
+4 1 -1 
+22 1 -1 
+12 1 -1 
+Functions: 2
+1 3 -1 5 13 
+13 1 13 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.<init>(Ljava/lang/String;Ljava/awt/Font;Ljava/awt/font/FontRenderContext;)V
+PTG:
+Vars:
+9
+$r6 1 170 
+r7 1 -4 
+r3 1 99 
+$r12 2 135 146 
+r1 1 -3 
+r0 1 -1 
+r11 1 93 
+$r5 1 160 
+r2 1 -2 
+Fields: 0
+Accesses: 6
+16 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 15
+1 1 -1 
+164 4 160 146 -3 135 
+168 2 146 135 
+75 0 
+107 2 -3 99 
+44 0 
+140 3 -2 146 135 
+176 4 -1 99 -4 170 
+82 1 -3 
+89 1 -3 
+153 4 -2 146 135 93 
+58 0 
+124 5 -1 -3 99 -4 93 
+62 1 -2 
+95 1 -2 
+Constructors: 1
+1 -1
+
+Summary: 12
+99 170 -4 135 146 -2 93 1 -3 0 2 -1 
+java/awt/font/TextLayout.getVisibleAdvance()F
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.hitToPoint(Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Point2D;)V
+PTG:
+Vars:
+11
+$r16 1 80 
+r7 1 -1 
+$r9 1 119 
+r0 1 -2 
+$r8 1 80 
+$r15 1 80 
+$r14 1 80 
+r6 1 -3 
+$r17 1 80 
+$r10 1 80 
+r11 1 179 
+Fields: 2
+-1 lineMetrics 119
+-1 textLine 80
+Accesses: 8
+129 1 -1 
+118 1 -1 
+119 1 119 
+152 1 -1 
+89 1 -1 
+140 1 -1 
+172 1 -1 
+79 1 -1 
+Functions: 17
+65 1 -2 
+130 1 80 
+35 0 
+41 0 
+169 1 -3 
+202 2 -3 179 
+12 0 
+141 1 80 
+173 1 80 
+46 3 -1 80 119 
+16 0 
+80 1 80 
+51 4 -1 80 -2 119 
+153 1 80 
+90 1 80 
+59 1 -2 
+30 0 
+Constructors: 0
+
+Summary: 8
+12 179 -2 30 -3 35 38 -1 
+java/awt/font/TextLayout.getBaseline()B
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.getVisualHighlightShape(Ljava/awt/font/TextHitInfo;Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Rectangle2D;)Ljava/awt/Shape;
+PTG:
+Vars:
+15
+r2 1 -3 
+$r6 1 86 
+$r5 1 60 
+r3 1 -4 
+$r8 1 165 
+_ret 2 165 28 
+r0 1 -1 
+$r4 1 28 
+r10 2 165 28 
+r14 1 154 
+r12 1 126 
+$r7 1 130 
+r11 1 82 
+r1 1 -2 
+$r13 1 148 
+Fields: 1
+-1 textLine 148
+Accesses: 3
+114 1 -1 
+147 1 -1 
+105 1 -1 
+Functions: 19
+64 2 28 60 
+128 1 126 
+1 2 -1 148 
+33 1 28 
+161 2 154 28 
+130 1 130 
+100 2 82 28 
+6 3 -1 -2 148 
+38 3 -1 -2 148 
+11 3 -1 -3 148 
+45 3 -1 -3 148 
+77 3 -1 -4 148 
+144 2 28 126 
+84 1 82 
+148 1 148 
+54 3 -1 -4 148 
+86 1 86 
+24 0 
+121 3 -1 -4 148 
+Constructors: 1
+33 28
+
+Summary: 10
+-4 130 126 -2 86 60 82 -3 -1 154 
+java/awt/font/TextLayout.caretBoundingShape(IILjava/awt/geom/Rectangle2D;)Ljava/awt/geom/GeneralPath;
+PTG:
+Vars:
+6
+$r3 1 25 
+r1 1 -4 
+$r2 1 18 
+r0 1 -1 
+$r4 1 28 
+_ret 1 28 
+Fields: 0
+Accesses: 0
+Functions: 3
+21 2 -1 -4 
+13 3 -1 18 25 
+14 2 -1 -4 
+Constructors: 0
+
+Summary: 5
+25 -4 2 18 -1 
+java/awt/font/TextLayout.isVertical()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.draw(Ljava/awt/Graphics2D;FF)V
+PTG:
+Vars:
+3
+r0 1 -2 
+$r2 1 15 
+r1 1 -1 
+Fields: 1
+-1 textLine 15
+Accesses: 1
+14 1 -1 
+Functions: 2
+10 0 
+29 2 -2 15 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+java/awt/font/TextLayout.getTextLineForTesting()Ljava/awt/font/TextLine;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 textLine 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.getCaretShapes(ILjava/awt/geom/Rectangle2D;Ljava/awt/font/TextLayout$CaretPolicy;)[Ljava/awt/Shape;
+PTG:
+Vars:
+14
+r7 1 81 
+r2 1 -3 
+r10 1 103 
+$r6 1 75 
+r4 1 55 
+_ret 1 55 
+r5 1 64 
+r3 1 -4 
+$r8 1 87 
+r13 1 153 
+$r11 1 133 
+r12 1 142 
+r9 1 96 
+r0 1 -1 
+Fields: 1
+-1 textLine 75
+Accesses: 2
+9 1 -1 
+74 1 -1 
+Functions: 15
+1 2 -1 75 
+129 4 -1 -3 103 75 
+66 3 -1 64 75 
+98 1 64 
+36 0 
+105 3 -1 103 75 
+137 2 81 133 
+75 1 75 
+144 5 64 -1 -4 103 75 
+50 0 
+83 4 -1 64 -3 75 
+22 0 
+91 2 81 87 
+155 2 64 153 
+60 0 
+Constructors: 0
+
+Summary: 9
+133 -4 87 103 153 -3 64 -1 81 
+java/awt/font/TextLayout.sameBaselineUpTo(Ljava/awt/Font;[CII)I
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-3 0 -2 1 
+java/awt/font/TextLayout.getCaretPath(Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Rectangle2D;)[D
+PTG:
+Vars:
+6
+$r4 1 8 
+_ret 1 8 
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+r3 1 6 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 6
+-3 0 6 -1 -2 1 
+java/awt/font/TextLayout.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -1 
+$r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+java/awt/font/TextLayout.getLogicalHighlightShape(II)Ljava/awt/Shape;
+PTG:
+Vars:
+4
+$r2 1 7 
+_ret 1 7 
+r0 1 -1 
+$r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 4 
+3 1 -1 
+Constructors: 0
+
+Summary: 2
+4 -1 
+java/awt/font/TextLayout.getAscent()F
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 lineMetrics 5
+Accesses: 2
+4 1 -1 
+5 1 5 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.hitTestChar(FFLjava/awt/geom/Rectangle2D;)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+19
+r19 1 239 
+$r5 1 1 
+r2 1 7 
+$r8 1 1 
+r18 1 239 
+$r20 1 1 
+$r22 2 550 560 
+$r9 1 303 
+$r1 1 1 
+_ret 2 550 560 
+$r7 1 329 
+$r10 1 1 
+$r21 1 1 
+r3 1 -4 
+$r11 1 265 
+$r14 1 17 
+$r4 1 1 
+$r6 1 1 
+r0 1 -1 
+Fields: 2
+-1 textLine 1
+-1 baselineOffsets 329
+Accesses: 29
+0 1 -1 
+261 1 -1 
+389 1 -1 
+198 1 -1 
+328 1 -1 
+265 1 265 
+205 1 -1 
+271 1 239 
+335 1 239 
+144 1 -1 
+400 1 -1 
+83 1 -1 
+278 1 239 
+343 1 239 
+537 1 -1 
+475 1 239 
+348 1 239 
+289 1 239 
+230 1 -1 
+39 1 17 
+299 1 -1 
+363 1 239 
+45 1 17 
+303 1 303 
+117 1 -1 
+309 1 239 
+315 1 239 
+252 1 239 
+510 1 -1 
+Functions: 27
+1 1 1 
+129 1 -4 
+68 0 
+262 1 1 
+326 2 329 239 
+390 1 1 
+137 3 -1 1 329 
+75 1 -4 
+206 1 1 
+401 1 1 
+149 0 
+23 1 17 
+88 0 
+156 0 
+95 1 -4 
+548 0 
+37 2 17 7 
+103 3 -1 1 329 
+231 1 1 
+300 1 1 
+110 0 
+559 0 
+51 3 -1 1 329 
+122 0 
+442 0 
+60 1 -4 
+511 1 1 
+Constructors: 1
+23 17
+
+Summary: 7
+-4 303 265 17 7 239 -1 
+java/awt/font/TextLayout.getJustifiedLayout(F)Ljava/awt/font/TextLayout;
+PTG:
+Vars:
+5
+r2 1 82 
+$r1 1 50 
+_ret 1 -1 
+$r5 1 50 
+r0 1 -1 
+Fields: 1
+-1 textLine 50
+Accesses: 7
+16 1 -1 
+96 1 -1 
+49 1 -1 
+68 1 -1 
+40 1 -1 
+73 1 -1 
+92 1 -1 
+Functions: 6
+32 0 
+50 1 50 
+37 2 -1 50 
+69 1 50 
+102 1 82 
+12 0 
+Constructors: 0
+
+Summary: 1
+82 
+java/awt/font/TextLayout.caretToHit(I)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 49 
+$r5 1 49 
+_ret 2 71 78 
+$r6 2 71 78 
+Fields: 1
+-1 textLine 49
+Accesses: 6
+48 1 -1 
+35 1 -1 
+5 1 -1 
+25 1 -1 
+57 1 -1 
+13 1 -1 
+Functions: 7
+49 1 49 
+36 0 
+70 0 
+26 0 
+58 1 49 
+43 0 
+77 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.buildCache()V
+PTG:
+Vars:
+16
+$r11 1 2 
+$r8 1 2 
+$r6 1 225 
+$r13 1 74 
+$r4 1 2 
+r0 1 -1 
+$r15 1 2 
+$r9 1 2 
+$r7 1 193 
+$r12 1 2 
+$r14 1 2 
+$r5 1 2 
+$r3 1 2 
+$r1 1 2 
+$r2 1 5 
+$r10 1 2 
+Fields: 4
+-1 lineMetrics 193
+-1 lineMetrics 74
+-1 lineMetrics 225
+-1 textLine 2
+Accesses: 32
+192 1 -1 
+1 1 -1 
+193 1 193 
+135 1 -1 
+199 1 -1 
+8 1 -1 
+73 1 -1 
+74 1 74 
+11 1 -1 
+205 1 -1 
+142 1 -1 
+80 1 -1 
+21 1 -1 
+214 1 -1 
+151 1 -1 
+93 1 -1 
+224 1 -1 
+33 1 -1 
+225 1 225 
+99 1 -1 
+233 1 -1 
+42 1 -1 
+172 1 -1 
+109 1 -1 
+238 1 -1 
+243 1 -1 
+117 1 -1 
+181 1 -1 
+248 1 -1 
+253 1 -1 
+126 1 -1 
+63 1 -1 
+Functions: 11
+2 1 2 
+34 1 2 
+100 1 2 
+118 1 2 
+215 1 2 
+152 1 2 
+43 1 2 
+12 1 2 
+110 1 2 
+206 1 2 
+143 1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.fastInit([CLjava/awt/Font;Ljava/util/Map;Ljava/awt/font/FontRenderContext;)V
+PTG:
+Vars:
+9
+r0 1 -1 
+r1 1 -3 
+$r8 1 45 
+r5 1 22 
+r4 1 15 
+$r7 1 83 
+r2 1 -2 
+r3 1 -5 
+r6 1 -4 
+Fields: 1
+22 baselineOffsets 45
+Accesses: 8
+48 1 -1 
+2 1 -1 
+53 1 -1 
+86 1 -1 
+39 1 -1 
+24 1 22 
+72 1 -1 
+43 1 22 
+Functions: 4
+17 1 15 
+66 5 -1 -2 -4 22 45 
+82 6 -2 -3 -4 -5 22 45 
+5 3 -2 -3 -5 
+Constructors: 0
+
+Summary: 11
+-4 22 -2 1 -3 0 -5 2 -1 3 15 
+java/awt/font/TextLayout.toString()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 5 
+$r2 1 8 
+r0 1 -1 
+_ret 1 8 
+Fields: 1
+-1 textLine 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.getLeading()F
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 lineMetrics 5
+Accesses: 2
+4 1 -1 
+5 1 5 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.getLayoutPath()Ljava/awt/font/LayoutPath;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+_ret 1 4 
+$r2 1 4 
+Fields: 1
+-1 textLine 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.getBaselineOffsets()[F
+PTG:
+Vars:
+5
+$r3 1 1 
+$r1 1 1 
+r0 1 -1 
+_ret 1 5 
+r2 1 5 
+Fields: 1
+-1 baselineOffsets 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 1
+17 2 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.getCaretInfoTestInternal(Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Rectangle2D;)[F
+PTG:
+Vars:
+14
+r2 1 11 
+r12 1 204 
+$r8 1 39 
+_ret 1 11 
+$r5 1 39 
+$r9 1 338 
+r3 1 -3 
+$r10 1 39 
+$r7 1 39 
+r1 1 -2 
+r0 1 -1 
+$r6 1 39 
+r11 1 83 
+r13 1 243 
+Fields: 2
+-1 textLine 39
+-1 baselineOffsets 338
+Accesses: 33
+257 1 204 
+386 1 204 
+195 1 -1 
+69 1 -1 
+453 1 204 
+326 1 243 
+136 1 83 
+266 1 243 
+76 1 -1 
+206 1 204 
+398 1 204 
+145 1 83 
+337 1 -1 
+465 1 204 
+277 1 204 
+341 1 204 
+214 1 -1 
+409 1 204 
+476 1 204 
+289 1 243 
+228 1 204 
+165 1 83 
+38 1 -1 
+358 1 204 
+425 1 204 
+299 1 204 
+236 1 -1 
+176 1 83 
+372 1 204 
+439 1 204 
+184 1 83 
+125 1 83 
+318 1 243 
+Functions: 12
+32 1 -2 
+1 3 -1 338 39 
+196 1 39 
+6 4 -1 -2 338 39 
+22 5 -1 338 -3 39 11 
+39 1 39 
+215 1 39 
+26 1 -2 
+77 1 39 
+237 1 39 
+15 4 -1 -2 338 39 
+47 3 -1 338 39 
+Constructors: 0
+
+Summary: 8
+204 -3 0 -1 -2 243 83 1 
+java/awt/font/TextLayout.rightShape(Ljava/awt/geom/Rectangle2D;)Ljava/awt/geom/GeneralPath;
+PTG:
+Vars:
+8
+r3 1 114 
+$r5 1 8 
+$r1 1 58 
+_ret 1 118 
+r2 1 -2 
+r0 1 -1 
+r6 2 8 58 
+$r4 1 118 
+Fields: 0
+Accesses: 2
+0 1 -1 
+105 1 -1 
+Functions: 16
+66 1 -2 
+98 1 -2 
+35 1 -2 
+104 2 -1 -2 
+74 1 -2 
+43 1 -2 
+12 1 -2 
+78 1 -2 
+47 1 -2 
+19 1 -2 
+115 4 -1 114 8 58 
+86 1 -2 
+23 1 -2 
+90 1 -2 
+62 1 -2 
+31 1 -2 
+Constructors: 0
+
+Summary: 6
+8 58 0 114 -1 -2 
+java/awt/font/TextLayout.standardInit(Ljava/text/AttributedCharacterIterator;[CLjava/awt/font/FontRenderContext;)V
+PTG:
+Vars:
+14
+r3 1 12 
+r11 1 59 
+$r8 1 134 
+r12 1 91 
+r2 1 -2 
+$r4 1 88 
+$r7 1 131 
+r0 1 -1 
+r13 1 113 
+$r5 1 91 
+r6 1 -4 
+r9 1 66 
+r1 1 -3 
+r10 1 29 
+Fields: 1
+-1 baselineOffsets 131
+Accesses: 4
+130 1 -1 
+3 1 -1 
+69 1 66 
+137 1 -1 
+Functions: 13
+131 4 -2 -3 -4 131 
+37 1 -2 
+101 1 91 
+6 1 -2 
+108 1 91 
+14 1 -2 
+46 3 -3 -4 29 
+80 5 -1 66 -3 131 12 
+86 2 88 12 
+25 1 -2 
+123 5 -1 113 -3 131 12 
+61 1 59 
+31 1 -2 
+Constructors: 0
+
+Summary: 13
+-4 59 66 -2 113 1 91 -3 0 29 2 -1 12 
+java/awt/font/TextLayout.isLeftToRight()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 textLine 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.<init>(Ljava/lang/String;Ljava/util/Map;Ljava/awt/font/FontRenderContext;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+r2 1 -3 
+$r5 1 115 
+r8 1 -4 
+r4 1 95 
+$r7 1 129 
+r3 1 83 
+r1 1 -2 
+Fields: 0
+Accesses: 6
+16 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 11
+1 1 -1 
+135 4 -1 129 83 -4 
+121 3 -2 -3 115 
+58 0 
+75 0 
+91 2 -3 83 
+44 0 
+109 5 -1 -3 83 -4 95 
+62 1 -2 
+79 1 -2 
+127 1 115 
+Constructors: 2
+1 -1
+121 115
+
+Summary: 8
+-4 -3 129 -1 95 -2 83 115 
+java/awt/font/TextLayout.getCaretInfo(ILjava/awt/geom/Rectangle2D;[F)[F
+PTG:
+Vars:
+26
+$r16 1 156 
+$r15 1 156 
+$r20 1 156 
+_ret 2 -4 390 
+$r5 2 21 60 
+r0 1 -1 
+$r6 2 21 60 
+$r21 1 156 
+r24 2 -4 390 
+$r10 1 21 
+$r13 1 156 
+$r3 2 21 60 
+$r19 1 156 
+$r23 1 156 
+$r17 1 156 
+r7 1 -3 
+$r1 1 60 
+$r18 1 156 
+$r22 1 156 
+$r4 2 21 60 
+$r8 1 21 
+$r11 1 156 
+$r14 1 156 
+$r12 1 156 
+$r9 1 21 
+$r2 1 60 
+Fields: 3
+-1 textLine 21
+-1 textLine 156
+-1 textLine 60
+Accesses: 26
+5 1 -1 
+69 1 -1 
+327 1 -1 
+136 1 -1 
+393 1 -1 
+267 1 -1 
+13 1 -1 
+80 1 -1 
+210 1 -1 
+20 1 -1 
+277 1 -1 
+24 1 -1 
+344 1 -1 
+91 1 -1 
+155 1 -1 
+288 1 -1 
+35 1 -1 
+227 1 -1 
+167 1 -1 
+44 1 -1 
+178 1 -1 
+116 1 -1 
+244 1 -1 
+310 1 -1 
+59 1 -1 
+187 1 -1 
+Functions: 26
+70 1 60 
+328 1 156 
+137 2 21 60 
+459 1 -3 
+268 1 156 
+81 2 21 60 
+211 1 156 
+21 1 21 
+278 1 156 
+408 1 -3 
+345 1 156 
+92 2 21 60 
+156 1 156 
+289 1 156 
+36 1 21 
+228 1 156 
+168 1 156 
+424 1 -3 
+45 1 21 
+179 1 156 
+117 2 21 60 
+245 1 156 
+311 1 156 
+443 1 -3 
+60 1 60 
+188 1 156 
+Constructors: 0
+
+Summary: 4
+-3 2 -1 1 
+java/awt/font/TextLayout.hitToCaret(Ljava/awt/font/TextHitInfo;)I
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -1 
+$r3 1 56 
+$r2 1 56 
+Fields: 1
+-1 textLine 56
+Accesses: 7
+36 1 -1 
+68 1 -1 
+23 1 -1 
+55 1 -1 
+9 1 -1 
+29 1 -1 
+46 1 -1 
+Functions: 6
+0 1 -2 
+64 1 -2 
+37 0 
+69 1 56 
+56 1 56 
+10 0 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+java/awt/font/TextLayout.access$000(Ljava/awt/font/TextLayout;Ljava/awt/font/TextHitInfo;Ljava/awt/font/TextHitInfo;)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+5
+r2 1 -4 
+$r3 1 3 
+r0 1 -2 
+r1 1 -3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -2 -3 -4 
+Constructors: 0
+
+Summary: 3
+-4 -3 -2 
+java/awt/font/TextLayout.getBlackBoxBounds(II)Ljava/awt/Shape;
+PTG:
+Vars:
+11
+r10 1 141 
+r0 1 -1 
+r7 3 37 127 151 
+r8 1 122 
+$r4 1 151 
+$r9 2 64 135 
+$r3 1 127 
+_ret 3 37 127 151 
+r6 1 72 
+$r5 1 64 
+$r2 1 37 
+Fields: 2
+-1 textLine 135
+-1 textLine 64
+Accesses: 4
+20 1 -1 
+134 1 -1 
+47 1 -1 
+63 1 -1 
+Functions: 10
+64 1 64 
+1 3 -1 64 135 
+33 0 
+148 4 37 151 141 127 
+86 2 37 72 
+118 0 
+135 2 64 135 
+42 1 37 
+74 1 72 
+124 2 37 122 
+Constructors: 1
+42 37
+
+Summary: 4
+122 72 -1 141 
+java/awt/font/TextLayout.pathToShape([DZLsun/font/LayoutPathImpl;)Ljava/awt/geom/GeneralPath;
+PTG:
+Vars:
+6
+$r0 1 0 
+r4 2 0 69 
+$r3 1 69 
+r2 1 -4 
+r1 1 -2 
+_ret 2 0 69 
+Fields: 0
+Accesses: 0
+Functions: 5
+67 2 0 -4 
+20 1 0 
+7 1 0 
+60 1 0 
+46 1 0 
+Constructors: 1
+7 0
+
+Summary: 2
+-4 -2 
+java/awt/font/TextLayout.getNextLeftHit(I)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+4
+$r1 1 2 
+r0 1 -1 
+_ret 1 5 
+$r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.hashCode()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 13 
+Fields: 1
+-1 textLine 13
+Accesses: 4
+0 1 -1 
+19 1 -1 
+22 1 -1 
+12 1 -1 
+Functions: 2
+8 2 -1 13 
+13 1 13 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.equals(Ljava/awt/font/TextLayout;)Z
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 22 
+r1 1 -1 
+$r3 1 18 
+Fields: 2
+-1 textLine 18
+-2 textLine 22
+Accesses: 2
+17 1 -1 
+21 1 -2 
+Functions: 2
+18 2 18 22 
+14 2 -1 18 
+Constructors: 0
+
+Summary: 4
+22 0 -1 -2 
+java/awt/font/TextLayout.getCaretInfo(Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Rectangle2D;)[F
+PTG:
+Vars:
+5
+$r3 1 12 
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+_ret 1 12 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -1 
+6 2 -1 -2 
+9 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 0 -1 -2 1 
+java/awt/font/TextLayout.getCaretInfo(Ljava/awt/font/TextHitInfo;)[F
+PTG:
+Vars:
+5
+$r3 1 6 
+r0 1 -1 
+r1 1 -2 
+$r2 1 3 
+_ret 1 6 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 3 
+2 1 -1 
+Constructors: 0
+
+Summary: 4
+0 -1 -2 3 
+java/awt/font/TextLayout.getCharacterCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.getCaretShape(Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Rectangle2D;)Ljava/awt/Shape;
+PTG:
+Vars:
+8
+$r3 1 26 
+r1 1 -2 
+$r6 1 37 
+_ret 1 37 
+r0 1 -1 
+$r4 1 31 
+$r5 1 34 
+r2 1 -3 
+Fields: 1
+-1 textLine 31
+Accesses: 1
+30 1 -1 
+Functions: 6
+1 2 -1 31 
+34 2 34 26 
+19 0 
+6 3 -1 -2 31 
+23 4 -1 -2 -3 31 
+31 1 31 
+Constructors: 0
+
+Summary: 5
+-3 26 34 -1 -2 
+java/awt/font/TextLayout.checkTextHit(Ljava/awt/font/TextHitInfo;)V
+PTG:
+Vars:
+2
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+25 1 -1 
+Functions: 4
+21 1 -2 
+38 0 
+10 0 
+14 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+java/awt/font/TextLayout.getBounds()Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+7
+$r2 1 12 
+r0 1 -1 
+$r6 1 5 
+$r4 1 70 
+$r1 1 5 
+_ret 1 70 
+r3 1 18 
+Fields: 2
+-1 boundsRect 5
+-1 textLine 12
+Accesses: 4
+67 1 -1 
+4 1 -1 
+11 1 -1 
+79 1 -1 
+Functions: 9
+1 3 -1 5 12 
+83 2 5 70 
+36 1 18 
+54 1 18 
+58 1 18 
+74 1 70 
+12 1 12 
+45 1 18 
+62 1 18 
+Constructors: 1
+74 70
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.getOutline(Ljava/awt/geom/AffineTransform;)Ljava/awt/Shape;
+PTG:
+Vars:
+7
+$r2 1 5 
+r4 1 20 
+r0 1 -1 
+r1 1 -2 
+r5 2 12 30 
+_ret 2 12 30 
+$r3 1 5 
+Fields: 1
+-1 textLine 5
+Accesses: 2
+4 1 -1 
+13 1 -1 
+Functions: 4
+1 2 -1 5 
+5 2 -2 5 
+25 3 20 12 30 
+14 1 5 
+Constructors: 0
+
+Summary: 3
+-1 -2 20 
+java/awt/font/TextLayout.getNextLeftHit(Ljava/awt/font/TextHitInfo;)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 34 
+_ret 1 34 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+32 1 -1 
+1 1 -1 
+6 2 -1 -2 
+24 1 -1 
+9 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/awt/font/TextLayout.getCharacterLevel(I)B
+PTG:
+Vars:
+2
+r1 1 -1 
+$r3 1 58 
+Fields: 1
+-1 textLine 58
+Accesses: 4
+33 1 -1 
+6 1 -1 
+40 1 -1 
+57 1 -1 
+Functions: 4
+19 0 
+24 2 -1 58 
+41 0 
+58 1 58 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.<init>(Ljava/text/AttributedCharacterIterator;Ljava/awt/font/FontRenderContext;)V
+PTG:
+Vars:
+6
+r7 1 161 
+r4 1 173 
+r3 1 -3 
+r2 1 94 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 6
+16 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 14
+1 1 -1 
+101 1 -2 
+197 4 -1 -2 -3 94 
+168 2 161 94 
+138 1 -2 
+75 0 
+44 0 
+48 1 -2 
+144 1 -2 
+86 1 -2 
+55 1 -2 
+155 1 -2 
+188 5 -1 161 -3 173 94 
+126 1 -2 
+Constructors: 1
+1 -1
+
+Summary: 8
+94 173 -3 0 -1 -2 161 1 
+java/awt/font/TextLayout.getCaretShapes(I)[Ljava/awt/Shape;
+PTG:
+Vars:
+5
+$r2 1 6 
+$r3 1 9 
+$r1 1 3 
+_ret 1 9 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 3 6 
+2 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 3 
+java/awt/font/TextLayout.getBaselineFromGraphic(Ljava/awt/font/GraphicAttribute;)B
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+java/awt/font/TextLayout.getLogicalHighlightShape(IILjava/awt/geom/Rectangle2D;)Ljava/awt/Shape;
+PTG:
+Vars:
+24
+$r4 1 207 
+$r10 1 301 
+$r21 1 98 
+r20 1 297 
+r19 2 168 65 
+$r14 1 147 
+$r6 1 98 
+r22 1 355 
+r18 2 394 53 
+r15 1 168 
+$r12 1 90 
+_ret 2 394 53 
+r1 1 -1 
+r24 1 383 
+$r11 1 242 
+r0 1 -4 
+$r8 1 98 
+$r16 1 98 
+$r13 1 98 
+$r9 1 359 
+$r5 1 394 
+$r3 1 53 
+$r23 1 98 
+$r7 1 98 
+Fields: 1
+-1 textLine 98
+Accesses: 10
+336 1 -1 
+97 1 -1 
+274 1 -1 
+36 1 -1 
+260 1 -1 
+117 1 -1 
+376 1 -1 
+329 1 -1 
+285 1 -1 
+318 1 -1 
+Functions: 29
+261 1 98 
+390 2 53 383 
+10 0 
+205 3 -1 98 207 
+142 3 -1 98 147 
+206 0 
+15 2 -1 98 
+337 1 98 
+146 0 
+275 1 98 
+87 3 -1 98 90 
+88 0 
+350 3 -1 98 -4 
+98 1 98 
+228 3 -1 98 -4 
+292 3 -1 98 -4 
+357 1 355 
+359 1 359 
+299 1 297 
+301 1 301 
+49 0 
+180 2 65 168 
+373 2 355 53 
+118 1 98 
+246 2 242 53 
+377 1 98 
+58 1 53 
+315 2 53 297 
+319 1 98 
+Constructors: 1
+58 53
+
+Summary: 13
+383 -4 207 90 355 168 65 359 242 301 147 -1 297 
+java/awt/font/TextLayout.boundingShape([D[D)Ljava/awt/geom/GeneralPath;
+PTG:
+Vars:
+5
+r3 1 -3 
+r1 1 6 
+r2 1 -1 
+_ret 1 6 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 3
+2 1 -2 
+179 1 6 
+165 1 6 
+Constructors: 0
+
+Summary: 5
+-3 0 -1 -2 1 
+java/awt/font/TextLayout.getNextLeftHit(ILjava/awt/font/TextLayout$CaretPolicy;)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+6
+r6 1 59 
+$r5 1 53 
+r2 1 -1 
+r4 1 45 
+r0 1 -3 
+r3 1 40 
+Fields: 0
+Accesses: 1
+19 1 -1 
+Functions: 8
+32 0 
+48 4 -1 -3 40 45 
+66 2 -1 59 
+36 0 
+41 1 40 
+10 0 
+74 3 -1 -3 59 
+47 2 -1 53 
+Constructors: 0
+
+Summary: 7
+45 -3 59 72 -1 40 53 
+java/awt/font/TextLayout.getLogicalRangesForVisualSelection(Ljava/awt/font/TextHitInfo;Ljava/awt/font/TextHitInfo;)[I
+PTG:
+Vars:
+7
+r2 1 -3 
+$r4 1 74 
+r1 1 -2 
+r5 1 147 
+r3 1 18 
+_ret 1 147 
+r0 1 -1 
+Fields: 1
+-1 textLine 74
+Accesses: 5
+162 1 -1 
+101 1 -1 
+73 1 -1 
+218 1 -1 
+14 1 -1 
+Functions: 6
+1 2 -1 74 
+21 3 -1 -2 74 
+6 3 -1 -2 74 
+74 1 74 
+11 3 -1 -3 74 
+28 3 -1 -3 74 
+Constructors: 0
+
+Summary: 4
+-3 -1 -2 18 
+java/awt/font/TextLayout.getNextRightHit(I)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+4
+$r2 1 5 
+$r1 1 2 
+_ret 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextLayout.getCaretShapes(ILjava/awt/geom/Rectangle2D;)[Ljava/awt/Shape;
+PTG:
+Vars:
+5
+r1 1 -3 
+r0 1 -1 
+$r2 1 3 
+_ret 1 6 
+$r3 1 6 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -3 3 
+Constructors: 0
+
+Summary: 2
+-3 -1 
+java/awt/font/TextLayout.getStrongHit(Ljava/awt/font/TextHitInfo;Ljava/awt/font/TextHitInfo;)Ljava/awt/font/TextHitInfo;
+PTG:
+Vars:
+5
+r2 1 -3 
+r0 1 -1 
+$r3 2 -3 -2 
+_ret 2 -3 -2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+32 1 -2 
+1 1 -2 
+9 1 -1 
+25 1 -3 
+10 1 -3 
+Constructors: 0
+
+Summary: 3
+0 -1 1 
+java/awt/font/TextLayout.leftShape(Ljava/awt/geom/Rectangle2D;)Ljava/awt/geom/GeneralPath;
+PTG:
+Vars:
+8
+$r1 1 48 
+r0 1 -1 
+r3 1 91 
+r2 1 -2 
+$r5 1 8 
+_ret 1 95 
+r6 2 8 48 
+$r4 1 95 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 12
+19 1 -2 
+52 1 -2 
+84 2 -1 -2 
+38 1 -2 
+71 1 -2 
+26 1 -2 
+59 1 -2 
+12 1 -2 
+92 4 -1 48 8 91 
+30 1 -2 
+78 1 -2 
+63 1 -2 
+Constructors: 0
+
+Summary: 6
+8 91 0 -1 -2 48 

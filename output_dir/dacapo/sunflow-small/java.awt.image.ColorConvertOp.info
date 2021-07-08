@@ -1,0 +1,924 @@
+23
+java/awt/image/ColorConvertOp.getRenderingHints()Ljava/awt/RenderingHints;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 hints 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/image/ColorConvertOp.getMinMaxValsFromProfiles(Ljava/awt/color/ICC_Profile;Ljava/awt/color/ICC_Profile;)V
+PTG:
+Vars:
+11
+r6 1 -3 
+$r8 1 64 
+$r10 1 74 
+$r3 1 22 
+$r7 1 56 
+r0 1 -2 
+$r4 1 36 
+r1 1 -1 
+$r9 1 78 
+$r5 1 32 
+$r2 1 14 
+Fields: 4
+-1 srcMaxVals 36
+-1 dstMinVals 74
+-1 dstMaxVals 78
+-1 srcMinVals 32
+Accesses: 8
+16 1 -1 
+66 1 -1 
+35 1 -1 
+24 1 -1 
+73 1 -1 
+58 1 -1 
+77 1 -1 
+31 1 -1 
+Functions: 6
+0 1 -2 
+81 5 -1 32 36 74 78 
+5 1 -2 
+39 5 -1 32 36 74 78 
+42 1 -3 
+47 1 -3 
+Constructors: 0
+
+Summary: 5
+-3 0 -1 -2 1 
+java/awt/image/ColorConvertOp.createCompatibleDestImage(Ljava/awt/image/BufferedImage;Ljava/awt/image/ColorModel;)Ljava/awt/image/BufferedImage;
+PTG:
+Vars:
+13
+$r12 1 80 
+r2 1 -2 
+$r6 1 14 
+_ret 1 80 
+r1 1 -1 
+$r5 1 7 
+r8 1 44 
+$r3 1 7 
+$r7 1 14 
+r11 2 46 75 
+r0 1 -3 
+$r4 1 7 
+$r9 1 46 
+Fields: 4
+-1 profileList 14
+-1 CSList 7
+14 ArrayObject 44
+7 ArrayObject 75
+Accesses: 5
+66 1 -1 
+35 1 -1 
+6 1 -1 
+59 1 -1 
+13 1 -1 
+Functions: 3
+52 2 44 46 
+76 8 -1 -2 -3 7 75 44 14 46 
+31 0 
+Constructors: 1
+52 46
+
+Summary: 4
+-3 46 -1 -2 
+java/awt/image/ColorConvertOp.createCompatibleDestRaster(Ljava/awt/image/Raster;)Ljava/awt/image/WritableRaster;
+PTG:
+Vars:
+12
+$r4 1 67 
+$r6 1 82 
+r5 1 -2 
+r12 1 100 
+_ret 1 100 
+$r3 1 40 
+$r1 1 1 
+$r8 1 1 
+$r10 1 31 
+$r9 1 1 
+$r2 1 40 
+r0 1 -1 
+Fields: 4
+40 ArrayObject 67
+1 ArrayObject 31
+-1 profileList 40
+-1 CSList 1
+Accesses: 5
+0 1 -1 
+7 1 -1 
+39 1 -1 
+26 1 -1 
+60 1 -1 
+Functions: 10
+82 1 82 
+67 1 67 
+22 0 
+86 1 -2 
+56 0 
+73 1 -2 
+90 1 -2 
+77 1 -2 
+94 1 82 
+31 1 31 
+Constructors: 1
+94 82
+
+Summary: 3
+82 -1 -2 
+java/awt/image/ColorConvertOp.filter(Ljava/awt/image/Raster;Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+PTG:
+Vars:
+34
+r23 1 175 
+$r36 1 256 
+$r9 1 135 
+$r1 1 1 
+r20 1 142 
+$r11 1 360 
+$r17 1 341 
+$r8 1 117 
+$r12 1 356 
+$r10 1 364 
+$r22 1 152 
+$r18 1 333 
+$r25 1 15 
+$r19 1 135 
+$r15 1 15 
+$r14 1 135 
+$r32 1 15 
+$r21 1 15 
+$r2 1 15 
+$r13 1 321 
+_ret 2 -3 70 
+$r33 1 238 
+$r24 1 276 
+$r26 1 212 
+$r37 1 321 
+r0 1 -1 
+$r16 1 15 
+r3 1 -2 
+$r4 1 15 
+$r7 1 15 
+$r35 1 15 
+$r34 1 243 
+$r5 1 44 
+r31 2 -3 70 
+Fields: 15
+15 ArrayObject 333
+15 ArrayObject 152
+15 ArrayObject 44
+15 ArrayObject 117
+15 ArrayObject 212
+15 ArrayObject 341
+15 ArrayObject 256
+15 ArrayObject 238
+-1 profileList 15
+-1 srcMaxVals 356
+-1 dstMinVals 360
+-1 thisRasterTransform 135
+-1 CSList 1
+-1 dstMaxVals 364
+-1 srcMinVals 321
+Accesses: 19
+0 1 -1 
+320 1 -1 
+355 1 -1 
+134 1 -1 
+39 1 -1 
+359 1 -1 
+232 1 -1 
+328 1 -1 
+363 1 -1 
+14 1 -1 
+110 1 -1 
+206 1 -1 
+334 1 -1 
+147 1 -1 
+375 1 -1 
+281 1 -1 
+345 1 -1 
+250 1 -1 
+351 1 -1 
+Functions: 25
+65 17 -1 256 1 321 -2 356 135 360 364 44 333 238 15 212 117 341 152 
+130 0 
+7 19 -1 256 1 321 -2 -3 356 70 135 360 364 44 333 238 15 212 117 341 152 
+74 1 -2 
+78 2 -3 70 
+272 2 142 175 
+212 1 212 
+85 1 -2 
+342 16 -1 256 1 321 356 135 360 364 44 333 238 15 212 117 341 152 
+152 1 152 
+89 2 -3 70 
+284 1 -2 
+31 0 
+290 2 -3 70 
+35 1 -2 
+102 0 
+230 2 238 175 
+106 2 -3 70 
+44 1 44 
+172 0 
+367 8 -2 321 -3 356 70 135 360 364 
+117 1 117 
+57 0 
+249 16 -1 256 1 321 356 135 360 364 44 333 238 15 212 117 341 152 
+381 4 -2 -3 70 135 
+Constructors: 0
+
+Summary: 4
+142 -1 175 -2 
+java/awt/image/ColorConvertOp.updateBITransform(Ljava/awt/color/ICC_Profile;Ljava/awt/color/ICC_Profile;)V
+PTG:
+Vars:
+19
+$r12 1 7 
+r8 1 -3 
+r7 1 -2 
+$r1 1 7 
+$r4 1 139 
+$r10 1 7 
+r2 1 70 
+r5 1 162 
+r0 1 -1 
+$r6 1 256 
+$r17 1 226 
+$r14 1 7 
+$r18 1 236 
+$r13 1 52 
+$r11 1 112 
+$r9 1 198 
+$r15 1 28 
+r3 1 132 
+$r16 1 221 
+Fields: 8
+70 ArrayObject 236
+70 ArrayObject 139
+70 ArrayObject 198
+70 ArrayObject 221
+-1 profileList 7
+7 ArrayObject 112
+7 ArrayObject 28
+7 ArrayObject 52
+Accesses: 7
+261 1 -1 
+6 1 -1 
+23 1 -1 
+106 1 -1 
+266 1 -1 
+44 1 -1 
+271 1 -1 
+Functions: 6
+198 1 198 
+216 2 162 221 
+232 6 -1 112 52 7 28 236 
+139 1 139 
+252 2 162 132 
+159 0 
+Constructors: 0
+
+Summary: 10
+198 0 -1 132 221 70 236 139 162 1 
+java/awt/image/ColorConvertOp.getICC_Profiles()[Ljava/awt/color/ICC_Profile;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+0 1 -1 
+19 1 -1 
+7 1 -1 
+29 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/image/ColorConvertOp.nonICCBIFilter(Ljava/awt/image/BufferedImage;Ljava/awt/color/ColorSpace;Ljava/awt/image/BufferedImage;Ljava/awt/color/ColorSpace;)Ljava/awt/image/BufferedImage;
+PTG:
+Vars:
+50
+r31 2 169 184 
+r35 1 287 
+r39 1 504 
+r37 2 449 472 
+r8 1 -1 
+$r13 1 943 
+r36 3 15 41 -5 
+r21 1 371 
+r45 1 905 
+r32 2 202 218 
+r0 1 -2 
+$r19 1 221 
+$r17 1 -3 
+$r16 1 147 
+$r18 2 41 -5 
+_ret 2 -4 33 
+r43 1 728 
+r47 1 917 
+r48 2 925 963 
+r49 1 949 
+r6 1 90 
+r4 1 78 
+$r30 1 140 
+r29 2 41 -5 
+$r25 1 228 
+r5 1 84 
+r34 1 281 
+$r10 1 140 
+$r26 1 237 
+r42 1 795 
+r40 1 548 
+r50 1 978 
+r46 1 1045 
+r41 2 560 588 
+$r12 1 140 
+r28 2 -4 33 
+r2 1 15 
+r20 1 365 
+$r27 1 35 
+$r15 1 957 
+r22 1 490 
+r33 2 -3 15 
+$r23 1 221 
+r11 1 -3 
+$r9 1 140 
+r44 2 861 852 
+r38 1 481 
+$r14 1 140 
+$r1 1 15 
+r7 1 96 
+Fields: 7
+140 ArrayObject 943
+140 ArrayObject 957
+-1 profileList 147
+-1 thisTransform 221
+-1 thisSrcProfile 228
+-1 CSList 140
+-1 thisDestProfile 237
+Accesses: 10
+146 1 -1 
+642 1 -1 
+227 1 -1 
+836 1 -1 
+823 1 -1 
+951 1 -1 
+937 1 -1 
+139 1 -1 
+220 1 -1 
+236 1 -1 
+Functions: 41
+0 1 -2 
+197 1 15 
+389 3 -5 41 15 
+6 1 -2 
+70 0 
+582 3 560 -3 588 
+74 1 -2 
+650 3 481 490 221 
+907 3 917 905 90 
+971 4 963 -5 41 925 
+1035 4 96 852 1045 861 
+12 0 
+80 2 33 -4 
+401 3 -5 41 15 
+785 4 96 449 472 795 
+722 3 449 -3 472 
+212 2 -5 41 
+86 1 -2 
+919 2 -3 917 
+537 2 548 78 
+27 9 -1 -2 147 228 140 221 237 957 943 
+92 2 33 -4 
+1055 2 84 1045 
+34 2 33 -4 
+98 1 90 
+35 1 35 
+164 1 15 
+805 2 84 795 
+550 4 560 548 90 588 
+105 1 96 
+943 3 963 925 943 
+48 2 33 -4 
+112 1 96 
+305 2 -3 15 
+178 1 -3 
+119 1 90 
+57 2 33 -4 
+250 12 -1 147 228 184 169 202 218 140 221 237 957 943 
+957 2 949 957 
+894 2 905 78 
+319 2 -3 15 
+Constructors: 0
+
+Summary: 42
+78 15 917 490 978 963 84 481 1045 202 504 281 560 949 588 -3 169 0 -1 287 35 365 548 472 3 371 2 925 90 905 852 728 96 795 449 184 218 861 -2 -5 41 1 
+java/awt/image/ColorConvertOp.<init>(Ljava/awt/RenderingHints;)V
+PTG:
+Vars:
+3
+$r1 1 6 
+r2 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+9 1 -1 
+14 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+java/awt/image/ColorConvertOp.filter(Ljava/awt/image/BufferedImage;Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+PTG:
+Vars:
+16
+$r0 1 4 
+$r1 1 34 
+$r7 1 25 
+r12 1 -3 
+_ret 2 129 116 
+r14 1 73 
+r13 1 14 
+$r15 1 82 
+r2 1 40 
+r16 2 129 116 
+r3 1 -1 
+r10 2 32 -2 
+$r4 1 46 
+$r5 1 67 
+$r6 1 14 
+r11 1 -3 
+Fields: 1
+-1 CSList 82
+Accesses: 1
+81 1 -1 
+Functions: 15
+33 2 32 -2 
+34 1 34 
+66 1 -3 
+3 2 32 -2 
+67 1 67 
+164 0 
+135 1 -3 
+107 7 -1 32 -2 82 -3 40 73 
+13 2 32 -2 
+45 1 -3 
+148 2 129 116 
+22 2 25 14 
+24 2 32 -2 
+120 7 -1 32 -2 82 -3 40 73 
+154 0 
+Constructors: 0
+
+Summary: 12
+46 34 67 32 -1 25 40 73 140 4 14 -2 
+java/awt/image/ColorConvertOp.getRenderingIntent(Ljava/awt/color/ICC_Profile;)I
+PTG:
+Vars:
+3
+r2 1 -1 
+r1 1 6 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 4
+6 0 -1 -2 
+java/awt/image/ColorConvertOp.getBounds2D(Ljava/awt/image/Raster;)Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+4
+_ret 1 1 
+r0 1 -2 
+r2 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/awt/image/ColorConvertOp.setMinMax(II[F[F)V
+PTG:
+Vars:
+3
+r0 1 -4 
+r1 1 -5 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+3 -4 2 -1 -5 
+java/awt/image/ColorConvertOp.ICCBIFilter(Ljava/awt/image/BufferedImage;Ljava/awt/color/ColorSpace;Ljava/awt/image/BufferedImage;Ljava/awt/color/ColorSpace;)Ljava/awt/image/BufferedImage;
+PTG:
+Vars:
+18
+$r3 1 -3 
+r6 1 -5 
+r19 2 102 50 
+_ret 2 -4 58 
+$r10 1 206 
+r2 1 -3 
+$r21 1 190 
+$r13 1 1 
+r0 1 -1 
+$r1 1 1 
+$r11 1 1 
+r18 1 20 
+r17 2 -4 58 
+$r7 1 -5 
+$r12 1 132 
+$r9 1 197 
+r4 1 -2 
+$r8 1 190 
+Fields: 6
+1 ArrayObject 50
+1 ArrayObject 132
+-1 profileList 1
+-1 thisTransform 190
+-1 thisSrcProfile 197
+-1 thisDestProfile 206
+Accesses: 7
+0 1 -1 
+196 1 -1 
+41 1 -1 
+189 1 -1 
+205 1 -1 
+126 1 -1 
+222 1 -1 
+Functions: 15
+96 1 -5 
+66 2 -4 58 
+228 4 -2 -4 58 190 
+37 0 
+165 1 -2 
+73 1 -2 
+171 0 
+77 2 -4 58 
+14 1 -3 
+52 8 -1 1 -2 50 132 197 190 206 
+181 0 
+153 2 -4 58 
+90 0 
+219 9 -1 1 50 132 20 197 102 190 206 
+62 1 -2 
+Constructors: 0
+
+Summary: 11
+-3 102 157 0 -1 20 3 2 -2 -5 1 
+java/awt/image/ColorConvertOp.<clinit>()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 1
+6 0 
+Constructors: 0
+
+Summary: 0
+
+java/awt/image/ColorConvertOp.getBounds2D(Ljava/awt/image/BufferedImage;)Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+5
+r0 1 -1 
+_ret 1 5 
+$r3 1 5 
+$r2 1 2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 2 
+1 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 2 -2 
+java/awt/image/ColorConvertOp.createCompatibleDestImage(Ljava/awt/image/BufferedImage;Ljava/awt/image/ColorModel;Ljava/awt/color/ColorSpace;)Ljava/awt/image/BufferedImage;
+PTG:
+Vars:
+10
+r0 1 -2 
+r4 1 -4 
+$r6 1 60 
+_ret 1 96 
+r9 1 8 
+r5 1 33 
+r7 1 -1 
+$r1 1 96 
+r8 2 -3 60 
+$r2 1 106 
+Fields: 0
+Accesses: 0
+Functions: 11
+16 1 8 
+80 3 33 -4 60 
+114 4 96 -3 106 60 
+4 1 -2 
+84 1 -2 
+69 1 8 
+101 2 -3 60 
+10 1 -4 
+74 1 8 
+90 1 -2 
+109 2 -3 60 
+Constructors: 2
+80 60
+114 96
+
+Summary: 11
+-3 33 -4 0 -1 8 2 106 60 -2 1 
+java/awt/image/ColorConvertOp.<init>(Ljava/awt/color/ColorSpace;Ljava/awt/color/ColorSpace;Ljava/awt/RenderingHints;)V
+PTG:
+Vars:
+14
+r3 1 -3 
+r1 1 -2 
+$r13 1 45 
+$r10 1 45 
+$r5 1 88 
+r7 1 -4 
+$r12 1 -3 
+$r4 1 81 
+$r11 1 53 
+r0 1 -1 
+$r8 1 38 
+$r6 1 88 
+$r14 1 66 
+$r9 1 -2 
+Fields: 2
+-1 profileList 45
+-1 CSList 88
+Accesses: 7
+84 1 -1 
+87 1 -1 
+103 1 -1 
+41 1 -1 
+57 1 -1 
+44 1 -1 
+94 1 -1 
+Functions: 5
+1 3 -1 88 45 
+18 0 
+50 1 -2 
+73 5 -1 -2 -3 88 45 
+63 1 -3 
+Constructors: 1
+1 -1
+
+Summary: 3
+0 -1 1 
+java/awt/image/ColorConvertOp.<init>(Ljava/awt/color/ColorSpace;Ljava/awt/RenderingHints;)V
+PTG:
+Vars:
+9
+r4 1 -3 
+$r7 1 34 
+r1 1 -2 
+$r3 1 58 
+$r8 1 42 
+r0 1 -1 
+$r6 1 -2 
+$r2 1 51 
+$r5 1 27 
+Fields: 2
+-1 profileList 34
+-1 CSList 58
+Accesses: 5
+33 1 -1 
+66 1 -1 
+54 1 -1 
+57 1 -1 
+30 1 -1 
+Functions: 3
+1 3 -1 34 58 
+39 1 -2 
+14 0 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/awt/image/ColorConvertOp.nonICCRasterFilter(Ljava/awt/image/Raster;Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+PTG:
+Vars:
+35
+r33 2 -3 54 
+$r14 1 1 
+$r7 1 99 
+$r26 1 1 
+$r22 2 292 266 
+$r20 2 395 359 
+r15 1 449 
+$r21 2 366 402 
+$r18 2 395 359 
+r34 1 241 
+$r29 1 129 
+r10 1 148 
+$r24 2 292 266 
+$r12 1 1 
+r9 1 143 
+r11 1 431 
+r36 1 548 
+$r16 3 366 584 402 
+$r3 1 1 
+$r19 2 366 402 
+r13 1 441 
+_ret 2 -3 54 
+$r27 1 1 
+$r1 1 1 
+$r17 1 117 
+$r6 1 1 
+r35 1 332 
+$r23 1 117 
+$r28 1 135 
+r2 1 -2 
+r37 1 557 
+r0 1 -1 
+$r25 1 117 
+$r8 1 117 
+$r4 1 28 
+Fields: 15
+1 ArrayObject 28
+1 ArrayObject 135
+1 ArrayObject 129
+1 ArrayObject 99
+1 ArrayObject 449
+1 ArrayObject 441
+-1 srcMaxVals 266
+-1 srcMaxVals 292
+-1 dstMinVals 402
+-1 dstMinVals 584
+-1 dstMinVals 366
+-1 CSList 1
+-1 dstMaxVals 395
+-1 dstMaxVals 359
+-1 srcMinVals 117
+Accesses: 18
+0 1 -1 
+130 1 -1 
+291 1 -1 
+358 1 -1 
+518 1 -1 
+583 1 -1 
+265 1 -1 
+298 1 -1 
+394 1 -1 
+365 1 -1 
+272 1 -1 
+401 1 -1 
+435 1 -1 
+116 1 -1 
+23 1 -1 
+443 1 -1 
+124 1 -1 
+94 1 -1 
+Functions: 32
+69 1 -2 
+136 16 -1 1 129 449 99 292 359 135 584 266 395 366 402 117 441 28 
+73 2 -3 54 
+139 1 -2 
+204 1 -2 
+461 1 -2 
+15 0 
+144 2 -3 54 
+210 1 -2 
+19 1 -2 
+467 2 -3 54 
+86 0 
+150 1 -2 
+216 1 -2 
+90 2 -3 54 
+28 1 28 
+156 2 -3 54 
+541 2 441 431 
+222 2 -3 54 
+608 2 -3 54 
+417 1 -2 
+99 1 99 
+550 2 449 548 
+423 2 -3 54 
+41 0 
+493 1 -2 
+112 0 
+49 17 -1 1 129 449 -2 99 292 359 135 584 266 395 366 402 117 441 28 
+307 1 143 
+58 1 -2 
+62 2 -3 54 
+383 1 148 
+Constructors: 0
+
+Summary: 11
+0 -1 548 148 431 332 557 143 241 -2 1 
+java/awt/image/ColorConvertOp.getMinMaxValsFromColorSpaces(Ljava/awt/color/ColorSpace;Ljava/awt/color/ColorSpace;)V
+PTG:
+Vars:
+11
+r0 1 -2 
+r4 1 -3 
+$r8 1 102 
+$r3 1 14 
+$r6 1 74 
+r1 1 -1 
+$r5 1 67 
+$r9 1 29 
+$r10 1 42 
+$r2 1 7 
+$r7 1 89 
+Fields: 4
+-1 srcMaxVals 42
+-1 dstMinVals 89
+-1 dstMaxVals 102
+-1 srcMinVals 29
+Accesses: 8
+16 1 -1 
+69 1 -1 
+101 1 -1 
+88 1 -1 
+9 1 -1 
+41 1 -1 
+28 1 -1 
+76 1 -1 
+Functions: 6
+0 1 -2 
+34 1 -2 
+107 1 -3 
+60 1 -3 
+94 1 -3 
+47 1 -2 
+Constructors: 0
+
+Summary: 5
+-3 0 -1 -2 1 
+java/awt/image/ColorConvertOp.getPoint2D(Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+PTG:
+Vars:
+5
+r0 1 -2 
+r3 2 -3 4 
+r2 1 -1 
+$r1 1 4 
+_ret 2 -3 4 
+Fields: 0
+Accesses: 0
+Functions: 4
+17 1 -2 
+21 2 -3 4 
+8 1 4 
+13 1 -2 
+Constructors: 1
+8 4
+
+Summary: 2
+-1 -2 
+java/awt/image/ColorConvertOp.<init>([Ljava/awt/color/ICC_Profile;Ljava/awt/RenderingHints;)V
+PTG:
+Vars:
+6
+r3 1 -3 
+r1 1 -2 
+r0 1 -1 
+$r4 1 47 
+$r5 1 41 
+$r2 1 26 
+Fields: 2
+-1 profileList 41
+-2 ArrayObject 47
+Accesses: 4
+20 1 -1 
+40 1 -1 
+57 1 -1 
+29 1 -1 
+Functions: 2
+1 2 -1 41 
+14 0 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 -2 

@@ -1,0 +1,291 @@
+15
+java/lang/ClassValue.remove(Ljava/lang/Class;)V
+PTG:
+Vars:
+3
+r1 1 4 
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+7 2 -1 4 
+Constructors: 0
+
+Summary: 3
+-2 -1 4 
+java/lang/ClassValue.bumpVersion()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+9 1 -1 
+Functions: 1
+6 2 -1 1 
+Constructors: 1
+6 1
+
+Summary: 1
+-1 
+java/lang/ClassValue.getFromBackup([Ljava/lang/ClassValue$Entry;Ljava/lang/Class;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+r3 1 -3 
+$r4 1 17 
+r2 1 5 
+r0 1 -2 
+r1 1 -1 
+_ret 1 17 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 2 -1 -2 
+10 1 5 
+15 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+1 -2 -3 -1 0 
+java/lang/ClassValue.match(Ljava/lang/ClassValue$Entry;)Z
+PTG:
+Vars:
+4
+r2 1 -1 
+$r1 1 5 
+$r3 1 9 
+r0 1 -2 
+Fields: 1
+-1 version 9
+Accesses: 1
+8 1 -1 
+Functions: 1
+4 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/lang/ClassValue.castEntry(Ljava/lang/ClassValue$Entry;)Ljava/lang/ClassValue$Entry;
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -1 
+_ret 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/lang/ClassValue.getCacheCarefully(Ljava/lang/Class;)[Ljava/lang/ClassValue$Entry;
+PTG:
+Vars:
+4
+r2 1 17 
+r1 1 4 
+r0 1 -2 
+_ret 1 17 
+Fields: 1
+-2 classValueMap 4
+Accesses: 1
+0 1 -2 
+Functions: 1
+13 1 4 
+Constructors: 0
+
+Summary: 3
+-2 0 4 
+java/lang/ClassValue.<init>()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 31 
+$r2 1 20 
+$r1 1 5 
+Fields: 0
+Accesses: 3
+16 1 -1 
+39 1 -1 
+27 1 -1 
+Functions: 4
+1 1 -1 
+36 2 -1 31 
+5 1 5 
+24 1 20 
+Constructors: 3
+1 -1
+36 31
+24 20
+
+Summary: 1
+-1 
+java/lang/ClassValue.makeEntry(Ljava/lang/ClassValue$Version;Ljava/lang/Object;)Ljava/lang/ClassValue$Entry;
+PTG:
+Vars:
+4
+r1 1 -2 
+r2 1 -3 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -2 -3 
+Constructors: 1
+6 0
+
+Summary: 4
+1 -2 -3 0 
+java/lang/ClassValue.version()Ljava/lang/ClassValue$Version;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 version 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/lang/ClassValue.put(Ljava/lang/Class;Ljava/lang/Object;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r3 1 -3 
+r2 1 -1 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+8 3 -1 -3 4 
+Constructors: 0
+
+Summary: 4
+-2 -3 -1 4 
+java/lang/ClassValue.<clinit>()V
+PTG:
+Vars:
+4
+$r1 1 11 
+$r3 1 31 
+$r0 1 1 
+$r2 1 21 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+25 1 21 
+15 1 11 
+Constructors: 2
+25 21
+15 11
+
+Summary: 0
+
+java/lang/ClassValue.initializeMap(Ljava/lang/Class;)Ljava/lang/ClassValue$ClassValueMap;
+PTG:
+Vars:
+7
+$r5 1 24 
+$r0 1 0 
+r2 1 -2 
+$r4 1 15 
+$r3 1 7 
+r8 2 15 7 
+_ret 2 15 7 
+Fields: 1
+-2 classValueMap 7
+Accesses: 2
+32 1 -2 
+6 1 -2 
+Functions: 2
+20 3 -2 7 15 
+27 1 24 
+Constructors: 1
+20 15
+
+Summary: 2
+-2 0 
+java/lang/ClassValue.getFromHashMap(Ljava/lang/Class;)Ljava/lang/Object;
+PTG:
+Vars:
+8
+r0 1 -2 
+$r3 1 24 
+r11 1 42 
+$r4 1 29 
+r9 1 10 
+r2 1 -1 
+r1 1 4 
+r10 1 35 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -2 
+18 1 10 
+36 3 -1 35 4 
+5 2 -1 4 
+54 3 -1 4 10 
+23 1 10 
+11 1 10 
+27 2 -1 -2 
+29 2 24 29 
+62 1 42 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+java/lang/ClassValue.getMap(Ljava/lang/Class;)Ljava/lang/ClassValue$ClassValueMap;
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 4 
+$r2 1 12 
+_ret 1 12 
+Fields: 1
+-2 classValueMap 4
+Accesses: 1
+0 1 -2 
+Functions: 1
+11 2 -2 4 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/lang/ClassValue.get(Ljava/lang/Class;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+$r1 1 1 
+r0 1 -2 
+r3 1 -1 
+r4 1 10 
+$r5 1 27 
+_ret 1 27 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+19 1 10 
+6 2 -1 1 
+24 3 -1 1 -2 
+11 2 -1 10 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 

@@ -1,0 +1,1173 @@
+43
+sun/misc/ProxyGenerator.getWordsPerType(Ljava/lang/Class;)I
+PTG:
+Vars:
+3
+r0 1 -2 
+$r2 1 8 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/ProxyGenerator.code_ldc(ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r2 1 -1 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 5
+34 1 -3 
+20 0 
+52 1 -3 
+43 1 -3 
+60 1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+sun/misc/ProxyGenerator.generateClassFile()[B
+PTG:
+Vars:
+67
+$r28 2 213 314 
+$r32 1 636 
+$r42 1 176 
+$r48 1 245 
+$r18 1 338 
+$r46 1 213 
+r59 1 121 
+$r5 1 100 
+$r7 1 142 
+$r23 1 338 
+$r45 1 223 
+$r17 1 338 
+r62 1 191 
+$r31 1 676 
+$r27 2 213 314 
+$r1 1 1 
+$r11 1 265 
+$r34 1 338 
+r71 1 573 
+$r15 1 338 
+r69 1 31 
+$r6 1 138 
+r60 1 165 
+$r2 1 10 
+$r13 2 213 314 
+r65 1 31 
+$r24 1 470 
+$r44 1 216 
+r70 1 524 
+$r25 1 338 
+$r30 1 138 
+$r14 1 342 
+$r36 1 536 
+r55 1 31 
+$r10 1 138 
+$r16 1 345 
+r57 1 52 
+$r47 1 138 
+_ret 1 676 
+r56 1 45 
+$r20 1 419 
+r63 1 202 
+$r4 1 97 
+r0 1 -1 
+$r21 1 338 
+$r37 1 338 
+$r12 1 138 
+$r26 1 31 
+r72 1 584 
+$r3 1 19 
+$r8 1 97 
+$r19 1 411 
+$r43 1 202 
+$r39 1 391 
+r50 1 74 
+$r22 1 342 
+$r33 1 584 
+r61 1 176 
+r58 1 110 
+$r9 1 155 
+$r35 1 533 
+r74 1 636 
+r66 1 380 
+$r38 1 388 
+$r29 1 138 
+r73 1 625 
+$r49 1 121 
+Fields: 12
+31 ArrayObject 45
+31 ArrayObject 524
+31 ArrayObject 380
+202 methodFieldName 223
+52 ArrayObject 74
+-1 interfaces 31
+-1 methods 138
+-1 className 342
+-1 proxyMethods 97
+-1 cp 338
+-1 fields 213
+-1 fields 314
+Accesses: 28
+260 1 -1 
+454 1 -1 
+137 1 -1 
+462 1 -1 
+527 1 -1 
+337 1 -1 
+466 1 -1 
+212 1 -1 
+404 1 -1 
+341 1 -1 
+151 1 -1 
+27 1 -1 
+604 1 -1 
+221 1 202 
+96 1 -1 
+352 1 -1 
+480 1 -1 
+289 1 -1 
+552 1 -1 
+616 1 -1 
+362 1 -1 
+493 1 -1 
+239 1 -1 
+564 1 -1 
+501 1 -1 
+313 1 -1 
+445 1 -1 
+382 1 -1 
+Functions: 69
+386 1 380 
+131 1 121 
+388 1 388 
+6 12 -1 97 1 338 213 342 138 314 524 380 45 31 
+264 11 -1 97 338 213 342 138 314 524 380 45 31 
+649 2 419 636 
+394 2 338 391 
+268 2 265 138 
+141 11 -1 97 338 213 342 138 314 524 380 45 31 
+15 12 -1 97 338 213 342 138 314 10 524 380 45 31 
+528 2 338 536 
+145 2 138 142 
+657 1 419 
+531 1 524 
+533 1 533 
+24 12 -1 97 338 19 213 342 138 314 524 380 45 31 
+152 1 97 
+408 1 338 
+155 1 155 
+285 0 
+542 1 419 
+415 1 411 
+671 0 
+290 1 138 
+675 1 411 
+166 1 165 
+424 2 419 411 
+553 2 213 314 
+47 1 45 
+175 1 165 
+431 1 419 
+561 1 419 
+436 1 419 
+309 0 
+565 2 213 314 
+185 1 176 
+314 2 213 314 
+442 1 419 
+574 1 573 
+192 1 191 
+450 2 338 419 
+583 1 573 
+201 1 191 
+458 1 419 
+333 0 
+463 2 338 470 
+81 12 -1 97 338 213 342 138 314 74 524 380 45 31 
+467 1 342 
+597 2 419 584 
+342 1 342 
+348 2 338 345 
+476 1 419 
+605 1 138 
+97 1 97 
+481 1 338 
+100 1 100 
+613 1 419 
+230 13 -1 97 138 524 45 338 213 342 216 314 380 31 223 
+358 1 338 
+233 2 213 216 
+489 1 419 
+617 1 138 
+111 1 110 
+498 1 419 
+626 1 625 
+243 2 202 223 
+120 1 110 
+248 2 245 138 
+635 1 625 
+Constructors: 3
+230 216
+424 419
+415 411
+
+Summary: 23
+636 74 142 100 419 202 388 121 533 155 584 265 345 223 411 176 216 391 536 245 52 -1 470 
+sun/misc/ProxyGenerator.codeClassForName(Ljava/lang/Class;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+r4 1 -3 
+$r2 1 2 
+$r3 1 6 
+$r5 1 2 
+Fields: 1
+-1 cp 2
+Accesses: 2
+1 1 -1 
+24 1 -1 
+Functions: 6
+2 2 2 6 
+20 1 -3 
+5 1 -2 
+37 1 -3 
+25 1 2 
+13 3 -1 2 -3 
+Constructors: 0
+
+Summary: 6
+-3 0 6 -1 -2 1 
+sun/misc/ProxyGenerator.generateProxyClass(Ljava/lang/String;[Ljava/lang/Class;)[B
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -3 
+$r2 1 4 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 2
+-3 -2 
+sun/misc/ProxyGenerator.access$1600(Lsun/misc/ProxyGenerator;ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -2 -4 
+Constructors: 0
+
+Summary: 4
+-4 0 2 -2 
+sun/misc/ProxyGenerator.code_dload(ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+sun/misc/ProxyGenerator.<init>(Ljava/lang/String;[Ljava/lang/Class;I)V
+PTG:
+Vars:
+7
+$r3 1 28 
+r0 1 -1 
+r6 1 -3 
+$r4 1 39 
+r5 1 -2 
+$r1 1 5 
+$r2 1 17 
+Fields: 0
+Accesses: 8
+66 1 -1 
+35 1 -1 
+51 1 -1 
+24 1 -1 
+56 1 -1 
+13 1 -1 
+61 1 -1 
+46 1 -1 
+Functions: 5
+32 1 28 
+1 1 -1 
+21 1 17 
+10 1 5 
+43 1 39 
+Constructors: 5
+32 28
+1 -1
+21 17
+10 5
+43 39
+
+Summary: 3
+0 -1 1 
+sun/misc/ProxyGenerator.getParameterDescriptors([Ljava/lang/Class;)Ljava/lang/String;
+PTG:
+Vars:
+6
+$r5 1 21 
+$r6 1 22 
+$r0 1 0 
+r2 1 -2 
+$r4 1 43 
+_ret 1 43 
+Fields: 1
+-2 ArrayObject 21
+Accesses: 0
+Functions: 5
+21 1 21 
+6 1 0 
+38 1 0 
+25 2 0 22 
+42 1 0 
+Constructors: 1
+6 0
+
+Summary: 4
+22 0 21 -2 
+sun/misc/ProxyGenerator.generateProxyClass(Ljava/lang/String;[Ljava/lang/Class;I)[B
+PTG:
+Vars:
+6
+r2 1 -3 
+r1 1 -2 
+$r0 1 0 
+r4 1 15 
+$r5 1 23 
+_ret 1 15 
+Fields: 0
+Accesses: 0
+Functions: 4
+33 1 23 
+7 3 0 -2 -3 
+11 1 0 
+30 3 -2 23 15 
+Constructors: 2
+7 0
+30 23
+
+Summary: 5
+-3 0 0 -2 1 
+sun/misc/ProxyGenerator.codeLocalLoadStore(IIILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r2 1 -1 
+r0 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 7
+34 1 -5 
+50 1 -5 
+20 0 
+86 1 -5 
+71 1 -5 
+60 1 -5 
+77 1 -5 
+Constructors: 0
+
+Summary: 3
+-5 -1 3 
+sun/misc/ProxyGenerator.access$1800(Lsun/misc/ProxyGenerator;ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r1 1 -4 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -2 -4 
+Constructors: 0
+
+Summary: 4
+-4 0 2 -2 
+sun/misc/ProxyGenerator.code_iload(ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+sun/misc/ProxyGenerator.collectCompatibleTypes([Ljava/lang/Class;[Ljava/lang/Class;Ljava/util/List;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+r4 1 -3 
+r6 1 56 
+r2 1 20 
+r3 1 -4 
+Fields: 2
+-3 ArrayObject 56
+-2 ArrayObject 20
+Accesses: 0
+Functions: 3
+22 2 -4 20 
+71 2 -4 20 
+58 2 20 56 
+Constructors: 0
+
+Summary: 7
+-4 56 -3 0 2 -2 1 
+sun/misc/ProxyGenerator.getFieldType(Ljava/lang/Class;)Ljava/lang/String;
+PTG:
+Vars:
+9
+$r4 1 50 
+$r2 1 43 
+r0 1 -2 
+$r1 1 34 
+$r5 1 53 
+_ret 1 61 
+$r3 1 47 
+$r6 1 58 
+$r7 1 61 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -2 
+34 1 34 
+53 1 53 
+22 1 -2 
+38 1 34 
+7 1 -2 
+23 0 
+58 1 58 
+43 2 50 43 
+46 1 -2 
+15 1 -2 
+47 1 47 
+Constructors: 1
+38 34
+
+Summary: 6
+-2 47 50 8 0 58 
+sun/misc/ProxyGenerator.access$900(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/ProxyGenerator.dotToSlash(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 5 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 1
+0 
+sun/misc/ProxyGenerator.getMethodDescriptor([Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/String;
+PTG:
+Vars:
+10
+$r0 1 0 
+r4 1 -3 
+$r3 1 11 
+$r8 2 21 27 
+r1 1 -2 
+$r7 1 33 
+$r2 1 8 
+_ret 1 33 
+$r5 1 15 
+$r6 1 30 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 2 0 8 
+4 1 0 
+7 1 -2 
+26 1 -3 
+11 3 21 11 27 
+30 1 30 
+Constructors: 1
+4 0
+
+Summary: 7
+-2 27 30 1 8 -3 0 
+sun/misc/ProxyGenerator.generateStaticInitializer()Lsun/misc/ProxyGenerator$MethodInfo;
+PTG:
+Vars:
+29
+$r16 1 25 
+$r7 1 37 
+$r29 1 92 
+$r4 1 25 
+$r24 1 450 
+r30 1 92 
+_ret 1 0 
+r1 1 -1 
+$r11 1 149 
+$r12 1 136 
+$r22 1 149 
+r27 1 61 
+$r0 1 0 
+$r15 1 149 
+$r13 1 149 
+$r14 1 149 
+$r19 1 136 
+$r17 1 282 
+$r6 1 34 
+$r20 1 149 
+$r10 1 139 
+$r26 1 61 
+$r9 1 25 
+$r21 1 149 
+$r23 1 25 
+$r3 1 20 
+$r18 1 149 
+r8 1 47 
+r28 1 78 
+Fields: 4
+0 exceptionTable 136
+0 code 25
+-1 proxyMethods 34
+-1 cp 149
+Accesses: 18
+33 1 -1 
+291 1 -1 
+388 1 -1 
+452 1 0 
+326 1 -1 
+135 1 0 
+362 1 -1 
+269 1 0 
+148 1 -1 
+245 1 -1 
+437 1 0 
+278 1 0 
+183 1 -1 
+24 1 0 
+123 1 0 
+219 1 -1 
+412 1 0 
+445 1 0 
+Functions: 47
+192 1 20 
+321 1 20 
+258 1 20 
+389 1 149 
+71 1 61 
+199 1 20 
+327 1 149 
+266 1 20 
+11 6 0 -1 34 149 136 25 
+206 4 -1 34 20 149 
+270 1 25 
+335 1 20 
+80 1 78 
+401 1 20 
+149 1 149 
+214 1 20 
+342 1 20 
+409 1 20 
+90 1 78 
+28 2 20 25 
+220 1 149 
+157 1 139 
+349 4 -1 34 20 149 
+413 1 25 
+160 2 136 139 
+34 1 34 
+292 1 149 
+37 1 37 
+357 1 20 
+232 1 20 
+106 2 20 92 
+170 4 -1 34 20 149 
+363 1 149 
+300 1 282 
+430 0 
+303 2 136 282 
+240 1 20 
+49 1 47 
+178 1 20 
+246 1 149 
+375 1 20 
+120 1 20 
+184 1 149 
+313 4 -1 34 20 149 
+59 1 47 
+124 1 25 
+383 1 20 
+Constructors: 4
+11 0
+28 20
+300 282
+157 139
+
+Summary: 8
+37 139 20 282 92 -1 61 78 
+sun/misc/ProxyGenerator.checkReturnTypes(Ljava/util/List;)V
+PTG:
+Vars:
+9
+r0 1 -2 
+$r1 1 11 
+r15 1 36 
+$r14 1 36 
+r16 1 49 
+r19 1 135 
+$r18 1 135 
+r33 1 25 
+r17 1 121 
+Fields: 1
+36 returnType 49
+Accesses: 3
+75 1 36 
+45 1 36 
+79 1 36 
+Functions: 35
+0 1 -2 
+256 0 
+193 2 49 121 
+67 0 
+133 1 121 
+261 0 
+72 0 
+269 0 
+206 1 121 
+15 1 11 
+80 0 
+145 2 49 135 
+19 1 -2 
+275 0 
+86 0 
+280 1 11 
+26 1 25 
+91 0 
+284 0 
+94 1 49 
+222 2 49 11 
+290 0 
+35 1 25 
+99 0 
+229 1 11 
+104 0 
+170 0 
+237 1 -2 
+110 0 
+174 2 49 135 
+51 1 49 
+117 1 11 
+123 1 121 
+252 0 
+63 0 
+Constructors: 1
+15 11
+
+Summary: 18
+272 287 80 239 83 269 76 36 107 135 121 96 265 -2 11 104 0 284 
+sun/misc/ProxyGenerator.access$600(Ljava/lang/Class;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/ProxyGenerator.access$1700(Lsun/misc/ProxyGenerator;Ljava/lang/Class;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+3
+r2 1 -4 
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -2 -3 -4 
+Constructors: 0
+
+Summary: 6
+-4 -3 0 2 -2 1 
+sun/misc/ProxyGenerator.access$700(Lsun/misc/ProxyGenerator;ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r1 1 -4 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -2 -4 
+Constructors: 0
+
+Summary: 4
+-4 0 2 -2 
+sun/misc/ProxyGenerator.generateConstructor()Lsun/misc/ProxyGenerator$MethodInfo;
+PTG:
+Vars:
+7
+$r6 1 47 
+r1 1 -1 
+$r4 1 19 
+_ret 1 0 
+$r0 1 0 
+$r7 1 82 
+$r3 1 14 
+Fields: 2
+0 code 19
+-1 cp 47
+Accesses: 5
+18 1 0 
+84 1 0 
+72 1 0 
+77 1 0 
+46 1 -1 
+Functions: 8
+66 1 14 
+35 3 -1 14 47 
+22 2 19 14 
+10 4 0 -1 19 47 
+42 1 14 
+59 1 14 
+29 3 -1 14 47 
+47 1 47 
+Constructors: 2
+22 14
+10 0
+
+Summary: 2
+-1 14 
+sun/misc/ProxyGenerator.code_ipush(ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r2 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 6
+35 1 -3 
+67 1 -3 
+85 0 
+75 1 -3 
+44 1 -3 
+14 1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+sun/misc/ProxyGenerator.access$1300(Lsun/misc/ProxyGenerator;ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -2 -4 
+Constructors: 0
+
+Summary: 4
+-4 0 2 -2 
+sun/misc/ProxyGenerator.code_lload(ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+sun/misc/ProxyGenerator.<clinit>()V
+PTG:
+Vars:
+13
+$r5 1 37 
+$r10 1 75 
+$r7 1 56 
+$r3 1 25 
+$r6 1 45 
+$r9 1 64 
+$r12 1 78 
+$r4 1 42 
+$r8 1 51 
+$r2 1 25 
+$r11 1 70 
+$r0 1 0 
+$r1 1 16 
+Fields: 1
+56 ArrayObject 63
+Accesses: 0
+Functions: 9
+0 1 0 
+16 1 16 
+96 0 
+51 3 51 56 63 
+37 2 37 42 
+22 1 16 
+70 2 70 75 
+28 1 25 
+92 0 
+Constructors: 1
+22 16
+
+Summary: 5
+25 75 93 42 56 
+sun/misc/ProxyGenerator.access$1000(Lsun/misc/ProxyGenerator;ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r1 1 -4 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -2 -4 
+Constructors: 0
+
+Summary: 4
+-4 0 2 -2 
+sun/misc/ProxyGenerator.access$500([Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -3 
+_ret 1 2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 0 -2 1 
+sun/misc/ProxyGenerator.access$800(Lsun/misc/ProxyGenerator;)Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -2 
+_ret 1 1 
+Fields: 1
+-2 className 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/ProxyGenerator.access$1100([Ljava/lang/Class;)Ljava/util/List;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/ProxyGenerator.getFriendlyMethodSignature(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/String;
+PTG:
+Vars:
+7
+$r6 1 106 
+r11 2 56 38 
+r1 1 -2 
+r4 1 -3 
+$r7 1 67 
+_ret 1 106 
+$r0 1 0 
+Fields: 1
+-3 ArrayObject 38
+Accesses: 0
+Functions: 10
+65 2 38 56 
+51 2 38 56 
+5 2 0 -2 
+85 1 0 
+101 1 0 
+70 2 0 67 
+105 1 0 
+43 2 38 56 
+12 1 0 
+31 1 0 
+Constructors: 1
+5 0
+
+Summary: 7
+56 -3 67 0 38 -2 1 
+sun/misc/ProxyGenerator.access$300(Lsun/misc/ProxyGenerator;)Lsun/misc/ProxyGenerator$ConstantPool;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -2 
+Fields: 1
+-2 cp 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/misc/ProxyGenerator.access$1200(Lsun/misc/ProxyGenerator;ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -2 -4 
+Constructors: 0
+
+Summary: 4
+-4 0 2 -2 
+sun/misc/ProxyGenerator.access$1500(Lsun/misc/ProxyGenerator;ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r1 1 -4 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -2 -4 
+Constructors: 0
+
+Summary: 4
+-4 0 2 -2 
+sun/misc/ProxyGenerator.addProxyMethod(Ljava/lang/reflect/Method;Ljava/lang/Class;)V
+PTG:
+Vars:
+22
+$r11 1 48 
+r0 1 -2 
+r1 1 4 
+r18 1 75 
+r30 2 53 184 
+$r14 1 48 
+$r19 1 89 
+r17 1 -3 
+$r5 1 23 
+r9 1 45 
+$r6 1 31 
+r2 1 9 
+$r7 1 36 
+r10 1 -1 
+r20 1 89 
+$r13 1 184 
+$r12 1 53 
+r4 1 21 
+$r16 1 210 
+r3 1 15 
+$r8 1 39 
+$r21 1 103 
+Fields: 2
+89 returnType 103
+-1 proxyMethods 48
+Accesses: 8
+161 1 89 
+130 1 89 
+194 1 -1 
+101 1 89 
+120 1 89 
+154 1 89 
+174 1 89 
+47 1 -1 
+Functions: 22
+0 1 -2 
+224 8 -1 48 210 -3 4 21 9 15 
+34 1 9 
+227 3 210 53 184 
+68 2 53 184 
+5 1 -2 
+39 1 39 
+202 3 48 184 45 
+11 1 -2 
+139 1 21 
+77 1 75 
+48 2 48 45 
+144 0 
+17 1 -2 
+113 0 
+23 2 4 23 
+87 1 75 
+27 1 23 
+189 1 184 
+31 2 36 31 
+127 1 21 
+159 0 
+Constructors: 3
+224 210
+27 23
+189 184
+
+Summary: 19
+9 89 53 103 1 -3 36 122 21 109 15 210 4 -2 45 0 39 -1 184 
+sun/misc/ProxyGenerator.code_astore(ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+sun/misc/ProxyGenerator.code_fload(ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+sun/misc/ProxyGenerator.computeUniqueCatchList([Ljava/lang/Class;)Ljava/util/List;
+PTG:
+Vars:
+7
+$r5 1 65 
+r4 1 44 
+$r0 1 0 
+$r6 1 95 
+r2 1 -2 
+_ret 1 0 
+r7 1 95 
+Fields: 1
+-2 ArrayObject 44
+Accesses: 0
+Functions: 12
+65 2 65 44 
+83 1 0 
+131 1 0 
+4 1 0 
+20 1 0 
+149 2 0 44 
+118 2 44 95 
+57 1 0 
+105 2 44 95 
+11 1 0 
+92 1 0 
+46 1 44 
+Constructors: 1
+4 0
+
+Summary: 3
+0 95 -2 
+sun/misc/ProxyGenerator.code_aload(ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+sun/misc/ProxyGenerator.access$1400(Lsun/misc/ProxyGenerator;ILjava/io/DataOutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -2 -4 
+Constructors: 0
+
+Summary: 4
+-4 0 2 -2 
+sun/misc/ProxyGenerator.access$408(Lsun/misc/ProxyGenerator;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 2
+0 1 -2 
+8 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 

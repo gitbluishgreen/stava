@@ -1,0 +1,407 @@
+8
+org/eclipse/jdt/internal/compiler/ast/JavadocAllocationExpression.<init>(J)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 1 -1 
+Constructors: 1
+8 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/JavadocAllocationExpression.internalResolveType(Lorg/eclipse/jdt/internal/compiler/lookup/Scope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+83
+$r33 2 616 601 
+$r41 2 278 640 
+$r74 1 8 
+$r12 1 191 
+$r34 1 621 
+$r26 1 8 
+$r5 1 8 
+$r31 2 610 610 
+$r78 1 74 
+$r65 1 74 
+$r7 1 191 
+$r45 1 278 
+$r48 1 546 
+$r30 1 601 
+r0 1 -1 
+$r27 1 731 
+$r56 2 473 473 
+r92 1 278 
+$r9 1 8 
+$r81 1 191 
+$r6 1 61 
+$r66 2 74 103 
+$r40 1 647 
+$r18 1 698 
+$r51 1 480 
+$r28 1 741 
+$r46 1 535 
+$r69 2 151 151 
+r3 1 -2 
+$r19 1 8 
+$r83 1 271 
+$r4 1 -2 
+$r47 1 278 
+$r67 1 -2 
+r80 1 222 
+$r35 1 622 
+$r22 1 785 
+$r87 1 278 
+_ret 1 191 
+$r71 1 -2 
+$r75 1 42 
+$r8 1 201 
+$r49 1 278 
+$r10 1 208 
+r93 2 191 796 
+$r20 1 816 
+$r38 1 635 
+$r36 2 628 628 
+r79 1 109 
+$r94 1 278 
+$r73 1 -2 
+$r55 1 503 
+$r53 1 492 
+$r68 1 144 
+$r16 1 850 
+$r84 1 278 
+$r21 1 698 
+$r17 1 278 
+$r52 1 278 
+$r29 1 278 
+$r25 1 8 
+$r1 1 1 
+r86 2 278 315 
+$r24 1 796 
+$r44 1 523 
+r82 1 191 
+r85 2 191 305 
+$r39 2 278 644 
+$r72 1 128 
+$r54 1 278 
+$r11 1 212 
+$r76 1 16 
+$r37 1 629 
+$r13 1 278 
+r77 2 70 92 
+$r43 1 658 
+$r23 1 782 
+$r32 1 606 
+$r50 1 459 
+$r14 1 278 
+$r70 2 168 168 
+$r15 1 191 
+$r2 1 8 
+Fields: 28
+278 parameters 601
+278 parameters 459
+278 selector 535
+278 selector 647
+278 selector 492
+616 ArrayObject 621
+191 sourceName 785
+70 ArrayObject 610
+70 ArrayObject 473
+70 ArrayObject 628
+698 ArrayObject 782
+74 ArrayObject 109
+644 selector 647
+-1 arguments 74
+-1 resolvedType 191
+-1 type 8
+-1 qualification 698
+-1 binding 278
+8 resolvedType 208
+8 tokens 731
+92 ArrayObject 473
+92 ArrayObject 151
+92 ArrayObject 168
+92 ArrayObject 610
+92 ArrayObject 628
+601 ArrayObject 606
+601 ArrayObject 621
+103 ArrayObject 109
+Accesses: 61
+256 1 -1 
+643 1 -1 
+4 1 -1 
+644 2 644 278 
+773 1 -1 
+7 1 -1 
+395 1 -1 
+527 1 -1 
+783 2 796 191 
+401 1 -1 
+274 1 -1 
+19 1 -1 
+531 1 -1 
+532 1 278 
+277 1 -1 
+25 1 -2 
+411 1 -1 
+34 1 -1 
+291 1 -1 
+425 1 -1 
+45 1 -1 
+687 1 -1 
+562 1 -1 
+819 1 -1 
+52 1 -1 
+436 1 -1 
+441 1 -1 
+697 1 -1 
+825 1 -1 
+572 1 -1 
+190 1 -1 
+64 1 -1 
+837 1 -1 
+455 1 -1 
+456 1 278 
+73 1 -1 
+714 1 -1 
+204 1 -1 
+205 1 8 
+83 1 -1 
+724 1 -1 
+853 1 -1 
+215 1 -1 
+599 1 278 
+728 1 8 
+352 1 -1 
+355 1 -1 
+484 1 -1 
+102 1 -1 
+614 1 278 
+488 1 -1 
+744 1 -1 
+489 1 278 
+234 1 -1 
+366 1 -1 
+750 1 -1 
+111 1 -2 
+370 1 -1 
+244 1 -1 
+253 1 -1 
+639 1 -1 
+Functions: 55
+384 0 
+513 20 -1 480 647 8 74 459 492 109 621 782 208 785 278 503 535 601 698 731 606 191 
+138 2 -2 109 
+266 26 -1 -2 70 647 8 74 459 782 208 785 278 151 535 473 601 731 92 606 610 168 492 109 621 628 698 191 
+652 17 640 610 70 647 168 459 492 621 628 278 535 151 601 473 635 92 606 
+15 1 -2 
+657 1 -2 
+785 2 785 782 
+278 8 278 535 647 601 459 492 621 606 
+664 1 -2 
+794 3 785 796 191 
+540 16 610 70 647 168 523 459 492 621 628 278 535 151 601 473 92 606 
+668 20 -1 647 8 74 459 492 109 621 782 208 785 658 278 535 601 698 731 635 606 191 
+545 1 -2 
+35 4 208 -2 8 731 
+420 1 -2 
+168 1 168 
+552 1 -2 
+300 3 305 785 191 
+556 20 -1 546 647 8 74 459 523 492 109 621 782 208 785 278 535 601 698 731 606 191 
+429 1 -2 
+815 1 -2 
+688 2 785 191 
+433 18 -1 647 8 74 459 492 109 621 782 208 785 278 535 601 698 731 606 191 
+307 27 -1 -2 70 647 8 74 459 782 208 785 278 151 535 473 601 731 92 606 610 168 492 109 621 305 628 698 191 
+53 4 208 -2 8 731 
+442 8 278 535 647 601 459 492 621 606 
+317 9 278 535 647 601 315 459 492 621 606 
+829 1 -2 
+833 1 816 
+836 19 -1 -2 647 8 74 459 492 109 621 782 208 785 278 535 601 698 731 606 191 
+325 3 305 785 191 
+581 8 278 535 647 601 459 492 621 606 
+200 1 -2 
+201 2 208 201 
+333 3 305 785 191 
+849 1 -2 
+341 9 278 535 647 601 315 459 492 621 606 
+473 1 473 
+218 1 -2 
+858 1 -2 
+862 19 -1 647 8 74 459 492 621 109 782 208 785 850 278 535 601 698 731 606 191 
+356 8 278 535 647 601 459 492 621 606 
+740 1 -2 
+232 3 785 222 191 
+365 26 -1 -2 70 647 8 74 459 782 208 785 278 151 535 473 601 731 92 606 610 168 492 109 621 628 698 191 
+621 1 621 
+497 16 480 610 70 647 168 459 492 621 628 278 535 151 601 473 92 606 
+754 1 -2 
+371 0 
+628 1 628 
+502 1 -2 
+758 1 741 
+122 2 -2 109 
+509 1 -2 
+Constructors: 3
+497 480
+540 523
+652 635
+
+Summary: 24
+168 850 523 622 816 635 -1 741 658 151 315 201 305 473 421 546 0 92 796 503 480 610 629 374 
+org/eclipse/jdt/internal/compiler/ast/JavadocAllocationExpression.isSuperAccess()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/JavadocAllocationExpression.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+13
+$r11 2 10 29 
+$r12 1 33 
+r0 1 -2 
+$r9 1 49 
+$r8 1 88 
+$r4 1 49 
+$r5 1 65 
+$r6 1 65 
+$r3 1 10 
+$r10 1 10 
+r1 1 -1 
+r2 1 -3 
+$r7 2 65 84 
+Fields: 7
+65 ArrayObject 88
+-1 typeArguments 10
+-1 arguments 65
+-1 type 49
+10 ArrayObject 33
+29 ArrayObject 33
+84 ArrayObject 88
+Accesses: 8
+48 1 -1 
+64 1 -1 
+18 1 -1 
+83 1 -1 
+55 1 -1 
+9 1 -1 
+73 1 -1 
+28 1 -1 
+Functions: 5
+0 8 -1 -2 65 49 33 -3 88 10 
+36 3 33 -2 -3 
+106 8 -1 -2 65 49 33 -3 88 10 
+91 3 -2 -3 88 
+61 3 49 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/JavadocAllocationExpression.<init>(II)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+6 1 -1 
+22 1 -1 
+11 1 -1 
+14 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/JavadocAllocationExpression.resolveType(Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r2 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/ast/JavadocAllocationExpression.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)V
+PTG:
+Vars:
+13
+r2 1 -3 
+$r3 1 10 
+$r4 1 49 
+$r5 1 65 
+$r10 1 10 
+r0 1 -2 
+$r8 1 88 
+$r12 1 33 
+$r9 1 49 
+$r11 2 10 29 
+$r6 1 65 
+$r7 2 65 84 
+r1 1 -1 
+Fields: 7
+65 ArrayObject 88
+-1 typeArguments 10
+-1 arguments 65
+-1 type 49
+10 ArrayObject 33
+29 ArrayObject 33
+84 ArrayObject 88
+Accesses: 8
+48 1 -1 
+64 1 -1 
+18 1 -1 
+83 1 -1 
+55 1 -1 
+9 1 -1 
+73 1 -1 
+28 1 -1 
+Functions: 5
+0 8 -1 -2 65 49 33 -3 88 10 
+36 3 33 -2 -3 
+106 8 -1 -2 65 49 33 -3 88 10 
+91 3 -2 -3 88 
+61 3 49 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/JavadocAllocationExpression.resolveType(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 

@@ -1,0 +1,651 @@
+27
+sun/nio/fs/UnixFileSystemProvider.getPath(Ljava/net/URI;)Ljava/nio/file/Path;
+PTG:
+Vars:
+5
+_ret 1 5 
+$r2 1 1 
+$r3 1 5 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 theFileSystem 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/nio/fs/UnixFileSystemProvider.createSymbolicLink(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)V
+PTG:
+Vars:
+10
+r11 1 -1 
+r4 1 -4 
+r3 1 10 
+r1 1 4 
+$r9 1 -1 
+$r7 1 45 
+r5 1 36 
+r0 1 -2 
+r2 1 -3 
+$r6 1 64 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -2 
+33 0 
+81 2 -1 4 
+19 1 -4 
+51 1 45 
+69 2 64 4 
+6 1 -3 
+54 2 36 45 
+59 1 4 
+29 0 
+62 1 10 
+Constructors: 1
+51 45
+
+Summary: 9
+36 64 -3 4 -2 45 -1 -4 10 
+sun/nio/fs/UnixFileSystemProvider.isHidden(Ljava/nio/file/Path;)Z
+PTG:
+Vars:
+5
+r1 1 4 
+r4 1 -1 
+r0 1 -2 
+r2 1 13 
+$r3 1 21 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+20 1 13 
+6 1 4 
+9 1 4 
+Constructors: 0
+
+Summary: 5
+4 -2 -1 13 21 
+sun/nio/fs/UnixFileSystemProvider.newByteChannel(Ljava/nio/file/Path;Ljava/util/Set;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/channels/SeekableByteChannel;
+PTG:
+Vars:
+7
+r2 1 -4 
+r7 1 -1 
+r0 1 -2 
+$r4 1 20 
+r3 1 -3 
+r1 1 4 
+$r5 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+18 2 -3 4 
+9 1 -4 
+30 2 -1 4 
+Constructors: 0
+
+Summary: 5
+-3 4 -2 -1 -4 
+sun/nio/fs/UnixFileSystemProvider.checkPath(Ljava/nio/file/Path;)Lsun/nio/fs/UnixPath;
+PTG:
+Vars:
+4
+r0 1 -2 
+_ret 1 -2 
+$r1 1 -2 
+r4 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+23 0 
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystemProvider.implDelete(Ljava/nio/file/Path;Z)Z
+PTG:
+Vars:
+5
+r0 1 -2 
+r1 1 4 
+$r2 1 -1 
+r6 1 -1 
+r7 1 17 
+Fields: 0
+Accesses: 0
+Functions: 13
+0 1 -2 
+98 0 
+35 1 4 
+6 1 4 
+70 1 -1 
+105 2 -1 4 
+13 1 4 
+46 1 -1 
+80 1 -1 
+19 1 17 
+28 1 4 
+62 1 17 
+94 1 4 
+Constructors: 0
+
+Summary: 5
+95 4 -2 17 -1 
+sun/nio/fs/UnixFileSystemProvider.getScheme()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystemProvider.newDirectoryStream(Ljava/nio/file/Path;Ljava/nio/file/DirectoryStream$Filter;)Ljava/nio/file/DirectoryStream;
+PTG:
+Vars:
+9
+r1 1 4 
+$r4 1 164 
+_ret 1 164 
+$r6 1 -1 
+r2 1 -3 
+r13 1 -1 
+$r10 1 -1 
+r0 1 -2 
+$r3 1 36 
+Fields: 0
+Accesses: 0
+Functions: 20
+0 1 -2 
+-1 0 
+64 1 4 
+161 2 -1 4 
+68 0 
+133 0 
+6 1 4 
+102 0 
+136 1 -1 
+75 2 -1 4 
+44 3 -3 36 4 
+174 3 -3 164 4 
+17 0 
+50 1 -1 
+150 1 4 
+89 1 4 
+122 0 
+154 0 
+30 1 4 
+95 0 
+Constructors: 2
+44 36
+174 164
+
+Summary: 6
+4 -2 65 -3 151 -1 
+sun/nio/fs/UnixFileSystemProvider.newFileChannel(Ljava/nio/file/Path;Ljava/util/Set;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/channels/FileChannel;
+PTG:
+Vars:
+7
+r2 1 5 
+r3 1 -4 
+$r5 1 21 
+$r6 1 -1 
+r4 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -1 -2 
+19 2 -3 5 
+10 1 -4 
+31 2 -1 5 
+Constructors: 0
+
+Summary: 5
+5 -3 -2 -1 -4 
+sun/nio/fs/UnixFileSystemProvider.readAttributes(Ljava/nio/file/Path;Ljava/lang/Class;[Ljava/nio/file/LinkOption;)Ljava/nio/file/attribute/BasicFileAttributes;
+PTG:
+Vars:
+9
+r5 1 -4 
+r4 1 -2 
+_ret 1 57 
+r9 2 21 8 
+$r7 1 51 
+r0 1 -3 
+r3 1 -1 
+$r6 1 51 
+$r8 1 57 
+Fields: 0
+Accesses: 0
+Functions: 4
+34 0 
+54 1 51 
+42 0 
+46 5 -1 -2 -4 21 8 
+Constructors: 0
+
+Summary: 5
+-3 -2 51 -1 -4 
+sun/nio/fs/UnixFileSystemProvider.getFileStore(Ljava/nio/file/Path;)Ljava/nio/file/FileStore;
+PTG:
+Vars:
+7
+r2 1 8 
+$r5 1 14 
+_ret 1 32 
+r3 1 -1 
+r1 1 4 
+$r4 1 32 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+20 1 14 
+5 0 
+23 2 8 14 
+27 1 4 
+30 2 -1 4 
+Constructors: 1
+20 14
+
+Summary: 5
+4 -2 8 -1 14 
+sun/nio/fs/UnixFileSystemProvider.newFileSystem(Ljava/net/URI;Ljava/util/Map;)Ljava/nio/file/FileSystem;
+PTG:
+Vars:
+4
+r1 1 -2 
+r3 1 -3 
+$r2 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 2 -1 -2 
+9 1 5 
+Constructors: 1
+9 5
+
+Summary: 3
+-3 -2 -1 
+sun/nio/fs/UnixFileSystemProvider.getFileTypeDetector()Ljava/nio/file/spi/FileTypeDetector;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -1 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystemProvider.createDirectory(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)V
+PTG:
+Vars:
+5
+$r3 1 -1 
+r0 1 -2 
+r1 1 4 
+r2 1 -3 
+r7 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+21 1 4 
+6 1 4 
+54 2 -1 4 
+43 1 4 
+12 1 -3 
+29 1 -1 
+47 0 
+Constructors: 0
+
+Summary: 5
+-3 4 -2 -1 44 
+sun/nio/fs/UnixFileSystemProvider.copy(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)V
+PTG:
+Vars:
+6
+r2 1 -3 
+r4 1 -4 
+$r1 1 1 
+r0 1 -2 
+r5 1 -1 
+$r3 1 5 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+4 1 -3 
+9 3 1 -4 5 
+Constructors: 0
+
+Summary: 6
+5 -3 1 -2 -1 -4 
+sun/nio/fs/UnixFileSystemProvider.getFileSystem(Ljava/net/URI;)Ljava/nio/file/FileSystem;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 6 
+r1 1 -2 
+$r2 1 6 
+Fields: 1
+-1 theFileSystem 6
+Accesses: 1
+5 1 -1 
+Functions: 1
+2 3 -1 -2 6 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/nio/fs/UnixFileSystemProvider.readSymbolicLink(Ljava/nio/file/Path;)Ljava/nio/file/Path;
+PTG:
+Vars:
+10
+$r3 1 40 
+$r7 1 -1 
+$r5 1 13 
+r10 1 -1 
+r12 1 38 
+r2 1 8 
+r1 1 4 
+r0 1 -2 
+$r4 1 45 
+$r6 1 18 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -2 
+17 1 4 
+81 2 -1 4 
+34 1 4 
+50 3 38 40 45 
+5 0 
+70 1 4 
+23 2 18 13 
+56 1 -1 
+74 0 
+44 1 4 
+31 2 8 13 
+Constructors: 2
+50 40
+23 13
+
+Summary: 9
+4 18 45 -2 71 8 -1 13 38 
+sun/nio/fs/UnixFileSystemProvider.chain([Lsun/nio/fs/AbstractFileTypeDetector;)Ljava/nio/file/spi/FileTypeDetector;
+PTG:
+Vars:
+4
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -1 -2 
+Constructors: 1
+6 0
+
+Summary: 2
+-2 -1 
+sun/nio/fs/UnixFileSystemProvider.checkUri(Ljava/net/URI;)V
+PTG:
+Vars:
+9
+$r4 1 25 
+r2 1 -1 
+$r1 1 1 
+$r6 1 59 
+r0 1 -2 
+$r7 1 81 
+$r5 1 42 
+$r3 1 5 
+$r8 1 98 
+Fields: 0
+Accesses: 0
+Functions: 15
+0 1 -2 
+1 2 1 5 
+97 1 -2 
+4 1 -1 
+37 0 
+41 1 -2 
+76 0 
+110 0 
+80 1 -2 
+20 0 
+54 0 
+24 1 -2 
+58 1 -2 
+59 1 59 
+93 0 
+Constructors: 0
+
+Summary: 10
+59 5 1 -2 25 0 42 -1 81 98 
+sun/nio/fs/UnixFileSystemProvider.createLink(Ljava/nio/file/Path;Ljava/nio/file/Path;)V
+PTG:
+Vars:
+8
+r0 1 -2 
+$r5 1 23 
+r4 1 14 
+r8 1 -1 
+r2 1 -3 
+r1 1 4 
+r3 1 9 
+$r6 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -2 
+32 2 23 14 
+36 1 4 
+5 1 -3 
+41 1 9 
+11 0 
+60 3 -1 4 9 
+29 1 23 
+47 2 4 9 
+Constructors: 1
+29 23
+
+Summary: 7
+23 14 -3 4 -2 -1 9 
+sun/nio/fs/UnixFileSystemProvider.<init>()V
+PTG:
+Vars:
+3
+$r2 1 13 
+r0 1 -1 
+r1 1 9 
+Fields: 0
+Accesses: 1
+16 1 -1 
+Functions: 3
+1 1 -1 
+4 0 
+11 2 -1 9 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 9 
+sun/nio/fs/UnixFileSystemProvider.getFileAttributeView(Ljava/nio/file/Path;Ljava/lang/Class;[Ljava/nio/file/LinkOption;)Ljava/nio/file/attribute/FileAttributeView;
+PTG:
+Vars:
+7
+r0 1 -2 
+r9 1 -1 
+_ret 0 
+r3 1 -3 
+r1 1 4 
+$r4 0 
+r2 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+48 1 4 
+34 1 4 
+20 1 4 
+6 1 -4 
+62 0 
+Constructors: 0
+
+Summary: 5
+-3 4 -2 -1 -4 
+sun/nio/fs/UnixFileSystemProvider.getFileAttributeView(Ljava/nio/file/Path;Ljava/lang/String;[Ljava/nio/file/LinkOption;)Lsun/nio/fs/DynamicFileAttributeView;
+PTG:
+Vars:
+5
+r2 1 -4 
+r8 1 -1 
+r3 1 -3 
+r1 1 4 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -2 
+6 1 -4 
+23 1 4 
+40 1 4 
+57 1 4 
+74 1 4 
+12 1 -3 
+29 1 -3 
+46 1 -3 
+63 1 -3 
+Constructors: 0
+
+Summary: 5
+-3 4 -2 -1 -4 
+sun/nio/fs/UnixFileSystemProvider.isSameFile(Ljava/nio/file/Path;Ljava/nio/file/Path;)Z
+PTG:
+Vars:
+7
+r4 1 56 
+r9 1 -1 
+r5 1 77 
+r0 1 -2 
+r2 1 -3 
+r3 1 -3 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -2 
+48 1 -3 
+66 1 4 
+52 1 4 
+5 2 -3 4 
+23 0 
+88 1 -3 
+73 1 -3 
+43 1 4 
+93 2 56 77 
+Constructors: 0
+
+Summary: 6
+77 -3 4 -2 -1 56 
+sun/nio/fs/UnixFileSystemProvider.checkAccess(Ljava/nio/file/Path;[Ljava/nio/file/AccessMode;)V
+PTG:
+Vars:
+9
+r8 1 -1 
+$r7 1 -1 
+r1 1 4 
+r4 1 51 
+r10 1 177 
+r0 1 -2 
+$r5 1 53 
+r2 1 -3 
+$r3 1 187 
+Fields: 1
+-3 ArrayObject 51
+Accesses: 0
+Functions: 10
+0 1 -2 
+112 0 
+160 1 4 
+213 2 -1 4 
+56 1 51 
+136 1 4 
+186 1 4 
+202 1 4 
+174 0 
+190 2 177 187 
+Constructors: 0
+
+Summary: 7
+-3 4 177 -2 51 -1 187 
+sun/nio/fs/UnixFileSystemProvider.newAsynchronousFileChannel(Ljava/nio/file/Path;Ljava/util/Set;Ljava/util/concurrent/ExecutorService;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/channels/AsynchronousFileChannel;
+PTG:
+Vars:
+9
+r6 1 -3 
+r4 1 -4 
+r2 1 5 
+$r8 1 -1 
+r0 1 -1 
+r1 1 -2 
+r3 1 -5 
+$r7 1 39 
+$r10 1 27 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 2 -1 -2 
+49 2 -1 5 
+37 3 -3 5 27 
+10 1 -5 
+26 1 -4 
+Constructors: 0
+
+Summary: 7
+-5 5 27 -3 -2 -1 -4 
+sun/nio/fs/UnixFileSystemProvider.move(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)V
+PTG:
+Vars:
+6
+r4 1 -4 
+$r3 1 5 
+r2 1 -3 
+r0 1 -2 
+$r1 1 1 
+r5 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+4 1 -3 
+9 3 1 -4 5 
+Constructors: 0
+
+Summary: 6
+5 -3 1 -2 -1 -4 

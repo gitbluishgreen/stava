@@ -1,0 +1,1730 @@
+81
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+8
+$r6 1 41 
+$r7 1 47 
+$r5 1 14 
+r3 1 -4 
+r2 1 -3 
+r4 1 -5 
+r0 1 -1 
+r1 1 -2 
+Fields: 2
+-1 m_wsfilter 14
+-1 m_parents 47
+Accesses: 2
+13 1 -1 
+46 1 -1 
+Functions: 6
+20 1 -5 
+37 1 -5 
+53 4 -1 41 14 47 
+6 7 -1 -2 -3 -4 -5 14 47 
+10 3 -1 14 47 
+47 1 47 
+Constructors: 0
+
+Summary: 10
+-1 2 41 -5 1 -4 -3 0 -2 3 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getNamespaceAxisIterator(II)Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;
+PTG:
+Vars:
+3
+_ret 1 56 
+$r3 1 56 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+52 1 -1 
+42 1 -1 
+63 2 -1 56 
+Constructors: 1
+63 56
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getTypedChildren(I)Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 0 -1 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.setDocumentURI(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+$r2 1 6 
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 1 -2 
+9 2 -1 6 
+Constructors: 0
+
+Summary: 4
+-1 6 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.lessThan(II)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getIterator()Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;
+PTG:
+Vars:
+3
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 1 -1 
+10 2 0 -1 
+Constructors: 1
+10 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.makeNodeList(I)Lorg/w3c/dom/NodeList;
+PTG:
+Vars:
+7
+_ret 1 82 
+$r15 1 82 
+$r14 1 87 
+$r10 1 12 
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 _nodeLists 1
+Accesses: 7
+0 1 -1 
+48 1 -1 
+39 1 -1 
+8 1 -1 
+57 1 -1 
+15 1 -1 
+31 1 -1 
+Functions: 5
+96 4 -1 1 82 87 
+18 2 -1 1 
+73 2 -1 1 
+76 2 -1 1 
+93 3 -1 1 87 
+Constructors: 2
+96 82
+93 87
+
+Summary: 3
+-1 67 87 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.copyPI(ILcom/sun/org/apache/xml/internal/serializer/SerializationHandler;)V
+PTG:
+Vars:
+4
+r3 1 -3 
+r2 1 11 
+r0 1 -1 
+r1 1 5 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+17 3 -3 5 11 
+33 0 
+6 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 5 11 1 -3 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.ignorableWhitespace([CII)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 2
+4 2 -1 -2 
+8 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.xmlSpaceDefine(Ljava/lang/String;I)V
+PTG:
+Vars:
+3
+r1 1 -1 
+r0 1 -2 
+$r2 1 16 
+Fields: 1
+-1 _xmlSpaceStack 16
+Accesses: 5
+34 1 -1 
+19 1 -1 
+8 1 -1 
+27 1 -1 
+15 1 -1 
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.makeNodeList(Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;)Lorg/w3c/dom/NodeList;
+PTG:
+Vars:
+4
+r1 1 -1 
+_ret 1 0 
+r2 1 -2 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -1 -2 
+Constructors: 1
+6 0
+
+Summary: 2
+-1 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getNamespaceMapping([Ljava/lang/String;)[S
+PTG:
+Vars:
+9
+r1 1 -1 
+_ret 1 11 
+$r3 1 44 
+r7 1 59 
+r0 1 -2 
+$r6 1 59 
+r2 1 11 
+$r5 1 56 
+$r4 1 51 
+Fields: 2
+-1 _nsIndex 51
+-2 ArrayObject 44
+Accesses: 2
+50 1 -1 
+3 1 -1 
+Functions: 4
+51 2 51 56 
+54 0 
+41 3 -1 51 44 
+76 1 59 
+Constructors: 0
+
+Summary: 5
+-1 59 44 56 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.copy(ILcom/sun/org/apache/xml/internal/serializer/SerializationHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-1 1 -3 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getAttributeNode(II)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+22 1 -1 
+11 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getNSType(I)I
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 19 
+$r4 1 26 
+r1 1 5 
+$r3 1 23 
+$r5 1 26 
+Fields: 1
+-1 _nsIndex 19
+Accesses: 1
+18 1 -1 
+Functions: 5
+0 2 -1 19 
+19 2 19 23 
+22 0 
+12 3 -1 19 5 
+31 1 26 
+Constructors: 0
+
+Summary: 4
+-1 5 23 26 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getMapping2([Ljava/lang/String;[Ljava/lang/String;[I)[S
+PTG:
+Vars:
+12
+r10 1 23 
+$r7 1 56 
+$r2 1 5 
+_ret 1 100 
+r0 1 -2 
+$r8 1 52 
+r1 1 -1 
+r5 1 -3 
+r6 1 -4 
+r3 1 100 
+$r9 1 5 
+$r4 1 5 
+Fields: 3
+-1 m_expandedNameTable 5
+-3 ArrayObject 52
+-2 ArrayObject 56
+Accesses: 4
+66 1 -1 
+4 1 -1 
+45 1 -1 
+143 1 -1 
+Functions: 3
+144 1 5 
+5 1 5 
+46 3 52 5 56 
+Constructors: 0
+
+Summary: 10
+23 1 -3 -1 2 -4 52 56 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.lookupNamespace(ILjava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r4 1 -3 
+$r0 1 0 
+$r5 1 42 
+r1 1 -1 
+$r8 1 74 
+Fields: 0
+Accesses: 0
+Functions: 12
+97 1 -3 
+20 1 0 
+84 1 -1 
+5 2 0 -1 
+55 1 42 
+71 1 -1 
+10 1 -1 
+74 2 -3 74 
+27 1 0 
+59 1 42 
+31 1 0 
+47 2 -1 42 
+Constructors: 2
+5 0
+47 42
+
+Summary: 5
+-1 42 -3 74 0 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.xmlSpaceRevert(I)V
+PTG:
+Vars:
+2
+$r1 1 2 
+r0 1 -1 
+Fields: 1
+-1 _xmlSpaceStack 2
+Accesses: 6
+1 1 -1 
+5 1 -1 
+22 1 -1 
+38 1 -1 
+26 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getElementsWithIDs()Ljava/util/Map;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 m_idAttributes 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.copy(ILcom/sun/org/apache/xml/internal/serializer/SerializationHandler;Z)V
+PTG:
+Vars:
+12
+$r6 1 166 
+$r8 1 383 
+r0 1 -1 
+$r2 1 239 
+$r7 1 378 
+$r5 1 166 
+r1 1 -3 
+$r3 1 244 
+r13 1 270 
+r15 1 363 
+$r4 1 148 
+r14 1 348 
+Fields: 1
+-1 _dontEscape 166
+Accesses: 2
+165 1 -1 
+172 1 -1 
+Functions: 35
+0 2 -1 166 
+321 2 -1 166 
+386 3 -3 378 383 
+261 3 -1 -3 166 
+7 2 -1 166 
+139 3 -1 -3 166 
+204 3 -1 -3 166 
+15 2 -1 166 
+335 2 -3 270 
+146 2 -1 166 
+402 0 
+151 2 -3 148 
+215 1 -3 
+343 2 -1 166 
+285 3 -1 -3 166 
+350 1 348 
+96 2 -1 166 
+292 3 -1 -3 166 
+230 3 -1 -3 166 
+358 2 -1 166 
+295 2 -1 166 
+173 1 166 
+237 2 -1 166 
+111 2 -1 166 
+176 2 -1 166 
+242 2 -1 166 
+370 3 -3 363 348 
+310 2 -1 166 
+119 3 -1 -3 166 
+247 3 -3 244 239 
+376 2 -1 166 
+122 2 -1 166 
+381 2 -1 166 
+318 3 -1 -3 166 
+191 1 -3 
+Constructors: 0
+
+Summary: 11
+148 244 1 348 -3 -1 363 383 270 378 239 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getNamespaceType(I)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.migrateTo(Lcom/sun/org/apache/xml/internal/dtm/DTMManager;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+17 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 0 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.access$300(Lcom/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl;I)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.access$400(Lcom/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl;I)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.release()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 _dtmManager 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+9
+r5 1 -6 
+$r8 1 29 
+r1 1 -2 
+r3 1 -4 
+$r7 1 17 
+r2 1 -3 
+r0 1 -1 
+$r6 1 23 
+r4 1 -5 
+Fields: 2
+-1 _node2Ids 17
+-1 m_parents 23
+Accesses: 3
+16 1 -1 
+22 1 -1 
+9 1 -1 
+Functions: 4
+32 3 17 -6 29 
+6 7 -1 17 -2 -3 -4 -5 23 
+23 1 23 
+26 0 
+Constructors: 0
+
+Summary: 12
+-5 1 -6 -3 4 -1 2 29 -4 0 -2 3 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.endDocument()V
+PTG:
+Vars:
+2
+$r1 1 10 
+r0 1 -1 
+Fields: 1
+-1 m_expandedNameTable 10
+Accesses: 2
+16 1 -1 
+9 1 -1 
+Functions: 3
+1 2 -1 10 
+5 2 -1 10 
+10 1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.comment([CII)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 2 -1 -2 
+8 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.<init>(Lcom/sun/org/apache/xalan/internal/xsltc/dom/XSLTCDTMManager;Ljavax/xml/transform/Source;ILcom/sun/org/apache/xml/internal/dtm/DTMWSFilter;Lcom/sun/org/apache/xml/internal/utils/XMLStringFactory;ZZ)V
+PTG:
+Vars:
+5
+r2 1 -3 
+r4 1 -6 
+r0 1 -1 
+r1 1 -2 
+r3 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 1
+16 5 -1 -2 -3 -5 -6 
+Constructors: 1
+16 -1
+
+Summary: 5
+-1 -5 -6 -3 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getResultTreeFrag(II)Lcom/sun/org/apache/xalan/internal/xsltc/DOM;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 4 
+$r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getNodeName(I)Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 91 
+r0 1 -1 
+$r2 1 91 
+Fields: 0
+Accesses: 0
+Functions: 3
+2 1 -1 
+83 1 -1 
+89 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getTypedDescendantIterator(I)Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 0 -1 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.setFilter(Lcom/sun/org/apache/xalan/internal/xsltc/StripFilter;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.print(II)V
+PTG:
+Vars:
+26
+$r7 1 109 
+$r24 1 171 
+$r22 1 163 
+r3 1 92 
+$r18 1 143 
+$r2 1 78 
+$r12 1 244 
+$r25 1 174 
+r0 1 -1 
+$r17 1 131 
+$r10 1 235 
+$r4 1 96 
+$r5 1 93 
+$r11 1 232 
+$r14 1 253 
+$r23 1 166 
+$r19 1 149 
+$r21 1 157 
+$r1 1 73 
+$r16 1 134 
+$r6 1 105 
+$r13 1 248 
+$r8 1 112 
+$r9 1 191 
+$r20 1 152 
+$r15 1 256 
+Fields: 0
+Accesses: 0
+Functions: 33
+0 1 -1 
+67 1 -1 
+259 2 256 232 
+196 1 191 
+134 1 134 
+199 1 -1 
+138 1 134 
+76 1 -1 
+143 2 149 143 
+81 2 73 78 
+146 1 -1 
+87 1 -1 
+152 1 152 
+218 1 -1 
+157 2 163 157 
+221 1 -1 
+96 1 96 
+160 1 -1 
+100 1 96 
+166 1 166 
+105 2 105 92 
+171 1 171 
+235 1 235 
+109 1 109 
+239 1 235 
+177 2 131 174 
+115 2 112 93 
+180 1 -1 
+244 2 244 92 
+118 1 -1 
+248 1 248 
+61 1 -1 
+253 1 253 
+Constructors: 3
+100 96
+138 134
+239 235
+
+Summary: 21
+244 149 157 253 -1 105 92 152 96 248 256 143 78 235 134 174 166 109 171 163 112 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.isAttribute(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getShouldStripWhitespace()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+11 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getNthDescendant(IIZ)Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 0 -1 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getGeneralizedType(Ljava/lang/String;)I
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.orderNodes(Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;I)Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;
+PTG:
+Vars:
+4
+_ret 1 0 
+$r0 1 0 
+r2 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 2
+-1 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.shallowCopy(ILcom/sun/org/apache/xml/internal/serializer/SerializationHandler;)Ljava/lang/String;
+PTG:
+Vars:
+12
+$r3 1 152 
+r0 1 -1 
+$r6 1 207 
+$r4 1 134 
+$r9 1 -1 
+r8 1 192 
+$r2 1 147 
+$r7 1 212 
+r5 1 177 
+$r10 1 224 
+r1 1 -3 
+r11 1 100 
+Fields: 0
+Accesses: 0
+Functions: 21
+0 1 -1 
+132 1 -1 
+6 1 -1 
+230 2 224 -1 
+167 2 -1 -3 
+199 3 192 177 -3 
+137 2 -3 134 
+106 2 -1 -3 
+172 1 -1 
+13 1 -1 
+205 1 -1 
+145 1 -1 
+210 1 -1 
+179 1 177 
+118 2 -1 -3 
+150 1 -1 
+215 3 -3 212 207 
+155 3 -3 147 152 
+187 1 -1 
+92 2 -1 -3 
+126 2 -1 -3 
+Constructors: 1
+230 224
+
+Summary: 9
+152 192 212 147 177 -3 134 -1 207 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.access$200(Lcom/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl;I)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.makeNode(I)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+6
+$r11 1 74 
+_ret 1 74 
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+$r8 1 12 
+Fields: 1
+-1 _nodes 1
+Accesses: 7
+0 1 -1 
+48 1 -1 
+39 1 -1 
+8 1 -1 
+57 1 -1 
+15 1 -1 
+31 1 -1 
+Functions: 3
+80 3 -1 1 74 
+18 2 -1 1 
+68 2 -1 1 
+Constructors: 1
+80 74
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.setupMapping([Ljava/lang/String;[Ljava/lang/String;[I[Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r3 1 -4 
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+r4 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-1 -5 -4 -3 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getLanguage(I)Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+16 1 -1 
+37 1 -1 
+8 1 -1 
+31 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.handleTextEscaping()V
+PTG:
+Vars:
+7
+$r2 1 28 
+$r1 1 28 
+$r5 1 28 
+$r4 1 28 
+$r3 1 28 
+r0 1 -1 
+$r6 1 35 
+Fields: 1
+-1 _dontEscape 28
+Accesses: 14
+0 1 -1 
+97 1 -1 
+67 1 -1 
+7 1 -1 
+39 1 -1 
+46 1 -1 
+79 1 -1 
+16 1 -1 
+49 1 -1 
+83 1 -1 
+53 1 -1 
+27 1 -1 
+92 1 -1 
+63 1 -1 
+Functions: 6
+68 1 28 
+54 1 28 
+87 1 28 
+43 1 35 
+76 1 28 
+15 2 -1 28 
+Constructors: 1
+43 35
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.access$100(Lcom/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl;)Lcom/sun/org/apache/xml/internal/dtm/ref/ExpandedNameTable;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -2 
+Fields: 1
+-2 m_expandedNameTable 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getUnparsedEntityURI(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 97 
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+$r3 1 97 
+Fields: 1
+-1 _document 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 7
+85 0 
+39 1 -2 
+24 0 
+73 0 
+11 0 
+59 0 
+95 3 -1 1 -2 
+Constructors: 0
+
+Summary: 6
+-1 19 42 30 -2 66 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getElementById(Ljava/lang/String;)I
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+r3 1 10 
+Fields: 1
+-1 _document 1
+Accesses: 2
+0 1 -1 
+15 1 -1 
+Functions: 3
+16 1 10 
+1 2 1 -2 
+33 0 
+Constructors: 0
+
+Summary: 5
+-1 10 20 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.hasDOMSource()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.characters([CII)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+20 1 -1 
+8 1 -1 
+28 1 -1 
+Functions: 2
+4 2 -1 -2 
+24 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.<init>(Lcom/sun/org/apache/xalan/internal/xsltc/dom/XSLTCDTMManager;Ljavax/xml/transform/Source;ILcom/sun/org/apache/xml/internal/dtm/DTMWSFilter;Lcom/sun/org/apache/xml/internal/utils/XMLStringFactory;ZIZZ)V
+PTG:
+Vars:
+13
+r0 1 -1 
+$r11 1 180 
+r2 1 -3 
+$r12 1 146 
+r8 1 -3 
+r4 1 -6 
+$r7 1 117 
+$r10 1 171 
+$r6 1 111 
+r1 1 -2 
+$r5 1 56 
+r9 1 146 
+r3 1 -5 
+Fields: 1
+-1 _xmlSpaceStack 117
+Accesses: 20
+32 1 -1 
+162 1 -1 
+68 1 -1 
+132 1 -1 
+37 1 -1 
+73 1 -1 
+42 1 -1 
+78 1 -1 
+47 1 -1 
+176 1 -1 
+113 1 -1 
+83 1 -1 
+52 1 -1 
+116 1 -1 
+22 1 -1 
+88 1 -1 
+27 1 -1 
+187 1 -1 
+94 1 -1 
+63 1 -1 
+Functions: 5
+17 6 -1 -2 -3 -5 117 -6 
+184 1 180 
+169 1 146 
+60 1 56 
+141 1 -3 
+Constructors: 3
+17 -1
+184 180
+60 56
+
+Summary: 8
+-5 1 -6 -3 4 -1 0 3 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getGeneralizedType(Ljava/lang/String;Z)I
+PTG:
+Vars:
+5
+r4 1 26 
+r0 1 -2 
+r2 1 -1 
+$r3 1 74 
+$r5 2 69 -2 
+Fields: 1
+-1 m_expandedNameTable 74
+Accesses: 1
+73 1 -1 
+Functions: 5
+34 1 -2 
+66 1 -2 
+19 1 -2 
+6 1 -2 
+74 4 -2 69 74 26 
+Constructors: 0
+
+Summary: 4
+-1 69 26 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.processingInstruction(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 3 -1 -2 -3 
+7 1 -1 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.copy(Lcom/sun/org/apache/xml/internal/serializer/SerializationHandler;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+6 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getResultTreeFrag(IIZ)Lcom/sun/org/apache/xalan/internal/xsltc/DOM;
+PTG:
+Vars:
+6
+_ret 1 163 
+r0 1 -1 
+$r2 1 146 
+$r1 1 152 
+$r3 1 163 
+$r4 1 163 
+Fields: 2
+-1 _dtmManager 146
+-1 m_wsfilter 152
+Accesses: 15
+35 1 -1 
+99 1 -1 
+132 1 -1 
+8 1 -1 
+72 1 -1 
+137 1 -1 
+108 1 -1 
+145 1 -1 
+21 1 -1 
+85 1 -1 
+54 1 -1 
+151 1 -1 
+94 1 -1 
+127 1 -1 
+159 1 -1 
+Functions: 9
+146 2 146 152 
+117 0 
+103 0 
+9 0 
+73 0 
+59 0 
+44 0 
+141 0 
+30 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getDocumentURI(I)Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.makeNode(Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;)Lorg/w3c/dom/Node;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 7 
+$r2 1 7 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.endElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+r3 1 -4 
+r2 1 -3 
+$r4 1 12 
+r0 1 -1 
+Fields: 1
+-1 m_wsfilter 12
+Accesses: 2
+19 1 -1 
+11 1 -1 
+Functions: 3
+4 5 -1 -2 -3 -4 12 
+23 2 -1 12 
+8 2 -1 12 
+Constructors: 0
+
+Summary: 7
+-1 2 1 -4 -3 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.isElement(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.setEscaping(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getAttributeValue(Ljava/lang/String;I)Ljava/lang/String;
+PTG:
+Vars:
+4
+_ret 1 7 
+r0 1 -1 
+r1 1 -2 
+$r2 1 7 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getNodeValueIterator(Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;ILjava/lang/String;Z)Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;
+PTG:
+Vars:
+5
+r2 1 -2 
+r3 1 -4 
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 4 0 -1 -2 -4 
+Constructors: 1
+10 0
+
+Summary: 3
+-1 -4 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getSize()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.access$000(Lcom/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl;)Lcom/sun/org/apache/xml/internal/dtm/ref/ExpandedNameTable;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -2 
+$r1 1 1 
+Fields: 1
+-2 m_expandedNameTable 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getMapping([Ljava/lang/String;[Ljava/lang/String;[I)[S
+PTG:
+Vars:
+11
+r0 1 -1 
+r3 1 30 
+_ret 1 30 
+$r9 1 20 
+r4 1 -3 
+r5 1 -4 
+$r2 1 20 
+$r8 1 20 
+$r7 1 106 
+$r6 1 110 
+r1 1 -2 
+Fields: 3
+-1 m_expandedNameTable 20
+-3 ArrayObject 106
+-2 ArrayObject 110
+Accesses: 4
+0 1 -1 
+19 1 -1 
+99 1 -1 
+73 1 -1 
+Functions: 4
+20 1 20 
+100 3 20 106 110 
+7 7 -1 -2 -3 -4 20 106 110 
+74 1 20 
+Constructors: 0
+
+Summary: 9
+1 -3 106 110 -1 2 -4 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getAttributeValue(II)Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 2 20 14 
+r0 1 -1 
+$r1 2 20 14 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+12 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.startDocument()V
+PTG:
+Vars:
+4
+$r2 1 9 
+r0 1 -1 
+$r1 1 5 
+$r3 1 23 
+Fields: 1
+-1 _nsIndex 5
+Accesses: 3
+4 1 -1 
+20 1 -1 
+12 1 -1 
+Functions: 5
+1 2 -1 5 
+37 2 -1 5 
+8 0 
+26 3 5 23 9 
+14 0 
+Constructors: 0
+
+Summary: 3
+-1 9 23 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.definePrefixAndUri(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+8
+r2 1 8 
+$r5 1 10 
+$r4 1 14 
+r1 1 -3 
+r0 1 -1 
+$r3 1 10 
+$r6 1 38 
+r8 1 -2 
+Fields: 1
+-1 _nsIndex 10
+Accesses: 4
+35 1 -1 
+22 1 -1 
+9 1 -1 
+27 1 -1 
+Functions: 5
+0 3 -1 -3 10 
+2 0 
+41 3 38 8 10 
+10 2 8 10 
+29 0 
+Constructors: 0
+
+Summary: 8
+-1 1 8 14 -3 38 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getReverseNamespaceMapping([Ljava/lang/String;)[S
+PTG:
+Vars:
+9
+r1 1 4 
+_ret 1 4 
+$r4 1 25 
+r0 1 -2 
+$r5 1 30 
+$r6 1 33 
+r2 1 -1 
+$r3 1 18 
+r7 1 33 
+Fields: 2
+-1 _nsIndex 25
+-2 ArrayObject 18
+Accesses: 1
+24 1 -1 
+Functions: 4
+55 1 33 
+25 2 25 30 
+28 0 
+15 3 -1 18 25 
+Constructors: 0
+
+Summary: 5
+-1 33 18 30 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getTypedAxisIterator(II)Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;
+PTG:
+Vars:
+2
+$r18 1 272 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 20
+192 1 -1 
+225 1 -1 
+163 0 
+196 0 
+136 1 -1 
+169 1 -1 
+265 1 -1 
+202 1 -1 
+11 1 -1 
+235 1 -1 
+140 0 
+271 0 
+145 1 -1 
+275 1 272 
+245 1 -1 
+182 1 -1 
+215 1 -1 
+126 1 -1 
+159 1 -1 
+255 1 -1 
+Constructors: 0
+
+Summary: 2
+272 -1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getAxisIterator(I)Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;
+PTG:
+Vars:
+2
+r1 1 -1 
+$r17 1 231 
+Fields: 0
+Accesses: 0
+Functions: 18
+128 1 -1 
+224 1 -1 
+162 0 
+132 0 
+101 1 -1 
+197 1 -1 
+230 0 
+167 1 -1 
+137 1 -1 
+234 1 231 
+110 1 -1 
+206 1 -1 
+179 1 -1 
+149 1 -1 
+119 1 -1 
+215 1 -1 
+188 1 -1 
+158 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 231 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.startPrefixMapping(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+3 3 -1 -2 -3 
+7 1 -1 
+13 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.copy(Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;Lcom/sun/org/apache/xml/internal/serializer/SerializationHandler;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 -3 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+15 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-1 -3 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getBuilder()Lcom/sun/org/apache/xalan/internal/xsltc/dom/DOMBuilder;
+PTG:
+Vars:
+2
+_ret 1 -1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getReverseMapping([Ljava/lang/String;[Ljava/lang/String;[I)[I
+PTG:
+Vars:
+9
+r4 1 -4 
+_ret 1 5 
+r2 1 -1 
+$r7 1 43 
+r0 1 -2 
+$r6 1 49 
+$r5 1 53 
+r3 1 -3 
+r1 1 5 
+Fields: 3
+-1 m_expandedNameTable 43
+-3 ArrayObject 49
+-2 ArrayObject 53
+Accesses: 1
+42 1 -1 
+Functions: 1
+43 3 49 53 43 
+Constructors: 0
+
+Summary: 9
+-1 2 49 53 1 -4 -3 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getOutputDomBuilder()Lcom/sun/org/apache/xml/internal/serializer/SerializationHandler;
+PTG:
+Vars:
+3
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 0 -1 
+Constructors: 1
+7 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.characters(ILcom/sun/org/apache/xml/internal/serializer/SerializationHandler;)V
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+21 0 
+9 2 -1 -3 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getNamespaceName(I)Ljava/lang/String;
+PTG:
+Vars:
+4
+_ret 2 18 10 
+$r3 2 18 10 
+$r1 1 10 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getChildren(I)Lcom/sun/org/apache/xml/internal/dtm/DTMAxisIterator;
+PTG:
+Vars:
+4
+_ret 1 9 
+$r0 1 0 
+$r2 1 9 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 0 
+5 2 0 -1 
+Constructors: 1
+5 0
+
+Summary: 2
+-1 0 
+com/sun/org/apache/xalan/internal/xsltc/dom/SAXImpl.getDocumentURI()Ljava/lang/String;
+PTG:
+Vars:
+7
+$r4 1 34 
+_ret 2 37 4 
+r1 1 4 
+$r3 1 22 
+$r2 1 13 
+$r5 2 37 4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -1 
+17 1 13 
+34 1 34 
+22 1 22 
+13 1 13 
+Constructors: 1
+17 13
+
+Summary: 4
+-1 22 34 13 

@@ -1,0 +1,579 @@
+20
+spec/jbb/District.<init>(SB)V
+PTG:
+Vars:
+4
+$r2 1 31 
+r0 1 -1 
+$r1 1 15 
+$r3 1 38 
+Fields: 0
+Accesses: 6
+34 1 -1 
+6 1 -1 
+22 1 -1 
+41 1 -1 
+11 1 -1 
+27 1 -1 
+Functions: 3
+-1 0 
+1 1 -1 
+19 1 15 
+Constructors: 2
+1 -1
+19 15
+
+Summary: 1
+-1 
+spec/jbb/District.newOrderIter()Ljava/util/Iterator;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 4 
+_ret 1 4 
+$r1 1 1 
+Fields: 1
+-1 newOrderTable 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+spec/jbb/District.getOrderTable()Lspec/jbb/JBBDataStorage;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 orderTable 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+spec/jbb/District.nextOrderId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+spec/jbb/District.removeNewOrder(Ljava/lang/Object;)Lspec/jbb/NewOrder;
+PTG:
+Vars:
+9
+r4 1 5 
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+_ret 1 19 
+$r3 1 5 
+$r6 1 19 
+$r5 1 1 
+$r7 1 19 
+Fields: 1
+-1 newOrderTable 1
+Accesses: 2
+0 1 -1 
+14 1 -1 
+Functions: 2
+1 2 1 -2 
+15 2 1 -2 
+Constructors: 0
+
+Summary: 4
+5 0 -2 -1 
+spec/jbb/District.retrieveOrder(Lspec/jbb/Order;)Lspec/jbb/Order;
+PTG:
+Vars:
+7
+$r3 1 8 
+r0 1 -1 
+r1 1 -2 
+_ret 1 11 
+$r2 1 1 
+$r4 1 11 
+$r5 1 11 
+Fields: 1
+-1 orderTable 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 2 1 8 
+4 1 -2 
+5 0 
+Constructors: 0
+
+Summary: 3
+8 -2 -1 
+spec/jbb/District.lastOrderId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+spec/jbb/District.getName()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 name 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+spec/jbb/District.removeOldNewOrders(I)V
+PTG:
+Vars:
+30
+$r14 1 149 
+$r19 1 180 
+$r29 1 78 
+$r22 1 39 
+$r3 1 84 
+$r18 1 177 
+$r11 1 133 
+$r2 1 1 
+$r8 1 1 
+$r20 1 27 
+$r26 1 63 
+$r15 1 158 
+$r9 1 124 
+$r13 1 141 
+$r10 1 129 
+$r4 1 87 
+$r1 1 1 
+r5 1 99 
+$r17 1 170 
+$r25 1 58 
+$r23 1 46 
+$r16 1 165 
+$r7 1 112 
+$r27 1 1 
+$r6 1 103 
+$r21 1 30 
+$r24 1 51 
+r0 1 -1 
+$r28 1 75 
+$r12 1 138 
+Fields: 1
+-1 newOrderTable 1
+Accesses: 8
+0 1 -1 
+161 1 -1 
+66 1 -1 
+115 1 -1 
+54 1 -1 
+10 1 -1 
+42 1 -1 
+173 1 -1 
+Functions: 31
+-1 0 
+1 1 1 
+129 1 129 
+67 1 1 
+133 1 133 
+138 1 138 
+11 1 1 
+75 1 75 
+144 2 99 141 
+81 2 27 78 
+84 2 84 87 
+149 1 149 
+153 1 149 
+30 1 30 
+158 1 158 
+96 0 
+34 1 30 
+165 1 165 
+39 1 39 
+103 1 103 
+170 1 170 
+107 1 103 
+46 1 46 
+112 1 112 
+177 1 177 
+51 1 51 
+116 1 1 
+183 2 99 180 
+58 1 58 
+124 1 124 
+63 1 63 
+Constructors: 3
+34 30
+153 149
+107 103
+
+Summary: 1
+-1 
+spec/jbb/District.addOrder(Lspec/jbb/Order;)V
+PTG:
+Vars:
+4
+$r3 1 8 
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 orderTable 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+4 1 -2 
+5 0 
+12 3 1 -2 8 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+spec/jbb/District.getId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+spec/jbb/District.getAddress()Lspec/jbb/Address;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 address 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+spec/jbb/District.removeOldestOrder()V
+PTG:
+Vars:
+11
+$r7 1 55 
+$r4 1 36 
+$r9 1 67 
+$r5 1 43 
+$r6 1 48 
+$r3 1 27 
+r0 1 -1 
+$r8 1 60 
+$r2 1 24 
+$r10 1 70 
+$r1 1 11 
+Fields: 1
+-1 orderTable 11
+Accesses: 6
+0 1 -1 
+51 1 -1 
+7 1 -1 
+39 1 -1 
+10 1 -1 
+63 1 -1 
+Functions: 11
+-1 0 
+48 1 48 
+67 1 67 
+36 1 36 
+55 1 55 
+73 2 70 24 
+11 1 11 
+27 1 27 
+43 1 43 
+60 1 60 
+31 1 27 
+Constructors: 1
+31 27
+
+Summary: 10
+27 55 67 70 43 36 48 24 60 -1 
+spec/jbb/District.setUsingRandom()V
+PTG:
+Vars:
+7
+$r4 1 47 
+$r1 1 1 
+$r3 1 23 
+r0 1 -1 
+$r5 1 58 
+$r6 1 69 
+$r2 1 13 
+Fields: 1
+-1 address 23
+Accesses: 7
+19 1 -1 
+22 1 -1 
+38 1 -1 
+72 1 -1 
+9 1 -1 
+26 1 -1 
+61 1 -1 
+Functions: 7
+16 2 1 13 
+68 0 
+53 1 47 
+39 0 
+10 0 
+30 1 23 
+47 1 47 
+Constructors: 2
+16 1
+53 47
+
+Summary: 1
+-1 
+spec/jbb/District.receivePayment(Ljava/math/BigDecimal;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 2 
+$r3 1 6 
+r0 1 -1 
+Fields: 1
+-1 ytd 2
+Accesses: 2
+1 1 -1 
+9 1 -1 
+Functions: 1
+2 2 -2 2 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+spec/jbb/District.getTaxRate()Ljava/math/BigDecimal;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 taxRate 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+spec/jbb/District.addNewOrder(Lspec/jbb/NewOrder;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r3 1 8 
+$r2 1 1 
+Fields: 1
+-1 newOrderTable 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+4 1 -2 
+5 0 
+12 3 1 -2 8 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+spec/jbb/District.display()V
+PTG:
+Vars:
+20
+$r10 1 55 
+$r13 1 64 
+$r12 1 67 
+$r19 1 99 
+$r16 1 83 
+r4 1 -1 
+$r11 1 58 
+$r8 1 36 
+$r5 1 27 
+$r7 1 39 
+$r14 1 76 
+$r18 1 93 
+$r3 1 20 
+$r15 1 80 
+$r0 1 0 
+$r2 1 8 
+$r1 1 11 
+$r6 1 30 
+$r17 1 86 
+$r9 1 48 
+Fields: 2
+-1 address 93
+-1 name 80
+Accesses: 4
+51 1 -1 
+23 1 -1 
+92 1 -1 
+79 1 -1 
+Functions: 18
+96 1 93 
+33 2 8 30 
+67 1 67 
+5 1 0 
+39 1 39 
+71 1 67 
+104 1 99 
+11 1 11 
+43 1 39 
+76 2 80 76 
+15 1 11 
+48 1 48 
+83 1 83 
+20 1 20 
+55 1 55 
+89 2 64 86 
+27 1 27 
+61 2 36 58 
+Constructors: 3
+71 67
+43 39
+15 11
+
+Summary: 13
+20 86 55 27 11 30 39 67 58 48 76 -1 83 
+spec/jbb/District.removeOldOrders(I)V
+PTG:
+Vars:
+30
+$r4 1 45 
+$r27 1 185 
+$r26 1 180 
+$r11 1 90 
+$r12 1 93 
+$r20 1 144 
+$r1 1 1 
+$r25 1 173 
+r0 1 -1 
+r15 1 114 
+$r21 1 148 
+$r3 1 42 
+$r13 1 99 
+$r18 1 1 
+$r5 1 54 
+$r8 1 73 
+$r10 1 1 
+$r28 1 192 
+$r7 1 66 
+$r29 1 195 
+$r14 1 102 
+$r2 1 1 
+$r9 1 78 
+$r22 1 153 
+$r24 1 164 
+$r16 1 118 
+$r23 1 156 
+$r17 1 127 
+$r6 1 61 
+$r19 1 139 
+Fields: 1
+-1 orderTable 1
+Accesses: 10
+0 1 -1 
+176 1 -1 
+81 1 -1 
+130 1 -1 
+36 1 -1 
+69 1 -1 
+57 1 -1 
+10 1 -1 
+27 1 -1 
+188 1 -1 
+Functions: 31
+-1 0 
+192 1 192 
+1 1 1 
+66 1 66 
+131 1 1 
+198 2 114 195 
+73 1 73 
+11 1 1 
+139 1 139 
+78 1 78 
+144 1 144 
+82 1 1 
+148 1 148 
+153 1 153 
+90 1 90 
+159 2 114 156 
+96 2 42 93 
+99 2 99 102 
+164 1 164 
+168 1 164 
+45 1 45 
+173 1 173 
+111 0 
+49 1 45 
+180 1 180 
+54 1 54 
+118 1 118 
+185 1 185 
+122 1 118 
+61 1 61 
+127 1 127 
+Constructors: 3
+49 45
+168 164
+122 118
+
+Summary: 1
+-1 
+spec/jbb/District.removeFirstNewOrder()Lspec/jbb/NewOrder;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 3 
+_ret 1 6 
+r3 1 6 
+$r2 1 6 
+Fields: 1
+-1 newOrderTable 3
+Accesses: 1
+2 1 -1 
+Functions: 1
+3 1 3 
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,1248 @@
+59
+java/util/concurrent/locks/AbstractQueuedSynchronizer.tryAcquire(I)Z
+PTG:
+Vars:
+2
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.apparentlyFirstQueuedIsExclusive()Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 10 
+$r5 1 26 
+$r1 1 1 
+Fields: 3
+10 thread 26
+1 next 10
+-1 head 1
+Accesses: 3
+0 1 -1 
+9 1 1 
+25 1 10 
+Functions: 1
+18 2 10 26 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireInterruptibly(I)V
+PTG:
+Vars:
+7
+r2 1 7 
+$r1 1 1 
+$r4 1 19 
+$r5 1 72 
+r0 1 -1 
+r3 1 14 
+$r6 1 -1 
+Fields: 1
+-1 head 19
+Accesses: 2
+18 1 -1 
+41 1 14 
+Functions: 8
+0 3 -1 1 19 
+65 2 -1 19 
+35 3 -1 19 7 
+25 2 -1 19 
+10 1 7 
+58 2 7 14 
+91 3 -1 19 7 
+76 1 72 
+Constructors: 1
+76 72
+
+Summary: 2
+7 14 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.isHeldExclusively()Z
+PTG:
+Vars:
+2
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.compareAndSetState(II)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 0 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/AbstractQueuedSynchronizer.addWaiter(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;
+PTG:
+Vars:
+6
+r4 1 -1 
+_ret 1 0 
+r5 1 16 
+$r0 1 0 
+$r1 1 4 
+r2 1 -2 
+Fields: 1
+-1 tail 16
+Accesses: 3
+37 1 16 
+23 1 0 
+12 1 -1 
+Functions: 4
+-1 0 
+8 3 0 -2 4 
+26 3 -1 16 0 
+44 3 -1 16 0 
+Constructors: 1
+8 0
+
+Summary: 2
+4 -2 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.getSharedQueuedThreads()Ljava/util/Collection;
+PTG:
+Vars:
+5
+$r0 1 0 
+r4 2 12 43 
+_ret 1 0 
+r2 1 -1 
+r3 1 28 
+Fields: 3
+12 thread 28
+-1 tail 12
+43 prev 43
+Accesses: 3
+39 2 43 12 
+8 1 -1 
+24 2 43 12 
+Functions: 3
+17 3 43 12 28 
+35 2 0 28 
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-1 43 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.acquireSharedInterruptibly(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+24 1 -1 
+10 0 
+14 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/AbstractQueuedSynchronizer.transferForSignal(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+PTG:
+Vars:
+4
+r0 1 -2 
+$r3 1 37 
+r1 1 -1 
+r2 1 17 
+Fields: 1
+-2 thread 37
+Accesses: 2
+18 1 17 
+36 1 -2 
+Functions: 4
+3 2 -2 37 
+40 1 37 
+12 3 -1 -2 37 
+29 1 17 
+Constructors: 0
+
+Summary: 4
+37 17 -2 0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.compareAndSetWaitStatus(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;II)Z
+PTG:
+Vars:
+2
+$r1 1 0 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 0 -2 
+Constructors: 0
+
+Summary: 1
+0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.toString()Ljava/lang/String;
+PTG:
+Vars:
+12
+$r11 2 12 17 
+$r9 1 54 
+_ret 1 57 
+$r7 1 45 
+$r4 1 31 
+$r8 1 49 
+$r10 1 57 
+r0 1 -1 
+$r3 1 28 
+$r5 1 36 
+$r6 1 40 
+$r2 1 20 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -1 
+49 1 49 
+20 2 20 28 
+36 1 36 
+5 1 -1 
+54 1 54 
+24 1 20 
+40 1 40 
+27 1 -1 
+45 3 17 12 45 
+31 1 31 
+Constructors: 1
+24 20
+
+Summary: 1
+28 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.tryReleaseShared(I)Z
+PTG:
+Vars:
+2
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.transferAfterCancelledWait(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+18 2 -1 -2 
+3 1 -2 
+26 0 
+12 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.<clinit>()V
+PTG:
+Vars:
+16
+$r5 1 22 
+$r1 1 9 
+$r13 1 73 
+$r11 1 54 
+$r10 1 57 
+$r15 1 77 
+$r2 1 6 
+$r3 1 13 
+$r14 1 70 
+$r0 1 0 
+$r8 1 38 
+$r4 1 25 
+$r6 1 29 
+$r12 1 61 
+$r7 1 41 
+$r9 1 45 
+Fields: 0
+Accesses: 0
+Functions: 12
+-1 0 
+6 2 6 13 
+22 2 22 29 
+38 2 38 45 
+54 2 54 61 
+70 2 70 77 
+9 1 9 
+25 1 25 
+41 1 41 
+57 1 57 
+73 1 73 
+95 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/AbstractQueuedSynchronizer.tryAcquireShared(I)I
+PTG:
+Vars:
+2
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.getFirstQueuedThread()Ljava/lang/Thread;
+PTG:
+Vars:
+5
+$r2 1 1 
+_ret 1 16 
+$r3 1 16 
+r0 1 -1 
+$r1 1 5 
+Fields: 2
+-1 tail 5
+-1 head 1
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 1
+15 3 -1 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.tryAcquireSharedNanos(IJ)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+22 1 -1 
+10 0 
+14 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/AbstractQueuedSynchronizer.releaseShared(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+9 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/AbstractQueuedSynchronizer.hasQueuedPredecessors()Z
+PTG:
+Vars:
+6
+$r3 1 16 
+$r6 1 28 
+r1 1 4 
+$r5 1 25 
+r2 1 9 
+r0 1 -1 
+Fields: 4
+16 thread 25
+9 next 16
+-1 tail 4
+-1 head 9
+Accesses: 4
+0 1 -1 
+5 1 -1 
+24 1 16 
+15 1 9 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 2
+-1 28 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.hasQueuedThreads()Z
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+$r1 1 5 
+Fields: 2
+-1 tail 5
+-1 head 1
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.cancelAcquire(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V
+PTG:
+Vars:
+9
+r6 1 117 
+r2 1 -1 
+$r7 1 24 
+$r3 1 47 
+$r4 1 74 
+r0 1 -2 
+r8 2 24 14 
+$r5 1 107 
+r1 1 39 
+Fields: 9
+24 thread 107
+24 next 39
+-2 prev 14
+-2 next 117
+14 prev 24
+14 thread 107
+14 next 39
+-1 tail 47
+-1 head 74
+Accesses: 14
+35 2 24 14 
+7 1 -2 
+73 1 -1 
+10 1 -2 
+42 1 -2 
+106 2 24 14 
+46 1 -1 
+15 2 24 14 
+80 2 24 14 
+113 1 -2 
+150 1 -2 
+23 2 24 14 
+124 1 117 
+29 1 -2 
+Functions: 5
+65 4 39 24 107 14 
+145 9 -1 -2 117 39 24 74 107 14 47 
+99 4 39 24 107 14 
+53 9 -1 -2 117 39 24 74 107 14 47 
+136 5 117 39 24 107 14 
+Constructors: 0
+
+Summary: 1
+0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.acquireQueued(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z
+PTG:
+Vars:
+5
+r2 1 -1 
+r1 1 9 
+r0 1 -2 
+$r4 1 -1 
+$r3 1 14 
+Fields: 1
+-1 head 14
+Accesses: 2
+36 1 9 
+13 1 -1 
+Functions: 6
+66 2 -1 14 
+20 2 -1 14 
+5 1 -2 
+87 3 -1 -2 14 
+59 2 -2 9 
+30 3 -1 -2 14 
+Constructors: 0
+
+Summary: 3
+-2 9 0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.acquireShared(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+10 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/AbstractQueuedSynchronizer.fullGetFirstQueuedThread()Ljava/lang/Thread;
+PTG:
+Vars:
+17
+$r10 1 19 
+$r4 1 10 
+$r11 1 30 
+$r6 1 19 
+$r9 1 1 
+$r5 1 1 
+$r7 1 30 
+$r2 1 1 
+r3 1 106 
+$r1 1 1 
+r18 2 122 82 
+r19 1 106 
+_ret 1 106 
+r0 1 -1 
+r14 1 30 
+$r8 1 10 
+$r15 1 1 
+Fields: 7
+10 prev 19
+10 thread 30
+1 next 10
+122 prev 122
+-1 tail 82
+-1 head 1
+82 thread 106
+Accesses: 14
+0 1 -1 
+67 1 10 
+101 2 82 122 
+38 1 -1 
+9 1 1 
+78 1 -1 
+47 1 1 
+18 1 10 
+117 2 82 122 
+22 1 -1 
+56 1 10 
+60 1 -1 
+29 1 10 
+94 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+122 -1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.setHead(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+2 1 -1 
+7 1 -2 
+12 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(I)V
+PTG:
+Vars:
+7
+r3 1 14 
+$r4 1 19 
+r0 1 -1 
+$r1 1 1 
+r2 1 7 
+$r6 1 -1 
+$r5 1 78 
+Fields: 1
+-1 head 19
+Accesses: 2
+18 1 -1 
+47 1 14 
+Functions: 8
+0 3 -1 1 19 
+64 2 7 14 
+97 3 -1 19 7 
+82 1 78 
+71 2 -1 19 
+25 2 -1 19 
+41 3 -1 19 7 
+10 1 7 
+Constructors: 1
+82 78
+
+Summary: 2
+7 14 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireSharedNanos(IJ)Z
+PTG:
+Vars:
+7
+$r1 1 16 
+r0 1 -1 
+r2 1 22 
+$r4 1 37 
+r3 1 32 
+$r6 1 -1 
+$r5 1 148 
+Fields: 1
+-1 head 37
+Accesses: 2
+66 1 32 
+36 1 -1 
+Functions: 11
+-1 0 
+113 3 -1 37 22 
+152 1 148 
+121 2 32 22 
+169 3 -1 37 22 
+27 1 22 
+43 2 -1 37 
+139 2 -1 37 
+60 3 -1 37 22 
+142 0 
+15 3 -1 16 37 
+Constructors: 1
+152 148
+
+Summary: 2
+22 32 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.shouldParkAfterFailedAcquire(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+PTG:
+Vars:
+3
+r2 2 -2 18 
+r0 1 -3 
+$r1 1 18 
+Fields: 1
+-2 prev 18
+Accesses: 5
+0 2 -2 18 
+17 2 -2 18 
+35 1 18 
+23 1 -3 
+26 1 18 
+Functions: 1
+44 2 -2 18 
+Constructors: 0
+
+Summary: 2
+1 -2 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.release(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 2
+0 1 -1 
+26 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.getQueueLength()I
+PTG:
+Vars:
+3
+r2 2 6 25 
+r0 1 -1 
+$r1 1 12 
+Fields: 3
+6 thread 12
+25 prev 25
+-1 tail 6
+Accesses: 3
+2 1 -1 
+21 2 6 25 
+11 2 6 25 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+25 -1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.getQueuedThreads()Ljava/util/Collection;
+PTG:
+Vars:
+5
+r2 1 -1 
+_ret 1 0 
+$r0 1 0 
+r4 2 36 12 
+r3 1 21 
+Fields: 3
+36 prev 36
+12 thread 21
+-1 tail 12
+Accesses: 3
+32 2 36 12 
+17 2 36 12 
+8 1 -1 
+Functions: 2
+4 1 0 
+28 2 0 21 
+Constructors: 1
+4 0
+
+Summary: 2
+36 -1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.getState()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.compareAndSetNext(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+PTG:
+Vars:
+4
+r0 1 -2 
+r2 1 -4 
+r1 1 -3 
+$r3 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 0 -2 -3 -4 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/AbstractQueuedSynchronizer.doReleaseShared()V
+PTG:
+Vars:
+4
+$r3 1 4 
+r1 1 4 
+r0 1 -1 
+$r2 1 11 
+Fields: 2
+-1 tail 11
+-1 head 4
+Accesses: 4
+0 1 -1 
+17 1 4 
+65 1 -1 
+10 1 -1 
+Functions: 3
+53 1 4 
+41 3 -1 4 11 
+29 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.parkAndCheckInterrupt()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.setHeadAndPropagate(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)V
+PTG:
+Vars:
+5
+r2 1 45 
+r4 1 4 
+r1 1 -2 
+$r3 1 4 
+r0 1 -1 
+Fields: 2
+-2 next 45
+-1 head 4
+Accesses: 5
+0 1 -1 
+18 1 4 
+34 1 4 
+25 1 -1 
+41 1 -2 
+Functions: 3
+52 1 45 
+7 4 -1 -2 4 45 
+61 2 -1 4 
+Constructors: 0
+
+Summary: 4
+45 -2 -1 0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.unparkSuccessor(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V
+PTG:
+Vars:
+5
+r4 2 38 67 
+r3 3 20 38 67 
+r1 1 -1 
+r0 1 -2 
+$r2 1 77 
+Fields: 6
+20 thread 77
+38 thread 77
+-2 next 20
+-1 tail 38
+67 prev 67
+67 thread 77
+Accesses: 7
+0 1 -2 
+16 1 -2 
+34 1 -1 
+51 2 67 38 
+25 3 67 20 38 
+76 3 67 20 38 
+62 2 67 38 
+Functions: 2
+80 1 77 
+12 3 -2 20 77 
+Constructors: 0
+
+Summary: 5
+20 -2 -1 67 0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.hasWaiters(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+18 1 -2 
+14 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.acquire(I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 10 
+$r2 1 13 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+23 0 
+8 2 -1 13 
+9 2 -1 10 
+Constructors: 0
+
+Summary: 1
+13 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.hasContended()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 head 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.getWaitingThreads(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)Ljava/util/Collection;
+PTG:
+Vars:
+4
+_ret 1 19 
+r0 1 -1 
+$r2 1 19 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+18 1 -2 
+14 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.acquireInterruptibly(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+24 1 -1 
+10 0 
+14 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/AbstractQueuedSynchronizer.getWaitQueueLength(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)I
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+18 1 -2 
+14 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.selfInterrupt()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+3 1 0 
+Constructors: 0
+
+Summary: 1
+0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.enq(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;
+PTG:
+Vars:
+5
+r2 1 -2 
+$r4 1 25 
+$r3 1 10 
+r1 1 4 
+r0 1 -1 
+Fields: 2
+-1 tail 4
+-1 head 25
+Accesses: 5
+0 1 -1 
+50 1 4 
+36 1 -2 
+24 1 -1 
+28 1 -1 
+Functions: 3
+39 4 -1 -2 4 25 
+9 4 -1 4 25 10 
+14 1 10 
+Constructors: 1
+14 10
+
+Summary: 2
+10 0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.fullyRelease(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)I
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 -1 
+r2 1 -2 
+$r1 1 32 
+Fields: 0
+Accesses: 1
+48 1 -2 
+Functions: 3
+2 1 -1 
+36 1 32 
+7 1 -1 
+Constructors: 1
+36 32
+
+Summary: 3
+-2 -1 0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.compareAndSetTail(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+$r3 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 0 -1 -2 -3 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/AbstractQueuedSynchronizer.owns(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.isOnSyncQueue(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+PTG:
+Vars:
+4
+$r1 1 10 
+r0 1 -2 
+$r2 1 19 
+r3 1 -1 
+Fields: 2
+-2 prev 10
+-2 next 19
+Accesses: 3
+0 1 -2 
+18 1 -2 
+9 1 -2 
+Functions: 1
+27 4 -1 -2 19 10 
+Constructors: 0
+
+Summary: 5
+19 10 -2 -1 0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.isQueued(Ljava/lang/Thread;)Z
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 22 
+r4 2 35 16 
+r1 1 -1 
+Fields: 3
+35 prev 35
+16 thread 22
+-1 tail 16
+Accesses: 3
+21 2 16 35 
+12 1 -1 
+31 2 16 35 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 3
+35 -2 -1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.tryRelease(I)Z
+PTG:
+Vars:
+2
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireShared(I)V
+PTG:
+Vars:
+6
+$r5 1 -1 
+$r1 1 1 
+r3 1 17 
+r2 1 7 
+$r4 1 22 
+r0 1 -1 
+Fields: 1
+-1 head 22
+Accesses: 2
+50 1 17 
+21 1 -1 
+Functions: 8
+0 3 -1 1 22 
+82 2 -1 22 
+103 3 -1 22 7 
+58 0 
+75 2 17 7 
+28 2 -1 22 
+44 3 -1 22 7 
+13 1 7 
+Constructors: 0
+
+Summary: 2
+17 7 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.findNodeFromTail(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+PTG:
+Vars:
+3
+r2 1 22 
+r0 1 -1 
+r1 1 -2 
+Fields: 2
+-1 tail 4
+22 prev 22
+Accesses: 2
+0 1 -1 
+18 1 22 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+-2 -1 22 0 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.tryAcquireNanos(IJ)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+22 1 -1 
+10 0 
+14 1 -1 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/locks/AbstractQueuedSynchronizer.setState(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.getExclusiveQueuedThreads()Ljava/util/Collection;
+PTG:
+Vars:
+5
+r2 1 -1 
+_ret 1 0 
+$r0 1 0 
+r3 1 28 
+r4 2 12 43 
+Fields: 3
+12 thread 28
+-1 tail 12
+43 prev 43
+Accesses: 3
+39 2 43 12 
+8 1 -1 
+24 2 43 12 
+Functions: 3
+17 3 43 12 28 
+35 2 0 28 
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-1 43 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireNanos(IJ)Z
+PTG:
+Vars:
+7
+$r4 1 37 
+r0 1 -1 
+$r5 1 142 
+$r1 1 16 
+r2 1 22 
+r3 1 32 
+$r6 1 -1 
+Fields: 1
+-1 head 37
+Accesses: 2
+36 1 -1 
+60 1 32 
+Functions: 11
+-1 0 
+146 1 142 
+115 2 32 22 
+163 3 -1 37 22 
+133 2 -1 37 
+54 3 -1 37 22 
+136 0 
+27 1 22 
+43 2 -1 37 
+107 3 -1 37 22 
+15 3 -1 16 37 
+Constructors: 1
+146 142
+
+Summary: 2
+22 32 
+java/util/concurrent/locks/AbstractQueuedSynchronizer.compareAndSetHead(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 0 -1 -2 
+Constructors: 0
+
+Summary: 1
+0 

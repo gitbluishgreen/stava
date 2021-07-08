@@ -1,0 +1,875 @@
+33
+org/eclipse/core/internal/events/ResourceDelta.updateMarkers(Ljava/util/Map;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 deltaInfo 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/events/ResourceDelta.getAffectedChildren(II)[Lorg/eclipse/core/resources/IResourceDelta;
+PTG:
+Vars:
+22
+$r8 2 1 98 
+$r10 2 219 1 
+$r11 1 224 
+$r14 2 284 1 
+$r19 1 247 
+$r4 2 140 1 
+$r7 1 124 
+$r2 2 75 1 
+$r6 2 119 1 
+$r12 2 307 1 
+$r15 1 289 
+$r1 1 1 
+$r13 1 312 
+$r3 1 80 
+$r9 1 103 
+$r5 1 145 
+$r16 2 263 1 
+$r17 1 268 
+r0 1 -1 
+r25 1 204 
+$r18 2 1 242 
+_ret 1 204 
+Fields: 19
+119 ArrayObject 124
+263 ArrayObject 268
+140 ArrayObject 145
+284 ArrayObject 289
+75 ArrayObject 80
+219 ArrayObject 224
+-1 children 1
+307 ArrayObject 312
+1 ArrayObject 268
+1 ArrayObject 124
+1 ArrayObject 312
+1 ArrayObject 247
+1 ArrayObject 103
+1 ArrayObject 289
+1 ArrayObject 145
+1 ArrayObject 224
+1 ArrayObject 80
+98 ArrayObject 103
+242 ArrayObject 247
+Accesses: 14
+0 1 -1 
+97 1 -1 
+262 1 -1 
+10 1 -1 
+74 1 -1 
+139 1 -1 
+173 1 -1 
+241 1 -1 
+306 1 -1 
+118 1 -1 
+183 1 -1 
+218 1 -1 
+283 1 -1 
+191 1 -1 
+Functions: 9
+80 1 80 
+224 1 224 
+145 1 145 
+289 1 289 
+196 0 
+103 1 103 
+247 1 247 
+124 1 124 
+268 1 268 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.writeMarkerDebugString(Ljava/lang/StringBuffer;)V
+PTG:
+Vars:
+15
+r3 1 -2 
+$r9 1 56 
+r0 1 -1 
+r13 1 88 
+$r5 1 30 
+$r12 1 77 
+$r14 1 103 
+$r11 1 77 
+r15 1 103 
+r6 1 40 
+$r10 1 59 
+$r7 1 45 
+r8 1 45 
+$r1 1 1 
+r2 1 7 
+Fields: 2
+88 ArrayObject 103
+-1 deltaInfo 1
+Accesses: 1
+0 1 -1 
+Functions: 20
+1 1 1 
+225 1 -2 
+163 1 -2 
+195 1 -2 
+74 2 7 45 
+12 1 7 
+44 1 40 
+173 1 -2 
+82 1 77 
+117 1 -2 
+213 1 40 
+55 2 -1 1 
+183 1 -2 
+56 1 56 
+25 1 -2 
+121 1 103 
+59 2 59 45 
+188 1 103 
+29 1 7 
+30 1 30 
+Constructors: 0
+
+Summary: 10
+-2 7 88 56 45 40 -1 59 77 30 
+org/eclipse/core/internal/events/ResourceDelta.toDeepDebugString()Ljava/lang/String;
+PTG:
+Vars:
+8
+r2 1 -1 
+$r5 1 27 
+$r4 2 40 23 
+$r3 1 40 
+$r8 1 48 
+$r6 1 28 
+$r0 1 0 
+_ret 1 48 
+Fields: 3
+40 ArrayObject 27
+-1 children 40
+23 ArrayObject 27
+Accesses: 2
+22 1 -1 
+39 1 -1 
+Functions: 5
+7 1 0 
+27 1 27 
+13 4 -1 0 40 27 
+31 2 0 28 
+47 1 0 
+Constructors: 1
+7 0
+
+Summary: 2
+28 -1 
+org/eclipse/core/internal/events/ResourceDelta.getFlags()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.toString()Ljava/lang/String;
+PTG:
+Vars:
+7
+$r2 1 11 
+$r5 1 22 
+$r0 1 0 
+$r3 1 14 
+r1 1 -1 
+$r4 1 19 
+_ret 1 22 
+Fields: 1
+-1 path 11
+Accesses: 1
+10 1 -1 
+Functions: 4
+0 2 0 11 
+19 1 19 
+7 1 0 
+14 1 14 
+Constructors: 1
+7 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.setChildren([Lorg/eclipse/core/internal/events/ResourceDelta;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/events/ResourceDelta.accept(Lorg/eclipse/core/resources/IResourceDeltaVisitor;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/events/ResourceDelta.isTeamPrivate()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 24 
+Fields: 1
+-1 newInfo 24
+Accesses: 3
+0 1 -1 
+23 1 -1 
+10 1 -1 
+Functions: 4
+17 0 
+24 1 24 
+11 0 
+30 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.getMovedToPath()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+18 1 -1 
+11 1 -1 
+Functions: 3
+19 0 
+12 0 
+15 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.setOldInfo(Lorg/eclipse/core/internal/resources/ResourceInfo;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/events/ResourceDelta.checkForMarkerDeltas()V
+PTG:
+Vars:
+9
+$r7 1 17 
+$r5 1 1 
+$r8 1 49 
+r4 1 49 
+$r6 1 42 
+$r3 1 17 
+$r2 1 4 
+$r1 1 1 
+r0 1 -1 
+Fields: 2
+-1 deltaInfo 1
+-1 path 17
+Accesses: 8
+0 1 -1 
+16 1 -1 
+84 1 -1 
+69 1 -1 
+38 1 -1 
+91 1 -1 
+45 1 -1 
+77 1 -1 
+Functions: 6
+1 1 1 
+17 1 17 
+39 1 1 
+42 2 17 42 
+11 3 -1 1 17 
+62 1 49 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.fixMovesAndMarkers(Lorg/eclipse/core/internal/watson/ElementTree;)V
+PTG:
+Vars:
+23
+$r19 1 175 
+r2 1 7 
+$r7 1 322 
+$r3 1 9 
+$r9 1 175 
+$r10 1 9 
+$r4 1 332 
+r21 1 75 
+$r20 1 66 
+$r1 1 1 
+$r5 2 332 318 
+r13 1 99 
+$r12 1 99 
+$r11 1 9 
+r6 1 -2 
+$r18 1 66 
+$r14 1 1 
+$r15 1 120 
+r22 1 255 
+$r16 1 66 
+$r8 1 66 
+r0 1 -1 
+$r17 1 175 
+Fields: 7
+-1 deltaInfo 1
+-1 path 9
+-1 newInfo 66
+-1 oldInfo 175
+-1 children 332
+332 ArrayObject 322
+318 ArrayObject 322
+Accesses: 26
+0 1 -1 
+65 1 -1 
+195 1 -1 
+8 1 -1 
+264 1 -1 
+139 1 -1 
+331 1 -1 
+205 1 -1 
+142 1 -1 
+84 1 -1 
+276 1 -1 
+213 1 -1 
+151 1 -1 
+285 1 -1 
+160 1 -1 
+294 1 -1 
+171 1 -1 
+108 1 -1 
+174 1 -1 
+305 1 -1 
+116 1 -1 
+181 1 -1 
+245 1 -1 
+188 1 -1 
+125 1 -1 
+317 1 -1 
+Functions: 17
+64 1 7 
+96 2 -2 75 
+1 1 1 
+66 1 66 
+196 1 66 
+324 2 -2 322 
+262 2 9 255 
+9 1 9 
+82 2 9 75 
+20 1 7 
+244 1 7 
+117 1 1 
+309 7 -1 1 66 322 9 332 175 
+246 1 175 
+120 3 66 99 120 
+27 7 -1 1 66 322 9 332 175 
+189 1 175 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/eclipse/core/internal/events/ResourceDelta.getKind()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.accept(Lorg/eclipse/core/resources/IResourceDeltaVisitor;I)V
+PTG:
+Vars:
+5
+$r2 2 81 149 
+r3 1 87 
+r0 1 -1 
+r1 1 -2 
+$r4 1 149 
+Fields: 3
+81 ArrayObject 87
+-1 children 149
+149 ArrayObject 87
+Accesses: 2
+80 1 -1 
+148 1 -1 
+Functions: 6
+52 3 -1 149 87 
+140 2 -2 87 
+109 1 87 
+125 1 87 
+94 1 87 
+63 4 -1 -2 149 87 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/events/ResourceDelta.isPhantom()Z
+PTG:
+Vars:
+2
+$r1 1 24 
+r0 1 -1 
+Fields: 1
+-1 newInfo 24
+Accesses: 3
+0 1 -1 
+23 1 -1 
+10 1 -1 
+Functions: 4
+17 0 
+24 1 24 
+11 0 
+30 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.setStatus(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.setNewInfo(Lorg/eclipse/core/internal/resources/ResourceInfo;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/events/ResourceDelta.getDeltaInfo()Lorg/eclipse/core/internal/events/ResourceDeltaInfo;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 deltaInfo 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.accept(Lorg/eclipse/core/resources/IResourceDeltaVisitor;Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/events/ResourceDelta.<init>(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/internal/events/ResourceDeltaInfo;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+1 0 -1 
+org/eclipse/core/internal/events/ResourceDelta.writeDebugString(Ljava/lang/StringBuffer;)V
+PTG:
+Vars:
+13
+$r33 1 257 
+$r26 1 310 
+r0 1 -2 
+$r35 1 266 
+$r32 1 254 
+$r34 1 263 
+$r31 1 243 
+$r25 1 307 
+$r27 1 316 
+$r28 1 319 
+$r24 1 296 
+$r2 1 2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 50
+1 1 -1 
+257 1 257 
+5 2 -2 2 
+133 1 -2 
+263 1 263 
+12 1 -2 
+269 2 -2 266 
+526 1 -2 
+143 1 -2 
+16 1 -1 
+403 1 -2 
+534 1 -2 
+151 1 -2 
+155 1 -1 
+411 1 -2 
+544 1 -2 
+291 1 -2 
+548 1 -1 
+296 2 307 296 
+303 1 296 
+559 1 -2 
+432 1 -2 
+306 1 -1 
+563 1 -1 
+310 1 310 
+440 1 -2 
+186 1 -2 
+316 1 316 
+446 2 -1 -2 
+574 1 -2 
+322 2 -2 319 
+208 1 -2 
+466 1 -2 
+83 1 -2 
+216 1 -2 
+344 1 -2 
+474 1 -2 
+93 1 -2 
+352 1 -2 
+103 1 -2 
+238 1 -2 
+496 1 -2 
+113 1 -2 
+243 2 243 254 
+373 1 -2 
+504 1 -2 
+250 1 243 
+123 1 -2 
+253 1 -1 
+381 1 -2 
+Constructors: 2
+250 243
+303 296
+
+Summary: 11
+2 254 316 -1 307 257 -2 263 266 310 319 
+org/eclipse/core/internal/events/ResourceDelta.isHidden()Z
+PTG:
+Vars:
+2
+$r1 1 25 
+r0 1 -1 
+Fields: 1
+-1 newInfo 25
+Accesses: 3
+0 1 -1 
+24 1 -1 
+10 1 -1 
+Functions: 4
+17 0 
+25 1 25 
+11 0 
+31 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.toDebugString()Ljava/lang/String;
+PTG:
+Vars:
+4
+r2 1 -1 
+$r0 1 0 
+$r3 1 14 
+_ret 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+10 2 -1 0 
+13 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-1 0 
+org/eclipse/core/internal/events/ResourceDelta.getProjectRelativePath()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+4
+r1 1 4 
+r0 1 -1 
+$r2 1 29 
+_ret 1 29 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+5 1 4 
+27 1 4 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/eclipse/core/internal/events/ResourceDelta.getMarkerDeltas()[Lorg/eclipse/core/resources/IMarkerDelta;
+PTG:
+Vars:
+13
+$r1 1 1 
+$r5 1 35 
+r7 1 56 
+$r4 1 17 
+$r3 1 17 
+$r12 1 24 
+$r10 1 77 
+r6 1 35 
+r8 1 59 
+r0 1 -1 
+r2 1 7 
+$r9 1 77 
+_ret 1 59 
+Fields: 3
+56 ArrayObject 77
+-1 deltaInfo 1
+-1 path 17
+Accesses: 4
+0 1 -1 
+16 1 -1 
+27 1 -1 
+31 1 -1 
+Functions: 3
+1 1 1 
+52 1 35 
+30 2 17 7 
+Constructors: 0
+
+Summary: 4
+7 56 35 -1 
+org/eclipse/core/internal/events/ResourceDelta.getResource()Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+14
+$r6 1 104 
+$r7 1 1 
+$r10 1 79 
+$r4 1 93 
+r16 2 51 59 
+$r8 1 65 
+$r11 1 82 
+$r2 1 13 
+$r9 1 13 
+$r5 1 13 
+r0 1 -1 
+$r3 1 90 
+$r1 1 1 
+_ret 1 1 
+Fields: 5
+-1 deltaInfo 90
+-1 path 13
+-1 oldInfo 51
+-1 newInfo 59
+-1 cachedResource 1
+Accesses: 11
+0 1 -1 
+96 1 -1 
+7 1 -1 
+55 1 -1 
+24 1 -1 
+89 1 -1 
+75 1 -1 
+107 1 -1 
+12 1 -1 
+110 1 -1 
+47 1 -1 
+Functions: 11
+65 2 65 13 
+100 2 51 59 
+37 6 -1 1 51 90 59 13 
+85 1 82 
+72 1 65 
+25 0 
+90 1 90 
+28 0 
+13 1 13 
+93 2 93 13 
+79 1 79 
+Constructors: 1
+72 65
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.getAffectedChildren()[Lorg/eclipse/core/resources/IResourceDelta;
+PTG:
+Vars:
+3
+$r1 1 4 
+r0 1 -1 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.getAffectedChildren(I)[Lorg/eclipse/core/resources/IResourceDelta;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.getMovedFromPath()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+18 1 -1 
+11 1 -1 
+Functions: 3
+19 0 
+12 0 
+15 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.findMember(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IResourceDelta;
+PTG:
+Vars:
+10
+r8 2 71 -1 
+$r5 1 48 
+$r7 1 71 
+$r4 1 43 
+r0 1 -2 
+r2 1 25 
+r1 1 -1 
+$r3 1 42 
+$r6 1 56 
+_ret 2 71 -1 
+Fields: 4
+25 ArrayObject 71
+25 ArrayObject 42
+71 children 25
+-1 children 25
+Accesses: 1
+21 2 -1 71 
+Functions: 5
+0 1 -2 
+48 2 48 56 
+53 1 -2 
+42 1 42 
+43 1 43 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/core/internal/events/ResourceDelta.getFullPath()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 path 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/ResourceDelta.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 7 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+

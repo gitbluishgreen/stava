@@ -1,0 +1,881 @@
+29
+org/eclipse/core/internal/content/ContentTypeCatalog.getAllContentTypes()[Lorg/eclipse/core/runtime/content/IContentType;
+PTG:
+Vars:
+12
+r6 1 31 
+$r10 1 86 
+$r7 1 36 
+$r11 1 86 
+$r4 1 5 
+$r9 1 83 
+$r0 1 0 
+$r5 1 21 
+r1 1 -1 
+$r2 1 5 
+r8 1 36 
+_ret 1 86 
+Fields: 1
+-1 contentTypes 5
+Accesses: 2
+17 1 -1 
+4 1 -1 
+Functions: 11
+18 1 5 
+35 1 31 
+67 1 31 
+52 1 36 
+5 1 5 
+21 1 21 
+76 2 0 83 
+13 1 0 
+45 1 36 
+61 2 0 36 
+77 1 0 
+Constructors: 1
+13 0
+
+Summary: 3
+-1 83 0 
+org/eclipse/core/internal/content/ContentTypeCatalog.organize()V
+PTG:
+Vars:
+14
+r10 1 18 
+$r9 1 109 
+$r8 1 106 
+$r2 1 8 
+$r3 1 23 
+$r5 1 64 
+$r7 1 95 
+$r6 1 79 
+$r1 1 5 
+r11 1 23 
+r12 1 74 
+r13 1 79 
+r0 1 -1 
+$r4 1 5 
+Fields: 1
+-1 contentTypes 5
+Accesses: 2
+4 1 -1 
+60 1 -1 
+Functions: 16
+32 3 -1 5 23 
+64 1 64 
+1 2 -1 5 
+5 1 5 
+102 1 95 
+8 1 8 
+42 3 -1 5 23 
+106 1 106 
+45 1 18 
+78 1 74 
+112 1 109 
+115 1 74 
+22 1 18 
+88 1 79 
+61 1 5 
+95 2 95 79 
+Constructors: 1
+102 95
+
+Summary: 1
+-1 
+org/eclipse/core/internal/content/ContentTypeCatalog.internalFindContentTypesFor(Lorg/eclipse/core/internal/content/ILazySource;[[Lorg/eclipse/core/runtime/content/IContentType;Ljava/util/Comparator;Ljava/util/Comparator;)[Lorg/eclipse/core/runtime/content/IContentType;
+PTG:
+Vars:
+12
+$r6 1 37 
+$r8 1 73 
+r4 1 -2 
+$r0 1 0 
+r2 1 -1 
+r9 1 73 
+r10 1 -5 
+r3 1 -3 
+r11 1 -4 
+$r5 1 14 
+$r7 1 70 
+_ret 1 73 
+Fields: 2
+-3 ArrayObject 37
+-3 ArrayObject 14
+Accesses: 0
+Functions: 12
+32 4 -1 0 -2 37 
+49 1 0 
+114 2 -4 73 
+5 1 0 
+23 1 0 
+168 2 -5 73 
+10 4 -1 0 -2 14 
+140 2 -5 73 
+61 2 0 70 
+63 1 0 
+95 2 -4 73 
+159 1 0 
+Constructors: 1
+5 0
+
+Summary: 13
+70 2 1 -1 -5 0 -3 -2 14 -4 3 0 37 
+org/eclipse/core/internal/content/ContentTypeCatalog.makeAliases()V
+PTG:
+Vars:
+8
+$r1 1 1 
+r7 1 45 
+r3 1 14 
+$r2 1 4 
+r5 1 19 
+$r4 1 19 
+r6 1 32 
+r0 1 -1 
+Fields: 1
+-1 contentTypes 1
+Accesses: 1
+0 1 -1 
+Functions: 7
+1 1 1 
+18 1 14 
+4 1 4 
+55 2 19 45 
+40 3 -1 32 1 
+58 1 14 
+28 1 19 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/content/ContentTypeCatalog.findContentTypesFor(Lorg/eclipse/core/internal/content/ContentTypeMatcher;Ljava/io/InputStream;Ljava/lang/String;)[Lorg/eclipse/core/runtime/content/IContentType;
+PTG:
+Vars:
+9
+r2 1 -1 
+r3 1 -2 
+r4 1 -4 
+r1 1 4 
+$r7 1 15 
+r9 2 15 46 
+r5 1 21 
+r0 1 -3 
+_ret 2 15 46 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -3 
+17 1 -2 
+6 4 -1 -2 -4 4 
+28 3 -1 21 15 
+Constructors: 0
+
+Summary: 6
+-2 21 -4 4 -1 -3 
+org/eclipse/core/internal/content/ContentTypeCatalog.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/internal/content/ContentTypeCatalog.concat([[Lorg/eclipse/core/runtime/content/IContentType;)[Lorg/eclipse/core/runtime/content/IContentType;
+PTG:
+Vars:
+12
+$r6 1 43 
+r0 1 -2 
+r5 1 31 
+$r9 1 59 
+$r3 1 24 
+$r2 1 13 
+$r10 1 50 
+$r1 1 2 
+$r4 1 28 
+$r7 1 37 
+$r8 1 55 
+_ret 1 31 
+Fields: 9
+-2 ArrayObject 43
+-2 ArrayObject 24
+-2 ArrayObject 2
+-2 ArrayObject 28
+-2 ArrayObject 50
+-2 ArrayObject 13
+-2 ArrayObject 37
+-2 ArrayObject 55
+-2 ArrayObject 59
+Accesses: 0
+Functions: 2
+45 2 37 31 
+61 2 50 31 
+Constructors: 0
+
+Summary: 9
+43 2 28 13 55 -2 24 0 59 
+org/eclipse/core/internal/content/ContentTypeCatalog.collectMatchingByContents(I[Lorg/eclipse/core/runtime/content/IContentType;Ljava/util/List;Lorg/eclipse/core/internal/content/ILazySource;)I
+PTG:
+Vars:
+7
+r0 1 -3 
+r3 1 20 
+$r1 1 9 
+r2 1 9 
+r4 1 -4 
+r5 1 -5 
+r6 1 -1 
+Fields: 1
+-3 ArrayObject 9
+Accesses: 0
+Functions: 5
+51 3 20 -5 9 
+84 2 -4 9 
+30 1 -5 
+15 1 9 
+95 2 -4 9 
+Constructors: 0
+
+Summary: 7
+1 2 -4 3 -1 -5 -3 
+org/eclipse/core/internal/content/ContentTypeCatalog.getManager()Lorg/eclipse/core/internal/content/ContentTypeManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 manager 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/content/ContentTypeCatalog.getDescriptionFor(Lorg/eclipse/core/internal/content/ContentTypeMatcher;Ljava/io/InputStream;Ljava/lang/String;[Lorg/eclipse/core/runtime/QualifiedName;)Lorg/eclipse/core/runtime/content/IContentDescription;
+PTG:
+Vars:
+8
+r1 1 -2 
+$r3 1 3 
+r2 1 -3 
+r0 1 -1 
+r5 1 -5 
+r4 1 -4 
+$r6 1 9 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 5 -1 -2 3 -4 -5 
+2 1 -3 
+Constructors: 0
+
+Summary: 9
+-2 1 2 -4 3 0 -1 -5 -3 
+org/eclipse/core/internal/content/ContentTypeCatalog.getDirectlyAssociated(Ljava/lang/String;I)Ljava/util/Set;
+PTG:
+Vars:
+15
+$r10 1 29 
+$r14 3 32 147 75 
+$r11 1 32 
+r7 1 97 
+$r8 1 104 
+$r6 1 75 
+r2 1 -2 
+r13 2 32 75 
+r0 1 -1 
+r9 1 104 
+$r4 1 50 
+$r12 2 7 14 
+r5 1 50 
+$r3 1 47 
+_ret 3 32 147 75 
+Fields: 2
+-1 fileNames 7
+-1 fileExtensions 14
+Accesses: 2
+6 1 -1 
+13 1 -1 
+Functions: 11
+65 1 50 
+81 2 50 75 
+114 2 -2 104 
+132 1 97 
+102 1 97 
+90 1 75 
+27 3 7 29 14 
+28 1 -2 
+45 3 7 14 47 
+46 1 -2 
+127 1 97 
+Constructors: 1
+81 75
+
+Summary: 3
+-1 -2 0 
+org/eclipse/core/internal/content/ContentTypeCatalog.findContentTypesFor(Lorg/eclipse/core/internal/content/ContentTypeMatcher;Ljava/lang/String;)[Lorg/eclipse/core/runtime/content/IContentType;
+PTG:
+Vars:
+8
+r6 2 34 13 
+r1 1 -2 
+r5 1 18 
+r2 1 -3 
+$r3 1 4 
+r0 1 -1 
+$r4 1 7 
+_ret 2 34 13 
+Fields: 1
+-1 policyConstantGeneralIsBetter 4
+Accesses: 1
+3 1 -1 
+Functions: 4
+0 4 -1 -2 -3 4 
+7 1 7 
+25 5 -1 18 34 4 13 
+14 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/core/internal/content/ContentTypeCatalog.internalAccept(Lorg/eclipse/core/internal/content/ContentTypeVisitor;Lorg/eclipse/core/internal/content/ContentType;)Z
+PTG:
+Vars:
+5
+r0 1 -3 
+$r4 1 78 
+r3 1 57 
+r2 1 -1 
+r1 1 -2 
+Fields: 1
+57 ArrayObject 78
+Accesses: 0
+Functions: 5
+0 1 -3 
+16 2 -2 -3 
+52 2 -1 -3 
+7 1 -3 
+72 3 -1 -2 78 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/core/internal/content/ContentTypeCatalog.dissociate(Lorg/eclipse/core/internal/content/ContentType;Ljava/lang/String;I)V
+PTG:
+Vars:
+7
+r3 1 23 
+r0 1 -1 
+r6 1 -2 
+r2 1 -3 
+$r4 1 29 
+r5 1 29 
+$r7 2 7 14 
+Fields: 2
+-1 fileNames 7
+-1 fileExtensions 14
+Accesses: 2
+6 1 -1 
+13 1 -1 
+Functions: 3
+48 2 -2 29 
+19 1 -3 
+25 3 7 23 14 
+Constructors: 0
+
+Summary: 5
+-2 29 -1 23 -3 
+org/eclipse/core/internal/content/ContentTypeCatalog.getChildren(Lorg/eclipse/core/internal/content/ContentType;)[Lorg/eclipse/core/internal/content/ContentType;
+PTG:
+Vars:
+17
+r8 1 43 
+$r13 1 98 
+$r4 1 20 
+$r14 1 1 
+$r11 1 62 
+r1 1 -2 
+$r12 1 95 
+r0 1 -1 
+$r6 1 30 
+$r7 1 33 
+r16 1 5 
+$r2 1 1 
+$r3 1 5 
+r10 1 50 
+r17 1 98 
+$r9 1 50 
+_ret 1 98 
+Fields: 2
+-1 allChildren 1
+-1 contentTypes 30
+Accesses: 3
+0 1 -1 
+107 1 -1 
+29 1 -1 
+Functions: 11
+48 1 43 
+1 2 1 -2 
+33 1 33 
+113 3 1 -2 98 
+72 2 50 20 
+88 2 20 95 
+25 1 20 
+89 1 20 
+60 1 50 
+30 1 30 
+78 1 43 
+Constructors: 1
+25 20
+
+Summary: 5
+20 -1 -2 0 95 
+org/eclipse/core/internal/content/ContentTypeCatalog.getDescriptionFor(Lorg/eclipse/core/internal/content/ContentTypeMatcher;Ljava/io/Reader;Ljava/lang/String;[Lorg/eclipse/core/runtime/QualifiedName;)Lorg/eclipse/core/runtime/content/IContentDescription;
+PTG:
+Vars:
+8
+r1 1 -2 
+$r3 1 3 
+r2 1 -3 
+r4 1 -4 
+r5 1 -5 
+$r6 1 9 
+r0 1 -1 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 5 -1 -2 3 -4 -5 
+2 1 -3 
+Constructors: 0
+
+Summary: 6
+-2 3 -4 -1 -5 -3 
+org/eclipse/core/internal/content/ContentTypeCatalog.internalFindContentTypesFor(Lorg/eclipse/core/internal/content/ContentTypeMatcher;Lorg/eclipse/core/internal/content/ILazySource;Ljava/lang/String;Z)[Lorg/eclipse/core/runtime/content/IContentType;
+PTG:
+Vars:
+15
+r0 1 -4 
+$r4 2 65 65 
+$r17 1 17 
+r2 1 -2 
+r18 2 5 48 
+r6 1 -3 
+$r5 2 70 70 
+r20 2 33 60 
+r19 2 27 54 
+$r16 1 11 
+$r7 1 169 
+$r3 1 42 
+r1 1 -1 
+$r15 1 5 
+_ret 1 169 
+Fields: 9
+5 ArrayObject 65
+5 ArrayObject 70
+-1 policyLexicographical 42
+-1 policySpecificIsBetter 60
+-1 policyConstantSpecificIsBetter 33
+-1 policyGeneralIsBetter 54
+-1 policyConstantGeneralIsBetter 27
+48 ArrayObject 70
+48 ArrayObject 65
+Accesses: 5
+50 1 -1 
+23 1 -1 
+56 1 -1 
+41 1 -1 
+29 1 -1 
+Functions: 5
+161 11 -1 48 33 65 -3 5 54 70 42 27 60 
+117 1 -3 
+133 0 
+38 8 -1 33 -2 -4 54 42 27 60 
+10 6 -1 33 54 42 27 60 
+Constructors: 0
+
+Summary: 11
+5 2 1 -1 65 -4 0 70 98 -3 -2 
+org/eclipse/core/internal/content/ContentTypeCatalog.applyPolicy(Lorg/eclipse/core/runtime/content/IContentTypeManager$ISelectionPolicy;[Lorg/eclipse/core/runtime/content/IContentType;ZZ)[Lorg/eclipse/core/runtime/content/IContentType;
+PTG:
+Vars:
+8
+r4 1 -1 
+r1 1 -3 
+$r0 1 1 
+$r8 1 10 
+r5 1 -2 
+$r6 1 31 
+$r7 1 10 
+_ret 1 31 
+Fields: 1
+1 ArrayObject 31
+Accesses: 0
+Functions: 2
+22 6 -1 1 -2 -3 10 31 
+25 1 10 
+Constructors: 1
+22 10
+
+Summary: 6
+-2 1 1 10 0 -1 
+org/eclipse/core/internal/content/ContentTypeCatalog.internalFindContentTypesFor(Lorg/eclipse/core/internal/content/ContentTypeMatcher;Ljava/lang/String;Ljava/util/Comparator;)[[Lorg/eclipse/core/runtime/content/IContentType;
+PTG:
+Vars:
+35
+$r15 1 108 
+$r16 1 111 
+$r31 1 234 
+r20 1 -4 
+$r8 1 30 
+r28 1 207 
+$r29 1 231 
+$r26 1 168 
+$r24 1 137 
+$r19 1 263 
+r32 2 45 50 
+$r2 1 7 
+$r12 1 72 
+$r27 1 184 
+$r22 1 255 
+$r11 1 58 
+$r34 1 246 
+r0 1 -2 
+r10 1 -3 
+_ret 1 7 
+$r7 1 27 
+$r30 1 234 
+r6 1 -1 
+$r9 1 50 
+$r25 1 159 
+$r3 1 12 
+$r23 1 27 
+$r4 1 18 
+$r17 1 111 
+r33 2 154 159 
+r18 1 124 
+$r13 1 86 
+r1 1 4 
+r14 1 94 
+$r21 1 272 
+Fields: 5
+7 ArrayObject 246
+7 ArrayObject 255
+7 ArrayObject 263
+7 ArrayObject 272
+-1 manager 27
+Accesses: 2
+133 1 -1 
+26 1 -1 
+Functions: 25
+0 1 -2 
+193 7 -1 4 154 27 124 94 159 
+257 2 -4 255 
+131 2 4 137 
+68 4 -1 -2 -3 27 
+134 1 27 
+75 2 50 72 
+81 7 -1 50 -3 4 86 27 45 
+209 1 207 
+146 3 -1 27 124 
+274 2 272 -4 
+24 2 4 30 
+27 1 27 
+222 2 231 207 
+224 1 207 
+99 2 108 94 
+163 3 -1 27 124 
+101 1 94 
+39 3 -1 -3 27 
+171 2 168 159 
+178 4 -1 -2 27 124 
+54 3 -1 -3 27 
+120 1 -3 
+187 2 184 159 
+61 2 50 58 
+Constructors: 2
+171 159
+61 50
+
+Summary: 11
+1 2 -1 108 -4 50 0 159 231 -3 -2 
+org/eclipse/core/internal/content/ContentTypeCatalog.associate(Lorg/eclipse/core/internal/content/ContentType;Ljava/lang/String;I)V
+PTG:
+Vars:
+8
+r3 1 23 
+r5 1 -2 
+$r6 1 48 
+r0 1 -1 
+$r4 1 29 
+r2 1 -3 
+$r8 2 7 14 
+r9 2 29 48 
+Fields: 2
+-1 fileNames 7
+-1 fileExtensions 14
+Accesses: 2
+6 1 -1 
+13 1 -1 
+Functions: 5
+19 1 -3 
+67 3 48 -2 29 
+52 1 48 
+25 3 7 23 14 
+58 4 48 7 23 14 
+Constructors: 1
+52 48
+
+Summary: 6
+-2 48 1 0 -1 -3 
+org/eclipse/core/internal/content/ContentTypeCatalog.<init>(Lorg/eclipse/core/internal/content/ContentTypeManager;I)V
+PTG:
+Vars:
+11
+r10 1 -2 
+$r8 1 85 
+$r6 1 61 
+$r3 1 27 
+$r4 1 38 
+$r9 1 97 
+r0 1 -1 
+$r2 1 16 
+$r7 1 73 
+$r1 1 5 
+$r5 1 49 
+Fields: 0
+Accesses: 11
+81 1 -1 
+34 1 -1 
+115 1 -1 
+69 1 -1 
+23 1 -1 
+57 1 -1 
+105 1 -1 
+12 1 -1 
+45 1 -1 
+93 1 -1 
+110 1 -1 
+Functions: 10
+1 1 -1 
+66 2 -1 61 
+20 1 16 
+54 2 -1 49 
+102 2 -1 97 
+9 1 5 
+42 1 38 
+90 2 -1 85 
+78 2 -1 73 
+31 1 27 
+Constructors: 10
+1 -1
+66 61
+20 16
+54 49
+102 97
+9 5
+42 38
+90 85
+78 73
+31 27
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/content/ContentTypeCatalog.addContentType(Lorg/eclipse/core/runtime/content/IContentType;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 5 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 contentTypes 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+4 1 -2 
+11 3 1 -2 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/content/ContentTypeCatalog.ensureValid(Lorg/eclipse/core/internal/content/ContentType;)Z
+PTG:
+Vars:
+8
+r2 1 -1 
+r6 1 63 
+$r5 1 43 
+r7 1 43 
+$r4 1 40 
+r0 1 -2 
+$r3 1 36 
+$r1 1 29 
+Fields: 1
+-1 contentTypes 36
+Accesses: 1
+35 1 -1 
+Functions: 12
+0 1 -2 
+17 1 -2 
+66 3 -1 36 63 
+82 1 -2 
+36 2 36 40 
+70 1 63 
+7 1 -2 
+39 1 -2 
+87 2 -2 63 
+58 1 43 
+28 1 -2 
+14 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/content/ContentTypeCatalog.getContentType(Ljava/lang/String;)Lorg/eclipse/core/internal/content/ContentType;
+PTG:
+Vars:
+5
+r2 1 5 
+$r3 1 5 
+r1 1 -2 
+r0 1 -1 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 -2 
+17 1 5 
+10 1 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/content/ContentTypeCatalog.internalGetContentType(Ljava/lang/String;)Lorg/eclipse/core/internal/content/ContentType;
+PTG:
+Vars:
+6
+$r2 1 1 
+$r3 1 5 
+$r4 1 5 
+r0 1 -1 
+r1 1 -2 
+_ret 1 5 
+Fields: 1
+-1 contentTypes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/content/ContentTypeCatalog.getGeneration()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/content/ContentTypeCatalog.selectMatchingByName(Lorg/eclipse/core/runtime/preferences/IScopeContext;Ljava/util/Collection;Ljava/util/Collection;Ljava/lang/String;I)Ljava/util/Set;
+PTG:
+Vars:
+12
+$r13 1 51 
+r9 1 -2 
+$r14 1 51 
+$r5 1 40 
+r6 1 40 
+r0 1 -3 
+r4 1 33 
+r11 1 -4 
+r10 1 -5 
+$r12 1 17 
+r7 1 -1 
+_ret 1 17 
+Fields: 0
+Accesses: 0
+Functions: 7
+66 7 -1 -2 17 51 -4 -5 40 
+4 1 -3 
+22 1 17 
+38 1 33 
+71 3 -1 51 40 
+27 1 -3 
+75 1 33 
+Constructors: 2
+66 51
+22 17
+
+Summary: 10
+1 2 51 -1 -5 -3 -2 -4 3 0 
+org/eclipse/core/internal/content/ContentTypeCatalog.associate(Lorg/eclipse/core/internal/content/ContentType;)V
+PTG:
+Vars:
+6
+r0 1 -2 
+r1 1 6 
+r5 1 36 
+$r4 1 48 
+r2 1 -1 
+$r3 1 16 
+Fields: 2
+6 ArrayObject 16
+36 ArrayObject 48
+Accesses: 0
+Functions: 4
+0 1 -2 
+18 3 -1 16 -2 
+51 3 -1 48 -2 
+30 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/content/ContentTypeCatalog.getDescriptionFor(Lorg/eclipse/core/internal/content/ContentTypeMatcher;Lorg/eclipse/core/internal/content/ILazySource;Ljava/lang/String;[Lorg/eclipse/core/runtime/QualifiedName;)Lorg/eclipse/core/runtime/content/IContentDescription;
+PTG:
+Vars:
+13
+r1 1 -2 
+r0 1 -1 
+r3 1 -4 
+$r8 1 68 
+r2 1 -3 
+r4 1 22 
+$r11 1 8 
+$r9 1 71 
+r6 1 -5 
+$r5 1 61 
+r13 2 47 8 
+$r7 1 61 
+_ret 1 71 
+Fields: 2
+47 ArrayObject 61
+8 ArrayObject 61
+Accesses: 0
+Functions: 5
+0 4 -1 -2 -3 -4 
+18 1 -2 
+57 2 -2 68 
+29 4 -1 22 8 61 
+62 3 -3 -5 61 
+Constructors: 0
+
+Summary: 9
+2 1 -1 -5 -3 -2 -4 0 3 

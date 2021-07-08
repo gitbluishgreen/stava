@@ -1,0 +1,389 @@
+21
+sun/nio/fs/UnixFileSystem.standardFileAttributeViews()Ljava/util/List;
+PTG:
+Vars:
+3
+$r0 1 1 
+_ret 1 24 
+$r1 1 24 
+Fields: 4
+1 ArrayObject 23
+1 ArrayObject 13
+1 ArrayObject 8
+1 ArrayObject 18
+Accesses: 0
+Functions: 1
+1 5 1 18 23 8 13 
+Constructors: 0
+
+Summary: 5
+23 1 13 8 18 
+sun/nio/fs/UnixFileSystem.normalizeNativePath([C)[C
+PTG:
+Vars:
+3
+r1 1 -1 
+_ret 1 -2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.isReadOnly()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.compilePathMatchPattern(Ljava/lang/String;)Ljava/util/regex/Pattern;
+PTG:
+Vars:
+4
+r2 1 -1 
+$r1 1 1 
+_ret 1 1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/nio/fs/UnixFileSystem.getUserPrincipalLookupService()Ljava/nio/file/attribute/UserPrincipalLookupService;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.provider()Ljava/nio/file/spi/FileSystemProvider;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 provider 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.normalizeJavaPath(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 -2 
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.rootDirectory()Lsun/nio/fs/UnixPath;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 rootDirectory 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.access$000(Lsun/nio/fs/UnixFileSystem;)Lsun/nio/fs/UnixPath;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -2 
+$r1 1 1 
+Fields: 1
+-2 rootDirectory 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -2 
+sun/nio/fs/UnixFileSystem.getRootDirectories()Ljava/lang/Iterable;
+PTG:
+Vars:
+7
+r1 1 -1 
+$r3 1 11 
+_ret 1 18 
+$r5 1 18 
+$r2 1 7 
+r4 1 17 
+$r0 1 1 
+Fields: 1
+-1 rootDirectory 7
+Accesses: 1
+6 1 -1 
+Functions: 3
+1 1 1 
+24 4 -1 17 18 7 
+11 1 11 
+Constructors: 1
+24 18
+
+Summary: 4
+17 1 -1 11 
+sun/nio/fs/UnixFileSystem.close()V
+PTG:
+Vars:
+2
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.getPath(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+PTG:
+Vars:
+8
+r7 1 -1 
+r3 1 -2 
+r0 1 -3 
+r11 2 -2 94 
+$r1 1 10 
+_ret 1 95 
+$r6 1 95 
+r8 1 49 
+Fields: 1
+-3 ArrayObject 49
+Accesses: 0
+Functions: 8
+51 1 49 
+101 4 -1 -2 94 95 
+22 2 -2 10 
+71 1 10 
+89 1 10 
+59 1 10 
+14 1 10 
+79 2 49 10 
+Constructors: 2
+101 95
+14 10
+
+Summary: 6
+10 -3 -2 -1 49 94 
+sun/nio/fs/UnixFileSystem.needToResolveAgainstDefaultDirectory()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.isSolaris()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.<init>(Lsun/nio/fs/UnixFileSystemProvider;Ljava/lang/String;)V
+PTG:
+Vars:
+13
+$r10 1 21 
+r8 1 52 
+$r14 1 170 
+r1 1 -2 
+r9 1 92 
+$r4 1 14 
+$r5 1 21 
+$r6 1 41 
+$r7 1 52 
+$r12 1 21 
+$r3 1 11 
+r0 1 -1 
+r2 1 -3 
+Fields: 1
+-1 defaultDirectory 21
+Accesses: 8
+17 1 -1 
+97 1 -1 
+83 1 -1 
+20 1 -1 
+180 1 -1 
+133 1 -1 
+6 1 -1 
+166 1 -1 
+Functions: 10
+1 2 -1 21 
+49 1 41 
+177 3 -1 21 170 
+37 0 
+70 1 52 
+41 1 41 
+89 0 
+10 1 -3 
+11 1 11 
+59 1 52 
+Constructors: 3
+1 -1
+49 41
+177 170
+
+Summary: 6
+52 41 -3 92 -1 11 
+sun/nio/fs/UnixFileSystem.getFileStores()Ljava/lang/Iterable;
+PTG:
+Vars:
+5
+r0 1 3 
+$r3 1 9 
+r2 1 -1 
+_ret 1 29 
+$r1 1 29 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 0 
+-1 0 
+18 2 3 9 
+34 2 -1 29 
+15 1 9 
+Constructors: 2
+34 29
+15 9
+
+Summary: 3
+3 9 -1 
+sun/nio/fs/UnixFileSystem.defaultDirectory()[B
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 defaultDirectory 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.isOpen()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.getPathMatcher(Ljava/lang/String;)Ljava/nio/file/PathMatcher;
+PTG:
+Vars:
+8
+r13 2 41 57 
+r11 1 116 
+_ret 1 118 
+r0 1 -2 
+r3 1 41 
+r2 1 33 
+$r12 1 118 
+r10 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 16
+0 1 -2 
+34 1 -2 
+100 0 
+106 0 
+43 1 33 
+12 1 -2 
+110 3 -1 41 57 
+82 0 
+52 1 41 
+86 0 
+23 0 
+27 1 -2 
+91 1 33 
+125 3 -1 116 118 
+62 1 33 
+95 0 
+Constructors: 1
+125 118
+
+Summary: 11
+95 41 91 -2 33 103 116 57 -1 82 100 
+sun/nio/fs/UnixFileSystem.copyNonPosixAttributes(II)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/fs/UnixFileSystem.getSeparator()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

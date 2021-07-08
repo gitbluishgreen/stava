@@ -1,0 +1,2632 @@
+47
+org/apache/xerces/parsers/AbstractDOMParser.createAttrNode(Lorg/apache/xerces/xni/QName;)Lorg/w3c/dom/Attr;
+PTG:
+Vars:
+14
+$r11 1 10 
+$r4 1 10 
+$r3 1 61 
+$r8 1 29 
+$r6 1 44 
+r1 1 -2 
+$r5 1 48 
+r0 1 -1 
+$r10 1 21 
+r12 3 73 35 56 
+$r7 1 40 
+$r2 1 65 
+_ret 3 73 35 56 
+$r9 1 25 
+Fields: 9
+-2 uri 21
+-2 uri 44
+-2 rawname 25
+-2 rawname 65
+-2 rawname 48
+-2 localpart 29
+-1 fDocumentImpl 10
+-1 fDocument 40
+-1 fDocument 61
+Accesses: 11
+16 1 -1 
+64 1 -2 
+2 1 -1 
+20 1 -2 
+39 1 -1 
+24 1 -2 
+9 1 -1 
+43 1 -2 
+28 1 -2 
+60 1 -1 
+47 1 -2 
+Functions: 3
+17 4 21 25 10 29 
+40 3 48 40 44 
+61 2 65 61 
+Constructors: 0
+
+Summary: 8
+-2 65 25 29 48 -1 44 21 
+org/apache/xerces/parsers/AbstractDOMParser.endDTD(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+12
+$r13 1 44 
+$r9 1 24 
+$r7 1 64 
+$r6 1 90 
+r0 1 -1 
+$r5 1 90 
+$r4 1 79 
+$r10 1 6 
+r12 1 -2 
+$r2 1 24 
+$r1 1 6 
+$r8 1 24 
+Fields: 5
+-1 fDocumentImpl 79
+-1 fInternalSubset 24
+-1 fDocumentType 90
+-1 fBaseURIStack 6
+-1 fDeferredDocumentImpl 64
+Accesses: 11
+2 1 -1 
+67 1 -1 
+52 1 -1 
+5 1 -1 
+23 1 -1 
+40 1 -1 
+89 1 -1 
+30 1 -1 
+78 1 -1 
+15 1 -1 
+63 1 -1 
+Functions: 6
+97 2 90 44 
+19 1 6 
+6 1 6 
+72 2 64 44 
+41 1 24 
+31 1 24 
+Constructors: 0
+
+Summary: 3
+-2 -1 44 
+org/apache/xerces/parsers/AbstractDOMParser.startAttlist(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.startCDATA(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 4
+2 1 -1 
+20 1 -1 
+5 1 -1 
+12 1 -1 
+Functions: 1
+29 1 -1 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.endElement(Lorg/apache/xerces/xni/QName;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+26
+r33 1 35 
+$r5 1 138 
+r6 1 -2 
+$r38 1 77 
+r0 1 -1 
+$r3 1 77 
+$r9 1 77 
+$r8 1 107 
+$r23 1 151 
+$r29 1 77 
+r2 1 -3 
+r34 2 74 61 
+$r41 1 35 
+$r4 1 395 
+$r28 1 35 
+$r7 1 176 
+$r10 1 107 
+$r30 1 77 
+$r35 1 107 
+$r22 1 138 
+$r39 1 374 
+$r1 1 408 
+$r27 1 12 
+$r31 1 77 
+$r32 1 77 
+$r40 1 35 
+Fields: 6
+-1 fDOMFilter 107
+-1 fDocumentImpl 12
+-1 fCurrentNode 77
+-1 fDeferredDocumentImpl 408
+-1 fRoot 176
+-1 fSkippedElemStack 138
+Accesses: 35
+0 1 -1 
+193 1 -1 
+133 1 -1 
+391 1 -1 
+137 1 -1 
+265 1 -1 
+11 1 -1 
+76 1 -1 
+207 1 -1 
+400 1 -1 
+18 1 -1 
+147 1 -1 
+211 1 -1 
+278 1 -1 
+407 1 -1 
+88 1 -1 
+25 1 -1 
+411 1 -1 
+284 1 -1 
+95 1 -1 
+287 1 -1 
+352 1 -1 
+161 1 -1 
+419 1 -1 
+106 1 -1 
+298 1 -1 
+365 1 -1 
+175 1 -1 
+48 1 -1 
+113 1 -1 
+370 1 -1 
+121 1 -1 
+186 1 -1 
+379 1 -1 
+252 1 -1 
+Functions: 26
+194 1 107 
+387 7 -1 176 408 138 107 12 77 
+68 1 35 
+326 0 
+392 1 77 
+138 1 138 
+269 0 
+334 0 
+208 2 107 77 
+148 1 138 
+85 3 74 77 61 
+151 2 -2 151 
+408 1 408 
+32 1 -3 
+288 0 
+356 0 
+165 0 
+103 2 35 77 
+299 0 
+172 7 -1 176 408 138 107 12 77 
+176 2 176 -2 
+371 1 77 
+309 0 
+55 1 35 
+120 1 -2 
+253 0 
+Constructors: 0
+
+Summary: 9
+307 -2 35 329 -3 74 151 61 -1 
+org/apache/xerces/parsers/AbstractDOMParser.endAttlist(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.<init>(Lorg/apache/xerces/xni/parser/XMLParserConfiguration;)V
+PTG:
+Vars:
+17
+$r14 1 168 
+$r11 1 93 
+$r2 1 11 
+r1 1 -2 
+r0 1 -1 
+$r4 1 45 
+$r9 1 93 
+$r15 1 93 
+$r10 1 93 
+$r3 1 24 
+$r6 1 77 
+$r13 1 93 
+$r16 1 93 
+$r7 1 96 
+$r12 1 93 
+$r8 1 93 
+$r5 1 56 
+Fields: 1
+-1 fConfiguration 93
+Accesses: 19
+128 1 -1 
+36 1 -1 
+68 1 -1 
+164 1 -1 
+7 1 -1 
+104 1 -1 
+41 1 -1 
+73 1 -1 
+140 1 -1 
+176 1 -1 
+20 1 -1 
+52 1 -1 
+84 1 -1 
+116 1 -1 
+152 1 -1 
+89 1 -1 
+92 1 -1 
+31 1 -1 
+63 1 -1 
+Functions: 14
+2 3 -1 -2 93 
+99 2 96 93 
+135 1 93 
+171 2 168 93 
+111 1 93 
+17 1 11 
+49 1 45 
+81 1 77 
+147 1 93 
+184 1 93 
+123 1 93 
+28 1 24 
+60 1 56 
+159 1 93 
+Constructors: 6
+17 11
+49 45
+81 77
+2 -1
+28 24
+60 56
+
+Summary: 3
+0 -2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.startConditional(SLorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-3 -1 
+org/apache/xerces/parsers/AbstractDOMParser.internalEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+38
+$r39 1 1 
+$r1 1 1 
+$r14 1 178 
+$r6 2 326 263 
+$r37 1 1 
+$r4 1 263 
+r2 1 -2 
+$r24 1 1 
+$r10 1 263 
+$r16 1 214 
+$r5 2 280 263 
+r44 1 85 
+$r20 1 232 
+r0 1 -1 
+r46 1 198 
+$r29 1 1 
+$r7 2 299 263 
+$r11 1 360 
+r43 1 -5 
+$r17 1 218 
+$r40 1 52 
+$r31 1 1 
+$r13 1 263 
+$r19 1 232 
+r8 1 308 
+$r15 1 198 
+$r9 1 229 
+r47 1 218 
+r42 1 -3 
+$r12 1 360 
+$r3 1 178 
+$r18 1 229 
+$r35 1 1 
+$r26 1 1 
+r45 1 193 
+$r33 1 1 
+r28 1 -4 
+$r22 1 1 
+Fields: 5
+-1 fDocumentImpl 214
+-1 fInternalSubset 1
+-1 fDocumentType 178
+-1 fBaseURIStack 229
+-1 fDeferredDocumentImpl 263
+Accesses: 25
+0 1 -1 
+325 1 -1 
+262 1 -1 
+7 1 -1 
+71 1 -1 
+135 1 -1 
+266 1 -1 
+14 1 -1 
+213 1 -1 
+279 1 -1 
+155 1 -1 
+348 1 -1 
+35 1 -1 
+228 1 -1 
+356 1 -1 
+105 1 -1 
+298 1 -1 
+46 1 -1 
+177 1 -1 
+371 1 -1 
+375 1 -1 
+184 1 -1 
+251 1 -1 
+125 1 -1 
+62 1 -1 
+Functions: 28
+67 2 1 -2 
+131 2 1 85 
+195 2 193 -2 
+326 2 326 263 
+263 1 263 
+77 1 1 
+81 1 -4 
+21 1 1 
+214 2 -2 214 
+87 1 85 
+151 1 1 
+280 2 263 280 
+25 1 -2 
+349 3 -2 263 360 
+162 1 1 
+229 1 229 
+357 1 229 
+166 1 -2 
+42 1 1 
+299 2 263 299 
+238 2 232 218 
+50 1 -2 
+245 2 193 218 
+310 2 -2 308 
+55 2 1 52 
+121 1 1 
+185 1 178 
+381 1 263 
+Constructors: 0
+
+Summary: 13
+-5 -2 198 232 52 -3 193 218 -1 85 -4 308 360 
+org/apache/xerces/parsers/AbstractDOMParser.getDocumentClassName()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fDocumentClassName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/parsers/AbstractDOMParser.emptyElement(Lorg/apache/xerces/xni/QName;Lorg/apache/xerces/xni/XMLAttributes;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 4 -1 -2 -3 -4 
+10 3 -1 -2 -4 
+Constructors: 0
+
+Summary: 4
+-3 -2 -1 -4 
+org/apache/xerces/parsers/AbstractDOMParser.characters(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+37
+$r34 1 30 
+$r23 1 118 
+$r15 1 209 
+$r7 1 285 
+r0 1 -1 
+r41 1 368 
+$r31 1 38 
+$r33 1 45 
+$r29 1 30 
+$r16 2 148 166 
+$r19 1 118 
+r40 1 245 
+r38 1 -3 
+$r3 1 370 
+$r13 1 110 
+$r9 1 285 
+$r5 1 326 
+r1 1 -2 
+$r18 1 141 
+$r8 1 289 
+$r30 1 83 
+$r32 1 42 
+$r10 1 110 
+$r35 1 54 
+$r21 1 173 
+$r26 1 155 
+$r37 1 30 
+$r12 1 237 
+$r6 1 322 
+$r2 1 370 
+$r24 1 118 
+$r11 1 233 
+$r28 1 30 
+$r25 1 148 
+$r4 1 322 
+r39 1 118 
+$r20 1 166 
+Fields: 12
+-2 ch 209
+-1 fCurrentCDATASection 30
+-1 fDocumentImpl 141
+-1 fDocument 38
+-1 fDocument 233
+-1 fCurrentNode 54
+-1 fCurrentNode 110
+-1 fDeferredDocumentImpl 285
+-1 fDeferredDocumentImpl 322
+-1 fDeferredDocumentImpl 370
+-1 fStringBuffer 148
+-1 fStringBuffer 166
+Accesses: 44
+0 1 -1 
+384 1 -1 
+321 1 -1 
+194 1 -1 
+68 1 -1 
+133 1 -1 
+197 1 -2 
+262 1 -1 
+7 1 -1 
+72 1 -1 
+140 1 -1 
+204 1 -1 
+269 1 -1 
+78 1 -1 
+334 1 -1 
+15 1 -1 
+208 1 -2 
+338 1 -1 
+147 1 -1 
+212 1 -2 
+276 1 -1 
+22 1 -1 
+216 1 -2 
+284 1 -1 
+29 1 -1 
+349 1 -1 
+94 1 -1 
+356 1 -2 
+37 1 -1 
+101 1 -2 
+165 1 -1 
+229 1 -1 
+232 1 -1 
+296 1 -1 
+300 1 -1 
+109 1 -1 
+369 1 -1 
+50 1 -1 
+53 1 -1 
+310 1 -1 
+247 1 -1 
+57 1 -1 
+315 1 -1 
+380 1 -1 
+Functions: 25
+322 2 322 326 
+325 2 -2 209 
+390 1 370 
+82 2 -2 209 
+86 2 83 30 
+343 1 322 
+152 1 118 
+220 3 209 148 166 
+285 2 289 285 
+158 2 148 155 
+288 2 -2 209 
+38 2 38 42 
+41 2 -2 209 
+233 2 233 237 
+170 1 118 
+236 2 -2 209 
+364 2 -2 209 
+110 1 110 
+305 1 285 
+178 2 166 173 
+370 2 368 370 
+123 1 118 
+187 1 118 
+61 2 54 30 
+253 2 245 110 
+Constructors: 0
+
+Summary: 14
+-2 209 155 245 368 42 -1 118 326 -3 237 173 83 289 
+org/apache/xerces/parsers/AbstractDOMParser.reset()V
+PTG:
+Vars:
+13
+$r6 1 6 
+$r2 1 6 
+$r4 1 6 
+$r8 1 101 
+$r5 1 6 
+r0 1 -1 
+$r7 1 6 
+$r9 1 101 
+$r12 1 193 
+$r11 1 156 
+$r10 1 148 
+$r1 1 6 
+$r3 1 6 
+Fields: 4
+-1 fBaseURIStack 193
+-1 fConfiguration 6
+-1 fRoot 156
+-1 fStringBuffer 148
+Accesses: 29
+192 1 -1 
+65 1 -1 
+129 1 -1 
+5 1 -1 
+134 1 -1 
+139 1 -1 
+76 1 -1 
+16 1 -1 
+80 1 -1 
+144 1 -1 
+147 1 -1 
+20 1 -1 
+91 1 -1 
+155 1 -1 
+31 1 -1 
+95 1 -1 
+35 1 -1 
+164 1 -1 
+169 1 -1 
+46 1 -1 
+174 1 -1 
+50 1 -1 
+114 1 -1 
+179 1 -1 
+119 1 -1 
+184 1 -1 
+124 1 -1 
+61 1 -1 
+189 1 -1 
+Functions: 12
+96 1 6 
+1 5 -1 193 148 6 156 
+81 1 6 
+66 1 6 
+51 1 6 
+36 1 6 
+196 1 193 
+21 1 6 
+6 1 6 
+152 1 148 
+109 6 -1 193 148 101 6 156 
+159 1 156 
+Constructors: 0
+
+Summary: 2
+-1 101 
+org/apache/xerces/parsers/AbstractDOMParser.startElement(Lorg/apache/xerces/xni/QName;Lorg/apache/xerces/xni/XMLAttributes;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+63
+$r39 1 338 
+$r38 1 408 
+r49 1 182 
+$r8 1 705 
+r54 5 668 741 552 566 654 
+$r12 1 654 
+r1 1 -4 
+$r45 1 130 
+$r17 2 50 40 
+$r21 1 233 
+$r30 1 408 
+$r16 1 40 
+$r60 1 769 
+$r18 1 71 
+$r65 1 338 
+$r52 1 394 
+$r4 1 569 
+$r3 1 588 
+$r19 1 78 
+$r68 1 622 
+$r13 1 668 
+$r63 1 78 
+$r69 1 622 
+r42 1 56 
+r46 1 56 
+$r62 1 78 
+$r64 1 338 
+$r26 1 168 
+$r31 1 411 
+r43 1 66 
+$r15 1 530 
+r55 1 530 
+$r24 1 20 
+$r59 1 761 
+$r28 1 56 
+$r58 2 569 753 
+$r14 1 569 
+r2 1 -2 
+r44 1 78 
+$r61 1 777 
+$r22 1 239 
+r57 1 622 
+r0 1 -1 
+$r27 1 182 
+$r9 1 711 
+$r25 1 271 
+$r56 1 580 
+r5 1 -3 
+$r66 1 530 
+r51 2 367 381 
+r41 1 20 
+$r40 1 20 
+$r67 1 530 
+$r10 1 718 
+$r53 1 500 
+r50 1 338 
+$r7 1 622 
+$r32 1 394 
+r48 1 168 
+$r23 1 246 
+$r11 1 743 
+$r6 1 615 
+r47 1 269 
+Fields: 9
+-2 uri 580
+-2 rawname 588
+-1 fDOMFilter 394
+-1 fDocumentImpl 130
+-1 fCurrentNode 500
+-1 fDeferredDocumentImpl 569
+-1 fRoot 408
+-1 fAttrQName 40
+408 rawname 411
+Accesses: 28
+0 1 -1 
+640 1 -1 
+129 1 -1 
+514 1 -1 
+579 1 -2 
+7 1 -1 
+393 1 -1 
+587 1 -2 
+400 1 -1 
+407 1 -1 
+88 1 -1 
+408 1 408 
+154 1 -1 
+474 1 -1 
+477 1 -1 
+353 1 -1 
+417 1 -1 
+486 1 -1 
+39 1 -1 
+808 1 -1 
+428 1 -1 
+812 1 -1 
+752 1 -1 
+49 1 -1 
+499 1 -1 
+568 1 -1 
+824 1 -1 
+572 1 -1 
+Functions: 58
+261 1 -3 
+390 3 20 381 367 
+774 1 -3 
+647 1 622 
+782 1 -3 
+15 11 -1 -2 130 500 580 408 40 569 394 411 588 
+271 2 269 271 
+527 1 -4 
+661 1 622 
+22 1 -3 
+794 10 753 769 741 566 552 569 761 777 668 654 
+284 2 56 269 
+161 1 78 
+545 1 530 
+677 1 668 
+422 5 -2 580 408 411 588 
+43 2 -3 40 
+300 2 20 56 
+429 2 20 394 
+175 1 78 
+559 1 530 
+48 9 -1 130 50 500 408 40 569 394 411 
+305 1 -3 
+818 1 569 
+692 1 654 
+313 1 56 
+569 8 580 741 566 552 569 588 668 654 
+58 1 -3 
+191 1 182 
+705 2 705 718 
+68 1 -3 
+708 1 -3 
+71 1 71 
+711 1 711 
+328 8 -1 130 500 408 40 569 394 411 
+205 2 182 56 
+335 1 -4 
+213 1 168 
+598 1 -3 
+733 1 -3 
+482 3 -2 580 588 
+227 2 56 168 
+612 1 -3 
+615 1 615 
+743 6 741 566 743 552 668 654 
+360 1 338 
+233 2 246 233 
+490 3 -2 580 588 
+107 2 56 78 
+236 1 -3 
+494 0 
+239 1 239 
+114 2 66 56 
+374 1 338 
+758 1 -3 
+505 2 500 20 
+123 2 20 56 
+766 1 -3 
+Constructors: 0
+
+Summary: 32
+78 769 71 -1 622 -4 566 552 -3 654 182 491 718 777 741 -2 168 269 711 338 381 668 239 367 588 56 761 580 530 615 66 246 
+org/apache/xerces/parsers/AbstractDOMParser.startDTD(Lorg/apache/xerces/xni/XMLLocator;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r5 1 14 
+$r4 1 10 
+$r2 1 38 
+r1 1 -2 
+$r3 1 31 
+r7 1 -3 
+Fields: 2
+-1 fDocumentImpl 31
+-1 fBaseURIStack 10
+Accesses: 5
+48 1 -1 
+2 1 -1 
+23 1 -1 
+9 1 -1 
+30 1 -1 
+Functions: 3
+19 2 10 14 
+13 1 -2 
+45 1 38 
+Constructors: 1
+45 38
+
+Summary: 4
+14 -3 -2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.notationDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+33
+r38 1 -4 
+r10 1 -2 
+$r15 1 145 
+$r36 1 17 
+$r18 1 178 
+r0 1 -3 
+$r21 1 17 
+$r14 1 145 
+$r19 1 203 
+$r13 1 233 
+r3 1 -1 
+$r34 1 17 
+$r27 1 17 
+$r16 1 165 
+r41 1 160 
+$r39 1 17 
+$r25 1 17 
+$r6 2 233 250 
+$r5 1 233 
+$r12 1 328 
+$r23 1 17 
+$r40 1 138 
+r1 1 6 
+r42 1 178 
+$r8 2 269 233 
+$r30 1 17 
+$r7 2 233 296 
+r2 1 14 
+$r4 1 17 
+r9 1 278 
+$r32 1 17 
+$r11 1 233 
+$r17 1 138 
+Fields: 4
+-1 fDocumentImpl 138
+-1 fInternalSubset 17
+-1 fDocumentType 145
+-1 fDeferredDocumentImpl 233
+Accesses: 24
+66 1 -1 
+295 1 -1 
+232 1 -1 
+41 1 -1 
+105 1 -1 
+137 1 -1 
+236 1 -1 
+268 1 -1 
+173 1 -1 
+16 1 -1 
+144 1 -1 
+81 1 -1 
+338 1 -1 
+116 1 -1 
+342 1 -1 
+23 1 -1 
+55 1 -1 
+151 1 -1 
+249 1 -1 
+92 1 -1 
+221 1 -1 
+30 1 -1 
+126 1 -1 
+318 1 -1 
+Functions: 27
+0 1 -3 
+133 1 17 
+197 2 178 14 
+327 1 -3 
+8 1 -3 
+72 2 17 6 
+202 1 -3 
+269 2 233 269 
+208 2 178 203 
+215 2 160 178 
+88 1 17 
+152 1 145 
+280 2 -2 278 
+348 1 233 
+98 2 17 14 
+162 2 160 -2 
+37 1 17 
+296 2 296 233 
+233 1 233 
+46 2 17 -2 
+174 2 -2 138 
+112 1 17 
+122 2 17 14 
+250 2 233 250 
+62 1 17 
+190 2 178 6 
+319 5 -2 6 328 233 14 
+Constructors: 0
+
+Summary: 12
+14 203 -2 165 160 278 178 328 -3 -1 -4 6 
+org/apache/xerces/parsers/AbstractDOMParser.endCDATA(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+10
+$r2 1 21 
+$r3 1 28 
+$r13 1 129 
+$r14 1 132 
+r12 1 -2 
+$r6 1 28 
+$r5 1 21 
+$r1 1 158 
+$r4 1 28 
+r0 1 -1 
+Fields: 4
+-1 fDOMFilter 28
+-1 fCurrentCDATASection 21
+-1 fCurrentNode 129
+-1 fDeferredDocumentImpl 158
+Accesses: 20
+128 1 -1 
+161 1 -1 
+2 1 -1 
+34 1 -1 
+100 1 -1 
+5 1 -1 
+41 1 -1 
+137 1 -1 
+169 1 -1 
+12 1 -1 
+142 1 -1 
+174 1 -1 
+111 1 -1 
+20 1 -1 
+148 1 -1 
+56 1 -1 
+27 1 -1 
+123 1 -1 
+60 1 -1 
+157 1 -1 
+Functions: 6
+129 1 129 
+115 0 
+101 0 
+57 2 21 28 
+42 1 28 
+158 1 158 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.endDocument(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+12
+$r3 1 61 
+$r9 1 8 
+$r5 1 8 
+$r4 1 68 
+r0 1 -1 
+$r1 1 54 
+$r10 1 29 
+$r2 1 54 
+$r7 1 8 
+r11 1 -2 
+$r6 1 15 
+$r8 1 15 
+Fields: 4
+-1 fDocumentImpl 8
+-1 fDeferredDocumentImpl 61
+-1 fLocator 15
+-1 fLocator 54
+Accesses: 11
+0 1 -1 
+64 1 -1 
+21 1 -1 
+37 1 -1 
+53 1 -1 
+7 1 -1 
+25 1 -1 
+60 1 -1 
+14 1 -1 
+78 1 -1 
+47 1 -1 
+Functions: 5
+65 1 54 
+34 2 8 29 
+73 2 68 61 
+26 1 15 
+42 1 8 
+Constructors: 0
+
+Summary: 4
+29 -2 -1 68 
+org/apache/xerces/parsers/AbstractDOMParser.createElementNode(Lorg/apache/xerces/xni/QName;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+14
+$r3 1 61 
+r0 1 -1 
+$r4 1 10 
+$r6 1 44 
+r12 3 73 35 56 
+$r7 1 40 
+$r2 1 65 
+$r9 1 25 
+r1 1 -2 
+_ret 3 73 35 56 
+$r8 1 29 
+$r10 1 21 
+$r5 1 48 
+$r11 1 10 
+Fields: 9
+-2 uri 21
+-2 uri 44
+-2 rawname 25
+-2 rawname 65
+-2 rawname 48
+-2 localpart 29
+-1 fDocumentImpl 10
+-1 fDocument 40
+-1 fDocument 61
+Accesses: 11
+16 1 -1 
+64 1 -2 
+2 1 -1 
+20 1 -2 
+39 1 -1 
+24 1 -2 
+9 1 -1 
+43 1 -2 
+28 1 -2 
+60 1 -1 
+47 1 -2 
+Functions: 3
+17 4 21 25 10 29 
+40 3 48 40 44 
+61 2 65 61 
+Constructors: 0
+
+Summary: 8
+-2 65 25 29 48 -1 44 21 
+org/apache/xerces/parsers/AbstractDOMParser.startExternalSubset(Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+5
+$r2 1 1 
+r0 1 -1 
+r5 1 -3 
+r1 1 -2 
+$r3 1 5 
+Fields: 1
+-1 fBaseURIStack 1
+Accesses: 2
+0 1 -1 
+16 1 -1 
+Functions: 2
+4 1 -2 
+10 2 1 5 
+Constructors: 0
+
+Summary: 4
+5 -3 -2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.attributeDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+58
+$r35 1 1 
+r70 1 -9 
+$r25 1 336 
+$r13 1 535 
+$r49 2 235 1 
+$r63 2 1 105 
+$r19 1 390 
+$r7 1 404 
+$r9 1 378 
+$r62 1 112 
+$r23 1 279 
+r12 1 -4 
+r3 1 -7 
+$r20 1 390 
+$r53 1 1 
+$r14 1 567 
+$r26 1 345 
+$r48 1 199 
+$r30 1 279 
+$r5 1 390 
+r43 1 -6 
+r72 1 399 
+$r75 1 378 
+r73 2 427 404 
+$r39 1 1 
+$r11 1 521 
+$r33 1 1 
+$r27 1 279 
+r8 1 -3 
+$r18 1 378 
+$r4 1 390 
+$r10 1 509 
+$r65 2 95 1 
+$r67 1 1 
+r69 1 -8 
+r0 1 -1 
+$r41 1 1 
+$r1 1 1 
+$r46 1 1 
+$r71 1 279 
+$r44 1 1 
+r61 1 -5 
+$r59 1 1 
+r77 2 493 509 
+$r28 1 279 
+$r76 1 493 
+$r29 1 279 
+$r2 1 378 
+$r21 1 436 
+$r57 1 1 
+r74 1 484 
+$r37 1 1 
+r6 1 -2 
+$r16 1 551 
+$r31 1 1 
+$r51 2 221 1 
+$r24 1 279 
+$r55 1 1 
+Fields: 6
+-5 ArrayObject 112
+-7 ch 199
+-1 fDocumentImpl 378
+-1 fInternalSubset 1
+-1 fDocumentType 390
+-1 fDeferredDocumentImpl 279
+Accesses: 37
+0 1 -1 
+128 1 -1 
+320 1 -1 
+257 1 -1 
+197 1 -7 
+389 1 -1 
+7 1 -1 
+73 1 -1 
+329 1 -1 
+202 1 -7 
+267 1 -1 
+141 1 -1 
+14 1 -1 
+278 1 -1 
+25 1 -1 
+155 1 -1 
+220 1 -1 
+94 1 -1 
+34 1 -1 
+290 1 -1 
+354 1 -1 
+419 1 -1 
+165 1 -1 
+486 1 -1 
+104 1 -1 
+234 1 -1 
+363 1 -1 
+44 1 -1 
+429 1 -1 
+306 1 -1 
+180 1 -1 
+53 1 -1 
+504 1 -1 
+249 1 -7 
+377 1 -1 
+316 1 -1 
+447 1 -1 
+Functions: 44
+134 1 1 
+326 1 279 
+263 1 1 
+519 2 -7 199 
+393 1 390 
+330 3 336 -3 279 
+524 3 521 493 509 
+461 1 -3 
+334 2 -7 199 
+79 1 1 
+401 2 -2 399 
+146 2 1 -4 
+274 1 1 
+530 2 493 509 
+21 1 1 
+471 1 -3 
+535 2 -4 535 
+345 2 -4 345 
+541 2 493 509 
+30 2 1 -2 
+161 1 1 
+227 2 1 221 
+291 2 -2 279 
+100 2 1 95 
+420 2 -2 378 
+549 2 404 427 
+487 3 -3 484 378 
+40 1 1 
+360 1 279 
+171 2 1 -6 
+556 3 551 493 509 
+240 2 1 235 
+49 2 1 -3 
+113 3 112 1 105 
+433 1 390 
+307 2 -2 279 
+371 1 279 
+565 2 404 427 
+441 3 436 404 427 
+505 2 -3 378 
+59 1 1 
+187 1 1 
+572 3 567 493 509 
+63 1 -4 
+Constructors: 0
+
+Summary: 20
+-5 551 199 -8 -2 436 -7 399 -1 -4 493 -9 509 427 567 404 -3 521 336 -6 
+org/apache/xerces/parsers/AbstractDOMParser.xmlDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+14
+$r6 1 55 
+r2 1 -3 
+$r11 1 8 
+r0 1 -1 
+r4 1 -4 
+$r8 1 8 
+$r3 1 55 
+$r10 1 38 
+$r7 1 55 
+$r9 1 8 
+r13 1 -5 
+$r5 1 74 
+r1 1 -2 
+$r12 1 8 
+Fields: 2
+-1 fDocumentImpl 8
+-1 fDeferredDocumentImpl 55
+Accesses: 8
+0 1 -1 
+18 1 -1 
+34 1 -1 
+54 1 -1 
+70 1 -1 
+7 1 -1 
+26 1 -1 
+62 1 -1 
+Functions: 8
+80 1 55 
+67 2 -3 55 
+38 2 -4 38 
+23 2 -2 8 
+74 2 -4 74 
+59 2 -2 55 
+44 1 8 
+31 2 -3 8 
+Constructors: 0
+
+Summary: 5
+-5 -3 -2 -1 -4 
+org/apache/xerces/parsers/AbstractDOMParser.endParameterEntity(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r3 1 -2 
+r4 1 -3 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fBaseURIStack 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.startGeneralEntity(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+27
+$r18 1 79 
+r10 1 -4 
+$r15 1 49 
+$r3 1 138 
+$r4 1 143 
+$r26 1 117 
+$r11 2 138 225 
+r1 1 -2 
+$r20 1 91 
+$r21 1 91 
+$r5 1 138 
+r9 1 207 
+r22 1 -5 
+$r13 1 33 
+r2 1 -3 
+r0 1 -1 
+r25 1 73 
+$r8 2 138 198 
+$r19 1 79 
+$r7 2 138 238 
+$r6 2 138 179 
+r23 1 30 
+r24 1 30 
+$r17 1 58 
+$r12 1 21 
+$r27 1 138 
+$r16 1 58 
+Fields: 6
+-1 fDocumentImpl 33
+-1 fDocumentType 58
+-1 fDocument 21
+-1 fCurrentNode 117
+-1 fDeferredDocumentImpl 138
+-1 fCurrentEntityDecl 91
+Accesses: 24
+0 1 -1 
+32 1 -1 
+64 1 -1 
+224 1 -1 
+97 1 -1 
+161 1 -1 
+131 1 -1 
+259 1 -1 
+165 1 -1 
+197 1 -1 
+7 1 -1 
+137 1 -1 
+237 1 -1 
+271 1 -1 
+113 1 -1 
+178 1 -1 
+20 1 -1 
+116 1 -1 
+87 1 -1 
+57 1 -1 
+153 1 -1 
+90 1 -1 
+221 1 -1 
+255 1 -1 
+Functions: 18
+65 1 58 
+162 1 138 
+102 2 -4 91 
+198 2 198 138 
+231 3 225 -4 138 
+265 1 138 
+138 3 -2 138 143 
+76 2 -2 73 
+108 1 30 
+142 1 -3 
+238 2 138 238 
+48 1 -3 
+17 7 -1 33 21 117 58 138 91 
+209 2 -2 207 
+179 2 179 138 
+21 2 -2 21 
+54 2 49 30 
+122 2 117 30 
+Constructors: 0
+
+Summary: 9
+-5 73 207 -2 -3 -1 -4 49 143 
+org/apache/xerces/parsers/AbstractDOMParser.ignorableWhitespace(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+16
+$r9 1 23 
+r14 1 31 
+$r8 1 82 
+$r4 1 117 
+$r2 1 117 
+r13 1 -3 
+r11 1 79 
+r1 1 -2 
+$r5 1 23 
+$r12 1 55 
+r16 1 79 
+r0 1 -1 
+r15 1 31 
+$r6 1 67 
+$r7 1 71 
+$r3 1 121 
+Fields: 4
+-1 fDocumentImpl 82
+-1 fDocument 67
+-1 fCurrentNode 23
+-1 fDeferredDocumentImpl 117
+Accesses: 10
+0 1 -1 
+81 1 -1 
+129 1 -1 
+66 1 -1 
+116 1 -1 
+101 1 -1 
+133 1 -1 
+22 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 11
+98 1 79 
+67 2 67 71 
+36 1 31 
+117 2 117 121 
+54 1 -2 
+70 1 -2 
+23 1 23 
+120 1 -2 
+58 2 55 31 
+138 1 117 
+107 2 23 79 
+Constructors: 0
+
+Summary: 8
+79 -3 -2 31 121 -1 71 55 
+org/apache/xerces/parsers/AbstractDOMParser.ignoredCharacters(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.handleBaseURI(I)V
+PTG:
+Vars:
+16
+$r12 1 1 
+$r16 1 126 
+$r1 1 1 
+r14 2 43 27 
+r0 1 -1 
+$r6 1 120 
+r15 2 114 98 
+$r3 1 120 
+$r11 1 53 
+$r2 1 1 
+$r8 1 1 
+$r7 1 158 
+$r9 1 1 
+$r10 1 1 
+$r17 1 126 
+$r13 1 1 
+Fields: 3
+126 fType 139
+-1 fDeferredDocumentImpl 1
+-1 fErrorHandler 120
+Accesses: 16
+0 1 -1 
+32 1 -1 
+36 1 -1 
+103 1 -1 
+107 1 -1 
+139 1 126 
+15 1 -1 
+49 1 -1 
+145 1 126 
+19 1 -1 
+86 1 -1 
+119 1 -1 
+151 1 126 
+90 1 -1 
+154 1 -1 
+62 1 -1 
+Functions: 11
+16 1 1 
+48 3 53 43 27 
+1 1 1 
+33 1 1 
+50 1 1 
+130 2 139 126 
+163 3 139 158 126 
+87 1 1 
+104 1 1 
+73 3 1 43 27 
+155 1 120 
+Constructors: 1
+130 126
+
+Summary: 7
+43 158 27 126 -1 53 139 
+org/apache/xerces/parsers/AbstractDOMParser.<clinit>()V
+PTG:
+Vars:
+3
+$r2 1 56 
+$r0 1 2 
+$r1 1 39 
+Fields: 8
+2 ArrayObject 29
+2 ArrayObject 9
+2 ArrayObject 34
+2 ArrayObject 24
+2 ArrayObject 19
+2 ArrayObject 14
+39 ArrayObject 46
+39 ArrayObject 52
+Accesses: 0
+Functions: 1
+60 1 56 
+Constructors: 1
+60 56
+
+Summary: 0
+
+org/apache/xerces/parsers/AbstractDOMParser.startParameterEntity(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+7
+$r2 1 1 
+$r3 1 5 
+r7 1 -5 
+r5 1 -2 
+r0 1 -1 
+r6 1 -4 
+r1 1 -3 
+Fields: 1
+-1 fBaseURIStack 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+4 1 -3 
+10 2 1 5 
+Constructors: 0
+
+Summary: 6
+-5 5 -3 -2 -1 -4 
+org/apache/xerces/parsers/AbstractDOMParser.getDocument()Lorg/w3c/dom/Document;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 fDocument 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/parsers/AbstractDOMParser.processingInstruction(Ljava/lang/String;Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+14
+r28 1 112 
+$r5 1 226 
+r27 1 -4 
+$r6 1 99 
+r0 1 -1 
+$r7 1 104 
+r1 1 -2 
+$r10 1 132 
+$r12 1 132 
+$r3 1 226 
+r2 1 -3 
+$r11 1 132 
+$r4 1 231 
+$r8 1 120 
+Fields: 4
+-1 fDOMFilter 132
+-1 fDocument 99
+-1 fCurrentNode 120
+-1 fDeferredDocumentImpl 226
+Accesses: 24
+0 1 -1 
+64 1 -3 
+160 1 -1 
+225 1 -1 
+98 1 -1 
+131 1 -1 
+7 1 -1 
+40 1 -3 
+72 1 -1 
+138 1 -1 
+204 1 -1 
+14 1 -1 
+47 1 -1 
+239 1 -1 
+145 1 -1 
+83 1 -1 
+243 1 -1 
+21 1 -1 
+119 1 -1 
+56 1 -3 
+90 1 -1 
+218 1 -1 
+60 1 -3 
+31 1 -1 
+Functions: 15
+161 2 112 132 
+226 3 -2 226 231 
+99 3 -2 99 104 
+36 1 -2 
+68 0 
+230 1 -3 
+103 1 -3 
+78 0 
+48 0 
+146 1 132 
+210 1 112 
+116 5 -1 226 99 132 120 
+249 1 226 
+27 0 
+125 2 112 120 
+Constructors: 0
+
+Summary: 9
+104 -2 112 57 -3 -1 -4 231 53 
+org/apache/xerces/parsers/AbstractDOMParser.doctypeDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+12
+$r9 1 33 
+r1 1 -2 
+$r7 1 8 
+$r10 1 29 
+r3 1 -4 
+r12 1 -5 
+r2 1 -3 
+$r6 1 8 
+$r4 1 47 
+r0 1 -1 
+$r8 1 22 
+$r5 1 47 
+Fields: 4
+-1 fDocumentImpl 8
+-1 fDocumentType 33
+-1 fCurrentNode 29
+-1 fDeferredDocumentImpl 47
+Accesses: 11
+0 1 -1 
+32 1 -1 
+67 1 -1 
+7 1 -1 
+56 1 -1 
+25 1 -1 
+59 1 -1 
+28 1 -1 
+46 1 -1 
+15 1 -1 
+63 1 -1 
+Functions: 4
+16 4 -2 -3 -4 8 
+36 2 33 29 
+71 1 47 
+47 4 -2 -3 -4 47 
+Constructors: 0
+
+Summary: 5
+-5 -3 -2 -1 -4 
+org/apache/xerces/parsers/AbstractDOMParser.textDecl(Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+8
+$r4 1 16 
+$r3 1 61 
+$r5 1 16 
+r1 1 -2 
+$r6 1 16 
+r0 1 -1 
+r2 1 -3 
+r7 1 -4 
+Fields: 2
+-1 fDeferredDocumentImpl 61
+-1 fCurrentEntityDecl 16
+Accesses: 9
+0 1 -1 
+64 1 -1 
+52 1 -1 
+22 1 -1 
+8 1 -1 
+41 1 -1 
+60 1 -1 
+29 1 -1 
+15 1 -1 
+Functions: 3
+34 2 16 -3 
+70 3 -2 -3 61 
+46 2 16 -2 
+Constructors: 0
+
+Summary: 4
+-3 -2 -1 -4 
+org/apache/xerces/parsers/AbstractDOMParser.endExternalSubset(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+3
+$r1 1 6 
+r3 1 -2 
+r0 1 -1 
+Fields: 1
+-1 fBaseURIStack 6
+Accesses: 2
+2 1 -1 
+5 1 -1 
+Functions: 1
+9 1 6 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.abort()V
+PTG:
+Vars:
+2
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xerces/parsers/AbstractDOMParser.endGeneralEntity(Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+63
+$r67 1 85 
+$r44 1 293 
+$r53 1 69 
+$r12 2 538 670 
+$r7 1 538 
+$r36 1 180 
+$r54 1 52 
+r18 1 -2 
+r61 2 93 125 
+$r1 1 538 
+$r11 2 538 658 
+$r3 2 779 538 
+r0 1 -1 
+$r52 1 52 
+$r9 1 538 
+r25 1 383 
+r69 1 490 
+$r58 1 52 
+$r49 1 40 
+$r4 2 538 790 
+r64 1 337 
+$r10 1 538 
+$r56 2 52 109 
+$r29 1 419 
+r70 1 580 
+$r15 2 538 554 
+$r32 1 161 
+$r20 1 85 
+$r5 1 538 
+r60 1 36 
+$r43 1 85 
+$r38 1 180 
+$r28 1 373 
+r68 1 457 
+$r19 1 21 
+$r27 2 482 85 
+$r35 1 309 
+$r14 1 538 
+$r48 1 40 
+$r21 1 85 
+$r24 1 85 
+$r33 1 180 
+$r13 2 538 688 
+r66 1 373 
+$r30 1 85 
+r62 1 106 
+$r55 1 85 
+$r47 1 21 
+r65 1 348 
+$r22 1 85 
+$r8 1 538 
+$r6 1 538 
+$r2 1 538 
+$r50 1 52 
+$r51 1 52 
+$r37 1 85 
+r59 1 -3 
+$r45 1 85 
+$r46 1 85 
+$r17 2 572 538 
+$r34 1 85 
+$r26 1 476 
+$r16 2 538 600 
+Fields: 6
+-1 fDOMFilter 180
+-1 fDocumentImpl 161
+-1 fDocumentType 21
+-1 fCurrentNode 85
+-1 fDeferredDocumentImpl 538
+-1 fCurrentEntityDecl 52
+Accesses: 70
+0 1 -1 
+640 1 -1 
+132 1 -1 
+644 1 -1 
+261 1 -1 
+7 1 -1 
+778 1 -1 
+523 1 -1 
+143 1 -1 
+529 1 -1 
+657 1 -1 
+274 1 -1 
+20 1 -1 
+148 1 -1 
+789 1 -1 
+280 1 -1 
+153 1 -1 
+537 1 -1 
+27 1 -1 
+541 1 -1 
+669 1 -1 
+160 1 -1 
+289 1 -1 
+673 1 -1 
+167 1 -1 
+553 1 -1 
+298 1 -1 
+429 1 -1 
+687 1 -1 
+48 1 -1 
+305 1 -1 
+51 1 -1 
+179 1 -1 
+819 1 -1 
+58 1 -1 
+186 1 -1 
+314 1 -1 
+571 1 -1 
+317 1 -1 
+448 1 -1 
+65 1 -1 
+705 1 -1 
+833 1 -1 
+328 1 -1 
+201 1 -1 
+713 1 -1 
+75 1 -1 
+205 1 -1 
+717 1 -1 
+845 1 -1 
+593 1 -1 
+339 1 -1 
+84 1 -1 
+725 1 -1 
+599 1 -1 
+731 1 -1 
+859 1 -1 
+735 1 -1 
+864 1 -1 
+481 1 -1 
+614 1 -1 
+744 1 -1 
+108 1 -1 
+364 1 -1 
+748 1 -1 
+622 1 -1 
+626 1 -1 
+758 1 -1 
+248 1 -1 
+510 1 -1 
+Functions: 52
+641 1 538 
+514 2 85 348 
+390 1 373 
+775 7 -1 161 180 52 21 85 538 
+265 0 
+138 1 52 
+779 2 538 779 
+17 7 -1 161 180 52 21 85 538 
+401 1 383 
+658 2 658 538 
+538 1 538 
+28 1 21 
+798 2 790 538 
+417 1 383 
+290 1 85 
+38 2 -2 36 
+424 2 419 373 
+680 2 538 670 
+554 2 538 554 
+176 1 85 
+688 2 688 538 
+306 1 85 
+435 2 85 383 
+187 1 180 
+827 1 538 
+444 3 85 348 383 
+572 2 538 572 
+66 1 52 
+834 1 538 
+582 2 -2 580 
+329 1 85 
+202 2 180 85 
+714 1 538 
+462 8 -1 161 180 52 21 85 457 538 
+81 1 52 
+340 1 85 
+85 1 85 
+853 1 538 
+471 4 482 85 348 476 
+600 2 600 538 
+473 1 337 
+732 1 538 
+350 1 337 
+98 2 93 125 
+745 1 538 
+365 1 85 
+495 8 -1 161 180 52 21 85 538 490 
+623 1 538 
+114 3 52 106 109 
+118 2 93 125 
+375 1 337 
+249 0 
+Constructors: 0
+
+Summary: 16
+-2 125 93 373 476 106 -1 36 457 69 419 490 580 337 -3 383 
+org/apache/xerces/parsers/AbstractDOMParser.endConditional(Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.setDocumentClassName(Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r12 2 52 42 
+r0 1 -1 
+$r2 1 34 
+r10 2 -2 6 
+$r1 1 26 
+r11 1 33 
+Fields: 0
+Accesses: 2
+128 1 -1 
+114 1 -1 
+Functions: 11
+16 2 -2 6 
+-1 0 
+81 0 
+98 0 
+52 3 33 52 42 
+117 2 -2 6 
+7 2 -2 6 
+71 0 
+40 0 
+108 0 
+29 3 -2 6 26 
+Constructors: 0
+
+Summary: 7
+98 105 78 26 33 71 -1 
+org/apache/xerces/parsers/AbstractDOMParser.setLocale(Ljava/util/Locale;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 fConfiguration 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/xerces/parsers/AbstractDOMParser.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r2 1 -1 
+$r5 1 11 
+r0 1 -2 
+$r4 1 6 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+10 1 -1 
+14 2 6 11 
+Constructors: 1
+14 6
+
+Summary: 2
+-2 11 
+org/apache/xerces/parsers/AbstractDOMParser.externalEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+36
+r5 1 -2 
+r3 1 -1 
+r0 1 -3 
+$r4 1 17 
+$r33 1 17 
+$r21 1 17 
+r44 1 -4 
+$r13 1 372 
+$r37 1 17 
+$r17 1 217 
+$r29 1 17 
+$r19 1 246 
+$r9 2 339 276 
+$r42 1 68 
+$r16 1 201 
+$r39 1 17 
+$r35 1 17 
+$r23 1 17 
+r45 1 196 
+r46 1 201 
+$r18 1 221 
+r47 1 221 
+$r10 2 312 276 
+$r12 1 276 
+r11 1 321 
+$r15 1 181 
+$r8 2 293 276 
+$r27 1 17 
+$r6 1 181 
+$r7 1 276 
+$r14 1 276 
+$r25 1 17 
+$r31 1 17 
+r1 1 6 
+r2 1 14 
+$r41 1 17 
+Fields: 4
+-1 fDocumentImpl 217
+-1 fInternalSubset 17
+-1 fDocumentType 181
+-1 fDeferredDocumentImpl 276
+Accesses: 25
+386 1 -1 
+264 1 -1 
+137 1 -1 
+78 1 -1 
+16 1 -1 
+338 1 -1 
+275 1 -1 
+148 1 -1 
+23 1 -1 
+87 1 -1 
+279 1 -1 
+216 1 -1 
+30 1 -1 
+158 1 -1 
+292 1 -1 
+102 1 -1 
+361 1 -1 
+113 1 -1 
+51 1 -1 
+180 1 -1 
+311 1 -1 
+123 1 -1 
+187 1 -1 
+62 1 -1 
+382 1 -1 
+Functions: 32
+0 1 -3 
+66 1 -2 
+130 1 17 
+258 2 196 221 
+323 2 321 -2 
+198 2 -2 196 
+71 2 17 68 
+8 1 -3 
+392 1 276 
+144 1 17 
+83 2 17 -2 
+339 2 339 276 
+276 1 276 
+217 2 -2 217 
+154 2 17 14 
+93 1 17 
+37 1 17 
+165 1 17 
+293 2 276 293 
+41 1 -2 
+169 1 -2 
+233 2 6 221 
+362 5 -2 276 372 6 14 
+109 1 17 
+240 2 221 14 
+371 1 -3 
+245 1 -3 
+119 2 17 6 
+312 2 276 312 
+58 1 17 
+251 2 246 221 
+188 1 181 
+Constructors: 0
+
+Summary: 13
+14 321 221 -2 196 -3 372 -1 -4 6 246 68 201 
+org/apache/xerces/parsers/AbstractDOMParser.startDocument(Lorg/apache/xerces/xni/XMLLocator;Ljava/lang/String;Lorg/apache/xerces/xni/NamespaceContext;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+43
+$r10 1 13 
+r17 1 217 
+$r25 1 118 
+r14 1 186 
+$r34 1 47 
+$r27 1 118 
+$r6 1 331 
+$r50 1 91 
+$r12 1 169 
+$r30 1 37 
+$r28 1 138 
+r1 1 -2 
+$r35 1 67 
+$r11 1 13 
+$r20 1 235 
+$r3 1 331 
+$r4 1 331 
+$r8 1 361 
+$r33 1 47 
+$r16 1 200 
+$r13 1 169 
+$r18 1 235 
+$r49 1 25 
+$r7 1 331 
+r0 1 -1 
+r44 1 152 
+$r32 1 47 
+$r26 1 118 
+$r23 1 103 
+$r48 3 200 103 37 
+$r24 1 103 
+r45 1 164 
+$r19 1 235 
+$r53 1 91 
+r42 1 -4 
+$r21 1 259 
+$r31 1 37 
+$r41 1 -1 
+$r52 1 315 
+$r15 1 200 
+r43 1 -5 
+r5 1 -3 
+$r9 1 13 
+Fields: 8
+-1 fDocumentImpl 235
+-1 fDocumentImpl 47
+-1 fDocumentImpl 118
+-1 fDocumentClassName 13
+-1 fDocument 200
+-1 fDocument 103
+-1 fDocument 37
+-1 fDeferredDocumentImpl 331
+Accesses: 38
+2 1 -1 
+5 1 -1 
+133 1 -1 
+326 1 -1 
+199 1 -1 
+330 1 -1 
+12 1 -1 
+78 1 -1 
+206 1 -1 
+334 1 -1 
+338 1 -1 
+345 1 -1 
+154 1 -1 
+348 1 -1 
+32 1 -1 
+98 1 -1 
+291 1 -1 
+36 1 -1 
+356 1 -1 
+102 1 -1 
+231 1 -1 
+234 1 -1 
+43 1 -1 
+109 1 -1 
+46 1 -1 
+175 1 -1 
+304 1 -1 
+114 1 -1 
+242 1 -1 
+370 1 -1 
+308 1 -1 
+117 1 -1 
+54 1 -1 
+374 1 -1 
+125 1 -1 
+62 1 -1 
+254 1 -1 
+319 1 -1 
+Functions: 30
+66 1 -2 
+130 2 -3 118 
+258 1 -2 
+323 1 315 
+72 2 67 47 
+264 2 259 235 
+137 1 -2 
+13 1 13 
+79 1 13 
+143 2 118 138 
+339 1 331 
+149 0 
+213 1 152 
+219 2 164 217 
+29 1 25 
+286 0 
+95 1 91 
+160 2 152 13 
+353 2 -3 331 
+167 1 164 
+360 1 -2 
+299 0 
+366 2 361 331 
+239 1 235 
+51 1 47 
+182 1 152 
+247 2 -3 235 
+122 1 118 
+59 2 -3 47 
+188 2 164 186 
+Constructors: 3
+323 315
+29 25
+95 91
+
+Summary: 14
+-5 217 361 296 -1 -4 286 67 138 152 -3 164 259 186 
+org/apache/xerces/parsers/AbstractDOMParser.comment(Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+13
+$r4 1 217 
+$r11 1 122 
+r1 1 -2 
+$r10 1 122 
+$r3 1 221 
+$r6 1 96 
+r24 1 104 
+$r9 1 122 
+$r5 1 92 
+r0 1 -1 
+$r2 1 217 
+r23 1 -3 
+$r7 1 111 
+Fields: 4
+-1 fDOMFilter 122
+-1 fDocument 92
+-1 fCurrentNode 111
+-1 fDeferredDocumentImpl 217
+Accesses: 24
+0 1 -1 
+128 1 -1 
+196 1 -1 
+228 1 -1 
+69 1 -1 
+38 1 -1 
+7 1 -1 
+135 1 -1 
+232 1 -1 
+42 1 -2 
+76 1 -1 
+14 1 -1 
+46 1 -2 
+110 1 -1 
+209 1 -1 
+50 1 -2 
+84 1 -1 
+21 1 -1 
+151 1 -1 
+216 1 -1 
+121 1 -1 
+58 1 -1 
+91 1 -1 
+31 1 -2 
+Functions: 13
+64 0 
+136 1 122 
+201 1 104 
+107 5 -1 217 122 92 111 
+237 1 217 
+115 2 104 111 
+54 0 
+152 2 104 122 
+217 2 217 221 
+27 0 
+92 2 96 92 
+220 1 -2 
+95 1 -2 
+Constructors: 0
+
+Summary: 7
+104 221 -2 43 -3 -1 96 
+org/apache/xerces/parsers/AbstractDOMParser.elementDecl(Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+10
+$r2 1 1 
+r4 1 -2 
+$r5 1 1 
+r9 1 -3 
+$r12 1 1 
+$r7 1 1 
+$r1 1 1 
+$r10 1 1 
+r0 1 -1 
+r14 1 -4 
+Fields: 1
+-1 fInternalSubset 1
+Accesses: 7
+0 1 -1 
+34 1 -1 
+53 1 -1 
+7 1 -1 
+25 1 -1 
+44 1 -1 
+14 1 -1 
+Functions: 5
+49 2 1 -3 
+21 1 1 
+40 1 1 
+60 1 1 
+30 2 1 -2 
+Constructors: 0
+
+Summary: 4
+-3 -2 -1 -4 
+org/apache/xerces/parsers/AbstractDOMParser.setCharacterData(Z)V
+PTG:
+Vars:
+15
+r2 1 14 
+$r14 1 14 
+$r11 1 14 
+$r3 1 20 
+$r16 1 20 
+$r17 1 88 
+$r5 1 88 
+$r1 1 6 
+$r15 1 54 
+$r10 1 20 
+$r9 1 40 
+$r12 1 71 
+r0 1 -1 
+$r4 1 88 
+$r13 1 20 
+Fields: 4
+-1 fDOMFilter 88
+-1 fDocumentImpl 40
+-1 fCurrentNode 6
+-1 fStringBuffer 20
+Accesses: 12
+2 1 -1 
+50 1 -1 
+19 1 -1 
+67 1 -1 
+5 1 -1 
+39 1 -1 
+87 1 -1 
+168 1 -1 
+125 1 -1 
+94 1 -1 
+79 1 -1 
+111 1 -1 
+Functions: 12
+112 1 88 
+51 1 20 
+20 1 20 
+68 1 20 
+84 1 20 
+101 1 14 
+6 1 6 
+57 2 54 14 
+74 2 71 14 
+29 1 14 
+173 1 14 
+126 2 88 14 
+Constructors: 0
+
+Summary: 4
+14 -1 71 54 
+org/apache/xerces/parsers/AbstractDOMParser.handleBaseURI(Lorg/w3c/dom/Node;)V
+PTG:
+Vars:
+22
+$r4 1 135 
+r0 1 -1 
+$r19 1 36 
+r21 1 144 
+$r10 1 -2 
+$r1 1 1 
+$r11 1 51 
+$r17 1 -2 
+$r16 1 -2 
+r2 1 -2 
+r20 1 70 
+$r9 1 188 
+$r12 1 61 
+$r14 1 1 
+$r18 1 -2 
+$r22 1 156 
+$r15 1 80 
+$r3 1 135 
+$r23 1 156 
+$r13 1 61 
+$r5 1 150 
+$r8 1 150 
+Fields: 5
+156 fType 169
+-1 fDocumentImpl 1
+-1 fCurrentNode 135
+-1 fCurrentNode 61
+-1 fErrorHandler 150
+Accesses: 11
+0 1 -1 
+21 1 -1 
+149 1 -1 
+181 1 156 
+134 1 -1 
+184 1 -1 
+89 1 -1 
+169 1 156 
+60 1 -1 
+76 1 -1 
+175 1 156 
+Functions: 12
+64 1 61 
+160 2 169 156 
+193 3 169 188 156 
+120 2 -2 70 
+9 1 -2 
+105 2 -2 70 
+185 1 150 
+138 1 135 
+75 2 80 70 
+29 1 -2 
+77 1 1 
+46 1 -2 
+Constructors: 1
+160 156
+
+Summary: 9
+36 -2 80 70 156 51 -1 169 188 
+org/apache/xerces/parsers/AbstractDOMParser.unparsedEntityDecl(Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V
+PTG:
+Vars:
+37
+$r29 1 17 
+r9 1 314 
+r42 1 -5 
+r1 1 6 
+$r45 1 17 
+$r4 1 17 
+$r25 1 17 
+r3 1 -1 
+r49 1 208 
+$r8 2 305 269 
+$r21 1 17 
+$r38 1 17 
+$r18 1 208 
+r48 1 188 
+$r5 1 269 
+$r34 1 17 
+$r16 1 188 
+r10 1 -2 
+$r19 1 239 
+$r17 1 204 
+r11 1 -4 
+$r14 1 269 
+$r6 2 269 286 
+r2 1 14 
+r47 1 183 
+$r23 1 17 
+$r36 1 17 
+$r27 1 17 
+r0 1 -3 
+$r13 1 365 
+$r7 2 332 269 
+$r46 1 168 
+$r12 1 269 
+$r40 1 17 
+$r43 1 17 
+$r44 1 17 
+$r15 1 168 
+Fields: 4
+-1 fDocumentImpl 204
+-1 fInternalSubset 17
+-1 fDocumentType 168
+-1 fDeferredDocumentImpl 269
+Accesses: 26
+65 1 -1 
+257 1 -1 
+136 1 -1 
+203 1 -1 
+331 1 -1 
+76 1 -1 
+268 1 -1 
+16 1 -1 
+272 1 -1 
+147 1 -1 
+23 1 -1 
+91 1 -1 
+156 1 -1 
+285 1 -1 
+30 1 -1 
+354 1 -1 
+102 1 -1 
+167 1 -1 
+41 1 -1 
+174 1 -1 
+304 1 -1 
+50 1 -1 
+115 1 -1 
+375 1 -1 
+379 1 -1 
+126 1 -1 
+Functions: 31
+0 1 -3 
+385 1 269 
+132 2 17 14 
+8 1 -3 
+72 1 17 
+204 2 -2 204 
+332 2 332 269 
+269 1 269 
+143 1 17 
+82 2 17 6 
+152 2 17 -4 
+220 2 208 6 
+286 2 269 286 
+98 1 17 
+163 1 17 
+227 2 208 14 
+355 6 -2 -4 6 269 365 14 
+37 1 17 
+233 2 208 -4 
+108 2 17 14 
+364 1 -3 
+46 2 17 -2 
+238 1 -3 
+175 1 168 
+305 2 305 269 
+244 2 208 239 
+56 1 17 
+185 2 -2 183 
+122 1 17 
+251 2 208 183 
+316 2 -2 314 
+Constructors: 0
+
+Summary: 13
+-5 14 239 -2 208 365 183 314 -3 -1 -4 6 188 

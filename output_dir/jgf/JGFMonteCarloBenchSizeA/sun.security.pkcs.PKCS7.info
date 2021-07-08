@@ -1,0 +1,1187 @@
+27
+sun/security/pkcs/PKCS7.verify(Lsun/security/pkcs/SignerInfo;[B)Lsun/security/pkcs/SignerInfo;
+PTG:
+Vars:
+5
+r0 1 -2 
+_ret 1 3 
+r1 1 -1 
+$r3 1 3 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 4
+0 -1 -3 1 
+sun/security/pkcs/PKCS7.parseSignedData(Lsun/security/util/DerValue;)V
+PTG:
+Vars:
+46
+$r23 1 384 
+$r18 1 457 
+$r12 1 469 
+$r10 1 614 
+r77 1 577 
+$r24 1 193 
+$r8 1 607 
+$r16 1 496 
+$r32 2 255 212 
+$r33 1 49 
+$r28 1 264 
+$r22 1 384 
+$r34 1 56 
+r2 1 -1 
+r1 1 4 
+r63 1 134 
+$r9 1 619 
+$r19 2 444 487 
+r67 1 241 
+r0 1 -2 
+$r3 1 7 
+r65 1 157 
+r73 1 475 
+r74 1 473 
+$r27 2 255 212 
+$r13 1 475 
+$r31 1 225 
+$r30 1 217 
+r4 1 18 
+r60 1 46 
+$r26 1 243 
+$r7 1 587 
+r78 1 611 
+$r51 1 -1 
+r72 1 409 
+$r29 1 264 
+$r21 3 255 379 212 
+$r14 2 444 487 
+r66 0 
+$r11 1 419 
+$r20 1 167 
+$r15 1 496 
+$r25 1 237 
+$r17 1 449 
+$r5 1 26 
+$r6 1 115 
+Fields: 14
+157 ArrayObject 193
+157 ArrayObject 237
+157 ArrayObject 225
+577 ArrayObject 607
+18 ArrayObject 46
+-1 certificates 379
+-1 certificates 212
+-1 certificates 255
+-1 crls 444
+-1 crls 487
+-1 digestAlgorithmIds 49
+-1 signerInfos 614
+409 ArrayObject 457
+409 ArrayObject 469
+Accesses: 14
+613 1 -1 
+390 1 -1 
+422 1 -1 
+486 1 -1 
+10 1 -1 
+170 1 -1 
+590 1 -1 
+48 1 -1 
+211 1 -1 
+378 1 -1 
+123 1 -1 
+443 1 -1 
+29 1 -1 
+254 1 -1 
+Functions: 43
+0 1 -2 
+129 0 
+193 1 193 
+260 2 243 134 
+6 1 4 
+328 0 
+393 1 4 
+458 2 449 457 
+75 0 
+13 1 4 
+141 1 4 
+333 0 
+79 0 
+273 1 243 
+530 0 
+403 1 4 
+84 0 
+469 1 469 
+342 0 
+87 0 
+151 1 4 
+535 0 
+92 0 
+607 1 607 
+544 0 
+481 2 473 475 
+98 0 
+226 2 225 217 
+358 0 
+107 0 
+492 2 134 475 
+237 1 237 
+301 0 
+560 1 475 
+625 2 611 619 
+306 0 
+54 1 46 
+120 2 115 4 
+249 2 241 243 
+505 1 475 
+315 0 
+572 1 4 
+382 3 212 379 255 
+Constructors: 6
+481 475
+625 619
+226 217
+120 115
+249 243
+458 449
+
+Summary: 5
+-1 -2 243 475 0 
+sun/security/pkcs/PKCS7.<init>(Lsun/security/util/DerInputStream;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 7
+16 1 -1 
+36 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 2
+1 1 -1 
+41 2 -1 -2 
+Constructors: 1
+1 -1
+
+Summary: 2
+-2 -1 
+sun/security/pkcs/PKCS7.encodeSignedData(Ljava/io/OutputStream;)V
+PTG:
+Vars:
+4
+r3 1 -2 
+$r0 1 0 
+$r4 1 15 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+18 2 -2 15 
+4 1 0 
+10 2 -1 0 
+14 1 0 
+Constructors: 1
+4 0
+
+Summary: 4
+-2 0 -1 0 
+sun/security/pkcs/PKCS7.<init>([Lsun/security/x509/AlgorithmId;Lsun/security/pkcs/ContentInfo;[Ljava/security/cert/X509Certificate;[Lsun/security/pkcs/SignerInfo;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+r4 1 -5 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 5 -1 -2 -3 -4 -5 
+Constructors: 1
+7 -1
+
+Summary: 9
+-2 -4 0 2 3 -1 -3 -5 1 
+sun/security/pkcs/PKCS7.generateSignedData([B[Ljava/security/cert/X509Certificate;[BLjava/lang/String;Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;)[B
+PTG:
+Vars:
+32
+$r13 1 117 
+$r22 1 185 
+$r31 1 41 
+$r16 1 135 
+$r26 1 8 
+$r8 1 89 
+r7 1 87 
+$r9 1 99 
+r11 1 -2 
+r32 1 31 
+r6 1 81 
+$r30 1 36 
+$r4 1 71 
+$r25 1 149 
+r27 1 -7 
+r36 1 75 
+r0 1 -6 
+$r10 1 105 
+r5 1 -5 
+$r29 1 31 
+r18 1 -4 
+$r15 1 128 
+$r3 1 61 
+$r37 2 145 159 
+$r24 1 203 
+r28 1 -8 
+r35 1 67 
+r34 1 29 
+_ret 1 203 
+$r20 1 169 
+r1 1 -3 
+$r2 1 60 
+Fields: 2
+-3 ArrayObject 60
+-3 ArrayObject 71
+Accesses: 0
+Functions: 19
+97 1 87 
+164 3 145 -4 159 
+133 1 89 
+198 2 169 185 
+71 1 71 
+103 1 81 
+201 1 185 
+77 1 -5 
+14 2 -6 8 
+111 7 -2 67 99 89 105 75 31 
+49 2 41 29 
+83 1 -5 
+180 8 128 145 -3 117 71 169 60 159 
+53 2 36 31 
+25 4 -2 -7 -8 8 
+153 3 145 149 159 
+60 1 60 
+61 1 61 
+189 1 185 
+Constructors: 6
+49 41
+180 169
+53 31
+189 185
+14 8
+111 89
+
+Summary: 20
+145 60 -4 8 -2 71 36 -7 128 185 -8 61 169 75 117 -5 31 -6 159 -3 
+sun/security/pkcs/PKCS7.verify([B)[Lsun/security/pkcs/SignerInfo;
+PTG:
+Vars:
+7
+r2 1 -1 
+$r6 1 25 
+$r4 1 12 
+$r0 1 0 
+r5 1 -2 
+$r3 1 12 
+r7 1 30 
+Fields: 2
+12 ArrayObject 25
+-1 signerInfos 12
+Accesses: 2
+20 1 -1 
+11 1 -1 
+Functions: 6
+49 1 0 
+66 1 0 
+19 4 -1 -2 25 12 
+4 1 0 
+40 2 0 30 
+56 1 0 
+Constructors: 1
+4 0
+
+Summary: 4
+-2 0 -1 0 
+sun/security/pkcs/PKCS7.<init>(Ljava/io/InputStream;)V
+PTG:
+Vars:
+5
+$r1 1 39 
+r4 1 52 
+$r5 1 61 
+r2 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 7
+16 1 -1 
+36 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 6
+48 1 39 
+1 1 -1 
+66 2 52 61 
+69 2 -1 61 
+57 2 52 39 
+44 2 -2 39 
+Constructors: 3
+1 -1
+66 61
+44 39
+
+Summary: 6
+52 -2 0 61 39 -1 
+sun/security/pkcs/PKCS7.getContentInfo()Lsun/security/pkcs/ContentInfo;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 contentInfo 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/pkcs/PKCS7.toString()Ljava/lang/String;
+PTG:
+Vars:
+70
+$r38 1 165 
+$r9 1 238 
+$r47 1 218 
+$r31 1 292 
+$r14 1 325 
+$r41 1 188 
+$r65 1 57 
+$r50 1 79 
+$r64 1 31 
+$r21 1 392 
+$r67 1 65 
+$r46 1 151 
+$r22 1 393 
+$r32 1 297 
+$r45 1 210 
+$r27 1 238 
+$r18 1 379 
+$r4 1 18 
+$r8 1 151 
+$r29 1 283 
+$r0 1 3 
+r69 10 263 98 230 317 71 404 176 29 143 350 
+$r15 1 362 
+$r53 1 73 
+$r12 1 339 
+$r54 1 110 
+$r36 1 311 
+$r20 1 325 
+$r52 1 92 
+$r16 1 370 
+$r24 1 244 
+$r3 1 15 
+$r37 1 157 
+$r25 1 252 
+$r35 1 306 
+$r62 1 45 
+$r63 1 50 
+$r23 1 398 
+$r56 1 123 
+$r48 1 219 
+$r6 1 31 
+$r17 1 375 
+r2 1 -1 
+$r39 1 170 
+$r66 1 60 
+$r42 1 196 
+$r5 1 23 
+$r19 1 384 
+$r30 1 288 
+$r26 1 257 
+$r28 1 275 
+$r55 1 118 
+$r1 1 11 
+$r59 1 132 
+$r60 1 137 
+$r10 1 325 
+$r43 1 201 
+$r11 1 331 
+$r61 1 37 
+$r34 1 305 
+$r58 1 131 
+$r7 1 73 
+$r57 1 73 
+$r51 1 87 
+_ret 10 263 98 230 317 71 404 176 29 143 350 
+$r40 1 151 
+$r13 1 344 
+$r49 1 224 
+$r33 1 238 
+$r44 1 205 
+Fields: 10
+325 ArrayObject 392
+238 ArrayObject 305
+73 ArrayObject 131
+151 ArrayObject 218
+-1 certificates 151
+-1 crls 238
+-1 digestAlgorithmIds 73
+-1 version 31
+-1 signerInfos 325
+-1 contentInfo 15
+Accesses: 15
+354 1 -1 
+387 1 -1 
+324 1 -1 
+102 1 -1 
+72 1 -1 
+267 1 -1 
+300 1 -1 
+237 1 -1 
+14 1 -1 
+180 1 -1 
+53 1 -1 
+213 1 -1 
+150 1 -1 
+30 1 -1 
+126 1 -1 
+Functions: 58
+384 2 384 392 
+257 1 257 
+3 1 3 
+132 1 132 
+7 1 3 
+137 1 137 
+393 1 393 
+11 2 11 15 
+398 1 398 
+18 1 18 
+275 11 176 98 275 404 230 263 71 317 29 350 143 
+23 1 23 
+279 1 275 
+283 1 283 
+157 11 176 98 404 230 263 71 157 317 29 350 143 
+288 1 288 
+161 1 157 
+292 1 292 
+37 11 176 98 404 37 230 263 71 317 29 350 143 
+165 1 165 
+41 1 37 
+297 2 305 297 
+170 1 170 
+45 1 45 
+50 2 50 57 
+306 1 306 
+54 1 31 
+311 1 311 
+60 1 60 
+188 11 176 98 404 230 263 71 188 317 29 350 143 
+192 1 188 
+65 1 65 
+196 1 196 
+201 1 201 
+331 11 176 98 404 230 263 71 331 317 29 350 143 
+205 1 205 
+79 11 176 98 404 230 263 71 317 29 350 79 143 
+335 1 331 
+210 2 210 218 
+83 1 79 
+339 1 339 
+87 1 87 
+344 1 344 
+219 1 219 
+92 1 92 
+224 1 224 
+362 11 176 98 404 230 263 71 362 317 29 350 143 
+110 11 176 98 404 230 263 71 317 29 110 350 143 
+366 1 362 
+114 1 110 
+370 1 370 
+244 11 176 98 244 404 230 263 71 317 29 350 143 
+118 1 118 
+375 1 375 
+248 1 244 
+123 2 131 123 
+379 1 379 
+252 1 252 
+Constructors: 10
+192 188
+161 157
+114 110
+83 79
+7 3
+279 275
+248 244
+41 37
+366 362
+335 331
+
+Summary: 1
+-1 
+sun/security/pkcs/PKCS7.getCertificate(Ljava/math/BigInteger;Lsun/security/x509/X500Name;)Ljava/security/cert/X509Certificate;
+PTG:
+Vars:
+11
+r6 1 -2 
+$r2 1 8 
+$r10 1 1 
+$r8 1 8 
+r0 1 -1 
+r4 1 35 
+$r3 1 1 
+$r9 1 59 
+r7 1 -3 
+$r1 1 1 
+r5 1 42 
+Fields: 4
+8 ArrayObject 59
+1 ArrayObject 35
+-1 certificates 1
+-1 certIssuerNames 8
+Accesses: 5
+0 1 -1 
+21 1 -1 
+54 1 -1 
+7 1 -1 
+29 1 -1 
+Functions: 4
+37 1 35 
+53 2 -3 59 
+44 2 -2 42 
+15 5 -1 1 35 8 59 
+Constructors: 0
+
+Summary: 5
+-2 0 -1 -3 1 
+sun/security/pkcs/PKCS7.parse(Lsun/security/util/DerInputStream;Z)V
+PTG:
+Vars:
+13
+$r10 1 33 
+$r1 1 1 
+$r9 1 57 
+$r12 1 33 
+$r8 1 33 
+$r11 1 78 
+r2 1 -2 
+$r7 1 36 
+r6 1 31 
+$r4 1 18 
+$r3 1 15 
+$r5 1 15 
+r0 1 -1 
+Fields: 3
+15 contentType 18
+-1 contentType 33
+-1 contentInfo 15
+Accesses: 9
+32 1 -1 
+21 1 -1 
+53 1 -1 
+24 1 -1 
+10 1 -1 
+74 1 -1 
+14 1 -1 
+15 1 15 
+111 1 -1 
+Functions: 14
+33 2 33 36 
+99 0 
+68 5 -1 33 18 15 31 
+7 2 1 -2 
+103 0 
+75 2 33 78 
+108 0 
+47 5 -1 33 18 15 31 
+115 0 
+54 2 33 57 
+120 0 
+25 2 18 15 
+89 5 -1 33 18 15 31 
+126 0 
+Constructors: 1
+7 1
+
+Summary: 3
+0 -1 -2 
+sun/security/pkcs/PKCS7.generateTimestampToken(Lsun/security/timestamp/Timestamper;Ljava/lang/String;Ljava/lang/String;[B)[B
+PTG:
+Vars:
+27
+$r17 1 384 
+r16 1 365 
+$r12 1 258 
+$r43 1 49 
+r5 1 -2 
+r0 1 -4 
+r18 1 412 
+r53 1 282 
+r15 1 356 
+$r4 1 43 
+r49 1 10 
+r6 1 84 
+$r44 1 55 
+$r9 1 193 
+$r32 1 158 
+$r11 1 253 
+r52 1 49 
+$r31 1 155 
+r8 1 189 
+$r10 1 197 
+$r1 1 12 
+r2 1 -3 
+r13 1 334 
+_ret 1 449 
+r7 1 182 
+$r14 1 449 
+r3 1 -5 
+Fields: 1
+334 ArrayObject 356
+Accesses: 0
+Functions: 51
+256 1 12 
+384 1 384 
+130 0 
+258 2 258 253 
+133 1 84 
+6 1 -4 
+138 0 
+144 0 
+273 0 
+403 0 
+20 4 -3 -5 10 12 
+277 1 189 
+407 1 365 
+152 2 -3 158 
+153 1 84 
+155 1 155 
+419 1 412 
+36 0 
+300 0 
+173 0 
+177 1 84 
+309 2 49 282 
+437 0 
+184 1 84 
+58 2 49 55 
+191 1 189 
+447 1 84 
+193 2 193 197 
+67 2 49 12 
+196 1 -4 
+325 0 
+73 1 12 
+329 1 182 
+76 2 -2 12 
+210 0 
+86 1 84 
+214 0 
+219 1 -4 
+223 0 
+228 0 
+358 2 356 182 
+234 0 
+108 0 
+112 0 
+117 0 
+247 0 
+120 1 84 
+378 0 
+251 1 189 
+125 0 
+382 1 365 
+Constructors: 2
+20 12
+58 49
+
+Summary: 10
+-2 3 2 -3 -4 1 0 -5 49 12 
+sun/security/pkcs/PKCS7.parseNetscapeCertChain(Lsun/security/util/DerValue;)V
+PTG:
+Vars:
+18
+$r10 1 111 
+$r25 1 -1 
+$r14 2 102 61 
+r28 1 90 
+r29 1 88 
+$r13 1 73 
+r26 1 35 
+$r12 1 66 
+$r7 1 84 
+$r11 1 111 
+$r9 2 102 61 
+r1 1 -2 
+r4 1 17 
+$r0 1 0 
+$r8 1 90 
+$r6 1 21 
+r5 1 -1 
+$r2 1 5 
+Fields: 4
+-1 certificates 102
+-1 certificates 61
+17 ArrayObject 73
+17 ArrayObject 84
+Accesses: 3
+101 1 -1 
+24 1 -1 
+60 1 -1 
+Functions: 16
+96 2 88 90 
+4 1 -2 
+8 2 0 5 
+74 2 66 73 
+202 1 90 
+107 2 35 90 
+12 1 0 
+172 0 
+145 0 
+177 0 
+84 1 84 
+150 0 
+120 1 90 
+186 0 
+30 0 
+159 0 
+Constructors: 3
+96 90
+8 0
+74 66
+
+Summary: 5
+0 -1 0 -2 90 
+sun/security/pkcs/PKCS7.encodeSignedData(Lsun/security/util/DerOutputStream;)V
+PTG:
+Vars:
+37
+$r42 1 318 
+$r35 1 155 
+r14 1 208 
+$r4 1 20 
+$r8 1 155 
+$r18 1 35 
+$r5 1 27 
+$r3 1 10 
+$r44 1 325 
+r7 1 -2 
+$r12 1 290 
+$r0 1 0 
+$r45 1 329 
+$r19 1 35 
+$r40 1 305 
+$r21 1 77 
+$r25 1 35 
+$r13 1 290 
+$r41 1 311 
+$r24 1 116 
+$r17 1 35 
+$r10 1 155 
+$r27 1 93 
+r37 1 155 
+$r22 1 35 
+r2 1 -1 
+$r9 1 169 
+$r11 1 287 
+r38 1 238 
+$r20 1 35 
+r32 1 54 
+$r23 1 107 
+r33 1 111 
+$r6 1 35 
+$r15 1 241 
+$r26 1 93 
+$r16 1 208 
+Fields: 10
+35 ArrayObject 107
+35 ArrayObject 93
+35 ArrayObject 77
+155 ArrayObject 208
+-1 certificates 35
+-1 crls 155
+-1 digestAlgorithmIds 20
+-1 version 10
+-1 signerInfos 305
+-1 contentInfo 27
+Accesses: 15
+161 1 -1 
+34 1 -1 
+101 1 -1 
+71 1 -1 
+9 1 -1 
+41 1 -1 
+173 1 -1 
+304 1 -1 
+49 1 -1 
+19 1 -1 
+182 1 -1 
+87 1 -1 
+26 1 -1 
+154 1 -1 
+63 1 -1 
+Functions: 22
+224 2 208 169 
+321 2 311 318 
+4 1 0 
+137 0 
+233 1 208 
+298 2 0 290 
+107 1 107 
+267 0 
+13 2 0 10 
+333 3 325 311 329 
+178 1 169 
+308 2 0 305 
+341 2 -2 325 
+23 2 0 20 
+151 2 0 54 
+247 2 241 238 
+280 2 169 287 
+281 1 169 
+122 2 116 111 
+250 2 241 169 
+317 1 0 
+31 2 0 27 
+Constructors: 6
+321 311
+178 169
+4 0
+247 241
+122 116
+333 325
+
+Summary: 12
+238 111 287 325 241 54 -1 -2 169 0 311 0 
+sun/security/pkcs/PKCS7.populateCertIssuerNames()V
+PTG:
+Vars:
+13
+$r1 1 1 
+$r10 1 -1 
+$r9 1 67 
+r11 2 42 67 
+$r2 1 1 
+$r5 1 1 
+$r3 1 14 
+r0 1 -1 
+$r8 1 55 
+$r14 1 80 
+$r4 1 1 
+$r7 1 50 
+r6 1 37 
+Fields: 3
+1 ArrayObject 37
+-1 certificates 1
+-1 certIssuerNames 80
+Accesses: 6
+0 1 -1 
+17 1 -1 
+23 1 -1 
+9 1 -1 
+31 1 -1 
+79 1 -1 
+Functions: 4
+38 1 37 
+54 1 37 
+58 2 50 55 
+63 1 50 
+Constructors: 1
+58 50
+
+Summary: 2
+50 -1 
+sun/security/pkcs/PKCS7.getCertificates()[Ljava/security/cert/X509Certificate;
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 certificates 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/pkcs/PKCS7.parseOldSignedData(Lsun/security/util/DerValue;)V
+PTG:
+Vars:
+30
+$r9 1 325 
+$r21 1 49 
+$r5 1 26 
+$r10 1 345 
+$r17 1 201 
+$r20 2 149 192 
+$r19 1 162 
+r4 1 18 
+$r7 1 124 
+r0 1 -2 
+r47 1 315 
+$r15 2 149 192 
+$r16 1 201 
+$r13 1 174 
+r42 1 178 
+$r14 1 180 
+r2 1 -1 
+r1 1 4 
+$r18 1 154 
+r41 1 180 
+$r12 1 352 
+$r3 1 7 
+r48 1 349 
+$r22 1 56 
+r36 1 46 
+$r33 1 -1 
+r38 1 102 
+$r11 1 357 
+$r6 1 82 
+r40 1 114 
+Fields: 8
+315 ArrayObject 345
+114 ArrayObject 162
+114 ArrayObject 174
+18 ArrayObject 46
+-1 certificates 192
+-1 certificates 149
+-1 digestAlgorithmIds 49
+-1 signerInfos 352
+Accesses: 9
+48 1 -1 
+148 1 -1 
+328 1 -1 
+10 1 -1 
+91 1 -1 
+29 1 -1 
+127 1 -1 
+191 1 -1 
+351 1 -1 
+Functions: 24
+0 1 -2 
+97 0 
+163 2 162 154 
+292 1 180 
+197 2 180 102 
+6 1 4 
+262 0 
+235 0 
+267 0 
+364 2 357 349 
+13 1 4 
+77 0 
+109 1 4 
+174 1 174 
+240 0 
+210 1 180 
+306 1 4 
+276 0 
+54 1 46 
+310 1 4 
+88 2 82 4 
+249 0 
+345 1 345 
+186 2 178 180 
+Constructors: 4
+163 154
+88 82
+186 180
+364 357
+
+Summary: 4
+-1 -2 0 180 
+sun/security/pkcs/PKCS7.getSignerInfos()[Lsun/security/pkcs/SignerInfo;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 signerInfos 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/pkcs/PKCS7.<init>([B)V
+PTG:
+Vars:
+3
+r2 1 -2 
+$r1 1 39 
+r0 1 -1 
+Fields: 0
+Accesses: 7
+16 1 -1 
+36 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 5
+1 1 -1 
+50 2 -1 39 
+69 0 
+44 2 -2 39 
+63 0 
+Constructors: 2
+1 -1
+44 39
+
+Summary: 4
+-2 0 39 -1 
+sun/security/pkcs/PKCS7.getVersion()Ljava/math/BigInteger;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 version 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/pkcs/PKCS7.getDigestAlgorithmIds()[Lsun/security/x509/AlgorithmId;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 digestAlgorithmIds 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/pkcs/PKCS7.getCRLs()[Ljava/security/cert/X509CRL;
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 crls 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/pkcs/PKCS7.verify()[Lsun/security/pkcs/SignerInfo;
+PTG:
+Vars:
+3
+_ret 1 2 
+r0 1 -1 
+$r1 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/pkcs/PKCS7.<init>([Lsun/security/x509/AlgorithmId;Lsun/security/pkcs/ContentInfo;[Ljava/security/cert/X509Certificate;[Ljava/security/cert/X509CRL;[Lsun/security/pkcs/SignerInfo;)V
+PTG:
+Vars:
+7
+r4 1 -4 
+r6 1 -6 
+$r1 1 40 
+r0 1 -1 
+r5 1 -5 
+r3 1 -3 
+r2 1 -2 
+Fields: 0
+Accesses: 13
+64 1 -1 
+36 1 -1 
+6 1 -1 
+70 1 -1 
+11 1 -1 
+43 1 -1 
+16 1 -1 
+48 1 -1 
+21 1 -1 
+53 1 -1 
+26 1 -1 
+58 1 -1 
+31 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 5
+4 0 2 -1 1 
+sun/security/pkcs/PKCS7.isOldStyle()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/pkcs/PKCS7.parse(Lsun/security/util/DerInputStream;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+$r9 1 -1 
+r1 1 -1 
+Fields: 0
+Accesses: 1
+30 1 -1 
+Functions: 9
+1 1 -2 
+19 1 -2 
+5 1 -2 
+53 1 -1 
+25 2 -1 -2 
+41 0 
+11 2 -1 -2 
+60 0 
+45 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 

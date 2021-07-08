@@ -1,0 +1,3785 @@
+141
+org/eclipse/jdt/internal/core/JavaProject.findType(Ljava/lang/String;Lorg/eclipse/jdt/internal/core/NameLookup;ZLorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+7
+r1 1 -2 
+r3 1 13 
+$r4 1 92 
+r5 1 -1 
+r2 1 -5 
+r0 1 -3 
+_ret 1 92 
+Fields: 1
+13 type 92
+Accesses: 1
+90 1 13 
+Functions: 7
+0 3 -2 -3 -5 
+20 1 -2 
+36 3 -1 -3 -5 
+37 1 -2 
+58 0 
+75 0 
+60 1 -2 
+Constructors: 0
+
+Summary: 7
+41 -3 -2 -5 65 13 -1 
+org/eclipse/jdt/internal/core/JavaProject.loadPreferences()Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 6 
+r15 0 
+r3 1 24 
+$r2 1 14 
+Fields: 0
+Accesses: 0
+Functions: 13
+-1 0 
+128 0 
+2 1 -1 
+136 1 24 
+74 0 
+11 1 6 
+44 1 24 
+14 1 14 
+47 0 
+111 0 
+52 0 
+25 1 24 
+92 0 
+Constructors: 0
+
+Summary: 6
+24 35 14 39 52 -1 
+org/eclipse/jdt/internal/core/JavaProject.newTypeHierarchy(Lorg/eclipse/jdt/core/IRegion;Lorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/ITypeHierarchy;
+PTG:
+Vars:
+9
+$r7 1 47 
+$r1 1 15 
+r6 1 -4 
+$r4 1 25 
+r2 1 -3 
+_ret 1 47 
+r0 1 -2 
+r10 1 -1 
+r3 1 23 
+Fields: 0
+Accesses: 0
+Functions: 6
+-1 0 
+34 3 -2 23 25 
+42 2 -4 25 
+11 0 
+45 1 25 
+15 2 -3 15 
+Constructors: 1
+34 25
+
+Summary: 7
+15 -3 -2 23 25 -1 -4 
+org/eclipse/jdt/internal/core/JavaProject.computePackageFragmentRoots(Lorg/eclipse/jdt/core/IClasspathEntry;)[Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r1 1 2 
+$r5 1 17 
+$r4 1 -1 
+r2 1 -2 
+_ret 1 17 
+$r3 1 11 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 2 
+Constructors: 0
+
+Summary: 2
+2 -1 
+org/eclipse/jdt/internal/core/JavaProject.newNameLookup(Lorg/eclipse/jdt/core/WorkingCopyOwner;)Lorg/eclipse/jdt/internal/core/NameLookup;
+PTG:
+Vars:
+6
+r0 1 3 
+$r4 1 21 
+_ret 1 21 
+$r5 1 15 
+r1 1 -2 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+19 2 -1 15 
+12 2 -2 3 
+Constructors: 0
+
+Summary: 4
+15 3 -2 -1 
+org/eclipse/jdt/internal/core/JavaProject.defaultClasspath()[Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+6
+$r4 1 15 
+r1 1 -1 
+$r2 1 7 
+$r3 1 10 
+_ret 1 1 
+$r0 1 1 
+Fields: 1
+-1 project 7
+Accesses: 1
+6 1 -1 
+Functions: 2
+7 1 7 
+10 1 10 
+Constructors: 0
+
+Summary: 2
+-1 10 
+org/eclipse/jdt/internal/core/JavaProject.flushClasspathProblemMarkers(ZZ)V
+PTG:
+Vars:
+10
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+$r4 1 66 
+$r8 1 -1 
+r5 1 66 
+r3 1 41 
+$r6 1 81 
+r7 1 81 
+r9 1 26 
+Fields: 2
+26 ArrayObject 41
+-1 project 1
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 9
+1 1 1 
+97 1 66 
+53 1 41 
+169 1 -1 
+122 1 81 
+76 1 41 
+13 1 1 
+61 1 41 
+143 1 41 
+Constructors: 0
+
+Summary: 4
+81 26 -1 66 
+org/eclipse/jdt/internal/core/JavaProject.computePackageFragmentRoots([Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/jdt/internal/compiler/util/ObjectVector;Ljava/util/HashSet;Lorg/eclipse/jdt/core/IClasspathEntry;ZLjava/util/Map;)V
+PTG:
+Vars:
+8
+r0 1 -5 
+r2 1 -1 
+$r7 1 7 
+r3 1 -3 
+r1 1 -2 
+r4 1 -4 
+$r6 1 28 
+r5 1 -7 
+Fields: 1
+-2 ArrayObject 28
+Accesses: 0
+Functions: 3
+37 6 -1 -3 -4 -5 -7 28 
+6 1 -1 
+10 2 -4 7 
+Constructors: 0
+
+Summary: 12
+-3 -2 7 0 5 -4 1 3 -7 2 -5 -1 
+org/eclipse/jdt/internal/core/JavaProject.getSharedProperty(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+16
+$r2 1 3 
+$r12 1 54 
+r17 1 86 
+r4 1 106 
+$r6 1 28 
+r14 1 26 
+$r9 1 140 
+r1 1 -2 
+$r7 1 -1 
+r13 4 28 54 140 114 
+r16 1 73 
+_ret 4 28 54 140 114 
+$r11 1 -1 
+r0 1 -1 
+r3 1 12 
+$r5 1 114 
+Fields: 1
+-1 project 3
+Accesses: 1
+2 1 -1 
+Functions: 13
+3 2 -2 3 
+67 1 12 
+37 2 26 28 
+101 1 86 
+137 1 -1 
+13 1 12 
+82 1 73 
+146 2 106 140 
+51 1 -1 
+22 1 12 
+123 2 114 106 
+60 2 54 26 
+93 1 86 
+Constructors: 4
+146 140
+37 28
+123 114
+60 54
+
+Summary: 7
+106 -2 12 73 86 26 -1 
+org/eclipse/jdt/internal/core/JavaProject.areClasspathsEqual([Lorg/eclipse/jdt/core/IClasspathEntry;[Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;)Z
+PTG:
+Vars:
+6
+r5 1 -5 
+r1 1 -3 
+$r2 1 26 
+$r3 1 22 
+r4 1 -4 
+r0 1 -2 
+Fields: 2
+-3 ArrayObject 26
+-2 ArrayObject 22
+Accesses: 0
+Functions: 2
+22 2 22 26 
+57 2 -4 -5 
+Constructors: 0
+
+Summary: 8
+3 -3 -2 2 -5 0 -4 1 
+org/eclipse/jdt/internal/core/JavaProject.setSharedProperty(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+10
+$r6 1 74 
+r4 1 -3 
+r11 2 24 43 
+r0 1 -1 
+r1 1 -2 
+$r9 1 -1 
+$r5 1 45 
+r3 1 10 
+$r7 1 78 
+$r2 1 1 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 11
+-1 0 
+1 2 1 -2 
+17 1 -3 
+65 1 10 
+97 2 10 45 
+51 3 24 43 45 
+36 1 -1 
+86 2 74 78 
+39 1 -3 
+56 1 10 
+110 2 10 45 
+Constructors: 1
+51 45
+
+Summary: 9
+24 -3 -2 43 74 78 -1 1 45 
+org/eclipse/jdt/internal/core/JavaProject.hasBuildState()Z
+PTG:
+Vars:
+4
+r1 1 -1 
+$r3 1 8 
+$r0 1 0 
+$r2 1 4 
+Fields: 1
+-1 project 4
+Accesses: 1
+3 1 -1 
+Functions: 2
+-1 0 
+0 2 0 4 
+Constructors: 0
+
+Summary: 3
+-1 8 0 
+org/eclipse/jdt/internal/core/JavaProject.newSearchableNameEnvironment(Lorg/eclipse/jdt/core/WorkingCopyOwner;)Lorg/eclipse/jdt/internal/core/SearchableEnvironment;
+PTG:
+Vars:
+4
+r2 1 -2 
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -1 -2 
+Constructors: 1
+6 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/JavaProject.getJavaCommandIndex([Lorg/eclipse/core/resources/ICommand;)I
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 8 
+$r1 1 7 
+r3 1 -1 
+Fields: 1
+-2 ArrayObject 7
+Accesses: 0
+Functions: 2
+7 1 7 
+8 1 8 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 8 
+org/eclipse/jdt/internal/core/JavaProject.getPackageFragmentRoots()[Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+4
+$r3 1 11 
+$r1 1 1 
+_ret 1 11 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+18 2 1 11 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/JavaProject.setJavaCommand(Lorg/eclipse/core/resources/IProjectDescription;Lorg/eclipse/core/resources/ICommand;)V
+PTG:
+Vars:
+6
+r0 1 -2 
+r3 1 -3 
+$r4 1 64 
+r5 2 6 24 
+r1 1 6 
+r2 1 -1 
+Fields: 1
+-1 project 64
+Accesses: 1
+63 1 -1 
+Functions: 5
+0 1 -2 
+36 2 6 24 
+69 2 64 -2 
+7 3 -1 64 6 
+58 3 -2 6 24 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 1 
+org/eclipse/jdt/internal/core/JavaProject.findType(Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+6
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+_ret 1 6 
+$r4 1 6 
+$r3 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 2 -3 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+org/eclipse/jdt/internal/core/JavaProject.computeExpandedClasspath(Lorg/eclipse/jdt/internal/core/ClasspathEntry;Ljava/util/HashSet;Lorg/eclipse/jdt/internal/compiler/util/ObjectVector;)V
+PTG:
+Vars:
+17
+$r7 1 65 
+r3 1 27 
+r10 1 109 
+$r15 1 173 
+r6 1 -2 
+r5 1 37 
+r1 1 4 
+r13 1 138 
+r14 1 138 
+r2 1 -3 
+r9 1 89 
+$r4 1 29 
+$r12 1 130 
+r0 1 -1 
+r8 1 65 
+r16 1 173 
+r11 1 -4 
+Fields: 1
+27 ArrayObject 65
+Accesses: 0
+Functions: 19
+0 1 -1 
+-1 0 
+128 1 65 
+163 1 138 
+196 2 -3 89 
+6 2 -3 4 
+103 2 65 -2 
+171 1 138 
+76 1 65 
+145 1 138 
+114 2 -4 109 
+19 2 -3 4 
+84 1 65 
+117 1 65 
+23 1 -1 
+91 2 -3 89 
+187 4 -3 -4 173 109 
+29 1 29 
+126 2 130 37 
+Constructors: 0
+
+Summary: 16
+-3 -2 109 4 173 0 138 -4 1 37 89 2 130 -1 27 29 
+org/eclipse/jdt/internal/core/JavaProject.canonicalizedPath(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+11
+$r5 1 47 
+$r2 1 25 
+$r8 1 135 
+$r4 1 43 
+$r7 1 60 
+$r3 1 31 
+$r6 1 52 
+_ret 4 128 166 43 150 
+r1 1 17 
+r11 4 128 166 43 150 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 15
+160 4 128 166 150 43 
+102 1 -2 
+134 1 -2 
+73 1 43 
+14 0 
+47 1 47 
+143 4 128 166 150 43 
+51 1 -2 
+117 1 43 
+151 1 -2 
+24 1 17 
+88 1 -2 
+25 2 -2 25 
+57 2 52 47 
+63 2 43 60 
+Constructors: 2
+57 47
+63 43
+
+Summary: 8
+25 135 0 17 47 60 52 31 
+org/eclipse/jdt/internal/core/JavaProject.getOptions(Z)Ljava/util/Map;
+PTG:
+Vars:
+18
+r20 1 68 
+$r12 1 -1 
+r19 1 52 
+$r11 1 128 
+$r16 2 4 10 
+r21 1 93 
+r10 1 105 
+r17 1 36 
+r3 1 -1 
+r2 1 30 
+r18 4 41 70 169 156 
+$r14 1 -1 
+$r13 1 169 
+r0 2 4 10 
+$r9 1 70 
+_ret 4 41 70 169 156 
+$r1 1 24 
+$r15 1 156 
+Fields: 3
+24 optionNames 30
+68 ArrayObject 93
+36 options 41
+Accesses: 3
+37 1 36 
+149 1 36 
+24 1 24 
+Functions: 21
+-1 0 
+32 1 -1 
+160 1 156 
+256 2 4 10 
+131 3 128 70 93 
+197 0 
+262 0 
+77 1 70 
+173 1 169 
+238 1 30 
+15 2 4 10 
+48 1 -1 
+112 2 93 30 
+209 0 
+182 4 70 41 169 156 
+184 0 
+251 0 
+61 1 52 
+221 0 
+126 1 105 
+95 2 52 93 
+Constructors: 3
+160 156
+77 70
+173 169
+
+Summary: 11
+184 30 24 128 68 211 52 199 -1 36 253 
+org/eclipse/jdt/internal/core/JavaProject.setRawClasspath([Lorg/eclipse/jdt/core/IClasspathEntry;ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+4
+r3 1 -4 
+$r2 1 3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 1 -1 
+8 4 -1 -2 3 -4 
+Constructors: 0
+
+Summary: 4
+3 -2 -1 -4 
+org/eclipse/jdt/internal/core/JavaProject.getBPListeners()[Lorg/eclipse/jdt/internal/core/JavaProject$ClasspathResolutionBreakpointListener;
+PTG:
+Vars:
+7
+$r0 1 0 
+$r1 1 11 
+$r3 1 17 
+$r5 1 20 
+$r4 1 20 
+$r2 1 8 
+_ret 1 20 
+Fields: 0
+Accesses: 0
+Functions: 2
+8 2 17 8 
+11 1 11 
+Constructors: 0
+
+Summary: 1
+17 
+org/eclipse/jdt/internal/core/JavaProject.removeCPResolutionBPListener(Lorg/eclipse/jdt/internal/core/JavaProject$ClasspathResolutionBreakpointListener;)V
+PTG:
+Vars:
+4
+$r3 1 15 
+$r0 1 0 
+$r2 1 7 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+11 2 -2 7 
+15 1 15 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/jdt/internal/core/JavaProject.findType(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+6
+$r4 1 6 
+$r3 1 3 
+r2 1 -3 
+r1 1 -2 
+_ret 1 6 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 -3 3 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+org/eclipse/jdt/internal/core/JavaProject.getElementName()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 4 
+_ret 1 4 
+r0 1 -1 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.newNameLookup([Lorg/eclipse/jdt/core/ICompilationUnit;)Lorg/eclipse/jdt/internal/core/NameLookup;
+PTG:
+Vars:
+5
+r2 1 -2 
+$r3 1 6 
+r0 1 -1 
+$r1 1 1 
+_ret 1 6 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 3 -1 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 1 
+org/eclipse/jdt/internal/core/JavaProject.encodeClasspathEntry(Lorg/eclipse/jdt/core/IClasspathEntry;)Ljava/lang/String;
+PTG:
+Vars:
+10
+$r8 1 39 
+r5 1 -1 
+$r10 1 42 
+$r2 1 8 
+$r9 1 -2 
+$r0 1 0 
+$r11 1 65 
+$r12 1 -1 
+$r4 1 20 
+r7 1 -2 
+Fields: 1
+-1 project 39
+Accesses: 1
+38 1 -1 
+Functions: 8
+16 2 0 8 
+50 3 -2 20 42 
+4 1 0 
+54 1 8 
+39 1 39 
+58 1 8 
+27 4 -1 20 39 8 
+61 1 0 
+Constructors: 3
+16 8
+4 0
+27 20
+
+Summary: 6
+8 20 -2 42 -1 0 
+org/eclipse/jdt/internal/core/JavaProject.getPackageFragmentRoot(Ljava/lang/String;)Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+6
+$r1 1 1 
+$r3 1 9 
+r0 1 -1 
+$r4 1 12 
+_ret 1 12 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -1 9 
+1 1 1 
+6 2 1 -2 
+Constructors: 1
+6 1
+
+Summary: 4
+-2 9 0 -1 
+org/eclipse/jdt/internal/core/JavaProject.hasSource()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 21 
+r1 1 4 
+Fields: 1
+4 ArrayObject 21
+Accesses: 0
+Functions: 2
+0 1 -1 
+21 1 21 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/eclipse/jdt/internal/core/JavaProject.getEclipsePreferences()Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;
+PTG:
+Vars:
+20
+r9 1 57 
+$r10 1 69 
+$r1 1 1 
+$r15 1 85 
+$r16 1 103 
+$r13 1 127 
+$r20 1 127 
+$r3 1 1 
+$r17 1 85 
+$r2 1 12 
+$r12 1 144 
+$r6 1 36 
+r0 1 -1 
+r4 1 23 
+$r14 1 127 
+$r18 1 85 
+$r5 1 25 
+r11 1 69 
+$r7 1 41 
+_ret 1 57 
+Fields: 4
+23 preferences 25
+-1 preferencesChangeListener 127
+-1 project 1
+-1 preferencesNodeListener 85
+Accesses: 13
+0 1 -1 
+65 1 23 
+134 1 -1 
+15 1 -1 
+112 1 -1 
+84 1 -1 
+117 1 -1 
+24 1 23 
+152 1 -1 
+156 1 -1 
+93 1 -1 
+126 1 -1 
+31 1 23 
+Functions: 14
+-1 0 
+160 2 57 127 
+1 1 1 
+97 2 69 85 
+68 1 57 
+40 4 -1 1 85 127 
+138 2 57 127 
+12 2 1 12 
+44 2 36 41 
+109 6 -1 1 85 103 57 127 
+48 1 36 
+149 5 144 -1 1 85 127 
+121 2 69 85 
+60 5 -1 1 85 57 127 
+Constructors: 3
+149 144
+44 36
+109 103
+
+Summary: 6
+41 12 23 69 36 -1 
+org/eclipse/jdt/internal/core/JavaProject.readFileEntriesWithException(Ljava/util/Map;)[Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+17
+r4 1 -2 
+$r1 1 1 
+$r18 1 -1 
+$r19 1 193 
+$r9 2 111 25 
+$r6 1 143 
+r25 1 73 
+$r8 1 157 
+$r5 1 207 
+$r3 1 167 
+r2 1 11 
+r24 1 35 
+_ret 1 207 
+r0 1 -1 
+r26 2 167 193 
+r23 3 111 157 25 
+$r7 1 151 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 22
+96 0 
+1 1 1 
+164 3 25 157 111 
+69 1 35 
+133 5 -1 1 25 157 111 
+102 0 
+198 4 193 25 157 111 
+106 1 73 
+203 5 -1 1 193 -2 167 
+12 1 11 
+46 1 11 
+175 4 167 25 157 111 
+84 1 35 
+21 1 11 
+53 0 
+117 1 73 
+57 0 
+91 0 
+29 1 11 
+125 2 -1 1 
+190 1 -1 
+63 0 
+Constructors: 2
+198 193
+175 167
+
+Summary: 11
+99 193 -2 0 73 35 57 60 167 96 -1 
+org/eclipse/jdt/internal/core/JavaProject.getSourceMapper()Lorg/eclipse/jdt/internal/core/SourceMapper;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.getHandleMementoDelimiter()C
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.hasJavaNature(Lorg/eclipse/core/resources/IProject;)Z
+PTG:
+Vars:
+4
+$r3 1 13 
+r0 1 -2 
+$r2 1 10 
+$r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+10 2 10 13 
+12 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 13 0 
+org/eclipse/jdt/internal/core/JavaProject.newTypeHierarchy(Lorg/eclipse/jdt/core/IType;Lorg/eclipse/jdt/core/IRegion;Lorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/ITypeHierarchy;
+PTG:
+Vars:
+10
+r1 1 -3 
+$r5 1 40 
+r13 1 -1 
+r3 1 -4 
+$r8 1 63 
+r7 1 -5 
+r4 1 38 
+_ret 1 63 
+r0 1 -2 
+$r2 1 30 
+Fields: 0
+Accesses: 0
+Functions: 7
+-1 0 
+49 4 -2 -3 38 40 
+26 0 
+58 2 -5 40 
+11 0 
+61 1 40 
+30 2 -4 30 
+Constructors: 1
+49 40
+
+Summary: 8
+-3 -2 30 -4 40 -5 -1 38 
+org/eclipse/jdt/internal/core/JavaProject.isOnClasspathEntry(Lorg/eclipse/core/runtime/IPath;ZZLorg/eclipse/jdt/core/IClasspathEntry;)Z
+PTG:
+Vars:
+12
+$r9 1 -5 
+r2 1 -2 
+r1 1 7 
+$r4 1 78 
+$r6 1 89 
+$r10 1 51 
+$r7 1 -5 
+$r8 1 43 
+r0 1 -5 
+$r3 1 75 
+$r5 1 83 
+r11 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -5 
+48 1 -5 
+-1 0 
+83 2 -2 83 
+54 3 -2 51 43 
+40 1 -5 
+73 2 7 89 
+26 2 -2 7 
+75 1 75 
+13 2 -2 7 
+78 1 78 
+63 1 7 
+Constructors: 0
+
+Summary: 12
+3 -2 7 51 43 89 -5 78 0 -1 83 75 
+org/eclipse/jdt/internal/core/JavaProject.findPackageFragment0(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IPackageFragment;
+PTG:
+Vars:
+5
+r2 1 -2 
+$r3 1 8 
+_ret 1 8 
+r0 1 -1 
+r1 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+6 2 -2 5 
+Constructors: 0
+
+Summary: 4
+-2 5 0 -1 
+org/eclipse/jdt/internal/core/JavaProject.findElement(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/WorkingCopyOwner;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+24
+$r19 1 231 
+r8 1 191 
+r6 1 -1 
+$r12 1 151 
+r20 1 38 
+r24 1 138 
+r9 1 207 
+$r13 1 157 
+$r16 1 44 
+$r11 1 219 
+r23 1 118 
+$r15 1 171 
+$r17 1 61 
+r22 1 94 
+r5 1 110 
+r7 1 -3 
+r21 1 56 
+$r14 1 166 
+r25 2 177 138 
+$r18 1 -1 
+$r4 1 98 
+r0 1 -2 
+$r3 1 66 
+$r10 1 216 
+Fields: 1
+207 type 216
+Accesses: 1
+214 1 207 
+Functions: 28
+128 1 38 
+65 1 -2 
+193 3 177 138 191 
+66 1 66 
+4 1 -2 
+77 1 38 
+143 1 110 
+87 1 -2 
+151 1 151 
+216 1 216 
+25 1 -2 
+155 1 110 
+28 0 
+32 1 -2 
+96 1 94 
+160 2 151 157 
+98 1 98 
+166 2 166 138 
+230 1 -1 
+231 1 231 
+43 1 -2 
+171 1 171 
+44 1 44 
+112 1 -2 
+120 1 118 
+58 2 -1 56 
+186 2 -1 -3 
+123 1 118 
+Constructors: 1
+160 151
+
+Summary: 21
+231 -3 216 44 138 17 157 94 166 -2 171 98 66 207 110 118 191 177 -1 38 56 
+org/eclipse/jdt/internal/core/JavaProject.getHandleFromMemento(Ljava/lang/String;Lorg/eclipse/jdt/internal/core/util/MementoTokenizer;Lorg/eclipse/jdt/core/WorkingCopyOwner;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+4
+r1 1 -1 
+r0 1 -3 
+r8 1 -2 
+r2 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 13
+0 1 -2 
+64 0 
+129 2 -3 -4 
+34 1 -3 
+69 0 
+39 0 
+73 0 
+110 0 
+81 1 -3 
+88 1 -1 
+120 2 -3 -4 
+60 0 
+95 0 
+Constructors: 0
+
+Summary: 9
+-3 -2 98 73 66 -4 79 -1 38 
+org/eclipse/jdt/internal/core/JavaProject.findType(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jdt/internal/core/NameLookup;ZLorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+8
+r5 1 -1 
+r0 1 -4 
+r2 1 -2 
+r3 1 -6 
+r1 1 -3 
+$r6 1 28 
+_ret 1 28 
+r4 1 15 
+Fields: 1
+15 type 28
+Accesses: 1
+26 1 15 
+Functions: 1
+0 4 -2 -3 -4 -6 
+Constructors: 0
+
+Summary: 6
+15 -3 -2 -1 -4 -6 
+org/eclipse/jdt/internal/core/JavaProject.getRequiredProjectNames()[Ljava/lang/String;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 2 
+$r2 1 5 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 2 
+1 1 -1 
+Constructors: 0
+
+Summary: 2
+2 -1 
+org/eclipse/jdt/internal/core/JavaProject.newTypeHierarchy(Lorg/eclipse/jdt/core/IRegion;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/ITypeHierarchy;
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+$r3 1 2 
+r2 1 -3 
+_ret 1 6 
+$r4 1 6 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 2 -3 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+org/eclipse/jdt/internal/core/JavaProject.<clinit>()V
+PTG:
+Vars:
+5
+$r2 1 16 
+$r4 1 46 
+$r1 1 7 
+$r0 1 1 
+$r3 1 39 
+Fields: 0
+Accesses: 0
+Functions: 3
+22 1 16 
+7 2 16 7 
+13 1 7 
+Constructors: 2
+22 16
+13 7
+
+Summary: 2
+16 7 
+org/eclipse/jdt/internal/core/JavaProject.getAllPackageFragmentRoots(Ljava/util/Map;)[Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+5
+$r3 1 7 
+r0 1 -1 
+r2 1 -2 
+_ret 1 7 
+$r1 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 2 
+1 1 -1 
+Constructors: 0
+
+Summary: 4
+2 -2 0 -1 
+org/eclipse/jdt/internal/core/JavaProject.verbose_reentering_classpath_resolution()V
+PTG:
+Vars:
+9
+$r0 1 0 
+$r2 1 11 
+$r8 1 44 
+$r3 1 14 
+$r5 1 25 
+$r4 1 19 
+$r6 1 28 
+r1 1 -1 
+$r7 1 34 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 2 0 11 
+19 1 19 
+7 1 0 
+25 1 25 
+41 1 34 
+10 1 -1 
+14 1 14 
+31 1 28 
+47 2 34 44 
+Constructors: 2
+7 0
+41 34
+
+Summary: 6
+11 25 14 -1 19 28 
+org/eclipse/jdt/internal/core/JavaProject.getPackageFragmentRoot(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+3
+r2 1 -1 
+r6 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+65 3 -1 -2 -3 
+85 2 -1 -2 
+42 2 -1 -2 
+75 2 -1 -2 
+46 1 -2 
+47 0 
+Constructors: 0
+
+Summary: 6
+-3 -2 0 -1 1 47 
+org/eclipse/jdt/internal/core/JavaProject.setOptions(Ljava/util/Map;)V
+PTG:
+Vars:
+18
+$r7 1 61 
+r11 1 129 
+$r13 1 -1 
+$r6 1 51 
+r16 1 51 
+r1 1 4 
+r17 1 111 
+$r3 1 24 
+r0 1 -1 
+r4 1 34 
+$r9 1 83 
+$r5 1 39 
+$r12 1 167 
+$r14 1 -1 
+r15 1 39 
+r2 1 -2 
+$r8 1 64 
+$r10 1 83 
+Fields: 2
+111 ArrayObject 129
+61 optionNames 64
+Accesses: 2
+171 1 167 
+61 1 61 
+Functions: 16
+0 1 -1 
+-1 0 
+64 2 64 51 
+96 1 34 
+161 1 4 
+131 2 -2 129 
+38 1 34 
+166 1 -1 
+105 1 4 
+15 1 4 
+49 1 39 
+81 1 39 
+145 2 129 4 
+23 1 -2 
+24 1 24 
+91 3 51 83 4 
+Constructors: 0
+
+Summary: 12
+111 -2 51 4 39 64 24 167 34 61 -1 83 
+org/eclipse/jdt/internal/core/JavaProject.getFolderPackageFragmentRoot(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+8
+r0 1 -2 
+r1 1 -1 
+$r4 1 29 
+$r6 1 40 
+$r5 1 35 
+$r3 1 24 
+_ret 1 40 
+$r2 1 21 
+Fields: 1
+-1 project 21
+Accesses: 2
+20 1 -1 
+11 1 -1 
+Functions: 6
+0 1 -2 
+19 3 -1 35 21 
+21 1 21 
+24 1 24 
+10 2 -1 21 
+29 2 -2 29 
+Constructors: 0
+
+Summary: 6
+24 -2 0 35 -1 29 
+org/eclipse/jdt/internal/core/JavaProject.resetResolvedClasspath()Lorg/eclipse/jdt/internal/core/ClasspathChange;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r3 1 -1 
+$r2 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/core/JavaProject.newTypeHierarchy(Lorg/eclipse/jdt/core/IType;Lorg/eclipse/jdt/core/IRegion;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/ITypeHierarchy;
+PTG:
+Vars:
+7
+$r4 1 3 
+r3 1 -4 
+r1 1 -2 
+r2 1 -3 
+$r5 1 7 
+r0 1 -1 
+_ret 1 7 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 5 -1 -2 -3 3 -4 
+Constructors: 0
+
+Summary: 4
+-3 -2 -1 -4 
+org/eclipse/jdt/internal/core/JavaProject.computePackageFragmentRoots([Lorg/eclipse/jdt/core/IClasspathEntry;ZLjava/util/Map;)[Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+7
+r5 1 -4 
+$r0 1 0 
+r2 1 -1 
+r6 1 32 
+_ret 1 32 
+$r4 1 13 
+r3 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+18 1 13 
+4 1 0 
+24 5 -1 0 -2 -4 13 
+41 2 0 32 
+27 1 0 
+Constructors: 2
+18 13
+4 0
+
+Summary: 7
+-2 2 0 13 -1 -4 0 
+org/eclipse/jdt/internal/core/JavaProject.findPackageFragmentRoot(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r2 1 2 
+r0 1 -1 
+_ret 1 5 
+$r3 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 2 
+1 1 -2 
+Constructors: 0
+
+Summary: 4
+2 -2 0 -1 
+org/eclipse/jdt/internal/core/JavaProject.getUnderlyingResource()Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+3
+$r1 1 13 
+_ret 1 13 
+r0 1 -1 
+Fields: 1
+-1 project 13
+Accesses: 1
+12 1 -1 
+Functions: 2
+0 2 -1 13 
+7 2 -1 13 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.computeSharedPropertyFileName(Lorg/eclipse/core/runtime/QualifiedName;)Ljava/lang/String;
+PTG:
+Vars:
+8
+$r4 1 16 
+$r1 1 6 
+r2 1 -2 
+r6 1 -1 
+$r0 1 0 
+_ret 1 19 
+$r3 1 13 
+$r5 1 19 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 2 0 13 
+16 1 16 
+4 0 
+9 2 0 6 
+12 1 -2 
+Constructors: 1
+9 0
+
+Summary: 5
+16 -2 6 13 -1 
+org/eclipse/jdt/internal/core/JavaProject.getProject()Lorg/eclipse/core/resources/IProject;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.newSearchableNameEnvironment([Lorg/eclipse/jdt/core/ICompilationUnit;)Lorg/eclipse/jdt/internal/core/SearchableEnvironment;
+PTG:
+Vars:
+4
+r1 1 -1 
+$r0 1 0 
+r2 1 -2 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -1 -2 
+Constructors: 1
+6 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaProject.getProjectCache()Lorg/eclipse/jdt/internal/core/JavaProjectElementInfo$ProjectCache;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r2 1 1 
+$r3 1 8 
+r0 1 -1 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+4 2 -1 1 
+Constructors: 0
+
+Summary: 1
+1 
+org/eclipse/jdt/internal/core/JavaProject.writeFileEntries([Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/core/runtime/IPath;)Z
+PTG:
+Vars:
+10
+r0 1 -1 
+$r2 1 14 
+r7 1 -3 
+$r8 1 57 
+$r1 1 1 
+r4 1 27 
+r6 1 -2 
+$r5 1 31 
+$r11 1 67 
+$r9 1 -1 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 7
+1 1 1 
+18 1 14 
+52 5 -1 1 -2 -3 14 
+22 3 -1 1 14 
+39 3 -2 -3 27 
+73 2 -1 67 
+60 3 -1 1 57 
+Constructors: 2
+18 14
+73 67
+
+Summary: 8
+14 -3 -2 0 -1 27 57 1 
+org/eclipse/jdt/internal/core/JavaProject.areClasspathsEqual([Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/core/runtime/IPath;[Lorg/eclipse/jdt/core/IClasspathEntry;)Z
+PTG:
+Vars:
+7
+$r2 1 37 
+r1 1 -2 
+$r3 1 33 
+r0 1 -4 
+r5 1 -3 
+r6 1 62 
+$r4 1 78 
+Fields: 3
+-2 ArrayObject 37
+-4 ArrayObject 62
+-4 ArrayObject 33
+Accesses: 0
+Functions: 4
+64 1 62 
+33 2 33 37 
+76 1 62 
+78 2 -3 78 
+Constructors: 0
+
+Summary: 8
+-3 -2 62 2 78 0 -4 1 
+org/eclipse/jdt/internal/core/JavaProject.updatePreferences(Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;)V
+PTG:
+Vars:
+8
+$r7 1 -1 
+r3 1 26 
+r1 1 4 
+$r5 1 41 
+r0 1 -1 
+r6 1 -2 
+r4 1 39 
+r2 1 15 
+Fields: 1
+15 ArrayObject 26
+Accesses: 0
+Functions: 6
+0 1 -1 
+9 1 4 
+41 2 39 41 
+57 3 -2 39 26 
+73 1 -2 
+28 2 4 26 
+Constructors: 0
+
+Summary: 4
+15 4 39 -1 
+org/eclipse/jdt/internal/core/JavaProject.readFileEntries(Ljava/util/Map;)[Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+11
+$r2 1 2 
+$r7 1 101 
+$r8 1 104 
+$r3 1 -1 
+$r4 1 80 
+r0 1 -1 
+$r5 1 91 
+$r6 1 96 
+_ret 1 110 
+r1 1 -2 
+$r9 1 110 
+Fields: 0
+Accesses: 0
+Functions: 19
+0 2 -1 -2 
+65 0 
+35 0 
+101 1 101 
+71 0 
+8 0 
+107 2 -1 104 
+44 0 
+15 0 
+80 2 80 96 
+18 1 -1 
+19 0 
+51 0 
+54 1 -1 
+55 0 
+87 1 80 
+90 1 -1 
+91 1 91 
+29 0 
+Constructors: 1
+87 80
+
+Summary: 12
+-2 101 104 0 24 68 60 32 65 96 -1 29 
+org/eclipse/jdt/internal/core/JavaProject.getOption(Ljava/lang/String;Z)Ljava/lang/String;
+PTG:
+Vars:
+4
+r4 1 -1 
+r0 1 -2 
+$r2 1 2 
+$r3 1 5 
+Fields: 1
+2 optionNames 5
+Accesses: 1
+2 1 2 
+Functions: 6
+-1 0 
+64 0 
+5 2 -2 5 
+25 1 -2 
+43 1 -2 
+15 1 -1 
+Constructors: 0
+
+Summary: 5
+2 -2 5 -1 19 
+org/eclipse/jdt/internal/core/JavaProject.decodeClasspathEntry(Ljava/lang/String;)Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+14
+$r12 1 -1 
+r9 1 -1 
+$r8 1 73 
+$r5 1 25 
+$r11 1 -1 
+r4 1 21 
+$r1 1 6 
+$r3 1 15 
+$r10 1 102 
+$r15 1 -1 
+r7 1 41 
+$r14 1 -1 
+r0 1 -2 
+$r6 1 33 
+Fields: 0
+Accesses: 0
+Functions: 14
+-1 0 
+33 1 33 
+69 1 6 
+101 2 -1 41 
+72 1 41 
+73 1 73 
+11 2 -2 6 
+15 1 15 
+47 1 6 
+54 1 6 
+23 2 21 25 
+87 1 41 
+30 2 6 25 
+62 1 6 
+Constructors: 2
+11 6
+30 25
+
+Summary: 8
+15 41 -2 25 33 73 21 -1 
+org/eclipse/jdt/internal/core/JavaProject.getClasspathEntryFor(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+13
+r0 1 -1 
+$r7 1 53 
+$r8 1 58 
+r2 1 9 
+$r6 1 48 
+r11 2 72 29 
+r10 1 -2 
+$r4 1 29 
+$r5 1 45 
+r12 1 69 
+r3 1 20 
+_ret 2 72 29 
+$r9 1 72 
+Fields: 1
+9 rootPathToResolvedEntries 20
+Accesses: 1
+16 1 9 
+Functions: 9
+48 1 48 
+1 1 -1 
+5 1 -1 
+53 1 53 
+70 2 20 69 
+58 2 -2 58 
+27 2 -2 20 
+44 1 -1 
+45 1 45 
+Constructors: 0
+
+Summary: 9
+20 -2 48 0 45 53 9 69 -1 
+org/eclipse/jdt/internal/core/JavaProject.addToResult(Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/jdt/internal/core/JavaProject$ResolvedClasspath;Ljava/util/LinkedHashSet;Lorg/eclipse/jdt/internal/core/ExternalFoldersManager;)V
+PTG:
+Vars:
+11
+$r12 1 31 
+r9 1 -2 
+$r5 1 13 
+r1 1 -3 
+r0 1 -4 
+r7 1 -6 
+r6 1 -5 
+$r2 1 1 
+$r3 1 5 
+$r10 1 1 
+r14 1 -1 
+Fields: 2
+-4 rootPathToResolvedEntries 31
+-4 rawReverseMap 1
+Accesses: 3
+0 1 -4 
+19 1 -4 
+30 1 -4 
+Functions: 8
+1 2 1 5 
+50 1 -3 
+4 1 -3 
+37 3 -3 5 31 
+72 2 -6 5 
+26 3 1 -2 5 
+60 1 5 
+46 2 -3 -5 
+Constructors: 0
+
+Summary: 13
+-3 -2 5 -4 1 1 3 4 2 -5 13 -1 -6 
+org/eclipse/jdt/internal/core/JavaProject.readOutputLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+6
+$r2 1 7 
+r1 1 5 
+r5 1 49 
+r3 1 31 
+_ret 1 49 
+r0 1 -1 
+Fields: 1
+5 ArrayObject 31
+Accesses: 0
+Functions: 4
+0 1 -1 
+32 1 31 
+43 1 31 
+13 1 -1 
+Constructors: 0
+
+Summary: 3
+5 31 -1 
+org/eclipse/jdt/internal/core/JavaProject.readRawClasspath()[Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+6
+r2 1 29 
+r0 1 -1 
+$r1 1 7 
+_ret 2 5 45 
+r5 2 5 45 
+r3 1 45 
+Fields: 1
+5 ArrayObject 29
+Accesses: 0
+Functions: 4
+0 1 -1 
+55 3 5 45 29 
+13 1 -1 
+30 1 29 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.findType(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jdt/core/WorkingCopyOwner;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+7
+r3 1 -2 
+r0 1 -1 
+r1 1 -4 
+r4 1 -3 
+_ret 1 14 
+$r5 1 14 
+r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -4 
+7 4 -1 -2 -3 5 
+Constructors: 0
+
+Summary: 5
+-3 -2 5 -1 -4 
+org/eclipse/jdt/internal/core/JavaProject.updateCycleParticipants(Ljava/util/ArrayList;Ljava/util/HashSet;Lorg/eclipse/core/resources/IWorkspaceRoot;Ljava/util/HashSet;Ljava/util/Map;)V
+PTG:
+Vars:
+17
+$r13 1 35 
+r0 1 -1 
+r16 1 171 
+$r12 1 133 
+$r10 1 194 
+r6 1 92 
+r8 1 -4 
+$r9 1 171 
+r3 1 -5 
+r4 1 -6 
+r7 1 -3 
+$r14 1 -1 
+r1 1 4 
+r2 1 -2 
+r15 2 54 35 
+r11 1 194 
+r5 1 72 
+Fields: 2
+54 ArrayObject 72
+35 ArrayObject 72
+Accesses: 0
+Functions: 18
+0 1 -1 
+32 2 -1 -6 
+130 1 -2 
+163 2 -4 92 
+231 2 -2 4 
+136 2 -3 133 
+9 2 -2 4 
+74 1 72 
+107 2 -2 92 
+17 2 -5 4 
+50 1 -1 
+178 1 171 
+211 6 -2 194 -3 -4 -5 -6 
+85 1 72 
+120 1 -2 
+153 2 -5 92 
+94 2 -3 92 
+191 1 171 
+Constructors: 0
+
+Summary: 18
+-3 -2 54 171 4 0 194 35 133 -4 1 3 4 2 -5 -1 92 -6 
+org/eclipse/jdt/internal/core/JavaProject.defaultOutputLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r3 1 12 
+$r2 1 4 
+_ret 1 12 
+r0 1 -1 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+4 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.rootID()Ljava/lang/String;
+PTG:
+Vars:
+7
+r1 1 -1 
+$r0 1 0 
+$r2 1 11 
+$r5 1 22 
+_ret 1 22 
+$r3 1 14 
+$r4 1 19 
+Fields: 1
+-1 project 11
+Accesses: 1
+10 1 -1 
+Functions: 4
+0 2 0 14 
+19 1 19 
+7 1 0 
+11 1 11 
+Constructors: 1
+7 0
+
+Summary: 3
+14 -1 19 
+org/eclipse/jdt/internal/core/JavaProject.contains(Lorg/eclipse/core/resources/IResource;)Z
+PTG:
+Vars:
+16
+$r12 1 9 
+r3 1 -2 
+r14 1 64 
+r5 1 48 
+r6 1 64 
+r0 1 -1 
+r2 1 9 
+$r10 1 212 
+r16 1 93 
+$r17 1 150 
+r18 1 156 
+$r7 1 116 
+r1 1 4 
+r13 2 9 156 
+r15 2 107 73 
+r4 1 22 
+Fields: 2
+4 ArrayObject 64
+4 ArrayObject 150
+Accesses: 0
+Functions: 22
+0 1 -1 
+66 1 64 
+131 3 22 73 107 
+163 2 22 156 
+291 1 22 
+100 1 93 
+5 1 -1 
+293 0 
+199 2 9 156 
+75 1 64 
+45 0 
+237 1 64 
+16 1 -2 
+272 1 22 
+114 1 64 
+210 1 64 
+274 0 
+116 3 116 73 107 
+212 1 212 
+86 3 48 73 107 
+150 1 150 
+24 2 22 9 
+Constructors: 0
+
+Summary: 15
+93 -2 116 4 48 156 212 0 73 274 107 9 22 293 -1 
+org/eclipse/jdt/internal/core/JavaProject.deconfigure()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.getPackageFragmentRoot(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 3 
+r0 1 -1 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaProject.findPackageFragment(Ljava/lang/String;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+9
+r1 1 5 
+r0 1 -1 
+r4 1 33 
+$r6 1 43 
+r3 1 12 
+$r7 1 69 
+_ret 1 69 
+$r5 1 38 
+r2 1 -2 
+Fields: 2
+12 ArrayObject 69
+12 ArrayObject 33
+Accesses: 0
+Functions: 5
+0 1 -1 
+35 2 -1 43 
+36 1 33 
+6 2 -2 5 
+38 1 38 
+Constructors: 0
+
+Summary: 6
+-2 12 43 5 -1 38 
+org/eclipse/jdt/internal/core/JavaProject.getPath()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+_ret 1 4 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.<init>(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/jdt/internal/core/JavaElement;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+2 2 -1 -3 
+Constructors: 1
+2 -1
+
+Summary: 4
+-3 0 -1 1 
+org/eclipse/jdt/internal/core/JavaProject.hasClasspathCycle([Lorg/eclipse/jdt/core/IClasspathEntry;)Z
+PTG:
+Vars:
+8
+r5 1 -2 
+$r0 1 0 
+$r2 1 8 
+$r8 1 34 
+$r9 1 37 
+r4 1 -1 
+$r7 1 25 
+$r10 1 42 
+Fields: 0
+Accesses: 0
+Functions: 9
+-1 0 
+34 1 34 
+51 6 -1 0 37 8 25 42 
+4 1 0 
+20 3 -1 -2 8 
+54 1 0 
+13 1 8 
+30 1 25 
+47 1 42 
+Constructors: 4
+4 0
+13 8
+30 25
+47 42
+
+Summary: 8
+8 37 -2 25 34 42 -1 0 
+org/eclipse/jdt/internal/core/JavaProject.addToBuildSpec(Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r3 1 12 
+r4 1 32 
+r2 1 9 
+$r1 1 1 
+r0 1 -1 
+r5 1 -2 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 6
+1 1 1 
+37 2 32 -2 
+10 3 -1 1 12 
+26 1 9 
+11 1 9 
+46 4 -1 32 1 9 
+Constructors: 0
+
+Summary: 5
+-2 12 32 9 -1 
+org/eclipse/jdt/internal/core/JavaProject.getRawClasspath()[Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+6
+r4 1 9 
+r5 1 21 
+$r2 1 23 
+_ret 1 21 
+r0 1 -1 
+r1 1 4 
+Fields: 1
+4 rawClasspath 9
+Accesses: 1
+5 1 4 
+Functions: 3
+0 1 -1 
+16 3 -1 4 9 
+29 1 -1 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/eclipse/jdt/internal/core/JavaProject.isOnClasspath(Lorg/eclipse/core/resources/IResource;)Z
+PTG:
+Vars:
+14
+r4 1 40 
+$r11 1 95 
+$r12 1 98 
+r6 1 68 
+$r7 1 59 
+$r8 1 141 
+r5 1 59 
+r3 1 -1 
+$r13 1 103 
+$r9 1 59 
+$r14 1 109 
+$r10 1 149 
+r0 1 -2 
+r1 1 6 
+Fields: 1
+40 ArrayObject 59
+Accesses: 0
+Functions: 15
+0 1 -2 
+-1 0 
+98 1 98 
+36 1 -1 
+70 2 68 6 
+103 2 6 103 
+9 1 -2 
+138 1 59 
+146 1 59 
+83 1 68 
+152 3 149 6 141 
+124 2 68 6 
+61 1 59 
+93 2 68 109 
+95 1 95 
+Constructors: 0
+
+Summary: 11
+-2 109 98 95 149 68 6 40 -1 141 103 
+org/eclipse/jdt/internal/core/JavaProject.setRawClasspath([Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/core/runtime/IPath;ZLorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+5
+r3 1 -5 
+r1 1 -1 
+$r0 1 9 
+r2 1 -3 
+r7 2 -2 8 
+Fields: 0
+Accesses: 0
+Functions: 6
+-1 0 
+17 5 -1 -2 -3 8 9 
+34 0 
+4 1 -1 
+40 0 
+26 2 -5 9 
+Constructors: 1
+17 9
+
+Summary: 11
+37 3 -3 -2 34 -5 0 -1 8 9 1 
+org/eclipse/jdt/internal/core/JavaProject.getCycleMarker()Lorg/eclipse/core/resources/IMarker;
+PTG:
+Vars:
+8
+r0 1 -1 
+$r1 1 1 
+r3 1 26 
+$r5 1 45 
+r6 1 45 
+$r2 1 1 
+r4 1 38 
+$r7 1 -1 
+Fields: 2
+26 ArrayObject 38
+-1 project 1
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 4
+1 1 1 
+40 1 38 
+60 1 45 
+13 1 1 
+Constructors: 0
+
+Summary: 3
+45 26 -1 
+org/eclipse/jdt/internal/core/JavaProject.resolveClasspath([Lorg/eclipse/jdt/core/IClasspathEntry;)[Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+5
+$r3 1 7 
+r0 1 -1 
+r1 1 -2 
+_ret 1 7 
+$r2 1 4 
+Fields: 1
+4 resolvedClasspath 7
+Accesses: 1
+4 1 4 
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 4 -1 
+org/eclipse/jdt/internal/core/JavaProject.validateExistence(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+5
+r3 1 -1 
+$r2 1 25 
+$r1 1 -2 
+_ret 1 25 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -2 
+20 1 -1 
+14 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaProject.hashCode()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.validateCycles(Ljava/util/Map;)V
+PTG:
+Vars:
+21
+r3 1 20 
+r26 2 137 137 
+$r11 1 75 
+$r19 1 175 
+$r20 1 252 
+$r16 1 148 
+r15 1 -2 
+$r0 1 0 
+$r6 1 34 
+$r14 1 90 
+r2 1 15 
+$r4 1 25 
+$r10 1 61 
+$r13 1 76 
+r18 1 173 
+$r22 1 203 
+r17 1 162 
+$r21 1 203 
+$r8 1 43 
+r1 1 8 
+$r12 1 76 
+Fields: 3
+20 ArrayObject 137
+15 ArrayObject 61
+15 ArrayObject 75
+Accesses: 0
+Functions: 24
+-1 0 
+0 1 0 
+164 1 137 
+101 1 43 
+261 2 137 252 
+38 1 34 
+198 1 162 
+230 1 162 
+264 2 137 252 
+9 1 8 
+75 1 75 
+47 1 43 
+175 2 173 175 
+144 2 148 25 
+208 1 203 
+114 6 -2 34 8 25 43 76 
+146 1 137 
+274 1 137 
+86 2 34 90 
+246 0 
+88 1 76 
+29 1 25 
+61 1 61 
+157 1 137 
+Constructors: 4
+261 252
+38 34
+29 25
+47 43
+
+Summary: 15
+15 20 -2 25 90 173 203 8 43 252 137 162 34 148 0 
+org/eclipse/jdt/internal/core/JavaProject.getExpandedClasspath()[Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+5
+r4 1 26 
+$r0 1 0 
+r2 1 -1 
+_ret 1 26 
+$r3 1 10 
+Fields: 0
+Accesses: 0
+Functions: 5
+32 2 0 26 
+19 3 -1 0 10 
+4 1 0 
+22 1 0 
+15 1 10 
+Constructors: 2
+4 0
+15 10
+
+Summary: 3
+-1 0 10 
+org/eclipse/jdt/internal/core/JavaProject.getPackageFragmentRoot(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+16
+r6 1 70 
+r1 1 -1 
+$r9 1 147 
+$r3 1 44 
+$r10 1 96 
+$r11 1 101 
+r14 2 -2 19 
+$r5 1 60 
+r8 1 144 
+$r7 1 86 
+$r0 1 34 
+r15 5 175 127 78 187 57 
+$r13 1 10 
+$r4 1 57 
+$r16 1 192 
+_ret 1 192 
+Fields: 1
+-1 project 57
+Accesses: 2
+56 1 -1 
+158 1 -1 
+Functions: 22
+0 2 -2 19 
+33 2 -2 19 
+101 1 101 
+71 3 -2 19 70 
+167 2 144 70 
+9 2 -1 57 
+137 2 -2 19 
+10 3 -2 19 10 
+43 2 -2 19 
+50 4 -1 -2 19 57 
+114 4 -1 -2 19 57 
+146 2 -1 57 
+147 2 144 147 
+20 2 -2 19 
+180 3 -2 19 70 
+85 2 -2 19 
+120 3 -2 19 70 
+57 1 57 
+60 1 60 
+189 6 -1 57 187 78 175 127 
+94 2 96 70 
+95 2 -2 19 
+Constructors: 0
+
+Summary: 17
+-2 101 70 127 147 44 86 10 187 19 175 34 60 144 78 96 -1 
+org/eclipse/jdt/internal/core/JavaProject.findPackageFragmentRoot0(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+5
+r2 1 -2 
+r0 1 -1 
+r1 1 4 
+$r4 1 37 
+r3 1 33 
+Fields: 1
+4 ArrayObject 33
+Accesses: 0
+Functions: 5
+0 1 -1 
+35 1 33 
+5 1 -2 
+21 0 
+37 2 -2 37 
+Constructors: 0
+
+Summary: 5
+37 -2 4 0 -1 
+org/eclipse/jdt/internal/core/JavaProject.createClasspathProblemMarker(Lorg/eclipse/jdt/core/IJavaModelStatus;)V
+PTG:
+Vars:
+26
+$r3 1 116 
+r19 1 208 
+r16 2 5 147 
+$r9 1 63 
+r17 1 98 
+$r25 2 316 310 
+$r21 1 274 
+$r4 1 339 
+$r15 1 -1 
+r10 1 139 
+$r11 1 162 
+$r26 2 327 333 
+$r5 1 358 
+$r14 1 154 
+$r20 1 212 
+$r12 1 170 
+$r24 1 299 
+$r8 1 55 
+$r23 1 288 
+$r6 1 365 
+r1 1 -1 
+$r13 1 147 
+$r18 1 197 
+r0 1 -2 
+$r2 1 100 
+$r22 1 280 
+Fields: 11
+212 ArrayObject 257
+212 ArrayObject 244
+212 ArrayObject 250
+212 ArrayObject 271
+212 ArrayObject 220
+212 ArrayObject 226
+212 ArrayObject 232
+212 ArrayObject 238
+212 ArrayObject 264
+274 ArrayObject 381
+-1 project 197
+Accesses: 1
+196 1 -1 
+Functions: 20
+162 2 162 170 
+100 2 98 100 
+356 2 147 5 
+133 1 -2 
+165 2 -1 197 
+197 1 197 
+293 1 288 
+13 1 -2 
+400 1 -1 
+179 1 -2 
+371 1 365 
+116 2 98 116 
+55 2 55 63 
+279 1 -2 
+343 1 -2 
+152 1 139 
+58 2 -1 197 
+90 2 -1 197 
+349 1 339 
+382 13 257 226 232 264 238 271 208 274 212 244 250 220 381 
+Constructors: 3
+371 365
+293 288
+349 339
+
+Summary: 21
+257 250 271 274 226 63 212 139 220 381 147 170 264 -2 98 0 232 244 208 238 -1 
+org/eclipse/jdt/internal/core/JavaProject.resolveClasspath(Lorg/eclipse/jdt/internal/core/JavaModelManager$PerProjectInfo;ZZ)V
+PTG:
+Vars:
+12
+r1 1 14 
+$r8 1 99 
+$r7 1 104 
+r2 1 -1 
+r3 1 -2 
+$r10 1 177 
+$r5 1 85 
+$r19 2 124 116 
+$r6 1 109 
+r18 1 83 
+$r0 1 0 
+r17 2 45 57 
+Fields: 5
+-2 rawClasspath 45
+83 rootPathToResolvedEntries 109
+83 unresolvedEntryStatus 124
+83 resolvedClasspath 99
+83 rawReverseMap 104
+Accesses: 6
+97 1 83 
+102 1 83 
+41 1 -2 
+122 1 83 
+59 1 -2 
+107 1 83 
+Functions: 12
+16 2 -1 14 
+33 2 -1 14 
+130 7 -2 99 116 104 124 45 109 
+52 3 -1 -2 45 
+148 2 -1 14 
+8 1 -1 
+185 1 -1 
+11 0 
+75 3 -1 57 45 
+93 1 -1 
+174 2 -1 14 
+159 1 -1 
+Constructors: 0
+
+Summary: 9
+124 109 104 0 57 99 14 -1 83 
+org/eclipse/jdt/internal/core/JavaProject.computePackageFragmentRoots(Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/jdt/internal/compiler/util/ObjectVector;Ljava/util/HashSet;Lorg/eclipse/jdt/core/IClasspathEntry;ZLjava/util/Map;)V
+PTG:
+Vars:
+32
+r33 1 102 
+$r29 1 235 
+$r22 1 334 
+r6 1 28 
+$r15 1 403 
+$r17 1 102 
+r7 1 36 
+$r31 1 161 
+$r28 1 161 
+$r35 2 -2 357 
+r0 1 -2 
+$r30 1 209 
+$r13 1 -5 
+r2 1 7 
+$r14 1 -2 
+r18 1 280 
+r21 1 322 
+r3 1 -4 
+$r5 1 20 
+$r23 1 -5 
+$r1 1 -2 
+r34 1 161 
+r19 1 280 
+r11 1 -7 
+r4 1 -1 
+r10 1 -3 
+r9 1 46 
+$r8 1 38 
+r32 4 188 135 235 209 
+$r20 1 322 
+$r24 1 -2 
+r12 1 -5 
+Fields: 1
+-1 project 20
+Accesses: 1
+19 1 -1 
+Functions: 30
+-1 0 
+320 1 280 
+1 1 -2 
+261 1 -2 
+9 2 -4 7 
+201 1 161 
+395 2 -2 -5 
+332 1 322 
+271 2 36 46 
+145 1 -2 
+20 1 20 
+84 2 36 28 
+406 6 209 403 -7 135 235 188 
+216 4 -1 209 36 20 
+157 1 36 
+349 2 -2 -5 
+30 1 -2 
+287 1 280 
+98 1 36 
+226 1 161 
+38 1 38 
+364 7 -2 322 -3 -4 357 -7 334 
+177 4 -1 161 20 36 
+305 1 280 
+242 4 -1 36 20 235 
+51 1 -2 
+375 5 209 -3 135 235 188 
+316 2 -4 7 
+381 2 -4 7 
+126 3 -1 20 102 
+Constructors: 2
+242 235
+216 209
+
+Summary: 24
+-3 7 235 209 357 1 28 188 102 3 -5 36 161 403 46 322 135 5 -4 334 2 -1 38 280 
+org/eclipse/jdt/internal/core/JavaProject.findPackageFragmentRoots(Lorg/eclipse/jdt/core/IClasspathEntry;)[Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+10
+$r5 1 34 
+$r4 1 27 
+$r8 1 -1 
+r2 1 -2 
+$r6 1 39 
+r1 1 4 
+$r3 1 16 
+$r7 1 57 
+_ret 1 57 
+r0 1 -1 
+Fields: 1
+4 ArrayObject 16
+Accesses: 0
+Functions: 4
+0 1 -1 
+16 2 16 -2 
+24 2 -1 34 
+25 2 -1 27 
+Constructors: 0
+
+Summary: 4
+34 4 27 -1 
+org/eclipse/jdt/internal/core/JavaProject.decodeClasspath(Ljava/lang/String;Ljava/util/Map;)[Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+18
+$r0 1 0 
+$r12 1 155 
+r10 1 -1 
+r29 1 240 
+$r5 1 21 
+$r2 1 11 
+$r6 1 31 
+r28 1 155 
+r3 1 -2 
+$r9 1 94 
+r13 1 178 
+r11 1 -3 
+r27 1 129 
+r24 1 178 
+$r7 1 40 
+_ret 1 240 
+r8 1 48 
+r25 1 27 
+Fields: 0
+Accesses: 0
+Functions: 23
+-1 0 
+131 1 129 
+4 1 0 
+37 2 11 31 
+40 1 40 
+73 0 
+174 3 -1 -3 155 
+207 2 0 178 
+16 2 -2 11 
+81 1 11 
+146 1 129 
+115 0 
+21 1 21 
+119 1 48 
+248 2 0 240 
+89 1 11 
+185 1 178 
+92 1 48 
+29 2 27 31 
+61 0 
+157 1 155 
+221 1 0 
+94 1 94 
+Constructors: 3
+16 11
+4 0
+37 31
+
+Summary: 13
+-3 48 0 1 178 27 94 -2 155 0 21 -1 31 
+org/eclipse/jdt/internal/core/JavaProject.getElementType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.findType(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+7
+$r5 1 7 
+$r4 1 3 
+r0 1 -1 
+r2 1 -3 
+r3 1 -4 
+_ret 1 7 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 5 -1 -2 -3 3 -4 
+Constructors: 0
+
+Summary: 4
+-3 -2 -1 -4 
+org/eclipse/jdt/internal/core/JavaProject.resource(Lorg/eclipse/jdt/internal/core/PackageFragmentRoot;)Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+4
+r2 1 -2 
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaProject.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+5
+r2 1 -2 
+$r4 1 26 
+$r3 1 22 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 project 22
+Accesses: 1
+21 1 -1 
+Functions: 2
+22 2 22 26 
+25 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 0 26 -1 
+org/eclipse/jdt/internal/core/JavaProject.addCPResolutionBPListener(Lorg/eclipse/jdt/internal/core/JavaProject$ClasspathResolutionBreakpointListener;)V
+PTG:
+Vars:
+4
+$r0 1 0 
+$r3 1 6 
+r1 1 -2 
+$r2 1 16 
+Fields: 0
+Accesses: 0
+Functions: 2
+20 2 16 -2 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/eclipse/jdt/internal/core/JavaProject.setProject(Lorg/eclipse/core/resources/IProject;)V
+PTG:
+Vars:
+4
+$r3 1 9 
+r1 1 -2 
+$r2 1 6 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+12 1 -1 
+Functions: 2
+-1 0 
+6 1 6 
+Constructors: 0
+
+Summary: 3
+6 0 -1 
+org/eclipse/jdt/internal/core/JavaProject.removeFromBuildSpec(Ljava/lang/String;)V
+PTG:
+Vars:
+7
+r2 1 9 
+$r4 1 26 
+$r5 1 27 
+$r1 1 1 
+r6 1 -2 
+r0 1 -1 
+r3 1 16 
+Fields: 2
+16 ArrayObject 26
+-1 project 1
+Accesses: 2
+0 1 -1 
+85 1 -1 
+Functions: 8
+80 1 9 
+1 1 1 
+55 2 16 26 
+10 1 9 
+26 1 26 
+74 2 16 26 
+27 2 -2 27 
+91 1 9 
+Constructors: 0
+
+Summary: 6
+16 -2 9 -1 27 43 
+org/eclipse/jdt/internal/core/JavaProject.getOutputLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+r4 1 9 
+r5 1 9 
+r0 1 -1 
+r1 1 4 
+_ret 1 9 
+Fields: 1
+4 outputLocation 9
+Accesses: 2
+5 1 4 
+21 1 4 
+Functions: 3
+0 1 -1 
+17 1 -1 
+30 1 -1 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/eclipse/jdt/internal/core/JavaProject.getPackageFragmentsInRoots([Lorg/eclipse/jdt/core/IPackageFragmentRoot;)[Lorg/eclipse/jdt/core/IPackageFragment;
+PTG:
+Vars:
+9
+r4 1 25 
+$r7 1 -1 
+r3 1 16 
+r2 1 -2 
+$r0 1 0 
+$r5 1 38 
+r9 1 71 
+r8 1 -1 
+_ret 1 71 
+Fields: 2
+-2 ArrayObject 16
+25 ArrayObject 38
+Accesses: 0
+Functions: 5
+18 1 16 
+67 1 0 
+4 1 0 
+39 2 0 38 
+77 2 0 71 
+Constructors: 1
+4 0
+
+Summary: 4
+-2 25 -1 0 
+org/eclipse/jdt/internal/core/JavaProject.isOnClasspath(Lorg/eclipse/jdt/core/IJavaElement;)Z
+PTG:
+Vars:
+15
+$r4 1 262 
+r0 1 -1 
+r17 1 393 
+r1 1 4 
+$r12 1 110 
+r15 1 147 
+r16 1 228 
+r5 1 271 
+r7 1 321 
+r3 1 131 
+$r13 1 -1 
+r2 1 -2 
+$r10 1 76 
+r6 1 295 
+$r11 1 76 
+Fields: 3
+4 ArrayObject 228
+4 ArrayObject 147
+295 ArrayObject 321
+Accesses: 0
+Functions: 18
+0 1 -1 
+288 1 271 
+-1 0 
+353 3 -1 321 295 
+260 1 228 
+388 1 228 
+230 1 228 
+358 3 -1 321 131 
+11 1 -2 
+75 1 -2 
+267 2 -1 262 
+108 1 -2 
+81 1 76 
+403 3 -1 131 393 
+149 1 147 
+184 3 -1 131 147 
+344 1 228 
+125 1 -2 
+Constructors: 0
+
+Summary: 12
+-2 340 4 393 346 131 76 110 295 -1 271 262 
+org/eclipse/jdt/internal/core/JavaProject.setOption(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+7
+r5 1 -3 
+$r2 1 3 
+$r6 1 -1 
+$r0 1 0 
+r4 1 18 
+r1 1 -2 
+r3 1 -1 
+Fields: 1
+0 optionNames 3
+Accesses: 1
+0 1 0 
+Functions: 6
+-1 0 
+3 2 -2 3 
+36 3 -2 18 -3 
+25 2 -2 18 
+42 1 18 
+14 1 -1 
+Constructors: 0
+
+Summary: 6
+-3 3 -2 -1 18 0 
+org/eclipse/jdt/internal/core/JavaProject.findType(Ljava/lang/String;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r2 1 2 
+$r3 1 5 
+r0 1 -1 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/JavaProject.findType(Ljava/lang/String;Lorg/eclipse/jdt/core/WorkingCopyOwner;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+6
+r1 1 -3 
+$r4 1 11 
+_ret 1 11 
+r0 1 -1 
+r3 1 -2 
+r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -3 
+6 3 -1 -2 5 
+Constructors: 0
+
+Summary: 4
+-3 -2 5 -1 
+org/eclipse/jdt/internal/core/JavaProject.breakpoint(ILorg/eclipse/jdt/internal/core/JavaProject;)V
+PTG:
+Vars:
+3
+r0 1 3 
+r2 1 -3 
+$r1 1 20 
+Fields: 1
+3 ArrayObject 20
+Accesses: 0
+Functions: 2
+0 0 
+22 1 20 
+Constructors: 0
+
+Summary: 3
+-3 3 1 
+org/eclipse/jdt/internal/core/JavaProject.getAllPackageFragmentRoots()[Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+3
+$r1 1 2 
+r0 1 -1 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.hasCycleMarker()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/core/JavaProject.getAccessRestrictions(Ljava/lang/String;)[Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+10
+$r3 1 28 
+$r5 1 60 
+r2 1 6 
+$r6 1 64 
+r1 1 -2 
+r4 1 34 
+_ret 1 47 
+r8 1 47 
+$r7 1 72 
+r0 1 -1 
+Fields: 1
+34 ArrayObject 72
+Accesses: 0
+Functions: 6
+0 2 -1 -2 
+73 2 64 72 
+11 1 6 
+27 1 6 
+28 1 28 
+76 2 64 60 
+Constructors: 2
+73 64
+76 60
+
+Summary: 6
+64 -2 6 34 -1 28 
+org/eclipse/jdt/internal/core/JavaProject.buildStructure(Lorg/eclipse/jdt/internal/core/OpenableElementInfo;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/util/Map;Lorg/eclipse/core/resources/IResource;)Z
+PTG:
+Vars:
+7
+r4 1 -3 
+r5 1 -4 
+r0 1 -1 
+$r3 1 12 
+r2 1 -2 
+r6 1 -5 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+7 2 -1 4 
+15 2 -2 12 
+Constructors: 0
+
+Summary: 11
+3 -3 -2 12 4 2 -5 0 -1 -4 1 
+org/eclipse/jdt/internal/core/JavaProject.getPackageFragments()[Lorg/eclipse/jdt/core/IPackageFragment;
+PTG:
+Vars:
+4
+r1 1 4 
+$r2 1 7 
+_ret 1 7 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+5 2 -1 4 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/eclipse/jdt/internal/core/JavaProject.findPackageFragment(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IPackageFragment;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 5 
+$r2 1 2 
+r1 1 -2 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 2 
+1 1 -2 
+Constructors: 0
+
+Summary: 3
+2 -2 -1 
+org/eclipse/jdt/internal/core/JavaProject.close()V
+PTG:
+Vars:
+14
+$r11 1 69 
+$r6 1 27 
+$r1 1 1 
+r8 1 37 
+$r10 1 69 
+r0 1 -1 
+$r13 1 47 
+$r7 1 37 
+$r3 1 1 
+$r9 1 47 
+$r12 1 27 
+r4 1 21 
+$r5 1 27 
+$r2 1 10 
+Fields: 4
+21 preferences 27
+-1 preferencesChangeListener 69
+-1 project 1
+-1 preferencesNodeListener 47
+Accesses: 11
+0 1 -1 
+33 1 21 
+65 1 -1 
+68 1 -1 
+54 1 -1 
+26 1 21 
+90 1 -1 
+75 1 21 
+13 1 -1 
+46 1 -1 
+79 1 -1 
+Functions: 7
+-1 0 
+1 1 1 
+34 1 27 
+83 2 69 27 
+10 2 1 10 
+58 2 37 47 
+94 4 -1 1 69 47 
+Constructors: 0
+
+Summary: 5
+37 21 -1 10 27 
+org/eclipse/jdt/internal/core/JavaProject.setOutputLocation(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+$r2 1 17 
+r1 1 -1 
+r4 1 -3 
+$r3 1 31 
+Fields: 0
+Accesses: 0
+Functions: 5
+16 1 -1 
+36 4 -1 -2 -3 31 
+11 0 
+30 1 -1 
+15 2 -2 17 
+Constructors: 0
+
+Summary: 5
+-3 -2 17 31 -1 
+org/eclipse/jdt/internal/core/JavaProject.newTemporaryInfo()Lorg/eclipse/jdt/internal/core/JavaModelManager$PerProjectInfo;
+PTG:
+Vars:
+5
+$r2 1 6 
+$r3 1 9 
+$r0 1 0 
+r1 1 -1 
+_ret 1 0 
+Fields: 1
+-1 project 6
+Accesses: 1
+5 1 -1 
+Functions: 2
+6 1 6 
+14 4 0 -1 6 9 
+Constructors: 1
+14 0
+
+Summary: 2
+9 -1 
+org/eclipse/jdt/internal/core/JavaProject.findType(Ljava/lang/String;Lorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+7
+r4 1 -4 
+r1 1 -3 
+$r5 1 13 
+r3 1 -2 
+_ret 1 13 
+r0 1 -1 
+r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -3 
+7 4 -1 -2 -4 5 
+Constructors: 0
+
+Summary: 5
+-3 -2 5 -1 -4 
+org/eclipse/jdt/internal/core/JavaProject.getJavaProjectElementInfo()Lorg/eclipse/jdt/internal/core/JavaProjectElementInfo;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/JavaProject.newEvaluationContext()Lorg/eclipse/jdt/core/eval/IEvaluationContext;
+PTG:
+Vars:
+6
+$r6 1 17 
+r2 1 -1 
+$r7 1 17 
+$r3 1 11 
+_ret 1 17 
+$r5 1 0 
+Fields: 0
+Accesses: 0
+Functions: 4
+4 1 0 
+23 3 0 -1 17 
+10 1 -1 
+14 2 0 11 
+Constructors: 2
+4 0
+23 17
+
+Summary: 3
+11 -1 0 
+org/eclipse/jdt/internal/core/JavaProject.resolveClasspath([Lorg/eclipse/jdt/core/IClasspathEntry;ZZ)Lorg/eclipse/jdt/internal/core/JavaProject$ResolvedClasspath;
+PTG:
+Vars:
+40
+$r23 1 133 
+r37 1 180 
+$r15 1 388 
+$r16 1 327 
+$r26 1 513 
+$r24 1 143 
+r44 1 527 
+$r38 2 265 251 
+$r17 1 333 
+$r10 1 359 
+$r22 1 200 
+r1 1 8 
+$r8 1 259 
+$r31 1 -1 
+r42 2 427 411 
+r7 1 42 
+r43 1 513 
+r12 1 438 
+$r33 1 114 
+r40 1 308 
+$r27 1 547 
+$r21 1 96 
+$r25 1 42 
+$r29 1 625 
+r6 1 -2 
+r0 1 3 
+$r4 1 19 
+r41 1 359 
+$r11 1 42 
+$r18 1 277 
+$r32 1 105 
+$r13 1 458 
+r9 1 -1 
+$r2 1 10 
+r35 1 96 
+$r28 1 615 
+$r20 1 245 
+$r19 1 287 
+$r14 1 382 
+_ret 1 10 
+Fields: 6
+180 ArrayObject 200
+-2 ArrayObject 42
+438 ArrayObject 458
+527 ArrayObject 547
+308 ArrayObject 359
+10 resolvedClasspath 625
+Accesses: 5
+151 1 10 
+295 1 10 
+120 1 10 
+618 1 10 
+623 1 10 
+Functions: 39
+0 0 
+-1 0 
+257 1 42 
+386 1 42 
+578 7 -1 513 625 19 8 42 10 
+5 0 
+264 2 -1 259 
+521 1 513 
+331 1 42 
+395 5 -1 388 308 359 382 
+141 1 42 
+14 2 625 10 
+207 7 -1 625 19 200 8 42 10 
+401 2 359 42 
+465 7 -1 625 19 8 42 458 10 
+338 3 -1 327 333 
+595 6 -1 625 19 8 42 10 
+148 3 -1 133 143 
+23 1 19 
+88 2 3 42 
+285 1 42 
+413 2 427 411 
+161 1 96 
+610 1 19 
+292 3 -1 277 287 
+422 2 427 411 
+231 7 -1 96 625 19 8 42 10 
+489 8 -1 625 19 8 42 10 427 411 
+554 7 -1 625 547 19 8 42 10 
+301 2 265 251 
+174 1 96 
+48 1 42 
+112 1 -1 
+241 3 -1 3 245 
+433 2 427 411 
+243 1 42 
+628 2 625 19 
+117 2 114 105 
+507 1 42 
+Constructors: 5
+148 133
+292 277
+117 105
+23 19
+14 10
+
+Summary: 24
+382 19 527 8 308 287 180 438 251 143 327 114 -2 265 333 259 0 245 3 388 427 96 513 -1 
+org/eclipse/jdt/internal/core/JavaProject.projectPrerequisites([Lorg/eclipse/jdt/core/IClasspathEntry;)[Ljava/lang/String;
+PTG:
+Vars:
+8
+r2 1 -2 
+$r0 1 0 
+$r4 1 36 
+r3 1 20 
+$r5 1 41 
+r9 1 73 
+r8 1 -1 
+_ret 1 73 
+Fields: 1
+-2 ArrayObject 20
+Accesses: 0
+Functions: 7
+81 2 0 73 
+34 1 20 
+4 1 0 
+36 1 36 
+22 1 20 
+59 1 0 
+46 2 0 41 
+Constructors: 1
+4 0
+
+Summary: 6
+41 -2 0 -1 36 0 
+org/eclipse/jdt/internal/core/JavaProject.getPackageFragmentRoots(Lorg/eclipse/jdt/core/IClasspathEntry;)[Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r2 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/JavaProject.hasUTF8BOM([B)Z
+PTG:
+Vars:
+3
+r4 1 -1 
+$r1 1 2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/JavaProject.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 1
+2 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.resetCaches()V
+PTG:
+Vars:
+4
+$r2 1 4 
+r1 1 -1 
+r3 1 4 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+0 2 0 -1 
+16 1 4 
+Constructors: 0
+
+Summary: 3
+4 -1 0 
+org/eclipse/jdt/internal/core/JavaProject.getResolvedClasspath()[Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+5
+r1 1 4 
+r2 1 34 
+r3 3 46 25 9 
+_ret 3 46 25 9 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -1 
+18 2 -1 4 
+5 1 4 
+21 1 4 
+39 2 -1 34 
+42 1 34 
+30 1 -1 
+Constructors: 0
+
+Summary: 3
+34 4 -1 
+org/eclipse/jdt/internal/core/JavaProject.getPerProjectInfo()Lorg/eclipse/jdt/internal/core/JavaModelManager$PerProjectInfo;
+PTG:
+Vars:
+5
+$r2 1 4 
+$r3 1 7 
+r1 1 -1 
+_ret 1 7 
+$r0 1 0 
+Fields: 1
+-1 project 4
+Accesses: 1
+3 1 -1 
+Functions: 2
+-1 0 
+0 2 0 4 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/core/JavaProject.createElementInfo()Ljava/lang/Object;
+PTG:
+Vars:
+3
+r1 1 -1 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.findElement(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+_ret 1 5 
+$r2 1 2 
+$r3 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/JavaProject.findType(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+8
+r2 1 5 
+$r6 1 15 
+r1 1 -4 
+r0 1 -1 
+r4 1 -3 
+_ret 1 15 
+r3 1 -2 
+r5 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -4 
+7 5 -1 -2 -3 -5 5 
+Constructors: 0
+
+Summary: 6
+-3 -2 5 -5 -1 -4 
+org/eclipse/jdt/internal/core/JavaProject.getResolvedClasspath(Z)[Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+7
+r10 3 90 130 38 
+r13 1 115 
+r2 1 28 
+r1 1 -1 
+r11 2 43 136 
+$r0 1 0 
+_ret 3 90 130 38 
+Fields: 2
+115 unresolvedEntryStatus 136
+28 unresolvedEntryStatus 43
+Accesses: 3
+131 1 115 
+39 1 28 
+91 1 28 
+Functions: 13
+-1 0 
+0 2 0 -1 
+64 2 136 43 
+34 2 43 28 
+163 2 136 43 
+78 3 -1 43 28 
+111 1 -1 
+17 1 -1 
+147 2 136 43 
+86 2 43 28 
+24 1 -1 
+122 3 -1 115 136 
+125 2 115 136 
+Constructors: 0
+
+Summary: 4
+115 136 -1 0 
+org/eclipse/jdt/internal/core/JavaProject.setRawClasspath([Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 3 
+r3 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 1 -1 
+8 4 -1 -2 -3 3 
+Constructors: 0
+
+Summary: 4
+-3 3 -2 -1 
+org/eclipse/jdt/internal/core/JavaProject.getPluginWorkingLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 7 
+_ret 1 7 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.encodeClasspath([Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/core/runtime/IPath;ZLjava/util/Map;)Ljava/lang/String;
+PTG:
+Vars:
+19
+$r18 1 -1 
+r6 1 -2 
+$r9 1 54 
+$r16 1 134 
+$r0 1 0 
+r11 1 -5 
+$r3 1 23 
+$r12 1 179 
+r4 1 -1 
+$r14 1 121 
+r22 1 97 
+$r19 1 185 
+r20 1 -3 
+$r7 1 54 
+$r8 1 61 
+r23 1 104 
+$r10 1 64 
+$r1 1 9 
+$r13 1 105 
+Fields: 2
+-2 ArrayObject 54
+-1 project 61
+Accesses: 1
+60 1 -1 
+Functions: 19
+161 1 23 
+98 1 97 
+194 2 -1 185 
+4 1 0 
+133 1 104 
+166 1 9 
+73 4 64 -5 54 23 
+137 2 134 105 
+42 1 23 
+171 1 9 
+109 1 105 
+174 1 0 
+18 2 0 9 
+119 0 
+151 2 23 105 
+90 1 -3 
+124 2 105 121 
+61 1 61 
+31 4 -1 23 9 61 
+Constructors: 5
+18 9
+194 185
+4 0
+109 105
+31 23
+
+Summary: 14
+-2 104 0 64 0 1 23 3 -5 121 134 105 -1 9 
+org/eclipse/jdt/internal/core/JavaProject.getPackageFragmentRoot0(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+6
+r1 1 -2 
+r4 1 -1 
+$r0 1 0 
+$r3 1 23 
+r2 1 7 
+_ret 1 23 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+0 2 0 -2 
+19 3 -1 -2 7 
+29 3 -1 -2 23 
+Constructors: 1
+29 23
+
+Summary: 5
+-2 7 0 -1 0 
+org/eclipse/jdt/internal/core/JavaProject.setRawClasspath([Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+4
+r3 1 -4 
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 4
+-3 -2 -1 -4 
+org/eclipse/jdt/internal/core/JavaProject.getNonJavaResources()[Ljava/lang/Object;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 1 
+$r3 1 8 
+$r2 1 1 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+4 2 -1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/core/JavaProject.configure()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaProject.findElement(Ljava/lang/String;Lorg/eclipse/jdt/core/WorkingCopyOwner;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+7
+r1 1 -2 
+r3 1 -3 
+r2 1 -1 
+$r5 1 16 
+$r6 1 28 
+$r0 1 0 
+_ret 1 28 
+Fields: 2
+0 element 28
+0 exception 16
+Accesses: 3
+22 1 0 
+27 1 0 
+15 1 0 
+Functions: 2
+7 6 0 16 -1 -2 -3 28 
+12 3 0 16 28 
+Constructors: 1
+7 0
+
+Summary: 4
+-3 -2 -1 0 

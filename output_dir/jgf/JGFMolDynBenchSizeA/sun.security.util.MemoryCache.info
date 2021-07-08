@@ -1,0 +1,371 @@
+14
+sun/security/util/MemoryCache.clear()V
+PTG:
+Vars:
+10
+$r1 1 1 
+$r2 1 8 
+r0 1 -1 
+r9 1 32 
+$r7 1 54 
+$r8 1 32 
+$r4 1 11 
+r5 1 21 
+$r3 1 8 
+$r6 1 1 
+Fields: 2
+-1 queue 1
+-1 cacheMap 8
+Accesses: 4
+0 1 -1 
+50 1 -1 
+7 1 -1 
+63 1 -1 
+Functions: 7
+51 1 1 
+67 1 8 
+22 1 21 
+8 1 8 
+42 1 32 
+11 1 11 
+31 1 21 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/util/MemoryCache.<init>(ZI)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 -1 
+Constructors: 1
+4 -1
+
+Summary: 1
+-1 
+sun/security/util/MemoryCache.<init>(ZII)V
+PTG:
+Vars:
+3
+$r1 1 43 
+r0 1 -1 
+$r2 1 24 
+Fields: 0
+Accesses: 5
+16 1 -1 
+6 1 -1 
+54 1 -1 
+39 1 -1 
+31 1 -1 
+Functions: 3
+1 1 -1 
+51 1 43 
+28 1 24 
+Constructors: 3
+1 -1
+51 43
+28 24
+
+Summary: 1
+-1 
+sun/security/util/MemoryCache.put(Ljava/lang/Object;Ljava/lang/Object;)V
+PTG:
+Vars:
+15
+r1 1 -2 
+$r13 1 130 
+r2 1 -3 
+$r3 1 31 
+$r9 1 40 
+$r6 1 46 
+r14 1 130 
+r12 1 126 
+$r5 1 40 
+$r10 1 40 
+r7 1 46 
+$r8 1 40 
+r0 1 -1 
+r4 1 37 
+$r11 1 116 
+Fields: 2
+-1 queue 31
+-1 cacheMap 40
+Accesses: 10
+96 1 -1 
+112 1 -1 
+4 1 -1 
+20 1 -1 
+69 1 -1 
+85 1 -1 
+39 1 -1 
+105 1 -1 
+76 1 -1 
+30 1 -1 
+Functions: 13
+-1 0 
+128 1 126 
+1 3 -1 40 31 
+97 1 40 
+40 3 -2 37 40 
+77 1 40 
+142 1 126 
+113 1 40 
+116 1 116 
+149 1 130 
+26 5 -1 -2 -3 40 31 
+93 3 -1 40 31 
+63 1 46 
+Constructors: 0
+
+Summary: 5
+-3 -1 1 -2 0 
+sun/security/util/MemoryCache.accept(Lsun/security/util/Cache$CacheVisitor;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+r1 1 8 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -1 
+4 1 -1 
+11 2 -2 8 
+Constructors: 0
+
+Summary: 3
+8 -1 -2 
+sun/security/util/MemoryCache.remove(Ljava/lang/Object;)V
+PTG:
+Vars:
+5
+$r3 1 9 
+r1 1 -2 
+r4 1 9 
+r0 1 -1 
+$r2 1 5 
+Fields: 1
+-1 cacheMap 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+1 2 -1 5 
+5 2 -2 5 
+23 1 9 
+Constructors: 0
+
+Summary: 3
+9 -1 -2 
+sun/security/util/MemoryCache.expungeExpiredEntries()V
+PTG:
+Vars:
+6
+$r4 1 48 
+$r1 1 21 
+$r2 1 24 
+r0 1 -1 
+r3 1 34 
+r5 1 48 
+Fields: 1
+-1 cacheMap 21
+Accesses: 2
+4 1 -1 
+20 1 -1 
+Functions: 8
+16 0 
+1 2 -1 21 
+36 1 34 
+21 1 21 
+71 1 34 
+24 1 24 
+58 1 48 
+46 1 34 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/util/MemoryCache.getCachedEntries()Ljava/util/Map;
+PTG:
+Vars:
+11
+$r0 1 0 
+$r5 1 21 
+_ret 1 0 
+$r9 1 53 
+$r10 1 59 
+r6 1 31 
+r1 1 -1 
+$r4 1 5 
+$r2 1 5 
+$r7 1 42 
+r8 1 42 
+Fields: 1
+-1 cacheMap 5
+Accesses: 2
+17 1 -1 
+4 1 -1 
+Functions: 9
+32 1 31 
+64 3 0 53 59 
+18 1 5 
+52 1 42 
+5 1 5 
+21 1 21 
+41 1 31 
+58 1 42 
+13 1 0 
+Constructors: 1
+13 0
+
+Summary: 5
+21 -1 59 42 53 
+sun/security/util/MemoryCache.setCapacity(I)V
+PTG:
+Vars:
+8
+$r3 1 9 
+r5 1 35 
+r0 1 -1 
+$r4 1 25 
+r8 1 53 
+$r6 1 9 
+$r2 1 9 
+$r7 1 53 
+Fields: 1
+-1 cacheMap 9
+Accesses: 4
+36 1 -1 
+21 1 -1 
+8 1 -1 
+92 1 -1 
+Functions: 8
+64 1 35 
+1 2 -1 9 
+52 1 35 
+37 1 9 
+22 1 9 
+71 1 53 
+9 1 9 
+25 1 25 
+Constructors: 0
+
+Summary: 3
+25 -1 53 
+sun/security/util/MemoryCache.get(Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+7
+r1 1 -2 
+_ret 1 65 
+$r3 1 9 
+r4 1 9 
+r0 1 -1 
+$r2 1 5 
+$r5 1 65 
+Fields: 1
+-1 cacheMap 5
+Accesses: 3
+51 1 -1 
+4 1 -1 
+24 1 -1 
+Functions: 6
+-1 0 
+64 1 9 
+1 2 -1 5 
+5 2 -2 5 
+56 1 -2 
+41 1 9 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+sun/security/util/MemoryCache.setTimeout(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+19 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/util/MemoryCache.emptyQueue()V
+PTG:
+Vars:
+11
+r4 1 42 
+$r11 1 22 
+r7 1 55 
+$r1 1 1 
+r3 1 22 
+$r8 1 9 
+$r10 1 1 
+$r6 1 55 
+r0 1 -1 
+$r5 1 9 
+$r2 1 9 
+Fields: 2
+-1 queue 1
+-1 cacheMap 9
+Accesses: 5
+0 1 -1 
+18 1 -1 
+50 1 -1 
+8 1 -1 
+76 1 -1 
+Functions: 5
+17 1 9 
+19 1 1 
+51 2 9 42 
+83 3 55 9 42 
+36 1 22 
+Constructors: 0
+
+Summary: 2
+-1 42 
+sun/security/util/MemoryCache.newEntry(Ljava/lang/Object;Ljava/lang/Object;JLjava/lang/ref/ReferenceQueue;)Lsun/security/util/MemoryCache$CacheEntry;
+PTG:
+Vars:
+6
+_ret 1 18 
+r5 1 -1 
+r2 1 -2 
+r3 1 -3 
+$r1 1 18 
+r0 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 2
+25 3 -2 18 -3 
+14 3 -2 -3 -5 
+Constructors: 1
+25 18
+
+Summary: 7
+-5 -3 -1 1 3 -2 0 
+sun/security/util/MemoryCache.size()I
+PTG:
+Vars:
+2
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 cacheMap 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 

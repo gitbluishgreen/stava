@@ -1,0 +1,534 @@
+12
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.checkBounds(Lorg/eclipse/jdt/internal/compiler/lookup/Scope;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r5 1 21 
+r4 1 -2 
+$r1 1 1 
+$r3 1 13 
+$r2 1 1 
+$r6 1 13 
+Fields: 2
+-1 typeArguments 21
+-1 resolvedType 1
+Accesses: 3
+0 1 -1 
+20 1 -1 
+9 1 -1 
+Functions: 2
+10 1 1 
+27 5 -1 1 -2 21 13 
+Constructors: 0
+
+Summary: 4
+-1 13 0 -2 
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.resolveType(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Z)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 3 
+_ret 1 3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)V
+PTG:
+Vars:
+11
+$r5 1 26 
+$r9 1 50 
+$r4 2 12 22 
+r0 1 -2 
+$r7 1 38 
+$r3 1 12 
+$r10 1 53 
+r2 1 -3 
+$r6 2 12 34 
+$r8 2 12 46 
+r1 1 -1 
+Fields: 8
+-1 typeArguments 12
+12 ArrayObject 50
+12 ArrayObject 26
+12 ArrayObject 38
+46 ArrayObject 50
+50 ArrayObject 53
+22 ArrayObject 26
+34 ArrayObject 38
+Accesses: 4
+33 1 -1 
+21 1 -1 
+11 1 -1 
+45 1 -1 
+Functions: 3
+0 8 -1 -2 50 -3 53 38 26 12 
+81 8 -1 -2 50 -3 53 38 26 12 
+56 3 -2 -3 53 
+Constructors: 0
+
+Summary: 5
+1 -3 -1 0 -2 
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+11
+$r9 1 50 
+$r8 2 12 46 
+r2 1 -3 
+$r3 1 12 
+$r10 1 53 
+r1 1 -1 
+r0 1 -2 
+$r4 2 12 22 
+$r6 2 12 34 
+$r5 1 26 
+$r7 1 38 
+Fields: 8
+-1 typeArguments 12
+12 ArrayObject 50
+12 ArrayObject 26
+12 ArrayObject 38
+46 ArrayObject 50
+50 ArrayObject 53
+22 ArrayObject 26
+34 ArrayObject 38
+Accesses: 4
+33 1 -1 
+21 1 -1 
+11 1 -1 
+45 1 -1 
+Functions: 3
+0 8 -1 -2 50 -3 53 38 26 12 
+81 8 -1 -2 50 -3 53 38 26 12 
+56 3 -2 -3 53 
+Constructors: 0
+
+Summary: 5
+1 -3 -1 0 -2 
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.<init>([[C[[Lorg/eclipse/jdt/internal/compiler/ast/TypeReference;I[J)V
+PTG:
+Vars:
+4
+r3 1 -3 
+r0 1 -1 
+r2 1 -5 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+10 1 -1 
+Functions: 1
+5 3 -1 -2 -5 
+Constructors: 1
+5 -1
+
+Summary: 6
+-1 -5 1 0 -2 3 
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.internalResolveType(Lorg/eclipse/jdt/internal/compiler/lookup/Scope;Z)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+63
+r72 1 133 
+$r84 2 660 676 
+$r36 1 555 
+$r51 1 18 
+$r1 1 1 
+$r53 1 1167 
+r89 1 909 
+r0 1 -1 
+r2 1 -2 
+r4 1 133 
+$r6 1 127 
+$r40 1 523 
+r83 1 644 
+$r79 1 571 
+r76 2 18 420 
+$r52 1 1184 
+$r23 1 930 
+_ret 1 18 
+$r34 1 -2 
+$r42 1 532 
+r81 1 598 
+$r11 1 1098 
+$r61 1 18 
+$r90 1 949 
+$r77 2 475 460 
+$r95 1 18 
+$r20 1 -2 
+$r10 1 992 
+$r3 1 127 
+$r71 1 133 
+r80 1 577 
+$r43 1 470 
+$r39 1 518 
+$r93 1 1069 
+$r35 1 -2 
+$r5 1 290 
+$r8 2 18 317 
+r73 5 1079 1106 18 961 420 
+$r24 1 937 
+$r22 1 925 
+$r12 1 1046 
+r85 1 749 
+r91 1 961 
+r78 1 546 
+$r33 1 -2 
+$r9 2 18 420 
+$r18 1 -2 
+$r37 1 560 
+$r62 1 18 
+r92 1 992 
+$r14 1 1059 
+$r15 1 -2 
+r17 1 625 
+$r13 1 1051 
+$r94 3 1106 18 420 
+$r32 1 -2 
+$r41 1 523 
+$r44 1 454 
+$r21 1 753 
+$r45 1 460 
+$r16 1 625 
+$r38 1 513 
+r82 1 615 
+Fields: 7
+-1 typeArguments 571
+-1 tokens 127
+-1 resolvedType 18
+133 compoundName 290
+571 ArrayObject 577
+577 ArrayObject 644
+-2 superTypeReference 598
+Accesses: 38
+4 1 -1 
+1156 1 -1 
+7 1 -1 
+592 1 -2 
+17 1 -1 
+338 1 -1 
+850 1 -1 
+726 1 -2 
+854 1 -1 
+24 1 -1 
+88 1 -1 
+1176 1 -1 
+154 1 -1 
+1180 1 -1 
+605 1 -2 
+861 1 -1 
+31 1 -1 
+288 1 133 
+864 1 -1 
+419 1 -1 
+1187 1 -1 
+100 1 -1 
+165 1 -1 
+1190 1 -1 
+296 1 -1 
+41 1 -1 
+108 1 -1 
+46 1 -1 
+111 1 -2 
+175 1 -1 
+1136 1 -1 
+820 1 -1 
+823 1 -1 
+570 1 -1 
+316 1 -1 
+1149 1 -1 
+126 1 -1 
+830 1 -1 
+Functions: 75
+512 2 -2 598 
+896 2 18 420 
+517 2 -2 598 
+773 2 -2 598 
+518 7 961 1106 18 420 518 1079 523 
+904 2 18 420 
+393 0 
+521 2 18 420 
+650 4 -2 625 644 598 
+140 2 290 133 
+1037 5 961 1106 18 420 1079 
+1166 2 -2 598 
+784 8 -1 577 18 644 420 615 571 127 
+1171 7 -1 577 18 644 571 1167 127 
+916 1 909 
+1045 2 -2 598 
+535 8 -1 513 577 18 644 532 571 127 
+1175 3 -2 18 598 
+666 4 -2 625 644 598 
+1050 2 -2 598 
+795 5 961 1106 18 420 1079 
+1051 7 992 961 1106 18 420 1079 1051 
+924 2 -2 598 
+541 2 18 420 
+159 8 -1 577 -2 18 644 598 571 127 
+32 0 
+929 2 -2 598 
+930 3 625 930 909 
+803 2 -2 598 
+804 6 625 961 1106 18 420 1079 
+1062 8 -1 577 18 1059 644 1046 571 127 
+553 1 546 
+1068 2 -2 598 
+1069 7 992 961 1106 18 420 1079 1069 
+558 5 961 1106 18 420 1079 
+942 9 -1 577 18 644 615 937 571 925 127 
+47 0 
+433 2 18 420 
+948 2 -2 598 
+949 8 625 961 1106 18 420 949 615 1079 
+312 10 -1 577 -2 18 290 644 133 598 571 127 
+317 2 18 317 
+445 2 18 420 
+1089 5 961 1106 18 420 1079 
+453 2 -2 598 
+454 6 961 1106 18 420 454 1079 
+328 8 -1 577 -2 18 644 598 571 127 
+840 2 -2 598 
+1097 2 -2 598 
+1098 7 992 961 1106 18 420 1079 1098 
+972 5 961 -2 577 644 598 
+845 6 -1 577 18 644 571 127 
+849 2 -2 598 
+980 8 -1 -2 577 18 644 598 571 127 
+469 2 -2 598 
+470 6 961 1106 18 420 470 1079 
+89 0 
+217 0 
+730 9 -1 -2 625 577 18 644 598 571 127 
+1116 12 -1 577 961 -2 18 1106 644 420 598 1079 571 127 
+990 2 18 420 
+231 0 
+488 2 18 420 
+744 1 625 
+1130 12 -1 577 961 -2 18 1106 644 420 598 1079 571 127 
+877 2 -2 598 
+1005 9 992 -1 -2 577 18 644 598 571 127 
+623 2 18 420 
+496 5 961 1106 18 420 1079 
+886 8 -1 577 18 644 420 615 571 127 
+759 2 -2 598 
+504 5 961 1106 18 420 1079 
+1019 1 992 
+380 0 
+125 3 -2 598 127 
+Constructors: 0
+
+Summary: 35
+615 992 937 460 878 1051 560 1069 523 925 555 909 532 1079 475 513 1098 625 804 518 774 1059 749 1046 0 760 949 930 841 1167 1106 438 454 470 812 
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.resolveType(Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+4
+_ret 1 3 
+$r2 1 3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.copyDims(I)Lorg/eclipse/jdt/internal/compiler/ast/TypeReference;
+PTG:
+Vars:
+6
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+$r2 1 14 
+$r4 1 5 
+$r3 1 9 
+Fields: 3
+-1 typeArguments 9
+-1 tokens 5
+-1 sourcePositions 14
+Accesses: 3
+4 1 -1 
+8 1 -1 
+13 1 -1 
+Functions: 1
+17 4 0 5 9 14 
+Constructors: 1
+17 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.checkBounds(Lorg/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/eclipse/jdt/internal/compiler/lookup/Scope;I)V
+PTG:
+Vars:
+10
+r2 1 41 
+r0 1 -2 
+r3 1 48 
+$r8 1 5 
+r4 1 -3 
+$r6 1 59 
+$r7 1 63 
+r5 1 -1 
+$r9 1 13 
+r1 1 -2 
+Fields: 2
+-1 typeArguments 59
+59 ArrayObject 63
+Accesses: 1
+58 1 -1 
+Functions: 7
+64 3 -2 -3 63 
+4 1 -2 
+20 5 -1 -3 59 13 63 
+36 1 -2 
+23 1 -2 
+43 1 41 
+12 1 -2 
+Constructors: 0
+
+Summary: 9
+-1 5 13 41 1 -3 48 0 -2 
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.getParameterizedTypeName()[[C
+PTG:
+Vars:
+19
+$r16 2 153 153 
+$r20 1 230 
+$r11 1 107 
+r23 1 178 
+$r1 1 1 
+r21 1 22 
+$r15 1 143 
+$r5 2 1 54 
+r0 1 -1 
+$r19 1 227 
+$r4 1 41 
+_ret 1 7 
+$r17 2 1 32 
+$r18 1 36 
+$r6 1 58 
+r2 1 7 
+$r9 1 101 
+$r3 1 17 
+$r10 1 102 
+Fields: 10
+-1 typeArguments 17
+-1 tokens 1
+1 ArrayObject 58
+1 ArrayObject 36
+17 ArrayObject 22
+7 ArrayObject 227
+7 ArrayObject 153
+54 ArrayObject 58
+32 ArrayObject 36
+22 ArrayObject 101
+Accesses: 5
+0 1 -1 
+16 1 -1 
+53 1 -1 
+166 1 -1 
+31 1 -1 
+Functions: 11
+128 1 41 
+67 1 41 
+132 1 41 
+228 2 178 227 
+101 1 101 
+105 1 102 
+59 2 41 58 
+91 1 41 
+155 2 41 153 
+46 1 41 
+110 2 41 107 
+Constructors: 1
+46 41
+
+Summary: 4
+107 102 -1 178 
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.printExpression(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+16
+$r26 1 204 
+$r4 1 19 
+r30 1 144 
+$r3 2 1 14 
+r0 1 -1 
+$r6 1 25 
+$r9 1 62 
+$r16 1 131 
+_ret 1 -3 
+$r1 1 1 
+$r18 2 25 137 
+$r23 1 175 
+r29 1 31 
+r2 1 -3 
+$r15 1 1 
+$r12 1 91 
+Fields: 13
+-1 typeArguments 137
+-1 typeArguments 25
+-1 tokens 1
+1 ArrayObject 131
+1 ArrayObject 19
+25 ArrayObject 144
+25 ArrayObject 31
+31 ArrayObject 91
+31 ArrayObject 62
+137 ArrayObject 144
+14 ArrayObject 19
+144 ArrayObject 175
+144 ArrayObject 204
+Accesses: 8
+0 1 -1 
+24 1 -1 
+136 1 -1 
+248 1 -1 
+218 1 -1 
+124 1 -1 
+13 1 -1 
+287 1 -1 
+Functions: 16
+65 2 -3 62 
+132 2 -3 131 
+101 1 -3 
+261 1 -3 
+41 1 -3 
+73 1 -3 
+108 1 -3 
+207 2 -3 204 
+239 1 -3 
+178 2 -3 175 
+20 2 -3 19 
+214 1 -3 
+278 1 -3 
+154 1 -3 
+186 1 -3 
+94 2 -3 91 
+Constructors: 0
+
+Summary: 2
+1 -1 
+org/eclipse/jdt/internal/compiler/ast/ParameterizedQualifiedTypeReference.getTypeBinding(Lorg/eclipse/jdt/internal/compiler/lookup/Scope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 0 -2 

@@ -1,0 +1,493 @@
+11
+org/apache/lucene/index/TermInfosWriter.compareToLastTerm(I[BI)I
+PTG:
+Vars:
+19
+$r4 1 68 
+$r12 1 68 
+$r7 1 68 
+$r5 1 58 
+r0 1 -1 
+$r2 1 49 
+$r14 1 58 
+$r9 1 68 
+$r10 1 58 
+$r6 1 68 
+r3 1 -3 
+$r11 1 126 
+$r13 1 138 
+$r1 1 58 
+$r15 1 9 
+$r18 1 24 
+$r8 1 58 
+$r16 1 16 
+$r17 1 9 
+Fields: 6
+-1 lastTermBytes 49
+-1 fieldInfos 9
+-1 utf16Result1 58
+-1 utf16Result2 68
+58 result 126
+68 result 138
+Accesses: 25
+0 1 -1 
+67 1 -1 
+134 1 -1 
+135 1 68 
+8 1 -1 
+74 1 -1 
+75 1 58 
+12 1 -1 
+81 1 -1 
+82 1 68 
+19 1 -1 
+91 1 -1 
+92 1 58 
+37 1 -1 
+165 1 -1 
+166 1 58 
+103 1 -1 
+104 1 68 
+172 1 -1 
+173 1 68 
+48 1 -1 
+53 1 -1 
+57 1 -1 
+122 1 -1 
+123 1 58 
+Functions: 5
+16 2 16 24 
+20 1 9 
+71 3 -3 68 138 
+9 1 9 
+61 3 49 58 126 
+Constructors: 0
+
+Summary: 3
+-1 1 -3 
+org/apache/lucene/index/TermInfosWriter.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r4 1 6 
+r0 1 -2 
+$r2 1 -1 
+$r1 1 1 
+$r5 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/lucene/index/TermInfosWriter.initialize(Lorg/apache/lucene/store/Directory;Ljava/lang/String;Lorg/apache/lucene/index/FieldInfos;IZ)V
+PTG:
+Vars:
+15
+$r8 1 50 
+$r13 1 57 
+$r7 1 47 
+r1 1 -4 
+$r11 1 57 
+r0 1 -1 
+$r17 2 37 42 
+$r6 1 44 
+$r10 1 57 
+$r12 1 57 
+r2 1 -2 
+$r5 1 27 
+$r3 1 19 
+r4 1 -3 
+$r9 1 57 
+Fields: 1
+-1 output 57
+Accesses: 13
+65 1 -1 
+3 1 -1 
+99 1 -1 
+8 1 -1 
+73 1 -1 
+77 1 -1 
+14 1 -1 
+84 1 -1 
+53 1 -1 
+56 1 -1 
+88 1 -1 
+30 1 -1 
+95 1 -1 
+Functions: 12
+112 2 -1 57 
+81 1 57 
+18 2 -2 47 
+19 2 -3 19 
+70 1 57 
+23 1 19 
+103 1 57 
+27 3 37 42 27 
+123 0 
+44 1 44 
+92 1 57 
+62 1 57 
+Constructors: 1
+23 19
+
+Summary: 6
+-1 1 0 2 -2 -3 
+org/apache/lucene/index/TermInfosWriter.<init>(Lorg/apache/lucene/store/Directory;Ljava/lang/String;Lorg/apache/lucene/index/FieldInfos;IZ)V
+PTG:
+Vars:
+7
+r4 1 -2 
+$r1 1 5 
+r0 1 -1 
+$r3 1 53 
+r6 1 -4 
+$r2 1 37 
+r5 1 -3 
+Fields: 0
+Accesses: 8
+49 1 -1 
+19 1 -1 
+39 1 -1 
+25 1 -1 
+12 1 -1 
+44 1 -1 
+60 1 -1 
+31 1 -1 
+Functions: 4
+1 1 -1 
+71 4 -1 -2 -3 -4 
+9 1 5 
+57 1 53 
+Constructors: 3
+1 -1
+9 5
+57 53
+
+Summary: 7
+-1 2 -2 -4 1 -3 0 
+org/apache/lucene/index/TermInfosWriter.close()V
+PTG:
+Vars:
+5
+$r2 1 1 
+r0 1 -1 
+$r3 1 1 
+$r4 1 36 
+$r1 1 1 
+Fields: 2
+-1 output 1
+-1 other 36
+Accesses: 6
+0 1 -1 
+35 1 -1 
+21 1 -1 
+10 1 -1 
+28 1 -1 
+14 1 -1 
+Functions: 4
+18 1 1 
+7 1 1 
+39 1 36 
+25 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/TermInfosWriter.add(Lorg/apache/lucene/index/Term;Lorg/apache/lucene/index/TermInfo;)V
+PTG:
+Vars:
+11
+$r8 1 13 
+r0 1 -2 
+$r1 1 1 
+$r4 1 13 
+$r2 1 1 
+$r5 1 25 
+$r7 1 13 
+$r10 1 35 
+$r6 1 21 
+r9 1 -3 
+r3 1 -1 
+Fields: 5
+-1 fieldInfos 21
+-1 utf8Result 13
+13 result 35
+-2 field 25
+-2 text 1
+Accesses: 9
+0 1 -2 
+32 1 13 
+20 1 -1 
+5 1 -2 
+38 1 -1 
+39 1 13 
+24 1 -2 
+12 1 -1 
+31 1 -1 
+Functions: 4
+16 3 1 35 13 
+21 2 21 25 
+6 1 1 
+46 5 -1 -3 35 21 13 
+Constructors: 0
+
+Summary: 7
+1 -1 25 -2 1 -3 0 
+org/apache/lucene/index/TermInfosWriter.add(I[BILorg/apache/lucene/index/TermInfo;)V
+PTG:
+Vars:
+20
+$r8 1 443 
+$r3 1 166 
+r0 1 -1 
+$r59 1 353 
+$r5 1 443 
+$r56 1 353 
+$r58 1 166 
+$r14 1 166 
+$r7 1 323 
+$r60 1 166 
+$r4 1 323 
+r1 1 -3 
+$r11 1 166 
+r2 1 -5 
+$r12 1 331 
+$r57 1 353 
+$r24 1 166 
+$r10 1 353 
+$r6 1 353 
+$r13 1 323 
+Fields: 5
+-1 lastTermBytes 331
+-1 lastTi 166
+-1 output 353
+-1 other 323
+323 output 443
+Accesses: 52
+384 1 -1 
+130 1 -1 
+388 1 -5 
+135 1 -1 
+265 1 -5 
+393 1 -1 
+394 1 166 
+16 1 -1 
+404 1 -5 
+278 1 -1 
+409 1 -1 
+27 1 -1 
+160 1 -5 
+416 1 -1 
+420 1 -5 
+165 1 -1 
+166 1 166 
+300 1 -1 
+428 1 -1 
+50 1 -1 
+307 1 -1 
+435 1 -1 
+311 1 -1 
+439 1 -1 
+440 1 323 
+192 1 -5 
+449 1 -1 
+322 1 -1 
+326 1 -1 
+330 1 -1 
+458 1 -1 
+75 1 -1 
+459 1 323 
+205 1 -1 
+334 1 -1 
+79 1 -1 
+338 1 -1 
+468 1 -1 
+473 1 -1 
+476 1 -1 
+94 1 -1 
+352 1 -1 
+356 1 -5 
+485 1 -1 
+233 1 -5 
+364 1 -1 
+492 1 -1 
+238 1 -1 
+239 1 166 
+368 1 -5 
+373 1 -1 
+374 1 166 
+Functions: 46
+257 0 
+67 0 
+197 0 
+6 7 -1 353 -3 323 166 331 443 
+262 0 
+454 1 353 
+72 0 
+202 0 
+76 0 
+141 0 
+270 0 
+462 1 443 
+144 0 
+401 1 353 
+275 0 
+212 0 
+86 0 
+150 0 
+342 4 323 166 443 331 
+217 0 
+91 0 
+285 0 
+349 7 -1 353 -3 323 166 331 443 
+223 0 
+98 0 
+290 0 
+482 2 -5 166 
+38 0 
+103 0 
+296 0 
+361 1 353 
+425 1 353 
+42 0 
+47 0 
+51 0 
+115 1 -3 
+180 0 
+118 0 
+184 0 
+58 0 
+123 0 
+443 1 443 
+189 0 
+253 0 
+381 1 353 
+63 0 
+Constructors: 0
+
+Summary: 7
+-5 3 -1 1 106 -3 126 
+org/apache/lucene/index/TermInfosWriter.<init>(Lorg/apache/lucene/store/Directory;Ljava/lang/String;Lorg/apache/lucene/index/FieldInfos;I)V
+PTG:
+Vars:
+9
+r5 1 -3 
+$r2 1 37 
+$r7 1 74 
+$r3 1 53 
+$r1 1 5 
+r6 1 -4 
+r4 1 -2 
+$r8 1 91 
+r0 1 -1 
+Fields: 1
+-1 other 91
+Accesses: 11
+49 1 -1 
+19 1 -1 
+39 1 -1 
+87 1 -1 
+25 1 -1 
+90 1 -1 
+12 1 -1 
+44 1 -1 
+60 1 -1 
+31 1 -1 
+95 1 91 
+Functions: 5
+1 2 -1 91 
+84 4 -2 -3 -4 74 
+70 5 -1 -2 -3 -4 91 
+9 1 5 
+57 1 53 
+Constructors: 4
+1 -1
+84 74
+9 5
+57 53
+
+Summary: 6
+2 -2 -4 1 -3 0 
+org/apache/lucene/index/TermInfosWriter.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 2 18 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/TermInfosWriter.writeTerm(I[BI)V
+PTG:
+Vars:
+11
+$r5 1 58 
+r8 1 111 
+$r2 1 58 
+$r10 1 33 
+r0 1 -1 
+$r1 1 58 
+r3 1 -3 
+$r6 1 33 
+$r7 1 33 
+$r9 1 33 
+$r4 1 58 
+Fields: 2
+-1 lastTermBytes 33
+-1 output 58
+Accesses: 12
+32 1 -1 
+66 1 -1 
+115 1 -1 
+131 1 -1 
+4 1 -1 
+150 1 -1 
+87 1 -1 
+57 1 -1 
+137 1 -1 
+75 1 -1 
+15 1 -1 
+95 1 -1 
+Functions: 6
+145 2 33 -3 
+84 2 -3 58 
+72 1 58 
+92 1 58 
+125 2 33 111 
+63 1 58 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/apache/lucene/index/TermInfosWriter.initUTF16Results()Z
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 12 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+19 1 -1 
+8 1 -1 
+Functions: 2
+16 1 12 
+5 1 1 
+Constructors: 2
+16 12
+5 1
+
+Summary: 1
+-1 

@@ -1,0 +1,274 @@
+8
+org/apache/fop/layoutmgr/inline/PageNumberLayoutManager.updateContent(Lorg/apache/fop/area/inline/TextArea;)V
+PTG:
+Vars:
+7
+$r2 1 6 
+$r3 1 9 
+r0 1 -2 
+r1 1 -1 
+$r6 1 34 
+$r5 1 37 
+$r4 1 19 
+Fields: 1
+-1 areaInfo 34
+Accesses: 2
+48 1 34 
+33 1 -1 
+Functions: 10
+1 1 -2 
+17 3 -1 34 19 
+18 1 -2 
+5 2 -1 34 
+6 1 6 
+25 1 -2 
+41 1 -2 
+13 2 -2 9 
+45 1 37 
+30 1 -2 
+Constructors: 1
+45 37
+
+Summary: 5
+-2 9 0 19 6 
+org/apache/fop/layoutmgr/inline/PageNumberLayoutManager.get(Lorg/apache/fop/layoutmgr/LayoutContext;)Lorg/apache/fop/area/inline/InlineArea;
+PTG:
+Vars:
+15
+$r9 1 78 
+_ret 1 0 
+$r12 1 78 
+r2 1 -1 
+$r0 1 0 
+$r10 1 74 
+r4 1 15 
+$r5 1 37 
+r14 1 -2 
+$r7 1 37 
+$r8 1 37 
+$r6 1 37 
+$r13 1 92 
+$r3 1 9 
+$r11 1 81 
+Fields: 2
+-1 font 37
+-1 fobj 78
+Accesses: 6
+66 1 -1 
+36 1 -1 
+55 1 -1 
+88 1 -1 
+43 1 -1 
+77 1 -1 
+Functions: 16
+32 1 0 
+4 1 0 
+37 1 37 
+70 2 0 37 
+8 3 -1 37 78 
+9 1 9 
+44 1 37 
+78 1 78 
+16 4 -1 37 78 15 
+51 1 0 
+84 3 0 81 74 
+56 1 37 
+89 1 78 
+26 2 0 15 
+62 1 0 
+95 2 0 92 
+Constructors: 1
+4 0
+
+Summary: 6
+-2 9 81 15 92 0 
+org/apache/fop/layoutmgr/inline/PageNumberLayoutManager.<init>(Lorg/apache/fop/fo/flow/PageNumber;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 2
+-1 0 
+org/apache/fop/layoutmgr/inline/PageNumberLayoutManager.initialize()V
+PTG:
+Vars:
+14
+$r1 1 1 
+$r11 1 44 
+$r5 1 15 
+$r4 1 1 
+$r12 1 1 
+$r7 1 1 
+$r8 1 27 
+$r10 1 35 
+r3 1 10 
+$r13 1 55 
+r0 1 -1 
+$r2 1 4 
+r6 1 22 
+$r9 1 32 
+Fields: 3
+22 ArrayObject 27
+-1 fobj 1
+32 fontSize 35
+Accesses: 6
+0 1 -1 
+32 1 32 
+51 1 -1 
+11 1 -1 
+28 1 -1 
+47 1 -1 
+Functions: 9
+1 1 1 
+35 3 -1 1 35 
+4 1 4 
+52 1 1 
+24 2 10 27 
+58 3 -1 1 55 
+12 1 1 
+29 1 1 
+15 2 10 15 
+Constructors: 0
+
+Summary: 9
+22 35 55 -1 15 27 32 10 4 
+org/apache/fop/layoutmgr/inline/PageNumberLayoutManager.getStringWidth(Ljava/lang/String;)I
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -1 
+$r2 1 14 
+Fields: 1
+-1 font 14
+Accesses: 1
+13 1 -1 
+Functions: 3
+17 1 -2 
+5 1 -2 
+14 1 14 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/layoutmgr/inline/PageNumberLayoutManager.makeAlignmentContext(Lorg/apache/fop/layoutmgr/LayoutContext;)Lorg/apache/fop/layoutmgr/inline/AlignmentContext;
+PTG:
+Vars:
+16
+r1 1 -1 
+$r2 1 9 
+$r3 1 5 
+$r4 1 12 
+_ret 1 0 
+$r12 1 9 
+$r10 1 9 
+$r9 1 9 
+$r11 1 46 
+r13 1 -2 
+$r0 1 0 
+$r6 1 19 
+$r8 1 32 
+$r14 1 57 
+$r5 1 16 
+$r7 1 9 
+Fields: 2
+-1 font 5
+-1 fobj 9
+Accesses: 6
+49 1 -1 
+35 1 -1 
+4 1 -1 
+8 1 -1 
+42 1 -1 
+28 1 -1 
+Functions: 10
+16 1 16 
+50 1 9 
+19 4 -1 19 5 9 
+36 1 9 
+56 1 -2 
+9 1 9 
+43 1 9 
+12 4 -1 5 9 12 
+60 5 0 32 5 57 46 
+29 1 9 
+Constructors: 1
+60 0
+
+Summary: 8
+46 -1 32 12 19 -2 57 0 
+org/apache/fop/layoutmgr/inline/PageNumberLayoutManager.getEffectiveArea()Lorg/apache/fop/area/inline/InlineArea;
+PTG:
+Vars:
+12
+$r11 1 78 
+$r1 1 1 
+$r9 1 67 
+$r3 1 8 
+$r6 1 21 
+$r8 1 60 
+_ret 1 8 
+$r10 1 74 
+$r7 1 18 
+$r5 1 18 
+r0 1 -1 
+r2 1 1 
+Fields: 2
+-1 fobj 18
+-1 curArea 1
+Accesses: 3
+0 1 -1 
+17 1 -1 
+63 1 -1 
+Functions: 17
+32 1 8 
+64 1 18 
+36 1 1 
+70 3 67 8 60 
+40 1 8 
+73 1 8 
+12 1 8 
+44 1 1 
+77 1 1 
+48 1 8 
+81 2 74 78 
+18 1 18 
+52 1 1 
+24 2 21 8 
+56 1 8 
+88 4 -1 1 18 8 
+28 1 1 
+Constructors: 1
+12 8
+
+Summary: 3
+21 67 78 
+org/apache/fop/layoutmgr/inline/PageNumberLayoutManager.addId()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 5 
+$r1 1 1 
+$r3 1 8 
+Fields: 1
+-1 fobj 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+0 2 -1 5 
+5 1 5 
+11 2 1 8 
+Constructors: 0
+
+Summary: 3
+-1 8 1 

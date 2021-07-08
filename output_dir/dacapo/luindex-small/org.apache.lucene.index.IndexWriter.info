@@ -1,0 +1,5811 @@
+163
+org/apache/lucene/index/IndexWriter.registerMerge(Lorg/apache/lucene/index/MergePolicy$OneMerge;)Z
+PTG:
+Vars:
+24
+$r13 1 184 
+$r9 1 167 
+$r3 1 141 
+$r6 2 232 86 
+$r5 1 56 
+$r15 1 194 
+r19 1 83 
+$r21 1 100 
+$r20 1 86 
+$r17 1 203 
+$r18 1 56 
+$r2 1 56 
+$r11 1 175 
+$r23 1 116 
+r1 1 -1 
+r0 1 -2 
+$r12 1 178 
+$r22 1 120 
+$r4 1 150 
+$r14 1 141 
+$r10 2 120 172 
+$r16 1 200 
+$r7 1 241 
+$r8 1 157 
+Fields: 9
+-2 segments 56
+83 dir 116
+-1 pendingMerges 141
+-1 mergingSegments 232
+-1 mergingSegments 86
+-1 directory 120
+-1 directory 172
+-1 infoStream 150
+-1 segmentInfos 100
+Accesses: 19
+0 1 -2 
+256 1 -2 
+99 1 -1 
+38 1 -1 
+231 1 -1 
+9 1 -1 
+74 1 -2 
+171 1 -1 
+235 1 -2 
+140 1 -1 
+114 1 83 
+210 1 -1 
+85 1 -1 
+149 1 -1 
+214 1 -2 
+55 1 -2 
+119 1 -1 
+187 1 -1 
+219 1 -2 
+Functions: 25
+194 1 194 
+136 10 -1 -2 100 86 150 232 120 56 172 141 
+200 1 200 
+75 1 56 
+206 9 -1 100 86 150 232 120 203 172 141 
+17 2 -2 56 
+145 3 -2 56 141 
+86 3 83 116 86 
+24 0 
+28 0 
+157 1 157 
+161 1 157 
+34 0 
+100 3 83 100 116 
+37 2 -2 56 
+167 2 167 175 
+170 4 -2 56 120 172 
+236 1 56 
+45 0 
+178 1 178 
+51 0 
+244 3 241 86 232 
+56 1 56 
+184 1 184 
+188 1 141 
+Constructors: 1
+161 157
+
+Summary: 9
+83 241 116 56 -2 42 -1 0 175 
+org/apache/lucene/index/IndexWriter.startSync(Ljava/lang/String;Ljava/util/Collection;)Z
+PTG:
+Vars:
+8
+r0 1 -1 
+r3 1 -2 
+r6 1 -3 
+$r4 1 1 
+$r5 1 19 
+$r1 1 1 
+$r8 1 -1 
+$r7 1 19 
+Fields: 2
+-1 synced 1
+-1 syncing 19
+Accesses: 4
+0 1 -1 
+18 1 -1 
+7 1 -1 
+29 1 -1 
+Functions: 4
+34 2 -2 19 
+19 2 -2 19 
+8 2 1 -2 
+44 2 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -3 -1 
+org/apache/lucene/index/IndexWriter.noDupDirs([Lorg/apache/lucene/store/Directory;)V
+PTG:
+Vars:
+7
+r4 1 -1 
+$r7 1 86 
+r2 1 -2 
+$r5 1 66 
+$r0 1 0 
+$r3 1 19 
+$r6 1 64 
+Fields: 4
+-2 ArrayObject 19
+-2 ArrayObject 64
+-2 ArrayObject 86
+-1 directory 66
+Accesses: 1
+65 1 -1 
+Functions: 10
+16 2 0 19 
+34 0 
+4 1 0 
+52 0 
+87 2 0 86 
+40 0 
+58 0 
+30 0 
+46 0 
+79 0 
+Constructors: 1
+4 0
+
+Summary: 13
+-2 55 64 19 -1 30 0 40 46 52 0 45 86 
+org/apache/lucene/index/IndexWriter.<init>(Ljava/io/File;Lorg/apache/lucene/analysis/Analyzer;Z)V
+PTG:
+Vars:
+15
+$r13 1 159 
+$r8 1 102 
+r0 1 -1 
+$r9 1 113 
+$r7 1 91 
+$r5 1 69 
+$r11 1 147 
+$r6 1 80 
+r14 1 -3 
+r12 1 -2 
+$r1 1 17 
+$r4 1 58 
+$r10 1 136 
+$r3 1 40 
+$r2 1 29 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 14
+-1 0 
+1 1 -1 
+33 1 29 
+73 1 69 
+106 1 102 
+170 3 -1 -3 159 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+158 1 -2 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 4
+-2 159 -1 -3 
+org/apache/lucene/index/IndexWriter.addDocument(Lorg/apache/lucene/document/Document;Lorg/apache/lucene/analysis/Analyzer;)V
+PTG:
+Vars:
+4
+$r3 1 10 
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 1
+-1 docWriter 10
+Accesses: 6
+99 1 -1 
+117 1 -1 
+182 1 -1 
+9 1 -1 
+138 1 -1 
+124 1 -1 
+Functions: 6
+144 0 
+1 2 -1 10 
+10 3 -2 -3 10 
+172 2 -1 10 
+109 2 -1 10 
+125 0 
+Constructors: 0
+
+Summary: 4
+-2 -3 1 0 
+org/apache/lucene/index/IndexWriter.addIndexes([Lorg/apache/lucene/index/IndexReader;)V
+PTG:
+Vars:
+25
+r5 1 -2 
+$r14 1 97 
+r56 1 403 
+$r2 1 76 
+$r16 1 451 
+$r20 1 406 
+$r59 1 5 
+r51 1 119 
+$r11 1 5 
+$r17 1 457 
+$r15 1 443 
+$r8 1 207 
+r49 1 75 
+$r24 1 165 
+$r26 1 113 
+$r18 1 460 
+$r12 1 364 
+$r22 1 406 
+$r10 1 97 
+$r9 1 215 
+$r1 1 5 
+$r4 1 97 
+$r25 1 97 
+r0 1 -1 
+$r7 1 97 
+Fields: 6
+-2 ArrayObject 165
+-1 mergePolicy 364
+-1 directory 215
+-1 docWriter 5
+-1 segmentInfos 97
+-1 deleter 406
+Accesses: 17
+96 1 -1 
+4 1 -1 
+388 1 -1 
+580 1 -1 
+200 1 -1 
+232 1 -1 
+552 1 -1 
+363 1 -1 
+108 1 -1 
+494 1 -1 
+335 1 -1 
+593 1 -1 
+405 1 -1 
+214 1 -1 
+600 1 -1 
+538 1 -1 
+255 1 -1 
+Functions: 45
+1 6 -1 97 5 406 215 364 
+322 6 -1 97 5 406 215 364 
+451 1 451 
+68 6 -1 97 5 406 215 364 
+261 1 5 
+389 2 97 207 
+71 6 -1 97 5 406 215 364 
+8 1 5 
+584 1 5 
+457 1 457 
+204 1 97 
+13 6 -1 97 5 406 215 364 
+399 1 207 
+463 2 76 460 
+274 1 119 
+530 6 -1 97 5 406 215 364 
+83 8 -1 97 5 406 215 75 76 364 
+147 2 119 76 
+346 6 -1 97 5 406 215 364 
+474 1 207 
+411 2 403 406 
+604 0 
+30 6 -1 97 5 406 215 364 
+350 6 -1 97 5 406 215 364 
+223 1 76 
+544 1 403 
+97 1 97 
+289 1 119 
+34 6 -1 97 5 406 215 364 
+228 3 215 75 207 
+357 6 -1 97 5 406 215 364 
+166 2 165 76 
+109 1 97 
+237 2 97 207 
+175 1 76 
+113 1 113 
+563 6 -1 97 5 406 215 364 
+500 2 403 406 
+373 6 -1 97 5 406 215 364 
+438 6 -1 97 5 406 215 364 
+567 6 -1 97 5 406 215 364 
+443 2 443 75 
+60 6 -1 97 5 406 215 364 
+189 1 119 
+447 1 443 
+Constructors: 3
+83 76
+228 207
+447 443
+
+Summary: 12
+-2 403 75 457 76 460 451 207 443 113 119 165 
+org/apache/lucene/index/IndexWriter.<init>(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/analysis/Analyzer;ZLorg/apache/lucene/index/IndexDeletionPolicy;Lorg/apache/lucene/index/IndexWriter$MaxFieldLength;)V
+PTG:
+Vars:
+16
+$r10 1 136 
+$r1 1 17 
+$r3 1 40 
+$r6 1 80 
+$r11 1 147 
+$r2 1 29 
+$r8 1 102 
+$r9 1 113 
+r0 1 -1 
+$r5 1 69 
+r15 1 -6 
+r13 1 -3 
+$r7 1 91 
+$r4 1 58 
+r14 1 -5 
+r12 1 -2 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 14
+-1 0 
+1 1 -1 
+33 1 29 
+165 1 -6 
+73 1 69 
+106 1 102 
+170 4 -1 -2 -3 -5 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 5
+-2 -1 -6 -3 -5 
+org/apache/lucene/index/IndexWriter.maybeMerge(IZ)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 7 
+Fields: 1
+-1 mergeScheduler 7
+Accesses: 1
+6 1 -1 
+Functions: 2
+3 2 -1 7 
+11 2 -1 7 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.newestSegment()Lorg/apache/lucene/index/SegmentInfo;
+PTG:
+Vars:
+5
+_ret 1 13 
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+$r3 1 13 
+Fields: 1
+-1 segmentInfos 1
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 2
+1 1 1 
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.flush()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+22 1 -1 
+14 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.updatePendingMerges(IZ)V
+PTG:
+Vars:
+15
+$r6 1 159 
+$r7 1 45 
+$r9 1 35 
+r13 1 83 
+r0 1 -1 
+$r1 1 119 
+$r11 1 57 
+$r8 1 39 
+$r2 1 115 
+$r10 1 57 
+$r3 1 57 
+$r12 1 83 
+$r4 1 57 
+r15 2 51 126 
+$r5 1 159 
+Fields: 6
+51 merges 57
+-1 mergePolicy 115
+-1 mergePolicy 35
+-1 segmentsToOptimize 45
+-1 segmentInfos 119
+-1 segmentInfos 39
+Accesses: 12
+96 1 83 
+34 1 -1 
+114 1 -1 
+131 2 51 126 
+22 1 -1 
+38 1 -1 
+102 1 83 
+118 1 -1 
+56 2 51 126 
+153 2 51 126 
+44 1 -1 
+77 2 51 126 
+Functions: 8
+18 0 
+35 6 -1 35 115 39 119 45 
+115 6 -1 115 35 119 39 45 
+132 1 57 
+167 7 -1 115 35 119 39 45 159 
+57 1 57 
+154 1 57 
+78 1 57 
+Constructors: 0
+
+Summary: 3
+83 159 -1 
+org/apache/lucene/index/IndexWriter.releaseWrite()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 6 
+$r2 1 10 
+Fields: 1
+-1 writeThread 10
+Accesses: 2
+9 1 -1 
+26 1 -1 
+Functions: 3
+-1 0 
+20 0 
+30 2 -1 10 
+Constructors: 0
+
+Summary: 2
+6 -1 
+org/apache/lucene/index/IndexWriter.getNextMerge()Lorg/apache/lucene/index/MergePolicy$OneMerge;
+PTG:
+Vars:
+7
+$r3 1 16 
+r4 1 16 
+_ret 1 16 
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+$r5 1 24 
+Fields: 2
+-1 pendingMerges 1
+-1 runningMerges 24
+Accesses: 3
+0 1 -1 
+23 1 -1 
+12 1 -1 
+Functions: 3
+1 1 1 
+28 2 16 24 
+13 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.setTermIndexInterval(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.syncPause(J)V
+PTG:
+Vars:
+4
+$r3 1 -1 
+r0 1 -1 
+$r1 1 1 
+$r4 1 126 
+Fields: 1
+-1 mergeScheduler 1
+Accesses: 5
+0 1 -1 
+81 1 -1 
+37 1 -1 
+88 1 -1 
+10 1 -1 
+Functions: 3
+-1 0 
+129 1 126 
+118 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.deleteDocuments(Lorg/apache/lucene/search/Query;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 5 
+Fields: 1
+-1 docWriter 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+1 2 -1 5 
+5 2 -2 5 
+21 2 -1 5 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/index/IndexWriter.getUseCompoundFile()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+org/apache/lucene/index/IndexWriter.updateDocument(Lorg/apache/lucene/index/Term;Lorg/apache/lucene/document/Document;Lorg/apache/lucene/analysis/Analyzer;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+r3 1 -4 
+r0 1 -1 
+$r4 1 11 
+r2 1 -3 
+Fields: 1
+-1 docWriter 11
+Accesses: 5
+113 1 -1 
+10 1 -1 
+172 1 -1 
+95 1 -1 
+127 1 -1 
+Functions: 6
+1 2 -1 11 
+114 0 
+162 2 -1 11 
+133 0 
+105 2 -1 11 
+11 4 -2 -3 -4 11 
+Constructors: 0
+
+Summary: 4
+-2 -3 -4 120 
+org/apache/lucene/index/IndexWriter.setRAMBufferSizeMB(D)V
+PTG:
+Vars:
+7
+$r1 1 51 
+r0 1 -1 
+$r2 1 59 
+$r4 1 75 
+$r6 1 82 
+$r3 1 66 
+$r5 1 79 
+Fields: 2
+-1 docWriter 51
+-1 infoStream 59
+Accesses: 2
+50 1 -1 
+58 1 -1 
+Functions: 9
+32 3 -1 51 59 
+66 1 66 
+20 0 
+85 4 -1 82 51 59 
+70 1 66 
+55 1 51 
+75 1 75 
+46 0 
+79 1 79 
+Constructors: 1
+70 66
+
+Summary: 5
+79 75 82 66 -1 
+org/apache/lucene/index/IndexWriter.maybeMerge()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.<init>(Ljava/lang/String;Lorg/apache/lucene/analysis/Analyzer;)V
+PTG:
+Vars:
+15
+$r1 1 17 
+$r5 1 69 
+$r13 1 159 
+r0 1 -1 
+$r8 1 102 
+$r7 1 91 
+$r10 1 136 
+r14 1 -3 
+$r3 1 40 
+$r9 1 113 
+$r4 1 58 
+$r2 1 29 
+$r11 1 147 
+r12 1 -2 
+$r6 1 80 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 14
+-1 0 
+1 1 -1 
+33 1 29 
+73 1 69 
+169 3 -1 -3 159 
+106 1 102 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+158 1 -2 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 4
+-2 159 -1 -3 
+org/apache/lucene/index/IndexWriter.commit()V
+PTG:
+Vars:
+5
+$r4 1 5 
+$r2 1 5 
+$r1 1 5 
+$r3 1 26 
+r0 1 -1 
+Fields: 2
+-1 infoStream 5
+-1 pendingCommit 26
+Accesses: 5
+32 1 -1 
+18 1 -1 
+4 1 -1 
+54 1 -1 
+25 1 -1 
+Functions: 6
+48 3 -1 5 26 
+1 3 -1 5 26 
+65 3 -1 5 26 
+69 3 -1 5 26 
+43 3 -1 5 26 
+15 3 -1 5 26 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.setDefaultWriteLockTimeout(J)V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.addDocument(Lorg/apache/lucene/document/Document;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 3 
+Fields: 1
+-1 analyzer 3
+Accesses: 1
+2 1 -1 
+Functions: 1
+6 3 -1 -2 3 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/lucene/index/IndexWriter.<init>(Lorg/apache/lucene/store/Directory;ZLorg/apache/lucene/analysis/Analyzer;ZLorg/apache/lucene/index/IndexDeletionPolicy;)V
+PTG:
+Vars:
+15
+$r3 1 40 
+$r2 1 29 
+r12 1 -2 
+$r10 1 136 
+r0 1 -1 
+r14 1 -6 
+r13 1 -4 
+$r8 1 102 
+$r9 1 113 
+$r5 1 69 
+$r7 1 91 
+$r4 1 58 
+$r1 1 17 
+$r6 1 80 
+$r11 1 147 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 13
+-1 0 
+1 1 -1 
+33 1 29 
+73 1 69 
+169 4 -1 -2 -4 -6 
+106 1 102 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 4
+-2 -4 -1 -6 
+org/apache/lucene/index/IndexWriter.waitForAllSynced(Ljava/util/Collection;)Z
+PTG:
+Vars:
+10
+r3 1 -2 
+$r5 1 24 
+$r7 1 1 
+$r1 1 1 
+$r12 1 1 
+$r10 1 -1 
+r0 1 -1 
+$r8 1 -1 
+r6 1 24 
+r4 1 13 
+Fields: 1
+-1 synced 1
+Accesses: 3
+0 1 -1 
+34 1 -1 
+61 1 -1 
+Functions: 6
+65 1 1 
+35 2 1 24 
+7 1 -2 
+23 1 13 
+14 1 13 
+46 2 -2 24 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/index/IndexWriter.startTransaction(Z)V
+PTG:
+Vars:
+12
+$r5 1 206 
+$r7 1 23 
+$r10 1 3 
+$r1 1 3 
+$r6 1 206 
+r0 1 -1 
+$r13 1 23 
+$r11 1 203 
+$r9 1 296 
+$r8 1 203 
+$r4 1 203 
+$r20 1 23 
+Fields: 4
+-1 docWriter 23
+-1 infoStream 3
+-1 segmentInfos 203
+-1 deleter 296
+Accesses: 18
+256 1 -1 
+289 1 -1 
+2 1 -1 
+99 1 -1 
+259 1 -1 
+295 1 -1 
+72 1 -1 
+202 1 -1 
+266 1 -1 
+299 1 -1 
+49 1 -1 
+241 1 -1 
+212 1 -1 
+245 1 -1 
+22 1 -1 
+249 1 -1 
+124 1 -1 
+222 1 -1 
+Functions: 28
+132 5 -1 3 23 296 203 
+196 5 -1 3 23 296 203 
+327 5 -1 3 23 296 203 
+73 1 23 
+203 1 203 
+13 5 -1 3 23 296 203 
+277 5 -1 3 23 296 203 
+86 0 
+23 1 23 
+90 0 
+284 5 -1 3 23 296 203 
+221 5 -1 3 23 296 203 
+96 0 
+36 0 
+100 0 
+40 0 
+106 0 
+236 0 
+46 0 
+112 0 
+304 2 296 203 
+50 0 
+178 5 -1 3 23 296 203 
+117 5 -1 3 23 296 203 
+56 0 
+250 1 23 
+189 5 -1 3 23 296 203 
+62 0 
+Constructors: 0
+
+Summary: 8
+56 36 96 59 46 106 86 109 
+org/apache/lucene/index/IndexWriter.mergeInit(Lorg/apache/lucene/index/MergePolicy$OneMerge;)V
+PTG:
+Vars:
+4
+$r3 1 -1 
+r0 1 -1 
+r1 1 -2 
+$r5 1 -2 
+Fields: 1
+-1 runningMerges -2
+Accesses: 1
+2000000000 1 -1 
+Functions: 1
+-1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/index/IndexWriter.setMergePolicy(Lorg/apache/lucene/index/MergePolicy;)V
+PTG:
+Vars:
+9
+$r8 1 19 
+$r2 1 19 
+$r4 1 50 
+$r7 1 66 
+r0 1 -1 
+$r3 1 43 
+$r6 1 63 
+r1 1 -2 
+$r5 1 59 
+Fields: 2
+-1 mergePolicy 19
+-1 infoStream 43
+Accesses: 4
+18 1 -1 
+35 1 -1 
+26 1 -1 
+42 1 -1 
+Functions: 9
+1 3 -1 19 43 
+50 1 50 
+69 4 -1 66 19 43 
+54 1 50 
+39 3 -1 19 43 
+59 2 -2 59 
+14 0 
+30 1 19 
+63 1 63 
+Constructors: 1
+54 50
+
+Summary: 5
+59 66 -1 63 50 
+org/apache/lucene/index/IndexWriter.<init>(Lorg/apache/lucene/store/Directory;ZLorg/apache/lucene/analysis/Analyzer;Lorg/apache/lucene/index/IndexDeletionPolicy;)V
+PTG:
+Vars:
+15
+r13 1 -4 
+$r4 1 58 
+$r11 1 147 
+$r5 1 69 
+r14 1 -5 
+$r6 1 80 
+$r2 1 29 
+r12 1 -2 
+$r10 1 136 
+$r1 1 17 
+$r7 1 91 
+$r9 1 113 
+r0 1 -1 
+$r8 1 102 
+$r3 1 40 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 13
+-1 0 
+1 1 -1 
+33 1 29 
+167 4 -1 -2 -4 -5 
+73 1 69 
+106 1 102 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 4
+-2 -4 -1 -5 
+org/apache/lucene/index/IndexWriter.doAfterFlush()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.pushMaxBufferedDocs()V
+PTG:
+Vars:
+11
+$r9 1 70 
+$r8 1 65 
+$r10 1 73 
+$r1 1 1 
+r3 1 15 
+r2 1 15 
+$r7 1 61 
+r0 1 -1 
+$r4 1 1 
+$r5 1 45 
+$r6 1 52 
+Fields: 3
+-1 mergePolicy 15
+-1 docWriter 1
+-1 infoStream 45
+Accesses: 4
+0 1 -1 
+11 1 -1 
+28 1 -1 
+44 1 -1 
+Functions: 10
+1 1 1 
+65 1 65 
+81 1 15 
+36 1 15 
+52 1 52 
+70 1 70 
+56 1 52 
+76 5 -1 1 73 45 15 
+29 1 1 
+61 1 61 
+Constructors: 1
+56 52
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.numDocs()I
+PTG:
+Vars:
+6
+$r1 1 1 
+$r4 1 1 
+r0 1 -1 
+r3 1 41 
+$r5 1 24 
+$r2 1 24 
+Fields: 2
+-1 docWriter 1
+-1 segmentInfos 24
+Accesses: 5
+0 1 -1 
+33 1 -1 
+7 1 -1 
+23 1 -1 
+43 1 41 
+Functions: 4
+34 1 24 
+8 1 1 
+24 1 24 
+47 1 41 
+Constructors: 0
+
+Summary: 2
+41 -1 
+org/apache/lucene/index/IndexWriter.<clinit>()V
+PTG:
+Vars:
+3
+$r2 2 19 9 
+$r1 1 61 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+65 1 61 
+19 2 19 9 
+6 0 
+Constructors: 1
+65 61
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.ensureContiguousMerge(Lorg/apache/lucene/index/MergePolicy$OneMerge;)I
+PTG:
+Vars:
+11
+$r3 1 1 
+r0 1 -1 
+$r2 1 5 
+$r4 1 9 
+$r6 1 5 
+$r7 1 5 
+r1 1 -2 
+$r5 1 1 
+$r30 1 1 
+r8 1 105 
+$r31 1 123 
+Fields: 2
+-2 segments 5
+-1 segmentInfos 1
+Accesses: 13
+0 1 -1 
+96 1 -2 
+4 1 -2 
+164 1 105 
+69 1 -1 
+38 1 -2 
+134 1 -1 
+77 1 -2 
+207 1 -1 
+239 1 -1 
+115 1 -1 
+181 1 -1 
+61 1 -1 
+Functions: 31
+1 2 1 9 
+65 0 
+193 0 
+5 1 5 
+197 0 
+70 1 1 
+135 1 105 
+203 0 
+78 1 5 
+206 2 -2 5 
+214 0 
+151 0 
+25 0 
+155 0 
+220 0 
+29 0 
+223 2 -1 1 
+97 1 5 
+161 0 
+35 0 
+227 0 
+39 0 
+169 0 
+233 0 
+175 0 
+49 0 
+243 0 
+116 1 1 
+55 0 
+185 0 
+123 2 105 123 
+Constructors: 0
+
+Summary: 10
+43 5 105 -2 -1 9 46 166 0 211 
+org/apache/lucene/index/IndexWriter.segString(Lorg/apache/lucene/index/SegmentInfos;)Ljava/lang/String;
+PTG:
+Vars:
+10
+r5 1 -1 
+$r0 1 0 
+r4 1 40 
+$r3 1 83 
+_ret 1 83 
+$r6 1 46 
+$r10 1 58 
+$r7 1 49 
+$r9 1 46 
+r2 1 -2 
+Fields: 2
+40 dir 58
+-1 directory 46
+Accesses: 3
+56 1 40 
+45 1 -1 
+61 1 -1 
+Functions: 8
+34 1 -2 
+82 1 0 
+4 1 0 
+52 2 0 49 
+8 1 -2 
+72 1 0 
+43 3 40 58 46 
+30 1 0 
+Constructors: 1
+4 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/index/IndexWriter.<init>(Lorg/apache/lucene/store/Directory;ZLorg/apache/lucene/analysis/Analyzer;)V
+PTG:
+Vars:
+14
+$r6 1 80 
+$r4 1 58 
+$r11 1 147 
+$r10 1 136 
+$r1 1 17 
+$r8 1 102 
+$r9 1 113 
+$r3 1 40 
+$r2 1 29 
+r13 1 -4 
+$r5 1 69 
+r12 1 -2 
+r0 1 -1 
+$r7 1 91 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 13
+-1 0 
+1 1 -1 
+33 1 29 
+166 3 -1 -2 -4 
+73 1 69 
+106 1 102 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 3
+-2 -4 -1 
+org/apache/lucene/index/IndexWriter.deleteDocuments([Lorg/apache/lucene/index/Term;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 5 
+r1 1 -2 
+Fields: 1
+-1 docWriter 5
+Accesses: 2
+4 1 -1 
+30 1 -1 
+Functions: 3
+1 2 -1 5 
+5 2 -2 5 
+21 2 -1 5 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/index/IndexWriter.getSegmentCount()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 segmentInfos 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.getWriteLockTimeout()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.isLocked(Lorg/apache/lucene/store/Directory;)Z
+PTG:
+Vars:
+2
+$r1 1 3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+3 1 3 
+Constructors: 0
+
+Summary: 2
+-2 3 
+org/apache/lucene/index/IndexWriter.newSegmentName()Ljava/lang/String;
+PTG:
+Vars:
+9
+$r7 1 48 
+$r1 1 1 
+r0 1 -1 
+$r9 1 -1 
+$r8 1 51 
+$r3 1 17 
+$r4 1 26 
+$r6 1 45 
+$r5 1 1 
+Fields: 1
+-1 segmentInfos 1
+Accesses: 6
+0 1 -1 
+7 1 -1 
+40 1 1 
+29 1 -1 
+14 1 -1 
+30 1 1 
+Functions: 5
+48 1 48 
+17 1 17 
+21 1 17 
+26 2 26 45 
+43 0 
+Constructors: 1
+21 17
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.doWait()V
+PTG:
+Vars:
+3
+$r1 1 -1 
+r0 1 -1 
+$r3 1 11 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+4 1 -1 
+14 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.expungeDeletes()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.resumeAddIndexes()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.setSimilarity(Lorg/apache/lucene/search/Similarity;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 10 
+Fields: 1
+-1 docWriter 10
+Accesses: 2
+6 1 -1 
+9 1 -1 
+Functions: 2
+1 2 -1 10 
+14 2 -2 10 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.init(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/analysis/Analyzer;ZZLorg/apache/lucene/index/IndexDeletionPolicy;ZI)V
+PTG:
+Vars:
+40
+$r3 1 17 
+$r11 1 34 
+$r7 1 141 
+$r9 2 141 104 
+$r54 1 334 
+$r24 1 347 
+$r42 1 34 
+$r32 1 34 
+$r53 1 279 
+$r34 1 104 
+$r47 2 -6 292 
+$r18 1 263 
+r16 1 -6 
+r5 1 51 
+$r36 1 104 
+$r30 1 200 
+r28 1 175 
+$r8 1 141 
+$r14 1 259 
+r29 1 182 
+$r33 1 104 
+$r17 1 259 
+$r35 1 34 
+r0 1 -1 
+$r19 2 141 104 
+$r13 1 259 
+$r6 1 34 
+$r21 1 263 
+$r23 1 343 
+$r51 1 243 
+$r52 1 292 
+r1 1 -2 
+$r27 1 141 
+r2 1 -3 
+$r4 1 34 
+$r20 1 34 
+$r31 1 207 
+$r12 1 263 
+$r45 1 -1 
+$r25 1 350 
+Fields: 6
+-1 directory 34
+-1 docWriter 259
+-1 segmentInfos 141
+-1 segmentInfos 104
+-1 infoStream 263
+-1 synced 200
+Accesses: 33
+130 1 -1 
+258 1 -1 
+3 1 -1 
+262 1 -1 
+326 1 -1 
+199 1 -1 
+8 1 -1 
+140 1 -1 
+13 1 -1 
+269 1 -1 
+144 1 -1 
+26 1 -1 
+283 1 -1 
+156 1 -1 
+96 1 -1 
+33 1 -1 
+166 1 -1 
+103 1 -1 
+231 1 -1 
+42 1 -1 
+107 1 -1 
+235 1 -1 
+365 1 -1 
+304 1 -1 
+114 1 -1 
+308 1 -1 
+374 1 -1 
+55 1 -1 
+247 1 -1 
+312 1 -1 
+126 1 -1 
+255 1 -1 
+319 1 -1 
+Functions: 33
+323 7 -1 34 259 263 104 200 141 
+69 0 
+134 2 34 104 
+73 0 
+266 2 259 263 
+203 1 182 
+78 1 51 
+334 1 334 
+338 1 334 
+83 0 
+275 1 259 
+20 8 -1 17 34 259 263 104 200 141 
+148 2 34 141 
+212 2 200 207 
+343 1 343 
+89 0 
+347 1 347 
+157 1 141 
+353 8 -1 34 259 263 104 200 141 350 
+357 7 -1 34 259 263 104 200 141 
+39 1 34 
+167 1 141 
+296 1 292 
+43 1 34 
+111 2 34 104 
+239 7 -1 34 259 263 104 200 141 
+177 1 175 
+369 0 
+53 1 51 
+118 1 104 
+252 8 -1 34 243 259 263 104 200 141 
+316 8 34 259 292 -6 279 263 104 141 
+189 1 182 
+Constructors: 4
+338 334
+296 292
+252 243
+316 279
+
+Summary: 6
+1 292 4 -1 -6 0 
+org/apache/lucene/index/IndexWriter.getFlushDeletesCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.getLogMergePolicy()Lorg/apache/lucene/index/LogMergePolicy;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 18 
+Fields: 1
+-1 mergePolicy 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 1
+24 1 18 
+Constructors: 1
+24 18
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.message(Ljava/lang/String;)V
+PTG:
+Vars:
+14
+$r13 1 53 
+$r6 1 32 
+$r8 1 38 
+r0 1 -1 
+$r2 1 11 
+$r12 1 50 
+$r7 1 35 
+$r3 1 1 
+r11 1 -2 
+$r10 1 46 
+$r1 1 1 
+$r5 1 27 
+$r9 1 41 
+$r4 1 20 
+Fields: 1
+-1 infoStream 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 11
+-1 0 
+32 2 32 38 
+50 1 50 
+35 1 35 
+20 1 20 
+56 2 1 53 
+41 1 41 
+11 1 11 
+27 1 27 
+46 2 -2 46 
+15 1 11 
+Constructors: 1
+15 11
+
+Summary: 3
+-2 -1 0 
+org/apache/lucene/index/IndexWriter.optimize(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.commitMerge(Lorg/apache/lucene/index/MergePolicy$OneMerge;Lorg/apache/lucene/index/SegmentMerger;I)Z
+PTG:
+Vars:
+35
+$r8 1 205 
+$r4 1 184 
+$r42 1 74 
+$r43 1 77 
+$r47 1 325 
+$r41 1 71 
+$r10 1 205 
+$r14 1 205 
+$r5 1 188 
+$r12 1 205 
+$r37 1 56 
+$r40 1 67 
+r20 1 256 
+$r11 1 188 
+r0 1 -1 
+r21 1 263 
+$r36 1 51 
+$r22 1 205 
+$r45 1 205 
+$r38 1 59 
+$r39 1 62 
+$r15 1 188 
+r3 1 -3 
+$r19 1 188 
+$r48 1 332 
+$r1 1 34 
+$r35 1 41 
+$r6 1 192 
+$r7 1 196 
+$r17 1 205 
+r2 1 -2 
+$r46 1 188 
+$r13 1 398 
+$r18 1 188 
+r9 1 211 
+Fields: 7
+-2 segments 325
+-2 info 205
+-1 segmentsToOptimize 398
+-1 directory 56
+-1 docWriter 184
+-1 infoStream 34
+-1 segmentInfos 188
+Accesses: 25
+324 1 -2 
+133 1 -1 
+390 1 -2 
+204 1 -2 
+397 1 -1 
+401 1 -2 
+24 1 -1 
+89 1 -2 
+218 1 -2 
+346 1 -1 
+155 1 -1 
+350 1 -2 
+159 1 -2 
+288 1 -2 
+33 1 -1 
+228 1 -1 
+111 1 -1 
+368 1 -1 
+305 1 -2 
+374 1 -2 
+55 1 -1 
+183 1 -1 
+247 1 -1 
+187 1 -1 
+316 1 -1 
+Functions: 45
+129 0 
+258 1 256 
+67 2 67 71 
+195 1 -3 
+387 9 -1 -2 34 325 56 184 188 205 398 
+132 3 -2 325 205 
+325 1 325 
+6 6 -1 34 56 184 188 398 
+70 6 -1 34 56 184 188 398 
+201 7 192 -2 196 325 184 188 205 
+74 1 74 
+140 0 
+205 1 205 
+270 2 211 263 
+335 1 332 
+80 7 -1 34 56 184 188 77 398 
+146 0 
+20 0 
+405 2 205 398 
+152 6 -1 34 56 184 188 398 
+280 1 256 
+219 1 205 
+347 2 188 205 
+100 0 
+229 1 188 
+293 1 205 
+166 0 
+104 3 -2 325 205 
+41 1 41 
+171 9 -1 -2 34 325 56 184 188 205 398 
+364 0 
+45 1 41 
+51 2 51 59 
+180 9 -1 -2 34 325 56 184 188 205 398 
+309 1 -3 
+54 4 -2 325 56 205 
+119 0 
+248 1 188 
+313 1 205 
+378 2 188 205 
+123 0 
+317 1 188 
+62 1 62 
+382 6 -1 34 56 184 188 398 
+191 1 -3 
+Constructors: 1
+45 41
+
+Summary: 28
+62 119 74 140 163 149 59 41 196 77 67 160 263 -2 325 129 51 205 -1 256 -3 71 146 192 0 211 137 332 
+org/apache/lucene/index/IndexWriter.getMergeScheduler()Lorg/apache/lucene/index/MergeScheduler;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 5 
+$r1 1 5 
+Fields: 1
+-1 mergeScheduler 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.finishCommit()V
+PTG:
+Vars:
+11
+r0 1 -1 
+$r3 1 1 
+$r8 1 53 
+$r5 1 34 
+$r9 1 1 
+$r2 1 19 
+$r4 1 1 
+$r7 1 1 
+$r1 1 1 
+$r6 1 1 
+$r10 1 53 
+Fields: 4
+-1 directory 19
+-1 segmentInfos 34
+-1 pendingCommit 1
+-1 deleter 53
+Accesses: 16
+0 1 -1 
+64 1 -1 
+33 1 -1 
+68 1 -1 
+37 1 -1 
+101 1 -1 
+45 1 -1 
+77 1 -1 
+14 1 -1 
+18 1 -1 
+52 1 -1 
+56 1 -1 
+88 1 -1 
+26 1 -1 
+92 1 -1 
+30 1 -1 
+Functions: 11
+96 0 
+49 5 -1 1 34 19 53 
+81 5 -1 1 34 19 53 
+117 5 -1 1 34 19 53 
+22 2 1 19 
+72 2 1 53 
+41 2 1 34 
+105 5 -1 1 34 19 53 
+11 5 -1 1 34 19 53 
+124 5 -1 1 34 19 53 
+61 2 1 53 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.decrefMergeSegments(Lorg/apache/lucene/index/MergePolicy$OneMerge;)V
+PTG:
+Vars:
+8
+r3 1 -1 
+$r6 1 66 
+r0 1 -2 
+r2 1 51 
+$r4 1 59 
+$r7 1 71 
+$r5 1 55 
+r1 1 4 
+Fields: 4
+-2 segmentsClone 4
+51 dir 55
+-1 directory 59
+-1 deleter 66
+Accesses: 6
+0 1 -2 
+16 1 -2 
+33 1 -2 
+65 1 -1 
+53 1 51 
+58 1 -1 
+Functions: 5
+5 1 4 
+69 2 51 55 
+74 2 66 71 
+27 0 
+45 1 4 
+Constructors: 0
+
+Summary: 6
+-2 4 71 51 0 -1 
+org/apache/lucene/index/IndexWriter.handleMergeException(Ljava/lang/Throwable;Lorg/apache/lucene/index/MergePolicy$OneMerge;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -3 
+r2 1 -1 
+Fields: 0
+Accesses: 1
+17 1 -3 
+Functions: 3
+2 2 -2 -3 
+70 1 -2 
+7 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-3 1 -1 
+org/apache/lucene/index/IndexWriter.isLocked(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -2 
+$r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -2 
+org/apache/lucene/index/IndexWriter.getMaxBufferedDeleteTerms()I
+PTG:
+Vars:
+2
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 docWriter 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.getRAMBufferSizeMB()D
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 docWriter 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.<init>(Ljava/lang/String;Lorg/apache/lucene/analysis/Analyzer;Z)V
+PTG:
+Vars:
+15
+$r9 1 113 
+r12 1 -2 
+$r11 1 147 
+$r8 1 102 
+$r5 1 69 
+$r6 1 80 
+$r1 1 17 
+$r10 1 136 
+$r7 1 91 
+r0 1 -1 
+$r2 1 29 
+$r3 1 40 
+$r4 1 58 
+r14 1 -3 
+$r13 1 159 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 14
+-1 0 
+1 1 -1 
+33 1 29 
+73 1 69 
+106 1 102 
+170 3 -1 -3 159 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+158 1 -2 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 4
+-2 159 -1 -3 
+org/apache/lucene/index/IndexWriter.ramSizeInBytes()J
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 docWriter 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.mergeMiddle(Lorg/apache/lucene/index/MergePolicy$OneMerge;)I
+PTG:
+Vars:
+37
+$r29 1 -2 
+$r46 1 -1 
+$r51 1 -1 
+$r25 1 -2 
+$r35 1 -2 
+$r37 1 -2 
+$r11 1 -2 
+$r50 1 -2 
+$r34 1 -2 
+$r31 1 -2 
+$r72 1 -2 
+$r8 1 -2 
+r74 1 -2 
+$r3 1 -2 
+$r71 1 -2 
+$r70 1 -2 
+$r57 1 -1 
+$r10 1 -2 
+$r33 1 -2 
+$r73 1 -2 
+r5 1 -2 
+$r55 1 -1 
+r67 1 -2 
+$r9 1 -2 
+r68 1 -2 
+r6 1 -2 
+$r30 1 -2 
+$r28 1 -2 
+r4 1 -2 
+r0 1 -2 
+$r32 1 -2 
+$r36 1 -2 
+$r2 1 -2 
+$r7 1 -2 
+$r48 1 -2 
+r1 1 -1 
+$r27 1 -2 
+Fields: 7
+-2 segments -2
+-2 info -2
+-2 segmentsClone -2
+-1 directory -2
+-1 infoStream -2
+-1 deleter -2
+-2 name -2
+Accesses: 2
+-1 1 -2 
+2000000000 2 -1 -2 
+Functions: 1
+-1 1 -2 
+Constructors: 1
+-1 -2
+
+Summary: 1
+-2 
+org/apache/lucene/index/IndexWriter.upgradeReadToWrite()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 43 
+$r2 1 57 
+Fields: 1
+-1 writeThread 43
+Accesses: 11
+80 1 -1 
+35 1 -1 
+21 1 -1 
+6 1 -1 
+70 1 -1 
+73 1 -1 
+42 1 -1 
+28 1 -1 
+60 1 -1 
+31 1 -1 
+63 1 -1 
+Functions: 3
+-1 0 
+17 0 
+50 2 -1 43 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.getMergePolicy()Lorg/apache/lucene/index/MergePolicy;
+PTG:
+Vars:
+3
+$r1 1 5 
+_ret 1 5 
+r0 1 -1 
+Fields: 1
+-1 mergePolicy 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.checkpoint()V
+PTG:
+Vars:
+3
+$r2 1 11 
+$r1 1 15 
+r0 1 -1 
+Fields: 2
+-1 segmentInfos 15
+-1 deleter 11
+Accesses: 4
+0 1 -1 
+7 1 -1 
+10 1 -1 
+14 1 -1 
+Functions: 1
+19 2 11 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.resetMergeExceptions()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+18 1 -1 
+8 1 -1 
+11 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 1
+5 1
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.getNumBufferedDeleteTerms()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 docWriter 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.<init>(Ljava/io/File;Lorg/apache/lucene/analysis/Analyzer;Lorg/apache/lucene/index/IndexWriter$MaxFieldLength;)V
+PTG:
+Vars:
+16
+r0 1 -1 
+$r3 1 40 
+$r11 1 147 
+r12 1 -2 
+r15 1 -4 
+$r6 1 80 
+$r8 1 102 
+$r4 1 58 
+$r13 1 159 
+$r5 1 69 
+$r10 1 136 
+r14 1 -3 
+$r7 1 91 
+$r1 1 17 
+$r2 1 29 
+$r9 1 113 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 15
+-1 0 
+1 1 -1 
+33 1 29 
+166 1 -4 
+73 1 69 
+106 1 102 
+170 3 -1 -3 159 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+158 1 -2 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 5
+-2 -4 159 -1 -3 
+org/apache/lucene/index/IndexWriter.getDocCount(I)I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 6 
+Fields: 1
+-1 segmentInfos 6
+Accesses: 2
+5 1 -1 
+15 1 -1 
+Functions: 2
+16 0 
+6 1 6 
+Constructors: 0
+
+Summary: 2
+20 -1 
+org/apache/lucene/index/IndexWriter.getSimilarity()Lorg/apache/lucene/search/Similarity;
+PTG:
+Vars:
+3
+_ret 1 5 
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 similarity 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.doCommitBeforeMergeCFS(Lorg/apache/lucene/index/MergePolicy$OneMerge;)Z
+PTG:
+Vars:
+13
+r12 1 63 
+$r9 1 38 
+$r4 1 96 
+r2 1 -1 
+$r1 1 3 
+$r6 1 3 
+r7 1 30 
+$r8 1 33 
+$r3 1 96 
+$r5 1 122 
+r0 1 -2 
+$r10 1 52 
+r11 1 38 
+Fields: 4
+-2 segments 3
+-1 rollbackSegmentInfos 52
+-1 segmentInfos 96
+-1 rollbackSegments 33
+Accesses: 6
+32 1 -1 
+2 1 -2 
+51 1 -1 
+116 1 -1 
+21 1 -2 
+95 1 -1 
+Functions: 11
+96 1 96 
+33 2 33 30 
+65 1 63 
+3 1 3 
+52 1 52 
+117 1 96 
+22 1 3 
+70 1 30 
+55 1 38 
+122 1 122 
+79 1 30 
+Constructors: 0
+
+Summary: 8
+-2 30 3 122 38 0 -1 63 
+org/apache/lucene/index/IndexWriter.shouldClose()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+16 1 -1 
+7 1 -1 
+Functions: 1
+22 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.maxDoc()I
+PTG:
+Vars:
+6
+$r2 1 24 
+r0 1 -1 
+$r4 1 1 
+$r3 1 39 
+$r1 1 1 
+$r5 1 24 
+Fields: 2
+-1 docWriter 1
+-1 segmentInfos 24
+Accesses: 5
+0 1 -1 
+34 1 -1 
+7 1 -1 
+23 1 -1 
+39 1 39 
+Functions: 3
+35 1 24 
+8 1 1 
+24 1 24 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.getMaxSyncPauseSeconds()D
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.mergeFinish(Lorg/apache/lucene/index/MergePolicy$OneMerge;)V
+PTG:
+Vars:
+7
+r1 1 -2 
+$r5 1 57 
+$r4 2 57 77 
+$r6 1 63 
+r2 1 41 
+r0 1 -1 
+$r3 1 81 
+Fields: 4
+-2 segments 41
+-2 info 81
+-1 mergingSegments 77
+-1 mergingSegments 57
+Accesses: 7
+80 1 -2 
+4 1 -2 
+37 1 -2 
+22 1 -2 
+56 1 -1 
+90 1 -2 
+76 1 -1 
+Functions: 7
+1 3 -1 57 77 
+33 0 
+66 2 57 63 
+84 3 81 57 77 
+42 1 41 
+60 1 41 
+13 6 -1 -2 81 57 41 77 
+Constructors: 0
+
+Summary: 6
+-2 41 0 81 -1 63 
+org/apache/lucene/index/IndexWriter.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r4 1 6 
+r0 1 -2 
+$r1 1 1 
+$r5 1 14 
+$r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/lucene/index/IndexWriter.optimizeMergesPending()Z
+PTG:
+Vars:
+9
+$r5 1 18 
+r8 1 43 
+$r6 1 18 
+r7 1 7 
+$r4 1 54 
+$r2 1 35 
+$r1 1 1 
+r0 1 -1 
+$r3 1 54 
+Fields: 2
+-1 pendingMerges 1
+-1 runningMerges 35
+Accesses: 4
+0 1 -1 
+34 1 -1 
+23 1 18 
+59 1 54 
+Functions: 6
+1 1 1 
+17 1 7 
+35 1 35 
+53 1 43 
+8 1 7 
+44 1 43 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.getMaxMergeDocs()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+org/apache/lucene/index/IndexWriter.getMaxFieldLength()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter._mergeInit(Lorg/apache/lucene/index/MergePolicy$OneMerge;)V
+PTG:
+Vars:
+29
+r3 1 134 
+$r10 1 442 
+$r16 1 397 
+$r31 1 422 
+$r17 1 321 
+r2 1 123 
+$r12 1 134 
+$r7 1 134 
+r25 1 173 
+$r24 1 149 
+$r6 1 499 
+r1 1 -1 
+r28 1 377 
+$r15 1 470 
+r4 1 155 
+$r30 1 123 
+$r22 1 74 
+$r14 1 465 
+$r13 1 454 
+$r27 1 296 
+$r9 1 523 
+$r8 1 74 
+r0 1 -2 
+r11 1 450 
+$r32 1 422 
+r26 1 203 
+$r5 1 494 
+r23 1 203 
+r29 1 363 
+Fields: 10
+-2 segments 123
+-2 info 74
+-2 segmentsClone 442
+450 dir 454
+173 dir 296
+-1 mergingSegments 523
+-1 directory 134
+-1 docWriter 149
+-1 infoStream 397
+-1 deleter 465
+Accesses: 24
+130 1 -1 
+418 1 -2 
+452 1 450 
+484 1 -2 
+294 1 173 
+519 1 -2 
+104 1 -1 
+73 1 -2 
+457 1 -1 
+490 1 -2 
+522 1 -1 
+396 1 -1 
+428 1 -2 
+526 1 -2 
+464 1 -1 
+51 1 -2 
+148 1 -1 
+119 1 -2 
+503 1 -1 
+441 1 -2 
+58 1 -2 
+252 1 173 
+284 1 173 
+30 1 -2 
+Functions: 33
+321 2 321 155 
+516 4 499 134 377 494 
+69 0 
+6 6 -1 465 149 134 523 397 
+198 2 296 173 
+265 2 296 173 
+81 4 -2 74 442 123 
+530 2 74 523 
+20 0 
+468 2 450 454 
+149 1 149 
+279 2 296 173 
+407 6 -1 465 149 134 523 397 
+89 6 -1 465 149 134 523 397 
+473 2 465 470 
+413 6 -1 465 149 134 523 397 
+419 1 123 
+228 1 203 
+358 1 123 
+167 1 123 
+41 0 
+365 1 363 
+175 2 296 173 
+305 2 296 173 
+498 6 -1 465 149 134 523 397 
+115 0 
+372 1 363 
+247 2 296 173 
+442 1 442 
+187 2 296 173 
+379 1 363 
+124 1 123 
+319 2 296 173 
+Constructors: 1
+516 494
+
+Summary: 13
+173 74 442 470 321 123 -2 377 450 -1 363 203 0 
+org/apache/lucene/index/IndexWriter.acquireRead()V
+PTG:
+Vars:
+4
+r0 1 3 
+r1 1 -1 
+$r2 1 5 
+$r3 1 5 
+Fields: 1
+-1 writeThread 5
+Accesses: 4
+33 1 -1 
+4 1 -1 
+26 1 -1 
+11 1 -1 
+Functions: 2
+0 0 
+20 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.setMaxSyncPauseSeconds(D)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.docCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+4 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.testPoint(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/index/IndexWriter.<init>(Lorg/apache/lucene/store/Directory;ZLorg/apache/lucene/analysis/Analyzer;Z)V
+PTG:
+Vars:
+14
+r0 1 -1 
+$r8 1 102 
+$r5 1 69 
+$r1 1 17 
+$r2 1 29 
+r12 1 -2 
+r13 1 -4 
+$r11 1 147 
+$r6 1 80 
+$r7 1 91 
+$r3 1 40 
+$r10 1 136 
+$r9 1 113 
+$r4 1 58 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 13
+-1 0 
+1 1 -1 
+33 1 29 
+168 3 -1 -2 -4 
+73 1 69 
+106 1 102 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 3
+-2 -4 -1 
+org/apache/lucene/index/IndexWriter.hasDeletions()Z
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 5 
+$r2 1 20 
+$r3 1 20 
+$r4 1 34 
+Fields: 2
+-1 docWriter 5
+-1 segmentInfos 20
+Accesses: 3
+19 1 -1 
+4 1 -1 
+29 1 -1 
+Functions: 5
+1 3 -1 20 5 
+34 1 34 
+20 1 20 
+5 1 5 
+30 1 20 
+Constructors: 0
+
+Summary: 2
+34 -1 
+org/apache/lucene/index/IndexWriter.setMergeScheduler(Lorg/apache/lucene/index/MergeScheduler;)V
+PTG:
+Vars:
+9
+$r2 1 19 
+$r4 1 51 
+$r8 1 19 
+$r5 1 60 
+$r7 1 67 
+r1 1 -2 
+$r6 1 64 
+$r3 1 44 
+r0 1 -1 
+Fields: 2
+-1 infoStream 44
+-1 mergeScheduler 19
+Accesses: 4
+18 1 -1 
+40 1 -1 
+43 1 -1 
+31 1 -1 
+Functions: 9
+64 1 64 
+1 3 -1 19 44 
+35 1 19 
+51 1 51 
+70 4 -1 19 67 44 
+55 1 51 
+28 3 -1 19 44 
+60 2 -2 60 
+14 0 
+Constructors: 1
+55 51
+
+Summary: 5
+64 67 60 -1 51 
+org/apache/lucene/index/IndexWriter.setInfoStream(Ljava/io/PrintStream;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 10 
+r0 1 -1 
+$r3 1 18 
+Fields: 2
+-1 docWriter 10
+-1 deleter 18
+Accesses: 2
+17 1 -1 
+9 1 -1 
+Functions: 5
+1 3 -1 18 10 
+6 4 -1 -2 18 10 
+22 2 -2 18 
+14 2 -2 10 
+30 3 -1 18 10 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/index/IndexWriter.setMergeFactor(I)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+5 1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+org/apache/lucene/index/IndexWriter.blockAddIndexes(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -1 
+8 1 -1 
+30 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.ensureOpen()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.flush(ZZZ)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+2 1 -1 
+19 1 -1 
+5 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.ensureOpen(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+24 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.addIndexes([Lorg/apache/lucene/store/Directory;)V
+PTG:
+Vars:
+11
+$r13 1 121 
+$r6 1 10 
+$r3 1 18 
+$r7 1 10 
+$r8 1 66 
+r11 1 104 
+$r2 1 10 
+$r12 1 121 
+r1 1 -2 
+$r10 1 80 
+r0 1 -1 
+Fields: 4
+-2 ArrayObject 80
+-1 docWriter 10
+-1 infoStream 18
+-1 segmentInfos 121
+Accesses: 9
+176 1 -1 
+17 1 -1 
+241 1 -1 
+228 1 -1 
+120 1 -1 
+248 1 -1 
+9 1 -1 
+107 1 104 
+140 1 -1 
+Functions: 20
+1 4 -1 18 121 10 
+97 1 66 
+35 4 -1 18 121 10 
+195 4 -1 18 121 10 
+6 6 -1 80 -2 18 121 10 
+70 1 66 
+136 0 
+232 1 10 
+42 4 -1 18 121 10 
+13 1 10 
+81 2 80 66 
+146 2 104 121 
+53 4 -1 18 121 10 
+181 1 10 
+89 1 66 
+121 2 104 121 
+185 4 -1 18 121 10 
+28 4 -1 18 121 10 
+252 0 
+222 4 -1 18 121 10 
+Constructors: 1
+70 66
+
+Summary: 4
+-2 80 66 104 
+org/apache/lucene/index/IndexWriter.closeInternal(Z)V
+PTG:
+Vars:
+21
+$r7 1 9 
+$r23 1 40 
+$r10 1 158 
+$r20 1 105 
+$r16 1 158 
+r0 1 -1 
+$r3 1 1 
+$r22 1 111 
+$r1 1 1 
+$r2 1 9 
+$r15 1 1 
+$r14 1 9 
+$r6 1 9 
+$r13 1 1 
+$r17 1 151 
+$r4 1 48 
+$r5 1 40 
+$r18 1 92 
+$r21 1 108 
+$r19 1 101 
+$r9 1 127 
+Fields: 7
+-1 writeLock 158
+-1 mergePolicy 48
+-1 directory 151
+-1 docWriter 1
+-1 infoStream 9
+-1 deleter 127
+-1 mergeScheduler 40
+Accesses: 27
+0 1 -1 
+66 1 -1 
+262 1 -1 
+8 1 -1 
+203 1 -1 
+143 1 -1 
+210 1 -1 
+84 1 -1 
+276 1 -1 
+21 1 -1 
+150 1 -1 
+217 1 -1 
+283 1 -1 
+157 1 -1 
+224 1 -1 
+290 1 -1 
+164 1 -1 
+39 1 -1 
+231 1 -1 
+297 1 -1 
+173 1 -1 
+47 1 -1 
+304 1 -1 
+182 1 -1 
+59 1 -1 
+123 1 -1 
+126 1 -1 
+Functions: 25
+130 1 127 
+4 1 1 
+76 8 -1 48 1 151 40 9 158 127 
+207 8 -1 48 1 151 40 9 158 127 
+81 8 -1 48 1 151 40 9 158 127 
+18 8 -1 48 1 151 40 9 158 127 
+280 8 -1 48 1 151 40 9 158 127 
+25 1 1 
+154 1 151 
+92 1 92 
+32 8 -1 48 1 151 40 9 158 127 
+96 1 92 
+228 1 1 
+101 2 101 105 
+104 8 -1 48 1 151 40 9 158 127 
+168 1 158 
+44 8 -1 48 1 151 40 9 158 127 
+108 1 108 
+301 0 
+241 8 -1 48 1 151 40 9 158 127 
+114 9 -1 48 1 151 40 9 158 127 111 
+51 1 48 
+56 8 -1 48 1 151 40 9 158 127 
+314 8 -1 48 1 151 40 9 158 127 
+63 1 40 
+Constructors: 1
+96 92
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.getAnalyzer()Lorg/apache/lucene/analysis/Analyzer;
+PTG:
+Vars:
+3
+_ret 1 5 
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 analyzer 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.setDefaultInfoStream(Ljava/io/PrintStream;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.unlock(Lorg/apache/lucene/store/Directory;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+$r1 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+6 1 3 
+Constructors: 0
+
+Summary: 2
+-2 3 
+org/apache/lucene/index/IndexWriter.finishMerges(Z)V
+PTG:
+Vars:
+37
+$r23 2 59 145 
+$r25 1 151 
+$r21 1 130 
+r0 1 -1 
+$r14 1 205 
+r35 1 16 
+$r9 4 274 123 188 37 
+$r8 1 94 
+$r30 1 54 
+$r2 1 309 
+$r27 1 27 
+$r34 1 68 
+$r5 1 10 
+$r17 1 223 
+$r20 2 123 37 
+$r6 1 10 
+$r1 1 299 
+$r19 1 113 
+$r24 1 148 
+r36 1 27 
+$r15 1 94 
+$r16 1 217 
+$r32 1 62 
+$r3 1 335 
+r38 1 113 
+$r22 1 140 
+r37 1 102 
+$r13 1 195 
+$r12 3 123 188 37 
+$r31 1 59 
+$r29 1 44 
+$r7 1 94 
+$r33 1 65 
+$r26 1 154 
+$r10 1 256 
+$r18 1 226 
+$r28 1 37 
+Fields: 12
+-1 pendingMerges 10
+-1 pendingMerges 299
+-1 mergingSegments 256
+-1 mergingSegments 335
+-1 directory 145
+-1 directory 59
+-1 infoStream 274
+-1 infoStream 123
+-1 infoStream 188
+-1 infoStream 37
+-1 runningMerges 309
+-1 runningMerges 94
+Accesses: 17
+36 1 -1 
+6 1 -1 
+9 1 -1 
+298 1 -1 
+334 1 -1 
+175 1 -1 
+144 1 -1 
+208 1 -1 
+241 1 -1 
+273 1 -1 
+308 1 -1 
+86 1 -1 
+58 1 -1 
+122 1 -1 
+187 1 -1 
+93 1 -1 
+255 1 -1 
+Functions: 44
+256 1 256 
+65 1 65 
+321 13 -1 256 37 10 299 335 145 274 309 59 123 188 94 
+130 1 130 
+195 1 195 
+134 1 130 
+71 14 -1 256 68 37 10 299 335 145 274 309 59 123 188 94 
+199 1 195 
+10 1 10 
+75 1 27 
+140 2 148 140 
+205 1 205 
+269 0 
+143 3 113 145 59 
+335 1 335 
+80 14 -1 256 37 10 299 335 145 274 309 59 123 27 188 94 
+17 1 16 
+209 1 94 
+151 1 151 
+217 1 217 
+26 1 16 
+90 1 10 
+284 13 -1 256 37 10 299 335 145 274 309 59 123 188 94 
+348 0 
+157 14 -1 256 37 10 299 335 145 274 309 154 59 123 188 94 
+94 1 94 
+223 1 223 
+161 1 113 
+291 13 -1 256 37 10 299 335 145 274 309 59 123 188 94 
+229 14 -1 256 226 37 10 299 335 145 274 309 59 123 188 94 
+103 1 102 
+295 13 -1 256 37 10 299 335 145 274 309 59 123 188 94 
+168 13 -1 256 37 10 299 335 145 274 309 59 123 188 94 
+233 13 -1 256 37 10 299 335 145 274 309 59 123 188 94 
+299 1 299 
+44 1 44 
+172 13 -1 256 37 10 299 335 145 274 309 59 123 188 94 
+48 1 44 
+112 1 102 
+176 1 94 
+245 13 -1 256 37 10 299 335 145 274 309 59 123 188 94 
+309 1 309 
+54 2 54 62 
+57 2 27 59 
+Constructors: 3
+48 44
+134 130
+199 195
+
+Summary: 3
+62 148 -1 
+org/apache/lucene/index/IndexWriter.setUseCompoundFile(Z)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 9 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+5 1 1 
+8 1 -1 
+13 1 9 
+Constructors: 0
+
+Summary: 3
+1 -1 9 
+org/apache/lucene/index/IndexWriter.optimize(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.resolveExternalSegments()V
+PTG:
+Vars:
+13
+r0 1 -1 
+$r13 1 130 
+r17 2 80 163 
+$r10 1 94 
+$r12 1 120 
+$r6 1 72 
+$r4 1 37 
+r18 1 66 
+$r7 1 68 
+$r1 1 213 
+$r8 1 80 
+$r9 1 37 
+$r5 1 37 
+Fields: 6
+66 dir 68
+-1 pendingMerges 120
+-1 directory 72
+-1 segmentInfos 37
+-1 mergeScheduler 213
+-1 runningMerges 130
+Accesses: 9
+129 1 -1 
+18 1 -1 
+67 1 66 
+36 1 -1 
+84 1 -1 
+212 1 -1 
+71 1 -1 
+119 1 -1 
+57 1 -1 
+Functions: 13
+32 0 
+97 2 66 68 
+37 1 37 
+101 2 80 94 
+135 2 80 130 
+106 7 -1 80 130 37 213 120 72 
+202 8 -1 80 130 163 37 213 120 72 
+175 6 -1 130 37 213 120 72 
+85 1 37 
+217 6 -1 130 213 37 120 72 
+58 1 37 
+125 2 80 120 
+159 6 -1 130 37 213 120 72 
+Constructors: 1
+101 80
+
+Summary: 5
+94 163 66 80 68 
+org/apache/lucene/index/IndexWriter.getNextExternalMerge()Lorg/apache/lucene/index/MergePolicy$OneMerge;
+PTG:
+Vars:
+6
+r0 1 -1 
+r5 1 30 
+r3 1 19 
+$r1 1 1 
+$r2 1 1 
+$r4 1 30 
+Fields: 1
+-1 pendingMerges 1
+Accesses: 4
+0 1 -1 
+52 1 -1 
+39 1 30 
+12 1 -1 
+Functions: 6
+1 1 1 
+20 1 19 
+57 1 30 
+13 1 1 
+29 1 19 
+47 1 19 
+Constructors: 0
+
+Summary: 3
+30 19 -1 
+org/apache/lucene/index/IndexWriter.updateDocument(Lorg/apache/lucene/index/Term;Lorg/apache/lucene/document/Document;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r0 1 -1 
+$r3 1 8 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -1 
+7 1 -1 
+11 4 -1 -2 -3 8 
+Constructors: 0
+
+Summary: 4
+-2 -3 8 -1 
+org/apache/lucene/index/IndexWriter.flushDocStores()Z
+PTG:
+Vars:
+26
+$r41 1 61 
+$r9 1 120 
+$r12 1 133 
+$r17 1 352 
+$r3 1 5 
+r0 1 -1 
+$r19 1 318 
+$r11 1 128 
+r2 1 11 
+$r1 1 5 
+$r16 1 345 
+$r26 1 171 
+r44 1 305 
+$r5 1 61 
+r10 1 126 
+$r27 1 171 
+$r15 1 5 
+$r8 1 115 
+$r4 1 80 
+$r14 1 147 
+$r18 1 61 
+$r40 1 57 
+$r6 1 102 
+$r7 1 110 
+r43 1 155 
+$r13 1 5 
+Fields: 5
+-1 mergePolicy 57
+-1 directory 133
+-1 docWriter 5
+-1 segmentInfos 61
+-1 deleter 345
+Accesses: 13
+4 1 -1 
+132 1 -1 
+40 1 -1 
+296 1 -1 
+76 1 -1 
+143 1 -1 
+274 1 -1 
+244 1 -1 
+56 1 -1 
+344 1 -1 
+60 1 -1 
+348 1 -1 
+93 1 -1 
+Functions: 32
+256 0 
+5 1 5 
+261 1 11 
+265 0 
+138 3 128 133 126 
+331 1 305 
+77 1 5 
+271 6 -1 133 5 57 345 61 
+80 1 80 
+144 1 5 
+147 1 147 
+341 6 -1 133 5 57 345 61 
+280 1 126 
+157 1 155 
+349 1 5 
+94 1 61 
+355 2 352 345 
+102 2 102 11 
+169 1 155 
+297 1 61 
+106 1 102 
+110 1 110 
+50 6 -1 133 5 57 345 61 
+115 1 115 
+179 2 128 171 
+307 1 305 
+120 1 120 
+57 2 57 61 
+187 1 128 
+252 0 
+316 1 305 
+318 2 11 318 
+Constructors: 2
+106 102
+138 128
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.rollbackTransaction()V
+PTG:
+Vars:
+11
+$r3 1 39 
+$r7 1 67 
+$r1 1 1 
+$r5 1 39 
+$r4 1 50 
+$r11 1 67 
+$r8 1 67 
+r0 1 -1 
+$r6 1 39 
+$r2 1 23 
+$r10 1 39 
+Fields: 5
+-1 docWriter 23
+-1 infoStream 1
+-1 segmentInfos 39
+-1 deleter 67
+-1 localRollbackSegmentInfos 50
+Accesses: 15
+0 1 -1 
+96 1 -1 
+66 1 -1 
+38 1 -1 
+70 1 -1 
+45 1 -1 
+78 1 -1 
+15 1 -1 
+49 1 -1 
+19 1 -1 
+85 1 -1 
+22 1 -1 
+89 1 -1 
+26 1 -1 
+59 1 -1 
+Functions: 12
+113 6 -1 1 50 67 23 39 
+35 6 -1 1 50 67 23 39 
+100 1 67 
+53 2 50 39 
+104 6 -1 1 50 67 23 39 
+42 1 39 
+11 6 -1 1 50 67 23 39 
+75 2 67 39 
+124 0 
+93 2 67 39 
+30 1 23 
+63 6 -1 1 50 67 23 39 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.abort()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.commitTransaction()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 100 
+$r3 1 96 
+$r1 1 1 
+Fields: 3
+-1 infoStream 1
+-1 deleter 96
+-1 localRollbackSegmentInfos 100
+Accesses: 8
+0 1 -1 
+19 1 -1 
+99 1 -1 
+72 1 -1 
+26 1 -1 
+108 1 -1 
+15 1 -1 
+95 1 -1 
+Functions: 9
+128 0 
+83 4 -1 96 1 100 
+37 4 -1 96 1 100 
+117 4 -1 96 1 100 
+133 4 -1 96 1 100 
+23 4 -1 96 1 100 
+87 4 -1 96 1 100 
+103 2 96 100 
+11 4 -1 96 1 100 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.init(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/analysis/Analyzer;ZLorg/apache/lucene/index/IndexDeletionPolicy;ZI)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r3 1 -5 
+r1 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+18 4 -1 -2 -3 -5 
+35 4 -1 -2 -3 -5 
+Constructors: 0
+
+Summary: 7
+-2 -3 1 0 3 -1 -5 
+org/apache/lucene/index/IndexWriter.setWriteLockTimeout(J)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.commitMergedDeletes(Lorg/apache/lucene/index/MergePolicy$OneMerge;)V
+PTG:
+Vars:
+40
+$r13 1 57 
+$r29 1 233 
+$r31 1 244 
+r0 1 -2 
+$r21 1 383 
+$r37 1 42 
+$r24 1 177 
+$r27 1 198 
+r1 1 28 
+$r15 3 455 222 362 
+$r4 1 35 
+$r41 1 63 
+$r12 3 455 222 362 
+$r28 1 203 
+$r40 1 60 
+$r25 1 183 
+$r10 1 482 
+r3 1 -1 
+r18 1 111 
+r17 1 103 
+$r14 1 501 
+$r33 1 217 
+$r26 1 188 
+r2 1 33 
+$r11 1 485 
+$r20 1 57 
+$r19 1 373 
+$r34 2 222 362 
+$r42 1 66 
+$r7 1 472 
+$r22 1 357 
+$r5 3 455 222 362 
+$r30 1 239 
+$r9 1 479 
+$r8 3 455 222 362 
+$r6 1 462 
+$r39 1 57 
+r44 2 357 217 
+$r38 1 52 
+$r23 2 222 362 
+Fields: 9
+-2 segments 33
+-2 info 455
+-2 info 362
+-2 info 222
+-2 segmentsClone 28
+111 dir 239
+103 dir 183
+-1 directory 57
+-1 infoStream 35
+Accesses: 20
+34 1 -1 
+454 1 -2 
+361 1 -2 
+362 2 362 222 
+140 1 111 
+237 1 111 
+493 1 -1 
+497 1 -2 
+435 1 111 
+181 1 103 
+119 1 111 
+24 1 -2 
+56 1 -1 
+377 1 -1 
+475 1 -2 
+507 1 -2 
+124 1 103 
+29 1 -2 
+221 1 -2 
+222 2 362 222 
+Functions: 47
+513 3 455 362 222 
+386 3 373 57 383 
+196 2 111 239 
+69 4 -1 66 35 57 
+6 3 -1 35 57 
+198 2 198 203 
+262 1 177 
+136 0 
+201 2 103 183 
+458 3 455 362 222 
+332 1 177 
+524 2 357 217 
+462 1 462 
+81 1 33 
+401 1 373 
+466 1 462 
+147 2 103 183 
+20 0 
+278 1 233 
+344 2 111 239 
+472 2 472 479 
+536 0 
+476 3 455 362 222 
+415 2 357 217 
+97 1 28 
+161 2 111 239 
+482 1 482 
+228 1 217 
+292 0 
+296 1 233 
+488 4 -1 35 485 57 
+105 1 33 
+42 1 42 
+173 0 
+46 1 42 
+368 1 357 
+242 2 111 239 
+498 3 455 362 222 
+52 2 52 60 
+310 2 357 217 
+55 7 -2 33 455 57 362 28 222 
+247 3 244 233 239 
+504 4 357 501 217 57 
+186 2 103 183 
+381 2 111 239 
+63 1 63 
+191 3 177 183 188 
+Constructors: 7
+368 357
+386 373
+466 462
+228 217
+247 233
+46 42
+191 177
+
+Summary: 33
+482 239 383 501 362 60 66 357 485 462 217 42 177 188 198 244 -2 455 103 -1 28 479 33 233 203 111 183 52 222 373 0 63 472 
+org/apache/lucene/index/IndexWriter.setMaxBufferedDocs(I)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r4 1 79 
+$r3 1 70 
+$r6 1 86 
+$r5 1 83 
+$r1 1 51 
+$r2 1 63 
+Fields: 2
+-1 docWriter 51
+-1 infoStream 63
+Accesses: 2
+50 1 -1 
+62 1 -1 
+Functions: 11
+1 3 -1 51 63 
+83 1 83 
+20 0 
+70 1 70 
+55 1 51 
+89 4 -1 51 86 63 
+74 1 70 
+59 3 -1 51 63 
+29 3 -1 51 63 
+46 0 
+79 1 79 
+Constructors: 1
+74 70
+
+Summary: 5
+79 83 -1 70 86 
+org/apache/lucene/index/IndexWriter.getMaxBufferedDocs()I
+PTG:
+Vars:
+2
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 docWriter 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.setMaxMergeDocs(I)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+5 1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+org/apache/lucene/index/IndexWriter.deleteDocuments(Lorg/apache/lucene/index/Term;)V
+PTG:
+Vars:
+3
+$r2 1 5 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 docWriter 5
+Accesses: 2
+4 1 -1 
+30 1 -1 
+Functions: 3
+1 2 -1 5 
+5 2 -2 5 
+21 2 -1 5 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/index/IndexWriter.setRollbackSegmentInfos(Lorg/apache/lucene/index/SegmentInfos;)V
+PTG:
+Vars:
+11
+$r4 1 37 
+$r3 1 2 
+$r7 1 63 
+r1 1 -2 
+$r11 1 19 
+$r9 1 74 
+$r6 1 19 
+$r2 1 2 
+$r5 1 19 
+$r8 1 71 
+r0 1 -1 
+Fields: 2
+-1 rollbackSegmentInfos 19
+-1 rollbackSegments 63
+Accesses: 6
+18 1 -1 
+66 1 -1 
+8 1 -1 
+44 1 -1 
+62 1 -1 
+47 1 -1 
+Functions: 8
+32 0 
+48 1 19 
+1 1 -2 
+17 3 -1 19 63 
+82 3 71 74 63 
+67 1 19 
+41 1 37 
+79 1 74 
+Constructors: 2
+41 37
+79 74
+
+Summary: 4
+-2 0 74 -1 
+org/apache/lucene/index/IndexWriter.optimize(IZ)V
+PTG:
+Vars:
+25
+$r28 1 57 
+$r27 1 53 
+$r30 1 63 
+$r29 1 60 
+$r10 1 260 
+$r1 1 37 
+$r5 1 140 
+$r9 1 260 
+$r26 1 44 
+r40 1 146 
+$r6 1 186 
+r46 1 297 
+$r24 1 115 
+$r8 1 260 
+r0 1 -1 
+$r21 1 208 
+$r4 1 96 
+r41 1 160 
+$r11 1 297 
+$r25 1 124 
+r42 1 194 
+$r3 1 85 
+$r22 1 160 
+$r23 1 96 
+r43 1 208 
+Fields: 6
+-1 mergeExceptions 260
+-1 pendingMerges 140
+-1 segmentsToOptimize 115
+-1 infoStream 37
+-1 segmentInfos 96
+-1 runningMerges 186
+Accesses: 16
+227 1 208 
+259 1 -1 
+36 1 -1 
+292 1 -1 
+139 1 -1 
+173 1 160 
+334 1 -1 
+271 1 -1 
+114 1 -1 
+179 1 160 
+307 1 297 
+118 1 -1 
+185 1 -1 
+92 1 -1 
+221 1 208 
+95 1 -1 
+Functions: 39
+1 7 -1 96 115 260 37 186 140 
+66 8 -1 96 115 260 37 186 140 63 
+323 0 
+196 1 194 
+260 1 260 
+389 7 -1 96 115 260 37 186 140 
+73 7 -1 96 115 260 37 186 140 
+329 0 
+140 1 140 
+332 1 297 
+13 0 
+206 1 194 
+272 1 260 
+17 0 
+81 7 -1 96 115 260 37 186 140 
+148 1 146 
+341 0 
+22 0 
+408 7 -1 96 115 260 37 186 140 
+89 1 85 
+26 0 
+347 0 
+158 1 146 
+32 0 
+96 1 96 
+352 1 297 
+293 1 260 
+44 1 44 
+48 1 44 
+368 0 
+53 2 53 57 
+119 1 96 
+56 7 -1 96 115 260 37 186 140 
+248 7 -1 96 115 260 37 186 140 
+186 1 186 
+60 1 60 
+381 7 -1 96 115 260 37 186 140 
+127 2 115 124 
+319 0 
+Constructors: 2
+48 44
+89 85
+
+Summary: 2
+338 357 
+org/apache/lucene/index/IndexWriter.<init>(Ljava/io/File;Lorg/apache/lucene/analysis/Analyzer;ZLorg/apache/lucene/index/IndexWriter$MaxFieldLength;)V
+PTG:
+Vars:
+16
+$r1 1 17 
+r12 1 -2 
+$r3 1 40 
+r14 1 -3 
+r0 1 -1 
+$r10 1 136 
+r15 1 -5 
+$r9 1 113 
+$r6 1 80 
+$r2 1 29 
+$r5 1 69 
+$r13 1 159 
+$r8 1 102 
+$r11 1 147 
+$r7 1 91 
+$r4 1 58 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 15
+-1 0 
+1 1 -1 
+33 1 29 
+167 1 -5 
+73 1 69 
+106 1 102 
+44 1 40 
+140 1 136 
+172 3 -1 -3 159 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+158 1 -2 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 6
+-2 1 -1 -3 0 -5 
+org/apache/lucene/index/IndexWriter.numRamDocs()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 docWriter 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.<init>(Ljava/lang/String;Lorg/apache/lucene/analysis/Analyzer;Lorg/apache/lucene/index/IndexWriter$MaxFieldLength;)V
+PTG:
+Vars:
+16
+$r4 1 58 
+$r1 1 17 
+$r9 1 113 
+$r10 1 136 
+$r8 1 102 
+$r7 1 91 
+$r11 1 147 
+r15 1 -4 
+r12 1 -2 
+$r13 1 159 
+$r6 1 80 
+$r3 1 40 
+r14 1 -3 
+$r5 1 69 
+$r2 1 29 
+r0 1 -1 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 15
+-1 0 
+1 1 -1 
+33 1 29 
+166 1 -4 
+73 1 69 
+106 1 102 
+170 3 -1 -3 159 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+158 1 -2 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 5
+-2 -4 159 -1 -3 
+org/apache/lucene/index/IndexWriter.close(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 3
+0 1 -1 
+23 1 -1 
+15 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.<init>(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/analysis/Analyzer;ZLorg/apache/lucene/index/IndexWriter$MaxFieldLength;)V
+PTG:
+Vars:
+15
+$r6 1 80 
+$r1 1 17 
+$r3 1 40 
+$r7 1 91 
+$r2 1 29 
+r13 1 -3 
+$r9 1 113 
+$r4 1 58 
+r0 1 -1 
+r12 1 -2 
+$r10 1 136 
+$r8 1 102 
+r14 1 -5 
+$r5 1 69 
+$r11 1 147 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 14
+-1 0 
+1 1 -1 
+33 1 29 
+164 1 -5 
+73 1 69 
+169 3 -1 -2 -3 
+106 1 102 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 4
+-2 -1 -3 -5 
+org/apache/lucene/index/IndexWriter.optimize()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.setMaxFieldLength(I)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r3 1 25 
+$r1 1 10 
+$r2 1 18 
+$r4 1 34 
+$r6 1 41 
+$r5 1 38 
+Fields: 2
+-1 docWriter 10
+-1 infoStream 18
+Accesses: 3
+17 1 -1 
+6 1 -1 
+9 1 -1 
+Functions: 7
+1 3 -1 18 10 
+34 1 34 
+38 1 38 
+25 1 25 
+44 4 -1 18 41 10 
+29 1 25 
+14 1 10 
+Constructors: 1
+29 25
+
+Summary: 5
+34 38 41 25 -1 
+org/apache/lucene/index/IndexWriter.<init>(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/analysis/Analyzer;Z)V
+PTG:
+Vars:
+14
+r13 1 -3 
+$r2 1 29 
+$r5 1 69 
+r0 1 -1 
+$r4 1 58 
+$r3 1 40 
+$r7 1 91 
+r12 1 -2 
+$r11 1 147 
+$r1 1 17 
+$r9 1 113 
+$r10 1 136 
+$r8 1 102 
+$r6 1 80 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 13
+-1 0 
+1 1 -1 
+33 1 29 
+167 3 -1 -2 -3 
+73 1 69 
+106 1 102 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 3
+-2 -1 -3 
+org/apache/lucene/index/IndexWriter.doFlush(ZZ)Z
+PTG:
+Vars:
+84
+$r76 1 41 
+$r94 1 521 
+$r69 1 149 
+$r39 1 41 
+$r32 1 161 
+$r9 1 41 
+$r106 1 41 
+$r21 1 638 
+$r38 1 322 
+$r40 1 329 
+$r22 1 41 
+$r91 1 -1 
+$r61 1 41 
+$r55 1 236 
+$r36 1 364 
+$r82 1 826 
+$r65 1 293 
+$r31 1 403 
+$r23 1 577 
+$r46 1 194 
+$r89 1 816 
+$r51 1 215 
+$r67 1 300 
+$r34 1 356 
+$r98 1 514 
+$r24 1 553 
+$r66 1 297 
+$r3 1 41 
+$r95 1 496 
+$r45 1 188 
+$r58 1 252 
+$r78 1 -1 
+$r80 1 161 
+$r35 1 361 
+$r54 1 232 
+$r4 1 41 
+$r53 1 226 
+$r59 1 257 
+$r41 1 168 
+$r47 1 41 
+$r104 1 603 
+$r8 1 684 
+$r44 1 185 
+$r96 1 506 
+$r81 1 829 
+$r83 1 838 
+$r1 1 41 
+$r48 1 201 
+$r102 1 41 
+$r63 1 276 
+$r101 1 161 
+$r62 1 273 
+$r87 1 801 
+$r52 1 221 
+$r37 1 41 
+$r49 1 204 
+$r93 1 161 
+$r77 1 -1 
+$r2 1 41 
+$r42 1 178 
+$r68 1 303 
+r0 1 -1 
+$r56 1 242 
+$r97 1 511 
+$r85 1 849 
+$r64 1 283 
+r6 1 385 
+$r57 1 246 
+$r88 1 811 
+$r7 1 638 
+$r50 1 210 
+r99 1 594 
+$r84 1 843 
+$r103 1 594 
+$r60 1 263 
+$r105 1 41 
+$r86 1 852 
+$r5 1 41 
+$r43 1 41 
+$r33 1 346 
+$r90 1 819 
+r100 1 112 
+$r73 1 -1 
+$r75 1 41 
+Fields: 7
+-1 mergePolicy 684
+-1 directory 603
+-1 docWriter 41
+-1 infoStream 161
+-1 segmentInfos 638
+-1 deleter 521
+-1 deleter 826
+Accesses: 38
+66 1 -1 
+197 1 -1 
+325 1 -1 
+901 1 -1 
+136 1 -1 
+520 1 -1 
+266 1 -1 
+650 1 -1 
+908 1 -1 
+77 1 -1 
+657 1 -1 
+338 1 -1 
+793 1 -1 
+602 1 -1 
+29 1 -1 
+160 1 -1 
+99 1 -1 
+419 1 -1 
+36 1 -1 
+614 1 -1 
+40 1 -1 
+488 1 -1 
+105 1 -1 
+874 1 -1 
+683 1 -1 
+687 1 -1 
+625 1 -1 
+881 1 -1 
+50 1 -1 
+181 1 -1 
+56 1 -1 
+121 1 -1 
+825 1 -1 
+378 1 -1 
+637 1 -1 
+701 1 -1 
+318 1 -1 
+894 1 -1 
+Functions: 85
+257 1 257 
+2 8 -1 161 41 521 826 603 684 638 
+642 2 594 638 
+517 9 -1 161 514 41 521 826 603 684 638 
+263 1 263 
+905 1 41 
+11 8 -1 161 41 521 826 603 684 638 
+267 1 41 
+526 2 385 521 
+912 1 41 
+273 1 273 
+661 8 -1 161 41 521 826 603 684 638 
+279 9 -1 161 276 41 521 826 603 684 638 
+407 1 403 
+25 0 
+153 1 149 
+666 8 -1 161 41 521 826 603 684 638 
+283 1 283 
+287 1 283 
+801 1 801 
+675 8 -1 161 41 521 826 603 684 638 
+420 1 41 
+293 2 293 297 
+805 1 801 
+168 1 168 
+296 8 -1 161 41 521 826 603 684 638 
+41 1 41 
+811 2 385 811 
+172 1 168 
+300 1 300 
+684 3 594 684 638 
+557 1 553 
+816 1 816 
+178 2 178 185 
+306 9 -1 161 41 521 826 603 684 638 303 
+182 1 41 
+822 9 -1 161 819 41 521 826 603 684 638 
+567 2 112 385 
+57 1 41 
+188 1 188 
+829 2 385 829 
+319 1 41 
+833 1 829 
+194 2 194 201 
+322 2 322 329 
+707 2 385 41 
+581 1 577 
+70 0 
+198 1 41 
+326 1 41 
+838 1 838 
+843 1 843 
+204 1 204 
+78 1 41 
+849 1 849 
+210 1 210 
+215 1 215 
+855 2 852 826 
+346 1 346 
+221 1 221 
+350 1 346 
+863 1 594 
+226 1 226 
+867 8 -1 161 41 521 826 603 684 638 
+356 2 112 356 
+615 1 41 
+232 1 232 
+361 1 361 
+106 1 41 
+236 1 236 
+621 4 112 385 594 603 
+878 0 
+367 9 -1 161 41 521 826 603 684 364 638 
+496 1 496 
+242 1 242 
+370 8 -1 161 41 521 826 603 684 638 
+500 1 496 
+629 1 41 
+885 0 
+246 1 246 
+122 1 41 
+506 2 385 506 
+379 1 41 
+252 1 252 
+511 1 511 
+Constructors: 11
+833 829
+500 496
+581 577
+805 801
+407 403
+153 149
+172 168
+557 553
+621 594
+350 346
+287 283
+
+Summary: 2
+594 -1 
+org/apache/lucene/index/IndexWriter.<init>(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/analysis/Analyzer;Lorg/apache/lucene/index/IndexDeletionPolicy;Lorg/apache/lucene/index/IndexWriter$MaxFieldLength;)V
+PTG:
+Vars:
+16
+r0 1 -1 
+$r6 1 80 
+$r8 1 102 
+$r1 1 17 
+$r11 1 147 
+r13 1 -3 
+$r5 1 69 
+$r4 1 58 
+$r10 1 136 
+$r3 1 40 
+r12 1 -2 
+r15 1 -5 
+r14 1 -4 
+$r2 1 29 
+$r7 1 91 
+$r9 1 113 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 14
+-1 0 
+1 1 -1 
+33 1 29 
+163 1 -5 
+168 4 -1 -2 -3 -4 
+73 1 69 
+106 1 102 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 5
+-2 -4 -1 -3 -5 
+org/apache/lucene/index/IndexWriter.hasExternalSegments()Z
+PTG:
+Vars:
+2
+$r1 1 2 
+r0 1 -1 
+Fields: 1
+-1 segmentInfos 2
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.getFlushCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.maybeMerge(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.setMaxBufferedDeleteTerms(I)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r3 1 40 
+$r4 1 49 
+$r1 1 25 
+$r6 1 56 
+$r5 1 53 
+$r2 1 33 
+Fields: 2
+-1 docWriter 25
+-1 infoStream 33
+Accesses: 2
+32 1 -1 
+24 1 -1 
+Functions: 8
+1 3 -1 33 25 
+49 1 49 
+20 0 
+53 1 53 
+40 1 40 
+59 4 -1 33 56 25 
+44 1 40 
+29 1 25 
+Constructors: 1
+44 40
+
+Summary: 5
+56 53 -1 40 49 
+org/apache/lucene/index/IndexWriter.segString()Ljava/lang/String;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 2 
+_ret 1 5 
+$r2 1 5 
+Fields: 1
+-1 segmentInfos 2
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.<init>(Ljava/io/File;Lorg/apache/lucene/analysis/Analyzer;)V
+PTG:
+Vars:
+15
+r0 1 -1 
+r14 1 -3 
+$r4 1 58 
+$r1 1 17 
+$r9 1 113 
+$r8 1 102 
+$r13 1 159 
+r12 1 -2 
+$r2 1 29 
+$r6 1 80 
+$r11 1 147 
+$r10 1 136 
+$r5 1 69 
+$r7 1 91 
+$r3 1 40 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 14
+-1 0 
+1 1 -1 
+33 1 29 
+73 1 69 
+169 3 -1 -3 159 
+106 1 102 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+158 1 -2 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 4
+-2 159 -1 -3 
+org/apache/lucene/index/IndexWriter.deleteDocuments([Lorg/apache/lucene/search/Query;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 5 
+r0 1 -1 
+Fields: 1
+-1 docWriter 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+1 2 -1 5 
+5 2 -2 5 
+21 2 -1 5 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/index/IndexWriter.messageState()V
+PTG:
+Vars:
+28
+$r7 1 34 
+$r20 1 62 
+$r4 1 17 
+$r25 1 119 
+$r5 1 22 
+$r18 1 83 
+$r10 1 46 
+$r15 1 68 
+$r24 1 115 
+$r8 1 38 
+$r1 1 1 
+$r21 1 98 
+$r22 1 103 
+$r12 1 53 
+r0 1 -1 
+$r11 1 50 
+$r17 1 62 
+$r14 1 62 
+$r6 1 29 
+$r9 1 41 
+$r2 1 10 
+$r27 1 125 
+$r23 1 110 
+$r3 1 14 
+$r16 1 73 
+$r13 1 58 
+$r26 1 122 
+$r19 1 88 
+Fields: 4
+-1 mergePolicy 38
+-1 directory 14
+-1 docWriter 62
+-1 mergeScheduler 50
+Accesses: 8
+49 1 -1 
+37 1 -1 
+25 1 -1 
+106 1 -1 
+91 1 -1 
+76 1 -1 
+13 1 -1 
+61 1 -1 
+Functions: 25
+128 6 -1 50 38 125 14 62 
+1 1 1 
+68 1 68 
+5 1 1 
+73 1 73 
+10 2 10 14 
+77 1 62 
+17 1 17 
+83 1 83 
+22 1 22 
+88 1 88 
+92 1 62 
+29 1 29 
+34 2 34 38 
+98 1 98 
+103 1 103 
+41 1 41 
+46 2 50 46 
+110 1 110 
+115 2 115 119 
+53 1 53 
+118 5 -1 50 38 14 62 
+58 1 58 
+122 1 122 
+62 1 62 
+Constructors: 1
+5 1
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.hasExternalSegments(Lorg/apache/lucene/index/SegmentInfos;)Z
+PTG:
+Vars:
+5
+r2 1 -1 
+$r3 1 21 
+$r4 1 17 
+r0 1 -2 
+$r1 1 14 
+Fields: 2
+-1 directory 21
+14 dir 17
+Accesses: 2
+20 1 -1 
+14 1 14 
+Functions: 2
+0 1 -2 
+12 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/index/IndexWriter.rollback()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+4 1 -1 
+Functions: 4
+1 1 -1 
+18 0 
+22 1 -1 
+30 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.setMessageID(Ljava/io/PrintStream;)V
+PTG:
+Vars:
+3
+$r2 1 12 
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 3
+4 1 -1 
+43 1 -1 
+28 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/apache/lucene/index/IndexWriter.getDefaultInfoStream()Ljava/io/PrintStream;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.rollbackInternal()V
+PTG:
+Vars:
+16
+$r1 1 3 
+$r9 1 3 
+$r11 1 52 
+$r8 1 72 
+r0 1 -1 
+$r10 1 72 
+$r12 1 52 
+$r2 1 16 
+$r20 1 34 
+$r3 1 23 
+$r6 1 72 
+$r7 1 83 
+$r18 1 45 
+$r5 1 34 
+$r19 1 34 
+$r21 1 52 
+Fields: 8
+-1 mergePolicy 16
+-1 directory 45
+-1 rollbackSegmentInfos 83
+-1 docWriter 3
+-1 segmentInfos 72
+-1 pendingCommit 34
+-1 deleter 52
+-1 mergeScheduler 23
+Accesses: 22
+64 1 -1 
+33 1 -1 
+2 1 -1 
+262 1 -1 
+71 1 -1 
+40 1 -1 
+44 1 -1 
+172 1 -1 
+237 1 -1 
+269 1 -1 
+78 1 -1 
+142 1 -1 
+15 1 -1 
+111 1 -1 
+176 1 -1 
+82 1 -1 
+146 1 -1 
+51 1 -1 
+22 1 -1 
+55 1 -1 
+154 1 -1 
+253 1 -1 
+Functions: 20
+96 9 -1 16 34 83 3 52 23 72 45 
+257 0 
+68 9 -1 16 34 83 3 52 23 72 45 
+6 1 3 
+138 0 
+266 9 -1 16 34 83 3 52 23 72 45 
+75 1 72 
+107 0 
+12 9 -1 16 34 83 3 52 23 72 45 
+302 9 -1 16 34 83 3 52 23 72 45 
+48 2 34 45 
+19 1 16 
+115 1 3 
+86 2 83 72 
+151 2 52 72 
+280 9 -1 16 34 83 3 52 23 72 45 
+26 1 23 
+59 2 34 52 
+124 9 -1 16 34 83 3 52 23 72 45 
+158 1 52 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.<init>(Ljava/lang/String;Lorg/apache/lucene/analysis/Analyzer;ZLorg/apache/lucene/index/IndexWriter$MaxFieldLength;)V
+PTG:
+Vars:
+16
+r14 1 -3 
+$r2 1 29 
+$r6 1 80 
+$r10 1 136 
+$r13 1 159 
+$r1 1 17 
+$r9 1 113 
+$r5 1 69 
+r15 1 -5 
+$r11 1 147 
+$r7 1 91 
+r0 1 -1 
+$r4 1 58 
+r12 1 -2 
+$r3 1 40 
+$r8 1 102 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 15
+-1 0 
+1 1 -1 
+33 1 29 
+167 1 -5 
+73 1 69 
+106 1 102 
+44 1 40 
+140 1 136 
+172 3 -1 -3 159 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+158 1 -2 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 5
+-2 159 -1 -3 -5 
+org/apache/lucene/index/IndexWriter.releaseRead()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+16 1 -1 
+7 1 -1 
+Functions: 2
+32 1 -1 
+27 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.close()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.finishSync(Ljava/lang/String;Z)V
+PTG:
+Vars:
+7
+$r6 1 1 
+r0 1 -1 
+r3 1 -2 
+$r4 1 14 
+$r5 1 1 
+$r7 1 14 
+$r1 1 1 
+Fields: 2
+-1 synced 1
+-1 syncing 14
+Accesses: 5
+0 1 -1 
+32 1 -1 
+54 1 -1 
+13 1 -1 
+45 1 -1 
+Functions: 5
+50 2 1 -2 
+37 2 -2 14 
+58 1 1 
+28 0 
+14 2 -2 14 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/index/IndexWriter.applyDeletes()Z
+PTG:
+Vars:
+16
+$r2 1 -2 
+$r1 1 -2 
+$r21 1 -2 
+$r18 1 -2 
+$r4 1 -2 
+r0 1 -1 
+$r16 1 -2 
+$r5 1 -2 
+$r22 1 -2 
+r25 1 -2 
+r3 1 -2 
+$r19 1 -2 
+$r14 1 -1 
+$r20 1 -2 
+$r17 1 -2 
+r26 1 -2 
+Fields: 4
+-1 docWriter -2
+-1 segmentInfos -2
+-1 infoStream -2
+-1 deleter -2
+Accesses: 1
+2000000000 1 -1 
+Functions: 1
+-1 1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.expungeDeletes(Z)V
+PTG:
+Vars:
+22
+$r3 1 47 
+$r25 1 60 
+$r10 1 174 
+$r30 1 26 
+$r7 1 60 
+$r27 1 87 
+$r31 1 29 
+$r1 1 5 
+$r24 1 60 
+r13 1 218 
+r0 1 -1 
+$r6 1 118 
+$r32 1 32 
+$r4 1 43 
+r5 1 54 
+r11 1 174 
+$r29 1 22 
+$r23 1 197 
+$r28 1 12 
+$r9 1 60 
+$r12 1 185 
+$r26 1 87 
+Fields: 7
+54 merges 60
+-1 pendingMerges 185
+-1 mergePolicy 43
+-1 infoStream 5
+-1 segmentInfos 47
+-1 mergeScheduler 118
+-1 runningMerges 197
+Accesses: 11
+81 1 54 
+4 1 -1 
+196 1 -1 
+244 1 -1 
+117 1 -1 
+133 1 54 
+168 1 54 
+184 1 -1 
+42 1 -1 
+59 1 54 
+46 1 -1 
+Functions: 25
+1 7 -1 5 197 118 185 43 47 
+257 0 
+197 2 197 174 
+134 1 60 
+266 1 218 
+12 1 12 
+16 1 12 
+82 1 60 
+213 1 174 
+22 2 22 26 
+25 7 -1 5 197 118 185 43 47 
+29 1 29 
+285 7 -1 5 197 118 185 43 47 
+95 8 -1 5 197 118 87 185 43 47 
+35 8 -1 32 5 197 118 185 43 47 
+229 0 
+169 1 60 
+233 0 
+43 7 -1 5 197 118 185 43 47 
+239 0 
+242 1 174 
+185 2 185 174 
+122 7 -1 5 197 118 185 43 47 
+251 0 
+60 1 60 
+Constructors: 1
+16 12
+
+Summary: 15
+239 29 22 251 218 60 229 12 87 254 174 32 26 54 248 
+org/apache/lucene/index/IndexWriter.prepareCommit(Z)V
+PTG:
+Vars:
+2
+$r1 1 48 
+r0 1 -1 
+Fields: 1
+-1 pendingCommit 48
+Accesses: 4
+0 1 -1 
+18 1 -1 
+40 1 -1 
+47 1 -1 
+Functions: 6
+81 2 -1 48 
+36 0 
+69 2 -1 48 
+76 2 -1 48 
+61 0 
+14 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.getMergeFactor()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+org/apache/lucene/index/IndexWriter.getDirectory()Lorg/apache/lucene/store/Directory;
+PTG:
+Vars:
+3
+_ret 1 6 
+r0 1 -1 
+$r1 1 6 
+Fields: 1
+-1 directory 6
+Accesses: 1
+5 1 -1 
+Functions: 1
+2 2 -1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.getDefaultWriteLockTimeout()J
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.<init>(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/analysis/Analyzer;)V
+PTG:
+Vars:
+14
+$r5 1 69 
+$r6 1 80 
+$r7 1 91 
+$r10 1 136 
+$r1 1 17 
+$r2 1 29 
+$r9 1 113 
+r12 1 -2 
+r13 1 -3 
+$r11 1 147 
+r0 1 -1 
+$r4 1 58 
+$r3 1 40 
+$r8 1 102 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 13
+-1 0 
+1 1 -1 
+33 1 29 
+166 3 -1 -2 -3 
+73 1 69 
+106 1 102 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 3
+-2 -1 -3 
+org/apache/lucene/index/IndexWriter.getNumBufferedDocuments()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 docWriter 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.prepareCommit()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+6 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.getTermIndexInterval()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+5 1 -1 
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.acquireWrite()V
+PTG:
+Vars:
+5
+$r5 1 7 
+r0 1 -1 
+$r3 1 10 
+$r1 1 50 
+$r2 1 7 
+Fields: 1
+-1 writeThread 7
+Accesses: 4
+53 1 -1 
+6 1 -1 
+24 1 -1 
+31 1 -1 
+Functions: 4
+-1 0 
+20 0 
+39 2 -1 7 
+46 2 -1 7 
+Constructors: 0
+
+Summary: 2
+10 -1 
+org/apache/lucene/index/IndexWriter.<init>(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/analysis/Analyzer;Lorg/apache/lucene/index/IndexWriter$MaxFieldLength;)V
+PTG:
+Vars:
+15
+$r2 1 29 
+$r7 1 91 
+$r11 1 147 
+$r10 1 136 
+$r6 1 80 
+r0 1 -1 
+r13 1 -3 
+$r1 1 17 
+r14 1 -4 
+r12 1 -2 
+$r3 1 40 
+$r9 1 113 
+$r5 1 69 
+$r8 1 102 
+$r4 1 58 
+Fields: 0
+Accesses: 17
+65 1 -1 
+98 1 -1 
+36 1 -1 
+132 1 -1 
+8 1 -1 
+76 1 -1 
+13 1 -1 
+109 1 -1 
+47 1 -1 
+143 1 -1 
+20 1 -1 
+54 1 -1 
+87 1 -1 
+120 1 -1 
+25 1 -1 
+154 1 -1 
+127 1 -1 
+Functions: 14
+-1 0 
+1 1 -1 
+33 1 29 
+163 1 -4 
+167 3 -1 -2 -3 
+73 1 69 
+106 1 102 
+44 1 40 
+140 1 136 
+84 1 80 
+117 1 113 
+151 1 147 
+62 1 58 
+95 1 91 
+Constructors: 11
+1 -1
+33 29
+84 80
+117 113
+151 147
+73 69
+106 102
+44 40
+140 136
+62 58
+95 91
+
+Summary: 4
+-2 -4 -1 -3 
+org/apache/lucene/index/IndexWriter.finalize()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 writeLock 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+7 1 -1 
+Functions: 3
+20 2 -1 1 
+11 1 1 
+28 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.commit(J)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 1 -1 
+6 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/index/IndexWriter.addMergeException(Lorg/apache/lucene/index/MergePolicy$OneMerge;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+$r3 1 22 
+$r2 1 22 
+$r4 1 7 
+r0 1 -1 
+Fields: 1
+-1 mergeExceptions 22
+Accesses: 4
+34 1 -1 
+21 1 -1 
+38 1 -2 
+46 1 -1 
+Functions: 4
+17 0 
+51 2 -2 22 
+6 1 -2 
+22 2 -2 22 
+Constructors: 0
+
+Summary: 3
+-2 -1 7 
+org/apache/lucene/index/IndexWriter.getBufferedDeleteTermsSize()I
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+Fields: 1
+-1 docWriter 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+4 1 4 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/apache/lucene/index/IndexWriter.addIndexesNoOptimize([Lorg/apache/lucene/store/Directory;)V
+PTG:
+Vars:
+13
+r1 1 -2 
+$r6 1 10 
+$r7 1 10 
+$r8 1 73 
+r13 1 126 
+$r3 1 18 
+$r9 1 67 
+$r10 1 88 
+$r15 1 135 
+r0 1 -1 
+$r14 1 135 
+$r12 1 102 
+$r2 1 10 
+Fields: 6
+-2 ArrayObject 73
+-2 ArrayObject 102
+-1 directory 67
+-1 docWriter 10
+-1 infoStream 18
+-1 segmentInfos 135
+Accesses: 12
+320 1 -1 
+17 1 -1 
+177 1 126 
+193 1 126 
+66 1 -1 
+163 1 126 
+134 1 -1 
+200 1 -1 
+9 1 -1 
+313 1 -1 
+236 1 -1 
+300 1 -1 
+Functions: 30
+1 5 -1 18 67 135 10 
+257 5 -1 18 67 135 10 
+324 0 
+6 8 -1 -2 18 67 102 135 73 10 
+135 2 135 126 
+267 5 -1 18 67 135 10 
+13 1 10 
+206 2 135 126 
+84 0 
+150 0 
+154 0 
+28 5 -1 18 67 135 10 
+92 1 88 
+160 0 
+35 5 -1 18 67 135 10 
+294 5 -1 18 67 135 10 
+103 2 102 88 
+168 0 
+42 5 -1 18 67 135 10 
+174 0 
+111 1 88 
+304 1 10 
+241 1 10 
+53 5 -1 18 67 135 10 
+245 5 -1 18 67 135 10 
+182 0 
+119 1 88 
+249 5 -1 18 67 135 10 
+188 0 
+253 5 -1 18 67 135 10 
+Constructors: 1
+92 88
+
+Summary: 13
+174 -2 102 168 88 126 182 150 73 185 160 165 179 
+org/apache/lucene/index/IndexWriter.getInfoStream()Ljava/io/PrintStream;
+PTG:
+Vars:
+3
+_ret 1 5 
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 infoStream 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/IndexWriter.finishAddIndexes()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,478 @@
+22
+org/h2/message/Message.convertIOException(Ljava/io/IOException;Ljava/lang/String;)Ljava/sql/SQLException;
+PTG:
+Vars:
+6
+r0 1 -3 
+r1 1 -2 
+$r4 1 61 
+$r2 1 47 
+_ret 1 61 
+$r3 1 53 
+Fields: 0
+Accesses: 0
+Functions: 5
+34 1 -2 
+4 1 -2 
+52 1 -2 
+29 1 -2 
+47 2 -2 47 
+Constructors: 0
+
+Summary: 4
+-2 47 29 1 
+org/h2/message/Message.getSQLException(I)Lorg/h2/jdbc/JdbcSQLException;
+PTG:
+Vars:
+3
+$r0 0 
+$r1 1 5 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 0 
+Constructors: 0
+
+Summary: 0
+
+org/h2/message/Message.convert(Ljava/lang/StackOverflowError;)Ljava/sql/SQLException;
+PTG:
+Vars:
+4
+$r2 1 7 
+r0 1 -2 
+$r1 1 4 
+_ret 1 7 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -2 4 
+Constructors: 0
+
+Summary: 2
+-2 4 
+org/h2/message/Message.convertThrowable(Ljava/lang/Throwable;)Ljava/sql/SQLException;
+PTG:
+Vars:
+5
+r0 1 -2 
+$r5 1 83 
+$r6 1 87 
+_ret 1 87 
+$r4 1 77 
+Fields: 0
+Accesses: 0
+Functions: 6
+-1 0 
+17 1 -2 
+82 1 -2 
+52 1 -2 
+77 2 -2 77 
+47 1 -2 
+Constructors: 0
+
+Summary: 3
+17 47 77 
+org/h2/message/Message.translate(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+12
+r6 1 -2 
+$r4 1 20 
+$r7 1 33 
+$r3 1 79 
+$r5 1 29 
+r1 1 -3 
+$r0 1 2 
+$r9 1 8 
+$r8 1 38 
+r2 1 60 
+_ret 3 44 15 96 
+r10 3 44 15 96 
+Fields: 1
+-3 ArrayObject 60
+Accesses: 0
+Functions: 9
+33 1 33 
+67 1 60 
+20 1 20 
+38 1 38 
+8 2 -2 8 
+24 1 20 
+92 5 96 -3 44 60 15 
+29 2 -2 29 
+77 1 60 
+Constructors: 1
+24 20
+
+Summary: 5
+-3 60 -2 0 1 
+org/h2/message/Message.getSyntaxError(Ljava/lang/String;ILjava/lang/String;)Ljava/sql/SQLException;
+PTG:
+Vars:
+6
+r4 1 5 
+r1 1 -4 
+r3 1 -2 
+$r0 1 9 
+$r2 1 20 
+_ret 1 20 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+9 1 9 
+Constructors: 0
+
+Summary: 4
+-2 9 2 0 
+org/h2/message/Message.getInternalError(Ljava/lang/String;Ljava/lang/Exception;)Ljava/lang/Error;
+PTG:
+Vars:
+4
+r3 1 -3 
+r1 1 -2 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 3
+16 1 0 
+5 2 0 -2 
+11 2 0 -3 
+Constructors: 1
+5 0
+
+Summary: 3
+-2 -3 1 
+org/h2/message/Message.convert(Ljava/lang/Exception;)Ljava/sql/SQLException;
+PTG:
+Vars:
+6
+r13 2 -2 14 
+$r0 1 96 
+$r1 1 102 
+$r12 1 -2 
+_ret 1 106 
+$r2 1 106 
+Fields: 0
+Accesses: 0
+Functions: 7
+96 3 96 -2 14 
+83 2 -2 14 
+101 2 -2 14 
+39 0 
+8 1 -2 
+60 2 -2 14 
+78 2 -2 14 
+Constructors: 0
+
+Summary: 4
+60 78 96 0 
+org/h2/message/Message.getUnsupportedException(Ljava/lang/String;)Lorg/h2/jdbc/JdbcSQLException;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/h2/message/Message.getSyntaxError(Ljava/lang/String;I)Ljava/sql/SQLException;
+PTG:
+Vars:
+4
+r2 1 5 
+r1 1 -2 
+_ret 1 9 
+$r0 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+8 1 5 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/h2/message/Message.getSQLException(ILjava/lang/Throwable;[Ljava/lang/String;)Lorg/h2/jdbc/JdbcSQLException;
+PTG:
+Vars:
+6
+r2 1 10 
+r0 1 4 
+r1 1 -4 
+$r3 1 12 
+_ret 1 12 
+r4 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+6 2 -4 4 
+23 4 -3 4 10 12 
+Constructors: 1
+23 12
+
+Summary: 4
+-4 -3 2 1 
+org/h2/message/Message.convertToIOException(Ljava/lang/Throwable;)Ljava/io/IOException;
+PTG:
+Vars:
+6
+r2 2 23 -2 
+$r4 1 24 
+$r1 1 13 
+r3 1 -2 
+_ret 1 24 
+$r5 1 29 
+Fields: 0
+Accesses: 0
+Functions: 5
+32 2 24 29 
+19 1 -2 
+38 3 -2 23 24 
+12 1 -2 
+28 2 -2 23 
+Constructors: 1
+32 24
+
+Summary: 4
+23 -2 29 13 
+org/h2/message/Message.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/h2/message/Message.addSQL(Ljava/sql/SQLException;Ljava/lang/String;)Ljava/sql/SQLException;
+PTG:
+Vars:
+6
+$r1 1 26 
+r3 1 -3 
+_ret 1 26 
+$r4 1 36 
+r0 1 -2 
+$r2 1 31 
+Fields: 0
+Accesses: 0
+Functions: 6
+35 1 -2 
+21 1 -3 
+39 1 -2 
+12 0 
+45 5 -2 -3 36 26 31 
+30 1 -2 
+Constructors: 1
+45 26
+
+Summary: 3
+-3 0 1 
+org/h2/message/Message.throwInternalError(Ljava/lang/String;)Ljava/lang/RuntimeException;
+PTG:
+Vars:
+2
+r1 1 -2 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 2 0 -2 
+10 1 0 
+Constructors: 1
+5 0
+
+Summary: 2
+-2 0 
+org/h2/message/Message.throwInternalError()Ljava/lang/RuntimeException;
+PTG:
+Vars:
+2
+$r0 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 0
+
+org/h2/message/Message.getSQLException(ILjava/lang/String;)Lorg/h2/jdbc/JdbcSQLException;
+PTG:
+Vars:
+4
+$r2 1 9 
+$r0 1 2 
+_ret 1 9 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 2 
+Constructors: 0
+
+Summary: 2
+2 1 
+org/h2/message/Message.<clinit>()V
+PTG:
+Vars:
+32
+r27 1 209 
+$r31 1 20 
+r2 1 40 
+$r32 1 -1 
+$r10 1 82 
+r22 1 182 
+$r26 1 203 
+r14 1 111 
+$r28 1 211 
+$r3 1 41 
+$r0 1 0 
+$r5 1 59 
+$r8 1 71 
+$r24 1 193 
+$r25 1 198 
+$r1 1 34 
+r9 1 77 
+r16 1 125 
+$r21 1 174 
+$r4 1 50 
+$r17 1 137 
+$r6 1 63 
+$r30 1 23 
+$r12 1 91 
+$r13 1 103 
+r20 1 149 
+$r23 1 184 
+r33 1 15 
+r18 1 137 
+$r7 1 68 
+$r19 1 149 
+$r15 1 125 
+Fields: 0
+Accesses: 0
+Functions: 31
+-1 0 
+193 1 193 
+4 1 0 
+68 1 68 
+198 2 198 182 
+71 1 71 
+135 1 125 
+10 0 
+203 1 203 
+147 1 125 
+86 1 82 
+218 3 209 211 137 
+28 2 23 15 
+31 2 20 23 
+96 2 91 77 
+34 1 34 
+99 2 82 91 
+164 1 149 
+102 1 82 
+230 1 -1 
+103 1 103 
+41 2 40 41 
+174 2 137 174 
+113 1 111 
+50 1 50 
+54 1 50 
+184 2 149 184 
+59 2 40 59 
+123 1 111 
+188 1 184 
+63 1 63 
+Constructors: 6
+96 91
+4 0
+54 50
+86 82
+28 23
+188 184
+
+Summary: 3
+23 91 82 
+org/h2/message/Message.getInvalidValueException(Ljava/lang/String;Ljava/lang/String;)Lorg/h2/jdbc/JdbcSQLException;
+PTG:
+Vars:
+5
+r2 1 -3 
+$r3 1 14 
+r1 1 -2 
+_ret 1 14 
+$r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 3 
+Constructors: 0
+
+Summary: 3
+3 0 1 
+org/h2/message/Message.convert(Ljava/lang/Exception;Ljava/lang/String;)Ljava/sql/SQLException;
+PTG:
+Vars:
+5
+r0 1 -2 
+r1 1 4 
+r2 1 -3 
+_ret 1 4 
+$r3 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+17 2 -3 4 
+Constructors: 0
+
+Summary: 3
+-2 -3 1 
+org/h2/message/Message.getSQLException(I[Ljava/lang/String;)Lorg/h2/jdbc/JdbcSQLException;
+PTG:
+Vars:
+3
+$r1 1 3 
+_ret 1 3 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -3 
+Constructors: 0
+
+Summary: 2
+-3 1 
+org/h2/message/Message.convertToInternal(Ljava/lang/Exception;)Lorg/h2/message/InternalException;
+PTG:
+Vars:
+3
+r1 1 -2 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 2
+-2 0 

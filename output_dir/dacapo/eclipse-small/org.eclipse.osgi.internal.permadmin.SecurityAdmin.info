@@ -1,0 +1,1173 @@
+36
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.addConditionalPermissionInfo([Lorg/osgi/service/condpermadmin/ConditionInfo;[Lorg/osgi/service/permissionadmin/PermissionInfo;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+PTG:
+Vars:
+5
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+$r3 1 5 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.setDefaultPermissions([Lorg/osgi/service/permissionadmin/PermissionInfo;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r1 1 4 
+$r8 1 -1 
+$r5 1 35 
+$r4 1 23 
+r3 1 -2 
+$r6 1 40 
+Fields: 2
+-1 permissionStorage 35
+-1 lock 4
+Accesses: 4
+16 1 -1 
+34 1 -1 
+3 1 -1 
+31 1 -1 
+Functions: 5
+0 0 
+53 1 -1 
+39 1 -2 
+43 2 35 40 
+28 2 -2 23 
+Constructors: 1
+28 23
+
+Summary: 3
+-2 40 -1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getImpliedPermission(Lorg/osgi/framework/Bundle;)Lorg/eclipse/osgi/internal/permadmin/PermissionInfoCollection;
+PTG:
+Vars:
+18
+$r2 1 9 
+$r10 1 1 
+$r13 1 1 
+$r16 1 124 
+$r1 1 1 
+$r15 1 117 
+$r12 1 1 
+$r8 1 74 
+r11 1 90 
+$r3 1 46 
+$r6 1 65 
+$r7 1 71 
+$r4 1 49 
+$r20 2 24 13 
+r0 1 -1 
+r5 1 -2 
+$r14 1 1 
+_ret 1 117 
+Fields: 1
+-1 impliedPermissionInfos 1
+Accesses: 5
+0 1 -1 
+83 1 -1 
+101 1 -1 
+94 1 -1 
+110 1 -1 
+Functions: 13
+-1 0 
+65 1 65 
+71 1 71 
+42 0 
+106 2 1 90 
+13 2 24 13 
+79 3 9 74 46 
+49 1 49 
+21 0 
+56 1 49 
+121 4 -1 1 -2 90 
+59 1 -2 
+127 2 117 124 
+Constructors: 3
+56 49
+79 9
+127 117
+
+Summary: 4
+46 -1 -2 0 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.parseDNchain(Ljava/lang/String;)Ljava/util/ArrayList;
+PTG:
+Vars:
+4
+$r3 1 147 
+r0 1 -2 
+$r1 1 15 
+_ret 1 15 
+Fields: 0
+Accesses: 0
+Functions: 11
+144 1 -2 
+19 1 15 
+117 1 -2 
+165 1 -2 
+150 2 147 15 
+26 1 -2 
+42 1 -2 
+11 0 
+139 0 
+125 1 -2 
+159 1 -2 
+Constructors: 1
+19 15
+
+Summary: 2
+-2 147 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getPermissionInfos([Ljava/lang/String;)[Lorg/osgi/service/permissionadmin/PermissionInfo;
+PTG:
+Vars:
+5
+$r2 1 19 
+r1 1 8 
+r0 1 -2 
+$r3 1 25 
+_ret 1 8 
+Fields: 1
+-2 ArrayObject 25
+Accesses: 0
+Functions: 1
+26 2 19 25 
+Constructors: 1
+26 19
+
+Summary: 2
+-2 0 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.createProtectionDomain(Lorg/osgi/framework/Bundle;)Lorg/eclipse/osgi/internal/permadmin/EquinoxProtectionDomain;
+PTG:
+Vars:
+4
+$r2 1 3 
+r0 1 -1 
+r1 1 -2 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.newConditionalPermissionInfo(Ljava/lang/String;[Lorg/osgi/service/condpermadmin/ConditionInfo;[Lorg/osgi/service/permissionadmin/PermissionInfo;Ljava/lang/String;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+PTG:
+Vars:
+8
+$r6 1 0 
+$r7 1 0 
+r1 1 -2 
+r3 1 -4 
+r2 1 -3 
+r5 1 -1 
+r4 1 -5 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+9 5 0 -2 -3 -4 -5 
+Constructors: 1
+9 0
+
+Summary: 5
+-2 -4 -1 -5 -3 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getSupportedSecurityManager()Lorg/eclipse/osgi/internal/permadmin/EquinoxSecurityManager;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 2 14 1 
+r0 1 -1 
+_ret 2 14 1 
+Fields: 1
+-1 supportedSecurityManager 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.<init>(Lorg/eclipse/osgi/internal/permadmin/EquinoxSecurityManager;Lorg/eclipse/osgi/framework/internal/core/Framework;[Lorg/osgi/service/permissionadmin/PermissionInfo;Lorg/eclipse/osgi/internal/permadmin/PermissionInfoCollection;)V
+PTG:
+Vars:
+7
+r4 1 -3 
+r3 1 -2 
+$r2 1 28 
+r6 1 -5 
+r0 1 -1 
+r5 1 -4 
+$r1 1 5 
+Fields: 0
+Accesses: 9
+17 1 -1 
+50 1 -1 
+35 1 -1 
+24 1 -1 
+40 1 -1 
+56 1 -1 
+12 1 -1 
+45 1 -1 
+61 1 -1 
+Functions: 4
+-1 0 
+32 1 28 
+1 1 -1 
+9 1 5 
+Constructors: 3
+32 28
+1 -1
+9 5
+
+Summary: 5
+2 1 3 0 -1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.<clinit>()V
+PTG:
+Vars:
+5
+$r0 1 0 
+$r4 1 29 
+$r2 1 9 
+$r3 1 15 
+$r5 1 21 
+Fields: 0
+Accesses: 0
+Functions: 3
+4 1 0 
+8 1 0 
+25 2 0 21 
+Constructors: 1
+4 0
+
+Summary: 1
+0 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getEncodedPermissionInfos([Lorg/osgi/service/permissionadmin/PermissionInfo;)[Ljava/lang/String;
+PTG:
+Vars:
+5
+r1 1 8 
+$r3 1 22 
+r0 1 -2 
+$r2 1 21 
+_ret 1 8 
+Fields: 1
+-2 ArrayObject 21
+Accesses: 0
+Functions: 1
+21 1 21 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.<init>(Lorg/eclipse/osgi/internal/permadmin/EquinoxSecurityManager;Lorg/eclipse/osgi/framework/internal/core/Framework;Lorg/eclipse/osgi/framework/adaptor/PermissionStorage;)V
+PTG:
+Vars:
+27
+r25 1 186 
+r0 1 -1 
+r24 1 153 
+$r7 1 62 
+$r19 1 163 
+$r13 1 235 
+$r8 1 67 
+$r5 1 49 
+$r17 1 200 
+$r18 1 135 
+$r2 1 28 
+r11 1 91 
+$r16 1 194 
+r6 1 -4 
+$r9 1 71 
+$r15 1 262 
+r26 2 256 215 
+r4 1 -3 
+r10 1 84 
+$r20 1 156 
+r3 1 -2 
+$r21 1 99 
+r23 1 141 
+r12 1 117 
+$r14 1 236 
+$r22 1 -1 
+$r1 1 5 
+Fields: 4
+186 ArrayObject 235
+117 ArrayObject 135
+117 ArrayObject 163
+-1 permAdminTable 156
+Accesses: 12
+272 1 -1 
+17 1 -1 
+35 1 -1 
+24 1 -1 
+40 1 -1 
+57 1 -1 
+74 1 -1 
+155 1 -1 
+12 1 -1 
+108 1 -1 
+45 1 -1 
+206 1 -1 
+Functions: 19
+-1 0 
+32 1 28 
+1 2 -1 156 
+130 2 -4 135 
+70 2 -3 67 
+166 3 163 153 156 
+9 1 5 
+105 2 99 91 
+203 4 -1 194 200 156 
+235 3 -1 235 156 
+77 1 -4 
+269 5 -1 256 262 215 156 
+111 1 -4 
+148 1 141 
+180 1 -4 
+54 2 49 -4 
+86 1 84 
+61 2 -1 156 
+62 1 62 
+Constructors: 7
+32 28
+1 -1
+54 49
+9 5
+105 99
+203 194
+269 262
+
+Summary: 8
+1 2 -1 62 -4 200 256 215 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getAccessControlContext([Ljava/lang/String;)Ljava/security/AccessControlContext;
+PTG:
+Vars:
+8
+r0 1 -1 
+r4 1 -2 
+$r5 1 17 
+$r2 1 5 
+$r6 1 21 
+$r3 1 10 
+r1 1 4 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+16 1 -2 
+25 2 5 10 
+15 3 -1 17 4 
+Constructors: 1
+25 5
+
+Summary: 5
+-2 17 10 4 -1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.setConditionalPermissionInfo(Ljava/lang/String;[Lorg/osgi/service/condpermadmin/ConditionInfo;[Lorg/osgi/service/permissionadmin/PermissionInfo;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+PTG:
+Vars:
+6
+r2 1 -3 
+$r4 1 5 
+r0 1 -1 
+r3 1 -4 
+r1 1 -2 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 4
+-2 -4 -1 -3 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.newConditionalPermissionInfo(Ljava/lang/String;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+PTG:
+Vars:
+5
+$r3 1 1 
+r0 1 -2 
+r2 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.clearCaches()V
+PTG:
+Vars:
+8
+r3 1 14 
+$r6 1 38 
+r0 1 -1 
+$r7 1 58 
+$r2 1 8 
+$r4 1 16 
+$r1 1 1 
+r5 1 22 
+Fields: 5
+14 ArrayObject 38
+22 ArrayObject 58
+-1 permAdminTable 8
+-1 lock 1
+-1 condAdminTable 16
+Accesses: 3
+0 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 4
+16 1 16 
+39 1 38 
+8 1 8 
+59 1 58 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.newConditionalPermissionUpdate()Lorg/osgi/service/condpermadmin/ConditionalPermissionUpdate;
+PTG:
+Vars:
+6
+$r7 1 7 
+$r1 1 1 
+r0 1 -1 
+$r5 1 16 
+$r4 1 13 
+$r6 1 -1 
+Fields: 2
+-1 lock 1
+-1 condAdminTable 13
+Accesses: 3
+0 1 -1 
+19 1 -1 
+12 1 -1 
+Functions: 2
+23 5 -1 16 1 7 13 
+13 1 13 
+Constructors: 1
+23 7
+
+Summary: 2
+16 -1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.createMockBundle([Ljava/lang/String;)Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+26
+r18 2 88 54 
+r17 2 88 54 
+$r20 2 88 54 
+$r31 2 88 54 
+$r12 1 60 
+$r22 1 0 
+$r3 1 15 
+$r33 1 200 
+$r28 1 200 
+$r29 2 88 54 
+$r24 1 54 
+$r13 1 60 
+r2 1 -2 
+_ret 1 200 
+$r25 1 88 
+$r26 1 112 
+r19 1 112 
+$r11 1 94 
+r4 1 19 
+r7 1 44 
+$r23 1 20 
+$r10 1 94 
+$r30 2 88 54 
+$r27 1 163 
+$r21 2 88 54 
+$r32 2 88 54 
+Fields: 1
+-2 ArrayObject 15
+Accesses: 0
+Functions: 16
+4 1 0 
+68 2 54 60 
+38 1 19 
+102 2 88 94 
+138 2 112 20 
+171 3 163 54 88 
+205 2 0 200 
+78 1 44 
+174 2 163 20 
+15 1 15 
+144 1 44 
+24 1 20 
+120 3 112 54 88 
+185 3 0 112 20 
+58 1 44 
+92 1 44 
+Constructors: 7
+4 0
+68 54
+102 88
+24 20
+120 112
+171 163
+205 200
+
+Summary: 11
+20 163 19 0 -2 60 88 94 112 54 44 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.setConditionalPermissionInfo(Ljava/lang/String;[Lorg/osgi/service/condpermadmin/ConditionInfo;[Lorg/osgi/service/permissionadmin/PermissionInfo;Z)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+PTG:
+Vars:
+14
+r1 1 4 
+r9 1 68 
+r0 1 -1 
+$r10 1 81 
+$r15 1 187 
+r6 1 25 
+$r16 1 192 
+$r13 1 155 
+r5 1 -4 
+$r12 1 -1 
+$r8 1 68 
+r2 1 13 
+r3 1 -2 
+r4 1 -3 
+Fields: 2
+-1 lock 155
+-1 condAdminTable 187
+Accesses: 2
+154 1 -1 
+186 1 -1 
+Functions: 15
+0 3 -1 155 187 
+64 1 13 
+98 2 25 13 
+162 1 4 
+6 1 4 
+38 2 25 13 
+137 2 25 13 
+44 1 13 
+78 2 -2 81 
+15 6 -1 -2 -3 -4 155 187 
+79 1 68 
+143 1 13 
+113 1 13 
+182 6 -1 -2 -3 -4 155 187 
+187 1 187 
+Constructors: 0
+
+Summary: 12
+25 1 2 4 13 -1 -3 -2 68 81 -4 0 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.commit(Ljava/util/List;J)Z
+PTG:
+Vars:
+32
+$r30 1 257 
+r4 1 31 
+$r22 1 88 
+$r5 1 36 
+r34 2 137 126 
+$r29 1 250 
+r3 1 -2 
+r0 1 -1 
+$r14 1 155 
+$r15 1 167 
+$r10 1 201 
+$r19 1 69 
+$r24 1 97 
+$r25 1 102 
+$r9 1 192 
+$r11 1 208 
+$r16 1 173 
+$r26 1 105 
+$r28 1 254 
+r8 1 59 
+$r12 1 215 
+$r21 1 85 
+$r18 1 181 
+$r20 1 73 
+$r23 1 91 
+$r13 1 151 
+$r31 1 -1 
+r7 1 59 
+$r1 1 4 
+$r27 1 236 
+$r17 1 178 
+$r32 1 -1 
+Fields: 3
+-1 permissionStorage 250
+-1 lock 4
+-1 condAdminTable 254
+Accesses: 7
+3 1 -1 
+275 1 -1 
+246 1 -1 
+249 1 -1 
+282 1 -1 
+12 1 -1 
+253 1 -1 
+Functions: 29
+0 0 
+260 2 257 250 
+133 4 -1 4 250 254 
+199 1 59 
+73 2 88 73 
+139 3 36 137 126 
+206 1 59 
+80 1 73 
+272 1 -1 
+83 1 59 
+85 1 85 
+213 1 59 
+25 1 -2 
+91 1 91 
+155 3 137 155 126 
+220 10 192 -1 208 4 215 137 201 250 254 126 
+97 1 97 
+162 1 155 
+102 1 102 
+167 1 167 
+40 1 36 
+108 2 69 105 
+173 1 173 
+178 1 178 
+51 1 -2 
+243 6 -1 4 250 236 254 31 
+119 1 59 
+184 2 181 151 
+254 1 254 
+Constructors: 7
+80 73
+162 155
+243 236
+40 36
+184 151
+108 69
+220 192
+
+Summary: 21
+36 85 -1 105 178 31 137 181 167 97 208 215 126 91 257 -2 88 173 201 59 102 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getPermissions(Ljava/lang/String;)[Lorg/osgi/service/permissionadmin/PermissionInfo;
+PTG:
+Vars:
+6
+$r1 1 1 
+r3 1 -2 
+r0 1 -1 
+$r5 1 12 
+$r4 1 8 
+$r6 1 -1 
+Fields: 2
+-1 permAdminTable 8
+-1 lock 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 2 -2 8 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.checkAllPermission()V
+PTG:
+Vars:
+2
+r0 1 3 
+$r1 1 9 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+16 2 3 9 
+13 1 9 
+Constructors: 1
+13 9
+
+Summary: 2
+9 3 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getSnapShot()Lorg/eclipse/osgi/internal/permadmin/SecurityAdmin;
+PTG:
+Vars:
+21
+$r9 1 32 
+$r4 1 24 
+$r20 1 86 
+$r14 1 65 
+$r17 1 78 
+$r15 1 71 
+r0 1 -1 
+$r16 1 72 
+$r13 1 64 
+$r7 1 12 
+$r1 1 1 
+$r3 1 7 
+$r19 1 85 
+$r6 1 16 
+$r5 1 20 
+$r21 1 104 
+$r12 1 56 
+r11 1 41 
+r10 1 38 
+$r18 1 79 
+_ret 1 7 
+Fields: 10
+38 ArrayObject 85
+38 ArrayObject 64
+38 ArrayObject 71
+38 ArrayObject 78
+-1 impliedPermissionInfos 20
+-1 framework 16
+-1 lock 1
+-1 condAdminTable 32
+-1 supportedSecurityManager 12
+-1 permAdminDefaults 24
+Accesses: 7
+0 1 -1 
+114 1 7 
+19 1 -1 
+23 1 -1 
+11 1 -1 
+15 1 -1 
+31 1 -1 
+Functions: 8
+32 1 32 
+64 1 64 
+85 1 85 
+71 1 71 
+89 6 65 86 7 56 72 79 
+27 5 16 20 7 24 12 
+78 1 78 
+111 3 7 104 41 
+Constructors: 3
+89 56
+27 7
+111 104
+
+Summary: 7
+79 38 41 -1 65 86 72 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.checkPermission(Ljava/security/Permission;Lorg/eclipse/osgi/internal/permadmin/BundlePermissions;)Z
+PTG:
+Vars:
+12
+r0 1 -1 
+$r12 1 34 
+r5 1 51 
+$r1 1 1 
+r7 1 -2 
+$r9 1 12 
+r3 1 12 
+r2 1 -3 
+$r10 1 23 
+r6 1 57 
+$r15 1 39 
+$r11 1 31 
+Fields: 4
+-1 permAdminTable 23
+-1 lock 1
+-1 condAdminTable 51
+-1 permAdminDefaults 57
+Accesses: 4
+0 1 -1 
+53 1 -1 
+22 1 -1 
+47 1 -1 
+Functions: 9
+101 1 -2 
+23 2 34 23 
+8 1 -3 
+73 2 -2 39 
+28 1 12 
+92 2 -2 57 
+109 3 -2 -3 51 
+31 1 31 
+79 1 51 
+Constructors: 0
+
+Summary: 7
+-1 -3 12 -2 34 39 31 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getConditionalPermissionInfos()Ljava/util/Enumeration;
+PTG:
+Vars:
+8
+r4 1 14 
+$r3 1 8 
+$r1 1 1 
+$r8 1 51 
+r0 1 -1 
+$r5 1 15 
+$r7 1 35 
+$r9 1 -1 
+Fields: 3
+14 ArrayObject 35
+-1 lock 1
+-1 condAdminTable 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 4
+50 1 15 
+36 2 35 15 
+21 1 15 
+8 1 8 
+Constructors: 1
+21 15
+
+Summary: 3
+14 -1 15 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.skipSpaces(Ljava/lang/String;I)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+7 1 -2 
+14 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getPermissionInfos(Ljava/net/URL;Lorg/eclipse/osgi/framework/internal/core/Framework;)[Lorg/osgi/service/permissionadmin/PermissionInfo;
+PTG:
+Vars:
+24
+$r3 1 24 
+$r22 1 61 
+$r14 1 -1 
+$r9 1 187 
+$r21 1 57 
+r26 1 79 
+$r16 1 -1 
+r18 1 -3 
+r24 1 12 
+$r8 1 184 
+$r2 1 17 
+r0 1 -2 
+r23 2 187 9 
+$r5 1 33 
+$r6 1 37 
+$r20 1 -1 
+$r7 1 131 
+r25 2 33 57 
+$r1 1 12 
+$r15 1 -1 
+$r19 1 157 
+r27 1 94 
+$r10 1 -1 
+_ret 2 187 9 
+Fields: 0
+Accesses: 0
+Functions: 21
+96 1 94 
+66 2 12 61 
+162 3 -1 -3 157 
+69 2 57 61 
+104 1 94 
+168 1 24 
+137 2 131 94 
+74 2 33 57 
+203 1 12 
+235 1 12 
+140 2 131 24 
+45 2 37 12 
+16 1 -2 
+48 2 33 37 
+115 1 94 
+20 2 17 12 
+180 2 24 184 
+89 1 79 
+155 1 -3 
+28 1 24 
+220 1 12 
+Constructors: 7
+48 33
+66 61
+20 12
+69 57
+137 131
+28 24
+45 37
+
+Summary: 12
+184 33 1 57 12 -3 -2 24 131 61 0 37 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.generateName()Ljava/lang/String;
+PTG:
+Vars:
+6
+$r0 1 0 
+$r2 1 21 
+$r3 1 24 
+r1 1 -1 
+$r4 1 27 
+_ret 1 27 
+Fields: 0
+Accesses: 2
+18 1 -1 
+10 1 -1 
+Functions: 4
+0 2 0 21 
+7 1 0 
+24 1 24 
+12 0 
+Constructors: 1
+7 0
+
+Summary: 3
+24 21 -1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getLocations()[Ljava/lang/String;
+PTG:
+Vars:
+6
+$r3 1 8 
+r4 1 14 
+$r6 1 14 
+$r5 1 -1 
+r0 1 -1 
+$r1 1 1 
+Fields: 2
+-1 permAdminTable 8
+-1 lock 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getDefaultPermissions()[Lorg/osgi/service/permissionadmin/PermissionInfo;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 8 
+$r6 1 -1 
+$r1 1 1 
+$r3 1 8 
+$r5 1 22 
+Fields: 2
+-1 lock 1
+-1 permAdminDefaults 8
+Accesses: 3
+0 1 -1 
+18 1 -1 
+7 1 -1 
+Functions: 1
+19 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getFileRelativeInfos([Lorg/osgi/service/permissionadmin/PermissionInfo;Lorg/osgi/framework/Bundle;)[Lorg/osgi/service/permissionadmin/PermissionInfo;
+PTG:
+Vars:
+26
+$r21 1 126 
+$r5 1 33 
+$r17 1 100 
+$r15 1 93 
+r2 1 15 
+r18 1 108 
+$r10 1 65 
+_ret 1 15 
+$r3 1 31 
+$r6 1 40 
+$r19 1 118 
+$r20 1 125 
+$r24 1 138 
+$r14 1 -3 
+$r8 1 49 
+$r4 1 39 
+$r7 1 55 
+$r22 1 131 
+$r23 1 137 
+$r11 1 72 
+r1 1 -3 
+$r9 1 56 
+$r16 1 99 
+r25 1 -1 
+r0 1 -2 
+$r12 1 73 
+Fields: 7
+-2 ArrayObject 137
+-2 ArrayObject 125
+-2 ArrayObject 39
+-2 ArrayObject 72
+-2 ArrayObject 99
+-2 ArrayObject 31
+-2 ArrayObject 55
+Accesses: 0
+Functions: 14
+33 2 33 40 
+129 1 108 
+99 1 99 
+39 1 39 
+72 1 72 
+137 1 137 
+76 2 65 73 
+141 4 131 118 138 126 
+49 2 49 56 
+81 1 65 
+55 1 55 
+90 1 -3 
+93 2 100 93 
+125 1 125 
+Constructors: 2
+76 65
+141 118
+
+Summary: 5
+1 -1 65 0 -3 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.setPermissions(Ljava/lang/String;[Lorg/osgi/service/permissionadmin/PermissionInfo;)V
+PTG:
+Vars:
+8
+$r5 1 11 
+r3 1 -2 
+$r1 1 4 
+$r6 1 20 
+r0 1 -1 
+r4 1 -3 
+$r7 1 25 
+$r9 1 -1 
+Fields: 3
+-1 permAdminTable 11
+-1 permissionStorage 20
+-1 lock 4
+Accesses: 3
+3 1 -1 
+19 1 -1 
+10 1 -1 
+Functions: 5
+0 0 
+16 3 -2 -3 11 
+24 1 -3 
+40 1 -1 
+28 3 -2 20 25 
+Constructors: 0
+
+Summary: 4
+-2 25 -1 -3 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.createProtectionDomain(Lorg/osgi/framework/Bundle;Lorg/eclipse/osgi/internal/permadmin/SecurityAdmin;)Lorg/eclipse/osgi/internal/permadmin/EquinoxProtectionDomain;
+PTG:
+Vars:
+12
+$r12 1 38 
+$r8 1 49 
+r2 1 5 
+$r4 1 17 
+r1 1 -2 
+$r3 1 11 
+r6 1 27 
+$r5 1 20 
+$r11 1 63 
+r9 1 -3 
+r0 1 -1 
+_ret 1 63 
+Fields: 1
+-1 framework 17
+Accesses: 1
+16 1 -1 
+Functions: 7
+0 3 -1 17 -2 
+17 2 17 11 
+69 2 49 63 
+6 4 -1 17 -2 20 
+7 1 -2 
+58 5 49 -2 -3 5 38 
+44 2 38 27 
+Constructors: 3
+69 63
+58 49
+44 38
+
+Summary: 7
+1 -1 -3 38 -2 0 49 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.delete(Lorg/eclipse/osgi/internal/permadmin/SecurityRow;Z)V
+PTG:
+Vars:
+10
+$r8 1 43 
+r3 1 20 
+$r4 1 27 
+r6 1 -2 
+r1 1 4 
+$r9 1 62 
+r0 1 -1 
+r2 1 11 
+$r7 1 38 
+r5 1 27 
+Fields: 1
+-1 lock 62
+Accesses: 1
+61 1 -1 
+Functions: 11
+0 2 -1 62 
+98 1 20 
+5 1 4 
+37 1 -2 
+69 1 4 
+85 3 -1 -2 62 
+38 2 38 43 
+56 1 20 
+25 1 20 
+41 1 27 
+13 1 11 
+Constructors: 0
+
+Summary: 8
+-2 43 11 20 38 27 4 -1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getConditionalPermissionInfo(Ljava/lang/String;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r1 1 1 
+r3 1 -2 
+$r4 1 8 
+$r5 1 12 
+$r6 1 -1 
+Fields: 2
+-1 lock 1
+-1 condAdminTable 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 2 -2 8 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/osgi/internal/permadmin/SecurityAdmin.getSupportedSystemSecurityManager()Lorg/eclipse/osgi/internal/permadmin/EquinoxSecurityManager;
+PTG:
+Vars:
+3
+$r0 1 0 
+r1 1 0 
+$r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+11 1 0 
+Constructors: 0
+
+Summary: 0
+

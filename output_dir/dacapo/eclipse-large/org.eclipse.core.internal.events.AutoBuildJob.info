@@ -1,0 +1,384 @@
+14
+org/eclipse/core/internal/events/AutoBuildJob.doBuild(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+21
+$r17 1 17 
+r3 1 28 
+$r7 1 17 
+$r13 1 229 
+$r19 1 85 
+$r12 1 17 
+$r5 1 17 
+r0 1 -1 
+$r8 1 17 
+r36 2 91 64 
+$r10 1 17 
+r35 1 4 
+$r6 1 17 
+$r11 1 202 
+$r18 1 76 
+$r2 1 20 
+r34 1 -2 
+$r4 1 17 
+$r9 1 17 
+$r14 1 17 
+$r1 1 17 
+Fields: 1
+-1 workspace 17
+Accesses: 17
+97 1 -1 
+101 1 -1 
+38 1 -1 
+198 1 -1 
+72 1 -1 
+171 1 -1 
+46 1 -1 
+16 1 -1 
+50 1 -1 
+115 1 -1 
+179 1 -1 
+211 1 -1 
+150 1 -1 
+119 1 -1 
+219 1 -1 
+29 1 -1 
+158 1 -1 
+Functions: 27
+0 1 -2 
+192 1 28 
+65 2 -1 17 
+130 2 64 91 
+199 1 17 
+73 1 17 
+202 1 202 
+11 1 4 
+76 2 85 76 
+144 2 64 91 
+17 1 17 
+82 1 4 
+20 1 20 
+215 1 17 
+159 0 
+162 0 
+226 1 4 
+35 3 17 4 28 
+232 3 17 229 28 
+43 1 17 
+109 0 
+175 0 
+241 1 4 
+58 1 17 
+186 1 4 
+250 1 4 
+127 1 17 
+Constructors: 0
+
+Summary: 13
+20 -2 202 4 91 229 0 189 28 162 76 -1 85 
+org/eclipse/core/internal/events/AutoBuildJob.run(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+6
+$r8 1 75 
+r2 1 -2 
+$r7 1 -1 
+$r3 1 29 
+r0 1 -1 
+_ret 1 75 
+Fields: 1
+-1 systemBundle 29
+Accesses: 2
+55 1 -1 
+28 1 -1 
+Functions: 8
+48 3 -1 -2 29 
+-1 0 
+4 1 -2 
+68 2 -1 29 
+74 1 -1 
+60 2 -1 29 
+13 2 -1 29 
+29 1 29 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/core/internal/events/AutoBuildJob.isInterrupted()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+21 1 -1 
+Functions: 2
+18 1 -1 
+9 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/AutoBuildJob.forceBuild()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/AutoBuildJob.avoidBuild()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/AutoBuildJob.<init>(Lorg/eclipse/core/internal/resources/Workspace;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r3 1 41 
+$r4 1 50 
+$r1 1 1 
+r5 1 -2 
+$r2 1 38 
+$r7 1 84 
+$r6 1 58 
+Fields: 1
+-1 preferences 84
+Accesses: 11
+80 1 -1 
+34 1 -1 
+19 1 -1 
+83 1 -1 
+53 1 -1 
+24 1 -1 
+9 1 -1 
+75 1 -1 
+44 1 -1 
+29 1 -1 
+14 1 -1 
+Functions: 9
+-1 0 
+48 0 
+67 2 -1 84 
+4 3 -1 1 84 
+38 1 38 
+71 1 -2 
+88 2 -1 84 
+57 1 -2 
+61 3 -1 84 58 
+Constructors: 1
+4 -1
+
+Summary: 3
+58 -1 38 
+org/eclipse/core/internal/events/AutoBuildJob.setInterrupted(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/AutoBuildJob.interrupt()V
+PTG:
+Vars:
+6
+$r4 1 108 
+$r1 1 68 
+$r3 1 99 
+$r2 1 71 
+$r5 1 115 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+0 1 -1 
+130 1 -1 
+86 1 -1 
+121 1 -1 
+Functions: 10
+-1 0 
+112 1 108 
+50 1 -1 
+83 1 -1 
+68 1 68 
+118 1 115 
+8 1 -1 
+105 1 99 
+108 1 108 
+62 1 -1 
+Constructors: 1
+112 108
+
+Summary: 4
+68 115 71 -1 
+org/eclipse/core/internal/events/AutoBuildJob.build(Z)V
+PTG:
+Vars:
+9
+$r6 1 47 
+$r7 1 52 
+$r9 1 59 
+r0 1 -1 
+$r8 1 56 
+$r3 1 27 
+$r4 1 37 
+$r2 1 81 
+$r5 1 42 
+Fields: 0
+Accesses: 3
+0 1 -1 
+7 1 -1 
+137 1 -1 
+Functions: 16
+33 1 27 
+130 1 -1 
+37 1 37 
+101 1 -1 
+10 1 -1 
+42 1 42 
+15 1 -1 
+47 1 47 
+52 1 52 
+149 1 -1 
+87 1 81 
+56 1 56 
+90 1 81 
+154 1 -1 
+27 1 27 
+62 1 59 
+Constructors: 2
+33 27
+87 81
+
+Summary: 3
+59 -1 56 
+org/eclipse/core/internal/events/AutoBuildJob.belongsTo(Ljava/lang/Object;)Z
+PTG:
+Vars:
+3
+r2 1 -1 
+r0 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/events/AutoBuildJob.computeScheduleDelay()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 3
+-1 0 
+22 0 
+14 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/AutoBuildJob.canceled()Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+4
+$r1 1 18 
+$r2 1 39 
+_ret 1 39 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+5 1 -1 
+Functions: 4
+32 1 -1 
+36 1 -1 
+23 1 18 
+28 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/AutoBuildJob.propertyChange(Lorg/eclipse/core/runtime/Preferences$PropertyChangeEvent;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -2 
+r2 1 -1 
+$r3 1 21 
+Fields: 1
+-1 preferences 21
+Accesses: 6
+33 1 -1 
+20 1 -1 
+53 1 -1 
+44 1 -1 
+14 1 -1 
+30 1 -1 
+Functions: 4
+0 1 -2 
+1 1 1 
+21 1 21 
+58 2 -1 21 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 1 
+org/eclipse/core/internal/events/AutoBuildJob.shouldBuild()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 -1 
+Fields: 1
+-1 workspace 1
+Accesses: 16
+0 1 -1 
+96 1 -1 
+39 1 -1 
+71 1 -1 
+43 1 -1 
+75 1 -1 
+46 1 -1 
+78 1 -1 
+15 1 -1 
+19 1 -1 
+51 1 -1 
+22 1 -1 
+89 1 -1 
+27 1 -1 
+61 1 -1 
+93 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 

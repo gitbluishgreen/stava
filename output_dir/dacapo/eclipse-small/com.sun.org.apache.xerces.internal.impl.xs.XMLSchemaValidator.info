@@ -1,0 +1,4056 @@
+67
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.startCDATA(Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+r0 1 -1 
+$r1 1 6 
+$r3 1 6 
+Fields: 1
+-1 fDocumentHandler 6
+Accesses: 3
+2 1 -1 
+5 1 -1 
+12 1 -1 
+Functions: 1
+17 2 -2 6 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.hasSchemaComponent(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;SLcom/sun/org/apache/xerces/internal/xni/QName;)Z
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -4 
+r6 1 -1 
+r2 1 12 
+Fields: 1
+-4 localpart 12
+Accesses: 1
+8 1 -4 
+Functions: 4
+19 1 12 
+86 2 -2 12 
+71 2 -2 12 
+56 2 -2 12 
+Constructors: 0
+
+Summary: 5
+-2 -4 0 -1 12 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.handleIgnorableWhitespace(Lcom/sun/org/apache/xerces/internal/xni/XMLString;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.startDocument(Lcom/sun/org/apache/xerces/internal/xni/XMLLocator;Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/NamespaceContext;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+10
+$r9 1 36 
+r6 1 -3 
+$r3 1 9 
+r0 1 -1 
+$r7 1 36 
+$r4 1 17 
+r8 1 -5 
+$r2 1 1 
+r5 1 -2 
+r1 1 -4 
+Fields: 4
+-1 fState4ApplyDefault 17
+-1 fState4XsiType 9
+-1 fValidationState 1
+-1 fDocumentHandler 36
+Accesses: 6
+0 1 -1 
+16 1 -1 
+35 1 -1 
+8 1 -1 
+26 1 -1 
+42 1 -1 
+Functions: 5
+32 7 -1 17 1 -2 -3 36 9 
+51 5 -2 -3 -4 36 -5 
+5 2 1 -4 
+21 2 17 -4 
+13 2 -4 9 
+Constructors: 0
+
+Summary: 8
+1 2 -1 -5 -3 -4 0 3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.emptyElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+12
+$r7 1 33 
+r2 1 -3 
+$r10 1 33 
+$r9 1 33 
+r0 1 -1 
+r11 2 7 30 
+$r5 1 33 
+$r8 1 47 
+$r4 1 33 
+r3 1 -4 
+r1 1 -2 
+$r6 1 47 
+Fields: 2
+-1 fDefaultValue 47
+-1 fDocumentHandler 33
+Accesses: 10
+32 1 -1 
+96 1 -1 
+82 1 -1 
+53 1 -1 
+69 1 -1 
+86 1 -1 
+39 1 -1 
+11 1 -1 
+14 1 -1 
+46 1 -1 
+Functions: 6
+0 6 -1 33 -2 -3 -4 47 
+23 6 -1 33 -2 7 30 47 
+103 4 33 -2 7 30 
+91 2 33 47 
+61 5 33 -2 -3 7 30 
+77 5 33 -2 -3 7 30 
+Constructors: 0
+
+Summary: 7
+-2 2 1 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.handleCharacters(Lcom/sun/org/apache/xerces/internal/xni/XMLString;)Lcom/sun/org/apache/xerces/internal/xni/XMLString;
+PTG:
+Vars:
+11
+$r8 1 85 
+$r5 1 89 
+r13 2 -2 76 
+$r1 1 110 
+$r2 1 110 
+r0 1 -1 
+$r7 1 89 
+$r3 1 110 
+r4 1 110 
+$r10 1 -2 
+_ret 2 -2 76 
+Fields: 5
+-2 ch 89
+76 ch 89
+-1 fCurrentType 110
+-1 fNormalizedStr 76
+-1 fBuffer 85
+Accesses: 26
+0 1 -1 
+130 1 -1 
+197 1 -1 
+72 1 -1 
+10 1 -1 
+138 1 110 
+77 1 -1 
+17 2 -2 76 
+146 2 -2 76 
+84 1 -1 
+88 2 -2 76 
+152 2 -2 76 
+92 2 -2 76 
+156 2 -2 76 
+29 1 -1 
+32 1 -1 
+96 2 -2 76 
+164 2 -2 76 
+39 1 -1 
+106 1 -1 
+109 1 -1 
+47 1 -1 
+178 1 -1 
+116 1 -1 
+56 1 -1 
+185 1 -1 
+Functions: 4
+100 2 85 89 
+69 6 -1 -2 85 89 76 110 
+117 1 110 
+169 0 
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.startValueScopeFor(Lcom/sun/org/apache/xerces/internal/impl/xs/identity/IdentityConstraint;I)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+r3 1 9 
+Fields: 1
+-1 fValueStoreCache 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+11 1 9 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.getPropertyDefault(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+$r0 1 3 
+r2 1 -2 
+$r3 1 14 
+$r1 1 10 
+r6 1 -1 
+Fields: 1
+10 ArrayObject 14
+Accesses: 0
+Functions: 1
+14 2 -2 14 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.setFeature(Ljava/lang/String;Z)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.<init>()V
+PTG:
+Vars:
+42
+$r2 1 16 
+$r39 1 497 
+$r30 1 374 
+$r1 1 5 
+$r4 1 114 
+$r38 1 486 
+$r28 1 351 
+$r7 1 167 
+$r18 1 281 
+$r37 1 475 
+$r6 1 151 
+$r8 1 181 
+$r13 1 240 
+$r22 1 284 
+$r36 1 464 
+$r27 1 342 
+$r24 1 316 
+$r11 1 235 
+$r32 1 403 
+$r40 1 509 
+$r19 1 296 
+r0 1 -1 
+$r29 1 360 
+$r9 1 212 
+$r33 1 416 
+$r14 1 250 
+$r35 1 453 
+$r3 1 97 
+$r21 1 288 
+$r23 1 308 
+$r25 1 325 
+$r31 1 380 
+$r26 1 333 
+$r10 1 223 
+$r34 1 422 
+$r12 1 240 
+$r16 1 266 
+$r41 1 517 
+$r17 1 276 
+$r20 1 292 
+$r5 1 140 
+$r15 1 261 
+Fields: 8
+281 fErrorReporter 284
+-1 fState4ApplyDefault 517
+-1 fState4XsiType 509
+-1 nodeFactory 266
+-1 fXSIErrorReporter 281
+-1 fSubGroupHandler 292
+-1 fCMBuilder 296
+-1 fGrammarBucket 288
+Accesses: 70
+257 1 -1 
+131 1 -1 
+387 1 -1 
+516 1 -1 
+136 1 -1 
+392 1 -1 
+265 1 -1 
+12 1 -1 
+397 1 -1 
+272 1 -1 
+147 1 -1 
+405 1 -1 
+23 1 -1 
+280 1 -1 
+281 1 281 
+410 1 -1 
+28 1 -1 
+158 1 -1 
+287 1 -1 
+33 1 -1 
+418 1 -1 
+163 1 -1 
+291 1 -1 
+38 1 -1 
+295 1 -1 
+43 1 -1 
+429 1 -1 
+302 1 -1 
+48 1 -1 
+177 1 -1 
+434 1 -1 
+53 1 -1 
+310 1 -1 
+439 1 -1 
+58 1 -1 
+188 1 -1 
+444 1 -1 
+63 1 -1 
+319 1 -1 
+193 1 -1 
+449 1 -1 
+68 1 -1 
+198 1 -1 
+327 1 -1 
+73 1 -1 
+203 1 -1 
+460 1 -1 
+78 1 -1 
+208 1 -1 
+336 1 -1 
+83 1 -1 
+471 1 -1 
+88 1 -1 
+345 1 -1 
+219 1 -1 
+93 1 -1 
+354 1 -1 
+482 1 -1 
+231 1 -1 
+105 1 -1 
+363 1 -1 
+493 1 -1 
+110 1 -1 
+368 1 -1 
+246 1 -1 
+376 1 -1 
+121 1 -1 
+505 1 -1 
+508 1 -1 
+126 1 -1 
+Functions: 24
+384 1 380 
+1 9 -1 288 292 517 296 281 266 284 509 
+513 1 509 
+228 10 -1 288 292 517 296 281 266 284 509 223 
+102 10 -1 288 97 292 517 296 281 266 284 509 
+9 1 5 
+457 1 453 
+521 1 517 
+426 1 422 
+490 1 486 
+235 1 235 
+299 5 288 276 292 296 284 
+269 2 261 266 
+174 1 167 
+144 1 140 
+20 1 16 
+468 1 464 
+118 1 114 
+502 10 -1 288 497 292 517 296 281 266 284 509 
+216 1 212 
+185 1 181 
+155 1 151 
+254 1 250 
+479 1 475 
+Constructors: 21
+384 380
+1 -1
+228 223
+102 97
+9 5
+457 453
+426 422
+490 486
+299 276
+269 261
+174 167
+144 140
+20 16
+468 464
+118 114
+502 497
+216 212
+185 181
+155 151
+254 250
+479 475
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.elementLocallyValidType(Lcom/sun/org/apache/xerces/internal/xni/QName;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+19
+r3 1 -2 
+$r1 1 1 
+r4 1 -3 
+$r15 1 43 
+$r9 1 43 
+$r17 1 81 
+r16 2 155 104 
+$r2 1 1 
+$r18 1 96 
+$r13 1 118 
+$r8 1 37 
+$r10 1 -1 
+$r14 1 129 
+$r5 1 1 
+r6 1 1 
+$r7 1 81 
+$r12 1 113 
+r0 1 -1 
+_ret 2 155 104 
+Fields: 4
+-2 rawname 43
+-1 fCurrentType 1
+-1 fValidationState 81
+-1 fValidatedInfo 96
+Accesses: 12
+0 1 -1 
+80 1 -1 
+50 1 -1 
+66 1 -1 
+134 1 -2 
+25 1 -1 
+57 1 -1 
+73 1 -1 
+42 1 -2 
+11 1 -1 
+91 1 -1 
+95 1 -1 
+Functions: 9
+116 1 -1 
+85 1 81 
+149 7 -1 96 1 81 -2 -3 43 
+88 4 96 1 81 -3 
+121 6 -1 96 1 81 113 118 
+12 1 1 
+47 5 -1 96 1 81 37 
+111 1 -1 
+143 5 -1 96 1 81 129 
+Constructors: 0
+
+Summary: 6
+1 -1 -2 129 0 37 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.endValueScopeFor(Lcom/sun/org/apache/xerces/internal/impl/xs/identity/IdentityConstraint;I)V
+PTG:
+Vars:
+4
+r3 1 9 
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 fValueStoreCache 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+11 1 9 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.setLocationHints(Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;[Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xs/StringList;)V
+PTG:
+Vars:
+12
+$r4 1 80 
+r0 1 -3 
+r8 1 -4 
+$r6 1 98 
+r11 1 -2 
+$r3 1 85 
+r2 1 -1 
+$r9 1 28 
+$r7 1 68 
+$r5 1 80 
+$r10 1 47 
+r1 1 6 
+Fields: 5
+-1 fXSDDescription 80
+-1 fXSDDescription 68
+80 fLocationHints 98
+-3 ArrayObject 28
+-3 ArrayObject 47
+Accesses: 6
+67 1 -1 
+88 1 80 
+73 1 68 
+94 1 -1 
+79 1 -1 
+95 1 80 
+Functions: 2
+24 2 -4 28 
+104 2 98 6 
+Constructors: 0
+
+Summary: 7
+28 2 -1 -3 -2 -4 0 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.expectedStr(Ljava/util/List;)Ljava/lang/String;
+PTG:
+Vars:
+7
+$r0 1 0 
+$r6 1 49 
+r9 1 -1 
+$r5 1 44 
+$r4 1 70 
+r2 1 -2 
+_ret 1 70 
+Fields: 0
+Accesses: 0
+Functions: 8
+65 1 0 
+36 1 0 
+52 2 0 49 
+69 1 0 
+7 1 0 
+41 1 -2 
+11 1 -2 
+44 1 44 
+Constructors: 1
+7 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+7
+r1 1 -2 
+$r5 1 10 
+r3 1 -4 
+$r6 1 10 
+r4 1 7 
+r2 1 -3 
+r0 1 -1 
+Fields: 1
+-1 fDocumentHandler 10
+Accesses: 2
+16 1 -1 
+9 1 -1 
+Functions: 2
+0 5 -1 -2 -3 -4 10 
+24 4 -2 -3 7 10 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.setLocationHints(Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;[Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+9
+r1 1 -4 
+$r8 1 26 
+$r7 1 9 
+r0 1 -3 
+$r6 1 9 
+$r4 1 42 
+r2 1 -1 
+r3 1 -2 
+$r5 1 14 
+Fields: 2
+9 fLocationHints 26
+-1 fXSDDescription 9
+Accesses: 4
+17 1 9 
+22 1 -1 
+23 1 9 
+8 1 -1 
+Functions: 3
+32 2 -3 26 
+41 1 -4 
+45 6 -1 -2 -3 9 26 42 
+Constructors: 0
+
+Summary: 6
+-2 1 2 -4 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.access$000(Lcom/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.normalizeWhitespace(Lcom/sun/org/apache/xerces/internal/xni/XMLString;Z)V
+PTG:
+Vars:
+28
+$r6 1 23 
+$r16 1 23 
+$r23 1 23 
+$r14 1 94 
+$r10 1 23 
+$r22 1 26 
+$r4 1 59 
+$r9 1 23 
+$r19 1 23 
+$r21 1 23 
+$r24 1 23 
+$r11 1 26 
+r1 1 -1 
+$r2 1 23 
+$r13 1 23 
+$r7 1 23 
+$r18 1 23 
+$r17 1 26 
+$r3 1 26 
+$r5 1 23 
+$r25 1 23 
+$r27 1 23 
+$r26 1 23 
+$r15 1 23 
+r0 1 -2 
+$r8 1 26 
+$r12 1 23 
+$r20 1 26 
+Fields: 3
+-2 ch 94
+-1 fNormalizedStr 23
+23 ch 26
+Accesses: 52
+132 1 23 
+261 1 -1 
+11 1 -2 
+268 1 -1 
+15 1 -2 
+273 1 23 
+276 1 -1 
+277 1 23 
+22 1 -1 
+23 1 23 
+151 1 -1 
+152 1 23 
+158 1 -1 
+159 1 23 
+32 1 -1 
+33 1 23 
+295 1 -1 
+40 1 -2 
+169 1 23 
+300 1 23 
+303 1 -1 
+304 1 23 
+49 1 -1 
+53 1 -2 
+314 1 -1 
+315 1 23 
+61 1 23 
+190 1 -1 
+191 1 23 
+64 1 -1 
+322 1 -1 
+323 1 23 
+69 1 23 
+72 1 -1 
+201 1 -1 
+202 1 23 
+330 1 23 
+77 1 23 
+80 1 -2 
+336 1 -1 
+211 1 23 
+93 1 -2 
+351 1 -1 
+225 1 -1 
+235 1 -1 
+236 1 23 
+114 1 -1 
+115 1 23 
+246 1 -1 
+121 1 -1 
+122 1 23 
+253 1 -1 
+Functions: 1
+102 0 
+Constructors: 0
+
+Summary: 4
+-2 94 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.textDecl(Ljava/lang/String;Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+6
+$r1 1 1 
+r3 1 -3 
+r4 1 -4 
+r2 1 -2 
+$r5 1 1 
+r0 1 -1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+14 4 1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.getXsiNil(Lcom/sun/org/apache/xerces/internal/xni/QName;Ljava/lang/String;)Z
+PTG:
+Vars:
+15
+$r16 1 1 
+r2 1 -3 
+r3 1 73 
+$r25 1 59 
+$r19 1 34 
+$r24 1 56 
+$r1 1 1 
+$r22 1 50 
+$r17 1 22 
+$r18 1 28 
+$r20 1 41 
+r7 1 -2 
+$r23 1 53 
+r0 1 -1 
+$r21 1 44 
+Fields: 2
+-2 rawname 28
+-1 fCurrentElemDecl 1
+Accesses: 6
+0 1 -1 
+101 1 -1 
+7 1 -1 
+122 1 -2 
+27 1 -2 
+94 1 -1 
+Functions: 17
+129 0 
+34 2 34 41 
+69 1 -3 
+133 0 
+38 1 34 
+102 0 
+8 1 1 
+74 1 73 
+139 0 
+44 1 44 
+145 0 
+50 2 50 53 
+84 1 73 
+151 0 
+56 1 56 
+158 2 -1 1 
+63 3 -1 1 22 
+Constructors: 1
+38 34
+
+Summary: 7
+1 22 -1 0 -3 -2 117 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.storeLocations(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+20
+$r15 1 46 
+$r12 1 10 
+r0 1 -2 
+r22 2 81 68 
+r1 1 -1 
+$r5 1 10 
+$r3 1 6 
+$r8 1 81 
+$r21 1 24 
+$r16 1 36 
+$r2 1 65 
+$r9 1 93 
+$r10 1 6 
+$r6 1 10 
+r20 2 124 -3 
+$r4 1 68 
+$r7 1 115 
+$r14 1 6 
+$r18 1 -1 
+$r13 1 10 
+Fields: 3
+-1 fLocationPairs 6
+-1 fXSIErrorReporter 36
+-1 fLocator 10
+Accesses: 8
+35 1 -1 
+20 1 -1 
+5 1 -1 
+103 1 -1 
+9 1 -1 
+89 1 -1 
+61 1 -1 
+111 1 -1 
+Functions: 9
+112 1 10 
+97 3 81 6 93 
+132 4 81 -3 68 124 
+21 1 10 
+85 1 81 
+54 2 36 46 
+24 3 -2 6 24 
+120 3 -3 115 124 
+62 2 65 6 
+Constructors: 1
+85 81
+
+Summary: 6
+1 -1 46 -3 81 0 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.endDocument(Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+4
+$r1 1 5 
+r0 1 -1 
+r2 1 -2 
+$r3 1 5 
+Fields: 1
+-1 fDocumentHandler 5
+Accesses: 3
+4 1 -1 
+23 1 -1 
+11 1 -1 
+Functions: 2
+16 2 -2 5 
+1 2 -1 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.getDocumentSource()Lcom/sun/org/apache/xerces/internal/xni/parser/XMLDocumentSource;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fDocumentSource 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.handleStartDocument(Lcom/sun/org/apache/xerces/internal/xni/XMLLocator;Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r3 1 8 
+$r1 1 22 
+$r2 1 22 
+r5 1 -3 
+r0 1 -1 
+r4 1 -2 
+Fields: 2
+-1 fValueStoreCache 8
+-1 fCurrentPSVI 22
+Accesses: 7
+0 1 -1 
+34 1 22 
+21 1 -1 
+7 1 -1 
+26 1 22 
+29 1 -1 
+14 1 -1 
+Functions: 1
+11 1 8 
+Constructors: 0
+
+Summary: 4
+-2 1 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.<clinit>()V
+PTG:
+Vars:
+17
+$r5 1 357 
+$r14 1 393 
+$r3 1 217 
+$r4 1 294 
+$r0 1 2 
+$r10 1 372 
+$r15 1 390 
+$r12 1 378 
+$r11 1 381 
+$r1 1 120 
+$r8 1 369 
+$r7 1 360 
+$r13 1 384 
+$r2 1 208 
+$r16 1 396 
+$r9 1 366 
+$r6 1 354 
+Fields: 30
+217 ArrayObject 235
+217 ArrayObject 256
+217 ArrayObject 250
+217 ArrayObject 268
+217 ArrayObject 281
+217 ArrayObject 288
+217 ArrayObject 224
+217 ArrayObject 262
+217 ArrayObject 229
+217 ArrayObject 245
+217 ArrayObject 274
+217 ArrayObject 240
+2 ArrayObject 70
+2 ArrayObject 19
+2 ArrayObject 100
+2 ArrayObject 36
+2 ArrayObject 114
+2 ArrayObject 76
+2 ArrayObject 57
+2 ArrayObject 64
+2 ArrayObject 9
+2 ArrayObject 24
+2 ArrayObject 30
+2 ArrayObject 82
+2 ArrayObject 94
+2 ArrayObject 88
+2 ArrayObject 50
+2 ArrayObject 107
+2 ArrayObject 14
+2 ArrayObject 43
+Accesses: 0
+Functions: 5
+354 2 354 357 
+390 2 390 393 
+378 2 378 381 
+205 0 
+366 2 369 366 
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.characterData(Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)Z
+PTG:
+Vars:
+13
+$r7 1 68 
+$r11 1 64 
+r3 1 114 
+$r10 1 71 
+$r1 1 114 
+$r8 1 68 
+$r17 1 114 
+r4 1 -2 
+$r5 1 103 
+$r9 1 68 
+$r2 1 114 
+r16 1 -3 
+r0 1 -1 
+Fields: 5
+68 ch 71
+-1 fCurrentType 114
+-1 fNormalizedStr 68
+-1 fBuffer 64
+-1 fBuffer 103
+Accesses: 20
+1 1 -1 
+67 1 -1 
+68 1 68 
+38 1 -1 
+102 1 -1 
+134 1 -1 
+74 1 -1 
+75 1 68 
+47 1 -1 
+143 1 114 
+81 1 -1 
+113 1 -1 
+82 1 68 
+20 1 -1 
+180 1 -1 
+23 1 -1 
+120 1 -1 
+30 1 -1 
+63 1 -1 
+95 1 -1 
+Functions: 8
+164 1 -2 
+167 0 
+8 1 -2 
+88 2 64 71 
+121 1 114 
+107 2 -2 103 
+60 7 -1 64 -2 114 68 103 71 
+157 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.setProperty(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+7
+r0 1 -2 
+$r3 1 -3 
+r2 1 -1 
+$r4 1 -3 
+r1 1 -3 
+$r5 1 -3 
+$r6 1 -3 
+Fields: 0
+Accesses: 12
+80 1 -1 
+20 1 -1 
+85 1 -1 
+38 1 -1 
+54 1 -1 
+103 1 -1 
+119 1 -1 
+43 1 -1 
+59 1 -1 
+108 1 -1 
+124 1 -1 
+15 1 -1 
+Functions: 2
+0 1 -2 
+65 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 1 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.endElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+10
+r2 1 -3 
+$r7 1 27 
+$r8 1 13 
+$r5 1 13 
+r3 1 11 
+$r9 1 13 
+r1 1 -2 
+$r6 1 27 
+r0 1 -1 
+$r4 1 13 
+Fields: 2
+-1 fDefaultValue 27
+-1 fDocumentHandler 13
+Accesses: 8
+33 1 -1 
+2 1 -1 
+19 1 -1 
+51 1 -1 
+26 1 -1 
+12 1 -1 
+61 1 -1 
+47 1 -1 
+Functions: 4
+67 3 -2 11 13 
+5 5 -1 -2 -3 27 13 
+39 3 -2 11 13 
+56 2 27 13 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.elementLocallyValidComplexType(Lcom/sun/org/apache/xerces/internal/xni/QName;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+54
+$r14 1 243 
+$r39 1 45 
+$r17 1 243 
+r46 1 140 
+$r29 1 243 
+$r37 1 82 
+r53 1 488 
+$r30 1 354 
+$r48 1 117 
+$r49 1 132 
+$r28 3 88 51 208 
+$r31 1 364 
+$r20 1 432 
+$r15 1 267 
+$r27 1 334 
+$r18 1 458 
+$r38 1 88 
+$r4 1 243 
+$r9 1 515 
+$r25 1 407 
+$r44 1 165 
+$r43 1 154 
+$r33 1 202 
+$r45 1 88 
+$r24 1 243 
+$r21 3 88 51 208 
+$r6 1 524 
+$r42 1 149 
+$r22 1 387 
+$r12 1 243 
+$r5 1 515 
+$r35 1 117 
+$r41 1 -1 
+r51 1 275 
+$r26 1 417 
+$r19 3 88 51 208 
+$r10 1 542 
+$r13 1 234 
+$r8 3 88 51 208 
+r2 1 3 
+r36 1 -3 
+$r23 3 88 51 208 
+$r11 1 234 
+_ret 1 140 
+$r34 1 208 
+r47 1 100 
+r7 1 -2 
+$r16 1 234 
+$r1 1 3 
+r0 1 -1 
+$r3 1 234 
+r52 1 290 
+$r32 1 372 
+$r40 1 51 
+Fields: 9
+-2 rawname 88
+-2 rawname 51
+-2 rawname 208
+3 fXSSimpleType 100
+-1 fCurrentType 3
+-1 fCurrCMState 234
+-1 fCurrentCM 243
+-1 fValidationState 117
+-1 fValidatedInfo 132
+Accesses: 36
+2 1 -1 
+131 1 -1 
+259 1 -1 
+70 1 -1 
+263 1 -1 
+392 1 -2 
+11 1 -1 
+207 1 -2 
+399 1 -1 
+463 1 -2 
+529 1 -2 
+18 1 3 
+339 1 -2 
+277 1 -1 
+87 1 -2 
+215 1 3 
+281 1 -1 
+26 1 -1 
+346 1 -1 
+95 1 3 
+479 1 -1 
+224 1 3 
+33 1 -1 
+102 1 -1 
+233 1 -1 
+170 1 -2 
+109 1 -1 
+50 1 -2 
+242 1 -1 
+116 1 -1 
+181 1 3 
+437 1 -2 
+246 1 -1 
+61 1 3 
+190 1 -1 
+127 1 -1 
+Functions: 27
+258 8 -1 3 243 132 100 117 234 267 
+260 2 243 234 
+400 1 243 
+147 1 -1 
+212 8 -1 3 243 132 100 117 234 202 
+278 2 243 234 
+152 1 -1 
+536 1 488 
+473 8 -1 3 243 132 100 117 234 458 
+347 1 243 
+92 8 -1 82 3 243 132 100 117 234 
+157 9 -1 3 243 132 100 117 149 234 154 
+415 0 
+480 1 243 
+548 9 -1 3 243 515 132 100 117 234 524 
+421 8 -1 3 243 387 132 100 117 234 
+362 0 
+175 8 -1 3 243 132 100 117 165 234 
+370 0 
+243 2 243 234 
+500 1 488 
+55 8 -1 3 243 132 100 117 234 45 
+376 8 -1 3 243 132 100 117 234 334 
+121 1 117 
+124 4 -3 100 132 117 
+447 8 -1 432 3 243 132 100 117 234 
+511 1 488 
+Constructors: 0
+
+Summary: 13
+334 -1 45 82 432 524 0 458 202 387 -3 -2 165 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.processRootTypeQName(Ljavax/xml/namespace/QName;)V
+PTG:
+Vars:
+22
+$r10 1 146 
+$r13 1 41 
+$r14 1 45 
+$r3 1 91 
+$r21 2 137 104 
+$r12 1 77 
+$r8 1 131 
+r16 1 4 
+$r7 1 127 
+$r9 1 134 
+r1 1 -1 
+$r18 1 30 
+$r20 1 84 
+r17 1 13 
+$r6 1 121 
+r0 1 -2 
+$r5 1 118 
+$r11 1 74 
+$r2 1 6 
+$r15 1 48 
+r19 1 66 
+$r4 1 110 
+Fields: 2
+-1 fCurrentType 84
+-1 fSymbolTable 6
+Accesses: 4
+80 1 -1 
+51 1 -1 
+83 1 -1 
+5 1 -1 
+Functions: 20
+0 1 -2 
+130 1 -2 
+6 2 4 6 
+134 1 134 
+103 1 -2 
+72 2 66 74 
+41 2 41 45 
+73 1 -2 
+44 1 -2 
+110 2 118 110 
+18 1 13 
+114 1 110 
+117 1 -2 
+57 4 -1 84 6 13 
+121 1 121 
+153 4 -1 146 84 6 
+90 1 -2 
+91 1 91 
+30 2 13 30 
+127 2 131 127 
+Constructors: 1
+114 110
+
+Summary: 10
+74 118 4 -1 91 -2 146 45 0 131 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.reset(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager;)V
+PTG:
+Vars:
+53
+$r35 1 722 
+$r5 1 85 
+$r19 1 15 
+$r56 1 15 
+$r57 1 -1 
+$r23 1 417 
+$r58 1 -1 
+$r27 1 680 
+$r4 1 22 
+$r59 1 -1 
+r62 1 499 
+r0 1 -1 
+$r7 1 98 
+$r24 1 499 
+$r55 1 -1 
+$r18 1 376 
+r11 1 175 
+$r13 1 333 
+$r22 1 15 
+$r37 1 761 
+$r25 1 15 
+$r2 1 15 
+$r20 1 388 
+$r33 1 6 
+$r32 1 737 
+$r8 1 98 
+$r42 1 499 
+$r30 1 695 
+$r9 1 165 
+$r28 1 680 
+r3 1 -2 
+$r12 1 186 
+$r36 1 748 
+$r52 1 -1 
+$r39 1 773 
+$r54 1 15 
+$r29 1 695 
+r60 1 417 
+$r14 1 333 
+$r26 1 15 
+$r40 1 781 
+$r17 1 376 
+$r34 1 726 
+$r6 1 92 
+$r31 1 92 
+$r16 1 361 
+$r53 1 -1 
+$r38 1 761 
+$r1 1 6 
+$r10 1 175 
+$r21 1 186 
+$r15 1 361 
+$r43 1 417 
+Fields: 13
+92 fErrorReporter 737
+-1 fMatcherStack 85
+-1 fState4ApplyDefault 781
+-1 fState4XsiType 773
+-1 nodeFactory 165
+-1 fLocationPairs 6
+-1 fValidationState 15
+-1 fSymbolTable 186
+-1 fExternalSchemas 722
+-1 fXSIErrorReporter 92
+-1 fSchemaLoader 22
+-1 fValidationManager 388
+-1 fExternalNoNamespaceSchema 726
+Accesses: 83
+384 1 -1 
+640 1 -1 
+513 1 -1 
+769 1 -1 
+2 1 -1 
+258 1 -1 
+387 1 -1 
+772 1 -1 
+5 1 -1 
+134 1 -1 
+391 1 -1 
+648 1 -1 
+780 1 -1 
+141 1 -1 
+14 1 -1 
+398 1 -1 
+145 1 -1 
+273 1 -1 
+402 1 -1 
+21 1 -1 
+149 1 -1 
+533 1 -1 
+153 1 -1 
+538 1 -1 
+668 1 -1 
+286 1 -1 
+31 1 -1 
+36 1 -1 
+164 1 -1 
+550 1 -1 
+41 1 -1 
+426 1 -1 
+299 1 -1 
+555 1 -1 
+46 1 -1 
+431 1 -1 
+688 1 -1 
+51 1 -1 
+565 1 -1 
+56 1 -1 
+312 1 -1 
+185 1 -1 
+570 1 -1 
+61 1 -1 
+703 1 -1 
+66 1 -1 
+194 1 -1 
+451 1 -1 
+325 1 -1 
+71 1 -1 
+456 1 -1 
+713 1 -1 
+76 1 -1 
+718 1 -1 
+207 1 -1 
+81 1 -1 
+721 1 -1 
+595 1 -1 
+84 1 -1 
+468 1 -1 
+341 1 -1 
+725 1 -1 
+473 1 -1 
+729 1 -1 
+91 1 -1 
+220 1 -1 
+733 1 -1 
+734 1 92 
+223 1 -1 
+607 1 -1 
+354 1 -1 
+483 1 -1 
+232 1 -1 
+488 1 -1 
+617 1 -1 
+620 1 -1 
+369 1 -1 
+753 1 -1 
+248 1 -1 
+123 1 -1 
+251 1 -1 
+508 1 -1 
+127 1 -1 
+Functions: 43
+131 0 
+645 1 15 
+198 1 -2 
+263 1 -2 
+9 1 6 
+329 1 -2 
+777 2 773 175 
+138 0 
+395 2 388 15 
+652 1 -2 
+785 2 781 175 
+18 1 15 
+211 1 -2 
+660 1 15 
+277 1 -2 
+406 2 186 15 
+599 1 -2 
+88 1 85 
+345 1 -2 
+409 1 -2 
+26 2 -2 22 
+95 1 -2 
+160 0 
+673 1 15 
+290 1 -2 
+740 4 737 722 726 6 
+677 1 -2 
+358 1 -2 
+744 1 -2 
+169 2 -2 165 
+106 3 737 98 92 
+491 1 -2 
+172 1 -2 
+109 1 -2 
+239 1 -2 
+303 1 -2 
+624 1 -2 
+692 1 -2 
+373 1 -2 
+757 1 -2 
+632 1 15 
+316 1 -2 
+573 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.endCDATA(Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+4
+$r1 1 6 
+r2 1 -2 
+$r3 1 6 
+r0 1 -1 
+Fields: 1
+-1 fDocumentHandler 6
+Accesses: 3
+2 1 -1 
+5 1 -1 
+12 1 -1 
+Functions: 1
+17 2 -2 6 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.processAttributes(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/impl/xs/XSAttributeGroupDecl;)V
+PTG:
+Vars:
+77
+$r24 1 664 
+$r5 1 742 
+$r60 1 250 
+$r38 1 189 
+$r12 1 179 
+$r42 1 94 
+r40 1 388 
+$r63 1 271 
+$r58 1 205 
+r3 1 -4 
+r6 1 -2 
+$r64 1 205 
+$r31 1 94 
+$r7 5 748 351 670 483 606 
+$r73 1 192 
+$r15 1 307 
+$r9 1 94 
+$r11 1 154 
+$r13 1 94 
+r75 1 388 
+r21 1 560 
+$r23 1 628 
+r0 1 -3 
+$r72 1 189 
+$r4 1 726 
+r70 1 124 
+$r33 1 477 
+$r20 1 189 
+$r51 1 94 
+$r52 1 307 
+$r36 1 307 
+$r41 1 400 
+r1 1 -1 
+$r39 1 388 
+$r35 1 94 
+$r50 4 351 670 483 606 
+$r27 1 600 
+$r59 1 94 
+$r25 4 351 670 483 606 
+$r17 1 307 
+r67 2 154 131 
+r76 2 579 400 
+$r62 1 94 
+$r71 1 94 
+$r8 1 726 
+$r29 1 94 
+$r37 1 94 
+$r61 1 205 
+$r49 1 345 
+$r32 1 205 
+$r30 1 307 
+$r65 1 18 
+r66 2 698 678 
+$r22 1 628 
+$r28 4 351 670 483 606 
+$r45 1 400 
+$r48 1 421 
+$r46 1 94 
+$r55 1 205 
+$r53 1 94 
+r68 1 63 
+$r47 1 189 
+$r10 1 131 
+r74 4 259 280 238 217 
+$r19 1 94 
+$r44 1 403 
+$r57 1 229 
+$r26 2 698 678 
+$r34 4 351 670 483 606 
+$r54 1 208 
+$r56 1 94 
+$r14 1 310 
+$r18 1 94 
+$r16 1 94 
+r69 1 78 
+$r43 1 205 
+$r2 1 18 
+Fields: 19
+-2 rawname 351
+-2 rawname 670
+-2 rawname 483
+-2 rawname 748
+-2 rawname 606
+388 fAttrDecl 400
+579 fType 628
+579 fName 678
+579 fName 698
+-4 fAttributeWC 78
+-4 fIDAttrName 726
+94 localpart 205
+94 uri 189
+94 rawname 307
+400 fTargetNamespace 421
+400 fName 403
+-1 fCurrentType 18
+-1 fTempQName 94
+-1 fValidationRoot 179
+Accesses: 59
+641 2 400 579 
+519 1 388 
+264 1 -1 
+265 1 94 
+398 1 388 
+400 1 400 
+17 1 -1 
+529 1 78 
+406 1 -1 
+407 1 94 
+24 1 -1 
+669 1 -2 
+416 1 388 
+544 1 -1 
+545 1 94 
+418 1 400 
+676 2 400 579 
+424 1 -1 
+552 1 -1 
+425 1 94 
+303 1 -1 
+304 1 94 
+178 1 -1 
+693 2 400 579 
+182 2 131 154 
+185 1 -1 
+569 1 -1 
+186 1 94 
+570 1 94 
+316 1 -1 
+317 1 94 
+201 1 -1 
+74 1 -4 
+202 1 94 
+586 1 78 
+459 1 -1 
+460 1 94 
+725 1 -4 
+93 1 -1 
+605 1 -2 
+222 1 -1 
+350 1 -2 
+223 1 94 
+482 1 -2 
+612 1 -1 
+357 1 -1 
+613 1 94 
+102 1 -1 
+358 1 94 
+489 1 -1 
+490 1 94 
+747 1 -2 
+109 1 -1 
+626 2 400 579 
+243 1 -1 
+244 1 94 
+501 1 -1 
+759 1 -4 
+505 1 -1 
+Functions: 24
+320 1 307 
+384 1 63 
+65 1 63 
+97 5 -3 307 205 189 94 
+3 1 -3 
+643 1 628 
+711 24 -1 -2 -3 483 579 131 388 421 678 748 205 400 18 179 307 403 628 698 154 189 94 670 606 351 
+297 20 -1 -2 -3 483 259 131 748 205 238 18 179 307 280 217 154 189 94 670 606 351 
+457 2 189 78 
+170 2 154 124 
+620 8 -1 18 179 307 600 205 189 94 
+365 8 -1 18 179 307 345 205 189 94 
+687 8 -1 18 179 307 664 205 189 94 
+497 8 -1 18 179 307 205 189 477 94 
+116 1 -3 
+148 2 131 154 
+628 1 628 
+567 2 560 205 
+25 1 18 
+59 3 -4 726 78 
+764 8 -1 18 179 307 742 205 189 94 
+541 14 -1 -2 -3 483 748 205 18 179 307 189 94 670 606 351 
+126 1 124 
+158 1 154 
+Constructors: 1
+158 154
+
+Summary: 14
+2 1 664 -1 78 345 -4 154 0 742 600 -3 -2 477 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.getRecognizedFeatures()[Ljava/lang/String;
+PTG:
+Vars:
+6
+$r0 1 0 
+$r2 1 3 
+$r1 1 3 
+$r3 1 3 
+r4 1 -1 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.handleEndDocument()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 8 
+Fields: 1
+-1 fValueStoreCache 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+11 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.endElementPSVI(Z[Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)Lcom/sun/org/apache/xerces/internal/xni/Augmentations;
+PTG:
+Vars:
+29
+$r21 1 199 
+$r5 1 40 
+$r26 1 14 
+$r23 1 14 
+$r24 1 14 
+$r15 1 14 
+$r27 1 14 
+r0 1 -1 
+$r9 1 14 
+$r11 1 163 
+r28 2 -4 12 
+$r10 1 14 
+$r25 1 14 
+r22 1 205 
+$r19 1 14 
+$r1 1 18 
+_ret 2 -4 12 
+$r2 1 14 
+$r20 1 14 
+$r8 1 14 
+$r14 1 181 
+$r7 1 51 
+$r4 1 14 
+$r16 1 245 
+$r3 1 29 
+$r6 1 14 
+r18 1 -3 
+$r13 1 185 
+$r12 1 14 
+Fields: 10
+14 fValue 181
+-1 fNotation 40
+-1 fCurrentType 29
+-1 fDefaultValue 163
+-1 fXSIErrorReporter 199
+-1 fXSIErrorReporter 245
+-1 fCurrentElemDecl 18
+-1 fValidationRoot 51
+-1 fCurrentPSVI 14
+-1 fValidatedInfo 185
+Accesses: 53
+0 1 -1 
+256 1 -1 
+132 1 -1 
+261 1 14 
+264 1 -1 
+138 1 -1 
+13 1 -1 
+141 1 -1 
+269 1 14 
+17 1 -1 
+145 1 -1 
+21 1 14 
+24 1 -1 
+153 1 -1 
+28 1 -1 
+159 1 -1 
+32 1 14 
+162 1 -1 
+35 1 -1 
+39 1 -1 
+169 1 -1 
+43 1 14 
+46 1 -1 
+174 1 14 
+177 1 -1 
+50 1 -1 
+178 1 14 
+54 1 14 
+184 1 -1 
+57 1 -1 
+61 1 -1 
+191 1 -1 
+65 1 14 
+68 1 -1 
+198 1 -1 
+72 1 -1 
+79 1 -1 
+207 1 -1 
+84 1 14 
+213 1 14 
+216 1 -1 
+90 1 -1 
+94 1 -1 
+101 1 -1 
+230 1 14 
+106 1 14 
+236 1 -1 
+112 1 -1 
+241 1 14 
+244 1 -1 
+117 1 14 
+120 1 -1 
+124 1 -1 
+Functions: 4
+7 13 -1 163 -4 199 40 12 14 18 51 245 181 185 29 
+199 1 199 
+248 1 245 
+188 2 181 185 
+Constructors: 0
+
+Summary: 3
+1 2 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.activateSelectorFor(Lcom/sun/org/apache/xerces/internal/impl/xs/identity/IdentityConstraint;)V
+PTG:
+Vars:
+5
+r2 1 -1 
+r1 1 4 
+$r5 1 24 
+r0 1 -2 
+r4 1 21 
+Fields: 1
+-1 fMatcherStack 24
+Accesses: 2
+23 1 -1 
+14 1 -1 
+Functions: 4
+0 1 -2 
+34 1 21 
+12 3 -1 4 24 
+29 2 21 24 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.startGeneralEntity(Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/XMLResourceIdentifier;Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+7
+$r1 1 6 
+r4 1 -4 
+r5 1 -5 
+r2 1 -2 
+r0 1 -1 
+r3 1 -3 
+$r6 1 6 
+Fields: 1
+-1 fDocumentHandler 6
+Accesses: 3
+2 1 -1 
+5 1 -1 
+12 1 -1 
+Functions: 1
+21 5 -2 -3 -4 -5 6 
+Constructors: 0
+
+Summary: 9
+-2 1 2 -4 0 3 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.comment(Lcom/sun/org/apache/xerces/internal/xni/XMLString;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 -3 
+$r4 1 1 
+$r1 1 1 
+r2 1 -2 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+13 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.xmlDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+7
+r4 1 -4 
+r3 1 -3 
+r0 1 -1 
+r2 1 -2 
+r5 1 -5 
+$r6 1 1 
+$r1 1 1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+16 5 1 -2 -3 -4 -5 
+Constructors: 0
+
+Summary: 9
+-2 2 1 -4 3 0 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.getFeatureDefault(Ljava/lang/String;)Ljava/lang/Boolean;
+PTG:
+Vars:
+5
+r6 1 -1 
+$r1 1 10 
+$r0 1 3 
+r2 1 -2 
+$r3 1 14 
+Fields: 1
+10 ArrayObject 14
+Accesses: 0
+Functions: 1
+14 2 -2 14 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.getEmptyAugs(Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)Lcom/sun/org/apache/xerces/internal/xni/Augmentations;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 20 
+$r1 1 20 
+r4 2 -2 8 
+_ret 2 -2 8 
+Fields: 2
+-1 fAugmentations 8
+-1 fCurrentPSVI 20
+Accesses: 3
+19 1 -1 
+4 1 -1 
+29 1 -1 
+Functions: 3
+33 1 20 
+23 3 -2 20 8 
+10 2 -2 8 
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.endGeneralEntity(Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 -3 
+$r4 1 6 
+r2 1 -2 
+$r1 1 6 
+Fields: 1
+-1 fDocumentHandler 6
+Accesses: 3
+2 1 -1 
+5 1 -1 
+12 1 -1 
+Functions: 1
+18 3 -2 -3 6 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.activateField(Lcom/sun/org/apache/xerces/internal/impl/xs/identity/Field;I)Lcom/sun/org/apache/xerces/internal/impl/xs/identity/XPathMatcher;
+PTG:
+Vars:
+8
+$r3 1 5 
+r4 1 12 
+$r6 1 21 
+r5 1 18 
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+_ret 1 18 
+Fields: 2
+-1 fMatcherStack 21
+-1 fValueStoreCache 1
+Accesses: 2
+0 1 -1 
+20 1 -1 
+Functions: 5
+1 2 1 5 
+4 1 -2 
+26 2 18 21 
+13 2 -2 12 
+31 1 18 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.addDefaultAttributes(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/impl/xs/XSAttributeGroupDecl;)V
+PTG:
+Vars:
+26
+$r24 1 130 
+$r25 1 87 
+$r8 1 90 
+r26 2 58 77 
+r29 1 263 
+$r6 1 87 
+$r20 1 306 
+$r10 1 82 
+r4 1 44 
+$r16 1 265 
+$r9 1 155 
+$r2 1 29 
+r3 1 29 
+$r22 1 124 
+r23 1 -2 
+r5 1 -3 
+$r27 2 187 193 
+$r11 1 87 
+$r12 1 87 
+r1 1 4 
+r15 1 -1 
+$r21 1 317 
+r0 1 -4 
+$r7 1 82 
+r28 1 -3 
+$r19 1 298 
+Fields: 9
+-2 rawname 130
+29 fAttrDecl 44
+29 fDefault 58
+265 fValue 306
+-1 fValidationRoot 317
+44 fTargetNamespace 82
+44 fType 298
+44 fDefault 77
+44 fName 87
+Accesses: 22
+160 1 44 
+320 1 265 
+129 1 -2 
+291 1 265 
+165 1 44 
+326 1 265 
+39 1 29 
+72 1 44 
+136 1 44 
+296 1 44 
+105 1 29 
+170 1 44 
+332 1 265 
+301 1 265 
+46 1 29 
+80 1 44 
+304 1 265 
+338 1 265 
+53 1 29 
+85 1 44 
+248 1 -1 
+316 1 -1 
+Functions: 15
+0 1 -4 
+65 5 82 87 298 44 77 
+227 4 193 -3 155 187 
+6 1 4 
+233 4 193 -3 155 187 
+269 2 306 265 
+142 3 -1 124 317 
+79 3 -3 82 87 
+175 3 82 87 155 
+211 1 -3 
+311 3 306 58 77 
+25 1 4 
+185 2 58 77 
+281 3 306 263 265 
+255 1 -3 
+Constructors: 2
+269 265
+175 155
+
+Summary: 11
+2 1 -1 265 -4 0 306 155 -3 124 -2 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.setDocumentHandler(Lcom/sun/org/apache/xerces/internal/xni/XMLDocumentHandler;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 -1 
+$r2 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+2 1 -1 
+22 1 -1 
+31 1 -1 
+Functions: 1
+14 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.processRootElementDeclQName(Ljavax/xml/namespace/QName;Lcom/sun/org/apache/xerces/internal/xni/QName;)V
+PTG:
+Vars:
+20
+$r15 1 123 
+$r6 1 60 
+$r20 2 80 113 
+$r9 1 94 
+r19 1 13 
+$r12 1 107 
+r1 1 -1 
+$r16 1 50 
+$r7 1 67 
+r3 1 39 
+r0 1 -2 
+r18 1 4 
+$r17 1 53 
+$r4 1 60 
+$r2 1 6 
+$r8 1 86 
+$r10 1 97 
+r5 1 -3 
+$r11 1 103 
+$r13 1 110 
+Fields: 2
+-1 fSymbolTable 6
+-1 fCurrentElemDecl 60
+Accesses: 4
+5 1 -1 
+56 1 -1 
+138 1 -1 
+59 1 -1 
+Functions: 18
+0 1 -2 
+97 1 97 
+66 1 -2 
+67 1 67 
+131 4 -1 6 123 60 
+6 2 4 6 
+103 2 103 107 
+106 1 -2 
+110 1 110 
+47 2 50 39 
+79 1 -2 
+143 4 -1 -3 6 60 
+49 1 -2 
+18 1 13 
+86 2 86 94 
+90 1 86 
+93 1 -2 
+30 4 -1 6 60 13 
+Constructors: 1
+90 86
+
+Summary: 11
+107 1 4 -1 -3 -2 123 50 67 94 0 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.ignorableWhitespace(Lcom/sun/org/apache/xerces/internal/xni/XMLString;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+5
+r3 1 -3 
+$r2 1 6 
+$r4 1 6 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 fDocumentHandler 6
+Accesses: 2
+5 1 -1 
+12 1 -1 
+Functions: 2
+2 3 -1 -2 6 
+18 3 -2 -3 6 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.doctypeDecl(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+7
+r2 1 -2 
+r5 1 -5 
+$r6 1 1 
+r3 1 -3 
+$r1 1 1 
+r4 1 -4 
+r0 1 -1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+16 5 1 -2 -3 -4 -5 
+Constructors: 0
+
+Summary: 9
+-2 1 2 -4 3 0 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.processingInstruction(Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/XMLString;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+6
+$r5 1 1 
+r3 1 -3 
+$r1 1 1 
+r2 1 -2 
+r4 1 -4 
+r0 1 -1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+14 4 1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.getGlobalElementDecl(Lcom/sun/org/apache/xerces/internal/xni/QName;)Lcom/sun/org/apache/xerces/internal/impl/xs/XSElementDecl;
+PTG:
+Vars:
+4
+r0 1 -1 
+r3 1 12 
+$r2 1 3 
+r1 1 -2 
+Fields: 1
+-2 uri 3
+Accesses: 2
+2 1 -2 
+18 1 -2 
+Functions: 2
+0 3 -1 -2 3 
+17 1 12 
+Constructors: 0
+
+Summary: 5
+-2 3 0 -1 19 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.handleStartElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)Lcom/sun/org/apache/xerces/internal/xni/Augmentations;
+PTG:
+Vars:
+177
+$r42 1 1569 
+$r61 1 1217 
+$r38 1 153 
+$r5 1 153 
+$r33 1 1747 
+$r102 1 128 
+$r107 1 128 
+$r92 1 704 
+$r17 1 1958 
+$r149 1 45 
+$r110 1 630 
+$r63 5 333 630 386 609 444 
+$r46 1 1478 
+$r85 1 650 
+$r120 1 128 
+$r52 1 1358 
+$r34 1 153 
+r158 1 70 
+$r104 1 128 
+$r117 1 128 
+r184 1 1823 
+r160 1 153 
+$r138 1 365 
+r183 1 1767 
+$r83 1 673 
+$r70 1 673 
+$r30 1 153 
+$r32 1 116 
+$r144 1 251 
+$r18 1 153 
+$r182 1 153 
+r0 1 -1 
+$r1 1 116 
+$r35 1 1721 
+$r27 1 673 
+$r29 1 1833 
+$r75 1 914 
+r171 1 1110 
+$r112 1 609 
+$r119 1 177 
+r174 1 153 
+r176 1 153 
+$r108 1 116 
+$r47 5 333 630 386 609 444 
+$r130 1 116 
+$r177 1 673 
+$r19 1 1958 
+$r109 1 624 
+$r22 1 1958 
+$r143 1 245 
+$r25 1 1840 
+$r80 1 960 
+$r185 1 153 
+$r15 1 1958 
+$r127 1 457 
+$r153 1 19 
+$r118 1 116 
+r157 1 56 
+$r37 1 1724 
+$r141 1 217 
+$r132 1 410 
+$r49 1 673 
+$r6 1 153 
+$r86 1 673 
+$r74 1 1032 
+$r66 1 1102 
+$r142 1 240 
+$r13 1 1840 
+$r151 1 59 
+$r145 1 255 
+$r82 1 914 
+$r133 1 327 
+$r121 1 116 
+$r8 1 116 
+$r88 1 678 
+_ret 2 -4 1956 
+$r125 1 438 
+$r122 1 217 
+$r111 1 603 
+$r53 1 1267 
+r163 1 214 
+$r43 5 333 630 386 609 444 
+$r175 1 673 
+$r68 1 673 
+$r26 1 673 
+$r87 1 665 
+$r113 1 565 
+$r93 1 717 
+$r91 1 153 
+$r31 1 673 
+$r54 5 333 630 386 609 444 
+$r146 1 258 
+$r116 1 588 
+$r3 1 153 
+r180 1 153 
+$r105 1 153 
+r165 2 274 267 
+$r128 1 380 
+$r94 1 116 
+r178 1 153 
+$r16 1 673 
+$r101 1 132 
+r167 1 140 
+$r155 1 -1 
+$r173 1 1217 
+$r123 1 496 
+$r4 1 1316 
+$r136 1 347 
+$r126 1 444 
+$r24 1 1833 
+$r164 2 274 267 
+$r77 1 960 
+$r131 1 400 
+$r2 1 820 
+$r148 1 48 
+$r103 1 116 
+$r96 1 128 
+$r154 1 -1 
+$r134 1 333 
+$r124 1 472 
+$r95 1 730 
+$r10 1 1759 
+$r40 1 1600 
+$r69 1 673 
+r156 2 -4 1956 
+$r71 1 1050 
+$r21 1 1958 
+r12 1 -2 
+$r129 1 386 
+$r152 1 9 
+$r51 1 153 
+$r84 1 140 
+$r41 1 1600 
+$r23 1 1840 
+$r135 1 116 
+$r64 1 1220 
+r186 1 153 
+$r28 1 673 
+r159 1 140 
+$r114 1 116 
+$r62 1 1230 
+$r39 1 153 
+r9 1 -3 
+$r115 1 578 
+$r76 1 941 
+$r79 1 978 
+$r147 1 264 
+$r140 1 233 
+$r90 1 691 
+$r89 1 699 
+$r99 1 769 
+$r106 1 163 
+$r67 1 1099 
+$r36 1 153 
+$r97 1 743 
+$r150 1 62 
+r187 1 1929 
+r166 1 528 
+$r72 1 217 
+$r45 1 673 
+$r73 2 255 274 
+$r170 1 673 
+$r172 1 1281 
+$r139 1 223 
+$r78 1 978 
+$r50 1 1339 
+$r14 1 1962 
+r162 1 199 
+$r44 5 333 630 386 609 444 
+$r20 1 699 
+$r98 1 756 
+r169 1 1018 
+$r137 1 357 
+$r11 1 1756 
+$r7 1 153 
+$r81 1 941 
+$r168 1 153 
+Fields: 42
+-2 localpart 274
+-2 localpart 255
+-2 uri 217
+-2 rawname 333
+-2 rawname 630
+-2 rawname 386
+-2 rawname 609
+-2 rawname 444
+673 fType 1050
+1217 fErrorReporter 1220
+153 fXSSimpleType 1600
+153 fParticle 163
+-1 fCurrentType 153
+-1 fValueStoreCache 1833
+-1 fValidationRoot 1962
+-1 fCMBuilder 1721
+-1 fElemDeclStack 665
+-1 fNilStack 678
+-1 fStrictAssessStack 717
+-1 fRootElementDeclaration 914
+-1 fCurrCMState 128
+-1 fCurrentCM 116
+-1 fCMStack 730
+-1 fSubElementStack 650
+-1 fTypeStack 704
+-1 fStringContent 769
+-1 fSubGroupHandler 132
+-1 fNotation 699
+-1 fSawTextStack 756
+-1 fNotationStack 691
+-1 fRootTypeQName 978
+-1 fRootElementDeclQName 941
+-1 fValidationManager 9
+-1 fCurrentPSVI 1958
+-1 fCMStateStack 743
+-1 fRootTypeDefinition 960
+-1 fMatcherStack 1840
+-1 fSchemaType 19
+-1 fXSIErrorReporter 1217
+-1 fXSIErrorReporter 1316
+-1 fCurrentElemDecl 673
+-1 fBuffer 820
+Accesses: 214
+0 1 -1 
+515 1 -1 
+1028 1 -2 
+519 1 -1 
+8 1 -1 
+1035 1 -1 
+1547 1 -1 
+1038 1 -1 
+18 1 -1 
+1046 1 -1 
+1047 1 673 
+25 1 -1 
+1053 1 -1 
+1056 1 -1 
+34 1 -1 
+1060 1 -1 
+37 1 -1 
+1574 1 -2 
+1067 1 -1 
+1582 1 -1 
+1074 1 -1 
+1589 1 153 
+1081 1 -1 
+570 1 -1 
+1598 1 153 
+1087 1 -1 
+1091 1 -1 
+1614 1 -1 
+80 1 -1 
+1621 1 153 
+87 1 -1 
+1112 1 -1 
+94 1 -1 
+1631 1 -1 
+608 1 -2 
+97 1 -1 
+1124 1 -1 
+1642 1 -1 
+1131 1 -1 
+1649 1 -1 
+1138 1 -1 
+115 1 -1 
+629 1 -2 
+1145 1 -1 
+122 1 -1 
+637 1 -1 
+127 1 -1 
+1152 1 -1 
+131 1 -1 
+1156 1 -1 
+1671 1 -1 
+649 1 -1 
+653 1 -1 
+1165 1 -1 
+142 1 -1 
+1172 1 -1 
+661 1 -1 
+1685 1 -1 
+152 1 -1 
+664 1 -1 
+1176 1 -1 
+668 1 -1 
+1695 1 -1 
+672 1 -1 
+161 1 153 
+1698 1 -1 
+1188 1 -1 
+677 1 -1 
+169 1 -1 
+681 1 -1 
+1194 1 -1 
+173 1 -1 
+685 1 -1 
+1198 1 -1 
+1201 1 -1 
+1713 1 -1 
+690 1 -1 
+694 1 -1 
+1720 1 -1 
+698 1 -1 
+703 1 -1 
+1727 1 -1 
+1216 1 -1 
+1217 1 1217 
+707 1 -1 
+1732 1 -1 
+711 1 -1 
+1735 1 -1 
+201 1 -1 
+716 1 -1 
+205 1 -1 
+1743 1 -1 
+720 1 -1 
+1235 1 -2 
+724 1 -1 
+216 1 -2 
+1752 1 -1 
+729 1 -1 
+733 1 -1 
+737 1 -1 
+1253 1 140 
+742 1 -1 
+746 1 -1 
+236 1 -2 
+750 1 -1 
+1774 1 -1 
+755 1 -1 
+759 1 -1 
+1272 1 -2 
+763 1 -1 
+1789 1 -1 
+254 1 -2 
+768 1 -1 
+1795 1 -1 
+772 1 -1 
+1284 1 -1 
+776 1 -1 
+1289 1 -1 
+781 1 -1 
+1293 1 -1 
+273 1 -2 
+1297 1 -1 
+1809 1 -1 
+788 1 -1 
+1302 1 -1 
+793 1 -1 
+1305 1 -1 
+801 1 -1 
+1825 1 -1 
+1315 1 -1 
+806 1 -1 
+1832 1 -1 
+811 1 -1 
+1327 1 -1 
+1839 1 -1 
+816 1 -1 
+819 1 -1 
+1846 1 -1 
+829 1 -1 
+1853 1 -1 
+1342 1 -1 
+1854 1 673 
+1345 1 -1 
+834 1 -1 
+1865 1 -1 
+332 1 -2 
+1868 1 -1 
+1872 1 -1 
+1361 1 -1 
+339 1 -1 
+856 1 -1 
+1370 1 -1 
+1374 1 -1 
+1378 1 -1 
+1381 1 -1 
+874 1 140 
+1388 1 -1 
+1901 1 -1 
+884 1 -1 
+888 1 -1 
+1401 1 -1 
+891 1 -1 
+1407 1 -1 
+1920 1 -1 
+385 1 -2 
+392 1 -1 
+906 1 -1 
+1423 1 -1 
+913 1 -1 
+1429 1 -1 
+1944 1 -1 
+921 1 -1 
+925 1 -1 
+1439 1 153 
+929 1 -1 
+1957 1 -1 
+1961 1 -1 
+940 1 -1 
+1453 1 -1 
+1965 1 1958 
+1456 1 -1 
+1968 1 -1 
+948 1 -1 
+1972 1 -1 
+1463 1 -1 
+1976 1 1958 
+443 1 -2 
+1979 1 -1 
+959 1 -1 
+1983 1 -1 
+1987 1 1958 
+1990 1 -1 
+967 1 -1 
+1994 1 -1 
+971 1 -1 
+1483 1 -2 
+1998 1 1958 
+977 1 -1 
+2001 1 -1 
+1491 1 -1 
+2005 1 -1 
+985 1 -1 
+2009 1 1958 
+1499 1 -2 
+1503 1 -1 
+992 1 -1 
+1506 1 -1 
+999 1 -1 
+1515 1 -1 
+1008 1 -2 
+1520 1 -1 
+1525 1 -1 
+1530 1 -1 
+1533 1 -1 
+Functions: 79
+1408 3 1600 163 153 
+1921 1 1840 
+258 1 258 
+898 37 -1 128 704 960 1600 769 1217 -4 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 1956 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+1026 3 274 1018 255 
+516 2 128 116 
+1796 3 1600 163 153 
+646 35 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+264 1 264 
+1160 0 
+9 1 9 
+393 1 116 
+1678 3 1600 163 153 
+1935 11 -2 609 274 386 -3 630 1929 217 444 333 255 
+1556 3 1600 163 153 
+408 0 
+1818 3 1600 163 153 
+1180 0 
+1309 2 1217 1220 
+414 36 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 380 
+1951 37 -1 128 704 960 1600 769 1217 -4 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 1956 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+1699 3 1600 163 153 
+934 44 -1 128 704 960 1600 769 1217 -2 386 132 1220 9 650 717 333 914 978 274 19 153 665 217 730 1050 673 609 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 630 1721 699 444 255 
+1319 1 1316 
+170 2 128 116 
+1579 36 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 730 1050 673 1569 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+44 3 48 -3 45 
+1836 1 1833 
+177 1 177 
+1843 1 1840 
+1717 4 1600 163 153 1721 
+1334 46 -1 128 704 960 1600 769 1217 -2 386 -3 132 1220 9 650 717 333 914 978 274 19 1110 153 665 217 730 1050 673 609 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 630 1721 699 444 255 
+824 1 820 
+1208 37 -1 128 704 960 1600 769 1217 -4 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 1956 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+1464 2 673 1050 
+953 44 -1 128 704 960 1600 769 1217 -2 386 132 1220 9 650 717 333 914 978 274 19 153 665 217 730 1050 673 609 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 630 1721 699 444 255 
+58 3 -3 59 62 
+571 1 116 
+1600 1 1600 
+193 36 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 177 691 116 756 820 1721 699 
+455 0 
+202 2 128 116 
+586 0 
+1098 3 -3 1099 1102 
+77 37 -1 128 704 960 1600 769 1217 132 1220 70 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 56 1721 699 
+461 36 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 438 1721 699 
+592 36 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 565 1721 699 
+1488 36 -1 128 704 960 1600 769 1217 132 1220 1478 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+1744 1 116 
+340 1 116 
+1877 35 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 1050 730 673 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+1623 1 1600 
+1241 2 1220 1230 
+1755 3 -3 1756 1759 
+989 35 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+1885 46 -1 128 704 960 1600 769 1217 -2 386 -3 132 1220 9 650 717 333 914 978 274 19 153 665 217 730 1050 1823 673 609 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 630 1721 699 444 255 
+223 1 223 
+227 1 223 
+355 0 
+485 36 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 472 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+613 36 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 730 1050 603 673 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+104 37 -1 128 704 960 1600 769 1217 -4 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 1956 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+233 2 233 217 
+1898 46 -1 128 704 960 1600 769 1217 -2 386 -3 132 1220 9 650 717 333 914 978 274 19 153 665 217 730 1050 1823 673 609 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 630 1721 699 444 255 
+363 0 
+1389 2 673 1050 
+1006 45 -1 128 704 960 1600 769 1217 -2 386 -3 132 1220 9 650 717 333 914 978 274 19 153 665 217 730 1050 673 609 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 630 1721 699 444 255 
+1902 1 1840 
+240 1 240 
+369 36 -1 128 704 960 1600 769 1217 132 1220 327 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 691 116 756 820 1721 699 
+245 1 245 
+1782 45 -1 128 704 960 1600 769 1217 -2 386 132 1220 9 650 717 333 914 978 274 19 153 665 217 730 1050 673 609 163 1316 678 1958 743 1767 1833 1962 941 1840 691 116 756 820 630 1721 699 444 255 
+634 36 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 624 691 116 756 820 1721 699 
+1658 3 1600 163 153 
+123 12 128 -2 609 274 386 116 132 630 217 444 333 255 
+251 2 251 255 
+509 36 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 496 691 116 756 820 1721 699 
+1277 36 -1 128 704 960 1600 769 1217 132 1220 9 650 717 914 978 19 153 665 730 1050 673 163 1316 678 1958 743 1833 1962 941 1840 691 1267 116 756 820 1721 699 
+1534 3 1600 163 153 
+Constructors: 1
+227 223
+
+Summary: 20
+2 380 0 1569 327 1267 624 -3 1478 496 1 565 -1 1230 603 217 255 472 -2 438 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.processElementContent(Lcom/sun/org/apache/xerces/internal/xni/QName;)V
+PTG:
+Vars:
+110
+$r29 1 1 
+$r42 1 455 
+$r57 1 248 
+$r107 1 55 
+$r43 1 470 
+$r82 1 58 
+$r8 1 55 
+$r101 1 1 
+$r86 1 58 
+$r109 1 690 
+r28 1 417 
+$r36 1 578 
+$r56 1 11 
+$r62 1 164 
+$r50 1 1 
+$r19 1 645 
+r0 1 -1 
+$r22 1 11 
+$r72 1 180 
+$r97 1 11 
+$r13 1 351 
+$r46 1 11 
+$r66 1 11 
+$r49 1 164 
+$r95 1 1 
+$r106 1 58 
+$r74 1 189 
+$r73 1 186 
+r87 1 48 
+$r14 1 417 
+$r59 1 276 
+$r67 1 322 
+$r33 1 164 
+$r12 1 1 
+$r89 1 58 
+$r44 1 164 
+$r23 1 668 
+$r70 1 170 
+$r103 1 676 
+$r80 1 11 
+$r51 1 1 
+$r7 1 755 
+$r65 1 1 
+$r61 1 291 
+$r47 1 455 
+$r85 1 55 
+$r71 1 177 
+$r25 1 11 
+$r88 1 55 
+$r58 1 272 
+$r39 1 541 
+$r79 1 1 
+$r64 1 307 
+$r76 1 195 
+$r48 1 403 
+$r55 1 1 
+$r52 1 255 
+$r41 1 11 
+$r40 1 1 
+$r84 1 55 
+$r105 1 55 
+$r90 1 55 
+$r91 1 55 
+$r81 1 55 
+$r96 1 1 
+$r9 1 55 
+$r34 1 1 
+$r77 1 1 
+$r78 1 11 
+$r92 1 55 
+$r94 1 125 
+r104 2 722 710 
+$r31 1 125 
+$r26 1 631 
+$r93 1 125 
+$r69 1 164 
+$r99 1 351 
+$r83 1 81 
+$r45 1 1 
+$r30 1 11 
+$r75 1 192 
+$r21 1 1 
+$r3 1 690 
+$r17 1 11 
+r100 1 357 
+$r20 1 164 
+$r5 1 55 
+$r38 1 11 
+$r1 1 1 
+r102 1 390 
+$r37 1 1 
+$r68 1 158 
+$r27 1 417 
+$r108 1 55 
+$r53 1 248 
+$r98 1 338 
+$r18 1 125 
+$r15 1 417 
+$r11 1 351 
+$r16 1 1 
+$r60 1 280 
+$r24 1 1 
+$r32 1 555 
+$r6 1 58 
+$r63 1 248 
+$r110 1 55 
+$r35 1 11 
+$r4 1 125 
+$r10 1 58 
+r2 1 -2 
+Fields: 17
+-2 rawname 164
+11 normalizedValue 455
+11 actualValue 541
+11 actualValue 631
+125 normalizedValue 710
+-1 fCurrentType 248
+-1 fCurrentType 417
+-1 fState4XsiType 276
+-1 fNormalizedStr 55
+-1 fDefaultValue 676
+-1 fCurrentElemDecl 1
+-1 fBuffer 351
+-1 fDocumentHandler 690
+-1 fValidatedInfo 125
+1 fDefault 11
+1 fType 255
+55 ch 58
+Accesses: 105
+0 1 -1 
+516 1 -1 
+261 1 -1 
+774 1 -1 
+7 1 -1 
+8 1 1 
+520 1 -1 
+265 1 -1 
+521 1 1 
+266 1 1 
+779 1 55 
+782 1 -1 
+17 1 -1 
+275 1 -1 
+787 1 55 
+534 1 -1 
+790 1 -1 
+535 1 1 
+24 1 -1 
+538 1 11 
+794 1 -1 
+31 1 -1 
+38 1 -1 
+39 1 1 
+296 1 -2 
+303 1 -1 
+560 1 -2 
+54 1 -1 
+55 1 55 
+315 1 -1 
+571 1 -1 
+316 1 1 
+572 1 1 
+64 1 -1 
+65 1 55 
+331 1 -1 
+76 1 -1 
+332 1 1 
+588 1 -1 
+83 1 55 
+89 1 -1 
+90 1 55 
+350 1 -1 
+606 1 -1 
+610 1 -1 
+611 1 1 
+100 1 -1 
+358 1 -1 
+105 1 55 
+108 1 -1 
+365 1 -1 
+624 1 -1 
+113 1 55 
+625 1 1 
+628 1 11 
+117 1 -1 
+376 1 -1 
+121 1 -1 
+124 1 -1 
+383 1 -1 
+129 1 125 
+132 1 -1 
+391 1 -1 
+650 1 -2 
+139 1 -1 
+146 1 -1 
+661 1 -1 
+662 1 1 
+408 1 -2 
+416 1 -1 
+163 1 -2 
+675 1 -1 
+682 1 -1 
+430 1 -1 
+689 1 -1 
+439 1 417 
+696 1 -1 
+703 1 -1 
+448 1 -1 
+704 1 125 
+449 1 1 
+452 1 11 
+202 1 -1 
+715 1 -1 
+209 1 -1 
+216 1 -1 
+728 1 -1 
+729 1 55 
+475 1 -2 
+226 1 -1 
+738 1 -1 
+739 1 55 
+486 1 -1 
+487 1 1 
+233 1 -1 
+490 1 11 
+750 1 -1 
+240 1 -1 
+757 1 55 
+247 1 -1 
+503 1 417 
+251 1 -1 
+763 1 -1 
+252 1 1 
+764 1 55 
+Functions: 38
+192 1 192 
+384 1 351 
+771 3 722 710 58 
+326 18 -1 417 1 291 676 710 455 11 690 276 55 631 248 58 125 541 351 255 
+582 18 -1 417 1 676 710 455 11 555 690 276 55 631 248 58 125 541 351 255 
+199 18 -1 417 1 676 710 455 11 690 276 55 631 248 58 125 541 158 351 255 
+455 2 390 455 
+524 6 710 455 631 11 125 541 
+716 1 351 
+269 4 455 631 11 541 
+589 1 417 
+206 2 710 125 
+335 4 455 631 11 541 
+723 2 722 710 
+341 20 -1 417 1 -2 676 164 710 455 11 690 338 276 55 631 248 58 125 541 351 255 
+533 2 357 541 
+279 3 272 276 248 
+217 6 1 455 631 11 541 255 
+665 4 455 631 11 541 
+348 19 -1 417 1 -2 676 164 710 455 11 690 276 55 631 248 58 125 541 351 255 
+413 18 -1 417 1 676 710 455 11 690 403 276 55 631 248 58 125 541 351 255 
+799 3 690 55 58 
+672 18 -1 417 1 676 645 710 455 11 690 276 55 631 248 58 125 541 351 255 
+97 2 48 58 
+417 1 417 
+614 6 710 455 631 11 125 541 
+42 4 455 631 11 541 
+170 2 177 170 
+174 1 170 
+366 6 1 455 631 11 541 255 
+623 2 357 631 
+304 1 248 
+49 1 48 
+497 18 -1 417 1 676 710 455 11 690 276 470 55 631 248 58 125 541 351 255 
+180 1 180 
+186 2 186 189 
+319 4 455 631 11 541 
+575 4 455 631 11 541 
+Constructors: 1
+174 170
+
+Summary: 9
+-1 403 645 0 555 -2 158 470 291 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.getRecognizedProperties()[Ljava/lang/String;
+PTG:
+Vars:
+6
+$r1 1 3 
+$r0 1 0 
+$r3 1 3 
+r4 1 -1 
+$r2 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.characters(Lcom/sun/org/apache/xerces/internal/xni/XMLString;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+8
+$r5 1 33 
+r6 1 -2 
+$r1 1 33 
+r7 1 5 
+r0 1 -1 
+r2 1 -3 
+$r4 1 62 
+$r3 1 33 
+Fields: 2
+-1 fEmptyXMLStr 62
+-1 fDocumentHandler 33
+Accesses: 9
+32 1 -1 
+18 1 -1 
+6 1 -1 
+39 1 -1 
+57 1 -1 
+74 1 -1 
+61 1 -1 
+46 1 -1 
+15 1 -1 
+Functions: 4
+0 4 -1 33 -2 62 
+80 3 33 -3 5 
+66 3 33 -3 62 
+28 5 -1 33 -3 5 62 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.checkElementMatchesRootElementDecl(Lcom/sun/org/apache/xerces/internal/impl/xs/XSElementDecl;Lcom/sun/org/apache/xerces/internal/xni/QName;)V
+PTG:
+Vars:
+10
+r1 1 -2 
+r0 1 -3 
+$r7 1 5 
+$r3 1 1 
+$r2 1 5 
+r4 1 -1 
+$r6 1 33 
+$r8 1 16 
+$r5 1 27 
+$r9 1 12 
+Fields: 5
+-2 fName 5
+-2 fTargetNamespace 16
+-3 localpart 1
+-3 uri 12
+-3 rawname 33
+Accesses: 6
+0 1 -3 
+32 1 -3 
+4 1 -2 
+39 1 -2 
+11 1 -3 
+15 1 -2 
+Functions: 1
+44 2 -1 27 
+Constructors: 0
+
+Summary: 9
+-2 16 27 1 0 -1 1 -3 12 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.setDocumentSource(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLDocumentSource;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.findSchemaGrammar(SLjava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;)Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;
+PTG:
+Vars:
+53
+$r32 1 27 
+$r22 1 324 
+$r43 1 77 
+$r36 1 4 
+$r34 1 27 
+$r2 1 4 
+r49 1 298 
+$r52 2 412 416 
+r45 3 11 369 41 
+$r4 1 19 
+$r15 1 292 
+$r47 2 210 -3 
+r51 1 383 
+$r27 1 202 
+$r25 1 266 
+$r16 1 19 
+$r3 1 19 
+$r31 1 19 
+$r23 1 328 
+$r38 1 77 
+$r24 1 19 
+$r9 1 19 
+r8 1 -5 
+$r42 1 399 
+$r18 1 19 
+r1 1 -3 
+r48 1 237 
+$r28 1 176 
+$r29 1 19 
+r46 2 202 283 
+$r41 1 74 
+$r39 1 -1 
+$r21 1 319 
+$r7 1 19 
+$r35 1 41 
+r14 1 217 
+r10 1 -6 
+_ret 3 11 369 41 
+r0 1 -1 
+$r40 1 19 
+$r30 1 190 
+$r26 1 19 
+$r12 1 176 
+$r17 1 202 
+$r20 1 314 
+$r13 1 217 
+$r37 1 74 
+$r19 1 353 
+r6 1 -4 
+$r11 1 19 
+$r5 1 19 
+$r33 1 19 
+$r44 1 -1 
+Fields: 11
+74 fErrorReporter 77
+-1 fGrammarPool 27
+-1 fLocationPairs 202
+-1 fXSIErrorReporter 74
+-1 fEntityResolver 292
+-1 fSchemaLoader 353
+-1 fGrammarBucket 4
+-1 fLocator 176
+-1 fXSDDescription 19
+19 fLocationHints 266
+383 ArrayObject 412
+Accesses: 37
+385 1 -1 
+386 1 74 
+3 1 -1 
+133 1 -1 
+198 1 -1 
+262 1 -1 
+263 1 19 
+73 1 -1 
+74 1 74 
+138 1 19 
+141 1 -1 
+18 1 -1 
+149 1 -1 
+26 1 -1 
+154 1 19 
+157 1 -1 
+285 1 -1 
+95 1 -1 
+352 1 -1 
+33 1 -1 
+163 1 19 
+291 1 -1 
+356 1 -1 
+37 1 -1 
+166 1 -1 
+362 1 -1 
+107 1 -1 
+172 1 19 
+175 1 -1 
+305 1 -1 
+182 1 -1 
+246 1 -1 
+56 1 -1 
+376 1 -1 
+186 1 -1 
+126 1 -1 
+63 1 -1 
+Functions: 23
+353 5 353 19 266 298 202 
+34 3 19 266 27 
+130 2 19 266 
+322 1 298 
+195 3 19 266 190 
+4 2 -3 4 
+292 5 19 292 266 202 283 
+327 2 324 319 
+423 3 -1 77 399 
+232 1 217 
+204 3 210 -3 202 
+114 15 -1 353 292 4 -5 41 202 74 266 11 77 176 369 19 27 
+146 3 -3 19 266 
+23 3 -3 19 266 
+88 1 77 
+280 0 
+312 3 369 41 11 
+57 4 369 4 41 11 
+377 2 19 266 
+314 2 328 314 
+187 1 176 
+317 1 298 
+254 15 -1 353 292 4 41 202 74 266 11 77 237 176 369 19 27 
+Constructors: 0
+
+Summary: 7
+1 2 -1 4 399 -3 3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.normalizeWhitespace(Ljava/lang/String;Z)V
+PTG:
+Vars:
+18
+r1 1 -1 
+$r4 1 37 
+$r15 1 12 
+r0 1 -2 
+$r8 1 9 
+$r5 1 9 
+$r12 1 9 
+$r2 1 9 
+$r17 1 9 
+$r7 1 9 
+$r3 1 12 
+$r14 1 9 
+$r16 1 9 
+$r6 1 9 
+$r11 1 9 
+$r13 1 12 
+$r10 1 12 
+$r9 1 9 
+Fields: 2
+9 ch 12
+-1 fNormalizedStr 9
+Accesses: 25
+135 1 9 
+8 1 -1 
+9 1 9 
+18 1 -1 
+19 1 9 
+88 1 -1 
+89 1 9 
+153 1 -1 
+154 1 9 
+31 1 -1 
+95 1 -1 
+96 1 9 
+163 1 -1 
+164 1 9 
+39 1 9 
+42 1 -1 
+106 1 9 
+173 1 9 
+47 1 9 
+50 1 -1 
+117 1 -1 
+118 1 9 
+55 1 9 
+124 1 -1 
+125 1 9 
+Functions: 3
+2 1 -2 
+68 1 -2 
+76 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.reportSchemaError(Ljava/lang/String;[Ljava/lang/Object;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r1 1 -2 
+$r3 1 8 
+r0 1 -1 
+Fields: 1
+-1 fXSIErrorReporter 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+17 3 -2 -3 8 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.getDocumentHandler()Lcom/sun/org/apache/xerces/internal/xni/XMLDocumentHandler;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 fDocumentHandler 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.handleEndElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)Lcom/sun/org/apache/xerces/internal/xni/Augmentations;
+PTG:
+Vars:
+76
+$r14 1 955 
+r92 1 564 
+$r53 2 309 357 
+r0 1 -1 
+$r21 1 765 
+$r16 1 974 
+r89 1 486 
+r1 1 -2 
+$r52 2 309 357 
+$r5 1 883 
+$r19 1 783 
+$r43 1 350 
+$r33 1 583 
+$r85 2 309 357 
+$r84 1 350 
+$r96 1 753 
+$r25 1 753 
+$r40 1 265 
+$r54 2 326 414 
+r78 1 -3 
+$r29 1 265 
+$r24 1 757 
+$r3 1 870 
+$r22 1 768 
+$r56 2 304 339 
+$r46 1 350 
+$r48 1 370 
+$r27 1 726 
+$r15 1 961 
+$r7 1 903 
+$r20 1 802 
+$r45 1 370 
+$r30 1 265 
+$r82 2 304 339 
+$r47 1 294 
+$r87 1 294 
+$r42 1 294 
+$r83 3 312 360 373 
+$r49 2 309 357 
+$r18 1 684 
+$r38 1 524 
+$r31 3 524 647 602 
+$r23 1 761 
+$r28 1 265 
+$r86 3 326 414 427 
+$r51 2 309 357 
+$r32 1 265 
+$r2 1 857 
+r99 2 844 833 
+_ret 2 844 833 
+r93 1 564 
+r95 1 690 
+$r4 1 877 
+$r34 2 524 602 
+r79 1 291 
+$r39 1 265 
+$r44 1 294 
+$r98 1 783 
+$r12 1 935 
+$r9 1 916 
+$r37 1 505 
+r97 1 781 
+$r13 1 948 
+$r26 1 719 
+$r55 2 312 360 
+$r8 1 909 
+$r11 1 929 
+r35 1 615 
+$r36 1 265 
+$r10 1 922 
+r90 1 486 
+$r17 1 684 
+$r50 2 309 357 
+$r6 1 896 
+$r41 1 294 
+$r88 1 370 
+Fields: 40
+781 ArrayObject 802
+370 itemValueTypes 427
+370 actualValue 373
+870 ArrayObject 877
+294 fDefault 370
+309 itemValueTypes 326
+309 actualValue 312
+765 fErrorReporter 768
+909 ArrayObject 916
+896 ArrayObject 903
+922 ArrayObject 929
+-1 fSawTextStack 961
+-1 fNotationStack 896
+-1 fCurrentType 304
+-1 fCurrentType 339
+-1 fValidationState 684
+-1 fValueStoreCache 647
+-1 fValueStoreCache 602
+-1 fValueStoreCache 524
+-1 fCMBuilder 761
+-1 fGrammarBucket 753
+-1 fCMStateStack 948
+-1 fElemDeclStack 870
+-1 fNilStack 883
+-1 fStrictAssessStack 935
+-1 fValidatedInfo 357
+-1 fValidatedInfo 309
+-1 fMatcherStack 265
+-1 fCMStack 922
+-1 fSubElementStack 857
+-1 fGrammarPool 783
+-1 fDefaultValue 350
+-1 fXSIErrorReporter 765
+-1 fTypeStack 909
+-1 fStringContent 974
+-1 fCurrentElemDecl 294
+-1 fSubGroupHandler 757
+357 itemValueTypes 414
+357 actualValue 360
+948 ArrayObject 955
+Accesses: 142
+0 1 -1 
+257 1 -1 
+774 1 -1 
+7 1 -1 
+264 1 -1 
+11 1 -1 
+523 1 -1 
+782 1 -1 
+18 1 -1 
+26 1 -1 
+282 1 -1 
+32 1 -1 
+37 1 -1 
+293 1 -1 
+40 1 -1 
+555 1 -1 
+813 1 -1 
+47 1 -1 
+303 1 -1 
+51 1 -1 
+308 1 -1 
+309 2 309 357 
+55 1 -1 
+315 1 -1 
+60 1 -1 
+316 2 309 357 
+64 1 -1 
+322 1 -1 
+323 2 309 357 
+68 1 -1 
+73 1 -1 
+77 1 -1 
+845 1 -1 
+81 1 -1 
+338 1 -1 
+852 1 -1 
+86 1 -1 
+342 1 -1 
+856 1 -1 
+601 1 -1 
+90 1 -1 
+860 1 -1 
+349 1 -1 
+94 1 -1 
+865 1 -1 
+99 1 -1 
+356 1 -1 
+357 2 309 357 
+869 1 -1 
+103 1 -1 
+873 1 -1 
+107 1 -1 
+366 1 -1 
+622 1 615 
+878 1 -1 
+367 1 294 
+112 1 -1 
+370 1 370 
+882 1 -1 
+627 1 615 
+116 1 -1 
+886 1 -1 
+120 1 -1 
+376 1 -1 
+891 1 -1 
+125 1 -1 
+383 1 -1 
+895 1 -1 
+384 2 309 357 
+129 1 -1 
+899 1 -1 
+133 1 -1 
+646 1 -1 
+904 1 -1 
+393 1 -1 
+138 1 -1 
+394 1 294 
+908 1 -1 
+397 1 370 
+653 1 -1 
+142 1 -1 
+912 1 -1 
+657 1 -1 
+146 1 -1 
+403 1 -1 
+917 1 -1 
+151 1 -1 
+664 1 -1 
+921 1 -1 
+410 1 -1 
+155 1 -1 
+411 2 309 357 
+925 1 -1 
+159 1 -1 
+671 1 -1 
+930 1 -1 
+164 1 -1 
+420 1 -1 
+676 1 -1 
+421 1 294 
+934 1 -1 
+168 1 -1 
+424 1 370 
+938 1 -1 
+683 1 -1 
+172 1 -1 
+943 1 -1 
+177 1 -1 
+947 1 -1 
+692 1 -1 
+183 1 -1 
+439 1 -1 
+951 1 -1 
+956 1 -1 
+190 1 -1 
+960 1 -1 
+193 1 -1 
+449 1 -1 
+964 1 -1 
+456 1 -1 
+201 1 -1 
+969 1 -1 
+973 1 -1 
+208 1 -1 
+977 1 -1 
+982 1 -1 
+215 1 -1 
+219 1 -1 
+987 1 -1 
+477 1 -1 
+223 1 -1 
+992 1 -1 
+738 1 -1 
+227 1 -1 
+997 1 -1 
+745 1 -1 
+237 1 -1 
+752 1 -1 
+756 1 -1 
+760 1 -1 
+764 1 -1 
+765 1 765 
+Functions: 34
+704 1 690 
+514 1 505 
+771 4 768 753 757 761 
+453 1 265 
+581 1 564 
+837 41 -1 896 768 961 -3 326 647 903 265 524 909 974 783 339 916 857 602 922 350 414 929 357 870 294 935 360 427 684 877 304 753 370 883 948 309 757 373 312 761 955 765 
+775 1 753 
+265 1 265 
+329 8 304 -2 291 339 326 312 360 414 
+457 1 265 
+650 3 647 602 524 
+592 1 583 
+529 1 486 
+724 1 690 
+534 2 505 524 
+343 4 370 373 294 427 
+602 3 583 602 524 
+283 1 265 
+732 41 -1 896 768 961 326 647 903 265 524 909 974 783 719 339 916 857 602 922 350 414 929 357 870 294 935 360 427 684 877 304 753 370 883 948 309 757 373 312 761 955 765 
+478 1 265 
+607 1 564 
+804 1 802 
+234 0 
+556 1 265 
+684 1 684 
+430 10 304 -2 291 339 373 326 312 360 427 414 
+244 41 -1 896 768 961 -3 326 647 903 265 524 909 974 783 339 916 857 602 922 350 414 929 357 870 294 935 360 427 684 877 304 753 370 883 948 309 757 373 312 761 955 765 
+821 3 802 781 783 
+503 1 486 
+440 1 265 
+696 1 684 
+826 43 -1 896 768 961 -3 326 647 903 265 524 909 781 974 783 339 916 857 602 922 350 414 929 802 357 870 294 935 360 427 684 877 304 753 370 883 948 309 757 373 312 761 955 765 
+637 1 615 
+254 41 -1 896 768 961 -2 326 647 903 265 524 909 974 783 339 916 857 602 922 350 414 929 357 870 294 935 360 427 684 877 304 753 370 883 948 309 757 373 312 761 955 765 
+Constructors: 0
+
+Summary: 5
+1 -1 0 719 -2 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.elementDefault(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.ensureStackCapacity()V
+PTG:
+Vars:
+22
+r3 1 44 
+r18 1 68 
+r21 1 218 
+r15 1 241 
+$r2 1 25 
+$r9 1 124 
+$r12 1 176 
+r0 1 -1 
+$r11 1 151 
+$r7 1 97 
+$r16 1 247 
+$r14 1 222 
+r6 1 91 
+r20 1 195 
+$r1 1 5 
+r17 1 21 
+$r5 1 72 
+r10 1 145 
+r19 1 172 
+$r4 1 5 
+r8 1 118 
+$r13 1 199 
+Fields: 10
+-1 fSawTextStack 176
+-1 fNotationStack 97
+-1 fCMStack 151
+-1 fSubElementStack 25
+-1 fTypeStack 124
+-1 fStringContent 199
+-1 fCMStateStack 247
+-1 fElemDeclStack 5
+-1 fNilStack 72
+-1 fStrictAssessStack 222
+Accesses: 33
+0 1 -1 
+64 1 -1 
+131 1 -1 
+4 1 -1 
+198 1 -1 
+71 1 -1 
+264 1 -1 
+12 1 -1 
+141 1 -1 
+205 1 -1 
+78 1 -1 
+150 1 -1 
+214 1 -1 
+87 1 -1 
+24 1 -1 
+221 1 -1 
+158 1 -1 
+31 1 -1 
+96 1 -1 
+228 1 -1 
+40 1 -1 
+104 1 -1 
+168 1 -1 
+237 1 -1 
+175 1 -1 
+48 1 -1 
+114 1 -1 
+182 1 -1 
+246 1 -1 
+55 1 -1 
+123 1 -1 
+254 1 -1 
+191 1 -1 
+Functions: 10
+209 2 195 199 
+82 2 68 72 
+162 2 145 151 
+258 2 241 247 
+35 2 21 25 
+135 2 118 124 
+232 2 218 222 
+186 2 176 172 
+59 2 5 44 
+108 2 97 91 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.access$100(Lcom/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator;Lcom/sun/org/apache/xerces/internal/impl/xs/identity/IdentityConstraint;)V
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 1 0 -3 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.processOneAttribute(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;ILcom/sun/org/apache/xerces/internal/impl/xs/XSAttributeDecl;Lcom/sun/org/apache/xerces/internal/impl/xs/XSAttributeUseImpl;Lcom/sun/org/apache/xerces/internal/impl/xs/AttributePSVImpl;)V
+PTG:
+Vars:
+56
+r55 1 43 
+$r57 2 201 193 
+r19 1 -2 
+$r52 1 21 
+$r28 1 35 
+$r50 1 169 
+$r27 1 230 
+r54 1 43 
+$r47 1 153 
+$r48 1 159 
+r4 1 -5 
+$r20 1 159 
+$r42 1 35 
+$r21 1 166 
+$r22 1 169 
+$r16 1 324 
+$r35 1 230 
+$r26 1 340 
+$r24 1 386 
+$r43 1 58 
+$r14 1 402 
+$r37 1 102 
+$r46 1 142 
+$r3 1 10 
+r15 1 -6 
+r5 1 21 
+$r29 1 260 
+$r30 1 159 
+$r40 1 120 
+$r36 1 246 
+$r25 1 324 
+$r9 1 35 
+$r7 1 31 
+$r17 1 35 
+$r12 1 470 
+$r32 1 169 
+$r34 1 292 
+r39 1 108 
+$r31 1 166 
+r0 1 -3 
+$r23 1 324 
+$r13 1 35 
+r2 1 -1 
+$r10 1 402 
+r8 1 -7 
+$r33 1 230 
+$r38 1 97 
+$r44 1 -1 
+r59 1 491 
+$r18 1 354 
+$r6 1 35 
+$r45 1 137 
+$r58 1 10 
+r1 1 7 
+$r49 1 166 
+$r41 1 123 
+Fields: 17
+-6 fDefault 324
+43 localpart 120
+43 uri 102
+-2 rawname 159
+-7 fValue 402
+35 normalizedValue 58
+230 actualValue 246
+324 actualValue 340
+166 rawname 169
+-1 fValidationState 31
+-1 fXSIErrorReporter 10
+-1 fTempQName 166
+-1 fCurrentElemDecl 470
+-1 fGrammarBucket 97
+-1 fValidatedInfo 35
+-5 fType 21
+-5 fDefault 230
+Accesses: 49
+512 1 -7 
+9 1 -1 
+265 1 -2 
+393 1 -1 
+16 1 -5 
+272 1 -1 
+400 1 -7 
+273 1 166 
+405 1 -1 
+412 1 -1 
+30 1 -1 
+158 1 -2 
+287 1 -5 
+34 1 -1 
+165 1 -1 
+166 1 166 
+423 1 -7 
+45 1 -1 
+430 1 -7 
+433 1 -7 
+309 1 -6 
+54 1 -1 
+438 1 -1 
+55 1 35 
+318 1 -1 
+448 1 -7 
+322 1 -6 
+451 1 -1 
+458 1 -1 
+462 1 -1 
+335 1 -6 
+337 1 324 
+469 1 -1 
+477 1 -1 
+96 1 -1 
+224 1 -1 
+481 1 -1 
+100 1 43 
+228 1 -5 
+484 1 -1 
+359 1 -2 
+366 1 -1 
+367 1 166 
+241 1 -5 
+497 1 -7 
+243 1 230 
+118 1 43 
+381 1 -6 
+126 1 -1 
+Functions: 26
+0 1 -3 
+66 1 21 
+324 4 35 324 340 58 
+390 10 -1 97 354 35 166 470 169 10 58 31 
+135 1 -1 
+199 1 21 
+140 1 -1 
+13 1 10 
+77 1 21 
+333 4 340 102 120 43 
+207 10 -1 97 35 166 470 169 153 10 58 31 
+145 11 -1 97 35 166 470 169 137 10 58 142 31 
+215 4 -5 21 230 246 
+409 3 402 35 58 
+26 5 35 21 7 58 31 
+97 2 97 102 
+289 2 230 246 
+485 1 10 
+230 4 35 230 246 58 
+296 10 -1 97 35 260 166 470 169 10 58 31 
+239 4 102 246 120 43 
+116 2 120 108 
+442 3 402 35 58 
+61 2 -3 58 
+190 1 21 
+383 2 324 340 
+Constructors: 0
+
+Summary: 14
+1 -1 5 324 0 -6 -7 -3 260 -2 402 354 3 153 
+com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator.getAndCheckXsiType(Lcom/sun/org/apache/xerces/internal/xni/QName;Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;)Lcom/sun/org/apache/xerces/internal/xs/XSTypeDefinition;
+PTG:
+Vars:
+28
+$r8 1 203 
+$r13 1 273 
+$r6 1 102 
+$r14 1 193 
+$r18 1 203 
+r40 2 161 122 
+$r11 1 267 
+$r5 1 105 
+$r7 1 193 
+$r15 1 287 
+r12 1 -2 
+r0 1 -1 
+$r17 1 193 
+$r24 1 116 
+$r23 1 116 
+_ret 2 161 122 
+r21 1 -4 
+$r9 1 193 
+r38 1 13 
+r41 1 144 
+$r16 1 193 
+$r25 1 111 
+$r22 1 102 
+$r10 1 193 
+$r2 1 9 
+r1 1 -3 
+$r3 1 4 
+$r4 1 13 
+Fields: 7
+-2 rawname 273
+13 localpart 116
+13 uri 102
+-1 fCurrentType 193
+-1 fValidationState 9
+-1 fQNameDV 4
+-1 fCurrentElemDecl 203
+Accesses: 18
+192 1 -1 
+3 1 -1 
+100 1 13 
+132 1 13 
+8 1 -1 
+202 1 -1 
+234 1 -1 
+238 1 193 
+272 1 -2 
+209 1 -1 
+114 1 13 
+178 1 -2 
+210 1 203 
+52 1 -2 
+153 1 13 
+218 1 -1 
+250 1 -1 
+283 1 -1 
+Functions: 18
+129 11 -1 193 -2 273 -4 4 116 102 9 203 13 
+34 0 
+291 6 -1 193 4 9 203 267 
+4 3 -3 4 9 
+69 0 
+39 5 -1 193 4 9 203 
+75 0 
+111 2 116 111 
+81 0 
+151 2 144 116 
+59 0 
+187 5 -1 193 4 9 203 
+219 1 193 
+92 5 -1 193 4 9 203 
+284 1 193 
+29 0 
+254 3 161 193 122 
+63 0 
+Constructors: 0
+
+Summary: 12
+2 1 47 13 -1 -4 0 173 -2 267 116 102 

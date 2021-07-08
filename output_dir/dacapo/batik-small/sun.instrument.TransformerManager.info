@@ -1,0 +1,197 @@
+10
+sun/instrument/TransformerManager.getNativeMethodPrefixes()[Ljava/lang/String;
+PTG:
+Vars:
+6
+r1 1 4 
+r3 1 22 
+$r4 1 28 
+r0 1 -1 
+_ret 1 7 
+r2 1 7 
+Fields: 1
+4 ArrayObject 22
+Accesses: 0
+Functions: 2
+0 1 -1 
+26 1 22 
+Constructors: 0
+
+Summary: 4
+22 -1 4 28 
+sun/instrument/TransformerManager.addTransformer(Ljava/lang/instrument/ClassFileTransformer;)V
+PTG:
+Vars:
+5
+r4 1 -2 
+r2 1 9 
+$r3 1 25 
+r0 1 -1 
+r1 1 4 
+Fields: 1
+-1 mTransformerList 4
+Accesses: 2
+0 1 -1 
+37 1 -1 
+Functions: 2
+19 2 4 9 
+31 4 -1 -2 4 25 
+Constructors: 1
+31 25
+
+Summary: 2
+-1 -2 
+sun/instrument/TransformerManager.<init>(Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 6 
+Fields: 0
+Accesses: 2
+9 1 -1 
+14 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+sun/instrument/TransformerManager.removeTransformer(Ljava/lang/instrument/ClassFileTransformer;)Z
+PTG:
+Vars:
+6
+r1 1 6 
+r5 1 63 
+r4 1 -2 
+$r2 1 34 
+r0 1 -1 
+$r3 1 35 
+Fields: 2
+-1 mTransformerList 6
+6 ArrayObject 34
+Accesses: 2
+2 1 -1 
+110 1 -1 
+Functions: 3
+80 3 34 6 63 
+34 1 34 
+104 3 34 6 63 
+Constructors: 0
+
+Summary: 3
+-1 -2 35 
+sun/instrument/TransformerManager.getSnapshotTransformerList()[Lsun/instrument/TransformerManager$TransformerInfo;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 mTransformerList 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/instrument/TransformerManager.transform(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/lang/Class;Ljava/security/ProtectionDomain;[B)[B
+PTG:
+Vars:
+14
+r0 1 -1 
+r7 1 -4 
+r2 1 -6 
+r3 1 29 
+r13 2 55 -6 
+r11 2 55 -6 
+$r9 1 -1 
+_ret 2 55 -6 
+r4 1 36 
+r12 1 55 
+r6 1 -3 
+r8 1 -5 
+r5 1 -2 
+r1 1 7 
+Fields: 1
+7 ArrayObject 29
+Accesses: 0
+Functions: 3
+3 1 -1 
+41 7 -2 -3 -4 36 -5 -6 55 
+31 1 29 
+Constructors: 0
+
+Summary: 9
+29 36 55 -5 7 -3 -1 -2 -4 
+sun/instrument/TransformerManager.includesTransformer(Ljava/lang/instrument/ClassFileTransformer;)Z
+PTG:
+Vars:
+5
+r4 1 -2 
+r1 1 4 
+r2 1 21 
+r0 1 -1 
+$r3 1 25 
+Fields: 2
+-1 mTransformerList 4
+4 ArrayObject 21
+Accesses: 1
+0 1 -1 
+Functions: 1
+23 1 21 
+Constructors: 0
+
+Summary: 3
+25 -1 -2 
+sun/instrument/TransformerManager.isRetransformable()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/instrument/TransformerManager.setNativeMethodPrefix(Ljava/lang/instrument/ClassFileTransformer;Ljava/lang/String;)Z
+PTG:
+Vars:
+6
+r0 1 -1 
+r4 1 -2 
+r2 1 19 
+r3 1 26 
+r1 1 4 
+r5 1 -3 
+Fields: 1
+4 ArrayObject 19
+Accesses: 0
+Functions: 3
+0 1 -1 
+21 1 19 
+37 2 -3 19 
+Constructors: 0
+
+Summary: 6
+26 -3 19 -1 -2 4 
+sun/instrument/TransformerManager.getTransformerCount()I
+PTG:
+Vars:
+2
+r1 1 4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 4 

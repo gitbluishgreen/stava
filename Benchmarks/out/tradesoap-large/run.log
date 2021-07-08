@@ -1,0 +1,67 @@
+nice -n 19 /home/cs17b006/jdk1.8.0_291/bin/java -Xmx6G -javaagent:poa-trunk.jar -jar /home/cs17b006/stava-master/Benchmarks/dacapo/dacapo-9.12-MR1-bach.jar tradesoap -s large --scratch-directory /tmp/dacaposcratch -n 3
+============================================================
+TamiFlex Play-Out Agent Version trunk
+Loaded properties from /home/cs17b006/.tamiflex/poa.properties
+============================================================
+Using scaled threading model. 72 processors detected, 72 threads used to drive the workload, in a possible range of [1,512]
+Booting Geronimo Kernel (in Java 1.8.0_291)...
+Geronimo startup complete
+Successfully created tables
+===== DaCapo 9.12-MR1 tradesoap starting warmup 1 =====
+Resetting database and populating with 1098 stocks...
+Populating database with 768 users...
+Finished repopulating database
+Running 512 trade sessions from client via soap
+Completed 512 trade sessions comprising 8862 trader actions
+	Home ....................  1653 (18.7%)
+	Portfolio ...............   738 ( 8.3%)
+	Quote ...................  3758 (42.4%)
+	Buy .....................   726 ( 8.2%)
+	Sell ....................   761 ( 8.6%)
+	Update ..................   126 ( 1.4%)
+	Register ................    38 ( 0.4%)
+	Login ...................   512 ( 5.8%)
+	Logout ..................   550 ( 6.2%)
+===== DaCapo 9.12-MR1 tradesoap completed warmup 1 in 24186 msec =====
+===== DaCapo 9.12-MR1 tradesoap starting warmup 2 =====
+Resetting database and populating with 1098 stocks...
+Populating database with 768 users...
+Finished repopulating database
+Running 512 trade sessions from client via soap
+Completed 512 trade sessions comprising 8862 trader actions
+	Home ....................  1653 (18.7%)
+	Portfolio ...............   738 ( 8.3%)
+	Quote ...................  3758 (42.4%)
+	Buy .....................   726 ( 8.2%)
+	Sell ....................   761 ( 8.6%)
+	Update ..................   126 ( 1.4%)
+	Register ................    38 ( 0.4%)
+	Login ...................   512 ( 5.8%)
+	Logout ..................   550 ( 6.2%)
+===== DaCapo 9.12-MR1 tradesoap completed warmup 2 in 20884 msec =====
+===== DaCapo 9.12-MR1 tradesoap starting =====
+Resetting database and populating with 1098 stocks...
+Populating database with 768 users...
+Finished repopulating database
+Running 512 trade sessions from client via soap
+Completed 512 trade sessions comprising 8862 trader actions
+	Home ....................  1653 (18.7%)
+	Portfolio ...............   738 ( 8.3%)
+	Quote ...................  3758 (42.4%)
+	Buy .....................   726 ( 8.2%)
+	Sell ....................   761 ( 8.6%)
+	Update ..................   126 ( 1.4%)
+	Register ................    38 ( 0.4%)
+	Login ...................   512 ( 5.8%)
+	Logout ..................   550 ( 6.2%)
+===== DaCapo 9.12-MR1 tradesoap PASSED in 19926 msec =====
+Shutting down Geronimo...
+Exception in thread "Thread-0" java.lang.IllegalStateException: ClassReader.accept() should be called with EXPAND_FRAMES flag
+	at org.objectweb.asm.commons.LocalVariablesSorter.visitFrame(Unknown Source)
+	at org.objectweb.asm.commons.RemappingMethodAdapter.visitFrame(Unknown Source)
+	at org.objectweb.asm.MethodAdapter.visitFrame(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at de.bodden.tamiflex.normalizer.Hasher.generateHashNumber(Hasher.java:99)
+	at de.bodden.tamiflex.playout.ClassDumper.writeClassesToDisk(ClassDumper.java:84)
+	at de.bodden.tamiflex.playout.Agent$1.run(Agent.java:123)

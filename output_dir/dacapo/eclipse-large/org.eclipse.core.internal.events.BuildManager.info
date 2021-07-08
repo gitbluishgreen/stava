@@ -1,0 +1,1569 @@
+44
+org/eclipse/core/internal/events/BuildManager.debugProject()Ljava/lang/String;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r5 1 23 
+$r1 1 1 
+$r2 1 1 
+$r4 1 18 
+_ret 1 23 
+$r3 1 15 
+Fields: 1
+-1 currentBuilder 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 3
+18 1 18 
+12 1 1 
+15 1 15 
+Constructors: 0
+
+Summary: 3
+15 -1 18 
+org/eclipse/core/internal/events/BuildManager.basicBuildLoop([Lorg/eclipse/core/resources/IProject;[Lorg/eclipse/core/resources/IProject;ILorg/eclipse/core/runtime/MultiStatus;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+18
+r1 1 -3 
+$r3 1 20 
+$r9 1 86 
+$r10 1 94 
+r2 1 -1 
+r0 1 -2 
+$r17 2 58 159 
+$r12 2 58 101 
+$r15 1 152 
+r7 1 -5 
+$r5 1 58 
+$r16 1 165 
+$r13 1 131 
+$r6 1 73 
+r8 1 -6 
+$r4 1 23 
+$r11 1 107 
+$r14 1 144 
+Fields: 8
+-3 ArrayObject 144
+-3 ArrayObject 165
+-3 ArrayObject 131
+-2 ArrayObject 107
+-2 ArrayObject 73
+-2 ArrayObject 86
+-1 workspace 20
+-1 builtProjects 58
+Accesses: 7
+19 1 -1 
+100 1 -1 
+54 1 -1 
+57 1 -1 
+186 1 -1 
+43 1 -1 
+158 1 -1 
+Functions: 11
+97 6 -1 20 -5 86 58 94 
+131 1 131 
+20 1 20 
+150 1 -6 
+166 3 165 58 159 
+23 1 23 
+73 1 73 
+155 6 -1 144 20 -5 152 58 
+92 1 -6 
+108 3 101 58 107 
+61 1 58 
+Constructors: 0
+
+Summary: 12
+-3 -2 23 0 1 3 4 -5 152 -1 -6 94 
+org/eclipse/core/internal/events/BuildManager.getBuilder(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/ICommand;ILorg/eclipse/core/runtime/MultiStatus;)Lorg/eclipse/core/resources/IncrementalProjectBuilder;
+PTG:
+Vars:
+12
+$r8 1 28 
+$r3 1 63 
+r0 1 -3 
+$r1 1 -3 
+r7 1 -5 
+$r5 1 16 
+$r4 2 7 28 
+r2 1 -1 
+r6 1 -2 
+_ret 2 7 28 
+r10 2 7 28 
+$r9 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 10
+1 1 -3 
+51 3 -2 7 28 
+39 2 -3 28 
+56 2 7 28 
+59 4 -1 7 28 63 
+45 3 -3 7 28 
+77 2 7 28 
+14 4 -1 16 -2 -5 
+62 1 -3 
+15 1 -3 
+Constructors: 0
+
+Summary: 9
+3 -3 16 -2 63 -5 0 -1 1 
+org/eclipse/core/internal/events/BuildManager.endTopLevel(Z)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 autoBuildJob 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/BuildManager.shutdown(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 1
+-1 autoBuildJob 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/events/BuildManager.basicBuild(Lorg/eclipse/core/resources/IProject;ILorg/eclipse/core/runtime/MultiStatus;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+11
+r0 1 -2 
+$r10 1 13 
+$r5 1 79 
+r6 1 -1 
+r13 1 20 
+r7 1 -4 
+r1 1 -5 
+$r9 1 -2 
+$r3 1 51 
+$r4 1 56 
+$r2 1 47 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -2 
+50 1 -2 
+98 1 79 
+51 2 51 47 
+118 1 -5 
+73 1 -5 
+10 1 -2 
+91 6 -1 -2 -4 20 -5 79 
+108 1 -5 
+13 1 13 
+61 2 -5 56 
+Constructors: 1
+91 79
+
+Summary: 12
+20 -2 51 0 -4 3 2 -5 13 -1 56 79 
+org/eclipse/core/internal/events/BuildManager.isAutobuildBuildPending()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 autoBuildJob 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/BuildManager.getCommand(Lorg/eclipse/core/resources/IProject;Ljava/lang/String;Ljava/util/Map;)Lorg/eclipse/core/resources/ICommand;
+PTG:
+Vars:
+11
+$r8 1 53 
+r10 1 -1 
+r6 1 -3 
+$r1 1 -2 
+r3 1 11 
+r0 1 -2 
+$r4 1 23 
+_ret 1 53 
+$r2 1 4 
+$r5 1 24 
+r9 1 -4 
+Fields: 1
+11 ArrayObject 23
+Accesses: 0
+Functions: 7
+1 1 -2 
+65 2 -3 53 
+4 1 4 
+23 1 23 
+71 2 -4 53 
+24 2 -3 24 
+57 1 53 
+Constructors: 1
+57 53
+
+Summary: 10
+-3 -2 4 0 -4 1 11 24 2 -1 
+org/eclipse/core/internal/events/BuildManager.basicBuild(Lorg/eclipse/core/resources/IProject;ILorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+6
+$r8 1 -1 
+r4 1 -2 
+r0 1 -1 
+r5 1 -4 
+$r2 1 27 
+$r1 1 17 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+51 1 -1 
+42 4 -1 -2 17 -4 
+61 1 -1 
+14 1 -1 
+31 2 17 27 
+Constructors: 1
+31 17
+
+Summary: 5
+-2 2 0 -1 -4 
+org/eclipse/core/internal/events/BuildManager.needsBuild(Lorg/eclipse/core/internal/events/InternalBuilder;I)Z
+PTG:
+Vars:
+36
+$r37 1 184 
+$r1 1 41 
+$r4 1 58 
+$r48 1 219 
+$r41 1 113 
+$r39 1 193 
+$r40 1 102 
+$r7 1 80 
+$r49 1 222 
+r3 1 56 
+$r42 1 116 
+$r11 2 90 293 
+$r43 1 122 
+$r50 1 227 
+$r30 1 146 
+$r13 1 306 
+r0 1 -1 
+$r35 1 73 
+$r32 1 153 
+r5 1 64 
+$r31 1 150 
+$r36 1 168 
+$r38 1 190 
+$r44 1 127 
+$r47 1 90 
+$r10 1 300 
+r46 1 136 
+$r9 1 90 
+$r8 1 80 
+$r34 1 90 
+$r45 1 130 
+$r33 1 156 
+r51 1 284 
+$r12 1 301 
+r2 1 -2 
+$r6 1 73 
+Fields: 5
+284 ArrayObject 300
+-1 currentBuilder 41
+-1 workspace 58
+-1 deltaTreeCache 73
+-1 currentDelta 90
+Accesses: 10
+292 1 -1 
+86 1 -1 
+214 1 -1 
+199 1 -1 
+40 1 -1 
+72 1 -1 
+57 1 -1 
+89 1 -1 
+159 1 -1 
+207 1 -1 
+Functions: 46
+-1 0 
+257 0 
+66 0 
+130 1 130 
+322 6 -1 -2 41 73 58 90 
+196 1 193 
+260 1 -2 
+324 0 
+261 0 
+73 3 64 56 73 
+330 0 
+140 1 136 
+269 0 
+144 1 64 
+336 0 
+146 3 146 150 153 
+211 4 64 56 73 90 
+275 0 
+149 1 56 
+215 2 90 222 
+343 0 
+280 1 -2 
+218 1 -2 
+219 1 219 
+349 0 
+355 0 
+293 3 293 90 301 
+102 2 113 102 
+168 1 168 
+41 1 41 
+300 1 300 
+109 1 102 
+175 1 168 
+239 0 
+112 1 56 
+243 6 -1 -2 41 73 58 90 
+52 1 -2 
+116 1 116 
+245 0 
+184 1 184 
+58 1 58 
+122 2 122 127 
+251 0 
+125 1 64 
+190 1 190 
+318 0 
+Constructors: 2
+109 102
+175 168
+
+Summary: 31
+153 269 193 130 349 306 301 113 352 146 136 190 -1 56 127 324 64 272 344 219 264 327 -2 0 245 261 222 227 284 248 150 
+org/eclipse/core/internal/events/BuildManager.basicBuild(Lorg/eclipse/core/resources/IProject;ILjava/lang/String;Ljava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+19
+$r18 1 -1 
+r8 1 -4 
+r9 1 -5 
+r3 1 19 
+$r14 1 -1 
+r10 1 86 
+$r16 1 -1 
+r4 1 -1 
+$r6 1 69 
+r21 1 5 
+$r19 1 131 
+r0 1 -2 
+r20 1 -6 
+$r1 1 7 
+r13 1 42 
+r22 1 98 
+$r5 1 59 
+$r12 1 116 
+$r2 1 11 
+Fields: 0
+Accesses: 0
+Functions: 18
+0 1 -6 
+160 1 -1 
+129 1 -1 
+134 2 131 59 
+73 2 69 59 
+10 1 -2 
+170 1 5 
+11 2 7 11 
+46 1 5 
+78 4 -1 -2 -4 -5 
+143 1 -1 
+115 1 5 
+148 1 5 
+119 5 -1 98 -5 116 59 
+56 1 -1 
+88 4 -1 -2 86 59 
+26 2 19 5 
+31 1 -1 
+Constructors: 1
+73 59
+
+Summary: 15
+-2 116 98 5 86 -4 19 131 11 3 4 2 -5 -1 -6 
+org/eclipse/core/internal/events/BuildManager.hookEndBuild(I)V
+PTG:
+Vars:
+5
+$r1 1 6 
+$r4 1 33 
+$r2 1 13 
+r0 1 -1 
+$r3 1 20 
+Fields: 4
+-1 autoBuildJob 33
+-1 deltaCache 13
+-1 deltaTreeCache 20
+-1 builtProjects 6
+Accesses: 5
+32 1 -1 
+2 1 -1 
+19 1 -1 
+5 1 -1 
+12 1 -1 
+Functions: 4
+16 1 13 
+36 1 33 
+23 1 20 
+9 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/BuildManager.initializeBuilder(Ljava/lang/String;Lorg/eclipse/core/resources/IProject;ILorg/eclipse/core/runtime/MultiStatus;)Lorg/eclipse/core/resources/IncrementalProjectBuilder;
+PTG:
+Vars:
+17
+$r13 1 48 
+r2 1 -3 
+$r12 1 33 
+$r9 1 17 
+$r7 1 -1 
+r0 1 -1 
+r14 2 59 8 
+$r5 1 128 
+r3 1 90 
+$r10 1 24 
+r16 1 75 
+$r11 1 29 
+r1 1 -2 
+r8 1 -5 
+r4 1 110 
+_ret 2 59 8 
+$r6 1 59 
+Fields: 0
+Accesses: 0
+Functions: 17
+32 2 -2 29 
+65 3 -1 -2 59 
+3 2 -1 -2 
+131 3 128 8 59 
+101 2 90 75 
+38 4 -1 17 33 24 
+70 2 -1 -3 
+134 1 75 
+41 2 17 -5 
+105 1 90 
+46 1 -1 
+145 2 -1 -3 
+82 3 -1 -2 75 
+51 2 48 -5 
+23 1 -3 
+121 3 8 59 110 
+126 1 90 
+Constructors: 2
+65 59
+38 17
+
+Summary: 15
+-3 -2 90 33 48 0 1 75 17 24 128 3 110 -5 -1 
+org/eclipse/core/internal/events/BuildManager.hookStartBuild(Lorg/eclipse/core/resources/IncrementalProjectBuilder;I)V
+PTG:
+Vars:
+9
+r5 1 -2 
+$r1 1 23 
+$r3 1 38 
+r0 1 -1 
+$r6 1 49 
+$r2 1 35 
+$r8 1 55 
+$r7 1 52 
+$r4 1 44 
+Fields: 0
+Accesses: 1
+20 1 -1 
+Functions: 10
+-1 0 
+33 1 -1 
+52 1 52 
+38 1 38 
+7 1 -2 
+23 2 35 23 
+58 1 55 
+44 2 49 44 
+30 1 23 
+47 2 -1 -2 
+Constructors: 1
+30 23
+
+Summary: 6
+-2 49 52 35 -1 55 
+org/eclipse/core/internal/events/BuildManager.canRun(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/BuildManager.build(Lorg/eclipse/core/resources/IProject;ILjava/lang/String;Ljava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+8
+r3 1 -5 
+r6 1 -6 
+r1 1 -1 
+r0 1 -4 
+r2 1 -2 
+r7 1 5 
+$r4 1 28 
+_ret 1 28 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -6 
+20 5 -1 -2 -4 -5 5 
+11 3 -1 -2 5 
+Constructors: 0
+
+Summary: 6
+-2 5 -5 -1 -4 -6 
+org/eclipse/core/internal/events/BuildManager.basicBuild(ILorg/eclipse/core/resources/IncrementalProjectBuilder;Ljava/util/Map;Lorg/eclipse/core/runtime/MultiStatus;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+30
+$r23 1 268 
+r14 1 -5 
+$r19 1 6 
+$r2 1 6 
+$r5 1 6 
+$r12 1 314 
+r0 1 -1 
+$r22 1 265 
+$r4 1 30 
+$r15 1 329 
+$r6 1 6 
+$r20 1 417 
+$r32 1 42 
+$r3 1 6 
+$r43 1 118 
+$r10 1 288 
+r7 1 252 
+$r8 1 281 
+r13 1 -4 
+r1 1 -3 
+$r17 1 6 
+r11 1 -6 
+$r29 1 115 
+$r42 1 52 
+r45 2 296 276 
+$r9 1 285 
+r47 1 458 
+$r18 1 115 
+$r21 1 259 
+$r16 1 6 
+Fields: 3
+-1 currentBuilder 6
+-1 workspace 115
+-1 currentLastBuiltTree 42
+Accesses: 38
+128 1 -1 
+2 1 -1 
+514 1 -1 
+451 1 -1 
+196 1 -1 
+5 1 -1 
+69 1 -1 
+519 1 -1 
+394 1 -1 
+524 1 -1 
+79 1 -1 
+465 1 -1 
+210 1 -1 
+84 1 -1 
+89 1 -1 
+26 1 -1 
+94 1 -1 
+33 1 -1 
+226 1 -1 
+486 1 -1 
+231 1 -1 
+359 1 -1 
+41 1 -1 
+491 1 -1 
+236 1 -1 
+430 1 -1 
+175 1 -1 
+496 1 -1 
+241 1 -1 
+369 1 -1 
+114 1 -1 
+245 1 -1 
+501 1 -1 
+440 1 -1 
+121 1 -1 
+185 1 -1 
+380 1 -1 
+509 1 -1 
+Functions: 44
+322 7 -1 115 -4 -5 -6 6 42 
+452 1 115 
+197 0 
+391 0 
+264 1 -3 
+9 1 6 
+265 1 265 
+74 0 
+268 3 259 252 268 
+332 1 329 
+462 1 458 
+207 0 
+144 1 -6 
+400 0 
+405 5 -1 -3 115 6 42 
+151 1 -6 
+471 2 6 458 
+216 0 
+345 4 -1 115 6 42 
+27 1 6 
+284 1 -3 
+476 5 -1 -3 115 6 42 
+221 5 -1 -3 115 6 42 
+285 1 285 
+351 0 
+288 2 288 281 
+416 4 -1 115 6 42 
+422 1 417 
+360 0 
+302 3 276 -6 296 
+431 1 6 
+176 0 
+51 1 -3 
+115 1 115 
+52 1 52 
+246 1 6 
+310 5 -1 -3 115 6 42 
+374 0 
+313 4 -1 115 6 42 
+314 1 314 
+381 0 
+445 1 6 
+190 0 
+127 4 -1 115 6 42 
+Constructors: 0
+
+Summary: 23
+387 288 314 268 252 346 1 3 417 -5 296 265 203 285 458 -4 4 276 2 52 -1 329 -6 
+org/eclipse/core/internal/events/BuildManager.build(ILorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+21
+$r2 1 63 
+$r5 1 63 
+r13 1 116 
+$r23 1 221 
+$r15 1 133 
+r26 1 -3 
+r1 1 -1 
+$r4 1 70 
+r3 1 69 
+$r12 1 116 
+$r7 1 83 
+$r8 1 88 
+$r14 1 124 
+$r10 1 99 
+$r21 1 -1 
+r27 1 4 
+$r6 1 78 
+$r24 1 -1 
+$r0 1 6 
+r19 1 27 
+$r11 1 113 
+Fields: 2
+-1 autoBuildJob 221
+-1 workspace 63
+Accesses: 5
+180 1 -1 
+74 1 -1 
+220 1 -1 
+62 1 -1 
+47 1 -1 
+Functions: 23
+0 1 -3 
+224 1 221 
+98 1 69 
+194 3 -1 221 63 
+163 1 4 
+102 2 99 70 
+137 2 133 124 
+106 2 113 70 
+11 2 4 6 
+75 1 63 
+203 1 4 
+108 1 70 
+78 1 78 
+16 3 -1 221 63 
+51 0 
+83 1 83 
+150 7 -1 116 4 69 124 221 63 
+184 0 
+59 3 -1 221 63 
+91 2 70 88 
+30 1 4 
+63 1 63 
+159 3 -1 221 63 
+Constructors: 2
+137 124
+91 70
+
+Summary: 12
+-3 88 116 4 113 1 70 99 78 69 -1 83 
+org/eclipse/core/internal/events/BuildManager.getRule(Lorg/eclipse/core/resources/IProject;ILjava/lang/String;Ljava/util/Map;)Lorg/eclipse/core/runtime/jobs/ISchedulingRule;
+PTG:
+Vars:
+14
+$r1 1 10 
+r6 1 -5 
+r29 1 175 
+$r20 1 -1 
+$r7 1 214 
+$r9 1 184 
+r4 1 -1 
+r3 1 -4 
+r5 1 -2 
+r28 1 163 
+$r8 1 217 
+$r0 1 0 
+_ret 1 217 
+$r21 1 194 
+Fields: 1
+-1 workspace 214
+Accesses: 1
+213 1 -1 
+Functions: 21
+192 1 -1 
+131 0 
+36 0 
+133 0 
+165 5 -1 0 -2 163 214 
+197 2 0 194 
+70 4 -1 0 -2 214 
+200 1 0 
+42 0 
+108 0 
+45 0 
+14 2 0 10 
+113 1 0 
+210 1 0 
+182 1 175 
+214 1 214 
+23 1 -2 
+151 0 
+90 0 
+155 5 -1 -2 -4 -5 214 
+95 0 
+Constructors: 1
+14 0
+
+Summary: 16
+32 -2 163 194 140 -4 0 175 45 110 81 -5 52 143 -1 92 
+org/eclipse/core/internal/events/BuildManager.getDelta(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/core/resources/IResourceDelta;
+PTG:
+Vars:
+62
+$r29 1 367 
+$r60 1 -1 
+$r46 1 113 
+$r35 1 268 
+$r11 1 207 
+$r34 1 263 
+$r30 1 371 
+$r54 1 36 
+$r12 1 10 
+$r28 1 361 
+$r4 1 144 
+$r22 1 415 
+$r38 1 144 
+$r6 1 201 
+$r1 1 1 
+$r9 1 214 
+$r23 1 334 
+$r48 1 122 
+$r49 1 126 
+$r26 1 354 
+$r51 1 134 
+$r5 1 197 
+$r17 1 207 
+$r56 1 46 
+$r36 1 271 
+$r14 1 197 
+r65 1 214 
+r0 1 -1 
+r3 1 -2 
+$r59 1 58 
+r64 1 182 
+$r19 1 391 
+$r8 1 207 
+$r58 1 55 
+$r10 1 278 
+$r2 1 10 
+$r40 1 160 
+$r42 1 89 
+$r52 1 22 
+$r50 1 131 
+$r20 1 406 
+$r57 1 49 
+$r44 1 103 
+r67 1 301 
+$r21 1 412 
+$r47 1 116 
+$r27 1 358 
+$r62 1 1 
+$r55 1 42 
+$r16 1 10 
+$r43 1 100 
+$r32 1 379 
+$r31 1 376 
+$r33 1 252 
+$r13 1 290 
+$r53 1 33 
+$r7 1 10 
+$r24 1 345 
+$r45 1 109 
+$r25 1 348 
+$r15 1 307 
+$r39 1 155 
+Fields: 6
+-1 lock 1
+-1 workspace 278
+-1 deltaCache 197
+-1 currentLastBuiltTree 207
+-1 currentTree 10
+-1 currentDelta 144
+Accesses: 18
+0 1 -1 
+64 1 -1 
+196 1 -1 
+228 1 -1 
+424 1 -1 
+9 1 -1 
+206 1 -1 
+302 1 -1 
+143 1 -1 
+210 1 -1 
+277 1 -1 
+150 1 -1 
+438 1 -1 
+184 1 -1 
+312 1 -1 
+281 1 -1 
+316 1 -1 
+285 1 -1 
+Functions: 60
+-1 0 
+131 1 131 
+259 1 252 
+4 1 1 
+262 1 -2 
+391 1 391 
+137 1 134 
+268 1 268 
+398 1 391 
+274 1 271 
+22 2 33 22 
+406 1 406 
+151 2 144 155 
+154 1 -2 
+412 1 412 
+29 1 22 
+32 7 -1 144 1 197 278 10 207 
+289 1 -2 
+418 1 415 
+36 1 36 
+166 1 -2 
+295 4 290 278 10 207 
+42 2 42 46 
+428 0 
+45 7 -1 144 1 197 278 10 207 
+49 1 49 
+178 1 -2 
+306 1 -2 
+55 1 55 
+442 1 1 
+188 0 
+61 1 58 
+321 5 307 197 10 301 207 
+68 0 
+197 4 197 201 10 207 
+200 1 -2 
+75 8 -1 144 1 -2 197 278 10 207 
+334 2 345 334 
+341 1 334 
+344 7 -1 144 1 197 278 10 207 
+89 2 100 89 
+348 1 348 
+96 1 89 
+354 2 354 358 
+99 7 -1 144 1 197 278 10 207 
+357 7 -1 144 1 197 278 10 207 
+103 1 103 
+232 0 
+361 1 361 
+109 2 113 109 
+367 2 371 367 
+112 7 -1 144 1 197 278 10 207 
+370 1 -2 
+116 1 116 
+248 0 
+376 1 376 
+122 2 122 126 
+252 2 263 252 
+125 1 -2 
+382 1 379 
+Constructors: 5
+96 89
+259 252
+341 334
+29 22
+398 391
+
+Summary: 27
+371 268 100 131 58 134 412 46 113 290 -1 33 55 263 201 126 376 345 358 -2 379 155 160 0 415 307 271 
+org/eclipse/core/internal/events/BuildManager.toString(Lorg/eclipse/core/internal/events/InternalBuilder;)Ljava/lang/String;
+PTG:
+Vars:
+14
+$r4 1 35 
+r12 1 20 
+r10 1 -1 
+r0 1 -2 
+$r8 1 53 
+$r3 1 26 
+$r9 1 56 
+r11 1 7 
+$r5 1 39 
+$r7 1 47 
+$r2 1 21 
+$r6 1 42 
+_ret 1 56 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -2 
+1 1 1 
+35 2 35 42 
+21 1 21 
+53 1 53 
+38 1 -2 
+39 1 39 
+8 1 7 
+9 1 7 
+25 1 20 
+29 2 21 26 
+47 1 47 
+Constructors: 1
+29 21
+
+Summary: 9
+20 -2 39 0 26 1 53 42 -1 
+org/eclipse/core/internal/events/BuildManager.basicBuild(Lorg/eclipse/core/resources/IProject;I[Lorg/eclipse/core/resources/ICommand;Lorg/eclipse/core/runtime/MultiStatus;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+12
+r7 1 -5 
+r1 1 -1 
+$r11 1 84 
+r8 1 41 
+$r10 1 -1 
+r0 1 -4 
+r2 1 -6 
+$r3 1 16 
+r4 1 16 
+$r9 1 55 
+r6 1 -2 
+r5 1 28 
+Fields: 1
+-4 ArrayObject 16
+Accesses: 0
+Functions: 7
+82 1 -1 
+52 1 16 
+87 2 -5 84 
+24 1 -6 
+10 2 -1 -6 
+30 4 -1 16 -2 -5 
+62 5 -1 -5 55 41 28 
+Constructors: 0
+
+Summary: 13
+41 -2 0 -4 55 84 28 3 4 2 -5 -1 -6 
+org/eclipse/core/internal/events/BuildManager.getBuildersPersistentInfo(Lorg/eclipse/core/resources/IProject;)Ljava/util/ArrayList;
+PTG:
+Vars:
+6
+$r2 1 4 
+r0 1 -2 
+$r1 1 1 
+_ret 1 4 
+$r3 1 4 
+r4 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -2 1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/events/BuildManager.setBuildersPersistentInfo(Lorg/eclipse/core/resources/IProject;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+7
+$r4 1 14 
+r1 1 -3 
+$r3 1 -1 
+r0 1 -2 
+$r5 1 21 
+$r2 1 1 
+r6 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+33 1 14 
+20 1 -2 
+5 3 -2 1 -3 
+30 2 21 14 
+Constructors: 1
+30 14
+
+Summary: 7
+14 -3 -2 0 21 -1 1 
+org/eclipse/core/internal/events/BuildManager.getWorkManager()Lorg/eclipse/core/internal/resources/WorkManager;
+PTG:
+Vars:
+4
+$r3 1 -1 
+$r2 1 4 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 workspace 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/BuildManager.isInterestingProject(Lorg/eclipse/core/resources/IProject;)Z
+PTG:
+Vars:
+7
+r0 1 -2 
+r5 1 25 
+$r2 1 2 
+$r4 1 2 
+$r3 1 5 
+$r6 1 33 
+r1 1 -1 
+Fields: 2
+25 ArrayObject 33
+-1 currentBuilder 2
+Accesses: 2
+1 1 -1 
+18 1 -1 
+Functions: 4
+0 2 -2 5 
+33 2 33 -2 
+2 1 2 
+19 1 2 
+Constructors: 0
+
+Summary: 5
+-2 25 5 0 -1 
+org/eclipse/core/internal/events/BuildManager.hookStartBuild(I)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r6 1 41 
+$r2 1 20 
+$r4 1 35 
+$r7 1 48 
+$r1 1 11 
+$r3 1 32 
+$r5 1 38 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 8
+35 1 35 
+51 3 48 38 11 
+20 2 32 20 
+56 1 11 
+41 1 41 
+27 1 20 
+45 1 41 
+30 1 -1 
+Constructors: 3
+51 11
+27 20
+45 41
+
+Summary: 6
+11 32 48 35 -1 38 
+org/eclipse/core/internal/events/BuildManager.startup(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 workspace 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 -1 1 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/events/BuildManager.checkCanceled(ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+$r3 1 34 
+r0 1 -1 
+r2 1 -3 
+Fields: 2
+-1 autoBuildJob 34
+-1 systemBundle 1
+Accesses: 2
+0 1 -1 
+33 1 -1 
+Functions: 5
+1 1 1 
+18 0 
+34 1 34 
+23 1 -3 
+47 0 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+org/eclipse/core/internal/events/BuildManager.hasBeenBuilt(Lorg/eclipse/core/resources/IProject;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 builtProjects 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/events/BuildManager.removeBuilders(Lorg/eclipse/core/resources/IProject;Ljava/lang/String;)V
+PTG:
+Vars:
+10
+r8 1 -1 
+r5 1 -3 
+r1 1 6 
+$r3 1 39 
+$r4 1 40 
+r9 1 86 
+$r7 1 119 
+r2 1 13 
+r0 1 -2 
+$r6 1 104 
+Fields: 3
+13 ArrayObject 119
+13 ArrayObject 39
+13 ArrayObject 104
+Accesses: 0
+Functions: 6
+0 1 -2 
+134 2 6 86 
+7 1 6 
+39 1 39 
+40 2 -3 40 
+143 2 -2 6 
+Constructors: 0
+
+Summary: 9
+-3 -2 86 6 13 0 40 -1 1 
+org/eclipse/core/internal/events/BuildManager.instantiateBuilder(Ljava/lang/String;)Lorg/eclipse/core/resources/IncrementalProjectBuilder;
+PTG:
+Vars:
+19
+r15 1 72 
+$r8 1 100 
+r3 1 28 
+$r9 1 105 
+r1 1 -2 
+$r12 1 87 
+$r5 1 42 
+$r13 1 61 
+$r6 1 83 
+r4 1 -1 
+$r11 1 136 
+r17 1 87 
+$r10 1 116 
+$r0 1 0 
+$r7 1 87 
+r2 1 15 
+r16 1 58 
+_ret 1 87 
+$r14 1 64 
+Fields: 4
+-1 workspace 61
+28 ArrayObject 83
+28 ArrayObject 42
+28 ArrayObject 136
+Accesses: 1
+60 1 -1 
+Functions: 16
+-1 0 
+0 2 0 -2 
+64 2 64 58 
+128 2 87 72 
+99 1 15 
+100 1 100 
+133 3 -1 136 61 
+39 3 -1 42 61 
+110 2 87 105 
+143 1 87 
+83 1 83 
+115 1 15 
+52 1 15 
+22 1 15 
+121 2 116 87 
+61 1 61 
+Constructors: 0
+
+Summary: 15
+15 72 -2 116 0 100 64 28 58 42 136 -1 105 83 0 
+org/eclipse/core/internal/events/BuildManager.debugTrigger(I)Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/BuildManager.hookEndBuild(Lorg/eclipse/core/resources/IncrementalProjectBuilder;)V
+PTG:
+Vars:
+9
+r2 1 -2 
+$r8 1 68 
+$r5 1 48 
+r0 1 -1 
+$r1 1 27 
+$r3 1 39 
+$r4 1 42 
+$r7 1 65 
+$r6 1 59 
+Fields: 0
+Accesses: 3
+54 1 -1 
+78 1 -1 
+15 1 -1 
+Functions: 10
+-1 0 
+48 1 48 
+65 1 65 
+34 1 27 
+37 2 -1 -2 
+6 0 
+71 1 68 
+42 1 42 
+27 2 39 27 
+59 1 59 
+Constructors: 1
+34 27
+
+Summary: 5
+-2 68 39 65 -1 
+org/eclipse/core/internal/events/BuildManager.createBuildersPersistentInfo(Lorg/eclipse/core/resources/IProject;)Ljava/util/ArrayList;
+PTG:
+Vars:
+18
+r5 1 17 
+r9 1 51 
+$r14 1 111 
+$r8 1 45 
+$r10 1 59 
+$r11 1 59 
+r1 1 -2 
+$r4 1 10 
+$r6 1 25 
+r2 1 5 
+r12 1 66 
+$r16 1 141 
+$r3 1 -2 
+r17 2 86 111 
+r13 1 104 
+r0 1 -1 
+_ret 1 25 
+$r15 1 116 
+Fields: 2
+17 ArrayObject 45
+17 ArrayObject 59
+Accesses: 0
+Functions: 14
+0 2 -1 -2 
+99 1 66 
+134 2 104 111 
+7 1 -2 
+10 1 10 
+139 1 66 
+45 1 45 
+77 3 -1 51 5 
+144 2 141 111 
+115 1 -2 
+60 1 59 
+156 3 86 25 111 
+125 3 51 116 111 
+31 1 25 
+Constructors: 2
+125 111
+31 25
+
+Summary: 13
+-2 51 116 5 104 0 17 86 111 10 66 -1 141 
+org/eclipse/core/internal/events/BuildManager.getBooleanAttribute(Lorg/eclipse/core/runtime/IConfigurationElement;Ljava/lang/String;)Z
+PTG:
+Vars:
+6
+r0 1 -2 
+r5 1 -1 
+$r3 1 13 
+r2 1 7 
+$r4 1 16 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -2 -3 
+12 2 16 7 
+13 1 13 
+Constructors: 0
+
+Summary: 6
+-3 16 -2 7 0 -1 
+org/eclipse/core/internal/events/BuildManager.<init>(Lorg/eclipse/core/internal/resources/Workspace;Lorg/eclipse/core/runtime/jobs/ILock;)V
+PTG:
+Vars:
+8
+$r6 1 71 
+$r2 1 21 
+$r3 1 33 
+$r1 1 10 
+r5 1 -2 
+$r4 1 52 
+r7 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 10
+17 1 -1 
+67 1 -1 
+84 1 -1 
+6 1 -1 
+55 1 -1 
+41 1 -1 
+29 1 -1 
+46 1 -1 
+62 1 -1 
+79 1 -1 
+Functions: 6
+1 1 -1 
+50 0 
+38 2 -1 33 
+26 2 -1 21 
+76 2 -2 71 
+14 1 10 
+Constructors: 5
+1 -1
+38 33
+26 21
+76 71
+14 10
+
+Summary: 2
+0 1 
+org/eclipse/core/internal/events/BuildManager.debugBuilder()Ljava/lang/String;
+PTG:
+Vars:
+6
+$r4 2 20 7 
+$r2 1 1 
+r0 1 -1 
+$r3 1 17 
+_ret 2 20 7 
+$r1 1 1 
+Fields: 1
+-1 currentBuilder 1
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 2
+17 1 17 
+14 1 1 
+Constructors: 0
+
+Summary: 2
+17 -1 
+org/eclipse/core/internal/events/BuildManager.getBuilderInfo(Ljava/util/ArrayList;Ljava/lang/String;I)Lorg/eclipse/core/internal/events/BuilderPersistentInfo;
+PTG:
+Vars:
+9
+r0 1 -2 
+r3 1 14 
+r5 1 -3 
+r1 1 7 
+r6 1 -1 
+_ret 1 14 
+$r2 1 14 
+r7 1 14 
+$r4 1 26 
+Fields: 0
+Accesses: 0
+Functions: 7
+50 1 14 
+3 1 -2 
+71 1 7 
+24 1 14 
+26 2 -3 26 
+12 1 7 
+60 1 14 
+Constructors: 0
+
+Summary: 6
+-3 -2 0 26 -1 1 
+org/eclipse/core/internal/events/BuildManager.interrupt()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 autoBuildJob 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/BuildManager.validateNature(Lorg/eclipse/core/internal/events/InternalBuilder;Ljava/lang/String;)Z
+PTG:
+Vars:
+5
+r4 1 -3 
+r2 1 15 
+r1 1 4 
+r0 1 -2 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+32 3 -1 -3 15 
+17 2 4 15 
+37 2 4 15 
+11 1 -2 
+Constructors: 0
+
+Summary: 7
+15 -3 -2 4 0 -1 1 
+org/eclipse/core/internal/events/BuildManager.getSafeRunnable(ILjava/util/Map;Lorg/eclipse/core/runtime/MultiStatus;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/ISafeRunnable;
+PTG:
+Vars:
+6
+$r0 1 0 
+r4 1 -5 
+r1 1 -1 
+r3 1 -3 
+_ret 1 0 
+r2 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 5 0 -1 -3 -4 -5 
+Constructors: 1
+10 0
+
+Summary: 7
+3 -3 2 -5 -1 -4 1 
+org/eclipse/core/internal/events/BuildManager.handleEvent(Lorg/eclipse/core/internal/events/LifecycleEvent;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+$r1 1 33 
+r2 1 -1 
+r3 1 33 
+Fields: 1
+-2 resource 33
+Accesses: 2
+32 1 -2 
+2 1 -2 
+Functions: 2
+52 2 -1 33 
+40 1 33 
+Constructors: 0
+
+Summary: 4
+-2 33 0 -1 
+org/eclipse/core/internal/events/BuildManager.requestRebuild()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

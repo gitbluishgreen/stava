@@ -1,0 +1,2283 @@
+81
+org/apache/lucene/queryParser/QueryParser.jj_rescan_token()V
+PTG:
+Vars:
+5
+$r1 1 13 
+r0 1 -1 
+$r2 1 41 
+r4 2 18 81 
+$r3 1 -1 
+Fields: 4
+18 first 41
+81 next 81
+-1 jj_2_rtns 13
+13 ArrayObject 18
+Accesses: 11
+48 1 -1 
+2 1 -1 
+98 1 -1 
+19 2 81 18 
+35 1 -1 
+23 1 -1 
+40 2 81 18 
+12 1 -1 
+45 1 -1 
+77 2 81 18 
+31 2 81 18 
+Functions: 1
+73 4 -1 18 41 13 
+Constructors: 0
+
+Summary: 2
+81 -1 
+org/apache/lucene/queryParser/QueryParser.jj_consume_token(I)Lorg/apache/lucene/queryParser/Token;
+PTG:
+Vars:
+10
+$r12 1 1 
+$r1 1 1 
+$r4 1 32 
+$r7 1 1 
+r0 1 -1 
+$r13 1 6 
+$r5 1 1 
+$r6 1 35 
+$r8 1 166 
+$r3 1 6 
+Fields: 3
+1 next 6
+-1 token_source 32
+-1 token 1
+Accesses: 23
+0 1 -1 
+1 1 1 
+162 1 -1 
+68 1 -1 
+39 1 1 
+71 1 -1 
+103 1 -1 
+42 1 -1 
+13 1 -1 
+14 1 1 
+47 1 -1 
+79 1 -1 
+50 1 -1 
+51 1 1 
+20 1 -1 
+150 1 -1 
+89 1 -1 
+121 1 -1 
+27 1 -1 
+61 1 -1 
+157 1 -1 
+31 1 -1 
+95 1 -1 
+Functions: 2
+32 1 32 
+165 4 -1 32 1 6 
+Constructors: 0
+
+Summary: 2
+139 -1 
+org/apache/lucene/queryParser/QueryParser.newRangeQuery(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+7
+_ret 1 39 
+r0 1 -1 
+$r1 1 39 
+r4 1 -4 
+r2 1 -2 
+$r5 1 51 
+r3 1 -3 
+Fields: 1
+-1 rangeCollator 51
+Accesses: 3
+0 1 -1 
+50 1 -1 
+31 1 -1 
+Functions: 4
+17 2 -2 -3 
+35 0 
+54 5 -2 -3 -4 51 39 
+26 2 -2 -4 
+Constructors: 1
+54 39
+
+Summary: 9
+2 1 20 -3 -4 -2 0 -1 11 
+org/apache/lucene/queryParser/QueryParser.setDateResolution(Ljava/lang/String;Lorg/apache/lucene/document/DateTools$Resolution;)V
+PTG:
+Vars:
+6
+r1 1 -1 
+$r4 1 15 
+r3 1 -3 
+$r2 1 15 
+$r6 1 22 
+r0 1 -2 
+Fields: 1
+-1 fieldToDateResolution 15
+Accesses: 3
+32 1 -1 
+29 1 -1 
+14 1 -1 
+Functions: 3
+38 3 -2 -3 15 
+10 0 
+26 1 22 
+Constructors: 1
+26 22
+
+Summary: 3
+-3 -2 -1 
+org/apache/lucene/queryParser/QueryParser.getUseOldRangeQuery()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.addClause(Ljava/util/Vector;IILorg/apache/lucene/search/Query;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -5 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 -1 -2 -5 
+Constructors: 0
+
+Summary: 3
+-5 -2 -1 
+org/apache/lucene/queryParser/QueryParser.setDateResolution(Lorg/apache/lucene/document/DateTools$Resolution;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getFuzzyQuery(Ljava/lang/String;Ljava/lang/String;F)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+6
+_ret 1 31 
+r2 1 -2 
+r0 1 -1 
+r5 2 11 -3 
+$r1 1 12 
+$r4 1 31 
+Fields: 0
+Accesses: 2
+0 1 -1 
+27 1 -1 
+Functions: 3
+18 4 -2 -3 11 12 
+7 2 -3 11 
+23 2 -1 12 
+Constructors: 1
+18 12
+
+Summary: 5
+12 1 -2 0 -1 
+org/apache/lucene/queryParser/QueryParser.getFuzzyMinSim()F
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getToken(I)Lorg/apache/lucene/queryParser/Token;
+PTG:
+Vars:
+6
+_ret 3 32 4 13 
+r0 1 -1 
+$r1 1 13 
+r4 3 32 4 13 
+$r2 1 29 
+$r3 1 32 
+Fields: 3
+4 next 13
+-1 token_source 29
+-1 token 4
+Accesses: 5
+0 1 -1 
+19 3 32 4 13 
+36 3 32 4 13 
+12 3 32 4 13 
+28 1 -1 
+Functions: 1
+29 1 29 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.setFuzzyPrefixLength(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.setLocale(Ljava/util/Locale;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.<init>(Ljava/lang/String;Lorg/apache/lucene/analysis/Analyzer;)V
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+r4 1 -2 
+r3 1 -3 
+$r2 1 5 
+Fields: 0
+Accesses: 2
+22 1 -1 
+27 1 -1 
+Functions: 3
+17 2 -1 1 
+11 1 5 
+14 2 1 5 
+Constructors: 3
+17 -1
+11 5
+14 1
+
+Summary: 4
+1 1 0 -1 
+org/apache/lucene/queryParser/QueryParser.Query(Ljava/lang/String;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+9
+r8 1 177 
+_ret 1 211 
+$r0 1 0 
+r7 1 22 
+r3 1 -2 
+$r5 1 211 
+$r4 1 148 
+r2 1 -1 
+r6 1 22 
+Fields: 1
+-1 jj_la1 148
+Accesses: 4
+147 1 -1 
+55 1 -1 
+40 1 -1 
+152 1 -1 
+Functions: 11
+48 2 -1 148 
+160 2 -1 148 
+17 3 -1 -2 148 
+209 3 -1 0 148 
+4 1 0 
+166 2 -1 148 
+185 4 -1 0 177 148 
+11 2 -1 148 
+172 3 -1 -2 148 
+29 4 -1 0 148 22 
+191 1 0 
+Constructors: 1
+4 0
+
+Summary: 4
+0 -2 0 -1 
+org/apache/lucene/queryParser/QueryParser.Conjunction()I
+PTG:
+Vars:
+2
+$r6 1 141 
+r0 1 -1 
+Fields: 1
+-1 jj_la1 141
+Accesses: 8
+48 1 -1 
+17 1 -1 
+145 1 -1 
+2 1 -1 
+116 1 -1 
+121 1 -1 
+140 1 -1 
+63 1 -1 
+Functions: 6
+128 2 -1 141 
+56 2 -1 141 
+136 0 
+10 2 -1 141 
+107 2 -1 141 
+95 2 -1 141 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getField()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 field 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getBooleanQuery(Ljava/util/Vector;Z)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+4
+_ret 1 3 
+r0 1 -1 
+$r2 1 3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/queryParser/QueryParser.getNextToken()Lorg/apache/lucene/queryParser/Token;
+PTG:
+Vars:
+10
+$r7 1 1 
+r0 1 -1 
+$r5 1 33 
+_ret 1 1 
+$r2 1 4 
+$r8 1 4 
+$r4 1 1 
+$r1 1 1 
+$r6 1 1 
+$r3 1 30 
+Fields: 3
+1 next 4
+-1 token_source 30
+-1 token 1
+Accesses: 13
+0 1 -1 
+1 1 1 
+37 1 1 
+40 1 -1 
+11 1 -1 
+12 1 1 
+45 1 -1 
+48 1 -1 
+18 1 -1 
+55 1 -1 
+25 1 -1 
+58 1 -1 
+29 1 -1 
+Functions: 1
+30 1 30 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.setPhraseSlop(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getPhraseSlop()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.newMatchAllDocsQuery()Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.setEnablePositionIncrements(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.<clinit>()V
+PTG:
+Vars:
+2
+$r1 1 6 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+12 0 
+15 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/queryParser/QueryParser.jj_save(II)V
+PTG:
+Vars:
+6
+$r1 1 1 
+r5 3 6 19 26 
+$r3 1 19 
+$r4 1 26 
+$r2 1 66 
+r0 1 -1 
+Fields: 4
+6 next 19
+1 ArrayObject 6
+-1 jj_2_rtns 1
+-1 token 66
+Accesses: 12
+0 1 -1 
+65 1 -1 
+18 3 19 6 26 
+34 3 19 6 26 
+50 1 -1 
+69 3 19 6 26 
+7 3 19 6 26 
+56 1 -1 
+41 3 19 6 26 
+74 3 19 6 26 
+11 1 -1 
+61 3 19 6 26 
+Functions: 1
+30 1 26 
+Constructors: 1
+30 26
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.setFuzzyMinSim(F)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getBooleanQuery(Ljava/util/List;Z)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+6
+_ret 1 16 
+r1 1 -1 
+$r3 1 35 
+r0 1 -2 
+$r4 1 35 
+r2 1 16 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+32 1 -2 
+22 1 -2 
+11 1 -1 
+43 2 16 35 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.addClause(Ljava/util/List;IILorg/apache/lucene/search/Query;)V
+PTG:
+Vars:
+19
+$r13 1 59 
+r1 1 -5 
+$r15 1 102 
+$r4 1 59 
+$r14 1 82 
+r2 1 -1 
+$r3 1 118 
+$r10 1 210 
+$r17 1 43 
+$r11 1 213 
+$r16 1 23 
+$r12 1 62 
+$r9 1 242 
+$r8 1 239 
+r0 1 -2 
+r18 1 23 
+r19 1 82 
+$r6 1 268 
+$r7 1 271 
+Fields: 1
+-1 operator 59
+Accesses: 2
+114 1 -1 
+58 1 -1 
+Functions: 17
+0 1 -2 
+33 1 23 
+289 0 
+73 1 -2 
+105 2 82 102 
+265 4 -1 -5 59 268 
+74 1 -2 
+236 4 -1 -5 59 239 
+14 1 -2 
+46 2 23 43 
+15 1 -2 
+207 4 -1 210 -5 59 
+49 1 -2 
+274 2 -2 271 
+245 2 -2 242 
+216 2 -2 213 
+92 1 82 
+Constructors: 0
+
+Summary: 5
+3 -5 -2 0 -1 
+org/apache/lucene/queryParser/QueryParser.getFieldQuery(Ljava/lang/String;Ljava/lang/String;I)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+7
+_ret 1 6 
+r1 1 -2 
+r2 1 -3 
+r3 1 6 
+r0 1 -1 
+$r5 1 6 
+$r4 1 6 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 3 -1 -2 -3 
+22 1 6 
+39 1 6 
+Constructors: 0
+
+Summary: 4
+1 -3 -2 -1 
+org/apache/lucene/queryParser/QueryParser.newMultiPhraseQuery()Lorg/apache/lucene/search/MultiPhraseQuery;
+PTG:
+Vars:
+3
+r1 1 -1 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.enable_tracing()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.parse(Ljava/lang/String;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+14
+$r4 1 21 
+$r6 1 123 
+$r8 1 136 
+$r2 1 5 
+$r9 1 140 
+$r7 1 127 
+r3 1 -2 
+$r10 1 145 
+r0 1 -1 
+$r11 1 148 
+$r5 1 -1 
+$r1 1 1 
+r30 1 27 
+$r31 1 38 
+Fields: 1
+-1 field 21
+Accesses: 1
+20 1 -1 
+Functions: 27
+65 0 
+131 1 127 
+68 0 
+72 0 
+136 2 -2 136 
+10 2 -2 5 
+140 1 140 
+13 2 1 5 
+78 0 
+16 3 -1 1 21 
+145 1 145 
+19 2 -1 21 
+87 0 
+151 2 148 123 
+91 0 
+96 1 -2 
+36 2 -1 21 
+100 0 
+105 0 
+108 0 
+47 0 
+112 0 
+51 0 
+118 0 
+56 1 -2 
+60 0 
+127 1 127 
+Constructors: 4
+131 127
+151 123
+10 5
+13 1
+
+Summary: 4
+1 -2 0 -1 
+org/apache/lucene/queryParser/QueryParser.disable_tracing()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getFuzzyPrefixLength()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getDefaultOperator()Lorg/apache/lucene/queryParser/QueryParser$Operator;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 operator 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.newWildcardQuery(Lorg/apache/lucene/index/Term;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+4
+r1 1 -2 
+_ret 1 0 
+$r0 1 0 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.newFuzzyQuery(Lorg/apache/lucene/index/Term;FI)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+4
+r2 1 -1 
+_ret 1 0 
+$r0 1 0 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 0 -2 
+Constructors: 1
+7 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.jj_3R_2()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.TopLevelQuery(Ljava/lang/String;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+4
+_ret 1 5 
+r2 1 5 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+8 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.hexToInt(C)I
+PTG:
+Vars:
+5
+$r4 1 77 
+$r3 1 74 
+$r1 1 61 
+$r2 1 70 
+$r0 1 57 
+Fields: 0
+Accesses: 0
+Functions: 5
+80 2 57 77 
+65 1 61 
+70 1 70 
+74 1 74 
+61 1 61 
+Constructors: 2
+80 57
+65 61
+
+Summary: 0
+
+org/apache/lucene/queryParser/QueryParser.getDateResolution(Ljava/lang/String;)Lorg/apache/lucene/document/DateTools$Resolution;
+PTG:
+Vars:
+7
+r1 1 -1 
+_ret 2 31 48 
+r7 2 31 48 
+$r3 1 15 
+$r4 1 31 
+r0 1 -2 
+$r2 1 15 
+Fields: 2
+-1 fieldToDateResolution 15
+-1 dateResolution 48
+Accesses: 4
+21 1 -1 
+26 1 -1 
+44 1 -1 
+14 1 -1 
+Functions: 2
+10 0 
+27 2 -2 15 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.jj_scan_token(I)Z
+PTG:
+Vars:
+17
+$r2 1 1 
+r0 1 -1 
+$r13 1 38 
+$r15 1 41 
+$r5 1 5 
+$r1 1 5 
+$r11 1 1 
+$r3 1 1 
+$r8 1 1 
+$r9 1 1 
+$r17 1 1 
+$r4 1 82 
+$r12 1 25 
+r16 2 101 121 
+$r6 1 1 
+$r14 1 1 
+$r10 1 25 
+Fields: 7
+1 next 25
+1 next 82
+-1 jj_scanpos 1
+-1 jj_lastpos 5
+-1 token_source 38
+-1 token 101
+121 next 121
+Accesses: 28
+0 1 -1 
+4 1 -1 
+68 1 -1 
+71 1 -1 
+135 1 -1 
+136 1 1 
+11 1 -1 
+78 1 -1 
+79 1 1 
+18 1 -1 
+148 1 -1 
+21 1 -1 
+85 1 -1 
+22 1 1 
+88 1 -1 
+155 1 -1 
+159 1 -1 
+33 1 -1 
+97 1 -1 
+37 1 -1 
+166 1 -1 
+107 1 -1 
+45 1 1 
+49 1 -1 
+52 1 -1 
+117 2 101 121 
+60 1 -1 
+61 1 1 
+Functions: 2
+132 7 -1 1 82 5 101 38 25 
+38 1 38 
+Constructors: 0
+
+Summary: 2
+-1 121 
+org/apache/lucene/queryParser/QueryParser.ReInit(Lorg/apache/lucene/queryParser/QueryParserTokenManager;)V
+PTG:
+Vars:
+7
+r1 1 -2 
+$r3 1 51 
+$r6 1 35 
+r0 1 -1 
+$r5 1 51 
+$r2 1 6 
+$r4 1 63 
+Fields: 2
+-1 jj_la1 35
+-1 jj_2_rtns 51
+Accesses: 7
+2 1 -1 
+18 1 -1 
+34 1 -1 
+50 1 -1 
+23 1 -1 
+58 1 -1 
+13 1 -1 
+Functions: 2
+67 1 63 
+10 1 6 
+Constructors: 2
+67 63
+10 6
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.jj_3R_3()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getBooleanQuery(Ljava/util/List;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+4
+r1 1 -2 
+_ret 1 3 
+$r2 1 3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.<init>(Lorg/apache/lucene/queryParser/QueryParserTokenManager;)V
+PTG:
+Vars:
+14
+$r1 1 5 
+r0 1 -1 
+$r7 1 126 
+$r2 1 48 
+$r13 1 166 
+$r4 1 79 
+$r5 1 96 
+$r9 1 137 
+$r10 1 182 
+$r12 1 182 
+$r6 1 108 
+$r11 1 194 
+r8 1 -2 
+$r3 1 72 
+Fields: 2
+-1 jj_la1 166
+-1 jj_2_rtns 182
+Accesses: 27
+128 1 -1 
+66 1 -1 
+133 1 -1 
+8 1 -1 
+74 1 -1 
+13 1 -1 
+144 1 -1 
+18 1 -1 
+82 1 -1 
+149 1 -1 
+23 1 -1 
+87 1 -1 
+154 1 -1 
+28 1 -1 
+92 1 -1 
+33 1 -1 
+165 1 -1 
+39 1 -1 
+104 1 -1 
+44 1 -1 
+51 1 -1 
+115 1 -1 
+181 1 -1 
+56 1 -1 
+120 1 -1 
+61 1 -1 
+189 1 -1 
+Functions: 6
+-1 0 
+112 1 108 
+1 3 -1 166 182 
+101 1 96 
+198 1 194 
+141 1 137 
+Constructors: 5
+112 108
+1 -1
+101 96
+198 194
+141 137
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.jj_la1_init_0()V
+PTG:
+Vars:
+1
+$r0 1 2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/queryParser/QueryParser.Clause(Ljava/lang/String;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+11
+r11 1 297 
+$r9 1 -1 
+r10 3 82 102 -2 
+r12 1 66 
+$r1 1 351 
+_ret 2 221 237 
+$r2 1 354 
+r13 2 221 237 
+r0 1 -1 
+$r6 1 76 
+$r3 1 303 
+Fields: 3
+66 image 76
+297 image 351
+-1 jj_la1 303
+Accesses: 14
+130 1 -1 
+322 1 -1 
+260 1 -1 
+106 1 -1 
+75 1 66 
+13 1 -1 
+302 1 -1 
+111 1 -1 
+145 1 -1 
+308 1 -1 
+245 1 -1 
+28 1 -1 
+316 1 -1 
+349 1 297 
+Functions: 22
+96 2 -1 303 
+354 1 354 
+291 2 -1 303 
+228 2 -1 303 
+5 2 -1 303 
+70 2 -1 303 
+232 5 -1 -2 82 102 303 
+329 2 -1 303 
+74 3 -1 76 303 
+138 2 -1 303 
+365 2 221 237 
+241 2 -1 303 
+337 0 
+21 2 -1 303 
+118 2 -1 303 
+216 5 -1 -2 82 102 303 
+89 2 -1 303 
+60 2 -1 303 
+253 2 -1 303 
+126 0 
+287 2 -1 303 
+351 1 351 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.newTermQuery(Lorg/apache/lucene/index/Term;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+4
+$r0 1 0 
+_ret 1 0 
+r2 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.setRangeCollator(Ljava/text/Collator;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getAllowLeadingWildcard()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.setAllowLeadingWildcard(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.jj_2_1(I)Z
+PTG:
+Vars:
+4
+$r2 1 -1 
+$r1 1 -2 
+r0 1 -1 
+$r4 1 -1 
+Fields: 1
+-1 token -2
+Accesses: 2
+-1 1 -1 
+2000000000 1 -1 
+Functions: 1
+-1 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.<init>(Lorg/apache/lucene/queryParser/CharStream;)V
+PTG:
+Vars:
+15
+$r7 1 126 
+$r10 1 144 
+$r2 1 48 
+$r11 1 189 
+$r6 1 108 
+$r12 1 201 
+$r14 1 173 
+$r13 1 189 
+$r8 1 132 
+$r1 1 5 
+r9 1 -2 
+$r3 1 72 
+$r4 1 79 
+$r5 1 96 
+r0 1 -1 
+Fields: 2
+-1 jj_la1 173
+-1 jj_2_rtns 189
+Accesses: 27
+128 1 -1 
+66 1 -1 
+196 1 -1 
+8 1 -1 
+74 1 -1 
+140 1 -1 
+13 1 -1 
+18 1 -1 
+82 1 -1 
+23 1 -1 
+87 1 -1 
+151 1 -1 
+28 1 -1 
+92 1 -1 
+156 1 -1 
+33 1 -1 
+161 1 -1 
+39 1 -1 
+104 1 -1 
+44 1 -1 
+172 1 -1 
+51 1 -1 
+115 1 -1 
+56 1 -1 
+120 1 -1 
+188 1 -1 
+61 1 -1 
+Functions: 7
+-1 0 
+112 1 108 
+1 3 -1 173 189 
+148 1 144 
+101 1 96 
+137 2 -2 132 
+205 1 201 
+Constructors: 6
+112 108
+1 -1
+148 144
+101 96
+137 132
+205 201
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.newPrefixQuery(Lorg/apache/lucene/index/Term;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+4
+$r0 1 0 
+_ret 1 0 
+r2 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.jj_add_error_token(II)V
+PTG:
+Vars:
+16
+$r1 1 49 
+$r8 2 119 65 
+$r5 1 102 
+r15 1 91 
+$r12 1 70 
+$r4 1 102 
+$r14 1 18 
+$r3 2 70 188 
+r6 1 102 
+$r7 2 119 65 
+$r10 1 83 
+$r9 2 119 65 
+$r13 1 65 
+$r2 1 83 
+$r11 2 119 65 
+r0 1 -1 
+Fields: 6
+-1 jj_lasttokens 18
+-1 jj_lasttokens 188
+-1 jj_lasttokens 70
+-1 jj_expentries 83
+-1 jj_expentry 119
+-1 jj_expentry 65
+Accesses: 18
+64 1 -1 
+194 1 -1 
+131 1 -1 
+163 1 -1 
+37 1 -1 
+69 1 -1 
+167 1 -1 
+8 1 -1 
+45 1 -1 
+144 1 -1 
+17 1 -1 
+82 1 -1 
+51 1 -1 
+21 1 -1 
+118 1 -1 
+57 1 -1 
+187 1 -1 
+29 1 -1 
+Functions: 4
+83 1 83 
+101 1 91 
+171 3 65 83 119 
+92 1 91 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.newBooleanClause(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/BooleanClause$Occur;)Lorg/apache/lucene/search/BooleanClause;
+PTG:
+Vars:
+5
+r1 1 -2 
+_ret 1 0 
+r2 1 -3 
+r3 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -2 -3 
+Constructors: 1
+6 0
+
+Summary: 4
+-3 -2 0 -1 
+org/apache/lucene/queryParser/QueryParser.getAnalyzer()Lorg/apache/lucene/analysis/Analyzer;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 analyzer 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getLowercaseExpandedTerms()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getBooleanQuery(Ljava/util/Vector;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+4
+$r2 1 3 
+_ret 1 3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/lucene/queryParser/QueryParser.getRangeQuery(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+14
+$r6 1 -1 
+_ret 1 168 
+r9 1 25 
+r11 1 61 
+r7 4 131 148 11 -3 
+r8 4 156 137 16 -4 
+r12 1 119 
+$r4 1 168 
+r0 1 -1 
+r2 1 39 
+r3 1 -2 
+$r1 1 19 
+$r5 1 19 
+r10 2 47 112 
+Fields: 1
+-1 locale 19
+Accesses: 3
+0 1 -1 
+18 1 -1 
+54 1 -1 
+Functions: 19
+33 5 -3 131 148 25 11 
+162 11 -1 16 -2 -3 19 131 -4 148 137 11 156 
+67 3 112 61 47 
+132 2 112 47 
+7 4 -3 131 148 11 
+104 1 61 
+41 5 16 -4 25 137 156 
+107 1 61 
+12 4 16 -4 137 156 
+76 1 61 
+143 2 39 119 
+114 3 -1 -2 19 
+19 1 19 
+85 1 61 
+55 1 19 
+151 3 112 119 47 
+30 1 25 
+94 1 61 
+126 1 39 
+Constructors: 0
+
+Summary: 9
+137 2 131 148 156 1 -2 0 -1 
+org/apache/lucene/queryParser/QueryParser.Term(Ljava/lang/String;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+62
+$r63 1 299 
+r82 2 642 653 
+$r14 1 1390 
+r80 7 1000 568 497 580 1617 1420 461 
+$r50 1 1573 
+r79 1 447 
+r77 5 219 170 180 206 193 
+$r11 1 1658 
+r75 4 1541 361 1313 893 
+r76 3 290 406 1474 
+$r59 1 441 
+$r74 1 -1 
+$r31 1 984 
+$r8 1 1376 
+$r51 1 1576 
+r85 2 1214 1225 
+$r39 1 936 
+$r52 1 1480 
+r83 2 805 794 
+$r73 1 -1 
+$r12 1 1376 
+$r34 1 956 
+$r88 1 1593 
+$r38 1 922 
+$r36 1 970 
+r86 1 1431 
+$r65 1 299 
+$r7 1 1404 
+$r16 1 1342 
+$r13 1 1376 
+$r35 1 956 
+$r15 1 1342 
+_ret 7 1000 568 497 580 1617 1420 461 
+$r89 1 1593 
+$r56 1 519 
+$r57 1 522 
+$r18 1 1151 
+$r61 1 488 
+$r91 1 1609 
+$r10 1 1655 
+$r33 1 993 
+$r72 1 -1 
+r84 2 1073 1062 
+$r62 1 491 
+$r53 1 1480 
+$r64 1 299 
+$r90 1 1606 
+$r60 1 441 
+$r55 1 515 
+$r6 1 1342 
+r5 1 -2 
+$r17 1 1356 
+$r78 1 441 
+$r44 1 731 
+$r37 1 922 
+$r30 1 922 
+$r49 1 1569 
+r0 1 -1 
+$r22 1 1151 
+$r40 1 731 
+$r9 1 1413 
+$r32 1 956 
+Fields: 25
+1541 image 1655
+219 image 441
+361 image 1655
+170 image 441
+180 image 441
+290 image 515
+1214 image 1376
+1474 image 1569
+794 image 956
+1431 image 1593
+1225 image 1376
+893 image 1655
+642 image 922
+653 image 922
+206 image 441
+1073 image 1342
+406 image 515
+1313 image 1655
+193 image 441
+805 image 956
+1062 image 1342
+-1 jj_la1 731
+-1 jj_la1 1151
+-1 jj_la1 299
+-1 jj_la1 1480
+Accesses: 90
+1408 2 1225 1214 
+513 3 290 1474 406 
+897 1 -1 
+1027 1 -1 
+1156 1 -1 
+263 1 -1 
+903 1 -1 
+1161 1 -1 
+1545 1 -1 
+908 2 642 653 
+1551 1 -1 
+17 1 -1 
+658 1 -1 
+1556 1 -1 
+664 1 -1 
+920 2 642 653 
+1176 1 -1 
+1432 1 -1 
+414 1 -1 
+926 2 642 653 
+1567 3 290 1474 406 
+32 1 -1 
+420 1 -1 
+1317 1 -1 
+1447 1 -1 
+298 1 -1 
+810 1 -1 
+683 1 -1 
+939 2 642 653 
+1323 1 -1 
+428 1 -1 
+942 2 805 794 
+304 1 -1 
+816 1 -1 
+1328 2 1073 1062 
+434 1 -1 
+309 1 -1 
+1078 1 -1 
+440 5 193 180 170 219 206 
+1592 1 1431 
+698 1 -1 
+954 2 805 794 
+1084 1 -1 
+1340 2 1073 1062 
+1597 1 1431 
+960 2 805 794 
+1346 2 1073 1062 
+324 1 -1 
+1479 1 -1 
+842 1 -1 
+973 2 805 794 
+1485 1 -1 
+1230 1 -1 
+1103 1 -1 
+1359 2 1073 1062 
+592 1 -1 
+1362 2 1225 1214 
+1490 1 -1 
+979 2 642 653 
+1236 1 -1 
+1622 1 -1 
+857 1 -1 
+474 5 193 180 170 219 206 
+730 1 -1 
+92 1 -1 
+988 2 805 794 
+1628 1 -1 
+1118 1 -1 
+1374 2 1225 1214 
+223 1 -1 
+479 5 193 180 170 219 206 
+607 1 -1 
+736 1 -1 
+1505 1 -1 
+1380 2 1225 1214 
+229 1 -1 
+741 1 -1 
+362 1 -1 
+107 1 -1 
+1262 1 -1 
+1393 2 1225 1214 
+756 1 -1 
+1012 1 -1 
+1654 4 1313 1541 361 893 
+1399 2 1073 1062 
+248 1 -1 
+377 1 -1 
+507 1 -1 
+1277 1 -1 
+1150 1 -1 
+Functions: 94
+256 5 -1 1480 731 299 1151 
+515 1 515 
+519 1 519 
+647 5 -1 1480 731 299 1151 
+522 1 522 
+400 5 -1 1480 731 299 1151 
+1680 7 497 1617 580 1000 568 1420 461 
+1169 5 -1 1480 731 299 1151 
+1425 5 -1 1480 731 299 1151 
+788 5 -1 1480 731 299 1151 
+1303 5 -1 1480 731 299 1151 
+25 5 -1 1480 731 299 1151 
+922 1 922 
+1307 5 -1 1480 731 299 1151 
+284 5 -1 1480 731 299 1151 
+671 5 -1 1480 731 299 1151 
+799 5 -1 1480 731 299 1151 
+928 1 922 
+1056 5 -1 1480 731 299 1151 
+1440 5 -1 1480 731 299 1151 
+1569 1 1569 
+164 5 -1 1480 731 299 1151 
+1573 1 1573 
+679 0 
+1576 1 1576 
+555 0 
+1067 5 -1 1480 731 299 1151 
+174 5 -1 1480 731 299 1151 
+559 7 -1 -2 1480 731 299 1151 447 
+691 5 -1 1480 731 299 1151 
+1589 7 -1 -2 1480 1609 731 299 1151 
+439 6 -1 1480 441 731 299 1151 
+823 5 -1 1480 731 299 1151 
+1591 6 -1 1606 1480 731 299 1151 
+1208 5 -1 1480 731 299 1151 
+1593 1 1593 
+187 5 -1 1480 731 299 1151 
+956 1 956 
+1468 5 -1 1480 731 299 1151 
+317 5 -1 1480 731 299 1151 
+573 7 -1 -2 1480 731 299 1151 447 
+1342 1 1342 
+1598 1 1593 
+831 0 
+962 1 956 
+1091 5 -1 1480 731 299 1151 
+1219 5 -1 1480 731 299 1151 
+1348 1 1342 
+454 7 -1 -2 1480 731 299 1151 447 
+838 5 -1 1480 731 299 1151 
+200 5 -1 1480 731 299 1151 
+1099 0 
+588 5 -1 1480 731 299 1151 
+976 8 -1 -2 993 1480 984 731 299 1151 
+850 5 -1 1480 731 299 1151 
+978 6 -1 1480 922 731 299 1151 
+723 5 -1 1480 731 299 1151 
+213 5 -1 1480 731 299 1151 
+471 7 -1 -2 1480 731 299 491 1151 
+1111 5 -1 1480 731 299 1151 
+600 5 -1 1480 731 299 1151 
+473 6 -1 1480 488 731 299 1151 
+1498 5 -1 1480 731 299 1151 
+475 1 441 
+987 6 -1 1480 731 299 956 1151 
+1243 5 -1 1480 731 299 1151 
+351 5 -1 1480 731 299 1151 
+480 1 441 
+1376 1 1376 
+355 5 -1 1480 731 299 1151 
+1251 0 
+1635 5 -1 1480 731 299 1151 
+100 5 -1 1480 731 299 1151 
+1382 1 1376 
+1258 5 -1 1480 731 299 1151 
+1643 0 
+236 5 -1 1480 731 299 1151 
+749 5 -1 1480 731 299 1151 
+1008 5 -1 1480 731 299 1151 
+370 5 -1 1480 731 299 1151 
+883 5 -1 1480 731 299 1151 
+244 0 
+1396 8 -1 -2 1413 1480 731 299 1404 1151 
+1270 5 -1 1480 731 299 1151 
+1398 6 -1 1480 731 299 1342 1151 
+887 5 -1 1480 731 299 1151 
+1143 5 -1 1480 731 299 1151 
+1655 1 1655 
+1658 1 1658 
+1531 5 -1 1480 731 299 1151 
+636 5 -1 1480 731 299 1151 
+1020 5 -1 1480 731 299 1151 
+1407 6 -1 1376 1480 731 299 1151 
+1535 5 -1 1480 731 299 1151 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.getFieldQuery(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+23
+$r4 1 1 
+$r9 1 549 
+_ret 1 516 
+$r13 1 585 
+$r10 1 601 
+$r12 1 578 
+$r43 1 31 
+$r40 1 -1 
+r1 1 -2 
+$r8 1 95 
+$r44 1 1 
+$r5 1 43 
+$r42 1 -1 
+$r11 1 608 
+$r41 1 -1 
+$r2 1 5 
+r48 1 73 
+r61 1 549 
+r45 2 16 42 
+r60 1 516 
+$r6 1 52 
+r0 1 -1 
+r3 1 -3 
+Fields: 1
+-1 analyzer 1
+Accesses: 7
+0 1 -1 
+353 1 -1 
+453 1 -1 
+520 1 -1 
+26 1 -1 
+287 1 -1 
+559 1 -1 
+Functions: 57
+512 2 -1 1 
+1 3 1 -2 5 
+132 2 16 42 
+389 0 
+10 2 -3 5 
+267 0 
+140 1 43 
+524 1 516 
+18 2 16 42 
+406 0 
+279 2 -1 1 
+535 1 43 
+152 1 43 
+27 3 1 -2 31 
+411 0 
+545 1 43 
+418 0 
+163 1 43 
+291 0 
+36 2 -3 31 
+298 0 
+47 1 43 
+176 2 -1 1 
+433 0 
+182 0 
+438 1 -2 
+311 1 43 
+56 1 52 
+568 1 549 
+441 0 
+187 1 -2 
+321 1 43 
+67 3 16 52 42 
+583 1 549 
+588 3 -2 578 585 
+205 2 -1 1 
+462 0 
+335 0 
+593 2 578 516 
+343 0 
+217 1 43 
+93 1 73 
+606 1 549 
+481 0 
+98 2 43 95 
+227 1 43 
+611 3 608 -2 601 
+614 2 516 601 
+104 1 73 
+489 0 
+362 0 
+241 2 -1 1 
+114 1 73 
+247 0 
+506 0 
+252 1 -2 
+381 0 
+Constructors: 6
+611 601
+36 31
+56 52
+10 5
+588 578
+47 43
+
+Summary: 17
+365 177 392 294 578 52 601 428 492 465 1 242 -3 -2 43 0 -1 
+org/apache/lucene/queryParser/QueryParser.Modifiers()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r7 1 156 
+Fields: 1
+-1 jj_la1 156
+Accesses: 8
+48 1 -1 
+160 1 -1 
+17 1 -1 
+2 1 -1 
+131 1 -1 
+136 1 -1 
+155 1 -1 
+63 1 -1 
+Functions: 7
+151 0 
+56 2 -1 156 
+121 2 -1 156 
+10 2 -1 156 
+108 2 -1 156 
+95 2 -1 156 
+143 2 -1 156 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.escape(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r2 1 -2 
+_ret 1 152 
+$r3 1 152 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 6
+18 1 -2 
+4 1 0 
+135 1 0 
+151 1 0 
+11 1 -2 
+141 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+0 -2 
+org/apache/lucene/queryParser/QueryParser.getEnablePositionIncrements()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getLocale()Ljava/util/Locale;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 locale 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.newBooleanQuery(Z)Lorg/apache/lucene/search/BooleanQuery;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 0 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.setDefaultOperator(Lorg/apache/lucene/queryParser/QueryParser$Operator;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.jj_la1_init_1()V
+PTG:
+Vars:
+1
+$r0 1 2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/lucene/queryParser/QueryParser.main([Ljava/lang/String;)V
+PTG:
+Vars:
+8
+$r1 1 17 
+r5 1 41 
+$r6 1 42 
+r0 1 -2 
+$r7 1 48 
+$r8 1 5 
+$r2 1 23 
+$r4 1 37 
+Fields: 1
+-2 ArrayObject 37
+Accesses: 0
+Functions: 7
+34 2 17 37 
+51 2 48 42 
+10 1 5 
+27 1 23 
+45 1 41 
+14 0 
+30 2 17 23 
+Constructors: 2
+27 23
+30 17
+
+Summary: 6
+17 23 41 48 37 -2 
+org/apache/lucene/queryParser/QueryParser.getRangeCollator()Ljava/text/Collator;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 rangeCollator 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.getPrefixQuery(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+6
+r6 2 -3 37 
+$r1 1 38 
+_ret 1 50 
+$r4 1 50 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 2
+0 1 -1 
+26 1 -1 
+Functions: 5
+48 2 -1 38 
+33 2 -3 37 
+22 0 
+7 2 -3 37 
+44 4 -2 -3 37 38 
+Constructors: 1
+44 38
+
+Summary: 5
+1 38 -2 0 -1 
+org/apache/lucene/queryParser/QueryParser.newPhraseQuery()Lorg/apache/lucene/search/PhraseQuery;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.discardEscapeChar(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r5 1 -1 
+_ret 1 173 
+r0 1 -2 
+r1 1 4 
+$r2 1 173 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+180 2 4 173 
+23 1 -2 
+169 0 
+154 0 
+45 0 
+30 1 -2 
+Constructors: 1
+180 173
+
+Summary: 4
+4 -2 0 -1 
+org/apache/lucene/queryParser/QueryParser.ReInit(Lorg/apache/lucene/queryParser/CharStream;)V
+PTG:
+Vars:
+8
+$r2 1 1 
+$r7 1 38 
+r0 1 -1 
+r1 1 -2 
+$r6 1 54 
+$r3 1 9 
+$r4 1 54 
+$r5 1 66 
+Fields: 3
+-1 jj_la1 38
+-1 token_source 1
+-1 jj_2_rtns 54
+Accesses: 7
+0 1 -1 
+16 1 -1 
+21 1 -1 
+37 1 -1 
+53 1 -1 
+26 1 -1 
+61 1 -1 
+Functions: 3
+5 2 1 -2 
+70 1 66 
+13 1 9 
+Constructors: 2
+70 66
+13 9
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/queryParser/QueryParser.setUseOldRangeQuery(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.jj_3_1()Z
+PTG:
+Vars:
+2
+r1 1 4 
+r0 1 -1 
+Fields: 1
+-1 jj_scanpos 4
+Accesses: 2
+0 1 -1 
+14 1 -1 
+Functions: 2
+17 2 -1 4 
+5 2 -1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.setLowercaseExpandedTerms(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.jj_ntk()I
+PTG:
+Vars:
+4
+$r3 1 41 
+r0 1 -1 
+$r1 1 2 
+$r2 1 5 
+Fields: 3
+2 next 5
+-1 jj_nt 41
+-1 token 2
+Accesses: 9
+16 1 -1 
+48 1 -1 
+1 1 -1 
+2 1 2 
+35 1 -1 
+20 1 -1 
+40 1 -1 
+9 1 -1 
+41 1 41 
+Functions: 1
+21 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/queryParser/QueryParser.generateParseException()Lorg/apache/lucene/queryParser/ParseException;
+PTG:
+Vars:
+21
+$r5 1 225 
+_ret 1 225 
+$r4 1 1 
+$r12 1 125 
+$r16 1 42 
+$r1 1 1 
+$r7 1 230 
+$r18 1 78 
+$r11 1 207 
+$r10 1 207 
+$r14 1 131 
+$r13 1 131 
+$r15 1 1 
+r19 1 181 
+r0 1 -1 
+$r6 1 234 
+r2 1 11 
+$r3 1 1 
+$r9 1 207 
+$r8 1 1 
+$r17 1 62 
+Fields: 4
+-1 jj_la1 42
+-1 jj_expentries 1
+-1 jj_expentry 131
+-1 token 230
+Accesses: 15
+0 1 -1 
+130 1 -1 
+229 1 -1 
+41 1 -1 
+137 1 -1 
+202 1 -1 
+172 1 -1 
+141 1 -1 
+14 1 -1 
+47 1 -1 
+22 1 -1 
+188 1 -1 
+30 1 -1 
+127 1 -1 
+159 1 -1 
+Functions: 8
+145 2 1 131 
+163 5 -1 1 131 230 42 
+4 1 1 
+169 5 -1 1 131 230 42 
+203 1 1 
+173 1 1 
+189 1 1 
+237 4 225 181 230 234 
+Constructors: 1
+237 225
+
+Summary: 3
+181 -1 11 
+org/apache/lucene/queryParser/QueryParser.getWildcardQuery(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/lucene/search/Query;
+PTG:
+Vars:
+8
+r9 2 69 -3 
+_ret 1 82 
+$r3 1 70 
+r2 1 -1 
+r0 1 -2 
+$r7 1 9 
+$r1 1 0 
+$r5 1 82 
+Fields: 0
+Accesses: 2
+23 1 -1 
+58 1 -1 
+Functions: 9
+0 2 0 -2 
+80 2 -1 70 
+65 2 -3 69 
+18 1 -1 
+54 0 
+39 2 -3 69 
+9 3 -3 69 9 
+76 4 -2 -3 69 70 
+30 2 -3 69 
+Constructors: 1
+76 70
+
+Summary: 5
+70 1 -2 0 -1 

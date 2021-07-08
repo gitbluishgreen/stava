@@ -1,0 +1,1249 @@
+64
+avrora/sim/AtmelInterpreter.toSRAM(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+avrora/sim/AtmelInterpreter.start()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 1
+6 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.delay(J)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+2 1 -1 
+5 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.setPosted(IZ)V
+PTG:
+Vars:
+3
+$r1 1 16 
+r0 1 -1 
+$r2 1 5 
+Fields: 2
+-1 interrupts 5
+-1 interrupts 16
+Accesses: 2
+4 1 -1 
+15 1 -1 
+Functions: 2
+20 1 16 
+9 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.writeSRAM(ZIB)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 16 
+$r3 1 16 
+$r2 1 16 
+Fields: 1
+-1 sram 16
+Accesses: 4
+53 1 -1 
+38 1 -1 
+15 1 -1 
+31 1 -1 
+Functions: 5
+64 2 -1 16 
+8 2 -1 16 
+74 2 -1 16 
+27 2 -1 16 
+43 2 -1 16 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.installVolatileBehavior(ILavrora/sim/state/VolatileBehavior;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -3 
+r0 1 -1 
+Fields: 1
+-1 sram_volatile 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getIORegBit(II)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+2 0 
+9 0 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.enableInterrupts()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 11 
+Fields: 1
+-1 interrupts 11
+Accesses: 3
+2 1 -1 
+7 1 -1 
+10 1 -1 
+Functions: 1
+14 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.removeProbe(Lavrora/sim/Simulator$Probe;I)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 flash 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+avrora/sim/AtmelInterpreter.insertProbe(Lavrora/sim/Simulator$Probe;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 6 
+r0 1 -1 
+Fields: 1
+-1 globalProbe 6
+Accesses: 2
+2 1 -1 
+5 1 -1 
+Functions: 1
+10 2 -2 6 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+avrora/sim/AtmelInterpreter.setEnabled(IZ)V
+PTG:
+Vars:
+3
+$r2 1 10 
+$r1 1 21 
+r0 1 -1 
+Fields: 2
+-1 interrupts 21
+-1 interrupts 10
+Accesses: 3
+20 1 -1 
+6 1 -1 
+9 1 -1 
+Functions: 2
+25 1 21 
+14 1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.readSRAM(ZI)B
+PTG:
+Vars:
+2
+$r1 1 13 
+r0 1 -1 
+Fields: 1
+-1 sram 13
+Accesses: 4
+34 1 -1 
+50 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 5
+66 2 -1 13 
+4 2 -1 13 
+23 2 -1 13 
+39 2 -1 13 
+61 2 -1 13 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getRegisterUnsigned(Lavrora/arch/legacy/LegacyRegister;)I
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 sram 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+avrora/sim/AtmelInterpreter.insertWatch(Lavrora/sim/Simulator$Watch;I)V
+PTG:
+Vars:
+9
+r8 2 25 35 
+r3 1 -2 
+$r7 1 13 
+$r1 1 1 
+$r2 1 1 
+$r5 1 1 
+$r6 1 9 
+$r4 1 35 
+r0 1 -1 
+Fields: 3
+1 ArrayObject 25
+-1 sram_watches 1
+-1 sram 9
+Accesses: 5
+0 1 -1 
+16 1 -1 
+19 1 -1 
+8 1 -1 
+30 1 -1 
+Functions: 2
+39 1 35 
+47 3 -2 35 25 
+Constructors: 1
+39 35
+
+Summary: 2
+-2 -1 
+avrora/sim/AtmelInterpreter.setFlag(IZ)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 7
+68 1 -1 
+84 1 -1 
+100 1 -1 
+116 1 -1 
+76 1 -1 
+92 1 -1 
+108 1 -1 
+Functions: 2
+53 1 -1 
+60 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.fireWriteError(ZIB)V
+PTG:
+Vars:
+4
+$r1 1 5 
+$r2 1 16 
+$r3 1 5 
+r0 1 -1 
+Fields: 2
+-1 error_watch 5
+-1 state 16
+Accesses: 3
+4 1 -1 
+11 1 -1 
+15 1 -1 
+Functions: 1
+21 2 16 5 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.commit()V
+PTG:
+Vars:
+2
+$r1 1 9 
+r0 1 -1 
+Fields: 1
+-1 clock 9
+Accesses: 5
+1 1 -1 
+5 1 -1 
+22 1 -1 
+8 1 -1 
+12 1 -1 
+Functions: 1
+17 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getRegisterWord(I)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+6 1 -1 
+15 0 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.pushByte(B)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+9 1 -1 
+15 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getRegisterWord(Lavrora/arch/legacy/LegacyRegister;)I
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 8 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -1 -2 
+16 0 
+6 2 -1 8 
+7 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+avrora/sim/AtmelInterpreter.setInterruptBase(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.readVolatile(I)B
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 9 
+r2 1 6 
+$r1 1 1 
+Fields: 3
+1 ArrayObject 6
+-1 sram_volatile 1
+-1 sram 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 1
+7 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getFlashByte(I)B
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 flash 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.writeRegisterByte(Lavrora/arch/legacy/LegacyRegister;B)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 sram 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+avrora/sim/AtmelInterpreter.getInstr(I)Lavrora/arch/legacy/LegacyInstr;
+PTG:
+Vars:
+4
+$r2 1 5 
+_ret 1 5 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 flash 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.popByte()B
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+9 1 -1 
+12 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.writeIORegisterByte(IB)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 0 
+7 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.installIOReg(ILavrora/sim/ActiveRegister;)V
+PTG:
+Vars:
+5
+$r4 1 18 
+r0 1 -1 
+$r1 1 1 
+r3 1 -3 
+$r2 1 8 
+Fields: 2
+-1 sram_volatile 1
+-1 ioregs 18
+Accesses: 2
+0 1 -1 
+17 1 -1 
+Functions: 2
+4 0 
+13 2 -3 8 
+Constructors: 1
+13 8
+
+Summary: 2
+1 -1 
+avrora/sim/AtmelInterpreter.removeWatch(Lavrora/sim/Simulator$Watch;I)V
+PTG:
+Vars:
+5
+r4 1 -2 
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+r3 1 14 
+Fields: 2
+1 ArrayObject 14
+-1 sram_watches 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 1
+22 2 -2 14 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+avrora/sim/AtmelInterpreter.writeRegisterWord(II)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 0 
+5 0 
+23 1 -1 
+14 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.writeVolatile(IB)B
+PTG:
+Vars:
+4
+r2 1 6 
+$r1 1 1 
+$r3 1 9 
+r0 1 -1 
+Fields: 3
+1 ArrayObject 6
+-1 sram_volatile 1
+-1 sram 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 1
+7 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getDataByte(I)B
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getFlag(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 8
+48 1 -1 
+83 1 -1 
+68 1 -1 
+53 1 -1 
+73 1 -1 
+58 1 -1 
+78 1 -1 
+63 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.stop()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.access$000(Lavrora/sim/AtmelInterpreter;ZI)B
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+avrora/sim/AtmelInterpreter.fireAfterRead(ZIB)V
+PTG:
+Vars:
+6
+$r4 1 27 
+r3 1 17 
+$r5 1 17 
+r0 1 -1 
+$r1 1 5 
+$r2 1 5 
+Fields: 3
+5 ArrayObject 17
+-1 sram_watches 5
+-1 state 27
+Accesses: 3
+4 1 -1 
+26 1 -1 
+11 1 -1 
+Functions: 1
+32 2 17 27 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.setSP(I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 12 
+$r1 1 1 
+Fields: 2
+-1 SPL_reg 1
+-1 SPH_reg 12
+Accesses: 4
+0 1 -1 
+19 1 12 
+8 1 1 
+11 1 -1 
+Functions: 2
+4 0 
+15 0 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.fireAfterWrite(ZIB)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r3 1 17 
+$r4 1 27 
+$r2 1 5 
+$r5 1 17 
+$r1 1 5 
+Fields: 3
+5 ArrayObject 17
+-1 sram_watches 5
+-1 state 27
+Accesses: 3
+4 1 -1 
+26 1 -1 
+11 1 -1 
+Functions: 1
+32 2 17 27 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.fireBeforeRead(ZI)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 5 
+$r1 1 5 
+$r5 1 17 
+r3 1 17 
+$r4 1 24 
+Fields: 3
+5 ArrayObject 17
+-1 sram_watches 5
+-1 state 24
+Accesses: 3
+4 1 -1 
+23 1 -1 
+11 1 -1 
+Functions: 1
+28 2 17 24 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getRegisterByte(Lavrora/arch/legacy/LegacyRegister;)B
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 sram 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+avrora/sim/AtmelInterpreter.writeRegisterByte(IB)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sram 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getInterruptBase()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.writeDataByte(IB)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getRegisterByte(I)B
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 sram 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getIOReg(I)Lavrora/sim/ActiveRegister;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+_ret 1 5 
+$r2 1 5 
+Fields: 2
+1 ArrayObject 5
+-1 ioregs 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.writeRegisterWord(Lavrora/arch/legacy/LegacyRegister;I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 19 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 0 
+18 1 -2 
+5 0 
+24 2 -1 19 
+14 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+avrora/sim/AtmelInterpreter.getState()Lavrora/sim/State;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 state 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getSP()I
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 9 
+r0 1 -1 
+Fields: 2
+-1 SPL_reg 1
+-1 SPH_reg 9
+Accesses: 4
+0 1 -1 
+1 1 1 
+8 1 -1 
+9 1 9 
+Functions: 1
+17 0 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.removeProbe(Lavrora/sim/Simulator$Probe;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 6 
+Fields: 1
+-1 globalProbe 6
+Accesses: 2
+2 1 -1 
+5 1 -1 
+Functions: 1
+10 2 -2 6 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+avrora/sim/AtmelInterpreter.<init>(Lavrora/sim/Simulator;Lavrora/core/Program;Lavrora/arch/avr/AVRProperties;)V
+PTG:
+Vars:
+34
+r6 1 -3 
+$r19 1 290 
+$r26 1 344 
+$r15 1 218 
+$r24 1 230 
+$r13 1 191 
+$r29 1 362 
+$r21 1 307 
+$r28 1 362 
+r0 1 -1 
+$r22 1 311 
+$r30 1 191 
+$r8 1 154 
+$r27 1 230 
+$r34 1 191 
+$r32 1 230 
+$r3 1 14 
+$r18 1 278 
+$r17 1 191 
+$r23 1 318 
+$r10 1 170 
+$r14 1 215 
+r1 1 -2 
+$r25 1 344 
+$r16 1 230 
+$r7 1 147 
+$r31 1 246 
+r5 1 -4 
+$r2 1 6 
+$r4 1 26 
+$r9 1 157 
+$r20 1 297 
+$r33 1 256 
+$r11 1 176 
+Fields: 8
+-4 codeSegmentFactory 290
+-1 flash 307
+-1 sram_volatile 191
+-1 registers 215
+-1 ioregs 230
+230 ArrayObject 344
+230 ArrayObject 256
+230 ArrayObject 362
+Accesses: 37
+129 1 -4 
+323 1 -4 
+70 1 -1 
+134 1 -4 
+198 1 -1 
+73 1 -3 
+330 1 -1 
+139 1 -1 
+267 1 -1 
+77 1 -4 
+334 1 -1 
+143 1 -1 
+271 1 -1 
+149 1 -1 
+22 1 -1 
+214 1 -1 
+348 1 -1 
+221 1 -1 
+96 1 -4 
+352 1 -1 
+33 1 -1 
+289 1 -4 
+162 1 -1 
+229 1 -1 
+166 1 -1 
+43 1 -1 
+173 1 -1 
+237 1 -1 
+302 1 -1 
+366 1 -1 
+306 1 -1 
+116 1 -4 
+250 1 -1 
+314 1 -1 
+123 1 -1 
+62 1 -1 
+190 1 -1 
+Functions: 28
+257 2 256 246 
+2 9 -1 256 -2 307 230 215 344 362 191 
+5 8 -1 256 307 230 215 344 362 191 
+327 9 -1 256 307 230 215 344 362 318 191 
+9 1 6 
+272 0 
+338 2 290 -4 
+19 9 -1 256 307 230 215 344 362 14 191 
+84 0 
+215 1 215 
+88 0 
+153 1 -2 
+154 1 154 
+284 9 -1 256 307 278 230 215 344 362 191 
+93 0 
+30 1 26 
+290 10 -1 256 290 -3 307 230 215 344 362 191 
+100 0 
+356 2 290 -4 
+37 2 290 -4 
+105 0 
+108 0 
+46 2 290 -4 
+241 0 
+307 1 307 
+180 1 176 
+117 0 
+56 2 290 -4 
+Constructors: 7
+257 246
+2 -1
+19 14
+180 176
+327 318
+284 278
+30 26
+
+Summary: 8
+-2 -4 -3 0 1 2 290 -1 
+avrora/sim/AtmelInterpreter.disableInterrupts()V
+PTG:
+Vars:
+2
+$r1 1 6 
+r0 1 -1 
+Fields: 1
+-1 interrupts 6
+Accesses: 2
+2 1 -1 
+5 1 -1 
+Functions: 1
+9 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.writeFlashByte(IB)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 flash 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.fireBeforeWrite(ZIB)V
+PTG:
+Vars:
+6
+$r1 1 5 
+$r5 1 17 
+$r2 1 5 
+$r4 1 27 
+r3 1 17 
+r0 1 -1 
+Fields: 3
+5 ArrayObject 17
+-1 sram_watches 5
+-1 state 27
+Accesses: 3
+4 1 -1 
+26 1 -1 
+11 1 -1 
+Functions: 1
+32 2 17 27 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.fireReadError(ZI)B
+PTG:
+Vars:
+4
+$r2 1 16 
+r0 1 -1 
+$r1 1 5 
+$r3 1 5 
+Fields: 2
+-1 error_watch 5
+-1 state 16
+Accesses: 3
+4 1 -1 
+11 1 -1 
+15 1 -1 
+Functions: 1
+20 2 16 5 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.setIORegBit(IIZ)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -1 
+2 0 
+22 0 
+28 1 -1 
+14 0 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.storeProgramMemory()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 flash 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getInstrSize(I)I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+2 1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.advanceClock(J)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 clock 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getInterruptVectorAddress(I)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.insertErrorWatch(Lavrora/sim/Simulator$Watch;)V
+PTG:
+Vars:
+5
+$r3 1 1 
+$r4 1 8 
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+Fields: 1
+-1 error_watch 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 2
+23 2 1 -2 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 2
+-2 -1 
+avrora/sim/AtmelInterpreter.getIORegisterByte(I)B
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+2 0 
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.insertProbe(Lavrora/sim/Simulator$Probe;I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 flash 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+avrora/sim/AtmelInterpreter.setBootPC(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+avrora/sim/AtmelInterpreter.getRegisterUnsigned(I)I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sram 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

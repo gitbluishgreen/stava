@@ -1,0 +1,369 @@
+13
+org/eclipse/core/internal/content/ContentTypeBuilder.getConfigurationElements()[Lorg/eclipse/core/runtime/IConfigurationElement;
+PTG:
+Vars:
+8
+r5 1 -1 
+r2 1 57 
+r3 1 77 
+r0 1 3 
+r1 1 31 
+r7 2 71 19 
+_ret 1 77 
+r6 2 15 45 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 0 
+64 1 57 
+20 1 3 
+100 3 19 71 77 
+38 1 31 
+89 3 45 77 15 
+46 1 3 
+Constructors: 0
+
+Summary: 4
+3 31 -1 57 
+org/eclipse/core/internal/content/ContentTypeBuilder.registerFileAssociation(Lorg/eclipse/core/runtime/IConfigurationElement;)V
+PTG:
+Vars:
+8
+$r1 1 1 
+$r6 1 24 
+$r3 1 14 
+r5 1 -1 
+r0 1 -2 
+r4 1 22 
+r7 1 31 
+$r2 1 6 
+Fields: 1
+-1 catalog 24
+Accesses: 1
+23 1 -1 
+Functions: 6
+0 1 -2 
+1 1 1 
+24 2 22 24 
+40 4 -1 -2 24 31 
+11 1 -2 
+14 2 6 14 
+Constructors: 0
+
+Summary: 7
+-2 6 14 22 31 -1 1 
+org/eclipse/core/internal/content/ContentTypeBuilder.getUniqueId(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+7
+r5 2 41 -3 
+$r0 1 18 
+$r2 1 23 
+r1 1 -2 
+$r3 1 31 
+_ret 2 41 -3 
+$r4 1 35 
+Fields: 0
+Accesses: 0
+Functions: 6
+18 1 18 
+35 1 35 
+6 2 -3 41 
+22 1 -2 
+26 2 18 23 
+31 3 -3 41 31 
+Constructors: 1
+26 18
+
+Summary: 5
+-2 23 0 35 1 
+org/eclipse/core/internal/content/ContentTypeBuilder.registerContentType(Lorg/eclipse/core/runtime/IConfigurationElement;)V
+PTG:
+Vars:
+6
+r5 1 5 
+r0 1 -1 
+$r4 1 19 
+r1 1 -2 
+$r2 1 7 
+$r3 1 -1 
+Fields: 1
+-1 catalog 7
+Accesses: 1
+6 1 -1 
+Functions: 4
+0 3 -1 -2 7 
+18 1 -1 
+22 1 19 
+11 2 5 7 
+Constructors: 0
+
+Summary: 4
+-2 5 -1 19 
+org/eclipse/core/internal/content/ContentTypeBuilder.buildCatalog()V
+PTG:
+Vars:
+8
+r1 1 4 
+r0 1 -1 
+$r5 1 49 
+$r7 1 66 
+$r6 1 50 
+$r3 1 13 
+$r4 1 29 
+$r2 1 12 
+Fields: 4
+4 ArrayObject 49
+4 ArrayObject 12
+4 ArrayObject 66
+4 ArrayObject 29
+Accesses: 0
+Functions: 8
+0 1 -1 
+80 1 -1 
+49 1 49 
+50 1 50 
+67 2 -1 66 
+12 1 12 
+13 1 13 
+30 2 -1 29 
+Constructors: 0
+
+Summary: 4
+50 4 13 -1 
+org/eclipse/core/internal/content/ContentTypeBuilder.applyPreferences()V
+PTG:
+Vars:
+7
+$r4 1 -1 
+$r1 1 6 
+$r3 1 14 
+r0 1 -1 
+r6 1 4 
+$r5 1 33 
+r2 1 12 
+Fields: 1
+-1 catalog 4
+Accesses: 1
+0 1 -1 
+Functions: 5
+5 1 4 
+21 4 -1 4 12 14 
+37 2 -1 33 
+6 1 6 
+24 2 12 14 
+Constructors: 1
+21 14
+
+Summary: 3
+14 6 -1 
+org/eclipse/core/internal/content/ContentTypeBuilder.createContentType(Lorg/eclipse/core/runtime/IConfigurationElement;)Lorg/eclipse/core/internal/content/ContentType;
+PTG:
+Vars:
+40
+$r10 1 141 
+r23 1 239 
+r9 1 135 
+$r5 1 101 
+$r6 1 114 
+$r1 1 1 
+$r27 1 267 
+$r32 1 66 
+r35 2 76 20 
+$r19 1 328 
+$r34 1 36 
+$r14 1 177 
+r11 1 149 
+r4 1 29 
+$r29 1 90 
+$r26 1 260 
+r7 1 122 
+$r33 1 70 
+r13 1 163 
+$r21 1 208 
+r24 1 247 
+r2 1 11 
+r0 1 -2 
+$r30 1 53 
+$r8 1 127 
+r37 2 189 336 
+$r17 1 356 
+$r22 1 231 
+r28 1 273 
+$r42 1 388 
+$r20 1 189 
+r3 1 20 
+$r31 1 58 
+r15 1 -1 
+r39 2 225 216 
+r40 1 316 
+_ret 1 388 
+$r16 1 343 
+$r12 1 155 
+$r41 1 368 
+Fields: 3
+177 ArrayObject 231
+177 ArrayObject 208
+-1 catalog 368
+Accesses: 1
+367 1 -1 
+Functions: 36
+0 1 -2 
+1 1 1 
+193 1 189 
+66 2 66 20 
+387 11 368 336 -2 163 20 149 135 122 76 29 189 
+70 1 70 
+138 1 -2 
+266 2 20 11 
+267 3 260 267 239 
+331 2 328 316 
+12 1 -2 
+141 2 11 141 
+208 1 208 
+21 1 -2 
+341 3 336 343 189 
+278 1 273 
+152 1 -2 
+155 2 11 155 
+95 5 -1 368 20 90 76 
+98 1 -2 
+290 4 225 247 216 189 
+101 1 101 
+231 1 231 
+40 4 -1 368 36 11 
+361 4 336 356 316 189 
+43 1 20 
+174 1 -2 
+111 1 -2 
+114 1 114 
+242 2 11 239 
+307 1 -2 
+53 1 53 
+57 1 11 
+124 1 -2 
+61 2 53 58 
+127 1 127 
+Constructors: 2
+193 189
+61 53
+
+Summary: 27
+101 163 247 70 127 267 216 1 122 76 58 273 336 20 114 -2 135 155 239 0 11 149 177 316 -1 29 141 
+org/eclipse/core/internal/content/ContentTypeBuilder.missingMandatoryAttribute(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+6
+r0 1 -2 
+$r3 1 6 
+r5 1 -1 
+r1 1 -3 
+r2 1 5 
+$r4 1 10 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 2 -2 -3 
+21 2 5 10 
+24 2 6 10 
+Constructors: 2
+21 10
+24 6
+
+Summary: 6
+-3 -2 5 -1 1 10 
+org/eclipse/core/internal/content/ContentTypeBuilder.parseQualifiedName(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/core/runtime/QualifiedName;
+PTG:
+Vars:
+6
+$r2 1 59 
+r4 1 -2 
+r1 1 58 
+r5 1 50 
+r0 1 -3 
+_ret 1 59 
+Fields: 0
+Accesses: 0
+Functions: 6
+33 1 -3 
+65 3 50 58 59 
+51 1 -3 
+6 1 -3 
+24 2 -2 -3 
+44 1 -3 
+Constructors: 1
+65 59
+
+Summary: 5
+50 58 -2 0 1 
+org/eclipse/core/internal/content/ContentTypeBuilder.addFileAssociation(Lorg/eclipse/core/runtime/IConfigurationElement;Lorg/eclipse/core/internal/content/ContentType;)V
+PTG:
+Vars:
+9
+r7 1 -1 
+$r1 1 3 
+r2 1 11 
+$r4 1 22 
+r0 1 -2 
+$r6 1 62 
+$r5 1 41 
+r3 1 -3 
+r8 1 49 
+Fields: 2
+11 ArrayObject 22
+49 ArrayObject 62
+Accesses: 0
+Functions: 6
+0 1 -2 
+65 2 -3 62 
+3 1 3 
+38 1 -2 
+24 2 -3 22 
+41 1 41 
+Constructors: 0
+
+Summary: 9
+11 41 -3 3 -2 49 0 -1 1 
+org/eclipse/core/internal/content/ContentTypeBuilder.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/internal/content/ContentTypeBuilder.<init>(Lorg/eclipse/core/internal/content/ContentTypeCatalog;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/content/ContentTypeBuilder.parsePriority(Ljava/lang/String;)B
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+17 1 -2 
+6 1 -2 
+28 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 

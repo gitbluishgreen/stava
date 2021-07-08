@@ -1,0 +1,741 @@
+24
+org/eclipse/jdt/core/dom/ASTParser.initializeDefaults()V
+PTG:
+Vars:
+3
+r2 1 56 
+r0 1 -1 
+$r1 1 32 
+Fields: 0
+Accesses: 11
+18 1 -1 
+50 1 -1 
+3 1 -1 
+35 1 -1 
+68 1 -1 
+23 1 -1 
+8 1 -1 
+40 1 -1 
+28 1 -1 
+13 1 -1 
+45 1 -1 
+Functions: 2
+53 0 
+60 1 56 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.internalCreateASTForKind()Lorg/eclipse/jdt/core/dom/ASTNode;
+PTG:
+Vars:
+13
+$r10 1 83 
+$r5 1 16 
+r8 1 49 
+$r7 1 32 
+r12 1 95 
+r1 1 -1 
+$r4 1 16 
+$r9 1 56 
+$r42 1 16 
+$r2 1 5 
+$r6 1 16 
+$r0 1 0 
+$r41 1 726 
+Fields: 3
+-1 compilerOptions 5
+-1 rawSource 16
+0 scanner 32
+Accesses: 43
+576 1 -1 
+641 1 -1 
+66 1 -1 
+4 1 -1 
+581 1 -1 
+645 1 -1 
+649 1 -1 
+590 1 83 
+15 1 -1 
+19 1 0 
+211 1 0 
+149 1 -1 
+214 1 0 
+23 1 -1 
+153 1 -1 
+218 1 0 
+667 1 83 
+28 1 0 
+157 1 -1 
+31 1 0 
+288 1 -1 
+97 1 -1 
+161 1 -1 
+225 1 0 
+35 1 -1 
+292 1 -1 
+166 1 -1 
+423 1 -1 
+296 1 -1 
+42 1 -1 
+106 1 -1 
+427 1 -1 
+111 1 -1 
+431 1 -1 
+114 1 -1 
+435 1 -1 
+244 1 83 
+564 1 -1 
+504 1 83 
+568 1 -1 
+572 1 -1 
+445 1 83 
+190 1 0 
+Functions: 56
+514 1 49 
+518 1 49 
+10 3 0 32 5 
+522 1 49 
+267 3 0 32 95 
+654 0 
+658 0 
+403 5 -1 16 49 5 95 
+148 1 83 
+277 1 95 
+280 1 49 
+408 1 49 
+412 1 49 
+416 1 49 
+544 1 95 
+672 4 -1 16 5 95 
+549 1 49 
+677 1 49 
+422 1 83 
+39 2 32 16 
+553 1 49 
+681 1 49 
+43 0 
+301 0 
+557 1 49 
+685 1 49 
+563 1 83 
+52 1 49 
+60 1 56 
+63 2 49 56 
+707 1 95 
+712 1 49 
+75 1 49 
+203 0 
+716 1 49 
+80 3 0 32 49 
+208 0 
+720 1 49 
+468 3 0 32 95 
+87 1 83 
+343 0 
+730 1 726 
+91 1 49 
+348 2 0 32 
+478 1 95 
+354 2 0 32 
+613 3 0 32 95 
+486 2 0 32 
+234 0 
+495 0 
+623 1 95 
+241 1 95 
+370 0 
+631 2 0 32 
+377 0 
+509 4 -1 16 5 95 
+Constructors: 4
+87 83
+10 0
+730 726
+60 56
+
+Summary: 29
+205 533 49 173 449 0 601 456 274 443 183 255 475 345 372 363 215 497 309 660 588 594 620 83 248 177 696 -1 56 
+org/eclipse/jdt/core/dom/ASTParser.setUnitName(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.setStatementsRecovery(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.setCompilerOptions(Ljava/util/Map;)V
+PTG:
+Vars:
+4
+r3 1 -2 
+r4 2 11 7 
+$r0 1 11 
+r2 1 -1 
+Fields: 0
+Accesses: 1
+31 1 -1 
+Functions: 3
+16 2 -2 11 
+4 0 
+23 2 7 11 
+Constructors: 1
+16 11
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/core/dom/ASTParser.setKind(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+31 1 -1 
+Functions: 1
+25 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.setResolveBindings(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.propagateErrors(Lorg/eclipse/jdt/core/dom/ASTNode;[Lorg/eclipse/jdt/core/compiler/CategorizedProblem;Lorg/eclipse/jdt/internal/compiler/parser/RecoveryScannerData;)V
+PTG:
+Vars:
+6
+r0 1 -2 
+$r1 1 1 
+r2 1 -3 
+$r4 1 17 
+r5 1 -1 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 4
+6 2 1 -3 
+23 3 17 -3 -4 
+9 2 -2 1 
+26 2 -2 17 
+Constructors: 2
+6 1
+23 17
+
+Summary: 8
+17 -3 2 0 1 -1 -4 1 
+org/eclipse/jdt/core/dom/ASTParser.createAST(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/dom/ASTNode;
+PTG:
+Vars:
+6
+r0 1 -2 
+r1 1 -1 
+r7 1 44 
+$r3 1 23 
+_ret 1 44 
+$r2 1 16 
+Fields: 2
+-1 rawSource 16
+-1 typeRoot 23
+Accesses: 2
+22 1 -1 
+15 1 -1 
+Functions: 7
+50 3 -1 16 23 
+66 3 -1 16 23 
+35 0 
+39 4 -1 16 -2 23 
+10 1 -2 
+58 1 -2 
+74 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/core/dom/ASTParser.internalCreateAST(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/dom/ASTNode;
+PTG:
+Vars:
+14
+r0 1 -1 
+$r53 1 64 
+$r54 1 64 
+r78 1 120 
+r10 1 -2 
+$r57 1 64 
+r77 1 64 
+$r118 1 895 
+$r58 1 90 
+$r56 1 127 
+$r55 1 64 
+$r52 1 64 
+$r47 1 57 
+$r83 1 57 
+Fields: 2
+-1 rawSource 57
+-1 typeRoot 64
+Accesses: 47
+0 1 -1 
+321 1 -1 
+130 1 -1 
+386 1 -1 
+771 1 -1 
+644 1 -1 
+5 1 -1 
+261 1 -1 
+70 1 -1 
+846 1 -1 
+271 1 -1 
+80 1 -1 
+656 1 -1 
+720 1 -1 
+210 1 -1 
+338 1 -1 
+594 1 -1 
+660 1 -1 
+790 1 -1 
+217 1 -1 
+601 1 -1 
+348 1 -1 
+221 1 -1 
+861 1 -1 
+95 1 -1 
+735 1 -1 
+608 1 -1 
+226 1 -1 
+101 1 -1 
+741 1 -1 
+615 1 -1 
+680 1 -1 
+745 1 -1 
+810 1 -1 
+622 1 -1 
+814 1 -1 
+111 1 -1 
+881 1 -1 
+691 1 -1 
+372 1 -1 
+56 1 -1 
+312 1 -1 
+506 1 -1 
+63 1 -1 
+255 1 -1 
+639 1 -1 
+703 1 -1 
+Functions: 53
+387 0 
+899 1 895 
+775 0 
+524 0 
+141 0 
+400 0 
+664 0 
+410 0 
+538 0 
+794 0 
+155 0 
+284 0 
+163 0 
+291 0 
+547 0 
+803 0 
+676 0 
+421 0 
+302 0 
+178 0 
+562 0 
+309 0 
+695 0 
+316 0 
+829 0 
+191 0 
+575 0 
+325 0 
+198 0 
+582 0 
+838 1 -2 
+200 0 
+584 0 
+461 0 
+206 0 
+590 0 
+850 0 
+89 1 64 
+473 0 
+349 0 
+484 0 
+869 0 
+491 0 
+238 0 
+751 1 -2 
+112 1 64 
+368 0 
+242 3 -1 64 57 
+373 0 
+503 0 
+889 0 
+126 1 120 
+510 0 
+Constructors: 1
+899 895
+
+Summary: 28
+486 402 687 298 149 494 780 203 532 120 584 293 497 -1 200 491 304 357 805 376 587 -2 333 286 0 825 755 799 
+org/eclipse/jdt/core/dom/ASTParser.setBindingsRecovery(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.<init>(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 30 
+Fields: 0
+Accesses: 9
+16 1 -1 
+33 1 -1 
+66 1 -1 
+21 1 -1 
+6 1 -1 
+38 1 -1 
+26 1 -1 
+11 1 -1 
+43 1 -1 
+Functions: 3
+1 1 -1 
+70 1 -1 
+60 0 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.setSource(Lorg/eclipse/jdt/core/IClassFile;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/core/dom/ASTParser.setSource([C)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.createASTs([Lorg/eclipse/jdt/core/ICompilationUnit;[Ljava/lang/String;Lorg/eclipse/jdt/core/dom/ASTRequestor;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+10
+r1 1 -2 
+r6 1 -3 
+r3 1 -5 
+$r8 1 24 
+$r7 1 69 
+$r4 1 89 
+$r5 1 24 
+r2 1 -4 
+$r9 1 61 
+r0 1 -1 
+Fields: 4
+-1 project 24
+-1 compilerOptions 61
+-1 compilerOptions 89
+-1 workingCopyOwner 69
+Accesses: 10
+16 1 -1 
+64 1 -1 
+3 1 -1 
+68 1 -1 
+84 1 -1 
+23 1 -1 
+40 1 -1 
+56 1 -1 
+88 1 -1 
+60 1 -1 
+Functions: 5
+96 4 -2 -4 -5 89 
+112 5 -1 69 24 89 61 
+36 0 
+105 5 -1 69 24 89 61 
+76 7 -2 -3 -4 -5 69 24 61 
+Constructors: 0
+
+Summary: 5
+-3 -2 -5 -1 -4 
+org/eclipse/jdt/core/dom/ASTParser.setSourceRange(II)V
+PTG:
+Vars:
+1
+r1 1 -1 
+Fields: 0
+Accesses: 2
+19 1 -1 
+24 1 -1 
+Functions: 1
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.createBindings([Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/jdt/core/dom/IBinding;
+PTG:
+Vars:
+10
+$r9 1 -1 
+$r4 1 55 
+r0 1 -1 
+r2 1 -2 
+r7 1 63 
+$r5 1 1 
+r3 1 -3 
+$r1 1 1 
+$r8 1 7 
+$r6 1 47 
+Fields: 3
+-1 project 1
+-1 compilerOptions 47
+-1 workingCopyOwner 55
+Accesses: 7
+0 1 -1 
+50 1 -1 
+19 1 -1 
+54 1 -1 
+42 1 -1 
+30 1 -1 
+46 1 -1 
+Functions: 4
+66 4 -1 1 55 47 
+59 5 -2 1 -3 55 47 
+75 4 -1 1 55 47 
+13 1 7 
+Constructors: 1
+13 7
+
+Summary: 3
+-3 -2 -1 
+org/eclipse/jdt/core/dom/ASTParser.setSource(Lorg/eclipse/jdt/core/ITypeRoot;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 25 
+r1 1 -2 
+$r2 1 16 
+r4 1 34 
+Fields: 1
+-1 project 25
+Accesses: 5
+2 1 -1 
+21 1 -1 
+7 1 -1 
+24 1 -1 
+46 1 -1 
+Functions: 3
+38 1 34 
+25 1 25 
+15 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/core/dom/ASTParser.setWorkingCopyOwner(Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+$r2 1 5 
+r0 1 -2 
+Fields: 0
+Accesses: 2
+16 1 -1 
+8 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.rootNodeToCompilationUnit(Lorg/eclipse/jdt/core/dom/AST;Lorg/eclipse/jdt/core/dom/CompilationUnit;Lorg/eclipse/jdt/core/dom/ASTNode;Lorg/eclipse/jdt/internal/core/util/RecordedParsingInformation;Lorg/eclipse/jdt/internal/compiler/parser/RecoveryScannerData;)V
+PTG:
+Vars:
+24
+r6 1 -2 
+r0 1 -5 
+r21 1 189 
+r10 1 238 
+r11 1 251 
+r23 1 219 
+r20 1 -4 
+$r8 1 103 
+r4 1 -1 
+r17 1 80 
+r14 1 -4 
+r1 1 -4 
+r2 1 -3 
+$r9 1 223 
+$r13 1 267 
+r18 1 -4 
+r19 1 133 
+r22 1 213 
+r15 1 52 
+r5 1 -6 
+$r7 1 91 
+$r3 1 152 
+r16 1 74 
+$r12 1 255 
+Fields: 3
+-5 problems 52
+-5 problems 133
+-5 problems 189
+Accesses: 4
+0 1 -5 
+128 1 -5 
+184 1 -5 
+47 1 -5 
+Functions: 27
+67 2 -3 52 
+260 2 238 255 
+70 1 -2 
+198 4 -1 -4 -6 189 
+7 1 -4 
+266 1 -3 
+76 1 -2 
+204 2 -3 189 
+142 4 -1 -4 133 -6 
+207 2 -2 -4 
+272 2 267 251 
+148 2 -3 133 
+86 2 80 -4 
+151 1 -3 
+215 1 -2 
+89 1 74 
+157 2 -4 152 
+221 1 219 
+96 2 80 91 
+228 2 213 223 
+102 1 -3 
+234 1 -2 
+108 2 103 74 
+244 2 219 238 
+247 1 -2 
+61 4 -1 -4 52 -6 
+253 1 251 
+Constructors: 0
+
+Summary: 26
+80 -3 267 91 133 189 1 3 219 -5 255 152 251 103 223 -2 213 238 0 -4 4 2 52 74 -1 -6 
+org/eclipse/jdt/core/dom/ASTParser.newParser(I)Lorg/eclipse/jdt/core/dom/ASTParser;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 0 
+Constructors: 1
+5 0
+
+Summary: 0
+
+org/eclipse/jdt/core/dom/ASTParser.setProject(Lorg/eclipse/jdt/core/IJavaProject;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 16 
+Fields: 0
+Accesses: 2
+2 1 -1 
+28 1 -1 
+Functions: 2
+20 1 16 
+9 1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.setFocalPosition(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/ASTParser.setSource(Lorg/eclipse/jdt/core/ICompilationUnit;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 

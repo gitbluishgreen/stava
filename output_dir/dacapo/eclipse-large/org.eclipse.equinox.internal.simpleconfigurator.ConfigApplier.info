@@ -1,0 +1,599 @@
+12
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.startBundles([Lorg/osgi/framework/Bundle;)V
+PTG:
+Vars:
+20
+$r9 1 33 
+$r5 1 110 
+$r13 1 52 
+r1 1 8 
+$r16 1 71 
+$r3 1 125 
+r0 1 -2 
+$r17 1 77 
+$r19 1 -1 
+$r14 1 57 
+$r7 1 22 
+r2 1 -1 
+$r6 1 113 
+$r11 1 43 
+$r10 1 38 
+$r4 1 102 
+$r18 1 80 
+$r15 1 66 
+$r8 1 19 
+$r12 1 47 
+Fields: 4
+-2 ArrayObject 8
+-1 manipulatingContext 110
+-1 packageAdminService 125
+-1 callingBundle 102
+Accesses: 3
+101 1 -1 
+124 1 -1 
+109 1 -1 
+Functions: 19
+32 1 8 
+66 1 66 
+38 1 38 
+71 1 71 
+9 1 8 
+43 2 43 47 
+77 1 77 
+46 1 8 
+110 1 110 
+142 1 8 
+83 2 80 19 
+52 1 52 
+22 2 33 22 
+57 1 57 
+89 1 8 
+154 1 -1 
+60 1 8 
+29 1 22 
+125 2 8 125 
+Constructors: 1
+29 22
+
+Summary: 8
+80 -2 33 0 77 113 -1 47 
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.refreshPackages([Lorg/osgi/framework/Bundle;Lorg/osgi/framework/BundleContext;)V
+PTG:
+Vars:
+8
+$r2 1 6 
+r3 1 14 
+$r7 1 6 
+$r11 1 -1 
+r0 1 -2 
+r1 1 -1 
+r6 1 -3 
+$r4 1 17 
+Fields: 1
+-1 packageAdminService 6
+Accesses: 2
+36 1 -1 
+5 1 -1 
+Functions: 5
+81 2 17 -3 
+23 4 -1 17 6 14 
+55 1 14 
+41 2 -2 6 
+31 2 17 -3 
+Constructors: 1
+23 17
+
+Summary: 6
+17 -3 -2 0 -1 1 
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.getResolvedBundles()Ljava/util/Collection;
+PTG:
+Vars:
+7
+$r6 1 39 
+$r0 1 0 
+r2 1 -1 
+_ret 1 0 
+$r3 1 9 
+r4 1 17 
+$r5 1 25 
+Fields: 3
+17 ArrayObject 25
+17 ArrayObject 39
+-1 manipulatingContext 9
+Accesses: 1
+8 1 -1 
+Functions: 4
+4 1 0 
+40 2 0 39 
+9 1 9 
+25 1 25 
+Constructors: 1
+4 0
+
+Summary: 2
+17 -1 
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.<init>(Lorg/osgi/framework/BundleContext;Lorg/osgi/framework/Bundle;)V
+PTG:
+Vars:
+22
+r2 1 -3 
+$r17 1 217 
+$r18 1 217 
+$r3 1 15 
+r0 1 -1 
+$r14 1 185 
+r9 1 117 
+$r5 1 33 
+$r10 1 33 
+$r29 1 63 
+$r11 1 138 
+$r7 1 33 
+$r6 1 38 
+$r12 1 138 
+r15 1 193 
+$r4 1 20 
+$r8 1 109 
+$r16 1 33 
+$r13 1 33 
+r1 1 -2 
+$r30 2 87 77 
+$r31 2 153 163 
+Fields: 1
+-1 manipulatingContext 33
+Accesses: 13
+32 1 -1 
+225 1 -1 
+133 1 -1 
+6 1 -1 
+70 1 -1 
+73 1 -1 
+11 1 -1 
+146 1 -1 
+51 1 -1 
+211 1 -1 
+149 1 -1 
+55 1 -1 
+28 1 -1 
+Functions: 18
+-1 0 
+128 0 
+1 2 -1 33 
+33 1 33 
+161 0 
+134 2 33 117 
+105 0 
+74 2 33 109 
+77 2 87 77 
+206 0 
+15 2 20 15 
+17 1 -2 
+212 2 33 193 
+85 0 
+181 0 
+150 2 33 185 
+153 2 163 153 
+62 1 -2 
+Constructors: 1
+1 -1
+
+Summary: 11
+117 185 1 178 102 193 20 109 0 -1 38 
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.getVersionRange(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+10
+$r3 1 21 
+$r5 1 30 
+$r8 1 38 
+$r1 1 8 
+r7 1 -1 
+$r6 1 35 
+_ret 1 38 
+$r2 1 17 
+$r4 1 26 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 7
+17 2 17 -2 
+35 1 35 
+21 1 21 
+8 1 8 
+26 2 -2 26 
+12 1 8 
+30 1 30 
+Constructors: 1
+12 8
+
+Summary: 4
+-2 0 35 -1 
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.getLastBundleInfo()Ljava/io/File;
+PTG:
+Vars:
+4
+$r2 1 6 
+$r1 1 1 
+r0 1 -1 
+_ret 1 6 
+Fields: 1
+-1 manipulatingContext 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.getLastState()[Lorg/eclipse/equinox/internal/simpleconfigurator/utils/BundleInfo;
+PTG:
+Vars:
+8
+$r2 1 15 
+r0 1 -1 
+$r8 1 -1 
+$r3 1 19 
+$r6 1 29 
+$r4 1 22 
+r1 1 4 
+$r5 1 26 
+Fields: 1
+-1 baseLocation 19
+Accesses: 1
+18 1 -1 
+Functions: 5
+0 2 -1 19 
+19 2 19 15 
+5 1 4 
+22 2 22 26 
+14 1 4 
+Constructors: 0
+
+Summary: 5
+15 26 4 22 -1 
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.saveStateAsLast(Ljava/net/URL;)V
+PTG:
+Vars:
+8
+$r4 1 -1 
+r3 1 -2 
+r8 1 10 
+r1 1 8 
+r7 1 24 
+r0 1 -1 
+$r2 1 10 
+$r5 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 8
+16 2 8 10 
+48 1 24 
+67 1 24 
+4 1 -1 
+20 1 -2 
+40 1 10 
+27 2 24 10 
+59 1 10 
+Constructors: 1
+16 10
+
+Summary: 5
+-2 0 -1 8 10 
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.install(Ljava/net/URL;Z)V
+PTG:
+Vars:
+42
+$r14 1 327 
+$r22 1 238 
+$r40 1 298 
+r17 1 349 
+r35 1 189 
+r3 1 8 
+$r8 1 26 
+$r41 1 298 
+$r26 1 74 
+$r12 1 257 
+r31 1 78 
+$r42 1 26 
+$r36 1 191 
+r4 1 23 
+$r39 1 295 
+$r45 1 384 
+r34 1 148 
+r32 1 104 
+$r13 1 26 
+$r6 1 30 
+$r30 1 -1 
+$r21 1 235 
+$r18 1 26 
+$r25 1 173 
+$r38 1 200 
+$r43 1 381 
+r10 1 57 
+r33 1 155 
+r7 1 40 
+$r23 1 155 
+$r16 1 26 
+$r9 1 47 
+$r44 1 384 
+r0 1 -2 
+$r5 1 26 
+$r20 1 220 
+$r2 1 2 
+$r24 1 161 
+$r19 1 276 
+r1 1 -1 
+$r28 1 98 
+$r27 1 97 
+Fields: 5
+23 ArrayObject 74
+23 ArrayObject 97
+-1 manipulatingContext 26
+-1 packageAdminService 235
+-1 baseLocation 2
+Accesses: 8
+1 1 -1 
+306 1 -1 
+323 1 -1 
+342 1 -1 
+360 1 -1 
+25 1 -1 
+42 1 -1 
+234 1 -1 
+Functions: 41
+2 2 -2 2 
+195 1 191 
+260 2 257 191 
+324 1 26 
+392 5 -1 384 2 26 235 
+9 1 8 
+74 1 74 
+204 1 200 
+334 1 327 
+80 2 40 78 
+144 4 -1 2 26 235 
+273 5 -1 2 26 235 155 
+19 1 8 
+215 8 -1 97 2 23 200 26 74 235 
+279 2 276 191 
+343 2 26 189 
+26 1 26 
+30 1 30 
+286 2 295 191 
+159 1 148 
+223 2 220 191 
+288 1 191 
+97 1 97 
+98 1 98 
+164 2 161 155 
+231 7 -1 97 2 23 26 74 235 
+106 2 104 57 
+43 1 26 
+171 3 97 23 74 
+364 5 -1 2 26 235 349 
+47 1 47 
+176 2 155 173 
+241 2 238 191 
+372 2 200 381 
+182 5 -1 -2 2 26 235 
+310 5 -1 2 26 298 235 
+374 1 200 
+185 4 -1 2 26 235 
+313 1 191 
+122 0 
+252 8 -1 97 2 23 200 26 74 235 
+Constructors: 3
+195 191
+164 155
+204 200
+
+Summary: 27
+257 23 220 173 295 189 8 191 381 40 349 148 161 -2 98 155 104 238 30 57 384 276 200 78 298 -1 47 
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.installBundles([Lorg/eclipse/equinox/internal/simpleconfigurator/utils/BundleInfo;Ljava/util/Collection;)Ljava/util/ArrayList;
+PTG:
+Vars:
+40
+$r29 1 403 
+$r10 1 72 
+$r32 1 420 
+$r22 1 231 
+$r19 2 203 9 
+$r3 1 9 
+$r34 1 -1 
+$r15 1 363 
+$r24 2 155 9 
+$r30 1 416 
+$r25 2 95 346 
+$r13 1 315 
+$r7 1 53 
+$r16 1 368 
+$r21 1 218 
+$r33 1 -1 
+$r38 1 146 
+r4 1 20 
+$r40 1 296 
+r36 1 111 
+$r23 2 267 9 
+$r0 1 0 
+$r20 1 206 
+r12 1 122 
+$r8 1 63 
+$r17 1 383 
+r9 1 67 
+r6 1 -2 
+$r37 1 116 
+$r5 1 36 
+$r35 1 -1 
+$r27 1 -1 
+$r14 2 95 346 
+$r26 1 103 
+r39 3 146 165 277 
+r11 1 76 
+_ret 1 0 
+$r31 1 417 
+r2 1 -1 
+r18 1 -3 
+Fields: 12
+111 ArrayObject 146
+-2 ArrayObject 296
+-2 ArrayObject 72
+-2 ArrayObject 63
+-2 ArrayObject 53
+-2 ArrayObject 116
+-2 ArrayObject 416
+-2 ArrayObject 315
+-1 manipulatingContext 9
+-1 packageAdminService 95
+-1 packageAdminService 346
+-1 startLevelService 383
+Accesses: 9
+181 1 -1 
+8 1 -1 
+345 1 -1 
+154 1 -1 
+202 1 -1 
+266 1 -1 
+27 1 -1 
+94 1 -1 
+382 1 -1 
+Functions: 33
+4 1 0 
+390 4 146 165 277 383 
+72 1 72 
+9 1 9 
+330 3 146 165 277 
+203 2 9 203 
+267 3 9 122 267 
+403 2 416 403 
+214 2 122 218 
+216 1 146 
+282 4 0 146 165 277 
+346 5 146 165 277 346 95 
+410 1 403 
+155 3 9 122 155 
+95 4 67 103 346 95 
+417 1 417 
+34 1 20 
+36 1 36 
+100 6 -1 9 346 76 95 383 
+229 1 146 
+231 1 231 
+296 1 296 
+425 2 -1 420 
+170 4 0 146 165 277 
+363 2 368 363 
+366 3 146 165 277 
+306 4 -3 146 165 277 
+117 1 116 
+247 1 146 
+315 1 315 
+188 1 146 
+63 1 63 
+255 2 0 146 
+Constructors: 2
+4 0
+410 403
+
+Summary: 19
+231 111 1 122 76 165 277 417 36 103 206 20 67 -2 218 0 368 420 -1 
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.uninstallBundles(Ljava/util/HashSet;)Ljava/util/Collection;
+PTG:
+Vars:
+15
+$r10 1 46 
+r3 1 16 
+$r14 1 -1 
+r6 1 -1 
+$r13 1 78 
+r11 1 54 
+$r4 1 21 
+r5 1 21 
+$r12 1 67 
+$r9 1 43 
+r1 1 -2 
+$r8 1 37 
+$r0 1 0 
+_ret 1 0 
+$r7 1 32 
+Fields: 3
+54 ArrayObject 78
+54 ArrayObject 67
+-1 packageAdminService 32
+Accesses: 1
+31 1 -1 
+Functions: 11
+32 3 32 37 46 
+35 1 21 
+4 1 -2 
+20 1 16 
+68 2 0 67 
+8 1 0 
+40 3 -1 32 43 
+104 1 16 
+41 1 21 
+12 1 -2 
+79 1 78 
+Constructors: 1
+8 0
+
+Summary: 8
+46 -2 54 43 0 21 37 -1 
+org/eclipse/equinox/internal/simpleconfigurator/ConfigApplier.uninstallBundles([Lorg/eclipse/equinox/internal/simpleconfigurator/utils/BundleInfo;Lorg/osgi/service/packageadmin/PackageAdmin;)Ljava/util/Collection;
+PTG:
+Vars:
+22
+$r1 1 1 
+$r15 1 120 
+$r17 1 179 
+r2 1 9 
+$r10 1 86 
+$r14 1 98 
+$r18 1 -1 
+$r5 1 30 
+$r6 1 49 
+r9 1 -3 
+$r13 1 95 
+r19 1 106 
+$r16 1 167 
+$r11 1 87 
+r21 1 167 
+$r3 1 10 
+$r8 1 75 
+r0 1 -1 
+r7 1 -2 
+$r12 1 94 
+_ret 1 10 
+r20 1 160 
+Fields: 7
+106 ArrayObject 120
+-2 ArrayObject 86
+-2 ArrayObject 75
+-2 ArrayObject 94
+9 ArrayObject 30
+9 ArrayObject 49
+-1 manipulatingContext 1
+Accesses: 1
+0 1 -1 
+Functions: 17
+1 1 1 
+195 1 160 
+165 1 160 
+205 1 167 
+16 1 10 
+177 1 167 
+50 2 49 10 
+82 3 -3 98 87 
+179 1 179 
+86 1 86 
+121 2 120 10 
+153 1 10 
+217 1 -1 
+90 3 -1 1 95 
+220 1 160 
+30 1 30 
+94 1 94 
+Constructors: 1
+16 10
+
+Summary: 11
+106 179 -3 -2 98 95 0 1 9 87 -1 

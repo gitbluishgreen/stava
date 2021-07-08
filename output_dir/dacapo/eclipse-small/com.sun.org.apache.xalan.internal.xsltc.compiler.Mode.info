@@ -1,0 +1,1738 @@
+29
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.addTemplate(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Template;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 _templates 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.processPatterns(Ljava/util/Map;)V
+PTG:
+Vars:
+11
+$r3 1 8 
+$r4 1 21 
+$r7 1 45 
+r1 1 -2 
+r6 1 34 
+r0 1 -1 
+r9 1 84 
+$r10 1 69 
+r8 1 45 
+$r5 1 8 
+$r2 1 8 
+Fields: 2
+-1 _templates 8
+-1 _namedTemplates 69
+Accesses: 6
+2 1 -1 
+68 1 -1 
+7 1 -1 
+24 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 11
+80 1 45 
+96 6 -1 -2 84 69 8 45 
+35 1 34 
+6 3 -1 69 8 
+54 1 45 
+103 3 -1 69 8 
+74 4 -1 69 8 45 
+28 1 8 
+44 1 34 
+13 1 8 
+61 1 45 
+Constructors: 0
+
+Summary: 5
+34 45 0 -1 84 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.partition(Ljava/util/Vector;II)I
+PTG:
+Vars:
+10
+$r4 1 51 
+$r5 1 82 
+$r1 1 2 
+$r10 1 28 
+r0 1 -2 
+r2 1 2 
+$r6 1 85 
+r8 1 -1 
+$r9 1 28 
+$r3 1 51 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+20 2 2 28 
+22 1 -2 
+88 2 -2 85 
+43 2 2 51 
+76 2 -2 82 
+45 1 -2 
+79 1 -2 
+Constructors: 0
+
+Summary: 8
+-2 51 2 28 82 85 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.prepareTestSequences()V
+PTG:
+Vars:
+47
+$r16 1 382 
+$r33 1 235 
+$r35 1 255 
+$r22 1 331 
+$r25 1 364 
+$r13 1 198 
+$r31 1 313 
+$r21 1 348 
+$r43 1 55 
+r4 1 13 
+$r17 2 266 324 
+$r15 1 17 
+$r30 2 266 324 
+$r10 1 62 
+$r37 1 1 
+r0 1 -1 
+$r6 1 17 
+r46 1 228 
+$r24 2 266 324 
+$r20 1 331 
+$r3 1 1 
+$r36 1 266 
+r45 1 131 
+$r9 1 55 
+$r26 1 17 
+$r27 1 296 
+$r11 1 65 
+$r39 1 131 
+$r23 1 364 
+$r38 1 118 
+$r8 1 17 
+r2 1 6 
+r12 1 71 
+$r29 1 313 
+$r14 1 1 
+$r5 1 17 
+$r42 1 17 
+$r40 1 17 
+$r28 1 17 
+$r32 1 1 
+$r41 1 55 
+$r48 1 382 
+$r47 1 331 
+$r18 1 396 
+$r7 1 17 
+$r44 1 1 
+$r1 1 1 
+Fields: 15
+-1 _patternGroups 1
+-1 _attribNodeGroup 55
+-1 _neededTemplates 324
+-1 _neededTemplates 266
+-1 _idxTestSeq 364
+-1 _idxGroup 331
+-1 _rootPattern 382
+-1 _testSeq 255
+-1 _stylesheet 62
+-1 _childNodeGroup 17
+-1 _childNodeTestSeq 313
+1 ArrayObject 6
+1 ArrayObject 13
+1 ArrayObject 118
+1 ArrayObject 228
+Accesses: 36
+0 1 -1 
+323 1 -1 
+388 1 -1 
+7 1 -1 
+392 1 -1 
+201 1 -1 
+265 1 -1 
+330 1 -1 
+204 1 -1 
+16 1 -1 
+80 1 -1 
+337 1 -1 
+278 1 -1 
+87 1 -1 
+25 1 -1 
+157 1 -1 
+221 1 -1 
+285 1 -1 
+94 1 -1 
+352 1 -1 
+35 1 -1 
+360 1 -1 
+363 1 -1 
+300 1 -1 
+45 1 -1 
+112 1 -1 
+177 1 -1 
+370 1 -1 
+309 1 -1 
+54 1 -1 
+374 1 -1 
+312 1 -1 
+61 1 -1 
+381 1 -1 
+254 1 -1 
+319 1 -1 
+Functions: 27
+65 1 65 
+193 1 71 
+327 3 324 313 266 
+393 1 382 
+139 1 131 
+269 2 266 235 
+400 17 -1 1 324 228 6 266 331 396 364 13 17 118 55 313 382 62 255 
+338 1 331 
+20 16 -1 1 324 228 6 266 331 364 13 17 118 55 313 382 62 255 
+151 16 -1 1 324 228 6 266 331 364 13 17 118 55 313 382 62 255 
+29 16 -1 1 324 228 6 266 331 364 13 17 118 55 313 382 62 255 
+286 1 17 
+161 16 -1 1 324 228 6 266 331 364 13 17 118 55 313 382 62 255 
+357 17 -1 1 324 228 6 266 331 364 13 17 118 55 313 348 382 62 255 
+39 16 -1 1 324 228 6 266 331 364 13 17 118 55 313 382 62 255 
+171 16 -1 1 324 228 6 266 331 364 13 17 118 55 313 382 62 255 
+367 1 364 
+49 16 -1 1 324 228 6 266 331 364 13 17 118 55 313 382 62 255 
+306 17 -1 1 324 228 6 296 266 331 364 13 17 118 55 313 382 62 255 
+244 17 -1 1 228 324 6 266 235 331 364 13 17 118 55 313 382 62 255 
+181 16 -1 1 324 228 6 266 331 364 13 17 118 55 313 382 62 255 
+58 16 -1 1 324 228 6 266 331 364 13 17 118 55 313 382 62 255 
+378 3 324 266 364 
+251 1 235 
+316 1 313 
+125 1 71 
+62 1 62 
+Constructors: 3
+306 296
+244 235
+357 348
+
+Summary: 5
+71 -1 65 396 131 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.isAttributeName(Ljava/lang/String;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+9 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.quicksort(Ljava/util/Vector;II)Ljava/util/Vector;
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -1 
+_ret 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+19 2 -1 -2 
+5 2 -1 -2 
+30 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.compileDefaultText(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;Lcom/sun/org/apache/bcel/internal/generic/InstructionHandle;)Lcom/sun/org/apache/bcel/internal/generic/InstructionList;
+PTG:
+Vars:
+12
+r15 1 -4 
+$r7 1 40 
+$r10 1 58 
+r4 1 -3 
+$r5 1 31 
+r0 1 -2 
+r1 1 4 
+$r12 1 67 
+r8 1 -1 
+$r2 1 6 
+$r14 1 83 
+_ret 1 6 
+Fields: 0
+Accesses: 1
+44 1 -1 
+Functions: 13
+0 1 -2 
+34 2 6 31 
+10 1 6 
+74 1 67 
+77 2 67 6 
+15 1 4 
+48 1 40 
+51 2 6 40 
+88 2 83 -4 
+57 1 -3 
+91 2 83 6 
+61 2 6 58 
+30 1 -3 
+Constructors: 4
+48 40
+88 83
+10 6
+74 67
+
+Summary: 12
+1 40 4 -1 -3 -2 67 -4 31 58 0 83 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.appendTestSequences(Lcom/sun/org/apache/bcel/internal/generic/InstructionList;)V
+PTG:
+Vars:
+6
+r5 1 -2 
+r3 1 19 
+r4 1 31 
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 2
+-1 _testSeq 1
+1 ArrayObject 19
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 2
+41 2 -2 31 
+26 1 19 
+Constructors: 0
+
+Summary: 4
+-2 31 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.getStylesheet()Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Stylesheet;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 _stylesheet 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.compileTemplates(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;Lcom/sun/org/apache/bcel/internal/generic/InstructionHandle;)V
+PTG:
+Vars:
+20
+$r12 1 126 
+r9 1 109 
+$r14 2 160 140 
+$r5 2 160 140 
+r23 1 84 
+$r1 1 1 
+r21 1 61 
+$r3 1 84 
+r20 1 32 
+r0 1 -1 
+r8 1 -3 
+r4 1 -4 
+$r2 1 53 
+r18 1 9 
+r22 1 70 
+$r15 1 147 
+r19 1 18 
+r7 1 -2 
+$r10 1 113 
+$r17 1 32 
+Fields: 5
+-1 _templateIHs 160
+-1 _templateIHs 140
+-1 _neededTemplates 53
+-1 _templateILs 126
+-1 _namedTemplates 1
+Accesses: 5
+0 1 -1 
+52 1 -1 
+139 1 -1 
+125 1 -1 
+159 1 -1 
+Functions: 17
+1 1 1 
+133 3 84 109 126 
+102 3 -2 -3 84 
+166 4 160 -4 84 140 
+72 1 70 
+11 1 9 
+46 8 -1 160 32 1 -2 53 140 126 
+145 1 109 
+82 1 70 
+20 1 18 
+53 1 53 
+118 2 113 -4 
+150 4 160 147 84 140 
+121 2 113 109 
+30 1 18 
+94 1 84 
+63 1 61 
+Constructors: 1
+118 113
+
+Summary: 13
+61 113 1 -1 -3 84 -2 32 147 9 -4 0 109 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.getClassName()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+_ret 1 4 
+Fields: 1
+-1 _stylesheet 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.<init>(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/QName;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Stylesheet;Ljava/lang/String;)V
+PTG:
+Vars:
+14
+r9 1 -4 
+$r4 1 68 
+$r12 1 127 
+$r3 1 57 
+$r10 1 117 
+r5 1 -2 
+$r1 1 35 
+$r2 1 46 
+$r7 1 104 
+$r11 1 120 
+r0 1 -1 
+r6 1 -3 
+$r8 1 113 
+$r13 1 140 
+Fields: 0
+Accesses: 18
+64 1 -1 
+100 1 -1 
+6 1 -1 
+134 1 -1 
+42 1 -1 
+11 1 -1 
+75 1 -1 
+143 1 -1 
+16 1 -1 
+80 1 -1 
+21 1 -1 
+53 1 -1 
+85 1 -1 
+26 1 -1 
+90 1 -1 
+123 1 -1 
+31 1 -1 
+95 1 -1 
+Functions: 10
+1 1 -1 
+113 2 113 -4 
+50 1 46 
+131 1 127 
+117 1 117 
+39 1 35 
+72 1 68 
+104 1 104 
+108 1 104 
+61 1 57 
+Constructors: 7
+1 -1
+50 46
+131 127
+39 35
+72 68
+108 104
+61 57
+
+Summary: 6
+1 2 -1 117 -4 0 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.addPattern(ILcom/sun/org/apache/xalan/internal/xsltc/compiler/LocationPathPattern;)V
+PTG:
+Vars:
+17
+$r16 2 128 146 
+$r9 1 83 
+$r1 1 1 
+$r13 2 51 58 
+$r10 1 51 
+r14 6 51 128 83 146 90 58 
+$r3 1 119 
+r7 1 186 
+$r11 1 1 
+$r15 2 83 90 
+$r6 1 186 
+r12 1 14 
+r0 1 -1 
+$r2 1 1 
+$r4 1 1 
+$r8 1 1 
+r5 1 -3 
+Fields: 5
+-1 _patternGroups 1
+-1 _attribNodeGroup 51
+-1 _childNodeGroup 83
+1 ArrayObject 119
+1 ArrayObject 146
+Accesses: 12
+0 1 -1 
+34 1 -1 
+50 1 -1 
+82 1 -1 
+114 1 -1 
+19 1 -1 
+67 1 -1 
+99 1 -1 
+73 1 -1 
+105 1 -1 
+123 1 -1 
+141 1 -1 
+Functions: 12
+160 7 128 146 -3 51 83 90 58 
+194 2 -3 186 
+211 7 128 146 -3 51 83 90 58 
+133 2 128 146 
+149 6 128 146 51 83 90 58 
+182 6 128 146 51 83 90 58 
+231 7 128 146 -3 51 83 90 58 
+42 1 -3 
+28 4 1 146 119 14 
+174 6 128 146 51 83 90 58 
+63 2 51 58 
+95 2 83 90 
+Constructors: 0
+
+Summary: 2
+186 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.getTemplateInstructionHandle(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Template;)Lcom/sun/org/apache/bcel/internal/generic/InstructionHandle;
+PTG:
+Vars:
+6
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+$r3 1 5 
+$r4 1 5 
+_ret 1 5 
+Fields: 1
+-1 _templateIHs 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.compileDefaultRecursion(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;Lcom/sun/org/apache/bcel/internal/generic/InstructionHandle;)Lcom/sun/org/apache/bcel/internal/generic/InstructionList;
+PTG:
+Vars:
+18
+r10 1 -3 
+$r17 1 100 
+$r8 1 54 
+r5 1 -1 
+$r7 1 41 
+$r13 1 74 
+$r23 1 141 
+$r6 1 37 
+$r2 1 6 
+r4 1 19 
+$r11 1 64 
+$r19 1 117 
+r0 1 -2 
+$r15 1 83 
+r24 1 -4 
+$r21 1 126 
+r1 1 4 
+_ret 1 6 
+Fields: 0
+Accesses: 1
+87 1 -1 
+Functions: 23
+0 1 -2 
+34 4 19 4 37 41 
+67 2 64 6 
+36 1 -1 
+132 1 126 
+135 2 6 126 
+40 1 -1 
+73 1 -3 
+10 1 6 
+107 1 100 
+77 2 6 74 
+110 2 100 6 
+15 1 -2 
+146 2 -4 141 
+116 1 -3 
+21 1 4 
+53 1 -2 
+149 2 6 141 
+120 2 117 6 
+57 2 6 54 
+91 1 83 
+94 2 83 6 
+63 1 -3 
+Constructors: 5
+146 141
+132 126
+10 6
+91 83
+107 100
+
+Summary: 18
+74 64 100 1 54 126 4 -1 19 41 -3 -2 117 -4 0 83 37 141 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.compileTemplateCalls(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;Lcom/sun/org/apache/bcel/internal/generic/InstructionHandle;II)V
+PTG:
+Vars:
+15
+$r1 1 1 
+r0 1 -1 
+$r4 1 28 
+$r7 2 125 105 
+$r12 1 78 
+r5 1 28 
+$r17 1 112 
+$r2 1 4 
+r9 1 -2 
+r10 1 -3 
+r3 1 14 
+$r14 1 91 
+$r16 2 125 105 
+r6 1 -4 
+r11 1 74 
+Fields: 4
+-1 _templateIHs 105
+-1 _templateIHs 125
+-1 _neededTemplates 1
+-1 _templateILs 91
+Accesses: 4
+0 1 -1 
+104 1 -1 
+90 1 -1 
+124 1 -1 
+Functions: 13
+1 1 1 
+98 3 74 91 28 
+67 3 -2 -3 28 
+131 4 -4 105 28 125 
+4 1 4 
+38 1 28 
+110 1 74 
+16 1 14 
+83 2 -4 78 
+115 4 112 105 28 125 
+86 2 74 78 
+26 1 14 
+59 1 28 
+Constructors: 1
+83 78
+
+Summary: 10
+74 1 4 112 -1 -3 -2 -4 0 78 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.compileNamespaces(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;[Z[ZZLcom/sun/org/apache/bcel/internal/generic/InstructionHandle;)Lcom/sun/org/apache/bcel/internal/generic/InstructionList;
+PTG:
+Vars:
+14
+r3 1 13 
+r22 1 -5 
+r2 1 7 
+r5 1 27 
+r14 1 -1 
+r19 1 -7 
+r21 1 -4 
+r0 1 -2 
+r9 1 63 
+r8 1 56 
+$r1 1 1 
+r10 1 -3 
+$r6 1 45 
+r4 1 20 
+Fields: 0
+Accesses: 4
+178 1 -1 
+260 1 -1 
+200 1 -1 
+186 1 -1 
+Functions: 22
+0 1 -2 
+1 1 1 
+38 1 27 
+167 1 7 
+231 1 13 
+264 0 
+9 1 -2 
+137 1 27 
+267 1 45 
+299 3 -7 56 63 
+206 3 -2 -3 -7 
+302 1 45 
+15 1 7 
+49 1 45 
+22 1 7 
+246 1 -3 
+152 0 
+280 0 
+250 1 45 
+155 0 
+283 1 45 
+29 1 20 
+Constructors: 1
+49 45
+
+Summary: 22
+63 7 20 1 2 27 13 -1 165 273 -4 211 0 56 256 -5 -3 289 -2 247 3 1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.functionName(II)Ljava/lang/String;
+PTG:
+Vars:
+13
+$r6 1 36 
+$r1 1 1 
+$r3 1 23 
+$r12 1 8 
+$r8 1 47 
+r0 1 -1 
+$r9 1 52 
+$r7 1 44 
+$r10 1 56 
+$r2 1 1 
+$r4 1 27 
+$r11 1 59 
+_ret 1 59 
+Fields: 2
+-1 _importLevels 1
+-1 _methodName 44
+Accesses: 4
+0 1 -1 
+18 1 -1 
+43 1 -1 
+15 1 -1 
+Functions: 9
+36 2 36 44 
+52 1 52 
+22 0 
+40 1 36 
+56 1 56 
+26 0 
+12 1 8 
+30 3 1 23 27 
+47 1 47 
+Constructors: 2
+40 36
+12 8
+
+Summary: 7
+52 47 56 36 27 -1 23 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.compileApplyImports(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;II)V
+PTG:
+Vars:
+116
+$r87 1 563 
+r5 1 -1 
+r3 1 13 
+r119 1 637 
+$r99 1 1025 
+$r66 1 640 
+$r68 1 1207 
+$r36 1 348 
+r58 1 897 
+$r61 1 563 
+$r21 1 241 
+$r10 1 69 
+$r32 1 306 
+$r28 1 277 
+$r64 1 563 
+r33 1 313 
+r50 1 452 
+$r63 1 640 
+$r15 1 173 
+r0 1 -2 
+r128 3 406 618 892 
+r116 1 568 
+$r120 1 640 
+r13 1 102 
+r111 1 163 
+$r12 1 87 
+$r79 1 1537 
+$r52 1 563 
+$r69 1 1411 
+$r59 1 1025 
+$r91 1 1162 
+$r67 1 563 
+$r17 1 191 
+$r29 1 281 
+$r106 1 640 
+$r53 1 563 
+$r88 1 1217 
+$r38 1 365 
+$r65 1 1148 
+$r102 1 563 
+$r26 1 270 
+$r19 1 232 
+r112 1 203 
+$r132 3 442 818 1099 
+$r40 1 376 
+$r130 2 424 1039 
+$r123 1 640 
+$r14 1 156 
+r48 1 424 
+$r73 1 1437 
+$r18 1 198 
+r113 2 442 818 
+$r86 1 1353 
+r129 1 921 
+$r25 1 265 
+r51 1 490 
+$r23 1 247 
+$r27 1 274 
+$r97 1 1064 
+r114 1 483 
+$r24 1 262 
+$r30 1 287 
+$r22 1 254 
+r133 4 736 406 424 589 
+$r6 1 23 
+r46 1 406 
+$r94 1 1093 
+$r93 1 563 
+$r44 1 394 
+r49 1 435 
+$r109 1 116 
+$r125 1 640 
+$r1 1 1 
+$r90 1 563 
+$r34 1 326 
+r122 1 744 
+r54 1 597 
+r126 4 736 424 860 589 
+r115 1 511 
+r4 1 20 
+r11 1 84 
+$r107 1 624 
+$r103 1 1001 
+$r92 1 1168 
+r57 1 848 
+$r42 1 383 
+$r62 1 1084 
+r136 1 1291 
+$r85 1 1371 
+$r105 1 640 
+$r75 1 1453 
+r127 1 876 
+$r7 1 34 
+$r108 1 511 
+$r60 1 1025 
+$r8 1 45 
+$r104 1 983 
+r110 1 116 
+$r121 1 563 
+$r71 1 1420 
+$r135 5 736 1223 406 424 589 
+$r9 1 56 
+r118 2 406 618 
+$r56 1 640 
+$r131 2 424 1067 
+r134 4 736 406 424 589 
+r117 3 736 424 589 
+$r55 1 624 
+$r100 1 1036 
+r2 1 7 
+$r84 1 563 
+$r16 1 182 
+$r96 1 1025 
+r47 1 417 
+$r37 1 359 
+$r124 1 563 
+Fields: 21
+203 ArrayObject 219
+203 ArrayObject 213
+203 ArrayObject 225
+203 ArrayObject 231
+-1 _idxTestSeq 624
+-1 _testSeq 563
+-1 _rootPattern 1025
+-1 _templates 84
+-1 _keys 156
+-1 _childNodeTestSeq 640
+563 ArrayObject 1217
+563 ArrayObject 744
+563 ArrayObject 921
+563 ArrayObject 568
+563 ArrayObject 597
+563 ArrayObject 1162
+563 ArrayObject 1148
+563 ArrayObject 1084
+563 ArrayObject 1093
+563 ArrayObject 1291
+563 ArrayObject 1207
+Accesses: 39
+1024 1 -1 
+1088 1 -1 
+321 1 -1 
+1156 1 -1 
+1284 1 -1 
+646 1 -1 
+72 1 -1 
+1032 1 -1 
+77 1 -1 
+591 1 -1 
+655 1 -1 
+80 1 -1 
+1424 1 -1 
+914 1 -1 
+724 1 -1 
+155 1 -1 
+1052 1 -1 
+30 1 -1 
+94 1 -1 
+1566 1 -1 
+352 1 -1 
+738 1 -1 
+1186 1 -1 
+1060 1 -1 
+806 1 -1 
+41 1 -1 
+1131 1 -1 
+623 1 -1 
+1201 1 -1 
+562 1 -1 
+52 1 -1 
+820 1 -1 
+630 1 -1 
+1142 1 -1 
+1079 1 -1 
+825 1 -1 
+1211 1 -1 
+63 1 -1 
+639 1 -1 
+Functions: 100
+0 1 -2 
+1 1 1 
+258 1 254 
+1540 2 1537 313 
+261 18 -1 640 1025 1217 1093 744 1162 1291 624 563 84 597 1207 568 921 156 1148 1084 
+1031 19 -1 640 1025 1217 1093 744 1162 1291 1036 624 563 84 597 1207 568 921 156 1148 1084 
+9 1 -2 
+265 1 265 
+1033 1 1025 
+1547 2 232 383 
+270 1 270 
+526 1 511 
+15 1 7 
+274 1 274 
+1554 19 -1 640 1025 1217 1093 744 1162 1291 624 241 563 84 597 1207 568 921 156 1148 1084 
+280 18 -1 640 1025 1217 1093 744 1162 1291 624 563 84 597 1207 568 921 156 1148 1084 
+1560 2 -2 241 
+27 1 23 
+539 1 511 
+286 1 -2 
+290 12 241 225 163 213 277 247 231 232 281 203 219 287 
+1059 19 -1 640 1025 1217 1093 744 1064 1162 1291 624 563 84 597 1207 568 921 156 1148 1084 
+1061 1 1025 
+38 1 34 
+807 4 640 -2 241 406 
+299 1 241 
+302 2 241 306 
+559 21 -1 640 1025 1217 -2 1093 744 1162 1291 624 241 563 84 597 406 1207 568 921 156 1148 1084 
+49 1 45 
+60 1 56 
+316 1 313 
+834 25 -1 640 1025 1217 -2 1093 1162 1291 589 84 597 921 156 736 483 744 424 490 624 241 563 1207 568 1148 1084 
+1346 6 -2 241 406 618 1291 892 
+579 4 -2 241 406 568 
+1093 5 -2 241 818 1093 442 
+330 1 241 
+337 1 326 
+340 2 326 232 
+1364 7 736 -2 241 424 1291 860 589 
+855 1 848 
+346 2 232 348 
+91 1 87 
+862 24 -1 640 1025 1217 -2 483 1093 744 1162 490 618 1291 624 241 563 84 597 406 1207 568 921 156 1148 1084 
+608 4 -2 241 597 406 
+97 1 84 
+356 1 348 
+104 1 102 
+362 2 359 313 
+1390 2 365 637 
+369 1 365 
+114 1 102 
+1394 1 13 
+631 1 624 
+887 1 876 
+379 2 376 365 
+126 1 116 
+1409 1 241 
+387 1 383 
+1414 2 1411 365 
+647 1 640 
+1162 7 736 -2 241 406 424 1162 589 
+397 2 394 383 
+656 1 640 
+401 1 383 
+148 19 -1 640 1025 1217 1093 744 1162 1291 624 563 84 116 597 1207 568 921 156 1148 1084 
+1428 1 1420 
+1431 2 1420 365 
+408 21 -1 640 1025 1217 -2 1093 744 1162 1291 624 241 563 84 597 406 1207 568 921 156 1148 1084 
+159 18 -1 640 1025 1217 1093 744 1162 1291 624 563 84 597 1207 568 921 156 1148 1084 
+419 1 417 
+1444 1 1437 
+678 1 568 
+1447 2 365 1437 
+426 21 -1 640 1025 1217 -2 1093 744 1162 1291 624 241 563 84 597 406 1207 568 921 156 1148 1084 
+171 0 
+685 1 568 
+180 0 
+437 1 435 
+1463 4 897 452 406 1453 
+189 0 
+1469 2 365 1453 
+446 1 20 
+1217 7 736 1217 -2 241 406 424 589 
+1474 19 -1 640 1025 1217 1093 744 1162 1291 365 624 563 84 597 1207 568 921 156 1148 1084 
+1480 19 -1 640 1025 1217 1093 744 1162 1291 365 624 563 84 597 1207 568 921 156 1148 1084 
+976 6 -2 241 406 921 618 892 
+1492 2 848 365 
+725 4 640 -2 241 406 
+1505 2 876 365 
+994 7 736 -2 241 424 921 860 589 
+1513 2 417 365 
+236 1 232 
+1521 2 435 365 
+499 1 20 
+760 1 744 
+1529 2 232 365 
+507 1 20 
+254 2 262 254 
+767 1 744 
+1535 1 365 
+Constructors: 15
+258 254
+290 241
+387 383
+356 348
+1444 1437
+38 34
+236 232
+49 45
+337 326
+369 365
+1428 1420
+1463 1453
+27 23
+91 87
+60 56
+
+Summary: 49
+1411 1453 365 163 219 0 1537 277 241 231 876 7 511 13 203 281 897 637 287 1036 1099 1039 1437 1 116 20 262 348 -1 232 483 490 326 359 1223 225 417 274 102 848 1064 452 313 213 -2 383 435 1067 1420 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.appendTemplateCode(Lcom/sun/org/apache/bcel/internal/generic/InstructionList;)V
+PTG:
+Vars:
+10
+$r1 1 1 
+r3 1 14 
+r0 1 -1 
+r8 1 39 
+$r4 1 25 
+r9 1 -2 
+$r7 1 39 
+$r2 1 4 
+r5 1 25 
+$r6 1 35 
+Fields: 2
+-1 _neededTemplates 1
+-1 _templateILs 35
+Accesses: 2
+0 1 -1 
+34 1 -1 
+Functions: 6
+1 1 1 
+35 2 35 25 
+4 1 4 
+24 1 14 
+57 2 -2 39 
+15 1 14 
+Constructors: 0
+
+Summary: 6
+-2 25 39 4 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.compileNamedTemplate(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Template;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;)V
+PTG:
+Vars:
+26
+$r6 1 18 
+$r13 1 183 
+$r19 1 224 
+r7 1 24 
+r8 1 62 
+$r12 1 97 
+$r23 1 160 
+$r9 1 72 
+$r24 1 167 
+$r10 1 81 
+r1 1 4 
+$r22 1 151 
+r4 1 -2 
+$r25 1 170 
+$r15 1 188 
+$r26 1 173 
+$r21 1 143 
+r14 1 -1 
+$r17 1 215 
+$r5 1 15 
+$r16 1 198 
+r28 1 53 
+$r11 1 90 
+r27 1 40 
+r0 1 -3 
+$r2 1 5 
+Fields: 4
+62 ArrayObject 106
+62 ArrayObject 124
+62 ArrayObject 112
+62 ArrayObject 118
+Accesses: 0
+Functions: 23
+0 1 -3 
+160 2 160 167 
+227 2 224 5 
+36 1 -2 
+197 1 -1 
+70 0 
+166 0 
+9 1 5 
+42 1 40 
+170 1 170 
+234 2 -3 183 
+204 12 112 4 53 5 118 198 183 24 106 188 124 62 
+141 0 
+14 1 -2 
+15 1 15 
+79 0 
+18 1 18 
+211 3 -2 -3 183 
+151 1 151 
+88 0 
+218 2 5 215 
+155 1 151 
+29 1 -2 
+Constructors: 3
+9 5
+155 151
+204 183
+
+Summary: 22
+106 5 1 62 4 40 -1 170 24 53 183 118 167 15 215 18 198 -3 124 -2 173 112 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.compileApplyTemplates(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;)V
+PTG:
+Vars:
+121
+$r35 1 215 
+$r1 1 1 
+$r119 1 409 
+r43 1 278 
+r3 1 12 
+$r8 1 48 
+$r111 1 930 
+r53 1 493 
+$r71 1 1348 
+$r117 1 540 
+$r100 1 1097 
+r9 1 53 
+$r55 1 562 
+$r23 1 155 
+$r10 1 76 
+$r41 1 264 
+r129 1 673 
+$r19 1 126 
+r22 1 144 
+r40 1 258 
+$r98 1 459 
+$r6 1 30 
+$r99 1 1091 
+$r104 1 954 
+$r102 1 1022 
+$r114 1 569 
+$r94 1 1282 
+r48 1 333 
+$r67 1 459 
+$r33 1 206 
+$r127 1 569 
+$r80 1 1482 
+$r88 1 1543 
+r123 1 464 
+$r27 1 173 
+$r66 1 569 
+$r132 1 569 
+$r63 1 569 
+$r14 1 91 
+r46 1 315 
+$r12 1 85 
+$r42 1 267 
+$r65 1 1077 
+r140 4 322 485 665 278 
+r124 3 322 485 665 
+$r64 1 459 
+$r128 1 459 
+r122 1 409 
+r2 1 7 
+$r108 1 965 
+r121 1 381 
+r143 1 1220 
+$r110 1 459 
+$r93 1 1300 
+$r107 1 954 
+$r44 1 284 
+$r54 1 520 
+$r101 1 459 
+$r61 1 459 
+$r59 1 954 
+$r37 1 232 
+$r75 1 1381 
+$r86 1 1530 
+r49 1 350 
+$r112 1 912 
+$r113 1 569 
+$r62 1 1013 
+$r52 1 459 
+r13 1 -1 
+$r69 1 1339 
+$r142 5 322 485 665 1152 278 
+$r31 1 197 
+$r131 1 459 
+$r29 1 186 
+$r51 1 459 
+$r17 1 109 
+r57 1 777 
+r4 1 17 
+r5 1 20 
+$r21 1 137 
+$r87 1 1543 
+$r116 1 537 
+$r130 1 569 
+$r39 1 247 
+$r60 1 954 
+$r56 1 569 
+r126 1 553 
+$r105 1 993 
+$r85 1 1530 
+$r45 1 293 
+$r95 1 459 
+$r68 1 1136 
+$r96 1 1146 
+$r25 1 166 
+r50 1 388 
+r84 1 1516 
+r120 2 340 747 
+r145 1 1502 
+$r16 1 103 
+r133 4 322 485 665 789 
+$r138 2 322 996 
+$r15 1 99 
+$r118 1 520 
+$r73 1 1365 
+r58 1 826 
+r38 1 243 
+$r83 1 1516 
+r0 1 -2 
+$r137 2 322 968 
+r136 1 850 
+r134 3 340 821 514 
+$r115 1 520 
+r135 1 809 
+$r81 1 1482 
+$r92 1 459 
+$r7 1 39 
+r47 1 322 
+$r139 3 340 1028 747 
+r141 4 322 485 665 278 
+r125 2 340 514 
+$r82 1 1492 
+Fields: 19
+53 ArrayObject 63
+53 ArrayObject 69
+53 ArrayObject 75
+459 ArrayObject 493
+459 ArrayObject 673
+459 ArrayObject 1091
+459 ArrayObject 1136
+459 ArrayObject 464
+459 ArrayObject 1013
+459 ArrayObject 1022
+459 ArrayObject 1220
+459 ArrayObject 850
+459 ArrayObject 1077
+459 ArrayObject 1146
+-1 _idxTestSeq 520
+-1 _testSeq 459
+-1 _rootPattern 954
+-1 _importLevels 1482
+-1 _childNodeTestSeq 569
+Accesses: 32
+961 1 -1 
+519 1 -1 
+584 1 -1 
+1352 1 -1 
+1481 1 -1 
+458 1 -1 
+843 1 -1 
+653 1 -1 
+528 1 -1 
+1488 1 -1 
+981 1 -1 
+152 1 -1 
+219 1 -1 
+667 1 -1 
+1115 1 -1 
+989 1 -1 
+735 1 -1 
+546 1 -1 
+1060 1 -1 
+487 1 -1 
+1130 1 -1 
+749 1 -1 
+1071 1 -1 
+1008 1 -1 
+754 1 -1 
+1140 1 -1 
+568 1 -1 
+953 1 -1 
+1017 1 -1 
+1085 1 -1 
+1213 1 -1 
+575 1 -1 
+Functions: 107
+0 1 -2 
+1 1 1 
+1541 1 1516 
+262 2 264 173 
+8 1 -2 
+1548 1 1543 
+13 1 7 
+1293 7 -2 322 1220 85 485 789 665 
+270 2 243 267 
+784 1 777 
+273 1 173 
+529 4 -2 85 520 537 
+1554 18 -1 673 -2 1091 1220 520 1482 459 493 1136 464 850 1013 1077 569 954 1146 1022 
+535 1 155 
+282 2 76 284 
+795 23 -1 673 -2 514 1091 1220 388 520 1482 459 493 1136 464 850 340 1013 1077 85 569 954 1146 381 1022 
+28 0 
+543 2 258 540 
+290 2 278 284 
+547 1 520 
+37 0 
+1319 2 553 155 
+296 2 144 293 
+1323 1 12 
+46 0 
+303 2 144 258 
+560 1 155 
+816 1 809 
+306 20 -1 673 -2 1091 1220 520 1482 459 493 1136 464 850 1013 1077 85 278 569 954 1146 1022 
+565 2 258 562 
+1337 1 85 
+317 1 315 
+1342 2 155 1339 
+576 1 569 
+1091 7 -2 322 1091 85 485 278 665 
+324 20 -1 673 -2 1091 1220 520 1482 459 493 1136 464 850 1013 1077 85 278 569 954 1146 1022 
+585 1 569 
+1356 1 1348 
+335 1 333 
+1359 2 1348 155 
+80 1 76 
+344 1 17 
+1372 1 1365 
+607 1 464 
+1375 2 1365 155 
+98 17 -1 673 1091 1220 520 1482 459 493 1136 464 850 1013 1077 569 954 1146 1022 
+102 17 -1 673 1091 1220 520 1482 459 493 1136 464 850 1013 1077 569 954 1146 1022 
+614 1 464 
+108 1 -2 
+1391 4 1381 278 826 350 
+112 11 99 20 85 53 69 103 91 75 76 109 63 
+1397 2 1381 155 
+121 1 85 
+1146 7 -2 322 85 485 278 665 1146 
+1402 18 -1 673 1091 1220 520 1482 459 493 1136 464 850 1013 1077 569 954 1146 155 1022 
+1408 18 -1 673 1091 1220 520 1482 459 493 1136 464 850 1013 1077 569 954 1146 155 1022 
+129 2 76 126 
+133 2 85 137 
+905 6 -2 850 514 340 85 821 
+1420 2 777 155 
+397 1 17 
+654 4 -2 85 278 569 
+147 1 144 
+405 1 17 
+1433 2 809 155 
+923 7 -2 850 322 85 485 789 665 
+159 1 155 
+1441 2 155 315 
+424 1 409 
+169 2 166 155 
+1449 2 155 333 
+177 1 173 
+689 1 673 
+1457 2 155 76 
+437 1 409 
+184 1 85 
+696 1 673 
+1465 2 76 173 
+189 2 186 173 
+960 18 -1 673 1091 1220 965 520 1482 459 493 1136 464 850 1013 1077 569 954 1146 1022 
+1472 18 -1 673 1091 1220 520 1482 459 493 1136 464 850 1013 1077 85 569 954 1146 1022 
+962 1 954 
+195 1 85 
+1478 2 -2 85 
+455 20 -1 673 -2 1091 1220 520 1482 459 493 1136 464 850 1013 1077 85 278 569 954 1146 1022 
+200 2 197 173 
+209 2 173 206 
+1489 1 1482 
+1492 1 1492 
+475 4 464 -2 322 85 
+988 18 -1 673 993 1091 1220 520 1482 459 493 1136 464 850 1013 1077 569 954 1146 1022 
+990 1 954 
+223 1 215 
+736 4 -2 85 278 569 
+1504 1 1502 
+226 2 215 173 
+230 2 232 173 
+1514 1 1502 
+237 1 232 
+245 2 247 173 
+504 5 -2 340 85 747 493 
+1528 1 1516 
+763 24 -1 673 -2 322 1091 1220 388 485 520 1482 459 493 1136 464 850 1013 1077 85 569 665 954 1146 381 1022 
+1275 6 -2 514 1220 340 85 821 
+252 1 247 
+1022 5 -2 340 85 747 1022 
+1535 1 1530 
+Constructors: 11
+80 76
+112 85
+177 173
+290 284
+252 247
+1356 1348
+1372 1365
+237 232
+159 155
+223 215
+1391 1381
+
+Summary: 57
+350 17 409 553 1492 0 109 85 215 968 388 12 996 333 103 1543 20 7 243 381 1381 1348 155 284 293 1152 1 1339 1028 809 -1 75 232 53 267 173 965 186 993 562 63 197 99 315 76 1516 537 826 540 1530 69 -2 1365 258 777 247 144 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.peepHoleOptimization(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+60
+$r28 1 132 
+$r25 1 115 
+$r36 1 187 
+$r44 1 75 
+r68 1 398 
+$r17 1 280 
+$r24 1 331 
+$r47 1 -1 
+$r42 1 64 
+$r18 1 290 
+$r48 1 -1 
+$r34 1 167 
+r33 1 156 
+$r7 1 397 
+$r15 1 264 
+$r19 1 300 
+$r45 1 -1 
+$r46 1 -1 
+$r37 1 228 
+r51 1 24 
+r55 1 101 
+$r12 1 435 
+$r26 1 115 
+r1 1 4 
+$r8 1 398 
+r67 1 371 
+r57 1 132 
+$r39 1 38 
+r0 1 -2 
+r66 1 357 
+$r5 1 371 
+$r2 1 5 
+$r4 1 371 
+$r6 1 387 
+r56 1 115 
+$r29 1 143 
+$r41 1 54 
+r49 1 -1 
+$r21 1 320 
+$r23 1 335 
+$r20 1 310 
+$r9 1 409 
+$r16 1 264 
+r63 1 314 
+$r38 1 224 
+$r30 1 144 
+r52 1 38 
+$r27 1 131 
+r69 1 410 
+$r40 1 38 
+r61 1 250 
+$r11 1 436 
+r62 1 264 
+$r35 1 177 
+$r31 1 155 
+$r14 1 451 
+$r32 1 156 
+$r10 1 410 
+r58 1 144 
+$r43 1 79 
+Fields: 24
+115 ArrayObject 187
+115 ArrayObject 155
+115 ArrayObject 143
+115 ArrayObject 177
+115 ArrayObject 224
+115 ArrayObject 131
+115 ArrayObject 167
+115 ArrayObject 228
+371 ArrayObject 387
+371 ArrayObject 409
+371 ArrayObject 397
+371 ArrayObject 435
+371 ArrayObject 451
+38 ArrayObject 54
+38 ArrayObject 79
+38 ArrayObject 64
+38 ArrayObject 75
+264 ArrayObject 331
+264 ArrayObject 290
+264 ArrayObject 335
+264 ArrayObject 280
+264 ArrayObject 320
+264 ArrayObject 310
+264 ArrayObject 300
+Accesses: 0
+Functions: 42
+0 1 -2 
+64 1 64 
+194 1 132 
+131 1 131 
+323 3 320 4 314 
+387 1 387 
+452 2 451 4 
+262 1 250 
+199 1 144 
+10 2 4 5 
+397 1 397 
+143 1 143 
+207 1 144 
+80 3 4 75 79 
+336 3 4 331 335 
+18 1 5 
+212 1 156 
+280 1 280 
+409 1 409 
+26 1 24 
+155 1 155 
+95 1 5 
+351 1 5 
+290 1 290 
+418 1 398 
+36 1 24 
+229 3 224 4 228 
+103 1 101 
+167 1 167 
+359 1 357 
+423 1 410 
+300 1 300 
+113 1 101 
+177 1 177 
+369 1 357 
+244 1 5 
+54 1 54 
+310 1 310 
+440 1 436 
+187 1 187 
+443 3 435 4 436 
+252 1 250 
+Constructors: 2
+440 436
+10 5
+
+Summary: 40
+79 115 187 331 436 5 387 4 409 -1 314 177 155 371 410 310 0 397 224 167 38 290 398 64 280 143 54 156 228 264 300 451 -2 335 132 320 75 435 144 131 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.addPatternToGroup(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/LocationPathPattern;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+r2 1 -1 
+$r3 1 38 
+$r4 1 38 
+r1 1 20 
+Fields: 1
+-1 _rootPattern 38
+Accesses: 3
+37 1 -1 
+57 1 -1 
+45 1 -1 
+Functions: 5
+16 1 -2 
+10 3 -1 -2 38 
+26 1 20 
+44 2 -2 38 
+31 3 -1 -2 38 
+Constructors: 0
+
+Summary: 3
+20 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.functionName()Ljava/lang/String;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 _methodName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.isNamespaceName(Ljava/lang/String;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+12 1 -2 
+13 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.completeTestSequences(ILjava/util/Vector;)V
+PTG:
+Vars:
+7
+$r6 1 5 
+$r3 1 9 
+$r4 1 42 
+r0 1 -3 
+$r2 1 5 
+$r5 1 42 
+r1 1 -1 
+Fields: 2
+-1 _patternGroups 5
+5 ArrayObject 9
+Accesses: 2
+4 1 -1 
+13 1 -1 
+Functions: 3
+48 4 -1 5 9 42 
+23 1 -3 
+39 1 -3 
+Constructors: 0
+
+Summary: 3
+42 1 -1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.flattenAlternative(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Pattern;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Template;Ljava/util/Map;)V
+PTG:
+Vars:
+12
+$r8 1 27 
+r11 1 -2 
+$r5 1 76 
+r2 1 -1 
+r1 1 -3 
+r4 1 -4 
+$r7 1 20 
+$r3 1 65 
+$r6 1 20 
+r9 1 -2 
+r0 1 -2 
+r10 1 -2 
+Fields: 1
+-1 _idxGroup 20
+Accesses: 3
+34 1 -1 
+19 1 -1 
+37 1 -1 
+Functions: 9
+16 2 -2 -3 
+81 5 -1 -3 -4 20 76 
+70 5 -1 65 -3 -4 20 
+103 2 -2 -3 
+42 2 -2 20 
+74 1 -2 
+109 3 -1 -2 20 
+31 1 27 
+63 1 -2 
+Constructors: 1
+31 27
+
+Summary: 9
+-2 65 1 2 -4 76 0 -1 -3 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Mode.compileGetChildren(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;I)V
+PTG:
+Vars:
+7
+r0 1 -2 
+r1 1 4 
+r3 1 9 
+r2 1 -3 
+$r6 1 35 
+$r4 1 26 
+$r8 1 49 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -2 
+5 1 -3 
+40 1 35 
+56 1 49 
+25 1 -3 
+11 1 4 
+43 2 35 9 
+59 2 49 9 
+29 2 9 26 
+Constructors: 2
+40 35
+56 49
+
+Summary: 9
+-2 1 9 4 0 26 35 -3 49 

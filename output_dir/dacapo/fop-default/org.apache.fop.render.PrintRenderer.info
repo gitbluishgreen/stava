@@ -1,0 +1,245 @@
+10
+org/apache/fop/render/PrintRenderer.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/apache/fop/render/PrintRenderer.getInternalFontNameForArea(Lorg/apache/fop/area/Area;)Ljava/lang/String;
+PTG:
+Vars:
+8
+r4 1 -1 
+$r1 1 1 
+$r6 1 16 
+$r2 1 4 
+r0 1 -2 
+$r5 1 12 
+_ret 1 16 
+r3 1 4 
+Fields: 1
+-1 fontInfo 12
+Accesses: 1
+11 1 -1 
+Functions: 2
+0 2 -2 1 
+12 2 4 12 
+Constructors: 0
+
+Summary: 4
+-2 0 4 -1 
+org/apache/fop/render/PrintRenderer.getFontFromArea(Lorg/apache/fop/area/Area;)Lorg/apache/fop/fonts/Font;
+PTG:
+Vars:
+11
+r0 1 -2 
+$r9 1 31 
+$r2 1 4 
+$r4 1 12 
+$r6 1 15 
+r7 1 -1 
+$r5 1 15 
+r3 1 4 
+$r8 1 26 
+_ret 1 31 
+$r1 1 1 
+Fields: 1
+-1 fontInfo 26
+Accesses: 1
+25 1 -1 
+Functions: 4
+0 2 -2 1 
+18 1 15 
+26 2 4 26 
+11 2 -2 12 
+Constructors: 0
+
+Summary: 5
+-2 15 0 4 -1 
+org/apache/fop/render/PrintRenderer.createRendererContext(IIIILjava/util/Map;)Lorg/apache/fop/render/RendererContext;
+PTG:
+Vars:
+11
+$r0 1 0 
+r10 1 -6 
+$r4 1 17 
+$r5 1 27 
+r1 1 -1 
+$r9 1 89 
+$r6 1 42 
+$r7 1 58 
+$r8 1 73 
+_ret 1 0 
+$r2 1 6 
+Fields: 1
+-1 userAgent 17
+Accesses: 1
+16 1 -1 
+Functions: 14
+32 1 27 
+66 2 0 58 
+35 2 0 27 
+5 2 -1 17 
+9 4 0 -1 17 6 
+106 2 0 -6 
+78 1 73 
+48 1 42 
+81 2 0 73 
+51 2 0 42 
+20 2 0 17 
+88 2 -1 17 
+92 2 0 89 
+63 1 58 
+Constructors: 5
+32 27
+48 42
+9 0
+78 73
+63 58
+
+Summary: 7
+58 -6 4 73 27 42 -1 
+org/apache/fop/render/PrintRenderer.renderDocument(Lorg/w3c/dom/Document;Ljava/lang/String;Ljava/awt/geom/Rectangle2D;Ljava/util/Map;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r4 1 -2 
+r1 1 -4 
+r3 1 52 
+r2 1 -5 
+r5 1 -3 
+Fields: 0
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 6
+16 1 -4 
+4 1 -4 
+38 2 -1 -5 
+24 1 -4 
+59 4 -1 -2 -3 52 
+31 1 -4 
+Constructors: 0
+
+Summary: 9
+2 -2 0 -4 -5 1 3 -3 -1 
+org/apache/fop/render/PrintRenderer.addFontList(Ljava/util/List;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+$r3 1 1 
+Fields: 1
+-1 fontList 1
+Accesses: 2
+0 1 -1 
+15 1 -1 
+Functions: 2
+20 2 1 -2 
+9 3 -1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/render/PrintRenderer.lightenColor(Ljava/awt/Color;F)Ljava/awt/Color;
+PTG:
+Vars:
+5
+r0 1 -2 
+$r1 1 106 
+r3 1 9 
+r2 1 1 
+_ret 1 106 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 2 -2 1 
+122 1 106 
+Constructors: 1
+122 106
+
+Summary: 4
+-2 0 1 9 
+org/apache/fop/render/PrintRenderer.setFontList(Ljava/util/List;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/apache/fop/render/PrintRenderer.getFontResolver()Lorg/apache/fop/fonts/FontResolver;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r1 1 1 
+$r5 1 8 
+$r6 1 8 
+$r4 1 13 
+_ret 1 1 
+$r2 1 1 
+Fields: 2
+-1 fontResolver 1
+-1 userAgent 13
+Accesses: 4
+0 1 -1 
+19 1 -1 
+22 1 -1 
+12 1 -1 
+Functions: 1
+16 2 8 13 
+Constructors: 1
+16 8
+
+Summary: 1
+-1 
+org/apache/fop/render/PrintRenderer.setupFontInfo(Lorg/apache/fop/fonts/FontInfo;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r5 1 14 
+$r4 1 10 
+$r2 1 18 
+$r3 1 6 
+r1 1 -2 
+$r6 1 21 
+Fields: 4
+-1 fontResolver 14
+-1 fontInfo 6
+-1 fontList 10
+-1 userAgent 18
+Accesses: 5
+17 1 -1 
+2 1 -1 
+5 1 -1 
+9 1 -1 
+13 1 -1 
+Functions: 3
+18 1 18 
+21 1 21 
+27 3 6 10 14 
+Constructors: 0
+
+Summary: 2
+0 -1 

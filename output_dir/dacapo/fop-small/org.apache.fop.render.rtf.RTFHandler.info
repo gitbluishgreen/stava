@@ -1,0 +1,2606 @@
+61
+org/apache/fop/render/rtf/RTFHandler.endHeader(Lorg/apache/fop/fo/flow/table/TableBody;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/render/rtf/RTFHandler.startHeader(Lorg/apache/fop/fo/flow/table/TableBody;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/render/rtf/RTFHandler.startStatic()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/render/rtf/RTFHandler.startListItem(Lorg/apache/fop/fo/flow/ListItem;)V
+PTG:
+Vars:
+18
+$r8 1 66 
+$r6 1 55 
+$r1 1 12 
+$r3 1 35 
+$r33 1 9 
+$r5 1 55 
+$r11 1 106 
+$r10 1 9 
+r0 1 -1 
+$r9 1 83 
+$r41 1 118 
+$r2 1 9 
+r4 1 -2 
+r31 2 35 106 
+$r32 2 91 101 
+$r30 2 20 30 
+$r7 1 66 
+$r34 1 118 
+Fields: 1
+-1 builderContext 9
+Accesses: 4
+0 1 -1 
+113 1 -1 
+8 1 -1 
+79 1 -1 
+Functions: 29
+65 1 -2 
+131 0 
+196 0 
+135 0 
+72 3 -1 66 9 
+9 4 -1 20 9 30 
+76 2 -1 9 
+140 0 
+205 0 
+143 0 
+80 4 -1 101 9 91 
+209 0 
+18 0 
+147 0 
+89 0 
+153 0 
+162 0 
+166 0 
+42 2 35 106 
+174 0 
+50 2 -1 9 
+178 0 
+117 2 35 106 
+54 1 -2 
+183 0 
+121 2 118 9 
+186 0 
+61 3 -1 55 9 
+190 0 
+Constructors: 0
+
+Summary: 16
+190 55 187 118 144 206 66 -1 147 106 163 35 -2 0 193 150 
+org/apache/fop/render/rtf/RTFHandler.endBlock(Lorg/apache/fop/fo/flow/Block;)V
+PTG:
+Vars:
+8
+$r1 1 12 
+$r24 2 20 30 
+r4 1 48 
+$r3 1 35 
+r25 1 35 
+r23 1 -2 
+r0 1 -1 
+$r2 1 9 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 21
+64 0 
+129 0 
+99 0 
+68 0 
+9 4 -1 20 9 30 
+73 0 
+42 1 35 
+138 0 
+107 0 
+76 0 
+142 0 
+111 0 
+80 0 
+18 0 
+50 1 48 
+116 0 
+54 1 48 
+86 0 
+119 0 
+123 0 
+95 0 
+Constructors: 0
+
+Summary: 13
+120 48 96 123 -1 80 139 77 35 -2 0 126 83 
+org/apache/fop/render/rtf/RTFHandler.recurseFONode(Lorg/apache/fop/fo/FONode;)V
+PTG:
+Vars:
+51
+$r19 1 180 
+r40 1 40 
+$r32 1 83 
+$r7 1 378 
+$r24 1 244 
+$r29 1 163 
+$r23 1 244 
+r34 1 86 
+$r35 1 33 
+r1 1 -2 
+$r25 1 215 
+$r43 1 109 
+$r3 1 345 
+$r15 1 314 
+r46 1 232 
+$r41 1 19 
+$r16 1 275 
+r44 1 -2 
+$r37 1 40 
+$r8 1 382 
+$r12 1 401 
+r0 1 -1 
+$r30 1 19 
+$r5 1 368 
+$r36 1 37 
+$r31 1 78 
+r38 1 -2 
+$r17 1 283 
+$r2 1 324 
+$r27 1 143 
+$r20 1 192 
+r49 1 334 
+$r28 1 163 
+$r33 1 86 
+$r9 1 388 
+r42 1 70 
+$r26 1 200 
+$r4 1 354 
+$r14 1 306 
+r45 1 151 
+r39 1 27 
+r48 1 -2 
+r50 1 345 
+$r6 1 365 
+$r21 1 207 
+$r18 1 131 
+$r22 1 222 
+$r10 1 392 
+$r11 1 395 
+r47 1 -2 
+$r13 1 404 
+Fields: 1
+-1 pagemaster 19
+Accesses: 2
+18 1 -1 
+61 1 -1 
+Functions: 56
+130 1 -2 
+3 3 -1 -2 19 
+388 2 388 392 
+391 1 345 
+139 3 -1 -2 19 
+395 1 395 
+142 1 -2 
+143 1 143 
+401 1 401 
+274 1 -2 
+19 1 19 
+278 3 -1 19 275 
+407 2 404 365 
+152 1 151 
+282 1 -2 
+286 3 -1 19 283 
+414 3 -1 19 345 
+32 1 -2 
+33 2 33 37 
+162 1 151 
+36 1 27 
+423 3 -1 -2 19 
+171 3 -1 19 163 
+305 1 -2 
+309 3 -1 306 19 
+313 1 -2 
+58 3 -1 19 40 
+186 1 180 
+317 3 -1 19 314 
+62 1 19 
+191 1 -2 
+323 1 -2 
+199 1 -2 
+330 1 -2 
+203 3 -1 19 200 
+77 1 -2 
+78 2 83 78 
+206 1 -2 
+335 1 334 
+81 1 70 
+214 1 -2 
+344 1 334 
+218 3 -1 19 215 
+221 1 -2 
+354 1 354 
+228 1 -2 
+104 3 -1 19 86 
+233 1 232 
+108 1 -2 
+112 3 -1 19 109 
+368 1 368 
+243 1 232 
+372 1 368 
+378 2 345 378 
+252 3 -1 19 244 
+382 1 382 
+Constructors: 1
+372 368
+
+Summary: 32
+37 86 283 70 345 109 192 306 27 200 392 244 143 215 33 334 207 -1 404 163 324 401 -2 314 0 222 40 232 78 83 131 275 
+org/apache/fop/render/rtf/RTFHandler.endBlockContainer(Lorg/apache/fop/fo/flow/BlockContainer;)V
+PTG:
+Vars:
+8
+$r2 1 9 
+r25 1 35 
+r4 1 48 
+r0 1 -1 
+$r1 1 12 
+r23 1 -2 
+$r3 1 35 
+$r24 2 20 30 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 21
+64 0 
+129 0 
+99 0 
+68 0 
+9 4 -1 20 9 30 
+73 0 
+42 1 35 
+138 0 
+107 0 
+76 0 
+142 0 
+111 0 
+80 0 
+18 0 
+50 1 48 
+116 0 
+54 1 48 
+86 0 
+119 0 
+123 0 
+95 0 
+Constructors: 0
+
+Summary: 13
+120 48 96 123 -1 80 139 77 35 -2 0 126 83 
+org/apache/fop/render/rtf/RTFHandler.startFootnoteBody(Lorg/apache/fop/fo/flow/FootnoteBody;)V
+PTG:
+Vars:
+7
+$r2 1 9 
+$r29 2 31 21 
+r28 1 -2 
+r30 1 36 
+$r1 1 12 
+$r3 1 36 
+r0 1 -1 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 25
+64 0 
+130 0 
+67 0 
+71 0 
+136 0 
+9 4 -1 21 9 31 
+77 0 
+145 0 
+18 0 
+149 0 
+86 0 
+90 0 
+154 0 
+158 0 
+95 0 
+99 0 
+164 0 
+105 0 
+44 1 36 
+113 0 
+117 0 
+54 0 
+58 0 
+123 0 
+126 0 
+Constructors: 0
+
+Summary: 14
+133 99 68 130 161 158 71 -1 36 -2 127 74 0 102 
+org/apache/fop/render/rtf/RTFHandler.startRow(Lorg/apache/fop/fo/flow/table/TableRow;)V
+PTG:
+Vars:
+15
+$r3 1 35 
+r6 1 50 
+$r10 1 9 
+r0 1 -1 
+$r7 1 52 
+$r11 1 84 
+$r5 1 44 
+$r9 1 74 
+$r8 1 9 
+$r1 1 12 
+r4 1 -2 
+r23 1 35 
+$r2 1 9 
+$r27 1 74 
+$r22 2 20 30 
+Fields: 1
+-1 builderContext 9
+Accesses: 4
+0 1 -1 
+80 1 -1 
+68 1 -1 
+8 1 -1 
+Functions: 18
+64 1 50 
+128 0 
+97 0 
+132 0 
+101 0 
+72 2 50 35 
+9 3 20 9 30 
+106 0 
+43 1 35 
+44 2 -2 44 
+77 2 9 74 
+109 0 
+81 1 9 
+113 0 
+18 0 
+51 1 -2 
+87 1 84 
+119 0 
+Constructors: 0
+
+Summary: 13
+129 -1 50 116 84 113 35 -2 44 74 110 0 52 
+org/apache/fop/render/rtf/RTFHandler.endPageSequence(Lorg/apache/fop/fo/pagination/PageSequence;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 29 
+r2 1 -2 
+Fields: 1
+-1 builderContext 29
+Accesses: 6
+0 1 -1 
+19 1 -1 
+37 1 -1 
+24 1 -1 
+9 1 -1 
+28 1 -1 
+Functions: 2
+32 1 29 
+14 3 -1 -2 29 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/render/rtf/RTFHandler.endDocument()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 rtfFile 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+16 0 
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/render/rtf/RTFHandler.invokeDeferredEvent(Lorg/apache/fop/fo/FONode;Z)V
+PTG:
+Vars:
+46
+$r22 1 -2 
+$r1 1 761 
+$r23 1 -2 
+r6 1 -1 
+$r31 1 -2 
+$r21 1 -2 
+$r39 1 -2 
+$r17 1 -2 
+$r4 1 775 
+$r14 1 -2 
+r0 1 -2 
+$r42 1 -2 
+$r25 1 -2 
+$r7 1 -2 
+$r19 1 -2 
+$r10 1 -2 
+$r38 1 -2 
+$r27 1 -2 
+$r37 1 -2 
+$r32 1 -2 
+$r35 1 -2 
+$r9 1 -2 
+$r3 1 771 
+$r18 1 -2 
+$r8 1 -2 
+$r43 1 -2 
+$r36 1 -2 
+$r12 1 -2 
+$r24 1 -2 
+$r2 1 758 
+$r5 1 778 
+$r28 1 -2 
+$r29 1 -2 
+$r33 1 -2 
+$r13 1 -2 
+$r15 1 -2 
+$r16 1 -2 
+$r34 1 -2 
+$r40 1 -2 
+r45 1 -2 
+$r11 1 -2 
+$r20 1 -2 
+$r30 1 282 
+$r26 1 -2 
+r44 1 -2 
+$r41 1 -2 
+Fields: 1
+-2 ca 282
+Accesses: 3
+289 1 -2 
+281 1 -2 
+285 1 -2 
+Functions: 50
+129 3 -1 -2 282 
+257 3 -1 -2 282 
+771 3 -2 771 282 
+775 1 775 
+525 1 -1 
+653 3 -1 -2 282 
+781 2 758 778 
+16 3 -1 -2 282 
+532 1 -1 
+405 3 -1 -2 282 
+151 3 -1 -2 282 
+664 3 -1 -2 282 
+27 3 -1 -2 282 
+416 3 -1 -2 282 
+162 3 -1 -2 282 
+293 3 -1 -2 282 
+554 3 -1 -2 282 
+686 3 -1 -2 282 
+49 3 -1 -2 282 
+565 3 -1 -2 282 
+438 3 -1 -2 282 
+184 3 -1 -2 282 
+697 3 -1 -2 282 
+60 3 -1 -2 282 
+317 3 -1 -2 282 
+449 3 -1 -2 282 
+195 3 -1 -2 282 
+587 3 -1 -2 282 
+78 1 -1 
+719 3 -1 -2 282 
+339 3 -1 -2 282 
+467 1 -1 
+85 1 -1 
+598 3 -1 -2 282 
+217 3 -1 -2 282 
+474 1 -1 
+350 3 -1 -2 282 
+224 1 -1 
+741 3 -1 -2 282 
+107 3 -1 -2 282 
+620 3 -1 -2 282 
+496 3 -1 -2 282 
+752 3 -1 -2 282 
+372 3 -1 -2 282 
+246 3 -1 -2 282 
+631 3 -1 -2 282 
+761 1 761 
+507 3 -1 -2 282 
+765 1 761 
+383 3 -1 -2 282 
+Constructors: 1
+765 761
+
+Summary: 6
+775 -2 282 -1 0 778 
+org/apache/fop/render/rtf/RTFHandler.startFooter(Lorg/apache/fop/fo/flow/table/TableBody;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/render/rtf/RTFHandler.foreignObject(Lorg/apache/fop/fo/flow/InstreamForeignObject;)V
+PTG:
+Vars:
+25
+$r24 1 205 
+$r15 1 149 
+$r7 1 41 
+r16 1 155 
+r20 1 179 
+$r23 1 192 
+$r21 1 -1 
+$r27 1 215 
+r0 1 -1 
+r11 1 82 
+$r4 1 24 
+r3 1 22 
+$r26 1 212 
+r18 1 165 
+$r17 1 159 
+$r22 1 195 
+$r12 1 127 
+$r19 1 171 
+r28 1 12 
+r2 1 17 
+r6 1 39 
+$r9 1 61 
+r1 1 -2 
+r14 1 145 
+$r25 1 209 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 31
+195 1 195 
+71 1 61 
+199 1 195 
+8 1 -2 
+136 4 17 22 24 127 
+76 2 12 61 
+13 1 12 
+141 1 -2 
+205 2 209 205 
+208 1 -1 
+18 1 12 
+147 1 145 
+212 1 212 
+149 1 149 
+86 1 82 
+219 3 192 -1 215 
+157 1 39 
+30 1 24 
+94 0 
+159 1 159 
+35 1 -2 
+99 1 82 
+167 4 165 155 171 127 
+107 0 
+45 1 41 
+112 1 41 
+52 1 39 
+117 1 41 
+185 3 -1 -2 179 
+58 1 41 
+124 2 24 41 
+Constructors: 5
+71 61
+199 195
+136 127
+45 41
+30 24
+
+Summary: 21
+159 127 149 22 215 61 -1 212 82 12 17 24 209 -2 39 41 0 165 145 155 179 
+org/apache/fop/render/rtf/RTFHandler.<init>(Lorg/apache/fop/apps/FOUserAgent;Ljava/io/OutputStream;)V
+PTG:
+Vars:
+8
+$r7 1 26 
+$r10 1 68 
+$r8 1 43 
+r1 1 -2 
+r0 1 -1 
+r4 1 -3 
+$r6 1 64 
+$r9 1 68 
+Fields: 1
+-1 fontInfo 64
+Accesses: 10
+17 1 -1 
+34 1 -1 
+50 1 -1 
+22 1 -1 
+7 1 -1 
+39 1 -1 
+55 1 -1 
+12 1 -1 
+60 1 -1 
+63 1 -1 
+Functions: 5
+2 3 -1 64 -2 
+73 2 -2 68 
+76 2 64 68 
+31 1 26 
+47 1 43 
+Constructors: 4
+2 -1
+73 68
+31 26
+47 43
+
+Summary: 5
+-2 -1 0 68 1 
+org/apache/fop/render/rtf/RTFHandler.endListLabel()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 9 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 1
+12 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/render/rtf/RTFHandler.endListItem(Lorg/apache/fop/fo/flow/ListItem;)V
+PTG:
+Vars:
+3
+$r1 1 9 
+r0 1 -1 
+r2 1 -2 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 1
+12 1 9 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/render/rtf/RTFHandler.startBlockContainer(Lorg/apache/fop/fo/flow/BlockContainer;)V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r4 1 40 
+$r2 1 17 
+r5 1 40 
+r31 1 12 
+$r3 1 14 
+r1 1 -2 
+$r32 2 35 25 
+r6 1 53 
+Fields: 1
+-1 builderContext 14
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 28
+131 0 
+135 0 
+8 1 -2 
+73 0 
+140 0 
+77 0 
+14 4 -1 35 25 14 
+143 0 
+82 0 
+147 0 
+85 0 
+23 0 
+89 0 
+153 0 
+95 0 
+162 0 
+166 0 
+104 0 
+171 0 
+108 0 
+47 1 40 
+175 0 
+113 0 
+117 0 
+181 0 
+57 1 53 
+123 0 
+63 2 53 12 
+Constructors: 0
+
+Summary: 16
+120 86 53 89 144 -1 147 178 12 -2 175 92 0 117 40 150 
+org/apache/fop/render/rtf/RTFHandler.endColumn(Lorg/apache/fop/fo/flow/table/TableColumn;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/render/rtf/RTFHandler.startPageSequence(Lorg/apache/fop/fo/pagination/PageSequence;)V
+PTG:
+Vars:
+58
+$r56 1 286 
+$r7 1 154 
+$r4 1 1 
+$r11 1 180 
+r0 1 -1 
+$r47 1 315 
+$r63 1 123 
+$r23 1 242 
+$r54 1 280 
+$r43 1 -1 
+$r12 1 183 
+$r13 1 1 
+$r3 1 109 
+$r32 1 1 
+$r62 1 302 
+$r40 1 75 
+$r36 1 50 
+r57 1 11 
+$r48 1 318 
+$r17 1 212 
+$r25 1 126 
+$r60 1 37 
+$r6 1 123 
+$r31 1 21 
+$r14 1 196 
+$r1 1 1 
+r22 1 -2 
+$r42 1 90 
+$r49 1 321 
+$r35 1 46 
+r41 1 82 
+$r19 1 123 
+$r55 1 283 
+$r5 1 143 
+$r27 1 133 
+$r15 1 199 
+$r10 1 1 
+$r34 1 34 
+$r50 1 -1 
+$r24 1 123 
+$r37 1 53 
+$r18 1 217 
+$r45 1 299 
+$r38 1 61 
+$r30 1 17 
+$r8 1 1 
+$r20 1 228 
+$r52 1 264 
+$r26 1 1 
+$r53 1 276 
+$r61 1 267 
+$r29 1 14 
+$r46 1 311 
+$r16 1 123 
+$r39 1 72 
+$r2 1 106 
+$r9 1 168 
+$r21 1 233 
+Fields: 7
+-1 percentManager 242
+-1 docArea 106
+-1 pagemaster 1
+-1 builderContext 154
+-1 sect 123
+180 marginLeft 183
+196 marginRight 199
+Accesses: 22
+0 1 -1 
+96 1 -1 
+192 1 -1 
+224 1 -1 
+129 1 -1 
+257 1 -1 
+164 1 -1 
+196 1 196 
+105 1 -1 
+112 1 -1 
+176 1 -1 
+208 1 -1 
+241 1 -1 
+115 1 -1 
+180 1 180 
+24 1 -1 
+153 1 -1 
+122 1 -1 
+27 1 -1 
+252 1 -1 
+93 1 -1 
+157 1 -1 
+Functions: 45
+193 1 1 
+66 1 61 
+130 1 1 
+325 3 -1 321 299 
+7 1 -2 
+71 1 -2 
+199 1 199 
+72 1 72 
+136 2 133 126 
+75 2 75 11 
+267 1 267 
+13 1 -2 
+14 1 14 
+271 1 267 
+17 2 17 11 
+209 1 123 
+84 1 82 
+148 1 143 
+212 1 212 
+276 2 276 280 
+279 1 -1 
+217 1 217 
+283 1 283 
+161 2 154 123 
+225 1 123 
+290 3 -1 264 286 
+228 1 228 
+37 1 37 
+165 1 1 
+168 1 168 
+41 1 37 
+233 1 233 
+106 1 106 
+46 2 11 46 
+302 1 302 
+177 1 1 
+50 1 50 
+306 1 302 
+183 1 183 
+247 2 -2 242 
+311 2 311 315 
+56 2 34 53 
+314 1 -1 
+123 1 123 
+318 1 318 
+Constructors: 3
+306 302
+41 37
+271 267
+
+Summary: 28
+11 286 133 50 180 283 53 315 75 14 196 321 72 168 199 -1 212 82 228 17 233 -2 183 0 217 318 280 126 
+org/apache/fop/render/rtf/RTFHandler.startCell(Lorg/apache/fop/fo/flow/table/TableCell;)V
+PTG:
+Vars:
+25
+$r20 1 90 
+r6 1 -2 
+$r37 1 270 
+$r31 2 38 28 
+$r1 1 9 
+$r10 1 294 
+r30 1 15 
+r7 1 128 
+r5 1 43 
+r32 1 96 
+$r14 1 281 
+$r18 1 165 
+$r36 1 249 
+$r35 1 175 
+r12 1 234 
+$r2 1 20 
+$r19 1 74 
+$r16 1 260 
+$r3 1 9 
+$r40 1 139 
+$r4 1 43 
+$r11 1 9 
+r0 1 -1 
+$r34 1 154 
+r8 1 139 
+Fields: 2
+-1 percentManager 294
+-1 builderContext 9
+Accesses: 5
+0 1 -1 
+16 1 -1 
+307 1 -1 
+293 1 -1 
+8 1 -1 
+Functions: 46
+66 1 15 
+130 2 128 43 
+258 1 139 
+195 1 15 
+323 0 
+263 3 260 249 15 
+327 0 
+9 1 9 
+73 1 15 
+74 1 74 
+332 0 
+335 0 
+17 3 38 9 28 
+83 2 90 43 
+211 1 15 
+339 0 
+84 1 15 
+276 1 270 
+150 1 139 
+279 1 139 
+216 1 15 
+89 1 15 
+345 0 
+26 0 
+284 3 281 270 15 
+160 1 154 
+225 1 15 
+98 1 15 
+354 0 
+163 1 139 
+228 1 43 
+358 0 
+168 3 165 154 15 
+108 1 96 
+112 1 15 
+304 2 -2 294 
+50 1 -2 
+181 1 175 
+245 1 234 
+118 1 15 
+56 1 -2 
+185 2 15 175 
+313 2 9 139 
+124 1 -2 
+62 1 15 
+255 1 249 
+Constructors: 4
+160 154
+276 270
+181 175
+255 249
+
+Summary: 22
+234 128 260 281 96 336 175 90 249 339 -1 15 355 43 139 -2 270 74 0 154 165 342 
+org/apache/fop/render/rtf/RTFHandler.access$000(Lorg/apache/fop/render/rtf/RTFHandler;)Lorg/apache/fop/render/rtf/rtflib/tools/PercentContext;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-2 percentManager 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-2 
+org/apache/fop/render/rtf/RTFHandler.endBody(Lorg/apache/fop/fo/flow/table/TableBody;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r15 1 35 
+$r1 1 12 
+r13 1 -2 
+$r3 1 35 
+$r14 2 20 30 
+$r2 1 9 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 11
+18 0 
+66 0 
+85 0 
+54 0 
+70 0 
+9 4 -1 20 9 30 
+89 0 
+58 0 
+44 1 35 
+76 0 
+63 0 
+Constructors: 0
+
+Summary: 8
+-1 86 67 35 70 -2 0 73 
+org/apache/fop/render/rtf/RTFHandler.startPageNumber(Lorg/apache/fop/fo/flow/PageNumber;)V
+PTG:
+Vars:
+9
+$r3 1 14 
+$r26 2 35 25 
+r5 1 40 
+r0 1 -1 
+$r2 1 17 
+r6 1 53 
+r25 1 12 
+$r4 1 40 
+r1 1 -2 
+Fields: 1
+-1 builderContext 14
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 21
+99 0 
+68 0 
+133 0 
+103 0 
+8 1 -2 
+72 0 
+77 0 
+14 4 -1 35 25 14 
+142 0 
+47 1 40 
+111 0 
+80 0 
+146 0 
+115 0 
+84 0 
+23 0 
+120 0 
+58 2 53 12 
+90 0 
+123 0 
+127 0 
+Constructors: 0
+
+Summary: 14
+81 130 84 53 100 124 143 -1 12 -2 127 87 0 40 
+org/apache/fop/render/rtf/RTFHandler.startTable(Lorg/apache/fop/fo/flow/table/Table;)V
+PTG:
+Vars:
+17
+r0 1 -1 
+$r32 1 8 
+$r6 1 47 
+$r14 1 13 
+$r5 1 13 
+r7 1 -2 
+r26 1 47 
+$r33 1 69 
+$r4 1 24 
+$r25 2 32 42 
+$r28 1 8 
+r8 1 58 
+r10 1 94 
+$r2 1 13 
+$r29 1 96 
+r9 1 69 
+$r13 1 13 
+Fields: 1
+-1 builderContext 13
+Accesses: 8
+0 1 -1 
+80 1 -1 
+20 1 -1 
+87 1 -1 
+152 1 -1 
+73 1 -1 
+12 1 -1 
+207 1 -1 
+Functions: 23
+100 1 96 
+132 2 96 94 
+199 0 
+168 0 
+203 0 
+172 0 
+77 1 69 
+142 2 96 94 
+16 2 8 13 
+112 2 96 94 
+177 0 
+180 0 
+212 2 8 13 
+21 3 32 42 13 
+149 2 96 69 
+54 1 -2 
+184 0 
+90 1 -2 
+122 2 96 94 
+60 3 8 58 47 
+30 0 
+158 2 69 13 
+190 0 
+Constructors: 2
+16 8
+100 96
+
+Summary: 13
+94 8 181 -1 58 187 96 -2 200 47 0 69 184 
+org/apache/fop/render/rtf/RTFHandler.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+r0 1 -2 
+$r4 1 6 
+$r1 1 1 
+$r2 1 -1 
+$r5 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/render/rtf/RTFHandler.startListLabel()V
+PTG:
+Vars:
+9
+$r2 1 9 
+r28 1 35 
+$r31 1 42 
+$r3 1 35 
+r0 1 -1 
+$r27 2 20 30 
+$r36 1 42 
+$r1 1 12 
+$r7 1 9 
+Fields: 1
+-1 builderContext 9
+Accesses: 3
+0 1 -1 
+8 1 -1 
+57 1 -1 
+Functions: 21
+131 0 
+103 0 
+72 0 
+9 4 -1 20 9 30 
+137 0 
+107 0 
+76 0 
+48 1 35 
+81 0 
+18 0 
+146 0 
+115 0 
+84 0 
+53 2 35 42 
+150 0 
+119 0 
+88 0 
+124 0 
+62 2 9 42 
+94 0 
+127 0 
+Constructors: 1
+53 42
+
+Summary: 11
+85 -1 147 128 134 91 42 35 104 88 131 
+org/apache/fop/render/rtf/RTFHandler.image(Lorg/apache/fop/fo/flow/ExternalGraphic;)V
+PTG:
+Vars:
+20
+$r18 1 105 
+r0 1 -1 
+$r13 1 86 
+$r15 1 95 
+r6 1 37 
+$r10 1 60 
+r2 1 17 
+$r3 1 19 
+$r5 1 31 
+$r8 1 44 
+$r14 1 83 
+$r9 1 56 
+r1 1 -2 
+$r11 1 63 
+$r12 1 -1 
+r19 1 12 
+$r17 1 102 
+r4 1 25 
+$r7 1 47 
+$r16 1 99 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 18
+66 2 44 63 
+98 1 -1 
+102 1 102 
+8 1 -2 
+76 3 -1 -2 37 
+13 1 -2 
+109 3 -1 83 105 
+47 1 47 
+18 1 17 
+19 1 19 
+51 1 47 
+86 1 86 
+56 2 56 12 
+90 1 86 
+27 3 25 12 31 
+60 1 60 
+30 1 17 
+95 2 99 95 
+Constructors: 2
+51 47
+90 86
+
+Summary: 14
+37 -1 63 99 12 60 19 17 -2 105 31 0 25 102 
+org/apache/fop/render/rtf/RTFHandler.startDocument()V
+PTG:
+Vars:
+6
+$r3 1 10 
+$r1 1 1 
+r0 1 -1 
+$r4 1 24 
+$r2 1 5 
+$r5 1 27 
+Fields: 2
+-1 rtfFile 24
+-1 os 10
+Accesses: 4
+19 1 -1 
+23 1 -1 
+9 1 -1 
+30 1 -1 
+Functions: 4
+16 2 1 5 
+24 1 24 
+42 0 
+13 2 5 10 
+Constructors: 2
+16 1
+13 5
+
+Summary: 2
+5 -1 
+org/apache/fop/render/rtf/RTFHandler.prepareTable(Lorg/apache/fop/fo/flow/table/Table;)V
+PTG:
+Vars:
+21
+$r18 1 58 
+r1 1 -2 
+$r4 1 19 
+$r22 1 1 
+$r21 1 1 
+$r8 1 1 
+$r12 1 1 
+$r7 1 36 
+$r13 1 1 
+r0 1 -1 
+$r15 1 1 
+$r19 1 1 
+$r20 1 97 
+$r2 1 1 
+$r3 1 9 
+$r14 1 1 
+$r5 1 29 
+$r9 1 1 
+$r6 1 33 
+$r17 1 55 
+$r16 1 51 
+Fields: 1
+-1 percentManager 1
+Accesses: 8
+0 1 -1 
+83 1 -1 
+133 1 -1 
+119 1 -1 
+106 1 -1 
+45 1 -1 
+61 1 -1 
+78 1 -1 
+Functions: 21
+33 1 33 
+5 2 1 -2 
+102 2 97 -2 
+8 1 -2 
+72 2 1 -2 
+9 1 9 
+138 0 
+107 2 1 -2 
+143 2 1 -2 
+18 1 -2 
+50 1 -2 
+19 1 19 
+51 1 51 
+84 2 1 -2 
+118 2 97 1 
+55 1 55 
+58 2 1 58 
+123 0 
+28 1 -2 
+29 1 29 
+94 2 1 -2 
+Constructors: 1
+102 97
+
+Summary: 10
+-1 51 58 36 19 29 97 -2 9 0 
+org/apache/fop/render/rtf/RTFHandler.startInline(Lorg/apache/fop/fo/flow/Inline;)V
+PTG:
+Vars:
+10
+$r3 1 14 
+$r36 2 35 25 
+r1 1 -2 
+$r2 1 17 
+r0 1 -1 
+r35 1 12 
+r5 1 40 
+$r7 1 64 
+r6 1 53 
+$r4 1 40 
+Fields: 1
+-1 builderContext 14
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 31
+129 0 
+194 0 
+67 2 64 53 
+132 0 
+198 0 
+8 1 -2 
+136 0 
+77 0 
+14 4 -1 35 25 14 
+142 0 
+81 0 
+86 0 
+23 0 
+151 0 
+89 0 
+155 0 
+93 0 
+99 0 
+163 0 
+167 0 
+108 0 
+172 0 
+47 1 40 
+175 0 
+112 0 
+179 0 
+120 0 
+185 0 
+58 2 53 12 
+124 0 
+63 1 -2 
+Constructors: 0
+
+Summary: 19
+133 195 182 53 96 109 152 90 -1 176 12 139 -2 0 93 40 64 136 179 
+org/apache/fop/render/rtf/RTFHandler.endMarkup()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/render/rtf/RTFHandler.pageRef()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/render/rtf/RTFHandler.endFooter(Lorg/apache/fop/fo/flow/table/TableBody;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/render/rtf/RTFHandler.putGraphic(Lorg/apache/fop/fo/flow/AbstractGraphics;Lorg/apache/xmlgraphics/image/loader/ImageInfo;)V
+PTG:
+Vars:
+17
+$r14 1 73 
+$r13 1 70 
+$r10 1 56 
+r7 1 40 
+$r11 1 53 
+$r12 1 66 
+r16 1 4 
+r5 1 -3 
+r8 1 -1 
+$r1 1 6 
+r0 1 -2 
+r2 1 12 
+$r9 1 -1 
+$r6 1 30 
+r4 1 25 
+r3 1 18 
+$r15 1 76 
+Fields: 0
+Accesses: 0
+Functions: 13
+0 1 -2 
+66 2 66 70 
+5 1 4 
+69 1 -3 
+6 1 6 
+73 1 73 
+14 1 4 
+46 3 -1 -2 40 
+80 3 -1 53 76 
+20 1 18 
+56 1 56 
+27 5 -3 18 25 12 30 
+60 1 56 
+Constructors: 1
+60 56
+
+Summary: 14
+-3 -1 12 70 -2 0 25 73 4 40 76 1 6 18 
+org/apache/fop/render/rtf/RTFHandler.endCell(Lorg/apache/fop/fo/flow/table/TableCell;)V
+PTG:
+Vars:
+5
+$r1 1 9 
+$r2 1 9 
+r4 1 -2 
+r0 1 -1 
+$r3 1 19 
+Fields: 1
+-1 builderContext 9
+Accesses: 3
+0 1 -1 
+8 1 -1 
+15 1 -1 
+Functions: 3
+16 1 9 
+22 1 19 
+12 1 9 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 19 
+org/apache/fop/render/rtf/RTFHandler.endInline(Lorg/apache/fop/fo/flow/Inline;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r2 1 9 
+$r24 2 20 30 
+$r3 1 35 
+r4 1 48 
+$r1 1 12 
+r25 1 35 
+r23 1 -2 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 20
+64 0 
+69 0 
+134 0 
+103 0 
+72 0 
+9 4 -1 20 9 30 
+42 1 35 
+138 0 
+107 0 
+76 0 
+112 0 
+18 0 
+50 1 48 
+82 0 
+115 0 
+119 0 
+91 0 
+60 0 
+125 0 
+95 0 
+Constructors: 0
+
+Summary: 13
+48 76 119 -1 116 35 -2 79 135 92 122 0 73 
+org/apache/fop/render/rtf/RTFHandler.<clinit>()V
+PTG:
+Vars:
+7
+$r4 1 40 
+$r3 1 34 
+$r2 1 29 
+$r1 1 22 
+$r5 1 46 
+$r0 1 0 
+$r6 2 9 19 
+Fields: 0
+Accesses: 0
+Functions: 2
+19 2 19 9 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/render/rtf/RTFHandler.startList(Lorg/apache/fop/fo/flow/ListBlock;)V
+PTG:
+Vars:
+11
+$r35 2 20 30 
+r0 1 -1 
+$r2 1 9 
+$r46 1 52 
+$r7 1 9 
+r36 1 35 
+r6 1 52 
+r4 1 -2 
+$r3 1 35 
+$r5 1 44 
+$r1 1 12 
+Fields: 1
+-1 builderContext 9
+Accesses: 3
+0 1 -1 
+53 1 -1 
+8 1 -1 
+Functions: 29
+68 0 
+133 0 
+72 0 
+9 4 -1 20 9 30 
+77 0 
+142 0 
+80 0 
+18 0 
+146 0 
+84 0 
+90 0 
+154 0 
+158 0 
+99 0 
+163 0 
+166 0 
+103 0 
+42 2 35 44 
+170 0 
+43 1 -2 
+111 0 
+176 0 
+115 0 
+120 0 
+185 0 
+58 2 52 9 
+123 0 
+189 0 
+127 0 
+Constructors: 0
+
+Summary: 18
+81 130 84 52 100 124 143 167 186 -1 173 35 -2 127 87 44 170 0 
+org/apache/fop/render/rtf/RTFHandler.startFlow(Lorg/apache/fop/fo/pagination/Flow;)V
+PTG:
+Vars:
+63
+$r94 1 491 
+r84 1 422 
+$r23 1 519 
+$r83 2 417 407 
+$r52 1 118 
+r75 1 144 
+$r8 1 41 
+$r19 1 504 
+$r77 2 205 215 
+r4 1 -2 
+$r28 1 396 
+$r47 1 220 
+$r18 1 500 
+r81 2 323 316 
+r80 1 300 
+$r26 1 376 
+r85 2 438 445 
+$r45 1 197 
+$r25 1 371 
+$r34 1 249 
+$r20 1 507 
+$r14 1 73 
+$r51 1 121 
+$r29 1 422 
+$r6 1 27 
+$r41 1 274 
+$r24 1 522 
+$r89 1 11 
+$r35 1 254 
+$r17 1 488 
+r78 1 220 
+r11 1 59 
+$r30 1 422 
+$r32 1 396 
+$r12 1 41 
+$r91 1 176 
+$r46 1 118 
+$r5 1 24 
+$r2 1 8 
+r82 1 349 
+$r3 1 20 
+$r37 1 274 
+$r39 1 300 
+$r22 1 516 
+r0 1 -1 
+$r27 1 399 
+$r74 2 129 139 
+$r90 1 100 
+$r7 1 30 
+$r53 1 144 
+$r79 2 295 285 
+r13 1 70 
+$r93 1 445 
+r9 1 49 
+$r92 1 323 
+$r15 1 77 
+$r36 1 277 
+$r38 1 300 
+$r21 1 512 
+$r10 1 41 
+$r99 1 349 
+r86 1 471 
+$r100 1 471 
+Fields: 4
+-1 pagemaster 41
+-1 builderContext 118
+-1 builderContext 274
+-1 builderContext 396
+Accesses: 18
+0 1 -1 
+193 1 -1 
+162 1 -1 
+387 1 -1 
+40 1 -1 
+392 1 -1 
+169 1 -1 
+265 1 -1 
+395 1 -1 
+270 1 -1 
+273 1 -1 
+50 1 -1 
+117 1 -1 
+86 1 -1 
+473 1 -1 
+61 1 -1 
+93 1 -1 
+351 1 -1 
+Functions: 67
+512 2 512 516 
+515 1 -2 
+519 1 519 
+11 1 11 
+396 7 -1 417 274 118 407 41 396 
+525 2 488 522 
+15 1 11 
+274 7 -1 274 118 295 41 396 285 
+20 2 20 24 
+405 0 
+23 1 -2 
+537 0 
+27 1 27 
+283 0 
+156 2 144 100 
+541 0 
+33 2 8 30 
+546 0 
+549 0 
+41 1 41 
+553 0 
+559 0 
+432 1 422 
+51 1 41 
+180 1 176 
+310 1 300 
+568 0 
+572 0 
+189 1 176 
+62 1 41 
+449 1 445 
+194 7 -1 274 118 215 41 396 205 
+580 0 
+327 1 323 
+72 1 -2 
+584 0 
+73 2 73 77 
+458 2 438 445 
+203 0 
+76 1 49 
+589 0 
+462 3 422 438 445 
+336 2 323 316 
+592 0 
+340 3 323 300 316 
+596 0 
+602 0 
+479 2 471 396 
+611 0 
+357 2 274 349 
+615 0 
+104 1 100 
+232 2 176 220 
+491 1 491 
+495 1 491 
+113 1 100 
+370 1 -2 
+371 2 371 376 
+500 2 500 504 
+118 7 -1 129 274 118 41 139 396 
+374 1 70 
+503 1 -2 
+248 1 -2 
+249 2 249 254 
+507 1 507 
+252 1 59 
+127 0 
+Constructors: 6
+449 445
+180 176
+327 323
+104 100
+15 11
+495 491
+
+Summary: 39
+504 249 323 550 27 100 349 254 316 556 516 612 593 73 438 176 371 24 522 553 569 445 70 144 220 599 59 596 422 -1 300 77 -2 471 519 0 49 30 376 
+org/apache/fop/render/rtf/RTFHandler.startBody(Lorg/apache/fop/fo/flow/table/TableBody;)V
+PTG:
+Vars:
+8
+r5 1 40 
+r0 1 -1 
+$r4 1 40 
+r1 1 -2 
+$r16 2 35 25 
+r15 1 12 
+$r2 1 17 
+$r3 1 14 
+Fields: 1
+-1 builderContext 14
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 12
+49 2 40 12 
+81 0 
+68 0 
+23 0 
+71 0 
+8 1 -2 
+90 0 
+59 0 
+75 0 
+14 4 -1 35 25 14 
+94 0 
+63 0 
+Constructors: 0
+
+Summary: 9
+72 -1 12 91 -2 75 0 40 78 
+org/apache/fop/render/rtf/RTFHandler.endListBody()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/render/rtf/RTFHandler.startColumn(Lorg/apache/fop/fo/flow/table/TableColumn;)V
+PTG:
+Vars:
+15
+$r4 1 13 
+$r6 1 35 
+$r3 1 13 
+$r2 1 9 
+$r29 1 13 
+$r25 1 31 
+$r11 1 61 
+$r13 1 47 
+$r26 1 64 
+$r10 1 47 
+r0 1 -1 
+$r8 1 47 
+$r9 1 50 
+r1 1 -2 
+$r14 1 80 
+Fields: 2
+-1 percentManager 13
+-1 builderContext 47
+Accesses: 6
+0 1 -1 
+22 1 -1 
+57 1 -1 
+12 1 -1 
+76 1 -1 
+46 1 -1 
+Functions: 21
+-1 0 
+129 0 
+98 0 
+35 1 35 
+69 1 64 
+103 0 
+8 1 -2 
+9 2 9 13 
+73 2 64 61 
+42 1 31 
+106 0 
+77 1 47 
+110 0 
+47 1 47 
+84 1 80 
+116 0 
+54 2 50 31 
+58 1 47 
+28 2 -2 13 
+125 0 
+94 0 
+Constructors: 2
+69 64
+42 31
+
+Summary: 14
+-1 50 80 31 64 113 35 -2 9 61 110 0 126 107 
+org/apache/fop/render/rtf/RTFHandler.endStatic()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/render/rtf/RTFHandler.startFootnote(Lorg/apache/fop/fo/flow/Footnote;)V
+PTG:
+Vars:
+11
+$r6 1 9 
+$r1 1 12 
+$r2 1 9 
+r31 1 -2 
+r0 1 -1 
+$r3 1 35 
+$r42 1 53 
+$r32 2 20 30 
+r33 1 35 
+r4 1 48 
+r5 1 53 
+Fields: 1
+-1 builderContext 9
+Accesses: 3
+0 1 -1 
+55 1 -1 
+8 1 -1 
+Functions: 27
+130 0 
+134 0 
+71 0 
+9 4 -1 20 9 30 
+75 0 
+140 0 
+143 0 
+81 0 
+18 0 
+147 0 
+84 0 
+88 0 
+153 0 
+94 0 
+162 0 
+166 0 
+103 0 
+42 1 35 
+107 0 
+171 0 
+175 0 
+112 0 
+49 1 48 
+116 0 
+181 0 
+122 0 
+61 2 53 9 
+Constructors: 0
+
+Summary: 16
+91 53 48 144 119 85 -1 147 116 178 35 -2 175 0 88 150 
+org/apache/fop/render/rtf/RTFHandler.endRow(Lorg/apache/fop/fo/flow/table/TableRow;)V
+PTG:
+Vars:
+15
+$r8 1 163 
+$r9 1 62 
+$r3 1 9 
+$r4 1 43 
+$r10 1 78 
+r21 1 -2 
+r0 1 -1 
+$r7 1 9 
+$r23 2 38 28 
+$r2 1 20 
+$r6 1 9 
+r11 1 84 
+$r1 1 9 
+r22 1 15 
+r5 1 43 
+Fields: 1
+-1 builderContext 9
+Accesses: 5
+0 1 -1 
+16 1 -1 
+8 1 -1 
+152 1 -1 
+159 1 -1 
+Functions: 24
+96 1 84 
+160 1 9 
+129 0 
+100 1 15 
+166 1 163 
+71 2 43 78 
+135 0 
+72 1 15 
+9 1 9 
+77 1 15 
+144 0 
+17 3 38 9 28 
+113 0 
+50 1 15 
+148 0 
+117 0 
+54 1 15 
+86 1 15 
+26 0 
+122 0 
+156 1 9 
+61 1 15 
+125 0 
+62 1 62 
+Constructors: 0
+
+Summary: 13
+129 -1 15 84 132 43 163 -2 62 0 145 78 126 
+org/apache/fop/render/rtf/RTFHandler.endTable(Lorg/apache/fop/fo/flow/table/Table;)V
+PTG:
+Vars:
+4
+$r2 1 19 
+r3 1 -2 
+r0 1 -1 
+$r1 1 19 
+Fields: 1
+-1 builderContext 19
+Accesses: 5
+0 1 -1 
+18 1 -1 
+8 1 -1 
+25 1 -1 
+15 1 -1 
+Functions: 2
+22 1 19 
+29 1 19 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/render/rtf/RTFHandler.putGraphic(Lorg/apache/fop/fo/flow/AbstractGraphics;Lorg/apache/xmlgraphics/image/loader/Image;)V
+PTG:
+Vars:
+26
+$r42 1 99 
+r18 1 223 
+$r45 1 99 
+r2 1 -1 
+$r9 1 127 
+r0 1 -3 
+$r10 1 139 
+$r39 2 157 147 
+r17 1 216 
+$r7 1 119 
+$r12 1 162 
+$r25 1 194 
+$r43 1 111 
+r40 1 162 
+$r13 1 172 
+r3 1 -2 
+$r11 1 136 
+r1 1 8 
+$r8 1 124 
+$r15 1 184 
+$r4 1 92 
+r35 1 28 
+r16 1 209 
+r14 1 180 
+r33 1 35 
+r34 1 -3 
+Fields: 2
+-1 percentManager 92
+-1 builderContext 136
+Accesses: 12
+289 1 216 
+227 1 223 
+243 1 223 
+260 1 216 
+294 1 223 
+135 1 -1 
+265 1 223 
+345 1 216 
+330 1 216 
+91 1 -1 
+300 1 223 
+271 1 223 
+Functions: 43
+192 1 8 
+65 0 
+257 1 209 
+2 1 -3 
+130 4 -2 99 111 127 
+197 2 194 180 
+325 1 180 
+389 1 180 
+71 1 -3 
+136 5 -1 147 136 92 157 
+328 1 209 
+75 0 
+203 2 35 180 
+206 0 
+335 0 
+81 1 -2 
+145 0 
+211 1 111 
+85 0 
+278 0 
+23 1 -3 
+343 1 209 
+218 1 111 
+30 1 28 
+286 1 209 
+350 0 
+96 2 -2 92 
+225 1 209 
+38 1 28 
+233 0 
+106 5 -1 99 136 8 92 
+170 1 162 
+172 1 172 
+48 1 28 
+241 1 209 
+307 0 
+118 1 -3 
+182 1 8 
+119 1 119 
+249 0 
+124 1 124 
+61 0 
+382 1 180 
+Constructors: 2
+130 111
+106 99
+
+Summary: 24
+-3 216 180 75 8 28 124 172 162 119 -1 111 194 82 209 35 -2 127 223 0 99 184 1 78 
+org/apache/fop/render/rtf/RTFHandler.startListBody()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/render/rtf/RTFHandler.endLink()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 9 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 1
+12 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/render/rtf/RTFHandler.leader(Lorg/apache/fop/fo/flow/Leader;)V
+PTG:
+Vars:
+12
+$r5 1 26 
+$r2 1 9 
+$r19 2 37 47 
+r7 1 52 
+$r4 1 29 
+r8 1 65 
+r18 1 24 
+$r3 1 9 
+$r23 1 9 
+$r6 1 52 
+r1 1 -2 
+r0 1 -1 
+Fields: 2
+-1 percentManager 9
+-1 builderContext 26
+Accesses: 4
+0 1 -1 
+17 1 -1 
+8 1 -1 
+25 1 -1 
+Functions: 14
+97 0 
+35 0 
+70 2 65 24 
+103 0 
+13 2 -2 9 
+80 0 
+112 0 
+18 2 -2 9 
+84 0 
+116 0 
+26 5 -1 37 9 26 47 
+90 0 
+59 1 52 
+93 0 
+Constructors: 0
+
+Summary: 10
+94 24 -1 65 113 -2 0 97 52 100 
+org/apache/fop/render/rtf/RTFHandler.startLink(Lorg/apache/fop/fo/flow/BasicLink;)V
+PTG:
+Vars:
+14
+$r8 1 84 
+$r38 1 60 
+$r9 1 9 
+r6 1 60 
+r0 1 -1 
+r7 1 -2 
+$r29 2 20 30 
+$r1 1 12 
+r4 1 48 
+$r3 1 35 
+$r2 1 9 
+$r33 1 50 
+$r10 1 72 
+r30 1 35 
+Fields: 1
+-1 builderContext 9
+Accesses: 3
+0 1 -1 
+8 1 -1 
+90 1 -1 
+Functions: 27
+128 0 
+71 1 -2 
+9 4 -1 20 9 30 
+137 0 
+75 2 72 60 
+141 0 
+18 0 
+83 1 -2 
+149 0 
+87 2 84 60 
+153 0 
+158 0 
+96 2 9 60 
+161 0 
+165 0 
+42 1 35 
+106 0 
+171 0 
+110 0 
+49 2 48 50 
+115 0 
+180 0 
+54 1 50 
+118 0 
+184 0 
+122 0 
+62 1 -2 
+Constructors: 1
+54 50
+
+Summary: 17
+60 84 50 125 48 138 162 119 72 168 181 -1 35 -2 122 0 165 
+org/apache/fop/render/rtf/RTFHandler.text(Lorg/apache/fop/fo/FOText;[CII)V
+PTG:
+Vars:
+11
+r0 1 -1 
+r8 1 -3 
+$r2 1 9 
+$r7 1 67 
+r5 1 -2 
+$r27 2 20 30 
+r6 1 56 
+$r1 1 12 
+$r3 1 35 
+r4 1 50 
+r28 1 35 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 24
+96 0 
+129 0 
+161 0 
+100 0 
+134 0 
+167 0 
+9 4 -1 20 9 30 
+106 0 
+43 1 35 
+77 2 -3 67 
+109 0 
+143 0 
+80 2 50 67 
+176 0 
+18 0 
+114 0 
+147 0 
+52 1 -2 
+85 1 50 
+181 0 
+120 0 
+153 0 
+156 0 
+62 2 50 56 
+Constructors: 1
+77 67
+
+Summary: 17
+-3 50 164 161 67 56 158 114 -1 111 178 35 -2 0 117 1 131 
+org/apache/fop/render/rtf/RTFHandler.endPageNumber(Lorg/apache/fop/fo/flow/PageNumber;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/render/rtf/RTFHandler.endFootnoteBody(Lorg/apache/fop/fo/flow/FootnoteBody;)V
+PTG:
+Vars:
+7
+$r3 1 36 
+r30 1 36 
+r0 1 -1 
+$r1 1 12 
+r28 1 -2 
+$r29 2 31 21 
+$r2 1 9 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 25
+64 0 
+130 0 
+67 0 
+71 0 
+136 0 
+9 4 -1 21 9 31 
+77 0 
+145 0 
+18 0 
+149 0 
+86 0 
+90 0 
+154 0 
+158 0 
+95 0 
+99 0 
+164 0 
+105 0 
+44 1 36 
+113 0 
+117 0 
+54 0 
+58 0 
+123 0 
+126 0 
+Constructors: 0
+
+Summary: 14
+133 99 68 130 161 158 71 -1 36 -2 127 74 0 102 
+org/apache/fop/render/rtf/RTFHandler.startBlock(Lorg/apache/fop/fo/flow/Block;)V
+PTG:
+Vars:
+10
+r6 1 53 
+$r2 1 17 
+$r3 1 14 
+r32 1 12 
+$r33 2 35 25 
+$r7 1 69 
+r0 1 -1 
+r5 1 40 
+$r4 1 40 
+r1 1 -2 
+Fields: 1
+-1 builderContext 14
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 30
+68 1 -2 
+132 0 
+8 1 -2 
+72 2 53 69 
+140 0 
+14 4 -1 35 25 14 
+144 0 
+82 0 
+149 0 
+86 0 
+23 0 
+152 0 
+91 0 
+156 0 
+94 0 
+98 0 
+162 0 
+104 0 
+171 0 
+47 1 40 
+175 0 
+113 0 
+180 0 
+117 0 
+184 0 
+57 1 53 
+122 0 
+126 0 
+190 0 
+63 2 53 12 
+Constructors: 0
+
+Summary: 17
+159 156 187 53 153 95 129 -1 98 12 101 -2 0 69 40 184 126 
+org/apache/fop/render/rtf/RTFHandler.startPageNumberCitation(Lorg/apache/fop/fo/flow/PageNumberCitation;)V
+PTG:
+Vars:
+9
+$r2 1 9 
+$r16 2 20 30 
+$r6 1 51 
+r4 1 48 
+$r3 1 35 
+r17 1 35 
+$r1 1 12 
+r0 1 -1 
+r5 1 -2 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 13
+64 0 
+96 0 
+68 0 
+100 0 
+9 4 -1 20 9 30 
+42 1 35 
+74 0 
+77 0 
+81 0 
+18 0 
+50 1 -2 
+54 2 48 51 
+87 0 
+Constructors: 0
+
+Summary: 10
+81 -1 51 84 35 -2 48 0 97 78 
+org/apache/fop/render/rtf/RTFHandler.endFlow(Lorg/apache/fop/fo/pagination/Flow;)V
+PTG:
+Vars:
+16
+$r8 1 44 
+$r14 1 75 
+r3 1 27 
+$r12 1 61 
+$r9 1 90 
+r0 1 -1 
+r24 1 17 
+$r7 1 40 
+$r1 1 9 
+$r13 1 65 
+r6 1 -2 
+r5 1 37 
+$r2 1 9 
+$r11 1 105 
+$r4 1 9 
+$r10 1 95 
+Fields: 3
+-1 pagemaster 9
+-1 builderContext 75
+-1 builderContext 105
+Accesses: 6
+0 1 -1 
+18 1 -1 
+8 1 -1 
+104 1 -1 
+74 1 -1 
+28 1 -1 
+Functions: 22
+64 1 27 
+130 0 
+134 0 
+39 1 -2 
+40 2 40 44 
+9 1 9 
+43 1 17 
+108 1 105 
+140 0 
+78 1 75 
+19 1 9 
+149 0 
+118 0 
+89 1 -2 
+153 0 
+90 2 90 95 
+122 0 
+60 1 -2 
+29 1 9 
+61 2 65 61 
+93 1 37 
+127 0 
+Constructors: 0
+
+Summary: 16
+37 -1 134 17 65 137 -2 61 27 44 0 40 90 150 95 131 
+org/apache/fop/render/rtf/RTFHandler.endList(Lorg/apache/fop/fo/flow/ListBlock;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 9 
+r2 1 -2 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 1
+12 1 9 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/render/rtf/RTFHandler.startMarkup()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/render/rtf/RTFHandler.endFootnote(Lorg/apache/fop/fo/flow/Footnote;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 9 
+r2 1 -2 
+Fields: 1
+-1 builderContext 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 1
+12 1 9 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 

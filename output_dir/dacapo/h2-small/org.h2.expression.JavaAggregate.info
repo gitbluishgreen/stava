@@ -1,0 +1,348 @@
+14
+org/h2/expression/JavaAggregate.getType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/JavaAggregate.getPrecision()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/JavaAggregate.getInstance()Lorg/h2/api/AggregateFunction;
+PTG:
+Vars:
+5
+_ret 1 7 
+r0 1 -1 
+$r3 1 10 
+r2 1 7 
+$r1 1 1 
+Fields: 2
+-1 userConnection 10
+-1 userAggregate 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+1 1 1 
+13 2 7 10 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/JavaAggregate.getValue(Lorg/h2/engine/Session;)Lorg/h2/value/Value;
+PTG:
+Vars:
+9
+_ret 1 64 
+$r6 1 64 
+r4 1 46 
+r0 1 -1 
+r10 2 39 24 
+r2 1 7 
+$r3 1 24 
+$r1 1 1 
+r5 1 -2 
+Fields: 1
+-1 select 1
+Accesses: 2
+0 1 -1 
+60 1 -1 
+Functions: 7
+1 1 1 
+35 2 -1 1 
+22 3 -1 1 7 
+40 2 39 24 
+61 2 -2 46 
+14 2 -1 1 
+15 0 
+Constructors: 0
+
+Summary: 4
+-2 0 46 -1 
+org/h2/expression/JavaAggregate.optimize(Lorg/h2/engine/Session;)Lorg/h2/expression/Expression;
+PTG:
+Vars:
+16
+$r3 1 11 
+$r5 1 11 
+r11 1 45 
+$r12 1 11 
+r1 1 -2 
+$r4 1 15 
+$r7 1 11 
+$r2 1 3 
+_ret 1 -1 
+$r14 1 67 
+$r10 1 11 
+r6 1 25 
+$r13 1 55 
+r0 1 -1 
+$r9 1 98 
+$r8 1 90 
+Fields: 4
+11 ArrayObject 45
+-1 aggregate 98
+-1 argTypes 67
+-1 args 11
+Accesses: 11
+17 1 -1 
+97 1 -1 
+66 1 -1 
+20 1 -1 
+6 1 -1 
+39 1 -1 
+10 1 -1 
+93 1 -1 
+110 1 -1 
+31 1 -1 
+47 1 -1 
+Functions: 7
+1 1 -2 
+98 2 98 25 
+52 2 -2 45 
+102 0 
+89 5 -1 98 67 11 45 
+59 1 45 
+76 0 
+Constructors: 0
+
+Summary: 3
+-2 0 25 
+org/h2/expression/JavaAggregate.<init>(Lorg/h2/engine/UserAggregate;[Lorg/h2/expression/Expression;Lorg/h2/command/dml/Select;)V
+PTG:
+Vars:
+4
+r3 1 -4 
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+16 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 4
+1 0 -1 2 
+org/h2/expression/JavaAggregate.mapColumns(Lorg/h2/table/ColumnResolver;I)V
+PTG:
+Vars:
+5
+r3 1 -2 
+$r2 1 4 
+$r1 1 4 
+$r4 1 16 
+r0 1 -1 
+Fields: 2
+4 ArrayObject 16
+-1 args 4
+Accesses: 2
+3 1 -1 
+11 1 -1 
+Functions: 1
+19 2 16 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/expression/JavaAggregate.getDisplaySize()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/JavaAggregate.updateAggregate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+17
+$r5 1 65 
+r0 1 -1 
+$r3 1 1 
+$r15 1 65 
+$r7 1 65 
+$r8 1 65 
+$r4 1 37 
+r14 1 122 
+r9 1 -2 
+$r1 1 1 
+r13 2 54 37 
+$r11 1 106 
+r16 1 101 
+r17 1 115 
+r6 1 69 
+$r10 1 96 
+r2 1 7 
+Fields: 4
+65 ArrayObject 96
+-1 select 1
+-1 argTypes 106
+-1 args 65
+Accesses: 9
+0 1 -1 
+32 1 -1 
+64 1 -1 
+82 1 -1 
+21 1 -1 
+105 1 -1 
+137 1 -1 
+90 1 -1 
+13 1 -1 
+Functions: 10
+96 2 96 -2 
+1 1 1 
+50 5 -1 96 1 65 106 
+162 3 37 69 54 
+35 6 -1 96 1 65 7 106 
+117 1 115 
+150 3 37 54 122 
+103 1 101 
+60 8 -1 96 1 65 37 54 7 106 
+14 1 1 
+Constructors: 0
+
+Summary: 4
+69 -2 0 -1 
+org/h2/expression/JavaAggregate.isEverything(Lorg/h2/expression/ExpressionVisitor;)Z
+PTG:
+Vars:
+6
+r1 1 -1 
+r4 1 76 
+$r5 1 44 
+r3 1 59 
+r0 1 -2 
+$r2 1 44 
+Fields: 3
+59 ArrayObject 76
+-1 userAggregate 44
+-1 args 59
+Accesses: 2
+55 1 -1 
+43 1 -1 
+Functions: 3
+0 1 -2 
+83 2 -2 76 
+47 2 -2 44 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/expression/JavaAggregate.getScale()I
+PTG:
+Vars:
+2
+$r1 1 4 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+4 1 4 
+Functions: 1
+1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/JavaAggregate.getSQL()Ljava/lang/String;
+PTG:
+Vars:
+12
+_ret 1 79 
+$r10 1 79 
+$r4 1 13 
+$r5 1 16 
+r8 1 32 
+$r6 1 19 
+$r9 1 76 
+r11 1 49 
+$r0 1 0 
+$r3 1 10 
+r2 1 -1 
+$r12 1 60 
+Fields: 3
+32 ArrayObject 49
+-1 userAggregate 10
+-1 args 32
+Accesses: 2
+9 1 -1 
+28 1 -1 
+Functions: 10
+4 1 0 
+54 1 0 
+8 2 0 16 
+24 1 19 
+73 1 0 
+10 1 10 
+58 1 49 
+76 1 76 
+13 1 13 
+63 2 0 60 
+Constructors: 1
+4 0
+
+Summary: 2
+13 -1 
+org/h2/expression/JavaAggregate.setEvaluatable(Lorg/h2/table/TableFilter;Z)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 23 
+r3 1 -2 
+r1 1 4 
+Fields: 2
+4 ArrayObject 23
+-1 args 4
+Accesses: 1
+0 1 -1 
+Functions: 1
+29 2 -2 23 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/expression/JavaAggregate.getCost()I
+PTG:
+Vars:
+3
+r2 1 23 
+r0 1 -1 
+r1 1 6 
+Fields: 2
+6 ArrayObject 23
+-1 args 6
+Accesses: 1
+2 1 -1 
+Functions: 1
+26 1 23 
+Constructors: 0
+
+Summary: 1
+-1 

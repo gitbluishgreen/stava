@@ -1,0 +1,1285 @@
+30
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.checkExtensionBundle(Lorg/eclipse/osgi/service/resolver/BundleDescription;[Lorg/eclipse/osgi/service/resolver/BundleDelta;)Z
+PTG:
+Vars:
+7
+$r1 1 1 
+r6 1 -1 
+$r2 1 21 
+$r3 1 26 
+r5 1 -3 
+$r4 1 26 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+20 1 -2 
+21 1 21 
+9 1 -2 
+31 1 26 
+Constructors: 0
+
+Summary: 7
+-1 1 21 -3 26 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.applyDeltas([Lorg/eclipse/osgi/service/resolver/BundleDelta;)V
+PTG:
+Vars:
+18
+$r13 1 124 
+r17 1 110 
+$r1 1 1 
+$r11 1 116 
+$r4 1 51 
+$r5 1 52 
+$r8 1 78 
+r2 1 -1 
+r0 1 -2 
+r6 1 60 
+$r12 1 116 
+$r14 1 37 
+$r7 1 77 
+$r10 1 97 
+$r16 1 140 
+r9 1 88 
+$r3 1 19 
+$r15 1 -1 
+Fields: 5
+-1 framework 140
+-2 ArrayObject 51
+-2 ArrayObject 19
+-2 ArrayObject 37
+-2 ArrayObject 77
+Accesses: 1
+139 1 -1 
+Functions: 15
+129 2 124 110 
+67 1 60 
+6 3 -1 1 140 
+38 3 -1 37 140 
+9 6 -2 1 51 19 37 77 
+105 1 60 
+77 1 77 
+78 1 78 
+48 3 -1 52 140 
+114 1 88 
+19 1 19 
+51 1 51 
+148 3 -1 140 60 
+121 1 116 
+95 1 88 
+Constructors: 1
+6 1
+
+Summary: 12
+78 110 -1 97 52 60 0 88 -2 1 116 124 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.populateLoaders([Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;)V
+PTG:
+Vars:
+7
+$r1 1 7 
+$r3 1 25 
+$r2 1 16 
+$r4 1 25 
+r0 1 -2 
+r7 1 -1 
+r5 1 32 
+Fields: 3
+-2 ArrayObject 7
+-2 ArrayObject 16
+-2 ArrayObject 25
+Accesses: 0
+Functions: 3
+16 1 16 
+39 1 32 
+26 1 25 
+Constructors: 0
+
+Summary: 4
+-1 32 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.getBundles(Ljava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+14
+r0 1 -2 
+r3 1 20 
+$r11 1 131 
+$r6 1 63 
+$r8 1 84 
+r1 1 -1 
+$r2 1 13 
+_ret 1 134 
+r4 1 -3 
+$r12 1 134 
+$r10 1 99 
+$r5 1 52 
+$r13 1 134 
+$r9 1 85 
+Fields: 3
+-1 framework 13
+20 ArrayObject 84
+20 ArrayObject 99
+Accesses: 1
+12 1 -1 
+Functions: 11
+114 1 52 
+68 2 -3 63 
+84 1 84 
+100 2 99 52 
+8 0 
+58 1 52 
+124 2 131 52 
+13 2 -2 13 
+46 3 99 20 84 
+126 1 52 
+79 2 85 63 
+Constructors: 2
+68 63
+58 52
+
+Summary: 9
+1 -3 63 -1 85 131 52 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.checkSystemBundle(Lorg/eclipse/osgi/framework/internal/core/InternalSystemBundle;)V
+PTG:
+Vars:
+24
+$r2 1 4 
+r18 1 182 
+r32 1 12 
+$r24 1 29 
+r11 1 120 
+$r4 1 68 
+$r25 1 32 
+r12 1 129 
+$r23 1 60 
+r5 1 -2 
+r8 1 91 
+$r17 1 176 
+r0 1 -1 
+$r15 1 160 
+$r16 1 161 
+$r19 1 188 
+r3 1 20 
+$r26 1 38 
+$r1 1 1 
+$r7 1 82 
+$r14 1 151 
+r20 1 194 
+$r13 1 150 
+$r6 1 78 
+Fields: 6
+-1 framework 1
+1 adaptor 4
+129 ArrayObject 188
+129 ArrayObject 160
+120 ArrayObject 176
+120 ArrayObject 150
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 27
+67 1 12 
+4 1 4 
+68 4 82 68 12 78 
+74 1 -2 
+266 1 12 
+13 1 12 
+81 1 -2 
+275 2 91 12 
+150 1 150 
+214 2 194 182 
+151 2 161 151 
+283 1 12 
+28 1 -2 
+29 1 29 
+32 2 32 38 
+160 1 160 
+37 1 20 
+294 0 
+105 0 
+176 1 176 
+304 0 
+305 0 
+114 1 20 
+311 0 
+57 0 
+122 1 91 
+188 1 188 
+Constructors: 0
+
+Summary: 21
+91 308 82 -1 194 129 12 151 60 20 0 68 161 38 78 305 182 29 32 -2 120 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.resumeBundles([Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;Z[I)V
+PTG:
+Vars:
+14
+$r8 1 41 
+r0 1 -2 
+$r10 1 58 
+$r14 2 93 110 
+$r7 1 40 
+$r13 1 100 
+$r5 2 93 110 
+$r11 1 -1 
+$r6 1 82 
+r3 1 -1 
+$r9 1 57 
+$r1 1 26 
+$r4 1 116 
+r2 1 -4 
+Fields: 8
+-1 framework 93
+-1 framework 110
+-2 ArrayObject 40
+-2 ArrayObject 57
+-2 ArrayObject 26
+-2 ArrayObject 100
+-2 ArrayObject 82
+-2 ArrayObject 116
+Accesses: 2
+92 1 -1 
+109 1 -1 
+Functions: 9
+-1 0 
+84 1 82 
+117 3 116 93 110 
+103 4 -1 100 93 110 
+40 1 40 
+9 0 
+41 1 41 
+57 2 57 58 
+26 1 26 
+Constructors: 0
+
+Summary: 7
+58 -1 2 41 -4 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.refreshPackages([Lorg/osgi/framework/Bundle;Z)V
+PTG:
+Vars:
+15
+$r1 1 1 
+$r3 1 1 
+$r8 1 1 
+r17 1 116 
+r4 1 -2 
+$r10 1 1 
+$r2 1 8 
+$r5 1 1 
+$r6 1 95 
+$r12 1 8 
+$r7 1 92 
+$r9 1 110 
+r16 1 27 
+$r11 1 1 
+r0 1 -1 
+Fields: 3
+-1 framework 1
+1 systemBundle 8
+1 secureAction 92
+Accesses: 9
+0 1 -1 
+65 1 -1 
+4 1 -1 
+5 1 1 
+88 1 -1 
+89 1 1 
+106 1 -1 
+75 1 -1 
+76 1 1 
+Functions: 9
+66 3 1 8 92 
+82 1 8 
+37 2 -2 27 
+101 6 -1 1 8 27 92 95 
+120 1 116 
+107 3 1 8 92 
+92 3 92 110 95 
+13 3 1 8 92 
+62 5 -1 1 8 27 92 
+Constructors: 1
+101 95
+
+Summary: 3
+-1 0 110 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.setResolved(Lorg/eclipse/osgi/service/resolver/BundleDescription;)Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+12
+$r7 2 91 12 
+r9 1 104 
+_ret 1 24 
+r1 1 -1 
+$r4 1 72 
+$r2 1 12 
+r3 1 24 
+r0 1 -2 
+$r6 1 98 
+$r8 1 104 
+$r10 1 24 
+r5 1 82 
+Fields: 2
+-1 framework 12
+82 ArrayObject 98
+Accesses: 4
+49 1 -1 
+90 1 -1 
+11 1 -1 
+44 1 -1 
+Functions: 13
+0 1 -2 
+64 1 24 
+98 1 98 
+36 1 -2 
+71 1 -2 
+40 0 
+72 1 72 
+138 1 24 
+12 1 12 
+15 1 -2 
+113 2 24 104 
+57 0 
+91 2 91 12 
+Constructors: 0
+
+Summary: 7
+82 -1 37 0 104 -2 72 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.suspendBundle(Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;)V
+PTG:
+Vars:
+12
+r8 1 -1 
+$r9 1 15 
+$r10 1 -1 
+$r7 1 88 
+$r6 1 82 
+$r1 1 28 
+r0 1 -2 
+$r12 1 46 
+$r4 1 68 
+$r2 1 31 
+$r3 1 62 
+$r5 1 79 
+Fields: 3
+-1 framework 15
+-1 framework 46
+-2 stateChanging 62
+Accesses: 3
+45 1 -1 
+61 1 -2 
+14 1 -1 
+Functions: 13
+0 2 -2 62 
+-1 0 
+98 1 88 
+68 3 -2 68 62 
+38 2 -2 62 
+7 2 -2 62 
+75 1 68 
+79 1 79 
+20 3 -2 62 15 
+52 4 -1 -2 46 62 
+85 1 82 
+27 2 -2 62 
+95 1 88 
+Constructors: 2
+75 68
+95 88
+
+Summary: 6
+-1 31 79 28 -2 82 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.cleanup()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.resolveBundles([Lorg/osgi/framework/Bundle;)Z
+PTG:
+Vars:
+8
+$r1 1 1 
+$r3 1 1 
+$r4 1 41 
+r7 2 33 -2 
+$r6 1 1 
+r0 1 -1 
+$r2 1 8 
+$r5 1 41 
+Fields: 4
+-1 framework 1
+1 systemBundle 8
+33 ArrayObject 41
+-2 ArrayObject 41
+Accesses: 4
+0 1 -1 
+4 1 -1 
+5 1 1 
+26 1 -1 
+Functions: 4
+19 3 -1 1 8 
+42 1 41 
+27 2 1 8 
+13 2 1 8 
+Constructors: 0
+
+Summary: 4
+-1 33 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.addRemovalPending(Lorg/eclipse/osgi/framework/adaptor/BundleData;)V
+PTG:
+Vars:
+9
+$r1 1 1 
+r0 1 -1 
+$r3 1 7 
+r12 2 41 26 
+r4 1 -2 
+$r6 1 1 
+$r8 1 41 
+$r9 1 1 
+$r7 1 26 
+Fields: 1
+-1 removalPendings 1
+Accesses: 3
+0 1 -1 
+51 1 -1 
+21 1 -1 
+Functions: 6
+17 1 7 
+67 3 -2 41 26 
+22 2 1 7 
+58 3 1 7 41 
+11 1 -2 
+46 1 41 
+Constructors: 2
+17 7
+46 41
+
+Summary: 6
+-1 7 41 26 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.refreshPackages([Lorg/osgi/framework/Bundle;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.getExportedPackages(Ljava/lang/String;)[Lorg/osgi/service/packageadmin/ExportedPackage;
+PTG:
+Vars:
+11
+r0 1 -1 
+$r7 1 47 
+$r10 1 81 
+_ret 1 81 
+$r6 1 32 
+$r2 1 12 
+r1 1 5 
+r4 1 -2 
+$r5 1 31 
+$r9 1 81 
+$r8 1 78 
+Fields: 2
+5 ArrayObject 47
+5 ArrayObject 31
+Accesses: 0
+Functions: 8
+0 1 -1 
+48 2 12 47 
+17 1 12 
+73 2 12 78 
+74 1 12 
+27 2 32 -2 
+62 1 12 
+31 1 31 
+Constructors: 1
+17 12
+
+Summary: 6
+-1 5 78 32 -2 12 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.getExportedPackage(Ljava/lang/String;)Lorg/osgi/service/packageadmin/ExportedPackage;
+PTG:
+Vars:
+12
+_ret 2 87 44 
+$r3 1 24 
+$r7 1 62 
+$r8 1 63 
+r1 1 5 
+r6 1 57 
+r9 1 71 
+r2 1 -2 
+r10 2 87 44 
+$r5 1 49 
+$r4 1 25 
+r0 1 -1 
+Fields: 4
+5 ArrayObject 44
+5 ArrayObject 24
+5 ArrayObject 87
+5 ArrayObject 62
+Accesses: 0
+Functions: 8
+0 1 -1 
+48 2 87 44 
+49 1 49 
+20 2 -2 25 
+24 1 24 
+73 2 71 57 
+62 1 62 
+63 1 63 
+Constructors: 0
+
+Summary: 8
+-1 5 49 57 25 63 71 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.<clinit>()V
+PTG:
+Vars:
+1
+$r5 2 0 10 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+34 2 0 10 
+8 0 
+28 0 
+Constructors: 0
+
+Summary: 1
+25 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.getHosts(Lorg/osgi/framework/Bundle;)[Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+7
+_ret 1 16 
+$r4 1 32 
+r3 1 16 
+r0 1 -2 
+$r1 1 -2 
+r2 1 7 
+r5 1 -1 
+Fields: 1
+7 ArrayObject 32
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 4
+-1 7 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.<init>(Lorg/eclipse/osgi/framework/internal/core/Framework;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+$r1 1 5 
+Fields: 0
+Accesses: 2
+17 1 -1 
+12 1 -1 
+Functions: 2
+1 1 -1 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 2
+-1 0 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.getBundleType(Lorg/osgi/framework/Bundle;)I
+PTG:
+Vars:
+3
+$r1 1 -2 
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.setResolvedBundles(Lorg/eclipse/osgi/framework/internal/core/InternalSystemBundle;)V
+PTG:
+Vars:
+9
+r4 1 17 
+r5 1 24 
+r0 1 -1 
+r1 1 -2 
+$r6 1 34 
+$r2 1 6 
+$r9 1 49 
+$r7 1 60 
+$r3 1 9 
+Fields: 5
+-1 framework 6
+6 adaptor 9
+24 ArrayObject 49
+24 ArrayObject 60
+24 ArrayObject 34
+Accesses: 2
+5 1 -1 
+6 1 6 
+Functions: 6
+2 4 -1 -2 6 9 
+18 1 17 
+34 1 34 
+50 4 -1 49 6 9 
+9 1 9 
+61 4 -1 6 9 60 
+Constructors: 0
+
+Summary: 5
+-1 17 24 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.getBundlePriv(Ljava/lang/Class;)Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+7
+r0 1 -2 
+r1 1 4 
+r8 1 21 
+$r3 1 39 
+r2 1 -1 
+$r7 1 4 
+$r4 1 42 
+Fields: 0
+Accesses: 1
+48 1 -1 
+Functions: 5
+0 1 -2 
+38 1 -1 
+39 1 39 
+13 1 4 
+30 0 
+Constructors: 0
+
+Summary: 7
+-1 39 21 4 42 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.getFragments(Lorg/osgi/framework/Bundle;)[Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+5
+_ret 1 4 
+r0 1 -2 
+$r2 1 4 
+r3 1 -1 
+$r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.setFrameworkVersion(Lorg/eclipse/osgi/service/resolver/BundleDescription;)V
+PTG:
+Vars:
+10
+r0 1 -2 
+$r8 1 63 
+r11 1 -1 
+$r3 1 15 
+$r6 1 40 
+r1 1 6 
+$r4 1 34 
+$r9 1 68 
+$r2 1 14 
+$r5 1 35 
+Fields: 2
+6 ArrayObject 14
+6 ArrayObject 34
+Accesses: 0
+Functions: 9
+0 1 -2 
+34 1 34 
+35 1 35 
+71 1 68 
+43 1 40 
+14 1 14 
+62 1 -2 
+15 1 15 
+63 1 63 
+Constructors: 0
+
+Summary: 8
+-1 15 35 63 6 40 -2 68 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.getBundle(Ljava/lang/Class;)Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+7
+r3 1 -2 
+_ret 1 21 
+r2 1 -1 
+$r5 1 21 
+$r4 1 21 
+$r0 1 0 
+$r1 1 12 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+18 3 -1 -2 12 
+6 2 -1 -2 
+12 1 12 
+Constructors: 1
+18 12
+
+Summary: 4
+-1 0 0 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.applyRemovalPending(Lorg/eclipse/osgi/service/resolver/BundleDelta;)V
+PTG:
+Vars:
+19
+$r4 1 90 
+$r7 1 113 
+r0 1 -2 
+r12 1 135 
+$r2 1 21 
+r8 1 113 
+r3 1 -1 
+$r14 1 142 
+$r13 1 142 
+$r10 1 196 
+$r5 1 100 
+$r9 1 178 
+$r6 1 90 
+r26 1 178 
+$r22 1 -1 
+r1 1 19 
+$r24 1 -1 
+$r11 1 199 
+$r15 1 30 
+Fields: 1
+-1 removalPendings 90
+Accesses: 2
+96 1 -1 
+89 1 -1 
+Functions: 23
+0 1 -2 
+128 1 113 
+192 1 178 
+97 2 100 90 
+195 1 178 
+196 1 196 
+72 0 
+104 1 19 
+202 1 199 
+75 0 
+140 1 135 
+13 1 -2 
+45 1 19 
+110 1 100 
+177 1 19 
+20 1 19 
+52 0 
+85 0 
+150 1 142 
+56 0 
+29 1 19 
+62 0 
+159 1 135 
+Constructors: 1
+110 100
+
+Summary: 13
+59 19 196 30 142 -1 178 21 113 56 199 100 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.getExportedPackages(Lorg/osgi/framework/Bundle;)[Lorg/osgi/service/packageadmin/ExportedPackage;
+PTG:
+Vars:
+14
+r9 1 -2 
+$r12 1 110 
+$r7 1 46 
+r8 1 50 
+$r5 1 23 
+$r10 1 66 
+$r11 1 107 
+$r13 1 110 
+_ret 1 110 
+$r0 1 0 
+r4 1 15 
+r6 1 33 
+r2 1 -1 
+$r3 1 9 
+Fields: 3
+-1 framework 9
+9 adaptor 15
+33 ArrayObject 46
+Accesses: 2
+8 1 -1 
+9 1 9 
+Functions: 9
+64 1 50 
+4 1 0 
+22 1 15 
+102 2 0 107 
+23 1 23 
+103 1 0 
+41 4 -1 9 46 15 
+91 1 0 
+76 2 0 50 
+Constructors: 1
+4 0
+
+Summary: 8
+23 50 66 -1 33 107 -2 0 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.processDelta([Lorg/eclipse/osgi/service/resolver/BundleDelta;ZLorg/eclipse/osgi/service/resolver/State;)[Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+74
+r37 1 -4 
+$r26 1 459 
+$r63 1 -1 
+$r25 1 438 
+$r29 2 51 130 
+r65 1 71 
+$r12 1 133 
+$r52 1 130 
+r68 1 358 
+$r61 1 -1 
+$r10 1 116 
+$r34 2 51 130 
+$r75 2 -1 799 
+$r79 1 817 
+$r45 1 -1 
+$r5 1 57 
+r67 1 144 
+$r15 3 51 199 130 
+$r22 1 274 
+$r46 1 760 
+$r32 1 871 
+$r11 2 51 130 
+r71 1 588 
+$r47 1 772 
+$r18 1 218 
+$r9 1 113 
+$r76 2 51 130 
+$r31 1 854 
+r66 1 116 
+$r23 1 275 
+_ret 1 116 
+$r8 1 36 
+$r64 1 -1 
+$r60 1 711 
+$r58 1 705 
+$r57 1 693 
+$r55 1 130 
+$r77 2 51 130 
+r4 1 -1 
+r72 1 636 
+r1 1 -2 
+$r50 1 786 
+$r39 2 51 130 
+$r40 1 674 
+$r36 1 907 
+$r48 1 775 
+$r20 1 250 
+$r56 1 731 
+$r19 1 219 
+$r24 2 51 130 
+r13 1 151 
+$r30 1 438 
+$r3 1 20 
+$r42 1 410 
+$r53 1 734 
+$r28 3 500 51 130 
+$r44 2 51 130 
+$r21 1 251 
+$r33 3 862 51 130 
+$r14 1 188 
+$r59 1 708 
+$r0 1 0 
+$r7 1 58 
+$r80 1 821 
+$r17 1 197 
+$r78 1 731 
+$r6 1 51 
+$r16 1 202 
+$r41 1 400 
+$r49 1 778 
+$r35 2 51 130 
+$r54 1 738 
+$r51 1 -1 
+$r27 1 509 
+Fields: 32
+-1 framework 130
+-1 framework 51
+218 bundledata 219
+51 adaptor 674
+51 bundles 438
+51 startLevelManager 133
+51 securityAdmin 907
+274 bundledata 275
+250 bundledata 251
+199 systemBundle 202
+-2 ArrayObject 57
+-2 ArrayObject 20
+-2 ArrayObject 36
+130 systemBundle 731
+130 adaptor 674
+130 bundles 438
+130 startLevelManager 133
+130 securityAdmin 907
+116 ArrayObject 188
+116 ArrayObject 400
+116 ArrayObject 197
+116 ArrayObject 854
+116 ArrayObject 218
+116 ArrayObject 274
+116 ArrayObject 588
+116 ArrayObject 250
+116 ArrayObject 636
+116 ArrayObject 459
+116 ArrayObject 871
+116 ArrayObject 358
+116 ArrayObject 509
+116 ArrayObject 410
+Accesses: 26
+129 1 -1 
+130 2 130 51 
+323 1 -1 
+198 1 -1 
+199 3 130 51 199 
+903 1 -1 
+904 2 130 51 
+274 1 274 
+722 1 -1 
+533 1 -1 
+534 2 130 51 
+727 1 -1 
+728 1 130 
+218 1 218 
+861 1 -1 
+670 1 -1 
+671 2 130 51 
+805 1 -1 
+810 1 -1 
+811 2 130 51 
+50 1 -1 
+434 1 -1 
+435 2 130 51 
+499 1 -1 
+886 1 -1 
+250 1 250 
+Functions: 61
+640 1 636 
+770 1 -1 
+6 1 0 
+775 1 775 
+138 19 133 197 358 871 459 588 400 274 275 116 854 218 250 410 219 251 188 636 509 
+781 1 778 
+910 1 907 
+400 1 400 
+784 1 -1 
+530 0 
+275 1 275 
+20 1 20 
+919 1 -4 
+411 9 -1 130 674 51 133 438 410 731 907 
+667 0 
+797 1 -1 
+546 12 -1 -2 130 674 51 20 36 133 438 57 731 907 
+802 2 -1 799 
+36 1 36 
+164 0 
+677 1 674 
+936 1 -4 
+431 0 
+944 1 -4 
+51 5 674 51 133 438 907 
+693 2 705 693 
+57 1 57 
+58 1 58 
+570 0 
+826 3 -1 817 821 
+955 27 -1 130 133 197 907 459 588 400 274 275 854 151 218 410 731 219 674 358 871 51 116 438 250 251 188 636 509 
+188 1 188 
+700 1 693 
+829 8 817 130 674 51 133 438 907 731 
+319 0 
+703 1 -1 
+708 1 708 
+328 7 130 674 51 133 438 907 731 
+841 0 
+714 1 711 
+460 1 459 
+78 2 0 71 
+719 1 -1 
+592 1 588 
+340 0 
+854 1 854 
+219 1 219 
+92 2 0 71 
+743 3 -1 738 734 
+872 9 130 674 51 133 438 871 907 731 862 
+106 2 0 113 
+362 1 358 
+618 0 
+746 7 130 674 133 438 731 907 734 
+108 1 0 
+887 7 130 674 51 133 438 907 731 
+760 2 772 760 
+251 1 251 
+126 18 197 358 871 459 588 400 274 275 116 854 218 250 410 219 251 188 636 509 
+510 9 130 674 51 500 133 438 907 731 509 
+767 1 760 
+Constructors: 5
+6 0
+743 734
+826 817
+700 693
+767 760
+
+Summary: 19
+711 775 58 113 -1 144 778 705 2 708 772 799 -4 151 0 0 71 786 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.createExportedPackage(Lorg/eclipse/osgi/service/resolver/ExportPackageDescription;)Lorg/eclipse/osgi/framework/internal/core/ExportedPackageImpl;
+PTG:
+Vars:
+11
+r8 1 46 
+r1 1 6 
+$r4 1 67 
+_ret 1 67 
+$r6 1 37 
+$r7 1 46 
+$r3 1 23 
+$r2 1 12 
+r9 2 23 66 
+r5 1 -1 
+r0 1 -2 
+Fields: 1
+-1 framework 37
+Accesses: 1
+36 1 -1 
+Functions: 7
+0 1 -2 
+37 1 37 
+22 1 6 
+40 1 6 
+73 4 -2 66 67 23 
+11 1 6 
+61 1 46 
+Constructors: 1
+73 67
+
+Summary: 7
+-1 23 6 12 46 -2 66 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.getRequiredBundles(Ljava/lang/String;)[Lorg/osgi/service/packageadmin/RequiredBundle;
+PTG:
+Vars:
+21
+$r5 1 54 
+$r20 1 155 
+$r7 1 74 
+$r6 1 64 
+$r9 1 88 
+$r18 1 5 
+$r8 1 75 
+r0 1 -2 
+$r2 1 16 
+$r3 1 35 
+$r11 1 87 
+r1 1 -1 
+$r12 1 96 
+_ret 1 155 
+$r17 1 155 
+r19 2 11 23 
+$r16 1 152 
+$r10 1 95 
+$r13 1 115 
+$r15 1 119 
+$r14 1 115 
+Fields: 14
+-1 framework 5
+-1 framework 16
+11 ArrayObject 54
+11 ArrayObject 87
+11 ArrayObject 95
+11 ArrayObject 64
+11 ArrayObject 74
+11 ArrayObject 115
+23 ArrayObject 54
+23 ArrayObject 87
+23 ArrayObject 95
+23 ArrayObject 64
+23 ArrayObject 74
+23 ArrayObject 115
+Accesses: 2
+4 1 -1 
+15 1 -1 
+Functions: 14
+64 1 64 
+5 1 5 
+102 2 96 88 
+136 1 35 
+41 1 35 
+74 1 74 
+16 2 16 -2 
+147 2 35 152 
+116 1 115 
+148 1 35 
+54 1 54 
+87 2 87 88 
+122 2 35 119 
+95 1 95 
+Constructors: 2
+102 88
+41 35
+
+Summary: 11
+11 23 75 119 88 -1 35 155 152 96 -2 
+org/eclipse/osgi/framework/internal/core/PackageAdminImpl.doResolveBundles([Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;Z)V
+PTG:
+Vars:
+47
+$r19 1 100 
+$r43 1 13 
+$r42 1 23 
+$r5 1 33 
+r50 1 41 
+$r59 1 356 
+$r8 1 13 
+$r57 1 178 
+r23 1 184 
+$r13 1 23 
+$r25 1 228 
+$r10 1 23 
+r22 1 130 
+$r56 1 177 
+$r21 1 126 
+$r24 1 232 
+$r1 1 13 
+r51 2 335 65 
+$r17 1 13 
+$r2 1 23 
+$r55 2 93 171 
+$r14 1 13 
+$r41 1 13 
+r6 1 -2 
+$r9 1 13 
+$r46 1 13 
+$r29 1 332 
+$r4 1 13 
+$r44 1 13 
+$r54 2 13 168 
+$r18 1 93 
+$r28 1 204 
+$r3 1 13 
+$r40 1 13 
+$r26 1 240 
+r27 1 244 
+$r49 1 -1 
+$r39 1 -1 
+r0 1 -1 
+$r15 1 13 
+r60 1 366 
+$r45 1 23 
+$r11 1 13 
+r53 1 216 
+$r12 1 13 
+$r16 1 83 
+$r58 1 335 
+Fields: 10
+-1 framework 13
+13 systemBundle 23
+13 adaptor 33
+13 bundles 93
+184 ArrayObject 240
+184 ArrayObject 228
+168 bundles 171
+-2 ArrayObject 177
+-2 ArrayObject 126
+-2 ArrayObject 232
+Accesses: 29
+576 1 -1 
+577 1 13 
+450 1 -1 
+514 1 -1 
+451 1 13 
+12 1 -1 
+590 1 -1 
+79 1 -1 
+464 1 -1 
+528 1 -1 
+19 1 -1 
+595 1 -1 
+20 1 13 
+596 1 13 
+469 1 -1 
+533 1 -1 
+470 1 13 
+89 1 -1 
+90 1 13 
+29 1 -1 
+30 1 13 
+167 1 -1 
+168 2 168 13 
+559 1 -1 
+433 1 -1 
+497 1 -1 
+569 1 -1 
+443 1 -1 
+507 1 -1 
+Functions: 39
+325 2 100 332 
+390 0 
+263 2 100 244 
+327 1 100 
+583 4 33 23 13 93 
+9 0 
+137 1 130 
+457 4 33 23 13 93 
+521 0 
+394 1 -1 
+203 1 41 
+204 1 204 
+80 4 33 23 13 93 
+273 7 -1 33 244 23 216 13 93 
+149 2 130 100 
+86 6 -1 33 83 23 13 93 
+26 4 33 23 13 93 
+603 4 33 23 13 93 
+477 4 33 23 13 93 
+541 0 
+288 2 100 244 
+33 1 33 
+353 3 65 41 335 
+163 2 130 100 
+356 1 356 
+106 1 100 
+171 3 178 171 93 
+556 0 
+430 0 
+494 0 
+240 1 240 
+560 4 33 23 13 93 
+177 1 177 
+434 4 33 23 13 93 
+498 0 
+373 7 -1 33 23 41 13 93 366 
+313 1 100 
+251 1 244 
+126 1 126 
+Constructors: 1
+106 100
+
+Summary: 17
+204 83 244 356 65 130 -1 178 335 41 0 100 184 216 332 366 -2 

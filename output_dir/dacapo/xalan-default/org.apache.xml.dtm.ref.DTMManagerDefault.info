@@ -1,0 +1,471 @@
+17
+org/apache/xml/dtm/ref/DTMManagerDefault.addDTM(Lorg/apache/xml/dtm/DTM;II)V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r6 1 21 
+$r1 1 21 
+r2 1 -2 
+r7 1 73 
+r5 1 47 
+$r4 1 78 
+$r8 1 78 
+$r3 1 21 
+Fields: 2
+-1 m_dtms 21
+-1 m_dtm_offsets 78
+Accesses: 7
+96 1 -1 
+20 1 -1 
+52 1 -1 
+68 1 -1 
+103 1 -1 
+77 1 -1 
+93 1 -1 
+Functions: 6
+16 0 
+38 0 
+87 2 73 78 
+12 0 
+62 2 21 47 
+111 1 -2 
+Constructors: 0
+
+Summary: 3
+13 0 -1 
+org/apache/xml/dtm/ref/DTMManagerDefault.<init>()V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 18 
+$r1 1 8 
+$r3 1 29 
+$r4 1 40 
+Fields: 0
+Accesses: 5
+20 1 -1 
+36 1 -1 
+25 1 -1 
+11 1 -1 
+47 1 -1 
+Functions: 3
+1 1 -1 
+33 1 29 
+44 1 40 
+Constructors: 3
+1 -1
+33 29
+44 40
+
+Summary: 1
+-1 
+org/apache/xml/dtm/ref/DTMManagerDefault.createDocumentFragment()Lorg/apache/xml/dtm/DTM;
+PTG:
+Vars:
+9
+r2 1 25 
+r8 1 3 
+r0 1 13 
+$r4 1 28 
+$r7 1 46 
+r3 1 -1 
+$r6 1 -1 
+$r5 1 41 
+r1 1 18 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 0 
+34 2 25 28 
+19 1 18 
+51 2 -1 46 
+6 1 3 
+9 1 3 
+27 2 -1 28 
+14 1 13 
+Constructors: 2
+34 28
+51 46
+
+Summary: 6
+25 13 28 3 -1 18 
+org/apache/xml/dtm/ref/DTMManagerDefault.release(Lorg/apache/xml/dtm/DTM;Z)Z
+PTG:
+Vars:
+7
+r1 1 -1 
+$r2 1 77 
+r0 1 -2 
+$r3 1 -2 
+$r4 1 43 
+r6 1 28 
+$r5 1 -2 
+Fields: 2
+-1 m_dtms 77
+-1 m_dtms 43
+Accesses: 2
+42 1 -1 
+76 1 -1 
+Functions: 6
+66 4 -1 -2 43 77 
+22 1 -2 
+87 1 -2 
+11 1 -2 
+29 1 28 
+46 1 28 
+Constructors: 0
+
+Summary: 4
+28 0 -1 -2 
+org/apache/xml/dtm/ref/DTMManagerDefault.getDTMIdentity(Lorg/apache/xml/dtm/DTM;)I
+PTG:
+Vars:
+6
+r0 1 -2 
+$r3 1 32 
+r1 1 -1 
+$r5 1 59 
+$r2 1 32 
+r4 1 50 
+Fields: 3
+-1 m_dtms 32
+-1 m_dtm_offsets 59
+32 ArrayObject 50
+Accesses: 3
+58 1 -1 
+44 1 -1 
+31 1 -1 
+Functions: 3
+20 0 
+21 0 
+12 0 
+Constructors: 0
+
+Summary: 5
+13 21 0 -1 -2 
+org/apache/xml/dtm/ref/DTMManagerDefault.createDTMIterator(ILorg/apache/xml/dtm/DTMFilter;Z)Lorg/apache/xml/dtm/DTMIterator;
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-3 -1 
+org/apache/xml/dtm/ref/DTMManagerDefault.getDTMHandleFromNode(Lorg/w3c/dom/Node;)I
+PTG:
+Vars:
+17
+$r12 1 35 
+$r2 1 35 
+r1 1 -1 
+$r11 1 -2 
+$r8 1 181 
+r17 1 53 
+$r4 1 160 
+$r7 1 -2 
+$r13 1 53 
+r20 3 111 120 142 
+r18 4 -2 111 120 142 
+$r9 1 196 
+r0 1 -2 
+$r19 2 111 120 
+r21 1 160 
+$r10 1 202 
+$r3 1 148 
+Fields: 2
+-1 m_dtms 35
+35 ArrayObject 53
+Accesses: 2
+34 1 -1 
+47 1 -1 
+Functions: 18
+97 1 -2 
+195 1 -2 
+71 2 -2 53 
+135 3 120 142 111 
+201 1 -2 
+11 0 
+235 0 
+108 1 -2 
+15 0 
+175 2 160 181 
+239 0 
+178 1 -2 
+147 4 -1 35 148 53 
+119 1 -2 
+215 2 160 -2 
+153 5 -2 148 120 142 111 
+27 0 
+191 3 160 196 202 
+Constructors: 1
+153 148
+
+Summary: 12
+12 160 -1 -2 181 120 202 142 196 236 111 148 
+org/apache/xml/dtm/ref/DTMManagerDefault.createDTMIterator(Ljava/lang/String;Lorg/apache/xml/utils/PrefixResolver;)Lorg/apache/xml/dtm/DTMIterator;
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-3 -1 -2 
+org/apache/xml/dtm/ref/DTMManagerDefault.getDTM(I)Lorg/apache/xml/dtm/DTM;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 8 
+$r3 1 -1 
+Fields: 2
+1 ArrayObject 8
+-1 m_dtms 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/dtm/ref/DTMManagerDefault.getDTM(Ljavax/xml/transform/Source;ZLorg/apache/xml/dtm/DTMWSFilter;ZZ)Lorg/apache/xml/dtm/DTM;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r82 1 879 
+$r24 1 893 
+r2 1 -2 
+r1 1 4 
+$r23 1 886 
+r3 1 -4 
+Fields: 1
+-1 m_xsf 4
+Accesses: 18
+0 1 -1 
+417 1 -1 
+770 1 -1 
+835 1 -1 
+292 1 -1 
+583 1 -1 
+810 1 -1 
+428 1 -1 
+748 1 -1 
+558 1 -1 
+846 1 -1 
+594 1 -1 
+403 1 -1 
+439 1 -1 
+759 1 -1 
+824 1 -1 
+572 1 -1 
+734 1 -1 
+Functions: 64
+640 0 
+896 2 893 879 
+385 0 
+131 0 
+261 0 
+517 0 
+6 2 -1 4 
+646 0 
+774 0 
+263 0 
+266 0 
+527 0 
+144 0 
+784 0 
+660 0 
+536 0 
+797 2 -1 4 
+159 0 
+671 0 
+163 0 
+421 0 
+168 0 
+173 0 
+47 3 -1 -4 4 
+432 0 
+690 0 
+179 0 
+312 0 
+58 2 -1 4 
+186 0 
+314 0 
+443 0 
+828 0 
+702 0 
+576 0 
+453 0 
+839 0 
+712 0 
+587 0 
+332 0 
+721 0 
+466 2 -1 4 
+850 0 
+598 0 
+473 0 
+220 4 -1 -2 -4 4 
+860 0 
+608 0 
+353 0 
+487 0 
+873 2 -1 4 
+365 0 
+621 2 -1 4 
+496 0 
+752 0 
+241 4 -1 -2 -4 4 
+118 3 -1 -2 4 
+374 0 
+886 1 886 
+631 0 
+505 0 
+763 0 
+252 2 -1 4 
+125 1 -2 
+Constructors: 1
+896 879
+
+Summary: 20
+2 -1 -4 136 263 317 475 361 176 648 149 129 886 314 893 266 123 0 173 349 
+org/apache/xml/dtm/ref/DTMManagerDefault.getExpandedNameTable(Lorg/apache/xml/dtm/DTM;)Lorg/apache/xml/dtm/ref/ExpandedNameTable;
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 m_expandedNameTable 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xml/dtm/ref/DTMManagerDefault.addDTM(Lorg/apache/xml/dtm/DTM;I)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xml/dtm/ref/DTMManagerDefault.releaseXMLReader(Lorg/xml/sax/XMLReader;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+$r3 1 1 
+Fields: 1
+-1 m_readerManager 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/xml/dtm/ref/DTMManagerDefault.getXMLReader(Ljavax/xml/transform/Source;)Lorg/xml/sax/XMLReader;
+PTG:
+Vars:
+11
+r1 1 -1 
+$r6 1 -1 
+$r4 1 32 
+$r3 1 25 
+$r7 1 49 
+r10 2 11 45 
+$r9 1 11 
+r0 1 -2 
+$r8 1 54 
+$r2 1 25 
+$r5 1 -2 
+Fields: 1
+-1 m_readerManager 25
+Accesses: 3
+35 1 -1 
+38 1 -1 
+24 1 -1 
+Functions: 5
+-1 0 
+53 1 -1 
+39 1 25 
+8 1 -2 
+58 3 -1 49 54 
+Constructors: 1
+58 49
+
+Summary: 3
+54 -1 -2 
+org/apache/xml/dtm/ref/DTMManagerDefault.getFirstFreeDTMID()I
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r3 1 19 
+$r2 1 1 
+Fields: 2
+1 ArrayObject 19
+-1 m_dtms 1
+Accesses: 2
+0 1 -1 
+14 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/xml/dtm/ref/DTMManagerDefault.createDTMIterator(Ljava/lang/Object;I)Lorg/apache/xml/dtm/DTMIterator;
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/xml/dtm/ref/DTMManagerDefault.createDTMIterator(I)Lorg/apache/xml/dtm/DTMIterator;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

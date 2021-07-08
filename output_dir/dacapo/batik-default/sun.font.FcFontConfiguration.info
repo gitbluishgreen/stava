@@ -1,0 +1,961 @@
+23
+sun/font/FcFontConfiguration.getFcFontList([Lsun/font/FontConfigManager$FcCompFont;Ljava/lang/String;I)[Lsun/font/FontConfigManager$FontConfigFont;
+PTG:
+Vars:
+9
+$r2 1 79 
+$r3 1 41 
+$r5 1 55 
+r9 3 -3 26 11 
+r8 1 -1 
+r0 1 -2 
+_ret 1 79 
+$r1 1 78 
+$r4 1 42 
+Fields: 5
+-2 ArrayObject 78
+-2 ArrayObject 41
+-2 ArrayObject 55
+78 allFonts 79
+41 jdkName 42
+Accesses: 3
+55 1 55 
+41 1 41 
+78 1 78 
+Functions: 3
+0 3 -3 26 11 
+37 4 -3 26 42 11 
+15 3 -3 26 11 
+Constructors: 0
+
+Summary: 9
+-2 55 78 -1 65 -3 42 41 0 
+sun/font/FcFontConfiguration.warning(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 5 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 0 
+8 2 -2 5 
+Constructors: 0
+
+Summary: 2
+-2 0 
+sun/font/FcFontConfiguration.getFileNameFromPlatformName(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+sun/font/FcFontConfiguration.getVersionString(Ljava/io/File;)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r0 1 0 
+r1 1 -2 
+$r3 1 -1 
+r4 1 -1 
+$r2 1 12 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 2 0 -2 
+9 1 0 
+Constructors: 1
+5 0
+
+Summary: 3
+-2 -1 0 
+sun/font/FcFontConfiguration.buildFontDescriptors(II)[Lsun/awt/FontDescriptor;
+PTG:
+Vars:
+11
+$r8 1 56 
+r3 1 19 
+$r6 1 53 
+_ret 1 24 
+$r7 1 52 
+r0 1 -1 
+r1 1 4 
+$r2 1 15 
+$r9 1 60 
+r4 1 24 
+$r5 1 44 
+Fields: 2
+4 ArrayObject 15
+19 ArrayObject 52
+Accesses: 0
+Functions: 4
+0 1 -1 
+53 1 53 
+62 4 52 56 44 60 
+15 1 15 
+Constructors: 1
+62 44
+
+Summary: 7
+60 15 -1 56 52 4 19 
+sun/font/FcFontConfiguration.needToSearchForFile(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+sun/font/FcFontConfiguration.getDefaultFontCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;
+PTG:
+Vars:
+4
+r2 1 -2 
+$r0 1 2 
+_ret 1 2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/font/FcFontConfiguration.getFaceNameFromComponentFontName(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+sun/font/FcFontConfiguration.init()Z
+PTG:
+Vars:
+22
+r23 1 127 
+$r22 1 1 
+$r18 1 75 
+$r19 1 79 
+$r16 1 -1 
+$r8 1 150 
+$r14 1 39 
+r12 1 167 
+$r7 1 142 
+r0 1 -1 
+r3 1 18 
+$r6 1 1 
+$r1 1 1 
+$r2 1 18 
+$r11 1 161 
+$r5 1 1 
+$r20 1 82 
+$r15 1 1 
+$r9 1 153 
+r4 1 29 
+$r10 1 156 
+$r17 1 66 
+Fields: 2
+-1 fontManager 18
+-1 fcCompFonts 1
+Accesses: 7
+0 1 -1 
+17 1 -1 
+113 1 -1 
+42 1 -1 
+106 1 -1 
+45 1 -1 
+30 1 -1 
+Functions: 21
+-1 0 
+161 1 161 
+66 1 66 
+99 0 
+38 1 29 
+70 1 66 
+10 3 -1 1 18 
+138 0 
+75 2 -1 75 
+172 4 -1 1 18 167 
+14 3 -1 1 18 
+110 2 1 29 
+142 2 142 127 
+79 1 79 
+146 1 142 
+53 3 -1 1 18 
+85 1 82 
+150 2 150 153 
+25 1 18 
+122 0 
+156 1 156 
+Constructors: 2
+146 142
+70 66
+
+Summary: 0
+
+sun/font/FcFontConfiguration.writeFcInfo()V
+PTG:
+Vars:
+70
+$r4 1 18 
+$r20 1 442 
+$r40 1 254 
+$r47 1 287 
+$r67 1 468 
+$r42 1 264 
+$r23 1 154 
+$r0 1 0 
+$r65 1 -1 
+$r52 1 310 
+$r8 1 44 
+$r13 1 361 
+$r68 1 472 
+$r43 1 265 
+$r26 1 170 
+$r32 1 205 
+$r29 1 193 
+$r19 1 439 
+$r63 1 112 
+r7 1 34 
+$r38 1 246 
+$r71 1 129 
+$r51 1 201 
+$r10 1 53 
+$r49 1 297 
+r6 1 29 
+$r41 1 201 
+$r11 1 351 
+$r70 1 478 
+$r25 1 162 
+$r36 1 236 
+r72 1 143 
+$r21 1 129 
+r73 1 176 
+$r12 1 358 
+$r53 1 311 
+$r34 1 201 
+$r39 1 251 
+r5 1 18 
+r3 1 -1 
+$r16 1 423 
+$r62 1 53 
+$r45 1 273 
+$r57 1 80 
+$r56 1 53 
+$r60 1 99 
+$r30 1 196 
+$r14 1 371 
+$r66 1 459 
+$r58 1 85 
+r75 1 341 
+$r50 1 300 
+$r69 1 475 
+$r24 1 157 
+r74 1 334 
+$r61 1 102 
+$r55 1 53 
+$r15 1 415 
+$r59 1 94 
+$r17 1 432 
+$r27 1 179 
+$r46 1 282 
+$r22 1 145 
+$r31 1 201 
+$r37 1 241 
+r76 1 369 
+$r18 1 436 
+$r28 1 188 
+$r35 1 227 
+$r48 1 292 
+Fields: 12
+-1 fontManager 18
+-1 fcCompFonts 129
+143 allFonts 201
+143 jdkName 154
+310 fontFile 311
+129 ArrayObject 143
+34 cacheDirs 53
+53 ArrayObject 80
+53 ArrayObject 112
+201 ArrayObject 310
+201 ArrayObject 264
+264 familyName 265
+Accesses: 16
+64 1 34 
+128 1 -1 
+257 1 143 
+165 1 143 
+39 1 34 
+199 1 143 
+136 1 -1 
+264 1 264 
+73 1 34 
+105 1 34 
+303 1 143 
+17 1 -1 
+51 1 34 
+310 1 310 
+152 1 143 
+217 1 143 
+Functions: 60
+-1 0 
+387 2 0 371 
+4 1 0 
+392 1 371 
+395 2 369 334 
+268 3 0 265 254 
+13 1 0 
+145 2 145 154 
+273 2 176 273 
+149 1 145 
+277 1 273 
+25 1 18 
+282 1 282 
+157 1 157 
+30 1 29 
+287 1 287 
+162 1 162 
+292 1 292 
+420 1 415 
+423 1 423 
+41 0 
+297 1 297 
+170 1 170 
+427 1 423 
+47 2 0 44 
+432 2 432 436 
+179 2 176 179 
+435 10 -1 129 18 310 311 264 201 265 154 143 
+183 1 179 
+439 1 439 
+314 3 0 311 300 
+188 1 188 
+445 1 442 
+193 1 193 
+330 10 -1 129 18 310 311 264 201 265 154 143 
+459 1 459 
+204 0 
+463 1 459 
+208 3 0 196 205 
+336 1 334 
+468 2 468 472 
+85 1 85 
+471 10 -1 129 18 310 311 264 201 265 154 143 
+89 1 85 
+345 1 341 
+475 1 475 
+349 1 341 
+94 1 94 
+481 1 478 
+99 1 99 
+227 2 176 227 
+358 2 358 351 
+231 1 227 
+361 1 361 
+236 1 236 
+113 3 0 112 102 
+241 1 241 
+246 1 246 
+377 2 369 371 
+251 1 251 
+Constructors: 9
+4 0
+149 145
+277 273
+183 179
+231 227
+89 85
+377 371
+427 423
+463 459
+
+Summary: 3
+-1 358 371 
+sun/font/FcFontConfiguration.get2DCompositeFontInfo()[Lsun/font/CompositeFontDescriptor;
+PTG:
+Vars:
+31
+r0 1 -1 
+$r12 1 73 
+r7 1 40 
+$r24 1 180 
+r19 1 119 
+_ret 1 20 
+$r10 1 65 
+r14 1 80 
+$r16 1 89 
+$r8 1 51 
+$r18 1 102 
+r2 1 1 
+$r25 1 150 
+$r27 1 163 
+$r13 1 74 
+r17 1 95 
+$r15 1 84 
+$r1 1 1 
+$r23 1 189 
+$r26 1 151 
+$r28 1 164 
+$r21 1 174 
+r5 1 20 
+$r9 1 60 
+r4 1 17 
+$r11 1 68 
+r20 1 126 
+$r29 1 110 
+r3 1 12 
+$r6 1 34 
+$r22 1 205 
+Fields: 8
+68 ArrayObject 73
+150 fontFile 151
+-1 fontManager 1
+163 familyName 164
+95 ArrayObject 150
+95 ArrayObject 163
+34 ArrayObject 40
+84 ArrayObject 89
+Accesses: 3
+0 1 -1 
+163 1 163 
+150 1 150 
+Functions: 10
+65 2 65 73 
+193 2 180 119 
+82 4 -1 1 17 89 
+51 2 51 40 
+55 1 51 
+8 1 1 
+74 1 74 
+218 4 80 119 205 126 
+60 1 60 
+13 1 12 
+Constructors: 2
+55 51
+218 205
+
+Summary: 2
+126 -1 
+sun/font/FcFontConfiguration.initReorderMap()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 1
+5 1
+
+Summary: 1
+-1 
+sun/font/FcFontConfiguration.getPlatformFontNames()[Ljava/lang/String;
+PTG:
+Vars:
+16
+$r8 1 91 
+$r10 1 47 
+$r0 1 0 
+r6 1 25 
+$r9 1 91 
+$r13 1 61 
+$r15 1 67 
+r4 1 9 
+_ret 1 91 
+$r12 1 60 
+$r11 1 48 
+r2 1 -1 
+$r3 1 9 
+r5 1 20 
+$r7 1 88 
+$r14 1 66 
+Fields: 7
+47 allFonts 48
+-1 fontManager 9
+25 ArrayObject 47
+25 ArrayObject 60
+60 allFonts 61
+61 ArrayObject 66
+66 fontFile 67
+Accesses: 4
+66 1 66 
+8 1 -1 
+60 1 60 
+47 1 47 
+Functions: 5
+16 1 9 
+4 1 0 
+21 1 20 
+70 2 0 67 
+86 2 0 88 
+Constructors: 1
+4 0
+
+Summary: 3
+0 88 -1 
+sun/font/FcFontConfiguration.<init>(Lsun/font/SunFontManager;ZZ)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+9 1 -1 
+14 1 -1 
+Functions: 2
+18 1 -1 
+4 2 -1 -2 
+Constructors: 1
+4 -1
+
+Summary: 3
+-2 -1 0 
+sun/font/FcFontConfiguration.getFcInfoFile()Ljava/io/File;
+PTG:
+Vars:
+40
+$r27 1 141 
+$r34 1 -1 
+$r19 1 109 
+r35 2 20 13 
+$r7 1 51 
+$r16 1 91 
+r4 1 36 
+$r23 1 123 
+r37 1 26 
+$r2 1 7 
+$r6 1 46 
+$r9 1 61 
+r3 1 32 
+r13 1 81 
+_ret 1 178 
+$r33 1 172 
+$r39 1 1 
+$r31 1 164 
+$r22 1 120 
+$r10 1 66 
+$r18 1 104 
+$r29 1 150 
+$r14 1 83 
+$r12 1 75 
+r15 1 89 
+r0 1 -1 
+$r1 1 1 
+$r20 1 112 
+$r25 1 131 
+$r30 1 159 
+$r38 1 178 
+$r24 1 126 
+$r26 1 136 
+$r17 1 100 
+$r8 1 56 
+$r21 1 115 
+$r5 1 38 
+$r11 1 71 
+$r32 1 169 
+r28 1 147 
+Fields: 1
+-1 fcInfoFileName 1
+Accesses: 3
+0 1 -1 
+182 1 -1 
+175 1 -1 
+Functions: 31
+-1 0 
+66 2 66 36 
+131 2 131 89 
+7 1 7 
+71 2 32 71 
+136 1 136 
+75 1 75 
+141 1 141 
+83 1 83 
+21 0 
+150 2 81 150 
+154 1 150 
+27 0 
+91 1 91 
+95 1 91 
+159 2 36 159 
+100 3 100 20 13 
+164 2 147 164 
+38 2 38 26 
+104 1 104 
+169 1 169 
+42 1 38 
+109 2 112 109 
+46 2 36 46 
+51 1 51 
+115 1 115 
+56 2 36 56 
+120 2 120 123 
+186 2 1 178 
+61 1 61 
+126 1 126 
+Constructors: 4
+42 38
+154 150
+186 178
+95 91
+
+Summary: 1
+-1 
+sun/font/FcFontConfiguration.getExtraFontPath()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/FcFontConfiguration.getNumberCoreFonts()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/font/FcFontConfiguration.setOsNameAndVersion()V
+PTG:
+Vars:
+16
+$r10 1 98 
+$r9 1 131 
+$r11 1 33 
+$r3 1 74 
+$r6 1 173 
+$r4 1 107 
+$r2 1 16 
+$r5 1 140 
+r0 1 -1 
+$r1 1 4 
+$r13 1 42 
+$r14 1 56 
+$r15 1 65 
+$r16 1 -1 
+$r8 1 164 
+$r7 1 197 
+Fields: 0
+Accesses: 0
+Functions: 23
+96 2 -1 74 
+-1 0 
+1 1 -1 
+129 2 -1 107 
+162 2 -1 140 
+195 2 -1 173 
+4 1 4 
+37 1 33 
+74 1 74 
+107 1 107 
+140 1 140 
+173 1 173 
+47 2 16 42 
+16 1 16 
+80 1 74 
+113 1 107 
+50 2 33 42 
+146 1 140 
+179 1 173 
+53 1 33 
+22 1 16 
+215 0 
+62 1 33 
+Constructors: 7
+80 74
+113 107
+146 140
+179 173
+37 33
+22 16
+47 42
+
+Summary: 3
+33 -1 42 
+sun/font/FcFontConfiguration.<init>(Lsun/font/SunFontManager;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+7 1 -1 
+12 1 -1 
+Functions: 2
+16 1 -1 
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 2
+-2 0 
+sun/font/FcFontConfiguration.getFallbackFamilyName(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r2 1 5 
+r1 1 -2 
+r3 1 -3 
+_ret 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+sun/font/FcFontConfiguration.getEncoding(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+sun/font/FcFontConfiguration.getFileNameFromComponentFontName(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+sun/font/FcFontConfiguration.readFcInfo()V
+PTG:
+Vars:
+71
+r88 1 565 
+$r64 1 228 
+$r7 1 35 
+$r63 1 225 
+$r51 1 594 
+$r4 1 22 
+$r17 1 398 
+$r19 1 408 
+$r45 1 559 
+$r58 1 647 
+r89 1 624 
+r0 1 -1 
+$r53 1 608 
+$r22 1 420 
+r47 1 570 
+$r21 1 425 
+$r61 1 211 
+$r25 1 446 
+$r14 1 378 
+$r8 1 96 
+$r52 1 603 
+$r33 1 498 
+r10 1 123 
+r57 1 629 
+$r2 1 13 
+$r65 1 231 
+$r68 1 714 
+$r44 1 554 
+$r37 1 669 
+r5 1 22 
+$r12 1 306 
+$r36 1 679 
+r1 1 4 
+$r11 1 285 
+$r60 1 653 
+$r26 1 453 
+$r27 1 462 
+$r48 1 582 
+r84 1 231 
+$r59 1 648 
+$r40 1 522 
+r83 1 96 
+$r30 1 473 
+$r42 1 544 
+r20 1 414 
+$r32 1 501 
+$r43 1 549 
+$r62 1 220 
+$r15 1 386 
+$r38 1 521 
+r31 1 473 
+$r56 1 629 
+$r35 1 675 
+$r50 1 588 
+$r29 1 470 
+$r54 1 613 
+$r55 1 618 
+$r49 1 583 
+r13 1 339 
+$r34 1 674 
+$r28 1 467 
+$r16 1 397 
+$r46 1 570 
+$r39 1 527 
+$r41 1 535 
+$r67 1 -1 
+$r23 1 438 
+$r18 1 403 
+$r9 1 123 
+$r66 1 247 
+$r24 1 433 
+Fields: 26
+647 allFonts 648
+306 ArrayObject 313
+306 ArrayObject 438
+306 ArrayObject 323
+306 ArrayObject 318
+583 ArrayObject 588
+648 ArrayObject 653
+-1 fontManager 22
+582 allFonts 583
+285 ArrayObject 425
+285 ArrayObject 302
+285 ArrayObject 297
+285 ArrayObject 397
+285 ArrayObject 292
+675 ArrayObject 679
+339 ArrayObject 669
+339 ArrayObject 647
+339 ArrayObject 582
+339 ArrayObject 446
+339 ArrayObject 420
+339 ArrayObject 498
+339 ArrayObject 433
+339 ArrayObject 674
+339 ArrayObject 521
+674 allFonts 675
+521 allFonts 522
+Accesses: 13
+449 1 446 
+674 1 674 
+582 1 582 
+647 1 647 
+680 1 669 
+521 1 521 
+426 1 420 
+591 1 588 
+656 1 653 
+21 1 -1 
+439 1 433 
+504 1 498 
+698 1 -1 
+Functions: 61
+0 2 -1 22 
+-1 0 
+258 1 247 
+386 2 386 397 
+5 1 4 
+390 1 386 
+136 1 123 
+266 1 247 
+398 1 398 
+17 1 13 
+403 1 403 
+531 1 527 
+535 2 535 414 
+408 1 408 
+539 1 535 
+544 1 544 
+33 1 22 
+549 1 549 
+40 2 35 4 
+554 1 554 
+171 0 
+175 0 
+559 1 559 
+48 2 35 13 
+180 1 123 
+53 1 35 
+567 2 565 13 
+185 0 
+191 0 
+67 0 
+195 1 4 
+452 2 470 13 
+453 2 453 414 
+71 0 
+712 1 -1 
+457 1 453 
+76 0 
+717 1 714 
+462 1 462 
+79 1 4 
+210 2 228 13 
+594 2 594 414 
+83 0 
+211 1 211 
+467 1 467 
+598 1 594 
+215 1 211 
+89 0 
+603 1 603 
+220 1 220 
+93 1 13 
+608 1 608 
+225 1 225 
+481 1 473 
+613 1 613 
+618 1 618 
+109 1 96 
+626 2 624 13 
+120 1 13 
+253 2 247 231 
+382 1 378 
+Constructors: 10
+17 13
+531 527
+390 386
+598 594
+215 211
+40 35
+457 453
+539 535
+253 247
+382 378
+
+Summary: 12
+-1 302 285 313 13 318 297 35 397 306 323 292 

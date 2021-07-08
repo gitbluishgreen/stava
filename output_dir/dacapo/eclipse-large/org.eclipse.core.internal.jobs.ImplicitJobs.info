@@ -1,0 +1,420 @@
+12
+org/eclipse/core/internal/jobs/ImplicitJobs.newThreadJob(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;)Lorg/eclipse/core/internal/jobs/ThreadJob;
+PTG:
+Vars:
+5
+r3 1 -2 
+$r2 1 39 
+_ret 1 39 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 jobCache 1
+Accesses: 3
+0 1 -1 
+34 1 -1 
+7 1 -1 
+Functions: 2
+44 2 -2 39 
+14 1 -2 
+Constructors: 1
+44 39
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/jobs/ImplicitJobs.resume(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;)V
+PTG:
+Vars:
+5
+$r4 1 26 
+r0 1 -1 
+r1 1 -2 
+$r2 1 12 
+$r3 1 23 
+Fields: 0
+Accesses: 0
+Functions: 5
+3 2 -1 -2 
+19 1 12 
+23 1 23 
+12 2 -2 12 
+29 1 26 
+Constructors: 1
+19 12
+
+Summary: 4
+-2 23 26 -1 
+org/eclipse/core/internal/jobs/ImplicitJobs.endThreadJob(Lorg/eclipse/core/internal/jobs/ThreadJob;Z)V
+PTG:
+Vars:
+10
+$r6 1 78 
+r0 1 3 
+$r2 1 5 
+$r9 1 53 
+r4 1 -2 
+r5 1 19 
+$r10 1 31 
+$r7 1 50 
+$r8 1 50 
+r1 1 -1 
+Fields: 3
+-1 manager 50
+-1 threadJobs 5
+-1 suspendedRules 31
+Accesses: 5
+49 1 -1 
+4 1 -1 
+73 1 -1 
+42 1 -2 
+30 1 -1 
+Functions: 10
+0 0 
+50 1 50 
+66 1 -2 
+82 3 -2 50 78 
+36 2 19 31 
+87 5 -1 -2 50 5 31 
+9 2 3 5 
+59 3 3 19 53 
+15 1 -2 
+63 4 -1 50 5 31 
+Constructors: 0
+
+Summary: 6
+3 -2 53 0 -1 19 
+org/eclipse/core/internal/jobs/ImplicitJobs.transfer(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;Ljava/lang/Thread;)V
+PTG:
+Vars:
+23
+$r17 1 16 
+r23 1 20 
+$r11 1 101 
+r1 1 8 
+$r4 1 16 
+$r6 1 16 
+$r7 1 52 
+$r14 1 112 
+$r5 1 20 
+$r8 1 72 
+$r19 1 158 
+$r15 1 16 
+r24 1 52 
+$r13 1 109 
+$r10 1 95 
+$r12 1 106 
+$r20 1 161 
+$r21 1 158 
+$r22 1 173 
+r3 1 -1 
+r0 1 -2 
+$r9 1 84 
+r2 1 -3 
+Fields: 2
+-1 manager 158
+-1 threadJobs 16
+Accesses: 7
+149 1 52 
+136 1 -1 
+169 1 -1 
+125 1 -1 
+157 1 -1 
+15 1 -1 
+47 1 -1 
+Functions: 20
+130 2 16 8 
+67 1 52 
+5 0 
+101 2 101 106 
+70 1 52 
+166 3 161 -2 8 
+104 1 52 
+170 1 158 
+43 0 
+109 1 109 
+143 3 16 -3 52 
+16 2 16 -3 
+48 2 16 8 
+178 3 -2 -3 173 
+115 1 112 
+84 2 -2 84 
+122 2 -3 52 
+91 1 84 
+158 1 158 
+95 1 95 
+Constructors: 1
+91 84
+
+Summary: 14
+106 20 -3 72 -2 101 109 173 95 8 52 -1 161 112 
+org/eclipse/core/internal/jobs/ImplicitJobs.begin(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V
+PTG:
+Vars:
+22
+$r3 1 36 
+$r15 1 90 
+$r13 1 191 
+$r17 1 6 
+$r11 1 75 
+$r10 1 310 
+r1 1 -1 
+r31 1 81 
+$r16 1 99 
+r30 1 41 
+r5 1 -2 
+$r4 1 41 
+r32 3 115 210 105 
+$r12 1 75 
+$r37 1 36 
+r8 1 -3 
+$r9 1 75 
+$r18 1 16 
+$r6 1 75 
+$r14 1 194 
+r0 1 28 
+$r19 1 19 
+Fields: 3
+-1 manager 75
+-1 threadJobs 36
+-1 suspendedRules 310
+Accesses: 17
+35 1 -1 
+291 1 -1 
+261 3 210 115 105 
+134 3 210 115 105 
+167 3 210 115 105 
+74 1 -1 
+330 3 210 115 105 
+175 1 -1 
+240 1 -1 
+272 3 210 115 105 
+275 1 -1 
+309 1 -1 
+341 3 210 115 105 
+120 3 210 115 105 
+344 1 -1 
+187 1 -1 
+222 1 -1 
+Functions: 27
+-1 0 
+6 2 -2 6 
+198 3 -2 194 191 
+75 1 75 
+12 1 6 
+204 4 210 -3 115 105 
+141 4 81 210 115 105 
+16 1 16 
+148 4 210 115 105 28 
+22 1 19 
+88 1 81 
+280 1 -3 
+25 0 
+349 2 -3 75 
+96 5 -1 99 36 310 75 
+97 1 81 
+36 2 36 28 
+164 4 -2 210 115 105 
+230 4 210 115 105 28 
+299 5 210 115 36 105 28 
+110 5 -1 -2 36 310 75 
+176 4 210 115 105 75 
+245 1 -2 
+314 2 -2 310 
+59 2 -2 41 
+123 5 -1 -2 36 310 75 
+188 1 75 
+Constructors: 1
+12 6
+
+Summary: 14
+41 -3 -2 90 210 0 194 1 19 28 16 81 191 99 
+org/eclipse/core/internal/jobs/ImplicitJobs.<init>(Lorg/eclipse/core/internal/jobs/JobManager;)V
+PTG:
+Vars:
+4
+r3 1 -2 
+r0 1 -1 
+$r2 1 23 
+$r1 1 10 
+Fields: 0
+Accesses: 4
+32 1 -1 
+19 1 -1 
+37 1 -1 
+6 1 -1 
+Functions: 3
+16 1 10 
+1 1 -1 
+29 1 23 
+Constructors: 3
+16 10
+1 -1
+29 23
+
+Summary: 1
+-1 
+org/eclipse/core/internal/jobs/ImplicitJobs.suspend(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+6
+r1 1 -2 
+$r5 1 20 
+r0 1 -1 
+$r3 1 6 
+$r4 1 17 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 5
+17 1 17 
+6 2 -2 6 
+23 1 20 
+13 1 6 
+30 3 -1 -2 -3 
+Constructors: 1
+13 6
+
+Summary: 5
+20 -3 -2 17 -1 
+org/eclipse/core/internal/jobs/ImplicitJobs.notifyWaitingThreadJobs()V
+PTG:
+Vars:
+3
+r4 1 -1 
+$r0 1 0 
+$r2 1 6 
+Fields: 0
+Accesses: 0
+Functions: 1
+9 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/jobs/ImplicitJobs.end(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;Z)V
+PTG:
+Vars:
+12
+r5 1 -2 
+$r1 1 26 
+$r3 1 32 
+r0 1 -1 
+$r2 1 29 
+$r6 1 54 
+$r11 1 19 
+$r7 1 64 
+$r9 1 6 
+$r10 1 16 
+r4 1 32 
+$r8 1 67 
+Fields: 1
+-1 threadJobs 26
+Accesses: 1
+25 1 -1 
+Functions: 12
+16 1 16 
+-1 0 
+64 1 64 
+6 2 -2 6 
+22 1 19 
+54 2 -2 54 
+70 1 67 
+88 3 -1 32 26 
+26 2 26 29 
+12 1 6 
+60 1 54 
+77 2 32 -2 
+Constructors: 2
+12 6
+60 54
+
+Summary: 9
+67 16 -2 32 0 -1 64 29 19 
+org/eclipse/core/internal/jobs/ImplicitJobs.isSuspended(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;)Z
+PTG:
+Vars:
+7
+$r2 1 1 
+r3 1 23 
+$r4 1 28 
+r0 1 -1 
+$r1 1 1 
+$r6 1 28 
+r5 1 -2 
+Fields: 1
+-1 suspendedRules 1
+Accesses: 2
+0 1 -1 
+14 1 -1 
+Functions: 5
+1 1 1 
+33 2 -2 28 
+27 1 23 
+15 1 1 
+47 1 23 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 28 
+org/eclipse/core/internal/jobs/ImplicitJobs.endJob(Lorg/eclipse/core/internal/jobs/InternalJob;)V
+PTG:
+Vars:
+15
+r8 1 -2 
+r6 1 14 
+$r13 1 72 
+$r17 1 112 
+$r10 1 59 
+r12 1 70 
+$r18 1 116 
+$r7 1 44 
+$r11 1 64 
+$r5 1 14 
+$r16 1 -1 
+$r4 1 10 
+r0 1 3 
+$r9 1 54 
+r1 1 -1 
+Fields: 1
+-1 threadJobs 10
+Accesses: 1
+9 1 -1 
+Functions: 14
+0 0 
+64 1 64 
+37 2 -1 10 
+105 1 72 
+10 2 3 10 
+44 2 -2 44 
+50 1 44 
+83 2 70 72 
+115 1 72 
+54 1 54 
+121 2 112 116 
+59 2 59 14 
+91 3 -1 10 14 
+29 1 -2 
+Constructors: 2
+50 44
+83 72
+
+Summary: 9
+-2 116 70 72 0 30 64 3 14 
+org/eclipse/core/internal/jobs/ImplicitJobs.recycle(Lorg/eclipse/core/internal/jobs/ThreadJob;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 jobCache 1
+Accesses: 2
+0 1 -1 
+16 1 -1 
+Functions: 1
+7 1 -2 
+Constructors: 0
+
+Summary: 2
+0 -1 

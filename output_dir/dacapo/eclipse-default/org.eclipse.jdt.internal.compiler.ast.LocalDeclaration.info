@@ -1,0 +1,390 @@
+7
+org/eclipse/jdt/internal/compiler/ast/LocalDeclaration.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;)V
+PTG:
+Vars:
+27
+$r13 1 1 
+$r26 1 1 
+$r22 1 62 
+$r21 1 36 
+$r15 1 36 
+$r20 1 140 
+$r23 1 59 
+$r3 1 36 
+$r16 1 36 
+$r18 1 137 
+$r25 1 1 
+$r17 1 36 
+$r10 1 36 
+$r24 1 36 
+r5 1 -2 
+$r9 1 1 
+$r6 1 36 
+$r19 1 143 
+r2 1 -3 
+$r14 1 98 
+$r8 1 98 
+$r7 1 1 
+$r11 1 114 
+$r1 1 1 
+$r12 1 111 
+r0 1 -1 
+$r4 1 1 
+Fields: 6
+-1 binding 1
+-1 initialization 36
+1 type 98
+137 resolvedType 140
+36 constant 59
+36 resolvedType 111
+Accesses: 26
+0 1 -1 
+192 1 -1 
+1 1 1 
+130 1 -1 
+71 1 -1 
+137 1 137 
+12 1 -1 
+19 1 -1 
+84 1 -1 
+150 1 -1 
+151 1 1 
+30 1 -3 
+94 1 -1 
+95 1 1 
+161 1 -1 
+35 1 -1 
+169 1 -1 
+107 1 -1 
+108 1 36 
+45 1 -1 
+46 1 1 
+179 1 -1 
+55 1 -1 
+183 1 -3 
+56 1 36 
+120 1 -1 
+Functions: 9
+16 3 1 -3 98 
+98 1 98 
+196 1 -3 
+134 3 36 59 111 
+166 3 1 -3 98 
+91 5 -2 -3 36 59 111 
+187 2 1 98 
+157 2 -3 98 
+78 5 -2 -3 36 59 111 
+Constructors: 0
+
+Summary: 7
+1 -3 -1 137 0 -2 140 
+org/eclipse/jdt/internal/compiler/ast/LocalDeclaration.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+10
+$r4 1 50 
+$r7 1 10 
+$r8 2 29 10 
+r0 1 -2 
+$r5 1 59 
+r2 1 -3 
+r1 1 -1 
+$r9 1 34 
+$r6 1 59 
+$r3 1 10 
+Fields: 5
+-1 annotations 10
+-1 initialization 59
+-1 type 50
+29 ArrayObject 34
+10 ArrayObject 34
+Accesses: 6
+16 1 -1 
+49 1 -1 
+65 1 -1 
+9 1 -1 
+58 1 -1 
+28 1 -1 
+Functions: 5
+0 7 -1 -2 50 34 -3 10 59 
+37 3 -2 34 -3 
+55 3 -2 50 -3 
+71 3 -2 -3 59 
+77 7 -1 -2 50 34 -3 10 59 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/ast/LocalDeclaration.<init>([CII)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 4
+16 1 -1 
+21 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/compiler/ast/LocalDeclaration.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+17
+$r7 1 55 
+$r12 1 55 
+r3 1 -2 
+r15 1 52 
+$r9 1 55 
+r0 1 -1 
+$r2 1 21 
+$r10 1 101 
+r14 1 -4 
+_ret 1 52 
+$r6 1 46 
+$r11 1 55 
+$r13 1 55 
+$r5 1 21 
+$r1 1 21 
+r4 1 -3 
+$r8 1 55 
+Fields: 3
+-1 binding 55
+-1 initialization 21
+55 type 101
+Accesses: 18
+0 1 -4 
+64 1 -1 
+97 1 -1 
+98 1 55 
+101 1 101 
+39 1 -1 
+167 1 -1 
+72 1 -1 
+9 1 -1 
+78 1 -1 
+17 1 -1 
+145 1 -1 
+20 1 -1 
+54 1 -1 
+86 1 -1 
+90 1 -1 
+156 1 -1 
+29 1 -1 
+Functions: 8
+160 3 52 101 55 
+53 3 52 101 55 
+149 3 52 101 55 
+40 4 -2 -3 -4 21 
+171 3 52 101 55 
+30 2 -4 21 
+46 1 46 
+94 3 52 101 55 
+Constructors: 0
+
+Summary: 6
+1 -3 -1 2 0 -2 
+org/eclipse/jdt/internal/compiler/ast/LocalDeclaration.getKind()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/LocalDeclaration.resolve(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+59
+$r45 1 19 
+$r7 1 132 
+$r29 1 132 
+$r55 1 179 
+$r21 1 132 
+$r15 1 510 
+$r10 1 169 
+$r9 1 169 
+$r52 1 150 
+$r6 1 132 
+$r14 1 539 
+$r53 1 169 
+$r5 1 132 
+r3 1 9 
+$r33 1 298 
+$r48 1 45 
+$r23 1 350 
+$r34 1 132 
+$r44 1 101 
+$r16 1 65 
+$r11 1 132 
+$r30 1 132 
+r56 1 232 
+$r35 1 132 
+r0 1 -1 
+r4 1 74 
+$r25 1 132 
+$r13 1 539 
+$r62 1 573 
+$r12 1 132 
+$r43 1 112 
+$r61 2 565 559 
+$r51 1 65 
+$r31 1 132 
+$r27 1 132 
+$r28 1 132 
+$r59 1 132 
+$r20 1 132 
+$r22 1 132 
+$r19 1 132 
+r57 1 284 
+$r37 1 132 
+$r32 1 132 
+$r24 1 132 
+$r26 1 481 
+r1 1 -2 
+$r38 1 132 
+$r58 1 169 
+$r18 1 132 
+$r2 1 1 
+$r47 1 48 
+$r63 1 169 
+$r36 1 232 
+$r54 1 169 
+$r17 1 132 
+$r60 1 503 
+$r8 1 132 
+$r42 1 132 
+$r46 1 9 
+Fields: 7
+-1 name 65
+-1 binding 169
+-1 annotations 573
+-1 initialization 132
+-1 type 1
+9 leafComponentType 45
+132 constant 539
+Accesses: 49
+0 1 -1 
+514 1 -1 
+131 1 -1 
+389 1 -1 
+521 1 -1 
+138 1 -1 
+268 1 -1 
+525 1 -1 
+146 1 -1 
+276 1 -1 
+406 1 -1 
+535 1 -1 
+536 1 132 
+156 1 -1 
+542 1 9 
+417 1 -1 
+164 1 -1 
+548 1 -1 
+549 1 132 
+168 1 -1 
+42 1 9 
+428 1 -1 
+175 1 -1 
+307 1 -1 
+438 1 -1 
+439 1 132 
+572 1 -1 
+189 1 -1 
+64 1 -1 
+576 1 -1 
+196 1 -1 
+454 1 -1 
+329 1 -1 
+206 1 -1 
+467 1 9 
+213 1 -1 
+93 1 -1 
+223 1 -1 
+353 1 -1 
+487 1 -1 
+363 1 -1 
+239 1 -1 
+495 1 -1 
+499 1 -1 
+373 1 -1 
+374 1 132 
+121 1 -1 
+251 1 132 
+254 1 -1 
+Functions: 43
+320 3 9 284 45 
+1 2 1 -2 
+580 3 -2 169 573 
+262 6 -2 132 232 9 539 45 
+518 8 -1 65 1 132 169 539 573 510 
+201 1 -2 
+11 7 -1 65 1 132 169 539 573 
+396 5 -2 132 9 539 45 
+461 5 -2 132 9 539 45 
+526 1 169 
+79 1 74 
+273 4 132 9 539 45 
+337 6 -2 132 9 539 284 45 
+402 11 -1 65 1 -2 132 169 9 539 284 573 45 
+340 3 9 284 45 
+277 3 -2 132 539 
+25 1 -2 
+539 1 539 
+349 1 -2 
+30 7 -1 65 1 132 169 539 573 
+224 5 -2 132 9 539 45 
+480 1 -2 
+161 10 -1 65 1 132 150 169 9 539 573 45 
+34 2 9 45 
+100 1 -2 
+360 6 132 9 539 284 45 350 
+552 1 539 
+105 8 -1 65 1 132 101 169 539 573 
+297 1 -2 
+425 6 -2 132 9 539 284 45 
+172 2 -2 169 
+492 6 481 132 9 539 284 45 
+111 1 -2 
+304 4 9 298 284 45 
+308 5 132 9 539 284 45 
+500 2 132 539 
+54 1 -2 
+118 9 112 -1 65 1 132 169 74 539 573 
+182 2 179 169 
+568 3 565 169 559 
+59 7 -1 65 1 132 169 539 573 
+509 1 -2 
+63 8 -1 -2 65 1 132 169 539 573 
+Constructors: 1
+161 150
+
+Summary: 15
+510 503 26 559 74 -1 9 298 0 55 481 45 101 350 112 
+org/eclipse/jdt/internal/compiler/ast/LocalDeclaration.checkModifiers()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+24 1 -1 
+14 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

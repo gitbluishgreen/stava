@@ -1,0 +1,210 @@
+12
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.getAffectedResources()Ljava/util/List;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 affectedResources 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.folderToFile(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;Lorg/eclipse/core/internal/resources/Resource;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.getSyncStatus()Lorg/eclipse/core/runtime/MultiStatus;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 status 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.setIgnoreLocalDeletions(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.refresh(Lorg/eclipse/core/internal/resources/Container;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.<init>(Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+4
+r3 1 -2 
+r1 1 -3 
+$r2 1 11 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+7 1 -1 
+23 1 -1 
+Functions: 2
+2 2 -1 -3 
+20 2 -2 11 
+Constructors: 2
+2 -1
+20 11
+
+Summary: 4
+-3 -2 -1 1 
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.createResource(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;Lorg/eclipse/core/internal/resources/Resource;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.resourceChanged(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;Lorg/eclipse/core/internal/resources/Resource;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -3 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.deleteResource(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;Lorg/eclipse/core/internal/resources/Resource;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+9 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.makeLocal(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;Lorg/eclipse/core/internal/resources/Resource;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.fileToFolder(Lorg/eclipse/core/internal/localstore/UnifiedTreeNode;Lorg/eclipse/core/internal/resources/Resource;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -3 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/core/internal/localstore/CollectSyncStatusVisitor.changed(Lorg/eclipse/core/internal/resources/Resource;)V
+PTG:
+Vars:
+11
+$r9 1 34 
+$r2 1 4 
+r4 1 -1 
+$r10 1 41 
+r0 1 -2 
+$r8 1 34 
+$r5 1 15 
+$r1 1 0 
+$r6 1 12 
+$r7 1 23 
+r3 1 10 
+Fields: 2
+-1 status 12
+-1 affectedResources 34
+Accesses: 5
+33 1 -1 
+50 1 -1 
+66 1 -1 
+53 1 -1 
+11 1 -1 
+Functions: 7
+3 1 -2 
+4 2 0 4 
+22 1 -2 
+58 2 -2 34 
+27 3 23 10 15 
+30 2 12 15 
+47 1 41 
+Constructors: 2
+27 15
+47 41
+
+Summary: 7
+-2 23 4 15 0 -1 10 

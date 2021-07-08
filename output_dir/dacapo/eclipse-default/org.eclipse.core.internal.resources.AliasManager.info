@@ -1,0 +1,610 @@
+20
+org/eclipse/core/internal/resources/AliasManager.addToLocationsMap(Lorg/eclipse/core/resources/IProject;)V
+PTG:
+Vars:
+18
+$r5 1 36 
+r10 1 81 
+$r16 1 13 
+$r15 1 117 
+r4 1 29 
+$r9 1 81 
+$r7 1 66 
+$r1 1 -2 
+$r14 1 114 
+r2 1 7 
+r0 1 -2 
+$r3 1 -2 
+$r11 1 94 
+$r17 1 -1 
+r13 1 -1 
+r8 1 74 
+r6 1 56 
+r12 1 102 
+Fields: 1
+-1 locationsMap 13
+Accesses: 3
+49 1 -1 
+42 1 -1 
+12 1 -1 
+Functions: 14
+64 1 56 
+1 1 -2 
+66 1 66 
+35 1 29 
+79 1 74 
+112 1 81 
+18 3 -2 7 13 
+114 1 114 
+52 1 29 
+23 1 -2 
+120 4 -1 117 102 13 
+91 2 -2 94 
+92 1 81 
+127 1 74 
+Constructors: 0
+
+Summary: 12
+7 94 102 66 114 -1 29 81 117 56 36 -2 
+org/eclipse/core/internal/resources/AliasManager.hasNoAliases(Lorg/eclipse/core/resources/IResource;)Z
+PTG:
+Vars:
+5
+$r4 1 8 
+r2 1 -1 
+r0 1 -2 
+$r3 1 8 
+r1 1 6 
+Fields: 1
+-1 aliasedProjects 8
+Accesses: 3
+38 1 -1 
+7 1 -1 
+45 1 -1 
+Functions: 5
+0 1 -2 
+34 2 -1 8 
+8 2 6 8 
+26 2 -1 8 
+46 2 6 8 
+Constructors: 0
+
+Summary: 3
+-1 6 0 
+org/eclipse/core/internal/resources/AliasManager.access$0(Lorg/eclipse/core/internal/resources/AliasManager;)Ljava/util/Comparator;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/core/internal/resources/AliasManager.shutdown(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 9 
+r0 1 -1 
+r3 1 -2 
+Fields: 2
+-1 workspace 1
+-1 locationsMap 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+5 3 -1 1 9 
+12 1 9 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/resources/AliasManager.computeAliases(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/filesystem/IFileStore;)[Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+10
+r0 1 -1 
+$r4 1 11 
+_ret 1 45 
+$r8 1 45 
+r3 1 -3 
+$r6 1 11 
+$r7 1 45 
+r1 1 -2 
+$r2 1 11 
+$r5 1 42 
+Fields: 1
+-1 aliases 11
+Accesses: 3
+37 1 -1 
+23 1 -1 
+10 1 -1 
+Functions: 5
+0 3 -1 -2 11 
+20 4 -1 -2 -3 11 
+38 2 42 11 
+24 1 11 
+14 1 11 
+Constructors: 0
+
+Summary: 6
+-1 1 42 -3 0 -2 
+org/eclipse/core/internal/resources/AliasManager.getComparator()Ljava/util/Comparator;
+PTG:
+Vars:
+3
+r1 1 -1 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -1 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/AliasManager.internalComputeAliases(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/filesystem/IFileStore;)V
+PTG:
+Vars:
+13
+$r11 1 -2 
+$r5 1 27 
+$r9 1 61 
+$r8 1 52 
+r12 1 76 
+r3 1 -2 
+$r7 1 47 
+$r6 1 35 
+$r10 1 64 
+r1 1 -1 
+r0 1 -3 
+$r2 1 20 
+$r4 1 27 
+Fields: 3
+-1 findAliases 27
+-1 suffix 61
+-1 locationsMap 35
+Accesses: 6
+34 1 -1 
+67 1 -1 
+23 1 -1 
+39 1 -1 
+26 1 -1 
+60 1 -1 
+Functions: 7
+51 1 76 
+70 1 76 
+7 1 -2 
+57 2 52 47 
+43 3 35 27 76 
+31 2 -2 27 
+47 2 61 47 
+Constructors: 1
+57 47
+
+Summary: 8
+1 -3 -1 13 52 0 -2 76 
+org/eclipse/core/internal/resources/AliasManager.resourceChanged(Lorg/eclipse/core/resources/IResourceChangeEvent;)V
+PTG:
+Vars:
+7
+$r6 1 64 
+$r4 1 45 
+r5 1 -1 
+$r2 1 14 
+r3 1 35 
+r0 1 -2 
+r1 1 6 
+Fields: 2
+35 ArrayObject 64
+35 ArrayObject 45
+Accesses: 2
+82 1 -1 
+25 1 -1 
+Functions: 5
+0 1 -2 
+64 1 64 
+12 1 6 
+28 1 6 
+45 1 45 
+Constructors: 0
+
+Summary: 6
+-1 35 6 14 0 -2 
+org/eclipse/core/internal/resources/AliasManager.hasStructureChanges()Z
+PTG:
+Vars:
+2
+$r1 1 8 
+r0 1 -1 
+Fields: 1
+-1 changedLinks 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/AliasManager.checkDeletion(Lorg/eclipse/core/internal/resources/Project;Lorg/eclipse/core/filesystem/IFileStore;)Z
+PTG:
+Vars:
+4
+r3 1 -1 
+r0 1 -2 
+r1 1 -3 
+$r2 1 8 
+Fields: 0
+Accesses: 1
+21 1 -1 
+Functions: 8
+0 1 -2 
+51 1 -2 
+22 0 
+7 1 -3 
+8 1 8 
+25 0 
+28 0 
+44 0 
+Constructors: 0
+
+Summary: 7
+-1 25 1 8 -3 28 0 
+org/eclipse/core/internal/resources/AliasManager.handleEvent(Lorg/eclipse/core/internal/events/LifecycleEvent;)V
+PTG:
+Vars:
+14
+$r7 1 66 
+$r12 1 49 
+$r8 1 94 
+$r4 1 131 
+$r3 1 135 
+r0 1 -2 
+r10 1 49 
+$r11 1 73 
+$r9 1 90 
+$r6 1 49 
+$r5 1 124 
+r2 1 -1 
+$r1 1 107 
+r13 1 107 
+Fields: 7
+-1 changedLinks 90
+-1 changedLinks 73
+-1 changedLinks 131
+-2 newResource 94
+-2 newResource 135
+-2 resource 49
+-2 resource 107
+Accesses: 9
+0 1 -2 
+48 1 -2 
+130 1 -1 
+134 1 -2 
+72 1 -1 
+89 1 -1 
+106 1 -2 
+76 1 -2 
+93 1 -2 
+Functions: 9
+80 2 49 73 
+65 1 49 
+97 2 90 94 
+114 1 107 
+69 6 -1 49 66 131 73 90 
+56 1 49 
+138 2 131 135 
+123 1 107 
+127 6 -1 131 73 90 107 124 
+Constructors: 0
+
+Summary: 7
+-1 135 0 94 -2 66 124 
+org/eclipse/core/internal/resources/AliasManager.buildLocationsMap()V
+PTG:
+Vars:
+7
+r4 1 26 
+$r3 1 16 
+$r6 1 46 
+r0 1 -1 
+$r2 1 13 
+$r5 1 34 
+$r1 1 1 
+Fields: 4
+-1 workspace 13
+-1 locationsMap 1
+26 ArrayObject 46
+26 ArrayObject 34
+Accesses: 3
+0 1 -1 
+9 1 -1 
+12 1 -1 
+Functions: 5
+16 1 16 
+34 1 34 
+4 1 1 
+13 1 13 
+47 4 -1 1 13 46 
+Constructors: 0
+
+Summary: 3
+-1 16 26 
+org/eclipse/core/internal/resources/AliasManager.buildAliasedProjectsSet()V
+PTG:
+Vars:
+6
+$r2 1 1 
+$r1 1 1 
+$r3 1 18 
+$r4 1 18 
+r0 1 -1 
+$r5 1 29 
+Fields: 3
+-1 aliasedProjects 1
+-1 addToCollection 18
+-1 locationsMap 29
+Accesses: 6
+0 1 -1 
+32 1 -1 
+17 1 -1 
+21 1 -1 
+9 1 -1 
+28 1 -1 
+Functions: 3
+4 1 1 
+36 2 18 29 
+25 2 1 18 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/AliasManager.<init>(Lorg/eclipse/core/internal/resources/Workspace;)V
+PTG:
+Vars:
+8
+$r1 1 5 
+r7 1 -2 
+$r5 1 55 
+$r4 1 39 
+$r2 1 17 
+$r6 1 67 
+r0 1 -1 
+$r3 1 28 
+Fields: 0
+Accesses: 9
+80 1 -1 
+35 1 -1 
+51 1 -1 
+85 1 -1 
+24 1 -1 
+75 1 -1 
+13 1 -1 
+46 1 -1 
+63 1 -1 
+Functions: 7
+32 1 28 
+1 1 -1 
+21 1 17 
+72 2 -1 67 
+10 2 -1 5 
+43 1 39 
+60 2 -1 55 
+Constructors: 7
+32 28
+1 -1
+21 17
+72 67
+10 5
+43 39
+60 55
+
+Summary: 2
+-1 0 
+org/eclipse/core/internal/resources/AliasManager.updateStructureChanges()V
+PTG:
+Vars:
+8
+r2 1 32 
+$r1 1 24 
+$r7 1 24 
+$r5 1 37 
+$r3 1 37 
+r4 1 37 
+$r6 1 75 
+r0 1 -1 
+Fields: 1
+-1 changedLinks 24
+Accesses: 5
+2 1 -1 
+23 1 -1 
+90 1 -1 
+11 1 -1 
+109 1 -1 
+Functions: 10
+48 1 37 
+17 2 -1 24 
+81 1 32 
+36 1 32 
+24 1 24 
+72 1 37 
+104 2 -1 24 
+60 1 37 
+78 4 -1 37 24 75 
+94 1 24 
+Constructors: 0
+
+Summary: 2
+-1 75 
+org/eclipse/core/internal/resources/AliasManager.removeFromLocationsMap(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/filesystem/IFileStore;)V
+PTG:
+Vars:
+4
+r0 1 -3 
+$r3 1 5 
+r1 1 -1 
+r2 1 -2 
+Fields: 1
+-1 locationsMap 5
+Accesses: 3
+16 1 -1 
+4 1 -1 
+23 1 -1 
+Functions: 1
+5 3 -2 -3 5 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/core/internal/resources/AliasManager.computeDeepAliases(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/filesystem/IFileStore;)V
+PTG:
+Vars:
+17
+$r11 1 72 
+r2 1 -2 
+r13 1 90 
+r10 1 61 
+$r12 1 86 
+r0 1 -3 
+$r7 1 -2 
+r8 1 53 
+$r9 1 55 
+r1 1 -1 
+$r3 1 16 
+$r4 1 12 
+$r6 1 23 
+$r5 1 12 
+$r15 2 23 98 
+$r14 2 12 104 
+$r16 1 -1 
+Fields: 6
+-1 workspace 55
+-1 addToCollection 12
+-1 locationsMap 23
+-1 aliases 16
+53 ArrayObject 86
+53 ArrayObject 72
+Accesses: 7
+97 1 -1 
+22 1 -1 
+54 1 -1 
+103 1 -1 
+11 1 -1 
+27 1 -1 
+15 1 -1 
+Functions: 9
+81 2 86 61 
+34 1 -2 
+19 2 16 12 
+55 1 55 
+8 7 -1 16 -2 -3 55 23 12 
+72 1 72 
+107 5 98 23 104 90 12 
+45 1 -2 
+31 3 -3 23 12 
+Constructors: 0
+
+Summary: 8
+1 -3 90 -1 53 61 0 -2 
+org/eclipse/core/internal/resources/AliasManager.addToLocationsMap(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/filesystem/IFileStore;)V
+PTG:
+Vars:
+4
+$r3 1 5 
+r1 1 -1 
+r2 1 -2 
+r0 1 -3 
+Fields: 1
+-1 locationsMap 5
+Accesses: 3
+16 1 -1 
+4 1 -1 
+23 1 -1 
+Functions: 1
+5 3 -2 -3 5 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/core/internal/resources/AliasManager.updateAliases(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/filesystem/IFileStore;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+16
+r11 1 -5 
+$r15 1 69 
+r8 1 62 
+r10 1 69 
+$r7 1 10 
+$r14 1 91 
+$r9 1 69 
+$r12 1 81 
+r6 1 53 
+r3 1 -3 
+$r4 1 10 
+$r2 1 10 
+$r5 1 47 
+r1 1 -2 
+r0 1 -1 
+$r13 1 86 
+Fields: 2
+-1 workspace 47
+-1 aliases 10
+Accesses: 4
+35 1 -1 
+55 1 -1 
+9 1 -1 
+46 1 -1 
+Functions: 15
+0 4 -1 -2 10 47 
+32 5 -1 -2 -3 10 47 
+67 1 62 
+99 1 69 
+36 1 10 
+133 2 53 69 
+137 1 62 
+13 1 10 
+110 5 -1 -3 69 10 47 
+47 1 47 
+84 1 69 
+86 2 81 86 
+23 5 -1 -2 -3 10 47 
+56 1 10 
+94 2 -5 91 
+Constructors: 0
+
+Summary: 11
+-5 91 1 -3 86 -1 53 69 0 -2 3 
+org/eclipse/core/internal/resources/AliasManager.startup(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+4
+r3 1 -2 
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 workspace 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 4
+18 2 -1 1 
+5 2 -1 1 
+22 2 -1 1 
+14 2 -1 1 
+Constructors: 0
+
+Summary: 2
+-1 -2 

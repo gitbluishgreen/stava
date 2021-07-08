@@ -1,0 +1,312 @@
+13
+org/eclipse/core/internal/refresh/RefreshJob.<init>()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 8 
+$r1 1 1 
+Fields: 0
+Accesses: 1
+16 1 -1 
+Functions: 2
+4 2 -1 1 
+13 1 8 
+Constructors: 2
+4 -1
+13 8
+
+Summary: 1
+-1 
+org/eclipse/core/internal/refresh/RefreshJob.belongsTo(Ljava/lang/Object;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/refresh/RefreshJob.collectChildrenToDepth(Lorg/eclipse/core/resources/IResource;Ljava/util/ArrayList;I)Ljava/util/List;
+PTG:
+Vars:
+9
+r0 1 -2 
+$r6 1 75 
+$r3 1 39 
+r2 1 21 
+r5 1 -3 
+$r1 1 -2 
+r4 1 -1 
+$r8 1 62 
+_ret 1 -3 
+Fields: 3
+21 ArrayObject 62
+21 ArrayObject 39
+21 ArrayObject 75
+Accesses: 0
+Functions: 5
+0 1 -2 
+80 3 -1 -3 75 
+39 1 39 
+13 1 -2 
+63 2 -3 62 
+Constructors: 0
+
+Summary: 4
+-2 1 0 -1 
+org/eclipse/core/internal/refresh/RefreshJob.getPathPrefixHistory()Lorg/eclipse/core/internal/localstore/PrefixPool;
+PTG:
+Vars:
+5
+$r3 1 8 
+$r2 1 1 
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 pathPrefixHistory 1
+Accesses: 3
+0 1 -1 
+17 1 -1 
+20 1 -1 
+Functions: 1
+14 1 8 
+Constructors: 1
+14 8
+
+Summary: 1
+-1 
+org/eclipse/core/internal/refresh/RefreshJob.start()V
+PTG:
+Vars:
+2
+$r0 1 6 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+12 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/refresh/RefreshJob.addRequests(Ljava/util/List;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 fRequests 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/refresh/RefreshJob.nextRequest()Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+6
+$r3 1 23 
+$r1 1 1 
+$r4 1 23 
+$r2 1 1 
+r0 1 -1 
+_ret 1 23 
+Fields: 1
+-1 fRequests 1
+Accesses: 2
+0 1 -1 
+16 1 -1 
+Functions: 2
+1 1 1 
+17 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/refresh/RefreshJob.shouldRun()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fRequests 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/refresh/RefreshJob.refresh(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+7 2 -1 -2 
+14 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/refresh/RefreshJob.stop()V
+PTG:
+Vars:
+2
+$r1 1 6 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 1 -1 
+12 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/refresh/RefreshJob.addRequest(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+9
+$r6 1 21 
+r4 1 16 
+$r8 1 8 
+r0 1 -2 
+$r3 1 8 
+r2 1 -1 
+r1 1 6 
+r7 1 34 
+$r5 1 21 
+Fields: 1
+-1 fRequests 8
+Accesses: 2
+7 1 -1 
+77 1 -1 
+Functions: 9
+0 1 -2 
+48 1 16 
+82 2 -2 8 
+20 1 16 
+36 2 34 6 
+68 1 16 
+8 1 8 
+56 2 34 6 
+26 1 21 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/refresh/RefreshJob.runInWorkspace(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+21
+$r24 1 -1 
+$r26 1 232 
+r4 1 -1 
+$r15 1 360 
+$r8 1 137 
+r0 1 7 
+$r30 1 244 
+$r6 1 129 
+$r28 1 209 
+$r14 1 354 
+$r11 1 380 
+$r1 1 9 
+$r12 1 340 
+$r9 1 140 
+$r7 1 125 
+$r27 1 200 
+$r16 1 363 
+r3 1 -2 
+$r13 1 337 
+$r25 1 222 
+_ret 1 380 
+Fields: 1
+-1 fRequests 129
+Accesses: 5
+128 1 -1 
+322 1 -1 
+260 1 -1 
+265 1 -1 
+317 1 -1 
+Functions: 33
+0 0 
+-1 0 
+129 1 129 
+132 0 
+69 0 
+197 4 -1 129 244 200 
+326 1 -2 
+137 2 137 125 
+204 1 200 
+269 1 -2 
+143 2 -2 140 
+19 2 7 9 
+212 3 -1 129 209 
+340 1 340 
+346 1 340 
+91 1 244 
+283 0 
+157 0 
+289 0 
+354 1 354 
+35 0 
+230 1 9 
+360 1 360 
+297 0 
+237 3 -1 232 222 
+366 2 337 363 
+303 0 
+48 1 -2 
+240 2 9 222 
+369 1 9 
+243 2 -1 129 
+309 0 
+56 1 -2 
+Constructors: 4
+19 9
+346 340
+204 200
+237 222
+
+Summary: 5
+-1 0 222 200 -2 
+org/eclipse/core/internal/refresh/RefreshJob.getRootPathHistory()Lorg/eclipse/core/internal/localstore/PrefixPool;
+PTG:
+Vars:
+5
+$r2 1 1 
+$r1 1 1 
+r0 1 -1 
+$r3 1 8 
+_ret 1 1 
+Fields: 1
+-1 rootPathHistory 1
+Accesses: 3
+0 1 -1 
+17 1 -1 
+20 1 -1 
+Functions: 1
+14 1 8 
+Constructors: 1
+14 8
+
+Summary: 1
+-1 

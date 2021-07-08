@@ -1,0 +1,942 @@
+22
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.getInlineFO()Lorg/apache/fop/fo/flow/Inline;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 fobj 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -2 
+$r2 1 -1 
+$r4 1 6 
+$r5 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.addKnuthElementsForBorderPaddingEnd(Ljava/util/List;)V
+PTG:
+Vars:
+6
+$r2 1 9 
+r0 1 -2 
+r1 1 -1 
+$r5 1 44 
+$r4 1 38 
+r3 1 15 
+Fields: 1
+-1 fobj 9
+Accesses: 1
+8 1 -1 
+Functions: 6
+48 2 38 44 
+51 2 -2 38 
+20 1 15 
+9 1 9 
+25 3 -1 9 15 
+43 2 -1 9 
+Constructors: 1
+48 38
+
+Summary: 6
+-2 -1 15 44 0 38 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.addChildArea(Lorg/apache/fop/area/Area;)V
+PTG:
+Vars:
+8
+$r6 1 25 
+r3 1 -2 
+$r2 1 6 
+$r5 1 21 
+r0 1 -1 
+$r7 1 29 
+$r4 1 18 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -1 
+17 1 -1 
+18 1 18 
+35 3 -1 4 25 
+5 1 -1 
+21 1 21 
+6 1 6 
+40 2 -2 4 
+28 1 -1 
+29 1 29 
+Constructors: 0
+
+Summary: 9
+-2 -1 0 21 25 4 29 6 18 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.getSpaceEnd()Lorg/apache/fop/fo/properties/SpaceProperty;
+PTG:
+Vars:
+5
+$r2 1 1 
+$r3 1 11 
+_ret 1 11 
+r0 1 -1 
+$r1 1 1 
+Fields: 2
+-1 inlineProps 1
+1 spaceEnd 11
+Accesses: 3
+0 1 -1 
+7 1 -1 
+8 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.mustKeepTogether()Z
+PTG:
+Vars:
+2
+$r1 1 2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 2 
+1 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 2 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.getSpaceStart()Lorg/apache/fop/fo/properties/SpaceProperty;
+PTG:
+Vars:
+5
+$r2 1 1 
+$r3 1 11 
+_ret 1 11 
+$r1 1 1 
+r0 1 -1 
+Fields: 2
+-1 inlineProps 1
+1 spaceStart 11
+Accesses: 3
+0 1 -1 
+7 1 -1 
+8 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.hasLeadingFence(Z)Z
+PTG:
+Vars:
+4
+$r3 1 1 
+$r2 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 borderProps 1
+Accesses: 3
+0 1 -1 
+20 1 -1 
+7 1 -1 
+Functions: 2
+21 1 1 
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.<init>(Lorg/apache/fop/fo/flow/InlineLevel;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 7
+17 1 -1 
+33 1 -1 
+22 1 -1 
+38 1 -1 
+7 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 2
+-1 0 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.<clinit>()V
+PTG:
+Vars:
+3
+$r0 1 0 
+$r2 2 8 18 
+$r1 1 21 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.setTraits(ZZ)V
+PTG:
+Vars:
+6
+$r2 1 8 
+$r4 1 22 
+$r1 1 1 
+r0 1 -1 
+$r5 1 1 
+$r3 1 1 
+Fields: 1
+-1 borderProps 1
+Accesses: 3
+0 1 -1 
+25 1 -1 
+11 1 -1 
+Functions: 4
+18 3 -1 1 8 
+21 2 -1 1 
+7 2 -1 1 
+30 3 -1 1 22 
+Constructors: 0
+
+Summary: 3
+22 -1 8 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.getAuxiliaryPosition()Lorg/apache/fop/layoutmgr/Position;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+_ret 1 14 
+$r2 1 14 
+Fields: 1
+-1 auxiliaryPosition 14
+Accesses: 2
+10 1 -1 
+13 1 -1 
+Functions: 1
+7 3 -1 1 14 
+Constructors: 1
+7 1
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.mustKeepTogether(Lorg/apache/fop/layoutmgr/LayoutManager;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -1 
+$r2 1 34 
+Fields: 0
+Accesses: 0
+Functions: 4
+32 2 -1 34 
+33 1 -2 
+8 0 
+25 0 
+Constructors: 0
+
+Summary: 4
+-2 -1 34 0 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.addKnuthElementsForBorderPaddingStart(Ljava/util/List;)V
+PTG:
+Vars:
+6
+r0 1 -2 
+r1 1 -1 
+$r2 1 9 
+$r5 1 45 
+$r4 1 39 
+r3 1 15 
+Fields: 1
+-1 fobj 9
+Accesses: 1
+8 1 -1 
+Functions: 6
+49 2 39 45 
+20 1 15 
+52 2 -2 39 
+9 1 9 
+25 3 -1 9 15 
+44 2 -1 9 
+Constructors: 1
+49 39
+
+Summary: 6
+-2 -1 15 39 0 45 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.getExtraIPD(ZZ)Lorg/apache/fop/traits/MinOptMax;
+PTG:
+Vars:
+8
+$r3 1 3 
+$r5 1 3 
+$r1 1 3 
+$r6 1 3 
+_ret 1 57 
+$r2 1 57 
+r0 1 -1 
+$r4 1 3 
+Fields: 1
+-1 borderProps 3
+Accesses: 5
+33 1 -1 
+2 1 -1 
+21 1 -1 
+9 1 -1 
+46 1 -1 
+Functions: 5
+34 2 -1 3 
+22 1 3 
+10 2 -1 3 
+62 1 57 
+47 1 3 
+Constructors: 1
+62 57
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.addAreas(Lorg/apache/fop/layoutmgr/PositionIterator;Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+53
+$r26 1 454 
+$r58 1 389 
+$r25 1 450 
+$r9 1 229 
+$r24 1 447 
+$r36 1 133 
+$r15 1 494 
+$r17 1 558 
+r2 1 -3 
+$r54 1 366 
+$r52 1 323 
+$r16 1 554 
+$r1 1 5 
+r7 1 -2 
+$r42 1 28 
+$r49 1 305 
+$r12 1 407 
+$r23 1 443 
+r51 1 323 
+$r19 1 501 
+$r29 1 419 
+$r56 1 379 
+$r55 1 375 
+$r20 1 508 
+$r40 1 78 
+$r32 1 270 
+r0 1 -1 
+$r35 1 118 
+r45 1 157 
+$r3 1 57 
+$r21 1 511 
+$r53 1 333 
+$r57 1 382 
+$r22 1 516 
+$r33 1 229 
+r46 1 118 
+r47 1 118 
+$r30 1 270 
+$r28 1 468 
+$r27 1 458 
+$r43 1 31 
+$r41 1 83 
+$r38 1 151 
+$r39 1 75 
+$r13 1 484 
+$r4 1 68 
+$r37 1 142 
+$r31 1 270 
+$r44 1 43 
+r8 1 224 
+$r50 1 310 
+$r14 1 487 
+$r5 1 93 
+Fields: 4
+-1 lastChildLM 419
+-1 alignmentContext 229
+-1 borderProps 270
+-1 parentLM 554
+Accesses: 12
+17 1 -1 
+418 1 -1 
+228 1 -1 
+613 1 -1 
+278 1 -1 
+168 1 -1 
+248 1 -1 
+568 1 -1 
+553 1 -1 
+269 1 -1 
+287 1 -1 
+527 1 -1 
+Functions: 77
+1 5 -1 419 229 554 270 
+385 2 375 382 
+131 1 118 
+515 5 -1 419 229 554 270 
+388 5 -1 419 229 554 270 
+520 7 -1 419 516 229 554 270 511 
+10 2 -3 5 
+523 2 508 511 
+140 1 118 
+396 1 389 
+13 6 -1 419 229 5 554 270 
+16 5 -1 419 229 554 270 
+145 2 93 142 
+149 1 118 
+406 5 -1 419 229 554 270 
+151 1 151 
+279 5 -1 419 229 554 270 
+407 1 407 
+536 6 -1 419 229 118 554 270 
+27 5 -1 419 229 554 270 
+288 1 270 
+36 1 31 
+550 5 -1 419 229 554 270 
+39 2 28 31 
+296 1 224 
+42 5 -1 419 229 554 270 
+557 5 -1 419 229 554 270 
+302 6 -1 224 419 229 554 270 
+432 5 -1 419 229 554 270 
+561 2 554 558 
+50 1 43 
+309 1 93 
+56 5 -1 419 229 554 270 
+185 6 -1 419 229 118 554 270 
+313 2 305 310 
+442 5 -1 419 229 554 270 
+446 5 -1 419 229 554 270 
+447 1 447 
+64 1 57 
+321 1 305 
+450 1 450 
+67 5 -1 419 229 554 270 
+199 5 -1 419 229 554 270 
+457 5 -1 419 229 554 270 
+585 6 -1 419 229 118 554 270 
+74 1 -3 
+202 5 -1 419 229 554 270 
+458 1 458 
+332 5 -1 419 229 554 270 
+464 7 -1 419 229 454 554 443 270 
+82 5 -1 419 229 554 270 
+339 1 -3 
+87 7 -1 83 419 229 554 78 270 
+599 5 -1 419 229 554 270 
+473 1 468 
+90 2 75 78 
+476 2 -3 468 
+608 1 -3 
+97 1 93 
+483 5 -1 419 229 554 270 
+484 1 484 
+229 1 229 
+358 1 333 
+490 2 -3 487 
+235 1 224 
+365 5 -1 419 229 554 270 
+493 1 -3 
+110 1 -2 
+369 3 305 323 366 
+500 5 -1 419 229 554 270 
+117 1 -2 
+374 5 -1 419 229 554 270 
+249 1 229 
+378 5 -1 419 229 554 270 
+379 1 379 
+507 1 -3 
+255 1 224 
+Constructors: 7
+97 93
+36 31
+87 78
+520 511
+313 305
+473 468
+10 5
+
+Summary: 43
+-3 151 447 68 224 379 93 31 57 157 494 484 508 142 487 5 78 43 516 389 511 458 333 83 382 133 468 118 310 454 450 75 28 407 305 -2 375 501 0 366 558 1 443 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.createArea(Z)Lorg/apache/fop/area/inline/InlineArea;
+PTG:
+Vars:
+8
+$r3 1 40 
+$r4 1 43 
+r6 2 20 4 
+_ret 2 20 4 
+r1 1 -1 
+$r2 1 29 
+$r5 1 4 
+$r0 1 20 
+Fields: 1
+-1 fobj 29
+Accesses: 1
+28 1 -1 
+Functions: 6
+39 2 -1 29 
+8 1 4 
+24 1 20 
+40 1 40 
+14 1 4 
+46 3 20 4 43 
+Constructors: 2
+8 4
+24 20
+
+Summary: 3
+-1 43 40 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.hasTrailingFence(Z)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+$r3 1 1 
+$r1 1 1 
+Fields: 1
+-1 borderProps 1
+Accesses: 3
+0 1 -1 
+20 1 -1 
+7 1 -1 
+Functions: 2
+21 1 1 
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.initialize()V
+PTG:
+Vars:
+46
+$r28 1 3 
+$r4 1 3 
+$r41 1 3 
+$r29 1 3 
+$r1 1 3 
+$r15 1 68 
+$r17 1 79 
+$r45 1 221 
+$r42 1 131 
+$r22 1 221 
+$r38 1 3 
+$r20 1 276 
+$r36 1 3 
+$r33 1 3 
+$r21 1 221 
+$r25 1 3 
+$r44 1 3 
+$r19 1 3 
+$r7 1 3 
+$r34 1 3 
+r6 1 24 
+$r18 1 3 
+$r30 1 3 
+$r23 1 221 
+$r9 1 34 
+$r35 1 3 
+$r12 1 3 
+$r31 1 3 
+$r5 1 17 
+$r40 1 3 
+$r24 1 221 
+$r39 1 3 
+$r2 1 6 
+$r26 1 3 
+$r11 1 46 
+$r14 1 3 
+$r27 1 172 
+r3 1 12 
+$r10 1 37 
+$r43 1 3 
+$r37 1 103 
+$r13 1 57 
+$r8 1 29 
+r0 1 -1 
+$r32 1 200 
+$r16 1 3 
+Fields: 4
+24 ArrayObject 29
+-1 fobj 3
+-1 borderProps 221
+34 fontSize 37
+Accesses: 35
+64 1 -1 
+193 1 -1 
+2 1 -1 
+134 1 -1 
+71 1 -1 
+264 1 -1 
+138 1 -1 
+75 1 -1 
+203 1 -1 
+13 1 -1 
+207 1 -1 
+82 1 -1 
+148 1 -1 
+85 1 -1 
+217 1 -1 
+154 1 -1 
+220 1 -1 
+284 1 -1 
+30 1 -1 
+96 1 -1 
+34 1 34 
+227 1 -1 
+165 1 -1 
+106 1 -1 
+110 1 -1 
+175 1 -1 
+239 1 -1 
+49 1 -1 
+179 1 -1 
+53 1 -1 
+120 1 -1 
+251 1 -1 
+60 1 -1 
+124 1 -1 
+189 1 -1 
+Functions: 23
+128 1 3 
+65 1 3 
+3 1 3 
+100 1 3 
+228 3 -1 3 221 
+37 4 -1 3 37 221 
+197 1 3 
+6 1 6 
+169 1 3 
+265 1 221 
+76 1 3 
+14 1 3 
+142 1 3 
+240 1 221 
+17 2 17 12 
+114 1 3 
+211 1 3 
+54 1 3 
+183 1 3 
+281 1 276 
+26 2 12 29 
+252 3 -1 3 221 
+31 1 3 
+Constructors: 1
+281 276
+
+Summary: 8
+24 37 -1 34 12 17 29 6 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.addId()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 5 
+$r3 1 8 
+$r1 1 1 
+Fields: 1
+-1 fobj 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+0 2 -1 5 
+5 1 5 
+11 2 1 8 
+Constructors: 0
+
+Summary: 3
+-1 8 1 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.getNextKnuthElements(Lorg/apache/fop/layoutmgr/LayoutContext;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+73
+$r43 1 132 
+$r35 1 513 
+$r80 1 744 
+$r46 1 328 
+_ret 1 0 
+$r20 1 814 
+$r14 1 136 
+$r51 1 223 
+$r82 1 0 
+$r25 1 19 
+$r33 1 549 
+$r77 1 132 
+$r73 1 132 
+$r56 1 150 
+$r55 1 223 
+$r49 1 223 
+r3 1 -1 
+$r66 1 45 
+$r29 1 607 
+$r7 1 73 
+$r50 1 132 
+$r72 1 290 
+$r59 1 157 
+$r42 1 132 
+$r70 1 208 
+$r12 1 110 
+$r21 1 825 
+$r54 1 223 
+$r6 1 77 
+$r44 1 328 
+$r38 1 484 
+$r11 1 102 
+$r71 1 223 
+$r15 1 132 
+$r22 1 136 
+$r32 1 132 
+r74 1 470 
+$r13 1 120 
+$r30 1 611 
+$r57 1 194 
+$r45 1 223 
+r2 1 -2 
+$r24 1 839 
+r26 1 403 
+$r60 1 160 
+$r78 1 132 
+$r48 1 223 
+$r10 1 94 
+$r34 1 549 
+$r53 1 132 
+r75 1 484 
+$r19 1 19 
+$r64 1 34 
+$r62 1 29 
+$r9 1 84 
+$r4 1 19 
+$r61 1 165 
+$r41 1 223 
+$r27 1 572 
+$r23 1 836 
+$r8 1 81 
+$r63 1 38 
+$r0 1 0 
+$r79 1 132 
+r67 1 744 
+$r40 1 132 
+$r36 1 513 
+$r52 1 223 
+$r18 1 776 
+$r5 1 68 
+$r47 1 223 
+$r39 1 132 
+$r65 1 42 
+Fields: 11
+-1 fobj 19
+-1 lastChildLM 328
+-1 lineHeight 38
+-1 lineHeight 77
+-1 alignmentContext 136
+-1 borderProps 223
+-1 alignmentAdjust 94
+-1 childLC 132
+-1 font 34
+-1 font 73
+-1 baselineShift 102
+Accesses: 41
+128 1 -1 
+640 1 -1 
+131 1 -1 
+259 1 -1 
+323 1 -1 
+710 1 -1 
+135 1 -1 
+327 1 -1 
+72 1 -1 
+393 1 -1 
+267 1 -1 
+76 1 -1 
+720 1 -1 
+18 1 -1 
+277 1 -1 
+344 1 -1 
+794 1 -1 
+731 1 -1 
+348 1 -1 
+93 1 -1 
+413 1 -1 
+222 1 -1 
+33 1 -1 
+97 1 -1 
+804 1 -1 
+37 1 -1 
+101 1 -1 
+229 1 -1 
+423 1 -1 
+105 1 -1 
+364 1 -1 
+237 1 -1 
+305 1 -1 
+754 1 -1 
+116 1 -1 
+247 1 -1 
+312 1 -1 
+377 1 -1 
+316 1 -1 
+61 1 -1 
+830 1 -1 
+Functions: 89
+256 1 132 
+768 13 -1 34 132 38 102 328 136 744 73 77 19 94 223 
+641 1 132 
+4 1 0 
+389 1 132 
+773 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+263 1 -2 
+392 2 290 132 
+139 2 132 136 
+268 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+781 2 208 776 
+142 1 -2 
+16 1 -2 
+528 1 403 
+657 3 744 572 607 
+786 1 0 
+149 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+405 1 0 
+278 1 223 
+537 1 403 
+795 1 19 
+156 1 -2 
+286 1 132 
+414 1 132 
+289 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+546 1 403 
+675 1 744 
+164 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+805 1 19 
+38 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+169 14 160 -1 34 132 165 38 102 328 136 73 77 19 94 223 
+42 1 42 
+555 13 -1 34 132 549 38 102 328 136 73 77 19 94 223 
+172 2 160 157 
+45 13 -1 34 132 38 102 328 136 73 45 77 19 94 223 
+175 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+431 1 132 
+176 1 -2 
+818 1 814 
+692 13 -1 34 132 38 102 328 136 73 77 19 572 94 223 
+565 2 0 403 
+54 1 -2 
+439 1 403 
+58 2 34 29 
+317 1 132 
+702 2 0 572 
+578 2 403 572 
+834 13 -1 34 132 836 38 102 328 136 73 77 19 94 223 
+835 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+324 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+199 1 194 
+711 1 132 
+586 13 -1 34 132 38 102 328 136 73 77 19 572 94 223 
+843 3 839 136 825 
+77 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+205 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+717 1 -2 
+462 1 -2 
+846 2 825 814 
+81 1 81 
+465 1 403 
+84 13 -1 34 132 38 102 328 136 73 77 19 84 94 223 
+597 2 744 572 
+214 1 208 
+854 2 0 814 
+472 1 470 
+728 1 132 
+345 1 223 
+858 1 0 
+482 1 470 
+739 1 132 
+742 1 0 
+616 13 -1 34 611 132 38 102 328 136 73 77 19 94 223 
+233 1 -2 
+109 1 -2 
+365 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+621 3 -2 611 607 
+238 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+368 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+113 5 68 102 73 94 110 
+497 13 -1 34 484 132 38 102 328 136 73 77 19 94 223 
+626 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+248 1 223 
+633 1 -2 
+378 1 223 
+508 2 513 744 
+125 2 -2 120 
+381 12 -1 34 19 132 38 102 328 136 73 77 94 223 
+510 1 403 
+Constructors: 12
+113 68
+578 572
+818 814
+4 0
+214 208
+199 194
+616 611
+169 160
+58 29
+843 825
+125 120
+621 607
+
+Summary: 23
+160 836 470 814 84 403 157 607 110 194 484 839 513 -1 611 -2 825 0 45 165 572 549 150 
+org/apache/fop/layoutmgr/inline/InlineLayoutManager.getChangedKnuthElements(Ljava/util/List;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+5
+$r4 1 17 
+$r0 1 0 
+_ret 1 0 
+r2 1 -1 
+r3 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+4 1 0 
+20 2 0 17 
+10 2 -1 0 
+26 2 -1 0 
+14 2 -1 -2 
+Constructors: 1
+4 0
+
+Summary: 4
+-2 -1 0 17 

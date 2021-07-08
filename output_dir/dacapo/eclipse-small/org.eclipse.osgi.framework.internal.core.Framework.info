@@ -1,0 +1,2508 @@
+67
+org/eclipse/osgi/framework/internal/core/Framework.getPackageSource(Ljava/lang/Class;Ljava/lang/String;)Lorg/eclipse/osgi/internal/loader/PackageSource;
+PTG:
+Vars:
+14
+$r10 1 102 
+r6 1 -3 
+r5 1 28 
+r12 1 75 
+r7 1 57 
+r0 1 -2 
+$r3 1 11 
+r11 1 43 
+$r8 1 70 
+$r9 1 98 
+r1 1 -1 
+r4 1 11 
+$r2 1 7 
+_ret 1 102 
+Fields: 2
+57 ArrayObject 70
+-1 packageAdmin 7
+Accesses: 1
+6 1 -1 
+Functions: 7
+96 4 -1 98 -3 7 
+65 4 -1 -3 70 7 
+97 1 -2 
+37 2 -3 28 
+53 1 -2 
+7 2 -2 7 
+24 1 11 
+Constructors: 0
+
+Summary: 6
+1 -1 98 -3 -2 0 
+org/eclipse/osgi/framework/internal/core/Framework.findVMProfile()Ljava/util/Properties;
+PTG:
+Vars:
+49
+r50 5 296 358 317 387 373 
+r51 1 289 
+r37 3 111 278 206 
+$r36 1 -1 
+$r3 1 9 
+$r5 1 9 
+r45 1 164 
+$r19 1 211 
+$r24 1 200 
+r40 1 68 
+$r18 1 166 
+$r11 1 329 
+$r0 1 0 
+$r33 1 -1 
+r4 1 18 
+$r34 1 -1 
+r6 1 29 
+$r22 1 189 
+$r41 1 9 
+$r48 1 264 
+$r21 1 177 
+$r25 1 81 
+$r15 1 296 
+$r55 1 475 
+r2 1 -1 
+$r8 1 496 
+r42 1 126 
+$r29 1 105 
+$r30 1 -1 
+$r28 1 104 
+$r20 1 228 
+r44 1 152 
+$r14 1 344 
+$r12 1 335 
+$r10 1 405 
+_ret 1 0 
+$r16 1 133 
+$r17 1 9 
+$r13 1 341 
+$r49 1 272 
+$r27 1 94 
+r52 1 350 
+$r35 1 -1 
+r53 1 402 
+$r23 1 195 
+r39 1 228 
+$r47 1 258 
+$r26 1 86 
+r38 2 226 252 
+Fields: 2
+68 ArrayObject 104
+-1 properties 9
+Accesses: 4
+19 1 -1 
+116 1 -1 
+8 1 -1 
+154 1 -1 
+Functions: 48
+513 1 0 
+258 2 258 152 
+195 2 195 152 
+4 1 0 
+262 2 226 252 
+200 1 200 
+9 1 9 
+329 2 341 329 
+267 2 258 264 
+333 3 278 206 111 
+397 5 387 373 358 296 317 
+142 2 133 126 
+272 1 272 
+464 1 402 
+81 1 81 
+338 2 329 335 
+147 1 133 
+20 1 9 
+85 1 18 
+471 1 0 
+344 1 344 
+89 2 81 86 
+218 1 211 
+155 1 9 
+283 0 
+411 2 402 405 
+94 2 104 94 
+414 2 0 405 
+352 3 -1 9 350 
+166 2 164 166 
+105 1 105 
+234 2 228 152 
+490 3 278 206 111 
+43 1 18 
+428 1 402 
+365 5 -1 226 228 9 252 
+302 2 289 296 
+239 2 211 228 
+177 2 177 152 
+499 2 0 496 
+117 1 9 
+54 1 29 
+311 3 -1 289 9 
+184 1 177 
+380 2 -1 9 
+189 1 189 
+62 1 29 
+447 1 402 
+Constructors: 10
+338 329
+4 0
+184 177
+89 81
+218 211
+234 228
+267 258
+411 405
+142 133
+302 296
+
+Summary: 6
+133 405 -1 228 296 211 
+org/eclipse/osgi/framework/internal/core/Framework.initializeProperties(Ljava/util/Properties;)V
+PTG:
+Vars:
+48
+r2 1 -2 
+$r1 1 1 
+$r7 2 37 26 
+$r8 1 43 
+$r10 2 60 26 
+r49 1 145 
+$r41 1 128 
+$r34 1 161 
+$r44 1 -1 
+$r58 2 60 26 
+$r35 1 165 
+$r21 1 422 
+$r17 2 60 26 
+r47 1 112 
+$r56 1 366 
+$r33 2 60 26 
+r54 2 226 251 
+r57 1 384 
+$r20 1 419 
+$r48 2 60 26 
+r55 2 264 360 
+$r4 1 16 
+$r12 2 60 26 
+$r5 1 26 
+$r38 2 60 26 
+r50 2 160 165 
+r60 1 407 
+$r14 2 60 26 
+$r40 2 60 26 
+$r19 2 60 26 
+$r15 2 60 26 
+r46 1 97 
+$r24 1 266 
+$r52 2 60 26 
+$r29 1 308 
+$r26 1 283 
+r3 1 11 
+$r23 2 60 26 
+$r43 1 -1 
+$r6 1 30 
+$r36 2 60 26 
+r45 1 16 
+r51 1 165 
+$r31 1 333 
+r0 1 -1 
+$r59 2 60 26 
+$r39 1 124 
+r53 1 211 
+Fields: 2
+-1 properties 60
+-1 properties 26
+Accesses: 18
+385 1 -1 
+4 1 -1 
+36 1 -1 
+102 1 -1 
+135 1 -1 
+73 1 -1 
+201 1 -1 
+397 1 -1 
+429 1 -1 
+117 1 -1 
+150 1 -1 
+87 1 -1 
+216 1 -1 
+25 1 -1 
+442 1 -1 
+59 1 -1 
+412 1 -1 
+189 1 -1 
+Functions: 43
+-1 0 
+131 3 128 26 60 
+451 2 26 60 
+69 2 26 60 
+197 4 160 165 26 60 
+326 1 266 
+7 1 -2 
+136 2 26 60 
+393 3 384 26 60 
+202 2 26 60 
+330 4 -1 26 60 333 
+331 1 266 
+398 2 26 60 
+15 1 11 
+83 2 26 60 
+275 3 226 266 251 
+341 1 266 
+151 2 26 60 
+88 2 26 60 
+280 4 -1 26 283 60 
+217 2 26 60 
+281 1 266 
+26 2 16 26 
+351 1 266 
+161 3 160 161 165 
+291 1 266 
+355 1 266 
+419 1 419 
+103 2 26 60 
+231 2 226 251 
+41 2 16 -2 
+425 3 422 26 60 
+301 1 266 
+46 4 16 37 26 43 
+366 1 366 
+305 4 -1 308 26 60 
+50 1 11 
+306 1 266 
+244 2 226 251 
+438 2 26 60 
+378 3 264 360 366 
+124 2 112 124 
+316 1 266 
+Constructors: 2
+275 266
+378 366
+
+Summary: 5
+-1 266 0 -2 366 
+org/eclipse/osgi/framework/internal/core/Framework.isForcedRestart()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.initializeContextFinder()V
+PTG:
+Vars:
+21
+$r19 1 125 
+$r12 1 173 
+r17 1 11 
+$r15 1 77 
+$r13 1 -1 
+r0 1 3 
+$r14 1 72 
+$r11 1 170 
+$r10 1 159 
+r6 1 103 
+$r8 1 146 
+$r3 1 42 
+$r4 1 91 
+r16 4 115 24 87 123 
+$r2 1 28 
+$r20 1 138 
+$r7 1 -1 
+$r9 1 155 
+r5 1 -1 
+$r1 1 12 
+$r18 2 51 62 
+Fields: 2
+-1 adaptor 170
+-1 contextFinder 138
+Accesses: 3
+133 1 -1 
+137 1 -1 
+169 1 -1 
+Functions: 20
+0 0 
+-1 1 -1 
+130 5 115 87 24 123 125 
+100 0 
+165 3 -1 146 159 
+6 0 
+42 2 42 11 
+170 1 170 
+12 2 11 12 
+141 2 3 138 
+110 1 103 
+80 2 72 77 
+51 2 51 62 
+179 2 146 173 
+21 0 
+119 1 3 
+59 0 
+91 2 91 11 
+28 2 11 28 
+158 1 155 
+Constructors: 3
+80 72
+130 125
+165 146
+
+Summary: 3
+-1 146 87 
+org/eclipse/osgi/framework/internal/core/Framework.setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+$r3 1 1 
+$r4 1 6 
+r2 1 -3 
+_ret 1 6 
+Fields: 1
+-1 properties 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+org/eclipse/osgi/framework/internal/core/Framework.suspendBundle(Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;Z)Z
+PTG:
+Vars:
+12
+$r1 1 24 
+$r11 1 86 
+$r12 2 -1 99 
+r0 1 -2 
+$r7 1 60 
+r6 1 -1 
+$r3 1 38 
+$r2 1 35 
+$r9 1 75 
+$r10 1 78 
+$r4 1 -1 
+$r8 1 72 
+Fields: 0
+Accesses: 0
+Functions: 17
+97 1 -1 
+2 1 -2 
+35 1 35 
+67 1 60 
+70 1 -1 
+102 2 -1 99 
+9 1 -2 
+41 1 38 
+75 1 75 
+46 1 -2 
+110 2 -1 -2 
+81 1 78 
+113 1 -2 
+84 1 -1 
+24 2 -2 24 
+60 2 72 60 
+31 1 24 
+Constructors: 2
+67 60
+31 24
+
+Summary: 3
+-1 -2 0 
+org/eclipse/osgi/framework/internal/core/Framework.getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+6
+$r3 1 1 
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+$r4 1 6 
+_ret 1 6 
+Fields: 1
+-1 properties 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+org/eclipse/osgi/framework/internal/core/Framework.setNLSFrameworkLog()V
+PTG:
+Vars:
+13
+r0 1 -1 
+$r11 2 11 0 
+$r8 1 -1 
+$r10 1 26 
+$r3 1 -1 
+$r9 1 21 
+$r1 1 48 
+$r2 1 51 
+$r4 1 48 
+r12 1 39 
+$r5 1 67 
+$r6 1 72 
+$r7 1 82 
+Fields: 1
+-1 adaptor 48
+Accesses: 2
+47 1 -1 
+63 1 -1 
+Functions: 11
+-1 1 -1 
+0 2 0 11 
+48 1 48 
+64 1 48 
+81 1 -1 
+8 0 
+56 2 51 39 
+88 3 -1 82 72 
+42 1 39 
+91 2 67 72 
+29 2 21 26 
+Constructors: 2
+88 72
+29 21
+
+Summary: 3
+39 72 -1 
+org/eclipse/osgi/framework/internal/core/Framework.isBootDelegationPackage(Ljava/lang/String;)Z
+PTG:
+Vars:
+10
+$r9 1 27 
+$r7 1 10 
+$r2 1 49 
+r4 1 -2 
+$r6 1 66 
+r0 1 -1 
+$r1 1 10 
+$r3 1 49 
+$r5 2 49 62 
+$r8 2 10 23 
+Fields: 6
+10 ArrayObject 27
+49 ArrayObject 66
+-1 bootDelegation 10
+-1 bootDelegationStems 49
+62 ArrayObject 66
+23 ArrayObject 27
+Accesses: 7
+0 1 -1 
+48 1 -1 
+22 1 -1 
+40 1 -1 
+9 1 -1 
+61 1 -1 
+79 1 -1 
+Functions: 2
+21 2 -2 27 
+60 2 -2 66 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/framework/internal/core/Framework.installBundle(Ljava/lang/String;Ljava/io/InputStream;)Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+12
+$r7 1 17 
+r1 1 -1 
+r4 1 -3 
+$r10 1 30 
+$r6 1 6 
+$r3 1 42 
+$r8 1 23 
+$r5 1 53 
+$r9 1 27 
+r0 1 39 
+r2 1 -2 
+_ret 1 53 
+Fields: 0
+Accesses: 0
+Functions: 9
+17 1 17 
+33 1 30 
+50 5 -1 -2 -3 39 42 
+36 0 
+6 2 -2 6 
+23 2 -3 23 
+40 3 -1 -2 42 
+27 1 27 
+13 1 6 
+Constructors: 2
+50 42
+13 6
+
+Summary: 6
+42 1 -1 -3 -2 0 
+org/eclipse/osgi/framework/internal/core/Framework.setForcedRestart(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.installContentHandlerFactory(Lorg/osgi/framework/BundleContext;Lorg/eclipse/osgi/framework/adaptor/FrameworkAdaptor;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+$r12 1 -1 
+r4 1 -1 
+$r0 1 0 
+r2 1 -3 
+Fields: 0
+Accesses: 2
+28 1 -1 
+63 1 -1 
+Functions: 7
+50 0 
+20 1 0 
+53 0 
+6 3 0 -2 -3 
+42 1 -2 
+11 1 0 
+29 0 
+Constructors: 1
+6 0
+
+Summary: 5
+-2 0 -1 37 -3 
+org/eclipse/osgi/framework/internal/core/Framework.getNextBestProfile(Ljava/lang/String;Lorg/osgi/framework/Version;)Ljava/net/URL;
+PTG:
+Vars:
+9
+r3 1 -1 
+r1 1 -2 
+r7 2 46 26 
+$r5 1 39 
+r0 1 -3 
+$r2 1 5 
+$r6 1 12 
+$r4 1 32 
+_ret 2 46 26 
+Fields: 0
+Accesses: 0
+Functions: 2
+20 3 -1 -2 -3 
+38 3 -1 -3 39 
+Constructors: 0
+
+Summary: 4
+-2 1 -1 -3 
+org/eclipse/osgi/framework/internal/core/Framework.getAdaptor()Lorg/eclipse/osgi/framework/adaptor/FrameworkAdaptor;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 adaptor 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.loadVMProfile()V
+PTG:
+Vars:
+19
+$r16 1 6 
+$r2 1 6 
+$r5 1 109 
+$r10 1 6 
+$r21 1 64 
+$r20 1 6 
+$r12 1 6 
+r3 1 54 
+r18 1 15 
+$r23 1 137 
+r1 1 4 
+r19 1 27 
+$r14 1 6 
+r7 1 157 
+$r22 1 6 
+r0 1 -1 
+$r6 1 151 
+$r8 1 6 
+r4 1 62 
+Fields: 1
+-1 properties 6
+Accesses: 8
+32 1 -1 
+130 1 -1 
+164 1 -1 
+5 1 -1 
+119 1 -1 
+44 1 -1 
+93 1 -1 
+79 1 -1 
+Functions: 15
+0 2 -1 6 
+64 2 64 54 
+131 1 6 
+6 1 6 
+102 2 6 62 
+40 2 6 27 
+45 1 6 
+109 2 54 109 
+173 2 6 157 
+143 2 4 151 
+147 1 4 
+20 1 4 
+86 1 6 
+55 1 4 
+126 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.getField(Ljava/lang/Class;Ljava/lang/Class;Z)Ljava/lang/reflect/Field;
+PTG:
+Vars:
+6
+r5 1 -3 
+$r3 1 32 
+$r4 1 33 
+r1 1 4 
+$r2 1 14 
+r0 1 -2 
+Fields: 2
+4 ArrayObject 14
+4 ArrayObject 32
+Accesses: 0
+Functions: 6
+0 1 -2 
+32 1 32 
+48 0 
+33 2 33 -3 
+14 1 14 
+15 0 
+Constructors: 0
+
+Summary: 4
+-2 33 4 -3 
+org/eclipse/osgi/framework/internal/core/Framework.setBootDelegation()V
+PTG:
+Vars:
+21
+$r11 1 145 
+$r13 1 105 
+$r7 1 42 
+r2 1 10 
+$r18 1 204 
+$r22 1 176 
+$r5 1 32 
+$r16 1 131 
+$r17 1 201 
+$r15 1 120 
+$r1 1 1 
+$r9 1 62 
+$r20 1 173 
+$r14 1 125 
+r0 1 -1 
+r4 1 31 
+$r19 1 204 
+$r10 1 81 
+$r12 1 94 
+$r3 1 17 
+$r21 1 176 
+Fields: 8
+31 ArrayObject 125
+31 ArrayObject 81
+31 ArrayObject 94
+31 ArrayObject 145
+31 ArrayObject 62
+31 ArrayObject 105
+31 ArrayObject 120
+-1 properties 1
+Accesses: 4
+0 1 -1 
+210 1 -1 
+182 1 -1 
+74 1 -1 
+Functions: 20
+160 1 32 
+1 1 1 
+194 2 201 42 
+196 1 42 
+38 1 32 
+134 2 131 42 
+168 2 32 173 
+105 1 105 
+169 1 32 
+16 1 10 
+48 1 42 
+17 1 17 
+81 1 81 
+146 2 32 145 
+120 1 120 
+185 1 42 
+27 1 10 
+125 1 125 
+62 1 62 
+94 1 94 
+Constructors: 2
+48 42
+38 32
+
+Summary: 5
+42 201 -1 173 32 
+org/eclipse/osgi/framework/internal/core/Framework.installSecurityManager()V
+PTG:
+Vars:
+4
+$r0 1 5 
+r1 1 11 
+r14 1 -1 
+r15 1 19 
+Fields: 0
+Accesses: 0
+Functions: 15
+2 0 
+35 0 
+67 0 
+131 1 19 
+100 1 11 
+5 1 5 
+42 1 11 
+110 1 19 
+16 0 
+117 0 
+55 0 
+24 1 11 
+121 0 
+62 1 11 
+127 0 
+Constructors: 0
+
+Summary: 4
+51 -1 31 68 
+org/eclipse/osgi/framework/internal/core/Framework.<init>(Lorg/eclipse/osgi/framework/adaptor/FrameworkAdaptor;)V
+PTG:
+Vars:
+11
+$r1 1 10 
+$r9 1 61 
+$r8 1 51 
+$r5 1 33 
+$r6 1 48 
+$r3 1 28 
+$r7 1 51 
+$r2 1 16 
+r10 1 -2 
+r0 1 -1 
+$r4 1 26 
+Fields: 0
+Accesses: 6
+68 1 -1 
+6 1 -1 
+22 1 -1 
+39 1 -1 
+57 1 -1 
+44 1 -1 
+Functions: 9
+-1 0 
+48 1 48 
+1 1 -1 
+65 1 61 
+73 2 -1 -2 
+10 2 16 10 
+26 2 33 26 
+14 0 
+31 1 28 
+Constructors: 2
+1 -1
+65 61
+
+Summary: 2
+-2 -1 
+org/eclipse/osgi/framework/internal/core/Framework.getSystemBundleContext()Lorg/eclipse/osgi/framework/internal/core/BundleContextImpl;
+PTG:
+Vars:
+5
+$r3 1 13 
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+_ret 1 13 
+Fields: 2
+-1 systemBundle 1
+1 context 13
+Accesses: 3
+0 1 -1 
+9 1 -1 
+10 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.findInSystemBundle(Ljava/lang/String;)Ljava/net/URL;
+PTG:
+Vars:
+8
+r5 3 34 8 26 
+r4 1 20 
+$r6 2 34 26 
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+$r3 1 14 
+_ret 3 34 8 26 
+Fields: 1
+-1 systemBundle 1
+Accesses: 1
+0 1 -1 
+Functions: 5
+32 2 -2 20 
+1 2 1 -2 
+25 1 -2 
+13 2 -1 1 
+14 1 14 
+Constructors: 0
+
+Summary: 4
+-2 14 0 -1 
+org/eclipse/osgi/framework/internal/core/Framework.resetContentHandlers()V
+PTG:
+Vars:
+6
+$r3 1 11 
+r0 1 70 
+$r10 2 11 0 
+r2 1 77 
+$r1 1 77 
+$r12 2 33 44 
+Fields: 0
+Accesses: 0
+Functions: 8
+-1 0 
+66 4 0 33 11 44 
+8 0 
+41 0 
+89 1 77 
+75 1 70 
+29 0 
+62 0 
+Constructors: 0
+
+Summary: 1
+77 
+org/eclipse/osgi/framework/internal/core/Framework.getSignedContentFactory()Lorg/eclipse/osgi/signedcontent/SignedContentFactory;
+PTG:
+Vars:
+5
+$r2 1 14 
+r1 1 4 
+r0 1 -1 
+$r3 1 14 
+_ret 1 14 
+Fields: 1
+-1 signedContentFactory 4
+Accesses: 1
+0 1 -1 
+Functions: 1
+13 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.getAdminPermission(Lorg/osgi/framework/Bundle;Ljava/lang/String;)Lorg/osgi/framework/AdminPermission;
+PTG:
+Vars:
+14
+$r6 1 1 
+r17 2 41 28 
+r0 1 -1 
+r18 2 65 78 
+$r10 1 78 
+$r1 1 1 
+$r9 1 65 
+r4 1 -2 
+$r3 1 7 
+$r14 1 1 
+$r7 1 28 
+r8 1 -3 
+$r13 1 41 
+$r16 1 -1 
+Fields: 1
+-1 adminPermissions 1
+Accesses: 3
+0 1 -1 
+50 1 -1 
+22 1 -1 
+Functions: 8
+17 1 7 
+84 3 -2 -3 78 
+23 2 1 7 
+58 3 1 7 41 
+11 1 -2 
+45 1 41 
+62 3 -3 41 28 
+94 4 -3 41 28 78 
+Constructors: 3
+17 7
+84 78
+45 41
+
+Summary: 7
+41 7 1 -1 -3 -2 0 
+org/eclipse/osgi/framework/internal/core/Framework.createAndVerifyBundle(Lorg/eclipse/osgi/framework/adaptor/BundleData;Z)Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+8
+$r14 1 95 
+r0 1 -2 
+$r3 1 11 
+r5 1 25 
+$r4 1 17 
+r2 1 -1 
+$r1 1 1 
+_ret 1 95 
+Fields: 0
+Accesses: 0
+Functions: 13
+0 1 -2 
+34 1 -2 
+70 1 25 
+9 3 -1 17 11 
+10 1 -2 
+16 1 -2 
+48 0 
+53 1 25 
+88 2 -1 25 
+60 1 25 
+61 0 
+30 1 25 
+94 2 -1 -2 
+Constructors: 0
+
+Summary: 4
+48 -1 -2 0 
+org/eclipse/osgi/framework/internal/core/Framework.newListenerQueue()Lorg/eclipse/osgi/framework/eventmgr/ListenerQueue;
+PTG:
+Vars:
+4
+r1 1 -1 
+$r0 1 0 
+$r2 1 5 
+_ret 1 0 
+Fields: 1
+-1 eventManager 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+8 2 0 5 
+Constructors: 1
+8 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.getBundle(J)Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r3 1 1 
+$r4 1 12 
+$r5 1 -1 
+r0 1 -1 
+Fields: 1
+-1 bundles 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.getAllBundles()[Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r1 1 1 
+$r3 1 1 
+$r7 1 -1 
+r5 1 31 
+r4 1 14 
+Fields: 1
+-1 bundles 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+39 2 14 31 
+8 1 1 
+15 1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.uninstallURLStreamHandlerFactory()V
+PTG:
+Vars:
+28
+$r27 1 26 
+$r19 1 -1 
+$r7 1 120 
+$r11 1 97 
+$r28 2 11 0 
+r31 2 107 86 
+$r23 1 54 
+r5 1 -1 
+$r15 1 107 
+$r16 1 11 
+$r4 1 86 
+$r32 2 132 143 
+r0 1 70 
+r1 1 79 
+$r21 1 158 
+$r18 1 -1 
+r9 1 169 
+$r20 1 153 
+$r8 1 127 
+$r24 1 59 
+$r26 1 21 
+$r17 1 -1 
+$r30 2 33 44 
+$r14 1 97 
+$r25 1 -1 
+$r6 1 97 
+$r22 1 -1 
+$r10 1 176 
+Fields: 1
+-1 streamHandlerFactory 97
+Accesses: 3
+96 1 -1 
+181 1 -1 
+103 1 -1 
+Functions: 17
+-1 1 -1 
+161 2 153 158 
+193 1 70 
+66 4 0 33 11 44 
+196 0 
+8 0 
+104 1 97 
+41 0 
+76 0 
+140 0 
+206 2 86 107 
+84 1 70 
+118 2 86 107 
+120 2 120 127 
+186 4 176 86 169 107 
+29 2 21 26 
+62 2 54 59 
+Constructors: 3
+161 153
+29 21
+62 54
+
+Summary: 5
+-1 120 127 86 176 
+org/eclipse/osgi/framework/internal/core/Framework.resumeBundle(Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;)V
+PTG:
+Vars:
+12
+r0 1 -2 
+$r7 1 48 
+r6 1 -1 
+$r2 1 25 
+$r11 1 72 
+$r8 1 59 
+$r1 1 14 
+$r12 2 83 -1 
+$r4 1 -1 
+$r9 1 62 
+$r3 1 28 
+$r10 1 65 
+Fields: 0
+Accesses: 0
+Functions: 15
+0 1 -2 
+35 1 -2 
+68 1 65 
+71 1 -1 
+14 2 -2 14 
+48 2 48 59 
+82 1 -1 
+21 1 14 
+86 2 -1 83 
+55 1 48 
+25 1 25 
+58 1 -1 
+93 2 -1 -2 
+62 1 62 
+31 1 28 
+Constructors: 2
+21 14
+55 48
+
+Summary: 2
+-1 0 
+org/eclipse/osgi/framework/internal/core/Framework.shutdown(I)V
+PTG:
+Vars:
+17
+$r4 1 19 
+$r6 1 19 
+$r11 1 120 
+$r7 1 48 
+$r8 1 55 
+$r3 1 9 
+r0 1 -1 
+$r16 1 19 
+$r1 1 13 
+$r13 1 -1 
+$r14 1 19 
+$r12 1 120 
+$r15 1 -1 
+$r2 1 19 
+$r5 1 19 
+$r9 1 19 
+$r10 1 48 
+Fields: 4
+-1 shutdownEvent 9
+-1 adaptor 48
+-1 systemBundle 19
+-1 signedContentFactory 120
+Accesses: 15
+0 1 -1 
+96 1 -1 
+33 1 19 
+69 1 -1 
+135 1 -1 
+8 1 -1 
+40 1 -1 
+47 1 -1 
+111 1 -1 
+18 1 -1 
+51 1 -1 
+119 1 -1 
+89 1 -1 
+27 1 -1 
+126 1 -1 
+Functions: 11
+130 1 120 
+52 1 19 
+100 1 48 
+116 5 -1 48 19 120 9 
+86 0 
+23 2 19 13 
+58 2 48 55 
+74 5 -1 48 19 120 9 
+139 5 -1 48 19 120 9 
+44 5 -1 48 19 120 9 
+93 1 19 
+Constructors: 1
+23 13
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.publishBundleEvent(ILorg/osgi/framework/Bundle;)V
+PTG:
+Vars:
+8
+$r9 1 14 
+$r10 1 38 
+$r5 1 24 
+r3 1 -3 
+$r1 1 1 
+r0 1 -1 
+$r8 1 8 
+$r11 1 38 
+Fields: 2
+-1 bundleEvent 8
+-1 bundleEventSync 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 5
+-1 0 
+32 4 -1 1 8 14 
+20 2 -3 14 
+44 5 -1 1 38 8 14 
+47 1 38 
+Constructors: 2
+20 14
+44 38
+
+Summary: 4
+1 -1 14 -3 
+org/eclipse/osgi/framework/internal/core/Framework.getServiceRegistry()Lorg/eclipse/osgi/internal/serviceregistry/ServiceRegistry;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 serviceRegistry 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.forceContentHandlerFactory(Lorg/eclipse/osgi/framework/internal/protocol/ContentHandlerFactory;)V
+PTG:
+Vars:
+19
+$r16 1 -1 
+r7 1 197 
+$r3 1 136 
+$r31 2 97 86 
+$r2 1 124 
+r32 2 124 -2 
+$r8 1 203 
+$r17 1 181 
+r0 1 70 
+$r33 2 160 171 
+$r15 1 -1 
+$r30 2 33 44 
+$r6 1 155 
+$r18 1 186 
+$r28 2 11 0 
+$r13 1 11 
+$r5 1 148 
+r1 2 97 86 
+r9 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 21
+-1 1 -1 
+66 4 0 33 11 44 
+228 1 70 
+135 2 -2 124 
+231 0 
+8 0 
+168 0 
+41 0 
+235 2 -2 124 
+143 1 136 
+82 0 
+210 4 -2 197 203 124 
+115 0 
+147 2 -2 124 
+148 2 148 155 
+122 1 70 
+220 2 -2 124 
+29 0 
+189 2 181 186 
+62 0 
+94 0 
+Constructors: 1
+189 181
+
+Summary: 5
+148 124 203 136 155 
+org/eclipse/osgi/framework/internal/core/Framework.parseVersionInt(Ljava/lang/String;)I
+PTG:
+Vars:
+5
+r0 1 -2 
+$r2 1 6 
+r4 1 22 
+r7 1 -1 
+$r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -2 
+32 0 
+18 1 -2 
+68 1 6 
+69 0 
+10 1 -2 
+61 1 6 
+14 1 6 
+47 1 6 
+Constructors: 1
+14 6
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/framework/internal/core/Framework.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 15 
+$r6 2 25 35 
+Fields: 0
+Accesses: 0
+Functions: 5
+-1 0 
+33 0 
+19 1 15 
+53 0 
+59 2 35 25 
+Constructors: 1
+19 15
+
+Summary: 0
+
+org/eclipse/osgi/framework/internal/core/Framework.run()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r4 1 -1 
+Fields: 0
+Accesses: 1
+18 1 -1 
+Functions: 1
+11 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/osgi/framework/internal/core/Framework.getBundleBySymbolicName(Ljava/lang/String;)[Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+6
+$r1 1 1 
+r0 1 -1 
+$r4 1 1 
+r3 1 -2 
+$r5 1 12 
+$r6 1 -1 
+Fields: 1
+-1 bundles 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/framework/internal/core/Framework.forceURLStreamHandlerFactory(Lorg/eclipse/osgi/framework/internal/protocol/StreamHandlerFactory;)V
+PTG:
+Vars:
+18
+$r4 1 96 
+$r31 2 136 147 
+r0 1 70 
+$r7 1 124 
+$r19 1 157 
+r9 1 173 
+$r15 1 11 
+$r5 1 111 
+$r20 1 162 
+$r18 1 -1 
+$r17 1 -1 
+$r8 1 131 
+$r27 2 11 0 
+r11 1 -2 
+$r29 2 33 44 
+$r10 1 180 
+r1 1 89 
+r30 2 -2 96 
+Fields: 0
+Accesses: 0
+Functions: 20
+-1 1 -1 
+66 4 0 33 11 44 
+165 2 162 157 
+198 2 96 -2 
+8 0 
+41 0 
+109 2 96 -2 
+207 1 70 
+144 0 
+82 0 
+210 0 
+86 0 
+118 1 111 
+215 2 96 -2 
+122 2 96 -2 
+187 4 96 -2 180 173 
+124 2 131 124 
+29 0 
+62 0 
+94 1 70 
+Constructors: 1
+165 157
+
+Summary: 5
+180 124 131 96 111 
+org/eclipse/osgi/framework/internal/core/Framework.close()V
+PTG:
+Vars:
+17
+$r14 1 160 
+$r6 1 52 
+$r10 1 118 
+$r17 1 97 
+$r4 1 22 
+r5 1 35 
+$r1 1 1 
+$r9 1 97 
+r7 1 52 
+$r16 1 118 
+$r15 1 139 
+$r13 1 201 
+$r11 1 139 
+$r12 1 160 
+r0 1 -1 
+$r8 1 22 
+$r2 1 22 
+Fields: 6
+-1 adaptor 1
+-1 eventManager 160
+-1 bundles 22
+-1 bundleEvent 97
+-1 frameworkEvent 139
+-1 bundleEventSync 118
+Accesses: 21
+0 1 -1 
+96 1 -1 
+166 1 -1 
+103 1 -1 
+135 1 -1 
+8 1 -1 
+138 1 -1 
+76 1 -1 
+175 1 -1 
+145 1 -1 
+114 1 -1 
+180 1 -1 
+21 1 -1 
+117 1 -1 
+185 1 -1 
+28 1 -1 
+124 1 -1 
+156 1 -1 
+93 1 -1 
+190 1 -1 
+159 1 -1 
+Functions: 14
+64 1 52 
+128 1 118 
+-1 0 
+194 7 -1 160 1 97 22 118 139 
+36 1 35 
+198 7 -1 160 1 97 22 118 139 
+170 1 160 
+107 1 97 
+80 1 22 
+49 1 35 
+18 7 -1 160 1 97 22 118 139 
+211 0 
+149 1 139 
+29 1 22 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.getPackageAdmin()Lorg/eclipse/osgi/framework/internal/core/PackageAdminImpl;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 packageAdmin 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.getDelegateHooks()[Lorg/eclipse/osgi/framework/adaptor/ClassLoaderDelegateHook;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 delegateHooks 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.installWorkerPrivileged(Ljava/lang/String;Ljava/net/URLConnection;Ljava/security/AccessControlContext;)Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+18
+$r47 1 131 
+r0 1 -1 
+$r3 1 1 
+$r7 1 62 
+r11 1 -4 
+r5 1 29 
+$r8 1 1 
+$r9 1 262 
+$r42 1 95 
+$r45 1 131 
+r1 1 -2 
+r2 1 -3 
+r34 1 40 
+$r6 1 1 
+r33 1 20 
+r4 1 11 
+r39 1 244 
+_ret 1 29 
+Fields: 2
+-1 adaptor 1
+-1 bundles 262
+Accesses: 7
+0 1 -1 
+289 1 -1 
+261 1 -1 
+235 1 -1 
+172 1 -1 
+206 1 -1 
+31 1 -1 
+Functions: 27
+-1 0 
+256 2 244 29 
+1 3 1 -2 -3 
+68 1 20 
+198 1 29 
+330 0 
+267 2 262 29 
+140 5 -1 1 131 262 29 
+13 1 11 
+207 0 
+144 2 131 -4 
+337 0 
+277 1 11 
+22 4 -1 1 20 262 
+153 0 
+93 2 29 95 
+32 1 1 
+162 1 11 
+99 1 95 
+227 1 29 
+295 3 -1 1 262 
+236 1 1 
+52 2 40 29 
+182 1 29 
+59 1 29 
+124 0 
+127 0 
+Constructors: 2
+99 95
+140 131
+
+Summary: 7
+1 2 -1 0 -3 -2 95 
+org/eclipse/osgi/framework/internal/core/Framework.getContextFinder()Lorg/eclipse/core/runtime/internal/adaptor/ContextFinder;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 contextFinder 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.installURLStreamHandlerFactory(Lorg/osgi/framework/BundleContext;Lorg/eclipse/osgi/framework/adaptor/FrameworkAdaptor;)V
+PTG:
+Vars:
+5
+$r0 1 0 
+r1 1 -2 
+r2 1 -3 
+$r12 1 -1 
+r4 1 -1 
+Fields: 0
+Accesses: 2
+28 1 -1 
+63 1 -1 
+Functions: 7
+50 0 
+20 1 0 
+53 0 
+6 3 0 -2 -3 
+42 1 -2 
+11 1 0 
+29 0 
+Constructors: 1
+6 0
+
+Summary: 5
+-2 0 -1 37 -3 
+org/eclipse/osgi/framework/internal/core/Framework.createSystemBundle()V
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r2 1 13 
+$r3 1 16 
+$r4 1 13 
+Fields: 1
+-1 systemBundle 13
+Accesses: 3
+19 1 -1 
+9 1 -1 
+12 1 -1 
+Functions: 7
+33 0 
+50 0 
+6 3 -1 1 13 
+23 2 16 13 
+43 0 
+44 0 
+13 1 13 
+Constructors: 1
+6 1
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.launch()V
+PTG:
+Vars:
+12
+$r8 1 119 
+$r11 1 34 
+$r7 1 83 
+$r1 1 15 
+$r16 2 97 86 
+$r5 1 75 
+$r3 1 25 
+$r9 1 130 
+$r6 1 68 
+$r2 1 21 
+$r4 1 68 
+r0 1 -1 
+Fields: 2
+-1 systemBundle 68
+-1 signedContentFactory 130
+Accesses: 7
+0 1 -1 
+129 1 -1 
+18 1 -1 
+67 1 -1 
+10 1 -1 
+126 1 -1 
+79 1 -1 
+Functions: 14
+64 0 
+-1 0 
+133 1 130 
+71 1 68 
+42 4 -1 34 130 68 
+48 1 34 
+80 1 68 
+115 0 
+52 1 34 
+21 2 21 25 
+86 2 97 86 
+23 0 
+123 3 83 119 75 
+94 0 
+Constructors: 2
+42 34
+123 75
+
+Summary: 2
+-1 119 
+org/eclipse/osgi/framework/internal/core/Framework.publishFrameworkEvent(ILorg/osgi/framework/Bundle;Ljava/lang/Throwable;)V
+PTG:
+Vars:
+8
+$r5 1 28 
+$r1 1 1 
+$r10 1 43 
+r8 2 15 -3 
+r3 1 -4 
+$r9 1 16 
+r0 1 -1 
+$r11 1 43 
+Fields: 2
+-1 systemBundle 15
+-1 frameworkEvent 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 5
+-1 0 
+50 5 -1 16 1 43 15 
+37 4 -1 16 1 15 
+53 1 43 
+23 4 16 -3 -4 15 
+Constructors: 2
+50 43
+23 16
+
+Summary: 6
+16 2 1 -4 -1 -3 
+org/eclipse/osgi/framework/internal/core/Framework.installWorker(Ljava/lang/String;Ljava/security/PrivilegedExceptionAction;)Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+23
+$r24 1 163 
+$r22 1 171 
+$r19 1 1 
+$r5 1 1 
+$r4 1 36 
+r32 1 36 
+r33 1 98 
+$r20 1 -1 
+$r25 1 163 
+$r16 1 1 
+r2 1 -2 
+r0 1 -1 
+$r15 1 -1 
+$r21 1 153 
+r31 1 27 
+$r3 1 1 
+$r1 1 1 
+$r23 1 171 
+r8 1 -3 
+$r17 1 1 
+$r9 1 98 
+r30 1 12 
+$r28 1 -1 
+Fields: 1
+-1 installLock 1
+Accesses: 9
+0 1 -1 
+114 1 -1 
+131 1 -1 
+180 1 -1 
+197 1 -1 
+122 1 -1 
+75 1 -1 
+188 1 -1 
+29 1 -1 
+Functions: 15
+97 1 -3 
+193 2 1 -2 
+162 1 -1 
+7 3 -1 1 -2 
+71 0 
+135 0 
+201 1 1 
+170 1 -1 
+108 3 -1 1 98 
+79 1 1 
+52 2 36 27 
+24 0 
+152 1 -1 
+30 3 1 -2 27 
+127 1 -2 
+Constructors: 0
+
+Summary: 5
+1 -1 -2 153 0 
+org/eclipse/osgi/framework/internal/core/Framework.getBundleBySymbolicName(Ljava/lang/String;Lorg/osgi/framework/Version;)Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+7
+r4 1 -3 
+$r5 1 1 
+$r7 1 -1 
+r0 1 -1 
+r3 1 -2 
+$r1 1 1 
+$r6 1 13 
+Fields: 1
+-1 bundles 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 3 1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/osgi/framework/internal/core/Framework.initialize(Lorg/eclipse/osgi/framework/adaptor/FrameworkAdaptor;)V
+PTG:
+Vars:
+42
+$r12 1 345 
+$r40 2 385 506 
+$r21 1 531 
+$r5 1 211 
+$r11 1 333 
+$r16 1 388 
+$r24 1 481 
+$r34 1 100 
+$r22 1 549 
+$r2 1 183 
+r50 1 427 
+$r18 1 385 
+$r28 1 71 
+$r13 1 385 
+$r47 1 36 
+$r10 1 308 
+$r17 1 430 
+$r35 1 103 
+r1 1 -2 
+r51 1 487 
+r0 1 -1 
+$r4 1 204 
+$r3 1 192 
+$r7 1 272 
+$r39 1 -1 
+$r9 1 297 
+$r37 1 33 
+$r31 1 83 
+$r8 1 286 
+$r36 1 -2 
+$r30 1 77 
+$r15 1 385 
+$r27 1 61 
+$r29 1 74 
+$r25 2 456 490 
+$r14 1 388 
+$r19 1 456 
+$r23 1 552 
+$r32 1 94 
+$r33 1 97 
+$r6 1 260 
+$r20 1 534 
+Fields: 4
+385 context 388
+427 ArrayObject 481
+-1 bundles 456
+-1 systemBundle 385
+Accesses: 21
+384 1 -1 
+385 1 385 
+354 1 -1 
+452 1 -1 
+293 1 -1 
+455 1 -1 
+200 1 -1 
+489 1 -1 
+43 1 -1 
+459 1 -1 
+268 1 -1 
+396 1 -1 
+397 1 385 
+48 1 -1 
+304 1 -1 
+18 1 -1 
+341 1 -1 
+505 1 -1 
+282 1 -1 
+219 1 -1 
+315 1 -1 
+Functions: 60
+-1 0 
+256 0 
+135 0 
+392 5 -1 385 -2 388 456 
+9 0 
+265 5 -1 385 260 388 456 
+139 1 -2 
+12 0 
+404 5 -1 385 -2 388 456 
+534 1 534 
+151 0 
+279 1 272 
+541 1 534 
+30 1 -2 
+158 0 
+33 1 33 
+290 1 286 
+418 0 
+163 0 
+421 1 -2 
+549 1 549 
+555 2 531 552 
+301 1 297 
+178 0 
+52 4 -1 385 388 456 
+182 1 -2 
+567 0 
+312 1 308 
+188 5 -1 385 388 183 456 
+61 2 71 61 
+449 1 430 
+68 1 61 
+197 5 192 -1 385 388 456 
+329 0 
+74 1 74 
+463 3 385 388 456 
+80 1 77 
+210 1 -2 
+338 5 -1 385 388 456 333 
+83 2 97 83 
+216 6 -1 385 211 388 456 204 
+90 1 83 
+93 4 -1 385 388 456 
+94 1 94 
+351 1 345 
+483 5 -1 481 385 388 456 
+100 1 100 
+229 0 
+358 4 -1 385 388 456 
+106 1 103 
+362 4 -1 385 388 456 
+236 0 
+110 4 -1 385 388 456 
+366 4 -1 385 388 456 
+495 3 487 456 490 
+241 0 
+114 4 -1 385 388 456 
+119 5 -1 -2 385 388 456 
+380 0 
+511 5 -1 385 388 456 506 
+Constructors: 13
+449 430
+290 286
+68 61
+197 192
+265 260
+301 297
+338 333
+279 272
+216 204
+312 308
+90 83
+541 534
+351 345
+
+Summary: 3
+-1 94 0 
+org/eclipse/osgi/framework/internal/core/Framework.resetURLStreamHandlers()V
+PTG:
+Vars:
+6
+$r10 2 11 0 
+$r1 1 77 
+$r12 2 33 44 
+r0 1 70 
+r2 1 77 
+$r3 1 11 
+Fields: 0
+Accesses: 0
+Functions: 8
+-1 0 
+66 4 0 33 11 44 
+8 0 
+41 0 
+89 1 77 
+75 1 70 
+29 0 
+62 0 
+Constructors: 0
+
+Summary: 1
+77 
+org/eclipse/osgi/framework/internal/core/Framework.isActive()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.getBundleByLocation(Ljava/lang/String;)Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+7
+r3 1 -2 
+r0 1 -1 
+$r6 1 18 
+$r5 1 9 
+$r8 1 -1 
+$r7 1 18 
+$r1 1 1 
+Fields: 1
+-1 bundles 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+9 1 9 
+15 4 -1 1 -2 9 
+Constructors: 1
+15 9
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/framework/internal/core/Framework.getProperty(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r2 1 1 
+$r3 1 5 
+r0 1 -1 
+_ret 1 5 
+Fields: 1
+-1 properties 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/framework/internal/core/Framework.checkAdminPermission(Lorg/osgi/framework/Bundle;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r3 1 -3 
+r1 1 -1 
+$r4 1 12 
+r2 1 -2 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+9 3 -1 -2 -3 
+15 2 3 12 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 -3 
+org/eclipse/osgi/framework/internal/core/Framework.getDataFile(Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;Ljava/lang/String;)Ljava/io/File;
+PTG:
+Vars:
+7
+$r3 1 9 
+r2 1 -3 
+$r0 1 0 
+$r4 1 9 
+r1 1 -2 
+r5 1 -1 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 0 
+6 3 0 -2 -3 
+Constructors: 1
+6 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/osgi/framework/internal/core/Framework.getBundles()Lorg/eclipse/osgi/framework/internal/core/BundleRepository;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 bundles 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/Framework.waitForStop(J)Lorg/osgi/framework/FrameworkEvent;
+PTG:
+Vars:
+8
+$r6 1 84 
+$r4 1 88 
+$r5 1 96 
+$r7 1 110 
+$r8 1 72 
+r0 1 -1 
+r3 1 29 
+$r9 1 -1 
+Fields: 5
+29 ArrayObject 72
+29 ArrayObject 110
+29 ArrayObject 84
+-1 shutdownEvent 29
+-1 systemBundle 96
+Accesses: 2
+25 1 -1 
+95 1 -1 
+Functions: 4
+-1 0 
+100 2 96 88 
+37 6 -1 96 84 72 29 110 
+12 0 
+Constructors: 1
+100 88
+
+Summary: 0
+
+org/eclipse/osgi/framework/internal/core/Framework.findNextBestProfile(Ljava/lang/String;Lorg/osgi/framework/Version;)Ljava/net/URL;
+PTG:
+Vars:
+13
+$r9 1 41 
+$r4 1 14 
+$r10 1 44 
+$r2 1 9 
+$r7 1 35 
+$r6 1 30 
+r11 1 50 
+r1 1 -1 
+r3 1 -2 
+$r5 1 24 
+$r8 1 38 
+r0 1 -3 
+_ret 1 50 
+Fields: 0
+Accesses: 0
+Functions: 10
+17 2 9 14 
+2 1 -3 
+35 2 35 38 
+20 1 -3 
+24 1 24 
+8 2 -1 44 
+9 1 9 
+41 1 41 
+13 1 -2 
+30 1 30 
+Constructors: 1
+17 9
+
+Summary: 5
+1 -1 -3 -2 0 
+org/eclipse/osgi/framework/internal/core/Framework.dispatchEvent(Ljava/lang/Object;Ljava/lang/Object;ILjava/lang/Object;)V
+PTG:
+Vars:
+22
+r10 1 -1 
+r17 1 -3 
+$r4 1 76 
+$r9 1 -1 
+$r7 1 59 
+$r13 1 128 
+$r16 1 146 
+r21 1 -5 
+$r5 1 79 
+$r2 1 96 
+$r6 1 56 
+r22 1 -2 
+$r8 1 112 
+$r12 1 202 
+r19 1 -5 
+r0 1 -2 
+r1 1 -5 
+r18 1 -2 
+$r15 1 143 
+$r11 1 158 
+$r14 1 140 
+$r3 1 99 
+Fields: 5
+-2 bundleEventSync 76
+-2 frameworkEvent 96
+-2 bundle 202
+-2 bundleEvent 56
+-1 adaptor 158
+Accesses: 5
+54 1 -2 
+200 1 -2 
+74 1 -2 
+157 1 -1 
+94 1 -2 
+Functions: 17
+96 1 96 
+128 2 128 140 
+66 7 96 -2 -5 56 202 59 76 
+163 2 -1 158 
+6 5 96 -2 56 202 76 
+135 1 128 
+106 7 96 -2 99 -5 56 202 76 
+138 1 -1 
+76 1 76 
+143 1 143 
+207 3 -1 202 158 
+116 1 112 
+180 1 -5 
+149 1 146 
+86 7 96 -2 -5 56 202 76 79 
+56 1 56 
+154 1 -1 
+Constructors: 2
+116 112
+135 128
+
+Summary: 11
+56 1 76 -1 -5 -3 -2 96 202 3 0 
+org/eclipse/osgi/framework/internal/core/Framework.publishFrameworkEventPrivileged(Lorg/osgi/framework/FrameworkEvent;)V
+PTG:
+Vars:
+11
+$r14 1 66 
+$r8 1 34 
+r0 1 -2 
+$r11 1 34 
+$r4 1 9 
+r1 1 -1 
+r6 1 17 
+$r7 1 29 
+$r10 1 41 
+$r12 1 54 
+$r13 1 54 
+Fields: 3
+-1 adaptor 9
+-1 eventManager 34
+-1 frameworkEvent 54
+Accesses: 5
+33 1 -1 
+53 1 -1 
+8 1 -1 
+45 1 -1 
+62 1 -1 
+Functions: 9
+0 1 -2 
+49 2 34 41 
+37 2 34 29 
+24 2 17 -2 
+72 6 -1 66 34 54 41 9 
+9 1 9 
+78 2 41 29 
+94 2 -2 29 
+63 1 54 
+Constructors: 2
+49 41
+37 29
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/framework/internal/core/Framework.uninstallContentHandlerFactory()V
+PTG:
+Vars:
+32
+$r29 2 11 0 
+$r26 1 -1 
+$r28 1 26 
+$r9 1 123 
+$r8 1 199 
+r1 2 76 87 
+$r13 1 133 
+r3 1 -1 
+$r24 1 54 
+r33 2 133 114 
+$r14 1 11 
+$r25 1 59 
+$r17 1 -1 
+$r21 1 97 
+$r31 2 33 44 
+$r5 1 144 
+$r34 2 167 156 
+$r2 1 114 
+$r4 1 123 
+$r18 1 177 
+$r12 1 123 
+$r22 1 102 
+r7 1 193 
+$r23 1 -1 
+$r19 1 182 
+$r27 1 21 
+$r15 1 -1 
+$r32 2 76 87 
+$r6 1 151 
+$r20 1 -1 
+r0 1 70 
+$r16 1 -1 
+Fields: 1
+-1 contentHandlerFactory 123
+Accesses: 3
+129 1 -1 
+122 1 -1 
+204 1 -1 
+Functions: 18
+-1 1 -1 
+66 4 0 33 11 44 
+130 1 123 
+227 2 114 133 
+164 0 
+8 0 
+41 0 
+105 2 97 102 
+143 2 114 133 
+112 1 70 
+144 2 144 151 
+209 4 193 114 133 199 
+84 0 
+216 1 70 
+185 2 177 182 
+219 0 
+29 2 21 26 
+62 2 54 59 
+Constructors: 4
+105 97
+185 177
+29 21
+62 54
+
+Summary: 5
+151 -1 199 114 144 
+org/eclipse/osgi/framework/internal/core/Framework.publishBundleEventPrivileged(Lorg/osgi/framework/BundleEvent;)V
+PTG:
+Vars:
+20
+$r15 1 14 
+$r5 1 14 
+$r17 1 3 
+$r11 1 130 
+$r16 1 3 
+$r4 1 91 
+$r12 1 9 
+$r14 1 21 
+$r18 1 46 
+$r10 1 74 
+$r6 1 103 
+r3 1 -2 
+$r8 1 74 
+r21 1 9 
+$r1 1 3 
+r0 1 -1 
+r24 1 91 
+$r7 1 14 
+$r2 1 74 
+$r13 1 14 
+Fields: 3
+-1 eventManager 14
+-1 bundleEvent 74
+-1 bundleEventSync 3
+Accesses: 10
+33 1 -1 
+2 1 -1 
+116 1 -1 
+25 1 -1 
+73 1 -1 
+42 1 -1 
+107 1 -1 
+13 1 -1 
+126 1 -1 
+95 1 -1 
+Functions: 13
+99 2 91 14 
+163 2 -2 9 
+136 6 -1 130 3 103 74 14 
+43 1 3 
+173 2 -2 91 
+111 2 103 14 
+143 2 103 91 
+80 1 -2 
+17 2 9 14 
+52 6 -1 3 21 74 46 14 
+58 2 21 9 
+29 2 21 14 
+127 1 74 
+Constructors: 4
+17 9
+99 91
+29 21
+111 103
+
+Summary: 3
+-1 -2 0 
+org/eclipse/osgi/framework/internal/core/Framework.isServiceAssignableTo(Lorg/osgi/framework/Bundle;Lorg/osgi/framework/Bundle;Ljava/lang/String;Ljava/lang/Class;)Z
+PTG:
+Vars:
+15
+r13 1 107 
+r5 1 35 
+r6 1 55 
+$r11 1 104 
+r2 1 -2 
+r1 1 -3 
+r14 2 134 149 
+r4 1 -4 
+r10 1 -5 
+$r12 1 107 
+r3 1 -2 
+r9 1 -1 
+r8 1 85 
+r7 1 69 
+r0 1 -3 
+Fields: 1
+-1 systemBundle 104
+Accesses: 1
+103 1 -1 
+Functions: 12
+64 1 -3 
+50 1 -2 
+115 2 35 107 
+37 1 35 
+6 1 -3 
+104 1 104 
+141 4 -1 35 -5 104 
+78 2 35 69 
+94 3 -1 35 104 
+158 3 149 85 134 
+31 1 -4 
+127 2 35 55 
+Constructors: 0
+
+Summary: 9
+2 1 -1 -5 -3 -2 -4 0 3 
+org/eclipse/osgi/framework/internal/core/Framework.getURLStreamHandlerFactoryLock()Ljava/lang/Object;
+PTG:
+Vars:
+9
+$r4 1 -1 
+$r7 1 26 
+r0 1 39 
+$r10 2 55 66 
+r9 3 50 55 66 
+$r5 1 -1 
+$r8 2 11 0 
+$r6 1 21 
+_ret 3 50 55 66 
+Fields: 0
+Accesses: 0
+Functions: 8
+-1 1 -1 
+0 2 0 11 
+84 0 
+8 0 
+42 1 39 
+29 2 21 26 
+45 1 39 
+63 0 
+Constructors: 1
+29 21
+
+Summary: 1
+39 

@@ -1,0 +1,815 @@
+25
+org/h2/command/dml/SelectUnion.init()V
+PTG:
+Vars:
+11
+r2 1 69 
+$r3 1 71 
+$r12 1 30 
+r0 1 -1 
+$r10 1 30 
+$r11 1 23 
+$r1 1 23 
+$r9 1 23 
+r5 1 86 
+$r4 1 86 
+$r6 1 95 
+Fields: 3
+-1 expressions 95
+-1 left 23
+-1 right 30
+Accesses: 9
+19 1 -1 
+36 1 -1 
+6 1 -1 
+22 1 -1 
+74 1 -1 
+29 1 -1 
+45 1 -1 
+62 1 -1 
+94 1 -1 
+Functions: 10
+-1 0 
+33 1 30 
+84 1 69 
+100 2 86 95 
+37 1 23 
+55 0 
+26 1 23 
+13 0 
+46 1 30 
+63 1 23 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/SelectUnion.getPlanSQL()Ljava/lang/String;
+PTG:
+Vars:
+37
+$r26 1 190 
+$r18 1 227 
+$r6 1 21 
+$r12 1 208 
+$r4 1 15 
+$r34 1 117 
+$r17 1 224 
+$r46 1 173 
+r3 1 -1 
+$r2 1 11 
+$r0 1 0 
+r11 1 173 
+$r7 1 24 
+$r42 1 150 
+$r28 1 200 
+$r13 1 276 
+$r33 1 108 
+$r15 1 217 
+$r44 1 160 
+$r20 1 235 
+$r41 1 147 
+$r47 1 181 
+$r5 1 18 
+$r40 1 144 
+$r27 1 181 
+_ret 1 276 
+$r35 1 124 
+$r36 1 127 
+$r38 1 137 
+$r22 1 235 
+$r24 1 254 
+$r23 1 251 
+$r39 1 141 
+$r43 1 160 
+$r45 1 170 
+$r16 1 208 
+$r21 1 244 
+Fields: 6
+-1 sort 181
+-1 limitExpr 208
+-1 expressions 160
+-1 left 15
+-1 right 141
+-1 offsetExpr 235
+Accesses: 13
+33 1 -1 
+193 1 -1 
+163 1 -1 
+261 1 -1 
+234 1 -1 
+140 1 -1 
+14 1 -1 
+207 1 -1 
+180 1 -1 
+247 1 -1 
+120 1 -1 
+220 1 -1 
+159 1 -1 
+Functions: 35
+257 2 244 254 
+130 1 127 
+194 2 181 173 
+4 1 0 
+134 1 0 
+71 1 0 
+8 1 0 
+137 2 147 137 
+11 2 21 11 
+203 2 200 190 
+141 1 141 
+15 1 15 
+271 1 0 
+144 1 144 
+81 1 0 
+18 1 18 
+275 1 0 
+214 1 0 
+91 1 0 
+155 1 150 
+29 1 24 
+221 1 208 
+160 2 160 170 
+224 1 224 
+164 1 160 
+101 1 0 
+230 2 227 217 
+108 1 108 
+112 1 108 
+241 1 0 
+117 1 117 
+248 1 235 
+187 1 0 
+251 1 251 
+124 1 124 
+Constructors: 2
+112 108
+4 0
+
+Summary: 2
+170 -1 
+org/h2/command/dml/SelectUnion.setForUpdate(Z)V
+PTG:
+Vars:
+3
+$r2 1 9 
+r0 1 -1 
+$r1 1 1 
+Fields: 2
+-1 left 1
+-1 right 9
+Accesses: 3
+0 1 -1 
+18 1 -1 
+8 1 -1 
+Functions: 2
+5 1 1 
+13 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/SelectUnion.isEverything(Lorg/h2/expression/ExpressionVisitor;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 12 
+r1 1 -2 
+$r2 1 1 
+Fields: 2
+-1 left 1
+-1 right 12
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+1 2 1 -2 
+12 2 -2 12 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/command/dml/SelectUnion.setSQL(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/dml/SelectUnion.getFirstColumnAlias(Lorg/h2/engine/Session;)Ljava/lang/String;
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/command/dml/SelectUnion.getExpressions()Lorg/h2/util/ObjectArray;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 expressions 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/SelectUnion.queryWithoutCache(I)Lorg/h2/result/LocalResult;
+PTG:
+Vars:
+54
+$r47 1 5 
+$r29 1 460 
+$r44 1 32 
+$r50 1 49 
+$r25 1 309 
+$r45 1 35 
+$r37 1 190 
+$r31 1 476 
+r0 1 -1 
+$r20 1 412 
+$r21 1 359 
+$r32 1 479 
+$r55 1 90 
+$r56 1 487 
+$r10 1 5 
+$r53 1 68 
+$r15 1 487 
+$r54 1 42 
+$r6 1 372 
+$r39 1 200 
+$r8 1 16 
+$r11 1 16 
+$r41 1 42 
+$r24 1 338 
+$r34 1 42 
+$r26 1 313 
+$r35 1 90 
+$r12 1 5 
+$r23 1 334 
+r5 1 225 
+$r30 1 469 
+$r51 1 16 
+$r2 1 42 
+$r7 1 58 
+$r13 1 527 
+$r38 1 197 
+$r17 1 432 
+$r28 1 288 
+r4 1 215 
+$r49 1 42 
+$r52 1 58 
+$r27 1 284 
+$r3 1 90 
+$r36 1 181 
+$r22 1 363 
+_ret 1 49 
+r18 1 439 
+$r16 1 502 
+$r19 1 408 
+$r43 1 5 
+$r14 1 16 
+$r42 1 90 
+$r48 1 19 
+$r46 1 16 
+Fields: 7
+-1 sort 68
+-1 limitExpr 5
+-1 session 16
+-1 expressions 58
+-1 left 42
+-1 right 90
+-1 offsetExpr 487
+Accesses: 29
+193 1 -1 
+67 1 -1 
+4 1 -1 
+519 1 -1 
+136 1 -1 
+74 1 -1 
+11 1 -1 
+523 1 -1 
+15 1 -1 
+207 1 -1 
+144 1 -1 
+81 1 -1 
+472 1 -1 
+89 1 -1 
+217 1 -1 
+162 1 -1 
+101 1 -1 
+38 1 -1 
+486 1 -1 
+41 1 -1 
+170 1 -1 
+237 1 -1 
+494 1 -1 
+498 1 -1 
+53 1 -1 
+376 1 -1 
+57 1 -1 
+380 1 -1 
+511 1 -1 
+Functions: 64
+385 3 16 372 58 
+392 1 372 
+520 2 16 5 
+395 1 215 
+12 2 16 5 
+141 1 42 
+527 1 527 
+272 1 215 
+19 1 19 
+149 1 90 
+405 9 -1 16 68 5 487 408 58 42 90 
+533 1 49 
+406 1 215 
+25 0 
+153 1 49 
+281 9 -1 16 68 5 487 58 42 90 284 
+537 1 49 
+282 1 215 
+31 0 
+415 2 372 412 
+32 1 32 
+291 2 288 49 
+421 1 225 
+167 1 42 
+297 1 225 
+42 1 42 
+429 9 -1 16 432 68 5 487 58 42 90 
+430 1 225 
+175 1 90 
+306 9 -1 16 68 5 309 487 58 42 90 
+307 1 225 
+181 1 181 
+185 1 181 
+441 2 372 439 
+316 2 49 313 
+62 3 16 49 58 
+190 1 190 
+322 1 215 
+197 1 197 
+454 2 49 439 
+71 2 49 68 
+203 1 200 
+331 9 -1 16 68 5 487 58 42 90 334 
+332 1 215 
+460 1 460 
+208 1 42 
+464 1 460 
+341 2 49 338 
+469 1 469 
+86 1 42 
+218 1 90 
+347 1 225 
+476 1 476 
+94 1 90 
+98 1 49 
+482 1 479 
+356 9 -1 16 68 5 487 359 58 42 90 
+229 1 215 
+357 1 225 
+234 1 225 
+366 2 49 363 
+495 2 16 487 
+502 1 502 
+508 1 49 
+Constructors: 4
+464 460
+385 372
+185 181
+62 49
+
+Summary: 2
+372 -1 
+org/h2/command/dml/SelectUnion.prepare()V
+PTG:
+Vars:
+25
+$r24 1 33 
+r1 1 68 
+r0 1 -1 
+$r25 1 55 
+$r5 1 224 
+$r9 1 89 
+$r27 1 40 
+$r14 1 174 
+$r17 1 195 
+$r3 1 224 
+$r23 1 40 
+$r11 1 100 
+$r4 2 232 209 
+r12 1 100 
+r2 1 76 
+$r18 1 198 
+$r26 1 33 
+r10 1 89 
+$r7 1 224 
+$r16 1 190 
+$r22 1 33 
+$r13 1 168 
+$r6 2 232 209 
+$r8 1 261 
+$r20 1 209 
+Fields: 6
+-1 orderList 224
+-1 expressions 232
+-1 expressions 209
+-1 session 195
+-1 left 33
+-1 right 40
+Accesses: 18
+0 1 -1 
+32 1 -1 
+194 1 -1 
+69 1 -1 
+39 1 -1 
+231 1 -1 
+264 1 -1 
+236 1 -1 
+269 1 -1 
+14 1 -1 
+46 1 -1 
+208 1 -1 
+58 1 -1 
+250 1 -1 
+29 1 -1 
+61 1 -1 
+254 1 -1 
+223 1 -1 
+Functions: 30
+128 1 100 
+130 0 
+195 1 195 
+70 1 40 
+138 1 89 
+203 3 198 168 190 
+143 1 100 
+145 0 
+86 1 68 
+214 2 209 190 
+23 0 
+153 1 89 
+158 1 100 
+160 0 
+97 1 76 
+36 1 33 
+43 1 40 
+108 1 89 
+172 1 89 
+47 1 33 
+240 7 -1 224 209 33 195 232 40 
+113 1 100 
+115 0 
+245 7 -1 224 209 33 195 232 40 
+55 0 
+185 2 168 174 
+249 7 -1 224 209 33 195 232 40 
+123 1 89 
+62 1 33 
+255 2 209 232 
+Constructors: 2
+185 168
+203 190
+
+Summary: 3
+190 -1 168 
+org/h2/command/dml/SelectUnion.addGlobalCondition(Lorg/h2/expression/Parameter;II)V
+PTG:
+Vars:
+9
+$r6 1 85 
+$r7 1 92 
+$r2 1 64 
+$r5 1 76 
+$r4 1 51 
+r0 1 -1 
+$r3 1 41 
+$r8 1 95 
+r1 1 -2 
+Fields: 3
+-1 left 64
+-1 left 41
+-1 right 51
+Accesses: 5
+50 1 -1 
+5 1 -1 
+40 1 -1 
+88 1 -1 
+63 1 -1 
+Functions: 9
+80 1 76 
+2 5 -1 64 -2 51 41 
+98 1 95 
+85 1 85 
+70 2 64 -2 
+57 2 -2 51 
+76 1 76 
+92 1 92 
+47 2 -2 41 
+Constructors: 1
+80 76
+
+Summary: 3
+-1 0 -2 
+org/h2/command/dml/SelectUnion.setOrder(Lorg/h2/util/ObjectArray;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/dml/SelectUnion.isReadOnly()Z
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 11 
+r0 1 -1 
+Fields: 2
+-1 left 1
+-1 right 11
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 2
+1 1 1 
+11 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/SelectUnion.queryMeta()Lorg/h2/result/LocalResult;
+PTG:
+Vars:
+7
+$r1 1 1 
+r2 1 7 
+$r4 1 16 
+_ret 1 16 
+$r5 1 21 
+r0 1 -1 
+$r3 1 1 
+Fields: 2
+-1 session 21
+-1 left 1
+Accesses: 3
+0 1 -1 
+20 1 -1 
+8 1 -1 
+Functions: 4
+1 1 1 
+9 1 1 
+26 3 16 21 7 
+31 1 16 
+Constructors: 1
+26 16
+
+Summary: 2
+-1 7 
+org/h2/command/dml/SelectUnion.setDistinct(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/SelectUnion.convert([Lorg/h2/value/Value;I)[Lorg/h2/value/Value;
+PTG:
+Vars:
+8
+$r3 1 12 
+$r2 1 8 
+_ret 1 -2 
+r4 1 12 
+r1 1 -1 
+r0 1 -2 
+$r6 1 30 
+$r5 1 24 
+Fields: 2
+-1 expressions 8
+-2 ArrayObject 24
+Accesses: 1
+7 1 -1 
+Functions: 3
+8 1 8 
+24 1 24 
+25 1 12 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/dml/SelectUnion.<init>(Lorg/h2/engine/Session;Lorg/h2/command/dml/Query;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 4
+-1 0 -2 1 
+org/h2/command/dml/SelectUnion.updateAggregate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r3 1 9 
+$r2 1 1 
+Fields: 2
+-1 left 1
+-1 right 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+5 2 1 -2 
+13 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/command/dml/SelectUnion.setUnionType(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/SelectUnion.mapColumns(Lorg/h2/table/ColumnResolver;I)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 10 
+$r2 1 1 
+r0 1 -1 
+Fields: 2
+-1 left 1
+-1 right 10
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+6 2 1 -2 
+15 2 -2 10 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/command/dml/SelectUnion.getTables()Ljava/util/HashSet;
+PTG:
+Vars:
+6
+$r1 1 1 
+r2 1 7 
+_ret 1 7 
+$r4 1 13 
+$r3 1 10 
+r0 1 -1 
+Fields: 2
+-1 left 1
+-1 right 10
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 3
+16 2 7 13 
+1 1 1 
+10 1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/SelectUnion.query(I)Lorg/h2/result/LocalResult;
+PTG:
+Vars:
+3
+$r1 1 2 
+_ret 1 2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/SelectUnion.getCost()D
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 8 
+Fields: 2
+-1 left 1
+-1 right 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+1 1 1 
+8 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/command/dml/SelectUnion.setEvaluatable(Lorg/h2/table/TableFilter;Z)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+$r3 1 10 
+Fields: 2
+-1 left 1
+-1 right 10
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+6 2 1 -2 
+15 2 -2 10 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/command/dml/SelectUnion.setRight(Lorg/h2/command/dml/Query;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/command/dml/SelectUnion.getColumnCount()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 left 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 

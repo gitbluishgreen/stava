@@ -1,0 +1,467 @@
+18
+sun/awt/AWTAutoShutdown.getShutdownEvent()Ljava/awt/AWTEvent;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+$r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+8 2 0 4 
+Constructors: 1
+8 0
+
+Summary: 1
+4 
+sun/awt/AWTAutoShutdown.notifyPeerMapUpdated()V
+PTG:
+Vars:
+6
+$r5 1 8 
+r0 1 -1 
+$r7 1 29 
+$r3 1 8 
+$r1 1 1 
+$r6 1 22 
+Fields: 3
+-1 mainLock 8
+-1 activationLock 1
+-1 blockerThread 22
+Accesses: 5
+0 1 -1 
+50 1 -1 
+21 1 -1 
+7 1 -1 
+41 1 -1 
+Functions: 4
+34 1 29 
+28 4 -1 1 22 8 
+45 1 8 
+14 4 -1 1 22 8 
+Constructors: 0
+
+Summary: 2
+29 -1 
+sun/awt/AWTAutoShutdown.registerPeer(Ljava/lang/Object;Ljava/lang/Object;)V
+PTG:
+Vars:
+6
+r5 1 -2 
+$r3 1 8 
+$r7 1 16 
+r6 1 -3 
+r0 1 -1 
+$r1 1 1 
+Fields: 3
+-1 mainLock 8
+-1 activationLock 1
+-1 peerMap 16
+Accesses: 3
+0 1 -1 
+7 1 -1 
+15 1 -1 
+Functions: 2
+21 3 16 -2 -3 
+28 4 -1 16 1 8 
+Constructors: 0
+
+Summary: 3
+-3 -1 -2 
+sun/awt/AWTAutoShutdown.notifyToolkitThreadFree()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+4 1 0 
+Constructors: 0
+
+Summary: 1
+0 
+sun/awt/AWTAutoShutdown.unregisterPeer(Ljava/lang/Object;Ljava/lang/Object;)V
+PTG:
+Vars:
+8
+$r6 1 16 
+$r9 1 16 
+r8 1 -3 
+$r1 1 1 
+r0 1 -1 
+$r3 1 8 
+r5 1 -2 
+$r7 1 20 
+Fields: 3
+-1 mainLock 8
+-1 activationLock 1
+-1 peerMap 16
+Accesses: 4
+0 1 -1 
+7 1 -1 
+29 1 -1 
+15 1 -1 
+Functions: 3
+16 2 16 -2 
+34 2 16 -2 
+41 4 -1 16 1 8 
+Constructors: 0
+
+Summary: 4
+-3 -1 20 -2 
+sun/awt/AWTAutoShutdown.notifyThreadFree(Ljava/lang/Thread;)V
+PTG:
+Vars:
+6
+r1 1 -1 
+$r2 1 6 
+$r6 1 20 
+r0 1 -2 
+$r4 1 13 
+$r7 1 13 
+Fields: 3
+-1 mainLock 13
+-1 activationLock 6
+-1 busyThreadSet 20
+Accesses: 5
+19 1 -1 
+5 1 -1 
+37 1 -1 
+12 1 -1 
+46 1 -1 
+Functions: 3
+24 2 -2 20 
+41 1 13 
+30 4 -1 20 6 13 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+sun/awt/AWTAutoShutdown.notifyThreadBusy(Ljava/lang/Thread;)V
+PTG:
+Vars:
+7
+$r7 1 13 
+$r2 1 6 
+r1 1 -1 
+$r6 1 20 
+$r12 1 53 
+r0 1 -2 
+$r4 1 13 
+Fields: 4
+-1 mainLock 13
+-1 activationLock 6
+-1 busyThreadSet 53
+-1 blockerThread 20
+Accesses: 6
+49 1 -1 
+19 1 -1 
+52 1 -1 
+5 1 -1 
+40 1 -1 
+12 1 -1 
+Functions: 4
+33 5 -1 20 53 6 13 
+57 2 -2 53 
+27 5 -1 20 53 6 13 
+44 1 13 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+sun/awt/AWTAutoShutdown.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 0
+
+sun/awt/AWTAutoShutdown.<init>()V
+PTG:
+Vars:
+5
+$r3 1 27 
+$r2 1 16 
+r0 1 -1 
+$r1 1 5 
+$r4 1 45 
+Fields: 0
+Accesses: 7
+36 1 -1 
+52 1 -1 
+23 1 -1 
+41 1 -1 
+57 1 -1 
+12 1 -1 
+62 1 -1 
+Functions: 5
+1 1 -1 
+33 1 27 
+49 1 45 
+20 1 16 
+9 1 5 
+Constructors: 5
+1 -1
+33 27
+49 45
+20 16
+9 5
+
+Summary: 1
+-1 
+sun/awt/AWTAutoShutdown.lambda$notifyPeerMapUpdated$0()Ljava/lang/Void;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/awt/AWTAutoShutdown.isReadyToShutdown()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 20 
+$r1 1 8 
+Fields: 2
+-1 busyThreadSet 20
+-1 peerMap 8
+Accesses: 3
+0 1 -1 
+19 1 -1 
+7 1 -1 
+Functions: 2
+20 1 20 
+8 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/awt/AWTAutoShutdown.getInstance()Lsun/awt/AWTAutoShutdown;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+sun/awt/AWTAutoShutdown.notifyToolkitThreadBusy()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+4 1 0 
+Constructors: 0
+
+Summary: 1
+0 
+sun/awt/AWTAutoShutdown.activateBlockerThread()V
+PTG:
+Vars:
+6
+$r0 1 0 
+$r4 1 34 
+$r7 1 44 
+$r5 1 -1 
+r2 1 -1 
+$r1 1 4 
+Fields: 1
+-1 mainLock 34
+Accesses: 2
+33 1 -1 
+26 1 -1 
+Functions: 8
+-1 0 
+16 1 0 
+49 1 44 
+21 1 0 
+37 1 34 
+53 1 -1 
+10 4 0 -1 34 4 
+30 1 0 
+Constructors: 1
+10 0
+
+Summary: 2
+-1 4 
+sun/awt/AWTAutoShutdown.setToolkitBusy(Z)V
+PTG:
+Vars:
+6
+$r3 1 16 
+$r6 1 35 
+$r1 1 9 
+$r7 1 16 
+$r5 1 16 
+r0 1 -1 
+Fields: 3
+-1 mainLock 16
+-1 activationLock 9
+-1 blockerThread 35
+Accesses: 11
+64 1 -1 
+96 1 -1 
+1 1 -1 
+34 1 -1 
+69 1 -1 
+23 1 -1 
+55 1 -1 
+87 1 -1 
+8 1 -1 
+77 1 -1 
+15 1 -1 
+Functions: 5
+48 4 -1 16 35 9 
+80 4 -1 16 35 9 
+42 4 -1 16 35 9 
+59 1 16 
+91 1 16 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/awt/AWTAutoShutdown.dumpPeers(Lsun/util/logging/PlatformLogger;)V
+PTG:
+Vars:
+16
+r10 1 63 
+$r17 1 97 
+$r11 1 66 
+$r15 1 89 
+$r14 1 31 
+$r16 1 94 
+$r5 1 18 
+r2 1 -1 
+$r12 1 75 
+$r3 1 11 
+$r7 1 31 
+r0 1 -2 
+$r1 1 1 
+r9 1 44 
+$r13 1 80 
+$r8 1 34 
+Fields: 3
+-1 mainLock 18
+-1 activationLock 11
+-1 peerMap 31
+Accesses: 4
+17 1 -1 
+83 1 -1 
+10 1 -1 
+30 1 -1 
+Functions: 13
+0 2 -2 1 
+34 1 34 
+66 2 66 63 
+100 2 -2 97 
+70 1 66 
+75 1 75 
+46 1 44 
+80 2 80 89 
+84 2 31 63 
+56 1 44 
+27 1 -2 
+94 1 94 
+31 1 31 
+Constructors: 1
+70 66
+
+Summary: 11
+66 89 94 75 34 80 63 -1 -2 44 97 
+sun/awt/AWTAutoShutdown.getPeer(Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+8
+$r1 1 1 
+$r6 1 15 
+$r10 1 -1 
+r0 1 -1 
+$r7 1 19 
+$r3 1 8 
+r5 1 -2 
+$r8 1 -1 
+Fields: 3
+-1 mainLock 8
+-1 activationLock 1
+-1 peerMap 15
+Accesses: 3
+0 1 -1 
+7 1 -1 
+14 1 -1 
+Functions: 1
+15 2 -2 15 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+sun/awt/AWTAutoShutdown.run()V
+PTG:
+Vars:
+10
+$r7 1 7 
+r0 1 3 
+$r6 1 7 
+$r13 1 -1 
+$r4 1 7 
+$r2 1 7 
+$r5 1 21 
+$r16 1 21 
+$r15 1 21 
+r1 1 -1 
+Fields: 2
+-1 mainLock 7
+-1 blockerThread 21
+Accesses: 16
+37 1 -1 
+69 1 -1 
+133 1 -1 
+6 1 -1 
+72 1 -1 
+105 1 -1 
+13 1 -1 
+47 1 -1 
+115 1 -1 
+20 1 -1 
+85 1 -1 
+56 1 -1 
+123 1 -1 
+28 1 -1 
+61 1 -1 
+95 1 -1 
+Functions: 6
+0 0 
+32 1 7 
+17 1 7 
+40 3 -1 21 7 
+155 0 
+79 1 7 
+Constructors: 0
+
+Summary: 2
+3 -1 

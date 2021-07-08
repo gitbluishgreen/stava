@@ -1,0 +1,1468 @@
+67
+org/sunflow/core/ShadingState.addSample(Lorg/sunflow/core/LightSample;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+r0 1 -2 
+$r2 1 2 
+Fields: 1
+-1 lightSample 2
+Accesses: 3
+1 1 -1 
+5 1 -2 
+10 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/sunflow/core/ShadingState.createState(Lorg/sunflow/core/IntersectionState;FFLorg/sunflow/core/Ray;ILorg/sunflow/core/LightServer;)Lorg/sunflow/core/ShadingState;
+PTG:
+Vars:
+5
+r4 1 -7 
+r1 1 -2 
+$r0 1 0 
+r2 1 -5 
+_ret 1 0 
+Fields: 0
+Accesses: 3
+19 1 0 
+25 1 0 
+31 1 0 
+Functions: 1
+10 3 0 -2 -5 
+Constructors: 1
+10 0
+
+Summary: 5
+3 -5 0 5 -2 
+org/sunflow/core/ShadingState.occlusion(IFLorg/sunflow/image/Color;Lorg/sunflow/image/Color;)Lorg/sunflow/image/Color;
+PTG:
+Vars:
+13
+r0 1 -1 
+$r1 1 1 
+$r13 1 176 
+$r9 1 152 
+r2 1 17 
+$r8 1 147 
+$r14 1 179 
+r12 1 -5 
+r5 1 31 
+r11 1 -4 
+$r6 1 198 
+$r3 1 19 
+_ret 1 198 
+Fields: 2
+-1 p 152
+-1 n 1
+Accesses: 5
+0 1 -1 
+129 1 19 
+119 1 19 
+151 1 -1 
+136 1 19 
+Functions: 17
+192 1 31 
+165 1 147 
+105 0 
+10 3 -1 1 152 
+42 3 -1 1 152 
+76 0 
+13 3 -1 1 152 
+173 4 -1 1 147 152 
+143 2 17 19 
+176 3 176 -4 -5 
+53 3 -1 1 152 
+85 0 
+182 2 179 31 
+23 1 19 
+28 0 
+157 3 147 19 152 
+94 0 
+Constructors: 2
+23 19
+157 147
+
+Summary: 8
+176 179 -5 31 17 -1 147 19 
+org/sunflow/core/ShadingState.diffuse(Lorg/sunflow/image/Color;)Lorg/sunflow/image/Color;
+PTG:
+Vars:
+12
+$r6 1 72 
+$r7 1 77 
+r9 1 28 
+$r4 1 63 
+$r8 1 28 
+$r11 1 50 
+r1 1 -2 
+r3 1 17 
+r0 1 3 
+$r10 1 42 
+r2 1 -1 
+_ret 1 77 
+Fields: 1
+-1 n 42
+Accesses: 1
+41 1 -1 
+Functions: 12
+0 0 
+48 1 28 
+18 1 17 
+66 2 3 63 
+4 1 -2 
+53 2 50 3 
+70 2 -2 3 
+39 2 42 28 
+72 1 72 
+27 1 17 
+13 2 -1 42 
+61 3 -1 -2 42 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+org/sunflow/core/ShadingState.setModifier(Lorg/sunflow/core/Modifier;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/sunflow/core/ShadingState.createReflectionBounceState(Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/Ray;I)Lorg/sunflow/core/ShadingState;
+PTG:
+Vars:
+5
+r2 1 -3 
+$r3 1 6 
+r1 1 -2 
+$r0 1 0 
+_ret 1 0 
+Fields: 1
+-2 istate 6
+Accesses: 3
+16 1 0 
+5 1 -2 
+23 1 0 
+Functions: 1
+12 4 0 -2 -3 6 
+Constructors: 1
+12 0
+
+Summary: 5
+-3 0 6 -2 1 
+org/sunflow/core/ShadingState.getCosND()F
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.isBehind()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.includeSpecular()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getRandom(II)D
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+56 1 -1 
+42 1 -1 
+28 1 -1 
+62 1 -1 
+Functions: 7
+33 0 
+51 0 
+37 0 
+70 0 
+74 0 
+47 0 
+63 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.setBasis(Lorg/sunflow/math/OrthoNormalBasis;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/sunflow/core/ShadingState.createDiffuseBounceState(Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/Ray;I)Lorg/sunflow/core/ShadingState;
+PTG:
+Vars:
+5
+r2 1 -3 
+$r3 1 6 
+r1 1 -2 
+$r0 1 0 
+_ret 1 0 
+Fields: 1
+-2 istate 6
+Accesses: 3
+16 1 0 
+5 1 -2 
+23 1 0 
+Functions: 1
+12 4 0 -2 -3 6 
+Constructors: 1
+12 0
+
+Summary: 5
+-3 0 6 -2 1 
+org/sunflow/core/ShadingState.getTrianglePoints([Lorg/sunflow/math/Point3;)Z
+PTG:
+Vars:
+5
+r5 1 -2 
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+r3 1 10 
+Fields: 1
+-1 instance 1
+Accesses: 4
+0 1 -1 
+64 1 -1 
+24 1 -1 
+44 1 -1 
+Functions: 8
+80 0 
+1 1 1 
+35 0 
+4 1 4 
+55 0 
+40 0 
+75 0 
+60 0 
+Constructors: 0
+
+Summary: 4
+4 -2 10 -1 
+org/sunflow/core/ShadingState.getNormal()Lorg/sunflow/math/Vector3;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 n 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.storePhoton(Lorg/sunflow/math/Vector3;Lorg/sunflow/image/Color;Lorg/sunflow/image/Color;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 1 
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+Fields: 1
+-1 map 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+8 5 -1 1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-4 -3 0 2 -2 -1 1 
+org/sunflow/core/ShadingState.getBasis()Lorg/sunflow/math/OrthoNormalBasis;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 basis 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.traceFinalGather(Lorg/sunflow/core/Ray;I)Lorg/sunflow/core/ShadingState;
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+$r3 1 7 
+_ret 1 7 
+Fields: 1
+-1 server 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 -1 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+org/sunflow/core/ShadingState.createFinalGatherState(Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/Ray;I)Lorg/sunflow/core/ShadingState;
+PTG:
+Vars:
+5
+$r0 1 0 
+r1 1 -2 
+r2 1 -3 
+$r3 1 6 
+_ret 1 0 
+Fields: 1
+-2 istate 6
+Accesses: 5
+16 1 0 
+33 1 0 
+5 1 -2 
+23 1 0 
+28 1 0 
+Functions: 1
+12 4 0 -2 -3 6 
+Constructors: 1
+12 0
+
+Summary: 5
+-3 0 6 -2 1 
+org/sunflow/core/ShadingState.getPrimitiveID()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.traceTransparency()Lorg/sunflow/image/Color;
+PTG:
+Vars:
+10
+$r1 1 1 
+$r7 1 27 
+$r3 1 6 
+$r5 1 27 
+$r2 1 6 
+r0 1 -1 
+$r6 1 27 
+$r8 1 51 
+$r4 1 6 
+_ret 1 51 
+Fields: 2
+-1 r 27
+-1 p 6
+Accesses: 12
+33 1 -1 
+34 1 27 
+19 1 -1 
+20 1 6 
+5 1 -1 
+6 1 6 
+40 1 -1 
+41 1 27 
+26 1 -1 
+27 1 27 
+12 1 -1 
+13 1 6 
+Functions: 2
+0 4 -1 1 6 27 
+47 1 1 
+Constructors: 1
+47 1
+
+Summary: 2
+-1 1 
+org/sunflow/core/ShadingState.getLightServer()Lorg/sunflow/core/LightServer;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 server 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getDepth()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+4 1 -1 
+9 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.shade()Lorg/sunflow/image/Color;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 5 
+r0 1 -1 
+_ret 1 5 
+Fields: 1
+-1 server 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.createPhotonState(Lorg/sunflow/core/Ray;Lorg/sunflow/core/IntersectionState;ILorg/sunflow/core/PhotonStore;Lorg/sunflow/core/LightServer;)Lorg/sunflow/core/ShadingState;
+PTG:
+Vars:
+6
+r2 1 -2 
+r1 1 -3 
+r5 1 -5 
+$r0 1 0 
+r4 1 -6 
+_ret 1 0 
+Fields: 0
+Accesses: 2
+18 1 0 
+24 1 0 
+Functions: 1
+9 3 0 -2 -3 
+Constructors: 1
+9 0
+
+Summary: 5
+3 -3 0 -2 1 
+org/sunflow/core/ShadingState.traceShadow(Lorg/sunflow/core/Ray;)Lorg/sunflow/image/Color;
+PTG:
+Vars:
+7
+$r2 1 4 
+$r4 1 9 
+r0 1 -1 
+$r5 1 12 
+$r1 1 1 
+r3 1 -2 
+_ret 1 12 
+Fields: 2
+-1 istate 9
+-1 server 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+1 1 1 
+4 3 -2 4 9 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+org/sunflow/core/ShadingState.getRay()Lorg/sunflow/core/Ray;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 r 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.traceReflectionPhoton(Lorg/sunflow/core/Ray;Lorg/sunflow/image/Color;)V
+PTG:
+Vars:
+5
+$r4 1 13 
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+r3 1 -3 
+Fields: 2
+-1 map 1
+-1 server 13
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 2
+1 1 1 
+19 5 -1 1 -2 -3 13 
+Constructors: 0
+
+Summary: 5
+-3 0 -2 -1 1 
+org/sunflow/core/ShadingState.correctShadingNormal()V
+PTG:
+Vars:
+5
+$r2 1 1 
+$r3 1 1 
+$r1 1 5 
+r0 1 -1 
+$r5 1 25 
+Fields: 3
+-1 ng 5
+-1 n 1
+-1 basis 25
+Accesses: 4
+0 1 -1 
+16 1 -1 
+4 1 -1 
+24 1 -1 
+Functions: 3
+20 1 1 
+5 2 1 5 
+28 1 25 
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getGeoNormal()Lorg/sunflow/math/Vector3;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 ng 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.traceRefractionPhoton(Lorg/sunflow/core/Ray;Lorg/sunflow/image/Color;)V
+PTG:
+Vars:
+8
+$r4 1 20 
+$r1 1 1 
+$r3 1 20 
+r0 1 -1 
+$r7 1 70 
+r2 1 -2 
+r6 1 -3 
+$r5 1 20 
+Fields: 3
+-1 map 1
+-1 server 70
+-1 ng 20
+Accesses: 14
+0 1 -1 
+66 1 -2 
+69 1 -1 
+38 1 -1 
+39 1 20 
+12 1 -2 
+47 1 -2 
+50 1 -2 
+19 1 -1 
+20 1 20 
+57 1 -1 
+58 1 20 
+28 1 -2 
+31 1 -2 
+Functions: 2
+1 1 1 
+76 6 -1 1 -2 -3 20 70 
+Constructors: 0
+
+Summary: 5
+-3 0 -2 -1 1 
+org/sunflow/core/ShadingState.getRefractionDepth()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.initCausticSamples()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 server 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getWorldToCamera()Lorg/sunflow/math/Matrix4;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+$r4 2 22 16 
+r3 1 10 
+_ret 2 22 16 
+Fields: 1
+-1 server 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 1 1 
+4 1 4 
+15 1 10 
+Constructors: 0
+
+Summary: 3
+4 10 -1 
+org/sunflow/core/ShadingState.traceGlossy(Lorg/sunflow/core/Ray;I)Lorg/sunflow/image/Color;
+PTG:
+Vars:
+5
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+$r3 1 7 
+_ret 1 7 
+Fields: 1
+-1 server 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 -1 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/sunflow/core/ShadingState.getModifier()Lorg/sunflow/core/Modifier;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 modifier 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getResult()Lorg/sunflow/image/Color;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 result 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getShader()Lorg/sunflow/core/Shader;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 shader 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getDiffuseDepth()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.setShader(Lorg/sunflow/core/Shader;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/sunflow/core/ShadingState.getRasterX()F
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.createGlossyBounceState(Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/Ray;I)Lorg/sunflow/core/ShadingState;
+PTG:
+Vars:
+5
+$r3 1 6 
+r1 1 -2 
+$r0 1 0 
+r2 1 -3 
+_ret 1 0 
+Fields: 1
+-2 istate 6
+Accesses: 5
+33 1 0 
+18 1 0 
+5 1 -2 
+23 1 0 
+26 1 0 
+Functions: 1
+12 4 0 -2 -3 6 
+Constructors: 1
+12 0
+
+Summary: 3
+-3 6 -2 
+org/sunflow/core/ShadingState.getRasterY()F
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.<init>(Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/IntersectionState;Lorg/sunflow/core/Ray;II)V
+PTG:
+Vars:
+7
+r2 1 -3 
+r4 1 -2 
+$r3 1 28 
+$r6 1 114 
+r0 1 -1 
+$r5 1 106 
+r1 1 -4 
+Fields: 3
+-3 instance 28
+-2 map 114
+-2 server 106
+Accesses: 46
+64 1 -1 
+129 1 -2 
+195 1 -1 
+69 1 -1 
+133 1 -1 
+6 1 -1 
+199 1 -1 
+136 1 -1 
+74 1 -1 
+11 1 -1 
+141 1 -2 
+205 1 -1 
+17 1 -1 
+81 1 -2 
+146 1 -1 
+212 1 -1 
+85 1 -1 
+149 1 -1 
+23 1 -1 
+89 1 -2 
+217 1 -1 
+154 1 -2 
+27 1 -3 
+93 1 -1 
+31 1 -1 
+159 1 -1 
+97 1 -2 
+35 1 -3 
+164 1 -1 
+101 1 -1 
+39 1 -1 
+105 1 -2 
+170 1 -1 
+43 1 -3 
+109 1 -1 
+47 1 -1 
+113 1 -2 
+177 1 -1 
+51 1 -3 
+180 1 -1 
+117 1 -1 
+55 1 -1 
+184 1 -1 
+121 1 -2 
+188 1 -1 
+125 1 -1 
+Functions: 3
+1 1 -1 
+189 0 
+206 0 
+Constructors: 1
+1 -1
+
+Summary: 5
+0 2 -2 -1 1 
+org/sunflow/core/ShadingState.occlusion(IF)Lorg/sunflow/image/Color;
+PTG:
+Vars:
+5
+$r2 1 3 
+$r3 1 9 
+r0 1 -1 
+$r1 1 6 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 3 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getCameraToWorld()Lorg/sunflow/math/Matrix4;
+PTG:
+Vars:
+6
+r0 1 -1 
+r3 1 10 
+$r4 2 22 16 
+$r1 1 1 
+$r2 1 4 
+_ret 2 22 16 
+Fields: 1
+-1 server 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 1 1 
+4 1 4 
+15 1 10 
+Constructors: 0
+
+Summary: 3
+4 10 -1 
+org/sunflow/core/ShadingState.specularPhong(Lorg/sunflow/image/Color;FI)Lorg/sunflow/image/Color;
+PTG:
+Vars:
+25
+$r20 1 126 
+r0 1 3 
+$r21 1 44 
+r1 1 -1 
+$r3 1 30 
+$r8 1 52 
+r24 1 112 
+r2 1 -2 
+$r16 1 367 
+$r22 1 179 
+$r10 1 52 
+$r17 1 372 
+r25 1 126 
+$r9 1 44 
+_ret 1 3 
+r28 1 339 
+$r7 1 44 
+$r13 1 295 
+$r11 1 398 
+$r14 1 329 
+$r6 1 52 
+r26 1 212 
+$r15 1 44 
+$r18 1 382 
+$r5 1 44 
+Fields: 3
+-1 r 52
+-1 p 372
+-1 n 44
+Accesses: 20
+97 1 -1 
+66 1 -1 
+98 1 52 
+67 1 44 
+5 1 -1 
+105 1 30 
+74 1 -1 
+138 1 -1 
+43 1 -1 
+75 1 52 
+44 1 44 
+82 1 30 
+51 1 -1 
+371 1 -1 
+52 1 52 
+23 1 -1 
+343 1 -1 
+89 1 -1 
+90 1 44 
+59 1 30 
+Functions: 28
+0 0 
+320 1 295 
+193 4 -1 52 372 44 
+385 2 3 382 
+325 3 212 295 329 
+136 2 44 126 
+395 2 -2 3 
+12 1 -2 
+333 1 329 
+207 1 30 
+273 0 
+147 2 126 30 
+407 1 398 
+344 2 339 44 
+287 0 
+34 1 30 
+171 0 
+299 0 
+108 4 -1 52 372 44 
+236 4 -1 52 372 44 
+366 5 -1 52 372 44 367 
+177 1 126 
+114 1 112 
+308 0 
+182 2 3 179 
+247 4 -1 52 372 44 
+377 3 339 372 367 
+124 1 112 
+Constructors: 4
+320 295
+34 30
+377 367
+333 329
+
+Summary: 13
+179 295 329 212 112 126 339 -2 -1 367 382 398 30 
+org/sunflow/core/ShadingState.getReflectionDepth()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getInstance()Lorg/sunflow/core/Instance;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 instance 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.faceforward()V
+PTG:
+Vars:
+14
+$r2 1 1 
+r0 1 -1 
+$r13 1 5 
+$r11 1 5 
+$r14 1 68 
+$r15 1 5 
+$r10 1 68 
+$r1 1 5 
+$r12 1 68 
+$r7 1 36 
+$r5 1 28 
+$r9 1 1 
+$r3 1 5 
+$r8 1 28 
+Fields: 5
+-1 r 1
+-1 ng 5
+-1 p 68
+-1 n 28
+-1 basis 36
+Accesses: 24
+0 1 -1 
+64 1 -1 
+130 1 68 
+35 1 -1 
+67 1 -1 
+99 1 -1 
+4 1 -1 
+68 1 68 
+100 1 5 
+44 1 -1 
+108 1 68 
+77 1 -1 
+78 1 5 
+111 1 -1 
+48 1 -1 
+112 1 68 
+19 1 -1 
+52 1 -1 
+86 1 68 
+89 1 -1 
+121 1 -1 
+90 1 68 
+122 1 5 
+27 1 -1 
+Functions: 6
+1 2 1 5 
+49 2 1 28 
+23 1 5 
+39 1 36 
+60 0 
+31 1 28 
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.includeLights()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getPoint()Lorg/sunflow/math/Point3;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 p 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getRandom(III)D
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+56 1 -1 
+42 1 -1 
+28 1 -1 
+62 1 -1 
+Functions: 6
+51 0 
+37 0 
+72 0 
+76 0 
+47 0 
+63 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getV()F
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getU()F
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getIntersectionState()Lorg/sunflow/core/IntersectionState;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 istate 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.getGlobalRadiance()Lorg/sunflow/image/Color;
+PTG:
+Vars:
+4
+$r2 1 5 
+r0 1 -1 
+$r1 1 1 
+_ret 1 5 
+Fields: 1
+-1 server 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.traceDiffusePhoton(Lorg/sunflow/core/Ray;Lorg/sunflow/image/Color;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 -2 
+$r4 1 13 
+$r1 1 1 
+r3 1 -3 
+Fields: 2
+-1 map 1
+-1 server 13
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 2
+1 1 1 
+19 5 -1 1 -2 -3 13 
+Constructors: 0
+
+Summary: 5
+-3 0 -2 -1 1 
+org/sunflow/core/ShadingState.setRay(Lorg/sunflow/core/Ray;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/sunflow/core/ShadingState.init()V
+PTG:
+Vars:
+5
+$r4 1 34 
+$r3 1 23 
+r0 1 -1 
+$r2 1 12 
+$r1 1 1 
+Fields: 0
+Accesses: 5
+19 1 -1 
+8 1 -1 
+41 1 -1 
+30 1 -1 
+46 1 -1 
+Functions: 4
+16 1 12 
+5 1 1 
+38 1 34 
+27 1 23 
+Constructors: 4
+16 12
+5 1
+38 34
+27 23
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.traceReflection(Lorg/sunflow/core/Ray;I)Lorg/sunflow/image/Color;
+PTG:
+Vars:
+5
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+$r3 1 7 
+_ret 1 7 
+Fields: 1
+-1 server 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 -1 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+org/sunflow/core/ShadingState.getIrradiance(Lorg/sunflow/image/Color;)Lorg/sunflow/image/Color;
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+$r3 1 6 
+_ret 1 6 
+Fields: 1
+-1 server 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 3 -1 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+org/sunflow/core/ShadingState.initLightSamples()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 server 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.traceRefraction(Lorg/sunflow/core/Ray;I)Lorg/sunflow/image/Color;
+PTG:
+Vars:
+8
+$r6 1 64 
+$r2 1 8 
+r1 1 -1 
+r0 1 -2 
+$r3 1 8 
+$r4 1 8 
+$r5 1 58 
+_ret 1 64 
+Fields: 2
+-1 server 58
+-1 ng 8
+Accesses: 13
+0 1 -2 
+35 1 -2 
+38 1 -2 
+7 1 -1 
+8 1 8 
+45 1 -1 
+46 1 8 
+16 1 -2 
+19 1 -2 
+54 1 -2 
+57 1 -1 
+26 1 -1 
+27 1 8 
+Functions: 1
+58 4 -1 -2 8 58 
+Constructors: 0
+
+Summary: 3
+0 -2 -1 
+org/sunflow/core/ShadingState.createRefractionBounceState(Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/Ray;I)Lorg/sunflow/core/ShadingState;
+PTG:
+Vars:
+5
+r1 1 -2 
+r2 1 -3 
+$r0 1 0 
+$r3 1 6 
+_ret 1 0 
+Fields: 1
+-2 istate 6
+Accesses: 3
+16 1 0 
+5 1 -2 
+23 1 0 
+Functions: 1
+12 4 0 -2 -3 6 
+Constructors: 1
+12 0
+
+Summary: 5
+-3 0 6 -2 1 
+org/sunflow/core/ShadingState.getUV()Lorg/sunflow/math/Point2;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 tex 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/sunflow/core/ShadingState.setResult(Lorg/sunflow/image/Color;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/sunflow/core/ShadingState.iterator()Ljava/util/Iterator;
+PTG:
+Vars:
+4
+r1 1 -1 
+$r2 1 5 
+$r0 1 0 
+_ret 1 0 
+Fields: 1
+-1 lightSample 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+8 2 0 5 
+Constructors: 1
+8 0
+
+Summary: 1
+-1 

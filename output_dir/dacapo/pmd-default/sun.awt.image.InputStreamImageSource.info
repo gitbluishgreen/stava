@@ -1,0 +1,621 @@
+24
+sun/awt/image/InputStreamImageSource.decoderForType(Ljava/io/InputStream;Ljava/lang/String;)Lsun/awt/image/ImageDecoder;
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-1 -2 1 0 -3 
+sun/awt/image/InputStreamImageSource.countConsumers(Lsun/awt/image/ImageConsumerQueue;)I
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 2 13 -2 
+Fields: 1
+13 next 13
+Accesses: 1
+9 2 -2 13 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 13 -2 
+sun/awt/image/InputStreamImageSource.getDecoder(Ljava/io/InputStream;)Lsun/awt/image/ImageDecoder;
+PTG:
+Vars:
+8
+$r3 1 135 
+$r2 1 171 
+$r5 1 7 
+$r4 1 103 
+$r6 1 -1 
+$r0 1 236 
+r1 1 -1 
+r7 2 -2 7 
+Fields: 0
+Accesses: 0
+Functions: 17
+0 2 -2 7 
+32 2 -2 7 
+69 2 -2 7 
+38 2 -2 7 
+74 2 -2 7 
+12 2 -2 7 
+44 2 -2 7 
+109 4 -1 -2 103 7 
+141 4 -1 -2 135 7 
+177 4 -1 -2 7 171 
+50 2 -2 7 
+242 4 -1 -2 7 236 
+19 2 -2 7 
+22 2 -2 7 
+56 2 -2 7 
+27 2 -2 7 
+62 2 -2 7 
+Constructors: 5
+177 171
+242 236
+12 7
+109 103
+141 135
+
+Summary: 4
+-1 -2 0 7 
+sun/awt/image/InputStreamImageSource.addConsumer(Ljava/awt/image/ImageConsumer;Z)V
+PTG:
+Vars:
+12
+r11 2 37 54 
+$r9 1 43 
+r13 1 113 
+r7 1 -2 
+$r6 1 62 
+r2 1 101 
+$r1 1 169 
+$r3 1 116 
+r0 1 -1 
+$r4 1 116 
+r10 2 29 11 
+$r8 1 37 
+Fields: 8
+-1 decoder 169
+-1 consumers 37
+-1 decoders 11
+37 consumer 43
+37 securityContext 116
+54 next 54
+54 securityContext 116
+29 next 29
+Accesses: 14
+33 1 -1 
+161 2 37 54 
+131 2 37 54 
+7 1 -1 
+168 1 -1 
+73 1 -1 
+42 2 37 54 
+77 1 62 
+50 2 37 54 
+82 1 -1 
+115 2 37 54 
+88 2 37 54 
+25 2 11 29 
+125 2 37 54 
+Functions: 9
+16 3 -2 11 29 
+176 6 -1 116 37 169 11 43 
+98 0 
+146 7 -1 116 37 54 169 11 43 
+3 6 -1 116 37 169 11 43 
+68 8 -1 -2 116 37 169 11 43 62 
+132 2 113 116 
+155 0 
+108 1 101 
+Constructors: 1
+68 62
+
+Summary: 5
+29 101 -1 54 -2 
+sun/awt/image/InputStreamImageSource.addConsumer(Ljava/awt/image/ImageConsumer;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+sun/awt/image/InputStreamImageSource.setDecoder(Lsun/awt/image/ImageDecoder;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r8 2 87 26 
+$r5 1 67 
+$r4 1 6 
+r3 1 -2 
+Fields: 4
+-1 consumers 26
+-1 decoders 6
+87 next 87
+26 securityContext 67
+Accesses: 11
+34 1 -1 
+66 2 87 26 
+19 1 -1 
+83 2 87 26 
+5 1 -1 
+22 1 -1 
+39 1 -1 
+9 1 -2 
+58 2 87 26 
+29 1 -2 
+14 1 -1 
+Functions: 2
+80 5 -1 67 6 87 26 
+65 4 -1 67 6 26 
+Constructors: 0
+
+Summary: 2
+87 0 
+sun/awt/image/InputStreamImageSource.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+sun/awt/image/InputStreamImageSource.doFetch()V
+PTG:
+Vars:
+17
+$r15 1 183 
+$r17 1 195 
+$r3 1 59 
+$r5 1 68 
+r0 1 -1 
+r26 1 33 
+$r14 1 163 
+$r13 1 -1 
+$r16 1 172 
+$r2 1 5 
+$r18 1 -1 
+$r4 1 79 
+$r22 1 143 
+$r19 1 111 
+$r21 1 120 
+$r20 1 131 
+$r6 1 91 
+Fields: 7
+-1 consumers 5
+33 queue 131
+33 queue 79
+33 queue 183
+33 queue 195
+33 queue 91
+33 queue 143
+Accesses: 10
+130 1 33 
+194 1 33 
+242 1 33 
+4 1 -1 
+182 1 33 
+230 1 33 
+90 1 33 
+13 1 -1 
+78 1 33 
+142 1 33 
+Functions: 27
+-1 0 
+68 1 68 
+135 3 -1 131 5 
+199 3 -1 195 5 
+208 9 -1 33 131 195 5 183 91 79 143 
+83 3 -1 5 79 
+147 3 -1 5 143 
+211 0 
+155 1 -1 
+220 0 
+29 2 -1 5 
+95 3 -1 5 91 
+160 9 -1 33 131 195 5 183 91 79 143 
+163 1 163 
+39 2 -1 5 
+103 1 -1 
+235 2 -1 5 
+108 9 -1 33 131 195 5 183 91 79 143 
+172 1 172 
+47 9 -1 33 131 195 5 183 91 79 143 
+111 1 111 
+51 7 33 131 195 183 91 79 143 
+247 2 -1 5 
+56 9 -1 33 131 195 5 183 91 79 143 
+120 1 120 
+59 1 59 
+187 3 -1 5 183 
+Constructors: 0
+
+Summary: 17
+131 33 111 120 143 243 59 68 172 231 79 183 195 91 163 211 220 
+sun/awt/image/InputStreamImageSource.errorConsumer(Lsun/awt/image/ImageConsumerQueue;Z)V
+PTG:
+Vars:
+8
+$r6 1 31 
+r2 1 -1 
+$r5 1 1 
+r0 1 -2 
+$r4 1 1 
+$r3 1 1 
+$r1 1 1 
+$r7 1 1 
+Fields: 2
+-2 consumer 1
+1 image 31
+Accesses: 5
+0 1 -2 
+38 1 -2 
+24 1 -2 
+28 1 1 
+14 1 -2 
+Functions: 3
+34 1 31 
+5 2 1 31 
+42 3 -1 1 31 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+sun/awt/image/InputStreamImageSource.doneDecoding(Lsun/awt/image/ImageDecoder;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+$r3 1 14 
+Fields: 2
+-1 decoder 1
+-1 consumers 14
+Accesses: 3
+0 1 -1 
+10 1 -1 
+13 1 -1 
+Functions: 1
+21 3 -1 1 14 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+sun/awt/image/InputStreamImageSource.startProduction()V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 26 
+Fields: 1
+-1 consumers 26
+Accesses: 4
+0 1 -1 
+16 1 -1 
+22 1 -1 
+29 1 -1 
+Functions: 2
+35 2 -1 26 
+7 2 -1 26 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/awt/image/InputStreamImageSource.latchConsumers(Lsun/awt/image/ImageDecoder;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+sun/awt/image/InputStreamImageSource.stopProduction()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 1
+8 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/awt/image/InputStreamImageSource.removeConsumer(Ljava/awt/image/ImageConsumer;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 24 
+r1 1 -2 
+r4 2 4 18 
+$r3 1 29 
+Fields: 3
+-1 consumers 24
+-1 decoders 4
+18 next 18
+Accesses: 4
+0 1 -1 
+32 1 -1 
+23 1 -1 
+14 2 18 4 
+Functions: 2
+11 3 -2 18 4 
+28 2 -2 24 
+Constructors: 0
+
+Summary: 4
+-1 -2 18 0 
+sun/awt/image/InputStreamImageSource.badDecoder()V
+PTG:
+Vars:
+2
+r0 1 -1 
+r3 1 8 
+Fields: 1
+-1 consumers 8
+Accesses: 3
+16 1 -1 
+4 1 -1 
+11 1 -1 
+Functions: 1
+32 2 -1 8 
+Constructors: 0
+
+Summary: 0
+
+sun/awt/image/InputStreamImageSource.isConsumer(Ljava/awt/image/ImageConsumer;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 28 
+r1 1 -2 
+r3 2 4 23 
+Fields: 3
+-1 consumers 28
+-1 decoders 4
+23 next 23
+Accesses: 3
+0 1 -1 
+19 2 4 23 
+27 1 -1 
+Functions: 2
+9 3 -2 4 23 
+31 2 -2 28 
+Constructors: 0
+
+Summary: 3
+-1 -2 23 
+sun/awt/image/InputStreamImageSource.errorAllConsumers(Lsun/awt/image/ImageConsumerQueue;Z)V
+PTG:
+Vars:
+2
+r1 2 -2 21 
+r0 1 -1 
+Fields: 1
+21 next 21
+Accesses: 2
+17 2 -2 21 
+4 2 -2 21 
+Functions: 1
+14 3 -1 -2 21 
+Constructors: 0
+
+Summary: 4
+-1 -2 21 0 
+sun/awt/image/InputStreamImageSource.startProduction(Ljava/awt/image/ImageConsumer;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+sun/awt/image/InputStreamImageSource.removeDecoder(Lsun/awt/image/ImageDecoder;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 2 27 53 
+r4 2 53 11 
+r5 2 53 11 
+$r2 2 53 38 
+r1 1 -2 
+Fields: 4
+-1 decoders 11
+53 next 53
+11 next 27
+11 next 38
+Accesses: 6
+49 2 53 11 
+37 2 53 11 
+7 1 -1 
+41 2 53 11 
+26 2 53 11 
+30 1 -1 
+Functions: 1
+2 5 -1 -2 38 11 27 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+sun/awt/image/InputStreamImageSource.requestTopDownLeftRightResend(Ljava/awt/image/ImageConsumer;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+sun/awt/image/InputStreamImageSource.printQueue(Lsun/awt/image/ImageConsumerQueue;Ljava/lang/String;)V
+PTG:
+Vars:
+8
+r6 1 -1 
+$r5 1 22 
+r2 1 -3 
+$r1 1 4 
+r7 2 -2 32 
+$r3 1 15 
+$r4 1 19 
+$r0 1 7 
+Fields: 1
+32 next 32
+Accesses: 1
+28 2 32 -2 
+Functions: 5
+19 1 19 
+7 2 -3 7 
+25 2 4 22 
+11 1 7 
+15 3 32 -2 15 
+Constructors: 1
+11 7
+
+Summary: 8
+-1 -2 22 15 -3 7 19 32 
+sun/awt/image/InputStreamImageSource.flush()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/awt/image/InputStreamImageSource.printQueues(Ljava/lang/String;)V
+PTG:
+Vars:
+20
+$r8 1 90 
+$r12 1 106 
+$r14 1 44 
+$r16 1 60 
+$r5 1 19 
+r19 2 39 83 
+$r13 1 47 
+$r17 1 63 
+r6 1 -1 
+$r9 1 87 
+$r11 1 103 
+$r0 1 3 
+$r4 1 16 
+$r18 1 71 
+$r10 1 99 
+$r15 1 56 
+$r3 1 11 
+$r1 1 0 
+r2 1 -2 
+$r7 1 27 
+Fields: 4
+-1 consumers 27
+-1 decoders 39
+39 queue 71
+83 next 83
+Accesses: 4
+35 1 -1 
+70 2 83 39 
+26 1 -1 
+79 2 83 39 
+Functions: 17
+32 4 -1 39 71 27 
+66 2 44 63 
+3 2 -2 3 
+99 2 -2 99 
+7 1 3 
+103 1 103 
+11 1 11 
+76 4 -1 39 71 27 
+109 2 87 106 
+47 1 47 
+16 1 16 
+51 1 47 
+22 2 0 19 
+56 4 83 39 71 56 
+90 1 90 
+60 1 60 
+94 1 90 
+Constructors: 3
+51 47
+7 3
+94 90
+
+Summary: 15
+103 106 16 47 63 83 56 11 -1 -2 3 99 60 19 90 
+sun/awt/image/InputStreamImageSource.countConsumers()I
+PTG:
+Vars:
+4
+r3 2 4 33 
+r0 1 -1 
+$r1 1 7 
+$r2 1 21 
+Fields: 4
+-1 consumers 7
+-1 decoders 4
+4 queue 21
+33 next 33
+Accesses: 4
+0 1 -1 
+20 2 33 4 
+6 1 -1 
+29 2 33 4 
+Functions: 2
+19 4 -1 4 21 7 
+5 4 -1 4 21 7 
+Constructors: 0
+
+Summary: 2
+-1 33 

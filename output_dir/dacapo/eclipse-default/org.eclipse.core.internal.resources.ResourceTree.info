@@ -1,0 +1,1608 @@
+33
+org/eclipse/core/internal/resources/ResourceTree.addToLocalHistory(Lorg/eclipse/core/resources/IFile;)V
+PTG:
+Vars:
+10
+$r10 1 9 
+$r8 1 79 
+$r7 1 75 
+$r6 1 37 
+$r1 1 9 
+$r3 1 37 
+r4 1 44 
+r2 1 -2 
+r0 1 -1 
+r5 1 51 
+Fields: 2
+-1 localManager 37
+-1 lock 9
+Accesses: 8
+0 1 -1 
+98 1 -1 
+36 1 -1 
+71 1 -1 
+8 1 -1 
+26 1 -1 
+61 1 -1 
+110 1 -1 
+Functions: 13
+65 0 
+4 0 
+37 2 -2 37 
+102 0 
+72 1 37 
+12 1 9 
+45 1 44 
+78 1 -2 
+17 1 -2 
+114 1 9 
+52 1 51 
+87 4 51 75 44 79 
+30 0 
+Constructors: 0
+
+Summary: 7
+-1 51 75 79 44 0 -2 
+org/eclipse/core/internal/resources/ResourceTree.<init>(Lorg/eclipse/core/internal/localstore/FileSystemResourceManager;Lorg/eclipse/core/runtime/jobs/ILock;Lorg/eclipse/core/runtime/MultiStatus;I)V
+PTG:
+Vars:
+4
+r3 1 -4 
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 5
+16 1 -1 
+21 1 -1 
+6 1 -1 
+11 1 -1 
+27 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 4
+-1 2 1 0 
+org/eclipse/core/internal/resources/ResourceTree.standardDeleteFolder(Lorg/eclipse/core/resources/IFolder;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+5
+$r1 1 9 
+r3 1 -4 
+r2 1 -2 
+$r4 1 9 
+r0 1 -1 
+Fields: 1
+-1 lock 9
+Accesses: 4
+0 1 -1 
+8 1 -1 
+40 1 -1 
+58 1 -1 
+Functions: 8
+32 3 -1 -2 9 
+50 1 -4 
+4 0 
+68 1 -4 
+21 4 -1 -2 -4 9 
+12 1 9 
+44 0 
+62 1 9 
+Constructors: 0
+
+Summary: 5
+-1 2 -4 0 -2 
+org/eclipse/core/internal/resources/ResourceTree.safeRefresh(Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+7
+$r4 1 18 
+$r5 1 27 
+$r1 1 2 
+r0 1 -2 
+$r2 1 -1 
+r8 1 -1 
+$r6 1 32 
+Fields: 0
+Accesses: 0
+Functions: 5
+36 4 32 -1 18 27 
+6 1 2 
+9 2 -2 2 
+26 1 -2 
+42 2 -1 18 
+Constructors: 2
+36 18
+6 2
+
+Summary: 5
+-1 27 18 2 0 
+org/eclipse/core/internal/resources/ResourceTree.standardMoveFile(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/core/resources/IFile;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+26
+$r19 1 -1 
+r28 1 29 
+r0 1 -1 
+$r15 1 138 
+$r7 1 59 
+$r10 1 283 
+r2 1 -2 
+$r8 1 263 
+$r3 1 17 
+$r9 1 274 
+$r17 1 156 
+$r22 1 -1 
+r30 1 146 
+$r29 1 72 
+$r4 1 21 
+$r1 1 9 
+$r27 1 326 
+r6 1 -3 
+$r23 1 -1 
+$r14 1 134 
+r5 1 -5 
+$r21 1 9 
+$r16 1 148 
+$r12 1 263 
+$r25 1 313 
+r32 1 270 
+Fields: 2
+-1 localManager 263
+-1 lock 9
+Accesses: 9
+0 1 -1 
+292 1 -1 
+262 1 -1 
+8 1 -1 
+410 1 -1 
+429 1 -1 
+174 1 -1 
+239 1 -1 
+351 1 -1 
+Functions: 45
+195 1 -5 
+4 0 
+324 1 270 
+326 1 326 
+263 2 -3 263 
+392 1 -2 
+137 1 -2 
+138 2 134 138 
+12 1 9 
+76 1 72 
+207 4 -1 -2 263 9 
+272 1 270 
+20 1 -2 
+21 2 17 21 
+405 1 -5 
+214 1 -5 
+282 1 -5 
+155 1 -2 
+286 2 274 283 
+414 0 
+224 1 -2 
+35 2 -5 29 
+163 3 146 148 156 
+355 0 
+421 1 -5 
+40 1 -2 
+362 1 -5 
+171 4 -1 148 263 9 
+236 5 -1 -2 -3 263 9 
+302 4 -2 -5 263 270 
+49 1 -3 
+433 1 9 
+178 0 
+243 0 
+371 5 -1 -2 -3 263 9 
+311 1 -1 
+376 4 -1 -3 263 9 
+440 1 -5 
+185 1 -5 
+58 1 -3 
+250 1 -5 
+59 1 59 
+316 4 -1 263 9 313 
+125 4 -1 -2 263 9 
+381 4 -1 -3 263 9 
+Constructors: 2
+163 148
+76 72
+
+Summary: 16
+156 59 -3 138 146 -1 0 3 148 1 313 21 29 270 326 283 
+org/eclipse/core/internal/resources/ResourceTree.getTimestamp(Lorg/eclipse/core/resources/IFile;)J
+PTG:
+Vars:
+7
+$r1 1 9 
+$r9 1 9 
+r0 1 -1 
+$r3 1 -2 
+r2 1 -2 
+r4 1 46 
+$r7 1 -1 
+Fields: 1
+-1 lock 9
+Accesses: 5
+0 1 -1 
+8 1 -1 
+26 1 -1 
+74 1 -1 
+61 1 -1 
+Functions: 8
+17 1 -2 
+65 0 
+4 0 
+38 1 -2 
+55 1 46 
+12 1 9 
+30 0 
+78 1 9 
+Constructors: 0
+
+Summary: 3
+-1 46 -2 
+org/eclipse/core/internal/resources/ResourceTree.standardMoveProject(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IProjectDescription;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+22
+$r28 1 313 
+$r9 1 388 
+r2 1 -2 
+r5 1 -5 
+$r8 1 383 
+$r26 1 299 
+$r10 1 394 
+$r1 1 9 
+$r4 1 21 
+r0 1 -1 
+$r27 1 303 
+$r29 1 319 
+$r11 1 399 
+r44 1 311 
+r36 1 29 
+$r24 1 -1 
+$r25 1 -1 
+$r12 1 9 
+$r3 1 17 
+r6 1 -3 
+r39 1 181 
+$r7 1 288 
+Fields: 1
+-1 lock 9
+Accesses: 8
+0 1 -1 
+262 1 -1 
+423 1 -1 
+8 1 -1 
+442 1 -1 
+75 1 -1 
+203 1 -1 
+159 1 -1 
+Functions: 50
+259 2 -1 9 
+4 0 
+388 2 388 394 
+393 1 -3 
+266 0 
+12 1 9 
+140 1 -2 
+273 1 -5 
+20 1 -2 
+148 0 
+21 2 17 21 
+406 3 -1 9 399 
+156 2 -1 9 
+413 1 -5 
+286 1 -5 
+163 0 
+291 5 -1 288 -2 181 9 
+37 2 -5 29 
+42 1 -2 
+170 1 -5 
+427 0 
+302 1 -2 
+303 2 299 303 
+176 3 -1 -3 9 
+434 1 -5 
+55 0 
+59 4 -1 -2 -3 9 
+318 1 -2 
+446 1 9 
+191 5 -1 -2 -5 181 9 
+453 1 -5 
+71 4 -1 -2 -3 9 
+328 4 -1 311 313 319 
+79 0 
+207 0 
+336 3 -1 9 313 
+86 1 -5 
+214 1 -5 
+342 1 -2 
+225 1 -2 
+226 0 
+354 4 -1 -2 -3 9 
+362 1 -5 
+110 3 -1 -2 9 
+241 1 -2 
+122 1 -2 
+123 0 
+251 0 
+382 1 -2 
+383 1 383 
+Constructors: 1
+328 313
+
+Summary: 25
+131 123 181 -3 313 388 -1 226 234 399 383 242 394 0 3 303 311 319 1 288 236 21 29 133 141 
+org/eclipse/core/internal/resources/ResourceTree.deletedFolder(Lorg/eclipse/core/resources/IFolder;)V
+PTG:
+Vars:
+11
+$r4 1 9 
+$r12 1 53 
+r13 1 61 
+$r1 1 9 
+$r11 1 49 
+$r14 1 62 
+r2 1 -2 
+$r15 1 68 
+r0 1 -1 
+$r9 1 -1 
+$r3 1 -2 
+Fields: 1
+-1 lock 9
+Accesses: 5
+0 1 -1 
+103 1 -1 
+8 1 -1 
+26 1 -1 
+91 1 -1 
+Functions: 12
+17 1 -2 
+67 1 -2 
+83 3 -1 9 62 
+4 0 
+52 1 -2 
+53 2 49 53 
+42 1 -2 
+75 4 -1 68 61 62 
+107 1 9 
+12 1 9 
+30 0 
+95 0 
+Constructors: 1
+75 62
+
+Summary: 6
+-1 53 61 0 68 62 
+org/eclipse/core/internal/resources/ResourceTree.standardDeleteProject(Lorg/eclipse/core/resources/IProject;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+17
+r37 1 29 
+$r10 1 273 
+$r4 1 21 
+r5 1 -4 
+$r1 1 9 
+$r6 1 224 
+$r8 1 250 
+$r12 1 321 
+$r3 1 17 
+r42 1 242 
+r0 1 -1 
+$r7 1 257 
+$r11 1 282 
+$r9 1 258 
+r2 1 -2 
+r41 1 231 
+$r17 1 9 
+Fields: 4
+-1 localManager 224
+-1 lock 9
+242 ArrayObject 257
+242 ArrayObject 273
+Accesses: 9
+0 1 -1 
+50 1 -1 
+387 1 -1 
+8 1 -1 
+156 1 -1 
+461 1 -1 
+207 1 -1 
+223 1 -1 
+479 1 -1 
+Functions: 41
+320 1 -4 
+384 3 -1 224 9 
+257 1 257 
+4 0 
+196 0 
+324 2 321 231 
+133 1 -2 
+391 0 
+12 1 9 
+204 3 -1 224 9 
+397 1 -4 
+142 5 -1 224 -2 -4 9 
+336 4 -1 224 -2 9 
+465 0 
+211 0 
+20 1 -2 
+21 2 17 21 
+471 1 -4 
+217 1 -4 
+281 1 -4 
+410 4 -1 224 -2 9 
+347 1 -2 
+348 0 
+157 1 -2 
+285 2 273 282 
+224 2 224 -2 
+483 1 9 
+36 2 -4 29 
+101 1 -2 
+41 1 -2 
+169 0 
+233 1 231 
+489 1 -4 
+171 0 
+366 1 -2 
+54 0 
+120 4 -1 224 -2 9 
+376 0 
+250 2 258 250 
+60 1 -4 
+188 1 -2 
+Constructors: 0
+
+Summary: 21
+164 189 348 356 -1 358 367 258 242 -4 282 231 0 321 2 21 29 181 171 179 -2 
+org/eclipse/core/internal/resources/ResourceTree.computeDestinationStore(Lorg/eclipse/core/resources/IProjectDescription;)Lorg/eclipse/core/filesystem/IFileStore;
+PTG:
+Vars:
+11
+r0 1 -2 
+$r2 1 11 
+$r7 1 37 
+_ret 1 47 
+r8 1 -1 
+r4 1 24 
+$r6 1 32 
+r9 2 45 6 
+$r5 1 27 
+$r3 1 14 
+$r1 1 47 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -2 
+-1 0 
+32 1 32 
+37 1 37 
+25 2 24 27 
+26 1 -2 
+11 1 11 
+14 1 14 
+46 2 6 45 
+Constructors: 0
+
+Summary: 10
+11 27 6 14 -1 45 37 32 0 -2 
+org/eclipse/core/internal/resources/ResourceTree.makeInvalid()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/ResourceTree.movedFolderSubtree(Lorg/eclipse/core/resources/IFolder;Lorg/eclipse/core/resources/IFolder;)V
+PTG:
+Vars:
+32
+$r5 1 173 
+$r7 1 190 
+$r26 1 213 
+$r20 1 271 
+$r29 1 235 
+$r34 1 146 
+$r19 1 -1 
+r3 1 -3 
+$r1 1 9 
+$r32 1 130 
+$r8 1 257 
+r40 1 144 
+r42 1 173 
+r2 1 -2 
+$r22 1 285 
+$r27 1 219 
+$r24 1 -1 
+$r33 1 136 
+r44 1 227 
+$r28 1 229 
+$r4 1 -2 
+r47 1 283 
+$r25 1 209 
+$r21 1 275 
+$r23 1 291 
+r38 1 100 
+$r31 1 126 
+$r30 1 -1 
+$r35 1 152 
+$r6 1 -2 
+r0 1 -1 
+$r9 1 9 
+Fields: 1
+-1 lock 9
+Accesses: 7
+0 1 -1 
+81 1 -1 
+322 1 -1 
+196 1 -1 
+8 1 -1 
+26 1 -1 
+334 1 -1 
+Functions: 39
+129 1 -2 
+4 0 
+70 0 
+326 0 
+135 1 -3 
+263 3 257 -2 -3 
+136 3 130 136 126 
+201 3 -2 173 190 
+12 1 9 
+78 2 -1 9 
+17 1 -2 
+274 1 -2 
+338 1 9 
+275 2 275 271 
+212 1 -2 
+85 0 
+151 1 -2 
+218 1 -3 
+219 3 209 213 219 
+30 0 
+94 1 -2 
+161 4 144 -1 146 152 
+290 1 -2 
+36 1 -3 
+169 3 -1 146 9 
+234 1 -2 
+107 3 -2 -3 100 
+172 1 -2 
+300 4 -1 291 283 285 
+48 1 -3 
+49 0 
+116 2 -2 100 
+244 4 -1 227 229 235 
+308 3 -1 9 285 
+314 4 -1 -2 -3 9 
+252 3 -1 229 9 
+189 1 -3 
+63 1 -3 
+255 1 173 
+Constructors: 3
+161 146
+244 229
+300 285
+
+Summary: 27
+173 -3 213 130 -1 49 57 58 0 100 146 152 1 257 285 190 229 219 227 235 275 -2 64 136 144 283 291 
+org/eclipse/core/internal/resources/ResourceTree.moveProjectContent(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/filesystem/IFileStore;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+26
+r6 1 -1 
+r3 1 -5 
+r17 1 206 
+$r16 1 196 
+$r18 2 113 209 
+$r26 1 -1 
+$r9 1 123 
+$r11 1 154 
+r29 1 12 
+r4 1 31 
+$r13 1 163 
+r5 1 40 
+r0 1 -2 
+$r23 1 50 
+$r19 1 216 
+$r20 1 221 
+$r8 1 113 
+$r28 1 235 
+r10 1 142 
+$r15 1 195 
+$r14 1 171 
+$r2 1 4 
+r7 1 -3 
+$r1 1 0 
+$r12 1 170 
+r30 1 179 
+Fields: 5
+-1 localManager 113
+142 ArrayObject 170
+142 ArrayObject 154
+142 ArrayObject 216
+142 ArrayObject 195
+Accesses: 2
+112 1 -1 
+208 1 -1 
+Functions: 27
+3 1 -2 
+195 1 195 
+4 2 0 4 
+136 1 -2 
+267 1 -5 
+20 2 -5 12 
+277 1 -5 
+25 1 -2 
+154 1 154 
+220 0 
+93 1 -5 
+224 5 113 209 216 221 206 
+33 1 31 
+98 1 -3 
+233 1 -1 
+106 1 -5 
+170 1 170 
+171 2 163 171 
+238 3 -1 113 235 
+49 1 -3 
+50 2 50 40 
+121 1 -5 
+185 2 179 -5 
+126 4 113 -2 -3 123 
+190 2 -3 196 
+63 1 -5 
+255 1 -5 
+Constructors: 0
+
+Summary: 19
+196 123 50 221 -1 4 12 0 3 31 95 1 142 206 171 179 40 235 -2 
+org/eclipse/core/internal/resources/ResourceTree.internalDeleteProject(Lorg/eclipse/core/resources/IProject;ILorg/eclipse/core/runtime/IProgressMonitor;)Z
+PTG:
+Vars:
+29
+$r8 1 140 
+r1 1 -1 
+$r26 1 456 
+$r4 1 168 
+r41 1 196 
+$r21 1 245 
+$r20 2 251 251 
+$r22 1 -1 
+r44 1 305 
+$r25 1 448 
+$r5 1 108 
+$r27 1 -1 
+r36 1 14 
+r42 2 221 214 
+$r9 1 189 
+$r10 1 305 
+$r7 1 77 
+r45 1 322 
+$r6 1 113 
+r0 1 -2 
+r40 1 77 
+$r23 1 433 
+$r3 1 77 
+r50 1 446 
+$r28 1 341 
+r2 1 -4 
+$r11 1 358 
+$r29 1 -1 
+$r24 1 438 
+Fields: 4
+-1 localManager 189
+221 ArrayObject 251
+214 ArrayObject 251
+14 ArrayObject 77
+Accesses: 1
+188 1 -1 
+Functions: 41
+261 1 -2 
+6 1 -2 
+262 0 
+455 1 -2 
+328 1 322 
+393 1 305 
+139 1 -4 
+205 1 196 
+79 1 77 
+465 4 448 -1 456 446 
+402 0 
+339 1 -1 
+24 1 -2 
+280 1 -2 
+344 3 -1 341 189 
+25 0 
+473 3 -1 448 189 
+154 4 -1 168 189 77 
+410 2 -1 189 
+350 4 -1 305 358 189 
+288 0 
+227 0 
+291 2 -1 189 
+419 1 196 
+357 0 
+167 1 -4 
+40 1 -2 
+296 1 -2 
+426 3 -1 -2 189 
+108 2 113 108 
+111 1 77 
+50 0 
+436 1 196 
+245 2 245 251 
+374 1 305 
+438 2 433 438 
+312 1 196 
+376 0 
+58 2 -1 189 
+189 2 -2 189 
+126 4 -1 140 189 77 
+Constructors: 1
+465 448
+
+Summary: 34
+221 341 196 -1 41 25 33 322 -4 113 251 0 448 140 168 14 376 384 386 305 281 456 35 2 214 395 262 270 358 273 438 446 -2 251 
+org/eclipse/core/internal/resources/ResourceTree.deletedProject(Lorg/eclipse/core/resources/IProject;)V
+PTG:
+Vars:
+11
+$r4 1 9 
+r0 1 -1 
+$r3 1 -2 
+r2 1 -2 
+$r9 1 -1 
+r13 1 61 
+$r15 1 68 
+$r14 1 62 
+$r1 1 9 
+$r11 1 49 
+$r12 1 53 
+Fields: 1
+-1 lock 9
+Accesses: 5
+0 1 -1 
+103 1 -1 
+8 1 -1 
+26 1 -1 
+91 1 -1 
+Functions: 12
+17 1 -2 
+67 1 -2 
+83 3 -1 9 62 
+4 0 
+52 1 -2 
+53 2 49 53 
+42 1 -2 
+75 4 -1 68 61 62 
+107 1 9 
+12 1 9 
+30 0 
+95 0 
+Constructors: 1
+75 62
+
+Summary: 6
+-1 53 61 0 68 62 
+org/eclipse/core/internal/resources/ResourceTree.standardDeleteFile(Lorg/eclipse/core/resources/IFile;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 9 
+r3 1 -4 
+r2 1 -2 
+$r4 1 9 
+Fields: 1
+-1 lock 9
+Accesses: 4
+0 1 -1 
+8 1 -1 
+42 1 -1 
+30 1 -1 
+Functions: 5
+34 0 
+4 0 
+21 4 -1 -2 -4 9 
+12 1 9 
+46 1 9 
+Constructors: 0
+
+Summary: 5
+-1 2 -4 0 -2 
+org/eclipse/core/internal/resources/ResourceTree.deletedFile(Lorg/eclipse/core/resources/IFile;)V
+PTG:
+Vars:
+11
+$r11 1 49 
+$r3 1 -2 
+$r9 1 -1 
+$r14 1 62 
+r13 1 61 
+r0 1 -1 
+$r4 1 9 
+$r1 1 9 
+$r12 1 53 
+$r15 1 68 
+r2 1 -2 
+Fields: 1
+-1 lock 9
+Accesses: 5
+0 1 -1 
+103 1 -1 
+8 1 -1 
+26 1 -1 
+91 1 -1 
+Functions: 12
+17 1 -2 
+67 1 -2 
+83 3 -1 9 62 
+4 0 
+52 1 -2 
+53 2 49 53 
+42 1 -2 
+75 4 -1 68 61 62 
+107 1 9 
+12 1 9 
+30 0 
+95 0 
+Constructors: 1
+75 62
+
+Summary: 6
+-1 53 61 0 68 62 
+org/eclipse/core/internal/resources/ResourceTree.internalDeleteFile(Lorg/eclipse/core/resources/IFile;ILorg/eclipse/core/runtime/IProgressMonitor;)Z
+PTG:
+Vars:
+22
+$r8 1 171 
+$r2 1 4 
+$r5 1 63 
+$r22 1 233 
+r19 1 12 
+$r14 1 -1 
+r20 1 183 
+r3 1 -4 
+$r10 1 185 
+r6 1 70 
+$r11 1 193 
+r0 1 -2 
+$r7 1 74 
+$r15 1 256 
+r4 1 -1 
+$r16 1 261 
+$r1 1 0 
+$r17 1 271 
+$r12 1 -1 
+r24 1 269 
+$r18 1 279 
+$r9 1 175 
+Fields: 1
+-1 localManager 63
+Accesses: 1
+62 1 -1 
+Functions: 34
+192 1 -2 
+3 1 -2 
+259 1 70 
+4 2 0 4 
+261 2 256 261 
+72 1 70 
+200 3 193 183 185 
+137 3 -1 -2 63 
+74 1 74 
+143 1 -4 
+208 3 -1 185 63 
+19 2 -4 12 
+212 1 -4 
+278 1 -2 
+25 1 -4 
+153 3 -1 -2 63 
+28 1 -2 
+93 3 -1 -2 63 
+222 1 -4 
+288 4 -1 279 269 271 
+97 1 -4 
+38 1 -4 
+231 1 -4 
+296 3 -1 63 271 
+236 2 70 233 
+300 1 -4 
+45 1 -2 
+174 1 -2 
+175 2 171 175 
+243 3 -1 -2 63 
+310 1 -4 
+247 1 -4 
+56 3 -1 -2 63 
+63 2 -2 63 
+Constructors: 2
+288 271
+200 185
+
+Summary: 16
+271 233 193 261 269 70 74 185 -1 2 4 12 175 183 0 279 
+org/eclipse/core/internal/resources/ResourceTree.updateMovedFileTimestamp(Lorg/eclipse/core/resources/IFile;J)V
+PTG:
+Vars:
+7
+$r1 1 9 
+r4 1 45 
+$r6 1 9 
+$r3 1 -2 
+$r5 1 48 
+r2 1 -2 
+r0 1 -1 
+Fields: 2
+-1 localManager 48
+-1 lock 9
+Accesses: 6
+0 1 -1 
+82 1 -1 
+70 1 -1 
+8 1 -1 
+26 1 -1 
+47 1 -1 
+Functions: 9
+17 1 -2 
+4 0 
+37 1 -2 
+54 2 48 45 
+86 1 9 
+74 0 
+12 1 9 
+30 0 
+62 1 45 
+Constructors: 0
+
+Summary: 4
+-1 45 0 -2 
+org/eclipse/core/internal/resources/ResourceTree.getStatus()Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 multistatus 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/resources/ResourceTree.copyLocalHistory(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/core/resources/IResource;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 -2 
+r4 1 -3 
+$r1 1 1 
+$r2 1 4 
+Fields: 1
+-1 localManager 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+10 3 -2 -3 4 
+Constructors: 0
+
+Summary: 6
+-1 1 4 -3 0 -2 
+org/eclipse/core/internal/resources/ResourceTree.isSynchronized(Lorg/eclipse/core/resources/IResource;I)Z
+PTG:
+Vars:
+6
+r0 1 -1 
+$r7 1 1 
+$r1 1 1 
+$r3 1 10 
+r2 1 -2 
+$r5 1 -1 
+Fields: 2
+-1 localManager 10
+-1 lock 1
+Accesses: 4
+0 1 -1 
+33 1 -1 
+20 1 -1 
+9 1 -1 
+Functions: 4
+4 1 1 
+37 1 1 
+24 0 
+10 2 -2 10 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/resources/ResourceTree.standardMoveFolder(Lorg/eclipse/core/resources/IFolder;Lorg/eclipse/core/resources/IFolder;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+18
+r30 1 238 
+$r20 1 -1 
+$r23 1 266 
+$r3 1 17 
+r5 1 -5 
+r26 1 29 
+$r21 1 -1 
+$r31 1 9 
+$r8 1 231 
+r2 1 -2 
+$r25 1 279 
+$r9 1 231 
+$r10 1 252 
+$r7 1 61 
+r6 1 -3 
+$r1 1 9 
+$r4 1 21 
+r0 1 -1 
+Fields: 2
+-1 localManager 231
+-1 lock 9
+Accesses: 9
+0 1 -1 
+240 1 -1 
+304 1 -1 
+147 1 -1 
+373 1 -1 
+230 1 -1 
+8 1 -1 
+392 1 -1 
+207 1 -1 
+Functions: 41
+128 1 -2 
+192 1 -2 
+384 1 -5 
+4 0 
+324 5 -1 -2 -3 231 9 
+136 0 
+264 1 -1 
+331 1 -5 
+12 1 9 
+204 5 -1 -2 -3 231 9 
+396 1 9 
+269 4 -1 231 9 266 
+78 0 
+144 3 -1 231 9 
+211 0 
+403 1 -5 
+20 1 -2 
+340 4 -1 -3 231 9 
+21 2 17 21 
+277 1 238 
+151 0 
+279 1 279 
+218 1 -5 
+158 1 -5 
+351 1 -2 
+100 4 -1 -2 231 9 
+37 2 -5 29 
+231 2 -3 231 
+359 1 -3 
+168 1 -5 
+42 1 -2 
+112 1 -2 
+113 0 
+51 1 -3 
+308 0 
+377 0 
+250 1 -5 
+315 1 -5 
+60 1 -3 
+61 1 61 
+255 4 -2 231 252 238 
+Constructors: 0
+
+Summary: 15
+252 1 -1 21 29 266 61 238 129 113 121 0 3 123 279 
+org/eclipse/core/internal/resources/ResourceTree.movedFile(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/core/resources/IFile;)V
+PTG:
+Vars:
+37
+r41 1 158 
+$r34 1 137 
+$r22 1 276 
+r37 1 88 
+r0 1 -1 
+$r4 1 -2 
+$r11 1 49 
+$r5 1 158 
+$r6 1 -2 
+r43 1 212 
+$r31 1 115 
+r39 1 129 
+$r24 1 194 
+$r18 1 -1 
+$r12 1 58 
+$r20 1 260 
+r2 1 -2 
+$r27 1 214 
+$r25 1 198 
+$r30 1 111 
+r3 1 -3 
+$r33 1 131 
+$r9 1 9 
+$r13 1 64 
+$r21 1 270 
+$r23 1 -1 
+r46 1 268 
+$r29 1 -1 
+$r28 1 220 
+$r1 1 9 
+$r10 1 45 
+$r7 1 175 
+$r26 1 204 
+r35 1 57 
+$r8 1 242 
+$r19 1 256 
+$r32 1 121 
+Fields: 1
+-1 lock 9
+Accesses: 6
+0 1 -1 
+307 1 -1 
+181 1 -1 
+8 1 -1 
+26 1 -1 
+319 1 -1 
+Functions: 38
+259 1 -2 
+323 1 9 
+4 0 
+260 2 256 260 
+197 1 -2 
+70 3 64 57 58 
+136 1 -2 
+203 1 -3 
+12 1 9 
+204 3 194 198 204 
+78 3 -1 9 58 
+17 1 -2 
+82 1 -2 
+146 4 -1 129 131 137 
+275 1 -2 
+154 3 -1 131 9 
+219 1 -2 
+93 3 -2 -3 88 
+157 1 -2 
+285 4 -1 276 268 270 
+30 0 
+36 1 -3 
+101 2 -2 88 
+229 4 -1 212 214 220 
+293 3 -1 9 270 
+299 4 -1 -2 -3 9 
+237 3 -1 214 9 
+174 1 -3 
+48 1 -3 
+240 1 158 
+49 2 49 45 
+114 1 -2 
+311 0 
+120 1 -3 
+248 3 -2 242 -3 
+121 3 115 121 111 
+186 3 -2 158 175 
+63 1 -3 
+Constructors: 4
+146 131
+229 214
+70 58
+285 270
+
+Summary: 27
+270 220 204 212 260 268 276 115 -3 214 -1 49 57 58 242 129 137 121 175 0 1 158 198 131 88 -2 64 
+org/eclipse/core/internal/resources/ResourceTree.internalDeleteFolder(Lorg/eclipse/core/resources/IFolder;ILorg/eclipse/core/runtime/IProgressMonitor;)Z
+PTG:
+Vars:
+11
+r3 1 -4 
+r4 1 -1 
+$r2 1 4 
+r0 1 -2 
+r17 1 12 
+r6 1 72 
+$r5 1 65 
+$r9 1 105 
+$r8 1 65 
+$r1 1 0 
+$r7 1 76 
+Fields: 1
+-1 localManager 65
+Accesses: 2
+64 1 -1 
+96 1 -1 
+Functions: 19
+65 2 65 -2 
+34 1 -4 
+3 1 -2 
+4 2 0 4 
+37 1 -2 
+103 1 -4 
+74 1 72 
+138 1 -2 
+76 1 76 
+108 3 65 -2 105 
+48 1 -2 
+20 1 -4 
+148 0 
+119 1 -2 
+120 0 
+59 3 -1 65 -2 
+91 3 -1 65 -2 
+28 2 -4 12 
+156 2 -1 65 
+Constructors: 0
+
+Summary: 13
+139 -1 2 -4 105 130 4 12 0 72 76 128 120 
+org/eclipse/core/internal/resources/ResourceTree.computeTimestamp(Lorg/eclipse/core/resources/IFile;)J
+PTG:
+Vars:
+6
+$r3 1 18 
+$r1 1 9 
+r0 1 -1 
+r2 1 -2 
+$r8 1 9 
+$r6 1 -1 
+Fields: 1
+-1 lock 9
+Accesses: 5
+0 1 -1 
+48 1 -1 
+8 1 -1 
+60 1 -1 
+31 1 -1 
+Functions: 8
+64 1 9 
+17 1 -2 
+18 1 18 
+35 0 
+4 0 
+52 0 
+42 3 -1 -2 9 
+12 1 9 
+Constructors: 0
+
+Summary: 3
+-1 18 -2 
+org/eclipse/core/internal/resources/ResourceTree.movedProjectSubtree(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IProjectDescription;)Z
+PTG:
+Vars:
+76
+$r42 1 -1 
+r80 1 348 
+$r27 1 96 
+$r52 1 428 
+r9 1 57 
+$r60 1 271 
+$r44 1 -1 
+r6 1 -3 
+$r86 1 459 
+r93 1 569 
+$r23 1 315 
+$r50 1 414 
+$r62 1 292 
+$r38 1 563 
+$r22 1 254 
+$r64 1 171 
+$r53 1 -1 
+$r18 1 216 
+$r37 1 558 
+$r57 1 350 
+r83 1 420 
+$r33 1 -1 
+$r65 1 175 
+$r48 1 405 
+$r29 1 109 
+$r28 1 101 
+$r66 1 183 
+r0 1 -1 
+$r20 1 234 
+r74 1 228 
+$r43 1 534 
+$r58 1 356 
+r11 1 68 
+$r63 1 -1 
+$r24 1 378 
+$r46 1 498 
+r89 1 489 
+r68 1 107 
+r71 1 181 
+r73 1 210 
+$r16 1 154 
+$r59 1 -1 
+$r61 1 283 
+$r51 1 422 
+$r30 1 116 
+$r5 1 46 
+$r12 1 518 
+$r54 1 333 
+r3 1 -2 
+$r15 1 144 
+$r25 1 378 
+$r87 1 462 
+$r8 1 57 
+$r17 1 157 
+$r39 1 571 
+$r21 1 239 
+$r85 1 -3 
+$r19 1 220 
+$r26 1 389 
+r75 1 247 
+$r13 1 543 
+$r40 1 578 
+$r1 1 9 
+$r4 1 43 
+$r55 1 337 
+$r49 1 409 
+r2 1 -2 
+$r47 1 -1 
+$r35 1 9 
+$r56 1 342 
+r77 1 281 
+$r10 1 68 
+$r7 1 52 
+$r67 1 189 
+$r45 1 491 
+$r36 1 -1 
+Fields: 2
+-1 localManager 154
+-1 lock 9
+Accesses: 9
+0 1 -1 
+320 1 -1 
+132 1 -1 
+596 1 -1 
+8 1 -1 
+153 1 -1 
+26 1 -1 
+620 1 -1 
+607 1 -1 
+Functions: 80
+384 1 378 
+129 4 -1 9 154 109 
+513 4 -1 9 154 491 
+258 1 254 
+387 1 68 
+4 0 
+516 1 68 
+261 3 228 247 254 
+136 0 
+523 2 518 57 
+12 1 9 
+397 3 -2 389 57 
+143 1 -2 
+17 1 -2 
+148 2 144 -2 
+276 3 228 247 271 
+532 1 -1 
+408 1 -2 
+537 4 -1 534 9 154 
+154 1 154 
+412 1 57 
+30 0 
+414 3 405 409 414 
+161 2 -2 157 
+290 1 57 
+547 1 543 
+550 2 57 543 
+42 1 -2 
+43 1 43 
+299 4 -1 292 281 283 
+427 1 -2 
+46 2 52 46 
+174 1 -2 
+175 2 171 175 
+561 1 57 
+51 1 -3 
+307 4 -1 9 154 283 
+435 4 -1 420 422 428 
+563 2 563 558 
+313 1 57 
+443 4 -1 422 9 154 
+188 1 -2 
+576 1 57 
+450 5 -1 -2 9 57 154 
+67 1 -2 
+196 4 -1 181 183 189 
+325 3 -2 68 315 
+457 1 57 
+585 4 -1 578 569 571 
+459 1 459 
+204 4 -1 183 9 154 
+79 5 -1 -2 -3 9 154 
+207 0 
+336 1 -2 
+465 2 -3 462 
+593 4 -1 9 154 571 
+212 2 210 220 
+340 1 57 
+214 1 68 
+342 3 337 342 333 
+88 1 57 
+216 2 -2 216 
+472 2 -3 57 
+600 0 
+478 1 57 
+99 1 57 
+355 1 -2 
+611 0 
+101 2 96 101 
+230 2 210 239 
+232 1 68 
+234 2 57 234 
+363 4 -1 356 348 350 
+496 1 57 
+624 1 9 
+114 1 57 
+371 4 -1 9 154 350 
+374 1 57 
+121 3 116 107 109 
+505 4 -1 498 489 491 
+Constructors: 9
+258 254
+435 422
+547 543
+196 183
+121 109
+505 491
+585 571
+299 283
+363 350
+
+Summary: 54
+220 389 181 348 -3 428 -1 109 234 254 350 378 247 543 337 216 46 101 459 422 414 315 462 534 518 43 228 107 292 189 356 157 420 210 175 52 0 68 239 116 498 409 578 491 1 563 281 283 183 342 569 571 -2 144 
+org/eclipse/core/internal/resources/ResourceTree.internalComputeTimestamp(Lorg/eclipse/core/resources/IFile;)J
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+r4 1 13 
+$r3 1 5 
+Fields: 1
+-1 localManager 1
+Accesses: 1
+0 1 -1 
+Functions: 4
+1 2 1 -2 
+5 1 5 
+23 1 13 
+14 1 13 
+Constructors: 0
+
+Summary: 5
+-1 5 13 0 -2 
+org/eclipse/core/internal/resources/ResourceTree.ensureDestinationEmpty(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/filesystem/IFileStore;Lorg/eclipse/core/runtime/IProgressMonitor;)Z
+PTG:
+Vars:
+8
+$r3 1 20 
+$r5 1 88 
+$r4 1 23 
+r6 1 -2 
+r0 1 -3 
+r2 1 -4 
+r14 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -3 
+16 2 -3 20 
+1 1 1 
+33 0 
+19 1 -4 
+51 1 -3 
+36 1 -3 
+71 0 
+87 1 -4 
+91 2 -3 88 
+62 1 -2 
+79 1 -1 
+Constructors: 0
+
+Summary: 15
+55 23 63 1 -3 -1 1 2 57 -4 20 36 0 88 -2 
+org/eclipse/core/internal/resources/ResourceTree.isNameChange(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IProjectDescription;)Z
+PTG:
+Vars:
+5
+$r1 1 1 
+r4 1 -1 
+r0 1 -2 
+r2 1 -3 
+$r3 1 7 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+1 2 1 7 
+6 1 -3 
+Constructors: 0
+
+Summary: 7
+-1 1 7 1 -3 0 -2 
+org/eclipse/core/internal/resources/ResourceTree.updateTimestamps(Lorg/eclipse/core/resources/IResource;Z)V
+PTG:
+Vars:
+5
+r3 1 -2 
+r1 1 -1 
+$r5 1 0 
+$r4 1 -1 
+$r6 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 2 0 -1 
+15 2 0 -2 
+Constructors: 1
+6 0
+
+Summary: 4
+-1 0 -2 0 
+org/eclipse/core/internal/resources/ResourceTree.failed(Lorg/eclipse/core/runtime/IStatus;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 9 
+Fields: 1
+-1 multistatus 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+4 0 
+13 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/resources/ResourceTree.isContentChange(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IProjectDescription;)Z
+PTG:
+Vars:
+7
+$r1 1 -2 
+r5 1 22 
+r2 1 7 
+r6 1 -1 
+r3 1 14 
+r4 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+16 1 -3 
+1 1 -2 
+36 2 22 14 
+8 1 7 
+Constructors: 0
+
+Summary: 8
+-1 7 1 14 -3 22 0 -2 

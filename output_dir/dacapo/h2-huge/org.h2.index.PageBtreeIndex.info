@@ -1,0 +1,800 @@
+28
+org/h2/index/PageBtreeIndex.<init>(Lorg/h2/table/TableData;ILjava/lang/String;[Lorg/h2/table/IndexColumn;Lorg/h2/index/IndexType;ILorg/h2/engine/Session;)V
+PTG:
+Vars:
+29
+$r19 1 227 
+r0 1 -1 
+$r23 1 69 
+$r5 1 21 
+$r26 1 69 
+r4 1 -6 
+$r35 1 117 
+r25 1 -8 
+$r12 1 62 
+$r21 1 239 
+r1 1 -2 
+$r14 1 69 
+$r17 1 220 
+$r22 1 242 
+$r33 1 211 
+r30 1 161 
+$r24 1 69 
+r29 1 117 
+$r34 1 117 
+r2 1 -4 
+$r13 1 69 
+$r16 1 198 
+$r11 1 21 
+$r31 1 198 
+r3 1 -5 
+$r20 1 232 
+$r28 1 69 
+$r27 1 69 
+$r18 1 224 
+Fields: 3
+-1 database 21
+-1 trace 198
+-1 store 69
+Accesses: 22
+65 1 -1 
+129 1 -1 
+98 1 -1 
+194 1 -1 
+68 1 -1 
+197 1 -1 
+170 1 -1 
+235 1 -1 
+109 1 -1 
+173 1 -1 
+142 1 -1 
+207 1 -1 
+17 1 -1 
+83 1 -1 
+20 1 -1 
+150 1 -1 
+182 1 -1 
+119 1 -1 
+58 1 -1 
+90 1 -1 
+154 1 -1 
+95 1 -1 
+Functions: 28
+1 4 -1 21 69 198 
+198 1 198 
+135 2 69 117 
+73 4 -1 69 21 198 
+12 8 -1 -2 -4 -5 21 69 -6 198 
+143 1 69 
+211 1 211 
+84 1 69 
+21 1 21 
+215 1 211 
+153 4 -1 21 69 198 
+220 2 224 220 
+223 4 -1 21 69 198 
+34 0 
+227 1 227 
+164 1 161 
+38 0 
+232 1 232 
+105 5 -1 69 21 198 -8 
+43 1 -4 
+47 0 
+239 1 239 
+113 4 -1 21 69 198 
+50 0 
+245 2 242 198 
+183 1 69 
+59 1 21 
+126 2 69 117 
+Constructors: 2
+1 -1
+215 211
+
+Summary: 11
+-5 -6 -8 -1 6 2 3 0 4 -4 117 
+org/h2/index/PageBtreeIndex.removeAllRows()V
+PTG:
+Vars:
+9
+r5 1 8 
+$r1 1 15 
+r6 1 34 
+$r8 1 34 
+$r4 1 10 
+$r3 1 10 
+$r2 1 10 
+r0 1 -1 
+$r7 1 8 
+Fields: 2
+-1 store 10
+8 data 15
+Accesses: 8
+1 1 -1 
+35 1 -1 
+39 1 -1 
+56 1 -1 
+9 1 -1 
+26 1 -1 
+14 1 8 
+46 1 -1 
+Functions: 6
+0 2 -1 10 
+18 3 8 10 15 
+51 2 34 10 
+22 2 8 15 
+43 1 10 
+30 2 -1 10 
+Constructors: 0
+
+Summary: 2
+-1 34 
+org/h2/index/PageBtreeIndex.checkRename()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/PageBtreeIndex.getRowCount(Lorg/h2/engine/Session;)J
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/PageBtreeIndex.findFirstOrLast(Lorg/h2/engine/Session;Z)Lorg/h2/index/Cursor;
+PTG:
+Vars:
+10
+$r5 1 125 
+r4 1 121 
+r0 1 -1 
+r2 1 -2 
+$r14 1 69 
+r11 1 68 
+$r16 1 69 
+_ret 1 69 
+r13 1 98 
+$r3 1 111 
+Fields: 1
+-1 columnIds 111
+Accesses: 3
+32 1 -1 
+61 1 -1 
+110 1 -1 
+Functions: 11
+4 3 -1 -2 111 
+84 2 68 69 
+22 0 
+134 1 69 
+89 1 69 
+60 2 -1 111 
+76 4 -1 -2 69 111 
+108 1 98 
+13 0 
+93 1 69 
+30 0 
+Constructors: 1
+76 69
+
+Summary: 7
+121 -1 -2 98 43 0 28 
+org/h2/index/PageBtreeIndex.needRebuild()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/PageBtreeIndex.find(Lorg/h2/engine/Session;Lorg/h2/result/SearchRow;Lorg/h2/result/SearchRow;)Lorg/h2/index/Cursor;
+PTG:
+Vars:
+6
+r2 1 -3 
+r1 1 -2 
+$r4 1 5 
+r0 1 -1 
+r3 1 -4 
+_ret 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-1 -2 -4 -3 1 0 2 
+org/h2/index/PageBtreeIndex.writeRow(Lorg/h2/store/Data;ILorg/h2/result/SearchRow;Z)V
+PTG:
+Vars:
+6
+r0 1 -2 
+r1 1 -4 
+r4 1 46 
+$r5 1 59 
+r3 1 24 
+r2 1 -1 
+Fields: 2
+-1 columns 24
+24 ArrayObject 46
+Accesses: 1
+20 1 -1 
+Functions: 6
+48 1 46 
+64 2 -2 59 
+2 1 -2 
+6 1 -4 
+56 1 -4 
+12 1 -2 
+Constructors: 0
+
+Summary: 4
+-1 -2 -4 59 
+org/h2/index/PageBtreeIndex.writeRowCount()V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 8 
+Fields: 0
+Accesses: 2
+1 1 -1 
+10 1 -1 
+Functions: 3
+0 1 -1 
+17 1 8 
+11 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/PageBtreeIndex.invalidateRowCount()V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 8 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 2
+0 1 -1 
+11 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/PageBtreeIndex.canFindNext()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/PageBtreeIndex.canGetFirstOrLast()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/PageBtreeIndex.getRowCountApproximation()J
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 tableData 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/PageBtreeIndex.getCost(Lorg/h2/engine/Session;[I)D
+PTG:
+Vars:
+4
+r2 1 -2 
+r0 1 -1 
+r1 1 -3 
+$r3 1 6 
+Fields: 1
+-1 tableData 6
+Accesses: 1
+5 1 -1 
+Functions: 2
+3 3 -1 -3 6 
+6 2 -2 6 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 1 0 
+org/h2/index/PageBtreeIndex.remove(Lorg/h2/engine/Session;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+13
+$r10 1 23 
+$r11 1 30 
+$r9 1 1 
+r0 1 -1 
+$r12 1 33 
+r13 1 113 
+r3 1 -3 
+r5 1 64 
+$r8 1 14 
+$r2 1 40 
+$r1 1 1 
+r6 1 -2 
+$r7 1 64 
+Fields: 2
+-1 trace 1
+-1 tableData 40
+Accesses: 7
+0 1 -1 
+131 1 -1 
+39 1 -1 
+89 1 -1 
+10 1 -1 
+106 1 -1 
+124 1 -1 
+Functions: 16
+1 1 1 
+66 1 64 
+99 3 -1 1 40 
+36 2 1 33 
+40 1 40 
+105 3 -1 1 40 
+14 1 14 
+80 2 64 -2 
+18 1 14 
+52 1 -3 
+116 2 113 -3 
+23 1 23 
+121 3 -1 1 40 
+26 1 -3 
+59 1 -3 
+30 1 30 
+Constructors: 1
+18 14
+
+Summary: 5
+-3 -1 -2 1 0 
+org/h2/index/PageBtreeIndex.close(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+r3 1 -2 
+Fields: 1
+-1 trace 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 3
+16 1 1 
+1 1 1 
+20 2 -1 1 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/PageBtreeIndex.truncate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+8
+$r3 1 24 
+$r4 1 38 
+$r1 1 1 
+r7 1 -2 
+$r2 1 24 
+$r5 1 34 
+r0 1 -1 
+$r6 1 1 
+Fields: 4
+-1 database 34
+-1 trace 1
+-1 table 38
+-1 tableData 24
+Accesses: 6
+0 1 -1 
+33 1 -1 
+37 1 -1 
+23 1 -1 
+10 1 -1 
+47 1 -1 
+Functions: 7
+16 1 1 
+1 1 1 
+20 5 -1 1 34 38 24 
+52 1 24 
+38 1 38 
+24 1 24 
+44 1 34 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/PageBtreeIndex.getSearchRow(Lorg/h2/result/Row;)Lorg/h2/result/SearchRow;
+PTG:
+Vars:
+10
+$r5 1 5 
+r4 1 -2 
+$r1 1 5 
+r0 1 -1 
+r3 1 21 
+$r8 1 5 
+_ret 1 21 
+$r2 1 1 
+$r6 1 45 
+$r7 1 57 
+Fields: 3
+-1 columns 5
+-1 table 1
+5 ArrayObject 45
+Accesses: 4
+0 1 -1 
+32 1 -1 
+4 1 -1 
+40 1 -1 
+Functions: 5
+1 1 1 
+54 1 -2 
+24 2 -2 21 
+60 2 21 57 
+45 1 45 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/PageBtreeIndex.getRow(Lorg/h2/engine/Session;J)Lorg/h2/result/Row;
+PTG:
+Vars:
+5
+$r2 1 1 
+r1 1 -2 
+$r3 1 6 
+r0 1 -1 
+_ret 1 6 
+Fields: 1
+-1 tableData 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/h2/index/PageBtreeIndex.getPageStore()Lorg/h2/store/PageStore;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 store 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/PageBtreeIndex.remove(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+6
+$r4 1 24 
+$r1 1 1 
+r0 1 -1 
+$r5 1 1 
+$r2 1 24 
+r3 1 -2 
+Fields: 2
+-1 trace 1
+-1 store 24
+Accesses: 5
+0 1 -1 
+35 1 -1 
+23 1 -1 
+10 1 -1 
+27 1 -1 
+Functions: 5
+16 1 1 
+32 1 24 
+1 1 1 
+20 3 -1 1 24 
+41 4 -1 1 -2 24 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/PageBtreeIndex.readRow(Lorg/h2/store/Data;IZ)Lorg/h2/result/SearchRow;
+PTG:
+Vars:
+9
+$r2 1 31 
+r6 1 84 
+r4 1 47 
+r5 1 31 
+$r3 1 27 
+$r7 1 98 
+_ret 1 47 
+r1 1 -1 
+r0 1 -2 
+Fields: 3
+-1 columns 31
+-1 table 27
+31 ArrayObject 84
+Accesses: 4
+26 1 -1 
+58 1 -1 
+30 1 -1 
+15 1 -1 
+Functions: 8
+16 0 
+97 1 -2 
+2 1 -2 
+5 1 -2 
+53 1 47 
+101 2 98 47 
+86 1 84 
+27 1 27 
+Constructors: 0
+
+Summary: 3
+-1 -2 98 
+org/h2/index/PageBtreeIndex.setRootPageId(Lorg/h2/engine/Session;I)V
+PTG:
+Vars:
+5
+$r3 1 1 
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+$r4 1 1 
+Fields: 1
+-1 store 1
+Accesses: 4
+0 1 -1 
+23 1 -1 
+11 1 -1 
+14 1 -1 
+Functions: 3
+20 3 -1 1 -2 
+6 3 -1 1 -2 
+28 2 -1 1 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/h2/index/PageBtreeIndex.getPage(I)Lorg/h2/index/PageBtree;
+PTG:
+Vars:
+5
+$r1 1 1 
+r3 1 5 
+r0 1 -1 
+_ret 1 5 
+$r2 1 5 
+Fields: 1
+-1 store 1
+Accesses: 3
+0 1 -1 
+32 1 -1 
+23 1 -1 
+Functions: 4
+1 1 1 
+18 2 -1 1 
+37 0 
+29 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/PageBtreeIndex.add(Lorg/h2/engine/Session;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+34
+$r11 1 121 
+r5 1 118 
+$r21 1 103 
+$r13 1 121 
+$r37 1 201 
+r0 1 -1 
+$r24 1 23 
+$r31 1 86 
+$r10 1 121 
+$r1 1 1 
+$r6 1 128 
+$r35 1 53 
+$r7 1 121 
+$r18 1 1 
+$r20 1 100 
+$r32 1 53 
+r9 1 145 
+r12 1 201 
+r3 1 44 
+$r4 1 1 
+$r33 1 145 
+$r25 1 30 
+$r36 1 145 
+r2 1 -3 
+$r19 1 95 
+$r34 1 201 
+$r30 1 14 
+r28 1 53 
+$r14 1 121 
+$r16 1 121 
+$r26 1 33 
+$r15 1 121 
+$r23 1 1 
+r27 1 -2 
+Fields: 3
+-1 trace 1
+-1 store 121
+53 data 128
+Accesses: 15
+0 1 -1 
+224 1 -1 
+164 1 -1 
+262 1 -1 
+72 1 -1 
+233 1 -1 
+10 1 -1 
+203 1 -1 
+269 1 -1 
+46 1 -1 
+82 1 -1 
+242 1 -1 
+147 1 -1 
+120 1 -1 
+126 1 53 
+Functions: 32
+1 1 1 
+131 3 128 53 121 
+259 3 -1 1 121 
+197 3 -1 1 121 
+73 1 1 
+138 2 128 53 
+14 1 14 
+18 1 14 
+210 2 121 201 
+86 1 86 
+23 1 23 
+26 1 -3 
+90 1 86 
+154 2 145 121 
+157 2 128 53 
+221 5 128 145 53 118 201 
+30 1 30 
+95 1 95 
+36 2 1 33 
+100 1 100 
+165 1 121 
+230 3 128 53 121 
+39 4 -1 1 -3 121 
+106 2 1 103 
+45 3 -1 1 121 
+109 2 128 53 
+239 2 145 121 
+177 2 128 53 
+55 3 128 53 44 
+184 2 128 53 
+248 2 121 201 
+191 1 145 
+Constructors: 2
+18 14
+90 86
+
+Summary: 8
+118 -3 -1 -2 145 201 1 0 
+org/h2/index/PageBtreeIndex.findNext(Lorg/h2/engine/Session;Lorg/h2/result/SearchRow;Lorg/h2/result/SearchRow;)Lorg/h2/index/Cursor;
+PTG:
+Vars:
+6
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+_ret 1 5 
+r0 1 -1 
+$r4 1 5 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 5
+-1 -2 -4 -3 0 
+org/h2/index/PageBtreeIndex.getRowSize(Lorg/h2/store/Data;Lorg/h2/result/SearchRow;Z)I
+PTG:
+Vars:
+6
+r2 1 -1 
+r3 1 20 
+r0 1 -2 
+r1 1 -3 
+r4 1 42 
+r5 1 55 
+Fields: 2
+-1 columns 20
+20 ArrayObject 42
+Accesses: 1
+16 1 -1 
+Functions: 5
+0 1 -2 
+1 1 -3 
+59 2 -2 55 
+44 1 -3 
+45 1 42 
+Constructors: 0
+
+Summary: 4
+-1 -2 -3 55 
+org/h2/index/PageBtreeIndex.find(Lorg/h2/engine/Session;Lorg/h2/result/SearchRow;ZLorg/h2/result/SearchRow;)Lorg/h2/index/Cursor;
+PTG:
+Vars:
+9
+r0 1 -1 
+r1 1 27 
+$r9 1 29 
+r4 1 -5 
+$r7 1 7 
+r3 1 -2 
+$r10 1 29 
+r6 1 -3 
+_ret 1 29 
+Fields: 1
+-1 store 7
+Accesses: 2
+20 1 -1 
+6 1 -1 
+Functions: 4
+48 3 -3 27 29 
+19 2 -1 7 
+37 5 -1 -2 -5 7 29 
+13 0 
+Constructors: 1
+37 29
+
+Summary: 7
+-1 -2 -3 -5 1 0 3 

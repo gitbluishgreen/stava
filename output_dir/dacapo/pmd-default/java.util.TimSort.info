@@ -1,0 +1,518 @@
+16
+java/util/TimSort.gallopRight(Ljava/lang/Object;[Ljava/lang/Object;IIILjava/util/Comparator;)I
+PTG:
+Vars:
+7
+$r3 1 43 
+r1 1 -2 
+$r5 1 286 
+$r7 1 76 
+$r6 1 165 
+r2 1 -3 
+r0 1 -7 
+Fields: 4
+-3 ArrayObject 165
+-3 ArrayObject 43
+-3 ArrayObject 76
+-3 ArrayObject 286
+Accesses: 0
+Functions: 7
+65 3 -2 -7 76 
+35 3 -2 -7 43 
+278 3 -2 -7 286 
+328 0 
+25 0 
+154 3 -2 165 -7 
+252 0 
+Constructors: 0
+
+Summary: 10
+165 1 -3 -7 76 5 -2 0 43 286 
+java/util/TimSort.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)I
+PTG:
+Vars:
+8
+$r6 1 67 
+$r5 1 102 
+$r7 1 61 
+$r3 1 39 
+r1 1 -2 
+$r4 1 108 
+r0 1 -5 
+$r2 1 42 
+Fields: 6
+-2 ArrayObject 61
+-2 ArrayObject 42
+-2 ArrayObject 102
+-2 ArrayObject 108
+-2 ArrayObject 39
+-2 ArrayObject 67
+Accesses: 0
+Functions: 5
+32 3 -5 39 42 
+98 3 -5 102 108 
+86 7 -2 67 102 39 42 108 61 
+57 3 67 -5 61 
+15 0 
+Constructors: 0
+
+Summary: 10
+61 -2 42 3 102 108 0 39 67 -5 
+java/util/TimSort.mergeForceCollapse()V
+PTG:
+Vars:
+3
+$r1 1 20 
+$r2 1 20 
+r0 1 -1 
+Fields: 1
+-1 runLen 20
+Accesses: 4
+0 1 -1 
+19 1 -1 
+8 1 -1 
+27 1 -1 
+Functions: 1
+43 2 -1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/TimSort.minRunLength(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 1
+14 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/TimSort.reverseRange([Ljava/lang/Object;II)V
+PTG:
+Vars:
+3
+$r2 1 19 
+r1 1 11 
+r0 1 -2 
+Fields: 2
+-2 ArrayObject 19
+-2 ArrayObject 11
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/TimSort.mergeHi(IIII)V
+PTG:
+Vars:
+14
+r0 1 -1 
+$r9 1 418 
+$r3 1 100 
+$r6 1 221 
+$r5 1 226 
+r2 1 42 
+$r15 1 656 
+r1 1 34 
+$r7 1 281 
+$r11 1 523 
+$r19 1 249 
+$r10 1 438 
+r4 1 177 
+$r8 1 340 
+Fields: 12
+-1 c 177
+-1 a 34
+34 ArrayObject 100
+34 ArrayObject 249
+34 ArrayObject 523
+34 ArrayObject 226
+34 ArrayObject 438
+42 ArrayObject 656
+42 ArrayObject 418
+42 ArrayObject 221
+42 ArrayObject 340
+42 ArrayObject 281
+Accesses: 5
+593 1 -1 
+179 1 -1 
+44 1 -1 
+173 1 -1 
+30 1 -1 
+Functions: 18
+672 0 
+449 8 656 177 418 340 438 281 42 221 
+36 8 -1 177 34 226 100 438 249 523 
+645 6 34 226 100 438 249 523 
+709 0 
+616 0 
+394 6 34 226 100 438 249 523 
+331 0 
+497 12 656 418 34 226 340 100 438 281 249 42 523 221 
+690 0 
+211 0 
+215 3 177 226 221 
+728 12 656 418 34 226 340 100 438 281 249 42 523 221 
+26 0 
+59 12 656 34 226 418 100 340 438 249 281 42 523 221 
+124 12 656 418 34 226 340 100 438 281 249 42 523 221 
+348 8 177 34 226 340 100 438 249 523 
+159 6 34 226 100 438 249 523 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/TimSort.gallopLeft(Ljava/lang/Object;[Ljava/lang/Object;IIILjava/util/Comparator;)I
+PTG:
+Vars:
+7
+r1 1 -2 
+r2 1 -3 
+r0 1 -7 
+$r3 1 43 
+$r5 1 286 
+$r7 1 76 
+$r6 1 161 
+Fields: 4
+-3 ArrayObject 43
+-3 ArrayObject 76
+-3 ArrayObject 161
+-3 ArrayObject 286
+Accesses: 0
+Functions: 7
+65 3 -2 -7 76 
+35 3 -2 -7 43 
+150 3 -2 161 -7 
+278 3 -2 -7 286 
+328 0 
+25 0 
+252 0 
+Constructors: 0
+
+Summary: 10
+1 -3 -7 76 161 5 -2 0 43 286 
+java/util/TimSort.mergeLo(IIII)V
+PTG:
+Vars:
+14
+$r7 1 244 
+r4 1 139 
+$r10 1 391 
+$r9 1 374 
+$r6 1 183 
+$r5 1 188 
+r0 1 -1 
+$r3 1 80 
+$r19 1 211 
+$r8 1 301 
+$r11 1 467 
+r1 1 34 
+r2 1 41 
+$r15 1 589 
+Fields: 12
+-1 c 139
+-1 a 34
+34 ArrayObject 301
+34 ArrayObject 80
+34 ArrayObject 183
+34 ArrayObject 374
+34 ArrayObject 211
+41 ArrayObject 467
+41 ArrayObject 188
+41 ArrayObject 391
+41 ArrayObject 244
+41 ArrayObject 589
+Accesses: 5
+135 1 -1 
+538 1 -1 
+43 1 -1 
+141 1 -1 
+30 1 -1 
+Functions: 18
+642 0 
+99 12 80 34 467 211 244 374 391 183 41 188 589 301 
+36 8 -1 80 34 211 374 183 139 301 
+293 0 
+421 6 80 34 211 374 183 301 
+330 12 80 34 467 211 244 374 391 183 41 188 589 301 
+173 0 
+399 8 80 34 211 374 391 183 139 301 
+623 0 
+655 12 80 34 467 211 244 374 391 183 41 188 589 301 
+177 3 183 139 188 
+561 0 
+308 8 467 244 391 41 139 188 301 589 
+118 6 80 34 211 374 183 301 
+26 0 
+604 0 
+63 12 80 34 211 467 244 374 183 391 41 188 301 589 
+575 6 80 34 211 374 183 301 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/TimSort.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/TimSort.binarySort([Ljava/lang/Object;IIILjava/util/Comparator;)V
+PTG:
+Vars:
+6
+r0 1 -2 
+r1 1 40 
+$r6 1 92 
+$r2 1 182 
+$r3 1 192 
+r5 1 -6 
+Fields: 4
+-2 ArrayObject 40
+-2 ArrayObject 182
+-2 ArrayObject 192
+-2 ArrayObject 92
+Accesses: 0
+Functions: 5
+65 0 
+20 0 
+85 3 -6 40 92 
+134 0 
+207 5 192 -2 182 40 92 
+Constructors: 0
+
+Summary: 3
+0 4 -6 
+java/util/TimSort.<init>([Ljava/lang/Object;Ljava/util/Comparator;[Ljava/lang/Object;II)V
+PTG:
+Vars:
+11
+r3 1 -4 
+$r10 1 178 
+$r6 1 79 
+r2 1 -3 
+$r4 1 71 
+$r5 1 74 
+r8 1 79 
+$r9 1 170 
+r1 1 -2 
+r0 1 -1 
+$r7 1 79 
+Fields: 0
+Accesses: 12
+112 1 -1 
+17 1 -1 
+98 1 -1 
+180 1 -1 
+22 1 -1 
+118 1 -1 
+7 1 -1 
+104 1 -1 
+12 1 -1 
+124 1 -1 
+172 1 -1 
+93 1 -1 
+Functions: 4
+1 1 -1 
+70 1 -2 
+71 1 71 
+77 1 74 
+Constructors: 1
+1 -1
+
+Summary: 6
+-1 1 2 0 74 71 
+java/util/TimSort.pushRun(II)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 11 
+Fields: 2
+-1 runBase 1
+-1 runLen 11
+Accesses: 6
+0 1 -1 
+4 1 -1 
+20 1 -1 
+10 1 -1 
+27 1 -1 
+14 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/TimSort.mergeAt(I)V
+PTG:
+Vars:
+18
+$r14 1 82 
+$r8 1 216 
+$r7 1 230 
+$r2 1 216 
+$r1 1 82 
+$r24 1 75 
+$r4 1 216 
+$r13 1 75 
+$r3 1 230 
+$r6 1 216 
+$r5 1 221 
+$r12 1 75 
+r0 1 -1 
+$r23 1 82 
+$r25 1 82 
+$r15 1 82 
+$r9 1 281 
+$r22 1 75 
+Fields: 6
+-1 c 230
+-1 runBase 75
+-1 runLen 82
+-1 a 216
+216 ArrayObject 221
+216 ArrayObject 281
+Accesses: 21
+98 1 -1 
+164 1 -1 
+196 1 -1 
+229 1 -1 
+6 1 -1 
+294 1 -1 
+74 1 -1 
+173 1 -1 
+205 1 -1 
+47 1 -1 
+272 1 -1 
+81 1 -1 
+180 1 -1 
+212 1 -1 
+215 1 -1 
+88 1 -1 
+57 1 -1 
+153 1 -1 
+282 1 -1 
+189 1 -1 
+222 1 -1 
+Functions: 11
+18 0 
+354 7 -1 82 230 216 281 75 221 
+36 0 
+149 0 
+341 7 -1 82 230 216 281 75 221 
+70 0 
+230 4 230 216 281 221 
+295 4 230 216 281 221 
+253 0 
+318 0 
+127 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/TimSort.mergeCollapse()V
+PTG:
+Vars:
+8
+$r1 1 20 
+r0 1 -1 
+$r3 1 20 
+$r6 1 20 
+$r2 1 20 
+$r5 1 20 
+$r7 1 20 
+$r4 1 20 
+Fields: 1
+-1 runLen 20
+Accesses: 9
+0 1 -1 
+33 1 -1 
+81 1 -1 
+19 1 -1 
+53 1 -1 
+8 1 -1 
+27 1 -1 
+75 1 -1 
+45 1 -1 
+Functions: 2
+69 2 -1 20 
+94 2 -1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/TimSort.ensureCapacity(I)[Ljava/lang/Object;
+PTG:
+Vars:
+10
+$r5 1 77 
+r0 1 -1 
+_ret 1 103 
+$r1 1 56 
+$r3 1 70 
+$r8 1 103 
+$r6 1 77 
+r7 1 77 
+$r2 1 56 
+$r4 1 73 
+Fields: 2
+-1 a 56
+-1 tmp 103
+Accesses: 7
+0 1 -1 
+66 1 -1 
+99 1 -1 
+102 1 -1 
+55 1 -1 
+89 1 -1 
+94 1 -1 
+Functions: 4
+67 1 56 
+70 1 70 
+76 1 73 
+61 0 
+Constructors: 0
+
+Summary: 3
+-1 70 73 
+java/util/TimSort.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II)V
+PTG:
+Vars:
+4
+$r0 1 77 
+r1 1 -2 
+r2 1 -5 
+r3 1 -6 
+Fields: 0
+Accesses: 1
+211 1 77 
+Functions: 12
+144 2 -2 -5 
+224 0 
+33 0 
+161 1 77 
+196 0 
+104 2 -2 -5 
+73 2 -2 -5 
+89 4 -2 -5 -6 77 
+202 1 77 
+59 2 -2 -5 
+156 1 77 
+94 0 
+Constructors: 1
+89 77
+
+Summary: 7
+-2 3 0 4 -6 77 -5 

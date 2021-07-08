@@ -1,0 +1,613 @@
+25
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.characters(Lcom/sun/org/apache/xerces/internal/xni/XMLString;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.isChildFragmentResolved()Z
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fXPointerPart 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.resolveXPointer(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;I)Z
+PTG:
+Vars:
+10
+$r7 1 32 
+r1 1 -2 
+$r4 1 76 
+$r6 1 16 
+r3 1 -4 
+r2 1 -3 
+$r5 1 16 
+$r9 1 42 
+r0 1 -1 
+$r8 1 32 
+Fields: 3
+-1 fXPointerPart 76
+-1 fXPointerPart 42
+-1 fXPointerParts 16
+Accesses: 9
+3 1 -1 
+38 1 -1 
+41 1 -1 
+105 1 -1 
+26 1 -1 
+75 1 -1 
+60 1 -1 
+15 1 -1 
+95 1 -1 
+Functions: 4
+16 1 16 
+42 4 -2 -3 -4 42 
+27 1 16 
+76 4 -2 -3 -4 76 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.isFragmentResolved()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 fXPointerPart 1
+Accesses: 4
+0 1 -1 
+21 1 -1 
+7 1 -1 
+30 1 -1 
+Functions: 1
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.comment(Lcom/sun/org/apache/xerces/internal/xni/XMLString;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.processingInstruction(Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/XMLString;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+12 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 4
+-2 -4 -1 -3 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.endElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+15 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.initErrorReporter()V
+PTG:
+Vars:
+7
+$r1 1 1 
+$r4 1 1 
+$r2 1 19 
+$r6 1 8 
+$r3 1 42 
+r0 1 -1 
+$r5 1 26 
+Fields: 2
+-1 fXPointerErrorReporter 1
+-1 fErrorHandler 19
+Accesses: 5
+0 1 -1 
+33 1 -1 
+18 1 -1 
+36 1 -1 
+15 1 -1 
+Functions: 4
+49 2 1 42 
+12 1 8 
+30 1 26 
+46 1 42 
+Constructors: 3
+12 8
+30 26
+46 42
+
+Summary: 2
+42 -1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.reportWarning(Ljava/lang/String;[Ljava/lang/Object;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+$r3 1 1 
+Fields: 1
+-1 fXPointerErrorReporter 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+9 3 1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 1 -1 -3 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.getPointerParts()Ljava/util/ArrayList;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 fXPointerParts 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.<init>()V
+PTG:
+Vars:
+3
+$r2 1 57 
+r0 1 -1 
+$r1 1 46 
+Fields: 1
+-1 ELEMENT_SCHEME_NAME 27
+Accesses: 10
+16 1 -1 
+32 1 -1 
+64 1 -1 
+21 1 -1 
+37 1 -1 
+53 1 -1 
+6 1 -1 
+42 1 -1 
+11 1 -1 
+27 1 -1 
+Functions: 3
+1 2 -1 27 
+50 1 46 
+61 1 57 
+Constructors: 3
+1 -1
+50 46
+61 57
+
+Summary: 2
+27 -1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.getXPointerPart()Lcom/sun/org/apache/xerces/internal/xpointer/XPointerPart;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 fXPointerPart 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.access$300(Lcom/sun/org/apache/xerces/internal/xpointer/XPointerHandler;Ljava/lang/String;[Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r2 1 -4 
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -2 -3 -4 
+Constructors: 0
+
+Summary: 5
+-2 2 -4 0 -3 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.<init>(Lcom/sun/org/apache/xerces/internal/util/SymbolTable;Lcom/sun/org/apache/xerces/internal/xni/parser/XMLErrorHandler;Lcom/sun/org/apache/xerces/internal/impl/XMLErrorReporter;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 -3 
+r4 1 -4 
+$r1 1 46 
+r2 1 -2 
+Fields: 1
+-1 ELEMENT_SCHEME_NAME 27
+Accesses: 12
+16 1 -1 
+32 1 -1 
+68 1 -1 
+21 1 -1 
+37 1 -1 
+53 1 -1 
+6 1 -1 
+42 1 -1 
+58 1 -1 
+11 1 -1 
+27 1 -1 
+63 1 -1 
+Functions: 2
+1 2 -1 27 
+50 1 46 
+Constructors: 2
+1 -1
+50 46
+
+Summary: 2
+27 -1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.setProperty(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+8
+r0 1 -2 
+r2 1 -3 
+r1 1 -1 
+$r7 1 -3 
+$r6 1 -3 
+$r5 1 -3 
+$r4 1 -3 
+$r3 1 -3 
+Fields: 0
+Accesses: 9
+49 1 -1 
+99 1 -1 
+70 1 -1 
+23 1 -1 
+41 1 -1 
+121 1 -1 
+107 1 -1 
+78 1 -1 
+15 1 -1 
+Functions: 3
+64 1 -3 
+93 1 -3 
+127 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-2 1 0 -1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.ignorableWhitespace(Lcom/sun/org/apache/xerces/internal/xni/XMLString;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.parseXPointer(Ljava/lang/String;)V
+PTG:
+Vars:
+36
+r41 1 319 
+r40 1 206 
+$r9 1 208 
+$r27 1 267 
+r14 1 363 
+$r16 1 465 
+r0 1 -1 
+r7 1 -2 
+$r17 1 474 
+$r18 1 10 
+$r2 1 10 
+r39 1 192 
+$r24 1 401 
+$r26 1 284 
+$r15 1 541 
+$r8 1 10 
+$r11 1 222 
+$r23 1 448 
+r13 1 248 
+$r10 1 217 
+$r31 1 135 
+r37 1 124 
+$r28 1 145 
+$r20 2 510 168 
+$r30 2 168 510 
+$r32 1 559 
+$r25 1 376 
+$r22 1 440 
+$r4 1 18 
+r42 1 349 
+$r1 1 4 
+$r21 1 429 
+$r5 1 10 
+r12 1 228 
+$r29 1 10 
+$r33 1 61 
+Fields: 4
+-1 fErrorReporter 474
+-1 fXPointerParts 168
+-1 fXPointerParts 510
+-1 fSymbolTable 10
+Accesses: 8
+149 1 -1 
+469 1 -1 
+38 1 -1 
+23 1 -1 
+167 1 -1 
+9 1 -1 
+473 1 -1 
+509 1 -1 
+Functions: 49
+1 5 -1 168 474 10 510 
+515 3 465 168 510 
+389 1 4 
+397 1 4 
+14 6 -1 4 168 474 10 510 
+142 6 -1 135 168 474 10 510 
+398 1 4 
+274 6 -1 168 474 10 267 510 
+530 0 
+153 2 145 10 
+27 6 -1 18 168 474 10 510 
+31 1 -2 
+162 2 145 124 
+291 6 -1 168 474 10 284 510 
+549 6 -1 168 474 10 541 510 
+300 1 4 
+45 4 -2 18 4 10 
+173 3 145 168 510 
+307 1 4 
+180 1 4 
+438 0 
+566 6 -1 168 474 10 510 559 
+314 1 4 
+187 1 4 
+446 0 
+194 1 4 
+68 6 -1 168 474 10 61 510 
+452 6 -1 168 474 10 429 510 
+71 1 4 
+455 1 228 
+201 1 4 
+78 1 4 
+208 2 208 192 
+337 1 4 
+212 1 208 
+344 1 4 
+217 2 217 206 
+477 3 465 10 474 
+222 1 222 
+351 1 4 
+358 1 4 
+486 2 465 228 
+236 1 4 
+495 2 465 349 
+112 1 4 
+243 1 4 
+119 1 4 
+504 2 465 349 
+383 6 -1 168 376 474 10 510 
+Constructors: 5
+212 208
+153 145
+27 18
+477 465
+14 4
+
+Summary: 23
+135 -1 18 206 376 124 145 222 4 0 541 349 559 429 284 401 192 248 267 363 61 319 465 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.emptyElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r3 1 -4 
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+35 1 -1 
+23 1 -1 
+11 1 -1 
+Functions: 5
+0 4 -1 -2 -3 -4 
+32 2 -1 -3 
+20 2 -1 -3 
+39 0 
+47 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.reportError(Ljava/lang/String;[Ljava/lang/Object;)V
+PTG:
+Vars:
+9
+$r5 1 17 
+$r8 1 22 
+$r4 1 5 
+r1 1 -1 
+$r0 1 0 
+$r2 1 5 
+r7 1 -3 
+r6 1 -2 
+$r3 1 10 
+Fields: 1
+-1 fErrorReporter 5
+Accesses: 2
+4 1 -1 
+13 1 -1 
+Functions: 4
+5 1 5 
+10 4 17 -2 -3 10 
+27 2 0 22 
+14 1 5 
+Constructors: 1
+27 0
+
+Summary: 8
+-2 10 17 1 22 0 -1 -3 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.isXPointerResolved()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.startCDATA(Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+10 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.setDocumentHandler(Lcom/sun/org/apache/xerces/internal/xni/XMLDocumentHandler;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.endCDATA(Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+10 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.init()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fXPointerParts 1
+Accesses: 4
+0 1 -1 
+19 1 -1 
+9 1 -1 
+14 1 -1 
+Functions: 2
+4 1 1 
+23 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/xpointer/XPointerHandler.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r3 1 -4 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+35 1 -1 
+23 1 -1 
+11 1 -1 
+Functions: 5
+0 4 -1 -2 -3 -4 
+32 2 -1 -3 
+20 2 -1 -3 
+39 0 
+47 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 

@@ -1,0 +1,749 @@
+23
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.getParentClosure()Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Closure;
+PTG:
+Vars:
+6
+$r2 2 11 44 
+r0 1 -1 
+_ret 1 1 
+$r4 1 1 
+$r1 1 1 
+r3 2 11 44 
+Fields: 1
+-1 _parentClosure 1
+Accesses: 3
+0 1 -1 
+49 1 -1 
+24 1 -1 
+Functions: 2
+7 2 -1 1 
+40 2 11 44 
+Constructors: 0
+
+Summary: 2
+-1 44 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.hasLastCall()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 _exp 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.addVariable(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/VariableRefBase;)V
+PTG:
+Vars:
+7
+$r4 1 1 
+$r1 1 1 
+r5 1 42 
+r0 1 -1 
+$r3 1 1 
+r2 1 -2 
+$r6 1 8 
+Fields: 1
+-1 _closureVars 1
+Accesses: 4
+0 1 -1 
+18 1 -1 
+29 1 -1 
+15 1 -1 
+Functions: 5
+49 2 -2 42 
+34 2 1 -2 
+19 2 1 -2 
+38 2 -1 1 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 4
+-1 42 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.hasPositionCall()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 _exp 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.translateFilter(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+29
+r18 1 121 
+r0 1 -2 
+$r5 1 19 
+r2 1 -3 
+$r24 1 239 
+$r27 1 255 
+$r33 1 205 
+$r11 1 25 
+$r31 1 191 
+$r15 1 73 
+$r13 1 73 
+r19 1 128 
+$r25 1 25 
+$r20 1 132 
+r1 1 4 
+$r32 1 198 
+r36 2 170 143 
+r4 1 -1 
+$r8 1 40 
+r17 1 108 
+$r16 1 108 
+$r6 1 25 
+$r29 1 182 
+$r14 1 73 
+r3 1 9 
+$r10 1 49 
+$r22 1 230 
+$r26 1 250 
+$r34 1 210 
+Fields: 3
+-1 _className 25
+-1 _closureVars 73
+-1 _parentClosure 143
+Accesses: 7
+83 1 -1 
+244 1 -1 
+54 1 -1 
+102 1 -1 
+24 1 -1 
+72 1 -1 
+139 1 -1 
+Functions: 31
+0 1 -2 
+65 1 49 
+195 4 210 4 198 205 
+68 2 49 9 
+196 2 170 143 
+5 1 -3 
+261 1 239 
+135 2 132 9 
+264 2 9 239 
+203 1 121 
+14 6 -1 -2 -3 25 73 143 
+208 1 128 
+84 1 73 
+150 2 170 143 
+23 2 4 25 
+216 1 191 
+219 2 9 191 
+31 1 19 
+34 2 19 9 
+163 2 170 143 
+228 1 121 
+103 1 73 
+233 2 230 9 
+43 2 40 9 
+243 4 4 25 250 255 
+116 1 108 
+53 2 4 25 
+248 1 121 
+185 2 182 9 
+123 1 121 
+253 1 128 
+Constructors: 4
+65 49
+261 239
+216 191
+31 19
+
+Summary: 21
+19 -3 205 -1 9 170 210 250 121 4 0 255 49 108 191 1 239 230 198 -2 128 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.compileFilter(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+46
+$r5 1 22 
+$r2 1 5 
+$r24 1 16 
+$r12 1 53 
+$r28 1 284 
+$r4 1 16 
+$r23 1 212 
+$r42 1 88 
+$r32 1 313 
+$r39 1 398 
+$r35 1 351 
+$r6 1 28 
+$r14 1 156 
+$r41 1 53 
+$r46 1 120 
+$r15 1 167 
+$r17 1 178 
+$r26 1 264 
+$r3 1 11 
+$r21 1 198 
+r7 1 -2 
+$r13 1 147 
+$r48 1 132 
+$r40 1 403 
+r10 1 50 
+$r19 1 190 
+r27 1 272 
+$r1 1 2 
+$r8 1 37 
+$r18 1 184 
+$r30 1 293 
+$r37 1 378 
+r49 1 -3 
+$r34 1 339 
+$r47 1 123 
+$r22 1 206 
+$r36 1 367 
+$r43 1 88 
+r50 1 97 
+$r45 1 110 
+$r11 1 53 
+r0 1 -1 
+$r16 1 172 
+$r44 1 101 
+$r20 1 162 
+r52 1 278 
+Fields: 10
+-1 _className 16
+-1 _closureVars 53
+-1 _exp 367
+28 ArrayObject 35
+212 ArrayObject 234
+212 ArrayObject 219
+212 ArrayObject 244
+212 ArrayObject 229
+212 ArrayObject 239
+212 ArrayObject 224
+Accesses: 7
+82 1 -1 
+52 1 -1 
+247 1 -1 
+8 1 -1 
+366 1 -1 
+15 1 -1 
+63 1 -1 
+Functions: 45
+64 1 53 
+1 4 -1 16 53 367 
+2 1 2 
+130 1 50 
+259 2 264 156 
+196 0 
+388 1 11 
+262 0 
+135 2 132 101 
+328 1 313 
+138 2 101 11 
+394 2 11 156 
+331 2 147 313 
+204 0 
+397 4 -1 16 53 367 
+337 2 147 339 
+401 1 11 
+274 1 -2 
+83 1 53 
+21 4 -1 16 53 367 
+406 2 403 398 
+151 1 147 
+343 1 272 
+282 1 11 
+91 1 88 
+348 1 339 
+287 2 147 284 
+354 2 272 351 
+36 1 -2 
+358 1 272 
+40 6 16 35 37 22 11 28 
+297 2 50 278 
+106 2 50 110 
+363 1 156 
+108 1 97 
+45 1 11 
+304 1 293 
+307 2 147 293 
+116 2 50 123 
+373 3 11 156 367 
+118 1 97 
+120 1 120 
+317 2 50 278 
+381 2 147 378 
+255 13 224 162 229 167 234 239 16 50 147 212 244 219 156 
+Constructors: 7
+304 293
+135 101
+151 147
+40 11
+328 313
+348 339
+255 156
+
+Summary: 39
+219 284 -3 313 -1 11 97 156 101 147 244 264 239 339 110 35 234 37 229 398 28 88 224 120 123 167 2 50 212 351 0 132 272 293 1 22 403 278 -2 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.setParser(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Parser;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 6 
+Fields: 1
+-1 _exp 6
+Accesses: 1
+5 1 -1 
+Functions: 2
+2 3 -1 -2 6 
+10 2 -2 6 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.getPosType()I
+PTG:
+Vars:
+11
+r10 1 88 
+$r5 1 50 
+r9 1 12 
+$r4 1 93 
+$r2 1 12 
+$r6 1 12 
+r8 1 50 
+r3 1 93 
+r0 1 -1 
+r1 1 12 
+r7 1 12 
+Fields: 0
+Accesses: 6
+0 1 -1 
+112 1 -1 
+66 1 -1 
+133 1 -1 
+136 1 -1 
+28 1 -1 
+Functions: 8
+84 1 12 
+22 1 12 
+8 1 -1 
+89 1 88 
+106 1 93 
+60 1 50 
+46 1 12 
+127 1 12 
+Constructors: 0
+
+Summary: 5
+-1 93 12 50 88 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.<init>(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Expression;)V
+PTG:
+Vars:
+3
+$r2 1 60 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 _exp 60
+Accesses: 12
+16 1 -1 
+51 1 -1 
+36 1 -1 
+21 1 -1 
+6 1 -1 
+56 1 -1 
+41 1 -1 
+26 1 -1 
+11 1 -1 
+59 1 -1 
+46 1 -1 
+31 1 -1 
+Functions: 2
+64 2 -1 60 
+1 2 -1 60 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 0 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.toString()Ljava/lang/String;
+PTG:
+Vars:
+8
+r2 1 -1 
+$r1 1 9 
+_ret 1 24 
+$r4 1 16 
+$r6 1 24 
+$r0 1 0 
+$r5 1 21 
+$r3 1 13 
+Fields: 1
+-1 _exp 13
+Accesses: 1
+12 1 -1 
+Functions: 5
+0 1 0 
+16 1 16 
+4 1 0 
+21 1 21 
+9 2 9 13 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.isNthDescendant()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.parentIsPattern()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.translate(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/ClassGenerator;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/MethodGenerator;)V
+PTG:
+Vars:
+12
+$r5 1 26 
+$r7 1 55 
+$r8 1 65 
+r2 1 -3 
+$r6 1 45 
+$r12 1 90 
+$r11 1 90 
+r1 1 4 
+$r10 1 84 
+r4 1 -1 
+r0 1 -2 
+r3 1 9 
+Fields: 3
+-1 _value 55
+-1 _exp 90
+-1 _exp 26
+Accesses: 5
+18 1 -1 
+54 1 -1 
+25 1 -1 
+89 1 -1 
+11 1 -1 
+Functions: 13
+0 1 -2 
+99 2 84 4 
+5 1 -3 
+37 4 -1 55 90 26 
+69 1 4 
+102 2 84 9 
+75 1 65 
+44 4 -1 55 90 26 
+78 2 65 9 
+112 6 -1 -2 -3 55 90 26 
+60 3 -2 -3 55 
+93 1 90 
+31 3 -2 -3 26 
+Constructors: 2
+99 84
+75 65
+
+Summary: 10
+1 -3 65 -1 9 84 45 4 0 -2 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.getInnerClassName()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 _className 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.isNodeValueTest()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 10 
+$r2 1 17 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 2
+16 1 -1 
+9 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 17 10 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.dontOptimize()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.getStep()Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Step;
+PTG:
+Vars:
+14
+r0 1 -1 
+$r2 1 13 
+$r7 1 48 
+$r3 1 13 
+r5 1 13 
+$r9 1 43 
+r11 2 43 63 
+$r13 1 1 
+_ret 1 1 
+$r1 1 1 
+$r8 2 43 63 
+$r4 1 13 
+$r6 2 93 48 
+r12 2 93 48 
+Fields: 2
+-1 _exp 13
+-1 _step 1
+Accesses: 8
+0 1 -1 
+21 1 -1 
+7 1 -1 
+106 1 -1 
+12 1 -1 
+76 1 -1 
+109 1 -1 
+31 1 -1 
+Functions: 4
+39 1 13 
+87 1 48 
+57 1 43 
+44 1 13 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.isBooleanTest()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 _exp 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.getExpr()Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Expression;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 _exp 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.typeCheck(Lcom/sun/org/apache/xalan/internal/xsltc/compiler/SymbolTable;)Lcom/sun/org/apache/xalan/internal/xsltc/compiler/util/Type;
+PTG:
+Vars:
+19
+r1 1 -2 
+r36 3 25 87 8 
+$r29 1 62 
+$r28 1 1 
+$r5 1 323 
+$r2 1 1 
+r0 1 -1 
+$r34 1 25 
+$r31 1 1 
+$r35 1 1 
+$r30 1 70 
+_ret 1 333 
+$r33 1 17 
+$r27 1 52 
+$r4 1 315 
+$r6 1 1 
+$r32 1 1 
+$r26 1 44 
+$r3 1 333 
+Fields: 1
+-1 _exp 1
+Accesses: 28
+0 1 -1 
+128 1 -1 
+256 1 -1 
+66 1 -1 
+199 1 -1 
+263 1 -1 
+329 1 -1 
+138 1 -1 
+266 1 -1 
+76 1 -1 
+79 1 -1 
+207 1 -1 
+337 1 -1 
+210 1 -1 
+21 1 -1 
+153 1 -1 
+156 1 -1 
+285 1 -1 
+33 1 -1 
+295 1 -1 
+107 1 -1 
+303 1 -1 
+48 1 -1 
+117 1 -1 
+120 1 -1 
+58 1 -1 
+191 1 -1 
+319 1 -1 
+Functions: 20
+1 2 1 -2 
+129 0 
+163 2 -1 1 
+228 0 
+260 0 
+292 0 
+326 3 1 323 315 
+73 3 1 70 62 
+139 0 
+235 2 -1 1 
+267 1 -2 
+239 0 
+80 2 1 -2 
+176 0 
+114 0 
+213 2 -1 1 
+245 2 -1 1 
+214 0 
+55 3 1 52 44 
+30 3 17 1 25 
+Constructors: 4
+326 315
+55 44
+73 62
+30 17
+
+Summary: 12
+236 -1 167 0 271 87 177 214 222 8 -2 223 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.inInnerClass()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 _className 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.isNthPositionFilter()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.getCompareValue()Lcom/sun/org/apache/xalan/internal/xsltc/compiler/Expression;
+PTG:
+Vars:
+12
+r6 1 43 
+$r2 1 13 
+$r9 1 121 
+$r1 1 1 
+$r13 1 77 
+$r4 1 13 
+r7 1 48 
+$r12 1 74 
+$r3 1 13 
+$r8 1 118 
+r0 1 -1 
+r5 1 13 
+Fields: 2
+-1 _value 1
+-1 _exp 13
+Accesses: 13
+0 1 -1 
+129 1 -1 
+132 1 -1 
+102 1 -1 
+7 1 -1 
+105 1 -1 
+12 1 -1 
+21 1 -1 
+85 1 -1 
+88 1 -1 
+58 1 -1 
+61 1 -1 
+31 1 -1 
+Functions: 4
+117 1 48 
+39 1 13 
+73 1 43 
+44 1 13 
+Constructors: 0
+
+Summary: 3
+-1 74 118 

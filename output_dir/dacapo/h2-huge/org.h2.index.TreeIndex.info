@@ -1,0 +1,584 @@
+21
+org/h2/index/TreeIndex.truncate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/TreeIndex.getRowCountApproximation()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/TreeIndex.checkRename()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/TreeIndex.getCost(Lorg/h2/engine/Session;[I)D
+PTG:
+Vars:
+4
+$r2 1 3 
+r0 1 -1 
+r1 1 -3 
+r3 1 -2 
+Fields: 1
+-1 tableData 3
+Accesses: 1
+2 1 -1 
+Functions: 2
+0 3 -1 -3 3 
+3 1 3 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 1 0 
+org/h2/index/TreeIndex.getRowCount(Lorg/h2/engine/Session;)J
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/TreeIndex.needRebuild()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/TreeIndex.replace(Lorg/h2/index/TreeNode;Lorg/h2/index/TreeNode;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+r1 1 -1 
+$r3 1 27 
+$r2 1 2 
+r4 1 -3 
+Fields: 2
+-1 root 2
+-2 parent 27
+Accesses: 4
+1 1 -1 
+19 1 -3 
+10 1 -1 
+26 1 -2 
+Functions: 2
+35 4 -1 2 -3 27 
+30 2 -2 27 
+Constructors: 0
+
+Summary: 4
+-1 -2 0 1 
+org/h2/index/TreeIndex.findFirstNode(Lorg/h2/result/SearchRow;Z)Lorg/h2/index/TreeNode;
+PTG:
+Vars:
+7
+r5 4 4 74 82 61 
+$r3 1 17 
+r1 1 -2 
+r4 4 4 74 82 61 
+$r2 1 17 
+r0 1 -1 
+_ret 4 4 74 82 61 
+Fields: 5
+4 row 17
+74 left 74
+-1 root 4
+82 right 82
+61 left 61
+Accesses: 6
+0 1 -1 
+16 4 82 4 74 61 
+36 4 82 4 74 61 
+70 4 82 4 74 61 
+57 4 82 4 74 61 
+78 4 82 4 74 61 
+Functions: 2
+35 4 -1 17 -2 4 
+15 4 -1 17 -2 4 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/TreeIndex.child(Lorg/h2/index/TreeNode;Z)Lorg/h2/index/TreeNode;
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 2 5 12 
+_ret 2 5 12 
+r1 1 -1 
+Fields: 2
+-2 left 5
+-2 right 12
+Accesses: 2
+4 1 -2 
+11 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/TreeIndex.remove(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/TreeIndex.previous(Lorg/h2/index/TreeNode;)Lorg/h2/index/TreeNode;
+PTG:
+Vars:
+7
+r2 1 -1 
+r6 3 44 63 -2 
+r3 1 -2 
+r0 1 10 
+$r1 1 51 
+r7 2 44 63 
+_ret 2 44 63 
+Fields: 4
+44 left 51
+63 parent 63
+-2 parent 44
+-2 left 10
+Accesses: 5
+17 1 10 
+50 2 44 63 
+6 1 -2 
+40 1 -2 
+59 2 44 63 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/TreeIndex.canGetFirstOrLast()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/TreeIndex.close(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/TreeIndex.add(Lorg/h2/engine/Session;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+8
+r8 2 137 13 
+$r0 1 0 
+$r5 1 82 
+r9 2 137 13 
+r7 1 -2 
+r1 1 -3 
+r3 1 -1 
+r4 1 65 
+Fields: 3
+-1 root 13
+-1 indexType 82
+13 row 65
+Accesses: 8
+81 1 -1 
+34 1 -1 
+37 1 -1 
+150 1 -1 
+9 1 -1 
+44 1 -1 
+60 2 137 13 
+157 1 -1 
+Functions: 9
+129 5 -1 65 82 137 13 
+82 1 82 
+67 5 -1 65 82 -3 13 
+99 4 -1 65 82 13 
+147 5 -1 65 82 137 13 
+5 2 0 -3 
+54 6 -1 0 65 82 137 13 
+104 5 -1 65 82 -3 13 
+91 5 -1 65 82 -3 13 
+Constructors: 1
+5 0
+
+Summary: 5
+-1 -2 -3 1 0 
+org/h2/index/TreeIndex.find(Lorg/h2/engine/Session;Lorg/h2/result/SearchRow;Lorg/h2/result/SearchRow;)Lorg/h2/index/Cursor;
+PTG:
+Vars:
+7
+r3 1 -4 
+$r2 1 58 
+r1 1 -1 
+r0 1 -3 
+r8 1 56 
+_ret 1 58 
+r6 1 -2 
+Fields: 0
+Accesses: 1
+4 1 -1 
+Functions: 3
+50 2 -1 -3 
+67 5 -1 -3 -4 56 58 
+46 2 -1 -4 
+Constructors: 1
+67 58
+
+Summary: 7
+-4 -3 -1 -2 0 1 2 
+org/h2/index/TreeIndex.set(Lorg/h2/index/TreeNode;ZLorg/h2/index/TreeNode;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -4 
+r2 1 -1 
+Fields: 0
+Accesses: 3
+6 1 -2 
+23 1 -4 
+14 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 2 0 
+org/h2/index/TreeIndex.next(Lorg/h2/index/TreeNode;)Lorg/h2/index/TreeNode;
+PTG:
+Vars:
+7
+r6 3 44 63 -2 
+r2 1 -1 
+$r1 1 51 
+r3 1 -2 
+r0 1 10 
+r7 2 44 63 
+_ret 2 44 63 
+Fields: 4
+44 right 51
+63 parent 63
+-2 parent 44
+-2 right 10
+Accesses: 5
+17 1 10 
+50 2 44 63 
+6 1 -2 
+40 1 -2 
+59 2 44 63 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/index/TreeIndex.<init>(Lorg/h2/table/TableData;ILjava/lang/String;[Lorg/h2/table/IndexColumn;Lorg/h2/index/IndexType;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+r4 1 -6 
+r0 1 -1 
+r3 1 -5 
+r2 1 -4 
+Fields: 0
+Accesses: 1
+17 1 -1 
+Functions: 2
+1 1 -1 
+12 5 -1 -2 -4 -5 -6 
+Constructors: 1
+1 -1
+
+Summary: 8
+-1 4 -4 -5 2 0 3 -6 
+org/h2/index/TreeIndex.remove(Lorg/h2/engine/Session;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+38
+$r5 1 121 
+$r35 1 34 
+r51 1 434 
+$r33 1 18 
+$r4 1 62 
+$r26 1 674 
+r41 1 6 
+r50 4 116 535 713 434 
+r42 2 18 62 
+$r47 1 81 
+$r24 2 116 713 
+r45 1 116 
+r1 1 -3 
+$r21 1 475 
+r39 1 6 
+$r28 1 693 
+r44 1 109 
+r43 1 62 
+r8 1 535 
+r38 1 -2 
+$r34 1 18 
+$r29 1 696 
+r0 1 -1 
+$r31 1 62 
+r49 2 116 713 
+$r9 1 569 
+$r7 1 18 
+r40 3 18 81 28 
+$r22 2 116 713 
+$r2 1 18 
+$r3 1 34 
+$r36 1 145 
+$r6 1 34 
+$r10 1 610 
+$r27 1 683 
+$r12 2 116 713 
+$r46 1 62 
+$r13 2 116 713 
+Fields: 14
+116 parent 713
+116 right 145
+18 parent 109
+18 left 81
+18 right 62
+535 parent 713
+-1 root 121
+434 parent 713
+62 parent 109
+62 left 81
+6 parent 116
+6 left 18
+6 right 34
+6 right 28
+Accesses: 58
+512 4 434 116 535 713 
+640 2 116 713 
+129 1 -1 
+518 1 434 
+135 2 18 62 
+264 2 18 62 
+143 1 116 
+17 1 6 
+659 1 434 
+277 2 18 62 
+406 4 434 116 535 713 
+24 1 6 
+665 1 535 
+282 1 62 
+156 1 116 
+285 2 18 62 
+415 4 434 116 535 713 
+544 1 535 
+33 1 6 
+290 1 81 
+165 1 116 
+40 1 6 
+297 1 6 
+686 4 434 116 535 713 
+178 1 6 
+52 1 6 
+436 1 434 
+181 1 6 
+309 3 81 18 28 
+315 1 6 
+60 1 62 
+193 2 18 62 
+321 1 -1 
+197 1 6 
+709 4 434 116 535 713 
+328 1 -1 
+202 2 18 62 
+77 2 18 62 
+83 2 18 62 
+211 2 18 62 
+215 1 6 
+344 1 6 
+90 1 6 
+220 2 18 62 
+95 2 18 62 
+102 1 6 
+230 1 6 
+105 2 18 62 
+237 1 109 
+111 1 6 
+241 1 6 
+370 4 434 116 535 713 
+498 4 434 116 535 713 
+246 2 18 62 
+120 1 -1 
+250 1 6 
+506 1 434 
+255 2 18 62 
+Functions: 24
+0 3 -1 -3 121 
+674 1 674 
+419 5 -1 145 116 121 713 
+613 6 -1 145 610 116 121 713 
+678 1 674 
+455 7 -1 145 434 116 535 121 713 
+487 7 -1 145 434 116 535 121 713 
+11 0 
+331 10 145 81 18 34 116 6 713 28 109 62 
+683 1 683 
+556 4 -1 535 121 713 
+590 5 -1 434 535 121 713 
+622 7 -1 145 434 116 535 121 713 
+527 4 -1 434 121 713 
+273 0 
+341 12 -1 145 81 18 34 116 6 121 713 28 109 62 
+693 1 693 
+470 4 -1 434 121 713 
+699 1 696 
+572 5 -1 434 121 713 569 
+541 7 -1 145 434 116 535 121 713 
+605 4 -1 535 121 713 
+478 6 -1 145 116 121 713 475 
+703 5 145 434 116 535 713 
+Constructors: 1
+678 674
+
+Summary: 5
+-3 -1 -2 1 0 
+org/h2/index/TreeIndex.balance(Lorg/h2/index/TreeNode;Z)V
+PTG:
+Vars:
+7
+$r1 1 304 
+$r27 1 292 
+$r25 1 274 
+$r26 1 283 
+$r28 1 295 
+r0 1 -1 
+r30 1 320 
+Fields: 2
+-1 root 304
+320 parent 320
+Accesses: 7
+53 1 320 
+10 1 320 
+123 1 320 
+316 1 320 
+46 1 320 
+286 1 320 
+303 1 -1 
+Functions: 19
+224 3 -1 304 320 
+193 2 -1 304 
+292 1 292 
+102 2 -1 304 
+135 2 -1 304 
+298 1 295 
+171 2 -1 304 
+208 2 -1 304 
+81 3 -1 304 320 
+178 2 -1 304 
+274 1 274 
+118 3 -1 304 320 
+278 1 274 
+87 2 -1 304 
+311 1 320 
+59 3 -1 304 320 
+187 2 -1 304 
+283 1 283 
+156 3 -1 304 320 
+Constructors: 1
+278 274
+
+Summary: 3
+-1 -2 0 
+org/h2/index/TreeIndex.findFirstOrLast(Lorg/h2/engine/Session;Z)Lorg/h2/index/Cursor;
+PTG:
+Vars:
+10
+r6 1 -2 
+r2 1 113 
+$r3 1 126 
+r4 1 136 
+$r1 1 88 
+r12 2 72 63 
+r13 1 72 
+r0 1 -1 
+$r5 1 140 
+_ret 1 88 
+Fields: 3
+63 right 72
+-1 root 63
+-1 columnIds 126
+Accesses: 4
+68 2 72 63 
+59 1 -1 
+125 1 -1 
+31 1 -1 
+Functions: 8
+96 5 -1 88 72 126 63 
+4 5 -1 -2 72 126 63 
+21 0 
+149 1 88 
+123 1 113 
+12 0 
+108 1 88 
+29 0 
+Constructors: 1
+96 88
+
+Summary: 3
+-1 -2 0 

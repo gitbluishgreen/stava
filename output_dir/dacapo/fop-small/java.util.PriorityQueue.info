@@ -1,0 +1,805 @@
+39
+java/util/PriorityQueue.remove(Ljava/lang/Object;)Z
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+15 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/PriorityQueue.clear()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 21 
+Fields: 1
+-1 queue 21
+Accesses: 5
+0 1 -1 
+35 1 -1 
+20 1 -1 
+7 1 -1 
+13 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/PriorityQueue.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 -1 
+Constructors: 1
+4 -1
+
+Summary: 1
+-1 
+java/util/PriorityQueue.toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 -2 
+r1 1 -2 
+$r2 1 28 
+Fields: 1
+-1 queue 28
+Accesses: 3
+0 1 -1 
+11 1 -1 
+27 1 -1 
+Functions: 3
+16 1 -2 
+17 0 
+35 2 -2 28 
+Constructors: 0
+
+Summary: 3
+-1 0 17 
+java/util/PriorityQueue.siftDownUsingComparator(ILjava/lang/Object;)V
+PTG:
+Vars:
+11
+$r8 1 20 
+r0 1 -1 
+r9 2 26 74 
+$r3 1 20 
+$r4 1 20 
+$r6 1 55 
+$r2 1 20 
+$r10 1 44 
+$r5 1 20 
+r1 1 -3 
+$r7 1 44 
+Fields: 5
+-1 queue 20
+-1 comparator 44
+20 ArrayObject 55
+20 ArrayObject 26
+20 ArrayObject 74
+Accesses: 9
+0 1 -1 
+64 1 -1 
+49 1 -1 
+19 1 -1 
+36 1 -1 
+43 1 -1 
+76 1 -1 
+108 1 -1 
+94 1 -1 
+Functions: 2
+44 4 55 26 74 44 
+77 4 -3 26 74 44 
+Constructors: 0
+
+Summary: 2
+-1 1 
+java/util/PriorityQueue.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+r0 1 -2 
+$r2 1 30 
+$r3 1 34 
+Fields: 2
+-1 queue 30
+30 ArrayObject 34
+Accesses: 3
+21 1 -1 
+6 1 -1 
+29 1 -1 
+Functions: 4
+1 1 -2 
+35 2 -2 34 
+11 0 
+15 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/util/PriorityQueue.poll()Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r5 1 32 
+r0 1 -1 
+r4 1 44 
+r2 1 37 
+$r3 1 32 
+_ret 1 37 
+$r1 1 32 
+Fields: 3
+-1 queue 32
+32 ArrayObject 37
+32 ArrayObject 44
+Accesses: 8
+0 1 -1 
+17 1 -1 
+21 1 -1 
+38 1 -1 
+9 1 -1 
+28 1 -1 
+45 1 -1 
+31 1 -1 
+Functions: 1
+59 4 -1 32 37 44 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/PriorityQueue.hugeCapacity(I)I
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/PriorityQueue.comparator()Ljava/util/Comparator;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 comparator 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/PriorityQueue.toArray()[Ljava/lang/Object;
+PTG:
+Vars:
+4
+$r2 1 8 
+$r1 1 1 
+_ret 1 8 
+r0 1 -1 
+Fields: 1
+-1 queue 1
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/PriorityQueue.removeAt(I)Ljava/lang/Object;
+PTG:
+Vars:
+9
+$r1 1 38 
+r2 1 43 
+$r4 1 38 
+$r5 1 62 
+$r8 1 28 
+$r3 1 38 
+r0 1 -1 
+$r6 1 38 
+$r7 1 78 
+Fields: 5
+-1 queue 28
+-1 queue 38
+38 ArrayObject 43
+38 ArrayObject 78
+38 ArrayObject 62
+Accesses: 9
+0 1 -1 
+18 1 -1 
+37 1 -1 
+7 1 -1 
+57 1 -1 
+73 1 -1 
+10 1 -1 
+27 1 -1 
+44 1 -1 
+Functions: 2
+54 6 -1 38 43 28 78 62 
+70 6 -1 38 43 28 78 62 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/PriorityQueue.<init>(Ljava/util/Comparator;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 1
+4 -1
+
+Summary: 2
+-2 -1 
+java/util/PriorityQueue.access$100(Ljava/util/PriorityQueue;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/PriorityQueue.iterator()Ljava/util/Iterator;
+PTG:
+Vars:
+3
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 0 -1 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+java/util/PriorityQueue.siftDownComparable(ILjava/lang/Object;)V
+PTG:
+Vars:
+11
+$r4 1 27 
+r0 1 -3 
+$r5 1 27 
+$r7 1 61 
+$r3 1 27 
+$r9 1 27 
+r10 2 33 80 
+$r6 1 27 
+r2 1 -1 
+$r8 1 33 
+r1 1 -3 
+Fields: 4
+-1 queue 27
+27 ArrayObject 33
+27 ArrayObject 61
+27 ArrayObject 80
+Accesses: 7
+96 1 -1 
+5 1 -1 
+70 1 -1 
+55 1 -1 
+26 1 -1 
+43 1 -1 
+110 1 -1 
+Functions: 2
+82 3 80 33 -3 
+52 2 33 61 
+Constructors: 0
+
+Summary: 2
+-1 1 
+java/util/PriorityQueue.<init>(Ljava/util/Collection;)V
+PTG:
+Vars:
+6
+r5 1 -2 
+$r2 1 58 
+$r3 1 28 
+r4 1 -2 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 5
+33 1 -1 
+6 1 -1 
+74 1 -1 
+11 1 -1 
+61 1 -1 
+Functions: 6
+1 1 -1 
+66 2 -1 -2 
+38 2 -1 -2 
+57 1 -2 
+27 1 -2 
+79 2 -1 -2 
+Constructors: 1
+1 -1
+
+Summary: 2
+-2 -1 
+java/util/PriorityQueue.spliterator()Ljava/util/Spliterator;
+PTG:
+Vars:
+3
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 2 0 -1 
+Constructors: 1
+8 0
+
+Summary: 1
+-1 
+java/util/PriorityQueue.add(Ljava/lang/Object;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/PriorityQueue.grow(I)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+$r3 1 42 
+$r1 1 1 
+Fields: 1
+-1 queue 1
+Accesses: 3
+0 1 -1 
+37 1 -1 
+45 1 -1 
+Functions: 2
+41 1 1 
+31 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/PriorityQueue.contains(Ljava/lang/Object;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/PriorityQueue.initElementsFromCollection(Ljava/util/Collection;)V
+PTG:
+Vars:
+6
+r0 1 -2 
+r6 2 24 6 
+$r5 1 34 
+r2 1 -1 
+$r3 1 52 
+$r1 1 8 
+Fields: 3
+24 ArrayObject 52
+-1 comparator 34
+6 ArrayObject 52
+Accesses: 3
+33 1 -1 
+72 1 -1 
+78 1 -1 
+Functions: 4
+0 1 -2 
+19 3 52 6 24 
+7 1 -2 
+60 0 
+Constructors: 0
+
+Summary: 4
+-2 -1 8 0 
+java/util/PriorityQueue.initFromPriorityQueue(Ljava/util/PriorityQueue;)V
+PTG:
+Vars:
+4
+r2 1 -1 
+$r3 1 11 
+r0 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 2
+22 1 -1 
+14 1 -1 
+Functions: 4
+0 1 -2 
+18 1 -2 
+10 1 -2 
+30 2 -1 -2 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 1 
+java/util/PriorityQueue.peek()Ljava/lang/Object;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 16 
+$r1 1 12 
+$r2 1 16 
+Fields: 2
+-1 queue 12
+12 ArrayObject 16
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/PriorityQueue.size()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/PriorityQueue.indexOf(Ljava/lang/Object;)I
+PTG:
+Vars:
+4
+r1 1 -1 
+r0 1 -2 
+$r3 1 20 
+$r2 1 16 
+Fields: 2
+-1 queue 16
+16 ArrayObject 20
+Accesses: 2
+7 1 -1 
+15 1 -1 
+Functions: 1
+14 2 -2 20 
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/util/PriorityQueue.<init>(Ljava/util/PriorityQueue;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 16 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+19 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 3
+1 1 -1 
+24 2 -1 -2 
+15 1 -2 
+Constructors: 1
+1 -1
+
+Summary: 2
+-2 -1 
+java/util/PriorityQueue.<init>(Ljava/util/SortedSet;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 16 
+Fields: 0
+Accesses: 3
+21 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 3
+1 1 -1 
+26 2 -1 -2 
+15 1 -2 
+Constructors: 1
+1 -1
+
+Summary: 2
+-2 -1 
+java/util/PriorityQueue.initFromCollection(Ljava/util/Collection;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 2 -1 -2 
+6 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/PriorityQueue.access$200(Ljava/util/PriorityQueue;I)Ljava/lang/Object;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/util/PriorityQueue.siftUpUsingComparator(ILjava/lang/Object;)V
+PTG:
+Vars:
+7
+$r6 1 11 
+r0 1 -1 
+r1 1 -3 
+$r3 1 11 
+r4 1 16 
+$r2 1 11 
+$r5 1 19 
+Fields: 3
+11 ArrayObject 16
+-1 queue 11
+-1 comparator 19
+Accesses: 4
+49 1 -1 
+18 1 -1 
+36 1 -1 
+10 1 -1 
+Functions: 1
+19 3 16 -3 19 
+Constructors: 0
+
+Summary: 2
+-1 1 
+java/util/PriorityQueue.siftDown(ILjava/lang/Object;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 comparator 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+19 3 -1 1 -3 
+10 3 -1 1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+java/util/PriorityQueue.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+6
+$r4 1 46 
+$r1 1 9 
+r0 1 -2 
+r2 1 -1 
+$r3 1 29 
+$r5 1 51 
+Fields: 1
+-1 queue 46
+Accesses: 5
+32 1 -1 
+38 1 -1 
+25 1 -1 
+45 1 -1 
+15 1 -1 
+Functions: 6
+-1 0 
+1 1 -2 
+50 1 -2 
+19 2 -2 9 
+5 1 -2 
+62 2 -1 46 
+Constructors: 0
+
+Summary: 4
+-2 9 -1 51 
+java/util/PriorityQueue.removeEq(Ljava/lang/Object;)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 12 
+r1 1 -2 
+$r3 1 16 
+Fields: 2
+-1 queue 12
+12 ArrayObject 16
+Accesses: 2
+3 1 -1 
+11 1 -1 
+Functions: 1
+22 3 -1 16 12 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/util/PriorityQueue.offer(Ljava/lang/Object;)Z
+PTG:
+Vars:
+4
+r1 1 -1 
+$r2 1 29 
+$r3 1 29 
+r0 1 -2 
+Fields: 1
+-1 queue 29
+Accesses: 6
+19 1 -1 
+22 1 -1 
+54 1 -1 
+12 1 -1 
+28 1 -1 
+47 1 -1 
+Functions: 3
+67 3 -1 -2 29 
+8 0 
+40 2 -1 29 
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/util/PriorityQueue.<init>(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 1
+3 -1
+
+Summary: 1
+-1 
+java/util/PriorityQueue.siftUpComparable(ILjava/lang/Object;)V
+PTG:
+Vars:
+7
+$r3 1 17 
+r5 1 23 
+r0 1 -3 
+r2 1 -1 
+$r6 1 17 
+r1 1 -3 
+$r4 1 17 
+Fields: 2
+-1 queue 17
+17 ArrayObject 23
+Accesses: 3
+16 1 -1 
+53 1 -1 
+39 1 -1 
+Functions: 1
+25 2 -3 23 
+Constructors: 0
+
+Summary: 2
+-1 1 
+java/util/PriorityQueue.siftUp(ILjava/lang/Object;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 comparator 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+19 3 -1 1 -3 
+10 3 -1 1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+java/util/PriorityQueue.heapify()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 16 
+$r2 1 20 
+Fields: 2
+-1 queue 16
+16 ArrayObject 20
+Accesses: 2
+0 1 -1 
+15 1 -1 
+Functions: 1
+21 3 -1 16 20 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/PriorityQueue.<init>(ILjava/util/Comparator;)V
+PTG:
+Vars:
+3
+$r1 1 29 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 4
+32 1 -1 
+37 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 2
+1 1 -1 
+23 0 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 1 

@@ -1,0 +1,1084 @@
+34
+org/eclipse/core/runtime/adaptor/EclipseLog.setFile(Ljava/io/File;Z)V
+PTG:
+Vars:
+4
+r0 1 -2 
+$r3 1 6 
+$r4 1 35 
+r1 1 -1 
+Fields: 1
+-1 outFile 6
+Accesses: 2
+5 1 -1 
+21 1 -1 
+Functions: 5
+16 2 -1 6 
+34 1 -2 
+4 2 -2 6 
+38 1 35 
+28 3 -1 -2 6 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.writeArgs(Ljava/lang/String;[Ljava/lang/String;)V
+PTG:
+Vars:
+9
+$r8 1 24 
+r2 1 -2 
+$r3 1 47 
+r0 1 -3 
+$r5 1 59 
+$r7 1 30 
+$r6 1 62 
+$r4 1 58 
+r1 1 -1 
+Fields: 2
+-3 ArrayObject 58
+-3 ArrayObject 30
+Accesses: 0
+Functions: 8
+65 2 -1 62 
+53 1 47 
+24 2 24 30 
+40 1 -1 
+59 1 59 
+12 2 -1 -2 
+78 1 -1 
+47 2 58 47 
+Constructors: 1
+53 47
+
+Summary: 4
+-2 1 -1 -3 
+org/eclipse/core/runtime/adaptor/EclipseLog.writeln(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 2 -1 -2 
+6 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.writeSpace()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/adaptor/EclipseLog.close()V
+PTG:
+Vars:
+4
+r0 1 -1 
+r3 1 1 
+$r2 1 -1 
+$r1 1 1 
+Fields: 1
+-1 writer 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+14 1 -1 
+Functions: 2
+18 1 1 
+26 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/adaptor/EclipseLog.getFile()Ljava/io/File;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 outFile 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/adaptor/EclipseLog.log(Lorg/osgi/framework/FrameworkEvent;)V
+PTG:
+Vars:
+8
+r6 1 -1 
+$r7 2 20 29 
+r1 1 4 
+r0 1 -2 
+r2 1 9 
+r4 2 20 29 
+$r3 1 11 
+$r8 1 97 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+112 4 97 20 9 29 
+19 1 4 
+36 1 -2 
+5 1 -2 
+120 2 -1 97 
+10 1 4 
+28 1 4 
+Constructors: 1
+112 97
+
+Summary: 4
+-2 97 0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.<clinit>()V
+PTG:
+Vars:
+5
+$r2 1 22 
+$r1 1 19 
+$r3 1 22 
+r0 1 5 
+$r4 2 10 5 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+-1 0 
+19 1 19 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/runtime/adaptor/EclipseLog.getStackTrace(Ljava/lang/Throwable;)Ljava/lang/String;
+PTG:
+Vars:
+7
+$r1 1 6 
+$r7 1 54 
+$r3 1 14 
+r0 1 -2 
+r5 1 -1 
+r6 1 33 
+_ret 1 54 
+Fields: 0
+Accesses: 0
+Functions: 7
+50 2 33 14 
+19 2 6 14 
+53 1 6 
+25 2 -2 14 
+10 1 6 
+28 2 -1 -2 
+44 1 14 
+Constructors: 2
+19 14
+10 6
+
+Summary: 4
+-2 0 -1 14 
+org/eclipse/core/runtime/adaptor/EclipseLog.appendPaddedInt(IILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+3
+r7 1 -1 
+r0 1 -4 
+_ret 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 7
+33 1 -4 
+34 0 
+20 0 
+70 1 -4 
+7 1 -4 
+8 0 
+45 1 -4 
+Constructors: 0
+
+Summary: 2
+2 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.log(Lorg/eclipse/osgi/framework/log/FrameworkLogEntry;)V
+PTG:
+Vars:
+13
+r1 1 -1 
+$r2 1 46 
+$r5 1 -1 
+$r15 1 86 
+$r7 1 109 
+$r11 1 56 
+$r13 1 72 
+$r14 1 83 
+$r8 1 119 
+$r12 1 66 
+$r16 1 46 
+r0 1 -2 
+$r9 1 -1 
+Fields: 1
+-1 writer 46
+Accesses: 5
+98 1 -1 
+36 1 -1 
+23 1 -1 
+89 1 -1 
+45 1 -1 
+Functions: 17
+5 3 -1 -2 46 
+69 2 -1 66 
+102 1 46 
+135 2 -1 46 
+42 3 -1 -2 46 
+78 1 72 
+142 2 -1 46 
+15 2 -1 46 
+49 1 46 
+82 3 -1 83 46 
+115 1 109 
+20 2 -1 46 
+122 2 -1 119 
+62 1 56 
+126 2 -1 46 
+31 2 -1 46 
+95 3 -1 -2 46 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 1
+2 -1
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/adaptor/EclipseLog.writeLog(ILorg/eclipse/osgi/framework/log/FrameworkLogEntry;)V
+PTG:
+Vars:
+4
+$r3 1 38 
+r2 1 20 
+r0 1 -1 
+r1 1 -3 
+Fields: 1
+20 ArrayObject 38
+Accesses: 0
+Functions: 5
+16 1 -3 
+3 2 -1 -3 
+39 2 -1 38 
+8 2 -1 -3 
+13 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+1 -1 -3 
+org/eclipse/core/runtime/adaptor/EclipseLog.getDate(Ljava/util/Date;)Ljava/lang/String;
+PTG:
+Vars:
+12
+r4 1 -1 
+r1 1 -2 
+$r7 1 44 
+r0 1 3 
+$r2 1 9 
+$r15 1 115 
+$r9 1 61 
+$r5 1 25 
+$r18 1 138 
+$r11 1 79 
+$r13 1 97 
+_ret 1 138 
+Fields: 0
+Accesses: 0
+Functions: 24
+0 0 
+34 2 -1 9 
+66 1 61 
+35 1 3 
+133 2 -1 9 
+6 2 -2 3 
+70 2 -1 9 
+102 1 97 
+71 1 3 
+137 1 9 
+106 2 -1 9 
+107 1 3 
+13 1 9 
+17 2 -1 9 
+49 1 44 
+18 1 3 
+84 1 79 
+53 2 -1 9 
+54 1 3 
+88 2 -1 9 
+120 1 115 
+89 1 3 
+125 1 3 
+30 1 25 
+Constructors: 1
+13 9
+
+Summary: 4
+-1 -2 9 0 
+org/eclipse/core/runtime/adaptor/EclipseLog.setConsoleLog(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/adaptor/EclipseLog.checkLogFileSize()Z
+PTG:
+Vars:
+51
+$r3 1 12 
+$r37 1 232 
+$r24 1 286 
+$r19 1 364 
+$r27 1 178 
+$r44 1 77 
+$r34 1 214 
+$r35 1 217 
+$r12 1 297 
+$r26 1 163 
+$r17 1 346 
+$r5 1 50 
+$r33 1 205 
+$r18 1 353 
+$r29 1 184 
+$r22 1 380 
+$r47 1 95 
+$r51 1 400 
+$r23 1 387 
+$r48 1 100 
+$r30 1 192 
+$r45 1 80 
+$r25 1 166 
+$r39 1 244 
+$r32 1 202 
+$r7 1 115 
+$r43 1 71 
+$r40 1 247 
+$r49 1 -1 
+$r10 1 137 
+$r36 1 259 
+$r6 1 110 
+$r1 1 12 
+$r46 1 88 
+$r21 1 377 
+$r38 1 229 
+$r42 1 61 
+$r28 1 181 
+r0 1 -1 
+$r2 1 12 
+$r41 1 250 
+r54 2 106 136 
+$r16 1 343 
+$r15 1 340 
+r4 1 44 
+$r55 1 12 
+$r8 1 123 
+$r14 1 328 
+$r31 1 196 
+$r20 1 374 
+$r9 1 130 
+Fields: 2
+-1 outFile 12
+-1 writer 387
+Accesses: 13
+0 1 -1 
+386 1 -1 
+419 1 -1 
+37 1 -1 
+422 1 -1 
+11 1 -1 
+427 1 -1 
+270 1 -1 
+18 1 -1 
+91 1 -1 
+411 1 -1 
+28 1 -1 
+126 1 -1 
+Functions: 61
+-1 0 
+130 1 130 
+390 1 387 
+265 1 259 
+142 3 136 137 106 
+271 2 137 12 
+19 1 12 
+147 1 137 
+403 2 -1 400 
+407 3 -1 387 12 
+155 1 137 
+292 1 286 
+38 1 12 
+166 2 178 166 
+173 1 166 
+302 2 297 44 
+176 1 137 
+49 1 44 
+50 1 50 
+181 1 181 
+312 4 -1 387 297 12 
+187 2 163 184 
+316 3 -1 387 12 
+61 1 61 
+190 2 192 137 
+320 3 -1 387 12 
+65 1 44 
+67 1 44 
+196 1 196 
+324 3 -1 387 12 
+71 1 71 
+200 1 137 
+328 2 340 328 
+202 1 202 
+77 1 77 
+335 1 328 
+208 2 196 205 
+338 1 137 
+83 2 80 61 
+214 1 214 
+343 1 343 
+88 1 88 
+220 2 192 217 
+349 4 -1 387 346 12 
+95 1 95 
+353 2 353 374 
+100 1 100 
+232 2 244 232 
+360 1 353 
+363 4 -1 387 12 364 
+110 1 110 
+239 1 232 
+114 1 44 
+242 1 137 
+371 1 364 
+118 2 115 110 
+247 1 247 
+377 1 377 
+123 1 123 
+253 2 229 250 
+383 4 -1 387 12 380 
+Constructors: 11
+208 196
+83 61
+371 364
+118 110
+360 353
+220 192
+173 166
+142 137
+302 297
+239 232
+335 328
+
+Summary: 5
+-1 137 192 364 297 
+org/eclipse/core/runtime/adaptor/EclipseLog.isLoggable(Lorg/eclipse/osgi/framework/log/FrameworkLogEntry;)Z
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 1
+9 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.getRoot(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+PTG:
+Vars:
+7
+r0 1 -2 
+r1 1 -1 
+r5 3 16 51 31 
+$r4 1 -2 
+$r3 1 -2 
+r2 1 51 
+_ret 3 16 51 31 
+Fields: 0
+Accesses: 0
+Functions: 3
+25 1 -2 
+10 1 -2 
+46 4 -1 16 51 31 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.writeStack(Lorg/eclipse/osgi/framework/log/FrameworkLogEntry;)V
+PTG:
+Vars:
+5
+r3 1 14 
+r2 1 -1 
+r1 1 4 
+r0 1 -2 
+$r4 1 30 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -2 
+33 2 -1 30 
+18 1 -1 
+37 1 -1 
+22 1 -1 
+9 2 -1 4 
+26 1 -2 
+42 2 -1 14 
+27 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.getSessionTimestamp()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r5 1 22 
+$r6 1 -1 
+$r2 1 28 
+$r4 1 11 
+$r3 1 35 
+r0 1 5 
+r1 1 -1 
+_ret 1 35 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 0 
+32 1 28 
+19 1 11 
+10 2 -1 11 
+27 2 -1 28 
+15 1 5 
+Constructors: 2
+32 28
+19 11
+
+Summary: 3
+28 11 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.writeSession()V
+PTG:
+Vars:
+52
+$r15 1 128 
+$r44 1 275 
+$r3 1 68 
+r31 1 148 
+$r38 1 246 
+$r52 1 317 
+$r2 1 24 
+r27 1 101 
+$r43 1 272 
+$r46 1 281 
+r0 1 -1 
+$r37 1 236 
+$r36 1 229 
+$r6 1 85 
+$r14 1 120 
+$r47 1 288 
+r1 1 14 
+$r10 1 193 
+$r32 1 211 
+$r49 1 301 
+$r11 1 197 
+$r39 1 249 
+$r35 1 226 
+$r20 1 163 
+$r8 1 180 
+$r45 1 278 
+$r4 1 73 
+$r16 1 132 
+$r50 1 304 
+$r53 1 320 
+$r22 1 170 
+$r42 1 262 
+$r40 1 252 
+r25 1 66 
+$r17 1 135 
+$r54 1 330 
+$r13 1 115 
+$r23 1 -1 
+$r7 1 88 
+$r18 1 150 
+$r9 1 185 
+$r21 1 167 
+$r19 1 155 
+$r41 1 255 
+$r48 1 298 
+$r55 1 333 
+$r5 1 81 
+r29 1 113 
+$r34 1 223 
+$r12 1 200 
+$r33 1 220 
+$r51 1 307 
+Fields: 0
+Accesses: 0
+Functions: 61
+128 2 128 113 
+258 2 -1 255 
+3 1 -1 
+132 1 132 
+262 2 275 262 
+7 1 -1 
+10 1 -1 
+138 2 -1 135 
+269 1 262 
+144 0 
+272 1 272 
+17 2 -1 14 
+21 1 -1 
+150 1 150 
+278 1 278 
+24 1 24 
+154 0 
+284 2 -1 281 
+29 1 14 
+158 2 150 155 
+288 2 288 301 
+163 2 163 148 
+167 1 167 
+295 1 288 
+41 1 -1 
+298 1 298 
+173 2 -1 170 
+304 1 304 
+180 1 180 
+54 1 -1 
+310 2 -1 307 
+184 0 
+188 2 180 185 
+61 0 
+317 1 317 
+193 2 193 101 
+323 2 -1 320 
+68 1 68 
+197 1 197 
+72 0 
+330 1 330 
+203 2 -1 200 
+76 2 68 73 
+336 2 -1 333 
+81 2 81 66 
+211 2 211 223 
+85 1 85 
+217 1 211 
+91 2 -1 88 
+220 1 220 
+97 0 
+226 1 226 
+232 2 -1 229 
+236 2 249 236 
+109 0 
+115 1 115 
+243 1 236 
+246 1 246 
+119 0 
+123 2 115 120 
+252 1 252 
+Constructors: 8
+243 236
+295 288
+217 211
+123 115
+76 68
+188 180
+269 262
+158 150
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/adaptor/EclipseLog.setWriter(Ljava/io/Writer;Z)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.setOutput(Ljava/io/File;Ljava/io/Writer;Z)V
+PTG:
+Vars:
+16
+$r2 1 16 
+$r7 1 16 
+r3 1 -3 
+$r5 1 91 
+$r9 1 6 
+$r10 1 -1 
+r0 1 -2 
+$r8 1 16 
+$r14 1 -1 
+r19 1 6 
+$r6 1 96 
+$r4 1 87 
+r20 1 87 
+$r17 1 -1 
+$r15 1 -1 
+r1 1 -1 
+Fields: 2
+-1 outFile 6
+-1 writer 16
+Accesses: 8
+52 1 -1 
+5 1 -1 
+22 1 -1 
+41 1 -1 
+57 1 -1 
+44 1 -1 
+110 1 -1 
+15 1 -1 
+Functions: 20
+225 1 -1 
+162 3 -1 16 6 
+4 2 -2 6 
+36 1 -1 
+197 1 6 
+102 2 96 87 
+72 1 6 
+137 1 87 
+202 3 -1 16 6 
+235 1 6 
+240 3 -1 16 6 
+177 1 87 
+114 4 -1 16 6 87 
+147 1 -1 
+84 3 -1 16 6 
+215 1 87 
+26 1 16 
+91 2 6 91 
+187 0 
+127 1 -1 
+Constructors: 1
+102 87
+
+Summary: 4
+1 0 -1 87 
+org/eclipse/core/runtime/adaptor/EclipseLog.copyReader(Ljava/io/Reader;Ljava/io/Writer;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r2 1 -3 
+r3 1 -1 
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+17 2 -2 3 
+14 2 -3 3 
+Constructors: 0
+
+Summary: 6
+-2 1 0 -1 3 -3 
+org/eclipse/core/runtime/adaptor/EclipseLog.writeln()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/adaptor/EclipseLog.readLogProperties()V
+PTG:
+Vars:
+7
+$r0 1 0 
+r2 1 51 
+$r6 1 78 
+r4 1 -1 
+r1 1 8 
+$r5 1 43 
+r3 1 86 
+Fields: 0
+Accesses: 11
+64 1 -1 
+18 1 -1 
+21 1 -1 
+149 1 -1 
+103 1 -1 
+40 1 -1 
+122 1 -1 
+75 1 -1 
+28 1 -1 
+61 1 -1 
+141 1 -1 
+Functions: 8
+0 1 0 
+128 1 86 
+57 1 51 
+43 1 43 
+91 1 86 
+109 1 86 
+14 1 8 
+78 1 78 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/adaptor/EclipseLog.openFile()V
+PTG:
+Vars:
+12
+$r10 1 39 
+$r4 1 56 
+r0 1 -1 
+$r2 1 8 
+$r9 1 -1 
+$r11 1 42 
+$r8 1 27 
+$r1 1 1 
+$r3 1 53 
+$r7 1 24 
+$r6 1 16 
+$r5 1 8 
+Fields: 2
+-1 outFile 8
+-1 writer 1
+Accesses: 6
+0 1 -1 
+19 1 -1 
+7 1 -1 
+59 1 -1 
+45 1 -1 
+30 1 -1 
+Functions: 4
+16 2 16 8 
+52 4 -1 1 53 8 
+38 4 -1 1 39 8 
+15 4 -1 1 8 24 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/runtime/adaptor/EclipseLog.logForStream(Ljava/io/OutputStream;)Ljava/io/Writer;
+PTG:
+Vars:
+8
+$r3 1 -1 
+$r0 1 0 
+r2 1 -2 
+$r1 1 4 
+r6 1 -1 
+$r4 1 20 
+$r5 1 24 
+_ret 1 20 
+Fields: 0
+Accesses: 0
+Functions: 4
+32 2 20 24 
+12 2 -2 4 
+29 2 -2 24 
+15 2 0 4 
+Constructors: 4
+32 20
+12 4
+29 24
+15 0
+
+Summary: 5
+-2 24 4 0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.writeEntry(ILorg/eclipse/osgi/framework/log/FrameworkLogEntry;)V
+PTG:
+Vars:
+8
+r2 1 -3 
+$r7 1 90 
+$r3 1 41 
+$r6 1 83 
+$r5 1 71 
+$r1 1 29 
+$r4 1 56 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 22
+32 2 -1 29 
+97 1 -1 
+67 1 -3 
+36 1 -1 
+68 0 
+5 1 -1 
+40 1 -3 
+74 2 -1 71 
+11 1 -1 
+44 2 -1 41 
+78 1 -1 
+48 1 -1 
+82 2 -1 83 
+20 1 -1 
+52 1 -3 
+53 0 
+87 1 83 
+24 1 -1 
+59 2 -1 56 
+28 0 
+93 2 -1 90 
+63 1 -1 
+Constructors: 1
+87 83
+
+Summary: 4
+1 -1 83 -3 
+org/eclipse/core/runtime/adaptor/EclipseLog.write(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+$r2 1 5 
+r1 1 -1 
+$r3 1 19 
+Fields: 1
+-1 writer 5
+Accesses: 2
+4 1 -1 
+12 1 -1 
+Functions: 2
+23 2 -2 19 
+9 2 -2 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.<init>(Ljava/io/Writer;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 43 
+r1 1 -2 
+$r3 1 46 
+Fields: 0
+Accesses: 8
+49 1 -1 
+18 1 -1 
+34 1 -1 
+6 1 -1 
+24 1 -1 
+57 1 -1 
+11 1 -1 
+29 1 -1 
+Functions: 2
+1 1 -1 
+42 2 -1 43 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.<init>(Ljava/io/File;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 8
+18 1 -1 
+34 1 -1 
+6 1 -1 
+39 1 -1 
+24 1 -1 
+11 1 -1 
+44 1 -1 
+29 1 -1 
+Functions: 2
+48 1 -1 
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.writeMessage(Lorg/eclipse/osgi/framework/log/FrameworkLogEntry;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 12 
+Fields: 0
+Accesses: 0
+Functions: 4
+3 1 -1 
+7 1 -1 
+11 1 -2 
+15 2 -1 12 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/runtime/adaptor/EclipseLog.closeFile()V
+PTG:
+Vars:
+5
+$r2 1 8 
+$r4 1 -1 
+$r3 1 8 
+r0 1 -1 
+$r1 1 1 
+Fields: 2
+-1 outFile 1
+-1 writer 8
+Accesses: 4
+0 1 -1 
+7 1 -1 
+14 1 -1 
+31 1 -1 
+Functions: 2
+18 1 8 
+26 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 

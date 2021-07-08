@@ -1,0 +1,1195 @@
+49
+org/h2/table/Column.getComputed()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.setComputedExpression(Lorg/h2/expression/Expression;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/table/Column.getComment()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 comment 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.isNullable()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.setDefaultExpression(Lorg/h2/engine/Session;Lorg/h2/expression/Expression;)V
+PTG:
+Vars:
+4
+$r2 1 19 
+r3 3 9 25 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+28 1 -1 
+Functions: 4
+17 4 -2 -3 9 25 
+19 1 19 
+4 4 -2 -3 9 25 
+10 3 -3 9 25 
+Constructors: 0
+
+Summary: 4
+1 -2 0 -1 
+org/h2/table/Column.getType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.getTable()Lorg/h2/table/Table;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 table 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.getSQL()Ljava/lang/String;
+PTG:
+Vars:
+4
+_ret 1 4 
+$r2 1 4 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 name 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.getSequence()Lorg/h2/schema/Sequence;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 sequence 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.getCheckConstraint(Lorg/h2/engine/Session;Ljava/lang/String;)Lorg/h2/expression/Expression;
+PTG:
+Vars:
+10
+$r8 1 1 
+_ret 1 69 
+r3 1 -2 
+r9 1 41 
+r0 1 -1 
+r7 1 -3 
+r6 1 27 
+$r2 1 9 
+$r1 1 1 
+r13 1 69 
+Fields: 2
+-1 name 27
+-1 checkConstraint 1
+Accesses: 5
+0 1 -1 
+34 1 -1 
+23 1 -1 
+46 1 -1 
+31 1 -1 
+Functions: 3
+35 1 1 
+14 2 -2 9 
+63 2 9 41 
+Constructors: 1
+14 9
+
+Summary: 4
+9 1 -2 0 
+org/h2/table/Column.isEverything(Lorg/h2/expression/ExpressionVisitor;)Z
+PTG:
+Vars:
+9
+$r6 1 17 
+$r8 1 29 
+r0 1 -2 
+$r7 1 10 
+$r2 1 49 
+$r4 1 29 
+$r5 1 10 
+$r3 1 49 
+r1 1 -1 
+Fields: 3
+-1 sequence 10
+-1 defaultExpression 29
+-1 checkConstraint 49
+Accesses: 6
+48 1 -1 
+35 1 -1 
+20 1 -1 
+55 1 -1 
+9 1 -1 
+28 1 -1 
+Functions: 5
+0 1 -2 
+16 1 -2 
+36 2 -2 29 
+24 2 17 10 
+56 2 49 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/table/Column.validateConvertUpdateSequence(Lorg/h2/engine/Session;Lorg/h2/value/Value;)Lorg/h2/value/Value;
+PTG:
+Vars:
+27
+$r38 1 27 
+$r37 1 5 
+$r33 1 5 
+$r28 1 241 
+$r30 1 182 
+$r27 1 231 
+r54 1 310 
+$r23 1 120 
+r1 1 -1 
+$r31 1 158 
+r55 1 366 
+r43 9 268 168 195 252 37 14 104 217 -3 
+$r15 1 290 
+$r17 1 283 
+$r26 1 258 
+$r19 1 331 
+r0 1 -2 
+$r34 1 94 
+$r52 1 283 
+_ret 1 366 
+r47 1 69 
+$r18 1 326 
+$r48 1 71 
+r51 1 147 
+$r35 1 5 
+$r29 1 211 
+$r46 1 63 
+Fields: 3
+-1 defaultExpression 5
+-1 resolver 290
+-1 checkConstraint 283
+Accesses: 26
+4 1 -1 
+133 1 69 
+261 1 -1 
+199 1 147 
+140 1 -1 
+77 1 -1 
+274 1 -1 
+149 1 147 
+22 1 -1 
+343 1 -1 
+89 1 -1 
+282 1 -1 
+221 1 147 
+30 1 -1 
+97 1 -1 
+161 1 -1 
+289 1 -1 
+355 1 69 
+359 1 -1 
+172 1 147 
+302 1 -1 
+367 1 -1 
+50 1 -1 
+244 1 147 
+377 1 -1 
+126 1 -1 
+Functions: 46
+-1 0 
+256 0 
+258 1 258 
+387 1 366 
+451 0 
+326 2 326 331 
+456 0 
+329 1 310 
+393 0 
+141 0 
+461 0 
+464 1 366 
+209 0 
+211 1 211 
+275 0 
+403 0 
+468 0 
+23 2 -2 5 
+407 0 
+344 0 
+473 0 
+90 2 -2 5 
+410 0 
+27 1 27 
+347 0 
+157 0 
+94 1 94 
+158 1 158 
+354 9 -3 195 37 168 104 217 268 252 14 
+419 0 
+294 10 290 -3 195 37 168 104 217 268 252 14 
+231 1 231 
+487 6 -1 -2 290 5 283 366 
+424 0 
+238 1 231 
+303 2 -2 283 
+241 1 241 
+435 0 
+182 1 182 
+376 1 366 
+440 4 -1 290 5 283 
+59 10 -2 -3 195 37 168 104 217 268 252 14 
+189 1 182 
+62 1 -2 
+63 1 63 
+447 0 
+Constructors: 2
+189 182
+238 231
+
+Summary: 6
+231 435 1 -2 182 0 
+org/h2/table/Column.getScale()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.setSelectivity(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+23 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.<init>(Ljava/lang/String;I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 2 -1 -2 
+Constructors: 1
+8 -1
+
+Summary: 3
+-2 0 -1 
+org/h2/table/Column.getDisplaySize()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+11
+$r3 1 22 
+$r6 1 43 
+$r8 1 22 
+r1 1 -1 
+$r9 1 43 
+$r7 1 29 
+$r5 1 36 
+$r4 1 29 
+r0 1 -2 
+$r10 1 36 
+r2 1 -2 
+Fields: 4
+-2 table 29
+-2 name 43
+-1 table 22
+-1 name 36
+Accesses: 8
+66 1 -2 
+35 1 -1 
+51 1 -1 
+21 1 -1 
+55 1 -2 
+42 1 -2 
+28 1 -2 
+62 1 -1 
+Functions: 1
+63 2 36 43 
+Constructors: 0
+
+Summary: 5
+29 43 -2 0 -1 
+org/h2/table/Column.convert(Lorg/h2/value/Value;)Lorg/h2/value/Value;
+PTG:
+Vars:
+13
+$r10 1 49 
+$r8 1 41 
+r1 1 -1 
+$r2 1 5 
+r0 1 -2 
+$r9 1 44 
+$r5 1 29 
+$r6 1 32 
+r12 2 -1 58 
+$r4 1 21 
+$r7 1 37 
+$r3 1 -1 
+$r11 1 52 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 11
+0 1 -2 
+32 1 32 
+49 1 49 
+52 1 52 
+21 2 21 29 
+37 2 37 41 
+40 1 -1 
+25 1 21 
+10 1 -1 
+28 1 -2 
+44 1 44 
+Constructors: 1
+25 21
+
+Summary: 2
+0 -1 
+org/h2/table/Column.getDefaultExpression()Lorg/h2/expression/Expression;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 defaultExpression 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.rename(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/table/Column.isPrimaryKey()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.updateSequenceIfRequired(Lorg/h2/engine/Session;Lorg/h2/value/Value;)V
+PTG:
+Vars:
+9
+$r2 1 1 
+r6 1 -2 
+$r3 1 1 
+$r1 1 1 
+$r8 1 1 
+r4 1 -3 
+r0 1 -1 
+$r7 1 90 
+$r5 1 1 
+Fields: 1
+-1 sequence 1
+Accesses: 5
+0 1 -1 
+96 1 -1 
+7 1 -1 
+75 1 -1 
+15 1 -1 
+Functions: 7
+16 1 1 
+84 1 1 
+101 2 1 -2 
+8 1 1 
+24 1 -3 
+88 0 
+93 2 -2 90 
+Constructors: 0
+
+Summary: 4
+1 -2 0 -1 
+org/h2/table/Column.setSequence(Lorg/h2/schema/Sequence;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/table/Column.hashCode()I
+PTG:
+Vars:
+5
+$r4 1 8 
+r0 1 -1 
+$r1 1 1 
+$r3 1 1 
+$r2 1 8 
+Fields: 2
+-1 table 1
+-1 name 8
+Accesses: 4
+0 1 -1 
+16 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 2
+17 1 1 
+24 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.getPrecision()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.setConvertNullToDefault(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.setPrimaryKey(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.setTable(Lorg/h2/table/Table;I)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/table/Column.convertAutoIncrementToSequence(Lorg/h2/engine/Session;Lorg/h2/schema/Schema;IZ)V
+PTG:
+Vars:
+17
+$r16 1 72 
+$r17 1 83 
+$r5 1 98 
+$r2 1 11 
+r4 1 -3 
+r10 1 35 
+$r6 1 152 
+r13 1 56 
+$r12 1 50 
+$r15 1 67 
+r7 1 -2 
+$r8 1 136 
+r11 1 42 
+r3 1 78 
+$r1 1 14 
+$r14 1 58 
+r0 1 -1 
+Fields: 2
+-1 originalSQL 14
+-1 originalSQL 26
+Accesses: 5
+0 1 -1 
+114 1 -1 
+26 1 -1 
+123 1 -1 
+13 1 -1 
+Functions: 20
+32 0 
+67 2 67 56 
+37 1 35 
+7 0 
+135 1 -2 
+167 5 -1 -2 152 26 14 
+72 1 72 
+11 2 11 14 
+107 3 98 -3 78 
+44 1 42 
+173 4 -1 98 26 14 
+142 3 -2 98 136 
+80 2 -3 78 
+50 1 50 
+149 3 -1 26 14 
+118 1 98 
+58 1 58 
+62 1 58 
+158 2 98 152 
+127 1 98 
+Constructors: 3
+107 98
+62 58
+158 152
+
+Summary: 8
+152 1 -2 26 0 -3 -1 98 
+org/h2/table/Column.<init>(Ljava/lang/String;IJII)V
+PTG:
+Vars:
+3
+r2 1 43 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 9
+16 1 -1 
+51 1 43 
+67 1 -1 
+6 1 -1 
+73 1 -1 
+58 1 43 
+11 1 -1 
+45 1 43 
+79 1 -1 
+Functions: 2
+1 1 -1 
+39 0 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/h2/table/Column.getSelectivity()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.getColumnId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.getCheckConstraintSQL(Lorg/h2/engine/Session;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+6
+_ret 2 17 11 
+r1 1 -2 
+r0 1 -1 
+$r4 2 17 11 
+r3 1 6 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 -3 
+16 1 6 
+Constructors: 0
+
+Summary: 4
+1 -2 0 -3 
+org/h2/table/Column.setComment(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/table/Column.setAutoIncrement(ZJJ)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 5
+2 1 -1 
+18 1 -1 
+7 1 -1 
+27 1 -1 
+13 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.isAutoIncrement()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.setNullable(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.getOriginalSQL()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 originalSQL 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.getName()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 name 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.getDataType()Lorg/h2/value/DataType;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 4 
+$r1 1 4 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.setOriginalSQL(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/h2/table/Column.getCreateSQL()Ljava/lang/String;
+PTG:
+Vars:
+36
+$r14 1 356 
+r2 1 -1 
+$r42 1 33 
+$r11 1 364 
+$r0 1 0 
+$r39 1 135 
+$r21 1 283 
+$r45 1 20 
+$r35 1 175 
+$r8 1 274 
+$r19 1 307 
+$r6 1 59 
+$r44 1 9 
+$r38 1 130 
+$r29 1 188 
+$r16 1 328 
+$r40 1 142 
+$r48 1 188 
+r28 1 201 
+$r23 1 290 
+$r10 1 340 
+$r13 1 340 
+$r22 1 274 
+$r9 1 319 
+$r27 1 188 
+_ret 1 364 
+$r37 1 123 
+$r32 1 216 
+$r12 1 349 
+$r46 1 23 
+$r30 1 237 
+$r3 1 9 
+$r5 1 56 
+$r17 1 332 
+$r34 1 168 
+$r4 1 33 
+Fields: 8
+56 name 59
+-1 defaultExpression 188
+-1 sequence 274
+-1 name 9
+-1 checkConstraint 319
+-1 checkConstraintSQL 332
+-1 comment 340
+-1 originalSQL 33
+Accesses: 25
+66 1 -1 
+194 1 -1 
+259 1 -1 
+8 1 -1 
+138 1 -1 
+331 1 -1 
+206 1 -1 
+16 1 -1 
+273 1 -1 
+339 1 -1 
+154 1 -1 
+286 1 -1 
+32 1 -1 
+352 1 -1 
+227 1 -1 
+40 1 -1 
+297 1 -1 
+171 1 -1 
+52 1 -1 
+245 1 -1 
+310 1 -1 
+56 1 56 
+187 1 -1 
+126 1 -1 
+318 1 -1 
+Functions: 33
+130 1 130 
+195 1 188 
+4 1 0 
+325 1 0 
+135 1 135 
+269 1 0 
+15 2 0 20 
+335 2 328 332 
+17 1 9 
+147 1 142 
+213 1 0 
+280 1 0 
+346 1 0 
+28 1 23 
+220 2 216 201 
+287 1 274 
+353 1 340 
+165 1 0 
+293 2 290 283 
+359 2 356 349 
+168 1 168 
+234 1 0 
+363 1 0 
+44 2 0 33 
+304 1 0 
+241 2 201 237 
+180 1 175 
+53 0 
+120 1 0 
+314 1 307 
+123 1 123 
+62 2 0 59 
+255 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/h2/table/Column.computeValue(Lorg/h2/engine/Session;Lorg/h2/result/Row;)Lorg/h2/value/Value;
+PTG:
+Vars:
+8
+r5 1 -3 
+r3 1 -2 
+$r6 1 5 
+$r7 1 21 
+$r9 1 -1 
+r0 1 -1 
+$r4 1 5 
+$r8 1 25 
+Fields: 2
+-1 computeTableFilter 5
+-1 defaultExpression 21
+Accesses: 3
+4 1 -1 
+20 1 -1 
+12 1 -1 
+Functions: 3
+17 2 -3 5 
+21 2 -2 21 
+9 2 -2 5 
+Constructors: 0
+
+Summary: 4
+1 -2 0 -3 
+org/h2/table/Column.getDefaultSQL()Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 15 
+$r1 1 1 
+$r3 1 15 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 defaultExpression 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.prepareExpression(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+9
+$r7 1 1 
+r3 1 -2 
+$r6 1 1 
+r0 1 -1 
+$r4 1 14 
+$r5 1 31 
+$r1 1 1 
+$r2 1 8 
+$r8 1 44 
+Fields: 3
+-1 computeTableFilter 31
+-1 table 14
+-1 defaultExpression 1
+Accesses: 7
+0 1 -1 
+23 1 -1 
+39 1 -1 
+26 1 -1 
+13 1 -1 
+30 1 -1 
+47 1 -1 
+Functions: 3
+35 2 1 31 
+20 3 -2 8 14 
+40 2 1 -2 
+Constructors: 1
+20 8
+
+Summary: 2
+-2 -1 
+org/h2/table/Column.getPrecisionAsInt()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.addCheckConstraint(Lorg/h2/engine/Session;Lorg/h2/expression/Expression;)V
+PTG:
+Vars:
+15
+$r13 1 101 
+$r5 1 37 
+$r15 1 139 
+r6 1 -2 
+r3 1 20 
+r20 1 -3 
+$r8 1 37 
+$r11 1 101 
+$r7 1 72 
+r22 1 67 
+$r14 2 20 32 
+$r4 1 20 
+$r1 1 1 
+r0 1 -1 
+$r12 1 116 
+Fields: 4
+-1 name 20
+-1 name 32
+-1 resolver 37
+-1 checkConstraint 101
+Accesses: 13
+32 1 -1 
+129 1 -1 
+36 1 -1 
+68 1 -1 
+100 1 -1 
+135 1 -1 
+9 1 -1 
+109 1 -1 
+142 1 -1 
+47 1 -1 
+16 1 -1 
+22 1 -1 
+121 1 -1 
+Functions: 7
+84 2 -2 67 
+133 6 -1 32 -2 20 37 101 
+6 6 -1 32 1 20 37 101 
+41 2 -3 37 
+75 2 37 72 
+62 2 -2 -3 
+126 3 67 116 101 
+Constructors: 2
+6 1
+126 116
+
+Summary: 3
+1 -2 0 
+org/h2/table/Column.toString()Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 name 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/table/Column.getClone()Lorg/h2/table/Column;
+PTG:
+Vars:
+9
+_ret 1 0 
+$r2 1 5 
+$r5 1 46 
+$r0 1 0 
+$r8 1 78 
+$r4 1 38 
+$r7 1 70 
+r1 1 -1 
+$r6 1 62 
+Fields: 6
+-1 computeTableFilter 78
+-1 defaultExpression 38
+-1 sequence 62
+-1 name 5
+-1 comment 70
+-1 originalSQL 46
+Accesses: 25
+65 1 0 
+4 1 -1 
+69 1 -1 
+8 1 -1 
+73 1 0 
+12 1 -1 
+77 1 -1 
+16 1 -1 
+81 1 0 
+20 1 -1 
+85 1 -1 
+89 1 0 
+29 1 -1 
+93 1 -1 
+33 1 0 
+97 1 0 
+37 1 -1 
+101 1 -1 
+41 1 0 
+105 1 0 
+45 1 -1 
+49 1 0 
+53 1 -1 
+57 1 0 
+61 1 -1 
+Functions: 1
+24 2 0 5 
+Constructors: 1
+24 0
+
+Summary: 1
+-1 

@@ -1,0 +1,179 @@
+6
+org/eclipse/core/internal/watson/ElementTreeWriter.writeDelta(Lorg/eclipse/core/internal/watson/ElementTree;Lorg/eclipse/core/internal/watson/ElementTree;Lorg/eclipse/core/runtime/IPath;ILjava/io/DataOutput;Lorg/eclipse/core/internal/watson/IElementComparator;)V
+PTG:
+Vars:
+10
+r4 1 -2 
+r1 1 -6 
+r6 1 -7 
+r3 1 11 
+r9 1 31 
+r2 1 -3 
+r7 1 -4 
+$r8 1 43 
+r5 1 17 
+r0 1 -1 
+Fields: 1
+-1 dataTreeWriter 43
+Accesses: 1
+42 1 -1 
+Functions: 7
+33 1 31 
+4 3 -1 -6 43 
+53 4 -4 -6 43 31 
+22 3 17 -7 11 
+38 0 
+7 1 -3 
+13 1 -2 
+Constructors: 0
+
+Summary: 13
+11 31 1 -6 -3 4 -1 2 -7 17 5 -4 -2 
+org/eclipse/core/internal/watson/ElementTreeWriter.writeNumber(ILjava/io/DataOutput;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+32 1 -3 
+25 1 -3 
+13 1 -3 
+Constructors: 0
+
+Summary: 3
+-1 1 -3 
+org/eclipse/core/internal/watson/ElementTreeWriter.sortTrees([Lorg/eclipse/core/internal/watson/ElementTree;Ljava/io/DataOutput;)[Lorg/eclipse/core/internal/watson/ElementTree;
+PTG:
+Vars:
+21
+r20 1 134 
+r0 1 -2 
+r1 1 4 
+r16 1 -1 
+$r13 1 141 
+$r3 1 14 
+$r11 1 121 
+$r9 1 67 
+r17 1 -3 
+$r6 1 40 
+$r7 1 76 
+_ret 1 4 
+r14 1 141 
+$r8 1 53 
+r19 3 107 191 201 
+r12 1 121 
+$r5 1 39 
+r18 2 53 40 
+r21 2 191 201 
+r2 1 10 
+$r15 1 207 
+Fields: 3
+-2 ArrayObject 67
+-2 ArrayObject 39
+-2 ArrayObject 107
+Accesses: 0
+Functions: 16
+129 1 121 
+34 2 39 14 
+162 1 141 
+196 2 201 191 
+70 3 67 53 14 
+102 4 -2 67 39 107 
+139 1 134 
+171 1 134 
+203 3 201 14 191 
+235 2 -1 -3 
+82 1 76 
+85 3 53 40 76 
+117 4 201 107 14 191 
+23 1 14 
+57 1 53 
+186 3 201 107 191 
+Constructors: 3
+82 76
+23 14
+57 53
+
+Summary: 15
+1 -3 201 14 134 -1 10 141 121 53 40 207 0 -2 76 
+org/eclipse/core/internal/watson/ElementTreeWriter.writeDeltaChain([Lorg/eclipse/core/internal/watson/ElementTree;Lorg/eclipse/core/runtime/IPath;ILjava/io/DataOutput;Lorg/eclipse/core/internal/watson/IElementComparator;)V
+PTG:
+Vars:
+9
+r1 1 -5 
+$r7 1 64 
+$r8 1 57 
+r3 1 32 
+r4 1 -3 
+r2 1 -2 
+$r5 1 38 
+r0 1 -1 
+r6 1 -6 
+Fields: 3
+32 ArrayObject 64
+32 ArrayObject 57
+32 ArrayObject 38
+Accesses: 0
+Functions: 5
+16 2 -1 -5 
+4 2 -1 -5 
+71 6 -1 64 -3 -5 -6 57 
+25 3 -1 -2 -5 
+43 4 -1 -3 -5 38 
+Constructors: 0
+
+Summary: 11
+-5 1 -6 -3 38 4 -1 32 0 -2 3 
+org/eclipse/core/internal/watson/ElementTreeWriter.<init>(Lorg/eclipse/core/internal/watson/IElementInfoFlattener;)V
+PTG:
+Vars:
+4
+$r4 1 15 
+r2 1 -2 
+r0 1 -1 
+$r1 1 4 
+Fields: 0
+Accesses: 1
+23 1 -1 
+Functions: 3
+1 1 -1 
+20 2 4 15 
+10 3 -1 -2 4 
+Constructors: 3
+1 -1
+20 15
+10 4
+
+Summary: 4
+-1 4 0 -2 
+org/eclipse/core/internal/watson/ElementTreeWriter.writeTree(Lorg/eclipse/core/internal/watson/ElementTree;Lorg/eclipse/core/runtime/IPath;ILjava/io/DataOutput;)V
+PTG:
+Vars:
+9
+r8 1 -3 
+$r5 1 15 
+r1 1 -5 
+$r2 1 7 
+r0 1 -1 
+$r6 1 18 
+$r9 1 27 
+r3 1 -2 
+$r4 1 12 
+Fields: 1
+-1 dataTreeWriter 27
+Accesses: 1
+26 1 -1 
+Functions: 5
+4 3 -1 -5 27 
+36 4 -3 -5 7 27 
+21 2 18 7 
+11 1 -2 
+12 2 12 15 
+Constructors: 1
+21 7
+
+Summary: 10
+-1 -5 7 1 12 -3 18 0 -2 3 

@@ -1,0 +1,655 @@
+17
+org/eclipse/jdt/internal/core/search/processing/JobManager.<clinit>()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/search/processing/JobManager.currentJob()Lorg/eclipse/jdt/internal/core/search/processing/IJob;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 5
+0 1 -1 
+18 1 -1 
+22 1 -1 
+7 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/processing/JobManager.moveToNextJob()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 12 
+Fields: 1
+-1 awaitingJobs 12
+Accesses: 9
+0 1 -1 
+32 1 -1 
+4 1 -1 
+23 1 -1 
+41 1 -1 
+11 1 -1 
+28 1 -1 
+46 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/processing/JobManager.toString()Ljava/lang/String;
+PTG:
+Vars:
+17
+$r12 1 80 
+$r13 1 86 
+$r15 1 92 
+$r17 1 105 
+r3 1 -1 
+$r7 1 50 
+$r2 1 14 
+$r18 1 106 
+$r11 1 69 
+$r4 1 21 
+$r9 1 130 
+$r10 1 66 
+$r6 1 46 
+$r14 1 89 
+$r0 1 0 
+$r16 1 96 
+_ret 1 130 
+Fields: 2
+96 ArrayObject 105
+-1 awaitingJobs 96
+Accesses: 5
+17 1 -1 
+34 1 -1 
+99 1 -1 
+30 1 -1 
+95 1 -1 
+Functions: 16
+64 1 0 
+129 1 0 
+66 2 66 89 
+69 1 69 
+6 1 0 
+10 1 0 
+42 1 0 
+76 1 69 
+14 1 14 
+46 1 46 
+111 1 106 
+80 1 80 
+86 1 86 
+55 1 50 
+26 1 21 
+92 2 105 92 
+Constructors: 2
+6 0
+76 69
+
+Summary: 4
+92 89 -1 86 
+org/eclipse/jdt/internal/core/search/processing/JobManager.shutdown()V
+PTG:
+Vars:
+5
+$r4 1 -1 
+$r3 1 -1 
+r0 1 -1 
+r1 1 25 
+r6 1 59 
+Fields: 2
+-1 processingThread 25
+-1 progressJob 59
+Accesses: 3
+36 1 -1 
+21 1 -1 
+55 1 -1 
+Functions: 7
+65 1 59 
+18 3 -1 25 59 
+52 1 25 
+70 1 59 
+40 3 -1 25 59 
+9 0 
+13 3 -1 25 59 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/search/processing/JobManager.disable()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+18 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/processing/JobManager.enable()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+18 0 
+22 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/processing/JobManager.request(Lorg/eclipse/jdt/internal/core/search/processing/IJob;)V
+PTG:
+Vars:
+15
+$r8 1 189 
+$r4 1 164 
+$r13 2 7 89 
+$r14 1 7 
+$r9 1 118 
+r1 1 -1 
+$r2 1 7 
+$r12 1 7 
+$r11 1 7 
+$r7 1 186 
+$r6 1 173 
+r0 1 -2 
+$r10 1 7 
+$r5 1 167 
+$r3 1 154 
+Fields: 1
+-1 awaitingJobs 7
+Accesses: 22
+32 1 -1 
+64 1 -1 
+68 1 -1 
+37 1 -1 
+6 1 -1 
+135 1 -1 
+40 1 -1 
+73 1 -1 
+106 1 -1 
+138 1 -1 
+12 1 -1 
+110 1 -1 
+142 1 -1 
+80 1 -1 
+49 1 -1 
+20 1 -1 
+53 1 -1 
+88 1 -1 
+122 1 -1 
+27 1 -1 
+60 1 -1 
+126 1 -1 
+Functions: 13
+160 1 154 
+192 1 189 
+1 1 -2 
+130 2 118 7 
+164 1 164 
+196 2 -1 7 
+170 1 167 
+77 1 7 
+173 1 173 
+179 1 173 
+182 2 -1 7 
+154 2 -2 154 
+186 1 186 
+Constructors: 2
+160 154
+179 173
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/core/search/processing/JobManager.performConcurrentJob(Lorg/eclipse/jdt/internal/core/search/processing/IJob;ILorg/eclipse/core/runtime/IProgressMonitor;)Z
+PTG:
+Vars:
+27
+r2 1 -1 
+$r18 1 470 
+$r14 1 489 
+$r11 1 615 
+r62 1 296 
+$r22 1 363 
+$r44 1 19 
+$r10 1 605 
+r64 1 440 
+$r42 1 6 
+$r19 1 473 
+$r17 1 460 
+$r12 1 618 
+r0 1 -2 
+$r15 1 496 
+r16 1 502 
+$r4 1 881 
+$r5 1 884 
+$r13 1 484 
+$r43 1 16 
+$r57 1 -1 
+$r67 1 795 
+r1 1 -4 
+$r3 1 871 
+r9 1 440 
+$r24 1 296 
+r7 1 338 
+Fields: 1
+-1 processingThread 338
+Accesses: 7
+384 1 -1 
+708 1 -1 
+661 1 -1 
+377 1 -1 
+715 1 -1 
+334 1 -1 
+654 1 -1 
+Functions: 76
+-1 0 
+257 1 -2 
+133 1 -4 
+6 2 -2 6 
+263 0 
+267 0 
+12 1 6 
+781 1 296 
+16 1 16 
+273 0 
+786 2 -2 795 
+149 2 -1 338 
+22 1 19 
+280 0 
+26 1 -2 
+156 2 -1 338 
+418 1 296 
+802 2 -4 795 
+165 1 -2 
+171 0 
+685 1 338 
+47 1 -4 
+175 0 
+432 0 
+52 2 -1 338 
+436 2 -1 338 
+181 0 
+309 2 -4 296 
+822 1 -4 
+697 1 338 
+320 1 296 
+193 1 -4 
+833 1 -2 
+582 1 296 
+839 0 
+843 0 
+204 1 -2 
+460 2 -2 460 
+849 0 
+210 0 
+466 1 460 
+214 0 
+470 1 470 
+220 0 
+476 1 473 
+860 1 -4 
+349 1 338 
+605 2 -2 605 
+94 1 -2 
+611 1 605 
+739 1 338 
+100 0 
+487 1 440 
+615 1 615 
+871 2 -2 871 
+104 0 
+232 1 -2 
+363 1 363 
+621 1 618 
+877 1 871 
+110 0 
+238 0 
+494 0 
+751 1 338 
+496 3 496 484 489 
+369 1 338 
+881 1 881 
+114 2 -1 338 
+242 0 
+627 0 
+117 1 -2 
+887 1 884 
+248 0 
+634 2 -1 338 
+508 2 502 296 
+766 1 296 
+Constructors: 6
+466 460
+802 795
+611 605
+309 296
+12 6
+877 871
+
+Summary: 30
+884 881 242 178 615 -4 440 267 795 843 470 107 496 270 846 126 19 473 296 -2 16 214 502 245 618 104 363 489 175 217 
+org/eclipse/jdt/internal/core/search/processing/JobManager.reset()V
+PTG:
+Vars:
+7
+$r4 1 12 
+$r5 1 12 
+$r3 1 33 
+$r2 1 27 
+r0 1 -1 
+$r1 1 12 
+$r6 1 12 
+Fields: 1
+-1 processingThread 12
+Accesses: 5
+50 1 -1 
+39 1 -1 
+42 1 -1 
+58 1 -1 
+11 1 -1 
+Functions: 7
+32 2 -1 12 
+20 2 -1 12 
+36 4 -1 33 27 12 
+55 1 12 
+8 0 
+62 1 12 
+47 1 12 
+Constructors: 1
+36 27
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/search/processing/JobManager.isJobWaiting(Lorg/eclipse/jdt/internal/core/search/processing/IJob;)Z
+PTG:
+Vars:
+4
+$r2 1 10 
+$r3 1 14 
+r0 1 -1 
+r1 1 -2 
+Fields: 2
+10 ArrayObject 14
+-1 awaitingJobs 10
+Accesses: 3
+0 1 -1 
+9 1 -1 
+27 1 -1 
+Functions: 1
+8 2 -2 14 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/search/processing/JobManager.awaitingJobsCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+7 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/processing/JobManager.run()V
+PTG:
+Vars:
+29
+$r15 1 142 
+$r6 1 324 
+$r2 2 22 355 
+$r16 1 151 
+$r14 1 134 
+$r20 1 174 
+$r5 1 313 
+$r17 1 154 
+$r22 3 51 186 44 
+$r19 1 171 
+$r3 1 35 
+$r10 1 205 
+$r32 1 -1 
+$r11 3 215 186 44 
+$r28 1 -1 
+$r30 1 273 
+$r31 1 276 
+$r7 1 327 
+$r12 3 186 224 44 
+$r21 2 186 44 
+$r9 1 198 
+r0 1 -1 
+$r8 1 193 
+$r29 1 262 
+$r4 2 186 44 
+$r13 3 232 186 44 
+$r18 1 160 
+$r36 1 355 
+$r27 1 -1 
+Fields: 3
+-1 processingThread 355
+-1 progressJob 44
+-1 progressJob 186
+Accesses: 20
+354 1 -1 
+386 1 -1 
+231 1 -1 
+424 1 -1 
+10 1 -1 
+43 1 -1 
+396 1 -1 
+365 1 -1 
+304 1 -1 
+337 1 -1 
+50 1 -1 
+211 1 -1 
+21 1 -1 
+182 1 -1 
+214 1 -1 
+185 1 -1 
+60 1 -1 
+253 1 -1 
+286 1 -1 
+223 1 -1 
+Functions: 43
+-1 0 
+320 1 313 
+324 1 324 
+5 4 -1 355 186 44 
+69 0 
+134 1 134 
+262 2 35 262 
+390 4 -1 355 186 44 
+138 4 -1 355 186 44 
+330 1 327 
+139 0 
+203 1 198 
+269 1 262 
+334 4 -1 355 186 44 
+208 6 -1 193 355 186 44 205 
+145 2 134 142 
+273 1 273 
+82 4 -1 355 186 44 
+86 4 -1 355 186 44 
+151 1 151 
+279 1 276 
+283 4 -1 355 186 44 
+347 0 
+220 3 215 186 44 
+157 1 154 
+414 0 
+160 2 160 35 
+34 4 -1 355 186 44 
+419 4 -1 355 186 44 
+228 3 224 186 44 
+167 1 160 
+296 0 
+171 1 171 
+235 3 232 186 44 
+428 4 -1 355 186 44 
+240 1 35 
+177 1 174 
+116 4 -1 355 186 44 
+54 3 51 186 44 
+376 0 
+313 2 35 313 
+122 0 
+381 4 -1 355 186 44 
+Constructors: 5
+208 193
+320 313
+145 134
+167 160
+269 262
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/search/processing/JobManager.<init>()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 7 
+Fields: 0
+Accesses: 7
+35 1 -1 
+20 1 -1 
+40 1 -1 
+25 1 -1 
+10 1 -1 
+30 1 -1 
+15 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/processing/JobManager.activateProcessing()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/processing/JobManager.notifyIdle(J)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/processing/JobManager.discardJobs(Ljava/lang/String;)V
+PTG:
+Vars:
+21
+r5 1 -2 
+$r17 1 16 
+r28 1 145 
+$r9 2 173 139 
+$r10 1 267 
+$r14 1 89 
+r25 1 33 
+$r13 1 79 
+$r7 1 201 
+$r8 1 204 
+$r18 1 19 
+$r26 1 109 
+$r15 1 92 
+$r16 1 6 
+$r12 1 280 
+$r22 1 -1 
+$r3 1 139 
+$r4 2 151 139 
+$r6 1 191 
+r0 1 -1 
+$r11 1 277 
+Fields: 3
+139 ArrayObject 145
+-1 processingThread 109
+-1 awaitingJobs 139
+Accesses: 9
+129 1 -1 
+115 1 -1 
+150 1 -1 
+230 1 -1 
+138 1 -1 
+235 1 -1 
+108 1 -1 
+172 1 -1 
+221 1 -1 
+Functions: 25
+65 1 33 
+258 4 -1 145 139 109 
+197 1 191 
+6 2 -2 6 
+201 1 201 
+267 2 -2 267 
+12 1 6 
+79 2 33 79 
+207 1 204 
+16 1 16 
+273 1 267 
+211 1 145 
+85 1 79 
+277 1 277 
+22 1 19 
+89 1 89 
+283 1 280 
+29 4 -1 145 139 109 
+95 1 92 
+162 2 145 -2 
+35 4 -1 145 139 109 
+101 0 
+54 2 33 -2 
+251 4 -1 145 139 109 
+191 2 145 191 
+Constructors: 4
+273 267
+85 79
+197 191
+12 6
+
+Summary: 2
+-2 0 

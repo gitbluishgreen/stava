@@ -1,0 +1,676 @@
+16
+org/h2/expression/CompareLike.compareAt(Ljava/lang/String;III[C[I)Z
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -7 
+r3 1 -2 
+r2 1 -6 
+Fields: 0
+Accesses: 2
+1 1 -1 
+78 1 -1 
+Functions: 4
+131 0 
+105 4 -1 -2 -6 -7 
+93 3 -1 -2 -6 
+46 3 -1 -2 -6 
+Constructors: 0
+
+Summary: 7
+-1 -2 5 4 0 -6 -7 
+org/h2/expression/CompareLike.optimize(Lorg/h2/engine/Session;)Lorg/h2/expression/Expression;
+PTG:
+Vars:
+29
+r18 1 191 
+$r36 1 84 
+$r17 1 177 
+$r3 1 6 
+$r7 1 2 
+r1 1 -2 
+r0 1 -1 
+_ret 1 -1 
+$r19 1 198 
+$r6 1 2 
+$r37 1 2 
+$r13 1 146 
+$r8 1 72 
+$r4 1 14 
+$r11 1 2 
+$r15 1 72 
+$r38 1 61 
+$r10 1 72 
+$r14 1 72 
+r41 1 144 
+r40 1 59 
+$r35 1 72 
+$r42 1 172 
+$r9 1 14 
+$r12 1 14 
+$r2 1 2 
+$r5 1 18 
+$r20 1 204 
+$r34 1 72 
+Fields: 3
+-1 right 14
+-1 escape 72
+-1 left 2
+Accesses: 22
+1 1 -1 
+100 1 -1 
+38 1 -1 
+71 1 -1 
+167 1 -1 
+263 1 -1 
+136 1 -1 
+9 1 -1 
+41 1 -1 
+107 1 -1 
+13 1 -1 
+79 1 -1 
+241 1 -1 
+51 1 -1 
+21 1 -1 
+117 1 -1 
+87 1 -1 
+279 1 -1 
+24 1 -1 
+90 1 -1 
+156 1 -1 
+221 1 -1 
+Functions: 25
+-1 0 
+129 0 
+257 1 -2 
+2 2 -2 2 
+196 5 -1 2 72 172 14 
+137 2 -2 14 
+201 6 -1 2 198 72 14 191 
+204 2 204 191 
+269 1 -2 
+14 2 -2 14 
+80 2 -2 72 
+214 1 -2 
+25 1 2 
+91 1 14 
+226 1 -2 
+168 2 -2 72 
+42 1 2 
+234 4 -1 2 72 14 
+108 1 72 
+242 0 
+52 2 -2 2 
+118 1 2 
+250 0 
+187 1 144 
+127 5 -1 -2 2 72 14 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/h2/expression/CompareLike.createIndexConditions(Lorg/h2/engine/Session;Lorg/h2/table/TableFilter;)V
+PTG:
+Vars:
+40
+$r9 1 37 
+$r23 1 276 
+$r32 1 374 
+$r10 1 70 
+r11 1 76 
+$r18 1 141 
+$r5 1 29 
+$r17 1 131 
+$r33 1 242 
+$r12 1 48 
+$r6 1 37 
+$r29 1 345 
+r20 1 226 
+$r21 1 270 
+$r42 1 174 
+r3 1 9 
+$r37 1 205 
+$r30 1 368 
+$r25 1 324 
+$r15 1 101 
+$r16 1 117 
+r0 1 -1 
+$r31 1 371 
+$r27 1 336 
+$r34 1 245 
+$r40 1 48 
+$r35 1 248 
+r28 1 342 
+$r26 1 327 
+r8 1 -2 
+$r22 1 273 
+r4 1 -3 
+$r1 1 9 
+$r41 1 94 
+$r36 1 131 
+$r24 1 307 
+$r2 1 9 
+$r7 1 48 
+r14 1 94 
+$r13 1 48 
+Fields: 6
+-1 pattern 205
+-1 right 37
+-1 types 131
+-1 escape 48
+-1 left 9
+-1 compareMode 345
+Accesses: 17
+0 1 -1 
+192 1 -1 
+352 1 -1 
+65 1 -1 
+130 1 -1 
+36 1 -1 
+230 1 -1 
+8 1 -1 
+204 1 -1 
+78 1 -1 
+47 1 -1 
+19 1 -1 
+54 1 -1 
+344 1 -1 
+89 1 -1 
+185 1 -1 
+123 1 -1 
+Functions: 36
+257 1 226 
+66 2 -2 37 
+70 1 70 
+327 1 327 
+140 1 9 
+268 1 226 
+141 1 141 
+270 1 270 
+336 1 336 
+273 2 273 9 
+214 1 174 
+279 2 -3 276 
+345 3 226 342 345 
+90 2 48 -2 
+282 1 226 
+28 1 9 
+284 1 226 
+221 1 174 
+37 1 37 
+107 0 
+366 1 342 
+240 1 226 
+368 1 368 
+114 8 -1 48 131 37 9 345 205 94 
+178 1 174 
+242 1 242 
+307 2 307 324 
+371 2 371 9 
+245 2 245 9 
+55 1 48 
+311 1 307 
+120 9 -1 48 131 37 117 9 345 76 205 
+377 2 -3 374 
+314 1 226 
+251 2 -3 248 
+317 1 226 
+Constructors: 2
+178 174
+311 307
+
+Summary: 5
+-3 -1 -2 0 1 
+org/h2/expression/CompareLike.test(Ljava/lang/String;Ljava/lang/String;C)Z
+PTG:
+Vars:
+6
+$r5 1 18 
+r3 1 -3 
+r0 1 -1 
+r1 1 -2 
+$r4 1 22 
+$r2 1 3 
+Fields: 2
+-1 pattern 18
+-1 types 22
+Accesses: 2
+17 1 -1 
+21 1 -1 
+Functions: 4
+2 0 
+6 5 -1 -2 18 3 22 
+9 4 -1 18 -3 22 
+13 1 -3 
+Constructors: 0
+
+Summary: 4
+-1 -2 -3 3 
+org/h2/expression/CompareLike.mapColumns(Lorg/h2/table/ColumnResolver;I)V
+PTG:
+Vars:
+6
+$r3 1 10 
+$r4 1 19 
+$r5 1 19 
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 3
+-1 right 10
+-1 escape 19
+-1 left 1
+Accesses: 4
+0 1 -1 
+18 1 -1 
+9 1 -1 
+25 1 -1 
+Functions: 3
+6 2 1 -2 
+15 2 -2 10 
+31 2 -2 19 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/expression/CompareLike.isFullMatch()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+r2 1 1 
+Fields: 1
+-1 types 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/CompareLike.<init>(Lorg/h2/value/CompareMode;Lorg/h2/expression/Expression;Lorg/h2/expression/Expression;Lorg/h2/expression/Expression;Z)V
+PTG:
+Vars:
+5
+r3 1 -4 
+r0 1 -1 
+r2 1 -3 
+r4 1 -5 
+r1 1 -2 
+Fields: 0
+Accesses: 5
+17 1 -1 
+6 1 -1 
+22 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 5
+-1 3 2 1 0 
+org/h2/expression/CompareLike.getEscapeChar(Lorg/h2/value/Value;)Ljava/lang/Character;
+PTG:
+Vars:
+5
+r4 2 44 20 
+r0 1 -2 
+r1 1 12 
+_ret 2 44 20 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+36 1 12 
+38 0 
+8 1 -2 
+24 1 12 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/expression/CompareLike.getSQL()Ljava/lang/String;
+PTG:
+Vars:
+31
+$r12 1 102 
+$r3 1 57 
+$r15 1 112 
+$r11 1 97 
+$r20 1 26 
+$r16 1 7 
+_ret 1 140 
+$r9 1 83 
+$r21 1 30 
+$r2 1 54 
+$r29 1 140 
+r0 1 -1 
+$r5 1 65 
+$r17 1 15 
+$r28 1 137 
+$r25 1 119 
+$r19 1 21 
+$r22 1 33 
+$r18 1 18 
+$r13 1 83 
+$r1 1 46 
+$r8 1 75 
+$r27 1 132 
+$r26 1 128 
+$r6 1 69 
+r24 3 118 42 81 
+$r10 1 89 
+$r7 1 72 
+$r14 1 109 
+$r23 1 36 
+$r4 1 60 
+Fields: 5
+-1 right 30
+-1 right 69
+-1 escape 83
+-1 left 15
+-1 left 54
+Accesses: 7
+0 1 -1 
+82 1 -1 
+68 1 -1 
+53 1 -1 
+105 1 -1 
+29 1 -1 
+14 1 -1 
+Functions: 25
+128 4 128 81 118 42 
+65 2 65 72 
+132 1 132 
+69 1 69 
+7 2 18 7 
+137 1 137 
+11 1 7 
+75 1 75 
+15 1 15 
+21 1 21 
+89 4 81 118 89 42 
+26 2 33 26 
+93 1 89 
+30 1 30 
+97 1 97 
+36 1 36 
+102 2 102 109 
+106 1 83 
+46 2 57 46 
+112 1 112 
+50 1 46 
+54 1 54 
+119 1 119 
+123 1 119 
+60 1 60 
+Constructors: 4
+50 46
+11 7
+123 119
+93 89
+
+Summary: 1
+-1 
+org/h2/expression/CompareLike.getValue(Lorg/h2/engine/Session;)Lorg/h2/value/Value;
+PTG:
+Vars:
+21
+r19 1 47 
+$r12 1 50 
+r3 1 8 
+r1 1 -2 
+r21 1 98 
+$r20 1 65 
+$r10 1 26 
+_ret 1 145 
+$r16 1 88 
+$r6 1 131 
+$r7 1 145 
+r0 1 -1 
+$r2 1 1 
+$r13 1 50 
+$r15 1 72 
+$r11 1 35 
+$r4 1 10 
+$r8 1 107 
+r18 1 33 
+$r5 1 135 
+$r9 1 111 
+Fields: 6
+-1 patternRegexp 107
+-1 pattern 131
+-1 right 26
+-1 types 135
+-1 escape 50
+-1 left 1
+Accesses: 9
+0 1 -1 
+49 1 -1 
+18 1 -1 
+130 1 -1 
+99 1 -1 
+134 1 -1 
+25 1 -1 
+106 1 -1 
+60 1 -1 
+Functions: 12
+1 2 1 -2 
+85 8 -1 1 65 50 131 135 26 107 
+26 2 -2 26 
+122 8 -1 1 50 98 131 135 26 107 
+43 1 33 
+91 9 -1 1 50 131 135 88 26 107 47 
+107 2 98 107 
+61 2 -2 50 
+94 1 8 
+126 1 98 
+111 1 111 
+143 0 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/expression/CompareLike.setEvaluatable(Lorg/h2/table/TableFilter;Z)V
+PTG:
+Vars:
+6
+$r4 1 19 
+r1 1 -2 
+$r5 1 19 
+$r2 1 1 
+r0 1 -1 
+$r3 1 10 
+Fields: 3
+-1 right 10
+-1 escape 19
+-1 left 1
+Accesses: 4
+0 1 -1 
+18 1 -1 
+9 1 -1 
+25 1 -1 
+Functions: 3
+6 2 1 -2 
+15 2 -2 10 
+31 2 -2 19 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/expression/CompareLike.initPattern(Ljava/lang/String;Ljava/lang/Character;)V
+PTG:
+Vars:
+15
+$r8 2 280 329 
+$r9 2 280 329 
+r0 1 -1 
+$r23 1 280 
+$r6 1 377 
+$r2 1 4 
+r12 1 -3 
+r3 1 -2 
+$r7 2 291 382 
+$r10 2 280 329 
+$r4 1 114 
+$r24 1 291 
+$r5 1 121 
+$r11 2 280 329 
+$r1 1 1 
+Fields: 5
+-1 pattern 291
+-1 pattern 382
+-1 types 280
+-1 types 329
+-1 compareMode 1
+Accesses: 26
+0 1 -1 
+386 1 -1 
+328 1 -1 
+393 1 -1 
+15 1 -1 
+339 1 -1 
+279 1 -1 
+24 1 -1 
+89 1 -1 
+27 1 -1 
+283 1 -1 
+352 1 -1 
+98 1 -1 
+290 1 -1 
+36 1 -1 
+294 1 -1 
+39 1 -1 
+103 1 -1 
+360 1 -1 
+302 1 -1 
+52 1 -1 
+116 1 -1 
+123 1 -1 
+381 1 -1 
+63 1 -1 
+319 1 -1 
+Functions: 15
+1 1 1 
+4 1 4 
+390 3 291 377 382 
+138 1 -2 
+75 0 
+107 1 -2 
+171 1 -2 
+173 0 
+207 1 -3 
+48 1 -2 
+180 1 -2 
+150 1 -3 
+218 1 -2 
+59 1 -2 
+220 0 
+Constructors: 1
+390 377
+
+Summary: 5
+-3 -1 75 0 1 
+org/h2/expression/CompareLike.getCost()I
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 8 
+Fields: 2
+-1 right 8
+-1 left 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+1 1 1 
+8 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/CompareLike.compare([CLjava/lang/String;II)Z
+PTG:
+Vars:
+5
+r0 1 -2 
+r1 1 -3 
+r2 1 -1 
+$r4 1 20 
+$r3 1 24 
+Fields: 2
+-1 patternString 24
+-1 compareMode 20
+Accesses: 4
+19 1 -1 
+23 1 -1 
+12 1 -1 
+31 1 -1 
+Functions: 2
+3 1 -3 
+20 3 -3 20 24 
+Constructors: 0
+
+Summary: 5
+-1 -2 -3 0 1 
+org/h2/expression/CompareLike.isEverything(Lorg/h2/expression/ExpressionVisitor;)Z
+PTG:
+Vars:
+6
+$r4 1 23 
+$r2 1 1 
+$r3 1 12 
+$r5 1 23 
+r1 1 -2 
+r0 1 -1 
+Fields: 3
+-1 right 12
+-1 escape 23
+-1 left 1
+Accesses: 4
+0 1 -1 
+22 1 -1 
+11 1 -1 
+29 1 -1 
+Functions: 3
+1 2 1 -2 
+12 2 -2 12 
+30 2 -2 23 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/expression/CompareLike.updateAggregate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+6
+$r5 1 17 
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+$r4 1 17 
+$r3 1 9 
+Fields: 3
+-1 right 9
+-1 escape 17
+-1 left 1
+Accesses: 4
+0 1 -1 
+16 1 -1 
+23 1 -1 
+8 1 -1 
+Functions: 3
+5 2 1 -2 
+28 2 17 -2 
+13 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 

@@ -1,0 +1,320 @@
+12
+java/util/concurrent/AbstractExecutorService.invokeAll(Ljava/util/Collection;)Ljava/util/List;
+PTG:
+Vars:
+14
+r8 1 -1 
+r17 1 48 
+r0 1 -2 
+$r5 1 101 
+r18 1 64 
+$r10 1 -1 
+$r12 1 218 
+$r13 1 218 
+$r7 1 48 
+r16 1 34 
+$r1 1 12 
+$r14 1 -1 
+$r15 1 -1 
+r19 1 101 
+Fields: 0
+Accesses: 0
+Functions: 16
+225 1 218 
+98 1 12 
+36 1 34 
+69 2 64 12 
+8 0 
+202 1 12 
+76 2 -1 64 
+109 1 101 
+46 1 34 
+16 1 -2 
+85 1 12 
+22 1 12 
+215 1 12 
+121 1 101 
+58 2 -1 48 
+28 1 -2 
+Constructors: 1
+22 12
+
+Summary: 7
+-1 -2 218 34 101 48 64 
+java/util/concurrent/AbstractExecutorService.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/util/concurrent/AbstractExecutorService.doInvokeAny(Ljava/util/Collection;ZJ)Ljava/lang/Object;
+PTG:
+Vars:
+23
+$r16 1 133 
+$r25 1 278 
+r28 3 175 205 112 
+$r22 1 332 
+r29 1 222 
+$r26 1 -1 
+$r13 1 182 
+r0 1 -2 
+$r9 1 94 
+$r20 1 -1 
+$r24 1 -1 
+$r15 1 133 
+$r7 1 86 
+$r12 1 169 
+$r1 1 33 
+r6 1 78 
+$r14 1 297 
+$r8 1 86 
+$r23 1 332 
+$r3 1 44 
+$r17 1 141 
+r27 3 278 297 -1 
+r4 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 26
+-1 0 
+129 2 133 44 
+131 1 78 
+8 0 
+72 1 -2 
+200 1 44 
+328 1 33 
+12 1 -2 
+144 2 33 141 
+82 2 86 44 
+339 1 332 
+84 1 78 
+215 3 112 205 175 
+284 2 -1 278 
+29 0 
+97 2 33 94 
+227 1 33 
+166 2 169 44 
+39 1 33 
+107 1 44 
+301 1 297 
+49 2 -1 44 
+241 1 33 
+186 1 182 
+314 1 33 
+252 0 
+Constructors: 5
+49 44
+39 33
+186 182
+284 278
+301 297
+
+Summary: 15
+94 78 86 245 205 -1 -2 133 175 44 0 332 112 141 33 
+java/util/concurrent/AbstractExecutorService.newTaskFor(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/RunnableFuture;
+PTG:
+Vars:
+5
+$r0 1 0 
+_ret 1 0 
+r1 1 -2 
+r2 1 -3 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -2 -3 
+Constructors: 1
+6 0
+
+Summary: 3
+-3 -1 -2 
+java/util/concurrent/AbstractExecutorService.invokeAll(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/util/List;
+PTG:
+Vars:
+19
+r17 1 58 
+$r13 1 113 
+$r24 1 -1 
+$r27 1 -1 
+$r18 1 73 
+r1 1 -4 
+$r2 1 20 
+$r7 1 290 
+$r28 1 -1 
+r11 1 -1 
+$r6 1 209 
+$r22 1 463 
+r29 1 44 
+r31 1 209 
+$r20 1 -1 
+r0 1 -2 
+$r12 1 113 
+$r23 1 463 
+$r16 1 58 
+Fields: 0
+Accesses: 0
+Functions: 29
+-1 0 
+260 1 20 
+70 2 -1 58 
+326 1 20 
+8 0 
+459 1 20 
+12 1 -4 
+76 2 20 73 
+205 1 20 
+271 0 
+340 1 20 
+149 1 20 
+470 1 463 
+24 1 -2 
+217 1 209 
+91 1 20 
+30 1 20 
+351 0 
+163 1 20 
+293 2 209 290 
+38 1 -2 
+109 1 20 
+46 1 44 
+174 0 
+368 0 
+246 1 20 
+119 2 -1 113 
+56 1 44 
+445 1 20 
+Constructors: 1
+30 20
+
+Summary: 12
+264 463 44 73 -1 -2 -4 113 209 167 58 344 
+java/util/concurrent/AbstractExecutorService.invokeAny(Ljava/util/Collection;)Ljava/lang/Object;
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r2 1 4 
+$r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+19 0 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/util/concurrent/AbstractExecutorService.submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
+PTG:
+Vars:
+4
+r2 1 17 
+_ret 1 17 
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+20 2 -1 17 
+8 0 
+12 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/util/concurrent/AbstractExecutorService.submit(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Future;
+PTG:
+Vars:
+5
+r1 1 -1 
+r3 1 18 
+_ret 1 18 
+r2 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+21 2 -1 18 
+8 0 
+12 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-3 -1 -2 
+java/util/concurrent/AbstractExecutorService.newTaskFor(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/RunnableFuture;
+PTG:
+Vars:
+4
+r1 1 -2 
+_ret 1 0 
+r2 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 2
+-1 -2 
+java/util/concurrent/AbstractExecutorService.invokeAny(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+r1 1 -2 
+r0 1 -1 
+_ret 1 9 
+r2 1 -4 
+$r3 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+3 1 -4 
+Constructors: 0
+
+Summary: 3
+-1 -2 -4 
+java/util/concurrent/AbstractExecutorService.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 0
+
+java/util/concurrent/AbstractExecutorService.submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+PTG:
+Vars:
+4
+r0 1 -2 
+r2 1 18 
+r1 1 -1 
+_ret 1 18 
+Fields: 0
+Accesses: 0
+Functions: 3
+21 2 -1 18 
+8 0 
+12 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 

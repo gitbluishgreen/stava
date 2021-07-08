@@ -1,0 +1,975 @@
+19
+org/eclipse/jdt/core/dom/DocCommentParser.createFieldReference(Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+14
+$r10 1 43 
+$r14 1 -1 
+$r6 1 21 
+r11 1 -2 
+$r3 1 8 
+$r9 1 43 
+$r7 1 26 
+r0 1 -1 
+$r4 1 1 
+$r1 1 1 
+$r15 1 150 
+r2 1 7 
+r12 1 -2 
+$r8 1 30 
+Fields: 4
+-1 ast 1
+-1 identifierStack 26
+-1 identifierPositionStack 43
+26 ArrayObject 30
+Accesses: 6
+0 1 -1 
+80 1 -1 
+54 1 -1 
+25 1 -1 
+42 1 -1 
+12 1 -1 
+Functions: 13
+96 1 7 
+1 1 1 
+34 2 21 8 
+39 2 7 8 
+73 1 8 
+111 2 -2 7 
+16 2 1 8 
+144 1 7 
+114 1 -2 
+121 1 8 
+154 1 150 
+125 1 8 
+31 2 21 30 
+Constructors: 3
+16 8
+154 150
+31 21
+
+Summary: 5
+21 -1 8 0 -2 
+org/eclipse/jdt/core/dom/DocCommentParser.pushSeeRef(Ljava/lang/Object;)Z
+PTG:
+Vars:
+11
+r3 1 -2 
+r2 1 7 
+$r5 1 14 
+$r8 1 182 
+$r1 1 1 
+r4 1 -2 
+r0 1 -1 
+$r9 1 1 
+$r6 1 160 
+r10 2 147 167 
+$r7 1 167 
+Fields: 3
+-1 ast 1
+-1 astStack 160
+160 ArrayObject 167
+Accesses: 12
+0 1 -1 
+51 1 -1 
+163 1 -1 
+132 1 -1 
+37 1 -1 
+217 1 -1 
+140 1 -1 
+45 1 -1 
+61 1 -1 
+126 1 -1 
+159 1 -1 
+223 1 -1 
+Functions: 18
+1 1 1 
+100 1 7 
+230 1 7 
+203 2 147 167 
+236 5 -1 160 1 167 7 
+13 1 7 
+141 1 1 
+173 2 147 167 
+110 1 7 
+18 2 -2 14 
+180 2 147 167 
+213 1 7 
+24 1 -2 
+120 1 7 
+153 5 -1 160 1 147 167 
+58 1 7 
+186 2 182 7 
+28 1 -2 
+Constructors: 0
+
+Summary: 7
+-1 7 182 147 14 0 -2 
+org/eclipse/jdt/core/dom/DocCommentParser.parseIdentifierTag(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 5
+19 1 -1 
+22 1 -1 
+26 1 -1 
+13 1 -1 
+30 1 -1 
+Functions: 3
+0 1 -1 
+34 0 
+9 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/DocCommentParser.parse([I)Lorg/eclipse/jdt/core/dom/Javadoc;
+PTG:
+Vars:
+4
+$r2 1 11 
+_ret 1 11 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/core/dom/DocCommentParser.<init>(Lorg/eclipse/jdt/core/dom/AST;Lorg/eclipse/jdt/internal/compiler/parser/Scanner;Z)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+$r3 1 17 
+Fields: 1
+-1 ast 17
+Accesses: 6
+16 1 -1 
+48 1 -1 
+36 1 -1 
+7 1 -1 
+41 1 -1 
+12 1 -1 
+Functions: 2
+17 1 17 
+2 2 -1 17 
+Constructors: 1
+2 -1
+
+Summary: 3
+-1 1 0 
+org/eclipse/jdt/core/dom/DocCommentParser.createMethodReference(Ljava/lang/Object;Ljava/util/List;)Ljava/lang/Object;
+PTG:
+Vars:
+21
+r0 1 -1 
+r12 1 -2 
+$r1 1 1 
+$r19 1 -1 
+$r11 1 57 
+$r7 1 33 
+$r4 1 1 
+r13 1 -3 
+$r8 1 38 
+r16 1 155 
+$r10 1 57 
+$r14 1 191 
+r21 1 -2 
+r2 1 7 
+$r3 1 8 
+$r15 1 155 
+r22 1 148 
+$r20 1 208 
+$r9 1 43 
+$r6 1 22 
+$r17 1 166 
+Fields: 6
+-1 ast 1
+-1 identifierStack 38
+-1 identifierPositionStack 57
+-1 identifierLengthStack 22
+-1 scanner 191
+38 ArrayObject 43
+Accesses: 8
+0 1 -1 
+97 1 -1 
+21 1 -1 
+37 1 -1 
+69 1 -1 
+56 1 -1 
+12 1 -1 
+190 1 -1 
+Functions: 17
+128 2 -2 7 
+1 1 1 
+131 1 -2 
+165 1 7 
+202 1 7 
+171 2 166 155 
+44 2 33 43 
+142 1 -3 
+47 2 33 8 
+16 2 1 8 
+113 1 7 
+177 1 148 
+212 1 208 
+53 2 7 8 
+153 1 148 
+90 1 8 
+191 1 191 
+Constructors: 3
+16 8
+212 208
+44 33
+
+Summary: 10
+148 1 -3 -1 166 8 33 155 0 -2 
+org/eclipse/jdt/core/dom/DocCommentParser.refreshInlineTagPosition(I)V
+PTG:
+Vars:
+9
+$r7 1 70 
+$r6 1 60 
+r8 1 70 
+r0 1 -1 
+$r4 1 44 
+$r5 1 56 
+$r1 1 9 
+$r2 1 16 
+r3 1 16 
+Fields: 2
+-1 astStack 9
+9 ArrayObject 16
+Accesses: 4
+0 1 -1 
+21 1 -1 
+8 1 -1 
+12 1 -1 
+Functions: 11
+80 1 70 
+55 1 16 
+40 1 16 
+56 1 56 
+90 1 70 
+43 1 16 
+59 1 16 
+107 1 70 
+28 1 16 
+44 1 44 
+60 1 60 
+Constructors: 0
+
+Summary: 5
+-1 44 56 60 70 
+org/eclipse/jdt/core/dom/DocCommentParser.createTypeReference(I)Ljava/lang/Object;
+PTG:
+Vars:
+36
+$r6 1 136 
+$r18 1 238 
+r12 1 344 
+$r9 2 270 307 
+$r22 1 208 
+$r23 1 196 
+$r21 1 211 
+$r30 1 148 
+$r27 1 166 
+$r17 1 241 
+$r3 1 34 
+$r13 11 172 232 389 202 262 77 187 157 217 247 142 
+$r10 2 270 320 
+$r5 1 47 
+r0 1 -1 
+r32 10 172 232 202 262 77 187 157 217 247 142 
+$r28 1 163 
+$r26 1 178 
+r34 11 172 232 389 202 262 77 187 157 217 247 142 
+r2 1 11 
+$r16 1 253 
+$r19 1 226 
+$r7 1 133 
+$r25 1 181 
+$r33 1 270 
+_ret 10 172 232 202 262 77 187 157 217 247 142 
+$r8 1 270 
+$r1 1 1 
+$r20 1 223 
+$r15 1 256 
+$r31 1 70 
+$r29 1 151 
+$r24 1 193 
+$r14 1 270 
+$r4 1 39 
+$r11 11 172 232 389 202 262 77 187 157 217 247 142 
+Fields: 14
+-1 ast 178
+-1 ast 148
+-1 ast 208
+-1 ast 238
+-1 ast 133
+-1 ast 163
+-1 ast 223
+-1 ast 193
+-1 ast 70
+-1 ast 253
+-1 identifierStack 39
+-1 identifierPositionStack 270
+-1 identifierLengthStack 1
+39 ArrayObject 47
+Accesses: 23
+0 1 -1 
+192 1 -1 
+162 1 -1 
+4 1 -1 
+132 1 -1 
+69 1 -1 
+38 1 -1 
+297 1 -1 
+237 1 -1 
+269 1 -1 
+333 11 389 262 247 232 217 202 187 172 77 157 142 
+15 1 -1 
+207 1 -1 
+432 11 389 262 247 232 217 202 187 172 77 157 142 
+177 1 -1 
+306 1 -1 
+147 1 -1 
+404 1 -1 
+438 1 -1 
+252 1 -1 
+222 1 -1 
+350 1 344 
+319 1 -1 
+Functions: 17
+193 2 193 196 
+163 2 163 166 
+133 2 133 136 
+70 2 70 11 
+425 11 389 262 247 232 217 202 187 172 77 157 142 
+459 10 262 247 232 217 202 187 172 77 157 142 
+364 1 344 
+238 2 241 238 
+48 2 34 47 
+208 2 208 211 
+178 2 178 181 
+338 11 389 262 247 232 217 202 187 172 77 157 142 
+148 2 148 151 
+378 11 389 262 247 232 217 202 187 172 77 157 142 
+253 2 256 253 
+223 2 226 223 
+383 11 389 262 247 232 217 202 187 172 77 157 142 
+Constructors: 1
+48 34
+
+Summary: 4
+389 -1 11 344 
+org/eclipse/jdt/core/dom/DocCommentParser.parse(II)Lorg/eclipse/jdt/core/dom/Javadoc;
+PTG:
+Vars:
+11
+$r4 1 16 
+$r8 1 28 
+_ret 1 72 
+r0 1 -1 
+$r7 1 72 
+$r5 1 23 
+$r6 1 28 
+$r2 1 5 
+$r3 1 2 
+$r1 1 2 
+$r9 1 72 
+Fields: 5
+-1 ast 28
+-1 docComment 72
+-1 scanner 2
+2 source 5
+2 lineEnds 16
+Accesses: 17
+1 1 -1 
+97 1 -1 
+2 1 2 
+34 1 -1 
+37 1 -1 
+71 1 -1 
+8 1 -1 
+12 1 -1 
+13 1 2 
+46 1 -1 
+80 1 -1 
+81 1 28 
+19 1 -1 
+55 1 -1 
+27 1 -1 
+59 1 -1 
+63 1 -1 
+Functions: 4
+67 6 -1 16 2 5 72 28 
+77 1 72 
+94 6 -1 16 2 5 72 28 
+31 2 23 28 
+Constructors: 1
+31 23
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/DocCommentParser.parseReturn()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/DocCommentParser.updateDocComment()V
+PTG:
+Vars:
+5
+$r2 1 9 
+$r1 1 6 
+$r3 1 13 
+r0 1 -1 
+$r4 1 17 
+Fields: 3
+13 ArrayObject 17
+-1 astStack 13
+-1 docComment 6
+Accesses: 3
+5 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 2
+18 2 17 9 
+6 1 6 
+Constructors: 0
+
+Summary: 2
+-1 9 
+org/eclipse/jdt/core/dom/DocCommentParser.pushThrowName(Ljava/lang/Object;)Z
+PTG:
+Vars:
+6
+$r1 1 1 
+r3 1 -2 
+r0 1 -1 
+r2 1 7 
+$r4 1 59 
+$r5 1 76 
+Fields: 2
+-1 ast 1
+-1 scanner 59
+Accesses: 5
+0 1 -1 
+65 1 -1 
+54 1 -1 
+8 1 -1 
+58 1 -1 
+Functions: 8
+80 2 -2 76 
+1 1 1 
+50 1 7 
+40 1 7 
+72 1 7 
+89 4 -1 1 7 59 
+59 1 59 
+75 1 7 
+Constructors: 0
+
+Summary: 5
+-1 7 0 -2 76 
+org/eclipse/jdt/core/dom/DocCommentParser.pushParamName(Z)Z
+PTG:
+Vars:
+28
+$r9 1 15 
+r1 1 -1 
+$r0 1 10 
+$r17 1 40 
+$r20 1 15 
+$r24 1 40 
+$r11 1 309 
+$r8 1 40 
+$r22 1 28 
+$r6 1 32 
+$r5 1 28 
+$r4 1 23 
+$r23 1 209 
+$r25 1 40 
+$r12 1 15 
+$r13 1 109 
+$r15 1 118 
+r28 1 196 
+$r16 1 40 
+r27 1 105 
+$r21 1 200 
+$r14 1 28 
+$r18 1 166 
+r10 1 84 
+$r19 1 179 
+$r2 1 15 
+$r26 1 257 
+$r7 1 40 
+Fields: 6
+-1 ast 15
+-1 identifierStack 28
+-1 identifierPositionStack 40
+28 ArrayObject 32
+28 ArrayObject 209
+28 ArrayObject 118
+Accesses: 17
+98 1 -1 
+291 1 -1 
+228 1 -1 
+39 1 -1 
+137 1 -1 
+297 1 -1 
+204 1 -1 
+77 1 -1 
+14 1 -1 
+270 1 -1 
+113 1 -1 
+51 1 -1 
+276 1 -1 
+216 1 -1 
+27 1 -1 
+125 1 -1 
+189 1 -1 
+Functions: 25
+323 8 -1 32 209 84 118 40 28 15 
+262 2 257 196 
+74 1 10 
+78 1 15 
+18 2 10 15 
+210 2 209 200 
+213 2 196 200 
+91 1 84 
+283 1 84 
+33 2 32 23 
+161 1 105 
+99 1 15 
+36 2 23 10 
+164 1 84 
+171 2 166 105 
+304 1 84 
+177 1 84 
+307 1 84 
+119 2 118 109 
+183 2 179 10 
+313 2 309 10 
+122 2 105 109 
+252 1 196 
+190 1 15 
+255 1 84 
+Constructors: 4
+33 23
+18 10
+210 200
+119 109
+
+Summary: 12
+23 196 257 309 -1 10 109 166 105 179 84 200 
+org/eclipse/jdt/core/dom/DocCommentParser.createArgumentReference([CIZLjava/lang/Object;[JJ)Ljava/lang/Object;
+PTG:
+Vars:
+16
+r5 1 -2 
+r3 1 -5 
+$r12 1 -1 
+r8 1 -6 
+$r11 1 83 
+$r7 2 1 191 
+$r10 1 1 
+$r9 1 68 
+r15 3 162 -5 199 
+$r6 1 1 
+r4 1 -5 
+r2 1 7 
+$r1 1 1 
+r0 1 -1 
+r16 1 -5 
+$r13 1 253 
+Fields: 1
+-1 ast 1
+Accesses: 4
+0 1 -1 
+72 1 -1 
+153 1 -1 
+190 1 -1 
+Functions: 18
+1 1 1 
+257 1 253 
+98 2 68 7 
+168 1 -5 
+232 4 162 -5 7 199 
+76 2 1 68 
+173 3 162 -5 199 
+16 1 -5 
+246 1 7 
+23 1 -5 
+88 2 -2 83 
+120 1 68 
+216 3 162 -5 199 
+154 2 1 -5 
+91 2 83 68 
+28 1 -5 
+126 1 -5 
+191 5 1 162 -5 199 191 
+Constructors: 3
+257 253
+88 83
+76 68
+
+Summary: 9
+-5 68 -6 4 -1 162 83 199 -2 
+org/eclipse/jdt/core/dom/DocCommentParser.parseTag(I)Z
+PTG:
+Vars:
+32
+$r6 1 1263 
+$r4 1 1175 
+$r16 4 13 55 299 222 
+$r3 1 1341 
+$r27 1 17 
+$r9 1 1129 
+$r25 4 13 55 299 222 
+$r1 1 17 
+$r12 1 17 
+$r20 2 17 344 
+$r5 1 1083 
+$r7 1 1235 
+$r22 2 17 261 
+$r18 2 325 17 
+$r31 1 17 
+$r21 2 17 249 
+$r8 1 1017 
+r0 1 -1 
+$r24 1 299 
+$r15 1 222 
+r29 4 13 55 299 222 
+$r11 1 924 
+$r23 2 17 282 
+$r14 2 17 101 
+$r13 1 17 
+$r26 1 17 
+$r2 1 17 
+r30 1 288 
+$r17 2 17 238 
+$r19 2 335 17 
+$r10 1 972 
+$r28 1 17 
+Fields: 1
+-1 scanner 17
+Accesses: 70
+0 1 -1 
+1280 1 -1 
+1408 1 -1 
+385 1 -1 
+260 1 -1 
+388 1 -1 
+1028 1 -1 
+261 2 17 261 
+1157 1 -1 
+1287 1 -1 
+392 1 -1 
+1036 1 -1 
+398 1 17 
+1422 1 -1 
+16 1 -1 
+17 1 17 
+403 1 -1 
+1044 1 -1 
+281 1 -1 
+27 1 -1 
+1437 1 -1 
+416 1 -1 
+1056 1 -1 
+1312 1 -1 
+34 1 -1 
+1189 1 -1 
+1445 1 -1 
+38 1 -1 
+1192 1 -1 
+1065 1 -1 
+1449 1 -1 
+938 1 -1 
+1322 1 -1 
+45 1 -1 
+48 1 -1 
+954 1 -1 
+64 1 -1 
+1217 1 -1 
+67 1 -1 
+68 1 17 
+324 1 -1 
+1096 1 -1 
+331 1 -1 
+1355 1 -1 
+334 1 -1 
+1358 1 -1 
+79 1 -1 
+80 1 17 
+343 1 -1 
+1111 1 -1 
+344 2 17 344 
+985 1 -1 
+350 1 -1 
+990 1 -1 
+1249 1 -1 
+100 1 -1 
+101 2 17 101 
+359 1 -1 
+999 1 -1 
+1383 1 -1 
+363 1 -1 
+364 1 17 
+237 1 -1 
+238 2 17 238 
+1396 1 -1 
+1142 1 -1 
+248 1 -1 
+249 2 17 249 
+379 1 -1 
+1277 1 -1 
+Functions: 41
+320 2 288 299 
+1344 5 55 299 1341 13 222 
+1411 2 -1 17 
+5 2 -1 17 
+325 2 17 325 
+1221 2 -1 17 
+264 0 
+1161 2 -1 17 
+1099 2 -1 17 
+1294 2 -1 17 
+975 5 55 299 972 13 222 
+1425 2 -1 17 
+338 2 17 335 
+83 0 
+276 2 -1 17 
+1365 2 -1 17 
+1238 5 1235 55 299 13 222 
+282 2 17 282 
+1050 2 -1 17 
+1178 5 1175 55 299 13 222 
+1115 2 -1 17 
+28 1 17 
+927 5 55 299 924 13 222 
+1441 2 -1 17 
+1316 2 -1 17 
+230 4 55 299 13 222 
+39 1 17 
+1003 2 -1 17 
+1387 2 -1 17 
+1132 5 55 1129 299 13 222 
+941 2 -1 17 
+1069 2 -1 17 
+49 1 17 
+1266 5 55 299 13 222 1263 
+307 4 55 299 13 222 
+1205 2 -1 17 
+1400 2 -1 17 
+1145 2 -1 17 
+1020 5 55 1017 299 13 222 
+958 2 -1 17 
+1086 5 55 1083 299 13 222 
+Constructors: 0
+
+Summary: 2
+288 -1 
+org/eclipse/jdt/core/dom/DocCommentParser.setComment(II)V
+PTG:
+Vars:
+4
+$r3 1 1 
+r0 1 -1 
+$r2 1 9 
+$r1 1 4 
+Fields: 2
+-1 docComment 1
+-1 source 9
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+17 2 1 4 
+14 2 4 9 
+Constructors: 1
+14 4
+
+Summary: 2
+-1 4 
+org/eclipse/jdt/core/dom/DocCommentParser.createTag()V
+PTG:
+Vars:
+17
+r17 2 131 167 
+$r16 1 1 
+$r14 1 167 
+r2 1 7 
+$r1 1 1 
+$r12 1 9 
+$r9 2 9 58 
+$r11 1 94 
+$r5 1 31 
+r0 1 -1 
+$r4 1 9 
+$r15 1 182 
+$r8 1 9 
+$r7 1 9 
+$r3 1 9 
+$r10 2 9 69 
+$r13 1 160 
+Fields: 4
+-1 ast 1
+-1 astStack 160
+-1 scanner 9
+160 ArrayObject 167
+Accesses: 25
+0 1 -1 
+68 1 -1 
+196 1 -1 
+8 1 -1 
+9 1 9 
+137 1 -1 
+76 1 -1 
+77 1 9 
+16 1 -1 
+83 1 -1 
+20 1 -1 
+24 1 -1 
+220 1 -1 
+159 1 -1 
+163 1 -1 
+100 1 -1 
+39 1 -1 
+232 1 -1 
+107 1 -1 
+45 1 -1 
+237 1 -1 
+116 1 -1 
+57 1 -1 
+58 2 9 58 
+124 1 -1 
+Functions: 18
+64 1 31 
+1 1 1 
+97 2 7 94 
+35 1 31 
+229 1 7 
+72 2 69 9 
+173 2 131 167 
+205 2 131 167 
+49 1 9 
+241 1 9 
+146 2 131 167 
+180 2 131 167 
+214 6 -1 160 1 167 7 9 
+153 6 -1 160 1 131 167 9 
+186 2 182 7 
+28 1 9 
+93 1 31 
+125 1 1 
+Constructors: 1
+35 31
+
+Summary: 5
+-1 7 182 131 94 
+org/eclipse/jdt/core/dom/DocCommentParser.toString()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r2 1 11 
+$r4 1 15 
+$r7 1 29 
+_ret 1 37 
+$r0 1 0 
+$r9 1 37 
+$r5 1 18 
+r3 1 -1 
+Fields: 1
+-1 docComment 15
+Accesses: 1
+14 1 -1 
+Functions: 7
+32 2 0 29 
+4 1 0 
+36 1 0 
+23 1 18 
+8 1 0 
+11 2 11 15 
+28 2 -1 15 
+Constructors: 1
+4 0
+
+Summary: 2
+-1 29 
+org/eclipse/jdt/core/dom/DocCommentParser.pushText(II)V
+PTG:
+Vars:
+15
+r2 1 7 
+$r5 1 78 
+$r8 1 158 
+$r4 1 14 
+r11 4 158 85 133 56 
+r12 1 133 
+$r14 1 194 
+$r10 1 1 
+$r6 1 85 
+r7 1 103 
+$r3 1 9 
+r0 1 -1 
+$r9 1 1 
+r13 1 158 
+$r1 1 1 
+Fields: 4
+-1 ast 1
+-1 astStack 78
+-1 source 14
+78 ArrayObject 85
+Accesses: 9
+0 1 -1 
+49 1 -1 
+81 1 -1 
+41 1 -1 
+105 1 -1 
+217 1 -1 
+13 1 -1 
+77 1 -1 
+126 1 -1 
+Functions: 18
+32 1 7 
+64 4 85 133 56 158 
+192 4 85 133 56 158 
+1 1 1 
+98 4 85 133 56 158 
+198 2 194 7 
+71 8 -1 1 85 133 56 78 14 158 
+168 1 158 
+139 2 133 103 
+112 1 103 
+50 1 1 
+212 4 85 133 56 158 
+21 2 9 14 
+24 2 7 9 
+152 1 103 
+185 4 85 133 56 158 
+91 4 85 133 56 158 
+127 1 1 
+Constructors: 1
+21 9
+
+Summary: 8
+-1 7 158 9 194 103 133 56 

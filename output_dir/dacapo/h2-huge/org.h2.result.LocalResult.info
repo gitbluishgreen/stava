@@ -1,0 +1,966 @@
+40
+org/h2/result/LocalResult.getTableName(I)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r3 1 6 
+r0 1 -1 
+$r1 1 1 
+_ret 1 6 
+$r2 1 5 
+Fields: 2
+-1 expressions 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.setDistinct()V
+PTG:
+Vars:
+4
+$r3 1 13 
+$r2 1 10 
+$r1 1 7 
+r0 1 -1 
+Fields: 1
+-1 session 7
+Accesses: 3
+16 1 -1 
+2 1 -1 
+6 1 -1 
+Functions: 2
+7 1 7 
+10 1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.setOffset(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.getExpressionColumns(Lorg/h2/engine/Session;Ljava/sql/ResultSet;)Lorg/h2/util/ObjectArray;
+PTG:
+Vars:
+10
+r5 1 53 
+$r6 1 106 
+r0 1 -3 
+r1 1 6 
+r4 1 29 
+$r8 1 126 
+r3 1 -2 
+r2 1 18 
+_ret 1 18 
+$r10 1 29 
+Fields: 0
+Accesses: 0
+Functions: 13
+0 1 -3 
+70 1 6 
+134 3 106 29 126 
+7 1 6 
+43 1 6 
+14 0 
+143 2 18 126 
+82 1 6 
+55 1 6 
+121 2 53 106 
+28 1 -2 
+60 0 
+94 1 6 
+Constructors: 2
+134 126
+121 106
+
+Summary: 8
+126 -2 -3 53 0 1 106 6 
+org/h2/result/LocalResult.getColumnType(I)I
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 5 
+Fields: 2
+-1 expressions 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.getList(Lorg/h2/util/ObjectArray;)[Lorg/h2/expression/Expression;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 4 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+10 2 -2 4 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/h2/result/LocalResult.<init>(Lorg/h2/engine/Session;Lorg/h2/util/ObjectArray;I)V
+PTG:
+Vars:
+4
+$r3 1 3 
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 1 -3 
+7 3 -1 -2 3 
+Constructors: 1
+7 -1
+
+Summary: 5
+-1 -2 -3 0 1 
+org/h2/result/LocalResult.getVisibleColumnCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.toString()Ljava/lang/String;
+PTG:
+Vars:
+10
+r2 1 -1 
+$r4 1 21 
+$r7 1 40 
+$r6 1 33 
+$r1 1 9 
+$r0 1 0 
+$r3 1 16 
+$r5 1 28 
+_ret 1 43 
+$r8 1 43 
+Fields: 0
+Accesses: 3
+36 1 -1 
+24 1 -1 
+12 1 -1 
+Functions: 8
+0 1 0 
+16 1 16 
+33 1 33 
+4 1 0 
+21 1 21 
+40 1 40 
+9 1 9 
+28 1 28 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.next()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 13
+0 1 -1 
+32 1 -1 
+4 1 -1 
+70 1 -1 
+40 1 -1 
+11 1 -1 
+77 1 -1 
+49 1 -1 
+18 1 -1 
+21 1 -1 
+56 1 -1 
+25 1 -1 
+60 1 -1 
+Functions: 2
+41 0 
+57 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.read(Lorg/h2/engine/Session;Ljava/sql/ResultSet;I)Lorg/h2/result/LocalResult;
+PTG:
+Vars:
+7
+r5 1 49 
+r1 1 -3 
+r0 1 -2 
+$r3 1 12 
+r2 1 5 
+_ret 1 12 
+$r6 1 85 
+Fields: 0
+Accesses: 0
+Functions: 8
+64 1 12 
+1 2 -2 -3 
+83 2 -2 -3 
+99 2 49 12 
+20 3 -2 5 12 
+6 1 5 
+38 1 -3 
+110 1 12 
+Constructors: 1
+20 12
+
+Summary: 5
+-2 49 -3 1 0 
+org/h2/result/LocalResult.getAlias(I)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r3 1 6 
+$r1 1 1 
+_ret 1 6 
+$r2 1 5 
+r0 1 -1 
+Fields: 2
+-1 expressions 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.getNullable(I)I
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 5 
+r0 1 -1 
+Fields: 2
+-1 expressions 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.createShallowCopy(Lorg/h2/engine/Session;)Lorg/h2/result/LocalResult;
+PTG:
+Vars:
+12
+$r5 1 61 
+$r7 1 90 
+$r9 1 1 
+r4 1 -2 
+r0 1 -1 
+$r10 1 8 
+$r1 1 1 
+$r11 1 8 
+$r8 1 98 
+$r2 1 30 
+_ret 1 30 
+$r6 1 8 
+Fields: 5
+-1 distinctRows 98
+-1 expressions 61
+-1 disk 1
+-1 sort 90
+-1 rows 8
+Accesses: 29
+0 1 -1 
+64 1 30 
+128 1 -1 
+132 1 30 
+69 1 30 
+7 1 -1 
+136 1 -1 
+73 1 -1 
+140 1 30 
+77 1 30 
+14 1 -1 
+81 1 -1 
+21 1 -1 
+85 1 30 
+89 1 -1 
+93 1 30 
+97 1 -1 
+101 1 30 
+39 1 -1 
+105 1 -1 
+43 1 30 
+109 1 30 
+48 1 30 
+114 1 30 
+52 1 -1 
+119 1 30 
+56 1 30 
+60 1 -1 
+124 1 30 
+Functions: 2
+34 1 30 
+15 1 8 
+Constructors: 1
+34 30
+
+Summary: 2
+-1 0 
+org/h2/result/LocalResult.getSchemaName(I)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r3 1 6 
+$r2 1 5 
+r0 1 -1 
+_ret 1 6 
+Fields: 2
+-1 expressions 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.applyLimit()V
+PTG:
+Vars:
+5
+$r4 1 16 
+$r3 1 16 
+$r1 1 9 
+$r2 1 16 
+r0 1 -1 
+Fields: 2
+-1 disk 9
+-1 rows 16
+Accesses: 13
+0 1 -1 
+33 1 -1 
+37 1 -1 
+70 1 -1 
+8 1 -1 
+74 1 -1 
+15 1 -1 
+48 1 -1 
+52 1 -1 
+22 1 -1 
+58 1 -1 
+29 1 -1 
+62 1 -1 
+Functions: 3
+16 1 16 
+38 1 16 
+44 1 16 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.currentRow()[Lorg/h2/value/Value;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 currentRow 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.setFetchSize(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.getRowCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.applyOffset()V
+PTG:
+Vars:
+6
+$r3 1 20 
+$r1 1 9 
+$r2 1 20 
+$r5 1 20 
+r0 1 -1 
+$r4 1 20 
+Fields: 2
+-1 disk 9
+-1 rows 20
+Accesses: 19
+0 1 -1 
+68 1 -1 
+101 1 -1 
+38 1 -1 
+8 1 -1 
+105 1 -1 
+75 1 -1 
+44 1 -1 
+108 1 -1 
+15 1 -1 
+48 1 -1 
+81 1 -1 
+113 1 -1 
+19 1 -1 
+85 1 -1 
+118 1 -1 
+59 1 -1 
+29 1 -1 
+94 1 -1 
+Functions: 5
+33 1 20 
+49 1 20 
+65 1 20 
+20 1 20 
+52 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.getColumnName(I)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r2 1 5 
+$r3 1 6 
+r0 1 -1 
+_ret 1 6 
+Fields: 2
+-1 expressions 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.reset()V
+PTG:
+Vars:
+4
+$r1 1 6 
+$r3 1 6 
+r0 1 -1 
+$r2 1 6 
+Fields: 1
+-1 disk 6
+Accesses: 6
+2 1 -1 
+5 1 -1 
+21 1 -1 
+38 1 -1 
+12 1 -1 
+31 1 -1 
+Functions: 2
+16 1 6 
+42 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.isClosed()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.setLimit(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.containsDistinct([Lorg/h2/value/Value;)Z
+PTG:
+Vars:
+4
+r2 1 -2 
+r0 1 -1 
+$r3 1 41 
+$r1 1 12 
+Fields: 2
+-1 distinctRows 12
+-1 disk 41
+Accesses: 4
+0 1 -1 
+23 1 -1 
+40 1 -1 
+11 1 -1 
+Functions: 4
+18 1 -2 
+7 0 
+24 0 
+41 2 -2 41 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/result/LocalResult.getColumnScale(I)I
+PTG:
+Vars:
+3
+$r2 1 5 
+r0 1 -1 
+$r1 1 1 
+Fields: 2
+-1 expressions 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.addRow([Lorg/h2/value/Value;)V
+PTG:
+Vars:
+11
+$r2 1 121 
+r0 1 -1 
+$r4 1 153 
+$r6 1 166 
+$r24 1 173 
+$r3 1 121 
+$r8 1 182 
+r1 1 -2 
+$r9 1 153 
+$r5 1 156 
+$r26 1 173 
+Fields: 4
+-1 disk 166
+-1 sort 182
+-1 session 153
+-1 rows 121
+Accesses: 25
+0 1 -1 
+128 1 -1 
+67 1 -1 
+7 1 -1 
+71 1 -1 
+135 1 -1 
+138 1 -1 
+78 1 -1 
+81 1 -1 
+145 1 -1 
+19 1 -1 
+85 1 -1 
+152 1 -1 
+29 1 -1 
+99 1 -1 
+36 1 -1 
+165 1 -1 
+39 1 -1 
+106 1 -1 
+49 1 -1 
+177 1 -1 
+116 1 -1 
+181 1 -1 
+120 1 -1 
+190 1 -1 
+Functions: 15
+194 5 -1 166 182 153 121 
+75 0 
+107 1 -2 
+139 1 121 
+14 1 -2 
+50 0 
+53 0 
+86 0 
+25 1 -2 
+153 1 153 
+187 3 182 153 173 
+92 0 
+156 1 156 
+125 2 -2 121 
+30 0 
+Constructors: 1
+187 173
+
+Summary: 3
+-1 -2 0 
+org/h2/result/LocalResult.getColumnPrecision(I)J
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 5 
+$r1 1 1 
+Fields: 2
+-1 expressions 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.isAutoIncrement(I)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 5 
+Fields: 2
+-1 expressions 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.getDisplaySize(I)I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 5 
+Fields: 2
+-1 expressions 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.close()V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 disk 1
+Accesses: 4
+0 1 -1 
+18 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 1
+11 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.removeDistinct([Lorg/h2/value/Value;)V
+PTG:
+Vars:
+7
+r4 1 22 
+$r3 1 47 
+r0 1 -1 
+$r6 1 12 
+$r1 1 12 
+$r5 1 12 
+r2 1 -2 
+Fields: 2
+-1 distinctRows 12
+-1 disk 47
+Accesses: 7
+0 1 -1 
+32 1 -1 
+23 1 -1 
+39 1 -1 
+56 1 -1 
+11 1 -1 
+46 1 -1 
+Functions: 5
+33 1 12 
+18 1 -2 
+7 0 
+28 2 22 12 
+47 2 -2 47 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/result/LocalResult.<init>(Lorg/h2/engine/Session;[Lorg/h2/expression/Expression;I)V
+PTG:
+Vars:
+5
+$r2 1 24 
+r1 1 -2 
+r4 1 -3 
+$r3 1 34 
+r0 1 -1 
+Fields: 0
+Accesses: 7
+16 1 -1 
+52 1 -1 
+37 1 -1 
+6 1 -1 
+42 1 -1 
+30 1 -1 
+47 1 -1 
+Functions: 4
+-1 0 
+1 1 -1 
+23 1 -2 
+24 1 24 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 0 1 
+org/h2/result/LocalResult.addRowsToDisk()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+$r1 1 5 
+$r3 1 5 
+Fields: 2
+-1 disk 1
+-1 rows 5
+Accesses: 3
+0 1 -1 
+4 1 -1 
+13 1 -1 
+Functions: 2
+17 1 5 
+8 2 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.needToClose()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 disk 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.done()V
+PTG:
+Vars:
+24
+$r6 1 34 
+$r15 1 34 
+$r20 1 8 
+$r21 1 19 
+$r4 1 34 
+$r5 1 8 
+$r11 1 34 
+r0 1 -1 
+$r1 1 41 
+$r2 2 198 113 
+$r18 1 41 
+r8 1 34 
+$r24 1 92 
+$r13 1 113 
+$r22 1 34 
+$r19 1 97 
+r10 1 76 
+$r12 1 113 
+$r7 1 41 
+$r23 1 92 
+$r14 1 113 
+$r9 1 64 
+$r3 1 41 
+$r16 1 113 
+Fields: 6
+-1 distinctRows 8
+-1 disk 34
+-1 sort 41
+-1 session 97
+-1 rows 198
+-1 rows 113
+Accesses: 25
+0 1 -1 
+193 1 -1 
+67 1 -1 
+197 1 -1 
+134 1 -1 
+7 1 -1 
+138 1 -1 
+15 1 -1 
+147 1 -1 
+84 1 -1 
+22 1 -1 
+27 1 -1 
+96 1 -1 
+33 1 -1 
+163 1 -1 
+100 1 -1 
+40 1 -1 
+109 1 -1 
+174 1 -1 
+47 1 -1 
+112 1 -1 
+54 1 -1 
+120 1 -1 
+186 1 -1 
+127 1 -1 
+Functions: 16
+-1 0 
+70 1 34 
+201 3 113 198 41 
+106 3 97 41 92 
+171 7 -1 97 113 34 198 8 41 
+205 7 -1 97 113 34 198 8 41 
+142 2 113 34 
+16 1 8 
+209 7 -1 97 113 34 198 8 41 
+178 1 34 
+117 2 113 76 
+213 7 -1 97 113 34 198 8 41 
+151 1 113 
+121 1 113 
+58 1 34 
+158 1 34 
+Constructors: 1
+106 92
+
+Summary: 2
+-1 76 
+org/h2/result/LocalResult.getRowId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.getFetchSize()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/result/LocalResult.setSortOrder(Lorg/h2/result/SortOrder;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 

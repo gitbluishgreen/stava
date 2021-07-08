@@ -1,0 +1,517 @@
+27
+com/sun/org/apache/xpath/internal/axes/AxesWalker.callVisitors(Lcom/sun/org/apache/xpath/internal/ExpressionOwner;Lcom/sun/org/apache/xpath/internal/XPathVisitor;)V
+PTG:
+Vars:
+5
+$r3 1 16 
+r1 1 -2 
+r0 1 -3 
+r2 1 -1 
+$r4 1 16 
+Fields: 1
+-1 m_nextWalker 16
+Accesses: 2
+22 1 -1 
+15 1 -1 
+Functions: 3
+0 4 -1 16 -2 -3 
+11 3 -1 16 -3 
+28 3 16 -1 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.clone()Ljava/lang/Object;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+r2 1 1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.getDTM(I)Lcom/sun/org/apache/xml/internal/dtm/DTM;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 1 
+$r3 1 8 
+$r2 1 4 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+1 1 1 
+4 1 4 
+Constructors: 0
+
+Summary: 3
+4 -1 1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.init(Lcom/sun/org/apache/xpath/internal/compiler/Compiler;II)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.setNextWalker(Lcom/sun/org/apache/xpath/internal/axes/AxesWalker;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.detach()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 5
+17 1 -1 
+2 1 -1 
+22 1 -1 
+7 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.findClone(Lcom/sun/org/apache/xpath/internal/axes/AxesWalker;Ljava/util/Vector;)Lcom/sun/org/apache/xpath/internal/axes/AxesWalker;
+PTG:
+Vars:
+3
+$r2 1 20 
+r1 1 -2 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+18 1 -3 
+5 1 -3 
+26 1 -3 
+Constructors: 0
+
+Summary: 5
+-2 20 1 0 -3 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.getNextWalker()Lcom/sun/org/apache/xpath/internal/axes/AxesWalker;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 m_nextWalker 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.setPrevWalker(Lcom/sun/org/apache/xpath/internal/axes/AxesWalker;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.getExpression()Lcom/sun/org/apache/xpath/internal/Expression;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 m_nextWalker 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.getPrevWalker()Lcom/sun/org/apache/xpath/internal/axes/AxesWalker;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 m_prevWalker 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.setRoot(I)V
+PTG:
+Vars:
+6
+$r3 1 11 
+r2 1 7 
+$r1 1 1 
+r0 1 -1 
+$r4 1 19 
+$r5 1 26 
+Fields: 1
+-1 m_dtm 19
+Accesses: 8
+18 1 -1 
+51 1 -1 
+36 1 -1 
+22 1 -1 
+41 1 -1 
+14 1 -1 
+46 1 -1 
+31 1 -1 
+Functions: 7
+0 2 -1 19 
+1 1 1 
+65 0 
+19 1 19 
+69 0 
+9 1 7 
+74 2 -1 19 
+Constructors: 0
+
+Summary: 4
+7 -1 1 66 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.getLastPos(Lcom/sun/org/apache/xpath/internal/XPathContext;)I
+PTG:
+Vars:
+6
+$r1 1 6 
+r3 1 49 
+r7 1 -2 
+r2 1 6 
+r9 1 42 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+21 1 -1 
+Functions: 11
+0 1 -1 
+35 1 6 
+5 1 -1 
+38 1 -1 
+54 2 6 42 
+25 1 6 
+58 1 6 
+90 2 49 42 
+44 1 42 
+30 1 6 
+78 2 49 42 
+Constructors: 0
+
+Summary: 6
+-2 6 42 49 0 -1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.returnNextNode(I)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.getRoot()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.<init>(Lcom/sun/org/apache/xpath/internal/axes/LocPathIterator;I)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+17 1 -1 
+22 1 -1 
+7 1 -1 
+12 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.nextNode()I
+PTG:
+Vars:
+6
+r5 3 32 50 9 
+$r4 1 57 
+r3 3 32 50 9 
+$r2 1 50 
+r0 1 -1 
+$r1 1 3 
+Fields: 2
+32 m_prevWalker 32
+9 m_nextWalker 50
+Accesses: 4
+49 3 32 50 9 
+81 3 32 50 9 
+69 3 32 50 9 
+28 3 32 50 9 
+Functions: 7
+2 1 -1 
+18 3 32 50 9 
+3 1 3 
+36 3 32 50 9 
+56 1 -1 
+76 3 32 50 9 
+61 4 32 50 57 9 
+Constructors: 0
+
+Summary: 3
+3 57 -1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.getCurrentNode()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.setDefaultDTM(Lcom/sun/org/apache/xml/internal/dtm/DTM;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.getNextNode()I
+PTG:
+Vars:
+3
+$r1 1 49 
+$r2 1 18 
+r0 1 -1 
+Fields: 2
+-1 m_traverser 18
+-1 m_traverser 49
+Accesses: 14
+0 1 -1 
+33 1 -1 
+67 1 -1 
+40 1 -1 
+9 1 -1 
+76 1 -1 
+79 1 -1 
+48 1 -1 
+17 1 -1 
+52 1 -1 
+21 1 -1 
+56 1 -1 
+28 1 -1 
+63 1 -1 
+Functions: 2
+49 1 49 
+18 1 18 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.cloneDeep(Lcom/sun/org/apache/xpath/internal/axes/WalkingIterator;Ljava/util/Vector;)Lcom/sun/org/apache/xpath/internal/axes/AxesWalker;
+PTG:
+Vars:
+17
+r15 1 14 
+$r2 1 14 
+$r8 1 116 
+$r4 1 42 
+$r10 1 85 
+r0 1 -1 
+r3 1 -2 
+$r13 1 72 
+$r5 1 45 
+$r6 1 59 
+$r11 1 98 
+r1 1 -3 
+r14 1 5 
+$r12 1 59 
+$r9 1 85 
+$r7 1 59 
+_ret 1 14 
+Fields: 4
+42 m_lastUsedWalker 45
+14 m_nextWalker 116
+-1 m_nextWalker 59
+-1 m_prevWalker 85
+Accesses: 11
+66 1 -1 
+115 1 14 
+84 1 -1 
+101 1 14 
+54 1 -2 
+120 1 116 
+42 1 42 
+58 1 -1 
+75 1 14 
+92 1 -1 
+108 1 -1 
+Functions: 8
+1 4 -1 -3 85 59 
+33 4 -1 -3 85 59 
+67 3 -2 -3 59 
+38 3 -3 116 14 
+23 3 -2 116 14 
+41 3 -1 85 59 
+13 3 -1 85 59 
+93 3 -2 -3 85 
+Constructors: 0
+
+Summary: 7
+1 -1 -3 -2 42 45 0 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.wi()Lcom/sun/org/apache/xpath/internal/axes/WalkingIterator;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+_ret 1 1 
+Fields: 1
+-1 m_lpi 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.getAxis()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.setExpression(Lcom/sun/org/apache/xpath/internal/Expression;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -1 
+$r2 1 -2 
+Fields: 0
+Accesses: 1
+10 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.deepEquals(Lcom/sun/org/apache/xpath/internal/Expression;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 2
+19 1 -2 
+15 1 -1 
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.getAnalysisBits()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+5 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/axes/AxesWalker.isDocOrdered()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

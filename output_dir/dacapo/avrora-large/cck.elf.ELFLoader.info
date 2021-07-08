@@ -1,0 +1,124 @@
+5
+cck/elf/ELFLoader.readELFHeader(Ljava/io/RandomAccessFile;)Lcck/elf/ELFHeader;
+PTG:
+Vars:
+3
+$r0 1 0 
+r2 1 -2 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 1 0 
+10 2 0 -2 
+Constructors: 1
+4 0
+
+Summary: 2
+-2 0 
+cck/elf/ELFLoader.readSHT(Ljava/io/RandomAccessFile;Lcck/elf/ELFHeader;)Lcck/elf/ELFSectionHeaderTable;
+PTG:
+Vars:
+8
+r6 1 35 
+$r5 1 19 
+_ret 1 0 
+$r0 1 0 
+$r4 1 19 
+$r7 1 36 
+r3 1 -2 
+r1 1 -3 
+Fields: 2
+0 entries 19
+19 ArrayObject 35
+Accesses: 4
+18 1 0 
+26 1 0 
+14 1 -3 
+30 1 -3 
+Functions: 5
+50 2 -2 36 
+5 4 0 -3 19 35 
+56 4 0 19 35 36 
+42 3 -3 35 36 
+11 4 0 -2 19 35 
+Constructors: 2
+5 0
+42 36
+
+Summary: 5
+-3 -2 36 0 1 
+cck/elf/ELFLoader.readSymbolTables(Ljava/io/RandomAccessFile;Lcck/elf/ELFHeader;Lcck/elf/ELFSectionHeaderTable;)Ljava/util/List;
+PTG:
+Vars:
+12
+_ret 1 0 
+r9 1 -2 
+r2 1 -4 
+$r6 1 38 
+$r10 1 14 
+r7 1 -3 
+$r3 1 14 
+r11 1 75 
+$r4 1 14 
+$r0 1 0 
+r5 1 28 
+$r12 1 85 
+Fields: 3
+14 ArrayObject 28
+14 ArrayObject 75
+-4 entries 14
+Accesses: 4
+65 1 -4 
+21 1 -4 
+69 1 28 
+13 1 -4 
+Functions: 9
+4 1 0 
+100 2 -2 85 
+53 2 -2 38 
+59 2 0 38 
+107 2 85 38 
+92 3 -3 85 75 
+45 3 -3 38 28 
+77 1 75 
+30 1 28 
+Constructors: 3
+4 0
+92 85
+45 38
+
+Summary: 11
+-3 14 28 38 -4 85 -2 75 0 1 2 
+cck/elf/ELFLoader.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+cck/elf/ELFLoader.readPHT(Ljava/io/RandomAccessFile;Lcck/elf/ELFHeader;)Lcck/elf/ELFProgramHeaderTable;
+PTG:
+Vars:
+4
+_ret 1 0 
+r3 1 -2 
+$r0 1 0 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 2 0 -3 
+11 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 4
+-3 -2 0 1 

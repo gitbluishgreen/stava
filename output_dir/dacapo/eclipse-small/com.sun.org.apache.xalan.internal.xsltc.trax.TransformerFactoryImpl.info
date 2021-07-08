@@ -1,0 +1,1413 @@
+35
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.overrideDefaultParser()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.getFeature(Ljava/lang/String;)Z
+PTG:
+Vars:
+5
+r2 1 -2 
+$r4 1 141 
+$r6 1 103 
+$r0 1 2 
+r3 1 -1 
+Fields: 13
+2 ArrayObject 9
+2 ArrayObject 24
+2 ArrayObject 34
+2 ArrayObject 103
+2 ArrayObject 19
+2 ArrayObject 29
+2 ArrayObject 40
+2 ArrayObject 58
+2 ArrayObject 46
+2 ArrayObject 64
+2 ArrayObject 14
+2 ArrayObject 52
+-1 _xmlFeatures 141
+Accesses: 3
+154 1 -1 
+140 1 -1 
+127 1 -1 
+Functions: 7
+84 0 
+100 2 -2 103 
+118 1 -2 
+88 0 
+155 0 
+76 0 
+141 2 -2 141 
+Constructors: 0
+
+Summary: 17
+34 70 19 29 40 58 85 -1 46 64 52 -2 9 24 103 2 14 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.passWarningsToListener(Ljava/util/ArrayList;)V
+PTG:
+Vars:
+11
+$r10 1 52 
+$r9 1 1 
+r0 1 -1 
+$r7 1 76 
+$r6 1 1 
+r4 1 26 
+r2 1 -2 
+$r1 1 1 
+$r5 1 70 
+$r3 1 26 
+$r8 1 46 
+Fields: 1
+-1 _errorListener 1
+Accesses: 3
+0 1 -1 
+66 1 -1 
+42 1 -1 
+Functions: 9
+34 1 26 
+50 1 26 
+82 2 1 70 
+55 2 52 46 
+24 1 -2 
+58 2 1 46 
+74 1 26 
+12 1 -2 
+79 2 70 76 
+Constructors: 2
+55 46
+79 70
+
+Summary: 8
+-2 52 70 76 0 -1 46 26 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.error(Ljavax/xml/transform/TransformerException;)V
+PTG:
+Vars:
+10
+$r5 1 12 
+$r7 1 19 
+r9 1 -1 
+r0 1 -2 
+$r6 1 9 
+$r3 1 35 
+$r8 1 23 
+$r2 1 38 
+$r4 1 45 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+48 2 38 45 
+18 1 -2 
+51 2 35 38 
+22 1 4 
+26 3 19 23 12 
+44 1 -2 
+29 2 9 12 
+Constructors: 2
+48 38
+26 12
+
+Summary: 8
+38 45 4 0 -1 12 19 23 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.warning(Ljavax/xml/transform/TransformerException;)V
+PTG:
+Vars:
+10
+$r8 1 23 
+$r3 1 35 
+$r4 1 45 
+$r7 1 19 
+$r6 1 9 
+$r2 1 38 
+r9 1 -1 
+r0 1 -2 
+r1 1 4 
+$r5 1 12 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+48 2 38 45 
+18 1 -2 
+51 2 35 38 
+22 1 4 
+26 3 19 23 12 
+44 1 -2 
+29 2 9 12 
+Constructors: 2
+48 38
+26 12
+
+Summary: 9
+38 -2 45 4 0 -1 12 19 23 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.newTransformer(Ljavax/xml/transform/Source;)Ljavax/xml/transform/Transformer;
+PTG:
+Vars:
+7
+r1 1 -2 
+$r5 1 14 
+r0 1 -1 
+r2 1 5 
+r3 1 12 
+$r4 1 14 
+_ret 1 12 
+Fields: 1
+-1 _uriResolver 14
+Accesses: 2
+21 1 -1 
+13 1 -1 
+Functions: 3
+0 3 -1 -2 14 
+6 1 5 
+25 2 12 14 
+Constructors: 0
+
+Summary: 3
+-2 -1 5 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.newTransformerHandler(Ljavax/xml/transform/Source;)Ljavax/xml/transform/sax/TransformerHandler;
+PTG:
+Vars:
+8
+r1 1 -2 
+$r5 1 5 
+r0 1 -1 
+r2 1 5 
+$r6 1 7 
+$r4 1 21 
+$r3 1 7 
+_ret 1 21 
+Fields: 1
+-1 _uriResolver 7
+Accesses: 2
+6 1 -1 
+14 1 -1 
+Functions: 3
+0 3 -1 -2 7 
+18 2 5 7 
+29 2 21 5 
+Constructors: 1
+29 21
+
+Summary: 3
+-2 -1 5 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.resetTransientAttributes()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 1
+-1 _transletName 3
+Accesses: 4
+18 1 -1 
+3 1 -1 
+8 1 -1 
+13 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 3 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.newTemplatesHandler()Ljavax/xml/transform/sax/TemplatesHandler;
+PTG:
+Vars:
+5
+$r3 1 14 
+$r4 1 14 
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 1
+-1 _uriResolver 14
+Accesses: 3
+4 1 -1 
+21 1 -1 
+13 1 -1 
+Functions: 2
+9 3 0 -1 14 
+25 2 0 14 
+Constructors: 1
+9 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.getJdkXmlFeatures()Ljdk/xml/internal/JdkXmlFeatures;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 _xmlFeatures 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.getURIResolver()Ljavax/xml/transform/URIResolver;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 _uriResolver 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.getAssociatedStylesheet(Ljavax/xml/transform/Source;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/transform/Source;
+PTG:
+Vars:
+19
+$r10 1 -2 
+$r9 1 158 
+r7 1 -1 
+$r18 1 -1 
+r21 1 35 
+r5 1 -2 
+r3 1 -5 
+r1 1 -3 
+$r12 1 44 
+r22 1 104 
+r6 1 97 
+r11 1 42 
+r2 1 -4 
+$r23 1 158 
+$r8 1 211 
+$r0 1 3 
+r20 1 -2 
+r19 2 130 91 
+_ret 1 211 
+Fields: 1
+-1 _uriResolver 158
+Accesses: 4
+115 1 -1 
+166 1 -1 
+157 1 -1 
+111 1 -1 
+Functions: 18
+66 2 3 44 
+99 1 97 
+37 1 -2 
+71 1 44 
+136 2 3 104 
+170 2 3 158 
+12 4 -3 3 -4 -5 
+205 0 
+143 3 130 3 91 
+209 1 3 
+50 2 42 44 
+85 1 -2 
+152 3 97 130 91 
+59 2 3 35 
+93 1 -2 
+30 1 -2 
+126 0 
+191 0 
+Constructors: 2
+50 44
+12 3
+
+Summary: 13
+97 35 -1 -5 91 -3 -2 42 104 -4 130 44 3 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.getStylesheetFileName(Ljavax/xml/transform/Source;)Ljava/lang/String;
+PTG:
+Vars:
+3
+r1 1 6 
+r0 1 -2 
+r11 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+16 1 6 
+49 0 
+34 1 6 
+20 0 
+60 0 
+46 0 
+Constructors: 0
+
+Summary: 6
+-2 51 29 11 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.newTransformerHandler(Ljavax/xml/transform/Templates;)Ljavax/xml/transform/sax/TransformerHandler;
+PTG:
+Vars:
+6
+r4 1 -1 
+r1 1 6 
+r2 1 6 
+$r3 1 12 
+r0 1 -2 
+_ret 1 12 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+17 2 6 12 
+Constructors: 1
+17 12
+
+Summary: 3
+-2 6 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.setURIResolver(Ljavax/xml/transform/URIResolver;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.newXMLFilter(Ljavax/xml/transform/Source;)Lorg/xml/sax/XMLFilter;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 14 
+r2 1 5 
+r1 1 -2 
+_ret 1 14 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+12 2 -1 5 
+Constructors: 0
+
+Summary: 3
+-2 -1 5 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.getTransletBaseName(Ljavax/xml/transform/Source;)Ljava/lang/String;
+PTG:
+Vars:
+9
+r0 1 -1 
+r5 1 53 
+$r1 1 3 
+r3 1 25 
+$r8 2 53 62 
+r2 1 -2 
+r6 1 34 
+r7 1 46 
+_ret 2 53 62 
+Fields: 1
+-1 _transletName 3
+Accesses: 2
+2 1 -1 
+14 1 -1 
+Functions: 5
+48 1 46 
+3 1 3 
+19 1 -2 
+41 1 34 
+30 1 25 
+Constructors: 0
+
+Summary: 6
+-2 25 34 46 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.getAttribute(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+11
+r1 1 -1 
+$r8 1 135 
+$r7 1 176 
+$r2 1 109 
+$r6 1 171 
+$r4 1 160 
+$r19 1 146 
+$r3 1 135 
+$r17 1 120 
+r0 1 -2 
+$r9 1 109 
+Fields: 2
+-1 _xmlSecurityManager 109
+-1 _xmlSecurityPropertyMgr 135
+Accesses: 10
+48 1 -1 
+65 1 -1 
+115 1 -1 
+134 1 -1 
+103 1 -1 
+9 1 -1 
+89 1 -1 
+27 1 -1 
+108 1 -1 
+141 1 -1 
+Functions: 13
+0 1 -2 
+35 1 -2 
+167 2 160 -2 
+14 1 -2 
+142 2 -2 135 
+175 1 160 
+80 1 -2 
+179 2 176 171 
+52 0 
+116 2 -2 109 
+56 1 -2 
+94 1 -2 
+31 0 
+Constructors: 2
+179 171
+167 160
+
+Summary: 4
+-1 -2 160 176 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.createNewDTMManagerInstance()Lcom/sun/org/apache/xalan/internal/xsltc/dom/XSLTCDTMManager;
+PTG:
+Vars:
+3
+$r0 1 0 
+r1 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.readFromInputStream([BLjava/io/InputStream;I)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -3 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+14 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.getErrorListener()Ljavax/xml/transform/ErrorListener;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 _errorListener 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.newXMLFilter(Ljavax/xml/transform/Templates;)Lorg/xml/sax/XMLFilter;
+PTG:
+Vars:
+9
+$r10 1 0 
+r1 1 -2 
+$r6 1 -1 
+$r11 1 30 
+$r2 1 -1 
+$r8 1 11 
+r7 1 -1 
+$r12 1 -1 
+$r9 1 11 
+Fields: 1
+-1 _errorListener 11
+Accesses: 2
+17 1 -1 
+10 1 -1 
+Functions: 3
+35 2 -1 30 
+5 2 0 -2 
+22 2 -1 11 
+Constructors: 2
+35 30
+5 0
+
+Summary: 3
+-2 30 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.newTemplates(Ljavax/xml/transform/Source;)Ljavax/xml/transform/Templates;
+PTG:
+Vars:
+48
+r96 1 631 
+$r36 1 477 
+$r49 1 189 
+$r2 1 311 
+$r3 1 366 
+$r8 1 434 
+$r25 1 682 
+$r39 1 172 
+r89 1 458 
+$r50 1 194 
+$r11 1 513 
+$r13 1 840 
+$r38 1 415 
+r94 1 615 
+$r40 1 206 
+r9 1 -2 
+$r6 1 396 
+$r31 1 434 
+$r14 1 849 
+$r47 1 178 
+$r32 1 445 
+r90 1 536 
+$r48 1 172 
+$r1 1 306 
+$r4 1 376 
+$r30 1 513 
+$r51 1 198 
+_ret 1 840 
+$r98 1 673 
+$r29 1 543 
+$r64 1 -1 
+$r5 1 386 
+$r34 1 458 
+$r10 1 506 
+r85 2 204 170 
+$r93 1 172 
+$r12 1 206 
+$r37 1 473 
+$r35 1 481 
+r92 1 559 
+$r27 1 206 
+r0 1 -1 
+$r33 1 434 
+r86 2 218 228 
+$r26 1 206 
+r95 1 625 
+$r28 1 172 
+$r7 1 422 
+Fields: 14
+-1 _packageName 172
+-1 _destinationDirectory 513
+-1 _jarFileName 206
+-1 _uriResolver 422
+-1 _accessExternalDTD 376
+-1 _xmlSecurityManager 386
+-1 _errorListener 673
+-1 _accessExternalStylesheet 366
+-1 _xmlFeatures 311
+-1 _extensionClassLoader 396
+-1 _piParams 434
+458 _title 477
+458 _media 473
+458 _charset 481
+Accesses: 44
+0 1 -1 
+512 1 -1 
+640 1 -1 
+257 1 -1 
+385 1 -1 
+453 1 -1 
+581 1 -1 
+71 1 -1 
+520 1 -1 
+330 1 -1 
+395 1 -1 
+588 1 -1 
+652 1 -1 
+13 1 -1 
+205 1 -1 
+596 1 -1 
+852 1 -1 
+406 1 -1 
+472 1 458 
+27 1 -1 
+476 1 458 
+158 1 -1 
+350 1 -1 
+799 1 -1 
+480 1 458 
+672 1 -1 
+418 1 -1 
+421 1 -1 
+233 1 -1 
+297 1 -1 
+489 1 -1 
+171 1 -1 
+365 1 -1 
+814 1 -1 
+240 1 -1 
+496 1 -1 
+433 1 -1 
+310 1 -1 
+375 1 -1 
+440 1 -1 
+185 1 -1 
+633 1 -1 
+573 1 -1 
+318 1 -1 
+Functions: 83
+130 0 
+770 0 
+261 2 170 204 
+389 2 306 386 
+134 0 
+7 13 -1 513 673 -2 386 422 172 396 206 366 434 311 376 
+264 0 
+777 0 
+140 0 
+524 2 513 306 
+399 2 306 396 
+403 1 306 
+531 13 -1 513 673 -2 386 422 172 396 206 366 434 311 376 
+20 0 
+660 1 306 
+149 0 
+789 0 
+24 0 
+280 2 170 204 
+154 0 
+794 0 
+283 0 
+669 12 -1 513 673 386 434 422 311 376 172 396 206 366 
+414 1 306 
+31 0 
+287 12 -1 513 673 386 434 422 311 376 172 396 206 366 
+36 0 
+165 13 -1 513 673 -2 386 422 172 396 206 366 434 311 376 
+549 2 536 543 
+807 1 306 
+40 0 
+681 1 306 
+554 1 543 
+811 12 -1 513 673 386 434 422 311 376 172 396 206 366 
+685 13 -1 513 673 386 422 682 172 396 206 366 434 311 376 
+302 16 -1 513 673 386 228 422 170 204 172 396 206 366 434 311 376 218 
+430 13 -1 513 673 386 422 172 396 206 366 306 434 311 376 
+48 0 
+178 2 178 172 
+820 0 
+54 12 -1 513 673 386 434 422 311 376 172 396 206 366 
+182 1 178 
+441 2 -2 434 
+569 2 306 559 
+314 2 306 311 
+699 0 
+189 1 189 
+704 1 306 
+194 3 194 170 204 
+834 1 306 
+198 1 198 
+454 2 -2 434 
+327 1 306 
+712 1 306 
+585 2 306 172 
+76 12 -1 513 673 386 434 422 311 376 172 396 206 366 
+848 1 306 
+339 1 306 
+723 0 
+212 15 -1 513 673 -2 386 422 170 172 396 204 206 366 434 311 376 
+725 0 
+88 0 
+600 2 306 206 
+857 16 -1 513 673 386 422 840 172 396 206 366 625 849 434 631 311 376 
+347 1 306 
+222 15 -1 513 673 -2 386 422 170 172 396 204 206 366 434 311 376 
+97 0 
+611 2 -2 306 
+484 4 481 306 473 477 
+102 0 
+359 1 306 
+617 2 306 615 
+749 0 
+111 0 
+369 2 306 366 
+754 0 
+115 0 
+627 1 306 
+504 13 -1 513 673 -2 386 422 172 396 206 366 434 311 376 
+379 2 306 376 
+124 0 
+509 2 306 506 
+127 0 
+Constructors: 4
+549 543
+182 178
+857 840
+314 306
+
+Summary: 51
+178 46 62 40 481 625 -1 458 170 682 772 111 273 118 218 506 791 127 473 732 12 559 81 536 849 189 477 743 131 20 151 250 99 445 306 134 137 194 716 759 615 36 198 543 228 631 -2 808 204 31 107 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.newTransformer()Ljavax/xml/transform/Transformer;
+PTG:
+Vars:
+6
+$r0 1 0 
+r2 1 -1 
+$r5 1 21 
+$r1 1 4 
+$r4 1 21 
+_ret 1 0 
+Fields: 1
+-1 _uriResolver 21
+Accesses: 4
+35 1 -1 
+20 1 -1 
+11 1 -1 
+28 1 -1 
+Functions: 4
+16 4 0 -1 4 21 
+32 2 0 21 
+8 1 4 
+44 1 0 
+Constructors: 2
+16 0
+8 4
+
+Summary: 2
+4 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.setFeature(Ljava/lang/String;Z)V
+PTG:
+Vars:
+19
+$r13 1 175 
+$r18 1 100 
+$r21 1 100 
+r0 1 -2 
+$r11 1 82 
+$r26 1 100 
+$r16 1 106 
+r1 1 -1 
+$r17 1 103 
+$r22 1 134 
+$r24 1 137 
+$r25 1 148 
+$r12 1 162 
+$r15 1 162 
+$r19 1 121 
+$r27 1 151 
+$r14 1 172 
+$r20 1 118 
+$r23 1 100 
+Fields: 3
+-1 _xmlSecurityManager 82
+-1 _xmlFeatures 162
+-1 _xmlSecurityPropertyMgr 100
+Accesses: 16
+256 1 -1 
+161 1 -1 
+130 1 -1 
+194 1 -1 
+35 1 -1 
+99 1 -1 
+168 1 -1 
+202 1 -1 
+140 1 -1 
+78 1 -1 
+144 1 -1 
+81 1 -1 
+209 1 -1 
+114 1 -1 
+246 1 -1 
+154 1 -1 
+Functions: 22
+64 0 
+131 2 100 134 
+227 1 -2 
+10 0 
+267 1 -2 
+236 1 -2 
+111 3 100 103 106 
+145 2 100 148 
+18 0 
+210 1 -2 
+179 3 162 172 175 
+275 0 
+52 0 
+22 0 
+86 1 82 
+247 0 
+279 0 
+185 1 -2 
+217 0 
+26 1 -2 
+60 0 
+126 3 100 118 121 
+Constructors: 0
+
+Summary: 9
+-1 46 4 61 218 19 260 -2 276 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.getExternalExtensionsMap()Ljava/util/Map;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 _xsltcExtensionFunctions 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.setAttribute(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+14
+$r7 1 480 
+r0 1 -2 
+$r40 1 446 
+$r16 1 446 
+$r37 1 -1 
+$r4 1 530 
+r1 1 -1 
+$r8 1 469 
+$r22 1 -3 
+$r5 1 535 
+r6 1 -3 
+$r15 1 457 
+$r3 1 519 
+$r2 1 469 
+Fields: 2
+-1 _xmlSecurityManager 446
+-1 _xmlSecurityPropertyMgr 469
+Accesses: 25
+320 1 -1 
+194 1 -1 
+515 1 -1 
+452 1 -1 
+71 1 -1 
+392 1 -1 
+271 1 -1 
+145 1 -1 
+468 1 -1 
+21 1 -1 
+341 1 -1 
+475 1 -1 
+222 1 -1 
+96 1 -1 
+417 1 -1 
+292 1 -1 
+491 1 -1 
+173 1 -1 
+46 1 -1 
+369 1 -1 
+243 1 -1 
+501 1 -1 
+505 1 -1 
+124 1 -1 
+445 1 -1 
+Functions: 33
+0 1 -2 
+386 0 
+453 4 -2 -3 457 446 
+198 1 -2 
+137 0 
+265 0 
+75 1 -2 
+396 1 -2 
+333 0 
+526 2 -2 519 
+149 1 -2 
+534 1 519 
+216 0 
+25 1 -2 
+345 1 -2 
+538 2 530 535 
+284 0 
+476 4 480 -2 -3 469 
+100 1 -2 
+167 0 
+296 1 -2 
+235 0 
+363 1 -3 
+492 0 
+429 0 
+50 1 -2 
+437 0 
+118 0 
+247 1 -2 
+441 0 
+186 0 
+314 0 
+506 0 
+Constructors: 2
+538 530
+526 519
+
+Summary: 6
+421 -1 -2 438 519 535 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.getBytecodesFromJar(Ljavax/xml/transform/Source;Ljava/lang/String;)[[B
+PTG:
+Vars:
+41
+$r36 1 54 
+$r7 1 224 
+r5 1 -3 
+r48 1 213 
+r50 1 289 
+$r3 1 24 
+$r28 1 96 
+$r45 1 184 
+$r24 1 72 
+$r31 1 30 
+$r35 1 51 
+$r32 1 24 
+r21 1 366 
+$r6 1 215 
+r12 1 259 
+r2 1 5 
+r15 1 275 
+_ret 0 
+r1 1 -2 
+$r20 1 289 
+$r37 1 13 
+r0 1 -1 
+$r9 1 238 
+r51 1 304 
+r52 1 354 
+$r8 1 230 
+$r33 1 41 
+$r25 1 78 
+$r11 1 253 
+$r34 1 47 
+r49 1 236 
+$r44 1 120 
+r43 3 118 60 109 
+$r26 1 87 
+$r29 1 100 
+r42 1 13 
+$r27 1 90 
+$r13 1 261 
+$r30 1 103 
+$r10 1 247 
+$r16 0 
+Fields: 4
+-1 _destinationDirectory 24
+-1 _jarFileName 51
+-1 _jarFileName 100
+-1 _jarFileName 118
+Accesses: 5
+50 1 -1 
+114 1 -1 
+99 1 -1 
+37 1 -1 
+23 1 -1 
+Functions: 45
+0 6 -1 -2 51 100 118 24 
+131 1 120 
+389 2 261 366 
+70 1 13 
+326 1 304 
+265 1 261 
+205 1 -3 
+78 2 87 78 
+270 1 184 
+337 2 304 236 
+18 2 5 13 
+82 1 78 
+85 1 13 
+149 1 13 
+277 1 275 
+405 1 261 
+215 2 213 215 
+90 1 90 
+219 1 215 
+347 2 289 184 
+157 1 13 
+30 2 24 30 
+287 1 275 
+96 2 96 100 
+224 1 224 
+34 1 30 
+164 1 120 
+356 1 289 
+230 1 230 
+103 1 103 
+41 1 41 
+299 1 289 
+238 2 213 238 
+47 2 51 47 
+242 1 238 
+306 1 289 
+54 1 54 
+247 1 247 
+440 1 261 
+377 7 -1 354 51 100 118 24 366 
+316 2 304 259 
+253 1 253 
+126 4 118 120 60 109 
+190 2 184 120 
+382 1 354 
+Constructors: 8
+18 13
+34 30
+82 78
+242 238
+265 261
+219 215
+126 120
+190 184
+
+Summary: 36
+259 236 120 1 -1 213 96 261 0 109 253 224 354 13 184 215 54 90 5 41 -3 -2 304 47 30 60 238 230 72 366 103 247 289 87 275 78 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.newTransformerHandler()Ljavax/xml/transform/sax/TransformerHandler;
+PTG:
+Vars:
+7
+r0 1 -1 
+r1 1 4 
+$r3 1 20 
+$r4 1 4 
+$r5 1 6 
+$r2 1 6 
+_ret 1 20 
+Fields: 1
+-1 _uriResolver 6
+Accesses: 2
+5 1 -1 
+13 1 -1 
+Functions: 3
+0 2 -1 6 
+17 2 4 6 
+28 2 20 4 
+Constructors: 1
+28 20
+
+Summary: 2
+4 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.setErrorListener(Ljavax/xml/transform/ErrorListener;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 1
+30 1 -1 
+Functions: 3
+20 0 
+24 0 
+12 0 
+Constructors: 0
+
+Summary: 3
+21 4 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.passErrorsToListener(Ljava/util/ArrayList;)V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r6 1 41 
+$r8 1 -1 
+r5 1 35 
+$r1 1 1 
+r2 1 -2 
+$r4 1 26 
+$r7 1 1 
+$r3 1 26 
+Fields: 1
+-1 _errorListener 1
+Accesses: 2
+0 1 -1 
+37 1 -1 
+Functions: 5
+50 2 1 41 
+24 1 -2 
+12 1 -2 
+29 1 26 
+47 2 35 41 
+Constructors: 1
+47 41
+
+Summary: 6
+-2 41 35 0 -1 26 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.getBytecodesFromClasses(Ljavax/xml/transform/Source;Ljava/lang/String;)[[B
+PTG:
+Vars:
+45
+$r10 1 279 
+$r12 1 377 
+r0 1 -3 
+$r29 1 153 
+r16 1 415 
+$r17 0 
+r47 1 69 
+$r40 1 -1 
+r1 1 -1 
+$r13 1 386 
+$r37 1 22 
+$r14 1 392 
+$r31 1 78 
+$r33 1 89 
+$r25 1 130 
+$r5 1 170 
+$r35 1 100 
+$r28 1 148 
+$r30 1 159 
+r45 1 22 
+$r36 1 106 
+r3 1 14 
+$r50 1 257 
+_ret 0 
+$r34 1 95 
+$r26 1 139 
+r46 2 53 -3 
+$r21 1 451 
+r57 1 433 
+$r32 1 72 
+$r7 1 185 
+r54 2 351 364 
+$r6 1 179 
+r53 1 302 
+$r39 1 -1 
+$r4 1 72 
+r48 3 191 165 112 
+$r49 1 193 
+$r11 1 366 
+r59 1 472 
+r2 1 -2 
+$r27 1 142 
+r56 1 398 
+$r24 1 124 
+$r15 1 402 
+Fields: 2
+-1 _destinationDirectory 72
+415 ArrayObject 433
+Accesses: 2
+85 1 -1 
+71 1 -1 
+Functions: 50
+512 1 257 
+130 2 130 139 
+386 1 386 
+261 1 257 
+134 1 130 
+392 1 392 
+9 3 -1 -2 72 
+137 1 22 
+266 1 193 
+142 1 142 
+400 2 402 366 
+148 2 148 69 
+153 1 153 
+409 4 -1 402 72 398 
+27 2 22 14 
+285 2 193 279 
+159 1 159 
+32 1 -3 
+547 1 257 
+170 2 69 170 
+45 1 -3 
+174 1 170 
+179 1 179 
+435 1 433 
+185 1 185 
+313 4 -1 279 72 302 
+61 1 -3 
+318 1 279 
+199 4 112 193 165 191 
+457 2 433 451 
+204 1 193 
+78 2 72 78 
+335 2 257 302 
+82 1 78 
+89 1 89 
+346 1 193 
+222 1 22 
+95 2 69 95 
+483 4 -1 451 72 472 
+100 1 100 
+230 1 22 
+358 0 
+488 1 451 
+106 1 106 
+237 1 193 
+372 3 364 366 351 
+503 2 257 472 
+377 3 -3 53 377 
+122 1 22 
+381 1 377 
+Constructors: 11
+82 78
+372 366
+261 257
+134 130
+199 193
+409 402
+457 451
+27 22
+285 279
+381 377
+174 170
+
+Summary: 43
+279 53 89 1 377 351 22 112 148 364 -1 386 451 69 106 124 302 165 153 139 0 193 95 130 472 398 100 179 415 185 -3 -2 142 191 14 392 366 402 433 159 170 257 78 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.<init>()V
+PTG:
+Vars:
+13
+$r1 1 97 
+$r11 1 183 
+$r4 1 138 
+$r3 1 141 
+$r5 1 151 
+$r8 1 169 
+$r10 1 163 
+$r12 1 190 
+$r2 1 114 
+$r7 1 163 
+$r6 1 166 
+$r9 1 180 
+r0 1 -1 
+Fields: 5
+-1 _transletName 17
+-1 _accessExternalDTD 89
+-1 _accessExternalStylesheet 83
+-1 _xmlFeatures 138
+-1 _xmlSecurityPropertyMgr 163
+Accesses: 31
+67 1 -1 
+133 1 -1 
+6 1 -1 
+198 1 -1 
+72 1 -1 
+137 1 -1 
+11 1 -1 
+203 1 -1 
+77 1 -1 
+17 1 -1 
+83 1 -1 
+147 1 -1 
+22 1 -1 
+89 1 -1 
+27 1 -1 
+94 1 -1 
+158 1 -1 
+32 1 -1 
+162 1 -1 
+37 1 -1 
+105 1 -1 
+42 1 -1 
+172 1 -1 
+110 1 -1 
+47 1 -1 
+176 1 -1 
+52 1 -1 
+118 1 -1 
+57 1 -1 
+186 1 -1 
+62 1 -1 
+Functions: 8
+-1 0 
+1 6 -1 17 83 163 89 138 
+177 2 163 180 
+130 1 114 
+163 2 163 166 
+195 1 190 
+138 2 138 141 
+155 1 151 
+Constructors: 4
+1 -1
+130 114
+195 190
+155 151
+
+Summary: 1
+97 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.fatalError(Ljavax/xml/transform/TransformerException;)V
+PTG:
+Vars:
+10
+$r5 1 12 
+$r3 1 35 
+r1 1 4 
+$r7 1 19 
+$r2 1 38 
+r0 1 -2 
+$r8 1 23 
+$r4 1 45 
+r9 1 -1 
+$r6 1 9 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+48 2 38 45 
+18 1 -2 
+51 2 35 38 
+22 1 4 
+26 3 19 23 12 
+44 1 -2 
+29 2 9 12 
+Constructors: 2
+48 38
+26 12
+
+Summary: 7
+38 45 4 -1 12 19 23 
+com/sun/org/apache/xalan/internal/xsltc/trax/TransformerFactoryImpl.loadSource(Ljava/lang/String;Ljava/lang/String;Lcom/sun/org/apache/xalan/internal/xsltc/compiler/XSLTC;)Lorg/xml/sax/InputSource;
+PTG:
+Vars:
+18
+r0 1 -1 
+$r19 1 43 
+r17 1 18 
+$r1 1 1 
+$r20 1 37 
+r5 1 -4 
+$r10 1 51 
+$r7 1 -1 
+$r14 1 67 
+$r11 1 56 
+r2 1 -2 
+$r4 1 1 
+$r6 1 28 
+$r16 1 77 
+r3 1 -3 
+$r12 1 61 
+$r21 1 -1 
+$r13 1 64 
+Fields: 1
+-1 _uriResolver 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 11
+64 1 64 
+51 1 51 
+83 2 37 77 
+71 4 -1 1 67 37 
+8 3 1 -2 -3 
+56 2 56 61 
+26 2 18 -4 
+43 2 -2 43 
+59 1 -1 
+76 1 -4 
+47 1 43 
+Constructors: 2
+71 37
+47 43
+
+Summary: 13
+61 64 1 2 18 -1 77 -3 -2 -4 67 0 37 

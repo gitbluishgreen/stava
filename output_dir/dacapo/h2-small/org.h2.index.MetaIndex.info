@@ -1,0 +1,243 @@
+16
+org/h2/index/MetaIndex.getCost(Lorg/h2/engine/Session;[I)D
+PTG:
+Vars:
+3
+r1 1 -3 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+11 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+1 -2 0 -1 -3 
+org/h2/index/MetaIndex.remove(Lorg/h2/engine/Session;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+4
+r3 1 -3 
+$r0 1 2 
+r2 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 5
+1 -2 0 -1 -3 
+org/h2/index/MetaIndex.getRowCount(Lorg/h2/engine/Session;)J
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/index/MetaIndex.getRowCountApproximation()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/MetaIndex.add(Lorg/h2/engine/Session;Lorg/h2/result/Row;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+r2 1 -2 
+r3 1 -3 
+$r0 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 5
+1 -2 0 -1 -3 
+org/h2/index/MetaIndex.remove(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+r2 1 -2 
+$r0 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/index/MetaIndex.needRebuild()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/MetaIndex.getCreateSQL()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/MetaIndex.truncate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 2 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/index/MetaIndex.getColumnIndex(Lorg/h2/table/Column;)I
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+9 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/index/MetaIndex.close(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/index/MetaIndex.findFirstOrLast(Lorg/h2/engine/Session;Z)Lorg/h2/index/Cursor;
+PTG:
+Vars:
+3
+r2 1 -2 
+r1 1 -1 
+$r0 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/h2/index/MetaIndex.<init>(Lorg/h2/table/MetaTable;[Lorg/h2/table/IndexColumn;Z)V
+PTG:
+Vars:
+4
+$r3 1 10 
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 2
+18 1 -1 
+23 1 -1 
+Functions: 3
+1 1 -1 
+9 0 
+13 4 -1 -2 -3 10 
+Constructors: 1
+1 -1
+
+Summary: 4
+1 0 -1 -3 
+org/h2/index/MetaIndex.canGetFirstOrLast()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/MetaIndex.find(Lorg/h2/engine/Session;Lorg/h2/result/SearchRow;Lorg/h2/result/SearchRow;)Lorg/h2/index/Cursor;
+PTG:
+Vars:
+9
+$r8 1 12 
+_ret 1 12 
+r3 1 -4 
+$r7 1 12 
+$r4 1 1 
+r2 1 -3 
+r5 1 10 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 meta 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 4 1 -2 -3 -4 
+18 2 10 12 
+Constructors: 1
+18 12
+
+Summary: 7
+1 -2 0 -4 -1 -3 2 
+org/h2/index/MetaIndex.checkRename()V
+PTG:
+Vars:
+2
+r1 1 -1 
+$r0 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 

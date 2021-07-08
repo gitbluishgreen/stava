@@ -1,0 +1,49 @@
+void foo(A)
+    {
+        A$B $r0, $r2, $r6, $r7;
+        A$B$C r1;
+        A $r3, r5, $r8, $r9;
+        int $i0, $i1, i2;
+
+        r1 := @this: A$B$C;
+
+        r5 := @parameter0: A;
+
+        $r0 = new A$B;
+
+        $r2 = r1.<A$B$C: A$B this$1>;
+
+        $r3 = $r2.<A$B: A this$0>;
+
+        specialinvoke $r0.<A$B: void <init>(A)>($r3);
+
+        r5.<A: int a_val> = 10;
+
+        $r0.<A$B: int a_val> = 20;
+
+        i2 = 0;
+
+     label1:
+        if i2 >= 20 goto label2;
+
+        $r6 = r1.<A$B$C: A$B this$1>;
+
+        $r9 = $r6.<A$B: A this$0>;
+
+        $r7 = r1.<A$B$C: A$B this$1>;
+
+        $r8 = $r7.<A$B: A this$0>;
+
+        $i0 = $r8.<A: int a_val>;
+
+        $i1 = $i0 + 1;
+
+        $r9.<A: int a_val> = $i1;
+
+        i2 = i2 + 1;
+
+        goto label1;
+
+     label2:
+        return;
+    }

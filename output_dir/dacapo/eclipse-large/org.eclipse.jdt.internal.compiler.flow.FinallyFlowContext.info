@@ -1,0 +1,364 @@
+8
+org/eclipse/jdt/internal/compiler/flow/FinallyFlowContext.removeFinalAssignmentIfAny(Lorg/eclipse/jdt/internal/compiler/ast/Reference;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r3 1 10 
+r0 1 -1 
+$r1 1 6 
+Fields: 2
+6 ArrayObject 10
+-1 finalAssignments 6
+Accesses: 4
+34 1 -1 
+5 1 -1 
+22 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/compiler/flow/FinallyFlowContext.individualToString()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r9 1 49 
+$r4 1 20 
+$r7 1 39 
+$r2 1 13 
+$r6 1 32 
+r3 1 -1 
+$r0 1 0 
+_ret 1 49 
+Fields: 0
+Accesses: 2
+16 1 -1 
+35 1 -1 
+Functions: 8
+32 1 32 
+48 1 0 
+6 1 0 
+25 1 20 
+10 1 0 
+44 1 39 
+13 1 13 
+29 1 0 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/flow/FinallyFlowContext.isSubRoutine()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/flow/FinallyFlowContext.recordUsingNullReference(Lorg/eclipse/jdt/internal/compiler/lookup/Scope;Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;Lorg/eclipse/jdt/internal/compiler/ast/Expression;ILorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+5
+r4 1 -2 
+r3 1 -4 
+r1 1 -3 
+r0 1 -6 
+r2 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -6 
+19 1 -1 
+Functions: 41
+192 1 -2 
+448 2 -3 -4 
+513 2 -3 -6 
+131 2 -3 -4 
+260 2 -3 -4 
+452 1 -2 
+198 2 -3 -4 
+135 2 -3 -6 
+10 2 -3 -6 
+202 1 -2 
+458 2 -3 -4 
+462 1 -2 
+208 2 -3 -4 
+336 2 -3 -6 
+528 3 -1 -3 -4 
+212 1 -2 
+468 2 -3 -4 
+218 2 -3 -4 
+475 2 -3 -6 
+222 1 -2 
+96 2 -3 -6 
+353 1 -2 
+228 2 -3 -4 
+484 1 -2 
+359 2 -3 -4 
+490 2 -3 -4 
+235 2 -3 -6 
+365 1 -2 
+494 2 -3 -6 
+432 1 -2 
+113 1 -2 
+371 2 -3 -4 
+245 2 -3 -6 
+438 2 -3 -4 
+119 2 -3 -4 
+375 2 -3 -6 
+503 1 -2 
+442 1 -2 
+125 1 -2 
+509 2 -3 -4 
+254 1 -2 
+Constructors: 0
+
+Summary: 23
+-3 114 223 213 463 203 0 453 366 433 -4 1 4 443 485 126 193 2 255 354 -1 504 -6 
+org/eclipse/jdt/internal/compiler/flow/FinallyFlowContext.complainOnDeferredChecks(Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+39
+$r20 1 451 
+$r3 1 11 
+$r11 1 11 
+$r30 1 173 
+$r15 1 11 
+$r16 1 208 
+r38 1 221 
+$r25 1 332 
+$r1 1 6 
+r36 2 110 131 
+r37 1 213 
+r35 1 11 
+$r31 1 179 
+$r18 1 224 
+$r4 3 93 118 57 
+$r17 1 216 
+$r19 2 355 224 
+$r5 1 122 
+$r8 3 93 118 57 
+$r27 1 500 
+$r10 1 11 
+$r14 1 61 
+$r21 1 437 
+$r33 1 171 
+$r32 1 177 
+$r7 1 84 
+$r23 1 409 
+$r9 1 97 
+$r29 1 167 
+r0 1 -1 
+$r22 1 423 
+$r12 1 48 
+$r28 1 477 
+$r24 2 306 224 
+r2 1 -2 
+r6 1 -3 
+$r34 2 162 110 
+$r26 1 318 
+$r13 3 93 118 57 
+Fields: 27
+93 ArrayObject 97
+93 ArrayObject 122
+93 ArrayObject 61
+167 ArrayObject 171
+118 ArrayObject 97
+118 ArrayObject 122
+118 ArrayObject 61
+6 ArrayObject 11
+173 ArrayObject 177
+216 ArrayObject 221
+208 ArrayObject 213
+-1 nullLocals 216
+-1 nullLocals 167
+-1 parent 162
+-1 parent 110
+-1 finalAssignments 93
+-1 finalAssignments 118
+-1 finalAssignments 57
+-1 nullReferences 173
+-1 nullReferences 208
+-1 finalVariables 6
+-1 nullCheckTypes 224
+-1 nullCheckTypes 179
+57 ArrayObject 97
+57 ArrayObject 61
+57 ArrayObject 122
+131 parent 131
+Accesses: 19
+192 1 -1 
+161 1 -1 
+354 1 -1 
+514 1 -1 
+5 1 -1 
+166 1 -1 
+106 1 -1 
+172 1 -1 
+142 1 -1 
+207 1 -1 
+305 1 -1 
+178 1 -1 
+117 1 -1 
+149 1 -1 
+215 1 -1 
+56 1 -1 
+92 1 -1 
+126 2 131 110 
+223 1 -1 
+Functions: 28
+450 1 -3 
+68 2 -2 11 
+325 3 213 221 318 
+458 3 451 213 221 
+331 1 -3 
+83 1 -3 
+339 3 213 332 221 
+467 2 -2 221 
+408 1 -3 
+345 2 -2 221 
+476 1 -3 
+32 2 -2 11 
+416 3 213 409 221 
+98 3 97 84 11 
+484 3 213 477 221 
+422 1 -3 
+296 2 -2 221 
+490 2 -2 221 
+430 3 213 423 221 
+47 1 -3 
+499 1 -3 
+436 1 -3 
+185 6 177 -2 162 -3 171 110 
+123 3 131 122 110 
+507 3 500 213 221 
+444 3 437 213 221 
+317 1 -3 
+62 3 48 11 61 
+Constructors: 0
+
+Summary: 14
+48 84 1 318 -2 437 332 0 451 477 409 500 423 -1 
+org/eclipse/jdt/internal/compiler/flow/FinallyFlowContext.recordFinalAssignment(Lorg/eclipse/jdt/internal/compiler/lookup/VariableBinding;Lorg/eclipse/jdt/internal/compiler/ast/Reference;)Z
+PTG:
+Vars:
+12
+$r6 1 50 
+$r11 1 66 
+$r10 1 31 
+r0 1 -1 
+r5 1 -2 
+$r3 1 66 
+$r9 1 17 
+$r8 1 9 
+$r1 1 31 
+r4 1 -3 
+$r7 1 31 
+$r2 1 77 
+Fields: 2
+-1 finalAssignments 31
+-1 finalVariables 66
+Accesses: 18
+0 1 -1 
+96 1 -1 
+65 1 -1 
+38 1 -1 
+102 1 -1 
+71 1 -1 
+106 1 -1 
+12 1 -1 
+44 1 -1 
+81 1 -1 
+114 1 -1 
+20 1 -1 
+85 1 -1 
+54 1 -1 
+26 1 -1 
+58 1 -1 
+92 1 -1 
+30 1 -1 
+Functions: 2
+89 2 66 77 
+62 2 50 31 
+Constructors: 0
+
+Summary: 3
+0 -1 1 
+org/eclipse/jdt/internal/compiler/flow/FinallyFlowContext.<init>(Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -1 -2 -3 
+Constructors: 1
+3 -1
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/flow/FinallyFlowContext.recordNullReference(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;Lorg/eclipse/jdt/internal/compiler/ast/Expression;I)V
+PTG:
+Vars:
+16
+$r11 1 17 
+$r1 1 38 
+r0 1 -1 
+$r10 1 9 
+$r7 1 77 
+$r12 1 25 
+$r4 1 61 
+$r8 1 107 
+$r6 1 84 
+$r5 1 38 
+r3 1 -3 
+$r13 1 38 
+$r15 1 100 
+r2 1 -2 
+$r9 1 100 
+$r14 1 77 
+Fields: 3
+-1 nullLocals 38
+-1 nullReferences 77
+-1 nullCheckTypes 100
+Accesses: 23
+0 1 -1 
+33 1 -1 
+65 1 -1 
+99 1 -1 
+131 1 -1 
+37 1 -1 
+69 1 -1 
+135 1 -1 
+12 1 -1 
+76 1 -1 
+45 1 -1 
+141 1 -1 
+110 1 -1 
+145 1 -1 
+114 1 -1 
+20 1 -1 
+53 1 -1 
+88 1 -1 
+121 1 -1 
+153 1 -1 
+27 1 -1 
+92 1 -1 
+125 1 -1 
+Functions: 3
+96 2 84 77 
+118 2 100 107 
+73 2 38 61 
+Constructors: 0
+
+Summary: 3
+0 1 -1 

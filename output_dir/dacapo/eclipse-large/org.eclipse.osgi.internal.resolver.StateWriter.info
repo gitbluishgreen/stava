@@ -1,0 +1,1010 @@
+30
+org/eclipse/osgi/internal/resolver/StateWriter.writeVersionRanges([Lorg/eclipse/osgi/service/resolver/VersionRange;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+4
+r0 1 -3 
+r1 1 -2 
+r2 1 -1 
+$r3 1 27 
+Fields: 1
+-2 ArrayObject 27
+Accesses: 0
+Functions: 2
+11 1 -3 
+29 3 -1 -3 27 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeNativeCode(Lorg/eclipse/osgi/service/resolver/NativeCodeSpecification;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+7
+r5 1 -1 
+r2 1 31 
+r0 1 -2 
+r1 1 -3 
+$r4 1 64 
+$r6 1 80 
+$r3 1 62 
+Fields: 2
+31 ArrayObject 80
+31 ArrayObject 62
+Accesses: 0
+Functions: 9
+16 1 -2 
+82 3 -1 80 -3 
+98 1 -3 
+6 1 -3 
+22 1 -3 
+25 1 -2 
+12 1 -3 
+47 1 -3 
+63 1 -2 
+Constructors: 0
+
+Summary: 7
+-3 -2 0 31 -1 64 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeDisabledInfo(Lorg/eclipse/osgi/service/resolver/DisabledInfo;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+6
+$r4 1 11 
+r1 1 -2 
+r3 1 -3 
+$r2 1 2 
+$r5 1 20 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+1 1 -2 
+19 1 -2 
+6 3 -1 2 -3 
+25 3 -1 -3 20 
+10 1 -2 
+15 3 -1 -3 11 
+Constructors: 0
+
+Summary: 7
+11 20 -3 2 -2 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeQualifier(Ljava/lang/String;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 3 -1 -2 -3 
+4 1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeBundleDescriptionLazyData(Lorg/eclipse/osgi/service/resolver/BundleDescription;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+41
+$r24 1 525 
+$r25 1 586 
+$r12 1 222 
+$r21 1 488 
+r6 1 57 
+r34 1 363 
+r36 1 462 
+r2 1 -2 
+r1 1 -1 
+$r3 1 -2 
+r32 1 247 
+$r14 1 280 
+r39 1 553 
+$r10 1 164 
+$r27 1 659 
+$r5 1 42 
+$r16 1 338 
+$r19 1 439 
+$r23 1 525 
+$r8 1 77 
+r31 1 189 
+$r26 1 641 
+r38 1 503 
+$r4 1 31 
+r0 1 -3 
+r29 1 102 
+$r13 1 222 
+$r20 1 -2 
+$r7 1 77 
+r30 1 144 
+r37 1 496 
+$r18 1 396 
+$r11 1 164 
+$r15 1 280 
+$r17 1 338 
+$r9 1 122 
+$r22 1 503 
+r35 1 419 
+$r28 1 -2 
+r40 1 608 
+r33 1 305 
+Fields: 10
+102 ArrayObject 122
+247 ArrayObject 280
+144 ArrayObject 164
+305 ArrayObject 338
+419 ArrayObject 439
+363 ArrayObject 396
+189 ArrayObject 222
+608 ArrayObject 641
+57 ArrayObject 77
+553 ArrayObject 586
+Accesses: 0
+Functions: 61
+0 1 -3 
+256 1 -3 
+643 3 -1 641 -3 
+5 2 -1 -2 
+517 3 -1 -3 503 
+521 2 503 462 
+138 1 -2 
+266 1 -3 
+399 3 -1 -3 396 
+16 1 -3 
+528 1 525 
+658 1 -2 
+20 1 -2 
+150 1 -3 
+534 1 -3 
+537 1 496 
+665 3 -1 -3 659 
+26 1 -3 
+285 3 -1 -3 280 
+413 1 -2 
+30 1 -2 
+672 1 -3 
+547 1 -2 
+37 3 -1 -3 31 
+678 1 -2 
+41 1 -2 
+169 3 -1 -3 164 
+425 1 -3 
+299 1 -2 
+48 3 -1 -3 42 
+562 1 -3 
+51 1 -2 
+183 1 -2 
+441 3 -1 -3 439 
+314 1 -3 
+572 1 -3 
+63 1 -3 
+324 1 -3 
+198 1 -3 
+456 1 -2 
+588 3 -1 -3 586 
+208 1 -3 
+82 3 -1 -3 77 
+343 3 -1 338 -3 
+471 1 -3 
+602 1 -2 
+478 1 462 
+96 1 -2 
+227 3 -1 -3 222 
+483 1 -3 
+357 1 -2 
+486 1 462 
+488 1 488 
+617 1 -3 
+108 1 -3 
+241 1 -2 
+627 1 -3 
+372 1 -3 
+501 1 496 
+124 3 -1 -3 122 
+382 1 -3 
+Constructors: 0
+
+Summary: 21
+-3 247 189 1 102 659 144 305 488 31 363 -2 462 608 57 525 503 42 419 -1 553 
+org/eclipse/osgi/internal/resolver/StateWriter.writeBundleDescription(Lorg/eclipse/osgi/service/resolver/BundleDescription;Ljava/io/DataOutputStream;Z)V
+PTG:
+Vars:
+14
+r2 1 -3 
+$r5 1 145 
+$r7 1 -2 
+$r4 1 -2 
+r8 1 185 
+r0 1 -1 
+$r12 1 5 
+r1 1 -2 
+$r11 1 5 
+$r9 1 193 
+$r3 1 -2 
+$r6 1 145 
+r13 1 165 
+$r10 1 193 
+Fields: 1
+-1 forcedWrite 5
+Accesses: 2
+33 1 -1 
+4 1 -1 
+Functions: 32
+130 1 -3 
+68 4 -1 -2 -3 5 
+5 2 -2 5 
+134 1 -2 
+73 1 -2 
+203 4 -1 193 -3 5 
+140 1 -3 
+206 1 185 
+15 3 -1 -2 5 
+79 1 -3 
+144 1 -2 
+84 1 -2 
+24 1 -3 
+90 1 -3 
+155 4 -1 145 -3 5 
+30 1 -3 
+94 1 -2 
+159 1 -2 
+100 1 -3 
+38 2 -2 5 
+104 1 -2 
+168 1 165 
+45 4 -1 -2 -3 5 
+110 1 -3 
+175 1 -3 
+114 1 -2 
+178 1 165 
+56 1 -2 
+120 1 -3 
+124 1 -2 
+62 1 -3 
+191 1 185 
+Constructors: 0
+
+Summary: 8
+-3 -2 165 193 145 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeGenericSpecification(Lorg/eclipse/osgi/service/resolver/GenericSpecification;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+8
+$r9 1 24 
+r2 1 -3 
+$r6 1 68 
+r0 1 -1 
+$r5 1 95 
+r1 1 -2 
+$r3 1 8 
+r4 1 39 
+Fields: 1
+39 ArrayObject 68
+Accesses: 0
+Functions: 11
+33 1 -2 
+3 3 -1 -2 -3 
+51 1 -3 
+84 1 -2 
+101 3 -1 -3 95 
+70 3 -1 -3 68 
+7 1 -2 
+23 1 -2 
+90 1 -3 
+30 3 -1 -3 24 
+94 1 -2 
+Constructors: 0
+
+Summary: 8
+24 -3 -2 39 95 -1 8 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeHostSpec(Lorg/eclipse/osgi/internal/resolver/HostSpecificationImpl;Ljava/io/DataOutputStream;Z)V
+PTG:
+Vars:
+6
+$r5 1 -2 
+r3 1 25 
+r1 1 -3 
+r0 1 -2 
+$r4 1 56 
+r2 1 -1 
+Fields: 1
+25 ArrayObject 56
+Accesses: 0
+Functions: 7
+18 3 -1 -2 -3 
+34 1 -3 
+21 1 -2 
+6 1 -3 
+42 1 -3 
+59 3 -1 -3 56 
+12 1 -3 
+Constructors: 0
+
+Summary: 6
+-3 -2 25 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeBundleSpec(Lorg/eclipse/osgi/internal/resolver/BundleSpecificationImpl;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+5
+$r4 1 8 
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+$r3 1 8 
+Fields: 0
+Accesses: 0
+Functions: 7
+16 3 -1 -3 8 
+32 1 -3 
+3 3 -1 -2 -3 
+20 1 -2 
+7 1 -2 
+24 1 -3 
+28 1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 -1 8 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeMap(Ljava/io/DataOutputStream;Ljava/util/Map;)V
+PTG:
+Vars:
+19
+$r11 1 282 
+$r2 1 23 
+$r9 1 261 
+$r8 1 256 
+$r16 1 56 
+r0 1 -3 
+$r15 1 56 
+r7 1 -1 
+$r13 1 56 
+r3 1 33 
+$r17 1 56 
+$r14 1 56 
+$r12 1 56 
+$r10 1 264 
+$r4 1 38 
+r1 1 -2 
+r6 1 56 
+$r18 1 56 
+r5 1 38 
+Fields: 0
+Accesses: 0
+Functions: 33
+256 2 256 264 
+195 1 -2 
+259 1 56 
+133 1 56 
+261 1 261 
+6 1 -2 
+75 1 -2 
+139 1 -2 
+13 1 -3 
+19 1 -2 
+211 1 -2 
+276 1 -2 
+85 3 -1 -2 56 
+22 1 -3 
+23 1 23 
+280 1 56 
+217 1 56 
+155 1 -2 
+286 3 -1 -2 282 
+223 1 -2 
+161 1 56 
+289 1 33 
+37 1 33 
+101 1 -2 
+167 1 -2 
+111 3 -1 -2 56 
+48 2 -3 38 
+240 1 -2 
+183 1 -2 
+250 3 -1 -2 56 
+189 1 56 
+62 3 -1 -2 38 
+127 1 -2 
+Constructors: 0
+
+Summary: 10
+-3 -2 23 0 1 261 264 -1 38 282 
+org/eclipse/osgi/internal/resolver/StateWriter.getFromObjectTable(Ljava/lang/Object;)I
+PTG:
+Vars:
+5
+$r3 1 1 
+$r1 1 1 
+r4 1 17 
+r2 1 -2 
+r0 1 -1 
+Fields: 1
+-1 objectTable 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+23 0 
+8 2 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 0 17 -1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeIndex(Ljava/lang/Object;Ljava/io/DataOutputStream;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 -3 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+6 1 -3 
+26 1 -3 
+11 2 -1 -2 
+31 1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeVersion(Lorg/osgi/framework/Version;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+5
+r1 1 -3 
+r3 1 -1 
+r0 1 -2 
+$r4 1 51 
+$r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 11
+16 1 -3 
+34 1 -2 
+50 1 -2 
+4 2 -2 5 
+22 1 -3 
+38 1 -3 
+55 3 -1 -3 51 
+26 1 -2 
+42 1 -2 
+30 1 -3 
+46 1 -3 
+Constructors: 0
+
+Summary: 6
+-3 -2 51 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.<init>()V
+PTG:
+Vars:
+3
+$r1 1 5 
+r0 1 -1 
+$r2 1 16 
+Fields: 0
+Accesses: 2
+23 1 -1 
+12 1 -1 
+Functions: 3
+1 1 -1 
+20 1 16 
+9 1 5 
+Constructors: 3
+1 -1
+20 16
+9 5
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeBaseDescription(Lorg/eclipse/osgi/service/resolver/BaseDescription;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+5
+r1 1 -2 
+r3 1 -3 
+$r2 1 2 
+r0 1 -1 
+$r4 1 13 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -2 
+19 3 -1 -3 13 
+8 3 -1 2 -3 
+12 1 -2 
+Constructors: 0
+
+Summary: 7
+-3 2 -2 13 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeStringOrNull(Ljava/lang/String;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+3
+r2 1 -1 
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+19 2 -2 -3 
+6 1 -3 
+14 1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeVersionRange(Lorg/eclipse/osgi/service/resolver/VersionRange;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+6
+r3 1 -1 
+r0 1 -2 
+r1 1 -3 
+$r4 1 27 
+$r5 1 44 
+$r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 11
+16 1 -3 
+48 3 -1 -3 44 
+35 1 -2 
+4 2 -2 5 
+52 1 -2 
+22 1 -3 
+39 1 -3 
+56 1 -3 
+26 1 -2 
+43 1 -2 
+31 3 -1 -3 27 
+Constructors: 0
+
+Summary: 7
+-3 -2 0 44 -1 27 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeExportPackageDesc(Lorg/eclipse/osgi/internal/resolver/ExportPackageDescriptionImpl;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+6
+r2 1 -3 
+$r5 1 38 
+r0 1 -1 
+r1 1 -2 
+$r3 1 18 
+$r4 1 29 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 3 -1 -2 -3 
+32 3 -1 -3 29 
+17 1 -2 
+37 1 -2 
+23 3 -1 18 -3 
+41 3 -1 -3 38 
+28 1 -2 
+13 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 8
+-3 -2 0 -1 38 18 29 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeImportPackageSpec(Lorg/eclipse/osgi/service/resolver/ImportPackageSpecification;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+10
+$r5 1 55 
+$r8 1 22 
+$r7 1 78 
+r0 1 -1 
+r2 1 -3 
+$r4 1 44 
+$r3 1 7 
+r1 1 -2 
+$r9 1 22 
+$r6 1 67 
+Fields: 0
+Accesses: 0
+Functions: 14
+66 1 -2 
+3 3 -1 -2 -3 
+6 1 -2 
+7 1 7 
+39 1 -3 
+72 3 -1 -3 67 
+43 1 -2 
+77 1 -2 
+50 3 -1 -3 44 
+83 3 -1 -3 78 
+21 1 -2 
+54 1 -2 
+61 3 -1 -3 55 
+31 3 -1 -3 22 
+Constructors: 0
+
+Summary: 10
+67 -3 -2 7 78 22 44 -1 55 1 
+org/eclipse/osgi/internal/resolver/StateWriter.saveStateDeprecated(Lorg/eclipse/osgi/internal/resolver/StateImpl;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+17 1 -3 
+3 3 -1 -2 -3 
+11 1 -3 
+Constructors: 0
+
+Summary: 3
+-3 -2 -1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeNativeCodeDescription(Lorg/eclipse/osgi/service/resolver/NativeCodeDescription;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+11
+r2 1 -3 
+$r6 1 57 
+$r9 1 90 
+r0 1 -1 
+$r11 1 35 
+$r3 1 8 
+r4 1 24 
+r1 1 -2 
+$r8 1 79 
+$r7 1 68 
+$r5 1 46 
+Fields: 0
+Accesses: 0
+Functions: 18
+96 3 -1 -3 90 
+34 1 24 
+3 3 -1 -2 -3 
+67 1 -2 
+100 1 -2 
+7 1 -2 
+41 3 -1 -3 35 
+74 3 -1 -3 68 
+106 1 -3 
+45 1 -2 
+78 1 -2 
+15 3 -1 -3 8 
+18 1 -2 
+52 3 -1 -3 46 
+85 3 -1 -3 79 
+56 1 -2 
+89 1 -2 
+63 3 -1 -3 57 
+Constructors: 0
+
+Summary: 12
+24 46 -3 -2 68 79 90 35 -1 8 57 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeStateDeprecated(Lorg/eclipse/osgi/internal/resolver/StateImpl;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+12
+$r7 1 114 
+r2 1 -2 
+r1 1 -1 
+$r9 1 150 
+r4 1 39 
+$r5 1 79 
+$r6 1 80 
+$r10 1 194 
+r3 1 28 
+r11 1 59 
+r0 1 -3 
+r12 1 112 
+Fields: 4
+39 ArrayObject 59
+112 ArrayObject 194
+112 ArrayObject 150
+28 ArrayObject 79
+Accesses: 0
+Functions: 21
+32 4 -1 -3 28 79 
+64 1 -3 
+-1 0 
+129 1 -3 
+3 1 -3 
+35 1 -2 
+196 3 -1 194 -3 
+6 3 -1 -2 -3 
+168 1 -2 
+74 2 59 79 
+108 1 -2 
+172 1 -3 
+45 1 -3 
+176 1 -3 
+17 1 -2 
+84 3 -1 80 -3 
+180 1 -3 
+21 1 -3 
+119 4 112 114 194 150 
+24 1 -2 
+153 3 -1 -3 150 
+Constructors: 0
+
+Summary: 10
+80 -3 114 -2 39 0 1 28 -1 112 
+org/eclipse/osgi/internal/resolver/StateWriter.writeGenericDescription(Lorg/eclipse/osgi/service/resolver/GenericDescription;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+12
+$r3 1 18 
+$r10 1 93 
+$r6 1 62 
+r8 1 79 
+r5 1 61 
+$r11 1 111 
+r9 1 91 
+r1 1 -2 
+r2 1 -3 
+$r4 1 30 
+r0 1 -1 
+$r14 1 46 
+Fields: 0
+Accesses: 0
+Functions: 17
+0 3 -1 -2 -3 
+66 1 61 
+70 1 62 
+134 3 -1 -3 62 
+75 1 61 
+108 2 91 61 
+13 3 -1 -2 -3 
+45 1 -2 
+17 1 -2 
+114 3 91 62 111 
+52 3 -1 -3 46 
+84 1 79 
+55 1 -2 
+120 1 79 
+25 3 -1 18 -3 
+29 1 -2 
+93 2 91 93 
+Constructors: 1
+70 62
+
+Summary: 12
+46 -3 111 -2 62 91 30 1 79 61 -1 18 
+org/eclipse/osgi/internal/resolver/StateWriter.writePlatformProp(Ljava/lang/Object;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+6
+r1 1 -3 
+$r4 1 72 
+r2 1 -2 
+r0 1 -2 
+r3 1 -1 
+$r5 1 -2 
+Fields: 1
+-2 ArrayObject 72
+Accesses: 0
+Functions: 6
+16 1 -3 
+36 1 -3 
+24 1 -3 
+74 3 -1 -3 72 
+59 1 -3 
+45 4 -1 -2 -3 72 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writePrefix(Ljava/lang/Object;Ljava/io/DataOutputStream;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 3 -1 -2 -3 
+19 1 -3 
+24 1 -3 
+11 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeVersionConstraint(Lorg/eclipse/osgi/service/resolver/VersionConstraint;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+$r4 1 13 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -2 
+19 3 -1 -3 13 
+8 3 -1 2 -3 
+12 1 -2 
+Constructors: 0
+
+Summary: 7
+-3 2 -2 13 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeList(Ljava/io/DataOutputStream;[Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r2 1 -1 
+r1 1 -2 
+r0 1 -3 
+$r3 1 26 
+Fields: 1
+-3 ArrayObject 26
+Accesses: 0
+Functions: 3
+6 1 -2 
+28 3 -1 -2 26 
+15 1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.addToObjectTable(Ljava/lang/Object;)I
+PTG:
+Vars:
+9
+$r5 1 28 
+$r9 1 1 
+r0 1 -1 
+$r7 1 1 
+$r6 1 1 
+$r2 1 1 
+$r3 1 5 
+r1 1 -2 
+r4 1 5 
+Fields: 1
+-1 objectTable 1
+Accesses: 4
+0 1 -1 
+32 1 -1 
+50 1 -1 
+23 1 -1 
+Functions: 6
+1 2 1 -2 
+33 1 1 
+18 1 5 
+51 1 1 
+41 1 28 
+44 3 1 -2 28 
+Constructors: 1
+41 28
+
+Summary: 5
+-2 28 5 0 -1 
+org/eclipse/osgi/internal/resolver/StateWriter.writeStringArray([Ljava/lang/String;Ljava/io/DataOutputStream;)V
+PTG:
+Vars:
+4
+r0 1 -3 
+r2 1 -1 
+r1 1 -2 
+$r3 1 27 
+Fields: 1
+-2 ArrayObject 27
+Accesses: 0
+Functions: 2
+11 1 -3 
+29 3 -1 -3 27 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/internal/resolver/StateWriter.saveState(Lorg/eclipse/osgi/internal/resolver/StateImpl;Ljava/io/File;Ljava/io/File;)V
+PTG:
+Vars:
+32
+r41 1 122 
+$r17 1 292 
+$r20 1 523 
+$r24 1 -1 
+$r2 1 18 
+$r16 1 291 
+r4 1 -1 
+$r9 1 70 
+$r19 1 384 
+$r27 1 -1 
+$r25 1 -1 
+r15 1 247 
+$r6 1 56 
+$r14 1 126 
+r44 1 233 
+r7 1 -4 
+$r26 1 -1 
+$r5 1 40 
+r45 1 268 
+$r21 1 492 
+$r13 1 122 
+r40 1 66 
+$r10 1 95 
+r1 1 16 
+r43 1 112 
+r12 1 -3 
+$r18 1 341 
+$r11 1 112 
+$r8 1 66 
+r42 1 56 
+r0 1 -2 
+r46 1 363 
+Fields: 6
+16 ArrayObject 341
+16 ArrayObject 95
+16 ArrayObject 40
+247 ArrayObject 268
+233 ArrayObject 291
+363 ArrayObject 384
+Accesses: 0
+Functions: 53
+-1 0 
+387 3 -1 384 122 
+132 2 112 126 
+518 1 122 
+135 2 122 126 
+521 1 112 
+12 1 -2 
+526 1 523 
+144 1 122 
+147 3 -1 -2 122 
+275 1 122 
+403 1 -2 
+23 5 16 18 341 40 95 
+407 1 122 
+535 1 122 
+285 2 291 268 
+164 1 66 
+422 1 66 
+167 1 56 
+41 2 -1 40 
+297 3 -1 292 122 
+425 1 56 
+172 0 
+430 0 
+181 1 66 
+439 1 66 
+61 2 -4 56 
+195 1 122 
+453 1 122 
+198 1 112 
+327 1 122 
+456 1 112 
+203 0 
+76 2 70 56 
+461 0 
+79 2 66 70 
+212 1 122 
+470 1 122 
+345 3 -1 341 122 
+222 1 -2 
+98 3 -1 66 95 
+226 1 122 
+229 1 -2 
+359 1 -2 
+487 1 66 
+490 1 56 
+495 1 492 
+240 4 -1 291 233 122 
+370 1 122 
+243 1 -2 
+117 2 112 -3 
+504 1 66 
+254 1 122 
+Constructors: 6
+132 126
+117 112
+135 122
+76 70
+61 56
+79 66
+
+Summary: 25
+-3 200 247 523 169 1 70 292 492 233 122 363 126 18 -2 66 458 0 -4 112 16 427 2 -1 56 

@@ -1,0 +1,371 @@
+13
+org/h2/index/IndexCursor.getKey()J
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 cursor 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/IndexCursor.previous()Z
+PTG:
+Vars:
+2
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/IndexCursor.getMax(Lorg/h2/value/Value;Lorg/h2/value/Value;Z)Lorg/h2/value/Value;
+PTG:
+Vars:
+8
+r2 1 -1 
+$r5 1 21 
+_ret 2 -3 -2 
+$r4 1 18 
+$r3 1 15 
+r0 1 -2 
+r1 1 -3 
+$r6 2 -3 -2 
+Fields: 1
+-1 table 15
+Accesses: 1
+14 1 -1 
+Functions: 3
+18 1 18 
+12 3 -2 -3 21 
+15 1 15 
+Constructors: 0
+
+Summary: 3
+-1 0 1 
+org/h2/index/IndexCursor.setIndex(Lorg/h2/index/Index;)V
+PTG:
+Vars:
+10
+$r7 1 57 
+r1 1 -2 
+$r2 1 7 
+r6 1 38 
+$r9 1 71 
+$r3 1 16 
+r0 1 -1 
+$r5 1 26 
+r4 1 22 
+$r8 1 79 
+Fields: 4
+-1 table 16
+-1 indexColumns 71
+22 ArrayObject 57
+38 ArrayObject 79
+Accesses: 5
+2 1 -1 
+70 1 -1 
+12 1 -1 
+29 1 -1 
+15 1 -1 
+Functions: 4
+16 1 16 
+32 1 -2 
+53 2 -2 57 
+6 1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/IndexCursor.isAlwaysFalse()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/IndexCursor.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/h2/index/IndexCursor.getSearchRow()Lorg/h2/result/SearchRow;
+PTG:
+Vars:
+4
+$r2 1 4 
+r0 1 -1 
+_ret 1 4 
+$r1 1 1 
+Fields: 1
+-1 cursor 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/IndexCursor.find(Lorg/h2/value/Value;)V
+PTG:
+Vars:
+14
+$r9 1 63 
+$r7 1 52 
+$r4 1 18 
+$r11 1 29 
+$r5 1 18 
+$r2 1 1 
+r13 1 8 
+r12 1 -2 
+$r3 1 18 
+$r1 1 1 
+$r6 1 18 
+$r8 1 48 
+$r10 1 26 
+r0 1 -1 
+Fields: 5
+-1 inColumn 1
+-1 table 26
+-1 start 18
+-1 index 48
+-1 session 52
+Accesses: 11
+0 1 -1 
+32 1 -1 
+17 1 -1 
+35 1 -1 
+51 1 -1 
+68 1 -1 
+55 1 -1 
+9 1 -1 
+25 1 -1 
+59 1 -1 
+47 1 -1 
+Functions: 5
+48 3 48 18 52 
+1 2 1 -2 
+41 2 18 8 
+10 1 1 
+26 1 26 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/index/IndexCursor.next()Z
+PTG:
+Vars:
+4
+$r2 1 1 
+r0 1 -1 
+$r3 1 1 
+$r1 1 1 
+Fields: 1
+-1 cursor 1
+Accesses: 4
+0 1 -1 
+20 1 -1 
+36 1 -1 
+11 1 -1 
+Functions: 2
+21 1 1 
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/IndexCursor.nextCursor()V
+PTG:
+Vars:
+13
+$r9 1 1 
+r11 1 70 
+$r5 1 65 
+$r6 1 72 
+$r2 1 45 
+$r3 1 45 
+r10 1 35 
+$r4 1 45 
+r12 1 79 
+r0 1 -1 
+$r1 1 1 
+$r8 1 1 
+$r7 1 81 
+Fields: 6
+-1 inResult 45
+-1 inColumn 72
+-1 inList 1
+-1 inResultTested 81
+1 ArrayObject 35
+65 ArrayObject 70
+Accesses: 11
+0 1 -1 
+80 1 -1 
+19 1 -1 
+51 1 -1 
+7 1 -1 
+23 1 -1 
+71 1 -1 
+11 1 -1 
+44 1 -1 
+61 1 -1 
+31 1 -1 
+Functions: 6
+81 2 81 79 
+52 1 45 
+38 6 -1 1 81 35 72 45 
+72 2 70 72 
+93 7 -1 1 81 35 72 45 79 
+62 1 45 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/IndexCursor.get()Lorg/h2/result/Row;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 4 
+$r2 1 4 
+r0 1 -1 
+Fields: 1
+-1 cursor 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/index/IndexCursor.getSearchRow(Lorg/h2/result/SearchRow;ILorg/h2/value/Value;Z)Lorg/h2/result/SearchRow;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 5 
+_ret 2 11 -2 
+r4 2 -4 29 
+r3 2 11 -2 
+$r1 1 18 
+Fields: 1
+-1 table 5
+Accesses: 1
+4 1 -1 
+Functions: 4
+16 2 -2 11 
+33 4 -2 -4 11 29 
+5 1 5 
+15 5 -1 18 -4 5 29 
+Constructors: 0
+
+Summary: 4
+-1 -4 2 0 
+org/h2/index/IndexCursor.find(Lorg/h2/engine/Session;Lorg/h2/util/ObjectArray;)V
+PTG:
+Vars:
+20
+$r7 1 274 
+$r5 2 248 283 
+r11 1 87 
+$r17 1 256 
+$r2 1 31 
+$r8 1 286 
+r15 1 189 
+r3 1 -3 
+$r19 1 234 
+r13 1 159 
+r10 1 56 
+r0 1 -1 
+r4 1 45 
+$r16 1 248 
+$r18 1 226 
+r1 1 -2 
+$r9 1 56 
+$r14 1 183 
+$r6 2 279 226 
+$r12 1 153 
+Fields: 7
+183 ArrayObject 189
+-1 indexColumns 183
+-1 index 274
+-1 start 226
+-1 start 279
+-1 end 283
+-1 end 248
+Accesses: 24
+225 1 -1 
+2 1 -1 
+259 1 -1 
+291 1 -1 
+196 1 189 
+38 1 -1 
+102 1 -1 
+134 1 -1 
+7 1 -1 
+265 1 -1 
+76 1 -1 
+237 1 -1 
+14 1 -1 
+112 1 -1 
+144 1 -1 
+17 1 -1 
+273 1 -1 
+117 1 -1 
+22 1 -1 
+182 1 -1 
+278 1 -1 
+247 1 -1 
+282 1 -1 
+27 1 -1 
+Functions: 18
+224 9 -1 274 226 183 279 248 283 189 159 
+161 1 56 
+66 1 56 
+35 1 31 
+168 1 56 
+41 1 -3 
+106 2 -2 56 
+138 2 -2 56 
+46 1 45 
+175 1 87 
+82 1 56 
+274 6 -2 274 226 279 248 283 
+148 2 87 153 
+150 2 -2 56 
+246 9 -1 274 226 183 279 248 283 189 159 
+55 1 45 
+89 1 56 
+121 1 56 
+Constructors: 1
+35 31
+
+Summary: 4
+-1 -3 0 1 

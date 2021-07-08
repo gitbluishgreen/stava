@@ -1,0 +1,707 @@
+19
+java/awt/font/TextMeasurer.makeLayoutWindow(I)V
+PTG:
+Vars:
+18
+$r10 1 106 
+$r2 1 70 
+$r11 1 106 
+$r4 1 70 
+$r15 1 3 
+$r16 1 3 
+$r7 1 106 
+$r3 1 3 
+$r6 1 70 
+$r17 1 3 
+$r13 1 77 
+$r12 1 113 
+$r8 1 106 
+$r5 1 106 
+$r14 1 3 
+r0 1 -1 
+$r9 1 106 
+$r1 1 3 
+Fields: 3
+-1 fLineBreak 106
+-1 charIter 70
+-1 fChars 3
+Accesses: 22
+2 1 -1 
+98 1 -1 
+163 1 -1 
+69 1 -1 
+134 1 -1 
+8 1 -1 
+105 1 -1 
+174 1 -1 
+15 1 -1 
+47 1 -1 
+81 1 -1 
+145 1 -1 
+116 1 -1 
+22 1 -1 
+119 1 -1 
+88 1 -1 
+26 1 -1 
+123 1 -1 
+155 1 -1 
+61 1 -1 
+94 1 -1 
+191 1 -1 
+Functions: 11
+-1 0 
+146 1 106 
+51 0 
+164 1 106 
+85 2 3 77 
+102 2 3 70 
+135 1 106 
+186 4 -1 3 70 106 
+31 0 
+127 2 70 106 
+175 1 106 
+Constructors: 1
+85 77
+
+Summary: 1
+-1 
+java/awt/font/TextMeasurer.initAll(Ljava/text/AttributedCharacterIterator;)V
+PTG:
+Vars:
+27
+r1 1 -2 
+$r22 1 43 
+r25 1 211 
+r5 1 114 
+r26 1 239 
+$r19 1 226 
+r23 1 109 
+$r6 1 137 
+r24 1 175 
+$r15 1 307 
+$r18 2 43 124 
+$r14 1 299 
+$r9 1 239 
+r0 1 -1 
+r13 1 294 
+$r16 1 314 
+$r20 2 43 124 
+$r21 2 43 124 
+$r4 1 82 
+$r12 1 288 
+$r7 2 43 124 
+$r3 1 70 
+$r8 1 236 
+$r2 1 22 
+$r17 1 205 
+$r10 1 258 
+$r11 1 270 
+Fields: 6
+-1 fFrc 205
+-1 fFrc 288
+-1 fBidi 82
+-1 fChars 124
+-1 fChars 43
+-1 fBaselineOffsets 307
+Accesses: 22
+128 1 -1 
+194 1 -1 
+229 1 -1 
+7 1 -1 
+42 1 -1 
+204 1 -1 
+78 1 -1 
+142 1 -1 
+302 1 -1 
+17 1 -1 
+81 1 -1 
+306 1 -1 
+149 1 -1 
+310 1 -1 
+24 1 -1 
+123 1 -1 
+220 1 -1 
+93 1 -1 
+157 1 -1 
+317 1 -1 
+255 1 -1 
+287 1 -1 
+Functions: 28
+192 4 43 124 205 175 
+1 1 -2 
+321 7 -1 288 82 307 43 124 205 
+133 3 114 43 124 
+265 1 258 
+11 1 -2 
+75 2 -2 70 
+82 1 82 
+146 4 -2 137 43 124 
+276 2 258 270 
+214 1 211 
+153 1 109 
+281 2 288 270 
+29 1 -2 
+160 1 -2 
+224 1 211 
+97 1 -2 
+103 1 -2 
+297 1 294 
+171 1 -2 
+235 2 236 109 
+110 1 109 
+177 1 -2 
+52 1 -2 
+183 1 -2 
+311 1 307 
+250 1 239 
+63 1 -2 
+Constructors: 4
+146 137
+276 270
+265 258
+75 70
+
+Summary: 11
+-1 211 258 -2 109 175 270 0 294 114 239 
+java/awt/font/TextMeasurer.deleteChar(Ljava/text/AttributedCharacterIterator;I)V
+PTG:
+Vars:
+12
+$r8 1 98 
+$r5 1 24 
+r3 1 44 
+$r4 1 24 
+$r6 1 98 
+$r10 1 139 
+r1 1 -2 
+$r2 1 24 
+$r11 1 142 
+$r7 1 105 
+r0 1 -1 
+$r9 1 24 
+Fields: 3
+-1 fParagraph 139
+-1 fBidi 98
+-1 fChars 24
+Accesses: 16
+128 1 -1 
+65 1 -1 
+97 1 -1 
+133 1 -1 
+7 1 -1 
+39 1 -1 
+73 1 -1 
+138 1 -1 
+49 1 -1 
+113 1 -1 
+145 1 -1 
+18 1 -1 
+116 1 -1 
+23 1 -1 
+56 1 -1 
+94 1 -1 
+Functions: 9
+1 1 -2 
+35 5 -1 -2 98 24 139 
+117 1 98 
+149 4 -1 98 24 139 
+70 2 24 44 
+88 2 24 44 
+10 1 -2 
+139 3 -2 24 139 
+110 2 -2 105 
+Constructors: 1
+110 105
+
+Summary: 2
+-2 -1 
+java/awt/font/TextMeasurer.insertChar(Ljava/text/AttributedCharacterIterator;I)V
+PTG:
+Vars:
+14
+$r6 1 134 
+$r7 1 155 
+$r2 1 46 
+$r4 1 46 
+r3 1 66 
+$r13 1 204 
+r1 1 -2 
+$r10 1 134 
+$r8 1 158 
+$r12 1 201 
+r0 1 -1 
+$r5 1 46 
+$r11 1 46 
+$r9 1 167 
+Fields: 3
+-1 fParagraph 201
+-1 fBidi 134
+-1 fChars 46
+Accesses: 17
+0 1 -1 
+130 1 -1 
+195 1 -1 
+133 1 -1 
+71 1 -1 
+40 1 -1 
+200 1 -1 
+107 1 -1 
+45 1 -1 
+78 1 -1 
+175 1 -1 
+207 1 -1 
+178 1 -1 
+19 1 -1 
+29 1 -1 
+61 1 -1 
+190 1 -1 
+Functions: 13
+32 1 -2 
+8 4 -1 134 201 46 
+201 3 -2 201 46 
+172 2 -2 167 
+147 1 66 
+179 1 134 
+211 4 -1 134 201 46 
+23 1 -2 
+88 2 66 46 
+57 5 -1 -2 134 201 46 
+154 2 -2 155 
+91 1 -2 
+124 2 66 46 
+Constructors: 1
+172 167
+
+Summary: 3
+-2 -1 158 
+java/awt/font/TextMeasurer.<clinit>()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/awt/font/TextMeasurer.getChars()[C
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 fChars 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextMeasurer.<init>(Ljava/text/AttributedCharacterIterator;Ljava/awt/font/FontRenderContext;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 8
+16 1 -1 
+36 1 -1 
+21 1 -1 
+6 1 -1 
+41 1 -1 
+26 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 2
+1 1 -1 
+46 2 -1 -2 
+Constructors: 1
+1 -1
+
+Summary: 4
+-2 -1 0 1 
+java/awt/font/TextMeasurer.calcLineBreak(IF)I
+PTG:
+Vars:
+10
+r0 1 -1 
+r10 1 77 
+$r8 1 32 
+$r2 1 168 
+$r3 1 168 
+$r5 1 17 
+$r7 1 17 
+$r1 1 17 
+$r6 1 17 
+$r9 1 17 
+Fields: 4
+-1 fChars 168
+-1 fComponents 17
+17 ArrayObject 32
+17 ArrayObject 77
+Accesses: 10
+16 1 -1 
+112 1 -1 
+192 1 -1 
+177 1 -1 
+163 1 -1 
+5 1 -1 
+70 1 -1 
+167 1 -1 
+26 1 -1 
+62 1 -1 
+Functions: 6
+32 1 32 
+182 5 -1 32 17 168 77 
+88 1 77 
+185 5 -1 32 17 168 77 
+122 1 77 
+79 1 77 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextMeasurer.getLineBreakIndex(IF)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 5
+1 1 -1 
+7 1 -1 
+23 1 -1 
+41 1 -1 
+15 1 -1 
+Functions: 2
+32 1 -1 
+35 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextMeasurer.ensureComponents(II)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+1 1 -1 
+9 1 -1 
+Functions: 1
+19 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextMeasurer.invalidateComponents()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 3 
+Fields: 1
+-1 fChars 3
+Accesses: 5
+16 1 -1 
+2 1 -1 
+21 1 -1 
+8 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextMeasurer.clone()Ljava/lang/Object;
+PTG:
+Vars:
+8
+$r5 1 32 
+$r6 1 32 
+$r4 1 21 
+_ret 1 1 
+$r3 1 21 
+r2 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fComponents 21
+Accesses: 3
+20 1 -1 
+38 1 1 
+28 1 -1 
+Functions: 3
+0 2 -1 21 
+16 0 
+29 1 21 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextMeasurer.trailingCdWhitespaceStart(II)I
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+$r3 1 47 
+$r1 1 1 
+Fields: 2
+-1 fLevels 1
+-1 fChars 47
+Accesses: 4
+0 1 -1 
+33 1 -1 
+7 1 -1 
+46 1 -1 
+Functions: 1
+52 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextMeasurer.getAdvanceBetween(II)F
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 29 
+$r2 1 33 
+Fields: 0
+Accesses: 3
+1 1 -1 
+33 1 33 
+8 1 -1 
+Functions: 3
+19 1 -1 
+22 1 -1 
+31 1 29 
+Constructors: 0
+
+Summary: 3
+33 -1 29 
+java/awt/font/TextMeasurer.printStats()V
+PTG:
+Vars:
+6
+r3 1 -1 
+$r0 1 3 
+$r4 1 19 
+$r5 1 22 
+$r1 1 0 
+$r2 1 12 
+Fields: 0
+Accesses: 2
+30 1 -1 
+15 1 -1 
+Functions: 5
+3 1 3 
+19 1 19 
+7 1 3 
+25 2 0 22 
+12 1 12 
+Constructors: 1
+7 3
+
+Summary: 5
+22 -1 12 3 19 
+java/awt/font/TextMeasurer.generateComponents(II)V
+PTG:
+Vars:
+16
+$r2 1 34 
+$r10 1 123 
+$r8 1 30 
+r29 1 71 
+$r3 1 30 
+$r6 1 34 
+$r12 1 58 
+$r1 1 21 
+$r9 1 106 
+$r13 1 65 
+r0 1 -1 
+$r7 1 65 
+$r14 1 34 
+$r4 1 26 
+r28 1 78 
+$r11 1 34 
+Fields: 5
+-1 fParagraph 106
+-1 fFrc 26
+-1 fLevels 65
+-1 fBidi 34
+-1 fChars 30
+Accesses: 21
+0 1 -1 
+64 1 -1 
+96 1 -1 
+33 1 -1 
+101 1 -1 
+7 1 -1 
+105 1 -1 
+201 1 -1 
+109 1 -1 
+46 1 -1 
+206 1 -1 
+16 1 -1 
+81 1 -1 
+117 1 -1 
+54 1 -1 
+183 1 -1 
+88 1 -1 
+25 1 -1 
+29 1 -1 
+61 1 -1 
+126 1 -1 
+Functions: 18
+65 1 65 
+193 0 
+165 0 
+38 4 34 21 26 30 
+73 1 71 
+137 0 
+171 0 
+141 0 
+175 0 
+82 1 34 
+146 0 
+180 0 
+150 0 
+55 1 34 
+121 5 65 21 106 30 78 
+155 0 
+187 0 
+159 0 
+Constructors: 1
+38 21
+
+Summary: 14
+190 -1 159 146 180 187 137 171 21 78 150 162 71 155 
+java/awt/font/TextMeasurer.makeComponentsOnRange(II)[Lsun/font/TextLineComponent;
+PTG:
+Vars:
+13
+$r1 1 19 
+_ret 1 160 
+$r10 1 34 
+$r2 1 19 
+$r5 1 261 
+$r6 1 274 
+$r9 1 19 
+$r7 1 19 
+$r3 1 215 
+$r8 1 89 
+$r4 1 19 
+r0 1 -1 
+r11 1 160 
+Fields: 5
+-1 fComponents 19
+19 ArrayObject 34
+19 ArrayObject 261
+19 ArrayObject 215
+19 ArrayObject 89
+Accesses: 8
+209 1 -1 
+18 1 -1 
+83 1 -1 
+180 1 -1 
+7 1 -1 
+28 1 -1 
+300 1 -1 
+255 1 -1 
+Functions: 9
+0 6 -1 34 19 261 215 89 
+241 0 
+34 1 34 
+101 0 
+261 1 261 
+215 1 215 
+232 0 
+89 1 89 
+111 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/font/TextMeasurer.getLayout(II)Ljava/awt/font/TextLayout;
+PTG:
+Vars:
+6
+_ret 1 63 
+r0 1 -1 
+$r4 1 74 
+r1 1 29 
+$r2 1 34 
+$r3 1 63 
+Fields: 2
+-1 fChars 34
+-1 fBaselineOffsets 74
+Accesses: 10
+1 1 -1 
+33 1 -1 
+50 1 -1 
+53 1 -1 
+69 1 -1 
+8 1 -1 
+41 1 -1 
+73 1 -1 
+60 1 -1 
+77 1 -1 
+Functions: 3
+81 3 74 29 63 
+19 3 -1 34 74 
+22 3 -1 34 74 
+Constructors: 1
+81 63
+
+Summary: 2
+-1 29 
+java/awt/font/TextMeasurer.makeTextLineOnRange(II)Ljava/awt/font/TextLine;
+PTG:
+Vars:
+13
+$r3 1 66 
+$r6 1 6 
+r10 1 21 
+_ret 1 51 
+r9 1 28 
+r0 1 -1 
+$r4 1 62 
+r11 1 49 
+$r1 1 6 
+r7 1 35 
+$r5 1 56 
+r8 1 42 
+$r2 1 51 
+Fields: 4
+-1 fFrc 56
+-1 fBidi 6
+-1 fChars 66
+-1 fBaselineOffsets 62
+Accesses: 6
+65 1 -1 
+5 1 -1 
+55 1 -1 
+74 1 -1 
+12 1 -1 
+61 1 -1 
+Functions: 6
+37 1 35 
+23 1 21 
+43 5 -1 66 6 56 62 
+13 1 6 
+30 1 28 
+78 7 49 66 51 56 42 28 62 
+Constructors: 1
+78 51
+
+Summary: 6
+35 -1 21 49 28 42 

@@ -1,0 +1,677 @@
+20
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.checkForComodification()V
+PTG:
+Vars:
+4
+$r3 1 8 
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+Fields: 2
+-1 l 1
+-1 expectedArray 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+1 1 1 
+18 0 
+Constructors: 0
+
+Summary: 2
+4 -1 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.iterator()Ljava/util/Iterator;
+PTG:
+Vars:
+6
+$r3 1 16 
+r2 1 7 
+$r6 1 -1 
+r0 1 -1 
+$r4 1 1 
+$r1 1 1 
+Fields: 2
+1 lock 7
+-1 l 1
+Accesses: 5
+0 1 -1 
+1 1 1 
+20 1 -1 
+25 1 -1 
+29 1 -1 
+Functions: 5
+33 3 16 1 7 
+38 1 7 
+9 1 7 
+13 3 -1 1 7 
+45 1 7 
+Constructors: 1
+33 16
+
+Summary: 1
+-1 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.add(ILjava/lang/Object;)V
+PTG:
+Vars:
+7
+r2 1 7 
+$r5 1 1 
+$r1 1 1 
+$r6 1 1 
+$r7 1 55 
+r0 1 -1 
+r4 1 -3 
+Fields: 2
+1 lock 7
+-1 l 1
+Accesses: 9
+0 1 -1 
+1 1 1 
+51 1 -1 
+36 1 -1 
+68 1 -1 
+21 1 -1 
+41 1 -1 
+58 1 -1 
+61 1 -1 
+Functions: 7
+32 0 
+81 1 7 
+52 2 1 7 
+72 1 7 
+9 1 7 
+13 3 -1 1 7 
+47 3 1 -3 7 
+Constructors: 0
+
+Summary: 3
+1 -3 -1 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.<init>(Ljava/util/concurrent/CopyOnWriteArrayList;II)V
+PTG:
+Vars:
+4
+$r2 1 11 
+$r3 1 14 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 l 11
+Accesses: 5
+17 1 -1 
+6 1 -1 
+22 1 -1 
+10 1 -1 
+29 1 -1 
+Functions: 2
+1 2 -1 11 
+11 1 11 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.spliterator()Ljava/util/Spliterator;
+PTG:
+Vars:
+6
+r1 1 19 
+r0 1 -1 
+_ret 1 63 
+$r3 1 24 
+$r5 1 63 
+$r2 1 21 
+Fields: 2
+-1 l 21
+-1 expectedArray 19
+Accesses: 5
+0 1 -1 
+20 1 -1 
+5 1 -1 
+9 1 -1 
+15 1 -1 
+Functions: 4
+35 0 
+21 1 21 
+53 0 
+60 1 19 
+Constructors: 0
+
+Summary: 2
+-1 24 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.size()I
+PTG:
+Vars:
+4
+$r3 1 -1 
+$r1 1 1 
+r2 1 7 
+r0 1 -1 
+Fields: 2
+1 lock 7
+-1 l 1
+Accesses: 3
+0 1 -1 
+16 1 -1 
+1 1 1 
+Functions: 4
+22 1 7 
+9 1 7 
+13 3 -1 1 7 
+29 1 7 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.remove(I)Ljava/lang/Object;
+PTG:
+Vars:
+8
+r0 1 -1 
+r2 1 7 
+r4 1 34 
+$r3 1 1 
+$r5 1 1 
+$r6 1 40 
+$r1 1 1 
+$r8 1 -1 
+Fields: 2
+1 lock 7
+-1 l 1
+Accesses: 8
+0 1 -1 
+1 1 1 
+36 1 -1 
+21 1 -1 
+53 1 -1 
+26 1 -1 
+43 1 -1 
+46 1 -1 
+Functions: 7
+18 3 -1 1 7 
+37 2 1 7 
+69 1 7 
+22 2 1 7 
+9 1 7 
+60 1 7 
+14 3 -1 1 7 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.removeIf(Ljava/util/function/Predicate;)Z
+PTG:
+Vars:
+11
+r4 1 56 
+$r2 1 15 
+r8 1 108 
+$r6 1 62 
+r10 1 129 
+r15 1 173 
+$r5 1 15 
+r0 1 -2 
+r1 1 -1 
+r3 1 21 
+$r9 1 15 
+Fields: 4
+-1 l 15
+-1 expectedArray 56
+15 lock 21
+56 ArrayObject 129
+Accesses: 10
+52 1 -1 
+228 1 -1 
+37 1 -1 
+26 1 -1 
+58 1 -1 
+43 1 -1 
+236 1 -1 
+14 1 -1 
+15 1 15 
+223 1 -1 
+Functions: 12
+99 0 
+131 2 -2 129 
+243 1 21 
+198 2 108 173 
+23 1 21 
+8 0 
+217 3 129 56 173 
+74 0 
+186 3 129 56 173 
+59 2 21 15 
+252 1 21 
+239 3 21 173 15 
+Constructors: 0
+
+Summary: 4
+62 -1 -2 108 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.clear()V
+PTG:
+Vars:
+6
+$r3 1 1 
+$r4 1 1 
+r2 1 7 
+r0 1 -1 
+$r5 1 41 
+$r1 1 1 
+Fields: 2
+1 lock 7
+-1 l 1
+Accesses: 9
+0 1 -1 
+16 1 -1 
+1 1 1 
+49 1 -1 
+20 1 -1 
+37 1 -1 
+24 1 -1 
+28 1 -1 
+44 1 -1 
+Functions: 6
+33 2 1 7 
+53 1 7 
+38 2 1 7 
+9 1 7 
+13 3 -1 1 7 
+61 1 7 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.retainAll(Ljava/util/Collection;)Z
+PTG:
+Vars:
+11
+$r5 1 15 
+r10 1 129 
+r15 1 173 
+$r2 1 15 
+r4 1 56 
+$r6 1 62 
+$r9 1 15 
+r0 1 -2 
+r1 1 -1 
+r3 1 21 
+r8 1 108 
+Fields: 4
+-1 l 15
+-1 expectedArray 56
+15 lock 21
+56 ArrayObject 129
+Accesses: 10
+52 1 -1 
+228 1 -1 
+37 1 -1 
+26 1 -1 
+58 1 -1 
+43 1 -1 
+236 1 -1 
+14 1 -1 
+15 1 15 
+223 1 -1 
+Functions: 12
+99 0 
+131 2 -2 129 
+243 1 21 
+198 2 108 173 
+23 1 21 
+8 0 
+217 3 129 56 173 
+74 0 
+186 3 129 56 173 
+59 2 21 15 
+252 1 21 
+239 3 21 173 15 
+Constructors: 0
+
+Summary: 4
+62 -1 -2 108 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.forEach(Ljava/util/function/Consumer;)V
+PTG:
+Vars:
+6
+$r3 1 34 
+r0 1 -2 
+r6 1 86 
+r2 1 31 
+$r4 1 37 
+r1 1 -1 
+Fields: 3
+-1 l 34
+-1 expectedArray 31
+31 ArrayObject 86
+Accesses: 5
+17 1 -1 
+33 1 -1 
+21 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 5
+49 0 
+34 1 34 
+68 0 
+8 0 
+91 2 -2 86 
+Constructors: 0
+
+Summary: 4
+37 0 -1 -2 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.remove(Ljava/lang/Object;)Z
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+15 1 -1 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.get(I)Ljava/lang/Object;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 1 
+$r5 1 -1 
+r4 1 34 
+$r1 1 1 
+r2 1 7 
+Fields: 2
+1 lock 7
+-1 l 1
+Accesses: 4
+0 1 -1 
+1 1 1 
+21 1 -1 
+26 1 -1 
+Functions: 6
+18 3 -1 1 7 
+36 1 7 
+22 2 1 7 
+9 1 7 
+44 1 7 
+14 3 -1 1 7 
+Constructors: 0
+
+Summary: 1
+-1 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.listIterator(I)Ljava/util/ListIterator;
+PTG:
+Vars:
+13
+$r3 1 28 
+$r1 1 1 
+$r10 1 67 
+r2 1 7 
+$r7 1 50 
+$r6 1 45 
+$r8 1 57 
+$r9 1 60 
+r0 1 -1 
+$r11 1 1 
+$r4 1 32 
+$r13 1 -1 
+$r5 1 41 
+Fields: 2
+1 lock 7
+-1 l 1
+Accesses: 7
+0 1 -1 
+80 1 -1 
+1 1 1 
+21 1 -1 
+53 1 -1 
+71 1 -1 
+76 1 -1 
+Functions: 12
+32 1 32 
+97 1 7 
+50 1 50 
+36 1 32 
+84 3 1 67 7 
+9 1 7 
+41 1 41 
+57 1 57 
+89 1 7 
+13 3 -1 1 7 
+45 1 45 
+63 2 28 60 
+Constructors: 3
+36 32
+84 67
+63 28
+
+Summary: 3
+60 -1 57 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.set(ILjava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+9
+r0 1 -1 
+$r7 1 42 
+$r9 1 -1 
+r2 1 7 
+$r6 1 1 
+$r4 1 1 
+r3 1 -3 
+r5 1 35 
+$r1 1 1 
+Fields: 2
+1 lock 7
+-1 l 1
+Accesses: 6
+0 1 -1 
+1 1 1 
+21 1 -1 
+38 1 -1 
+26 1 -1 
+45 1 -1 
+Functions: 7
+18 3 -1 1 7 
+53 1 7 
+22 3 1 -3 7 
+39 2 1 7 
+9 1 7 
+14 3 -1 1 7 
+62 1 7 
+Constructors: 0
+
+Summary: 3
+1 -3 -1 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.sort(Ljava/util/Comparator;)V
+PTG:
+Vars:
+10
+r8 1 85 
+r3 1 32 
+$r5 1 38 
+r7 1 85 
+r0 1 -1 
+r9 1 -2 
+$r1 1 1 
+$r10 1 1 
+$r4 1 1 
+r2 1 7 
+Fields: 3
+1 lock 7
+-1 l 1
+-1 expectedArray 32
+Accesses: 9
+0 1 -1 
+1 1 1 
+17 1 -1 
+34 1 -1 
+21 1 -1 
+103 1 -1 
+12 1 -1 
+28 1 -1 
+111 1 -1 
+Functions: 9
+80 1 32 
+50 0 
+114 3 1 85 7 
+35 2 1 7 
+100 2 -2 85 
+118 1 7 
+9 1 7 
+74 0 
+127 1 7 
+Constructors: 0
+
+Summary: 4
+38 0 -1 -2 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.rangeCheck(I)V
+PTG:
+Vars:
+1
+r5 1 -1 
+Fields: 0
+Accesses: 2
+5 1 -1 
+37 1 -1 
+Functions: 7
+16 0 
+34 0 
+20 0 
+25 0 
+41 0 
+29 0 
+47 0 
+Constructors: 0
+
+Summary: 3
+44 -1 41 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.replaceAll(Ljava/util/function/UnaryOperator;)V
+PTG:
+Vars:
+11
+$r11 1 123 
+r1 1 -1 
+$r9 1 13 
+r10 1 114 
+r8 1 97 
+r4 1 44 
+r0 1 -2 
+r3 1 19 
+$r6 1 50 
+$r2 1 13 
+$r5 1 13 
+Fields: 4
+13 lock 19
+44 ArrayObject 114
+-1 l 13
+-1 expectedArray 44
+Accesses: 9
+33 1 -1 
+135 1 -1 
+24 1 -1 
+40 1 -1 
+12 1 -1 
+13 1 13 
+29 1 -1 
+46 1 -1 
+143 1 -1 
+Functions: 10
+146 3 97 19 13 
+21 1 19 
+86 0 
+150 1 19 
+8 0 
+120 2 -2 114 
+92 2 114 44 
+62 0 
+47 2 19 13 
+159 1 19 
+Constructors: 0
+
+Summary: 4
+-1 -2 50 123 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.subList(II)Ljava/util/List;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r8 1 33 
+r2 1 7 
+$r1 1 1 
+$r6 1 -1 
+$r3 1 41 
+$r4 1 1 
+Fields: 2
+1 lock 7
+-1 l 1
+Accesses: 6
+0 1 -1 
+1 1 1 
+50 1 -1 
+21 1 -1 
+56 1 -1 
+45 1 -1 
+Functions: 6
+67 1 7 
+37 1 33 
+9 1 7 
+76 1 7 
+13 3 -1 1 7 
+61 3 1 7 41 
+Constructors: 2
+37 33
+61 41
+
+Summary: 1
+-1 
+java/util/concurrent/CopyOnWriteArrayList$COWSubList.removeAll(Ljava/util/Collection;)Z
+PTG:
+Vars:
+11
+r1 1 -1 
+$r9 1 15 
+$r6 1 62 
+r10 1 129 
+r0 1 -2 
+r3 1 21 
+$r2 1 15 
+r8 1 108 
+r4 1 56 
+$r5 1 15 
+r15 1 173 
+Fields: 4
+-1 l 15
+-1 expectedArray 56
+15 lock 21
+56 ArrayObject 129
+Accesses: 10
+52 1 -1 
+228 1 -1 
+37 1 -1 
+26 1 -1 
+58 1 -1 
+43 1 -1 
+236 1 -1 
+14 1 -1 
+15 1 15 
+223 1 -1 
+Functions: 12
+99 0 
+131 2 -2 129 
+243 1 21 
+198 2 108 173 
+23 1 21 
+8 0 
+217 3 129 56 173 
+74 0 
+186 3 129 56 173 
+59 2 21 15 
+252 1 21 
+239 3 21 173 15 
+Constructors: 0
+
+Summary: 4
+62 -1 -2 108 

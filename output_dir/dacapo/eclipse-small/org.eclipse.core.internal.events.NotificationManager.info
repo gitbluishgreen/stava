@@ -1,0 +1,503 @@
+17
+org/eclipse/core/internal/events/NotificationManager.getDelta(Lorg/eclipse/core/internal/watson/ElementTree;I)Lorg/eclipse/core/internal/events/ResourceDelta;
+PTG:
+Vars:
+18
+$r14 2 100 93 
+$r5 1 1 
+$r11 1 63 
+$r9 1 40 
+r0 1 -1 
+$r10 1 1 
+$r6 1 138 
+$r16 1 29 
+$r1 1 1 
+$r2 1 4 
+r3 1 -2 
+$r8 1 37 
+$r12 1 29 
+r15 2 100 93 
+r13 1 73 
+$r4 1 131 
+$r7 1 29 
+_ret 1 29 
+Fields: 5
+-1 lastPostBuildTree 100
+-1 lastDeltaState 37
+-1 lastDelta 29
+-1 lastPostChangeTree 93
+-1 workspace 1
+Accesses: 16
+0 1 -1 
+66 1 -1 
+99 1 -1 
+36 1 -1 
+75 1 -1 
+141 1 -1 
+110 1 -1 
+146 1 -1 
+51 1 -1 
+117 1 -1 
+151 1 -1 
+154 1 -1 
+59 1 -1 
+28 1 -1 
+92 1 -1 
+124 1 -1 
+Functions: 8
+-1 0 
+1 1 1 
+81 2 73 29 
+4 1 4 
+137 5 1 -2 131 100 93 
+43 3 -2 37 40 
+60 1 1 
+63 1 63 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/core/internal/events/NotificationManager.addListener(Lorg/eclipse/core/resources/IResourceChangeListener;I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 listeners 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+16 1 -2 
+6 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/events/NotificationManager.cleanUp(Lorg/eclipse/core/internal/watson/ElementTree;I)V
+PTG:
+Vars:
+6
+$r1 1 22 
+r0 1 -1 
+$r4 1 22 
+r3 1 -2 
+$r2 1 25 
+$r5 1 70 
+Fields: 1
+-1 workspace 22
+Accesses: 10
+49 1 -1 
+66 1 -1 
+21 1 -1 
+57 1 -1 
+73 1 -1 
+89 1 -1 
+43 1 -1 
+77 1 -1 
+94 1 -1 
+63 1 -1 
+Functions: 6
+34 1 -2 
+67 1 22 
+84 1 70 
+22 1 22 
+25 1 25 
+78 0 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/events/NotificationManager.broadcastChanges(Lorg/eclipse/core/resources/IResourceChangeListener;ILorg/eclipse/core/resources/IResourceDelta;)V
+PTG:
+Vars:
+7
+r4 1 -1 
+$r5 1 21 
+r2 1 -2 
+r6 1 -4 
+$r1 1 6 
+$r0 1 1 
+$r7 1 26 
+Fields: 1
+-1 workspace 26
+Accesses: 1
+25 1 -1 
+Functions: 3
+32 3 -4 21 26 
+36 4 -1 1 21 26 
+12 2 -2 6 
+Constructors: 2
+32 21
+12 6
+
+Summary: 5
+-2 21 1 -4 -1 
+org/eclipse/core/internal/events/NotificationManager.endAvoidNotify()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+Fields: 1
+-1 avoidNotify 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+-1 0 
+7 2 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/NotificationManager.beginNotify()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 notifyJob 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/NotificationManager.broadcastChanges(Lorg/eclipse/core/internal/watson/ElementTree;Lorg/eclipse/core/internal/events/ResourceChangeEvent;Z)V
+PTG:
+Vars:
+6
+r4 1 43 
+$r5 1 102 
+r1 1 -1 
+r3 1 -2 
+r0 1 -3 
+$r2 1 7 
+Fields: 1
+-1 listeners 7
+Accesses: 7
+33 1 -1 
+20 1 -1 
+117 1 -1 
+6 1 -1 
+78 1 -1 
+142 1 -1 
+127 1 -1 
+Functions: 14
+0 1 -3 
+-1 0 
+36 3 -1 -2 7 
+101 2 -1 7 
+134 3 -1 -2 7 
+7 1 7 
+107 4 -1 -3 102 7 
+50 1 43 
+85 3 -1 -2 7 
+149 3 -1 -2 7 
+58 1 -3 
+27 3 -1 -2 7 
+92 2 -3 43 
+95 0 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/core/internal/events/NotificationManager.getListeners()[Lorg/eclipse/core/internal/events/ResourceChangeListenerList$ListenerEntry;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 4 
+$r1 1 1 
+_ret 1 4 
+Fields: 1
+-1 listeners 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/NotificationManager.shouldNotify()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/NotificationManager.<init>(Lorg/eclipse/core/internal/resources/Workspace;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 52 
+$r3 1 41 
+r2 1 -2 
+$r1 1 5 
+Fields: 0
+Accesses: 8
+32 1 -1 
+48 1 -1 
+17 1 -1 
+37 1 -1 
+22 1 -1 
+27 1 -1 
+12 1 -1 
+60 1 -1 
+Functions: 4
+1 1 -1 
+9 1 5 
+57 2 -1 52 
+45 1 41 
+Constructors: 4
+1 -1
+9 5
+57 52
+45 41
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/events/NotificationManager.handleEvent(Lorg/eclipse/core/internal/events/LifecycleEvent;)V
+PTG:
+Vars:
+26
+$r10 1 169 
+$r22 1 73 
+$r16 1 132 
+$r11 1 169 
+$r7 1 234 
+$r19 1 49 
+r25 1 94 
+$r8 1 183 
+$r9 1 186 
+$r21 1 70 
+$r23 1 78 
+$r4 1 169 
+$r14 1 111 
+r1 1 -1 
+$r3 1 169 
+$r5 1 226 
+r0 1 -2 
+$r13 1 94 
+$r2 1 156 
+$r20 1 61 
+$r6 1 229 
+$r17 1 135 
+$r15 1 94 
+$r12 1 98 
+$r18 1 140 
+r24 1 61 
+Fields: 10
+-2 newResource 98
+-2 resource 61
+-2 resource 169
+-2 resource 94
+-1 listeners 49
+-1 listeners 111
+-1 listeners 156
+-1 workspace 234
+-1 workspace 78
+-1 workspace 140
+Accesses: 15
+0 1 -2 
+97 1 -2 
+196 1 -2 
+168 1 -2 
+233 1 -1 
+139 1 -1 
+77 1 -1 
+110 1 -1 
+48 1 -1 
+210 1 -2 
+122 1 -2 
+155 1 -1 
+60 1 -2 
+93 1 -2 
+190 1 -2 
+Functions: 18
+225 7 -1 49 234 156 140 78 111 
+131 7 -1 49 234 156 140 78 111 
+69 7 -1 49 234 156 140 78 111 
+200 2 169 186 
+169 1 169 
+204 9 -1 49 183 234 186 156 140 78 111 
+111 1 111 
+240 2 229 234 
+49 1 49 
+145 3 135 140 94 
+83 3 73 61 78 
+211 1 169 
+244 9 -1 49 226 229 234 156 140 78 111 
+149 9 -1 49 132 135 234 156 140 78 111 
+182 7 -1 49 234 156 140 78 111 
+87 9 -1 49 70 73 234 156 140 78 111 
+156 1 156 
+94 2 98 94 
+Constructors: 4
+240 229
+145 135
+83 73
+200 186
+
+Summary: 11
+61 169 135 186 -1 98 -2 73 94 0 229 
+org/eclipse/core/internal/events/NotificationManager.requestNotify()V
+PTG:
+Vars:
+5
+$r2 1 11 
+r0 1 -1 
+$r3 1 39 
+$r4 1 39 
+$r1 1 8 
+Fields: 2
+-1 notifyJob 39
+-1 avoidNotify 8
+Accesses: 5
+0 1 -1 
+48 1 -1 
+38 1 -1 
+7 1 -1 
+26 1 -1 
+Functions: 5
+-1 0 
+33 0 
+53 1 39 
+39 1 39 
+8 2 8 11 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/NotificationManager.notify([Lorg/eclipse/core/internal/events/ResourceChangeListenerList$ListenerEntry;Lorg/eclipse/core/resources/IResourceChangeEvent;Z)V
+PTG:
+Vars:
+10
+r0 1 -3 
+$r8 1 9 
+$r2 1 9 
+$r5 1 51 
+r3 1 -2 
+$r9 1 9 
+r6 1 55 
+$r7 1 68 
+$r4 1 40 
+r1 1 -1 
+Fields: 4
+-2 ArrayObject 40
+-2 ArrayObject 51
+51 listener 55
+-1 workspace 9
+Accesses: 6
+51 1 51 
+21 1 -1 
+8 1 -1 
+40 1 40 
+110 1 -1 
+126 1 -1 
+Functions: 9
+0 1 -3 
+65 1 55 
+116 0 
+132 1 9 
+88 0 
+9 1 9 
+26 1 9 
+76 5 -1 -3 68 55 9 
+79 1 68 
+Constructors: 1
+76 68
+
+Summary: 6
+-2 68 1 0 -1 -3 
+org/eclipse/core/internal/events/NotificationManager.beginAvoidNotify()Z
+PTG:
+Vars:
+3
+$r2 1 4 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 avoidNotify 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+-1 0 
+1 2 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/events/NotificationManager.removeListener(Lorg/eclipse/core/resources/IResourceChangeListener;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 listeners 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+5 2 1 -2 
+15 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/events/NotificationManager.shutdown(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+r2 1 -2 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 1
+5 1
+
+Summary: 2
+-2 -1 
+org/eclipse/core/internal/events/NotificationManager.startup(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+5
+r4 1 -2 
+$r2 1 6 
+r0 1 -1 
+$r3 1 3 
+$r1 1 3 
+Fields: 1
+-1 workspace 3
+Accesses: 4
+16 1 -1 
+2 1 -1 
+10 1 -1 
+13 1 -1 
+Functions: 2
+3 1 3 
+21 2 -1 3 
+Constructors: 0
+
+Summary: 2
+-2 -1 

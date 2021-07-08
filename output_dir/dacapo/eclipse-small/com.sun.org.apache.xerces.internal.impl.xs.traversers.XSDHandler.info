@@ -1,0 +1,6355 @@
+127
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.setDVFactory(Lcom/sun/org/apache/xerces/internal/impl/dv/SchemaDVFactory;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.findDependentNamespaces(Ljava/lang/String;Ljava/util/Map;)Ljava/util/List;
+PTG:
+Vars:
+7
+r1 1 -2 
+$r4 1 19 
+r0 1 -1 
+r3 1 -3 
+r2 1 5 
+r6 2 19 12 
+_ret 2 19 12 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -1 -2 
+32 3 -3 19 5 
+6 3 -1 -3 5 
+23 1 19 
+Constructors: 1
+23 19
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getDocInfoFromMap(Ljava/util/Map;Ljava/lang/String;)Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;
+PTG:
+Vars:
+6
+$r3 1 8 
+r4 1 -1 
+r1 1 -3 
+r0 1 -2 
+$r2 1 8 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.existingGrammars(Ljava/util/List;)Z
+PTG:
+Vars:
+7
+r4 1 27 
+r0 1 -2 
+r7 1 52 
+$r1 1 7 
+r6 1 -1 
+$r3 1 27 
+$r5 1 40 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+38 1 27 
+24 1 -2 
+11 1 7 
+43 2 7 40 
+46 2 -1 7 
+Constructors: 1
+11 7
+
+Summary: 4
+-2 7 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addRelatedType(Lcom/sun/org/apache/xerces/internal/xs/XSTypeDefinition;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+9
+r7 1 41 
+r1 1 -1 
+r3 1 -4 
+r4 1 -5 
+$r5 1 9 
+$r6 1 13 
+$r8 1 46 
+r0 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -2 
+34 3 -1 -4 -5 
+53 4 -1 -4 41 46 
+24 2 -2 -3 
+9 2 9 13 
+73 5 -1 -2 -3 -4 -5 
+58 2 -2 -3 
+12 1 -2 
+45 1 -2 
+Constructors: 0
+
+Summary: 9
+2 1 -1 -5 -3 -2 -4 3 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedAttributeGroupComponents(Lcom/sun/org/apache/xerces/internal/xs/XSAttributeGroupDefinition;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+6
+r5 1 -5 
+$r2 1 2 
+r0 1 -1 
+r1 1 -2 
+r4 1 -4 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+11 5 -1 2 -3 -4 -5 
+Constructors: 0
+
+Summary: 9
+-2 1 2 -4 3 0 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalNotationDecl(Lcom/sun/org/apache/xerces/internal/impl/xs/XSNotationDecl;)V
+PTG:
+Vars:
+16
+$r11 1 42 
+r7 1 -1 
+$r5 1 33 
+$r12 1 50 
+$r15 1 63 
+$r8 1 71 
+$r9 1 75 
+$r4 1 30 
+r1 1 4 
+$r14 1 60 
+$r10 1 71 
+$r13 1 56 
+$r16 2 36 66 
+$r2 1 16 
+$r3 1 26 
+r0 1 -2 
+Fields: 1
+-1 fGlobalNotationDecls 71
+Accesses: 2
+81 1 -1 
+70 1 -1 
+Functions: 15
+0 1 -2 
+33 1 33 
+71 3 66 36 71 
+9 1 4 
+42 2 4 42 
+46 1 42 
+16 1 16 
+50 1 50 
+20 1 16 
+87 4 -2 66 36 71 
+56 2 56 60 
+26 2 26 30 
+59 1 -2 
+29 1 -2 
+63 1 63 
+Constructors: 2
+20 16
+46 42
+
+Summary: 3
+-1 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addImportList(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Ljava/util/List;Ljava/util/List;)V
+PTG:
+Vars:
+8
+r5 1 36 
+r1 1 -1 
+$r4 1 25 
+r0 1 -4 
+$r2 1 19 
+$r3 1 25 
+r7 1 -2 
+r6 1 -3 
+Fields: 1
+-1 fGrammarBucket 19
+Accesses: 1
+18 1 -1 
+Functions: 4
+0 1 -4 
+19 2 19 25 
+22 1 -4 
+46 2 -3 36 
+Constructors: 0
+
+Summary: 7
+-2 2 1 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addNewImportedGrammars(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+14
+r0 1 -2 
+$r6 1 59 
+$r4 1 13 
+r2 1 1 
+$r9 1 75 
+r10 1 81 
+r5 1 45 
+$r11 1 26 
+$r8 1 70 
+r7 1 -1 
+$r1 1 1 
+r13 2 81 59 
+r3 1 -3 
+r12 2 13 26 
+Fields: 1
+-1 fGrammarBucket 70
+Accesses: 1
+69 1 -1 
+Functions: 11
+0 1 -2 
+38 2 -3 26 
+70 2 70 75 
+41 1 1 
+57 1 45 
+73 2 81 59 
+107 4 81 26 59 13 
+12 1 -3 
+92 6 -1 81 70 26 59 13 
+30 1 26 
+47 1 45 
+Constructors: 1
+30 26
+
+Summary: 6
+1 -1 -3 -2 0 26 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.nonAnnotationContent(Lorg/w3c/dom/Element;)Z
+PTG:
+Vars:
+5
+r3 1 -1 
+r4 2 28 4 
+$r1 1 10 
+r0 1 -2 
+$r2 1 13 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+24 2 4 28 
+9 2 4 28 
+10 2 10 13 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addRelatedElement(Lcom/sun/org/apache/xerces/internal/xs/XSElementDeclaration;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+7
+r5 1 27 
+r0 1 -2 
+r4 1 -5 
+r2 1 -3 
+r3 1 -4 
+$r6 1 32 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+20 3 -1 -4 -5 
+39 4 -1 32 -4 27 
+10 2 -2 -3 
+59 5 -1 -2 -3 -4 -5 
+44 2 -2 -3 
+31 1 -2 
+Constructors: 0
+
+Summary: 9
+-2 1 2 -4 0 3 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGlobalElementDecl(Ljava/lang/String;)Lcom/sun/org/apache/xerces/internal/impl/xs/XSElementDecl;
+PTG:
+Vars:
+6
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+$r3 1 5 
+$r4 1 5 
+_ret 1 5 
+Fields: 1
+-1 fGlobalElemDecls 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addNewGrammarLocations(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+6
+r5 1 -1 
+r1 1 4 
+r2 1 -3 
+r4 1 37 
+r3 1 17 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+5 1 4 
+39 2 17 37 
+55 2 -3 37 
+13 1 -3 
+29 1 4 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGlobalDecl(Ljava/lang/String;I)Ljava/lang/Object;
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 7 49 58 67 76 85 94 103 
+r1 1 -2 
+_ret 7 49 58 67 76 85 94 103 
+Fields: 0
+Accesses: 0
+Functions: 7
+80 2 -1 -2 
+98 2 -1 -2 
+53 2 -1 -2 
+71 2 -1 -2 
+89 2 -1 -2 
+44 2 -1 -2 
+62 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGlobalTypeDecl(Ljava/lang/String;)Lcom/sun/org/apache/xerces/internal/xs/XSTypeDefinition;
+PTG:
+Vars:
+6
+r1 1 -2 
+r0 1 -1 
+$r3 1 5 
+$r2 1 1 
+$r4 1 5 
+_ret 1 5 
+Fields: 1
+-1 fGlobalTypeDecls 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.removeParticle(Lcom/sun/org/apache/xerces/internal/impl/xs/XSModelGroupImpl;Lcom/sun/org/apache/xerces/internal/impl/xs/XSParticleDecl;)Z
+PTG:
+Vars:
+7
+$r6 1 84 
+r0 1 -2 
+r3 1 -3 
+r4 1 -1 
+$r1 1 13 
+r2 1 19 
+$r5 1 84 
+Fields: 3
+-2 fParticles 13
+13 ArrayObject 19
+19 fValue 84
+Accesses: 9
+83 1 19 
+5 1 -2 
+69 1 -2 
+40 1 -2 
+74 1 19 
+12 1 -2 
+46 1 -2 
+62 1 -2 
+31 1 -2 
+Functions: 1
+82 3 -1 -3 84 
+Constructors: 0
+
+Summary: 8
+-2 1 13 0 -1 19 -3 84 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getIDRegistry_sub()Ljava/util/Map;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 fUnparsedIdentityConstraintRegistrySub 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalTypeDecl(Lcom/sun/org/apache/xerces/internal/xs/XSTypeDefinition;)V
+PTG:
+Vars:
+16
+r1 1 6 
+$r4 1 32 
+$r10 1 77 
+$r2 1 18 
+$r13 1 60 
+$r15 1 69 
+r0 1 -2 
+$r5 1 37 
+$r14 1 64 
+r7 1 -1 
+$r9 1 81 
+$r8 1 77 
+$r3 1 28 
+$r11 1 46 
+$r16 2 72 40 
+$r12 1 54 
+Fields: 1
+-1 fGlobalTypeDecls 77
+Accesses: 2
+87 1 -1 
+76 1 -1 
+Functions: 15
+0 1 -2 
+37 1 37 
+69 1 69 
+11 1 6 
+77 3 72 40 77 
+46 2 6 46 
+18 1 18 
+50 1 46 
+22 1 18 
+54 1 54 
+28 2 32 28 
+60 2 64 60 
+93 4 -2 72 40 77 
+31 1 -2 
+63 1 -2 
+Constructors: 2
+50 46
+22 18
+
+Summary: 3
+-1 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.element2Locator(Lorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/util/SimpleLocator;)Z
+PTG:
+Vars:
+3
+r4 1 -1 
+r0 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+24 1 -1 
+Functions: 7
+64 0 
+49 0 
+18 0 
+68 1 -3 
+25 0 
+43 0 
+28 0 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.updateImportListWith(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+12
+r5 1 32 
+r7 1 58 
+r2 1 7 
+$r6 1 58 
+$r8 1 71 
+$r9 1 74 
+r3 1 19 
+r0 1 -1 
+$r1 1 1 
+$r11 1 82 
+r4 1 -2 
+$r10 1 79 
+Fields: 2
+7 ArrayObject 19
+-1 fGrammarBucket 1
+Accesses: 1
+0 1 -1 
+Functions: 10
+1 1 1 
+68 3 -1 1 71 
+69 1 58 
+54 1 32 
+102 2 32 -2 
+74 2 82 74 
+27 1 19 
+44 1 32 
+77 3 -1 1 79 
+78 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalAttributeGroupDecls(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+18
+r7 1 -3 
+r5 1 169 
+r13 1 27 
+r4 1 153 
+r10 1 -1 
+r15 1 101 
+r14 1 46 
+$r12 1 84 
+r17 1 195 
+$r11 1 79 
+r1 1 5 
+r16 1 177 
+r0 1 -2 
+$r8 1 27 
+$r2 1 126 
+$r6 1 177 
+r3 1 126 
+$r9 1 40 
+Fields: 0
+Accesses: 1
+69 1 -1 
+Functions: 19
+0 1 -2 
+96 1 -2 
+161 1 126 
+37 2 -3 40 
+6 1 5 
+38 1 27 
+103 1 101 
+136 1 126 
+171 1 101 
+77 1 27 
+207 3 177 -3 153 
+145 1 126 
+82 1 27 
+87 3 -1 84 79 
+24 1 5 
+56 2 -3 27 
+122 1 101 
+155 1 126 
+187 3 -3 169 153 
+Constructors: 0
+
+Summary: 5
+1 -1 -3 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.resolveSchema(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;ZLorg/w3c/dom/Element;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+7
+r1 1 -1 
+$r3 1 100 
+$r5 1 111 
+r2 1 -3 
+r0 1 -2 
+r4 1 -5 
+_ret 1 111 
+Fields: 0
+Accesses: 0
+Functions: 13
+34 2 -1 -5 
+98 4 -1 -2 100 -5 
+35 1 -3 
+99 1 -3 
+7 2 -1 -5 
+71 1 -3 
+8 1 -3 
+105 1 -3 
+44 1 -3 
+17 1 -3 
+88 2 -1 -3 
+61 2 -1 -5 
+62 1 -3 
+Constructors: 0
+
+Summary: 7
+1 -1 -5 -3 -2 3 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedComplexTypeComponents(Lcom/sun/org/apache/xerces/internal/impl/xs/XSComplexTypeDecl;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+8
+r1 1 -2 
+$r6 1 14 
+r7 1 28 
+r0 1 -1 
+r3 1 -3 
+r5 1 -5 
+$r2 1 2 
+r4 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 6
+1 1 -2 
+21 5 -1 -3 -4 -5 14 
+24 1 -2 
+9 5 -1 2 -3 -4 -5 
+42 5 -1 -3 -4 -5 28 
+13 1 -2 
+Constructors: 0
+
+Summary: 9
+-2 2 1 -4 3 0 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedElementComponents(Lcom/sun/org/apache/xerces/internal/xs/XSElementDeclaration;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+7
+r6 1 20 
+r4 1 -4 
+r1 1 -2 
+r3 1 -3 
+r0 1 -1 
+$r2 1 2 
+r5 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -2 
+34 5 -1 -3 -4 20 -5 
+11 5 -1 2 -3 -4 -5 
+14 1 -2 
+Constructors: 0
+
+Summary: 9
+-2 1 2 -4 3 0 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getSchemaDocument(Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/util/DOMInputSource;ZSLorg/w3c/dom/Element;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+21
+r3 1 -6 
+$r9 1 171 
+r16 2 16 50 
+r15 1 -1 
+r0 1 -3 
+$r11 1 176 
+r8 1 -2 
+r12 1 125 
+$r5 1 86 
+$r14 1 -1 
+r2 1 -1 
+$r21 1 209 
+$r7 1 156 
+r1 1 16 
+r17 1 156 
+$r4 1 234 
+$r13 1 16 
+$r10 1 176 
+r18 1 97 
+$r6 1 90 
+_ret 1 234 
+Fields: 1
+-1 fTraversed 171
+Accesses: 2
+192 1 -1 
+170 1 -1 
+Functions: 12
+225 4 -1 -3 -6 171 
+132 1 125 
+85 1 -3 
+165 3 97 -2 156 
+118 2 16 50 
+89 1 -3 
+26 1 16 
+202 6 -1 16 97 50 171 156 
+171 2 171 156 
+12 1 -3 
+44 1 16 
+93 2 86 90 
+Constructors: 1
+165 156
+
+Summary: 11
+-6 1 90 -1 4 -3 156 -2 16 86 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.schemaDocument2SystemId(Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;)Ljava/lang/String;
+PTG:
+Vars:
+7
+$r2 1 5 
+$r5 1 8 
+$r3 1 1 
+r0 1 -1 
+$r4 1 8 
+r1 1 -2 
+_ret 1 8 
+Fields: 2
+-2 fSchemaElement 5
+-1 fDoc2SystemId 1
+Accesses: 2
+0 1 -1 
+4 1 -2 
+Functions: 1
+1 2 1 5 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 5 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.needReportTNSError(Ljava/lang/String;)Z
+PTG:
+Vars:
+6
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+$r3 1 1 
+$r4 1 1 
+$r5 1 8 
+Fields: 1
+-1 fReportedTNS 1
+Accesses: 4
+0 1 -1 
+36 1 -1 
+21 1 -1 
+15 1 -1 
+Functions: 3
+22 2 1 -2 
+41 2 1 -2 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.createGrammarFrom(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;
+PTG:
+Vars:
+5
+$r4 1 10 
+r3 1 -1 
+r1 1 -2 
+$r0 1 0 
+_ret 1 0 
+Fields: 1
+-1 fGrammarBucket 10
+Accesses: 1
+9 1 -1 
+Functions: 4
+19 3 -1 0 10 
+5 2 0 -2 
+24 3 -1 0 10 
+14 2 0 10 
+Constructors: 1
+5 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.<init>(Lcom/sun/org/apache/xerces/internal/impl/xs/XSGrammarBucket;)V
+PTG:
+Vars:
+3
+$r2 1 10 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+17 1 -1 
+6 1 -1 
+Functions: 2
+1 1 -1 
+14 1 10 
+Constructors: 2
+1 -1
+14 10
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addRelatedAttribute(Lcom/sun/org/apache/xerces/internal/xs/XSAttributeDeclaration;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+7
+r4 1 -5 
+r2 1 -3 
+r3 1 -4 
+r1 1 -1 
+r0 1 -2 
+$r6 1 32 
+r5 1 27 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+20 3 -1 -4 -5 
+39 4 -1 32 -4 27 
+10 2 -2 -3 
+59 5 -1 -2 -3 -4 -5 
+44 2 -2 -3 
+31 1 -2 
+Constructors: 0
+
+Summary: 9
+-2 1 2 -4 3 0 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.constructTrees(Lorg/w3c/dom/Element;Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;Z)Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;
+PTG:
+Vars:
+160
+$r168 2 1019 1634 
+$r31 1 1858 
+$r6 1 67 
+$r61 1 1259 
+$r50 1 1360 
+$r109 1 67 
+$r65 1 653 
+$r117 1 67 
+$r127 1 -1 
+$r40 1 1587 
+$r101 1 331 
+$r77 1 866 
+r174 1 1321 
+$r152 1 27 
+$r59 1 1281 
+$r27 2 1019 1634 
+$r90 1 482 
+$r81 1 696 
+r147 2 1234 642 
+$r141 1 537 
+$r95 1 448 
+$r4 1 31 
+r178 1 1529 
+r150 1 692 
+$r85 1 783 
+$r47 6 1442 1496 708 813 1337 1539 
+$r73 1 1120 
+$r71 2 1019 1634 
+$r42 6 1496 1442 708 813 1337 1539 
+$r19 1 27 
+$r34 1 537 
+$r138 1 522 
+$r88 1 718 
+$r22 2 1019 1634 
+$r154 2 863 858 
+$r35 1 1812 
+$r155 1 67 
+r176 2 1468 1562 
+r3 1 -1 
+$r7 1 67 
+$r134 1 67 
+r12 1 587 
+$r26 2 1019 1634 
+$r94 1 505 
+$r97 1 458 
+$r87 6 1442 1496 708 813 1337 1539 
+$r58 1 1275 
+$r16 1 27 
+$r25 1 1666 
+$r29 2 1019 1634 
+r170 1 1091 
+$r2 1 21 
+$r69 2 1019 1634 
+_ret 1 21 
+$r64 1 642 
+$r89 1 31 
+$r33 1 1865 
+$r13 1 597 
+$r56 1 1347 
+r183 2 1839 1812 
+$r93 1 31 
+r179 1 1702 
+r180 1 1730 
+$r39 1 1734 
+$r166 2 1019 1634 
+$r15 1 1195 
+r156 1 925 
+$r161 2 1019 1634 
+$r123 1 67 
+$r169 2 1019 1634 
+r173 1 1309 
+$r32 1 1858 
+$r37 1 1718 
+r181 1 67 
+$r17 1 1234 
+r175 1 1432 
+$r139 1 525 
+$r157 1 928 
+$r98 1 31 
+$r91 1 67 
+$r86 1 786 
+$r100 1 67 
+$r102 1 352 
+$r18 1 1242 
+$r74 1 949 
+r132 2 10 67 
+$r66 2 1019 1634 
+r145 2 569 1917 
+$r46 1 1515 
+$r124 1 88 
+$r110 1 67 
+$r142 1 549 
+$r54 1 1415 
+$r67 2 569 1917 
+$r38 1 1723 
+$r52 1 1395 
+$r82 1 731 
+$r182 1 1812 
+$r14 1 611 
+r151 1 803 
+$r165 2 1019 1634 
+$r55 6 1442 1496 708 813 1337 1539 
+$r44 6 1496 1442 708 813 1337 1539 
+$r9 1 406 
+$r162 2 1019 1634 
+$r41 1 1484 
+$r153 1 67 
+$r45 1 1506 
+$r99 1 471 
+$r51 1 1385 
+$r20 1 1613 
+$r43 1 1551 
+$r92 1 492 
+$r140 1 525 
+r144 2 1770 1188 
+$r63 1 27 
+r177 1 1480 
+r1 1 -4 
+$r48 1 1454 
+$r49 1 1325 
+$r80 1 825 
+$r164 1 1039 
+r148 2 673 653 
+$r53 1 1412 
+$r62 1 1206 
+$r28 2 1019 1634 
+$r36 2 1019 1634 
+r146 1 635 
+r159 1 933 
+$r158 1 933 
+$r83 1 756 
+r135 1 342 
+$r23 2 1019 1634 
+$r126 1 -1 
+$r8 1 67 
+r136 6 482 417 342 441 352 448 
+$r70 1 1107 
+$r96 1 67 
+$r11 1 1923 
+$r57 1 1252 
+$r111 1 67 
+$r75 1 960 
+$r172 1 1295 
+$r103 1 331 
+$r24 1 1655 
+$r79 6 1442 1496 708 813 1337 1539 
+$r137 1 517 
+$r167 1 1059 
+$r76 1 928 
+$r60 1 1252 
+r0 1 -2 
+r149 1 680 
+r125 1 -3 
+$r72 1 1116 
+r171 1 1227 
+$r163 2 1019 1634 
+$r30 1 1843 
+$r21 2 1019 1634 
+$r5 1 27 
+$r84 1 766 
+Fields: 34
+21 fTargetNamespace 67
+21 fSchemaElement 522
+21 fNamespaceSupport 1281
+1360 ArrayObject 1372
+1227 ArrayObject 1234
+1395 ArrayObject 1407
+-1 fDoc2XSDocumentMap 537
+-1 fDependencyMap 1923
+-1 fSchemaGrammarDescription 1634
+-1 fSchemaGrammarDescription 1019
+-1 fAttributeChecker 27
+-1 fElementTraverser 1337
+-1 fElementTraverser 1442
+-1 fElementTraverser 1496
+-1 fElementTraverser 1539
+-1 fElementTraverser 708
+-1 fElementTraverser 813
+-1 fGrammarBucket 331
+-1 fGrammarBucket 406
+-1 fGrammarBucket 471
+-1 fGrammarBucket 505
+-1 fHiddenNodes 1515
+-1 fDoc2SystemId 517
+-1 fImportMap 928
+-1 fAllTNSs 949
+-1 fRedefine2NSSupport 1252
+-1 fRedefine2XSDMap 1858
+-1 fSymbolTable 31
+1587 ArrayObject 1599
+1587 ArrayObject 1594
+635 ArrayObject 653
+635 ArrayObject 642
+731 ArrayObject 743
+766 ArrayObject 778
+Accesses: 85
+1025 1 -1 
+1153 1 -1 
+258 1 21 
+1538 1 -1 
+1922 1 -1 
+899 1 -1 
+516 1 -1 
+136 1 21 
+520 1 21 
+1033 1 -1 
+266 1 21 
+1677 1 -1 
+142 1 21 
+1806 1 -1 
+1168 1 -1 
+405 1 -1 
+917 1 21 
+1045 1 -1 
+150 1 21 
+536 1 -1 
+664 1 -1 
+409 1 21 
+26 1 -1 
+1690 1 -1 
+30 1 -1 
+1054 1 -1 
+927 1 -1 
+1567 1 -1 
+1441 1 -1 
+422 1 -1 
+1830 1 -1 
+1704 1 -1 
+300 1 21 
+812 1 -1 
+1070 1 -1 
+179 1 21 
+948 1 -1 
+1080 1 -1 
+1336 1 -1 
+314 1 21 
+1084 1 -1 
+831 1 -1 
+1215 1 -1 
+65 1 21 
+1857 1 -1 
+707 1 -1 
+452 1 21 
+199 1 21 
+73 1 21 
+969 1 -1 
+330 1 -1 
+1098 1 -1 
+844 1 21 
+461 1 -1 
+334 1 21 
+1872 1 -1 
+1875 1 -1 
+470 1 -1 
+1495 1 -1 
+1112 1 -1 
+1759 1 -1 
+1633 1 -1 
+1251 1 -1 
+228 1 21 
+102 1 21 
+486 1 21 
+1640 1 -1 
+1514 1 -1 
+363 1 -1 
+1772 1 21 
+495 1 -1 
+623 1 -1 
+1649 1 -1 
+1266 1 -1 
+243 1 21 
+1269 1 -1 
+504 1 -1 
+1784 1 -1 
+1145 1 -1 
+1018 1 -1 
+124 1 21 
+892 1 -1 
+1661 1 -1 
+1790 1 -1 
+1279 1 21 
+Functions: 130
+1539 15 1281 1442 1539 67 708 522 1227 813 1234 21 1496 1337 569 1529 1917 
+1284 2 1281 1275 
+517 2 517 522 
+6 1 -4 
+1030 2 1634 1019 
+263 2 -4 67 
+1287 4 1252 569 1275 1917 
+12 1 -4 
+781 1 680 
+1037 24 -1 928 -2 1634 1442 1858 1923 1539 708 1252 517 331 1515 813 949 406 471 1496 537 1337 505 1019 27 31 
+1293 2 587 1295 
+783 1 783 
+1807 3 1188 537 1770 
+1042 3 1634 1019 1039 
+1554 7 352 448 417 482 342 441 1551 
+533 7 352 448 417 482 342 441 525 
+1557 2 1562 1468 
+792 27 -1 1858 1923 1539 708 517 778 331 406 471 1496 537 27 31 928 1634 1442 1252 1515 813 949 1337 505 569 1019 1917 766 
+1304 2 569 1917 
+1051 4 1634 1234 642 1019 
+798 2 569 1917 
+543 6 -2 1281 67 21 537 522 
+1825 27 -1 1858 642 1923 1539 708 517 331 1234 406 471 1496 537 27 31 928 1634 1442 1252 1188 1770 1515 813 949 1337 505 1019 
+34 7 1281 -2 67 21 522 27 31 
+1316 1 1309 
+1575 7 1281 1234 67 21 522 27 1227 
+553 1 549 
+1067 3 1634 1059 1019 
+1323 2 1321 1325 
+813 16 1281 1442 642 1539 803 67 708 522 813 653 21 1496 1337 569 635 1917 
+1841 2 1843 587 
+307 24 -1 928 -2 1634 1442 1858 1923 1539 708 1252 517 331 1515 813 949 406 471 1496 537 1337 505 1019 27 31 
+564 1 -2 
+1076 4 673 1634 1019 653 
+1079 23 -1 928 1634 1442 1858 1923 1539 708 1252 517 331 1515 813 949 406 471 1496 537 1337 505 1019 27 31 
+1337 13 1281 1442 1539 67 708 522 1227 813 1234 21 1496 1337 1309 
+60 24 -1 928 -2 1634 1442 1858 1923 1539 708 1252 517 331 1515 813 949 406 471 1496 537 1337 505 1019 27 31 
+828 7 352 448 417 482 342 441 825 
+319 4 1281 67 21 522 
+1602 28 -1 1858 1923 1539 708 517 331 406 471 1496 537 27 31 928 1634 1442 1252 1515 813 1587 949 1337 505 569 1594 1019 1917 1599 
+582 2 569 1917 
+1350 7 352 448 417 482 1347 342 441 
+839 8 1281 642 67 21 522 27 635 653 
+75 1 67 
+331 2 67 331 
+1611 2 587 1613 
+1869 1 1865 
+1105 1 1091 
+595 2 597 587 
+1107 2 1120 1107 
+1622 25 -1 1858 1923 1539 708 517 331 406 471 1496 537 27 31 928 1634 1442 1252 1515 813 949 1337 505 569 1019 1917 
+344 1 342 
+1113 2 1634 1019 
+1883 5 1858 1812 569 1917 1839 
+1119 3 1234 642 1116 
+96 25 -1 -2 1858 1923 1539 708 517 331 406 471 1496 88 537 27 31 928 1634 1442 1252 1515 813 949 1337 505 1019 
+609 2 611 587 
+1380 27 -1 1858 1923 1539 708 517 331 1360 406 471 1496 537 27 1372 31 928 1634 1442 1252 1515 813 949 1337 505 569 1019 1917 
+1637 2 1634 1019 
+358 2 352 342 
+1383 1 1309 
+876 28 -1 1858 1923 1539 708 517 331 406 471 1496 537 858 27 31 863 928 1634 1442 866 1252 1515 813 949 1337 505 569 1019 1917 
+1646 2 1634 1019 
+1903 3 1812 549 1839 
+624 7 1281 67 21 569 522 27 1917 
+369 2 352 331 
+882 6 1281 673 67 21 522 653 
+1653 24 -1 928 -2 1634 1442 1858 1923 1539 708 1252 517 331 1515 813 949 406 471 1496 537 1337 505 1019 27 31 
+375 24 -1 928 352 1634 1442 1858 1923 1539 708 1252 517 331 1515 813 949 406 471 1496 537 1337 505 1019 27 31 
+1912 2 569 1917 
+1658 3 1634 1655 1019 
+1152 23 -1 928 1634 1442 1858 1923 1539 708 1252 517 331 1515 813 949 406 471 1496 537 1337 505 1019 27 31 
+1410 1 1309 
+388 29 -1 448 1858 1923 1539 708 517 331 406 342 471 1496 537 27 31 928 352 417 1634 1442 482 1252 1515 813 949 1337 505 441 1019 
+1412 1 1412 
+1674 3 1634 1666 1019 
+1930 6 1281 1923 67 21 549 522 
+1421 27 -1 1858 1923 1539 708 517 331 406 471 1496 537 27 31 928 1634 1442 1252 1515 813 1395 949 1337 505 569 1019 1917 1407 
+1167 25 -1 1858 1923 1539 708 517 331 406 471 1496 537 27 31 928 1634 1442 1252 1515 813 949 1337 505 569 1019 1917 
+913 6 1281 673 67 21 522 653 
+1427 2 569 1917 
+1683 4 1634 67 10 1019 
+916 24 -1 928 1634 1442 1858 1923 1539 67 708 1252 517 331 1515 813 949 406 471 1496 537 1337 505 1019 27 31 
+406 2 67 406 
+665 3 673 653 31 
+1689 25 -1 1858 1923 1539 708 517 331 406 471 1496 537 27 31 928 1634 1442 1252 1515 813 949 1337 505 569 1019 1917 
+928 2 928 925 
+1442 15 1281 1442 1539 67 708 522 1227 813 1234 21 1496 1432 1337 569 1917 
+675 2 569 1917 
+1193 2 587 1195 
+687 1 680 
+1457 7 352 448 417 482 342 441 1454 
+435 24 -1 928 1634 1442 1858 1923 1539 -4 708 1252 517 331 1515 813 949 406 471 1496 537 1337 505 1019 27 31 
+1204 2 1206 587 
+1716 1 1702 
+694 2 692 696 
+1463 2 569 1917 
+1721 1 1702 
+186 24 -1 928 -2 1634 1442 1858 1923 1539 708 1252 517 331 1515 813 949 406 471 1496 537 1337 505 1019 27 31 
+954 2 949 925 
+1726 2 1718 1723 
+1216 7 1281 67 21 569 522 27 1917 
+1475 2 1562 1468 
+708 14 1281 1442 642 1539 67 708 680 522 813 653 21 1496 1337 635 
+964 1 960 
+1732 6 352 448 417 482 342 441 
+1734 2 1730 1734 
+457 1 -4 
+1482 2 1480 1484 
+465 4 448 67 458 31 
+721 7 352 448 417 482 342 441 718 
+977 3 928 960 925 
+1240 2 1242 587 
+1496 14 1281 1442 1539 67 708 522 1227 813 1234 21 1496 1337 1562 1468 
+987 3 960 673 653 
+476 2 448 471 
+1756 26 -1 1858 1923 1539 708 517 331 406 471 1496 537 27 31 928 1634 1442 1252 1702 1515 813 949 1337 505 569 1019 1917 
+996 3 673 933 653 
+1509 7 352 448 417 482 1506 342 441 
+235 24 -1 928 -2 1634 1442 1858 1923 1539 708 1252 517 331 1515 813 949 406 471 1496 537 1337 505 1019 27 31 
+491 1 -4 
+1518 3 1562 1515 1468 
+751 27 -1 1858 1923 1539 708 517 331 406 471 1496 537 27 731 31 928 1634 1442 1252 743 1515 813 949 1337 505 569 1019 1917 
+1263 1 1259 
+754 1 680 
+499 4 482 67 492 31 
+1012 3 673 933 653 
+1524 2 569 1917 
+510 2 482 505 
+1022 2 1634 1019 
+Constructors: 9
+465 448
+34 21
+499 482
+964 960
+1284 1275
+358 352
+553 549
+1869 1865
+1263 1259
+
+Summary: 31
+866 2 290 1666 -4 0 1360 88 1599 743 52 549 169 960 482 1594 1587 448 1 352 -1 1395 778 1275 218 1407 766 1059 -2 1372 731 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.canAddComponents(Ljava/util/List;)Z
+PTG:
+Vars:
+5
+$r1 1 7 
+r4 1 27 
+r0 1 -2 
+r5 1 -1 
+$r3 1 27 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+37 3 -1 7 27 
+24 1 -2 
+11 1 7 
+Constructors: 1
+11 7
+
+Summary: 4
+-2 7 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedModelGroupDefinitionComponents(Lcom/sun/org/apache/xerces/internal/xs/XSModelGroupDefinition;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+r5 1 -5 
+r4 1 -4 
+$r2 1 2 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+11 5 -1 2 -3 -4 -5 
+Constructors: 0
+
+Summary: 9
+-2 1 2 -4 0 3 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGlobalDeclFromGrammar(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;ILjava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+r1 1 -4 
+r0 1 -2 
+r2 1 -1 
+r3 7 83 53 93 63 103 73 113 
+_ret 7 83 53 93 63 103 73 113 
+Fields: 0
+Accesses: 0
+Functions: 7
+48 2 -2 -4 
+98 2 -2 -4 
+68 2 -2 -4 
+88 2 -2 -4 
+58 2 -2 -4 
+108 2 -2 -4 
+78 2 -2 -4 
+Constructors: 0
+
+Summary: 5
+2 -1 -2 -4 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.updateImportListFor(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+8
+r3 1 23 
+r4 1 -1 
+r0 1 -2 
+$r2 1 23 
+$r6 1 39 
+r1 1 4 
+r7 1 45 
+$r5 1 34 
+Fields: 1
+-1 fGrammarBucket 34
+Accesses: 1
+33 1 -1 
+Functions: 6
+0 1 -2 
+34 2 34 39 
+21 1 4 
+37 1 23 
+12 1 4 
+63 2 4 45 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGrammars(Ljava/util/List;)V
+PTG:
+Vars:
+7
+r6 1 -1 
+$r3 1 27 
+r7 1 55 
+$r1 1 7 
+r4 1 27 
+$r5 1 40 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+48 1 -1 
+Functions: 7
+0 1 -2 
+69 3 -1 55 27 
+38 1 27 
+24 1 -2 
+11 1 7 
+43 2 7 40 
+46 2 -1 7 
+Constructors: 1
+11 7
+
+Summary: 4
+-2 7 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.reportSchemaError(Ljava/lang/String;[Ljava/lang/Object;Lorg/w3c/dom/Element;Ljava/lang/Exception;)V
+PTG:
+Vars:
+5
+r4 1 -5 
+r0 1 -1 
+r3 1 -4 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 5 -1 -2 -3 -4 -5 
+Constructors: 0
+
+Summary: 8
+-2 1 2 -4 3 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addIDConstraintDecl(Lcom/sun/org/apache/xerces/internal/impl/xs/identity/IdentityConstraint;)V
+PTG:
+Vars:
+16
+$r3 1 26 
+$r4 1 30 
+$r11 1 42 
+$r10 1 71 
+r7 1 -1 
+$r16 2 36 66 
+r0 1 -2 
+$r5 1 33 
+$r14 1 60 
+$r9 1 75 
+$r13 1 56 
+$r8 1 71 
+$r15 1 63 
+$r2 1 16 
+r1 1 4 
+$r12 1 50 
+Fields: 1
+-1 fGlobalIDConstraintDecls 71
+Accesses: 2
+81 1 -1 
+70 1 -1 
+Functions: 15
+0 1 -2 
+33 1 33 
+71 3 66 36 71 
+9 1 4 
+42 2 4 42 
+46 1 42 
+16 1 16 
+50 1 50 
+20 1 16 
+87 4 -2 66 36 71 
+56 2 56 60 
+26 2 26 30 
+59 1 -2 
+29 1 -2 
+63 1 63 
+Constructors: 2
+20 16
+46 42
+
+Summary: 3
+-1 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getSchemaDocument(Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/util/SAXInputSource;ZSLorg/w3c/dom/Element;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+44
+$r21 1 68 
+$r10 1 288 
+$r11 1 266 
+$r13 1 316 
+$r5 1 28 
+$r7 1 216 
+$r40 1 -1 
+r47 1 364 
+$r26 1 97 
+$r38 1 234 
+r44 1 75 
+r41 2 161 4 
+$r25 1 97 
+r3 1 -6 
+$r35 1 -1 
+$r20 1 64 
+$r29 1 -1 
+r1 1 10 
+$r34 1 -1 
+r43 1 77 
+$r15 1 266 
+_ret 1 430 
+r0 1 -3 
+$r14 1 319 
+$r12 1 266 
+$r27 1 36 
+$r17 1 273 
+$r22 1 77 
+$r28 1 44 
+$r6 1 152 
+$r39 1 -1 
+$r24 1 92 
+$r4 1 430 
+r42 1 -1 
+$r48 1 373 
+$r16 1 389 
+$r18 1 152 
+$r8 1 266 
+r23 1 -2 
+$r37 1 231 
+$r19 1 152 
+$r9 1 292 
+r2 1 -1 
+$r36 1 -1 
+Fields: 7
+-1 fErrorReporter 316
+-1 fSecurityManager 152
+-1 fAccessExternalDTD 216
+-1 fTraversed 92
+-1 fSchemaParser 288
+-1 fXSContentHandler 266
+-1 fSymbolTable 292
+Accesses: 15
+291 1 -1 
+196 1 -1 
+357 1 -1 
+265 1 -1 
+304 1 -1 
+113 1 -1 
+147 1 -1 
+151 1 -1 
+215 1 -1 
+280 1 -1 
+185 1 -1 
+91 1 -1 
+283 1 -1 
+315 1 -1 
+287 1 -1 
+Functions: 34
+0 1 -3 
+322 3 161 4 319 
+67 1 -3 
+6 1 -3 
+71 2 64 68 
+200 3 161 4 152 
+331 3 161 4 10 
+401 0 
+339 2 161 4 
+277 1 273 
+86 3 -2 75 77 
+152 1 152 
+409 0 
+26 1 10 
+155 0 
+219 3 161 4 216 
+347 2 161 4 
+92 2 92 77 
+34 1 10 
+229 2 161 4 
+421 10 -1 288 -3 292 -6 152 216 266 316 92 
+358 1 266 
+231 1 231 
+169 2 161 4 
+42 1 10 
+299 3 288 292 266 
+242 2 -1 234 
+371 1 364 
+308 3 161 4 266 
+248 2 161 4 
+316 1 316 
+62 1 10 
+382 11 -1 288 292 373 152 216 266 75 316 92 77 
+127 2 161 4 
+Constructors: 2
+277 273
+86 77
+
+Summary: 14
+77 10 4 -1 68 36 0 -6 28 64 -3 -2 44 231 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.parseSchema(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;Ljava/util/Map;)Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;
+PTG:
+Vars:
+61
+$r44 1 -2 
+$r12 1 685 
+r0 1 -1 
+$r67 1 473 
+$r5 1 578 
+$r76 1 56 
+r18 1 717 
+$r52 1 103 
+$r6 1 592 
+$r8 1 646 
+$r50 1 142 
+$r79 1 834 
+$r17 1 711 
+$r19 1 56 
+r4 1 -2 
+$r78 1 831 
+$r7 1 599 
+$r9 1 646 
+$r45 2 150 134 
+$r42 2 150 134 
+$r11 1 680 
+r66 1 447 
+r22 1 764 
+$r70 1 521 
+$r57 1 -1 
+r3 1 -3 
+r58 3 470 80 66 
+$r37 2 150 134 
+$r47 1 -2 
+$r77 1 599 
+$r53 1 107 
+r74 1 618 
+$r29 1 505 
+$r72 1 537 
+$r16 1 56 
+$r41 1 -2 
+$r2 1 6 
+$r68 1 477 
+r75 1 669 
+$r56 1 60 
+$r48 2 150 134 
+$r20 1 753 
+$r21 1 753 
+$r30 1 142 
+r69 1 484 
+_ret 1 834 
+$r14 1 695 
+r60 5 190 226 262 309 283 
+$r40 1 -2 
+$r27 1 417 
+$r55 1 56 
+r1 1 -4 
+$r28 1 556 
+$r54 1 111 
+$r73 1 618 
+$r51 1 99 
+r65 1 423 
+r59 2 150 134 
+r13 1 685 
+$r10 1 669 
+$r23 5 190 226 262 309 283 
+Fields: 9
+-1 fTraversed 537
+-1 fDoc2SystemId 556
+-1 fSchemaParser 6
+-1 fImportMap 680
+-1 fAllTNSs 646
+-1 fRoot 599
+-1 fGrammarBucket 56
+-1 fSymbolTable 142
+599 fTargetNamespace 831
+Accesses: 27
+384 1 -1 
+704 1 -1 
+2 1 -1 
+5 1 -1 
+645 1 -1 
+73 1 -1 
+141 1 -1 
+463 1 -1 
+595 1 -1 
+598 1 -1 
+87 1 -1 
+663 1 -1 
+536 1 -1 
+347 1 -1 
+30 1 -1 
+800 1 -1 
+611 1 -1 
+679 1 -1 
+745 1 -1 
+491 1 -1 
+555 1 -1 
+45 1 -1 
+438 1 -1 
+55 1 -1 
+823 1 -1 
+827 1 -1 
+828 1 599 
+Functions: 60
+385 0 
+130 1 -3 
+642 10 -1 6 646 599 680 56 537 556 142 831 
+646 1 646 
+391 0 
+775 2 695 764 
+9 1 6 
+142 3 150 134 142 
+18 1 -3 
+274 12 -1 -2 -3 6 646 599 680 56 537 556 142 831 
+531 3 484 521 447 
+791 2 695 717 
+664 1 646 
+153 10 -1 6 646 599 680 56 537 556 142 831 
+288 13 -1 -2 6 646 134 680 556 142 150 599 56 537 831 
+544 7 226 309 262 537 521 283 190 
+417 6 417 226 309 262 283 190 
+166 13 -1 -2 6 646 134 680 556 142 150 599 56 537 831 
+807 1 618 
+680 2 680 669 
+43 11 -1 -3 6 646 599 680 56 537 556 142 831 
+430 1 423 
+563 7 226 484 309 262 283 556 190 
+820 11 -1 6 646 599 680 56 537 618 556 142 831 
+439 2 423 142 
+56 2 56 60 
+824 2 56 831 
+570 10 -1 6 646 599 680 56 537 556 142 831 
+59 1 -3 
+699 1 695 
+574 17 -1 226 578 -3 6 646 262 680 556 142 309 599 56 537 283 190 831 
+577 1 -2 
+705 2 711 56 
+452 2 -3 447 
+708 11 -1 6 646 599 680 56 537 556 669 142 831 
+71 11 -1 -3 6 646 599 680 56 537 556 142 831 
+329 0 
+202 13 -1 -2 6 646 134 680 556 142 150 599 56 537 831 
+461 11 -1 -3 6 646 599 680 56 537 556 142 831 
+472 1 -2 
+348 0 
+476 1 -2 
+735 1 685 
+480 2 473 477 
+608 10 -1 6 646 599 680 56 537 556 142 831 
+97 3 80 66 470 
+354 0 
+99 2 99 111 
+102 1 -2 
+106 1 -2 
+746 2 753 56 
+749 1 685 
+110 2 103 107 
+238 13 -1 -2 6 646 134 680 556 142 150 599 56 537 831 
+366 0 
+622 1 618 
+503 3 80 66 470 
+505 2 484 505 
+634 11 -1 6 646 599 680 56 537 618 556 142 831 
+638 10 -1 6 646 599 680 56 537 556 142 831 
+Constructors: 3
+531 521
+699 695
+622 618
+
+Summary: 15
+334 1 2 -1 371 0 354 392 391 521 695 355 618 -3 -2 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getSchemaDocument1(ZZLcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;Lorg/w3c/dom/Element;Ljava/io/IOException;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+10
+r5 1 -6 
+$r1 1 77 
+$r11 2 47 54 
+$r3 1 83 
+$r10 1 19 
+$r9 1 13 
+r4 1 -5 
+r0 1 -1 
+$r6 1 38 
+r2 1 -4 
+Fields: 0
+Accesses: 1
+96 1 -1 
+Functions: 6
+18 1 -4 
+82 1 -4 
+53 1 -4 
+27 4 -1 -5 -6 13 
+91 4 -1 -5 -6 77 
+62 4 -1 -5 -6 38 
+Constructors: 0
+
+Summary: 10
+-6 13 77 2 -1 4 -5 38 -4 3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedAttributeComponents(Lcom/sun/org/apache/xerces/internal/xs/XSAttributeDeclaration;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+6
+r4 1 -4 
+$r2 1 2 
+r3 1 -3 
+r1 1 -2 
+r0 1 -1 
+r5 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+11 5 -1 2 -3 -4 -5 
+Constructors: 0
+
+Summary: 9
+-2 1 2 -4 3 0 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getSchemaDocument(Lcom/sun/org/apache/xerces/internal/impl/xs/util/XSInputSource;Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+12
+r12 1 72 
+r0 1 -2 
+r2 1 -3 
+$r3 1 85 
+r6 1 102 
+$r9 1 58 
+r5 1 -1 
+r1 1 4 
+r11 1 25 
+$r8 1 139 
+$r10 1 59 
+$r7 1 138 
+Fields: 2
+72 ArrayObject 138
+4 ArrayObject 58
+Accesses: 2
+104 1 -1 
+27 1 -1 
+Functions: 14
+0 1 -2 
+34 2 -1 25 
+68 1 -2 
+5 1 -3 
+138 1 138 
+46 2 -1 25 
+111 2 -1 102 
+144 2 -3 139 
+20 3 -1 4 58 
+89 1 85 
+58 1 58 
+125 3 -1 85 102 
+62 2 -3 59 
+94 4 -1 85 72 138 
+Constructors: 1
+89 85
+
+Summary: 12
+85 1 4 -1 -3 -2 72 58 139 0 59 138 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.canAddComponent(Lcom/sun/org/apache/xerces/internal/xs/XSObject;Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;)Z
+PTG:
+Vars:
+12
+r1 1 -2 
+r5 1 46 
+$r6 1 171 
+r4 1 16 
+$r8 1 135 
+$r9 1 111 
+$r11 1 123 
+$r10 1 147 
+$r7 1 159 
+r3 1 -1 
+$r2 1 2 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 12
+32 1 -2 
+144 2 16 46 
+1 1 -2 
+132 2 16 46 
+7 2 -3 2 
+23 1 16 
+40 1 -2 
+120 2 16 46 
+168 2 16 46 
+10 2 -1 -3 
+108 2 16 46 
+156 2 16 46 
+Constructors: 0
+
+Summary: 4
+1 -1 -3 -2 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalNotationDecls(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+18
+$r11 1 80 
+r0 1 -2 
+r1 1 6 
+$r6 1 179 
+$r8 1 28 
+$r2 1 128 
+$r12 1 85 
+r15 1 103 
+r16 1 179 
+r13 1 28 
+r14 1 47 
+r17 1 197 
+r5 1 171 
+r3 1 128 
+$r9 1 41 
+r7 1 -3 
+r10 1 -1 
+r4 1 155 
+Fields: 0
+Accesses: 1
+70 1 -1 
+Functions: 19
+0 1 -2 
+97 1 -2 
+163 1 128 
+38 2 -3 41 
+7 1 6 
+39 1 28 
+105 1 103 
+138 1 128 
+173 1 103 
+78 1 28 
+209 3 -3 179 155 
+83 1 28 
+147 1 128 
+88 3 -1 80 85 
+25 1 6 
+57 2 -3 28 
+124 1 103 
+157 1 128 
+189 3 -3 171 155 
+Constructors: 0
+
+Summary: 5
+1 -1 -3 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.fillInLocalElemInfo(Lorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;ILcom/sun/org/apache/xerces/internal/xs/XSObject;Lcom/sun/org/apache/xerces/internal/impl/xs/XSParticleDecl;)V
+PTG:
+Vars:
+26
+r6 1 -3 
+$r7 1 91 
+$r13 1 280 
+$r19 1 91 
+r24 1 183 
+r0 1 -1 
+$r21 1 123 
+r16 1 52 
+$r11 1 189 
+r2 1 -6 
+$r23 1 156 
+$r1 1 1 
+r9 1 -5 
+r14 1 19 
+r4 1 -2 
+$r25 1 189 
+$r12 1 277 
+$r5 1 58 
+r20 1 118 
+$r8 1 123 
+r22 1 150 
+$r15 1 1 
+r18 1 85 
+$r10 1 156 
+$r3 1 1 
+$r17 1 58 
+Fields: 7
+-1 fParent 156
+-1 fAllContext 123
+-1 fLocalElementDecl_schema 91
+-1 fParticle 1
+-1 fLocalElemNamespaceContext 189
+-1 fLocalElementDecl 58
+-3 fNamespaceSupport 277
+Accesses: 40
+0 1 -1 
+65 1 -1 
+130 1 -1 
+196 1 -1 
+5 1 -1 
+261 1 -1 
+265 1 -1 
+75 1 -1 
+12 1 -1 
+140 1 -1 
+78 1 -1 
+206 1 -1 
+143 1 -1 
+209 1 -1 
+273 1 -1 
+276 1 -3 
+213 1 -1 
+24 1 -1 
+90 1 -1 
+155 1 -1 
+220 1 -1 
+32 1 -1 
+224 1 -1 
+98 1 -1 
+163 1 -1 
+230 1 -1 
+42 1 -1 
+234 1 -1 
+108 1 -1 
+45 1 -1 
+173 1 -1 
+111 1 -1 
+176 1 -1 
+240 1 -1 
+244 1 -1 
+57 1 -1 
+122 1 -1 
+250 1 -1 
+188 1 -1 
+254 1 -1 
+Functions: 7
+36 2 1 19 
+69 2 52 58 
+277 1 277 
+102 2 85 91 
+134 2 118 123 
+167 2 150 156 
+200 2 183 189 
+Constructors: 0
+
+Summary: 5
+1 -1 4 3 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getSchemaDocument0(Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler$XSDKey;Ljava/lang/String;Lorg/w3c/dom/Element;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+7
+r1 1 -3 
+r3 1 -4 
+$r4 1 21 
+r0 1 -2 
+$r6 1 5 
+r2 1 -1 
+_ret 1 -4 
+Fields: 2
+-1 fTraversed 5
+-1 fDoc2SystemId 21
+Accesses: 3
+34 1 -1 
+4 1 -1 
+20 1 -1 
+Functions: 2
+10 3 -2 -4 5 
+26 3 -3 -4 21 
+Constructors: 0
+
+Summary: 6
+-2 1 2 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.buildGlobalNameRegistries()V
+PTG:
+Vars:
+109
+$r40 1 819 
+r114 1 933 
+r0 1 -1 
+r100 1 215 
+$r54 1 624 
+r110 1 668 
+$r36 2 773 410 
+$r70 1 434 
+$r38 1 754 
+$r28 1 633 
+$r69 1 431 
+$r27 2 603 229 
+$r13 1 933 
+$r29 2 603 229 
+$r55 1 209 
+r106 1 549 
+r6 1 30 
+$r17 1 93 
+$r73 1 480 
+$r60 1 276 
+$r76 1 495 
+$r10 1 44 
+$r101 2 284 253 
+$r97 1 186 
+r111 1 675 
+$r95 1 250 
+$r78 2 509 833 
+$r79 1 522 
+$r43 1 866 
+$r1 1 5 
+r113 1 919 
+$r8 1 44 
+$r12 1 902 
+$r86 2 319 725 
+$r96 1 179 
+$r3 1 15 
+$r47 1 801 
+$r93 1 235 
+$r5 1 30 
+$r26 1 583 
+$r75 1 391 
+$r77 2 513 837 
+$r51 1 693 
+$r49 2 319 725 
+r112 1 902 
+r107 1 589 
+$r53 1 619 
+$r18 1 96 
+$r66 2 406 769 
+$r74 1 463 
+r99 2 200 570 
+$r31 1 650 
+$r25 1 161 
+$r58 2 603 229 
+$r30 1 644 
+$r81 1 534 
+$r23 1 110 
+r105 1 446 
+$r82 1 537 
+$r68 1 428 
+$r48 2 323 729 
+$r91 1 353 
+$r80 1 531 
+$r56 2 603 229 
+$r35 1 743 
+$r21 1 135 
+$r46 1 805 
+r103 1 294 
+r7 1 41 
+$r32 1 655 
+$r59 1 270 
+$r24 1 158 
+$r37 2 406 769 
+r62 1 301 
+$r45 2 833 509 
+$r64 1 380 
+$r11 1 898 
+$r67 1 419 
+$r71 1 440 
+$r94 1 245 
+$r83 1 543 
+$r65 2 773 410 
+$r33 1 679 
+$r50 1 697 
+$r61 1 281 
+$r63 1 305 
+$r87 1 332 
+$r16 1 79 
+$r90 1 347 
+$r22 1 107 
+$r108 2 658 627 
+$r42 1 870 
+$r85 2 323 729 
+$r41 1 851 
+$r88 1 341 
+$r92 1 365 
+$r72 1 450 
+$r57 1 259 
+$r20 1 128 
+$r39 1 787 
+r98 2 884 67 
+r104 1 359 
+$r52 1 609 
+$r44 2 837 513 
+$r19 1 44 
+$r15 1 76 
+$r34 1 711 
+$r89 1 344 
+$r84 1 555 
+Fields: 24
+-1 fUnparsedNotationRegistrySub 870
+-1 fUnparsedGroupRegistrySub 837
+-1 fUnparsedGroupRegistrySub 513
+-1 fUnparsedNotationRegistry 866
+-1 fDependencyMap 898
+-1 fUnparsedElementRegistrySub 805
+-1 fUnparsedAttributeGroupRegistrySub 729
+-1 fUnparsedAttributeGroupRegistrySub 323
+-1 fUnparsedTypeRegistrySub 773
+-1 fUnparsedTypeRegistrySub 410
+-1 fRoot 15
+-1 fUnparsedAttributeRegistrySub 697
+-1 fUnparsedGroupRegistry 833
+-1 fUnparsedGroupRegistry 509
+-1 fUnparsedTypeRegistry 406
+-1 fUnparsedTypeRegistry 769
+-1 fHiddenNodes 44
+-1 fUnparsedAttributeGroupRegistry 725
+-1 fUnparsedAttributeGroupRegistry 319
+-1 fUnparsedAttributeRegistry 693
+-1 fUnparsedElementRegistry 801
+30 fTargetNamespace 603
+30 fTargetNamespace 229
+30 fSchemaElement 41
+Accesses: 29
+512 1 -1 
+640 1 30 
+768 1 -1 
+832 1 -1 
+897 1 -1 
+2 1 -1 
+322 1 -1 
+772 1 -1 
+836 1 -1 
+266 1 30 
+14 1 -1 
+146 1 -1 
+724 1 -1 
+405 1 -1 
+728 1 -1 
+409 1 -1 
+602 1 30 
+800 1 -1 
+865 1 -1 
+228 1 30 
+804 1 -1 
+37 1 30 
+869 1 -1 
+43 1 -1 
+692 1 -1 
+696 1 -1 
+890 1 -1 
+508 1 -1 
+318 1 -1 
+Functions: 94
+898 5 898 229 41 603 30 
+259 3 259 229 603 
+644 1 644 
+133 2 67 884 
+389 2 391 301 
+263 1 259 
+519 29 -1 513 833 769 898 323 837 773 200 15 725 406 729 410 603 30 801 866 805 229 870 294 41 44 693 697 570 509 319 
+9 1 5 
+522 2 534 522 
+650 2 650 589 
+779 29 -1 513 833 769 898 323 67 837 773 15 725 406 729 410 603 668 30 801 866 805 229 870 41 44 884 693 697 509 319 
+141 25 -1 128 513 833 769 898 323 67 837 773 15 725 406 729 410 801 866 805 870 44 884 693 697 509 319 
+270 1 270 
+526 1 522 
+655 1 655 
+912 1 902 
+785 2 675 787 
+18 2 5 15 
+531 3 531 200 570 
+276 2 276 215 
+22 1 5 
+150 3 67 884 44 
+663 2 658 627 
+281 1 281 
+537 1 537 
+921 1 919 
+156 2 67 884 
+29 1 5 
+158 2 161 158 
+670 2 67 884 
+543 1 543 
+416 29 -1 513 833 769 898 323 837 773 200 15 725 406 729 410 603 30 801 866 805 229 870 294 41 44 693 697 570 509 319 
+289 2 284 253 
+419 2 419 431 
+931 1 919 
+677 2 675 679 
+423 1 419 
+296 2 200 570 
+811 29 -1 513 833 769 898 323 67 837 773 15 725 406 729 410 603 668 30 801 866 805 229 870 41 44 884 693 697 509 319 
+44 2 41 44 
+428 3 200 570 428 
+303 2 305 301 
+817 2 675 819 
+434 1 434 
+562 31 -1 513 833 769 898 323 837 773 200 15 725 406 215 729 410 603 30 801 866 805 229 549 870 41 555 44 693 697 570 509 319 
+946 2 5 933 
+565 2 200 570 
+184 2 67 884 
+440 1 440 
+62 1 41 
+703 29 -1 513 833 769 898 323 67 837 773 15 725 406 729 410 603 668 30 801 866 805 229 870 41 44 884 693 697 509 319 
+192 25 -1 513 833 769 898 323 67 837 773 15 725 406 729 410 801 866 805 870 44 179 884 693 697 509 319 
+448 2 450 301 
+195 2 67 884 
+709 2 675 711 
+583 3 67 884 583 
+329 29 -1 513 833 769 898 323 837 773 200 15 725 406 729 410 603 30 801 866 805 229 870 294 41 44 693 697 570 509 319 
+74 2 67 884 
+843 29 -1 513 833 769 898 323 67 837 773 15 725 406 729 410 603 668 30 801 866 805 229 870 41 44 884 693 697 509 319 
+76 2 76 79 
+332 2 344 332 
+591 1 589 
+336 1 332 
+209 3 209 200 570 
+849 2 675 851 
+341 3 341 200 570 
+470 31 -1 513 833 769 898 323 837 773 200 15 463 725 406 215 729 410 603 30 801 866 805 229 870 41 44 693 697 570 509 446 319 
+217 1 215 
+91 2 67 884 
+347 1 347 
+93 2 96 93 
+735 29 -1 513 833 769 898 323 67 837 773 15 725 406 729 410 603 668 30 801 866 805 229 870 41 44 884 693 697 509 319 
+353 1 353 
+609 1 609 
+613 1 609 
+741 2 675 743 
+487 31 -1 513 833 769 898 323 837 773 200 15 725 406 215 729 410 603 30 480 801 866 805 229 870 41 44 693 697 570 509 446 319 
+105 2 67 884 
+107 2 107 110 
+235 1 235 
+619 2 619 589 
+876 29 -1 513 833 769 898 323 67 837 773 15 725 406 729 410 603 668 30 801 866 805 229 870 41 44 884 693 697 509 319 
+493 2 301 495 
+239 1 235 
+879 2 67 884 
+624 1 624 
+752 2 754 675 
+372 31 -1 513 833 769 898 323 837 773 200 15 725 406 215 729 410 603 30 801 866 805 229 870 359 41 44 365 693 697 570 509 319 
+245 2 245 215 
+633 3 229 633 603 
+250 1 250 
+378 2 380 301 
+637 1 633 
+894 2 41 44 
+Constructors: 8
+336 332
+613 609
+263 259
+423 419
+9 5
+637 633
+526 522
+239 235
+
+Summary: 4
+5 128 -1 179 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.emptyString2Null(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r2 1 -1 
+r0 1 -2 
+$r1 1 1 
+$r3 1 -2 
+_ret 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGlobalNotationDecl(Ljava/lang/String;)Lcom/sun/org/apache/xerces/internal/impl/xs/XSNotationDecl;
+PTG:
+Vars:
+6
+$r4 1 5 
+$r3 1 5 
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+_ret 1 5 
+Fields: 1
+-1 fGlobalNotationDecls 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.validateAnnotations(Ljava/util/List;)V
+PTG:
+Vars:
+14
+$r1 1 1 
+r15 2 118 69 
+$r10 1 85 
+$r9 1 69 
+$r8 1 53 
+$r11 1 91 
+r2 1 -2 
+$r6 1 30 
+$r12 1 1 
+$r5 1 34 
+$r13 1 -1 
+r0 1 -1 
+$r3 1 18 
+$r7 1 53 
+Fields: 5
+118 next 118
+-1 fGrammarBucketAdapter 30
+-1 fGrammarBucket 34
+-1 fAnnotationValidator 1
+69 fAnnotation 91
+Accesses: 6
+0 1 -1 
+33 1 -1 
+113 2 69 118 
+100 1 -1 
+89 2 69 118 
+29 1 -1 
+Functions: 10
+64 1 -2 
+97 2 18 85 
+50 1 -2 
+37 2 34 30 
+8 4 -1 1 34 30 
+25 1 18 
+105 2 1 18 
+11 1 -2 
+61 2 18 53 
+94 2 85 91 
+Constructors: 2
+25 18
+94 85
+
+Summary: 5
+118 -1 18 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.containedImportedGrammar(Ljava/util/List;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)Z
+PTG:
+Vars:
+9
+r3 1 -1 
+r0 1 -2 
+$r7 1 40 
+$r5 1 35 
+$r4 1 32 
+$r1 1 19 
+$r8 1 43 
+r2 1 19 
+r6 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+16 1 -2 
+35 2 35 43 
+38 2 -1 40 
+39 1 -3 
+29 2 -1 32 
+30 1 19 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.reportSchemaError(Ljava/lang/String;[Ljava/lang/Object;Lorg/w3c/dom/Element;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r3 1 -4 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-2 2 1 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.null2EmptyString(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r1 1 -1 
+r0 1 -2 
+$r2 2 -2 4 
+_ret 2 -2 4 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalComponents(Ljava/util/List;Ljava/util/Map;)V
+PTG:
+Vars:
+6
+r2 1 -2 
+$r6 1 30 
+$r5 1 30 
+r4 1 -3 
+$r0 1 0 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+50 2 -1 -3 
+4 1 0 
+39 3 -1 0 30 
+8 1 -2 
+27 1 -2 
+Constructors: 1
+4 0
+
+Summary: 6
+-2 1 0 -1 0 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGlobalAttributeDecl(Ljava/lang/String;)Lcom/sun/org/apache/xerces/internal/impl/xs/XSAttributeDecl;
+PTG:
+Vars:
+6
+$r2 1 1 
+$r4 1 5 
+$r3 1 5 
+r0 1 -1 
+r1 1 -2 
+_ret 1 5 
+Fields: 1
+-1 fGlobalAttrDecls 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.traverseSchemas(Ljava/util/List;)V
+PTG:
+Vars:
+72
+$r9 1 51 
+$r49 2 200 387 
+$r12 1 62 
+$r54 1 62 
+r75 1 111 
+$r37 1 557 
+r8 1 44 
+r55 1 177 
+$r10 1 47 
+$r62 1 307 
+$r47 2 227 414 
+r77 2 165 336 
+r74 2 610 90 
+$r39 2 281 522 
+$r58 1 217 
+$r32 1 539 
+$r71 1 129 
+$r28 1 431 
+$r30 1 485 
+$r45 3 551 441 635 
+$r1 1 2 
+r15 1 -2 
+$r18 1 673 
+$r26 1 377 
+$r2 1 8 
+$r82 1 62 
+$r79 1 62 
+$r4 1 2 
+$r84 1 709 
+$r43 2 254 468 
+$r38 1 562 
+r11 1 57 
+r7 1 33 
+$r24 1 118 
+$r6 1 33 
+r81 1 662 
+$r53 1 129 
+$r25 1 350 
+r0 1 -1 
+r87 1 740 
+$r27 1 404 
+$r56 1 62 
+$r16 1 740 
+$r72 1 141 
+$r60 1 271 
+$r65 2 254 468 
+$r14 1 62 
+$r21 1 648 
+$r34 1 584 
+$r76 1 141 
+$r19 3 551 441 635 
+$r35 1 592 
+r80 1 625 
+$r23 1 115 
+$r31 1 512 
+$r20 1 643 
+$r69 2 200 387 
+$r59 1 244 
+$r83 1 705 
+$r51 1 360 
+$r33 1 579 
+$r29 1 458 
+$r67 2 227 414 
+$r36 3 551 441 635 
+$r22 1 62 
+$r41 1 495 
+r85 1 709 
+$r78 1 62 
+$r61 1 300 
+r86 1 726 
+$r57 1 190 
+$r63 2 281 522 
+Fields: 21
+33 fTargetNamespace 51
+33 fSchemaElement 44
+300 ArrayObject 316
+-1 fHiddenNodes 62
+-1 fAttributeTraverser 360
+-1 fDependencyMap 705
+-1 fSimpleTypeTraverser 522
+-1 fSimpleTypeTraverser 281
+-1 fNotationTraverser 495
+-1 fRoot 2
+-1 fComplexTypeTraverser 414
+-1 fComplexTypeTraverser 227
+-1 fElementTraverser 441
+-1 fElementTraverser 635
+-1 fElementTraverser 551
+-1 fRedefine2NSSupport 129
+-1 fAttributeGroupTraverser 387
+-1 fAttributeGroupTraverser 200
+-1 fGrammarBucket 47
+-1 fGroupTraverser 468
+-1 fGroupTraverser 254
+Accesses: 29
+128 1 -1 
+704 1 -1 
+1 1 -1 
+386 1 -1 
+135 1 -1 
+199 1 -1 
+329 1 -1 
+521 1 -1 
+17 1 -1 
+83 1 -1 
+467 1 -1 
+280 1 -1 
+603 1 -1 
+413 1 -1 
+158 1 -1 
+226 1 -1 
+99 1 -1 
+550 1 -1 
+359 1 -1 
+40 1 33 
+46 1 -1 
+494 1 -1 
+50 1 33 
+181 1 -1 
+440 1 -1 
+697 1 -1 
+634 1 -1 
+61 1 -1 
+253 1 -1 
+Functions: 65
+642 3 33 51 44 
+5 19 -1 705 129 2 227 387 551 360 200 522 495 47 468 281 441 635 62 414 254 
+262 8 336 33 51 468 165 57 44 254 
+136 3 129 610 90 
+395 8 33 610 387 51 200 57 90 44 
+651 2 648 57 
+12 1 8 
+269 2 177 271 
+402 2 404 111 
+530 8 33 610 51 281 57 522 90 44 
+658 3 33 51 44 
+21 2 2 8 
+25 1 8 
+153 4 33 51 44 141 
+537 2 539 111 
+670 20 -1 705 129 2 227 387 551 360 200 522 44 495 47 468 281 441 635 62 414 254 
+159 3 610 90 62 
+32 1 8 
+289 8 336 33 51 165 281 57 522 44 
+676 2 -2 673 
+422 8 33 610 227 51 57 90 44 414 
+551 9 33 610 51 551 441 90 635 44 557 
+172 2 336 165 
+556 3 33 51 44 
+429 2 111 431 
+685 2 -2 662 
+47 2 51 47 
+305 2 610 90 
+692 3 33 51 44 
+565 2 562 57 
+185 3 336 165 62 
+188 2 177 190 
+701 2 44 62 
+62 2 44 62 
+449 9 33 610 51 551 441 57 90 635 44 
+705 4 705 33 51 44 
+324 23 -1 705 129 2 227 387 165 551 360 200 522 300 495 47 336 468 281 441 635 316 62 414 254 
+456 2 458 111 
+330 3 336 165 62 
+590 2 610 90 
+719 1 709 
+208 8 336 33 387 51 165 200 57 44 
+84 2 44 62 
+342 3 33 51 44 
+598 22 -1 705 129 2 610 227 387 579 551 360 200 522 495 47 468 281 441 90 635 62 414 254 
+215 2 177 217 
+728 1 726 
+348 2 350 111 
+476 8 33 610 51 468 57 90 44 254 
+604 3 610 90 62 
+738 1 726 
+483 2 485 111 
+103 3 610 90 62 
+106 2 610 90 
+235 8 336 33 227 51 165 57 44 414 
+620 1 44 
+368 7 33 610 51 360 57 90 44 
+113 2 610 90 
+753 2 740 8 
+242 2 177 244 
+115 2 115 118 
+375 2 377 111 
+503 7 33 610 51 57 90 44 495 
+635 8 625 33 643 51 551 441 635 44 
+510 2 512 111 
+Constructors: 1
+12 8
+
+Summary: 7
+-1 316 0 300 579 -2 8 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.reportSchemaWarning(Ljava/lang/String;[Ljava/lang/Object;Lorg/w3c/dom/Element;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -3 
+r3 1 -4 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGlobalAttributeGroupDecl(Ljava/lang/String;)Lcom/sun/org/apache/xerces/internal/impl/xs/XSAttributeGroupDecl;
+PTG:
+Vars:
+6
+$r4 1 5 
+$r3 1 5 
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+_ret 1 5 
+Fields: 1
+-1 fGlobalAttrGrpDecls 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getSchemaDocument(Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/util/StAXInputSource;ZSLorg/w3c/dom/Element;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+33
+$r30 1 148 
+r26 1 22 
+$r7 1 148 
+r1 1 -1 
+r25 1 16 
+$r44 1 -1 
+$r17 1 -1 
+$r15 1 125 
+$r41 1 155 
+$r2 1 174 
+$r14 1 125 
+r0 1 -3 
+$r16 1 88 
+$r20 1 -1 
+$r13 1 120 
+$r4 1 148 
+r12 1 -2 
+$r6 1 287 
+_ret 1 371 
+$r5 1 148 
+r32 1 262 
+$r31 1 148 
+r37 2 298 -1 
+r36 1 298 
+$r10 1 41 
+$r33 1 271 
+$r19 1 371 
+$r9 1 37 
+$r40 1 105 
+r27 1 105 
+$r3 1 170 
+r28 1 48 
+r18 1 -6 
+Fields: 4
+-1 fTraversed 120
+-1 fStAXSchemaParser 148
+-1 fSchemaParser 170
+-1 fSymbolTable 174
+Accesses: 10
+162 1 -1 
+147 1 -1 
+165 1 -1 
+119 1 -1 
+169 1 -1 
+185 1 -1 
+220 1 -1 
+141 1 -1 
+173 1 -1 
+255 1 -1 
+Functions: 29
+64 1 16 
+256 1 148 
+322 0 
+6 1 -3 
+199 1 16 
+329 0 
+12 1 -3 
+269 1 262 
+334 0 
+18 1 -3 
+211 1 16 
+86 1 22 
+343 0 
+88 1 88 
+280 8 -1 48 148 120 105 170 174 271 
+350 0 
+159 1 155 
+226 2 148 22 
+36 1 -3 
+293 1 -1 
+40 1 -3 
+234 1 22 
+363 8 -1 -3 148 -6 120 170 298 174 
+44 2 37 41 
+177 3 148 170 174 
+114 3 48 -2 105 
+246 1 22 
+120 2 120 105 
+191 2 16 148 
+Constructors: 2
+114 105
+159 155
+
+Summary: 14
+331 298 105 -1 318 22 0 37 -6 41 -3 -2 16 88 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.setDeclPool(Lcom/sun/org/apache/xerces/internal/impl/xs/XSDeclarationPool;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandComponents([Lcom/sun/org/apache/xerces/internal/xs/XSObject;Ljava/util/Map;)Ljava/util/List;
+PTG:
+Vars:
+9
+r6 1 -3 
+r2 1 -2 
+r5 1 -1 
+r4 1 65 
+$r7 1 22 
+$r0 1 0 
+$r3 1 65 
+_ret 1 0 
+$r8 1 35 
+Fields: 2
+-2 ArrayObject 35
+-2 ArrayObject 22
+Accesses: 0
+Functions: 6
+80 4 -1 0 65 -3 
+18 2 0 22 
+4 1 0 
+36 2 0 35 
+53 1 0 
+62 1 0 
+Constructors: 1
+4 0
+
+Summary: 7
+-2 35 1 22 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalAttributeDecl(Lcom/sun/org/apache/xerces/internal/impl/xs/XSAttributeDecl;)V
+PTG:
+Vars:
+16
+r1 1 4 
+$r8 1 71 
+r7 1 -1 
+$r13 1 56 
+$r9 1 75 
+$r4 1 30 
+$r10 1 71 
+$r2 1 16 
+$r5 1 33 
+$r15 1 63 
+$r14 1 60 
+$r11 1 42 
+$r3 1 26 
+$r12 1 50 
+r0 1 -2 
+$r16 2 36 66 
+Fields: 1
+-1 fGlobalAttrDecls 71
+Accesses: 2
+81 1 -1 
+70 1 -1 
+Functions: 15
+0 1 -2 
+33 1 33 
+71 3 66 36 71 
+9 1 4 
+42 2 4 42 
+46 1 42 
+16 1 16 
+50 1 50 
+20 1 16 
+87 4 -2 66 36 71 
+56 2 56 60 
+26 2 26 30 
+59 1 -2 
+29 1 -2 
+63 1 63 
+Constructors: 2
+20 16
+46 42
+
+Summary: 3
+-1 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.checkForDuplicateNames(Ljava/lang/String;ILjava/util/Map;Ljava/util/Map;Lorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;)V
+PTG:
+Vars:
+84
+$r31 1 222 
+$r59 1 393 
+$r39 1 560 
+$r35 1 499 
+$r46 1 245 
+r20 1 -7 
+$r62 1 257 
+$r34 1 590 
+$r28 1 617 
+$r15 1 633 
+r33 1 234 
+$r23 1 633 
+$r78 1 313 
+$r12 1 154 
+$r52 1 351 
+$r51 1 346 
+$r45 1 524 
+$r65 1 472 
+$r25 1 646 
+$r72 1 274 
+$r70 1 431 
+r7 1 -6 
+$r66 1 475 
+$r50 1 340 
+$r16 1 637 
+$r64 1 467 
+$r48 1 328 
+$r8 1 101 
+$r47 1 257 
+$r76 1 305 
+$r68 1 423 
+r84 2 132 72 
+$r44 1 521 
+$r40 1 565 
+r4 1 -5 
+$r75 1 295 
+$r10 1 110 
+$r57 1 385 
+$r60 1 257 
+$r43 1 516 
+$r26 1 648 
+$r80 1 120 
+r3 1 5 
+$r5 1 72 
+$r32 1 228 
+$r71 1 264 
+$r37 1 499 
+$r9 1 107 
+$r29 1 203 
+$r58 1 390 
+$r67 1 413 
+$r19 1 633 
+$r55 1 257 
+r14 1 -1 
+$r49 1 257 
+$r27 1 663 
+$r41 1 568 
+$r81 1 120 
+$r56 1 379 
+$r54 1 367 
+$r63 1 461 
+$r18 1 687 
+$r61 1 449 
+$r77 1 310 
+$r2 1 5 
+r6 1 72 
+$r53 1 354 
+$r30 1 219 
+$r42 1 506 
+$r17 1 633 
+$r74 1 282 
+$r38 1 554 
+$r86 1 132 
+$r13 1 157 
+$r69 1 428 
+$r11 1 151 
+$r73 1 279 
+r0 1 -4 
+$r21 1 709 
+r1 1 -2 
+$r24 1 633 
+$r82 1 132 
+$r36 1 542 
+$r22 1 696 
+Fields: 8
+-7 fTargetNamespace 257
+-7 fTargetNamespace 499
+633 ArrayObject 637
+633 ArrayObject 646
+633 ArrayObject 709
+633 ArrayObject 687
+-1 fUnparsedRegistriesExt 633
+-1 fRedefine2XSDMap 120
+Accesses: 18
+704 1 -1 
+641 1 -1 
+675 1 -1 
+549 1 -7 
+456 1 -7 
+682 1 -1 
+335 1 -7 
+16 1 -1 
+497 1 -7 
+691 1 -1 
+404 1 -7 
+374 1 -7 
+23 1 -1 
+119 1 -1 
+632 1 -1 
+605 1 -1 
+126 1 -1 
+255 1 -7 
+Functions: 70
+385 2 385 234 
+3 2 -2 -4 
+516 2 516 234 
+390 1 390 
+646 2 -2 646 
+264 1 264 
+521 1 521 
+268 1 264 
+398 5 257 499 -5 -7 393 
+274 2 274 234 
+149 1 -6 
+151 1 151 
+279 1 279 
+535 14 -1 257 -4 -5 709 -6 646 -7 524 687 499 120 633 637 
+154 2 154 157 
+413 1 413 
+542 2 499 542 
+287 3 -4 -6 282 
+672 9 -1 709 -6 646 663 120 633 637 687 
+417 1 413 
+546 1 542 
+35 9 -1 -2 709 -6 646 120 633 637 687 
+295 1 295 
+423 2 423 234 
+42 3 -2 -4 -6 
+554 1 554 
+299 1 295 
+428 1 428 
+560 2 560 234 
+305 2 305 234 
+53 5 -2 257 499 -5 -7 
+565 1 565 
+310 1 310 
+442 14 -1 257 -4 -5 709 -6 646 -7 687 431 499 120 633 637 
+700 1 696 
+318 5 257 499 -5 -7 313 
+449 2 449 257 
+579 14 -1 257 -4 -5 709 -6 646 -7 687 499 120 568 633 637 
+69 2 -2 -5 
+453 1 449 
+199 8 -1 709 -6 646 120 633 637 687 
+328 2 257 328 
+713 5 -2 257 499 709 -7 
+203 2 203 219 
+332 1 328 
+461 1 461 
+207 1 203 
+210 1 -2 
+211 1 -2 
+467 2 467 234 
+340 1 340 
+599 9 -1 709 -6 646 120 633 637 590 687 
+472 1 472 
+346 2 346 234 
+222 1 222 
+351 1 351 
+99 1 5 
+228 1 228 
+101 1 101 
+486 14 -1 257 -4 -5 709 -6 646 -7 687 499 120 633 475 637 
+359 3 354 -4 -6 
+107 2 107 110 
+367 2 257 367 
+626 9 -1 709 -6 646 120 633 617 637 687 
+371 1 367 
+250 3 -6 245 234 
+506 1 506 
+379 1 379 
+510 1 506 
+127 2 101 120 
+Constructors: 10
+417 413
+546 542
+371 367
+453 449
+299 295
+268 264
+332 328
+700 696
+510 506
+207 203
+
+Summary: 16
+2 -1 4 5 -4 0 -6 -7 -5 617 3 190 590 499 257 663 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.element2Locator(Lorg/w3c/dom/Element;)Lcom/sun/org/apache/xerces/internal/impl/xs/util/SimpleLocator;
+PTG:
+Vars:
+5
+r0 1 -2 
+$r1 1 9 
+r3 1 -1 
+$r4 1 9 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+17 3 -1 -2 9 
+13 1 9 
+Constructors: 1
+13 9
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.resolveSchemaSource(Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;ZLorg/w3c/dom/Element;Z)Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;
+PTG:
+Vars:
+14
+$r10 1 56 
+$r5 1 76 
+$r8 1 46 
+$r2 1 24 
+r1 1 -1 
+r7 1 -4 
+$r6 1 80 
+$r9 1 52 
+$r4 1 70 
+r0 1 -2 
+$r12 2 15 9 
+r11 1 30 
+$r3 1 -1 
+_ret 1 30 
+Fields: 4
+52 ArrayObject 56
+76 ArrayObject 80
+-1 fEntityManager 24
+-1 fLocationPairs 9
+Accesses: 2
+23 1 -1 
+8 1 -1 
+Functions: 6
+-1 0 
+51 1 -2 
+83 5 -1 -4 70 24 9 
+24 4 -2 24 9 15 
+59 5 -1 -4 24 9 46 
+75 1 -2 
+Constructors: 0
+
+Summary: 7
+70 2 -1 46 -2 -4 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.<clinit>()V
+PTG:
+Vars:
+11
+$r1 1 8 
+$r2 1 27 
+$r6 1 108 
+$r5 1 88 
+$r3 1 46 
+$r10 1 263 
+$r7 1 128 
+$r9 1 207 
+$r4 1 69 
+$r0 1 2 
+$r8 1 149 
+Fields: 37
+27 ArrayObject 35
+27 ArrayObject 41
+149 ArrayObject 181
+149 ArrayObject 175
+149 ArrayObject 157
+149 ArrayObject 163
+149 ArrayObject 169
+149 ArrayObject 194
+149 ArrayObject 201
+149 ArrayObject 187
+128 ArrayObject 142
+128 ArrayObject 136
+207 ArrayObject 250
+207 ArrayObject 219
+207 ArrayObject 237
+207 ArrayObject 225
+207 ArrayObject 243
+207 ArrayObject 231
+207 ArrayObject 257
+88 ArrayObject 102
+88 ArrayObject 96
+108 ArrayObject 116
+108 ArrayObject 122
+8 ArrayObject 22
+8 ArrayObject 16
+46 ArrayObject 60
+46 ArrayObject 54
+263 ArrayObject 271
+263 ArrayObject 289
+263 ArrayObject 308
+263 ArrayObject 301
+263 ArrayObject 277
+263 ArrayObject 295
+263 ArrayObject 283
+263 ArrayObject 315
+69 ArrayObject 77
+69 ArrayObject 83
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalTypeDecls(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+18
+$r11 1 81 
+$r9 1 40 
+$r2 1 132 
+$r12 1 88 
+r15 1 107 
+r1 1 5 
+r14 1 48 
+r3 1 132 
+r16 1 183 
+r0 1 -2 
+r5 1 175 
+$r6 1 183 
+r10 1 -1 
+$r8 1 27 
+r4 1 159 
+r7 1 -3 
+r13 1 27 
+r17 1 201 
+Fields: 0
+Accesses: 1
+71 1 -1 
+Functions: 19
+0 1 -2 
+128 1 107 
+161 1 132 
+193 3 -3 175 159 
+37 2 -3 40 
+6 1 5 
+38 1 27 
+102 1 -2 
+167 1 132 
+109 1 107 
+142 1 132 
+79 1 27 
+177 1 107 
+213 3 -3 183 159 
+86 1 27 
+151 1 132 
+24 1 5 
+58 2 -3 27 
+93 3 -1 81 88 
+Constructors: 0
+
+Summary: 5
+1 -1 -3 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.isExistingGrammar(Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;Z)Z
+PTG:
+Vars:
+10
+r0 1 -1 
+r1 1 -2 
+r4 1 11 
+$r8 1 53 
+$r6 1 45 
+$r10 1 -1 
+$r7 1 49 
+$r3 1 5 
+$r2 1 1 
+$r5 1 41 
+Fields: 1
+-1 fGrammarBucket 1
+Accesses: 1
+0 1 -1 
+Functions: 9
+16 3 -1 1 -2 
+48 1 -2 
+1 2 1 5 
+4 1 -2 
+52 2 49 45 
+40 1 11 
+41 2 53 41 
+44 1 -2 
+31 1 11 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.renameRedefiningComponents(Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;Lorg/w3c/dom/Element;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+128
+$r19 1 1083 
+r5 1 -1 
+$r78 1 549 
+$r76 1 541 
+$r10 1 954 
+$r108 1 252 
+$r73 1 610 
+$r93 1 114 
+$r112 1 278 
+$r89 1 476 
+$r11 1 924 
+$r32 1 1008 
+$r87 1 672 
+$r40 1 753 
+r125 2 331 369 
+$r54 1 850 
+$r131 1 575 
+$r109 1 233 
+$r113 1 281 
+r129 1 517 
+$r12 1 965 
+r119 1 131 
+$r134 2 736 767 
+$r94 1 131 
+r8 1 -2 
+$r34 1 930 
+$r53 1 835 
+$r17 1 924 
+$r20 1 924 
+$r124 1 114 
+$r37 1 712 
+$r107 1 255 
+$r59 1 801 
+$r43 1 712 
+$r79 1 627 
+$r65 1 422 
+$r102 1 144 
+$r122 1 148 
+$r103 1 156 
+$r60 1 718 
+$r36 1 945 
+$r66 1 465 
+r7 1 -3 
+$r132 1 541 
+$r77 1 537 
+$r71 1 599 
+$r92 1 84 
+$r55 1 855 
+r69 1 524 
+$r111 1 273 
+$r120 1 172 
+$r99 1 220 
+$r56 1 858 
+$r81 1 627 
+$r9 1 924 
+$r44 1 876 
+$r47 1 887 
+$r67 1 507 
+$r58 1 796 
+r14 1 -5 
+r16 1 -6 
+$r27 1 1047 
+$r45 1 871 
+r127 1 418 
+r117 1 80 
+$r13 1 971 
+$r29 1 1067 
+$r64 1 355 
+$r97 1 212 
+$r74 1 613 
+$r18 1 1088 
+$r104 1 233 
+$r110 1 267 
+$r130 1 565 
+$r83 1 646 
+$r48 1 893 
+$r6 1 1130 
+$r21 1 1099 
+$r136 2 979 948 
+$r22 1 1105 
+$r61 1 728 
+$r80 1 688 
+$r82 1 649 
+$r23 1 1110 
+$r86 1 667 
+$r114 1 98 
+$r85 1 661 
+$r35 1 940 
+$r52 1 840 
+$r72 1 605 
+$r38 1 742 
+$r50 1 901 
+$r91 1 42 
+r118 1 124 
+$r105 1 294 
+$r3 1 702 
+$r26 1 1052 
+$r28 1 1062 
+$r68 1 524 
+$r88 1 675 
+$r2 1 318 
+$r1 1 1 
+r115 2 56 14 
+$r84 1 627 
+$r24 1 1113 
+$r4 1 914 
+r116 1 38 
+$r30 1 1070 
+$r62 1 733 
+$r39 1 712 
+$r15 1 976 
+$r121 1 182 
+r128 1 461 
+$r41 1 759 
+$r133 2 589 541 
+$r46 1 712 
+$r49 1 898 
+r126 2 436 393 
+r0 1 -4 
+$r101 1 148 
+$r90 1 490 
+$r96 1 206 
+$r33 1 1013 
+$r106 1 233 
+$r42 1 764 
+$r123 2 196 148 
+$r98 1 217 
+$r63 1 352 
+Fields: 19
+124 ArrayObject 131
+-2 fTargetNamespace 148
+-2 fTargetNamespace 924
+-2 fTargetNamespace 541
+-2 fTargetNamespace 712
+524 localpart 549
+524 prefix 627
+524 uri 537
+517 ArrayObject 524
+-1 fRedefinedRestrictedAttributeGroupRegistry 835
+-1 fRedefinedRestrictedAttributeGroupRegistry 871
+-1 fRedefinedRestrictedGroupRegistry 1047
+-1 fRedefinedRestrictedGroupRegistry 1083
+-1 fAttributeChecker 114
+-1 fAttributeChecker 507
+131 localpart 156
+131 prefix 233
+131 uri 144
+1130 ArrayObject 1138
+Accesses: 31
+961 1 -2 
+834 1 -1 
+262 1 131 
+582 1 -2 
+711 1 -2 
+1095 1 -2 
+202 1 -2 
+142 1 131 
+1039 1 -2 
+656 1 524 
+147 1 -2 
+595 1 -2 
+1046 1 -1 
+535 1 524 
+154 1 131 
+923 1 -2 
+540 1 -2 
+547 1 524 
+870 1 -1 
+231 1 131 
+749 1 -2 
+239 1 131 
+304 1 -1 
+113 1 -1 
+625 1 524 
+883 1 -2 
+633 1 524 
+506 1 -1 
+1082 1 -1 
+827 1 -2 
+189 1 -2 
+Functions: 109
+0 2 1 -4 
+1024 9 -1 1008 114 -3 835 871 1047 1083 507 
+259 1 255 
+772 17 -1 736 -2 -3 835 -4 -6 871 712 114 148 1047 1083 507 924 541 767 
+10 1 -3 
+267 1 267 
+273 2 273 -6 
+278 1 278 
+27 8 -1 114 -3 835 871 1047 1083 507 
+284 4 56 281 252 14 
+1052 1 1052 
+1056 1 1052 
+33 2 56 14 
+549 2 -5 549 
+1062 2 -6 1062 
+807 1 801 
+40 2 38 42 
+299 4 -6 294 56 14 
+1067 1 1067 
+812 9 -1 114 -3 835 871 1047 1083 507 796 
+1073 4 979 948 1047 1070 
+51 2 56 14 
+311 11 144 -2 114 131 148 712 233 124 156 924 541 
+317 2 -4 318 
+575 3 589 541 575 
+1088 2 1088 924 
+579 1 575 
+1092 1 1088 
+69 8 -1 114 -3 835 871 1047 1083 507 
+327 1 -3 
+840 1 840 
+75 2 56 14 
+1099 1 1099 
+844 1 840 
+1105 2 1105 -6 
+82 2 80 84 
+850 2 850 -6 
+1110 1 1110 
+599 1 599 
+855 1 855 
+344 8 -1 114 -3 835 871 1047 1083 507 
+1116 4 979 948 1113 1083 
+605 2 -5 605 
+861 4 736 835 858 767 
+350 2 369 331 
+352 2 352 355 
+610 1 610 
+107 9 -1 114 98 -3 835 871 1047 1083 507 
+619 10 -1 114 835 436 565 871 1047 393 1083 507 
+364 2 369 331 
+876 2 712 876 
+880 1 876 
+114 8 -2 114 148 56 712 924 541 14 
+1140 10 -1 114 1138 -3 835 871 1047 1130 1083 507 
+887 1 887 
+635 1 627 
+893 2 -6 893 
+382 8 -1 114 -3 835 871 1047 1083 507 
+898 1 898 
+388 2 369 331 
+904 4 736 901 871 767 
+649 2 627 649 
+653 1 649 
+913 2 914 -4 
+661 1 661 
+407 9 -1 369 114 835 871 1047 1083 507 331 
+667 2 -6 667 
+156 2 -5 156 
+413 2 436 393 
+672 1 672 
+930 1 930 
+420 2 418 422 
+678 4 675 436 646 393 
+934 1 930 
+940 2 -5 940 
+431 2 436 393 
+945 1 945 
+693 4 688 436 -6 393 
+182 3 196 148 182 
+186 1 182 
+954 2 954 924 
+701 2 -4 702 
+958 1 954 
+450 9 -1 369 114 835 871 1047 1083 507 331 
+965 1 965 
+456 2 436 393 
+971 2 -5 971 
+206 1 206 
+718 1 718 
+463 2 465 461 
+976 1 976 
+722 1 718 
+212 2 212 -5 
+728 2 -5 728 
+984 17 -1 -2 -3 835 -4 -6 871 712 114 979 948 148 1047 1083 507 924 541 
+217 1 217 
+474 2 476 461 
+733 1 733 
+225 9 -1 114 -3 835 871 1047 1083 507 172 
+742 2 742 712 
+746 1 742 
+241 1 233 
+753 1 753 
+500 10 -1 114 835 436 871 1047 393 490 1083 507 
+759 2 -5 759 
+507 8 -2 436 148 712 393 507 924 541 
+1019 1 1013 
+764 1 764 
+255 2 233 255 
+Constructors: 14
+1056 1052
+259 255
+579 575
+1092 1088
+934 930
+807 801
+746 742
+844 840
+653 649
+880 876
+722 718
+186 182
+1019 1013
+958 954
+
+Summary: 22
+4 -4 1008 0 541 -6 1138 -3 924 796 1130 1 565 -1 490 712 -5 98 3 148 172 -2 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getSchemaDocument(Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;ZSLorg/w3c/dom/Element;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+28
+r2 1 -6 
+r18 1 -1 
+r20 1 58 
+$r22 1 122 
+$r16 1 28 
+$r12 1 80 
+$r3 1 229 
+$r24 1 165 
+$r8 1 60 
+$r15 1 21 
+$r13 1 143 
+r0 1 -3 
+_ret 1 229 
+$r17 1 -1 
+r19 1 60 
+r23 1 131 
+$r27 1 188 
+r26 1 179 
+r9 1 -2 
+$r14 1 150 
+$r6 1 47 
+$r11 1 80 
+$r7 1 51 
+$r25 1 165 
+$r5 1 204 
+$r4 1 14 
+r1 1 -1 
+$r10 1 75 
+Fields: 3
+-1 fTraversed 75
+-1 fSchemaParser 165
+-1 fAccessExternalSchema 122
+Accesses: 5
+96 1 -1 
+164 1 -1 
+121 1 -1 
+74 1 -1 
+172 1 -1 
+Functions: 16
+161 6 -1 165 -6 122 75 143 
+69 3 -2 58 60 
+197 7 -1 165 122 58 75 60 188 
+169 2 -3 165 
+75 2 75 60 
+13 1 -3 
+173 1 165 
+46 1 -3 
+50 1 -3 
+20 1 -3 
+148 1 58 
+54 2 51 47 
+186 1 179 
+27 1 -3 
+220 6 -1 -3 165 -6 122 75 
+125 2 58 122 
+Constructors: 1
+69 60
+
+Summary: 7
+-1 60 0 -6 143 -3 -2 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.traverseGlobalDecl(ILorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)Ljava/lang/Object;
+PTG:
+Vars:
+24
+$r15 1 190 
+$r18 1 35 
+$r10 1 142 
+$r4 1 22 
+r3 1 18 
+$r22 1 47 
+r6 1 -4 
+r21 1 47 
+r1 1 -1 
+$r16 1 158 
+$r12 1 222 
+$r17 1 35 
+r0 1 -3 
+$r7 1 113 
+$r5 1 25 
+$r8 1 116 
+$r2 1 5 
+$r19 1 47 
+$r11 1 126 
+$r14 1 174 
+r20 7 232 200 136 168 216 184 152 
+r9 1 -5 
+$r13 1 206 
+_ret 7 232 200 136 168 216 184 152 
+Fields: 9
+-1 fHiddenNodes 5
+-1 fAttributeTraverser 158
+-1 fSimpleTypeTraverser 142
+-1 fNotationTraverser 222
+-1 fComplexTypeTraverser 126
+-1 fRedefine2NSSupport 35
+-1 fElementTraverser 174
+-1 fAttributeGroupTraverser 190
+-1 fGroupTraverser 206
+Accesses: 10
+34 1 -1 
+4 1 -1 
+41 1 -1 
+125 1 -1 
+141 1 -1 
+157 1 -1 
+173 1 -1 
+189 1 -1 
+205 1 -1 
+221 1 -1 
+Functions: 16
+64 2 -4 47 
+8 2 -3 5 
+42 2 18 35 
+14 1 -3 
+142 4 -3 -4 -5 142 
+174 4 -3 -4 -5 174 
+206 4 -3 -4 -5 206 
+238 1 -4 
+112 1 -3 
+113 2 113 116 
+20 1 18 
+22 2 22 25 
+126 4 -3 -4 -5 126 
+158 4 -3 -4 -5 158 
+190 4 -3 -4 -5 190 
+222 4 -3 -4 -5 222 
+Constructors: 0
+
+Summary: 7
+2 1 -1 -4 -5 -3 3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedModelGroupComponents(Lcom/sun/org/apache/xerces/internal/xs/XSModelGroup;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+8
+r2 1 -1 
+r0 1 -2 
+r6 1 -5 
+r4 1 -3 
+$r7 1 41 
+$r3 1 41 
+r1 1 6 
+r5 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+17 1 6 
+37 1 6 
+53 5 -1 -3 -4 -5 41 
+Constructors: 0
+
+Summary: 9
+-2 2 1 -4 0 3 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandImportList(Ljava/lang/String;Ljava/util/List;)V
+PTG:
+Vars:
+7
+r4 1 -3 
+$r5 1 24 
+r1 1 -2 
+r0 1 -1 
+r3 1 8 
+r6 1 17 
+$r2 1 1 
+Fields: 1
+-1 fGrammarBucket 1
+Accesses: 1
+0 1 -1 
+Functions: 6
+1 2 1 -2 
+38 5 -1 1 -3 8 24 
+55 5 -1 1 17 -3 8 
+28 1 24 
+44 2 8 24 
+13 1 8 
+Constructors: 1
+28 24
+
+Summary: 4
+-2 24 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getSchemaGrammar(Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;)Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;
+PTG:
+Vars:
+9
+$r2 1 14 
+r1 1 -2 
+r7 3 57 9 14 
+$r3 1 19 
+$r6 1 35 
+$r5 1 27 
+r0 1 -1 
+$r4 1 23 
+_ret 3 57 9 14 
+Fields: 2
+-1 fGrammarBucket 35
+-1 fSymbolTable 27
+Accesses: 3
+2 1 -1 
+34 1 -1 
+26 1 -1 
+Functions: 7
+0 4 -1 -2 35 27 
+18 1 -2 
+52 6 -1 35 57 9 27 14 
+22 1 -2 
+39 2 35 14 
+45 3 57 9 14 
+30 4 19 23 27 14 
+Constructors: 1
+30 14
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalAttributeDecls(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+18
+r15 1 101 
+$r2 1 126 
+r10 1 -1 
+r16 1 177 
+r17 1 195 
+r3 1 126 
+r7 1 -3 
+r14 1 46 
+$r12 1 84 
+$r8 1 27 
+$r11 1 79 
+r1 1 5 
+r13 1 27 
+r0 1 -2 
+r4 1 153 
+$r6 1 177 
+$r9 1 40 
+r5 1 169 
+Fields: 0
+Accesses: 1
+69 1 -1 
+Functions: 19
+0 1 -2 
+96 1 -2 
+161 1 126 
+37 2 -3 40 
+6 1 5 
+38 1 27 
+103 1 101 
+136 1 126 
+171 1 101 
+77 1 27 
+207 3 177 -3 153 
+145 1 126 
+82 1 27 
+87 3 -1 84 79 
+24 1 5 
+56 2 -3 27 
+122 1 101 
+155 1 126 
+187 3 -3 169 153 
+Constructors: 0
+
+Summary: 5
+1 -1 -3 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.findQName(Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;)Ljava/lang/String;
+PTG:
+Vars:
+17
+$r10 1 134 
+r0 1 -3 
+$r8 1 119 
+r3 1 -1 
+$r9 1 128 
+$r4 1 34 
+$r19 2 -2 61 
+r18 2 45 90 
+r2 1 -2 
+r6 2 -2 61 
+$r11 1 139 
+r17 2 16 30 
+$r5 1 39 
+r1 1 4 
+$r12 1 142 
+$r7 1 68 
+_ret 1 142 
+Fields: 3
+-1 fSymbolTable 34
+-3 fTargetNamespace 90
+-3 fNamespaceSupport 4
+Accesses: 4
+0 1 -3 
+33 1 -1 
+86 1 -3 
+79 1 -3 
+Functions: 14
+32 2 4 39 
+128 1 128 
+97 0 
+34 3 16 34 30 
+5 1 -2 
+101 0 
+134 3 -2 134 61 
+107 2 -2 61 
+139 1 139 
+112 0 
+23 1 -2 
+119 3 119 90 45 
+56 1 -2 
+123 1 119 
+Constructors: 1
+123 119
+
+Summary: 5
+1 90 4 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedSimpleTypeComponents(Lcom/sun/org/apache/xerces/internal/xs/XSSimpleTypeDefinition;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+11
+r2 1 29 
+r0 1 -2 
+$r10 1 107 
+r3 1 52 
+$r6 1 107 
+r5 1 -1 
+r8 1 -4 
+r9 1 -5 
+r4 1 75 
+r7 1 -3 
+r1 1 6 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -2 
+66 5 -1 -3 -4 52 -5 
+20 5 -1 -3 -4 -5 6 
+69 1 -2 
+23 1 -2 
+103 1 75 
+119 5 -1 -3 -4 -5 107 
+43 5 -1 -3 -4 -5 29 
+92 1 75 
+77 1 75 
+46 1 -2 
+Constructors: 0
+
+Summary: 13
+107 1 2 -1 -5 -3 52 6 29 75 -4 0 3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.createTraversers()V
+PTG:
+Vars:
+22
+$r11 1 19 
+$r10 1 77 
+r0 1 -1 
+$r17 1 19 
+$r18 1 141 
+$r9 1 19 
+$r21 1 19 
+$r1 1 1 
+$r19 1 19 
+$r8 1 61 
+$r15 1 19 
+$r4 1 29 
+$r5 1 19 
+$r13 1 19 
+$r2 1 13 
+$r7 1 19 
+$r12 1 93 
+$r3 1 19 
+$r16 1 125 
+$r6 1 45 
+$r14 1 109 
+$r20 1 157 
+Fields: 1
+-1 fAttributeChecker 19
+Accesses: 21
+34 1 -1 
+66 1 -1 
+98 1 -1 
+130 1 -1 
+162 1 -1 
+9 1 -1 
+41 1 -1 
+73 1 -1 
+105 1 -1 
+137 1 -1 
+169 1 -1 
+18 1 -1 
+50 1 -1 
+82 1 -1 
+114 1 -1 
+146 1 -1 
+25 1 -1 
+57 1 -1 
+89 1 -1 
+121 1 -1 
+153 1 -1 
+Functions: 11
+6 3 -1 1 19 
+38 3 -1 19 29 
+70 3 -1 19 61 
+102 3 -1 19 93 
+134 3 -1 19 125 
+166 3 -1 19 157 
+22 3 -1 19 13 
+54 3 -1 19 45 
+86 3 -1 19 77 
+118 3 -1 19 109 
+150 3 -1 19 141 
+Constructors: 11
+6 1
+38 29
+70 61
+102 93
+134 125
+166 157
+22 13
+54 45
+86 77
+118 109
+150 141
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGrammarComponents(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+r0 1 -3 
+r4 2 25 -3 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+35 4 -1 -2 -3 25 
+20 2 -1 -3 
+6 2 -1 -2 
+41 4 -1 -2 -3 25 
+13 1 -3 
+29 4 -1 -2 -3 25 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.createAnnotationValidator()V
+PTG:
+Vars:
+19
+$r11 1 24 
+$r10 1 94 
+$r15 1 137 
+$r3 1 24 
+r0 1 -1 
+$r18 2 107 120 
+$r13 1 24 
+$r19 1 1 
+$r17 2 63 76 
+$r22 1 120 
+$r16 1 24 
+$r20 1 12 
+$r8 1 24 
+$r4 1 24 
+$r12 1 107 
+$r5 1 50 
+$r7 1 63 
+$r6 1 24 
+$r21 1 76 
+Fields: 6
+-1 fGrammarBucketAdapter 50
+-1 fSecurityManager 63
+-1 fLocale 137
+-1 fSecurityPropertyMgr 94
+-1 fErrorHandler 107
+-1 fAnnotationValidator 24
+Accesses: 16
+33 1 -1 
+130 1 -1 
+100 1 -1 
+69 1 -1 
+8 1 -1 
+136 1 -1 
+106 1 -1 
+43 1 -1 
+49 1 -1 
+113 1 -1 
+20 1 -1 
+23 1 -1 
+87 1 -1 
+56 1 -1 
+93 1 -1 
+62 1 -1 
+Functions: 11
+17 1 12 
+81 1 76 
+97 2 24 94 
+84 3 24 76 63 
+5 1 1 
+53 2 50 24 
+40 1 24 
+124 1 120 
+140 2 24 137 
+30 1 24 
+127 3 24 120 107 
+Constructors: 4
+17 12
+81 76
+5 1
+124 120
+
+Summary: 3
+120 76 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.reset(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager;)V
+PTG:
+Vars:
+65
+$r31 1 506 
+$r46 1 66 
+r0 1 -1 
+$r2 1 5 
+$r22 1 387 
+$r8 1 52 
+$r59 1 -1 
+$r33 1 509 
+$r26 1 481 
+$r20 1 66 
+$r58 1 -1 
+$r23 1 436 
+$r30 1 495 
+r1 1 -2 
+$r4 1 21 
+$r5 1 21 
+$r16 1 66 
+$r50 1 214 
+$r15 1 105 
+$r10 1 78 
+$r13 1 94 
+$r29 1 481 
+r9 1 52 
+$r25 1 463 
+$r11 1 78 
+$r63 1 66 
+$r17 1 168 
+$r64 1 260 
+$r24 1 463 
+$r52 1 66 
+$r12 1 91 
+$r14 1 91 
+$r37 1 66 
+$r53 1 -1 
+$r61 2 168 240 
+$r54 1 -1 
+$r34 1 66 
+$r43 1 251 
+$r28 1 492 
+$r48 1 214 
+$r38 1 66 
+$r49 1 168 
+$r39 1 66 
+$r3 1 5 
+$r56 1 -1 
+$r73 1 240 
+$r41 1 66 
+$r57 1 -1 
+$r19 1 91 
+$r55 1 -1 
+$r42 1 214 
+$r72 1 203 
+$r40 1 251 
+$r36 1 66 
+$r35 1 436 
+$r60 2 203 168 
+$r62 1 251 
+$r45 1 168 
+$r27 1 66 
+$r32 1 481 
+$r21 1 387 
+$r6 1 37 
+$r18 1 177 
+$r44 1 214 
+$r7 1 37 
+Fields: 7
+-1 fErrorReporter 91
+-1 fSecurityManager 436
+-1 fLocale 251
+-1 fSchemaParser 66
+-1 fErrorHandler 168
+-1 fSecurityPropertyMgr 481
+-1 fAnnotationValidator 214
+Accesses: 49
+512 1 -1 
+136 1 -1 
+266 1 -1 
+395 1 -1 
+13 1 -1 
+525 1 -1 
+272 1 -1 
+528 1 -1 
+404 1 -1 
+150 1 -1 
+279 1 -1 
+535 1 -1 
+29 1 -1 
+286 1 -1 
+164 1 -1 
+292 1 -1 
+420 1 -1 
+167 1 -1 
+171 1 -1 
+45 1 -1 
+303 1 -1 
+435 1 -1 
+310 1 -1 
+183 1 -1 
+442 1 -1 
+189 1 -1 
+448 1 -1 
+65 1 -1 
+196 1 -1 
+340 1 -1 
+213 1 -1 
+86 1 -1 
+471 1 -1 
+90 1 -1 
+474 1 -1 
+220 1 -1 
+480 1 -1 
+97 1 -1 
+226 1 -1 
+101 1 -1 
+488 1 -1 
+233 1 -1 
+108 1 -1 
+368 1 -1 
+498 1 -1 
+502 1 -1 
+122 1 -1 
+250 1 -1 
+254 1 -1 
+Functions: 36
+320 1 66 
+384 1 -2 
+1 1 -2 
+452 2 66 436 
+516 1 -2 
+70 2 66 52 
+327 1 -2 
+74 1 -2 
+140 1 -2 
+460 1 -2 
+207 1 203 
+17 1 -2 
+210 3 66 168 203 
+276 2 66 251 
+407 1 -2 
+154 1 -2 
+91 1 91 
+539 1 66 
+348 1 66 
+33 1 -2 
+355 1 -2 
+484 2 481 66 
+102 1 91 
+296 2 214 251 
+489 2 481 492 
+172 1 66 
+428 1 66 
+48 1 -2 
+112 1 -2 
+244 1 240 
+247 3 240 214 168 
+311 1 91 
+503 2 481 506 
+376 1 66 
+126 1 -2 
+255 1 66 
+Constructors: 2
+244 240
+207 203
+
+Summary: 5
+-1 203 0 -2 240 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getIDRegistry()Ljava/util/Map;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fUnparsedIdentityConstraintRegistry 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.storeKeyRef(Lorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;Lcom/sun/org/apache/xerces/internal/impl/xs/XSElementDecl;)V
+PTG:
+Vars:
+33
+$r11 1 215 
+$r31 2 42 73 
+$r26 1 87 
+$r20 1 18 
+$r6 1 151 
+r34 1 113 
+r15 1 177 
+$r27 1 83 
+r17 1 209 
+r7 1 -3 
+$r29 1 34 
+$r10 1 267 
+$r25 1 70 
+r5 1 -4 
+$r28 1 24 
+$r4 1 100 
+$r8 1 264 
+$r14 1 151 
+$r9 1 183 
+r0 1 -2 
+$r33 1 100 
+r3 1 -1 
+$r18 1 215 
+$r24 1 65 
+$r22 1 18 
+$r30 1 39 
+$r21 1 48 
+$r16 1 183 
+$r23 1 59 
+$r12 1 100 
+$r1 1 1 
+r2 1 7 
+r13 1 145 
+Fields: 8
+-1 fUnparsedIdentityConstraintRegistrySub 87
+-1 fKeyrefs 100
+-1 fKeyrefsMapXSDocumentInfo 215
+-1 fUnparsedIdentityConstraintRegistry 83
+-1 fKeyrefElems 151
+-1 fKeyrefNamespaceContext 183
+-3 fTargetNamespace 18
+-3 fNamespaceSupport 264
+Accesses: 32
+259 1 -1 
+263 1 -3 
+136 1 -1 
+200 1 -1 
+139 1 -1 
+203 1 -1 
+271 1 -1 
+17 1 -3 
+82 1 -1 
+275 1 -1 
+86 1 -1 
+150 1 -1 
+214 1 -1 
+283 1 -1 
+158 1 -1 
+222 1 -1 
+95 1 -1 
+99 1 -1 
+168 1 -1 
+232 1 -1 
+107 1 -1 
+171 1 -1 
+235 1 -1 
+239 1 -1 
+245 1 -1 
+118 1 -1 
+182 1 -1 
+55 1 -3 
+249 1 -1 
+126 1 -1 
+190 1 -1 
+255 1 -1 
+Functions: 17
+1 2 -2 1 
+65 2 65 7 
+34 2 34 7 
+130 2 113 100 
+162 2 145 151 
+194 2 177 183 
+226 2 209 215 
+70 1 70 
+39 1 39 
+264 1 264 
+9 1 7 
+48 2 48 18 
+52 1 48 
+24 1 24 
+59 1 59 
+28 1 24 
+92 13 -1 -2 -3 100 264 73 42 18 83 87 215 151 183 
+Constructors: 2
+52 48
+28 24
+
+Summary: 4
+1 2 -1 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.traverseLocalElements()V
+PTG:
+Vars:
+32
+$r4 1 26 
+r5 1 31 
+$r1 1 1 
+$r13 1 76 
+$r20 1 100 
+$r23 1 146 
+$r15 1 54 
+$r21 1 66 
+$r7 1 33 
+$r11 1 66 
+$r18 1 85 
+$r10 1 60 
+$r17 1 50 
+$r12 1 72 
+r0 1 -1 
+$r2 1 19 
+$r22 1 146 
+$r26 1 66 
+$r24 1 50 
+$r27 1 112 
+$r14 1 70 
+$r6 1 37 
+$r9 1 50 
+$r19 1 66 
+r8 1 43 
+$r16 1 1 
+$r25 1 168 
+r31 2 128 153 
+$r28 1 112 
+r3 1 24 
+$r30 1 128 
+r29 1 119 
+Fields: 20
+146 fModelGroup 153
+50 ArrayObject 54
+50 ArrayObject 85
+50 ArrayObject 168
+72 ArrayObject 76
+31 fTargetNamespace 37
+-1 fParent 66
+-1 fAllContext 60
+-1 fLocalElementDecl_schema 26
+-1 fParticle 50
+-1 fElementTraverser 1
+-1 fLocalElemNamespaceContext 72
+-1 fGrammarBucket 33
+-1 fLocalElementDecl 19
+19 ArrayObject 24
+26 ArrayObject 31
+66 ArrayObject 70
+66 ArrayObject 112
+66 ArrayObject 146
+66 ArrayObject 100
+Accesses: 19
+0 1 -1 
+32 1 -1 
+65 1 -1 
+163 1 -1 
+36 1 31 
+5 1 1 
+71 1 -1 
+11 1 -1 
+107 1 -1 
+45 1 -1 
+141 1 -1 
+80 1 -1 
+49 1 -1 
+18 1 -1 
+147 1 146 
+85 1 85 
+25 1 -1 
+59 1 -1 
+95 1 -1 
+Functions: 5
+33 2 33 37 
+113 1 112 
+169 22 -1 128 1 33 66 100 37 70 72 168 76 112 50 146 19 85 54 24 153 26 60 31 
+77 8 1 37 54 70 24 43 76 31 
+126 1 119 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getIDConstraintDecl(Ljava/lang/String;)Lcom/sun/org/apache/xerces/internal/impl/xs/identity/IdentityConstraint;
+PTG:
+Vars:
+6
+r1 1 -2 
+$r3 1 5 
+r0 1 -1 
+$r4 1 5 
+$r2 1 1 
+_ret 1 5 
+Fields: 1
+-1 fGlobalIDConstraintDecls 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.updateImportList(Ljava/util/List;Ljava/util/List;)V
+PTG:
+Vars:
+5
+r3 1 -1 
+$r1 1 19 
+r2 1 19 
+r4 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+16 1 -2 
+42 2 -3 19 
+29 3 -1 -3 19 
+Constructors: 0
+
+Summary: 4
+-2 -1 19 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.changeRedefineGroup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;)I
+PTG:
+Vars:
+26
+r0 1 -5 
+r9 1 -4 
+$r12 1 183 
+r6 1 -6 
+r23 2 266 8 
+$r22 1 146 
+r25 1 117 
+$r10 1 159 
+r15 1 203 
+r7 1 78 
+$r3 1 52 
+r8 1 -2 
+$r18 1 121 
+r2 1 -3 
+$r17 1 124 
+$r21 1 143 
+$r19 1 133 
+$r11 1 172 
+r1 1 20 
+r13 1 191 
+$r14 1 195 
+$r16 1 248 
+$r20 1 139 
+r4 1 60 
+r24 1 92 
+r5 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 26
+128 1 124 
+193 3 195 8 266 
+258 4 -1 248 8 266 
+3 1 -5 
+133 1 133 
+261 2 8 266 
+70 3 -1 -6 60 
+139 2 -4 139 
+205 1 203 
+15 2 8 266 
+143 1 143 
+80 2 -2 78 
+149 4 146 8 121 266 
+213 1 203 
+22 2 -3 20 
+94 1 60 
+224 1 191 
+33 7 -1 -2 -3 -4 -6 8 266 
+163 4 -4 8 266 159 
+232 1 191 
+171 2 -3 172 
+109 1 60 
+50 3 52 8 266 
+181 3 183 8 266 
+124 2 117 124 
+62 1 60 
+Constructors: 1
+128 124
+
+Summary: 12
+1 2 248 -1 4 -4 0 -6 -5 -3 -2 3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addNewGrammarComponents(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+3
+r0 1 -3 
+r2 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 7
+1 1 -3 
+19 3 -1 -2 -3 
+37 3 -1 -2 -3 
+7 3 -1 -2 -3 
+25 3 -1 -2 -3 
+13 3 -1 -2 -3 
+31 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGrpOrAttrGrpRedefinedByRestriction(ILcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;Lorg/w3c/dom/Element;)Ljava/lang/Object;
+PTG:
+Vars:
+28
+$r4 1 54 
+$r30 2 34 60 
+r17 1 208 
+$r2 1 40 
+r0 1 -3 
+r31 2 121 102 
+$r8 1 116 
+$r29 1 31 
+$r22 1 97 
+$r32 1 190 
+$r11 1 157 
+$r13 1 173 
+r7 1 -1 
+$r26 1 18 
+_ret 1 208 
+$r27 1 24 
+$r23 1 102 
+$r5 1 57 
+$r1 1 1 
+$r9 1 121 
+$r10 1 153 
+$r12 1 166 
+$r24 1 7 
+$r3 1 50 
+r16 1 -5 
+$r28 1 28 
+r15 1 -4 
+$r25 1 1 
+Fields: 5
+-1 fRedefinedRestrictedAttributeGroupRegistry 97
+-1 fRedefinedRestrictedGroupRegistry 116
+-3 localpart 28
+-3 localpart 54
+-3 uri 1
+Accesses: 8
+0 1 -3 
+96 1 -1 
+115 1 -1 
+53 1 -3 
+277 1 -3 
+27 1 -3 
+14 1 -3 
+254 1 -3 
+Functions: 19
+160 2 102 121 
+97 3 97 34 60 
+193 5 166 153 157 173 190 
+261 4 -1 97 116 -5 
+198 6 -1 97 -4 116 -5 153 
+7 2 1 7 
+40 1 40 
+169 2 102 121 
+11 1 7 
+44 1 40 
+143 2 102 121 
+18 1 18 
+50 2 50 54 
+116 3 34 116 60 
+24 2 24 28 
+57 1 57 
+185 2 102 121 
+284 4 -1 97 116 -5 
+31 1 31 
+Constructors: 3
+193 153
+11 7
+44 40
+
+Summary: 11
+249 2 1 -1 -4 -5 272 -3 3 1 153 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGlobalDecl(Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;ILcom/sun/org/apache/xerces/internal/xni/QName;Lorg/w3c/dom/Element;)Ljava/lang/Object;
+PTG:
+Vars:
+65
+$r36 1 470 
+$r66 1 1 
+$r70 1 27 
+$r63 1 97 
+$r52 1 214 
+r81 7 358 385 412 439 466 493 520 
+$r54 1 221 
+$r9 1 241 
+$r42 1 389 
+$r69 1 1 
+r13 2 224 257 
+$r47 1 557 
+$r48 1 561 
+$r33 1 485 
+$r65 1 100 
+$r51 1 204 
+$r49 1 567 
+$r34 1 497 
+$r62 1 87 
+$r40 1 416 
+$r15 1 524 
+r78 1 136 
+$r14 1 512 
+$r1 1 1 
+$r41 1 377 
+r72 1 33 
+r19 1 -5 
+r0 1 -4 
+$r10 1 247 
+$r16 1 707 
+$r68 1 11 
+$r53 1 27 
+$r7 1 230 
+$r46 1 547 
+r2 1 -2 
+$r77 1 1 
+$r12 1 254 
+$r79 2 224 257 
+$r39 1 404 
+$r35 1 458 
+$r74 2 72 78 
+$r8 1 1 
+$r4 1 27 
+r80 1 284 
+$r43 1 350 
+$r6 1 1 
+r83 1 629 
+_ret 1 809 
+$r11 1 27 
+$r17 1 809 
+$r73 1 1 
+$r64 1 93 
+r5 1 195 
+$r38 1 443 
+$r71 1 23 
+$r60 1 1 
+$r45 1 542 
+r3 1 -1 
+$r61 1 1 
+r82 7 370 424 478 532 397 451 505 
+$r76 1 126 
+$r44 1 362 
+$r37 1 431 
+$r67 1 116 
+$r50 1 570 
+Fields: 21
+-2 fSchemaElement 97
+-4 localpart 27
+-4 uri 1
+-4 rawname 116
+-1 fUnparsedNotationRegistrySub 497
+-1 fUnparsedGroupRegistrySub 443
+-1 fUnparsedNotationRegistry 485
+-1 fUnparsedElementRegistrySub 416
+-1 fUnparsedIdentityConstraintRegistry 458
+-1 fUnparsedAttributeGroupRegistrySub 389
+-1 fUnparsedTypeRegistrySub 524
+-1 fGrammarBucket 126
+-1 fUnparsedAttributeRegistrySub 362
+-1 fUnparsedGroupRegistry 431
+-1 fUnparsedTypeRegistry 512
+-1 fHiddenNodes 707
+-1 fUnparsedIdentityConstraintRegistrySub 470
+-1 fUnparsedAttributeGroupRegistry 377
+-1 fDoc2SystemId 93
+-1 fUnparsedAttributeRegistry 350
+-1 fUnparsedElementRegistry 404
+Accesses: 43
+0 1 -4 
+65 1 -4 
+129 1 -4 
+641 1 -4 
+769 1 -4 
+706 1 -1 
+388 1 -1 
+197 1 -4 
+262 1 -1 
+7 1 -4 
+457 1 -1 
+523 1 -1 
+782 1 -4 
+144 1 -4 
+403 1 -1 
+469 1 -1 
+599 1 -4 
+217 1 -4 
+26 1 -4 
+92 1 -1 
+668 1 -1 
+349 1 -1 
+415 1 -1 
+96 1 -2 
+672 1 -2 
+164 1 -4 
+484 1 -1 
+361 1 -1 
+44 1 -4 
+108 1 -4 
+684 1 -4 
+237 1 -4 
+430 1 -1 
+496 1 -1 
+115 1 -4 
+691 1 -4 
+55 1 -4 
+376 1 -1 
+250 1 -4 
+442 1 -1 
+188 1 -4 
+125 1 -1 
+511 1 -1 
+Functions: 53
+387 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+773 0 
+522 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+779 0 
+143 18 -1 416 512 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+402 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+786 0 
+277 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+23 2 23 27 
+795 19 -1 416 512 707 -5 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+669 0 
+414 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+801 27 -1 512 385 707 389 520 136 458 524 466 404 470 412 93 350 416 485 358 362 493 431 497 629 439 377 443 126 
+547 1 547 
+551 1 547 
+43 3 -2 97 1 
+429 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+557 1 557 
+561 1 561 
+179 19 -1 416 512 707 -5 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+54 3 -2 97 1 
+567 1 567 
+184 20 -1 416 512 707 485 389 136 458 362 524 431 497 404 470 377 443 27 93 126 350 
+441 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+698 19 -1 416 512 707 -5 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+576 20 -1 416 512 707 -5 485 389 458 362 524 431 497 404 470 377 443 93 126 350 542 
+707 8 385 466 707 358 439 520 412 493 
+456 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+204 1 204 
+208 1 204 
+468 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+214 2 214 27 
+348 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+93 2 97 93 
+221 1 221 
+734 0 
+737 7 385 466 358 439 520 412 493 
+483 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+230 2 1 230 
+614 19 -1 416 512 707 -5 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+360 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+234 1 230 
+620 34 -1 512 -2 385 707 451 389 520 458 524 397 466 404 532 470 412 93 350 478 416 97 485 358 424 362 493 431 497 370 439 377 505 443 126 
+495 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+241 1 241 
+247 2 247 27 
+375 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+122 22 -1 416 512 707 -5 485 389 72 458 362 524 78 431 497 404 470 87 377 443 93 126 350 
+762 0 
+126 2 1 126 
+254 1 254 
+510 20 -1 416 512 224 257 707 485 389 458 362 524 431 497 404 470 377 443 93 126 350 
+766 0 
+Constructors: 3
+208 204
+551 547
+234 230
+
+Summary: 16
+2 -1 -4 0 159 97 542 -5 757 3 594 27 770 87 -2 663 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.findGrammar(Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;Z)Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;
+PTG:
+Vars:
+10
+$r7 1 1 
+r0 1 -1 
+r8 2 11 28 
+$r6 1 28 
+$r3 1 5 
+$r4 1 17 
+r1 1 -2 
+$r5 1 17 
+$r2 1 1 
+_ret 2 11 28 
+Fields: 2
+-1 fGrammarPool 17
+-1 fGrammarBucket 1
+Accesses: 4
+0 1 -1 
+16 1 -1 
+23 1 -1 
+41 1 -1 
+Functions: 5
+1 2 1 5 
+4 1 -2 
+24 2 17 -2 
+42 3 1 11 28 
+59 3 -1 17 1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalElementDecls(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+16
+r4 1 132 
+$r2 1 105 
+r11 1 27 
+r7 1 -3 
+$r8 1 27 
+r10 1 -1 
+r5 1 148 
+r15 1 174 
+r13 1 80 
+r12 1 46 
+$r9 1 40 
+$r6 1 156 
+r3 1 105 
+r1 1 5 
+r0 1 -2 
+r14 1 156 
+Fields: 0
+Accesses: 0
+Functions: 16
+0 1 -2 
+37 2 -3 40 
+101 1 80 
+6 1 5 
+38 1 27 
+134 1 105 
+166 3 -3 148 132 
+75 1 -2 
+140 1 105 
+82 1 80 
+115 1 105 
+150 1 80 
+24 1 5 
+56 2 -3 27 
+186 3 -3 132 156 
+124 1 105 
+Constructors: 0
+
+Summary: 5
+1 -1 -3 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalComponent(Lcom/sun/org/apache/xerces/internal/xs/XSObject;Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;)V
+PTG:
+Vars:
+34
+$r10 1 331 
+r1 1 6 
+$r29 1 -2 
+$r27 1 -2 
+$r33 1 -2 
+$r11 1 353 
+$r31 1 192 
+r0 1 -2 
+$r14 1 217 
+$r23 1 -2 
+r5 1 33 
+r4 1 17 
+$r25 1 284 
+$r20 1 134 
+$r28 1 -2 
+$r7 1 400 
+$r24 1 -2 
+$r13 1 -2 
+$r6 1 378 
+$r22 1 -2 
+$r32 1 -2 
+$r12 1 -2 
+$r19 1 112 
+$r8 1 -2 
+$r21 1 -2 
+$r26 1 306 
+$r16 1 -2 
+r3 1 -1 
+$r9 1 -2 
+$r15 1 239 
+$r30 1 170 
+$r17 1 -2 
+$r18 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 33
+0 1 -2 
+321 2 17 -2 
+261 1 -2 
+390 2 17 -2 
+327 2 17 33 
+9 2 -3 6 
+393 2 17 33 
+12 2 -1 -3 
+207 2 17 -2 
+19 1 -2 
+149 2 17 -2 
+213 2 17 33 
+277 2 17 -2 
+343 2 17 -2 
+280 2 17 33 
+346 2 17 33 
+27 1 -2 
+156 1 -2 
+415 2 17 -2 
+97 1 -2 
+229 2 17 -2 
+166 2 17 33 
+232 2 17 33 
+296 2 17 -2 
+299 2 17 33 
+108 2 17 33 
+368 2 17 -2 
+182 2 17 -2 
+374 2 17 33 
+185 2 17 33 
+124 2 17 -2 
+254 2 17 -2 
+127 2 17 33 
+Constructors: 0
+
+Summary: 4
+1 -1 -3 -2 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getDVFactory()Lcom/sun/org/apache/xerces/internal/impl/dv/SchemaDVFactory;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 fDVFactory 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.updateImportList(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Ljava/util/List;Ljava/util/List;)V
+PTG:
+Vars:
+8
+r6 1 -3 
+r7 1 -2 
+r1 1 -1 
+r0 1 -4 
+$r2 1 19 
+$r4 1 25 
+$r3 1 25 
+r5 1 36 
+Fields: 1
+-1 fGrammarBucket 19
+Accesses: 1
+18 1 -1 
+Functions: 5
+0 1 -4 
+19 2 19 25 
+22 1 -4 
+56 2 -3 36 
+43 4 -1 -3 19 36 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.checkForDuplicateNames(Ljava/lang/String;ILorg/w3c/dom/Element;)V
+PTG:
+Vars:
+10
+r5 1 30 
+r9 1 -4 
+r7 1 52 
+r0 1 -2 
+$r4 1 24 
+$r6 1 46 
+r2 1 -1 
+r1 1 15 
+$r3 1 18 
+$r8 1 64 
+Fields: 1
+-1 fGrammarBucket 18
+Accesses: 1
+17 1 -1 
+Functions: 7
+0 1 -2 
+18 2 18 24 
+21 3 -1 18 15 
+37 4 -1 18 30 46 
+8 1 -2 
+72 4 -1 64 18 -4 
+41 1 -2 
+Constructors: 0
+
+Summary: 4
+2 -4 -1 64 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedParticleComponents(Lcom/sun/org/apache/xerces/internal/xs/XSParticle;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+8
+r2 1 -1 
+r4 1 -4 
+r3 1 -3 
+$r6 1 6 
+r0 1 -2 
+r5 1 -5 
+r1 1 6 
+$r7 1 6 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+50 5 -1 -3 -4 -5 6 
+66 5 -1 -3 -4 -5 6 
+8 1 6 
+Constructors: 0
+
+Summary: 9
+-2 2 1 -4 3 0 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalGroupDecl(Lcom/sun/org/apache/xerces/internal/impl/xs/XSGroupDecl;)V
+PTG:
+Vars:
+16
+$r14 1 60 
+$r13 1 56 
+$r2 1 16 
+$r12 1 50 
+$r8 1 71 
+$r9 1 75 
+$r3 1 26 
+$r5 1 33 
+$r11 1 42 
+r0 1 -2 
+$r15 1 63 
+$r10 1 71 
+$r4 1 30 
+r1 1 4 
+r7 1 -1 
+$r16 2 36 66 
+Fields: 1
+-1 fGlobalGroupDecls 71
+Accesses: 2
+81 1 -1 
+70 1 -1 
+Functions: 15
+0 1 -2 
+33 1 33 
+71 3 66 36 71 
+9 1 4 
+42 2 4 42 
+46 1 42 
+16 1 16 
+50 1 50 
+20 1 16 
+87 4 -2 66 36 71 
+56 2 56 60 
+26 2 26 30 
+59 1 -2 
+29 1 -2 
+63 1 63 
+Constructors: 2
+20 16
+46 42
+
+Summary: 3
+-1 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.prepareForTraverse()V
+PTG:
+Vars:
+69
+$r57 1 35 
+$r50 1 142 
+$r49 1 186 
+$r42 1 314 
+$r35 1 561 
+$r33 1 547 
+$r6 1 227 
+$r46 1 265 
+$r55 1 17 
+$r4 1 202 
+$r21 1 362 
+$r52 1 142 
+$r11 1 362 
+$r19 1 362 
+$r60 1 62 
+$r40 1 300 
+$r26 1 481 
+$r14 1 385 
+$r23 1 362 
+$r34 1 554 
+$r20 1 433 
+$r27 1 362 
+$r48 1 202 
+$r16 1 401 
+$r10 1 339 
+$r12 1 369 
+$r61 1 71 
+$r44 1 251 
+$r22 1 449 
+$r58 1 44 
+$r59 1 53 
+$r15 1 362 
+r68 1 356 
+$r53 1 155 
+$r65 1 107 
+$r39 1 589 
+$r41 1 307 
+$r18 1 417 
+$r17 1 362 
+$r28 1 497 
+$r38 1 582 
+$r47 1 272 
+$r45 1 258 
+$r1 1 168 
+$r66 1 116 
+$r51 1 146 
+$r67 1 125 
+$r5 1 218 
+$r30 1 513 
+$r37 1 575 
+$r54 1 8 
+$r3 1 186 
+$r62 1 80 
+$r64 1 98 
+$r7 1 339 
+$r24 1 465 
+$r63 1 89 
+$r8 1 350 
+r0 1 -1 
+$r36 1 568 
+$r56 1 26 
+$r32 1 538 
+$r25 1 362 
+$r9 1 362 
+$r2 1 177 
+$r29 1 362 
+$r13 1 362 
+$r43 1 321 
+$r31 1 529 
+Fields: 53
+142 ArrayObject 146
+142 ArrayObject 155
+-1 fGlobalAttrDecls 547
+-1 fKeyrefs 300
+-1 fDependencyMap 168
+-1 fGlobalElemDecls 561
+-1 fUnparsedRegistriesExt 142
+-1 fUnparsedAttributeGroupRegistrySub 80
+-1 fComplexTypeTraverser 401
+-1 fAttributeGroupTraverser 369
+-1 fRedefinedRestrictedGroupRegistry 538
+-1 fLocalElementDecl_schema 265
+-1 fGlobalGroupDecls 568
+-1 fUnparsedNotationRegistrySub 116
+-1 fAttributeTraverser 385
+-1 fUnparsedElementRegistrySub 89
+-1 fSimpleTypeTraverser 481
+-1 fUnparsedIdentityConstraintRegistry 44
+-1 fUnparsedTypeRegistrySub 125
+-1 fUnparsedGroupRegistry 35
+-1 fErrorReporter 350
+-1 fUniqueOrKeyTraverser 497
+-1 fImportMap 227
+-1 fGlobalIDConstraintDecls 582
+-1 fRedefine2XSDMap 186
+-1 fSymbolTable 362
+-1 fKeyrefNamespaceContext 314
+-1 fDoc2XSDocumentMap 177
+-1 fKeyrefsMapXSDocumentInfo 321
+-1 fGlobalAttrGrpDecls 554
+-1 fUnparsedTypeRegistry 62
+-1 fKeyrefElems 307
+-1 fAllTNSs 218
+-1 fRedefine2NSSupport 202
+-1 fGroupTraverser 433
+-1 fUnparsedElementRegistry 26
+-1 fUnparsedNotationRegistry 53
+-1 fUnparsedGroupRegistrySub 98
+-1 fWildCardTraverser 513
+-1 fKeyrefTraverser 449
+-1 fAttributeChecker 339
+-1 fGlobalNotationDecls 575
+-1 fElementTraverser 417
+-1 fUnparsedAttributeRegistrySub 71
+-1 fRedefinedRestrictedAttributeGroupRegistry 529
+-1 fUnparsedIdentityConstraintRegistrySub 107
+-1 fGlobalTypeDecls 589
+-1 fUnparsedAttributeGroupRegistry 17
+-1 fNotationTraverser 465
+-1 fParticle 251
+-1 fUnparsedAttributeRegistry 8
+-1 fLocalElemNamespaceContext 272
+-1 fLocalElementDecl 258
+Accesses: 81
+0 1 -1 
+384 1 -1 
+512 1 -1 
+257 1 -1 
+388 1 -1 
+516 1 -1 
+7 1 -1 
+264 1 -1 
+392 1 -1 
+520 1 -1 
+141 1 -1 
+271 1 -1 
+16 1 -1 
+400 1 -1 
+528 1 -1 
+404 1 -1 
+150 1 -1 
+408 1 -1 
+25 1 -1 
+537 1 -1 
+286 1 -1 
+416 1 -1 
+34 1 -1 
+546 1 -1 
+292 1 -1 
+420 1 -1 
+167 1 -1 
+424 1 -1 
+553 1 -1 
+43 1 -1 
+299 1 -1 
+176 1 -1 
+432 1 -1 
+560 1 -1 
+306 1 -1 
+52 1 -1 
+436 1 -1 
+567 1 -1 
+440 1 -1 
+185 1 -1 
+313 1 -1 
+61 1 -1 
+574 1 -1 
+192 1 -1 
+320 1 -1 
+448 1 -1 
+452 1 -1 
+581 1 -1 
+70 1 -1 
+456 1 -1 
+201 1 -1 
+588 1 -1 
+79 1 -1 
+335 1 -1 
+208 1 -1 
+464 1 -1 
+338 1 -1 
+468 1 -1 
+88 1 -1 
+472 1 -1 
+217 1 -1 
+349 1 -1 
+480 1 -1 
+97 1 -1 
+226 1 -1 
+484 1 -1 
+357 1 -1 
+488 1 -1 
+361 1 -1 
+106 1 -1 
+237 1 -1 
+368 1 -1 
+496 1 -1 
+115 1 -1 
+243 1 -1 
+372 1 -1 
+500 1 -1 
+376 1 -1 
+504 1 -1 
+250 1 -1 
+124 1 -1 
+Functions: 43
+128 1 125 
+65 1 62 
+578 1 575 
+196 1 186 
+585 1 582 
+74 1 71 
+11 1 8 
+397 3 385 356 362 
+461 3 449 356 362 
+525 3 513 356 362 
+592 1 589 
+83 1 80 
+20 1 17 
+212 1 202 
+532 1 529 
+346 54 -1 385 513 258 8 265 142 272 401 529 17 146 538 26 155 417 547 35 168 554 300 44 561 177 433 307 53 568 186 314 62 575 321 449 582 71 202 589 80 465 339 89 218 350 481 98 227 362 107 369 497 116 251 125 
+92 1 89 
+156 1 155 
+29 1 26 
+221 1 218 
+413 3 401 356 362 
+477 3 465 356 362 
+541 1 538 
+350 1 350 
+101 1 98 
+38 1 35 
+230 1 227 
+550 1 547 
+171 1 168 
+365 2 339 362 
+429 3 417 356 362 
+493 3 481 356 362 
+557 1 554 
+110 1 107 
+47 1 44 
+180 1 177 
+564 1 561 
+119 1 116 
+56 1 53 
+571 1 568 
+381 3 369 356 362 
+445 3 433 356 362 
+509 3 497 356 362 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.setSchemasVisible(Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;)V
+PTG:
+Vars:
+11
+$r2 1 5 
+$r4 1 5 
+$r9 1 54 
+r0 1 -2 
+r1 1 -1 
+r8 1 30 
+$r3 1 1 
+$r7 1 30 
+$r5 1 1 
+$r6 1 26 
+$r10 1 54 
+Fields: 3
+-2 fSchemaElement 1
+-1 fHiddenNodes 5
+-1 fDependencyMap 26
+Accesses: 5
+0 1 -2 
+18 1 -1 
+4 1 -1 
+25 1 -1 
+14 1 -2 
+Functions: 6
+52 1 30 
+5 2 1 5 
+22 2 1 5 
+26 3 -2 1 26 
+42 1 30 
+62 4 -1 5 54 26 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.reportSchemaErr(Ljava/lang/String;[Ljava/lang/Object;Lorg/w3c/dom/Element;SLjava/lang/Exception;)V
+PTG:
+Vars:
+9
+r0 1 -1 
+r5 1 -6 
+r1 1 -4 
+r4 1 -3 
+r3 1 -2 
+$r2 1 3 
+$r9 1 13 
+$r6 1 37 
+$r8 1 3 
+Fields: 3
+-1 fErrorReporter 37
+-1 fErrorReporter 13
+-1 xl 3
+Accesses: 4
+16 1 -1 
+2 1 -1 
+36 1 -1 
+12 1 -1 
+Functions: 3
+0 5 -1 3 -4 37 13 
+49 4 -2 -3 37 -6 
+29 5 -2 -3 3 -6 13 
+Constructors: 0
+
+Summary: 9
+-6 -2 2 1 -4 0 -1 4 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalGroupDecls(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)V
+PTG:
+Vars:
+18
+r16 1 179 
+r15 1 103 
+$r6 1 179 
+r0 1 -2 
+$r8 1 28 
+$r12 1 85 
+r10 1 -1 
+r14 1 47 
+r13 1 28 
+$r9 1 41 
+r3 1 128 
+r17 1 197 
+r5 1 171 
+r1 1 6 
+r4 1 155 
+$r2 1 128 
+r7 1 -3 
+$r11 1 80 
+Fields: 0
+Accesses: 1
+70 1 -1 
+Functions: 19
+0 1 -2 
+97 1 -2 
+163 1 128 
+38 2 -3 41 
+7 1 6 
+39 1 28 
+105 1 103 
+138 1 128 
+173 1 103 
+78 1 28 
+209 3 -3 179 155 
+83 1 28 
+147 1 128 
+88 3 -1 80 85 
+25 1 6 
+57 2 -3 28 
+124 1 103 
+157 1 128 
+189 3 -3 171 155 
+Constructors: 0
+
+Summary: 5
+1 -1 -3 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.prepareForParse()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 19 
+$r1 1 1 
+$r2 1 10 
+Fields: 3
+-1 fHiddenNodes 19
+-1 fTraversed 1
+-1 fDoc2SystemId 10
+Accesses: 4
+0 1 -1 
+18 1 -1 
+9 1 -1 
+29 1 -1 
+Functions: 3
+4 1 1 
+22 1 19 
+13 1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.doc2SystemId(Lorg/w3c/dom/Element;)Ljava/lang/String;
+PTG:
+Vars:
+10
+$r1 1 3 
+r0 1 -2 
+r7 1 26 
+$r8 2 40 26 
+r2 1 -1 
+$r6 1 15 
+$r4 1 40 
+$r3 1 36 
+$r5 1 15 
+_ret 2 40 26 
+Fields: 1
+-1 fDoc2SystemId 36
+Accesses: 1
+35 1 -1 
+Functions: 4
+2 1 -2 
+20 1 15 
+36 2 -2 36 
+14 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGlobalGroupDecl(Ljava/lang/String;)Lcom/sun/org/apache/xerces/internal/impl/xs/XSGroupDecl;
+PTG:
+Vars:
+6
+r1 1 -2 
+$r2 1 1 
+r0 1 -1 
+$r3 1 5 
+$r4 1 5 
+_ret 1 5 
+Fields: 1
+-1 fGlobalGroupDecls 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.updateImportDependencies(Ljava/util/Map;)V
+PTG:
+Vars:
+10
+r2 1 16 
+$r7 1 53 
+r9 1 -1 
+$r1 1 6 
+$r3 1 30 
+r8 1 53 
+r4 1 30 
+r6 1 42 
+r0 1 -2 
+$r5 1 42 
+Fields: 0
+Accesses: 0
+Functions: 8
+18 1 16 
+51 1 30 
+5 1 -2 
+6 1 6 
+40 1 30 
+74 3 -1 53 42 
+28 1 16 
+62 1 53 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.resolveKeyRefs()V
+PTG:
+Vars:
+18
+r2 1 16 
+$r14 1 73 
+r0 1 -1 
+$r1 1 11 
+$r6 1 18 
+$r16 1 71 
+$r8 1 38 
+$r10 1 50 
+$r17 1 63 
+$r11 1 56 
+$r13 1 50 
+$r5 1 33 
+$r7 1 42 
+r9 1 48 
+$r3 1 18 
+$r4 1 29 
+$r12 1 54 
+$r15 1 77 
+Fields: 14
+16 fTargetNamespace 42
+16 fNamespaceSupport 18
+11 ArrayObject 16
+29 ArrayObject 33
+50 ArrayObject 54
+50 ArrayObject 71
+-1 fHiddenNodes 56
+-1 fKeyrefs 50
+-1 fKeyrefsMapXSDocumentInfo 11
+-1 fKeyrefTraverser 63
+-1 fKeyrefElems 73
+-1 fGrammarBucket 38
+-1 fKeyrefNamespaceContext 29
+73 ArrayObject 77
+Accesses: 12
+17 1 16 
+49 1 -1 
+66 1 -1 
+3 1 -1 
+37 1 -1 
+55 1 -1 
+24 1 16 
+72 1 -1 
+41 1 16 
+10 1 -1 
+28 1 -1 
+62 1 -1 
+Functions: 5
+80 7 16 48 18 71 42 77 63 
+34 2 33 18 
+21 1 18 
+38 2 38 42 
+59 2 54 56 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandGrammars([Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;)Ljava/util/List;
+PTG:
+Vars:
+11
+$r8 1 31 
+$r0 1 0 
+r4 1 74 
+$r3 1 61 
+r6 1 104 
+$r7 1 19 
+$r5 1 104 
+r9 1 -1 
+r10 1 61 
+r2 1 -2 
+_ret 1 0 
+Fields: 2
+-2 ArrayObject 19
+-2 ArrayObject 31
+Accesses: 0
+Functions: 10
+16 2 0 19 
+32 2 0 31 
+128 2 0 104 
+49 1 0 
+114 2 0 104 
+4 1 0 
+84 1 74 
+100 1 74 
+70 1 61 
+58 1 0 
+Constructors: 1
+4 0
+
+Summary: 5
+-2 31 0 -1 19 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.reportSharingError(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+12
+r0 1 -2 
+$r9 1 4 
+$r11 1 18 
+$r1 1 27 
+$r3 1 41 
+$r8 1 57 
+$r10 1 14 
+$r12 2 21 48 
+$r2 1 35 
+r7 1 -1 
+r4 1 -3 
+$r5 1 45 
+Fields: 0
+Accesses: 0
+Functions: 10
+65 2 -1 57 
+18 1 18 
+35 1 35 
+4 1 4 
+8 1 4 
+41 2 -3 41 
+27 2 -2 27 
+45 1 45 
+14 2 -3 14 
+31 1 27 
+Constructors: 2
+8 4
+31 27
+
+Summary: 4
+-1 57 -3 -2 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addNamespaceDependency(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)V
+PTG:
+Vars:
+6
+r5 1 -4 
+r4 1 12 
+r0 1 -1 
+r1 1 -2 
+r3 1 -3 
+r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 2 -1 -2 
+38 2 -4 12 
+7 2 -1 -3 
+24 2 -4 12 
+14 2 5 12 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.reportSchemaFatalError(Ljava/lang/String;[Ljava/lang/Object;Lorg/w3c/dom/Element;)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedComponents(Lcom/sun/org/apache/xerces/internal/xs/XSObject;Ljava/util/List;Ljava/util/Map;)V
+PTG:
+Vars:
+14
+$r6 1 -2 
+$r11 1 75 
+$r10 1 -2 
+$r3 1 -2 
+$r4 1 148 
+$r9 1 129 
+r0 1 -2 
+$r7 1 113 
+$r8 1 -2 
+r1 1 -1 
+r5 1 -4 
+r2 1 -3 
+$r12 1 -2 
+$r13 1 94 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -2 
+112 1 -2 
+128 1 -2 
+81 5 -1 -2 -3 -4 75 
+147 1 -2 
+100 5 -1 -2 -3 -4 94 
+119 5 -1 -2 113 -3 -4 
+135 5 -1 -2 129 -3 -4 
+74 1 -2 
+154 5 -1 -2 -3 -4 148 
+93 1 -2 
+Constructors: 0
+
+Summary: 7
+-2 1 2 -4 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedTypeComponents(Lcom/sun/org/apache/xerces/internal/xs/XSTypeDefinition;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+7
+r2 1 -3 
+$r5 1 -2 
+$r6 1 -2 
+r3 1 -4 
+r4 1 -5 
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 5 -1 -2 -3 -4 -5 
+38 5 -1 -2 -3 -4 -5 
+Constructors: 0
+
+Summary: 9
+-2 2 1 -4 3 0 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGlobalDeclFromGrammar(Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;ILjava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+6
+r3 1 -1 
+r0 1 -2 
+r1 1 -4 
+r2 1 -5 
+r4 7 79 115 67 103 55 91 127 
+_ret 7 79 115 67 103 55 91 127 
+Fields: 0
+Accesses: 0
+Functions: 7
+48 3 -2 -4 -5 
+96 3 -2 -4 -5 
+84 3 -2 -4 -5 
+72 3 -2 -4 -5 
+120 3 -2 -4 -5 
+60 3 -2 -4 -5 
+108 3 -2 -4 -5 
+Constructors: 0
+
+Summary: 4
+-2 -4 -1 -5 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getFromMap(Ljava/util/Map;Ljava/lang/String;)Ljava/util/List;
+PTG:
+Vars:
+6
+$r3 1 8 
+r4 1 -1 
+r0 1 -2 
+r1 1 -3 
+$r2 1 8 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getGrammar(Ljava/lang/String;)Lcom/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r2 1 1 
+$r3 1 5 
+r0 1 -1 
+_ret 1 5 
+Fields: 1
+-1 fGrammarBucket 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.findXSDocumentForDecl(Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;Lorg/w3c/dom/Element;Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;)Lcom/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo;
+PTG:
+Vars:
+6
+r3 1 -1 
+r4 1 -2 
+r2 1 -4 
+r5 1 -3 
+r0 1 -4 
+_ret 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 6
+-2 1 2 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalAttributeGroupDecl(Lcom/sun/org/apache/xerces/internal/impl/xs/XSAttributeGroupDecl;)V
+PTG:
+Vars:
+16
+r1 1 4 
+$r4 1 30 
+$r11 1 42 
+$r13 1 56 
+$r15 1 63 
+$r5 1 33 
+$r16 2 36 66 
+$r9 1 75 
+r0 1 -2 
+$r12 1 50 
+$r8 1 71 
+$r3 1 26 
+$r2 1 16 
+r7 1 -1 
+$r10 1 71 
+$r14 1 60 
+Fields: 1
+-1 fGlobalAttrGrpDecls 71
+Accesses: 2
+81 1 -1 
+70 1 -1 
+Functions: 15
+0 1 -2 
+33 1 33 
+71 3 66 36 71 
+9 1 4 
+42 2 4 42 
+46 1 42 
+16 1 16 
+50 1 50 
+20 1 16 
+87 4 -2 66 36 71 
+56 2 56 60 
+26 2 26 30 
+59 1 -2 
+29 1 -2 
+63 1 63 
+Constructors: 2
+20 16
+46 42
+
+Summary: 3
+-1 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.addGlobalElementDecl(Lcom/sun/org/apache/xerces/internal/impl/xs/XSElementDecl;)V
+PTG:
+Vars:
+16
+r0 1 -2 
+$r12 1 50 
+$r3 1 26 
+$r11 1 42 
+$r4 1 30 
+$r2 1 16 
+$r16 2 36 66 
+$r10 1 71 
+$r5 1 33 
+$r13 1 56 
+$r8 1 71 
+$r9 1 75 
+$r14 1 60 
+$r15 1 63 
+r7 1 -1 
+r1 1 4 
+Fields: 1
+-1 fGlobalElemDecls 71
+Accesses: 2
+81 1 -1 
+70 1 -1 
+Functions: 15
+0 1 -2 
+33 1 33 
+71 3 66 36 71 
+9 1 4 
+42 2 4 42 
+46 1 42 
+16 1 16 
+50 1 50 
+20 1 16 
+87 4 -2 66 36 71 
+56 2 56 60 
+26 2 26 30 
+59 1 -2 
+29 1 -2 
+63 1 63 
+Constructors: 2
+20 16
+46 42
+
+Summary: 3
+-1 -2 0 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.getElementFromMap(Ljava/util/Map;Ljava/lang/String;)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+6
+$r3 1 8 
+r0 1 -2 
+r1 1 -3 
+r4 1 -1 
+$r2 1 8 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.setGenerateSyntheticAnnotations(Z)V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fSchemaParser 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedAttributeUseComponents(Lcom/sun/org/apache/xerces/internal/xs/XSAttributeUse;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+6
+r3 1 -3 
+r5 1 -5 
+r4 1 -4 
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+11 5 -1 2 -3 -4 -5 
+Constructors: 0
+
+Summary: 8
+-2 2 1 -4 3 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.expandRelatedAttributeUsesComponents(Lcom/sun/org/apache/xerces/internal/xs/XSObjectList;Ljava/util/List;Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+7
+r4 1 -4 
+r3 1 -3 
+r0 1 -2 
+$r2 1 30 
+$r6 1 30 
+r1 1 -1 
+r5 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 3
+8 1 -2 
+42 5 -1 -3 -4 -5 30 
+27 1 -2 
+Constructors: 0
+
+Summary: 9
+-2 1 2 -4 0 3 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.reportSchemaWarning(Ljava/lang/String;[Ljava/lang/Object;Lorg/w3c/dom/Element;Ljava/lang/Exception;)V
+PTG:
+Vars:
+5
+r4 1 -5 
+r1 1 -2 
+r3 1 -4 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 5 -1 -2 -3 -4 -5 
+Constructors: 0
+
+Summary: 8
+-2 1 2 -4 3 -1 -5 -3 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.resolveSchema(Lcom/sun/org/apache/xerces/internal/impl/xs/XSDDescription;ZLorg/w3c/dom/Element;Z)Lorg/w3c/dom/Element;
+PTG:
+Vars:
+16
+$r25 2 15 9 
+$r21 1 46 
+$r18 1 70 
+r4 1 -4 
+$r19 1 76 
+$r2 1 24 
+$r17 1 -1 
+$r3 1 191 
+r1 1 -1 
+r24 1 30 
+$r23 1 56 
+$r22 1 52 
+$r5 1 202 
+r0 1 -2 
+$r20 1 80 
+_ret 1 202 
+Fields: 4
+52 ArrayObject 56
+76 ArrayObject 80
+-1 fEntityManager 24
+-1 fLocationPairs 9
+Accesses: 2
+23 1 -1 
+8 1 -1 
+Functions: 19
+-1 0 
+161 1 -2 
+133 1 -2 
+197 1 -2 
+105 1 -2 
+75 1 -2 
+178 4 -1 -2 24 9 
+51 1 -2 
+83 5 -1 -4 70 24 9 
+150 4 -1 -4 24 9 
+151 1 -2 
+24 4 -2 24 9 15 
+122 4 -1 -4 24 9 
+59 5 -1 -4 24 9 46 
+123 1 -2 
+189 6 -1 -4 24 9 30 191 
+94 4 -1 -4 24 9 
+190 1 -2 
+95 1 -2 
+Constructors: 0
+
+Summary: 7
+2 -1 46 -4 0 70 -2 
+com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.<init>()V
+PTG:
+Vars:
+45
+$r6 1 75 
+$r37 1 492 
+r0 1 -1 
+$r4 1 53 
+$r33 1 446 
+$r35 1 467 
+$r14 1 163 
+$r20 1 271 
+$r40 1 528 
+$r25 1 371 
+$r7 1 86 
+$r44 1 572 
+$r17 1 228 
+$r22 1 308 
+$r32 1 437 
+$r38 1 504 
+$r36 1 479 
+$r13 1 152 
+$r1 1 20 
+$r9 1 108 
+$r19 1 260 
+$r24 1 362 
+$r28 1 397 
+$r21 1 287 
+$r41 1 546 
+$r18 1 239 
+$r29 1 407 
+$r8 1 97 
+$r43 1 568 
+$r27 1 389 
+$r5 1 64 
+$r30 1 421 
+$r2 1 31 
+$r34 1 454 
+$r11 1 130 
+$r42 1 557 
+$r3 1 42 
+$r39 1 516 
+$r23 1 319 
+$r10 1 119 
+$r12 1 141 
+$r15 1 176 
+$r26 1 380 
+$r16 1 217 
+$r31 1 429 
+Fields: 0
+Accesses: 59
+256 1 -1 
+512 1 -1 
+6 1 -1 
+391 1 -1 
+137 1 -1 
+11 1 -1 
+267 1 -1 
+524 1 -1 
+16 1 -1 
+400 1 -1 
+148 1 -1 
+278 1 -1 
+537 1 -1 
+27 1 -1 
+283 1 -1 
+411 1 -1 
+542 1 -1 
+159 1 -1 
+416 1 -1 
+38 1 -1 
+294 1 -1 
+424 1 -1 
+553 1 -1 
+170 1 -1 
+299 1 -1 
+304 1 -1 
+432 1 -1 
+49 1 -1 
+564 1 -1 
+440 1 -1 
+315 1 -1 
+60 1 -1 
+450 1 -1 
+326 1 -1 
+582 1 -1 
+71 1 -1 
+331 1 -1 
+463 1 -1 
+336 1 -1 
+82 1 -1 
+213 1 -1 
+341 1 -1 
+346 1 -1 
+475 1 -1 
+93 1 -1 
+351 1 -1 
+224 1 -1 
+356 1 -1 
+104 1 -1 
+488 1 -1 
+235 1 -1 
+365 1 -1 
+115 1 -1 
+500 1 -1 
+246 1 -1 
+374 1 -1 
+251 1 -1 
+126 1 -1 
+383 1 -1 
+Functions: 34
+576 1 572 
+1 1 -1 
+323 1 319 
+579 2 568 572 
+68 1 64 
+134 1 130 
+264 1 260 
+521 1 516 
+460 1 454 
+79 1 75 
+145 1 141 
+275 1 271 
+534 1 528 
+24 1 20 
+472 1 467 
+90 1 86 
+156 1 152 
+221 1 217 
+35 1 31 
+291 1 287 
+101 1 97 
+485 1 479 
+550 1 546 
+167 1 163 
+232 1 228 
+46 1 42 
+112 1 108 
+497 1 492 
+561 1 557 
+243 1 239 
+312 1 308 
+57 1 53 
+123 1 119 
+509 1 504 
+Constructors: 34
+576 572
+1 -1
+323 319
+579 568
+68 64
+134 130
+264 260
+521 516
+460 454
+79 75
+145 141
+275 271
+534 528
+24 20
+472 467
+90 86
+156 152
+221 217
+35 31
+291 287
+101 97
+485 479
+550 546
+167 163
+232 228
+46 42
+112 108
+497 492
+561 557
+243 239
+312 308
+57 53
+123 119
+509 504
+
+Summary: 2
+-1 572 

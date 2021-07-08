@@ -1,0 +1,727 @@
+25
+org/eclipse/jdt/internal/core/Buffer.getOwner()Lorg/eclipse/jdt/core/IOpenable;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 owner 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Buffer.addBufferChangedListener(Lorg/eclipse/jdt/core/IBufferChangedListener;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+r2 1 -2 
+$r5 1 8 
+$r4 1 1 
+$r1 1 1 
+$r3 1 1 
+Fields: 1
+-1 changeListeners 1
+Accesses: 4
+0 1 -1 
+16 1 -1 
+19 1 -1 
+30 1 -1 
+Functions: 3
+35 2 1 -2 
+20 2 1 -2 
+13 1 8 
+Constructors: 1
+13 8
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/Buffer.notifyChanged(Lorg/eclipse/jdt/core/BufferChangedEvent;)V
+PTG:
+Vars:
+6
+r3 1 22 
+r5 1 -2 
+r0 1 -1 
+$r4 1 30 
+$r2 1 22 
+r1 1 4 
+Fields: 1
+-1 changeListeners 4
+Accesses: 1
+0 1 -1 
+Functions: 4
+20 1 4 
+38 5 -1 -2 4 22 30 
+41 1 30 
+11 1 4 
+Constructors: 1
+38 30
+
+Summary: 5
+-2 22 0 30 -1 
+org/eclipse/jdt/internal/core/Buffer.getText(II)Ljava/lang/String;
+PTG:
+Vars:
+12
+$r11 1 8 
+$r1 1 1 
+$r3 1 8 
+$r13 1 8 
+$r12 1 29 
+$r5 1 8 
+$r7 1 8 
+$r10 1 64 
+$r14 1 -1 
+r0 1 -1 
+$r4 1 83 
+$r9 1 133 
+Fields: 2
+-1 lock 1
+-1 contents 8
+Accesses: 13
+0 1 -1 
+33 1 -1 
+99 1 -1 
+68 1 -1 
+7 1 -1 
+45 1 -1 
+111 1 -1 
+115 1 -1 
+53 1 -1 
+22 1 -1 
+57 1 -1 
+122 1 -1 
+94 1 -1 
+Functions: 6
+131 1 83 
+39 2 8 29 
+87 1 83 
+105 2 83 8 
+77 2 64 8 
+127 2 83 8 
+Constructors: 3
+39 29
+87 83
+77 64
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Buffer.getUnderlyingResource()Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 file 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Buffer.getContents()Ljava/lang/String;
+PTG:
+Vars:
+4
+r1 1 4 
+$r2 1 11 
+_ret 1 11 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+16 2 4 11 
+Constructors: 1
+16 11
+
+Summary: 2
+4 -1 
+org/eclipse/jdt/internal/core/Buffer.replace(II[C)V
+PTG:
+Vars:
+9
+$r4 1 166 
+$r6 1 28 
+$r5 1 155 
+$r3 1 28 
+r11 1 155 
+$r7 1 28 
+r0 1 -1 
+r1 1 -4 
+$r2 1 20 
+Fields: 2
+-1 lock 20
+-1 contents 28
+Accesses: 10
+64 1 -1 
+80 1 -1 
+112 1 -1 
+19 1 -1 
+117 1 -1 
+102 1 -1 
+134 1 -1 
+90 1 -1 
+27 1 -1 
+127 1 -1 
+Functions: 8
+0 3 -1 20 28 
+160 2 -4 155 
+178 4 -1 20 166 28 
+51 0 
+71 2 -4 28 
+124 2 -4 28 
+46 3 -1 20 28 
+175 5 -1 20 166 155 28 
+Constructors: 2
+160 155
+175 166
+
+Summary: 4
+166 155 -1 -4 
+org/eclipse/jdt/internal/core/Buffer.replace(IILjava/lang/String;)V
+PTG:
+Vars:
+3
+r1 1 -4 
+$r3 1 12 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+11 1 -4 
+15 2 -1 12 
+Constructors: 0
+
+Summary: 3
+12 -1 -4 
+org/eclipse/jdt/internal/core/Buffer.close()V
+PTG:
+Vars:
+3
+$r1 1 3 
+$r2 1 19 
+r0 1 -1 
+Fields: 1
+-1 lock 3
+Accesses: 5
+33 1 -1 
+65 1 -1 
+2 1 -1 
+36 1 -1 
+43 1 -1 
+Functions: 3
+56 3 -1 3 19 
+9 2 -1 3 
+27 3 -1 19 3 
+Constructors: 1
+27 19
+
+Summary: 1
+19 
+org/eclipse/jdt/internal/core/Buffer.setContents(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+5 2 -1 2 
+Constructors: 0
+
+Summary: 4
+2 -2 0 -1 
+org/eclipse/jdt/internal/core/Buffer.isReadOnly()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Buffer.append([C)V
+PTG:
+Vars:
+7
+$r7 1 95 
+$r6 1 88 
+$r2 1 23 
+$r5 1 30 
+r1 1 -2 
+r0 1 -1 
+$r4 1 30 
+Fields: 2
+-1 lock 23
+-1 contents 30
+Accesses: 7
+48 1 -1 
+66 1 -1 
+69 1 -1 
+22 1 -1 
+58 1 -1 
+76 1 -1 
+29 1 -1 
+Functions: 7
+0 3 -1 23 30 
+17 3 -1 23 30 
+100 2 -2 95 
+55 2 -2 30 
+103 5 -1 23 88 30 95 
+106 4 -1 23 88 30 
+43 3 -1 23 30 
+Constructors: 2
+100 95
+103 88
+
+Summary: 4
+-2 88 95 -1 
+org/eclipse/jdt/internal/core/Buffer.moveAndResizeGap(II)V
+PTG:
+Vars:
+12
+r16 1 99 
+$r5 1 90 
+$r6 1 90 
+$r4 1 90 
+r0 1 -1 
+$r3 1 90 
+$r9 1 90 
+$r2 1 90 
+$r10 1 90 
+$r1 1 90 
+$r7 1 90 
+$r8 1 90 
+Fields: 1
+-1 contents 90
+Accesses: 34
+128 1 -1 
+192 1 -1 
+65 1 -1 
+196 1 -1 
+5 1 -1 
+263 1 -1 
+9 1 -1 
+75 1 -1 
+267 1 -1 
+206 1 -1 
+82 1 -1 
+211 1 -1 
+85 1 -1 
+150 1 -1 
+25 1 -1 
+89 1 -1 
+157 1 -1 
+287 1 -1 
+224 1 -1 
+36 1 -1 
+293 1 -1 
+166 1 -1 
+231 1 -1 
+43 1 -1 
+299 1 -1 
+238 1 -1 
+50 1 -1 
+178 1 -1 
+116 1 -1 
+245 1 -1 
+54 1 -1 
+249 1 -1 
+59 1 -1 
+254 1 -1 
+Functions: 10
+242 2 99 90 
+260 2 99 90 
+70 0 
+216 2 99 90 
+282 2 99 90 
+125 2 99 90 
+189 2 99 90 
+142 2 99 90 
+47 0 
+175 2 99 90 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Buffer.append(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r1 1 -1 
+$r2 1 7 
+Fields: 0
+Accesses: 0
+Functions: 2
+6 1 -2 
+10 2 -1 7 
+Constructors: 0
+
+Summary: 3
+-2 7 -1 
+org/eclipse/jdt/internal/core/Buffer.<init>(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/jdt/core/IOpenable;Z)V
+PTG:
+Vars:
+4
+r3 1 -3 
+$r1 1 15 
+r2 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 5
+32 1 -1 
+6 1 -1 
+22 1 -1 
+11 1 -1 
+27 1 -1 
+Functions: 3
+1 1 -1 
+19 1 15 
+41 1 -1 
+Constructors: 2
+1 -1
+19 15
+
+Summary: 3
+0 -1 1 
+org/eclipse/jdt/internal/core/Buffer.getChar(I)C
+PTG:
+Vars:
+6
+$r4 1 8 
+r0 1 -1 
+$r3 1 8 
+$r1 1 1 
+$r5 1 8 
+$r6 1 -1 
+Fields: 2
+-1 lock 1
+-1 contents 8
+Accesses: 7
+0 1 -1 
+19 1 -1 
+35 1 -1 
+7 1 -1 
+39 1 -1 
+26 1 -1 
+45 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Buffer.hasUnsavedChanges()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Buffer.setContents([C)V
+PTG:
+Vars:
+8
+$r5 1 111 
+$r1 1 1 
+$r3 1 62 
+r2 1 -2 
+r11 1 52 
+$r4 1 1 
+r0 1 -1 
+$r6 1 52 
+Fields: 2
+-1 contents 1
+-1 lock 62
+Accesses: 12
+0 1 -1 
+16 1 -1 
+80 1 -1 
+19 1 -1 
+83 1 -1 
+68 1 -1 
+100 1 -1 
+7 1 -1 
+90 1 -1 
+27 1 -1 
+61 1 -1 
+95 1 -1 
+Functions: 5
+128 4 -1 1 62 111 
+117 3 -1 1 62 
+39 3 -1 1 62 
+57 2 -2 52 
+122 5 -1 1 52 62 111 
+Constructors: 2
+57 52
+122 111
+
+Summary: 4
+52 0 111 -1 
+org/eclipse/jdt/internal/core/Buffer.getCharacters()[C
+PTG:
+Vars:
+9
+$r1 1 1 
+r0 1 -1 
+$r3 1 8 
+r5 1 49 
+$r7 1 8 
+$r8 1 8 
+$r4 1 8 
+$r9 1 -1 
+$r6 1 8 
+Fields: 2
+-1 lock 1
+-1 contents 8
+Accesses: 13
+0 1 -1 
+32 1 -1 
+66 1 -1 
+70 1 -1 
+7 1 -1 
+39 1 -1 
+75 1 -1 
+44 1 -1 
+80 1 -1 
+18 1 -1 
+52 1 -1 
+25 1 -1 
+59 1 -1 
+Functions: 2
+85 2 49 8 
+63 2 49 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Buffer.isClosed()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Buffer.getLength()I
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 1 
+$r3 1 8 
+$r4 1 8 
+$r5 1 -1 
+Fields: 2
+-1 lock 1
+-1 contents 8
+Accesses: 5
+0 1 -1 
+18 1 -1 
+22 1 -1 
+7 1 -1 
+28 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Buffer.toString()Ljava/lang/String;
+PTG:
+Vars:
+21
+$r15 1 79 
+r23 1 126 
+r3 1 -1 
+$r19 1 104 
+$r10 1 40 
+$r6 1 26 
+$r14 1 65 
+$r16 1 82 
+$r25 1 208 
+$r2 1 9 
+$r12 1 57 
+$r29 1 263 
+$r8 1 32 
+$r18 1 90 
+$r7 1 29 
+$r5 1 20 
+$r11 1 54 
+$r20 1 107 
+_ret 1 263 
+$r0 1 0 
+$r4 1 20 
+Fields: 2
+-1 contents 208
+-1 owner 20
+Accesses: 2
+19 1 -1 
+207 1 -1 
+Functions: 29
+192 1 0 
+65 1 65 
+4 1 0 
+262 1 0 
+135 1 0 
+72 1 65 
+9 2 9 26 
+75 3 -1 208 20 
+79 1 79 
+16 1 9 
+85 2 0 82 
+23 1 20 
+90 1 90 
+29 1 29 
+97 1 90 
+225 1 0 
+35 2 0 32 
+100 3 -1 208 20 
+40 1 40 
+104 1 104 
+110 2 0 107 
+47 1 40 
+239 1 0 
+50 3 -1 208 20 
+54 1 54 
+118 1 0 
+249 1 0 
+122 3 -1 208 20 
+60 2 0 57 
+Constructors: 5
+16 9
+97 90
+4 0
+72 65
+47 40
+
+Summary: 3
+26 126 -1 
+org/eclipse/jdt/internal/core/Buffer.save(Lorg/eclipse/core/runtime/IProgressMonitor;Z)V
+PTG:
+Vars:
+22
+r0 1 -1 
+$r29 1 8 
+$r17 1 -1 
+$r12 1 158 
+$r18 1 104 
+$r9 1 134 
+$r7 1 8 
+$r8 1 131 
+$r4 1 8 
+$r27 1 187 
+$r3 1 8 
+r22 1 45 
+$r10 1 142 
+$r23 2 66 57 
+r25 1 95 
+$r2 1 8 
+$r19 1 -1 
+r21 1 27 
+r24 3 154 66 57 
+r11 1 154 
+$r1 1 8 
+r20 1 -2 
+Fields: 1
+-1 file 8
+Accesses: 8
+273 1 -1 
+210 1 -1 
+36 1 -1 
+86 1 -1 
+198 1 -1 
+7 1 -1 
+281 1 -1 
+234 1 -1 
+Functions: 19
+0 2 -1 8 
+129 2 131 95 
+193 4 66 57 154 187 
+226 2 8 187 
+259 0 
+37 1 8 
+102 1 -1 
+167 2 154 158 
+199 1 8 
+104 1 104 
+76 1 45 
+269 0 
+15 2 -1 8 
+242 2 8 187 
+180 3 66 57 154 
+23 2 -1 8 
+87 1 8 
+56 1 27 
+63 2 27 45 
+Constructors: 1
+193 187
+
+Summary: 9
+-2 187 95 104 0 45 134 -1 27 
+org/eclipse/jdt/internal/core/Buffer.removeBufferChangedListener(Lorg/eclipse/jdt/core/IBufferChangedListener;)V
+PTG:
+Vars:
+5
+$r3 1 1 
+r2 1 -2 
+$r4 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 changeListeners 1
+Accesses: 4
+0 1 -1 
+16 1 -1 
+7 1 -1 
+28 1 -1 
+Functions: 2
+17 1 1 
+12 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/Buffer.setReadOnly(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+17 1 -1 
+4 1 -1 
+25 1 -1 
+11 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

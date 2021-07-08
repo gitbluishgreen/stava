@@ -1,0 +1,475 @@
+16
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.log(Lorg/eclipse/core/runtime/IStatus;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.runInitializer(Lorg/eclipse/core/runtime/IConfigurationElement;)V
+PTG:
+Vars:
+9
+$r6 1 30 
+$r3 1 49 
+r0 1 -2 
+$r2 1 -1 
+r8 1 -1 
+$r1 1 5 
+$r4 1 -1 
+$r5 1 22 
+r9 1 5 
+Fields: 0
+Accesses: 0
+Functions: 6
+48 1 -1 
+2 1 -2 
+34 3 -1 22 30 
+52 1 49 
+41 1 22 
+15 1 5 
+Constructors: 1
+34 22
+
+Summary: 5
+-2 49 5 -1 22 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.registryChanged(Lorg/eclipse/core/runtime/IRegistryChangeEvent;)V
+PTG:
+Vars:
+15
+r2 1 24 
+$r7 2 96 96 
+r10 1 -1 
+$r4 2 73 73 
+$r14 1 147 
+$r12 1 124 
+r6 1 84 
+$r8 1 158 
+$r11 1 130 
+r3 1 30 
+r0 1 -2 
+$r5 1 74 
+r9 1 166 
+$r13 1 131 
+r1 1 12 
+Fields: 5
+30 ArrayObject 73
+30 ArrayObject 96
+84 ArrayObject 147
+84 ArrayObject 158
+84 ArrayObject 130
+Accesses: 1
+203 1 -1 
+Functions: 12
+0 1 -2 
+96 1 96 
+176 2 -1 166 
+130 1 130 
+148 2 -1 147 
+53 4 96 24 73 30 
+73 1 73 
+42 4 96 73 12 30 
+74 1 74 
+124 2 131 124 
+13 1 -2 
+158 1 158 
+Constructors: 0
+
+Summary: 11
+166 -2 12 73 96 84 131 24 74 30 -1 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.scopeRemoved(Ljava/lang/String;)V
+PTG:
+Vars:
+14
+r3 1 -2 
+r6 1 12 
+$r1 1 1 
+$r14 1 27 
+$r4 1 4 
+$r2 1 4 
+$r7 1 1 
+$r10 1 54 
+$r13 1 27 
+$r9 1 44 
+r0 1 -1 
+$r12 1 1 
+$r8 1 44 
+$r5 1 12 
+Fields: 1
+-1 service 1
+Accesses: 3
+0 1 -1 
+23 1 -1 
+40 1 -1 
+Functions: 7
+1 1 1 
+34 2 27 12 
+51 2 -2 44 
+7 2 -2 4 
+24 1 1 
+41 1 1 
+58 2 -2 54 
+Constructors: 0
+
+Summary: 7
+-2 12 4 0 44 -1 27 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.addModifyListener(Lorg/eclipse/core/runtime/IConfigurationElement;)V
+PTG:
+Vars:
+9
+$r3 1 84 
+$r10 1 -1 
+$r5 1 72 
+$r11 1 96 
+r2 1 -1 
+r0 1 -2 
+r1 1 8 
+r13 1 56 
+$r4 1 64 
+Fields: 1
+-1 modifyListeners 84
+Accesses: 1
+83 1 -1 
+Functions: 12
+0 1 -2 
+16 1 -2 
+48 1 -2 
+17 0 
+99 1 96 
+22 0 
+88 2 84 56 
+41 0 
+44 0 
+76 2 64 72 
+79 1 64 
+95 1 -1 
+Constructors: 1
+76 64
+
+Summary: 10
+-2 17 30 8 64 22 96 -1 31 56 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.scopeAdded(Lorg/eclipse/core/runtime/IConfigurationElement;)V
+PTG:
+Vars:
+7
+r1 1 8 
+$r7 1 55 
+r0 1 -2 
+$r2 1 40 
+$r5 1 52 
+$r6 1 55 
+r4 1 -1 
+Fields: 1
+-1 service 52
+Accesses: 1
+51 1 -1 
+Functions: 9
+0 1 -2 
+16 1 -2 
+32 0 
+17 0 
+36 0 
+52 1 52 
+22 0 
+45 3 -2 40 8 
+63 2 55 8 
+Constructors: 0
+
+Summary: 8
+-2 33 22 17 30 -1 8 55 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.applyRuntimeDefaults(Ljava/lang/String;Ljava/lang/ref/WeakReference;)Ljava/lang/ref/WeakReference;
+PTG:
+Vars:
+28
+$r14 1 121 
+r1 1 4 
+r23 2 119 143 
+$r16 1 152 
+$r5 1 56 
+$r24 1 177 
+r0 1 -1 
+$r10 1 99 
+$r18 1 166 
+$r20 1 218 
+$r9 1 78 
+r25 2 241 216 
+$r4 1 49 
+r11 1 105 
+r19 1 -3 
+r6 1 -2 
+r26 1 224 
+$r2 1 35 
+r22 1 41 
+r13 1 119 
+$r21 1 243 
+$r12 1 109 
+$r17 1 163 
+r15 1 129 
+$r7 1 72 
+_ret 1 243 
+$r3 1 55 
+$r8 1 73 
+Fields: 5
+41 ArrayObject 177
+41 ArrayObject 72
+41 ArrayObject 55
+41 ArrayObject 99
+4 ArrayObject 35
+Accesses: 0
+Functions: 23
+0 1 -1 
+-1 0 
+35 1 35 
+67 2 -2 78 
+99 1 99 
+163 1 163 
+231 4 224 241 -2 216 
+72 1 72 
+136 1 129 
+73 1 73 
+169 1 166 
+107 1 105 
+109 1 109 
+49 2 49 56 
+18 0 
+178 2 -1 177 
+212 1 -3 
+55 1 55 
+152 3 119 152 143 
+121 2 119 121 
+249 3 241 243 216 
+218 1 218 
+158 1 152 
+Constructors: 2
+249 243
+158 152
+
+Summary: 22
+-3 241 163 216 1 121 143 224 119 41 166 -2 218 109 4 0 73 129 78 -1 105 56 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.createStatusError(Ljava/lang/String;Ljava/lang/Exception;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r0 1 0 
+r2 1 -3 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 3 0 -2 -3 
+Constructors: 1
+10 0
+
+Summary: 2
+-3 -2 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.createStatusWarning(Ljava/lang/String;Ljava/lang/Exception;)Lorg/eclipse/core/runtime/IStatus;
+PTG:
+Vars:
+4
+r1 1 -2 
+r2 1 -3 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 3 0 -2 -3 
+Constructors: 1
+10 0
+
+Summary: 3
+-3 -2 0 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.stop()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 registry 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.<init>(Lorg/eclipse/core/internal/preferences/PreferencesService;Ljava/lang/Object;)V
+PTG:
+Vars:
+5
+$r4 1 22 
+$r3 1 -3 
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 registry 22
+Accesses: 3
+21 1 -1 
+6 1 -1 
+14 1 -1 
+Functions: 3
+1 2 -1 22 
+18 2 -1 22 
+26 2 -1 22 
+Constructors: 1
+1 -1
+
+Summary: 3
+0 -1 1 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.getModifyListeners()[Lorg/eclipse/core/runtime/preferences/PreferenceModifyListener;
+PTG:
+Vars:
+14
+$r3 1 8 
+r12 1 97 
+$r9 1 64 
+r11 1 94 
+$r2 1 1 
+$r6 1 48 
+$r7 1 43 
+$r4 1 30 
+r0 1 -1 
+r10 1 22 
+$r1 1 1 
+_ret 1 97 
+r5 1 36 
+$r8 1 49 
+Fields: 4
+22 ArrayObject 30
+-1 modifyListeners 1
+36 ArrayObject 64
+36 ArrayObject 48
+Accesses: 3
+0 1 -1 
+87 1 -1 
+15 1 -1 
+Functions: 8
+48 1 48 
+65 3 -1 64 1 
+18 2 -1 1 
+88 1 1 
+43 2 49 43 
+107 2 97 94 
+12 1 8 
+30 1 30 
+Constructors: 1
+12 8
+
+Summary: 4
+49 22 -1 36 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.<clinit>()V
+PTG:
+Vars:
+3
+$r1 1 7 
+$r2 1 14 
+$r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+7 1 7 
+11 1 7 
+Constructors: 1
+11 7
+
+Summary: 1
+7 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.createNode(Lorg/eclipse/core/internal/preferences/RootPreferences;Ljava/lang/String;)Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;
+PTG:
+Vars:
+11
+r16 2 11 28 
+$r1 1 2 
+$r7 1 37 
+r2 1 11 
+$r4 1 103 
+r0 1 -3 
+$r5 1 11 
+$r6 1 28 
+_ret 1 103 
+r3 1 -2 
+r15 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 10
+81 0 
+2 2 2 -3 
+100 4 -2 -3 11 28 
+70 2 -2 -3 
+23 1 11 
+56 0 
+42 4 -3 37 11 28 
+90 2 -2 -3 
+76 0 
+61 0 
+Constructors: 0
+
+Summary: 8
+-3 -2 1 28 11 58 78 -1 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.initializeScopes()V
+PTG:
+Vars:
+8
+$r4 1 30 
+r1 1 4 
+$r2 1 12 
+r0 1 -1 
+$r6 1 31 
+$r5 1 25 
+r3 1 18 
+$r7 1 46 
+Fields: 3
+4 ArrayObject 12
+18 ArrayObject 46
+18 ArrayObject 30
+Accesses: 0
+Functions: 5
+0 1 -1 
+25 2 25 31 
+12 1 12 
+30 1 30 
+47 2 -1 46 
+Constructors: 0
+
+Summary: 4
+4 31 -1 18 
+org/eclipse/core/internal/preferences/PreferenceServiceRegistryHelper.getPrefExtensions()[Lorg/eclipse/core/runtime/IExtension;
+PTG:
+Vars:
+9
+$r3 1 9 
+r4 1 49 
+r6 2 3 34 
+r2 1 23 
+r0 1 -1 
+_ret 1 69 
+r7 2 7 63 
+$r1 1 9 
+r5 1 69 
+Fields: 1
+-1 registry 9
+Accesses: 2
+35 1 -1 
+8 1 -1 
+Functions: 7
+81 3 34 3 69 
+36 1 9 
+56 1 49 
+9 1 9 
+28 1 23 
+92 3 69 7 63 
+110 0 
+Constructors: 0
+
+Summary: 3
+49 23 -1 

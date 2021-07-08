@@ -1,0 +1,1354 @@
+52
+org/h2/value/ValueLob.copy(Lorg/h2/value/ValueLob;)Lorg/h2/value/ValueLob;
+PTG:
+Vars:
+6
+_ret 1 0 
+$r3 1 9 
+r1 1 -2 
+$r5 1 42 
+$r0 1 0 
+$r2 1 13 
+Fields: 3
+-2 small 42
+-2 handler 9
+-2 fileName 13
+Accesses: 12
+16 1 -2 
+32 1 -2 
+49 1 -2 
+4 1 -2 
+20 1 -2 
+53 1 0 
+8 1 -2 
+24 1 -2 
+41 1 -2 
+12 1 -2 
+28 1 -2 
+45 1 0 
+Functions: 1
+36 3 0 9 13 
+Constructors: 1
+36 0
+
+Summary: 4
+9 -2 13 0 
+org/h2/value/ValueLob.copyToTemp()Lorg/h2/value/ValueLob;
+PTG:
+Vars:
+7
+$r3 1 10 
+_ret 2 43 24 
+r0 1 -1 
+r5 2 43 24 
+$r4 1 18 
+$r1 1 29 
+$r2 1 37 
+Fields: 2
+-1 handler 18
+-1 handler 37
+Accesses: 5
+0 1 -1 
+32 1 -1 
+17 1 -1 
+36 1 -1 
+13 1 -1 
+Functions: 4
+18 2 18 10 
+37 2 37 29 
+9 3 -1 18 37 
+28 3 -1 18 37 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.getBytesNoCopy()[B
+PTG:
+Vars:
+7
+$r8 1 39 
+$r6 1 -1 
+$r9 1 42 
+$r2 1 27 
+$r3 1 32 
+r0 1 -1 
+$r1 1 15 
+Fields: 2
+-1 small 15
+-1 fileName 39
+Accesses: 4
+0 1 -1 
+21 1 -1 
+38 1 -1 
+14 1 -1 
+Functions: 4
+39 2 -1 39 
+9 3 -1 39 15 
+26 3 -1 39 15 
+30 1 27 
+Constructors: 0
+
+Summary: 0
+
+org/h2/value/ValueLob.getObjectId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.createSmallLob(I[B)Lorg/h2/value/ValueLob;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 0 -3 
+Constructors: 1
+6 0
+
+Summary: 2
+1 -3 
+org/h2/value/ValueLob.getType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.createFromStream([BILjava/io/InputStream;JLorg/h2/store/DataHandler;)V
+PTG:
+Vars:
+6
+$r2 1 12 
+r4 1 -4 
+r1 1 -6 
+r3 1 -2 
+r9 1 6 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+35 1 -1 
+27 1 -1 
+Functions: 8
+0 2 -1 -6 
+113 0 
+67 1 -6 
+100 1 6 
+8 1 -6 
+90 1 6 
+43 2 -2 6 
+76 2 -2 -4 
+Constructors: 0
+
+Summary: 7
+-2 4 0 -4 -6 -1 2 
+org/h2/value/ValueLob.getString()Ljava/lang/String;
+PTG:
+Vars:
+12
+$r8 1 51 
+r15 2 65 87 
+$r1 1 65 
+$r5 1 56 
+$r2 1 80 
+$r4 1 41 
+$r6 1 60 
+$r7 1 41 
+r0 1 -1 
+$r3 1 89 
+$r9 1 -1 
+$r10 1 108 
+Fields: 2
+-1 small 41
+-1 small 65
+Accesses: 9
+0 1 -1 
+64 1 -1 
+71 1 -1 
+40 1 -1 
+25 1 -1 
+11 1 -1 
+31 1 -1 
+47 1 -1 
+95 1 -1 
+Functions: 9
+48 1 41 
+96 0 
+83 1 80 
+99 0 
+55 3 -1 65 41 
+88 2 65 87 
+59 1 56 
+107 1 -1 
+79 3 -1 65 41 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.convertToFileIfRequired(Lorg/h2/store/DataHandler;)V
+PTG:
+Vars:
+10
+r0 1 -1 
+$r5 1 86 
+r7 1 107 
+r3 1 -2 
+$r10 1 71 
+$r6 1 90 
+$r4 1 26 
+$r2 1 1 
+$r1 1 1 
+$r9 1 66 
+Fields: 1
+-1 small 1
+Accesses: 5
+0 1 -1 
+49 1 -1 
+22 1 -1 
+7 1 -1 
+55 1 -1 
+Functions: 10
+65 0 
+97 5 -1 1 -2 86 90 
+100 3 -1 1 -2 
+21 1 -2 
+70 2 -1 1 
+89 2 -1 1 
+121 0 
+42 1 -2 
+12 1 -2 
+78 5 -1 1 -2 66 71 
+Constructors: 0
+
+Summary: 8
+66 90 -2 71 107 86 26 -1 
+org/h2/value/ValueLob.getDisplaySize()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.unlink()V
+PTG:
+Vars:
+14
+$r12 1 94 
+$r7 1 8 
+$r2 1 15 
+$r6 1 15 
+r0 1 -1 
+$r10 1 87 
+$r1 1 8 
+$r9 1 15 
+$r13 1 15 
+$r11 1 94 
+$r4 1 15 
+$r5 1 15 
+$r8 1 15 
+r16 2 45 58 
+Fields: 3
+-1 handler 15
+-1 tempFile 94
+-1 fileName 8
+Accesses: 16
+0 1 -1 
+33 1 -1 
+67 1 -1 
+100 1 -1 
+38 1 -1 
+7 1 -1 
+71 1 -1 
+109 1 -1 
+14 1 -1 
+80 1 -1 
+49 1 -1 
+114 1 -1 
+21 1 -1 
+90 1 -1 
+59 1 -1 
+93 1 -1 
+Functions: 8
+64 3 58 45 15 
+97 1 94 
+50 1 15 
+85 3 58 45 15 
+22 1 15 
+39 1 15 
+104 1 94 
+76 4 8 58 45 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.getFileName()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fileName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+5
+$r2 1 -2 
+r0 1 -2 
+$r3 1 -1 
+$r5 1 27 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+7 2 -1 -2 
+26 1 -1 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/h2/value/ValueLob.hashCode()I
+PTG:
+Vars:
+3
+$r2 1 43 
+$r1 1 57 
+r0 1 -1 
+Fields: 0
+Accesses: 8
+0 1 -1 
+32 1 -1 
+49 1 -1 
+18 1 -1 
+22 1 -1 
+7 1 -1 
+75 1 -1 
+63 1 -1 
+Functions: 5
+70 0 
+56 1 -1 
+57 1 57 
+42 1 -1 
+43 1 43 
+Constructors: 0
+
+Summary: 0
+
+org/h2/value/ValueLob.getInputStream()Ljava/io/InputStream;
+PTG:
+Vars:
+10
+_ret 1 40 
+$r12 1 40 
+$r13 1 44 
+$r11 1 44 
+$r7 1 20 
+$r3 1 20 
+$r1 1 1 
+$r2 1 1 
+r4 1 35 
+r0 1 -1 
+Fields: 2
+-1 handler 20
+-1 fileName 1
+Accesses: 6
+0 1 -1 
+49 1 -1 
+19 1 -1 
+53 1 -1 
+23 1 -1 
+11 1 -1 
+Functions: 4
+64 2 40 44 
+20 2 1 20 
+58 3 35 20 44 
+15 0 
+Constructors: 2
+64 40
+58 44
+
+Summary: 2
+-1 44 
+org/h2/value/ValueLob.invalidateFileList(Lorg/h2/store/DataHandler;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r1 1 6 
+r0 1 -2 
+r4 1 -3 
+r8 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+18 2 -3 6 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 -3 
+org/h2/value/ValueLob.getObject()Ljava/lang/Object;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 -1 
+$r5 1 21 
+$r1 1 15 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 3
+20 1 -1 
+9 1 -1 
+14 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.initLarge(Lorg/h2/store/DataHandler;)Lorg/h2/store/FileStoreOutputStream;
+PTG:
+Vars:
+16
+$r7 1 154 
+$r10 1 77 
+$r13 1 97 
+$r14 1 102 
+r2 1 40 
+$r4 1 128 
+_ret 1 172 
+$r6 1 145 
+r1 1 -2 
+$r12 1 94 
+$r5 1 139 
+$r15 1 105 
+r0 1 -1 
+$r11 1 85 
+$r8 1 172 
+$r9 1 154 
+Fields: 2
+-1 tempFile 154
+-1 fileName 139
+Accesses: 17
+2 1 -1 
+133 1 -1 
+7 1 -1 
+73 1 -1 
+138 1 -1 
+12 1 -1 
+108 1 -1 
+176 1 -1 
+17 1 -1 
+51 1 -1 
+22 1 -1 
+150 1 -1 
+153 1 -1 
+90 1 -1 
+27 1 -1 
+123 1 -1 
+31 1 -1 
+Functions: 14
+97 1 97 
+68 4 -1 -2 154 139 
+102 1 102 
+137 2 -2 139 
+77 2 77 94 
+81 1 77 
+115 1 -2 
+84 1 -2 
+182 4 -2 40 154 172 
+58 1 -2 
+91 1 85 
+157 1 154 
+30 1 -2 
+127 1 -2 
+Constructors: 2
+81 77
+182 172
+
+Summary: 2
+0 -1 
+org/h2/value/ValueLob.useCompression()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.getTraceSQL()Ljava/lang/String;
+PTG:
+Vars:
+11
+_ret 1 96 
+$r5 1 67 
+$r8 1 83 
+$r1 1 1 
+$r7 1 79 
+$r12 1 43 
+$r9 1 86 
+r0 1 -1 
+$r11 1 96 
+$r4 1 60 
+$r2 1 23 
+Fields: 2
+-1 small 1
+-1 fileName 83
+Accesses: 3
+0 1 -1 
+82 1 -1 
+31 1 -1 
+Functions: 14
+7 3 -1 1 83 
+40 1 23 
+72 1 67 
+76 1 23 
+46 3 -1 1 83 
+79 2 83 79 
+18 3 -1 1 83 
+50 1 43 
+57 1 23 
+27 1 23 
+91 1 86 
+60 1 60 
+63 3 -1 1 83 
+95 1 23 
+Constructors: 1
+27 23
+
+Summary: 0
+
+org/h2/value/ValueLob.getFileName(Lorg/h2/store/DataHandler;II)Ljava/lang/String;
+PTG:
+Vars:
+11
+$r2 1 99 
+$r6 1 118 
+_ret 1 130 
+$r5 1 113 
+$r1 1 91 
+$r4 1 109 
+$r9 1 130 
+$r3 1 104 
+r0 1 -2 
+$r7 1 122 
+$r8 1 127 
+Fields: 0
+Accesses: 0
+Functions: 22
+65 1 -2 
+98 1 -2 
+38 0 
+71 0 
+104 1 104 
+42 0 
+75 0 
+109 1 109 
+47 0 
+79 0 
+16 0 
+113 1 113 
+51 0 
+20 1 -2 
+84 0 
+118 1 118 
+58 0 
+122 1 122 
+91 2 99 91 
+62 0 
+95 1 91 
+127 1 127 
+Constructors: 1
+95 91
+
+Summary: 2
+-2 0 
+org/h2/value/ValueLob.getBytes()[B
+PTG:
+Vars:
+4
+_ret 1 20 
+$r2 1 20 
+r1 1 18 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 3
+19 1 18 
+9 1 -1 
+14 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/h2/value/ValueLob.removeAllForTable(Lorg/h2/store/DataHandler;I)V
+PTG:
+Vars:
+13
+r13 1 35 
+r0 1 -2 
+r12 1 19 
+$r9 1 97 
+$r6 1 83 
+$r5 1 75 
+r2 1 45 
+$r11 1 10 
+$r10 1 100 
+r4 1 71 
+$r8 1 92 
+$r7 1 88 
+r1 1 40 
+Fields: 1
+45 ArrayObject 71
+Accesses: 0
+Functions: 16
+0 1 -2 
+97 1 97 
+36 1 35 
+9 1 -2 
+41 1 40 
+73 2 100 71 
+75 2 35 75 
+109 1 71 
+15 1 10 
+79 1 75 
+83 1 83 
+23 2 -2 19 
+88 1 88 
+122 2 -2 71 
+92 1 92 
+29 1 -2 
+Constructors: 1
+79 75
+
+Summary: 5
+-2 0 40 45 71 
+org/h2/value/ValueLob.getBufferSize(Lorg/h2/store/DataHandler;ZJ)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+81 0 
+97 0 
+18 1 -2 
+73 0 
+90 0 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/h2/value/ValueLob.compareSecure(Lorg/h2/value/Value;Lorg/h2/value/CompareMode;)I
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 28 
+r6 1 -3 
+$r3 1 30 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 7
+17 0 
+33 2 28 30 
+24 1 -2 
+9 1 -1 
+10 0 
+13 1 -2 
+29 1 -1 
+Constructors: 0
+
+Summary: 3
+1 0 -3 
+org/h2/value/ValueLob.getFileNamePrefix(Ljava/lang/String;I)Ljava/lang/String;
+PTG:
+Vars:
+19
+r17 1 118 
+$r2 1 100 
+$r5 1 112 
+$r11 1 76 
+$r6 1 53 
+$r15 1 24 
+$r14 1 20 
+$r9 1 67 
+r16 3 30 36 82 
+$r3 1 105 
+_ret 1 118 
+$r0 1 92 
+$r4 1 109 
+$r12 1 10 
+$r7 1 60 
+$r10 1 72 
+$r13 1 17 
+$r8 1 63 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 16
+96 1 92 
+67 1 67 
+100 1 100 
+72 4 82 36 72 30 
+105 4 82 36 105 30 
+10 2 17 10 
+76 1 76 
+109 1 109 
+14 1 10 
+112 1 112 
+20 1 20 
+53 2 53 60 
+24 1 24 
+57 1 53 
+92 2 -2 92 
+63 1 63 
+Constructors: 3
+96 92
+57 53
+14 10
+
+Summary: 2
+-2 0 
+org/h2/value/ValueLob.<init>(ILorg/h2/store/DataHandler;Ljava/lang/String;IIZJZ)V
+PTG:
+Vars:
+3
+r2 1 -4 
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 8
+16 1 -1 
+34 1 -1 
+6 1 -1 
+22 1 -1 
+40 1 -1 
+11 1 -1 
+28 1 -1 
+46 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+1 -1 2 
+org/h2/value/ValueLob.getFileList(Lorg/h2/store/DataHandler;Ljava/lang/String;)[Ljava/lang/String;
+PTG:
+Vars:
+7
+r0 1 -2 
+_ret 3 15 27 44 
+r4 1 -3 
+r1 1 6 
+r10 3 15 27 44 
+$r5 1 27 
+r9 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+50 5 -3 6 27 44 15 
+40 1 -3 
+25 2 -3 6 
+11 1 -3 
+Constructors: 0
+
+Summary: 5
+1 -2 0 -1 -3 
+org/h2/value/ValueLob.open(ILorg/h2/store/DataHandler;IIJZ)Lorg/h2/value/ValueLob;
+PTG:
+Vars:
+4
+_ret 1 8 
+r0 1 -3 
+r1 1 6 
+$r2 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+2 1 -3 
+23 3 -3 6 8 
+Constructors: 1
+23 8
+
+Summary: 2
+6 -3 
+org/h2/value/ValueLob.isLinked()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.getSQL()Ljava/lang/String;
+PTG:
+Vars:
+12
+$r5 1 47 
+$r4 1 42 
+$r8 1 -1 
+$r9 1 56 
+r0 1 -1 
+$r2 1 29 
+$r6 1 50 
+r10 1 13 
+r1 1 23 
+$r3 1 38 
+r11 1 28 
+$r7 1 15 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 10
+33 1 29 
+19 1 -1 
+38 2 38 28 
+55 1 -1 
+24 1 23 
+9 1 -1 
+42 1 42 
+29 1 29 
+14 1 13 
+47 1 47 
+Constructors: 1
+33 29
+
+Summary: 0
+
+org/h2/value/ValueLob.existsLobFile(Ljava/lang/String;)Z
+PTG:
+Vars:
+8
+$r7 1 47 
+r0 1 -2 
+r2 1 9 
+$r8 1 50 
+r4 1 30 
+$r6 1 42 
+r1 1 4 
+$r5 1 34 
+Fields: 1
+9 ArrayObject 30
+Accesses: 0
+Functions: 8
+0 1 -2 
+32 2 50 30 
+34 2 -2 34 
+5 1 4 
+38 1 34 
+42 1 42 
+59 1 30 
+47 1 47 
+Constructors: 1
+38 34
+
+Summary: 5
+30 4 9 -2 0 
+org/h2/value/ValueLob.createFromReader([CILjava/io/Reader;JLorg/h2/store/DataHandler;)V
+PTG:
+Vars:
+8
+$r2 1 12 
+r10 1 6 
+r3 1 -2 
+r1 1 -6 
+r0 1 -1 
+$r12 1 38 
+r4 1 51 
+r5 1 -4 
+Fields: 0
+Accesses: 2
+35 1 -1 
+27 1 -1 
+Functions: 10
+0 2 -1 -6 
+85 1 -6 
+133 0 
+38 1 38 
+8 1 -6 
+120 1 6 
+45 2 -2 38 
+61 2 51 6 
+93 2 -2 -4 
+110 1 6 
+Constructors: 1
+45 38
+
+Summary: 8
+-2 4 0 -6 38 -4 -1 2 
+org/h2/value/ValueLob.getNewObjectId(Lorg/h2/store/DataHandler;)I
+PTG:
+Vars:
+10
+$r7 1 -1 
+r5 1 31 
+r3 1 -1 
+r4 1 23 
+r0 1 -2 
+r11 1 76 
+r1 1 6 
+r10 1 59 
+r6 1 91 
+r2 1 14 
+Fields: 1
+23 ArrayObject 59
+Accesses: 0
+Functions: 9
+0 1 -2 
+16 3 -1 -2 14 
+81 1 76 
+71 1 59 
+10 1 6 
+61 1 59 
+93 1 91 
+189 3 -1 -2 14 
+78 1 76 
+Constructors: 0
+
+Summary: 5
+91 -2 0 31 -1 
+org/h2/value/ValueLob.convertTo(I)Lorg/h2/value/Value;
+PTG:
+Vars:
+3
+_ret 1 58 
+r0 1 -1 
+$r1 1 58 
+Fields: 0
+Accesses: 3
+1 1 -1 
+23 1 -1 
+46 1 -1 
+Functions: 5
+16 1 -1 
+39 1 -1 
+24 0 
+56 1 -1 
+47 0 
+Constructors: 0
+
+Summary: 0
+
+org/h2/value/ValueLob.setFileName(Ljava/lang/String;Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.deleteFile(Lorg/h2/store/DataHandler;Ljava/lang/String;)V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -2 
+r3 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+10 1 -3 
+Constructors: 0
+
+Summary: 4
+1 -2 0 -3 
+org/h2/value/ValueLob.link(Lorg/h2/store/DataHandler;I)Lorg/h2/value/Value;
+PTG:
+Vars:
+8
+$r1 1 1 
+_ret 1 -1 
+r0 1 -1 
+r9 1 126 
+$r3 1 128 
+r2 1 -2 
+$r5 1 128 
+$r4 1 1 
+Fields: 2
+-1 tempFile 128
+-1 fileName 1
+Accesses: 14
+0 1 -1 
+162 1 -1 
+102 1 -1 
+134 1 -1 
+9 1 -1 
+14 1 -1 
+111 1 -1 
+143 1 -1 
+80 1 -1 
+115 1 -1 
+147 1 -1 
+119 1 -1 
+157 1 -1 
+127 1 -1 
+Functions: 9
+48 1 -2 
+36 4 -1 128 1 -2 
+21 3 -1 128 1 
+70 1 -2 
+86 4 -1 128 1 -2 
+120 1 -2 
+152 3 -2 1 126 
+26 1 -2 
+138 1 128 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/h2/value/ValueLob.isFileBased()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fileName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.getReader()Ljava/io/Reader;
+PTG:
+Vars:
+5
+$r3 1 -1 
+$r5 1 10 
+$r2 1 4 
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+1 1 1 
+9 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.set(Ljava/sql/PreparedStatement;I)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 35 
+$r2 1 51 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+23 1 -1 
+Functions: 5
+0 1 -1 
+34 1 -1 
+50 1 -1 
+40 2 -2 35 
+56 2 -2 51 
+Constructors: 0
+
+Summary: 4
+51 -2 35 -1 
+org/h2/value/ValueLob.copyFile(Lorg/h2/store/DataHandler;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r4 1 11 
+r3 1 -3 
+r0 1 -2 
+r5 1 -4 
+r8 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+16 3 -3 -4 11 
+10 1 -3 
+Constructors: 0
+
+Summary: 7
+1 -2 11 0 -4 -1 -3 
+org/h2/value/ValueLob.removeAllForTable(Lorg/h2/store/DataHandler;Ljava/lang/String;I)V
+PTG:
+Vars:
+9
+$r6 1 63 
+$r3 1 45 
+$r4 1 54 
+r2 1 23 
+r0 1 -3 
+$r5 1 58 
+r8 1 -2 
+$r7 1 66 
+r1 1 4 
+Fields: 1
+4 ArrayObject 23
+Accesses: 0
+Functions: 10
+0 1 -3 
+49 1 45 
+37 2 -2 23 
+54 1 54 
+25 1 23 
+58 1 58 
+43 2 66 23 
+45 1 45 
+78 2 -2 23 
+63 1 63 
+Constructors: 1
+49 45
+
+Summary: 6
+4 1 -2 23 0 -3 
+org/h2/value/ValueLob.getMemory()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 small 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.getSmall()[B
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 small 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.createClob(Ljava/io/Reader;JLorg/h2/store/DataHandler;)Lorg/h2/value/ValueLob;
+PTG:
+Vars:
+11
+$r1 1 3 
+r10 1 133 
+r2 1 -2 
+$r4 1 118 
+$r6 1 -1 
+$r7 1 176 
+r0 1 -4 
+r9 2 80 68 
+$r5 1 139 
+r8 1 61 
+$r3 1 143 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -4 
+165 5 80 -2 -4 68 143 
+118 1 118 
+150 1 143 
+87 3 80 -2 68 
+57 1 -2 
+137 1 133 
+42 1 -4 
+109 1 -4 
+63 1 61 
+127 3 80 68 118 
+175 1 -1 
+Constructors: 2
+150 143
+127 118
+
+Summary: 6
+-2 0 118 80 -4 2 
+org/h2/value/ValueLob.close()V
+PTG:
+Vars:
+6
+$r4 1 22 
+$r2 1 8 
+$r3 1 1 
+r0 1 -1 
+$r1 1 1 
+$r5 1 8 
+Fields: 3
+-1 handler 22
+-1 tempFile 8
+-1 fileName 1
+Accesses: 5
+0 1 -1 
+21 1 -1 
+7 1 -1 
+25 1 -1 
+14 1 -1 
+Functions: 2
+18 1 8 
+29 2 1 22 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.getTableId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.renameFile(Lorg/h2/store/DataHandler;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r3 1 -3 
+$r1 1 1 
+r4 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+11 2 -3 -4 
+Constructors: 0
+
+Summary: 5
+1 -2 0 -4 -3 
+org/h2/value/ValueLob.createBlob(Ljava/io/InputStream;JLorg/h2/store/DataHandler;)Lorg/h2/value/ValueLob;
+PTG:
+Vars:
+9
+$r1 1 8 
+r0 1 -4 
+$r4 1 122 
+r8 1 105 
+r2 1 -2 
+$r6 1 159 
+$r3 1 126 
+$r5 1 -1 
+r7 2 76 61 
+Fields: 0
+Accesses: 0
+Functions: 12
+82 3 -2 76 61 
+115 3 105 76 61 
+100 0 
+148 5 -2 -4 76 61 126 
+5 1 -4 
+133 1 126 
+71 0 
+120 1 105 
+57 1 -2 
+42 1 -4 
+91 1 -4 
+158 1 -1 
+Constructors: 1
+133 126
+
+Summary: 4
+-2 0 -4 2 
+org/h2/value/ValueLob.getPrecision()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/value/ValueLob.<init>(I[B)V
+PTG:
+Vars:
+3
+$r2 1 36 
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 4
+6 1 -1 
+11 1 -1 
+43 1 -1 
+28 1 -1 
+Functions: 3
+1 1 -1 
+35 1 -1 
+36 1 36 
+Constructors: 1
+1 -1
+
+Summary: 2
+1 -1 

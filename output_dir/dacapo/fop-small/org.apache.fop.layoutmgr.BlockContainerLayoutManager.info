@@ -1,0 +1,1497 @@
+31
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.initialize()V
+PTG:
+Vars:
+60
+$r20 1 166 
+$r39 1 323 
+$r32 1 290 
+r0 1 -1 
+$r14 1 66 
+$r49 1 253 
+$r36 1 313 
+$r47 1 247 
+$r13 1 63 
+$r17 1 86 
+$r59 1 155 
+$r2 1 5 
+$r46 1 244 
+$r26 1 191 
+$r30 1 283 
+$r38 1 320 
+$r37 1 316 
+$r12 1 55 
+$r6 1 23 
+$r41 1 217 
+$r45 1 230 
+$r57 1 148 
+$r8 1 37 
+$r27 1 194 
+$r52 1 127 
+$r1 1 2 
+$r31 1 286 
+$r9 1 42 
+$r21 1 169 
+$r18 1 89 
+$r35 1 310 
+$r53 1 130 
+$r5 1 20 
+$r16 1 83 
+$r7 1 30 
+$r55 1 137 
+$r3 1 12 
+$r11 1 48 
+$r24 1 184 
+$r40 1 214 
+$r29 1 280 
+$r33 1 293 
+$r4 1 17 
+$r42 1 220 
+$r58 1 152 
+$r50 1 257 
+$r28 1 277 
+$r54 1 134 
+$r56 1 145 
+$r25 1 187 
+$r22 1 173 
+$r43 1 223 
+$r19 1 102 
+$r51 1 260 
+$r44 1 227 
+$r10 1 45 
+$r15 1 69 
+$r23 1 176 
+$r48 1 250 
+$r34 1 307 
+Fields: 8
+310 spaceAfter 313
+247 spaceAfter 250
+20 spaceBefore 23
+86 endIndent 89
+45 spaceAfter 48
+217 spaceBefore 220
+280 spaceBefore 283
+66 startIndent 69
+Accesses: 23
+33 1 -1 
+66 1 66 
+98 1 -1 
+197 1 -1 
+8 1 -1 
+202 1 -1 
+140 1 -1 
+332 1 -1 
+45 1 45 
+205 1 -1 
+269 1 -1 
+78 1 -1 
+302 1 -1 
+239 1 -1 
+179 1 -1 
+20 1 20 
+86 1 86 
+310 1 310 
+247 1 247 
+280 1 280 
+217 1 217 
+58 1 -1 
+158 1 -1 
+Functions: 58
+1 1 -1 
+257 1 257 
+2 1 2 
+130 2 -1 130 
+260 2 -1 260 
+134 1 134 
+12 1 12 
+16 1 -1 
+144 1 -1 
+17 1 17 
+145 1 145 
+148 2 -1 148 
+276 1 -1 
+277 1 277 
+152 1 152 
+27 3 -1 23 12 
+283 1 283 
+286 2 -1 286 
+290 1 290 
+37 1 37 
+165 1 -1 
+293 2 -1 293 
+166 1 166 
+41 1 -1 
+169 2 -1 169 
+42 1 42 
+173 1 173 
+306 1 -1 
+307 1 307 
+52 3 48 -1 37 
+183 1 -1 
+184 1 184 
+313 1 313 
+187 2 -1 187 
+316 2 -1 316 
+62 1 -1 
+63 1 63 
+191 1 191 
+320 1 320 
+323 2 -1 323 
+69 2 -1 69 
+82 1 -1 
+83 1 83 
+213 1 -1 
+214 1 214 
+89 2 -1 89 
+220 1 220 
+223 2 -1 223 
+227 1 227 
+101 1 -1 
+102 1 102 
+230 2 -1 230 
+243 1 -1 
+244 1 244 
+250 1 250 
+253 2 -1 253 
+126 1 -1 
+127 1 127 
+Constructors: 2
+52 37
+27 12
+
+Summary: 41
+286 63 12 260 130 307 187 89 166 214 48 244 42 316 277 17 293 45 169 217 102 83 323 247 86 310 253 23 37 148 66 -1 2 20 230 127 223 69 145 184 280 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.getGeneratesReferenceArea()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.notifyBorder(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+13
+$r8 1 62 
+$r4 1 46 
+$r10 1 69 
+$r1 1 38 
+$r12 1 24 
+$r5 1 52 
+$r2 1 35 
+r6 1 -2 
+$r11 1 4 
+r0 1 -3 
+r3 1 -1 
+$r7 1 56 
+$r9 1 66 
+Fields: 0
+Accesses: 2
+21 1 -1 
+13 1 -1 
+Functions: 9
+66 1 66 
+52 2 -2 52 
+38 2 -1 38 
+24 1 24 
+56 1 56 
+72 2 35 69 
+42 1 38 
+46 1 46 
+62 2 -3 62 
+Constructors: 1
+42 38
+
+Summary: 7
+-3 -1 -2 0 69 1 66 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.getContentAreaBPD()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.getNextKnuthElements(Lorg/apache/fop/layoutmgr/LayoutContext;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+65
+$r61 1 471 
+$r50 1 319 
+$r26 1 964 
+$r25 1 953 
+_ret 1 370 
+$r77 1 483 
+$r7 1 199 
+$r49 1 312 
+$r84 1 794 
+$r30 1 507 
+$r15 1 347 
+$r73 1 291 
+$r33 1 540 
+$r75 1 361 
+$r52 1 327 
+$r55 1 53 
+$r13 1 244 
+$r41 1 582 
+$r46 1 288 
+$r80 1 656 
+$r72 1 937 
+$r12 1 241 
+$r5 1 95 
+$r89 1 911 
+r0 1 -1 
+$r76 1 370 
+$r87 1 911 
+$r81 1 702 
+$r56 1 53 
+r59 1 471 
+$r8 1 202 
+$r6 1 153 
+r64 1 569 
+$r88 1 926 
+$r47 1 300 
+$r58 1 153 
+$r60 1 471 
+r2 1 -2 
+$r74 1 342 
+$r22 1 347 
+$r48 1 307 
+$r11 1 227 
+$r31 1 347 
+$r4 1 53 
+$r79 1 660 
+$r3 1 44 
+$r51 1 324 
+$r54 1 334 
+$r1 1 19 
+$r86 1 830 
+$r34 1 544 
+$r37 1 684 
+$r85 1 814 
+$r9 1 205 
+$r38 1 684 
+$r32 1 528 
+$r29 1 502 
+$r42 1 582 
+$r82 1 698 
+$r24 1 347 
+$r27 1 875 
+$r35 1 740 
+$r10 1 224 
+$r36 1 740 
+$r53 1 331 
+Fields: 5
+-1 width 153
+-1 relDims 347
+-1 childLMs 540
+-1 height 53
+202 startIndent 205
+Accesses: 35
+448 1 -1 
+66 1 -1 
+515 1 -1 
+899 1 -1 
+388 1 -1 
+516 1 347 
+261 1 -1 
+455 1 -1 
+202 1 202 
+268 1 -1 
+141 1 -1 
+845 1 -1 
+846 1 347 
+852 1 -1 
+149 1 -1 
+152 1 -1 
+346 1 -1 
+91 1 -1 
+347 1 347 
+411 1 -1 
+539 1 -1 
+866 1 -1 
+930 1 -1 
+40 1 -1 
+106 1 -1 
+875 1 875 
+44 1 44 
+428 1 -1 
+174 1 -1 
+112 1 -1 
+818 1 -1 
+819 1 347 
+52 1 -1 
+379 1 -1 
+445 1 -1 
+Functions: 110
+1 5 -1 53 153 347 540 
+771 0 
+4 5 -1 53 153 347 540 
+265 5 -1 53 153 347 540 
+522 1 483 
+11 6 -1 -2 53 153 347 540 
+781 7 -1 370 53 153 361 347 540 
+527 5 -1 53 153 347 540 
+272 5 -1 53 153 347 540 
+528 1 528 
+18 5 -1 53 153 347 540 
+19 1 19 
+534 1 483 
+279 5 -1 53 153 347 540 
+540 1 540 
+798 1 794 
+291 1 291 
+295 1 291 
+808 7 -1 370 53 153 361 347 540 
+43 1 -2 
+300 1 300 
+556 1 483 
+303 5 -1 53 153 347 540 
+559 2 483 471 
+307 1 307 
+53 1 53 
+312 1 312 
+825 1 814 
+315 1 -2 
+571 1 569 
+319 1 319 
+67 1 53 
+324 1 324 
+580 1 569 
+838 7 -1 53 153 347 540 830 814 
+585 1 582 
+330 5 -1 53 153 347 540 
+331 2 327 331 
+78 5 -1 53 153 347 540 
+337 2 288 334 
+598 2 361 569 
+856 1 830 
+859 1 830 
+94 5 -1 53 153 347 540 
+606 0 
+95 1 95 
+353 1 342 
+616 7 -1 370 53 153 361 347 540 
+873 1 830 
+365 1 361 
+113 5 -1 53 153 347 540 
+627 5 -1 53 153 347 540 
+374 1 370 
+634 1 471 
+890 5 -1 53 153 347 540 
+126 5 -1 53 153 347 540 
+644 1 471 
+391 1 -2 
+136 5 -1 53 153 347 540 
+908 5 -1 53 153 347 540 
+398 7 -1 -2 370 53 153 347 540 
+145 1 -2 
+919 7 -1 53 153 347 540 830 911 
+153 1 153 
+665 6 -1 660 53 153 347 540 
+672 3 656 -2 660 
+675 2 656 361 
+422 6 -1 370 53 153 347 540 
+934 6 -1 53 153 347 540 911 
+167 5 -1 53 153 347 540 
+682 1 361 
+941 2 937 926 
+175 5 -1 53 153 347 540 
+687 1 684 
+944 2 370 926 
+440 6 -1 370 53 153 347 540 
+189 5 -1 53 153 347 540 
+958 1 953 
+707 6 -1 53 153 347 540 702 
+963 5 -1 53 153 347 540 
+964 1 964 
+198 5 -1 53 153 347 540 
+199 1 199 
+712 3 -2 698 702 
+715 2 361 698 
+205 6 -1 53 153 347 540 205 
+464 6 -1 -2 53 153 347 540 
+723 2 361 569 
+979 6 -1 370 53 153 347 540 
+470 5 -1 53 153 347 540 
+727 1 569 
+986 6 -1 370 53 153 347 540 
+990 1 -2 
+223 5 -1 53 153 347 540 
+224 1 224 
+738 1 569 
+227 1 227 
+997 7 -1 -2 370 53 153 347 540 
+743 1 740 
+488 1 483 
+1003 5 -1 53 153 347 540 
+240 5 -1 53 153 347 540 
+496 2 -2 483 
+752 1 471 
+241 1 241 
+244 6 -1 244 53 153 347 540 
+501 1 -2 
+505 2 502 342 
+764 5 -1 53 153 347 540 
+510 2 483 507 
+Constructors: 14
+672 656
+353 342
+707 702
+838 830
+295 291
+488 483
+712 698
+365 361
+941 926
+374 370
+919 911
+665 660
+825 814
+798 794
+
+Summary: 41
+224 244 95 334 199 331 698 324 342 44 660 582 544 227 740 814 937 19 569 830 502 205 528 507 926 483 656 964 767 361 794 202 684 602 -2 702 327 911 0 241 875 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.getBPIndents()I
+PTG:
+Vars:
+3
+$r1 1 4 
+r0 1 -1 
+$r2 1 7 
+Fields: 0
+Accesses: 0
+Functions: 3
+3 1 -1 
+4 1 4 
+7 2 -1 7 
+Constructors: 0
+
+Summary: 3
+7 -1 4 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r5 1 14 
+$r4 1 6 
+r0 1 -2 
+$r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.notifySpace(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+28
+$r19 1 29 
+$r1 1 0 
+$r27 1 65 
+$r2 1 81 
+$r15 1 139 
+$r11 1 123 
+$r10 1 119 
+r4 1 -3 
+$r24 1 52 
+$r6 1 92 
+r3 1 -1 
+$r14 1 136 
+$r8 1 109 
+$r18 1 18 
+$r26 1 62 
+$r23 1 49 
+$r9 1 113 
+$r12 1 126 
+$r21 1 39 
+$r5 1 95 
+$r16 1 7 
+$r17 1 21 
+$r13 1 132 
+$r7 1 103 
+r0 1 -2 
+$r25 1 58 
+$r22 1 45 
+$r20 1 35 
+Fields: 2
+-1 effSpaceBefore 49
+-1 effSpaceAfter 123
+Accesses: 4
+48 1 -1 
+149 1 -1 
+122 1 -1 
+75 1 -1 
+Functions: 22
+35 2 -2 35 
+99 1 95 
+68 2 65 18 
+132 2 -3 132 
+7 1 7 
+39 1 39 
+103 1 103 
+136 1 136 
+45 2 49 45 
+109 2 -2 109 
+142 2 139 92 
+81 1 81 
+113 1 113 
+52 1 52 
+21 4 -1 49 21 123 
+119 2 119 123 
+25 1 21 
+58 2 -3 58 
+29 1 29 
+62 1 62 
+126 1 126 
+95 4 -1 49 123 95 
+Constructors: 2
+99 95
+25 21
+
+Summary: 8
+65 62 -1 139 -2 0 136 1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.flush()V
+PTG:
+Vars:
+6
+$r3 1 1 
+$r2 1 1 
+$r4 1 20 
+$r5 1 23 
+r0 1 -1 
+$r1 1 5 
+Fields: 2
+-1 referenceArea 5
+-1 viewportBlockArea 1
+Accesses: 4
+0 1 -1 
+4 1 -1 
+8 1 -1 
+15 1 -1 
+Functions: 5
+19 3 -1 1 5 
+20 1 20 
+27 4 -1 1 5 23 
+12 2 1 5 
+31 3 -1 1 5 
+Constructors: 0
+
+Summary: 3
+-1 20 23 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.getSpaceBefore()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 foBlockSpaceBefore 1
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.addChildArea(Lorg/apache/fop/area/Area;)V
+PTG:
+Vars:
+5
+$r4 1 1 
+$r3 1 -2 
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 referenceArea 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+15 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.needClip()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.negotiateBPDAdjustment(ILorg/apache/fop/layoutmgr/KnuthElement;)I
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-3 -1 1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.mustKeepWithPrevious()Z
+PTG:
+Vars:
+7
+r0 1 -1 
+$r2 1 4 
+$r6 1 23 
+$r5 1 20 
+$r3 1 7 
+$r4 1 17 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -1 
+16 1 -1 
+1 1 1 
+17 1 17 
+4 1 4 
+20 1 20 
+7 1 7 
+23 1 23 
+Constructors: 0
+
+Summary: 7
+7 -1 20 23 1 4 17 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.isFixed()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 abProps 1
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.updateRelDims(DDZ)V
+PTG:
+Vars:
+7
+r1 1 -1 
+$r6 1 52 
+$r4 1 36 
+$r5 1 43 
+$r0 1 0 
+$r3 1 22 
+$r7 1 55 
+Fields: 1
+-1 relDims 52
+Accesses: 4
+51 1 -1 
+58 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 8
+16 1 0 
+35 2 -1 52 
+36 1 36 
+52 2 0 52 
+6 2 -1 52 
+42 2 -1 52 
+43 1 43 
+28 1 22 
+Constructors: 2
+16 0
+28 22
+
+Summary: 4
+-1 36 43 0 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.isAbsoluteOrFixed()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+Fields: 1
+-1 abProps 1
+Accesses: 4
+0 1 -1 
+1 1 1 
+11 1 -1 
+12 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.mustKeepTogether()Z
+PTG:
+Vars:
+7
+$r4 1 24 
+$r3 1 14 
+$r6 1 30 
+$r5 1 27 
+$r1 1 8 
+$r2 1 11 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -1 
+7 1 -1 
+23 1 -1 
+8 1 8 
+24 1 24 
+11 1 11 
+27 1 27 
+14 1 14 
+30 1 30 
+Constructors: 0
+
+Summary: 7
+11 24 -1 27 8 14 30 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.getAbsOffset()Ljava/awt/Point;
+PTG:
+Vars:
+11
+$r8 1 5 
+$r4 1 39 
+r0 1 -1 
+$r9 1 8 
+$r3 1 5 
+$r2 1 8 
+_ret 1 66 
+$r6 1 5 
+$r5 1 66 
+$r7 1 39 
+$r1 1 5 
+Fields: 3
+-1 abProps 5
+5 left 8
+5 top 39
+Accesses: 8
+35 1 -1 
+4 1 -1 
+36 1 5 
+52 1 -1 
+5 1 5 
+21 1 -1 
+53 1 5 
+22 1 5 
+Functions: 5
+39 1 39 
+8 1 8 
+56 4 -1 5 39 8 
+72 1 66 
+25 4 -1 5 39 8 
+Constructors: 1
+72 66
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.getNextKnuthElementsAbsolute(Lorg/apache/fop/layoutmgr/LayoutContext;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+42
+$r17 1 580 
+$r10 1 439 
+$r32 1 108 
+_ret 1 540 
+$r35 1 68 
+$r50 1 557 
+$r26 1 68 
+$r48 1 557 
+$r47 1 540 
+$r25 1 319 
+$r41 1 234 
+$r34 1 71 
+$r24 1 68 
+$r1 1 6 
+$r33 1 68 
+$r8 1 234 
+r0 1 -1 
+$r38 1 95 
+$r31 1 258 
+$r23 1 284 
+$r28 1 68 
+$r27 1 319 
+$r5 1 71 
+r6 1 -2 
+$r30 1 255 
+$r3 1 32 
+$r45 1 434 
+$r18 1 609 
+$r19 1 620 
+$r36 1 71 
+r2 1 29 
+$r37 1 92 
+$r40 1 32 
+$r49 1 572 
+$r13 1 439 
+$r39 1 32 
+$r29 1 284 
+$r7 1 188 
+$r46 1 450 
+$r20 1 506 
+$r4 1 68 
+$r22 1 68 
+Fields: 7
+-1 width 234
+-1 abProps 68
+-1 relDims 439
+-1 height 32
+68 left 284
+68 right 319
+68 bottom 71
+Accesses: 37
+2 1 -1 
+130 1 -1 
+67 1 -1 
+131 1 68 
+68 1 68 
+206 1 -1 
+334 1 -1 
+335 1 68 
+591 1 -1 
+465 1 -1 
+530 1 -1 
+212 1 -1 
+149 1 -1 
+150 1 68 
+280 1 -1 
+281 1 68 
+410 1 -1 
+476 1 -1 
+477 1 439 
+31 1 -1 
+483 1 -1 
+233 1 -1 
+299 1 -1 
+427 1 -1 
+108 1 108 
+300 1 68 
+45 1 -1 
+497 1 -1 
+438 1 -1 
+375 1 -1 
+439 1 439 
+122 1 29 
+506 1 506 
+315 1 -1 
+188 1 188 
+316 1 68 
+381 1 -1 
+Functions: 50
+258 1 258 
+5 8 -1 32 68 439 71 234 284 319 
+6 1 6 
+134 1 71 
+521 8 -1 32 68 439 71 234 284 319 
+395 8 -1 32 68 439 71 234 284 319 
+270 1 -2 
+405 8 -1 32 68 439 71 234 284 319 
+25 8 -1 32 68 439 71 234 284 319 
+153 8 -1 32 68 71 439 234 284 319 
+537 8 -1 32 68 439 71 234 284 319 
+284 1 284 
+32 1 32 
+416 8 -1 32 68 439 71 234 284 319 
+544 1 540 
+421 8 -1 32 68 439 71 234 284 319 
+549 1 450 
+46 1 32 
+303 8 -1 32 68 439 71 234 284 319 
+431 8 -1 32 68 439 71 234 284 319 
+565 10 -1 32 450 68 439 71 234 284 557 319 
+57 8 -1 32 68 439 71 234 284 319 
+187 1 -2 
+445 1 434 
+319 1 319 
+577 9 -1 32 68 439 71 234 284 557 319 
+71 1 71 
+584 2 580 572 
+458 10 -1 32 450 434 68 439 71 234 284 319 
+587 2 540 572 
+338 8 -1 32 68 439 71 234 284 319 
+84 8 -1 32 68 439 71 234 284 319 
+213 8 32 -1 68 439 71 234 284 319 
+91 8 -1 32 68 439 71 234 284 319 
+92 1 92 
+95 1 95 
+226 8 -1 32 68 439 71 234 284 319 
+614 1 609 
+487 1 450 
+234 1 234 
+490 1 450 
+107 1 -2 
+619 8 -1 32 68 439 71 234 284 319 
+620 1 620 
+247 8 -1 32 68 439 71 234 284 319 
+504 1 450 
+633 8 -1 32 68 439 71 234 284 319 
+254 8 -1 32 68 439 71 234 284 319 
+382 8 -1 32 68 439 71 234 284 319 
+255 1 255 
+Constructors: 5
+544 540
+565 557
+584 572
+458 450
+445 434
+
+Summary: 17
+255 29 258 450 557 580 95 108 434 620 -2 506 92 188 0 572 6 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.addAreas(Lorg/apache/fop/layoutmgr/PositionIterator;Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+58
+$r12 1 742 
+$r41 1 384 
+$r19 1 335 
+r0 1 -1 
+$r20 1 335 
+$r27 1 442 
+$r11 1 730 
+r52 2 426 256 
+r47 1 101 
+$r17 1 777 
+$r48 1 225 
+$r29 1 450 
+$r21 1 348 
+$r28 1 447 
+r42 1 384 
+$r2 1 34 
+r57 2 629 304 
+$r22 1 348 
+$r40 1 504 
+$r10 1 706 
+$r23 1 360 
+$r8 1 266 
+$r31 1 460 
+r6 1 -2 
+$r37 1 496 
+$r44 1 304 
+$r26 1 579 
+$r7 1 262 
+$r63 1 685 
+r1 1 -3 
+$r4 1 72 
+$r60 1 648 
+$r46 1 101 
+$r15 1 771 
+$r34 1 475 
+r56 2 150 101 
+$r45 1 310 
+$r38 1 504 
+$r9 1 269 
+$r30 1 453 
+r55 1 101 
+$r59 1 629 
+$r32 1 467 
+r54 1 101 
+$r39 1 496 
+r53 1 101 
+$r51 1 15 
+$r18 1 321 
+$r35 1 478 
+$r36 1 485 
+r24 1 368 
+$r13 1 738 
+$r33 1 472 
+$r16 1 771 
+$r25 1 608 
+$r50 1 101 
+$r43 1 396 
+$r14 1 767 
+Fields: 10
+450 spaceBefore 453
+-1 foBlockSpaceAfter 608
+-1 foBlockSpaceAfter 504
+-1 storedList 360
+-1 foBlockSpaceBefore 496
+-1 foBlockSpaceBefore 579
+-1 effSpaceBefore 738
+-1 viewportBlockArea 730
+-1 effSpaceAfter 742
+475 spaceAfter 478
+Accesses: 32
+450 1 450 
+514 1 -1 
+578 1 -1 
+579 1 579 
+524 1 -1 
+589 1 -1 
+463 1 -1 
+531 1 -1 
+532 1 496 
+597 1 -1 
+729 1 -1 
+475 1 475 
+539 1 -1 
+540 1 504 
+607 1 -1 
+608 1 608 
+737 1 -1 
+741 1 -1 
+550 1 -1 
+359 1 -1 
+488 1 -1 
+297 1 -1 
+618 1 -1 
+558 1 -1 
+495 1 -1 
+496 1 496 
+626 1 -1 
+754 1 -1 
+563 1 -1 
+503 1 -1 
+759 1 -1 
+504 1 504 
+Functions: 75
+641 2 321 629 
+2 9 -1 608 496 738 579 742 504 360 730 
+770 9 -1 608 496 738 579 742 504 360 730 
+261 9 -1 608 496 738 579 742 504 360 730 
+6 1 -3 
+646 2 304 629 
+774 1 771 
+265 9 -1 608 496 738 579 742 504 360 730 
+266 1 266 
+394 1 384 
+780 2 777 767 
+144 1 101 
+272 2 262 269 
+528 9 -1 608 496 738 579 742 504 360 730 
+19 1 -3 
+277 10 -1 608 496 738 579 101 742 504 360 730 
+661 1 -3 
+23 1 15 
+407 2 384 321 
+26 10 -1 608 496 738 579 742 504 360 730 15 
+283 10 -1 608 496 738 579 101 742 504 360 730 
+413 1 384 
+289 9 -1 608 496 738 579 742 504 360 730 
+421 1 384 
+39 1 34 
+679 1 34 
+171 0 
+684 1 -3 
+46 1 -3 
+688 2 34 685 
+50 1 34 
+308 1 72 
+53 1 -3 
+696 4 304 34 629 648 
+313 2 304 310 
+442 1 442 
+62 1 -3 
+446 9 -1 608 496 738 579 742 504 360 730 
+447 1 447 
+575 9 -1 608 496 738 579 742 504 360 730 
+704 1 101 
+66 1 34 
+325 1 321 
+709 1 706 
+198 1 72 
+457 11 -1 608 496 738 579 453 742 504 360 442 730 
+714 10 -1 608 496 738 579 101 742 504 360 730 
+76 1 72 
+333 1 72 
+720 10 -1 608 496 738 579 101 742 504 360 730 
+338 1 335 
+467 1 467 
+726 9 -1 608 496 738 579 742 504 360 730 
+471 9 -1 608 496 738 579 742 504 360 730 
+472 1 472 
+346 1 72 
+604 9 -1 608 496 738 579 742 504 360 730 
+93 1 -2 
+733 1 -3 
+223 2 101 150 
+351 1 348 
+482 11 -1 608 496 738 467 579 742 504 360 730 478 
+100 1 -2 
+360 1 360 
+745 3 738 742 730 
+492 9 -1 608 496 738 579 742 504 360 730 
+109 1 101 
+749 9 -1 608 496 738 579 742 504 360 730 
+370 1 368 
+247 3 101 150 72 
+251 2 101 150 
+763 9 -1 608 496 738 579 742 504 360 730 
+636 1 321 
+382 1 368 
+766 9 -1 608 496 738 579 742 504 360 730 
+Constructors: 8
+641 629
+482 467
+325 321
+23 15
+39 34
+313 304
+457 442
+76 72
+
+Summary: 37
+478 -3 426 447 348 706 384 685 15 304 225 34 101 467 72 266 256 150 771 475 262 310 450 777 321 629 767 335 442 368 396 269 -2 453 0 1 472 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.getRotatedIPD()I
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r3 1 8 
+$r2 1 4 
+$r4 1 11 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -1 
+1 1 1 
+4 2 -1 4 
+8 1 8 
+11 2 -1 11 
+Constructors: 0
+
+Summary: 5
+11 -1 8 1 4 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.discardSpace(Lorg/apache/fop/layoutmgr/KnuthGlue;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.mustKeepWithNext()Z
+PTG:
+Vars:
+7
+$r2 1 4 
+$r1 1 1 
+$r6 1 23 
+$r5 1 20 
+$r4 1 17 
+r0 1 -1 
+$r3 1 7 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -1 
+16 1 -1 
+1 1 1 
+17 1 17 
+4 1 4 
+20 1 20 
+7 1 7 
+23 1 23 
+Constructors: 0
+
+Summary: 7
+7 -1 20 23 1 4 17 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.resetSpaces()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 6
+17 1 -1 
+2 1 -1 
+22 1 -1 
+7 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.notifyPadding(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+13
+$r12 1 24 
+$r1 1 38 
+$r8 1 62 
+r3 1 -1 
+r6 1 -2 
+$r4 1 46 
+r0 1 -3 
+$r9 1 66 
+$r11 1 4 
+$r2 1 35 
+$r7 1 56 
+$r5 1 52 
+$r10 1 69 
+Fields: 0
+Accesses: 2
+21 1 -1 
+13 1 -1 
+Functions: 9
+66 1 66 
+52 2 -2 52 
+38 2 -1 38 
+24 1 24 
+56 1 56 
+72 2 35 69 
+42 1 38 
+46 1 46 
+62 2 -3 62 
+Constructors: 1
+42 38
+
+Summary: 7
+-3 -1 -2 0 69 1 66 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.getBlockContainerFO()Lorg/apache/fop/fo/flow/BlockContainer;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 fobj 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.getParentArea(Lorg/apache/fop/area/Area;)Lorg/apache/fop/area/Area;
+PTG:
+Vars:
+50
+$r45 1 1 
+$r11 1 57 
+$r14 1 57 
+$r7 1 122 
+_ret 1 1 
+$r48 1 57 
+$r43 1 224 
+$r17 1 206 
+$r24 1 224 
+$r1 1 1 
+$r4 1 57 
+$r16 1 186 
+$r9 1 133 
+$r47 1 375 
+$r34 1 63 
+$r13 1 161 
+$r19 1 57 
+$r29 1 57 
+$r26 1 57 
+$r32 1 57 
+r21 1 250 
+$r3 1 57 
+r0 1 -1 
+$r8 1 57 
+$r42 1 308 
+$r31 1 45 
+$r22 1 57 
+$r49 1 1 
+$r23 1 57 
+$r36 1 277 
+$r46 1 1 
+$r2 1 8 
+$r41 1 305 
+$r37 1 1 
+$r28 1 224 
+$r27 1 57 
+$r35 1 57 
+$r20 1 224 
+$r33 1 60 
+$r10 1 136 
+$r6 1 119 
+$r39 1 294 
+$r40 1 1 
+$r38 1 291 
+$r12 1 158 
+$r15 1 183 
+r30 1 -2 
+$r5 1 57 
+$r18 1 57 
+$r44 1 357 
+Fields: 6
+-1 absoluteCTM 206
+-1 abProps 224
+-1 parentLM 357
+-1 referenceArea 1
+-1 relDims 375
+-1 viewportBlockArea 57
+Accesses: 46
+0 1 -1 
+128 1 -1 
+256 1 250 
+193 1 -1 
+385 1 -1 
+69 1 -1 
+325 1 -1 
+264 1 -1 
+392 1 -1 
+201 1 -1 
+139 1 -1 
+268 1 250 
+205 1 -1 
+143 1 -1 
+336 1 -1 
+337 1 224 
+84 1 -1 
+212 1 -1 
+153 1 -1 
+27 1 -1 
+284 1 -1 
+348 1 -1 
+95 1 -1 
+223 1 -1 
+287 1 -1 
+224 1 224 
+99 1 -1 
+164 1 -1 
+356 1 -1 
+168 1 -1 
+360 1 -1 
+234 1 -1 
+107 1 -1 
+235 1 224 
+300 1 -1 
+114 1 -1 
+178 1 -1 
+370 1 -1 
+53 1 -1 
+374 1 -1 
+375 1 375 
+56 1 -1 
+314 1 -1 
+315 1 224 
+252 1 -1 
+189 1 -1 
+Functions: 37
+66 3 57 60 63 
+132 7 -1 224 1 357 375 57 206 
+133 1 133 
+261 1 57 
+389 7 -1 224 1 357 375 57 206 
+198 8 -1 224 1 357 375 57 186 206 
+7 7 -1 224 1 357 375 57 206 
+8 1 8 
+73 7 -1 224 1 357 375 57 206 
+330 1 57 
+77 1 57 
+209 2 57 206 
+273 1 57 
+150 8 -1 224 1 357 375 136 57 206 
+216 7 -1 224 1 357 375 57 206 
+89 1 57 
+281 1 277 
+220 1 57 
+157 7 -1 224 1 357 375 57 206 
+158 1 158 
+353 1 57 
+103 1 57 
+297 3 1 291 294 
+364 2 1 357 
+111 7 -1 224 1 357 375 57 206 
+175 8 -1 224 161 1 357 375 57 206 
+304 7 -1 224 1 357 375 57 206 
+305 1 305 
+50 1 45 
+118 7 -1 224 1 357 375 57 206 
+182 7 -1 224 1 357 375 57 206 
+246 7 -1 224 1 357 375 57 206 
+119 1 119 
+183 1 183 
+311 2 1 308 
+125 2 57 122 
+381 1 1 
+Constructors: 2
+50 45
+281 277
+
+Summary: 15
+133 250 161 8 158 119 186 -1 308 305 -2 183 122 0 136 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.getGeneratesBlockArea()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.<clinit>()V
+PTG:
+Vars:
+3
+$r2 2 9 19 
+$r0 1 0 
+$r1 1 22 
+Fields: 0
+Accesses: 0
+Functions: 2
+19 2 19 9 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/layoutmgr/BlockContainerLayoutManager.<init>(Lorg/apache/fop/fo/flow/BlockContainer;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+7 1 -1 
+12 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 3
+-2 -1 0 

@@ -1,0 +1,582 @@
+24
+sun/nio/cs/StreamEncoder.isOpen()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/cs/StreamEncoder.<init>(Ljava/io/OutputStream;Ljava/lang/Object;Ljava/nio/charset/CharsetEncoder;)V
+PTG:
+Vars:
+7
+$r6 1 54 
+$r5 1 44 
+$r4 1 32 
+r0 1 -1 
+r1 1 -3 
+r2 1 -2 
+r3 1 -4 
+Fields: 1
+-1 ch 44
+Accesses: 9
+17 1 -1 
+35 1 -1 
+22 1 -1 
+7 1 -1 
+40 1 -1 
+57 1 -1 
+27 1 -1 
+43 1 -1 
+12 1 -1 
+Functions: 3
+2 3 -1 -3 44 
+51 0 
+31 1 -4 
+Constructors: 1
+2 -1
+
+Summary: 5
+1 2 -3 0 -1 
+sun/nio/cs/StreamEncoder.encodingName()Ljava/lang/String;
+PTG:
+Vars:
+7
+$r4 1 1 
+_ret 2 29 17 
+$r2 1 1 
+$r3 1 1 
+$r1 1 1 
+$r5 2 29 17 
+r0 1 -1 
+Fields: 1
+-1 cs 1
+Accesses: 3
+0 1 -1 
+25 1 -1 
+10 1 -1 
+Functions: 2
+26 1 1 
+14 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/cs/StreamEncoder.forEncoder(Ljava/nio/channels/WritableByteChannel;Ljava/nio/charset/CharsetEncoder;I)Lsun/nio/cs/StreamEncoder;
+PTG:
+Vars:
+4
+r2 1 -3 
+$r0 1 0 
+_ret 1 0 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 3 0 -2 -3 
+Constructors: 1
+7 0
+
+Summary: 2
+-3 -2 
+sun/nio/cs/StreamEncoder.write([CII)V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r3 1 -2 
+Fields: 1
+-1 lock 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+9 2 -1 1 
+44 0 
+60 3 -1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+sun/nio/cs/StreamEncoder.getEncoding()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+7 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/cs/StreamEncoder.<init>(Ljava/nio/channels/WritableByteChannel;Ljava/nio/charset/CharsetEncoder;I)V
+PTG:
+Vars:
+5
+r1 1 -2 
+r2 1 -3 
+$r3 1 31 
+$r4 1 54 
+r0 1 -1 
+Fields: 0
+Accesses: 8
+16 1 -1 
+34 1 -1 
+21 1 -1 
+6 1 -1 
+39 1 -1 
+57 1 -1 
+26 1 -1 
+11 1 -1 
+Functions: 3
+1 1 -1 
+53 0 
+30 1 -3 
+Constructors: 1
+1 -1
+
+Summary: 2
+1 0 
+sun/nio/cs/StreamEncoder.<init>(Ljava/io/OutputStream;Ljava/lang/Object;Ljava/nio/charset/Charset;)V
+PTG:
+Vars:
+9
+r0 1 -1 
+r3 1 -4 
+$r6 1 10 
+r1 1 -2 
+r2 1 -3 
+$r4 1 4 
+$r8 1 16 
+$r5 1 7 
+$r7 1 13 
+Fields: 0
+Accesses: 0
+Functions: 4
+3 1 -4 
+19 4 -1 16 -2 -3 
+4 2 4 7 
+10 2 10 13 
+Constructors: 1
+19 -1
+
+Summary: 7
+1 2 -3 -4 -2 0 -1 
+sun/nio/cs/StreamEncoder.flushBuffer()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 lock 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+7 2 -1 1 
+27 0 
+15 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/cs/StreamEncoder.forOutputStreamWriter(Ljava/io/OutputStream;Ljava/lang/Object;Ljava/nio/charset/Charset;)Lsun/nio/cs/StreamEncoder;
+PTG:
+Vars:
+5
+r3 1 -4 
+_ret 1 0 
+r2 1 -3 
+r1 1 -2 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 4 0 -2 -3 -4 
+Constructors: 1
+7 0
+
+Summary: 6
+1 2 -3 -4 -2 0 
+sun/nio/cs/StreamEncoder.forOutputStreamWriter(Ljava/io/OutputStream;Ljava/lang/Object;Ljava/lang/String;)Lsun/nio/cs/StreamEncoder;
+PTG:
+Vars:
+9
+r9 2 -4 12 
+r4 1 -3 
+$r7 1 -1 
+$r1 1 39 
+$r2 1 20 
+r3 1 -2 
+$r5 1 27 
+$r6 1 6 
+r0 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 6
+-1 0 
+6 1 6 
+26 2 -4 12 
+44 3 -4 39 12 
+13 2 -4 12 
+30 4 -2 -3 20 27 
+Constructors: 2
+44 39
+30 20
+
+Summary: 6
+2 1 -3 -4 -2 0 
+sun/nio/cs/StreamEncoder.flush()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 lock 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+8 2 -1 1 
+12 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/cs/StreamEncoder.implClose()V
+PTG:
+Vars:
+9
+$r10 1 7 
+r12 1 17 
+$r4 1 88 
+$r3 1 11 
+$r6 1 88 
+r0 1 -1 
+$r11 1 11 
+$r1 1 11 
+$r5 1 107 
+Fields: 4
+-1 bb 11
+-1 ch 88
+-1 encoder 7
+-1 out 107
+Accesses: 8
+117 1 -1 
+6 1 -1 
+87 1 -1 
+41 1 -1 
+73 1 -1 
+10 1 -1 
+106 1 -1 
+94 1 -1 
+Functions: 13
+98 1 88 
+3 5 -1 7 88 11 107 
+67 1 17 
+7 2 7 11 
+42 1 11 
+74 1 11 
+110 1 107 
+18 1 17 
+84 5 -1 7 88 11 107 
+55 0 
+121 0 
+28 1 17 
+60 5 -1 7 88 11 107 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/cs/StreamEncoder.writeBytes()V
+PTG:
+Vars:
+12
+$r4 1 1 
+$r9 1 107 
+$r8 1 100 
+$r10 1 1 
+$r3 1 1 
+r0 1 -1 
+$r7 1 1 
+$r11 1 1 
+$r12 1 61 
+$r1 1 1 
+$r6 1 61 
+$r15 1 1 
+Fields: 3
+-1 bb 1
+-1 ch 61
+-1 out 100
+Accesses: 10
+0 1 -1 
+16 1 -1 
+67 1 -1 
+99 1 -1 
+71 1 -1 
+103 1 -1 
+8 1 -1 
+123 1 -1 
+60 1 -1 
+110 1 -1 
+Functions: 10
+17 1 1 
+4 1 1 
+68 2 1 61 
+39 0 
+104 1 1 
+120 2 100 107 
+9 1 1 
+95 0 
+111 1 1 
+127 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/cs/StreamEncoder.ensureOpen()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+13 0 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/cs/StreamEncoder.implWrite([CII)V
+PTG:
+Vars:
+7
+$r6 1 37 
+r0 1 -2 
+$r3 1 37 
+r5 1 44 
+r1 1 6 
+r2 1 -1 
+$r4 1 31 
+Fields: 2
+-1 bb 37
+-1 encoder 31
+Accesses: 6
+36 1 -1 
+102 1 -1 
+8 1 -1 
+122 1 -1 
+93 1 -1 
+30 1 -1 
+Functions: 15
+97 1 6 
+2 1 -2 
+136 0 
+73 1 6 
+108 1 44 
+141 3 -1 37 31 
+46 1 44 
+78 0 
+82 1 6 
+19 4 -1 37 6 31 
+149 1 44 
+22 1 6 
+123 1 37 
+60 1 6 
+31 3 37 6 31 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+sun/nio/cs/StreamEncoder.close()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 lock 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+23 1 -1 
+Functions: 1
+18 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/cs/StreamEncoder.write(Ljava/lang/String;II)V
+PTG:
+Vars:
+3
+r0 1 13 
+r2 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+33 2 -1 13 
+8 0 
+25 2 -2 13 
+Constructors: 0
+
+Summary: 4
+-2 13 0 -1 
+sun/nio/cs/StreamEncoder.forOutputStreamWriter(Ljava/io/OutputStream;Ljava/lang/Object;Ljava/nio/charset/CharsetEncoder;)Lsun/nio/cs/StreamEncoder;
+PTG:
+Vars:
+5
+$r0 1 0 
+_ret 1 0 
+r3 1 -4 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 4 0 -2 -3 -4 
+Constructors: 1
+7 0
+
+Summary: 3
+-3 -4 -2 
+sun/nio/cs/StreamEncoder.flushLeftoverChar(Ljava/nio/CharBuffer;Z)V
+PTG:
+Vars:
+15
+r9 1 118 
+$r2 1 13 
+$r10 1 111 
+$r18 1 21 
+$r6 1 111 
+$r1 1 13 
+$r20 1 13 
+r0 1 -1 
+$r19 1 13 
+$r16 1 13 
+$r14 1 13 
+r4 1 -2 
+$r7 1 13 
+$r12 1 13 
+$r8 1 103 
+Fields: 3
+-1 bb 111
+-1 encoder 103
+-1 lcb 13
+Accesses: 18
+0 1 -1 
+68 1 -1 
+38 1 -1 
+102 1 -1 
+137 1 -1 
+106 1 -1 
+12 1 -1 
+45 1 -1 
+110 1 -1 
+80 1 -1 
+144 1 -1 
+49 1 -1 
+178 1 -1 
+212 1 -1 
+24 1 -1 
+88 1 -1 
+30 1 -1 
+126 1 -1 
+Functions: 19
+192 0 
+161 5 -1 -2 103 13 111 
+34 1 13 
+165 1 118 
+197 4 -1 103 13 111 
+103 3 103 13 111 
+72 1 -2 
+138 0 
+76 1 13 
+204 1 118 
+179 1 111 
+20 0 
+84 1 13 
+53 1 13 
+119 1 118 
+151 1 -2 
+89 1 13 
+61 1 -2 
+127 1 13 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+sun/nio/cs/StreamEncoder.implFlushBuffer()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 bb 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 1 1 
+11 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/cs/StreamEncoder.write(I)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+13 2 -1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+sun/nio/cs/StreamEncoder.implFlush()V
+PTG:
+Vars:
+3
+$r2 1 5 
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 out 5
+Accesses: 2
+4 1 -1 
+11 1 -1 
+Functions: 2
+1 2 -1 5 
+15 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/cs/StreamEncoder.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 0 
+Constructors: 0
+
+Summary: 0
+

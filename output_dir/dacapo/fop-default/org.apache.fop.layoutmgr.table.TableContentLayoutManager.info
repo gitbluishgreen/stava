@@ -1,0 +1,739 @@
+20
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.getFooterNetHeight()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.getFooterElements()Ljava/util/LinkedList;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 footerList 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.getXOffsetOfGridUnit(Lorg/apache/fop/fo/flow/table/PrimaryGridUnit;)I
+PTG:
+Vars:
+5
+$r2 1 10 
+r0 1 -2 
+$r4 1 20 
+r1 1 -1 
+$r3 1 13 
+Fields: 0
+Accesses: 1
+5 1 -1 
+Functions: 5
+0 1 -2 
+19 1 -1 
+9 1 -1 
+10 1 10 
+13 2 20 13 
+Constructors: 0
+
+Summary: 6
+-2 0 10 20 13 -1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.getBaseLength(ILorg/apache/fop/fo/FObj;)I
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -3 
+r0 1 -1 
+Fields: 1
+-1 tableLM 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -3 
+Constructors: 0
+
+Summary: 3
+1 -3 -1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.getUsedBPD()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.getColumns()Lorg/apache/fop/layoutmgr/table/ColumnSetup;
+PTG:
+Vars:
+4
+$r2 1 4 
+$r1 1 1 
+r0 1 -1 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.<init>(Lorg/apache/fop/layoutmgr/table/TableLayoutManager;)V
+PTG:
+Vars:
+10
+$r7 1 81 
+r0 1 -1 
+r1 1 -2 
+r3 1 26 
+$r6 1 61 
+$r8 1 68 
+$r2 1 20 
+$r9 1 48 
+$r5 1 41 
+$r4 1 28 
+Fields: 0
+Accesses: 7
+16 1 -1 
+37 1 -1 
+6 1 -1 
+57 1 -1 
+89 1 -1 
+11 1 -1 
+77 1 -1 
+Functions: 9
+1 1 -1 
+34 2 26 28 
+19 1 -1 
+20 1 20 
+54 2 48 26 
+86 2 -1 81 
+40 1 26 
+74 2 68 26 
+60 1 26 
+Constructors: 5
+1 -1
+34 28
+54 48
+86 81
+74 68
+
+Summary: 6
+0 61 20 26 41 -1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.addAreas(Lorg/apache/fop/layoutmgr/PositionIterator;Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+43
+$r12 1 335 
+r40 2 71 47 
+$r30 1 181 
+$r11 1 455 
+$r35 1 212 
+$r27 1 250 
+r47 1 288 
+r2 1 -3 
+r36 2 71 47 
+$r23 1 299 
+r0 1 -1 
+$r25 1 315 
+$r8 1 436 
+$r9 1 439 
+$r20 1 338 
+$r4 1 15 
+$r26 1 238 
+$r31 1 195 
+$r19 1 335 
+$r45 1 279 
+$r29 1 47 
+$r32 1 192 
+$r22 1 296 
+r6 1 -2 
+r39 4 276 265 144 134 
+$r24 1 306 
+r42 2 71 47 
+$r14 1 409 
+$r18 1 359 
+$r33 1 204 
+$r28 1 265 
+$r1 1 5 
+r38 4 261 144 250 134 
+$r46 1 282 
+$r37 1 47 
+$r13 1 406 
+$r21 1 341 
+r43 2 71 47 
+$r34 1 209 
+r44 2 71 47 
+$r10 1 446 
+r41 2 71 47 
+$r7 1 375 
+Fields: 9
+71 nestedElements 144
+71 nestedElements 134
+71 headerElements 250
+71 footerElements 265
+47 nestedElements 144
+47 nestedElements 134
+47 headerElements 250
+47 footerElements 265
+-1 tableLM 335
+Accesses: 12
+256 2 71 47 
+129 2 71 47 
+417 1 -1 
+2 1 -1 
+402 1 -1 
+263 2 71 47 
+248 2 71 47 
+121 2 71 47 
+139 2 71 47 
+427 1 -1 
+334 1 -1 
+271 2 71 47 
+Functions: 42
+65 5 144 134 265 250 47 
+195 1 195 
+323 2 288 299 
+454 2 -1 335 
+199 1 195 
+391 4 -1 5 375 335 
+455 7 144 134 455 71 265 250 47 
+11 4 -1 -3 5 335 
+204 7 144 134 71 265 250 204 47 
+335 1 335 
+463 2 288 439 
+209 1 209 
+338 1 338 
+19 1 15 
+403 1 335 
+278 2 -1 335 
+406 1 406 
+215 2 192 212 
+279 1 279 
+282 1 282 
+346 8 -1 144 261 341 5 134 250 335 
+349 1 15 
+94 6 144 134 71 265 250 47 
+414 8 -1 144 276 5 134 265 409 335 
+422 1 5 
+39 1 -2 
+295 2 -1 335 
+296 1 296 
+172 7 144 134 71 265 250 15 47 
+364 1 359 
+46 1 -2 
+305 2 -1 335 
+306 7 144 306 134 71 265 250 47 
+243 1 238 
+435 2 -1 335 
+436 1 436 
+181 1 181 
+373 1 15 
+314 2 -1 335 
+315 7 144 134 71 265 250 315 47 
+445 2 -1 335 
+446 7 144 134 71 265 250 446 47 
+Constructors: 3
+19 15
+199 195
+11 5
+
+Summary: 31
+15 -3 279 446 -2 265 144 212 288 250 439 341 409 47 5 455 0 282 1 71 -1 306 261 276 299 375 209 315 134 338 406 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.getHeaderNetHeight()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.getKnuthElementsForRowIterator(Lorg/apache/fop/layoutmgr/table/TableRowIterator;Lorg/apache/fop/layoutmgr/LayoutContext;II)Ljava/util/LinkedList;
+PTG:
+Vars:
+33
+$r12 1 57 
+r5 1 -1 
+r3 1 -3 
+$r11 1 51 
+$r15 1 123 
+$r8 1 381 
+$r35 1 416 
+$r9 1 331 
+_ret 1 0 
+r32 1 331 
+r23 1 13 
+$r4 1 311 
+$r14 1 118 
+$r22 1 169 
+r17 1 216 
+r28 1 146 
+$r0 1 0 
+$r6 1 375 
+r30 1 307 
+$r13 1 109 
+$r16 1 57 
+$r10 1 46 
+r19 1 220 
+r25 1 74 
+$r18 1 220 
+$r20 1 240 
+$r7 1 378 
+$r21 1 166 
+r31 1 311 
+$r34 1 413 
+r2 1 -2 
+r29 2 240 220 
+$r33 1 410 
+Fields: 2
+-1 stepper 57
+-1 tableLM 166
+Accesses: 3
+128 1 -1 
+165 1 -1 
+56 1 -1 
+Functions: 49
+4 1 0 
+132 4 118 57 123 109 
+264 2 240 220 
+9 1 -2 
+137 2 -3 118 
+271 2 240 220 
+19 1 -3 
+405 1 0 
+278 2 0 146 
+25 1 -3 
+153 1 -3 
+409 3 -1 166 57 
+282 1 -3 
+410 1 410 
+413 1 413 
+31 1 -3 
+288 1 -3 
+416 1 416 
+166 1 166 
+169 1 169 
+297 1 0 
+299 1 0 
+50 3 -1 166 57 
+309 1 307 
+440 1 0 
+185 1 -3 
+186 0 
+60 4 51 57 13 46 
+65 2 -3 46 
+329 1 307 
+76 1 -3 
+206 1 0 
+208 1 0 
+82 1 -3 
+88 1 -3 
+218 1 216 
+346 1 331 
+94 1 -3 
+354 1 307 
+104 2 0 74 
+108 1 -2 
+365 1 -3 
+238 1 216 
+371 1 -3 
+374 3 -1 166 57 
+375 1 375 
+122 3 -1 166 57 
+378 1 378 
+381 1 381 
+Constructors: 3
+4 0
+132 118
+60 46
+
+Summary: 26
+240 51 74 331 -3 118 -2 416 378 220 311 46 410 0 123 146 1 169 381 109 -1 216 307 375 413 13 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.setStartXOffset(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.addHeaderFooterAreas(Ljava/util/List;Lorg/apache/fop/fo/flow/table/TableBody;Lorg/apache/fop/layoutmgr/table/RowPainter;Z)V
+PTG:
+Vars:
+9
+$r3 1 15 
+$r10 1 37 
+r1 1 -2 
+$r8 1 37 
+r7 1 -3 
+r9 1 37 
+r5 1 -1 
+$r0 1 0 
+r6 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 7
+81 4 -1 0 -3 -4 
+35 1 15 
+4 1 -2 
+20 2 -2 15 
+25 1 15 
+10 1 0 
+62 2 0 37 
+Constructors: 2
+20 15
+10 0
+
+Summary: 10
+2 -2 0 -4 15 0 1 -3 37 -1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r4 1 6 
+r0 1 -2 
+$r2 1 -1 
+$r1 1 1 
+$r5 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.addTablePartAreas(Ljava/util/List;Lorg/apache/fop/layoutmgr/table/RowPainter;Lorg/apache/fop/fo/flow/table/TableBody;ZZZZ)V
+PTG:
+Vars:
+13
+$r9 1 63 
+$r10 1 67 
+r5 1 -3 
+r7 1 30 
+r0 1 -1 
+$r2 1 4 
+$r4 1 8 
+$r11 1 45 
+$r12 1 45 
+r3 1 -4 
+$r1 1 1 
+$r8 1 60 
+r6 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 14
+0 1 -1 
+32 1 30 
+1 1 1 
+66 1 -4 
+7 1 -4 
+43 1 30 
+75 2 67 63 
+16 2 4 8 
+83 1 -3 
+21 2 -3 -4 
+53 2 -3 45 
+24 1 -2 
+59 1 -1 
+60 1 60 
+Constructors: 0
+
+Summary: 12
+0 -4 63 1 67 -3 -1 45 2 -2 4 8 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.getNextKnuthElements(Lorg/apache/fop/layoutmgr/LayoutContext;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+60
+$r14 1 242 
+$r41 1 122 
+$r47 1 11 
+$r9 1 363 
+$r18 1 313 
+r3 1 -2 
+$r17 1 210 
+$r26 1 287 
+_ret 1 344 
+$r39 1 103 
+r1 1 -1 
+$r58 1 203 
+$r23 1 277 
+$r42 1 127 
+$r45 1 137 
+$r37 1 183 
+$r5 1 457 
+$r20 1 253 
+$r15 1 295 
+$r25 1 284 
+$r12 1 225 
+r55 1 313 
+$r27 1 60 
+r54 1 163 
+$r33 1 150 
+$r40 1 115 
+$r24 1 210 
+$r16 1 300 
+$r7 1 411 
+$r52 1 36 
+$r43 1 60 
+$r51 1 33 
+$r29 1 75 
+$r46 1 14 
+$r0 1 0 
+$r13 1 210 
+r62 1 344 
+$r31 1 92 
+$r49 1 27 
+$r6 1 411 
+$r38 1 106 
+$r21 1 265 
+$r35 1 163 
+$r32 1 145 
+$r4 1 457 
+$r48 1 23 
+$r50 1 30 
+$r10 1 210 
+$r2 1 53 
+$r61 1 335 
+$r30 1 60 
+$r19 1 256 
+$r28 1 53 
+$r34 1 60 
+$r36 1 180 
+$r22 1 272 
+$r11 1 203 
+r53 1 163 
+$r8 1 363 
+$r44 1 134 
+Fields: 5
+-1 footerIter 203
+-1 bodyIter 335
+-1 headerIter 53
+-1 footerList 210
+-1 headerList 60
+Accesses: 21
+130 1 -1 
+68 1 -1 
+228 1 -1 
+167 1 -1 
+232 1 -1 
+202 1 -1 
+268 1 -1 
+78 1 -1 
+334 1 -1 
+239 1 -1 
+304 1 -1 
+209 1 -1 
+82 1 -1 
+52 1 -1 
+118 1 -1 
+280 1 -1 
+89 1 -1 
+154 1 -1 
+218 1 -1 
+59 1 -1 
+317 1 -1 
+Functions: 52
+0 1 0 
+256 1 256 
+260 1 256 
+134 1 134 
+265 1 265 
+394 1 344 
+140 2 103 137 
+14 1 14 
+272 1 272 
+401 1 344 
+18 1 14 
+149 6 -1 210 53 203 60 335 
+277 2 210 277 
+23 2 23 30 
+409 1 344 
+26 6 -1 210 53 203 60 335 
+27 1 27 
+284 1 284 
+158 3 145 150 60 
+414 1 411 
+33 1 33 
+290 2 253 287 
+39 2 36 11 
+299 6 -1 210 53 203 60 335 
+174 2 145 163 
+432 2 163 344 
+179 6 -1 210 53 203 60 335 
+180 1 180 
+308 3 210 295 300 
+183 1 183 
+440 1 344 
+447 1 344 
+67 7 -1 -2 210 53 203 60 335 
+324 2 295 313 
+455 1 344 
+460 1 457 
+333 7 -1 -2 210 53 203 60 335 
+83 1 60 
+217 7 -1 -2 210 53 203 60 335 
+92 1 92 
+478 2 344 313 
+353 1 344 
+233 1 210 
+361 1 344 
+106 1 106 
+110 1 106 
+366 1 363 
+242 1 242 
+115 1 115 
+122 1 122 
+127 2 60 127 
+383 2 163 344 
+Constructors: 7
+18 14
+260 256
+308 295
+324 313
+110 106
+158 145
+174 163
+
+Summary: 22
+36 313 180 150 30 287 -2 363 295 145 137 183 0 411 33 163 457 -1 27 284 300 134 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.getTableLM()Lorg/apache/fop/layoutmgr/table/TableLayoutManager;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 tableLM 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.addBodyAreas(Ljava/util/Iterator;Lorg/apache/fop/layoutmgr/table/RowPainter;Z)V
+PTG:
+Vars:
+11
+$r4 1 14 
+r3 1 -2 
+r10 2 14 79 
+r5 1 -1 
+$r9 1 35 
+$r6 1 154 
+$r8 1 91 
+$r7 1 79 
+$r1 1 4 
+r11 2 57 128 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 20
+1 1 -3 
+33 2 14 79 
+35 1 35 
+69 1 -2 
+134 3 4 14 79 
+8 1 4 
+13 1 -2 
+78 1 -2 
+110 5 -1 128 -3 4 57 
+143 2 14 79 
+52 2 14 79 
+118 1 4 
+183 5 -1 128 -3 4 57 
+24 2 14 79 
+152 2 14 79 
+89 2 14 79 
+154 1 154 
+123 2 14 79 
+187 1 -3 
+63 3 4 14 79 
+Constructors: 1
+8 4
+
+Summary: 12
+0 4 14 154 1 -3 128 -1 79 57 91 35 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.getHeaderElements()Ljava/util/LinkedList;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 headerList 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.isSeparateBorderModel()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 4 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+1 1 1 
+4 1 4 
+Constructors: 0
+
+Summary: 3
+4 1 -1 
+org/apache/fop/layoutmgr/table/TableContentLayoutManager.<clinit>()V
+PTG:
+Vars:
+3
+$r0 1 0 
+$r1 1 21 
+$r2 2 8 18 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+

@@ -1,0 +1,1421 @@
+37
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.convertTypeNamesToSigs([[C)[Ljava/lang/String;
+PTG:
+Vars:
+7
+r2 1 24 
+r1 1 22 
+$r3 1 41 
+$r4 1 43 
+$r5 1 46 
+r0 1 -2 
+_ret 1 24 
+Fields: 1
+-2 ArrayObject 41
+Accesses: 0
+Functions: 3
+19 0 
+37 2 22 43 
+42 1 41 
+Constructors: 0
+
+Summary: 4
+-2 43 22 0 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.resolveDuplicates(Lorg/eclipse/jdt/internal/core/SourceRefElement;)V
+PTG:
+Vars:
+5
+$r3 1 1 
+r0 1 -1 
+$r4 1 1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 occurenceCounts 1
+Accesses: 4
+0 1 -1 
+42 1 -2 
+27 1 -1 
+14 1 -1 
+Functions: 3
+1 2 1 -2 
+20 2 1 -2 
+36 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.exitInitializer(I)V
+PTG:
+Vars:
+14
+$r16 1 35 
+r6 1 15 
+$r1 1 1 
+$r5 1 15 
+$r2 1 4 
+$r17 1 45 
+$r9 1 79 
+$r4 1 12 
+r7 1 27 
+$r15 2 35 45 
+r0 1 -1 
+$r11 1 1 
+r3 1 4 
+$r13 1 12 
+Fields: 3
+-1 newElements 79
+-1 infoStack 12
+-1 handleStack 1
+Accesses: 5
+0 1 -1 
+99 1 -1 
+11 1 -1 
+91 1 -1 
+78 1 -1 
+Functions: 11
+1 1 1 
+51 2 27 45 
+69 2 35 45 
+85 4 35 4 45 79 
+22 5 -1 1 12 79 15 
+39 1 35 
+103 1 12 
+75 2 35 45 
+12 1 12 
+61 2 35 45 
+95 1 1 
+Constructors: 2
+51 45
+39 35
+
+Summary: 6
+15 35 4 -1 27 45 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.<init>(Lorg/eclipse/jdt/core/ICompilationUnit;Lorg/eclipse/jdt/internal/core/CompilationUnitElementInfo;Ljava/util/Map;)V
+PTG:
+Vars:
+5
+r3 1 -4 
+$r4 1 35 
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 7
+16 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+42 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 2
+1 1 -1 
+39 1 35 
+Constructors: 2
+1 -1
+39 35
+
+Summary: 4
+2 0 -1 1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.getMemberValuePair(Lorg/eclipse/jdt/internal/compiler/ast/MemberValuePair;)Lorg/eclipse/jdt/core/IMemberValuePair;
+PTG:
+Vars:
+9
+r1 1 -2 
+$r9 1 0 
+$r8 1 28 
+$r10 1 12 
+$r7 1 25 
+$r2 1 5 
+r6 1 -1 
+_ret 1 12 
+$r11 1 12 
+Fields: 2
+-2 name 5
+-2 value 25
+Accesses: 3
+4 1 -2 
+24 1 -2 
+31 1 12 
+Functions: 3
+17 2 0 12 
+22 3 -1 25 12 
+8 2 0 5 
+Constructors: 2
+17 12
+8 0
+
+Summary: 5
+-2 25 5 -1 0 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.createMethodInfo(Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor$MethodInfo;Lorg/eclipse/jdt/internal/core/SourceMethod;)Lorg/eclipse/jdt/internal/core/SourceMethodElementInfo;
+PTG:
+Vars:
+33
+r1 1 -2 
+$r32 1 28 
+r30 1 380 
+$r35 1 75 
+r11 1 -3 
+$r14 1 293 
+r28 1 234 
+$r20 1 293 
+$r33 1 48 
+$r34 1 65 
+r4 1 134 
+$r31 1 18 
+r24 5 65 28 48 75 18 
+$r5 1 157 
+$r9 1 264 
+$r17 1 354 
+$r7 1 180 
+r3 1 128 
+r2 1 5 
+$r10 1 265 
+$r23 2 28 18 
+r29 1 319 
+$r21 2 313 293 
+$r6 1 158 
+r0 1 -1 
+$r25 2 65 75 
+$r12 1 280 
+$r15 1 340 
+$r16 1 340 
+$r26 2 180 187 
+$r18 2 340 374 
+_ret 5 65 28 48 75 18 
+$r8 1 224 
+Fields: 13
+313 ArrayObject 319
+-2 parameterNames 134
+-2 typeParameters 293
+-2 returnType 180
+-2 annotations 340
+-2 exceptionTypes 234
+340 ArrayObject 380
+134 ArrayObject 157
+293 ArrayObject 319
+-1 newElements 280
+-1 unitInfo 354
+374 ArrayObject 380
+234 ArrayObject 264
+Accesses: 20
+353 1 -1 
+130 1 -2 
+354 1 354 
+292 1 -2 
+6 1 -2 
+102 1 -2 
+230 1 -2 
+41 1 -2 
+364 1 354 
+302 1 -2 
+111 1 -2 
+179 1 -2 
+339 1 -2 
+212 1 -2 
+373 1 -2 
+87 1 -2 
+279 1 -1 
+312 1 -2 
+346 1 -2 
+94 1 -2 
+Functions: 20
+0 13 -1 -2 354 293 134 264 234 180 340 280 380 157 319 
+33 2 5 28 
+258 2 128 264 
+227 6 48 224 65 18 75 28 
+388 10 -1 48 65 354 18 -3 280 75 380 28 
+69 1 65 
+326 9 -1 48 65 354 18 280 75 28 319 
+106 5 48 65 18 75 28 
+80 2 5 75 
+176 7 48 65 18 134 75 28 157 
+240 7 48 65 18 264 234 75 28 
+115 5 48 65 18 75 28 
+52 1 48 
+22 1 18 
+151 2 128 157 
+122 5 48 65 18 75 28 
+91 5 48 65 18 75 28 
+220 3 128 180 187 
+125 0 
+286 7 48 65 -3 18 280 75 28 
+Constructors: 5
+80 75
+33 28
+52 48
+69 65
+22 18
+
+Summary: 14
+-3 340 187 1 180 134 224 -2 5 0 234 128 293 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.createTypeInfo(Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor$TypeInfo;Lorg/eclipse/jdt/internal/core/SourceType;)Lorg/eclipse/jdt/internal/core/SourceTypeElementInfo;
+PTG:
+Vars:
+35
+$r23 1 233 
+r33 1 299 
+$r16 1 291 
+$r19 1 319 
+$r15 1 281 
+$r13 1 219 
+$r26 1 173 
+$r36 1 18 
+r1 2 18 7 
+r32 1 259 
+$r29 2 18 7 
+$r12 1 173 
+$r8 1 154 
+r5 1 98 
+$r10 1 161 
+$r22 1 219 
+$r20 1 329 
+r3 1 66 
+$r27 2 193 173 
+$r18 1 319 
+$r17 1 306 
+$r6 1 130 
+r31 1 199 
+r2 1 -3 
+$r35 1 7 
+$r14 1 281 
+$r7 1 131 
+r4 1 72 
+r34 1 306 
+r0 1 -2 
+$r21 1 329 
+$r24 2 219 253 
+r9 1 -1 
+_ret 2 18 7 
+$r30 1 88 
+Fields: 13
+-2 annotations 219
+-2 typeParameters 173
+-2 categories 154
+-2 superinterfaces 98
+-2 childrenCategories 281
+-2 superclass 72
+219 ArrayObject 259
+193 ArrayObject 199
+98 ArrayObject 130
+173 ArrayObject 199
+-1 newElements 161
+-1 unitInfo 233
+253 ArrayObject 259
+Accesses: 20
+0 1 -2 
+32 1 -2 
+160 1 -1 
+192 1 -2 
+225 1 -2 
+68 1 -2 
+40 1 -2 
+232 1 -1 
+233 1 233 
+172 1 -2 
+48 1 -2 
+243 1 233 
+182 1 -2 
+56 1 -2 
+280 1 -2 
+153 1 -2 
+218 1 -2 
+252 1 -2 
+94 1 -2 
+287 1 -2 
+Functions: 23
+288 1 281 
+291 1 291 
+36 2 18 7 
+166 4 161 -3 18 7 
+327 1 306 
+266 7 -1 161 18 -3 259 7 233 
+12 4 -1 161 7 233 
+44 2 18 7 
+205 6 -1 161 18 199 7 233 
+304 1 299 
+337 4 18 7 329 319 
+52 2 18 7 
+84 2 66 72 
+148 4 18 98 130 7 
+340 1 299 
+22 1 18 
+91 3 18 7 88 
+28 3 18 -3 7 
+60 2 18 7 
+124 2 66 130 
+157 4 18 -3 7 154 
+317 1 306 
+63 0 
+Constructors: 2
+22 18
+12 7
+
+Summary: 17
+-3 173 319 1 219 291 72 -2 88 306 98 0 66 281 154 -1 329 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.createAnnotation(Lorg/eclipse/jdt/internal/core/JavaElement;Ljava/lang/String;)Lorg/eclipse/jdt/internal/core/Annotation;
+PTG:
+Vars:
+5
+r2 1 -3 
+r1 1 -2 
+r3 1 -1 
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -2 -3 
+Constructors: 1
+6 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.enterField(Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor$FieldInfo;)V
+PTG:
+Vars:
+13
+$r13 1 12 
+$r11 1 1 
+r0 1 -1 
+r7 1 -2 
+$r8 1 70 
+$r5 1 15 
+$r1 1 1 
+r3 1 4 
+r15 1 40 
+$r2 1 4 
+$r4 1 12 
+r6 1 15 
+$r9 1 64 
+Fields: 4
+-2 categories 70
+4 childrenCategories 64
+-1 infoStack 1
+-1 handleStack 12
+Accesses: 6
+0 1 -1 
+69 1 -2 
+86 1 -1 
+11 1 -1 
+77 1 -1 
+63 1 4 
+Functions: 10
+1 1 1 
+34 6 -1 1 -2 70 12 15 
+82 3 1 -2 70 
+53 4 -1 1 40 12 
+25 1 15 
+73 3 64 70 40 
+12 1 12 
+60 6 -1 64 1 4 40 12 
+92 2 40 12 
+46 0 
+Constructors: 0
+
+Summary: 8
+15 -2 4 70 0 40 -1 64 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.acceptImport(II[[CZI)V
+PTG:
+Vars:
+24
+r0 1 -1 
+$r17 1 44 
+$r20 1 34 
+$r7 1 101 
+r4 1 4 
+$r9 1 108 
+$r12 1 139 
+r25 1 68 
+$r21 1 89 
+$r2 1 4 
+$r19 1 62 
+$r15 1 81 
+r3 1 4 
+r11 1 131 
+r8 1 -4 
+r26 1 117 
+$r5 1 34 
+$r10 1 34 
+$r14 1 89 
+$r1 1 1 
+$r22 1 34 
+$r23 1 81 
+$r18 1 51 
+$r6 1 98 
+Fields: 5
+-1 importContainerInfo 89
+-1 newElements 81
+-1 infoStack 62
+-1 importContainer 34
+-1 handleStack 1
+Accesses: 12
+0 1 -1 
+80 1 -1 
+33 1 -1 
+177 1 -1 
+84 1 -1 
+88 1 -1 
+120 1 -1 
+168 1 -1 
+73 1 -1 
+58 1 -1 
+61 1 -1 
+47 1 -1 
+Functions: 20
+-1 0 
+1 1 1 
+98 2 98 101 
+164 1 139 
+136 7 -1 81 1 34 131 89 62 
+41 7 -1 81 1 34 4 89 62 
+106 1 -4 
+12 1 4 
+77 7 -1 81 1 34 68 89 62 
+174 7 -1 81 1 34 131 89 62 
+111 2 101 108 
+143 1 139 
+22 0 
+55 1 51 
+119 7 -1 81 1 34 117 89 62 
+151 1 139 
+185 3 81 131 139 
+92 3 81 34 89 
+157 1 139 
+62 1 62 
+Constructors: 3
+55 51
+111 101
+143 139
+
+Summary: 11
+139 4 98 108 117 -4 131 68 2 -1 101 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.acceptPackage(Lorg/eclipse/jdt/internal/compiler/ast/ImportReference;)V
+PTG:
+Vars:
+17
+$r11 1 120 
+$r4 1 12 
+r2 1 7 
+$r12 2 120 140 
+r17 1 55 
+r13 1 146 
+r0 1 -1 
+$r15 1 31 
+$r1 1 1 
+$r16 1 43 
+r18 1 39 
+$r8 1 106 
+$r6 1 71 
+$r3 1 9 
+r5 1 12 
+r7 1 -2 
+$r10 1 120 
+Fields: 6
+-2 annotations 120
+-1 newElements 106
+-1 infoStack 1
+-1 handleStack 9
+120 ArrayObject 146
+140 ArrayObject 146
+Accesses: 8
+0 1 -1 
+129 1 -2 
+82 1 -2 
+119 1 -2 
+8 1 -1 
+105 1 -1 
+91 1 -2 
+139 1 -2 
+Functions: 15
+1 1 1 
+34 1 31 
+68 5 -1 1 55 9 106 
+102 6 -1 1 7 55 9 106 
+9 1 9 
+41 6 -1 1 9 106 43 12 
+75 1 71 
+49 2 39 43 
+113 3 55 71 106 
+22 1 12 
+86 1 71 
+155 7 -1 1 146 71 55 9 106 
+61 0 
+30 3 -2 146 120 
+95 1 71 
+Constructors: 2
+49 43
+75 71
+
+Summary: 11
+-2 7 12 39 0 120 43 55 71 31 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.createPackageDeclaration(Lorg/eclipse/jdt/internal/core/JavaElement;Ljava/lang/String;)Lorg/eclipse/jdt/internal/core/PackageDeclaration;
+PTG:
+Vars:
+6
+r2 1 -3 
+r4 1 -1 
+$r3 1 -2 
+_ret 1 0 
+$r0 1 0 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+9 3 0 -2 -3 
+Constructors: 1
+9 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.acceptAnnotation(Lorg/eclipse/jdt/internal/compiler/ast/Annotation;Lorg/eclipse/jdt/internal/core/AnnotatableInfo;Lorg/eclipse/jdt/internal/core/JavaElement;)Lorg/eclipse/jdt/core/IAnnotation;
+PTG:
+Vars:
+21
+$r13 1 60 
+r6 1 -1 
+$r22 1 162 
+r17 1 106 
+$r23 1 120 
+r7 1 -4 
+r24 1 148 
+r1 1 -2 
+$r0 1 0 
+r19 1 -3 
+$r2 1 5 
+$r3 1 8 
+$r4 1 13 
+$r20 1 60 
+$r9 1 36 
+$r15 1 5 
+$r16 1 5 
+$r18 1 134 
+r8 1 28 
+$r11 1 46 
+_ret 1 28 
+Fields: 4
+-3 annotations 148
+-2 type 5
+-1 newElements 46
+-1 handleStack 60
+Accesses: 13
+99 1 36 
+4 1 -2 
+196 1 -1 
+137 1 36 
+45 1 -1 
+80 1 -2 
+144 1 -3 
+87 1 36 
+184 1 -3 
+59 1 -1 
+123 1 36 
+92 1 -2 
+189 1 -2 
+Functions: 17
+33 4 -1 60 28 46 
+65 2 60 28 
+193 1 36 
+131 4 -1 106 60 46 
+5 1 5 
+102 2 -2 5 
+71 2 -2 5 
+40 1 36 
+200 1 60 
+11 1 8 
+75 1 36 
+171 2 162 148 
+16 2 0 13 
+81 1 5 
+21 5 -1 0 -4 60 46 
+53 3 36 28 46 
+93 1 5 
+Constructors: 2
+16 0
+40 36
+
+Summary: 13
+106 -3 -2 5 0 -4 0 8 1 2 13 36 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.getChildren(Ljava/lang/Object;)[Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+7
+r0 1 -1 
+r4 1 5 
+r1 1 -2 
+$r2 1 1 
+_ret 1 31 
+$r3 1 5 
+$r5 1 31 
+Fields: 1
+-1 children 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+16 1 5 
+1 2 1 -2 
+17 1 5 
+Constructors: 0
+
+Summary: 5
+-2 5 0 -1 21 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.createImportDeclaration(Lorg/eclipse/jdt/internal/core/ImportContainer;Ljava/lang/String;Z)Lorg/eclipse/jdt/internal/core/ImportDeclaration;
+PTG:
+Vars:
+5
+r1 1 -2 
+r3 1 -1 
+r2 1 -3 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 3 0 -2 -3 
+Constructors: 1
+7 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.enterInitializer(II)V
+PTG:
+Vars:
+10
+$r3 1 9 
+$r7 1 1 
+r5 1 12 
+$r4 1 12 
+$r6 1 67 
+r11 1 39 
+r2 1 7 
+$r1 1 1 
+$r9 1 9 
+r0 1 -1 
+Fields: 2
+-1 infoStack 1
+-1 handleStack 9
+Accesses: 4
+0 1 -1 
+81 1 -1 
+8 1 -1 
+62 1 -1 
+Functions: 9
+1 1 1 
+33 4 -1 1 9 12 
+52 4 -1 1 39 9 
+23 1 12 
+87 2 39 9 
+9 1 9 
+59 5 -1 1 7 39 9 
+45 0 
+77 2 1 67 
+Constructors: 0
+
+Summary: 5
+7 12 39 -1 67 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.exitConstructor(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.createMethodHandle(Lorg/eclipse/jdt/internal/core/JavaElement;Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor$MethodInfo;)Lorg/eclipse/jdt/internal/core/SourceMethod;
+PTG:
+Vars:
+11
+r2 1 -3 
+r8 1 -2 
+r6 1 25 
+$r1 1 3 
+$r3 1 8 
+$r5 1 19 
+$r7 1 27 
+_ret 1 27 
+$r0 1 0 
+r4 1 17 
+r9 1 -1 
+Fields: 2
+-3 name 8
+-3 parameterTypes 19
+Accesses: 2
+18 1 -3 
+7 1 -3 
+Functions: 5
+-1 0 
+0 2 0 3 
+19 1 19 
+35 4 -2 17 25 27 
+11 2 3 8 
+Constructors: 2
+35 27
+11 3
+
+Summary: 11
+-3 -2 25 3 0 17 8 1 19 -1 0 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.acceptLineSeparatorPositions([I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.createInitializer(Lorg/eclipse/jdt/internal/core/JavaElement;)Lorg/eclipse/jdt/internal/core/Initializer;
+PTG:
+Vars:
+4
+r1 1 -2 
+$r0 1 0 
+r2 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 2 0 -2 
+Constructors: 1
+6 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.exitField(III)V
+PTG:
+Vars:
+30
+$r2 1 4 
+$r30 2 38 48 
+r22 1 292 
+r31 1 177 
+$r12 1 120 
+$r26 1 135 
+$r27 1 150 
+r11 1 110 
+$r10 1 104 
+$r33 1 38 
+r3 1 4 
+$r9 1 99 
+$r15 1 1 
+r6 1 16 
+$r25 1 303 
+$r23 1 297 
+r7 1 30 
+$r24 1 300 
+$r4 1 13 
+$r34 1 48 
+$r20 1 254 
+$r28 2 171 135 
+$r5 1 16 
+$r14 1 135 
+$r19 1 13 
+r0 1 -1 
+r8 2 38 48 
+$r1 1 1 
+$r21 1 254 
+$r17 1 13 
+Fields: 11
+16 annotations 135
+16 type 104
+171 ArrayObject 177
+297 scanner 300
+135 ArrayObject 177
+-1 newElements 120
+-1 infoStack 13
+-1 parser 297
+-1 handleStack 1
+-1 unitInfo 150
+300 source 303
+Accesses: 23
+0 1 -1 
+160 1 150 
+227 2 48 38 
+133 1 16 
+102 1 16 
+71 1 16 
+296 1 -1 
+169 1 16 
+297 1 297 
+12 1 -1 
+268 1 254 
+300 1 300 
+141 1 16 
+206 1 -1 
+81 1 16 
+149 1 -1 
+150 1 150 
+214 1 -1 
+119 1 -1 
+250 1 -1 
+91 1 16 
+61 1 16 
+319 2 48 38 
+Functions: 22
+96 2 48 38 
+-1 0 
+1 1 1 
+66 2 48 38 
+99 2 99 104 
+42 1 38 
+234 0 
+203 2 48 38 
+76 2 48 38 
+13 1 13 
+271 0 
+210 1 1 
+242 0 
+116 3 48 38 110 
+54 2 48 30 
+86 2 48 38 
+24 12 -1 16 1 177 150 135 120 104 297 300 13 303 
+312 2 292 303 
+186 12 -1 48 1 177 4 150 38 120 297 300 13 303 
+218 1 13 
+251 1 13 
+127 4 48 4 38 120 
+Constructors: 2
+54 48
+42 38
+
+Summary: 11
+135 4 38 48 104 30 254 16 110 99 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.acceptProblem(Lorg/eclipse/jdt/core/compiler/CategorizedProblem;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.enterCompilationUnit()V
+PTG:
+Vars:
+8
+$r5 1 34 
+$r1 1 1 
+$r3 1 23 
+r0 1 -1 
+$r7 1 50 
+$r2 1 12 
+$r8 1 46 
+$r4 1 38 
+Fields: 4
+-1 unit 50
+-1 infoStack 34
+-1 unitInfo 38
+-1 handleStack 46
+Accesses: 7
+33 1 -1 
+49 1 -1 
+19 1 -1 
+37 1 -1 
+8 1 -1 
+45 1 -1 
+30 1 -1 
+Functions: 5
+16 1 12 
+5 1 1 
+53 2 50 46 
+41 2 34 38 
+27 1 23 
+Constructors: 3
+16 12
+5 1
+27 23
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.createImportContainer(Lorg/eclipse/jdt/core/ICompilationUnit;)Lorg/eclipse/jdt/internal/core/ImportContainer;
+PTG:
+Vars:
+5
+r3 1 -1 
+r0 1 -2 
+_ret 1 1 
+$r2 1 1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.enterType(Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor$TypeInfo;)V
+PTG:
+Vars:
+13
+r2 1 7 
+$r12 1 7 
+$r10 1 9 
+$r14 1 65 
+$r4 1 12 
+r0 1 -1 
+$r13 1 71 
+r6 1 -2 
+$r1 1 1 
+$r3 1 9 
+r7 1 25 
+$r8 1 1 
+r5 1 12 
+Fields: 4
+7 childrenCategories 65
+-2 categories 71
+-1 infoStack 1
+-1 handleStack 9
+Accesses: 6
+0 1 -1 
+33 1 -1 
+70 1 -2 
+8 1 -1 
+42 1 -1 
+62 1 7 
+Functions: 9
+48 2 9 25 
+1 1 1 
+82 6 -1 1 65 7 9 25 
+19 6 -1 1 -2 71 9 12 
+52 1 12 
+38 3 1 -2 71 
+9 1 9 
+74 3 65 71 25 
+30 4 -1 1 9 25 
+Constructors: 0
+
+Summary: 8
+-2 7 12 25 71 65 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.getMemberValuePairs([Lorg/eclipse/jdt/internal/compiler/ast/MemberValuePair;)[Lorg/eclipse/jdt/core/IMemberValuePair;
+PTG:
+Vars:
+6
+r1 1 4 
+$r4 1 22 
+r0 1 -2 
+$r3 1 21 
+_ret 1 4 
+r2 1 -1 
+Fields: 1
+-2 ArrayObject 21
+Accesses: 0
+Functions: 1
+17 2 -1 21 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.createTypeHandle(Lorg/eclipse/jdt/internal/core/JavaElement;Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor$TypeInfo;)Lorg/eclipse/jdt/internal/core/SourceType;
+PTG:
+Vars:
+7
+r5 1 -2 
+r1 1 -3 
+$r2 1 5 
+r6 1 -1 
+_ret 1 12 
+$r0 1 0 
+$r4 1 12 
+Fields: 1
+-3 name 5
+Accesses: 1
+4 1 -3 
+Functions: 2
+18 3 0 -2 12 
+8 2 0 5 
+Constructors: 2
+18 12
+8 0
+
+Summary: 7
+-3 -2 5 0 -1 0 1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.exitType(I)V
+PTG:
+Vars:
+11
+r6 1 15 
+$r4 1 12 
+$r8 1 40 
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+r7 1 28 
+$r5 1 15 
+$r9 1 1 
+$r11 1 12 
+r3 1 4 
+Fields: 2
+-1 infoStack 12
+-1 handleStack 1
+Accesses: 5
+0 1 -1 
+54 1 -1 
+11 1 -1 
+43 1 28 
+46 1 -1 
+Functions: 7
+1 1 1 
+33 1 28 
+50 1 1 
+22 5 -1 1 4 12 15 
+38 4 -1 1 12 15 
+58 1 12 
+12 1 12 
+Constructors: 0
+
+Summary: 4
+15 4 -1 28 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.exitMethod(ILorg/eclipse/jdt/internal/compiler/ast/Expression;)V
+PTG:
+Vars:
+19
+$r4 1 12 
+r14 1 79 
+$r2 1 4 
+$r21 1 87 
+$r20 1 12 
+$r13 1 79 
+$r22 1 87 
+$r12 1 1 
+$r1 1 1 
+$r5 1 15 
+r10 1 -3 
+r6 1 15 
+r7 1 30 
+r11 1 30 
+$r19 1 1 
+$r18 1 107 
+r3 1 4 
+r0 1 -1 
+$r16 1 93 
+Fields: 2
+-1 infoStack 12
+-1 handleStack 1
+Accesses: 11
+0 1 -1 
+128 1 -1 
+68 1 -3 
+117 1 30 
+72 1 30 
+120 1 -1 
+11 1 -1 
+59 1 -3 
+75 1 -1 
+110 1 87 
+63 1 30 
+Functions: 11
+96 2 87 93 
+1 1 1 
+35 1 30 
+132 1 12 
+38 1 30 
+23 5 -1 1 4 12 15 
+103 5 -1 1 -3 87 12 
+91 1 79 
+12 1 12 
+76 1 1 
+124 1 1 
+Constructors: 1
+96 87
+
+Summary: 6
+93 15 -3 4 30 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.enterMethod(Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor$MethodInfo;)V
+PTG:
+Vars:
+19
+r0 1 -1 
+$r16 1 125 
+$r4 1 12 
+$r11 1 1 
+r6 1 15 
+r21 1 82 
+$r15 1 131 
+$r2 1 4 
+$r9 1 40 
+$r1 1 1 
+$r19 1 47 
+$r10 1 54 
+r3 1 4 
+$r20 1 33 
+$r13 1 12 
+$r18 1 61 
+$r5 1 15 
+r7 1 -2 
+$r8 1 26 
+Fields: 7
+-2 parameterNames 40
+-2 categories 131
+-2 parameterTypes 26
+-2 exceptionTypes 54
+4 childrenCategories 125
+-1 infoStack 1
+-1 handleStack 12
+Accesses: 12
+0 1 -1 
+64 1 -2 
+50 1 -2 
+98 1 -1 
+130 1 -2 
+36 1 -2 
+53 1 -2 
+39 1 -2 
+25 1 -2 
+11 1 -1 
+107 1 -1 
+124 1 4 
+Functions: 10
+1 1 1 
+113 2 82 12 
+67 1 15 
+134 3 82 131 125 
+103 6 1 -2 131 54 40 26 
+88 0 
+121 6 -1 1 82 4 12 125 
+12 1 12 
+76 9 -1 1 -2 131 54 40 26 12 15 
+95 4 -1 1 82 12 
+Constructors: 0
+
+Summary: 11
+15 -2 54 4 0 26 82 131 125 40 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.getMemberValue(Lorg/eclipse/jdt/internal/core/MemberValuePair;Lorg/eclipse/jdt/internal/compiler/ast/Expression;)Ljava/lang/Object;
+PTG:
+Vars:
+3
+r4 1 -1 
+r1 1 -2 
+r0 1 -3 
+Fields: 0
+Accesses: 13
+65 1 -2 
+100 1 -2 
+261 1 -2 
+293 1 -2 
+136 1 -2 
+202 1 -2 
+173 1 -2 
+238 1 -2 
+47 1 -1 
+304 1 -2 
+273 1 -2 
+181 1 -2 
+24 1 -3 
+Functions: 11
+48 0 
+144 0 
+20 0 
+84 0 
+244 2 -1 -2 
+25 1 -2 
+90 0 
+44 1 -1 
+109 0 
+189 0 
+127 0 
+Constructors: 0
+
+Summary: 14
+132 -3 95 84 1 162 -2 124 25 51 212 0 87 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.addToChildren(Ljava/lang/Object;Lorg/eclipse/jdt/internal/core/JavaElement;)V
+PTG:
+Vars:
+8
+$r3 1 5 
+r1 1 -2 
+r4 1 -3 
+r8 2 5 21 
+r0 1 -1 
+$r2 1 1 
+$r5 1 21 
+$r6 1 1 
+Fields: 1
+-1 children 1
+Accesses: 2
+0 1 -1 
+16 1 -1 
+Functions: 4
+1 2 1 -2 
+36 3 -3 5 21 
+25 1 21 
+30 3 1 -2 21 
+Constructors: 1
+25 21
+
+Summary: 7
+-3 -2 5 0 -1 21 1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.createField(Lorg/eclipse/jdt/internal/core/JavaElement;Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor$FieldInfo;)Lorg/eclipse/jdt/internal/core/SourceField;
+PTG:
+Vars:
+9
+r2 1 -3 
+$r3 1 8 
+r7 1 -1 
+r6 1 -2 
+r4 1 17 
+$r0 1 0 
+_ret 1 18 
+$r1 1 3 
+$r5 1 18 
+Fields: 1
+-3 name 8
+Accesses: 1
+7 1 -3 
+Functions: 4
+-1 0 
+0 2 0 3 
+24 3 -2 17 18 
+11 2 3 8 
+Constructors: 2
+24 18
+11 3
+
+Summary: 9
+-3 -2 3 0 17 -1 8 1 0 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.enterConstructor(Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor$MethodInfo;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.acceptTypeParameter(Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor$TypeParameterInfo;Lorg/eclipse/jdt/internal/core/JavaElementInfo;)V
+PTG:
+Vars:
+18
+$r16 1 116 
+$r4 1 11 
+r18 1 102 
+$r2 1 4 
+$r11 1 78 
+$r1 1 1 
+r20 1 -3 
+$r6 1 16 
+r5 1 -2 
+$r13 1 170 
+r0 1 -1 
+r3 1 4 
+r8 1 31 
+r12 1 -3 
+r21 1 156 
+$r14 1 197 
+$r9 1 39 
+r17 1 -3 
+Fields: 6
+-3 typeParameters 156
+-3 typeParameters 102
+-2 name 16
+-2 bounds 78
+-1 newElements 197
+-1 handleStack 1
+Accesses: 15
+0 1 -1 
+97 1 -3 
+193 1 -3 
+68 1 -2 
+196 1 -1 
+72 1 39 
+139 1 -3 
+77 1 -2 
+15 1 -2 
+81 1 39 
+50 1 -2 
+212 1 -2 
+151 1 -3 
+59 1 -2 
+63 1 39 
+Functions: 10
+1 1 1 
+19 2 16 11 
+179 2 170 156 
+36 4 -1 1 197 31 
+54 1 39 
+24 5 -1 1 4 197 11 
+216 1 39 
+43 1 39 
+204 3 197 39 31 
+125 2 116 102 
+Constructors: 2
+19 11
+43 39
+
+Summary: 8
+-3 -2 4 39 1 11 16 -1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.exitCompilationUnit(I)V
+PTG:
+Vars:
+10
+$r3 1 23 
+$r8 1 1 
+$r9 1 16 
+$r5 1 23 
+$r4 1 31 
+$r1 1 1 
+$r7 1 1 
+r0 1 -1 
+$r2 1 23 
+$r6 1 23 
+Fields: 2
+-1 importContainerInfo 1
+-1 unitInfo 23
+Accesses: 10
+0 1 -1 
+34 1 23 
+19 1 1 
+51 1 -1 
+37 1 -1 
+22 1 -1 
+7 1 -1 
+27 1 -1 
+12 1 -1 
+47 1 -1 
+Functions: 4
+26 3 -1 1 23 
+11 3 -1 1 23 
+44 1 23 
+63 1 23 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CompilationUnitStructureRequestor.createTypeParameter(Lorg/eclipse/jdt/internal/core/JavaElement;Ljava/lang/String;)Lorg/eclipse/jdt/internal/core/TypeParameter;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r0 1 0 
+r3 1 -1 
+r2 1 -3 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 3 0 -2 -3 
+Constructors: 1
+6 0
+
+Summary: 5
+-3 -2 0 -1 1 

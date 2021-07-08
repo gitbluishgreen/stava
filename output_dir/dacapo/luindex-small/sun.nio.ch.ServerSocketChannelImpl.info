@@ -1,0 +1,678 @@
+25
+sun/nio/ch/ServerSocketChannelImpl.<init>(Ljava/nio/channels/spi/SelectorProvider;)V
+PTG:
+Vars:
+6
+$r2 1 11 
+$r5 1 47 
+r0 1 -1 
+r1 1 -2 
+$r3 1 22 
+$r4 1 39 
+Fields: 1
+-1 fd 47
+Accesses: 8
+18 1 -1 
+34 1 -1 
+53 1 -1 
+7 1 -1 
+42 1 -1 
+58 1 -1 
+29 1 -1 
+46 1 -1 
+Functions: 5
+2 3 -1 -2 47 
+38 0 
+26 1 22 
+15 1 11 
+47 1 47 
+Constructors: 3
+2 -1
+26 22
+15 11
+
+Summary: 3
+-2 0 -1 
+sun/nio/ch/ServerSocketChannelImpl.getFDVal()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/ServerSocketChannelImpl.translateAndSetReadyOps(ILsun/nio/ch/SelectionKeyImpl;)Z
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+-3 1 -1 
+sun/nio/ch/ServerSocketChannelImpl.bind(Ljava/net/SocketAddress;I)Ljava/nio/channels/ServerSocketChannel;
+PTG:
+Vars:
+15
+r0 1 -1 
+$r6 1 79 
+$r9 1 101 
+r3 1 -2 
+_ret 1 -1 
+$r13 1 79 
+$r21 2 41 53 
+$r7 1 84 
+$r14 1 143 
+$r1 1 1 
+$r10 1 79 
+$r11 1 131 
+r4 2 41 53 
+$r8 1 79 
+r5 1 61 
+Fields: 3
+-1 lock 1
+-1 stateLock 131
+-1 fd 79
+Accesses: 7
+0 1 -1 
+112 1 -1 
+130 1 -1 
+146 1 -1 
+139 1 -1 
+78 1 -1 
+95 1 -1 
+Functions: 17
+33 0 
+99 2 53 41 
+70 2 53 41 
+7 4 -1 1 131 79 
+104 2 53 41 
+75 1 61 
+140 1 79 
+109 2 101 79 
+46 2 53 41 
+18 0 
+82 2 53 41 
+52 1 -2 
+22 4 -1 1 131 79 
+87 2 53 41 
+58 0 
+92 2 84 79 
+127 1 79 
+Constructors: 0
+
+Summary: 7
+-2 101 84 61 41 53 0 
+sun/nio/ch/ServerSocketChannelImpl.poll(IJ)I
+PTG:
+Vars:
+8
+$r5 1 114 
+$r10 1 -1 
+$r1 1 32 
+r0 1 -1 
+$r8 1 7 
+$r12 1 -1 
+$r3 1 47 
+$r15 1 -1 
+Fields: 3
+-1 lock 32
+-1 stateLock 47
+-1 fd 114
+Accesses: 7
+96 1 -1 
+113 1 -1 
+69 1 -1 
+150 1 -1 
+46 1 -1 
+126 1 -1 
+31 1 -1 
+Functions: 11
+16 4 -1 32 114 47 
+-1 0 
+83 4 -1 32 114 47 
+164 4 -1 32 114 47 
+6 4 -1 32 114 47 
+54 4 -1 32 114 47 
+118 1 114 
+7 1 7 
+27 0 
+43 4 -1 32 114 47 
+140 4 -1 32 114 47 
+Constructors: 0
+
+Summary: 2
+-1 7 
+sun/nio/ch/ServerSocketChannelImpl.<clinit>()V
+PTG:
+Vars:
+2
+$r0 1 0 
+$r1 1 22 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 0 
+16 0 
+19 0 
+26 1 22 
+Constructors: 1
+26 22
+
+Summary: 0
+
+sun/nio/ch/ServerSocketChannelImpl.supportedOptions()Ljava/util/Set;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/ServerSocketChannelImpl.<init>(Ljava/nio/channels/spi/SelectorProvider;Ljava/io/FileDescriptor;Z)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 11 
+$r3 1 22 
+r4 1 -3 
+r1 1 -2 
+$r5 1 61 
+Fields: 0
+Accesses: 8
+64 1 -1 
+18 1 -1 
+34 1 -1 
+52 1 -1 
+7 1 -1 
+39 1 -1 
+29 1 -1 
+47 1 -1 
+Functions: 5
+2 2 -1 -2 
+26 1 22 
+43 1 -3 
+60 1 -3 
+15 1 11 
+Constructors: 3
+2 -1
+26 22
+15 11
+
+Summary: 4
+-2 1 0 -1 
+sun/nio/ch/ServerSocketChannelImpl.toString()Ljava/lang/String;
+PTG:
+Vars:
+9
+$r0 1 0 
+$r10 1 72 
+_ret 1 99 
+$r7 1 45 
+r9 1 55 
+r2 1 -1 
+$r13 1 99 
+$r4 1 13 
+$r3 1 10 
+Fields: 1
+-1 stateLock 45
+Accesses: 1
+44 1 -1 
+Functions: 13
+98 1 0 
+4 1 0 
+37 1 0 
+71 1 55 
+9 2 -1 45 
+10 1 10 
+75 2 0 72 
+16 2 0 13 
+51 2 -1 45 
+23 1 0 
+27 2 -1 45 
+94 1 0 
+63 1 0 
+Constructors: 1
+4 0
+
+Summary: 4
+10 55 13 -1 
+sun/nio/ch/ServerSocketChannelImpl.getFD()Ljava/io/FileDescriptor;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 fd 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/ServerSocketChannelImpl.setOption(Ljava/net/SocketOption;Ljava/lang/Object;)Ljava/nio/channels/NetworkChannel;
+PTG:
+Vars:
+5
+r2 1 -3 
+$r3 1 3 
+_ret 1 3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -3 -1 
+sun/nio/ch/ServerSocketChannelImpl.accept()Ljava/nio/channels/SocketChannel;
+PTG:
+Vars:
+19
+r0 1 -1 
+$r10 1 287 
+$r17 1 14 
+$r22 1 -1 
+$r18 1 -1 
+$r14 1 101 
+$r7 1 254 
+$r9 1 284 
+r5 1 51 
+r26 1 252 
+$r12 1 181 
+$r6 1 123 
+$r3 1 41 
+r28 1 273 
+$r23 1 222 
+$r20 1 -1 
+$r16 1 29 
+$r1 1 1 
+$r8 1 259 
+Fields: 3
+-1 lock 1
+-1 fd 123
+51 ArrayObject 252
+Accesses: 6
+0 1 -1 
+193 1 -1 
+118 1 -1 
+72 1 -1 
+152 1 -1 
+122 1 -1 
+Functions: 28
+-1 0 
+258 3 -1 1 123 
+7 3 -1 1 123 
+266 4 259 41 252 254 
+140 3 -1 1 123 
+206 3 -1 1 123 
+270 0 
+18 1 14 
+85 3 -1 1 123 
+22 3 -1 1 123 
+215 0 
+282 1 252 
+284 1 284 
+94 0 
+33 1 29 
+226 1 222 
+290 1 252 
+165 3 -1 1 123 
+295 2 273 287 
+105 1 101 
+45 1 41 
+174 0 
+304 1 254 
+245 1 41 
+57 3 -1 1 123 
+121 6 -1 1 51 41 123 252 
+185 1 181 
+60 3 -1 1 123 
+Constructors: 7
+33 29
+18 14
+226 222
+105 101
+185 181
+266 254
+45 41
+
+Summary: 8
+259 273 284 -1 41 252 287 51 
+sun/nio/ch/ServerSocketChannelImpl.socket()Ljava/net/ServerSocket;
+PTG:
+Vars:
+6
+$r5 1 16 
+$r3 1 8 
+$r6 1 -1 
+$r4 1 8 
+$r1 1 1 
+r0 1 -1 
+Fields: 2
+-1 stateLock 1
+-1 socket 8
+Accesses: 4
+0 1 -1 
+19 1 -1 
+22 1 -1 
+7 1 -1 
+Functions: 1
+15 3 -1 1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/ServerSocketChannelImpl.setOption(Ljava/net/SocketOption;Ljava/lang/Object;)Ljava/nio/channels/ServerSocketChannel;
+PTG:
+Vars:
+14
+r0 1 -2 
+$r24 2 92 98 
+$r12 1 104 
+$r9 1 146 
+$r14 1 71 
+$r8 1 149 
+$r10 1 -3 
+$r6 1 119 
+$r3 1 58 
+$r5 1 80 
+$r22 1 -1 
+r7 1 -3 
+r1 1 -1 
+$r2 1 13 
+Fields: 3
+-1 stateLock 58
+-1 fd 146
+-1 fd 104
+Accesses: 4
+145 1 -1 
+103 1 -1 
+57 1 -1 
+139 1 -1 
+Functions: 15
+64 4 -1 146 104 58 
+-1 0 
+33 0 
+133 1 -3 
+38 1 -2 
+8 0 
+42 0 
+75 1 71 
+12 4 -1 146 104 58 
+13 2 -2 13 
+47 0 
+111 5 -2 98 -3 104 92 
+53 0 
+154 4 -2 146 -3 149 
+29 0 
+Constructors: 1
+75 71
+
+Summary: 10
+-2 1 50 38 42 47 -3 13 29 0 
+sun/nio/ch/ServerSocketChannelImpl.implConfigureBlocking(Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fd 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/ServerSocketChannelImpl.translateAndSetInterestOps(ILsun/nio/ch/SelectionKeyImpl;)V
+PTG:
+Vars:
+3
+r0 1 -3 
+$r1 1 16 
+r2 1 -1 
+Fields: 1
+-3 selector 16
+Accesses: 1
+15 1 -3 
+Functions: 1
+21 2 16 -3 
+Constructors: 0
+
+Summary: 4
+-3 1 -1 16 
+sun/nio/ch/ServerSocketChannelImpl.isBound()Z
+PTG:
+Vars:
+4
+r0 1 -1 
+$r4 1 -1 
+$r3 1 8 
+$r1 1 1 
+Fields: 2
+-1 stateLock 1
+-1 localAddress 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/ServerSocketChannelImpl.implCloseSelectableChannel()V
+PTG:
+Vars:
+4
+$r1 1 1 
+$r3 1 19 
+$r4 1 15 
+r0 1 -1 
+Fields: 2
+-1 stateLock 1
+-1 fd 19
+Accesses: 4
+0 1 -1 
+18 1 -1 
+7 1 -1 
+25 1 -1 
+Functions: 4
+48 3 -1 1 19 
+37 0 
+22 2 19 15 
+40 3 -1 1 19 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/ServerSocketChannelImpl.kill()V
+PTG:
+Vars:
+4
+$r3 1 66 
+$r1 1 1 
+$r4 1 62 
+r0 1 -1 
+Fields: 2
+-1 stateLock 1
+-1 fd 66
+Accesses: 6
+0 1 -1 
+65 1 -1 
+18 1 -1 
+7 1 -1 
+74 1 -1 
+28 1 -1 
+Functions: 4
+69 2 66 62 
+40 3 -1 1 66 
+58 0 
+47 3 -1 1 66 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/ServerSocketChannelImpl.translateReadyOps(IILsun/nio/ch/SelectionKeyImpl;)Z
+PTG:
+Vars:
+2
+r0 1 -4 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -4 
+6 1 -4 
+89 1 -4 
+44 1 -4 
+Constructors: 0
+
+Summary: 3
+2 -4 -1 
+sun/nio/ch/ServerSocketChannelImpl.localAddress()Ljava/net/InetSocketAddress;
+PTG:
+Vars:
+4
+$r3 1 8 
+$r1 1 1 
+$r4 1 -1 
+r0 1 -1 
+Fields: 2
+-1 stateLock 1
+-1 localAddress 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/nio/ch/ServerSocketChannelImpl.accept(Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;[Ljava/net/InetSocketAddress;)I
+PTG:
+Vars:
+4
+r3 1 -4 
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 4
+2 1 0 -1 
+sun/nio/ch/ServerSocketChannelImpl.getOption(Ljava/net/SocketOption;)Ljava/lang/Object;
+PTG:
+Vars:
+11
+$r7 1 103 
+$r6 1 106 
+r1 1 -1 
+$r8 1 110 
+$r2 1 13 
+$r3 1 58 
+$r18 1 -1 
+$r10 1 71 
+$r9 1 96 
+$r5 1 80 
+r0 1 -2 
+Fields: 2
+-1 stateLock 58
+-1 fd 103
+Accesses: 3
+102 1 -1 
+57 1 -1 
+92 1 -1 
+Functions: 14
+64 3 -1 103 58 
+-1 0 
+33 0 
+38 1 -2 
+8 0 
+42 0 
+75 1 71 
+12 3 -1 103 58 
+13 2 -2 13 
+109 3 -2 103 106 
+47 0 
+53 0 
+29 0 
+93 0 
+Constructors: 1
+75 71
+
+Summary: 9
+-2 50 38 42 47 -1 13 29 0 
+sun/nio/ch/ServerSocketChannelImpl.getLocalAddress()Ljava/net/SocketAddress;
+PTG:
+Vars:
+8
+r0 1 -1 
+$r3 1 23 
+$r7 1 -1 
+$r6 1 14 
+$r5 1 40 
+$r9 2 23 43 
+$r1 1 1 
+$r4 1 23 
+Fields: 2
+-1 stateLock 1
+-1 localAddress 23
+Accesses: 4
+0 1 -1 
+36 1 -1 
+22 1 -1 
+29 1 -1 
+Functions: 4
+18 1 14 
+37 1 23 
+7 3 -1 1 23 
+40 1 40 
+Constructors: 1
+18 14
+
+Summary: 2
+40 -1 
+sun/nio/ch/ServerSocketChannelImpl.translateAndUpdateReadyOps(ILsun/nio/ch/SelectionKeyImpl;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -3 
+2 1 -3 
+Constructors: 0
+
+Summary: 3
+-3 1 -1 

@@ -1,0 +1,1742 @@
+70
+org/eclipse/core/internal/runtime/InternalPlatform.getRuntimeInstance()Lorg/eclipse/core/runtime/Plugin;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 runtimeInstance 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.endSplash()V
+PTG:
+Vars:
+2
+r4 1 29 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+35 1 29 
+25 1 -1 
+Constructors: 0
+
+Summary: 1
+29 
+org/eclipse/core/internal/runtime/InternalPlatform.getApplicationArgs()[Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.getApplicationContext()Lorg/eclipse/equinox/app/IApplicationContext;
+PTG:
+Vars:
+9
+$r1 1 1 
+r0 1 -1 
+$r2 1 37 
+r7 1 73 
+$r6 1 73 
+r3 1 48 
+$r5 1 1 
+$r4 1 72 
+$r14 2 15 4 
+Fields: 2
+-1 context 1
+48 ArrayObject 72
+Accesses: 3
+0 1 -1 
+66 1 -1 
+86 1 -1 
+Functions: 7
+-1 0 
+33 0 
+1 2 1 37 
+67 2 1 72 
+4 2 4 15 
+12 0 
+93 0 
+Constructors: 0
+
+Summary: 6
+30 -1 37 48 92 72 
+org/eclipse/core/internal/runtime/InternalPlatform.stop(Lorg/osgi/framework/BundleContext;)V
+PTG:
+Vars:
+4
+r3 1 -2 
+$r1 1 8 
+r0 1 -1 
+$r2 1 14 
+Fields: 0
+Accesses: 1
+30 1 -1 
+Functions: 4
+1 1 -1 
+17 1 14 
+5 1 -1 
+25 1 -1 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getUserLocation()Lorg/eclipse/osgi/service/datalocation/Location;
+PTG:
+Vars:
+13
+$r9 1 5 
+$r7 1 -1 
+$r3 1 14 
+r8 1 25 
+$r11 1 58 
+$r4 1 31 
+_ret 1 58 
+$r6 1 5 
+$r2 1 17 
+r0 1 -1 
+$r1 1 5 
+$r5 1 14 
+$r10 1 58 
+Fields: 2
+-1 userLocation 5
+-1 context 14
+Accesses: 6
+35 1 -1 
+4 1 -1 
+54 1 -1 
+44 1 -1 
+13 1 -1 
+47 1 -1 
+Functions: 5
+1 3 -1 5 14 
+51 1 5 
+55 1 5 
+41 3 25 14 31 
+14 2 17 14 
+Constructors: 1
+41 31
+
+Summary: 2
+-1 25 
+org/eclipse/core/internal/runtime/InternalPlatform.log(Lorg/eclipse/core/runtime/IStatus;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getInstallLocation()Lorg/eclipse/osgi/service/datalocation/Location;
+PTG:
+Vars:
+13
+$r2 1 17 
+$r1 1 7 
+$r3 1 14 
+r0 1 -1 
+$r6 1 7 
+$r9 1 7 
+r8 1 25 
+$r5 1 14 
+_ret 1 58 
+$r4 1 31 
+$r11 1 58 
+$r7 1 -1 
+$r10 1 58 
+Fields: 2
+-1 installLocation 7
+-1 context 14
+Accesses: 6
+35 1 -1 
+6 1 -1 
+54 1 -1 
+44 1 -1 
+13 1 -1 
+47 1 -1 
+Functions: 5
+1 3 -1 7 14 
+51 1 7 
+55 1 7 
+41 3 25 14 31 
+14 2 17 14 
+Constructors: 1
+41 31
+
+Summary: 2
+-1 25 
+org/eclipse/core/internal/runtime/InternalPlatform.closeOSGITrackers()V
+PTG:
+Vars:
+15
+$r14 1 1 
+$r11 1 58 
+r0 1 -1 
+$r6 1 96 
+$r8 1 115 
+$r9 1 96 
+$r1 1 1 
+$r10 1 77 
+$r2 1 20 
+$r3 1 39 
+$r5 1 77 
+$r7 1 115 
+$r13 1 20 
+$r4 1 58 
+$r12 1 39 
+Fields: 7
+-1 groupProviderTracker 96
+-1 preferencesTracker 1
+-1 debugTracker 39
+-1 bundleTracker 58
+-1 contentTracker 20
+-1 logTracker 77
+-1 environmentTracker 115
+Accesses: 21
+0 1 -1 
+64 1 -1 
+130 1 -1 
+35 1 -1 
+38 1 -1 
+102 1 -1 
+7 1 -1 
+73 1 -1 
+76 1 -1 
+45 1 -1 
+111 1 -1 
+16 1 -1 
+114 1 -1 
+19 1 -1 
+83 1 -1 
+54 1 -1 
+57 1 -1 
+121 1 -1 
+26 1 -1 
+92 1 -1 
+95 1 -1 
+Functions: 7
+49 1 39 
+68 1 58 
+87 1 77 
+106 1 96 
+11 1 1 
+125 1 115 
+30 1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.getDefault()Lorg/eclipse/core/internal/runtime/InternalPlatform;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/internal/runtime/InternalPlatform.message(Ljava/lang/String;)V
+PTG:
+Vars:
+7
+$r2 1 9 
+r9 1 -2 
+$r12 1 60 
+$r6 1 35 
+$r5 1 32 
+$r11 1 56 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 11
+-1 0 
+16 1 9 
+32 1 32 
+19 2 0 9 
+4 1 0 
+52 2 0 -2 
+38 2 0 35 
+27 1 0 
+59 1 0 
+46 1 0 
+63 2 56 60 
+Constructors: 2
+16 9
+4 0
+
+Summary: 6
+9 35 60 32 0 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.readPluginPath(Ljava/io/InputStream;)[Ljava/net/URL;
+PTG:
+Vars:
+21
+$r17 1 -1 
+r2 1 -2 
+$r9 1 56 
+$r13 1 91 
+$r18 1 110 
+$r21 1 125 
+$r14 1 154 
+$r20 1 122 
+r7 1 39 
+$r0 1 0 
+$r16 1 157 
+$r8 1 49 
+r5 1 32 
+_ret 1 157 
+$r6 1 39 
+$r11 1 72 
+r23 1 -1 
+$r15 1 157 
+$r3 1 19 
+$r19 1 107 
+r12 1 72 
+Fields: 0
+Accesses: 0
+Functions: 19
+128 2 107 125 
+97 2 72 91 
+131 1 49 
+4 1 0 
+100 2 19 91 
+37 1 32 
+70 1 49 
+10 2 0 -2 
+139 1 32 
+110 2 72 110 
+80 1 72 
+53 2 0 39 
+117 1 110 
+149 2 19 154 
+150 1 19 
+24 1 19 
+122 1 122 
+28 1 0 
+62 2 49 56 
+Constructors: 5
+97 91
+4 0
+117 110
+24 19
+62 49
+
+Summary: 14
+39 19 91 122 -1 154 125 56 32 0 -2 72 0 49 
+org/eclipse/core/internal/runtime/InternalPlatform.getStateTimeStamp()J
+PTG:
+Vars:
+3
+r1 1 4 
+r0 1 -1 
+$r2 1 17 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+17 1 17 
+15 1 4 
+Constructors: 0
+
+Summary: 3
+-1 17 4 
+org/eclipse/core/internal/runtime/InternalPlatform.getOS()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 6 
+$r2 1 6 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/core/internal/runtime/InternalPlatform.getProduct()Lorg/eclipse/core/runtime/IProduct;
+PTG:
+Vars:
+9
+$r1 1 1 
+$r8 1 25 
+r0 1 -1 
+_ret 1 1 
+r2 1 15 
+$r6 1 49 
+r9 2 41 49 
+$r4 2 41 49 
+$r5 1 1 
+Fields: 1
+-1 product 1
+Accesses: 4
+0 1 -1 
+66 1 -1 
+7 1 -1 
+63 1 -1 
+Functions: 4
+35 1 25 
+54 2 49 25 
+24 1 15 
+12 0 
+Constructors: 1
+54 49
+
+Summary: 3
+-1 15 25 
+org/eclipse/core/internal/runtime/InternalPlatform.getPreferencesService()Lorg/eclipse/core/runtime/preferences/IPreferencesService;
+PTG:
+Vars:
+12
+$r14 1 79 
+$r2 1 8 
+_ret 1 79 
+$r4 1 8 
+$r12 1 1 
+$r5 1 58 
+$r11 2 25 36 
+$r6 1 1 
+$r13 1 79 
+r0 1 -1 
+$r1 1 1 
+$r3 1 17 
+Fields: 2
+-1 preferencesTracker 1
+-1 context 8
+Accesses: 6
+0 1 -1 
+65 1 -1 
+68 1 -1 
+21 1 -1 
+7 1 -1 
+75 1 -1 
+Functions: 7
+-1 0 
+33 0 
+54 0 
+72 1 1 
+25 2 36 25 
+76 1 1 
+62 3 17 8 58 
+Constructors: 1
+62 17
+
+Summary: 3
+-1 51 58 
+org/eclipse/core/internal/runtime/InternalPlatform.getPluginPath(Ljava/net/URL;)[Ljava/net/URL;
+PTG:
+Vars:
+11
+$r2 1 21 
+_ret 1 61 
+r11 1 61 
+$r4 1 -1 
+$r8 1 -1 
+r9 2 12 36 
+$r6 1 -1 
+r0 1 -2 
+r1 1 -1 
+$r7 1 -1 
+$r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+32 1 21 
+68 2 36 12 
+8 1 -2 
+56 3 -1 36 12 
+75 2 36 12 
+28 1 21 
+Constructors: 1
+28 21
+
+Summary: 5
+-1 21 12 36 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.stopServices()V
+PTG:
+Vars:
+5
+$r4 1 1 
+$r1 1 1 
+$r2 1 22 
+r0 1 -1 
+$r3 1 22 
+Fields: 2
+-1 legacyPreferencesService 1
+-1 customPreferencesService 22
+Accesses: 6
+0 1 -1 
+18 1 -1 
+21 1 -1 
+7 1 -1 
+39 1 -1 
+28 1 -1 
+Functions: 2
+32 1 22 
+11 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.unregisterBundleGroupProvider(Lorg/eclipse/core/runtime/IBundleGroupProvider;)V
+PTG:
+Vars:
+6
+$r5 1 12 
+r6 1 12 
+$r1 1 1 
+$r4 1 1 
+r3 1 -2 
+r0 1 -1 
+Fields: 1
+-1 groupProviders 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+35 1 12 
+8 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 12 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getStateLocation(Lorg/osgi/framework/Bundle;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+4
+$r2 1 3 
+_ret 1 3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getBundleGroupProviders()[Lorg/eclipse/core/runtime/IBundleGroupProvider;
+PTG:
+Vars:
+21
+$r6 1 56 
+$r7 1 59 
+$r10 1 82 
+r0 1 -1 
+r17 1 76 
+$r18 2 23 34 
+r2 1 124 
+$r15 1 44 
+$r14 1 -1 
+$r4 1 10 
+$r5 1 13 
+$r1 1 1 
+$r9 1 68 
+$r8 1 65 
+r20 1 112 
+$r16 1 49 
+_ret 1 124 
+$r19 1 1 
+$r12 1 1 
+$r11 1 87 
+$r13 1 -1 
+Fields: 1
+-1 groupProviderTracker 1
+Accesses: 4
+0 1 -1 
+98 1 -1 
+105 1 -1 
+95 1 -1 
+Functions: 15
+-1 1 -1 
+65 1 65 
+102 1 1 
+134 2 112 124 
+9 2 -1 1 
+10 2 68 10 
+106 1 1 
+13 2 56 13 
+20 1 13 
+52 2 49 44 
+86 2 -1 1 
+23 2 34 23 
+59 1 59 
+92 3 82 87 76 
+31 0 
+Constructors: 3
+20 13
+52 44
+92 82
+
+Summary: 10
+59 87 10 -1 49 65 56 68 76 112 
+org/eclipse/core/internal/runtime/InternalPlatform.getStateLocation(Lorg/osgi/framework/Bundle;Z)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+6
+_ret 1 12 
+$r4 1 18 
+$r1 1 5 
+r3 1 12 
+r2 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+1 1 -1 
+17 1 12 
+4 1 -1 
+5 2 -2 5 
+23 1 18 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getBundleAdmin()Lorg/osgi/service/packageadmin/PackageAdmin;
+PTG:
+Vars:
+12
+_ret 1 79 
+$r14 1 79 
+$r12 1 1 
+$r13 1 79 
+$r4 1 8 
+$r5 1 58 
+$r2 1 8 
+$r11 2 25 36 
+$r3 1 17 
+r0 1 -1 
+$r1 1 1 
+$r6 1 1 
+Fields: 2
+-1 bundleTracker 1
+-1 context 8
+Accesses: 6
+0 1 -1 
+65 1 -1 
+68 1 -1 
+21 1 -1 
+7 1 -1 
+75 1 -1 
+Functions: 7
+-1 0 
+33 0 
+54 0 
+72 1 1 
+25 2 36 25 
+76 1 1 
+62 3 17 8 58 
+Constructors: 1
+62 17
+
+Summary: 3
+-1 51 58 
+org/eclipse/core/internal/runtime/InternalPlatform.getDebugOptions()Lorg/eclipse/osgi/service/debug/DebugOptions;
+PTG:
+Vars:
+12
+$r12 1 1 
+$r13 1 79 
+$r6 1 1 
+_ret 1 79 
+$r1 1 1 
+$r4 1 8 
+$r3 1 17 
+$r11 2 25 36 
+$r14 1 79 
+r0 1 -1 
+$r2 1 8 
+$r5 1 58 
+Fields: 2
+-1 debugTracker 1
+-1 context 8
+Accesses: 6
+0 1 -1 
+65 1 -1 
+68 1 -1 
+21 1 -1 
+7 1 -1 
+75 1 -1 
+Functions: 7
+-1 0 
+33 0 
+54 0 
+72 1 1 
+25 2 36 25 
+76 1 1 
+62 3 17 8 58 
+Constructors: 1
+62 17
+
+Summary: 3
+-1 51 58 
+org/eclipse/core/internal/runtime/InternalPlatform.getInstallURL()Ljava/net/URL;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 21 
+$r2 1 21 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+16 0 
+20 1 4 
+Constructors: 0
+
+Summary: 2
+-1 4 
+org/eclipse/core/internal/runtime/InternalPlatform.initializeAuthorizationHandler()V
+PTG:
+Vars:
+4
+$r0 1 0 
+$r1 1 6 
+r3 1 -1 
+$r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 1 0 
+9 1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.getCommandLineArgs()[Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.processCommandLine([Ljava/lang/String;)V
+PTG:
+Vars:
+6
+$r1 1 27 
+$r4 1 68 
+$r3 1 51 
+r5 1 -1 
+r2 1 46 
+r0 1 -2 
+Fields: 4
+-2 ArrayObject 46
+-2 ArrayObject 51
+-2 ArrayObject 27
+-2 ArrayObject 68
+Accesses: 0
+Functions: 3
+51 1 51 
+68 1 68 
+27 1 27 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getBundleContext()Lorg/osgi/framework/BundleContext;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 context 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.addLogListener(Lorg/eclipse/core/runtime/ILogListener;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+5 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getInstanceLocation()Lorg/eclipse/osgi/service/datalocation/Location;
+PTG:
+Vars:
+13
+r0 1 -1 
+$r1 1 5 
+$r10 1 58 
+$r4 1 31 
+$r9 1 5 
+r8 1 25 
+$r7 1 -1 
+$r6 1 5 
+_ret 1 58 
+$r3 1 14 
+$r5 1 14 
+$r2 1 17 
+$r11 1 58 
+Fields: 2
+-1 instanceLocation 5
+-1 context 14
+Accesses: 6
+35 1 -1 
+4 1 -1 
+54 1 -1 
+44 1 -1 
+13 1 -1 
+47 1 -1 
+Functions: 5
+1 3 -1 5 14 
+51 1 5 
+55 1 5 
+41 3 25 14 31 
+14 2 17 14 
+Constructors: 1
+41 31
+
+Summary: 2
+-1 25 
+org/eclipse/core/internal/runtime/InternalPlatform.assertInitialized()V
+PTG:
+Vars:
+2
+$r0 1 7 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 1 7 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.isFragment(Lorg/osgi/framework/Bundle;)Z
+PTG:
+Vars:
+3
+r1 1 4 
+r0 1 -1 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 2 -2 4 
+Constructors: 0
+
+Summary: 3
+-1 4 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getResourceBundle(Lorg/osgi/framework/Bundle;)Ljava/util/ResourceBundle;
+PTG:
+Vars:
+4
+_ret 1 1 
+r0 1 -2 
+$r1 1 1 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getFrameworkLog()Lorg/eclipse/osgi/framework/log/FrameworkLog;
+PTG:
+Vars:
+12
+$r4 1 8 
+$r6 1 1 
+$r14 1 79 
+_ret 1 79 
+$r12 1 1 
+$r11 2 25 36 
+r0 1 -1 
+$r2 1 8 
+$r3 1 17 
+$r5 1 58 
+$r1 1 1 
+$r13 1 79 
+Fields: 2
+-1 context 8
+-1 logTracker 1
+Accesses: 6
+0 1 -1 
+65 1 -1 
+68 1 -1 
+21 1 -1 
+7 1 -1 
+75 1 -1 
+Functions: 7
+-1 0 
+33 0 
+54 0 
+72 1 1 
+25 2 36 25 
+76 1 1 
+62 3 17 8 58 
+Constructors: 1
+62 17
+
+Summary: 3
+-1 51 58 
+org/eclipse/core/internal/runtime/InternalPlatform.getNL()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r2 1 6 
+_ret 1 6 
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/core/internal/runtime/InternalPlatform.getHosts(Lorg/osgi/framework/Bundle;)[Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 4 
+_ret 1 13 
+r2 1 -2 
+$r3 1 13 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 2 -2 4 
+Constructors: 0
+
+Summary: 3
+-1 4 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.isRunning()Z
+PTG:
+Vars:
+5
+$r3 1 17 
+$r1 1 7 
+$r2 1 7 
+r0 1 -1 
+$r4 1 -1 
+Fields: 1
+-1 context 7
+Accesses: 2
+6 1 -1 
+13 1 -1 
+Functions: 2
+17 1 17 
+14 1 7 
+Constructors: 0
+
+Summary: 2
+-1 17 
+org/eclipse/core/internal/runtime/InternalPlatform.getBundle(Ljava/lang/String;)Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+5
+r1 1 4 
+r0 1 -1 
+r3 1 19 
+r2 1 -2 
+$r4 1 35 
+Fields: 1
+19 ArrayObject 35
+Accesses: 0
+Functions: 3
+0 1 -1 
+35 1 35 
+11 2 -2 4 
+Constructors: 0
+
+Summary: 5
+-1 19 4 0 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getRegistry()Lorg/eclipse/core/runtime/IExtensionRegistry;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.start(Lorg/osgi/framework/BundleContext;)V
+PTG:
+Vars:
+12
+$r12 1 53 
+$r9 1 110 
+$r6 1 84 
+r5 1 43 
+r1 1 -2 
+$r13 1 63 
+$r8 1 89 
+r0 1 -1 
+$r11 1 48 
+$r3 1 14 
+$r2 1 11 
+$r7 1 80 
+Fields: 1
+-1 context 84
+Accesses: 2
+2 1 -1 
+83 1 -1 
+Functions: 15
+66 3 -1 84 63 
+36 2 -1 84 
+39 2 -1 84 
+10 2 -1 84 
+11 1 11 
+77 2 -1 84 
+80 2 80 89 
+113 1 110 
+19 3 -1 84 14 
+52 2 -1 84 
+84 1 84 
+116 0 
+23 2 -1 84 
+56 2 48 53 
+31 2 -1 84 
+Constructors: 2
+113 110
+56 48
+
+Summary: 7
+-1 11 110 43 53 89 14 
+org/eclipse/core/internal/runtime/InternalPlatform.knownOSValues()[Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.getAdapterManager()Lorg/eclipse/core/runtime/IAdapterManager;
+PTG:
+Vars:
+3
+_ret 1 4 
+r0 1 -1 
+$r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.getMetaArea()Lorg/eclipse/core/internal/runtime/DataArea;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.getContentTypeManager()Lorg/eclipse/core/runtime/content/IContentTypeManager;
+PTG:
+Vars:
+12
+$r4 1 8 
+$r13 1 79 
+_ret 1 79 
+$r11 2 25 36 
+$r5 1 58 
+$r2 1 8 
+$r12 1 1 
+r0 1 -1 
+$r1 1 1 
+$r6 1 1 
+$r14 1 79 
+$r3 1 17 
+Fields: 2
+-1 contentTracker 1
+-1 context 8
+Accesses: 6
+0 1 -1 
+65 1 -1 
+68 1 -1 
+21 1 -1 
+7 1 -1 
+75 1 -1 
+Functions: 7
+-1 0 
+33 0 
+54 0 
+72 1 1 
+25 2 36 25 
+76 1 1 
+62 3 17 8 58 
+Constructors: 1
+62 17
+
+Summary: 3
+-1 51 58 
+org/eclipse/core/internal/runtime/InternalPlatform.registerBundleGroupProvider(Lorg/eclipse/core/runtime/IBundleGroupProvider;)V
+PTG:
+Vars:
+8
+$r7 1 49 
+$r2 1 37 
+$r13 2 15 4 
+r3 1 -2 
+r0 1 -1 
+r4 1 47 
+$r5 1 49 
+$r1 1 1 
+Fields: 1
+-1 groupProviders 49
+Accesses: 2
+48 1 -1 
+55 1 -1 
+Functions: 7
+0 2 -1 49 
+-1 0 
+33 0 
+1 3 1 -2 37 
+4 2 4 15 
+12 0 
+61 3 49 -2 47 
+Constructors: 0
+
+Summary: 6
+-1 1 47 37 30 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getNLExtensions()Ljava/lang/String;
+PTG:
+Vars:
+7
+_ret 2 11 48 
+r5 2 11 48 
+$r1 1 29 
+$r0 1 0 
+$r2 1 35 
+r4 1 -1 
+$r3 1 42 
+Fields: 0
+Accesses: 0
+Functions: 7
+-1 0 
+0 1 0 
+33 0 
+19 2 48 11 
+38 2 35 29 
+42 1 42 
+29 3 48 11 29 
+Constructors: 1
+38 29
+
+Summary: 4
+-1 35 0 42 
+org/eclipse/core/internal/runtime/InternalPlatform.getOption(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+9 2 -2 4 
+Constructors: 0
+
+Summary: 4
+-1 4 0 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getResourceString(Lorg/osgi/framework/Bundle;Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+r3 1 -1 
+$r2 1 2 
+_ret 1 2 
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 2 -2 -3 
+Constructors: 0
+
+Summary: 3
+-1 -3 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getOSArch()Ljava/lang/String;
+PTG:
+Vars:
+4
+_ret 1 6 
+$r2 1 6 
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/core/internal/runtime/InternalPlatform.getPlatformAdmin()Lorg/eclipse/osgi/service/resolver/PlatformAdmin;
+PTG:
+Vars:
+10
+$r3 1 46 
+_ret 1 66 
+r0 1 -1 
+$r5 1 1 
+$r11 2 13 24 
+r4 1 54 
+$r7 1 66 
+$r2 1 1 
+$r6 1 66 
+$r1 1 1 
+Fields: 1
+-1 context 1
+Accesses: 3
+0 1 -1 
+9 1 -1 
+61 1 -1 
+Functions: 6
+-1 0 
+21 0 
+42 0 
+10 2 1 46 
+13 2 24 13 
+62 2 1 54 
+Constructors: 0
+
+Summary: 4
+-1 39 46 54 
+org/eclipse/core/internal/runtime/InternalPlatform.setRuntimeInstance(Lorg/eclipse/core/runtime/Plugin;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/core/internal/runtime/InternalPlatform.removeLogListener(Lorg/eclipse/core/runtime/ILogListener;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+5 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.knownWSValues()[Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.getWS()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r2 1 6 
+_ret 1 6 
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/core/internal/runtime/InternalPlatform.getResourceString(Lorg/osgi/framework/Bundle;Ljava/lang/String;Ljava/util/ResourceBundle;)Ljava/lang/String;
+PTG:
+Vars:
+6
+_ret 1 3 
+r2 1 -4 
+r0 1 -2 
+r4 1 -1 
+r1 1 -3 
+$r3 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 3 -2 -3 -4 
+Constructors: 0
+
+Summary: 4
+-1 -4 -3 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.<clinit>()V
+PTG:
+Vars:
+5
+$r2 1 69 
+$r3 1 120 
+$r1 1 56 
+$r0 1 2 
+$r4 1 132 
+Fields: 21
+132 ArrayObject 159
+132 ArrayObject 170
+132 ArrayObject 144
+132 ArrayObject 154
+132 ArrayObject 139
+132 ArrayObject 164
+132 ArrayObject 149
+69 ArrayObject 96
+69 ArrayObject 81
+69 ArrayObject 107
+69 ArrayObject 91
+69 ArrayObject 101
+69 ArrayObject 76
+69 ArrayObject 86
+2 ArrayObject 9
+2 ArrayObject 34
+2 ArrayObject 19
+2 ArrayObject 29
+2 ArrayObject 40
+2 ArrayObject 14
+2 ArrayObject 24
+Accesses: 0
+Functions: 2
+124 1 120 
+61 1 56 
+Constructors: 2
+124 120
+61 56
+
+Summary: 0
+
+org/eclipse/core/internal/runtime/InternalPlatform.getLog(Lorg/osgi/framework/Bundle;)Lorg/eclipse/core/runtime/ILog;
+PTG:
+Vars:
+8
+r6 1 -1 
+_ret 1 19 
+$r3 1 19 
+r0 1 -2 
+$r2 1 4 
+$r1 1 0 
+r7 1 4 
+$r4 1 28 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 0 -2 
+33 3 -2 19 28 
+24 2 -2 19 
+Constructors: 1
+24 19
+
+Summary: 3
+-1 0 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getEnvironmentInfoService()Lorg/eclipse/osgi/service/environment/EnvironmentInfo;
+PTG:
+Vars:
+12
+$r2 1 8 
+$r4 1 8 
+$r6 1 1 
+_ret 1 79 
+$r1 1 1 
+$r11 2 25 36 
+$r5 1 58 
+r0 1 -1 
+$r13 1 79 
+$r12 1 1 
+$r3 1 17 
+$r14 1 79 
+Fields: 2
+-1 context 8
+-1 environmentTracker 1
+Accesses: 6
+0 1 -1 
+65 1 -1 
+68 1 -1 
+21 1 -1 
+7 1 -1 
+75 1 -1 
+Functions: 7
+-1 0 
+33 0 
+54 0 
+72 1 1 
+25 2 36 25 
+76 1 1 
+62 3 17 8 58 
+Constructors: 1
+62 17
+
+Summary: 3
+-1 51 58 
+org/eclipse/core/internal/runtime/InternalPlatform.getFragments(Lorg/osgi/framework/Bundle;)[Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+5
+_ret 1 13 
+$r3 1 13 
+r0 1 -1 
+r2 1 -2 
+r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 2 -2 4 
+Constructors: 0
+
+Summary: 3
+-1 4 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getBundles(Ljava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+11
+r0 1 -1 
+r3 1 -3 
+r2 1 -2 
+$r7 1 95 
+_ret 1 117 
+r5 1 55 
+r4 1 19 
+r9 1 117 
+$r8 1 38 
+r1 1 4 
+$r6 1 73 
+Fields: 3
+19 ArrayObject 95
+19 ArrayObject 73
+19 ArrayObject 38
+Accesses: 0
+Functions: 5
+0 1 -1 
+130 2 117 55 
+38 1 38 
+73 1 73 
+11 3 -2 -3 4 
+Constructors: 0
+
+Summary: 5
+-1 55 4 -3 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.knownOSArchValues()[Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 0 
+r1 1 -1 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.getLocation()Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+10
+$r5 1 23 
+$r8 1 36 
+_ret 1 1 
+$r2 1 1 
+$r1 1 1 
+$r4 1 18 
+$r6 1 28 
+$r9 1 41 
+r0 1 -1 
+r3 1 11 
+Fields: 1
+-1 cachedInstanceLocation 1
+Accesses: 3
+0 1 -1 
+50 1 -1 
+47 1 -1 
+Functions: 6
+22 1 11 
+7 2 -1 1 
+23 1 23 
+40 1 18 
+44 2 36 41 
+31 2 18 28 
+Constructors: 2
+44 36
+31 18
+
+Summary: 6
+-1 11 41 23 18 28 
+org/eclipse/core/internal/runtime/InternalPlatform.startServices()V
+PTG:
+Vars:
+14
+$r11 1 128 
+$r3 1 41 
+$r10 1 121 
+$r5 1 55 
+$r8 1 111 
+$r2 1 38 
+$r6 1 67 
+$r9 1 114 
+r0 1 -1 
+$r20 2 5 16 
+$r21 2 89 78 
+$r7 1 75 
+$r4 1 48 
+$r1 1 2 
+Fields: 0
+Accesses: 2
+133 1 -1 
+60 1 -1 
+Functions: 16
+-1 0 
+1 1 -1 
+34 0 
+2 4 48 2 38 41 
+5 2 16 5 
+74 1 -1 
+107 0 
+75 4 114 121 75 111 
+13 0 
+45 1 41 
+78 2 89 78 
+52 1 48 
+86 0 
+118 1 114 
+125 1 121 
+63 1 -1 
+Constructors: 4
+52 48
+118 114
+45 41
+125 121
+
+Summary: 12
+48 31 121 67 75 111 2 41 114 38 -1 104 
+org/eclipse/core/internal/runtime/InternalPlatform.getBundleId(Ljava/lang/Object;)Ljava/lang/String;
+PTG:
+Vars:
+6
+r2 1 10 
+r1 1 -1 
+$r3 1 19 
+$r5 1 33 
+r0 1 -2 
+r4 1 27 
+Fields: 0
+Accesses: 0
+Functions: 5
+32 1 27 
+17 2 19 10 
+18 1 -2 
+6 1 -1 
+41 1 27 
+Constructors: 0
+
+Summary: 6
+-1 19 27 33 10 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.getConfigurationLocation()Lorg/eclipse/osgi/service/datalocation/Location;
+PTG:
+Vars:
+13
+$r4 1 31 
+$r10 1 58 
+$r2 1 17 
+$r7 1 -1 
+$r6 1 5 
+$r9 1 5 
+$r5 1 14 
+_ret 1 58 
+$r11 1 58 
+$r3 1 14 
+r8 1 25 
+r0 1 -1 
+$r1 1 5 
+Fields: 2
+-1 configurationLocation 5
+-1 context 14
+Accesses: 6
+35 1 -1 
+4 1 -1 
+54 1 -1 
+44 1 -1 
+13 1 -1 
+47 1 -1 
+Functions: 5
+1 3 -1 5 14 
+51 1 5 
+55 1 5 
+41 3 25 14 31 
+14 2 17 14 
+Constructors: 1
+41 31
+
+Summary: 2
+-1 25 
+org/eclipse/core/internal/runtime/InternalPlatform.initializeDebugFlags()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+17 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.<init>()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 10 
+Fields: 0
+Accesses: 14
+33 1 -1 
+68 1 -1 
+6 1 -1 
+38 1 -1 
+73 1 -1 
+43 1 -1 
+78 1 -1 
+48 1 -1 
+18 1 -1 
+53 1 -1 
+23 1 -1 
+58 1 -1 
+28 1 -1 
+63 1 -1 
+Functions: 2
+1 1 -1 
+15 1 10 
+Constructors: 2
+1 -1
+15 10
+
+Summary: 1
+-1 
+org/eclipse/core/internal/runtime/InternalPlatform.getBooleanOption(Ljava/lang/String;Z)Z
+PTG:
+Vars:
+3
+r2 1 5 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 -2 
+12 1 5 
+Constructors: 0
+
+Summary: 4
+-1 5 0 -2 
+org/eclipse/core/internal/runtime/InternalPlatform.start(Lorg/osgi/framework/Bundle;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+17 1 -2 
+33 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 

@@ -1,0 +1,1795 @@
+59
+java/awt/EventQueue.getNextEvent()Ljava/awt/AWTEvent;
+PTG:
+Vars:
+8
+$r2 1 8 
+$r4 1 38 
+r0 1 -1 
+$r6 1 49 
+$r1 1 1 
+r3 1 20 
+$r7 1 8 
+$r5 1 42 
+Fields: 4
+-1 dispatchThread 42
+-1 appContext 1
+-1 pushPopLock 8
+-1 pushPopCond 49
+Accesses: 7
+0 1 -1 
+48 1 -1 
+70 1 -1 
+7 1 -1 
+41 1 -1 
+57 1 -1 
+27 1 -1 
+Functions: 9
+16 5 -1 1 49 8 42 
+-1 0 
+4 1 1 
+52 1 49 
+74 0 
+11 1 8 
+45 2 38 42 
+61 1 8 
+31 0 
+Constructors: 0
+
+Summary: 2
+-1 38 
+java/awt/EventQueue.access$400(Ljava/awt/EventQueue;)Lsun/awt/FwDispatcher;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -2 
+Fields: 1
+-2 fwDispatcher 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.dispatchEvent(Ljava/awt/AWTEvent;)V
+PTG:
+Vars:
+10
+r7 1 31 
+$r11 1 38 
+r5 1 19 
+r0 1 -2 
+r3 1 -1 
+r6 1 25 
+$r2 1 5 
+r1 1 4 
+$r9 1 55 
+$r8 1 58 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+16 0 
+66 4 -1 5 58 31 
+21 1 4 
+73 4 19 55 25 58 
+27 1 -2 
+12 4 -1 -2 4 5 
+46 4 19 5 38 31 
+Constructors: 2
+66 58
+12 5
+
+Summary: 9
+5 -2 58 -1 25 4 19 31 0 
+java/awt/EventQueue.access$700()Lsun/misc/JavaSecurityAccess;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/awt/EventQueue.getMostRecentEventTimeImpl()J
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 13 
+$r2 1 9 
+$r5 1 -1 
+$r7 1 1 
+$r1 1 1 
+Fields: 2
+-1 dispatchThread 13
+-1 pushPopLock 1
+Accesses: 5
+0 1 -1 
+19 1 -1 
+42 1 -1 
+12 1 -1 
+30 1 -1 
+Functions: 4
+-1 0 
+34 0 
+4 1 1 
+46 1 1 
+Constructors: 0
+
+Summary: 2
+-1 9 
+java/awt/EventQueue.peekEvent()Ljava/awt/AWTEvent;
+PTG:
+Vars:
+6
+$r5 1 21 
+$r3 1 16 
+$r4 1 20 
+$r2 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 4
+-1 queues 16
+-1 pushPopLock 1
+20 head 21
+16 ArrayObject 20
+Accesses: 7
+0 1 -1 
+20 1 20 
+70 1 -1 
+40 1 -1 
+57 1 -1 
+27 1 -1 
+15 1 -1 
+Functions: 4
+4 1 1 
+74 0 
+44 0 
+61 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/EventQueue.invokeAndWait(Ljava/lang/Runnable;)V
+PTG:
+Vars:
+2
+$r0 1 0 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+4 2 0 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.wakeup(Z)V
+PTG:
+Vars:
+7
+$r5 1 10 
+r0 1 -1 
+$r1 1 1 
+$r9 1 1 
+$r3 1 28 
+$r4 1 35 
+$r2 1 10 
+Fields: 4
+-1 dispatchThread 28
+-1 pushPopLock 1
+-1 pushPopCond 35
+-1 nextQueue 10
+Accesses: 7
+0 1 -1 
+16 1 -1 
+34 1 -1 
+67 1 -1 
+54 1 -1 
+9 1 -1 
+27 1 -1 
+Functions: 6
+51 5 -1 1 35 10 28 
+4 1 1 
+21 1 10 
+38 1 35 
+71 0 
+58 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/EventQueue.initDispatchThread()V
+PTG:
+Vars:
+10
+$r2 1 10 
+$r8 1 10 
+r0 1 -1 
+$r3 1 17 
+$r4 1 27 
+$r7 1 45 
+$r12 1 1 
+$r6 1 45 
+$r5 1 37 
+$r1 1 1 
+Fields: 4
+-1 dispatchThread 10
+-1 pushPopLock 1
+-1 appContext 27
+-1 threadGroup 17
+Accesses: 8
+0 1 -1 
+16 1 -1 
+51 1 -1 
+54 1 -1 
+9 1 -1 
+26 1 -1 
+74 1 -1 
+61 1 -1 
+Functions: 8
+17 1 17 
+65 1 1 
+4 1 1 
+37 1 37 
+42 6 -1 1 17 37 10 27 
+58 1 10 
+27 1 27 
+78 0 
+Constructors: 1
+42 37
+
+Summary: 1
+-1 
+java/awt/EventQueue.invokeLater(Ljava/lang/Runnable;)V
+PTG:
+Vars:
+4
+$r2 1 7 
+r3 1 -2 
+$r0 1 0 
+$r1 1 3 
+Fields: 0
+Accesses: 0
+Functions: 3
+-1 0 
+11 3 -2 3 7 
+14 2 0 3 
+Constructors: 1
+11 3
+
+Summary: 4
+7 -2 3 0 
+java/awt/EventQueue.getNextEventPrivate()Ljava/awt/AWTEvent;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 11 
+$r3 1 12 
+$r1 1 7 
+Fields: 3
+7 ArrayObject 11
+-1 queues 7
+11 head 12
+Accesses: 5
+48 1 -1 
+18 1 -1 
+6 1 -1 
+11 1 11 
+28 1 -1 
+Functions: 1
+60 4 -1 7 11 12 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/EventQueue.getNextEvent(I)Ljava/awt/AWTEvent;
+PTG:
+Vars:
+10
+$r1 1 1 
+r0 1 -1 
+$r2 1 8 
+r23 2 32 135 
+$r3 1 151 
+$r6 1 28 
+$r5 1 24 
+$r7 1 41 
+$r4 1 8 
+r22 2 32 135 
+Fields: 8
+32 event 41
+28 head 32
+-1 queues 24
+-1 appContext 1
+-1 pushPopLock 8
+-1 pushPopCond 151
+135 next 135
+24 ArrayObject 28
+Accesses: 19
+0 1 -1 
+161 1 -1 
+131 2 32 135 
+164 1 -1 
+7 1 -1 
+40 2 32 135 
+74 2 32 135 
+78 2 32 135 
+110 2 32 135 
+81 1 -1 
+178 1 -1 
+147 1 -1 
+116 1 -1 
+150 1 -1 
+23 1 -1 
+56 1 -1 
+28 1 28 
+62 2 32 135 
+94 1 -1 
+Functions: 8
+4 1 1 
+182 0 
+120 0 
+168 1 8 
+41 1 41 
+154 1 151 
+11 1 8 
+107 9 -1 32 1 151 135 24 8 41 28 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/EventQueue.getAccessControlContextFrom(Ljava/lang/Object;)Ljava/security/AccessControlContext;
+PTG:
+Vars:
+6
+$r2 1 -2 
+$r4 3 28 45 11 
+$r3 1 -2 
+_ret 3 28 45 11 
+r0 1 -2 
+$r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+8 1 -2 
+25 1 -2 
+42 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.<clinit>()V
+PTG:
+Vars:
+4
+$r1 1 11 
+$r2 1 21 
+$r3 1 31 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 5
+-1 0 
+5 1 0 
+25 1 21 
+28 1 21 
+15 1 11 
+Constructors: 3
+5 0
+25 21
+15 11
+
+Summary: 1
+21 
+java/awt/EventQueue.eventToCacheIndex(Ljava/awt/AWTEvent;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.createSecondaryLoop(Ljava/awt/Conditional;Ljava/awt/EventFilter;J)Ljava/awt/SecondaryLoop;
+PTG:
+Vars:
+16
+$r1 1 1 
+$r18 1 1 
+r6 1 -2 
+r7 1 -3 
+r19 1 26 
+$r8 1 80 
+$r2 1 10 
+$r11 1 41 
+$r4 1 80 
+$r10 1 47 
+$r14 1 10 
+$r3 1 41 
+r0 1 -1 
+$r12 1 56 
+$r5 1 90 
+$r16 1 -1 
+Fields: 4
+-1 dispatchThread 80
+-1 pushPopLock 1
+-1 fwDispatcher 41
+-1 nextQueue 10
+Accesses: 11
+0 1 -1 
+16 1 -1 
+67 1 -1 
+52 1 -1 
+40 1 -1 
+120 1 -1 
+9 1 -1 
+106 1 -1 
+28 1 -1 
+94 1 -1 
+79 1 -1 
+Functions: 10
+32 0 
+17 3 -2 -3 10 
+4 1 1 
+53 1 41 
+101 4 80 -2 -3 90 
+71 0 
+87 5 -1 80 1 41 10 
+124 1 1 
+62 8 -1 80 1 -3 56 41 10 47 
+110 0 
+Constructors: 2
+101 90
+62 47
+
+Summary: 6
+-2 1 -1 56 -3 0 
+java/awt/EventQueue.postEventPrivate(Ljava/awt/AWTEvent;)V
+PTG:
+Vars:
+8
+$r6 1 47 
+$r7 1 50 
+r1 1 -1 
+$r3 1 15 
+$r2 1 6 
+$r4 1 40 
+$r5 1 6 
+r0 1 -2 
+Fields: 3
+-1 dispatchThread 40
+-1 pushPopLock 6
+-1 nextQueue 15
+Accesses: 9
+2 1 -2 
+5 1 -1 
+21 1 -1 
+39 1 -1 
+56 1 -1 
+92 1 -1 
+29 1 -1 
+14 1 -1 
+79 1 -1 
+Functions: 11
+-1 0 
+96 0 
+33 0 
+67 4 -1 6 40 15 
+83 1 6 
+72 1 -2 
+9 1 6 
+26 1 -2 
+60 0 
+76 5 -1 -2 6 40 15 
+46 1 -2 
+Constructors: 0
+
+Summary: 5
+47 -2 -1 50 0 
+java/awt/EventQueue.postEvent(Ljava/awt/AWTEvent;)V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+Fields: 1
+-1 appContext 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+4 1 1 
+9 3 -1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+java/awt/EventQueue.setCurrentEventAndMostRecentTimeImpl(Ljava/awt/AWTEvent;)V
+PTG:
+Vars:
+11
+r11 1 -2 
+r5 1 -2 
+$r4 1 30 
+r10 1 -2 
+r12 1 -2 
+$r14 1 1 
+$r1 1 1 
+r13 1 -2 
+$r2 1 9 
+r0 1 -1 
+$r3 1 13 
+Fields: 2
+-1 dispatchThread 13
+-1 pushPopLock 1
+Accesses: 9
+0 1 -1 
+19 1 -1 
+147 1 -1 
+38 1 -1 
+155 1 -1 
+12 1 -1 
+172 1 -1 
+77 1 -1 
+158 1 -1 
+Functions: 12
+-1 0 
+96 1 -2 
+176 0 
+162 1 1 
+35 2 -2 30 
+4 1 1 
+118 1 -2 
+23 0 
+151 0 
+72 1 -2 
+58 1 -2 
+140 1 -2 
+Constructors: 1
+35 30
+
+Summary: 4
+-2 -1 9 0 
+java/awt/EventQueue.postEvent(Ljava/awt/AWTEvent;I)V
+PTG:
+Vars:
+22
+$r4 1 43 
+$r15 1 71 
+$r22 1 99 
+$r10 1 43 
+$r19 1 89 
+r0 1 -1 
+$r13 1 43 
+$r9 1 140 
+$r2 1 10 
+$r20 1 106 
+r1 1 -2 
+$r16 1 65 
+$r17 1 123 
+$r18 1 86 
+$r7 1 43 
+$r5 1 47 
+$r21 1 95 
+$r14 1 43 
+$r8 1 139 
+$r12 1 163 
+$r6 1 48 
+$r11 1 152 
+Fields: 12
+47 head 48
+43 ArrayObject 47
+43 ArrayObject 71
+43 ArrayObject 152
+43 ArrayObject 139
+43 ArrayObject 65
+-1 dispatchThread 99
+-1 queues 43
+-1 pushPopCond 123
+-1 pushPopCond 106
+-1 pushPopCond 163
+139 tail 140
+Accesses: 16
+66 1 -1 
+98 1 -1 
+162 1 -1 
+134 1 -1 
+105 1 -1 
+42 1 -1 
+74 1 71 
+139 1 139 
+77 1 65 
+47 1 47 
+144 1 140 
+147 1 -1 
+122 1 -1 
+154 1 152 
+28 1 -1 
+60 1 -1 
+Functions: 11
+0 14 -1 65 -2 99 163 71 106 43 139 140 47 48 152 123 
+-1 0 
+21 14 -1 65 99 163 71 106 10 43 139 140 47 48 152 123 
+85 1 -2 
+54 13 -1 65 99 163 71 106 43 139 140 47 48 152 123 
+102 2 99 95 
+166 1 163 
+24 1 -2 
+109 1 106 
+126 1 123 
+15 2 -2 10 
+Constructors: 1
+15 10
+
+Summary: 6
+-2 89 -1 95 86 0 
+java/awt/EventQueue.getCurrentEventImpl()Ljava/awt/AWTEvent;
+PTG:
+Vars:
+9
+$r1 1 1 
+$r2 1 9 
+$r7 1 23 
+$r11 1 23 
+r0 1 -1 
+$r6 1 20 
+$r8 1 -1 
+$r3 1 13 
+$r10 1 1 
+Fields: 3
+-1 currentEvent 20
+-1 dispatchThread 13
+-1 pushPopLock 1
+Accesses: 5
+0 1 -1 
+34 1 -1 
+19 1 -1 
+12 1 -1 
+46 1 -1 
+Functions: 5
+-1 0 
+50 1 1 
+4 1 1 
+20 1 20 
+38 0 
+Constructors: 0
+
+Summary: 2
+-1 9 
+java/awt/EventQueue.isDispatchThread()Z
+PTG:
+Vars:
+1
+r0 1 3 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 0 
+4 1 3 
+Constructors: 0
+
+Summary: 1
+3 
+java/awt/EventQueue.pop()V
+PTG:
+Vars:
+33
+r33 2 54 -1 
+$r37 1 176 
+$r9 1 43 
+$r38 1 179 
+$r1 1 3 
+$r23 1 33 
+r2 1 -1 
+$r19 1 12 
+$r36 1 173 
+$r30 1 114 
+$r34 1 54 
+$r28 1 -1 
+$r10 1 190 
+$r8 1 214 
+$r17 1 104 
+$r0 1 0 
+$r24 1 36 
+$r7 1 204 
+r4 1 72 
+$r16 1 139 
+$r5 1 139 
+$r6 1 199 
+$r32 1 126 
+$r3 1 43 
+$r31 1 117 
+$r35 1 96 
+$r13 1 139 
+$r15 1 139 
+$r11 1 173 
+$r14 1 149 
+$r20 1 15 
+$r21 1 24 
+$r22 1 28 
+Fields: 8
+54 dispatchThread 139
+54 previousQueue 72
+-1 dispatchThread 139
+-1 pushPopLock 43
+-1 appContext 173
+-1 pushPopCond 214
+-1 nextQueue 54
+-1 previousQueue 72
+Accesses: 16
+161 1 72 
+68 2 -1 54 
+164 2 -1 54 
+42 1 -1 
+138 2 -1 54 
+172 1 -1 
+236 1 -1 
+145 2 -1 54 
+53 2 -1 54 
+213 1 -1 
+87 2 -1 54 
+186 1 -1 
+60 2 -1 54 
+92 1 72 
+157 2 -1 54 
+222 1 -1 
+Functions: 24
+-1 0 
+0 2 0 3 
+33 1 33 
+194 3 72 173 190 
+226 1 43 
+132 2 -1 126 
+39 2 36 12 
+103 7 -1 54 214 72 139 43 173 
+169 2 72 139 
+107 2 72 104 
+173 2 176 173 
+46 1 43 
+15 1 15 
+207 9 -1 54 214 199 72 139 43 204 173 
+240 0 
+81 0 
+114 2 114 117 
+146 1 139 
+210 8 -1 54 214 199 72 139 43 173 
+19 1 15 
+24 8 -1 214 54 24 72 139 43 173 
+217 1 214 
+28 1 28 
+95 7 -1 54 214 72 139 43 173 
+Constructors: 2
+19 15
+207 199
+
+Summary: 15
+36 179 199 24 114 -1 12 149 28 33 0 104 15 96 126 
+java/awt/EventQueue.peekEvent(I)Ljava/awt/AWTEvent;
+PTG:
+Vars:
+7
+r11 2 62 24 
+$r3 1 16 
+$r5 1 30 
+$r2 1 1 
+$r4 1 20 
+r0 1 -1 
+$r1 1 1 
+Fields: 6
+62 next 62
+-1 queues 16
+-1 pushPopLock 1
+20 head 24
+16 ArrayObject 20
+24 event 30
+Accesses: 9
+0 1 -1 
+20 1 20 
+86 1 -1 
+40 2 24 62 
+72 1 -1 
+58 2 24 62 
+29 2 24 62 
+46 1 -1 
+15 1 -1 
+Functions: 5
+50 0 
+4 1 1 
+90 0 
+76 1 1 
+30 1 30 
+Constructors: 0
+
+Summary: 2
+62 -1 
+java/awt/EventQueue.getDispatchThread()Ljava/awt/EventDispatchThread;
+PTG:
+Vars:
+5
+$r6 1 1 
+$r1 1 1 
+r2 1 13 
+r0 1 -1 
+$r4 1 -1 
+Fields: 2
+-1 dispatchThread 13
+-1 pushPopLock 1
+Accesses: 4
+0 1 -1 
+9 1 -1 
+26 1 -1 
+14 1 -1 
+Functions: 3
+18 0 
+4 1 1 
+30 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/EventQueue.access$600(Ljava/awt/EventQueue;)Ljava/awt/EventDispatchThread;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -2 
+Fields: 1
+-2 dispatchThread 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.access$300(Ljava/awt/EventQueue;)J
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.access$800(Ljava/awt/EventQueue;)Ljava/lang/ThreadGroup;
+PTG:
+Vars:
+3
+r0 1 -2 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-2 threadGroup 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.noEvents()Z
+PTG:
+Vars:
+4
+$r3 1 13 
+r0 1 -1 
+$r2 1 12 
+$r1 1 8 
+Fields: 3
+-1 queues 8
+12 head 13
+8 ArrayObject 12
+Accesses: 2
+7 1 -1 
+12 1 12 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/EventQueue.mergePaintEvents(Ljava/awt/event/PaintEvent;Ljava/awt/event/PaintEvent;)Ljava/awt/event/PaintEvent;
+PTG:
+Vars:
+5
+r3 1 9 
+r1 1 4 
+r4 1 -1 
+r2 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+5 1 -3 
+22 2 4 9 
+11 2 4 9 
+Constructors: 0
+
+Summary: 5
+-1 1 9 4 0 
+java/awt/EventQueue.uncacheEQItem(Lsun/awt/EventQueueItem;)V
+PTG:
+Vars:
+10
+$r3 1 17 
+$r7 1 38 
+r9 1 -1 
+$r2 1 1 
+$r4 1 1 
+$r8 1 38 
+$r1 1 1 
+$r5 1 30 
+r0 1 -2 
+r6 1 30 
+Fields: 2
+-2 event 1
+30 eventCache 38
+Accesses: 5
+0 1 -2 
+37 1 30 
+26 1 -2 
+13 1 -2 
+45 1 30 
+Functions: 3
+1 1 1 
+27 1 1 
+14 1 1 
+Constructors: 0
+
+Summary: 7
+-2 17 -1 30 38 1 0 
+java/awt/EventQueue.getCurrentEvent()Ljava/awt/AWTEvent;
+PTG:
+Vars:
+3
+$r1 1 3 
+_ret 1 3 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+0 1 0 
+Constructors: 0
+
+Summary: 1
+0 
+java/awt/EventQueue.coalescePaintEvent(Ljava/awt/event/PaintEvent;)Z
+PTG:
+Vars:
+13
+$r2 1 1 
+$r4 1 23 
+$r5 1 23 
+r3 1 10 
+$r10 1 64 
+r12 1 73 
+r6 1 32 
+$r7 1 54 
+$r1 1 1 
+r0 1 -2 
+$r11 1 64 
+r8 1 -1 
+$r9 1 63 
+Fields: 5
+32 ArrayObject 54
+32 ArrayObject 63
+63 event 64
+23 eventCache 32
+1 peer 10
+Accesses: 3
+4 1 1 
+26 1 23 
+63 1 63 
+Functions: 5
+0 1 -2 
+17 2 -2 10 
+22 1 -2 
+39 1 -2 
+58 3 -1 64 -2 
+Constructors: 0
+
+Summary: 11
+-2 54 32 83 -1 10 63 23 64 1 0 
+java/awt/EventQueue.coalesceOtherEvent(Ljava/awt/AWTEvent;I)Z
+PTG:
+Vars:
+12
+$r4 1 15 
+$r7 1 35 
+$r5 1 19 
+$r8 1 32 
+$r9 1 32 
+r2 1 6 
+r10 1 66 
+r11 2 87 23 
+r3 1 -1 
+$r1 1 6 
+$r6 1 32 
+r0 1 -2 
+Fields: 5
+87 next 87
+15 ArrayObject 19
+-1 queues 15
+23 event 32
+19 head 23
+Accesses: 7
+82 2 87 23 
+19 1 19 
+57 2 87 23 
+43 2 87 23 
+77 2 87 23 
+14 1 -1 
+30 2 87 23 
+Functions: 5
+0 1 -2 
+32 1 32 
+5 1 -2 
+55 3 32 -2 6 
+45 1 32 
+Constructors: 0
+
+Summary: 6
+87 -2 -1 35 6 0 
+java/awt/EventQueue.access$900(Ljava/awt/EventQueue;)Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -2 
+Fields: 1
+-2 name 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.getPriority(Ljava/awt/AWTEvent;)I
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+55 1 -2 
+40 1 -2 
+27 1 -2 
+12 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.push(Ljava/awt/EventQueue;)V
+PTG:
+Vars:
+35
+$r25 1 15 
+$r36 1 141 
+$r37 1 150 
+$r10 1 201 
+$r27 1 28 
+$r39 1 54 
+$r1 1 3 
+$r13 1 212 
+$r9 1 195 
+$r17 1 175 
+$r8 1 198 
+$r18 1 128 
+$r5 1 86 
+$r29 1 36 
+$r4 1 69 
+$r6 1 86 
+$r12 1 43 
+$r19 1 86 
+$r22 1 86 
+$r24 1 12 
+$r26 1 24 
+$r21 1 86 
+r38 2 54 -1 
+$r16 1 170 
+r7 1 -2 
+$r28 1 33 
+$r40 1 120 
+$r11 1 221 
+r2 1 -1 
+$r3 1 43 
+$r14 1 195 
+$r35 1 138 
+$r20 1 96 
+$r0 1 0 
+$r33 1 -1 
+Fields: 8
+54 dispatchThread 86
+54 fwDispatcher 69
+-1 dispatchThread 86
+-1 pushPopLock 43
+-1 appContext 195
+-1 pushPopCond 221
+-1 fwDispatcher 69
+-1 nextQueue 54
+Accesses: 17
+162 2 -1 54 
+194 1 -1 
+68 2 -1 54 
+229 1 -1 
+104 2 -1 54 
+42 1 -1 
+108 1 -2 
+111 2 -1 54 
+208 1 -1 
+243 1 -1 
+53 2 -1 54 
+85 2 -1 54 
+186 1 -2 
+60 2 -1 54 
+92 2 -1 54 
+220 1 -1 
+191 2 -1 54 
+Functions: 24
+-1 0 
+0 2 0 3 
+224 1 221 
+33 1 33 
+131 2 128 -2 
+195 2 195 198 
+39 2 36 12 
+233 1 43 
+138 2 138 141 
+46 1 43 
+15 1 15 
+81 0 
+178 9 -1 195 69 54 86 170 43 221 175 
+19 1 15 
+116 2 -2 86 
+181 8 -1 195 69 54 86 170 43 221 
+119 7 -1 195 69 54 86 43 221 
+247 0 
+24 2 -2 24 
+216 3 -2 195 212 
+28 1 28 
+156 2 -1 150 
+93 1 86 
+127 7 -1 195 69 54 86 43 221 
+Constructors: 2
+178 170
+19 15
+
+Summary: 14
+36 24 170 150 120 12 201 138 28 33 0 128 15 96 
+java/awt/EventQueue.removeSourceEvents(Ljava/lang/Object;Z)V
+PTG:
+Vars:
+33
+$r27 1 44 
+$r22 1 44 
+$r12 1 44 
+r0 1 -1 
+r10 1 -2 
+$r6 1 24 
+$r30 1 44 
+$r18 1 179 
+$r16 2 208 221 
+$r14 2 208 221 
+r35 3 32 208 221 
+$r26 1 44 
+$r24 1 44 
+$r23 1 44 
+$r8 1 44 
+$r3 1 8 
+$r4 1 24 
+$r9 1 47 
+$r13 1 44 
+$r17 1 205 
+$r11 1 44 
+r34 3 32 208 221 
+$r5 1 28 
+$r1 1 1 
+$r15 1 24 
+$r21 1 44 
+$r20 1 44 
+$r2 1 8 
+$r19 1 44 
+$r25 1 44 
+$r7 1 255 
+$r28 1 44 
+$r29 1 44 
+Fields: 10
+32 event 44
+32 next 221
+32 next 208
+28 head 32
+-1 queues 24
+-1 appContext 1
+-1 pushPopLock 8
+24 ArrayObject 255
+24 ArrayObject 205
+24 ArrayObject 28
+Accesses: 27
+0 1 -1 
+258 1 255 
+69 3 32 208 221 
+7 1 -1 
+135 3 32 208 221 
+200 1 -1 
+267 1 -1 
+206 3 32 208 221 
+80 3 32 208 221 
+146 3 32 208 221 
+211 1 205 
+23 1 -1 
+281 1 -1 
+91 3 32 208 221 
+219 3 32 208 221 
+28 1 28 
+157 3 32 208 221 
+224 3 32 208 221 
+102 3 32 208 221 
+168 3 32 208 221 
+42 3 32 208 221 
+240 3 32 208 221 
+113 3 32 208 221 
+182 3 32 208 221 
+58 3 32 208 221 
+250 1 -1 
+124 3 32 208 221 
+Functions: 10
+-1 0 
+4 1 1 
+165 1 44 
+230 11 -1 32 208 1 24 8 28 44 205 221 255 
+11 1 8 
+44 1 44 
+285 0 
+190 2 179 44 
+143 1 44 
+271 1 8 
+Constructors: 0
+
+Summary: 5
+47 -2 179 -1 0 
+java/awt/EventQueue.createSecondaryLoop()Ljava/awt/SecondaryLoop;
+PTG:
+Vars:
+3
+$r1 1 4 
+_ret 1 4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/EventQueue.access$1000(Ljava/awt/EventQueue;)Ljava/lang/ClassLoader;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -2 
+Fields: 1
+-2 classLoader 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.getMostRecentEventTime()J
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+0 1 0 
+Constructors: 0
+
+Summary: 1
+0 
+java/awt/EventQueue.invokeAndWait(Ljava/lang/Object;Ljava/lang/Runnable;)V
+PTG:
+Vars:
+6
+r13 1 80 
+r3 1 -2 
+$r0 1 16 
+$r7 1 41 
+r4 1 -3 
+$r2 1 24 
+Fields: 0
+Accesses: 0
+Functions: 9
+-1 0 
+32 4 16 -2 -3 24 
+48 1 24 
+20 1 16 
+56 1 16 
+12 0 
+76 1 24 
+45 2 24 41 
+93 1 80 
+Constructors: 2
+32 24
+20 16
+
+Summary: 7
+-2 24 80 1 -3 41 0 
+java/awt/EventQueue.dispatchEventImpl(Ljava/awt/AWTEvent;Ljava/lang/Object;)V
+PTG:
+Vars:
+15
+r9 1 -1 
+$r8 1 142 
+$r6 1 135 
+$r3 1 114 
+$r11 1 -3 
+$r5 1 126 
+r1 1 -3 
+$r2 1 111 
+r0 1 -2 
+$r4 1 123 
+$r12 1 -3 
+$r14 1 -2 
+$r13 1 -3 
+$r10 1 102 
+$r7 1 139 
+Fields: 1
+-1 dispatchThread 102
+Accesses: 2
+2 1 -2 
+101 1 -1 
+Functions: 15
+-1 0 
+130 1 126 
+135 2 -2 135 
+41 2 -2 -3 
+105 1 102 
+139 1 139 
+45 1 -2 
+14 3 -1 -2 102 
+111 2 114 111 
+81 2 -2 -3 
+145 2 123 142 
+21 1 -2 
+94 2 -1 102 
+126 1 126 
+63 2 -2 -3 
+Constructors: 1
+130 126
+
+Summary: 8
+1 139 123 142 -1 111 -3 0 
+java/awt/EventQueue.access$500(Ljava/awt/EventQueue;Ljava/awt/AWTEvent;Ljava/lang/Object;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 -4 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 3 -2 -3 -4 
+Constructors: 0
+
+Summary: 6
+-2 1 -3 -4 2 0 
+java/awt/EventQueue.getMostRecentEventTimeEx()J
+PTG:
+Vars:
+4
+$r3 1 -1 
+r0 1 -1 
+$r1 1 1 
+$r5 1 1 
+Fields: 1
+-1 pushPopLock 1
+Accesses: 4
+0 1 -1 
+9 1 -1 
+26 1 -1 
+14 1 -1 
+Functions: 3
+18 0 
+4 1 1 
+30 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/EventQueue.access$100(Ljava/awt/EventQueue;Z)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.coalescePeerEvent(Lsun/awt/PeerEvent;)Z
+PTG:
+Vars:
+10
+r9 1 -2 
+r8 1 -1 
+$r4 1 36 
+$r5 1 37 
+$r1 1 1 
+$r0 1 1 
+r2 1 10 
+$r3 1 29 
+r10 1 46 
+$r6 1 37 
+Fields: 4
+36 event 37
+10 ArrayObject 36
+10 ArrayObject 29
+1 eventCache 10
+Accesses: 2
+4 1 1 
+36 1 36 
+Functions: 3
+0 1 -2 
+17 1 -2 
+33 2 -2 37 
+Constructors: 0
+
+Summary: 9
+36 -2 29 37 -1 10 53 1 0 
+java/awt/EventQueue.access$200(Ljava/awt/EventQueue;Lsun/awt/FwDispatcher;)V
+PTG:
+Vars:
+2
+r1 1 -3 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+java/awt/EventQueue.isDispatchThreadImpl()Z
+PTG:
+Vars:
+10
+$r1 1 3 
+$r8 1 -1 
+$r2 1 31 
+$r3 1 58 
+$r6 1 31 
+r0 1 -1 
+$r10 1 3 
+r11 3 15 -1 26 
+$r4 1 62 
+r12 2 15 26 
+Fields: 9
+15 dispatchThread 62
+15 fwDispatcher 31
+-1 dispatchThread 62
+-1 pushPopLock 3
+-1 fwDispatcher 31
+-1 nextQueue 15
+26 dispatchThread 62
+26 fwDispatcher 31
+26 nextQueue 26
+Accesses: 9
+2 1 -1 
+37 3 -1 26 15 
+22 2 26 15 
+87 1 -1 
+74 1 -1 
+11 1 -1 
+61 3 -1 26 15 
+30 3 -1 26 15 
+47 1 -1 
+Functions: 6
+-1 0 
+51 0 
+6 1 3 
+38 1 31 
+91 1 3 
+78 0 
+Constructors: 0
+
+Summary: 3
+58 -1 26 
+java/awt/EventQueue.setCurrentEventAndMostRecentTime(Ljava/awt/AWTEvent;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+4 2 0 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 0 
+java/awt/EventQueue.getMostRecentKeyEventTime()J
+PTG:
+Vars:
+4
+$r5 1 1 
+r0 1 -1 
+$r1 1 1 
+$r3 1 -1 
+Fields: 1
+-1 pushPopLock 1
+Accesses: 4
+0 1 -1 
+9 1 -1 
+26 1 -1 
+14 1 -1 
+Functions: 3
+18 0 
+4 1 1 
+30 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/EventQueue.cacheEQItem(Lsun/awt/EventQueueItem;)V
+PTG:
+Vars:
+11
+r6 1 30 
+$r8 1 38 
+$r1 1 1 
+$r2 1 1 
+$r5 1 30 
+$r9 1 46 
+$r3 1 17 
+$r7 1 38 
+$r4 1 1 
+r10 1 -1 
+r0 1 -2 
+Fields: 2
+-2 event 1
+30 eventCache 38
+Accesses: 6
+0 1 -2 
+49 1 30 
+52 1 30 
+37 1 30 
+26 1 -2 
+13 1 -2 
+Functions: 3
+1 1 1 
+27 1 1 
+14 1 1 
+Constructors: 0
+
+Summary: 4
+17 -1 30 38 
+java/awt/EventQueue.coalesceEvent(Ljava/awt/AWTEvent;I)Z
+PTG:
+Vars:
+5
+$r1 1 1 
+$r2 1 29 
+$r3 1 29 
+r4 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+32 1 29 
+19 1 -1 
+41 2 -1 -2 
+59 1 -1 
+75 1 -1 
+28 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 29 -1 1 0 
+java/awt/EventQueue.access$000(Ljava/awt/EventQueue;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/awt/EventQueue.setFwDispatcher(Lsun/awt/FwDispatcher;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+r2 1 -2 
+$r3 1 1 
+Fields: 1
+-1 nextQueue 1
+Accesses: 3
+0 1 -1 
+20 1 -1 
+7 1 -1 
+Functions: 1
+12 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 0 
+java/awt/EventQueue.<init>()V
+PTG:
+Vars:
+22
+$r18 1 132 
+$r2 1 13 
+$r11 1 101 
+$r13 1 109 
+$r21 1 82 
+$r19 1 132 
+$r9 1 65 
+$r14 1 115 
+$r4 1 23 
+$r6 1 47 
+$r17 1 109 
+$r16 1 129 
+$r15 1 115 
+$r1 1 6 
+$r10 1 68 
+$r3 1 16 
+$r20 1 86 
+r0 1 -1 
+$r5 1 26 
+$r8 1 59 
+$r12 1 112 
+$r7 1 56 
+Fields: 2
+-1 queues 82
+-1 appContext 109
+Accesses: 12
+81 1 -1 
+19 1 -1 
+36 1 -1 
+71 1 -1 
+104 1 -1 
+9 1 -1 
+121 1 -1 
+138 1 -1 
+43 1 -1 
+108 1 -1 
+29 1 -1 
+125 1 -1 
+Functions: 12
+-1 0 
+1 3 -1 82 109 
+65 1 65 
+51 1 47 
+23 1 23 
+56 1 56 
+90 1 86 
+59 1 59 
+13 1 13 
+109 2 112 109 
+126 2 129 109 
+47 1 47 
+Constructors: 3
+1 -1
+51 47
+90 86
+
+Summary: 2
+23 -1 
+java/awt/EventQueue.detachDispatchThread(Ljava/awt/EventDispatchThread;)V
+PTG:
+Vars:
+8
+$r7 1 8 
+r0 1 -1 
+$r5 1 29 
+$r2 1 8 
+$r4 1 18 
+r3 1 -2 
+$r6 1 37 
+$r1 1 1 
+Fields: 3
+-1 dispatchThread 18
+-1 appContext 1
+-1 pushPopLock 8
+Accesses: 6
+0 1 -1 
+17 1 -1 
+7 1 -1 
+26 1 -1 
+60 1 -1 
+47 1 -1 
+Functions: 8
+-1 0 
+64 0 
+33 2 -2 29 
+51 1 8 
+4 1 1 
+36 4 -1 1 18 8 
+11 1 8 
+44 4 -1 1 18 8 
+Constructors: 0
+
+Summary: 5
+-2 29 37 -1 0 
+java/awt/EventQueue.getEventLog()Lsun/util/logging/PlatformLogger;
+PTG:
+Vars:
+4
+$r2 1 8 
+$r0 1 0 
+_ret 1 14 
+$r1 1 14 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 0 
+Constructors: 0
+
+Summary: 0
+
+java/awt/EventQueue.coalesceMouseEvent(Ljava/awt/event/MouseEvent;)Z
+PTG:
+Vars:
+6
+$r2 1 1 
+$r1 1 1 
+r3 1 10 
+$r4 1 29 
+r6 1 -1 
+r0 1 -2 
+Fields: 2
+10 ArrayObject 29
+1 eventCache 10
+Accesses: 1
+4 1 1 
+Functions: 2
+0 1 -2 
+17 1 -2 
+Constructors: 0
+
+Summary: 6
+29 -1 10 35 1 0 

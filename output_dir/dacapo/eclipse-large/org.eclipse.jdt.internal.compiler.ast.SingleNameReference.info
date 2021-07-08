@@ -1,0 +1,1219 @@
+24
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Z)V
+PTG:
+Vars:
+42
+$r17 1 338 
+r39 1 364 
+$r9 1 73 
+$r21 1 150 
+$r18 1 387 
+$r26 1 73 
+$r5 1 560 
+$r31 1 153 
+$r29 1 150 
+r36 1 215 
+$r28 1 143 
+$r12 1 93 
+$r22 1 189 
+$r2 1 10 
+$r4 1 396 
+r11 1 89 
+$r16 1 349 
+$r7 1 550 
+r40 1 396 
+$r25 1 238 
+$r42 2 171 262 
+$r15 1 338 
+r0 1 -3 
+$r3 1 7 
+r37 1 307 
+$r8 2 171 262 
+$r10 1 73 
+$r35 1 189 
+$r23 1 200 
+r38 1 317 
+$r13 1 338 
+r1 1 -1 
+$r20 1 262 
+$r32 1 171 
+$r14 1 357 
+r34 1 82 
+$r27 1 73 
+$r30 1 146 
+$r19 1 291 
+r6 1 -2 
+$r24 1 189 
+r41 1 447 
+Fields: 15
+143 declaringClass 146
+-1 genericCast 262
+-1 genericCast 171
+-1 resolvedType 560
+-1 constant 7
+-1 binding 73
+-1 binding 396
+-1 actualReceiverType 357
+-1 actualReceiverType 150
+-1 syntheticAccessors 189
+-1 syntheticAccessors 338
+189 ArrayObject 200
+189 ArrayObject 238
+338 ArrayObject 387
+338 ArrayObject 349
+Accesses: 42
+0 1 -3 
+512 1 -1 
+195 1 -1 
+261 1 -1 
+6 1 -1 
+72 1 -1 
+136 1 -1 
+395 1 -1 
+143 1 143 
+207 1 -1 
+271 1 -1 
+337 1 -1 
+21 1 -1 
+149 1 -1 
+279 1 -1 
+344 1 -1 
+408 1 -1 
+536 1 -1 
+25 1 -1 
+474 1 -1 
+602 1 -1 
+159 1 -1 
+482 1 -1 
+35 1 -1 
+356 1 -1 
+294 1 -1 
+422 1 -1 
+550 1 550 
+233 1 -1 
+106 1 -1 
+170 1 -1 
+490 1 -1 
+43 1 -1 
+430 1 -1 
+559 1 -1 
+560 1 560 
+116 1 -1 
+180 1 -1 
+502 1 -1 
+250 1 -1 
+188 1 -1 
+382 1 -1 
+Functions: 34
+389 2 -3 387 
+326 19 -1 -2 -3 387 357 262 7 200 73 171 396 238 560 338 307 150 317 189 349 
+456 18 -1 -2 -3 387 357 262 7 200 73 171 396 238 560 338 150 189 349 447 
+76 1 73 
+140 1 73 
+589 1 -3 
+334 16 -1 -3 387 357 262 7 200 73 171 396 238 560 338 150 189 349 
+465 2 -3 396 
+211 3 -2 82 150 
+275 1 -3 
+84 1 82 
+596 1 -3 
+150 1 150 
+540 1 -3 
+29 1 -3 
+478 1 -3 
+606 1 -3 
+224 3 -3 82 215 
+290 1 -2 
+291 1 291 
+548 16 -1 -2 387 357 262 7 200 73 171 396 238 560 338 150 189 349 
+39 1 -3 
+360 3 -2 82 357 
+426 1 -3 
+110 2 -3 89 
+494 3 -3 262 171 
+240 2 -3 238 
+309 2 -2 307 
+373 3 -3 82 364 
+120 1 -3 
+184 1 -3 
+441 2 -2 396 
+506 1 -3 
+124 1 82 
+Constructors: 0
+
+Summary: 14
+-3 153 1 550 89 143 215 447 317 0 364 146 307 -1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.postConversionType(Lorg/eclipse/jdt/internal/compiler/lookup/Scope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+6
+r4 11 132 97 111 118 6 90 4 104 125 152 83 
+$r3 1 145 
+r2 1 -2 
+$r1 1 6 
+r0 1 -1 
+_ret 11 132 97 111 118 6 90 4 104 125 152 83 
+Fields: 2
+-1 genericCast 6
+-1 resolvedType 4
+Accesses: 5
+0 1 -1 
+17 1 -1 
+5 1 -1 
+133 1 -1 
+12 1 -1 
+Functions: 2
+144 1 -2 
+145 12 145 97 83 132 4 118 6 104 152 90 125 111 
+Constructors: 0
+
+Summary: 4
+-2 145 0 -1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+6
+$r4 1 5 
+r0 1 -1 
+_ret 1 5 
+r3 1 -4 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 4 -1 -2 -3 -4 
+Constructors: 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.generateReceiver(Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.genericTypeArguments()[Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.generateAssignment(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Lorg/eclipse/jdt/internal/compiler/ast/Assignment;Z)V
+PTG:
+Vars:
+36
+$r40 1 59 
+$r16 1 598 
+$r38 1 119 
+$r17 1 595 
+$r35 1 1 
+$r44 1 168 
+$r55 1 59 
+$r13 1 1 
+$r1 1 1 
+$r36 1 35 
+$r22 1 621 
+r8 1 -3 
+r0 1 -4 
+r2 1 -1 
+$r45 1 35 
+$r39 1 119 
+$r23 1 627 
+$r42 1 35 
+$r46 1 119 
+r7 1 -2 
+$r15 1 1 
+$r56 1 55 
+$r19 1 1 
+r73 1 59 
+$r21 1 1 
+$r53 1 35 
+$r43 1 171 
+$r54 1 35 
+$r41 1 153 
+$r20 1 1 
+$r14 1 582 
+$r24 1 624 
+$r37 1 119 
+$r18 1 582 
+$r3 1 59 
+r63 1 1 
+Fields: 10
+119 binding 153
+59 type 582
+35 constant 168
+35 binding 55
+621 resolvedType 624
+-1 binding 59
+-4 expression 1
+1 right 119
+1 resolvedType 595
+1 left 35
+Accesses: 57
+0 1 -4 
+513 1 -4 
+259 1 -4 
+390 1 -4 
+10 1 -4 
+650 1 -1 
+267 1 -1 
+142 1 1 
+529 1 -4 
+19 1 1 
+147 1 119 
+405 1 -1 
+662 1 -3 
+539 1 59 
+156 1 -1 
+416 1 -1 
+33 1 1 
+163 1 1 
+675 1 -4 
+165 1 35 
+422 1 -1 
+296 1 -3 
+44 1 1 
+302 1 -1 
+49 1 35 
+177 1 1 
+179 1 35 
+438 1 -4 
+58 1 -1 
+446 1 -1 
+322 1 -1 
+196 1 1 
+580 1 59 
+69 1 -1 
+198 1 119 
+455 1 59 
+591 1 -4 
+80 1 -1 
+464 1 -4 
+592 1 1 
+337 1 -1 
+86 1 1 
+219 1 -1 
+604 1 -4 
+93 1 1 
+477 1 -4 
+230 1 -1 
+614 1 -4 
+236 1 1 
+109 1 -4 
+621 1 621 
+496 1 -4 
+243 1 1 
+117 1 1 
+503 1 -4 
+634 1 59 
+383 1 -1 
+Functions: 28
+576 1 -3 
+1 7 1 595 35 119 55 168 153 
+387 1 -3 
+582 1 582 
+263 1 -3 
+647 3 -3 582 59 
+520 2 -2 -3 
+333 1 -2 
+397 2 -2 -3 
+334 0 
+533 1 -3 
+471 9 1 -2 -3 595 35 119 55 168 153 
+666 2 582 59 
+352 1 -2 
+100 5 -2 -3 35 55 168 
+679 1 -3 
+618 7 1 595 35 119 55 168 153 
+429 5 -1 -2 -3 582 59 
+113 1 -3 
+369 5 -1 -2 -3 582 59 
+306 0 
+377 4 -1 -3 582 59 
+569 1 -3 
+250 4 -2 -3 119 153 
+314 0 
+442 1 -3 
+507 1 -3 
+639 2 -3 582 
+Constructors: 0
+
+Summary: 13
+-3 350 621 1 1 624 312 88 0 -4 360 2 -1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;Z)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+15
+$r3 1 120 
+$r2 1 120 
+r0 1 -1 
+$r9 1 86 
+$r10 1 106 
+r13 1 93 
+$r12 1 55 
+r1 1 -4 
+$r5 1 136 
+$r8 1 83 
+$r11 1 34 
+r4 1 -2 
+_ret 1 -4 
+r7 1 -3 
+r6 1 55 
+Fields: 3
+-1 binding 120
+-1 binding 55
+55 declaringClass 83
+Accesses: 9
+0 1 -1 
+81 1 55 
+145 1 -4 
+34 1 34 
+163 1 120 
+54 1 -1 
+119 1 -1 
+157 1 120 
+174 1 120 
+Functions: 13
+33 1 -2 
+71 3 -2 83 55 
+135 1 -2 
+105 1 -2 
+142 5 -1 83 55 136 120 
+80 3 -3 -4 86 
+112 5 -1 83 55 120 106 
+51 6 -1 -2 83 -4 55 120 
+83 1 83 
+118 2 -4 120 
+185 6 -1 -2 83 -4 55 120 
+63 2 83 55 
+95 3 83 55 93 
+Constructors: 0
+
+Summary: 10
+93 106 -3 0 86 1 34 136 2 -1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.analyseAssignment(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;Lorg/eclipse/jdt/internal/compiler/ast/Assignment;Z)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+28
+r3 1 -2 
+$r9 2 124 53 
+$r19 1 83 
+$r7 1 429 
+$r25 1 179 
+$r15 1 140 
+$r12 1 193 
+r0 1 -5 
+$r18 1 80 
+$r8 1 407 
+$r2 2 124 53 
+r1 1 -1 
+$r27 1 314 
+$r13 1 124 
+r23 1 90 
+r21 2 199 -4 
+$r20 1 103 
+$r14 1 124 
+r26 2 124 53 
+r6 1 -3 
+$r5 1 453 
+$r10 1 284 
+$r4 1 480 
+$r17 1 53 
+$r16 1 53 
+r28 2 124 53 
+$r11 1 179 
+_ret 2 199 -4 
+Fields: 4
+53 declaringClass 80
+-5 expression 179
+-1 binding 53
+-1 binding 124
+Accesses: 19
+0 2 -4 199 
+352 1 -1 
+163 1 124 
+326 1 -1 
+358 1 -1 
+200 1 -1 
+235 1 -1 
+78 1 53 
+174 1 124 
+366 1 -1 
+177 1 -5 
+465 2 53 124 
+52 1 -1 
+21 1 -1 
+344 1 -1 
+185 1 -5 
+377 1 -1 
+123 1 -1 
+157 1 124 
+Functions: 39
+320 5 80 -1 53 314 124 
+193 1 193 
+257 3 80 53 124 
+68 3 80 -2 53 
+452 1 -2 
+265 4 80 -2 53 124 
+139 1 -2 
+459 5 80 -1 453 53 124 
+77 4 -3 83 -4 199 
+398 3 80 53 124 
+335 5 80 -4 53 199 124 
+80 1 80 
+146 5 -1 80 53 140 124 
+274 5 80 -4 53 199 124 
+406 1 -2 
+283 1 -2 
+92 3 80 53 90 
+413 5 80 -1 53 407 124 
+479 1 -2 
+290 5 80 -1 53 284 124 
+419 5 80 -4 53 199 124 
+102 1 -2 
+486 5 480 80 -1 53 124 
+232 7 -1 80 -2 -4 53 199 124 
+428 1 -2 
+492 5 80 -4 53 199 124 
+109 5 80 -1 53 103 124 
+301 7 80 -1 -3 -4 53 199 124 
+369 3 80 53 124 
+498 7 -1 80 -2 -4 53 199 124 
+307 5 80 -4 53 199 124 
+435 5 80 -1 53 124 429 
+116 7 -1 80 -2 -4 53 199 124 
+244 3 80 53 124 
+56 2 80 53 
+313 1 -2 
+122 3 -4 199 124 
+187 5 -2 -3 179 -4 199 
+446 7 80 -1 -3 -4 53 199 124 
+Constructors: 0
+
+Summary: 18
+179 -3 429 90 314 480 1 3 407 -5 103 0 453 140 284 2 -1 83 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.unboundReferenceErrorName()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r2 1 5 
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 1
+-1 token 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+8 2 0 5 
+Constructors: 1
+8 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.printExpression(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+5
+$r3 1 5 
+r0 1 -3 
+r1 1 -1 
+_ret 1 5 
+$r2 1 2 
+Fields: 1
+-1 token 2
+Accesses: 1
+1 1 -1 
+Functions: 1
+0 2 -3 2 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.computeConversion(Lorg/eclipse/jdt/internal/compiler/lookup/Scope;Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)V
+PTG:
+Vars:
+21
+$r14 1 134 
+$r15 1 138 
+$r20 1 99 
+r3 1 -2 
+r8 1 49 
+$r19 1 96 
+r7 1 19 
+r2 1 -1 
+$r4 1 19 
+$r17 1 149 
+r0 1 -3 
+r13 1 106 
+$r21 1 106 
+r1 1 -4 
+$r12 1 106 
+$r18 2 -3 -4 
+r9 1 56 
+$r16 1 146 
+$r5 1 19 
+$r6 1 19 
+$r10 1 60 
+Fields: 3
+49 type 56
+-1 genericCast 106
+-1 binding 19
+Accesses: 8
+18 1 -1 
+35 1 -1 
+51 1 49 
+115 1 -1 
+102 1 -1 
+9 1 -1 
+25 1 -1 
+105 1 -1 
+Functions: 15
+69 1 -4 
+133 1 -2 
+165 6 -1 -2 -3 19 -4 106 
+44 1 19 
+76 1 -3 
+144 1 106 
+146 1 146 
+26 1 19 
+58 1 56 
+91 2 96 56 
+155 3 149 138 106 
+60 1 60 
+124 2 -2 106 
+93 3 -2 -3 -4 
+158 5 -1 19 134 106 138 
+Constructors: 1
+155 138
+
+Summary: 13
+-3 49 0 138 -4 1 149 146 60 2 134 96 -1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.generateCompoundAssignment(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Lorg/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/eclipse/jdt/internal/compiler/ast/Expression;IIZ)V
+PTG:
+Vars:
+37
+r12 1 -4 
+$r2 1 236 
+$r15 1 520 
+$r27 1 49 
+r33 1 38 
+$r24 1 168 
+$r23 1 179 
+$r25 1 217 
+$r7 1 297 
+$r22 1 168 
+$r16 1 291 
+$r32 1 98 
+r37 1 194 
+r35 1 134 
+$r1 1 226 
+r3 1 -3 
+$r9 1 236 
+$r19 1 29 
+$r20 1 168 
+$r30 1 60 
+r38 1 226 
+r34 1 75 
+$r26 1 118 
+r36 1 144 
+$r21 1 187 
+$r14 1 496 
+r0 1 -1 
+r5 1 -5 
+$r6 1 291 
+$r17 1 496 
+$r8 2 226 29 
+$r18 1 29 
+$r28 1 68 
+$r29 1 49 
+r4 1 -2 
+r41 2 226 29 
+$r31 1 49 
+Fields: 13
+49 ArrayObject 60
+49 ArrayObject 98
+-5 constant 291
+-1 genericCast 496
+-1 binding 226
+-1 binding 29
+-1 syntheticAccessors 168
+-1 syntheticAccessors 49
+-1 actualReceiverType 187
+-1 actualReceiverType 68
+226 type 236
+168 ArrayObject 179
+168 ArrayObject 217
+Accesses: 30
+0 1 -1 
+67 1 -1 
+527 1 -5 
+592 1 -1 
+212 1 -1 
+532 1 -1 
+409 1 226 
+28 1 -1 
+93 1 -1 
+225 1 -1 
+289 1 -5 
+610 1 -1 
+167 1 -1 
+106 1 -1 
+234 1 226 
+236 1 236 
+621 1 -1 
+174 1 -1 
+367 1 226 
+495 1 -1 
+48 1 -1 
+564 1 -1 
+437 1 -1 
+55 1 -1 
+503 1 -1 
+121 1 -1 
+186 1 -1 
+635 2 226 29 
+637 1 236 
+511 1 -1 
+Functions: 38
+385 3 -3 226 236 
+515 1 -3 
+389 1 291 
+71 3 -2 68 38 
+136 2 -2 134 
+203 3 -3 194 38 
+269 17 -1 -2 -3 226 98 291 68 -5 168 236 496 49 179 217 187 60 29 
+84 3 -3 38 75 
+596 0 
+278 1 -3 
+536 2 -3 291 
+153 17 -1 -2 -3 226 98 68 134 168 236 144 496 49 179 217 187 60 29 
+665 1 -3 
+219 2 -3 217 
+348 1 291 
+285 3 -3 226 236 
+32 1 29 
+160 1 -3 
+416 1 -3 
+672 1 -3 
+547 4 -2 -3 291 -5 
+100 2 -3 98 
+164 1 -3 
+679 4 -3 226 236 29 
+40 1 38 
+489 4 -2 -3 291 -5 
+617 16 -1 -2 226 98 -3 -4 68 168 236 496 49 179 217 187 60 29 
+427 3 -3 226 236 
+555 1 -3 
+303 1 291 
+561 1 -3 
+434 3 -3 226 236 
+117 1 -2 
+118 1 118 
+374 1 -3 
+313 1 291 
+507 2 496 -3 
+190 3 -2 38 187 
+Constructors: 0
+
+Summary: 14
+-3 194 1 75 3 144 -5 134 0 -4 602 2 -1 38 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.localVariableBinding()Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+31 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.resolveType(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+12
+$r3 1 29 
+$r7 1 369 
+$r6 1 57 
+$r21 1 14 
+$r23 1 18 
+$r4 1 38 
+r0 1 -1 
+$r1 1 1 
+r2 1 -2 
+$r5 1 50 
+$r22 1 1 
+_ret 1 369 
+Fields: 4
+-1 token 38
+-1 token 14
+-1 binding 57
+-1 actualReceiverType 1
+Accesses: 32
+0 1 -1 
+320 1 -1 
+193 1 -1 
+257 1 -1 
+66 1 -1 
+323 1 -1 
+136 1 -1 
+9 1 -1 
+13 1 -1 
+144 1 -1 
+273 1 -1 
+147 1 -1 
+21 1 -1 
+214 1 -1 
+154 1 -1 
+32 1 -1 
+164 1 -1 
+37 1 -1 
+231 1 -1 
+295 1 -1 
+41 1 -1 
+362 1 -1 
+108 1 -1 
+303 1 -1 
+306 1 -1 
+244 1 -1 
+53 1 -1 
+373 1 -1 
+118 1 -1 
+56 1 -1 
+313 1 -1 
+126 1 -1 
+Functions: 18
+288 5 -1 1 38 57 14 
+36 6 -1 -2 1 38 57 14 
+8 6 -1 -2 1 38 57 14 
+331 6 -1 1 -2 38 57 14 
+204 0 
+175 1 -2 
+367 6 -1 1 -2 38 57 14 
+242 1 -2 
+340 1 -2 
+184 5 -1 1 38 57 14 
+57 1 57 
+282 1 -2 
+346 5 -1 1 38 57 14 
+28 1 -2 
+220 6 -1 1 -2 38 57 14 
+157 0 
+349 1 -2 
+350 0 
+Constructors: 0
+
+Summary: 6
+283 176 341 350 0 -1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.checkFieldAccess(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+21
+$r22 1 70 
+$r1 1 1 
+r19 1 53 
+$r8 1 215 
+$r9 1 218 
+$r6 1 123 
+r4 1 -2 
+r2 1 1 
+$r18 1 136 
+$r23 1 111 
+r5 1 41 
+$r21 1 73 
+$r10 1 257 
+$r7 1 211 
+$r24 1 95 
+r0 1 -1 
+r20 1 67 
+$r25 1 279 
+_ret 1 279 
+$r3 1 10 
+$r12 1 191 
+Fields: 6
+67 superclass 95
+-1 constant 70
+-1 binding 1
+215 declaringClass 218
+1 type 279
+1 declaringClass 53
+Accesses: 22
+0 1 -1 
+160 1 1 
+224 1 41 
+34 1 -1 
+69 1 -1 
+199 1 -1 
+231 1 1 
+168 1 -1 
+266 1 -1 
+235 1 41 
+13 1 -1 
+79 1 41 
+16 1 -1 
+144 1 41 
+49 1 1 
+275 1 -1 
+278 1 1 
+215 1 215 
+24 1 -1 
+249 1 41 
+27 1 -1 
+93 1 67 
+Functions: 22
+256 1 -2 
+196 6 -1 1 53 70 279 191 
+37 1 -2 
+165 6 -1 1 -2 53 70 279 
+103 1 41 
+135 1 -2 
+263 6 -1 257 1 53 70 279 
+9 3 1 53 279 
+42 3 1 53 279 
+141 6 -1 1 53 70 279 136 
+110 1 -2 
+210 1 41 
+242 3 1 53 279 
+116 6 -1 1 53 70 279 111 
+214 3 1 53 279 
+55 1 53 
+151 1 -2 
+122 1 -2 
+123 1 123 
+157 5 -1 1 53 70 279 
+190 1 -2 
+63 1 -2 
+Constructors: 0
+
+Summary: 14
+257 41 67 111 218 95 0 123 191 136 211 152 -1 215 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.manageSyntheticAccessIfNecessary(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;Z)V
+PTG:
+Vars:
+12
+$r17 1 78 
+$r19 1 85 
+r0 1 -3 
+r8 1 -2 
+$r3 1 11 
+r1 1 -1 
+$r4 1 31 
+r5 1 31 
+$r2 1 14 
+$r18 1 82 
+$r16 1 75 
+r6 1 44 
+Fields: 3
+44 declaringClass 75
+-1 constant 11
+-1 binding 31
+Accesses: 10
+0 1 -3 
+21 1 -1 
+103 1 -1 
+73 1 44 
+10 1 -1 
+106 1 -1 
+91 1 -1 
+123 1 -1 
+30 1 -1 
+46 1 -1 
+Functions: 11
+65 2 75 44 
+81 1 -2 
+82 1 82 
+147 1 -2 
+39 1 31 
+119 1 -2 
+120 0 
+136 2 75 44 
+57 2 75 44 
+75 1 75 
+155 5 -1 75 11 44 31 
+Constructors: 0
+
+Summary: 11
+-3 0 44 82 133 1 75 78 -1 148 85 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.nullStatus(Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)I
+PTG:
+Vars:
+7
+r4 1 -2 
+r0 1 -1 
+r3 1 51 
+$r2 1 51 
+$r1 1 1 
+$r6 1 1 
+$r5 1 11 
+Fields: 2
+-1 constant 1
+-1 binding 51
+Accesses: 4
+0 1 -1 
+50 1 -1 
+19 1 -1 
+7 1 -1 
+Functions: 2
+72 2 -2 51 
+62 2 -2 51 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.generatePostIncrement(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Lorg/eclipse/jdt/internal/compiler/ast/CompoundAssignment;Z)V
+PTG:
+Vars:
+11
+$r1 1 422 
+$r2 1 435 
+$r6 1 432 
+r11 1 -2 
+$r42 1 549 
+$r43 1 552 
+r0 1 -1 
+r5 1 -4 
+$r3 1 432 
+r4 1 -3 
+r41 1 422 
+Fields: 4
+549 constant 552
+-1 binding 422
+422 type 432
+-4 expression 549
+Accesses: 38
+0 1 -1 
+578 1 -4 
+67 1 -1 
+452 1 -4 
+394 1 -1 
+462 1 422 
+212 1 -1 
+405 1 -1 
+344 1 -1 
+411 1 -1 
+475 1 422 
+28 1 -1 
+540 1 -1 
+93 1 -1 
+222 1 -1 
+352 1 -4 
+548 1 -4 
+421 1 -1 
+549 1 549 
+230 1 -1 
+167 1 -1 
+359 1 -1 
+106 1 -1 
+555 1 -1 
+237 1 -1 
+174 1 -1 
+430 1 422 
+367 1 -4 
+48 1 -1 
+498 1 422 
+371 1 -1 
+563 1 -4 
+500 1 432 
+55 1 -1 
+567 1 -1 
+121 1 -1 
+186 1 -1 
+382 1 -4 
+Functions: 36
+449 3 432 -3 422 
+258 0 
+386 1 -3 
+582 1 -3 
+71 1 -2 
+136 1 -2 
+203 1 -3 
+333 1 -3 
+589 3 432 -3 422 
+529 1 -3 
+84 1 -3 
+340 1 -3 
+468 1 -3 
+536 1 -3 
+153 5 -1 432 -2 -3 422 
+219 1 -3 
+348 1 -3 
+32 0 
+160 1 -3 
+544 1 -3 
+417 5 -1 432 -2 -3 422 
+481 1 -3 
+100 1 -3 
+164 1 -3 
+293 1 -3 
+40 0 
+234 1 -3 
+490 3 432 -3 422 
+363 1 -3 
+300 1 -3 
+559 2 -3 552 
+117 1 -2 
+118 0 
+378 1 -3 
+190 1 -2 
+574 1 -3 
+Constructors: 0
+
+Summary: 16
+-3 549 194 1 75 144 134 251 353 0 -4 552 2 -1 38 356 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 -3 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 3 -1 -2 -3 
+10 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.generateCompoundAssignment(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Lorg/eclipse/jdt/internal/compiler/ast/Expression;IIZ)V
+PTG:
+Vars:
+7
+$r9 1 19 
+$r4 1 4 
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+$r3 1 4 
+r5 1 -4 
+Fields: 2
+4 ArrayObject 19
+-1 syntheticAccessors 4
+Accesses: 2
+3 1 -1 
+14 1 -1 
+Functions: 1
+27 6 -1 -2 -3 19 -4 4 
+Constructors: 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.manageEnclosingInstanceAccessIfNecessary(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+7
+r4 1 -2 
+$r6 1 44 
+$r2 1 24 
+$r5 1 44 
+$r3 1 21 
+r0 1 -3 
+r1 1 -1 
+Fields: 2
+-1 constant 21
+-1 binding 44
+Accesses: 5
+0 1 -3 
+20 1 -1 
+9 1 -1 
+43 1 -1 
+31 1 -1 
+Functions: 1
+50 2 -2 44 
+Constructors: 0
+
+Summary: 4
+-3 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/ClassScope;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 3 -1 -2 -3 
+10 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.reportError(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+14
+r4 1 -2 
+$r10 1 8 
+$r12 1 8 
+$r2 1 8 
+$r11 1 18 
+$r3 1 8 
+$r13 1 8 
+r0 1 -1 
+$r5 1 56 
+$r6 1 8 
+$r1 1 1 
+$r8 1 8 
+$r9 1 74 
+$r7 1 8 
+Fields: 1
+-1 binding 8
+Accesses: 7
+35 1 -1 
+4 1 -1 
+22 1 -1 
+7 1 -1 
+60 1 -1 
+45 1 -1 
+78 1 -1 
+Functions: 6
+17 1 -2 
+82 3 -1 8 74 
+67 3 -1 56 8 
+55 1 -2 
+73 1 -2 
+29 3 -1 18 8 
+Constructors: 0
+
+Summary: 5
+74 0 -1 18 56 
+org/eclipse/jdt/internal/compiler/ast/SingleNameReference.<init>([CJ)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+21 1 -1 
+6 1 -1 
+15 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 

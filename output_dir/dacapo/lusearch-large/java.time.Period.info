@@ -1,0 +1,978 @@
+51
+java/time/Period.get(Ljava/time/temporal/TemporalUnit;)J
+PTG:
+Vars:
+10
+$r5 1 43 
+$r4 1 39 
+r9 1 -1 
+$r7 1 56 
+r0 1 -2 
+$r2 1 14 
+$r1 1 1 
+$r3 1 27 
+$r6 1 52 
+$r8 1 59 
+Fields: 0
+Accesses: 0
+Functions: 8
+33 1 -1 
+20 1 -1 
+52 2 -2 52 
+7 1 -1 
+56 1 56 
+43 1 43 
+62 2 39 59 
+47 1 43 
+Constructors: 2
+62 39
+47 43
+
+Summary: 6
+-1 -2 56 52 43 59 
+java/time/Period.getYears()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.plusMonths(J)Ljava/time/Period;
+PTG:
+Vars:
+3
+$r1 1 28 
+r0 1 -1 
+_ret 1 28 
+Fields: 0
+Accesses: 3
+8 1 -1 
+24 1 -1 
+12 1 -1 
+Functions: 3
+17 0 
+18 0 
+25 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.of(III)Ljava/time/Period;
+PTG:
+Vars:
+2
+$r0 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.minusYears(J)Ljava/time/Period;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 12 
+$r2 2 25 16 
+_ret 2 25 16 
+Fields: 0
+Accesses: 0
+Functions: 3
+22 1 -1 
+8 1 -1 
+12 1 12 
+Constructors: 0
+
+Summary: 2
+-1 12 
+java/time/Period.normalized()Ljava/time/chrono/ChronoPeriod;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.hashCode()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+4 1 -1 
+14 1 -1 
+Functions: 2
+18 0 
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.parseNumber(Ljava/lang/CharSequence;Ljava/lang/String;I)I
+PTG:
+Vars:
+4
+r4 1 -2 
+r0 1 -3 
+$r1 1 -1 
+$r3 1 19 
+Fields: 0
+Accesses: 0
+Functions: 3
+6 1 -3 
+12 0 
+29 3 -1 -2 19 
+Constructors: 1
+29 19
+
+Summary: 2
+-2 -3 
+java/time/Period.isZero()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.parse(Ljava/lang/CharSequence;)Ljava/time/Period;
+PTG:
+Vars:
+10
+r0 1 -2 
+r10 1 66 
+$r4 1 162 
+$r6 1 26 
+r8 1 52 
+r7 1 46 
+r3 1 14 
+$r5 1 22 
+$r2 1 7 
+r9 1 59 
+Fields: 0
+Accesses: 0
+Functions: 18
+128 0 
+98 2 -2 52 
+3 1 -2 
+7 2 -2 7 
+41 1 14 
+170 2 -2 162 
+107 2 -2 59 
+140 0 
+15 1 14 
+47 1 14 
+116 2 -2 66 
+22 2 22 26 
+54 1 14 
+24 1 14 
+89 2 -2 46 
+61 1 14 
+126 0 
+158 1 -2 
+Constructors: 1
+170 162
+
+Summary: 7
+-2 46 52 66 14 26 59 
+java/time/Period.from(Ljava/time/temporal/TemporalAmount;)Ljava/time/Period;
+PTG:
+Vars:
+13
+r6 1 102 
+$r8 1 141 
+$r7 1 124 
+$r17 1 26 
+_ret 1 207 
+$r4 1 207 
+$r15 1 -2 
+$r9 1 158 
+$r16 1 19 
+r3 1 88 
+$r2 1 78 
+r0 1 -2 
+$r5 1 102 
+Fields: 0
+Accesses: 0
+Functions: 22
+130 0 
+67 1 -2 
+100 1 88 
+164 0 
+197 0 
+41 0 
+45 0 
+77 1 -2 
+78 1 78 
+206 0 
+112 2 -2 102 
+177 0 
+50 1 -2 
+19 2 19 26 
+147 0 
+181 0 
+54 0 
+23 1 -2 
+90 1 88 
+186 1 102 
+60 0 
+191 0 
+Constructors: 0
+
+Summary: 12
+177 194 88 102 186 50 57 78 191 41 26 54 
+java/time/Period.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+19 1 -1 
+41 1 -1 
+30 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/time/Period.getUnits()Ljava/util/List;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.getChronology()Ljava/time/chrono/Chronology;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.create(III)Ljava/time/Period;
+PTG:
+Vars:
+2
+$r0 1 12 
+_ret 1 12 
+Fields: 0
+Accesses: 0
+Functions: 1
+19 1 12 
+Constructors: 1
+19 12
+
+Summary: 0
+
+java/time/Period.ofDays(I)Ljava/time/Period;
+PTG:
+Vars:
+2
+$r0 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.toTotalMonths()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.plus(Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoPeriod;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 2 
+r1 1 -2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/time/Period.withMonths(I)Ljava/time/Period;
+PTG:
+Vars:
+3
+$r1 1 19 
+_ret 1 19 
+r0 1 -1 
+Fields: 0
+Accesses: 3
+1 1 -1 
+10 1 -1 
+15 1 -1 
+Functions: 1
+16 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.getMonths()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.minusMonths(J)Ljava/time/Period;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 2 25 16 
+$r1 1 12 
+_ret 2 25 16 
+Fields: 0
+Accesses: 0
+Functions: 3
+22 1 -1 
+8 1 -1 
+12 1 12 
+Constructors: 0
+
+Summary: 2
+-1 12 
+java/time/Period.multipliedBy(I)Ljava/time/chrono/ChronoPeriod;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.withDays(I)Ljava/time/Period;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 19 
+_ret 1 19 
+Fields: 0
+Accesses: 3
+1 1 -1 
+10 1 -1 
+14 1 -1 
+Functions: 1
+18 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.validateChrono(Ljava/time/temporal/TemporalAccessor;)V
+PTG:
+Vars:
+6
+$r3 1 11 
+r4 1 11 
+r12 1 -1 
+r0 1 -2 
+$r2 1 8 
+$r5 1 24 
+Fields: 0
+Accesses: 0
+Functions: 10
+-1 0 
+50 1 11 
+3 1 -2 
+38 0 
+7 2 -2 8 
+24 2 24 11 
+56 0 
+42 0 
+62 0 
+47 0 
+Constructors: 0
+
+Summary: 10
+11 -1 -2 47 56 51 0 8 59 38 
+java/time/Period.subtractFrom(Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+PTG:
+Vars:
+6
+$r3 1 25 
+r4 4 -2 33 80 58 
+$r2 1 50 
+$r1 1 72 
+r0 1 -1 
+_ret 4 -2 33 80 58 
+Fields: 0
+Accesses: 5
+67 1 -1 
+20 1 -1 
+5 1 -1 
+59 1 -1 
+12 1 -1 
+Functions: 5
+48 5 80 -2 33 50 58 
+2 5 -1 80 -2 33 58 
+66 5 80 -2 33 72 58 
+19 5 80 -2 33 25 58 
+37 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.<init>(III)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+16 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/time/Period.multipliedBy(I)Ljava/time/Period;
+PTG:
+Vars:
+4
+$r2 1 38 
+r0 1 -1 
+$r1 1 1 
+_ret 1 38 
+Fields: 0
+Accesses: 3
+22 1 -1 
+14 1 -1 
+30 1 -1 
+Functions: 4
+18 0 
+34 0 
+35 0 
+26 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.plus(Ljava/time/temporal/TemporalAmount;)Ljava/time/Period;
+PTG:
+Vars:
+5
+r0 1 -2 
+r1 1 4 
+r2 1 -1 
+$r3 1 38 
+_ret 1 38 
+Fields: 0
+Accesses: 6
+16 1 -1 
+20 1 4 
+5 1 -1 
+9 1 4 
+27 1 -1 
+31 1 4 
+Functions: 5
+0 1 -2 
+32 0 
+35 0 
+21 0 
+10 0 
+Constructors: 0
+
+Summary: 3
+4 -1 -2 
+java/time/Period.negated()Ljava/time/chrono/ChronoPeriod;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.isNegative()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+7 1 -1 
+14 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.minusDays(J)Ljava/time/Period;
+PTG:
+Vars:
+4
+$r2 2 25 16 
+$r1 1 12 
+_ret 2 25 16 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+22 1 -1 
+8 1 -1 
+12 1 12 
+Constructors: 0
+
+Summary: 2
+-1 12 
+java/time/Period.writeExternal(Ljava/io/DataOutput;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 3
+1 1 -1 
+21 1 -1 
+11 1 -1 
+Functions: 3
+5 1 -2 
+25 1 -2 
+15 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+java/time/Period.getDays()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.getChronology()Ljava/time/chrono/IsoChronology;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.between(Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/time/Period;
+PTG:
+Vars:
+4
+r1 1 -3 
+$r2 1 2 
+_ret 1 2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -2 -3 
+Constructors: 0
+
+Summary: 2
+-2 -3 
+java/time/Period.plusDays(J)Ljava/time/Period;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 28 
+_ret 1 28 
+Fields: 0
+Accesses: 3
+16 1 -1 
+8 1 -1 
+12 1 -1 
+Functions: 3
+21 0 
+22 0 
+25 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.addTo(Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+PTG:
+Vars:
+6
+$r3 1 25 
+$r1 1 72 
+r4 4 -2 33 80 58 
+$r2 1 50 
+r0 1 -1 
+_ret 4 -2 33 80 58 
+Fields: 0
+Accesses: 5
+67 1 -1 
+20 1 -1 
+5 1 -1 
+59 1 -1 
+12 1 -1 
+Functions: 5
+48 5 80 -2 33 50 58 
+2 5 -1 80 -2 33 58 
+66 5 80 -2 33 72 58 
+19 5 80 -2 33 25 58 
+37 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.readExternal(Ljava/io/DataInput;)Ljava/time/Period;
+PTG:
+Vars:
+3
+$r1 1 24 
+r0 1 -2 
+_ret 1 24 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+7 1 -2 
+23 0 
+14 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/time/Period.<clinit>()V
+PTG:
+Vars:
+8
+$r1 1 16 
+$r6 1 44 
+$r0 1 0 
+$r3 1 28 
+$r4 1 34 
+$r7 1 47 
+$r2 1 23 
+$r5 1 40 
+Fields: 0
+Accesses: 0
+Functions: 4
+7 1 0 
+23 1 23 
+44 1 44 
+15 0 
+Constructors: 1
+7 0
+
+Summary: 1
+23 
+java/time/Period.ofYears(I)Ljava/time/Period;
+PTG:
+Vars:
+2
+$r0 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+6 1 0 
+Constructors: 1
+6 0
+
+Summary: 2
+-1 -2 
+java/time/Period.writeReplace()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r0 1 0 
+r1 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 2 0 -1 
+Constructors: 1
+7 0
+
+Summary: 1
+-1 
+java/time/Period.ofMonths(I)Ljava/time/Period;
+PTG:
+Vars:
+2
+$r0 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.negated()Ljava/time/Period;
+PTG:
+Vars:
+3
+$r1 1 2 
+r0 1 -1 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/time/Period.plusYears(J)Ljava/time/Period;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 28 
+_ret 1 28 
+Fields: 0
+Accesses: 3
+20 1 -1 
+8 1 -1 
+24 1 -1 
+Functions: 3
+25 0 
+13 0 
+14 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.normalized()Ljava/time/Period;
+PTG:
+Vars:
+3
+$r1 1 50 
+r0 1 -1 
+_ret 1 50 
+Fields: 0
+Accesses: 3
+20 1 -1 
+46 1 -1 
+31 1 -1 
+Functions: 3
+0 1 -1 
+40 0 
+47 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.ofWeeks(I)Ljava/time/Period;
+PTG:
+Vars:
+2
+$r0 1 8 
+_ret 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 0 
+5 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.minus(Ljava/time/temporal/TemporalAmount;)Ljava/time/Period;
+PTG:
+Vars:
+5
+$r3 1 38 
+r2 1 -1 
+r0 1 -2 
+r1 1 4 
+_ret 1 38 
+Fields: 0
+Accesses: 6
+16 1 -1 
+20 1 4 
+5 1 -1 
+9 1 4 
+27 1 -1 
+31 1 4 
+Functions: 5
+0 1 -2 
+32 0 
+35 0 
+21 0 
+10 0 
+Constructors: 0
+
+Summary: 3
+4 -1 -2 
+java/time/Period.withYears(I)Ljava/time/Period;
+PTG:
+Vars:
+3
+$r1 1 19 
+r0 1 -1 
+_ret 1 19 
+Fields: 0
+Accesses: 3
+1 1 -1 
+11 1 -1 
+15 1 -1 
+Functions: 1
+16 0 
+Constructors: 0
+
+Summary: 0
+
+java/time/Period.toString()Ljava/lang/String;
+PTG:
+Vars:
+8
+r0 1 -1 
+$r6 1 79 
+$r10 1 37 
+$r8 1 58 
+$r2 1 10 
+$r1 1 1 
+$r5 1 89 
+_ret 1 89 
+Fields: 0
+Accesses: 6
+33 1 -1 
+67 1 -1 
+54 1 -1 
+25 1 -1 
+75 1 -1 
+46 1 -1 
+Functions: 9
+32 1 10 
+84 1 79 
+21 1 10 
+53 1 10 
+88 1 10 
+42 1 37 
+74 1 10 
+14 1 10 
+63 1 58 
+Constructors: 1
+14 10
+
+Summary: 1
+-1 
+java/time/Period.minus(Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoPeriod;
+PTG:
+Vars:
+4
+r1 1 -2 
+r0 1 -1 
+$r2 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 

@@ -1,0 +1,268 @@
+9
+net/sourceforge/pmd/cpd/AbstractTokenizer.getCommentToken(Ljava/lang/StringBuffer;I)I
+PTG:
+Vars:
+4
+$r1 1 2 
+$r3 1 2 
+r0 1 -1 
+r2 1 -2 
+Fields: 1
+-1 currentLine 2
+Accesses: 2
+1 1 -1 
+12 1 -1 
+Functions: 3
+2 1 2 
+23 1 -2 
+13 1 2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+net/sourceforge/pmd/cpd/AbstractTokenizer.isComment(C)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+1 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+net/sourceforge/pmd/cpd/AbstractTokenizer.isString(C)Z
+PTG:
+Vars:
+6
+$r2 1 1 
+$r1 1 4 
+r0 1 -1 
+$r4 1 17 
+$r5 1 20 
+$r3 1 13 
+Fields: 1
+-1 stringToken 1
+Accesses: 1
+0 1 -1 
+Functions: 5
+17 1 17 
+1 2 1 20 
+4 1 4 
+8 1 4 
+13 1 13 
+Constructors: 1
+8 4
+
+Summary: 5
+13 -1 20 17 4 
+net/sourceforge/pmd/cpd/AbstractTokenizer.tokenize(Lnet/sourceforge/pmd/cpd/SourceCode;Lnet/sourceforge/pmd/cpd/Tokens;)V
+PTG:
+Vars:
+25
+$r21 1 106 
+$r13 1 165 
+$r11 1 90 
+$r5 1 199 
+r24 2 106 62 
+$r8 1 38 
+$r22 1 112 
+r1 1 -2 
+$r18 1 146 
+$r2 1 2 
+$r19 1 149 
+$r20 1 152 
+r4 1 -3 
+$r23 1 115 
+r0 1 -1 
+$r16 1 129 
+$r9 1 53 
+$r6 1 18 
+$r15 1 132 
+$r17 1 141 
+$r10 1 62 
+$r7 1 38 
+$r12 1 159 
+$r14 1 169 
+$r3 1 18 
+Fields: 2
+-1 currentLine 53
+-1 code 18
+Accesses: 12
+192 1 -1 
+17 1 -1 
+34 1 -1 
+99 1 -1 
+52 1 -1 
+5 1 -1 
+185 1 -1 
+10 1 -1 
+172 1 -1 
+13 1 -1 
+30 1 -1 
+46 1 -1 
+Functions: 24
+-1 0 
+1 1 -2 
+66 1 62 
+163 2 106 62 
+132 1 132 
+71 4 -1 18 53 62 
+136 1 132 
+168 1 -2 
+202 2 -3 199 
+141 2 146 141 
+110 1 62 
+79 1 62 
+112 1 112 
+144 2 106 62 
+176 3 165 169 159 
+18 1 18 
+179 2 -3 159 
+53 1 53 
+149 1 149 
+118 2 115 106 
+87 4 -1 18 53 90 
+88 1 62 
+155 2 129 152 
+31 1 18 
+Constructors: 4
+176 159
+66 62
+118 106
+136 132
+
+Summary: 16
+165 112 -3 115 152 146 199 141 159 132 62 -1 169 -2 149 90 
+net/sourceforge/pmd/cpd/AbstractTokenizer.getTokenFromLine(Ljava/lang/StringBuffer;I)I
+PTG:
+Vars:
+4
+r3 1 -2 
+$r1 1 4 
+$r2 1 4 
+r0 1 -1 
+Fields: 1
+-1 currentLine 4
+Accesses: 2
+3 1 -1 
+13 1 -1 
+Functions: 12
+49 1 -2 
+65 2 -1 4 
+83 3 -1 -2 4 
+4 1 4 
+102 1 -2 
+23 0 
+40 2 -1 4 
+58 3 -1 -2 4 
+74 1 -2 
+14 1 4 
+31 2 -1 4 
+95 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+net/sourceforge/pmd/cpd/AbstractTokenizer.parseString(Ljava/lang/StringBuffer;IC)I
+PTG:
+Vars:
+9
+$r3 1 136 
+$r1 1 12 
+$r8 1 12 
+r7 1 -2 
+r0 1 -1 
+$r2 1 12 
+$r6 1 156 
+$r4 1 136 
+$r5 1 156 
+Fields: 2
+-1 currentLine 12
+-1 code 136
+Accesses: 10
+132 1 -1 
+148 1 -1 
+164 1 -1 
+117 1 -1 
+135 1 -1 
+152 1 -1 
+26 1 -1 
+11 1 -1 
+107 1 -1 
+124 1 -1 
+Functions: 8
+149 1 136 
+167 4 -1 -2 136 12 
+136 1 136 
+27 1 12 
+59 1 -2 
+91 1 -2 
+12 1 12 
+108 1 12 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+net/sourceforge/pmd/cpd/AbstractTokenizer.isIgnorableString(Ljava/lang/String;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 ignorableStmt 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+net/sourceforge/pmd/cpd/AbstractTokenizer.ignoreCharacter(C)Z
+PTG:
+Vars:
+6
+$r5 1 20 
+r0 1 -1 
+$r2 1 1 
+$r4 1 17 
+$r1 1 4 
+$r3 1 13 
+Fields: 1
+-1 ignorableCharacter 1
+Accesses: 1
+0 1 -1 
+Functions: 5
+17 1 17 
+1 2 1 20 
+4 1 4 
+8 1 4 
+13 1 13 
+Constructors: 1
+8 4
+
+Summary: 5
+13 -1 20 17 4 
+net/sourceforge/pmd/cpd/AbstractTokenizer.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 4
+17 1 -1 
+22 1 -1 
+7 1 -1 
+12 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 

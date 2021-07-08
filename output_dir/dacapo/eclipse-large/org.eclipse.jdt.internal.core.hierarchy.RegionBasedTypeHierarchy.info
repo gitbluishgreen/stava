@@ -1,0 +1,251 @@
+9
+org/eclipse/jdt/internal/core/hierarchy/RegionBasedTypeHierarchy.removeType(Lorg/eclipse/jdt/core/IType;)V
+PTG:
+Vars:
+19
+$r13 1 7 
+$r5 1 43 
+r21 1 92 
+r1 1 -2 
+r11 1 131 
+r2 1 5 
+$r3 1 7 
+$r14 1 65 
+$r16 1 29 
+$r9 2 7 126 
+$r20 1 92 
+$r19 1 88 
+r0 1 -1 
+r17 1 47 
+$r6 1 47 
+r18 1 65 
+$r7 1 164 
+$r10 1 131 
+r8 1 123 
+Fields: 6
+5 ArrayObject 29
+-1 typeToSuperInterfaces 88
+-1 classToSuperclass 43
+-1 typeToSubtypes 7
+-1 interfaces 164
+92 ArrayObject 123
+Accesses: 6
+163 1 -1 
+6 1 -1 
+87 1 -1 
+42 1 -1 
+60 1 -1 
+125 1 -1 
+Functions: 10
+0 6 -1 -2 164 7 88 43 
+83 2 65 -2 
+149 2 -2 131 
+88 2 -2 88 
+168 2 -2 164 
+11 2 -2 7 
+43 2 -2 43 
+61 2 7 47 
+30 6 -1 164 7 88 43 29 
+126 3 7 123 126 
+Constructors: 0
+
+Summary: 7
+-2 5 131 65 -1 92 47 
+org/eclipse/jdt/internal/core/hierarchy/RegionBasedTypeHierarchy.compute()V
+PTG:
+Vars:
+3
+$r4 1 0 
+r1 1 -1 
+$r3 1 0 
+Fields: 0
+Accesses: 1
+10 1 -1 
+Functions: 2
+5 2 0 -1 
+14 1 0 
+Constructors: 1
+5 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/core/hierarchy/RegionBasedTypeHierarchy.pruneDeadBranches()V
+PTG:
+Vars:
+3
+$r1 1 2 
+r0 1 -1 
+$r2 1 10 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -1 
+5 2 -1 2 
+9 1 -1 
+13 2 -1 10 
+Constructors: 0
+
+Summary: 3
+2 -1 10 
+org/eclipse/jdt/internal/core/hierarchy/RegionBasedTypeHierarchy.pruneDeadBranches(Lorg/eclipse/jdt/core/IType;)Z
+PTG:
+Vars:
+10
+r0 1 -1 
+r1 1 -2 
+$r3 1 5 
+$r4 1 22 
+$r5 1 25 
+$r6 1 1 
+$r2 1 1 
+$r7 1 36 
+r9 1 36 
+r8 1 5 
+Fields: 1
+-1 typeToSubtypes 1
+Accesses: 3
+0 1 -1 
+49 1 36 
+31 1 -1 
+Functions: 5
+32 2 1 -2 
+1 2 1 -2 
+21 1 5 
+22 1 22 
+28 3 -1 1 25 
+Constructors: 0
+
+Summary: 6
+-2 25 5 22 -1 36 
+org/eclipse/jdt/internal/core/hierarchy/RegionBasedTypeHierarchy.javaProject()Lorg/eclipse/jdt/core/IJavaProject;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 project 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/hierarchy/RegionBasedTypeHierarchy.<init>(Lorg/eclipse/jdt/core/IRegion;[Lorg/eclipse/jdt/core/ICompilationUnit;Lorg/eclipse/jdt/core/IType;Z)V
+PTG:
+Vars:
+11
+r2 1 -3 
+r6 1 25 
+r1 1 -4 
+r0 1 -1 
+$r12 1 9 
+$r10 1 9 
+$r8 1 74 
+$r7 1 44 
+$r9 1 75 
+r5 1 -2 
+$r11 1 9 
+Fields: 2
+25 ArrayObject 74
+25 ArrayObject 44
+Accesses: 2
+80 1 -1 
+61 1 -1 
+Functions: 5
+19 1 -2 
+6 3 -1 -3 -4 
+74 1 74 
+45 2 9 44 
+14 2 -1 9 
+Constructors: 2
+6 -1
+14 9
+
+Summary: 9
+-3 -2 25 2 74 0 -1 -4 1 
+org/eclipse/jdt/internal/core/hierarchy/RegionBasedTypeHierarchy.pruneDeadBranches([Lorg/eclipse/jdt/core/IType;)V
+PTG:
+Vars:
+4
+r1 1 11 
+$r3 1 23 
+r0 1 -2 
+r2 1 -1 
+Fields: 2
+-2 ArrayObject 11
+-1 region 23
+Accesses: 1
+22 1 -1 
+Functions: 3
+23 2 23 11 
+39 3 -1 23 11 
+13 3 -1 23 11 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/hierarchy/RegionBasedTypeHierarchy.isAffectedByOpenable(Lorg/eclipse/jdt/core/IJavaElementDelta;Lorg/eclipse/jdt/core/IJavaElement;I)Z
+PTG:
+Vars:
+5
+$r2 1 26 
+r0 1 -3 
+r1 1 -1 
+$r5 1 -3 
+r3 1 -2 
+Fields: 1
+-1 focusType 26
+Accesses: 2
+32 1 -1 
+25 1 -1 
+Functions: 4
+17 4 -1 -2 -3 26 
+33 1 -3 
+8 1 -3 
+43 4 -1 -2 -3 26 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/hierarchy/RegionBasedTypeHierarchy.initializeRegions()V
+PTG:
+Vars:
+11
+r3 1 22 
+$r7 1 74 
+$r10 1 35 
+$r5 1 55 
+r6 1 55 
+$r1 1 5 
+$r4 1 22 
+r2 1 13 
+$r11 2 69 31 
+$r8 2 69 31 
+r0 1 -1 
+Fields: 4
+13 ArrayObject 22
+-1 region 5
+-1 files 69
+-1 files 31
+Accesses: 3
+4 1 -1 
+68 1 -1 
+30 1 -1 
+Functions: 8
+1 4 -1 5 69 31 
+81 4 69 55 74 31 
+52 1 22 
+5 1 5 
+39 1 35 
+88 4 -1 5 69 31 
+42 4 35 69 22 31 
+78 1 74 
+Constructors: 2
+39 35
+78 74
+
+Summary: 5
+35 74 13 -1 55 

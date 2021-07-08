@@ -1,0 +1,269 @@
+11
+org/apache/crimson/parser/SimpleHashtable.getNonInterned(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+r5 2 60 23 
+r1 1 4 
+r2 1 -2 
+$r3 1 39 
+r0 1 -1 
+Fields: 5
+-1 table 4
+60 next 60
+60 key 39
+23 key 39
+4 ArrayObject 23
+Accesses: 5
+0 1 -1 
+49 2 23 60 
+37 2 23 60 
+55 2 23 60 
+28 2 23 60 
+Functions: 2
+5 1 -2 
+39 2 -2 39 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/crimson/parser/SimpleHashtable.clear()V
+PTG:
+Vars:
+3
+$r1 1 32 
+r0 1 -1 
+$r2 2 32 21 
+Fields: 1
+-1 table 32
+Accesses: 5
+2 1 -1 
+20 1 -1 
+7 1 -1 
+12 1 -1 
+31 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/SimpleHashtable.keys()Ljava/util/Enumeration;
+PTG:
+Vars:
+2
+r0 1 -1 
+_ret 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/crimson/parser/SimpleHashtable.size()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/SimpleHashtable.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 1 -1 
+Constructors: 1
+3 -1
+
+Summary: 1
+-1 
+org/apache/crimson/parser/SimpleHashtable.get(Ljava/lang/String;)Ljava/lang/Object;
+PTG:
+Vars:
+5
+r5 2 57 23 
+r2 1 -2 
+r0 1 -1 
+r1 1 4 
+$r3 1 39 
+Fields: 5
+57 next 57
+57 key 39
+-1 table 4
+23 key 39
+4 ArrayObject 23
+Accesses: 5
+0 1 -1 
+52 2 23 57 
+37 2 23 57 
+28 2 23 57 
+46 2 23 57 
+Functions: 1
+5 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/crimson/parser/SimpleHashtable.<init>(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 53 
+Fields: 0
+Accesses: 4
+66 1 -1 
+6 1 -1 
+56 1 -1 
+11 1 -1 
+Functions: 6
+1 1 -1 
+35 0 
+22 0 
+41 0 
+26 0 
+31 0 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 35 38 
+org/apache/crimson/parser/SimpleHashtable.nextElement()Ljava/lang/Object;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r2 1 1 
+$r4 1 1 
+r3 1 22 
+_ret 1 22 
+$r1 1 1 
+$r5 1 28 
+Fields: 3
+-1 current 1
+1 next 28
+1 key 22
+Accesses: 6
+0 1 -1 
+16 1 1 
+24 1 -1 
+25 1 1 
+15 1 -1 
+31 1 -1 
+Functions: 1
+11 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/SimpleHashtable.rehash()V
+PTG:
+Vars:
+7
+r2 1 1 
+r4 2 49 63 
+r3 1 18 
+r6 2 49 63 
+$r5 2 83 83 
+$r1 1 1 
+r0 1 -1 
+Fields: 4
+18 ArrayObject 83
+-1 table 1
+63 next 63
+1 ArrayObject 49
+Accesses: 7
+0 1 -1 
+65 2 49 63 
+36 1 -1 
+84 2 49 63 
+6 1 -1 
+58 2 49 63 
+30 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/crimson/parser/SimpleHashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+PTG:
+Vars:
+8
+$r4 1 119 
+r1 1 -1 
+r2 1 -2 
+r0 1 -3 
+$r3 1 54 
+$r5 1 130 
+r8 1 16 
+r9 2 37 82 
+Fields: 6
+37 key 54
+-1 table 16
+16 ArrayObject 37
+16 ArrayObject 130
+82 next 82
+82 key 54
+Accesses: 11
+52 2 82 37 
+149 1 -1 
+71 2 82 37 
+104 1 -1 
+89 1 -1 
+42 2 82 37 
+12 1 -1 
+61 2 82 37 
+77 2 82 37 
+93 1 -1 
+142 1 -1 
+Functions: 4
+17 1 -2 
+131 4 -2 -3 130 119 
+101 5 -1 16 130 37 54 
+8 0 
+Constructors: 1
+131 119
+
+Summary: 3
+1 -1 0 
+org/apache/crimson/parser/SimpleHashtable.hasMoreElements()Z
+PTG:
+Vars:
+6
+$r5 2 30 1 
+$r3 2 43 11 
+$r2 1 43 
+$r4 1 25 
+$r1 1 1 
+r0 1 -1 
+Fields: 4
+43 ArrayObject 25
+-1 current 1
+-1 table 43
+11 ArrayObject 25
+Accesses: 8
+0 1 -1 
+22 1 -1 
+38 1 -1 
+10 1 -1 
+26 1 -1 
+42 1 -1 
+29 1 -1 
+14 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

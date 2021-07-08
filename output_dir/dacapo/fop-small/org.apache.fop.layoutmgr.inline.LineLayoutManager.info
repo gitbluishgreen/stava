@@ -1,0 +1,1572 @@
+33
+org/apache/fop/layoutmgr/inline/LineLayoutManager.access$300(Lorg/apache/fop/layoutmgr/inline/LineLayoutManager;)Lorg/apache/fop/fo/flow/Block;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -2 
+Fields: 1
+-2 fobj 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.hasTrailingFence(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r4 1 6 
+$r5 1 14 
+r0 1 -2 
+$r1 1 1 
+$r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.getEffectiveAlignment(II)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+20 1 -1 
+9 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.mustKeepWithNext()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.access$400(Lorg/apache/fop/layoutmgr/inline/LineLayoutManager;)Lorg/apache/fop/layoutmgr/inline/LineLayoutPossibilities;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-2 lineLayouts 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.postProcessLineBreaks(ILorg/apache/fop/layoutmgr/LayoutContext;)Ljava/util/LinkedList;
+PTG:
+Vars:
+44
+$r43 1 335 
+$r7 1 31 
+$r27 1 157 
+r47 1 459 
+$r13 1 378 
+_ret 1 0 
+$r26 1 147 
+r46 1 378 
+$r34 1 68 
+$r36 1 14 
+r2 1 -1 
+$r37 1 89 
+$r24 1 107 
+r40 1 135 
+r39 1 121 
+r5 1 89 
+$r29 1 170 
+$r33 1 50 
+$r45 1 346 
+$r12 1 468 
+$r0 1 0 
+$r20 1 281 
+$r3 1 14 
+$r23 1 211 
+$r19 1 281 
+$r35 1 73 
+$r8 1 31 
+$r44 1 335 
+$r18 1 414 
+$r25 1 135 
+$r28 1 164 
+$r11 1 459 
+$r21 1 316 
+r22 1 -3 
+$r30 1 31 
+$r14 1 378 
+r4 1 73 
+$r16 1 378 
+$r17 1 378 
+$r6 1 235 
+$r15 1 439 
+$r32 1 46 
+$r31 1 31 
+r10 1 362 
+Fields: 4
+-1 parentLM 31
+-1 lineLayoutsList 68
+-1 knuthParagraphs 14
+-1 fobj 281
+Accesses: 7
+67 1 -1 
+83 1 -1 
+263 1 -1 
+280 1 -1 
+297 1 -1 
+13 1 -1 
+30 1 -1 
+Functions: 49
+4 1 0 
+133 1 121 
+267 1 31 
+14 1 14 
+398 1 378 
+145 1 135 
+281 1 281 
+411 1 378 
+156 6 -1 68 281 157 14 31 
+417 2 346 414 
+34 1 31 
+162 1 135 
+292 1 73 
+167 7 -1 68 164 281 157 14 31 
+298 1 281 
+173 2 135 170 
+180 2 135 107 
+308 1 0 
+436 1 378 
+55 6 -1 50 68 281 14 31 
+442 2 439 346 
+60 3 50 -3 46 
+190 2 0 107 
+63 2 0 46 
+68 1 68 
+324 3 -3 235 316 
+197 1 89 
+327 2 0 316 
+455 1 73 
+331 1 73 
+338 1 335 
+84 1 14 
+472 1 459 
+218 6 -1 211 68 281 14 31 
+477 1 459 
+350 1 346 
+99 1 89 
+355 1 89 
+483 1 459 
+229 8 -1 0 211 68 281 73 14 31 
+364 1 362 
+494 3 468 346 459 
+111 1 107 
+497 2 0 468 
+242 6 -1 68 281 235 14 31 
+116 1 89 
+376 1 362 
+123 1 121 
+255 1 73 
+Constructors: 10
+242 235
+4 0
+324 316
+55 50
+167 157
+218 211
+60 46
+350 346
+494 468
+111 107
+
+Summary: 25
+235 439 -3 316 468 164 50 89 46 459 335 378 157 211 -1 147 107 346 135 170 362 73 121 414 1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.access$100(Lorg/apache/fop/layoutmgr/inline/LineLayoutManager;)Z
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.access$000(Lorg/apache/fop/layoutmgr/inline/LineLayoutManager;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.findOptimalBreakingPoints(ILorg/apache/fop/layoutmgr/inline/LineLayoutManager$Paragraph;)Lorg/apache/fop/layoutmgr/inline/LineLayoutPossibilities;
+PTG:
+Vars:
+41
+r0 1 -1 
+$r38 1 120 
+$r10 1 223 
+$r6 1 66 
+_ret 1 210 
+$r1 1 1 
+$r4 1 41 
+r3 1 -3 
+$r18 1 117 
+$r8 1 84 
+$r19 1 120 
+$r39 2 388 393 
+$r28 1 369 
+$r37 1 117 
+$r30 1 120 
+$r7 1 84 
+$r33 1 210 
+$r5 1 48 
+$r34 1 133 
+$r24 1 342 
+$r25 1 356 
+$r11 1 220 
+$r16 1 247 
+$r41 1 210 
+$r12 1 232 
+$r17 1 259 
+$r29 1 117 
+$r13 1 236 
+$r27 1 365 
+$r32 1 398 
+$r23 1 120 
+$r2 1 31 
+$r22 1 117 
+$r14 1 239 
+$r21 1 286 
+$r20 1 283 
+$r35 1 16 
+$r31 1 395 
+$r26 1 353 
+$r40 1 210 
+$r15 1 250 
+Fields: 8
+-1 hyphenationLadderCount 84
+-1 lineHeight 48
+-1 hyphenationProperties 117
+-1 textIndent 31
+-1 lineLayouts 210
+-1 knuthParagraphs 66
+-1 fobj 133
+117 hyphenate 120
+Accesses: 25
+65 1 -1 
+132 1 -1 
+262 1 -1 
+263 1 117 
+8 1 -1 
+209 1 -1 
+83 1 -1 
+149 1 -1 
+22 1 -1 
+26 1 -1 
+30 1 -1 
+101 1 -1 
+294 1 -1 
+422 1 -1 
+295 1 117 
+41 1 41 
+169 1 -1 
+429 1 -1 
+47 1 -1 
+116 1 -1 
+372 1 -1 
+117 1 117 
+373 1 117 
+57 1 -1 
+61 1 -1 
+Functions: 38
+66 2 66 -3 
+259 1 259 
+5 1 1 
+133 1 133 
+326 2 16 -3 
+266 1 120 
+395 1 395 
+206 1 16 
+401 2 353 398 
+146 10 -1 48 210 66 -3 84 117 133 120 31 
+84 1 84 
+214 1 210 
+342 1 342 
+283 1 283 
+31 9 -1 48 210 66 84 117 133 120 31 
+223 1 223 
+289 2 247 286 
+227 1 223 
+356 1 356 
+420 2 16 -3 
+102 1 84 
+40 1 -3 
+232 1 232 
+360 1 356 
+298 1 120 
+426 1 210 
+236 1 236 
+173 1 16 
+365 1 365 
+111 10 16 -1 48 210 66 84 117 133 120 31 
+48 9 48 -1 210 66 84 117 133 120 31 
+176 2 16 -3 
+369 3 369 388 393 
+242 2 220 239 
+120 1 120 
+376 1 120 
+250 1 250 
+254 1 250 
+Constructors: 5
+227 223
+5 1
+360 356
+254 250
+111 16
+
+Summary: 11
+286 -3 283 16 398 239 -1 41 236 1 395 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.negotiateBPDAdjustment(ILorg/apache/fop/layoutmgr/KnuthElement;)I
+PTG:
+Vars:
+7
+r2 1 1 
+r3 1 -1 
+$r4 1 41 
+$r5 1 48 
+r0 1 -3 
+$r1 1 1 
+r6 1 48 
+Fields: 1
+-1 lineLayoutsList 41
+Accesses: 3
+69 1 -1 
+40 1 -1 
+14 1 -1 
+Functions: 5
+0 1 -3 
+33 0 
+41 1 41 
+58 1 48 
+44 1 1 
+Constructors: 0
+
+Summary: 5
+48 -3 -1 1 1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.<init>(Lorg/apache/fop/fo/flow/Block;Lorg/apache/fop/datatypes/Length;II)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 13
+36 1 -1 
+68 1 -1 
+8 1 -1 
+41 1 -1 
+74 1 -1 
+15 1 -1 
+48 1 -1 
+20 1 -1 
+53 1 -1 
+25 1 -1 
+58 1 -1 
+30 1 -1 
+63 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 3
+-1 0 1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.hasLeadingFence(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.access$602(Lorg/apache/fop/layoutmgr/inline/LineLayoutManager;I)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+3 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.addChildArea(Lorg/apache/fop/area/Area;)V
+PTG:
+Vars:
+8
+$r4 1 25 
+$r7 1 36 
+r0 1 -2 
+r1 1 -1 
+r2 1 11 
+$r5 1 28 
+$r6 1 32 
+$r3 1 13 
+Fields: 0
+Accesses: 0
+Functions: 10
+35 1 -1 
+36 1 36 
+7 1 -1 
+24 1 -1 
+25 1 25 
+42 3 -1 32 11 
+12 1 -1 
+28 1 28 
+13 1 13 
+47 2 -2 11 
+Constructors: 0
+
+Summary: 9
+11 -2 13 -1 32 0 36 25 28 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.getHyphenContext(Ljava/lang/StringBuffer;)Lorg/apache/fop/layoutmgr/inline/HyphContext;
+PTG:
+Vars:
+18
+$r6 1 17 
+$r8 1 24 
+$r3 1 7 
+$r7 1 21 
+$r9 1 27 
+$r16 1 51 
+$r4 1 1 
+$r10 1 30 
+$r14 1 41 
+$r15 1 1 
+r17 1 60 
+$r2 1 4 
+r11 1 -2 
+$r13 1 1 
+$r1 1 1 
+r0 1 -1 
+$r12 1 34 
+$r5 1 14 
+Fields: 5
+-1 hyphenationProperties 1
+1 language 4
+1 hyphenationPushCharacterCount 51
+1 hyphenationRemainCharacterCount 41
+1 country 14
+Accesses: 8
+0 1 -1 
+48 1 1 
+1 1 1 
+37 1 -1 
+38 1 1 
+10 1 -1 
+11 1 1 
+47 1 -1 
+Functions: 12
+33 1 -2 
+51 1 51 
+4 1 4 
+20 6 -1 1 51 4 41 14 
+21 1 21 
+69 1 60 
+54 4 17 34 7 30 
+24 1 24 
+41 1 41 
+73 0 
+27 1 27 
+14 1 14 
+Constructors: 0
+
+Summary: 12
+24 7 -1 34 60 17 70 -2 27 0 21 30 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.getGeneratesBlockArea()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.mustKeepTogether()Z
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+4 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.discardSpace(Lorg/apache/fop/layoutmgr/KnuthGlue;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 0 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.createElements(Ljava/util/List;Lorg/apache/fop/layoutmgr/inline/LineLayoutPossibilities;Lorg/apache/fop/layoutmgr/Position;)V
+PTG:
+Vars:
+42
+$r23 1 619 
+$r37 1 16 
+$r15 1 542 
+$r5 1 16 
+r12 1 -2 
+r13 1 -4 
+$r30 1 326 
+$r29 1 450 
+$r11 1 16 
+$r45 1 469 
+$r17 1 876 
+$r24 1 636 
+$r34 1 16 
+$r40 1 16 
+$r19 1 724 
+$r39 1 16 
+$r35 1 16 
+$r25 1 657 
+$r8 1 16 
+$r9 1 16 
+$r31 1 348 
+r7 1 -3 
+$r20 1 746 
+$r16 1 574 
+r0 1 -1 
+$r10 1 16 
+$r41 1 16 
+$r43 1 16 
+$r6 1 16 
+$r26 1 682 
+$r1 1 16 
+$r14 1 521 
+$r21 1 767 
+$r38 1 16 
+$r22 1 792 
+$r32 1 383 
+$r33 1 409 
+$r18 1 834 
+$r3 1 33 
+$r2 1 16 
+$r36 1 16 
+$r42 1 16 
+Fields: 1
+-1 fobj 16
+Accesses: 31
+68 1 -1 
+389 1 -1 
+198 1 -1 
+774 1 -1 
+839 1 -1 
+75 1 -1 
+15 1 -1 
+148 1 -1 
+663 1 -1 
+24 1 -1 
+217 1 -1 
+729 1 -1 
+155 1 -1 
+475 1 -1 
+224 1 -1 
+416 1 -1 
+356 1 -1 
+549 1 -1 
+166 1 -1 
+423 1 -1 
+42 1 -1 
+235 1 -1 
+364 1 -1 
+556 1 -1 
+173 1 -1 
+111 1 -1 
+49 1 -1 
+242 1 -1 
+882 1 -1 
+118 1 -1 
+191 1 -1 
+Functions: 82
+257 1 -3 
+133 1 -3 
+261 1 -3 
+647 2 -4 636 
+137 1 -3 
+650 2 -2 636 
+398 2 -4 383 
+782 2 -4 767 
+16 1 16 
+144 1 -3 
+401 2 33 383 
+785 2 -2 767 
+532 2 -4 521 
+149 1 16 
+278 1 -3 
+535 2 -2 521 
+25 1 16 
+282 1 -3 
+156 1 16 
+799 2 -4 792 
+672 2 657 -4 
+289 1 -3 
+802 2 -2 792 
+675 2 -2 657 
+37 1 33 
+293 1 -3 
+167 1 16 
+43 1 16 
+300 1 -3 
+174 1 16 
+431 2 -4 409 
+689 2 -4 682 
+50 1 16 
+434 2 33 409 
+564 2 -4 542 
+692 2 -2 682 
+181 1 -3 
+567 2 -2 542 
+57 1 -3 
+827 2 -2 33 
+64 1 -3 
+192 1 16 
+69 1 16 
+199 1 16 
+459 2 450 -4 
+76 1 16 
+717 2 -2 33 
+206 1 -3 
+462 2 33 450 
+590 2 -4 574 
+846 2 834 -4 
+337 2 -4 326 
+593 2 -2 574 
+849 2 -2 834 
+340 2 33 326 
+213 1 -3 
+86 1 -3 
+90 1 -3 
+218 1 16 
+736 2 -4 724 
+97 1 -3 
+225 1 16 
+739 2 -2 724 
+612 2 -2 33 
+101 1 -3 
+869 2 -2 33 
+236 1 16 
+112 1 16 
+626 2 -4 619 
+243 1 16 
+372 2 -4 348 
+501 2 -4 469 
+629 2 -2 619 
+757 2 -4 746 
+119 1 16 
+375 2 33 348 
+504 2 -2 469 
+760 2 -2 746 
+889 2 -4 876 
+250 1 -3 
+892 2 -2 876 
+126 1 -3 
+Constructors: 20
+672 657
+736 724
+37 33
+647 636
+459 450
+398 383
+590 574
+782 767
+846 834
+431 409
+337 326
+689 682
+626 619
+372 348
+532 521
+564 542
+501 469
+757 746
+889 876
+799 792
+
+Summary: 27
+33 -3 724 383 450 574 -4 521 469 876 348 326 767 792 2 409 -1 746 636 657 -2 682 834 0 542 1 619 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.findHyphenationPoints(Lorg/apache/fop/layoutmgr/inline/LineLayoutManager$Paragraph;)V
+PTG:
+Vars:
+44
+$r24 1 428 
+$r16 1 316 
+$r34 1 61 
+$r12 1 39 
+$r11 1 508 
+$r25 1 436 
+$r8 1 596 
+$r20 1 333 
+$r29 1 287 
+$r27 1 270 
+r42 1 459 
+$r7 1 582 
+r0 1 -2 
+r41 1 400 
+$r31 1 237 
+$r2 1 9 
+$r6 1 566 
+r43 1 479 
+$r10 1 621 
+r37 1 39 
+r40 1 350 
+$r30 1 191 
+$r17 1 313 
+$r22 1 400 
+$r32 1 199 
+r36 3 61 199 278 
+$r23 1 428 
+r1 1 8 
+$r26 1 161 
+$r35 1 75 
+$r5 1 552 
+$r15 1 143 
+$r13 1 51 
+$r4 1 479 
+r44 1 508 
+$r18 1 325 
+$r19 1 330 
+$r33 1 208 
+r45 1 608 
+$r14 1 128 
+r39 1 161 
+$r28 1 278 
+r9 1 -1 
+$r21 1 336 
+Fields: 0
+Accesses: 1
+599 1 -1 
+Functions: 68
+0 1 -2 
+1 1 -2 
+257 1 8 
+643 1 608 
+132 1 128 
+518 1 508 
+268 1 161 
+13 1 9 
+141 1 39 
+399 1 8 
+527 1 459 
+146 5 128 278 199 61 143 
+276 1 161 
+151 1 8 
+536 1 -2 
+664 1 9 
+410 1 400 
+540 1 -2 
+29 1 8 
+160 1 8 
+418 1 400 
+38 1 8 
+294 1 8 
+550 1 479 
+552 2 566 552 
+426 1 400 
+171 1 161 
+555 1 -2 
+300 5 -1 278 199 61 287 
+303 2 9 287 
+49 1 39 
+434 1 400 
+179 1 161 
+441 3 436 428 350 
+59 1 39 
+316 1 316 
+189 1 161 
+320 1 316 
+580 1 479 
+197 1 161 
+325 2 325 330 
+582 2 596 582 
+455 1 9 
+328 1 128 
+585 1 -2 
+333 1 333 
+82 1 8 
+339 2 336 313 
+467 1 459 
+215 1 8 
+88 5 -1 278 199 75 61 
+344 2 -1 128 
+91 2 9 75 
+221 5 208 -1 278 199 61 
+477 1 459 
+224 2 208 9 
+610 1 -2 
+489 1 479 
+106 1 39 
+235 1 161 
+240 5 128 278 199 61 237 
+496 1 459 
+624 1 621 
+114 1 39 
+374 1 8 
+248 1 161 
+506 1 459 
+637 2 608 -2 
+Constructors: 6
+320 316
+132 128
+88 75
+300 287
+13 9
+221 208
+
+Summary: 35
+330 287 566 208 278 608 75 161 61 336 459 8 350 128 436 508 479 143 191 596 199 552 -1 51 9 428 -2 39 237 333 0 270 582 621 400 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.addAreas(Lorg/apache/fop/layoutmgr/PositionIterator;Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+5
+r1 1 -1 
+r0 1 -2 
+r4 1 -3 
+r3 1 8 
+$r2 1 8 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+66 3 -1 -3 8 
+54 1 8 
+7 1 -2 
+41 3 -1 -3 8 
+74 1 -1 
+15 1 -2 
+Constructors: 0
+
+Summary: 6
+-2 -3 -1 8 0 1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.getNextKnuthElements(Lorg/apache/fop/layoutmgr/LayoutContext;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+21
+r14 1 -2 
+$r1 1 1 
+$r5 1 15 
+r11 1 48 
+$r4 1 1 
+$r16 1 90 
+$r13 1 58 
+$r19 1 97 
+_ret 1 137 
+$r12 1 51 
+r3 1 10 
+$r15 1 79 
+$r10 1 36 
+r0 1 -1 
+$r18 1 137 
+$r2 1 4 
+$r17 1 90 
+$r8 1 28 
+$r7 1 1 
+r6 1 22 
+$r9 1 33 
+Fields: 6
+22 ArrayObject 28
+33 fontSize 36
+-1 lineHeight 58
+-1 alignmentContext 79
+-1 knuthParagraphs 90
+-1 fobj 1
+Accesses: 10
+0 1 -1 
+112 1 -1 
+33 1 33 
+104 1 -1 
+57 1 -1 
+89 1 -1 
+74 1 -1 
+11 1 -1 
+29 1 -1 
+78 1 -1 
+Functions: 18
+1 1 1 
+67 1 -2 
+131 6 -1 1 -2 58 90 79 
+4 1 4 
+36 6 -1 1 36 58 90 79 
+132 1 -2 
+101 1 97 
+71 2 48 51 
+12 1 1 
+109 6 -1 1 -2 58 90 79 
+15 2 10 15 
+113 1 90 
+82 2 -2 79 
+86 5 -1 1 58 90 79 
+24 2 10 28 
+58 5 -1 1 58 90 79 
+30 1 1 
+126 5 -1 1 58 90 79 
+Constructors: 2
+101 97
+71 51
+
+Summary: 11
+33 -1 15 10 36 22 -2 48 0 4 28 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.addBlockArea(Lorg/apache/fop/layoutmgr/LayoutContext;Lorg/apache/fop/layoutmgr/Position;Z)V
+PTG:
+Vars:
+19
+r21 1 41 
+$r8 1 58 
+$r14 1 99 
+$r17 1 124 
+$r19 1 231 
+$r25 1 211 
+r20 1 -2 
+$r3 1 -3 
+$r11 1 83 
+r4 1 17 
+$r24 1 203 
+$r0 1 0 
+$r16 1 111 
+r7 1 -1 
+$r12 1 89 
+$r22 1 146 
+$r10 1 71 
+$r5 1 43 
+r2 1 -3 
+Fields: 2
+-1 parentLM 231
+-1 alignmentContext 71
+Accesses: 2
+70 1 -1 
+230 1 -1 
+Functions: 28
+129 1 124 
+194 3 146 83 99 
+132 2 99 124 
+5 1 0 
+201 1 99 
+74 2 71 58 
+11 1 -3 
+141 1 99 
+206 2 99 203 
+80 4 -1 231 71 58 
+144 1 83 
+23 2 0 17 
+87 1 0 
+216 1 211 
+219 2 99 211 
+94 2 83 89 
+160 1 -2 
+227 1 43 
+36 1 17 
+104 1 99 
+236 2 231 43 
+47 1 43 
+179 1 99 
+116 1 111 
+55 4 -1 231 71 43 
+119 2 99 111 
+185 2 -2 99 
+63 1 58 
+Constructors: 8
+129 124
+116 111
+5 0
+104 99
+216 211
+94 83
+47 43
+63 58
+
+Summary: 16
+58 83 -3 211 -1 111 17 41 89 -2 124 43 0 99 0 203 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.addInlineArea(Lorg/apache/fop/layoutmgr/LayoutContext;Lorg/apache/fop/layoutmgr/Position;Z)V
+PTG:
+Vars:
+35
+r2 1 -1 
+$r10 1 175 
+$r13 1 514 
+$r15 1 191 
+r5 1 28 
+r35 2 459 429 
+$r3 1 23 
+$r38 1 602 
+$r4 1 28 
+$r17 1 568 
+$r20 1 646 
+$r21 1 654 
+r29 1 28 
+$r31 1 322 
+$r34 1 429 
+r0 1 -3 
+$r26 1 115 
+$r12 1 191 
+$r9 1 152 
+$r24 1 363 
+$r25 1 271 
+r30 1 318 
+r33 1 425 
+$r23 1 459 
+$r16 1 555 
+r1 1 -3 
+r28 1 389 
+$r6 1 52 
+$r36 1 475 
+r32 2 363 322 
+$r39 1 707 
+$r27 1 112 
+$r8 1 155 
+r19 1 -2 
+$r11 1 172 
+Fields: 4
+-1 lastLineEndIndent 271
+-1 parentLM 707
+-1 alignmentContext 191
+-1 knuthParagraphs 23
+Accesses: 13
+706 1 -1 
+293 1 -1 
+71 1 -1 
+391 1 -1 
+78 1 -1 
+270 1 -1 
+302 1 -1 
+526 1 -1 
+400 1 -1 
+22 1 -1 
+409 1 -1 
+284 1 -1 
+190 1 -1 
+Functions: 75
+384 2 322 363 
+132 1 -3 
+644 1 514 
+519 1 514 
+137 1 52 
+265 1 52 
+649 2 514 646 
+142 1 -3 
+15 1 -3 
+271 5 -1 707 23 271 191 
+530 2 514 191 
+147 1 52 
+659 1 654 
+662 2 514 654 
+23 1 23 
+535 1 -3 
+281 1 52 
+540 1 514 
+668 1 -2 
+159 1 -3 
+545 1 -3 
+418 1 28 
+675 1 -2 
+164 1 155 
+38 1 -3 
+550 1 514 
+167 3 52 152 155 
+427 1 425 
+45 1 -3 
+560 1 555 
+688 1 52 
+179 1 -3 
+563 2 514 555 
+693 1 -2 
+311 1 28 
+439 2 459 429 
+56 1 -3 
+184 1 175 
+698 1 52 
+187 3 52 172 175 
+61 1 28 
+573 1 568 
+447 1 425 
+703 1 52 
+320 1 318 
+576 2 514 568 
+194 1 -3 
+199 1 -3 
+712 2 707 52 
+457 1 425 
+585 1 514 
+204 1 191 
+332 2 322 363 
+591 6 -1 707 52 23 271 191 
+82 1 -3 
+597 6 -1 514 707 23 271 191 
+87 1 -3 
+600 1 475 
+345 1 318 
+92 1 -3 
+351 1 318 
+97 1 52 
+229 1 28 
+102 1 -3 
+487 2 475 28 
+361 1 318 
+492 1 -3 
+243 1 28 
+628 1 514 
+119 1 -3 
+503 1 28 
+124 1 115 
+637 3 514 602 475 
+127 3 112 115 52 
+255 1 28 
+Constructors: 9
+560 555
+97 52
+659 654
+164 155
+487 475
+519 514
+184 175
+124 115
+573 568
+
+Summary: 22
+514 -3 322 646 475 654 175 363 459 28 568 -1 115 155 555 425 389 -2 52 429 0 318 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.initialize()V
+PTG:
+Vars:
+16
+$r4 1 27 
+$r15 1 116 
+$r10 1 60 
+$r2 1 2 
+$r8 1 49 
+r0 1 -1 
+$r14 1 110 
+$r9 1 2 
+$r6 1 38 
+$r3 1 2 
+$r7 1 2 
+$r11 1 2 
+$r12 1 2 
+$r1 1 2 
+$r5 1 2 
+$r13 1 107 
+Fields: 1
+-1 fobj 2
+Accesses: 20
+1 1 -1 
+129 1 -1 
+34 1 -1 
+67 1 -1 
+101 1 -1 
+8 1 -1 
+41 1 -1 
+74 1 -1 
+12 1 -1 
+45 1 -1 
+78 1 -1 
+19 1 -1 
+52 1 -1 
+85 1 -1 
+23 1 -1 
+56 1 -1 
+90 1 -1 
+30 1 -1 
+94 1 -1 
+63 1 -1 
+Functions: 12
+2 1 2 
+35 1 2 
+68 1 2 
+24 1 2 
+57 1 2 
+89 2 -1 2 
+106 2 -1 2 
+107 1 107 
+13 1 2 
+46 1 2 
+110 1 110 
+79 1 2 
+Constructors: 0
+
+Summary: 4
+-1 110 116 107 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.createLineBreaks(ILorg/apache/fop/layoutmgr/LayoutContext;)Ljava/util/LinkedList;
+PTG:
+Vars:
+15
+r0 1 -1 
+$r2 1 1 
+$r10 1 49 
+$r11 1 92 
+_ret 1 114 
+r13 2 67 89 
+$r7 1 114 
+$r8 1 49 
+$r4 1 20 
+$r5 1 1 
+r9 1 49 
+r6 1 -3 
+r3 1 18 
+$r12 1 67 
+$r1 1 1 
+Fields: 2
+-1 lineLayoutsList 92
+-1 knuthParagraphs 1
+Accesses: 5
+0 1 -1 
+4 1 -1 
+36 1 -1 
+24 1 -1 
+91 1 -1 
+Functions: 12
+48 1 18 
+1 1 1 
+33 1 20 
+98 3 67 89 92 
+5 1 1 
+39 1 18 
+71 1 67 
+25 1 1 
+59 1 49 
+108 3 -1 1 92 
+79 4 -1 1 49 92 
+111 4 -1 1 -3 92 
+Constructors: 2
+33 20
+71 67
+
+Summary: 7
+-3 -1 67 49 1 18 89 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.access$200(Lorg/apache/fop/layoutmgr/inline/LineLayoutManager;)Ljava/util/List;
+PTG:
+Vars:
+3
+r0 1 -2 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-2 knuthParagraphs 1
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.collectInlineKnuthElements(Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+35
+$r38 1 578 
+r32 1 63 
+$r30 1 41 
+$r31 1 41 
+$r28 1 120 
+r33 1 88 
+$r13 1 510 
+$r18 1 435 
+$r10 1 559 
+$r23 1 226 
+$r9 1 553 
+$r20 1 300 
+$r12 1 499 
+$r0 1 0 
+r36 1 203 
+$r17 1 473 
+$r26 1 88 
+$r16 1 226 
+r1 1 -2 
+$r24 1 226 
+$r22 1 329 
+$r8 1 550 
+$r11 1 203 
+r14 1 226 
+$r4 1 14 
+$r27 1 150 
+r34 1 150 
+r35 1 189 
+$r19 1 285 
+$r15 1 351 
+$r5 1 26 
+$r21 1 310 
+$r37 1 378 
+r3 1 -1 
+r29 1 285 
+Fields: 4
+-1 lastLineEndIndent 310
+-1 textIndent 300
+-1 knuthParagraphs 499
+-1 fobj 550
+Accesses: 11
+498 1 -1 
+291 1 -1 
+20 1 -1 
+309 1 -1 
+549 1 -1 
+54 1 -1 
+295 1 -1 
+439 1 -1 
+299 1 -1 
+444 1 -1 
+14 1 14 
+Functions: 55
+5 2 0 -2 
+135 1 26 
+264 1 226 
+393 1 26 
+13 1 -2 
+397 1 226 
+525 1 26 
+147 1 88 
+407 1 226 
+158 1 150 
+542 1 285 
+32 1 26 
+421 1 285 
+166 1 150 
+550 1 550 
+40 5 -1 499 310 550 300 
+425 1 285 
+300 5 -1 499 310 550 300 
+556 2 553 285 
+559 1 559 
+52 2 0 41 
+181 1 285 
+310 5 -1 499 310 550 300 
+184 1 63 
+574 1 26 
+191 1 189 
+319 6 -1 499 310 550 300 285 
+450 1 435 
+453 2 435 285 
+70 1 63 
+326 1 285 
+583 2 578 26 
+201 1 189 
+329 1 329 
+459 1 285 
+467 1 285 
+213 1 203 
+86 1 63 
+344 1 26 
+473 1 473 
+221 1 203 
+351 1 351 
+96 1 88 
+488 1 26 
+106 1 285 
+366 1 26 
+239 0 
+114 1 285 
+243 1 226 
+374 2 203 285 
+120 1 120 
+504 2 499 203 
+378 1 378 
+253 1 226 
+510 1 510 
+Constructors: 4
+32 26
+450 435
+5 0
+319 285
+
+Summary: 13
+435 63 553 226 14 -1 -2 189 0 88 150 0 203 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.mustKeepWithPrevious()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.getGeneratesLineArea()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/LineLayoutManager.<clinit>()V
+PTG:
+Vars:
+3
+$r2 2 9 19 
+$r0 1 0 
+$r1 1 22 
+Fields: 0
+Accesses: 0
+Functions: 2
+19 2 19 9 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/layoutmgr/inline/LineLayoutManager.getChangedKnuthElements(Ljava/util/List;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+23
+$r8 1 55 
+$r16 1 141 
+_ret 1 0 
+$r4 1 26 
+$r10 1 258 
+$r7 1 55 
+$r14 1 235 
+$r3 1 14 
+$r18 1 72 
+r2 1 -1 
+r21 1 -2 
+r9 1 127 
+$r17 1 72 
+r6 1 31 
+$r19 1 100 
+$r11 1 285 
+$r5 1 31 
+$r20 1 107 
+$r0 1 0 
+r23 4 235 204 258 141 
+$r12 4 235 204 258 141 
+$r22 1 127 
+$r15 1 204 
+Fields: 4
+-1 parentLM 55
+-1 lineLayoutsList 26
+-1 knuthParagraphs 14
+-1 fobj 72
+Accesses: 5
+54 1 -1 
+71 1 -1 
+88 1 -1 
+25 1 -1 
+13 1 -1 
+Functions: 37
+4 1 0 
+324 6 258 235 204 285 141 127 
+262 1 127 
+327 2 0 285 
+72 1 72 
+267 1 127 
+14 1 14 
+208 1 127 
+145 1 127 
+273 1 127 
+83 1 31 
+150 1 127 
+214 1 127 
+279 1 258 
+89 1 72 
+26 1 26 
+156 1 127 
+221 1 204 
+289 1 127 
+162 1 127 
+167 1 127 
+296 1 127 
+173 1 127 
+46 1 31 
+239 1 127 
+112 6 -1 55 72 26 107 14 
+178 1 127 
+306 1 127 
+116 2 100 107 
+244 1 127 
+119 2 0 100 
+311 1 127 
+184 1 127 
+58 1 55 
+250 1 235 
+123 1 31 
+190 1 141 
+Constructors: 8
+112 107
+4 0
+116 100
+324 285
+279 258
+250 235
+221 204
+190 141
+
+Summary: 12
+235 285 -1 107 204 258 141 -2 31 127 100 0 

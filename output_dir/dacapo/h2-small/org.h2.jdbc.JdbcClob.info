@@ -1,0 +1,448 @@
+16
+org/h2/jdbc/JdbcClob.checkClosed()V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 8 
+Fields: 2
+-1 conn 1
+-1 value 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 2
+4 1 1 
+14 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/jdbc/JdbcClob.free()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 1
+3 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/jdbc/JdbcClob.position(Ljava/lang/String;J)J
+PTG:
+Vars:
+11
+$r2 1 10 
+$r6 1 23 
+$r8 1 32 
+$r10 1 43 
+r0 1 -1 
+$r1 1 1 
+$r5 1 18 
+$r9 1 35 
+$r4 1 15 
+r3 1 -2 
+$r7 1 27 
+Fields: 0
+Accesses: 0
+Functions: 10
+32 1 32 
+1 1 1 
+18 1 18 
+5 1 1 
+38 2 -1 35 
+23 1 23 
+41 0 
+10 2 10 15 
+27 1 27 
+13 2 -1 -2 
+Constructors: 1
+5 1
+
+Summary: 10
+18 15 27 -2 23 35 10 1 32 -1 
+org/h2/jdbc/JdbcClob.setCharacterStream(J)Ljava/io/Writer;
+PTG:
+Vars:
+2
+$r1 1 9 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 1 -1 
+7 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/jdbc/JdbcClob.setAsciiStream(J)Ljava/io/OutputStream;
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 1 -1 
+7 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/jdbc/JdbcClob.setString(JLjava/lang/String;II)I
+PTG:
+Vars:
+15
+$r12 1 52 
+r0 1 -1 
+$r6 1 24 
+$r7 1 27 
+$r13 1 55 
+r5 1 -3 
+$r4 1 19 
+$r8 1 32 
+$r3 1 14 
+$r9 1 37 
+$r11 1 47 
+$r10 1 42 
+$r1 1 1 
+$r14 1 63 
+$r2 1 10 
+Fields: 0
+Accesses: 0
+Functions: 14
+32 1 32 
+1 1 1 
+5 1 1 
+37 1 37 
+10 1 10 
+42 1 42 
+14 1 14 
+47 1 47 
+19 2 19 24 
+52 1 52 
+22 2 -1 -3 
+58 2 -1 55 
+27 1 27 
+61 0 
+Constructors: 1
+5 1
+
+Summary: 14
+52 55 27 37 14 32 -3 42 19 47 24 10 1 -1 
+org/h2/jdbc/JdbcClob.setString(JLjava/lang/String;)I
+PTG:
+Vars:
+11
+r5 1 -3 
+$r6 1 24 
+$r10 1 43 
+$r2 1 10 
+$r1 1 1 
+$r8 1 32 
+$r3 1 14 
+$r9 1 35 
+r0 1 -1 
+$r4 1 19 
+$r7 1 27 
+Fields: 0
+Accesses: 0
+Functions: 10
+32 1 32 
+1 1 1 
+19 2 19 24 
+5 1 1 
+22 2 -1 -3 
+38 2 -1 35 
+41 0 
+10 1 10 
+27 1 27 
+14 1 14 
+Constructors: 1
+5 1
+
+Summary: 10
+19 27 35 24 10 1 14 32 -1 -3 
+org/h2/jdbc/JdbcClob.<init>(Lorg/h2/jdbc/JdbcConnection;Lorg/h2/value/Value;I)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 6 
+r4 1 -3 
+r1 1 -2 
+$r3 1 9 
+Fields: 0
+Accesses: 2
+22 1 -1 
+27 1 -1 
+Functions: 4
+1 1 -1 
+17 2 -1 9 
+5 1 -2 
+6 1 6 
+Constructors: 1
+1 -1
+
+Summary: 3
+1 0 -1 
+org/h2/jdbc/JdbcClob.position(Ljava/sql/Clob;J)J
+PTG:
+Vars:
+8
+$r4 1 19 
+r7 1 -2 
+$r1 1 1 
+$r6 1 30 
+$r2 1 10 
+$r3 1 14 
+r0 1 -1 
+$r5 1 22 
+Fields: 0
+Accesses: 0
+Functions: 7
+1 1 1 
+19 1 19 
+5 1 1 
+25 2 -1 22 
+10 1 10 
+28 0 
+14 1 14 
+Constructors: 1
+5 1
+
+Summary: 7
+19 -2 10 22 1 14 -1 
+org/h2/jdbc/JdbcClob.getSubString(JI)Ljava/lang/String;
+PTG:
+Vars:
+25
+$r16 1 94 
+$r11 1 193 
+$r2 1 10 
+$r15 1 91 
+$r6 1 28 
+$r18 1 49 
+$r24 1 202 
+r10 1 124 
+r0 1 -1 
+$r4 1 19 
+$r19 1 58 
+$r25 1 -1 
+$r7 1 31 
+$r1 1 1 
+$r3 1 14 
+$r22 1 68 
+$r23 1 -1 
+$r8 1 101 
+$r13 1 78 
+$r21 1 65 
+$r9 1 118 
+$r20 1 62 
+$r5 1 23 
+$r14 1 87 
+$r17 1 97 
+Fields: 1
+-1 value 118
+Accesses: 1
+117 1 -1 
+Functions: 29
+1 1 1 
+65 1 65 
+131 1 124 
+5 1 1 
+199 2 -1 118 
+10 1 10 
+14 1 14 
+78 1 78 
+143 1 124 
+82 1 78 
+19 1 19 
+23 1 23 
+87 1 87 
+91 1 91 
+28 1 28 
+94 1 94 
+34 3 -1 118 31 
+163 1 101 
+38 2 -1 118 
+108 0 
+175 1 124 
+112 1 101 
+49 1 49 
+53 1 49 
+118 1 118 
+185 1 124 
+58 1 58 
+62 1 62 
+191 1 101 
+Constructors: 4
+112 101
+82 78
+5 1
+53 49
+
+Summary: 18
+78 31 14 62 65 19 91 87 49 10 58 94 1 101 28 124 23 -1 
+org/h2/jdbc/JdbcClob.getCharacterStream(JJ)Ljava/io/Reader;
+PTG:
+Vars:
+9
+$r8 1 39 
+r0 1 -1 
+$r7 1 31 
+$r3 1 14 
+$r1 1 1 
+$r4 1 19 
+$r5 1 23 
+$r2 1 10 
+$r6 1 28 
+Fields: 0
+Accesses: 0
+Functions: 9
+1 1 1 
+34 2 -1 31 
+19 1 19 
+5 1 1 
+37 0 
+23 1 23 
+10 1 10 
+28 1 28 
+14 1 14 
+Constructors: 1
+5 1
+
+Summary: 8
+19 28 31 23 10 1 14 -1 
+org/h2/jdbc/JdbcClob.getCharacterStream()Ljava/io/Reader;
+PTG:
+Vars:
+5
+$r2 1 14 
+$r3 1 -1 
+$r1 1 11 
+$r5 1 21 
+r0 1 -1 
+Fields: 1
+-1 value 11
+Accesses: 1
+10 1 -1 
+Functions: 4
+3 2 -1 11 
+19 2 -1 11 
+7 2 -1 11 
+11 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/jdbc/JdbcClob.truncate(J)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 1 -1 
+7 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/jdbc/JdbcClob.toString()Ljava/lang/String;
+PTG:
+Vars:
+10
+$r5 1 20 
+_ret 1 29 
+$r6 1 23 
+$r7 1 26 
+$r3 1 11 
+$r0 1 0 
+$r2 1 8 
+r1 1 -1 
+$r8 1 29 
+$r4 1 16 
+Fields: 1
+-1 value 20
+Accesses: 1
+19 1 -1 
+Functions: 7
+0 2 0 8 
+16 2 16 23 
+4 1 0 
+20 1 20 
+7 2 -1 20 
+26 1 26 
+11 1 11 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/h2/jdbc/JdbcClob.length()J
+PTG:
+Vars:
+9
+$r2 1 11 
+$r5 1 -1 
+$r6 1 104 
+$r4 1 11 
+r9 1 45 
+r3 1 50 
+r0 1 -1 
+$r1 1 11 
+$r7 1 -1 
+Fields: 1
+-1 value 11
+Accesses: 3
+22 1 -1 
+38 1 -1 
+10 1 -1 
+Functions: 9
+3 2 -1 11 
+54 2 50 45 
+86 1 45 
+102 2 -1 11 
+7 2 -1 11 
+23 1 11 
+39 1 11 
+11 1 11 
+95 1 45 
+Constructors: 0
+
+Summary: 3
+50 45 -1 
+org/h2/jdbc/JdbcClob.getAsciiStream()Ljava/io/InputStream;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r1 1 11 
+r5 1 17 
+$r3 1 -1 
+$r4 1 26 
+$r2 1 19 
+Fields: 1
+-1 value 11
+Accesses: 1
+10 1 -1 
+Functions: 5
+18 1 17 
+3 2 -1 11 
+7 2 -1 11 
+24 2 -1 11 
+11 1 11 
+Constructors: 0
+
+Summary: 2
+17 -1 

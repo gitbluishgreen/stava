@@ -1,0 +1,651 @@
+33
+com/sun/org/apache/xpath/internal/objects/XNodeSet.getNumberFromNode(I)D
+PTG:
+Vars:
+4
+r0 1 -1 
+r3 1 14 
+$r1 1 1 
+$r2 1 5 
+Fields: 1
+-1 m_dtmMgr 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 1 1 
+5 1 5 
+15 1 14 
+Constructors: 0
+
+Summary: 2
+-1 5 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.getStringFromNode(I)Lcom/sun/org/apache/xml/internal/utils/XMLString;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 20 
+_ret 1 20 
+Fields: 0
+Accesses: 1
+5 1 -1 
+Functions: 2
+6 0 
+10 0 
+Constructors: 0
+
+Summary: 2
+10 -1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.lessThanOrEqual(Lcom/sun/org/apache/xpath/internal/objects/XObject;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.getFresh()Lcom/sun/org/apache/xpath/internal/objects/XObject;
+PTG:
+Vars:
+5
+$r3 1 -1 
+$r1 1 8 
+r0 1 -1 
+$r5 1 18 
+$r6 1 23 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+22 1 -1 
+7 1 -1 
+26 2 18 23 
+Constructors: 1
+26 18
+
+Summary: 1
+23 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.notEquals(Lcom/sun/org/apache/xpath/internal/objects/XObject;)Z
+PTG:
+Vars:
+3
+$r2 1 2 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.getTypeString()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.iterRaw()Lcom/sun/org/apache/xml/internal/dtm/DTMIterator;
+PTG:
+Vars:
+2
+r0 1 -1 
+_ret 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xpath/internal/objects/XNodeSet.nodeset()Lorg/w3c/dom/traversal/NodeIterator;
+PTG:
+Vars:
+4
+r1 1 -1 
+$r2 1 5 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 1 -1 
+8 2 0 5 
+Constructors: 1
+8 0
+
+Summary: 2
+-1 5 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.iter()Lcom/sun/org/apache/xml/internal/dtm/DTMIterator;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 8 
+$r4 1 15 
+$r2 1 -1 
+$r5 1 20 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+19 1 -1 
+7 1 -1 
+23 2 20 15 
+Constructors: 1
+23 15
+
+Summary: 1
+20 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.release(Lcom/sun/org/apache/xml/internal/dtm/DTMIterator;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.dispatchCharactersEvents(Lorg/xml/sax/ContentHandler;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 16 
+r3 1 -2 
+$r1 1 12 
+Fields: 1
+-1 m_dtmMgr 12
+Accesses: 1
+11 1 -1 
+Functions: 3
+0 2 -1 12 
+22 2 16 -2 
+12 1 12 
+Constructors: 0
+
+Summary: 3
+-2 16 -1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.<init>(ILcom/sun/org/apache/xml/internal/dtm/DTMManager;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 1 
+r2 1 -3 
+$r3 1 23 
+$r4 1 23 
+Fields: 1
+-1 m_obj 23
+Accesses: 4
+35 1 -1 
+22 1 -1 
+43 1 -1 
+14 1 -1 
+Functions: 3
+6 2 1 -3 
+9 3 -1 1 23 
+30 1 23 
+Constructors: 2
+6 1
+9 -1
+
+Summary: 3
+1 1 -1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.greaterThan(Lcom/sun/org/apache/xpath/internal/objects/XObject;)Z
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.lessThan(Lcom/sun/org/apache/xpath/internal/objects/XObject;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 2 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.bool()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.mutableNodeset()Lcom/sun/org/apache/xpath/internal/NodeSetDTM;
+PTG:
+Vars:
+7
+$r4 1 1 
+r0 1 -1 
+$r2 1 21 
+$r1 1 1 
+$r3 1 26 
+r5 2 21 1 
+_ret 2 21 1 
+Fields: 1
+-1 m_obj 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 4
+35 3 -1 1 21 
+40 2 -1 1 
+25 2 -1 1 
+29 2 21 26 
+Constructors: 1
+29 21
+
+Summary: 2
+-1 26 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.equals(Lcom/sun/org/apache/xpath/internal/objects/XObject;)Z
+PTG:
+Vars:
+6
+r0 1 -1 
+r1 1 -2 
+$r3 1 -1 
+$r6 1 10 
+$r2 1 2 
+$r7 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 3 -1 -2 2 
+15 2 -1 10 
+Constructors: 1
+15 10
+
+Summary: 2
+-2 0 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.<clinit>()V
+PTG:
+Vars:
+6
+$r1 1 10 
+$r5 1 50 
+$r3 1 30 
+$r4 1 40 
+$r0 1 0 
+$r2 1 20 
+Fields: 0
+Accesses: 0
+Functions: 6
+34 1 30 
+4 1 0 
+54 1 50 
+24 1 20 
+44 1 40 
+14 1 10 
+Constructors: 6
+34 30
+4 0
+54 50
+24 20
+44 40
+14 10
+
+Summary: 0
+
+com/sun/org/apache/xpath/internal/objects/XNodeSet.numWithSideEffects()D
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+10 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.xstr()Lcom/sun/org/apache/xml/internal/utils/XMLString;
+PTG:
+Vars:
+3
+$r1 2 13 19 
+r0 1 -1 
+_ret 2 13 19 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.object()Ljava/lang/Object;
+PTG:
+Vars:
+4
+$r1 1 2 
+$r2 1 2 
+r0 1 -1 
+_ret 1 2 
+Fields: 1
+-1 m_obj 2
+Accesses: 2
+1 1 -1 
+10 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+com/sun/org/apache/xpath/internal/objects/XNodeSet.boolWithSideEffects()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.nodelist()Lorg/w3c/dom/NodeList;
+PTG:
+Vars:
+6
+$r5 1 19 
+r4 1 10 
+$r3 1 10 
+$r0 1 0 
+r1 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 4
+18 1 10 
+5 2 0 -1 
+22 2 -1 19 
+9 1 0 
+Constructors: 1
+5 0
+
+Summary: 3
+10 -1 19 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.greaterThanOrEqual(Lcom/sun/org/apache/xpath/internal/objects/XObject;)Z
+PTG:
+Vars:
+3
+$r2 1 2 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.str()Ljava/lang/String;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 13 
+$r2 2 16 24 
+_ret 2 16 24 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -1 
+11 1 -1 
+13 1 13 
+Constructors: 0
+
+Summary: 2
+13 -1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.<init>(Lcom/sun/org/apache/xml/internal/dtm/DTMIterator;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r4 1 26 
+$r3 1 18 
+$r5 1 54 
+r1 1 -2 
+r2 1 -2 
+Fields: 2
+-2 m_iter 18
+-2 m_dtmMgr 26
+Accesses: 5
+17 1 -2 
+33 1 -2 
+37 1 -1 
+25 1 -2 
+29 1 -1 
+Functions: 7
+1 1 -1 
+49 3 -2 18 26 
+65 4 -1 -2 18 26 
+21 2 -1 18 
+53 3 -2 18 26 
+40 3 -2 18 26 
+57 2 -1 54 
+Constructors: 1
+1 -1
+
+Summary: 5
+-2 18 54 0 -1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.<init>(Lcom/sun/org/apache/xml/internal/dtm/DTMManager;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+3 2 -1 -2 
+Constructors: 1
+3 -1
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.getType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.<init>(Lcom/sun/org/apache/xpath/internal/objects/XNodeSet;)V
+PTG:
+Vars:
+5
+$r2 1 6 
+r1 1 -2 
+$r4 1 42 
+$r3 1 14 
+r0 1 -1 
+Fields: 3
+-2 m_iter 6
+-2 m_dtmMgr 14
+-2 m_obj 42
+Accesses: 6
+17 1 -1 
+5 1 -2 
+21 1 -2 
+25 1 -1 
+41 1 -2 
+13 1 -2 
+Functions: 5
+1 1 -1 
+37 4 -2 6 42 14 
+9 2 -1 6 
+28 4 -2 6 42 14 
+45 2 -1 42 
+Constructors: 1
+1 -1
+
+Summary: 5
+-2 6 42 0 -1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.appendToFsb(Lcom/sun/org/apache/xml/internal/utils/FastStringBuffer;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+r3 1 -2 
+r2 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+10 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 1 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.compare(Lcom/sun/org/apache/xpath/internal/objects/XObject;Lcom/sun/org/apache/xpath/internal/objects/Comparator;)Z
+PTG:
+Vars:
+19
+$r3 1 -2 
+r0 1 -2 
+r13 1 310 
+r14 1 316 
+r15 1 338 
+r10 1 52 
+r7 1 18 
+r17 1 385 
+r2 1 -1 
+r8 1 27 
+$r5 1 150 
+r16 1 379 
+r11 1 80 
+r12 1 241 
+$r6 1 104 
+r1 1 -3 
+r9 1 104 
+r18 1 407 
+$r4 1 150 
+Fields: 0
+Accesses: 0
+Functions: 39
+2 1 -2 
+388 1 385 
+199 1 -1 
+263 1 -1 
+74 1 -1 
+332 1 -1 
+14 1 -1 
+143 3 -3 52 150 
+271 1 -3 
+401 1 -1 
+82 3 80 -3 52 
+146 1 104 
+340 3 -3 338 310 
+21 1 -2 
+213 1 -2 
+409 3 -3 407 379 
+219 1 -3 
+33 1 18 
+292 1 241 
+361 1 316 
+108 1 104 
+237 1 -1 
+46 1 -1 
+430 1 385 
+178 1 18 
+306 1 -2 
+243 1 -2 
+117 2 80 104 
+438 1 -3 
+375 1 -2 
+439 1 -1 
+312 1 -1 
+185 1 27 
+250 1 241 
+443 1 -2 
+61 1 27 
+381 1 -1 
+126 1 104 
+319 1 316 
+Constructors: 1
+108 104
+
+Summary: 15
+241 385 316 18 27 379 -3 104 52 407 150 338 310 0 80 
+com/sun/org/apache/xpath/internal/objects/XNodeSet.num()D
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+11 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 

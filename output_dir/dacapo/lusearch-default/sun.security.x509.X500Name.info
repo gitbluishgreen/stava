@@ -1,0 +1,1626 @@
+59
+sun/security/x509/X500Name.parseDER(Lsun/security/util/DerInputStream;)V
+PTG:
+Vars:
+13
+r13 1 44 
+$r6 1 64 
+$r5 1 93 
+r0 1 -2 
+$r2 1 76 
+r11 1 6 
+r12 2 57 12 
+$r4 1 105 
+$r3 1 98 
+r1 1 -1 
+$r10 1 45 
+$r7 1 -1 
+$r8 1 27 
+Fields: 3
+57 ArrayObject 105
+12 ArrayObject 105
+-1 names 93
+Accesses: 3
+67 1 -1 
+92 1 -1 
+79 1 -1 
+Functions: 7
+2 1 -2 
+34 2 6 27 
+50 2 44 45 
+7 1 -2 
+39 1 27 
+106 2 98 105 
+45 1 45 
+Constructors: 3
+34 27
+50 45
+106 98
+
+Summary: 5
+27 -2 45 0 -1 
+sun/security/x509/X500Name.asX500Principal()Ljavax/security/auth/x500/X500Principal;
+PTG:
+Vars:
+8
+_ret 1 1 
+$r5 1 21 
+$r3 1 8 
+$r1 1 1 
+$r4 1 17 
+r0 1 -1 
+$r6 1 21 
+$r2 1 1 
+Fields: 1
+-1 x500Principal 1
+Accesses: 3
+0 1 -1 
+27 1 -1 
+45 1 -1 
+Functions: 2
+17 2 17 8 
+41 0 
+Constructors: 0
+
+Summary: 1
+8 
+sun/security/x509/X500Name.escaped(IILjava/lang/String;)Z
+PTG:
+Vars:
+1
+r0 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 6
+67 1 -4 
+36 1 -4 
+5 1 -4 
+55 1 -4 
+24 1 -4 
+89 1 -4 
+Constructors: 0
+
+Summary: 1
+-4 
+sun/security/x509/X500Name.generateRFC2253DN(Ljava/util/Map;)Ljava/lang/String;
+PTG:
+Vars:
+11
+r8 1 -2 
+$r5 1 73 
+_ret 1 73 
+$r6 1 1 
+$r1 1 1 
+$r2 1 11 
+$r7 1 1 
+$r10 1 59 
+r0 1 -1 
+$r4 1 1 
+$r9 1 57 
+Fields: 2
+1 ArrayObject 57
+-1 names 1
+Accesses: 4
+0 1 -1 
+34 1 -1 
+52 1 -1 
+21 1 -1 
+Functions: 5
+17 1 11 
+72 1 11 
+57 2 -2 57 
+62 2 11 59 
+47 1 11 
+Constructors: 1
+17 11
+
+Summary: 5
+59 -2 0 -1 11 
+sun/security/x509/X500Name.getRFC1779Name()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 4 
+$r2 1 4 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+0 2 -1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+sun/security/x509/X500Name.getRFC2253Name(Ljava/util/Map;)Ljava/lang/String;
+PTG:
+Vars:
+4
+_ret 1 37 
+r1 1 -1 
+$r2 1 37 
+r0 1 -2 
+Fields: 0
+Accesses: 4
+16 1 -1 
+9 1 -1 
+27 1 -1 
+30 1 -1 
+Functions: 3
+0 1 -2 
+35 2 -1 -2 
+22 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/security/x509/X500Name.getDomain()Ljava/lang/String;
+PTG:
+Vars:
+5
+r2 1 7 
+_ret 1 10 
+$r3 1 10 
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.getOrganizationalUnit()Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 10 
+r0 1 -1 
+$r1 1 1 
+$r3 1 10 
+r2 1 7 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.allAvas()Ljava/util/List;
+PTG:
+Vars:
+8
+$r2 1 21 
+_ret 2 4 54 
+$r5 1 35 
+r0 1 -1 
+$r4 1 34 
+r6 2 4 54 
+$r1 1 9 
+$r3 1 21 
+Fields: 3
+21 ArrayObject 34
+-1 allAvaList 4
+-1 names 21
+Accesses: 4
+0 1 -1 
+20 1 -1 
+57 1 -1 
+29 1 -1 
+Functions: 4
+34 1 34 
+50 1 9 
+38 2 35 9 
+13 1 9 
+Constructors: 1
+13 9
+
+Summary: 3
+35 9 -1 
+sun/security/x509/X500Name.getString(Lsun/security/util/DerValue;)Ljava/lang/String;
+PTG:
+Vars:
+4
+r1 1 10 
+r0 1 -2 
+r7 1 -1 
+_ret 1 10 
+Fields: 0
+Accesses: 1
+31 1 -2 
+Functions: 6
+19 0 
+35 0 
+6 1 -2 
+23 0 
+41 0 
+28 0 
+Constructors: 0
+
+Summary: 7
+35 28 19 -2 0 -1 38 
+sun/security/x509/X500Name.findAttribute(Lsun/security/util/ObjectIdentifier;)Lsun/security/util/DerValue;
+PTG:
+Vars:
+7
+r6 1 28 
+$r5 1 23 
+r0 1 -1 
+$r2 1 1 
+$r3 1 1 
+$r1 1 1 
+r4 1 -2 
+Fields: 2
+1 ArrayObject 23
+-1 names 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+10 1 -1 
+Functions: 1
+23 2 -2 23 
+Constructors: 0
+
+Summary: 3
+28 -2 -1 
+sun/security/x509/X500Name.getSurname()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 1 
+_ret 1 10 
+r0 1 -1 
+r2 1 7 
+$r3 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.commonAncestor(Lsun/security/x509/X500Name;)Lsun/security/x509/X500Name;
+PTG:
+Vars:
+13
+_ret 1 121 
+$r3 1 13 
+$r6 1 13 
+$r11 1 56 
+$r7 1 110 
+$r5 1 121 
+$r10 1 63 
+r2 1 -1 
+$r8 1 13 
+$r9 1 7 
+$r1 1 7 
+r0 1 -2 
+r4 1 85 
+Fields: 5
+7 ArrayObject 63
+-2 names 7
+-1 names 13
+13 ArrayObject 56
+13 ArrayObject 110
+Accesses: 5
+50 1 -1 
+6 1 -2 
+104 1 -1 
+57 1 -2 
+12 1 -1 
+Functions: 2
+56 2 56 63 
+127 2 85 121 
+Constructors: 1
+127 121
+
+Summary: 5
+85 7 -2 -1 63 
+sun/security/x509/X500Name.parseDN(Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+11
+$r3 1 20 
+$r10 1 255 
+r7 1 -3 
+r0 1 -2 
+$r11 1 255 
+r12 1 147 
+$r6 1 149 
+r1 1 -1 
+$r9 1 252 
+r14 1 217 
+$r8 1 219 
+Fields: 0
+Accesses: 2
+16 1 -1 
+263 1 -1 
+Functions: 18
+130 1 -2 
+226 3 -3 217 219 
+4 1 -2 
+164 2 20 149 
+196 1 -2 
+40 1 -2 
+138 1 -2 
+234 2 20 219 
+107 1 -2 
+49 1 -2 
+241 1 20 
+210 1 -2 
+245 2 20 252 
+246 1 20 
+24 1 20 
+185 1 -2 
+156 3 -3 147 149 
+94 0 
+Constructors: 3
+226 219
+24 20
+156 149
+
+Summary: 11
+219 147 1 149 252 20 -3 -2 217 0 -1 
+sun/security/x509/X500Name.getIP()Ljava/lang/String;
+PTG:
+Vars:
+5
+r0 1 -1 
+_ret 1 10 
+$r1 1 1 
+r2 1 7 
+$r3 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.toString()Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 dn 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+8 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X500Name.<init>(Lsun/security/util/DerInputStream;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+6 2 -1 -2 
+Constructors: 1
+1 -1
+
+Summary: 3
+-2 0 -1 
+sun/security/x509/X500Name.constrains(Lsun/security/x509/GeneralNameInterface;)I
+PTG:
+Vars:
+5
+$r3 1 43 
+r0 1 -2 
+r2 1 -1 
+$r4 1 56 
+r1 1 -2 
+Fields: 2
+-2 names 43
+-1 names 56
+Accesses: 2
+55 1 -1 
+42 1 -2 
+Functions: 4
+81 4 -1 -2 56 43 
+68 4 -1 -2 56 43 
+9 2 -2 43 
+29 4 -1 -2 56 43 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+sun/security/x509/X500Name.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+15
+$r6 1 48 
+r16 1 124 
+r0 1 -1 
+$r5 1 55 
+$r11 1 29 
+$r4 1 48 
+r2 1 -2 
+r14 1 80 
+$r7 1 55 
+r1 1 -2 
+r15 1 118 
+$r10 1 99 
+r8 1 89 
+$r9 1 93 
+$r3 1 22 
+Fields: 8
+55 ArrayObject 89
+48 ArrayObject 80
+89 assertion 99
+-2 names 55
+-2 canonicalDn 29
+80 assertion 93
+-1 names 48
+-1 canonicalDn 22
+Accesses: 10
+97 1 89 
+82 1 -2 
+35 1 -1 
+21 1 -1 
+54 1 -2 
+39 1 -2 
+73 1 -1 
+91 1 80 
+28 1 -2 
+47 1 -1 
+Functions: 4
+114 5 -1 48 80 22 93 
+36 0 
+120 5 -2 99 55 89 29 
+126 2 118 124 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+sun/security/x509/X500Name.size()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 names 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X500Name.avaSize()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+sun/security/x509/X500Name.subtreeDepth()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 names 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X500Name.getEncoded()[B
+PTG:
+Vars:
+5
+_ret 1 4 
+$r3 1 4 
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+sun/security/x509/X500Name.<init>(Ljava/lang/String;Ljava/util/Map;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+7 3 -1 -2 -3 
+Constructors: 1
+1 -1
+
+Summary: 5
+1 -3 -2 0 -1 
+sun/security/x509/X500Name.getRFC2253Name()Ljava/lang/String;
+PTG:
+Vars:
+4
+_ret 1 4 
+r0 1 -1 
+$r2 1 4 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+0 2 -1 1 
+Constructors: 0
+
+Summary: 2
+1 -1 
+sun/security/x509/X500Name.getOrganization()Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 10 
+r0 1 -1 
+r2 1 7 
+$r3 1 10 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.getInitials()Ljava/lang/String;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 1 
+r2 1 7 
+_ret 1 10 
+$r3 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.getRFC1779Name(Ljava/util/Map;)Ljava/lang/String;
+PTG:
+Vars:
+4
+_ret 1 37 
+r1 1 -1 
+r0 1 -2 
+$r2 1 37 
+Fields: 0
+Accesses: 4
+16 1 -1 
+9 1 -1 
+27 1 -1 
+30 1 -1 
+Functions: 3
+0 1 -2 
+35 2 -1 -2 
+22 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/security/x509/X500Name.<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+38
+$r4 1 13 
+$r23 1 117 
+r26 1 -4 
+$r9 1 32 
+$r28 1 126 
+$r31 1 13 
+$r11 1 60 
+$r14 1 74 
+$r34 1 172 
+r0 1 -1 
+$r37 1 169 
+$r29 1 146 
+$r12 1 13 
+$r1 1 6 
+$r24 1 122 
+$r36 1 161 
+$r27 1 118 
+$r7 1 43 
+$r21 1 13 
+$r18 1 75 
+$r22 1 13 
+$r19 1 83 
+$r3 1 13 
+$r32 1 160 
+$r13 1 13 
+$r20 1 103 
+$r33 1 165 
+r17 1 -3 
+$r2 1 17 
+r35 1 -5 
+$r30 1 13 
+$r5 1 31 
+$r15 1 79 
+r8 1 -2 
+$r10 1 40 
+$r6 1 36 
+$r16 1 86 
+$r25 1 129 
+Fields: 9
+74 assertion 75
+31 assertion 32
+160 assertion 161
+117 assertion 118
+-1 names 13
+13 ArrayObject 74
+13 ArrayObject 160
+13 ArrayObject 31
+13 ArrayObject 117
+Accesses: 13
+160 1 160 
+98 1 -1 
+69 1 -1 
+9 1 -1 
+74 1 74 
+12 1 -1 
+141 1 -1 
+112 1 -1 
+117 1 117 
+55 1 -1 
+26 1 -1 
+155 1 -1 
+31 1 31 
+Functions: 13
+1 10 -1 160 32 161 117 118 74 75 13 31 
+65 1 60 
+134 2 129 -4 
+137 3 129 122 126 
+108 1 103 
+48 2 -2 43 
+178 2 -5 172 
+51 3 36 40 43 
+181 3 165 169 172 
+22 1 17 
+151 1 146 
+91 2 -3 86 
+94 3 83 86 79 
+Constructors: 13
+1 -1
+65 60
+134 129
+137 122
+108 103
+48 43
+178 172
+51 36
+181 165
+22 17
+151 146
+91 86
+94 79
+
+Summary: 9
+86 172 129 -5 -3 -4 -2 43 -1 
+sun/security/x509/X500Name.generateRFC1779DN(Ljava/util/Map;)Ljava/lang/String;
+PTG:
+Vars:
+12
+$r11 1 75 
+_ret 1 89 
+$r1 1 1 
+$r4 1 1 
+$r2 1 20 
+$r5 1 89 
+$r10 1 73 
+r9 1 -2 
+$r6 1 1 
+r0 1 -1 
+$r7 1 1 
+$r8 1 1 
+Fields: 2
+1 ArrayObject 73
+-1 names 1
+Accesses: 6
+0 1 -1 
+50 1 -1 
+68 1 -1 
+37 1 -1 
+9 1 -1 
+30 1 -1 
+Functions: 6
+88 1 20 
+73 2 -2 73 
+26 1 20 
+14 1 -2 
+78 2 20 75 
+63 1 20 
+Constructors: 1
+26 20
+
+Summary: 5
+20 -2 75 0 -1 
+sun/security/x509/X500Name.emit(Lsun/security/util/DerOutputStream;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+sun/security/x509/X500Name.<init>(Lsun/security/util/DerValue;)V
+PTG:
+Vars:
+3
+$r2 1 2 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -2 
+5 2 -1 2 
+Constructors: 1
+5 -1
+
+Summary: 3
+-2 0 -1 
+sun/security/x509/X500Name.getLocality()Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 10 
+r2 1 7 
+$r1 1 1 
+r0 1 -1 
+$r3 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+56
+$r39 1 14 
+r44 1 -6 
+$r52 1 261 
+$r20 1 104 
+$r14 1 75 
+$r48 1 14 
+r8 1 -2 
+$r41 1 205 
+$r54 1 250 
+$r29 1 147 
+$r32 1 161 
+$r43 1 217 
+$r10 1 41 
+r26 1 -4 
+$r27 1 119 
+$r6 1 37 
+$r4 1 14 
+$r15 1 80 
+$r22 1 14 
+$r24 1 123 
+$r36 1 162 
+$r34 1 173 
+$r38 1 191 
+$r16 1 87 
+$r23 1 118 
+$r5 1 32 
+$r55 1 258 
+$r18 1 76 
+$r12 1 14 
+$r51 1 254 
+$r40 1 14 
+$r28 1 127 
+$r46 1 214 
+$r9 1 33 
+$r11 1 61 
+$r31 1 14 
+$r1 1 7 
+$r7 1 44 
+$r21 1 14 
+$r50 1 249 
+r0 1 -1 
+$r45 1 206 
+r53 1 -7 
+$r30 1 14 
+$r49 1 14 
+r17 1 -3 
+$r47 1 235 
+$r33 1 166 
+$r37 1 170 
+r35 1 -5 
+$r13 1 14 
+$r3 1 14 
+$r19 1 84 
+$r2 1 18 
+$r25 1 130 
+$r42 1 210 
+Fields: 13
+249 assertion 250
+118 assertion 119
+14 ArrayObject 249
+14 ArrayObject 118
+14 ArrayObject 205
+14 ArrayObject 161
+14 ArrayObject 32
+14 ArrayObject 75
+205 assertion 206
+161 assertion 162
+32 assertion 33
+75 assertion 76
+-1 names 14
+Accesses: 19
+32 1 32 
+161 1 161 
+99 1 -1 
+70 1 -1 
+230 1 -1 
+200 1 -1 
+10 1 -1 
+75 1 75 
+13 1 -1 
+205 1 205 
+142 1 -1 
+113 1 -1 
+244 1 -1 
+118 1 118 
+56 1 -1 
+249 1 249 
+186 1 -1 
+27 1 -1 
+156 1 -1 
+Functions: 19
+1 14 -1 32 161 33 162 75 76 205 14 206 118 119 249 250 
+66 1 61 
+226 3 210 214 217 
+196 1 191 
+135 2 130 -4 
+138 3 130 123 127 
+267 2 261 -7 
+109 1 104 
+270 3 258 261 254 
+240 1 235 
+49 2 -2 44 
+179 2 -5 173 
+52 3 37 41 44 
+182 3 166 170 173 
+23 1 18 
+152 1 147 
+92 2 -3 87 
+95 3 80 84 87 
+223 2 -6 217 
+Constructors: 19
+1 -1
+66 61
+226 210
+196 191
+135 130
+138 123
+267 261
+109 104
+270 254
+240 235
+49 44
+179 173
+52 37
+182 166
+23 18
+152 147
+92 87
+95 80
+223 217
+
+Summary: 13
+130 217 173 44 -7 87 -6 -5 -3 -4 -2 261 -1 
+sun/security/x509/X500Name.encode(Lsun/security/util/DerOutputStream;)V
+PTG:
+Vars:
+6
+r4 1 -2 
+r2 1 -1 
+$r3 1 12 
+$r5 1 12 
+$r0 1 0 
+$r6 1 24 
+Fields: 2
+12 ArrayObject 24
+-1 names 12
+Accesses: 2
+19 1 -1 
+11 1 -1 
+Functions: 3
+4 1 0 
+39 2 0 -2 
+26 2 0 24 
+Constructors: 1
+4 0
+
+Summary: 4
+0 -2 0 -1 
+sun/security/x509/X500Name.<init>(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r8 1 46 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 12
+-1 0 
+1 1 -1 
+49 3 -1 -2 46 
+18 1 -3 
+35 1 -3 
+68 1 -3 
+72 0 
+59 0 
+29 2 -1 -2 
+14 0 
+78 0 
+63 0 
+Constructors: 1
+1 -1
+
+Summary: 8
+59 68 -3 -2 46 72 75 -1 
+sun/security/x509/X500Name.asX500Name(Ljavax/security/auth/x500/X500Principal;)Lsun/security/x509/X500Name;
+PTG:
+Vars:
+6
+r0 1 -2 
+$r3 1 -1 
+r5 1 4 
+$r1 1 0 
+$r4 1 19 
+$r2 1 4 
+Fields: 0
+Accesses: 1
+13 1 4 
+Functions: 2
+0 2 0 -2 
+26 2 -1 19 
+Constructors: 1
+26 19
+
+Summary: 0
+
+sun/security/x509/X500Name.generateDN()V
+PTG:
+Vars:
+10
+$r8 1 1 
+$r2 1 23 
+$r6 1 1 
+$r5 1 92 
+$r4 1 1 
+$r7 1 1 
+r0 1 -1 
+$r1 1 1 
+$r9 1 76 
+$r10 1 77 
+Fields: 2
+1 ArrayObject 76
+-1 names 1
+Accesses: 8
+0 1 -1 
+33 1 -1 
+19 1 -1 
+53 1 -1 
+71 1 -1 
+40 1 -1 
+10 1 -1 
+95 1 -1 
+Functions: 6
+80 2 23 77 
+66 1 23 
+91 1 23 
+76 1 76 
+29 1 23 
+15 0 
+Constructors: 1
+29 23
+
+Summary: 1
+-1 
+sun/security/x509/X500Name.countQuotes(Ljava/lang/String;II)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+39 1 -2 
+11 1 -2 
+28 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+sun/security/x509/X500Name.getType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X500Name.getGeneration()Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 10 
+$r1 1 1 
+r0 1 -1 
+r2 1 7 
+$r3 1 10 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.rdns()Ljava/util/List;
+PTG:
+Vars:
+5
+$r2 1 13 
+_ret 2 19 4 
+$r1 1 10 
+r0 1 -1 
+r3 2 19 4 
+Fields: 2
+-1 rdnList 4
+-1 names 10
+Accesses: 3
+0 1 -1 
+22 1 -1 
+9 1 -1 
+Functions: 2
+10 1 10 
+13 1 13 
+Constructors: 0
+
+Summary: 2
+-1 13 
+sun/security/x509/X500Name.getName()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X500Name.isEmpty()Z
+PTG:
+Vars:
+5
+$r4 1 19 
+r0 1 -1 
+$r1 1 1 
+$r3 1 18 
+$r2 1 1 
+Fields: 3
+18 assertion 19
+1 ArrayObject 18
+-1 names 1
+Accesses: 3
+0 1 -1 
+18 1 18 
+13 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X500Name.getState()Ljava/lang/String;
+PTG:
+Vars:
+5
+_ret 1 10 
+r2 1 7 
+$r1 1 1 
+$r3 1 10 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.getEncodedInternal()[B
+PTG:
+Vars:
+10
+$r3 1 7 
+$r8 1 59 
+$r2 1 1 
+_ret 1 1 
+$r10 1 39 
+$r9 1 27 
+$r5 1 15 
+r0 1 -1 
+$r1 1 1 
+$r7 1 27 
+Fields: 3
+27 ArrayObject 39
+-1 encoded 1
+-1 names 27
+Accesses: 5
+0 1 -1 
+65 1 -1 
+34 1 -1 
+26 1 -1 
+62 1 -1 
+Functions: 5
+19 1 15 
+54 2 7 15 
+41 2 39 15 
+58 1 7 
+11 1 7 
+Constructors: 2
+19 15
+11 7
+
+Summary: 3
+7 15 -1 
+sun/security/x509/X500Name.<init>([B)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+$r1 1 4 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -1 
+9 2 -2 4 
+15 2 -1 4 
+Constructors: 2
+1 -1
+9 4
+
+Summary: 3
+4 -2 -1 
+sun/security/x509/X500Name.<clinit>()V
+PTG:
+Vars:
+58
+$r17 1 461 
+$r42 1 572 
+$r10 1 228 
+$r12 1 274 
+$r46 1 590 
+$r56 1 643 
+$r24 1 491 
+$r4 1 90 
+$r32 1 527 
+$r16 1 422 
+$r49 1 605 
+$r26 1 500 
+$r21 1 479 
+$r36 1 545 
+$r22 1 482 
+$r20 1 473 
+$r51 1 614 
+$r2 1 45 
+$r47 1 596 
+$r48 1 599 
+$r11 1 251 
+$r29 1 515 
+$r35 1 542 
+$r37 1 551 
+$r7 1 159 
+$r30 1 518 
+$r5 1 113 
+$r31 1 524 
+$r38 1 554 
+$r34 1 536 
+$r54 1 632 
+$r18 1 464 
+$r39 1 560 
+$r3 1 67 
+$r14 1 321 
+$r23 1 488 
+$r25 1 497 
+$r19 1 470 
+$r50 1 608 
+$r9 1 205 
+$r43 1 578 
+$r1 1 23 
+$r41 1 569 
+$r15 1 380 
+$r28 1 509 
+r55 1 632 
+$r45 1 587 
+$r44 1 581 
+$r27 1 506 
+$r40 1 563 
+$r53 1 623 
+$r57 1 643 
+$r6 1 136 
+$r0 1 1 
+$r8 1 182 
+$r33 1 533 
+r60 1 623 
+$r13 1 297 
+Fields: 2
+623 ArrayObject 632
+623 ArrayObject 643
+Accesses: 0
+Functions: 20
+578 1 578 
+515 1 515 
+551 1 551 
+488 1 488 
+618 1 614 
+587 1 587 
+524 1 524 
+461 1 461 
+622 1 614 
+560 1 560 
+497 1 497 
+596 1 596 
+533 1 533 
+661 0 
+470 1 470 
+569 1 569 
+506 1 506 
+605 1 605 
+542 1 542 
+479 1 479 
+Constructors: 1
+618 614
+
+Summary: 0
+
+sun/security/x509/X500Name.getGivenName()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r1 1 1 
+_ret 1 10 
+r2 1 7 
+$r3 1 10 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.isWithinSubtree(Lsun/security/x509/X500Name;)Z
+PTG:
+Vars:
+11
+r1 1 -2 
+$r3 1 24 
+$r6 1 14 
+$r8 1 14 
+$r9 1 70 
+$r4 1 24 
+$r7 1 24 
+r0 1 -1 
+$r2 1 14 
+$r5 1 14 
+$r10 1 64 
+Fields: 4
+14 ArrayObject 70
+24 ArrayObject 64
+-2 names 14
+-1 names 24
+Accesses: 7
+33 1 -1 
+65 1 -2 
+51 1 -2 
+38 1 -2 
+23 1 -1 
+59 1 -1 
+13 1 -2 
+Functions: 1
+64 2 64 70 
+Constructors: 0
+
+Summary: 5
+14 70 -2 0 -1 
+sun/security/x509/X500Name.parseRFC2253DN(Ljava/lang/String;)V
+PTG:
+Vars:
+10
+r12 1 118 
+$r6 1 157 
+r4 1 -1 
+r0 1 -2 
+$r8 1 67 
+r10 1 65 
+$r5 1 154 
+$r1 1 16 
+$r3 1 120 
+$r7 1 157 
+Fields: 0
+Accesses: 2
+165 1 -1 
+12 1 -1 
+Functions: 14
+0 1 -2 
+128 2 118 120 
+100 1 -2 
+136 2 16 120 
+75 2 65 67 
+143 1 16 
+113 1 -2 
+51 1 -2 
+83 2 16 67 
+147 2 16 154 
+20 1 16 
+148 1 16 
+58 1 -2 
+29 1 -2 
+Constructors: 3
+128 120
+20 16
+75 67
+
+Summary: 9
+118 154 16 65 67 -2 0 -1 120 
+sun/security/x509/X500Name.findMostSpecificAttribute(Lsun/security/util/ObjectIdentifier;)Lsun/security/util/DerValue;
+PTG:
+Vars:
+7
+$r1 1 1 
+r6 1 29 
+$r2 1 1 
+r4 1 -2 
+$r3 1 1 
+$r5 1 24 
+r0 1 -1 
+Fields: 2
+1 ArrayObject 24
+-1 names 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+7 1 -1 
+Functions: 1
+24 2 -2 24 
+Constructors: 0
+
+Summary: 3
+29 -2 -1 
+sun/security/x509/X500Name.getCountry()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r3 1 10 
+_ret 1 10 
+r0 1 -1 
+r2 1 7 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.getDNQualifier()Ljava/lang/String;
+PTG:
+Vars:
+5
+$r3 1 10 
+_ret 1 10 
+r0 1 -1 
+$r1 1 1 
+r2 1 7 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.hashCode()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+sun/security/x509/X500Name.<init>(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+5 3 -1 -2 2 
+Constructors: 1
+5 -1
+
+Summary: 3
+2 -2 -1 
+sun/security/x509/X500Name.getRFC2253CanonicalName()Ljava/lang/String;
+PTG:
+Vars:
+12
+$r11 1 79 
+_ret 1 1 
+$r10 1 77 
+$r8 1 13 
+$r3 1 31 
+$r1 1 1 
+$r9 1 13 
+$r5 1 13 
+$r2 1 13 
+$r6 1 94 
+$r7 1 1 
+r0 1 -1 
+Fields: 3
+-1 names 13
+-1 canonicalDn 1
+13 ArrayObject 77
+Accesses: 10
+0 1 -1 
+97 1 -1 
+100 1 -1 
+54 1 -1 
+7 1 -1 
+23 1 -1 
+72 1 -1 
+41 1 -1 
+26 1 -1 
+12 1 -1 
+Functions: 5
+82 2 31 79 
+67 1 31 
+37 1 31 
+77 1 77 
+93 1 31 
+Constructors: 1
+37 31
+
+Summary: 1
+-1 
+sun/security/x509/X500Name.getCommonName()Ljava/lang/String;
+PTG:
+Vars:
+5
+r2 1 7 
+$r1 1 1 
+_ret 1 10 
+$r3 1 10 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 1 
+8 2 -1 7 
+Constructors: 0
+
+Summary: 2
+7 -1 
+sun/security/x509/X500Name.<init>([Lsun/security/x509/RDN;)V
+PTG:
+Vars:
+8
+$r5 1 34 
+r0 1 -1 
+r1 1 -2 
+$r4 1 34 
+$r3 1 21 
+$r6 1 46 
+$r8 1 10 
+$r2 1 21 
+Fields: 2
+34 ArrayObject 46
+-1 names 34
+Accesses: 4
+33 1 -1 
+41 1 -1 
+27 1 -1 
+13 1 -1 
+Functions: 3
+1 3 -1 34 46 
+20 1 -2 
+56 0 
+Constructors: 1
+1 -1
+
+Summary: 3
+-2 0 -1 

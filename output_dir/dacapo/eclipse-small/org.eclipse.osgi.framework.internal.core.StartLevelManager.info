@@ -1,0 +1,930 @@
+27
+org/eclipse/osgi/framework/internal/core/StartLevelManager.isBundleActivationPolicyUsed(Lorg/osgi/framework/Bundle;)Z
+PTG:
+Vars:
+4
+r9 1 -1 
+r0 1 -2 
+$r1 1 -2 
+$r2 1 40 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+32 0 
+18 0 
+21 0 
+37 1 -2 
+24 0 
+40 1 40 
+Constructors: 0
+
+Summary: 6
+-2 24 29 21 40 -1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.issueEvent(Lorg/eclipse/osgi/framework/internal/core/StartLevelEvent;)V
+PTG:
+Vars:
+6
+r6 1 -2 
+r5 1 -1 
+$r1 1 4 
+$r0 1 0 
+$r3 1 12 
+$r4 1 15 
+Fields: 0
+Accesses: 0
+Functions: 5
+21 3 0 -1 15 
+7 2 0 4 
+25 1 -2 
+12 1 12 
+30 2 0 -2 
+Constructors: 1
+7 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.setBundleStartLevel(Lorg/osgi/framework/Bundle;I)V
+PTG:
+Vars:
+25
+$r17 1 40 
+$r3 1 -2 
+$r23 1 170 
+$r16 1 37 
+r27 3 16 76 48 
+$r5 1 129 
+$r20 1 -1 
+$r11 1 56 
+$r22 1 150 
+r0 1 -2 
+$r19 1 91 
+$r25 1 161 
+$r10 1 59 
+$r7 1 178 
+$r26 1 161 
+$r4 1 120 
+$r13 1 70 
+r28 1 -2 
+$r15 1 30 
+$r12 1 67 
+$r2 1 91 
+$r14 1 -2 
+r1 1 -1 
+$r8 1 -2 
+$r18 1 -1 
+Fields: 1
+-1 framework 91
+Accesses: 2
+199 1 -1 
+90 1 -1 
+Functions: 22
+2 1 -2 
+34 1 -2 
+98 2 -2 91 
+67 1 67 
+37 1 37 
+70 2 70 56 
+103 1 -2 
+40 2 40 30 
+136 4 -1 129 -2 91 
+168 1 -1 
+139 1 129 
+207 3 -1 -2 91 
+20 1 -2 
+148 1 -1 
+86 3 16 48 76 
+118 1 -2 
+59 1 59 
+124 1 120 
+188 2 -2 178 
+63 1 59 
+159 1 -1 
+191 3 -1 178 91 
+Constructors: 3
+136 129
+188 178
+63 59
+
+Summary: 5
+178 -1 -2 150 0 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.saveActiveStartLevel(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 lock 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.getStartLevel()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.setStartLevel(I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 6 
+$r1 1 3 
+Fields: 2
+3 systemBundle 6
+-1 framework 3
+Accesses: 2
+2 1 -1 
+3 1 3 
+Functions: 1
+9 3 -1 3 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.doSetStartLevel(I)V
+PTG:
+Vars:
+35
+$r23 1 20 
+r4 1 18 
+$r5 1 20 
+$r6 1 40 
+$r27 1 81 
+$r19 1 139 
+$r25 1 20 
+$r26 1 20 
+$r13 1 20 
+$r1 1 1 
+$r16 1 198 
+r0 1 -1 
+$r8 1 198 
+$r39 1 81 
+$r17 2 20 132 
+$r37 1 20 
+$r18 1 135 
+$r38 1 20 
+r36 1 205 
+$r22 1 116 
+$r15 1 20 
+$r3 1 12 
+$r14 1 198 
+$r30 1 81 
+$r11 1 234 
+$r9 1 220 
+$r10 1 231 
+$r21 1 113 
+$r7 1 20 
+$r12 1 346 
+$r20 1 102 
+$r29 1 20 
+$r24 1 81 
+r35 1 26 
+$r28 1 20 
+Fields: 5
+20 bundles 198
+20 systemBundle 81
+132 bundles 135
+-1 framework 20
+-1 lock 1
+Accesses: 26
+0 1 -1 
+194 1 -1 
+131 1 -1 
+195 1 20 
+132 2 20 132 
+9 1 -1 
+267 1 -1 
+268 1 20 
+77 1 -1 
+78 1 20 
+335 1 -1 
+19 1 -1 
+86 1 81 
+278 1 -1 
+279 1 20 
+159 1 -1 
+288 1 -1 
+355 1 -1 
+164 1 -1 
+165 1 20 
+294 1 -1 
+295 1 20 
+174 1 -1 
+48 1 -1 
+179 1 -1 
+180 1 20 
+Functions: 24
+-1 0 
+193 5 -1 1 81 20 198 
+130 6 -1 1 81 20 198 135 
+226 1 220 
+102 1 102 
+231 1 231 
+330 1 18 
+171 3 81 20 198 
+12 1 12 
+108 1 102 
+45 2 40 26 
+237 1 234 
+142 6 -1 1 81 20 198 139 
+302 3 81 20 198 
+113 1 113 
+274 5 -1 1 81 20 198 
+20 3 81 20 198 
+119 1 116 
+313 0 
+250 6 -1 1 81 20 198 205 
+187 3 81 20 198 
+220 1 220 
+285 5 -1 1 81 20 198 
+350 2 18 346 
+Constructors: 2
+226 220
+108 102
+
+Summary: 3
+40 -1 346 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.suspendAllBundles(Lorg/eclipse/osgi/framework/internal/core/BundleRepository;)V
+PTG:
+Vars:
+26
+$r14 1 121 
+$r12 1 115 
+$r5 1 58 
+$r13 1 118 
+$r23 1 85 
+$r18 2 -1 139 
+r2 1 22 
+r16 1 8 
+$r25 2 25 82 
+$r20 2 25 82 
+r1 1 -2 
+$r15 1 128 
+$r19 2 25 82 
+$r21 1 85 
+$r4 1 43 
+$r8 1 85 
+$r22 2 25 82 
+$r3 1 25 
+$r24 2 25 82 
+$r6 1 61 
+$r26 1 85 
+$r7 2 25 82 
+$r10 1 -1 
+$r11 1 104 
+$r9 1 88 
+r0 1 -1 
+Fields: 6
+25 systemBundle 85
+82 systemBundle 85
+85 context 88
+-1 framework 82
+-1 framework 25
+8 ArrayObject 22
+Accesses: 13
+161 1 -1 
+162 2 82 25 
+169 1 85 
+172 1 -1 
+81 1 -1 
+145 1 -1 
+177 1 -1 
+82 2 82 25 
+178 2 82 25 
+85 1 85 
+150 1 -1 
+151 2 82 25 
+24 1 -1 
+Functions: 18
+64 1 61 
+2 6 -1 -2 82 85 88 25 
+104 2 115 104 
+138 1 -1 
+43 1 43 
+142 2 -1 139 
+111 1 104 
+50 1 43 
+114 1 -1 
+53 1 22 
+118 1 118 
+184 4 82 85 88 25 
+25 4 85 22 88 25 
+58 1 58 
+91 1 88 
+124 1 121 
+158 5 -1 82 85 88 25 
+127 1 -1 
+Constructors: 2
+50 43
+111 104
+
+Summary: 3
+-1 -2 0 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.shutdown()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.getInitialBundleStartLevel()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.initialize()V
+PTG:
+Vars:
+6
+$r5 1 38 
+r0 1 -1 
+$r2 1 5 
+$r1 1 2 
+$r3 1 16 
+$r4 1 28 
+Fields: 2
+2 adaptor 5
+-1 framework 2
+Accesses: 3
+1 1 -1 
+2 1 2 
+13 1 -1 
+Functions: 4
+32 1 28 
+5 1 5 
+22 1 16 
+43 4 -1 2 5 38 
+Constructors: 2
+32 28
+22 16
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.sortByDependency([Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;)V
+PTG:
+Vars:
+9
+r0 1 -1 
+$r9 1 83 
+$r1 1 1 
+$r6 1 42 
+$r2 1 4 
+r4 1 -2 
+$r10 1 84 
+$r5 1 21 
+$r7 1 66 
+Fields: 6
+-2 ArrayObject 42
+-2 ArrayObject 83
+-2 ArrayObject 21
+-2 ArrayObject 66
+-1 framework 1
+1 bundles 4
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 7
+66 1 66 
+83 1 83 
+84 1 84 
+21 1 21 
+42 1 42 
+60 8 -1 1 -2 66 83 4 21 42 
+126 8 -1 1 -2 66 83 4 21 42 
+Constructors: 0
+
+Summary: 4
+-2 21 0 -1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.incFWSL(I[Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;)V
+PTG:
+Vars:
+5
+r1 1 -3 
+$r2 1 6 
+$r4 1 20 
+r0 1 -1 
+$r3 1 17 
+Fields: 0
+Accesses: 0
+Functions: 6
+17 1 17 
+33 2 -1 -3 
+6 1 6 
+23 1 20 
+28 1 -1 
+13 1 6 
+Constructors: 1
+13 6
+
+Summary: 3
+1 -1 -3 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.sortByDependencies([Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;II)V
+PTG:
+Vars:
+21
+r21 1 43 
+r22 1 108 
+r4 1 -2 
+$r13 1 130 
+$r17 1 156 
+$r6 1 68 
+$r19 1 222 
+$r11 1 122 
+$r0 1 8 
+$r7 1 105 
+r9 1 -1 
+r23 1 205 
+$r12 1 125 
+$r5 1 39 
+$r8 1 108 
+$r16 1 165 
+$r18 1 171 
+$r20 1 222 
+$r2 1 20 
+$r15 2 119 153 
+$r10 1 119 
+Fields: 6
+-2 ArrayObject 68
+-2 ArrayObject 39
+119 adaptor 122
+153 bundles 156
+108 ArrayObject 165
+-1 framework 119
+Accesses: 4
+118 1 -1 
+119 1 119 
+152 1 -1 
+153 2 119 153 
+Functions: 17
+96 2 8 105 
+98 1 8 
+69 2 20 68 
+165 1 165 
+198 1 20 
+39 1 39 
+137 3 130 165 108 
+15 1 8 
+240 1 205 
+84 1 8 
+54 2 8 43 
+25 1 20 
+122 1 122 
+156 1 156 
+188 1 20 
+220 1 205 
+125 1 125 
+Constructors: 2
+25 20
+15 8
+
+Summary: 6
+20 105 -1 -2 8 0 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.setBundleSL(Lorg/eclipse/osgi/framework/internal/core/StartLevelEvent;)V
+PTG:
+Vars:
+24
+$r1 1 1 
+$r18 1 48 
+$r17 1 45 
+$r7 1 227 
+$r22 1 75 
+$r10 1 188 
+r4 1 22 
+$r21 1 69 
+$r14 1 130 
+$r15 1 133 
+$r12 1 140 
+$r20 1 66 
+r3 1 -2 
+$r8 1 198 
+$r9 1 173 
+$r19 1 54 
+$r23 1 86 
+$r16 1 30 
+$r11 1 191 
+$r5 1 212 
+$r6 1 224 
+r0 1 -1 
+$r24 1 89 
+$r13 1 115 
+Fields: 3
+-1 framework 198
+-1 framework 140
+-1 lock 1
+Accesses: 3
+0 1 -1 
+197 1 -1 
+139 1 -1 
+Functions: 34
+66 1 66 
+130 1 130 
+194 1 191 
+7 4 -1 1 198 140 
+72 1 69 
+136 1 133 
+75 1 75 
+203 2 198 22 
+12 1 -2 
+18 1 -2 
+82 1 75 
+146 2 22 140 
+212 1 212 
+86 1 86 
+153 1 22 
+219 1 212 
+92 1 89 
+30 1 30 
+95 1 22 
+224 1 224 
+37 1 30 
+230 1 227 
+40 1 22 
+45 1 45 
+173 1 173 
+51 1 48 
+115 1 115 
+180 1 173 
+54 1 54 
+183 1 22 
+122 1 115 
+188 1 188 
+61 1 54 
+125 1 22 
+Constructors: 6
+82 75
+180 173
+37 30
+122 115
+219 212
+61 54
+
+Summary: 3
+-1 0 -2 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.<init>(Lorg/eclipse/osgi/framework/internal/core/Framework;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+r0 1 -1 
+$r1 1 15 
+Fields: 0
+Accesses: 5
+32 1 -1 
+6 1 -1 
+22 1 -1 
+11 1 -1 
+27 1 -1 
+Functions: 2
+1 1 -1 
+19 1 15 
+Constructors: 2
+1 -1
+19 15
+
+Summary: 2
+0 -1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.resumeBundles([Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;)V
+PTG:
+Vars:
+14
+$r13 1 79 
+$r6 1 39 
+$r9 1 61 
+$r10 1 65 
+r1 1 -2 
+$r7 1 50 
+$r4 1 91 
+$r11 1 71 
+r0 1 -1 
+$r8 1 56 
+$r5 2 86 105 
+$r12 1 76 
+$r2 1 105 
+$r3 1 12 
+Fields: 4
+-2 ArrayObject 91
+-2 ArrayObject 61
+-2 ArrayObject 12
+-1 framework 105
+Accesses: 2
+85 1 -1 
+104 1 -1 
+Functions: 13
+0 2 -1 105 
+65 1 65 
+39 1 39 
+71 1 71 
+105 1 105 
+12 1 12 
+76 1 76 
+46 1 39 
+50 1 50 
+82 1 79 
+56 1 56 
+92 3 86 105 91 
+61 1 61 
+Constructors: 1
+46 39
+
+Summary: 3
+-1 -2 0 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.dispatchEvent(Ljava/lang/Object;Ljava/lang/Object;ILjava/lang/Object;)V
+PTG:
+Vars:
+9
+r1 1 -5 
+$r6 1 54 
+r0 1 -1 
+r9 1 -3 
+$r7 1 57 
+$r4 1 -1 
+$r3 1 -5 
+r8 1 -2 
+$r2 1 -5 
+Fields: 2
+54 adaptor 57
+-1 framework 54
+Accesses: 2
+53 1 -1 
+54 1 54 
+Functions: 4
+39 1 -5 
+45 3 -1 54 57 
+30 4 -1 -5 54 57 
+62 2 -1 57 
+Constructors: 0
+
+Summary: 7
+-2 1 3 0 -1 -5 -3 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.setInitialBundleStartLevel(I)V
+PTG:
+Vars:
+6
+$r5 1 37 
+$r4 1 1 
+$r1 1 1 
+$r2 1 8 
+r0 1 -1 
+$r3 1 1 
+Fields: 3
+-1 framework 1
+1 adaptor 37
+1 systemBundle 8
+Accesses: 6
+0 1 -1 
+33 1 -1 
+34 1 1 
+4 1 -1 
+5 1 1 
+30 1 -1 
+Functions: 3
+24 0 
+41 1 37 
+13 3 1 37 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.getInstalledBundles(Lorg/eclipse/osgi/framework/internal/core/BundleRepository;Z)[Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+5
+r3 1 9 
+r4 1 18 
+r0 1 -2 
+r6 1 -1 
+_ret 1 18 
+Fields: 0
+Accesses: 0
+Functions: 5
+35 1 18 
+5 1 -2 
+25 2 18 9 
+11 1 9 
+44 2 -1 18 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.isBundlePersistentlyStarted(Lorg/osgi/framework/Bundle;)Z
+PTG:
+Vars:
+4
+$r2 1 40 
+r9 1 -1 
+r0 1 -2 
+$r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 7
+0 1 -2 
+32 0 
+18 0 
+21 0 
+37 1 -2 
+24 0 
+40 1 40 
+Constructors: 0
+
+Summary: 6
+-2 24 29 21 40 -1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.isSettingStartLevel()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.cleanup()V
+PTG:
+Vars:
+3
+r2 1 -1 
+$r1 1 10 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 1 0 
+13 1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.decFWSL(I[Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;)V
+PTG:
+Vars:
+13
+$r5 1 113 
+$r6 1 87 
+$r12 1 20 
+r0 1 -1 
+$r2 1 46 
+r1 1 -3 
+$r9 1 106 
+$r4 1 118 
+$r11 1 17 
+$r7 1 99 
+$r10 1 6 
+$r3 1 74 
+$r8 1 103 
+Fields: 5
+-1 framework 113
+-3 ArrayObject 99
+-3 ArrayObject 74
+-3 ArrayObject 46
+-3 ArrayObject 118
+Accesses: 1
+112 1 -1 
+Functions: 13
+99 1 99 
+6 1 6 
+103 1 103 
+74 1 74 
+13 1 6 
+109 1 106 
+46 1 46 
+17 1 17 
+23 1 20 
+87 1 87 
+120 2 113 118 
+28 2 -1 113 
+94 1 87 
+Constructors: 2
+13 6
+94 87
+
+Summary: 3
+1 -1 -3 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.unloadAllBundles(Lorg/eclipse/osgi/framework/internal/core/BundleRepository;)V
+PTG:
+Vars:
+10
+$r8 1 54 
+r3 1 8 
+r0 1 -2 
+r12 1 -1 
+$r6 1 70 
+r5 1 26 
+$r4 1 26 
+$r7 1 42 
+$r9 1 57 
+$r11 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 10
+49 1 42 
+65 1 26 
+4 1 -2 
+68 1 26 
+54 1 54 
+23 1 8 
+9 1 8 
+73 1 70 
+42 2 42 26 
+60 1 57 
+Constructors: 1
+49 42
+
+Summary: 2
+0 -1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.getBundleStartLevel(Lorg/osgi/framework/Bundle;)I
+PTG:
+Vars:
+3
+$r1 1 -2 
+r8 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -2 
+32 0 
+18 0 
+21 0 
+37 1 -2 
+24 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/osgi/framework/internal/core/StartLevelManager.setStartLevel(ILorg/osgi/framework/Bundle;)V
+PTG:
+Vars:
+12
+$r1 1 33 
+r0 1 -1 
+r5 1 -3 
+$r7 1 54 
+$r9 1 69 
+$r4 1 88 
+$r6 1 -3 
+$r11 1 81 
+$r8 1 64 
+$r2 1 40 
+$r10 1 78 
+$r3 1 33 
+Fields: 2
+33 systemBundle 40
+-1 framework 33
+Accesses: 3
+32 1 -1 
+36 1 -1 
+37 1 33 
+Functions: 15
+64 1 64 
+98 2 -3 88 
+69 1 69 
+101 4 -1 33 40 88 
+72 1 -3 
+11 0 
+45 2 33 40 
+78 1 78 
+15 0 
+19 0 
+84 1 81 
+22 0 
+54 1 54 
+28 0 
+60 1 54 
+Constructors: 2
+98 88
+60 54
+
+Summary: 4
+1 -1 -3 88 

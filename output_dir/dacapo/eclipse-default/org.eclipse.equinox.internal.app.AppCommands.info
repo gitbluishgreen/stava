@@ -1,0 +1,646 @@
+16
+org/eclipse/equinox/internal/app/AppCommands._startApp(Lorg/eclipse/osgi/framework/console/CommandInterpreter;)V
+PTG:
+Vars:
+10
+$r24 1 39 
+$r25 1 45 
+$r4 1 12 
+$r3 1 9 
+$r26 1 48 
+r0 1 -2 
+$r23 1 28 
+r2 1 -1 
+r1 1 6 
+r5 1 22 
+Fields: 1
+-1 applicationDescriptors 9
+Accesses: 4
+150 1 -1 
+8 1 -1 
+220 1 -1 
+206 1 -1 
+Functions: 25
+0 1 -2 
+129 0 
+196 1 -2 
+7 4 -1 6 9 12 
+9 1 9 
+78 0 
+82 1 -2 
+146 0 
+211 1 22 
+151 1 22 
+28 2 6 28 
+94 0 
+225 1 22 
+35 1 28 
+165 0 
+39 1 39 
+106 0 
+108 0 
+45 1 45 
+175 0 
+51 2 48 -2 
+182 0 
+185 0 
+190 0 
+63 0 
+Constructors: 1
+35 28
+
+Summary: 18
+172 39 83 6 22 193 113 -1 190 45 59 12 187 155 48 -2 116 124 
+org/eclipse/equinox/internal/app/AppCommands.start(Lorg/osgi/framework/BundleContext;)V
+PTG:
+Vars:
+33
+$r27 1 233 
+$r5 1 61 
+$r40 2 218 208 
+$r31 1 -1 
+r1 1 -2 
+$r7 1 109 
+$r2 1 6 
+$r28 1 -1 
+$r26 1 228 
+$r39 2 131 121 
+$r3 1 43 
+$r9 1 153 
+r0 1 -1 
+$r29 1 141 
+$r10 1 164 
+$r15 1 245 
+$r32 1 86 
+$r14 1 240 
+$r24 1 -1 
+$r36 1 36 
+$r30 1 146 
+$r33 1 91 
+$r25 1 -1 
+$r4 1 54 
+$r8 1 116 
+$r38 2 66 76 
+$r11 1 174 
+$r37 2 11 21 
+$r12 1 186 
+$r35 1 31 
+$r34 1 -1 
+$r6 1 98 
+$r13 1 198 
+Fields: 3
+-1 scheduledApplications 164
+-1 applicationDescriptors 54
+-1 applicationHandles 109
+Accesses: 11
+160 1 -1 
+2 1 -1 
+50 1 -1 
+163 1 -1 
+179 1 -1 
+53 1 -1 
+105 1 -1 
+250 1 -1 
+203 1 -1 
+108 1 -1 
+191 1 -1 
+Functions: 23
+-1 1 -1 
+129 0 
+66 2 66 76 
+195 1 -2 
+102 3 -2 98 61 
+39 2 36 31 
+167 1 164 
+74 0 
+11 2 21 11 
+171 1 -2 
+236 2 228 233 
+47 3 -2 6 43 
+207 6 240 -1 -2 164 54 109 
+112 1 109 
+208 2 208 218 
+19 0 
+149 2 146 141 
+183 1 -2 
+216 0 
+57 1 54 
+121 2 131 121 
+157 3 -2 116 153 
+94 2 86 91 
+Constructors: 7
+149 141
+102 61
+39 31
+236 228
+157 116
+94 86
+47 6
+
+Summary: 10
+43 91 98 146 -1 36 0 240 153 233 
+org/eclipse/equinox/internal/app/AppCommands._schedApp(Lorg/eclipse/osgi/framework/console/CommandInterpreter;)V
+PTG:
+Vars:
+10
+$r21 1 48 
+$r3 1 9 
+r2 1 -1 
+r0 1 -2 
+r1 1 6 
+$r20 1 45 
+$r4 1 12 
+$r18 1 28 
+$r19 1 39 
+r5 1 22 
+Fields: 1
+-1 applicationDescriptors 9
+Accesses: 4
+8 1 -1 
+59 1 -1 
+157 1 -1 
+143 1 -1 
+Functions: 21
+0 1 -2 
+162 1 22 
+35 1 28 
+133 1 -2 
+7 4 -1 6 9 12 
+39 1 39 
+9 1 9 
+74 1 -2 
+107 0 
+45 1 45 
+112 0 
+82 1 -2 
+51 2 48 -2 
+83 0 
+148 1 22 
+119 0 
+88 0 
+122 0 
+28 2 6 28 
+60 1 22 
+127 0 
+Constructors: 1
+35 28
+
+Summary: 15
+39 83 127 6 22 130 -1 45 12 48 88 -2 64 80 124 
+org/eclipse/equinox/internal/app/AppCommands.getApplication([Lorg/osgi/framework/ServiceReference;Ljava/lang/String;Ljava/lang/String;Z)Lorg/osgi/framework/ServiceReference;
+PTG:
+Vars:
+10
+$r9 1 80 
+r5 1 27 
+_ret 1 80 
+r7 1 -1 
+r8 1 80 
+r1 1 -3 
+r2 1 -4 
+$r3 1 25 
+r0 1 -2 
+$r4 1 27 
+Fields: 2
+-2 ArrayObject 80
+-2 ArrayObject 25
+Accesses: 0
+Functions: 3
+37 2 -3 27 
+25 2 -4 25 
+59 2 -3 27 
+Constructors: 0
+
+Summary: 7
+-1 27 1 -4 -3 0 -2 
+org/eclipse/equinox/internal/app/AppCommands.getHelp()Ljava/lang/String;
+PTG:
+Vars:
+4
+r12 1 -1 
+_ret 1 72 
+$r0 1 0 
+$r11 1 72 
+Fields: 0
+Accesses: 0
+Functions: 11
+32 1 0 
+18 1 0 
+67 1 0 
+4 1 0 
+53 1 0 
+39 1 0 
+71 1 0 
+25 1 0 
+11 1 0 
+60 1 0 
+46 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-1 0 
+org/eclipse/equinox/internal/app/AppCommands._unlockApp(Lorg/eclipse/osgi/framework/console/CommandInterpreter;)V
+PTG:
+Vars:
+10
+r0 1 -2 
+$r14 1 28 
+$r16 1 45 
+$r15 1 39 
+r2 1 -1 
+$r17 1 48 
+$r3 1 9 
+r1 1 6 
+r5 1 22 
+$r4 1 12 
+Fields: 1
+-1 applicationDescriptors 9
+Accesses: 4
+8 1 -1 
+59 1 -1 
+125 1 -1 
+111 1 -1 
+Functions: 17
+0 1 -2 
+130 1 22 
+35 1 28 
+101 1 -2 
+7 4 -1 6 9 12 
+39 1 39 
+9 1 9 
+76 0 
+45 1 45 
+80 0 
+51 2 48 -2 
+116 1 22 
+87 0 
+90 0 
+28 2 6 28 
+60 1 22 
+95 0 
+Constructors: 1
+35 28
+
+Summary: 12
+39 95 6 22 98 -1 45 12 48 92 -2 64 
+org/eclipse/equinox/internal/app/AppCommands.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/equinox/internal/app/AppCommands.destroy(Lorg/osgi/framework/BundleContext;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 7 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 2 -2 7 
+Constructors: 0
+
+Summary: 2
+0 -2 
+org/eclipse/equinox/internal/app/AppCommands._lockApp(Lorg/eclipse/osgi/framework/console/CommandInterpreter;)V
+PTG:
+Vars:
+10
+$r15 1 39 
+r1 1 6 
+$r4 1 12 
+r2 1 -1 
+r0 1 -2 
+$r14 1 28 
+$r16 1 45 
+r5 1 22 
+$r17 1 48 
+$r3 1 9 
+Fields: 1
+-1 applicationDescriptors 9
+Accesses: 4
+8 1 -1 
+59 1 -1 
+125 1 -1 
+111 1 -1 
+Functions: 17
+0 1 -2 
+130 1 22 
+35 1 28 
+101 1 -2 
+7 4 -1 6 9 12 
+39 1 39 
+9 1 9 
+76 0 
+45 1 45 
+80 0 
+51 2 48 -2 
+116 1 22 
+87 0 
+90 0 
+28 2 6 28 
+60 1 22 
+95 0 
+Constructors: 1
+35 28
+
+Summary: 12
+39 95 6 22 98 -1 45 12 48 92 -2 64 
+org/eclipse/equinox/internal/app/AppCommands._unschedApp(Lorg/eclipse/osgi/framework/console/CommandInterpreter;)V
+PTG:
+Vars:
+18
+$r10 1 95 
+$r17 1 48 
+$r12 1 103 
+$r16 1 45 
+$r15 1 39 
+r2 1 -1 
+$r6 1 60 
+$r9 1 82 
+$r13 1 60 
+$r4 1 12 
+r1 1 6 
+r0 1 -2 
+$r14 1 28 
+r5 1 22 
+$r7 1 64 
+r8 1 64 
+$r11 1 100 
+$r3 1 9 
+Fields: 2
+-1 scheduledApplications 9
+-1 context 60
+Accesses: 4
+130 1 -1 
+116 1 -1 
+8 1 -1 
+59 1 -1 
+Functions: 17
+0 1 -2 
+35 1 28 
+100 1 100 
+7 5 -1 6 9 60 12 
+39 1 39 
+135 2 22 60 
+9 1 9 
+106 2 -2 103 
+76 1 64 
+45 1 45 
+82 2 82 95 
+51 2 48 -2 
+89 1 82 
+121 1 22 
+28 2 6 28 
+60 2 22 60 
+92 1 22 
+Constructors: 2
+35 28
+89 82
+
+Summary: 12
+39 95 103 6 22 -1 45 12 48 100 -2 64 
+org/eclipse/equinox/internal/app/AppCommands._activeApps(Lorg/eclipse/osgi/framework/console/CommandInterpreter;)V
+PTG:
+Vars:
+10
+r3 1 -2 
+r2 1 7 
+r0 1 -1 
+$r10 2 71 77 
+$r6 1 59 
+$r7 1 53 
+$r8 1 60 
+$r4 1 29 
+$r5 1 32 
+$r1 1 1 
+Fields: 4
+-1 applicationHandles 1
+-1 activeApp 53
+7 ArrayObject 59
+7 ArrayObject 29
+Accesses: 2
+0 1 -1 
+52 1 -1 
+Functions: 9
+80 3 -2 71 77 
+1 1 1 
+37 2 32 -2 
+53 2 53 60 
+56 4 -1 1 53 59 
+89 1 -2 
+29 1 29 
+46 1 -2 
+15 1 -2 
+Constructors: 0
+
+Summary: 5
+-1 7 60 32 -2 
+org/eclipse/equinox/internal/app/AppCommands._stopApp(Lorg/eclipse/osgi/framework/console/CommandInterpreter;)V
+PTG:
+Vars:
+12
+r28 2 42 22 
+$r19 1 48 
+r1 1 6 
+$r20 1 59 
+$r21 1 65 
+$r24 1 32 
+r0 1 -2 
+$r22 1 68 
+r2 1 -1 
+$r3 1 9 
+$r4 1 12 
+$r23 1 9 
+Fields: 1
+-1 applicationHandles 9
+Accesses: 6
+96 1 -1 
+162 1 -1 
+148 1 -1 
+8 1 -1 
+28 1 -1 
+79 1 -1 
+Functions: 26
+0 1 -2 
+65 1 65 
+195 0 
+132 0 
+7 4 -1 6 9 12 
+71 2 -2 68 
+9 1 9 
+201 1 -2 
+138 1 -2 
+80 0 
+83 4 -1 22 9 42 
+153 2 22 42 
+27 4 -1 32 6 9 
+29 1 9 
+97 2 22 42 
+167 2 22 42 
+48 2 48 6 
+113 0 
+177 0 
+117 0 
+55 1 48 
+184 0 
+59 1 59 
+187 2 22 42 
+124 0 
+127 0 
+Constructors: 1
+55 48
+
+Summary: 18
+59 42 -1 65 129 12 68 132 135 6 22 190 198 85 101 32 195 -2 
+org/eclipse/equinox/internal/app/AppCommands.stop(Lorg/osgi/framework/BundleContext;)V
+PTG:
+Vars:
+9
+$r7 1 10 
+r0 1 -1 
+$r4 1 38 
+$r2 1 10 
+r8 1 -2 
+$r3 1 24 
+$r1 1 1 
+$r6 1 24 
+$r5 1 38 
+Fields: 4
+-1 scheduledApplications 38
+-1 providerRegistration 1
+-1 applicationDescriptors 10
+-1 applicationHandles 24
+Accesses: 7
+0 1 -1 
+16 1 -1 
+37 1 -1 
+23 1 -1 
+9 1 -1 
+44 1 -1 
+30 1 -1 
+Functions: 4
+48 1 38 
+34 1 24 
+4 1 1 
+20 1 10 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/equinox/internal/app/AppCommands.getServiceProps(Lorg/osgi/framework/ServiceReference;)Ljava/util/Dictionary;
+PTG:
+Vars:
+8
+r0 1 -2 
+$r5 1 27 
+_ret 1 7 
+r1 1 6 
+$r6 1 33 
+$r4 1 32 
+$r2 1 7 
+r8 1 -1 
+Fields: 2
+6 ArrayObject 27
+6 ArrayObject 32
+Accesses: 0
+Functions: 4
+0 1 -2 
+38 3 33 7 27 
+28 2 32 -2 
+13 1 7 
+Constructors: 1
+13 7
+
+Summary: 5
+-1 33 6 0 -2 
+org/eclipse/equinox/internal/app/AppCommands.create(Lorg/osgi/framework/BundleContext;)V
+PTG:
+Vars:
+4
+$r1 1 7 
+$r3 1 17 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+21 2 17 -2 
+11 1 7 
+Constructors: 1
+11 7
+
+Summary: 1
+-2 
+org/eclipse/equinox/internal/app/AppCommands._apps(Lorg/eclipse/osgi/framework/console/CommandInterpreter;)V
+PTG:
+Vars:
+19
+$r18 1 149 
+$r13 1 110 
+$r15 1 111 
+$r16 1 148 
+r6 1 -2 
+$r3 1 28 
+$r14 1 104 
+$r10 1 78 
+$r4 1 31 
+$r12 1 89 
+r0 1 -1 
+$r1 1 1 
+$r17 1 142 
+r2 1 7 
+$r11 1 81 
+$r9 1 62 
+$r7 1 51 
+r5 1 31 
+$r8 1 54 
+Fields: 8
+-1 launchableApp 104
+-1 scheduledApplications 78
+-1 applicationDescriptors 1
+-1 applicationHandles 51
+-1 lockedApp 142
+7 ArrayObject 148
+7 ArrayObject 28
+7 ArrayObject 110
+Accesses: 5
+0 1 -1 
+50 1 -1 
+103 1 -1 
+77 1 -1 
+141 1 -1 
+Functions: 18
+1 1 1 
+98 1 -2 
+163 1 -2 
+71 1 -2 
+104 2 104 111 
+136 1 -2 
+169 1 -2 
+107 7 -1 1 51 104 78 142 110 
+44 2 -2 31 
+76 8 -1 1 81 51 104 78 142 31 
+78 1 78 
+142 2 149 142 
+15 1 -2 
+49 8 -1 1 51 54 104 78 142 31 
+145 7 -1 1 51 148 104 78 142 
+51 1 51 
+28 1 28 
+125 1 -2 
+Constructors: 0
+
+Summary: 10
+7 31 111 149 54 62 -1 89 81 -2 

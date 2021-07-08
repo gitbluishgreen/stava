@@ -1,0 +1,1132 @@
+49
+org/h2/engine/SessionRemote.autoCommitIfCluster()V
+PTG:
+Vars:
+8
+$r3 1 8 
+$r4 1 8 
+$r8 1 -1 
+r0 1 -1 
+$r2 1 8 
+$r5 1 45 
+$r1 1 8 
+r6 1 45 
+Fields: 1
+-1 transferList 8
+Accesses: 5
+0 1 -1 
+7 1 -1 
+40 1 -1 
+14 1 -1 
+30 1 -1 
+Functions: 7
+68 3 -1 8 45 
+56 2 -1 8 
+88 2 -1 8 
+41 1 8 
+62 1 45 
+15 1 8 
+31 1 8 
+Constructors: 0
+
+Summary: 2
+-1 45 
+org/h2/engine/SessionRemote.getCurrentId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.getLastReconnect()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.autoReconnect(I)Z
+PTG:
+Vars:
+6
+$r4 1 80 
+$r5 1 92 
+r0 1 -1 
+$r6 1 80 
+$r1 1 47 
+$r2 1 54 
+Fields: 3
+-1 databaseName 92
+-1 embedded 54
+-1 eventListener 80
+Accesses: 10
+16 1 -1 
+34 1 -1 
+50 1 -1 
+53 1 -1 
+86 1 -1 
+9 1 -1 
+41 1 -1 
+91 1 -1 
+63 1 -1 
+79 1 -1 
+Functions: 5
+0 4 -1 80 54 92 
+99 2 80 92 
+71 4 -1 80 54 92 
+76 4 -1 80 54 92 
+45 4 -1 80 54 92 
+Constructors: 0
+
+Summary: 0
+
+org/h2/engine/SessionRemote.getNextId()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.createSession(Lorg/h2/engine/ConnectionInfo;)Lorg/h2/engine/SessionInterface;
+PTG:
+Vars:
+5
+$r0 1 0 
+r1 1 -2 
+r3 1 -1 
+$r2 1 9 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 0 
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 3
+-1 -2 0 
+org/h2/engine/SessionRemote.initTransfer(Lorg/h2/engine/ConnectionInfo;Ljava/lang/String;Ljava/lang/String;)Lorg/h2/value/Transfer;
+PTG:
+Vars:
+15
+r7 1 -3 
+r2 1 11 
+$r13 1 103 
+r1 1 -2 
+r17 1 124 
+$r3 1 13 
+_ret 1 13 
+$r15 1 113 
+$r20 1 165 
+$r21 1 171 
+r0 1 -4 
+$r9 1 83 
+r19 1 159 
+r4 1 -1 
+$r11 1 93 
+Fields: 1
+124 ArrayObject 159
+Accesses: 6
+65 1 -1 
+54 1 -1 
+205 1 -1 
+46 1 -1 
+190 1 -1 
+223 1 -1 
+Functions: 26
+131 1 13 
+4 1 -2 
+5 1 -4 
+69 1 13 
+200 1 13 
+76 2 -3 13 
+18 2 -1 13 
+82 1 -2 
+86 2 83 13 
+215 1 13 
+27 2 11 13 
+92 1 -2 
+32 1 -2 
+96 2 13 93 
+161 2 13 159 
+36 1 13 
+102 1 -2 
+168 2 -2 159 
+41 1 13 
+106 2 103 13 
+174 2 165 171 
+112 1 -2 
+50 1 13 
+116 2 113 13 
+120 1 -2 
+187 2 -1 13 
+Constructors: 1
+18 13
+
+Summary: 8
+-4 1 2 -3 -1 11 -2 0 
+org/h2/engine/SessionRemote.connectServer(Lorg/h2/engine/ConnectionInfo;)V
+PTG:
+Vars:
+39
+$r4 1 60 
+r51 1 386 
+$r28 1 15 
+$r12 1 423 
+r52 1 427 
+$r5 1 114 
+$r49 1 356 
+$r50 1 363 
+$r20 1 324 
+$r23 1 114 
+$r19 1 324 
+$r31 1 -1 
+$r15 1 372 
+$r16 1 281 
+$r26 1 114 
+r40 1 100 
+$r11 1 394 
+r41 1 111 
+$r7 1 219 
+$r8 1 222 
+$r17 1 288 
+r44 1 203 
+$r24 1 94 
+$r18 1 321 
+r38 2 23 4 
+$r10 1 244 
+r39 1 79 
+$r13 1 416 
+$r9 1 241 
+$r2 1 45 
+$r14 1 394 
+r45 1 300 
+r3 1 57 
+r1 1 -1 
+r0 1 -2 
+r42 1 138 
+$r6 1 179 
+$r25 1 114 
+r46 1 316 
+Fields: 6
+-1 traceSystem 114
+-1 cipher 363
+-1 databaseName 416
+-1 transferList 394
+-1 eventListener 288
+386 ArrayObject 423
+Accesses: 22
+228 1 -1 
+69 1 -1 
+231 1 -1 
+359 1 -1 
+393 1 -1 
+330 1 -1 
+362 1 -1 
+173 1 -1 
+429 1 -1 
+48 1 -1 
+272 1 -1 
+113 1 -1 
+182 1 -1 
+375 1 -1 
+152 1 -1 
+122 1 -1 
+474 1 -1 
+251 1 -1 
+284 1 -1 
+254 1 -1 
+287 1 -1 
+415 1 -1 
+Functions: 48
+0 1 -2 
+128 1 114 
+321 1 321 
+66 1 60 
+131 1 -2 
+5 2 4 23 
+453 6 -1 416 288 114 394 363 
+198 1 57 
+72 1 -2 
+266 0 
+397 1 394 
+14 2 4 23 
+462 6 -1 416 288 114 394 363 
+15 1 15 
+145 1 138 
+210 2 -2 203 
+338 0 
+466 6 -1 416 288 114 394 363 
+86 1 79 
+214 1 -2 
+24 2 4 23 
+280 1 -2 
+346 0 
+219 1 219 
+93 7 -1 416 288 114 394 363 94 
+413 8 -1 416 288 -2 114 423 394 363 
+158 1 114 
+222 1 222 
+478 0 
+353 1 -2 
+35 1 -2 
+485 6 -1 416 288 114 394 363 
+166 0 
+294 1 -2 
+41 2 4 23 
+107 1 100 
+236 1 -2 
+174 1 114 
+241 1 241 
+370 0 
+51 2 4 23 
+435 2 394 427 
+244 1 244 
+119 2 114 111 
+311 1 300 
+188 1 57 
+382 1 57 
+319 1 316 
+Constructors: 1
+66 60
+
+Summary: 3
+0 111 -2 
+org/h2/engine/SessionRemote.allocateObjectId(ZZ)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.cancel()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.getClientVersion()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.getMaxLengthInplaceLob()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.handleInvalidChecksum()V
+PTG:
+Vars:
+2
+r1 1 -1 
+$r0 1 4 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.getLobFileListCache()Lorg/h2/util/SmallLRUCache;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.switchOffCluster()V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 8 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+10 1 8 
+Constructors: 0
+
+Summary: 0
+
+org/h2/engine/SessionRemote.done(Lorg/h2/value/Transfer;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 2
+80 1 -1 
+67 1 -1 
+Functions: 8
+1 1 -2 
+18 1 -2 
+4 1 -2 
+36 1 -2 
+24 1 -2 
+56 0 
+13 1 -2 
+30 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/engine/SessionRemote.setPowerOffCount(I)V
+PTG:
+Vars:
+2
+r1 1 -1 
+$r0 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.traceOperation(Ljava/lang/String;I)V
+PTG:
+Vars:
+9
+$r6 1 27 
+r0 1 -1 
+r4 1 -2 
+$r1 1 1 
+$r8 1 34 
+$r7 1 31 
+$r5 1 22 
+$r2 1 14 
+$r3 1 1 
+Fields: 1
+-1 trace 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 7
+1 1 1 
+18 1 14 
+37 2 1 34 
+22 1 22 
+27 1 27 
+14 2 -2 14 
+31 1 31 
+Constructors: 1
+18 14
+
+Summary: 2
+-1 -2 
+org/h2/engine/SessionRemote.checkPowerOff()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.isClosed()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+Fields: 1
+-1 transferList 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.reconnect(Z)Lorg/h2/engine/SessionInterface;
+PTG:
+Vars:
+2
+_ret 1 -1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/h2/engine/SessionRemote.switchOffAutoCommitIfCluster()V
+PTG:
+Vars:
+5
+$r3 1 19 
+$r4 1 31 
+$r1 1 8 
+$r2 1 19 
+r0 1 -1 
+Fields: 2
+-1 transferList 8
+-1 switchOffAutoCommit 19
+Accesses: 6
+0 1 -1 
+49 1 -1 
+18 1 -1 
+34 1 -1 
+37 1 -1 
+7 1 -1 
+Functions: 3
+8 1 8 
+41 1 19 
+26 3 -1 19 8 
+Constructors: 0
+
+Summary: 0
+
+org/h2/engine/SessionRemote.checkClosed()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+7 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.getTempFileDeleter()Lorg/h2/util/TempFileDeleter;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.prepareCommand(Ljava/lang/String;I)Lorg/h2/command/CommandInterface;
+PTG:
+Vars:
+5
+$r6 1 -1 
+$r8 1 8 
+r0 1 -1 
+r4 1 -2 
+$r5 1 14 
+Fields: 1
+-1 transferList 14
+Accesses: 1
+13 1 -1 
+Functions: 2
+19 4 -1 -2 8 14 
+5 2 -1 14 
+Constructors: 1
+19 8
+
+Summary: 2
+-2 0 
+org/h2/engine/SessionRemote.getDataHandler()Lorg/h2/store/DataHandler;
+PTG:
+Vars:
+2
+r0 1 -1 
+_ret 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/h2/engine/SessionRemote.setAutoCommit(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.getChecksum([BII)I
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/h2/engine/SessionRemote.connectEmbeddedOrServer(Z)Lorg/h2/engine/SessionInterface;
+PTG:
+Vars:
+14
+r17 1 42 
+r18 1 66 
+r0 1 -1 
+$r10 1 -1 
+$r9 1 52 
+$r2 1 24 
+$r8 1 52 
+$r5 1 66 
+$r4 1 63 
+$r6 1 89 
+$r11 1 164 
+r1 1 4 
+$r7 1 42 
+$r3 1 27 
+Fields: 1
+-1 connectionInfo 4
+Accesses: 2
+0 1 -1 
+58 1 -1 
+Functions: 17
+97 0 
+162 1 -1 
+5 1 4 
+41 1 4 
+137 1 42 
+14 2 -1 4 
+145 1 42 
+19 1 4 
+51 1 4 
+83 1 4 
+117 0 
+86 2 66 4 
+24 1 24 
+152 3 -1 4 42 
+27 1 27 
+61 0 
+63 1 63 
+Constructors: 0
+
+Summary: 0
+
+org/h2/engine/SessionRemote.<init>()V
+PTG:
+Vars:
+3
+$r2 1 17 
+r0 1 -1 
+$r1 1 5 
+Fields: 0
+Accesses: 4
+8 1 -1 
+24 1 -1 
+13 1 -1 
+29 1 -1 
+Functions: 3
+-1 0 
+1 1 -1 
+21 1 17 
+Constructors: 2
+1 -1
+21 17
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.isClustered()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 transferList 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.close()V
+PTG:
+Vars:
+11
+$r9 1 29 
+r8 1 18 
+$r2 1 97 
+$r7 1 1 
+$r4 1 104 
+r10 1 29 
+r0 1 -1 
+$r14 1 -1 
+$r1 1 1 
+$r3 1 104 
+$r16 1 66 
+Fields: 4
+-1 traceSystem 97
+-1 trace 66
+-1 transferList 1
+-1 embedded 104
+Accesses: 8
+0 1 -1 
+96 1 -1 
+65 1 -1 
+103 1 -1 
+121 1 -1 
+11 1 -1 
+93 1 -1 
+110 1 -1 
+Functions: 10
+114 1 104 
+19 1 18 
+100 1 97 
+53 6 -1 97 1 66 104 29 
+57 1 29 
+73 2 -1 66 
+42 5 -1 97 1 66 104 
+12 1 1 
+28 1 18 
+47 1 29 
+Constructors: 0
+
+Summary: 0
+
+org/h2/engine/SessionRemote.getPowerOffCount()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.getDatabasePath()Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.openFile(Ljava/lang/String;Ljava/lang/String;Z)Lorg/h2/store/FileStore;
+PTG:
+Vars:
+8
+$r5 1 19 
+$r4 1 44 
+r3 1 -3 
+r9 2 31 51 
+$r1 1 19 
+r2 1 -2 
+r0 1 -1 
+_ret 2 31 51 
+Fields: 2
+-1 cipher 19
+-1 fileEncryptionKey 44
+Accesses: 3
+18 1 -1 
+39 1 -1 
+43 1 -1 
+Functions: 7
+4 1 -2 
+71 2 51 31 
+56 2 51 31 
+27 5 -1 -2 -3 19 44 
+13 1 -2 
+61 2 51 31 
+47 5 -1 -2 -3 19 44 
+Constructors: 0
+
+Summary: 4
+-1 -2 0 -3 
+org/h2/engine/SessionRemote.cancelStatement(I)V
+PTG:
+Vars:
+9
+$r1 1 10 
+r4 1 27 
+r15 1 40 
+$r8 1 93 
+$r13 1 -1 
+r0 1 -1 
+r2 1 16 
+$r3 1 27 
+$r14 1 126 
+Fields: 3
+-1 sessionId 93
+-1 trace 126
+-1 transferList 10
+Accesses: 7
+0 1 -1 
+49 1 -1 
+68 1 -1 
+9 1 -1 
+57 1 -1 
+92 1 -1 
+125 1 -1 
+Functions: 14
+96 2 40 93 
+36 1 27 
+133 2 -1 126 
+72 1 40 
+104 1 40 
+10 1 10 
+44 1 40 
+79 1 40 
+111 1 40 
+17 1 16 
+53 1 40 
+117 1 40 
+86 1 40 
+26 1 16 
+Constructors: 0
+
+Summary: 4
+-1 40 27 16 
+org/h2/engine/SessionRemote.compareTypeSave(Lorg/h2/value/Value;Lorg/h2/value/Value;)I
+PTG:
+Vars:
+4
+r3 1 -3 
+r1 1 -1 
+r2 1 -2 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 3
+-1 -2 -3 
+org/h2/engine/SessionRemote.createTempFile()Ljava/lang/String;
+PTG:
+Vars:
+7
+$r2 1 15 
+$r5 1 25 
+$r4 1 22 
+$r1 1 3 
+r6 1 9 
+$r3 1 -1 
+r0 1 -1 
+Fields: 1
+-1 databaseName 22
+Accesses: 1
+21 1 -1 
+Functions: 4
+0 3 -1 3 22 
+1 0 
+22 2 -1 22 
+14 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.getLobSyncObject()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 lobSyncObject 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.removeServer(Ljava/io/IOException;II)V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+r3 1 -2 
+Fields: 1
+-1 transferList 1
+Accesses: 1
+0 1 -1 
+Functions: 4
+19 2 -1 1 
+5 1 1 
+23 2 -1 1 
+9 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-2 
+org/h2/engine/SessionRemote.getFilePrefix(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+7
+r1 1 -2 
+$r0 1 0 
+$r5 1 20 
+r4 1 -1 
+_ret 1 71 
+$r6 1 71 
+$r7 1 20 
+Fields: 1
+-1 databaseName 20
+Accesses: 2
+19 1 -1 
+29 1 -1 
+Functions: 8
+50 1 0 
+20 1 20 
+5 2 0 -2 
+70 1 0 
+39 0 
+12 1 0 
+60 1 0 
+30 1 20 
+Constructors: 1
+5 0
+
+Summary: 3
+-1 -2 0 
+org/h2/engine/SessionRemote.checkWritingAllowed()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.upgradeClientVersionIfPossible()V
+PTG:
+Vars:
+20
+r26 1 145 
+$r5 1 117 
+$r7 1 128 
+$r4 1 114 
+r25 1 134 
+r19 1 7 
+r21 1 42 
+$r16 1 93 
+r20 1 15 
+$r18 1 93 
+$r12 1 63 
+$r3 1 25 
+$r8 1 145 
+r0 1 -1 
+$r1 1 9 
+r22 1 58 
+$r17 1 -1 
+$r10 1 170 
+$r15 1 -1 
+$r2 1 15 
+Fields: 4
+-1 sessionId 170
+-1 trace 93
+-1 transferList 128
+58 ArrayObject 63
+Accesses: 7
+102 1 -1 
+120 1 -1 
+169 1 -1 
+187 1 -1 
+92 1 -1 
+79 1 -1 
+127 1 -1 
+Functions: 21
+0 4 -1 128 170 93 
+128 1 128 
+34 1 7 
+99 2 -1 93 
+195 2 -1 93 
+164 1 145 
+135 1 134 
+8 1 7 
+9 1 9 
+43 1 42 
+173 2 145 170 
+112 0 
+144 1 134 
+114 1 114 
+83 1 42 
+179 5 -1 128 145 170 93 
+52 1 42 
+23 0 
+29 2 25 15 
+158 4 -1 128 170 93 
+63 1 63 
+Constructors: 0
+
+Summary: 4
+15 42 58 9 
+org/h2/engine/SessionRemote.getLobCompressionAlgorithm(I)Ljava/lang/String;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.getLobFilesInDirectories()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.isReconnectNeeded(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.<init>(Lorg/h2/engine/ConnectionInfo;)V
+PTG:
+Vars:
+4
+r3 1 -2 
+$r2 1 17 
+r0 1 -1 
+$r1 1 5 
+Fields: 0
+Accesses: 5
+34 1 -1 
+8 1 -1 
+24 1 -1 
+13 1 -1 
+29 1 -1 
+Functions: 3
+-1 0 
+1 1 -1 
+21 1 17 
+Constructors: 2
+1 -1
+21 17
+
+Summary: 2
+-1 0 
+org/h2/engine/SessionRemote.getTrace()Lorg/h2/message/Trace;
+PTG:
+Vars:
+4
+$r2 1 6 
+$r1 1 1 
+r0 1 -1 
+_ret 1 6 
+Fields: 1
+-1 traceSystem 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/engine/SessionRemote.freeUpDiskSpace()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

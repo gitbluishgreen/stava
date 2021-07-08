@@ -1,0 +1,844 @@
+36
+org/apache/lucene/index/MultiSegmentReader.getTermFreqVectors(I)[Lorg/apache/lucene/index/TermFreqVector;
+PTG:
+Vars:
+6
+$r4 1 24 
+_ret 1 24 
+r0 1 -1 
+$r1 1 11 
+$r3 1 15 
+$r2 1 18 
+Fields: 3
+11 ArrayObject 15
+-1 subReaders 11
+-1 starts 18
+Accesses: 2
+17 1 -1 
+10 1 -1 
+Functions: 3
+1 4 -1 18 11 15 
+4 4 -1 18 11 15 
+15 1 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.doClose()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 16 
+$r1 1 4 
+$r2 1 4 
+Fields: 2
+4 ArrayObject 16
+-1 subReaders 4
+Accesses: 2
+3 1 -1 
+11 1 -1 
+Functions: 2
+17 1 16 
+27 3 -1 16 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.terms()Lorg/apache/lucene/index/TermEnum;
+PTG:
+Vars:
+6
+$r3 1 9 
+$r4 1 4 
+r0 1 -1 
+_ret 1 4 
+$r5 1 4 
+$r2 1 13 
+Fields: 2
+-1 subReaders 9
+-1 starts 13
+Accesses: 2
+8 1 -1 
+12 1 -1 
+Functions: 2
+1 3 -1 9 13 
+17 3 4 9 13 
+Constructors: 1
+17 4
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.doDelete(I)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 19 
+$r1 1 12 
+$r3 1 16 
+Fields: 3
+-1 subReaders 12
+-1 starts 19
+12 ArrayObject 16
+Accesses: 4
+2 1 -1 
+18 1 -1 
+11 1 -1 
+30 1 -1 
+Functions: 2
+5 4 -1 16 19 12 
+25 1 16 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.initialize([Lorg/apache/lucene/index/SegmentReader;)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r1 1 -2 
+$r5 1 40 
+$r4 1 24 
+$r2 1 10 
+$r3 2 69 24 
+$r6 1 50 
+Fields: 4
+-1 starts 69
+-1 starts 24
+-2 ArrayObject 40
+-2 ArrayObject 50
+Accesses: 9
+33 1 -1 
+2 1 -1 
+68 1 -1 
+23 1 -1 
+74 1 -1 
+59 1 -1 
+12 1 -1 
+28 1 -1 
+45 1 -1 
+Functions: 2
+50 1 50 
+40 1 40 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/lucene/index/MultiSegmentReader.maxDoc()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.isOptimized()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.termPositions()Lorg/apache/lucene/index/TermPositions;
+PTG:
+Vars:
+6
+$r2 1 13 
+r0 1 -1 
+_ret 1 4 
+$r3 1 9 
+$r5 1 4 
+$r4 1 4 
+Fields: 2
+-1 subReaders 9
+-1 starts 13
+Accesses: 2
+8 1 -1 
+12 1 -1 
+Functions: 2
+16 3 4 9 13 
+1 3 -1 9 13 
+Constructors: 1
+16 4
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.getTermFreqVector(ILjava/lang/String;)Lorg/apache/lucene/index/TermFreqVector;
+PTG:
+Vars:
+7
+$r5 1 25 
+r0 1 -1 
+$r2 1 18 
+_ret 1 25 
+$r4 1 15 
+r3 1 -3 
+$r1 1 11 
+Fields: 3
+11 ArrayObject 15
+-1 subReaders 11
+-1 starts 18
+Accesses: 2
+17 1 -1 
+10 1 -1 
+Functions: 3
+1 4 -1 18 11 15 
+4 4 -1 18 11 15 
+15 2 -3 15 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/apache/lucene/index/MultiSegmentReader.getTermFreqVector(ILorg/apache/lucene/index/TermVectorMapper;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 -3 
+$r1 1 11 
+$r4 1 15 
+$r2 1 18 
+Fields: 3
+11 ArrayObject 15
+-1 subReaders 11
+-1 starts 18
+Accesses: 2
+17 1 -1 
+10 1 -1 
+Functions: 3
+1 4 -1 18 11 15 
+4 4 -1 18 11 15 
+25 2 -3 15 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/apache/lucene/index/MultiSegmentReader.getTermFreqVector(ILjava/lang/String;Lorg/apache/lucene/index/TermVectorMapper;)V
+PTG:
+Vars:
+6
+r4 1 -4 
+$r5 1 17 
+r3 1 -3 
+$r1 1 12 
+$r2 1 20 
+r0 1 -1 
+Fields: 3
+-1 subReaders 12
+-1 starts 20
+12 ArrayObject 17
+Accesses: 2
+19 1 -1 
+11 1 -1 
+Functions: 3
+1 4 -1 17 20 12 
+4 4 -1 17 20 12 
+29 3 17 -3 -4 
+Constructors: 0
+
+Summary: 3
+-1 -4 -3 
+org/apache/lucene/index/MultiSegmentReader.document(ILorg/apache/lucene/document/FieldSelector;)Lorg/apache/lucene/document/Document;
+PTG:
+Vars:
+7
+$r2 1 18 
+$r1 1 11 
+$r5 1 25 
+$r4 1 15 
+r3 1 -3 
+_ret 1 25 
+r0 1 -1 
+Fields: 3
+11 ArrayObject 15
+-1 subReaders 11
+-1 starts 18
+Accesses: 2
+17 1 -1 
+10 1 -1 
+Functions: 3
+1 4 -1 18 11 15 
+4 4 -1 18 11 15 
+15 2 -3 15 
+Constructors: 0
+
+Summary: 3
+-1 -3 1 
+org/apache/lucene/index/MultiSegmentReader.norms(Ljava/lang/String;)[B
+PTG:
+Vars:
+13
+$r6 1 5 
+$r2 1 5 
+$r10 1 63 
+$r8 1 51 
+$r9 1 67 
+_ret 1 44 
+r0 1 -1 
+$r3 1 9 
+r12 1 9 
+$r5 1 51 
+r13 1 44 
+r1 1 -2 
+$r4 1 9 
+Fields: 4
+-1 subReaders 51
+-1 starts 67
+-1 normsCache 5
+51 ArrayObject 63
+Accesses: 5
+81 1 -1 
+50 1 -1 
+66 1 -1 
+4 1 -1 
+58 1 -1 
+Functions: 7
+1 5 -1 51 67 5 63 
+35 5 -1 51 67 5 63 
+5 2 -2 5 
+87 3 -2 5 44 
+40 5 -1 51 67 5 63 
+72 3 -2 44 63 
+27 6 -1 -2 51 67 5 63 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/index/MultiSegmentReader.docFreq(Lorg/apache/lucene/index/Term;)I
+PTG:
+Vars:
+5
+r3 1 -2 
+$r1 1 10 
+$r4 1 23 
+$r2 1 10 
+r0 1 -1 
+Fields: 2
+-1 subReaders 10
+10 ArrayObject 23
+Accesses: 2
+18 1 -1 
+9 1 -1 
+Functions: 2
+1 3 -1 23 10 
+23 2 -2 23 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/index/MultiSegmentReader.getFieldNames(Lorg/apache/lucene/index/IndexReader$FieldOption;)Ljava/util/Collection;
+PTG:
+Vars:
+5
+r0 1 -1 
+r1 1 -2 
+$r3 1 9 
+$r2 1 6 
+_ret 1 9 
+Fields: 1
+-1 subReaders 6
+Accesses: 1
+5 1 -1 
+Functions: 2
+1 2 -1 6 
+6 2 -2 6 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/apache/lucene/index/MultiSegmentReader.getFieldNames(Lorg/apache/lucene/index/IndexReader$FieldOption;[Lorg/apache/lucene/index/IndexReader;)Ljava/util/Collection;
+PTG:
+Vars:
+6
+$r0 1 0 
+r3 1 19 
+r5 1 27 
+r4 1 -2 
+_ret 1 0 
+r2 1 -3 
+Fields: 1
+-3 ArrayObject 19
+Accesses: 0
+Functions: 3
+32 2 0 27 
+4 1 0 
+21 2 -2 19 
+Constructors: 1
+4 0
+
+Summary: 4
+19 -2 -3 27 
+org/apache/lucene/index/MultiSegmentReader.terms(Lorg/apache/lucene/index/Term;)Lorg/apache/lucene/index/TermEnum;
+PTG:
+Vars:
+7
+$r4 1 9 
+$r3 1 13 
+$r6 1 4 
+$r5 1 4 
+_ret 1 4 
+r2 1 -2 
+r0 1 -1 
+Fields: 2
+-1 subReaders 9
+-1 starts 13
+Accesses: 2
+8 1 -1 
+12 1 -1 
+Functions: 2
+1 3 -1 9 13 
+17 4 -2 4 9 13 
+Constructors: 1
+17 4
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/index/MultiSegmentReader.commitChanges()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 4 
+$r2 1 4 
+$r3 1 16 
+Fields: 2
+4 ArrayObject 16
+-1 subReaders 4
+Accesses: 2
+3 1 -1 
+11 1 -1 
+Functions: 1
+17 1 16 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.startCommit()V
+PTG:
+Vars:
+4
+$r2 1 8 
+$r1 1 8 
+$r3 1 20 
+r0 1 -1 
+Fields: 2
+-1 subReaders 8
+8 ArrayObject 20
+Accesses: 2
+7 1 -1 
+15 1 -1 
+Functions: 2
+1 3 -1 20 8 
+21 1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.getSubReaders()[Lorg/apache/lucene/index/SegmentReader;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 subReaders 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.getTermInfosIndexDivisor()I
+PTG:
+Vars:
+3
+$r2 1 18 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 subReaders 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 2
+24 1 18 
+13 0 
+Constructors: 1
+24 18
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.readerIndex(I)I
+PTG:
+Vars:
+3
+$r1 1 6 
+$r2 1 2 
+r0 1 -1 
+Fields: 2
+-1 subReaders 6
+-1 starts 2
+Accesses: 2
+1 1 -1 
+5 1 -1 
+Functions: 1
+9 1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.numDocs()I
+PTG:
+Vars:
+4
+$r1 1 14 
+$r2 1 14 
+r0 1 -1 
+$r3 1 27 
+Fields: 2
+-1 subReaders 14
+14 ArrayObject 27
+Accesses: 5
+0 1 -1 
+22 1 -1 
+41 1 -1 
+44 1 -1 
+13 1 -1 
+Functions: 1
+27 1 27 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.norms(Ljava/lang/String;[BI)V
+PTG:
+Vars:
+11
+r9 2 39 9 
+$r10 1 64 
+$r5 1 64 
+r1 1 -2 
+$r8 1 77 
+$r7 1 82 
+r0 1 -1 
+$r3 1 9 
+$r2 1 5 
+r6 1 -3 
+$r4 1 9 
+Fields: 4
+-1 subReaders 64
+-1 starts 82
+-1 normsCache 5
+64 ArrayObject 77
+Accesses: 4
+81 1 -1 
+4 1 -1 
+71 1 -1 
+63 1 -1 
+Functions: 7
+1 5 -1 64 82 5 77 
+35 5 -1 64 82 5 77 
+51 5 -1 64 82 5 77 
+5 2 -2 5 
+55 3 -3 39 9 
+89 3 -2 -3 77 
+27 6 -1 64 -2 82 5 77 
+Constructors: 0
+
+Summary: 5
+-1 39 -2 -3 9 
+org/apache/lucene/index/MultiSegmentReader.fakeNorms()[B
+PTG:
+Vars:
+5
+$r2 1 1 
+$r3 1 12 
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 ones 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 2
+8 2 -1 1 
+9 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.doReopen(Lorg/apache/lucene/index/SegmentInfos;)Lorg/apache/lucene/index/DirectoryIndexReader;
+PTG:
+Vars:
+8
+$r2 1 59 
+$r5 1 73 
+r0 1 -2 
+_ret 1 59 
+$r3 1 81 
+$r6 1 64 
+r1 1 -1 
+$r4 1 77 
+Fields: 4
+-1 directory 64
+-1 subReaders 73
+-1 starts 77
+-1 normsCache 81
+Accesses: 12
+80 1 -1 
+34 1 -1 
+51 1 -1 
+68 1 -1 
+23 1 -1 
+39 1 -1 
+8 1 -1 
+72 1 -1 
+43 1 -1 
+76 1 -1 
+47 1 -1 
+63 1 -1 
+Functions: 5
+0 1 -2 
+18 1 -2 
+85 6 64 -2 81 73 59 77 
+55 1 -2 
+13 1 -2 
+Constructors: 1
+85 59
+
+Summary: 3
+15 -1 0 
+org/apache/lucene/index/MultiSegmentReader.doSetNorm(ILjava/lang/String;B)V
+PTG:
+Vars:
+7
+$r5 1 41 
+r2 1 -3 
+$r1 1 1 
+r0 1 -1 
+$r3 1 1 
+$r6 1 49 
+$r7 1 46 
+Fields: 4
+-1 subReaders 41
+-1 starts 49
+-1 normsCache 1
+41 ArrayObject 46
+Accesses: 4
+0 1 -1 
+48 1 -1 
+8 1 -1 
+40 1 -1 
+Functions: 3
+33 5 -1 49 1 41 46 
+58 2 -3 46 
+13 2 1 -3 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+org/apache/lucene/index/MultiSegmentReader.hasNorms(Ljava/lang/String;)Z
+PTG:
+Vars:
+5
+r3 1 -2 
+r0 1 -1 
+$r1 1 8 
+$r2 1 8 
+$r4 1 20 
+Fields: 2
+-1 subReaders 8
+8 ArrayObject 20
+Accesses: 2
+7 1 -1 
+15 1 -1 
+Functions: 2
+1 3 -1 20 8 
+20 2 -2 20 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/apache/lucene/index/MultiSegmentReader.hasDeletions()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.<init>(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/index/SegmentInfos;ZZ)V
+PTG:
+Vars:
+7
+r0 1 -1 
+r4 1 39 
+r2 1 -3 
+$r5 1 66 
+$r3 1 10 
+$r6 1 69 
+r1 1 -2 
+Fields: 0
+Accesses: 4
+32 1 -1 
+17 1 -1 
+22 1 -1 
+27 1 -1 
+Functions: 9
+66 1 66 
+35 1 -3 
+83 1 -3 
+6 3 -1 -2 -3 
+121 2 -1 39 
+44 1 -3 
+14 1 10 
+63 1 -3 
+95 0 
+Constructors: 2
+6 -1
+14 10
+
+Summary: 7
+-1 94 39 -2 -3 1 0 
+org/apache/lucene/index/MultiSegmentReader.termDocs()Lorg/apache/lucene/index/TermDocs;
+PTG:
+Vars:
+6
+$r3 1 9 
+$r4 1 4 
+r0 1 -1 
+_ret 1 4 
+$r2 1 13 
+$r5 1 4 
+Fields: 2
+-1 subReaders 9
+-1 starts 13
+Accesses: 2
+8 1 -1 
+12 1 -1 
+Functions: 2
+16 3 4 9 13 
+1 3 -1 9 13 
+Constructors: 1
+16 4
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.readerIndex(I[II)I
+PTG:
+Vars:
+1
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-3 1 
+org/apache/lucene/index/MultiSegmentReader.isDeleted(I)Z
+PTG:
+Vars:
+4
+$r1 1 7 
+$r2 1 14 
+$r3 1 11 
+r0 1 -1 
+Fields: 3
+-1 subReaders 7
+-1 starts 14
+7 ArrayObject 11
+Accesses: 2
+6 1 -1 
+13 1 -1 
+Functions: 2
+0 4 -1 7 11 14 
+11 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.doUndeleteAll()V
+PTG:
+Vars:
+4
+$r3 1 16 
+$r1 1 4 
+r0 1 -1 
+$r2 1 4 
+Fields: 2
+4 ArrayObject 16
+-1 subReaders 4
+Accesses: 4
+33 1 -1 
+3 1 -1 
+11 1 -1 
+28 1 -1 
+Functions: 1
+17 1 16 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.rollbackCommit()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 8 
+$r2 1 8 
+$r3 1 20 
+Fields: 2
+-1 subReaders 8
+8 ArrayObject 20
+Accesses: 2
+7 1 -1 
+15 1 -1 
+Functions: 2
+1 3 -1 20 8 
+21 1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/MultiSegmentReader.setTermInfosIndexDivisor(I)V
+PTG:
+Vars:
+4
+$r2 1 4 
+$r3 1 16 
+$r1 1 4 
+r0 1 -1 
+Fields: 2
+4 ArrayObject 16
+-1 subReaders 4
+Accesses: 2
+3 1 -1 
+11 1 -1 
+Functions: 1
+18 1 16 
+Constructors: 0
+
+Summary: 1
+-1 

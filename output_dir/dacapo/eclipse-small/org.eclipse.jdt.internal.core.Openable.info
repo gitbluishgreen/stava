@@ -1,0 +1,790 @@
+33
+org/eclipse/jdt/internal/core/Openable.makeConsistent(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/Openable.canBufferBeRemovedFromCache(Lorg/eclipse/jdt/core/IBuffer;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/Openable.isStructureKnown()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+4 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/core/Openable.save(Lorg/eclipse/core/runtime/IProgressMonitor;Z)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+r1 1 30 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -1 
+19 1 -1 
+22 0 
+38 2 -2 30 
+26 1 -1 
+45 2 -1 -2 
+Constructors: 0
+
+Summary: 4
+-2 11 0 30 
+org/eclipse/jdt/internal/core/Openable.bufferChanged(Lorg/eclipse/jdt/core/BufferChangedEvent;)V
+PTG:
+Vars:
+9
+$r6 1 15 
+$r5 1 12 
+$r2 1 37 
+r0 1 -2 
+$r7 1 24 
+r4 1 -1 
+$r1 1 1 
+$r8 1 28 
+$r3 1 40 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -2 
+-1 0 
+1 1 1 
+19 2 -1 15 
+37 1 37 
+23 1 -1 
+27 1 -2 
+12 1 12 
+44 2 -1 40 
+31 2 24 28 
+Constructors: 0
+
+Summary: 9
+-2 15 24 28 40 -1 1 37 12 
+org/eclipse/jdt/internal/core/Openable.getBuffer()Lorg/eclipse/jdt/core/IBuffer;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -1 
+7 1 -1 
+25 1 -1 
+12 1 -1 
+13 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/Openable.codeComplete(Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;ILorg/eclipse/jdt/core/CompletionRequestor;Lorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/jdt/core/ITypeRoot;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+40
+$r37 1 49 
+r7 1 125 
+$r17 1 202 
+$r29 1 255 
+$r31 1 222 
+$r22 1 222 
+r3 1 82 
+r10 1 -3 
+r15 1 -2 
+$r20 1 212 
+$r39 1 65 
+$r11 1 148 
+$r21 1 217 
+$r12 1 159 
+$r38 1 57 
+r0 1 -5 
+r8 1 -6 
+$r43 1 24 
+$r35 1 40 
+$r30 1 260 
+$r33 1 276 
+$r34 1 279 
+$r40 1 69 
+$r41 1 72 
+r2 1 -1 
+$r28 1 252 
+$r32 1 271 
+$r26 1 245 
+$r19 1 209 
+$r25 1 236 
+$r27 1 242 
+$r23 1 228 
+$r24 1 233 
+r9 1 140 
+r1 1 24 
+$r36 1 44 
+r13 1 -8 
+$r6 1 125 
+r16 1 -7 
+$r18 1 199 
+Fields: 1
+140 nameLookup 222
+Accesses: 5
+145 1 140 
+263 1 140 
+265 1 222 
+220 1 140 
+222 1 222 
+Functions: 35
+-1 0 
+65 1 65 
+260 1 260 
+69 1 69 
+133 2 -6 125 
+202 2 209 202 
+11 0 
+75 2 24 72 
+78 1 -1 
+206 1 202 
+271 1 271 
+212 1 212 
+276 1 276 
+23 1 -1 
+217 1 217 
+282 2 242 279 
+156 1 125 
+96 1 82 
+228 1 228 
+40 1 40 
+168 8 148 -5 -6 -8 140 125 222 159 
+233 1 233 
+44 1 44 
+239 2 199 236 
+48 1 -2 
+180 3 -2 148 -7 
+117 0 
+245 2 245 252 
+54 2 49 44 
+120 0 
+249 1 245 
+60 2 40 57 
+124 1 -1 
+190 1 24 
+255 1 255 
+Constructors: 5
+54 44
+168 148
+249 245
+60 40
+206 202
+
+Summary: 34
+236 82 125 233 279 49 -1 69 24 65 209 222 140 212 255 252 -6 -7 -8 -5 202 271 228 -2 110 276 57 72 44 148 217 245 260 159 
+org/eclipse/jdt/internal/core/Openable.getBufferManager()Lorg/eclipse/jdt/internal/core/BufferManager;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Openable.generateInfos(Ljava/lang/Object;Ljava/util/HashMap;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+23
+$r7 1 242 
+r4 1 -2 
+$r25 1 129 
+$r9 1 259 
+$r17 1 92 
+$r20 1 108 
+$r16 1 89 
+r2 1 -4 
+r26 1 145 
+r3 1 153 
+$r21 1 113 
+$r24 1 126 
+$r22 1 119 
+$r10 1 265 
+$r6 1 239 
+r15 6 63 71 47 79 55 87 
+$r19 1 102 
+r27 1 -2 
+$r18 1 99 
+$r8 1 256 
+r0 1 -1 
+r1 1 -3 
+$r23 1 123 
+Fields: 0
+Accesses: 0
+Functions: 27
+-1 0 
+259 1 259 
+132 2 129 89 
+196 3 -1 -2 -3 
+6 1 -1 
+138 3 -1 -3 -4 
+268 2 256 265 
+141 1 -1 
+206 5 -1 -2 145 -3 -4 
+147 2 -1 145 
+155 1 153 
+92 2 99 92 
+222 1 -2 
+96 1 92 
+99 0 
+165 2 -1 153 
+102 1 102 
+232 2 -1 -3 
+108 7 71 55 87 108 63 47 79 
+239 1 239 
+176 1 -4 
+113 1 113 
+246 2 -1 242 
+119 2 119 123 
+122 1 -1 
+189 0 
+126 1 126 
+Constructors: 1
+96 92
+
+Summary: 6
+1 2 -4 0 -3 -2 
+org/eclipse/jdt/internal/core/Openable.isOpen()Z
+PTG:
+Vars:
+3
+r1 1 -1 
+$r2 1 4 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+0 2 0 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Openable.hasUnsavedChanges()Z
+PTG:
+Vars:
+8
+r6 1 95 
+r1 1 20 
+r0 1 -1 
+r2 1 68 
+r4 1 73 
+$r3 1 73 
+$r5 1 95 
+$r7 1 62 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 -1 
+16 1 -1 
+83 1 73 
+36 1 -1 
+116 1 68 
+7 1 -1 
+72 1 68 
+25 1 20 
+105 2 -1 95 
+61 1 -1 
+93 1 73 
+62 1 62 
+Constructors: 0
+
+Summary: 5
+20 68 73 62 95 
+org/eclipse/jdt/internal/core/Openable.openAncestors(Ljava/util/HashMap;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+6
+r5 1 -3 
+r0 1 -1 
+r2 1 1 
+r4 1 -2 
+$r1 1 1 
+$r3 1 21 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+20 1 1 
+26 4 1 -2 -3 21 
+12 1 1 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+org/eclipse/jdt/internal/core/Openable.getResource()Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 33 
+r1 1 4 
+_ret 1 33 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -1 
+18 1 4 
+9 1 4 
+25 1 4 
+31 2 -1 4 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/Openable.findRecommendedLineSeparator()Ljava/lang/String;
+PTG:
+Vars:
+6
+r1 1 4 
+$r5 1 14 
+$r3 1 22 
+r0 1 -1 
+$r4 1 25 
+_ret 1 25 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+21 1 -1 
+22 2 22 14 
+13 1 4 
+Constructors: 0
+
+Summary: 4
+14 4 22 -1 
+org/eclipse/jdt/internal/core/Openable.isConsistent()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Openable.open(Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/jdt/internal/core/Openable.getOpenable()Lorg/eclipse/jdt/core/IOpenable;
+PTG:
+Vars:
+2
+r0 1 -1 
+_ret 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/Openable.getPackageFragmentRoot()Lorg/eclipse/jdt/internal/core/PackageFragmentRoot;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 2 
+$r2 1 2 
+_ret 1 2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/Openable.canBeRemovedFromCache()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/Openable.getBufferFactory()Lorg/eclipse/jdt/core/IBufferFactory;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 4 
+r0 1 -1 
+_ret 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 1 1 
+Constructors: 0
+
+Summary: 2
+-1 1 
+org/eclipse/jdt/internal/core/Openable.resourceExists(Lorg/eclipse/core/resources/IResource;)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/Openable.getUnderlyingResource()Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+4
+r2 1 7 
+r0 1 -1 
+$r1 1 1 
+_ret 1 7 
+Fields: 1
+-1 parent 1
+Accesses: 1
+0 1 -1 
+Functions: 5
+1 1 1 
+36 0 
+37 2 -1 1 
+53 2 -1 1 
+14 1 7 
+Constructors: 0
+
+Summary: 2
+38 -1 
+org/eclipse/jdt/internal/core/Openable.createElementInfo()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r0 1 0 
+r1 1 -1 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Openable.<init>(Lorg/eclipse/jdt/internal/core/JavaElement;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/Openable.closing(Ljava/lang/Object;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/Openable.closeBuffer()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 9 
+r2 1 16 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -1 
+22 1 16 
+8 1 -1 
+9 2 -1 9 
+29 2 16 -1 
+Constructors: 0
+
+Summary: 2
+16 -1 
+org/eclipse/jdt/internal/core/Openable.isSourceElement()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Openable.exists()Z
+PTG:
+Vars:
+7
+r1 1 -1 
+r4 1 48 
+$r11 1 102 
+$r2 1 4 
+$r12 1 105 
+$r3 1 86 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 13
+-1 0 
+0 2 0 -1 
+100 2 -1 102 
+101 1 -1 
+71 0 
+105 1 105 
+12 1 -1 
+44 1 -1 
+49 1 48 
+85 1 -1 
+86 1 86 
+56 1 48 
+95 1 -1 
+Constructors: 0
+
+Summary: 7
+71 86 57 0 4 105 102 
+org/eclipse/jdt/internal/core/Openable.codeSelect(Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;IILorg/eclipse/jdt/core/WorkingCopyOwner;)[Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+44
+$r49 1 99 
+r9 1 118 
+$r52 1 174 
+$r23 1 260 
+r4 1 -5 
+$r41 1 66 
+$r28 1 284 
+$r55 1 99 
+$r11 1 185 
+$r42 1 72 
+r0 1 10 
+$r20 1 105 
+$r21 1 252 
+$r37 1 43 
+$r31 1 300 
+$r43 1 75 
+$r26 1 276 
+$r30 1 295 
+$r16 1 223 
+$r47 1 30 
+$r25 1 266 
+$r7 1 105 
+_ret 1 311 
+$r2 1 82 
+$r18 1 236 
+$r38 1 52 
+$r36 1 35 
+r1 1 -1 
+$r17 1 233 
+$r29 1 105 
+$r53 1 226 
+$r14 1 311 
+r13 1 -2 
+$r48 1 26 
+$r40 1 62 
+r3 1 82 
+$r19 1 241 
+r5 1 97 
+$r32 1 303 
+$r44 1 10 
+$r39 1 56 
+$r54 1 269 
+$r22 1 257 
+$r27 1 279 
+Fields: 1
+97 nameLookup 105
+Accesses: 5
+289 1 105 
+244 1 97 
+246 1 105 
+103 1 97 
+287 1 97 
+Functions: 40
+-1 0 
+257 1 257 
+66 1 66 
+131 1 118 
+263 2 260 223 
+72 1 72 
+9 1 -1 
+204 2 -2 174 
+269 2 276 269 
+78 2 10 75 
+81 1 -1 
+273 1 269 
+214 1 10 
+279 1 279 
+26 1 26 
+90 2 82 -5 
+284 1 284 
+30 1 30 
+34 1 -2 
+226 2 226 233 
+230 1 226 
+167 0 
+295 1 295 
+40 2 35 30 
+170 0 
+236 1 236 
+300 1 300 
+109 3 -1 99 105 
+46 2 26 43 
+241 1 241 
+114 1 -1 
+306 2 266 303 
+52 1 52 
+309 1 99 
+182 1 82 
+56 1 56 
+252 1 252 
+125 1 99 
+62 1 62 
+190 6 97 99 -5 105 185 174 
+Constructors: 6
+273 269
+230 226
+40 30
+109 99
+46 26
+190 174
+
+Summary: 37
+43 295 56 236 10 82 118 233 279 -1 62 105 52 174 284 252 0 66 99 97 241 35 226 -5 185 257 300 -2 160 30 276 75 72 269 3 260 303 
+org/eclipse/jdt/internal/core/Openable.getCorrespondingResource()Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/Openable.openBuffer(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;)Lorg/eclipse/jdt/core/IBuffer;
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+org/eclipse/jdt/internal/core/Openable.resource()Lorg/eclipse/core/resources/IResource;
+PTG:
+Vars:
+4
+$r2 1 24 
+r0 1 -1 
+r1 1 4 
+_ret 1 24 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -1 
+16 1 4 
+22 2 -1 4 
+9 1 4 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/Openable.hasBuffer()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,389 @@
+13
+org/apache/lucene/index/SegmentTermDocs.skipTo(I)Z
+PTG:
+Vars:
+13
+$r8 1 12 
+$r7 1 12 
+$r11 1 27 
+$r2 1 12 
+$r3 1 12 
+$r9 1 19 
+$r12 1 27 
+r0 1 -1 
+$r4 1 24 
+$r5 1 12 
+$r6 1 12 
+$r1 1 12 
+$r10 1 24 
+Fields: 2
+-1 freqStream 24
+-1 skipListReader 12
+Accesses: 25
+0 1 -1 
+66 1 -1 
+4 1 -1 
+70 1 -1 
+136 1 -1 
+74 1 -1 
+11 1 -1 
+143 1 -1 
+83 1 -1 
+148 1 -1 
+86 1 -1 
+23 1 -1 
+96 1 -1 
+33 1 -1 
+161 1 -1 
+37 1 -1 
+103 1 -1 
+107 1 -1 
+44 1 -1 
+47 1 -1 
+54 1 -1 
+118 1 -1 
+58 1 -1 
+125 1 -1 
+62 1 -1 
+Functions: 11
+114 1 24 
+132 3 -1 24 12 
+87 1 12 
+119 1 12 
+151 3 -1 24 12 
+24 1 24 
+41 2 19 27 
+137 1 12 
+108 1 12 
+78 1 12 
+126 1 12 
+Constructors: 1
+41 19
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentTermDocs.seek(Lorg/apache/lucene/index/TermEnum;)V
+PTG:
+Vars:
+11
+$r7 1 11 
+$r6 1 18 
+r9 2 49 35 
+r10 2 41 61 
+r1 1 -1 
+$r2 1 15 
+$r3 1 54 
+r8 1 -2 
+r0 1 -2 
+$r5 1 15 
+$r4 1 -2 
+Fields: 4
+15 fieldInfos 18
+15 tis 54
+-2 fieldInfos 11
+-1 parent 15
+Accesses: 5
+50 1 -1 
+51 1 15 
+8 1 -2 
+14 1 -1 
+15 1 15 
+Functions: 5
+65 8 -1 49 18 35 54 41 61 15 
+36 2 -2 11 
+54 3 49 35 54 
+45 2 -2 11 
+30 2 -2 11 
+Constructors: 0
+
+Summary: 7
+49 41 35 61 11 -2 -1 
+org/apache/lucene/index/SegmentTermDocs.readNoTf([I[II)I
+PTG:
+Vars:
+6
+r0 1 -1 
+$r1 1 26 
+$r2 1 47 
+r3 1 -2 
+$r5 1 47 
+r4 1 -3 
+Fields: 2
+-1 deletedDocs 47
+-1 freqStream 26
+Accesses: 11
+33 1 -1 
+20 1 -1 
+36 1 -1 
+53 1 -1 
+70 1 -1 
+9 1 -1 
+25 1 -1 
+57 1 -1 
+43 1 -1 
+13 1 -1 
+46 1 -1 
+Functions: 2
+54 1 47 
+26 1 26 
+Constructors: 0
+
+Summary: 5
+1 -3 -2 0 -1 
+org/apache/lucene/index/SegmentTermDocs.skipProx(JI)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentTermDocs.seek(Lorg/apache/lucene/index/TermInfo;Lorg/apache/lucene/index/Term;)V
+PTG:
+Vars:
+8
+r2 1 -3 
+$r3 1 13 
+r5 1 19 
+$r1 1 6 
+r6 1 -2 
+$r7 1 108 
+r0 1 -1 
+$r4 1 9 
+Fields: 4
+6 fieldInfos 9
+-3 field 13
+-1 parent 6
+-1 freqStream 108
+Accesses: 22
+33 1 -1 
+65 1 -2 
+2 1 -1 
+98 1 -2 
+5 1 -1 
+69 1 -1 
+6 1 6 
+104 1 -1 
+41 1 19 
+74 1 -1 
+107 1 -1 
+12 1 -3 
+78 1 -2 
+111 1 -1 
+49 1 -1 
+82 1 -1 
+86 1 -2 
+120 1 -1 
+25 1 19 
+58 1 -1 
+90 1 -1 
+94 1 -1 
+Functions: 2
+115 1 108 
+9 2 9 13 
+Constructors: 0
+
+Summary: 6
+1 -3 -2 0 -1 13 
+org/apache/lucene/index/SegmentTermDocs.next()Z
+PTG:
+Vars:
+5
+$r2 1 14 
+$r3 1 94 
+r0 1 -1 
+$r5 1 94 
+$r1 1 14 
+Fields: 2
+-1 deletedDocs 94
+-1 freqStream 14
+Accesses: 17
+0 1 -1 
+66 1 -1 
+35 1 -1 
+4 1 -1 
+100 1 -1 
+40 1 -1 
+104 1 -1 
+73 1 -1 
+13 1 -1 
+46 1 -1 
+80 1 -1 
+83 1 -1 
+21 1 -1 
+55 1 -1 
+90 1 -1 
+28 1 -1 
+93 1 -1 
+Functions: 4
+101 1 94 
+118 3 -1 94 14 
+74 1 14 
+14 1 14 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentTermDocs.seek(Lorg/apache/lucene/index/Term;)V
+PTG:
+Vars:
+5
+r4 1 11 
+r0 1 -1 
+$r3 1 4 
+$r1 1 1 
+r2 1 -2 
+Fields: 2
+1 tis 4
+-1 parent 1
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 2
+4 2 -2 4 
+15 5 -1 1 -2 4 11 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/lucene/index/SegmentTermDocs.doc()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentTermDocs.close()V
+PTG:
+Vars:
+4
+$r3 1 8 
+$r2 1 8 
+$r1 1 1 
+r0 1 -1 
+Fields: 2
+-1 freqStream 1
+-1 skipListReader 8
+Accesses: 3
+0 1 -1 
+7 1 -1 
+14 1 -1 
+Functions: 2
+18 1 8 
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentTermDocs.read([I[I)I
+PTG:
+Vars:
+7
+r5 1 -3 
+r0 1 -2 
+$r4 1 97 
+$r2 1 39 
+$r6 1 97 
+$r3 1 39 
+r1 1 -1 
+Fields: 2
+-1 deletedDocs 97
+-1 freqStream 39
+Accesses: 16
+96 1 -1 
+128 1 -1 
+3 1 -1 
+69 1 -1 
+38 1 -1 
+103 1 -1 
+107 1 -1 
+76 1 -1 
+47 1 -1 
+83 1 -1 
+86 1 -1 
+120 1 -1 
+57 1 -1 
+27 1 -1 
+93 1 -1 
+31 1 -1 
+Functions: 4
+39 1 39 
+104 1 97 
+10 5 -1 97 -2 -3 39 
+77 1 39 
+Constructors: 0
+
+Summary: 5
+1 -3 -2 0 -1 
+org/apache/lucene/index/SegmentTermDocs.skippingDoc()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/lucene/index/SegmentTermDocs.<init>(Lorg/apache/lucene/index/SegmentReader;)V
+PTG:
+Vars:
+8
+$r5 1 30 
+$r6 1 38 
+$r7 1 38 
+$r2 1 16 
+$r3 1 19 
+$r4 1 19 
+r0 1 -1 
+r1 1 -2 
+Fields: 3
+-2 freqStream 16
+-2 deletedDocs 30
+-2 tis 38
+Accesses: 10
+48 1 -2 
+33 1 -1 
+37 1 -2 
+6 1 -1 
+55 1 -1 
+25 1 -1 
+11 1 -1 
+44 1 -1 
+29 1 -2 
+15 1 -2 
+Functions: 4
+16 1 16 
+1 1 -1 
+49 1 38 
+38 1 38 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/apache/lucene/index/SegmentTermDocs.freq()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

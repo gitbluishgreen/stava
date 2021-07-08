@@ -1,0 +1,5420 @@
+144
+org/eclipse/jdt/internal/core/JavaModelManager.getUserLibraryManager()Lorg/eclipse/jdt/internal/core/UserLibraryManager;
+PTG:
+Vars:
+10
+$r1 1 3 
+$r4 1 9 
+$r3 1 50 
+$r8 1 23 
+$r6 1 17 
+$r10 1 32 
+_ret 1 50 
+$r9 1 26 
+$r2 1 47 
+$r0 1 0 
+Fields: 3
+23 userLibraryManager 26
+0 userLibraryManager 3
+47 userLibraryManager 50
+Accesses: 4
+0 1 0 
+36 1 32 
+23 1 23 
+47 1 47 
+Functions: 1
+13 1 9 
+Constructors: 1
+13 9
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/JavaModelManager.closeChildren(Ljava/lang/Object;)V
+PTG:
+Vars:
+7
+r4 1 26 
+$r5 1 -1 
+r6 1 -1 
+$r3 1 26 
+$r1 1 -2 
+r0 1 -2 
+r2 1 14 
+Fields: 1
+14 ArrayObject 26
+Accesses: 0
+Functions: 2
+34 1 26 
+8 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 14 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_container_value_after_initialization(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/IClasspathContainer;)V
+PTG:
+Vars:
+26
+$r29 1 153 
+$r27 1 138 
+$r0 1 0 
+$r6 1 36 
+r25 1 123 
+$r18 1 202 
+$r30 1 158 
+$r7 1 41 
+r16 1 -4 
+$r12 1 64 
+r33 1 -1 
+$r23 1 110 
+r11 1 -3 
+$r22 1 107 
+$r10 1 53 
+$r14 1 72 
+$r19 1 85 
+$r21 1 101 
+$r28 1 152 
+$r13 1 69 
+$r8 1 44 
+$r31 1 161 
+$r3 1 20 
+$r5 1 31 
+$r20 1 96 
+r4 1 -2 
+Fields: 1
+123 ArrayObject 152
+Accesses: 0
+Functions: 29
+64 1 64 
+4 1 0 
+196 1 0 
+69 1 69 
+200 1 0 
+138 2 152 138 
+75 2 0 72 
+205 1 202 
+14 1 0 
+145 1 138 
+20 2 20 31 
+85 2 96 85 
+153 1 153 
+27 1 20 
+92 1 85 
+30 1 -2 
+158 1 158 
+95 1 -4 
+36 1 36 
+164 2 0 161 
+101 1 101 
+41 1 41 
+107 1 107 
+47 2 0 44 
+113 2 0 110 
+53 2 -3 53 
+117 1 -4 
+184 1 0 
+60 1 53 
+Constructors: 5
+145 138
+4 0
+27 20
+60 53
+92 85
+
+Summary: 19
+158 -3 44 1 107 31 161 41 72 -2 202 0 -4 123 110 2 69 96 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getExternalWorkingCopyProjects()Ljava/util/HashSet;
+PTG:
+Vars:
+16
+r5 1 23 
+r0 1 -1 
+$r4 1 13 
+$r10 1 57 
+r16 1 96 
+$r8 1 40 
+$r13 1 78 
+$r1 1 1 
+r9 1 50 
+$r6 1 28 
+r7 1 28 
+$r14 1 96 
+r12 1 74 
+$r15 1 -1 
+r11 1 57 
+$r3 1 1 
+Fields: 1
+-1 perWorkingCopyInfos 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 13
+67 1 57 
+100 1 96 
+38 1 28 
+40 1 40 
+10 1 1 
+107 2 96 74 
+76 1 74 
+13 1 13 
+78 1 78 
+111 1 50 
+55 1 50 
+121 1 23 
+27 1 23 
+Constructors: 1
+100 96
+
+Summary: 9
+23 57 28 50 78 13 74 40 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getPerWorkingCopyInfo(Lorg/eclipse/jdt/internal/core/CompilationUnit;ZZLorg/eclipse/jdt/core/IProblemRequestor;)Lorg/eclipse/jdt/internal/core/JavaModelManager$PerWorkingCopyInfo;
+PTG:
+Vars:
+15
+r0 1 -1 
+$r7 1 74 
+r17 2 74 93 
+r15 2 20 39 
+r9 1 -5 
+$r14 1 -1 
+$r8 1 93 
+$r12 1 1 
+$r16 1 74 
+$r1 1 1 
+$r5 1 1 
+$r6 1 20 
+$r11 1 39 
+r3 1 -2 
+r4 1 12 
+Fields: 2
+-2 owner 12
+-1 perWorkingCopyInfos 1
+Accesses: 6
+0 1 -1 
+48 1 -1 
+133 2 74 93 
+8 1 -2 
+125 2 74 93 
+14 1 -1 
+Functions: 6
+100 4 -2 -5 12 93 
+71 4 -2 20 39 12 
+56 3 1 39 12 
+43 1 39 
+110 5 -2 20 39 12 93 
+15 2 1 12 
+Constructors: 2
+100 93
+43 39
+
+Summary: 5
+-2 12 -5 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.resetNonChainingJarsCache()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.intern([C)[C
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 1 
+_ret 1 5 
+r1 1 -2 
+$r3 1 5 
+Fields: 1
+-1 charArraySymbols 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.prepareToSave(Lorg/eclipse/core/resources/ISaveContext;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.readState(Lorg/eclipse/core/resources/IProject;)Ljava/lang/Object;
+PTG:
+Vars:
+23
+$r20 1 137 
+$r7 1 277 
+r16 1 44 
+$r21 1 142 
+$r6 1 271 
+r2 1 5 
+$r10 1 228 
+$r3 1 257 
+$r19 1 123 
+r17 1 72 
+$r14 1 21 
+$r9 1 231 
+$r12 1 245 
+$r15 1 25 
+$r5 1 268 
+r0 1 -1 
+$r18 1 126 
+$r11 1 242 
+$r22 1 145 
+r1 1 -2 
+$r13 1 17 
+$r4 1 254 
+$r8 1 280 
+Fields: 0
+Accesses: 0
+Functions: 38
+0 2 -1 -2 
+64 0 
+257 2 257 268 
+195 0 
+68 1 17 
+133 1 126 
+198 1 -2 
+136 1 -2 
+264 1 257 
+10 1 5 
+74 1 72 
+267 1 5 
+204 0 
+142 1 142 
+271 1 271 
+211 0 
+148 2 145 123 
+277 1 277 
+214 0 
+283 2 280 254 
+92 0 
+157 1 17 
+30 2 5 25 
+96 1 17 
+33 2 21 25 
+36 2 17 21 
+164 1 17 
+231 2 -2 231 
+40 1 17 
+104 2 -2 17 
+172 0 
+46 1 44 
+238 1 231 
+111 1 17 
+242 1 242 
+248 2 228 245 
+188 0 
+126 2 137 126 
+Constructors: 6
+33 21
+36 17
+133 126
+264 257
+30 25
+238 231
+
+Summary: 21
+137 268 44 142 21 17 277 242 72 -2 25 5 145 179 0 245 207 199 204 -1 280 
+org/eclipse/jdt/internal/core/JavaModelManager.resetTemporaryCache()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 temporaryCache 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.resolveVariableEntry(Lorg/eclipse/jdt/core/IClasspathEntry;Z)Lorg/eclipse/jdt/core/IClasspathEntry;
+PTG:
+Vars:
+8
+r36 1 34 
+r38 1 232 
+r3 1 40 
+r1 1 -1 
+$r2 1 14 
+r37 1 40 
+r0 1 -2 
+r35 1 23 
+Fields: 0
+Accesses: 0
+Functions: 45
+0 1 -2 
+64 1 40 
+130 1 -1 
+322 1 -2 
+131 1 -2 
+197 1 -2 
+262 1 -2 
+328 1 -2 
+329 1 34 
+203 1 -2 
+12 2 -1 14 
+268 1 -2 
+13 1 -2 
+141 1 -1 
+142 1 -2 
+209 1 -2 
+210 1 34 
+274 1 -2 
+275 1 34 
+152 1 -2 
+284 1 34 
+30 1 23 
+158 1 -2 
+227 1 40 
+36 1 34 
+164 1 -2 
+101 1 -2 
+165 1 34 
+294 1 -1 
+295 1 -2 
+107 1 -2 
+175 1 -1 
+176 1 -2 
+240 1 -1 
+113 1 -2 
+241 1 -2 
+305 1 -1 
+306 1 -2 
+119 1 -2 
+120 1 34 
+186 1 -1 
+187 1 -2 
+251 1 -1 
+252 1 -2 
+316 1 -2 
+Constructors: 0
+
+Summary: 33
+132 153 23 194 138 263 188 102 313 232 269 323 14 183 242 40 143 296 114 317 259 0 198 149 34 248 177 204 302 307 -1 159 253 
+org/eclipse/jdt/internal/core/JavaModelManager.discardPerWorkingCopyInfo(Lorg/eclipse/jdt/internal/core/CompilationUnit;)I
+PTG:
+Vars:
+15
+$r15 1 47 
+$r9 1 28 
+r12 1 16 
+r3 1 39 
+$r7 1 176 
+$r10 1 16 
+$r6 1 169 
+r0 1 -2 
+r1 1 -1 
+$r13 1 28 
+$r14 1 28 
+r16 1 70 
+$r5 1 70 
+$r8 1 169 
+r4 1 47 
+Fields: 3
+-2 owner 39
+16 delta 169
+-1 perWorkingCopyInfos 28
+Accesses: 10
+96 1 70 
+35 1 -2 
+179 1 16 
+88 1 70 
+168 1 16 
+41 1 -1 
+121 1 -1 
+186 1 70 
+27 1 -1 
+143 1 70 
+Functions: 13
+2 2 -2 39 
+67 3 -2 39 47 
+165 2 16 169 
+9 2 -2 39 
+105 3 -2 39 47 
+42 2 39 28 
+111 1 47 
+175 2 -1 28 
+21 4 16 -2 39 169 
+183 2 176 169 
+152 4 -1 -2 39 28 
+157 2 -2 39 
+127 2 39 28 
+Constructors: 1
+21 16
+
+Summary: 8
+-2 176 70 16 39 -1 169 47 
+org/eclipse/jdt/internal/core/JavaModelManager.createAnnotationProcessorManager()Lorg/eclipse/jdt/internal/compiler/AbstractAnnotationProcessorManager;
+PTG:
+Vars:
+22
+r7 1 39 
+$r12 1 111 
+$r16 1 71 
+$r25 1 183 
+$r17 1 74 
+$r2 1 5 
+$r5 1 198 
+$r6 1 11 
+$r11 1 107 
+r9 1 92 
+$r15 1 66 
+$r14 1 65 
+$r24 1 183 
+$r23 1 52 
+r20 1 24 
+$r8 1 86 
+r21 1 170 
+$r3 1 5 
+r10 1 105 
+_ret 1 198 
+r0 1 -1 
+r22 1 5 
+Fields: 5
+39 ArrayObject 65
+39 ArrayObject 86
+170 ArrayObject 198
+-1 annotationProcessorManagerFactory 5
+92 ArrayObject 105
+Accesses: 4
+160 1 -1 
+178 1 -1 
+4 1 -1 
+125 1 -1 
+Functions: 13
+-1 0 
+33 1 24 
+65 1 65 
+193 1 183 
+71 1 71 
+11 1 11 
+107 2 107 111 
+77 1 74 
+109 1 105 
+52 2 66 52 
+86 1 86 
+59 1 52 
+190 5 -1 5 198 183 170 
+Constructors: 2
+59 52
+190 183
+
+Summary: 10
+111 39 66 183 11 24 71 74 170 92 
+org/eclipse/jdt/internal/core/JavaModelManager.getElementsOutOfSynchWithBuffers()Ljava/util/HashSet;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 elementsOutOfSynchWithBuffers 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.getDeltaState()Lorg/eclipse/jdt/internal/core/DeltaProcessingState;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 3 
+$r1 1 3 
+Fields: 1
+0 deltaState 3
+Accesses: 1
+0 1 0 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/JavaModelManager.getWorkingCopies(Lorg/eclipse/jdt/core/WorkingCopyOwner;Z)[Lorg/eclipse/jdt/core/ICompilationUnit;
+PTG:
+Vars:
+24
+$r15 1 185 
+$r7 1 223 
+r5 1 37 
+$r11 1 117 
+$r17 1 12 
+$r22 1 37 
+$r19 1 -1 
+$r12 1 117 
+$r20 1 23 
+r9 1 109 
+r3 1 23 
+$r21 1 1 
+$r16 1 85 
+r25 1 209 
+$r1 1 1 
+$r13 1 127 
+$r8 1 231 
+$r24 1 199 
+$r10 1 111 
+r0 1 -1 
+$r6 1 223 
+$r18 1 19 
+r23 2 85 185 
+r4 1 -2 
+Fields: 2
+23 ArrayObject 109
+-1 perWorkingCopyInfos 1
+Accesses: 2
+0 1 -1 
+32 1 -1 
+Functions: 13
+33 2 1 -2 
+194 2 85 185 
+228 1 223 
+133 4 -2 117 111 127 
+197 1 37 
+71 1 37 
+199 1 199 
+138 2 37 111 
+235 1 209 
+18 3 -1 1 19 
+115 1 109 
+125 1 109 
+221 1 209 
+Constructors: 1
+133 111
+
+Summary: 9
+223 -2 127 117 0 111 37 199 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getExistingElement(Lorg/eclipse/jdt/core/IJavaElement;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+5
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+_ret 1 5 
+$r3 1 5 
+Fields: 1
+-1 cache 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_container_null_failure_container(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/ClasspathContainerInitializer;)V
+PTG:
+Vars:
+14
+r6 1 -3 
+$r5 1 27 
+$r9 1 42 
+$r7 1 31 
+$r2 1 11 
+$r3 1 16 
+r10 1 -4 
+$r4 1 21 
+$r11 1 46 
+r13 1 -1 
+$r12 1 49 
+$r0 1 0 
+r1 1 -2 
+$r8 1 36 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 2 0 11 
+16 1 16 
+36 1 36 
+52 1 49 
+21 1 21 
+7 1 0 
+10 1 -2 
+42 2 -4 42 
+27 2 -3 27 
+46 1 46 
+31 1 31 
+Constructors: 1
+7 0
+
+Summary: 10
+46 -3 -2 49 0 -4 1 11 2 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getJavaModel()Lorg/eclipse/jdt/internal/core/JavaModel;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 javaModel 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.getPerProjectInfoCheckExistence(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/jdt/internal/core/JavaModelManager$PerProjectInfo;
+PTG:
+Vars:
+4
+r0 1 -1 
+r5 2 6 35 
+_ret 2 6 35 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 2 -1 -2 
+18 1 -2 
+22 0 
+11 1 -2 
+29 2 -1 -2 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 19 
+org/eclipse/jdt/internal/core/JavaModelManager.getExternalManager()Lorg/eclipse/jdt/internal/core/ExternalFoldersManager;
+PTG:
+Vars:
+3
+$r1 1 3 
+$r0 1 0 
+_ret 1 3 
+Fields: 1
+0 externalFoldersManager 3
+Accesses: 1
+0 1 0 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/JavaModelManager.isNonChainingJar(Lorg/eclipse/core/runtime/IPath;)Z
+PTG:
+Vars:
+4
+$r1 1 1 
+r2 1 -2 
+r0 1 -1 
+$r3 1 1 
+Fields: 1
+-1 nonChainingJars 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getZipFile(Lorg/eclipse/core/runtime/IPath;)Ljava/util/zip/ZipFile;
+PTG:
+Vars:
+24
+$r29 1 17 
+$r2 1 4 
+r6 1 41 
+$r31 1 -1 
+$r33 1 240 
+$r13 1 188 
+$r23 1 71 
+$r32 1 236 
+$r9 1 211 
+$r30 1 17 
+r37 2 167 121 
+$r14 1 191 
+$r12 1 175 
+r7 1 -2 
+$r5 1 33 
+r8 1 51 
+$r15 1 197 
+r0 1 -1 
+$r3 1 4 
+$r34 1 249 
+$r11 1 178 
+$r16 1 202 
+$r17 1 205 
+$r1 1 1 
+Fields: 1
+-1 zipFiles 1
+Accesses: 1
+0 1 -1 
+Functions: 27
+-1 0 
+1 1 1 
+257 2 240 236 
+69 1 51 
+197 3 197 167 121 
+202 1 202 
+15 2 -2 4 
+144 1 -2 
+208 2 205 175 
+145 0 
+217 3 211 167 121 
+154 0 
+157 0 
+33 1 33 
+161 1 -2 
+98 1 -2 
+99 0 
+228 3 -2 211 4 
+43 2 -2 41 
+108 0 
+111 0 
+178 2 178 188 
+117 1 71 
+185 1 178 
+58 1 51 
+254 3 240 -1 249 
+191 1 191 
+Constructors: 4
+257 236
+185 178
+217 211
+254 240
+
+Summary: 19
+205 86 132 33 188 71 99 121 41 -2 202 4 145 104 0 167 -1 240 150 
+org/eclipse/jdt/internal/core/JavaModelManager.conflictsWithOutputLocation(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/internal/core/JavaProject;)Z
+PTG:
+Vars:
+8
+r4 1 43 
+$r6 1 76 
+$r7 1 -1 
+r3 1 25 
+$r5 1 58 
+r2 1 -2 
+r0 1 -3 
+r1 1 4 
+Fields: 1
+25 ArrayObject 43
+Accesses: 0
+Functions: 7
+0 1 -3 
+21 1 -3 
+56 1 43 
+58 2 4 58 
+74 1 43 
+11 2 -2 4 
+45 1 43 
+Constructors: 0
+
+Summary: 6
+76 -3 58 -2 25 4 
+org/eclipse/jdt/internal/core/JavaModelManager.containerBeingInitializedRemove(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IClasspathContainer;
+PTG:
+Vars:
+12
+$r1 1 1 
+$r8 1 39 
+$r10 1 1 
+r3 1 4 
+r6 1 19 
+r4 1 -2 
+$r5 1 19 
+r9 1 39 
+_ret 1 39 
+r0 1 -1 
+r7 1 -3 
+$r2 1 4 
+Fields: 1
+-1 containersBeingInitialized 1
+Accesses: 2
+0 1 -1 
+71 1 -1 
+Functions: 7
+1 1 1 
+17 2 -2 4 
+36 2 -3 19 
+58 2 -2 19 
+76 1 1 
+62 1 4 
+47 1 19 
+Constructors: 0
+
+Summary: 6
+-3 -2 4 -1 1 19 
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_missbehaving_container(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;[Lorg/eclipse/jdt/core/IClasspathEntry;)V
+PTG:
+Vars:
+18
+$r13 1 54 
+r6 1 -3 
+$r7 1 31 
+$r2 1 11 
+$r19 1 46 
+$r14 1 57 
+$r16 1 66 
+r1 1 -2 
+r10 1 -4 
+$r3 1 16 
+$r17 1 0 
+$r9 1 42 
+$r15 1 63 
+r12 1 -1 
+$r5 1 27 
+$r8 1 36 
+$r18 1 46 
+$r4 1 21 
+Fields: 0
+Accesses: 0
+Functions: 14
+0 2 0 11 
+36 1 36 
+69 1 66 
+7 1 0 
+10 1 -2 
+42 2 54 42 
+46 2 -4 46 
+16 1 16 
+51 2 -1 46 
+21 1 21 
+57 1 57 
+27 2 -3 27 
+31 1 31 
+63 1 63 
+Constructors: 2
+51 46
+7 0
+
+Summary: 12
+-3 -2 54 0 66 -4 46 1 11 63 2 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.setBuildOrder([Ljava/lang/String;)V
+PTG:
+Vars:
+14
+$r9 1 83 
+r3 1 30 
+r16 1 -1 
+r2 1 -2 
+$r13 1 200 
+$r12 1 185 
+$r8 1 87 
+$r6 1 61 
+r5 1 44 
+$r0 1 0 
+r4 1 37 
+r17 2 -2 156 
+$r11 1 122 
+$r1 1 6 
+Fields: 5
+-2 ArrayObject 83
+-2 ArrayObject 87
+44 ArrayObject 200
+44 ArrayObject 185
+44 ArrayObject 122
+Accesses: 0
+Functions: 12
+0 2 0 6 
+3 0 
+67 1 61 
+116 2 122 61 
+38 1 37 
+215 5 -2 83 37 87 156 
+88 3 83 87 61 
+168 4 -2 83 87 156 
+27 0 
+222 2 37 30 
+238 0 
+31 1 30 
+Constructors: 1
+67 61
+
+Summary: 8
+-2 156 61 30 44 37 6 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getJavaModelManager()Lorg/eclipse/jdt/internal/core/JavaModelManager;
+PTG:
+Vars:
+2
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/JavaModelManager.saveState(Lorg/eclipse/jdt/internal/core/JavaModelManager$PerProjectInfo;Lorg/eclipse/core/resources/ISaveContext;)V
+PTG:
+Vars:
+3
+r2 1 -1 
+r0 1 -3 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+11 1 -2 
+Functions: 2
+0 1 -3 
+20 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/JavaModelManager.containerIsInitializationInProgress(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)Z
+PTG:
+Vars:
+8
+r4 1 -2 
+$r2 1 4 
+r0 1 -1 
+r7 1 -3 
+$r1 1 1 
+$r5 1 19 
+r6 1 19 
+r3 1 4 
+Fields: 1
+-1 containerInitializationInProgress 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 1 1 
+17 2 -2 4 
+36 2 -3 19 
+Constructors: 0
+
+Summary: 7
+-3 -2 4 0 -1 1 19 
+org/eclipse/jdt/internal/core/JavaModelManager.create(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/jdt/core/IJavaProject;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+2
+r0 1 -2 
+r5 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 5
+81 1 -3 
+6 1 -2 
+87 0 
+72 1 -3 
+61 0 
+Constructors: 0
+
+Summary: 4
+-3 -2 0 1 
+org/eclipse/jdt/internal/core/JavaModelManager.containerRemove(Lorg/eclipse/jdt/core/IJavaProject;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r1 1 1 
+r3 1 4 
+r4 1 -2 
+$r2 1 4 
+$r5 1 24 
+Fields: 2
+-1 containers 24
+-1 containerInitializationInProgress 1
+Accesses: 2
+0 1 -1 
+23 1 -1 
+Functions: 3
+1 1 1 
+17 2 -2 4 
+28 2 -2 24 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.batchInitializationFinished()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.secondaryTypesRemoving(Ljava/util/Hashtable;Lorg/eclipse/core/resources/IFile;)V
+PTG:
+Vars:
+51
+$r21 1 503 
+$r29 1 33 
+$r30 1 45 
+$r3 1 179 
+$r22 1 508 
+r56 1 464 
+r46 1 33 
+$r32 1 62 
+$r4 1 198 
+r57 1 476 
+$r27 1 6 
+r55 1 457 
+$r33 1 70 
+$r16 1 449 
+$r7 1 247 
+r11 1 271 
+$r42 1 126 
+r0 1 -2 
+r43 1 -1 
+$r10 1 271 
+r1 1 160 
+r54 1 247 
+$r34 1 75 
+$r18 1 476 
+r9 1 259 
+r48 1 136 
+$r8 1 259 
+$r20 1 498 
+$r35 1 80 
+$r13 1 284 
+r47 1 45 
+r6 1 240 
+$r24 1 516 
+r49 1 377 
+r45 1 26 
+$r28 1 18 
+r51 1 179 
+$r31 1 56 
+$r2 1 167 
+$r23 1 513 
+r12 1 -3 
+r5 1 213 
+$r25 2 421 421 
+r50 1 167 
+r53 1 302 
+$r17 1 464 
+$r36 1 83 
+$r19 1 486 
+$r39 1 109 
+$r14 2 347 347 
+r52 1 198 
+Fields: 2
+302 ArrayObject 347
+377 ArrayObject 421
+Accesses: 0
+Functions: 51
+129 1 126 
+257 1 247 
+513 1 513 
+132 1 -2 
+519 1 516 
+137 1 136 
+522 1 457 
+395 1 160 
+13 1 6 
+269 1 247 
+17 1 -2 
+18 1 18 
+281 2 -3 284 
+154 1 136 
+282 1 271 
+31 1 26 
+165 1 160 
+422 2 -2 421 
+43 1 33 
+177 1 167 
+56 1 56 
+60 1 45 
+445 0 
+320 1 240 
+448 1 -2 
+65 2 56 62 
+449 1 449 
+196 1 167 
+70 2 70 75 
+73 1 33 
+462 1 457 
+80 1 80 
+208 1 198 
+86 2 83 6 
+215 1 213 
+90 1 26 
+474 1 464 
+348 2 198 347 
+486 2 486 476 
+103 1 6 
+233 1 213 
+362 1 198 
+108 1 -3 
+493 1 486 
+114 2 6 109 
+498 1 498 
+245 1 240 
+503 2 503 508 
+121 1 6 
+506 1 464 
+125 1 6 
+Constructors: 3
+65 56
+13 6
+493 486
+
+Summary: 30
+80 -3 247 33 449 476 1 75 302 516 421 45 126 377 18 -2 213 347 62 109 0 198 167 508 284 136 464 513 -1 83 
+org/eclipse/jdt/internal/core/JavaModelManager.variablePut(Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+11
+$r7 1 73 
+$r10 1 30 
+$r12 1 42 
+$r5 1 63 
+r1 1 4 
+$r3 1 6 
+$r13 1 51 
+r0 1 -1 
+r2 1 -3 
+$r9 1 34 
+r4 1 -2 
+Fields: 5
+-1 previousSessionVariables 73
+-1 variables 30
+-1 variables 63
+-1 variablesWithInitializer 42
+-1 deprecatedVariables 51
+Accesses: 5
+50 1 -1 
+72 1 -1 
+41 1 -1 
+29 1 -1 
+62 1 -1 
+Functions: 8
+0 6 -1 51 73 42 30 63 
+68 3 -2 -3 63 
+21 2 -2 4 
+37 3 -2 34 30 
+55 2 -2 51 
+77 2 -2 73 
+14 2 -2 4 
+46 2 -2 42 
+Constructors: 0
+
+Summary: 6
+-3 -2 4 0 1 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.debugNewOpenableCacheStats()Lorg/eclipse/jdt/internal/core/util/LRUCache$Stats;
+PTG:
+Vars:
+5
+r1 1 -1 
+$r0 1 0 
+$r3 1 8 
+_ret 1 0 
+$r2 1 5 
+Fields: 2
+5 openableCache 8
+-1 cache 5
+Accesses: 2
+4 1 -1 
+5 1 5 
+Functions: 2
+16 2 0 8 
+12 1 8 
+Constructors: 1
+16 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.peekAtInfo(Lorg/eclipse/jdt/core/IJavaElement;)Ljava/lang/Object;
+PTG:
+Vars:
+9
+r3 1 4 
+$r5 1 28 
+$r6 1 32 
+$r1 1 1 
+$r2 1 4 
+r4 1 -2 
+_ret 1 32 
+r7 1 20 
+r0 1 -1 
+Fields: 2
+-1 temporaryCache 1
+-1 cache 28
+Accesses: 2
+0 1 -1 
+27 1 -1 
+Functions: 3
+1 1 1 
+28 2 -2 28 
+15 2 -2 4 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getRegisteredContainerIDs()[Ljava/lang/String;
+PTG:
+Vars:
+11
+$r1 1 10 
+$r8 1 71 
+r0 1 3 
+r7 1 59 
+$r6 1 53 
+r9 1 80 
+r4 1 32 
+r11 1 119 
+_ret 1 119 
+r10 1 43 
+$r3 1 19 
+Fields: 2
+59 ArrayObject 71
+43 ArrayObject 53
+Accesses: 0
+Functions: 10
+0 0 
+-1 0 
+19 1 19 
+115 1 10 
+37 1 32 
+53 1 53 
+71 1 71 
+90 2 80 10 
+125 2 119 10 
+15 1 10 
+Constructors: 1
+15 10
+
+Summary: 7
+80 3 59 32 43 10 19 
+org/eclipse/jdt/internal/core/JavaModelManager.setLastBuiltState(Lorg/eclipse/core/resources/IProject;Ljava/lang/Object;)V
+PTG:
+Vars:
+6
+r0 1 -2 
+$r3 1 -1 
+r1 1 -3 
+r4 1 13 
+r2 1 -1 
+r5 1 33 
+Fields: 0
+Accesses: 2
+16 1 13 
+21 1 13 
+Functions: 5
+0 1 -2 
+38 1 33 
+7 2 -1 -2 
+28 2 -1 -2 
+46 1 33 
+Constructors: 0
+
+Summary: 6
+-2 33 13 0 -1 1 
+org/eclipse/jdt/internal/core/JavaModelManager.getRegisteredVariableNames()[Ljava/lang/String;
+PTG:
+Vars:
+11
+$r3 1 19 
+$r6 1 53 
+r10 1 43 
+$r1 1 10 
+r4 1 32 
+r7 1 59 
+$r8 1 71 
+r9 1 80 
+r0 1 3 
+r11 1 119 
+_ret 1 119 
+Fields: 2
+59 ArrayObject 71
+43 ArrayObject 53
+Accesses: 0
+Functions: 10
+0 0 
+-1 0 
+19 1 19 
+115 1 10 
+37 1 32 
+53 1 53 
+71 1 71 
+90 2 80 10 
+125 2 119 10 
+15 1 10 
+Constructors: 1
+15 10
+
+Summary: 7
+80 3 59 32 43 10 19 
+org/eclipse/jdt/internal/core/JavaModelManager.startIndexing()V
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 indexManager 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+11 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.getClasspathBeingResolved()Ljava/util/HashSet;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r2 1 4 
+$r4 1 1 
+r5 2 4 15 
+_ret 2 4 15 
+$r1 1 1 
+$r3 1 15 
+Fields: 1
+-1 classpathsBeingResolved 1
+Accesses: 2
+0 1 -1 
+23 1 -1 
+Functions: 3
+1 1 1 
+19 1 15 
+28 2 1 15 
+Constructors: 1
+19 15
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.getPreviousSessionContainer(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/IJavaProject;)Lorg/eclipse/jdt/core/IClasspathContainer;
+PTG:
+Vars:
+8
+r0 1 -1 
+r5 1 -2 
+r7 1 18 
+r4 1 5 
+$r3 1 5 
+r1 1 -3 
+$r2 1 1 
+$r6 1 18 
+Fields: 1
+-1 previousSessionContainers 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+16 2 -2 5 
+1 2 1 -3 
+44 5 -1 1 -2 -3 18 
+Constructors: 0
+
+Summary: 6
+-3 -2 5 0 -1 1 
+org/eclipse/jdt/internal/core/JavaModelManager.recreatePersistedContainer(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;Ljava/lang/String;Z)V
+PTG:
+Vars:
+22
+r0 1 -2 
+r6 1 -3 
+$r8 1 113 
+$r17 1 19 
+$r28 1 133 
+$r27 1 86 
+$r1 1 1 
+$r18 1 -1 
+$r20 1 60 
+r2 1 -4 
+$r16 1 103 
+$r9 1 116 
+$r14 1 146 
+$r29 1 86 
+r22 2 72 40 
+$r26 1 49 
+$r21 1 63 
+$r4 1 76 
+$r13 1 143 
+$r10 1 120 
+r25 2 133 120 
+$r3 1 -2 
+Fields: 2
+143 previousSessionContainers 146
+113 previousSessionContainers 116
+Accesses: 2
+113 1 113 
+143 1 143 
+Functions: 15
+0 1 -2 
+-1 0 
+32 2 -2 -4 
+1 1 1 
+161 4 -3 133 86 120 
+66 2 -1 63 
+138 1 133 
+110 4 -2 -3 86 103 
+49 2 49 -4 
+116 2 -2 116 
+56 1 49 
+152 3 -2 146 133 
+25 3 -2 -3 19 
+60 1 60 
+94 5 -2 -3 86 72 40 
+Constructors: 3
+56 49
+138 133
+94 86
+
+Summary: 17
+-3 -2 86 116 0 -4 1 113 1 19 63 146 60 2 40 143 103 
+org/eclipse/jdt/internal/core/JavaModelManager.getNonChainingJarsFile()Ljava/io/File;
+PTG:
+Vars:
+6
+$r3 1 14 
+r4 1 -1 
+$r0 1 0 
+$r1 1 3 
+_ret 1 14 
+$r2 1 9 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+0 1 0 
+3 1 3 
+9 1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.getSerializationFile(Lorg/eclipse/core/resources/IProject;)Ljava/io/File;
+PTG:
+Vars:
+6
+r4 1 -1 
+r0 1 -2 
+r1 1 20 
+_ret 1 30 
+$r3 1 30 
+$r2 1 25 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+21 1 20 
+25 1 25 
+11 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 25 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.resetProjectPreferences(Lorg/eclipse/jdt/internal/core/JavaProject;)V
+PTG:
+Vars:
+7
+$r1 1 1 
+r3 1 -2 
+$r5 1 1 
+r7 1 17 
+r0 1 -1 
+r4 1 11 
+$r6 1 17 
+Fields: 1
+-1 perProjectInfos 1
+Accesses: 3
+0 1 -1 
+35 1 17 
+12 1 -1 
+Functions: 2
+7 1 -2 
+13 2 1 11 
+Constructors: 0
+
+Summary: 5
+11 -2 0 17 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getLastBuiltState(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)Ljava/lang/Object;
+PTG:
+Vars:
+11
+r2 1 47 
+r1 1 -1 
+$r5 1 65 
+r3 1 -3 
+$r7 1 74 
+r0 1 -2 
+$r4 1 85 
+$r13 1 -1 
+$r15 1 102 
+_ret 1 102 
+$r6 1 69 
+Fields: 1
+47 savedState 102
+Accesses: 4
+48 1 47 
+101 1 47 
+88 1 47 
+57 1 47 
+Functions: 12
+0 1 -2 
+16 1 -2 
+98 1 -1 
+83 2 -1 -2 
+20 0 
+36 0 
+68 1 -2 
+69 2 65 69 
+24 0 
+41 2 -1 -2 
+77 2 -3 74 
+30 0 
+Constructors: 0
+
+Summary: 10
+-3 -2 33 0 30 1 69 74 -1 47 
+org/eclipse/jdt/internal/core/JavaModelManager.removeInfoAndChildren(Lorg/eclipse/jdt/internal/core/JavaElement;)Ljava/lang/Object;
+PTG:
+Vars:
+4
+r3 1 8 
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 cache 1
+Accesses: 3
+0 1 -1 
+189 1 -1 
+174 1 -1 
+Functions: 17
+1 2 1 -2 
+129 0 
+135 0 
+199 0 
+138 1 -2 
+171 3 -1 1 8 
+108 0 
+142 0 
+112 0 
+115 0 
+179 1 -2 
+148 0 
+21 1 -2 
+118 0 
+124 0 
+190 0 
+159 2 -2 8 
+Constructors: 0
+
+Summary: 7
+142 139 145 0 196 115 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.initializePreferences()V
+PTG:
+Vars:
+22
+$r13 1 1 
+$r6 1 36 
+$r16 1 101 
+$r4 1 26 
+$r12 1 60 
+$r14 1 84 
+$r5 1 1 
+$r18 1 117 
+$r20 1 127 
+$r7 1 43 
+$r11 1 69 
+$r21 1 118 
+$r3 1 15 
+$r17 1 1 
+$r19 1 118 
+$r8 1 1 
+r0 1 -1 
+$r9 1 59 
+$r15 1 82 
+$r2 1 1 
+$r1 1 5 
+$r10 1 60 
+Fields: 6
+-1 preferencesLookup 1
+-1 defaultNodeListener 127
+-1 instanceNodeListener 69
+1 ArrayObject 59
+1 ArrayObject 82
+1 ArrayObject 117
+Accesses: 10
+0 1 -1 
+112 1 -1 
+51 1 -1 
+68 1 -1 
+21 1 -1 
+54 1 -1 
+92 1 -1 
+77 1 -1 
+109 1 -1 
+126 1 -1 
+Functions: 12
+48 8 -1 1 82 69 117 43 59 127 
+130 2 118 127 
+5 1 5 
+117 1 117 
+72 2 69 60 
+88 1 84 
+9 1 5 
+26 1 26 
+106 8 -1 1 82 101 69 117 59 127 
+59 1 59 
+30 1 26 
+95 2 82 84 
+Constructors: 5
+48 43
+88 84
+9 5
+106 101
+30 26
+
+Summary: 5
+26 5 118 60 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getPerProjectInfo(Lorg/eclipse/core/resources/IProject;Z)Lorg/eclipse/jdt/internal/core/JavaModelManager$PerProjectInfo;
+PTG:
+Vars:
+9
+$r5 1 12 
+r10 2 12 31 
+$r7 1 1 
+r0 1 -1 
+$r6 1 31 
+$r4 1 1 
+$r1 1 1 
+r3 1 -2 
+$r9 1 -1 
+Fields: 1
+-1 perProjectInfos 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+41 1 -1 
+Functions: 3
+48 3 1 -2 31 
+36 2 -2 31 
+8 2 1 -2 
+Constructors: 1
+36 31
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.containerPut(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/IClasspathContainer;)V
+PTG:
+Vars:
+13
+r2 1 -1 
+$r14 1 21 
+r16 2 25 38 
+$r8 1 86 
+r10 1 90 
+$r1 1 1 
+$r5 1 21 
+r3 1 -2 
+$r9 1 90 
+r0 1 -4 
+r4 1 -3 
+$r6 1 25 
+$r13 1 38 
+Fields: 2
+-1 containers 21
+-1 previousSessionContainers 86
+Accesses: 3
+48 1 -1 
+20 1 -1 
+85 1 -1 
+Functions: 9
+17 5 -1 -2 -3 21 86 
+66 3 -3 38 25 
+21 2 -2 21 
+86 2 -2 86 
+55 3 -2 21 38 
+10 5 -1 -2 -3 21 86 
+106 2 -3 90 
+43 1 38 
+79 4 -3 -4 38 25 
+Constructors: 1
+43 38
+
+Summary: 7
+-3 -2 0 -4 1 2 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.containerGetDefaultToPreviousSession(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IClasspathContainer;
+PTG:
+Vars:
+9
+r5 1 -3 
+r4 1 5 
+$r2 1 1 
+$r3 1 5 
+r0 1 -1 
+r7 1 25 
+$r6 1 25 
+r1 1 -2 
+_ret 1 25 
+Fields: 1
+-1 containers 1
+Accesses: 1
+0 1 -1 
+Functions: 4
+16 4 -1 1 -2 -3 
+1 2 1 -2 
+23 2 -3 5 
+40 4 -1 1 -2 -3 
+Constructors: 0
+
+Summary: 4
+-3 -2 5 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getVariableAndContainersFile()Ljava/io/File;
+PTG:
+Vars:
+6
+r4 1 -1 
+$r3 1 14 
+$r2 1 9 
+$r1 1 3 
+_ret 1 14 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+0 1 0 
+3 1 3 
+9 1 9 
+Constructors: 0
+
+Summary: 3
+9 -1 0 
+org/eclipse/jdt/internal/core/JavaModelManager.removePerProjectInfo(Lorg/eclipse/jdt/internal/core/JavaProject;)V
+PTG:
+Vars:
+8
+r3 1 -2 
+$r6 1 17 
+$r1 1 1 
+r0 1 -1 
+$r5 1 1 
+$r8 1 1 
+r4 1 11 
+r7 1 17 
+Fields: 1
+-1 perProjectInfos 1
+Accesses: 3
+0 1 -1 
+32 1 -1 
+12 1 -1 
+Functions: 4
+37 2 1 11 
+7 1 -2 
+13 2 1 11 
+45 1 17 
+Constructors: 0
+
+Summary: 5
+11 -2 0 17 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_reentering_project_container_access(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/jdt/core/IClasspathContainer;)V
+PTG:
+Vars:
+20
+$r6 1 36 
+$r23 1 178 
+$r27 1 143 
+r17 1 -4 
+$r10 1 53 
+r30 1 -1 
+r11 1 -2 
+$r12 1 64 
+$r7 1 41 
+$r8 1 44 
+$r25 1 194 
+$r3 1 20 
+$r18 1 91 
+r4 1 -3 
+$r5 1 31 
+r21 1 115 
+$r0 1 0 
+$r14 1 72 
+$r24 1 184 
+$r13 1 69 
+Fields: 1
+115 ArrayObject 143
+Accesses: 0
+Functions: 26
+64 1 64 
+4 1 0 
+69 1 69 
+133 1 0 
+197 2 194 184 
+75 2 0 72 
+14 1 0 
+144 2 0 143 
+20 2 20 31 
+84 1 0 
+152 1 0 
+90 1 -4 
+27 1 20 
+30 1 -3 
+96 2 0 91 
+36 1 36 
+41 1 41 
+105 1 0 
+172 1 0 
+109 1 -4 
+47 2 0 44 
+176 1 0 
+53 2 -2 53 
+181 1 178 
+60 1 53 
+191 1 184 
+Constructors: 4
+4 0
+27 20
+60 53
+191 184
+
+Summary: 15
+41 -3 72 -2 91 0 44 -4 1 178 115 2 69 31 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.resetJarTypeCache()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 cache 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.create(Lorg/eclipse/core/resources/IFolder;Lorg/eclipse/jdt/core/IJavaProject;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+10
+r4 1 39 
+r7 1 19 
+$r2 1 30 
+r0 1 -2 
+$r1 1 11 
+r6 1 -3 
+r9 1 60 
+_ret 3 25 66 92 
+r8 3 25 66 92 
+$r3 1 33 
+Fields: 1
+39 ArrayObject 60
+Accesses: 0
+Functions: 8
+-1 0 
+33 1 33 
+21 2 -2 19 
+88 2 -2 -3 
+10 1 -2 
+11 1 11 
+30 1 30 
+62 2 -2 60 
+Constructors: 0
+
+Summary: 6
+-3 -2 39 30 19 11 
+org/eclipse/jdt/internal/core/JavaModelManager.rememberScope(Lorg/eclipse/jdt/internal/core/search/AbstractSearchScope;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 searchScopes 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.variableNames()[Ljava/lang/String;
+PTG:
+Vars:
+9
+$r6 1 39 
+r5 1 25 
+$r1 1 1 
+$r7 1 39 
+$r3 1 1 
+_ret 1 9 
+r0 1 -1 
+r2 1 9 
+$r4 1 17 
+Fields: 1
+-1 variables 1
+Accesses: 2
+0 1 -1 
+13 1 -1 
+Functions: 5
+48 1 25 
+1 1 1 
+17 1 17 
+38 1 25 
+14 1 1 
+Constructors: 0
+
+Summary: 3
+25 17 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getResolvedVariablePath(Lorg/eclipse/core/runtime/IPath;Z)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+7
+$r4 2 43 35 
+r1 1 26 
+r3 1 -1 
+r5 3 43 74 35 
+$r2 1 64 
+r0 1 -2 
+_ret 3 43 74 35 
+Fields: 0
+Accesses: 0
+Functions: 6
+32 2 -1 26 
+19 1 -2 
+6 1 -2 
+41 1 26 
+60 3 64 35 43 
+62 1 -2 
+Constructors: 0
+
+Summary: 4
+0 26 -1 64 
+org/eclipse/jdt/internal/core/JavaModelManager.containerRemoveInitializationInProgress(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+9
+$r5 1 18 
+r7 1 -3 
+$r2 1 4 
+$r1 1 1 
+r3 1 4 
+$r8 1 1 
+r4 1 -2 
+r0 1 -1 
+r6 1 18 
+Fields: 1
+-1 containerInitializationInProgress 1
+Accesses: 2
+0 1 -1 
+66 1 -1 
+Functions: 7
+16 2 -2 4 
+1 1 1 
+51 2 -2 4 
+37 2 18 -3 
+71 1 1 
+41 1 18 
+57 1 4 
+Constructors: 0
+
+Summary: 6
+-3 -2 0 -1 18 1 
+org/eclipse/jdt/internal/core/JavaModelManager.getOpenableCacheSize()I
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+Fields: 2
+-1 cache 1
+1 openableCache 4
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 1
+4 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.getNonChainingJarsCache()Ljava/util/HashSet;
+PTG:
+Vars:
+12
+$r1 1 1 
+r5 1 27 
+r9 1 68 
+r6 1 40 
+r8 1 50 
+$r10 1 84 
+$r7 1 40 
+$r2 1 12 
+$r4 1 21 
+_ret 1 12 
+r0 1 -1 
+$r12 1 100 
+Fields: 3
+50 ArrayObject 68
+-1 nonChainingJars 1
+27 ArrayObject 40
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 9
+16 1 12 
+81 2 84 12 
+82 1 68 
+98 1 84 
+20 2 -1 1 
+21 1 21 
+70 1 68 
+44 1 40 
+110 2 84 12 
+Constructors: 1
+16 12
+
+Summary: 5
+50 100 -1 27 84 
+org/eclipse/jdt/internal/core/JavaModelManager.shutdown()V
+PTG:
+Vars:
+34
+$r29 1 194 
+$r15 1 122 
+r2 1 -1 
+r1 1 13 
+$r11 1 102 
+$r10 1 93 
+$r24 1 165 
+$r20 1 147 
+$r5 1 54 
+$r16 1 123 
+$r28 1 186 
+$r13 1 88 
+$r14 1 88 
+$r17 1 132 
+$r26 1 174 
+$r3 1 37 
+$r19 1 88 
+$r27 1 182 
+$r18 1 123 
+$r31 1 -1 
+$r12 1 93 
+$r32 1 -1 
+r34 1 34 
+$r6 1 64 
+$r9 1 92 
+$r22 1 88 
+$r0 1 0 
+$r8 1 88 
+r25 1 173 
+$r7 1 79 
+$r21 1 145 
+$r23 1 162 
+$r30 1 64 
+$r4 1 46 
+Fields: 11
+88 ArrayObject 92
+88 ArrayObject 122
+88 ArrayObject 145
+-1 indexManager 64
+-1 preferencesLookup 88
+-1 defaultNodeListener 102
+-1 propertyListener 79
+-1 deltaState 37
+-1 resourcesPropertyListener 186
+-1 instancePreferencesListener 147
+-1 instanceNodeListener 132
+Accesses: 13
+131 1 -1 
+36 1 -1 
+101 1 -1 
+70 1 -1 
+140 1 -1 
+78 1 -1 
+110 1 -1 
+146 1 -1 
+117 1 -1 
+87 1 -1 
+185 1 -1 
+155 1 -1 
+63 1 -1 
+Functions: 22
+0 1 0 
+-1 0 
+162 1 162 
+4 1 0 
+165 1 165 
+135 2 132 123 
+40 2 34 37 
+105 2 102 93 
+201 1 194 
+74 1 64 
+174 2 173 174 
+15 1 13 
+49 2 34 46 
+82 2 13 79 
+178 1 174 
+150 2 145 147 
+58 13 -1 64 132 37 102 79 145 147 54 88 186 122 92 
+122 1 122 
+28 1 -1 
+92 1 92 
+189 2 182 186 
+31 0 
+Constructors: 2
+178 174
+4 0
+
+Summary: 13
+54 173 194 0 162 165 93 46 174 182 123 34 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_missbehaving_container(Lorg/eclipse/core/runtime/IPath;[Lorg/eclipse/jdt/core/IJavaProject;[Lorg/eclipse/jdt/core/IClasspathContainer;Lorg/eclipse/jdt/core/IClasspathContainer;[Lorg/eclipse/jdt/core/IClasspathEntry;[Lorg/eclipse/jdt/core/IClasspathEntry;)V
+PTG:
+Vars:
+27
+$r8 1 34 
+$r27 1 72 
+$r20 1 84 
+r19 1 -6 
+$r3 1 16 
+$r25 1 26 
+$r16 1 62 
+$r15 1 59 
+$r24 1 0 
+$r23 1 96 
+$r26 1 47 
+$r9 1 37 
+$r17 1 68 
+r7 1 -1 
+$r10 1 43 
+r1 1 -2 
+r5 1 -3 
+$r29 1 47 
+$r21 1 87 
+r13 1 -5 
+r11 1 -4 
+$r28 1 26 
+r14 1 -7 
+$r22 1 93 
+$r4 1 22 
+$r2 1 11 
+$r30 1 72 
+Fields: 0
+Accesses: 0
+Functions: 18
+0 2 0 -2 
+99 1 96 
+68 2 68 84 
+37 1 37 
+7 1 0 
+72 2 -4 72 
+11 1 11 
+43 2 43 59 
+47 2 -4 47 
+16 1 16 
+81 4 -1 -5 -6 72 
+22 2 34 22 
+87 1 87 
+56 4 -1 -5 -7 47 
+26 2 -3 26 
+93 1 93 
+62 1 62 
+31 2 -1 26 
+Constructors: 4
+81 72
+7 0
+56 47
+31 26
+
+Summary: 29
+26 -3 59 43 72 84 1 3 47 68 -7 -5 22 93 -2 62 0 5 -4 11 37 16 4 34 2 87 96 -1 -6 
+org/eclipse/jdt/internal/core/JavaModelManager.cacheZipFiles()V
+PTG:
+Vars:
+5
+$r3 1 15 
+$r4 1 1 
+r0 1 -1 
+$r1 1 1 
+$r2 1 4 
+Fields: 1
+-1 zipFiles 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 3
+1 1 1 
+19 1 15 
+22 2 1 15 
+Constructors: 1
+19 15
+
+Summary: 3
+4 15 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.containersReset([Ljava/lang/String;)V
+PTG:
+Vars:
+13
+r7 1 28 
+$r8 1 45 
+$r10 1 62 
+r0 1 -2 
+r5 1 21 
+$r6 1 28 
+$r12 1 75 
+$r4 1 13 
+r1 1 8 
+$r3 1 10 
+r9 1 55 
+r11 1 62 
+r2 1 -1 
+Fields: 2
+-2 ArrayObject 8
+-1 containers 10
+Accesses: 1
+9 1 -1 
+Functions: 11
+98 1 55 
+72 1 62 
+10 1 10 
+26 1 21 
+43 1 28 
+75 2 8 75 
+60 1 55 
+92 2 28 62 
+108 1 21 
+13 1 13 
+45 1 45 
+Constructors: 0
+
+Summary: 7
+45 -2 62 13 0 -1 75 
+org/eclipse/jdt/internal/core/JavaModelManager.resetProjectOptions(Lorg/eclipse/jdt/internal/core/JavaProject;)V
+PTG:
+Vars:
+7
+$r5 1 1 
+r3 1 -2 
+$r6 1 17 
+r0 1 -1 
+r4 1 11 
+r7 1 17 
+$r1 1 1 
+Fields: 1
+-1 perProjectInfos 1
+Accesses: 3
+0 1 -1 
+35 1 17 
+12 1 -1 
+Functions: 2
+7 1 -2 
+13 2 1 11 
+Constructors: 0
+
+Summary: 5
+11 -2 0 17 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.loadNonChainingJarsCache()Ljava/util/HashSet;
+PTG:
+Vars:
+13
+$r14 1 -1 
+$r0 1 0 
+$r13 1 -1 
+$r9 1 -1 
+r7 1 51 
+$r5 1 19 
+r3 1 12 
+r15 1 15 
+$r4 1 15 
+$r6 1 23 
+r2 1 -1 
+$r8 1 56 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 14
+96 1 15 
+128 1 15 
+34 2 19 15 
+4 1 0 
+38 1 15 
+8 1 -1 
+76 1 12 
+47 1 15 
+113 1 15 
+54 1 51 
+88 1 -1 
+59 2 0 56 
+28 2 23 12 
+31 2 19 23 
+Constructors: 4
+34 15
+4 0
+28 23
+31 19
+
+Summary: 4
+23 15 19 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.setClasspathBeingResolved(Lorg/eclipse/jdt/core/IJavaProject;Z)V
+PTG:
+Vars:
+4
+r2 1 -2 
+r0 1 -1 
+$r3 1 5 
+$r1 1 17 
+Fields: 0
+Accesses: 0
+Functions: 4
+16 1 -1 
+4 1 -1 
+21 2 17 -2 
+9 2 -2 5 
+Constructors: 0
+
+Summary: 5
+-2 5 0 17 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getDeltaProcessor()Lorg/eclipse/jdt/internal/core/DeltaProcessor;
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+_ret 1 4 
+Fields: 1
+-1 deltaState 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.createJarPackageFragmentRootFrom(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/jdt/core/IJavaProject;)Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+8
+$r2 2 -3 19 
+r3 1 35 
+r7 2 -3 19 
+r0 1 -2 
+$r5 1 11 
+$r4 1 42 
+$r6 1 -1 
+r1 1 26 
+Fields: 0
+Accesses: 0
+Functions: 5
+20 1 -2 
+40 3 -2 -3 19 
+10 1 -2 
+11 1 11 
+28 3 -3 19 26 
+Constructors: 0
+
+Summary: 8
+11 -3 -2 0 26 35 1 19 
+org/eclipse/jdt/internal/core/JavaModelManager.getInstancePreferences()Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;
+PTG:
+Vars:
+4
+$r2 1 5 
+$r1 1 1 
+_ret 1 5 
+r0 1 -1 
+Fields: 2
+-1 preferencesLookup 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.secondaryTypesMerging(Ljava/util/Hashtable;)Ljava/util/Hashtable;
+PTG:
+Vars:
+55
+$r30 1 372 
+$r41 1 64 
+r5 1 -1 
+r51 1 126 
+$r22 1 280 
+$r12 1 196 
+r13 1 196 
+r19 1 261 
+$r35 1 409 
+$r14 1 209 
+r52 1 138 
+r7 1 157 
+$r37 1 19 
+$r38 1 32 
+$r1 1 99 
+r23 1 280 
+r54 1 360 
+r46 1 27 
+$r43 1 73 
+$r6 1 157 
+$r29 1 360 
+$r45 1 81 
+$r28 1 347 
+_ret 1 -2 
+r49 1 99 
+r11 1 184 
+r17 1 241 
+r21 1 268 
+$r16 1 241 
+$r20 1 268 
+$r2 1 113 
+r15 1 209 
+r0 1 -2 
+r9 1 177 
+$r18 1 253 
+$r10 1 184 
+$r33 1 399 
+r48 1 42 
+r55 1 372 
+r50 1 121 
+r53 1 355 
+$r26 1 227 
+$r31 1 382 
+$r44 1 78 
+$r40 1 52 
+$r42 1 69 
+$r34 1 404 
+$r3 1 126 
+$r24 1 296 
+$r4 1 138 
+$r39 1 42 
+$r36 1 412 
+$r8 1 169 
+$r32 1 394 
+r47 1 32 
+Fields: 0
+Accesses: 0
+Functions: 51
+389 1 382 
+136 1 126 
+9 0 
+266 1 261 
+394 1 394 
+15 0 
+399 2 404 399 
+18 1 -2 
+402 1 360 
+19 1 19 
+278 1 268 
+152 3 -1 -2 138 
+409 1 409 
+155 1 126 
+31 1 27 
+415 1 412 
+418 1 355 
+294 1 268 
+167 1 157 
+41 1 32 
+169 1 169 
+301 3 209 280 296 
+305 1 261 
+52 2 52 42 
+182 1 177 
+59 1 52 
+315 1 177 
+64 1 64 
+194 1 184 
+69 2 69 73 
+325 1 121 
+72 1 32 
+78 1 78 
+206 2 -2 196 
+84 1 81 
+87 1 27 
+343 0 
+346 1 -2 
+347 1 347 
+96 1 -2 
+225 1 184 
+359 1 355 
+232 3 -2 227 196 
+239 1 184 
+112 1 99 
+113 1 113 
+370 1 360 
+251 1 241 
+125 1 121 
+253 1 253 
+382 2 372 382 
+Constructors: 2
+389 382
+59 52
+
+Summary: 29
+184 241 268 138 169 404 157 81 32 99 126 372 412 296 0 73 113 196 19 209 227 409 360 42 78 -1 280 253 347 
+org/eclipse/jdt/internal/core/JavaModelManager.setOptions(Ljava/util/Hashtable;)V
+PTG:
+Vars:
+13
+r3 1 -2 
+r1 1 4 
+$r5 1 34 
+$r8 1 76 
+r6 1 34 
+$r13 1 156 
+$r7 1 45 
+r9 1 76 
+$r12 1 -1 
+r4 1 27 
+r2 1 9 
+r0 1 -1 
+r10 1 93 
+Fields: 1
+-1 optionNames 45
+Accesses: 2
+164 1 -1 
+44 1 -1 
+Functions: 15
+0 2 -1 45 
+32 1 27 
+161 2 -2 156 
+131 1 27 
+100 2 76 93 
+5 2 -1 45 
+73 2 -2 34 
+45 2 34 45 
+142 1 9 
+15 1 9 
+113 2 34 9 
+84 2 34 4 
+23 1 -2 
+59 1 34 
+126 3 34 9 76 
+Constructors: 1
+161 156
+
+Summary: 8
+93 76 -2 34 4 0 -1 27 
+org/eclipse/jdt/internal/core/JavaModelManager.containerBeingInitializedGet(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IClasspathContainer;
+PTG:
+Vars:
+11
+$r9 1 39 
+r7 1 -3 
+r3 1 4 
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+r6 1 19 
+r4 1 -2 
+$r8 1 39 
+_ret 1 39 
+$r5 1 19 
+Fields: 1
+-1 containersBeingInitialized 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 1 1 
+17 2 -2 4 
+36 2 -3 19 
+Constructors: 0
+
+Summary: 7
+-3 -2 4 0 -1 1 19 
+org/eclipse/jdt/internal/core/JavaModelManager.determineIfOnClasspath(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/jdt/core/IJavaProject;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+21
+r29 2 6 22 
+r9 2 80 92 
+r4 1 27 
+$r14 1 142 
+r10 1 117 
+$r15 1 203 
+$r16 1 142 
+$r8 1 -3 
+r13 1 165 
+$r31 1 62 
+$r7 1 68 
+$r30 1 46 
+r2 1 -3 
+$r1 1 23 
+$r17 1 211 
+r12 1 142 
+$r3 1 27 
+r11 1 129 
+r0 1 -2 
+r6 1 62 
+$r32 2 80 92 
+Fields: 4
+80 ArrayObject 142
+46 allPkgFragmentsCache 62
+92 ArrayObject 142
+27 projectCache 46
+Accesses: 2
+44 1 27 
+60 1 46 
+Functions: 32
+0 1 -2 
+-1 0 
+320 0 
+67 2 6 22 
+68 1 68 
+261 2 6 22 
+262 1 165 
+7 2 6 22 
+200 1 142 
+79 1 -3 
+16 1 -2 
+144 1 142 
+208 1 142 
+338 2 129 117 
+211 3 -2 211 203 
+276 1 -2 
+23 2 -3 23 
+89 1 -3 
+345 2 129 117 
+347 0 
+158 1 142 
+286 0 
+167 3 165 6 22 
+296 0 
+361 0 
+234 1 165 
+107 1 -3 
+241 1 165 
+178 2 -2 -3 
+310 1 62 
+119 1 -3 
+186 3 165 6 22 
+Constructors: 0
+
+Summary: 21
+80 -3 340 23 117 294 303 1 68 224 165 211 246 27 46 62 203 0 129 92 347 
+org/eclipse/jdt/internal/core/JavaModelManager.closeZipFile(Ljava/util/zip/ZipFile;)V
+PTG:
+Vars:
+13
+r0 1 -2 
+$r2 1 6 
+$r4 1 25 
+$r10 1 51 
+$r9 1 48 
+$r11 1 54 
+$r3 1 9 
+r1 1 -1 
+$r7 1 38 
+$r8 1 44 
+$r5 1 22 
+$r6 1 35 
+$r12 1 -1 
+Fields: 1
+-1 zipFiles 6
+Accesses: 1
+5 1 -1 
+Functions: 10
+32 1 25 
+-1 0 
+51 1 51 
+6 1 6 
+38 1 38 
+25 2 35 25 
+57 2 22 54 
+44 2 48 44 
+61 1 -2 
+47 1 -2 
+Constructors: 1
+32 25
+
+Summary: 7
+54 51 48 0 35 9 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_container_using_failure_container(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/ClasspathContainerInitializer;)V
+PTG:
+Vars:
+14
+r13 1 -1 
+$r5 1 27 
+r10 1 -4 
+r6 1 -3 
+$r0 1 0 
+r1 1 -2 
+$r3 1 16 
+$r7 1 31 
+$r2 1 11 
+$r4 1 21 
+$r9 1 42 
+$r12 1 49 
+$r11 1 46 
+$r8 1 36 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 2 0 11 
+16 1 16 
+36 1 36 
+52 1 49 
+21 1 21 
+7 1 0 
+10 1 -2 
+42 2 -4 42 
+27 2 -3 27 
+46 1 46 
+31 1 31 
+Constructors: 1
+7 0
+
+Summary: 10
+46 -3 -2 49 0 -4 1 11 2 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getDefaultPreferences()Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;
+PTG:
+Vars:
+4
+$r2 1 5 
+r0 1 -1 
+$r1 1 1 
+_ret 1 5 
+Fields: 2
+-1 preferencesLookup 1
+1 ArrayObject 5
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.loadVariablesAndContainers(Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;)V
+PTG:
+Vars:
+14
+r16 1 144 
+$r7 1 87 
+r1 1 6 
+$r14 1 -1 
+r15 1 41 
+$r10 1 99 
+r9 1 -1 
+$r2 1 7 
+r5 1 64 
+r0 1 -2 
+$r12 1 111 
+r4 1 52 
+r3 1 23 
+$r6 1 66 
+Fields: 3
+6 ArrayObject 23
+-1 previousSessionVariables 111
+-1 variables 99
+Accesses: 2
+98 1 -1 
+110 1 -1 
+Functions: 15
+0 1 -2 
+66 2 64 66 
+35 1 23 
+164 2 144 23 
+7 1 7 
+135 2 -2 23 
+106 3 99 87 41 
+43 2 -2 23 
+79 2 -2 23 
+118 3 87 41 111 
+25 1 23 
+154 2 -2 23 
+59 1 52 
+93 2 64 87 
+125 1 23 
+Constructors: 1
+93 87
+
+Summary: 7
+41 -2 0 64 6 144 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_reentering_variable_access(Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+11
+r1 1 -2 
+$r6 1 26 
+$r3 1 16 
+$r2 1 11 
+$r7 1 29 
+$r9 1 45 
+$r0 1 0 
+$r4 1 22 
+r5 1 -3 
+$r8 1 35 
+r10 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 2 0 -2 
+16 1 16 
+32 1 29 
+48 2 35 45 
+22 2 -3 22 
+7 1 0 
+26 1 26 
+42 1 35 
+11 1 11 
+Constructors: 2
+7 0
+42 35
+
+Summary: 7
+-3 -2 0 26 1 -1 29 
+org/eclipse/jdt/internal/core/JavaModelManager.variableInitializationInProgress()Ljava/util/HashSet;
+PTG:
+Vars:
+7
+$r1 1 1 
+r0 1 -1 
+$r2 1 4 
+$r4 1 1 
+$r3 1 15 
+r5 2 4 15 
+_ret 2 4 15 
+Fields: 1
+-1 variableInitializationInProgress 1
+Accesses: 2
+0 1 -1 
+23 1 -1 
+Functions: 3
+1 1 1 
+19 1 15 
+28 2 1 15 
+Constructors: 1
+19 15
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.cacheToString(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+5
+$r2 1 1 
+r1 1 -2 
+_ret 1 5 
+r0 1 -1 
+$r3 1 5 
+Fields: 1
+-1 cache 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.<init>()V
+PTG:
+Vars:
+35
+$r7 1 76 
+$r8 1 87 
+$r25 1 290 
+$r21 1 244 
+$r5 1 52 
+$r10 1 111 
+$r27 1 318 
+$r9 1 99 
+$r17 1 201 
+$r30 1 352 
+$r29 1 341 
+$r1 1 5 
+$r12 1 138 
+$r14 1 161 
+$r32 1 375 
+$r6 1 64 
+$r28 1 330 
+$r20 1 233 
+$r24 1 277 
+$r33 1 393 
+$r13 1 149 
+$r22 1 255 
+$r11 1 122 
+$r19 1 226 
+r0 1 -1 
+$r2 1 16 
+$r4 1 40 
+$r16 1 184 
+$r15 1 172 
+$r23 1 266 
+$r18 1 212 
+$r31 1 363 
+$r26 1 306 
+$r3 1 28 
+$r34 1 405 
+Fields: 0
+Accesses: 37
+192 1 -1 
+129 1 -1 
+197 1 -1 
+134 1 -1 
+262 1 -1 
+326 1 -1 
+72 1 -1 
+12 1 -1 
+208 1 -1 
+400 1 -1 
+145 1 -1 
+273 1 -1 
+337 1 -1 
+83 1 -1 
+24 1 -1 
+408 1 -1 
+348 1 -1 
+157 1 -1 
+221 1 -1 
+286 1 -1 
+95 1 -1 
+36 1 -1 
+229 1 -1 
+359 1 -1 
+168 1 -1 
+297 1 -1 
+107 1 -1 
+302 1 -1 
+48 1 -1 
+240 1 -1 
+371 1 -1 
+180 1 -1 
+118 1 -1 
+314 1 -1 
+251 1 -1 
+60 1 -1 
+383 1 -1 
+Functions: 35
+-1 0 
+1 1 -1 
+259 1 255 
+323 1 318 
+69 1 64 
+9 1 5 
+205 1 201 
+397 1 393 
+142 1 138 
+270 1 266 
+334 1 330 
+80 1 76 
+404 1 -1 
+21 1 16 
+345 1 341 
+154 1 149 
+218 1 212 
+283 1 277 
+92 1 87 
+33 1 28 
+356 1 352 
+165 1 161 
+294 1 290 
+104 1 99 
+45 1 40 
+237 1 233 
+368 2 -1 363 
+177 1 172 
+115 1 111 
+311 1 306 
+248 1 244 
+57 1 52 
+380 2 -1 375 
+189 1 184 
+126 1 122 
+Constructors: 33
+1 -1
+259 255
+323 318
+69 64
+9 5
+205 201
+397 393
+142 138
+270 266
+334 330
+80 76
+21 16
+345 341
+154 149
+218 212
+283 277
+92 87
+33 28
+356 352
+165 161
+294 290
+104 99
+45 40
+237 233
+368 363
+177 172
+115 111
+311 306
+248 244
+57 52
+380 375
+189 184
+126 122
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.secondaryTypesRemoving(Lorg/eclipse/core/resources/IFile;Z)V
+PTG:
+Vars:
+23
+$r22 1 19 
+r1 1 -1 
+$r17 1 86 
+r8 1 165 
+$r21 1 6 
+r27 1 57 
+$r18 1 91 
+$r4 1 63 
+$r25 1 36 
+r29 1 199 
+r7 1 120 
+$r11 2 272 272 
+r9 1 192 
+$r2 1 48 
+r28 1 227 
+$r6 1 120 
+$r20 1 99 
+r0 1 -2 
+$r10 1 199 
+$r5 1 63 
+$r16 1 75 
+$r19 1 96 
+$r3 1 63 
+Fields: 2
+227 ArrayObject 272
+57 secondaryTypes 63
+Accesses: 4
+114 1 57 
+137 1 57 
+106 1 57 
+62 1 57 
+Functions: 25
+197 1 192 
+75 2 75 91 
+13 1 6 
+209 2 -2 199 
+273 2 272 120 
+18 1 -2 
+82 1 75 
+147 0 
+85 1 -2 
+86 1 86 
+150 0 
+24 2 19 6 
+31 1 6 
+96 1 96 
+160 1 120 
+35 1 6 
+102 1 99 
+39 1 36 
+167 1 165 
+46 2 -1 48 
+47 1 -2 
+111 3 -1 -2 63 
+115 1 63 
+245 1 192 
+185 1 165 
+Constructors: 2
+82 75
+13 6
+
+Summary: 17
+-2 91 48 0 86 120 227 57 19 272 63 165 99 143 96 -1 36 
+org/eclipse/jdt/internal/core/JavaModelManager.addNonChainingJar(Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r3 1 1 
+$r1 1 1 
+r2 1 -2 
+Fields: 1
+-1 nonChainingJars 1
+Accesses: 2
+0 1 -1 
+8 1 -1 
+Functions: 1
+13 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.secondaryTypes(Lorg/eclipse/jdt/core/IJavaProject;ZLorg/eclipse/core/runtime/IProgressMonitor;)Ljava/util/Map;
+PTG:
+Vars:
+19
+$r3 1 75 
+$r19 1 21 
+$r7 1 75 
+$r5 1 92 
+$r9 1 138 
+r1 1 -2 
+$r8 1 75 
+$r12 1 138 
+r0 1 -1 
+$r24 1 55 
+$r10 1 75 
+r28 1 71 
+r13 1 -4 
+$r11 1 220 
+_ret 1 220 
+$r18 1 6 
+$r29 1 92 
+$r4 1 75 
+$r2 1 63 
+Fields: 2
+71 secondaryTypes 75
+-1 indexManager 138
+Accesses: 11
+113 1 71 
+163 1 71 
+100 1 71 
+85 1 71 
+182 1 71 
+198 1 71 
+119 1 71 
+215 1 71 
+73 1 71 
+137 1 -1 
+204 1 -1 
+Functions: 17
+34 1 6 
+41 1 6 
+138 1 138 
+13 1 6 
+173 1 -4 
+205 1 138 
+49 1 6 
+20 1 -2 
+53 1 6 
+214 3 -1 138 75 
+87 1 75 
+26 2 21 6 
+58 1 55 
+61 3 -1 138 63 
+62 1 -2 
+127 6 -1 -2 -4 71 138 75 
+191 0 
+Constructors: 1
+13 6
+
+Summary: 10
+-2 0 21 -4 55 63 71 2 -1 92 
+org/eclipse/jdt/internal/core/JavaModelManager.doneSaving(Lorg/eclipse/core/resources/ISaveContext;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.containerAddInitializationInProgress(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+11
+r11 2 50 33 
+$r6 1 50 
+r3 1 -2 
+r10 2 4 19 
+$r9 1 1 
+$r1 1 1 
+$r4 1 33 
+$r2 1 4 
+$r8 1 19 
+r0 1 -1 
+r5 1 -3 
+Fields: 1
+-1 containerInitializationInProgress 1
+Accesses: 2
+0 1 -1 
+15 1 -1 
+Functions: 7
+1 1 1 
+69 3 33 50 -3 
+54 1 50 
+23 1 19 
+28 2 1 19 
+60 4 -2 50 19 4 
+31 3 -2 19 4 
+Constructors: 2
+54 50
+23 19
+
+Summary: 7
+-3 -2 50 33 0 -1 1 
+org/eclipse/jdt/internal/core/JavaModelManager.doNotUse()V
+PTG:
+Vars:
+3
+$r2 1 9 
+$r0 1 0 
+$r1 1 3 
+Fields: 1
+0 deltaState 3
+Accesses: 1
+0 1 0 
+Functions: 2
+6 1 3 
+13 1 9 
+Constructors: 1
+13 9
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_no_container_initializer_found(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+10
+$r4 1 21 
+$r8 1 34 
+r9 1 -1 
+r6 1 -3 
+$r2 1 11 
+r1 1 -2 
+$r0 1 0 
+$r5 1 27 
+$r7 1 31 
+$r3 1 16 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 2 0 11 
+16 1 16 
+21 1 21 
+37 1 34 
+7 1 0 
+10 1 -2 
+27 2 -3 27 
+31 1 31 
+Constructors: 1
+7 0
+
+Summary: 8
+11 -3 -2 34 0 31 -1 1 
+org/eclipse/jdt/internal/core/JavaModelManager.rollback(Lorg/eclipse/core/resources/ISaveContext;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.createClassFileFrom(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/jdt/core/IJavaProject;)Lorg/eclipse/jdt/core/IClassFile;
+PTG:
+Vars:
+12
+$r3 1 64 
+r9 2 -3 19 
+$r4 1 35 
+$r7 1 50 
+$r2 1 59 
+$r1 1 22 
+r10 2 22 56 
+r6 1 40 
+r0 1 -2 
+$r5 1 40 
+$r8 1 11 
+_ret 1 64 
+Fields: 0
+Accesses: 0
+Functions: 8
+33 3 -3 19 35 
+49 2 50 40 
+34 1 -2 
+21 3 -2 -3 19 
+57 3 22 56 59 
+10 1 -2 
+58 1 -2 
+11 1 11 
+Constructors: 0
+
+Summary: 11
+-3 59 -2 0 35 1 19 11 22 40 56 
+org/eclipse/jdt/internal/core/JavaModelManager.secondaryTypeAdding(Ljava/lang/String;[C[C)V
+PTG:
+Vars:
+48
+r22 1 -3 
+$r41 1 258 
+r34 1 -4 
+r10 1 300 
+$r19 1 472 
+r44 1 326 
+r39 1 109 
+r2 1 119 
+$r25 1 359 
+$r36 1 95 
+$r14 1 440 
+$r29 1 174 
+r45 1 340 
+$r7 1 166 
+$r12 1 418 
+$r31 1 166 
+r40 3 231 218 185 
+$r32 1 6 
+$r16 1 457 
+$r17 1 462 
+$r13 1 430 
+r49 1 430 
+$r20 1 475 
+$r26 1 271 
+r48 1 418 
+r4 1 -1 
+$r30 1 185 
+$r8 1 218 
+r46 2 359 346 
+$r18 1 467 
+$r0 1 101 
+$r37 1 -1 
+$r15 1 452 
+r1 1 -2 
+$r28 1 166 
+r42 2 258 271 
+$r24 1 346 
+$r21 1 307 
+$r11 1 403 
+r47 1 411 
+$r35 1 65 
+r3 1 151 
+$r9 1 119 
+$r6 1 166 
+$r27 1 231 
+r5 1 159 
+$r23 1 330 
+$r33 1 43 
+Fields: 1
+159 secondaryTypes 166
+Accesses: 5
+241 1 159 
+195 1 159 
+211 1 159 
+164 1 159 
+182 1 159 
+Functions: 52
+-1 0 
+385 4 307 326 359 346 
+133 1 119 
+13 1 6 
+398 0 
+144 1 119 
+401 3 231 185 218 
+403 1 403 
+276 1 271 
+21 2 -2 6 
+153 2 -1 151 
+29 1 6 
+287 5 231 119 185 218 271 
+416 1 411 
+37 1 6 
+296 1 119 
+428 1 418 
+48 2 -4 43 
+51 2 6 43 
+179 1 174 
+312 2 -3 307 
+440 2 452 440 
+59 1 6 
+317 2 307 300 
+190 1 185 
+447 1 440 
+450 1 430 
+70 2 65 -3 
+328 1 326 
+73 2 65 6 
+457 1 457 
+330 1 330 
+204 2 166 185 
+462 2 467 462 
+81 1 6 
+465 1 418 
+213 1 166 
+342 3 258 340 271 
+472 1 472 
+89 1 6 
+93 1 6 
+478 1 475 
+481 1 411 
+98 1 95 
+101 1 101 
+236 1 231 
+364 1 359 
+111 2 -2 109 
+375 4 258 340 359 271 
+250 2 166 231 
+126 1 -2 
+254 4 231 119 185 218 
+Constructors: 10
+48 43
+179 174
+276 271
+70 65
+312 307
+236 231
+364 359
+13 6
+190 185
+447 440
+
+Summary: 34
+-3 330 101 340 418 95 271 185 43 346 1 326 430 231 65 475 300 403 166 -2 218 359 452 109 151 0 467 -4 472 258 2 307 -1 159 
+org/eclipse/jdt/internal/core/JavaModelManager.create(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/jdt/core/IJavaProject;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+4
+r7 2 -3 19 
+$r6 1 11 
+r0 1 -2 
+$r1 1 21 
+Fields: 0
+Accesses: 0
+Functions: 9
+49 0 
+20 1 -2 
+36 0 
+57 3 -2 -3 19 
+10 1 -2 
+11 1 11 
+44 3 -2 -3 19 
+29 1 -2 
+63 3 -2 -3 19 
+Constructors: 0
+
+Summary: 8
+11 -3 -2 0 21 35 1 19 
+org/eclipse/jdt/internal/core/JavaModelManager.hasTemporaryCache()Z
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 4 
+$r1 1 1 
+Fields: 1
+-1 temporaryCache 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 2
+4 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.variableGet(Ljava/lang/String;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+7
+$r3 1 18 
+$r5 1 22 
+r2 1 -2 
+r1 1 4 
+_ret 1 22 
+r0 1 -1 
+$r4 1 22 
+Fields: 1
+-1 variables 18
+Accesses: 1
+17 1 -1 
+Functions: 3
+0 2 -1 18 
+18 2 -2 18 
+5 2 -2 4 
+Constructors: 0
+
+Summary: 4
+-2 4 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.containerPutIfInitializingWithSameEntries(Lorg/eclipse/core/runtime/IPath;[Lorg/eclipse/jdt/core/IJavaProject;[Lorg/eclipse/jdt/core/IClasspathContainer;)Z
+PTG:
+Vars:
+12
+r1 1 -4 
+r2 1 15 
+r7 1 72 
+r6 1 41 
+r3 1 20 
+r5 1 -2 
+$r11 1 213 
+$r9 1 182 
+r4 1 -1 
+r8 1 129 
+r0 1 -3 
+$r10 1 218 
+Fields: 5
+-3 ArrayObject 20
+72 ArrayObject 182
+72 ArrayObject 213
+129 ArrayObject 218
+-4 ArrayObject 15
+Accesses: 0
+Functions: 12
+65 1 15 
+34 3 -1 -2 20 
+162 11 -1 -2 129 -3 -4 20 213 182 72 218 15 
+117 9 -1 -2 -3 -4 20 213 182 72 15 
+213 2 213 218 
+22 3 -1 -2 20 
+247 11 -1 -2 129 -3 -4 20 213 182 72 218 15 
+58 3 -1 -2 20 
+122 1 41 
+91 4 -1 -2 20 15 
+204 6 -1 -2 20 213 182 72 
+268 4 -1 -2 20 15 
+Constructors: 0
+
+Summary: 9
+15 20 41 -3 72 -2 129 -1 -4 
+org/eclipse/jdt/internal/core/JavaModelManager.addDeprecatedOptions(Ljava/util/Hashtable;)V
+PTG:
+Vars:
+2
+r0 1 -2 
+r3 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 1 -2 
+7 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.isClasspathBeingResolved(Lorg/eclipse/jdt/core/IJavaProject;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+1 2 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 1 
+org/eclipse/jdt/internal/core/JavaModelManager.forceBatchInitializations(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -1 
+51 1 -1 
+38 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.loadVariablesAndContainers()V
+PTG:
+Vars:
+57
+r75 1 600 
+r78 1 762 
+r65 1 404 
+r69 1 487 
+$r67 1 408 
+$r23 1 60 
+$r0 1 0 
+$r63 1 390 
+r71 1 514 
+r79 1 775 
+$r18 1 365 
+$r2 1 14 
+$r40 1 -1 
+r5 1 -1 
+$r9 1 800 
+$r44 1 -1 
+$r13 1 529 
+r60 1 230 
+$r27 1 281 
+$r11 1 517 
+$r19 1 368 
+$r28 1 290 
+$r3 1 17 
+r74 1 580 
+r4 1 28 
+$r39 1 -1 
+$r68 1 412 
+r70 1 494 
+$r17 1 626 
+$r38 1 -1 
+$r22 1 52 
+$r7 2 517 778 
+$r46 1 322 
+$r33 1 -1 
+r55 1 48 
+$r10 1 496 
+r73 1 569 
+$r15 1 594 
+$r37 1 -1 
+$r51 1 -1 
+$r20 1 33 
+$r21 1 42 
+r56 1 68 
+$r45 1 319 
+$r66 1 404 
+r64 1 400 
+$r24 1 163 
+$r25 1 256 
+r16 1 611 
+$r48 1 -1 
+$r47 1 -1 
+r72 1 552 
+r58 1 204 
+r59 1 230 
+$r62 1 382 
+$r6 1 456 
+$r26 1 276 
+Fields: 4
+762 ArrayObject 775
+-1 previousSessionVariables 529
+-1 variables 517
+-1 variables 778
+Accesses: 3
+528 1 -1 
+516 1 -1 
+777 1 -1 
+Functions: 79
+-1 0 
+256 1 256 
+385 5 -1 529 517 778 382 
+133 1 33 
+389 4 -1 529 517 778 
+393 5 -1 529 517 390 778 
+10 1 0 
+396 4 -1 529 517 778 
+524 3 514 517 487 
+14 1 14 
+271 1 230 
+784 3 517 775 778 
+17 2 0 17 
+145 0 
+660 1 400 
+536 3 529 514 487 
+155 1 0 
+285 1 230 
+672 1 -1 
+161 1 68 
+417 2 400 412 
+163 1 163 
+803 5 -1 800 529 517 778 
+420 2 408 412 
+548 4 -1 529 517 778 
+38 2 33 28 
+295 2 290 281 
+423 2 404 408 
+42 1 42 
+298 6 -1 529 276 517 281 778 
+554 1 404 
+682 1 404 
+428 1 404 
+50 2 48 52 
+564 1 404 
+181 0 
+694 1 400 
+57 2 33 52 
+571 2 552 569 
+60 1 60 
+191 1 0 
+319 1 319 
+706 1 -1 
+197 1 68 
+582 1 404 
+329 2 0 322 
+75 1 33 
+716 1 404 
+206 1 204 
+463 6 -1 529 404 517 456 778 
+592 1 404 
+82 0 
+466 1 456 
+594 1 594 
+343 0 
+472 1 404 
+602 1 404 
+92 1 0 
+221 1 204 
+735 1 404 
+353 1 0 
+482 1 404 
+100 1 33 
+232 1 230 
+489 1 404 
+107 0 
+619 2 611 404 
+365 1 365 
+496 2 496 494 
+752 1 404 
+117 1 0 
+375 2 368 0 
+759 0 
+632 2 626 611 
+636 3 626 580 600 
+381 4 -1 529 517 778 
+509 1 494 
+126 1 33 
+254 1 230 
+Constructors: 9
+417 412
+420 408
+38 33
+295 281
+423 404
+632 626
+57 52
+10 0
+463 456
+
+Summary: 46
+184 382 163 48 17 487 0 319 28 611 456 256 408 404 569 600 412 494 514 82 368 290 365 594 110 52 800 -1 762 346 107 14 148 85 322 343 400 390 626 145 552 230 276 42 181 580 
+org/eclipse/jdt/internal/core/JavaModelManager.flushZipFiles()V
+PTG:
+Vars:
+18
+$r14 1 83 
+r0 1 3 
+r4 1 8 
+$r5 1 5 
+$r2 1 5 
+$r17 1 -1 
+r7 1 37 
+r1 1 -1 
+$r15 1 86 
+$r10 1 61 
+$r3 1 8 
+$r8 1 42 
+$r11 1 58 
+$r13 1 78 
+r9 1 42 
+$r6 1 29 
+$r12 1 72 
+$r16 1 89 
+Fields: 1
+-1 zipFiles 5
+Accesses: 2
+4 1 -1 
+20 1 -1 
+Functions: 15
+0 0 
+97 1 42 
+68 1 61 
+5 1 5 
+72 1 72 
+104 1 37 
+41 1 37 
+78 2 83 78 
+81 1 42 
+86 1 86 
+25 1 5 
+28 1 8 
+92 2 89 58 
+29 1 29 
+61 2 3 61 
+Constructors: 1
+68 61
+
+Summary: 7
+86 8 3 89 -1 83 29 
+org/eclipse/jdt/internal/core/JavaModelManager.startup()V
+PTG:
+Vars:
+20
+$r8 1 61 
+r22 1 83 
+$r18 1 174 
+$r15 1 146 
+r0 1 -1 
+$r13 1 96 
+$r1 1 5 
+$r12 1 92 
+$r14 1 104 
+$r2 1 15 
+$r19 1 179 
+$r10 1 75 
+r16 1 155 
+$r7 1 52 
+$r17 1 146 
+$r9 1 72 
+$r11 1 84 
+$r4 1 27 
+$r6 1 48 
+$r5 1 38 
+Fields: 3
+-1 propertyListener 52
+-1 resourcesPropertyListener 96
+-1 deltaState 146
+Accesses: 7
+145 1 -1 
+35 1 -1 
+51 1 -1 
+69 1 -1 
+12 1 -1 
+95 1 -1 
+159 1 -1 
+Functions: 28
+-1 0 
+128 4 -1 96 146 52 
+192 1 174 
+1 4 -1 96 146 52 
+66 5 -1 96 146 52 61 
+199 1 174 
+72 1 72 
+9 1 5 
+75 1 75 
+204 1 174 
+142 4 -1 96 146 52 
+18 1 15 
+84 2 83 84 
+212 4 -1 96 146 52 
+149 1 146 
+23 4 -1 96 146 52 
+88 1 84 
+152 0 
+32 5 -1 96 146 52 27 
+99 2 96 92 
+165 2 146 155 
+38 1 38 
+42 1 38 
+171 4 -1 96 146 52 
+108 5 -1 96 146 52 104 
+55 2 48 52 
+184 7 -1 96 146 179 52 155 174 
+123 0 
+Constructors: 6
+32 27
+66 61
+88 84
+184 174
+9 5
+42 38
+
+Summary: 12
+15 72 174 38 155 48 104 75 84 -1 92 83 
+org/eclipse/jdt/internal/core/JavaModelManager.getDefaultOptions()Ljava/util/Hashtable;
+PTG:
+Vars:
+10
+r7 1 27 
+r2 1 -1 
+r5 1 22 
+$r10 1 75 
+$r6 1 27 
+_ret 1 0 
+r3 1 14 
+r8 1 46 
+$r0 1 0 
+$r4 1 16 
+Fields: 1
+-1 optionNames 16
+Accesses: 1
+15 1 -1 
+Functions: 10
+16 1 16 
+-1 0 
+84 3 -1 16 0 
+37 2 27 14 
+6 1 0 
+10 2 -1 16 
+26 1 22 
+58 3 0 27 46 
+62 1 22 
+78 2 0 75 
+Constructors: 1
+6 0
+
+Summary: 5
+46 14 -1 27 75 
+org/eclipse/jdt/internal/core/JavaModelManager.intern(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+7
+$r3 1 1 
+$r5 1 12 
+r2 1 -2 
+$r1 1 4 
+r0 1 -1 
+$r4 1 12 
+_ret 1 12 
+Fields: 1
+-1 stringSymbols 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 4 
+9 2 -2 4 
+Constructors: 1
+9 4
+
+Summary: 4
+-2 4 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getPreviousSessionVariable(Ljava/lang/String;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 1 
+$r3 1 5 
+r4 1 5 
+r1 1 -2 
+Fields: 1
+-1 previousSessionVariables 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+1 2 1 -2 
+25 4 -1 1 -2 5 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.variablePreferencesPut(Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+11
+$r2 1 10 
+r3 1 16 
+r5 1 -1 
+r4 1 -3 
+$r0 1 0 
+$r8 1 51 
+$r10 1 -1 
+r1 1 -2 
+$r9 1 22 
+$r6 1 35 
+$r7 1 40 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 2 0 -2 
+34 1 -1 
+50 1 -1 
+21 1 -1 
+6 1 0 
+54 1 51 
+39 1 -3 
+10 1 10 
+26 2 16 22 
+45 3 16 35 40 
+Constructors: 1
+6 0
+
+Summary: 8
+-3 16 -2 22 35 40 -1 10 
+org/eclipse/jdt/internal/core/JavaModelManager.saving(Lorg/eclipse/core/resources/ISaveContext;)V
+PTG:
+Vars:
+18
+$r13 1 234 
+r20 1 221 
+$r14 1 221 
+r0 1 -1 
+$r3 1 154 
+$r7 1 300 
+r18 1 107 
+$r17 1 94 
+$r11 1 82 
+$r2 1 147 
+$r6 1 194 
+$r5 1 162 
+$r12 1 -1 
+$r4 1 147 
+r16 1 74 
+r23 1 187 
+r24 1 194 
+r1 1 -2 
+Fields: 5
+-1 perProjectInfos 147
+-1 indexManager 74
+-1 workspaceScope 82
+-1 deltaState 300
+-1 externalFoldersManager 94
+Accesses: 6
+81 1 -1 
+146 1 -1 
+70 1 -1 
+299 1 -1 
+93 1 -1 
+158 1 -1 
+Functions: 26
+192 1 187 
+256 1 221 
+65 1 -2 
+136 7 -1 -2 82 147 74 300 94 
+10 0 
+270 1 221 
+16 7 -1 -2 82 147 74 300 94 
+208 8 -1 -2 82 194 147 74 300 94 
+90 1 74 
+30 6 -1 82 147 74 300 94 
+159 1 147 
+33 1 -2 
+225 1 221 
+98 1 94 
+292 0 
+101 1 -2 
+167 2 162 154 
+295 0 
+232 1 -1 
+237 2 234 221 
+303 1 300 
+241 1 187 
+114 1 107 
+182 1 154 
+123 7 -1 82 147 74 107 300 94 
+61 6 -1 82 147 74 300 94 
+Constructors: 2
+225 221
+167 154
+
+Summary: 12
+-2 221 0 194 234 162 261 278 107 154 130 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.createCompilationUnitFrom(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/jdt/core/IJavaProject;)Lorg/eclipse/jdt/core/ICompilationUnit;
+PTG:
+Vars:
+20
+r16 2 22 56 
+$r2 1 35 
+r4 1 40 
+$r9 1 79 
+$r7 1 63 
+r0 1 -2 
+$r3 1 40 
+$r17 1 105 
+$r18 1 110 
+$r14 1 11 
+$r1 1 22 
+$r11 1 89 
+$r13 1 97 
+$r8 1 76 
+r15 2 -3 19 
+$r12 1 94 
+_ret 1 110 
+$r10 1 85 
+$r5 1 50 
+$r6 1 66 
+Fields: 0
+Accesses: 0
+Functions: 16
+-1 0 
+33 3 -3 19 35 
+34 1 -2 
+66 2 66 76 
+100 2 97 63 
+103 3 22 56 105 
+104 1 -2 
+73 1 66 
+10 1 -2 
+11 1 11 
+79 1 79 
+49 2 50 40 
+21 3 -2 -3 19 
+85 2 85 89 
+88 1 -2 
+94 1 94 
+Constructors: 1
+73 66
+
+Summary: 15
+-3 -2 0 35 1 19 11 76 97 89 22 40 105 56 94 
+org/eclipse/jdt/internal/core/JavaModelManager.initializeAllContainers(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IClasspathContainer;
+PTG:
+Vars:
+27
+$r2 1 20 
+r4 1 33 
+$r29 1 245 
+$r23 1 -1 
+$r24 1 324 
+r9 1 97 
+$r8 1 82 
+r31 1 260 
+r6 1 -1 
+r25 1 51 
+r15 1 -2 
+r32 1 265 
+r27 2 153 82 
+r11 1 124 
+$r18 1 205 
+r10 1 115 
+$r19 1 218 
+$r0 1 12 
+$r7 1 71 
+$r12 1 142 
+$r35 1 368 
+$r5 1 64 
+$r13 1 153 
+_ret 1 368 
+$r3 1 23 
+r28 2 205 218 
+r16 1 -3 
+Fields: 4
+97 ArrayObject 115
+33 ArrayObject 51
+-1 batchContainerInitializationsProgress 260
+-1 containerInitializationInProgress 324
+Accesses: 3
+256 1 -1 
+323 1 -1 
+341 1 -1 
+Functions: 29
+-1 0 
+70 3 -1 260 324 
+262 0 
+328 1 324 
+9 5 -1 -2 -3 260 324 
+137 5 -1 64 260 324 124 
+74 3 64 51 71 
+203 2 -2 12 
+267 1 265 
+79 2 64 12 
+16 1 12 
+20 1 20 
+23 1 23 
+281 2 260 245 
+90 1 64 
+346 0 
+157 1 153 
+222 1 218 
+167 3 64 153 12 
+231 3 -2 218 12 
+297 3 260 245 265 
+365 5 -1 -2 -3 260 324 
+238 3 -3 218 205 
+175 3 82 153 124 
+53 1 51 
+117 1 115 
+251 5 -1 260 324 245 12 
+315 1 -1 
+126 1 115 
+Constructors: 5
+16 12
+74 64
+251 245
+157 153
+222 218
+
+Summary: 19
+205 -3 23 245 33 142 1 153 71 218 20 -2 124 265 82 97 64 12 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.recreatePersistedContainer(Ljava/lang/String;Ljava/lang/String;Z)V
+PTG:
+Vars:
+11
+r3 1 39 
+$r5 1 44 
+r6 1 52 
+$r9 1 66 
+$r0 1 0 
+$r2 1 33 
+$r4 1 41 
+$r8 1 63 
+r11 2 -3 23 
+r1 1 -2 
+$r7 1 54 
+Fields: 0
+Accesses: 0
+Functions: 12
+0 1 0 
+-1 0 
+80 4 -3 52 54 23 
+33 1 33 
+19 2 -3 23 
+69 2 66 54 
+6 1 -2 
+41 1 41 
+58 1 -2 
+44 2 39 44 
+29 1 -2 
+63 1 63 
+Constructors: 1
+69 54
+
+Summary: 8
+41 23 39 0 44 66 1 52 
+org/eclipse/jdt/internal/core/JavaModelManager.saveBuiltState(Lorg/eclipse/jdt/internal/core/JavaModelManager$PerProjectInfo;)V
+PTG:
+Vars:
+18
+$r12 1 255 
+$r14 1 6 
+r0 1 -1 
+$r13 1 13 
+r1 1 -2 
+$r17 1 21 
+$r2 1 13 
+r3 1 35 
+$r6 1 53 
+$r10 1 248 
+$r7 1 86 
+$r16 1 16 
+$r5 1 49 
+$r11 1 252 
+$r15 1 9 
+$r9 1 245 
+$r4 1 45 
+$r8 1 86 
+Fields: 2
+-2 project 13
+-2 savedState 86
+Accesses: 6
+164 1 -2 
+212 1 -2 
+85 1 -2 
+107 1 -2 
+12 1 -2 
+28 1 -2 
+Functions: 29
+64 2 49 45 
+-1 0 
+258 2 245 255 
+131 1 45 
+74 1 45 
+140 1 35 
+13 1 13 
+16 2 16 9 
+82 1 45 
+213 0 
+24 2 21 6 
+216 0 
+27 2 -1 13 
+95 1 45 
+226 0 
+165 0 
+229 0 
+104 1 45 
+168 0 
+41 0 
+113 2 86 45 
+178 0 
+181 0 
+58 2 35 53 
+123 1 45 
+251 0 
+188 1 35 
+252 2 248 252 
+61 2 49 53 
+Constructors: 3
+64 45
+58 53
+61 49
+
+Summary: 19
+221 173 216 86 252 45 53 255 13 -2 49 0 21 35 16 200 152 -1 168 
+org/eclipse/jdt/internal/core/JavaModelManager.secondaryTypesSearching(Lorg/eclipse/jdt/core/IJavaProject;ZLorg/eclipse/core/runtime/IProgressMonitor;Lorg/eclipse/jdt/internal/core/JavaModelManager$PerProjectInfo;)Ljava/util/Map;
+PTG:
+Vars:
+58
+$r47 1 497 
+r8 1 -1 
+$r12 1 143 
+$r64 1 356 
+r30 1 -5 
+r58 1 212 
+$r36 1 413 
+$r13 1 179 
+r56 2 107 167 
+r57 1 205 
+r27 1 311 
+$r45 1 489 
+$r53 1 67 
+$r0 1 12 
+$r24 1 284 
+$r19 1 251 
+$r34 1 404 
+$r50 1 167 
+r60 1 239 
+$r33 1 394 
+r10 1 95 
+$r37 1 416 
+$r51 1 107 
+$r42 1 467 
+$r48 1 356 
+_ret 1 356 
+$r31 1 356 
+$r46 1 494 
+$r49 1 369 
+$r39 1 430 
+r61 1 438 
+$r25 1 289 
+$r32 1 397 
+$r41 1 457 
+$r55 1 77 
+$r38 1 422 
+$r35 1 407 
+$r21 1 263 
+$r17 1 224 
+r22 1 263 
+$r2 1 27 
+$r18 1 239 
+$r40 1 445 
+$r7 1 61 
+$r16 1 212 
+r20 1 251 
+r28 1 322 
+r1 1 -2 
+r26 1 303 
+r59 1 232 
+$r44 1 484 
+r63 1 457 
+$r23 1 281 
+$r11 1 122 
+$r43 1 479 
+r14 1 -4 
+$r15 1 197 
+r62 1 445 
+Fields: 3
+-5 secondaryTypes 356
+95 ArrayObject 122
+95 ArrayObject 143
+Accesses: 4
+513 1 -5 
+354 1 -5 
+362 1 -5 
+379 1 -5 
+Functions: 52
+-1 0 
+261 1 239 
+397 2 404 397 
+273 1 263 
+401 1 397 
+19 1 12 
+407 1 407 
+281 1 281 
+26 1 -2 
+284 2 289 284 
+413 1 413 
+32 2 27 12 
+419 2 416 394 
+295 2 289 263 
+40 1 12 
+425 1 422 
+428 1 67 
+430 1 430 
+47 1 12 
+176 2 167 107 
+307 1 303 
+55 1 12 
+183 1 179 
+313 2 311 251 
+59 1 12 
+443 1 438 
+64 1 61 
+192 5 179 -4 167 107 77 
+195 1 67 
+197 1 197 
+455 1 445 
+72 1 67 
+330 3 322 212 251 
+334 1 232 
+210 1 205 
+467 2 467 457 
+84 3 -1 67 77 
+344 1 205 
+89 1 -2 
+474 1 467 
+222 1 212 
+479 1 479 
+224 1 224 
+484 2 484 489 
+487 1 445 
+364 1 356 
+237 1 232 
+494 1 494 
+500 1 497 
+503 1 438 
+249 1 239 
+122 1 122 
+Constructors: 7
+401 397
+19 12
+84 77
+183 179
+295 289
+72 67
+474 467
+
+Summary: 33
+445 413 404 3 -5 457 27 224 497 197 494 416 239 179 489 -4 61 2 311 -1 95 303 263 430 251 322 369 -2 212 0 281 284 77 
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_missbehaving_container_null_entries(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+12
+$r2 1 11 
+r1 1 -2 
+$r8 1 36 
+r11 1 -1 
+r6 1 -3 
+$r0 1 0 
+$r9 1 42 
+$r10 1 45 
+$r5 1 27 
+$r7 1 31 
+$r3 1 16 
+$r4 1 21 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 2 0 11 
+16 1 16 
+48 1 45 
+36 1 36 
+21 1 21 
+7 1 0 
+10 1 -2 
+42 1 42 
+27 2 -3 27 
+31 1 31 
+Constructors: 1
+7 0
+
+Summary: 8
+-3 -2 0 1 11 45 42 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getWorkspaceScope()Lorg/eclipse/jdt/internal/core/search/JavaWorkspaceScope;
+PTG:
+Vars:
+5
+$r2 1 1 
+$r1 1 1 
+$r3 1 8 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 workspaceScope 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 1
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.<clinit>()V
+PTG:
+Vars:
+6
+$r0 1 0 
+$r1 1 12 
+$r3 1 43 
+$r4 1 50 
+$r5 1 56 
+$r2 1 24 
+Fields: 0
+Accesses: 0
+Functions: 4
+18 1 12 
+6 1 0 
+28 1 24 
+60 1 56 
+Constructors: 4
+18 12
+6 0
+28 24
+60 56
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_triggering_container_initialization_invocation_trace()V
+PTG:
+Vars:
+3
+$r0 1 6 
+$r1 1 16 
+r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+3 0 
+19 2 16 6 
+13 1 6 
+Constructors: 1
+13 6
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.variableGetDefaultToPreviousSession(Ljava/lang/String;)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 5 
+r1 1 -2 
+r4 1 5 
+_ret 1 5 
+$r2 1 1 
+Fields: 1
+-1 variables 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+16 3 -1 1 -2 
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.initializeContainer(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IClasspathContainer;
+PTG:
+Vars:
+22
+$r11 1 145 
+$r8 1 192 
+r28 1 85 
+r2 1 -3 
+r27 3 508 182 208 
+$r5 1 495 
+r4 1 39 
+$r17 1 112 
+r0 1 -1 
+$r13 1 89 
+$r7 1 124 
+r1 1 4 
+$r16 1 107 
+$r10 1 138 
+$r3 1 31 
+$r12 1 148 
+r6 1 -2 
+$r18 1 115 
+$r9 1 195 
+_ret 3 508 182 208 
+$r14 1 97 
+$r15 1 103 
+Fields: 1
+-1 batchContainerInitializationsProgress 4
+Accesses: 1
+0 1 -1 
+Functions: 40
+67 2 -1 4 
+9 1 4 
+201 3 -2 -3 39 
+395 1 85 
+141 3 -2 -3 39 
+525 4 -1 -2 -3 4 
+81 2 -1 4 
+145 2 145 138 
+337 0 
+276 8 -1 208 -2 -3 4 182 39 508 
+22 0 
+406 4 -1 -2 -3 4 
+151 2 4 148 
+89 2 -3 89 
+29 1 -3 
+93 1 89 
+31 1 31 
+160 3 -2 -3 39 
+97 1 97 
+357 0 
+103 2 103 107 
+232 5 -1 -2 -3 4 39 
+489 7 -1 208 -2 -3 4 182 508 
+106 1 -2 
+298 5 -1 -2 -3 4 39 
+171 1 4 
+428 8 -1 208 -2 -3 4 182 39 508 
+495 3 -2 -3 495 
+112 1 112 
+176 4 -1 -2 -3 4 
+306 7 -1 208 -2 -3 4 182 508 
+243 1 85 
+500 3 -1 4 495 
+118 2 115 85 
+57 5 -1 -2 -3 4 39 
+442 1 85 
+379 0 
+189 4 -1 -2 -3 4 
+254 4 -1 -2 -3 4 
+127 5 -1 -2 -3 4 124 
+Constructors: 2
+500 495
+93 89
+
+Summary: 14
+495 -3 39 1 107 31 148 85 112 -2 145 192 115 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.putInfos(Lorg/eclipse/jdt/core/IJavaElement;Ljava/util/Map;)V
+PTG:
+Vars:
+21
+r18 1 39 
+$r16 1 150 
+$r12 1 124 
+r8 1 51 
+$r2 1 1 
+$r10 2 86 1 
+r17 1 32 
+$r6 1 39 
+$r7 1 51 
+$r13 2 135 1 
+r0 1 -1 
+r3 1 8 
+r4 1 -3 
+r20 1 124 
+$r5 1 22 
+$r11 1 107 
+r19 1 117 
+r1 1 -2 
+r9 1 76 
+$r14 1 140 
+$r15 1 140 
+Fields: 1
+-1 cache 1
+Accesses: 3
+0 1 -1 
+85 1 -1 
+134 1 -1 
+Functions: 17
+96 1 32 
+1 2 1 -2 
+37 1 32 
+69 1 39 
+106 1 -3 
+138 1 124 
+107 1 107 
+80 1 32 
+49 1 39 
+18 3 -1 1 8 
+148 1 124 
+21 1 -3 
+22 1 22 
+122 1 117 
+155 4 1 150 135 140 
+93 4 1 51 86 76 
+158 1 117 
+Constructors: 0
+
+Summary: 14
+-3 -2 124 51 39 0 8 140 1 76 107 22 -1 150 
+org/eclipse/jdt/internal/core/JavaModelManager.getOption(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+4
+$r4 1 29 
+r2 1 -1 
+$r1 1 0 
+r0 1 -2 
+Fields: 1
+-1 optionNames 29
+Accesses: 2
+28 1 -1 
+46 1 -1 
+Functions: 7
+0 2 0 -2 
+-1 0 
+66 0 
+39 0 
+43 1 -2 
+29 2 -2 29 
+14 3 -1 -2 29 
+Constructors: 0
+
+Summary: 4
+-2 42 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getDefaultOptionsNoInitialization()Ljava/util/Hashtable;
+PTG:
+Vars:
+6
+$r0 1 0 
+$r38 1 475 
+$r19 1 233 
+_ret 1 475 
+r39 1 -1 
+r1 1 10 
+Fields: 0
+Accesses: 0
+Functions: 40
+0 1 0 
+-1 0 
+4 1 0 
+261 1 10 
+70 1 10 
+326 1 10 
+135 1 10 
+391 1 10 
+200 1 10 
+456 1 10 
+18 1 10 
+274 1 10 
+83 1 10 
+339 1 10 
+148 1 10 
+404 1 10 
+213 1 10 
+469 1 10 
+31 1 10 
+287 1 10 
+96 1 10 
+352 1 10 
+480 2 10 475 
+161 1 10 
+417 1 10 
+226 1 10 
+44 1 10 
+236 2 233 10 
+300 1 10 
+109 1 10 
+365 1 10 
+174 1 10 
+430 1 10 
+248 1 10 
+57 1 10 
+313 1 10 
+122 1 10 
+378 1 10 
+187 1 10 
+443 1 10 
+Constructors: 2
+480 475
+4 0
+
+Summary: 3
+233 -1 0 
+org/eclipse/jdt/internal/core/JavaModelManager.saveVariablesAndContainers(Lorg/eclipse/core/resources/ISaveContext;)V
+PTG:
+Vars:
+9
+r1 1 4 
+r16 1 7 
+$r7 1 -1 
+$r5 1 35 
+$r4 1 15 
+r0 1 -1 
+r6 1 -2 
+$r2 1 7 
+$r3 1 11 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 1 -1 
+32 1 7 
+67 0 
+20 2 4 15 
+23 2 11 15 
+104 1 7 
+41 3 -1 35 7 
+89 1 7 
+26 2 7 11 
+45 2 -2 35 
+78 0 
+Constructors: 4
+20 15
+23 11
+41 35
+26 7
+
+Summary: 9
+11 35 53 -2 4 15 0 7 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getTemporaryCache()Ljava/util/HashMap;
+PTG:
+Vars:
+7
+r5 2 4 15 
+$r2 1 4 
+$r4 1 1 
+$r3 1 15 
+_ret 2 4 15 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 temporaryCache 1
+Accesses: 2
+0 1 -1 
+23 1 -1 
+Functions: 3
+1 1 1 
+19 1 15 
+28 2 1 15 
+Constructors: 1
+19 15
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.containerGet(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IClasspathContainer;
+PTG:
+Vars:
+9
+$r6 1 33 
+r5 1 18 
+r7 1 33 
+r0 1 -1 
+$r4 1 18 
+$r3 1 14 
+_ret 1 33 
+r2 1 -3 
+r1 1 -2 
+Fields: 1
+-1 containers 14
+Accesses: 1
+13 1 -1 
+Functions: 3
+0 4 -1 -2 -3 14 
+14 2 -2 14 
+31 2 18 -3 
+Constructors: 0
+
+Summary: 6
+-3 -2 0 -1 18 1 
+org/eclipse/jdt/internal/core/JavaModelManager.configurePluginDebugOptions()V
+PTG:
+Vars:
+24
+r2 1 14 
+r5 1 71 
+r10 1 166 
+r4 1 52 
+r7 1 109 
+r15 1 261 
+r13 1 223 
+r11 1 185 
+r20 1 356 
+r16 1 280 
+r6 1 90 
+r14 1 242 
+r21 1 375 
+r23 1 413 
+r17 1 299 
+$r0 1 0 
+r9 1 147 
+r3 1 33 
+r1 1 -1 
+r19 1 337 
+r12 1 204 
+r18 1 318 
+r22 1 394 
+r8 1 128 
+Fields: 0
+Accesses: 0
+Functions: 52
+-1 0 
+0 1 0 
+256 0 
+133 1 128 
+389 0 
+9 0 
+266 1 261 
+142 0 
+399 1 394 
+19 1 14 
+275 0 
+152 1 147 
+408 0 
+28 0 
+285 1 280 
+161 0 
+418 1 413 
+38 1 33 
+294 0 
+171 1 166 
+47 0 
+304 1 299 
+433 0 
+180 0 
+57 1 52 
+313 0 
+441 0 
+190 1 185 
+449 0 
+66 0 
+323 1 318 
+199 0 
+457 0 
+76 1 71 
+332 0 
+209 1 204 
+465 0 
+85 0 
+342 1 337 
+473 0 
+218 0 
+95 1 90 
+351 0 
+228 1 223 
+104 0 
+361 1 356 
+237 0 
+114 1 109 
+370 0 
+247 1 242 
+123 0 
+380 1 375 
+Constructors: 0
+
+Summary: 24
+166 223 90 109 33 147 337 185 299 413 375 128 261 71 14 52 242 204 -1 394 280 318 0 356 
+org/eclipse/jdt/internal/core/JavaModelManager.getIndexManager()Lorg/eclipse/jdt/internal/core/search/indexing/IndexManager;
+PTG:
+Vars:
+3
+$r0 1 0 
+_ret 1 3 
+$r1 1 3 
+Fields: 1
+0 indexManager 3
+Accesses: 1
+0 1 0 
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_triggering_container_initialization(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/ClasspathContainerInitializer;)V
+PTG:
+Vars:
+14
+r1 1 -2 
+r10 1 -4 
+$r0 1 0 
+$r4 1 21 
+$r8 1 36 
+$r11 1 46 
+$r7 1 31 
+$r5 1 27 
+$r2 1 11 
+$r12 1 49 
+r6 1 -3 
+$r3 1 16 
+$r9 1 42 
+r13 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 11
+0 2 0 11 
+16 1 16 
+36 1 36 
+52 1 49 
+21 1 21 
+7 1 0 
+10 1 -2 
+42 2 -4 42 
+27 2 -3 27 
+46 1 46 
+31 1 31 
+Constructors: 1
+7 0
+
+Summary: 10
+46 -3 -2 49 0 -4 1 11 2 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.isDeprecatedOption(Ljava/lang/String;)Z
+PTG:
+Vars:
+4
+r3 1 -1 
+$r2 1 10 
+$r1 1 0 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 0 -2 
+10 2 -2 10 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.putJarTypeInfo(Lorg/eclipse/jdt/core/IJavaElement;Ljava/lang/Object;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 4 
+r3 1 -3 
+r2 1 -2 
+$r1 1 1 
+Fields: 2
+-1 cache 1
+1 jarTypeCache 4
+Accesses: 2
+0 1 -1 
+1 1 1 
+Functions: 1
+9 3 -2 -3 4 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_container_initialization_failed(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/IClasspathContainer;Lorg/eclipse/jdt/core/ClasspathContainerInitializer;)V
+PTG:
+Vars:
+26
+$r16 1 18 
+$r10 1 102 
+$r13 1 113 
+$r7 1 93 
+$r6 1 87 
+r8 1 -3 
+$r4 1 77 
+r3 1 -2 
+r25 1 -1 
+$r21 1 43 
+$r20 1 38 
+$r22 1 49 
+r12 1 -5 
+$r14 1 116 
+$r5 1 82 
+$r17 1 23 
+r0 1 -4 
+$r24 1 57 
+$r19 1 34 
+$r11 1 108 
+$r18 1 28 
+$r1 1 1 
+$r23 1 54 
+$r15 1 7 
+$r2 1 66 
+$r9 1 97 
+Fields: 0
+Accesses: 0
+Functions: 22
+97 1 97 
+34 2 34 -3 
+66 2 66 77 
+38 1 38 
+102 1 102 
+7 2 18 7 
+73 1 66 
+43 1 43 
+76 1 -2 
+108 2 -5 108 
+14 1 7 
+17 1 -2 
+49 2 49 -5 
+113 1 113 
+82 1 82 
+54 1 54 
+23 1 23 
+87 1 87 
+119 1 116 
+28 1 28 
+60 1 57 
+93 2 -3 93 
+Constructors: 2
+73 66
+14 7
+
+Summary: 15
+-3 54 116 1 3 -5 18 -2 0 77 -4 57 113 2 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.getOptions()Ljava/util/Hashtable;
+PTG:
+Vars:
+13
+r5 1 47 
+r0 1 -1 
+$r1 1 1 
+r11 1 85 
+$r6 1 49 
+r9 1 62 
+$r15 1 128 
+$r3 1 34 
+$r8 1 62 
+$r10 1 77 
+_ret 1 34 
+$r13 1 115 
+r7 1 55 
+Fields: 3
+-1 preferencesLookup 77
+-1 optionNames 49
+-1 optionsCache 1
+Accesses: 5
+0 1 -1 
+48 1 -1 
+136 1 -1 
+76 1 -1 
+30 1 -1 
+Functions: 13
+-1 0 
+97 3 34 85 62 
+101 1 55 
+133 2 128 34 
+40 1 34 
+72 3 77 62 47 
+44 0 
+14 1 1 
+49 1 49 
+118 2 34 115 
+25 4 -1 49 1 77 
+60 1 55 
+124 5 -1 49 1 34 77 
+Constructors: 2
+133 128
+40 34
+
+Summary: 5
+62 115 -1 85 47 
+org/eclipse/jdt/internal/core/JavaModelManager.getClasspathContainer(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/IJavaProject;)Lorg/eclipse/jdt/core/IClasspathContainer;
+PTG:
+Vars:
+8
+$r5 1 64 
+r2 1 -2 
+r8 3 24 50 6 
+r1 1 -3 
+r0 1 -1 
+$r4 1 58 
+_ret 3 24 50 6 
+$r6 1 72 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 3 -1 -2 -3 
+18 3 -1 -2 -3 
+38 1 -1 
+54 3 -1 -2 -3 
+87 1 58 
+11 1 -1 
+44 3 -1 -2 -3 
+31 1 -1 
+79 4 64 -2 72 58 
+Constructors: 1
+79 58
+
+Summary: 7
+-2 72 0 1 64 -1 58 
+org/eclipse/jdt/internal/core/JavaModelManager.getInfo(Lorg/eclipse/jdt/core/IJavaElement;)Ljava/lang/Object;
+PTG:
+Vars:
+9
+r0 1 -1 
+$r1 1 1 
+$r6 1 32 
+r3 1 4 
+$r5 1 28 
+$r2 1 4 
+r4 1 -2 
+r7 1 20 
+_ret 1 32 
+Fields: 2
+-1 temporaryCache 1
+-1 cache 28
+Accesses: 2
+0 1 -1 
+27 1 -1 
+Functions: 3
+1 1 1 
+28 2 -2 28 
+15 2 -2 4 
+Constructors: 0
+
+Summary: 4
+-2 4 0 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.batchContainerInitializations()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+0 1 -1 
+30 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/JavaModelManager.saveNonChainingJarsCache()V
+PTG:
+Vars:
+12
+r16 1 34 
+r6 1 54 
+$r2 1 7 
+r15 1 7 
+r17 1 47 
+r1 1 4 
+$r5 1 54 
+$r3 1 11 
+r0 1 -1 
+$r4 1 15 
+$r7 1 67 
+$r8 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 16
+0 1 -1 
+65 1 54 
+36 1 34 
+102 0 
+40 1 7 
+72 2 67 7 
+43 1 34 
+75 1 47 
+139 1 7 
+113 0 
+20 2 4 15 
+52 1 47 
+23 2 11 15 
+26 2 7 11 
+124 1 7 
+30 1 -1 
+Constructors: 3
+20 15
+23 11
+26 7
+
+Summary: 9
+11 67 54 34 4 15 7 -1 89 
+org/eclipse/jdt/internal/core/JavaModelManager.contentTypeChanged(Lorg/eclipse/core/runtime/content/IContentTypeManager$ContentTypeChangeEvent;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.traceVariableAndContainers(Ljava/lang/String;J)V
+PTG:
+Vars:
+8
+$r7 1 38 
+r9 1 58 
+$r0 1 0 
+$r10 1 60 
+r3 1 -1 
+$r2 1 14 
+r8 1 -2 
+$r4 1 19 
+Fields: 0
+Accesses: 0
+Functions: 7
+-1 0 
+65 2 58 60 
+18 1 -1 
+19 1 19 
+38 1 38 
+9 1 0 
+25 1 14 
+Constructors: 2
+9 0
+25 14
+
+Summary: 3
+58 38 -1 
+org/eclipse/jdt/internal/core/JavaModelManager.variablePutIfInitializingWithSameValue([Ljava/lang/String;[Lorg/eclipse/core/runtime/IPath;)Z
+PTG:
+Vars:
+6
+r0 1 -2 
+r3 1 17 
+r5 1 29 
+r2 1 -1 
+r1 1 11 
+r4 1 -3 
+Fields: 2
+-3 ArrayObject 29
+-2 ArrayObject 11
+Accesses: 0
+Functions: 3
+49 3 -1 11 29 
+12 2 -1 11 
+31 2 17 29 
+Constructors: 0
+
+Summary: 8
+11 -3 -2 0 17 -1 29 1 
+org/eclipse/jdt/internal/core/JavaModelManager.containerBeingInitializedPut(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/jdt/core/IClasspathContainer;)V
+PTG:
+Vars:
+12
+$r2 1 4 
+r5 1 -3 
+$r4 1 37 
+r13 2 37 55 
+r3 1 -2 
+$r10 1 21 
+r0 1 -1 
+r6 1 -4 
+$r1 1 1 
+r12 2 4 21 
+$r11 1 1 
+$r8 1 55 
+Fields: 1
+-1 containersBeingInitialized 1
+Accesses: 2
+0 1 -1 
+17 1 -1 
+Functions: 7
+1 1 1 
+65 4 -2 4 21 55 
+34 3 -2 4 21 
+25 1 21 
+59 1 55 
+75 4 -3 -4 37 55 
+31 2 1 21 
+Constructors: 2
+25 21
+59 55
+
+Summary: 8
+37 -3 -2 4 -1 -4 55 21 
+org/eclipse/jdt/internal/core/JavaModelManager.verbose_batching_containers_initialization(Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+10
+r1 1 -2 
+$r0 1 0 
+$r3 1 31 
+r5 1 -3 
+$r2 1 26 
+$r7 1 44 
+r8 1 -1 
+$r4 1 37 
+$r9 2 14 21 
+$r6 1 41 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 3 0 21 14 
+20 1 -2 
+37 2 -3 37 
+7 1 0 
+41 1 41 
+26 1 26 
+31 1 31 
+47 1 44 
+Constructors: 1
+7 0
+
+Summary: 8
+41 -3 -2 0 44 21 1 -1 

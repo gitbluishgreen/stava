@@ -1,0 +1,514 @@
+19
+org/eclipse/core/internal/dtree/DataTreeNode.copyWithNewChild(Ljava/lang/String;Lorg/eclipse/core/internal/dtree/DataTreeNode;)Lorg/eclipse/core/internal/dtree/DataTreeNode;
+PTG:
+Vars:
+11
+r6 1 -3 
+$r4 1 31 
+r2 1 -2 
+r10 1 86 
+$r9 1 138 
+$r7 1 129 
+r1 1 4 
+r0 1 -1 
+$r8 1 134 
+_ret 1 129 
+$r3 1 30 
+Fields: 3
+4 ArrayObject 30
+30 name 31
+-1 children 4
+Accesses: 2
+0 1 -1 
+30 1 30 
+Functions: 8
+98 4 4 86 30 31 
+133 4 -1 4 30 31 
+71 0 
+103 2 -2 -3 
+137 4 -1 4 30 31 
+26 2 -2 31 
+126 4 4 86 30 31 
+143 4 129 134 86 138 
+Constructors: 1
+143 129
+
+Summary: 5
+-2 86 134 138 -1 
+org/eclipse/core/internal/dtree/DataTreeNode.setData(Ljava/lang/Object;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/dtree/DataTreeNode.asReverseComparisonNode(Lorg/eclipse/core/internal/dtree/IComparator;)Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;
+PTG:
+Vars:
+16
+$r3 1 3 
+r2 1 -2 
+$r13 1 69 
+$r7 2 53 69 
+r12 1 13 
+$r10 1 -1 
+$r8 1 69 
+$r1 1 3 
+r6 1 45 
+r0 1 -1 
+r14 1 104 
+$r4 2 69 35 
+$r5 1 40 
+$r9 1 69 
+_ret 1 -1 
+$r11 1 19 
+Fields: 4
+69 ArrayObject 40
+35 ArrayObject 40
+-1 children 69
+-1 data 3
+Accesses: 8
+2 1 -1 
+34 1 -1 
+52 1 -1 
+68 1 -1 
+91 1 -1 
+124 1 -1 
+109 1 -1 
+95 1 -1 
+Functions: 5
+80 1 13 
+6 2 -2 3 
+22 1 19 
+118 3 69 40 104 
+40 2 -2 40 
+Constructors: 0
+
+Summary: 3
+-2 0 45 
+org/eclipse/core/internal/dtree/DataTreeNode.asBackwardDelta(Lorg/eclipse/core/internal/dtree/DeltaDataTree;Lorg/eclipse/core/internal/dtree/DeltaDataTree;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;
+PTG:
+Vars:
+7
+r3 1 -1 
+r0 1 -3 
+r6 1 -2 
+r1 1 -4 
+$r4 1 19 
+_ret 1 14 
+$r2 1 14 
+Fields: 1
+-1 name 19
+Accesses: 1
+18 1 -1 
+Functions: 3
+0 2 -3 -4 
+22 2 19 14 
+8 2 -3 -4 
+Constructors: 1
+22 14
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/core/internal/dtree/DataTreeNode.compareWith(Lorg/eclipse/core/internal/dtree/DataTreeNode;Lorg/eclipse/core/internal/dtree/IComparator;)Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;
+PTG:
+Vars:
+13
+$r3 1 5 
+r6 1 17 
+$r10 1 55 
+$r9 1 47 
+$r11 1 29 
+r2 1 -3 
+r5 1 12 
+r0 1 -1 
+r1 1 -2 
+$r8 1 29 
+r7 1 23 
+$r4 1 1 
+_ret 1 47 
+Fields: 5
+-2 children 5
+-2 data 23
+-1 children 1
+-1 name 29
+-1 data 17
+Accesses: 6
+0 1 -1 
+19 1 -2 
+51 1 -1 
+4 1 -2 
+28 1 -1 
+13 1 -1 
+Functions: 4
+66 3 17 55 23 
+35 3 17 -3 23 
+70 4 55 12 29 47 
+8 3 1 -3 5 
+Constructors: 2
+66 55
+70 47
+
+Summary: 9
+-3 -2 12 23 5 0 1 -1 55 
+org/eclipse/core/internal/dtree/DataTreeNode.copyWithoutChild(Ljava/lang/String;)Lorg/eclipse/core/internal/dtree/DataTreeNode;
+PTG:
+Vars:
+9
+r0 1 -1 
+r2 1 31 
+r1 1 -2 
+$r4 1 41 
+_ret 2 12 36 
+$r5 1 45 
+$r6 1 12 
+r7 2 12 36 
+$r3 1 36 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 2 -1 -2 
+50 4 36 41 45 31 
+23 1 -1 
+40 1 -1 
+11 1 -1 
+44 1 -1 
+76 2 -1 36 
+63 2 -1 36 
+Constructors: 1
+50 36
+
+Summary: 5
+41 45 -2 -1 31 
+org/eclipse/core/internal/dtree/DataTreeNode.getData()Ljava/lang/Object;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 data 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/dtree/DataTreeNode.type()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/dtree/DataTreeNode.<init>(Ljava/lang/String;Ljava/lang/Object;)V
+PTG:
+Vars:
+4
+r3 1 -3 
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+Fields: 0
+Accesses: 1
+10 1 -1 
+Functions: 1
+5 3 -1 -2 2 
+Constructors: 1
+5 -1
+
+Summary: 4
+-2 0 -1 1 
+org/eclipse/core/internal/dtree/DataTreeNode.toString()Ljava/lang/String;
+PTG:
+Vars:
+10
+$r2 1 10 
+$r5 1 22 
+$r0 1 0 
+$r8 1 34 
+$r3 1 13 
+r1 1 -1 
+_ret 1 34 
+$r4 1 18 
+$r6 1 26 
+$r7 1 31 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 2 0 10 
+18 1 18 
+21 1 -1 
+6 1 0 
+9 1 -1 
+26 1 26 
+13 1 13 
+31 1 31 
+Constructors: 1
+6 0
+
+Summary: 3
+22 -1 10 
+org/eclipse/core/internal/dtree/DataTreeNode.hasData()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/dtree/DataTreeNode.simplifyWithParent(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/internal/dtree/DeltaDataTree;Lorg/eclipse/core/internal/dtree/IComparator;)Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;
+PTG:
+Vars:
+8
+$r2 1 12 
+r0 1 -3 
+r5 1 -4 
+r1 1 -2 
+$r6 1 24 
+_ret 1 24 
+r4 1 -1 
+r3 1 12 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 2 -2 -3 
+20 3 -1 -4 12 
+10 2 -2 -3 
+Constructors: 0
+
+Summary: 7
+-3 -2 12 2 0 -4 1 
+org/eclipse/core/internal/dtree/DataTreeNode.copy()Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r5 1 54 
+$r2 1 49 
+$r4 1 58 
+$r3 1 1 
+$r1 1 1 
+_ret 1 49 
+Fields: 3
+-1 children 1
+-1 name 54
+-1 data 58
+Accesses: 9
+0 1 -1 
+17 1 -1 
+36 1 -1 
+53 1 -1 
+8 1 -1 
+24 1 -1 
+40 1 -1 
+57 1 -1 
+61 1 -1 
+Functions: 3
+65 4 49 1 54 58 
+29 0 
+45 0 
+Constructors: 1
+65 49
+
+Summary: 1
+-1 
+org/eclipse/core/internal/dtree/DataTreeNode.compareWithParent(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/internal/dtree/DeltaDataTree;Lorg/eclipse/core/internal/dtree/IComparator;)Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;
+PTG:
+Vars:
+8
+r3 1 16 
+$r6 1 28 
+r1 1 -2 
+r0 1 -3 
+r5 1 -4 
+$r2 1 16 
+_ret 1 28 
+r4 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 2 -2 -3 
+24 3 16 -1 -4 
+9 1 -1 
+14 2 -2 -3 
+Constructors: 0
+
+Summary: 8
+-3 16 -2 2 0 -1 -4 1 
+org/eclipse/core/internal/dtree/DataTreeNode.storeStrings(Lorg/eclipse/core/internal/utils/StringPool;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r3 1 9 
+r0 1 -1 
+r2 1 9 
+Fields: 1
+-1 data 9
+Accesses: 1
+5 1 -1 
+Functions: 2
+2 3 -1 -2 9 
+22 2 -2 9 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/dtree/DataTreeNode.forwardDeltaWith([Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;[Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;Lorg/eclipse/core/internal/dtree/IComparator;)[Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;
+PTG:
+Vars:
+30
+$r15 1 185 
+$r25 1 202 
+$r5 10 106 308 124 326 233 386 167 185 404 251 
+$r1 1 326 
+$r28 1 353 
+$r6 1 456 
+$r4 1 404 
+r24 11 106 308 124 326 456 233 386 167 185 404 251 
+$r7 10 106 308 124 326 233 386 167 185 404 251 
+$r29 1 354 
+$r22 6 106 124 233 167 185 251 
+$r30 1 427 
+r10 1 41 
+$r19 1 72 
+$r27 1 343 
+$r13 1 251 
+r3 1 -3 
+$r26 1 274 
+r0 1 -2 
+$r2 8 106 308 124 326 233 167 185 251 
+r17 1 -4 
+$r11 1 46 
+r12 1 50 
+_ret 11 106 308 124 326 456 233 386 167 185 404 251 
+$r18 1 79 
+r20 1 84 
+$r16 6 106 124 233 167 185 251 
+$r14 6 106 124 233 167 185 251 
+$r9 1 37 
+$r21 1 124 
+Fields: 10
+37 name 41
+46 name 50
+-3 ArrayObject 46
+-3 ArrayObject 274
+-3 ArrayObject 79
+-3 ArrayObject 427
+-2 ArrayObject 353
+-2 ArrayObject 37
+-2 ArrayObject 72
+353 name 354
+Accesses: 3
+353 1 353 
+37 1 37 
+46 1 46 
+Functions: 10
+80 3 -4 72 79 
+208 2 41 202 
+464 11 386 308 404 326 167 456 233 185 106 251 124 
+193 6 167 233 185 106 251 124 
+259 6 167 233 185 106 251 124 
+52 2 50 41 
+132 6 167 233 185 106 251 124 
+357 2 354 343 
+412 10 386 308 404 326 167 233 185 106 251 124 
+334 8 308 326 167 233 185 106 251 124 
+Constructors: 2
+208 202
+357 343
+
+Summary: 6
+-3 1 -2 0 -4 2 
+org/eclipse/core/internal/dtree/DataTreeNode.forwardDeltaWith(Lorg/eclipse/core/internal/dtree/DataTreeNode;Lorg/eclipse/core/internal/dtree/IComparator;)Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;
+PTG:
+Vars:
+5
+r2 1 -3 
+r1 1 -2 
+_ret 1 6 
+r0 1 -1 
+r3 1 6 
+Fields: 0
+Accesses: 1
+15 1 -1 
+Functions: 2
+2 3 -1 -2 -3 
+22 0 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/core/internal/dtree/DataTreeNode.forwardDeltaWithOrNullIfEqual(Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;Lorg/eclipse/core/internal/dtree/IComparator;)Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;
+PTG:
+Vars:
+11
+r6 1 17 
+r1 1 -3 
+$r8 1 54 
+$r9 1 59 
+r0 1 -2 
+r5 1 12 
+$r3 1 5 
+$r4 1 1 
+r2 1 -4 
+_ret 1 54 
+$r7 1 21 
+Fields: 3
+-3 children 5
+-3 name 59
+-2 children 1
+Accesses: 4
+0 1 -2 
+4 1 -3 
+58 1 -3 
+45 1 -3 
+Functions: 6
+65 4 17 54 59 12 
+50 1 12 
+19 3 17 -4 21 
+20 2 -2 1 
+8 3 1 -4 5 
+13 3 -3 5 59 
+Constructors: 1
+65 54
+
+Summary: 13
+46 -3 59 -2 12 5 0 17 21 -4 1 1 2 
+org/eclipse/core/internal/dtree/DataTreeNode.<init>(Ljava/lang/String;Ljava/lang/Object;[Lorg/eclipse/core/internal/dtree/AbstractDataTreeNode;)V
+PTG:
+Vars:
+4
+r2 1 -4 
+r1 1 -2 
+r0 1 -1 
+r3 1 -3 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 1
+3 3 -1 -2 -4 
+Constructors: 1
+3 -1
+
+Summary: 6
+-2 2 0 -1 -4 1 

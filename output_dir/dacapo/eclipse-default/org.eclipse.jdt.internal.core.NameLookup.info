@@ -1,0 +1,1187 @@
+29
+org/eclipse/jdt/internal/core/NameLookup.findType(Ljava/lang/String;Lorg/eclipse/jdt/core/IPackageFragment;ZIZ)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+7
+r5 2 9 40 
+_ret 2 9 40 
+$r3 1 23 
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+$r4 1 30 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 3 -1 -2 -3 
+21 4 -1 -2 23 30 
+22 1 -3 
+29 1 -3 
+Constructors: 0
+
+Summary: 5
+-1 23 30 0 -2 
+org/eclipse/jdt/internal/core/NameLookup.findCompilationUnit(Ljava/lang/String;)Lorg/eclipse/jdt/core/ICompilationUnit;
+PTG:
+Vars:
+16
+$r4 1 81 
+r15 2 3 29 
+r17 1 98 
+r11 1 140 
+$r6 1 62 
+r0 1 -2 
+$r3 1 62 
+$r10 1 140 
+r16 3 60 38 -2 
+r5 1 87 
+$r8 1 98 
+r9 1 87 
+r1 1 -1 
+$r2 1 62 
+r12 1 154 
+$r7 1 93 
+Fields: 6
+-1 packageFragments 62
+93 ArrayObject 98
+87 ArrayObject 140
+81 ArrayObject 87
+62 valueTable 81
+62 keyTable 93
+Accesses: 5
+89 1 -1 
+90 1 62 
+61 1 -1 
+77 1 -1 
+78 1 62 
+Functions: 8
+146 10 -1 81 -2 98 38 87 140 60 93 62 
+53 3 -2 38 60 
+6 1 -2 
+39 3 -2 38 60 
+24 1 -2 
+30 1 -2 
+62 8 81 98 3 87 140 93 29 62 
+111 10 -1 81 -2 98 38 87 140 60 93 62 
+Constructors: 0
+
+Summary: 5
+38 -1 29 60 -2 
+org/eclipse/jdt/internal/core/NameLookup.getMemberType(Lorg/eclipse/jdt/core/IType;Ljava/lang/String;I)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+5
+_ret 2 46 -2 
+r0 1 -3 
+r3 1 -1 
+r1 1 36 
+r4 2 46 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+17 1 -3 
+38 3 -2 36 46 
+8 1 -3 
+25 1 -3 
+Constructors: 0
+
+Summary: 5
+-1 1 46 36 0 
+org/eclipse/jdt/internal/core/NameLookup.findType(Ljava/lang/String;ZIZZZLorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/internal/core/NameLookup$Answer;
+PTG:
+Vars:
+7
+r1 1 -1 
+_ret 1 65 
+$r3 1 65 
+r2 1 -8 
+r5 2 48 -2 
+r0 1 -2 
+r4 2 23 38 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+50 6 -1 48 -2 38 23 -8 
+40 1 -2 
+31 1 -2 
+Constructors: 0
+
+Summary: 5
+-1 -8 48 38 0 
+org/eclipse/jdt/internal/core/NameLookup.nameMatches(Ljava/lang/String;Lorg/eclipse/jdt/core/ICompilationUnit;Z)Z
+PTG:
+Vars:
+4
+r0 1 -3 
+r5 1 -1 
+$r1 1 19 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+18 1 -3 
+4 1 -3 
+5 0 
+24 2 -2 19 
+10 1 -2 
+Constructors: 0
+
+Summary: 6
+-1 5 19 10 -3 -2 
+org/eclipse/jdt/internal/core/NameLookup.seekTypesInType(Ljava/lang/String;ILorg/eclipse/jdt/core/IType;Lorg/eclipse/jdt/internal/core/IJavaElementRequestor;I)Z
+PTG:
+Vars:
+9
+$r5 1 86 
+r3 1 77 
+r11 2 49 -2 
+r6 1 -1 
+r1 1 -2 
+r10 1 12 
+r0 1 -4 
+r2 1 -5 
+$r4 1 81 
+Fields: 1
+12 ArrayObject 77
+Accesses: 0
+Functions: 12
+81 1 81 
+115 3 -1 -5 77 
+6 1 -4 
+86 3 49 -2 86 
+102 1 -2 
+118 0 
+135 2 -1 77 
+151 2 -5 77 
+106 1 -2 
+43 1 -2 
+60 1 -5 
+79 1 77 
+Constructors: 0
+
+Summary: 9
+-5 86 -1 2 49 113 12 0 3 
+org/eclipse/jdt/internal/core/NameLookup.seekTypes(Ljava/lang/String;Lorg/eclipse/jdt/core/IPackageFragment;ZILorg/eclipse/jdt/internal/core/IJavaElementRequestor;)V
+PTG:
+Vars:
+13
+$r8 2 5 -2 
+$r12 1 55 
+r1 1 -3 
+r10 3 5 96 -2 
+$r11 3 5 96 -2 
+r0 1 -2 
+r13 1 161 
+$r2 1 31 
+r9 2 5 -2 
+$r5 1 55 
+r6 1 -6 
+r4 1 -1 
+r3 1 31 
+Fields: 1
+-1 typesInWorkingCopies 55
+Accesses: 2
+101 1 -1 
+54 1 -1 
+Functions: 10
+67 2 -2 5 
+4 1 -2 
+152 2 -2 5 
+26 5 -1 -2 5 -6 55 
+91 2 -2 5 
+108 7 -1 96 -2 -3 5 -6 55 
+172 5 -1 161 -3 -6 55 
+30 1 -3 
+47 1 31 
+191 7 -1 96 -2 -3 5 -6 55 
+Constructors: 0
+
+Summary: 8
+1 -6 161 -3 4 -1 0 96 
+org/eclipse/jdt/internal/core/NameLookup.findType(Ljava/lang/String;ZI)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+5
+$r3 1 21 
+_ret 1 21 
+r2 1 8 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+8 type 21
+Accesses: 1
+19 1 8 
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 8 -2 
+org/eclipse/jdt/internal/core/NameLookup.seekTypesInSourcePackage(Ljava/lang/String;Lorg/eclipse/jdt/core/IPackageFragment;IZLjava/lang/String;ILorg/eclipse/jdt/internal/core/IJavaElementRequestor;)V
+PTG:
+Vars:
+23
+r1 1 -3 
+r16 1 77 
+r22 1 212 
+$r5 1 262 
+r6 1 -1 
+$r20 2 201 -2 
+r17 1 86 
+$r4 1 271 
+r24 1 295 
+r0 1 -2 
+r21 2 201 -2 
+$r12 1 -1 
+r15 1 27 
+r23 1 262 
+$r9 1 77 
+r2 1 -8 
+$r7 1 315 
+r18 1 136 
+$r13 1 -1 
+r19 1 146 
+$r3 1 266 
+$r14 1 -1 
+r8 1 -6 
+Fields: 3
+27 ArrayObject 77
+212 ArrayObject 262
+295 ArrayObject 315
+Accesses: 8
+241 1 -1 
+387 1 -1 
+68 1 -1 
+375 1 -1 
+56 1 -1 
+363 1 -1 
+253 1 -1 
+399 1 -1 
+Functions: 20
+-1 0 
+320 4 -1 -2 -8 315 
+225 1 -8 
+99 1 -6 
+164 2 146 -8 
+198 1 -2 
+40 1 -8 
+264 1 262 
+138 3 -1 -2 136 
+266 1 266 
+11 0 
+107 2 -6 86 
+206 1 -3 
+79 1 77 
+271 3 -2 201 271 
+148 2 -1 146 
+21 1 -3 
+88 1 86 
+126 2 -6 77 
+287 1 262 
+Constructors: 0
+
+Summary: 15
+27 212 -8 6 1 -6 201 86 146 4 -1 0 271 136 295 
+org/eclipse/jdt/internal/core/NameLookup.findType(Ljava/lang/String;ZIZ)Lorg/eclipse/jdt/internal/core/NameLookup$Answer;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+_ret 1 9 
+$r2 1 9 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/internal/core/NameLookup.isPackage([Ljava/lang/String;)Z
+PTG:
+Vars:
+4
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+$r3 1 5 
+Fields: 1
+-1 packageFragments 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 4
+-1 5 0 -2 
+org/eclipse/jdt/internal/core/NameLookup.seekTypesInBinaryPackage(Ljava/lang/String;Lorg/eclipse/jdt/core/IPackageFragment;ZILorg/eclipse/jdt/internal/core/IJavaElementRequestor;)V
+PTG:
+Vars:
+14
+r17 1 117 
+r3 1 228 
+r0 1 -3 
+$r9 1 52 
+r1 1 -2 
+r2 1 -6 
+r7 1 270 
+$r10 1 -3 
+r6 1 261 
+r4 1 237 
+r8 1 -1 
+r15 1 79 
+$r5 1 228 
+r18 2 177 -2 
+Fields: 1
+117 ArrayObject 228
+Accesses: 10
+48 1 -1 
+129 1 -1 
+370 1 -1 
+36 1 -1 
+358 1 -1 
+346 1 -1 
+219 1 -1 
+141 1 -1 
+382 1 -1 
+207 1 -1 
+Functions: 24
+-1 0 
+320 2 -6 261 
+97 2 -6 79 
+66 1 52 
+292 4 -1 177 -2 261 
+230 1 228 
+263 1 261 
+74 1 52 
+170 1 -2 
+11 0 
+171 1 -2 
+111 1 -3 
+239 2 -2 237 
+272 1 270 
+304 2 -1 261 
+81 2 -1 79 
+179 1 -2 
+20 1 -6 
+280 1 270 
+153 1 -2 
+283 0 
+61 3 -2 -3 52 
+191 1 -6 
+255 1 228 
+Constructors: 1
+61 52
+
+Summary: 12
+79 1 177 -6 261 237 4 -1 270 117 0 -2 
+org/eclipse/jdt/internal/core/NameLookup.nameMatches(Ljava/lang/String;Lorg/eclipse/jdt/core/IJavaElement;Z)Z
+PTG:
+Vars:
+4
+r0 1 -3 
+r2 1 -2 
+r5 1 -1 
+$r1 1 19 
+Fields: 0
+Accesses: 0
+Functions: 5
+18 1 -3 
+19 2 -2 19 
+4 1 -3 
+5 0 
+10 1 -2 
+Constructors: 0
+
+Summary: 6
+-1 19 1 10 0 -2 
+org/eclipse/jdt/internal/core/NameLookup.seekTypesInWorkingCopies(Ljava/lang/String;Lorg/eclipse/jdt/core/IPackageFragment;IZLjava/lang/String;ILorg/eclipse/jdt/internal/core/IJavaElementRequestor;)Z
+PTG:
+Vars:
+26
+r16 1 21 
+r25 1 247 
+r24 1 247 
+$r21 1 200 
+$r15 1 21 
+r11 1 -6 
+$r7 1 309 
+r19 1 41 
+r0 1 -1 
+r18 1 62 
+$r10 1 6 
+$r13 1 140 
+r20 1 146 
+r17 1 41 
+$r1 1 185 
+r22 1 200 
+$r12 1 97 
+r5 1 -8 
+$r3 1 185 
+r2 1 -3 
+$r14 1 41 
+r6 1 -2 
+r23 1 223 
+$r9 1 6 
+$r4 1 215 
+$r8 1 247 
+Fields: 4
+-1 typesInWorkingCopies 6
+-1 typesInWorkingCopies 185
+41 ArrayObject 140
+247 ArrayObject 309
+Accesses: 4
+16 1 -1 
+195 1 -1 
+5 1 -1 
+184 1 -1 
+Functions: 17
+64 4 -1 6 185 62 
+34 2 21 -6 
+164 2 146 -8 
+196 2 -3 185 
+228 1 -8 
+135 5 -1 -2 6 185 140 
+328 1 223 
+269 7 -1 -2 309 6 247 -8 185 
+80 2 -8 62 
+240 1 223 
+17 2 -3 6 
+51 6 -1 -2 6 185 41 140 
+148 4 -1 146 6 185 
+213 1 200 
+215 1 215 
+314 6 -1 -2 309 6 -8 185 
+123 1 -8 
+Constructors: 0
+
+Summary: 16
+200 -8 6 1 -6 -3 62 146 4 -1 41 21 215 0 -2 247 
+org/eclipse/jdt/internal/core/NameLookup.findPackageFragments(Ljava/lang/String;ZZ)[Lorg/eclipse/jdt/core/IPackageFragment;
+PTG:
+Vars:
+17
+$r26 1 523 
+r1 1 -1 
+r42 1 420 
+$r21 1 423 
+$r23 1 423 
+r46 1 504 
+$r24 1 457 
+r44 1 462 
+$r28 1 529 
+$r20 1 423 
+r43 1 451 
+_ret 1 504 
+$r27 1 523 
+r0 1 -2 
+$r25 1 462 
+r45 1 451 
+$r22 1 445 
+Fields: 6
+-1 packageFragments 423
+445 ArrayObject 451
+451 ArrayObject 523
+423 valueTable 445
+423 keyTable 457
+457 ArrayObject 462
+Accesses: 7
+97 1 -1 
+453 1 -1 
+182 1 -1 
+422 1 -1 
+454 1 423 
+441 1 -1 
+442 1 423 
+Functions: 25
+0 1 -2 
+384 0 
+261 0 
+204 0 
+524 2 523 462 
+333 0 
+144 0 
+18 1 -2 
+402 0 
+84 1 -2 
+85 0 
+149 0 
+344 0 
+27 1 -2 
+413 1 -2 
+414 1 -2 
+352 0 
+163 0 
+484 1 462 
+423 7 451 420 423 457 523 445 462 
+296 0 
+242 0 
+56 1 -2 
+57 1 -2 
+253 0 
+Constructors: 0
+
+Summary: 9
+420 146 -1 0 63 238 85 329 88 
+org/eclipse/jdt/internal/core/NameLookup.seekPackageFragments(Ljava/lang/String;ZLorg/eclipse/jdt/internal/core/IJavaElementRequestor;)V
+PTG:
+Vars:
+32
+r23 1 51 
+r25 1 83 
+$r11 1 230 
+r30 1 230 
+$r5 1 204 
+$r15 2 18 74 
+r24 1 83 
+$r16 1 77 
+r27 1 201 
+$r17 1 148 
+$r3 1 204 
+$r12 1 263 
+r31 1 311 
+$r4 1 224 
+r0 1 -2 
+r18 1 148 
+$r13 1 18 
+r1 1 -1 
+$r9 1 311 
+r28 1 230 
+$r14 1 51 
+r22 1 24 
+$r20 1 105 
+$r2 1 204 
+$r6 1 236 
+r8 1 -4 
+r26 1 83 
+$r10 1 322 
+$r19 1 159 
+$r7 1 241 
+r29 1 241 
+r21 1 15 
+Fields: 12
+-1 packageFragments 18
+-1 packageFragments 204
+224 ArrayObject 230
+230 ArrayObject 311
+204 valueTable 224
+204 keyTable 236
+83 ArrayObject 148
+77 ArrayObject 83
+236 ArrayObject 241
+18 keyTable 24
+24 ArrayObject 51
+74 valueTable 77
+Accesses: 9
+17 1 -1 
+18 1 18 
+232 1 -1 
+73 1 -1 
+233 1 204 
+74 2 18 74 
+203 1 -1 
+220 1 -1 
+221 1 204 
+Functions: 17
+66 2 51 15 
+162 2 -4 159 
+194 1 -2 
+258 3 241 230 311 
+195 1 -2 
+37 1 -4 
+101 3 83 51 148 
+325 2 322 -4 
+134 1 -4 
+8 1 -2 
+9 1 -2 
+297 1 -4 
+266 2 -4 263 
+108 2 -4 105 
+204 7 224 241 230 311 201 204 236 
+155 2 51 148 
+318 2 241 311 
+Constructors: 0
+
+Summary: 11
+15 201 -1 2 322 -4 105 159 0 263 -2 
+org/eclipse/jdt/internal/core/NameLookup.seekTypesInTopLevelType(Ljava/lang/String;ILorg/eclipse/jdt/core/IType;Lorg/eclipse/jdt/internal/core/IJavaElementRequestor;I)Z
+PTG:
+Vars:
+6
+r0 1 -4 
+r4 1 -1 
+r5 1 -5 
+$r2 1 6 
+$r1 1 1 
+r3 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 6
+0 1 -4 
+1 1 1 
+37 2 -4 -5 
+6 2 -2 6 
+23 2 -1 -4 
+44 4 -1 -2 -4 -5 
+Constructors: 0
+
+Summary: 8
+-1 2 -5 -4 6 0 -2 3 
+org/eclipse/jdt/internal/core/NameLookup.findType(Ljava/lang/String;Ljava/lang/String;ZIZ)Lorg/eclipse/jdt/internal/core/NameLookup$Answer;
+PTG:
+Vars:
+5
+r2 1 -3 
+r1 1 -2 
+_ret 1 11 
+$r3 1 11 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/core/NameLookup.findType(Ljava/lang/String;Lorg/eclipse/jdt/core/IPackageFragment;ZI)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+6
+_ret 1 28 
+r4 1 -2 
+r3 1 -1 
+$r1 1 6 
+$r5 1 28 
+r0 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 3
+23 4 -1 -2 -3 6 
+10 1 6 
+26 1 6 
+Constructors: 1
+10 6
+
+Summary: 6
+-1 1 6 -3 0 -2 
+org/eclipse/jdt/internal/core/NameLookup.acceptType(Lorg/eclipse/jdt/core/IType;IZ)Z
+PTG:
+Vars:
+9
+$r3 1 39 
+$r6 1 20 
+$r5 1 20 
+$r1 1 -2 
+$r7 1 -1 
+$r2 1 39 
+r0 1 -2 
+$r4 1 -2 
+r8 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 6
+17 1 -2 
+36 1 -2 
+23 1 20 
+26 0 
+42 1 39 
+45 0 
+Constructors: 0
+
+Summary: 4
+-1 39 20 0 
+org/eclipse/jdt/internal/core/NameLookup.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 5 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/NameLookup.findCompilationUnit([Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jdt/internal/core/PackageFragmentRoot;)Lorg/eclipse/jdt/core/ICompilationUnit;
+PTG:
+Vars:
+9
+r0 1 -4 
+r3 1 21 
+r6 1 -3 
+$r5 1 43 
+r8 1 -1 
+r1 1 -2 
+r2 1 12 
+r4 1 39 
+$r7 1 -1 
+Fields: 1
+21 ArrayObject 39
+Accesses: 0
+Functions: 5
+0 1 -4 
+48 2 -3 43 
+7 2 -2 -4 
+41 1 39 
+14 1 12 
+Constructors: 0
+
+Summary: 10
+-1 2 43 21 1 -4 12 -3 0 -2 
+org/eclipse/jdt/internal/core/NameLookup.findAllTypes(Ljava/lang/String;ZILorg/eclipse/jdt/internal/core/IJavaElementRequestor;)V
+PTG:
+Vars:
+10
+$r7 1 88 
+r5 1 -2 
+r4 1 31 
+$r3 2 1 25 
+r10 1 46 
+$r8 1 -1 
+$r6 1 88 
+r2 1 -5 
+$r1 1 1 
+r0 1 -1 
+Fields: 4
+-1 packageFragmentRoots 1
+1 ArrayObject 31
+25 ArrayObject 31
+46 ArrayObject 88
+Accesses: 2
+0 1 -1 
+24 1 -1 
+Functions: 4
+96 6 -1 1 -2 -5 88 31 
+39 1 31 
+71 1 -5 
+13 1 -5 
+Constructors: 0
+
+Summary: 6
+-1 -5 46 0 -2 3 
+org/eclipse/jdt/internal/core/NameLookup.findType(Ljava/lang/String;Ljava/lang/String;ZIZZZLorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/internal/core/NameLookup$Answer;
+PTG:
+Vars:
+32
+$r9 1 261 
+$r32 1 420 
+r30 1 155 
+r31 1 369 
+r1 1 -1 
+$r15 1 379 
+r29 1 157 
+$r20 1 51 
+r27 1 261 
+r2 1 92 
+$r19 1 42 
+$r23 1 62 
+$r12 1 227 
+$r7 1 249 
+$r11 1 286 
+$r5 1 304 
+$r4 1 123 
+$r17 1 379 
+r24 2 -3 14 
+$r22 1 58 
+$r25 1 70 
+r26 3 359 394 130 
+$r21 1 55 
+r28 1 233 
+$r18 1 37 
+$r8 1 250 
+r3 1 -2 
+$r10 1 285 
+_ret 1 420 
+r16 1 -9 
+$r6 1 305 
+$r13 1 157 
+Fields: 5
+92 ArrayObject 227
+92 ArrayObject 249
+92 ArrayObject 304
+92 ArrayObject 123
+92 ArrayObject 285
+Accesses: 0
+Functions: 34
+4 2 -3 14 
+74 1 70 
+266 1 261 
+145 7 -1 -2 -3 130 359 394 14 
+401 1 369 
+18 1 -2 
+275 2 261 233 
+84 4 -1 -3 70 14 
+87 1 70 
+25 1 -2 
+27 0 
+347 6 -1 -2 -3 -9 233 14 
+285 1 285 
+227 1 227 
+291 2 261 286 
+36 2 -1 58 
+37 1 37 
+165 5 130 359 394 155 157 
+41 2 -3 14 
+170 1 157 
+427 4 130 420 359 394 
+364 1 261 
+45 2 37 42 
+304 1 304 
+178 1 157 
+51 2 -2 51 
+243 2 233 250 
+117 3 -1 -2 123 
+310 2 305 261 
+374 6 -1 -2 -3 -9 379 14 
+55 1 55 
+249 1 249 
+377 1 369 
+191 1 157 
+Constructors: 5
+165 157
+74 70
+266 261
+427 420
+45 37
+
+Summary: 23
+70 -9 -3 42 58 261 130 -1 359 250 394 0 92 55 1 7 233 62 305 379 286 155 -2 
+org/eclipse/jdt/internal/core/NameLookup.findPackageFragment(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/jdt/core/IPackageFragment;
+PTG:
+Vars:
+18
+r9 1 -1 
+r28 1 72 
+r27 1 50 
+$r20 1 97 
+$r34 1 202 
+$r2 1 23 
+r3 1 34 
+$r26 1 -1 
+r30 1 115 
+r31 1 127 
+$r1 1 20 
+r29 1 91 
+r35 1 216 
+$r19 2 45 202 
+r0 1 -2 
+r22 1 166 
+r33 1 142 
+$r21 1 166 
+Fields: 4
+-1 packageFragmentRoots 202
+45 ArrayObject 50
+202 ArrayObject 50
+142 ArrayObject 166
+Accesses: 3
+292 1 -1 
+201 1 -1 
+44 1 -1 
+Functions: 27
+0 1 -2 
+-1 0 
+65 1 50 
+135 1 50 
+74 2 -2 72 
+267 1 -2 
+331 0 
+399 0 
+16 0 
+20 1 20 
+212 1 34 
+85 1 -2 
+23 2 -2 23 
+280 0 
+282 0 
+93 1 91 
+95 1 72 
+223 1 216 
+97 1 97 
+293 0 
+358 0 
+107 1 91 
+172 5 -1 50 166 202 127 
+369 0 
+52 1 50 
+117 1 115 
+319 0 
+Constructors: 0
+
+Summary: 15
+91 115 284 34 -1 97 290 20 23 127 273 142 302 -2 72 
+org/eclipse/jdt/internal/core/NameLookup.getViolatedRestriction(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jdt/core/IType;Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;
+PTG:
+Vars:
+16
+r2 1 2 
+r11 1 -2 
+$r13 1 70 
+r10 1 54 
+$r5 1 18 
+$r4 1 13 
+_ret 2 -5 76 
+r7 1 38 
+$r9 1 48 
+r6 1 18 
+$r1 1 2 
+r8 1 -3 
+r14 2 -5 76 
+r0 1 -4 
+r12 1 60 
+r3 1 -1 
+Fields: 1
+-1 rootToResolvedEntries 13
+Accesses: 1
+12 1 -1 
+Functions: 8
+0 1 -4 
+48 1 48 
+33 1 18 
+68 2 54 60 
+56 1 -2 
+13 2 2 13 
+62 2 38 70 
+47 1 -3 
+Constructors: 0
+
+Summary: 13
+1 2 -3 54 18 38 70 -1 2 48 60 0 -2 
+org/eclipse/jdt/internal/core/NameLookup.findPackageFragments(Ljava/lang/String;Z)[Lorg/eclipse/jdt/core/IPackageFragment;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 4 
+_ret 1 4 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/jdt/internal/core/NameLookup.<init>([Lorg/eclipse/jdt/core/IPackageFragmentRoot;Lorg/eclipse/jdt/internal/core/util/HashtableOfArrayToObject;[Lorg/eclipse/jdt/core/ICompilationUnit;Ljava/util/Map;)V
+PTG:
+Vars:
+60
+r10 1 219 
+r65 1 498 
+r3 1 -3 
+$r49 1 58 
+$r17 1 450 
+$r5 1 140 
+r60 1 357 
+$r55 1 -1 
+r1 1 -2 
+r61 1 366 
+r58 1 308 
+$r42 1 794 
+r41 1 -5 
+r2 1 -4 
+$r19 1 408 
+r0 1 -1 
+r12 1 223 
+$r7 1 164 
+$r53 1 107 
+$r46 1 30 
+$r43 1 809 
+$r30 1 509 
+$r35 1 322 
+r62 1 375 
+$r27 1 656 
+$r66 1 501 
+r14 1 235 
+$r4 1 140 
+$r48 1 52 
+$r9 1 188 
+$r56 1 -1 
+$r36 1 336 
+r63 1 375 
+$r15 1 262 
+$r38 1 280 
+$r20 1 375 
+$r68 2 606 586 
+$r39 2 262 290 
+r57 2 280 267 
+$r28 2 761 501 
+$r23 2 525 501 
+$r26 1 518 
+$r51 1 82 
+$r33 1 509 
+$r50 1 79 
+$r13 1 235 
+r70 1 719 
+$r6 1 154 
+$r25 2 539 501 
+r69 1 509 
+r59 1 330 
+$r47 1 49 
+$r16 1 267 
+$r45 1 817 
+r67 1 509 
+$r31 2 501 573 
+$r44 1 814 
+$r54 1 110 
+$r11 1 223 
+$r52 1 88 
+Fields: 7
+-1 packageFragments 501
+-1 typesInWorkingCopies 262
+308 ArrayObject 357
+-4 ArrayObject 219
+509 ArrayObject 656
+223 names 498
+-2 ArrayObject 188
+Accesses: 15
+161 1 -1 
+289 1 -1 
+132 1 -1 
+261 1 -1 
+6 1 -1 
+11 1 -1 
+524 1 -1 
+493 1 223 
+785 1 -1 
+146 1 -1 
+500 1 -1 
+760 1 -1 
+538 1 -1 
+123 1 -1 
+572 1 -1 
+Functions: 51
+768 4 498 501 761 719 
+-1 0 
+1 3 -1 501 262 
+388 4 357 280 267 366 
+262 3 498 262 223 
+650 2 656 164 
+139 1 -3 
+532 4 498 501 235 525 
+794 1 794 
+27 0 
+284 1 280 
+30 1 30 
+158 1 154 
+542 3 498 501 539 
+800 1 794 
+36 1 30 
+168 1 164 
+424 4 280 408 267 366 
+297 5 290 498 262 280 223 
+809 1 809 
+556 3 656 164 509 
+301 1 219 
+814 1 814 
+49 1 49 
+820 1 817 
+55 1 52 
+58 1 58 
+191 2 164 188 
+64 1 58 
+320 1 219 
+322 1 322 
+75 1 -3 
+459 2 450 375 
+79 1 79 
+339 4 336 280 330 267 
+85 1 82 
+88 1 88 
+475 4 450 280 267 366 
+732 3 656 509 719 
+221 1 219 
+94 1 88 
+359 1 357 
+233 2 498 223 
+107 1 107 
+622 5 498 501 586 573 606 
+368 3 280 267 366 
+113 1 110 
+243 2 164 235 
+116 0 
+501 2 498 501 
+757 3 656 509 719 
+Constructors: 8
+64 58
+800 794
+1 -1
+36 30
+168 164
+284 280
+94 88
+158 154
+
+Summary: 26
+164 814 -1 49 330 79 110 2 817 366 267 308 107 82 408 606 322 -4 52 223 0 3 498 1 586 280 
+org/eclipse/jdt/internal/core/NameLookup.findSecondaryType(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jdt/core/IJavaProject;ZLorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/IType;
+PTG:
+Vars:
+27
+$r25 1 68 
+$r20 1 32 
+$r13 1 187 
+$r14 1 190 
+$r17 1 12 
+r3 1 -6 
+$r6 1 121 
+$r11 1 170 
+r8 1 -3 
+r1 1 -4 
+$r9 1 149 
+$r21 1 43 
+r28 1 -1 
+r10 1 149 
+r4 1 96 
+$r12 1 182 
+$r24 1 63 
+$r27 1 -1 
+$r19 1 26 
+$r26 1 71 
+$r18 1 23 
+r5 1 -2 
+r0 1 80 
+$r29 2 114 -2 
+$r22 1 46 
+r7 1 121 
+$r23 1 52 
+Fields: 0
+Accesses: 0
+Functions: 25
+193 1 190 
+68 1 68 
+136 1 121 
+9 0 
+74 1 71 
+12 2 -2 12 
+77 0 
+146 2 -3 121 
+19 1 12 
+85 3 80 -4 -6 
+23 1 23 
+29 1 26 
+32 2 32 -3 
+98 1 96 
+39 1 32 
+170 2 182 170 
+43 1 43 
+108 3 96 -2 114 
+49 1 46 
+177 1 170 
+52 2 52 63 
+180 1 149 
+59 1 52 
+187 1 187 
+62 1 -4 
+Constructors: 4
+177 170
+19 12
+39 32
+59 52
+
+Summary: 22
+43 -3 26 4 -1 -4 121 0 68 23 63 71 1 -6 46 182 190 2 187 96 -2 80 

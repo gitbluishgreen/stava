@@ -1,0 +1,520 @@
+22
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.getSpaceEnd()Lorg/apache/fop/fo/properties/SpaceProperty;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.getChangedKnuthElements(Ljava/util/List;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+31
+$r6 1 309 
+r14 1 99 
+$r9 1 322 
+r28 1 17 
+r5 1 295 
+r7 1 309 
+$r22 1 160 
+_ret 1 62 
+$r15 1 235 
+$r11 1 335 
+$r17 1 272 
+r0 1 -2 
+$r26 1 37 
+$r3 1 62 
+r31 1 87 
+$r25 1 31 
+r29 1 52 
+$r16 1 241 
+$r24 1 31 
+$r1 1 53 
+$r20 1 210 
+$r23 1 17 
+r27 1 6 
+$r12 1 87 
+$r21 1 154 
+$r10 1 329 
+r8 1 -1 
+r30 1 99 
+$r13 1 99 
+$r19 1 204 
+$r18 1 278 
+Fields: 0
+Accesses: 0
+Functions: 40
+0 1 -2 
+193 2 99 204 
+257 2 272 99 
+321 2 -1 322 
+66 1 62 
+195 1 -2 
+259 1 -2 
+132 1 52 
+260 1 52 
+198 1 -2 
+7 1 6 
+327 1 309 
+266 1 -2 
+332 3 -1 322 329 
+77 1 52 
+143 2 99 154 
+16 1 6 
+145 1 -2 
+338 2 309 335 
+148 1 52 
+86 1 52 
+215 2 210 53 
+345 2 309 62 
+283 2 53 278 
+29 1 17 
+224 2 99 235 
+97 1 87 
+34 1 31 
+226 1 -2 
+290 1 53 
+165 2 160 53 
+229 1 52 
+40 2 17 37 
+297 1 295 
+173 1 52 
+46 1 -2 
+307 1 295 
+246 2 241 53 
+57 1 53 
+123 1 52 
+Constructors: 3
+66 62
+57 53
+332 322
+
+Summary: 24
+6 210 278 52 241 309 322 37 -2 204 272 295 31 99 235 160 17 0 335 154 -1 87 329 53 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.getPrevIPD(Lorg/apache/fop/layoutmgr/LayoutManager;)Lorg/apache/fop/traits/MinOptMax;
+PTG:
+Vars:
+6
+r1 1 -2 
+$r2 1 1 
+$r4 1 5 
+$r3 1 5 
+r0 1 -1 
+_ret 1 5 
+Fields: 1
+-1 hmPrevIPD 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.getExtraIPD(ZZ)Lorg/apache/fop/traits/MinOptMax;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 0 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.getCurrentArea()Lorg/apache/fop/area/Area;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 currentArea 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.clearPrevIPD()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 hmPrevIPD 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.getSpaceStart()Lorg/apache/fop/fo/properties/SpaceProperty;
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.hasTrailingFence(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.getContext()Lorg/apache/fop/layoutmgr/LayoutContext;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 childLC 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.<init>(Lorg/apache/fop/fo/FObj;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 23 
+$r2 1 6 
+$r4 1 34 
+r1 1 -2 
+Fields: 0
+Accesses: 4
+19 1 -1 
+42 1 -1 
+14 1 -1 
+30 1 -1 
+Functions: 4
+2 2 -1 -2 
+39 1 34 
+11 1 6 
+27 1 23 
+Constructors: 4
+2 -1
+39 34
+11 6
+27 23
+
+Summary: 2
+-2 -1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.applyChanges(Ljava/util/List;)Z
+PTG:
+Vars:
+24
+r8 1 79 
+r22 1 327 
+$r12 1 151 
+$r4 1 355 
+$r13 1 17 
+$r10 1 293 
+$r6 1 69 
+r17 1 6 
+$r3 1 349 
+r19 1 49 
+$r11 1 209 
+r0 1 -2 
+$r14 1 28 
+$r16 1 34 
+r23 1 338 
+$r1 1 338 
+r20 1 79 
+$r15 1 28 
+r18 1 17 
+$r7 1 79 
+r2 1 -1 
+$r9 1 248 
+$r5 1 361 
+r21 1 69 
+Fields: 0
+Accesses: 0
+Functions: 33
+0 1 -2 
+321 1 -2 
+131 1 49 
+68 1 49 
+198 2 209 79 
+7 1 6 
+200 1 -2 
+328 1 327 
+203 1 -2 
+140 2 151 79 
+78 1 69 
+142 1 -2 
+16 1 6 
+145 1 49 
+337 1 327 
+278 2 293 79 
+280 1 -2 
+281 1 49 
+27 1 17 
+348 2 -1 349 
+31 1 28 
+287 1 -2 
+354 1 338 
+37 2 17 34 
+358 3 -1 355 349 
+103 1 49 
+43 1 -2 
+364 2 338 361 
+237 2 248 79 
+239 1 -2 
+242 1 49 
+180 1 49 
+59 1 49 
+Constructors: 1
+358 349
+
+Summary: 19
+17 0 6 293 327 361 248 349 151 355 -1 79 34 -2 49 69 209 338 28 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.addSpace(Lorg/apache/fop/area/Area;Lorg/apache/fop/traits/MinOptMax;D)V
+PTG:
+Vars:
+4
+r4 1 -1 
+r0 1 -3 
+$r1 1 66 
+r3 1 -2 
+Fields: 0
+Accesses: 5
+49 1 -3 
+18 1 -3 
+4 1 -3 
+22 1 -3 
+45 1 -3 
+Functions: 3
+85 2 -2 66 
+70 1 66 
+79 1 66 
+Constructors: 1
+70 66
+
+Summary: 6
+-2 0 1 66 -3 -1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.setTraits(ZZ)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.hyphenate(Lorg/apache/fop/layoutmgr/Position;Lorg/apache/fop/layoutmgr/inline/HyphContext;)V
+PTG:
+Vars:
+7
+$r1 1 -2 
+r0 1 -2 
+r4 1 -3 
+$r5 1 9 
+r6 1 -1 
+r2 1 7 
+$r3 1 9 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -2 
+17 3 -3 7 9 
+8 1 7 
+Constructors: 0
+
+Summary: 7
+-2 0 1 -3 9 7 -1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.getWordChars(Ljava/lang/StringBuffer;Lorg/apache/fop/layoutmgr/Position;)V
+PTG:
+Vars:
+7
+$r1 1 -3 
+$r3 1 9 
+r4 1 -2 
+$r5 1 9 
+r0 1 -3 
+r2 1 7 
+r6 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+1 1 -3 
+17 3 -2 7 9 
+8 1 7 
+Constructors: 0
+
+Summary: 7
+-2 0 1 -3 9 7 -1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.setLMiter(Ljava/util/ListIterator;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.removeWordSpace(Ljava/util/List;)V
+PTG:
+Vars:
+10
+$r4 1 19 
+r9 1 19 
+$r2 1 46 
+$r6 1 30 
+r0 1 -2 
+r8 1 -1 
+r1 1 6 
+$r7 1 36 
+$r3 1 46 
+$r5 1 30 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -2 
+33 1 30 
+18 1 6 
+53 2 -2 46 
+39 2 19 36 
+9 1 6 
+29 1 19 
+45 1 19 
+Constructors: 0
+
+Summary: 7
+19 36 -2 6 46 30 -1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.addId()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.hasLeadingFence(Z)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.setChildContext(Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.setCurrentArea(Lorg/apache/fop/area/Area;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/apache/fop/layoutmgr/inline/InlineStackingLayoutManager.addALetterSpaceTo(Ljava/util/List;)Ljava/util/List;
+PTG:
+Vars:
+17
+$r5 1 102 
+$r10 1 36 
+$r9 1 30 
+$r4 1 96 
+$r2 1 85 
+r12 1 6 
+r15 1 85 
+$r8 1 30 
+$r7 1 19 
+$r0 1 46 
+_ret 2 -2 67 
+r1 1 46 
+$r6 1 108 
+r14 1 74 
+r13 1 19 
+r3 1 -1 
+r11 2 -2 67 
+Fields: 0
+Accesses: 0
+Functions: 15
+0 2 -2 67 
+33 1 30 
+68 2 -2 67 
+101 1 85 
+39 2 19 36 
+9 1 6 
+105 3 96 -1 102 
+75 1 74 
+45 1 19 
+111 2 85 108 
+18 1 6 
+84 1 74 
+59 3 -2 67 46 
+29 1 19 
+95 2 -1 96 
+Constructors: 1
+105 96
+
+Summary: 12
+36 85 0 6 74 108 96 30 -1 19 102 46 

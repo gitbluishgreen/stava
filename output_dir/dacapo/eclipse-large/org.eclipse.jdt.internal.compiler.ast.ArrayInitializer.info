@@ -1,0 +1,261 @@
+6
+org/eclipse/jdt/internal/compiler/ast/ArrayInitializer.analyseCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;
+PTG:
+Vars:
+10
+r0 1 -1 
+$r1 1 1 
+$r6 1 26 
+r5 1 -3 
+$r7 1 30 
+$r3 2 21 1 
+$r2 1 1 
+r8 2 36 -4 
+_ret 2 36 -4 
+r4 1 -2 
+Fields: 3
+21 ArrayObject 26
+-1 expressions 1
+1 ArrayObject 26
+Accesses: 3
+0 1 -1 
+20 1 -1 
+10 1 -1 
+Functions: 2
+26 5 -2 -3 -4 36 26 
+30 1 30 
+Constructors: 0
+
+Summary: 6
+-3 -2 0 1 2 -1 
+org/eclipse/jdt/internal/compiler/ast/ArrayInitializer.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/ast/ArrayInitializer.generateCode(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/codegen/CodeStream;Z)V
+PTG:
+Vars:
+17
+$r2 1 7 
+$r4 1 32 
+$r13 1 88 
+r14 1 -2 
+$r15 1 88 
+$r5 1 7 
+$r8 1 64 
+$r6 1 32 
+$r16 1 88 
+r0 1 -3 
+$r7 1 32 
+$r12 1 91 
+$r3 1 7 
+$r10 1 84 
+$r17 1 88 
+r1 1 -1 
+$r9 2 7 79 
+Fields: 6
+7 ArrayObject 84
+79 ArrayObject 84
+32 leafComponentType 64
+-1 binding 32
+-1 expressions 7
+84 constant 88
+Accesses: 17
+0 1 -3 
+64 1 64 
+6 1 -1 
+38 1 -1 
+45 1 -1 
+46 1 32 
+78 1 -1 
+366 1 -1 
+17 1 -1 
+243 1 84 
+84 1 84 
+148 1 84 
+60 1 -1 
+61 1 32 
+189 1 84 
+31 1 -1 
+383 1 -1 
+Functions: 28
+387 1 -3 
+261 1 -3 
+327 1 -3 
+269 4 -2 -3 84 88 
+333 1 -3 
+276 1 -3 
+341 4 -2 -3 84 88 
+150 1 88 
+216 1 -3 
+27 1 -3 
+348 1 -3 
+222 1 -3 
+162 1 -3 
+35 3 32 64 -3 
+291 1 -3 
+230 4 -2 -3 84 88 
+168 1 -3 
+297 1 -3 
+237 1 -3 
+176 4 -2 -3 84 88 
+305 4 -2 -3 84 88 
+370 1 -3 
+245 1 88 
+183 1 -3 
+312 1 -3 
+377 1 -3 
+191 1 88 
+255 1 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/ArrayInitializer.resolveTypeExpecting(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;)Lorg/eclipse/jdt/internal/compiler/lookup/TypeBinding;
+PTG:
+Vars:
+18
+r2 1 -3 
+$r10 1 401 
+r31 2 266 310 
+$r5 1 246 
+$r3 1 246 
+r32 1 282 
+$r6 2 351 246 
+r33 1 357 
+r0 1 -1 
+$r9 1 390 
+r7 1 -2 
+$r14 2 305 282 
+r30 3 256 293 336 
+$r11 1 405 
+$r12 2 266 310 
+$r1 1 1 
+$r4 1 246 
+$r13 2 266 310 
+Fields: 9
+266 expressions 282
+351 ArrayObject 357
+305 ArrayObject 310
+246 ArrayObject 266
+246 ArrayObject 357
+-1 resolvedType 405
+-1 expressions 246
+310 expressions 282
+282 ArrayObject 310
+Accesses: 18
+64 1 -1 
+4 1 -1 
+260 1 -1 
+69 1 -1 
+393 1 -1 
+235 1 -1 
+14 1 -1 
+302 2 310 266 
+80 1 -1 
+51 1 -1 
+276 2 310 266 
+340 1 -1 
+404 1 -1 
+245 1 -1 
+54 1 -1 
+57 1 -1 
+90 1 -1 
+350 1 -1 
+Functions: 24
+289 1 -2 
+386 4 256 336 -2 293 
+35 1 -2 
+70 0 
+102 0 
+166 0 
+41 7 -1 405 357 246 310 266 282 
+330 4 -2 310 266 282 
+206 1 -2 
+367 2 -2 357 
+400 1 -2 
+113 1 -2 
+145 1 -2 
+212 1 -2 
+181 1 -2 
+23 1 -3 
+152 0 
+123 1 -2 
+155 0 
+187 8 -1 -2 405 357 246 310 266 282 
+411 9 -1 401 -3 405 357 246 310 266 282 
+28 0 
+252 1 -2 
+222 0 
+Constructors: 0
+
+Summary: 11
+1 76 256 36 336 213 0 146 401 293 -1 
+org/eclipse/jdt/internal/compiler/ast/ArrayInitializer.traverse(Lorg/eclipse/jdt/internal/compiler/ASTVisitor;Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;)V
+PTG:
+Vars:
+7
+$r6 1 34 
+r1 1 -1 
+r2 1 -3 
+$r3 1 10 
+$r4 1 10 
+$r5 2 10 29 
+r0 1 -2 
+Fields: 3
+-1 expressions 10
+10 ArrayObject 34
+29 ArrayObject 34
+Accesses: 3
+16 1 -1 
+9 1 -1 
+28 1 -1 
+Functions: 3
+0 5 -1 -2 34 -3 10 
+52 5 -1 -2 34 -3 10 
+37 3 -2 34 -3 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/jdt/internal/compiler/ast/ArrayInitializer.printExpression(ILjava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+PTG:
+Vars:
+8
+r0 1 -3 
+$r5 2 36 8 
+$r6 1 41 
+$r4 1 89 
+$r11 1 8 
+$r3 1 8 
+r2 1 -1 
+_ret 1 89 
+Fields: 3
+-1 expressions 8
+36 ArrayObject 41
+8 ArrayObject 41
+Accesses: 3
+35 1 -1 
+7 1 -1 
+78 1 -1 
+Functions: 6
+66 1 -3 
+3 1 -3 
+86 1 -3 
+58 1 -3 
+44 2 -3 41 
+31 1 -3 
+Constructors: 0
+
+Summary: 2
+-1 1 

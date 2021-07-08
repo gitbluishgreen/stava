@@ -1,0 +1,658 @@
+13
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.recordFinalAssignment(Lorg/eclipse/jdt/internal/compiler/lookup/VariableBinding;Lorg/eclipse/jdt/internal/compiler/ast/Reference;)Z
+PTG:
+Vars:
+16
+$r7 1 68 
+r0 1 -2 
+r5 1 -3 
+$r6 1 87 
+$r11 1 29 
+r1 1 -1 
+$r4 1 103 
+$r15 1 103 
+$r3 1 114 
+$r14 1 68 
+$r2 1 68 
+$r12 1 20 
+$r10 1 -2 
+$r9 1 54 
+$r8 1 46 
+r13 1 29 
+Fields: 5
+-2 declaringScope 14
+14 parent 29
+-1 finalVariables 103
+-1 associatedScope 20
+-1 finalAssignments 68
+Accesses: 21
+129 1 -1 
+67 1 -1 
+37 1 -1 
+133 1 -1 
+102 1 -1 
+8 1 -2 
+75 1 -1 
+139 1 -1 
+108 1 -1 
+143 1 -1 
+49 1 -1 
+81 1 -1 
+19 1 -1 
+118 1 -1 
+151 1 -1 
+57 1 -1 
+122 1 -1 
+91 1 -1 
+28 1 29 
+63 1 -1 
+95 1 -1 
+Functions: 2
+99 2 68 87 
+126 2 114 103 
+Constructors: 0
+
+Summary: 3
+0 1 -1 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.removeFinalAssignmentIfAny(Lorg/eclipse/jdt/internal/compiler/ast/Reference;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 6 
+$r3 1 10 
+r2 1 -2 
+Fields: 2
+6 ArrayObject 10
+-1 finalAssignments 6
+Accesses: 4
+34 1 -1 
+5 1 -1 
+22 1 -1 
+15 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.individualToString()Ljava/lang/String;
+PTG:
+Vars:
+16
+$r6 1 23 
+$r14 1 64 
+$r0 1 0 
+$r5 1 20 
+$r11 1 45 
+$r19 1 93 
+$r13 1 57 
+$r8 1 35 
+$r9 1 39 
+r3 1 -1 
+$r2 1 13 
+$r4 1 17 
+$r10 1 42 
+$r17 1 83 
+_ret 1 93 
+$r16 1 76 
+Fields: 2
+-1 initsOnBreak 17
+-1 initsOnContinue 39
+Accesses: 4
+16 1 -1 
+38 1 -1 
+60 1 -1 
+79 1 -1 
+Functions: 16
+32 1 0 
+35 2 35 42 
+69 1 64 
+6 1 0 
+39 1 39 
+73 1 0 
+10 1 0 
+76 1 76 
+13 2 20 13 
+17 1 17 
+50 1 45 
+54 1 0 
+88 1 83 
+57 1 57 
+28 1 23 
+92 1 0 
+Constructors: 1
+6 0
+
+Summary: 3
+20 42 -1 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.complainOnDeferredNullChecks(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+63
+$r43 2 82 364 
+$r33 1 927 
+$r38 1 91 
+$r40 2 91 198 
+$r57 2 493 82 
+r9 1 -3 
+$r25 1 679 
+$r4 1 6 
+$r30 1 907 
+$r36 1 73 
+$r58 1 501 
+$r18 1 819 
+$r6 1 22 
+$r26 2 556 876 
+$r41 1 225 
+$r62 1 515 
+$r14 1 574 
+$r16 2 724 574 
+$r50 2 314 91 
+$r15 2 556 716 
+$r11 1 52 
+$r23 2 574 666 
+$r1 1 10 
+r65 1 571 
+$r21 1 777 
+$r28 2 556 845 
+$r5 1 18 
+$r7 1 26 
+r60 1 79 
+$r34 1 928 
+r61 1 88 
+$r20 1 791 
+$r29 1 853 
+$r53 2 248 82 
+$r13 1 565 
+$r32 1 922 
+$r51 1 341 
+$r39 2 190 82 
+$r48 1 425 
+$r45 1 467 
+$r42 1 211 
+$r54 2 256 91 
+$r52 1 327 
+$r12 1 556 
+$r46 1 453 
+$r44 2 91 372 
+$r63 2 91 524 
+$r27 1 884 
+$r56 1 269 
+r0 1 -1 
+$r47 1 439 
+$r55 1 283 
+$r3 1 15 
+$r37 1 82 
+r17 1 -2 
+$r2 1 14 
+$r24 1 693 
+$r19 1 805 
+$r22 2 658 556 
+$r49 2 306 82 
+r59 1 58 
+$r10 2 6 48 
+r64 1 562 
+Fields: 22
+922 ArrayObject 927
+556 ArrayObject 562
+14 upstreamNullFlowInfo 15
+22 ArrayObject 26
+73 ArrayObject 79
+565 ArrayObject 571
+82 ArrayObject 88
+10 ArrayObject 14
+-1 initsOnBreak 907
+-1 parent 515
+-1 nullCheckTypes 91
+-1 nullCheckTypes 574
+-1 nullReferences 556
+-1 nullReferences 82
+-1 upstreamNullFlowInfo 48
+-1 upstreamNullFlowInfo 6
+-1 breakTargetContexts 922
+-1 nullLocals 565
+-1 nullLocals 73
+-1 innerFlowContexts 10
+-1 innerFlowInfos 22
+927 initsOnBreak 928
+Accesses: 37
+514 1 -1 
+899 1 -1 
+5 1 -1 
+197 1 -1 
+72 1 -1 
+9 1 -1 
+906 1 -1 
+523 1 -1 
+715 1 -1 
+844 1 -1 
+14 1 14 
+81 1 -1 
+657 1 -1 
+723 1 -1 
+21 1 -1 
+665 1 -1 
+921 1 -1 
+90 1 -1 
+539 1 -1 
+927 1 927 
+35 1 -1 
+363 1 -1 
+555 1 -1 
+875 1 -1 
+44 1 -1 
+492 1 -1 
+941 1 -1 
+47 1 -1 
+305 1 -1 
+371 1 -1 
+564 1 -1 
+247 1 -1 
+313 1 -1 
+59 1 -1 
+189 1 -1 
+573 1 -1 
+255 1 -1 
+Functions: 54
+6 2 6 15 
+648 2 58 571 
+776 1 -2 
+268 1 -2 
+911 2 58 907 
+784 3 562 777 571 
+531 5 -2 515 88 58 79 
+276 3 88 269 79 
+790 1 -2 
+282 1 -2 
+27 2 18 26 
+798 3 562 791 571 
+290 3 88 283 79 
+804 1 -2 
+932 2 928 58 
+678 1 -2 
+296 2 58 79 
+424 1 -2 
+812 3 562 805 571 
+686 3 562 679 571 
+48 3 48 52 6 
+432 3 88 425 79 
+818 1 -2 
+51 1 -3 
+180 2 58 79 
+692 1 -2 
+438 1 -2 
+826 3 562 819 571 
+700 3 562 693 571 
+446 3 439 88 79 
+706 2 58 571 
+835 2 58 571 
+452 1 -2 
+326 1 -2 
+460 3 453 88 79 
+334 3 327 88 79 
+210 1 -2 
+466 1 -2 
+340 1 -2 
+852 1 -2 
+218 3 211 88 79 
+474 3 467 88 79 
+348 3 341 88 79 
+860 3 562 853 571 
+224 1 -2 
+354 2 58 79 
+866 2 58 571 
+483 2 58 79 
+232 3 225 88 79 
+238 2 58 79 
+883 1 -2 
+500 1 -2 
+891 3 562 884 571 
+508 3 501 88 79 
+Constructors: 0
+
+Summary: 25
+819 341 225 693 425 58 269 18 453 777 -1 283 679 1 805 211 501 327 439 791 884 0 467 52 853 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.<init>(Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;Lorg/eclipse/jdt/internal/compiler/lookup/Scope;)V
+PTG:
+Vars:
+9
+r5 1 -6 
+r3 1 -5 
+$r4 1 9 
+r0 1 -1 
+r7 1 -3 
+r6 1 -7 
+r1 1 -2 
+$r8 1 64 
+r2 1 -4 
+Fields: 0
+Accesses: 11
+32 1 -1 
+17 1 -1 
+67 1 -1 
+37 1 -1 
+53 1 -1 
+22 1 -1 
+42 1 -1 
+27 1 -1 
+59 1 -1 
+12 1 -1 
+47 1 -1 
+Functions: 2
+5 4 -1 -2 -4 -5 
+63 1 -3 
+Constructors: 1
+5 -1
+
+Summary: 10
+-2 0 5 -4 1 3 4 2 -5 -1 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.recordContinueFrom(Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+23
+r1 1 -1 
+$r22 1 159 
+$r6 1 93 
+$r2 1 10 
+$r3 1 41 
+$r16 1 10 
+$r12 1 109 
+$r21 2 -2 56 
+r4 1 -2 
+$r24 1 210 
+$r14 1 79 
+$r9 1 168 
+r19 2 -2 56 
+$r8 1 93 
+$r11 1 101 
+$r13 1 75 
+$r10 1 159 
+$r7 1 145 
+$r17 1 27 
+$r20 1 93 
+$r5 1 93 
+r0 1 -3 
+$r18 1 30 
+Fields: 5
+-1 initsOnContinue 10
+-1 upstreamNullFlowInfo 75
+-1 innerFlowContexts 93
+-1 innerFlowInfos 159
+56 parent 56
+Accesses: 22
+0 1 -3 
+33 1 -1 
+194 1 -1 
+198 1 -1 
+135 1 -1 
+104 1 -1 
+9 1 -1 
+10 1 10 
+74 1 -1 
+44 1 -1 
+172 1 -1 
+206 1 -1 
+112 1 -1 
+52 2 -2 56 
+149 1 -1 
+181 1 -1 
+22 1 -1 
+118 1 -1 
+185 1 -1 
+122 1 -1 
+92 1 -1 
+158 1 -1 
+Functions: 8
+209 1 -3 
+82 2 75 79 
+178 2 168 159 
+23 2 10 27 
+40 1 -3 
+26 1 -3 
+155 2 145 93 
+78 1 -3 
+Constructors: 0
+
+Summary: 5
+0 1 79 -1 27 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.complainOnDeferredFinalChecks(Lorg/eclipse/jdt/internal/compiler/lookup/BlockScope;Lorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+18
+r2 1 11 
+$r5 3 93 118 57 
+$r11 1 11 
+$r16 1 11 
+$r13 1 48 
+$r1 1 6 
+$r8 1 84 
+r3 1 -3 
+$r10 1 97 
+$r12 1 11 
+r0 1 -1 
+$r4 1 11 
+r7 1 -2 
+$r9 3 93 118 57 
+$r14 3 93 118 57 
+$r15 1 61 
+$r6 1 122 
+r17 2 110 131 
+Fields: 16
+93 ArrayObject 97
+93 ArrayObject 122
+93 ArrayObject 61
+118 ArrayObject 97
+118 ArrayObject 122
+118 ArrayObject 61
+6 ArrayObject 11
+-1 parent 110
+-1 finalVariables 6
+-1 finalAssignments 93
+-1 finalAssignments 118
+-1 finalAssignments 57
+57 ArrayObject 97
+57 ArrayObject 61
+57 ArrayObject 122
+131 parent 131
+Accesses: 7
+5 1 -1 
+117 1 -1 
+56 1 -1 
+106 1 -1 
+92 1 -1 
+126 2 131 110 
+142 1 -1 
+Functions: 7
+32 2 -3 11 
+98 3 97 84 11 
+83 1 -2 
+68 2 -3 11 
+123 3 131 122 110 
+62 3 48 11 61 
+47 1 -2 
+Constructors: 0
+
+Summary: 6
+-3 48 0 84 1 -1 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.recordNullReference(Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;Lorg/eclipse/jdt/internal/compiler/ast/Expression;I)V
+PTG:
+Vars:
+16
+$r11 1 17 
+$r9 1 100 
+$r4 1 57 
+r2 1 -2 
+$r6 1 84 
+$r12 1 25 
+$r7 1 73 
+$r15 1 100 
+r3 1 -3 
+$r10 1 9 
+$r13 1 38 
+$r5 1 38 
+$r14 1 73 
+$r1 1 38 
+r0 1 -1 
+$r8 1 111 
+Fields: 3
+-1 nullCheckTypes 100
+-1 nullReferences 73
+-1 nullLocals 38
+Accesses: 25
+0 1 -1 
+65 1 -1 
+129 1 -1 
+135 1 -1 
+72 1 -1 
+139 1 -1 
+12 1 -1 
+78 1 -1 
+145 1 -1 
+20 1 -1 
+149 1 -1 
+88 1 -1 
+27 1 -1 
+92 1 -1 
+157 1 -1 
+33 1 -1 
+99 1 -1 
+37 1 -1 
+105 1 -1 
+45 1 -1 
+114 1 -1 
+51 1 -1 
+118 1 -1 
+61 1 -1 
+125 1 -1 
+Functions: 3
+96 2 84 73 
+69 2 38 57 
+122 2 100 111 
+Constructors: 0
+
+Summary: 3
+0 1 -1 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.isContinuable()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.isContinuedTo()Z
+PTG:
+Vars:
+3
+$r1 1 4 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 initsOnContinue 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.recordBreakTo(Lorg/eclipse/jdt/internal/compiler/flow/FlowContext;)V
+PTG:
+Vars:
+8
+r0 1 -2 
+$r7 1 -2 
+$r3 1 52 
+$r6 1 36 
+$r5 1 25 
+$r2 1 36 
+r1 1 -1 
+$r4 1 36 
+Fields: 1
+-1 breakTargetContexts 36
+Accesses: 7
+64 1 -1 
+35 1 -1 
+7 1 -1 
+56 1 -1 
+43 1 -1 
+28 1 -1 
+15 1 -1 
+Functions: 1
+61 2 36 52 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.recordUsingNullReference(Lorg/eclipse/jdt/internal/compiler/lookup/Scope;Lorg/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding;Lorg/eclipse/jdt/internal/compiler/ast/Expression;ILorg/eclipse/jdt/internal/compiler/flow/FlowInfo;)V
+PTG:
+Vars:
+5
+r1 1 -3 
+r4 1 -2 
+r2 1 -1 
+r3 1 -4 
+r0 1 -6 
+Fields: 0
+Accesses: 1
+0 1 -6 
+Functions: 35
+129 2 -3 -6 
+385 2 -3 -4 
+322 1 -2 
+199 3 -1 -3 -4 
+328 2 -3 -4 
+10 2 -3 -6 
+394 3 -1 -3 -4 
+337 3 -1 -3 -4 
+146 1 -2 
+210 3 -1 -3 -4 
+341 2 -3 -6 
+214 2 -3 -6 
+88 2 -3 -6 
+152 2 -3 -4 
+158 1 -2 
+223 2 -3 -6 
+351 2 -3 -6 
+164 2 -3 -4 
+292 1 -2 
+360 1 -2 
+105 1 -2 
+233 2 -3 -6 
+170 2 -3 -6 
+298 2 -3 -4 
+302 1 -2 
+366 2 -3 -4 
+111 2 -3 -4 
+370 2 -3 -6 
+179 2 -3 -6 
+308 2 -3 -4 
+117 1 -2 
+312 1 -2 
+123 2 -3 -4 
+379 1 -2 
+318 2 -3 -4 
+Constructors: 0
+
+Summary: 18
+106 -3 361 147 380 0 303 -4 1 313 4 118 323 2 293 -1 159 -6 
+org/eclipse/jdt/internal/compiler/flow/LoopingFlowContext.continueLabel()Lorg/eclipse/jdt/internal/compiler/codegen/BranchLabel;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 continueLabel 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

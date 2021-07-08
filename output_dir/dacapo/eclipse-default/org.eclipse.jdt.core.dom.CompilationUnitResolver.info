@@ -1,0 +1,1282 @@
+26
+org/eclipse/jdt/core/dom/CompilationUnitResolver.getHandlingPolicy()Lorg/eclipse/jdt/internal/compiler/IErrorHandlingPolicy;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 0
+
+org/eclipse/jdt/core/dom/CompilationUnitResolver.<init>(Lorg/eclipse/jdt/internal/compiler/env/INameEnvironment;Lorg/eclipse/jdt/internal/compiler/IErrorHandlingPolicy;Lorg/eclipse/jdt/internal/compiler/impl/CompilerOptions;Lorg/eclipse/jdt/internal/compiler/ICompilerRequestor;Lorg/eclipse/jdt/internal/compiler/IProblemFactory;Lorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+7
+r2 1 -3 
+r6 1 -7 
+r5 1 -6 
+r3 1 -4 
+r4 1 -5 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 2
+19 1 -1 
+13 1 -1 
+Functions: 1
+8 6 -1 -2 -3 -4 -5 -6 
+Constructors: 1
+8 -1
+
+Summary: 12
+-5 1 -6 -3 4 -1 2 5 -4 0 -2 3 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.createBinding(Ljava/lang/String;)Lorg/eclipse/jdt/core/dom/IBinding;
+PTG:
+Vars:
+11
+$r1 1 1 
+r0 1 -1 
+$r7 1 42 
+$r9 1 24 
+_ret 1 64 
+$r8 1 1 
+$r11 1 64 
+$r2 1 17 
+r6 1 35 
+r3 1 -2 
+$r4 1 24 
+Fields: 2
+-1 bindingTables 1
+-1 lookupEnvironment 24
+Accesses: 4
+0 1 -1 
+51 1 -1 
+23 1 -1 
+46 1 -1 
+Functions: 5
+56 3 1 24 42 
+27 5 -1 17 -2 1 24 
+13 0 
+61 2 35 42 
+31 1 17 
+Constructors: 2
+56 42
+27 17
+
+Summary: 5
+-1 35 17 42 -2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.parse([Lorg/eclipse/jdt/core/ICompilationUnit;Lorg/eclipse/jdt/core/dom/ASTRequestor;ILjava/util/Map;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+20
+$r17 1 173 
+r1 1 -5 
+$r0 1 0 
+$r10 1 69 
+$r12 1 75 
+$r16 1 170 
+r9 1 -7 
+$r18 1 195 
+$r20 1 203 
+$r6 1 23 
+r19 1 -3 
+r14 1 102 
+$r3 1 10 
+r11 1 69 
+r15 1 126 
+$r21 1 148 
+r24 1 188 
+$r4 1 14 
+r8 1 -2 
+$r5 1 18 
+Fields: 6
+10 scanner 170
+102 types 126
+-2 ArrayObject 69
+-2 ArrayObject 195
+-2 ArrayObject 203
+126 ArrayObject 148
+Accesses: 5
+83 1 0 
+115 1 102 
+104 1 102 
+168 1 10 
+121 1 102 
+Functions: 16
+-1 0 
+34 3 10 170 14 
+259 1 -7 
+196 2 195 188 
+5 2 0 -5 
+170 1 170 
+206 3 -3 203 188 
+244 1 -7 
+55 1 -7 
+183 6 148 -5 102 -7 173 126 
+88 2 69 75 
+153 5 148 102 10 170 126 
+217 1 -7 
+27 1 23 
+93 4 69 10 170 75 
+30 4 0 18 23 14 
+Constructors: 5
+34 10
+5 0
+88 75
+27 23
+30 14
+
+Summary: 15
+188 23 -5 173 -3 18 102 14 126 10 170 -7 75 -2 0 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.worked(I)V
+PTG:
+Vars:
+4
+$r3 1 1 
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 monitor 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+27 1 -1 
+Functions: 3
+32 1 1 
+23 0 
+8 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.resolve(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;ZZZ)Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;
+PTG:
+Vars:
+5
+r1 1 -2 
+_ret 1 9 
+r0 1 -1 
+r2 1 -3 
+$r3 1 9 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 2
+-3 -2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.getCompilerOptions(Ljava/util/Map;Z)Lorg/eclipse/jdt/internal/compiler/impl/CompilerOptions;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -2 
+Fields: 0
+Accesses: 4
+16 1 0 
+21 1 0 
+26 1 0 
+11 1 0 
+Functions: 1
+5 2 0 -2 
+Constructors: 1
+5 0
+
+Summary: 2
+0 -2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.accept([Lorg/eclipse/jdt/internal/compiler/env/ISourceType;Lorg/eclipse/jdt/internal/compiler/lookup/PackageBinding;Lorg/eclipse/jdt/internal/compiler/env/AccessRestriction;)V
+PTG:
+Vars:
+9
+r2 1 2 
+r8 1 -3 
+r3 1 -1 
+r6 1 -4 
+r0 1 -2 
+$r1 1 2 
+$r4 1 11 
+$r7 1 14 
+$r5 1 14 
+Fields: 1
+-2 ArrayObject 2
+Accesses: 0
+Functions: 3
+23 3 -1 -4 14 
+9 1 2 
+11 1 11 
+Constructors: 0
+
+Summary: 9
+-1 2 1 -4 2 14 -3 0 -2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.resolve(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;Lorg/eclipse/jdt/core/dom/NodeSearcher;ZZZ)Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;
+PTG:
+Vars:
+43
+$r8 1 347 
+$r36 1 -1 
+r26 1 157 
+$r32 1 106 
+$r33 1 52 
+$r44 1 117 
+$r35 1 22 
+$r22 1 117 
+$r11 1 96 
+r3 1 -4 
+$r25 1 117 
+$r29 1 114 
+$r16 1 96 
+$r45 1 96 
+$r43 1 114 
+$r12 1 96 
+$r9 1 22 
+$r19 1 117 
+r17 1 106 
+r4 1 -3 
+r5 1 74 
+$r2 1 32 
+$r28 1 106 
+$r30 1 106 
+$r14 1 96 
+$r42 1 117 
+$r7 1 340 
+r0 1 -1 
+r20 1 123 
+$r27 1 114 
+$r1 1 32 
+$r18 1 114 
+$r41 1 114 
+$r21 1 114 
+r40 2 27 -2 
+$r23 1 114 
+$r6 1 147 
+$r15 1 293 
+$r34 1 11 
+$r13 1 32 
+$r24 1 147 
+$r31 1 114 
+$r46 1 22 
+Fields: 14
+-1 requestor 340
+-1 unitsToProcess 22
+-1 parser 52
+-1 parser 114
+-1 lookupEnvironment 32
+27 compilationResult 147
+27 scope 96
+-4 found 106
+-4 enclosingType 157
+117 lineEnds 123
+22 ArrayObject 27
+-2 compilationResult 147
+-2 scope 96
+114 scanner 117
+Accesses: 37
+256 1 117 
+129 1 117 
+259 2 -2 27 
+325 1 -1 
+6 1 -1 
+137 1 -1 
+201 1 -1 
+138 1 114 
+266 2 -2 27 
+332 1 -1 
+273 2 -2 27 
+146 2 -2 27 
+339 1 -1 
+21 1 -1 
+343 2 -2 27 
+153 1 -4 
+285 2 -2 27 
+31 1 -1 
+95 2 -2 27 
+289 1 -1 
+227 1 -1 
+102 1 -4 
+40 1 -1 
+235 1 -1 
+172 1 -1 
+236 1 114 
+113 1 -1 
+114 1 114 
+370 1 -1 
+51 1 -1 
+244 1 117 
+117 1 117 
+247 1 -1 
+248 1 114 
+125 1 -1 
+62 1 -4 
+126 1 114 
+Functions: 22
+290 1 32 
+322 4 96 -2 147 27 
+99 7 96 -2 147 -4 106 27 157 
+68 1 -3 
+388 12 -1 32 96 -2 114 147 340 52 117 22 27 123 
+37 5 32 96 -2 147 27 
+232 8 96 -2 114 147 117 106 123 27 
+296 2 96 293 
+363 12 -1 32 96 -2 114 147 340 52 117 22 27 123 
+44 1 32 
+300 4 96 -2 147 27 
+270 1 96 
+208 9 96 -2 114 147 117 106 123 27 157 
+177 8 96 -2 114 147 117 106 123 27 
+401 12 -1 32 96 -2 114 147 340 52 117 22 27 123 
+18 12 -1 32 96 114 147 340 52 117 22 27 123 11 
+309 4 96 -2 147 27 
+150 4 147 117 74 123 
+56 5 96 -2 147 52 27 
+344 1 147 
+318 4 96 -2 147 27 
+350 2 340 347 
+Constructors: 0
+
+Summary: 10
+157 74 106 293 11 -4 0 1 347 2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.beginToCompile([Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;[Ljava/lang/String;)V
+PTG:
+Vars:
+41
+$r16 1 92 
+$r31 2 324 448 
+r0 1 -2 
+$r3 1 21 
+r1 1 -3 
+$r21 1 137 
+$r32 1 376 
+r41 1 51 
+$r4 1 31 
+$r5 1 53 
+$r25 1 272 
+$r46 1 299 
+$r30 1 315 
+$r17 1 108 
+$r18 1 116 
+r43 2 181 165 
+$r8 2 171 155 
+$r36 1 332 
+$r24 2 184 275 
+$r27 2 324 448 
+$r11 1 207 
+$r34 3 324 402 448 
+$r15 1 89 
+r49 1 332 
+$r22 1 249 
+$r14 1 96 
+$r26 1 437 
+$r13 2 171 155 
+$r50 2 429 442 
+r48 1 321 
+$r9 1 184 
+$r37 3 340 324 448 
+$r29 1 426 
+r2 1 -1 
+$r6 1 67 
+$r39 3 184 475 275 
+$r23 1 265 
+$r19 1 122 
+$r10 1 202 
+$r7 2 79 67 
+$r20 1 128 
+Fields: 13
+-1 requestedSources 202
+-1 options 67
+-1 out 89
+-1 requestedKeys 448
+-1 requestedKeys 324
+-1 parser 171
+-1 parser 155
+-1 lookupEnvironment 275
+-1 lookupEnvironment 184
+-1 lookupEnvironment 475
+-3 ArrayObject 272
+-2 ArrayObject 51
+299 compilationResult 315
+Accesses: 22
+256 1 -1 
+66 1 -1 
+67 1 67 
+323 1 -1 
+38 1 -1 
+201 1 -1 
+170 1 -1 
+78 1 -1 
+15 1 -1 
+79 2 67 79 
+143 1 -1 
+401 1 -1 
+274 1 -1 
+147 1 -1 
+339 1 -1 
+183 1 -1 
+24 1 -1 
+88 1 -1 
+313 1 299 
+154 1 -1 
+474 1 -1 
+447 1 -1 
+Functions: 36
+324 3 448 321 324 
+133 2 128 122 
+389 2 376 332 
+198 14 -1 448 67 324 165 202 171 275 51 181 184 89 155 475 
+455 5 448 324 265 442 429 
+73 2 51 53 
+140 2 89 137 
+205 1 53 
+397 2 376 265 
+461 11 -1 448 67 275 324 184 89 202 171 155 475 
+212 3 51 202 207 
+278 13 -1 448 67 324 265 202 171 272 275 184 89 155 475 
+409 5 448 321 402 324 376 
+218 11 -1 448 67 275 324 184 89 202 171 155 475 
+155 4 51 53 171 155 
+347 5 448 321 340 324 265 
+286 1 265 
+478 3 275 184 475 
+96 2 96 92 
+416 1 265 
+289 1 265 
+35 1 31 
+424 1 265 
+297 1 265 
+426 1 426 
+107 0 
+171 4 51 53 171 155 
+369 2 265 332 
+114 0 
+435 1 265 
+440 1 437 
+315 1 315 
+380 1 376 
+253 1 249 
+126 1 51 
+190 3 181 165 184 
+Constructors: 6
+35 31
+133 122
+278 265
+73 53
+380 376
+253 249
+
+Summary: 20
+437 429 181 165 265 332 -3 -1 137 53 207 442 426 96 321 376 -2 128 315 299 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.parse(Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;Lorg/eclipse/jdt/core/dom/NodeSearcher;Ljava/util/Map;I)Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;
+PTG:
+Vars:
+21
+r2 1 -4 
+$r1 1 12 
+$r4 1 49 
+$r6 1 57 
+$r18 1 173 
+r21 1 134 
+$r17 1 173 
+r22 1 173 
+r16 1 187 
+r0 1 -2 
+$r14 1 128 
+$r13 1 292 
+_ret 1 103 
+$r15 1 163 
+r23 1 270 
+$r5 1 53 
+r11 1 103 
+r12 1 -3 
+$r19 1 173 
+$r7 1 62 
+$r9 1 78 
+Fields: 6
+103 scope 163
+103 types 270
+270 ArrayObject 292
+-3 found 173
+-3 enclosingType 187
+49 scanner 128
+Accesses: 11
+161 1 103 
+116 1 103 
+85 1 12 
+39 1 12 
+183 1 -3 
+136 1 -3 
+105 1 103 
+169 1 -3 
+265 1 103 
+46 1 12 
+126 1 49 
+Functions: 14
+-1 0 
+128 1 128 
+66 1 62 
+259 7 128 49 163 292 103 173 270 
+69 4 53 57 12 62 
+166 7 -3 163 292 103 187 173 270 
+8 0 
+73 3 128 49 53 
+297 6 128 49 163 292 103 270 
+236 8 128 49 163 292 103 187 173 270 
+206 7 128 49 163 292 103 173 270 
+17 2 -4 12 
+90 2 -2 78 
+95 4 128 49 -2 78 
+Constructors: 5
+17 12
+66 62
+69 53
+73 49
+90 78
+
+Summary: 16
+1 173 -3 134 12 62 2 57 -4 53 78 187 0 -2 128 49 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.resolve([Lorg/eclipse/jdt/core/ICompilationUnit;[Ljava/lang/String;Lorg/eclipse/jdt/core/dom/ASTRequestor;ILjava/util/Map;Lorg/eclipse/jdt/core/WorkingCopyOwner;I)V
+PTG:
+Vars:
+56
+r55 1 131 
+r58 1 165 
+$r20 1 199 
+r57 1 156 
+$r38 1 537 
+r5 1 -3 
+$r7 1 117 
+$r41 1 586 
+$r49 1 -1 
+$r31 2 99 66 
+$r24 1 213 
+r1 1 -1 
+$r8 1 126 
+$r22 1 207 
+$r27 1 275 
+$r33 3 99 76 66 
+r19 1 -6 
+r54 1 123 
+$r11 1 117 
+$r39 3 514 578 322 
+$r37 2 514 322 
+$r35 2 493 219 
+$r2 1 6 
+r66 1 537 
+r53 1 105 
+r26 1 262 
+$r34 1 482 
+r17 1 -7 
+r62 1 380 
+$r12 1 454 
+$r23 1 219 
+$r51 1 -1 
+$r6 1 99 
+$r36 1 487 
+$r43 1 590 
+r61 1 330 
+$r42 1 586 
+r67 1 556 
+$r60 1 322 
+r0 1 -4 
+$r68 1 571 
+$r28 2 311 126 
+r3 1 -2 
+$r16 1 388 
+$r13 1 462 
+r4 1 25 
+r56 1 117 
+$r18 1 191 
+$r10 2 99 446 
+$r9 1 131 
+$r40 2 520 581 
+$r63 2 417 322 
+$r32 1 71 
+$r15 1 330 
+r65 1 520 
+r59 1 172 
+Fields: 22
+-1 requestedSources 126
+-1 requestor 454
+-1 bindingTables 493
+-1 bindingTables 219
+-1 unitsToProcess 99
+-1 unitsToProcess 66
+-1 monitor 199
+-1 requestedKeys 514
+-1 requestedKeys 322
+-1 lookupEnvironment 487
+520 ArrayObject 537
+520 ArrayObject 586
+514 valueTable 520
+578 valueTable 581
+99 ArrayObject 71
+99 ArrayObject 105
+322 valueTable 520
+105 compilationResult 117
+105 scope 213
+117 compilationUnit 156
+581 ArrayObject 586
+66 ArrayObject 71
+Accesses: 29
+65 1 -1 
+321 1 -1 
+513 1 -1 
+577 1 -1 
+2 1 -4 
+514 2 514 322 
+578 3 514 578 322 
+453 1 -1 
+198 1 -1 
+457 1 105 
+75 1 -1 
+13 1 -1 
+144 1 105 
+211 1 105 
+151 1 117 
+88 1 -1 
+218 1 -1 
+475 1 -1 
+671 1 -4 
+416 1 -1 
+98 1 -1 
+486 1 -1 
+679 1 -4 
+492 1 -1 
+115 1 105 
+310 1 -1 
+633 1 -4 
+125 1 -1 
+445 1 -1 
+Functions: 48
+322 5 322 520 537 586 123 
+386 1 380 
+647 19 -1 66 514 322 99 454 199 487 71 520 105 586 493 117 213 537 219 156 126 
+72 1 71 
+10 1 6 
+202 3 -6 199 191 
+459 2 117 156 
+587 1 586 
+268 2 131 262 
+398 22 -1 66 514 322 99 -4 388 454 -7 199 487 71 520 105 586 493 117 213 537 219 156 126 
+273 2 117 156 
+465 2 454 462 
+403 19 -1 66 514 322 99 454 199 487 71 520 105 586 493 117 213 537 219 156 126 
+595 3 -4 571 590 
+661 19 -1 66 514 322 99 454 199 487 71 520 105 586 493 117 213 537 219 156 126 
+278 2 275 262 
+406 1 380 
+600 19 -1 66 514 322 99 454 199 487 71 520 105 586 493 117 213 537 219 156 126 
+284 1 172 
+158 1 156 
+289 1 172 
+353 22 -1 66 514 322 99 -4 454 -7 199 487 71 520 105 586 330 493 117 213 537 219 156 126 
+37 2 -2 25 
+294 1 172 
+358 19 -1 66 514 322 99 454 199 487 71 520 105 586 493 117 213 537 219 156 126 
+167 0 
+423 6 417 322 520 537 586 123 
+551 1 537 
+234 4 213 -7 219 207 
+44 21 -1 66 514 322 -3 99 454 199 487 71 520 105 586 493 117 213 537 25 219 156 126 
+302 3 -4 131 262 
+112 19 -1 66 514 322 99 454 199 487 71 520 105 586 493 117 213 537 219 156 126 
+434 4 117 213 105 156 
+243 2 172 207 
+307 19 -1 66 514 322 99 454 199 487 71 520 105 586 493 117 213 537 219 156 126 
+628 19 -1 66 514 322 99 454 199 487 71 520 105 586 493 117 213 537 219 156 126 
+53 19 -1 66 514 322 99 454 199 487 71 520 105 586 493 117 213 537 219 156 126 
+117 2 117 156 
+182 1 172 
+374 1 330 
+567 2 482 556 
+250 2 172 191 
+442 4 117 213 105 156 
+188 1 172 
+508 5 482 -7 487 219 493 
+253 6 117 213 165 105 156 191 
+317 3 311 123 126 
+126 2 123 126 
+Constructors: 4
+10 6
+202 191
+234 207
+508 482
+
+Summary: 27
+172 590 131 165 -3 380 4 207 330 -6 571 2 5 25 462 123 388 -7 -4 0 191 1 482 556 262 275 -2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.initializeParser()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 6 
+Fields: 1
+-1 problemReporter 6
+Accesses: 2
+5 1 -1 
+13 1 -1 
+Functions: 1
+10 2 1 6 
+Constructors: 1
+10 1
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.reportBinding(Ljava/lang/Object;Lorg/eclipse/jdt/core/dom/ASTRequestor;Lorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;)V
+PTG:
+Vars:
+13
+r6 1 -1 
+r1 1 -2 
+r10 1 43 
+r4 1 -5 
+$r3 1 18 
+$r8 1 24 
+r0 1 -2 
+$r7 1 29 
+r13 2 57 69 
+r11 1 -3 
+r2 1 11 
+r5 1 -4 
+$r12 1 79 
+Fields: 2
+-1 bindingTables 29
+-5 scope 24
+Accesses: 2
+22 1 -5 
+28 1 -1 
+Functions: 7
+33 4 18 -4 24 29 
+50 2 18 43 
+84 4 -3 69 57 79 
+6 1 -2 
+38 1 -2 
+77 1 -2 
+62 2 18 11 
+Constructors: 1
+33 18
+
+Summary: 15
+11 43 -5 79 1 18 -3 -1 2 57 69 -4 24 0 -2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.resolve([Lorg/eclipse/jdt/core/ICompilationUnit;[Ljava/lang/String;Lorg/eclipse/jdt/core/dom/ASTRequestor;ILjava/util/Map;Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;ILorg/eclipse/core/runtime/IProgressMonitor;)V
+PTG:
+Vars:
+35
+r8 1 -6 
+$r9 1 84 
+$r10 1 87 
+$r20 1 150 
+$r22 1 159 
+$r16 1 130 
+$r36 1 -1 
+$r1 1 32 
+r38 1 50 
+r37 1 32 
+$r14 1 123 
+$r29 1 195 
+$r23 1 168 
+$r18 1 139 
+$r27 1 184 
+r11 1 -2 
+r13 1 -4 
+r12 1 -3 
+$r19 1 144 
+r0 1 -10 
+$r6 1 61 
+r2 1 -7 
+$r7 1 67 
+$r28 1 144 
+r3 1 -8 
+$r5 1 50 
+$r25 1 175 
+$r15 1 120 
+$r26 1 178 
+$r21 1 156 
+$r4 1 -7 
+$r17 1 133 
+$r31 1 204 
+$r30 1 201 
+$r24 1 165 
+Fields: 1
+32 nameLookup 144
+Accesses: 10
+144 1 144 
+257 1 50 
+322 1 32 
+246 1 32 
+296 1 50 
+187 1 32 
+189 1 144 
+285 1 32 
+333 1 50 
+142 1 32 
+Functions: 25
+-1 0 
+195 1 195 
+133 1 133 
+201 1 201 
+139 1 139 
+207 2 165 204 
+272 1 -10 
+83 1 -6 
+150 1 150 
+27 1 -10 
+156 1 156 
+94 8 32 144 50 67 84 87 -10 61 
+223 4 -2 -4 -6 -10 
+162 2 120 159 
+168 2 168 175 
+233 1 -10 
+172 1 168 
+45 5 32 144 -7 -8 -10 
+111 6 -2 -3 -4 -6 -8 61 
+178 1 178 
+309 1 -10 
+56 2 50 -10 
+184 1 184 
+123 2 130 123 
+127 1 123 
+Constructors: 5
+56 50
+172 168
+45 32
+94 61
+127 123
+
+Summary: 27
+156 204 -8 168 67 139 -3 130 178 -7 -10 -4 175 159 50 84 184 87 -6 201 150 32 133 195 -2 123 144 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.removeUnresolvedBindings(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)V
+PTG:
+Vars:
+18
+$r6 1 162 
+$r11 1 93 
+$r7 1 179 
+$r2 1 35 
+$r8 1 82 
+$r9 1 83 
+r14 1 -1 
+r0 1 -2 
+$r10 1 92 
+$r3 1 150 
+r1 1 4 
+$r15 1 21 
+$r12 1 109 
+$r5 1 161 
+r16 1 64 
+r17 1 128 
+$r13 1 35 
+$r4 1 151 
+Fields: 15
+150 binding 151
+4 ArrayObject 21
+161 binding 162
+92 binding 93
+-2 methods 128
+-2 memberTypes 4
+-2 fields 64
+-2 binding 35
+82 binding 83
+64 ArrayObject 92
+64 ArrayObject 82
+64 ArrayObject 109
+128 ArrayObject 179
+128 ArrayObject 150
+128 ArrayObject 161
+Accesses: 15
+0 1 -2 
+161 1 161 
+34 1 -2 
+162 1 162 
+41 1 -2 
+42 1 35 
+111 1 109 
+82 1 82 
+181 1 179 
+150 1 150 
+57 1 -2 
+60 1 -2 
+92 1 92 
+124 1 -2 
+93 1 93 
+Functions: 1
+22 2 -1 21 
+Constructors: 0
+
+Summary: 6
+35 -1 4 -2 64 128 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.handleInternalException(Lorg/eclipse/jdt/internal/compiler/problem/AbortCompilation;Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+17 1 -1 
+Functions: 2
+3 3 -1 -2 -3 
+12 2 -1 -3 
+Constructors: 0
+
+Summary: 3
+1 -3 -2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.resolve([Lorg/eclipse/jdt/core/IJavaElement;ILjava/util/Map;Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;ILorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/jdt/core/dom/IBinding;
+PTG:
+Vars:
+20
+r28 1 35 
+$r7 1 110 
+r30 2 110 93 
+r31 1 146 
+r32 1 203 
+r29 1 82 
+$r16 1 242 
+r19 1 -6 
+$r1 1 4 
+_ret 1 278 
+r17 1 -4 
+$r14 1 210 
+$r21 1 278 
+r18 1 -5 
+r20 1 -8 
+$r6 1 93 
+$r5 1 35 
+$r3 1 16 
+r0 1 -2 
+r33 1 230 
+Fields: 2
+242 bindings 278
+-2 ArrayObject 35
+Accesses: 1
+276 1 242 
+Functions: 25
+64 0 
+131 2 93 110 
+70 0 
+8 1 4 
+74 1 35 
+139 1 35 
+208 1 4 
+273 8 242 -4 -5 -6 230 278 -8 203 
+20 1 16 
+215 2 210 203 
+89 2 82 4 
+154 2 16 146 
+221 1 16 
+166 1 35 
+170 0 
+175 0 
+239 2 16 230 
+49 1 35 
+114 1 110 
+53 0 
+181 0 
+120 3 82 4 110 
+58 0 
+187 0 
+253 6 16 -2 242 35 4 278 
+Constructors: 4
+114 110
+20 16
+8 4
+253 242
+
+Summary: 23
+-8 67 166 16 181 58 82 146 110 210 -4 4 175 203 49 184 -5 242 -6 93 230 -2 64 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.process(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;I)V
+PTG:
+Vars:
+8
+$r4 1 9 
+$r5 1 13 
+$r7 1 24 
+r0 1 -2 
+r2 1 7 
+$r6 1 20 
+$r1 1 1 
+r3 1 -1 
+Fields: 3
+-1 requestedSources 20
+-1 requestedKeys 9
+-2 compilationResult 1
+Accesses: 3
+0 1 -2 
+19 1 -1 
+8 1 -1 
+Functions: 4
+1 1 1 
+33 5 -1 -2 1 20 9 
+20 2 20 7 
+9 2 7 9 
+Constructors: 0
+
+Summary: 6
+-1 1 7 13 24 -2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.resolve(Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;ZZZ)Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 8 
+r1 1 -2 
+$r2 1 8 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.resolve(Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;Lorg/eclipse/jdt/core/IJavaProject;Lorg/eclipse/jdt/core/dom/NodeSearcher;Ljava/util/Map;Lorg/eclipse/jdt/core/WorkingCopyOwner;ILorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;
+PTG:
+Vars:
+44
+$r29 1 285 
+$r30 1 288 
+$r24 1 259 
+$r36 1 125 
+r12 1 -4 
+$r9 1 62 
+$r16 1 217 
+r3 1 -8 
+$r22 1 252 
+$r0 1 12 
+$r32 1 110 
+$r33 1 130 
+$r14 1 204 
+$r21 1 243 
+$r6 1 40 
+$r37 1 150 
+r8 1 -5 
+$r5 1 29 
+r31 1 106 
+$r34 1 125 
+$r35 1 110 
+$r18 1 228 
+$r23 1 249 
+$r19 1 234 
+$r20 1 240 
+$r42 1 -1 
+$r26 1 268 
+$r39 1 125 
+$r13 1 207 
+$r38 1 141 
+$r25 1 262 
+r44 1 12 
+$r7 1 46 
+r11 1 -2 
+$r10 1 65 
+$r15 1 214 
+r2 1 -6 
+$r17 1 223 
+$r28 1 279 
+r1 1 -3 
+r47 1 88 
+r45 1 29 
+$r4 1 -3 
+$r27 1 228 
+Fields: 5
+125 problems 150
+88 compilationResult 110
+106 compilationResult 125
+110 problems 141
+12 nameLookup 228
+Accesses: 21
+192 1 29 
+226 1 12 
+228 1 228 
+133 1 125 
+166 1 125 
+136 1 88 
+138 1 110 
+108 1 88 
+333 1 12 
+110 1 110 
+271 1 12 
+145 1 106 
+273 1 228 
+306 1 12 
+147 1 125 
+181 1 12 
+344 1 29 
+90 1 40 
+123 1 106 
+317 1 29 
+159 1 106 
+Functions: 22
+-1 0 
+256 1 252 
+35 2 -8 29 
+291 2 288 249 
+101 3 -2 -4 -5 
+262 1 262 
+72 8 65 228 -8 40 12 29 46 62 
+234 1 234 
+268 1 268 
+77 3 -2 -4 40 
+207 2 214 207 
+240 1 240 
+211 1 207 
+246 2 243 204 
+279 1 279 
+24 5 -3 228 -6 -8 12 
+217 1 217 
+156 2 150 141 
+252 2 259 252 
+61 1 -5 
+285 1 285 
+223 1 223 
+Constructors: 5
+256 252
+35 29
+211 207
+24 12
+72 40
+
+Summary: 24
+228 -8 -3 4 12 285 65 -4 0 3 -5 6 240 1 288 -6 46 62 2 214 29 259 -2 243 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.removeUnresolvedBindings(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;)V
+PTG:
+Vars:
+4
+r2 1 -1 
+r0 1 -2 
+r1 1 4 
+$r3 1 21 
+Fields: 2
+4 ArrayObject 21
+-2 types 4
+Accesses: 1
+0 1 -2 
+Functions: 1
+22 2 -1 21 
+Constructors: 0
+
+Summary: 4
+-1 4 0 -2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.handleInternalException(Ljava/lang/Throwable;Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;Lorg/eclipse/jdt/internal/compiler/CompilationResult;)V
+PTG:
+Vars:
+4
+r3 1 -4 
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 4 -1 -2 -3 -4 
+13 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+2 -4 -3 0 -2 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.getRequestor()Lorg/eclipse/jdt/internal/compiler/ICompilerRequestor;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 0
+
+org/eclipse/jdt/core/dom/CompilationUnitResolver.resolvedRequestedSourcesAndKeys(I)Z
+PTG:
+Vars:
+9
+$r5 1 13 
+r3 1 31 
+$r7 1 13 
+r0 1 -1 
+$r2 1 2 
+$r6 1 79 
+$r1 1 2 
+r8 1 65 
+$r4 1 43 
+Fields: 6
+-1 requestedSources 2
+-1 requestedKeys 13
+13 valueTable 65
+31 ArrayObject 43
+65 ArrayObject 79
+2 valueTable 31
+Accesses: 6
+1 1 -1 
+24 1 -1 
+25 1 2 
+58 1 -1 
+59 1 13 
+12 1 -1 
+Functions: 2
+2 3 2 43 31 
+13 3 65 13 79 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/core/dom/CompilationUnitResolver.convert(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;[CILjava/util/Map;ZLorg/eclipse/jdt/core/WorkingCopyOwner;Lorg/eclipse/jdt/core/dom/DefaultBindingResolver$BindingTables;ILorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jdt/core/dom/CompilationUnit;
+PTG:
+Vars:
+16
+r6 1 -2 
+r7 1 -3 
+$r8 1 122 
+$r5 1 80 
+$r9 1 125 
+r2 1 -5 
+r3 1 -10 
+r17 1 117 
+_ret 1 117 
+r11 1 -7 
+r16 2 80 37 
+r12 1 -8 
+$r10 1 37 
+$r1 1 18 
+$r13 1 42 
+r0 1 7 
+Fields: 2
+-2 compilationResult 122
+-2 scope 42
+Accesses: 2
+41 1 -2 
+121 1 -2 
+Functions: 15
+128 2 117 125 
+3 0 
+100 3 80 37 7 
+134 1 7 
+74 1 7 
+107 2 18 7 
+139 1 7 
+12 1 7 
+110 5 -2 18 -3 122 42 
+144 1 7 
+84 1 80 
+122 1 122 
+27 3 18 -5 -10 
+61 4 37 -7 -8 42 
+93 1 7 
+Constructors: 3
+84 80
+27 18
+61 37
+
+Summary: 19
+7 -5 -8 6 1 18 -3 42 37 122 -7 -10 8 5 80 125 0 -2 3 

@@ -1,0 +1,1201 @@
+36
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getBundle(J)Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+4
+_ret 1 5 
+$r2 1 5 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 framework 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getServiceReferences(Ljava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/ServiceReference;
+PTG:
+Vars:
+7
+$r5 1 15 
+_ret 1 15 
+$r2 1 8 
+r3 1 -2 
+r4 1 -3 
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 framework 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+1 2 -1 5 
+5 1 5 
+8 5 -1 -2 -3 5 8 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.<clinit>()V
+PTG:
+Vars:
+2
+$r1 1 6 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 0 6 
+4 0 
+Constructors: 0
+
+Summary: 1
+6 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.removeBundleListener(Lorg/osgi/framework/BundleListener;)V
+PTG:
+Vars:
+27
+$r7 1 103 
+$r21 1 58 
+r31 1 57 
+$r18 1 41 
+$r14 1 22 
+$r20 1 51 
+$r27 1 89 
+$r25 1 81 
+$r9 1 103 
+$r26 1 86 
+r1 1 -2 
+$r17 1 33 
+$r3 1 156 
+$r2 1 153 
+$r4 1 163 
+$r5 1 163 
+$r10 1 120 
+$r19 1 48 
+$r11 1 127 
+r0 1 -1 
+$r23 1 72 
+$r22 1 69 
+$r8 1 107 
+$r15 1 27 
+$r24 1 77 
+$r12 1 127 
+$r16 1 30 
+Fields: 7
+-1 bundle 69
+-1 bundleEventSync 127
+-1 framework 103
+-1 framework 153
+-1 bundleEvent 163
+103 bundleEventSync 120
+153 bundleEvent 156
+Accesses: 10
+162 1 -1 
+68 1 -1 
+116 1 -1 
+117 1 103 
+133 1 -1 
+102 1 -1 
+152 1 -1 
+153 1 153 
+169 1 -1 
+126 1 -1 
+Functions: 22
+1 8 -1 163 69 103 120 153 156 127 
+65 1 58 
+36 2 33 22 
+72 1 72 
+41 2 48 41 
+106 8 -1 163 69 103 120 153 156 127 
+138 2 -2 127 
+12 0 
+44 1 -2 
+45 0 
+77 2 57 77 
+174 2 -2 163 
+81 1 81 
+113 3 103 120 107 
+51 1 51 
+22 1 22 
+86 1 86 
+26 1 -2 
+58 2 69 58 
+27 1 27 
+92 1 89 
+30 1 30 
+Constructors: 2
+65 58
+36 22
+
+Summary: 11
+51 27 107 -1 57 33 89 0 30 86 48 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.installBundle(Ljava/lang/String;)Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+_ret 1 3 
+$r2 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getServicesInUseMap()Ljava/util/Map;
+PTG:
+Vars:
+4
+$r3 1 8 
+$r1 1 1 
+$r4 1 -1 
+r0 1 -1 
+Fields: 2
+-1 contextLock 1
+-1 servicesInUse 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.stop()V
+PTG:
+Vars:
+2
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 7
+148 1 -1 
+54 1 -1 
+88 1 -1 
+41 1 -1 
+105 1 -1 
+121 1 -1 
+141 1 -1 
+Functions: 14
+98 0 
+5 2 0 -1 
+38 0 
+102 0 
+134 0 
+8 1 0 
+73 0 
+106 0 
+112 0 
+55 0 
+24 0 
+89 0 
+58 0 
+122 0 
+Constructors: 1
+5 0
+
+Summary: 8
+73 58 30 -1 85 129 92 112 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.createFilter(Ljava/lang/String;)Lorg/osgi/framework/Filter;
+PTG:
+Vars:
+4
+r1 1 -2 
+_ret 1 5 
+$r2 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+4 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.setContextFinder()Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r3 1 20 
+_ret 1 45 
+r1 1 18 
+r2 1 -1 
+$r5 1 45 
+r0 1 13 
+r4 1 26 
+Fields: 1
+-1 framework 20
+Accesses: 2
+33 1 -1 
+19 1 -1 
+Functions: 5
+34 0 
+20 1 20 
+40 1 13 
+10 0 
+14 1 13 
+Constructors: 0
+
+Summary: 4
+-1 13 37 26 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.addServiceListener(Lorg/osgi/framework/ServiceListener;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r4 1 -3 
+r0 1 -1 
+$r3 1 20 
+r1 1 -2 
+$r2 1 17 
+Fields: 1
+-1 framework 17
+Accesses: 1
+16 1 -1 
+Functions: 4
+1 2 -1 17 
+17 1 17 
+26 5 -1 17 -2 -3 20 
+12 0 
+Constructors: 0
+
+Summary: 3
+-1 -3 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.checkValid()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -1 
+14 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getAllServiceReferences(Ljava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/ServiceReference;
+PTG:
+Vars:
+7
+$r1 1 5 
+_ret 1 15 
+r3 1 -2 
+$r5 1 15 
+$r2 1 8 
+r0 1 -1 
+r4 1 -3 
+Fields: 1
+-1 framework 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+1 2 -1 5 
+5 1 5 
+8 5 -1 -2 -3 5 8 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getBundles()[Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 4 
+$r1 1 1 
+$r2 1 4 
+Fields: 1
+-1 framework 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.close()V
+PTG:
+Vars:
+19
+$r8 1 73 
+$r16 1 6 
+$r20 1 22 
+$r14 1 110 
+r0 1 -1 
+$r11 1 117 
+$r4 1 22 
+$r17 1 66 
+$r3 1 6 
+$r6 1 6 
+$r19 1 6 
+$r13 1 6 
+$r9 1 6 
+$r1 1 6 
+r2 1 12 
+$r7 1 66 
+$r5 1 29 
+$r12 1 161 
+$r10 1 110 
+Fields: 8
+-1 frameworkEvent 29
+-1 contextLock 161
+-1 bundleEventSync 117
+-1 framework 6
+-1 bundleEvent 73
+6 bundleEventSync 110
+6 frameworkEvent 22
+6 bundleEvent 66
+Accesses: 22
+160 1 -1 
+2 1 -1 
+35 1 -1 
+36 1 6 
+5 1 -1 
+72 1 -1 
+169 1 -1 
+106 1 -1 
+107 1 6 
+139 1 -1 
+79 1 -1 
+80 1 6 
+18 1 -1 
+19 1 6 
+51 1 -1 
+116 1 -1 
+123 1 -1 
+28 1 -1 
+124 1 6 
+62 1 -1 
+63 1 6 
+95 1 -1 
+Functions: 7
+131 9 -1 161 66 117 6 22 73 29 110 
+6 4 66 6 22 110 
+87 9 -1 161 66 117 6 22 73 29 110 
+152 10 -1 161 66 117 6 22 73 12 29 110 
+43 9 -1 161 66 117 22 6 73 29 110 
+157 10 -1 161 66 117 6 22 73 12 29 110 
+15 10 -1 161 66 117 6 22 73 12 29 110 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getBundleImpl()Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 bundle 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.<init>(Lorg/eclipse/osgi/framework/internal/core/BundleHost;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 -2 
+$r1 1 5 
+$r3 1 27 
+$r4 1 49 
+Fields: 2
+-1 contextLock 49
+-2 framework 27
+Accesses: 11
+48 1 -1 
+17 1 -1 
+35 1 -1 
+22 1 -1 
+70 1 -1 
+40 1 -1 
+57 1 -1 
+26 1 -2 
+12 1 -1 
+45 1 -1 
+30 1 -1 
+Functions: 2
+1 2 -1 49 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 2
+-1 0 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.addFrameworkListener(Lorg/osgi/framework/FrameworkListener;)V
+PTG:
+Vars:
+24
+$r19 1 69 
+$r12 1 27 
+r0 1 -1 
+$r16 1 48 
+$r4 1 110 
+$r21 1 77 
+$r5 1 110 
+$r2 1 96 
+$r24 1 89 
+$r11 1 22 
+$r8 1 96 
+$r23 1 86 
+$r15 1 41 
+$r17 1 51 
+$r20 1 72 
+$r3 1 99 
+r27 1 57 
+$r18 1 58 
+$r9 1 99 
+$r13 1 30 
+$r14 1 33 
+$r7 1 117 
+r1 1 -2 
+$r22 1 81 
+Fields: 4
+-1 frameworkEvent 110
+-1 bundle 69
+-1 framework 96
+96 frameworkEvent 99
+Accesses: 8
+96 1 96 
+128 1 96 
+68 1 -1 
+124 1 -1 
+109 1 -1 
+142 1 -1 
+95 1 -1 
+127 1 -1 
+Functions: 22
+1 5 -1 96 99 69 110 
+65 1 58 
+36 2 33 22 
+72 1 72 
+136 5 -1 96 99 69 110 
+41 2 48 41 
+106 5 -1 96 99 69 110 
+12 0 
+44 1 -2 
+45 0 
+77 2 57 77 
+81 1 81 
+51 1 51 
+148 2 -2 110 
+22 1 22 
+86 1 86 
+121 1 117 
+26 1 -2 
+58 2 69 58 
+27 1 27 
+92 1 89 
+30 1 30 
+Constructors: 3
+65 58
+36 22
+121 117
+
+Summary: 10
+51 27 30 86 -1 57 33 89 48 0 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.removeServiceListener(Lorg/osgi/framework/ServiceListener;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+$r2 1 17 
+$r3 1 20 
+r0 1 -1 
+Fields: 1
+-1 framework 17
+Accesses: 1
+16 1 -1 
+Functions: 4
+1 2 -1 17 
+17 1 17 
+25 4 -1 17 -2 20 
+12 0 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getDataFile(Ljava/lang/String;)Ljava/io/File;
+PTG:
+Vars:
+6
+$r3 1 5 
+_ret 1 13 
+r0 1 -1 
+$r4 1 13 
+r1 1 -2 
+$r2 1 9 
+Fields: 2
+-1 bundle 9
+-1 framework 5
+Accesses: 2
+4 1 -1 
+8 1 -1 
+Functions: 2
+1 3 -1 5 9 
+5 3 -2 5 9 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.ungetService(Lorg/osgi/framework/ServiceReference;)Z
+PTG:
+Vars:
+5
+$r2 1 8 
+$r1 1 5 
+r0 1 -1 
+$r4 1 -2 
+r3 1 -2 
+Fields: 1
+-1 framework 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+1 2 -1 5 
+5 1 5 
+8 4 -1 -2 5 8 
+Constructors: 0
+
+Summary: 4
+-1 8 0 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.isValid()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getService(Lorg/osgi/framework/ServiceReference;)Ljava/lang/Object;
+PTG:
+Vars:
+10
+_ret 1 66 
+$r4 1 27 
+$r5 1 55 
+r1 1 -2 
+$r9 1 34 
+$r6 1 58 
+$r8 1 66 
+$r2 1 20 
+r0 1 -1 
+$r7 1 -2 
+Fields: 3
+-1 contextLock 20
+-1 servicesInUse 27
+-1 framework 55
+Accesses: 4
+19 1 -1 
+54 1 -1 
+26 1 -1 
+43 1 -1 
+Functions: 5
+1 4 -1 20 55 27 
+55 1 55 
+40 1 34 
+58 6 -1 -2 20 55 58 27 
+15 0 
+Constructors: 1
+40 34
+
+Summary: 4
+-1 58 0 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.registerService([Ljava/lang/String;Ljava/lang/Object;Ljava/util/Dictionary;)Lorg/osgi/framework/ServiceRegistration;
+PTG:
+Vars:
+8
+_ret 1 15 
+r3 1 -2 
+$r6 1 15 
+r4 1 -3 
+$r1 1 5 
+r0 1 -1 
+$r2 1 8 
+r5 1 -4 
+Fields: 1
+-1 framework 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+1 2 -1 5 
+5 1 5 
+8 6 -1 -2 -3 -4 5 8 
+Constructors: 0
+
+Summary: 8
+-1 2 1 -4 8 -3 0 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getServiceReference(Ljava/lang/String;)Lorg/osgi/framework/ServiceReference;
+PTG:
+Vars:
+6
+r3 1 -2 
+_ret 1 13 
+r0 1 -1 
+$r1 1 5 
+$r2 1 8 
+$r4 1 13 
+Fields: 1
+-1 framework 5
+Accesses: 1
+4 1 -1 
+Functions: 3
+1 2 -1 5 
+5 1 5 
+8 4 -1 -2 5 8 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getFramework()Lorg/eclipse/osgi/framework/internal/core/Framework;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 framework 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getProperty(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+6
+_ret 1 18 
+r1 1 -1 
+r0 1 3 
+r2 1 -2 
+$r3 1 14 
+$r4 1 18 
+Fields: 1
+-1 framework 14
+Accesses: 1
+13 1 -1 
+Functions: 3
+0 0 
+10 2 -2 3 
+14 2 -2 14 
+Constructors: 0
+
+Summary: 4
+-1 3 0 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.removeFrameworkListener(Lorg/osgi/framework/FrameworkListener;)V
+PTG:
+Vars:
+21
+$r10 1 33 
+$r17 1 77 
+$r5 1 106 
+$r9 1 30 
+r0 1 -1 
+$r20 1 89 
+$r16 1 72 
+$r19 1 86 
+$r3 1 99 
+$r8 1 27 
+$r15 1 69 
+$r7 1 22 
+$r11 1 41 
+$r18 1 81 
+$r13 1 51 
+r23 1 57 
+$r2 1 96 
+$r12 1 48 
+r1 1 -2 
+$r14 1 58 
+$r4 1 106 
+Fields: 4
+-1 frameworkEvent 106
+-1 bundle 69
+-1 framework 96
+96 frameworkEvent 99
+Accesses: 5
+96 1 96 
+112 1 -1 
+68 1 -1 
+105 1 -1 
+95 1 -1 
+Functions: 19
+1 5 -1 96 99 69 106 
+65 1 58 
+36 2 33 22 
+72 1 72 
+41 2 48 41 
+12 0 
+44 1 -2 
+45 0 
+77 2 57 77 
+81 1 81 
+51 1 51 
+117 2 -2 106 
+22 1 22 
+86 1 86 
+26 1 -2 
+58 2 69 58 
+27 1 27 
+92 1 89 
+30 1 30 
+Constructors: 2
+65 58
+36 22
+
+Summary: 10
+51 27 30 86 -1 57 33 89 48 0 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.start()V
+PTG:
+Vars:
+5
+$r4 1 12 
+r0 1 -1 
+$r1 1 2 
+$r2 1 5 
+$r3 1 12 
+Fields: 2
+-1 bundle 2
+-1 activator 12
+Accesses: 5
+32 1 -1 
+1 1 -1 
+19 1 -1 
+8 1 -1 
+11 1 -1 
+Functions: 2
+2 1 2 
+23 3 -1 2 12 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.registerService(Ljava/lang/String;Ljava/lang/Object;Ljava/util/Dictionary;)Lorg/osgi/framework/ServiceRegistration;
+PTG:
+Vars:
+7
+r3 1 -1 
+r4 1 -3 
+_ret 1 15 
+r1 1 -2 
+r5 1 -4 
+$r0 1 1 
+$r6 1 15 
+Fields: 0
+Accesses: 0
+Functions: 1
+10 4 -1 1 -3 -4 
+Constructors: 0
+
+Summary: 7
+-1 2 1 -4 -3 0 1 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.dispatchEvent(Ljava/lang/Object;Ljava/lang/Object;ILjava/lang/Object;)V
+PTG:
+Vars:
+73
+r76 1 -5 
+$r62 1 10 
+$r19 1 413 
+$r25 1 268 
+$r45 1 103 
+$r63 1 453 
+$r40 1 73 
+$r9 1 353 
+$r20 1 416 
+$r22 1 254 
+r73 1 -3 
+$r64 1 465 
+r0 1 -1 
+r74 1 384 
+$r15 1 386 
+$r18 1 408 
+$r59 1 486 
+r71 1 -5 
+$r51 1 437 
+$r26 1 276 
+r69 1 101 
+$r46 1 115 
+r5 1 -3 
+$r10 1 356 
+r2 1 10 
+$r33 1 314 
+$r11 1 359 
+$r78 1 580 
+$r30 1 299 
+$r36 1 -3 
+$r21 1 248 
+$r41 1 76 
+$r37 1 -5 
+$r43 1 92 
+$r4 1 10 
+$r50 1 133 
+$r32 1 309 
+$r77 1 534 
+r67 1 -2 
+$r47 1 120 
+$r17 1 403 
+$r34 1 317 
+$r42 1 84 
+r6 1 -5 
+$r31 1 304 
+$r66 1 471 
+r68 1 -3 
+$r39 1 70 
+$r49 1 130 
+$r58 1 483 
+$r29 1 287 
+$r60 1 483 
+$r12 1 367 
+$r27 1 279 
+r70 1 -5 
+$r44 1 95 
+$r3 1 586 
+$r16 1 398 
+$r35 1 -3 
+r72 1 -3 
+$r61 1 540 
+$r48 1 125 
+$r8 1 347 
+$r57 1 -1 
+$r14 1 378 
+$r23 1 257 
+$r13 1 375 
+r1 1 4 
+$r38 1 64 
+$r24 1 260 
+$r7 1 -5 
+$r65 1 468 
+r28 1 285 
+Fields: 3
+-1 bundle 4
+-1 framework 483
+483 adaptor 486
+Accesses: 4
+0 1 -1 
+482 1 -1 
+483 1 483 
+520 1 -1 
+Functions: 70
+-1 0 
+257 1 257 
+130 1 130 
+386 2 386 4 
+6 4 -1 483 4 486 
+263 2 260 248 
+136 1 133 
+393 1 386 
+12 4 -1 483 4 486 
+268 2 276 268 
+398 1 398 
+271 1 -3 
+273 0 
+529 4 -1 483 4 486 
+146 1 -5 
+403 2 384 403 
+279 1 279 
+408 1 408 
+413 1 413 
+287 2 4 287 
+419 1 416 
+548 2 10 540 
+294 1 287 
+299 1 299 
+429 2 -3 -5 
+304 2 304 285 
+309 1 309 
+185 1 -3 
+441 1 437 
+314 1 314 
+572 0 
+64 1 64 
+320 1 317 
+68 1 -3 
+453 2 465 453 
+70 1 70 
+327 2 -3 -5 
+73 1 73 
+460 1 453 
+206 1 -3 
+79 2 64 76 
+463 1 -1 
+594 2 586 10 
+84 2 84 92 
+468 1 468 
+87 1 -3 
+89 0 
+474 1 471 
+347 1 347 
+221 2 -3 -5 
+95 1 95 
+351 1 -3 
+479 1 -1 
+353 1 353 
+356 1 356 
+103 2 4 103 
+362 2 359 347 
+491 2 -1 486 
+110 1 103 
+367 2 375 367 
+370 1 -3 
+115 1 115 
+372 0 
+120 2 101 120 
+248 1 248 
+378 1 378 
+252 1 -3 
+508 1 -5 
+125 1 125 
+254 1 254 
+Constructors: 8
+294 287
+263 248
+393 386
+441 437
+362 347
+460 453
+110 103
+79 64
+
+Summary: 37
+10 -1 359 375 314 471 378 92 76 279 353 95 586 465 257 564 101 254 133 260 276 413 356 130 317 285 468 73 0 3 -5 1 384 70 416 540 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.addServiceListener(Lorg/osgi/framework/ServiceListener;)V
+PTG:
+Vars:
+7
+$r4 1 16 
+r0 1 -1 
+$r6 1 29 
+$r5 1 26 
+$r2 1 -1 
+$r7 1 32 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 7
+16 2 16 26 
+3 2 -1 -2 
+35 1 32 
+22 1 16 
+39 1 -1 
+25 1 -1 
+29 1 29 
+Constructors: 1
+22 16
+
+Summary: 5
+-1 29 26 32 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.installBundle(Ljava/lang/String;Ljava/io/InputStream;)Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+6
+r2 1 -3 
+_ret 1 10 
+$r4 1 10 
+r0 1 -1 
+$r3 1 5 
+r1 1 -2 
+Fields: 1
+-1 framework 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 3 -2 -3 5 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.startActivator(Lorg/osgi/framework/BundleActivator;)V
+PTG:
+Vars:
+3
+r1 1 -1 
+r2 1 -2 
+$r0 1 13 
+Fields: 0
+Accesses: 3
+88 1 -1 
+105 1 -1 
+121 1 -1 
+Functions: 17
+98 0 
+164 0 
+38 0 
+102 0 
+134 0 
+73 0 
+10 0 
+106 0 
+112 0 
+19 3 -1 -2 13 
+52 0 
+149 0 
+22 1 13 
+57 1 -2 
+89 0 
+58 0 
+122 0 
+Constructors: 1
+19 13
+
+Summary: 10
+73 58 -1 85 129 44 0 92 -2 112 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getBundle()Lorg/osgi/framework/Bundle;
+PTG:
+Vars:
+3
+$r1 1 5 
+_ret 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+1 1 -1 
+4 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.addBundleListener(Lorg/osgi/framework/BundleListener;)V
+PTG:
+Vars:
+33
+$r14 1 119 
+$r18 1 137 
+$r8 1 183 
+$r24 1 30 
+$r35 1 88 
+$r11 1 102 
+$r26 1 41 
+r39 1 57 
+$r34 1 85 
+r0 1 -1 
+r1 1 -2 
+$r31 1 71 
+$r2 1 183 
+$r33 1 80 
+$r13 1 102 
+$r27 1 48 
+$r15 1 130 
+$r19 1 102 
+$r20 1 119 
+$r23 1 27 
+$r30 1 68 
+$r7 1 204 
+$r22 1 22 
+$r16 1 130 
+$r4 1 197 
+$r9 1 186 
+$r3 1 186 
+$r12 1 106 
+$r28 1 51 
+$r5 1 197 
+$r29 1 58 
+$r32 1 76 
+$r25 1 33 
+Fields: 7
+-1 bundle 68
+-1 bundleEventSync 130
+-1 framework 102
+-1 framework 183
+-1 bundleEvent 197
+183 bundleEvent 186
+102 bundleEventSync 119
+Accesses: 16
+129 1 -1 
+162 1 -1 
+67 1 -1 
+196 1 -1 
+101 1 -1 
+229 1 -1 
+144 1 -1 
+115 1 -1 
+147 1 -1 
+211 1 -1 
+116 1 102 
+148 1 102 
+182 1 -1 
+214 1 -1 
+183 1 183 
+215 1 183 
+Functions: 28
+64 1 58 
+1 8 -1 130 68 197 102 183 119 186 
+193 8 -1 130 68 197 102 183 119 186 
+71 1 71 
+12 0 
+76 2 57 76 
+141 1 137 
+80 1 80 
+208 1 204 
+85 1 85 
+22 1 22 
+26 1 -2 
+27 1 27 
+91 1 88 
+156 8 -1 130 68 197 102 119 183 186 
+30 1 30 
+223 8 -1 130 68 197 102 183 119 186 
+36 2 33 22 
+168 2 -2 130 
+41 2 48 41 
+105 8 -1 130 68 197 102 183 119 186 
+235 2 -2 197 
+44 1 -2 
+45 0 
+112 3 102 119 106 
+51 1 51 
+58 2 68 58 
+126 8 -1 130 68 197 102 183 119 186 
+Constructors: 4
+64 58
+208 204
+36 22
+141 137
+
+Summary: 11
+51 27 106 -1 57 33 0 30 85 48 88 
+org/eclipse/osgi/framework/internal/core/BundleContextImpl.getBundleByLocation(Ljava/lang/String;)Lorg/eclipse/osgi/framework/internal/core/AbstractBundle;
+PTG:
+Vars:
+5
+r1 1 -2 
+$r2 1 1 
+_ret 1 5 
+r0 1 -1 
+$r3 1 5 
+Fields: 1
+-1 framework 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 

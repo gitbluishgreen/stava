@@ -1,0 +1,1133 @@
+34
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.computeDemerits(Lorg/apache/fop/layoutmgr/BreakingAlgorithm$KnuthNode;Lorg/apache/fop/layoutmgr/KnuthElement;ID)D
+PTG:
+Vars:
+13
+r2 1 -1 
+r1 1 -2 
+$r6 1 259 
+$r7 1 259 
+$r3 1 197 
+$r8 1 197 
+$r4 1 197 
+$r9 1 -3 
+$r10 1 126 
+r0 1 -3 
+$r11 1 140 
+$r5 1 197 
+$r12 1 140 
+Fields: 1
+-1 footnotesList 197
+Accesses: 18
+192 1 -1 
+224 1 -1 
+163 1 -2 
+196 1 -1 
+136 1 -2 
+233 1 -1 
+237 1 -1 
+177 1 -1 
+210 1 -1 
+275 1 -1 
+247 1 -1 
+185 1 -1 
+122 1 -2 
+154 1 -1 
+219 1 -1 
+251 1 -1 
+285 1 -2 
+255 1 -1 
+Functions: 19
+33 1 -3 
+3 0 
+67 1 -3 
+197 1 197 
+262 1 259 
+135 2 -1 197 
+167 0 
+104 1 -3 
+42 1 -3 
+74 1 -3 
+238 1 197 
+143 1 140 
+112 1 -3 
+211 1 197 
+121 2 -1 197 
+26 1 -3 
+60 1 -3 
+252 1 197 
+126 1 126 
+Constructors: 0
+
+Summary: 8
+-2 0 140 259 1 -3 126 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.restartFrom(Lorg/apache/fop/layoutmgr/BreakingAlgorithm$KnuthNode;I)I
+PTG:
+Vars:
+6
+r2 1 37 
+$r4 1 37 
+r0 1 -1 
+r1 1 -2 
+$r5 1 64 
+$r3 1 37 
+Fields: 0
+Accesses: 3
+24 1 -2 
+9 1 -1 
+12 1 -1 
+Functions: 5
+0 2 -1 -2 
+49 1 37 
+67 2 -1 64 
+61 1 37 
+31 1 -1 
+Constructors: 0
+
+Summary: 5
+-2 0 37 64 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.access$000(Lorg/apache/fop/layoutmgr/PageBreakingAlgorithm;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.filterActiveNodes()I
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 67 
+r2 2 20 83 
+Fields: 1
+83 next 83
+Accesses: 8
+32 2 83 20 
+2 1 -1 
+51 1 67 
+8 1 -1 
+25 1 -1 
+44 1 67 
+93 1 67 
+79 2 83 20 
+Functions: 4
+76 3 -1 83 20 
+45 0 
+61 4 -1 67 83 20 
+15 1 -1 
+Constructors: 0
+
+Summary: 4
+67 20 83 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.<clinit>()V
+PTG:
+Vars:
+3
+$r2 2 8 18 
+$r0 1 0 
+$r1 1 21 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.insertPageBreakAsFirst(Lorg/apache/fop/layoutmgr/AbstractBreaker$PageBreakPosition;)V
+PTG:
+Vars:
+5
+$r1 1 1 
+r2 1 -2 
+$r4 1 8 
+$r3 1 1 
+r0 1 -1 
+Fields: 1
+-1 pageBreaks 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 2
+23 2 1 -2 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.getFootnoteSplit(Lorg/apache/fop/layoutmgr/PageBreakingAlgorithm$KnuthPageNode;IZ)I
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 3
+1 1 -2 
+5 1 -2 
+9 1 -2 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.computeDifference(Lorg/apache/fop/layoutmgr/BreakingAlgorithm$KnuthNode;Lorg/apache/fop/layoutmgr/KnuthElement;I)I
+PTG:
+Vars:
+13
+r1 1 -2 
+$r11 1 123 
+$r8 1 244 
+$r6 1 224 
+$r10 1 103 
+$r7 1 244 
+r3 1 -3 
+$r4 1 61 
+$r12 1 123 
+$r5 1 224 
+r2 1 -1 
+r0 1 -2 
+$r9 1 103 
+Fields: 3
+-1 footnoteSeparatorLength 61
+-1 footnotesList 103
+-1 footnotesList 224
+Accesses: 26
+259 1 -2 
+197 1 -1 
+6 1 -1 
+134 1 -1 
+10 1 -2 
+271 1 -1 
+211 1 -2 
+153 1 -1 
+90 1 -2 
+219 1 -1 
+223 1 -1 
+34 1 -1 
+98 1 -1 
+102 1 -1 
+232 1 -1 
+41 1 -1 
+236 1 -1 
+45 1 -2 
+111 1 -1 
+240 1 -1 
+115 1 -1 
+119 1 -1 
+60 1 -1 
+61 1 61 
+189 1 -2 
+255 1 -1 
+Functions: 13
+160 5 -1 224 -2 103 61 
+224 1 224 
+258 4 -1 224 103 61 
+163 4 -1 224 103 61 
+103 1 103 
+75 4 -1 224 103 61 
+140 5 -1 224 -2 103 61 
+237 1 224 
+18 1 -3 
+116 1 103 
+247 1 244 
+27 1 -3 
+126 1 123 
+Constructors: 0
+
+Summary: 7
+-2 0 244 123 1 -3 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.updateData2(Lorg/apache/fop/layoutmgr/BreakingAlgorithm$KnuthNode;Lorg/apache/fop/layoutmgr/KnuthSequence;I)V
+PTG:
+Vars:
+37
+$r21 1 63 
+$r18 1 24 
+$r8 1 303 
+$r20 1 66 
+$r22 1 75 
+$r3 1 -2 
+r30 1 -3 
+$r10 1 313 
+$r16 1 254 
+$r12 1 323 
+$r26 1 96 
+r0 1 -2 
+$r9 1 308 
+$r5 1 347 
+$r35 1 240 
+$r29 1 41 
+$r34 1 216 
+$r11 1 318 
+$r19 1 52 
+$r24 1 89 
+$r23 1 84 
+$r15 1 240 
+$r17 1 254 
+$r36 1 280 
+$r33 1 216 
+$r27 1 99 
+$r31 1 216 
+$r32 1 216 
+$r4 1 -2 
+$r28 1 24 
+$r6 1 294 
+$r13 1 330 
+r1 1 -1 
+$r25 1 92 
+$r7 1 291 
+$r14 1 333 
+$r2 1 342 
+Fields: 4
+-2 previous 216
+-1 layoutListener 24
+-1 footnotesList 240
+-1 topLevelLM 347
+Accesses: 23
+0 1 -2 
+34 1 -2 
+227 1 -2 
+134 1 -1 
+326 1 -2 
+231 1 216 
+359 1 -2 
+8 1 -2 
+107 1 -2 
+140 1 -2 
+78 1 -2 
+366 1 -2 
+239 1 -1 
+16 1 -1 
+23 1 -1 
+215 1 -2 
+248 1 -1 
+346 1 -1 
+219 1 216 
+189 1 -2 
+30 1 -1 
+350 1 -2 
+127 1 -1 
+Functions: 25
+257 1 254 
+66 1 66 
+323 1 323 
+70 1 66 
+330 1 330 
+75 1 75 
+336 2 291 333 
+84 1 84 
+280 1 280 
+89 1 89 
+95 4 -1 240 24 347 
+96 2 96 92 
+102 2 99 63 
+294 1 294 
+40 4 -1 240 24 347 
+298 1 294 
+44 2 24 41 
+303 1 303 
+52 1 52 
+308 1 308 
+376 2 342 347 
+249 1 240 
+313 1 313 
+379 5 -1 240 342 24 347 
+318 1 318 
+Constructors: 3
+70 66
+376 342
+298 294
+
+Summary: 15
+89 -3 -2 333 99 342 92 0 1 41 -1 216 254 330 96 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.noBreakBetween(II)Z
+PTG:
+Vars:
+12
+$r9 1 62 
+$r12 1 66 
+$r10 1 107 
+$r4 1 62 
+$r6 1 62 
+$r8 1 135 
+$r7 1 135 
+$r11 1 62 
+$r2 1 62 
+$r5 1 121 
+$r3 1 91 
+r0 1 -1 
+Fields: 1
+-1 par 62
+Accesses: 16
+0 1 -1 
+32 1 -1 
+161 1 -1 
+130 1 -1 
+100 1 -1 
+166 1 -1 
+40 1 -1 
+9 1 -1 
+47 1 -1 
+17 1 -1 
+116 1 -1 
+180 1 -1 
+86 1 -1 
+183 1 -1 
+24 1 -1 
+61 1 -1 
+Functions: 10
+66 1 66 
+131 1 62 
+101 1 62 
+117 1 62 
+87 1 62 
+121 1 121 
+138 1 135 
+91 1 91 
+107 1 107 
+62 1 62 
+Constructors: 0
+
+Summary: 6
+121 91 135 107 66 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.finish()V
+PTG:
+Vars:
+4
+$r1 1 15 
+r0 1 -1 
+r3 2 15 43 
+$r2 1 43 
+Fields: 1
+15 next 43
+Accesses: 5
+0 1 -1 
+6 1 -1 
+26 2 43 15 
+42 2 43 15 
+30 1 -1 
+Functions: 2
+39 3 -1 43 15 
+13 1 -1 
+Constructors: 0
+
+Summary: 3
+15 43 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.access$100(Lorg/apache/fop/layoutmgr/PageBreakingAlgorithm;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.computeAdjustmentRatio(Lorg/apache/fop/layoutmgr/BreakingAlgorithm$KnuthNode;I)D
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 10
+64 1 -1 
+96 1 -1 
+81 1 -1 
+4 1 -1 
+36 1 -1 
+68 1 -2 
+21 1 -1 
+8 1 -2 
+89 1 -1 
+29 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.access$200(Lorg/apache/fop/layoutmgr/PageBreakingAlgorithm;)I
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 1
+0 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.getFootnoteSplit(IIIIZ)I
+PTG:
+Vars:
+23
+$r19 1 102 
+$r8 1 251 
+$r1 1 28 
+$r20 1 93 
+$r5 1 28 
+$r21 1 130 
+$r11 1 407 
+$r6 1 183 
+r24 1 251 
+$r7 1 183 
+$r17 1 93 
+$r16 1 152 
+$r2 1 33 
+$r4 1 28 
+$r18 1 102 
+r0 1 -1 
+$r9 1 28 
+$r14 1 93 
+$r15 1 152 
+r23 1 194 
+$r22 1 130 
+$r3 1 33 
+$r10 1 407 
+Fields: 2
+-1 lengthList 93
+-1 footnotesList 28
+Accesses: 14
+96 1 -1 
+384 1 -1 
+418 1 -1 
+78 1 -1 
+399 1 -1 
+177 1 -1 
+146 1 -1 
+115 1 -1 
+403 1 -1 
+85 1 -1 
+27 1 -1 
+59 1 -1 
+92 1 -1 
+124 1 -1 
+Functions: 22
+36 1 33 
+133 1 130 
+261 1 251 
+326 1 251 
+105 1 102 
+298 1 194 
+239 1 194 
+271 1 251 
+400 1 28 
+337 1 194 
+178 1 28 
+147 1 93 
+249 1 194 
+186 1 183 
+410 1 407 
+155 1 152 
+315 1 251 
+28 1 28 
+60 1 28 
+93 1 93 
+125 1 93 
+285 1 251 
+Constructors: 0
+
+Summary: 9
+102 407 33 152 194 130 -1 183 251 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.getPageBreaks()Ljava/util/LinkedList;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 pageBreaks 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.getFootnoteList(I)Ljava/util/LinkedList;
+PTG:
+Vars:
+5
+$r3 1 5 
+r0 1 -1 
+$r2 1 5 
+$r1 1 1 
+_ret 1 5 
+Fields: 1
+-1 footnotesList 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r1 1 1 
+$r5 1 14 
+$r2 1 -1 
+r0 1 -2 
+$r4 1 6 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.createNode(IIIIII)Lorg/apache/fop/layoutmgr/BreakingAlgorithm$KnuthNode;
+PTG:
+Vars:
+16
+$r4 1 15 
+$r7 1 15 
+$r14 1 92 
+$r8 1 15 
+$r10 1 15 
+$r2 1 15 
+_ret 1 0 
+$r11 1 15 
+$r12 1 15 
+$r9 1 15 
+$r13 1 15 
+$r3 1 15 
+$r5 1 15 
+$r0 1 0 
+r1 1 -1 
+$r6 1 15 
+Fields: 1
+-1 best 15
+Accesses: 9
+36 1 -1 
+55 1 -1 
+71 1 -1 
+87 1 -1 
+25 1 -1 
+14 1 -1 
+47 1 -1 
+63 1 -1 
+79 1 -1 
+Functions: 10
+48 1 15 
+64 1 15 
+80 1 15 
+18 1 15 
+40 1 15 
+56 1 15 
+72 1 15 
+88 1 15 
+29 1 15 
+95 4 0 -1 92 15 
+Constructors: 1
+95 0
+
+Summary: 2
+92 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.getFObj()Lorg/apache/fop/fo/FObj;
+PTG:
+Vars:
+4
+$r1 1 1 
+$r2 1 4 
+r0 1 -1 
+_ret 1 4 
+Fields: 1
+-1 topLevelLM 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.checkCanDeferOldFootnotes(Lorg/apache/fop/layoutmgr/PageBreakingAlgorithm$KnuthPageNode;I)Z
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+1 1 -2 
+17 1 -2 
+21 1 -2 
+13 1 -2 
+Functions: 2
+0 1 -1 
+12 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.getLineWidth(I)I
+PTG:
+Vars:
+11
+$r1 1 1 
+$r10 1 1 
+$r6 1 52 
+$r2 1 25 
+$r9 1 64 
+$r4 1 36 
+$r5 1 48 
+$r7 1 57 
+r0 1 -1 
+$r3 1 39 
+$r8 1 61 
+Fields: 1
+-1 pageProvider 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 10
+48 1 48 
+19 2 -1 1 
+67 2 64 36 
+52 1 52 
+39 1 39 
+8 1 1 
+25 1 25 
+57 1 57 
+43 1 39 
+61 1 61 
+Constructors: 1
+43 39
+
+Summary: 3
+61 64 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.updateData1(ID)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.handleFootnotes(Ljava/util/LinkedList;)V
+PTG:
+Vars:
+19
+$r16 1 53 
+$r7 1 160 
+$r11 1 186 
+r0 1 -1 
+$r3 1 77 
+r4 1 77 
+$r10 1 186 
+$r13 1 160 
+r2 1 66 
+$r9 1 160 
+$r17 1 13 
+r6 1 106 
+r1 1 -2 
+$r18 1 24 
+$r12 1 201 
+$r15 1 120 
+$r5 1 53 
+$r8 1 160 
+r19 1 120 
+Fields: 2
+-1 lengthList 160
+-1 footnotesList 53
+Accesses: 16
+0 1 -1 
+225 1 -1 
+36 1 -1 
+197 1 -1 
+39 1 -1 
+9 1 -1 
+173 1 -1 
+48 1 -1 
+177 1 -1 
+20 1 -1 
+52 1 -1 
+217 1 -1 
+59 1 -1 
+93 1 -1 
+31 1 -1 
+159 1 -1 
+Functions: 20
+160 1 160 
+98 2 53 77 
+130 1 120 
+67 1 66 
+102 1 77 
+138 1 120 
+76 1 66 
+108 1 106 
+174 1 160 
+17 1 13 
+178 1 160 
+210 1 201 
+148 1 120 
+53 1 53 
+213 2 160 201 
+118 1 106 
+87 1 77 
+28 1 24 
+189 1 186 
+62 1 -2 
+Constructors: 3
+17 13
+210 201
+28 24
+
+Summary: 9
+0 120 -1 -2 106 186 201 77 66 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.considerLegalBreak(Lorg/apache/fop/layoutmgr/KnuthElement;I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+8 1 -1 
+Functions: 1
+3 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.createFootnotePages(Lorg/apache/fop/layoutmgr/PageBreakingAlgorithm$KnuthPageNode;)V
+PTG:
+Vars:
+19
+$r10 1 46 
+r0 1 -1 
+$r11 1 105 
+$r5 1 53 
+$r8 1 80 
+r16 2 -2 215 
+$r7 1 46 
+$r12 1 105 
+$r4 1 53 
+r17 1 215 
+r18 1 289 
+$r14 1 126 
+$r15 1 126 
+r1 1 -2 
+$r2 1 289 
+$r9 1 80 
+$r3 1 46 
+$r13 1 119 
+$r6 1 215 
+Fields: 2
+-1 lengthList 46
+-1 footnotesList 119
+Accesses: 37
+1 1 -2 
+258 1 -2 
+196 1 -1 
+5 1 -1 
+262 2 -2 215 
+72 1 -1 
+200 2 -2 215 
+9 1 -2 
+137 1 -1 
+76 1 -1 
+13 1 -1 
+270 1 -1 
+144 1 -1 
+17 1 -2 
+274 2 -2 215 
+148 1 -1 
+21 1 -1 
+152 1 -1 
+89 1 -1 
+224 1 215 
+97 1 -1 
+34 1 -1 
+101 1 -1 
+38 1 -1 
+170 1 -1 
+298 1 289 
+235 2 -2 215 
+45 1 -1 
+49 1 -1 
+177 1 -1 
+114 1 -1 
+309 2 -2 215 
+118 1 -1 
+184 1 -2 
+122 1 -1 
+188 2 -2 215 
+62 1 -1 
+Functions: 17
+129 1 126 
+257 5 -1 -2 119 215 46 
+98 1 46 
+231 4 -1 119 215 46 
+73 1 46 
+108 1 105 
+46 1 46 
+143 3 -1 119 46 
+305 4 -1 289 119 46 
+242 5 -1 -2 119 215 46 
+83 1 80 
+119 1 119 
+183 5 -1 -2 119 215 46 
+24 3 -1 119 46 
+56 1 53 
+249 3 -1 119 46 
+316 5 -1 -2 119 215 46 
+Constructors: 0
+
+Summary: 9
+53 -2 289 0 80 105 215 126 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.removeAllPageBreaks()V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+$r3 1 1 
+Fields: 1
+-1 pageBreaks 1
+Accesses: 3
+0 1 -1 
+19 1 -1 
+8 1 -1 
+Functions: 2
+23 1 1 
+9 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.resetFootnotes(Ljava/util/LinkedList;)V
+PTG:
+Vars:
+14
+$r4 1 11 
+r1 1 -1 
+$r14 1 71 
+$r7 1 31 
+$r10 1 31 
+$r11 1 31 
+$r5 1 23 
+$r8 1 31 
+$r2 2 98 11 
+$r3 1 11 
+$r13 1 71 
+r0 1 -2 
+r6 1 23 
+$r12 1 31 
+Fields: 3
+-1 lengthList 31
+-1 footnotesList 98
+-1 footnotesList 11
+Accesses: 11
+80 1 -1 
+97 1 -1 
+34 1 -1 
+88 1 -1 
+10 1 -1 
+58 1 -1 
+109 1 -1 
+14 1 -1 
+30 1 -1 
+62 1 -1 
+47 1 -1 
+Functions: 10
+48 1 31 
+98 2 98 11 
+3 1 -2 
+35 1 31 
+74 1 71 
+11 1 11 
+43 1 31 
+59 1 31 
+15 1 11 
+63 1 31 
+Constructors: 0
+
+Summary: 4
+-2 23 71 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.createNode(IIIIIIDIIIDLorg/apache/fop/layoutmgr/BreakingAlgorithm$KnuthNode;)Lorg/apache/fop/layoutmgr/BreakingAlgorithm$KnuthNode;
+PTG:
+Vars:
+4
+r2 1 -13 
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 3
+18 1 -1 
+22 1 -1 
+14 1 -1 
+Functions: 1
+38 3 0 -1 -13 
+Constructors: 1
+38 0
+
+Summary: 3
+-13 11 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.deferredFootnotes(III)Z
+PTG:
+Vars:
+4
+$r1 1 26 
+r0 1 -1 
+$r3 1 30 
+$r2 1 30 
+Fields: 1
+-1 footnotesList 26
+Accesses: 5
+0 1 -1 
+7 1 -1 
+25 1 -1 
+45 1 -1 
+15 1 -1 
+Functions: 2
+33 1 30 
+26 1 26 
+Constructors: 0
+
+Summary: 2
+30 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.getPartCount()I
+PTG:
+Vars:
+3
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+Fields: 1
+-1 pageBreaks 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.handleBox(Lorg/apache/fop/layoutmgr/KnuthBox;)V
+PTG:
+Vars:
+6
+$r1 1 -2 
+$r5 1 42 
+r2 1 -1 
+$r4 1 22 
+r0 1 -2 
+$r3 1 -2 
+Fields: 1
+-1 footnotesList 42
+Accesses: 4
+50 1 -1 
+37 1 -1 
+41 1 -1 
+28 1 -1 
+Functions: 4
+19 1 -2 
+8 1 -2 
+25 3 -1 22 42 
+42 1 42 
+Constructors: 0
+
+Summary: 4
+-2 0 22 -1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.initialize()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 3
+16 1 -1 
+6 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/PageBreakingAlgorithm.<init>(Lorg/apache/fop/layoutmgr/LayoutManager;Lorg/apache/fop/layoutmgr/PageProvider;Lorg/apache/fop/layoutmgr/PageBreakingAlgorithm$PageBreakingLayoutListener;IILorg/apache/fop/traits/MinOptMax;ZZZ)V
+PTG:
+Vars:
+8
+r5 1 -7 
+r0 1 -1 
+r3 1 -4 
+r2 1 -3 
+$r7 1 136 
+r1 1 -2 
+$r4 1 122 
+$r6 1 136 
+Fields: 0
+Accesses: 29
+66 1 -1 
+130 1 -1 
+73 1 -1 
+14 1 -1 
+78 1 -1 
+142 1 -1 
+145 1 -7 
+19 1 -1 
+83 1 -1 
+150 1 -7 
+24 1 -1 
+88 1 -1 
+29 1 -1 
+93 1 -1 
+158 1 -7 
+34 1 -1 
+98 1 -1 
+39 1 -1 
+103 1 -1 
+168 1 -7 
+44 1 -1 
+108 1 -1 
+174 1 -1 
+49 1 -1 
+113 1 -1 
+180 1 -1 
+54 1 -1 
+118 1 -1 
+59 1 -1 
+Functions: 3
+134 1 -7 
+9 1 -1 
+127 2 -1 122 
+Constructors: 2
+9 -1
+127 122
+
+Summary: 6
+2 0 -7 1 5 -1 

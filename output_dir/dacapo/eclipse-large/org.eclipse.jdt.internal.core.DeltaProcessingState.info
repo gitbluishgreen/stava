@@ -1,0 +1,1067 @@
+29
+org/eclipse/jdt/internal/core/DeltaProcessingState.removePreResourceChangedListener(Lorg/eclipse/core/resources/IResourceChangeListener;)V
+PTG:
+Vars:
+4
+$r3 1 10 
+r0 1 -1 
+$r1 1 6 
+r2 1 -2 
+Fields: 2
+6 ArrayObject 10
+-1 preResourceChangeListeners 6
+Accesses: 12
+32 1 -1 
+128 1 -1 
+113 1 -1 
+5 1 -1 
+86 1 -1 
+71 1 -1 
+56 1 -1 
+104 1 -1 
+120 1 -1 
+44 1 -1 
+110 1 -1 
+15 1 -1 
+Functions: 4
+98 0 
+83 0 
+53 0 
+41 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.addElementChangedListener(Lorg/eclipse/jdt/core/IElementChangedListener;I)V
+PTG:
+Vars:
+11
+$r1 1 6 
+$r12 2 6 65 
+$r3 1 10 
+$r9 2 6 65 
+$r14 1 100 
+$r10 1 100 
+$r13 1 108 
+$r11 1 87 
+r2 1 -2 
+$r8 2 6 65 
+r0 1 -1 
+Fields: 4
+6 ArrayObject 10
+-1 elementChangedListeners 65
+-1 elementChangedListeners 6
+-1 elementChangedListenerMasks 100
+Accesses: 18
+64 1 -1 
+33 1 -1 
+129 1 -1 
+99 1 -1 
+5 1 -1 
+133 1 -1 
+71 1 -1 
+42 1 -1 
+139 1 -1 
+78 1 -1 
+15 1 -1 
+111 1 -1 
+146 1 -1 
+22 1 -1 
+119 1 -1 
+57 1 -1 
+91 1 -1 
+123 1 -1 
+Functions: 3
+96 4 65 6 87 10 
+116 2 100 108 
+39 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.resetOldJavaProjectNames()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.initializeRoots(Z)V
+PTG:
+Vars:
+12
+$r2 1 147 
+$r7 1 20 
+$r6 1 52 
+r0 1 -1 
+r13 1 65 
+r14 1 15 
+$r1 1 140 
+$r3 1 154 
+$r4 1 161 
+$r5 1 20 
+$r18 1 120 
+$r17 1 112 
+Fields: 7
+65 ArrayObject 147
+65 ArrayObject 161
+65 ArrayObject 140
+65 ArrayObject 154
+-1 initializingThreads 20
+-1 otherRoots 120
+-1 roots 112
+Accesses: 14
+162 1 -1 
+5 1 -1 
+167 1 -1 
+76 1 -1 
+141 1 -1 
+111 1 -1 
+19 1 -1 
+115 1 -1 
+148 1 -1 
+119 1 -1 
+123 1 -1 
+155 1 -1 
+126 1 -1 
+95 1 -1 
+Functions: 7
+-1 0 
+81 1 15 
+20 2 20 15 
+100 2 20 15 
+56 1 52 
+12 0 
+60 4 -1 112 20 120 
+Constructors: 0
+
+Summary: 3
+15 52 65 
+org/eclipse/jdt/internal/core/DeltaProcessingState.getExternalLibTimeStamps()Ljava/util/Hashtable;
+PTG:
+Vars:
+16
+$r12 1 -1 
+$r5 1 22 
+$r6 1 26 
+$r9 1 69 
+$r20 1 1 
+$r1 1 1 
+$r7 1 30 
+$r17 1 -1 
+$r2 1 7 
+$r16 1 -1 
+r4 1 19 
+r18 1 22 
+r0 1 -1 
+r8 1 58 
+_ret 1 1 
+$r10 1 72 
+Fields: 1
+-1 externalTimeStamps 1
+Accesses: 3
+0 1 -1 
+162 1 -1 
+159 1 -1 
+Functions: 16
+98 1 19 
+35 2 19 30 
+67 1 58 
+38 2 26 30 
+135 1 22 
+41 2 22 26 
+11 1 7 
+45 1 22 
+78 1 72 
+110 1 -1 
+15 2 -1 1 
+81 3 69 7 72 
+54 1 22 
+118 1 22 
+150 1 22 
+60 1 22 
+Constructors: 5
+35 30
+38 26
+41 22
+11 7
+78 72
+
+Summary: 8
+26 58 69 72 30 -1 19 22 
+org/eclipse/jdt/internal/core/DeltaProcessingState.resourceChanged(Lorg/eclipse/core/resources/IResourceChangeEvent;)V
+PTG:
+Vars:
+10
+r4 1 -2 
+$r3 1 13 
+$r1 1 6 
+$r7 1 117 
+r2 1 11 
+$r8 1 106 
+$r13 1 28 
+$r14 1 28 
+r0 1 -1 
+$r6 1 53 
+Fields: 4
+6 ArrayObject 11
+-1 deltaProcessors 106
+-1 preResourceChangeEventMasks 13
+-1 preResourceChangeListeners 6
+Accesses: 6
+5 1 -1 
+105 1 -1 
+121 1 117 
+74 1 -1 
+12 1 -1 
+45 1 -1 
+Functions: 11
+64 1 -2 
+18 1 -2 
+35 7 -1 -2 6 106 11 28 13 
+52 5 -1 6 106 11 13 
+116 5 -1 6 106 11 13 
+85 5 -1 6 106 11 13 
+38 1 28 
+57 2 -2 53 
+110 1 106 
+79 0 
+95 1 -2 
+Constructors: 1
+35 28
+
+Summary: 7
+-2 117 0 86 28 53 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.getDeltaProcessor()Lorg/eclipse/jdt/internal/core/DeltaProcessor;
+PTG:
+Vars:
+8
+$r1 1 1 
+$r3 1 17 
+$r4 1 22 
+r6 1 4 
+_ret 1 17 
+r0 1 -1 
+$r2 1 4 
+$r5 1 1 
+Fields: 1
+-1 deltaProcessors 1
+Accesses: 2
+0 1 -1 
+29 1 -1 
+Functions: 4
+-1 0 
+1 1 1 
+34 2 1 17 
+25 4 -1 17 1 22 
+Constructors: 1
+25 17
+
+Summary: 2
+22 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.findJavaProject(Ljava/lang/String;)Lorg/eclipse/jdt/core/IJavaProject;
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -1 
+-1 0 
+1 2 1 -2 
+11 0 
+14 1 -2 
+Constructors: 0
+
+Summary: 6
+11 -2 14 0 -1 1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.addClasspathChange(Lorg/eclipse/core/resources/IProject;[Lorg/eclipse/jdt/core/IClasspathEntry;Lorg/eclipse/core/runtime/IPath;[Lorg/eclipse/jdt/core/IClasspathEntry;)Lorg/eclipse/jdt/internal/core/ClasspathChange;
+PTG:
+Vars:
+18
+$r12 1 25 
+$r6 1 88 
+$r2 1 1 
+r8 1 -4 
+$r10 1 18 
+$r13 1 29 
+$r5 1 74 
+r1 1 -2 
+r17 2 5 18 
+$r3 1 5 
+r9 1 -3 
+$r14 1 29 
+$r11 1 22 
+r0 1 -1 
+r7 1 -5 
+$r15 1 1 
+_ret 2 5 18 
+$r4 1 60 
+Fields: 4
+5 oldRawClasspath 60
+5 oldOutputLocation 74
+5 oldResolvedClasspath 88
+-1 classpathChanges 1
+Accesses: 8
+0 1 -1 
+98 2 18 5 
+83 2 18 5 
+69 2 18 5 
+86 2 18 5 
+72 2 18 5 
+58 2 18 5 
+44 1 -1 
+Functions: 6
+-1 0 
+1 2 1 -2 
+51 3 1 -2 18 
+22 1 22 
+39 5 18 -3 -4 -5 29 
+25 2 -2 25 
+Constructors: 1
+39 18
+
+Summary: 9
+-2 25 0 1 3 2 22 -1 29 
+org/eclipse/jdt/internal/core/DeltaProcessingState.removeElementChangedListener(Lorg/eclipse/jdt/core/IElementChangedListener;)V
+PTG:
+Vars:
+4
+$r1 1 6 
+r2 1 -2 
+$r3 1 10 
+r0 1 -1 
+Fields: 2
+6 ArrayObject 10
+-1 elementChangedListeners 6
+Accesses: 12
+128 1 -1 
+113 1 -1 
+5 1 -1 
+86 1 -1 
+71 1 -1 
+56 1 -1 
+104 1 -1 
+120 1 -1 
+27 1 -1 
+44 1 -1 
+110 1 -1 
+15 1 -1 
+Functions: 4
+98 0 
+83 0 
+36 0 
+53 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.initializeRootsWithPreviousSession()V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r5 1 34 
+$r3 1 20 
+r1 1 5 
+$r4 1 27 
+$r2 1 13 
+Fields: 4
+5 ArrayObject 13
+5 ArrayObject 20
+5 ArrayObject 27
+5 ArrayObject 34
+Accesses: 5
+35 1 -1 
+21 1 -1 
+40 1 -1 
+28 1 -1 
+14 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 2
+5 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.getTimeStampsFile()Ljava/io/File;
+PTG:
+Vars:
+6
+r4 1 -1 
+$r2 1 9 
+$r3 1 14 
+$r0 1 0 
+$r1 1 3 
+_ret 1 14 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+0 1 0 
+3 1 3 
+9 1 9 
+Constructors: 0
+
+Summary: 3
+9 -1 0 
+org/eclipse/jdt/internal/core/DeltaProcessingState.removeAllClasspathChanges()Ljava/util/HashMap;
+PTG:
+Vars:
+4
+r1 1 4 
+r0 1 -1 
+_ret 1 4 
+$r2 1 6 
+Fields: 1
+-1 classpathChanges 4
+Accesses: 2
+0 1 -1 
+17 1 -1 
+Functions: 2
+10 1 4 
+14 1 6 
+Constructors: 1
+14 6
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.<init>()V
+PTG:
+Vars:
+18
+r0 1 -1 
+$r1 1 6 
+$r9 1 89 
+$r10 1 100 
+$r11 1 111 
+$r15 1 152 
+$r8 1 78 
+$r4 1 34 
+$r5 1 45 
+$r7 1 67 
+$r13 1 134 
+$r16 1 163 
+$r17 1 174 
+$r12 1 127 
+$r6 1 56 
+$r3 1 26 
+$r14 1 141 
+$r2 1 14 
+Fields: 0
+Accesses: 19
+96 1 -1 
+36 1 -1 
+9 1 -1 
+41 1 -1 
+137 1 -1 
+74 1 -1 
+170 1 -1 
+107 1 -1 
+16 1 -1 
+52 1 -1 
+148 1 -1 
+21 1 -1 
+85 1 -1 
+181 1 -1 
+118 1 -1 
+123 1 -1 
+29 1 -1 
+63 1 -1 
+159 1 -1 
+Functions: 14
+1 1 -1 
+131 1 127 
+71 1 67 
+167 1 163 
+104 1 100 
+49 1 45 
+145 1 141 
+82 1 78 
+178 1 174 
+115 1 111 
+60 1 56 
+156 1 152 
+93 1 89 
+127 1 127 
+Constructors: 13
+1 -1
+131 127
+71 67
+167 163
+104 100
+49 45
+145 141
+82 78
+178 174
+115 111
+60 56
+156 152
+93 89
+
+Summary: 2
+127 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.addExternalFolderChange(Lorg/eclipse/jdt/internal/core/JavaProject;[Lorg/eclipse/jdt/core/IClasspathEntry;)V
+PTG:
+Vars:
+8
+r8 1 5 
+r0 1 -1 
+r5 1 -3 
+$r3 1 5 
+$r6 1 1 
+r1 1 -2 
+$r4 1 16 
+$r2 1 1 
+Fields: 1
+-1 externalFolderChanges 1
+Accesses: 2
+0 1 -1 
+26 1 -1 
+Functions: 3
+32 3 16 1 -2 
+1 2 1 -2 
+22 3 16 -2 -3 
+Constructors: 1
+22 16
+
+Summary: 7
+-3 -2 5 16 0 -1 1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.saveExternalLibTimeStamps()V
+PTG:
+Vars:
+26
+$r4 1 17 
+$r7 1 82 
+$r15 1 176 
+r31 1 125 
+$r1 1 1 
+r27 1 30 
+$r5 1 74 
+r0 1 -1 
+r30 1 74 
+r13 1 144 
+$r20 1 -1 
+$r6 1 78 
+$r11 1 132 
+$r14 1 166 
+$r12 1 144 
+r32 1 132 
+r28 1 40 
+$r17 1 1 
+$r2 1 8 
+$r8 1 1 
+$r18 2 42 17 
+$r10 1 117 
+$r9 1 1 
+$r19 1 46 
+r29 1 71 
+r16 1 176 
+Fields: 2
+-1 externalTimeStamps 1
+-1 roots 17
+Accesses: 6
+0 1 -1 
+16 1 -1 
+113 1 -1 
+98 1 -1 
+23 1 -1 
+41 1 -1 
+Functions: 28
+192 1 74 
+130 1 125 
+67 3 -1 1 17 
+195 1 125 
+261 1 74 
+12 1 8 
+142 1 132 
+87 2 82 71 
+24 1 1 
+90 2 82 78 
+154 2 144 8 
+93 2 74 78 
+224 0 
+34 1 30 
+99 1 1 
+164 1 144 
+105 1 8 
+42 3 17 40 42 
+171 2 166 74 
+235 0 
+110 1 74 
+174 1 132 
+114 1 1 
+117 1 117 
+54 2 8 40 
+246 1 74 
+58 1 30 
+187 1 176 
+Constructors: 4
+87 82
+90 78
+12 8
+93 74
+
+Summary: 15
+8 132 210 46 166 176 74 117 30 82 144 71 78 40 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.doNotUse()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 deltaProcessors 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.getClasspathChange(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/jdt/internal/core/ClasspathChange;
+PTG:
+Vars:
+6
+$r3 1 5 
+$r4 1 5 
+r0 1 -1 
+_ret 1 5 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 classpathChanges 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.removeClasspathValidations()[Lorg/eclipse/jdt/internal/core/ClasspathValidation;
+PTG:
+Vars:
+7
+r2 1 15 
+$r4 1 23 
+$r1 1 1 
+$r6 1 1 
+$r3 1 1 
+r0 1 -1 
+_ret 1 15 
+Fields: 1
+-1 classpathValidations 1
+Accesses: 3
+0 1 -1 
+33 1 -1 
+19 1 -1 
+Functions: 4
+1 1 1 
+20 1 1 
+37 1 1 
+27 2 23 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.removeExternalFolderChanges()[Lorg/eclipse/jdt/internal/core/ExternalFolderChange;
+PTG:
+Vars:
+7
+$r3 1 1 
+$r1 1 1 
+r0 1 -1 
+r2 1 15 
+_ret 1 15 
+$r4 1 23 
+$r6 1 1 
+Fields: 1
+-1 externalFolderChanges 1
+Accesses: 3
+0 1 -1 
+33 1 -1 
+19 1 -1 
+Functions: 4
+1 1 1 
+20 1 1 
+37 1 1 
+27 2 23 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.addClasspathValidation(Lorg/eclipse/jdt/internal/core/JavaProject;)Lorg/eclipse/jdt/internal/core/ClasspathValidation;
+PTG:
+Vars:
+8
+r7 2 5 16 
+$r3 1 5 
+$r5 1 1 
+$r4 1 16 
+r1 1 -2 
+_ret 2 5 16 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 classpathValidations 1
+Accesses: 2
+0 1 -1 
+25 1 -1 
+Functions: 3
+1 2 1 -2 
+21 2 16 -2 
+31 3 16 1 -2 
+Constructors: 1
+21 16
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.addProjectReferenceChange(Lorg/eclipse/jdt/internal/core/JavaProject;[Lorg/eclipse/jdt/core/IClasspathEntry;)V
+PTG:
+Vars:
+8
+$r6 1 1 
+$r2 1 1 
+$r3 1 5 
+r0 1 -1 
+$r4 1 16 
+r5 1 -3 
+r8 1 5 
+r1 1 -2 
+Fields: 1
+-1 projectReferenceChanges 1
+Accesses: 2
+0 1 -1 
+26 1 -1 
+Functions: 3
+32 3 16 1 -2 
+1 2 1 -2 
+22 3 16 -2 -3 
+Constructors: 1
+22 16
+
+Summary: 7
+-3 -2 5 16 0 -1 1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.addForRefresh(Lorg/eclipse/jdt/core/IJavaElement;)V
+PTG:
+Vars:
+5
+$r1 1 1 
+$r4 1 8 
+r0 1 -1 
+r2 1 -2 
+$r3 1 1 
+Fields: 1
+-1 externalElementsToRefresh 1
+Accesses: 3
+0 1 -1 
+18 1 -1 
+15 1 -1 
+Functions: 2
+23 2 1 -2 
+12 1 8 
+Constructors: 1
+12 8
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.getOldJavaProjecNames()Ljava/util/HashSet;
+PTG:
+Vars:
+4
+$r2 1 1 
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 javaProjectNamesCache 1
+Accesses: 4
+0 1 -1 
+72 1 -1 
+76 1 -1 
+29 1 -1 
+Functions: 6
+-1 0 
+49 0 
+18 0 
+56 0 
+11 0 
+15 0 
+Constructors: 0
+
+Summary: 4
+24 15 51 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.addPreResourceChangedListener(Lorg/eclipse/core/resources/IResourceChangeListener;I)V
+PTG:
+Vars:
+11
+$r9 2 6 38 
+r2 1 -2 
+$r7 1 73 
+$r1 1 6 
+$r3 1 10 
+$r10 1 81 
+$r8 1 60 
+r0 1 -1 
+$r11 1 73 
+$r5 2 6 38 
+$r6 2 6 38 
+Fields: 4
+6 ArrayObject 10
+-1 preResourceChangeEventMasks 73
+-1 preResourceChangeListeners 38
+-1 preResourceChangeListeners 6
+Accesses: 15
+64 1 -1 
+96 1 -1 
+5 1 -1 
+37 1 -1 
+102 1 -1 
+72 1 -1 
+106 1 -1 
+44 1 -1 
+15 1 -1 
+112 1 -1 
+51 1 -1 
+84 1 -1 
+119 1 -1 
+92 1 -1 
+30 1 -1 
+Functions: 2
+69 4 6 38 10 60 
+89 2 81 73 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.updateRoots(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IResourceDelta;Lorg/eclipse/jdt/internal/core/DeltaProcessor;)V
+PTG:
+Vars:
+25
+r0 1 -3 
+$r3 1 60 
+$r18 1 165 
+r24 1 222 
+r12 1 -4 
+$r17 1 242 
+r6 1 77 
+r22 1 148 
+$r9 1 126 
+r2 1 -2 
+$r5 1 77 
+r8 1 89 
+r20 2 14 29 
+$r15 1 222 
+$r11 1 148 
+r1 1 -1 
+r10 1 136 
+r13 1 195 
+$r16 1 239 
+r14 1 215 
+r4 1 70 
+$r19 1 168 
+$r23 1 195 
+$r7 1 89 
+r21 2 20 35 
+Fields: 6
+222 project 239
+-1 oldRoots 14
+-1 oldOtherRoots 20
+-1 otherRoots 35
+-1 roots 29
+148 project 165
+Accesses: 6
+16 1 -1 
+163 1 148 
+25 1 -1 
+10 1 -1 
+237 1 222 
+31 1 -1 
+Functions: 22
+0 1 -3 
+99 2 -2 89 
+37 1 -2 
+165 1 165 
+261 4 -4 136 222 239 
+168 2 168 89 
+265 1 215 
+75 1 70 
+110 2 -2 89 
+239 1 239 
+146 1 77 
+210 1 195 
+242 2 242 89 
+275 1 70 
+87 1 77 
+121 2 -3 126 
+58 2 29 14 
+122 1 89 
+187 4 -4 148 165 136 
+60 1 60 
+220 1 215 
+191 3 35 20 89 
+Constructors: 0
+
+Summary: 17
+1 165 126 242 148 -2 239 0 77 -4 222 60 136 2 195 -1 168 
+org/eclipse/jdt/internal/core/DeltaProcessingState.removeProjectReferenceChanges()[Lorg/eclipse/jdt/internal/core/ProjectReferenceChange;
+PTG:
+Vars:
+7
+$r4 1 23 
+$r6 1 1 
+r0 1 -1 
+r2 1 15 
+$r3 1 1 
+$r1 1 1 
+_ret 1 15 
+Fields: 1
+-1 projectReferenceChanges 1
+Accesses: 3
+0 1 -1 
+33 1 -1 
+19 1 -1 
+Functions: 4
+1 1 1 
+20 1 1 
+37 1 1 
+27 2 23 15 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.getRootInfos(Z)[Ljava/util/HashMap;
+PTG:
+Vars:
+44
+$r2 1 8 
+r42 1 87 
+r9 1 40 
+$r11 1 72 
+$r6 1 25 
+$r36 1 191 
+$r18 1 359 
+r49 1 406 
+r12 1 72 
+r13 1 138 
+r46 2 216 191 
+$r17 1 138 
+r44 1 171 
+$r31 1 155 
+$r22 1 458 
+r48 2 313 326 
+$r39 1 -1 
+$r8 1 34 
+$r33 1 177 
+$r14 1 260 
+$r20 1 367 
+$r27 1 282 
+$r4 1 16 
+$r51 2 437 449 
+$r34 1 216 
+$r37 1 514 
+$r38 1 -1 
+r43 2 113 103 
+r10 1 49 
+$r16 1 346 
+r41 1 -1 
+$r0 1 0 
+$r29 1 290 
+r47 1 255 
+$r23 1 326 
+$r19 1 138 
+$r32 1 161 
+$r15 1 313 
+$r25 1 269 
+r52 3 437 449 476 
+_ret 1 514 
+r45 1 177 
+$r26 1 138 
+$r28 1 138 
+Fields: 4
+49 ArrayObject 72
+87 resolvedClasspath 103
+113 ArrayObject 138
+103 ArrayObject 138
+Accesses: 1
+98 1 87 
+Functions: 41
+-1 0 
+384 1 138 
+257 2 0 255 
+4 1 0 
+453 1 406 
+330 1 326 
+12 1 8 
+140 1 138 
+461 3 449 437 458 
+401 1 255 
+82 1 72 
+20 1 16 
+340 3 326 8 255 
+469 1 138 
+151 2 161 40 
+279 1 138 
+153 1 138 
+155 1 155 
+29 1 25 
+95 4 87 103 72 138 
+287 1 138 
+415 1 -1 
+225 2 177 216 
+34 1 34 
+356 1 138 
+293 1 138 
+423 1 406 
+489 5 16 449 437 476 255 
+42 1 40 
+108 1 72 
+300 5 290 72 282 269 255 
+364 1 138 
+173 2 25 171 
+303 3 0 269 255 
+241 4 216 25 171 191 
+370 1 138 
+310 2 8 255 
+248 1 138 
+377 5 359 72 346 255 367 
+443 3 449 437 406 
+380 3 326 313 346 
+Constructors: 7
+4 0
+20 16
+377 346
+330 326
+12 8
+300 269
+29 25
+
+Summary: 22
+49 269 476 346 313 255 367 191 260 161 282 103 171 155 458 359 113 290 326 34 87 -1 
+org/eclipse/jdt/internal/core/DeltaProcessingState.removeExternalElementsToRefresh()Ljava/util/HashSet;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 4 
+r1 1 4 
+Fields: 1
+-1 externalElementsToRefresh 4
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

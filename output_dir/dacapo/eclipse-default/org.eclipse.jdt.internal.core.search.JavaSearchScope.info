@@ -1,0 +1,988 @@
+22
+org/eclipse/jdt/internal/core/search/JavaSearchScope.rehash()V
+PTG:
+Vars:
+24
+$r17 1 92 
+$r4 1 15 
+$r7 1 45 
+$r3 1 19 
+$r27 1 75 
+$r9 1 52 
+$r23 1 15 
+$r14 1 94 
+$r16 2 111 100 
+$r0 1 0 
+$r25 1 162 
+$r22 1 138 
+$r6 2 41 31 
+r1 1 -1 
+$r21 1 130 
+$r26 1 170 
+$r5 1 31 
+$r10 2 19 70 
+$r13 1 88 
+$r15 1 100 
+$r11 1 75 
+r12 1 75 
+$r28 1 115 
+$r24 1 154 
+Fields: 17
+-1 projectIndexes 52
+-1 projectPaths 19
+-1 relativePaths 31
+-1 containerPaths 88
+-1 isPkgPath 94
+-1 pathRestrictions 100
+41 ArrayObject 45
+31 ArrayObject 45
+111 ArrayObject 115
+88 ArrayObject 92
+100 ArrayObject 115
+0 projectIndexes 154
+0 projectPaths 15
+0 relativePaths 130
+0 containerPaths 138
+0 isPkgPath 162
+0 pathRestrictions 170
+Accesses: 25
+129 1 0 
+4 1 -1 
+69 1 -1 
+133 1 -1 
+137 1 0 
+141 1 -1 
+14 1 0 
+145 1 0 
+18 1 -1 
+149 1 -1 
+87 1 -1 
+153 1 0 
+93 1 -1 
+157 1 -1 
+30 1 -1 
+161 1 0 
+99 1 -1 
+165 1 -1 
+40 1 -1 
+169 1 0 
+173 1 -1 
+110 1 -1 
+177 1 0 
+51 1 -1 
+181 1 -1 
+Functions: 5
+19 1 19 
+116 11 0 130 162 115 154 138 170 75 92 45 15 
+70 2 19 70 
+25 1 15 
+10 7 0 130 162 154 138 170 15 
+Constructors: 1
+10 0
+
+Summary: 3
+75 -1 0 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.add(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/core/runtime/IPath;ILjava/util/HashSet;Ljava/util/HashSet;Lorg/eclipse/jdt/core/IClasspathEntry;)V
+PTG:
+Vars:
+43
+$r15 1 610 
+$r25 1 354 
+$r26 1 372 
+r38 1 394 
+r1 1 4 
+$r41 2 521 531 
+$r23 1 487 
+$r28 1 199 
+r31 2 85 136 
+$r19 1 511 
+r3 1 34 
+$r13 1 688 
+r5 1 -1 
+r11 1 -3 
+r8 1 67 
+$r22 1 559 
+$r27 1 300 
+r4 1 43 
+r6 1 55 
+r32 1 143 
+r44 1 660 
+r0 1 -2 
+r10 1 -7 
+r9 1 85 
+r42 1 584 
+r7 1 61 
+r34 2 320 277 
+r39 2 507 464 
+$r29 1 204 
+r17 1 188 
+$r24 1 324 
+$r36 2 334 344 
+r40 1 487 
+r2 1 -6 
+r16 1 -5 
+$r30 1 -7 
+$r18 1 385 
+$r12 1 680 
+$r21 1 541 
+r33 1 204 
+r35 1 300 
+$r14 1 605 
+r43 1 610 
+Fields: 2
+55 ArrayObject 85
+67 rootPathToRawEntries 188
+Accesses: 1
+183 1 67 
+Functions: 53
+0 1 -2 
+641 6 -1 610 -5 -6 85 136 
+6 1 4 
+390 2 385 -2 
+519 2 464 507 
+138 2 85 136 
+653 1 85 
+270 1 85 
+16 2 4 -6 
+145 1 85 
+529 2 464 507 
+404 1 394 
+666 2 -3 660 
+27 1 4 
+283 3 320 -3 277 
+539 1 34 
+36 1 34 
+678 1 34 
+296 2 320 277 
+553 5 -1 531 521 541 143 
+557 1 85 
+687 1 660 
+48 2 -1 34 
+51 1 -2 
+564 2 -1 559 
+312 1 300 
+696 5 -1 688 680 43 143 
+57 1 -2 
+63 1 -2 
+577 1 85 
+322 2 320 277 
+195 2 199 188 
+197 1 85 
+457 1 85 
+332 2 320 277 
+590 2 -3 584 
+342 2 320 277 
+470 3 464 -3 507 
+601 2 61 605 
+603 1 584 
+222 1 204 
+352 1 34 
+483 2 464 507 
+102 1 85 
+620 2 610 -5 
+366 5 -1 354 344 334 143 
+112 1 85 
+370 1 85 
+499 1 487 
+377 2 -1 372 
+509 2 464 507 
+126 3 85 -7 136 
+383 1 204 
+Constructors: 0
+
+Summary: 44
+188 43 204 67 300 324 511 -3 34 372 559 277 4 -1 -7 584 487 4 354 680 688 394 199 541 0 605 3 55 385 -5 610 143 320 531 -6 344 507 464 5 61 660 521 334 136 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+7 1 0 
+Constructors: 1
+7 0
+
+Summary: 0
+
+org/eclipse/jdt/internal/core/search/JavaSearchScope.processDelta(Lorg/eclipse/jdt/core/IJavaElementDelta;I)V
+PTG:
+Vars:
+16
+$r8 2 208 193 
+$r7 1 198 
+$r9 1 81 
+r13 1 53 
+$r3 1 93 
+r1 1 38 
+$r11 1 150 
+$r4 1 81 
+r14 1 81 
+$r6 1 193 
+r0 1 -2 
+$r10 1 145 
+r15 2 180 160 
+r2 1 -1 
+$r5 1 170 
+$r12 1 93 
+Fields: 4
+-1 elements 93
+-1 relativePaths 193
+193 ArrayObject 198
+38 ArrayObject 53
+Accesses: 5
+192 1 -1 
+99 1 -1 
+227 1 -1 
+92 1 -1 
+207 1 -1 
+Functions: 14
+0 1 -2 
+32 1 -2 
+198 3 160 180 198 
+167 1 81 
+105 2 81 93 
+170 1 170 
+75 1 -2 
+142 1 81 
+112 1 81 
+145 1 145 
+83 5 -1 193 81 198 93 
+150 1 150 
+216 4 -1 193 198 93 
+59 5 -1 193 53 198 93 
+Constructors: 0
+
+Summary: 9
+180 160 38 -1 170 150 145 0 -2 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.toString()Ljava/lang/String;
+PTG:
+Vars:
+33
+r38 1 120 
+$r31 2 12 40 
+$r32 1 44 
+$r21 1 186 
+$r8 1 149 
+$r22 1 193 
+$r23 1 283 
+$r30 1 12 
+$r16 1 252 
+r7 1 139 
+$r3 1 12 
+$r9 1 154 
+$r13 1 236 
+$r14 1 244 
+$r15 1 249 
+r37 1 44 
+$r18 2 174 154 
+r20 1 186 
+$r12 1 230 
+r39 2 215 203 
+$r5 1 116 
+$r6 2 133 116 
+$r34 1 63 
+$r19 1 179 
+_ret 1 338 
+$r17 1 169 
+$r40 1 116 
+$r0 1 0 
+$r42 1 338 
+$r25 2 315 315 
+r2 1 -1 
+$r10 1 159 
+$r11 2 154 209 
+Fields: 11
+-1 elements 12
+-1 relativePaths 116
+-1 containerPaths 154
+174 ArrayObject 179
+283 ArrayObject 315
+154 ArrayObject 179
+154 ArrayObject 159
+154 ArrayObject 215
+133 ArrayObject 139
+209 ArrayObject 215
+116 ArrayObject 139
+Accesses: 10
+208 1 -1 
+272 1 -1 
+115 1 -1 
+132 1 -1 
+39 1 -1 
+89 1 -1 
+153 1 -1 
+11 1 -1 
+28 1 -1 
+173 1 -1 
+Functions: 28
+193 1 193 
+66 2 0 63 
+7 1 0 
+333 1 0 
+337 1 0 
+82 1 0 
+149 1 149 
+22 1 0 
+217 1 139 
+29 1 12 
+160 2 149 159 
+290 3 120 283 315 
+100 1 0 
+230 1 230 
+294 2 283 315 
+40 2 40 12 
+169 1 169 
+234 2 215 203 
+111 1 0 
+239 2 230 236 
+307 1 0 
+180 2 179 169 
+244 2 244 139 
+56 1 0 
+249 1 249 
+316 2 0 315 
+61 1 44 
+190 1 186 
+Constructors: 4
+160 149
+180 169
+7 0
+239 230
+
+Summary: 4
+-1 63 193 203 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.add(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLorg/eclipse/jdt/internal/compiler/env/AccessRuleSet;)V
+PTG:
+Vars:
+24
+$r7 1 13 
+r21 1 -4 
+$r24 1 68 
+r23 1 11 
+$r17 1 13 
+$r8 1 154 
+$r12 1 192 
+$r4 1 94 
+$r15 1 94 
+r20 1 -3 
+r22 1 5 
+$r25 1 73 
+$r18 1 86 
+r10 1 -6 
+$r6 1 68 
+$r14 1 163 
+$r13 1 163 
+$r5 1 129 
+$r16 1 94 
+r0 1 -1 
+$r11 1 68 
+r3 1 -2 
+$r1 1 13 
+$r9 1 163 
+Fields: 8
+-1 projectIndexes 129
+-1 containerPaths 13
+-1 relativePaths 68
+-1 projectPaths 94
+-1 isPkgPath 154
+-1 pathRestrictions 163
+13 ArrayObject 86
+68 ArrayObject 73
+Accesses: 18
+128 1 -1 
+162 1 -1 
+67 1 -1 
+195 1 -1 
+198 1 -1 
+137 1 -1 
+169 1 -1 
+12 1 -1 
+109 1 -1 
+207 1 -1 
+80 1 -1 
+145 1 -1 
+118 1 -1 
+215 1 -1 
+153 1 -1 
+218 1 -1 
+187 1 -1 
+93 1 -1 
+Functions: 9
+0 10 -1 129 163 -4 68 86 73 154 13 94 
+114 2 -2 94 
+226 9 -1 129 163 68 86 73 154 13 94 
+19 1 5 
+35 2 73 11 
+6 10 -1 129 -3 163 68 86 73 154 13 94 
+119 2 -2 94 
+44 2 5 86 
+94 2 -2 94 
+Constructors: 0
+
+Summary: 8
+1 -3 4 -1 2 -4 0 -2 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.encloses(Ljava/lang/String;Ljava/lang/String;I)Z
+PTG:
+Vars:
+5
+r4 1 5 
+r1 1 -2 
+r0 1 -1 
+$r2 1 48 
+r3 1 -3 
+Fields: 1
+-1 isPkgPath 48
+Accesses: 1
+47 1 -1 
+Functions: 11
+0 3 -1 48 -3 
+64 1 5 
+100 1 -2 
+6 1 5 
+87 1 -2 
+56 2 -2 5 
+104 1 5 
+41 2 -2 5 
+91 1 5 
+12 1 -2 
+79 2 -2 5 
+Constructors: 0
+
+Summary: 5
+-1 5 1 -3 -2 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.enclosingProjectsAndJars()[Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 enclosingProjectsAndJars 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 1 -1 
+Constructors: 1
+2 -1
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.getPath(Lorg/eclipse/jdt/core/IJavaElement;Z)Lorg/eclipse/core/runtime/IPath;
+PTG:
+Vars:
+5
+r1 1 -1 
+r0 1 -2 
+_ret 1 146 
+$r18 1 140 
+$r19 1 146 
+Fields: 0
+Accesses: 0
+Functions: 15
+0 1 -2 
+129 0 
+99 0 
+138 2 -1 140 
+139 1 -2 
+108 1 -1 
+77 0 
+109 1 -2 
+48 1 -2 
+83 1 -1 
+84 1 -2 
+116 0 
+91 0 
+123 1 -2 
+63 1 -2 
+Constructors: 0
+
+Summary: 7
+82 110 -1 85 0 140 124 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.addEnclosingProjectOrJar(Lorg/eclipse/core/runtime/IPath;)V
+PTG:
+Vars:
+8
+$r6 1 1 
+r3 1 -2 
+r0 1 -1 
+$r2 2 1 12 
+$r1 1 1 
+$r7 1 1 
+$r4 1 16 
+$r5 1 44 
+Fields: 3
+-1 enclosingProjectsAndJars 1
+1 ArrayObject 16
+12 ArrayObject 16
+Accesses: 5
+0 1 -1 
+48 1 -1 
+35 1 -1 
+56 1 -1 
+11 1 -1 
+Functions: 2
+16 2 16 -2 
+53 3 16 1 44 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.indexOf(Ljava/lang/String;)I
+PTG:
+Vars:
+12
+r0 1 -1 
+$r6 1 48 
+r11 1 -2 
+$r2 2 3 12 
+r5 1 33 
+$r8 1 62 
+$r4 1 28 
+$r12 2 33 70 
+$r1 1 3 
+r3 1 17 
+$r7 1 54 
+$r9 1 67 
+Fields: 5
+-1 relativePaths 3
+-1 containerPaths 28
+3 ArrayObject 17
+12 ArrayObject 17
+28 ArrayObject 33
+Accesses: 3
+2 1 -1 
+11 1 -1 
+27 1 -1 
+Functions: 7
+48 1 48 
+35 1 17 
+67 1 67 
+52 1 33 
+57 2 48 54 
+75 7 -1 17 33 -2 3 70 28 
+62 2 17 62 
+Constructors: 1
+57 48
+
+Summary: 6
+67 54 70 -1 0 -2 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.<init>(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 0
+Accesses: 1
+12 1 -1 
+Functions: 3
+1 1 -1 
+17 1 -1 
+9 1 5 
+Constructors: 2
+1 -1
+9 5
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.getAccessRuleSet(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jdt/internal/compiler/env/AccessRuleSet;
+PTG:
+Vars:
+7
+r2 1 -2 
+_ret 1 30 
+$r3 1 17 
+$r5 1 30 
+r1 1 -3 
+$r4 1 17 
+r0 1 -1 
+Fields: 2
+-1 pathRestrictions 17
+17 ArrayObject 30
+Accesses: 2
+16 1 -1 
+25 1 -1 
+Functions: 1
+0 5 -1 17 -2 -3 30 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.initialize(I)V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r5 1 65 
+$r6 1 77 
+$r2 1 39 
+$r1 1 31 
+$r3 1 46 
+$r4 1 58 
+Fields: 0
+Accesses: 10
+80 1 -1 
+2 1 -1 
+18 1 -1 
+34 1 -1 
+67 1 -1 
+53 1 -1 
+7 1 -1 
+72 1 -1 
+42 1 -1 
+60 1 -1 
+Functions: 1
+50 1 46 
+Constructors: 1
+50 46
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.packageFragmentRoot(Ljava/lang/String;ILjava/lang/String;)Lorg/eclipse/jdt/core/IPackageFragmentRoot;
+PTG:
+Vars:
+23
+$r18 1 186 
+r27 1 -4 
+r30 1 27 
+$r14 1 168 
+$r12 1 162 
+$r13 1 167 
+$r11 1 157 
+$r19 1 189 
+$r31 1 78 
+$r3 1 73 
+r33 1 198 
+$r6 1 91 
+$r17 1 185 
+$r15 1 176 
+$r4 1 78 
+r0 1 -1 
+$r16 1 180 
+r1 1 -2 
+$r7 1 94 
+$r8 1 101 
+r9 1 109 
+$r2 1 54 
+$r10 1 153 
+Fields: 6
+-1 projectIndexes 54
+-1 projectPaths 73
+-1 containerPaths 162
+-1 relativePaths 180
+180 ArrayObject 185
+162 ArrayObject 167
+Accesses: 4
+161 1 -1 
+179 1 -1 
+53 1 -1 
+72 1 -1 
+Functions: 22
+-1 0 
+192 2 153 189 
+101 1 101 
+134 1 109 
+167 1 167 
+41 8 -1 -2 162 180 54 167 73 185 
+73 1 73 
+234 1 109 
+171 2 168 157 
+144 2 -4 109 
+176 2 176 185 
+208 1 109 
+241 0 
+20 1 -2 
+116 0 
+121 1 -4 
+153 1 153 
+186 1 186 
+91 1 91 
+29 9 -1 162 -4 180 54 167 73 185 27 
+157 1 157 
+94 2 94 78 
+Constructors: 2
+192 153
+171 157
+
+Summary: 15
+27 91 189 -1 186 -4 0 168 127 94 78 2 198 101 109 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.add(Lorg/eclipse/jdt/core/IJavaElement;)V
+PTG:
+Vars:
+55
+$r20 1 157 
+r37 2 139 130 
+$r46 2 363 373 
+r40 1 256 
+$r32 1 465 
+$r52 1 501 
+$r51 1 498 
+$r48 2 403 412 
+$r4 1 -2 
+$r34 2 93 109 
+r42 1 285 
+$r28 1 524 
+$r21 1 186 
+$r30 1 458 
+r38 1 167 
+r39 1 200 
+$r2 1 243 
+$r19 1 154 
+$r14 1 270 
+$r26 1 557 
+r53 1 511 
+$r58 2 623 633 
+$r36 2 139 130 
+$r12 1 360 
+r41 1 278 
+$r17 1 121 
+$r10 1 420 
+$r27 1 568 
+$r23 1 59 
+$r50 1 486 
+$r1 1 231 
+$r13 1 -2 
+r33 3 231 -2 486 
+$r15 1 287 
+$r8 1 382 
+r54 2 532 553 
+r5 1 -1 
+$r3 1 246 
+$r24 1 -2 
+r45 1 332 
+$r56 2 586 577 
+$r29 1 536 
+r35 2 93 109 
+$r25 1 67 
+$r43 2 296 305 
+r47 3 363 373 392 
+r11 1 434 
+r0 1 -2 
+$r22 1 106 
+$r31 1 458 
+r18 1 150 
+r55 2 565 543 
+r16 1 93 
+$r9 1 394 
+$r6 1 620 
+Fields: 2
+-1 elements 458
+-2 names 270
+Accesses: 4
+472 1 -1 
+457 1 -1 
+267 1 -2 
+475 1 -1 
+Functions: 70
+129 2 93 109 
+513 4 -2 486 231 270 
+258 4 -2 486 231 270 
+393 3 373 392 363 
+138 2 93 109 
+522 4 -2 486 231 270 
+11 2 -2 270 
+524 1 524 
+145 4 -2 486 231 270 
+273 1 270 
+402 3 373 392 363 
+533 4 -1 -2 458 270 
+152 4 -2 486 231 270 
+280 4 -2 486 231 270 
+154 1 154 
+411 3 373 392 363 
+539 1 536 
+157 1 157 
+286 1 285 
+418 1 332 
+548 4 -2 486 231 270 
+295 1 285 
+425 3 373 392 363 
+426 1 420 
+554 4 -1 -2 458 270 
+557 1 557 
+174 1 150 
+304 1 285 
+567 2 532 553 
+184 1 150 
+444 6 -1 256 434 403 458 412 
+191 2 93 109 
+319 6 -1 256 305 278 296 458 
+64 1 59 
+192 1 186 
+576 2 532 553 
+326 2 -2 270 
+72 1 67 
+585 2 532 553 
+76 6 -1 -2 67 458 59 270 
+210 6 -1 130 167 200 458 139 
+339 1 332 
+469 1 465 
+88 4 -2 486 231 270 
+600 7 -1 577 565 458 586 511 543 
+349 4 -2 486 231 270 
+95 4 -2 486 231 270 
+224 5 -1 130 167 458 139 
+480 3 -2 458 270 
+609 4 -2 486 231 270 
+484 2 -2 270 
+230 2 -2 270 
+358 4 -2 486 231 270 
+104 4 -2 486 231 270 
+360 1 360 
+106 1 106 
+618 4 -2 486 231 270 
+620 1 620 
+496 4 -2 486 231 270 
+241 4 -2 486 231 270 
+498 1 498 
+243 1 243 
+371 4 -2 486 231 270 
+501 1 501 
+246 1 246 
+631 4 -2 486 231 270 
+120 2 93 109 
+380 1 332 
+636 4 -1 633 458 623 
+382 1 382 
+Constructors: 3
+64 59
+469 465
+72 67
+
+Summary: 46
+373 332 412 -1 186 154 167 501 394 565 200 586 296 392 305 363 532 577 382 67 139 157 511 543 623 420 130 285 536 568 59 121 557 434 287 498 256 150 403 93 278 246 109 553 243 633 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.indexOf(Ljava/lang/String;Ljava/lang/String;)I
+PTG:
+Vars:
+8
+$r7 1 1 
+$r8 1 72 
+r0 1 -1 
+r5 1 37 
+r2 1 -2 
+r6 1 -3 
+$r1 1 1 
+$r4 1 31 
+Fields: 4
+-1 containerPaths 1
+-1 relativePaths 31
+1 ArrayObject 72
+31 ArrayObject 37
+Accesses: 3
+0 1 -1 
+66 1 -1 
+30 1 -1 
+Functions: 3
+21 2 -2 72 
+6 1 -2 
+39 6 -1 1 -3 37 72 31 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.add(Lorg/eclipse/jdt/internal/core/JavaProject;ILjava/util/HashSet;)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r2 1 -4 
+$r3 1 5 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+10 1 5 
+14 4 -1 -2 -4 5 
+Constructors: 1
+10 5
+
+Summary: 5
+-1 2 5 -4 -2 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.normalize(Ljava/lang/String;)Ljava/lang/String;
+PTG:
+Vars:
+3
+r2 1 -1 
+_ret 1 -2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+19 1 -2 
+36 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.encloses(Ljava/lang/String;)Z
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+20 1 -2 
+43 2 -1 -2 
+13 1 -2 
+29 1 -1 
+Constructors: 0
+
+Summary: 4
+-1 19 27 0 
+org/eclipse/jdt/internal/core/search/JavaSearchScope.encloses(Lorg/eclipse/jdt/core/IJavaElement;)Z
+PTG:
+Vars:
+7
+$r4 1 163 
+$r3 1 77 
+$r1 1 1 
+r12 1 77 
+r0 1 -1 
+r17 1 171 
+r2 1 -2 
+Fields: 1
+-1 elements 1
+Accesses: 3
+0 1 -1 
+20 1 -1 
+9 1 -1 
+Functions: 16
+160 3 -1 1 -2 
+99 1 77 
+163 1 163 
+132 3 -1 1 -2 
+39 0 
+10 0 
+106 0 
+75 1 -2 
+140 2 -1 1 
+172 3 -1 1 171 
+143 0 
+51 0 
+115 0 
+21 0 
+90 1 77 
+124 0 
+Constructors: 0
+
+Summary: 12
+107 58 138 -1 25 145 105 125 171 163 0 116 

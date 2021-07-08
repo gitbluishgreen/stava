@@ -1,0 +1,328 @@
+16
+java/nio/file/spi/FileSystemProvider.newOutputStream(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/OutputStream;
+PTG:
+Vars:
+13
+$r7 1 119 
+$r13 1 21 
+$r14 1 32 
+r5 1 -1 
+r0 1 -3 
+$r4 1 105 
+_ret 1 125 
+r6 1 -2 
+r10 1 67 
+$r9 1 125 
+$r11 1 71 
+$r1 1 3 
+$r8 1 122 
+Fields: 1
+-3 ArrayObject 67
+Accesses: 0
+Functions: 8
+114 4 -1 -2 3 119 
+35 2 32 3 
+83 0 
+24 2 3 21 
+10 1 3 
+122 1 122 
+91 2 3 67 
+108 2 3 105 
+Constructors: 1
+10 3
+
+Summary: 7
+-2 3 122 -3 67 119 -1 
+java/nio/file/spi/FileSystemProvider.loadInstalledProviders()Ljava/util/List;
+PTG:
+Vars:
+12
+_ret 1 0 
+$r9 1 80 
+r4 1 21 
+r8 1 66 
+$r0 1 0 
+$r5 1 32 
+r7 1 45 
+$r2 1 10 
+r6 1 32 
+r10 1 80 
+r3 1 16 
+$r11 1 92 
+Fields: 0
+Accesses: 0
+Functions: 14
+-1 0 
+4 1 0 
+68 1 66 
+41 1 32 
+10 1 10 
+78 1 66 
+47 1 45 
+17 1 16 
+22 1 21 
+119 2 0 32 
+90 1 80 
+60 1 0 
+92 2 92 45 
+31 1 21 
+Constructors: 1
+4 0
+
+Summary: 7
+66 16 45 10 32 80 92 
+java/nio/file/spi/FileSystemProvider.readSymbolicLink(Ljava/nio/file/Path;)Ljava/nio/file/Path;
+PTG:
+Vars:
+3
+r2 1 -2 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 2
+-2 -1 
+java/nio/file/spi/FileSystemProvider.newFileChannel(Ljava/nio/file/Path;Ljava/util/Set;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/channels/FileChannel;
+PTG:
+Vars:
+5
+r1 1 -1 
+r3 1 -3 
+r2 1 -2 
+r4 1 -4 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 4
+-2 -4 -1 -3 
+java/nio/file/spi/FileSystemProvider.createSymbolicLink(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)V
+PTG:
+Vars:
+5
+r4 1 -4 
+$r0 1 0 
+r1 1 -1 
+r3 1 -3 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 4
+-2 -4 -1 -3 
+java/nio/file/spi/FileSystemProvider.newAsynchronousFileChannel(Ljava/nio/file/Path;Ljava/util/Set;Ljava/util/concurrent/ExecutorService;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/channels/AsynchronousFileChannel;
+PTG:
+Vars:
+6
+r3 1 -3 
+r5 1 -5 
+r1 1 -1 
+r4 1 -4 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 5
+-5 -2 -4 -1 -3 
+java/nio/file/spi/FileSystemProvider.deleteIfExists(Ljava/nio/file/Path;)Z
+PTG:
+Vars:
+3
+$r2 1 -1 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/nio/file/spi/FileSystemProvider.newInputStream(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/InputStream;
+PTG:
+Vars:
+9
+r1 1 -2 
+_ret 1 87 
+r5 1 25 
+r14 1 -1 
+$r2 1 84 
+r0 1 -3 
+$r3 1 87 
+$r6 1 29 
+$r13 1 37 
+Fields: 1
+-3 ArrayObject 25
+Accesses: 0
+Functions: 8
+66 0 
+51 0 
+83 3 -2 -3 25 
+84 1 84 
+56 1 25 
+72 0 
+61 0 
+47 0 
+Constructors: 0
+
+Summary: 10
+-2 25 47 61 56 -3 66 69 84 -1 
+java/nio/file/spi/FileSystemProvider.installedProviders()Ljava/util/List;
+PTG:
+Vars:
+11
+_ret 1 84 
+r3 1 12 
+$r4 1 13 
+$r7 1 45 
+$r1 1 84 
+$r6 1 19 
+$r2 1 6 
+$r8 1 52 
+r9 1 52 
+$r0 1 0 
+$r10 1 68 
+Fields: 0
+Accesses: 0
+Functions: 7
+-1 0 
+49 1 45 
+67 1 52 
+37 0 
+6 1 6 
+45 1 45 
+62 2 52 12 
+Constructors: 1
+49 45
+
+Summary: 3
+6 52 12 
+java/nio/file/spi/FileSystemProvider.checkPermission()Ljava/lang/Void;
+PTG:
+Vars:
+2
+r0 1 3 
+$r1 1 9 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+18 2 3 9 
+15 1 9 
+Constructors: 1
+15 9
+
+Summary: 2
+9 3 
+java/nio/file/spi/FileSystemProvider.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 0
+
+java/nio/file/spi/FileSystemProvider.<init>(Ljava/lang/Void;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+-2 0 -1 
+java/nio/file/spi/FileSystemProvider.newFileSystem(Ljava/nio/file/Path;Ljava/util/Map;)Ljava/nio/file/FileSystem;
+PTG:
+Vars:
+4
+r1 1 -1 
+r3 1 -3 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 3
+-2 -1 -3 
+java/nio/file/spi/FileSystemProvider.<init>()V
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+4 2 -1 1 
+Constructors: 1
+4 -1
+
+Summary: 2
+1 -1 
+java/nio/file/spi/FileSystemProvider.createLink(Ljava/nio/file/Path;Ljava/nio/file/Path;)V
+PTG:
+Vars:
+4
+r1 1 -1 
+r3 1 -3 
+$r0 1 0 
+r2 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 1 0 
+Constructors: 1
+4 0
+
+Summary: 3
+-2 -1 -3 
+java/nio/file/spi/FileSystemProvider.access$000()Ljava/util/List;
+PTG:
+Vars:
+2
+_ret 1 0 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+-1 0 
+Constructors: 0
+
+Summary: 0
+

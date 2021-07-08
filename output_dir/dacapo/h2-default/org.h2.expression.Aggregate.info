@@ -1,0 +1,766 @@
+21
+org/h2/expression/Aggregate.updateAggregate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+23
+r6 1 -2 
+$r13 1 122 
+$r7 1 76 
+$r10 1 122 
+$r23 1 209 
+$r5 1 76 
+$r9 1 122 
+$r12 1 122 
+r15 1 169 
+$r3 1 1 
+r20 2 37 50 
+$r18 1 50 
+$r17 1 189 
+r22 3 204 119 91 
+$r4 1 37 
+$r16 1 185 
+$r8 1 106 
+$r21 1 91 
+$r1 1 1 
+r11 1 137 
+$r14 1 169 
+r0 1 -1 
+r2 1 7 
+Fields: 4
+-1 on 76
+-1 select 1
+-1 orderList 122
+169 expression 185
+Accesses: 15
+0 1 -1 
+32 1 -1 
+96 1 -1 
+129 1 -1 
+163 1 -1 
+75 1 -1 
+13 1 -1 
+212 1 -1 
+21 1 -1 
+54 1 -1 
+86 1 -1 
+183 1 169 
+121 1 -1 
+153 1 -1 
+58 1 -1 
+Functions: 14
+1 1 1 
+130 1 122 
+35 5 -1 1 7 122 76 
+164 1 122 
+71 6 -1 1 50 7 122 76 
+199 1 137 
+14 1 1 
+112 1 91 
+208 1 -2 
+87 2 -2 76 
+185 2 -2 185 
+154 1 122 
+218 6 209 50 37 119 91 204 
+62 1 50 
+Constructors: 1
+62 50
+
+Summary: 5
+137 -1 -2 0 50 
+org/h2/expression/Aggregate.setSeparator(Lorg/h2/expression/Expression;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/expression/Aggregate.isEverything(Lorg/h2/expression/ExpressionVisitor;)Z
+PTG:
+Vars:
+12
+$r5 1 139 
+$r3 1 117 
+r13 1 161 
+$r7 1 169 
+$r9 1 97 
+$r6 1 161 
+$r12 1 139 
+$r4 1 139 
+r1 1 -1 
+$r8 1 117 
+r0 1 -2 
+$r2 1 97 
+Fields: 4
+-1 on 97
+-1 orderList 139
+-1 separator 117
+161 expression 169
+Accesses: 10
+64 1 -1 
+96 1 -1 
+146 1 -1 
+116 1 -1 
+103 1 -1 
+8 1 -1 
+168 1 161 
+138 1 -1 
+123 1 -1 
+156 1 -1 
+Functions: 9
+0 1 -2 
+48 1 -2 
+49 0 
+147 1 139 
+104 2 97 -2 
+169 2 -2 169 
+124 2 -2 117 
+157 1 139 
+78 4 -1 97 117 139 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/expression/Aggregate.getDisplaySize()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/Aggregate.addAggregate(Ljava/lang/String;I)V
+PTG:
+Vars:
+3
+$r1 1 0 
+r0 1 -2 
+$r2 1 5 
+Fields: 0
+Accesses: 0
+Functions: 2
+4 0 
+8 3 0 -2 5 
+Constructors: 0
+
+Summary: 1
+-2 
+org/h2/expression/Aggregate.getColumnIndex(Z)Lorg/h2/index/Index;
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+r3 1 1 
+r5 1 27 
+r4 1 22 
+Fields: 1
+-1 on 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 4
+18 1 1 
+34 1 27 
+23 1 1 
+41 1 22 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/Aggregate.getSQLGroupConcat()Ljava/lang/String;
+PTG:
+Vars:
+18
+$r8 1 125 
+r16 1 43 
+$r11 1 99 
+$r17 1 54 
+r18 1 54 
+$r19 1 71 
+$r4 1 15 
+$r10 1 108 
+_ret 1 128 
+$r20 1 74 
+r2 1 -1 
+$r6 1 23 
+$r12 1 115 
+$r3 1 12 
+$r15 1 23 
+$r0 1 0 
+$r7 1 99 
+$r9 1 128 
+Fields: 4
+-1 on 12
+-1 orderList 23
+-1 separator 99
+54 expression 71
+Accesses: 7
+81 1 54 
+98 1 -1 
+36 1 -1 
+22 1 -1 
+70 1 54 
+11 1 -1 
+111 1 -1 
+Functions: 16
+32 1 0 
+66 1 0 
+37 1 23 
+6 1 0 
+71 1 71 
+105 1 0 
+12 1 12 
+44 1 43 
+77 2 0 74 
+112 1 99 
+18 2 0 15 
+53 1 43 
+118 2 115 108 
+122 1 0 
+91 1 0 
+125 1 125 
+Constructors: 1
+6 0
+
+Summary: 1
+-1 
+org/h2/expression/Aggregate.setOrder(Lorg/h2/util/ObjectArray;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/h2/expression/Aggregate.optimize(Lorg/h2/engine/Session;)Lorg/h2/expression/Expression;
+PTG:
+Vars:
+25
+$r21 1 99 
+r17 1 77 
+r13 1 -2 
+$r26 1 1 
+$r16 1 64 
+$r19 1 88 
+$r24 1 13 
+$r23 1 1 
+$r9 1 411 
+$r27 1 1 
+$r11 1 421 
+$r2 1 64 
+$r10 1 418 
+$r18 1 115 
+$r8 1 402 
+r0 1 -1 
+$r1 1 1 
+$r14 1 122 
+_ret 1 -1 
+$r15 1 134 
+$r22 1 103 
+$r3 1 122 
+$r25 1 1 
+$r28 1 1 
+r20 1 88 
+Fields: 4
+-1 on 1
+-1 orderList 64
+-1 separator 122
+88 expression 99
+Accesses: 45
+0 1 -1 
+129 1 -1 
+257 1 -1 
+386 1 -1 
+323 1 -1 
+70 1 -1 
+263 1 -1 
+391 1 -1 
+8 1 -1 
+137 1 -1 
+329 1 -1 
+140 1 -1 
+396 1 -1 
+271 1 -1 
+16 1 -1 
+20 1 -1 
+276 1 -1 
+27 1 -1 
+219 1 -1 
+283 1 -1 
+414 1 -1 
+31 1 -1 
+224 1 -1 
+289 1 -1 
+98 1 88 
+355 1 -1 
+38 1 -1 
+231 1 -1 
+295 1 -1 
+42 1 -1 
+106 1 88 
+362 1 -1 
+237 1 -1 
+368 1 -1 
+49 1 -1 
+53 1 -1 
+245 1 -1 
+373 1 -1 
+118 1 -1 
+121 1 -1 
+250 1 -1 
+60 1 -1 
+316 1 -1 
+381 1 -1 
+63 1 -1 
+Functions: 23
+32 1 1 
+130 2 -2 122 
+418 1 418 
+99 2 -2 99 
+71 1 64 
+296 0 
+424 1 421 
+9 2 1 -2 
+330 0 
+43 1 1 
+78 1 77 
+113 5 -1 64 1 -2 122 
+402 1 402 
+307 4 -1 64 1 122 
+308 0 
+21 1 1 
+341 4 -1 64 1 122 
+54 1 1 
+342 0 
+406 1 402 
+87 1 77 
+411 1 411 
+317 0 
+Constructors: 1
+406 402
+
+Summary: 2
+-2 0 
+org/h2/expression/Aggregate.mapColumns(Lorg/h2/table/ColumnResolver;I)V
+PTG:
+Vars:
+12
+$r5 1 65 
+$r6 1 17 
+$r1 1 1 
+$r11 1 1 
+$r2 1 17 
+$r10 1 53 
+$r3 1 65 
+r7 1 30 
+r9 1 41 
+r4 1 -2 
+r0 1 -1 
+$r8 1 41 
+Fields: 4
+-1 on 1
+-1 orderList 17
+-1 separator 65
+41 expression 53
+Accesses: 7
+0 1 -1 
+16 1 -1 
+64 1 -1 
+51 1 41 
+7 1 -1 
+23 1 -1 
+71 1 -1 
+Functions: 6
+24 1 17 
+40 1 30 
+58 2 -2 53 
+13 2 1 -2 
+77 2 65 -2 
+31 1 30 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/expression/Aggregate.<init>(ILorg/h2/expression/Expression;Lorg/h2/command/dml/Select;Z)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -3 
+r2 1 -4 
+Fields: 0
+Accesses: 4
+16 1 -1 
+6 1 -1 
+22 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 1 2 
+org/h2/expression/Aggregate.getValue(Lorg/h2/engine/Session;)Lorg/h2/value/Value;
+PTG:
+Vars:
+35
+$r56 1 314 
+$r55 1 238 
+$r10 1 348 
+$r5 1 256 
+$r7 1 300 
+r14 1 391 
+r45 2 480 266 
+r52 1 377 
+$r12 1 474 
+r4 1 -2 
+$r58 1 314 
+$r19 1 420 
+$r18 1 416 
+$r9 1 348 
+r46 1 280 
+r51 2 367 354 
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+$r15 1 433 
+$r34 1 196 
+$r57 1 338 
+$r50 2 367 354 
+_ret 2 480 266 
+$r13 1 391 
+$r32 1 186 
+$r3 1 227 
+r43 1 210 
+$r54 1 177 
+r53 2 439 424 
+r47 1 310 
+$r33 1 193 
+$r11 1 364 
+$r17 1 391 
+r44 2 238 227 
+Fields: 5
+-1 select 1
+-1 orderList 300
+-1 separator 348
+-1 sort 310
+416 ArrayObject 420
+Accesses: 14
+0 1 -1 
+259 1 -1 
+68 1 -1 
+359 1 -1 
+10 1 -1 
+203 1 -1 
+299 1 -1 
+268 1 -1 
+48 1 -1 
+242 1 -1 
+306 1 -1 
+246 1 -1 
+347 1 -1 
+189 1 -1 
+Functions: 44
+1 1 1 
+193 1 193 
+321 6 -1 1 310 314 300 348 
+131 0 
+324 2 280 314 
+389 1 377 
+199 1 196 
+458 3 338 354 367 
+204 1 1 
+332 0 
+401 1 391 
+465 3 338 439 424 
+82 5 -1 1 310 300 348 
+276 2 227 238 
+342 1 338 
+472 1 338 
+89 0 
+153 0 
+217 5 -1 1 310 300 348 
+218 0 
+474 1 474 
+155 0 
+413 1 391 
+287 1 280 
+225 6 -1 1 210 310 300 348 
+163 0 
+420 1 420 
+360 2 -2 348 
+364 1 364 
+429 1 391 
+49 0 
+177 1 177 
+433 1 433 
+52 0 
+372 1 280 
+181 1 177 
+120 1 -2 
+186 1 186 
+250 1 238 
+59 1 -2 
+379 1 377 
+61 0 
+254 3 256 227 238 
+255 1 -2 
+Constructors: 4
+321 314
+181 177
+342 338
+250 238
+
+Summary: 5
+0 314 -1 238 -2 
+org/h2/expression/Aggregate.<clinit>()V
+PTG:
+Vars:
+1
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 21
+-1 0 
+96 0 
+34 0 
+131 0 
+68 0 
+103 0 
+40 0 
+9 0 
+138 0 
+75 0 
+110 0 
+15 0 
+47 0 
+82 0 
+21 0 
+117 0 
+54 0 
+89 0 
+27 0 
+124 0 
+61 0 
+Constructors: 0
+
+Summary: 0
+
+org/h2/expression/Aggregate.initOrder(Lorg/h2/engine/Session;)Lorg/h2/result/SortOrder;
+PTG:
+Vars:
+13
+r4 1 17 
+$r3 1 1 
+$r5 1 1 
+$r8 1 89 
+r7 1 -2 
+$r6 1 84 
+$r1 1 1 
+_ret 1 84 
+$r9 1 1 
+$r10 1 41 
+r11 1 41 
+r0 1 -1 
+r2 1 7 
+Fields: 1
+-1 orderList 1
+Accesses: 5
+0 1 -1 
+35 1 -1 
+25 1 -1 
+57 1 41 
+10 1 -1 
+Functions: 6
+1 1 1 
+36 1 1 
+88 1 -2 
+26 1 1 
+11 1 1 
+94 4 17 84 7 89 
+Constructors: 1
+94 84
+
+Summary: 5
+-1 -2 7 0 17 
+org/h2/expression/Aggregate.getPrecision()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/Aggregate.getAggregateType(Ljava/lang/String;)I
+PTG:
+Vars:
+4
+r0 1 -2 
+$r1 1 0 
+r3 1 4 
+$r2 1 4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 0 -2 
+19 1 4 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/h2/expression/Aggregate.getSQL()Ljava/lang/String;
+PTG:
+Vars:
+10
+$r3 1 236 
+$r1 1 224 
+$r4 1 239 
+$r7 1 248 
+r0 1 -1 
+r22 12 86 122 92 116 104 146 140 110 134 152 98 128 
+$r5 1 242 
+$r2 1 232 
+$r6 1 245 
+_ret 1 248 
+Fields: 1
+-1 on 236
+Accesses: 5
+0 1 -1 
+182 1 -1 
+168 1 -1 
+235 1 -1 
+205 1 -1 
+Functions: 19
+160 0 
+224 13 224 128 98 134 104 140 110 146 116 86 152 122 92 
+193 0 
+228 1 224 
+165 0 
+197 0 
+232 2 242 232 
+202 0 
+76 2 -1 236 
+172 0 
+236 1 236 
+206 0 
+175 0 
+239 1 239 
+212 0 
+245 1 245 
+217 0 
+156 0 
+189 12 128 146 98 116 86 134 104 152 122 92 140 110 
+Constructors: 1
+228 224
+
+Summary: 1
+-1 
+org/h2/expression/Aggregate.getType()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/Aggregate.getCost()I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 on 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 1
+12 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/Aggregate.setEvaluatable(Lorg/h2/table/TableFilter;Z)V
+PTG:
+Vars:
+12
+r0 1 -1 
+$r2 1 17 
+$r6 1 17 
+r7 1 30 
+$r10 1 53 
+$r1 1 1 
+$r11 1 1 
+r9 1 41 
+r4 1 -2 
+$r3 1 65 
+$r5 1 65 
+$r8 1 41 
+Fields: 4
+-1 on 1
+-1 orderList 17
+-1 separator 65
+41 expression 53
+Accesses: 7
+0 1 -1 
+16 1 -1 
+64 1 -1 
+51 1 41 
+7 1 -1 
+23 1 -1 
+71 1 -1 
+Functions: 6
+24 1 17 
+40 1 30 
+58 2 -2 53 
+13 2 1 -2 
+77 2 65 -2 
+31 1 30 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+org/h2/expression/Aggregate.getScale()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

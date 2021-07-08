@@ -1,0 +1,219 @@
+11
+org/h2/expression/ConditionNot.getValue(Lorg/h2/engine/Session;)Lorg/h2/value/Value;
+PTG:
+Vars:
+8
+$r4 1 10 
+_ret 1 23 
+$r6 1 23 
+r1 1 -2 
+$r2 1 1 
+r3 1 8 
+$r5 1 20 
+r0 1 -1 
+Fields: 1
+-1 condition 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 2 1 -2 
+18 1 8 
+20 1 20 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ConditionNot.mapColumns(Lorg/h2/table/ColumnResolver;I)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 condition 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ConditionNot.updateAggregate(Lorg/h2/engine/Session;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 condition 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ConditionNot.<init>(Lorg/h2/expression/Expression;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+6 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+-1 0 
+org/h2/expression/ConditionNot.addFilterConditions(Lorg/h2/table/TableFilter;Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+8 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ConditionNot.optimize(Lorg/h2/engine/Session;)Lorg/h2/expression/Expression;
+PTG:
+Vars:
+7
+r0 1 -1 
+$r4 1 21 
+_ret 1 -1 
+r3 1 28 
+r1 1 -2 
+$r2 1 21 
+r5 1 47 
+Fields: 1
+-1 condition 21
+Accesses: 5
+20 1 -1 
+7 1 -1 
+39 1 -1 
+89 1 -1 
+15 1 -1 
+Functions: 10
+48 1 47 
+-1 0 
+80 0 
+33 2 -2 28 
+21 2 -2 21 
+55 2 -2 47 
+8 1 -2 
+40 2 -2 21 
+74 0 
+77 0 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/h2/expression/ConditionNot.getSQL()Ljava/lang/String;
+PTG:
+Vars:
+9
+$r6 1 24 
+$r4 1 16 
+_ret 1 27 
+r2 1 -1 
+$r1 1 9 
+$r0 1 0 
+$r5 1 19 
+$r7 1 27 
+$r3 1 13 
+Fields: 1
+-1 condition 13
+Accesses: 1
+12 1 -1 
+Functions: 6
+0 1 0 
+19 1 19 
+4 1 0 
+24 1 24 
+9 2 16 9 
+13 1 13 
+Constructors: 1
+4 0
+
+Summary: 1
+-1 
+org/h2/expression/ConditionNot.setEvaluatable(Lorg/h2/table/TableFilter;Z)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+r1 1 -2 
+Fields: 1
+-1 condition 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ConditionNot.getCost()I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 condition 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/h2/expression/ConditionNot.getNotIfPossible(Lorg/h2/engine/Session;)Lorg/h2/expression/Expression;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+r2 1 -2 
+Fields: 1
+-1 condition 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-1 0 -2 
+org/h2/expression/ConditionNot.isEverything(Lorg/h2/expression/ExpressionVisitor;)Z
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 1 
+Fields: 1
+-1 condition 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-1 0 -2 

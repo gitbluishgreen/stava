@@ -1,0 +1,239 @@
+12
+com/sun/org/apache/xpath/internal/operations/Operation.setLeftRight(Lcom/sun/org/apache/xpath/internal/Expression;Lcom/sun/org/apache/xpath/internal/Expression;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 2
+2 1 -1 
+7 1 -1 
+Functions: 2
+17 2 -1 -3 
+12 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/operations/Operation.execute(Lcom/sun/org/apache/xpath/internal/XPathContext;)Lcom/sun/org/apache/xpath/internal/objects/XObject;
+PTG:
+Vars:
+8
+_ret 1 26 
+r5 1 19 
+r3 1 9 
+r0 1 -1 
+$r4 1 11 
+r1 1 -2 
+r6 1 26 
+$r2 1 1 
+Fields: 2
+-1 m_left 1
+-1 m_right 11
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 5
+1 2 1 -2 
+33 1 19 
+20 5 -1 1 19 9 11 
+11 2 -2 11 
+29 1 9 
+Constructors: 0
+
+Summary: 5
+-1 9 19 0 -2 
+com/sun/org/apache/xpath/internal/operations/Operation.getExpression()Lcom/sun/org/apache/xpath/internal/Expression;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_right 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/operations/Operation.<init>()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/operations/Operation.getLeftOperand()Lcom/sun/org/apache/xpath/internal/Expression;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 m_left 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/operations/Operation.setExpression(Lcom/sun/org/apache/xpath/internal/Expression;)V
+PTG:
+Vars:
+2
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+7 1 -1 
+Functions: 1
+2 2 -1 -2 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/operations/Operation.deepEquals(Lcom/sun/org/apache/xpath/internal/Expression;)Z
+PTG:
+Vars:
+8
+$r5 1 -2 
+$r3 1 18 
+r1 1 -2 
+r0 1 -1 
+$r4 1 11 
+$r7 1 30 
+$r6 1 37 
+$r2 1 -2 
+Fields: 4
+-1 m_left 11
+-1 m_right 30
+-2 m_left 18
+-2 m_right 37
+Accesses: 4
+34 1 -2 
+10 1 -1 
+29 1 -1 
+15 1 -2 
+Functions: 3
+0 6 -1 -2 18 37 11 30 
+11 2 18 11 
+30 2 37 30 
+Constructors: 0
+
+Summary: 4
+-1 37 18 -2 
+com/sun/org/apache/xpath/internal/operations/Operation.canTraverseOutsideSubtree()Z
+PTG:
+Vars:
+5
+$r3 1 22 
+$r2 1 22 
+$r1 1 2 
+r0 1 -1 
+$r4 1 2 
+Fields: 2
+-1 m_left 2
+-1 m_right 22
+Accesses: 4
+1 1 -1 
+21 1 -1 
+8 1 -1 
+28 1 -1 
+Functions: 2
+9 1 2 
+29 1 22 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xpath/internal/operations/Operation.fixupVariables(Ljava/util/Vector;I)V
+PTG:
+Vars:
+4
+$r3 1 10 
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 2
+-1 m_left 1
+-1 m_right 10
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 2
+6 2 1 -2 
+15 2 -2 10 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+com/sun/org/apache/xpath/internal/operations/Operation.callVisitors(Lcom/sun/org/apache/xpath/internal/ExpressionOwner;Lcom/sun/org/apache/xpath/internal/XPathVisitor;)V
+PTG:
+Vars:
+6
+r2 1 -1 
+$r5 1 26 
+$r3 1 13 
+$r4 1 10 
+r0 1 -3 
+r1 1 -2 
+Fields: 2
+-1 m_left 10
+-1 m_right 26
+Accesses: 2
+9 1 -1 
+25 1 -1 
+Functions: 4
+0 5 -1 -2 -3 10 26 
+18 4 -1 10 26 13 
+22 3 -3 10 13 
+31 4 -1 -3 26 10 
+Constructors: 1
+18 13
+
+Summary: 4
+-1 -3 13 -2 
+com/sun/org/apache/xpath/internal/operations/Operation.operate(Lcom/sun/org/apache/xpath/internal/objects/XObject;Lcom/sun/org/apache/xpath/internal/objects/XObject;)Lcom/sun/org/apache/xpath/internal/objects/XObject;
+PTG:
+Vars:
+3
+r2 1 -3 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+com/sun/org/apache/xpath/internal/operations/Operation.getRightOperand()Lcom/sun/org/apache/xpath/internal/Expression;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 m_right 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

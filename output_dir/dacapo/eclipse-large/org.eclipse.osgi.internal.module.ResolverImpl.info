@@ -1,0 +1,4012 @@
+72
+org/eclipse/osgi/internal/module/ResolverImpl.getState()Lorg/eclipse/osgi/service/resolver/State;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 state 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/module/ResolverImpl.getMultipleSuppliers([Lorg/eclipse/osgi/internal/module/ResolverBundle;Ljava/util/HashSet;Ljava/util/HashSet;)[[Lorg/eclipse/osgi/internal/module/ResolverConstraint;
+PTG:
+Vars:
+66
+$r50 1 531 
+r20 1 181 
+$r31 1 249 
+$r26 1 217 
+$r11 1 107 
+r53 1 82 
+$r29 1 231 
+$r23 1 210 
+r46 1 -3 
+r55 1 159 
+r52 1 33 
+$r49 1 463 
+r62 1 463 
+$r34 1 574 
+$r7 1 59 
+$r13 1 113 
+r24 1 -1 
+r56 2 449 289 
+$r37 1 617 
+$r18 1 175 
+r66 1 609 
+$r0 1 0 
+$r43 1 361 
+r58 1 330 
+$r51 1 500 
+$r19 1 181 
+$r22 1 206 
+$r10 1 106 
+$r40 1 315 
+$r33 1 289 
+_ret 1 657 
+$r69 1 657 
+$r5 1 29 
+$r9 1 94 
+$r27 1 227 
+r61 1 447 
+$r16 1 171 
+$r21 1 206 
+r54 1 119 
+$r2 1 10 
+r65 1 566 
+$r6 1 45 
+$r38 1 624 
+$r44 1 386 
+$r35 1 581 
+$r41 1 340 
+$r63 1 482 
+$r36 1 581 
+$r42 1 340 
+$r48 1 449 
+r60 1 376 
+$r68 1 657 
+r4 1 -2 
+$r39 1 624 
+$r32 1 143 
+$r25 1 214 
+$r45 1 386 
+$r12 1 107 
+$r30 1 237 
+r47 1 -4 
+$r17 1 171 
+$r28 1 227 
+$r8 1 78 
+$r67 1 654 
+$r14 1 119 
+$r15 1 155 
+Fields: 13
+-2 ArrayObject 78
+-2 ArrayObject 29
+463 ArrayObject 482
+33 ArrayObject 45
+33 ArrayObject 59
+82 ArrayObject 106
+82 ArrayObject 143
+82 ArrayObject 155
+82 ArrayObject 249
+82 ArrayObject 94
+159 ArrayObject 171
+159 ArrayObject 206
+159 ArrayObject 227
+Accesses: 0
+Functions: 58
+384 1 376 
+129 1 119 
+513 3 449 482 463 
+5 1 0 
+647 3 449 289 654 
+649 2 449 289 
+394 3 -1 386 361 
+397 1 376 
+15 1 10 
+144 2 0 143 
+528 2 -4 531 
+529 1 482 
+155 1 155 
+412 3 -1 289 315 
+29 1 29 
+544 3 449 482 463 
+420 3 -1 289 361 
+548 1 447 
+293 1 289 
+423 1 289 
+298 1 0 
+172 1 171 
+45 1 45 
+175 1 175 
+303 1 10 
+561 1 0 
+442 1 289 
+60 2 10 59 
+191 1 181 
+320 1 315 
+579 1 566 
+325 1 0 
+453 1 449 
+461 1 447 
+78 1 78 
+590 2 289 574 
+207 1 206 
+210 2 210 214 
+338 1 330 
+594 1 566 
+213 1 -1 
+348 3 -1 340 315 
+604 1 10 
+94 1 94 
+351 1 330 
+228 1 227 
+231 1 231 
+106 1 106 
+110 1 107 
+366 1 361 
+622 1 609 
+113 1 113 
+497 2 -3 500 
+498 1 482 
+371 1 10 
+633 2 289 617 
+250 2 0 249 
+637 1 609 
+Constructors: 6
+320 315
+5 0
+293 289
+453 449
+366 361
+15 10
+
+Summary: 35
+340 0 175 214 237 289 463 82 -4 113 2 654 -1 159 10 231 -3 210 33 574 1 617 386 107 119 -2 0 500 315 361 482 449 531 181 217 
+org/eclipse/osgi/internal/module/ResolverImpl.findBestCombination([Lorg/eclipse/osgi/internal/module/ResolverBundle;[[Lorg/eclipse/osgi/internal/module/ResolverConstraint;[ILjava/util/ArrayList;)Ljava/util/ArrayList;
+PTG:
+Vars:
+27
+$r3 1 219 
+$r6 1 237 
+$r7 1 242 
+r23 2 137 -5 
+$r13 1 198 
+r2 1 -3 
+$r11 1 186 
+$r14 1 201 
+$r21 1 53 
+$r18 1 113 
+$r15 1 95 
+r25 1 69 
+$r8 1 245 
+r1 1 -1 
+$r22 1 55 
+r0 1 -2 
+r26 1 137 
+$r19 1 118 
+$r12 1 183 
+$r5 1 231 
+$r16 1 92 
+r24 2 37 175 
+r9 1 -4 
+$r17 1 107 
+$r20 1 121 
+_ret 2 137 -5 
+$r4 1 216 
+Fields: 0
+Accesses: 0
+Functions: 30
+0 0 
+-1 0 
+193 1 186 
+130 2 -1 -2 
+198 1 198 
+71 2 -1 69 
+139 2 -1 137 
+204 2 183 201 
+268 2 -1 -3 
+14 0 
+23 3 -1 -5 137 
+219 1 219 
+31 3 -1 -5 137 
+95 1 95 
+226 1 219 
+165 3 -1 -3 -4 
+102 1 95 
+231 1 231 
+169 2 -1 137 
+107 1 107 
+237 1 237 
+49 3 -1 -3 53 
+113 1 113 
+242 1 242 
+118 1 118 
+248 2 245 216 
+58 2 -1 55 
+186 1 186 
+124 2 121 92 
+61 3 -1 37 175 
+Constructors: 3
+193 186
+226 219
+102 95
+
+Summary: 20
+-3 137 55 1 175 201 3 53 121 242 -2 0 -4 198 245 37 118 2 69 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.addDevConstraints([Lorg/eclipse/osgi/service/resolver/BundleDescription;)[Lorg/eclipse/osgi/service/resolver/BundleDescription;
+PTG:
+Vars:
+15
+r10 1 -2 
+$r8 1 48 
+$r12 1 118 
+r0 1 -1 
+r7 1 31 
+$r4 1 18 
+$r5 1 28 
+$r14 1 95 
+$r3 1 18 
+$r11 1 115 
+$r6 1 31 
+$r1 1 9 
+$r9 1 57 
+_ret 1 118 
+$r13 1 118 
+Fields: 4
+-2 ArrayObject 95
+31 ArrayObject 48
+31 ArrayObject 57
+-1 unresolvedBundles 18
+Accesses: 3
+0 1 -1 
+17 1 -1 
+21 1 -1 
+Functions: 9
+96 2 9 95 
+18 2 18 28 
+50 4 -1 48 18 9 
+22 1 18 
+72 1 9 
+59 4 -1 18 57 9 
+13 1 9 
+110 2 115 9 
+111 1 9 
+Constructors: 1
+13 9
+
+Summary: 6
+115 0 28 31 -1 9 
+org/eclipse/osgi/internal/module/ResolverImpl.resolveOptionalConstraints([Lorg/eclipse/osgi/internal/module/ResolverBundle;)V
+PTG:
+Vars:
+4
+$r1 1 7 
+r0 1 -2 
+$r3 1 14 
+r2 1 -1 
+Fields: 2
+-2 ArrayObject 7
+-2 ArrayObject 14
+Accesses: 0
+Functions: 1
+15 2 -1 14 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.setBundleResolved(Lorg/eclipse/osgi/internal/module/ResolverBundle;)V
+PTG:
+Vars:
+3
+$r2 1 10 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 unresolvedBundles 10
+Accesses: 1
+9 1 -1 
+Functions: 3
+0 1 -2 
+20 1 -2 
+14 2 -2 10 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.rewireBundle(Lorg/eclipse/osgi/internal/module/ResolverBundle;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+9
+r7 1 49 
+r8 1 82 
+r0 1 -3 
+$r5 1 62 
+$r4 1 30 
+r2 1 19 
+r3 1 -1 
+r1 1 -2 
+$r6 1 95 
+Fields: 3
+49 ArrayObject 62
+82 ArrayObject 95
+19 ArrayObject 30
+Accesses: 0
+Functions: 8
+0 2 -2 -3 
+32 3 -1 -3 30 
+64 3 -1 -3 62 
+97 3 -1 -3 95 
+11 2 -2 -3 
+45 1 -2 
+78 1 -2 
+15 1 -2 
+Constructors: 0
+
+Summary: 8
+-3 -2 49 0 82 -1 1 19 
+org/eclipse/osgi/internal/module/ResolverImpl.checkUsesConstraints([Lorg/eclipse/osgi/internal/module/ResolverBundle;[Ljava/util/Dictionary;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+26
+$r6 1 187 
+r2 1 5 
+$r13 1 139 
+$r4 1 28 
+r25 2 111 95 
+$r11 1 127 
+$r20 1 95 
+$r21 1 59 
+$r14 1 145 
+$r15 1 150 
+r23 1 -4 
+$r9 1 202 
+$r17 1 82 
+r24 1 59 
+r3 1 21 
+$r7 1 192 
+r22 1 -3 
+$r16 1 153 
+$r8 1 199 
+$r19 1 90 
+$r18 1 87 
+$r10 1 207 
+r1 1 -2 
+r5 1 28 
+$r12 1 124 
+r0 1 -1 
+Fields: 2
+-1 state 187
+-1 bundleMapping 82
+Accesses: 2
+81 1 -1 
+186 1 -1 
+Functions: 29
+0 4 -1 -2 82 187 
+68 1 59 
+197 1 28 
+134 1 127 
+199 1 199 
+73 1 28 
+139 1 139 
+205 1 28 
+16 1 5 
+145 3 145 111 95 
+82 2 82 90 
+210 4 192 202 187 207 
+85 1 28 
+150 1 150 
+87 1 87 
+26 1 21 
+218 2 111 95 
+156 2 153 124 
+223 2 111 95 
+163 3 59 111 95 
+38 1 28 
+231 5 -1 82 187 111 95 
+106 1 28 
+234 1 21 
+48 1 28 
+250 7 -1 -2 82 -3 -4 187 59 
+190 2 111 95 
+63 1 5 
+127 2 28 127 
+Constructors: 2
+68 59
+134 127
+
+Summary: 19
+-3 111 153 90 95 1 28 59 -2 202 5 192 0 -4 207 2 87 -1 150 
+org/eclipse/osgi/internal/module/ResolverImpl.bundleAdded(Lorg/eclipse/osgi/service/resolver/BundleDescription;)V
+PTG:
+Vars:
+13
+$r10 1 54 
+$r3 1 13 
+$r13 1 73 
+$r12 1 65 
+$r9 1 50 
+$r4 1 20 
+r1 1 -2 
+$r2 1 9 
+$r8 1 41 
+$r6 1 9 
+$r11 1 61 
+$r14 1 77 
+r0 1 -1 
+Fields: 5
+-1 unresolvedBundles 41
+-1 bundleMapping 9
+-1 resolverExports 50
+-1 resolverBundles 61
+-1 resolverGenerics 73
+Accesses: 7
+0 1 -1 
+49 1 -1 
+8 1 -1 
+40 1 -1 
+72 1 -1 
+60 1 -1 
+30 1 -1 
+Functions: 10
+64 1 20 
+80 2 73 77 
+36 3 -2 20 9 
+53 1 20 
+69 3 65 20 61 
+9 2 -2 9 
+57 2 50 54 
+26 8 -1 -2 50 20 41 9 73 61 
+76 1 20 
+45 2 20 41 
+Constructors: 1
+26 20
+
+Summary: 8
+20 -2 54 0 77 65 13 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.<init>(Lorg/osgi/framework/BundleContext;Z)V
+PTG:
+Vars:
+4
+r3 1 -2 
+r0 1 -1 
+$r1 1 5 
+$r2 1 51 
+Fields: 0
+Accesses: 9
+32 1 -1 
+17 1 -1 
+37 1 -1 
+22 1 -1 
+42 1 -1 
+27 1 -1 
+12 1 -1 
+61 1 -1 
+47 1 -1 
+Functions: 3
+1 1 -1 
+9 1 5 
+58 3 -1 -2 51 
+Constructors: 3
+1 -1
+9 5
+58 51
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.<clinit>()V
+PTG:
+Vars:
+3
+$r2 1 47 
+$r0 1 44 
+$r1 1 47 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+44 1 44 
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/osgi/internal/module/ResolverImpl.attachFragment(Lorg/eclipse/osgi/internal/module/ResolverBundle;Ljava/util/ArrayList;Ljava/util/Collection;)V
+PTG:
+Vars:
+11
+$r5 1 26 
+$r8 1 48 
+$r3 1 16 
+$r6 1 30 
+r1 1 -2 
+r0 1 -4 
+r10 1 -3 
+$r2 1 2 
+r9 1 48 
+r7 1 36 
+r4 1 -1 
+Fields: 2
+-1 resolverBundles 26
+36 ArrayObject 48
+Accesses: 1
+25 1 -1 
+Functions: 8
+0 2 2 -4 
+1 1 -2 
+66 4 -1 48 -3 26 
+19 2 16 -4 
+54 1 48 
+26 2 26 30 
+29 1 -2 
+15 1 -2 
+Constructors: 0
+
+Summary: 9
+-3 2 16 -2 2 30 -1 36 1 
+org/eclipse/osgi/internal/module/ResolverImpl.getSelectionPolicy()Ljava/util/Comparator;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 selectionPolicy 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/module/ResolverImpl.getCompositeHelpers()Lorg/eclipse/osgi/internal/module/CompositeResolveHelperRegistry;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 compositeHelpers 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/module/ResolverImpl.stateResolveConstraints(Lorg/eclipse/osgi/internal/module/ResolverBundle;)V
+PTG:
+Vars:
+29
+$r23 1 32 
+$r18 1 201 
+$r10 1 109 
+r29 1 134 
+r22 1 13 
+$r6 1 38 
+$r14 1 192 
+$r9 1 78 
+$r7 1 44 
+$r12 1 110 
+$r3 1 13 
+$r2 1 12 
+$r5 1 43 
+$r17 1 200 
+r30 1 150 
+$r16 1 193 
+$r8 1 77 
+$r15 4 158 185 38 103 
+r0 1 -2 
+r25 1 67 
+r4 1 -1 
+r26 1 78 
+r1 1 4 
+$r11 2 38 103 
+$r13 1 146 
+$r27 1 97 
+$r20 4 158 185 38 103 
+$r21 1 166 
+$r19 1 165 
+Fields: 12
+67 ArrayObject 77
+67 ArrayObject 109
+4 ArrayObject 43
+4 ArrayObject 12
+134 ArrayObject 146
+134 ArrayObject 165
+134 ArrayObject 192
+-1 state 158
+-1 state 185
+-1 state 38
+-1 state 103
+150 ArrayObject 200
+Accesses: 4
+37 1 -1 
+102 1 -1 
+184 1 -1 
+157 1 -1 
+Functions: 17
+0 1 -2 
+192 1 192 
+130 1 -2 
+165 1 165 
+200 1 200 
+170 5 38 166 103 185 158 
+43 1 43 
+12 1 12 
+204 6 193 38 103 185 201 158 
+77 1 77 
+109 1 109 
+49 3 32 38 44 
+146 1 146 
+115 4 97 38 103 110 
+30 1 13 
+63 1 -2 
+95 1 78 
+Constructors: 0
+
+Summary: 16
+44 201 32 193 134 13 67 166 -2 4 0 97 110 78 -1 150 
+org/eclipse/osgi/internal/module/ResolverImpl.stateResolveBundles([Lorg/eclipse/osgi/internal/module/ResolverBundle;)V
+PTG:
+Vars:
+5
+$r1 1 7 
+$r2 1 8 
+r3 1 -1 
+r0 1 -2 
+$r4 1 22 
+Fields: 2
+-2 ArrayObject 22
+-2 ArrayObject 7
+Accesses: 0
+Functions: 3
+7 1 7 
+23 2 -1 22 
+8 1 8 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 8 
+org/eclipse/osgi/internal/module/ResolverImpl.addMergedSuppliers(Ljava/util/ArrayList;Ljava/util/HashMap;)V
+PTG:
+Vars:
+12
+$r10 1 57 
+$r1 1 1 
+r4 1 14 
+r11 1 -1 
+$r3 1 14 
+r5 1 29 
+r8 1 -2 
+$r6 1 36 
+r2 1 9 
+r7 1 36 
+r0 1 -3 
+$r9 1 54 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -3 
+64 1 29 
+1 1 1 
+49 1 36 
+34 1 29 
+24 1 14 
+74 1 9 
+60 2 -2 57 
+13 1 9 
+47 2 36 54 
+Constructors: 0
+
+Summary: 10
+-3 -2 14 54 0 -1 36 1 57 1 
+org/eclipse/osgi/internal/module/ResolverImpl.resolveBundles([Lorg/eclipse/osgi/internal/module/ResolverBundle;[Ljava/util/Dictionary;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+11
+r0 1 -2 
+r8 1 -4 
+$r5 1 30 
+r7 1 -3 
+$r2 1 13 
+$r6 1 31 
+$r4 1 14 
+r1 1 -1 
+$r9 1 25 
+$r3 1 7 
+$r10 1 60 
+Fields: 5
+-2 ArrayObject 13
+-2 ArrayObject 30
+-2 ArrayObject 25
+-2 ArrayObject 60
+-1 state 7
+Accesses: 2
+6 1 -1 
+42 1 -1 
+Functions: 9
+17 2 7 14 
+54 1 25 
+88 2 -1 7 
+26 5 -1 -3 -4 7 31 
+13 1 13 
+61 1 60 
+93 7 -1 -2 7 25 60 13 30 
+30 1 30 
+78 9 -1 -2 -3 -4 7 25 60 13 30 
+Constructors: 0
+
+Summary: 9
+-3 -2 0 -4 1 14 2 31 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.resolveRequire(Lorg/eclipse/osgi/internal/module/BundleConstraint;Ljava/util/ArrayList;)Z
+PTG:
+Vars:
+38
+$r5 1 133 
+r8 1 154 
+$r12 1 356 
+$r45 1 36 
+$r20 1 313 
+$r25 1 332 
+$r44 1 33 
+r16 1 -3 
+$r9 1 202 
+$r13 1 359 
+$r19 1 302 
+$r17 1 278 
+$r41 1 20 
+$r21 1 316 
+$r1 1 43 
+$r10 1 215 
+r2 1 -1 
+$r24 1 329 
+$r4 1 130 
+$r18 1 289 
+$r11 1 344 
+$r28 1 181 
+$r40 1 17 
+r6 1 141 
+$r15 1 368 
+$r14 1 365 
+$r7 1 154 
+$r29 1 184 
+$r22 1 322 
+$r3 1 126 
+$r46 1 259 
+r0 1 -2 
+$r27 1 178 
+$r23 1 326 
+$r42 1 26 
+$r26 1 166 
+$r43 1 30 
+$r39 1 6 
+Fields: 2
+-1 resolverBundles 126
+141 ArrayObject 154
+Accesses: 2
+242 1 -1 
+125 1 -1 
+Functions: 59
+129 1 -2 
+130 1 130 
+258 1 -2 
+6 2 17 6 
+392 1 -2 
+267 1 154 
+13 1 6 
+16 1 -2 
+20 1 20 
+276 2 -3 278 
+277 1 -2 
+26 2 26 30 
+29 1 -2 
+288 1 -2 
+33 1 33 
+292 2 289 -3 
+166 2 178 166 
+39 1 36 
+42 1 -2 
+173 1 166 
+302 2 313 302 
+176 1 154 
+49 1 -3 
+50 1 -2 
+181 1 181 
+309 1 302 
+312 1 -2 
+187 1 184 
+316 1 316 
+61 1 -2 
+190 2 -2 154 
+65 1 -3 
+322 2 322 326 
+325 1 -2 
+201 1 -2 
+329 1 329 
+75 0 
+205 2 154 202 
+335 1 332 
+82 0 
+211 2 -2 154 
+85 1 -2 
+214 1 -2 
+344 2 356 344 
+89 0 
+95 0 
+223 1 154 
+351 1 344 
+98 1 -2 
+354 1 154 
+102 0 
+359 1 359 
+232 4 -1 -3 154 126 
+108 0 
+365 1 365 
+371 1 368 
+120 0 
+252 2 -2 154 
+126 2 133 126 
+Constructors: 4
+309 302
+13 6
+173 166
+351 344
+
+Summary: 33
+184 -3 278 43 33 17 86 133 1 178 326 102 313 99 130 36 215 -2 51 202 62 332 259 30 368 365 181 289 -1 105 329 141 356 
+org/eclipse/osgi/internal/module/ResolverImpl.getSystemBundle()Ljava/lang/String;
+PTG:
+Vars:
+7
+r2 1 9 
+$r4 1 25 
+r5 2 25 39 
+$r1 1 1 
+r0 1 -1 
+$r3 1 21 
+_ret 2 25 39 
+Fields: 2
+9 ArrayObject 21
+-1 state 1
+Accesses: 1
+0 1 -1 
+Functions: 3
+1 1 1 
+36 0 
+21 1 21 
+Constructors: 0
+
+Summary: 3
+9 21 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.resolve([Lorg/eclipse/osgi/service/resolver/BundleDescription;[Ljava/util/Dictionary;)V
+PTG:
+Vars:
+44
+$r3 1 56 
+$r34 1 85 
+$r14 1 248 
+r44 1 261 
+$r30 2 221 85 
+$r33 1 90 
+r2 1 -3 
+r38 1 -2 
+$r16 1 261 
+$r4 1 51 
+$r22 2 13 358 
+$r25 1 248 
+r45 1 301 
+$r24 1 248 
+$r6 1 121 
+$r20 1 344 
+$r31 1 229 
+r21 1 355 
+$r10 1 168 
+$r29 1 228 
+$r19 2 339 13 
+$r1 1 13 
+$r15 1 258 
+$r26 1 298 
+r46 1 321 
+r39 1 74 
+$r5 1 60 
+r43 1 200 
+$r32 1 229 
+$r27 1 301 
+r18 1 328 
+$r28 1 13 
+r40 1 91 
+r0 1 -1 
+$r23 1 367 
+$r9 1 146 
+$r11 1 163 
+$r13 1 248 
+$r8 1 135 
+r42 1 205 
+$r17 1 328 
+$r7 1 128 
+$r12 1 172 
+$r35 1 91 
+Fields: 11
+-3 ArrayObject 168
+-3 ArrayObject 56
+200 ArrayObject 228
+74 ArrayObject 90
+-1 unresolvedBundles 248
+-1 state 13
+-1 resolverExports 121
+-1 resolverBundles 128
+-1 bundleMapping 221
+-1 bundleMapping 85
+-1 resolverGenerics 135
+Accesses: 15
+66 1 -1 
+291 1 -1 
+357 1 -1 
+134 1 -1 
+12 1 -1 
+338 1 -1 
+84 1 -1 
+247 1 -1 
+120 1 -1 
+251 1 -1 
+220 1 -1 
+30 1 -1 
+127 1 -1 
+191 1 -1 
+287 1 -1 
+Functions: 33
+192 1 13 
+131 1 128 
+69 9 -1 128 -2 85 135 248 121 13 221 
+326 1 321 
+9 0 
+138 1 135 
+396 9 -1 128 85 135 248 121 13 221 205 
+143 11 -1 128 -3 85 135 248 168 56 121 13 221 
+274 13 -1 128 -3 261 135 168 13 146 85 248 56 121 221 
+339 3 339 344 13 
+85 2 85 90 
+277 10 -1 128 146 85 261 135 248 121 13 221 
+150 1 146 
+342 1 328 
+408 0 
+26 0 
+221 3 228 85 221 
+288 2 248 298 
+163 2 163 172 
+292 1 248 
+38 8 -1 128 85 135 248 121 13 221 
+168 1 168 
+108 9 -1 128 85 135 248 121 91 13 221 
+365 1 355 
+51 2 51 60 
+373 4 358 328 13 367 
+56 1 56 
+248 2 258 248 
+314 13 -1 128 -3 135 168 13 301 146 85 248 56 121 221 
+378 1 321 
+124 1 121 
+252 1 248 
+317 1 146 
+Constructors: 1
+150 146
+
+Summary: 22
+-3 200 91 355 1 298 344 367 -2 258 0 205 301 328 261 60 172 146 74 -1 168 56 
+org/eclipse/osgi/internal/module/ResolverImpl.getNextCombination([[Lorg/eclipse/osgi/internal/module/ResolverConstraint;)Z
+PTG:
+Vars:
+7
+r9 1 -1 
+$r3 1 63 
+$r4 1 50 
+r0 1 -2 
+$r2 1 9 
+$r5 1 52 
+$r1 1 7 
+Fields: 5
+50 ArrayObject 52
+7 ArrayObject 9
+-2 ArrayObject 50
+-2 ArrayObject 7
+-2 ArrayObject 63
+Accesses: 0
+Functions: 3
+54 1 52 
+9 1 9 
+26 0 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.resolveBundles0([Lorg/eclipse/osgi/internal/module/ResolverBundle;[Ljava/util/Dictionary;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+20
+$r15 1 133 
+r4 1 -4 
+r14 1 -3 
+$r1 1 11 
+$r8 1 71 
+$r5 1 32 
+$r16 1 133 
+$r11 1 91 
+$r7 1 109 
+$r6 1 49 
+$r10 1 85 
+$r18 1 156 
+$r12 1 94 
+r0 1 -1 
+r2 1 -2 
+$r17 1 153 
+$r19 1 175 
+$r9 1 84 
+$r13 1 133 
+r21 1 156 
+Fields: 5
+-2 ArrayObject 109
+-2 ArrayObject 32
+-2 ArrayObject 84
+156 ArrayObject 175
+-1 unresolvedBundles 133
+Accesses: 4
+0 1 -1 
+146 1 -1 
+132 1 -1 
+142 1 -1 
+Functions: 18
+97 1 94 
+194 8 -1 32 -2 -3 -4 84 133 109 
+36 5 -1 32 -4 133 11 
+133 1 133 
+102 1 49 
+71 2 84 71 
+8 4 32 -2 84 109 
+201 8 -1 32 -2 -3 -4 84 133 109 
+78 1 71 
+143 2 133 153 
+112 4 -1 49 133 109 
+176 3 -1 133 175 
+17 1 11 
+147 1 133 
+85 1 85 
+54 1 49 
+119 3 -1 49 133 
+91 1 91 
+Constructors: 3
+17 11
+54 49
+78 71
+
+Summary: 13
+-3 -2 49 91 156 0 -4 1 11 153 2 -1 94 
+org/eclipse/osgi/internal/module/ResolverImpl.getConflictedBundles(Ljava/util/ArrayList;)[Lorg/eclipse/osgi/internal/module/ResolverBundle;
+PTG:
+Vars:
+12
+$r7 1 55 
+r3 1 25 
+$r9 1 79 
+$r10 1 79 
+r0 1 -2 
+$r6 1 43 
+$r4 1 30 
+_ret 1 79 
+$r1 1 9 
+$r8 1 76 
+r12 1 -1 
+r5 1 30 
+Fields: 0
+Accesses: 0
+Functions: 11
+17 1 9 
+21 1 -2 
+53 1 30 
+71 2 9 76 
+40 2 9 43 
+72 1 9 
+41 1 30 
+58 2 55 9 
+13 1 -2 
+29 1 25 
+62 1 25 
+Constructors: 1
+17 9
+
+Summary: 8
+76 -2 43 0 30 -1 9 55 
+org/eclipse/osgi/internal/module/ResolverImpl.rewireGeneric(Lorg/eclipse/osgi/internal/module/GenericConstraint;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+17
+$r9 1 49 
+$r6 1 27 
+r4 1 20 
+$r3 1 9 
+r8 1 37 
+r0 1 -2 
+$r1 1 1 
+r15 1 49 
+$r13 1 123 
+$r2 1 9 
+$r11 1 69 
+r5 1 -1 
+$r10 1 63 
+r14 1 -3 
+$r12 1 122 
+$r7 1 31 
+r16 1 104 
+Fields: 4
+37 ArrayObject 49
+20 ArrayObject 69
+104 ArrayObject 122
+-1 resolverGenerics 27
+Accesses: 1
+26 1 -1 
+Functions: 10
+0 1 -2 
+100 1 -2 
+8 1 -2 
+122 1 122 
+27 2 27 31 
+12 1 9 
+76 2 -2 49 
+61 1 49 
+30 1 -2 
+127 4 -1 -3 27 123 
+Constructors: 0
+
+Summary: 12
+20 -3 -2 104 1 1 37 123 63 9 31 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.rewireRequire(Lorg/eclipse/osgi/internal/module/BundleConstraint;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+14
+$r9 1 47 
+$r4 1 13 
+$r10 1 44 
+r7 1 21 
+$r1 1 1 
+$r12 1 61 
+r8 1 -3 
+$r6 1 21 
+r2 1 -1 
+r0 1 -2 
+$r13 1 64 
+$r11 1 58 
+$r3 1 9 
+$r5 1 16 
+Fields: 1
+-1 bundleMapping 9
+Accesses: 1
+8 1 -1 
+Functions: 12
+0 1 -2 
+67 2 64 44 
+37 1 -2 
+54 1 47 
+9 2 16 9 
+57 1 -2 
+12 1 -2 
+13 1 13 
+61 1 61 
+77 4 -1 -3 21 9 
+30 2 -2 21 
+47 2 58 47 
+Constructors: 1
+54 47
+
+Summary: 11
+-3 -2 21 64 1 1 16 58 61 13 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.setSelectionPolicy(Ljava/util/Comparator;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/module/ResolverImpl.addHostsFromFragmentConstraints(Lorg/eclipse/osgi/internal/module/ResolverBundle;Ljava/util/Set;)V
+PTG:
+Vars:
+19
+$r8 1 53 
+$r9 1 56 
+$r12 1 78 
+r15 1 -3 
+r5 1 45 
+r0 1 -2 
+r6 1 -1 
+r10 1 64 
+$r16 1 107 
+r4 1 27 
+$r17 1 107 
+$r13 1 92 
+$r3 1 19 
+r2 1 17 
+$r11 1 78 
+$r18 1 111 
+$r1 1 9 
+$r7 1 48 
+$r14 1 92 
+Fields: 4
+-1 resolverBundles 48
+64 ArrayObject 78
+64 ArrayObject 92
+64 ArrayObject 107
+Accesses: 1
+47 1 -1 
+Functions: 13
+0 1 -2 
+8 1 -2 
+72 2 45 78 
+9 1 9 
+41 1 -2 
+108 1 107 
+48 2 48 56 
+18 1 -2 
+114 2 -3 111 
+19 1 19 
+51 1 45 
+53 1 53 
+93 1 92 
+Constructors: 0
+
+Summary: 13
+-3 111 -2 17 64 1 19 45 53 9 -1 27 56 
+org/eclipse/osgi/internal/module/ResolverImpl.checkFragmentConstraints(Lorg/eclipse/osgi/internal/module/ResolverBundle;)V
+PTG:
+Vars:
+11
+$r8 1 62 
+$r4 1 23 
+$r9 1 56 
+$r10 1 64 
+r0 1 -2 
+$r6 1 37 
+$r5 1 30 
+r1 1 4 
+r3 1 16 
+r7 1 -1 
+$r2 1 12 
+Fields: 3
+4 ArrayObject 62
+4 ArrayObject 12
+-1 resolverExports 56
+Accesses: 2
+48 1 -1 
+55 1 -1 
+Functions: 8
+0 1 -2 
+18 5 16 -2 37 23 30 
+35 1 16 
+67 2 64 56 
+21 1 16 
+59 2 -2 62 
+12 1 12 
+28 1 16 
+Constructors: 0
+
+Summary: 9
+37 16 -2 23 4 0 30 -1 64 
+org/eclipse/osgi/internal/module/ResolverImpl.rewireBundles()V
+PTG:
+Vars:
+9
+r8 1 32 
+r1 1 -1 
+$r4 1 5 
+$r0 1 0 
+$r2 1 5 
+$r5 1 19 
+$r9 1 42 
+r6 1 27 
+$r7 1 32 
+Fields: 1
+-1 bundleMapping 5
+Accesses: 2
+4 1 -1 
+15 1 -1 
+Functions: 10
+16 1 5 
+66 4 -1 32 0 5 
+19 1 19 
+5 1 5 
+53 1 32 
+69 1 27 
+41 1 32 
+42 1 42 
+11 1 0 
+31 1 27 
+Constructors: 1
+11 0
+
+Summary: 5
+32 42 -1 0 19 
+org/eclipse/osgi/internal/module/ResolverImpl.setState(Lorg/eclipse/osgi/service/resolver/State;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r2 1 -2 
+$r1 1 1 
+Fields: 1
+-1 state 1
+Accesses: 2
+0 1 -1 
+20 1 -1 
+Functions: 2
+24 2 -1 1 
+14 0 
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.attachFragment0(Lorg/eclipse/osgi/internal/module/ResolverBundle;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+24
+$r10 1 63 
+$r13 1 99 
+$r20 1 139 
+$r21 1 142 
+$r6 1 40 
+$r11 1 79 
+r8 1 51 
+$r23 1 149 
+$r18 1 131 
+$r7 1 43 
+$r5 1 35 
+$r15 1 92 
+$r19 1 136 
+$r9 1 63 
+$r12 1 79 
+r1 1 -3 
+$r2 1 16 
+$r17 1 127 
+$r22 1 146 
+r0 1 -2 
+$r16 1 105 
+r3 1 32 
+r4 1 -1 
+$r14 1 99 
+Fields: 6
+51 ArrayObject 79
+51 ArrayObject 99
+51 ArrayObject 63
+-1 state 127
+-1 resolverBundles 35
+-1 resolverExports 92
+Accesses: 3
+34 1 -1 
+91 1 -1 
+126 1 -1 
+Functions: 19
+0 1 -2 
+64 1 63 
+130 1 -2 
+35 2 35 43 
+100 2 -2 99 
+38 1 32 
+7 1 -2 
+135 1 -2 
+40 1 40 
+136 1 136 
+73 2 32 79 
+139 1 139 
+108 2 105 92 
+14 2 16 -3 
+15 1 -2 
+145 1 -2 
+146 1 146 
+152 4 131 149 142 127 
+28 1 -2 
+Constructors: 0
+
+Summary: 15
+-3 -2 51 43 142 1 131 149 16 146 32 136 40 -1 105 
+org/eclipse/osgi/internal/module/ResolverImpl.setBundleResolving(Lorg/eclipse/osgi/internal/module/ResolverBundle;)V
+PTG:
+Vars:
+3
+$r2 1 10 
+r1 1 -1 
+r0 1 -2 
+Fields: 1
+-1 unresolvedBundles 10
+Accesses: 1
+9 1 -1 
+Functions: 3
+0 1 -2 
+20 1 -2 
+14 2 -2 10 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.bundleUpdated(Lorg/eclipse/osgi/service/resolver/BundleDescription;Lorg/eclipse/osgi/service/resolver/BundleDescription;Z)V
+PTG:
+Vars:
+3
+r1 1 -3 
+r2 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+3 2 -1 -3 
+8 2 -1 -2 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+org/eclipse/osgi/internal/module/ResolverImpl.unresolveBundle(Lorg/eclipse/osgi/internal/module/ResolverBundle;Z)V
+PTG:
+Vars:
+35
+$r17 1 102 
+r1 1 -1 
+r32 1 194 
+$r27 1 263 
+$r11 1 59 
+$r4 1 14 
+$r24 1 153 
+$r26 2 255 36 
+$r22 1 132 
+$r8 1 43 
+$r33 1 218 
+$r12 1 75 
+$r36 1 233 
+$r29 1 186 
+$r13 1 80 
+$r35 2 59 229 
+r30 1 43 
+$r16 1 97 
+r0 1 -2 
+$r25 1 262 
+$r28 1 263 
+$r23 1 134 
+r31 1 176 
+$r18 1 115 
+$r2 1 9 
+$r21 1 121 
+$r6 1 42 
+r34 1 226 
+$r7 1 36 
+$r9 1 65 
+$r10 1 65 
+$r3 1 6 
+$r14 1 87 
+$r19 2 109 36 
+r5 1 28 
+Fields: 15
+-1 compositeHelpers 176
+-1 state 229
+-1 state 59
+-1 groupingChecker 121
+-1 bundleMapping 255
+-1 bundleMapping 36
+-1 resolverExports 75
+-1 resolverBundles 87
+-1 removalPending 6
+-1 resolverGenerics 97
+226 ArrayObject 262
+28 ArrayObject 65
+28 ArrayObject 132
+28 ArrayObject 115
+28 ArrayObject 42
+Accesses: 12
+96 1 -1 
+35 1 -1 
+164 1 -1 
+228 1 -1 
+5 1 -1 
+86 1 -1 
+120 1 -1 
+58 1 -1 
+74 1 -1 
+108 1 -1 
+172 1 -1 
+254 1 -1 
+Functions: 27
+69 2 65 59 
+133 1 -2 
+6 2 6 9 
+204 1 194 
+13 1 -2 
+14 1 14 
+78 1 43 
+270 12 -1 176 97 36 229 6 87 263 121 59 75 255 
+83 2 80 75 
+22 1 9 
+214 12 -1 176 97 -2 36 229 6 87 121 59 75 255 
+152 1 -2 
+153 1 153 
+217 1 -2 
+218 1 218 
+92 2 87 43 
+36 2 36 42 
+100 1 43 
+232 1 -2 
+105 2 97 102 
+242 3 229 233 59 
+116 3 115 36 109 
+55 12 -1 176 97 36 229 6 87 121 59 75 43 255 
+183 2 176 186 
+185 1 -2 
+126 2 121 43 
+255 3 36 262 255 
+Constructors: 1
+22 9
+
+Summary: 17
+80 153 43 194 263 28 102 14 134 233 9 -2 218 0 186 -1 226 
+org/eclipse/osgi/internal/module/ResolverImpl.resolveBundle(Lorg/eclipse/osgi/internal/module/ResolverBundle;Ljava/util/ArrayList;)Z
+PTG:
+Vars:
+109
+$r107 3 681 454 235 
+$r41 1 412 
+$r37 1 762 
+$r40 1 398 
+$r46 1 434 
+$r12 1 868 
+$r34 1 757 
+$r66 1 208 
+$r10 1 922 
+$r63 1 194 
+$r109 1 689 
+$r111 1 702 
+$r105 1 499 
+$r25 1 661 
+$r49 1 444 
+$r116 1 726 
+$r48 1 438 
+$r70 1 225 
+$r76 1 313 
+$r56 1 535 
+$r73 1 297 
+$r94 1 282 
+r6 1 -1 
+$r101 1 476 
+$r62 1 193 
+r84 1 146 
+$r65 1 202 
+$r88 1 246 
+$r77 1 318 
+$r21 1 644 
+$r108 1 688 
+$r51 1 526 
+$r64 1 197 
+$r75 1 310 
+$r86 1 242 
+$r17 1 829 
+$r69 1 219 
+$r16 1 826 
+$r35 1 762 
+$r7 1 905 
+$r74 1 302 
+$r100 1 475 
+$r8 1 913 
+$r110 1 692 
+$r71 1 228 
+$r18 1 598 
+$r45 1 427 
+$r93 1 270 
+$r20 1 630 
+$r33 1 754 
+$r31 3 297 514 741 
+$r78 1 318 
+r95 1 365 
+$r61 1 179 
+$r113 1 706 
+$r9 1 919 
+r106 1 586 
+$r60 1 159 
+$r29 1 674 
+$r102 1 479 
+$r90 1 259 
+r5 1 -3 
+$r72 1 309 
+$r27 1 665 
+$r79 1 325 
+$r47 1 435 
+$r104 1 487 
+$r23 1 648 
+$r11 1 860 
+$r114 1 713 
+$r96 2 454 235 
+$r13 1 874 
+$r67 1 215 
+$r92 1 269 
+$r42 1 413 
+$r24 1 654 
+$r32 3 746 519 302 
+$r39 1 378 
+$r54 1 527 
+$r30 1 753 
+$r36 1 772 
+$r97 1 461 
+$r57 1 545 
+$r115 1 714 
+$r14 1 877 
+r0 1 -2 
+$r85 1 235 
+$r22 1 645 
+$r112 1 703 
+$r28 1 671 
+$r103 1 486 
+$r15 4 822 681 454 235 
+$r98 1 462 
+$r99 1 465 
+$r87 1 243 
+$r89 1 258 
+$r50 1 447 
+$r44 1 421 
+$r55 1 530 
+$r52 2 297 514 
+$r43 1 416 
+$r91 1 262 
+$r53 2 519 302 
+$r19 1 610 
+$r59 1 546 
+$r68 1 216 
+$r58 1 535 
+$r38 1 773 
+$r26 1 662 
+Fields: 37
+365 ArrayObject 378
+365 ArrayObject 434
+365 ArrayObject 486
+365 ArrayObject 499
+365 ArrayObject 475
+365 ArrayObject 461
+365 ArrayObject 545
+365 ArrayObject 526
+365 ArrayObject 412
+146 ArrayObject 269
+146 ArrayObject 193
+146 ArrayObject 258
+146 ArrayObject 242
+146 ArrayObject 159
+146 ArrayObject 282
+146 ArrayObject 215
+146 ArrayObject 309
+586 ArrayObject 598
+586 ArrayObject 753
+586 ArrayObject 772
+586 ArrayObject 688
+586 ArrayObject 661
+586 ArrayObject 726
+586 ArrayObject 644
+586 ArrayObject 610
+586 ArrayObject 702
+586 ArrayObject 713
+-1 state 822
+-1 state 681
+-1 state 235
+-1 state 454
+-1 resolverExports 297
+-1 resolverExports 514
+-1 resolverExports 741
+-1 bundleMapping 519
+-1 bundleMapping 746
+-1 bundleMapping 302
+Accesses: 18
+289 1 -1 
+513 1 -1 
+740 1 -1 
+453 1 -1 
+518 1 -1 
+296 1 -1 
+680 1 -1 
+745 1 -1 
+234 1 -1 
+810 1 -1 
+555 1 -1 
+301 1 -1 
+334 1 -1 
+782 1 -1 
+847 1 -1 
+821 1 -1 
+506 1 -1 
+733 1 -1 
+Functions: 107
+0 1 -2 
+258 1 258 
+259 1 259 
+517 3 -2 545 535 
+519 3 530 519 302 
+776 4 514 741 773 297 
+9 1 -2 
+269 1 269 
+526 1 526 
+527 1 527 
+273 4 246 262 235 270 
+22 1 -2 
+282 1 282 
+29 0 
+33 0 
+549 3 514 546 297 
+39 0 
+807 12 -1 -2 514 741 822 454 519 681 297 746 235 302 
+300 2 -2 318 
+45 0 
+302 2 313 302 
+50 1 -2 
+309 1 309 
+310 1 310 
+822 5 822 454 681 826 235 
+825 1 -2 
+582 1 -2 
+328 2 325 297 
+851 12 -1 -2 514 741 822 454 519 681 297 746 235 302 
+86 1 -2 
+598 1 598 
+860 2 -2 860 
+93 0 
+605 13 -1 514 610 -3 741 454 519 681 297 746 235 302 822 
+864 1 860 
+97 0 
+868 1 868 
+103 0 
+361 1 -2 
+874 1 874 
+109 0 
+880 1 877 
+115 1 -2 
+373 13 -1 514 -3 741 454 519 681 297 746 235 302 822 378 
+630 2 645 630 
+886 2 -2 -3 
+120 12 -1 -2 514 741 822 454 519 681 297 746 235 302 
+637 1 630 
+126 2 -2 -3 
+896 12 -1 -2 514 741 822 454 519 681 297 746 235 302 
+644 1 644 
+648 1 648 
+905 2 -2 905 
+909 1 905 
+142 1 -2 
+398 2 416 398 
+654 2 662 654 
+913 1 913 
+405 1 398 
+661 1 661 
+919 1 919 
+665 1 665 
+154 13 -1 514 -3 741 454 519 681 297 746 235 302 822 159 
+412 1 412 
+413 1 413 
+925 1 922 
+671 1 671 
+928 1 -2 
+421 1 421 
+677 1 674 
+937 1 -2 
+427 2 435 427 
+940 1 -2 
+688 1 688 
+689 1 689 
+434 1 434 
+179 2 179 197 
+438 1 438 
+186 1 179 
+444 1 444 
+702 1 702 
+703 1 703 
+193 1 193 
+194 1 194 
+450 1 447 
+713 1 713 
+202 1 202 
+461 1 461 
+717 6 706 692 454 681 714 235 
+462 1 462 
+208 2 208 216 
+726 1 726 
+215 1 215 
+219 1 219 
+475 1 475 
+476 1 476 
+225 1 225 
+486 1 486 
+231 1 228 
+744 3 -2 772 762 
+490 5 465 454 487 235 479 
+746 4 757 519 746 302 
+753 1 753 
+242 1 242 
+754 1 754 
+243 1 243 
+499 1 499 
+Constructors: 5
+864 860
+405 398
+186 179
+637 630
+909 905
+
+Summary: 56
+757 465 527 310 487 662 246 197 270 447 671 228 416 365 146 826 106 325 877 773 1 586 479 645 874 462 0 243 714 444 39 216 829 194 413 225 922 435 318 103 530 754 -1 692 262 535 674 762 -3 689 919 313 -2 546 706 42 
+org/eclipse/osgi/internal/module/ResolverImpl.findBestCombination([Lorg/eclipse/osgi/internal/module/ResolverBundle;)Ljava/util/ArrayList;
+PTG:
+Vars:
+18
+r7 1 -1 
+r8 1 -2 
+$r15 1 144 
+$r0 1 0 
+$r2 1 10 
+r13 1 90 
+r9 1 47 
+r12 1 82 
+$r3 1 22 
+$r11 1 54 
+$r14 1 165 
+$r18 1 113 
+$r17 1 182 
+r1 1 9 
+r19 1 105 
+_ret 1 105 
+$r5 1 30 
+$r16 1 147 
+Fields: 4
+144 ArrayObject 147
+82 ArrayObject 165
+82 ArrayObject 144
+-1 groupingChecker 182
+Accesses: 2
+64 1 -1 
+181 1 -1 
+Functions: 13
+0 1 0 
+34 1 30 
+68 0 
+39 5 -1 -2 182 22 30 
+10 2 9 10 
+74 5 -1 -2 182 22 30 
+54 2 54 9 
+119 1 113 
+153 1 147 
+185 1 182 
+26 1 22 
+125 3 -1 182 90 
+94 9 -1 144 -2 82 147 165 182 90 47 
+Constructors: 2
+34 30
+26 22
+
+Summary: 8
+-2 0 82 90 22 9 30 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.isResolvable(Lorg/eclipse/osgi/service/resolver/BundleDescription;[Ljava/util/Dictionary;Ljava/util/ArrayList;)Z
+PTG:
+Vars:
+36
+r60 1 487 
+r63 1 659 
+$r10 1 11 
+$r6 1 672 
+$r30 1 142 
+$r28 1 -2 
+$r31 1 169 
+$r57 1 338 
+r0 1 -4 
+$r51 1 -1 
+$r37 1 204 
+$r56 1 322 
+r2 1 -1 
+$r8 1 504 
+$r7 1 11 
+r59 1 473 
+$r26 1 292 
+r1 1 -2 
+r5 1 -3 
+r61 1 538 
+r53 1 150 
+$r33 1 178 
+$r32 1 178 
+$r27 1 287 
+$r24 2 279 338 
+$r25 1 284 
+r4 1 20 
+$r29 1 138 
+r54 1 240 
+$r34 1 182 
+$r9 1 524 
+$r55 2 317 338 
+$r35 1 200 
+$r3 1 11 
+r62 1 639 
+$r36 1 200 
+Fields: 16
+240 ArrayObject 292
+317 ArrayObject 322
+-3 ArrayObject 672
+279 ArrayObject 284
+284 ArrayObject 287
+-1 state 11
+-1 resolverBundles 138
+-1 CURRENT_EES 338
+487 ArrayObject 504
+487 ArrayObject 538
+487 ArrayObject 524
+338 ArrayObject 284
+338 ArrayObject 322
+150 ArrayObject 200
+150 ArrayObject 169
+150 ArrayObject 178
+Accesses: 11
+337 1 -1 
+278 1 -1 
+566 1 -1 
+598 1 -1 
+137 1 -1 
+697 1 -1 
+10 1 -1 
+107 1 -1 
+316 1 -1 
+620 1 -1 
+446 1 -1 
+Functions: 47
+0 2 -2 -4 
+128 1 -2 
+384 0 
+67 0 
+708 3 -2 11 639 
+389 0 
+581 2 -2 473 
+454 0 
+518 2 538 524 
+71 0 
+201 1 200 
+138 2 138 142 
+11 2 -2 11 
+76 0 
+204 1 204 
+460 1 -2 
+588 1 538 
+141 1 -2 
+654 1 639 
+400 0 
+83 0 
+467 1 -2 
+217 2 -2 -4 
+667 2 672 659 
+92 0 
+606 1 538 
+287 2 292 287 
+32 0 
+480 1 473 
+420 0 
+613 2 -2 473 
+234 1 -2 
+556 1 473 
+431 0 
+305 1 -2 
+498 2 504 473 
+115 0 
+179 1 178 
+52 0 
+628 3 473 538 11 
+182 1 182 
+375 0 
+56 0 
+121 1 -2 
+633 1 -2 
+60 0 
+574 1 473 
+Constructors: 0
+
+Summary: 24
+487 142 456 68 20 182 473 -4 576 2 -1 -3 117 84 1 76 659 -2 639 0 608 240 204 150 
+org/eclipse/osgi/internal/module/ResolverImpl.reResolveBundles(Ljava/util/Set;[Lorg/eclipse/osgi/internal/module/ResolverBundle;[Ljava/util/Dictionary;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+12
+r3 1 -3 
+r5 1 -1 
+$r8 1 80 
+r11 1 -5 
+$r7 1 57 
+r0 1 -2 
+$r1 1 14 
+$r9 1 83 
+$r12 1 83 
+$r6 1 46 
+r10 1 -4 
+$r4 1 33 
+Fields: 3
+-3 ArrayObject 46
+-3 ArrayObject 57
+-3 ArrayObject 33
+Accesses: 0
+Functions: 8
+49 2 -1 46 
+18 1 14 
+4 1 -2 
+73 2 80 14 
+58 2 57 14 
+75 1 14 
+92 4 -1 83 -4 -5 
+29 2 -2 33 
+Constructors: 1
+18 14
+
+Summary: 12
+14 -3 -2 0 -4 1 3 2 -5 -1 80 83 
+org/eclipse/osgi/internal/module/ResolverImpl.addConflictNames([[Lorg/eclipse/osgi/internal/module/GroupingChecker$PackageRoots;Ljava/util/HashSet;Ljava/util/HashSet;)V
+PTG:
+Vars:
+24
+r11 1 52 
+$r20 1 91 
+r0 1 -3 
+$r3 1 19 
+$r10 1 48 
+$r12 1 112 
+$r17 1 157 
+$r8 1 36 
+r2 1 -2 
+$r5 1 22 
+r22 1 73 
+$r13 1 114 
+r1 1 -4 
+$r4 1 21 
+$r7 1 35 
+$r19 1 82 
+$r6 1 33 
+r23 1 118 
+$r16 1 148 
+$r14 1 135 
+r21 1 -1 
+r15 1 139 
+$r9 1 46 
+$r18 1 69 
+Fields: 10
+46 ArrayObject 48
+-2 ArrayObject 46
+-2 ArrayObject 112
+-2 ArrayObject 19
+-2 ArrayObject 33
+118 ArrayObject 135
+33 ArrayObject 35
+52 ArrayObject 69
+112 ArrayObject 114
+19 ArrayObject 21
+Accesses: 0
+Functions: 14
+160 2 -4 157 
+35 1 35 
+69 1 69 
+39 2 -3 36 
+135 1 135 
+48 1 48 
+80 1 73 
+114 1 114 
+146 1 139 
+21 1 21 
+25 2 -3 22 
+89 1 73 
+155 1 139 
+94 2 -4 91 
+Constructors: 0
+
+Summary: 17
+-3 91 1 157 22 139 36 148 -2 0 73 82 -4 118 2 52 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.stateResolveFragConstraints(Lorg/eclipse/osgi/internal/module/ResolverBundle;)V
+PTG:
+Vars:
+25
+$r15 1 194 
+$r1 1 1 
+$r9 1 92 
+$r12 1 140 
+$r26 1 162 
+$r7 1 40 
+r27 1 162 
+$r28 1 181 
+$r19 1 61 
+$r4 1 12 
+$r10 1 86 
+$r13 1 141 
+r3 1 4 
+r5 1 20 
+$r24 1 146 
+$r6 1 39 
+$r2 1 4 
+$r21 1 80 
+$r16 2 86 187 
+r23 1 119 
+r20 1 61 
+$r11 1 111 
+$r17 1 45 
+r8 1 -1 
+r0 1 -2 
+Fields: 6
+119 ArrayObject 194
+119 ArrayObject 140
+20 ArrayObject 92
+20 ArrayObject 39
+-1 state 187
+-1 state 86
+Accesses: 2
+85 1 -1 
+186 1 -1 
+Functions: 16
+0 1 -2 
+160 1 146 
+1 1 1 
+35 2 4 40 
+197 4 194 181 86 187 
+39 1 39 
+135 2 4 141 
+11 1 -2 
+12 1 12 
+140 1 140 
+78 1 61 
+110 1 -2 
+111 1 111 
+179 1 162 
+59 1 45 
+95 3 80 86 92 
+Constructors: 0
+
+Summary: 17
+80 119 20 111 -2 12 4 0 1 162 45 146 61 181 40 -1 141 
+org/eclipse/osgi/internal/module/ResolverImpl.printCombination([I)V
+PTG:
+Vars:
+5
+$r0 1 0 
+$r7 1 59 
+r3 1 -2 
+r9 1 -1 
+$r8 1 63 
+Fields: 0
+Accesses: 0
+Functions: 7
+66 2 59 63 
+4 1 0 
+39 1 0 
+55 1 0 
+24 1 0 
+11 1 0 
+62 1 0 
+Constructors: 1
+4 0
+
+Summary: 4
+-2 63 0 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.resolveFragment(Lorg/eclipse/osgi/internal/module/ResolverBundle;)V
+PTG:
+Vars:
+6
+$r3 1 26 
+r0 1 -2 
+r2 1 -1 
+$r5 1 33 
+$r1 1 9 
+$r4 1 30 
+Fields: 1
+-1 state 26
+Accesses: 2
+18 1 -1 
+25 1 -1 
+Functions: 6
+0 1 -2 
+8 1 -2 
+9 1 9 
+26 2 26 30 
+44 3 -1 -2 26 
+29 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 33 9 30 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.selectSingletons([Lorg/eclipse/osgi/internal/module/ResolverBundle;Ljava/util/ArrayList;)Z
+PTG:
+Vars:
+33
+$r8 1 91 
+$r30 1 394 
+$r5 1 59 
+$r15 1 157 
+$r13 1 118 
+$r29 2 387 59 
+$r9 1 91 
+$r11 1 104 
+$r21 1 268 
+$r28 1 380 
+$r2 1 20 
+r10 1 98 
+$r18 1 253 
+r0 1 -1 
+$r20 1 267 
+$r23 1 324 
+$r22 2 157 164 
+$r24 1 349 
+r32 1 342 
+$r17 1 196 
+$r19 1 254 
+$r27 1 359 
+r7 1 72 
+$r14 1 114 
+r3 1 24 
+$r31 1 224 
+r1 1 -2 
+r12 1 104 
+$r16 1 189 
+$r25 1 354 
+$r6 1 64 
+r4 1 -3 
+$r26 1 359 
+Fields: 15
+72 ArrayObject 91
+72 ArrayObject 104
+72 ArrayObject 114
+-2 ArrayObject 324
+-2 ArrayObject 20
+-2 ArrayObject 118
+-2 ArrayObject 224
+-2 ArrayObject 253
+-2 ArrayObject 267
+-1 resolverExports 380
+-1 resolverBundles 387
+-1 resolverBundles 59
+-1 bundleMapping 349
+-1 selectionPolicy 157
+-1 resolverGenerics 394
+Accesses: 8
+0 1 -1 
+386 1 -1 
+163 1 -1 
+393 1 -1 
+58 1 -1 
+379 1 -1 
+156 1 -1 
+348 1 -1 
+Functions: 31
+194 1 24 
+132 1 98 
+325 1 324 
+390 2 387 59 
+267 1 267 
+397 1 394 
+142 2 -3 98 
+271 2 -3 268 
+338 1 -3 
+20 1 20 
+214 1 104 
+278 2 -3 98 
+26 1 24 
+92 1 91 
+349 2 354 349 
+224 1 224 
+352 1 342 
+290 2 -3 98 
+36 1 24 
+164 4 98 164 24 157 
+46 2 -3 24 
+366 8 -1 387 359 394 59 380 349 157 
+369 1 342 
+249 2 -3 254 
+122 1 98 
+59 2 64 59 
+187 1 98 
+189 2 196 189 
+253 1 253 
+62 1 24 
+383 1 380 
+Constructors: 0
+
+Summary: 15
+-3 268 64 189 1 354 72 -2 98 0 359 254 196 24 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.log(Ljava/lang/String;)V
+PTG:
+Vars:
+1
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+org/eclipse/osgi/internal/module/ResolverImpl.stateResolveBundle(Lorg/eclipse/osgi/internal/module/ResolverBundle;)V
+PTG:
+Vars:
+52
+r1 1 -1 
+$r16 1 142 
+$r34 2 336 336 
+r19 1 182 
+$r17 1 167 
+$r45 2 423 423 
+r20 1 188 
+$r48 1 434 
+$r15 1 141 
+$r40 1 381 
+$r39 1 380 
+$r6 1 57 
+$r9 1 78 
+$r10 1 100 
+$r46 1 424 
+$r11 1 103 
+$r24 1 213 
+$r32 1 320 
+r0 1 -2 
+$r30 1 279 
+r31 1 285 
+$r3 1 40 
+$r35 1 349 
+r51 1 257 
+r2 1 39 
+$r53 2 456 397 
+$r7 1 64 
+r49 1 103 
+$r41 2 413 413 
+$r26 1 226 
+$r18 1 170 
+$r28 1 254 
+$r8 1 77 
+$r23 1 212 
+r50 1 170 
+$r36 1 349 
+$r42 1 397 
+$r43 2 404 404 
+r12 1 115 
+$r13 1 117 
+$r29 1 257 
+$r27 1 229 
+$r5 1 63 
+$r25 1 225 
+r38 1 361 
+$r44 1 414 
+$r47 2 433 433 
+$r33 1 321 
+$r21 1 190 
+r52 1 301 
+r37 1 356 
+$r54 1 460 
+Fields: 16
+188 ArrayObject 212
+188 ArrayObject 225
+115 ArrayObject 141
+285 ArrayObject 320
+285 ArrayObject 349
+39 ArrayObject 77
+39 ArrayObject 63
+301 ArrayObject 404
+301 ArrayObject 433
+301 ArrayObject 336
+301 ArrayObject 423
+301 ArrayObject 413
+-1 permissionChecker 57
+-1 state 397
+-1 state 456
+356 ArrayObject 380
+Accesses: 4
+7 1 -1 
+455 1 -1 
+56 1 -1 
+396 1 -1 
+Functions: 42
+0 1 -2 
+320 1 320 
+197 1 190 
+325 1 -2 
+459 1 -2 
+77 1 77 
+141 1 141 
+15 1 -2 
+271 1 -2 
+463 1 -2 
+336 1 336 
+81 2 40 78 
+145 2 117 142 
+212 1 212 
+278 1 -2 
+279 1 279 
+24 5 -1 -2 456 57 397 
+413 1 413 
+477 13 257 423 103 456 170 460 397 301 336 433 404 182 413 
+350 1 349 
+95 2 100 40 
+32 5 -1 -2 456 57 397 
+96 1 40 
+160 2 117 167 
+225 1 225 
+162 1 117 
+226 1 226 
+35 1 -2 
+423 1 423 
+232 2 229 190 
+46 1 40 
+111 1 -2 
+433 1 433 
+178 1 -2 
+247 2 190 254 
+439 6 434 404 424 361 397 414 
+184 1 -2 
+57 2 64 57 
+249 1 190 
+124 1 117 
+380 1 380 
+63 1 63 
+Constructors: 3
+197 190
+124 117
+46 40
+
+Summary: 36
+257 434 39 424 142 254 413 433 404 423 103 213 182 229 285 301 115 190 167 414 336 -1 226 460 117 64 188 40 170 -2 0 100 279 361 78 356 
+org/eclipse/osgi/internal/module/ResolverImpl.getConflicts([Lorg/eclipse/osgi/internal/module/ResolverBundle;Ljava/util/HashSet;Ljava/util/HashSet;)Ljava/util/ArrayList;
+PTG:
+Vars:
+8
+r0 1 -1 
+r2 1 -2 
+r6 1 28 
+r4 1 -4 
+r3 1 -3 
+$r1 1 1 
+_ret 1 28 
+$r5 1 20 
+Fields: 2
+-2 ArrayObject 20
+-1 groupingChecker 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+16 6 -1 1 -3 -4 20 28 
+4 1 1 
+Constructors: 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+org/eclipse/osgi/internal/module/ResolverImpl.resolveOptionalConstraints(Lorg/eclipse/osgi/internal/module/ResolverBundle;)V
+PTG:
+Vars:
+19
+$r15 1 132 
+$r11 1 95 
+$r10 1 60 
+$r5 1 35 
+r7 1 -1 
+$r13 1 107 
+$r18 1 163 
+$r16 1 133 
+$r17 1 159 
+$r4 1 25 
+$r9 1 59 
+r0 1 -2 
+$r8 1 50 
+$r6 1 36 
+$r14 1 122 
+r19 1 83 
+r1 1 4 
+$r12 1 106 
+$r2 1 5 
+Fields: 9
+4 ArrayObject 50
+4 ArrayObject 59
+4 ArrayObject 35
+4 ArrayObject 25
+-1 state 159
+83 ArrayObject 106
+83 ArrayObject 132
+83 ArrayObject 95
+83 ArrayObject 122
+Accesses: 1
+158 1 -1 
+Functions: 17
+0 1 -2 
+162 1 -2 
+35 1 35 
+132 1 132 
+9 1 5 
+106 1 106 
+43 1 5 
+172 2 163 159 
+79 1 -2 
+114 1 5 
+179 3 -1 -2 159 
+52 4 -1 50 5 159 
+184 3 -1 -2 159 
+25 1 25 
+59 1 59 
+124 4 -1 5 122 159 
+95 1 95 
+Constructors: 1
+9 5
+
+Summary: 10
+-2 163 4 133 5 107 60 -1 36 83 
+org/eclipse/osgi/internal/module/ResolverImpl.setBundleUnresolved(Lorg/eclipse/osgi/internal/module/ResolverBundle;ZZ)V
+PTG:
+Vars:
+12
+r1 1 -1 
+$r10 1 35 
+$r6 1 92 
+$r9 1 63 
+$r3 1 28 
+$r5 1 39 
+$r8 1 24 
+$r11 1 74 
+$r4 1 35 
+$r7 1 92 
+r0 1 -2 
+$r2 1 24 
+Fields: 3
+-1 unresolvedBundles 92
+-1 resolverExports 24
+-1 resolverGenerics 35
+Accesses: 8
+34 1 -1 
+84 1 -1 
+69 1 -1 
+102 1 -1 
+7 1 -1 
+23 1 -1 
+58 1 -1 
+91 1 -1 
+Functions: 14
+0 1 -2 
+66 2 24 63 
+38 1 -2 
+73 1 -2 
+42 2 35 39 
+107 2 -2 92 
+77 2 35 74 
+46 1 -2 
+113 1 -2 
+51 1 -2 
+27 1 -2 
+92 2 -2 92 
+62 1 -2 
+31 2 24 28 
+Constructors: 0
+
+Summary: 7
+-2 63 39 74 0 -1 28 
+org/eclipse/osgi/internal/module/ResolverImpl.setCompositeResolveHelperRegistry(Lorg/eclipse/osgi/internal/module/CompositeResolveHelperRegistry;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.checkCycle(Ljava/util/ArrayList;)V
+PTG:
+Vars:
+38
+r7 1 64 
+$r1 1 19 
+$r10 1 115 
+$r18 1 166 
+$r25 1 341 
+$r8 1 74 
+$r38 1 362 
+$r14 1 152 
+$r30 1 259 
+$r32 1 281 
+$r19 1 167 
+$r22 1 178 
+$r23 1 84 
+r35 1 230 
+$r6 1 64 
+r34 1 19 
+$r24 1 329 
+$r4 1 94 
+$r15 1 145 
+$r28 1 353 
+$r12 1 127 
+$r3 1 93 
+$r9 1 104 
+$r29 1 230 
+$r31 1 281 
+$r20 1 170 
+$r26 1 344 
+r13 1 -1 
+r33 1 14 
+$r11 1 126 
+$r21 1 177 
+$r5 1 63 
+$r16 1 153 
+$r17 1 156 
+r2 1 51 
+r0 1 -2 
+$r27 1 350 
+$r37 1 362 
+Fields: 10
+51 ArrayObject 93
+51 ArrayObject 166
+51 ArrayObject 115
+51 ArrayObject 63
+51 ArrayObject 126
+51 ArrayObject 104
+51 ArrayObject 177
+51 ArrayObject 152
+51 ArrayObject 84
+-1 state 145
+Accesses: 1
+144 1 -1 
+Functions: 43
+0 1 -2 
+263 1 -2 
+72 1 64 
+136 1 19 
+329 2 341 329 
+10 1 -2 
+267 1 259 
+141 1 19 
+206 1 14 
+336 1 329 
+18 1 14 
+339 1 -2 
+85 1 84 
+278 1 -2 
+215 1 -2 
+152 1 152 
+344 1 344 
+153 1 153 
+29 1 19 
+93 1 93 
+350 1 350 
+288 4 -1 145 259 281 
+228 1 -2 
+356 1 353 
+38 1 14 
+166 1 166 
+167 1 167 
+104 1 104 
+360 1 -2 
+297 1 -2 
+46 1 19 
+240 1 230 
+368 3 -1 145 362 
+177 1 177 
+306 3 -1 145 259 
+115 1 115 
+181 4 145 178 170 156 
+245 1 230 
+375 1 -2 
+187 1 14 
+252 1 -2 
+126 1 126 
+63 1 63 
+Constructors: 2
+336 329
+267 259
+
+Summary: 20
+153 127 341 350 64 178 362 170 94 -2 51 353 156 0 19 281 230 259 74 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.getCurrentEEs([Ljava/util/Dictionary;)V
+PTG:
+Vars:
+8
+$r4 1 20 
+r0 1 -1 
+$r7 1 36 
+$r3 1 16 
+$r6 1 28 
+r1 1 -2 
+$r2 1 3 
+r5 1 20 
+Fields: 2
+-2 ArrayObject 16
+-1 CURRENT_EES 28
+Accesses: 2
+6 1 -1 
+27 1 -1 
+Functions: 2
+16 1 16 
+33 1 20 
+Constructors: 0
+
+Summary: 4
+20 -2 0 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.rewireImport(Lorg/eclipse/osgi/internal/module/ResolverImport;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+30
+$r8 1 51 
+$r6 1 41 
+$r13 1 82 
+$r17 1 131 
+r21 1 -3 
+r12 1 70 
+$r26 1 164 
+$r22 1 147 
+r4 1 21 
+$r28 1 51 
+$r19 1 179 
+$r7 1 46 
+$r15 1 90 
+$r16 1 102 
+$r2 1 18 
+r0 1 -2 
+$r29 1 171 
+$r11 1 64 
+$r25 1 161 
+$r3 1 21 
+r5 1 -1 
+$r1 1 8 
+$r10 1 60 
+$r20 1 185 
+r9 1 51 
+r14 1 82 
+r27 1 82 
+$r18 1 179 
+$r23 1 144 
+$r24 1 158 
+Fields: 3
+70 ArrayObject 82
+-1 bundleMapping 41
+-1 resolverExports 60
+Accesses: 2
+40 1 -1 
+59 1 -1 
+Functions: 22
+0 1 -2 
+161 1 161 
+130 1 -2 
+100 1 82 
+7 1 -2 
+167 2 144 164 
+41 2 41 46 
+137 1 -2 
+170 1 -2 
+44 1 21 
+17 1 -2 
+18 1 18 
+178 1 -2 
+147 2 147 158 
+182 1 179 
+88 1 82 
+154 1 147 
+60 2 64 60 
+157 1 -2 
+189 5 -1 -3 41 185 60 
+63 1 -2 
+127 2 -2 82 
+Constructors: 1
+154 147
+
+Summary: 20
+158 179 -3 90 70 185 64 8 1 131 102 161 18 46 -2 171 51 21 164 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.addConflicts(Lorg/eclipse/osgi/internal/module/ResolverBundle;Ljava/util/HashSet;Ljava/util/HashSet;Ljava/util/ArrayList;)Ljava/util/ArrayList;
+PTG:
+Vars:
+24
+r0 1 -2 
+r18 3 -5 72 191 
+$r15 1 207 
+r6 1 -3 
+$r5 1 38 
+r4 1 -1 
+r7 1 -4 
+$r12 1 139 
+r1 1 7 
+$r16 1 216 
+$r2 1 19 
+$r8 1 88 
+$r9 1 97 
+$r13 2 157 38 
+$r20 1 44 
+$r11 1 138 
+$r3 1 20 
+$r10 1 72 
+r23 1 139 
+_ret 3 -5 72 191 
+r19 1 20 
+$r24 1 163 
+$r17 1 191 
+r22 1 126 
+Fields: 6
+7 ArrayObject 19
+126 ArrayObject 216
+126 ArrayObject 207
+126 ArrayObject 138
+-1 groupingChecker 38
+-1 groupingChecker 157
+Accesses: 2
+37 1 -1 
+156 1 -1 
+Functions: 14
+97 1 97 
+3 1 -2 
+196 1 191 
+38 3 -2 20 38 
+138 1 138 
+77 1 72 
+208 4 -5 72 191 207 
+178 6 -1 -3 163 -4 38 157 
+19 1 19 
+216 1 216 
+89 4 -5 72 88 191 
+122 1 -2 
+59 6 -1 -3 -4 38 44 157 
+157 4 -2 38 139 157 
+Constructors: 2
+196 191
+77 72
+
+Summary: 12
+20 -3 -2 7 163 44 -4 1 126 2 139 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.resolveImport(Lorg/eclipse/osgi/internal/module/ResolverImport;Ljava/util/ArrayList;)Z
+PTG:
+Vars:
+75
+$r65 1 223 
+$r66 1 226 
+$r53 1 275 
+$r19 1 468 
+$r37 1 532 
+$r86 1 36 
+r8 1 167 
+$r23 1 591 
+$r52 1 371 
+$r63 1 215 
+$r83 1 26 
+$r2 1 144 
+$r13 1 296 
+$r12 1 268 
+$r85 1 33 
+$r25 1 598 
+$r26 1 604 
+$r61 1 206 
+$r54 1 275 
+r5 1 -1 
+r0 1 -2 
+$r21 1 582 
+$r64 1 220 
+$r22 1 585 
+$r80 1 6 
+$r81 1 17 
+r10 1 179 
+$r24 1 595 
+$r34 1 512 
+$r7 1 161 
+$r43 1 555 
+$r1 1 43 
+r31 1 -3 
+$r40 1 545 
+$r55 1 281 
+$r33 1 499 
+$r47 1 345 
+$r30 1 476 
+$r56 1 285 
+$r46 1 335 
+$r38 1 536 
+$r20 1 570 
+$r9 1 179 
+r4 1 154 
+$r32 1 488 
+$r15 1 313 
+$r49 1 419 
+$r36 1 526 
+$r60 1 203 
+$r45 1 334 
+$r14 1 300 
+$r87 1 390 
+$r51 1 432 
+$r42 1 552 
+$r57 1 657 
+$r17 1 453 
+$r50 1 420 
+$r58 1 658 
+$r35 1 523 
+$r44 1 558 
+$r11 1 243 
+$r18 1 463 
+$r3 1 148 
+$r6 1 157 
+$r27 1 608 
+$r28 1 611 
+$r82 1 20 
+$r39 1 539 
+$r41 1 549 
+$r59 1 191 
+$r62 1 209 
+$r16 1 318 
+$r48 1 403 
+$r29 1 614 
+$r84 1 30 
+Fields: 7
+167 ArrayObject 179
+154 ArrayObject 419
+154 ArrayObject 432
+154 ArrayObject 345
+154 ArrayObject 657
+154 ArrayObject 334
+-1 resolverExports 157
+Accesses: 2
+156 1 -1 
+381 1 -1 
+Functions: 97
+512 2 512 523 
+6 2 17 6 
+519 1 512 
+522 1 -2 
+267 1 -2 
+13 1 6 
+526 1 526 
+16 1 -2 
+274 1 -2 
+20 1 20 
+532 2 532 536 
+278 1 275 
+535 1 -2 
+26 2 26 30 
+539 1 539 
+284 1 -2 
+29 1 -2 
+33 1 33 
+545 2 545 552 
+548 1 -2 
+549 1 549 
+294 1 179 
+39 1 36 
+42 1 -2 
+299 1 -2 
+555 1 555 
+303 2 296 300 
+49 1 -3 
+561 1 558 
+50 1 -2 
+309 2 -2 179 
+312 1 -2 
+570 2 582 570 
+316 1 179 
+61 1 -2 
+65 1 -3 
+577 1 570 
+580 1 179 
+585 1 585 
+75 0 
+334 1 334 
+591 2 595 591 
+82 0 
+594 1 -2 
+85 1 -2 
+598 1 598 
+89 0 
+348 2 179 345 
+604 2 608 604 
+95 0 
+607 1 -2 
+98 1 -2 
+611 1 611 
+102 0 
+617 1 614 
+108 0 
+111 1 -2 
+112 0 
+368 4 -1 -3 371 157 
+369 1 179 
+118 0 
+124 0 
+639 1 -2 
+388 1 179 
+136 0 
+143 1 -2 
+399 2 -2 179 
+144 2 144 148 
+657 1 657 
+402 1 -2 
+147 1 -2 
+157 2 161 157 
+160 1 -2 
+419 1 419 
+434 1 432 
+191 2 206 191 
+451 1 179 
+198 1 191 
+201 1 179 
+203 1 203 
+462 1 -2 
+209 1 209 
+466 1 179 
+215 2 215 220 
+218 1 179 
+474 1 179 
+476 1 476 
+223 1 223 
+229 1 226 
+486 2 -3 488 
+487 1 -2 
+232 2 -2 179 
+241 1 179 
+498 1 -2 
+243 1 243 
+502 2 -3 499 
+251 1 -2 
+Constructors: 4
+577 570
+198 191
+519 512
+13 6
+
+Summary: 61
+611 371 549 268 17 476 144 99 121 488 36 161 582 112 318 206 300 403 296 223 275 499 51 463 203 285 30 453 167 115 118 558 154 -1 226 468 -3 658 335 43 33 220 595 86 523 657 1 313 555 148 -2 62 390 614 0 536 243 420 552 608 281 
+org/eclipse/osgi/internal/module/ResolverImpl.flush()V
+PTG:
+Vars:
+7
+r0 1 -1 
+$r1 1 26 
+$r5 1 39 
+$r4 1 44 
+$r3 1 44 
+r2 1 32 
+$r6 1 26 
+Fields: 3
+32 ArrayObject 44
+-1 state 39
+-1 removalPending 26
+Accesses: 9
+17 1 -1 
+2 1 -1 
+22 1 -1 
+38 1 -1 
+7 1 -1 
+71 1 -1 
+25 1 -1 
+12 1 -1 
+62 1 -1 
+Functions: 3
+48 2 39 44 
+66 1 26 
+26 1 26 
+Constructors: 0
+
+Summary: 2
+32 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.resolveDynamicImport(Lorg/eclipse/osgi/service/resolver/BundleDescription;Ljava/lang/String;)Lorg/eclipse/osgi/service/resolver/ExportPackageDescription;
+PTG:
+Vars:
+31
+$r10 1 84 
+$r49 1 123 
+$r53 1 424 
+$r13 1 167 
+$r58 1 487 
+$r3 1 30 
+r8 1 55 
+r68 1 88 
+$r70 1 147 
+$r57 1 472 
+r6 1 -3 
+$r7 1 43 
+$r51 1 571 
+r73 1 470 
+$r52 1 574 
+$r69 1 146 
+$r55 1 1 
+$r1 1 1 
+$r17 1 179 
+$r15 1 168 
+$r50 1 560 
+$r12 1 403 
+$r11 1 136 
+$r14 1 160 
+$r4 1 34 
+r0 1 -1 
+$r9 1 70 
+r2 1 -2 
+$r16 1 180 
+r5 1 34 
+$r56 1 452 
+Fields: 10
+-1 state 1
+-1 groupingChecker 160
+-1 bundleMapping 30
+55 ArrayObject 179
+55 ArrayObject 167
+55 ArrayObject 146
+55 ArrayObject 70
+55 ArrayObject 136
+55 ArrayObject 84
+55 ArrayObject 403
+Accesses: 7
+0 1 -1 
+448 1 -1 
+18 1 -1 
+199 1 -1 
+503 1 -1 
+29 1 -1 
+159 1 -1 
+Functions: 61
+265 0 
+393 0 
+138 2 -3 136 
+524 1 472 
+141 2 -3 147 
+14 0 
+528 1 472 
+146 1 146 
+405 1 403 
+279 0 
+536 1 472 
+26 4 -1 160 1 30 
+541 0 
+30 2 -2 30 
+290 1 34 
+167 1 167 
+41 2 34 -3 
+297 0 
+171 2 160 168 
+301 0 
+429 1 424 
+174 6 -1 160 1 179 180 30 
+560 2 560 -3 
+51 1 34 
+307 0 
+567 1 560 
+184 1 180 
+314 0 
+442 1 424 
+571 1 571 
+318 0 
+449 1 1 
+577 1 574 
+324 0 
+452 4 -2 -3 452 424 
+70 1 70 
+200 0 
+331 0 
+207 0 
+335 0 
+84 1 84 
+341 0 
+215 0 
+90 1 88 
+347 1 -3 
+351 0 
+479 3 34 470 472 
+484 6 -1 160 1 487 472 30 
+101 1 88 
+357 0 
+233 0 
+491 1 487 
+364 0 
+112 2 -3 123 
+368 0 
+113 1 88 
+116 1 88 
+376 1 88 
+504 1 34 
+252 0 
+508 1 472 
+Constructors: 5
+567 560
+184 180
+491 487
+429 424
+479 472
+
+Summary: 33
+351 538 216 516 424 452 530 332 365 123 208 -1 571 -3 180 43 147 315 574 55 1 354 470 -2 510 0 222 34 487 338 472 168 253 
+org/eclipse/osgi/internal/module/ResolverImpl.internalBundleRemoved(Lorg/eclipse/osgi/service/resolver/BundleDescription;Z)V
+PTG:
+Vars:
+15
+$r2 1 34 
+$r5 1 85 
+r4 1 38 
+$r10 1 109 
+$r14 1 8 
+$r13 1 64 
+r1 1 -2 
+$r15 1 5 
+$r3 1 38 
+$r16 1 116 
+$r11 1 34 
+r0 1 -1 
+$r9 1 105 
+$r7 1 96 
+$r6 1 89 
+Fields: 7
+-1 unresolvedBundles 116
+-1 groupingChecker 64
+-1 bundleMapping 34
+-1 resolverExports 85
+-1 resolverBundles 96
+-1 removalPending 5
+-1 resolverGenerics 105
+Accesses: 9
+33 1 -1 
+115 1 -1 
+4 1 -1 
+84 1 -1 
+54 1 -1 
+104 1 -1 
+25 1 -1 
+63 1 -1 
+95 1 -1 
+Functions: 13
+34 2 -2 34 
+68 2 64 38 
+100 2 96 38 
+75 1 -2 
+12 1 -2 
+108 1 38 
+112 2 105 109 
+18 1 8 
+22 3 -2 5 8 
+88 1 38 
+120 2 116 38 
+59 2 -2 34 
+92 2 85 89 
+Constructors: 1
+18 8
+
+Summary: 7
+8 -2 109 0 89 -1 38 
+org/eclipse/osgi/internal/module/ResolverImpl.addUnresolvedWithDependents(Lorg/eclipse/osgi/internal/module/ResolverBundle;Ljava/util/HashSet;)V
+PTG:
+Vars:
+6
+r3 1 -3 
+r2 1 9 
+r0 1 -2 
+$r4 1 17 
+$r1 1 1 
+r5 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+0 1 -2 
+16 1 -2 
+1 1 1 
+20 2 17 -3 
+Constructors: 0
+
+Summary: 7
+-3 -2 9 17 -1 1 1 
+org/eclipse/osgi/internal/module/ResolverImpl.initResolverBundle(Lorg/eclipse/osgi/service/resolver/BundleDescription;Ljava/util/ArrayList;Z)V
+PTG:
+Vars:
+13
+r1 1 -2 
+$r12 1 112 
+$r6 1 36 
+r14 1 -3 
+$r10 1 62 
+$r8 1 48 
+$r13 1 89 
+$r0 1 0 
+$r4 1 12 
+$r7 1 41 
+$r11 1 67 
+$r9 1 53 
+r2 1 -1 
+Fields: 5
+-1 unresolvedBundles 112
+-1 bundleMapping 12
+-1 resolverExports 36
+-1 resolverBundles 48
+-1 resolverGenerics 62
+Accesses: 5
+35 1 -1 
+11 1 -1 
+61 1 -1 
+47 1 -1 
+111 1 -1 
+Functions: 14
+65 1 0 
+100 2 0 -3 
+6 8 0 -1 112 48 -2 36 12 62 
+70 2 67 62 
+39 1 0 
+73 1 -2 
+44 2 36 41 
+18 3 0 -2 12 
+51 1 0 
+85 1 0 
+117 2 112 0 
+88 1 -2 
+26 1 -2 
+58 3 48 0 53 
+Constructors: 1
+6 0
+
+Summary: 9
+41 67 -3 -2 0 1 53 89 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.addMutipleSupplierConstraint(Ljava/util/HashMap;Lorg/eclipse/osgi/internal/module/ResolverConstraint;)V
+PTG:
+Vars:
+14
+$r2 1 2 
+r5 1 71 
+r1 1 -3 
+r0 1 -2 
+r17 1 -1 
+r18 1 5 
+$r4 1 71 
+$r12 1 165 
+$r3 1 5 
+r8 1 96 
+r21 1 64 
+$r6 1 84 
+r9 1 103 
+r7 1 84 
+Fields: 0
+Accesses: 0
+Functions: 18
+0 2 -2 2 
+1 1 -3 
+98 1 84 
+69 1 64 
+38 1 -3 
+170 1 165 
+45 0 
+81 1 71 
+50 1 -3 
+178 2 -3 165 
+21 0 
+150 2 -3 71 
+55 1 -2 
+185 2 5 165 
+155 1 64 
+60 1 5 
+92 1 -3 
+30 0 
+Constructors: 1
+170 165
+
+Summary: 15
+-3 2 -2 25 51 5 0 84 1 71 165 16 96 -1 103 
+org/eclipse/osgi/internal/module/ResolverImpl.getExportsWiredTo(Lorg/eclipse/osgi/internal/module/ResolverBundle;)[Lorg/eclipse/osgi/service/resolver/ExportPackageDescription;
+PTG:
+Vars:
+12
+r0 1 -2 
+$r2 1 5 
+$r8 1 36 
+$r11 1 60 
+$r4 1 22 
+$r5 1 23 
+$r6 1 32 
+$r10 1 60 
+$r7 1 33 
+r1 1 4 
+$r9 1 57 
+_ret 1 60 
+Fields: 2
+4 ArrayObject 22
+4 ArrayObject 32
+Accesses: 0
+Functions: 8
+0 1 -2 
+32 1 32 
+33 1 33 
+52 2 5 57 
+53 1 5 
+22 1 22 
+39 2 36 5 
+11 1 5 
+Constructors: 1
+11 5
+
+Summary: 8
+5 -2 23 4 33 57 0 36 
+org/eclipse/osgi/internal/module/ResolverImpl.initialize()V
+PTG:
+Vars:
+26
+$r8 1 69 
+$r22 1 193 
+$r6 1 59 
+$r15 1 158 
+r20 1 184 
+r24 1 201 
+r16 1 158 
+$r4 1 37 
+r0 1 -1 
+$r19 1 173 
+$r14 1 128 
+$r2 1 13 
+r26 1 117 
+$r11 1 95 
+$r21 1 200 
+$r13 1 128 
+$r18 1 173 
+$r9 1 79 
+$r23 1 201 
+$r12 1 111 
+r7 1 67 
+$r1 1 1 
+$r3 1 25 
+$r5 1 48 
+$r17 1 170 
+r27 1 151 
+Fields: 6
+184 ArrayObject 200
+67 ArrayObject 95
+117 ArrayObject 128
+-1 state 59
+-1 bundleMapping 193
+-1 removalPending 111
+Accesses: 10
+192 1 -1 
+33 1 -1 
+21 1 -1 
+55 1 -1 
+9 1 -1 
+58 1 -1 
+44 1 -1 
+76 1 -1 
+110 1 -1 
+254 1 -1 
+Functions: 21
+193 2 193 200 
+98 6 -1 193 59 111 95 79 
+6 5 -1 1 193 59 111 
+134 6 -1 128 193 59 111 79 
+168 1 158 
+41 1 37 
+73 1 69 
+170 1 170 
+234 1 151 
+111 1 111 
+176 1 173 
+18 5 -1 193 59 13 111 
+83 1 79 
+147 1 79 
+52 1 48 
+245 4 -1 193 59 111 
+249 4 -1 193 59 111 
+59 1 59 
+219 2 201 158 
+156 1 151 
+30 5 -1 193 25 59 111 
+Constructors: 7
+18 13
+83 79
+52 48
+6 1
+41 37
+73 69
+30 25
+
+Summary: 9
+67 158 184 117 173 201 -1 170 79 
+org/eclipse/osgi/internal/module/ResolverImpl.resolveGenericReq(Lorg/eclipse/osgi/internal/module/GenericConstraint;Ljava/util/ArrayList;)Z
+PTG:
+Vars:
+45
+$r8 1 193 
+$r16 1 460 
+$r43 1 26 
+$r23 1 367 
+$r40 1 6 
+$r41 1 17 
+$r22 1 364 
+$r12 1 282 
+$r42 1 20 
+$r10 1 235 
+$r24 1 370 
+$r44 1 30 
+$r29 1 209 
+$r21 1 310 
+r20 2 301 301 
+r25 1 -3 
+$r14 1 445 
+$r34 1 499 
+r2 1 -1 
+r1 1 46 
+$r3 1 116 
+$r17 1 466 
+r13 2 268 275 
+$r32 1 173 
+$r48 2 268 275 
+$r26 1 262 
+$r27 1 265 
+r0 1 -2 
+r47 1 131 
+$r28 1 209 
+$r46 1 36 
+$r33 1 176 
+$r11 1 240 
+$r45 1 33 
+$r15 1 457 
+$r19 2 301 301 
+$r30 1 158 
+$r31 1 170 
+$r35 1 499 
+$r5 1 123 
+$r4 1 120 
+$r6 1 146 
+r7 1 146 
+$r18 1 469 
+$r9 1 197 
+Fields: 4
+268 ArrayObject 301
+-1 resolverGenerics 116
+131 ArrayObject 146
+275 ArrayObject 301
+Accesses: 2
+115 1 -1 
+341 1 -1 
+Functions: 57
+384 1 301 
+260 1 146 
+6 2 17 6 
+262 1 262 
+265 1 265 
+393 2 -3 301 
+13 1 6 
+16 1 -2 
+20 1 20 
+405 2 -3 301 
+280 1 146 
+26 2 26 30 
+29 1 -2 
+158 2 170 158 
+33 1 33 
+165 1 158 
+39 1 36 
+168 1 146 
+42 1 -2 
+173 1 173 
+433 2 -2 146 
+179 1 176 
+309 1 -2 
+182 2 -2 146 
+60 0 
+61 0 
+445 2 457 445 
+191 1 146 
+322 1 301 
+196 1 -2 
+452 1 445 
+71 1 -3 
+455 1 146 
+72 1 -2 
+200 2 193 197 
+331 4 -1 -3 116 301 
+460 1 460 
+208 1 -2 
+466 1 466 
+83 1 -2 
+212 1 209 
+87 1 -3 
+472 1 469 
+350 1 146 
+231 2 -2 146 
+234 1 -2 
+362 1 146 
+364 1 364 
+110 0 
+238 1 146 
+367 1 367 
+498 1 -2 
+116 2 116 123 
+502 1 499 
+119 1 -2 
+120 1 120 
+252 1 146 
+Constructors: 3
+452 445
+165 158
+13 6
+
+Summary: 36
+-3 33 173 268 17 310 84 1 131 193 367 457 466 36 170 197 46 -2 176 265 499 30 73 301 120 364 469 275 123 240 209 61 370 -1 235 262 
+org/eclipse/osgi/internal/module/ResolverImpl.getCombination([[Lorg/eclipse/osgi/internal/module/ResolverConstraint;[I)[I
+PTG:
+Vars:
+6
+r0 1 -3 
+r1 1 -2 
+$r2 1 9 
+$r3 1 11 
+_ret 1 -3 
+r4 1 -1 
+Fields: 2
+-2 ArrayObject 9
+9 ArrayObject 11
+Accesses: 0
+Functions: 1
+11 1 11 
+Constructors: 0
+
+Summary: 4
+-2 0 -1 1 
+org/eclipse/osgi/internal/module/ResolverImpl.getConflictCount(Ljava/util/ArrayList;)I
+PTG:
+Vars:
+5
+$r3 1 24 
+r0 1 -2 
+$r2 1 24 
+r1 1 19 
+r4 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 5
+4 1 -2 
+23 1 19 
+41 1 19 
+29 1 24 
+15 1 -2 
+Constructors: 0
+
+Summary: 4
+24 -2 0 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.getResolverExports()Lorg/eclipse/osgi/internal/module/VersionHashMap;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 resolverExports 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/module/ResolverImpl.checkComposites([Lorg/eclipse/osgi/internal/module/ResolverBundle;[Ljava/util/Dictionary;Ljava/util/ArrayList;)V
+PTG:
+Vars:
+20
+$r3 1 26 
+$r4 1 27 
+$r12 1 99 
+$r6 1 48 
+r17 1 -3 
+$r7 1 63 
+$r8 1 64 
+r1 1 4 
+r18 1 -4 
+$r10 1 76 
+$r13 1 107 
+$r16 1 126 
+r0 1 -1 
+$r9 1 82 
+r19 1 126 
+r2 1 -2 
+r5 1 35 
+$r15 1 141 
+$r11 1 83 
+$r14 1 115 
+Fields: 9
+-2 ArrayObject 63
+-2 ArrayObject 115
+-2 ArrayObject 107
+-2 ArrayObject 99
+-2 ArrayObject 48
+-2 ArrayObject 26
+-2 ArrayObject 82
+-2 ArrayObject 141
+-1 state 76
+Accesses: 1
+75 1 -1 
+Functions: 14
+0 2 -1 76 
+131 1 126 
+164 14 -1 -2 -3 99 -4 107 76 141 48 82 115 26 126 63 
+101 1 99 
+108 1 107 
+142 2 141 126 
+48 1 48 
+82 1 82 
+21 2 4 27 
+118 3 -1 115 76 
+26 1 26 
+58 2 64 35 
+91 2 83 76 
+63 1 63 
+Constructors: 1
+131 126
+
+Summary: 13
+-3 -2 4 0 35 64 -4 1 2 -1 126 27 83 
+org/eclipse/osgi/internal/module/ResolverImpl.setDebugOptions()V
+PTG:
+Vars:
+2
+r0 1 3 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 0 
+49 1 3 
+19 1 3 
+69 1 3 
+39 1 3 
+9 1 3 
+59 1 3 
+29 1 3 
+Constructors: 0
+
+Summary: 2
+3 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.bundleRemoved(Lorg/eclipse/osgi/service/resolver/BundleDescription;Z)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r3 1 8 
+r2 1 -2 
+$r5 1 12 
+$r4 1 12 
+Fields: 1
+-1 bundleMapping 8
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 3
+34 3 -1 -2 8 
+8 2 -2 8 
+28 1 12 
+Constructors: 0
+
+Summary: 4
+-2 12 0 -1 
+org/eclipse/osgi/internal/module/ResolverImpl.getPermissionChecker()Lorg/eclipse/osgi/internal/module/PermissionChecker;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 permissionChecker 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/osgi/internal/module/ResolverImpl.printWirings()V
+PTG:
+Vars:
+94
+$r47 1 581 
+$r50 1 464 
+$r8 1 55 
+$r76 1 329 
+$r16 1 158 
+$r32 1 521 
+$r85 1 225 
+$r80 1 346 
+r0 1 -1 
+$r12 1 131 
+$r74 1 325 
+$r41 1 558 
+r9 1 65 
+$r56 1 485 
+$r23 1 119 
+$r55 1 482 
+$r21 1 110 
+$r62 1 400 
+$r53 1 474 
+$r1 1 7 
+$r10 1 92 
+$r88 1 239 
+r93 1 266 
+$r33 1 527 
+$r75 1 326 
+$r6 1 41 
+$r52 1 468 
+$r36 1 538 
+$r25 1 293 
+r4 1 21 
+$r86 1 231 
+$r3 1 21 
+$r68 1 421 
+$r54 1 481 
+$r57 1 491 
+$r72 1 305 
+r92 1 198 
+$r64 1 404 
+$r30 1 517 
+$r89 1 242 
+$r87 1 238 
+$r24 1 122 
+$r83 1 211 
+$r65 1 410 
+$r29 1 503 
+$r22 1 113 
+$r81 1 352 
+$r27 1 443 
+$r34 1 534 
+$r40 1 552 
+$r84 1 222 
+$r71 1 304 
+$r59 1 379 
+$r49 1 450 
+r91 1 186 
+$r66 1 417 
+$r14 1 145 
+r2 1 13 
+$r60 1 380 
+$r31 1 518 
+$r11 1 93 
+$r42 1 561 
+$r15 1 151 
+$r43 1 567 
+$r69 1 427 
+$r26 1 368 
+$r20 1 99 
+$r90 1 245 
+$r18 1 162 
+$r37 1 544 
+$r17 1 159 
+$r58 1 494 
+$r39 1 552 
+$r19 1 165 
+$r82 1 355 
+$r13 1 142 
+$r7 1 52 
+$r67 1 418 
+$r51 1 465 
+$r78 1 342 
+$r44 1 574 
+$r28 1 444 
+$r77 1 335 
+$r70 1 430 
+$r5 1 27 
+$r79 1 343 
+$r45 1 575 
+$r73 1 311 
+$r35 1 535 
+$r38 1 551 
+$r61 1 386 
+$r63 1 401 
+$r46 1 578 
+$r48 1 584 
+Fields: 20
+266 ArrayObject 400
+266 ArrayObject 481
+266 ArrayObject 551
+266 ArrayObject 325
+266 ArrayObject 379
+266 ArrayObject 304
+266 ArrayObject 368
+266 ArrayObject 574
+266 ArrayObject 534
+266 ArrayObject 443
+266 ArrayObject 342
+266 ArrayObject 417
+266 ArrayObject 464
+266 ArrayObject 293
+266 ArrayObject 517
+65 ArrayObject 92
+65 ArrayObject 158
+13 ArrayObject 21
+-1 resolverBundles 7
+198 ArrayObject 238
+Accesses: 1
+6 1 -1 
+Functions: 85
+386 2 401 386 
+3 0 
+131 2 131 142 
+517 1 517 
+262 1 21 
+7 1 7 
+393 1 386 
+521 1 521 
+138 1 131 
+141 1 21 
+527 2 535 527 
+400 1 400 
+145 1 145 
+404 1 404 
+277 0 
+534 1 534 
+151 2 151 159 
+26 1 21 
+410 2 418 410 
+538 1 538 
+27 1 27 
+158 1 158 
+544 2 544 558 
+417 1 417 
+162 1 162 
+293 1 293 
+421 1 421 
+551 1 551 
+168 1 165 
+41 2 21 41 
+427 1 427 
+555 1 552 
+48 1 41 
+304 1 304 
+433 1 430 
+561 1 561 
+52 1 52 
+182 1 21 
+311 2 326 311 
+567 2 578 567 
+58 1 55 
+443 1 443 
+61 1 21 
+318 1 311 
+574 1 574 
+575 1 575 
+193 1 186 
+450 2 465 450 
+325 1 325 
+581 1 581 
+329 1 329 
+457 1 450 
+587 1 584 
+76 0 
+335 2 343 335 
+464 1 464 
+211 2 211 222 
+468 1 468 
+342 1 342 
+218 1 211 
+346 1 346 
+474 2 482 474 
+92 1 92 
+221 1 21 
+352 1 352 
+225 1 225 
+481 1 481 
+99 2 99 110 
+485 1 485 
+358 1 355 
+231 2 231 239 
+106 1 99 
+491 1 491 
+109 1 21 
+238 1 238 
+368 1 368 
+113 1 113 
+497 1 494 
+242 1 242 
+119 1 119 
+503 2 518 503 
+248 1 245 
+379 1 379 
+125 1 122 
+510 1 503 
+Constructors: 8
+48 41
+393 386
+457 450
+106 99
+138 131
+218 211
+318 311
+510 503
+
+Summary: 45
+444 465 518 142 122 581 162 165 578 27 494 239 380 198 352 110 558 584 427 401 -1 159 535 418 491 575 55 355 326 430 305 242 13 93 119 343 567 245 552 266 222 482 52 65 186 

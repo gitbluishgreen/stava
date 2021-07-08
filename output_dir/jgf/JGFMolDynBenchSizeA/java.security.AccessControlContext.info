@@ -1,0 +1,862 @@
+27
+java/security/AccessControlContext.isPrivileged()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/AccessControlContext.<init>([Ljava/security/ProtectionDomain;Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 5
+16 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/security/AccessControlContext.checkPermission2(Ljava/security/Permission;)V
+PTG:
+Vars:
+14
+$r9 1 32 
+r8 1 42 
+$r2 1 32 
+$r10 1 32 
+$r1 1 9 
+$r7 1 91 
+$r13 1 9 
+$r4 1 32 
+r11 1 60 
+$r12 1 64 
+$r3 1 91 
+r0 1 -1 
+r5 1 -2 
+$r6 1 91 
+Fields: 4
+-1 parent 91
+-1 privilegedContext 9
+-1 permissions 32
+32 ArrayObject 60
+Accesses: 11
+0 1 -1 
+97 1 -1 
+115 1 -1 
+54 1 -1 
+23 1 -1 
+8 1 -1 
+104 1 -1 
+90 1 -1 
+46 1 -1 
+15 1 -1 
+31 1 -1 
+Functions: 7
+64 2 64 42 
+20 2 -2 9 
+38 1 -2 
+120 2 -2 91 
+74 2 -2 60 
+109 2 -2 91 
+62 1 60 
+Constructors: 0
+
+Summary: 5
+-1 -2 42 64 0 
+java/security/AccessControlContext.getNextPC(Ljava/security/AccessControlContext;)Ljava/security/AccessControlContext;
+PTG:
+Vars:
+2
+r1 2 5 -2 
+$r0 1 5 
+Fields: 1
+-2 privilegedContext 5
+Accesses: 3
+16 2 -2 5 
+4 2 -2 5 
+11 2 -2 5 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/security/AccessControlContext.containsAllPDs([Ljava/security/ProtectionDomain;[Ljava/security/ProtectionDomain;)Z
+PTG:
+Vars:
+7
+r3 1 -3 
+$r6 1 40 
+r0 1 -2 
+r4 1 83 
+$r1 1 17 
+$r5 1 94 
+r7 1 63 
+Fields: 3
+-3 ArrayObject 40
+-3 ArrayObject 83
+-2 ArrayObject 17
+Accesses: 0
+Functions: 3
+100 2 17 83 
+59 1 17 
+92 1 83 
+Constructors: 0
+
+Summary: 9
+94 17 -3 1 63 -2 40 83 0 
+java/security/AccessControlContext.getDomainCombiner()Ljava/security/DomainCombiner;
+PTG:
+Vars:
+5
+r0 1 3 
+_ret 1 16 
+r1 1 -1 
+$r2 1 16 
+$r3 1 9 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 0 
+12 2 3 9 
+15 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/AccessControlContext.equalContext(Ljava/security/AccessControlContext;)Z
+PTG:
+Vars:
+9
+$r3 1 2 
+$r6 1 25 
+r1 1 -2 
+$r4 1 18 
+r0 1 -1 
+$r7 1 18 
+$r8 1 25 
+$r2 1 6 
+$r5 1 18 
+Fields: 4
+-1 context 2
+-1 combiner 18
+-2 context 6
+-2 combiner 25
+Accesses: 7
+1 1 -1 
+17 1 -1 
+33 1 -1 
+5 1 -2 
+24 1 -2 
+40 1 -1 
+44 1 -2 
+Functions: 2
+0 4 -1 2 18 6 
+41 2 18 25 
+Constructors: 0
+
+Summary: 5
+25 6 -1 -2 0 
+java/security/AccessControlContext.getContext()[Ljava/security/ProtectionDomain;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 context 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/AccessControlContext.combine([Ljava/security/ProtectionDomain;[Ljava/security/ProtectionDomain;)[Ljava/security/ProtectionDomain;
+PTG:
+Vars:
+7
+r4 2 61 182 
+r1 1 -3 
+_ret 2 61 182 
+r2 1 94 
+$r3 1 117 
+r0 1 -2 
+r5 1 182 
+Fields: 2
+61 ArrayObject 117
+-2 ArrayObject 94
+Accesses: 0
+Functions: 2
+195 3 117 182 61 
+77 4 -3 117 182 61 
+Constructors: 0
+
+Summary: 2
+1 0 
+java/security/AccessControlContext.getAssignedCombiner()Ljava/security/DomainCombiner;
+PTG:
+Vars:
+2
+r2 2 11 18 
+r0 1 -1 
+Fields: 1
+-1 privilegedContext 11
+Accesses: 3
+0 1 -1 
+7 1 -1 
+23 2 18 11 
+Functions: 1
+15 0 
+Constructors: 0
+
+Summary: 2
+-1 18 
+java/security/AccessControlContext.containsAllLimits(Ljava/security/AccessControlContext;)Z
+PTG:
+Vars:
+12
+$r2 1 3 
+r5 1 -2 
+r3 1 38 
+r0 1 -1 
+$r1 1 3 
+$r10 1 10 
+r8 1 73 
+$r7 1 10 
+r4 1 45 
+$r9 1 79 
+$r11 1 3 
+$r6 1 10 
+Fields: 4
+3 ArrayObject 38
+-1 permissions 3
+-2 permissions 10
+10 ArrayObject 73
+Accesses: 6
+2 1 -1 
+66 1 -2 
+54 1 -2 
+23 1 -1 
+9 1 -2 
+31 1 -1 
+Functions: 4
+40 1 38 
+88 2 38 73 
+75 2 45 79 
+77 1 73 
+Constructors: 0
+
+Summary: 7
+79 73 -1 -2 0 10 45 
+java/security/AccessControlContext.calculateFields(Ljava/security/AccessControlContext;Ljava/security/AccessControlContext;[Ljava/security/Permission;)V
+PTG:
+Vars:
+10
+r0 1 -3 
+r3 1 -1 
+$r4 1 49 
+r2 1 41 
+$r6 1 49 
+r1 1 -2 
+r8 1 11 
+r5 1 -4 
+$r7 1 11 
+$r9 1 25 
+Fields: 3
+-3 limitedContext 11
+-1 context 49
+-2 limitedContext 25
+Accesses: 8
+48 1 -1 
+80 1 -1 
+85 1 -1 
+70 1 -1 
+24 1 -2 
+57 1 -1 
+10 1 -3 
+75 1 -1 
+Functions: 2
+36 2 25 11 
+58 2 49 41 
+Constructors: 0
+
+Summary: 6
+25 2 -1 1 -2 0 
+java/security/AccessControlContext.getCombiner()Ljava/security/DomainCombiner;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 combiner 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/AccessControlContext.hashCode()I
+PTG:
+Vars:
+7
+$r5 1 3 
+$r1 1 3 
+$r6 1 37 
+$r4 1 27 
+r0 1 -1 
+$r3 1 3 
+$r2 1 3 
+Fields: 3
+3 ArrayObject 27
+3 ArrayObject 37
+-1 context 3
+Accesses: 4
+32 1 -1 
+2 1 -1 
+22 1 -1 
+14 1 -1 
+Functions: 1
+37 1 37 
+Constructors: 0
+
+Summary: 1
+-1 
+java/security/AccessControlContext.equalPDs([Ljava/security/ProtectionDomain;[Ljava/security/ProtectionDomain;)Z
+PTG:
+Vars:
+3
+r0 1 -2 
+r2 1 -1 
+r1 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 2
+21 2 -2 -3 
+29 2 -2 -3 
+Constructors: 0
+
+Summary: 5
+-3 -1 1 -2 0 
+java/security/AccessControlContext.<init>(Ljava/security/ProtectionDomain;Ljava/security/DomainCombiner;Ljava/security/AccessControlContext;Ljava/security/AccessControlContext;[Ljava/security/Permission;)V
+PTG:
+Vars:
+22
+$r4 1 101 
+$r14 1 86 
+$r8 1 201 
+r3 1 -3 
+$r9 1 143 
+$r7 1 194 
+r2 1 -5 
+r22 1 123 
+$r11 1 162 
+r0 1 -1 
+r20 1 -4 
+$r16 1 68 
+$r15 1 65 
+r1 1 -2 
+$r6 1 198 
+$r12 1 180 
+r21 1 22 
+$r18 1 49 
+$r10 1 161 
+$r17 1 46 
+$r19 1 22 
+r5 1 -6 
+Fields: 7
+-5 context 46
+-5 context 65
+-6 ArrayObject 161
+-6 ArrayObject 143
+-6 ArrayObject 180
+-4 context 194
+-4 limitedContext 198
+Accesses: 18
+193 1 -4 
+225 1 -1 
+197 1 -4 
+6 1 -1 
+71 1 -1 
+231 1 -1 
+104 1 -1 
+11 1 -1 
+44 1 -5 
+204 1 -1 
+236 1 -1 
+109 1 -1 
+209 1 -1 
+54 1 -1 
+214 1 -1 
+91 1 -1 
+220 1 -1 
+63 1 -5 
+Functions: 8
+1 1 -1 
+65 2 65 22 
+161 1 161 
+82 2 -3 22 
+100 1 22 
+198 2 194 198 
+41 3 -3 22 46 
+153 0 
+Constructors: 1
+1 -1
+
+Summary: 11
+143 4 -6 3 2 161 1 0 162 -1 22 
+java/security/AccessControlContext.optimize()Ljava/security/AccessControlContext;
+PTG:
+Vars:
+21
+r13 2 47 40 
+$r17 1 80 
+_ret 1 -1 
+r14 1 34 
+$r7 1 135 
+$r8 1 141 
+r1 1 80 
+r15 2 47 18 
+r0 1 -1 
+r12 1 135 
+$r4 1 62 
+$r19 1 62 
+$r11 1 80 
+$r6 1 228 
+$r3 1 62 
+$r16 1 62 
+$r9 1 62 
+$r2 1 62 
+$r5 1 232 
+$r10 1 147 
+r18 2 172 247 
+Fields: 10
+62 ArrayObject 228
+-1 context 62
+-1 privilegedContext 18
+47 context 80
+47 combiner 135
+18 parent 40
+18 context 80
+18 combiner 135
+18 permissions 34
+80 ArrayObject 232
+Accesses: 20
+161 1 -1 
+36 2 18 47 
+102 2 18 47 
+134 2 18 47 
+7 1 -1 
+295 1 -1 
+300 1 -1 
+14 1 -1 
+238 1 -1 
+79 2 18 47 
+112 2 18 47 
+305 1 -1 
+275 1 -1 
+52 2 18 47 
+214 1 -1 
+23 2 18 47 
+155 2 18 47 
+61 1 -1 
+30 2 18 47 
+223 1 -1 
+Functions: 8
+-1 0 
+160 5 80 228 135 232 62 
+192 10 -1 80 18 34 228 135 40 232 62 47 
+242 4 80 228 232 62 
+152 1 147 
+313 10 -1 80 18 34 228 135 40 232 62 47 
+44 0 
+287 10 -1 80 18 34 228 135 40 232 62 47 
+Constructors: 0
+
+Summary: 0
+
+java/security/AccessControlContext.equalLimitedContext(Ljava/security/AccessControlContext;)Z
+PTG:
+Vars:
+13
+$r12 1 76 
+$r2 1 69 
+$r7 1 160 
+$r8 1 167 
+$r11 1 76 
+$r10 1 167 
+r1 1 -1 
+$r9 1 160 
+$r3 1 69 
+r5 1 127 
+$r6 1 160 
+r0 1 -2 
+r4 1 122 
+Fields: 4
+-1 parent 160
+-1 permissions 69
+-2 parent 167
+-2 permissions 76
+Accesses: 18
+68 1 -1 
+6 1 -1 
+38 1 -1 
+166 1 -2 
+136 1 127 
+75 1 -2 
+13 1 -2 
+45 1 -2 
+175 1 -1 
+52 1 -1 
+84 1 -1 
+22 1 -1 
+182 1 -1 
+186 1 -2 
+59 1 -2 
+91 1 -2 
+29 1 -2 
+159 1 -1 
+Functions: 6
+100 6 -1 160 -2 69 167 76 
+149 2 122 127 
+118 3 -1 160 69 
+183 2 160 167 
+123 3 -2 167 76 
+108 6 -1 160 -2 69 167 76 
+Constructors: 0
+
+Summary: 4
+167 -1 -2 0 
+java/security/AccessControlContext.<init>(Ljava/security/AccessControlContext;Ljava/security/DomainCombiner;)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r2 1 -3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 1
+4 -1
+
+Summary: 3
+-3 -1 -2 
+java/security/AccessControlContext.<init>([Ljava/security/ProtectionDomain;)V
+PTG:
+Vars:
+13
+$r6 1 141 
+$r11 1 35 
+$r4 1 129 
+$r2 1 61 
+$r13 1 41 
+$r12 1 41 
+r0 1 -1 
+$r5 1 138 
+$r9 1 88 
+$r7 1 141 
+r1 1 -2 
+$r10 1 100 
+$r8 1 81 
+Fields: 5
+-1 context 138
+-2 ArrayObject 35
+-2 ArrayObject 100
+-2 ArrayObject 81
+-2 ArrayObject 88
+Accesses: 8
+132 1 -1 
+21 1 -1 
+149 1 -1 
+6 1 -1 
+55 1 -1 
+137 1 -1 
+11 1 -1 
+47 1 -1 
+Functions: 8
+1 2 -1 138 
+113 1 61 
+67 1 61 
+85 2 88 61 
+101 2 100 61 
+40 5 -2 81 35 100 88 
+136 2 138 61 
+123 1 61 
+Constructors: 2
+1 -1
+67 61
+
+Summary: 8
+81 -1 35 100 61 -2 0 88 
+java/security/AccessControlContext.<init>([Ljava/security/ProtectionDomain;Ljava/security/AccessControlContext;)V
+PTG:
+Vars:
+3
+r2 1 -3 
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 5
+16 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 3
+-1 1 0 
+java/security/AccessControlContext.checkPermission(Ljava/security/Permission;)V
+PTG:
+Vars:
+50
+$r36 1 43 
+$r33 1 250 
+$r9 1 43 
+$r38 1 268 
+$r8 1 490 
+$r61 1 106 
+$r58 1 43 
+$r46 1 166 
+$r54 1 76 
+$r35 1 259 
+$r60 1 103 
+$r32 1 238 
+$r50 1 63 
+$r64 1 115 
+$r5 1 471 
+$r62 1 109 
+$r11 1 43 
+$r31 1 241 
+$r57 1 94 
+$r52 1 43 
+$r30 1 43 
+$r47 1 43 
+$r55 1 79 
+$r56 1 85 
+$r43 1 157 
+$r37 1 267 
+$r44 1 160 
+$r66 1 43 
+$r59 1 102 
+$r63 1 112 
+$r6 1 483 
+$r12 1 321 
+r2 1 -1 
+$r7 1 487 
+r0 1 -2 
+$r45 1 163 
+$r29 1 43 
+$r3 1 43 
+$r40 1 216 
+$r4 1 474 
+$r51 1 64 
+$r49 1 43 
+$r10 1 312 
+$r41 1 144 
+$r34 1 254 
+$r42 1 153 
+$r53 1 75 
+$r48 1 43 
+$r1 1 16 
+$r39 1 271 
+Fields: 7
+-1 context 43
+43 ArrayObject 102
+43 ArrayObject 63
+43 ArrayObject 312
+43 ArrayObject 75
+43 ArrayObject 267
+43 ArrayObject 321
+Accesses: 13
+97 1 -1 
+70 1 -1 
+230 1 -1 
+262 1 -1 
+42 1 -1 
+299 1 -1 
+209 1 -1 
+50 1 -1 
+307 1 -1 
+404 1 -1 
+58 1 -1 
+283 1 -1 
+316 1 -1 
+Functions: 60
+-1 0 
+259 2 259 267 
+388 1 -2 
+136 0 
+392 0 
+12 0 
+268 1 268 
+398 0 
+144 1 144 
+401 0 
+274 2 238 271 
+148 1 144 
+22 0 
+153 2 160 153 
+156 1 -2 
+157 1 157 
+163 1 163 
+292 9 -1 321 -2 102 312 43 75 267 63 
+166 1 166 
+426 8 -1 321 102 312 43 75 267 63 
+429 0 
+437 0 
+441 0 
+186 0 
+446 1 -2 
+63 1 63 
+321 2 321 -2 
+194 0 
+450 0 
+201 0 
+457 1 -2 
+75 1 75 
+76 1 76 
+336 0 
+340 0 
+85 1 85 
+89 1 85 
+345 1 -2 
+474 1 474 
+221 1 216 
+349 0 
+94 2 109 94 
+478 1 474 
+355 0 
+483 2 -2 483 
+102 1 102 
+358 0 
+103 1 103 
+487 1 487 
+106 1 106 
+493 2 471 490 
+112 1 112 
+241 1 241 
+498 9 -1 321 -2 102 312 43 75 267 63 
+115 1 115 
+245 1 241 
+250 1 250 
+379 0 
+254 1 254 
+383 0 
+Constructors: 4
+148 144
+245 241
+89 85
+478 474
+
+Summary: 4
+157 0 -1 -2 
+java/security/AccessControlContext.<init>(Ljava/security/AccessControlContext;Ljava/security/DomainCombiner;Z)V
+PTG:
+Vars:
+6
+$r5 1 30 
+r0 1 -1 
+r1 1 -2 
+r3 1 -3 
+r4 1 21 
+$r2 1 51 
+Fields: 1
+-2 context 51
+Accesses: 7
+50 1 -2 
+6 1 -1 
+38 1 -1 
+54 1 -1 
+11 1 -1 
+59 1 -1 
+46 1 -1 
+Functions: 3
+1 1 -1 
+33 2 21 30 
+18 0 
+Constructors: 1
+1 -1
+
+Summary: 4
+-1 1 -2 0 
+java/security/AccessControlContext.equals(Ljava/lang/Object;)Z
+PTG:
+Vars:
+3
+r2 1 -2 
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+21 2 -1 -2 
+31 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-1 -2 0 
+java/security/AccessControlContext.<clinit>()V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+java/security/AccessControlContext.getDebug()Lsun/security/util/Debug;
+PTG:
+Vars:
+3
+_ret 1 28 
+$r1 1 18 
+$r0 1 28 
+Fields: 0
+Accesses: 0
+Functions: 2
+-1 0 
+16 0 
+Constructors: 0
+
+Summary: 0
+
+java/security/AccessControlContext.isAuthorized()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

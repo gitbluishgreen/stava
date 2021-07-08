@@ -1,0 +1,2460 @@
+58
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.checkBeforeLoad(Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)I
+PTG:
+Vars:
+8
+r0 1 -2 
+$r2 1 54 
+$r5 1 73 
+$r3 1 73 
+$r4 1 73 
+r1 1 -1 
+r6 1 86 
+$r7 1 73 
+Fields: 1
+-2 ch 73
+Accesses: 12
+80 1 -2 
+3 1 -2 
+116 1 -2 
+21 1 -2 
+72 1 -2 
+90 1 -2 
+106 1 -2 
+122 1 -2 
+11 1 -2 
+109 1 -2 
+14 1 -2 
+127 1 -2 
+Functions: 4
+67 1 -1 
+100 2 86 73 
+134 1 73 
+61 4 -1 -2 54 73 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.skipChar(ILcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;)Z
+PTG:
+Vars:
+8
+$r1 1 1 
+$r4 1 1 
+r0 1 -1 
+$r5 1 1 
+$r3 1 1 
+$r2 1 1 
+$r6 1 37 
+r15 1 -3 
+Fields: 2
+-1 fCurrentEntity 1
+1 ch 37
+Accesses: 28
+0 1 -1 
+1 1 1 
+195 1 -1 
+7 1 -1 
+8 1 1 
+264 1 -1 
+75 1 -1 
+269 1 -1 
+208 1 -1 
+146 1 -1 
+215 1 -1 
+88 1 -1 
+25 1 -1 
+153 1 -1 
+26 1 1 
+160 1 -1 
+33 1 -1 
+34 1 1 
+99 1 -1 
+228 1 -1 
+40 1 -1 
+41 1 1 
+175 1 -1 
+241 1 -1 
+114 1 -1 
+119 1 -1 
+56 1 -1 
+254 1 -1 
+Functions: 5
+128 4 -1 1 -3 37 
+21 3 -1 1 37 
+278 4 -1 1 -3 37 
+172 3 -1 1 37 
+191 3 -1 1 37 
+Constructors: 0
+
+Summary: 2
+-1 -3 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.<init>()V
+PTG:
+Vars:
+3
+$r2 1 50 
+$r1 1 27 
+r0 1 -1 
+Fields: 0
+Accesses: 14
+34 1 -1 
+67 1 -1 
+6 1 -1 
+39 1 -1 
+72 1 -1 
+44 1 -1 
+13 1 -1 
+77 1 -1 
+18 1 -1 
+82 1 -1 
+52 1 -1 
+23 1 -1 
+57 1 -1 
+62 1 -1 
+Functions: 2
+1 1 -1 
+31 1 27 
+Constructors: 2
+1 -1
+31 27
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.skipSpaces()Z
+PTG:
+Vars:
+8
+$r2 1 1 
+$r1 1 1 
+$r3 1 1 
+$r6 1 38 
+$r7 1 1 
+$r5 1 1 
+$r4 1 1 
+r0 1 -1 
+Fields: 2
+-1 fCurrentEntity 1
+1 ch 38
+Accesses: 33
+0 1 -1 
+1 1 1 
+323 1 -1 
+196 1 -1 
+133 1 -1 
+7 1 -1 
+8 1 1 
+264 1 -1 
+330 1 -1 
+75 1 -1 
+276 1 -1 
+88 1 -1 
+216 1 -1 
+25 1 -1 
+156 1 -1 
+289 1 -1 
+34 1 -1 
+35 1 1 
+101 1 -1 
+167 1 -1 
+232 1 -1 
+296 1 -1 
+41 1 -1 
+42 1 1 
+109 1 -1 
+50 1 -1 
+51 1 1 
+116 1 -1 
+182 1 -1 
+247 1 -1 
+314 1 -1 
+252 1 -1 
+189 1 -1 
+Functions: 7
+144 3 -1 1 38 
+337 0 
+130 3 -1 1 38 
+21 3 -1 1 38 
+261 3 -1 1 38 
+310 3 -1 1 38 
+60 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.setLineNumber(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.invokeListeners(I)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r1 1 4 
+$r2 1 4 
+$r4 1 18 
+$r3 1 18 
+Fields: 1
+-1 listeners 4
+Accesses: 2
+3 1 -1 
+13 1 -1 
+Functions: 3
+4 1 4 
+25 1 18 
+14 1 4 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getBaseSystemId()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r4 1 1 
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+$r3 1 11 
+$r5 1 11 
+$r6 1 24 
+_ret 1 24 
+Fields: 2
+-1 fCurrentEntity 1
+1 entityLocation 11
+Accesses: 5
+0 1 -1 
+17 1 -1 
+18 1 1 
+7 1 -1 
+8 1 1 
+Functions: 1
+21 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getColumnNumber()I
+PTG:
+Vars:
+3
+$r2 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fCurrentEntity 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+8 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getCurrentEntity()Lcom/sun/xml/internal/stream/Entity$ScannedEntity;
+PTG:
+Vars:
+3
+$r1 1 1 
+r0 1 -1 
+_ret 1 1 
+Fields: 1
+-1 fCurrentEntity 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.<init>(Lcom/sun/org/apache/xerces/internal/impl/PropertyManager;Lcom/sun/org/apache/xerces/internal/impl/XMLEntityManager;)V
+PTG:
+Vars:
+5
+$r1 1 27 
+r0 1 -1 
+r3 1 -3 
+r4 1 -2 
+$r2 1 50 
+Fields: 0
+Accesses: 15
+34 1 -1 
+67 1 -1 
+6 1 -1 
+39 1 -1 
+72 1 -1 
+44 1 -1 
+13 1 -1 
+77 1 -1 
+18 1 -1 
+82 1 -1 
+52 1 -1 
+23 1 -1 
+87 1 -1 
+57 1 -1 
+62 1 -1 
+Functions: 3
+1 1 -1 
+92 2 -1 -2 
+31 1 27 
+Constructors: 2
+1 -1
+31 27
+
+Summary: 3
+-2 1 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.resetCommon()V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r2 1 24 
+$r4 1 24 
+$r1 1 16 
+$r3 1 27 
+$r5 1 38 
+Fields: 4
+24 fLimitAnalyzer 27
+24 fSecurityManager 38
+-1 listeners 16
+-1 fEntityManager 24
+Accesses: 10
+2 1 -1 
+34 1 -1 
+35 1 24 
+7 1 -1 
+23 1 -1 
+24 1 24 
+41 1 -1 
+12 1 -1 
+30 1 -1 
+15 1 -1 
+Functions: 1
+19 1 16 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.isExternal()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fCurrentEntity 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.skipString(Ljava/lang/String;)Z
+PTG:
+Vars:
+6
+r0 1 -2 
+$r4 1 15 
+$r2 1 15 
+$r5 1 53 
+$r3 1 15 
+r1 1 -1 
+Fields: 2
+15 ch 53
+-1 fCurrentEntity 15
+Accesses: 11
+49 1 -1 
+50 1 15 
+100 1 -1 
+22 1 -1 
+23 1 15 
+71 1 -1 
+87 1 -1 
+75 1 -1 
+109 1 -1 
+14 1 -1 
+15 1 15 
+Functions: 4
+0 1 -2 
+115 3 -1 53 15 
+5 3 -1 53 15 
+40 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.arrangeCapacity(I)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getXMLVersion()Ljava/lang/String;
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fCurrentEntity 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getLiteralSystemId()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r1 1 1 
+$r6 1 24 
+r0 1 -1 
+$r2 1 1 
+$r3 1 11 
+$r4 1 1 
+$r5 1 11 
+_ret 1 24 
+Fields: 2
+-1 fCurrentEntity 1
+1 entityLocation 11
+Accesses: 5
+0 1 -1 
+17 1 -1 
+18 1 1 
+7 1 -1 
+8 1 1 
+Functions: 1
+21 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.registerListener(Lcom/sun/xml/internal/stream/XMLBufferListener;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r3 1 1 
+$r2 1 1 
+Fields: 1
+-1 listeners 1
+Accesses: 2
+0 1 -1 
+11 1 -1 
+Functions: 2
+16 2 1 -2 
+1 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.arrangeCapacity(IZ)Z
+PTG:
+Vars:
+26
+$r3 1 1 
+$r14 1 1 
+$r13 1 1 
+$r6 1 46 
+$r18 1 46 
+$r25 1 1 
+$r4 1 1 
+$r23 1 1 
+$r12 1 1 
+$r15 1 1 
+$r20 1 1 
+$r1 1 1 
+$r5 1 1 
+$r2 1 1 
+$r11 1 1 
+$r21 1 1 
+$r16 1 1 
+$r22 1 1 
+$r8 1 1 
+$r9 1 1 
+$r10 1 1 
+$r19 1 46 
+r0 1 -1 
+$r24 1 1 
+$r7 1 1 
+$r17 1 1 
+Fields: 2
+-1 fCurrentEntity 1
+1 ch 46
+Accesses: 44
+0 1 -1 
+1 1 1 
+129 1 -1 
+67 1 -1 
+68 1 1 
+134 1 1 
+7 1 -1 
+8 1 1 
+137 1 -1 
+74 1 -1 
+138 1 1 
+75 1 1 
+204 1 -1 
+205 1 1 
+144 1 -1 
+81 1 -1 
+145 1 1 
+82 1 1 
+211 1 -1 
+212 1 1 
+23 1 -1 
+24 1 1 
+89 1 -1 
+90 1 1 
+156 1 -1 
+157 1 1 
+30 1 -1 
+31 1 1 
+96 1 -1 
+97 1 1 
+42 1 -1 
+43 1 1 
+107 1 -1 
+172 1 -1 
+173 1 1 
+111 1 -1 
+112 1 1 
+50 1 -1 
+51 1 1 
+118 1 -1 
+119 1 1 
+185 1 -1 
+126 1 1 
+191 1 1 
+Functions: 4
+64 3 -1 1 46 
+104 1 46 
+168 3 -1 1 46 
+171 3 -1 1 46 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.scanData(Ljava/lang/String;Lcom/sun/org/apache/xerces/internal/util/XMLStringBuffer;)Z
+PTG:
+Vars:
+71
+$r97 1 1054 
+$r15 2 324 72 
+$r7 1 16 
+r0 1 -2 
+$r89 1 16 
+$r29 1 16 
+$r8 2 324 72 
+$r9 1 16 
+$r27 1 16 
+$r80 2 72 324 
+$r78 1 16 
+$r84 1 16 
+$r83 1 16 
+$r56 1 16 
+$r3 1 16 
+$r6 1 16 
+$r54 2 324 72 
+$r35 1 16 
+$r18 2 324 72 
+$r47 1 16 
+$r91 1 16 
+$r53 1 16 
+$r86 1 16 
+$r34 1 16 
+$r10 1 16 
+$r92 1 16 
+$r30 1 16 
+$r46 1 16 
+$r90 1 16 
+$r74 1 16 
+$r28 1 16 
+$r41 2 324 72 
+$r88 2 324 72 
+$r93 1 16 
+$r75 1 16 
+$r4 1 16 
+$r85 1 16 
+$r16 1 16 
+$r42 1 16 
+$r11 1 16 
+$r5 1 16 
+r1 1 -1 
+$r14 1 16 
+$r95 1 16 
+$r79 2 72 324 
+r13 1 -3 
+$r50 1 16 
+$r94 1 16 
+$r45 1 16 
+$r12 1 16 
+$r52 1 16 
+$r33 2 324 72 
+$r19 1 16 
+$r48 1 16 
+$r77 1 16 
+$r31 1 16 
+$r96 1 16 
+$r82 1 16 
+$r40 1 16 
+$r76 1 16 
+$r81 1 16 
+$r43 1 16 
+$r2 1 16 
+$r51 1 16 
+$r17 1 16 
+$r98 1 16 
+$r44 1 16 
+$r49 1 16 
+$r32 1 16 
+$r87 1 16 
+$r55 1 16 
+Fields: 3
+16 ch 324
+16 ch 72
+-1 fCurrentEntity 16
+Accesses: 151
+1024 1 -1 
+769 1 -1 
+1025 1 16 
+770 1 16 
+516 1 -1 
+261 1 -1 
+517 1 16 
+1036 1 -1 
+1037 1 16 
+526 1 16 
+15 1 -1 
+16 1 16 
+273 1 -1 
+529 1 -1 
+277 1 -1 
+22 1 -1 
+534 1 16 
+790 1 -1 
+23 1 16 
+791 1 16 
+537 1 -1 
+538 1 16 
+1050 1 16 
+797 1 -1 
+798 1 16 
+287 1 -1 
+544 1 -1 
+545 1 16 
+1057 1 -1 
+291 1 -1 
+807 1 -1 
+808 1 16 
+43 1 -1 
+44 1 16 
+557 1 -1 
+50 1 -1 
+818 1 16 
+51 1 16 
+563 1 16 
+566 1 -1 
+311 1 -1 
+312 1 16 
+824 1 -1 
+1080 1 -1 
+825 1 16 
+1081 1 16 
+572 1 16 
+831 1 -1 
+320 1 -1 
+832 1 16 
+321 1 16 
+68 1 -1 
+69 1 16 
+842 1 16 
+75 1 -1 
+76 1 16 
+589 1 -1 
+590 1 16 
+82 1 -1 
+83 1 16 
+599 1 16 
+90 1 -1 
+91 1 16 
+859 1 -1 
+860 1 16 
+349 1 -1 
+605 1 -1 
+606 1 16 
+97 1 -1 
+98 1 16 
+356 1 -1 
+612 1 -1 
+357 1 16 
+613 1 16 
+870 1 16 
+363 1 -1 
+364 1 16 
+109 1 -1 
+110 1 16 
+882 1 -1 
+883 1 16 
+116 1 -1 
+117 1 16 
+374 1 16 
+630 1 -1 
+631 1 16 
+640 1 -1 
+641 1 16 
+131 1 -1 
+387 1 -1 
+136 1 16 
+139 1 -1 
+397 1 -1 
+398 1 16 
+144 1 16 
+912 1 -1 
+658 1 -1 
+659 1 16 
+150 1 -1 
+151 1 16 
+407 1 16 
+410 1 -1 
+157 1 -1 
+158 1 16 
+670 1 -1 
+926 1 -1 
+415 1 16 
+671 1 16 
+927 1 16 
+418 1 -1 
+419 1 16 
+677 1 -1 
+678 1 16 
+936 1 16 
+425 1 -1 
+170 1 -1 
+426 1 16 
+177 1 -1 
+693 1 -1 
+438 1 -1 
+950 1 -1 
+444 1 16 
+191 1 -1 
+705 1 -1 
+195 1 -1 
+963 1 -1 
+461 1 -1 
+462 1 16 
+975 1 -1 
+208 1 -1 
+721 1 -1 
+722 1 16 
+468 1 -1 
+469 1 16 
+215 1 -1 
+728 1 -1 
+729 1 16 
+481 1 -1 
+482 1 16 
+738 1 -1 
+227 1 -1 
+739 1 16 
+996 1 -1 
+745 1 -1 
+746 1 16 
+235 1 -1 
+491 1 16 
+1008 1 -1 
+756 1 16 
+246 1 -1 
+254 1 -1 
+Functions: 18
+224 1 -3 
+2 1 -2 
+1091 3 -3 324 72 
+36 4 -1 16 324 72 
+8 1 -2 
+105 2 324 72 
+1065 5 -1 16 324 72 1054 
+108 4 -1 16 324 72 
+204 4 -1 16 324 72 
+716 1 -3 
+1004 4 -1 16 324 72 
+942 0 
+848 1 -2 
+305 4 -1 16 324 72 
+1019 1 -3 
+701 4 -1 16 324 72 
+447 4 -1 16 324 72 
+575 4 -1 16 324 72 
+Constructors: 0
+
+Summary: 4
+-2 1 -1 -3 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.setCurrentEntity(Lcom/sun/xml/internal/stream/Entity$ScannedEntity;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 6 
+$r3 1 6 
+r1 1 -2 
+Fields: 1
+-1 fCurrentEntity 6
+Accesses: 4
+2 1 -1 
+20 1 -1 
+5 1 -1 
+13 1 -1 
+Functions: 1
+14 1 6 
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.storeWhiteSpace(I)V
+PTG:
+Vars:
+7
+$r3 1 5 
+$r2 1 5 
+r4 1 20 
+r0 1 -1 
+$r5 1 5 
+$r6 1 5 
+$r1 1 5 
+Fields: 1
+-1 whiteSpaceLookup 5
+Accesses: 9
+0 1 -1 
+4 1 -1 
+23 1 -1 
+55 1 -1 
+40 1 -1 
+43 1 -1 
+12 1 -1 
+30 1 -1 
+47 1 -1 
+Functions: 1
+35 2 20 5 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.print()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.load(IZZ)Z
+PTG:
+Vars:
+20
+$r8 1 10 
+$r19 1 10 
+$r4 1 10 
+$r10 1 10 
+$r6 1 10 
+$r5 1 35 
+$r16 1 10 
+$r20 1 35 
+$r2 1 10 
+$r17 1 10 
+$r14 1 10 
+$r9 1 155 
+$r12 1 10 
+$r11 1 10 
+$r18 1 68 
+$r15 1 10 
+$r3 1 10 
+$r7 1 10 
+$r1 1 10 
+r0 1 -1 
+Fields: 4
+10 ch 35
+10 reader 68
+-1 fEntityManager 155
+-1 fCurrentEntity 10
+Accesses: 30
+64 1 -1 
+65 1 10 
+131 1 -1 
+71 1 -1 
+72 1 10 
+136 1 10 
+9 1 -1 
+139 1 -1 
+13 1 -1 
+14 1 10 
+144 1 10 
+20 1 -1 
+21 1 10 
+154 1 -1 
+28 1 10 
+31 1 -1 
+32 1 10 
+161 1 -1 
+100 1 -1 
+106 1 10 
+43 1 -1 
+44 1 10 
+172 1 -1 
+109 1 -1 
+173 1 10 
+179 1 -1 
+180 1 10 
+117 1 10 
+120 1 -1 
+125 1 10 
+Functions: 4
+193 5 -1 35 68 10 155 
+68 2 35 68 
+6 5 -1 35 68 10 155 
+158 1 155 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getPublicId()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r2 1 1 
+$r6 1 24 
+$r5 1 11 
+$r1 1 1 
+r0 1 -1 
+$r3 1 11 
+$r4 1 1 
+_ret 1 24 
+Fields: 2
+-1 fCurrentEntity 1
+1 entityLocation 11
+Accesses: 5
+0 1 -1 
+17 1 -1 
+18 1 1 
+7 1 -1 
+8 1 1 
+Functions: 1
+21 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.setLiteralSystemId(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.checkLimit(Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)V
+PTG:
+Vars:
+42
+$r42 1 15 
+$r37 1 15 
+$r32 1 146 
+$r23 1 41 
+$r28 1 128 
+$r40 1 86 
+$r27 1 15 
+$r41 2 48 94 
+$r18 1 15 
+$r38 1 75 
+$r6 1 15 
+$r30 1 139 
+$r7 1 1 
+$r29 1 15 
+$r43 1 166 
+$r33 1 152 
+$r17 1 240 
+r0 1 -1 
+$r24 1 6 
+$r8 1 15 
+$r5 1 1 
+$r44 1 1 
+$r4 1 1 
+$r3 1 6 
+$r15 1 15 
+$r19 1 243 
+r1 1 -2 
+$r25 1 1 
+$r11 1 1 
+$r13 1 214 
+r2 1 -3 
+$r39 1 15 
+$r26 1 114 
+$r16 1 230 
+$r12 1 146 
+$r35 1 1 
+$r14 1 224 
+$r21 1 1 
+$r9 1 199 
+$r22 1 15 
+$r36 1 61 
+$r10 1 208 
+Fields: 4
+-1 fSecurityManager 15
+-1 fLimitAnalyzer 1
+-1 fErrorReporter 146
+-3 name 6
+Accesses: 22
+0 1 -1 
+33 1 -1 
+162 1 -1 
+67 1 -1 
+99 1 -3 
+5 1 -3 
+134 1 -1 
+169 1 -1 
+106 1 -1 
+204 1 -1 
+236 1 -1 
+14 1 -1 
+81 1 -1 
+145 1 -1 
+19 1 -1 
+179 1 -1 
+53 1 -1 
+183 1 -1 
+120 1 -1 
+220 1 -1 
+29 1 -1 
+190 1 -1 
+Functions: 23
+163 3 1 166 15 
+227 0 
+68 2 -2 15 
+37 2 1 15 
+135 2 -2 15 
+72 0 
+11 3 1 -2 6 
+107 2 1 -2 
+205 2 208 1 
+237 2 240 15 
+15 3 -2 1 15 
+111 0 
+82 2 -2 15 
+211 0 
+54 2 1 -2 
+151 1 -2 
+248 2 146 199 
+121 2 -2 15 
+58 0 
+187 2 1 15 
+125 0 
+221 2 224 15 
+158 4 48 146 152 94 
+Constructors: 0
+
+Summary: 7
+48 1 -1 94 199 -3 -2 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.isSpace(C)Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.setXMLVersion(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 6 
+r1 1 -2 
+Fields: 1
+-1 fCurrentEntity 6
+Accesses: 3
+2 1 -1 
+5 1 -1 
+10 1 6 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.scanNmtoken()Ljava/lang/String;
+PTG:
+Vars:
+29
+$r1 1 1 
+$r5 1 1 
+$r11 1 39 
+$r22 1 57 
+$r9 1 1 
+$r19 1 39 
+$r14 1 1 
+$r21 1 1 
+$r3 1 1 
+$r24 1 39 
+$r4 1 1 
+$r8 1 1 
+$r12 1 1 
+r0 1 -1 
+$r13 1 1 
+r27 1 275 
+_ret 1 275 
+$r6 1 1 
+$r2 1 1 
+$r17 1 1 
+$r15 1 39 
+$r16 1 259 
+$r23 1 1 
+$r18 1 1 
+$r7 1 1 
+$r25 1 1 
+$r20 1 1 
+r26 1 140 
+$r10 1 39 
+Fields: 3
+-1 fSymbolTable 259
+-1 fCurrentEntity 1
+1 ch 39
+Accesses: 40
+0 1 -1 
+1 1 1 
+193 1 -1 
+194 1 1 
+258 1 -1 
+131 1 -1 
+132 1 1 
+262 1 -1 
+7 1 -1 
+263 1 1 
+8 1 1 
+78 1 -1 
+79 1 1 
+144 1 -1 
+145 1 1 
+25 1 -1 
+89 1 1 
+26 1 1 
+92 1 -1 
+93 1 1 
+160 1 -1 
+225 1 -1 
+226 1 1 
+35 1 -1 
+36 1 1 
+102 1 -1 
+166 1 1 
+103 1 1 
+169 1 -1 
+42 1 -1 
+170 1 1 
+43 1 1 
+236 1 -1 
+237 1 1 
+179 1 1 
+247 1 1 
+121 1 -1 
+185 1 -1 
+122 1 1 
+186 1 1 
+Functions: 7
+208 4 -1 1 259 39 
+66 0 
+259 2 259 39 
+116 4 -1 1 259 39 
+21 4 -1 1 259 39 
+203 1 39 
+157 2 39 140 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getEncodingName([BI)[Ljava/lang/Object;
+PTG:
+Vars:
+4
+r20 1 -1 
+$r21 1 463 
+r0 1 -2 
+_ret 1 463 
+Fields: 1
+463 ArrayObject 470
+Accesses: 0
+Functions: 6
+225 0 
+373 0 
+263 0 
+413 0 
+62 0 
+94 0 
+Constructors: 0
+
+Summary: 15
+178 91 -1 410 333 159 222 13 113 456 370 260 -2 59 298 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getCharacterOffset()I
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r3 1 1 
+$r2 1 1 
+Fields: 1
+-1 fCurrentEntity 1
+Accesses: 5
+0 1 -1 
+7 1 -1 
+8 1 1 
+14 1 -1 
+15 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.skipString([C)Z
+PTG:
+Vars:
+2
+r0 1 -2 
+r1 1 -1 
+Fields: 0
+Accesses: 7
+85 1 -1 
+56 1 -1 
+72 1 -1 
+12 1 -1 
+60 1 -1 
+29 1 -1 
+94 1 -1 
+Functions: 2
+3 1 -1 
+100 1 -1 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.scanContent(Lcom/sun/org/apache/xerces/internal/xni/XMLString;)I
+PTG:
+Vars:
+59
+$r37 1 1 
+$r50 1 1 
+$r14 1 1 
+$r8 1 1 
+$r28 1 56 
+$r15 1 1 
+$r4 1 1 
+$r40 1 1 
+$r57 1 1 
+$r47 1 1 
+$r38 1 1 
+r0 1 -1 
+$r46 1 1 
+$r32 1 1 
+$r45 1 1 
+$r59 1 1 
+$r52 1 1 
+$r12 1 1 
+$r53 1 56 
+$r23 1 1 
+$r13 1 56 
+$r49 1 56 
+$r9 1 1 
+$r33 1 1 
+$r2 1 1 
+$r30 1 1 
+$r16 1 1 
+$r18 1 56 
+$r21 1 1 
+$r34 1 1 
+$r56 1 1 
+$r35 1 1 
+$r61 1 1 
+$r29 1 1 
+$r44 1 1 
+$r54 1 1 
+$r31 1 1 
+$r43 1 1 
+$r5 1 1 
+$r10 1 1 
+$r6 1 1 
+$r3 1 1 
+$r19 1 1 
+$r27 1 1 
+$r48 1 56 
+$r55 1 56 
+$r51 1 1 
+$r41 1 56 
+$r36 1 1 
+$r42 1 1 
+$r22 1 56 
+r11 1 -2 
+$r1 1 1 
+$r20 1 1 
+$r17 1 1 
+$r39 1 1 
+$r58 1 1 
+$r7 1 1 
+$r60 1 1 
+Fields: 2
+-1 fCurrentEntity 1
+1 ch 56
+Accesses: 106
+0 1 -1 
+512 1 -1 
+1 1 1 
+513 1 1 
+261 1 -1 
+262 1 1 
+7 1 -1 
+519 1 -1 
+8 1 1 
+520 1 1 
+529 1 -1 
+274 1 -1 
+530 1 1 
+275 1 1 
+536 1 -1 
+537 1 1 
+28 1 -1 
+284 1 1 
+29 1 1 
+35 1 -1 
+547 1 1 
+36 1 1 
+559 1 -1 
+560 1 1 
+52 1 -1 
+308 1 -1 
+53 1 1 
+309 1 1 
+569 1 1 
+60 1 -1 
+61 1 1 
+318 1 1 
+575 1 -1 
+576 1 1 
+321 1 -1 
+67 1 -1 
+68 1 1 
+326 1 1 
+329 1 -1 
+330 1 1 
+586 1 -1 
+587 1 1 
+336 1 -1 
+337 1 1 
+86 1 -1 
+600 1 1 
+91 1 1 
+348 1 -1 
+94 1 -1 
+95 1 1 
+610 1 -1 
+102 1 -1 
+103 1 1 
+360 1 -1 
+621 1 -1 
+366 1 1 
+622 1 1 
+634 1 -1 
+635 1 1 
+641 1 -1 
+130 1 -1 
+386 1 -1 
+642 1 1 
+387 1 1 
+137 1 -1 
+138 1 1 
+651 1 -1 
+396 1 1 
+652 1 1 
+144 1 -1 
+145 1 1 
+402 1 -1 
+658 1 -1 
+403 1 1 
+659 1 1 
+409 1 -1 
+410 1 1 
+155 1 1 
+673 1 -1 
+166 1 -1 
+426 1 -1 
+427 1 1 
+176 1 -1 
+177 1 1 
+436 1 -1 
+437 1 1 
+186 1 1 
+189 1 -1 
+194 1 1 
+197 1 -1 
+198 1 1 
+454 1 -1 
+455 1 1 
+204 1 -1 
+205 1 1 
+465 1 -1 
+466 1 1 
+216 1 -1 
+472 1 -1 
+473 1 1 
+228 1 -1 
+486 1 -1 
+234 1 1 
+497 1 -1 
+254 1 -1 
+255 1 1 
+Functions: 12
+49 3 -1 1 56 
+369 3 -1 1 56 
+82 3 -1 1 56 
+355 3 -1 1 56 
+21 3 -1 1 56 
+631 2 -2 56 
+552 0 
+617 3 -1 1 56 
+507 1 -2 
+237 3 -1 1 56 
+493 3 -1 1 56 
+223 3 -1 1 56 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getLineNumber()I
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+Fields: 1
+-1 fCurrentEntity 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+8 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.reset(Lcom/sun/org/apache/xerces/internal/impl/PropertyManager;)V
+PTG:
+Vars:
+6
+$r5 1 17 
+r1 1 -2 
+$r3 1 4 
+r0 1 -1 
+$r4 1 17 
+$r2 1 4 
+Fields: 0
+Accesses: 2
+23 1 -1 
+10 1 -1 
+Functions: 3
+1 1 -2 
+27 1 -1 
+14 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.setPublicId(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.<clinit>()V
+PTG:
+Vars:
+9
+$r3 1 87 
+$r4 1 94 
+$r7 1 47 
+$r6 1 68 
+$r8 1 26 
+$r2 1 80 
+$r0 1 2 
+$r1 1 7 
+$r5 1 101 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 1 7 
+Constructors: 1
+11 7
+
+Summary: 0
+
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getEncoding()Ljava/lang/String;
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 fCurrentEntity 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.reset(Lcom/sun/org/apache/xerces/internal/util/SymbolTable;Lcom/sun/org/apache/xerces/internal/impl/XMLEntityManager;Lcom/sun/org/apache/xerces/internal/impl/XMLErrorReporter;)V
+PTG:
+Vars:
+8
+$r5 1 25 
+r1 1 -2 
+r3 1 -4 
+$r4 1 22 
+$r6 1 22 
+$r7 1 36 
+r0 1 -1 
+r2 1 -3 
+Fields: 3
+22 fLimitAnalyzer 25
+22 fSecurityManager 36
+-1 fEntityManager 22
+Accesses: 10
+32 1 -1 
+17 1 -1 
+33 1 22 
+2 1 -1 
+21 1 -1 
+22 1 22 
+7 1 -1 
+39 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 4
+1 2 0 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getVersion()Ljava/lang/String;
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 fCurrentEntity 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.setVersion(Ljava/lang/String;)V
+PTG:
+Vars:
+3
+$r2 1 1 
+r1 1 -2 
+r0 1 -1 
+Fields: 1
+-1 fCurrentEntity 1
+Accesses: 2
+0 1 -1 
+5 1 1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.createReader(Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/io/Reader;
+PTG:
+Vars:
+17
+$r40 1 378 
+$r17 1 147 
+r38 3 6 285 -3 
+$r3 1 271 
+$r4 1 147 
+$r21 1 155 
+$r0 1 8 
+$r22 1 147 
+r39 5 6 285 291 334 -3 
+$r13 1 147 
+r15 1 -4 
+r2 1 -1 
+r6 1 -2 
+$r16 1 221 
+r1 1 14 
+$r12 1 320 
+_ret 1 378 
+Fields: 1
+-1 fErrorReporter 147
+Accesses: 15
+354 1 -1 
+38 1 -1 
+262 1 -1 
+358 1 -1 
+73 1 -1 
+298 1 -1 
+47 1 -1 
+367 1 -1 
+80 1 -1 
+146 1 -1 
+212 1 -1 
+311 1 -1 
+89 1 -1 
+250 1 -1 
+31 1 -1 
+Functions: 29
+385 7 -2 -3 291 6 378 285 334 
+132 1 -2 
+198 1 -2 
+7 4 -3 6 8 285 
+328 2 320 147 
+142 1 -2 
+16 1 14 
+208 1 -2 
+81 0 
+339 5 -3 291 6 285 334 
+279 2 147 271 
+90 0 
+286 1 14 
+96 1 -2 
+163 2 147 155 
+100 1 14 
+229 2 147 221 
+39 0 
+167 1 14 
+359 0 
+233 3 -3 6 285 
+239 3 -3 6 285 
+48 0 
+368 0 
+114 1 -4 
+181 1 -4 
+54 1 -2 
+374 1 -2 
+58 1 14 
+Constructors: 1
+385 378
+
+Summary: 8
+221 -1 -4 0 271 155 -2 320 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.setBufferSize(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.setEncoding(Ljava/lang/String;)V
+PTG:
+Vars:
+19
+$r8 1 1 
+$r35 1 1 
+$r4 1 14 
+$r33 1 14 
+$r6 1 14 
+$r36 1 4 
+$r1 1 1 
+$r2 1 4 
+r11 1 66 
+$r38 1 1 
+$r3 1 1 
+$r9 1 14 
+$r34 1 1 
+r7 1 -2 
+$r5 1 1 
+$r10 1 60 
+$r37 1 236 
+r0 1 -1 
+$r32 1 1 
+Fields: 3
+-1 fCurrentEntity 1
+1 encoding 14
+1 stream 4
+Accesses: 26
+0 1 -1 
+1 1 1 
+135 1 -1 
+199 1 -1 
+10 1 -1 
+11 1 1 
+207 1 -1 
+20 1 -1 
+21 1 1 
+86 1 -1 
+222 1 -1 
+159 1 -1 
+34 1 -1 
+35 1 1 
+227 1 -1 
+228 1 1 
+101 1 -1 
+44 1 -1 
+45 1 1 
+109 1 -1 
+174 1 -1 
+239 1 1 
+242 1 -1 
+182 1 -1 
+247 1 1 
+127 1 -1 
+Functions: 13
+226 5 -1 1 -2 4 14 
+67 1 66 
+163 0 
+77 1 66 
+143 0 
+48 1 14 
+118 0 
+150 1 66 
+215 0 
+24 2 -2 14 
+90 0 
+59 2 -2 60 
+190 0 
+Constructors: 0
+
+Summary: 2
+-1 0 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.setBaseSystemId(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.setExpandedSystemId(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.scanChar(Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;)I
+PTG:
+Vars:
+21
+$r6 1 37 
+$r16 1 37 
+$r4 1 1 
+$r18 1 1 
+$r12 1 1 
+$r3 1 1 
+r0 1 -1 
+$r7 1 1 
+$r17 1 1 
+$r8 1 1 
+$r10 1 1 
+$r15 1 1 
+$r5 1 1 
+$r1 1 1 
+$r9 1 1 
+$r20 1 1 
+$r2 1 1 
+r11 1 -2 
+$r13 1 1 
+$r19 1 37 
+$r14 1 1 
+Fields: 2
+-1 fCurrentEntity 1
+1 ch 37
+Accesses: 39
+0 1 -1 
+1 1 1 
+195 1 -1 
+68 1 -1 
+196 1 1 
+7 1 -1 
+8 1 1 
+75 1 -1 
+76 1 1 
+205 1 1 
+208 1 -1 
+145 1 -1 
+85 1 1 
+88 1 -1 
+152 1 -1 
+25 1 -1 
+153 1 1 
+217 1 -1 
+26 1 1 
+93 1 1 
+222 1 -1 
+159 1 -1 
+223 1 1 
+96 1 -1 
+160 1 1 
+33 1 -1 
+97 1 1 
+34 1 1 
+103 1 -1 
+40 1 -1 
+104 1 1 
+41 1 1 
+170 1 1 
+51 1 1 
+179 1 -1 
+180 1 1 
+118 1 -1 
+119 1 1 
+189 1 1 
+Functions: 4
+115 3 -1 1 37 
+21 3 -1 1 37 
+133 3 -1 1 37 
+231 4 -1 1 -2 37 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.scanLiteral(ILcom/sun/org/apache/xerces/internal/xni/XMLString;Z)I
+PTG:
+Vars:
+62
+$r3 1 1 
+$r45 1 1 
+$r52 1 1 
+$r46 1 56 
+$r5 1 1 
+$r16 1 56 
+$r62 1 1 
+$r11 1 56 
+r9 1 -3 
+$r4 1 1 
+$r44 1 1 
+$r30 1 1 
+$r35 1 1 
+$r56 1 1 
+$r63 1 1 
+$r32 1 1 
+$r24 1 1 
+$r23 1 1 
+$r29 1 1 
+$r18 1 1 
+$r54 1 1 
+$r15 1 1 
+$r53 1 56 
+$r10 1 1 
+$r14 1 1 
+$r1 1 1 
+$r57 1 1 
+$r37 1 1 
+$r43 1 1 
+$r31 1 1 
+$r55 1 1 
+$r33 1 1 
+$r48 1 1 
+$r49 1 1 
+$r12 1 1 
+$r58 1 1 
+$r2 1 1 
+$r40 1 56 
+$r60 1 1 
+$r41 1 1 
+$r19 1 664 
+$r7 1 1 
+$r38 1 1 
+$r47 1 56 
+$r6 1 1 
+$r22 1 56 
+$r61 1 1 
+$r34 1 1 
+$r36 1 1 
+$r28 1 56 
+$r17 1 1 
+$r27 1 1 
+$r51 1 56 
+$r42 1 1 
+$r13 1 1 
+$r21 1 1 
+$r8 1 1 
+$r39 1 1 
+r0 1 -1 
+$r50 1 1 
+$r20 1 1 
+$r59 1 1 
+Fields: 2
+-1 fCurrentEntity 1
+1 ch 56
+Accesses: 112
+0 1 -1 
+256 1 -1 
+1 1 1 
+257 1 1 
+518 1 -1 
+7 1 -1 
+263 1 -1 
+519 1 1 
+8 1 1 
+264 1 1 
+525 1 -1 
+526 1 1 
+276 1 -1 
+277 1 1 
+28 1 -1 
+29 1 1 
+541 1 -1 
+286 1 1 
+542 1 1 
+35 1 -1 
+36 1 1 
+551 1 -1 
+52 1 -1 
+53 1 1 
+311 1 -1 
+312 1 1 
+60 1 -1 
+61 1 1 
+576 1 -1 
+321 1 1 
+67 1 -1 
+68 1 1 
+324 1 -1 
+329 1 1 
+332 1 -1 
+333 1 1 
+591 1 -1 
+592 1 1 
+339 1 -1 
+340 1 1 
+86 1 -1 
+601 1 -1 
+602 1 1 
+91 1 1 
+94 1 -1 
+95 1 1 
+352 1 -1 
+611 1 1 
+358 1 1 
+103 1 -1 
+104 1 1 
+617 1 -1 
+618 1 1 
+629 1 -1 
+118 1 -1 
+630 1 1 
+375 1 -1 
+376 1 1 
+127 1 -1 
+385 1 1 
+643 1 1 
+391 1 -1 
+392 1 1 
+648 1 -1 
+398 1 -1 
+399 1 1 
+144 1 -1 
+151 1 -1 
+152 1 1 
+667 1 -1 
+158 1 -1 
+159 1 1 
+419 1 -1 
+420 1 1 
+679 1 -1 
+680 1 1 
+169 1 1 
+429 1 -1 
+430 1 1 
+693 1 -1 
+182 1 -1 
+694 1 1 
+700 1 -1 
+701 1 1 
+192 1 -1 
+193 1 1 
+453 1 -1 
+454 1 1 
+710 1 -1 
+711 1 1 
+202 1 1 
+205 1 -1 
+717 1 -1 
+718 1 1 
+465 1 -1 
+210 1 1 
+466 1 1 
+213 1 -1 
+214 1 1 
+472 1 -1 
+473 1 1 
+220 1 -1 
+221 1 1 
+733 1 -1 
+734 1 1 
+485 1 -1 
+233 1 -1 
+239 1 1 
+501 1 -1 
+502 1 1 
+508 1 -1 
+509 1 1 
+Functions: 12
+496 1 -3 
+656 3 -1 1 56 
+49 3 -1 1 56 
+82 3 -1 1 56 
+242 3 -1 1 56 
+690 2 -3 56 
+675 4 -1 1 56 664 
+21 3 -1 1 56 
+565 0 
+598 3 -1 1 56 
+361 3 -1 1 56 
+444 3 -1 1 56 
+Constructors: 0
+
+Summary: 3
+1 -1 -3 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.scanName(Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;)Ljava/lang/String;
+PTG:
+Vars:
+28
+$r10 1 1 
+$r13 1 1 
+$r27 1 37 
+$r28 1 1 
+$r2 1 1 
+$r12 1 279 
+$r14 1 1 
+$r6 1 1 
+$r20 1 37 
+r8 1 -2 
+$r7 1 255 
+$r29 1 1 
+$r11 1 37 
+_ret 1 294 
+$r30 1 1 
+$r17 1 1 
+$r18 1 1 
+$r1 1 1 
+$r19 1 37 
+$r5 1 37 
+r0 1 -1 
+$r3 1 1 
+$r16 1 168 
+$r26 1 1 
+$r9 1 1 
+$r4 1 1 
+$r15 1 1 
+r31 1 294 
+Fields: 3
+-1 fSymbolTable 279
+-1 fCurrentEntity 1
+1 ch 37
+Accesses: 35
+0 1 -1 
+1 1 1 
+258 1 -1 
+195 1 -1 
+7 1 -1 
+8 1 1 
+77 1 -1 
+269 1 -1 
+78 1 1 
+144 1 -1 
+145 1 1 
+85 1 -1 
+86 1 1 
+278 1 -1 
+151 1 -1 
+152 1 1 
+25 1 -1 
+26 1 1 
+282 1 -1 
+283 1 1 
+33 1 -1 
+34 1 1 
+227 1 -1 
+228 1 1 
+107 1 -1 
+237 1 -1 
+238 1 1 
+48 1 -1 
+49 1 1 
+247 1 1 
+120 1 -1 
+59 1 1 
+124 1 -1 
+62 1 -1 
+63 1 1 
+Functions: 11
+97 4 -1 1 37 279 
+194 4 -1 1 37 279 
+179 0 
+211 4 -1 1 37 279 
+275 5 -1 1 -2 37 279 
+21 4 -1 1 37 279 
+279 2 37 279 
+264 5 -1 1 37 279 255 
+41 0 
+121 0 
+74 4 -1 1 37 279 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.peekChar()I
+PTG:
+Vars:
+6
+$r2 1 1 
+$r4 1 1 
+$r5 1 29 
+$r1 1 1 
+r0 1 -1 
+$r3 1 1 
+Fields: 2
+-1 fCurrentEntity 1
+1 ch 29
+Accesses: 9
+0 1 -1 
+32 1 -1 
+1 1 1 
+33 1 1 
+7 1 -1 
+8 1 1 
+25 1 -1 
+41 1 -1 
+26 1 1 
+Functions: 1
+21 3 -1 1 29 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.checkNodeCount(Lcom/sun/xml/internal/stream/Entity$ScannedEntity;)V
+PTG:
+Vars:
+3
+$r2 1 12 
+r1 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+4 1 -2 
+Functions: 1
+18 3 -1 -2 12 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.scanQName(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;)Z
+PTG:
+Vars:
+24
+r0 1 -1 
+$r3 1 1 
+$r35 1 37 
+$r42 1 1 
+$r45 1 1 
+$r4 1 1 
+$r31 1 191 
+$r1 1 1 
+$r8 1 1 
+$r2 1 1 
+$r43 1 37 
+$r28 1 1 
+$r46 1 1 
+$r44 1 1 
+$r6 1 1 
+r16 1 -3 
+$r29 1 1 
+r15 1 -2 
+$r7 1 1 
+$r5 1 37 
+$r33 1 1 
+$r34 1 37 
+$r32 1 1 
+$r30 1 243 
+Fields: 2
+-1 fCurrentEntity 1
+1 ch 37
+Accesses: 44
+0 1 -1 
+1 1 1 
+259 1 -1 
+387 1 -1 
+7 1 -1 
+391 1 -1 
+8 1 1 
+328 1 1 
+77 1 -1 
+78 1 1 
+465 1 -1 
+85 1 -1 
+86 1 1 
+150 1 -1 
+342 1 -1 
+25 1 -1 
+26 1 1 
+346 1 -1 
+33 1 -1 
+34 1 1 
+419 1 -1 
+167 1 -1 
+168 1 1 
+488 1 -1 
+233 1 -1 
+234 1 1 
+107 1 -1 
+174 1 -1 
+175 1 1 
+48 1 -1 
+432 1 -1 
+49 1 1 
+306 1 -1 
+307 1 1 
+436 1 -1 
+246 1 -1 
+120 1 -1 
+377 1 -1 
+59 1 1 
+124 1 -1 
+317 1 -1 
+62 1 -1 
+318 1 1 
+63 1 1 
+Functions: 19
+384 3 -1 1 37 
+97 3 -1 1 37 
+289 3 -1 1 37 
+258 3 -1 1 37 
+483 1 -2 
+388 0 
+41 0 
+74 3 -1 1 37 
+202 0 
+429 3 -1 1 37 
+495 4 -1 1 -3 37 
+145 1 -2 
+433 0 
+21 3 -1 1 37 
+343 0 
+472 3 -1 1 37 
+121 0 
+156 4 -1 1 -3 37 
+255 4 -1 1 243 37 
+Constructors: 0
+
+Summary: 4
+-1 -3 -2 0 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.reset(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r3 1 17 
+$r4 1 32 
+r1 1 -2 
+$r2 1 17 
+$r5 1 32 
+Fields: 0
+Accesses: 3
+40 1 -1 
+25 1 -1 
+10 1 -1 
+Functions: 4
+1 1 -2 
+44 1 -1 
+29 1 -2 
+14 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getExpandedSystemId()Ljava/lang/String;
+PTG:
+Vars:
+8
+$r1 1 1 
+$r2 1 1 
+$r6 1 24 
+$r5 1 11 
+$r3 1 11 
+r0 1 -1 
+$r4 1 1 
+_ret 1 24 
+Fields: 2
+-1 fCurrentEntity 1
+1 entityLocation 11
+Accesses: 5
+0 1 -1 
+17 1 -1 
+18 1 1 
+7 1 -1 
+8 1 1 
+Functions: 1
+21 1 11 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.setColumnNumber(I)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.getChar(I)I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 2
+18 1 -1 
+11 1 -1 
+Functions: 1
+0 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.checkEntityLimit(Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)V
+PTG:
+Vars:
+7
+r4 1 -1 
+$r2 1 13 
+$r6 1 20 
+$r3 1 31 
+$r5 1 38 
+r1 1 -2 
+r0 1 -3 
+Fields: 0
+Accesses: 1
+4 1 -3 
+Functions: 2
+27 3 -1 -3 20 
+46 2 -1 -3 
+Constructors: 0
+
+Summary: 5
+-2 1 0 -1 -3 
+com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.skipDeclSpaces()Z
+PTG:
+Vars:
+6
+$r4 1 1 
+$r1 1 1 
+$r2 1 1 
+r0 1 -1 
+$r5 1 29 
+$r3 1 1 
+Fields: 2
+-1 fCurrentEntity 1
+1 ch 29
+Accesses: 24
+0 1 -1 
+32 1 -1 
+1 1 1 
+33 1 1 
+162 1 -1 
+228 1 -1 
+260 1 -1 
+102 1 -1 
+198 1 -1 
+7 1 -1 
+8 1 1 
+137 1 -1 
+74 1 -1 
+235 1 -1 
+48 1 -1 
+114 1 -1 
+182 1 -1 
+87 1 -1 
+215 1 -1 
+25 1 -1 
+26 1 1 
+155 1 -1 
+253 1 -1 
+95 1 -1 
+Functions: 6
+49 0 
+21 3 -1 1 29 
+41 0 
+249 3 -1 1 29 
+267 0 
+125 3 -1 1 29 
+Constructors: 0
+
+Summary: 1
+-1 

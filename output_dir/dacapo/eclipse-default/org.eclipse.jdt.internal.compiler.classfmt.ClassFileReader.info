@@ -1,0 +1,1506 @@
+47
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getMemberTypes()[Lorg/eclipse/jdt/internal/compiler/env/IBinaryNestedType;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+$r3 1 16 
+Fields: 2
+-1 innerInfo 16
+-1 innerInfos 1
+Accesses: 7
+0 1 -1 
+22 1 -1 
+39 1 -1 
+9 1 -1 
+57 1 -1 
+92 1 -1 
+15 1 -1 
+Functions: 2
+99 0 
+152 0 
+Constructors: 0
+
+Summary: 2
+-1 101 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.<init>([B[C)V
+PTG:
+Vars:
+3
+r1 1 -2 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 3 -1 -2 -3 
+Constructors: 1
+4 -1
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.isAnonymous()Z
+PTG:
+Vars:
+4
+r3 1 16 
+$r1 1 1 
+r0 1 -1 
+$r2 1 1 
+Fields: 1
+-1 innerInfo 1
+Accesses: 2
+0 1 -1 
+9 1 -1 
+Functions: 1
+10 1 1 
+Constructors: 0
+
+Summary: 2
+-1 16 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getConstantClassNameAt(I)[C
+PTG:
+Vars:
+5
+$r1 1 1 
+_ret 1 29 
+r0 1 -1 
+$r3 1 29 
+$r2 1 1 
+Fields: 1
+-1 constantPoolOffsets 1
+Accesses: 2
+0 1 -1 
+5 1 -1 
+Functions: 3
+18 2 -1 1 
+4 2 -1 1 
+22 2 -1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.read(Ljava/lang/String;)Lorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;
+PTG:
+Vars:
+3
+_ret 1 2 
+$r1 1 2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.read(Ljava/io/InputStream;Ljava/lang/String;)Lorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;
+PTG:
+Vars:
+4
+_ret 1 3 
+r1 1 -3 
+r0 1 -2 
+$r2 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.read(Ljava/io/File;Z)Lorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;
+PTG:
+Vars:
+6
+r0 1 -2 
+_ret 1 5 
+r1 1 4 
+$r4 1 14 
+$r2 1 5 
+$r3 1 11 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+17 3 4 5 14 
+10 1 -2 
+26 1 5 
+11 1 11 
+Constructors: 1
+17 5
+
+Summary: 4
+11 4 14 -2 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.isBinaryType()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getMethods()[Lorg/eclipse/jdt/internal/compiler/env/IBinaryMethod;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 methods 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.isMember()Z
+PTG:
+Vars:
+6
+$r4 1 1 
+r0 1 -1 
+$r2 1 1 
+$r3 1 13 
+$r1 1 1 
+r5 1 28 
+Fields: 1
+-1 innerInfo 1
+Accesses: 3
+0 1 -1 
+21 1 -1 
+9 1 -1 
+Functions: 2
+22 1 1 
+10 1 1 
+Constructors: 0
+
+Summary: 3
+-1 13 28 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.read(Ljava/io/InputStream;Ljava/lang/String;Z)Lorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;
+PTG:
+Vars:
+6
+_ret 1 6 
+r1 1 5 
+r3 1 -3 
+$r4 1 12 
+$r2 1 6 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -2 
+26 1 6 
+11 1 -3 
+15 3 5 6 12 
+Constructors: 1
+15 6
+
+Summary: 6
+5 1 12 -3 0 -2 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.initialize()V
+PTG:
+Vars:
+13
+$r6 1 90 
+$r3 1 38 
+$r12 2 55 73 
+$r13 1 77 
+$r10 1 112 
+$r2 1 15 
+$r4 1 42 
+r0 1 -1 
+$r11 1 55 
+$r9 2 90 108 
+$r1 1 11 
+$r5 1 55 
+$r8 1 90 
+Fields: 10
+11 ArrayObject 15
+-1 innerInfos 55
+-1 fields 11
+-1 annotations 90
+-1 methods 38
+55 ArrayObject 77
+73 ArrayObject 77
+38 ArrayObject 42
+90 ArrayObject 112
+108 ArrayObject 112
+Accesses: 11
+2 1 -1 
+98 1 -1 
+37 1 -1 
+54 1 -1 
+72 1 -1 
+89 1 -1 
+10 1 -1 
+107 1 -1 
+29 1 -1 
+142 1 -1 
+63 1 -1 
+Functions: 7
+16 1 15 
+113 1 112 
+130 9 -1 112 38 55 90 42 11 77 15 
+146 0 
+43 1 42 
+125 9 -1 112 38 55 90 42 11 77 15 
+78 1 77 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.hasStructuralMethodChanges(Lorg/eclipse/jdt/internal/compiler/classfmt/MethodInfo;Lorg/eclipse/jdt/internal/compiler/classfmt/MethodInfo;)Z
+PTG:
+Vars:
+17
+$r6 1 57 
+$r1 1 1 
+$r3 1 5 
+r0 1 -2 
+$r16 1 177 
+r4 1 -1 
+$r7 1 69 
+$r5 1 53 
+$r11 1 101 
+r2 1 -3 
+$r12 1 105 
+r14 1 125 
+$r9 1 85 
+$r8 1 73 
+$r15 1 182 
+$r10 1 89 
+r13 1 120 
+Fields: 2
+125 ArrayObject 182
+120 ArrayObject 177
+Accesses: 0
+Functions: 22
+0 1 -2 
+4 1 -3 
+68 1 -2 
+100 1 -2 
+5 2 1 5 
+37 1 -3 
+72 1 -3 
+104 1 -3 
+73 2 69 73 
+105 2 101 105 
+16 1 -2 
+51 3 -1 53 57 
+20 1 -3 
+52 1 -2 
+84 1 -2 
+116 1 -2 
+182 2 177 182 
+56 1 -3 
+88 1 -3 
+89 2 85 89 
+121 1 -3 
+29 1 -2 
+Constructors: 0
+
+Summary: 15
+-3 -1 1 5 53 57 85 89 101 69 73 105 125 -2 120 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.hasStructuralFieldChanges(Lorg/eclipse/jdt/internal/compiler/classfmt/FieldInfo;Lorg/eclipse/jdt/internal/compiler/classfmt/FieldInfo;)Z
+PTG:
+Vars:
+15
+$r14 1 151 
+$r1 1 1 
+$r10 1 89 
+$r3 1 5 
+r11 1 124 
+r4 1 -1 
+$r5 1 53 
+$r8 1 73 
+$r7 1 69 
+$r6 1 57 
+r0 1 -2 
+r2 1 -3 
+$r9 1 85 
+r12 1 129 
+$r13 1 146 
+Fields: 0
+Accesses: 0
+Functions: 46
+0 1 -2 
+256 1 129 
+322 1 129 
+131 1 124 
+4 1 -3 
+68 1 -2 
+5 2 1 5 
+135 1 129 
+72 1 -3 
+73 2 69 73 
+268 1 124 
+335 1 124 
+16 1 -2 
+272 1 129 
+145 1 124 
+146 2 146 151 
+339 1 129 
+20 1 -3 
+84 1 -2 
+149 1 129 
+88 1 -3 
+89 2 85 89 
+346 1 124 
+347 0 
+220 1 124 
+284 1 124 
+29 1 -2 
+350 1 129 
+224 1 129 
+288 1 129 
+162 1 124 
+100 1 -2 
+37 1 -3 
+104 1 -3 
+236 1 124 
+301 1 124 
+240 1 129 
+113 1 -2 
+305 1 129 
+51 3 -1 53 57 
+52 1 -2 
+56 1 -3 
+120 1 -2 
+252 1 124 
+125 1 -3 
+318 1 124 
+Constructors: 0
+
+Summary: 17
+352 -3 146 -1 1 5 347 53 57 85 89 69 73 129 151 -2 124 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.hasNonSyntheticFieldChanges([Lorg/eclipse/jdt/internal/compiler/classfmt/FieldInfo;[Lorg/eclipse/jdt/internal/compiler/classfmt/FieldInfo;)Z
+PTG:
+Vars:
+9
+$r8 1 87 
+$r5 1 73 
+$r4 1 47 
+$r7 1 94 
+r6 1 -1 
+r1 1 -3 
+$r3 1 149 
+$r2 1 125 
+r0 1 -2 
+Fields: 6
+-3 ArrayObject 94
+-3 ArrayObject 149
+-3 ArrayObject 73
+-2 ArrayObject 87
+-2 ArrayObject 47
+-2 ArrayObject 125
+Accesses: 0
+Functions: 5
+80 3 -1 87 94 
+149 1 149 
+73 1 73 
+125 1 125 
+47 1 47 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getConstantPoolOffsets()[I
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 constantPoolOffsets 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getModifiers()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 innerInfo 1
+Accesses: 4
+0 1 -1 
+7 1 -1 
+24 1 -1 
+14 1 -1 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.accessFlags()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getGenericSignature()[C
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 signature 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.<init>([B[CZ)V
+PTG:
+Vars:
+71
+$r16 15 180 276 686 165 213 261 504 616 246 306 137 632 231 195 291 
+$r43 2 958 1000 
+$r33 1 1397 
+$r45 1 1029 
+$r52 1 570 
+$r48 16 180 276 686 165 213 261 504 616 246 306 137 632 231 195 820 291 
+$r49 16 180 276 686 165 213 261 504 616 246 825 306 137 632 231 195 291 
+$r38 16 180 972 276 686 165 213 261 504 616 246 306 137 632 231 195 291 
+$r42 1 991 
+$r67 1 387 
+$r3 1 52 
+$r36 1 945 
+$r51 1 884 
+$r4 11 180 276 246 306 137 165 231 195 213 261 291 
+$r19 1 1130 
+$r21 1 1169 
+$r60 1 487 
+$r30 16 180 276 686 165 213 261 1351 504 616 246 306 137 632 231 195 291 
+$r14 11 180 276 246 137 306 165 231 195 213 261 291 
+$r61 12 180 504 276 246 306 137 165 231 195 213 261 291 
+$r64 1 418 
+$r6 11 180 276 246 306 137 165 231 195 213 261 291 
+r1 1 -2 
+$r28 1 1330 
+$r37 1 963 
+$r47 1 810 
+$r32 1 1388 
+$r26 1 1277 
+$r34 1 910 
+$r58 14 180 276 165 213 261 504 616 246 306 137 632 231 195 291 
+$r23 16 180 276 686 165 213 261 1216 504 616 246 306 137 632 231 195 291 
+$r15 1 358 
+$r56 2 644 601 
+$r13 11 180 276 246 306 137 165 231 195 213 261 291 
+r31 1 1385 
+r73 1 1042 
+$r40 1 958 
+$r57 1 649 
+$r20 16 180 276 686 165 213 1140 261 504 616 246 306 137 632 231 195 291 
+r0 1 -1 
+r71 1 512 
+$r8 11 180 276 246 306 137 165 231 195 213 261 291 
+$r54 3 500 628 612 
+$r12 11 180 276 246 306 137 165 231 195 213 261 291 
+$r44 1 1005 
+$r9 11 180 276 246 306 137 165 231 195 213 261 291 
+$r35 1 1060 
+$r29 16 180 276 1346 686 165 213 261 504 616 246 306 137 632 231 195 291 
+$r62 1 500 
+$r72 2 621 637 
+$r22 1 1206 
+$r24 1 1245 
+$r59 3 500 612 628 
+r17 1 714 
+$r63 1 515 
+r2 1 -3 
+$r50 1 860 
+$r55 1 601 
+$r7 11 180 276 246 306 137 165 231 195 213 261 291 
+$r25 1 1256 
+$r27 1 1298 
+$r18 1 1180 
+$r11 11 180 276 246 306 137 165 231 195 213 261 291 
+$r5 11 180 276 246 306 137 165 231 195 213 261 291 
+$r65 1 431 
+$r53 14 180 276 165 213 261 504 616 246 306 137 632 231 195 291 
+$r41 2 958 986 
+$r66 1 443 
+$r10 11 180 276 246 306 137 165 231 213 195 261 291 
+$r46 2 1029 1036 
+$r39 4 500 968 612 628 
+Fields: 31
+-1 innerInfo 1029
+-1 interfaceNames 431
+-1 innerInfos 958
+-1 fields 515
+-1 constantPoolOffsets 180
+-1 constantPoolOffsets 276
+-1 constantPoolOffsets 686
+-1 constantPoolOffsets 165
+-1 constantPoolOffsets 213
+-1 constantPoolOffsets 261
+-1 constantPoolOffsets 504
+-1 constantPoolOffsets 616
+-1 constantPoolOffsets 246
+-1 constantPoolOffsets 306
+-1 constantPoolOffsets 137
+-1 constantPoolOffsets 632
+-1 constantPoolOffsets 231
+-1 constantPoolOffsets 195
+-1 constantPoolOffsets 291
+-1 reference 500
+-1 reference 612
+-1 reference 628
+-1 reference 968
+-1 methods 601
+-1 missingTypeNames 1388
+958 ArrayObject 1005
+958 ArrayObject 991
+1000 ArrayObject 1005
+644 ArrayObject 649
+986 ArrayObject 991
+601 ArrayObject 649
+Accesses: 80
+514 1 -1 
+643 1 -1 
+260 1 -1 
+1028 1 -1 
+390 1 -1 
+902 1 -1 
+136 1 -1 
+9 1 -1 
+1035 1 -1 
+400 1 -1 
+275 1 -1 
+1172 1 -1 
+661 1 -1 
+406 1 -1 
+538 1 -1 
+1052 1 -1 
+414 1 -1 
+34 1 -1 
+290 1 -1 
+164 1 -1 
+421 1 -1 
+1189 1 -1 
+552 1 -1 
+44 1 -1 
+685 1 -1 
+1069 1 -1 
+430 1 -1 
+558 1 -1 
+1198 1 -1 
+48 1 -1 
+305 1 -1 
+179 1 -1 
+819 1 -1 
+948 1 -1 
+1333 1 -1 
+54 1 -1 
+566 1 -1 
+1078 1 -1 
+824 1 -1 
+573 1 -1 
+957 1 -1 
+1215 1 -1 
+576 1 -1 
+1345 1 -1 
+194 1 -1 
+322 1 -1 
+1350 1 -1 
+455 1 -1 
+967 1 -1 
+971 1 -1 
+336 1 -1 
+212 1 -1 
+469 1 -1 
+981 1 -1 
+600 1 -1 
+985 1 -1 
+475 1 -1 
+349 1 -1 
+863 1 -1 
+991 1 991 
+1248 1 -1 
+354 1 -1 
+483 1 -1 
+611 1 -1 
+230 1 -1 
+615 1 -1 
+999 1 -1 
+361 1 -1 
+490 1 -1 
+1387 1 -1 
+876 1 -1 
+1006 1 -1 
+499 1 -1 
+627 1 -1 
+1139 1 -1 
+1012 1 -1 
+245 1 -1 
+503 1 -1 
+631 1 -1 
+893 1 -1 
+Functions: 61
+384 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+4 30 -1 -2 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1156 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+649 1 649 
+1161 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+394 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1290 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1036 2 1029 1036 
+1420 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+525 1 512 
+910 2 714 910 
+17 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1298 2 1298 714 
+147 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+27 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+668 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1180 2 714 1180 
+926 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+546 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1314 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1060 2 1060 714 
+38 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1448 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+810 2 714 810 
+689 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+436 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+437 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1206 2 1206 714 
+823 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+698 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+828 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1468 0 
+63 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+703 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1219 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1349 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+330 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1354 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+463 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+847 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1232 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+977 21 963 195 291 612 165 261 231 968 616 137 972 686 306 500 628 180 276 213 246 504 632 
+852 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1237 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+343 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+728 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1369 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1374 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+353 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+867 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1256 2 1256 714 
+1130 2 714 1130 
+619 17 195 291 612 165 261 231 616 137 306 500 628 180 276 213 246 504 632 
+367 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1395 1 1385 
+884 2 884 714 
+1269 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+1143 29 -1 515 195 1029 261 968 137 649 276 213 601 991 291 612 165 231 616 1388 1005 686 431 306 180 500 628 246 504 632 958 
+507 13 195 291 165 261 231 137 306 500 180 276 213 246 504 
+635 17 195 291 612 165 261 231 616 137 306 500 628 180 276 213 246 504 632 
+1277 2 714 1277 
+Constructors: 2
+977 963
+4 -1
+
+Summary: 6
+-1 1385 714 0 1 -2 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.hasStructuralAnnotationChanges([Lorg/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;[Lorg/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;)Z
+PTG:
+Vars:
+19
+$r16 1 177 
+$r12 1 149 
+$r11 1 140 
+r0 1 -2 
+$r14 1 167 
+r18 1 -1 
+$r3 1 48 
+r9 1 90 
+$r13 1 150 
+$r8 1 84 
+r7 1 79 
+$r5 1 57 
+$r6 1 73 
+$r10 1 139 
+$r4 1 56 
+$r17 1 178 
+$r15 1 168 
+r1 1 -3 
+$r2 1 47 
+Fields: 8
+79 ArrayObject 167
+79 ArrayObject 139
+-3 ArrayObject 84
+-3 ArrayObject 56
+90 ArrayObject 177
+90 ArrayObject 149
+-2 ArrayObject 73
+-2 ArrayObject 47
+Accesses: 0
+Functions: 11
+177 1 177 
+84 1 84 
+149 1 149 
+150 2 150 140 
+167 1 167 
+56 1 56 
+168 2 178 168 
+57 2 48 57 
+73 1 73 
+139 1 139 
+47 1 47 
+Constructors: 0
+
+Summary: 13
+168 79 1 -3 90 -1 178 150 57 48 0 -2 140 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.hasStructuralChanges([B)Z
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 2
+-1 -2 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getFields()[Lorg/eclipse/jdt/internal/compiler/env/IBinaryField;
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 fields 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.hasStructuralChanges([BZZ)Z
+PTG:
+Vars:
+48
+$r39 2 160 114 
+r43 1 193 
+$r36 1 267 
+r14 1 748 
+$r23 1 579 
+$r32 1 362 
+$r10 1 95 
+$r26 1 504 
+$r20 2 569 663 
+r48 1 741 
+$r30 1 357 
+$r13 1 315 
+$r8 1 78 
+$r16 1 787 
+r11 1 111 
+$r5 1 56 
+$r22 1 569 
+$r37 1 282 
+$r21 2 569 663 
+$r19 1 711 
+$r17 3 706 569 663 
+$r15 1 792 
+$r6 1 61 
+$r7 1 73 
+$r46 1 527 
+$r0 1 0 
+$r35 1 266 
+$r41 1 165 
+$r9 1 90 
+$r24 1 574 
+$r31 1 367 
+$r28 2 357 451 
+$r25 3 357 451 494 
+$r18 1 716 
+$r40 1 170 
+r44 1 200 
+$r42 1 -1 
+$r12 1 114 
+r2 1 -1 
+r45 1 315 
+$r33 1 256 
+$r27 1 499 
+r1 1 -2 
+$r34 1 257 
+r47 1 527 
+$r29 2 357 451 
+$r38 1 292 
+$r3 1 6 
+Fields: 27
+357 ArrayObject 362
+357 ArrayObject 499
+160 ArrayObject 165
+200 ArrayObject 266
+200 ArrayObject 292
+111 ArrayObject 170
+706 ArrayObject 711
+527 ArrayObject 579
+527 ArrayObject 716
+193 ArrayObject 256
+193 ArrayObject 282
+663 ArrayObject 711
+114 ArrayObject 165
+-1 interfaceNames 114
+-1 classFileName 6
+-1 fields 451
+-1 fields 357
+-1 methods 663
+-1 methods 569
+741 ArrayObject 787
+451 ArrayObject 499
+569 ArrayObject 711
+569 ArrayObject 574
+748 ArrayObject 792
+494 ArrayObject 499
+315 ArrayObject 504
+315 ArrayObject 367
+Accesses: 25
+705 1 -1 
+450 1 -1 
+5 1 -1 
+518 1 -1 
+391 1 -1 
+138 1 -1 
+655 1 -1 
+594 1 -1 
+340 1 -1 
+150 1 -1 
+662 1 -1 
+472 1 -1 
+730 1 -1 
+603 1 -1 
+159 1 -1 
+356 1 -1 
+424 1 -1 
+552 1 -1 
+684 1 -1 
+493 1 -1 
+113 1 -1 
+568 1 -1 
+443 1 -1 
+636 1 -1 
+382 1 -1 
+Functions: 38
+256 1 256 
+704 13 -1 451 357 165 6 711 362 716 114 499 663 569 574 
+195 1 0 
+454 4 451 499 357 362 
+72 12 -1 114 451 499 357 165 6 663 711 569 362 574 
+9 3 0 -2 6 
+266 1 266 
+267 2 257 267 
+76 1 0 
+525 1 0 
+14 12 -1 114 451 499 357 165 6 663 711 569 362 574 
+78 2 73 78 
+464 3 504 315 367 
+18 1 0 
+471 15 -1 451 357 165 6 711 362 367 114 499 663 504 569 315 574 
+792 2 787 792 
+89 12 -1 114 451 499 357 165 6 663 711 569 362 574 
+282 1 282 
+666 4 663 711 569 574 
+93 1 0 
+95 2 90 95 
+33 12 -1 114 451 499 357 165 6 663 711 569 362 574 
+737 12 -1 114 451 499 357 165 6 663 711 569 362 574 
+355 13 -1 451 357 165 6 711 362 367 114 499 663 569 574 
+292 1 292 
+676 3 579 716 527 
+743 1 0 
+40 1 0 
+106 1 0 
+170 2 165 170 
+683 15 -1 451 579 357 165 6 711 362 716 527 114 499 663 569 574 
+492 13 -1 451 357 165 6 711 362 114 499 663 504 569 574 
+54 14 -1 451 357 165 6 711 362 114 499 663 56 569 61 574 
+55 12 -1 114 451 499 357 165 6 663 711 569 362 574 
+567 13 -1 451 579 357 165 6 711 362 114 499 663 569 574 
+313 1 0 
+59 1 0 
+189 12 -1 114 451 499 357 165 6 663 711 569 362 574 
+Constructors: 1
+9 0
+
+Summary: 18
+527 90 -1 741 73 0 200 95 111 193 257 78 61 56 748 267 -2 315 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getVersion()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.toString()Ljava/lang/String;
+PTG:
+Vars:
+29
+$r14 1 69 
+$r16 1 79 
+r5 1 -1 
+$r28 1 173 
+$r30 2 96 102 
+$r17 1 90 
+$r26 1 159 
+$r8 1 29 
+$r24 1 146 
+$r4 1 18 
+$r11 1 48 
+$r9 1 38 
+$r23 1 140 
+$r10 1 41 
+$r7 1 26 
+$r18 1 107 
+$r6 1 23 
+$r12 1 58 
+$r15 1 72 
+$r21 1 123 
+$r25 1 153 
+$r0 1 0 
+$r2 1 8 
+$r27 1 162 
+_ret 1 173 
+$r22 1 137 
+$r19 1 113 
+$r13 1 63 
+$r20 1 116 
+Fields: 0
+Accesses: 0
+Functions: 34
+66 2 58 63 
+130 1 123 
+4 1 0 
+69 1 69 
+133 1 -1 
+134 0 
+75 2 8 72 
+140 1 140 
+13 2 0 8 
+79 3 96 102 79 
+18 1 18 
+146 1 146 
+149 1 -1 
+22 1 -1 
+86 1 79 
+23 1 23 
+89 1 -1 
+153 1 153 
+26 1 26 
+159 1 159 
+32 2 18 29 
+165 2 162 8 
+38 1 38 
+169 1 8 
+106 1 -1 
+44 2 8 41 
+172 1 0 
+110 3 96 102 107 
+48 2 48 58 
+113 1 113 
+55 1 48 
+119 2 116 8 
+123 2 137 123 
+62 1 -1 
+Constructors: 7
+32 18
+66 58
+130 123
+4 0
+86 79
+55 48
+13 8
+
+Summary: 10
+107 26 90 -1 8 58 102 0 23 63 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getAnnotations()[Lorg/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 annotations 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getMissingTypeNames()[[[C
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 missingTypeNames 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.printTypeModifiers(I)Ljava/lang/String;
+PTG:
+Vars:
+4
+_ret 1 100 
+$r2 1 8 
+$r0 1 0 
+$r4 1 100 
+Fields: 0
+Accesses: 0
+Functions: 10
+64 1 8 
+96 1 8 
+51 1 8 
+99 1 0 
+4 1 0 
+38 1 8 
+26 1 8 
+92 1 8 
+13 2 0 8 
+78 1 8 
+Constructors: 2
+4 0
+13 8
+
+Summary: 2
+8 0 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.read(Ljava/lang/String;Z)Lorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;
+PTG:
+Vars:
+4
+$r0 1 0 
+_ret 1 9 
+$r2 1 9 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+5 2 0 -2 
+8 1 0 
+Constructors: 1
+5 0
+
+Summary: 2
+-2 0 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getFileName()[C
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 classFileName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.decodeAnnotations(IZ)V
+PTG:
+Vars:
+11
+$r5 1 133 
+r11 1 185 
+r0 1 -1 
+$r2 1 43 
+$r1 1 34 
+$r7 1 152 
+$r3 1 39 
+r9 2 102 152 
+$r4 1 133 
+$r8 1 102 
+$r6 1 133 
+Fields: 3
+-1 constantPoolOffsets 43
+-1 annotations 133
+-1 reference 39
+Accesses: 11
+65 1 34 
+132 1 -1 
+38 1 -1 
+87 1 -1 
+167 1 -1 
+57 1 34 
+42 1 -1 
+218 1 -1 
+173 1 -1 
+190 1 -1 
+79 1 -1 
+Functions: 5
+0 4 -1 133 39 43 
+161 2 102 152 
+50 3 34 39 43 
+212 3 102 152 185 
+200 2 133 185 
+Constructors: 1
+50 34
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getSourceName()[C
+PTG:
+Vars:
+5
+$r1 1 1 
+_ret 3 70 25 16 
+r2 1 70 
+r0 1 -1 
+r4 3 70 25 16 
+Fields: 1
+-1 sourceName 1
+Accesses: 3
+0 1 -1 
+7 1 -1 
+87 1 -1 
+Functions: 7
+21 2 -1 1 
+38 3 16 70 25 
+55 3 16 70 25 
+26 2 -1 1 
+43 3 16 70 25 
+12 2 -1 1 
+79 3 16 70 25 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getEnclosingMethod()[C
+PTG:
+Vars:
+12
+$r6 1 25 
+$r7 1 59 
+_ret 1 10 
+$r2 1 10 
+$r1 1 10 
+$r9 1 25 
+$r13 1 103 
+$r3 1 16 
+$r12 1 100 
+$r10 1 91 
+r0 1 -1 
+$r5 1 25 
+Fields: 2
+-1 enclosingMethod 10
+-1 constantPoolOffsets 25
+Accesses: 8
+0 1 -1 
+34 1 -1 
+66 1 -1 
+24 1 -1 
+9 1 -1 
+106 1 -1 
+28 1 -1 
+109 1 -1 
+Functions: 11
+48 3 -1 25 10 
+80 3 -1 25 10 
+99 1 16 
+20 1 16 
+52 3 -1 25 10 
+84 3 -1 25 10 
+100 1 100 
+38 3 -1 25 10 
+70 3 -1 25 10 
+62 2 16 59 
+94 2 16 91 
+Constructors: 1
+20 16
+
+Summary: 4
+-1 59 91 100 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getTagBits()J
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.read(Ljava/util/zip/ZipFile;Ljava/lang/String;Z)Lorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;
+PTG:
+Vars:
+7
+r3 1 17 
+$r5 1 26 
+_ret 1 19 
+r1 1 -3 
+r2 1 5 
+r0 1 -2 
+$r4 1 19 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 2 -2 -3 
+40 1 19 
+25 1 -3 
+13 2 -2 5 
+29 3 17 19 26 
+Constructors: 1
+29 19
+
+Summary: 6
+5 17 1 -3 26 0 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.isLocal()Z
+PTG:
+Vars:
+6
+$r1 1 1 
+$r4 1 1 
+r5 1 28 
+r0 1 -1 
+$r2 1 1 
+$r3 1 13 
+Fields: 1
+-1 innerInfo 1
+Accesses: 3
+0 1 -1 
+21 1 -1 
+9 1 -1 
+Functions: 2
+22 1 1 
+10 1 1 
+Constructors: 0
+
+Summary: 3
+-1 13 28 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getEnclosingTypeName()[C
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 enclosingTypeName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getSuperclassName()[C
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 superclassName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.read(Ljava/io/File;)Lorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;
+PTG:
+Vars:
+3
+$r1 1 2 
+_ret 1 2 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+1 1 -2 
+Constructors: 0
+
+Summary: 1
+-2 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getInnerSourceName()[C
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 innerInfo 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+8 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getName()[C
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 className 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.getInterfaceNames()[[C
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 interfaceNames 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.isNestedType()Z
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 innerInfo 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.hasNonSyntheticMethodChanges([Lorg/eclipse/jdt/internal/compiler/classfmt/MethodInfo;[Lorg/eclipse/jdt/internal/compiler/classfmt/MethodInfo;)Z
+PTG:
+Vars:
+9
+$r3 1 182 
+r1 1 -3 
+$r5 1 84 
+$r2 1 147 
+$r4 1 47 
+$r8 1 109 
+r6 1 -1 
+$r7 1 116 
+r0 1 -2 
+Fields: 6
+-3 ArrayObject 182
+-3 ArrayObject 84
+-3 ArrayObject 116
+-2 ArrayObject 47
+-2 ArrayObject 147
+-2 ArrayObject 109
+Accesses: 0
+Functions: 9
+192 1 182 
+147 1 147 
+84 1 84 
+102 3 -1 116 109 
+182 1 182 
+57 1 47 
+157 1 147 
+94 1 84 
+47 1 47 
+Constructors: 0
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.read(Ljava/util/zip/ZipFile;Ljava/lang/String;)Lorg/eclipse/jdt/internal/compiler/classfmt/ClassFileReader;
+PTG:
+Vars:
+4
+_ret 1 3 
+r1 1 -3 
+r0 1 -2 
+$r2 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -2 -3 
+Constructors: 0
+
+Summary: 4
+1 -3 0 -2 
+org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader.sourceFileName()[C
+PTG:
+Vars:
+3
+$r1 1 1 
+_ret 1 1 
+r0 1 -1 
+Fields: 1
+-1 sourceFileName 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

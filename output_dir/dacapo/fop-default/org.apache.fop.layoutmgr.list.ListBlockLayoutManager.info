@@ -1,0 +1,618 @@
+17
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.notifyBorder(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+13
+$r4 1 46 
+$r9 1 64 
+$r10 1 67 
+r0 1 -3 
+$r12 1 24 
+$r11 1 4 
+$r1 1 38 
+r6 1 -2 
+$r8 1 60 
+r3 1 -1 
+$r5 1 51 
+$r7 1 55 
+$r2 1 35 
+Fields: 0
+Accesses: 2
+21 1 -1 
+13 1 -1 
+Functions: 9
+64 1 64 
+51 2 -2 51 
+38 2 -1 38 
+70 2 35 67 
+55 1 55 
+24 1 24 
+42 1 38 
+60 2 -3 60 
+46 1 46 
+Constructors: 1
+42 38
+
+Summary: 7
+0 1 67 -3 64 -1 -2 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.addAreas(Lorg/apache/fop/layoutmgr/PositionIterator;Lorg/apache/fop/layoutmgr/LayoutContext;)V
+PTG:
+Vars:
+37
+$r11 1 206 
+$r24 1 273 
+$r20 1 357 
+r28 1 84 
+r38 1 169 
+$r16 1 317 
+$r32 1 137 
+$r13 1 216 
+$r35 1 84 
+$r18 1 337 
+$r23 1 367 
+$r17 1 310 
+$r4 1 37 
+r40 1 84 
+$r21 1 361 
+$r33 1 84 
+r9 1 -2 
+$r2 1 30 
+$r3 1 34 
+$r30 1 84 
+$r34 1 151 
+$r10 1 200 
+$r14 1 310 
+r39 1 169 
+$r5 1 45 
+$r27 1 84 
+$r31 1 134 
+r1 1 -3 
+$r7 1 67 
+$r19 1 333 
+$r22 1 361 
+$r15 1 314 
+$r37 1 15 
+$r36 1 163 
+r41 1 84 
+r0 1 -1 
+$r29 1 123 
+Fields: 3
+-1 curBlockArea 310
+-1 effSpaceAfter 337
+-1 effSpaceBefore 333
+Accesses: 5
+336 1 -1 
+324 1 -1 
+309 1 -1 
+332 1 -1 
+349 1 -1 
+Functions: 48
+321 5 -1 337 310 317 333 
+2 4 -1 337 310 333 
+131 1 84 
+197 4 -1 337 310 333 
+6 1 -3 
+134 1 134 
+71 1 67 
+328 1 -3 
+267 1 45 
+76 1 -2 
+204 1 67 
+272 1 -3 
+209 2 200 206 
+19 1 -3 
+83 1 -2 
+148 1 84 
+276 2 273 45 
+340 3 337 310 333 
+214 1 200 
+23 1 15 
+344 4 -1 337 310 333 
+26 5 -1 337 310 333 15 
+154 2 67 151 
+92 1 84 
+284 3 216 200 45 
+29 4 -1 337 310 333 
+160 1 84 
+33 4 -1 337 310 333 
+353 4 -1 337 310 333 
+34 1 34 
+226 1 -3 
+163 1 163 
+356 4 -1 337 310 333 
+230 1 45 
+294 5 -1 337 84 310 333 
+40 2 37 30 
+360 4 -1 337 310 333 
+300 5 -1 337 84 310 333 
+364 1 361 
+50 1 45 
+306 4 -1 337 310 333 
+370 2 357 367 
+248 1 45 
+121 1 84 
+185 5 -1 337 84 310 333 
+313 4 -1 337 310 333 
+314 1 314 
+191 5 -1 337 84 310 333 
+Constructors: 4
+209 200
+50 45
+23 15
+71 67
+
+Summary: 25
+361 15 -3 37 317 30 151 -2 137 84 273 206 357 0 123 1 169 200 34 163 314 367 67 45 134 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.getParentArea(Lorg/apache/fop/area/Area;)Lorg/apache/fop/area/Area;
+PTG:
+Vars:
+27
+$r1 1 1 
+$r16 1 1 
+$r17 1 101 
+_ret 1 1 
+$r24 1 1 
+$r8 1 37 
+$r23 1 130 
+$r22 1 123 
+r0 1 -1 
+$r25 1 1 
+$r10 1 1 
+$r20 1 111 
+$r2 1 1 
+$r9 1 40 
+$r11 1 51 
+$r13 1 1 
+$r4 1 1 
+$r18 1 104 
+$r21 1 1 
+$r3 1 8 
+$r5 1 19 
+$r12 1 54 
+$r15 1 79 
+$r7 1 1 
+r26 1 -2 
+$r14 1 76 
+$r19 1 108 
+Fields: 2
+-1 curBlockArea 1
+-1 parentLM 19
+Accesses: 17
+0 1 -1 
+32 1 -1 
+96 1 -1 
+165 1 -1 
+71 1 -1 
+139 1 -1 
+46 1 -1 
+15 1 -1 
+18 1 -1 
+82 1 -1 
+149 1 -1 
+22 1 -1 
+86 1 -1 
+118 1 -1 
+57 1 -1 
+61 1 -1 
+158 1 -1 
+Functions: 24
+129 3 -1 1 19 
+130 1 130 
+162 3 -1 1 19 
+36 3 -1 1 19 
+68 4 -1 1 19 54 
+100 3 -1 1 19 
+37 1 37 
+101 1 101 
+136 1 1 
+43 2 1 40 
+75 3 -1 1 19 
+107 3 -1 1 19 
+12 1 8 
+76 1 76 
+108 1 108 
+143 3 -1 1 19 
+50 3 -1 1 19 
+51 1 51 
+115 5 -1 1 19 104 111 
+26 2 1 19 
+122 3 -1 1 19 
+154 1 1 
+123 1 123 
+93 4 -1 1 19 79 
+Constructors: 1
+12 8
+
+Summary: 15
+104 51 0 40 108 123 101 37 -1 79 -2 76 54 111 130 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.getListBlockFO()Lorg/apache/fop/fo/flow/ListBlock;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 fobj 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.<init>(Lorg/apache/fop/fo/flow/ListBlock;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+2 2 -1 -2 
+Constructors: 1
+2 -1
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.initialize()V
+PTG:
+Vars:
+17
+$r5 1 19 
+$r10 1 44 
+$r14 1 72 
+$r8 1 34 
+r0 1 -1 
+$r9 1 37 
+$r16 1 78 
+$r12 1 55 
+$r15 1 75 
+$r4 1 12 
+$r7 1 31 
+$r6 1 26 
+$r11 1 52 
+$r3 1 9 
+$r2 1 6 
+$r13 1 58 
+$r1 1 1 
+Fields: 4
+34 spaceAfter 37
+55 startIndent 58
+9 spaceBefore 12
+75 endIndent 78
+Accesses: 8
+34 1 34 
+67 1 -1 
+22 1 -1 
+55 1 55 
+87 1 -1 
+9 1 9 
+75 1 75 
+47 1 -1 
+Functions: 14
+1 1 1 
+5 1 -1 
+6 1 6 
+71 1 -1 
+72 1 72 
+41 3 -1 37 26 
+78 2 -1 78 
+16 3 -1 1 12 
+51 1 -1 
+52 1 52 
+26 1 26 
+58 2 -1 58 
+30 1 -1 
+31 1 31 
+Constructors: 2
+16 1
+41 26
+
+Summary: 15
+26 6 55 78 52 37 75 -1 34 72 31 12 1 9 58 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.mustKeepWithPrevious()Z
+PTG:
+Vars:
+7
+$r1 1 1 
+$r3 1 7 
+$r4 1 17 
+$r2 1 4 
+r0 1 -1 
+$r5 1 20 
+$r6 1 23 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -1 
+16 1 -1 
+1 1 1 
+17 1 17 
+4 1 4 
+20 1 20 
+7 1 7 
+23 1 23 
+Constructors: 0
+
+Summary: 7
+17 23 4 1 20 7 -1 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.getChangedKnuthElements(Ljava/util/List;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+4
+r0 1 -1 
+r1 1 -2 
+$r2 1 3 
+_ret 1 3 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.resetSpaces()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 6
+17 1 -1 
+2 1 -1 
+22 1 -1 
+7 1 -1 
+27 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.getNextKnuthElements(Lorg/apache/fop/layoutmgr/LayoutContext;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+8
+$r3 1 12 
+r2 1 10 
+r0 1 -1 
+$r6 1 41 
+r1 1 -2 
+$r4 1 15 
+$r5 1 38 
+_ret 1 10 
+Fields: 0
+Accesses: 0
+Functions: 10
+1 1 -1 
+33 1 10 
+4 2 -1 -2 
+37 1 -1 
+38 1 38 
+41 1 41 
+11 1 -1 
+59 1 10 
+12 1 12 
+15 1 15 
+Constructors: 0
+
+Summary: 6
+-2 15 0 38 12 41 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.<clinit>()V
+PTG:
+Vars:
+3
+$r1 1 21 
+$r2 2 8 18 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 2
+18 2 18 8 
+6 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.mustKeepTogether()Z
+PTG:
+Vars:
+7
+$r5 1 27 
+$r3 1 14 
+$r4 1 24 
+$r2 1 11 
+$r1 1 8 
+$r6 1 30 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -1 
+7 1 -1 
+23 1 -1 
+8 1 8 
+24 1 24 
+11 1 11 
+27 1 27 
+14 1 14 
+30 1 30 
+Constructors: 0
+
+Summary: 7
+27 8 14 24 30 -1 11 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.notifySpace(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+28
+$r16 1 7 
+$r6 1 89 
+$r11 1 118 
+$r22 1 43 
+$r8 1 105 
+$r9 1 109 
+$r7 1 100 
+$r13 1 126 
+$r27 1 62 
+$r18 1 18 
+$r1 1 0 
+r0 1 -2 
+$r19 1 29 
+$r12 1 121 
+$r2 1 78 
+$r26 1 59 
+$r23 1 47 
+$r17 1 21 
+r4 1 -3 
+$r25 1 55 
+$r20 1 34 
+$r24 1 50 
+$r5 1 92 
+$r14 1 130 
+$r15 1 133 
+$r10 1 114 
+r3 1 -1 
+$r21 1 38 
+Fields: 2
+-1 effSpaceAfter 118
+-1 effSpaceBefore 47
+Accesses: 4
+117 1 -1 
+72 1 -1 
+46 1 -1 
+143 1 -1 
+Functions: 22
+96 1 92 
+65 2 18 62 
+34 2 -2 34 
+130 1 130 
+100 1 100 
+38 1 38 
+7 1 7 
+136 2 133 89 
+105 2 -2 105 
+43 2 43 47 
+109 1 109 
+78 1 78 
+50 1 50 
+114 2 114 118 
+21 4 -1 21 118 47 
+55 2 -3 55 
+25 1 21 
+121 1 121 
+59 1 59 
+92 4 -1 118 92 47 
+29 1 29 
+126 2 -3 126 
+Constructors: 2
+96 92
+25 21
+
+Summary: 8
+59 -2 130 62 0 1 -1 133 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.notifyPadding(Lorg/apache/fop/layoutmgr/RelSide;Lorg/apache/fop/traits/MinOptMax;)V
+PTG:
+Vars:
+13
+$r12 1 24 
+r0 1 -3 
+$r7 1 55 
+$r1 1 38 
+$r9 1 64 
+$r2 1 35 
+$r4 1 46 
+r6 1 -2 
+r3 1 -1 
+$r11 1 4 
+$r5 1 51 
+$r8 1 60 
+$r10 1 67 
+Fields: 0
+Accesses: 2
+21 1 -1 
+13 1 -1 
+Functions: 9
+64 1 64 
+51 2 -2 51 
+38 2 -1 38 
+70 2 35 67 
+55 1 55 
+24 1 24 
+42 1 38 
+60 2 -3 60 
+46 1 46 
+Constructors: 1
+42 38
+
+Summary: 7
+0 1 67 -3 64 -1 -2 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.mustKeepWithNext()Z
+PTG:
+Vars:
+7
+r0 1 -1 
+$r4 1 17 
+$r2 1 4 
+$r1 1 1 
+$r3 1 7 
+$r6 1 23 
+$r5 1 20 
+Fields: 0
+Accesses: 0
+Functions: 8
+0 1 -1 
+16 1 -1 
+1 1 1 
+17 1 17 
+4 1 4 
+20 1 20 
+7 1 7 
+23 1 23 
+Constructors: 0
+
+Summary: 7
+17 23 4 1 20 7 -1 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.addChildArea(Lorg/apache/fop/area/Area;)V
+PTG:
+Vars:
+5
+$r4 1 1 
+r0 1 -1 
+r2 1 -2 
+$r3 1 -2 
+$r1 1 1 
+Fields: 1
+-1 curBlockArea 1
+Accesses: 2
+0 1 -1 
+7 1 -1 
+Functions: 1
+15 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/apache/fop/layoutmgr/list/ListBlockLayoutManager.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+r0 1 -2 
+$r1 1 1 
+$r2 1 -1 
+$r4 1 6 
+$r5 1 14 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 

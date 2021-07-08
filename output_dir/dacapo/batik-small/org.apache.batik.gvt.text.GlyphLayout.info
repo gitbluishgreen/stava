@@ -1,0 +1,2156 @@
+45
+org/apache/batik/gvt/text/GlyphLayout.getComputedOrientationAngle(I)D
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+14 1 -1 
+Functions: 5
+0 1 -1 
+7 1 -1 
+25 1 -1 
+41 1 -1 
+15 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getGlyphVector()Lorg/apache/batik/gvt/font/GVTGlyphVector;
+PTG:
+Vars:
+3
+_ret 1 1 
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 gv 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getOutline()Ljava/awt/Shape;
+PTG:
+Vars:
+4
+$r2 1 8 
+_ret 1 8 
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 gv 5
+Accesses: 1
+4 1 -1 
+Functions: 2
+1 2 -1 5 
+5 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.isLatinChar(C)Z
+PTG:
+Vars:
+10
+$r1 1 22 
+$r3 1 36 
+$r4 1 43 
+$r5 1 50 
+$r2 1 29 
+r0 1 20 
+$r6 1 57 
+$r8 1 71 
+r9 1 -1 
+$r7 1 64 
+Fields: 0
+Accesses: 0
+Functions: 2
+16 0 
+7 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getLastGlyphIndex(I)I
+PTG:
+Vars:
+3
+$r1 1 6 
+r0 1 -1 
+$r2 1 6 
+Fields: 1
+-1 charMap 6
+Accesses: 2
+5 1 -1 
+43 1 -1 
+Functions: 2
+0 2 -1 6 
+23 2 -1 6 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.addPtsToPath(Ljava/awt/geom/GeneralPath;[Ljava/awt/geom/Point2D$Float;[Ljava/awt/geom/Point2D$Float;I)V
+PTG:
+Vars:
+64
+$r48 1 774 
+$r55 1 668 
+$r3 1 111 
+$r7 1 134 
+$r17 1 226 
+$r13 1 188 
+$r56 1 680 
+$r20 1 255 
+$r18 1 231 
+$r27 1 363 
+$r57 1 687 
+$r63 1 599 
+$r62 1 591 
+$r37 1 456 
+$r4 1 118 
+r2 1 -3 
+$r44 1 735 
+$r14 1 196 
+$r61 1 568 
+$r39 1 471 
+$r42 1 519 
+$r41 1 489 
+r1 1 101 
+$r11 1 170 
+$r24 1 317 
+$r23 1 299 
+$r58 1 699 
+$r10 1 162 
+$r51 1 803 
+$r31 1 394 
+$r40 1 480 
+$r15 1 206 
+$r19 1 238 
+$r45 1 742 
+$r74 1 822 
+r5 1 -4 
+$r21 1 262 
+$r22 1 292 
+$r16 1 217 
+$r6 1 126 
+$r25 1 324 
+$r12 1 179 
+$r36 1 448 
+$r29 1 379 
+$r35 1 440 
+$r33 1 412 
+$r26 1 356 
+$r38 1 464 
+r0 1 94 
+r9 1 -2 
+$r30 1 387 
+$r52 1 642 
+$r59 1 706 
+$r28 1 371 
+$r46 1 754 
+$r50 1 795 
+$r49 1 782 
+$r53 1 649 
+$r47 1 761 
+$r54 1 661 
+$r34 1 433 
+r8 1 139 
+$r32 1 403 
+$r60 1 561 
+Fields: 56
+101 ArrayObject 568
+101 ArrayObject 591
+101 ArrayObject 561
+101 ArrayObject 599
+94 ArrayObject 394
+94 ArrayObject 262
+94 ArrayObject 471
+94 ArrayObject 742
+94 ArrayObject 687
+94 ArrayObject 255
+94 ArrayObject 489
+94 ArrayObject 680
+94 ArrayObject 412
+94 ArrayObject 735
+94 ArrayObject 324
+94 ArrayObject 379
+94 ArrayObject 661
+94 ArrayObject 387
+94 ArrayObject 782
+94 ArrayObject 448
+94 ArrayObject 371
+94 ArrayObject 356
+94 ArrayObject 170
+94 ArrayObject 464
+94 ArrayObject 706
+94 ArrayObject 761
+94 ArrayObject 299
+94 ArrayObject 188
+94 ArrayObject 668
+94 ArrayObject 317
+94 ArrayObject 649
+94 ArrayObject 231
+94 ArrayObject 480
+94 ArrayObject 403
+94 ArrayObject 440
+94 ArrayObject 795
+94 ArrayObject 803
+94 ArrayObject 433
+94 ArrayObject 238
+94 ArrayObject 774
+94 ArrayObject 699
+94 ArrayObject 754
+94 ArrayObject 162
+94 ArrayObject 642
+94 ArrayObject 292
+94 ArrayObject 179
+94 ArrayObject 456
+94 ArrayObject 363
+-3 ArrayObject 206
+-3 ArrayObject 196
+-3 ArrayObject 118
+-3 ArrayObject 111
+-4 ArrayObject 126
+-4 ArrayObject 134
+-4 ArrayObject 226
+-4 ArrayObject 217
+Accesses: 44
+448 1 448 
+642 1 642 
+706 1 706 
+387 1 387 
+324 1 324 
+262 1 262 
+774 1 774 
+456 1 456 
+649 1 649 
+394 1 394 
+782 1 782 
+591 1 591 
+464 1 464 
+403 1 403 
+661 1 661 
+471 1 471 
+599 1 599 
+795 1 795 
+412 1 412 
+668 1 668 
+735 1 735 
+480 1 480 
+803 1 803 
+292 1 292 
+356 1 356 
+742 1 742 
+231 1 231 
+680 1 680 
+489 1 489 
+299 1 299 
+363 1 363 
+238 1 238 
+687 1 687 
+433 1 433 
+561 1 561 
+754 1 754 
+371 1 371 
+440 1 440 
+568 1 568 
+761 1 761 
+379 1 379 
+699 1 699 
+317 1 317 
+255 1 255 
+Functions: 29
+512 0 
+710 1 519 
+72 1 -2 
+523 1 519 
+715 1 519 
+843 2 -2 139 
+653 1 519 
+722 2 -2 519 
+786 1 519 
+727 1 519 
+24 1 -2 
+88 1 -2 
+281 0 
+345 0 
+603 1 519 
+544 50 642 387 262 774 649 394 782 403 661 795 412 668 162 803 292 680 170 299 687 433 561 179 440 568 699 188 317 448 706 324 456 591 464 471 599 94 735 480 356 101 742 231 489 363 238 754 371 761 379 255 
+672 1 519 
+549 5 561 101 599 568 591 
+614 1 519 
+807 1 519 
+40 1 -2 
+746 1 519 
+812 1 519 
+625 2 -2 139 
+691 1 519 
+56 1 -2 
+572 1 519 
+828 2 822 519 
+765 1 519 
+Constructors: 2
+523 519
+828 822
+
+Summary: 61
+394 262 84 101 687 255 489 680 379 387 782 599 30 591 371 356 94 519 -2 761 299 649 480 403 440 139 -3 803 433 774 699 292 14 363 471 742 412 735 324 36 661 78 20 448 464 706 668 317 568 231 46 795 238 561 68 754 642 62 52 456 -4 
+org/apache/batik/gvt/text/GlyphLayout.setOffset(Ljava/awt/geom/Point2D;)V
+PTG:
+Vars:
+11
+$r5 1 73 
+$r11 1 5 
+r0 1 -2 
+r7 1 98 
+$r4 1 5 
+r1 1 -1 
+$r2 1 5 
+$r10 1 73 
+$r3 1 5 
+$r6 1 73 
+$r8 1 100 
+Fields: 2
+-1 offset 5
+-1 gv 73
+Accesses: 13
+130 1 100 
+4 1 -1 
+37 1 -1 
+72 1 -1 
+170 1 -1 
+175 1 -1 
+48 1 -1 
+146 1 100 
+19 1 -1 
+83 1 -1 
+149 1 -1 
+30 1 -1 
+62 1 -1 
+Functions: 12
+0 1 -2 
+49 1 5 
+20 1 5 
+84 1 73 
+5 1 5 
+104 1 100 
+73 1 73 
+58 1 -2 
+44 1 -2 
+157 2 100 73 
+15 1 -2 
+63 1 5 
+Constructors: 1
+104 100
+
+Summary: 3
+0 -1 100 
+org/apache/batik/gvt/text/GlyphLayout.isAltGlyph()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getGlyphCount()I
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 gv 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getGlyphIndex(I)I
+PTG:
+Vars:
+3
+$r2 1 37 
+r0 1 -1 
+$r1 1 37 
+Fields: 1
+-1 charMap 37
+Accesses: 2
+36 1 -1 
+57 1 -1 
+Functions: 2
+0 2 -1 37 
+16 2 -1 37 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getCharacterCount(II)I
+PTG:
+Vars:
+2
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 gv 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getStrikethroughShape()Ljava/awt/Shape;
+PTG:
+Vars:
+16
+r0 1 -1 
+$r10 1 69 
+$r5 1 28 
+$r6 1 41 
+$r1 1 1 
+$r8 1 44 
+r11 1 77 
+$r15 1 130 
+r9 1 44 
+$r13 1 98 
+_ret 1 130 
+$r3 1 17 
+$r7 1 28 
+$r14 1 98 
+$r12 1 81 
+$r2 1 1 
+Fields: 4
+-1 offset 98
+-1 aci 28
+-1 metrics 1
+-1 gv 69
+Accesses: 7
+0 1 -1 
+97 1 -1 
+68 1 -1 
+37 1 -1 
+118 1 -1 
+9 1 -1 
+27 1 -1 
+Functions: 13
+1 1 1 
+98 1 98 
+69 1 69 
+38 2 41 28 
+10 1 1 
+106 1 77 
+79 2 17 81 
+85 1 77 
+22 1 17 
+119 1 98 
+60 1 44 
+31 1 28 
+127 1 81 
+Constructors: 2
+22 17
+127 81
+
+Summary: 3
+-1 81 17 
+org/apache/batik/gvt/text/GlyphLayout.getOverlineShape()Ljava/awt/Shape;
+PTG:
+Vars:
+16
+$r15 1 135 
+r0 1 -1 
+$r14 1 103 
+$r3 1 23 
+$r10 1 74 
+$r8 1 63 
+$r6 1 39 
+$r5 1 23 
+$r12 1 86 
+r11 1 82 
+_ret 1 135 
+$r13 1 103 
+$r1 1 1 
+r7 1 39 
+$r4 1 36 
+$r2 1 1 
+Fields: 4
+-1 offset 103
+-1 aci 23
+-1 metrics 1
+-1 gv 74
+Accesses: 7
+0 1 -1 
+32 1 -1 
+22 1 -1 
+102 1 -1 
+9 1 -1 
+73 1 -1 
+123 1 -1 
+Functions: 13
+1 1 1 
+33 2 36 23 
+68 1 63 
+132 1 86 
+103 1 103 
+10 1 1 
+74 1 74 
+111 1 82 
+84 2 86 63 
+55 1 39 
+26 1 23 
+90 1 82 
+124 1 103 
+Constructors: 2
+68 63
+132 86
+
+Summary: 3
+-1 86 63 
+org/apache/batik/gvt/text/GlyphLayout.hitTestChar(FF)Lorg/apache/batik/gvt/text/TextHit;
+PTG:
+Vars:
+7
+r3 1 37 
+$r1 1 15 
+$r2 1 15 
+r6 1 51 
+r0 1 -1 
+$r4 1 146 
+$r5 1 146 
+Fields: 2
+-1 charMap 146
+-1 gv 15
+Accesses: 5
+145 1 -1 
+153 1 -1 
+26 1 -1 
+107 1 -1 
+14 1 -1 
+Functions: 9
+1 3 -1 146 15 
+132 3 -1 146 15 
+53 1 37 
+69 1 51 
+74 1 51 
+27 1 15 
+44 1 37 
+124 0 
+15 1 15 
+Constructors: 0
+
+Summary: 3
+51 -1 37 
+org/apache/batik/gvt/text/GlyphLayout.draw(Ljava/awt/Graphics2D;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 10 
+$r3 1 5 
+r1 1 -2 
+Fields: 2
+-1 aci 10
+-1 gv 5
+Accesses: 2
+4 1 -1 
+9 1 -1 
+Functions: 2
+1 3 -1 5 10 
+13 3 -2 5 10 
+Constructors: 0
+
+Summary: 3
+0 -1 -2 
+org/apache/batik/gvt/text/GlyphLayout.getGlyphMetrics(I)Lorg/apache/batik/gvt/font/GVTGlyphMetrics;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r2 1 5 
+_ret 1 5 
+$r1 1 1 
+Fields: 1
+-1 gv 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.hasCharacterIndex(I)Z
+PTG:
+Vars:
+3
+$r1 1 4 
+r0 1 -1 
+$r2 1 4 
+Fields: 1
+-1 charMap 4
+Accesses: 2
+3 1 -1 
+12 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.isOnATextPath()Z
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 textPath 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getUnderlineShape()Ljava/awt/Shape;
+PTG:
+Vars:
+16
+$r13 1 107 
+$r7 1 37 
+r9 1 53 
+$r10 1 78 
+$r14 1 107 
+$r5 1 37 
+$r6 1 50 
+$r2 1 1 
+$r12 1 90 
+$r1 1 1 
+r11 1 86 
+$r8 1 53 
+_ret 1 139 
+$r3 1 26 
+$r15 1 139 
+r0 1 -1 
+Fields: 4
+-1 offset 107
+-1 aci 37
+-1 metrics 1
+-1 gv 78
+Accesses: 7
+0 1 -1 
+36 1 -1 
+9 1 -1 
+106 1 -1 
+77 1 -1 
+46 1 -1 
+127 1 -1 
+Functions: 13
+128 1 107 
+1 1 1 
+69 1 53 
+40 1 37 
+136 1 90 
+10 1 1 
+107 1 107 
+78 1 78 
+47 2 50 37 
+115 1 86 
+88 2 26 90 
+94 1 86 
+31 1 26 
+Constructors: 2
+136 90
+31 26
+
+Summary: 3
+90 -1 26 
+org/apache/batik/gvt/text/GlyphLayout.adjustTextSpacing()V
+PTG:
+Vars:
+19
+$r15 1 20 
+$r10 1 77 
+$r11 1 20 
+$r17 1 95 
+$r12 1 65 
+$r1 1 20 
+$r4 1 36 
+$r7 1 62 
+$r3 1 20 
+r5 1 36 
+$r9 1 65 
+$r2 1 33 
+r0 1 -1 
+$r19 1 103 
+$r16 1 80 
+$r18 1 95 
+$r13 1 80 
+$r8 1 20 
+$r14 1 92 
+Fields: 1
+-1 aci 20
+Accesses: 12
+0 1 -1 
+19 1 -1 
+115 1 -1 
+132 1 -1 
+8 1 -1 
+88 1 -1 
+73 1 -1 
+137 1 -1 
+58 1 -1 
+106 1 -1 
+29 1 -1 
+111 1 -1 
+Functions: 9
+16 2 -1 20 
+49 1 36 
+23 1 20 
+89 2 20 92 
+57 5 -1 80 65 20 95 
+74 2 20 77 
+59 2 20 62 
+30 2 33 20 
+127 2 -1 20 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getGlyphOrientationAngle()I
+PTG:
+Vars:
+9
+r0 1 -1 
+$r6 1 3 
+r8 2 26 45 
+$r7 1 26 
+$r2 1 42 
+$r4 1 45 
+$r3 1 3 
+$r5 1 23 
+$r1 1 3 
+Fields: 1
+-1 aci 3
+Accesses: 3
+2 1 -1 
+19 1 -1 
+38 1 -1 
+Functions: 5
+20 2 3 23 
+6 1 3 
+39 2 3 42 
+58 2 26 45 
+12 2 -1 3 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.<init>(Ljava/text/AttributedCharacterIterator;[ILjava/awt/geom/Point2D;Ljava/awt/font/FontRenderContext;)V
+PTG:
+Vars:
+27
+$r12 1 126 
+$r23 1 91 
+$r20 1 59 
+$r17 1 147 
+$r11 1 110 
+$r21 1 218 
+$r7 1 77 
+$r5 1 59 
+$r8 1 91 
+r1 1 -2 
+$r15 1 144 
+$r13 1 129 
+$r3 1 46 
+$r9 1 102 
+$r24 1 180 
+r18 1 147 
+$r10 1 105 
+$r14 1 129 
+r6 1 -5 
+$r16 1 91 
+r4 1 -3 
+$r19 1 91 
+r0 1 -1 
+$r22 1 59 
+$r25 1 189 
+$r27 1 189 
+r2 1 -4 
+Fields: 3
+-1 aci 91
+-1 font 59
+-1 gv 189
+Accesses: 26
+197 1 -1 
+6 1 -1 
+200 1 -1 
+137 1 -1 
+11 1 -1 
+140 1 -1 
+16 1 -1 
+208 1 -1 
+82 1 -1 
+21 1 -1 
+214 1 -1 
+87 1 -1 
+26 1 -1 
+90 1 -1 
+31 1 -1 
+223 1 -1 
+36 1 -1 
+167 1 -1 
+41 1 -1 
+176 1 -1 
+49 1 -1 
+54 1 -1 
+121 1 -1 
+185 1 -1 
+58 1 -1 
+188 1 -1 
+Functions: 12
+1 4 -1 91 59 189 
+209 3 -5 59 91 
+163 3 147 -5 91 
+69 1 -2 
+101 2 -2 102 
+168 1 59 
+59 3 -2 -5 59 
+45 4 -1 91 59 189 
+125 2 -2 126 
+141 2 144 91 
+94 1 91 
+63 1 -2 
+Constructors: 1
+1 -1
+
+Summary: 6
+3 2 0 1 -5 -1 
+org/apache/batik/gvt/text/GlyphLayout.doExplicitGlyphLayout()V
+PTG:
+Vars:
+101
+$r53 1 162 
+r89 1 333 
+$r49 1 33 
+r101 1 1982 
+$r76 1 295 
+$r20 1 1 
+r0 1 -1 
+$r81 1 1 
+$r98 1 1617 
+$r75 1 281 
+$r54 1 162 
+$r9 1 162 
+r95 4 1517 1486 1574 1549 
+$r11 1 181 
+r88 1 320 
+$r2 1 33 
+$r7 1 106 
+$r66 1 230 
+r86 1 281 
+$r96 1 1 
+$r17 1 106 
+$r97 1 1 
+$r13 1 1 
+$r71 1 106 
+r87 1 298 
+$r62 1 213 
+$r3 1 33 
+$r63 1 106 
+r92 1 1040 
+$r41 2 638 616 
+r84 1 247 
+$r44 1 1030 
+$r58 1 33 
+r91 1 990 
+$r16 1 162 
+$r22 1 1 
+$r90 2 638 616 
+$r4 1 1 
+$r10 1 162 
+$r69 1 247 
+$r18 1 106 
+$r19 2 2263 1617 
+$r43 1 1 
+$r23 1 1 
+$r60 1 33 
+$r40 1 1351 
+$r106 2 2263 1617 
+r85 1 264 
+$r78 1 298 
+$r104 1 1 
+$r33 1 1549 
+$r73 1 278 
+$r5 1 1 
+$r82 1 20 
+$r36 1 1465 
+$r14 1 1683 
+$r52 1 878 
+r83 1 230 
+r24 1 1995 
+$r37 1 1 
+$r65 1 106 
+$r93 1 1 
+$r39 1 1 
+$r21 1 1 
+$r29 1 1 
+$r57 1 474 
+r99 1 1786 
+$r50 1 320 
+$r80 1 106 
+$r8 1 106 
+$r67 1 244 
+r6 1 75 
+$r15 1 162 
+$r105 1 1 
+$r72 1 264 
+$r45 1 33 
+$r47 1 1 
+$r1 1 1 
+r94 2 1458 1465 
+$r102 1 2155 
+$r51 1 861 
+$r46 1 33 
+$r77 1 106 
+$r61 1 33 
+$r64 1 227 
+$r38 1 1412 
+$r79 1 312 
+$r34 1 1517 
+r100 1 1799 
+$r31 1 1617 
+$r56 1 33 
+$r74 1 106 
+$r55 1 33 
+$r68 1 106 
+$r42 1 33 
+$r30 1 106 
+$r70 1 261 
+$r48 1 980 
+$r32 1 1 
+$r35 1 1486 
+$r59 1 33 
+Fields: 8
+-1 offset 162
+-1 aci 106
+-1 metrics 33
+-1 charMap 2263
+-1 charMap 1617
+-1 gv 1
+-1 textPath 616
+-1 textPath 638
+Accesses: 72
+0 1 -1 
+1024 1 -1 
+257 1 -1 
+769 1 -1 
+1666 1 181 
+2308 1 -1 
+1669 1 -1 
+520 1 -1 
+9 1 -1 
+2313 1 -1 
+2318 1 -1 
+16 1 -1 
+912 1 -1 
+529 1 -1 
+274 1 -1 
+1813 1 -1 
+1690 1 -1 
+32 1 -1 
+161 1 -1 
+291 1 -1 
+931 1 -1 
+422 1 -1 
+1702 1 -1 
+39 1 -1 
+1447 1 -1 
+1193 1 -1 
+171 1 -1 
+431 1 -1 
+1583 1 -1 
+1714 1 -1 
+51 1 -1 
+1971 1 -1 
+308 1 -1 
+1210 1 181 
+1722 1 -1 
+572 1 -1 
+61 1 -1 
+701 1 -1 
+1341 1 -1 
+1598 1 -1 
+1984 1 -1 
+961 1 -1 
+322 1 -1 
+1220 1 181 
+2244 1 -1 
+1223 1 -1 
+974 1 -1 
+1616 1 -1 
+209 1 -1 
+2262 1 -1 
+1624 1 -1 
+2270 1 -1 
+223 1 -1 
+1633 1 -1 
+1250 1 -1 
+615 1 -1 
+2279 1 -1 
+1128 1 -1 
+105 1 -1 
+2026 1 -1 
+1775 1 -1 
+240 1 -1 
+374 1 -1 
+119 1 -1 
+1143 1 -1 
+1402 1 -1 
+2170 1 -1 
+1659 1 181 
+1788 1 -1 
+637 1 -1 
+383 1 -1 
+2303 1 -1 
+Functions: 125
+513 1 333 
+1025 1 1 
+258 2 261 106 
+770 1 162 
+4 1 1 
+1284 1 333 
+1540 0 
+1030 1 1030 
+521 1 33 
+780 1 247 
+17 1 1 
+530 1 33 
+275 2 278 106 
+20 1 20 
+1560 1 1549 
+1049 1 1040 
+795 1 281 
+1307 1 333 
+33 1 33 
+1570 0 
+292 2 295 106 
+805 1 281 
+1062 1 1040 
+40 1 33 
+1832 1 1799 
+43 0 
+1324 1 333 
+1580 6 1458 1574 1465 1517 1549 1486 
+52 1 1 
+309 2 312 106 
+1334 1 333 
+1591 3 1 1458 1465 
+62 1 1 
+1599 1 1 
+1089 1 1040 
+323 1 1 
+1861 1 1799 
+1350 0 
+584 9 -1 33 1617 1 162 2263 616 106 638 
+1354 2 1 1351 
+1102 1 1040 
+1871 1 1799 
+82 9 -1 33 1617 1 162 2263 616 106 638 
+340 9 -1 33 1617 1 162 2263 616 106 638 
+1887 1 1799 
+96 9 -1 33 1617 1 162 2263 616 106 638 
+352 9 -1 33 1617 1 162 2263 616 106 638 
+608 0 
+1377 1 333 
+1634 1 106 
+1129 1 33 
+106 1 106 
+367 1 333 
+1904 1 1799 
+1395 1 333 
+2165 1 2155 
+630 0 
+375 1 33 
+120 1 106 
+1144 1 33 
+384 1 33 
+2178 2 1 2155 
+1411 0 
+1415 2 1 1412 
+904 1 320 
+1928 1 1799 
+652 1 298 
+1677 2 1 181 
+1423 1 333 
+1936 1 1786 
+1172 1 333 
+667 1 298 
+1691 1 162 
+1948 1 1786 
+415 1 333 
+1440 0 
+162 1 162 
+423 1 33 
+1703 1 162 
+1448 1 1 
+682 1 230 
+1194 1 33 
+172 1 162 
+1711 1 1683 
+432 1 33 
+1972 1 1 
+950 9 -1 33 1617 1 162 2263 616 106 638 
+695 1 230 
+185 1 181 
+1723 1 106 
+1469 1 1465 
+702 1 162 
+1985 1 1 
+962 1 33 
+1477 0 
+2245 1 1 
+712 1 230 
+1997 1 1982 
+975 1 1 
+1231 2 1 181 
+210 2 213 106 
+980 1 980 
+1236 0 
+1748 0 
+2005 1 1982 
+727 1 264 
+472 1 333 
+1497 1 1486 
+474 1 474 
+224 2 227 106 
+737 1 264 
+994 1 990 
+2019 1 1995 
+1508 0 
+2280 1 106 
+750 1 247 
+1007 1 990 
+1776 1 1 
+241 2 244 106 
+1265 9 -1 33 1617 1 162 2263 616 106 638 
+504 9 -1 33 1617 1 162 2263 616 106 638 
+1529 1 1517 
+1274 1 333 
+763 1 247 
+1789 1 1 
+Constructors: 7
+2165 2155
+1560 1549
+185 181
+1497 1486
+1529 1517
+1469 1465
+1711 1683
+
+Summary: 7
+1486 181 1549 1517 -1 1465 2155 
+org/apache/batik/gvt/text/GlyphLayout.getAdvance2D()Ljava/awt/geom/Point2D;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 5 
+$r1 1 5 
+Fields: 1
+-1 advance 5
+Accesses: 1
+4 1 -1 
+Functions: 1
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.mergeAreas(Ljava/awt/geom/GeneralPath;[Ljava/awt/geom/Area;I)V
+PTG:
+Vars:
+8
+r1 1 -3 
+$r2 1 87 
+$r4 1 63 
+r0 1 -2 
+$r5 1 25 
+$r3 1 68 
+$r6 1 21 
+$r7 1 39 
+Fields: 6
+-3 ArrayObject 63
+-3 ArrayObject 25
+-3 ArrayObject 21
+-3 ArrayObject 39
+-3 ArrayObject 87
+-3 ArrayObject 68
+Accesses: 0
+Functions: 3
+69 2 68 63 
+89 2 -2 87 
+26 2 21 25 
+Constructors: 0
+
+Summary: 7
+25 63 -3 -2 21 68 87 
+org/apache/batik/gvt/text/GlyphLayout.applyStretchTransform(Z)V
+PTG:
+Vars:
+14
+r12 1 179 
+$r8 1 232 
+r1 1 32 
+r4 1 57 
+$r3 1 34 
+r0 1 -1 
+$r11 1 34 
+$r14 1 34 
+$r5 1 71 
+$r10 1 34 
+$r13 1 34 
+$r7 1 227 
+$r9 1 232 
+$r2 1 34 
+Fields: 2
+-1 advance 232
+-1 gv 34
+Accesses: 20
+0 1 -1 
+192 1 -1 
+33 1 -1 
+262 1 -1 
+231 1 -1 
+136 1 -1 
+168 1 -1 
+9 1 -1 
+43 1 -1 
+267 1 -1 
+142 1 71 
+238 1 -1 
+208 1 -1 
+145 1 -1 
+19 1 -1 
+245 1 -1 
+24 1 -1 
+121 1 -1 
+252 1 -1 
+127 1 71 
+Functions: 12
+34 1 34 
+259 1 227 
+246 1 232 
+215 2 32 34 
+200 2 34 179 
+232 1 232 
+153 2 34 71 
+169 1 34 
+75 1 71 
+28 0 
+44 1 34 
+189 2 32 179 
+Constructors: 2
+259 227
+75 71
+
+Summary: 2
+-1 71 
+org/apache/batik/gvt/text/GlyphLayout.<clinit>()V
+PTG:
+Vars:
+37
+$r11 1 66 
+$r23 1 136 
+$r4 1 24 
+$r13 1 78 
+$r1 1 6 
+$r25 1 148 
+$r26 1 163 
+$r6 1 36 
+$r18 1 115 
+$r7 1 42 
+$r22 1 139 
+$r24 1 151 
+$r29 1 172 
+$r32 1 194 
+$r21 1 124 
+$r0 1 0 
+$r15 1 90 
+$r3 1 18 
+$r9 1 54 
+$r35 1 221 
+$r33 1 209 
+$r12 1 72 
+$r36 1 218 
+$r17 1 102 
+$r5 1 30 
+$r34 1 206 
+$r2 1 12 
+$r8 1 48 
+$r31 1 197 
+$r20 1 127 
+$r30 1 184 
+$r10 1 60 
+$r19 1 112 
+$r28 1 175 
+$r14 1 84 
+$r16 1 96 
+$r27 1 160 
+Fields: 0
+Accesses: 0
+Functions: 11
+224 2 218 221 
+130 2 124 127 
+178 2 172 175 
+212 2 209 206 
+118 2 112 115 
+166 2 160 163 
+200 2 194 197 
+106 1 102 
+154 2 148 151 
+188 1 184 
+142 2 136 139 
+Constructors: 2
+106 102
+188 184
+
+Summary: 0
+
+org/apache/batik/gvt/text/GlyphLayout.getFont()Lorg/apache/batik/gvt/font/GVTFont;
+PTG:
+Vars:
+10
+$r3 1 1 
+$r6 1 32 
+$r1 1 1 
+$r2 1 14 
+$r4 1 17 
+_ret 1 32 
+$r8 1 40 
+r0 1 -1 
+$r7 1 1 
+r5 1 17 
+Fields: 1
+-1 aci 1
+Accesses: 3
+0 1 -1 
+36 1 -1 
+10 1 -1 
+Functions: 4
+4 1 1 
+37 1 1 
+11 2 1 14 
+45 2 32 40 
+Constructors: 1
+45 32
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getGeometricBounds()Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+7
+$r5 1 28 
+r0 1 -1 
+_ret 1 28 
+r2 1 13 
+$r3 1 17 
+$r1 1 5 
+r4 1 25 
+Fields: 1
+-1 gv 5
+Accesses: 1
+4 1 -1 
+Functions: 5
+1 2 -1 5 
+17 1 17 
+5 1 5 
+26 2 25 13 
+14 2 -1 5 
+Constructors: 0
+
+Summary: 4
+13 25 17 -1 
+org/apache/batik/gvt/text/GlyphLayout.getTextPathAdvance()Ljava/awt/geom/Point2D;
+PTG:
+Vars:
+4
+r0 1 -1 
+_ret 1 17 
+$r1 1 5 
+$r2 1 17 
+Fields: 1
+-1 textPath 5
+Accesses: 2
+4 1 -1 
+11 1 -1 
+Functions: 2
+16 2 -1 5 
+1 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getHighlightShape(II)Ljava/awt/Shape;
+PTG:
+Vars:
+21
+r0 1 -1 
+$r11 1 388 
+$r14 1 420 
+r18 1 114 
+r8 1 124 
+$r12 1 398 
+$r15 1 228 
+r7 1 103 
+$r13 1 410 
+r9 1 142 
+$r4 1 58 
+r19 1 228 
+$r17 1 114 
+r2 1 36 
+_ret 1 114 
+r1 1 27 
+$r3 1 58 
+$r6 1 79 
+$r5 1 79 
+$r20 1 58 
+$r10 1 380 
+Fields: 7
+-1 charMap 58
+-1 gv 79
+27 ArrayObject 388
+27 ArrayObject 410
+27 ArrayObject 420
+27 ArrayObject 398
+36 ArrayObject 380
+Accesses: 11
+212 1 228 
+388 1 388 
+420 1 420 
+469 1 -1 
+199 1 228 
+57 1 -1 
+410 1 410 
+92 1 -1 
+477 1 -1 
+78 1 -1 
+398 1 398 
+Functions: 15
+1 3 -1 58 79 
+451 2 114 103 
+134 1 103 
+358 1 142 
+456 3 -1 58 79 
+366 1 142 
+79 1 79 
+240 1 228 
+17 3 -1 58 79 
+147 1 142 
+499 8 114 388 420 36 410 27 380 398 
+118 1 114 
+441 8 114 388 420 36 410 27 380 398 
+93 1 79 
+157 2 124 142 
+Constructors: 2
+240 228
+118 114
+
+Summary: 11
+398 388 -1 27 36 380 103 410 420 124 142 
+org/apache/batik/gvt/text/GlyphLayout.setScale(FFZ)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 10
+0 1 -1 
+33 1 -1 
+67 1 -1 
+52 1 -1 
+24 1 -1 
+57 1 -1 
+42 1 -1 
+62 1 -1 
+15 1 -1 
+47 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.isVertical()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.isLeftToRight()Z
+PTG:
+Vars:
+6
+$r4 1 17 
+$r3 1 1 
+r0 1 -1 
+$r1 1 1 
+$r2 1 14 
+$r5 1 17 
+Fields: 1
+-1 aci 1
+Accesses: 2
+0 1 -1 
+10 1 -1 
+Functions: 3
+4 1 1 
+22 1 17 
+11 2 1 14 
+Constructors: 0
+
+Summary: 2
+17 -1 
+org/apache/batik/gvt/text/GlyphLayout.getBounds2D()Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+5
+$r1 1 9 
+r0 1 -1 
+_ret 1 12 
+$r2 1 5 
+$r3 1 12 
+Fields: 2
+-1 aci 9
+-1 gv 5
+Accesses: 2
+4 1 -1 
+8 1 -1 
+Functions: 2
+1 3 -1 5 9 
+5 2 5 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.makeConvexHull([Ljava/awt/geom/Point2D$Float;I)I
+PTG:
+Vars:
+27
+r22 1 544 
+r15 1 90 
+$r27 1 840 
+$r14 1 53 
+r0 1 -2 
+$r5 1 170 
+r24 1 567 
+r25 1 694 
+$r13 1 45 
+$r12 1 35 
+r19 1 253 
+r16 1 96 
+r20 1 397 
+$r11 1 27 
+r21 1 405 
+r23 1 559 
+r17 3 405 253 195 
+r9 1 64 
+$r10 1 71 
+$r1 1 98 
+r18 1 245 
+r26 1 702 
+$r6 1 860 
+r3 1 151 
+$r8 1 17 
+r4 1 157 
+$r7 1 9 
+Fields: 23
+157 ArrayObject 253
+157 ArrayObject 567
+157 ArrayObject 860
+157 ArrayObject 559
+157 ArrayObject 245
+-2 ArrayObject 170
+-2 ArrayObject 53
+-2 ArrayObject 45
+-2 ArrayObject 64
+-2 ArrayObject 840
+-2 ArrayObject 35
+-2 ArrayObject 544
+-2 ArrayObject 96
+-2 ArrayObject 27
+-2 ArrayObject 17
+-2 ArrayObject 90
+-2 ArrayObject 9
+-2 ArrayObject 71
+-2 ArrayObject 195
+151 ArrayObject 405
+151 ArrayObject 694
+151 ArrayObject 702
+151 ArrayObject 397
+Accesses: 58
+132 1 90 
+260 1 245 
+9 1 9 
+137 1 98 
+267 1 253 
+142 1 90 
+655 1 567 
+272 1 245 
+17 1 17 
+660 1 544 
+790 1 702 
+407 1 405 
+281 1 245 
+27 1 27 
+795 1 544 
+412 1 397 
+288 1 245 
+35 1 35 
+419 1 405 
+424 1 397 
+298 3 195 405 253 
+45 1 45 
+433 1 397 
+306 3 195 405 253 
+53 1 53 
+440 1 397 
+569 1 567 
+574 1 559 
+704 1 702 
+450 3 195 405 253 
+197 1 98 
+581 1 567 
+709 1 694 
+202 3 195 405 253 
+458 3 195 405 253 
+586 1 559 
+716 1 702 
+208 1 98 
+721 1 694 
+595 1 559 
+213 3 195 405 253 
+341 1 253 
+346 3 195 405 253 
+602 1 559 
+730 1 694 
+737 1 694 
+612 1 544 
+102 1 96 
+107 1 90 
+747 1 544 
+620 1 544 
+493 1 405 
+112 1 96 
+498 3 195 405 253 
+755 1 544 
+117 1 90 
+127 1 98 
+255 1 253 
+Functions: 2
+823 20 64 544 96 -2 35 195 71 840 9 170 397 45 17 405 53 694 151 90 27 702 
+122 1 98 
+Constructors: 1
+122 98
+
+Summary: 19
+702 559 35 544 96 98 245 -2 151 53 45 567 27 17 157 397 9 90 694 
+org/apache/batik/gvt/text/GlyphLayout.doPathLayout()V
+PTG:
+Vars:
+39
+r35 1 639 
+$r37 1 85 
+$r12 1 251 
+$r30 1 737 
+$r24 1 25 
+$r14 1 85 
+$r32 1 540 
+$r6 1 85 
+$r36 1 85 
+$r27 1 85 
+r23 1 404 
+$r38 1 85 
+$r16 1 799 
+$r2 1 25 
+$r17 1 85 
+r0 1 -1 
+$r40 1 85 
+$r22 1 394 
+$r15 1 827 
+$r4 1 25 
+$r5 1 85 
+$r3 1 25 
+$r7 1 149 
+$r26 1 85 
+$r21 1 85 
+$r9 1 85 
+$r31 1 25 
+$r34 1 85 
+$r29 1 251 
+$r13 1 855 
+r10 1 198 
+$r19 1 85 
+$r11 1 251 
+r25 1 522 
+$r39 1 131 
+r18 1 302 
+r20 1 323 
+r41 1 792 
+$r28 1 737 
+Fields: 4
+-1 aci 251
+-1 charMap 737
+-1 gv 85
+-1 textPath 25
+Accesses: 36
+0 1 -1 
+513 1 -1 
+66 1 -1 
+388 1 -1 
+261 1 -1 
+8 1 -1 
+75 1 -1 
+653 1 -1 
+781 1 -1 
+718 1 -1 
+848 1 -1 
+145 1 -1 
+529 1 -1 
+84 1 -1 
+24 1 -1 
+666 1 -1 
+736 1 -1 
+864 1 -1 
+33 1 -1 
+291 1 -1 
+869 1 -1 
+744 1 -1 
+105 1 -1 
+874 1 -1 
+879 1 -1 
+176 1 -1 
+753 1 -1 
+690 1 -1 
+180 1 -1 
+628 1 -1 
+820 1 -1 
+310 1 -1 
+184 1 -1 
+250 1 -1 
+188 1 -1 
+127 1 -1 
+Functions: 62
+128 1 85 
+514 1 25 
+131 1 131 
+259 1 251 
+389 1 85 
+262 1 251 
+394 1 394 
+650 2 540 639 
+782 1 85 
+16 5 -1 737 85 25 251 
+146 1 85 
+530 1 25 
+20 5 -1 737 85 25 251 
+149 1 149 
+661 2 85 540 
+406 1 404 
+414 1 404 
+544 1 540 
+674 2 85 522 
+803 1 792 
+292 1 85 
+37 5 -1 737 85 25 251 
+812 1 792 
+558 1 540 
+432 1 404 
+817 1 799 
+50 5 -1 737 85 25 251 
+311 1 85 
+697 1 85 
+189 1 85 
+573 1 540 
+831 1 792 
+448 1 302 
+65 5 -1 737 85 25 251 
+67 1 25 
+836 1 792 
+329 1 323 
+586 1 540 
+76 1 25 
+845 1 827 
+334 1 302 
+207 1 198 
+719 1 85 
+467 1 404 
+85 1 85 
+598 1 540 
+215 1 198 
+343 1 323 
+348 1 302 
+861 1 855 
+483 1 302 
+612 1 540 
+230 1 198 
+360 1 323 
+365 1 302 
+238 1 198 
+112 1 85 
+625 1 540 
+629 1 85 
+374 1 323 
+379 1 302 
+767 1 251 
+Constructors: 4
+544 540
+817 799
+845 827
+861 855
+
+Summary: 2
+-1 540 
+org/apache/batik/gvt/text/GlyphLayout.syncLayout()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 1
+8 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getGlyphAdvances()[F
+PTG:
+Vars:
+9
+r0 1 -1 
+$r1 1 1 
+$r2 1 24 
+$r7 1 1 
+$r6 1 1 
+$r3 1 24 
+_ret 1 1 
+r4 1 47 
+$r5 1 52 
+Fields: 2
+-1 glyphAdvances 1
+-1 gv 24
+Accesses: 8
+0 1 -1 
+33 1 -1 
+84 1 -1 
+54 1 -1 
+7 1 -1 
+23 1 -1 
+12 1 -1 
+108 1 -1 
+Functions: 4
+34 1 24 
+20 3 -1 1 24 
+24 1 24 
+59 3 -1 1 24 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getOffset()Ljava/awt/geom/Point2D;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 offset 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.getDecorationOutline(I)Ljava/awt/Shape;
+PTG:
+Vars:
+9
+$r7 1 4 
+$r4 1 59 
+r0 1 -1 
+_ret 1 4 
+$r6 1 41 
+$r8 1 23 
+$r1 1 4 
+$r5 1 4 
+$r3 1 4 
+Fields: 0
+Accesses: 0
+Functions: 8
+1 1 -1 
+22 1 -1 
+8 1 4 
+40 1 -1 
+58 1 -1 
+27 2 4 23 
+45 2 4 41 
+63 2 4 59 
+Constructors: 1
+8 4
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.epsEQ(DD)Z
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/apache/batik/gvt/text/GlyphLayout.getLineMetrics()Lorg/apache/batik/gvt/font/GVTLineMetrics;
+PTG:
+Vars:
+3
+_ret 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 metrics 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.isGlyphOrientationAuto()Z
+PTG:
+Vars:
+6
+r5 1 26 
+r0 1 -1 
+$r1 1 10 
+$r4 1 26 
+$r3 1 10 
+$r2 1 23 
+Fields: 1
+-1 aci 10
+Accesses: 2
+19 1 -1 
+9 1 -1 
+Functions: 3
+0 2 -1 10 
+20 2 23 10 
+13 1 10 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/batik/gvt/text/GlyphLayout.doSpacing(Ljava/lang/Float;Ljava/lang/Float;Ljava/lang/Float;)Ljava/awt/geom/Point2D;
+PTG:
+Vars:
+53
+$r29 1 488 
+$r35 1 70 
+r46 1 209 
+$r11 1 70 
+r51 2 751 676 
+r3 1 -1 
+r47 1 248 
+$r9 1 70 
+$r26 1 956 
+r4 1 90 
+$r8 1 1099 
+$r28 1 474 
+$r48 1 434 
+$r41 1 154 
+$r30 1 70 
+r52 1 989 
+$r20 1 70 
+$r12 1 1131 
+$r17 1 1029 
+$r27 1 889 
+$r16 1 70 
+r50 2 622 738 
+_ret 1 1155 
+$r24 1 70 
+$r7 1 70 
+$r38 1 135 
+r2 1 -4 
+$r23 1 680 
+$r15 1 1155 
+$r13 1 70 
+r1 1 -3 
+r0 1 -2 
+$r22 1 70 
+$r42 1 140 
+$r10 1 1112 
+$r39 1 140 
+$r43 1 70 
+$r19 1 1069 
+$r33 1 -1 
+$r32 1 70 
+$r14 1 1144 
+$r21 1 70 
+r49 3 572 622 738 
+$r40 1 70 
+$r44 1 182 
+$r25 1 70 
+r36 2 105 248 
+$r18 1 1055 
+$r6 1 70 
+$r45 1 70 
+$r31 1 70 
+$r37 1 70 
+$r34 1 70 
+Fields: 6
+90 ArrayObject 474
+90 ArrayObject 488
+90 ArrayObject 1055
+90 ArrayObject 1069
+-1 advance 140
+-1 gv 70
+Accesses: 26
+1091 1 -1 
+69 1 -1 
+261 1 -1 
+200 1 -1 
+139 1 -1 
+336 1 -1 
+146 1 -1 
+978 1 -1 
+1107 1 -1 
+727 1 -1 
+665 1 -1 
+478 1 -1 
+95 1 -1 
+611 1 -1 
+1059 1 -1 
+1123 1 -1 
+740 1 -1 
+167 1 -1 
+107 1 -1 
+237 1 -1 
+174 1 -1 
+562 1 -1 
+1139 1 -1 
+500 1 -1 
+820 1 -1 
+309 1 -1 
+Functions: 79
+768 3 738 572 622 
+641 2 738 622 
+897 1 889 
+514 1 135 
+262 1 70 
+390 1 209 
+647 3 738 572 622 
+776 3 738 572 622 
+1161 1 135 
+140 1 140 
+1037 1 1029 
+910 2 738 622 
+527 1 135 
+784 2 738 622 
+1169 1 135 
+274 1 248 
+19 1 -2 
+147 1 70 
+915 3 738 572 622 
+535 1 135 
+1175 1 1155 
+280 2 248 105 
+26 1 -2 
+154 1 154 
+666 1 70 
+924 2 738 622 
+289 1 248 
+929 3 738 572 622 
+802 2 738 622 
+548 1 135 
+678 2 676 751 
+39 1 -3 
+295 2 248 105 
+168 1 140 
+680 1 680 
+553 1 135 
+46 1 -3 
+1070 2 70 1069 
+175 1 70 
+563 1 70 
+693 2 676 751 
+182 1 182 
+442 1 434 
+59 1 -4 
+829 1 -4 
+574 3 738 572 622 
+1088 1 -1 
+195 1 135 
+964 1 956 
+1092 1 70 
+70 1 70 
+582 3 738 572 622 
+201 1 70 
+1099 1 1099 
+847 1 -4 
+979 1 70 
+1108 1 70 
+728 1 70 
+1112 1 1112 
+96 1 70 
+352 1 209 
+993 1 989 
+612 1 70 
+1124 1 70 
+741 1 70 
+998 3 738 572 622 
+489 2 70 488 
+1131 1 1131 
+108 1 70 
+238 1 70 
+626 2 738 622 
+1010 1 989 
+1140 1 70 
+119 2 248 105 
+1015 3 738 572 622 
+632 3 738 572 622 
+1144 1 1144 
+509 1 135 
+127 2 248 105 
+Constructors: 6
+897 889
+195 135
+964 956
+1175 1155
+442 434
+1037 1029
+
+Summary: 13
+90 0 2 1069 135 -2 1055 1 -3 -1 488 474 -4 

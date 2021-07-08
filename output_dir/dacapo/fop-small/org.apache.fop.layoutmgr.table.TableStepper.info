@@ -1,0 +1,851 @@
+19
+org/apache/fop/layoutmgr/table/TableStepper.computeMinStep()I
+PTG:
+Vars:
+5
+$r1 1 6 
+$r3 1 25 
+r2 1 14 
+r4 1 25 
+r0 1 -1 
+Fields: 1
+-1 activeCells 6
+Accesses: 1
+5 1 -1 
+Functions: 5
+50 0 
+35 1 25 
+6 1 6 
+24 1 14 
+15 1 14 
+Constructors: 0
+
+Summary: 2
+-1 25 
+org/apache/fop/layoutmgr/table/TableStepper.activateCells(Ljava/util/List;I)V
+PTG:
+Vars:
+8
+$r5 1 44 
+$r7 1 60 
+r4 1 -2 
+$r6 1 25 
+$r1 1 1 
+r2 1 6 
+r3 1 25 
+r0 1 -1 
+Fields: 2
+-1 rowGroup 1
+1 ArrayObject 6
+Accesses: 3
+0 1 -1 
+55 1 -1 
+12 1 -1 
+Functions: 6
+66 2 -2 44 
+19 1 6 
+35 1 25 
+27 1 25 
+59 3 -1 1 6 
+63 4 6 25 44 60 
+Constructors: 1
+63 44
+
+Summary: 6
+-2 -1 0 60 25 44 
+org/apache/fop/layoutmgr/table/TableStepper.getTableLM()Lorg/apache/fop/layoutmgr/table/TableLayoutManager;
+PTG:
+Vars:
+4
+r0 1 -1 
+$r1 1 1 
+_ret 1 4 
+$r2 1 4 
+Fields: 1
+-1 tclm 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableStepper.signalRowFirstStep()V
+PTG:
+Vars:
+5
+r0 1 -1 
+r2 1 9 
+$r3 1 20 
+r4 1 20 
+$r1 1 1 
+Fields: 1
+-1 activeCells 1
+Accesses: 2
+0 1 -1 
+30 1 -1 
+Functions: 4
+1 1 1 
+34 1 20 
+19 1 9 
+10 1 9 
+Constructors: 0
+
+Summary: 2
+-1 20 
+org/apache/fop/layoutmgr/table/TableStepper.<init>(Lorg/apache/fop/layoutmgr/table/TableContentLayoutManager;)V
+PTG:
+Vars:
+6
+$r2 1 16 
+$r1 1 5 
+$r5 1 36 
+r3 1 -2 
+$r4 1 33 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+23 1 -1 
+42 1 -1 
+12 1 -1 
+28 1 -1 
+Functions: 6
+32 1 -2 
+1 1 -1 
+33 1 33 
+20 1 16 
+36 1 36 
+9 1 5 
+Constructors: 3
+1 -1
+20 16
+9 5
+
+Summary: 4
+33 -1 0 36 
+org/apache/fop/layoutmgr/table/TableStepper.considerRowLastStep(I)I
+PTG:
+Vars:
+27
+$r5 1 6 
+$r7 1 232 
+$r9 1 185 
+$r15 1 80 
+r23 1 128 
+r22 1 25 
+$r19 1 107 
+$r8 1 188 
+$r2 1 69 
+$r14 1 83 
+$r6 1 277 
+$r1 1 6 
+$r18 1 99 
+r21 1 14 
+$r17 1 96 
+$r13 1 139 
+$r20 1 25 
+r26 1 232 
+$r4 1 174 
+$r16 1 92 
+$r3 1 6 
+r24 1 139 
+$r10 1 197 
+r0 1 -1 
+$r12 1 204 
+r25 1 221 
+$r11 1 201 
+Fields: 1
+-1 activeCells 6
+Accesses: 12
+289 1 -1 
+2 1 -1 
+35 1 -1 
+212 1 -1 
+244 1 -1 
+5 1 -1 
+119 1 -1 
+151 1 -1 
+56 1 -1 
+45 1 -1 
+253 1 -1 
+62 1 -1 
+Functions: 32
+192 1 188 
+129 1 128 
+69 1 69 
+197 1 197 
+6 1 6 
+201 1 201 
+138 1 128 
+266 1 232 
+15 1 14 
+207 2 185 204 
+83 1 83 
+149 1 139 
+213 1 6 
+87 1 83 
+24 1 14 
+282 1 277 
+92 1 92 
+222 1 221 
+96 1 96 
+34 1 25 
+162 1 139 
+164 0 
+102 2 80 99 
+231 1 221 
+295 2 -1 6 
+174 1 174 
+112 1 107 
+50 1 25 
+120 1 6 
+248 1 232 
+251 1 232 
+188 1 188 
+Constructors: 2
+192 188
+87 83
+
+Summary: 8
+-1 99 139 204 201 96 25 232 
+org/apache/fop/layoutmgr/table/TableStepper.getFirstStep()I
+PTG:
+Vars:
+2
+$r1 1 2 
+r0 1 -1 
+Fields: 1
+-1 activeCells 2
+Accesses: 2
+1 1 -1 
+13 1 -1 
+Functions: 4
+5 2 -1 2 
+23 2 -1 2 
+9 2 -1 2 
+12 2 -1 2 
+Constructors: 0
+
+Summary: 1
+-1 
+org/apache/fop/layoutmgr/table/TableStepper.setup([Lorg/apache/fop/fo/flow/table/EffRow;)V
+PTG:
+Vars:
+4
+$r2 1 16 
+r1 1 -2 
+r0 1 -1 
+$r3 1 25 
+Fields: 2
+-1 nextActiveCells 25
+-1 activeCells 16
+Accesses: 8
+2 1 -1 
+35 1 -1 
+7 1 -1 
+24 1 -1 
+40 1 -1 
+12 1 -1 
+45 1 -1 
+15 1 -1 
+Functions: 2
+19 1 16 
+28 1 25 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/apache/fop/layoutmgr/table/TableStepper.calcTotalHeight()V
+PTG:
+Vars:
+11
+$r6 1 73 
+$r1 1 9 
+$r3 1 57 
+$r2 1 43 
+$r10 1 27 
+$r7 1 76 
+$r9 1 26 
+r0 1 -1 
+$r4 1 54 
+$r8 1 9 
+$r5 1 66 
+Fields: 2
+9 ArrayObject 26
+-1 rowGroup 9
+Accesses: 7
+16 1 -1 
+2 1 -1 
+34 1 -1 
+21 1 -1 
+69 1 -1 
+8 1 -1 
+27 1 27 
+Functions: 7
+66 1 66 
+57 1 57 
+73 1 73 
+26 1 26 
+43 1 43 
+61 1 57 
+79 2 54 76 
+Constructors: 1
+61 57
+
+Summary: 4
+-1 27 73 76 
+org/apache/fop/layoutmgr/table/TableStepper.getCombinedKnuthElementsForRowGroup(Lorg/apache/fop/layoutmgr/LayoutContext;[Lorg/apache/fop/fo/flow/table/EffRow;I)Ljava/util/LinkedList;
+PTG:
+Vars:
+79
+$r36 1 450 
+$r48 1 122 
+$r38 1 450 
+$r42 1 368 
+$r26 1 336 
+$r53 1 146 
+_ret 1 24 
+$r5 1 89 
+r17 1 -2 
+$r44 1 103 
+$r67 1 196 
+$r57 1 223 
+$r31 1 435 
+$r55 1 163 
+r14 1 523 
+r0 1 -1 
+$r10 1 343 
+$r80 1 336 
+$r46 1 112 
+$r62 1 248 
+$r23 1 632 
+$r66 1 191 
+$r65 1 179 
+r75 1 310 
+$r72 1 7 
+r30 1 537 
+$r12 1 417 
+$r50 1 135 
+$r64 1 182 
+$r9 1 336 
+$r61 1 242 
+$r21 1 718 
+$r54 1 158 
+$r3 1 24 
+$r45 1 100 
+$r39 1 450 
+$r29 1 537 
+$r79 1 7 
+$r13 1 422 
+$r83 1 699 
+$r68 1 201 
+$r81 1 674 
+$r58 1 220 
+$r56 1 166 
+$r32 1 438 
+$r47 1 117 
+r73 1 281 
+$r52 1 149 
+$r70 1 209 
+$r2 1 7 
+$r8 1 330 
+$r27 1 595 
+$r24 1 336 
+r1 1 -3 
+$r59 1 232 
+$r37 1 502 
+$r41 1 336 
+$r11 1 393 
+$r69 1 206 
+$r51 1 138 
+$r60 1 237 
+$r28 1 566 
+$r35 1 450 
+$r63 1 251 
+$r33 1 472 
+$r49 1 130 
+$r7 1 325 
+$r22 1 336 
+$r19 1 781 
+$r20 1 790 
+$r15 1 336 
+$r40 1 465 
+r74 1 295 
+$r16 1 752 
+$r82 1 336 
+$r71 1 259 
+$r43 1 295 
+$r25 1 649 
+$r34 1 475 
+Fields: 10
+336 ArrayObject 343
+336 ArrayObject 699
+336 ArrayObject 649
+336 ArrayObject 674
+336 ArrayObject 368
+336 ArrayObject 632
+336 ArrayObject 595
+-1 rowGroup 336
+-1 activeCells 7
+-1 tclm 450
+Accesses: 37
+449 1 -1 
+514 1 -1 
+706 1 -1 
+643 1 -1 
+580 1 -1 
+709 1 -1 
+6 1 -1 
+263 1 -1 
+587 1 -1 
+461 1 -1 
+335 1 -1 
+591 1 -1 
+272 1 -1 
+339 1 -1 
+468 1 417 
+662 1 -1 
+666 1 -1 
+349 1 -1 
+733 1 -1 
+670 1 -1 
+610 1 -1 
+358 1 -1 
+486 1 -1 
+614 1 -1 
+742 1 -1 
+681 1 -1 
+362 1 -1 
+685 1 -1 
+624 1 -1 
+689 1 -1 
+498 1 -1 
+628 1 -1 
+53 1 -1 
+693 1 -1 
+505 1 417 
+762 1 -1 
+639 1 -1 
+Functions: 85
+384 1 325 
+2 12 -1 336 368 450 674 -3 595 7 343 632 649 699 
+130 1 130 
+770 2 752 24 
+515 1 7 
+135 1 135 
+649 1 649 
+11 11 -1 336 368 450 674 595 7 343 632 649 699 
+267 1 259 
+141 2 100 138 
+525 1 523 
+15 11 -1 336 368 450 674 595 7 343 632 649 699 
+273 1 7 
+402 2 325 393 
+149 1 149 
+405 2 24 393 
+535 1 523 
+153 1 149 
+410 0 
+283 1 281 
+795 1 790 
+28 1 24 
+158 1 158 
+799 2 790 781 
+674 1 674 
+802 2 24 781 
+163 1 163 
+675 0 
+36 11 -1 336 368 450 674 595 7 343 632 649 699 
+293 1 281 
+421 11 -1 336 368 450 674 595 7 343 632 649 699 
+549 1 537 
+169 2 146 166 
+425 2 417 422 
+42 11 -1 336 368 450 674 595 7 343 632 649 699 
+810 11 -1 336 368 450 674 595 7 343 632 649 699 
+305 1 295 
+434 11 -1 336 368 450 674 595 7 343 632 649 699 
+435 1 435 
+565 11 -1 336 368 450 674 595 7 343 632 649 699 
+182 1 182 
+438 1 438 
+566 1 566 
+186 1 182 
+699 1 699 
+827 1 24 
+316 2 259 310 
+700 0 
+191 1 191 
+66 0 
+450 1 450 
+196 1 196 
+839 0 
+201 1 201 
+329 11 -1 336 368 450 674 595 7 343 632 649 699 
+206 1 206 
+462 1 450 
+847 1 325 
+81 0 
+595 1 595 
+723 1 718 
+212 2 209 179 
+471 11 -1 336 368 450 674 595 7 343 632 649 699 
+344 4 259 325 343 330 
+472 1 472 
+89 1 89 
+475 1 475 
+223 1 223 
+227 1 223 
+103 1 103 
+487 1 450 
+232 1 232 
+107 1 103 
+237 1 237 
+112 1 112 
+369 2 368 325 
+242 1 242 
+499 1 450 
+372 1 24 
+117 1 117 
+248 1 248 
+632 1 632 
+122 1 122 
+254 2 251 220 
+767 3 752 417 -2 
+Constructors: 12
+402 393
+227 223
+344 325
+153 149
+425 417
+186 182
+107 103
+267 259
+795 790
+28 24
+767 752
+799 781
+
+Summary: 32
+-3 566 393 281 166 295 259 523 209 781 325 438 330 475 310 537 752 206 248 417 138 422 435 -1 790 163 -2 135 0 1 472 251 
+org/apache/fop/layoutmgr/table/TableStepper.<clinit>()V
+PTG:
+Vars:
+5
+$r0 1 0 
+$r3 2 8 18 
+$r2 1 56 
+$r4 2 43 53 
+$r1 1 35 
+Fields: 0
+Accesses: 0
+Functions: 4
+18 2 18 8 
+53 2 53 43 
+6 0 
+41 0 
+Constructors: 0
+
+Summary: 0
+
+org/apache/fop/layoutmgr/table/TableStepper.class$(Ljava/lang/String;)Ljava/lang/Class;
+PTG:
+Vars:
+5
+$r5 1 14 
+$r1 1 1 
+r0 1 -2 
+$r4 1 6 
+$r2 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+6 2 -1 6 
+10 1 6 
+Constructors: 1
+10 6
+
+Summary: 1
+-2 
+org/apache/fop/layoutmgr/table/TableStepper.getNextStep()I
+PTG:
+Vars:
+3
+$r10 1 32 
+$r9 1 12 
+r0 1 -1 
+Fields: 1
+-1 rowGroup 12
+Accesses: 11
+0 1 -1 
+64 1 -1 
+130 1 -1 
+133 1 -1 
+7 1 -1 
+72 1 -1 
+25 1 -1 
+11 1 -1 
+44 1 -1 
+76 1 -1 
+47 1 -1 
+Functions: 17
+164 2 -1 12 
+37 1 32 
+104 0 
+139 2 -1 12 
+108 0 
+172 2 -1 12 
+143 2 -1 12 
+80 0 
+113 0 
+146 2 -1 12 
+117 0 
+54 2 -1 12 
+90 0 
+154 2 -1 12 
+123 0 
+29 2 -1 12 
+159 2 -1 12 
+Constructors: 0
+
+Summary: 4
+81 120 -1 117 
+org/apache/fop/layoutmgr/table/TableStepper.removeCellsEndingOnCurrentRow()V
+PTG:
+Vars:
+5
+$r1 1 1 
+r2 1 9 
+r0 1 -1 
+r4 1 20 
+$r3 1 20 
+Fields: 1
+-1 activeCells 1
+Accesses: 2
+0 1 -1 
+30 1 -1 
+Functions: 5
+1 1 1 
+19 1 9 
+41 1 9 
+10 1 9 
+29 1 20 
+Constructors: 0
+
+Summary: 2
+-1 20 
+org/apache/fop/layoutmgr/table/TableStepper.computeRowFirstStep(Ljava/util/List;)V
+PTG:
+Vars:
+5
+r0 1 -2 
+r3 1 17 
+r1 1 6 
+r4 1 -1 
+$r2 1 17 
+Fields: 0
+Accesses: 2
+38 1 -1 
+27 1 -1 
+Functions: 5
+0 1 -2 
+16 1 6 
+32 0 
+7 1 6 
+31 1 17 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 17 
+org/apache/fop/layoutmgr/table/TableStepper.signalNextStep(I)V
+PTG:
+Vars:
+5
+r4 1 26 
+r2 1 15 
+$r3 1 26 
+$r1 1 7 
+r0 1 -1 
+Fields: 1
+-1 activeCells 7
+Accesses: 4
+48 1 -1 
+3 1 -1 
+36 1 -1 
+6 1 -1 
+Functions: 5
+16 1 15 
+7 1 7 
+40 1 26 
+25 1 15 
+42 0 
+Constructors: 0
+
+Summary: 2
+-1 26 
+org/apache/fop/layoutmgr/table/TableStepper.switchToNextRow()V
+PTG:
+Vars:
+14
+r8 1 73 
+$r7 1 73 
+$r5 1 54 
+$r6 1 94 
+$r9 1 24 
+$r12 1 42 
+$r11 1 33 
+$r4 1 94 
+$r13 1 45 
+r0 1 -1 
+$r2 1 54 
+$r10 1 21 
+r3 1 62 
+$r1 1 10 
+Fields: 2
+-1 nextActiveCells 94
+-1 activeCells 54
+Accesses: 7
+0 1 -1 
+36 1 -1 
+53 1 -1 
+7 1 -1 
+103 1 -1 
+89 1 -1 
+93 1 -1 
+Functions: 12
+48 2 21 45 
+33 1 33 
+97 2 54 94 
+83 1 73 
+54 1 54 
+24 1 24 
+72 1 62 
+10 1 10 
+42 1 42 
+107 1 94 
+28 1 24 
+63 1 62 
+Constructors: 1
+28 24
+
+Summary: 4
+-1 45 73 42 
+org/apache/fop/layoutmgr/table/TableStepper.prepareNextRow()V
+PTG:
+Vars:
+19
+$r14 1 66 
+$r13 1 136 
+$r5 1 40 
+$r8 1 103 
+$r10 1 114 
+$r9 1 117 
+$r12 1 133 
+$r7 1 40 
+$r3 1 27 
+$r11 1 126 
+$r18 1 87 
+r0 1 -1 
+$r1 1 5 
+$r2 1 5 
+$r15 1 63 
+$r17 1 84 
+$r16 1 75 
+$r4 1 28 
+$r6 1 52 
+Fields: 3
+-1 rowGroup 5
+-1 nextActiveCells 40
+5 ArrayObject 27
+Accesses: 12
+0 1 -1 
+96 1 -1 
+129 1 -1 
+19 1 -1 
+35 1 -1 
+4 1 -1 
+23 1 -1 
+39 1 -1 
+43 1 -1 
+28 1 28 
+14 1 -1 
+78 1 -1 
+Functions: 15
+66 1 66 
+100 4 -1 5 40 27 
+133 1 133 
+70 1 66 
+103 1 103 
+75 1 75 
+139 2 114 136 
+49 4 -1 5 40 27 
+52 1 52 
+84 1 84 
+117 1 117 
+121 1 117 
+90 2 87 63 
+27 1 27 
+126 1 126 
+Constructors: 2
+70 66
+121 117
+
+Summary: 6
+133 -1 84 87 28 136 
+org/apache/fop/layoutmgr/table/TableStepper.getMaxRemainingHeight()I
+PTG:
+Vars:
+16
+$r4 1 136 
+$r11 1 70 
+r0 1 -1 
+$r13 1 88 
+$r14 1 89 
+r8 1 41 
+$r3 2 59 123 
+r7 1 22 
+$r10 1 63 
+$r2 2 59 123 
+$r9 1 59 
+r15 1 11 
+$r5 1 137 
+$r12 1 59 
+$r1 1 3 
+$r6 1 22 
+Fields: 7
+59 ArrayObject 88
+59 ArrayObject 136
+59 ArrayObject 63
+-1 rowGroup 59
+-1 rowGroup 123
+-1 activeCells 3
+123 ArrayObject 136
+Accesses: 9
+2 1 -1 
+82 1 -1 
+114 1 -1 
+131 1 -1 
+89 1 89 
+137 1 137 
+58 1 -1 
+122 1 -1 
+43 1 -1 
+Functions: 12
+3 1 3 
+68 1 41 
+21 1 11 
+37 1 22 
+53 1 41 
+70 1 70 
+88 1 88 
+136 1 136 
+105 0 
+12 1 11 
+31 1 22 
+63 1 63 
+Constructors: 0
+
+Summary: 6
+-1 41 89 137 22 70 

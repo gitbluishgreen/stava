@@ -1,0 +1,252 @@
+9
+java/security/Permissions.readObject(Ljava/io/ObjectInputStream;)V
+PTG:
+Vars:
+13
+r2 1 -1 
+$r10 1 63 
+r1 1 4 
+r0 1 -2 
+$r4 1 10 
+$r9 1 48 
+$r12 1 81 
+$r5 1 23 
+$r8 1 48 
+$r3 1 10 
+r6 1 23 
+r11 1 63 
+$r7 1 31 
+Fields: 1
+-1 permsMap 48
+Accesses: 5
+16 1 -1 
+97 1 -1 
+57 1 -1 
+44 1 -1 
+47 1 -1 
+Functions: 9
+0 1 -2 
+81 1 81 
+19 1 4 
+35 1 23 
+52 2 48 23 
+6 1 4 
+41 1 31 
+58 1 48 
+79 1 63 
+Constructors: 1
+41 31
+
+Summary: 5
+23 -2 4 -1 81 
+java/security/Permissions.getUnresolvedPermissions(Ljava/security/Permission;)Ljava/security/PermissionCollection;
+PTG:
+Vars:
+19
+r11 1 167 
+r0 1 -1 
+r5 1 26 
+$r6 1 37 
+r12 1 185 
+r4 1 -2 
+$r17 1 68 
+$r1 1 1 
+_ret 2 208 201 
+$r15 1 127 
+$r13 1 208 
+r20 1 86 
+$r10 1 167 
+r3 1 6 
+$r14 1 109 
+$r16 1 127 
+r7 1 43 
+r21 2 208 201 
+$r2 1 6 
+Fields: 4
+-1 permsMap 1
+43 ArrayObject 68
+43 ArrayObject 109
+43 ArrayObject 127
+Accesses: 1
+0 1 -1 
+Functions: 10
+1 1 1 
+177 3 -2 86 167 
+146 1 26 
+36 1 -2 
+164 1 26 
+212 1 208 
+21 2 -2 6 
+37 1 37 
+197 1 -2 
+221 3 208 201 185 
+Constructors: 1
+212 208
+
+Summary: 8
+68 0 -1 86 37 -2 109 43 
+java/security/Permissions.getPermissionCollection(Ljava/security/Permission;Z)Ljava/security/PermissionCollection;
+PTG:
+Vars:
+10
+$r3 1 6 
+r2 1 -1 
+$r4 1 10 
+$r5 1 6 
+r8 4 10 70 48 77 
+r0 1 -2 
+_ret 4 10 70 48 77 
+$r9 1 48 
+r1 1 4 
+$r7 1 77 
+Fields: 1
+-1 permsMap 6
+Accesses: 4
+20 1 -1 
+5 1 -1 
+39 1 -1 
+91 1 -1 
+Functions: 6
+0 1 -2 
+81 1 77 
+66 1 -2 
+98 6 48 4 6 70 10 77 
+6 2 4 6 
+46 3 -1 -2 6 
+Constructors: 1
+81 77
+
+Summary: 4
+-2 4 0 -1 
+java/security/Permissions.elements()Ljava/util/Enumeration;
+PTG:
+Vars:
+6
+$r3 1 4 
+$r6 1 17 
+$r5 1 12 
+r0 1 -1 
+$r4 1 9 
+$r7 1 -1 
+Fields: 1
+-1 permsMap 9
+Accesses: 1
+8 1 -1 
+Functions: 3
+22 2 17 4 
+9 1 9 
+12 1 12 
+Constructors: 1
+22 4
+
+Summary: 0
+
+java/security/Permissions.add(Ljava/security/Permission;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+r3 1 -2 
+r4 1 27 
+Fields: 0
+Accesses: 2
+66 1 -1 
+54 1 -1 
+Functions: 4
+0 1 -1 
+21 2 -1 -2 
+13 0 
+30 2 -2 27 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/security/Permissions.<clinit>()V
+PTG:
+Vars:
+3
+$r2 1 20 
+$r0 1 1 
+$r1 1 6 
+Fields: 0
+Accesses: 0
+Functions: 2
+28 1 20 
+14 1 6 
+Constructors: 2
+28 20
+14 6
+
+Summary: 0
+
+java/security/Permissions.<init>()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 10 
+Fields: 0
+Accesses: 3
+19 1 -1 
+6 1 -1 
+24 1 -1 
+Functions: 2
+16 1 10 
+1 1 -1 
+Constructors: 2
+16 10
+1 -1
+
+Summary: 1
+-1 
+java/security/Permissions.implies(Ljava/security/Permission;)Z
+PTG:
+Vars:
+5
+r5 1 19 
+r4 1 -2 
+$r6 1 -1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 allPermission 1
+Accesses: 1
+0 1 -1 
+Functions: 2
+24 2 -2 19 
+13 3 -1 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 0 
+java/security/Permissions.writeObject(Ljava/io/ObjectOutputStream;)V
+PTG:
+Vars:
+7
+r6 1 -2 
+$r2 1 5 
+$r7 1 52 
+$r5 1 5 
+$r0 1 0 
+r11 1 47 
+r1 1 -1 
+Fields: 2
+-1 allPermission 52
+-1 permsMap 5
+Accesses: 3
+51 1 -1 
+4 1 -1 
+24 1 -1 
+Functions: 7
+66 1 -2 
+5 1 5 
+55 2 52 47 
+43 1 -2 
+28 2 0 5 
+62 2 0 47 
+15 1 0 
+Constructors: 1
+15 0
+
+Summary: 3
+-2 47 0 

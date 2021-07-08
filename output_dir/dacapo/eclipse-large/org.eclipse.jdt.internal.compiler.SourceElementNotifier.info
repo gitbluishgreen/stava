@@ -1,0 +1,933 @@
+19
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.visitIfNeeded(Lorg/eclipse/jdt/internal/compiler/ast/FieldDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)V
+PTG:
+Vars:
+9
+$r7 1 17 
+r4 1 -3 
+$r5 1 1 
+$r1 1 1 
+r2 1 -2 
+$r3 1 17 
+$r6 1 1 
+$r8 1 1 
+r0 1 -1 
+Fields: 2
+-2 initialization 17
+-1 localDeclarationVisitor 1
+Accesses: 8
+0 1 -1 
+16 1 -2 
+35 1 -1 
+7 1 -2 
+23 1 -1 
+56 1 -1 
+31 1 -2 
+47 1 -1 
+Functions: 4
+51 0 
+40 2 17 1 
+28 2 1 -3 
+60 1 1 
+Constructors: 0
+
+Summary: 5
+-3 -2 17 -1 1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.getSuperclassName(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)[C
+PTG:
+Vars:
+6
+$r4 1 15 
+r3 1 -1 
+$r2 1 10 
+r0 1 -2 
+_ret 1 15 
+r1 1 4 
+Fields: 1
+-2 superclass 4
+Accesses: 1
+0 1 -2 
+Functions: 2
+9 1 4 
+13 1 10 
+Constructors: 0
+
+Summary: 4
+-2 4 -1 10 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.reset()V
+PTG:
+Vars:
+3
+$r1 1 2 
+$r2 1 10 
+r0 1 -1 
+Fields: 0
+Accesses: 4
+18 1 -1 
+5 1 -1 
+23 1 -1 
+13 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.quickSort([Lorg/eclipse/jdt/internal/compiler/ast/ASTNode;II)V
+PTG:
+Vars:
+6
+r3 1 64 
+$r2 1 49 
+$r4 1 70 
+r1 1 14 
+$r5 1 24 
+r0 1 -2 
+Fields: 5
+-2 ArrayObject 24
+-2 ArrayObject 49
+-2 ArrayObject 64
+-2 ArrayObject 70
+-2 ArrayObject 14
+Accesses: 4
+49 1 49 
+24 1 24 
+42 1 14 
+28 1 14 
+Functions: 2
+96 6 64 -2 49 70 24 14 
+109 6 64 -2 49 70 24 14 
+Constructors: 0
+
+Summary: 5
+24 -2 49 14 0 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.notifySourceElementRequestor(Lorg/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/ImportReference;)V
+PTG:
+Vars:
+29
+$r10 1 908 
+r60 1 232 
+$r47 1 247 
+r40 1 -4 
+r2 1 213 
+$r9 1 861 
+$r71 1 852 
+$r14 1 924 
+$r6 1 778 
+r42 1 -3 
+r73 1 989 
+r61 1 238 
+$r19 1 -2 
+$r16 1 951 
+$r11 1 911 
+r63 1 258 
+$r69 1 769 
+$r4 1 951 
+$r15 1 742 
+r70 1 769 
+r62 1 226 
+$r13 1 924 
+$r20 1 742 
+r1 1 -2 
+$r12 1 920 
+$r8 1 847 
+r0 1 -1 
+r72 1 -2 
+$r3 1 698 
+Fields: 11
+-2 arguments 213
+-2 selector 861
+-2 defaultValue 989
+-2 annotations 742
+-2 returnType 769
+213 ArrayObject 247
+-1 nodesToCategories 920
+-1 sourceEnds 698
+-1 requestor 951
+226 ArrayObject 238
+226 ArrayObject 232
+Accesses: 61
+0 1 -1 
+386 1 -2 
+4 1 -2 
+901 1 778 
+518 1 -1 
+11 1 -1 
+395 1 -2 
+270 1 -1 
+15 1 -2 
+529 1 -1 
+914 1 778 
+150 1 -1 
+919 1 -1 
+793 1 778 
+154 1 -1 
+285 1 -2 
+158 1 -1 
+798 1 -2 
+802 1 778 
+932 1 778 
+937 1 -2 
+683 1 -1 
+941 1 778 
+687 1 -2 
+49 1 -1 
+947 1 778 
+950 1 -1 
+697 1 -1 
+314 1 -2 
+445 1 -1 
+831 1 778 
+584 1 -1 
+712 1 -2 
+588 1 -1 
+463 1 -2 
+592 1 -1 
+209 1 -2 
+855 1 778 
+984 1 -2 
+348 1 -2 
+860 1 -2 
+864 1 778 
+482 1 -4 
+996 1 -1 
+741 1 -2 
+869 1 -2 
+104 1 -1 
+1000 1 -2 
+873 1 778 
+108 1 -1 
+112 1 -1 
+496 1 -3 
+880 1 778 
+1012 1 -1 
+630 1 -1 
+887 1 778 
+1016 1 -2 
+634 1 -1 
+638 1 -1 
+766 1 -2 
+894 1 778 
+Functions: 34
+963 11 -1 -2 769 213 742 951 247 920 698 861 989 
+263 7 -2 769 213 742 247 861 989 
+906 5 -1 951 920 698 908 
+907 7 -2 769 213 742 247 861 989 
+524 0 
+845 1 769 
+142 0 
+782 1 778 
+271 7 -2 769 213 742 247 861 989 
+335 0 
+850 1 847 
+920 8 -2 769 213 742 247 920 861 989 
+220 6 -1 213 951 247 920 698 
+668 0 
+29 7 -2 769 213 742 247 861 989 
+675 11 -1 -2 769 213 742 951 247 920 698 861 989 
+740 5 -1 742 951 920 698 
+38 11 -1 -2 769 213 742 951 247 920 698 861 989 
+486 0 
+42 7 -2 769 213 742 247 861 989 
+622 0 
+1006 1 989 
+432 4 -1 951 920 698 
+433 7 -2 769 213 742 247 861 989 
+691 0 
+247 1 247 
+313 4 -1 951 920 698 
+505 1 -3 
+698 8 -2 769 213 742 247 698 861 989 
+188 0 
+956 2 951 778 
+253 11 -1 -2 769 213 742 951 247 920 698 861 989 
+1021 1 951 
+446 7 -2 769 213 742 247 861 989 
+Constructors: 1
+782 778
+
+Summary: 14
+434 778 121 331 483 -4 167 2 -1 226 -3 908 847 67 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.getThrownExceptions(Lorg/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration;)[[C
+PTG:
+Vars:
+8
+r0 1 -2 
+r5 1 -1 
+$r3 1 37 
+r1 1 9 
+$r2 1 36 
+r6 1 20 
+_ret 1 20 
+$r4 1 42 
+Fields: 2
+-2 thrownExceptions 9
+9 ArrayObject 36
+Accesses: 1
+5 1 -2 
+Functions: 2
+36 1 36 
+40 1 37 
+Constructors: 0
+
+Summary: 4
+37 -2 9 -1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.getTypeParameterInfos([Lorg/eclipse/jdt/internal/compiler/ast/TypeParameter;)[Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor$TypeParameterInfo;
+PTG:
+Vars:
+8
+r3 1 -1 
+$r7 1 67 
+r0 1 -2 
+r1 1 10 
+_ret 1 10 
+r4 1 32 
+$r5 1 34 
+r2 1 24 
+Fields: 2
+24 name 67
+-2 ArrayObject 24
+Accesses: 11
+80 1 34 
+65 1 24 
+97 1 34 
+50 1 34 
+85 1 24 
+70 1 34 
+55 1 24 
+90 1 34 
+75 1 24 
+60 1 34 
+45 1 24 
+Functions: 2
+38 1 34 
+26 3 -1 67 24 
+Constructors: 1
+38 34
+
+Summary: 3
+-2 0 -1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.visitIfNeeded(Lorg/eclipse/jdt/internal/compiler/ast/Initializer;)V
+PTG:
+Vars:
+6
+r0 1 -1 
+$r1 1 1 
+$r4 1 1 
+r2 1 -2 
+$r5 1 17 
+$r3 1 17 
+Fields: 2
+-2 block 17
+-1 localDeclarationVisitor 1
+Accesses: 5
+0 1 -1 
+16 1 -2 
+7 1 -2 
+23 1 -2 
+27 1 -1 
+Functions: 1
+32 2 17 1 
+Constructors: 0
+
+Summary: 3
+-2 17 -1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.getTypeParameterBounds(Lorg/eclipse/jdt/internal/compiler/ast/TypeParameter;)[[C
+PTG:
+Vars:
+15
+r14 3 32 116 93 
+r1 1 4 
+$r11 1 71 
+r2 1 9 
+$r9 1 65 
+$r5 1 104 
+r12 1 -1 
+$r10 1 66 
+r6 1 32 
+$r8 1 46 
+$r7 1 41 
+r0 1 -2 
+_ret 3 32 116 93 
+$r4 1 99 
+$r3 1 93 
+Fields: 3
+-2 bounds 9
+-2 type 4
+9 ArrayObject 65
+Accesses: 2
+0 1 -2 
+5 1 -2 
+Functions: 6
+65 1 65 
+98 1 4 
+69 1 66 
+102 1 99 
+40 1 4 
+44 1 41 
+Constructors: 0
+
+Summary: 7
+41 -2 4 66 99 9 -1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.getInterfaceNames(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)[[C
+PTG:
+Vars:
+12
+r9 2 11 61 
+r8 2 23 77 
+$r4 1 54 
+r10 1 45 
+$r3 1 105 
+$r6 1 54 
+$r1 2 99 99 
+$r5 1 61 
+$r2 1 100 
+r7 1 -1 
+r0 1 -2 
+_ret 2 23 77 
+Fields: 5
+11 ArrayObject 99
+45 type 54
+-2 superInterfaces 11
+-2 allocation 45
+61 ArrayObject 99
+Accesses: 5
+66 1 45 
+52 1 45 
+7 1 -2 
+41 1 -2 
+30 1 -2 
+Functions: 2
+99 1 99 
+103 1 100 
+Constructors: 0
+
+Summary: 7
+-2 61 100 11 45 99 -1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.<init>(Lorg/eclipse/jdt/internal/compiler/ISourceElementRequestor;Z)V
+PTG:
+Vars:
+5
+r1 1 -2 
+$r4 1 19 
+r0 1 -1 
+$r3 1 40 
+$r2 1 32 
+Fields: 0
+Accesses: 6
+48 1 -1 
+35 1 -1 
+6 1 -1 
+11 1 -1 
+27 1 -1 
+43 1 -1 
+Functions: 2
+1 1 -1 
+24 2 -1 19 
+Constructors: 2
+1 -1
+24 19
+
+Summary: 2
+0 -1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.notifySourceElementRequestor(Lorg/eclipse/jdt/internal/compiler/ast/FieldDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)V
+PTG:
+Vars:
+37
+$r23 1 87 
+$r32 1 -2 
+$r25 1 165 
+$r6 1 68 
+$r15 1 215 
+$r20 1 313 
+r39 2 223 91 
+$r34 1 481 
+r35 1 68 
+$r12 1 68 
+$r28 1 96 
+$r36 1 123 
+$r31 1 87 
+$r33 1 481 
+$r13 1 68 
+$r26 1 68 
+$r30 1 91 
+r0 1 -1 
+$r9 1 68 
+$r19 1 309 
+$r5 1 68 
+$r8 1 68 
+$r14 1 188 
+$r7 1 68 
+$r22 1 165 
+r1 1 -2 
+$r11 1 68 
+$r16 1 225 
+r2 1 -3 
+$r21 1 313 
+$r38 1 188 
+$r18 1 246 
+$r29 1 96 
+$r4 1 87 
+$r27 1 68 
+$r3 1 68 
+$r10 1 68 
+Fields: 10
+-3 name 91
+-2 name 246
+-2 annotations 165
+-2 initialization 68
+-2 type 188
+68 arguments 96
+-1 nodesToCategories 309
+-1 sourceEnds 123
+-1 requestor 481
+-1 requestor 87
+Accesses: 53
+0 1 -1 
+513 1 -2 
+4 1 -2 
+391 1 -2 
+138 1 -2 
+11 1 -1 
+15 1 -2 
+401 1 -2 
+148 1 -2 
+278 1 225 
+411 1 -2 
+285 1 225 
+290 1 -2 
+164 1 -2 
+421 1 -2 
+294 1 225 
+299 1 -2 
+303 1 225 
+431 1 -2 
+308 1 -1 
+441 1 -2 
+187 1 -2 
+60 1 -1 
+321 1 225 
+194 1 -3 
+67 1 -2 
+326 1 -2 
+455 1 -2 
+456 1 68 
+330 1 225 
+77 1 -2 
+336 1 225 
+464 1 -2 
+211 1 -2 
+339 1 -1 
+86 1 -1 
+90 1 -3 
+94 1 68 
+480 1 -1 
+484 1 -2 
+360 1 -1 
+488 1 -2 
+106 1 68 
+236 1 -2 
+364 1 -2 
+112 1 68 
+240 1 225 
+371 1 -2 
+245 1 -2 
+249 1 225 
+122 1 -1 
+381 1 -2 
+509 1 -1 
+Functions: 14
+353 13 -1 96 481 -2 -3 68 165 309 246 87 123 91 188 
+163 6 -1 481 309 165 87 123 
+229 1 225 
+517 1 481 
+492 1 481 
+212 1 188 
+468 1 87 
+117 2 87 91 
+309 7 96 -2 68 309 165 246 188 
+502 11 -1 96 481 -2 68 309 165 246 87 123 188 
+345 2 225 87 
+218 1 215 
+123 7 96 -2 68 165 246 123 188 
+28 6 96 -2 68 165 246 188 
+Constructors: 1
+229 225
+
+Summary: 4
+-3 225 -1 215 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.hasDeprecatedAnnotation([Lorg/eclipse/jdt/internal/compiler/ast/Annotation;)Z
+PTG:
+Vars:
+7
+$r4 1 25 
+$r2 1 19 
+$r3 1 22 
+r0 1 -2 
+$r5 1 29 
+r1 1 15 
+r6 1 -1 
+Fields: 3
+15 type 19
+-2 ArrayObject 15
+25 ArrayObject 29
+Accesses: 1
+17 1 15 
+Functions: 2
+19 1 19 
+29 2 22 29 
+Constructors: 0
+
+Summary: 3
+-2 22 -1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.notifySourceElementRequestor(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;ZLorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;Lorg/eclipse/jdt/internal/compiler/ast/ImportReference;)V
+PTG:
+Vars:
+46
+r42 6 135 547 539 216 531 226 
+$r12 1 589 
+$r27 1 400 
+$r26 1 400 
+$r21 1 176 
+r4 1 47 
+$r20 1 176 
+$r11 1 554 
+$r35 1 176 
+r6 1 59 
+$r15 1 600 
+r41 1 121 
+$r22 1 4 
+$r30 1 433 
+$r43 1 176 
+$r23 1 384 
+$r10 1 4 
+r50 1 712 
+$r36 1 186 
+r51 1 746 
+r0 1 -2 
+$r29 1 176 
+$r46 1 159 
+$r48 1 554 
+$r18 1 228 
+r49 1 678 
+$r31 1 176 
+$r28 1 176 
+r3 1 -1 
+$r1 1 4 
+$r16 1 589 
+$r40 1 159 
+$r8 1 472 
+r5 1 53 
+$r24 1 387 
+$r32 1 186 
+$r39 1 186 
+$r38 1 176 
+$r47 1 472 
+$r14 1 554 
+r7 1 -5 
+r37 1 -4 
+$r2 1 0 
+r44 2 216 226 
+$r25 1 396 
+$r13 1 573 
+Fields: 17
+59 ArrayObject 746
+-2 name 4
+-2 methods 53
+-2 fields 47
+-2 memberTypes 59
+-2 annotations 159
+-2 allocation 176
+-2 typeParameters 384
+176 enumConstant 186
+176 enclosingInstance 433
+53 ArrayObject 712
+-1 typeNames 554
+-1 nodesToCategories 396
+-1 superTypeNames 589
+-1 requestor 472
+-4 name 216
+47 ArrayObject 678
+Accesses: 76
+640 1 -1 
+3 1 -2 
+390 1 228 
+263 1 -2 
+264 1 176 
+267 1 186 
+395 1 -1 
+14 1 -1 
+142 1 -2 
+273 1 228 
+18 1 -2 
+408 1 228 
+25 1 -1 
+281 1 -2 
+282 1 176 
+29 1 -2 
+158 1 -2 
+288 1 228 
+417 1 228 
+549 1 -1 
+422 1 -2 
+680 1 678 
+553 1 -1 
+43 1 -2 
+429 1 -2 
+430 1 176 
+175 1 -2 
+49 1 -2 
+561 1 -1 
+690 1 678 
+182 1 -2 
+55 1 -2 
+183 1 176 
+567 1 -1 
+444 1 228 
+317 1 228 
+449 1 -2 
+577 1 -1 
+322 1 -2 
+453 1 228 
+581 1 -1 
+326 1 228 
+714 1 712 
+588 1 -1 
+462 1 228 
+336 1 -2 
+337 1 176 
+594 1 -1 
+212 1 -4 
+340 1 186 
+468 1 228 
+724 1 712 
+471 1 -1 
+604 1 -1 
+349 1 -2 
+608 1 -1 
+353 1 228 
+867 1 -1 
+615 1 -1 
+871 1 -2 
+363 1 228 
+619 1 -1 
+748 1 746 
+237 1 -2 
+623 1 -2 
+880 1 -1 
+370 1 228 
+628 1 -1 
+246 1 -2 
+758 1 746 
+887 1 -1 
+632 1 -1 
+377 1 228 
+250 1 228 
+123 1 -2 
+383 1 -2 
+Functions: 18
+834 7 -1 -5 472 554 746 396 589 
+803 18 -1 384 -2 4 678 712 554 746 396 589 47 176 433 53 472 186 59 159 
+4 2 0 4 
+612 2 600 589 
+358 18 -1 384 -2 4 678 712 554 746 396 589 47 176 433 53 472 186 59 159 
+232 1 228 
+585 2 554 573 
+458 13 384 -2 4 678 712 746 47 176 433 53 186 59 159 
+875 1 472 
+396 14 384 -2 4 678 712 746 396 47 176 433 53 186 59 159 
+818 19 -1 384 -2 4 -5 678 712 554 746 396 589 47 176 433 53 472 186 59 159 
+116 18 -1 384 -2 4 678 712 554 746 396 589 47 176 433 53 472 186 59 159 
+124 0 
+157 6 -1 472 554 396 589 159 
+221 18 -1 384 -2 4 678 712 554 746 396 589 47 176 433 53 472 186 59 159 
+413 13 384 -2 4 678 712 746 47 176 433 53 186 59 159 
+477 2 228 472 
+382 6 -1 384 472 554 396 589 
+Constructors: 1
+232 228
+
+Summary: 7
+228 3 -5 0 -4 2 -1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.sourceEnd(Lorg/eclipse/jdt/internal/compiler/ast/TypeDeclaration;)I
+PTG:
+Vars:
+2
+r0 1 -2 
+r5 1 -1 
+Fields: 0
+Accesses: 3
+0 1 -2 
+39 1 -2 
+11 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 5
+15 -2 32 17 -1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.visitIfNeeded(Lorg/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration;)V
+PTG:
+Vars:
+14
+$r10 1 1 
+r2 1 -2 
+r0 1 -1 
+$r1 1 1 
+$r8 1 29 
+$r11 1 29 
+$r13 1 51 
+$r3 1 51 
+r12 1 -2 
+$r9 1 44 
+$r7 1 73 
+$r6 2 1 75 
+$r4 2 51 69 
+$r5 2 79 44 
+Fields: 6
+-2 statements 51
+-2 scope 44
+-2 constructorCall 29
+51 ArrayObject 73
+69 ArrayObject 73
+-1 localDeclarationVisitor 1
+Accesses: 11
+0 1 -1 
+50 1 -2 
+35 1 -2 
+68 1 -2 
+7 1 -2 
+39 1 -1 
+57 1 -2 
+74 1 -1 
+43 1 -2 
+28 1 -2 
+78 1 -2 
+Functions: 2
+82 5 1 73 75 44 79 
+47 3 1 44 29 
+Constructors: 0
+
+Summary: 6
+-2 51 0 44 -1 29 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.notifySourceElementRequestor(Lorg/eclipse/jdt/internal/compiler/ast/ImportReference;Z)V
+PTG:
+Vars:
+5
+r1 1 -2 
+$r2 1 30 
+$r3 1 18 
+r0 1 -1 
+$r4 1 5 
+Fields: 3
+-2 tokens 30
+-1 requestor 18
+-1 requestor 5
+Accesses: 7
+17 1 -1 
+33 1 -2 
+49 1 -2 
+4 1 -1 
+21 1 -2 
+25 1 -2 
+29 1 -2 
+Functions: 2
+53 2 18 30 
+9 3 -2 5 30 
+Constructors: 0
+
+Summary: 3
+-2 30 -1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.getArguments([Lorg/eclipse/jdt/internal/compiler/ast/Argument;)[[[C
+PTG:
+Vars:
+12
+r2 1 9 
+$r5 1 30 
+$r8 1 47 
+r1 1 4 
+$r3 1 26 
+$r4 1 27 
+r10 1 -1 
+$r7 1 46 
+$r9 1 61 
+_ret 1 61 
+r0 1 -2 
+$r6 1 35 
+Fields: 4
+46 name 47
+-2 ArrayObject 46
+-2 ArrayObject 26
+26 type 27
+Accesses: 2
+26 1 26 
+46 1 46 
+Functions: 2
+33 1 30 
+27 1 27 
+Constructors: 0
+
+Summary: 3
+-2 30 -1 
+org/eclipse/jdt/internal/compiler/SourceElementNotifier.notifySourceElementRequestor(Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;IIZLorg/eclipse/jdt/internal/compiler/util/HashtableOfObjectToInt;Ljava/util/Map;)V
+PTG:
+Vars:
+18
+r0 1 -1 
+$r12 1 243 
+r10 2 281 281 
+$r15 1 72 
+r4 1 84 
+r20 2 281 281 
+$r9 2 281 281 
+r3 1 -2 
+r2 1 -7 
+$r5 1 87 
+r1 1 -6 
+$r14 1 87 
+r19 1 154 
+r6 1 106 
+$r13 1 204 
+$r8 1 72 
+$r11 2 301 84 
+r7 1 112 
+Fields: 8
+106 ArrayObject 204
+-2 types 112
+-2 currentPackage 84
+-2 imports 106
+154 ArrayObject 281
+-1 localDeclarationVisitor 87
+-1 requestor 72
+112 ArrayObject 243
+Accesses: 19
+32 1 -2 
+2 1 -1 
+99 1 87 
+355 1 -1 
+102 1 -2 
+7 1 -1 
+39 1 -1 
+71 1 -1 
+359 1 -2 
+43 1 -2 
+108 1 -2 
+300 1 -2 
+13 1 -1 
+80 1 -2 
+19 1 -1 
+86 1 -1 
+25 1 -1 
+28 1 -1 
+93 1 -1 
+Functions: 8
+321 4 -1 87 72 281 
+337 5 -1 84 87 72 281 
+374 3 -1 87 72 
+311 4 -1 87 72 281 
+75 1 72 
+267 2 281 154 
+363 1 72 
+381 3 -1 87 72 
+Constructors: 0
+
+Summary: 9
+106 -2 281 0 5 4 154 -1 112 

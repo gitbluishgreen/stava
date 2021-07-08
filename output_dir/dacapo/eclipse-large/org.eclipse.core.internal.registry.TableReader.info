@@ -1,0 +1,1218 @@
+42
+org/eclipse/core/internal/registry/TableReader.readArray(Ljava/io/DataInputStream;)[I
+PTG:
+Vars:
+4
+r3 1 -1 
+r0 1 -2 
+r1 1 14 
+_ret 1 14 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+26 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/TableReader.loadTables(J)[Ljava/lang/Object;
+PTG:
+Vars:
+15
+$r14 1 -1 
+$r1 1 7 
+$r0 1 3 
+$r5 1 56 
+$r16 1 -1 
+$r6 1 70 
+$r10 1 101 
+r3 1 -1 
+$r17 1 140 
+$r8 1 84 
+$r2 1 11 
+$r4 1 16 
+$r12 1 -1 
+r21 1 3 
+$r18 1 148 
+Fields: 1
+-1 tableFile 16
+Accesses: 1
+15 1 -1 
+Functions: 16
+65 1 56 
+97 2 3 84 
+166 1 3 
+74 1 70 
+47 1 3 
+81 2 3 70 
+19 2 16 11 
+22 2 7 11 
+88 1 84 
+184 1 3 
+25 2 3 7 
+153 3 -1 148 140 
+60 1 3 
+156 3 -1 16 140 
+30 3 -1 16 3 
+127 1 3 
+Constructors: 7
+65 56
+19 11
+22 7
+88 84
+25 3
+153 140
+74 70
+
+Summary: 5
+3 140 11 7 -1 
+org/eclipse/core/internal/registry/TableReader.loadFullExtension(Lorg/eclipse/core/internal/registry/RegistryObjectManager;)Lorg/eclipse/core/internal/registry/Extension;
+PTG:
+Vars:
+9
+r2 1 8 
+$r4 1 17 
+$r6 1 31 
+r0 1 -1 
+$r1 1 2 
+r7 1 -2 
+_ret 1 8 
+r3 1 13 
+$r5 1 24 
+Fields: 4
+13 ArrayObject 24
+13 ArrayObject 17
+13 ArrayObject 31
+-1 mainInput 2
+Accesses: 2
+1 1 -1 
+37 1 -1 
+Functions: 6
+0 2 -1 2 
+32 2 8 31 
+18 2 17 8 
+9 2 -1 2 
+25 2 8 24 
+41 2 -2 8 
+Constructors: 0
+
+Summary: 7
+24 -2 13 0 17 31 -1 
+org/eclipse/core/internal/registry/TableReader.loadConfigurationElementAndChildren(Ljava/io/DataInputStream;Ljava/io/DataInputStream;IILorg/eclipse/core/internal/registry/RegistryObjectManager;Ljava/lang/String;)Lorg/eclipse/core/internal/registry/ConfigurationElement;
+PTG:
+Vars:
+10
+r1 1 -1 
+r6 1 73 
+r4 1 -3 
+r7 2 -7 31 
+r8 2 -3 -2 
+r3 1 38 
+r5 1 -6 
+r2 1 19 
+_ret 1 19 
+r0 1 -2 
+Fields: 0
+Accesses: 1
+79 1 -1 
+Functions: 5
+33 1 19 
+83 2 -6 73 
+57 6 -1 -2 -3 -6 -7 31 
+26 1 19 
+11 5 -1 -2 -3 -7 31 
+Constructors: 0
+
+Summary: 12
+-3 -2 0 73 5 1 4 -7 31 -1 38 -6 
+org/eclipse/core/internal/registry/TableReader.goToInputFile(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 mainDataFile 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/TableReader.loadExtensionPointExtraData(I)[Ljava/lang/String;
+PTG:
+Vars:
+9
+r6 1 33 
+$r8 1 -1 
+$r2 1 13 
+$r4 1 1 
+$r5 1 23 
+r0 1 -1 
+$r1 1 1 
+$r3 1 -1 
+$r7 1 35 
+Fields: 1
+-1 extraDataFile 1
+Accesses: 2
+0 1 -1 
+26 1 -1 
+Functions: 5
+48 3 -1 1 35 
+9 2 -1 1 
+27 2 1 23 
+12 2 -1 1 
+45 3 -1 33 35 
+Constructors: 1
+45 35
+
+Summary: 3
+35 33 -1 
+org/eclipse/core/internal/registry/TableReader.loadNamespaces()Lorg/eclipse/core/internal/registry/KeyedHashSet;
+PTG:
+Vars:
+20
+$r22 1 -1 
+$r19 1 3 
+r0 1 -1 
+$r21 1 152 
+$r6 1 40 
+$r4 1 17 
+$r14 1 -1 
+$r9 1 63 
+$r5 1 3 
+$r11 1 78 
+$r3 1 13 
+$r18 1 -1 
+$r2 1 9 
+$r12 1 90 
+r27 1 150 
+$r1 1 3 
+$r20 1 140 
+$r16 1 -1 
+r8 1 61 
+r24 1 9 
+Fields: 1
+-1 namespacesFile 3
+Accesses: 3
+2 1 -1 
+21 1 -1 
+143 1 -1 
+Functions: 18
+162 3 -1 150 152 
+35 1 9 
+69 2 61 63 
+165 3 -1 3 152 
+102 2 40 63 
+76 3 -1 3 9 
+45 1 40 
+173 1 9 
+144 2 3 140 
+82 2 78 63 
+56 3 -1 3 9 
+88 3 -1 3 9 
+25 2 17 3 
+28 2 17 13 
+189 1 9 
+94 2 90 63 
+126 1 9 
+31 2 9 13 
+Constructors: 6
+162 152
+69 63
+25 17
+28 13
+45 40
+31 9
+
+Summary: 10
+90 63 17 61 78 152 13 -1 9 150 
+org/eclipse/core/internal/registry/TableReader.readAllExtensionPointTree(Lorg/eclipse/core/internal/registry/RegistryObjectManager;)Lorg/eclipse/core/internal/registry/ExtensionPoint;
+PTG:
+Vars:
+9
+$r8 1 73 
+$r6 1 64 
+$r7 2 60 43 
+r2 1 9 
+r1 1 4 
+r0 1 -1 
+_ret 1 4 
+$r5 1 43 
+r3 1 -2 
+Fields: 2
+-1 extraInput 64
+-1 mainInput 43
+Accesses: 3
+42 1 -1 
+59 1 -1 
+63 1 -1 
+Functions: 6
+0 3 -1 64 43 
+5 1 4 
+22 4 -1 64 -2 43 
+58 5 -1 64 -2 43 60 
+43 1 43 
+77 2 -2 73 
+Constructors: 0
+
+Summary: 5
+-2 9 0 73 -1 
+org/eclipse/core/internal/registry/TableReader.loadAllOrphans(Lorg/eclipse/core/internal/registry/RegistryObjectManager;)V
+PTG:
+Vars:
+8
+$r3 1 16 
+$r7 2 16 70 
+r0 1 -2 
+r2 1 -1 
+$r6 1 74 
+$r8 1 83 
+$r1 1 1 
+$r5 2 16 53 
+Fields: 2
+-1 extraInput 74
+-1 mainInput 16
+Accesses: 4
+52 1 -1 
+69 1 -1 
+73 1 -1 
+15 1 -1 
+Functions: 7
+0 1 -2 
+16 1 16 
+32 4 -1 16 -2 74 
+1 1 1 
+68 5 -1 16 -2 70 74 
+53 2 16 53 
+87 2 -2 83 
+Constructors: 0
+
+Summary: 5
+-2 0 -1 1 83 
+org/eclipse/core/internal/registry/TableReader.setContributorsFile(Ljava/io/File;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/registry/TableReader.basicLoadExtensionExtraData()[Ljava/lang/String;
+PTG:
+Vars:
+9
+$r3 1 11 
+$r4 1 8 
+$r0 1 1 
+r1 1 -1 
+$r5 1 22 
+$r7 1 33 
+_ret 1 1 
+$r2 1 8 
+$r6 1 8 
+Fields: 1
+-1 extraInput 8
+Accesses: 3
+18 1 -1 
+7 1 -1 
+29 1 -1 
+Functions: 3
+17 2 -1 8 
+6 2 -1 8 
+28 2 -1 8 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/TableReader.loadFullExtensionPoint()Lorg/eclipse/core/internal/registry/ExtensionPoint;
+PTG:
+Vars:
+9
+$r6 1 34 
+$r7 1 41 
+$r3 1 13 
+r1 1 4 
+$r5 1 27 
+$r4 1 20 
+r2 1 9 
+_ret 1 4 
+r0 1 -1 
+Fields: 5
+9 ArrayObject 13
+9 ArrayObject 20
+9 ArrayObject 41
+9 ArrayObject 27
+9 ArrayObject 34
+Accesses: 0
+Functions: 7
+0 1 -1 
+35 2 34 4 
+5 1 -1 
+21 2 4 20 
+42 2 4 41 
+28 2 4 27 
+14 2 4 13 
+Constructors: 0
+
+Summary: 7
+20 41 34 9 13 -1 27 
+org/eclipse/core/internal/registry/TableReader.basicLoadConfigurationElement(Ljava/io/DataInputStream;Ljava/lang/String;)Lorg/eclipse/core/internal/registry/ConfigurationElement;
+PTG:
+Vars:
+10
+$r6 1 59 
+r1 1 -1 
+r0 1 -2 
+r2 1 10 
+r5 1 49 
+$r7 1 77 
+r4 1 42 
+_ret 1 77 
+r3 1 17 
+r8 2 -3 10 
+Fields: 0
+Accesses: 0
+Functions: 10
+0 1 -2 
+19 1 -2 
+5 2 -1 -2 
+37 2 -1 -2 
+25 1 -2 
+58 1 -1 
+59 6 17 49 -3 10 42 59 
+12 2 -1 -2 
+44 2 -1 -2 
+31 1 -2 
+Constructors: 0
+
+Summary: 10
+-3 59 -2 49 42 0 17 -1 10 1 
+org/eclipse/core/internal/registry/TableReader.setNamespacesFile(Ljava/io/File;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/registry/TableReader.setOrphansFile(Ljava/io/File;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/registry/TableReader.setTableFile(Ljava/io/File;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/registry/TableReader.loadExtensionPoint(I)Ljava/lang/Object;
+PTG:
+Vars:
+7
+$r5 1 11 
+$r4 1 15 
+r6 1 21 
+r0 1 -1 
+$r2 1 -1 
+$r1 1 6 
+$r7 1 23 
+Fields: 1
+-1 mainDataFile 15
+Accesses: 1
+14 1 -1 
+Functions: 5
+33 3 -1 21 23 
+2 2 -1 15 
+36 3 -1 23 15 
+5 2 -1 15 
+15 2 11 15 
+Constructors: 1
+33 23
+
+Summary: 3
+23 21 -1 
+org/eclipse/core/internal/registry/TableReader.setHoldObjects(Z)V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/TableReader.goToExtraFile(I)V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 extraDataFile 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+6 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/TableReader.readStringOrNull(Ljava/io/DataInputStream;)Ljava/lang/String;
+PTG:
+Vars:
+4
+$r1 1 12 
+r0 1 -2 
+r2 1 -1 
+_ret 1 12 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+11 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/TableReader.setContributionsFile(Ljava/io/File;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/registry/TableReader.log(Lorg/eclipse/core/runtime/Status;)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+r1 1 -2 
+Fields: 1
+-1 registry 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+5 2 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/TableReader.setExtraDataFile(Ljava/io/File;)V
+PTG:
+Vars:
+5
+$r1 1 1 
+r0 1 -1 
+$r3 1 13 
+r2 1 -2 
+$r4 1 18 
+Fields: 1
+-1 extraDataFile 18
+Accesses: 3
+17 1 -1 
+24 1 -1 
+9 1 -1 
+Functions: 2
+21 2 18 13 
+6 2 1 -2 
+Constructors: 2
+21 13
+6 1
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/TableReader.<init>(Lorg/eclipse/core/internal/registry/ExtensionRegistry;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 6
+16 1 -1 
+21 1 -1 
+6 1 -1 
+26 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 1
+1 1 -1 
+Constructors: 1
+1 -1
+
+Summary: 2
+0 -1 
+org/eclipse/core/internal/registry/TableReader.basicLoadExtension(Ljava/io/DataInputStream;)Lorg/eclipse/core/internal/registry/Extension;
+PTG:
+Vars:
+12
+r0 1 -2 
+$r6 1 7 
+r1 1 -1 
+$r9 1 44 
+r5 1 22 
+r7 1 32 
+$r8 1 7 
+_ret 1 56 
+$r2 1 7 
+r3 1 13 
+$r4 1 7 
+$r10 1 56 
+Fields: 1
+-1 mainInput 7
+Accesses: 4
+34 1 -1 
+6 1 -1 
+25 1 -1 
+15 1 -1 
+Functions: 7
+0 1 -2 
+35 1 7 
+5 2 -1 7 
+24 2 -1 7 
+43 2 -1 7 
+44 4 32 22 44 13 
+14 2 -1 7 
+Constructors: 0
+
+Summary: 7
+-2 32 13 22 0 44 -1 
+org/eclipse/core/internal/registry/TableReader.loadExtension(I)Ljava/lang/Object;
+PTG:
+Vars:
+10
+$r5 1 1 
+$r1 1 1 
+$r4 1 -1 
+$r3 1 17 
+$r9 1 -1 
+$r8 1 39 
+r0 1 -1 
+$r6 1 27 
+$r2 1 14 
+r7 1 37 
+Fields: 2
+-1 mainInput 14
+-1 mainDataFile 1
+Accesses: 3
+0 1 -1 
+13 1 -1 
+30 1 -1 
+Functions: 5
+49 3 -1 37 39 
+52 4 -1 1 39 14 
+9 3 -1 1 14 
+12 3 -1 1 14 
+31 2 1 27 
+Constructors: 1
+49 39
+
+Summary: 3
+37 39 -1 
+org/eclipse/core/internal/registry/TableReader.loadThirdLevelConfigurationElements(ILorg/eclipse/core/internal/registry/RegistryObjectManager;)Ljava/lang/Object;
+PTG:
+Vars:
+11
+r0 1 -1 
+$r5 1 -1 
+$r6 1 1 
+r8 1 44 
+$r3 1 15 
+$r10 1 -1 
+$r9 1 47 
+$r4 1 24 
+r2 1 -3 
+$r1 1 1 
+$r7 1 34 
+Fields: 2
+-1 extraInput 15
+-1 extraDataFile 1
+Accesses: 3
+0 1 -1 
+37 1 -1 
+14 1 -1 
+Functions: 5
+38 2 1 34 
+9 3 -1 1 15 
+58 3 -1 44 47 
+12 4 -1 1 -3 15 
+61 4 -1 1 15 47 
+Constructors: 1
+58 47
+
+Summary: 5
+-3 47 44 -1 1 
+org/eclipse/core/internal/registry/TableReader.loadOrphans()Ljava/util/HashMap;
+PTG:
+Vars:
+14
+$r3 1 9 
+$r17 1 -1 
+$r18 1 -1 
+$r4 1 13 
+$r7 1 40 
+$r15 1 -1 
+$r5 1 17 
+r0 1 -1 
+r10 1 67 
+r20 1 9 
+$r6 1 3 
+r9 1 60 
+$r1 1 3 
+$r13 1 -1 
+Fields: 1
+-1 orphansFile 3
+Accesses: 2
+2 1 -1 
+21 1 -1 
+Functions: 11
+35 1 9 
+99 1 9 
+118 1 9 
+134 1 9 
+56 1 9 
+25 2 17 3 
+75 3 67 40 60 
+28 2 17 13 
+45 1 40 
+62 3 -1 3 9 
+31 2 9 13 
+Constructors: 4
+25 17
+28 13
+45 40
+31 9
+
+Summary: 6
+17 67 60 13 -1 9 
+org/eclipse/core/internal/registry/TableReader.close()V
+PTG:
+Vars:
+8
+$r4 1 1 
+$r5 1 -1 
+$r1 1 1 
+$r2 1 15 
+$r3 1 15 
+r0 1 -1 
+$r7 1 33 
+$r8 1 41 
+Fields: 2
+-1 extraInput 15
+-1 mainInput 1
+Accesses: 4
+0 1 -1 
+21 1 -1 
+7 1 -1 
+14 1 -1 
+Functions: 4
+48 4 -1 1 33 15 
+25 1 15 
+11 1 1 
+45 3 -1 33 41 
+Constructors: 1
+45 33
+
+Summary: 2
+-1 33 
+org/eclipse/core/internal/registry/TableReader.basicLoadExtensionPointExtraData()[Ljava/lang/String;
+PTG:
+Vars:
+13
+$r5 1 23 
+$r7 1 34 
+$r8 1 9 
+$r3 1 12 
+$r10 1 9 
+r1 1 -1 
+r0 1 1 
+$r9 1 45 
+$r4 1 9 
+$r11 1 56 
+$r6 1 9 
+$r2 1 9 
+_ret 1 1 
+Fields: 1
+-1 extraInput 9
+Accesses: 5
+19 1 -1 
+52 1 -1 
+8 1 -1 
+41 1 -1 
+30 1 -1 
+Functions: 5
+18 2 -1 9 
+51 2 -1 9 
+7 2 -1 9 
+40 2 -1 9 
+29 2 -1 9 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/TableReader.loadExtensionPointTree(ILorg/eclipse/core/internal/registry/RegistryObjectManager;)Lorg/eclipse/core/internal/registry/ExtensionPoint;
+PTG:
+Vars:
+17
+$r4 1 37 
+$r1 1 1 
+$r10 1 1 
+$r13 1 -1 
+r0 1 -1 
+r18 1 146 
+$r6 2 37 72 
+$r8 1 97 
+$r9 1 -1 
+r16 1 43 
+r5 1 -3 
+$r11 1 136 
+$r12 1 149 
+r3 1 22 
+$r7 3 37 72 89 
+$r2 1 9 
+r15 1 9 
+Fields: 3
+-1 mainInput 37
+-1 mainInput 72
+-1 mainDataFile 1
+Accesses: 7
+0 1 -1 
+48 1 -1 
+36 1 -1 
+100 1 -1 
+71 1 -1 
+88 1 -1 
+139 1 -1 
+Functions: 10
+160 3 -1 146 149 
+17 1 9 
+35 4 -1 1 37 72 
+163 5 -1 1 37 149 72 
+52 2 -3 43 
+7 4 -1 1 37 72 
+87 6 -1 1 -3 37 72 89 
+72 2 37 72 
+104 2 97 -3 
+140 2 1 136 
+Constructors: 1
+160 149
+
+Summary: 8
+-3 43 1 97 146 149 22 -1 
+org/eclipse/core/internal/registry/TableReader.loadConfigurationElement(I)Ljava/lang/Object;
+PTG:
+Vars:
+10
+$r2 1 14 
+$r8 1 40 
+r7 1 38 
+$r3 1 18 
+$r5 1 1 
+$r1 1 1 
+r0 1 -1 
+$r9 1 -1 
+$r6 1 28 
+$r4 1 -1 
+Fields: 2
+-1 mainInput 14
+-1 mainDataFile 1
+Accesses: 3
+0 1 -1 
+13 1 -1 
+31 1 -1 
+Functions: 5
+32 2 1 28 
+50 3 -1 38 40 
+53 4 -1 1 40 14 
+9 3 -1 1 14 
+12 3 -1 1 14 
+Constructors: 1
+50 40
+
+Summary: 3
+40 -1 38 
+org/eclipse/core/internal/registry/TableReader.loadContributors()Ljava/util/HashMap;
+PTG:
+Vars:
+21
+$r15 1 -1 
+r10 1 90 
+$r20 1 164 
+$r5 1 5 
+$r2 1 11 
+$r1 1 5 
+$r11 1 95 
+$r4 1 19 
+r9 1 83 
+$r22 1 -1 
+$r3 1 15 
+r8 1 76 
+$r18 1 5 
+$r6 1 43 
+r7 1 69 
+r23 1 11 
+$r19 1 151 
+r0 1 -1 
+$r17 1 -1 
+$r13 1 -1 
+r27 1 161 
+Fields: 1
+-1 contributorsFile 5
+Accesses: 3
+4 1 -1 
+23 1 -1 
+154 1 -1 
+Functions: 17
+64 3 -1 5 11 
+33 2 11 15 
+37 1 11 
+71 3 -1 5 11 
+202 1 11 
+107 5 83 69 90 76 95 
+140 1 11 
+78 3 -1 5 11 
+110 3 69 43 95 
+175 3 -1 161 164 
+178 3 -1 164 5 
+85 3 -1 5 11 
+54 1 43 
+186 1 11 
+27 2 19 5 
+155 2 5 151 
+30 2 19 15 
+Constructors: 6
+33 11
+54 43
+27 19
+107 95
+30 15
+175 164
+
+Summary: 11
+90 15 164 19 11 76 95 69 -1 161 83 
+org/eclipse/core/internal/registry/TableReader.basicLoadExtensionPoint()Lorg/eclipse/core/internal/registry/ExtensionPoint;
+PTG:
+Vars:
+8
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+$r4 1 1 
+_ret 1 33 
+$r5 1 26 
+r3 1 16 
+$r6 1 33 
+Fields: 1
+-1 mainInput 1
+Accesses: 3
+0 1 -1 
+17 1 -1 
+9 1 -1 
+Functions: 5
+1 1 1 
+18 1 1 
+8 2 -1 1 
+25 2 -1 1 
+26 2 16 26 
+Constructors: 0
+
+Summary: 3
+16 26 -1 
+org/eclipse/core/internal/registry/TableReader.getObjectFactory()Lorg/eclipse/core/internal/registry/RegistryObjectFactory;
+PTG:
+Vars:
+4
+$r2 1 4 
+r0 1 -1 
+_ret 1 4 
+$r1 1 1 
+Fields: 1
+-1 registry 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+1 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/core/internal/registry/TableReader.readAllCache(Lorg/eclipse/core/internal/registry/RegistryObjectManager;)Z
+PTG:
+Vars:
+4
+$r3 1 16 
+r0 1 -2 
+$r1 1 1 
+r2 1 -1 
+Fields: 0
+Accesses: 2
+19 1 -1 
+46 1 -1 
+Functions: 8
+0 1 -2 
+1 1 1 
+65 0 
+36 2 -1 -2 
+68 1 -1 
+23 2 16 -2 
+14 2 -1 -2 
+47 0 
+Constructors: 0
+
+Summary: 7
+16 -2 53 0 -1 1 55 
+org/eclipse/core/internal/registry/TableReader.loadContributions()Lorg/eclipse/core/internal/registry/KeyedHashSet;
+PTG:
+Vars:
+20
+$r18 1 3 
+$r15 1 -1 
+$r1 1 3 
+$r4 1 17 
+r26 1 137 
+r0 1 -1 
+$r21 1 -1 
+$r20 1 139 
+r23 1 9 
+$r6 1 40 
+$r2 1 9 
+$r9 1 64 
+r8 1 61 
+$r3 1 13 
+r10 1 73 
+$r19 1 127 
+$r13 1 -1 
+$r17 1 -1 
+$r5 1 3 
+$r11 1 79 
+Fields: 1
+-1 contributionsFile 3
+Accesses: 3
+2 1 -1 
+130 1 -1 
+21 1 -1 
+Functions: 17
+64 2 64 61 
+160 1 9 
+35 1 9 
+131 2 3 127 
+45 1 40 
+77 3 -1 3 9 
+176 1 9 
+113 1 9 
+82 2 73 79 
+149 3 -1 137 139 
+56 3 -1 3 9 
+152 3 -1 3 139 
+25 2 17 3 
+89 2 40 73 
+28 2 17 13 
+31 2 9 13 
+63 2 -1 3 
+Constructors: 5
+149 139
+25 17
+28 13
+45 40
+31 9
+
+Summary: 10
+139 137 73 64 17 79 61 13 -1 9 
+org/eclipse/core/internal/registry/TableReader.getTestFileName()Ljava/lang/String;
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 0
+
+org/eclipse/core/internal/registry/TableReader.setMainDataFile(Ljava/io/File;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r4 1 18 
+$r3 1 13 
+r2 1 -2 
+$r1 1 1 
+Fields: 1
+-1 mainDataFile 18
+Accesses: 3
+17 1 -1 
+24 1 -1 
+9 1 -1 
+Functions: 2
+21 2 18 13 
+6 2 1 -2 
+Constructors: 2
+21 13
+6 1
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/TableReader.readPropertiesAndValue(Ljava/io/DataInputStream;)[Ljava/lang/String;
+PTG:
+Vars:
+5
+r1 1 14 
+r0 1 -2 
+r2 1 -1 
+_ret 1 14 
+$r3 1 29 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 1 -2 
+27 2 -1 -2 
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+org/eclipse/core/internal/registry/TableReader.loadExtensionExtraData(I)[Ljava/lang/String;
+PTG:
+Vars:
+9
+r0 1 -1 
+$r4 1 1 
+$r1 1 1 
+$r5 1 23 
+$r3 1 -1 
+$r2 1 13 
+r6 1 33 
+$r8 1 -1 
+$r7 1 35 
+Fields: 1
+-1 extraDataFile 1
+Accesses: 2
+0 1 -1 
+26 1 -1 
+Functions: 5
+48 3 -1 1 35 
+9 2 -1 1 
+27 2 1 23 
+12 2 -1 1 
+45 3 -1 33 35 
+Constructors: 1
+45 35
+
+Summary: 3
+35 33 -1 
+org/eclipse/core/internal/registry/TableReader.checkCacheValidity(Ljava/io/DataInputStream;J)Z
+PTG:
+Vars:
+18
+r2 1 72 
+$r11 1 252 
+$r7 1 154 
+$r8 1 192 
+r1 1 66 
+$r9 1 212 
+r3 1 78 
+r4 1 -1 
+$r6 1 140 
+$r12 1 272 
+r0 1 -2 
+$r5 1 126 
+$r16 1 354 
+$r14 1 -1 
+$r17 1 103 
+$r10 1 232 
+$r13 1 292 
+$r15 1 346 
+Fields: 7
+-1 contributorsFile 252
+-1 orphansFile 292
+-1 registry 103
+-1 extraDataFile 212
+-1 contributionsFile 232
+-1 namespacesFile 272
+-1 mainDataFile 192
+Accesses: 7
+211 1 -1 
+291 1 -1 
+102 1 -1 
+231 1 -1 
+251 1 -1 
+191 1 -1 
+271 1 -1 
+Functions: 27
+0 1 -2 
+192 1 192 
+68 1 -2 
+134 2 72 140 
+74 1 -2 
+138 0 
+14 1 -2 
+272 1 272 
+20 1 -2 
+148 2 154 78 
+212 1 212 
+152 0 
+26 1 -2 
+32 1 -2 
+292 1 292 
+38 1 -2 
+103 1 103 
+359 3 -1 354 346 
+232 1 232 
+362 9 -1 272 192 292 212 103 232 346 252 
+44 1 -2 
+50 1 -2 
+56 1 -2 
+120 2 66 126 
+124 0 
+252 1 252 
+62 1 -2 
+Constructors: 1
+359 346
+
+Summary: 10
+72 -2 0 66 346 140 126 154 78 -1 

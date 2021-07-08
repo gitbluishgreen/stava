@@ -1,0 +1,360 @@
+10
+org/eclipse/jdt/internal/core/CopyElementsOperation.verify(Lorg/eclipse/jdt/core/IJavaElement;)V
+PTG:
+Vars:
+4
+r0 1 -2 
+r2 1 62 
+$r3 1 76 
+r1 1 -1 
+Fields: 1
+-1 renamingsList 76
+Accesses: 1
+75 1 -1 
+Functions: 10
+18 3 -1 -2 76 
+66 4 -1 -2 76 62 
+4 1 -2 
+84 3 -1 -2 76 
+21 1 -2 
+37 3 -1 -2 76 
+54 3 -1 -2 76 
+40 1 -2 
+72 4 -1 -2 76 62 
+57 3 -1 -2 76 
+Constructors: 0
+
+Summary: 2
+-1 62 
+org/eclipse/jdt/internal/core/CopyElementsOperation.getNestedOperation(Lorg/eclipse/jdt/core/IJavaElement;)Lorg/eclipse/jdt/internal/core/JavaModelOperation;
+PTG:
+Vars:
+59
+$r21 1 284 
+r0 1 -1 
+$r5 1 84 
+$r66 1 270 
+$r24 1 316 
+$r59 1 56 
+r57 1 367 
+$r47 1 185 
+$r70 1 382 
+$r65 1 278 
+$r20 1 5 
+$r14 1 396 
+$r46 1 182 
+r51 1 202 
+$r61 1 160 
+r52 1 215 
+r53 1 255 
+$r63 1 222 
+$r30 1 351 
+r54 1 268 
+r56 1 324 
+$r16 1 407 
+$r60 1 79 
+$r27 1 5 
+$r10 1 372 
+$r29 1 348 
+$r36 1 239 
+$r31 1 207 
+$r35 1 236 
+$r62 1 129 
+$r17 1 260 
+$r28 1 340 
+$r68 1 326 
+$r13 1 5 
+$r39 1 142 
+$r23 1 295 
+$r15 1 404 
+$r22 1 292 
+r2 1 5 
+r49 1 118 
+r58 1 380 
+r1 1 -2 
+$r34 1 228 
+$r67 1 334 
+r3 1 -2 
+$r45 1 177 
+r50 1 127 
+$r43 1 166 
+$r69 1 390 
+$r64 1 217 
+$r40 1 148 
+$r38 1 134 
+$r8 1 61 
+$r6 1 5 
+$r41 1 155 
+$r9 1 5 
+$r44 1 169 
+$r48 1 -1 
+r55 1 311 
+Fields: 0
+Accesses: 4
+242 1 -1 
+354 1 -1 
+298 1 -1 
+189 1 -1 
+Functions: 50
+0 2 -1 -2 
+259 1 -2 
+260 2 260 255 
+6 1 -2 
+390 2 390 380 
+394 1 367 
+399 2 390 396 
+147 1 5 
+404 1 404 
+278 2 278 268 
+282 1 255 
+410 3 5 407 382 
+287 2 278 284 
+160 1 160 
+164 2 -1 -2 
+292 1 292 
+166 1 166 
+172 2 160 169 
+302 3 5 295 270 
+177 2 177 127 
+306 2 -1 -2 
+182 1 182 
+315 1 -2 
+60 1 -2 
+316 2 311 316 
+193 4 129 134 155 142 
+197 2 -1 -2 
+70 3 5 56 61 
+206 1 -2 
+334 2 324 334 
+207 2 202 207 
+338 1 311 
+83 1 -2 
+343 2 340 334 
+348 1 348 
+93 1 -2 
+222 2 215 222 
+226 1 202 
+99 3 84 5 79 
+358 3 5 326 351 
+103 3 -1 -2 5 
+231 2 228 222 
+362 2 -1 -2 
+236 1 236 
+112 1 -2 
+371 1 -2 
+372 2 372 367 
+246 3 5 217 239 
+120 1 118 
+250 2 -1 -2 
+Constructors: 12
+193 129
+99 79
+70 56
+246 217
+358 326
+231 222
+343 334
+410 382
+172 160
+302 270
+287 278
+399 390
+
+Summary: 35
+268 236 316 284 348 396 380 -1 407 202 215 311 295 127 142 134 228 260 292 324 340 404 372 351 367 155 207 84 239 255 169 118 182 166 61 
+org/eclipse/jdt/internal/core/CopyElementsOperation.verify()Lorg/eclipse/jdt/core/IJavaModelStatus;
+PTG:
+Vars:
+7
+_ret 1 47 
+$r3 1 47 
+r0 1 -1 
+$r5 1 29 
+r1 1 4 
+$r2 1 17 
+$r4 1 17 
+Fields: 2
+-1 renamingsList 17
+-1 elementsToProcess 29
+Accesses: 3
+16 1 -1 
+23 1 -1 
+28 1 -1 
+Functions: 3
+0 3 -1 17 29 
+5 1 4 
+43 0 
+Constructors: 0
+
+Summary: 1
+-1 
+org/eclipse/jdt/internal/core/CopyElementsOperation.resolveRenameAnchor(Lorg/eclipse/jdt/core/IJavaElement;)Lorg/eclipse/jdt/core/IJavaElement;
+PTG:
+Vars:
+6
+r0 1 -2 
+r5 1 -1 
+$r1 1 1 
+r3 1 16 
+r2 1 1 
+r4 1 27 
+Fields: 1
+16 ArrayObject 27
+Accesses: 0
+Functions: 3
+0 1 -2 
+10 1 1 
+29 2 -2 27 
+Constructors: 0
+
+Summary: 3
+-1 16 -2 
+org/eclipse/jdt/internal/core/CopyElementsOperation.<init>([Lorg/eclipse/jdt/core/IJavaElement;[Lorg/eclipse/jdt/core/IJavaElement;Z)V
+PTG:
+Vars:
+4
+r2 1 -3 
+r0 1 -1 
+$r3 1 8 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+15 1 -1 
+Functions: 2
+4 3 -1 -2 -3 
+12 1 8 
+Constructors: 2
+4 -1
+12 8
+
+Summary: 5
+-1 1 -3 0 -2 
+org/eclipse/jdt/internal/core/CopyElementsOperation.<init>([Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/core/IJavaElement;Z)V
+PTG:
+Vars:
+4
+r1 1 -2 
+r3 1 -3 
+$r2 1 3 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 1
+11 3 -1 -2 3 
+Constructors: 1
+11 -1
+
+Summary: 3
+-1 3 -2 
+org/eclipse/jdt/internal/core/CopyElementsOperation.getSourceFor(Lorg/eclipse/jdt/core/IJavaElement;)Ljava/lang/String;
+PTG:
+Vars:
+8
+_ret 2 5 34 
+r0 1 -1 
+$r3 1 5 
+$r2 1 1 
+$r4 1 -2 
+$r5 1 1 
+r7 2 5 34 
+r1 1 -2 
+Fields: 1
+-1 sources 1
+Accesses: 2
+0 1 -1 
+35 1 -1 
+Functions: 3
+1 2 1 -2 
+41 4 1 -2 34 5 
+26 1 -2 
+Constructors: 0
+
+Summary: 2
+-1 0 
+org/eclipse/jdt/internal/core/CopyElementsOperation.processElement(Lorg/eclipse/jdt/core/IJavaElement;)V
+PTG:
+Vars:
+17
+r12 1 65 
+$r8 1 5 
+r2 1 5 
+$r18 1 164 
+$r7 1 25 
+$r9 1 5 
+r0 1 -1 
+r11 1 25 
+r1 1 -2 
+r13 1 87 
+$r10 1 5 
+r16 1 124 
+$r17 1 164 
+$r6 1 21 
+$r4 1 169 
+$r14 1 111 
+r15 1 111 
+Fields: 1
+-1 insertBeforeElements 21
+Accesses: 2
+176 1 -1 
+20 1 -1 
+Functions: 17
+0 3 -1 -2 21 
+100 2 5 87 
+106 3 -1 21 5 
+138 1 124 
+109 3 -1 -2 21 
+47 2 5 25 
+79 2 65 5 
+82 3 -1 -2 21 
+147 2 -1 21 
+180 2 164 169 
+21 2 -2 21 
+53 2 -1 21 
+119 1 111 
+154 4 -1 -2 21 111 
+60 3 -1 -2 21 
+189 3 -1 164 21 
+126 1 124 
+Constructors: 1
+180 164
+
+Summary: 8
+-1 5 25 87 65 169 164 124 
+org/eclipse/jdt/internal/core/CopyElementsOperation.isRenamingMainType(Lorg/eclipse/jdt/core/IJavaElement;Lorg/eclipse/jdt/core/IJavaElement;)Z
+PTG:
+Vars:
+4
+r1 1 -3 
+r2 1 -2 
+$r5 1 9 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 9
+0 1 -1 
+32 0 
+50 1 -2 
+51 1 -3 
+37 1 -2 
+38 0 
+7 2 -1 -2 
+25 1 -3 
+15 1 -3 
+Constructors: 0
+
+Summary: 7
+-1 9 31 1 36 38 0 
+org/eclipse/jdt/internal/core/CopyElementsOperation.getMainTaskName()Ljava/lang/String;
+PTG:
+Vars:
+3
+_ret 1 0 
+$r0 1 0 
+r1 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 

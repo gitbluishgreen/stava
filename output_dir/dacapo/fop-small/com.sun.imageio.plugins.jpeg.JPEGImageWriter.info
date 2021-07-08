@@ -1,0 +1,1909 @@
+50
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.writeToSequence(Ljavax/imageio/IIOImage;Ljavax/imageio/ImageWriteParam;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r3 1 -3 
+$r1 1 5 
+r2 1 -2 
+Fields: 1
+-1 cbLock 5
+Accesses: 2
+4 1 -1 
+11 1 -1 
+Functions: 6
+32 4 -1 -2 -3 5 
+1 2 -1 5 
+36 2 -1 5 
+8 1 5 
+24 0 
+44 2 -1 5 
+Constructors: 0
+
+Summary: 3
+-2 -3 -1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.grabPixels(I)V
+PTG:
+Vars:
+21
+$r12 1 31 
+$r15 1 42 
+$r13 1 10 
+r23 1 188 
+$r7 1 100 
+$r1 1 100 
+r19 1 40 
+$r8 1 137 
+$r11 1 121 
+r20 1 67 
+$r2 1 79 
+$r6 1 213 
+$r5 1 271 
+r0 1 -1 
+$r14 1 42 
+$r3 1 250 
+r21 4 74 248 106 137 
+$r9 1 132 
+$r10 1 140 
+r22 1 162 
+$r4 1 271 
+Fields: 9
+-1 converted 137
+-1 indexCM 42
+-1 srcBands 100
+-1 srcCM 213
+-1 cbLock 271
+-1 convertOp 132
+-1 srcRas 10
+-1 srcRas 79
+-1 raster 250
+Accesses: 26
+2 1 -1 
+131 1 -1 
+136 1 -1 
+9 1 -1 
+13 1 -1 
+78 1 -1 
+270 1 -1 
+143 1 -1 
+17 1 -1 
+82 1 -1 
+146 1 -1 
+212 1 -1 
+86 1 -1 
+23 1 -1 
+151 1 -1 
+280 1 -1 
+92 1 -1 
+99 1 -1 
+293 1 -1 
+41 1 -1 
+107 1 -1 
+241 1 -1 
+305 1 -1 
+114 1 -1 
+249 1 -1 
+58 1 -1 
+Functions: 29
+195 4 248 137 74 106 
+132 5 132 248 137 74 106 
+69 1 67 
+199 4 248 137 74 106 
+10 2 10 31 
+203 4 248 137 74 106 
+79 2 100 79 
+209 2 162 188 
+274 1 271 
+218 2 162 213 
+158 4 248 137 74 106 
+222 2 162 100 
+223 1 162 
+290 10 -1 100 132 213 137 42 10 250 271 79 
+227 1 162 
+166 4 248 137 74 106 
+167 4 248 137 74 106 
+231 1 162 
+297 1 271 
+42 1 42 
+171 4 248 137 74 106 
+235 1 162 
+175 4 248 137 74 106 
+179 4 248 137 74 106 
+309 0 
+59 2 40 42 
+254 5 248 137 250 74 106 
+127 1 121 
+191 4 248 137 74 106 
+Constructors: 0
+
+Summary: 9
+-1 106 67 31 74 188 248 40 162 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.dispose()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 21 
+$r1 1 5 
+Fields: 2
+-1 disposerRecord 21
+-1 cbLock 5
+Accesses: 4
+4 1 -1 
+20 1 -1 
+11 1 -1 
+31 1 -1 
+Functions: 5
+1 3 -1 21 5 
+35 3 -1 21 5 
+8 1 5 
+24 1 21 
+43 3 -1 21 5 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.setThreadLock()V
+PTG:
+Vars:
+4
+r0 1 3 
+$r3 1 5 
+r1 1 -1 
+$r2 1 5 
+Fields: 1
+-1 theThread 5
+Accesses: 7
+4 1 -1 
+85 1 -1 
+70 1 -1 
+90 1 -1 
+11 1 -1 
+77 1 -1 
+46 1 -1 
+Functions: 10
+0 0 
+33 2 -1 5 
+50 0 
+66 0 
+37 0 
+23 0 
+56 1 3 
+27 0 
+43 0 
+60 0 
+Constructors: 0
+
+Summary: 9
+33 37 -1 23 63 50 56 60 43 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getDefaultImageMetadata(Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+PTG:
+Vars:
+5
+r2 1 -2 
+r3 1 -3 
+$r1 1 4 
+r0 1 -1 
+$r5 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+16 1 -1 
+1 1 -1 
+24 1 -1 
+11 4 -1 -2 -3 4 
+Constructors: 1
+11 4
+
+Summary: 3
+-2 -3 -1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.collectQTablesFromMetadata(Lcom/sun/imageio/plugins/jpeg/JPEGMetadata;)[Ljavax/imageio/plugins/jpeg/JPEGQTable;
+PTG:
+Vars:
+15
+$r3 1 9 
+r2 1 -2 
+_ret 1 80 
+r12 1 28 
+$r8 1 113 
+$r6 1 107 
+$r0 1 0 
+r14 1 80 
+$r9 1 28 
+$r5 1 100 
+$r7 1 107 
+r11 1 -1 
+$r10 1 56 
+r4 1 17 
+r13 1 28 
+Fields: 3
+-2 markerSequence 9
+28 tables 56
+107 data 113
+Accesses: 3
+54 1 28 
+8 1 -2 
+110 1 107 
+Functions: 9
+18 1 17 
+4 1 0 
+116 2 113 100 
+69 1 0 
+104 1 0 
+9 1 9 
+27 1 17 
+59 2 0 56 
+76 1 0 
+Constructors: 2
+4 0
+116 100
+
+Summary: 10
+-1 17 113 -2 9 56 0 28 0 107 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.endWriteSequence()V
+PTG:
+Vars:
+2
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 cbLock 5
+Accesses: 3
+4 1 -1 
+11 1 -1 
+30 1 -1 
+Functions: 5
+1 2 -1 5 
+34 2 -1 5 
+8 1 5 
+24 0 
+42 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.write(Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/IIOImage;Ljavax/imageio/ImageWriteParam;)V
+PTG:
+Vars:
+5
+r0 1 -1 
+r3 1 -3 
+$r1 1 5 
+r2 1 -2 
+r4 1 -4 
+Fields: 1
+-1 cbLock 5
+Accesses: 1
+4 1 -1 
+Functions: 5
+1 2 -1 5 
+19 2 -1 5 
+8 1 5 
+28 2 -1 5 
+15 5 -1 -2 -3 -4 5 
+Constructors: 0
+
+Summary: 4
+-2 -3 -1 -4 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.setOutput(Ljava/lang/Object;)V
+PTG:
+Vars:
+4
+r2 1 -2 
+$r3 1 -2 
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 cbLock 5
+Accesses: 3
+4 1 -1 
+25 1 -1 
+29 1 -1 
+Functions: 7
+1 2 -1 5 
+17 2 -1 5 
+33 2 -1 5 
+37 2 -1 5 
+8 1 5 
+13 3 -1 -2 5 
+45 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.checkSOFBands(Lcom/sun/imageio/plugins/jpeg/SOFMarkerSegment;I)V
+PTG:
+Vars:
+3
+$r1 1 5 
+r0 1 -2 
+r3 1 -1 
+Fields: 1
+-2 componentSpecs 5
+Accesses: 1
+4 1 -2 
+Functions: 1
+19 0 
+Constructors: 0
+
+Summary: 4
+-2 -1 0 5 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.writeOutputData([BII)V
+PTG:
+Vars:
+5
+$r4 1 1 
+$r3 1 8 
+r2 1 -2 
+$r1 1 1 
+r0 1 -1 
+Fields: 2
+-1 ios 8
+-1 cbLock 1
+Accesses: 4
+0 1 -1 
+19 1 -1 
+7 1 -1 
+31 1 -1 
+Functions: 4
+35 0 
+4 1 1 
+23 1 1 
+14 2 -2 8 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.thumbnailComplete()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 cbLock 1
+Accesses: 3
+0 1 -1 
+22 1 -1 
+11 1 -1 
+Functions: 4
+4 1 1 
+8 2 -1 1 
+26 0 
+15 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.isSubsampled([Lcom/sun/imageio/plugins/jpeg/SOFMarkerSegment$ComponentSpec;)Z
+PTG:
+Vars:
+6
+$r2 1 9 
+r0 1 -2 
+r5 1 -1 
+$r1 1 2 
+$r3 1 27 
+$r4 1 38 
+Fields: 4
+-2 ArrayObject 9
+-2 ArrayObject 27
+-2 ArrayObject 2
+-2 ArrayObject 38
+Accesses: 4
+2 1 2 
+38 1 38 
+9 1 9 
+27 1 27 
+Functions: 0
+Constructors: 0
+
+Summary: 7
+-2 9 -1 27 2 38 0 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.clearThreadLock()V
+PTG:
+Vars:
+4
+$r2 1 5 
+$r11 1 5 
+r0 1 3 
+r1 1 -1 
+Fields: 1
+-1 theThread 5
+Accesses: 7
+67 1 -1 
+4 1 -1 
+36 1 -1 
+70 1 -1 
+11 1 -1 
+60 1 -1 
+79 1 -1 
+Functions: 8
+0 0 
+33 0 
+50 0 
+23 0 
+40 0 
+56 0 
+27 0 
+46 1 3 
+Constructors: 0
+
+Summary: 8
+46 33 -1 3 23 50 40 53 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.<init>(Ljavax/imageio/spi/ImageWriterSpi;)V
+PTG:
+Vars:
+7
+$r3 1 187 
+$r5 1 225 
+r0 1 -1 
+$r4 1 206 
+r1 1 -2 
+$r6 1 221 
+$r2 1 166 
+Fields: 2
+-1 disposerRecord 225
+-1 disposerReferent 221
+Accesses: 41
+194 1 -1 
+67 1 -1 
+132 1 -1 
+7 1 -1 
+72 1 -1 
+137 1 -1 
+202 1 -1 
+12 1 -1 
+77 1 -1 
+142 1 -1 
+17 1 -1 
+82 1 -1 
+210 1 -1 
+147 1 -1 
+22 1 -1 
+87 1 -1 
+152 1 -1 
+217 1 -1 
+27 1 -1 
+92 1 -1 
+220 1 -1 
+157 1 -1 
+32 1 -1 
+224 1 -1 
+97 1 -1 
+162 1 -1 
+37 1 -1 
+102 1 -1 
+42 1 -1 
+107 1 -1 
+173 1 -1 
+47 1 -1 
+112 1 -1 
+178 1 -1 
+52 1 -1 
+117 1 -1 
+183 1 -1 
+57 1 -1 
+122 1 -1 
+62 1 -1 
+127 1 -1 
+Functions: 6
+2 4 -1 225 -2 221 
+228 2 225 221 
+198 3 -1 225 221 
+214 1 206 
+170 1 166 
+191 1 187 
+Constructors: 4
+2 -1
+214 206
+170 166
+191 187
+
+Summary: 3
+-2 -1 0 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.thumbnailProgress(F)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+$r2 1 1 
+Fields: 1
+-1 cbLock 1
+Accesses: 3
+0 1 -1 
+23 1 -1 
+12 1 -1 
+Functions: 4
+16 1 1 
+4 1 1 
+9 2 -1 1 
+27 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.canWriteSequence()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.convertImageMetadata(Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+PTG:
+Vars:
+6
+r1 1 -2 
+$r5 1 -1 
+r2 1 -3 
+r3 1 -4 
+r0 1 -1 
+r4 1 11 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -1 
+4 4 -1 -2 -3 -4 
+23 1 -1 
+14 1 -1 
+Constructors: 0
+
+Summary: 4
+-2 -3 -1 -4 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.thumbnailStarted(I)V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+$r1 1 1 
+Fields: 1
+-1 cbLock 1
+Accesses: 4
+0 1 -1 
+16 1 -1 
+8 1 -1 
+27 1 -1 
+Functions: 4
+4 1 1 
+20 1 1 
+13 2 -1 1 
+31 0 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getSrcCSType(Ljava/awt/image/ColorModel;)I
+PTG:
+Vars:
+4
+$r2 1 117 
+r1 1 15 
+r3 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+17 1 15 
+6 1 -2 
+11 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 -1 15 0 117 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.convertStreamMetadata(Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+PTG:
+Vars:
+4
+r0 1 -2 
+r1 1 -2 
+r2 1 -1 
+r3 1 -3 
+Fields: 0
+Accesses: 1
+12 1 -2 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+-3 -1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.clearAbortRequest()V
+PTG:
+Vars:
+2
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 cbLock 5
+Accesses: 3
+4 1 -1 
+23 1 -1 
+31 1 -1 
+Functions: 8
+1 2 -1 5 
+19 2 -1 5 
+35 2 -1 5 
+39 2 -1 5 
+8 1 5 
+11 2 -1 5 
+27 2 -1 5 
+47 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.convertImageMetadataOnThread(Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+PTG:
+Vars:
+5
+r5 1 -1 
+r0 1 -2 
+r1 1 42 
+r3 1 -3 
+r4 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 4
+67 1 42 
+36 1 -2 
+56 3 -1 -3 -4 
+25 1 -2 
+Constructors: 0
+
+Summary: 7
+-3 2 -1 -4 0 1 42 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.prepareWriteSequence(Ljavax/imageio/metadata/IIOMetadata;)V
+PTG:
+Vars:
+3
+r2 1 -2 
+$r1 1 5 
+r0 1 -1 
+Fields: 1
+-1 cbLock 5
+Accesses: 1
+4 1 -1 
+Functions: 5
+1 2 -1 5 
+17 2 -1 5 
+8 1 5 
+25 2 -1 5 
+13 3 -1 -2 5 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.collectHTablesFromMetadata(Lcom/sun/imageio/plugins/jpeg/JPEGMetadata;Z)[Ljavax/imageio/plugins/jpeg/JPEGHuffmanTable;
+PTG:
+Vars:
+22
+$r0 1 0 
+$r9 1 232 
+$r17 1 81 
+$r16 1 63 
+r20 1 31 
+$r15 1 63 
+_ret 1 154 
+$r8 1 224 
+$r3 1 9 
+r23 1 138 
+r19 1 31 
+$r6 1 192 
+r4 1 17 
+r21 1 81 
+$r14 1 31 
+$r10 1 240 
+$r11 1 241 
+r18 1 -1 
+$r12 1 233 
+r2 1 -2 
+r22 1 154 
+$r7 1 205 
+Fields: 8
+-2 markerSequence 9
+31 tables 63
+232 numCodes 233
+138 ArrayObject 192
+138 ArrayObject 232
+138 ArrayObject 240
+154 ArrayObject 205
+240 values 241
+Accesses: 7
+192 1 192 
+240 1 240 
+8 1 -2 
+232 1 232 
+74 1 31 
+91 1 81 
+61 1 31 
+Functions: 14
+4 1 0 
+134 1 0 
+9 1 9 
+76 1 63 
+111 2 0 81 
+146 7 0 192 240 241 232 233 138 
+19 1 17 
+244 3 224 241 233 
+181 1 0 
+150 1 0 
+216 0 
+29 1 17 
+63 1 63 
+127 1 0 
+Constructors: 2
+4 0
+244 224
+
+Summary: 15
+81 232 -1 63 138 192 17 240 233 -2 9 31 0 241 0 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getNumThumbnailsSupported(Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/metadata/IIOMetadata;)I
+PTG:
+Vars:
+5
+r4 1 -5 
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 5 -1 -2 -3 -4 -5 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 -4 -5 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.checkAdobe(Lcom/sun/imageio/plugins/jpeg/AdobeMarkerSegment;Ljavax/imageio/ImageTypeSpecifier;Z)V
+PTG:
+Vars:
+3
+r2 1 -1 
+r0 1 -2 
+r1 1 -3 
+Fields: 0
+Accesses: 3
+51 1 -1 
+42 1 -1 
+11 1 -2 
+Functions: 2
+5 1 -3 
+31 1 -1 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.canWriteRasters()Z
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getDefaultStreamMetadata(Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+PTG:
+Vars:
+4
+$r1 1 4 
+r2 1 -2 
+$r4 1 -1 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 4
+1 1 -1 
+22 1 -1 
+10 3 -1 -2 4 
+15 1 -1 
+Constructors: 1
+10 4
+
+Summary: 2
+-2 -1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.writeOnThread(Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/IIOImage;Ljavax/imageio/ImageWriteParam;)V
+PTG:
+Vars:
+184
+r189 2 1392 2259 
+$r69 1 2107 
+$r35 1 3118 
+$r71 1 2135 
+$r148 1 142 
+$r74 1 302 
+$r150 1 142 
+$r61 1 2552 
+$r52 1 1349 
+r184 1 964 
+$r143 1 290 
+$r176 1 142 
+$r128 1 735 
+$r70 1 2129 
+$r30 1 3092 
+$r144 1 133 
+r194 1 2302 
+$r84 1 1442 
+$r57 1 2522 
+$r153 1 69 
+$r124 1 712 
+r180 4 2757 2742 2712 2690 
+$r67 1 2259 
+$r60 1 1349 
+r185 1 1216 
+$r45 2 2080 1987 
+$r105 1 1159 
+$r50 1 2859 
+r181 1 -4 
+$r101 1 1247 
+$r129 1 738 
+r170 3 480 545 489 
+$r32 1 3109 
+$r81 1 1663 
+$r48 1 2907 
+$r91 1 1349 
+r166 1 302 
+$r96 1 1392 
+r11 1 2773 
+$r134 1 775 
+$r139 1 474 
+$r64 1 2324 
+$r33 1 3112 
+r186 2 1272 815 
+r191 1 1448 
+$r79 1 1349 
+$r167 1 353 
+$r107 1 1182 
+$r13 1 2999 
+$r26 4 2735 2679 2751 2696 
+$r126 1 718 
+$r103 1 1146 
+$r44 1 2875 
+$r36 1 3130 
+$r123 1 709 
+$r75 1 1892 
+$r99 1 1272 
+$r145 1 142 
+$r76 1 1880 
+$r197 1 1349 
+r200 1 2552 
+$r151 1 223 
+r5 1 -4 
+$r135 1 783 
+$r31 1 3104 
+$r121 1 692 
+r193 1 1671 
+r165 1 290 
+$r147 1 142 
+$r85 1 1349 
+$r138 1 142 
+$r82 1 1671 
+r10 1 2767 
+$r168 1 360 
+r182 1 925 
+$r196 1 2334 
+$r141 1 406 
+$r21 1 3046 
+$r155 1 56 
+$r63 1 1349 
+$r27 4 2757 2742 2712 2690 
+$r146 1 142 
+$r131 1 798 
+$r95 1 1349 
+$r117 1 678 
+$r83 1 1687 
+r3 1 -2 
+$r195 1 1349 
+$r192 1 1581 
+$r9 1 1349 
+$r114 1 660 
+$r125 1 721 
+$r86 1 1448 
+$r109 1 932 
+$r78 1 1631 
+$r51 1 2696 
+r16 1 3018 
+$r92 1 1362 
+$r46 1 2891 
+$r98 1 1290 
+$r37 1 3135 
+$r127 1 730 
+$r58 1 1349 
+$r68 1 1725 
+$r53 1 1349 
+$r59 1 2537 
+$r72 1 2080 
+$r133 1 763 
+$r140 1 406 
+$r106 1 1175 
+r0 1 -1 
+$r4 1 235 
+r163 1 69 
+$r38 1 3138 
+$r1 1 1 
+$r47 2 2080 1987 
+$r118 1 683 
+$r20 1 3151 
+$r66 1 1349 
+$r43 2 2080 1987 
+$r174 1 142 
+r12 1 2779 
+$r87 1 1546 
+r171 1 489 
+$r104 1 1153 
+$r22 1 1 
+$r94 1 1377 
+r178 6 2645 1167 2653 1132 2606 2612 
+r188 1 1377 
+$r116 1 666 
+$r190 1 1349 
+$r119 1 686 
+$r110 1 643 
+$r113 1 657 
+$r55 1 1349 
+$r49 2 2080 1987 
+$r7 1 535 
+$r112 1 652 
+r201 1 2761 
+r2 1 -3 
+$r136 1 786 
+$r17 1 3035 
+$r149 1 142 
+r172 1 541 
+$r80 1 1655 
+$r54 1 2612 
+$r15 1 3010 
+$r24 3 480 545 489 
+$r18 1 3046 
+$r152 1 142 
+$r77 1 1627 
+$r100 1 1216 
+$r8 1 1349 
+$r93 1 1349 
+$r25 6 2645 1167 2653 1132 2606 2612 
+$r23 1 3046 
+$r130 1 744 
+r173 1 815 
+$r89 1 1500 
+r199 1 2537 
+$r6 1 142 
+$r88 1 1448 
+$r132 1 766 
+$r111 1 640 
+$r175 1 142 
+$r34 1 3121 
+r187 2 1362 2324 
+$r154 1 85 
+$r62 1 1349 
+$r122 1 704 
+r179 4 2735 2679 2751 2696 
+$r164 1 142 
+$r97 1 1290 
+$r56 1 1349 
+$r19 1 3046 
+$r115 1 669 
+$r102 1 1140 
+$r65 1 1349 
+$r120 1 695 
+r198 1 2522 
+r169 1 376 
+$r73 1 1987 
+$r29 1 3095 
+$r177 1 142 
+Fields: 21
+1362 iccSegment 1880
+3010 ArrayObject 3018
+2080 ArrayObject 2875
+2080 ArrayObject 2907
+2080 ArrayObject 2859
+2080 ArrayObject 2891
+1987 ArrayObject 2875
+1987 ArrayObject 2907
+1987 ArrayObject 2859
+1987 ArrayObject 2891
+-1 streamQTables 2612
+-1 metadata 1349
+-1 streamDCHuffmanTables 2696
+-1 ios 1
+-1 srcBands 406
+-1 cbLock 3046
+-1 srcRas 142
+-1 streamACHuffmanTables 2712
+1392 componentSpecs 1987
+1392 componentSpecs 2080
+353 ArrayObject 360
+Accesses: 172
+0 1 -1 
+1024 1 -1 
+3072 1 -1 
+259 1 -1 
+1027 1 -1 
+2309 1 -1 
+2565 1 2552 
+1031 1 -1 
+1549 1 -1 
+2317 1 -1 
+3085 1 -1 
+270 1 -1 
+1296 1 -1 
+275 1 -1 
+531 1 -1 
+1044 1 -1 
+1814 1 -1 
+1049 1 -1 
+2841 1 -1 
+1310 1 -1 
+2078 2 1392 2259 
+2337 1 -1 
+1315 1 -1 
+1571 1 -1 
+1827 1 1377 
+2852 2 1392 2259 
+2599 1 -1 
+1320 1 -1 
+1577 1 -1 
+2859 1 2859 
+2348 1 -1 
+1325 1 -1 
+1837 1 -1 
+2351 1 -1 
+1330 1 -1 
+2611 1 -1 
+2868 2 1392 2259 
+2358 1 -1 
+1592 1 -1 
+314 1 -1 
+2618 1 -1 
+59 1 -1 
+2875 1 2875 
+2367 1 -1 
+323 1 -1 
+836 1 -1 
+1348 1 -1 
+2884 2 1392 2259 
+3145 1 -1 
+843 1 -1 
+1355 1 -1 
+2891 1 2891 
+2125 1 -1 
+1614 1 -1 
+847 1 -1 
+2900 2 1392 2259 
+854 1 -1 
+1878 2 1362 2324 
+343 1 -1 
+88 1 -1 
+857 1 -1 
+1370 1 -1 
+3162 1 -1 
+2907 1 2907 
+2396 1 -1 
+349 1 -1 
+2142 1 -1 
+866 1 -1 
+613 1 -1 
+2918 1 -1 
+1895 1 -1 
+361 1 -1 
+1385 1 -1 
+2156 1 1377 
+1645 1 -1 
+878 1 -1 
+2926 1 -1 
+2671 1 -1 
+1648 1 -1 
+2929 1 -1 
+1906 1 1377 
+884 1 -1 
+2167 1 -1 
+633 1 -1 
+2937 1 -1 
+1402 1 -1 
+2682 1 -1 
+2940 1 -1 
+3196 1 -1 
+383 1 -1 
+1407 1 -1 
+1412 1 -1 
+2948 1 -1 
+2437 1 -1 
+2695 1 -1 
+2951 1 -1 
+138 1 -1 
+141 1 -1 
+2702 1 -1 
+2959 1 -1 
+402 1 -1 
+2962 1 -1 
+2195 1 -1 
+2451 1 -1 
+3219 1 -1 
+2708 1 -1 
+405 1 -1 
+1690 1 -1 
+158 1 -1 
+2976 1 -1 
+2465 1 -1 
+2211 1 1377 
+1956 1 -1 
+936 1 -1 
+2472 1 -1 
+1450 1 -1 
+3242 1 -1 
+940 1 -1 
+2221 1 -1 
+2990 1 -1 
+2479 1 -1 
+176 1 -1 
+944 1 -1 
+3251 1 -1 
+180 1 -1 
+948 1 -1 
+187 1 -1 
+3263 1 -1 
+2240 1 -1 
+1985 2 1392 2259 
+967 1 964 
+1479 1 -1 
+3273 1 -1 
+972 1 -1 
+2252 1 -1 
+2508 1 -1 
+463 1 -1 
+3023 1 -1 
+208 1 -1 
+976 1 964 
+3280 1 -1 
+2515 1 -1 
+981 1 -1 
+1237 1 -1 
+470 1 -1 
+215 1 -1 
+1240 1 -1 
+985 1 964 
+990 1 -1 
+3038 1 -1 
+1503 1 -1 
+2272 2 1392 2259 
+226 1 -1 
+994 1 964 
+2530 1 -1 
+2019 1 -1 
+3045 1 -1 
+999 1 -1 
+1002 1 -1 
+3053 1 -1 
+1006 1 -1 
+240 1 -1 
+2032 1 1377 
+2545 1 -1 
+243 1 -1 
+3060 1 -1 
+2293 1 -1 
+1529 1 -1 
+2042 1 -1 
+1019 1 -1 
+509 1 -1 
+254 1 -1 
+Functions: 187
+2048 9 -1 1 2612 1349 406 3046 2696 2712 142 
+-1 0 
+770 1 766 
+1284 13 -1 1216 1 -4 1349 3046 2696 142 815 2612 406 2712 1272 
+3076 0 
+775 1 775 
+1543 1 1448 
+2058 8 1392 2080 2259 1987 2875 2907 2859 2891 
+13 0 
+2318 1 1349 
+783 1 783 
+532 1 142 
+789 2 786 763 
+1557 1 815 
+535 1 535 
+3095 1 3095 
+1305 9 -1 1 2612 1349 406 3046 2696 2712 142 
+27 0 
+283 1 69 
+1819 9 -1 1 2612 1349 406 3046 2696 2712 142 
+3099 1 3095 
+1052 1 -4 
+2077 14 -1 2080 1 1349 3046 2696 2859 2891 142 2612 406 2712 2875 2907 
+2333 1 -3 
+3104 1 3104 
+801 1 798 
+1058 1 -4 
+2340 1 -3 
+37 9 -1 1 2612 1349 406 3046 2696 2712 142 
+3109 1 3109 
+2598 9 -1 1 2612 1349 406 3046 2696 2712 142 
+40 1 -3 
+1064 1 -4 
+297 1 290 
+811 1 -4 
+3115 2 3092 3112 
+1070 1 -4 
+3121 1 3121 
+1843 9 -1 1 2612 1349 406 3046 2696 2712 142 
+1076 1 -4 
+1589 11 -1 1 2612 1349 406 3046 2696 2712 1581 142 815 
+3125 1 3121 
+55 1 -3 
+3130 1 3130 
+1595 10 -1 1 2612 1349 406 3046 2696 2712 142 815 
+829 9 -1 1 2612 1349 406 3046 2696 2712 142 
+3135 1 3135 
+65 1 -3 
+1603 10 -1 1 2612 1349 406 3046 2696 2712 142 815 
+837 1 142 
+3141 2 3138 3118 
+326 1 290 
+1862 1 302 
+2632 1 -4 
+3144 29 -1 1 2690 1349 2757 2696 2761 142 3151 1167 2767 2645 2773 406 2712 2779 2653 480 545 3046 489 1132 2606 2735 2612 2742 2679 2302 2751 
+2378 9 -1 1 2612 1349 406 3046 2696 2712 142 
+1356 1 1349 
+333 1 290 
+3149 1 2999 
+848 1 142 
+2640 1 -4 
+82 1 69 
+858 1 142 
+1114 0 
+2650 0 
+1371 1 1349 
+2139 3 2129 2135 302 
+94 1 69 
+1118 1 -4 
+609 0 
+1889 1 302 
+867 1 142 
+1124 0 
+1637 2 69 1631 
+2407 9 -1 1 2612 1349 406 3046 2696 2712 142 
+105 1 69 
+1386 1 1349 
+1642 12 -1 1 -4 2612 1349 406 3046 2696 2712 1627 142 1631 
+2670 9 -1 1 2612 1349 406 3046 2696 2712 142 
+1649 1 1349 
+372 1 -4 
+1140 1 1140 
+117 1 69 
+119 1 69 
+2681 9 -1 1 2612 1349 406 3046 2696 2712 142 
+1661 1 69 
+2173 9 -1 1 2612 1349 406 3046 2696 2712 142 
+126 1 69 
+1663 1 1663 
+1153 1 1153 
+643 1 643 
+647 1 643 
+393 9 -1 1 2612 1349 406 3046 2696 2712 142 
+1673 1 1671 
+2443 9 -1 1 2612 1349 406 3046 2696 2712 142 
+652 1 652 
+142 1 142 
+1422 1 815 
+657 1 657 
+148 1 69 
+1684 1 1671 
+663 2 640 660 
+3223 1 3046 
+2200 9 -1 1 2612 1349 406 3046 2696 2712 142 
+921 1 -4 
+1436 0 
+669 1 669 
+1693 10 -1 1 2612 1349 69 406 3046 2696 2712 142 
+2462 9 -1 1 2612 1349 406 3046 2696 2712 142 
+159 1 142 
+1951 9 -1 1 2612 1349 406 3046 2696 2712 142 
+1440 1 815 
+3232 9 -1 1 2612 1349 406 3046 2696 2712 142 
+673 1 669 
+1186 1 -4 
+1442 1 1442 
+2722 1 -4 
+165 1 69 
+1701 10 -1 1 2612 1349 69 406 3046 2696 2712 142 
+678 1 678 
+3239 9 -1 1 2612 1349 406 3046 2696 2712 142 
+425 0 
+2730 1 -4 
+683 1 683 
+1965 8 1392 2080 2259 1987 2875 2907 2859 2891 
+3246 1 1 
+177 1 142 
+689 2 666 686 
+2737 1 -4 
+2227 9 -1 1 2612 1349 406 3046 2696 2712 142 
+181 1 142 
+1205 1 -4 
+1717 17 -1 2080 1 1987 1349 3046 2696 2859 2891 142 1392 2259 2612 406 2712 2875 2907 
+1462 17 -1 2080 1 1987 1349 3046 2696 2859 2891 142 1392 2259 2612 406 2712 2875 2907 
+695 1 695 
+3255 1 3046 
+952 1 932 
+699 1 695 
+2747 0 
+188 1 142 
+1212 1 -3 
+957 2 932 925 
+3005 1 2999 
+1471 13 -1 1 1349 3046 2696 142 815 1362 2612 2324 406 2712 1880 
+704 1 704 
+1984 14 -1 1 1987 1349 3046 2696 2859 2891 142 2612 406 2712 2875 2907 
+2753 0 
+194 1 69 
+1731 2 69 1725 
+3267 0 
+709 1 709 
+1736 10 -1 1 2612 1349 69 406 3046 2696 2712 142 
+201 1 69 
+715 2 692 712 
+2253 1 1349 
+1486 1 1448 
+209 1 142 
+721 1 721 
+2516 1 1349 
+725 1 721 
+1749 1 290 
+471 1 142 
+216 1 142 
+1497 1 1448 
+474 1 474 
+730 1 730 
+3034 2 2999 3018 
+1756 1 302 
+735 1 735 
+3042 9 -1 1 2612 1349 406 3046 2696 2712 142 
+2531 1 1349 
+1252 1 1247 
+741 2 738 718 
+1512 11 -1 1 1377 2612 1349 406 3046 2696 2712 142 815 
+2024 9 -1 1 2612 1349 406 3046 2696 2712 142 
+233 1 69 
+3049 1 3046 
+749 1 744 
+1520 1 815 
+3057 9 -1 1 2612 1349 406 3046 2696 2712 142 
+2546 1 1349 
+244 1 142 
+2292 17 -1 2080 1 1987 1349 3046 2696 2859 2891 142 1392 2259 2612 406 2712 2875 2907 
+3064 1 3046 
+1532 1 1448 
+766 1 766 
+1278 2 69 1272 
+Constructors: 15
+673 669
+770 766
+1731 1725
+1637 1631
+647 643
+1642 1627
+725 721
+1589 1581
+3125 3121
+952 932
+699 695
+2139 2129
+3099 3095
+3005 2999
+1278 1272
+
+Summary: 69
+535 766 660 1448 643 2859 3109 3130 1655 1987 815 3121 775 2080 2999 3138 783 721 678 657 709 695 1272 735 730 1362 786 -4 652 964 3095 2 -1 1631 2324 -2 932 2537 3112 0 1442 1 712 -3 2875 2107 1671 3135 3104 738 686 925 541 1392 302 1880 2907 2552 2522 704 1377 474 669 2259 1663 2891 69 1725 683 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getPreferredThumbnailSizes(Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/metadata/IIOMetadata;)[Ljava/awt/Dimension;
+PTG:
+Vars:
+5
+r4 1 -5 
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 5 -1 -2 -3 -4 -5 
+12 0 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 -4 -5 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.prepareWriteSequenceOnThread(Ljavax/imageio/metadata/IIOMetadata;)V
+PTG:
+Vars:
+22
+$r22 1 124 
+$r9 1 173 
+$r13 1 117 
+r2 1 -2 
+$r20 1 117 
+$r5 1 88 
+$r17 1 104 
+$r10 1 180 
+$r6 1 117 
+$r14 1 188 
+$r19 1 113 
+$r7 1 148 
+$r11 1 180 
+r0 1 -1 
+r4 1 -2 
+$r12 1 155 
+$r21 1 121 
+$r8 1 155 
+$r1 1 1 
+$r18 1 101 
+$r16 1 138 
+$r15 1 163 
+Fields: 4
+-1 streamQTables 117
+-1 streamDCHuffmanTables 155
+-1 ios 1
+-1 streamACHuffmanTables 180
+Accesses: 20
+0 1 -1 
+33 1 -2 
+130 1 -1 
+67 1 -1 
+195 1 -1 
+229 1 -1 
+166 1 -1 
+199 1 -1 
+203 1 -1 
+141 1 -1 
+207 1 -1 
+176 1 -1 
+50 1 -1 
+179 1 -1 
+116 1 -1 
+151 1 -1 
+154 1 -1 
+91 1 -1 
+94 1 -1 
+191 1 -1 
+Functions: 17
+-1 0 
+162 0 
+104 1 104 
+170 6 -1 1 -2 180 117 155 
+108 1 104 
+13 0 
+46 0 
+81 0 
+113 1 113 
+145 6 -1 1 -2 180 117 155 
+211 5 -1 1 180 117 155 
+86 6 -1 1 -2 180 117 155 
+121 1 121 
+187 0 
+63 0 
+127 2 101 124 
+223 0 
+Constructors: 1
+108 104
+
+Summary: 7
+-1 104 113 -2 0 121 124 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getDefaultDestCSType(Ljava/awt/image/ColorModel;)I
+PTG:
+Vars:
+4
+$r2 1 117 
+r3 1 -1 
+r0 1 -2 
+r1 1 15 
+Fields: 0
+Accesses: 0
+Functions: 4
+-1 0 
+17 1 15 
+6 1 -2 
+11 1 -2 
+Constructors: 0
+
+Summary: 5
+-2 -1 15 0 117 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.writeMetadata()V
+PTG:
+Vars:
+10
+$r1 1 1 
+r0 1 -1 
+$r6 1 15 
+$r8 1 19 
+$r3 1 68 
+$r9 1 15 
+$r7 1 23 
+$r5 1 1 
+$r2 1 72 
+$r4 1 56 
+Fields: 7
+-1 thumbnails 19
+-1 thumbnails 68
+-1 metadata 1
+-1 iccProfile 23
+-1 iccProfile 72
+-1 ios 15
+-1 ios 56
+Accesses: 16
+0 1 -1 
+67 1 -1 
+37 1 -1 
+7 1 -1 
+71 1 -1 
+41 1 -1 
+75 1 -1 
+14 1 -1 
+79 1 -1 
+18 1 -1 
+51 1 -1 
+22 1 -1 
+55 1 -1 
+59 1 -1 
+30 1 -1 
+63 1 -1 
+Functions: 3
+84 8 -1 1 19 68 23 56 72 15 
+27 8 -1 1 19 68 23 72 56 15 
+45 1 15 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getDefaultDestCSType(Ljava/awt/image/RenderedImage;)I
+PTG:
+Vars:
+3
+$r2 1 2 
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 2 
+1 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 -1 2 0 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.warningOccurred(I)V
+PTG:
+Vars:
+4
+$r3 1 35 
+$r4 1 1 
+$r1 1 1 
+r0 1 -1 
+Fields: 1
+-1 cbLock 1
+Accesses: 4
+0 1 -1 
+52 1 -1 
+41 1 -1 
+28 1 -1 
+Functions: 6
+34 0 
+4 1 1 
+38 3 -1 1 35 
+23 0 
+56 0 
+45 1 1 
+Constructors: 0
+
+Summary: 2
+35 -1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.abort()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+9 1 -1 
+Functions: 5
+1 1 -1 
+17 1 -1 
+5 1 -1 
+25 1 -1 
+13 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getDestCSType(Ljavax/imageio/ImageTypeSpecifier;)I
+PTG:
+Vars:
+5
+r1 1 4 
+r4 1 -1 
+r0 1 -2 
+$r3 1 126 
+r2 1 14 
+Fields: 0
+Accesses: 0
+Functions: 5
+0 1 -2 
+-1 0 
+19 1 14 
+5 1 4 
+10 1 4 
+Constructors: 0
+
+Summary: 5
+-2 -1 14 4 126 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.<clinit>()V
+PTG:
+Vars:
+4
+$r4 1 37 
+$r2 1 20 
+$r3 1 25 
+$r0 1 0 
+Fields: 0
+Accesses: 0
+Functions: 5
+16 0 
+4 1 0 
+7 1 0 
+31 1 25 
+47 1 37 
+Constructors: 3
+4 0
+31 25
+47 37
+
+Summary: 0
+
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.warningWithMessage(Ljava/lang/String;)V
+PTG:
+Vars:
+4
+$r1 1 1 
+r0 1 -1 
+$r3 1 1 
+r2 1 -2 
+Fields: 1
+-1 cbLock 1
+Accesses: 4
+0 1 -1 
+16 1 -1 
+8 1 -1 
+27 1 -1 
+Functions: 4
+4 1 1 
+20 1 1 
+13 3 -1 1 -2 
+31 0 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.resetInternalState()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 7
+1 1 -1 
+35 1 -1 
+20 1 -1 
+25 1 -1 
+10 1 -1 
+30 1 -1 
+15 1 -1 
+Functions: 1
+5 1 -1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getDefaultWriteParam()Ljavax/imageio/ImageWriteParam;
+PTG:
+Vars:
+3
+r1 1 -1 
+$r0 1 0 
+_ret 1 0 
+Fields: 0
+Accesses: 0
+Functions: 1
+5 1 0 
+Constructors: 1
+5 0
+
+Summary: 1
+-1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.collectScans(Lcom/sun/imageio/plugins/jpeg/JPEGMetadata;Lcom/sun/imageio/plugins/jpeg/SOFMarkerSegment;)[I
+PTG:
+Vars:
+19
+r16 1 24 
+$r13 1 188 
+_ret 1 102 
+$r5 1 124 
+$r0 1 0 
+$r8 1 143 
+$r3 1 16 
+$r12 1 188 
+r11 1 -3 
+r2 1 -2 
+$r15 1 38 
+r6 1 124 
+$r10 1 176 
+$r9 1 143 
+r18 1 102 
+$r7 1 143 
+$r14 1 203 
+r17 1 38 
+r4 1 -1 
+Fields: 5
+-2 markerSequence 16
+-3 componentSpecs 188
+188 ArrayObject 203
+124 componentSpecs 143
+143 ArrayObject 176
+Accesses: 16
+160 1 124 
+197 1 -3 
+293 1 124 
+73 1 -1 
+169 1 124 
+203 1 203 
+267 1 124 
+141 1 124 
+15 1 -2 
+176 1 176 
+114 1 -1 
+280 1 124 
+187 1 -3 
+92 1 -1 
+254 1 124 
+95 1 -1 
+Functions: 8
+16 1 16 
+4 1 0 
+36 1 24 
+86 1 0 
+121 1 0 
+26 1 24 
+59 2 0 38 
+76 1 0 
+Constructors: 1
+4 0
+
+Summary: 14
+24 -3 -1 38 176 -2 188 0 16 124 1 0 143 203 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.checkJFIF(Lcom/sun/imageio/plugins/jpeg/JFIFMarkerSegment;Ljavax/imageio/ImageTypeSpecifier;Z)V
+PTG:
+Vars:
+3
+r1 1 -3 
+r0 1 -2 
+r2 1 -1 
+Fields: 0
+Accesses: 1
+14 1 -1 
+Functions: 2
+5 1 -3 
+27 1 -1 
+Constructors: 0
+
+Summary: 5
+-2 -3 -1 0 1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getSrcCSType(Ljava/awt/image/RenderedImage;)I
+PTG:
+Vars:
+3
+r1 1 -2 
+$r2 1 2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 2 
+1 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 -1 2 0 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.access$200(J)V
+PTG:
+Vars:
+0
+Fields: 0
+Accesses: 0
+Functions: 1
+1 0 
+Constructors: 0
+
+Summary: 0
+
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getDefaultDestCSType(Ljavax/imageio/ImageTypeSpecifier;)I
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 2 
+1 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 -1 2 0 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.getSrcCSType(Ljavax/imageio/ImageTypeSpecifier;)I
+PTG:
+Vars:
+3
+r0 1 -1 
+r1 1 -2 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 2 
+1 1 -2 
+Constructors: 0
+
+Summary: 4
+-2 -1 2 0 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.jfifOK(Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/metadata/IIOMetadata;)Z
+PTG:
+Vars:
+8
+$r4 1 45 
+$r5 1 58 
+r3 1 -3 
+r0 1 -2 
+r2 1 -1 
+r6 1 -4 
+r7 2 45 -5 
+r1 1 -5 
+Fields: 0
+Accesses: 0
+Functions: 3
+5 1 -2 
+53 2 -5 45 
+40 4 -1 -2 -3 -5 
+Constructors: 0
+
+Summary: 11
+-2 -3 2 -1 -4 3 58 0 45 -5 1 
+com/sun/imageio/plugins/jpeg/JPEGImageWriter.reset()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 5 
+Fields: 1
+-1 cbLock 5
+Accesses: 1
+4 1 -1 
+Functions: 5
+16 2 -1 5 
+1 2 -1 5 
+8 1 5 
+24 2 -1 5 
+12 2 -1 5 
+Constructors: 0
+
+Summary: 1
+-1 

@@ -1,0 +1,658 @@
+25
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.endDocument()V
+PTG:
+Vars:
+2
+r0 1 -1 
+$r1 1 1 
+Fields: 1
+-1 _nodeStk 1
+Accesses: 1
+0 1 -1 
+Functions: 1
+4 1 1 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.createDocument(Z)Lorg/w3c/dom/Document;
+PTG:
+Vars:
+10
+$r3 1 1 
+$r4 1 65 
+r0 1 -1 
+$r1 1 1 
+$r8 1 1 
+r11 2 71 52 
+$r7 1 9 
+_ret 2 71 52 
+$r6 1 46 
+$r5 1 1 
+Fields: 1
+-1 _factory 1
+Accesses: 8
+0 1 -1 
+32 1 -1 
+17 1 -1 
+35 1 -1 
+20 1 -1 
+42 1 -1 
+12 1 -1 
+61 1 -1 
+Functions: 5
+65 1 65 
+8 0 
+43 1 1 
+46 1 46 
+62 1 1 
+Constructors: 0
+
+Summary: 3
+46 65 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.comment([CII)V
+PTG:
+Vars:
+11
+$r10 1 52 
+r0 1 -1 
+$r1 1 5 
+$r6 1 17 
+r7 1 35 
+$r8 1 45 
+r5 1 -2 
+$r2 1 8 
+r3 1 8 
+$r4 1 20 
+$r11 1 52 
+Fields: 4
+-1 _document 17
+-1 _nodeStk 5
+-1 _root 45
+-1 _nextSibling 52
+Accesses: 6
+16 1 -1 
+51 1 -1 
+4 1 -1 
+88 1 -1 
+44 1 -1 
+62 1 -1 
+Functions: 6
+1 5 -1 17 52 5 45 
+17 2 17 20 
+66 3 35 52 8 
+5 1 5 
+27 2 -2 20 
+79 2 35 8 
+Constructors: 1
+27 20
+
+Summary: 4
+20 -2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.endElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+5
+r5 1 -4 
+$r1 1 5 
+r3 1 -2 
+r4 1 -3 
+r0 1 -1 
+Fields: 1
+-1 _nodeStk 5
+Accesses: 2
+4 1 -1 
+14 1 -1 
+Functions: 2
+1 2 -1 5 
+8 1 5 
+Constructors: 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.appendTextNode()V
+PTG:
+Vars:
+19
+$r11 1 30 
+$r1 1 1 
+$r12 1 1 
+$r18 1 1 
+r4 1 14 
+$r13 1 39 
+$r16 1 30 
+$r2 1 11 
+$r14 1 46 
+$r8 1 79 
+r0 1 -1 
+$r7 1 72 
+$r6 1 1 
+$r17 1 58 
+$r5 1 23 
+$r15 1 49 
+$r3 1 14 
+$r9 1 82 
+$r10 1 87 
+Fields: 6
+-1 _nextSiblingCache 30
+-1 _document 39
+-1 _document 72
+-1 _nodeStk 11
+-1 _textBuffer 1
+-1 _root 23
+Accesses: 12
+0 1 -1 
+22 1 -1 
+38 1 -1 
+54 1 -1 
+71 1 -1 
+10 1 -1 
+42 1 -1 
+75 1 -1 
+92 1 -1 
+29 1 -1 
+63 1 -1 
+95 1 -1 
+Functions: 9
+1 1 1 
+100 1 1 
+37 3 49 14 30 
+70 2 82 14 
+39 2 39 46 
+72 2 72 79 
+11 1 11 
+43 1 1 
+76 1 1 
+Constructors: 0
+
+Summary: 5
+46 49 82 79 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.startDTD(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+4
+r0 1 -1 
+r2 1 -3 
+r1 1 -2 
+r3 1 -4 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 7
+-3 -2 2 0 -1 -4 1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.getDOM()Lorg/w3c/dom/Node;
+PTG:
+Vars:
+3
+r0 1 -1 
+$r1 1 1 
+_ret 1 1 
+Fields: 1
+-1 _root 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.setDocumentLocator(Lorg/xml/sax/Locator;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 1
+2 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 2
+0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.endPrefixMapping(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.startCDATA()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.ignorableWhitespace([CII)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+PTG:
+Vars:
+38
+$r32 1 138 
+$r18 1 301 
+r38 1 199 
+$r21 1 251 
+$r29 1 121 
+r15 1 210 
+r6 1 -5 
+$r3 1 21 
+$r34 1 147 
+$r24 1 34 
+$r16 1 216 
+r1 1 -2 
+$r9 1 354 
+r36 1 -3 
+$r25 1 68 
+$r17 1 287 
+r0 1 -1 
+$r22 1 34 
+$r23 1 34 
+$r35 1 147 
+$r8 1 343 
+r39 1 343 
+r2 1 -4 
+$r5 1 34 
+$r27 1 103 
+$r30 1 130 
+$r12 1 361 
+r4 1 31 
+$r13 1 361 
+$r26 1 34 
+$r7 1 340 
+$r28 1 103 
+$r19 1 322 
+$r40 1 340 
+$r31 1 135 
+$r33 1 34 
+r37 1 68 
+$r20 1 237 
+Fields: 5
+-1 _document 21
+-1 _namespaceDecls 34
+-1 _nodeStk 340
+-1 _root 354
+-1 _nextSibling 361
+Accesses: 15
+33 1 -1 
+97 1 -1 
+353 1 -1 
+4 1 -1 
+164 1 -1 
+40 1 -1 
+360 1 -1 
+394 1 -1 
+141 1 -1 
+17 1 -1 
+339 1 -1 
+371 1 -1 
+20 1 -1 
+406 1 -1 
+59 1 -1 
+Functions: 35
+1 6 -1 34 354 340 21 361 
+130 2 130 68 
+388 2 343 31 
+135 1 135 
+328 3 210 322 31 
+201 1 -5 
+12 6 -1 34 354 340 21 361 
+269 2 199 31 
+142 1 34 
+400 2 340 31 
+81 1 68 
+212 1 -5 
+340 1 340 
+21 3 -2 -4 21 
+216 1 216 
+153 3 147 138 31 
+283 1 -5 
+98 1 34 
+292 4 210 199 31 287 
+168 1 34 
+41 1 34 
+233 1 -5 
+297 1 -5 
+171 1 -5 
+109 2 103 31 
+301 1 301 
+242 3 199 237 31 
+247 1 -5 
+375 3 343 361 31 
+121 1 121 
+251 1 251 
+60 1 34 
+125 1 121 
+190 1 -5 
+318 1 -5 
+Constructors: 1
+125 121
+
+Summary: 23
+-3 210 147 216 138 1 287 3 68 -5 31 237 251 103 322 -2 135 0 -4 301 2 199 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.endDTD()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.processingInstruction(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+11
+r4 1 -2 
+$r1 1 5 
+$r6 1 16 
+r0 1 -1 
+$r8 1 35 
+$r11 1 42 
+$r2 1 8 
+$r10 1 42 
+r5 1 -3 
+r7 1 26 
+r3 1 8 
+Fields: 4
+-1 _document 16
+-1 _nodeStk 5
+-1 _root 35
+-1 _nextSibling 42
+Accesses: 6
+34 1 -1 
+51 1 -1 
+4 1 -1 
+41 1 -1 
+76 1 -1 
+15 1 -1 
+Functions: 5
+16 3 16 -2 -3 
+1 5 -1 16 35 5 42 
+67 2 8 26 
+5 1 5 
+55 3 8 26 42 
+Constructors: 0
+
+Summary: 5
+-3 -2 0 -1 1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.<init>(Z)V
+PTG:
+Vars:
+5
+r0 1 -1 
+$r2 1 51 
+$r4 1 82 
+$r3 1 74 
+$r1 1 20 
+Fields: 1
+-1 _document 82
+Accesses: 14
+32 1 -1 
+68 1 -1 
+37 1 -1 
+6 1 -1 
+42 1 -1 
+11 1 -1 
+77 1 -1 
+47 1 -1 
+16 1 -1 
+81 1 -1 
+85 1 -1 
+58 1 -1 
+27 1 -1 
+63 1 -1 
+Functions: 4
+1 2 -1 82 
+55 1 51 
+24 1 20 
+72 2 -1 82 
+Constructors: 3
+1 -1
+55 51
+24 20
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.<init>(Lorg/w3c/dom/Node;Z)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+4 2 -1 -2 
+Constructors: 1
+4 -1
+
+Summary: 2
+-2 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.setDocumentInfo()V
+PTG:
+Vars:
+7
+$r4 1 9 
+$r1 1 1 
+$r2 1 1 
+$r3 1 1 
+$r5 1 19 
+r0 1 -1 
+$r6 1 -1 
+Fields: 2
+-1 _document 9
+-1 locator 1
+Accesses: 3
+0 1 -1 
+8 1 -1 
+12 1 -1 
+Functions: 2
+16 1 1 
+24 2 19 9 
+Constructors: 0
+
+Summary: 2
+-1 19 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.<init>(Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;Z)V
+PTG:
+Vars:
+9
+$r4 1 114 
+$r8 1 -2 
+r6 1 -3 
+$r5 1 122 
+$r2 1 51 
+r0 1 -1 
+$r7 1 100 
+r3 1 -2 
+$r1 1 20 
+Fields: 1
+-1 _document 122
+Accesses: 18
+32 1 -1 
+130 1 -1 
+68 1 -1 
+37 1 -1 
+6 1 -1 
+73 1 -1 
+105 1 -1 
+42 1 -1 
+11 1 -1 
+47 1 -1 
+16 1 -1 
+117 1 -1 
+88 1 -1 
+121 1 -1 
+58 1 -1 
+27 1 -1 
+125 1 -1 
+63 1 -1 
+Functions: 5
+112 2 -1 122 
+1 2 -1 122 
+99 1 -2 
+55 1 51 
+24 1 20 
+Constructors: 3
+1 -1
+55 51
+24 20
+
+Summary: 3
+0 -1 1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.startDocument()V
+PTG:
+Vars:
+3
+r0 1 -1 
+$r2 1 1 
+$r1 1 5 
+Fields: 2
+-1 _nodeStk 1
+-1 _root 5
+Accesses: 2
+0 1 -1 
+4 1 -1 
+Functions: 1
+8 2 1 5 
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.endCDATA()V
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.skippedEntity(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r1 1 -2 
+r0 1 -1 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.startEntity(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.endEntity(Ljava/lang/String;)V
+PTG:
+Vars:
+2
+r0 1 -1 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 0
+Constructors: 0
+
+Summary: 3
+-2 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.characters([CII)V
+PTG:
+Vars:
+8
+$r5 1 28 
+r6 1 -2 
+r3 1 9 
+$r4 1 20 
+$r7 1 35 
+$r1 1 6 
+r0 1 -1 
+$r2 1 9 
+Fields: 4
+-1 _document 20
+-1 _nodeStk 6
+-1 _textBuffer 35
+-1 _nextSibling 28
+Accesses: 5
+34 1 -1 
+19 1 -1 
+5 1 -1 
+27 1 -1 
+31 1 -1 
+Functions: 2
+6 1 6 
+41 2 -2 35 
+Constructors: 0
+
+Summary: 4
+-2 9 0 -1 
+com/sun/org/apache/xalan/internal/xsltc/trax/SAX2DOM.startPrefixMapping(Ljava/lang/String;Ljava/lang/String;)V
+PTG:
+Vars:
+7
+$r6 1 8 
+r2 1 -2 
+$r3 1 1 
+$r1 1 1 
+r4 1 -3 
+r0 1 -1 
+$r5 1 1 
+Fields: 1
+-1 _namespaceDecls 1
+Accesses: 4
+0 1 -1 
+16 1 -1 
+19 1 -1 
+27 1 -1 
+Functions: 3
+32 2 1 -3 
+24 2 1 -2 
+13 1 8 
+Constructors: 1
+13 8
+
+Summary: 5
+-3 -2 0 -1 1 

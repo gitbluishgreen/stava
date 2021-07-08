@@ -1,0 +1,535 @@
+17
+java/awt/image/RescaleOp.filter(Ljava/awt/image/Raster;Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+PTG:
+Vars:
+5
+$r3 1 8 
+r1 1 -2 
+_ret 1 8 
+r0 1 -1 
+r2 1 -3 
+Fields: 0
+Accesses: 1
+3 1 -1 
+Functions: 1
+0 3 -1 -2 -3 
+Constructors: 0
+
+Summary: 3
+-2 -1 -3 
+java/awt/image/RescaleOp.<init>([F[FLjava/awt/RenderingHints;)V
+PTG:
+Vars:
+8
+r0 1 -1 
+$r7 1 74 
+$r3 1 35 
+$r4 1 45 
+r2 1 -3 
+r5 1 -4 
+r1 1 -2 
+$r6 1 63 
+Fields: 2
+-1 scaleFactors 63
+-1 offsets 74
+Accesses: 12
+37 1 -1 
+6 1 -1 
+55 1 -1 
+41 1 -1 
+73 1 -1 
+27 1 -1 
+12 1 -1 
+92 1 -1 
+62 1 -1 
+15 1 -1 
+31 1 -1 
+47 1 -1 
+Functions: 1
+1 3 -1 74 63 
+Constructors: 1
+1 -1
+
+Summary: 5
+-2 -1 1 -3 0 
+java/awt/image/RescaleOp.createCompatibleDestRaster(Ljava/awt/image/Raster;)Ljava/awt/image/WritableRaster;
+PTG:
+Vars:
+4
+r2 1 -1 
+r0 1 -2 
+$r1 1 9 
+_ret 1 9 
+Fields: 0
+Accesses: 0
+Functions: 3
+0 1 -2 
+1 1 -2 
+5 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/awt/image/RescaleOp.getRenderingHints()Ljava/awt/RenderingHints;
+PTG:
+Vars:
+3
+r0 1 -1 
+_ret 1 1 
+$r1 1 1 
+Fields: 1
+-1 hints 1
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/image/RescaleOp.canUseLookup(Ljava/awt/image/Raster;Ljava/awt/image/Raster;)Z
+PTG:
+Vars:
+8
+$r1 1 1 
+r7 1 97 
+r2 1 -3 
+r6 1 23 
+r3 1 23 
+r4 1 -1 
+r0 1 -2 
+r5 1 97 
+Fields: 0
+Accesses: 7
+32 1 -1 
+35 1 -1 
+106 1 -1 
+44 1 -1 
+109 1 -1 
+78 1 -1 
+143 1 -1 
+Functions: 14
+0 1 -2 
+1 1 1 
+67 1 23 
+100 1 97 
+132 1 97 
+202 1 97 
+173 1 23 
+207 1 -2 
+178 1 -3 
+19 1 -3 
+26 1 23 
+60 1 -2 
+93 1 -2 
+125 1 -2 
+Constructors: 0
+
+Summary: 8
+-2 97 -1 1 -3 23 1 0 
+java/awt/image/RescaleOp.getScaleFactors([F)[F
+PTG:
+Vars:
+5
+$r2 1 19 
+$r3 1 19 
+r0 1 -2 
+_ret 1 -2 
+r1 1 -1 
+Fields: 1
+-1 scaleFactors 19
+Accesses: 3
+18 1 -1 
+4 1 -1 
+25 1 -1 
+Functions: 3
+35 2 -2 19 
+5 0 
+31 0 
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/image/RescaleOp.createByteLut([F[FII)Ljava/awt/image/ByteLookupTable;
+PTG:
+Vars:
+10
+r7 1 179 
+$r3 1 144 
+r6 1 36 
+r4 1 -3 
+_ret 1 205 
+$r8 1 205 
+r1 1 -2 
+r0 1 3 
+$r2 1 150 
+r5 1 -1 
+Fields: 4
+3 ArrayObject 150
+3 ArrayObject 179
+3 ArrayObject 144
+3 ArrayObject 36
+Accesses: 0
+Functions: 2
+212 6 144 3 179 36 150 205 
+154 2 144 150 
+Constructors: 1
+212 205
+
+Summary: 10
+-2 3 150 179 -1 36 1 -3 144 0 
+java/awt/image/RescaleOp.getNumFactors()I
+PTG:
+Vars:
+1
+r0 1 -1 
+Fields: 0
+Accesses: 1
+0 1 -1 
+Functions: 0
+Constructors: 0
+
+Summary: 1
+-1 
+java/awt/image/RescaleOp.filter(Ljava/awt/image/BufferedImage;Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+PTG:
+Vars:
+18
+r0 1 -2 
+r37 1 342 
+$r10 1 280 
+$r9 1 346 
+r36 1 310 
+r2 1 -1 
+$r3 1 240 
+r5 3 266 118 -3 
+$r6 1 376 
+$r4 1 248 
+$r35 1 273 
+_ret 3 266 118 -3 
+$r7 1 381 
+r1 1 4 
+r34 1 237 
+$r11 1 287 
+r12 1 316 
+r32 4 266 305 118 -3 
+Fields: 1
+-1 hints 381
+Accesses: 7
+323 1 -1 
+36 1 -1 
+72 1 -1 
+28 1 -1 
+380 1 -1 
+45 1 -1 
+93 1 -1 
+Functions: 50
+0 1 -2 
+384 2 376 381 
+260 3 -1 -2 381 
+5 1 4 
+138 0 
+394 5 305 -3 118 376 266 
+142 0 
+272 7 -1 -2 305 -3 118 266 381 
+147 0 
+279 1 -2 
+24 0 
+152 0 
+280 1 280 
+157 0 
+286 4 305 -3 118 266 
+287 1 287 
+160 4 305 -3 118 266 
+164 0 
+169 0 
+299 3 -1 -2 381 
+175 0 
+49 1 4 
+306 1 -2 
+181 4 305 -3 118 266 
+312 4 305 -3 118 266 
+62 0 
+192 0 
+196 0 
+328 4 -1 310 316 381 
+201 0 
+206 0 
+81 1 4 
+337 3 -3 118 266 
+211 0 
+214 4 305 -3 118 266 
+218 0 
+349 2 342 346 
+223 0 
+96 1 -2 
+229 0 
+102 1 -2 
+233 4 305 -3 118 266 
+362 5 305 -3 342 118 266 
+239 1 4 
+112 3 -1 -2 381 
+240 1 240 
+368 1 342 
+246 1 237 
+248 1 248 
+127 4 305 -3 118 266 
+Constructors: 1
+384 376
+
+Summary: 28
+273 218 240 152 157 223 169 4 164 192 211 280 376 -1 310 172 201 -2 342 226 237 287 248 316 305 138 206 147 
+java/awt/image/RescaleOp.getPoint2D(Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+PTG:
+Vars:
+5
+r2 1 -1 
+r0 1 -2 
+r3 2 -3 4 
+$r1 1 4 
+_ret 2 -3 4 
+Fields: 0
+Accesses: 0
+Functions: 4
+17 1 -2 
+21 2 -3 4 
+8 1 4 
+13 1 -2 
+Constructors: 1
+8 4
+
+Summary: 2
+-2 -1 
+java/awt/image/RescaleOp.<init>(FFLjava/awt/RenderingHints;)V
+PTG:
+Vars:
+6
+$r2 1 23 
+r5 1 -4 
+$r3 1 29 
+$r4 1 36 
+r0 1 -1 
+$r1 1 16 
+Fields: 2
+-1 scaleFactors 29
+-1 offsets 36
+Accesses: 7
+18 1 -1 
+35 1 -1 
+6 1 -1 
+25 1 -1 
+11 1 -1 
+28 1 -1 
+44 1 -1 
+Functions: 1
+1 3 -1 36 29 
+Constructors: 1
+1 -1
+
+Summary: 1
+-1 
+java/awt/image/RescaleOp.filterRasterImpl(Ljava/awt/image/Raster;Ljava/awt/image/WritableRaster;IZ)Ljava/awt/image/WritableRaster;
+PTG:
+Vars:
+21
+$r9 1 258 
+r4 1 320 
+$r31 1 470 
+$r32 1 478 
+r2 1 -1 
+r25 1 416 
+$r11 1 195 
+$r8 1 251 
+$r6 1 239 
+r3 1 314 
+r0 1 -2 
+r27 1 205 
+r29 1 249 
+r24 2 36 -3 
+$r14 1 214 
+_ret 2 36 -3 
+$r26 1 148 
+$r7 1 235 
+$r13 1 207 
+$r12 1 191 
+r5 1 328 
+Fields: 8
+-1 scaleFactors 191
+-1 scaleFactors 235
+-1 scaleFactors 470
+-1 offsets 478
+-1 offsets 195
+-1 offsets 239
+-1 hints 258
+-1 hints 214
+Accesses: 11
+257 1 -1 
+194 1 -1 
+213 1 -1 
+277 1 -1 
+469 1 -1 
+166 1 -1 
+234 1 -1 
+477 1 -1 
+174 1 -1 
+190 1 -1 
+238 1 -1 
+Functions: 34
+0 1 -2 
+64 0 
+128 1 -2 
+324 2 -3 36 
+261 3 258 249 251 
+6 1 -2 
+70 2 -3 36 
+12 1 -2 
+141 0 
+270 4 -2 -3 36 251 
+81 0 
+147 12 -1 -2 258 -3 195 36 470 214 235 478 191 239 
+340 1 328 
+85 0 
+406 2 416 -2 
+217 3 214 205 207 
+90 0 
+156 12 -1 -2 258 -3 195 36 470 214 235 478 191 239 
+31 10 -1 -2 258 195 470 214 235 478 191 239 
+95 0 
+288 1 -2 
+544 3 416 -3 36 
+226 4 -2 -3 36 207 
+100 0 
+294 1 -2 
+103 2 -3 36 
+233 9 -1 258 195 470 214 235 478 191 239 
+42 2 -3 36 
+107 0 
+300 2 -3 36 
+113 0 
+306 2 -3 36 
+51 2 -3 36 
+189 9 -1 258 195 470 214 235 478 191 239 
+Constructors: 2
+261 251
+217 207
+
+Summary: 19
+416 207 328 -1 90 314 -2 100 110 1 81 320 249 148 205 95 107 251 0 
+java/awt/image/RescaleOp.getBounds2D(Ljava/awt/image/Raster;)Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+4
+$r1 1 1 
+_ret 1 1 
+r2 1 -1 
+r0 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 1
+0 1 -2 
+Constructors: 0
+
+Summary: 2
+-2 -1 
+java/awt/image/RescaleOp.createCompatibleDestImage(Ljava/awt/image/BufferedImage;Ljava/awt/image/ColorModel;)Ljava/awt/image/BufferedImage;
+PTG:
+Vars:
+11
+$r2 1 48 
+r0 1 -3 
+$r6 1 20 
+r7 1 -1 
+$r3 1 58 
+_ret 2 48 10 
+$r5 1 17 
+r9 2 48 10 
+r8 1 8 
+$r4 1 10 
+r1 1 -2 
+Fields: 0
+Accesses: 0
+Functions: 10
+16 1 -2 
+17 1 17 
+66 3 48 -3 58 
+4 1 -2 
+36 1 -2 
+53 1 -3 
+23 1 8 
+42 1 -2 
+29 3 20 8 10 
+61 1 -3 
+Constructors: 2
+66 48
+29 10
+
+Summary: 7
+58 -2 17 -1 20 -3 8 
+java/awt/image/RescaleOp.createShortLut([F[FII)Ljava/awt/image/ShortLookupTable;
+PTG:
+Vars:
+10
+$r2 1 151 
+r5 1 -1 
+_ret 1 206 
+r1 1 -2 
+r7 1 180 
+$r8 1 206 
+r6 1 39 
+r0 1 3 
+$r3 1 145 
+r4 1 -3 
+Fields: 4
+3 ArrayObject 180
+3 ArrayObject 151
+3 ArrayObject 145
+3 ArrayObject 39
+Accesses: 0
+Functions: 2
+213 6 145 3 180 151 39 206 
+155 2 145 151 
+Constructors: 1
+213 206
+
+Summary: 10
+-2 3 -1 1 -3 151 180 0 39 145 
+java/awt/image/RescaleOp.getBounds2D(Ljava/awt/image/BufferedImage;)Ljava/awt/geom/Rectangle2D;
+PTG:
+Vars:
+5
+$r3 1 5 
+r1 1 -2 
+r0 1 -1 
+_ret 1 5 
+$r2 1 2 
+Fields: 0
+Accesses: 0
+Functions: 2
+0 2 -1 2 
+1 1 -2 
+Constructors: 0
+
+Summary: 3
+-2 -1 2 
+java/awt/image/RescaleOp.getOffsets([F)[F
+PTG:
+Vars:
+5
+r1 1 -1 
+$r3 1 19 
+$r2 1 19 
+_ret 1 -2 
+r0 1 -2 
+Fields: 1
+-1 offsets 19
+Accesses: 3
+18 1 -1 
+4 1 -1 
+25 1 -1 
+Functions: 3
+35 2 -2 19 
+5 0 
+31 0 
+Constructors: 0
+
+Summary: 1
+-1 
